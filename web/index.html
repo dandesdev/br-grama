@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>br-grama: como funciona o Estado brasileiro</title>
+    <link rel="stylesheet" href="./src/estilo.css" />
+  </head>
+  <body>
+    <header class="barra">
+      <div class="marca">
+        <strong>br-grama</strong>
+        <span class="sub" id="data-referencia"></span>
+      </div>
+      <div class="busca">
+        <input id="busca" type="search" placeholder="Buscar órgão ou cargo…" autocomplete="off" aria-label="Buscar órgão ou cargo" />
+        <ul id="busca-resultados" role="listbox" hidden></ul>
+      </div>
+      <div class="camadas" role="group" aria-label="Camadas">
+        <span class="rotulo">Relações</span>
+        <div id="filtro-grupos" class="grupos"></div>
+        <label class="processo">
+          <span class="rotulo">Processo</span>
+          <select id="processo"></select>
+        </label>
+        <label class="chave"><input type="checkbox" id="achados" /> Achados</label>
+      </div>
+      <button id="tema" class="botao-icone" title="Alternar tema claro/escuro" aria-label="Alternar tema">◐</button>
+    </header>
+    <main>
+      <div id="mapa" aria-label="Mapa do Estado brasileiro"></div>
+      <aside id="painel" aria-live="polite"></aside>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "br-grama",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "validar": "tsx scripts/validar.ts",
+    "build:dados": "tsx scripts/build-dados.ts",
+    "dev": "npm run build:dados && vite",
+    "build": "npm run validar && npm run build:dados && vite build",
+    "tipos": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "elkjs": "^0.12.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "cytoscape": "^3.34.4"
+  }
+}

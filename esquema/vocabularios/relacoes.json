@@ -1,0 +1,44 @@
+{
+  "_descricao": "Tipos de relação (aresta). Leitura: <de> <relação> <para>.",
+  "integra": { "grupo": "estrutura", "definicao": "É parte componente de outro órgão ou Poder." },
+  "subordina-se": { "grupo": "estrutura", "definicao": "Está sob comando hierárquico de outro órgão ou cargo." },
+  "vincula-se": { "grupo": "estrutura", "definicao": "Entidade da administração indireta sob supervisão de um órgão, sem hierarquia." },
+  "preside": { "grupo": "estrutura", "definicao": "Dirige os trabalhos de um órgão ou colegiado." },
+
+  "ocupa": { "grupo": "pessoas", "definicao": "A pessoa exerce o cargo no período indicado." },
+  "elege": { "grupo": "pessoas", "definicao": "Escolhe por votação quem ocupará um cargo." },
+  "indica": { "grupo": "pessoas", "definicao": "Propõe um nome para um cargo; a escolha depende de aprovação de outro." },
+  "aprova-indicacao": { "grupo": "pessoas", "definicao": "Aprova ou rejeita o nome indicado para um cargo." },
+  "nomeia": { "grupo": "pessoas", "definicao": "Investe formalmente alguém em um cargo." },
+  "exonera": { "grupo": "pessoas", "definicao": "Desliga alguém de um cargo." },
+  "substitui": { "grupo": "pessoas", "definicao": "Exerce o cargo de outro temporariamente, durante impedimento ou ausência." },
+  "sucede": { "grupo": "pessoas", "definicao": "Assume o cargo de outro em definitivo, quando o cargo fica vago." },
+
+  "propoe": { "grupo": "normas", "definicao": "Tem iniciativa para apresentar proposta de norma." },
+  "delibera": { "grupo": "normas", "definicao": "Discute e vota propostas de norma." },
+  "sanciona": { "grupo": "normas", "definicao": "Concorda com projeto de lei aprovado, que assim se torna lei." },
+  "veta": { "grupo": "normas", "definicao": "Recusa, total ou parcialmente, projeto de lei aprovado." },
+  "aprecia-veto": { "grupo": "normas", "definicao": "Decide se mantém ou derruba um veto." },
+  "promulga": { "grupo": "normas", "definicao": "Declara a existência da norma e ordena seu cumprimento." },
+  "publica": { "grupo": "normas", "definicao": "Torna a norma oficialmente conhecida, em diário oficial." },
+  "regulamenta": { "grupo": "normas", "definicao": "Edita normas para a fiel execução de leis." },
+  "controla-constitucionalidade": { "grupo": "normas", "definicao": "Verifica se normas e atos de outro estão de acordo com a Constituição e pode invalidá-los." },
+
+  "fiscaliza": { "grupo": "controle", "definicao": "Exerce controle externo sobre as contas e a atuação de outro." },
+  "auxilia": { "grupo": "controle", "definicao": "Presta apoio técnico a outro no exercício de uma competência dele." },
+  "controla-internamente": { "grupo": "controle", "definicao": "Exerce controle interno sobre a gestão de outro, dentro do mesmo Poder." },
+  "presta-contas-a": { "grupo": "controle", "definicao": "Deve apresentar suas contas a outro." },
+  "corrige": { "grupo": "controle", "definicao": "Apura e pune infrações funcionais de membros ou servidores (corregedoria)." },
+  "autoriza-processo": { "grupo": "controle", "definicao": "Autoriza a abertura de processo contra o ocupante de um cargo." },
+  "julga": { "grupo": "controle", "definicao": "Decide processos em que outro é parte ou cujo objeto são atos de outro." },
+
+  "regula": { "grupo": "poderes-administrativos", "definicao": "Edita normas técnicas e fiscaliza um setor." },
+  "exerce-poder-de-policia-sobre": { "grupo": "poderes-administrativos", "definicao": "Limita e fiscaliza atividades particulares em nome do interesse público." },
+  "exerce-poder-disciplinar-sobre": { "grupo": "poderes-administrativos", "definicao": "Pode punir infrações funcionais de quem está sob sua autoridade." },
+
+  "arrecada": { "grupo": "recursos", "definicao": "Recolhe tributos ou receitas de outro." },
+  "repassa-recursos": { "grupo": "recursos", "definicao": "Transfere recursos financeiros a outro." },
+
+  "representa-judicialmente": { "grupo": "representacao", "definicao": "Atua em juízo em nome de outro." },
+  "assessora": { "grupo": "representacao", "definicao": "Dá apoio direto e aconselhamento a outro." }
+}

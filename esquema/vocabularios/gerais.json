@@ -1,0 +1,91 @@
+{
+  "_descricao": "Vocabulários menores. Cada termo tem uma definição curta, exibida no botão 'i'.",
+
+  "poder": {
+    "povo": "Titular de todo o poder, que o exerce por representantes eleitos ou diretamente (CF, art. 1º, parágrafo único).",
+    "executivo": "Administra o Estado e executa as leis.",
+    "legislativo": "Faz as leis e fiscaliza o Executivo.",
+    "judiciario": "Resolve conflitos aplicando a lei.",
+    "funcoes-essenciais-a-justica": "Instituições fora dos três Poderes, essenciais à Justiça: Ministério Público, Advocacia Pública, Advocacia e Defensoria Pública.",
+    "nao-estatal": "Não integra o Estado, mas participa do seu funcionamento."
+  },
+
+  "esfera": {
+    "federal": "União.",
+    "estadual": "Estados.",
+    "distrital": "Distrito Federal.",
+    "municipal": "Municípios.",
+    "internacional": "Acima dos Estados nacionais."
+  },
+
+  "tipo_ente": {
+    "uniao": "Ente federativo central.",
+    "estado": "Ente federativo regional.",
+    "distrito-federal": "Ente federativo que acumula competências de estado e de município, sem se dividir em municípios.",
+    "municipio": "Ente federativo local."
+  },
+
+  "arquetipo": {
+    "estadual": "Estrutura típica de um estado; as exceções estão nas variações.",
+    "municipal": "Estrutura típica de um município; as exceções estão nas variações."
+  },
+
+  "provimento": {
+    "eleicao-majoritaria-maioria-absoluta": "Eleição direta; vence quem obtiver a maioria absoluta dos votos válidos, com segundo turno se necessário.",
+    "eleicao-majoritaria-maioria-simples": "Eleição direta; vence o mais votado, em turno único.",
+    "eleicao-proporcional": "Eleição direta; as vagas são divididas entre partidos conforme a votação de cada um.",
+    "eleicao-conjunta": "Eleito junto com o titular, na mesma chapa.",
+    "eleicao-pelos-pares": "Escolhido por votação entre os membros do próprio órgão.",
+    "nomeacao-com-aprovacao-do-senado": "Nomeado pelo Presidente da República depois de aprovação do Senado Federal.",
+    "nomeacao-livre": "Nomeado e exonerado livremente pela autoridade competente.",
+    "concurso-publico": "Aprovado em concurso público de provas ou de provas e títulos.",
+    "nato": "Ocupa o cargo automaticamente por exercer outro.",
+    "variavel": "Depende do caso; ver provimento_condicao."
+  },
+
+  "confianca": {
+    "oficial": "Confirmado por norma ou dado oficial vigente na data de referência.",
+    "oficial-contraditorio": "Fontes oficiais divergem; ver o achado relacionado.",
+    "secundario": "Baseado em fonte não oficial (doutrina, enciclopédia, imprensa).",
+    "inferido": "Dedução nossa a partir das fontes, explicada nos detalhes.",
+    "indisponivel": "Não há fonte acessível: sigilo, falta de transparência ou lacuna."
+  },
+
+  "tipo_achado": {
+    "lacuna": "Informação que deveria ser pública e não foi encontrada.",
+    "contradicao": "Fontes oficiais dizem coisas diferentes.",
+    "sigilo": "Informação protegida por sigilo legal.",
+    "baixa-transparencia": "Informação pública, mas difícil de encontrar, incompleta ou em formato inadequado.",
+    "desatualizacao": "Fonte oficial desatualizada em relação à norma vigente.",
+    "ambiguidade-normativa": "A norma admite mais de uma leitura relevante."
+  },
+
+  "tipo_norma": {
+    "constituicao-federal": "Constituição da República.",
+    "emenda-constitucional": "Alteração do texto constitucional.",
+    "lei-complementar": "Lei que exige maioria absoluta, para matérias que a Constituição reserva.",
+    "lei-ordinaria": "Lei aprovada por maioria simples.",
+    "lei-delegada": "Lei editada pelo Presidente com delegação do Congresso.",
+    "medida-provisoria": "Ato do Presidente com força de lei, que perde efeito se não for convertido em lei.",
+    "decreto-lei": "Ato com força de lei editado em regimes anteriores; alguns continuam em vigor.",
+    "decreto-legislativo": "Ato do Congresso sobre matéria de sua competência exclusiva.",
+    "resolucao": "Ato de uma casa legislativa ou de um órgão colegiado.",
+    "decreto": "Ato do chefe do Executivo, em geral para regulamentar leis ou organizar a administração.",
+    "regimento-interno": "Regras de funcionamento interno de um órgão.",
+    "constituicao-estadual": "Constituição de um estado.",
+    "lei-organica": "Norma fundamental de um município ou do Distrito Federal.",
+    "lei-estadual": "Lei de um estado.",
+    "lei-municipal": "Lei de um município.",
+    "outro": "Outro tipo de ato; explicar em detalhes."
+  },
+
+  "tipo_fonte": {
+    "dados-abertos": "Base de dados oficial.",
+    "pagina-oficial": "Página institucional de órgão público.",
+    "relatorio-oficial": "Relatório ou publicação oficial.",
+    "doutrina": "Obra jurídica de referência.",
+    "enciclopedia": "Wikipedia, Wikidata e semelhantes.",
+    "imprensa": "Veículo jornalístico.",
+    "academico": "Artigo, tese ou estudo acadêmico."
+  }
+}

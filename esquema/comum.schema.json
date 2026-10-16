@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://br-grama.local/esquema/comum.schema.json",
+  "title": "Definições comuns a todas as entidades",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^(ente|org|cargo|pessoa|norma|fonte|rel|proc|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "data": {
+      "description": "AAAA, AAAA-MM ou AAAA-MM-DD (use a forma mais precisa que a fonte permitir).",
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"
+    },
+    "dataOuNulo": { "oneOf": [{ "$ref": "#/$defs/data" }, { "type": "null" }] },
+    "vigencia": {
+      "type": "object",
+      "required": ["de", "ate"],
+      "properties": {
+        "de": { "$ref": "#/$defs/dataOuNulo" },
+        "ate": { "$ref": "#/$defs/dataOuNulo" }
+      },
+      "additionalProperties": false
+    },
+    "fonte": {
+      "type": "object",
+      "required": ["ref"],
+      "properties": {
+        "ref": { "$ref": "#/$defs/id" },
+        "dispositivo": { "type": ["string", "null"], "description": "Artigo, inciso, página ou seção." },
+        "nota": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "fontes": { "type": "array", "items": { "$ref": "#/$defs/fonte" } },
+    "confianca": {
+      "enum": ["oficial", "oficial-contraditorio", "secundario", "inferido", "indisponivel"]
+    },
+    "verificacao": {
+      "type": "object",
+      "required": ["status", "em", "tarefa"],
+      "properties": {
+        "status": { "enum": ["coletado", "verificado"] },
+        "em": { "$ref": "#/$defs/data" },
+        "tarefa": { "type": "string" },
+        "notas": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "link": {
+      "type": "object",
+      "required": ["titulo", "url"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "base": {
+      "type": "object",
+      "required": ["id", "tipo", "nome", "vigencia", "confianca", "verificacao"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "tipo": { "type": "string" },
+        "nome": { "type": "string", "minLength": 1 },
+        "sigla": { "type": "string" },
+        "resumo": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "detalhes": { "type": "string" },
+        "vigencia": { "$ref": "#/$defs/vigencia" },
+        "fontes": { "$ref": "#/$defs/fontes" },
+        "fontes_por_campo": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/$defs/fontes" }
+        },
+        "confianca": { "$ref": "#/$defs/confianca" },
+        "verificacao": { "$ref": "#/$defs/verificacao" },
+        "mais_informacoes": { "type": "array", "items": { "$ref": "#/$defs/link" } },
+        "notas": { "type": "string" }
+      }
+    }
+  }
+}

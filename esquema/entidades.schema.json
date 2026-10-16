@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://br-grama.local/esquema/entidades.schema.json",
+  "title": "Esquemas por tipo de entidade",
+  "description": "Cada $defs.<tipo> valida um arquivo em dados/<pasta>/. Valores de vocabulário (tipo_orgao, relacao, provimento...) são conferidos pelo script de validação contra esquema/vocabularios/.",
+  "$defs": {
+    "ente": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["tipo_ente", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "ente" },
+        "tipo_ente": { "type": "string" },
+        "uf": { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "codigo_ibge": { "type": "string", "pattern": "^\\d{1,7}$" }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "orgao": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["tipo_orgao", "poder", "esfera", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "orgao" },
+        "tipo_orgao": { "type": "string" },
+        "poder": { "type": "string" },
+        "esfera": { "type": "string" },
+        "ente": { "$ref": "comum.schema.json#/$defs/id" },
+        "contido_em": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão que contém este no organograma." },
+        "arquetipo": { "enum": ["estadual", "municipal"] },
+        "estrutura_continua": {
+          "description": "Quando a estrutura interna existe mas não foi modelada (D09): onde encontrá-la.",
+          "$ref": "comum.schema.json#/$defs/fontes"
+        }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "cargo": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["orgao", "provimento", "quantidade", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "cargo" },
+        "orgao": { "$ref": "comum.schema.json#/$defs/id" },
+        "provimento": { "type": "string" },
+        "provimento_condicao": { "type": "string" },
+        "mandato": {
+          "type": ["object", "null"],
+          "properties": {
+            "anos": { "type": ["number", "null"] },
+            "reconducao": { "type": "string" },
+            "nota": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "quantidade": {
+          "description": "Número de vagas; null se variável. Use quantidade_nota para explicar.",
+          "type": ["integer", "null"],
+          "minimum": 1
+        },
+        "quantidade_nota": { "type": "string" },
+        "requisitos": { "type": "array", "items": { "type": "string" } },
+        "arquetipo": { "enum": ["estadual", "municipal"] }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "pessoa": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["fontes"],
+      "properties": {
+        "tipo": { "const": "pessoa" },
+        "filiacoes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["partido", "vigencia"],
+            "properties": {
+              "partido": { "$ref": "comum.schema.json#/$defs/id" },
+              "vigencia": { "$ref": "comum.schema.json#/$defs/vigencia" },
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "norma": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["tipo_norma", "data", "url", "acesso_em", "resumo"],
+      "properties": {
+        "tipo": { "const": "norma" },
+        "tipo_norma": { "type": "string" },
+        "numero": { "type": ["string", "null"] },
+        "data": { "$ref": "comum.schema.json#/$defs/data" },
+        "ente": { "$ref": "comum.schema.json#/$defs/id" },
+        "url": { "type": "string", "format": "uri" },
+        "acesso_em": { "$ref": "comum.schema.json#/$defs/data" },
+        "arquivo": { "type": ["string", "null"], "description": "Cópia no Wayback Machine." }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "fonte": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["tipo_fonte", "publicador", "acesso_em", "oficial"],
+      "properties": {
+        "tipo": { "const": "fonte" },
+        "tipo_fonte": { "type": "string" },
+        "publicador": { "type": "string" },
+        "autoria": { "type": "string" },
+        "url": { "type": ["string", "null"], "format": "uri" },
+        "referencia": { "type": "string", "description": "Citação bibliográfica, para fontes sem URL." },
+        "acesso_em": { "$ref": "comum.schema.json#/$defs/data" },
+        "arquivo": { "type": ["string", "null"] },
+        "oficial": { "type": "boolean" }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "relacao": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["relacao", "de", "para", "fontes"],
+      "properties": {
+        "tipo": { "const": "relacao" },
+        "relacao": { "type": "string" },
+        "de": { "$ref": "comum.schema.json#/$defs/id" },
+        "para": { "$ref": "comum.schema.json#/$defs/id" },
+        "condicao": { "type": "string" },
+        "depende_de": { "type": "array", "items": { "$ref": "comum.schema.json#/$defs/id" } }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "processo": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["forma", "etapas", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "processo" },
+        "forma": { "enum": ["linha", "ciclo"] },
+        "etapas": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "atores", "acao", "fontes", "seguintes"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+              "atores": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
+              "acao": { "type": "string", "maxLength": 120 },
+              "detalhes": { "type": "string" },
+              "prazo": { "type": ["string", "null"] },
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "seguintes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["para"],
+                  "properties": {
+                    "para": { "type": "string" },
+                    "quando": { "type": ["string", "null"] }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "final": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "achado": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["tipo_achado", "afeta", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "achado" },
+        "tipo_achado": { "type": "string" },
+        "afeta": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
+        "gravidade": { "enum": ["baixa", "media", "alta"] }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "variacao": {
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["entes", "difere_de", "porque", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "variacao" },
+        "entes": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
+        "difere_de": { "$ref": "comum.schema.json#/$defs/id" },
+        "instancia": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão real que materializa a variação, se houver." },
+        "porque": { "type": "string" }
+      },
+      "unevaluatedProperties": false
+    }
+  }
+}
