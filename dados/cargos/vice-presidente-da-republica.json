@@ -5,7 +5,7 @@
   "resumo": "Substitui o Presidente em caso de impedimento e o sucede em caso de vaga. É eleito na mesma chapa do Presidente.",
   "orgao": "org:vice-presidencia-da-republica",
   "provimento": "eleicao-conjunta",
-  "quantidade": 1,
+  "vagas": 1,
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -13,24 +13,51 @@
     }
   ],
   "detalhes": "Além das atribuições que lei complementar lhe der, auxilia o Presidente quando convocado para missões especiais. Integra o Conselho da República e o Conselho de Defesa Nacional.",
-  "provimento_condicao": "A eleição do Presidente importa a do Vice registrado com ele (art. 77, § 1º).",
+  "provimento_nota": "A eleição do Presidente importa a do Vice registrado com ele (art. 77, § 1º).",
   "mandato": {
     "anos": 4,
     "nota": "A CF não fixa em separado o mandato do Vice: ele é eleito simultaneamente com o Presidente (art. 77, caput), e o art. 82 trata do mandato presidencial. O texto da CF também não trata da reeleição do Vice; o art. 14, § 5º, fala do Presidente e de quem o houver sucedido ou substituído."
   },
   "requisitos": [
-    "brasileiro nato (CF, art. 12, § 3º, I)",
-    "idade mínima de 35 anos (CF, art. 14, § 3º, VI, a)",
-    "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária (CF, art. 14, § 3º, II a V)"
+    {
+      "texto": "brasileiro nato",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 12, § 3º, I"
+        }
+      ]
+    },
+    {
+      "texto": "idade mínima de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, a"
+        }
+      ]
+    },
+    {
+      "texto": "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, II a V"
+        }
+      ]
+    }
   ],
-  "fontes_por_campo": {
-    "mandato": [
-      {
-        "ref": "norma:cf-1988",
-        "dispositivo": "arts. 77, 82 e 14, § 5º",
-        "nota": "Duração inferida da eleição simultânea com o Presidente."
-      }
-    ]
+  "campos": {
+    "mandato": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "arts. 77, 82 e 14, § 5º",
+          "nota": "Duração inferida da eleição simultânea com o Presidente."
+        }
+      ],
+      "confianca": "inferido"
+    }
   },
   "vigencia": {
     "de": "1988-10-05",

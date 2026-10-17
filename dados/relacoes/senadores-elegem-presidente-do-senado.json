@@ -5,6 +5,11 @@
   "relacao": "elege",
   "de": "cargo:senador",
   "para": "cargo:presidente-do-senado-federal",
+  "quorum": {
+    "regra": "maioria-simples",
+    "votacao": "secreta",
+    "nota": "Presente a maioria da composição do Senado."
+  },
   "condicao": "Escrutínio secreto, por maioria de votos, presente a maioria da composição do Senado; mandato de dois anos.",
   "vigencia": {
     "de": "1988-10-05",

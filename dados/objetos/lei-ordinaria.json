@@ -1,0 +1,25 @@
+{
+  "id": "obj:lei-ordinaria",
+  "tipo": "objeto",
+  "nome": "Lei ordinária federal",
+  "resumo": "Norma geral aprovada pelo Congresso por maioria simples e sancionada pelo Presidente da República.",
+  "detalhes": "É a espécie de lei mais comum. Trata de qualquer matéria que a Constituição não reserve a lei complementar, a decreto legislativo ou a resolução.",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 47; art. 59, III; art. 61"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "migracao-v1"
+  }
+}

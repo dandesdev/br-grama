@@ -1,12 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://br-grama.local/esquema/comum.schema.json",
-  "title": "Definições comuns a todas as entidades",
+  "title": "Definições comuns a todas as entidades (esquema v1)",
   "$defs": {
     "id": {
       "type": "string",
-      "pattern": "^(ente|org|cargo|pessoa|norma|fonte|rel|proc|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$"
+      "pattern": "^(ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$"
     },
+    "ids": { "type": "array", "items": { "$ref": "#/$defs/id" } },
     "data": {
       "description": "AAAA, AAAA-MM ou AAAA-MM-DD (use a forma mais precisa que a fonte permitir).",
       "type": "string",
@@ -14,11 +15,14 @@
     },
     "dataOuNulo": { "oneOf": [{ "$ref": "#/$defs/data" }, { "type": "null" }] },
     "vigencia": {
+      "description": "Período em que a entidade existe ou vale. 'de: null' = início desconhecido; 'ate: null' = em vigor.",
       "type": "object",
       "required": ["de", "ate"],
       "properties": {
         "de": { "$ref": "#/$defs/dataOuNulo" },
-        "ate": { "$ref": "#/$defs/dataOuNulo" }
+        "ate": { "$ref": "#/$defs/dataOuNulo" },
+        "incerta": { "type": "boolean", "description": "As datas são aproximadas; explicar em nota." },
+        "nota": { "type": "string" }
       },
       "additionalProperties": false
     },
@@ -35,6 +39,16 @@
     "fontes": { "type": "array", "items": { "$ref": "#/$defs/fonte" } },
     "confianca": {
       "enum": ["oficial", "oficial-contraditorio", "secundario", "inferido", "indisponivel"]
+    },
+    "campo": {
+      "description": "Fonte e confiança próprias de um campo, quando diferem das da entidade.",
+      "type": "object",
+      "properties": {
+        "fontes": { "$ref": "#/$defs/fontes" },
+        "confianca": { "$ref": "#/$defs/confianca" },
+        "nota": { "type": "string" }
+      },
+      "additionalProperties": false
     },
     "verificacao": {
       "type": "object",
@@ -56,6 +70,28 @@
       },
       "additionalProperties": false
     },
+    "quorum": {
+      "type": "object",
+      "required": ["regra"],
+      "properties": {
+        "regra": { "type": "string", "description": "Termo do vocabulário 'quorum'." },
+        "votacao": { "type": "string", "description": "Termo do vocabulário 'votacao'." },
+        "nota": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "prazo": {
+      "type": "object",
+      "required": ["texto"],
+      "properties": {
+        "texto": { "type": "string", "description": "Descrição completa, sempre presente." },
+        "valor": { "type": "number" },
+        "unidade": { "type": "string", "description": "Termo do vocabulário 'unidade_prazo'." },
+        "conta_de": { "type": "string", "description": "Marco inicial da contagem." },
+        "efeito": { "type": "string", "description": "O que acontece quando o prazo acaba." }
+      },
+      "additionalProperties": false
+    },
     "base": {
       "type": "object",
       "required": ["id", "tipo", "nome", "vigencia", "confianca", "verificacao"],
@@ -68,10 +104,7 @@
         "detalhes": { "type": "string" },
         "vigencia": { "$ref": "#/$defs/vigencia" },
         "fontes": { "$ref": "#/$defs/fontes" },
-        "fontes_por_campo": {
-          "type": "object",
-          "additionalProperties": { "$ref": "#/$defs/fontes" }
-        },
+        "campos": { "type": "object", "additionalProperties": { "$ref": "#/$defs/campo" } },
         "confianca": { "$ref": "#/$defs/confianca" },
         "verificacao": { "$ref": "#/$defs/verificacao" },
         "mais_informacoes": { "type": "array", "items": { "$ref": "#/$defs/link" } },

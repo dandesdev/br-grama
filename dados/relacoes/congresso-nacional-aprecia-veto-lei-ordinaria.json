@@ -4,7 +4,11 @@
   "nome": "Apreciação do veto pelo Congresso Nacional",
   "relacao": "aprecia-veto",
   "de": "org:congresso-nacional",
-  "para": "proc:lei-ordinaria",
+  "para": "obj:lei-ordinaria",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Para derrubar o veto: maioria absoluta dos deputados e dos senadores, contadas separadamente."
+  },
   "condicao": "Em sessão conjunta, em 30 dias; a derrubada exige maioria absoluta dos deputados e dos senadores, com votos contados separadamente.",
   "depende_de": [
     "rel:presidente-da-republica-veta-lei-ordinaria"

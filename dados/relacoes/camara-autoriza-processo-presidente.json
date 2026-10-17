@@ -5,6 +5,9 @@
   "relacao": "autoriza-processo",
   "de": "org:camara-dos-deputados",
   "para": "cargo:presidente-da-republica",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
   "condicao": "Por dois terços dos membros da Câmara; vale para infrações penais comuns e para crimes de responsabilidade.",
   "detalhes": "Qualquer cidadão pode denunciar o Presidente por crime de responsabilidade perante a Câmara (Lei 1.079/1950, art. 14).",
   "vigencia": {

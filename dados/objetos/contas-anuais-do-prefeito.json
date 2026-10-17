@@ -1,0 +1,27 @@
+{
+  "id": "obj:contas-anuais-do-prefeito",
+  "tipo": "objeto",
+  "nome": "Contas anuais do prefeito",
+  "resumo": "Prestação de contas do governo municipal: o tribunal de contas dá parecer prévio e a Câmara Municipal julga.",
+  "tipo_objeto": "contas",
+  "esfera": "municipal",
+  "relativo_a": [
+    "cargo:arquetipo-municipal-prefeito"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º a 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "migracao-v1"
+  }
+}

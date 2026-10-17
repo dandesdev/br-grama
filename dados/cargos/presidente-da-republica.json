@@ -5,7 +5,7 @@
   "resumo": "Exerce o Poder Executivo federal, auxiliado pelos Ministros de Estado. É eleito por voto direto para mandato de quatro anos.",
   "orgao": "org:presidencia-da-republica",
   "provimento": "eleicao-majoritaria-maioria-absoluta",
-  "quantidade": 1,
+  "vagas": 1,
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -17,16 +17,41 @@
     }
   ],
   "detalhes": "Entre suas competências estão nomear e exonerar os Ministros de Estado, dirigir a administração federal, sancionar ou vetar leis, editar medidas provisórias, comandar as Forças Armadas e nomear ministros do STF e do TCU (art. 84).",
-  "provimento_condicao": "Vence quem, registrado por partido, obtiver a maioria absoluta dos votos válidos (sem brancos e nulos); se ninguém a alcançar, há segundo turno entre os dois mais votados (art. 77, §§ 2º e 3º). Se os cargos de Presidente e Vice vagarem nos dois últimos anos do mandato, o Congresso elege os substitutos (art. 81, § 1º).",
+  "provimento_nota": "Vence quem, registrado por partido, obtiver a maioria absoluta dos votos válidos (sem brancos e nulos); se ninguém a alcançar, há segundo turno entre os dois mais votados (art. 77, §§ 2º e 3º). Se os cargos de Presidente e Vice vagarem nos dois últimos anos do mandato, o Congresso elege os substitutos (art. 81, § 1º).",
   "mandato": {
     "anos": 4,
     "reconducao": "uma reeleição para o período subsequente (art. 14, § 5º)",
-    "nota": "O mandato começa em 5 de janeiro do ano seguinte ao da eleição (art. 82, redação da EC 111/2021), regra aplicada a partir da eleição de 2026 (EC 111/2021, art. 5º). O mandato iniciado em 1º/1/2023 dura até a posse do sucessor, em 5/1/2027 (EC 111/2021, art. 4º)."
+    "nota": "O mandato começa em 5 de janeiro do ano seguinte ao da eleição (art. 82, redação da EC 111/2021), regra aplicada a partir da eleição de 2026 (EC 111/2021, art. 5º). O mandato iniciado em 1º/1/2023 dura até a posse do sucessor, em 5/1/2027 (EC 111/2021, art. 4º).",
+    "inicio": "5 de janeiro do ano seguinte ao da eleição, a partir da eleição de 2026"
   },
   "requisitos": [
-    "brasileiro nato (CF, art. 12, § 3º, I)",
-    "idade mínima de 35 anos (CF, art. 14, § 3º, VI, a)",
-    "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária (CF, art. 14, § 3º, II a V)"
+    {
+      "texto": "brasileiro nato",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 12, § 3º, I"
+        }
+      ]
+    },
+    {
+      "texto": "idade mínima de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, a"
+        }
+      ]
+    },
+    {
+      "texto": "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, II a V"
+        }
+      ]
+    }
   ],
   "notas": "O resumo evita 'Chefe de Estado e Chefe de Governo': a expressão é da doutrina e não aparece no texto da CF. Se for usada no site, precisa de fonte própria em fontes_por_campo.",
   "vigencia": {

@@ -5,6 +5,10 @@
   "relacao": "julga",
   "de": "org:senado-federal",
   "para": "cargo:presidente-da-republica",
+  "quorum": {
+    "regra": "dois-tercos",
+    "nota": "Para condenar."
+  },
   "condicao": "Depois da autorização da Câmara. Sessão presidida pelo Presidente do STF; condenação por dois terços do Senado, limitada à perda do cargo com inabilitação por oito anos para função pública.",
   "depende_de": [
     "rel:camara-autoriza-processo-presidente"

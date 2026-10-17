@@ -16,20 +16,38 @@
   "resumo": "Eleito na mesma chapa do prefeito, para quatro anos.",
   "orgao": "org:arquetipo-municipal-prefeitura",
   "provimento": "eleicao-conjunta",
-  "provimento_condicao": "Eleito junto com o candidato a prefeito registrado na mesma chapa.",
+  "provimento_nota": "Eleito junto com o candidato a prefeito registrado na mesma chapa.",
   "mandato": {
     "anos": 4,
     "reconducao": "uma-reeleicao-consecutiva",
     "nota": "A CF limita a reeleição de quem sucedeu ou substituiu o prefeito no curso do mandato (art. 14, § 5º); a regra própria do vice vem da jurisprudência eleitoral e não foi conferida aqui."
   },
-  "quantidade": 1,
+  "vagas": 1,
   "requisitos": [
-    "nacionalidade brasileira",
-    "pleno exercício dos direitos políticos",
-    "alistamento eleitoral",
-    "domicílio eleitoral no município",
-    "filiação partidária",
-    "idade mínima de 21 anos"
+    {
+      "texto": "nacionalidade brasileira",
+      "fontes": []
+    },
+    {
+      "texto": "pleno exercício dos direitos políticos",
+      "fontes": []
+    },
+    {
+      "texto": "alistamento eleitoral",
+      "fontes": []
+    },
+    {
+      "texto": "domicílio eleitoral no município",
+      "fontes": []
+    },
+    {
+      "texto": "filiação partidária",
+      "fontes": []
+    },
+    {
+      "texto": "idade mínima de 21 anos",
+      "fontes": []
+    }
   ],
   "fontes": [
     {

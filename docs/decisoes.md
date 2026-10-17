@@ -54,6 +54,14 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 - **D30** O código e os dados são mantidos por humanos e agentes, então legibilidade vem antes de esperteza.
 - **D31** Proposta: Node/TypeScript em tudo (validação, build e web), para que o mantenedor lide com uma linguagem só.
 
+## Depois do piloto (17/10/2026)
+
+- **D32** Os atos, normas, contas e ações sobre os quais os órgãos agem são entidades próprias, os **objetos de competência** (`obj:`), e servem de alvo para relações como "sanciona", "julga as contas" e "controla a constitucionalidade". No mapa eles são visualmente distintos de órgãos e cargos: forma de etiqueta, fundo neutro e rótulo em itálico.
+- **D33** Os processos têm uma vista própria **em raias**: uma faixa por ator (Casa legislativa ou Poder) e as etapas da esquerda para a direita. O mapa só destaca os atores ("estações"), com os números das etapas. Isso substitui as "linhas de metrô" desenhadas sobre o mapa (D24 b), que viravam uma teia ilegível quando uma etapa tinha muitos atores.
+- **D34** Hierarquia no organograma é `contido_em`, com a fonte em `campos.contido_em`. A relação `integra` não repete o `contido_em`.
+- **D35** No mapa, as relações aparecem quando se clica num órgão ou cargo; a opção "Todas" mostra todas de uma vez. Com todas visíveis ao mesmo tempo, o mapa ficava ilegível.
+- **D36** Um fato com fonte oficial não é achado de auditoria, mesmo que seja notável (ex.: cadeira vaga no STF). Achados são lacunas, contradições, sigilo e baixa transparência.
+
 ## Fora do escopo por enquanto
 
 - Jornada do cidadão ("abri uma empresa", "fiquei doente").

@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://br-grama.local/esquema/entidades.schema.json",
-  "title": "Esquemas por tipo de entidade",
-  "description": "Cada $defs.<tipo> valida um arquivo em dados/<pasta>/. Valores de vocabulário (tipo_orgao, relacao, provimento...) são conferidos pelo script de validação contra esquema/vocabularios/.",
+  "title": "Esquemas por tipo de entidade (esquema v1)",
+  "description": "Cada $defs.<tipo> valida um arquivo em dados/<pasta>/. Valores de vocabulário são conferidos pelo script de validação contra esquema/vocabularios/.",
   "$defs": {
     "ente": {
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
@@ -11,7 +11,8 @@
         "tipo": { "const": "ente" },
         "tipo_ente": { "type": "string" },
         "uf": { "type": "string", "pattern": "^[A-Z]{2}$" },
-        "codigo_ibge": { "type": "string", "pattern": "^\\d{1,7}$" }
+        "codigo_ibge": { "type": "string", "pattern": "^\\d{1,7}$" },
+        "contido_em": { "$ref": "comum.schema.json#/$defs/id", "description": "Para municípios: o estado." }
       },
       "unevaluatedProperties": false
     },
@@ -25,7 +26,10 @@
         "poder": { "type": "string" },
         "esfera": { "type": "string" },
         "ente": { "$ref": "comum.schema.json#/$defs/id" },
-        "contido_em": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão que contém este no organograma." },
+        "contido_em": {
+          "$ref": "comum.schema.json#/$defs/id",
+          "description": "Onde o órgão aparece no organograma (hierarquia visual). Não use a relação 'integra' para dizer a mesma coisa."
+        },
         "arquetipo": { "enum": ["estadual", "municipal"] },
         "estrutura_continua": {
           "description": "Quando a estrutura interna existe mas não foi modelada (D09): onde encontrá-la.",
@@ -37,28 +41,71 @@
 
     "cargo": {
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
-      "required": ["orgao", "provimento", "quantidade", "fontes", "resumo"],
+      "required": ["orgao", "provimento", "vagas", "fontes", "resumo"],
       "properties": {
         "tipo": { "const": "cargo" },
         "orgao": { "$ref": "comum.schema.json#/$defs/id" },
         "provimento": { "type": "string" },
-        "provimento_condicao": { "type": "string" },
+        "provimento_casos": {
+          "description": "Obrigatório quando provimento = 'variavel'.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["quando", "provimento"],
+            "properties": {
+              "quando": { "type": "string" },
+              "provimento": { "type": "string" },
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "provimento_nota": { "type": "string", "description": "Como funciona a escolha, passo a passo." },
         "mandato": {
           "type": ["object", "null"],
           "properties": {
             "anos": { "type": ["number", "null"] },
+            "vitalicio": { "type": "boolean" },
+            "limite": { "type": "string", "description": "Ex.: aposentadoria compulsória aos 75 anos." },
+            "inicio": { "type": "string", "description": "Quando o mandato começa." },
             "reconducao": { "type": "string" },
             "nota": { "type": "string" }
           },
           "additionalProperties": false
         },
-        "quantidade": {
-          "description": "Número de vagas; null se variável. Use quantidade_nota para explicar.",
+        "vagas": {
+          "description": "Número de cadeiras do cargo; null se variável (explicar em vagas_nota).",
           "type": ["integer", "null"],
           "minimum": 1
         },
-        "quantidade_nota": { "type": "string" },
-        "requisitos": { "type": "array", "items": { "type": "string" } },
+        "vagas_nota": { "type": "string" },
+        "vacancias": {
+          "description": "Cadeiras vagas num período (ex.: aposentadoria sem substituto).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["vagas", "vigencia", "fontes"],
+            "properties": {
+              "vagas": { "type": "integer", "minimum": 1 },
+              "vigencia": { "$ref": "comum.schema.json#/$defs/vigencia" },
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "nota": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "requisitos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["texto", "fontes"],
+            "properties": {
+              "texto": { "type": "string" },
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" }
+            },
+            "additionalProperties": false
+          }
+        },
         "arquetipo": { "enum": ["estadual", "municipal"] }
       },
       "unevaluatedProperties": false
@@ -69,6 +116,7 @@
       "required": ["fontes"],
       "properties": {
         "tipo": { "const": "pessoa" },
+        "nome_civil": { "type": "string", "description": "Nome completo, quando diferente do nome de uso (campo 'nome')." },
         "filiacoes": {
           "type": "array",
           "items": {
@@ -77,7 +125,8 @@
             "properties": {
               "partido": { "$ref": "comum.schema.json#/$defs/id" },
               "vigencia": { "$ref": "comum.schema.json#/$defs/vigencia" },
-              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" }
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "confianca": { "$ref": "comum.schema.json#/$defs/confianca" }
             },
             "additionalProperties": false
           }
@@ -88,16 +137,19 @@
 
     "norma": {
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
-      "required": ["tipo_norma", "data", "url", "acesso_em", "resumo"],
+      "required": ["tipo_norma", "data", "acesso_em", "resumo"],
       "properties": {
         "tipo": { "const": "norma" },
         "tipo_norma": { "type": "string" },
         "numero": { "type": ["string", "null"] },
-        "data": { "$ref": "comum.schema.json#/$defs/data" },
+        "data": { "$ref": "comum.schema.json#/$defs/data", "description": "Data de assinatura ou aprovação." },
+        "publicacao": { "$ref": "comum.schema.json#/$defs/data", "description": "Data de publicação em diário oficial." },
         "ente": { "$ref": "comum.schema.json#/$defs/id" },
-        "url": { "type": "string", "format": "uri" },
+        "url": { "type": ["string", "null"], "format": "uri" },
         "acesso_em": { "$ref": "comum.schema.json#/$defs/data" },
-        "arquivo": { "type": ["string", "null"], "description": "Cópia no Wayback Machine." }
+        "arquivo": { "type": ["string", "null"], "description": "Cópia no Wayback Machine." },
+        "compilacao_ate": { "type": "string", "description": "Última alteração incorporada no texto consultado (ex.: 'EC 139/2026')." },
+        "redacao_conferida_em": { "$ref": "comum.schema.json#/$defs/data", "description": "Quando conferimos que a redação citada vale na data de referência." }
       },
       "unevaluatedProperties": false
     },
@@ -119,6 +171,19 @@
       "unevaluatedProperties": false
     },
 
+    "objeto": {
+      "description": "Objeto de competência: o ato, a norma, as contas ou a ação sobre os quais órgãos e cargos agem.",
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["tipo_objeto", "fontes", "resumo"],
+      "properties": {
+        "tipo": { "const": "objeto" },
+        "tipo_objeto": { "type": "string" },
+        "esfera": { "type": "string" },
+        "relativo_a": { "$ref": "comum.schema.json#/$defs/ids", "description": "De quem é o objeto (ex.: contas do Presidente → cargo:presidente-da-republica)." }
+      },
+      "unevaluatedProperties": false
+    },
+
     "relacao": {
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
       "required": ["relacao", "de", "para", "fontes"],
@@ -127,8 +192,11 @@
         "relacao": { "type": "string" },
         "de": { "$ref": "comum.schema.json#/$defs/id" },
         "para": { "$ref": "comum.schema.json#/$defs/id" },
+        "ordem": { "type": "integer", "minimum": 1, "description": "Posição numa sequência de relações do mesmo tipo e alvo (ex.: linha de substituição)." },
+        "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
         "condicao": { "type": "string" },
-        "depende_de": { "type": "array", "items": { "$ref": "comum.schema.json#/$defs/id" } }
+        "depende_de": { "$ref": "comum.schema.json#/$defs/ids" },
+        "restrita_a": { "$ref": "comum.schema.json#/$defs/ids", "description": "Entes onde a relação vale, quando liga órgãos de arquétipo." }
       },
       "unevaluatedProperties": false
     },
@@ -139,6 +207,37 @@
       "properties": {
         "tipo": { "const": "processo" },
         "forma": { "enum": ["linha", "ciclo"] },
+        "produz": { "$ref": "comum.schema.json#/$defs/id", "description": "Objeto que o processo produz." },
+        "regimes": {
+          "description": "Variantes que mudam prazos ou regras de várias etapas (ex.: urgência).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "nome", "resumo", "fontes", "efeitos"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+              "nome": { "type": "string" },
+              "resumo": { "type": "string" },
+              "detalhes": { "type": "string" },
+              "quem_aciona": { "$ref": "comum.schema.json#/$defs/ids" },
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "efeitos": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["etapa"],
+                  "properties": {
+                    "etapa": { "type": "string" },
+                    "prazo": { "$ref": "comum.schema.json#/$defs/prazo" },
+                    "nota": { "type": "string" }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
         "etapas": {
           "type": "array",
           "minItems": 1,
@@ -147,10 +246,12 @@
             "required": ["id", "atores", "acao", "fontes", "seguintes"],
             "properties": {
               "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
-              "atores": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
+              "tipo_etapa": { "type": "string", "description": "Vocabulário 'tipo_etapa'; padrão 'acao'." },
+              "atores": { "$ref": "comum.schema.json#/$defs/ids" },
               "acao": { "type": "string", "maxLength": 120 },
               "detalhes": { "type": "string" },
-              "prazo": { "type": ["string", "null"] },
+              "prazo": { "$ref": "comum.schema.json#/$defs/prazo" },
+              "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
               "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
               "seguintes": {
                 "type": "array",
@@ -163,8 +264,7 @@
                   },
                   "additionalProperties": false
                 }
-              },
-              "final": { "type": "boolean" }
+              }
             },
             "additionalProperties": false
           }
@@ -180,18 +280,21 @@
         "tipo": { "const": "achado" },
         "tipo_achado": { "type": "string" },
         "afeta": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
-        "gravidade": { "enum": ["baixa", "media", "alta"] }
+        "gravidade": { "enum": ["baixa", "media", "alta"] },
+        "onde_procuramos": { "type": "array", "items": { "type": "string" }, "description": "Onde a informação foi buscada sem sucesso." }
       },
       "unevaluatedProperties": false
     },
 
     "variacao": {
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
-      "required": ["entes", "difere_de", "porque", "fontes", "resumo"],
+      "required": ["entes", "abrangencia", "difere_de", "porque", "fontes", "resumo"],
       "properties": {
         "tipo": { "const": "variacao" },
         "entes": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
+        "abrangencia": { "type": "string", "description": "Vocabulário 'abrangencia'." },
         "difere_de": { "$ref": "comum.schema.json#/$defs/id" },
+        "substitui_relacoes": { "$ref": "comum.schema.json#/$defs/ids", "description": "Relações do arquétipo que não valem onde a variação ocorre." },
         "instancia": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão real que materializa a variação, se houver." },
         "porque": { "type": "string" }
       },

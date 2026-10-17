@@ -1,8 +1,8 @@
 {
-  "id": "rel:congresso-integra-poder-legislativo",
+  "id": "rel:congresso-exerce-poder-legislativo",
   "tipo": "relacao",
-  "nome": "Congresso Nacional exerce o Poder Legislativo",
-  "relacao": "integra",
+  "nome": "O Congresso Nacional exerce o Poder Legislativo",
+  "relacao": "exerce",
   "de": "org:congresso-nacional",
   "para": "org:poder-legislativo-federal",
   "vigencia": {

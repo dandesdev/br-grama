@@ -1,10 +1,10 @@
 {
-  "id": "rel:stf-controla-constitucionalidade-legislativo",
+  "id": "rel:stf-controla-constitucionalidade-leis-e-atos",
   "tipo": "relacao",
-  "nome": "Controle de constitucionalidade das leis federais",
+  "nome": "Controle de constitucionalidade de leis e atos normativos",
   "relacao": "controla-constitucionalidade",
   "de": "org:stf",
-  "para": "org:poder-legislativo-federal",
+  "para": "obj:lei-ou-ato-normativo-federal-ou-estadual",
   "condicao": "Em ação direta (ADI, ADC, ADPF) ou ao julgar recurso extraordinário. Decisões de mérito em ADI e ADC valem para todos e vinculam o Judiciário e a administração pública.",
   "vigencia": {
     "de": "1988-10-05",
@@ -14,10 +14,13 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 102, caput, I, a, III e §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, caput, I, a, e § 2º"
     }
   ],
   "confianca": "oficial",
-  "notas": "O alvo do controle são as leis e atos normativos, não o Poder em si; o vocabulário só permite ligar entidades. O STF também controla leis e atos estaduais (art. 102, I, a).",
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-16",

@@ -5,6 +5,11 @@
   "relacao": "elege",
   "de": "cargo:ministro-do-stf",
   "para": "cargo:presidente-do-stf",
+  "quorum": {
+    "regra": "outro",
+    "votacao": "secreta",
+    "nota": "Ver RISTF, art. 12."
+  },
   "condicao": "Voto secreto entre os ministros; mandato de dois anos, vedada a reeleição para o período imediato.",
   "vigencia": {
     "de": "1988-10-05",

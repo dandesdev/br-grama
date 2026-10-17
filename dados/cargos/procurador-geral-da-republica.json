@@ -7,16 +7,22 @@
   "detalhes": "Nomeado pelo Presidente da República entre integrantes da carreira com mais de 35 anos, depois de aprovado pela maioria absoluta do Senado, para mandato de dois anos, com recondução permitida. Tem iniciativa de leis (CF, art. 61) e, em especial, das leis complementares que organizam o Ministério Público da União (art. 128, § 5º).",
   "orgao": "org:ministerio-publico-da-uniao",
   "provimento": "nomeacao-com-aprovacao-do-senado",
-  "provimento_condicao": "Escolha do Presidente da República entre integrantes da carreira; aprovação do nome pela maioria absoluta do Senado. A destituição por iniciativa do Presidente também exige autorização da maioria absoluta do Senado (CF, art. 128, § 2º).",
+  "provimento_nota": "Escolha do Presidente da República entre integrantes da carreira; aprovação do nome pela maioria absoluta do Senado. A destituição por iniciativa do Presidente também exige autorização da maioria absoluta do Senado (CF, art. 128, § 2º).",
   "mandato": {
     "anos": 2,
     "reconducao": "permitida",
     "nota": "A CF não limita o número de reconduções do PGR (art. 128, § 1º), diferentemente dos procuradores-gerais estaduais (§ 3º)."
   },
-  "quantidade": 1,
+  "vagas": 1,
   "requisitos": [
-    "integrante da carreira do Ministério Público da União",
-    "mais de 35 anos"
+    {
+      "texto": "integrante da carreira do Ministério Público da União",
+      "fontes": []
+    },
+    {
+      "texto": "mais de 35 anos",
+      "fontes": []
+    }
   ],
   "vigencia": {
     "de": "1988-10-05",

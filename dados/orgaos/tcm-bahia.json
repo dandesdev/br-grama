@@ -33,13 +33,15 @@
       "dispositivo": "art. 1º"
     }
   ],
-  "fontes_por_campo": {
-    "vigencia": [
-      {
-        "ref": "fonte:tcm-ba-historia",
-        "dispositivo": "p. 13-15 (Lei estadual 2.838, de 17/9/1970; EC estadual 25/1985)"
-      }
-    ]
+  "campos": {
+    "vigencia": {
+      "fontes": [
+        {
+          "ref": "fonte:tcm-ba-historia",
+          "dispositivo": "p. 13-15 (Lei estadual 2.838, de 17/9/1970; EC estadual 25/1985)"
+        }
+      ]
+    }
   },
   "notas": "vigencia.de = data da Lei estadual 2.838/1970, que criou o Conselho de Contas dos Municípios, segundo o histórico do TCM-BA; o texto da lei não foi lido."
 }

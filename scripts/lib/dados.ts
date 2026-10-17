@@ -15,6 +15,7 @@ export const TIPOS = {
   fonte: { pasta: "fontes", prefixo: "fonte" },
   relacao: { pasta: "relacoes", prefixo: "rel" },
   processo: { pasta: "processos", prefixo: "proc" },
+  objeto: { pasta: "objetos", prefixo: "obj" },
   achado: { pasta: "achados", prefixo: "achado" },
   variacao: { pasta: "variacoes", prefixo: "var" },
 } as const;
@@ -62,18 +63,17 @@ export function lerJson<T = unknown>(caminhoRelativo: string): T {
   return JSON.parse(readFileSync(join(RAIZ, caminhoRelativo), "utf8")) as T;
 }
 
-/** Vocabulários: nome do vocabulário → conjunto de termos válidos. */
-export function lerVocabularios(): Record<string, Set<string>> {
-  const termos = (obj: Record<string, unknown>) => new Set(Object.keys(obj).filter((k) => !k.startsWith("_")));
-  const gerais = lerJson<Record<string, Record<string, unknown>>>("esquema/vocabularios/gerais.json");
-  const vocab: Record<string, Set<string>> = {
-    relacao: termos(lerJson("esquema/vocabularios/relacoes.json")),
-    tipo_orgao: termos(lerJson("esquema/vocabularios/tipos-orgao.json")),
-  };
-  for (const [nome, valores] of Object.entries(gerais)) {
-    if (!nome.startsWith("_")) vocab[nome] = termos(valores);
-  }
-  return vocab;
+/** Vocabulários: nome do vocabulário → termo → { nome, definicao, ... }. */
+export type Vocabulario = Record<string, { nome: string; definicao: string; grupo?: string }>;
+
+export function lerVocabularios(): Record<string, Vocabulario> {
+  const semMeta = <T extends object>(obj: T) => Object.fromEntries(Object.entries(obj).filter(([k]) => !k.startsWith("_")));
+  const gerais = semMeta(lerJson<Record<string, Vocabulario>>("esquema/vocabularios/gerais.json"));
+  return {
+    relacao: semMeta(lerJson<Vocabulario>("esquema/vocabularios/relacoes.json")),
+    tipo_orgao: semMeta(lerJson<Vocabulario>("esquema/vocabularios/tipos-orgao.json")),
+    ...gerais,
+  } as Record<string, Vocabulario>;
 }
 
-export const PADRAO_ID = /^(ente|org|cargo|pessoa|norma|fonte|rel|proc|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$/;
+export const PADRAO_ID = /^(ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$/;

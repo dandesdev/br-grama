@@ -5,6 +5,11 @@
   "relacao": "elege",
   "de": "cargo:deputado-federal",
   "para": "cargo:presidente-da-camara-dos-deputados",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "votacao": "secreta",
+    "nota": "No primeiro escrutínio; no segundo, maioria simples."
+  },
   "condicao": "Escrutínio secreto, mandato de dois anos; maioria absoluta no primeiro escrutínio, maioria simples no segundo.",
   "vigencia": {
     "de": "1988-10-05",

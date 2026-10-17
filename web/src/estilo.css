@@ -139,8 +139,45 @@ body {
   cursor: pointer;
 }
 
+[hidden] { display: none !important; }
 main { flex: 1; display: flex; min-height: 0; }
-#mapa { flex: 1; min-width: 0; background: var(--superficie); }
+.palco { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+#mapa, #fluxo { flex: 1; min-height: 0; background: var(--superficie); }
+.abas { display: flex; gap: 2px; padding: 6px 12px 0; background: var(--plano); border-bottom: 1px solid var(--linha); }
+.abas button {
+  padding: 6px 14px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  border-radius: 6px 6px 0 0;
+  background: none;
+  color: var(--tinta-2);
+  font: inherit;
+  cursor: pointer;
+}
+.abas button[aria-selected="true"] { background: var(--superficie); border-color: var(--linha); color: var(--tinta); font-weight: 600; margin-bottom: -1px; }
+.abas button:disabled { opacity: 0.45; cursor: default; }
+.menu { position: relative; }
+.menu summary {
+  padding: 3px 10px;
+  border: 1px solid var(--borda);
+  border-radius: 999px;
+  font-size: 12px;
+  cursor: pointer;
+  list-style: none;
+}
+.menu summary::after { content: " ▾"; }
+.menu .grupos {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 4px);
+  left: 0;
+  flex-direction: column;
+  padding: 6px;
+  background: var(--superficie);
+  border: 1px solid var(--borda);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
 #painel {
   width: 380px;
   overflow-y: auto;
@@ -205,3 +242,12 @@ main { flex: 1; display: flex; min-height: 0; }
 .amostra { flex: none; width: 28px; height: 16px; border-radius: 3px; border: 2px solid; }
 .amostra.cargo { border-radius: 999px; background: var(--superficie); }
 .intro { color: var(--tinta-2); }
+
+.termo { text-decoration: underline dotted var(--tinta-3); text-underline-offset: 3px; cursor: help; }
+.quorum, .prazo { display: inline-block; margin-top: 2px; }
+.ordem { display: inline-grid; place-items: center; min-width: 22px; padding: 0 4px; border-radius: 4px; background: var(--plano); font-size: 12px; font-weight: 600; }
+.ocupante.vaga { border: 1px dashed var(--tinta-3); background: none; color: var(--tinta-2); margin-top: 4px; }
+.amostra.objeto { border: 0; border-radius: 3px 10px 10px 3px; background: color-mix(in srgb, var(--tinta-3) 25%, transparent); }
+.voltar { margin-bottom: 8px; font-size: 13px; }
+.ficha dd ul { padding-left: 16px; list-style: disc; }
+.relacoes li { margin-bottom: 8px; }

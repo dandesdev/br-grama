@@ -1,0 +1,27 @@
+{
+  "id": "obj:contas-anuais-do-presidente-da-republica",
+  "tipo": "objeto",
+  "nome": "Contas anuais do Presidente da República",
+  "resumo": "Prestação de contas do governo federal sobre o ano anterior: o TCU dá parecer prévio e o Congresso julga.",
+  "tipo_objeto": "contas",
+  "esfera": "federal",
+  "relativo_a": [
+    "cargo:presidente-da-republica"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, IX; art. 51, II; art. 71, I; art. 84, XXIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "migracao-v1"
+  }
+}

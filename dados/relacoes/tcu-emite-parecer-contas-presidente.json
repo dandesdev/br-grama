@@ -2,9 +2,9 @@
   "id": "rel:tcu-emite-parecer-contas-presidente",
   "tipo": "relacao",
   "nome": "Parecer prévio do TCU sobre as contas do Presidente",
-  "relacao": "fiscaliza",
+  "relacao": "emite-parecer-previo",
   "de": "org:tcu",
-  "para": "cargo:presidente-da-republica",
+  "para": "obj:contas-anuais-do-presidente-da-republica",
   "condicao": "Aprecia as contas anuais do Presidente e emite parecer prévio em 60 dias do recebimento; não as julga.",
   "depende_de": [
     "rel:presidente-presta-contas-a-congresso"

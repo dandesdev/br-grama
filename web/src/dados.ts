@@ -1,7 +1,7 @@
 // Carrega grafo.json (gerado por scripts/build-dados.ts) e oferece consultas sobre as entidades.
 import { vigenteEm } from "../../scripts/lib/vigencia.ts";
 
-export interface Vigencia { de: string | null; ate: string | null }
+export interface Vigencia { de: string | null; ate: string | null; incerta?: boolean; nota?: string }
 export interface FonteRef { ref: string; dispositivo?: string | null; nota?: string }
 export interface Link { titulo: string; url: string }
 
@@ -14,7 +14,7 @@ export interface Entidade {
   detalhes?: string;
   vigencia: Vigencia;
   fontes?: FonteRef[];
-  fontes_por_campo?: Record<string, FonteRef[]>;
+  campos?: Record<string, { fontes?: FonteRef[]; confianca?: string; nota?: string }>;
   confianca: string;
   mais_informacoes?: Link[];
   [campo: string]: unknown;
@@ -25,20 +25,35 @@ export interface Etapa {
   atores: string[];
   acao: string;
   detalhes?: string;
-  prazo?: string | null;
+  tipo_etapa?: string;
+  prazo?: Prazo;
+  quorum?: Quorum;
   fontes: FonteRef[];
   seguintes: { para: string; quando?: string | null }[];
-  final?: boolean;
 }
+
+export interface Regime {
+  id: string;
+  nome: string;
+  resumo: string;
+  detalhes?: string;
+  quem_aciona?: string[];
+  fontes: FonteRef[];
+  efeitos: { etapa: string; prazo?: Prazo; nota?: string }[];
+}
+
+export interface Termo { nome: string; definicao: string }
+export interface Quorum { regra: string; votacao?: string; nota?: string }
+export interface Prazo { texto: string; valor?: number; unidade?: string; conta_de?: string; efeito?: string }
 
 export interface Caixa { x: number; y: number; w: number; h: number }
 
 export interface Grafo {
   data_referencia: string;
   vocabularios: {
-    relacoes: Record<string, { grupo: string; definicao: string }>;
-    tipos_orgao: Record<string, { definicao: string }>;
-    gerais: Record<string, Record<string, string>>;
+    relacoes: Record<string, Termo & { grupo: string }>;
+    tipos_orgao: Record<string, Termo>;
+    gerais: Record<string, Record<string, Termo>>;
   };
   regioes: Record<string, Caixa>;
   regiao_de: Record<string, string>;
@@ -65,6 +80,7 @@ export const NOMES_TIPO: Record<string, string> = {
   fonte: "Fonte",
   relacao: "Relação",
   processo: "Processo",
+  objeto: "Objeto de competência",
   achado: "Achado",
   variacao: "Variação",
 };
@@ -89,6 +105,10 @@ export class Dados {
   /** Entidades de um tipo, em vigor na data de referência. */
   todas(tipo?: string): Entidade[] {
     return Object.values(this.grafo.entidades).filter((e) => (!tipo || e.tipo === tipo) && vigenteEm(e, this.data));
+  }
+
+  vigente(x: { vigencia?: Vigencia }): boolean {
+    return vigenteEm(x, this.data);
   }
 
   ehNo(id: string): boolean {
@@ -135,10 +155,19 @@ export class Dados {
     return undefined;
   }
 
-  definicao(vocab: string, termo: string): string | undefined {
-    if (vocab === "relacao") return this.grafo.vocabularios.relacoes[termo]?.definicao;
-    if (vocab === "tipo_orgao") return this.grafo.vocabularios.tipos_orgao[termo]?.definicao;
-    return this.grafo.vocabularios.gerais[vocab]?.[termo];
+  termo(vocab: string, valor: string): Termo | undefined {
+    if (vocab === "relacao") return this.grafo.vocabularios.relacoes[valor];
+    if (vocab === "tipo_orgao") return this.grafo.vocabularios.tipos_orgao[valor];
+    return this.grafo.vocabularios.gerais[vocab]?.[valor];
+  }
+
+  definicao(vocab: string, valor: string): string | undefined {
+    return this.termo(vocab, valor)?.definicao;
+  }
+
+  /** Nome legível de um termo de vocabulário (com acentos); cai no próprio valor se não houver. */
+  nomeDe(vocab: string, valor: string): string {
+    return this.termo(vocab, valor)?.nome ?? valor;
   }
 
   grupoDe(relacao: string): string {

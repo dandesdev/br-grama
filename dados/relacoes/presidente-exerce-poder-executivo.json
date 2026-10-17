@@ -1,9 +1,9 @@
 {
-  "id": "rel:presidencia-integra-poder-executivo",
+  "id": "rel:presidente-exerce-poder-executivo",
   "tipo": "relacao",
-  "nome": "Presidência da República no Poder Executivo",
-  "relacao": "integra",
-  "de": "org:presidencia-da-republica",
+  "nome": "O Presidente da República exerce o Poder Executivo",
+  "relacao": "exerce",
+  "de": "cargo:presidente-da-republica",
   "para": "org:poder-executivo-federal",
   "vigencia": {
     "de": "1988-10-05",
@@ -20,5 +20,6 @@
     "status": "coletado",
     "em": "2026-10-16",
     "tarefa": "piloto-estrutura"
-  }
+  },
+  "condicao": "Auxiliado pelos Ministros de Estado."
 }

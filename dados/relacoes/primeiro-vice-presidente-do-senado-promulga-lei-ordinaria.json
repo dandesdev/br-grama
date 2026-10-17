@@ -4,7 +4,7 @@
   "nome": "Promulgação supletiva pelo Vice-Presidente do Senado",
   "relacao": "promulga",
   "de": "cargo:primeiro-vice-presidente-do-senado-federal",
-  "para": "proc:lei-ordinaria",
+  "para": "obj:lei-ordinaria",
   "condicao": "Só se o Presidente do Senado também não promulgar em 48 horas.",
   "depende_de": [
     "rel:presidente-do-senado-promulga-lei-ordinaria"

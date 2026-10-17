@@ -4,7 +4,11 @@
   "nome": "Deliberação do Plenário da Câmara sobre projeto de lei",
   "relacao": "delibera",
   "de": "org:plenario-da-camara-dos-deputados",
-  "para": "proc:lei-ordinaria",
+  "para": "obj:lei-ordinaria",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Presente a maioria absoluta dos deputados."
+  },
   "condicao": "Por maioria dos votos, presente a maioria absoluta dos deputados, quando o projeto não é decidido de forma conclusiva nas comissões ou quando há recurso.",
   "vigencia": {
     "de": "1988-10-05",

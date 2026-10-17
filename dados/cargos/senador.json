@@ -5,7 +5,7 @@
   "resumo": "Representante de um estado ou do DF no Senado. É eleito pelo princípio majoritário para mandato de oito anos, com dois suplentes.",
   "orgao": "org:senado-federal",
   "provimento": "eleicao-majoritaria-maioria-simples",
-  "quantidade": 81,
+  "vagas": 81,
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -17,35 +17,63 @@
     }
   ],
   "detalhes": "A representação de cada estado e do DF é renovada a cada quatro anos, alternadamente, por um terço e por dois terços. Tem as mesmas imunidades e vedações dos deputados (arts. 53 a 56).",
-  "quantidade_nota": "Três por estado e pelo Distrito Federal (CF, art. 46, § 1º); 26 estados + DF = 81.",
+  "vagas_nota": "Três por estado e pelo Distrito Federal (CF, art. 46, § 1º); 26 estados + DF = 81.",
   "mandato": {
     "anos": 8,
     "reconducao": "sem limite de reeleições no texto da CF",
     "nota": "Renovação de 1/3 e 2/3 das cadeiras, alternadamente, a cada quatro anos (art. 46, § 2º); em 2026 a renovação é de dois terços."
   },
   "requisitos": [
-    "brasileiro, nato ou naturalizado (CF, art. 14, § 3º, I)",
-    "idade mínima de 35 anos (CF, art. 14, § 3º, VI, a)",
-    "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária (CF, art. 14, § 3º, II a V)"
+    {
+      "texto": "brasileiro, nato ou naturalizado",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, I"
+        }
+      ]
+    },
+    {
+      "texto": "idade mínima de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, a"
+        }
+      ]
+    },
+    {
+      "texto": "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, II a V"
+        }
+      ]
+    }
   ],
-  "fontes_por_campo": {
-    "quantidade": [
-      {
-        "ref": "norma:cf-1988",
-        "dispositivo": "art. 46, § 1º"
-      },
-      {
-        "ref": "fonte:senado-quantos-senadores",
-        "dispositivo": null
-      }
-    ],
-    "provimento": [
-      {
-        "ref": "norma:cf-1988",
-        "dispositivo": "art. 46, caput",
-        "nota": "A CF diz só 'princípio majoritário'; não prevê segundo turno para senador (o art. 77, § 3º, prevê para Presidente)."
-      }
-    ]
+  "campos": {
+    "vagas": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 46, § 1º"
+        },
+        {
+          "ref": "fonte:senado-quantos-senadores",
+          "dispositivo": null
+        }
+      ]
+    },
+    "provimento": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 46, caput",
+          "nota": "A CF diz só 'princípio majoritário'; não prevê segundo turno para senador (o art. 77, § 3º, prevê para Presidente)."
+        }
+      ]
+    }
   },
   "notas": "'Em 2026 a renovação é de dois terços' é dedução nossa: em 2022 foi renovado um terço (alternância do art. 46, § 2º). Conferir com o TSE se for exibido.",
   "vigencia": {

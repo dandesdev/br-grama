@@ -5,10 +5,8 @@
   "relacao": "substitui",
   "de": "cargo:presidente-do-stf",
   "para": "cargo:presidente-da-republica",
+  "ordem": 4,
   "condicao": "Último chamado, depois dos Presidentes da Câmara e do Senado, nas mesmas hipóteses. Exercício temporário.",
-  "depende_de": [
-    "rel:presidente-do-senado-substitui-presidente-da-republica"
-  ],
   "vigencia": {
     "de": "1988-10-05",
     "ate": null

@@ -5,6 +5,7 @@
   "resumo": "Caminho de um projeto de lei ordinária federal, da apresentação à entrada em vigor, passando pela Câmara, pelo Senado e pelo Presidente.",
   "detalhes": "O projeto passa pelas duas Casas do Congresso: a que o recebe primeiro (casa iniciadora) e a revisora. Se a revisora fizer emendas, a iniciadora dá a palavra final. Depois o Presidente da República sanciona ou veta, e o Congresso pode derrubar o veto.",
   "forma": "linha",
+  "produz": "obj:lei-ordinaria",
   "etapas": [
     {
       "id": "iniciativa",
@@ -24,7 +25,6 @@
       ],
       "acao": "Apresenta o projeto de lei",
       "detalhes": "Podem propor lei ordinária: deputados, senadores, comissões da Câmara, do Senado e do Congresso, o Presidente da República, o STF, os tribunais superiores, o PGR e os cidadãos (etapa própria). Alguns temas só podem ser propostos pelo Presidente, como criação de cargos no Executivo e efetivo das Forças Armadas (art. 61, § 1º). Os projetos do Presidente, do STF e dos tribunais superiores começam na Câmara (art. 64); os de comissão mista começam alternadamente em cada Casa (RCCN, art. 142).",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -47,10 +47,6 @@
         {
           "para": "senado-distribuicao",
           "quando": "Autor: senador ou comissão do Senado; ou comissão mista, quando for a vez do Senado"
-        },
-        {
-          "para": "pedido-de-urgencia",
-          "quando": "O Presidente da República pede urgência para projeto seu"
         }
       ]
     },
@@ -61,7 +57,6 @@
       ],
       "acao": "Eleitores apresentam projeto à Câmara assinado por 1% do eleitorado, de ao menos 5 estados (0,3% em cada)",
       "detalhes": "O projeto deve tratar de um só assunto e não pode ser rejeitado por vício de forma: a Câmara corrige problemas de redação. Uma entidade da sociedade civil pode organizar a coleta de assinaturas, e um deputado é designado para exercer os poderes de autor. Não pode ser aprovado só nas comissões; vai sempre ao Plenário.",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -84,42 +79,15 @@
       ]
     },
     {
-      "id": "pedido-de-urgencia",
-      "atores": [
-        "cargo:presidente-da-republica"
-      ],
-      "acao": "Pede urgência: cada Casa tem 45 dias para votar; depois, as demais votações da Casa ficam suspensas",
-      "detalhes": "Vale só para projetos de iniciativa do Presidente e pode ser pedida em qualquer fase da tramitação (RICD, art. 204, § 1º). Esgotado o prazo, ficam sobrestadas as demais deliberações da Casa, salvo as que têm prazo constitucional, até a votação do projeto. No Senado, as comissões examinam o projeto ao mesmo tempo e têm até o 25º dia para dar parecer (RISF, art. 375).",
-      "prazo": "45 dias na Câmara e, em seguida, 45 dias no Senado; 10 dias para a Câmara votar as emendas do Senado. Os prazos não correm no recesso e não valem para projetos de código.",
-      "fontes": [
-        {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 64, §§ 1º a 4º"
-        },
-        {
-          "ref": "norma:ricd",
-          "dispositivo": "art. 204"
-        },
-        {
-          "ref": "norma:risf",
-          "dispositivo": "art. 375"
-        }
-      ],
-      "seguintes": [
-        {
-          "para": "camara-distribuicao",
-          "quando": null
-        }
-      ]
-    },
-    {
       "id": "camara-distribuicao",
       "atores": [
         "cargo:presidente-da-camara-dos-deputados"
       ],
       "acao": "Distribui o projeto às comissões e indica se elas decidem sozinhas (apreciação conclusiva) ou se o Plenário vota",
       "detalhes": "A CCJC sempre recebe o projeto; a CFT o recebe quando há impacto financeiro ou orçamentário; e até quatro comissões examinam o mérito. Se o tema envolver mais de quatro comissões de mérito, cria-se uma comissão especial. Vale tanto quando a Câmara é a casa iniciadora como quando é a revisora.",
-      "prazo": "Até 2 sessões depois do recebimento (RICD, art. 139, caput)",
+      "prazo": {
+        "texto": "Até 2 sessões depois do recebimento (RICD, art. 139, caput)"
+      },
       "fontes": [
         {
           "ref": "norma:ricd",
@@ -135,6 +103,7 @@
     },
     {
       "id": "camara-comissoes",
+      "tipo_etapa": "decisao",
       "atores": [
         "org:comissoes-da-camara-dos-deputados",
         "org:cft-camara",
@@ -142,7 +111,9 @@
       ],
       "acao": "Comissões de mérito, a CFT (finanças) e a CCJC (constitucionalidade) dão parecer e votam o projeto",
       "detalhes": "Pela Constituição, o regimento pode dispensar o Plenário e deixar a decisão às comissões (apreciação conclusiva). No RICD isso não vale, entre outros casos, para projetos de código, de iniciativa popular, de comissão, sobre matéria que não pode ser delegada, já aprovados pelo Plenário do Senado, com pareceres divergentes ou em regime de urgência (art. 24, II). Os pareceres da CCJC sobre constitucionalidade e da CFT sobre adequação financeira são terminativos (art. 54).",
-      "prazo": "Por comissão: 40 sessões (tramitação ordinária), 10 (prioridade) ou 5 (urgência) (RICD, art. 52)",
+      "prazo": {
+        "texto": "Por comissão: 40 sessões (tramitação ordinária), 10 (prioridade) ou 5 (urgência) (RICD, art. 52)"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -172,7 +143,12 @@
       ],
       "acao": "Abre prazo para um décimo dos deputados recorrer ao Plenário contra a decisão das comissões",
       "detalhes": "O recurso é dirigido ao Presidente da Câmara e precisa indicar o que o Plenário vai votar. Sem recurso, o projeto aprovado vai à redação final e segue em até 72 horas ao Senado ou à sanção (art. 58, §§ 4º e 5º). Contra parecer terminativo, o recurso leva o Plenário a decidir só a questão preliminar (art. 144).",
-      "prazo": "5 sessões a partir da publicação do anúncio (RICD, art. 58, § 1º; art. 132, § 2º)",
+      "prazo": {
+        "texto": "5 sessões a partir da publicação do anúncio (RICD, art. 58, § 1º; art. 132, § 2º)",
+        "valor": 5,
+        "unidade": "sessoes",
+        "conta_de": "publicação do anúncio"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -204,16 +180,20 @@
           "para": "arquivamento",
           "quando": "Sem recurso, projeto rejeitado ou com parecer terminativo contrário"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "um-decimo",
+        "nota": "Para apresentar recurso ao Plenário."
+      }
     },
     {
       "id": "camara-plenario",
+      "tipo_etapa": "decisao",
       "atores": [
         "org:plenario-da-camara-dos-deputados"
       ],
       "acao": "Plenário discute e vota; aprova por maioria dos votos, presente a maioria absoluta dos deputados",
       "detalhes": "Como casa revisora, a Câmara vota o projeto do Senado em um só turno (CF, art. 65). Depois da votação, a comissão competente prepara a redação final, e o texto segue em autógrafos ao Senado ou à sanção até a segunda sessão seguinte (RICD, art. 200).",
-      "prazo": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento; depois, a pauta da Câmara fica trancada",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -241,7 +221,11 @@
           "para": "arquivamento",
           "quando": "Rejeitado"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Presente a maioria absoluta dos deputados."
+      }
     },
     {
       "id": "senado-distribuicao",
@@ -250,7 +234,6 @@
       ],
       "acao": "Distribui o projeto às comissões e indica se a decisão delas será terminativa",
       "detalhes": "A decisão terminativa nas comissões é a regra para projetos de lei ordinária de senador, exceto códigos. Para projetos da Câmara de iniciativa parlamentar já aprovados de forma terminativa por comissão de lá, o Presidente do Senado pode, ouvidas as lideranças, dar o mesmo poder às comissões. Vale tanto quando o Senado é a casa iniciadora como quando é o revisor.",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:risf",
@@ -266,13 +249,13 @@
     },
     {
       "id": "senado-comissoes",
+      "tipo_etapa": "decisao",
       "atores": [
         "org:comissoes-do-senado-federal",
         "org:ccj-senado"
       ],
       "acao": "Comissões dão parecer; nos casos terminativos, aprovam ou rejeitam o projeto sem passar pelo Plenário",
       "detalhes": "As decisões terminativas são tomadas por votação nominal, por maioria dos votos, presente a maioria dos membros da comissão (RISF, art. 109). A CCJ opina sobre constitucionalidade e juridicidade quando o projeto lhe é enviado.",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -301,7 +284,12 @@
         "org:plenario-do-senado-federal"
       ],
       "acao": "Abre prazo para um décimo dos senadores recorrer ao Plenário contra a decisão terminativa",
-      "prazo": "5 dias úteis a partir da publicação da comunicação na Ordem do Dia (RISF, art. 91, § 3º)",
+      "prazo": {
+        "texto": "5 dias úteis a partir da publicação da comunicação na Ordem do Dia (RISF, art. 91, § 3º)",
+        "valor": 5,
+        "unidade": "dias-uteis",
+        "conta_de": "publicação da comunicação na Ordem do Dia"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -333,16 +321,20 @@
           "para": "arquivamento",
           "quando": "Sem recurso, projeto rejeitado"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "um-decimo",
+        "nota": "Para apresentar recurso ao Plenário."
+      }
     },
     {
       "id": "senado-plenario",
+      "tipo_etapa": "decisao",
       "atores": [
         "org:plenario-do-senado-federal"
       ],
       "acao": "Plenário discute e vota; aprova por maioria dos votos, presente a maioria absoluta dos senadores",
       "detalhes": "Como casa revisora, o Senado vota o projeto da Câmara em um só turno (CF, art. 65). O texto aprovado em definitivo segue em autógrafos à sanção ou à Câmara (RISF, art. 328).",
-      "prazo": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento; depois, a pauta do Senado fica trancada",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -370,7 +362,11 @@
           "para": "arquivamento",
           "quando": "Rejeitado"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Presente a maioria absoluta dos senadores."
+      }
     },
     {
       "id": "camara-aprecia-emendas-do-senado",
@@ -380,7 +376,6 @@
       ],
       "acao": "Câmara, como casa iniciadora, vota as emendas do Senado, aceitando-as ou rejeitando-as",
       "detalhes": "As emendas do Senado são distribuídas às comissões junto com o projeto. A palavra final sobre o texto é da casa iniciadora: em seguida o projeto vai à sanção.",
-      "prazo": "10 dias se houver urgência pedida pelo Presidente da República (CF, art. 64, § 3º)",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -406,7 +401,6 @@
       ],
       "acao": "Senado, como casa iniciadora, vota as emendas da Câmara, aceitando-as ou rejeitando-as, sem subemendas",
       "detalhes": "As emendas da Câmara não podem ser modificadas por subemenda e, em regra, são votadas em globo; o substitutivo da Câmara é tratado como série de emendas. A palavra final sobre o texto é da casa iniciadora.",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -426,12 +420,12 @@
     },
     {
       "id": "envio-a-sancao",
+      "tipo_etapa": "decisao",
       "atores": [
         "org:camara-dos-deputados",
         "org:senado-federal"
       ],
       "acao": "A Casa onde a votação terminou envia o projeto aprovado (autógrafo) ao Presidente da República",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -468,7 +462,13 @@
       ],
       "acao": "Sanciona o projeto, que assim se torna lei",
       "detalhes": "No veto parcial, a parte não vetada é sancionada e segue normalmente.",
-      "prazo": "15 dias úteis contados do recebimento (CF, art. 66, §§ 1º e 3º)",
+      "prazo": {
+        "texto": "15 dias úteis contados do recebimento (CF, art. 66, §§ 1º e 3º)",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "recebimento do projeto",
+        "efeito": "o silêncio vale como sanção"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -484,12 +484,15 @@
     },
     {
       "id": "sancao-tacita",
+      "tipo_etapa": "decurso-de-prazo",
       "atores": [
         "cargo:presidente-da-republica"
       ],
       "acao": "O silêncio do Presidente por 15 dias úteis vale como sanção",
       "detalhes": "O § 3º do art. 66 fala em 'prazo de quinze dias' sem repetir 'úteis'; lemos como o mesmo prazo do § 1º (ver achado:prazo-sancao-tacita-dias-uteis). Neste caso, se o Presidente não promulgar a lei em 48 horas, a promulgação passa ao Presidente do Senado.",
-      "prazo": "15 dias úteis contados do recebimento",
+      "prazo": {
+        "texto": "15 dias úteis contados do recebimento"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -510,7 +513,12 @@
       ],
       "acao": "Veta o projeto inteiro ou artigos, parágrafos, incisos ou alíneas inteiros e informa os motivos ao Senado",
       "detalhes": "O veto só pode ter dois fundamentos: inconstitucionalidade ou contrariedade ao interesse público. O veto parcial não pode atingir só palavras ou trechos: abrange o texto inteiro de artigo, parágrafo, inciso ou alínea.",
-      "prazo": "15 dias úteis do recebimento para vetar; 48 horas para comunicar os motivos ao Presidente do Senado",
+      "prazo": {
+        "texto": "15 dias úteis do recebimento para vetar; 48 horas para comunicar os motivos ao Presidente do Senado",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "recebimento do projeto"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -530,12 +538,19 @@
     },
     {
       "id": "apreciacao-do-veto",
+      "tipo_etapa": "decisao",
       "atores": [
         "org:congresso-nacional"
       ],
       "acao": "Deputados e senadores, em sessão conjunta, mantêm ou derrubam o veto; derrubar exige maioria absoluta em cada Casa",
       "detalhes": "Para derrubar o veto, são necessários os votos da maioria absoluta dos deputados e da maioria absoluta dos senadores, contados separadamente. A votação é nominal, por cédula, em sessões convocadas para a terceira terça-feira de cada mês. Se o veto não for votado em 30 dias, entra na ordem do dia da sessão seguinte e as demais proposições ficam paradas até sua votação.",
-      "prazo": "30 dias contados do protocolo do veto na Presidência do Senado; esgotado o prazo, o veto tranca a pauta da sessão conjunta",
+      "prazo": {
+        "texto": "30 dias contados do protocolo do veto na Presidência do Senado; esgotado o prazo, o veto tranca a pauta da sessão conjunta",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "protocolo do veto na Presidência do Senado",
+        "efeito": "o veto tranca a pauta da sessão conjunta"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -555,23 +570,26 @@
           "para": "veto-mantido",
           "quando": "Veto mantido"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Para derrubar: maioria absoluta dos deputados e dos senadores, contadas separadamente."
+      }
     },
     {
       "id": "veto-mantido",
+      "tipo_etapa": "fim",
       "atores": [
         "org:congresso-nacional"
       ],
       "acao": "O veto é mantido e a parte vetada não entra na lei",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 66, § 4º"
         }
       ],
-      "seguintes": [],
-      "final": true
+      "seguintes": []
     },
     {
       "id": "promulgacao",
@@ -579,7 +597,11 @@
         "cargo:presidente-da-republica"
       ],
       "acao": "Promulga a lei, declarando que ela existe e deve ser cumprida",
-      "prazo": "48 horas nos casos de sanção tácita e de veto derrubado (CF, art. 66, § 7º)",
+      "prazo": {
+        "texto": "48 horas nos casos de sanção tácita e de veto derrubado (CF, art. 66, § 7º)",
+        "valor": 48,
+        "unidade": "horas"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -603,7 +625,9 @@
         "cargo:presidente-do-senado-federal"
       ],
       "acao": "Promulga a lei no lugar do Presidente da República",
-      "prazo": "48 horas",
+      "prazo": {
+        "texto": "48 horas"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -632,7 +656,6 @@
       ],
       "acao": "Promulga a lei quando nem o Presidente da República nem o Presidente do Senado o fizeram",
       "detalhes": "A Constituição fala em 'Vice-Presidente do Senado'; o Regimento do Senado atribui a tarefa ao Primeiro Vice-Presidente. A CF não fixa prazo para ele.",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -658,7 +681,6 @@
       ],
       "acao": "A lei é publicada no Diário Oficial da União",
       "detalhes": "Cabe ao Presidente da República fazer publicar as leis; a Imprensa Nacional edita o Diário Oficial da União, que é exclusivamente eletrônico.",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -682,12 +704,13 @@
     },
     {
       "id": "vigencia",
-      "atores": [
-        "org:congresso-nacional"
-      ],
+      "tipo_etapa": "fim",
+      "atores": [],
       "acao": "A lei entra em vigor na data que ela fixar; se não fixar, 45 dias depois de publicada",
       "detalhes": "A lei deve dizer expressamente quando entra em vigor; a vigência imediata, na data da publicação, fica para leis de pequena repercussão. Na contagem da vacância entram o dia da publicação e o último dia do prazo, e a lei vigora no dia seguinte. Se o texto for republicado para correção antes de vigorar, o prazo recomeça.",
-      "prazo": "Vacatio legis: o prazo que a própria lei fixar ou, se ela for omissa, 45 dias no Brasil e 3 meses no exterior",
+      "prazo": {
+        "texto": "Vacatio legis: o prazo que a própria lei fixar ou, se ela for omissa, 45 dias no Brasil e 3 meses no exterior"
+      },
       "fontes": [
         {
           "ref": "norma:lindb",
@@ -698,17 +721,16 @@
           "dispositivo": "art. 8º"
         }
       ],
-      "seguintes": [],
-      "final": true
+      "seguintes": []
     },
     {
       "id": "arquivamento",
+      "tipo_etapa": "fim",
       "atores": [
         "org:camara-dos-deputados",
         "org:senado-federal"
       ],
       "acao": "O projeto rejeitado é arquivado; na mesma sessão legislativa, só volta por proposta da maioria absoluta de uma Casa",
-      "prazo": null,
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -723,8 +745,7 @@
           "dispositivo": "art. 91, § 5º"
         }
       ],
-      "seguintes": [],
-      "final": true
+      "seguintes": []
     }
   ],
   "vigencia": {
@@ -763,5 +784,50 @@
     "status": "coletado",
     "em": "2026-10-16",
     "tarefa": "piloto-processo-lei"
-  }
+  },
+  "regimes": [
+    {
+      "id": "urgencia-constitucional",
+      "nome": "Urgência pedida pelo Presidente",
+      "resumo": "Pede urgência: cada Casa tem 45 dias para votar; depois, as demais votações da Casa ficam suspensas",
+      "detalhes": "Vale só para projetos de iniciativa do Presidente e pode ser pedida em qualquer fase da tramitação (RICD, art. 204, § 1º). Esgotado o prazo, ficam sobrestadas as demais deliberações da Casa, salvo as que têm prazo constitucional, até a votação do projeto. No Senado, as comissões examinam o projeto ao mesmo tempo e têm até o 25º dia para dar parecer (RISF, art. 375). 45 dias na Câmara e, em seguida, 45 dias no Senado; 10 dias para a Câmara votar as emendas do Senado. Os prazos não correm no recesso e não valem para projetos de código.",
+      "quem_aciona": [
+        "cargo:presidente-da-republica"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 64, §§ 1º a 4º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 204"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 375"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-plenario",
+          "prazo": {
+            "texto": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento; depois, a pauta da Câmara fica trancada"
+          }
+        },
+        {
+          "etapa": "senado-plenario",
+          "prazo": {
+            "texto": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento; depois, a pauta do Senado fica trancada"
+          }
+        },
+        {
+          "etapa": "camara-aprecia-emendas-do-senado",
+          "prazo": {
+            "texto": "10 dias se houver urgência pedida pelo Presidente da República (CF, art. 64, § 3º)"
+          }
+        }
+      ]
+    }
+  ]
 }

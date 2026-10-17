@@ -1,6 +1,6 @@
-// Painel lateral: legenda, ficha da entidade selecionada, etapas do processo e lista de achados.
+// Painel lateral: legenda, ficha da entidade selecionada, processo e etapas, lista de achados.
 // Os textos longos ficam atrás do botão "i" (D25).
-import { Dados, GRUPOS_RELACAO, NOMES_TIPO, formatarData, type Entidade, type Etapa, type FonteRef } from "./dados.ts";
+import { Dados, GRUPOS_RELACAO, NOMES_TIPO, formatarData, type Entidade, type Etapa, type FonteRef, type Prazo, type Quorum, type Regime } from "./dados.ts";
 import { TRACO_GRUPO } from "./mapa.ts";
 
 const esc = (s: unknown) =>
@@ -13,54 +13,55 @@ export function amostraTraco(grupo: string): string {
   return `<svg width="28" height="10" aria-hidden="true"><line x1="1" y1="5" x2="27" y2="5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" ${dash ? `stroke-dasharray="${dash}"` : ""}/></svg>`;
 }
 
-const NOMES_CONFIANCA: Record<string, string> = {
-  oficial: "Fonte oficial",
-  "oficial-contraditorio": "Fontes oficiais divergem",
-  secundario: "Fonte não oficial",
-  inferido: "Inferido",
-  indisponivel: "Sem fonte disponível",
-};
+interface Eventos {
+  selecionar: (id: string) => void;
+  selecionarEtapa: (processoId: string, etapaId: string) => void;
+  alternarRegime: (processoId: string, regimeId: string | null) => void;
+}
 
 export class Painel {
-  private aberto = new Set<string>(); // ids com o "i" expandido
+  private aberto = new Set<string>(); // blocos "i" expandidos
 
-  constructor(
-    private el: HTMLElement,
-    private dados: Dados,
-    private aoSelecionar: (id: string) => void,
-    private aoFocarEtapa: (etapa: Etapa) => void,
-  ) {
+  constructor(private el: HTMLElement, private dados: Dados, private eventos: Eventos) {
     el.addEventListener("click", (ev) => {
-      const alvo = (ev.target as HTMLElement).closest<HTMLElement>("[data-id],[data-mais],[data-etapa]");
+      const alvo = (ev.target as HTMLElement).closest<HTMLElement>("[data-id],[data-mais],[data-etapa],[data-regime]");
       if (!alvo) return;
-      if (alvo.dataset.mais) {
-        const id = alvo.dataset.mais;
-        if (this.aberto.has(id)) this.aberto.delete(id);
-        else this.aberto.add(id);
-        alvo.setAttribute("aria-expanded", String(this.aberto.has(id)));
+      const d = alvo.dataset;
+      if (d.mais) {
+        if (this.aberto.has(d.mais)) this.aberto.delete(d.mais);
+        else this.aberto.add(d.mais);
+        alvo.setAttribute("aria-expanded", String(this.aberto.has(d.mais)));
         alvo.nextElementSibling?.toggleAttribute("hidden");
-      } else if (alvo.dataset.id) {
-        this.aoSelecionar(alvo.dataset.id);
-      } else if (alvo.dataset.etapa) {
-        this.el.querySelectorAll(".etapas li").forEach((li) => li.classList.toggle("ativa", li === alvo));
-        const proc = this.dados.get(alvo.dataset.processo!)!;
-        this.aoFocarEtapa((proc.etapas as Etapa[]).find((e) => e.id === alvo.dataset.etapa)!);
-      }
+      } else if (d.etapa) this.eventos.selecionarEtapa(d.processo!, d.etapa);
+      else if (d.regime !== undefined) this.eventos.alternarRegime(d.processo!, alvo.getAttribute("aria-pressed") === "true" ? null : d.regime);
+      else if (d.id) this.eventos.selecionar(d.id);
     });
   }
+
+  // ---------- Peças reutilizadas ----------
 
   private link(id: string): string {
     const e = this.dados.get(id);
     return e ? `<button class="link" data-id="${esc(id)}">${esc(e.nome)}</button>` : esc(id);
   }
 
+  private nomeCurto(id: string): string {
+    const e = this.dados.get(id);
+    return esc(e?.sigla ?? e?.nome ?? id);
+  }
+
+  /** Termo de vocabulário com a definição no título (passe o mouse para ler). */
+  private termo(vocab: string, valor: string): string {
+    return `<span class="termo" title="${esc(this.dados.definicao(vocab, valor))}">${esc(this.dados.nomeDe(vocab, valor))}</span>`;
+  }
+
   private fontes(fontes: FonteRef[] | undefined): string {
     if (!fontes?.length) return "";
-    return `<ul>${fontes
+    return `<ul class="fontes">${fontes
       .map((f) => {
         const e = this.dados.get(f.ref);
         const url = (e?.url as string | null | undefined) ?? null;
-        const nome = esc(e?.sigla ?? e?.nome ?? f.ref);
+        const nome = this.nomeCurto(f.ref);
         const naoOficial = e?.tipo === "fonte" && e.oficial === false ? ` <span class="etiqueta">não oficial</span>` : "";
         return `<li class="fonte">${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">${nome}</a>` : nome}${
           f.dispositivo ? ` <span class="dispositivo">${esc(f.dispositivo)}</span>` : ""
@@ -69,59 +70,72 @@ export class Painel {
       .join("")}</ul>`;
   }
 
-  /** Bloco "i": detalhes, fontes, vigência e links externos. */
+  private quorum(q: Quorum | undefined): string {
+    if (!q) return "";
+    const votacao = q.votacao ? `, votação ${this.termo("votacao", q.votacao).toLowerCase()}` : "";
+    return `<span class="quorum">Quórum: ${this.termo("quorum", q.regra)}${votacao}${q.nota ? `. ${esc(q.nota)}` : ""}</span>`;
+  }
+
+  private prazo(p: Prazo | undefined): string {
+    if (!p) return "";
+    const efeito = p.efeito ? ` <span class="dispositivo">Se acabar: ${esc(p.efeito)}.</span>` : "";
+    return `<span class="prazo">Prazo: ${esc(p.texto)}${efeito}</span>`;
+  }
+
+  private etiquetas(e: Entidade): string {
+    const tipo =
+      e.tipo === "orgao" ? this.dados.nomeDe("tipo_orgao", e.tipo_orgao as string)
+      : e.tipo === "objeto" ? this.dados.nomeDe("tipo_objeto", e.tipo_objeto as string)
+      : NOMES_TIPO[e.tipo];
+    const conf = e.confianca !== "oficial" ? `<span class="etiqueta">${this.termo("confianca", e.confianca)}</span>` : "";
+    // Campos com confiança própria, diferente da entidade (ex.: um número inferido).
+    const campos = Object.entries(e.campos ?? {})
+      .filter(([, c]) => c.confianca && c.confianca !== e.confianca)
+      .map(([campo, c]) => `<span class="etiqueta" title="${esc(this.dados.definicao("confianca", c.confianca!))}">${esc(campo)}: ${esc(this.dados.nomeDe("confianca", c.confianca!).toLowerCase())}</span>`)
+      .join("");
+    return `<div class="etiquetas"><span class="etiqueta">${esc(tipo)}</span>${conf}${campos}</div>`;
+  }
+
+  /** Bloco "i": detalhes, fontes (gerais e por campo), vigência e links externos. */
   private blocoMais(e: Entidade): string {
     const aberto = this.aberto.has(e.id);
-    const porCampo = Object.entries(e.fontes_por_campo ?? {})
-      .map(([campo, fs]) => `<h3>Fonte de "${esc(campo)}"</h3>${this.fontes(fs)}`)
+    const porCampo = Object.entries(e.campos ?? {})
+      .filter(([, c]) => c.fontes?.length || c.nota)
+      .map(([campo, c]) => `<h3>Fonte de "${esc(campo)}"</h3>${this.fontes(c.fontes)}${c.nota ? `<p class="dispositivo">${esc(c.nota)}</p>` : ""}`)
       .join("");
     const mais = e.mais_informacoes?.length
       ? `<h3>Mais informações</h3><ul>${e.mais_informacoes
           .map((l) => `<li><a class="link" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.titulo)}</a></li>`)
           .join("")}</ul>`
       : "";
+    const vig = e.vigencia;
     return `
       <button class="mais" data-mais="${esc(e.id)}" aria-expanded="${aberto}"><span class="i">i</span> Detalhes e fontes</button>
       <div class="detalhes" ${aberto ? "" : "hidden"}>
         ${e.detalhes ? `<p>${esc(e.detalhes)}</p>` : ""}
         <h3>Fontes</h3>${this.fontes(e.fontes) || "<p>—</p>"}
         ${porCampo}
-        <dl class="ficha"><dt>Em vigor</dt><dd>${formatarData(e.vigencia.de)} a ${e.vigencia.ate ? formatarData(e.vigencia.ate) : "hoje"}</dd></dl>
+        <dl class="ficha"><dt>Em vigor</dt><dd>${vig.de ? formatarData(vig.de) : "início desconhecido"} a ${vig.ate ? formatarData(vig.ate) : "hoje"}${vig.incerta ? " (datas aproximadas)" : ""}${vig.nota ? `<br>${esc(vig.nota)}` : ""}</dd></dl>
         ${mais}
       </div>`;
   }
 
-  private etiquetas(e: Entidade): string {
-    const tipo = e.tipo === "orgao" && e.tipo_orgao ? this.termo(e.tipo_orgao as string) : NOMES_TIPO[e.tipo];
-    const conf = e.confianca !== "oficial"
-      ? `<span class="etiqueta" title="${esc(this.dados.definicao("confianca", e.confianca))}">${esc(NOMES_CONFIANCA[e.confianca])}</span>`
-      : "";
-    return `<div class="etiquetas"><span class="etiqueta">${esc(tipo)}</span>${conf}</div>`;
-  }
-
-  private termo(valor: string): string {
-    return valor.replaceAll("-", " ").replace(/^./, (c) => c.toUpperCase());
-  }
-
-  private termoComDefinicao(vocab: string, valor: string): string {
-    const def = this.dados.definicao(vocab, valor);
-    return `<span title="${esc(def)}">${esc(this.termo(valor))}</span>`;
-  }
-
   private relacoes(id: string): string {
     const linha = (r: Entidade, outro: string, saindo: boolean) => {
-      const verbo = `<span class="relacao-verbo" title="${esc(this.dados.definicao("relacao", r.relacao as string))}">${esc((r.relacao as string).replaceAll("-", " "))}</span>`;
-      const cond = r.condicao ? `<br><span class="dispositivo">${esc(r.condicao)}</span>` : "";
-      return `<li>${saindo ? `${verbo} ${this.link(outro)}` : `${this.link(outro)} ${verbo}`}${cond}</li>`;
+      const verbo = this.termo("relacao", r.relacao as string);
+      const ordem = r.ordem ? `<span class="ordem">${r.ordem}º</span> ` : "";
+      const extra = [r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
+      return `<li>${ordem}${saindo ? `${verbo} ${this.link(outro)}` : `${this.link(outro)} ${verbo}`}${extra ? `<br><span class="dispositivo">${extra}</span>` : ""}</li>`;
     };
     const saindo = this.dados.relacoesSaindo(id).filter((r) => r.relacao !== "ocupa");
     const chegando = this.dados.relacoesChegando(id).filter((r) => r.relacao !== "ocupa");
+    const porOrdem = (a: Entidade, b: Entidade) => ((a.ordem as number) ?? 0) - ((b.ordem as number) ?? 0);
     const blocos: string[] = [];
     for (const [grupo, nome] of Object.entries(GRUPOS_RELACAO)) {
-      const s = saindo.filter((r) => this.dados.grupoDe(r.relacao as string) === grupo);
-      const c = chegando.filter((r) => this.dados.grupoDe(r.relacao as string) === grupo);
+      const s = saindo.filter((r) => this.dados.grupoDe(r.relacao as string) === grupo).sort(porOrdem);
+      const c = chegando.filter((r) => this.dados.grupoDe(r.relacao as string) === grupo).sort(porOrdem);
       if (!s.length && !c.length) continue;
-      blocos.push(`<h3>${esc(nome)}</h3><ul>${s.map((r) => linha(r, r.para as string, true)).join("")}${c
+      blocos.push(`<h3>${esc(nome)}</h3><ul class="relacoes">${s.map((r) => linha(r, r.para as string, true)).join("")}${c
         .map((r) => linha(r, r.de as string, false))
         .join("")}</ul>`);
     }
@@ -131,70 +145,111 @@ export class Painel {
   private processosDe(id: string): string {
     const itens: string[] = [];
     for (const p of this.dados.todas("processo")) {
-      const etapas = (p.etapas as Etapa[]).filter((et) => et.atores.some((a) => this.dados.noDe(a) === id || a === id));
-      if (etapas.length) itens.push(`<li>${this.link(p.id)}: ${etapas.map((et) => esc(et.acao)).join("; ")}</li>`);
+      const etapas = (p.etapas as Etapa[]).filter((et) => et.atores.some((a) => a === id || this.dados.noDe(a) === id));
+      if (etapas.length) itens.push(`<li>${this.link(p.id)}: ${etapas.length} etapa${etapas.length > 1 ? "s" : ""}</li>`);
+      else if (p.produz === id) itens.push(`<li>Produzido por ${this.link(p.id)}</li>`);
     }
-    return itens.length ? `<h3>Participa de</h3><ul>${itens.join("")}</ul>` : "";
+    return itens.length ? `<h3>Processos</h3><ul>${itens.join("")}</ul>` : "";
   }
+
+  // ---------- Fichas por tipo ----------
+
+  private fichaCargo(e: Entidade): string {
+    const partes: string[] = [];
+    const vagas = e.vagas as number | null;
+    const ocup = this.dados.ocupantes(e.id);
+    const vacancias = ((e.vacancias as { vagas: number; vigencia: Entidade["vigencia"]; nota?: string }[]) ?? []).filter((v) =>
+      this.dados.vigente(v),
+    );
+    if (ocup.length || vacancias.length) {
+      const titulo = vagas === 1 ? "Ocupante" : `Ocupantes registrados (${ocup.length}${vagas ? ` de ${vagas}` : ""})`;
+      partes.push(`<h3>${titulo} em ${formatarData(this.dados.data)}</h3>`);
+      partes.push(
+        ocup
+          .map(({ pessoa, partido }) => `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`)
+          .join(""),
+      );
+      for (const v of vacancias) {
+        partes.push(`<div class="ocupante vaga">${v.vagas} cadeira${v.vagas > 1 ? "s" : ""} vaga${v.vagas > 1 ? "s" : ""} desde ${formatarData(v.vigencia.de)}${v.vigencia.incerta ? " (data aproximada)" : ""}</div>`);
+      }
+    }
+
+    const casos = (e.provimento_casos as { quando: string; provimento: string }[] | undefined) ?? [];
+    const comoSeChega = casos.length
+      ? `<ul>${casos.map((c) => `<li>${esc(c.quando)}: ${this.termo("provimento", c.provimento)}</li>`).join("")}</ul>`
+      : this.termo("provimento", e.provimento as string);
+    const m = e.mandato as { anos?: number | null; vitalicio?: boolean; limite?: string; inicio?: string; reconducao?: string } | null;
+    const mandato = !m ? "" : m.vitalicio
+      ? `Vitalício${m.limite ? `, até ${esc(m.limite)}` : ""}`
+      : [m.anos ? `${m.anos} anos` : "", m.inicio ? `começa em ${esc(m.inicio)}` : "", m.reconducao ? esc(m.reconducao.replaceAll("-", " ")) : ""].filter(Boolean).join("; ");
+    const requisitos = (e.requisitos as { texto: string; fontes: FonteRef[] }[] | undefined) ?? [];
+
+    partes.push(`<dl class="ficha">
+      <dt>Como se chega</dt><dd>${comoSeChega}</dd>
+      ${mandato ? `<dt>Mandato</dt><dd>${mandato}</dd>` : ""}
+      <dt>Vagas</dt><dd>${vagas ?? "variável"}</dd>
+      ${requisitos.length ? `<dt>Requisitos</dt><dd><ul>${requisitos.map((r) => `<li title="${esc(r.fontes.map((f) => `${this.dados.get(f.ref)?.sigla ?? ""} ${f.dispositivo ?? ""}`).join("; "))}">${esc(r.texto)}</li>`).join("")}</ul></dd>` : ""}
+      <dt>Órgão</dt><dd>${this.link(e.orgao as string)}</dd>
+    </dl>`);
+    return partes.join("");
+  }
+
+  private fichaOrgao(e: Entidade): string {
+    const partes = [`<dl class="ficha">
+      <dt>Poder</dt><dd>${this.termo("poder", e.poder as string)}</dd>
+      <dt>Esfera</dt><dd>${this.termo("esfera", e.esfera as string)}${e.arquetipo ? " (estrutura típica)" : ""}</dd>
+      ${e.contido_em ? `<dt>Parte de</dt><dd>${this.link(e.contido_em as string)}</dd>` : ""}
+    </dl>`];
+    const cargos = this.dados.todas("cargo").filter((c) => c.orgao === e.id);
+    if (cargos.length) partes.push(`<h3>Cargos</h3><ul>${cargos.map((c) => `<li>${this.link(c.id)}</li>`).join("")}</ul>`);
+    if (e.estrutura_continua) partes.push(`<h3>A estrutura continua</h3>${this.fontes(e.estrutura_continua as FonteRef[])}`);
+    return partes.join("");
+  }
+
+  private fichaObjeto(e: Entidade): string {
+    const de = (e.relativo_a as string[] | undefined) ?? [];
+    return `<dl class="ficha">
+      <dt>Tipo</dt><dd>${this.termo("tipo_objeto", e.tipo_objeto as string)}</dd>
+      ${e.esfera ? `<dt>Esfera</dt><dd>${this.termo("esfera", e.esfera as string)}</dd>` : ""}
+      ${de.length ? `<dt>De quem</dt><dd>${de.map((x) => this.link(x)).join(", ")}</dd>` : ""}
+    </dl>`;
+  }
+
+  // ---------- Telas ----------
 
   mostrar(id: string) {
     const e = this.dados.get(id);
     if (!e) return;
-    if (e.tipo === "processo") return this.mostrarProcesso(e);
-
     const partes: string[] = [this.etiquetas(e), `<h2>${esc(e.nome)}${e.sigla ? ` <span class="sub">(${esc(e.sigla)})</span>` : ""}</h2>`];
     if (e.resumo) partes.push(`<p class="resumo">${esc(e.resumo)}</p>`);
-
     for (const a of this.dados.achadosDe(id)) {
-      partes.push(`<div class="aviso"><span class="icone">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></div>`);
+      partes.push(`<div class="aviso"><span class="icone" aria-hidden="true">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></div>`);
     }
 
-    if (e.tipo === "cargo") {
-      const ocup = this.dados.ocupantes(id);
-      const vagas = e.quantidade as number | null;
-      if (ocup.length) {
-        const titulo = vagas === 1 ? "Ocupante" : `Ocupantes registrados (${ocup.length}${vagas ? ` de ${vagas}` : ""})`;
-        partes.push(`<h3>${titulo} em ${formatarData(this.dados.data)}</h3>${ocup
-          .map(({ pessoa, partido }) => `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`)
-          .join("")}`);
-      }
-      const mandato = e.mandato as { anos?: number | null; reconducao?: string; nota?: string } | null;
-      partes.push(`<dl class="ficha">
-        <dt>Como se chega</dt><dd>${this.termoComDefinicao("provimento", e.provimento as string)}${e.provimento_condicao ? `<br>${esc(e.provimento_condicao)}` : ""}</dd>
-        ${mandato ? `<dt>Mandato</dt><dd>${mandato.anos ? `${mandato.anos} anos` : ""}${mandato.reconducao ? `; ${esc(mandato.reconducao.replaceAll("-", " "))}` : ""}${mandato.nota ? `<br>${esc(mandato.nota)}` : ""}</dd>` : ""}
-        <dt>Vagas</dt><dd>${e.quantidade ?? "variável"}${e.quantidade_nota ? `<br>${esc(e.quantidade_nota)}` : ""}</dd>
-        ${(e.requisitos as string[] | undefined)?.length ? `<dt>Requisitos</dt><dd>${(e.requisitos as string[]).map(esc).join("; ")}</dd>` : ""}
-        <dt>Órgão</dt><dd>${this.link(e.orgao as string)}</dd>
-      </dl>`);
-    }
-    if (e.tipo === "orgao") {
-      partes.push(`<dl class="ficha">
-        <dt>Poder</dt><dd>${this.termoComDefinicao("poder", e.poder as string)}</dd>
-        <dt>Esfera</dt><dd>${this.termoComDefinicao("esfera", e.esfera as string)}${e.arquetipo ? " (estrutura típica)" : ""}</dd>
-        ${e.contido_em ? `<dt>Parte de</dt><dd>${this.link(e.contido_em as string)}</dd>` : ""}
-      </dl>`);
-      const cargos = this.dados.todas("cargo").filter((c) => c.orgao === id);
-      if (cargos.length) partes.push(`<h3>Cargos</h3><ul>${cargos.map((c) => `<li>${this.link(c.id)}</li>`).join("")}</ul>`);
-      if (e.estrutura_continua) partes.push(`<h3>A estrutura continua</h3>${this.fontes(e.estrutura_continua as FonteRef[])}`);
-    }
+    if (e.tipo === "cargo") partes.push(this.fichaCargo(e));
+    if (e.tipo === "orgao") partes.push(this.fichaOrgao(e));
+    if (e.tipo === "objeto") partes.push(this.fichaObjeto(e));
     if (e.tipo === "pessoa") {
       const cargos = this.dados.relacoesSaindo(id).filter((r) => r.relacao === "ocupa");
       partes.push(`<h3>Cargos em ${formatarData(this.dados.data)}</h3><ul>${cargos.map((r) => `<li>${this.link(r.para as string)} desde ${formatarData(r.vigencia.de)}</li>`).join("")}</ul>`);
     }
     if (e.tipo === "relacao") {
-      partes.push(`<p>${this.link(e.de as string)} <span class="relacao-verbo">${esc((e.relacao as string).replaceAll("-", " "))}</span> ${this.link(e.para as string)}</p>`);
+      partes.push(`<p>${this.link(e.de as string)} ${this.termo("relacao", e.relacao as string)} ${this.link(e.para as string)}</p>`);
       if (e.condicao) partes.push(`<p>${esc(e.condicao)}</p>`);
+      if (e.quorum) partes.push(`<p>${this.quorum(e.quorum as Quorum)}</p>`);
     }
     if (e.tipo === "achado") {
-      partes.push(`<dl class="ficha"><dt>Tipo</dt><dd>${this.termoComDefinicao("tipo_achado", e.tipo_achado as string)}</dd>${e.gravidade ? `<dt>Gravidade</dt><dd>${esc(e.gravidade)}</dd>` : ""}</dl>`);
+      partes.push(`<dl class="ficha"><dt>Tipo</dt><dd>${this.termo("tipo_achado", e.tipo_achado as string)}</dd>${e.gravidade ? `<dt>Gravidade</dt><dd>${esc(e.gravidade)}</dd>` : ""}</dl>`);
       partes.push(`<h3>Afeta</h3><ul>${(e.afeta as string[]).map((a) => `<li>${this.link(a)}</li>`).join("")}</ul>`);
+      const onde = (e.onde_procuramos as string[] | undefined) ?? [];
+      if (onde.length) partes.push(`<h3>Onde procuramos</h3><ul>${onde.map((o) => `<li>${esc(o)}</li>`).join("")}</ul>`);
     }
     if (e.tipo === "variacao") {
-      partes.push(`<dl class="ficha"><dt>Onde</dt><dd>${(e.entes as string[]).map((x) => this.link(x)).join(", ")}</dd><dt>Exceção a</dt><dd>${this.link(e.difere_de as string)}</dd><dt>Por quê</dt><dd>${esc(e.porque)}</dd></dl>`);
+      partes.push(`<dl class="ficha"><dt>Onde</dt><dd>${(e.entes as string[]).map((x) => this.link(x)).join(", ")} (${esc(this.dados.nomeDe("abrangencia", e.abrangencia as string).toLowerCase())})</dd><dt>Exceção a</dt><dd>${this.link(e.difere_de as string)}</dd><dt>Por quê</dt><dd>${esc(e.porque)}</dd></dl>`);
     }
 
     partes.push(this.blocoMais(e));
-    if (e.tipo === "orgao" || e.tipo === "cargo") {
+    if (["orgao", "cargo", "objeto"].includes(e.tipo)) {
       partes.push(this.relacoes(id));
       const variacoes = this.dados.todas("variacao").filter((v) => v.difere_de === id || v.instancia === id);
       if (variacoes.length) partes.push(`<h3>Exceções</h3><ul>${variacoes.map((v) => `<li>${this.link(v.id)}</li>`).join("")}</ul>`);
@@ -204,30 +259,46 @@ export class Painel {
     this.el.scrollTop = 0;
   }
 
-  mostrarProcesso(p: Entidade) {
+  mostrarProcesso(p: Entidade, regimeAtivo: string | null = null) {
     const etapas = p.etapas as Etapa[];
-    const numero = new Map(etapas.map((e, i) => [e.id, i + 1]));
+    const regimes = (p.regimes as Regime[] | undefined) ?? [];
     this.el.innerHTML = `
       ${this.etiquetas(p)}
       <h2>${esc(p.nome)}</h2>
       <p class="resumo">${esc(p.resumo)}</p>
+      ${p.produz ? `<dl class="ficha"><dt>Produz</dt><dd>${this.link(p.produz as string)}</dd></dl>` : ""}
       ${this.blocoMais(p)}
+      ${regimes.length ? `<h3>Variantes</h3>${regimes
+        .map((r) => `<button class="mais" data-regime="${esc(r.id)}" data-processo="${esc(p.id)}" aria-pressed="${regimeAtivo === r.id}">${regimeAtivo === r.id ? "✓ " : ""}${esc(r.nome)}</button>
+          ${regimeAtivo === r.id ? `<p class="dispositivo">${esc(r.resumo)}. ${esc(r.detalhes ?? "")}</p>` : ""}`)
+        .join("")}` : ""}
       <h3>Etapas</h3>
+      <p class="intro">Clique numa etapa, aqui ou no fluxo, para ver quem age, o prazo e a base legal.</p>
       <ol class="etapas">${etapas
-        .map((et, i) => {
-          const atores = et.atores.map((a) => esc(this.dados.get(a)?.sigla ?? this.dados.get(a)?.nome ?? a)).join(", ");
-          const ramos = et.seguintes
-            .map((s) => `→ ${numero.get(s.para) ?? "?"}${s.quando ? ` se ${esc(s.quando)}` : ""}`)
-            .join(" · ");
-          return `<li data-etapa="${esc(et.id)}" data-processo="${esc(p.id)}">
-            <span class="n">${i + 1}</span>
-            <div><div>${esc(et.acao)}</div>
-            <div class="atores">${atores}${et.prazo ? ` · prazo: ${esc(et.prazo)}` : ""}</div>
-            ${ramos ? `<div class="ramos">${ramos}</div>` : ""}
-            ${et.fontes.length ? `<div class="atores">${et.fontes.map((f) => esc(`${this.dados.get(f.ref)?.sigla ?? this.dados.get(f.ref)?.nome ?? f.ref}${f.dispositivo ? `, ${f.dispositivo}` : ""}`)).join("; ")}</div>` : ""}
-            </div></li>`;
-        })
+        .map((et, i) => `<li data-etapa="${esc(et.id)}" data-processo="${esc(p.id)}"><span class="n">${i + 1}</span><div>${esc(et.acao)}<div class="atores">${et.atores.map((a) => this.nomeCurto(a)).join(", ")}</div></div></li>`)
         .join("")}</ol>`;
+    this.el.scrollTop = 0;
+  }
+
+  mostrarEtapa(p: Entidade, etapaId: string, regimeAtivo: string | null = null) {
+    const etapas = p.etapas as Etapa[];
+    const i = etapas.findIndex((e) => e.id === etapaId);
+    const et = etapas[i];
+    const numero = new Map(etapas.map((e, j) => [e.id, j + 1]));
+    const regime = ((p.regimes as Regime[] | undefined) ?? []).find((r) => r.id === regimeAtivo);
+    const efeito = regime?.efeitos.find((ef) => ef.etapa === etapaId);
+    this.el.innerHTML = `
+      <button class="link voltar" data-id="${esc(p.id)}">← ${esc(p.nome)}</button>
+      <div class="etiquetas"><span class="etiqueta">Etapa ${i + 1} de ${etapas.length}</span>${et.tipo_etapa && et.tipo_etapa !== "acao" ? `<span class="etiqueta">${this.termo("tipo_etapa", et.tipo_etapa)}</span>` : ""}</div>
+      <h2>${esc(et.acao)}</h2>
+      ${et.detalhes ? `<p>${esc(et.detalhes)}</p>` : ""}
+      ${et.atores.length ? `<h3>Quem age</h3><ul>${et.atores.map((a) => `<li>${this.link(a)}</li>`).join("")}</ul>` : ""}
+      ${et.prazo || et.quorum ? `<h3>Regras</h3><p>${[this.prazo(et.prazo), this.quorum(et.quorum)].filter(Boolean).join("<br>")}</p>` : ""}
+      ${efeito ? `<div class="aviso"><span class="icone" aria-hidden="true">⏱</span><div>${esc(regime!.nome)}: ${esc(efeito.prazo?.texto ?? efeito.nota ?? "")}</div></div>` : ""}
+      <h3>Base legal</h3>${this.fontes(et.fontes) || "<p>—</p>"}
+      ${et.seguintes.length ? `<h3>Depois</h3><ul class="seguintes">${et.seguintes
+        .map((s) => `<li><button class="link" data-etapa="${esc(s.para)}" data-processo="${esc(p.id)}">→ ${numero.get(s.para)}. ${esc(etapas.find((e) => e.id === s.para)?.acao)}</button>${s.quando ? `<br><span class="dispositivo">se ${esc(s.quando)}</span>` : ""}</li>`)
+        .join("")}</ul>` : `<p class="intro">Fim do processo.</p>`}`;
     this.el.scrollTop = 0;
   }
 
@@ -237,7 +308,7 @@ export class Painel {
       <h2>Achados de auditoria</h2>
       <p class="intro">Lacunas, contradições entre fontes oficiais, sigilo e baixa transparência encontrados durante a pesquisa.</p>
       <ul>${achados
-        .map((a) => `<li class="aviso"><span class="icone">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></li>`)
+        .map((a) => `<li class="aviso"><span class="icone" aria-hidden="true">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></li>`)
         .join("") || "<li>Nenhum achado registrado.</li>"}</ul>`;
   }
 
@@ -257,6 +328,7 @@ export class Painel {
       <div class="legenda-item"><span class="amostra" style="border-color:var(--tinta-2)"></span>Órgão</div>
       <div class="legenda-item"><span class="amostra cargo" style="border-color:var(--tinta-2)"></span>Cargo</div>
       <div class="legenda-item"><span class="amostra" style="border-color:var(--tinta-2);clip-path:polygon(25% 0,75% 0,100% 30%,100% 70%,75% 100%,25% 100%,0 70%,0 30%)"></span>Tribunal</div>
+      <div class="legenda-item"><span class="amostra objeto"></span>Objeto de competência: o ato, a lei ou as contas sobre os quais os órgãos agem</div>
       <h3>Linhas: tipo de relação</h3>
       ${Object.entries(GRUPOS_RELACAO).map(([g, n]) => `<div class="legenda-item">${amostraTraco(g)}${esc(n)}</div>`).join("")}
       <h3>Borda: confiança da informação</h3>

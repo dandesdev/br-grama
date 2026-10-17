@@ -1,17 +1,18 @@
 // Gera web/public/dados/grafo.json: todas as entidades, vocabulários e o layout pré-calculado (D29).
 // Uso: npm run build:dados
 //
-// O layout tem posições semânticas (D21): cada região (povo, Poderes, entes subnacionais) é
-// diagramada separadamente pelo ELK e depois posicionada numa grade fixa.
+// O layout tem posições semânticas (D21): cada região (povo, Poderes, objetos de competência,
+// entes subnacionais) é diagramada separadamente pelo ELK e depois posicionada numa grade fixa.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import ELK, { type ElkNode, type ElkExtendedEdge } from "elkjs/lib/elk.bundled.js";
 import { RAIZ, lerArquivos, lerJson, vigenteEm, type Entidade } from "./lib/dados.ts";
 
-type Regiao = "povo" | "legislativo" | "executivo" | "judiciario" | "funcoes" | "entes";
+type Regiao = "povo" | "legislativo" | "executivo" | "judiciario" | "funcoes" | "objetos" | "entes";
 
 // Grade de regiões: linhas de cima para baixo, regiões da esquerda para a direita.
-const GRADE: Regiao[][] = [["povo"], ["legislativo", "executivo", "judiciario", "funcoes"], ["entes"]];
+const GRADE: Regiao[][] = [["povo"], ["legislativo", "executivo", "judiciario", "funcoes"], ["objetos"], ["entes"]];
+const SUBNACIONAIS = new Set(["estadual", "distrital", "municipal"]);
 const ESPACO_REGIOES = 120;
 
 const DATA_REFERENCIA = lerJson<{ data_referencia: string }>("br-grama.config.json").data_referencia;
@@ -23,11 +24,12 @@ for (const arq of lerArquivos()) {
 }
 const vocabRelacoes = lerJson<Record<string, { grupo: string }>>("esquema/vocabularios/relacoes.json");
 
-// Nós do mapa: órgãos (exceto partidos, que aparecem só no painel) e cargos, em vigor na data de referência.
+// Nós do mapa, em vigor na data de referência: órgãos (exceto partidos, que aparecem só no
+// painel), cargos e objetos de competência.
 const ehNo = (e: Entidade | undefined): e is Entidade =>
   !!e &&
   vigenteEm(e as Parameters<typeof vigenteEm>[0], DATA_REFERENCIA) &&
-  (e.tipo === "cargo" || (e.tipo === "orgao" && e.tipo_orgao !== "partido-politico"));
+  (e.tipo === "cargo" || e.tipo === "objeto" || (e.tipo === "orgao" && e.tipo_orgao !== "partido-politico"));
 
 const paiDe = (e: Entidade): string | undefined => {
   const pai = (e.tipo === "cargo" ? e.orgao : e.contido_em) as string | undefined;
@@ -48,7 +50,8 @@ const ancestrais = (id: string): Set<string> => {
 
 function regiaoDe(id: string): Regiao {
   const r = raizDe(id);
-  if (r.arquetipo || (r.esfera && r.esfera !== "federal")) return "entes";
+  if (r.arquetipo || SUBNACIONAIS.has(r.esfera as string)) return "entes";
+  if (r.tipo === "objeto") return "objetos";
   switch (r.poder) {
     case "povo": return "povo";
     case "legislativo": return "legislativo";

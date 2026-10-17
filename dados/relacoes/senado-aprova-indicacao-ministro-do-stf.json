@@ -5,6 +5,10 @@
   "relacao": "aprova-indicacao",
   "de": "org:senado-federal",
   "para": "cargo:ministro-do-stf",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "votacao": "secreta"
+  },
   "condicao": "Maioria absoluta, em voto secreto, após arguição pública.",
   "depende_de": [
     "rel:presidente-indica-ministro-do-stf"

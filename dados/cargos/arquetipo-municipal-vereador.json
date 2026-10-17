@@ -22,15 +22,33 @@
     "reconducao": "permitida",
     "nota": "A CF não limita reeleições de vereador."
   },
-  "quantidade": null,
-  "quantidade_nota": "Varia de município para município. Limite máximo pela população (CF, art. 29, IV, a a x): 9 até 15 mil habitantes; 11, 13, 15... em faixas crescentes; 55 acima de 8 milhões. A lei orgânica fixa o número dentro do limite.",
+  "vagas": null,
+  "vagas_nota": "Varia de município para município. Limite máximo pela população (CF, art. 29, IV, a a x): 9 até 15 mil habitantes; 11, 13, 15... em faixas crescentes; 55 acima de 8 milhões. A lei orgânica fixa o número dentro do limite.",
   "requisitos": [
-    "nacionalidade brasileira",
-    "pleno exercício dos direitos políticos",
-    "alistamento eleitoral",
-    "domicílio eleitoral no município",
-    "filiação partidária",
-    "idade mínima de 18 anos"
+    {
+      "texto": "nacionalidade brasileira",
+      "fontes": []
+    },
+    {
+      "texto": "pleno exercício dos direitos políticos",
+      "fontes": []
+    },
+    {
+      "texto": "alistamento eleitoral",
+      "fontes": []
+    },
+    {
+      "texto": "domicílio eleitoral no município",
+      "fontes": []
+    },
+    {
+      "texto": "filiação partidária",
+      "fontes": []
+    },
+    {
+      "texto": "idade mínima de 18 anos",
+      "fontes": []
+    }
   ],
   "fontes": [
     {

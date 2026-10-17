@@ -4,7 +4,7 @@
   "nome": "Julgamento das contas do Presidente",
   "relacao": "julga",
   "de": "org:congresso-nacional",
-  "para": "cargo:presidente-da-republica",
+  "para": "obj:contas-anuais-do-presidente-da-republica",
   "condicao": "Julga anualmente as contas prestadas pelo Presidente, depois do parecer prévio do TCU.",
   "depende_de": [
     "rel:tcu-emite-parecer-contas-presidente"

@@ -22,17 +22,19 @@
       "dispositivo": "art. 17, caput e I"
     }
   ],
-  "fontes_por_campo": {
-    "detalhes": [
-      {
-        "ref": "fonte:tse-partidos-registrados",
-        "dispositivo": "tabela de fusões: PSL e DEM formam o União Brasil, decisão de 08/02/2022"
-      },
-      {
-        "ref": "fonte:tse-consulta-cand-2026",
-        "dispositivo": "campos NM_FEDERACAO e DS_COMPOSICAO_FEDERACAO: 'Federação União Progressista', 44-UNIÃO/11-PP"
-      }
-    ]
+  "campos": {
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "fonte:tse-partidos-registrados",
+          "dispositivo": "tabela de fusões: PSL e DEM formam o União Brasil, decisão de 08/02/2022"
+        },
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "campos NM_FEDERACAO e DS_COMPOSICAO_FEDERACAO: 'Federação União Progressista', 44-UNIÃO/11-PP"
+        }
+      ]
+    }
   },
   "confianca": "oficial",
   "verificacao": {

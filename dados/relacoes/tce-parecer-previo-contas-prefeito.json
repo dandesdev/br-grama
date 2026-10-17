@@ -12,9 +12,9 @@
   },
   "id": "rel:tce-parecer-previo-contas-prefeito",
   "nome": "Parecer prévio sobre as contas do prefeito",
-  "relacao": "auxilia",
+  "relacao": "emite-parecer-previo",
   "de": "org:arquetipo-estadual-tce",
-  "para": "org:arquetipo-municipal-camara-municipal",
+  "para": "obj:contas-anuais-do-prefeito",
   "condicao": "O tribunal de contas competente emite parecer prévio sobre as contas anuais do prefeito, antes do julgamento pela Câmara.",
   "depende_de": [
     "rel:prefeito-presta-contas-camara-municipal"

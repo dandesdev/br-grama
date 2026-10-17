@@ -4,7 +4,11 @@
   "nome": "Deliberação do Plenário do Senado sobre projeto de lei",
   "relacao": "delibera",
   "de": "org:plenario-do-senado-federal",
-  "para": "proc:lei-ordinaria",
+  "para": "obj:lei-ordinaria",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Presente a maioria absoluta dos senadores."
+  },
   "condicao": "Por maioria dos votos, presente a maioria absoluta dos senadores, quando o projeto não é decidido de forma terminativa nas comissões ou quando há recurso.",
   "vigencia": {
     "de": "1988-10-05",

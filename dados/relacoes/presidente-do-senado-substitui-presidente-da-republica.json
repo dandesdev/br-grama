@@ -5,10 +5,8 @@
   "relacao": "substitui",
   "de": "cargo:presidente-do-senado-federal",
   "para": "cargo:presidente-da-republica",
+  "ordem": 3,
   "condicao": "Chamado em seguida ao Presidente da Câmara, nas mesmas hipóteses: impedimento do Presidente e do Vice ou vacância dos dois cargos. Exercício temporário.",
-  "depende_de": [
-    "rel:presidente-da-camara-substitui-presidente-da-republica"
-  ],
   "vigencia": {
     "de": "1988-10-05",
     "ate": null

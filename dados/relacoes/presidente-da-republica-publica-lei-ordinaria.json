@@ -4,7 +4,7 @@
   "nome": "Ordem de publicação da lei pelo Presidente da República",
   "relacao": "publica",
   "de": "cargo:presidente-da-republica",
-  "para": "proc:lei-ordinaria",
+  "para": "obj:lei-ordinaria",
   "condicao": "A CF atribui ao Presidente 'fazer publicar' as leis; a publicação material é feita pela Imprensa Nacional.",
   "vigencia": {
     "de": "1988-10-05",

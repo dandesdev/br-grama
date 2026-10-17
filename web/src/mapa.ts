@@ -233,22 +233,23 @@ function estilo(): StylesheetJson {
     // Achados (cor de status + ícone no rótulo: nunca só cor)
     { selector: "node.com-achado", style: { "border-color": alerta, "border-width": 3.5 } },
 
-    // Linha de processo ("metrô")
+    // Processo ativo: os atores ("estações") ganham borda forte e os números das etapas no rótulo.
+    { selector: "node.estacao", style: { "border-color": destaque, "border-width": 3, opacity: 1 } },
+    { selector: "node.estacao-ativa", style: { "border-width": 6 } },
+
+    // Objetos de competência: forma de etiqueta, fundo neutro e rótulo em itálico, para não se
+    // confundirem com órgãos e cargos.
     {
-      selector: "edge.metro",
+      selector: "node.objeto",
       style: {
-        width: 5,
-        "line-color": destaque,
-        "target-arrow-color": destaque,
-        "target-arrow-shape": "triangle",
-        "curve-style": "bezier",
-        opacity: 0.85,
-        "line-style": "solid",
+        shape: "round-tag",
+        "background-color": tinta3,
+        "background-opacity": 0.18,
+        "border-width": 0,
+        "font-style": "italic",
+        "padding-left": "14px",
       },
     },
-    { selector: "edge.metro.ativo", style: { opacity: 1, width: 7, label: "data(quando)" } },
-    { selector: "edge.metro.inativo", style: { opacity: 0.25 } },
-    { selector: "node.estacao", style: { "border-color": destaque, "border-width": 4, opacity: 1 } },
   ];
 }
 
@@ -300,7 +301,7 @@ export class Mapa {
     // Num contêiner (ex.: Senado), mostra também as relações de tudo o que está dentro dele.
     const arestas = no.union(no.descendants()).connectedEdges(".rel, .variacao").not(".grupo-oculto");
     const vizinhos = arestas.connectedNodes().union(no).union(no.descendants()).union(no.ancestors()).union(arestas.connectedNodes().ancestors());
-    cy.elements().not(vizinhos).not(arestas).not(".regiao").not(".metro").addClass("apagado");
+    cy.elements().not(vizinhos).not(arestas).not(".regiao").addClass("apagado");
     arestas.addClass("vizinho");
   }
 
@@ -322,58 +323,43 @@ export class Mapa {
     }
   }
 
-  /** Camada de processo: liga os atores de cada etapa aos da etapa seguinte. */
+  /** Processo ativo: destaca os atores e põe no rótulo os números das etapas de que participam. */
   mostrarProcesso(processo: Entidade | null) {
     const cy = this.cy;
-    cy.remove(".metro");
-    cy.nodes(".estacao").removeClass("estacao");
+    cy.nodes(".estacao").forEach((n) => {
+      n.removeClass("estacao estacao-ativa");
+      n.data("rotulo", n.data("rotuloBase"));
+    });
     cy.elements().removeClass("apagado vizinho");
     this.processoAtivo = !!processo;
     if (!processo) return;
-    const etapas = processo.etapas as Etapa[];
-    const porId = new Map(etapas.map((e) => [e.id, e]));
-    const visto = new Set<string>();
-    etapas.forEach((etapa) => {
-      for (const s of etapa.seguintes) {
-        const prox = porId.get(s.para);
-        if (!prox) continue;
-        for (const a of etapa.atores) for (const b of prox.atores) {
-          const de = this.dados.noDe(a);
-          const para = this.dados.noDe(b);
-          if (!de || !para || de === para) continue;
-          const id = `metro:${etapa.id}:${s.para}:${de}:${para}`;
-          if (visto.has(id)) continue;
-          visto.add(id);
-          cy.add({
-            group: "edges",
-            data: { id, source: de, target: para, etapa: etapa.id, quando: s.quando ?? "" },
-            classes: "metro",
-          });
-        }
-      }
-      for (const a of etapa.atores) {
-        const id = this.dados.noDe(a);
-        if (id) cy.getElementById(id).addClass("estacao");
+    const etapasPorNo = new Map<string, number[]>();
+    (processo.etapas as Etapa[]).forEach((etapa, i) => {
+      for (const ator of etapa.atores) {
+        const id = this.dados.noDe(ator);
+        if (id) etapasPorNo.set(id, [...new Set([...(etapasPorNo.get(id) ?? []), i + 1])]);
       }
     });
+    for (const [id, numeros] of etapasPorNo) {
+      const n = cy.getElementById(id);
+      n.addClass("estacao");
+      n.data("rotulo", `(${numeros.join(", ")}) ${n.data("rotuloBase")}`);
+    }
     const estacoes = cy.nodes(".estacao");
-    cy.elements().not(estacoes).not(estacoes.ancestors()).not(".metro").not(".regiao").addClass("apagado");
-    cy.animate({ fit: { eles: estacoes, padding: 60 } }, { duration: 400 });
+    cy.elements().not(estacoes).not(estacoes.ancestors()).not(".regiao").addClass("apagado");
   }
 
-  /** Destaca uma etapa do processo ativo. */
+  /** Destaca os atores de uma etapa do processo ativo. */
   focarEtapa(etapa: Etapa | null) {
-    const metro = this.cy.edges(".metro");
-    metro.removeClass("ativo inativo");
+    const cy = this.cy;
+    cy.nodes(".estacao-ativa").removeClass("estacao-ativa");
     if (!etapa) return;
-    metro.forEach((a) => {
-      a.addClass(a.data("etapa") === etapa.id ? "ativo" : "inativo");
-    });
-    const atores = this.cy.collection();
+    const atores = cy.collection();
     for (const a of etapa.atores) {
       const id = this.dados.noDe(a);
-      if (id) atores.merge(this.cy.getElementById(id));
+      if (id) atores.merge(cy.getElementById(id));
     }
-    if (atores.nonempty()) this.cy.animate({ fit: { eles: atores.union(metro.filter(".ativo").connectedNodes()), padding: 80 } }, { duration: 300 });
+    atores.addClass("estacao-ativa");
+    if (atores.nonempty()) cy.animate({ fit: { eles: atores, padding: 120 } }, { duration: 300 });
   }
 }

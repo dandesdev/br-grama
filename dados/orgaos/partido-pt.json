@@ -22,13 +22,15 @@
       "dispositivo": "art. 17, caput e I"
     }
   ],
-  "fontes_por_campo": {
-    "detalhes": [
-      {
-        "ref": "fonte:tse-consulta-cand-2026",
-        "dispositivo": "campos NM_FEDERACAO e SG_FEDERACAO: 'Federação Brasil da Esperança - FE Brasil', 13-PT/65-PC do B/43-PV"
-      }
-    ]
+  "campos": {
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "campos NM_FEDERACAO e SG_FEDERACAO: 'Federação Brasil da Esperança - FE Brasil', 13-PT/65-PC do B/43-PV"
+        }
+      ]
+    }
   },
   "confianca": "oficial",
   "verificacao": {

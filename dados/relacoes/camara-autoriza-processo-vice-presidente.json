@@ -5,6 +5,9 @@
   "relacao": "autoriza-processo",
   "de": "org:camara-dos-deputados",
   "para": "cargo:vice-presidente-da-republica",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
   "condicao": "Por dois terços dos membros da Câmara.",
   "vigencia": {
     "de": "1988-10-05",

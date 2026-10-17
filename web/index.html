@@ -19,7 +19,10 @@
       <div class="camadas" role="group" aria-label="Camadas">
         <span class="rotulo">Relações</span>
         <label class="chave" title="Sem esta opção, as relações aparecem só ao clicar em um órgão ou cargo"><input type="checkbox" id="todas-relacoes" /> Todas</label>
-        <div id="filtro-grupos" class="grupos"></div>
+        <details class="menu">
+          <summary>Tipos</summary>
+          <div id="filtro-grupos" class="grupos"></div>
+        </details>
         <label class="processo">
           <span class="rotulo">Processo</span>
           <select id="processo"></select>
@@ -29,7 +32,14 @@
       <button id="tema" class="botao-icone" title="Alternar tema claro/escuro" aria-label="Alternar tema">◐</button>
     </header>
     <main>
-      <div id="mapa" aria-label="Mapa do Estado brasileiro"></div>
+      <div class="palco">
+        <nav class="abas" role="tablist">
+          <button role="tab" data-aba="mapa" aria-selected="true">Mapa</button>
+          <button role="tab" data-aba="fluxo" id="aba-fluxo" aria-selected="false" disabled title="Escolha um processo">Fluxo do processo</button>
+        </nav>
+        <div id="mapa" aria-label="Mapa do Estado brasileiro"></div>
+        <div id="fluxo" aria-label="Fluxo do processo em raias" hidden></div>
+      </div>
       <aside id="painel" aria-live="polite"></aside>
     </main>
     <script type="module" src="./src/main.ts"></script>

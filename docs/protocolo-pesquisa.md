@@ -48,6 +48,7 @@ concluida_em: null
 Regras do diário:
 - O agente grava cada entidade em `dados/` **assim que ela fica pronta** e anota uma linha no diário. Nada fica só na memória do agente.
 - O diário só recebe acréscimos; nunca se apaga uma linha.
+- **O coordenador confere o diário.** No piloto, os agentes acumularam a pesquisa no contexto e gravaram tudo só no fim, apesar da regra; quando a cota acabou, quase nada estava em disco. Por isso, ao lançar uma tarefa, o coordenador pede que a primeira entidade seja gravada logo e, se o diário ficar parado enquanto o agente trabalha, interrompe e pede a gravação.
 
 ## Verificação
 

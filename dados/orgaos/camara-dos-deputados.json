@@ -19,21 +19,31 @@
   "ente": "ente:uniao",
   "contido_em": "org:congresso-nacional",
   "detalhes": "Cabe só a ela, entre outras coisas, autorizar por dois terços dos seus membros a abertura de processo contra o Presidente, o Vice e os Ministros de Estado, e fazer a tomada de contas do Presidente quando ele não as apresenta no prazo.",
-  "fontes_por_campo": {
-    "resumo": [
-      {
-        "ref": "norma:cf-1988",
-        "dispositivo": "art. 45"
-      },
-      {
-        "ref": "norma:lc-78-1993",
-        "dispositivo": "art. 1º"
-      },
-      {
-        "ref": "fonte:stf-noticia-ado-38-deputados-2026",
-        "dispositivo": null
-      }
-    ]
+  "campos": {
+    "resumo": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 45"
+        },
+        {
+          "ref": "norma:lc-78-1993",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "fonte:stf-noticia-ado-38-deputados-2026",
+          "dispositivo": null
+        }
+      ]
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 44"
+        }
+      ]
+    }
   },
   "vigencia": {
     "de": "1988-10-05",

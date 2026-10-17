@@ -14,7 +14,11 @@
   "nome": "Julgamento das contas do prefeito",
   "relacao": "julga",
   "de": "org:arquetipo-municipal-camara-municipal",
-  "para": "cargo:arquetipo-municipal-prefeito",
+  "para": "obj:contas-anuais-do-prefeito",
+  "quorum": {
+    "regra": "dois-tercos",
+    "nota": "Necessário para afastar o parecer prévio do tribunal de contas."
+  },
   "condicao": "O parecer prévio do tribunal de contas prevalece, salvo decisão de dois terços dos membros da Câmara Municipal.",
   "depende_de": [
     "rel:tce-parecer-previo-contas-prefeito"

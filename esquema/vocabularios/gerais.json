@@ -1,91 +1,140 @@
 {
-  "_descricao": "Vocabulários menores. Cada termo tem uma definição curta, exibida no botão 'i'.",
+  "_descricao": "Vocabulários menores. Cada termo tem um nome (exibido no site) e uma definição curta (exibida no botão 'i').",
 
   "poder": {
-    "povo": "Titular de todo o poder, que o exerce por representantes eleitos ou diretamente (CF, art. 1º, parágrafo único).",
-    "executivo": "Administra o Estado e executa as leis.",
-    "legislativo": "Faz as leis e fiscaliza o Executivo.",
-    "judiciario": "Resolve conflitos aplicando a lei.",
-    "funcoes-essenciais-a-justica": "Instituições fora dos três Poderes, essenciais à Justiça: Ministério Público, Advocacia Pública, Advocacia e Defensoria Pública.",
-    "nao-estatal": "Não integra o Estado, mas participa do seu funcionamento."
+    "povo": { "nome": "Povo", "definicao": "Titular de todo o poder, que o exerce por representantes eleitos ou diretamente (CF, art. 1º, parágrafo único)." },
+    "executivo": { "nome": "Executivo", "definicao": "Administra o Estado e executa as leis." },
+    "legislativo": { "nome": "Legislativo", "definicao": "Faz as leis e fiscaliza o Executivo." },
+    "judiciario": { "nome": "Judiciário", "definicao": "Resolve conflitos aplicando a lei." },
+    "funcoes-essenciais-a-justica": { "nome": "Funções essenciais à Justiça", "definicao": "Instituições fora dos três Poderes, essenciais à Justiça: Ministério Público, Advocacia Pública, Advocacia e Defensoria Pública." },
+    "nao-estatal": { "nome": "Não estatal", "definicao": "Não integra o Estado, mas participa do seu funcionamento." }
   },
 
   "esfera": {
-    "federal": "União.",
-    "estadual": "Estados.",
-    "distrital": "Distrito Federal.",
-    "municipal": "Municípios.",
-    "internacional": "Acima dos Estados nacionais."
+    "nacional": { "nome": "Nacional", "definicao": "Abrange o país inteiro, acima da divisão entre União, estados e municípios (ex.: o Poder Judiciário, o eleitorado, os partidos)." },
+    "federal": { "nome": "Federal", "definicao": "União." },
+    "estadual": { "nome": "Estadual", "definicao": "Estados." },
+    "distrital": { "nome": "Distrital", "definicao": "Distrito Federal." },
+    "municipal": { "nome": "Municipal", "definicao": "Municípios." },
+    "internacional": { "nome": "Internacional", "definicao": "Acima dos Estados nacionais." }
   },
 
   "tipo_ente": {
-    "uniao": "Ente federativo central.",
-    "estado": "Ente federativo regional.",
-    "distrito-federal": "Ente federativo que acumula competências de estado e de município, sem se dividir em municípios.",
-    "municipio": "Ente federativo local."
+    "uniao": { "nome": "União", "definicao": "Ente federativo central." },
+    "estado": { "nome": "Estado", "definicao": "Ente federativo regional." },
+    "distrito-federal": { "nome": "Distrito Federal", "definicao": "Ente federativo que acumula competências de estado e de município, sem se dividir em municípios." },
+    "municipio": { "nome": "Município", "definicao": "Ente federativo local." }
   },
 
   "arquetipo": {
-    "estadual": "Estrutura típica de um estado; as exceções estão nas variações.",
-    "municipal": "Estrutura típica de um município; as exceções estão nas variações."
+    "estadual": { "nome": "Estado típico", "definicao": "Estrutura típica de um estado; as exceções estão nas variações." },
+    "municipal": { "nome": "Município típico", "definicao": "Estrutura típica de um município; as exceções estão nas variações." }
+  },
+
+  "abrangencia": {
+    "ente": { "nome": "O próprio ente", "definicao": "A variação vale para o ente indicado." },
+    "municipios-do-estado": { "nome": "Todos os municípios do estado", "definicao": "A variação vale para todos os municípios do estado indicado." }
   },
 
   "provimento": {
-    "eleicao-majoritaria-maioria-absoluta": "Eleição direta; vence quem obtiver a maioria absoluta dos votos válidos, com segundo turno se necessário.",
-    "eleicao-majoritaria-maioria-simples": "Eleição direta; vence o mais votado, em turno único.",
-    "eleicao-proporcional": "Eleição direta; as vagas são divididas entre partidos conforme a votação de cada um.",
-    "eleicao-conjunta": "Eleito junto com o titular, na mesma chapa.",
-    "eleicao-pelos-pares": "Escolhido por votação entre os membros do próprio órgão.",
-    "nomeacao-com-aprovacao-do-senado": "Nomeado pelo Presidente da República depois de aprovação do Senado Federal.",
-    "nomeacao-livre": "Nomeado e exonerado livremente pela autoridade competente.",
-    "concurso-publico": "Aprovado em concurso público de provas ou de provas e títulos.",
-    "nato": "Ocupa o cargo automaticamente por exercer outro.",
-    "variavel": "Depende do caso; ver provimento_condicao."
+    "eleicao-majoritaria-maioria-absoluta": { "nome": "Eleição majoritária em dois turnos", "definicao": "Eleição direta; vence quem obtiver a maioria absoluta dos votos válidos, com segundo turno se necessário." },
+    "eleicao-majoritaria-maioria-simples": { "nome": "Eleição majoritária em turno único", "definicao": "Eleição direta; vence o mais votado." },
+    "eleicao-proporcional": { "nome": "Eleição proporcional", "definicao": "Eleição direta; as vagas são divididas entre partidos conforme a votação de cada um." },
+    "eleicao-conjunta": { "nome": "Eleito na chapa do titular", "definicao": "Eleito junto com o titular, na mesma chapa." },
+    "eleicao-pelos-pares": { "nome": "Eleito pelos pares", "definicao": "Escolhido por votação entre os membros do próprio órgão." },
+    "escolha-pelo-legislativo": { "nome": "Escolha pelo Legislativo", "definicao": "Escolhido pelo Poder Legislativo e depois nomeado pelo chefe do Executivo." },
+    "nomeacao-com-aprovacao-do-senado": { "nome": "Nomeação com aprovação do Senado", "definicao": "Nomeado pelo Presidente da República depois de aprovação do Senado Federal." },
+    "nomeacao-livre": { "nome": "Livre nomeação", "definicao": "Nomeado e exonerado livremente pela autoridade competente." },
+    "concurso-publico": { "nome": "Concurso público", "definicao": "Aprovado em concurso público de provas ou de provas e títulos." },
+    "nato": { "nome": "Automático", "definicao": "Ocupa o cargo automaticamente por exercer outro." },
+    "variavel": { "nome": "Depende do caso", "definicao": "A forma de escolha muda conforme uma condição; ver os casos." }
   },
 
   "confianca": {
-    "oficial": "Confirmado por norma ou dado oficial vigente na data de referência.",
-    "oficial-contraditorio": "Fontes oficiais divergem; ver o achado relacionado.",
-    "secundario": "Baseado em fonte não oficial (doutrina, enciclopédia, imprensa).",
-    "inferido": "Dedução nossa a partir das fontes, explicada nos detalhes.",
-    "indisponivel": "Não há fonte acessível: sigilo, falta de transparência ou lacuna."
+    "oficial": { "nome": "Fonte oficial", "definicao": "Confirmado por norma ou dado oficial vigente na data de referência." },
+    "oficial-contraditorio": { "nome": "Fontes oficiais divergem", "definicao": "Fontes oficiais dizem coisas diferentes; ver o achado relacionado." },
+    "secundario": { "nome": "Fonte não oficial", "definicao": "Baseado em fonte não oficial (doutrina, enciclopédia, imprensa)." },
+    "inferido": { "nome": "Inferido", "definicao": "Dedução nossa a partir das fontes, explicada nos detalhes." },
+    "indisponivel": { "nome": "Sem fonte disponível", "definicao": "Não há fonte acessível: sigilo, falta de transparência ou lacuna." }
   },
 
   "tipo_achado": {
-    "lacuna": "Informação que deveria ser pública e não foi encontrada.",
-    "contradicao": "Fontes oficiais dizem coisas diferentes.",
-    "sigilo": "Informação protegida por sigilo legal.",
-    "baixa-transparencia": "Informação pública, mas difícil de encontrar, incompleta ou em formato inadequado.",
-    "desatualizacao": "Fonte oficial desatualizada em relação à norma vigente.",
-    "ambiguidade-normativa": "A norma admite mais de uma leitura relevante."
+    "lacuna": { "nome": "Lacuna", "definicao": "Informação que deveria ser pública e não foi encontrada." },
+    "contradicao": { "nome": "Contradição", "definicao": "Fontes oficiais dizem coisas diferentes." },
+    "sigilo": { "nome": "Sigilo", "definicao": "Informação protegida por sigilo legal." },
+    "baixa-transparencia": { "nome": "Baixa transparência", "definicao": "Informação pública, mas difícil de encontrar, incompleta ou em formato inadequado." },
+    "desatualizacao": { "nome": "Desatualização", "definicao": "Fonte oficial desatualizada em relação à norma vigente." },
+    "ambiguidade-normativa": { "nome": "Ambiguidade normativa", "definicao": "A norma admite mais de uma leitura relevante." }
   },
 
   "tipo_norma": {
-    "constituicao-federal": "Constituição da República.",
-    "emenda-constitucional": "Alteração do texto constitucional.",
-    "lei-complementar": "Lei que exige maioria absoluta, para matérias que a Constituição reserva.",
-    "lei-ordinaria": "Lei aprovada por maioria simples.",
-    "lei-delegada": "Lei editada pelo Presidente com delegação do Congresso.",
-    "medida-provisoria": "Ato do Presidente com força de lei, que perde efeito se não for convertido em lei.",
-    "decreto-lei": "Ato com força de lei editado em regimes anteriores; alguns continuam em vigor.",
-    "decreto-legislativo": "Ato do Congresso sobre matéria de sua competência exclusiva.",
-    "resolucao": "Ato de uma casa legislativa ou de um órgão colegiado.",
-    "decreto": "Ato do chefe do Executivo, em geral para regulamentar leis ou organizar a administração.",
-    "regimento-interno": "Regras de funcionamento interno de um órgão.",
-    "constituicao-estadual": "Constituição de um estado.",
-    "lei-organica": "Norma fundamental de um município ou do Distrito Federal.",
-    "lei-estadual": "Lei de um estado.",
-    "lei-municipal": "Lei de um município.",
-    "outro": "Outro tipo de ato; explicar em detalhes."
+    "constituicao-federal": { "nome": "Constituição Federal", "definicao": "Constituição da República." },
+    "emenda-constitucional": { "nome": "Emenda constitucional", "definicao": "Alteração do texto de uma constituição (federal ou estadual, conforme o ente)." },
+    "lei-complementar": { "nome": "Lei complementar", "definicao": "Lei que exige maioria absoluta, para matérias que a Constituição reserva." },
+    "lei-ordinaria": { "nome": "Lei ordinária", "definicao": "Lei aprovada por maioria simples." },
+    "lei-delegada": { "nome": "Lei delegada", "definicao": "Lei editada pelo Presidente com delegação do Congresso." },
+    "medida-provisoria": { "nome": "Medida provisória", "definicao": "Ato do Presidente com força de lei, que perde efeito se não for convertido em lei." },
+    "decreto-lei": { "nome": "Decreto-lei", "definicao": "Ato com força de lei editado em regimes anteriores; alguns continuam em vigor." },
+    "decreto-legislativo": { "nome": "Decreto legislativo", "definicao": "Ato do Congresso sobre matéria de sua competência exclusiva." },
+    "resolucao": { "nome": "Resolução", "definicao": "Ato de uma casa legislativa ou de um órgão colegiado." },
+    "decreto": { "nome": "Decreto", "definicao": "Ato do chefe do Executivo, em geral para regulamentar leis ou organizar a administração." },
+    "regimento-interno": { "nome": "Regimento interno", "definicao": "Regras de funcionamento interno de um órgão." },
+    "constituicao-estadual": { "nome": "Constituição estadual", "definicao": "Constituição de um estado." },
+    "lei-organica": { "nome": "Lei orgânica", "definicao": "Norma fundamental de um município ou do Distrito Federal." },
+    "lei-estadual": { "nome": "Lei estadual", "definicao": "Lei de um estado." },
+    "lei-municipal": { "nome": "Lei municipal", "definicao": "Lei de um município." },
+    "outro": { "nome": "Outro ato", "definicao": "Outro tipo de ato; explicar em detalhes." }
   },
 
   "tipo_fonte": {
-    "dados-abertos": "Base de dados oficial.",
-    "pagina-oficial": "Página institucional de órgão público.",
-    "relatorio-oficial": "Relatório ou publicação oficial.",
-    "doutrina": "Obra jurídica de referência.",
-    "enciclopedia": "Wikipedia, Wikidata e semelhantes.",
-    "imprensa": "Veículo jornalístico.",
-    "academico": "Artigo, tese ou estudo acadêmico."
+    "dados-abertos": { "nome": "Dados abertos", "definicao": "Base de dados oficial." },
+    "pagina-oficial": { "nome": "Página oficial", "definicao": "Página institucional de órgão público." },
+    "relatorio-oficial": { "nome": "Relatório oficial", "definicao": "Relatório ou publicação oficial." },
+    "doutrina": { "nome": "Doutrina", "definicao": "Obra jurídica de referência." },
+    "enciclopedia": { "nome": "Enciclopédia", "definicao": "Wikipedia, Wikidata e semelhantes." },
+    "imprensa": { "nome": "Imprensa", "definicao": "Veículo jornalístico." },
+    "academico": { "nome": "Acadêmico", "definicao": "Artigo, tese ou estudo acadêmico." }
+  },
+
+  "tipo_objeto": {
+    "ato-normativo": { "nome": "Ato normativo", "definicao": "Norma que cria regras gerais: emenda, lei, medida provisória, decreto, resolução." },
+    "contas": { "nome": "Contas", "definicao": "Prestação de contas da gestão de recursos públicos." },
+    "acao-judicial": { "nome": "Ação judicial", "definicao": "Tipo de processo levado a um tribunal (ex.: ação direta de inconstitucionalidade)." },
+    "decisao": { "nome": "Decisão", "definicao": "Ato que resolve um caso concreto (ex.: julgamento, parecer)." },
+    "documento": { "nome": "Documento", "definicao": "Outro documento oficial com papel no funcionamento do Estado." }
+  },
+
+  "quorum": {
+    "maioria-simples": { "nome": "Maioria simples", "definicao": "Mais votos a favor do que contra, entre os presentes, desde que haja o mínimo de presença exigido." },
+    "maioria-absoluta": { "nome": "Maioria absoluta", "definicao": "Mais da metade de todos os membros, presentes ou não." },
+    "tres-quintos": { "nome": "Três quintos", "definicao": "Três quintos de todos os membros." },
+    "dois-tercos": { "nome": "Dois terços", "definicao": "Dois terços de todos os membros." },
+    "um-terco": { "nome": "Um terço", "definicao": "Um terço dos membros." },
+    "um-decimo": { "nome": "Um décimo", "definicao": "Um décimo dos membros." },
+    "votos-validos": { "nome": "Maioria dos votos válidos", "definicao": "Mais da metade dos votos, sem contar brancos e nulos." },
+    "outro": { "nome": "Outro", "definicao": "Regra específica; ver a nota." }
+  },
+
+  "votacao": {
+    "aberta": { "nome": "Aberta", "definicao": "O voto de cada membro é público." },
+    "secreta": { "nome": "Secreta", "definicao": "O voto de cada membro não é revelado." },
+    "nominal": { "nome": "Nominal", "definicao": "Cada membro vota individualmente e o voto é registrado com o nome." },
+    "simbolica": { "nome": "Simbólica", "definicao": "Os membros se manifestam em conjunto, sem registro individual." }
+  },
+
+  "tipo_etapa": {
+    "acao": { "nome": "Ação", "definicao": "Alguém faz algo." },
+    "decisao": { "nome": "Decisão", "definicao": "Alguém decide, e o caminho se divide conforme o resultado." },
+    "decurso-de-prazo": { "nome": "Decurso de prazo", "definicao": "Nada é feito; o efeito vem da passagem do tempo." },
+    "fim": { "nome": "Fim", "definicao": "O processo termina aqui." }
+  },
+
+  "unidade_prazo": {
+    "horas": { "nome": "horas", "definicao": "Horas corridas." },
+    "dias": { "nome": "dias", "definicao": "Dias corridos." },
+    "dias-uteis": { "nome": "dias úteis", "definicao": "Dias úteis." },
+    "sessoes": { "nome": "sessões", "definicao": "Sessões da casa legislativa." },
+    "meses": { "nome": "meses", "definicao": "Meses." },
+    "anos": { "nome": "anos", "definicao": "Anos." }
   }
 }

@@ -5,6 +5,10 @@
   "relacao": "julga",
   "de": "org:senado-federal",
   "para": "cargo:ministro-do-stf",
+  "quorum": {
+    "regra": "dois-tercos",
+    "nota": "Para condenar."
+  },
   "condicao": "Crimes de responsabilidade; condenação por dois terços, limitada à perda do cargo com inabilitação por oito anos.",
   "vigencia": {
     "de": "1988-10-05",

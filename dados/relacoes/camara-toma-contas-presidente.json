@@ -2,9 +2,9 @@
   "id": "rel:camara-toma-contas-presidente",
   "tipo": "relacao",
   "nome": "Tomada de contas do Presidente pela Câmara",
-  "relacao": "fiscaliza",
+  "relacao": "toma-contas",
   "de": "org:camara-dos-deputados",
-  "para": "cargo:presidente-da-republica",
+  "para": "obj:contas-anuais-do-presidente-da-republica",
   "condicao": "Só se o Presidente não apresentar as contas ao Congresso em 60 dias após a abertura da sessão legislativa.",
   "vigencia": {
     "de": "1988-10-05",

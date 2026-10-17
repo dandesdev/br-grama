@@ -22,13 +22,15 @@
       "dispositivo": "art. 17, caput e I"
     }
   ],
-  "fontes_por_campo": {
-    "detalhes": [
-      {
-        "ref": "fonte:tse-consulta-cand-2026",
-        "dispositivo": "campo NM_FEDERACAO vazio (#NULO) para o PSB"
-      }
-    ]
+  "campos": {
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "campo NM_FEDERACAO vazio (#NULO) para o PSB"
+        }
+      ]
+    }
   },
   "confianca": "oficial",
   "verificacao": {
