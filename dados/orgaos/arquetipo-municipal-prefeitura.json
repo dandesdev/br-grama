@@ -6,13 +6,14 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; resumo corrigido: a CF não diz que o vice exerce a chefia"
   },
   "id": "org:arquetipo-municipal-prefeitura",
   "nome": "Prefeitura Municipal",
-  "resumo": "Chefia do Poder Executivo municipal, exercida pelo prefeito com o vice-prefeito.",
+  "resumo": "Chefia do Poder Executivo municipal, exercida pelo prefeito. O vice-prefeito também fica neste nó.",
   "tipo_orgao": "executivo-chefia",
   "poder": "executivo",
   "esfera": "municipal",

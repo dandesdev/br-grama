@@ -6,9 +6,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; acrescentada fonte do STF (Tema 157)"
   },
   "id": "rel:camara-municipal-julga-contas-prefeito",
   "nome": "Julgamento das contas do prefeito",
@@ -27,7 +28,11 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 31, § 2º"
+    },
+    {
+      "ref": "fonte:stf-re-729744",
+      "dispositivo": "tese do Tema 157"
     }
   ],
-  "notas": "A CF não usa o verbo julgar no art. 31, § 2º; diz que o parecer só deixa de prevalecer por 2/3 da Câmara. Que a decisão final é da Câmara é leitura corrente (e do STF), não conferida aqui em acórdão."
+  "notas": "A CF não usa o verbo julgar no art. 31, § 2º; diz que o parecer só deixa de prevalecer por 2/3 da Câmara. O STF firmou que o julgamento das contas anuais do prefeito é exclusivo da Câmara, que o parecer é opinativo e que não há julgamento ficto por decurso de prazo (RE 729.744, Tema 157, 10/8/2016). No RE 848.826 (Tema 835) disse o mesmo para fins de inelegibilidade. Contas de gestão do prefeito ordenador de despesas: ver ADPF 982 (2025)."
 }

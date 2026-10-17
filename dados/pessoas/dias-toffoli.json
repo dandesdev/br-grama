@@ -2,6 +2,7 @@
   "id": "pessoa:dias-toffoli",
   "tipo": "pessoa",
   "nome": "Dias Toffoli",
+  "nome_civil": "José Antonio Dias Toffoli",
   "resumo": "Ministro do Supremo Tribunal Federal desde 2009.",
   "vigencia": {
     "de": null,
@@ -19,9 +20,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas"
   },
   "mais_informacoes": [
     {

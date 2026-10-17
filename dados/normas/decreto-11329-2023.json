@@ -10,7 +10,7 @@
   "acesso_em": "2026-10-16",
   "arquivo": "http://web.archive.org/web/20260616150247/http://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11329.htm",
   "vigencia": {
-    "de": null,
+    "de": "2023-01-24",
     "ate": null
   },
   "fontes": [
@@ -20,10 +20,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Alterado, entre outros, pelos Decretos nº 11.399/2023, 12.098/2024 e 12.169/2024. Data de início de vigência não conferida.",
+  "notas": "Alterado, entre outros, pelos Decretos nº 11.399/2023, 11.426/2023, 12.098/2024, 12.169/2024 e 12.420/2025. Art. 5º: entra em vigor em 24/1/2023.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; vigencia.de corrigida para 2023-01-24 (art. 5º)"
   }
 }

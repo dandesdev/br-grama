@@ -6,9 +6,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; retirada nota obsoleta sobre o vocabulário"
   },
   "id": "rel:tce-parecer-previo-contas-prefeito",
   "nome": "Parecer prévio sobre as contas do prefeito",
@@ -24,6 +25,5 @@
       "ref": "norma:cf-1988",
       "dispositivo": "art. 31, § 2º"
     }
-  ],
-  "notas": "O vocabulário não tem um tipo para emitir parecer prévio; usamos auxilia, o que deixa duas arestas auxilia entre os mesmos nós (ver rel:tce-auxilia-camara-municipal)."
+  ]
 }

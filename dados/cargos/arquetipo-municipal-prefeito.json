@@ -7,14 +7,15 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; detalhes e fontes do provimento corrigidos"
   },
   "id": "cargo:arquetipo-municipal-prefeito",
   "nome": "Prefeito",
   "resumo": "Chefe do Poder Executivo municipal, eleito para quatro anos; presta contas anualmente à Câmara Municipal.",
-  "detalhes": "Nos municípios com mais de 200 mil eleitores, vence quem tiver maioria absoluta dos votos válidos, com segundo turno se preciso. Nos demais, vence o mais votado, em turno único. Por crimes comuns, é julgado pelo Tribunal de Justiça do estado.",
+  "detalhes": "Nos municípios com mais de 200 mil eleitores, vence quem tiver maioria absoluta dos votos válidos, com segundo turno se preciso. Nos demais, vence o mais votado, em turno único. A CF manda julgá-lo perante o Tribunal de Justiça.",
   "orgao": "org:arquetipo-municipal-prefeitura",
   "provimento": "variavel",
   "provimento_casos": [
@@ -25,6 +26,10 @@
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 29, II"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 3º, § 2º"
         }
       ]
     },
@@ -33,8 +38,8 @@
       "provimento": "eleicao-majoritaria-maioria-simples",
       "fontes": [
         {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 29, II"
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 3º, caput"
         }
       ]
     }

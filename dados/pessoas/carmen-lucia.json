@@ -2,6 +2,7 @@
   "id": "pessoa:carmen-lucia",
   "tipo": "pessoa",
   "nome": "Cármen Lúcia",
+  "nome_civil": "Cármen Lúcia Antunes Rocha",
   "resumo": "Ministra do Supremo Tribunal Federal desde 2006.",
   "vigencia": {
     "de": null,
@@ -19,13 +20,14 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas"
   },
   "mais_informacoes": [
     {
-      "titulo": "STF: pasta do ministra Cármen Lúcia",
+      "titulo": "STF: pasta da ministra Cármen Lúcia",
       "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=CarmenLuciaPrincipal"
     }
   ],

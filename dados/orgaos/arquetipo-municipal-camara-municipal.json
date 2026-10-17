@@ -6,9 +6,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; detalhes corrigidos (teto de vereadores; 2/3 dos membros)"
   },
   "id": "org:arquetipo-municipal-camara-municipal",
   "nome": "Câmara Municipal",
@@ -17,11 +18,16 @@
   "poder": "legislativo",
   "esfera": "municipal",
   "arquetipo": "municipal",
-  "detalhes": "O número de vereadores depende da população, de 9 a 55. A Câmara julga as contas anuais do prefeito depois do parecer prévio do tribunal de contas, e só pode rejeitar esse parecer com dois terços dos votos.",
+  "detalhes": "A CF fixa o número máximo de vereadores conforme a população, de 9 a 55. A Câmara julga as contas anuais do prefeito depois do parecer prévio do tribunal de contas, e só pode afastar esse parecer pelo voto de dois terços dos seus membros.",
   "fontes": [
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 29, caput, IV e XI; art. 29-A; art. 31, caput e §§ 1º e 2º"
+    },
+    {
+      "ref": "fonte:stf-re-729744",
+      "dispositivo": "tese do Tema 157",
+      "nota": "julgamento das contas anuais do prefeito pela Câmara"
     }
   ],
   "notas": "Unicameral. Há limites de despesa total do Legislativo municipal conforme a população (art. 29-A)."

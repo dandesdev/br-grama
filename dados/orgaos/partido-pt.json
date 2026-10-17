@@ -4,7 +4,7 @@
   "nome": "Partido dos Trabalhadores",
   "sigla": "PT",
   "resumo": "Partido político de caráter nacional, com registro deferido pelo TSE em 1982. Número de legenda: 13.",
-  "detalhes": "Nas eleições de 2026 o PT concorre dentro da Federação Brasil da Esperança, com PCdoB e PV. A federação age como um só partido por pelo menos quatro anos, mas cada partido mantém seu registro.",
+  "detalhes": "Nas eleições de 2026 o PT concorre dentro da Federação Brasil da Esperança, com PCdoB e PV.",
   "tipo_orgao": "partido-politico",
   "poder": "nao-estatal",
   "esfera": "federal",
@@ -34,9 +34,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas; frase sobre regras da federação retirada por falta de fonte (ver notas)"
   },
   "mais_informacoes": [
     {
@@ -44,5 +45,5 @@
       "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
     }
   ],
-  "notas": "Federação não é partido: não criamos org: para ela. O modelo ainda não tem tipo de entidade para federação partidária."
+  "notas": "Federação não é partido: não criamos org: para ela. O modelo ainda não tem tipo de entidade para federação partidária. Verificação 2026-10-17: retirada dos detalhes a frase 'A federação age como um só partido por pelo menos quatro anos, mas cada partido mantém seu registro', que não tinha fonte no arquivo. Ela está correta pela Lei 9.096/1995, art. 11-A, caput, § 2º e § 3º, II (incluídos pela Lei 14.208/2021), mas essa lei ainda não é norma: no projeto. Pode voltar quando a norma for criada."
 }

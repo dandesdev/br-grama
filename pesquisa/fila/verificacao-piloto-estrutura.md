@@ -19,3 +19,7 @@ concluida_em: null
 
 ## Diário
 - 2026-10-17 09:50 — iniciada; 101 entidades no escopo (grep piloto-estrutura|migracao-v1)
+- 2026-10-17 09:53 — verificado norma:cf-1988 (acrescentados arquivo Wayback 20261001, compilacao_ate, redacao_conferida_em; achadas EC 140 e 141 de 16/10/2026, fora da data de referência e fora do escopo)
+- 2026-10-17 09:53 — verificado norma:ec-139-2026 (nota atualizada: EC 140/141 são de 16/10/2026)
+- 2026-10-17 09:53 — verificado norma:ec-111-2021 (sem correção)
+- 2026-10-17 09:54 — verificado norma:lc-152-2015 (sem correção)

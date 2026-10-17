@@ -7,9 +7,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; retirada a reconducao, sem base no texto da CF"
   },
   "id": "cargo:arquetipo-municipal-vice-prefeito",
   "nome": "Vice-Prefeito",
@@ -19,8 +20,7 @@
   "provimento_nota": "Eleito junto com o candidato a prefeito registrado na mesma chapa.",
   "mandato": {
     "anos": 4,
-    "reconducao": "uma-reeleicao-consecutiva",
-    "nota": "A CF limita a reeleição de quem sucedeu ou substituiu o prefeito no curso do mandato (art. 14, § 5º); a regra própria do vice vem da jurisprudência eleitoral e não foi conferida aqui."
+    "nota": "A CF não trata da reeleição do vice-prefeito: o art. 14, § 5º, fala do prefeito e de quem o houver sucedido ou substituído no curso do mandato."
   },
   "vagas": 1,
   "requisitos": [
