@@ -1,0 +1,25 @@
+{
+  "id": "rel:eleitorado-elege-senador",
+  "tipo": "relacao",
+  "nome": "Eleição dos senadores",
+  "relacao": "elege",
+  "de": "org:eleitorado-nacional",
+  "para": "cargo:senador",
+  "condicao": "Princípio majoritário; o eleitorado de cada estado e do DF elege três senadores, renovados a cada quatro anos por um terço e dois terços, alternadamente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, caput; art. 46"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

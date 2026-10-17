@@ -1,0 +1,30 @@
+{
+  "id": "org:ccj-senado",
+  "tipo": "orgao",
+  "nome": "Comissão de Constituição, Justiça e Cidadania do Senado Federal",
+  "sigla": "CCJ",
+  "resumo": "Comissão do Senado que opina sobre a constitucionalidade e a juridicidade dos projetos e sobre o mérito de vários temas jurídicos.",
+  "detalhes": "Examina os projetos que lhe são enviados por despacho do Presidente do Senado, por decisão do Plenário ou por consulta de outra comissão. Também opina sobre o mérito de matérias como direito civil, penal e processual.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-do-senado-federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 72, III; art. 101"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "No Senado, ao contrário da Câmara, o RISF não torna obrigatória a passagem de todo projeto pela CCJ. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

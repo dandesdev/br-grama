@@ -1,0 +1,36 @@
+{
+  "id": "norma:lc-78-1993",
+  "tipo": "norma",
+  "nome": "Lei Complementar nº 78, de 30 de dezembro de 1993",
+  "sigla": "LC 78/1993",
+  "resumo": "Fixa em até 513 o número de deputados federais, proporcional à população, com no mínimo 8 por estado e 70 para o estado mais populoso.",
+  "detalhes": "Regulamenta o art. 45, § 1º, da Constituição. O IBGE fornece a população no ano anterior às eleições, e o TSE informa o número de vagas de cada unidade.",
+  "tipo_norma": "lei-complementar",
+  "numero": "78",
+  "data": "1993-12-30",
+  "ente": "ente:uniao",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp78.htm",
+  "acesso_em": "2026-10-16",
+  "arquivo": "http://web.archive.org/web/20261011195510/https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp78.htm",
+  "vigencia": {
+    "de": "1994-01-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 45, § 1º"
+    },
+    {
+      "ref": "norma:lc-78-1993",
+      "dispositivo": "arts. 1º a 4º"
+    }
+  ],
+  "notas": "Publicada no DOU de 5/1/1994; vigência na publicação (art. 4º). O texto do Planalto em 2026-10-16 não mostra alteração. O PLP 177/2023, que elevaria o total para 531, foi vetado integralmente em julho de 2025 (ver fonte:stf-noticia-ado-38-deputados-2026); não conferimos se o veto foi apreciado depois.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

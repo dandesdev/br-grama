@@ -1,0 +1,50 @@
+{
+  "id": "org:partido-uniao",
+  "tipo": "orgao",
+  "nome": "União Brasil",
+  "sigla": "UNIÃO",
+  "resumo": "Partido político de caráter nacional, criado em 2022 pela fusão de DEM e PSL. Número de legenda: 44.",
+  "detalhes": "O TSE deferiu a fusão do Democratas (DEM) com o Partido Social Liberal (PSL) em 8/2/2022. Nas eleições de 2026 o União Brasil concorre dentro da Federação União Progressista, com o Progressistas (PP).",
+  "tipo_orgao": "partido-politico",
+  "poder": "nao-estatal",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2022-02-08",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-partidos-registrados",
+      "dispositivo": "tabela 'Partidos registrados no TSE': UNIÃO, deferimento 8.2.2022, legenda 44; tabela de fusões: PSL e DEM, RPP nº 0600641-95.2021.6.00.0000, 08/02/2022"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, caput e I"
+    }
+  ],
+  "fontes_por_campo": {
+    "detalhes": [
+      {
+        "ref": "fonte:tse-partidos-registrados",
+        "dispositivo": "tabela de fusões: PSL e DEM formam o União Brasil, decisão de 08/02/2022"
+      },
+      {
+        "ref": "fonte:tse-consulta-cand-2026",
+        "dispositivo": "campos NM_FEDERACAO e DS_COMPOSICAO_FEDERACAO: 'Federação União Progressista', 44-UNIÃO/11-PP"
+      }
+    ]
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TSE: partidos políticos registrados",
+      "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+    }
+  ],
+  "notas": "Federação não é partido: a Federação União Progressista não ganhou org: próprio."
+}

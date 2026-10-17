@@ -1,0 +1,39 @@
+{
+  "id": "org:comissoes-da-camara-dos-deputados",
+  "tipo": "orgao",
+  "nome": "Comissões da Câmara dos Deputados",
+  "resumo": "Colegiados de deputados que examinam os projetos por tema e, em muitos casos, os aprovam ou rejeitam sem passar pelo plenário.",
+  "detalhes": "Agrupa as comissões permanentes, organizadas por tema, e as temporárias, como as especiais. Neste mapa só a CCJC e a CFT aparecem uma a uma; as demais estão listadas no art. 32 do RICD.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "estrutura_continua": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 32"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, caput e § 2º, I"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 22, 24 e 32"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nó agregado: representa o conjunto das comissões, não um órgão único. Criado para servir de ator no processo da lei ordinária. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:plenario-camara-delibera-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Deliberação do Plenário da Câmara sobre projeto de lei",
+  "relacao": "delibera",
+  "de": "org:plenario-da-camara-dos-deputados",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Por maioria dos votos, presente a maioria absoluta dos deputados, quando o projeto não é decidido de forma conclusiva nas comissões ou quando há recurso.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 47; art. 65"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 132, IV; art. 183"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

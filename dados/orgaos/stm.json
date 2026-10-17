@@ -1,0 +1,30 @@
+{
+  "id": "org:stm",
+  "tipo": "orgao",
+  "nome": "Superior Tribunal Militar",
+  "sigla": "STM",
+  "resumo": "Tribunal superior da Justiça Militar da União; pode propor projetos de lei sobre a Justiça.",
+  "detalhes": "Tem 15 ministros vitalícios, dez oficiais-generais das três Forças e cinco civis, nomeados pelo Presidente da República depois de aprovação do Senado. Como tribunal superior, tem iniciativa de leis e seus projetos começam na Câmara.",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, VI; art. 122, I; art. 123; art. 61, caput; art. 96, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O STM já existia antes da CF/88. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

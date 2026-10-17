@@ -1,0 +1,25 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "rel:prefeito-presta-contas-camara-municipal",
+  "nome": "Contas anuais do prefeito",
+  "relacao": "presta-contas-a",
+  "de": "cargo:arquetipo-municipal-prefeito",
+  "para": "org:arquetipo-municipal-camara-municipal",
+  "condicao": "Anualmente. As contas também ficam 60 dias por ano à disposição de qualquer contribuinte, que pode questioná-las.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 2º e 3º"
+    }
+  ]
+}

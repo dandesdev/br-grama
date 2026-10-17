@@ -1,0 +1,29 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "rel:eleitorado-municipal-elege-prefeito",
+  "nome": "Eleição do prefeito",
+  "relacao": "elege",
+  "de": "org:arquetipo-municipal-eleitorado",
+  "para": "cargo:arquetipo-municipal-prefeito",
+  "condicao": "Eleição direta a cada quatro anos, simultânea em todo o país. Com mais de 200 mil eleitores, exige maioria absoluta e pode ter segundo turno; com até 200 mil, vence o mais votado.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, I e II"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 3º"
+    }
+  ]
+}

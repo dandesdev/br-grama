@@ -1,0 +1,28 @@
+{
+  "id": "org:eleitorado-nacional",
+  "tipo": "orgao",
+  "nome": "Eleitorado nacional",
+  "resumo": "Conjunto dos brasileiros alistados como eleitores. Elege Presidente, Vice, deputados federais e senadores, e vota em plebiscitos e referendos.",
+  "tipo_orgao": "corpo-eleitoral",
+  "poder": "povo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 1º, parágrafo único; art. 14, caput, I a III, §§ 1º e 2º; arts. 45, 46 e 77"
+    }
+  ],
+  "detalhes": "O voto é direto, secreto e obrigatório para maiores de 18 anos; é facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos. Estrangeiros e conscritos (durante o serviço militar obrigatório) não podem se alistar. Deputados e senadores são eleitos por estado e pelo DF, não por um colégio nacional único.",
+  "ente": "ente:uniao",
+  "notas": "Não é órgão formal: é o povo agindo como corpo eleitoral (o termo 'eleitorado' aparece na CF, p. ex. ADCT, art. 2º). O nó agrega os eleitorados das unidades da Federação; nas eleições de deputados e senadores cada eleitorado estadual ou distrital vota só nos seus candidatos. A esfera 'federal' é aproximação.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

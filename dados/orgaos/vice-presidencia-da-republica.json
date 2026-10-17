@@ -1,0 +1,32 @@
+{
+  "id": "org:vice-presidencia-da-republica",
+  "tipo": "orgao",
+  "nome": "Vice-Presidência da República",
+  "resumo": "Unidade que dá apoio ao Vice-Presidente da República.",
+  "tipo_orgao": "executivo-chefia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 77, § 1º, e 79"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 3º, XIII e XIV"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "notas": "A CF trata do cargo de Vice-Presidente, não de um órgão. A Lei 14.600/2023 menciona a Vice-Presidência da República como unidade distinta da Presidência (art. 3º, XIII e XIV). O tipo 'executivo-chefia' é aproximação: a Vice-Presidência não chefia o Executivo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "org:ministerio-publico-da-uniao",
+  "tipo": "orgao",
+  "nome": "Ministério Público da União",
+  "sigla": "MPU",
+  "resumo": "Ramo federal do Ministério Público, chefiado pelo Procurador-Geral da República.",
+  "detalhes": "Compreende o Ministério Público Federal, o do Trabalho, o Militar e o do Distrito Federal e Territórios. Pode propor ao Legislativo a criação e a extinção de seus cargos (CF, art. 127, § 2º).",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "estrutura_continua": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, I, a a d"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 127; art. 128, I e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os quatro ramos não foram modelados nesta tarefa. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

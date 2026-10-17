@@ -1,0 +1,52 @@
+{
+  "id": "pessoa:hugo-motta",
+  "tipo": "pessoa",
+  "nome": "Hugo Motta",
+  "resumo": "Deputado federal pela Paraíba desde 2011 e Presidente da Câmara dos Deputados desde fevereiro de 2025. Filiado ao Republicanos.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-historico-deputado-hugo-motta",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:camara-api-mesa-legislatura-57",
+      "dispositivo": null
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-republicanos",
+      "vigencia": {
+        "de": "2018-04-06",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-historico-deputado-hugo-motta",
+          "dispositivo": "registro de 2018-04-06T14:11, 'Alteração de partido', de PMDB para PRB"
+        },
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_PB.csv, cargo DEPUTADO FEDERAL, SG_PARTIDO 'REPUBLICANOS'"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Câmara dos Deputados: página do deputado Hugo Motta",
+      "url": "https://www.camara.leg.br/deputados/160674"
+    }
+  ],
+  "notas": "Nome civil na Câmara: Hugo Motta Wanderley da Nóbrega. A data de início da filiação é a da mudança de partido registrada pela Câmara (PMDB para PRB), não a data de filiação no TSE. O PRB passou a se chamar Republicanos em 2019; a Câmara registra isso como 'Alteração de partido' em 2019-08-16, mas é o mesmo partido."
+}

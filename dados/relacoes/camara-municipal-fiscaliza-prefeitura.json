@@ -1,0 +1,26 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "rel:camara-municipal-fiscaliza-prefeitura",
+  "nome": "Controle externo do município pela Câmara",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-municipal-camara-municipal",
+  "para": "org:arquetipo-municipal-prefeitura",
+  "condicao": "Com auxílio do tribunal de contas competente (em regra, o TCE).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, caput e § 1º"
+    }
+  ],
+  "notas": "O art. 31 fala em fiscalização \"do Município\"; o alvo principal é o Executivo, mas a Câmara também presta contas. O controle interno do Executivo (art. 31, caput) não foi modelado."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:imprensa-nacional-publica-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Publicação da lei no Diário Oficial da União",
+  "relacao": "publica",
+  "de": "org:imprensa-nacional",
+  "para": "proc:lei-ordinaria",
+  "condicao": "No Diário Oficial da União, exclusivamente eletrônico.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-9215-2017",
+      "dispositivo": "arts. 2º e 3º"
+    },
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I, art. 38, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Vigência ligada aos decretos citados, cujo início não foi conferido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

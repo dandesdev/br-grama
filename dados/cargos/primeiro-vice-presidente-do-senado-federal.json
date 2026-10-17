@@ -1,0 +1,36 @@
+{
+  "id": "cargo:primeiro-vice-presidente-do-senado-federal",
+  "tipo": "cargo",
+  "nome": "Primeiro Vice-Presidente do Senado Federal",
+  "resumo": "Substitui o Presidente do Senado e promulga a lei quando nem o Presidente da República nem o do Senado o fazem no prazo.",
+  "detalhes": "Eleito pelos senadores para a Mesa, com mandato de dois anos, sem reeleição para o período seguinte. A CF fala em 'Vice-Presidente do Senado' na promulgação supletiva; o Regimento do Senado atribui a tarefa ao Primeiro Vice-Presidente.",
+  "orgao": "org:mesa-do-senado-federal",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_condicao": "Eleito em escrutínio secreto pelos senadores, por maioria de votos, presente a maioria da composição do Senado.",
+  "mandato": {
+    "anos": 2,
+    "reconducao": "vedada para o período imediatamente subsequente"
+  },
+  "quantidade": 1,
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 4º; art. 66, § 7º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 46; art. 52, I e II; art. 59; art. 60"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O Segundo Vice-Presidente substitui o Primeiro nas faltas e impedimentos (RISF, art. 53); não foi modelado. Há debate sobre recondução de membros das Mesas (o RISF cita a ADI 6524 em nota ao art. 59); não pesquisado nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

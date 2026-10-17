@@ -1,0 +1,26 @@
+{
+  "id": "rel:eleitorado-elege-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente da República",
+  "relacao": "elege",
+  "de": "org:eleitorado-nacional",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Voto direto e secreto; vence quem tiver maioria absoluta dos votos válidos, com segundo turno se necessário.",
+  "detalhes": "O primeiro turno é no primeiro domingo de outubro e o segundo, no último domingo de outubro do ano anterior ao fim do mandato. Se os cargos de Presidente e Vice vagarem nos dois primeiros anos do mandato, há nova eleição direta 90 dias depois da última vaga.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, caput; art. 77, caput e §§ 2º e 3º; art. 81, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

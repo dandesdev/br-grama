@@ -1,0 +1,24 @@
+{
+  "id": "rel:presidente-do-senado-preside-senado",
+  "tipo": "relacao",
+  "nome": "Presidência do Senado",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "org:senado-federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

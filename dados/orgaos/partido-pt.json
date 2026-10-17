@@ -1,0 +1,46 @@
+{
+  "id": "org:partido-pt",
+  "tipo": "orgao",
+  "nome": "Partido dos Trabalhadores",
+  "sigla": "PT",
+  "resumo": "Partido político de caráter nacional, com registro deferido pelo TSE em 1982. Número de legenda: 13.",
+  "detalhes": "Nas eleições de 2026 o PT concorre dentro da Federação Brasil da Esperança, com PCdoB e PV. A federação age como um só partido por pelo menos quatro anos, mas cada partido mantém seu registro.",
+  "tipo_orgao": "partido-politico",
+  "poder": "nao-estatal",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1982-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-partidos-registrados",
+      "dispositivo": "tabela 'Partidos registrados no TSE': PT, deferimento 11.2.1982, legenda 13"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, caput e I"
+    }
+  ],
+  "fontes_por_campo": {
+    "detalhes": [
+      {
+        "ref": "fonte:tse-consulta-cand-2026",
+        "dispositivo": "campos NM_FEDERACAO e SG_FEDERACAO: 'Federação Brasil da Esperança - FE Brasil', 13-PT/65-PC do B/43-PV"
+      }
+    ]
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TSE: partidos políticos registrados",
+      "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+    }
+  ],
+  "notas": "Federação não é partido: não criamos org: para ela. O modelo ainda não tem tipo de entidade para federação partidária."
+}

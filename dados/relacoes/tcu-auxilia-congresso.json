@@ -1,0 +1,25 @@
+{
+  "id": "rel:tcu-auxilia-congresso",
+  "tipo": "relacao",
+  "nome": "TCU auxilia o Congresso no controle externo",
+  "relacao": "auxilia",
+  "de": "org:tcu",
+  "para": "org:congresso-nacional",
+  "condicao": "Dá parecer sobre as contas do Presidente, faz auditorias a pedido das Casas e comissões, presta informações e envia relatórios trimestrais e anuais.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, caput, I, IV e VII, e § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

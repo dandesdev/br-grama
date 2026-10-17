@@ -1,0 +1,29 @@
+{
+  "id": "rel:ministros-do-stf-elegem-presidente-do-stf",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente do STF",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-stf",
+  "para": "cargo:presidente-do-stf",
+  "condicao": "Voto secreto entre os ministros; mandato de dois anos, vedada a reeleição para o período imediato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 2º, parágrafo único; art. 12"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

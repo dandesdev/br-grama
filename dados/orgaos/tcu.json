@@ -1,0 +1,34 @@
+{
+  "id": "org:tcu",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas da União",
+  "resumo": "Auxilia o Congresso no controle externo das contas federais e julga as contas de quem administra dinheiro e bens públicos federais.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 71, 73 e 75"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "sigla": "TCU",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-legislativo-federal",
+  "detalhes": "Tem nove ministros, sede no Distrito Federal e jurisdição em todo o país. Desde a EC 139/2026, a Constituição declara os tribunais de contas instituições permanentes e essenciais ao controle externo.",
+  "notas": "A CF trata do TCU dentro do capítulo do Poder Legislativo (Título IV, Cap. I, Seção IX) e diz que ele auxilia o Congresso (art. 71), mas não diz que ele integra o Congresso. Por isso usamos contido_em = Poder Legislativo e uma relação 'auxilia' com o Congresso, sem relação 'integra'. O art. 73 também lhe dá autonomia (quadro próprio, atribuições do art. 96).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

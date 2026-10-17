@@ -1,0 +1,45 @@
+{
+  "tipo": "orgao",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:tcm-ceara",
+  "nome": "Tribunal de Contas dos Municípios do Estado do Ceará",
+  "sigla": "TCM-CE",
+  "resumo": "Órgão estadual que fiscalizava os municípios cearenses; extinto em 2017, com as funções passadas ao TCE-CE.",
+  "detalhes": "Uma primeira emenda de extinção, de dezembro de 2016, foi suspensa pelo STF. A segunda, de agosto de 2017, foi considerada constitucional pelo STF em outubro de 2017. Os conselheiros ficaram em disponibilidade.",
+  "esfera": "estadual",
+  "ente": "ente:ce",
+  "vigencia": {
+    "de": null,
+    "ate": "2017-08-21"
+  },
+  "fontes": [
+    {
+      "ref": "norma:ce-ec-92-2017",
+      "dispositivo": "arts. 1º, 2º e 23"
+    },
+    {
+      "ref": "fonte:stf-adi-5763",
+      "dispositivo": "decisão de 26/10/2017"
+    },
+    {
+      "ref": "fonte:stf-noticia-adi-5638-liminar",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-noticia-adi-5638-prejudicada",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-adi-7772",
+      "dispositivo": "decisão de 1/7/2025"
+    }
+  ],
+  "notas": "vigencia.de null: a origem (Conselho de Contas dos Municípios, depois Tribunal) não foi conferida em fonte oficial; a Wikipedia indica 1970 para o Conselho e 1992 para o Tribunal. ate = publicação da EC 92/2017 (DOE de 21/8/2017)."
+}

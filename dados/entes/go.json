@@ -1,0 +1,30 @@
+{
+  "id": "ente:go",
+  "tipo": "ente",
+  "nome": "Estado de Goiás",
+  "resumo": "Estado da federação (GO), com código IBGE 52.",
+  "tipo_ente": "estado",
+  "uf": "GO",
+  "codigo_ibge": "52",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18"
+    },
+    {
+      "ref": "fonte:ibge-localidades",
+      "dispositivo": "estados/52"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "notas": "vigencia.de marca a federação atual (CF/1988), não a origem histórica do estado."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cargo:procurador-geral-da-republica",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral da República",
+  "sigla": "PGR",
+  "resumo": "Chefe do Ministério Público da União; entre outras atribuições, pode propor projetos de lei.",
+  "detalhes": "Nomeado pelo Presidente da República entre integrantes da carreira com mais de 35 anos, depois de aprovado pela maioria absoluta do Senado, para mandato de dois anos, com recondução permitida. Tem iniciativa de leis (CF, art. 61) e, em especial, das leis complementares que organizam o Ministério Público da União (art. 128, § 5º).",
+  "orgao": "org:ministerio-publico-da-uniao",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "provimento_condicao": "Escolha do Presidente da República entre integrantes da carreira; aprovação do nome pela maioria absoluta do Senado. A destituição por iniciativa do Presidente também exige autorização da maioria absoluta do Senado (CF, art. 128, § 2º).",
+  "mandato": {
+    "anos": 2,
+    "reconducao": "permitida",
+    "nota": "A CF não limita o número de reconduções do PGR (art. 128, § 1º), diferentemente dos procuradores-gerais estaduais (§ 3º)."
+  },
+  "quantidade": 1,
+  "requisitos": [
+    "integrante da carreira do Ministério Público da União",
+    "mais de 35 anos"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, §§ 1º, 2º e 5º; art. 61, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O requisito 'integrante da carreira' é lido como carreira do MPU, de que o PGR é chefe (art. 128, § 1º); a CF diz apenas 'dentre integrantes da carreira'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

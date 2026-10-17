@@ -1,0 +1,53 @@
+{
+  "id": "pessoa:luiz-inacio-lula-da-silva",
+  "tipo": "pessoa",
+  "nome": "Luiz Inácio Lula da Silva",
+  "resumo": "Presidente da República no mandato iniciado em 1º de janeiro de 2023. Filiado ao PT.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:planalto-biografia-presidente",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:agencia-senado-posse-lula-alckmin-2023",
+      "dispositivo": null
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": null,
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_BR.csv, cargo PRESIDENTE, SG_PARTIDO 'PT'"
+        },
+        {
+          "ref": "fonte:agencia-senado-posse-lula-alckmin-2023",
+          "dispositivo": null,
+          "nota": "'Filiado ao PT' na data da posse, 1º/1/2023"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Planalto: biografia do Presidente da República",
+      "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente"
+    }
+  ],
+  "notas": "Filiação ao PT vigente em 2026-10-01: confirmada pelo registro de candidatura de 2026 no TSE, que exige filiação deferida. A data de início não foi achada em fonte oficial; a biografia do Planalto diz que ele fundou o PT em 10/2/1980, mas fundar não é o mesmo que filiar-se, e o registro do partido no TSE só saiu em 1982. Por isso 'de' ficou null. Ver achado:filiacao-lula-alckmin-data-de-inicio."
+}

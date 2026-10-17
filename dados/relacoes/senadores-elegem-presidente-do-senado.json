@@ -1,0 +1,29 @@
+{
+  "id": "rel:senadores-elegem-presidente-do-senado",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente do Senado",
+  "relacao": "elege",
+  "de": "cargo:senador",
+  "para": "cargo:presidente-do-senado-federal",
+  "condicao": "Escrutínio secreto, por maioria de votos, presente a maioria da composição do Senado; mandato de dois anos.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 4º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 59 e 60"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cargo:ministro-do-stf",
+  "tipo": "cargo",
+  "nome": "Ministro do Supremo Tribunal Federal",
+  "resumo": "Integra o STF, de 11 ministros. É escolhido e nomeado pelo Presidente da República depois de aprovado pela maioria absoluta do Senado.",
+  "orgao": "org:stf",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "quantidade": 11,
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 12, § 3º, IV; art. 40, § 1º, II; art. 52, III, a; art. 84, XIV; art. 93, VI; art. 95; art. 101"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "detalhes": "Tem as garantias da magistratura (vitaliciedade, inamovibilidade e irredutibilidade de subsídio) e não pode exercer atividade político-partidária (art. 95).",
+  "provimento_condicao": "O Presidente escolhe o nome; o Senado o aprova por maioria absoluta, em voto secreto, após arguição pública; depois o Presidente nomeia (art. 101, parágrafo único; art. 52, III, a; art. 84, XIV).",
+  "quantidade_nota": "Onze cadeiras (art. 101). Em 2026-10-01 havia uma vaga aberta (ver achado:stf-vaga-de-barroso-nao-preenchida).",
+  "mandato": {
+    "anos": null,
+    "nota": "Não há mandato: o cargo é vitalício (art. 95, I). A aposentadoria compulsória é aos 75 anos (art. 40, § 1º, II, aplicado aos magistrados pelo art. 93, VI; LC 152/2015, art. 2º, II)."
+  },
+  "requisitos": [
+    "brasileiro nato (CF, art. 12, § 3º, IV)",
+    "mais de 35 e menos de 70 anos de idade (CF, art. 101, redação da EC 122/2022)",
+    "notável saber jurídico (CF, art. 101)",
+    "reputação ilibada (CF, art. 101)"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

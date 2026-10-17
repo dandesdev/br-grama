@@ -1,0 +1,41 @@
+{
+  "tipo": "orgao",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:tcm-sao-paulo",
+  "nome": "Tribunal de Contas do Município de São Paulo",
+  "sigla": "TCMSP",
+  "resumo": "Tribunal de contas próprio da cidade de São Paulo; auxilia a Câmara Municipal no controle externo, no lugar do TCE-SP.",
+  "detalhes": "Criado em 1968, antes da Constituição de 1988, que proibiu novos tribunais municipais e manteve os existentes. Tem cinco conselheiros, número fixado pela Constituição paulista, e não sete como os tribunais estaduais.",
+  "esfera": "municipal",
+  "ente": "ente:sp-sao-paulo",
+  "vigencia": {
+    "de": "1968-11-20",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:sp-sao-paulo-lei-7213-1968",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "arts. 150 e 151"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º e 4º; art. 75"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "notas": "vigencia.de = data da Lei 7.213/1968 (a data de publicação não foi conferida). O STF julgou constitucional o art. 151 da CE-SP (ADIs 346 e 4776, segundo anotação da Alesp). Uma proposta de emenda à CE-SP para extinguir o TCM-SP aparece no sistema da Alesp com pasta de 2025, mas é documento de 1999 digitalizado (cita o orçamento \"para o exercício de 1999\"); andamento não conferido. Depois da EC 139/2026, a extinção é vedada."
+}

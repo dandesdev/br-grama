@@ -1,0 +1,29 @@
+{
+  "id": "ente:sp-sao-paulo",
+  "tipo": "ente",
+  "nome": "Município de São Paulo",
+  "resumo": "Capital do Estado de São Paulo (código IBGE 3550308); tem tribunal de contas municipal próprio.",
+  "tipo_ente": "municipio",
+  "uf": "SP",
+  "codigo_ibge": "3550308",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18"
+    },
+    {
+      "ref": "fonte:ibge-localidades",
+      "dispositivo": "municipios/3550308"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  }
+}

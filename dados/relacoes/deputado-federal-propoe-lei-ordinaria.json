@@ -1,0 +1,29 @@
+{
+  "id": "rel:deputado-federal-propoe-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei de deputado federal",
+  "relacao": "propoe",
+  "de": "cargo:deputado-federal",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Individual ou coletivamente. O projeto começa na Câmara.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, § 1º, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

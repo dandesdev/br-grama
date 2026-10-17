@@ -1,0 +1,36 @@
+{
+  "tipo": "variacao",
+  "difere_de": "org:arquetipo-estadual-tce",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "var:rj-capital-tcm",
+  "nome": "Tribunal de Contas do Município do Rio de Janeiro",
+  "resumo": "A capital fluminense tem tribunal de contas próprio; no resto do estado, o TCE-RJ auxilia as Câmaras.",
+  "entes": [
+    "ente:rj-rio-de-janeiro"
+  ],
+  "instancia": "org:tcm-rio-de-janeiro",
+  "porque": "Tribunal municipal criado em 1980, antes da CF/1988, que proibiu criar novos tribunais municipais e manteve os existentes; a EC 139/2026 vedou também sua extinção.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º e 4º"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-183-1980",
+      "dispositivo": "art. 1º"
+    }
+  ]
+}

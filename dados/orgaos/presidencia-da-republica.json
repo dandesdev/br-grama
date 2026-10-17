@@ -1,0 +1,38 @@
+{
+  "id": "org:presidencia-da-republica",
+  "tipo": "orgao",
+  "nome": "Presidência da República",
+  "resumo": "Órgão de chefia do Executivo federal: reúne o Presidente da República e os órgãos que o assistem diretamente, como a Casa Civil.",
+  "tipo_orgao": "executivo-chefia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 76"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "detalhes": "Integram a Presidência a Casa Civil, a Secretaria-Geral, a Secretaria de Relações Institucionais, a Secretaria de Comunicação Social, o Gabinete Pessoal e o Gabinete de Segurança Institucional, além de órgãos de assessoramento.",
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rel:presidente-do-senado-promulga-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Promulgação supletiva pelo Presidente do Senado",
+  "relacao": "promulga",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Só se o Presidente da República não promulgar em 48 horas, após sanção tácita ou veto derrubado; tem também 48 horas.",
+  "depende_de": [
+    "rel:presidente-da-republica-promulga-lei-ordinaria"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, § 7º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

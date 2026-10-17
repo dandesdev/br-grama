@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-do-senado-preside-congresso",
+  "tipo": "relacao",
+  "nome": "Presidência das sessões conjuntas",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "org:congresso-nacional",
+  "condicao": "Convoca e preside as sessões conjuntas do Congresso Nacional.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 5º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "org:congresso-nacional",
+  "tipo": "orgao",
+  "nome": "Congresso Nacional",
+  "resumo": "Parlamento federal. Exerce o Poder Legislativo e é formado pela Câmara dos Deputados e pelo Senado Federal.",
+  "tipo_orgao": "legislativo-parlamento",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 44, 49, 57 e 70"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-legislativo-federal",
+  "detalhes": "Cada legislatura dura quatro anos. A sessão legislativa ordinária vai de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro. As duas Casas se reúnem em sessão conjunta, entre outros casos, para inaugurar a sessão legislativa, dar posse ao Presidente e ao Vice e deliberar sobre vetos.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

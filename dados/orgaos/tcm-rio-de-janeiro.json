@@ -1,0 +1,41 @@
+{
+  "tipo": "orgao",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:tcm-rio-de-janeiro",
+  "nome": "Tribunal de Contas do Município do Rio de Janeiro",
+  "sigla": "TCMRio",
+  "resumo": "Tribunal de contas próprio da cidade do Rio de Janeiro; auxilia a Câmara Municipal no controle externo, no lugar do TCE-RJ.",
+  "detalhes": "Criado em 1980, antes da Constituição de 1988, que o manteve. Tem sete conselheiros, nomeados pelo prefeito com aprovação da Câmara Municipal, segundo a lei de criação.",
+  "esfera": "municipal",
+  "ente": "ente:rj-rio-de-janeiro",
+  "vigencia": {
+    "de": "1980-10-29",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-183-1980",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "fonte:tcmrio-lei-183-1980",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º e 4º; art. 75"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "notas": "vigencia.de = publicação da Lei 183/1980 no Diário Oficial (29/10/1980), data em que ela entrou em vigor; a instalação efetiva não foi conferida. A forma atual de escolha dos conselheiros (Lei Orgânica do Município de 1990) não foi conferida."
+}

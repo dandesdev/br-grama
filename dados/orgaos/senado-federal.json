@@ -1,0 +1,32 @@
+{
+  "id": "org:senado-federal",
+  "tipo": "orgao",
+  "nome": "Senado Federal",
+  "resumo": "Casa dos representantes dos estados e do DF: 81 senadores, três por unidade, eleitos pelo princípio majoritário.",
+  "tipo_orgao": "legislativo-casa",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 46 e 52"
+    },
+    {
+      "ref": "fonte:senado-quantos-senadores",
+      "dispositivo": null
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "detalhes": "Cabe só a ele, entre outras coisas, julgar o Presidente nos crimes de responsabilidade e aprovar a escolha de ministros do STF, de parte dos ministros do TCU, do Procurador-Geral da República e de outras autoridades.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-do-senado-substitui-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Presidente do Senado na linha de substituição",
+  "relacao": "substitui",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Chamado em seguida ao Presidente da Câmara, nas mesmas hipóteses: impedimento do Presidente e do Vice ou vacância dos dois cargos. Exercício temporário.",
+  "depende_de": [
+    "rel:presidente-da-camara-substitui-presidente-da-republica"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 80 e 81"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

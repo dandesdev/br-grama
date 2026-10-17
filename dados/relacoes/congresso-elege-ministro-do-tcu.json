@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-elege-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Escolha de ministros do TCU pelo Congresso",
+  "relacao": "elege",
+  "de": "org:congresso-nacional",
+  "para": "cargo:ministro-do-tcu",
+  "condicao": "Escolhe dois terços dos ministros (6 de 9); depois o Presidente da República os nomeia.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XIII; art. 73, § 2º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF usa 'escolher'. O rito da escolha (que Casa escolhe cada vaga, votação) está em normas infraconstitucionais não levantadas nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

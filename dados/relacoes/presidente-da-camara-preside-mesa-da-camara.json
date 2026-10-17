@@ -1,0 +1,24 @@
+{
+  "id": "rel:presidente-da-camara-preside-mesa-da-camara",
+  "tipo": "relacao",
+  "nome": "Presidência da Mesa da Câmara",
+  "relacao": "preside",
+  "de": "cargo:presidente-da-camara-dos-deputados",
+  "para": "org:mesa-da-camara-dos-deputados",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 14, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

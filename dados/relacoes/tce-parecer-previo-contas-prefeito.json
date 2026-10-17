@@ -1,0 +1,29 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "rel:tce-parecer-previo-contas-prefeito",
+  "nome": "Parecer prévio sobre as contas do prefeito",
+  "relacao": "auxilia",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "org:arquetipo-municipal-camara-municipal",
+  "condicao": "O tribunal de contas competente emite parecer prévio sobre as contas anuais do prefeito, antes do julgamento pela Câmara.",
+  "depende_de": [
+    "rel:prefeito-presta-contas-camara-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 2º"
+    }
+  ],
+  "notas": "O vocabulário não tem um tipo para emitir parecer prévio; usamos auxilia, o que deixa duas arestas auxilia entre os mesmos nós (ver rel:tce-auxilia-camara-municipal)."
+}

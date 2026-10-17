@@ -1,0 +1,30 @@
+{
+  "id": "ente:ba",
+  "tipo": "ente",
+  "nome": "Estado da Bahia",
+  "resumo": "Estado da federação (BA), com código IBGE 29.",
+  "tipo_ente": "estado",
+  "uf": "BA",
+  "codigo_ibge": "29",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18"
+    },
+    {
+      "ref": "fonte:ibge-localidades",
+      "dispositivo": "estados/29"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "notas": "vigencia.de marca a federação atual (CF/1988), não a origem histórica do estado."
+}

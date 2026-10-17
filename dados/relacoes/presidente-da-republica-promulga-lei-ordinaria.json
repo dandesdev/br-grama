@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-da-republica-promulga-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Promulgação da lei ordinária pelo Presidente da República",
+  "relacao": "promulga",
+  "de": "cargo:presidente-da-republica",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Em 48 horas, nos casos de sanção tácita e de veto derrubado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, §§ 5º e 7º; art. 84, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

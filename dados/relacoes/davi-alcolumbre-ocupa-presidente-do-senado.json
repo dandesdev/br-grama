@@ -1,0 +1,30 @@
+{
+  "id": "rel:davi-alcolumbre-ocupa-presidente-do-senado",
+  "tipo": "relacao",
+  "nome": "Davi Alcolumbre ocupa o cargo de Presidente do Senado Federal",
+  "detalhes": "Segunda vez na presidência do Senado; a primeira foi de 2019 a 2021.",
+  "relacao": "ocupa",
+  "de": "pessoa:davi-alcolumbre",
+  "para": "cargo:presidente-do-senado-federal",
+  "vigencia": {
+    "de": "2025-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senador-davi-alcolumbre",
+      "dispositivo": "serviço /cargos: Comissão Diretora do Senado Federal (CDIR), PRESIDENTE, DataInicio 2025-02-01, sem DataFim"
+    },
+    {
+      "ref": "fonte:senado-api-mesa-senado",
+      "dispositivo": "Comissão Diretora, cargo PRESIDENTE: Senador Davi Alcolumbre"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "O mesmo serviço registra a Presidência da Mesa do Congresso Nacional desde 2025-02-01 (CF, art. 57, § 5º). Não criamos essa relação porque não há cargo de Presidente do Congresso na lista desta tarefa."
+}

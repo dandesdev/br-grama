@@ -1,0 +1,33 @@
+{
+  "id": "achado:go-norma-criacao-ccm",
+  "tipo": "achado",
+  "nome": "Norma de criação do Conselho de Contas dos Municípios de Goiás não localizada",
+  "resumo": "Não achamos a norma que criou o Conselho de Contas dos Municípios de Goiás, antecessor do TCM-GO; a lei mais antiga encontrada só o organiza.",
+  "detalhes": "A Lei estadual 8.338/1977 organiza o Conselho, mas não diz que o cria. A Constituição goiana de 1989 apenas o renomeia para Tribunal de Contas dos Municípios. Uma fonte de imprensa atribui a criação à própria Lei 8.338/1977, sem citar outro ato.",
+  "tipo_achado": "lacuna",
+  "afeta": [
+    "org:tcm-goias"
+  ],
+  "gravidade": "baixa",
+  "vigencia": {
+    "de": "2026-10-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:go-lei-8338-1977",
+      "dispositivo": "ementa e art. 1º"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "ADCT, art. 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "notas": "Onde procuramos: API do portal legisla.casacivil.go.gov.br (busca por 'Conselho de Contas dos Municípios' em 1977 e por 'Tribunal de Contas dos Municípios' entre emendas constitucionais); busca web. Próximo passo: pesquisar 1970-1977 no mesmo portal e o histórico no site do TCM-GO."
+}

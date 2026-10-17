@@ -1,0 +1,29 @@
+{
+  "id": "achado:prazo-sancao-tacita-dias-uteis",
+  "tipo": "achado",
+  "nome": "Prazo da sanção tácita: 'quinze dias' ou 'quinze dias úteis'?",
+  "resumo": "A CF dá 15 dias úteis para o veto, mas, ao tratar da sanção tácita, fala só em 'prazo de quinze dias'.",
+  "detalhes": "O art. 66, § 1º, fixa 15 dias úteis para o veto; o § 3º diz que, 'decorrido o prazo de quinze dias', o silêncio importa sanção, sem repetir 'úteis'. Lemos o § 3º como referência ao prazo do § 1º, que é a leitura que mantém o sistema coerente, mas o texto não é explícito. Não buscamos doutrina nem jurisprudência que confirme essa leitura.",
+  "tipo_achado": "ambiguidade-normativa",
+  "gravidade": "baixa",
+  "afeta": [
+    "proc:lei-ordinaria",
+    "rel:presidente-da-republica-sanciona-lei-ordinaria"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, §§ 1º e 3º"
+    }
+  ],
+  "confianca": "inferido",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

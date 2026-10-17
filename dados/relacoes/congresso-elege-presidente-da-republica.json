@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-elege-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Eleição indireta do Presidente pelo Congresso",
+  "relacao": "elege",
+  "de": "org:congresso-nacional",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Só se os cargos de Presidente e Vice vagarem nos dois últimos anos do mandato; eleição 30 dias após a última vaga, na forma da lei. O eleito completa o mandato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 81, §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei que regula essa eleição indireta não foi levantada nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

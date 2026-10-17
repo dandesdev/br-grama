@@ -1,0 +1,28 @@
+{
+  "id": "rel:senado-aprova-indicacao-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Aprovação de ministro do STF pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:ministro-do-stf",
+  "condicao": "Maioria absoluta, em voto secreto, após arguição pública.",
+  "depende_de": [
+    "rel:presidente-indica-ministro-do-stf"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, a; art. 101, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

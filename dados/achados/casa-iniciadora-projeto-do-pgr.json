@@ -1,0 +1,33 @@
+{
+  "id": "achado:casa-iniciadora-projeto-do-pgr",
+  "tipo": "achado",
+  "nome": "A CF não diz em que Casa começa o projeto de lei do PGR",
+  "resumo": "O art. 64 da CF manda para a Câmara os projetos do Presidente, do STF e dos tribunais superiores, mas não menciona o PGR.",
+  "detalhes": "O Regimento da Câmara inclui o PGR entre os que podem apresentar projetos de lei na Casa (art. 109, § 1º, VII). O Regimento do Senado, na edição consultada, não trata do assunto. O processo modelado leva o projeto do PGR à Câmara com base no RICD.",
+  "tipo_achado": "ambiguidade-normativa",
+  "gravidade": "baixa",
+  "afeta": [
+    "proc:lei-ordinaria",
+    "rel:pgr-propoe-lei-ordinaria"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput; art. 64, caput"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, § 1º, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

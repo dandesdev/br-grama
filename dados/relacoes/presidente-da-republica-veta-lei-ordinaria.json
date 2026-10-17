@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-da-republica-veta-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Veto a projeto de lei ordinária",
+  "relacao": "veta",
+  "de": "cargo:presidente-da-republica",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Total ou parcial, por inconstitucionalidade ou contrariedade ao interesse público, em até 15 dias úteis; motivos comunicados ao Presidente do Senado em 48 horas.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, §§ 1º e 2º; art. 84, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

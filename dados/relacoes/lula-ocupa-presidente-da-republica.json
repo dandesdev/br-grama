@@ -1,0 +1,36 @@
+{
+  "id": "rel:lula-ocupa-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Lula ocupa o cargo de Presidente da República",
+  "detalhes": "Terceiro mandato presidencial de Lula, iniciado com a posse no Congresso Nacional.",
+  "relacao": "ocupa",
+  "de": "pessoa:luiz-inacio-lula-da-silva",
+  "para": "cargo:presidente-da-republica",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:agencia-senado-posse-lula-alckmin-2023",
+      "dispositivo": null,
+      "nota": "posse perante o Congresso Nacional em 1º/1/2023"
+    },
+    {
+      "ref": "fonte:planalto-biografia-presidente",
+      "dispositivo": "parágrafo final: 'Em 1º de janeiro de 2023...'"
+    },
+    {
+      "ref": "fonte:planalto-agenda-presidente-2026-10-01",
+      "dispositivo": null,
+      "nota": "agenda do titular no Palácio do Planalto na data de referência"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "Lula foi candidato à reeleição em 2026 sem deixar o cargo; em 2026-10-01 estava em exercício, conforme a agenda oficial."
+}

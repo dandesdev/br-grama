@@ -1,0 +1,42 @@
+{
+  "id": "achado:risf-rccn-compilacao-ate-julho-2025",
+  "tipo": "achado",
+  "nome": "Textos oficiais do RISF e do RCCN atualizados só até julho de 2025",
+  "resumo": "As edições oficiais do Regimento do Senado e do Regimento Comum vão até julho de 2025; mudanças posteriores à data de referência não foram conferidas.",
+  "detalhes": "A página oficial do Senado oferece o RISF consolidado e atualizado até julho de 2025 e o RCCN atualizado até julho de 2025. Não há texto compilado mais recente; para saber se algum dispositivo citado mudou até 1º/10/2026, seria preciso conferir uma a uma as resoluções publicadas desde então. Em busca rápida achamos só projetos de resolução de 2026 ainda em tramitação.",
+  "tipo_achado": "desatualizacao",
+  "gravidade": "baixa",
+  "afeta": [
+    "norma:risf",
+    "norma:rccn",
+    "proc:lei-ordinaria"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": null,
+      "nota": "Capa da edição oficial: 'atualizado até julho de 2025'"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": null,
+      "nota": "Capa da edição oficial: 'texto consolidado até janeiro de 2023 e atualizado até julho de 2025'"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Página do Regimento Interno no site do Senado",
+      "url": "https://www25.senado.leg.br/web/atividade/regimento-interno"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

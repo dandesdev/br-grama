@@ -1,0 +1,30 @@
+{
+  "id": "org:tse",
+  "tipo": "orgao",
+  "nome": "Tribunal Superior Eleitoral",
+  "sigla": "TSE",
+  "resumo": "Tribunal superior da Justiça Eleitoral; pode propor projetos de lei sobre a Justiça.",
+  "detalhes": "Tem no mínimo sete membros: três ministros do STF e dois do STJ, eleitos pelos próprios tribunais, e dois advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF. Como tribunal superior, tem iniciativa de leis e seus projetos começam na Câmara.",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, V; art. 118, I; art. 119; art. 61, caput; art. 96, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O TSE já existia antes da CF/88. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

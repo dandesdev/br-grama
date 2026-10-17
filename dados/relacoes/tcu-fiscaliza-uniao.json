@@ -1,0 +1,25 @@
+{
+  "id": "rel:tcu-fiscaliza-uniao",
+  "tipo": "relacao",
+  "nome": "Fiscalização direta pelo TCU",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "ente:uniao",
+  "condicao": "Julga as contas dos administradores de recursos federais, faz inspeções e auditorias nos três Poderes, aplica multas e pode sustar atos ilegais (contratos, só o Congresso susta).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, II a VI e VIII a XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

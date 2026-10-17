@@ -1,0 +1,33 @@
+{
+  "id": "pessoa:gilmar-mendes",
+  "tipo": "pessoa",
+  "nome": "Gilmar Mendes",
+  "resumo": "Ministro do Supremo Tribunal Federal desde 2002.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-gilmar-mendes",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "STF: pasta do ministro Gilmar Mendes",
+      "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=GilmarMendesPrincipal"
+    }
+  ],
+  "notas": "Nome completo na pasta do STF: Gilmar Ferreira Mendes. Ministros do STF não têm filiação partidária: a CF veda aos juízes dedicar-se à atividade político-partidária (art. 95, parágrafo único, III). Por isso não há 'filiacoes'."
+}

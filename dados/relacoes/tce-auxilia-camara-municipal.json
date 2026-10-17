@@ -1,0 +1,29 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "rel:tce-auxilia-camara-municipal",
+  "nome": "Auxílio do TCE no controle externo municipal",
+  "relacao": "auxilia",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "org:arquetipo-municipal-camara-municipal",
+  "condicao": "Regra geral. Não vale onde houver tribunal de contas do município (capitais SP e RJ) ou dos municípios (BA, GO e PA); ver as variações.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ]
+}

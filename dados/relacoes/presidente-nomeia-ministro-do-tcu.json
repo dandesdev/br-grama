@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-nomeia-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Nomeação de ministros do TCU",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-tcu",
+  "condicao": "Nomeia todos os nove: os escolhidos pelo Congresso e os que ele mesmo escolheu, depois da aprovação do Senado.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-ministro-do-tcu",
+    "rel:congresso-elege-ministro-do-tcu"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XV; art. 73, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

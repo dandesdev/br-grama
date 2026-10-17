@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-indica-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Escolha de ministros do TCU pelo Presidente",
+  "relacao": "indica",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-tcu",
+  "condicao": "Um terço das vagas (3 de 9). Em duas delas, alternadamente, escolhe a partir de lista tríplice do TCU com auditores e membros do Ministério Público junto ao Tribunal.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, § 2º, I; art. 52, III, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

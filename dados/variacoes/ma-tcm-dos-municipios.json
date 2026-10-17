@@ -1,0 +1,32 @@
+{
+  "tipo": "variacao",
+  "difere_de": "org:arquetipo-estadual-tce",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "var:ma-tcm-dos-municipios",
+  "nome": "Tribunal de Contas dos Municípios do Maranhão (extinto)",
+  "resumo": "Até 1993, um tribunal estadual próprio fiscalizava os municípios maranhenses; desde então, é o TCE-MA, como no arquétipo.",
+  "entes": [
+    "ente:ma"
+  ],
+  "instancia": "org:tcm-maranhao",
+  "porque": "Existia na CF/1988 e foi extinto pela EC estadual 9/1993; o STF julgou a extinção válida (ADI 867).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "1993"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-adi-867",
+      "dispositivo": "decisão de 10/10/1994"
+    },
+    {
+      "ref": "norma:ma-ec-9-1993",
+      "dispositivo": "art. 1º"
+    }
+  ]
+}

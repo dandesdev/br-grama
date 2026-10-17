@@ -1,0 +1,36 @@
+{
+  "id": "org:stj",
+  "tipo": "orgao",
+  "nome": "Superior Tribunal de Justiça",
+  "sigla": "STJ",
+  "resumo": "Tribunal superior que uniformiza a interpretação da lei federal; pode propor projetos de lei sobre a Justiça.",
+  "detalhes": "Tem no mínimo 33 ministros, nomeados pelo Presidente da República depois de aprovação por maioria absoluta do Senado. Como tribunal superior, tem iniciativa de leis (CF, art. 61) e seus projetos começam na Câmara (art. 64).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "estrutura_continua": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105 (competências)"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, II; art. 104; art. 105, III; art. 61, caput; art. 96, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado pela CF/88. Composição e competências detalhadas fora do escopo desta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

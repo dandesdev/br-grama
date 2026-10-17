@@ -1,0 +1,25 @@
+{
+  "id": "rel:hugo-motta-ocupa-presidente-da-camara",
+  "tipo": "relacao",
+  "nome": "Hugo Motta ocupa o cargo de Presidente da Câmara dos Deputados",
+  "detalhes": "Eleito para a Mesa no segundo biênio da 57ª legislatura (2025–2027).",
+  "relacao": "ocupa",
+  "de": "pessoa:hugo-motta",
+  "para": "cargo:presidente-da-camara-dos-deputados",
+  "vigencia": {
+    "de": "2025-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-mesa-legislatura-57",
+      "dispositivo": "título 'Presidente', dataInicio 2025-02-01, dataFim null"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

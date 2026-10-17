@@ -1,0 +1,23 @@
+{
+  "id": "fonte:tse-consulta-cand-2026",
+  "tipo": "fonte",
+  "nome": "TSE, Dados Abertos: candidatos das Eleições Gerais de 2026 (consulta_cand_2026)",
+  "resumo": "Registro de candidaturas de 2026, com partido e federação de cada candidato.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Tribunal Superior Eleitoral",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+  "acesso_em": "2026-10-16",
+  "arquivo": "http://web.archive.org/web/20260921000941/https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "Arquivo gerado em 16/10/2026. Usados consulta_cand_2026_BR.csv (Presidente e Vice) e consulta_cand_2026_PB.csv (Deputado Federal). Não copiado para pesquisa/brutos porque contém CPF, e-mail e outros dados pessoais de todos os candidatos."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:dias-toffoli-ocupa-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Dias Toffoli ocupa o cargo de Ministro do STF",
+  "relacao": "ocupa",
+  "de": "pessoa:dias-toffoli",
+  "para": "cargo:ministro-do-stf",
+  "vigencia": {
+    "de": "2009-10-23",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-dias-toffoli",
+      "dispositivo": "'Posse no Supremo Tribunal Federal: 23/10/2009'"
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null,
+      "nota": "consta da composição em vigor em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-do-stf-substitui-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Presidente do STF na linha de substituição",
+  "relacao": "substitui",
+  "de": "cargo:presidente-do-stf",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Último chamado, depois dos Presidentes da Câmara e do Senado, nas mesmas hipóteses. Exercício temporário.",
+  "depende_de": [
+    "rel:presidente-do-senado-substitui-presidente-da-republica"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 80 e 81"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

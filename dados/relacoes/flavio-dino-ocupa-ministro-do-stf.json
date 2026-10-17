@@ -1,0 +1,29 @@
+{
+  "id": "rel:flavio-dino-ocupa-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Flávio Dino ocupa o cargo de Ministro do STF",
+  "relacao": "ocupa",
+  "de": "pessoa:flavio-dino",
+  "para": "cargo:ministro-do-stf",
+  "vigencia": {
+    "de": "2024-02-22",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-flavio-dino",
+      "dispositivo": "'Posse no Supremo Tribunal Federal: 22/2/2024'"
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null,
+      "nota": "consta da composição em vigor em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

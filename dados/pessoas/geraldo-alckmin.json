@@ -1,0 +1,48 @@
+{
+  "id": "pessoa:geraldo-alckmin",
+  "tipo": "pessoa",
+  "nome": "Geraldo Alckmin",
+  "resumo": "Vice-Presidente da República no mandato iniciado em 1º de janeiro de 2023. Filiado ao PSB.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:planalto-biografia-vice-presidente",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:agencia-senado-posse-lula-alckmin-2023",
+      "dispositivo": null
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-psb",
+      "vigencia": {
+        "de": null,
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_BR.csv, cargo VICE-PRESIDENTE, SG_PARTIDO 'PSB'"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Planalto: biografia do Vice-Presidente da República",
+      "url": "https://www.gov.br/planalto/pt-br/vice-presidencia/acesso-a-informacao/institucional/biografia-do-vice-presidente-da-republica-1"
+    }
+  ],
+  "notas": "Nome completo na fonte oficial: Geraldo José Rodrigues Alckmin Filho. Filiação ao PSB vigente em 2026-10-01 confirmada pelo registro de candidatura de 2026 no TSE. A imprensa registra a filiação ao PSB em 23/3/2022, mas não achamos fonte oficial para a data; por isso 'de' ficou null. Ver achado:filiacao-lula-alckmin-data-de-inicio."
+}

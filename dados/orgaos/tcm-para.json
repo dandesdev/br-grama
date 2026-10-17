@@ -1,0 +1,41 @@
+{
+  "tipo": "orgao",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:tcm-para",
+  "nome": "Tribunal de Contas dos Municípios do Estado do Pará",
+  "sigla": "TCMPA",
+  "resumo": "Órgão estadual que auxilia as Câmaras de todos os municípios paraenses no controle externo; o TCE-PA cuida só das contas do estado.",
+  "detalhes": "Instituído em 1980 por emenda à Constituição estadual, como Conselho de Contas dos Municípios, e instalado em 1983. Tem sete conselheiros.",
+  "esfera": "estadual",
+  "ente": "ente:pa",
+  "vigencia": {
+    "de": "1980-10-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "arts. 71, §§ 1º e 2º, 118 e 123"
+    },
+    {
+      "ref": "fonte:tcmpa-institucional",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º e 4º; art. 75"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "notas": "vigencia.de = data da EC estadual 13/1980, segundo o TCMPA; o texto da emenda não foi lido. Instalação em 1/3/1983."
+}

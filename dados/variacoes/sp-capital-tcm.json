@@ -1,0 +1,40 @@
+{
+  "tipo": "variacao",
+  "difere_de": "org:arquetipo-estadual-tce",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "var:sp-capital-tcm",
+  "nome": "Tribunal de Contas do Município de São Paulo",
+  "resumo": "A capital paulista tem tribunal de contas próprio; no resto do estado, o TCE-SP auxilia as Câmaras.",
+  "entes": [
+    "ente:sp-sao-paulo"
+  ],
+  "instancia": "org:tcm-sao-paulo",
+  "porque": "Tribunal municipal criado em 1968, antes da CF/1988, que proibiu criar novos tribunais municipais e manteve os existentes; a EC 139/2026 vedou também sua extinção.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º e 4º"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:sp-sao-paulo-lei-7213-1968",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 151"
+    }
+  ]
+}

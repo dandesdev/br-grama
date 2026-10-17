@@ -1,0 +1,27 @@
+{
+  "id": "org:poder-judiciario",
+  "tipo": "orgao",
+  "nome": "Poder Judiciário",
+  "resumo": "Um dos três Poderes. Reúne o STF, o CNJ, os tribunais superiores e as Justiças Federal, do Trabalho, Eleitoral, Militar e dos estados e do DF.",
+  "tipo_orgao": "poder",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 2º; art. 92"
+    }
+  ],
+  "ente": "ente:uniao",
+  "notas": "Modelagem: o art. 2º chama o Judiciário de Poder da União, mas o art. 92 inclui tribunais e juízes dos estados (VII). Por isso o id não leva '-federal'. A esfera 'federal' é aproximação: o vocabulário não tem um valor 'nacional'.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

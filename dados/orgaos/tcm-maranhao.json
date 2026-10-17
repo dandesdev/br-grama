@@ -1,0 +1,36 @@
+{
+  "tipo": "orgao",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:tcm-maranhao",
+  "nome": "Tribunal de Contas dos Municípios do Estado do Maranhão",
+  "resumo": "Órgão estadual que fiscalizava os municípios maranhenses; extinto em 1993, com as funções passadas ao TCE-MA.",
+  "detalhes": "A extinção foi feita por emenda à Constituição estadual em 1993. O Procurador-Geral da República a contestou no STF, que a considerou constitucional por unanimidade em 1994.",
+  "esfera": "estadual",
+  "ente": "ente:ma",
+  "vigencia": {
+    "de": null,
+    "ate": "1993"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-adi-867",
+      "dispositivo": "decisões de 6/5/1993 e 10/10/1994"
+    },
+    {
+      "ref": "norma:ma-ec-9-1993",
+      "dispositivo": "arts. 1º e 6º"
+    },
+    {
+      "ref": "fonte:al-ma-constituicao-2025",
+      "dispositivo": "ADCT, art. 35"
+    }
+  ],
+  "notas": "Origem e data de criação não conferidas. ate só com o ano: a emenda é de 25/3/1993 e vigora na publicação, cuja data não foi achada."
+}

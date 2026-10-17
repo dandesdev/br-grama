@@ -1,0 +1,24 @@
+{
+  "id": "rel:stf-julga-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Julgamento de ministros do STF por infração penal comum",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "cargo:ministro-do-stf",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

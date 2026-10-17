@@ -1,0 +1,28 @@
+{
+  "tipo": "orgao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:arquetipo-municipal-eleitorado",
+  "nome": "Eleitorado municipal",
+  "resumo": "Eleitores do município. Elegem prefeito, vice-prefeito e vereadores e podem propor projetos de lei de interesse local.",
+  "tipo_orgao": "corpo-eleitoral",
+  "poder": "povo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "detalhes": "A eleição municipal é direta e simultânea em todo o país, a cada quatro anos. Projetos de lei de iniciativa popular exigem a assinatura de pelo menos 5% do eleitorado do município.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, caput; art. 29, I, II e XIII"
+    }
+  ],
+  "notas": "Como org:eleitorado-nacional, não é órgão formal: é o povo do município agindo como corpo eleitoral. O tamanho do eleitorado muda regras: acima de 200 mil eleitores há segundo turno para prefeito (art. 29, II)."
+}

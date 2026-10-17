@@ -1,0 +1,24 @@
+{
+  "id": "rel:poder-executivo-federal-integra-uniao",
+  "tipo": "relacao",
+  "nome": "Poder Executivo como Poder da União",
+  "relacao": "integra",
+  "de": "org:poder-executivo-federal",
+  "para": "ente:uniao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

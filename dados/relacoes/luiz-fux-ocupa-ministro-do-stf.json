@@ -1,0 +1,29 @@
+{
+  "id": "rel:luiz-fux-ocupa-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Luiz Fux ocupa o cargo de Ministro do STF",
+  "relacao": "ocupa",
+  "de": "pessoa:luiz-fux",
+  "para": "cargo:ministro-do-stf",
+  "vigencia": {
+    "de": "2011-03-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-luiz-fux",
+      "dispositivo": "'Posse no Supremo Tribunal Federal: 3/3/2011'"
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null,
+      "nota": "consta da composição em vigor em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

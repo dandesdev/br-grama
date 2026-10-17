@@ -1,0 +1,48 @@
+{
+  "id": "org:camara-dos-deputados",
+  "tipo": "orgao",
+  "nome": "Câmara dos Deputados",
+  "resumo": "Casa dos representantes do povo: 513 deputados eleitos pelo sistema proporcional em cada estado e no Distrito Federal.",
+  "tipo_orgao": "legislativo-casa",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 45 e 51"
+    },
+    {
+      "ref": "norma:lc-78-1993",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "detalhes": "Cabe só a ela, entre outras coisas, autorizar por dois terços dos seus membros a abertura de processo contra o Presidente, o Vice e os Ministros de Estado, e fazer a tomada de contas do Presidente quando ele não as apresenta no prazo.",
+  "fontes_por_campo": {
+    "resumo": [
+      {
+        "ref": "norma:cf-1988",
+        "dispositivo": "art. 45"
+      },
+      {
+        "ref": "norma:lc-78-1993",
+        "dispositivo": "art. 1º"
+      },
+      {
+        "ref": "fonte:stf-noticia-ado-38-deputados-2026",
+        "dispositivo": null
+      }
+    ]
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

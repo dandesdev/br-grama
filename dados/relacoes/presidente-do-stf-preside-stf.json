@@ -1,0 +1,24 @@
+{
+  "id": "rel:presidente-do-stf-preside-stf",
+  "tipo": "relacao",
+  "nome": "Presidência do STF",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-stf",
+  "para": "org:stf",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 13, II e III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ente:rj",
+  "tipo": "ente",
+  "nome": "Estado do Rio de Janeiro",
+  "resumo": "Estado da federação (RJ), com código IBGE 33.",
+  "tipo_ente": "estado",
+  "uf": "RJ",
+  "codigo_ibge": "33",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18"
+    },
+    {
+      "ref": "fonte:ibge-localidades",
+      "dispositivo": "estados/33"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "notas": "vigencia.de marca a federação atual (CF/1988), não a origem histórica do estado."
+}

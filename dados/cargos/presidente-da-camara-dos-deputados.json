@@ -1,0 +1,40 @@
+{
+  "id": "cargo:presidente-da-camara-dos-deputados",
+  "tipo": "cargo",
+  "nome": "Presidente da Câmara dos Deputados",
+  "resumo": "Preside a Câmara e sua Mesa. Depois do Vice, é o primeiro chamado a exercer a Presidência da República.",
+  "orgao": "org:mesa-da-camara-dos-deputados",
+  "provimento": "eleicao-pelos-pares",
+  "quantidade": 1,
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 12, § 3º, II; art. 57, §§ 4º e 6º, II; art. 80"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 5º, 7º, 14, 16 e 17"
+    }
+  ],
+  "detalhes": "Representa a Câmara e supervisiona seus trabalhos. Pode convocar extraordinariamente o Congresso em caso de urgência ou interesse público relevante, com aprovação da maioria absoluta de cada Casa. Integra o Conselho da República e o Conselho de Defesa Nacional.",
+  "provimento_condicao": "Eleito pelos deputados no início da 1ª e da 3ª sessão legislativa, em escrutínio secreto: maioria absoluta no primeiro escrutínio e maioria simples no segundo, presente a maioria absoluta da Casa (RICD, arts. 5º a 7º).",
+  "mandato": {
+    "anos": 2,
+    "reconducao": "vedada para o mesmo cargo na eleição imediatamente subsequente (CF, art. 57, § 4º)",
+    "nota": "O RICD não considera recondução a eleição para o mesmo cargo em legislaturas diferentes, ainda que sucessivas (art. 5º, § 1º)."
+  },
+  "requisitos": [
+    "ser deputado federal (CF, art. 57, § 4º; RICD, art. 5º)",
+    "brasileiro nato (CF, art. 12, § 3º, II; RICD, art. 16, parágrafo único)"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "org:mesa-do-senado-federal",
+  "tipo": "orgao",
+  "nome": "Mesa do Senado Federal",
+  "resumo": "Órgão diretor do Senado, formado pelo Presidente, dois Vice-Presidentes e quatro Secretários.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 4º; art. 58, § 1º; art. 103, II"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 46 e 59"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "detalhes": "Os membros são eleitos pelos senadores para mandato de dois anos; há quatro suplentes de Secretário. Pode propor ação direta de inconstitucionalidade no STF.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rel:senado-julga-presidente-crime-de-responsabilidade",
+  "tipo": "relacao",
+  "nome": "Julgamento do Presidente por crime de responsabilidade (impeachment)",
+  "relacao": "julga",
+  "de": "org:senado-federal",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Depois da autorização da Câmara. Sessão presidida pelo Presidente do STF; condenação por dois terços do Senado, limitada à perda do cargo com inabilitação por oito anos para função pública.",
+  "depende_de": [
+    "rel:camara-autoriza-processo-presidente"
+  ],
+  "detalhes": "O Presidente fica suspenso das funções quando o Senado instaura o processo; se o julgamento não terminar em 180 dias, o afastamento cessa. A Lei 1.079/1950 (art. 2º) fala em inabilitação 'até cinco anos', mas a CF fixa oito.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, I, e parágrafo único; art. 85; art. 86, caput e §§ 1º, II, e 2º"
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -3,3 +3,11 @@ dist/
 web/public/dados/
 *.sqlite
 .DS_Store
+
+# Documentos baixados (PDF/HTML) ficam só locais; a cópia pública é a do Wayback (D17).
+pesquisa/brutos/**/*.pdf
+pesquisa/brutos/**/*.htm
+pesquisa/brutos/**/*.html
+pesquisa/brutos/**/*.doc
+pesquisa/brutos/**/*.docx
+pesquisa/brutos/casacivil-go/2026-10-16/constituicao-go-103152.json

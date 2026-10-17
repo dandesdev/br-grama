@@ -1,0 +1,36 @@
+{
+  "id": "achado:publicacao-apos-promulgacao-supletiva",
+  "tipo": "achado",
+  "nome": "Quem manda publicar a lei promulgada pelo Senado?",
+  "resumo": "Não achamos norma que diga quem ordena a publicação da lei quando ela é promulgada pelo Presidente ou Vice-Presidente do Senado.",
+  "detalhes": "A CF dá ao Presidente da República o dever de 'fazer publicar' as leis (art. 84, IV) e prevê a promulgação supletiva pelo Senado (art. 66, § 7º), mas não trata da publicação nesse caso. Procuramos na CF, no RISF, no RCCN e no Decreto nº 9.215/2017, sem resultado. Falta pesquisar a prática e a doutrina.",
+  "tipo_achado": "lacuna",
+  "gravidade": "baixa",
+  "afeta": [
+    "proc:lei-ordinaria"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, § 7º; art. 84, IV"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, I; art. 52, II"
+    },
+    {
+      "ref": "norma:decreto-9215-2017",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "indisponivel",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

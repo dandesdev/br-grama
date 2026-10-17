@@ -1,0 +1,34 @@
+{
+  "id": "rel:tcm-sao-paulo-auxilia-camara-municipal",
+  "tipo": "relacao",
+  "nome": "Auxílio do TCM de São Paulo no controle externo municipal",
+  "relacao": "auxilia",
+  "de": "org:tcm-sao-paulo",
+  "para": "org:arquetipo-municipal-camara-municipal",
+  "condicao": "Somente na Câmara Municipal de São Paulo. Inclui o parecer prévio sobre as contas do prefeito, no lugar do TCE.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "arts. 150 e 151"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, §§ 1º e 4º"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "notas": "vigencia.de marca o regime da CF/1988; o tribunal já existia antes. A aresta aponta para o arquétipo da Câmara porque as Câmaras reais não são modeladas; a restrição está só na condição."
+}

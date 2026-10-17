@@ -1,0 +1,25 @@
+{
+  "id": "rel:senado-julga-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Julgamento de Ministros de Estado pelo Senado",
+  "relacao": "julga",
+  "de": "org:senado-federal",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Só crimes de responsabilidade conexos com os do Presidente ou do Vice-Presidente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

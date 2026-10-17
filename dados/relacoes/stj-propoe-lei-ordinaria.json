@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-propoe-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei do STJ",
+  "relacao": "propoe",
+  "de": "org:stj",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Como tribunal superior. O projeto começa na Câmara dos Deputados (CF, art. 64, caput).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput; art. 64; art. 96, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

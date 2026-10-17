@@ -1,0 +1,45 @@
+{
+  "id": "org:partido-psb",
+  "tipo": "orgao",
+  "nome": "Partido Socialista Brasileiro",
+  "sigla": "PSB",
+  "resumo": "Partido político de caráter nacional, com registro deferido pelo TSE em 1988. Número de legenda: 40.",
+  "detalhes": "Nas eleições de 2026 o PSB concorre sem federação.",
+  "tipo_orgao": "partido-politico",
+  "poder": "nao-estatal",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-07-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-partidos-registrados",
+      "dispositivo": "tabela 'Partidos registrados no TSE': PSB, deferimento 1º.7.1988, legenda 40"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, caput e I"
+    }
+  ],
+  "fontes_por_campo": {
+    "detalhes": [
+      {
+        "ref": "fonte:tse-consulta-cand-2026",
+        "dispositivo": "campo NM_FEDERACAO vazio (#NULO) para o PSB"
+      }
+    ]
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TSE: partidos políticos registrados",
+      "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:comissoes-camara-propoem-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei das comissões da Câmara",
+  "relacao": "propoe",
+  "de": "org:comissoes-da-camara-dos-deputados",
+  "para": "proc:lei-ordinaria",
+  "condicao": "O projeto começa na Câmara e não pode ser aprovado só nas comissões; vai ao Plenário.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, § 1º, II; art. 24, II, d"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

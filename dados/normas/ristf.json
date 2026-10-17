@@ -1,0 +1,42 @@
+{
+  "id": "norma:ristf",
+  "tipo": "norma",
+  "nome": "Regimento Interno do Supremo Tribunal Federal",
+  "sigla": "RISTF",
+  "resumo": "Regras de organização e funcionamento do STF: composição, Presidência, Plenário, Turmas e julgamento dos processos.",
+  "detalhes": "Aprovado pelo próprio Tribunal em 15 de outubro de 1980. Hoje a competência dos tribunais para elaborar seus regimentos está no art. 96, I, a, da Constituição. Foi alterado por várias emendas regimentais.",
+  "tipo_norma": "regimento-interno",
+  "numero": null,
+  "data": "1980-10-15",
+  "ente": "ente:uniao",
+  "url": "https://portal.stf.jus.br/regimentointerno/default.html",
+  "acesso_em": "2026-10-16",
+  "arquivo": "http://web.archive.org/web/20260216162003/https://portal.stf.jus.br/regimentointerno/default.html",
+  "vigencia": {
+    "de": "1980-12-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 368"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Versão consolidada (PDF) para a qual a página do STF aponta",
+      "url": "https://api-atosnormativosprd.azurewebsites.net/api/normativo/apresentacao/consolidado/1737"
+    }
+  ],
+  "notas": "A página oficial aponta para a versão consolidada em PDF, que se diz 'atualizado até a Emenda Regimental n. 59/2023' (capa: Brasília, 2026). Não conferimos se houve emendas regimentais depois da ER 59/2023. Publicado no DJ de 27/10/1980; vigência a partir de 1º/12/1980 (art. 368).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

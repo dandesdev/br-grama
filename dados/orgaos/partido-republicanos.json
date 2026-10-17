@@ -1,0 +1,49 @@
+{
+  "id": "org:partido-republicanos",
+  "tipo": "orgao",
+  "nome": "Republicanos",
+  "sigla": "REPUBLICANOS",
+  "resumo": "Partido político de caráter nacional, registrado no TSE em 2005 como PRB. Número de legenda: 10.",
+  "detalhes": "Registrado como Partido Republicano Brasileiro (PRB); o TSE aprovou a mudança de nome para Republicanos em 15/8/2019. Nas eleições de 2026 concorre sem federação.",
+  "tipo_orgao": "partido-politico",
+  "poder": "nao-estatal",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2005-08-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-partidos-registrados",
+      "dispositivo": "tabela 'Partidos registrados no TSE': REPUBLICANOS, deferimento 25.8.2005, legenda 10; tabela de mudanças de nome: PRB para REPUBLICANOS, RPP nº 301, 15/08/2019"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, caput e I"
+    }
+  ],
+  "fontes_por_campo": {
+    "detalhes": [
+      {
+        "ref": "fonte:tse-partidos-registrados",
+        "dispositivo": "tabela de mudanças de nomenclatura: PRB para REPUBLICANOS, RPP nº 301 (25929-56.2005.6.00.0000), 15/08/2019"
+      },
+      {
+        "ref": "fonte:tse-consulta-cand-2026",
+        "dispositivo": "campo NM_FEDERACAO vazio (#NULO) para o REPUBLICANOS"
+      }
+    ]
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TSE: partidos políticos registrados",
+      "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+    }
+  ]
+}

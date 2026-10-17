@@ -1,0 +1,45 @@
+{
+  "tipo": "cargo",
+  "arquetipo": "municipal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "cargo:arquetipo-municipal-vereador",
+  "nome": "Vereador",
+  "resumo": "Membro da Câmara Municipal, eleito pelo sistema proporcional para quatro anos. O número de vagas depende da população.",
+  "detalhes": "A CF fixa o máximo de vereadores por faixa de população: 9 nos municípios de até 15 mil habitantes, até 55 nos de mais de 8 milhões. O número exato é definido pela lei orgânica de cada município. O vereador é inviolável por opiniões, palavras e votos no exercício do mandato, dentro do município.",
+  "orgao": "org:arquetipo-municipal-camara-municipal",
+  "provimento": "eleicao-proporcional",
+  "mandato": {
+    "anos": 4,
+    "reconducao": "permitida",
+    "nota": "A CF não limita reeleições de vereador."
+  },
+  "quantidade": null,
+  "quantidade_nota": "Varia de município para município. Limite máximo pela população (CF, art. 29, IV, a a x): 9 até 15 mil habitantes; 11, 13, 15... em faixas crescentes; 55 acima de 8 milhões. A lei orgânica fixa o número dentro do limite.",
+  "requisitos": [
+    "nacionalidade brasileira",
+    "pleno exercício dos direitos políticos",
+    "alistamento eleitoral",
+    "domicílio eleitoral no município",
+    "filiação partidária",
+    "idade mínima de 18 anos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º, VI, d; art. 29, I, IV e VIII"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 84"
+    }
+  ]
+}

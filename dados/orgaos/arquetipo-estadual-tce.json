@@ -1,0 +1,33 @@
+{
+  "tipo": "orgao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:arquetipo-estadual-tce",
+  "nome": "Tribunal de Contas do Estado",
+  "sigla": "TCE",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado e, em regra, as Câmaras Municipais no controle externo dos municípios.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "detalhes": "Tem sete conselheiros. Na maioria dos estados também fiscaliza os municípios e emite parecer prévio sobre as contas dos prefeitos. As exceções são as capitais São Paulo e Rio de Janeiro, com tribunal municipal próprio, e os estados com tribunal de contas dos municípios (Bahia, Goiás e Pará).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "notas": "Mesmo critério de org:tcu: poder legislativo por auxiliar o Legislativo (CF, art. 71 c/c art. 75). Não há contido_em porque o arquétipo estadual ainda não tem um nó de Poder Legislativo estadual. As regras do TCU valem para os TCEs \"no que couber\" (art. 75). O papel junto aos municípios vem do art. 31, § 1º."
+}

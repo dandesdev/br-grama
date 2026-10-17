@@ -1,0 +1,27 @@
+{
+  "id": "org:poder-legislativo-federal",
+  "tipo": "orgao",
+  "nome": "Poder Legislativo federal",
+  "resumo": "Um dos três Poderes da União. É exercido pelo Congresso Nacional, formado pela Câmara dos Deputados e pelo Senado Federal.",
+  "tipo_orgao": "poder",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 2º; art. 44"
+    }
+  ],
+  "ente": "ente:uniao",
+  "detalhes": "O capítulo da Constituição sobre o Poder Legislativo também trata da fiscalização das contas públicas e do Tribunal de Contas da União (arts. 70 a 75).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tipo": "variacao",
+  "difere_de": "org:arquetipo-estadual-tce",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "var:pa-tcm-dos-municipios",
+  "nome": "Tribunal de Contas dos Municípios do Pará",
+  "resumo": "No Pará, um tribunal estadual próprio (TCMPA) auxilia as Câmaras de todos os municípios; o TCE-PA cuida só do estado.",
+  "entes": [
+    "ente:pa"
+  ],
+  "instancia": "org:tcm-para",
+  "porque": "A CF admite tribunais ou conselhos de contas dos municípios onde houver (art. 31, § 1º); o do Pará vem de 1980 e está na Constituição paraense. Desde a EC 139/2026, não pode ser extinto.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "arts. 71 e 118"
+    }
+  ]
+}

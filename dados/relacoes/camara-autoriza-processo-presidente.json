@@ -1,0 +1,30 @@
+{
+  "id": "rel:camara-autoriza-processo-presidente",
+  "tipo": "relacao",
+  "nome": "Autorização de processo contra o Presidente",
+  "relacao": "autoriza-processo",
+  "de": "org:camara-dos-deputados",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Por dois terços dos membros da Câmara; vale para infrações penais comuns e para crimes de responsabilidade.",
+  "detalhes": "Qualquer cidadão pode denunciar o Presidente por crime de responsabilidade perante a Câmara (Lei 1.079/1950, art. 14).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 51, I; art. 86, caput"
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "art. 14"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

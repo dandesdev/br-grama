@@ -1,0 +1,33 @@
+{
+  "id": "achado:rj-lei-183-1980-data",
+  "tipo": "achado",
+  "nome": "Data divergente da lei de criação do TCM do Rio de Janeiro",
+  "resumo": "A página oficial da Câmara do Rio dá à Lei 183/1980 a data de 31 de outubro no título e 23 de outubro no fecho; o TCM-RJ usa 23 de outubro.",
+  "detalhes": "A data de 31 de outubro é posterior até à publicação no Diário Oficial (29/10/1980), indicada na mesma página. Adotamos 23 de outubro, data do fecho e da cópia do TCM-RJ.",
+  "tipo_achado": "contradicao",
+  "afeta": [
+    "norma:rj-rio-de-janeiro-lei-183-1980",
+    "org:tcm-rio-de-janeiro"
+  ],
+  "gravidade": "baixa",
+  "vigencia": {
+    "de": "2026-10-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-183-1980",
+      "dispositivo": "título e fecho da página da Câmara"
+    },
+    {
+      "ref": "fonte:tcmrio-lei-183-1980",
+      "dispositivo": "cabeçalho e fecho"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  }
+}

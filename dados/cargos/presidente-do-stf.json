@@ -1,0 +1,39 @@
+{
+  "id": "cargo:presidente-do-stf",
+  "tipo": "cargo",
+  "nome": "Presidente do Supremo Tribunal Federal",
+  "resumo": "Dirige o STF e preside suas sessões plenárias. É o último na linha de chamados a exercer a Presidência da República.",
+  "orgao": "org:stf",
+  "provimento": "eleicao-pelos-pares",
+  "quantidade": 1,
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, parágrafo único; art. 80; art. 96, I, a; art. 103-B, § 1º"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 2º, parágrafo único; arts. 12 a 14"
+    }
+  ],
+  "detalhes": "Representa o Tribunal perante os demais Poderes. Preside também o Conselho Nacional de Justiça e, nos julgamentos de crimes de responsabilidade, a sessão do Senado. O Vice-Presidente do STF o substitui em licenças, ausências e impedimentos.",
+  "provimento_condicao": "Eleito pelos ministros do STF, dentre eles, em voto secreto; quórum de oito ministros; vence no primeiro escrutínio quem tiver mais da metade dos votos dos membros; no segundo concorrem os dois mais votados e, sem maioria, vence o mais antigo (RISTF, art. 12, §§ 1º a 6º).",
+  "mandato": {
+    "anos": 2,
+    "reconducao": "vedada a reeleição para o período imediato (RISTF, art. 12)",
+    "nota": "O mandato se estende até a posse do sucessor se esta for marcada para depois do biênio (RISTF, art. 12, § 8º)."
+  },
+  "requisitos": [
+    "ser Ministro do STF (RISTF, art. 2º, parágrafo único)"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

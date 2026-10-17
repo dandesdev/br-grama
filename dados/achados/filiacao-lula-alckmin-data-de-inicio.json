@@ -1,0 +1,31 @@
+{
+  "id": "achado:filiacao-lula-alckmin-data-de-inicio",
+  "tipo": "achado",
+  "nome": "Data de início da filiação de Lula e Alckmin sem fonte oficial acessível",
+  "resumo": "As filiações de Lula (PT) e Alckmin (PSB) em 1º/10/2026 estão confirmadas pelo TSE, mas não achamos fonte oficial acessível para a data em que começaram.",
+  "detalhes": "O registro de candidaturas de 2026 confirma o partido de cada um. O site do TSE bloqueou o acesso automatizado e não achamos nos dados abertos uma base de filiados com datas.",
+  "tipo_achado": "lacuna",
+  "afeta": [
+    "pessoa:luiz-inacio-lula-da-silva",
+    "pessoa:geraldo-alckmin"
+  ],
+  "gravidade": "baixa",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": null,
+      "nota": "confirma o partido, mas não a data de filiação"
+    }
+  ],
+  "confianca": "indisponivel",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "Procurado: dadosabertos.tse.jus.br (sem conjunto de filiados na lista de pacotes em 2026-10-16), cdn.tse.jus.br/estatistica/sead/eleitorado/filiados/ (404 nos nomes testados), divulgacandcontas.tse.jus.br e www.tse.jus.br (HTTP 403). A Câmara e o Senado têm essas datas só para parlamentares."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "org:comissoes-mistas-do-congresso-nacional",
+  "tipo": "orgao",
+  "nome": "Comissões mistas do Congresso Nacional",
+  "resumo": "Colegiados formados por deputados e senadores; os projetos de lei que elaboram começam ora no Senado, ora na Câmara.",
+  "detalhes": "Em regra têm o mesmo número de senadores e de deputados, indicados pelos líderes. Os projetos de lei elaborados por comissão mista são enviados alternadamente ao Senado e à Câmara.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, caput; art. 61, caput"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "arts. 9º, 10 e 142"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nó agregado. O RCCN, art. 10, fixa como regra 11 senadores e 11 deputados, com exceções e vaga adicional (art. 10-A); por isso o resumo não dá números. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

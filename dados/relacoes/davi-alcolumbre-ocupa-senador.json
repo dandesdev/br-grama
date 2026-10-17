@@ -1,0 +1,25 @@
+{
+  "id": "rel:davi-alcolumbre-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Davi Alcolumbre ocupa o cargo de Senador",
+  "relacao": "ocupa",
+  "de": "pessoa:davi-alcolumbre",
+  "para": "cargo:senador",
+  "vigencia": {
+    "de": "2023-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senador-davi-alcolumbre",
+      "dispositivo": "serviço /mandatos: mandato 618 (AP), legislaturas 57 e 58, exercício desde 2023-02-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "A data é o início do exercício do mandato atual (2023–2031). Ele é senador sem interrupção desde 2015-02-01 (mandato anterior 2015–2023)."
+}

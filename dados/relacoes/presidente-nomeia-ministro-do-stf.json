@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Nomeação de ministro do STF",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-stf",
+  "condicao": "Depois da aprovação do Senado por maioria absoluta.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-ministro-do-stf"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV; art. 101, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

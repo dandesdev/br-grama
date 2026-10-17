@@ -1,0 +1,30 @@
+{
+  "id": "rel:geraldo-alckmin-ocupa-vice-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Geraldo Alckmin ocupa o cargo de Vice-Presidente da República",
+  "relacao": "ocupa",
+  "de": "pessoa:geraldo-alckmin",
+  "para": "cargo:vice-presidente-da-republica",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:agencia-senado-posse-lula-alckmin-2023",
+      "dispositivo": null,
+      "nota": "posse na mesma sessão do Congresso, em 1º/1/2023"
+    },
+    {
+      "ref": "fonte:planalto-biografia-vice-presidente",
+      "dispositivo": null,
+      "nota": "'Desde 1º de janeiro de 2023, é o 26º vice-presidente'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

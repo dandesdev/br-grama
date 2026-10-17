@@ -1,0 +1,32 @@
+{
+  "id": "org:mesa-da-camara-dos-deputados",
+  "tipo": "orgao",
+  "nome": "Mesa da Câmara dos Deputados",
+  "resumo": "Comissão diretora da Câmara: dirige os trabalhos legislativos e os serviços administrativos da Casa.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 4º; art. 58, § 1º; art. 103, III"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 5º, 14 e 15"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "detalhes": "Tem Presidente, dois Vice-Presidentes e quatro Secretários, mais quatro suplentes de Secretário, eleitos pelos deputados para mandato de dois anos. Pode propor ação direta de inconstitucionalidade no STF.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

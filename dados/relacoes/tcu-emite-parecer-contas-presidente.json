@@ -1,0 +1,29 @@
+{
+  "id": "rel:tcu-emite-parecer-contas-presidente",
+  "tipo": "relacao",
+  "nome": "Parecer prévio do TCU sobre as contas do Presidente",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Aprecia as contas anuais do Presidente e emite parecer prévio em 60 dias do recebimento; não as julga.",
+  "depende_de": [
+    "rel:presidente-presta-contas-a-congresso"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Não há termo 'emite parecer' no vocabulário; usamos 'fiscaliza'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

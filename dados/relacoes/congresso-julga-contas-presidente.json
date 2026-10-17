@@ -1,0 +1,28 @@
+{
+  "id": "rel:congresso-julga-contas-presidente",
+  "tipo": "relacao",
+  "nome": "Julgamento das contas do Presidente",
+  "relacao": "julga",
+  "de": "org:congresso-nacional",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Julga anualmente as contas prestadas pelo Presidente, depois do parecer prévio do TCU.",
+  "depende_de": [
+    "rel:tcu-emite-parecer-contas-presidente"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, IX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "norma:lei-1079-1950",
+  "tipo": "norma",
+  "nome": "Lei nº 1.079, de 10 de abril de 1950",
+  "sigla": "Lei do Impeachment",
+  "resumo": "Define os crimes de responsabilidade e regula processo e julgamento do Presidente, de ministros de Estado, de ministros do STF e do PGR.",
+  "detalhes": "É a lei especial exigida pelo art. 85, parágrafo único, da Constituição. Partes dela não combinam com a CF de 1988: a CF fixa inabilitação por oito anos (art. 52, parágrafo único), e a lei fala em até cinco (art. 2º).",
+  "tipo_norma": "lei-ordinaria",
+  "numero": "1.079",
+  "data": "1950-04-10",
+  "ente": "ente:uniao",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+  "acesso_em": "2026-10-16",
+  "arquivo": "http://web.archive.org/web/20261006181533/http://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+  "vigencia": {
+    "de": "1950-04-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 85, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "notas": "Publicada no DOU de 12/4/1950; tomamos essa data como início de vigência, sem conferir cláusula de vigência. O texto do Planalto anota as ADPFs 1259 e 1260 em dispositivos sobre ministros do STF (ver achado:lei-1079-adpf-1259-1260).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

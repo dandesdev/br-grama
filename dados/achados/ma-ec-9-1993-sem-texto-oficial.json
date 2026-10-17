@@ -1,0 +1,38 @@
+{
+  "id": "achado:ma-ec-9-1993-sem-texto-oficial",
+  "tipo": "achado",
+  "nome": "Texto da emenda que extinguiu o TCM do Maranhão não está em fonte oficial on-line",
+  "resumo": "Não achamos em site oficial o texto da EC 9/1993 do Maranhão, que extinguiu o TCM; lemos uma cópia hospedada por ONG.",
+  "detalhes": "As edições consolidadas da Assembleia do Maranhão não trazem a emenda nem a anotam. A existência, a data e o art. 1º estão confirmados pelo STF na ADI 867.",
+  "tipo_achado": "baixa-transparencia",
+  "afeta": [
+    "norma:ma-ec-9-1993",
+    "org:tcm-maranhao"
+  ],
+  "gravidade": "baixa",
+  "vigencia": {
+    "de": "2026-10-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:al-ma-constituicao-2025",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-adi-867",
+      "dispositivo": "decisões"
+    },
+    {
+      "ref": "norma:ma-ec-9-1993",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "notas": "Onde procuramos: al.ma.leg.br (edições de 2021 e nov/2025; arquivos/constituicaoma.pdf devolve HTML), busca web. Falta também a data de publicação da emenda."
+}

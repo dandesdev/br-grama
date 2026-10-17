@@ -1,0 +1,40 @@
+{
+  "id": "cargo:presidente-do-senado-federal",
+  "tipo": "cargo",
+  "nome": "Presidente do Senado Federal",
+  "resumo": "Preside o Senado, a Mesa do Senado e a Mesa do Congresso Nacional. É chamado a exercer a Presidência da República depois do Presidente da Câmara.",
+  "orgao": "org:mesa-do-senado-federal",
+  "provimento": "eleicao-pelos-pares",
+  "quantidade": 1,
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 12, § 3º, III; art. 57, §§ 4º, 5º e 6º; art. 80"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 46, 48, 59 e 60"
+    }
+  ],
+  "detalhes": "Convoca e preside as sessões do Senado e as sessões conjuntas do Congresso (RISF, art. 48, III). Convoca o Congresso extraordinariamente em caso de estado de defesa, intervenção federal, pedido de estado de sítio e para a posse do Presidente e do Vice (CF, art. 57, § 6º, I). Integra o Conselho da República e o Conselho de Defesa Nacional.",
+  "provimento_condicao": "Eleito pelos senadores em escrutínio secreto, por maioria de votos, presente a maioria da composição do Senado (RISF, art. 60).",
+  "mandato": {
+    "anos": 2,
+    "reconducao": "vedada a reeleição para o período imediatamente subsequente (CF, art. 57, § 4º; RISF, art. 59)",
+    "nota": "O RISF remete, em nota ao art. 59, ao Parecer nº 555/1998 e à ADI 6.524 (STF, dezembro de 2020) sobre o alcance da vedação. Não lemos esses documentos nesta tarefa."
+  },
+  "requisitos": [
+    "ser senador (CF, art. 57, § 4º; RISF, art. 59)",
+    "brasileiro nato (CF, art. 12, § 3º, III)"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

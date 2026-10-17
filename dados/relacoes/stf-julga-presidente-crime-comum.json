@@ -1,0 +1,29 @@
+{
+  "id": "rel:stf-julga-presidente-crime-comum",
+  "tipo": "relacao",
+  "nome": "Julgamento do Presidente por infração penal comum",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Depois da autorização da Câmara. O Presidente fica suspenso das funções se o STF receber a denúncia ou queixa-crime.",
+  "depende_de": [
+    "rel:camara-autoriza-processo-presidente"
+  ],
+  "detalhes": "Enquanto não houver sentença condenatória, o Presidente não pode ser preso. Durante o mandato, não responde por atos estranhos às suas funções.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 86, caput e §§ 1º, I, 2º, 3º e 4º; art. 102, I, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

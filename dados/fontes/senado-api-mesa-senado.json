@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-mesa-senado",
+  "tipo": "fonte",
+  "nome": "Senado Federal, Dados Abertos: composição da Mesa do Senado",
+  "resumo": "Composição atual da Mesa (Comissão Diretora) do Senado Federal.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/composicao/mesaSF",
+  "acesso_em": "2026-10-16",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "Redireciona para https://legis.senado.leg.br/dadosabertos/dados/MesaSenado.json (versão de 15/10/2026). Cópia bruta em pesquisa/brutos/senado-dados-abertos/2026-10-16/MesaSenado.json."
+}

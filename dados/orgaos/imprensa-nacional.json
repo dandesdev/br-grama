@@ -1,0 +1,32 @@
+{
+  "id": "org:imprensa-nacional",
+  "tipo": "orgao",
+  "nome": "Imprensa Nacional",
+  "resumo": "Órgão da Casa Civil que publica o Diário Oficial da União, onde as leis federais são publicadas.",
+  "detalhes": "Publica, preserva e divulga os atos oficiais da administração federal. O Diário Oficial da União é exclusivamente eletrônico e fica no site da Imprensa Nacional.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I, art. 2º, II, g; art. 38"
+    },
+    {
+      "ref": "norma:decreto-9215-2017",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Integra a Casa Civil da Presidência da República e se subordina ao seu Secretário-Executivo (Decreto 11.329/2023, Anexo I, art. 38, parágrafo único). contido_em não foi preenchido porque org:casa-civil ainda não existe no mapa. Data de criação não pesquisada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

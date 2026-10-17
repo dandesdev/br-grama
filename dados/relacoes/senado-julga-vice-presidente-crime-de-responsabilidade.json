@@ -1,0 +1,28 @@
+{
+  "id": "rel:senado-julga-vice-presidente-crime-de-responsabilidade",
+  "tipo": "relacao",
+  "nome": "Julgamento do Vice por crime de responsabilidade",
+  "relacao": "julga",
+  "de": "org:senado-federal",
+  "para": "cargo:vice-presidente-da-republica",
+  "condicao": "Depois da autorização da Câmara (art. 51, I); sessão presidida pelo Presidente do STF.",
+  "depende_de": [
+    "rel:camara-autoriza-processo-vice-presidente"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, I, e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:senado-aprova-indicacao-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Aprovação de ministros do TCU pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:ministro-do-tcu",
+  "condicao": "Só para os ministros escolhidos pelo Presidente; voto secreto após arguição pública.",
+  "depende_de": [
+    "rel:presidente-indica-ministro-do-tcu"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, b; art. 73, § 2º, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF não fixa quórum especial para essa aprovação (diferente do STF, que exige maioria absoluta).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

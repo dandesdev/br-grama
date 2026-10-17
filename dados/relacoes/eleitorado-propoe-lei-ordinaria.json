@@ -1,0 +1,33 @@
+{
+  "id": "rel:eleitorado-propoe-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Iniciativa popular de lei",
+  "relacao": "propoe",
+  "de": "org:eleitorado-nacional",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Projeto apresentado à Câmara e assinado por pelo menos 1% do eleitorado nacional, distribuído por pelo menos cinco estados, com no mínimo 0,3% dos eleitores de cada um.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, III; art. 61, caput e § 2º"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "art. 13"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 252"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

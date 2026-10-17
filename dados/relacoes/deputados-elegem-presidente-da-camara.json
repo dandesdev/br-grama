@@ -1,0 +1,29 @@
+{
+  "id": "rel:deputados-elegem-presidente-da-camara",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente da Câmara",
+  "relacao": "elege",
+  "de": "cargo:deputado-federal",
+  "para": "cargo:presidente-da-camara-dos-deputados",
+  "condicao": "Escrutínio secreto, mandato de dois anos; maioria absoluta no primeiro escrutínio, maioria simples no segundo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 4º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 5º a 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

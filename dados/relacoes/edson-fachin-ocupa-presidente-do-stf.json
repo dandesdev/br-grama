@@ -1,0 +1,30 @@
+{
+  "id": "rel:edson-fachin-ocupa-presidente-do-stf",
+  "tipo": "relacao",
+  "nome": "Edson Fachin ocupa o cargo de Presidente do STF",
+  "relacao": "ocupa",
+  "de": "pessoa:edson-fachin",
+  "para": "cargo:presidente-do-stf",
+  "vigencia": {
+    "de": "2025-09-29",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-edson-fachin",
+      "dispositivo": "'Posse na Presidência do Supremo Tribunal Federal e do Conselho Nacional de Justiça: 29/9/2025'"
+    },
+    {
+      "ref": "fonte:stf-o-stf",
+      "dispositivo": null,
+      "nota": "Presidente: Min. Edson Fachin; Vice-Presidente: Min. Alexandre de Moraes"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "A mesma posse inclui a presidência do CNJ (CF, art. 103-B, § 1º). Não criamos essa relação porque não há cargo do CNJ na lista desta tarefa."
+}

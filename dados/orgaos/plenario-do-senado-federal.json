@@ -1,0 +1,33 @@
+{
+  "id": "org:plenario-do-senado-federal",
+  "tipo": "orgao",
+  "nome": "Plenário do Senado Federal",
+  "resumo": "Reunião de todos os senadores, que discute e vota os projetos que não são decididos de forma terminativa nas comissões.",
+  "detalhes": "Decide por maioria dos votos, presente a maioria absoluta dos senadores. Também julga os recursos de um décimo dos senadores contra decisões terminativas das comissões.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 47; art. 58, § 2º, I"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91, §§ 3º a 5º; art. 288"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

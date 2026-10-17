@@ -1,0 +1,33 @@
+{
+  "id": "org:stf",
+  "tipo": "orgao",
+  "nome": "Supremo Tribunal Federal",
+  "resumo": "Tribunal de cúpula do Judiciário, a quem cabe principalmente a guarda da Constituição. Tem 11 ministros.",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, I e §§ 1º e 2º; arts. 101 e 102"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 2º a 4º"
+    }
+  ],
+  "sigla": "STF",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "detalhes": "Tem sede na capital federal e jurisdição em todo o país. Seus órgãos são o Plenário, as duas Turmas (de cinco ministros cada) e o Presidente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

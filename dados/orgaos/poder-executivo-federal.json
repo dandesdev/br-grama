@@ -1,0 +1,26 @@
+{
+  "id": "org:poder-executivo-federal",
+  "tipo": "orgao",
+  "nome": "Poder Executivo federal",
+  "resumo": "Um dos três Poderes da União. É exercido pelo Presidente da República, auxiliado pelos Ministros de Estado.",
+  "tipo_orgao": "poder",
+  "poder": "executivo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 2º; art. 76"
+    }
+  ],
+  "ente": "ente:uniao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

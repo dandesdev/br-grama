@@ -1,0 +1,33 @@
+{
+  "id": "org:plenario-da-camara-dos-deputados",
+  "tipo": "orgao",
+  "nome": "Plenário da Câmara dos Deputados",
+  "resumo": "Reunião de todos os deputados federais, que discute e vota os projetos quando as comissões não decidem sozinhas.",
+  "detalhes": "Decide por maioria dos votos, presente a maioria absoluta dos deputados. Vota os projetos excluídos da apreciação conclusiva das comissões e os que chegam por recurso de um décimo dos deputados.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 47; art. 58, § 2º, I"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 132, IV; art. 183"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

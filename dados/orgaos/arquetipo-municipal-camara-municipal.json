@@ -1,0 +1,28 @@
+{
+  "tipo": "orgao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "org:arquetipo-municipal-camara-municipal",
+  "nome": "Câmara Municipal",
+  "resumo": "Poder Legislativo do município: faz as leis locais, vota a lei orgânica e fiscaliza o prefeito, com auxílio de um tribunal de contas.",
+  "tipo_orgao": "legislativo-parlamento",
+  "poder": "legislativo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "detalhes": "O número de vereadores depende da população, de 9 a 55. A Câmara julga as contas anuais do prefeito depois do parecer prévio do tribunal de contas, e só pode rejeitar esse parecer com dois terços dos votos.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, caput, IV e XI; art. 29-A; art. 31, caput e §§ 1º e 2º"
+    }
+  ],
+  "notas": "Unicameral. Há limites de despesa total do Legislativo municipal conforme a população (art. 29-A)."
+}

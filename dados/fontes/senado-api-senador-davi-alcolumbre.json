@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-senador-davi-alcolumbre",
+  "tipo": "fonte",
+  "nome": "Senado Federal, Dados Abertos: senador Davi Alcolumbre (código 3830)",
+  "resumo": "Dados do senador Davi Alcolumbre: mandatos, cargos e filiações partidárias, em serviços separados.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/senador/3830",
+  "acesso_em": "2026-10-16",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "notas": "Serviços usados: /senador/3830/mandatos, /senador/3830/cargos e /senador/3830/filiacoes. Cópias brutas em pesquisa/brutos/senado-dados-abertos/2026-10-16/senador-3830-*.json."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "rel:stf-integra-poder-judiciario",
+  "tipo": "relacao",
+  "nome": "STF no Poder Judiciário",
+  "relacao": "integra",
+  "de": "org:stf",
+  "para": "org:poder-judiciario",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cargo:deputado-federal",
+  "tipo": "cargo",
+  "nome": "Deputado Federal",
+  "resumo": "Representante do povo na Câmara dos Deputados. É eleito pelo sistema proporcional em cada estado e no DF para mandato de quatro anos.",
+  "orgao": "org:camara-dos-deputados",
+  "provimento": "eleicao-proporcional",
+  "quantidade": 513,
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º; arts. 44, 45, 53 a 56"
+    },
+    {
+      "ref": "norma:lc-78-1993",
+      "dispositivo": "arts. 1º a 3º"
+    }
+  ],
+  "detalhes": "Desde a diplomação, só pode ser julgado criminalmente pelo STF e só pode ser preso em flagrante de crime inafiançável. É inviolável, civil e penalmente, por suas opiniões, palavras e votos (art. 53).",
+  "quantidade_nota": "A LC 78/1993 fixa o teto de 513 (art. 1º). Cada estado e o DF têm no mínimo 8 e no máximo 70 deputados (CF, art. 45, § 1º); pela LC 78/1993, o estado mais populoso tem 70 (art. 3º). Cada Território, se existir, elege 4 (CF, art. 45, § 2º). A lei que elevaria o total para 531 foi vetada integralmente em julho de 2025, e o STF manteve para a eleição de 2026 a distribuição de 2022 (ADO 38).",
+  "mandato": {
+    "anos": 4,
+    "reconducao": "sem limite de reeleições no texto da CF",
+    "nota": "A CF fixa a duração da legislatura em quatro anos (art. 44, parágrafo único); o mandato do deputado corresponde a uma legislatura."
+  },
+  "requisitos": [
+    "brasileiro, nato ou naturalizado (CF, art. 14, § 3º, I)",
+    "idade mínima de 21 anos (CF, art. 14, § 3º, VI, c)",
+    "pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária (CF, art. 14, § 3º, II a V)"
+  ],
+  "fontes_por_campo": {
+    "quantidade": [
+      {
+        "ref": "norma:lc-78-1993",
+        "dispositivo": "art. 1º"
+      },
+      {
+        "ref": "fonte:stf-noticia-ado-38-deputados-2026",
+        "dispositivo": null
+      }
+    ]
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

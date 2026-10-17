@@ -1,0 +1,25 @@
+{
+  "id": "rel:poder-judiciario-integra-uniao",
+  "tipo": "relacao",
+  "nome": "Poder Judiciário como Poder da União",
+  "relacao": "integra",
+  "de": "org:poder-judiciario",
+  "para": "ente:uniao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 2º; art. 92"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O art. 2º fala em Poderes da União, mas o Judiciário inclui tribunais e juízes dos estados (art. 92, VII).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "org:mesa-do-congresso-nacional",
+  "tipo": "orgao",
+  "nome": "Mesa do Congresso Nacional",
+  "resumo": "Mesa diretora do Congresso Nacional. É presidida pelo Presidente do Senado Federal.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 5º"
+    }
+  ],
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "detalhes": "Os demais cargos da Mesa são ocupados, alternadamente, por quem ocupa os cargos equivalentes nas Mesas da Câmara e do Senado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

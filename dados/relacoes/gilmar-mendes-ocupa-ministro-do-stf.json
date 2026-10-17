@@ -1,0 +1,29 @@
+{
+  "id": "rel:gilmar-mendes-ocupa-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Gilmar Mendes ocupa o cargo de Ministro do STF",
+  "relacao": "ocupa",
+  "de": "pessoa:gilmar-mendes",
+  "para": "cargo:ministro-do-stf",
+  "vigencia": {
+    "de": "2002-06-20",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-gilmar-mendes",
+      "dispositivo": "'Posse no Supremo Tribunal Federal: 20/6/2002'"
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null,
+      "nota": "consta da composição em vigor em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

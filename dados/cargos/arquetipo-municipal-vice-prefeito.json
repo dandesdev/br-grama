@@ -1,0 +1,46 @@
+{
+  "tipo": "cargo",
+  "arquetipo": "municipal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "cargo:arquetipo-municipal-vice-prefeito",
+  "nome": "Vice-Prefeito",
+  "resumo": "Eleito na mesma chapa do prefeito, para quatro anos.",
+  "orgao": "org:arquetipo-municipal-prefeitura",
+  "provimento": "eleicao-conjunta",
+  "provimento_condicao": "Eleito junto com o candidato a prefeito registrado na mesma chapa.",
+  "mandato": {
+    "anos": 4,
+    "reconducao": "uma-reeleicao-consecutiva",
+    "nota": "A CF limita a reeleição de quem sucedeu ou substituiu o prefeito no curso do mandato (art. 14, § 5º); a regra própria do vice vem da jurisprudência eleitoral e não foi conferida aqui."
+  },
+  "quantidade": 1,
+  "requisitos": [
+    "nacionalidade brasileira",
+    "pleno exercício dos direitos políticos",
+    "alistamento eleitoral",
+    "domicílio eleitoral no município",
+    "filiação partidária",
+    "idade mínima de 21 anos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º, VI, c; art. 29, I a III"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 3º, § 1º"
+    }
+  ],
+  "notas": "Não criamos relações substitui/sucede no arquétipo porque a base é a lei orgânica de cada município, não a CF. Modelo federal: CF, art. 79.",
+  "detalhes": "A Constituição não diz, para os municípios, quando o vice substitui ou sucede o prefeito; isso fica na lei orgânica de cada município, que costuma seguir o modelo federal."
+}

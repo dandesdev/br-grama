@@ -1,0 +1,45 @@
+{
+  "tipo": "cargo",
+  "arquetipo": "municipal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "cargo:arquetipo-municipal-prefeito",
+  "nome": "Prefeito",
+  "resumo": "Chefe do Poder Executivo municipal, eleito para quatro anos; presta contas anualmente à Câmara Municipal.",
+  "detalhes": "Nos municípios com mais de 200 mil eleitores, vence quem tiver maioria absoluta dos votos válidos, com segundo turno se preciso. Nos demais, vence o mais votado, em turno único. Por crimes comuns, é julgado pelo Tribunal de Justiça do estado.",
+  "orgao": "org:arquetipo-municipal-prefeitura",
+  "provimento": "variavel",
+  "provimento_condicao": "Municípios com mais de 200 mil eleitores: eleicao-majoritaria-maioria-absoluta (regras do art. 77 da CF, com segundo turno). Municípios com até 200 mil eleitores: eleicao-majoritaria-maioria-simples, em turno único.",
+  "mandato": {
+    "anos": 4,
+    "reconducao": "uma-reeleicao-consecutiva",
+    "nota": "Posse em 1º de janeiro do ano seguinte à eleição."
+  },
+  "quantidade": 1,
+  "requisitos": [
+    "nacionalidade brasileira",
+    "pleno exercício dos direitos políticos",
+    "alistamento eleitoral",
+    "domicílio eleitoral no município",
+    "filiação partidária",
+    "idade mínima de 21 anos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, §§ 3º e 5º; art. 29, I, II, III e X; art. 31, § 2º"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 3º, caput e § 2º"
+    }
+  ]
+}

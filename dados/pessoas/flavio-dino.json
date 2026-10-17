@@ -1,0 +1,33 @@
+{
+  "id": "pessoa:flavio-dino",
+  "tipo": "pessoa",
+  "nome": "Flávio Dino",
+  "resumo": "Ministro do Supremo Tribunal Federal desde 2024.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-flavio-dino",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "STF: pasta do ministro Flávio Dino",
+      "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=FlavioDinoPrincipal"
+    }
+  ],
+  "notas": "Nome completo na pasta do STF: Flávio Dino de Castro e Costa. Ministros do STF não têm filiação partidária: a CF veda aos juízes dedicar-se à atividade político-partidária (art. 95, parágrafo único, III). Por isso não há 'filiacoes'."
+}

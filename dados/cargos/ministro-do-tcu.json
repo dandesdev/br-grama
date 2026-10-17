@@ -1,0 +1,42 @@
+{
+  "id": "cargo:ministro-do-tcu",
+  "tipo": "cargo",
+  "nome": "Ministro do Tribunal de Contas da União",
+  "resumo": "Integra o TCU, de nove ministros. Seis são escolhidos pelo Congresso e três pelo Presidente da República, com aprovação do Senado.",
+  "orgao": "org:tcu",
+  "provimento": "variavel",
+  "quantidade": 9,
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XIII; art. 52, III, b; art. 73; art. 84, XV"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, V"
+    }
+  ],
+  "detalhes": "Tem as mesmas garantias, prerrogativas, impedimentos e vencimentos dos ministros do Superior Tribunal de Justiça (art. 73, § 3º).",
+  "provimento_condicao": "Um terço (3) é escolhido pelo Presidente da República com aprovação do Senado; dois desses, alternadamente, saem de lista tríplice do TCU com auditores e membros do Ministério Público junto ao Tribunal. Dois terços (6) são escolhidos pelo Congresso Nacional. Todos são nomeados pelo Presidente (art. 73, § 2º; art. 84, XV).",
+  "mandato": {
+    "anos": null,
+    "nota": "Não há mandato. As garantias são as dos ministros do STJ (art. 73, § 3º), o que inclui a vitaliciedade (art. 95, I). Aposentadoria compulsória aos 75 anos (LC 152/2015, art. 2º, V)."
+  },
+  "requisitos": [
+    "brasileiro, nato ou naturalizado (CF, art. 73, § 1º)",
+    "mais de 35 e menos de 70 anos de idade (CF, art. 73, § 1º, I, redação da EC 122/2022)",
+    "idoneidade moral e reputação ilibada (CF, art. 73, § 1º, II)",
+    "notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública (CF, art. 73, § 1º, III)",
+    "mais de 10 anos de exercício de função ou atividade profissional que exija esses conhecimentos (CF, art. 73, § 1º, IV)"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

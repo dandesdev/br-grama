@@ -1,0 +1,32 @@
+{
+  "id": "rel:congresso-nacional-aprecia-veto-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Apreciação do veto pelo Congresso Nacional",
+  "relacao": "aprecia-veto",
+  "de": "org:congresso-nacional",
+  "para": "proc:lei-ordinaria",
+  "condicao": "Em sessão conjunta, em 30 dias; a derrubada exige maioria absoluta dos deputados e dos senadores, com votos contados separadamente.",
+  "depende_de": [
+    "rel:presidente-da-republica-veta-lei-ordinaria"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 3º, IV; art. 66, §§ 4º e 6º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 43; art. 104-A; art. 106"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

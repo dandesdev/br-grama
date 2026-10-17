@@ -1,0 +1,29 @@
+{
+  "id": "rel:senador-propoe-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei de senador",
+  "relacao": "propoe",
+  "de": "cargo:senador",
+  "para": "proc:lei-ordinaria",
+  "condicao": "O projeto começa no Senado, onde em regra é decidido de forma terminativa nas comissões.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

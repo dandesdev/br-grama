@@ -1,0 +1,29 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-municipal"
+  },
+  "id": "rel:eleitorado-municipal-elege-vereador",
+  "nome": "Eleição dos vereadores",
+  "relacao": "elege",
+  "de": "org:arquetipo-municipal-eleitorado",
+  "para": "cargo:arquetipo-municipal-vereador",
+  "condicao": "Eleição proporcional, a cada quatro anos, junto com a de prefeito.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, I"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 84"
+    }
+  ]
+}

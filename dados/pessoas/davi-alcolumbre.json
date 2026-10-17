@@ -1,0 +1,52 @@
+{
+  "id": "pessoa:davi-alcolumbre",
+  "tipo": "pessoa",
+  "nome": "Davi Alcolumbre",
+  "resumo": "Senador pelo Amapá desde 2015 e Presidente do Senado Federal desde fevereiro de 2025. Filiado ao União Brasil.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senador-davi-alcolumbre",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:senado-api-mesa-senado",
+      "dispositivo": null
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-uniao",
+      "vigencia": {
+        "de": "2022-04-12",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senador-davi-alcolumbre",
+          "dispositivo": "serviço /filiacoes: UNIÃO, DataFiliacao 2022-04-12, sem data de desfiliação"
+        },
+        {
+          "ref": "fonte:senado-api-mesa-senado",
+          "dispositivo": "Presidente: 'Senador Davi Alcolumbre', bancada (UNIÃO-AP)"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Senado Federal: página do senador Davi Alcolumbre",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3830"
+    }
+  ],
+  "notas": "Nome completo no Senado: David Samuel Alcolumbre Tobelem. Não é candidato em 2026 (mandato vai até 2031), então a filiação vem do Senado, não do TSE. O Senado registra a saída do DEM em 2022-04-11 e a entrada no União em 2022-04-12, embora o TSE tenha deferido a fusão DEM+PSL em 2022-02-08."
+}

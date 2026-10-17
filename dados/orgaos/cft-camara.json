@@ -1,0 +1,30 @@
+{
+  "id": "org:cft-camara",
+  "tipo": "orgao",
+  "nome": "Comissão de Finanças e Tributação",
+  "sigla": "CFT",
+  "resumo": "Comissão da Câmara que verifica se o projeto cabe no orçamento e nas leis orçamentárias; seu parecer contrário pode encerrar o projeto.",
+  "detalhes": "Examina projetos com impacto financeiro ou orçamentário. O parecer sobre adequação financeira e orçamentária é terminativo, salvo recurso ao Plenário. Também opina sobre o mérito de temas financeiros e tributários.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-da-camara-dos-deputados",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 32, X; art. 53, II; art. 54, II; art. 139, II, b"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-processo-lei"
+  }
+}

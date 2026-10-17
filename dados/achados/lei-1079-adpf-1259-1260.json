@@ -1,0 +1,34 @@
+{
+  "id": "achado:lei-1079-adpf-1259-1260",
+  "tipo": "achado",
+  "nome": "Processo de impeachment de ministros do STF sob liminar nas ADPFs 1259 e 1260",
+  "resumo": "Partes da Lei 1.079/1950 sobre o processo contra ministros do STF estão suspensas por liminar de dezembro de 2025; o estado em 2026-10-01 não foi conferido.",
+  "detalhes": "Em 3/12/2025 o relator suspendeu dispositivos sobre quórum para abrir o processo, legitimidade para denunciar e afastamento de ministros do STF. A liminar seria levada a referendo do Plenário. Não verificamos decisões posteriores nem eventual nova lei.",
+  "tipo_achado": "ambiguidade-normativa",
+  "gravidade": "media",
+  "afeta": [
+    "rel:senado-julga-ministro-do-stf",
+    "norma:lei-1079-1950"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:stf-noticia-adpf-1259-1260",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 39, 41, 47, 54, 57 e 70 (anotados com 'Vide ADPF 1259/1260' no texto do Planalto)"
+    }
+  ],
+  "vigencia": {
+    "de": "2025-12-03",
+    "ate": null
+  },
+  "notas": "Onde procuramos: texto compilado da Lei 1.079/1950 no Planalto (2026-10-16) e notícia do STF de 3/12/2025 (via Wayback). Resultados de busca citam ajuste parcial da liminar em 10/12/2025 quanto à exclusividade do PGR para denunciar, em fontes não oficiais; não confirmado. A página do processo no portal do STF não foi aberta (acesso automatizado bloqueado).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}

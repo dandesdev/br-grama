@@ -1,0 +1,29 @@
+{
+  "id": "rel:cristiano-zanin-ocupa-ministro-do-stf",
+  "tipo": "relacao",
+  "nome": "Cristiano Zanin ocupa o cargo de Ministro do STF",
+  "relacao": "ocupa",
+  "de": "pessoa:cristiano-zanin",
+  "para": "cargo:ministro-do-stf",
+  "vigencia": {
+    "de": "2023-08-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-pasta-ministro-cristiano-zanin",
+      "dispositivo": "'Posse no Supremo Tribunal Federal: 3/8/2023'"
+    },
+    {
+      "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
+      "dispositivo": null,
+      "nota": "consta da composição em vigor em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-pessoas"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-da-camara-substitui-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Presidente da Câmara na linha de substituição",
+  "relacao": "substitui",
+  "de": "cargo:presidente-da-camara-dos-deputados",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Primeiro chamado se houver impedimento do Presidente e do Vice, ou vacância dos dois cargos. Exerce a Presidência temporariamente: se os dois cargos vagarem, há nova eleição (art. 81).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 80 e 81"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Não é sucessão: a CF chama ao 'exercício' da Presidência. A definição de 'substitui' no vocabulário cita impedimento e ausência, não a vacância dupla; a relação cobre as duas hipóteses do art. 80.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-16",
+    "tarefa": "piloto-estrutura"
+  }
+}
