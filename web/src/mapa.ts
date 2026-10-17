@@ -1,7 +1,7 @@
 // Desenho do mapa com Cytoscape. As posições vêm prontas do build (D29); aqui só aplicamos
 // estilo, camadas e destaques.
 import cytoscape, { type Core, type ElementDefinition, type StylesheetJson } from "cytoscape";
-import { Dados, GRUPOS_RELACAO, type Etapa, type Entidade } from "./dados.ts";
+import { Dados, type Etapa, type Entidade } from "./dados.ts";
 
 const NOMES_REGIAO: Record<string, string> = {
   povo: "Povo",
@@ -51,7 +51,7 @@ function rotulo(dados: Dados, e: Entidade): string {
   const q = e.quantidade as number | null;
   const nomeCargo = q && q > 1 ? `${nome} × ${q}` : nome;
   const ocup = dados.ocupantes(e.id);
-  if (ocup.length === 1) {
+  if (q === 1 && ocup.length === 1) {
     const { pessoa, partido } = ocup[0];
     return `${nomeCargo}\n${pessoa.nome}${partido?.sigla ? ` (${partido.sigla})` : ""}`;
   }
@@ -156,15 +156,14 @@ function estilo(): StylesheetJson {
         "text-valign": "center",
         "text-halign": "center",
         "min-zoomed-font-size": 7,
-        width: "data(w)",
-        height: "data(h)",
         shape: "round-rectangle",
         "background-color": superficie,
         "border-width": 2,
-        "border-color": "data(cor)",
-        "border-style": "data(borda)" as never,
       },
     },
+    { selector: "node[w]", style: { width: "data(w)", height: "data(h)" } },
+    { selector: "node[cor]", style: { "border-color": "data(cor)" } },
+    { selector: "node[borda]", style: { "border-style": "data(borda)" as never } },
     { selector: "node.cargo", style: { "corner-radius": "999" } },
     {
       selector: "node.contem",
@@ -173,14 +172,15 @@ function estilo(): StylesheetJson {
         "text-halign": "center",
         "text-margin-y": -4,
         "font-weight": 600,
-        "background-color": "data(cor)",
         "background-opacity": 0.06,
         "border-width": 1.5,
         padding: "16px",
         "text-max-width": "400px",
       },
     },
-    { selector: "node.poder", style: { "font-size": 15, "background-opacity": 0.03, "border-width": 1 } },
+    { selector: "node.contem[cor]", style: { "background-color": "data(cor)" } },
+    // Rótulos grandes para os Poderes e regiões: continuam legíveis na visão geral (zoom semântico).
+    { selector: "node.poder", style: { "font-size": 36, "text-margin-y": -8, "background-opacity": 0.03, "border-width": 1, "text-max-width": "1200px" } },
     { selector: "node.judiciario-tribunal, node.tribunal-de-contas", style: { shape: "cut-rectangle" } },
     { selector: "node.corpo-eleitoral", style: { shape: "barrel" } },
     {
@@ -191,8 +191,9 @@ function estilo(): StylesheetJson {
         height: 1,
         "background-opacity": 0,
         "border-width": 0,
-        "font-size": 15,
+        "font-size": 36,
         "font-weight": 600,
+        "text-max-width": "1600px",
         color: tinta2,
         events: "no",
       },
@@ -221,7 +222,11 @@ function estilo(): StylesheetJson {
 
     // Seleção e vizinhança
     { selector: ".apagado", style: { opacity: 0.15 } },
+    // Relações ficam ocultas até que um nó seja selecionado ou que "Todas" seja ligada.
+    { selector: "edge.rel", style: { display: "none" } },
+    { selector: "edge.rel.todas, edge.rel.vizinho", style: { display: "element" } },
     { selector: "edge.vizinho", style: { opacity: 1, width: 2, "line-color": tinta, "target-arrow-color": tinta, label: "data(verbo)" } },
+    { selector: "edge.rel.grupo-oculto", style: { display: "none" } },
     { selector: "node:selected", style: { "border-width": 4, "border-color": destaque } },
     { selector: "node.contem:selected", style: { "border-width": 3 } },
 
@@ -249,7 +254,6 @@ function estilo(): StylesheetJson {
 
 export class Mapa {
   readonly cy: Core;
-  private gruposVisiveis = new Set(Object.keys(GRUPOS_RELACAO));
   private processoAtivo = false;
 
   constructor(container: HTMLElement, private dados: Dados) {
@@ -260,7 +264,6 @@ export class Mapa {
       layout: { name: "preset" },
       minZoom: 0.08,
       maxZoom: 3,
-      wheelSensitivity: 0.3,
       autoungrabify: true,
       boxSelectionEnabled: false,
     });
@@ -276,9 +279,11 @@ export class Mapa {
   }
 
   mostrarGrupo(grupo: string, visivel: boolean) {
-    if (visivel) this.gruposVisiveis.add(grupo);
-    else this.gruposVisiveis.delete(grupo);
-    this.cy.edges(`.grupo-${grupo}`).style("display", visivel ? "element" : "none");
+    this.cy.edges(`.grupo-${grupo}`).toggleClass("grupo-oculto", !visivel);
+  }
+
+  mostrarTodasRelacoes(visivel: boolean) {
+    this.cy.edges(".rel").toggleClass("todas", visivel);
   }
 
   /** Destaca um nó e suas relações. */
@@ -292,8 +297,9 @@ export class Mapa {
     no.select();
     if (centralizar) cy.animate({ center: { eles: no }, zoom: Math.max(cy.zoom(), 0.9) }, { duration: 300 });
     if (this.processoAtivo) return; // o processo já controla o que fica apagado
-    const arestas = no.connectedEdges(".rel, .variacao").filter((a) => a.style("display") !== "none");
-    const vizinhos = arestas.connectedNodes().union(no).union(no.ancestors()).union(arestas.connectedNodes().ancestors());
+    // Num contêiner (ex.: Senado), mostra também as relações de tudo o que está dentro dele.
+    const arestas = no.union(no.descendants()).connectedEdges(".rel, .variacao").not(".grupo-oculto");
+    const vizinhos = arestas.connectedNodes().union(no).union(no.descendants()).union(no.ancestors()).union(arestas.connectedNodes().ancestors());
     cy.elements().not(vizinhos).not(arestas).not(".regiao").not(".metro").addClass("apagado");
     arestas.addClass("vizinho");
   }

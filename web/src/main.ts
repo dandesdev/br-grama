@@ -50,6 +50,10 @@ filtros.addEventListener("change", (ev) => {
   mapa.mostrarGrupo(input.dataset.grupo!, input.checked);
 });
 
+$<HTMLInputElement>("todas-relacoes").addEventListener("change", (ev) => {
+  mapa.mostrarTodasRelacoes((ev.target as HTMLInputElement).checked);
+});
+
 // Processos ("linhas de metrô")
 let processoAtual: Entidade | null = null;
 const seletor = $<HTMLSelectElement>("processo");

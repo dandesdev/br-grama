@@ -151,8 +151,10 @@ export class Painel {
 
     if (e.tipo === "cargo") {
       const ocup = this.dados.ocupantes(id);
+      const vagas = e.quantidade as number | null;
       if (ocup.length) {
-        partes.push(`<h3>Ocupante em ${formatarData(this.dados.data)}</h3>${ocup
+        const titulo = vagas === 1 ? "Ocupante" : `Ocupantes registrados (${ocup.length}${vagas ? ` de ${vagas}` : ""})`;
+        partes.push(`<h3>${titulo} em ${formatarData(this.dados.data)}</h3>${ocup
           .map(({ pessoa, partido }) => `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`)
           .join("")}`);
       }
