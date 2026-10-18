@@ -1,46 +1,45 @@
-# Instruções comuns para agentes de pesquisa
+# Instruções comuns para agentes de coleta
 
-Você é um agente de pesquisa do br-grama (raiz: `C:\Users\DELL\apps\brgram`). Hoje é 2026-10-16. A data de referência do retrato é **2026-10-01**.
+Você é um agente de **coleta** do br-grama (raiz: `C:\Users\DELL\apps\brgram`). A data de referência do retrato é **2026-10-01**. Depois de você, outro agente vai conferir tudo contra as fontes (revisão); escreva pensando nisso: cada afirmação precisa de um dispositivo que a sustente.
 
 ## Antes de começar
 
-1. Leia `CLAUDE.md`, `docs/modelo-de-dados.md`, `docs/protocolo-pesquisa.md`, `esquema/entidades.schema.json`, `esquema/comum.schema.json` e os vocabulários em `esquema/vocabularios/`.
-2. Abra o arquivo da sua tarefa em `pesquisa/fila/<tarefa>.md`. Mude `status` para `em-andamento`, preencha `iniciada_em` e acrescente uma linha ao diário.
-3. Para pesquisar na web, carregue as ferramentas com ToolSearch (`select:WebFetch,WebSearch`).
+1. Leia `CLAUDE.md`, `docs/decisoes.md`, `docs/modelo-de-dados.md` (esquema v1) e `docs/protocolo-pesquisa.md`, além dos vocabulários em `esquema/vocabularios/`.
+2. Veja exemplos reais de cada tipo em `dados/`. O piloto já foi revisado e serve de modelo, por exemplo:
+   - `dados/cargos/ministro-do-stf.json`
+   - `dados/relacoes/congresso-julga-contas-presidente.json`
+   - `dados/processos/lei-ordinaria.json`
+3. Abra sua tarefa em `pesquisa/fila/<tarefa>.md`. Mude `status` para `em-andamento`, preencha `iniciada_em` e escreva a primeira linha do diário.
+4. Para a web, carregue as ferramentas com ToolSearch (`select:WebFetch,WebSearch`).
+
+## Regra mais importante: gravar sempre
+
+**Grave cada entidade em `dados/` assim que ela ficar pronta** e acrescente uma linha ao diário (`- AAAA-MM-DD HH:MM — gravado org:...`) antes de pesquisar a próxima. A cota pode acabar a qualquer momento, e o que não estiver em disco se perde. A primeira entidade deve ser gravada nos primeiros minutos.
 
 ## Como trabalhar
 
-- Grave cada entidade em `dados/<pasta>/<slug>.json` **assim que ela ficar pronta**, e acrescente uma linha ao diário da tarefa (`- AAAA-MM-DD HH:MM — gravado org:...`). Nunca apague linhas do diário.
-- Rode `npm run -s validar` na raiz com frequência. Corrija os erros dos **seus** arquivos. Erros de "referência inexistente" para ids de outras tarefas são esperados enquanto elas trabalham em paralelo; ignore-os.
-- `verificacao`: `{ "status": "coletado", "em": "2026-10-16", "tarefa": "<id da tarefa>" }`.
-- **Nunca invente** fonte, dispositivo, URL, nome, data ou número. Se não achar, use `confianca: "indisponivel"` e crie um `aviso:` citando onde você procurou.
-- Fontes primárias primeiro (Constituição e leis no planalto.gov.br, regimentos nos sites das casas e tribunais, páginas oficiais). Wikipedia só como pista; cite a fonte primária que ela aponta. Se usar fonte secundária, marque `confianca: "secundario"` no campo ou na entidade.
-- O texto compilado do Planalto mostra a redação atual; confirme que nada mudou entre 2026-10-01 e hoje para os dispositivos que você citar.
-- Para o campo `arquivo` (Wayback Machine) de normas e fontes: consulte `https://archive.org/wayback/available?url=<url>` e use o snapshot se houver; se não houver, `null`.
-- Antes de criar um `fonte:`, verifique se o arquivo já existe em `dados/fontes/`; se existir, reutilize.
-- `dispositivo` deve ser preciso: "art. 84, XIV", "art. 66, § 4º", "RICD, art. 24, II".
-- Textos em português, com suas palavras, para o público geral: `resumo` com uma frase (até 200 caracteres); `detalhes` com 1 a 3 frases. Não copie textos de terceiros.
-- Convenção de ids: slugs em minúsculas sem acento, separados por hífen. Relações: `rel:<slug-de>-<relacao>-<slug-para>` (abrevie se ficar longo demais, mantendo legível). Normas: `norma:<tipo-curto>-<numero>-<ano>` (ex.: `norma:lc-95-1998`, `norma:ec-16-1997`).
-- Se um termo que você precisa não existir nos vocabulários, **não edite os vocabulários**: use o termo mais próximo, anote no diário e inclua a proposta no relatório final.
-- Não faça commit. Não edite arquivos que pertencem a outras tarefas (veja a tabela abaixo).
-
-## Quem cria o quê (para evitar colisões)
-
-| Tarefa | Cria |
-|---|---|
-| piloto-estrutura | `ente:uniao`; `norma:ristf` e emendas constitucionais que citar; `org:eleitorado-nacional`, `org:poder-executivo-federal`, `org:poder-legislativo-federal`, `org:poder-judiciario`, `org:presidencia-da-republica`, `org:vice-presidencia-da-republica`, `org:congresso-nacional`, `org:camara-dos-deputados`, `org:senado-federal`, `org:mesa-do-congresso-nacional`, `org:mesa-da-camara-dos-deputados`, `org:mesa-do-senado-federal`, `org:stf`, `org:tcu`; os cargos da sua lista; relações entre essas entidades, **exceto** as do grupo "normas" |
-| piloto-processo-lei | `proc:lei-ordinaria`; `norma:ricd`, `norma:risf`, `norma:rccn`, `norma:lindb`, `norma:lc-95-1998`; comissões, plenários, tribunais superiores, PGR, Imprensa Nacional e o que mais o processo exigir; relações do grupo "normas" (propoe, delibera, sanciona, veta, aprecia-veto, promulga, publica) |
-| piloto-pessoas | `pessoa:*`, `org:partido-*`, relações `ocupa` |
-| piloto-municipal | entes estaduais e municipais, órgãos e cargos `arquetipo-*`, tribunais de contas municipais e dos municípios, variações e normas estaduais/municipais |
-
-Todas podem criar `fonte:*` e `aviso:*`. `norma:cf-1988` já existe.
+- Rode `npm run -s validar` na raiz com frequência e corrija os erros dos **seus** arquivos. Referências a ids que outra tarefa em paralelo vai criar são esperadas; a tabela "Ids de outras tarefas" de cada tarefa diz quais.
+- `verificacao`: `{ "status": "coletado", "em": "<data de hoje>", "tarefa": "<id da tarefa>" }`.
+- **Nunca invente** fonte, dispositivo, URL, nome, data ou número. Se não encontrar, use `confianca: "indisponivel"` e crie um `aviso:` dizendo onde procurou (`onde_procuramos`).
+- Avisos (D37) servem só para lacunas, contradições entre fontes oficiais, sigilo e fontes desatualizadas. Um fato com fonte não é aviso (D36).
+- **Fontes:** primárias primeiro (Constituição e leis no planalto.gov.br, regimentos e páginas oficiais). Wikipedia serve só como pista. Fonte não oficial leva `confianca: "secundario"` na entidade ou no campo (`campos`).
+- **Data:** o texto compilado do Planalto mostra a redação atual; confirme que nada mudou entre 2026-10-01 e hoje nos dispositivos que você citar. Existem as EC 140 e 141, de 16/10/2026, posteriores à data de referência.
+- **Wayback:** preencha `arquivo` de normas e fontes com `https://archive.org/wayback/available?url=<url>`; se não houver cópia, `null`.
+- **Antes de criar** qualquer `fonte:` ou `norma:`, veja se o arquivo já existe; se existir, reutilize.
+- **Dispositivo preciso:** "art. 84, XIV", "art. 66, § 4º", "RICD, art. 24, II".
+- **Textos:** em português, escritos por você, para o público geral. `resumo` com uma frase de até 200 caracteres; `detalhes` com 1 a 3 frases.
+- **Ids:** slugs sem acento, separados por hífen. Relações: `rel:<de>-<relacao>-<para>`, abreviando com legibilidade. Normas: `norma:<tipo>-<numero>-<ano>` (ex.: `norma:lc-95-1998`).
+- **Organograma:** use `contido_em` com a fonte em `campos.contido_em`. Não crie relação `integra` que repita o `contido_em` (D34).
+- **Objetos de competência** (`obj:`) são o alvo de relações sobre atos, normas e contas (D32). Ex.: "Presidente sanciona `obj:lei-ordinaria`".
+- **Vocabulário:** se faltar um termo, **não edite** os vocabulários; use o mais próximo, anote no diário e proponha no relatório final.
+- Não faça commit. Não edite arquivos de outras tarefas; se achar erro neles, anote no diário.
 
 ## Ao terminar
 
-1. Rode a validação e garanta que seus arquivos não têm erros (exceto referências a ids que outra tarefa vai criar).
-2. Mude o status da tarefa para `coletada`, preencha `concluida_em` e marque os entregáveis concluídos.
+1. Rode a validação: seus arquivos não podem ter erro.
+2. Mude o status da tarefa para `coletada`, preencha `concluida_em` e marque os entregáveis.
 3. Relatório final (sua resposta), curto:
    - arquivos criados;
    - pontos incertos e avisos abertos;
    - termos de vocabulário que faltaram;
-   - **problemas do modelo de dados** que você encontrou: campos que faltaram, que sobraram ou que ficaram ambíguos. O piloto existe para descobrir isso, então seja específico.
+   - problemas do modelo de dados.
