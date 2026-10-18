@@ -1,7 +1,7 @@
 ---
 id: piloto-pessoas
 escopo: "Piloto: ocupantes dos cargos de cúpula na data de referência (2026-10-01) e seus partidos"
-status: coletada
+status: verificada
 depende_de: []
 iniciada_em: 2026-10-16
 concluida_em: 2026-10-16

@@ -1,7 +1,7 @@
 ---
 id: piloto-municipal
 escopo: "Piloto: arquétipo municipal mínimo de controle externo e a variação do TCM de São Paulo"
-status: coletada
+status: verificada
 depende_de: []
 iniciada_em: 2026-10-16
 concluida_em: 2026-10-17

@@ -1,7 +1,7 @@
 ---
 id: piloto-estrutura
 escopo: "Piloto: estrutura constitucional da cúpula federal (Presidência, Congresso, STF, TCU) e suas relações"
-status: coletada
+status: verificada
 depende_de: []
 iniciada_em: 2026-10-16
 concluida_em: 2026-10-16

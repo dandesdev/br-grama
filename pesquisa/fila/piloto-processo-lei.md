@@ -1,7 +1,7 @@
 ---
 id: piloto-processo-lei
 escopo: "Piloto: processo legislativo da lei ordinária federal, da iniciativa à vigência"
-status: coletada
+status: verificada
 depende_de: []
 iniciada_em: 2026-10-16
 concluida_em: 2026-10-16
