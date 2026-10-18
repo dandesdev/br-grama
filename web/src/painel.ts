@@ -124,7 +124,9 @@ export class Painel {
     const linha = (r: Entidade, outro: string, saindo: boolean) => {
       const verbo = this.termo("relacao", r.relacao as string);
       const ordem = r.ordem ? `<span class="ordem">${r.ordem}º</span> ` : "";
-      const extra = [r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
+      const comp = r.competencia as { tipo: string; natureza: string } | undefined;
+      const competencia = comp ? `${esc(this.dados.nomeDe("tipo_competencia", comp.tipo))}, para ${esc(this.dados.nomeDe("natureza_competencia", comp.natureza).toLowerCase())}` : "";
+      const extra = [competencia, r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
       return `<li>${ordem}${saindo ? `${verbo} ${this.link(outro)}` : `${this.link(outro)} ${verbo}`}${extra ? `<br><span class="dispositivo">${extra}</span>` : ""}</li>`;
     };
     const saindo = this.dados.relacoesSaindo(id).filter((r) => r.relacao !== "ocupa");

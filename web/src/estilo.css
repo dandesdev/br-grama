@@ -142,7 +142,7 @@ body {
 [hidden] { display: none !important; }
 main { flex: 1; display: flex; min-height: 0; }
 .palco { flex: 1; min-width: 0; display: flex; flex-direction: column; }
-#mapa, #fluxo { flex: 1; min-height: 0; background: var(--superficie); }
+#mapa, #fluxo, #matriz { flex: 1; min-height: 0; background: var(--superficie); }
 .abas { display: flex; gap: 2px; padding: 6px 12px 0; background: var(--plano); border-bottom: 1px solid var(--linha); }
 .abas button {
   padding: 6px 14px;
@@ -262,3 +262,18 @@ main { flex: 1; display: flex; min-height: 0; }
 .barra-bancada { display: block; height: 10px; border-radius: 0 4px 4px 0; background: var(--neutro); min-width: 2px; }
 .lista-ocupantes summary { cursor: pointer; margin: 6px 0; font-size: 13px; }
 .lista-ocupantes .ocupante { padding: 3px 8px; margin: 2px 0; }
+
+#matriz { overflow: auto; padding: 16px 20px 40px; }
+.matriz-topo h2 { margin: 0 0 4px; font-size: 18px; }
+.matriz-topo .intro { max-width: 70ch; color: var(--tinta-2); }
+.matriz-filtros { display: flex; gap: 8px; margin: 10px 0 14px; }
+.matriz-filtros input, .matriz-filtros select { padding: 5px 8px; border: 1px solid var(--borda); border-radius: 6px; background: var(--plano); color: var(--tinta); font: inherit; }
+.matriz { border-collapse: collapse; width: 100%; font-size: 13px; }
+.matriz thead th { position: sticky; top: 0; background: var(--superficie); text-align: left; padding: 6px 8px; border-bottom: 2px solid var(--linha); }
+.matriz tbody th { text-align: left; font-weight: 500; padding: 6px 8px; width: 34%; }
+.matriz td { padding: 4px 8px; vertical-align: top; }
+.matriz tbody tr { border-bottom: 1px solid var(--linha); cursor: pointer; }
+.matriz tbody tr:hover { background: var(--plano); }
+.competencia { display: inline-block; margin: 2px 4px 2px 0; padding: 1px 8px; border-radius: 999px; border: 1.5px solid var(--tinta-3); white-space: nowrap; }
+.competencia.legislativa { border-style: solid; }
+.competencia.material { border-style: dashed; }
