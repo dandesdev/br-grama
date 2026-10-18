@@ -21,7 +21,7 @@ Você é um agente **verificador** do br-grama (raiz: `C:\Users\DELL\apps\brgram
 
 - **Se estiver certo:** `verificacao: { "status": "verificado", "em": "2026-10-17", "tarefa": "<sua tarefa>", "notas": "coletado em <tarefa original>" }`.
 - **Se estiver errado:** corrija o arquivo, marque como verificado e anote no diário: o que estava, o que ficou e a fonte.
-- **Se não der para confirmar:** mantenha `"coletado"`, explique em `verificacao.notas` e no diário. Se for lacuna ou contradição das fontes oficiais, abra um `achado:`.
+- **Se não der para confirmar:** mantenha `"coletado"`, explique em `verificacao.notas` e no diário. Se for lacuna ou contradição das fontes oficiais, abra um `aviso:`.
 - Grave **cada entidade logo depois de conferi-la**, com uma linha no diário. Não acumule.
 - Rode `npm run -s validar` na raiz com frequência. Seus arquivos não podem ter erro.
 - Não edite vocabulários nem esquemas. Não edite entidades fora do seu escopo; se achar erro numa delas, anote no diário. Não faça commit.
@@ -33,4 +33,4 @@ Você é um agente **verificador** do br-grama (raiz: `C:\Users\DELL\apps\brgram
    - quantas entidades foram conferidas, quantas corrigidas e quantas ficaram pendentes;
    - a lista de **correções**: entidade, erro e correção;
    - os pontos em aberto que você resolveu e os que continuam abertos;
-   - achados novos.
+   - avisos novos.

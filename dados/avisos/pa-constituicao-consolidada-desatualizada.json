@@ -1,10 +1,10 @@
 {
-  "id": "achado:pa-constituicao-consolidada-desatualizada",
-  "tipo": "achado",
+  "id": "aviso:pa-constituicao-consolidada-desatualizada",
+  "tipo": "aviso",
   "nome": "Texto consolidado da Constituição do Pará desatualizado",
   "resumo": "O PDF da Constituição do Pará publicado pela Alepa só incorpora emendas até 2018, mas houve emendas depois (ex.: EC 88/2023).",
   "detalhes": "Não achamos versão oficial atualizada. Os dispositivos usados aqui (arts. 71, 118 e 123, sobre o TCM) não aparecem nas emendas posteriores que vimos, mas não pudemos conferir todas.",
-  "tipo_achado": "desatualizacao",
+  "tipo_aviso": "desatualizacao",
   "afeta": [
     "norma:pa-constituicao-1989",
     "org:tcm-para"

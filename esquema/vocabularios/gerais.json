@@ -52,13 +52,13 @@
 
   "confianca": {
     "oficial": { "nome": "Fonte oficial", "definicao": "Confirmado por norma ou dado oficial vigente na data de referência." },
-    "oficial-contraditorio": { "nome": "Fontes oficiais divergem", "definicao": "Fontes oficiais dizem coisas diferentes; ver o achado relacionado." },
+    "oficial-contraditorio": { "nome": "Fontes oficiais divergem", "definicao": "Fontes oficiais dizem coisas diferentes; ver o aviso relacionado." },
     "secundario": { "nome": "Fonte não oficial", "definicao": "Baseado em fonte não oficial (doutrina, enciclopédia, imprensa)." },
     "inferido": { "nome": "Inferido", "definicao": "Dedução nossa a partir das fontes, explicada nos detalhes." },
     "indisponivel": { "nome": "Sem fonte disponível", "definicao": "Não há fonte acessível: sigilo, falta de transparência ou lacuna." }
   },
 
-  "tipo_achado": {
+  "tipo_aviso": {
     "lacuna": { "nome": "Lacuna", "definicao": "Informação que deveria ser pública e não foi encontrada." },
     "contradicao": { "nome": "Contradição", "definicao": "Fontes oficiais dizem coisas diferentes." },
     "sigilo": { "nome": "Sigilo", "definicao": "Informação protegida por sigilo legal." },

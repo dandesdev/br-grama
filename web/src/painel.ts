@@ -1,4 +1,4 @@
-// Painel lateral: legenda, ficha da entidade selecionada, processo e etapas, lista de achados.
+// Painel lateral: legenda, ficha da entidade selecionada, processo e etapas, lista de avisos.
 // Os textos longos ficam atrás do botão "i" (D25).
 import { Dados, GRUPOS_RELACAO, NOMES_TIPO, formatarData, type Entidade, type Etapa, type FonteRef, type Prazo, type Quorum, type Regime } from "./dados.ts";
 import { TRACO_GRUPO } from "./mapa.ts";
@@ -222,7 +222,7 @@ export class Painel {
     if (!e) return;
     const partes: string[] = [this.etiquetas(e), `<h2>${esc(e.nome)}${e.sigla ? ` <span class="sub">(${esc(e.sigla)})</span>` : ""}</h2>`];
     if (e.resumo) partes.push(`<p class="resumo">${esc(e.resumo)}</p>`);
-    for (const a of this.dados.achadosDe(id)) {
+    for (const a of this.dados.avisosDe(id)) {
       partes.push(`<div class="aviso"><span class="icone" aria-hidden="true">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></div>`);
     }
 
@@ -238,8 +238,8 @@ export class Painel {
       if (e.condicao) partes.push(`<p>${esc(e.condicao)}</p>`);
       if (e.quorum) partes.push(`<p>${this.quorum(e.quorum as Quorum)}</p>`);
     }
-    if (e.tipo === "achado") {
-      partes.push(`<dl class="ficha"><dt>Tipo</dt><dd>${this.termo("tipo_achado", e.tipo_achado as string)}</dd>${e.gravidade ? `<dt>Gravidade</dt><dd>${esc(e.gravidade)}</dd>` : ""}</dl>`);
+    if (e.tipo === "aviso") {
+      partes.push(`<dl class="ficha"><dt>Tipo</dt><dd>${this.termo("tipo_aviso", e.tipo_aviso as string)}</dd>${e.gravidade ? `<dt>Gravidade</dt><dd>${esc(e.gravidade)}</dd>` : ""}</dl>`);
       partes.push(`<h3>Afeta</h3><ul>${(e.afeta as string[]).map((a) => `<li>${this.link(a)}</li>`).join("")}</ul>`);
       const onde = (e.onde_procuramos as string[] | undefined) ?? [];
       if (onde.length) partes.push(`<h3>Onde procuramos</h3><ul>${onde.map((o) => `<li>${esc(o)}</li>`).join("")}</ul>`);
@@ -302,14 +302,14 @@ export class Painel {
     this.el.scrollTop = 0;
   }
 
-  mostrarAchados() {
-    const achados = this.dados.todas("achado");
+  mostrarAvisos() {
+    const avisos = this.dados.todas("aviso");
     this.el.innerHTML = `
-      <h2>Achados de auditoria</h2>
-      <p class="intro">Lacunas, contradições entre fontes oficiais, sigilo e baixa transparência encontrados durante a pesquisa.</p>
-      <ul>${achados
+      <h2>Avisos sobre as fontes</h2>
+      <p class="intro">Onde as fontes oficiais falham: informação que não encontramos, fontes que se contradizem, sigilo e textos desatualizados.</p>
+      <ul>${avisos
         .map((a) => `<li class="aviso"><span class="icone" aria-hidden="true">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></li>`)
-        .join("") || "<li>Nenhum achado registrado.</li>"}</ul>`;
+        .join("") || "<li>Nenhum aviso registrado.</li>"}</ul>`;
   }
 
   mostrarLegenda() {
@@ -336,6 +336,6 @@ export class Painel {
       <div class="legenda-item"><span class="amostra" style="border-color:var(--tinta-2);border-style:dashed"></span>Fonte não oficial ou inferido</div>
       <div class="legenda-item"><span class="amostra" style="border-color:var(--tinta-2);border-style:double;border-width:4px"></span>Fontes oficiais divergem</div>
       <div class="legenda-item"><span class="amostra" style="border-color:var(--tinta-2);border-style:dotted"></span>Sem fonte disponível</div>
-      <div class="legenda-item"><span class="amostra" style="border-color:var(--alerta)"></span>⚠ Achado de auditoria (camada "Achados")</div>`;
+      <div class="legenda-item"><span class="amostra" style="border-color:var(--alerta)"></span>⚠ Aviso: lacuna ou divergência nas fontes (camada "Avisos")</div>`;
   }
 }

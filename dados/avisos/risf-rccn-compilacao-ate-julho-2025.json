@@ -1,10 +1,10 @@
 {
-  "id": "achado:risf-rccn-compilacao-ate-julho-2025",
-  "tipo": "achado",
+  "id": "aviso:risf-rccn-compilacao-ate-julho-2025",
+  "tipo": "aviso",
   "nome": "Textos oficiais do RISF e do RCCN atualizados só até julho de 2025",
   "resumo": "As edições oficiais do Regimento do Senado e do Regimento Comum vão só até julho de 2025; não há texto compilado mais recente.",
   "detalhes": "A página oficial do Senado oferece o RISF e o RCCN atualizados até julho de 2025, e não há texto compilado mais recente. Para cobrir a lacuna até 1º/10/2026, conferimos em 17/10/2026 a lista de resoluções do Senado (RSF) e do Congresso (RCN) de 2025 e 2026 na API de legislação do Senado: nenhuma resolução posterior a julho de 2025 altera o RISF ou o RCCN. A única ressalva é a RSF nº 46/2026, que não aparece na lista; as vizinhas, de agosto e setembro de 2026, são autorizações de crédito ou acordos de dívida. O risco de um dispositivo citado ter mudado é, portanto, baixo, mas o texto oficial consolidado continua desatualizado.",
-  "tipo_achado": "desatualizacao",
+  "tipo_aviso": "desatualizacao",
   "gravidade": "baixa",
   "afeta": [
     "norma:risf",

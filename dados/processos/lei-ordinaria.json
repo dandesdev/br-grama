@@ -511,7 +511,7 @@
         "cargo:presidente-da-republica"
       ],
       "acao": "O silêncio do Presidente por 15 dias úteis vale como sanção",
-      "detalhes": "O § 3º do art. 66 fala em 'prazo de quinze dias' sem repetir 'úteis'; lemos como o mesmo prazo do § 1º (ver achado:prazo-sancao-tacita-dias-uteis). Neste caso, se o Presidente não promulgar a lei em 48 horas, a promulgação passa ao Presidente do Senado.",
+      "detalhes": "O § 3º do art. 66 fala em 'prazo de quinze dias' sem repetir 'úteis'; lemos como o mesmo prazo do § 1º (ver aviso:prazo-sancao-tacita-dias-uteis). Neste caso, se o Presidente não promulgar a lei em 48 horas, a promulgação passa ao Presidente do Senado.",
       "prazo": {
         "texto": "15 dias úteis contados do recebimento",
         "valor": 15,
@@ -711,7 +711,7 @@
         "org:imprensa-nacional"
       ],
       "acao": "A lei é publicada no Diário Oficial da União",
-      "detalhes": "Cabe ao Presidente da República fazer publicar as leis; a Imprensa Nacional edita o Diário Oficial da União, que é exclusivamente eletrônico e publica na íntegra os atos normativos. Quando a lei é promulgada pelo Presidente ou Vice-Presidente do Senado, ela também sai no DOU, mas nenhuma norma diz quem ordena a publicação (ver achado:publicacao-apos-promulgacao-supletiva).",
+      "detalhes": "Cabe ao Presidente da República fazer publicar as leis; a Imprensa Nacional edita o Diário Oficial da União, que é exclusivamente eletrônico e publica na íntegra os atos normativos. Quando a lei é promulgada pelo Presidente ou Vice-Presidente do Senado, ela também sai no DOU, mas nenhuma norma diz quem ordena a publicação (ver aviso:publicacao-apos-promulgacao-supletiva).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -822,7 +822,7 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) as etapas de cada Casa são únicas e servem tanto à casa iniciadora quanto à revisora; o papel da Casa aparece no 'quando'. (2) A urgência constitucional é o regime 'urgencia-constitucional', que muda prazos de várias etapas e pode ser pedida em qualquer fase. (3) A etapa 'vigencia' é um fim sem ator: a lei entra em vigor pelo decurso do prazo fixado no texto aprovado (LC 95, art. 8º) ou na LINDB. (4) Nenhuma norma diz quem manda publicar a lei quando a promulgação é feita pelo Presidente ou Vice-Presidente do Senado; a etapa 'publicacao' mantém o Presidente da República (CF, art. 84, IV) e a Imprensa Nacional (ver achado:publicacao-apos-promulgacao-supletiva). (5) O caminho do projeto do PGR para a Câmara se apoia no RICD, art. 109, § 1º, VII; o art. 64 da CF não menciona o PGR (ver achado:casa-iniciadora-projeto-do-pgr). (6) Iniciativas específicas fora do art. 61 (CF, arts. 51, IV, 52, XIII, 73 c/c 96, 127, § 2º, e 134, § 4º) não foram modeladas como atores. (7) RISF e RCCN conferidos em texto oficial atualizado até julho de 2025; a API de legislação do Senado não mostra resoluções posteriores que os alterem (ver achado:risf-rccn-compilacao-ate-julho-2025).",
+  "notas": "Decisões de modelagem: (1) as etapas de cada Casa são únicas e servem tanto à casa iniciadora quanto à revisora; o papel da Casa aparece no 'quando'. (2) A urgência constitucional é o regime 'urgencia-constitucional', que muda prazos de várias etapas e pode ser pedida em qualquer fase. (3) A etapa 'vigencia' é um fim sem ator: a lei entra em vigor pelo decurso do prazo fixado no texto aprovado (LC 95, art. 8º) ou na LINDB. (4) Nenhuma norma diz quem manda publicar a lei quando a promulgação é feita pelo Presidente ou Vice-Presidente do Senado; a etapa 'publicacao' mantém o Presidente da República (CF, art. 84, IV) e a Imprensa Nacional (ver aviso:publicacao-apos-promulgacao-supletiva). (5) O caminho do projeto do PGR para a Câmara se apoia no RICD, art. 109, § 1º, VII; o art. 64 da CF não menciona o PGR (ver aviso:casa-iniciadora-projeto-do-pgr). (6) Iniciativas específicas fora do art. 61 (CF, arts. 51, IV, 52, XIII, 73 c/c 96, 127, § 2º, e 134, § 4º) não foram modeladas como atores. (7) RISF e RCCN conferidos em texto oficial atualizado até julho de 2025; a API de legislação do Senado não mostra resoluções posteriores que os alterem (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
   "verificacao": {
     "status": "verificado",
     "em": "2026-10-17",

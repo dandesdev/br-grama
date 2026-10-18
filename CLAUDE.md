@@ -10,7 +10,7 @@ Infográfico web interativo que mostra como funciona o Estado brasileiro: órgã
 
 ## Regras
 
-- **Nunca invente** fonte, dispositivo legal, URL, nome ou número. Na falta, use `confianca: "indisponivel"` e abra um `achado:`.
+- **Nunca invente** fonte, dispositivo legal, URL, nome ou número. Na falta, use `confianca: "indisponivel"` e abra um `aviso:`.
 - Toda entidade tem `fontes`, `vigencia`, `confianca` e `verificacao`.
 - Data de referência do retrato: **2026-10-01** (D14).
 - Textos escritos por nós, curtos e objetivos. Não copie texto de Wikipedia nem de obras protegidas.

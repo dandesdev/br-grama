@@ -120,12 +120,12 @@ function alternarRegime(regimeId: string | null) {
   painel.mostrarProcesso(processoAtual, regimeAtual);
 }
 
-// ---------- Achados ----------
-$<HTMLInputElement>("achados").addEventListener("change", (ev) => {
+// ---------- Avisos ----------
+$<HTMLInputElement>("avisos").addEventListener("change", (ev) => {
   const ligado = (ev.target as HTMLInputElement).checked;
-  mapa.mostrarAchados(ligado);
+  mapa.mostrarAvisos(ligado);
   if (ligado) {
-    painel.mostrarAchados();
+    painel.mostrarAvisos();
     mostrarAba("mapa");
   } else painel.mostrarLegenda();
 });
@@ -143,9 +143,9 @@ busca.addEventListener("input", () => {
     resultados.hidden = true;
     return;
   }
-  const achados = buscaveis.filter((b) => b.chave.includes(q)).slice(0, 8);
+  const encontrados = buscaveis.filter((b) => b.chave.includes(q)).slice(0, 8);
   resultados.innerHTML =
-    achados
+    encontrados
       .map(({ e }) => `<li role="option" data-id="${e.id}">${e.nome}${e.sigla ? ` (${e.sigla})` : ""}<div class="tipo">${e.tipo}</div></li>`)
       .join("") || `<li>Nada encontrado</li>`;
   resultados.hidden = false;

@@ -9,9 +9,9 @@ Como os dados entram no br-grama, como são verificados e como retomar o trabalh
 3. **Páginas institucionais oficiais.**
 4. **Fontes secundárias.** Wikidata, Wikipedia, doutrina, imprensa, trabalhos acadêmicos. Sempre com `confianca: "secundario"`. Wikipedia serve de pista: cite a fonte primária que ela aponta, e nunca copie o texto dela (D19).
 
-Quando duas fontes oficiais divergirem: registre as duas, marque `oficial-contraditorio` e abra um `achado:`.
+Quando duas fontes oficiais divergirem: registre as duas, marque `oficial-contraditorio` e abra um `aviso:`.
 
-Nunca invente fonte, dispositivo ou URL. Se não encontrar, use `confianca: "indisponivel"` e abra um achado.
+Nunca invente fonte, dispositivo ou URL. Se não encontrar, use `confianca: "indisponivel"` e abra um aviso.
 
 ## Registro de fontes
 
@@ -53,7 +53,7 @@ Regras do diário:
 ## Verificação
 
 - Quem coleta grava com `verificacao.status: "coletado"`.
-- Outro passo, de preferência um agente diferente, relê a fonte e confere cada afirmação. Se confirmar, muda para `"verificado"`. Se não confirmar, corrige e anota no diário, ou abre um achado.
+- Outro passo, de preferência um agente diferente, relê a fonte e confere cada afirmação. Se confirmar, muda para `"verificado"`. Se não confirmar, corrige e anota no diário, ou abre um aviso.
 - Uma tarefa só fica `verificada` quando todos os seus entregáveis estão verificados.
 
 ## Checkpoints (git)

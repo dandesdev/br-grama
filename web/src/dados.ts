@@ -81,7 +81,7 @@ export const NOMES_TIPO: Record<string, string> = {
   relacao: "Relação",
   processo: "Processo",
   objeto: "Objeto de competência",
-  achado: "Achado",
+  aviso: "Aviso",
   variacao: "Variação",
 };
 
@@ -136,9 +136,9 @@ export class Dados {
       });
   }
 
-  /** Achados que apontam para a entidade. */
-  achadosDe(id: string): Entidade[] {
-    return this.todas("achado").filter((a) => (a.afeta as string[]).includes(id));
+  /** Avisos (lacunas e divergências das fontes) que apontam para a entidade. */
+  avisosDe(id: string): Entidade[] {
+    return this.todas("aviso").filter((a) => (a.afeta as string[]).includes(id));
   }
 
   /** Nó do mapa que melhor representa uma entidade (pessoa → cargo que ocupa; relação → origem). */

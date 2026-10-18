@@ -16,7 +16,7 @@ export const TIPOS = {
   relacao: { pasta: "relacoes", prefixo: "rel" },
   processo: { pasta: "processos", prefixo: "proc" },
   objeto: { pasta: "objetos", prefixo: "obj" },
-  achado: { pasta: "achados", prefixo: "achado" },
+  aviso: { pasta: "avisos", prefixo: "aviso" },
   variacao: { pasta: "variacoes", prefixo: "var" },
 } as const;
 
@@ -76,4 +76,4 @@ export function lerVocabularios(): Record<string, Vocabulario> {
   } as Record<string, Vocabulario>;
 }
 
-export const PADRAO_ID = /^(ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$/;
+export const PADRAO_ID = /^(ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|fluxo|met|aviso|var):[a-z0-9]+(-[a-z0-9]+)*$/;

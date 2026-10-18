@@ -5,7 +5,7 @@
   "$defs": {
     "id": {
       "type": "string",
-      "pattern": "^(ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|fluxo|met|achado|var):[a-z0-9]+(-[a-z0-9]+)*$"
+      "pattern": "^(ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|fluxo|met|aviso|var):[a-z0-9]+(-[a-z0-9]+)*$"
     },
     "ids": { "type": "array", "items": { "$ref": "#/$defs/id" } },
     "data": {

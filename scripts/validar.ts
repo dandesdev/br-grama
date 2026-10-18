@@ -25,7 +25,7 @@ const CHAVES_COM_VOCABULARIO: Record<string, string> = {
   tipo_ente: "tipo_ente",
   provimento: "provimento",
   relacao: "relacao",
-  tipo_achado: "tipo_achado",
+  tipo_aviso: "tipo_aviso",
   tipo_norma: "tipo_norma",
   tipo_fonte: "tipo_fonte",
   tipo_objeto: "tipo_objeto",
@@ -81,13 +81,13 @@ for (const arq of lerArquivos()) {
   if (ent.tipo === "cargo" && ent.provimento === "variavel" && !(ent.provimento_casos as unknown[])?.length) {
     erro(arq.caminho, `provimento "variavel" exige provimento_casos`);
   }
-  if (ent.confianca === "indisponivel" && ent.tipo !== "achado") {
-    aviso(arq.caminho, `confiança "indisponivel"; confira se há um achado apontando para ${ent.id}`);
+  if (ent.confianca === "indisponivel" && ent.tipo !== "aviso") {
+    aviso(arq.caminho, `confiança "indisponivel"; confira se há um aviso apontando para ${ent.id}`);
   }
 }
 
 // 2. Referências: toda string com formato de id precisa existir; refs de fonte apontam para norma/fonte.
-const PADRAO_ID_NO_TEXTO = /\b(?:ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|achado|var):[a-z0-9]+(?:-[a-z0-9]+)*/g;
+const PADRAO_ID_NO_TEXTO = /\b(?:ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|aviso|var):[a-z0-9]+(?:-[a-z0-9]+)*/g;
 const CAMPOS_DE_TEXTO = new Set(["resumo", "detalhes", "notas", "nota", "condicao", "porque", "quando", "texto", "vagas_nota", "provimento_nota"]);
 
 for (const { entidade, caminho } of entidades.values()) {

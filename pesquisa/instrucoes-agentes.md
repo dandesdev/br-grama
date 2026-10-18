@@ -13,7 +13,7 @@ Você é um agente de pesquisa do br-grama (raiz: `C:\Users\DELL\apps\brgram`). 
 - Grave cada entidade em `dados/<pasta>/<slug>.json` **assim que ela ficar pronta**, e acrescente uma linha ao diário da tarefa (`- AAAA-MM-DD HH:MM — gravado org:...`). Nunca apague linhas do diário.
 - Rode `npm run -s validar` na raiz com frequência. Corrija os erros dos **seus** arquivos. Erros de "referência inexistente" para ids de outras tarefas são esperados enquanto elas trabalham em paralelo; ignore-os.
 - `verificacao`: `{ "status": "coletado", "em": "2026-10-16", "tarefa": "<id da tarefa>" }`.
-- **Nunca invente** fonte, dispositivo, URL, nome, data ou número. Se não achar, use `confianca: "indisponivel"` e crie um `achado:` citando onde você procurou.
+- **Nunca invente** fonte, dispositivo, URL, nome, data ou número. Se não achar, use `confianca: "indisponivel"` e crie um `aviso:` citando onde você procurou.
 - Fontes primárias primeiro (Constituição e leis no planalto.gov.br, regimentos nos sites das casas e tribunais, páginas oficiais). Wikipedia só como pista; cite a fonte primária que ela aponta. Se usar fonte secundária, marque `confianca: "secundario"` no campo ou na entidade.
 - O texto compilado do Planalto mostra a redação atual; confirme que nada mudou entre 2026-10-01 e hoje para os dispositivos que você citar.
 - Para o campo `arquivo` (Wayback Machine) de normas e fontes: consulte `https://archive.org/wayback/available?url=<url>` e use o snapshot se houver; se não houver, `null`.
@@ -33,7 +33,7 @@ Você é um agente de pesquisa do br-grama (raiz: `C:\Users\DELL\apps\brgram`). 
 | piloto-pessoas | `pessoa:*`, `org:partido-*`, relações `ocupa` |
 | piloto-municipal | entes estaduais e municipais, órgãos e cargos `arquetipo-*`, tribunais de contas municipais e dos municípios, variações e normas estaduais/municipais |
 
-Todas podem criar `fonte:*` e `achado:*`. `norma:cf-1988` já existe.
+Todas podem criar `fonte:*` e `aviso:*`. `norma:cf-1988` já existe.
 
 ## Ao terminar
 
@@ -41,6 +41,6 @@ Todas podem criar `fonte:*` e `achado:*`. `norma:cf-1988` já existe.
 2. Mude o status da tarefa para `coletada`, preencha `concluida_em` e marque os entregáveis concluídos.
 3. Relatório final (sua resposta), curto:
    - arquivos criados;
-   - pontos incertos e achados abertos;
+   - pontos incertos e avisos abertos;
    - termos de vocabulário que faltaram;
    - **problemas do modelo de dados** que você encontrou: campos que faltaram, que sobraram ou que ficaram ambíguos. O piloto existe para descobrir isso, então seja específico.

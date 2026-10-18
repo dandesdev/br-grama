@@ -273,12 +273,12 @@
       "unevaluatedProperties": false
     },
 
-    "achado": {
+    "aviso": {
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
-      "required": ["tipo_achado", "afeta", "fontes", "resumo"],
+      "required": ["tipo_aviso", "afeta", "fontes", "resumo"],
       "properties": {
-        "tipo": { "const": "achado" },
-        "tipo_achado": { "type": "string" },
+        "tipo": { "const": "aviso" },
+        "tipo_aviso": { "type": "string" },
         "afeta": { "type": "array", "minItems": 1, "items": { "$ref": "comum.schema.json#/$defs/id" } },
         "gravidade": { "enum": ["baixa", "media", "alta"] },
         "onde_procuramos": { "type": "array", "items": { "type": "string" }, "description": "Onde a informação foi buscada sem sucesso." }

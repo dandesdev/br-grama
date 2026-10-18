@@ -14,7 +14,7 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 - **D05** Estado em sentido amplo: os três Poderes, mais Ministério Público, Defensoria, Advocacia Pública e Tribunais de Contas. Os casos de fronteira também entram: Sistema S, conselhos profissionais, OS/OSCIPs, consórcios públicos, cartórios, partidos, concessionárias e organismos internacionais.
 - **D06** A União é modelada com dados reais. Estados e municípios entram como arquétipos ("estado típico", "município típico"), com as atipicidades explícitas e fundamentadas (ex.: TCM da cidade de São Paulo). Os 27 entes estaduais e os 5.570 municípios existem como entidades leves (dados do IBGE) para que as variações possam apontar para eles.
 - **D07** Administração indireta: só exemplos relevantes, com aviso de que a lista não é exaustiva e com indicação de onde está a lista completa.
-- **D08** Forças Armadas e segurança entram. Sigilo ou baixa transparência, aqui ou em qualquer área, é sinalizado como achado.
+- **D08** Forças Armadas e segurança entram. Sigilo ou baixa transparência, aqui ou em qualquer área, é sinalizado como aviso (D37).
 - **D09** Profundidade: descemos até onde houver fonte oficial estruturada (ex.: SIORG, CNJ). Onde ela acaba, o mapa indica "a estrutura continua; fonte: X".
 - **D10** Colegiados (conselhos, comitês, comissões) entram, todos os que for possível levantar.
 
@@ -31,7 +31,7 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 ## Fontes e verificação
 
 - **D15** Níveis de confiança: `oficial`, `oficial-contraditorio`, `secundario`, `inferido`, `indisponivel`. As lacunas são preenchidas com fontes secundárias, sempre marcadas visualmente.
-- **D16** Contradições oficiais, lacunas e sigilo viram **achados de auditoria**: uma camada própria no mapa, mais uma lista navegável.
+- ~~**D16** Contradições oficiais, lacunas e sigilo viram **achados de auditoria**: uma camada própria no mapa, mais uma lista navegável.~~ Revista em 17/10/2026 pela D37: "achado de auditoria" era uma metáfora.
 - **D17** Cada fonte registra URL, data de acesso e cópia no Wayback Machine. Cópia local só de dados brutos pequenos.
 - **D18** Atualização por revisão manual periódica, feita por um agente quando o mantenedor pedir.
 - **D19** Licenças: código sob MIT; dados sob CC-BY 4.0. Textos sempre escritos por nós (não copiamos texto de Wikipedia ou de obras protegidas; fatos são citados com fonte).
@@ -60,7 +60,9 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 - **D33** Os processos têm uma vista própria **em raias**: uma faixa por ator (Casa legislativa ou Poder) e as etapas da esquerda para a direita. O mapa só destaca os atores ("estações"), com os números das etapas. Isso substitui as "linhas de metrô" desenhadas sobre o mapa (D24 b), que viravam uma teia ilegível quando uma etapa tinha muitos atores.
 - **D34** Hierarquia no organograma é `contido_em`, com a fonte em `campos.contido_em`. A relação `integra` não repete o `contido_em`.
 - **D35** No mapa, as relações aparecem quando se clica num órgão ou cargo; a opção "Todas" mostra todas de uma vez. Com todas visíveis ao mesmo tempo, o mapa ficava ilegível.
-- **D36** Um fato com fonte oficial não é achado de auditoria, mesmo que seja notável (ex.: cadeira vaga no STF). Achados são lacunas, contradições, sigilo e baixa transparência.
+- **D36** Um fato com fonte oficial não é aviso, mesmo que seja notável (ex.: cadeira vaga no STF). Avisos são lacunas, contradições, sigilo e baixa transparência das fontes.
+- **D37** Contradições entre fontes oficiais, lacunas, sigilo e fontes desatualizadas continuam sendo apontadas, mas como **avisos** (`aviso:`), não como "achados de auditoria". A expressão era uma metáfora do mantenedor e se confundia com as auditorias reais do TCU e da CGU. O mapa tem a camada "Avisos" e uma lista navegável.
+- **D38** As competências dos entes (CF, arts. 21 a 24 e 30) aparecem numa **matriz de competências**, uma terceira vista do site: matérias nas linhas, União, estados e municípios nas colunas, e o tipo de competência (exclusiva, privativa, comum, concorrente, suplementar) na célula. Cada matéria é um objeto de competência.
 
 ## Fora do escopo por enquanto
 

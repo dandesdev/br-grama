@@ -230,8 +230,8 @@ function estilo(): StylesheetJson {
     { selector: "node:selected", style: { "border-width": 4, "border-color": destaque } },
     { selector: "node.contem:selected", style: { "border-width": 3 } },
 
-    // Achados (cor de status + ícone no rótulo: nunca só cor)
-    { selector: "node.com-achado", style: { "border-color": alerta, "border-width": 3.5 } },
+    // Avisos (cor de status + ícone no rótulo: nunca só cor)
+    { selector: "node.com-aviso", style: { "border-color": alerta, "border-width": 3.5 } },
 
     // Processo ativo: os atores ("estações") ganham borda forte e os números das etapas no rótulo.
     { selector: "node.estacao", style: { "border-color": destaque, "border-width": 3, opacity: 1 } },
@@ -305,20 +305,20 @@ export class Mapa {
     arestas.addClass("vizinho");
   }
 
-  /** Camada de achados: borda de alerta e ícone ⚠ no rótulo dos nós afetados. */
-  mostrarAchados(visivel: boolean) {
-    this.cy.nodes(".com-achado").forEach((n) => {
-      n.removeClass("com-achado");
+  /** Camada de avisos: borda de alerta e ícone ⚠ no rótulo dos nós afetados. */
+  mostrarAvisos(visivel: boolean) {
+    this.cy.nodes(".com-aviso").forEach((n) => {
+      n.removeClass("com-aviso");
       n.data("rotulo", n.data("rotuloBase"));
     });
     if (!visivel) return;
-    for (const a of this.dados.todas("achado")) {
+    for (const a of this.dados.todas("aviso")) {
       for (const alvo of a.afeta as string[]) {
         const id = this.dados.noDe(alvo);
         if (!id) continue;
         const n = this.cy.getElementById(id);
-        if (!n.hasClass("com-achado")) n.data("rotulo", `⚠ ${n.data("rotuloBase")}`);
-        n.addClass("com-achado");
+        if (!n.hasClass("com-aviso")) n.data("rotulo", `⚠ ${n.data("rotuloBase")}`);
+        n.addClass("com-aviso");
       }
     }
   }

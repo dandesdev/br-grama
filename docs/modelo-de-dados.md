@@ -26,7 +26,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 | fonte | `fonte:` | `fontes/` | Fonte não normativa: dataset, página, relatório, doutrina |
 | relação | `rel:` | `relacoes/` | Aresta tipada entre duas entidades |
 | processo | `proc:` | `processos/` | Sequência de etapas, com regimes (variantes) |
-| achado | `achado:` | `achados/` | Lacuna, contradição, sigilo ou baixa transparência |
+| aviso | `aviso:` | `avisos/` | Lacuna, contradição, sigilo ou baixa transparência |
 | variação | `var:` | `variacoes/` | Atipicidade de um ente em relação ao arquétipo |
 
 ## Campos comuns
@@ -70,7 +70,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - **Prazo:** `{ texto, valor?, unidade?, conta_de?, efeito? }`. `texto` sempre presente; os demais quando a norma permitir estruturar.
 - **Regime:** variante que muda várias etapas, como a urgência constitucional: `{ id, nome, resumo, detalhes?, quem_aciona, fontes, efeitos: [{ etapa, prazo?, nota? }] }`.
 
-**Achado.** `tipo_achado`, `afeta`, `gravidade` e `onde_procuramos` (onde a informação foi buscada sem sucesso). Um fato com fonte (ex.: uma cadeira vaga) **não** é achado: registre no próprio cargo.
+**Aviso.** `tipo_aviso`, `afeta`, `gravidade` e `onde_procuramos` (onde a informação foi buscada sem sucesso). Um fato com fonte (ex.: uma cadeira vaga) **não** é aviso: registre no próprio cargo.
 
 **Variação.** `entes`, `abrangencia` (`ente` ou `municipios-do-estado`), `difere_de` (órgão do arquétipo), `instancia` (órgão real), `substitui_relacoes` e `porque`.
 

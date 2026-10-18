@@ -1,10 +1,10 @@
 {
-  "id": "achado:filiacao-lula-alckmin-data-de-inicio",
-  "tipo": "achado",
+  "id": "aviso:filiacao-lula-alckmin-data-de-inicio",
+  "tipo": "aviso",
   "nome": "Data de início da filiação de Lula e Alckmin sem fonte oficial acessível",
   "resumo": "As filiações de Lula (PT) e Alckmin (PSB) em 1º/10/2026 estão confirmadas pelo TSE, mas não achamos fonte oficial acessível para a data em que começaram.",
   "detalhes": "O registro de candidaturas de 2026 confirma o partido de cada um. O site do TSE bloqueou o acesso automatizado e não achamos nos dados abertos uma base de filiados com datas.",
-  "tipo_achado": "lacuna",
+  "tipo_aviso": "lacuna",
   "afeta": [
     "pessoa:luiz-inacio-lula-da-silva",
     "pessoa:geraldo-alckmin"
