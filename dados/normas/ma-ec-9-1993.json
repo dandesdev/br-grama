@@ -2,9 +2,10 @@
   "tipo": "norma",
   "confianca": "secundario",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; texto conferido na cópia da Repórter Brasil; vigência marcada como incerta"
   },
   "acesso_em": "2026-10-16",
   "id": "norma:ma-ec-9-1993",
@@ -18,7 +19,9 @@
   "arquivo": "http://web.archive.org/web/20260607175905/https://reporterbrasil.org.br/wp-content/uploads/2013/08/constituicaoma.pdf",
   "vigencia": {
     "de": "1993",
-    "ate": null
+    "ate": null,
+    "incerta": true,
+    "nota": "A EC é de 25/3/1993 e vigora na publicação (art. 7º), cuja data não foi achada; a ADI 867, que a impugna, foi protocolada em 30/4/1993, de modo que a publicação ocorreu entre essas datas."
   },
   "fontes": [
     {

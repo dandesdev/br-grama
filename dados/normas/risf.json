@@ -32,10 +32,11 @@
       "url": "https://legis.senado.leg.br/norma/563958"
     }
   ],
-  "notas": "Publicada no Diário do Congresso Nacional, Seção 2, de 28/11/1970, segundo a ficha em legis.senado.leg.br/norma/563958; o início exato de vigência não foi conferido. O PDF oficial é o texto consolidado pelo Ato da Comissão Diretora nº 15/2022 e atualizado até julho de 2025; alterações posteriores não foram conferidas (ver achado:risf-rccn-compilacao-ate-julho-2025).",
+  "notas": "Publicada no Diário do Congresso Nacional, Seção 2, de 28/11/1970, segundo a ficha em legis.senado.leg.br/norma/563958; o início exato de vigência não foi conferido. O PDF oficial é o texto consolidado pelo Ato da Comissão Diretora nº 15/2022 e atualizado até julho de 2025; alterações posteriores não foram conferidas (ver achado:risf-rccn-compilacao-ate-julho-2025). Verificação de 2026-10-17: a lista de resoluções na API de legislação do Senado (dadosabertos, tipo RSF e RCN, anos 2025 e 2026; cópias em pesquisa/brutos/senado-dados-abertos/2026-10-17/) não traz nenhuma resolução posterior a julho de 2025 que altere o RISF. Única lacuna: a RSF nº 46/2026 não aparece na lista; as vizinhas (nº 41 a 47, ago.-set./2026) são todas autorizações de crédito ou acordos de dívida.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; sem alteração posterior a jul/2025 segundo a API de legislação do Senado (RSF 2025-2026), salvo a RSF 46/2026, não indexada"
   }
 }

@@ -4,25 +4,27 @@
   "poder": "legislativo",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; acrescentada a extinção e recriação de 1997"
   },
   "id": "org:tcm-goias",
   "nome": "Tribunal de Contas dos Municípios do Estado de Goiás",
   "sigla": "TCM-GO",
   "resumo": "Órgão estadual que auxilia as Câmaras de todos os municípios goianos no controle externo; o TCE-GO cuida só das contas do estado.",
-  "detalhes": "Era o Conselho de Contas dos Municípios, renomeado pela Constituição goiana de 1989. Tem sete conselheiros e emite parecer prévio sobre as contas anuais dos municípios em até 60 dias. Em 2021 a Assembleia rejeitou uma proposta de extinção.",
+  "detalhes": "Era o Conselho de Contas dos Municípios, renomeado pela Constituição goiana de 1989. Foi extinto em setembro de 1997 e recriado em novembro do mesmo ano, por emendas à Constituição estadual. Tem sete conselheiros e emite parecer prévio sobre as contas anuais dos municípios em até 60 dias. Em 2021 a Assembleia rejeitou uma proposta de extinção.",
   "esfera": "estadual",
   "ente": "ente:go",
   "vigencia": {
     "de": null,
-    "ate": null
+    "ate": null,
+    "nota": "Interrupção: a EC estadual 19, de 10/9/1997 (DO de 18/9/1997), revogou o art. 80 da Constituição goiana e passou o controle dos municípios ao TCE-GO; a EC estadual 21, de 4/11/1997 (DO de 6/11/1997), recriou o TCM (anotações do texto compilado da Casa Civil de Goiás)."
   },
   "fontes": [
     {
       "ref": "norma:go-constituicao-1989",
-      "dispositivo": "art. 79, § 1º; art. 80; ADCT, art. 6º"
+      "dispositivo": "art. 79, § 1º; art. 80 e anotações de redação (EC est. 19/1997 e 21/1997); ADCT, art. 6º"
     },
     {
       "ref": "norma:go-lei-8338-1977",
@@ -41,5 +43,5 @@
       "dispositivo": "art. 1º"
     }
   ],
-  "notas": "vigencia.de é null porque a norma de criação do Conselho não foi achada (achado:go-norma-criacao-ccm); ele já existia em 18/11/1977 (Lei 8.338)."
+  "notas": "vigencia.de é null porque a norma de criação do Conselho não foi achada (achado:go-norma-criacao-ccm); ele já existia em 18/11/1977 (Lei 8.338). EC est. 19/1997: https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/102977 ; EC est. 21/1997 (\"Fica recriado o Tribunal de Contas dos Municípios\"): https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/102979 ."
 }

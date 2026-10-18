@@ -15,9 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; a API recusou consultas deste ambiente em 2026-10-17 (\"Request Rejected\"); conferidas as respostas brutas"
   },
   "notas": "Respostas brutas em pesquisa/brutos/ibge-localidades/2026-10-16/ (estados/{id} e municipios/{id})."
 }

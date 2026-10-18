@@ -14,11 +14,12 @@
     "de": "2025-09-29",
     "ate": null
   },
-  "notas": "O site do STF recusa acesso automatizado (403); o conteúdo foi lido na cópia do Wayback. Resultado de busca indica que o Plenário referendou a liminar por unanimidade em sessão virtual encerrada em 1º/10/2025 (notícia 'STF confirma manutenção de número de deputados federais para 2026', que não conseguimos abrir).",
+  "notas": "O site do STF recusa acesso automatizado (403); o conteúdo foi lido na cópia do Wayback. Resultado de busca indica que o Plenário referendou a liminar por unanimidade em sessão virtual encerrada em 1º/10/2025 (notícia 'STF confirma manutenção de número de deputados federais para 2026', que não conseguimos abrir). Na verificação (2026-10-17) também não achamos texto oficial do referendo; imprensa (Congresso em Foco, 1º/10/2025) relatou maioria formada no Plenário virtual, sem o placar final.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; conteúdo conferido na cópia do Wayback 20251016001617: liminar de Fux de 29/9/2025 na ADO 38, veto integral em julho/2025 ainda não apreciado, pedido de referendo em sessão virtual extraordinária"
   }
 }

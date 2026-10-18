@@ -9,15 +9,15 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 14, § 3º; arts. 44, 45, 53 a 56"
+      "dispositivo": "art. 14, § 3º; arts. 44, 45, 53 a 56; art. 102, I, b"
     },
     {
       "ref": "norma:lc-78-1993",
       "dispositivo": "arts. 1º a 3º"
     }
   ],
-  "detalhes": "Desde a diplomação, só pode ser julgado criminalmente pelo STF e só pode ser preso em flagrante de crime inafiançável. É inviolável, civil e penalmente, por suas opiniões, palavras e votos (art. 53).",
-  "vagas_nota": "A LC 78/1993 fixa o teto de 513 (art. 1º). Cada estado e o DF têm no mínimo 8 e no máximo 70 deputados (CF, art. 45, § 1º); pela LC 78/1993, o estado mais populoso tem 70 (art. 3º). Cada Território, se existir, elege 4 (CF, art. 45, § 2º). A lei que elevaria o total para 531 foi vetada integralmente em julho de 2025, e o STF manteve para a eleição de 2026 a distribuição de 2022 (ADO 38).",
+  "detalhes": "Desde a diplomação, é julgado pelo STF nas infrações penais comuns e só pode ser preso em flagrante de crime inafiançável; nesse caso, a Câmara decide sobre a prisão (art. 53, §§ 1º e 2º; art. 102, I, b). É inviolável, civil e penalmente, por suas opiniões, palavras e votos (art. 53).",
+  "vagas_nota": "A LC 78/1993 fixa o teto de 513 (art. 1º). Cada estado e o DF têm no mínimo 8 e no máximo 70 deputados (CF, art. 45, § 1º); pela LC 78/1993, o estado mais populoso tem 70 (art. 3º). Cada Território, se existir, elege 4 (CF, art. 45, § 2º). A lei que elevaria o total para 531 foi vetada integralmente em julho de 2025; o veto (nº 20/2025) seguia sem apreciação em outubro de 2026, e o STF manteve para a eleição de 2026 a distribuição de 2022 (ADO 38).",
   "mandato": {
     "anos": 4,
     "reconducao": "sem limite de reeleições no texto da CF",
@@ -72,8 +72,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; corrigido: \"só pode ser julgado criminalmente pelo STF\" → julgado pelo STF nas infrações penais comuns (art. 102, I, b), com a decisão da Casa sobre a prisão em flagrante (art. 53, § 2º); situação do veto 20/2025 acrescentada"
   }
 }

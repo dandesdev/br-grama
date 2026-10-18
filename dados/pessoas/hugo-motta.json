@@ -2,6 +2,7 @@
   "id": "pessoa:hugo-motta",
   "tipo": "pessoa",
   "nome": "Hugo Motta",
+  "nome_civil": "Hugo Motta Wanderley da Nóbrega",
   "resumo": "Deputado federal pela Paraíba desde 2011 e Presidente da Câmara dos Deputados desde fevereiro de 2025. Filiado ao Republicanos.",
   "vigencia": {
     "de": null,
@@ -22,7 +23,8 @@
       "partido": "org:partido-republicanos",
       "vigencia": {
         "de": "2018-04-06",
-        "ate": null
+        "ate": null,
+        "nota": "Data em que a Câmara registrou a troca de PMDB para PRB (hoje Republicanos). A data da filiação no TSE não foi achada em fonte aberta."
       },
       "fontes": [
         {
@@ -38,9 +40,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas; nome civil HUGO MOTTA WANDERLEY DA NÓBREGA pela API /deputados/160674; partido REPUBLICANOS pela API e pelo TSE 2026"
   },
   "mais_informacoes": [
     {

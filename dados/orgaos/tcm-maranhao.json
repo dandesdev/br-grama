@@ -4,9 +4,10 @@
   "poder": "legislativo",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; vigência marcada como incerta"
   },
   "id": "org:tcm-maranhao",
   "nome": "Tribunal de Contas dos Municípios do Estado do Maranhão",
@@ -16,7 +17,9 @@
   "ente": "ente:ma",
   "vigencia": {
     "de": null,
-    "ate": "1993"
+    "ate": "1993",
+    "incerta": true,
+    "nota": "A EC é de 25/3/1993 e vigora na publicação (art. 7º), cuja data não foi achada; a ADI 867, que a impugna, foi protocolada em 30/4/1993, de modo que a publicação ocorreu entre essas datas."
   },
   "fontes": [
     {
@@ -32,5 +35,5 @@
       "dispositivo": "ADCT, art. 35"
     }
   ],
-  "notas": "Origem e data de criação não conferidas. ate só com o ano: a emenda é de 25/3/1993 e vigora na publicação, cuja data não foi achada."
+  "notas": "Origem e data de criação não conferidas. ate só com o ano: a emenda é de 25/3/1993 e vigora na publicação, cuja data não foi achada (entre 25/3 e 30/4/1993)."
 }

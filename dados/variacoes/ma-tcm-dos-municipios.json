@@ -3,9 +3,10 @@
   "difere_de": "org:arquetipo-estadual-tce",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; vigência marcada como incerta"
   },
   "id": "var:ma-tcm-dos-municipios",
   "nome": "Tribunal de Contas dos Municípios do Maranhão (extinto)",
@@ -18,7 +19,9 @@
   "porque": "Existia na CF/1988 e foi extinto pela EC estadual 9/1993; o STF julgou a extinção válida (ADI 867).",
   "vigencia": {
     "de": "1988-10-05",
-    "ate": "1993"
+    "ate": "1993",
+    "incerta": true,
+    "nota": "A EC é de 25/3/1993 e vigora na publicação (art. 7º), cuja data não foi achada; a ADI 867, que a impugna, foi protocolada em 30/4/1993, de modo que a publicação ocorreu entre essas datas."
   },
   "fontes": [
     {

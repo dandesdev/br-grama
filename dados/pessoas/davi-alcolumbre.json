@@ -2,6 +2,7 @@
   "id": "pessoa:davi-alcolumbre",
   "tipo": "pessoa",
   "nome": "Davi Alcolumbre",
+  "nome_civil": "David Samuel Alcolumbre Tobelem",
   "resumo": "Senador pelo Amapá desde 2015 e Presidente do Senado Federal desde fevereiro de 2025. Filiado ao União Brasil.",
   "vigencia": {
     "de": null,
@@ -22,7 +23,8 @@
       "partido": "org:partido-uniao",
       "vigencia": {
         "de": "2022-04-12",
-        "ate": null
+        "ate": null,
+        "nota": "Data de filiação registrada pelo Senado (saída do DEM em 2022-04-11). A data no TSE não foi achada em fonte aberta; o TSE deferiu a fusão DEM+PSL em 2022-02-08."
       },
       "fontes": [
         {
@@ -38,9 +40,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas; NomeCompletoParlamentar e filiações conferidos na API do Senado em 2026-10-17"
   },
   "mais_informacoes": [
     {

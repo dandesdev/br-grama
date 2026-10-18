@@ -2,8 +2,8 @@
   "id": "achado:publicacao-apos-promulgacao-supletiva",
   "tipo": "achado",
   "nome": "Quem manda publicar a lei promulgada pelo Senado?",
-  "resumo": "Não achamos norma que diga quem ordena a publicação da lei quando ela é promulgada pelo Presidente ou Vice-Presidente do Senado.",
-  "detalhes": "A CF dá ao Presidente da República o dever de 'fazer publicar' as leis (art. 84, IV) e prevê a promulgação supletiva pelo Senado (art. 66, § 7º), mas não trata da publicação nesse caso. Procuramos na CF, no RISF, no RCCN e no Decreto nº 9.215/2017, sem resultado. Falta pesquisar a prática e a doutrina.",
+  "resumo": "Nenhuma norma diz quem ordena a publicação da lei quando ela é promulgada pelo Presidente ou Vice-Presidente do Senado; na prática, ela sai no DOU.",
+  "detalhes": "A CF dá ao Presidente da República o dever de 'fazer publicar' as leis (art. 84, IV) e prevê a promulgação supletiva pelo Senado (art. 66, § 7º), mas não trata da publicação nesse caso. O Decreto nº 9.215/2017 manda publicar na íntegra no DOU os atos normativos e os atos oficiais do Poder Legislativo (art. 11), sem dizer quem os encaminha. Na prática, a lei promulgada pelo Presidente do Senado sai no DOU: é o caso da Lei nº 11.170/2005, promulgada por ele com base no art. 66, § 7º, e publicada no DOU de 5/9/2005. Quem ordena a publicação continua sem previsão expressa nas normas consultadas.",
   "tipo_achado": "lacuna",
   "gravidade": "baixa",
   "afeta": [
@@ -24,13 +24,26 @@
     },
     {
       "ref": "norma:decreto-9215-2017",
-      "dispositivo": null
+      "dispositivo": "art. 11"
     }
   ],
   "confianca": "indisponivel",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
-  }
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; lacuna confirmada; acrescentados Decreto 9.215/2017, art. 11, e o exemplo da Lei 11.170/2005"
+  },
+  "onde_procuramos": [
+    "CF, arts. 66 e 84",
+    "RISF (busca por 'promulga' e 'publica')",
+    "RCCN (mesma busca)",
+    "Decreto nº 9.215/2017 (publicação do DOU)"
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Lei nº 11.170/2005, promulgada pelo Presidente do Senado (Planalto)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11170.htm"
+    }
+  ]
 }

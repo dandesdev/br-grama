@@ -2,8 +2,8 @@
   "id": "achado:risf-rccn-compilacao-ate-julho-2025",
   "tipo": "achado",
   "nome": "Textos oficiais do RISF e do RCCN atualizados só até julho de 2025",
-  "resumo": "As edições oficiais do Regimento do Senado e do Regimento Comum vão até julho de 2025; mudanças posteriores à data de referência não foram conferidas.",
-  "detalhes": "A página oficial do Senado oferece o RISF consolidado e atualizado até julho de 2025 e o RCCN atualizado até julho de 2025. Não há texto compilado mais recente; para saber se algum dispositivo citado mudou até 1º/10/2026, seria preciso conferir uma a uma as resoluções publicadas desde então. Em busca rápida achamos só projetos de resolução de 2026 ainda em tramitação.",
+  "resumo": "As edições oficiais do Regimento do Senado e do Regimento Comum vão só até julho de 2025; não há texto compilado mais recente.",
+  "detalhes": "A página oficial do Senado oferece o RISF e o RCCN atualizados até julho de 2025, e não há texto compilado mais recente. Para cobrir a lacuna até 1º/10/2026, conferimos em 17/10/2026 a lista de resoluções do Senado (RSF) e do Congresso (RCN) de 2025 e 2026 na API de legislação do Senado: nenhuma resolução posterior a julho de 2025 altera o RISF ou o RCCN. A única ressalva é a RSF nº 46/2026, que não aparece na lista; as vizinhas, de agosto e setembro de 2026, são autorizações de crédito ou acordos de dívida. O risco de um dispositivo citado ter mudado é, portanto, baixo, mas o texto oficial consolidado continua desatualizado.",
   "tipo_achado": "desatualizacao",
   "gravidade": "baixa",
   "afeta": [
@@ -31,12 +31,27 @@
     {
       "titulo": "Página do Regimento Interno no site do Senado",
       "url": "https://www25.senado.leg.br/web/atividade/regimento-interno"
+    },
+    {
+      "titulo": "API de legislação do Senado: resoluções do Senado de 2026",
+      "url": "https://legis.senado.leg.br/dadosabertos/legislacao/lista?tipo=RSF&ano=2026"
+    },
+    {
+      "titulo": "API de legislação do Senado: resoluções do Congresso de 2025",
+      "url": "https://legis.senado.leg.br/dadosabertos/legislacao/lista?tipo=RCN&ano=2025"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
-  }
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; lacuna confirmada; acrescentada a checagem das resoluções de 2025-2026"
+  },
+  "onde_procuramos": [
+    "Página do Regimento Interno no site do Senado (edições oficiais em PDF)",
+    "Ficha da Resolução nº 93/1970 em legis.senado.leg.br (lista alterações só até 2023)",
+    "API de legislação do Senado: listas de RSF e RCN de 2025 e 2026"
+  ],
+  "notas": "Listas da API (RSF e RCN, 2025 e 2026) salvas em pesquisa/brutos/senado-dados-abertos/2026-10-17/."
 }

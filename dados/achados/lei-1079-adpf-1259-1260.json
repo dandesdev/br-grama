@@ -2,8 +2,8 @@
   "id": "achado:lei-1079-adpf-1259-1260",
   "tipo": "achado",
   "nome": "Processo de impeachment de ministros do STF sob liminar nas ADPFs 1259 e 1260",
-  "resumo": "Partes da Lei 1.079/1950 sobre o processo contra ministros do STF estão suspensas por liminar de dezembro de 2025; o estado em 2026-10-01 não foi conferido.",
-  "detalhes": "Em 3/12/2025 o relator suspendeu dispositivos sobre quórum para abrir o processo, legitimidade para denunciar e afastamento de ministros do STF. A liminar seria levada a referendo do Plenário. Não verificamos decisões posteriores nem eventual nova lei.",
+  "resumo": "Partes da Lei 1.079/1950 sobre impeachment de ministros do STF estão suspensas por liminar de dez/2025, ainda sem referendo do Plenário em 2026-10-01.",
+  "detalhes": "Em 3/12/2025 o relator, ad referendum do Plenário: fixou em 2/3 o quórum para aprovar os pareceres dos arts. 47 e 54 contra membros do Judiciário; suspendeu o afastamento e a perda de 1/3 dos vencimentos (art. 57, a e c) e trecho do art. 70; vedou enquadrar o mérito de decisões no art. 39, 4 e 5; e restringiu ao PGR a denúncia (art. 41). Em 10/12/2025 suspendeu essa última parte, de modo que qualquer cidadão volta a poder denunciar, e retirou o referendo da sessão virtual. Até 2026-10-17 o Plenário não julgou o referendo; a última movimentação é de 18/2/2026. O texto da lei no Planalto não foi alterado nesses pontos, e o projeto de nova lei (PL 1.388/2023) ainda tramita no Senado.",
   "tipo_achado": "ambiguidade-normativa",
   "gravidade": "media",
   "afeta": [
@@ -16,19 +16,25 @@
       "dispositivo": null
     },
     {
+      "ref": "fonte:stf-processo-adpf-1259",
+      "dispositivo": null,
+      "nota": "decisões de 3/12/2025 e 10/12/2025; andamentos até 18/2/2026"
+    },
+    {
       "ref": "norma:lei-1079-1950",
-      "dispositivo": "arts. 39, 41, 47, 54, 57 e 70 (anotados com 'Vide ADPF 1259/1260' no texto do Planalto)"
+      "dispositivo": "arts. 39, 41, 47, 54, 57 e 70 (anotados com \"Vide ADPF 1259/1260\" no texto do Planalto)"
     }
   ],
   "vigencia": {
     "de": "2025-12-03",
     "ate": null
   },
-  "notas": "Onde procuramos: texto compilado da Lei 1.079/1950 no Planalto (2026-10-16) e notícia do STF de 3/12/2025 (via Wayback). Resultados de busca citam ajuste parcial da liminar em 10/12/2025 quanto à exclusividade do PGR para denunciar, em fontes não oficiais; não confirmado. A página do processo no portal do STF não foi aberta (acesso automatizado bloqueado).",
+  "notas": "Onde procuramos: texto compilado da Lei 1.079/1950 no Planalto (2026-10-16 e 2026-10-17); notícias do STF de 3/12/2025 e 10/12/2025; abas de andamentos e decisões das ADPFs 1259 e 1260 no portal do STF (2026-10-17); API do Senado para o PL 1.388/2023 (tramitando, situação \"incluída na pauta da reunião\"). Continua achado porque o texto oficial da lei e a regra aplicável divergem enquanto a liminar não for referendada ou revogada.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; liminar de 3/12/2025 (itens i a vii) e decisão de 10/12/2025 conferidas na aba de decisões do STF; ausência de referendo até 2026-10-17 conferida nos andamentos; resumo e detalhes reescritos com a situação em 2026-10-01"
   }
 }

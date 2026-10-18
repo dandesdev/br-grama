@@ -31,8 +31,23 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; CF art. 76 e Lei 14.600/2023, art. 2º, caput e § 1º, conferidos; acrescentada a fonte de contido_em em campos (D34), que faltava"
+  },
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "Título IV, Capítulo II, Seção I (arts. 76 a 83)"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º"
+        }
+      ]
+    }
   }
 }

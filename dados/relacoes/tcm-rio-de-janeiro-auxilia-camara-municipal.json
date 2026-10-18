@@ -13,7 +13,11 @@
   "fontes": [
     {
       "ref": "norma:rj-rio-de-janeiro-lei-183-1980",
-      "dispositivo": "art. 2º"
+      "dispositivo": "art. 2º (jurisdição em todo o município)"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-289-1981",
+      "dispositivo": "art. 3º, I; art. 29"
     },
     {
       "ref": "norma:cf-1988",
@@ -26,9 +30,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; acrescentada a fonte do parecer prévio (Lei 289/1981)"
   },
   "notas": "vigencia.de marca o regime da CF/1988; o tribunal já existia antes. A aresta aponta para o arquétipo da Câmara porque as Câmaras reais não são modeladas; a restrição está só na condição."
 }

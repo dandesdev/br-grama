@@ -53,15 +53,16 @@
       ]
     }
   ],
-  "notas": "O resumo evita 'Chefe de Estado e Chefe de Governo': a expressão é da doutrina e não aparece no texto da CF. Se for usada no site, precisa de fonte própria em fontes_por_campo.",
+  "notas": "O resumo evita 'Chefe de Estado e Chefe de Governo': a expressão é da doutrina e não aparece no texto da CF. Se for usada no site, precisa de fonte própria em campos (esquema v1).",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; arts. 12, § 3º, I; 14, §§ 3º e 5º; 76; 77, §§ 2º e 3º; 81, § 1º; 82 (EC 111/2021); 84 e EC 111/2021, arts. 4º e 5º conferidos; nota interna atualizada para o nome de campo do esquema v1"
   }
 }

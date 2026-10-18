@@ -9,16 +9,18 @@
   "ente": "ente:go",
   "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/87742",
   "acesso_em": "2026-10-16",
-  "arquivo": null,
+  "arquivo": "https://web.archive.org/web/20261017130101/https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/87742",
   "vigencia": {
-    "de": "1977-11-18",
+    "de": "1977-11-28",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; vigência corrigida para a data de publicação"
   },
-  "notas": "A ementa diz 'dispõe sobre a organização' e o art. 1º trata o Conselho como já existente; a lei não diz que o cria. O portal marca a lei como 'Em vigor'; não verificamos quanto dela foi revogado pela Lei 15.958/2007 (Lei Orgânica do TCM-GO)."
+  "notas": "A ementa diz 'dispõe sobre a organização' e o art. 1º trata o Conselho como já existente; a lei não diz que o cria. Entra em vigor na publicação (art. 29); o portal indica o Diário Oficial de 28/11/1977. O portal marca a lei como 'Em vigor'; a Lei 15.958/2007 (Lei Orgânica do TCM-GO) não a revoga expressamente, e não verificamos quanto dela foi revogado tacitamente.",
+  "publicacao": "1977-11-28"
 }

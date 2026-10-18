@@ -1,16 +1,16 @@
 ---
 id: verificacao-piloto-municipal
 escopo: "Verificação independente: entidades com verificacao.tarefa = "piloto-municipal""
-status: em-andamento
+status: verificada
 depende_de: []
 iniciada_em: 2026-10-17
-concluida_em: null
+concluida_em: 2026-10-17
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com verificacao.tarefa = "piloto-municipal" conferidas contra a fonte (liste com: `grep -l '"tarefa": "...' dados/*/*.json`)
-- [ ] Pontos em aberto da coleta, resolvidos ou documentados:
+- [x] Todas as entidades com verificacao.tarefa = "piloto-municipal" conferidas contra a fonte (liste com: `grep -l '"tarefa": "...' dados/*/*.json`)
+- [x] Pontos em aberto da coleta, resolvidos ou documentados:
 - Norma de criação do Conselho de Contas dos Municípios de Goiás (achado:go-norma-criacao-ccm)
 - Data da Lei municipal 183/1980 do Rio de Janeiro (achado:rj-lei-183-1980-data)
 - Origem dos tribunais de contas dos municípios do Ceará e do Maranhão (datas de criação)
@@ -36,3 +36,65 @@ concluida_em: null
 - 2026-10-17 09:55 — verificado rel:eleitorado-municipal-elege-vereador (CF art. 29, I; Lei 9.504, art. 1º, par. único, II (simultaneidade); Código Eleitoral art. 84 conferidos; sem correção)
 - 2026-10-17 09:56 — verificado norma:lei-9504-1997 (data, art. 106 e DOU de 1º/10/1997 conferidos no texto do Planalto; nenhuma outra norma duplicada em dados/normas; nota sobre duplicidade retirada)
 - 2026-10-17 09:56 — corrigido e verificado norma:lei-4737-1965: data, DOU de 19/7/1965 (retificado em 30/7/1965) e art. 382 (vigência em 30 dias) conferidos; vigencia.de "1965-08" é aproximada e não tinha incerta: true; acrescentados incerta e nota, como pede o modelo de dados
+- 2026-10-17 15:14 — verificado ente:sp (código IBGE 35, UF SP e nome "São Paulo" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:rj (código IBGE 33, UF RJ e nome "Rio de Janeiro" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:ba (código IBGE 29, UF BA e nome "Bahia" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:go (código IBGE 52, UF GO e nome "Goiás" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:pa (código IBGE 15, UF PA e nome "Pará" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:ce (código IBGE 23, UF CE e nome "Ceará" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:ma (código IBGE 21, UF MA e nome "Maranhão" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:sp-sao-paulo (código IBGE 3550308, UF SP e nome "São Paulo" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado ente:rj-rio-de-janeiro (código IBGE 3304557, UF RJ e nome "Rio de Janeiro" conferem com a resposta da API do IBGE em pesquisa/brutos/ibge-localidades/2026-10-16/; sem correção)
+- 2026-10-17 15:14 — verificado fonte:ibge-localidades (URL e respostas brutas conferidas; nova consulta à API em 2026-10-17 foi recusada pelo servidor com "Request Rejected")
+- 2026-10-17 15:15 — verificado norma:sp-sao-paulo-lei-7213-1968 (art. 1º cria o TCM; art. 2º, 5 Ministros; art. 69 vigência na publicação; fecho: "Publicada na Diretoria do Departamento de Administração ... em 20 de novembro de 1968" — resolve a dúvida da coleta sobre a data de publicação; notas atualizadas)
+- 2026-10-17 15:15 — verificado org:tcm-sao-paulo (Lei mun. 7.213/1968, art. 1º; CE-SP arts. 150 e 151 — cinco conselheiros; anotação da Alesp sobre ADIs 346 e 4776 conferida; CF art. 31, §§ 1º e 4º; nota sobre a data de publicação atualizada)
+- 2026-10-17 15:15 — verificado norma:sp-constituicao-1989 (texto compilado da Alesp; arts. 150 e 151 conferidos; sem correção)
+- 2026-10-17 15:15 — verificado var:sp-capital-tcm (sem correção)
+- 2026-10-17 15:15 — verificado rel:tcm-sao-paulo-auxilia-camara-municipal (CE-SP arts. 150-151; CF art. 31; sem correção). Sugestão: o esquema v1 tem "restrita_a"; esta relação e as dos outros TCMs poderiam usá-lo em vez de deixar a restrição só na condição
+- 2026-10-17 15:16 — verificado fonte:tcmrio-lei-183-1980 (PDF do TCM-RJ: cabeçalho "Lei nº 183, de 23 de outubro de 1980", nota de consolidação com a Lei 223/1981, arts. 1º a 3º; sem correção)
+- 2026-10-17 15:16 — verificado norma:rj-rio-de-janeiro-lei-183-1980: arts. 1º, 2º, 3º e 57, fecho (23/10/1980) e nota do DO de 29/10/1980 conferidos na página da Câmara. Achado novo de apoio: a Lei mun. 289, de 25/11/1981 (Lei Orgânica do TCM-RJ, https://e.camara.rj.gov.br/Arquivo/Documents/legislacao/html/L2891981.HTML), art. 77, cita "Leis nºs 183, de 23 de outubro de 1980, e 223 de 17 de junho de 1981" e as mantém em vigor no que não colidirem; notas atualizadas. confianca mantida em oficial-contraditorio porque o título da página da Câmara continua divergente
+- 2026-10-17 15:16 — verificado achado:rj-lei-183-1980-data (divergência confirmada: título da página da Câmara "31 de outubro", fecho "23 de outubro"; detalhes ganharam a terceira fonte oficial, Lei 289/1981, art. 77, que confirma 23/10/1980. Ponto em aberto resolvido quanto à data; o achado continua aberto enquanto a página da Câmara mantiver o título errado)
+- 2026-10-17 15:16 — corrigido e verificado org:tcm-rio-de-janeiro: detalhes diziam "sete conselheiros, nomeados pelo prefeito com aprovação da Câmara Municipal, segundo a lei de criação"; essa regra (Lei 183/1980, art. 3º) foi substituída: a Lei mun. 289/1981, art. 2º, na redação da LC mun. 82/2007, remete a nomeação às Constituições e à Lei Orgânica do Município. Ficou "Tem sete conselheiros", com a explicação nas notas
+- 2026-10-17 15:16 — verificado var:rj-capital-tcm (sem correção)
+- 2026-10-17 15:16 — verificado rel:tcm-rio-de-janeiro-auxilia-camara-municipal (Lei 183/1980, art. 2º — jurisdição em todo o município; CF art. 31; sem correção)
+- 2026-10-17 15:17 — criada norma:rj-rio-de-janeiro-lei-289-1981 (Lei Orgânica do TCM-RJ; necessária para corrigir org:tcm-rio-de-janeiro e sustentar o parecer prévio em rel:tcm-rio-de-janeiro-auxilia-camara-municipal); status coletado, para conferência independente
+- 2026-10-17 15:17 — fonte:stf-re-729744 regravada com status coletado (criada pelo verificador; precisa de conferência independente)
+- 2026-10-17 15:17 — org:tcm-rio-de-janeiro: acrescentada a fonte norma:rj-rio-de-janeiro-lei-289-1981 (arts. 2º e 3º)
+- 2026-10-17 15:17 — corrigido rel:tcm-rio-de-janeiro-auxilia-camara-municipal: a condição fala do parecer prévio sobre as contas do prefeito, mas a única fonte local era a Lei 183/1980, art. 2º (composição e jurisdição); acrescentada Lei 289/1981, art. 3º, I, e art. 29 (parecer prévio em até 60 dias úteis)
+- 2026-10-17 15:18 — corrigido e verificado norma:ba-constituicao-1989: arts. 91, 94 e 95 conferidos no LegislaBahia. A nota dizia "acórdão de embargos de 22/4/2026"; pela aba Decisões da ADI 4124, o mérito foi na sessão virtual de 5 a 15/12/2025 (também atingiu o art. 71, XI) e em 22/4/2026 os embargos não foram conhecidos, com modulação prospectiva; nota reescrita. arquivo: pedida cópia ao Wayback (20261017125949)
+- 2026-10-17 15:18 — verificado fonte:tcm-ba-historia (Lei 2.838 de 17/9/1970, Lei 2.900 de 4/2/1971, posse do 1º Conselho em 10/3/1971 e EC est. 25/1985 conferidos nas p. impressas 13-15; o pedido de cópia ao Wayback não retornou snapshot)
+- 2026-10-17 15:18 — verificado org:tcm-bahia (CE-BA art. 91, I — parecer prévio em 180 dias; art. 94 — sete conselheiros; histórico do TCM-BA para 1970 e 1985; acrescentado o art. 95, que lista competências privativas do TCM)
+- 2026-10-17 15:18 — verificado var:ba-tcm-dos-municipios (sem correção)
+- 2026-10-17 15:18 — verificado rel:tcm-bahia-auxilia-camara-municipal (CE-BA art. 91 caput e I; art. 95, § 1º; sem correção)
+- 2026-10-17 15:24 — verificado norma:go-constituicao-1989 (art. 79, § 1º — parecer prévio em 60 dias, redação EC 36/2004; art. 80 — sete conselheiros; ADCT art. 6º — renomeia o CCM, redação EC 23/1998; registro atualizado em 2026-06-23). Notas ganharam a extinção pela EC est. 19/1997 e a recriação pela EC est. 21/1997, que aparecem nas anotações do próprio texto compilado
+- 2026-10-17 15:24 — corrigido e verificado norma:go-lei-8338-1977: vigencia.de era 1977-11-18 (data da lei), mas o art. 29 manda vigorar na publicação e o portal da Casa Civil dá o DOE de 28/11/1977; ficou vigencia.de = publicacao = 1977-11-28. arquivo: cópia no Wayback (20261017130101). Conferido que a Lei 15.958/2007 não a revoga expressamente
+- 2026-10-17 15:24 — corrigido e verificado org:tcm-goias: faltava fato relevante: a EC est. 19, de 10/9/1997 (DO 18/9/1997), revogou o art. 80 da CE-GO e integrou os conselheiros ao TCE (art. 3º), e a EC est. 21, de 4/11/1997 (DO 6/11/1997), art. 1º, "Fica recriado o Tribunal de Contas dos Municípios" (textos no portal da Casa Civil, ids 102977 e 102979). Detalhes e vigencia.nota atualizados. Demais itens conferidos (CE-GO arts. 79, § 1º, e 80; ADCT art. 6º; notícia da Alego de 15/6/2021)
+- 2026-10-17 15:24 — corrigido e verificado var:go-tcm-dos-municipios: acrescentada vigencia.nota sobre a interrupção entre 18/9 e 6/11/1997 (EC est. 19 e 21/1997); demais itens conferidos (CE-GO arts. 79-80)
+- 2026-10-17 15:24 — corrigido e verificado rel:tcm-goias-auxilia-camara-municipal: acrescentada vigencia.nota sobre a interrupção entre 18/9 e 6/11/1997 (EC est. 19 e 21/1997); demais itens conferidos (CE-GO arts. 79-80)
+- 2026-10-17 15:24 — verificado fonte:alego-noticia-pec-5022-2021 (15/6/2021; PEC 5022/21 rejeitada, relatório pela rejeição aprovado por 26 a 2; arquivo: cópia no Wayback 20261017125532)
+- 2026-10-17 15:24 — verificado achado:go-norma-criacao-ccm: lacuna confirmada. Busca ampliada (ementas de 1969-1977 no portal da Casa Civil; secundárias) sem achar ato de criação além da própria Lei 8.338/1977; registrado o indício da Lei 8.268/1977 (redação original citava o Tribunal de Contas). Ponto em aberto continua aberto
+- 2026-10-17 15:25 — corrigido e verificado norma:pa-ec-88-2023: a nota dizia que a data de publicação não fora conferida e vigencia.de era null, mas o rodapé do próprio PDF da Alepa traz "DOE Nº 35.433, DE 14/06/2023"; ficou publicacao = vigencia.de = 2023-06-14. arquivo: cópia no Wayback (20261017130159). Art. 1º (art. 186, par. único) e art. 2º conferidos
+- 2026-10-17 15:25 — verificado norma:pa-constituicao-1989 (PDF da Alepa: arts. 71, §§ 1º a 5º, 118 — sete conselheiros, e 123 conferidos; última emenda citada no PDF é a EC 72; sem correção)
+- 2026-10-17 15:25 — verificado fonte:tcmpa-institucional (página reconsultada em 2026-10-17: EC est. 13 de 16/10/1980, Lei 5.033 de 18/10/1982, instalação em 1/3/1983, LC 109/2016; sem correção)
+- 2026-10-17 15:25 — verificado org:tcm-para (CE-PA arts. 71, 118 e 123; página do TCMPA; sem correção)
+- 2026-10-17 15:25 — verificado var:pa-tcm-dos-municipios (sem correção)
+- 2026-10-17 15:25 — verificado rel:tcm-para-auxilia-camara-municipal (CE-PA art. 71, §§ 1º e 2º; sem correção)
+- 2026-10-17 15:25 — verificado achado:pa-constituicao-consolidada-desatualizada (PDF da Alepa cita emendas só até a EC 72; continua sem versão oficial atualizada; notas acrescidas)
+- 2026-10-17 15:27 — verificado norma:ce-ec-92-2017 (cabeçalho "DE 16.08.17 (D.O. 21.08.17)"; art. 1º extinção a partir da publicação; art. 2º disponibilidade; arts. 3º e 4º servidores, procuradores e auditores ao TCE-CE; art. 22 vigência; art. 23 revoga a EC 87/2016; EC 95, de 27/6/2019 (DO 4/7/2019), acrescenta par. único ao art. 2º; sem correção)
+- 2026-10-17 15:27 — verificado fonte:stf-adi-867 (andamentos, decisões e partes conferidos no portal do STF / notícia conferida; incidente confere com a classe e o número; sem correção)
+- 2026-10-17 15:27 — verificado fonte:stf-adi-5763 (andamentos, decisões e partes conferidos no portal do STF / notícia conferida; incidente confere com a classe e o número; sem correção)
+- 2026-10-17 15:27 — verificado fonte:stf-adi-7772 (andamentos, decisões e partes conferidos no portal do STF / notícia conferida; incidente confere com a classe e o número; sem correção)
+- 2026-10-17 15:27 — verificado fonte:stf-noticia-adi-5638-liminar (andamentos, decisões e partes conferidos no portal do STF / notícia conferida; incidente confere com a classe e o número; sem correção)
+- 2026-10-17 15:27 — verificado fonte:stf-noticia-adi-5638-prejudicada (andamentos, decisões e partes conferidos no portal do STF / notícia conferida; incidente confere com a classe e o número; sem correção)
+- 2026-10-17 15:27 — verificado org:tcm-ceara (EC 92/2017, ADI 5638, ADI 5763, ADI 7772 conferidos; sem correção). Origem/data de criação do TCM-CE continua sem fonte oficial: buscas no BELT da AL-CE e na web não acharam o ato de criação
+- 2026-10-17 15:27 — verificado var:ce-tcm-dos-municipios (sem correção)
+- 2026-10-17 15:27 — corrigido e verificado norma:ma-ec-9-1993: texto conferido na cópia da Repórter Brasil (arts. 1º, 2º, 4º — novo art. 151, § 1º, com o TCE, 6º e 7º; fecho de 25/3/1993); confiança secundario mantida. vigencia.de "1993" não tinha incerta: true; acrescentados incerta e nota (publicação entre 25/3 e 30/4/1993, data de protocolo da ADI 867)
+- 2026-10-17 15:27 — corrigido e verificado org:tcm-maranhao: vigencia.ate "1993" sem incerta: true; acrescentados incerta e nota. Fatos conferidos (ADI 867: PGR requerente, liminar indeferida em 6/5/1993, improcedente por unanimidade em 10/10/1994; EC 9/1993; ADCT art. 35 da edição de nov/2025)
+- 2026-10-17 15:27 — corrigido e verificado var:ma-tcm-dos-municipios: vigencia.ate "1993" ganhou incerta: true e nota
+- 2026-10-17 15:27 — verificado fonte:al-ma-constituicao-2025 (edição comemorativa com emendas 1/1989 a 101/2024; ADCT art. 35 cita o "antigo Conselho de Contas dos Municípios"; sem texto da EC 9/1993; sem correção)
+- 2026-10-17 15:27 — verificado achado:ma-ec-9-1993-sem-texto-oficial (edições da AL-MA de 2021 e nov/2025 conferidas: não trazem a EC 9/1993; sem correção)
+- 2026-10-17 15:27 — norma:lei-4737-1965: arquivo preenchido com cópia nova no Wayback (20261017130128). Pedidos de cópia sem retorno (arquivo segue null): fonte:stf-adi-867, fonte:stf-noticia-adi-5638-liminar, fonte:stf-noticia-adi-5638-prejudicada, fonte:tcm-ba-historia, fonte:al-ma-constituicao-2025, norma:ce-ec-92-2017, norma:rj-rio-de-janeiro-lei-183-1980, norma:rj-rio-de-janeiro-lei-289-1981, fonte:stf-re-729744
+- 2026-10-17 15:28 — fora do escopo (anotar para a piloto-estrutura): norma:ec-139-2026 diz nas notas que é "a emenda mais recente"; o Planalto já publica a EC 140 e a EC 141, ambas de 16/10/2026 (posteriores à data de referência; não alteram os arts. 14, 29, 31 e 75). A nota ficou desatualizada
+- 2026-10-17 15:28 — sugestões (sem edição): usar "restrita_a" nas cinco relações rel:tcm-*-auxilia-camara-municipal; o arquétipo municipal poderia ganhar a relação de julgamento das contas de gestão do prefeito pelo tribunal de contas (ADPF 982, CF art. 71, II)
+- 2026-10-17 15:28 — pontos em aberto: (1) achado:go-norma-criacao-ccm continua aberto (busca ampliada sem sucesso); (2) data da Lei 183/1980-RJ resolvida: 23/10/1980, confirmada também pela Lei mun. 289/1981, art. 77; achado mantido porque o título da página da Câmara segue errado; (3) origem do TCM-CE e do TCM-MA continua sem fonte oficial; (4) julgamento das contas do prefeito pela Câmara resolvido: STF, RE 729.744 (Tema 157) e RE 848.826 (Tema 835), ambos de 10/8/2016
+- 2026-10-17 15:28 — concluída: 70 entidades do escopo verificadas (19 com correção). Criadas 2 entidades novas, com status coletado, para conferência independente: fonte:stf-re-729744 e norma:rj-rio-de-janeiro-lei-289-1981. npm run validar: nenhum erro. Status: verificada

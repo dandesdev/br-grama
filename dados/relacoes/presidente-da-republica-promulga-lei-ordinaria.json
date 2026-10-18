@@ -5,7 +5,7 @@
   "relacao": "promulga",
   "de": "cargo:presidente-da-republica",
   "para": "obj:lei-ordinaria",
-  "condicao": "Em 48 horas, nos casos de sanção tácita e de veto derrubado.",
+  "condicao": "Promulga a lei que sancionou; nos casos de sanção tácita e de veto derrubado, tem 48 horas para fazê-lo.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -18,8 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; condição corrigida"
   }
 }

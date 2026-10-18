@@ -3,7 +3,7 @@
   "tipo": "achado",
   "nome": "Prazo da sanção tácita: 'quinze dias' ou 'quinze dias úteis'?",
   "resumo": "A CF dá 15 dias úteis para o veto, mas, ao tratar da sanção tácita, fala só em 'prazo de quinze dias'.",
-  "detalhes": "O art. 66, § 1º, fixa 15 dias úteis para o veto; o § 3º diz que, 'decorrido o prazo de quinze dias', o silêncio importa sanção, sem repetir 'úteis'. Lemos o § 3º como referência ao prazo do § 1º, que é a leitura que mantém o sistema coerente, mas o texto não é explícito. Não buscamos doutrina nem jurisprudência que confirme essa leitura.",
+  "detalhes": "O art. 66, § 1º, fixa 15 dias úteis para o veto; o § 3º diz que, 'decorrido o prazo de quinze dias', o silêncio importa sanção, sem repetir 'úteis'. Lemos o § 3º como referência ao prazo do § 1º, a leitura que mantém o sistema coerente. O próprio Senado reconheceu a falta de clareza: a PEC nº 48/2017 propunha escrever no § 3º que o prazo se conta em dias úteis, mas foi arquivada ao fim da legislatura, em 21/12/2022, e o texto continua o mesmo. Não buscamos jurisprudência.",
   "tipo_achado": "ambiguidade-normativa",
   "gravidade": "baixa",
   "afeta": [
@@ -22,8 +22,19 @@
   ],
   "confianca": "inferido",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
-  }
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; ambiguidade confirmada; acrescentada a PEC 48/2017"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "PEC nº 48/2017 (Senado): explicitar 'dias úteis' no art. 66, § 3º; arquivada em 21/12/2022",
+      "url": "https://www.congressonacional.leg.br/materias/materias-bicamerais/-/ver/pec-48-2017-sf"
+    }
+  ],
+  "onde_procuramos": [
+    "CF, art. 66 (texto compilado do Planalto)",
+    "Página oficial da PEC nº 48/2017 no portal do Congresso Nacional"
+  ]
 }

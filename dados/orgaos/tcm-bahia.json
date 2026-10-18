@@ -4,9 +4,10 @@
   "poder": "legislativo",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal"
   },
   "id": "org:tcm-bahia",
   "nome": "Tribunal de Contas dos Municípios do Estado da Bahia",
@@ -22,7 +23,7 @@
   "fontes": [
     {
       "ref": "norma:ba-constituicao-1989",
-      "dispositivo": "arts. 91 e 94"
+      "dispositivo": "arts. 91, 94 e 95"
     },
     {
       "ref": "norma:cf-1988",

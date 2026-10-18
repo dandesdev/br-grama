@@ -15,9 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas; API /processo/9026396 consultada em 2026-10-17: apresentada 2026-04-01, situação REJEITADA em 2026-04-29 (Sim 34, Não 42, abst. 1); /processo?sigla=MSF&ano=2026 traz as MSF 1 a 57 e só a 7 é indicação ao STF"
   },
   "notas": "Apresentada em 2026-04-01; rejeitada pelo Plenário em 2026-04-29 (dados abertos: processo id 9026396). Não há outra mensagem de indicação ao STF em 2026 nos dados abertos do Senado consultados em 2026-10-16."
 }

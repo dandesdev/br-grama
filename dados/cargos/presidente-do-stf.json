@@ -17,7 +17,7 @@
     }
   ],
   "detalhes": "Representa o Tribunal perante os demais Poderes. Preside também o Conselho Nacional de Justiça e, nos julgamentos de crimes de responsabilidade, a sessão do Senado. O Vice-Presidente do STF o substitui em licenças, ausências e impedimentos.",
-  "provimento_nota": "Eleito pelos ministros do STF, dentre eles, em voto secreto; quórum de oito ministros; vence no primeiro escrutínio quem tiver mais da metade dos votos dos membros; no segundo concorrem os dois mais votados e, sem maioria, vence o mais antigo (RISTF, art. 12, §§ 1º a 6º).",
+  "provimento_nota": "Eleito pelo Tribunal, dentre os ministros, em voto secreto (RISTF, art. 2º, parágrafo único, e art. 12, § 1º); quórum de oito ministros; vence no primeiro escrutínio quem obtiver votos de mais da metade dos membros do Tribunal; no segundo concorrem os dois mais votados e, sem essa maioria, vence o mais antigo (RISTF, art. 12, §§ 2º a 6º).",
   "mandato": {
     "anos": 2,
     "reconducao": "vedada a reeleição para o período imediato (RISTF, art. 12)",
@@ -40,8 +40,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; CF arts. 52, parágrafo único; 80; 96, I, a; 103-B, § 1º e RISTF arts. 2º, parágrafo único, 12 a 14 conferidos (consolidado até a ER 59/2023, a última); provimento_nota reescrita: maioria é de votos de mais da metade dos membros (art. 12, § 4º), e a eleição pelo Tribunal vem do art. 2º, parágrafo único"
   }
 }

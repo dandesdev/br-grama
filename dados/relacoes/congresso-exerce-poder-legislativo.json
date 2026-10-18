@@ -16,10 +16,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "A CF diz que o Poder Legislativo 'é exercido pelo' Congresso. Não há termo 'exerce' no vocabulário; usamos 'integra'.",
+  "notas": "A CF diz que o Poder Legislativo \"é exercido pelo\" Congresso (art. 44).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; CF art. 44 conferido; nota interna atualizada (já usa o termo exerce do vocabulário v1)"
   }
 }

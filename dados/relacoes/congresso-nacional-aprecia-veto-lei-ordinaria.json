@@ -7,7 +7,8 @@
   "para": "obj:lei-ordinaria",
   "quorum": {
     "regra": "maioria-absoluta",
-    "nota": "Para derrubar o veto: maioria absoluta dos deputados e dos senadores, contadas separadamente."
+    "nota": "Para derrubar o veto: maioria absoluta dos deputados e dos senadores, contadas separadamente.",
+    "votacao": "nominal"
   },
   "condicao": "Em sessão conjunta, em 30 dias; a derrubada exige maioria absoluta dos deputados e dos senadores, com votos contados separadamente.",
   "depende_de": [
@@ -24,13 +25,14 @@
     },
     {
       "ref": "norma:rccn",
-      "dispositivo": "art. 43; art. 104-A; art. 106"
+      "dispositivo": "art. 43; art. 104-A; art. 106; art. 106-B"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei"
   }
 }

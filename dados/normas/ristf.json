@@ -30,13 +30,20 @@
     {
       "titulo": "Versão consolidada (PDF) para a qual a página do STF aponta",
       "url": "https://api-atosnormativosprd.azurewebsites.net/api/normativo/apresentacao/consolidado/1737"
+    },
+    {
+      "titulo": "STF: base de atos normativos (inclui as emendas regimentais)",
+      "url": "https://atosnormativos.stf.jus.br/"
     }
   ],
-  "notas": "A página oficial aponta para a versão consolidada em PDF, que se diz 'atualizado até a Emenda Regimental n. 59/2023' (capa: Brasília, 2026). Não conferimos se houve emendas regimentais depois da ER 59/2023. Publicado no DJ de 27/10/1980; vigência a partir de 1º/12/1980 (art. 368).",
+  "notas": "A página oficial aponta para a versão consolidada em PDF, que se diz \"atualizado até a Emenda Regimental n. 59/2023\" (capa: Brasília, 2026). Em 2026-10-17 a base oficial de atos normativos do STF (atosnormativos.stf.jus.br; API normativos/query com codigoNorma \"Emenda Regimental\") lista as ER 1 a 59, e a mais recente é a ER 59, de 18/12/2023, publicada em 8/1/2024; não há emenda regimental posterior. Resposta guardada em pesquisa/brutos/stf/2026-10-17/atos-normativos-emendas-regimentais.json. Publicado no DJ de 27/10/1980; vigência a partir de 1º/12/1980 (art. 368).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
-  }
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; data (Sala das Sessões, 15/10/1980), DJ 27/10/1980 e art. 368 conferidos no PDF consolidado; ausência de ER posterior à 59/2023 conferida na base oficial de atos normativos do STF"
+  },
+  "compilacao_ate": "ER 59/2023",
+  "redacao_conferida_em": "2026-10-17"
 }

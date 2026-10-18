@@ -26,13 +26,18 @@
     {
       "ref": "fonte:stf-noticia-adpf-1259-1260",
       "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-processo-adpf-1259",
+      "dispositivo": null
     }
   ],
   "confianca": "oficial",
-  "notas": "Dispositivos da Lei 1.079/1950 sobre esse processo (legitimidade para denunciar, quórum, afastamento) foram suspensos por liminar nas ADPFs 1259 e 1260 em dezembro de 2025. Ver achado:lei-1079-adpf-1259-1260.",
+  "notas": "Em dezembro de 2025, liminar nas ADPFs 1259 e 1260 fixou quórum de 2/3 para os pareceres dos arts. 47 e 54 da Lei 1.079/1950 e suspendeu o afastamento automático (art. 57, a e c); a parte que restringia a denúncia ao PGR foi suspensa pelo próprio relator em 10/12/2025. Sem referendo do Plenário até 2026-10-17. Ver achado:lei-1079-adpf-1259-1260.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; CF art. 52, II e parágrafo único, e Lei 1.079/1950, arts. 39 a 73, conferidos; nota corrigida: a legitimidade para denunciar não está mais suspensa desde 10/12/2025"
   }
 }

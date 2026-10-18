@@ -10,6 +10,12 @@
     "pessoa:geraldo-alckmin"
   ],
   "gravidade": "baixa",
+  "onde_procuramos": [
+    "dadosabertos.tse.jus.br: sem conjunto de filiados (lista de pacotes em 2026-10-16 e 2026-10-17)",
+    "cdn.tse.jus.br/estatistica/sead/eleitorado/filiados/ (HTTP 404 nos nomes testados em 2026-10-16 e 2026-10-17)",
+    "www.tse.jus.br e divulgacandcontas.tse.jus.br (HTTP 403 ao acesso automatizado)",
+    "biografias de ex-deputado na Câmara (camara.leg.br/deputados/139289/biografia e /65480/biografia): mostram o partido em cada mandato, mas não a data de filiação"
+  ],
   "vigencia": {
     "de": null,
     "ate": null
@@ -23,9 +29,10 @@
   ],
   "confianca": "indisponivel",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-pessoas"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-pessoas",
+    "notas": "coletado em piloto-pessoas; lacuna reconfirmada em 2026-10-17; buscas registradas em onde_procuramos"
   },
   "notas": "Procurado: dadosabertos.tse.jus.br (sem conjunto de filiados na lista de pacotes em 2026-10-16), cdn.tse.jus.br/estatistica/sead/eleitorado/filiados/ (404 nos nomes testados), divulgacandcontas.tse.jus.br e www.tse.jus.br (HTTP 403). A Câmara e o Senado têm essas datas só para parlamentares."
 }

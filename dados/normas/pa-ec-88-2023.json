@@ -9,16 +9,18 @@
   "ente": "ente:pa",
   "url": "https://bancodeleis.alepa.pa.gov.br/arquivos/lei88_2023_44445.pdf",
   "acesso_em": "2026-10-16",
-  "arquivo": null,
+  "arquivo": "https://web.archive.org/web/20261017130159/https://bancodeleis.alepa.pa.gov.br/arquivos/lei88_2023_44445.pdf",
   "vigencia": {
-    "de": null,
+    "de": "2023-06-14",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; data de publicação achada no próprio PDF"
   },
-  "notas": "Altera o art. 186 da CE-PA. Vigora na publicação (art. 2º), cuja data não foi conferida; por isso vigencia.de é null. Usada aqui para mostrar que o texto consolidado da Alepa está defasado e que o TCM-PA seguia na Constituição em 2023."
+  "notas": "Altera o art. 186 da CE-PA. Vigora na publicação (art. 2º), no DOE nº 35.433, de 14/6/2023 (rodapé do PDF da Alepa). Usada aqui para mostrar que o texto consolidado da Alepa está defasado e que o TCM-PA seguia na Constituição em 2023.",
+  "publicacao": "2023-06-14"
 }

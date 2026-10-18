@@ -2,8 +2,8 @@
   "id": "obj:lei-ordinaria",
   "tipo": "objeto",
   "nome": "Lei ordinária federal",
-  "resumo": "Norma geral aprovada pelo Congresso por maioria simples e sancionada pelo Presidente da República.",
-  "detalhes": "É a espécie de lei mais comum. Trata de qualquer matéria que a Constituição não reserve a lei complementar, a decreto legislativo ou a resolução.",
+  "resumo": "Norma geral aprovada pelo Congresso por maioria simples e enviada à sanção do Presidente da República.",
+  "detalhes": "Trata das matérias que a Constituição não reserva a outra espécie, como lei complementar, decreto legislativo ou resolução. Se o Presidente não se manifestar em 15 dias úteis, ou se o Congresso derrubar o veto, o projeto vira lei mesmo sem sanção expressa (art. 66, §§ 3º a 7º).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
   "vigencia": {
@@ -13,13 +13,20 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 47; art. 59, III; art. 61"
+      "dispositivo": "art. 47; art. 48, caput; art. 59, III; art. 61; art. 66"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-17",
-    "tarefa": "migracao-v1"
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em migracao-v1; corrigido: resumo dizia \"sancionada pelo Presidente\", mas há lei sem sanção expressa (sanção tácita ou veto derrubado, art. 66, §§ 3º a 7º); detalhes dizia \"a espécie mais comum\", sem fonte; caráter residual marcado como inferido; fontes ganharam arts. 48 e 66"
+  },
+  "campos": {
+    "detalhes": {
+      "confianca": "inferido",
+      "nota": "O caráter residual da lei ordinária é dedução: a CF lista as espécies (art. 59) e reserva matérias a lei complementar, decreto legislativo e resolução em dispositivos próprios (ex.: arts. 49, 51 e 52), sem dizer isso de forma expressa."
+    }
   }
 }

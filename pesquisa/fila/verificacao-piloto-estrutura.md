@@ -1,16 +1,16 @@
 ---
 id: verificacao-piloto-estrutura
 escopo: "Verificação independente: entidades com verificacao.tarefa = "piloto-estrutura" ou "migracao-v1""
-status: em-andamento
+status: verificada
 depende_de: []
 iniciada_em: 2026-10-17T09:50
-concluida_em: null
+concluida_em: 2026-10-17T15:30
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com verificacao.tarefa = "piloto-estrutura" ou "migracao-v1" conferidas contra a fonte (liste com: `grep -l '"tarefa": "...' dados/*/*.json`)
-- [ ] Pontos em aberto da coleta, resolvidos ou documentados:
+- [x] Todas as entidades com verificacao.tarefa = "piloto-estrutura" ou "migracao-v1" conferidas contra a fonte (liste com: `grep -l '"tarefa": "...' dados/*/*.json`)
+- [x] Pontos em aberto da coleta, resolvidos ou documentados:
 - Lei 1.079/1950 e ADPFs 1259/1260: o que foi decidido depois da liminar de dez/2025 e a situação em 2026-10-01 (achado:lei-1079-adpf-1259-1260)
 - Veto ao projeto que aumentava o número de deputados para 531: foi apreciado? Muda algo para 2026-10-01?
 - RISTF: houve emendas regimentais depois da ER 59/2023 que afetem os dispositivos citados?
@@ -23,3 +23,105 @@ concluida_em: null
 - 2026-10-17 09:53 — verificado norma:ec-139-2026 (nota atualizada: EC 140/141 são de 16/10/2026)
 - 2026-10-17 09:53 — verificado norma:ec-111-2021 (sem correção)
 - 2026-10-17 09:54 — verificado norma:lc-152-2015 (sem correção)
+- 2026-10-17 15:14 — retomada após renovação da cota; 4 entidades verificadas em disco conferem com o diário; seguindo com norma:lc-78-1993 (veto ao PLP 177/2023)
+- 2026-10-17 15:14 — verificado norma:lc-78-1993; ponto em aberto resolvido: Veto 20/2025 (PLP 177/2023, 531 deputados) consta como Não Apreciado em 2026-10-17 (congressonacional.leg.br, veto/detalhe/17409; Wayback 20261017125654) — nada muda para 2026-10-01
+- 2026-10-17 15:15 — verificado fonte:stf-noticia-ado-38-deputados-2026 (sem correção; referendo do Plenário segue sem texto oficial)
+- 2026-10-17 15:15 — verificado cargo:deputado-federal (corrigido: detalhes diziam 'só pode ser julgado criminalmente pelo STF'; agora 'julgado pelo STF nas infrações penais comuns', com art. 102, I, b nas fontes; vagas_nota com situação do Veto 20/2025)
+- 2026-10-17 15:16 — verificado fonte:senado-quantos-senadores (sem correção)
+- 2026-10-17 15:16 — verificado cargo:senador (sem correção; dedução '2/3 em 2026' confirmada por imprensa, anotada em notas)
+- 2026-10-17 15:16 — verificado cargo:presidente-da-republica (sem correção de conteúdo; nota interna citava campo v0 'fontes_por_campo')
+- 2026-10-17 15:16 — verificado cargo:vice-presidente-da-republica (sem correção)
+- 2026-10-17 15:17 — verificado cargo:ministro-de-estado; ponto em aberto resolvido: contagem de 38 confere (32 no art. 17 + 6 no art. 18, II–VII); sem MPV 2025/2026 que crie ministério (API dadosabertos.camara, ementas); LC 179/2021 art. 9º tirou do Presidente do BC o cargo de Ministro, anotado em vagas_nota
+- 2026-10-17 15:17 — verificado norma:lei-14600-2023 (sem correção; compilacao_ate e redacao_conferida_em preenchidos)
+- 2026-10-17 15:18 — verificado cargo:ministro-do-stf (sem correção)
+- 2026-10-17 15:19 — verificado norma:ristf; ponto em aberto resolvido: a base oficial atosnormativos.stf.jus.br lista ER 1 a 59; não há emenda regimental depois da ER 59/2023 (18/12/2023, DJE 8/1/2024); lista salva em pesquisa/brutos/stf/2026-10-17/
+- 2026-10-17 15:19 — verificado cargo:presidente-do-stf (corrigido de leve: provimento_nota dizia 'mais da metade dos votos dos membros'; RISTF art. 12, § 4º exige votos de mais da metade dos membros do Tribunal; citado art. 2º, parágrafo único)
+- 2026-10-17 15:19 — verificado cargo:ministro-do-tcu (sem correção)
+- 2026-10-17 15:20 — verificado cargo:presidente-da-camara-dos-deputados (corrigido: faltava dispositivo para 'integra o Conselho da República e o Conselho de Defesa Nacional'; acrescentados CF arts. 89, II, e 91, II)
+- 2026-10-17 15:20 — verificado cargo:presidente-do-senado-federal (corrigido: faltava dispositivo para a participação nos Conselhos; acrescentados CF arts. 89, III, e 91, III)
+- 2026-10-17 15:20 — verificado ente:uniao (sem correção)
+- 2026-10-17 15:20 — verificado org:poder-executivo-federal (sem correção)
+- 2026-10-17 15:20 — verificado org:poder-legislativo-federal (sem correção)
+- 2026-10-17 15:20 — verificado org:poder-judiciario (sem correção)
+- 2026-10-17 15:20 — verificado org:presidencia-da-republica (corrigido: faltava campos.contido_em.fontes, exigido pela D34; acrescentados CF arts. 76–83 e Lei 14.600, art. 2º)
+- 2026-10-17 15:20 — verificado org:vice-presidencia-da-republica (sem correção)
+- 2026-10-17 15:20 — verificado org:congresso-nacional (corrigido de leve: 'dar posse ao Presidente e ao Vice' → 'receber o compromisso do Presidente e do Vice', como no art. 57, § 3º, III)
+- 2026-10-17 15:20 — verificado org:camara-dos-deputados (sem correção)
+- 2026-10-17 15:20 — verificado org:senado-federal (sem correção)
+- 2026-10-17 15:20 — verificado org:mesa-da-camara-dos-deputados (sem correção)
+- 2026-10-17 15:20 — verificado org:mesa-do-congresso-nacional (sem correção)
+- 2026-10-17 15:20 — verificado org:mesa-do-senado-federal (sem correção)
+- 2026-10-17 15:20 — verificado org:eleitorado-nacional (sem correção)
+- 2026-10-17 15:21 — verificado org:stf (sem correção)
+- 2026-10-17 15:21 — verificado org:tcu (sem correção)
+- 2026-10-17 15:24 — criada fonte:stf-processo-adpf-1259 (página oficial do processo; necessária para registrar a situação das ADPFs 1259/1260 no achado)
+- 2026-10-17 15:25 — verificado achado:lei-1079-adpf-1259-1260; ponto em aberto resolvido: em 10/12/2025 o relator suspendeu os itens (i) e (ii) da liminar (exclusividade do PGR) e retirou o referendo da pauta virtual; demais itens (quórum 2/3 nos arts. 47 e 54, suspensão do art. 57 a e c e de trecho do art. 70, art. 39, 4 e 5) seguiam em vigor em 2026-10-01; sem referendo (último andamento 18/2/2026); PL 1.388/2023 ainda tramita no Senado
+- 2026-10-17 15:25 — fonte:stf-processo-adpf-1259: Wayback do processo falhou (520); notícia de 10/12/2025 arquivada (20261017182442)
+- 2026-10-17 15:25 — verificado norma:lei-1079-1950 (corrigido: resumo omitia governadores/secretários estaduais (Parte Quarta) e o presidente do CGIBS (Parte Quinta, LC 227/2026); vigencia.de 1950-04-12 → 1950-05-27 incerta, porque a lei não tem cláusula de vigência e vale a regra de 45 dias da LINDB, art. 1º)
+- 2026-10-17 15:25 — verificado fonte:stf-noticia-adpf-1259-1260 (sem correção)
+- 2026-10-17 15:26 — verificado obj:contas-anuais-do-prefeito (sem correção; dispositivos sustentam)
+- 2026-10-17 15:26 — verificado obj:contas-anuais-do-presidente-da-republica (sem correção; dispositivos sustentam)
+- 2026-10-17 15:26 — verificado obj:lei-ou-ato-normativo-federal-ou-estadual (sem correção; dispositivos sustentam)
+- 2026-10-17 15:26 — verificado obj:lei-ordinaria (corrigido: resumo 'sancionada pelo Presidente' → 'enviada à sanção', porque há sanção tácita e derrubada de veto, art. 66; retirada a afirmação sem fonte 'espécie mais comum'; caráter residual marcado inferido em campos.detalhes; fontes + arts. 48 e 66)
+- 2026-10-17 15:27 — verificado rel:camara-toma-contas-presidente (nota interna desatualizada removida)
+- 2026-10-17 15:27 — verificado rel:congresso-exerce-poder-legislativo (nota interna desatualizada corrigida)
+- 2026-10-17 15:27 — verificado rel:tcu-emite-parecer-contas-presidente (nota interna desatualizada removida)
+- 2026-10-17 15:27 — verificado rel:presidente-da-camara-substitui-presidente-da-republica (nota interna desatualizada corrigida)
+- 2026-10-17 15:27 — verificado rel:stf-controla-constitucionalidade-leis-e-atos (corrigido: fonte duplicada, uma contida na outra; sugestão: o recurso extraordinário e a ADPF alcançam também normas municipais, que o objeto-alvo não inclui)
+- 2026-10-17 15:27 — verificado rel:tcu-fiscaliza-uniao (corrigido: a ressalva 'contratos, só o Congresso susta' não tinha dispositivo; acrescentado art. 71, §§ 1º e 2º)
+- 2026-10-17 15:27 — verificado rel:senado-julga-ministro-do-stf (corrigido: nota dizia que a legitimidade para denunciar estava suspensa; o relator revogou essa parte em 10/12/2025; acrescentada fonte:stf-processo-adpf-1259)
+- 2026-10-17 15:27 — verificado rel:camara-autoriza-processo-presidente (sem correção)
+- 2026-10-17 15:27 — verificado rel:camara-autoriza-processo-vice-presidente (sem correção)
+- 2026-10-17 15:27 — verificado rel:congresso-elege-ministro-do-tcu (sem correção)
+- 2026-10-17 15:27 — verificado rel:congresso-elege-presidente-da-republica (sem correção)
+- 2026-10-17 15:27 — verificado rel:congresso-elege-vice-presidente-da-republica (sem correção)
+- 2026-10-17 15:27 — verificado rel:congresso-fiscaliza-poder-executivo (sem correção)
+- 2026-10-17 15:27 — verificado rel:congresso-fiscaliza-uniao (sem correção)
+- 2026-10-17 15:27 — verificado rel:congresso-julga-contas-presidente (sem correção)
+- 2026-10-17 15:27 — verificado rel:deputados-elegem-presidente-da-camara (sem correção)
+- 2026-10-17 15:27 — verificado rel:eleitorado-elege-deputado-federal (sem correção)
+- 2026-10-17 15:27 — verificado rel:eleitorado-elege-presidente-da-republica (sem correção)
+- 2026-10-17 15:27 — verificado rel:eleitorado-elege-senador (sem correção)
+- 2026-10-17 15:27 — verificado rel:eleitorado-elege-vice-presidente-da-republica (sem correção)
+- 2026-10-17 15:27 — verificado rel:ministro-de-estado-auxilia-presidente (sem correção)
+- 2026-10-17 15:27 — verificado rel:ministros-do-stf-elegem-presidente-do-stf (sem correção)
+- 2026-10-17 15:27 — verificado rel:poder-executivo-federal-integra-uniao (sem correção)
+- 2026-10-17 15:27 — verificado rel:poder-judiciario-integra-uniao (sem correção)
+- 2026-10-17 15:27 — verificado rel:poder-legislativo-federal-integra-uniao (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-da-camara-preside-camara (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-da-camara-preside-mesa-da-camara (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-senado-preside-congresso (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-senado-preside-mesa-do-congresso (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-senado-preside-mesa-do-senado (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-senado-preside-senado (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-senado-substitui-presidente-da-republica (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-stf-preside-senado-em-julgamento (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-stf-preside-stf (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-do-stf-substitui-presidente-da-republica (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-exerce-poder-executivo (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-exonera-ministro-de-estado (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-indica-ministro-do-stf (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-indica-ministro-do-tcu (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-nomeia-ministro-de-estado (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-nomeia-ministro-do-stf (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-nomeia-ministro-do-tcu (sem correção)
+- 2026-10-17 15:27 — verificado rel:presidente-presta-contas-a-congresso (sem correção)
+- 2026-10-17 15:27 — verificado rel:senado-aprova-indicacao-ministro-do-stf (sem correção)
+- 2026-10-17 15:27 — verificado rel:senado-aprova-indicacao-ministro-do-tcu (sem correção)
+- 2026-10-17 15:27 — verificado rel:senado-julga-ministro-de-estado (sem correção)
+- 2026-10-17 15:27 — verificado rel:senado-julga-presidente-crime-de-responsabilidade (sem correção)
+- 2026-10-17 15:27 — verificado rel:senado-julga-vice-presidente-crime-de-responsabilidade (sem correção)
+- 2026-10-17 15:27 — verificado rel:senadores-elegem-presidente-do-senado (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-deputado-federal (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-ministro-de-estado (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-ministro-do-stf (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-ministro-do-tcu (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-presidente-crime-comum (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-senador (sem correção)
+- 2026-10-17 15:27 — verificado rel:stf-julga-vice-presidente-crime-comum (sem correção)
+- 2026-10-17 15:27 — verificado rel:tcu-auxilia-congresso (sem correção)
+- 2026-10-17 15:27 — verificado rel:tcu-indica-ministro-do-tcu (sem correção)
+- 2026-10-17 15:27 — verificado rel:vice-substitui-presidente (sem correção)
+- 2026-10-17 15:27 — verificado rel:vice-sucede-presidente (sem correção)
+- 2026-10-17 15:28 — sugestões (sem entidade nova): (1) obj:lei-ou-ato-normativo-federal-ou-estadual não cobre normas municipais, alcançadas por RE e ADPF (art. 102, III e § 1º); (2) EC 140 e 141/2026 (16/10/2026) mudam arts. 7º, 40, 198 e 201 — posteriores à data de referência, mas o texto do Planalto de hoje já as mostra: quem usar esses artigos deve conferir a redação anterior; (3) Lei 1.079/1950 também tem crimes de responsabilidade incluídos pela Lei 10.028/2000 (arts. 39-A, 40-A, 41-A), não citados
+- 2026-10-17 15:28 — validação sem erros; 101/101 entidades do escopo verificadas + 1 fonte nova (fonte:stf-processo-adpf-1259); status → verificada

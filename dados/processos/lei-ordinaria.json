@@ -24,7 +24,7 @@
         "cargo:procurador-geral-da-republica"
       ],
       "acao": "Apresenta o projeto de lei",
-      "detalhes": "Podem propor lei ordinária: deputados, senadores, comissões da Câmara, do Senado e do Congresso, o Presidente da República, o STF, os tribunais superiores, o PGR e os cidadãos (etapa própria). Alguns temas só podem ser propostos pelo Presidente, como criação de cargos no Executivo e efetivo das Forças Armadas (art. 61, § 1º). Os projetos do Presidente, do STF e dos tribunais superiores começam na Câmara (art. 64); os de comissão mista começam alternadamente em cada Casa (RCCN, art. 142).",
+      "detalhes": "Podem propor lei ordinária: deputados, senadores, comissões da Câmara, do Senado e do Congresso, o Presidente da República, o STF, os tribunais superiores, o PGR e os cidadãos (etapa própria). Alguns temas só podem ser propostos pelo Presidente, como criação de cargos na administração direta e autárquica e efetivo das Forças Armadas (art. 61, § 1º). Os projetos do Presidente, do STF e dos tribunais superiores começam na Câmara (art. 64); os de comissão mista começam alternadamente em cada Casa (RCCN, art. 142).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -86,7 +86,10 @@
       "acao": "Distribui o projeto às comissões e indica se elas decidem sozinhas (apreciação conclusiva) ou se o Plenário vota",
       "detalhes": "A CCJC sempre recebe o projeto; a CFT o recebe quando há impacto financeiro ou orçamentário; e até quatro comissões examinam o mérito. Se o tema envolver mais de quatro comissões de mérito, cria-se uma comissão especial. Vale tanto quando a Câmara é a casa iniciadora como quando é a revisora.",
       "prazo": {
-        "texto": "Até 2 sessões depois do recebimento (RICD, art. 139, caput)"
+        "texto": "Até 2 sessões depois do recebimento na Mesa (RICD, art. 139, caput)",
+        "valor": 2,
+        "unidade": "sessoes",
+        "conta_de": "recebimento na Mesa"
       },
       "fontes": [
         {
@@ -110,7 +113,7 @@
         "org:ccjc-camara"
       ],
       "acao": "Comissões de mérito, a CFT (finanças) e a CCJC (constitucionalidade) dão parecer e votam o projeto",
-      "detalhes": "Pela Constituição, o regimento pode dispensar o Plenário e deixar a decisão às comissões (apreciação conclusiva). No RICD isso não vale, entre outros casos, para projetos de código, de iniciativa popular, de comissão, sobre matéria que não pode ser delegada, já aprovados pelo Plenário do Senado, com pareceres divergentes ou em regime de urgência (art. 24, II). Os pareceres da CCJC sobre constitucionalidade e da CFT sobre adequação financeira são terminativos (art. 54).",
+      "detalhes": "Pela Constituição, o regimento pode dispensar o Plenário e deixar a decisão às comissões (apreciação conclusiva). No RICD isso não vale, entre outros casos, para projetos de código, de iniciativa popular, de comissão, sobre matéria que não pode ser delegada, vindos do Senado (ou por ele emendados) que já passaram pelo Plenário de uma das Casas, com pareceres divergentes ou em regime de urgência (art. 24, II). Os pareceres da CCJC sobre constitucionalidade e da CFT sobre adequação financeira são terminativos (art. 54).",
       "prazo": {
         "texto": "Por comissão: 40 sessões (tramitação ordinária), 10 (prioridade) ou 5 (urgência) (RICD, art. 52)"
       },
@@ -133,7 +136,11 @@
           "para": "camara-plenario",
           "quando": "Projeto sujeito ao Plenário: urgência, iniciativa popular, projeto de comissão ou de código, pareceres divergentes e outros casos"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Presente a maioria absoluta dos membros da comissão; no empate, prevalece o voto do relator (RICD, art. 56, § 2º)."
+      }
     },
     {
       "id": "camara-prazo-de-recurso",
@@ -147,7 +154,8 @@
         "texto": "5 sessões a partir da publicação do anúncio (RICD, art. 58, § 1º; art. 132, § 2º)",
         "valor": 5,
         "unidade": "sessoes",
-        "conta_de": "publicação do anúncio"
+        "conta_de": "publicação do anúncio",
+        "efeito": "sem recurso, o projeto vai à redação final ou ao arquivo"
       },
       "fontes": [
         {
@@ -255,7 +263,7 @@
         "org:ccj-senado"
       ],
       "acao": "Comissões dão parecer; nos casos terminativos, aprovam ou rejeitam o projeto sem passar pelo Plenário",
-      "detalhes": "As decisões terminativas são tomadas por votação nominal, por maioria dos votos, presente a maioria dos membros da comissão (RISF, art. 109). A CCJ opina sobre constitucionalidade e juridicidade quando o projeto lhe é enviado.",
+      "detalhes": "As decisões terminativas são tomadas por votação nominal, por maioria dos votos, presente a maioria dos membros da comissão (RISF, art. 109). A CCJ opina sobre constitucionalidade e juridicidade quando o projeto lhe é enviado. Se a CCJ der parecer pela inconstitucionalidade e injuridicidade, ou se todas as comissões opinarem contra o mérito, o projeto é arquivado, salvo recurso de um décimo dos senadores (RISF, arts. 101, § 1º, e 254).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -263,7 +271,7 @@
         },
         {
           "ref": "norma:risf",
-          "dispositivo": "arts. 91, 92, 101 e 109"
+          "dispositivo": "arts. 91, 92, 101, 109 e 254"
         }
       ],
       "seguintes": [
@@ -274,8 +282,17 @@
         {
           "para": "senado-plenario",
           "quando": "Projeto sujeito ao Plenário"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Projeto sujeito ao Plenário com parecer da CCJ pela inconstitucionalidade e injuridicidade, ou com pareceres contrários quanto ao mérito, sem recurso de um décimo dos senadores"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "maioria-simples",
+        "votacao": "nominal",
+        "nota": "Presente a maioria dos membros da comissão; a votação nominal é exigida nas decisões terminativas (RISF, art. 109)."
+      }
     },
     {
       "id": "senado-prazo-de-recurso",
@@ -288,7 +305,8 @@
         "texto": "5 dias úteis a partir da publicação da comunicação na Ordem do Dia (RISF, art. 91, § 3º)",
         "valor": 5,
         "unidade": "dias-uteis",
-        "conta_de": "publicação da comunicação na Ordem do Dia"
+        "conta_de": "publicação da comunicação na Ordem do Dia",
+        "efeito": "sem recurso, o projeto vai à sanção, à Câmara ou ao arquivo"
       },
       "fontes": [
         {
@@ -420,7 +438,7 @@
     },
     {
       "id": "envio-a-sancao",
-      "tipo_etapa": "decisao",
+      "tipo_etapa": "acao",
       "atores": [
         "org:camara-dos-deputados",
         "org:senado-federal"
@@ -437,7 +455,7 @@
         },
         {
           "ref": "norma:risf",
-          "dispositivo": "art. 328"
+          "dispositivo": "art. 48, XXVII; art. 328"
         }
       ],
       "seguintes": [
@@ -453,7 +471,11 @@
           "para": "sancao-tacita",
           "quando": "O Presidente não se manifesta em 15 dias úteis"
         }
-      ]
+      ],
+      "detalhes": "No Senado, os autógrafos destinados à sanção são assinados pelo Presidente da Casa (RISF, art. 48, XXVII). Quem decide o caminho seguinte (sanção, veto ou silêncio) é o Presidente da República.",
+      "prazo": {
+        "texto": "Na Câmara, até a segunda sessão seguinte à aprovação definitiva (RICD, art. 200); o RISF não fixa prazo"
+      }
     },
     {
       "id": "sancao",
@@ -491,7 +513,11 @@
       "acao": "O silêncio do Presidente por 15 dias úteis vale como sanção",
       "detalhes": "O § 3º do art. 66 fala em 'prazo de quinze dias' sem repetir 'úteis'; lemos como o mesmo prazo do § 1º (ver achado:prazo-sancao-tacita-dias-uteis). Neste caso, se o Presidente não promulgar a lei em 48 horas, a promulgação passa ao Presidente do Senado.",
       "prazo": {
-        "texto": "15 dias úteis contados do recebimento"
+        "texto": "15 dias úteis contados do recebimento",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "recebimento do projeto",
+        "efeito": "o silêncio do Presidente importa sanção"
       },
       "fontes": [
         {
@@ -543,7 +569,7 @@
         "org:congresso-nacional"
       ],
       "acao": "Deputados e senadores, em sessão conjunta, mantêm ou derrubam o veto; derrubar exige maioria absoluta em cada Casa",
-      "detalhes": "Para derrubar o veto, são necessários os votos da maioria absoluta dos deputados e da maioria absoluta dos senadores, contados separadamente. A votação é nominal, por cédula, em sessões convocadas para a terceira terça-feira de cada mês. Se o veto não for votado em 30 dias, entra na ordem do dia da sessão seguinte e as demais proposições ficam paradas até sua votação.",
+      "detalhes": "Para derrubar o veto, são necessários os votos da maioria absoluta dos deputados e da maioria absoluta dos senadores, contados separadamente; a votação começa pela Câmara, salvo veto a projeto de senador (RCCN, art. 43). A votação é nominal, por cédula, em sessões convocadas para a terceira terça-feira de cada mês. Se o veto não for votado em 30 dias, entra na ordem do dia da sessão seguinte e as demais proposições ficam paradas até sua votação.",
       "prazo": {
         "texto": "30 dias contados do protocolo do veto na Presidência do Senado; esgotado o prazo, o veto tranca a pauta da sessão conjunta",
         "valor": 30,
@@ -573,7 +599,8 @@
       ],
       "quorum": {
         "regra": "maioria-absoluta",
-        "nota": "Para derrubar: maioria absoluta dos deputados e dos senadores, contadas separadamente."
+        "nota": "Para derrubar: maioria absoluta dos deputados e dos senadores, contadas separadamente.",
+        "votacao": "nominal"
       }
     },
     {
@@ -600,7 +627,8 @@
       "prazo": {
         "texto": "48 horas nos casos de sanção tácita e de veto derrubado (CF, art. 66, § 7º)",
         "valor": 48,
-        "unidade": "horas"
+        "unidade": "horas",
+        "efeito": "a promulgação passa ao Presidente do Senado"
       },
       "fontes": [
         {
@@ -626,7 +654,10 @@
       ],
       "acao": "Promulga a lei no lugar do Presidente da República",
       "prazo": {
-        "texto": "48 horas"
+        "texto": "48 horas (CF, art. 66, § 7º)",
+        "valor": 48,
+        "unidade": "horas",
+        "efeito": "a promulgação passa ao Vice-Presidente do Senado"
       },
       "fontes": [
         {
@@ -680,7 +711,7 @@
         "org:imprensa-nacional"
       ],
       "acao": "A lei é publicada no Diário Oficial da União",
-      "detalhes": "Cabe ao Presidente da República fazer publicar as leis; a Imprensa Nacional edita o Diário Oficial da União, que é exclusivamente eletrônico.",
+      "detalhes": "Cabe ao Presidente da República fazer publicar as leis; a Imprensa Nacional edita o Diário Oficial da União, que é exclusivamente eletrônico e publica na íntegra os atos normativos. Quando a lei é promulgada pelo Presidente ou Vice-Presidente do Senado, ela também sai no DOU, mas nenhuma norma diz quem ordena a publicação (ver achado:publicacao-apos-promulgacao-supletiva).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -688,7 +719,7 @@
         },
         {
           "ref": "norma:decreto-9215-2017",
-          "dispositivo": "arts. 2º e 3º"
+          "dispositivo": "arts. 2º, 3º e 11"
         },
         {
           "ref": "norma:decreto-11329-2023",
@@ -742,7 +773,7 @@
         },
         {
           "ref": "norma:risf",
-          "dispositivo": "art. 91, § 5º"
+          "dispositivo": "art. 91, § 5º; art. 101, § 1º; art. 254"
         }
       ],
       "seguintes": []
@@ -755,19 +786,23 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "arts. 47, 58, 59, III, 61, 64 a 67 e 84, III a V"
+      "dispositivo": "arts. 14, III, 47, 48, 57, § 3º, IV, 58, § 2º, I, 59, III, 61, 64 a 67 e 84, III a V"
     },
     {
       "ref": "norma:ricd",
-      "dispositivo": "arts. 24, 52 a 58, 109, 132, 133, 139, 183, 200, 204 e 252"
+      "dispositivo": "arts. 24, 34, 52 a 58, 109, 123, 132, 133, 139, 144, 151, 183, 195 a 200, 204 e 252"
     },
     {
       "ref": "norma:risf",
-      "dispositivo": "arts. 48, 52, 91, 285 a 288, 328 e 375"
+      "dispositivo": "arts. 48, 49, 52, 91, 92, 101, 109, 254, 285 a 288, 328 e 375"
     },
     {
       "ref": "norma:rccn",
-      "dispositivo": "arts. 43, 104-A, 106 a 106-D e 142"
+      "dispositivo": "arts. 1º, VI, 43, 104-A, 106 a 106-D e 142"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "arts. 13 e 14"
     },
     {
       "ref": "norma:lindb",
@@ -776,14 +811,23 @@
     {
       "ref": "norma:lc-95-1998",
       "dispositivo": "art. 8º"
+    },
+    {
+      "ref": "norma:decreto-9215-2017",
+      "dispositivo": "arts. 2º, 3º e 11"
+    },
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I, art. 38, I"
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) as etapas de cada Casa são únicas e servem tanto à casa iniciadora quanto à revisora; o papel da Casa aparece no 'quando'. (2) A urgência constitucional é uma etapa lateral, mas na verdade é um regime que muda prazos de várias etapas e pode ser pedido em qualquer fase. (3) A etapa 'vigencia' não tem ator: usamos org:congresso-nacional porque a cláusula de vigência é fixada no texto aprovado (LC 95, art. 8º). (4) Não achamos dispositivo que diga quem manda publicar a lei quando a promulgação é feita pelo Presidente ou Vice-Presidente do Senado; a etapa 'publicacao' mantém o Presidente da República (CF, art. 84, IV). (5) O caminho do projeto do PGR para a Câmara se apoia no RICD, art. 109, § 1º, VII; o art. 64 da CF não menciona o PGR. (6) Iniciativas específicas fora do art. 61 (CF, arts. 51, IV, 52, XIII, 73 c/c 96, 127, § 2º, e 134, § 4º) não foram modeladas como atores. (7) RISF e RCCN conferidos em texto oficial atualizado até julho de 2025 (ver achado:risf-rccn-compilacao-ate-julho-2025).",
+  "notas": "Decisões de modelagem: (1) as etapas de cada Casa são únicas e servem tanto à casa iniciadora quanto à revisora; o papel da Casa aparece no 'quando'. (2) A urgência constitucional é o regime 'urgencia-constitucional', que muda prazos de várias etapas e pode ser pedida em qualquer fase. (3) A etapa 'vigencia' é um fim sem ator: a lei entra em vigor pelo decurso do prazo fixado no texto aprovado (LC 95, art. 8º) ou na LINDB. (4) Nenhuma norma diz quem manda publicar a lei quando a promulgação é feita pelo Presidente ou Vice-Presidente do Senado; a etapa 'publicacao' mantém o Presidente da República (CF, art. 84, IV) e a Imprensa Nacional (ver achado:publicacao-apos-promulgacao-supletiva). (5) O caminho do projeto do PGR para a Câmara se apoia no RICD, art. 109, § 1º, VII; o art. 64 da CF não menciona o PGR (ver achado:casa-iniciadora-projeto-do-pgr). (6) Iniciativas específicas fora do art. 61 (CF, arts. 51, IV, 52, XIII, 73 c/c 96, 127, § 2º, e 134, § 4º) não foram modeladas como atores. (7) RISF e RCCN conferidos em texto oficial atualizado até julho de 2025; a API de legislação do Senado não mostra resoluções posteriores que os alterem (ver achado:risf-rccn-compilacao-ate-julho-2025).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei; 24 etapas e o regime de urgência conferidos contra CF, RICD, RISF, RCCN, Lei 9.709, LINDB, LC 95 e Decretos 9.215 e 11.329; correções e acréscimos no diário da tarefa"
   },
   "regimes": [
     {
@@ -801,7 +845,7 @@
         },
         {
           "ref": "norma:ricd",
-          "dispositivo": "art. 204"
+          "dispositivo": "arts. 24, II, h; 52, I; 139, VI; 151, I, l; 204"
         },
         {
           "ref": "norma:risf",
@@ -810,21 +854,51 @@
       ],
       "efeitos": [
         {
+          "etapa": "camara-comissoes",
+          "prazo": {
+            "texto": "5 sessões por comissão (RICD, art. 52, I)",
+            "valor": 5,
+            "unidade": "sessoes"
+          },
+          "nota": "As comissões examinam o projeto ao mesmo tempo, e ele sempre vai ao Plenário: projeto em urgência não tem apreciação conclusiva (RICD, arts. 24, II, h; 139, VI; 151, I, l)."
+        },
+        {
           "etapa": "camara-plenario",
           "prazo": {
-            "texto": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento; depois, a pauta da Câmara fica trancada"
+            "texto": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento pela Câmara; depois, as demais deliberações da Câmara ficam sobrestadas, salvo as de prazo constitucional",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "recebimento do projeto pela Câmara",
+            "efeito": "sobrestamento das demais deliberações da Câmara até a votação"
           }
+        },
+        {
+          "etapa": "senado-comissoes",
+          "prazo": {
+            "texto": "Pareceres até o 25º dia do recebimento do projeto no Senado (RISF, art. 375, III)",
+            "valor": 25,
+            "unidade": "dias",
+            "conta_de": "recebimento do projeto pelo Senado"
+          },
+          "nota": "As comissões examinam o projeto ao mesmo tempo; emendas só na primeira comissão, em 5 dias (RISF, art. 375, I e II)."
         },
         {
           "etapa": "senado-plenario",
           "prazo": {
-            "texto": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento; depois, a pauta do Senado fica trancada"
+            "texto": "Com urgência pedida pelo Presidente da República: 45 dias do recebimento pelo Senado; depois, as demais deliberações do Senado ficam sobrestadas, salvo as de prazo constitucional",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "recebimento do projeto pelo Senado",
+            "efeito": "sobrestamento das demais deliberações do Senado até a votação"
           }
         },
         {
           "etapa": "camara-aprecia-emendas-do-senado",
           "prazo": {
-            "texto": "10 dias se houver urgência pedida pelo Presidente da República (CF, art. 64, § 3º)"
+            "texto": "10 dias se houver urgência pedida pelo Presidente da República (CF, art. 64, § 3º; RICD, art. 204, II)",
+            "valor": 10,
+            "unidade": "dias",
+            "efeito": "sobrestamento das demais deliberações da Câmara até a votação"
           }
         }
       ]

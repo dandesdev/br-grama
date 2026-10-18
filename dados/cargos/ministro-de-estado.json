@@ -17,7 +17,7 @@
     }
   ],
   "detalhes": "Orienta e supervisiona os órgãos da sua área, assina junto com o Presidente (referenda) os atos e decretos dele, expede instruções para executar leis e apresenta relatório anual ao Presidente (art. 87, parágrafo único).",
-  "vagas_nota": "Contagem nossa no texto compilado da Lei 14.600/2023 (acesso em 2026-10-16): 32 ministérios no art. 17 (incisos I a XXXI e XII-A, incluindo a CGU) e mais 6 titulares com cargo de Ministro de Estado no art. 18, II a VII (Casa Civil, Secretaria-Geral, Secretaria de Relações Institucionais, Secretaria de Comunicação Social, GSI e AGU). Os ministérios são criados e extintos por lei (CF, art. 88), então o número muda.",
+  "vagas_nota": "Contagem nossa no texto compilado da Lei 14.600/2023 (reconferida em 2026-10-17): 32 ministérios no art. 17 (incisos I a XXXI e XII-A, incluindo a CGU) e mais 6 titulares com cargo de Ministro de Estado no art. 18, II a VII (Casa Civil, Secretaria-Geral, Secretaria de Relações Institucionais, Secretaria de Comunicação Social, GSI e AGU). O Presidente do Banco Central deixou de ter cargo de Ministro de Estado com a LC 179/2021 (art. 9º). Os ministérios são criados e extintos por lei (CF, art. 88), então o número muda.",
   "mandato": null,
   "requisitos": [
     {
@@ -65,8 +65,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-estrutura",
+    "notas": "coletado em piloto-estrutura; art. 87 e parágrafo único, art. 84, I e II, art. 12, § 3º, VII conferidos; contagem de 38 refeita no texto compilado da Lei 14.600/2023 (última alteração: Lei 15.352/2026, sem efeito nos arts. 17 e 18); nenhuma MPV de 2025 ou 2026 com ementa que crie ministério (API da Câmara); imprensa de 2026 também fala em 38 pastas"
   }
 }

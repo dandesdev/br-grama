@@ -13,13 +13,15 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 48, caput; art. 66, caput e § 3º; art. 84, IV"
+      "dispositivo": "art. 48, caput; art. 66, caput e §§ 1º e 3º; art. 84, IV"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-processo-lei"
-  }
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-processo-lei",
+    "notas": "coletado em piloto-processo-lei"
+  },
+  "notas": "O prazo de 15 dias úteis vem do § 1º; o § 3º fala só em 'quinze dias' (ver achado:prazo-sancao-tacita-dias-uteis)."
 }

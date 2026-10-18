@@ -3,9 +3,10 @@
   "difere_de": "org:arquetipo-estadual-tce",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-16",
-    "tarefa": "piloto-municipal"
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "verificacao-piloto-municipal",
+    "notas": "coletado em piloto-municipal; vigencia.nota sobre a interrupção de 1997"
   },
   "id": "var:go-tcm-dos-municipios",
   "nome": "Tribunal de Contas dos Municípios de Goiás",
@@ -18,7 +19,8 @@
   "porque": "A CF admite tribunais ou conselhos de contas dos municípios onde houver (art. 31, § 1º); o de Goiás, antigo Conselho de Contas dos Municípios, está na Constituição goiana. Desde a EC 139/2026, não pode ser extinto.",
   "vigencia": {
     "de": "1988-10-05",
-    "ate": null
+    "ate": null,
+    "nota": "Interrupção: a EC estadual 19, de 10/9/1997 (DO de 18/9/1997), revogou o art. 80 da Constituição goiana e passou o controle dos municípios ao TCE-GO; a EC estadual 21, de 4/11/1997 (DO de 6/11/1997), recriou o TCM (anotações do texto compilado da Casa Civil de Goiás)."
   },
   "fontes": [
     {
