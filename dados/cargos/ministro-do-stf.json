@@ -72,7 +72,7 @@
     "status": "verificado",
     "em": "2026-10-17",
     "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; arts. 12, § 3º, IV; 40, § 1º, II; 52, III, a; 84, XIV; 93, VI; 95; 101 (EC 122/2022) e LC 152/2015, art. 2º, II conferidos; fontes da vacância já verificadas em verificacao-piloto-pessoas"
+    "notas": "coletado em piloto-estrutura; arts. 12, § 3º, IV; 40, § 1º, II; 52, III, a; 84, XIV; 93, VI; 95; 101 (EC 122/2022) e LC 152/2015, art. 2º, II conferidos; fontes da vacância já verificadas em verificacao-piloto-pessoas; vacância: data de início confirmada pelo decreto de 15/10/2025 (DOU 15/10/2025, ed. 197-A), retirado incerta"
   },
   "vacancias": [
     {
@@ -80,10 +80,14 @@
       "vigencia": {
         "de": "2025-10-18",
         "ate": null,
-        "incerta": true,
-        "nota": "Início da composição oficial sem o Ministro Barroso; a data da aposentadoria no DOU não foi conferida."
+        "nota": "Aposentadoria do Ministro Barroso a partir de 18/10/2025 (decreto de 15/10/2025, DOU do mesmo dia)."
       },
       "fontes": [
+        {
+          "ref": "norma:decreto-15-10-2025-aposentadoria-barroso",
+          "dispositivo": null,
+          "nota": "concede aposentadoria a partir de 18/10/2025"
+        },
         {
           "ref": "fonte:stf-composicao-plenaria-desde-2025-10-18",
           "dispositivo": null,
