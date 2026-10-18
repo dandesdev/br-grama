@@ -1,0 +1,26 @@
+{
+  "id": "rel:alessandro-vieira-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Alessandro Vieira é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:alessandro-vieira",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação SE.",
+  "vigencia": {
+    "de": "2019-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5982, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

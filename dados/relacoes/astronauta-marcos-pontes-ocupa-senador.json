@@ -1,0 +1,26 @@
+{
+  "id": "rel:astronauta-marcos-pontes-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Astronauta Marcos Pontes é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:astronauta-marcos-pontes",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação SP.",
+  "vigencia": {
+    "de": "2023-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 6009, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

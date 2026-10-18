@@ -1,0 +1,26 @@
+{
+  "id": "rel:luis-carlos-heinze-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Luis Carlos Heinze é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:luis-carlos-heinze",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação RS.",
+  "vigencia": {
+    "de": "2024-08-07",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 1186, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

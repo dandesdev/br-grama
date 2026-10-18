@@ -1,0 +1,26 @@
+{
+  "id": "rel:romario-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Romário é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:romario",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação RJ.",
+  "vigencia": {
+    "de": "2026-04-10",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5322, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

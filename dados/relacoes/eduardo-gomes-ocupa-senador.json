@@ -1,0 +1,26 @@
+{
+  "id": "rel:eduardo-gomes-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Eduardo Gomes é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:eduardo-gomes",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação TO.",
+  "vigencia": {
+    "de": "2022-11-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 3777, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

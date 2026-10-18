@@ -1,0 +1,26 @@
+{
+  "id": "rel:roberta-acioly-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Roberta Acioly é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:roberta-acioly",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação RR, como 1º suplente em exercício.",
+  "vigencia": {
+    "de": "2026-03-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 6025, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:lourdinha-pereira-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Lourdinha Pereira é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:lourdinha-pereira",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação MA, como 2º suplente em exercício.",
+  "vigencia": {
+    "de": "2026-08-05",
+    "ate": "2026-10-06"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 6359, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

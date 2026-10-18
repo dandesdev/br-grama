@@ -1,0 +1,26 @@
+{
+  "id": "rel:leila-barros-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Leila Barros é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:leila-barros",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação DF.",
+  "vigencia": {
+    "de": "2019-02-01",
+    "ate": "2026-10-03"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5979, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

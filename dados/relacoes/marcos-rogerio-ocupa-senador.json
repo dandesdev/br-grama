@@ -1,0 +1,26 @@
+{
+  "id": "rel:marcos-rogerio-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Marcos Rogério é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:marcos-rogerio",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação RO.",
+  "vigencia": {
+    "de": "2023-06-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5422, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

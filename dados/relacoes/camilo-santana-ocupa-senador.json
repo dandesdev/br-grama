@@ -1,0 +1,26 @@
+{
+  "id": "rel:camilo-santana-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Camilo Santana é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:camilo-santana",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação CE.",
+  "vigencia": {
+    "de": "2026-04-02",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 6336, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

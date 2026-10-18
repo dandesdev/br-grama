@@ -1,0 +1,26 @@
+{
+  "id": "rel:magno-malta-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Magno Malta é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:magno-malta",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação ES.",
+  "vigencia": {
+    "de": "2023-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 631, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

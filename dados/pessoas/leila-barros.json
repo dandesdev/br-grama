@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:leila-barros",
+  "tipo": "pessoa",
+  "nome": "Leila Barros",
+  "nome_civil": "Leila Gomes de Barros Rêgo",
+  "filiacoes": [
+    {
+      "partido": "org:partido-pdt",
+      "vigencia": {
+        "de": "2022-03-30",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senadores",
+          "dispositivo": "senador 5979, filiações"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5979"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página no Senado Federal",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5979"
+    }
+  ]
+}

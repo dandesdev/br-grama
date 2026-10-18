@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:eduardo-gomes",
+  "tipo": "pessoa",
+  "nome": "Eduardo Gomes",
+  "nome_civil": "Carlos Eduardo Torres Gomes",
+  "filiacoes": [
+    {
+      "partido": "org:partido-pl",
+      "vigencia": {
+        "de": "2022-04-01",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senadores",
+          "dispositivo": "senador 3777, filiações"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 3777"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página no Senado Federal",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3777"
+    }
+  ]
+}

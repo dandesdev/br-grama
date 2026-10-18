@@ -1,0 +1,43 @@
+{
+  "id": "pessoa:jaques-wagner",
+  "tipo": "pessoa",
+  "nome": "Jaques Wagner",
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": "1999-02-01",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senadores",
+          "dispositivo": "senador 581, filiações"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 581"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página no Senado Federal",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/581"
+    }
+  ]
+}

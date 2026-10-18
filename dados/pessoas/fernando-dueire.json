@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:fernando-dueire",
+  "tipo": "pessoa",
+  "nome": "Fernando Dueire",
+  "nome_civil": "Fernando Antonio Caminha Dueire",
+  "filiacoes": [
+    {
+      "partido": "org:partido-psd",
+      "vigencia": {
+        "de": "2026-04-02",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senadores",
+          "dispositivo": "senador 5917, filiações"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5917"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página no Senado Federal",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5917"
+    }
+  ]
+}

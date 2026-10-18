@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:giordano",
+  "tipo": "pessoa",
+  "nome": "Giordano",
+  "nome_civil": "Alexandre Luiz Giordano",
+  "filiacoes": [
+    {
+      "partido": "org:partido-pode",
+      "vigencia": {
+        "de": "2026-03-10",
+        "ate": null
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senadores",
+          "dispositivo": "senador 6008, filiações"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 6008"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página no Senado Federal",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6008"
+    }
+  ]
+}

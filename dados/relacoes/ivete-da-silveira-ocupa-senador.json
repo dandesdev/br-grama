@@ -1,0 +1,26 @@
+{
+  "id": "rel:ivete-da-silveira-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Ivete da Silveira é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:ivete-da-silveira",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação SC, como 1º suplente em exercício.",
+  "vigencia": {
+    "de": "2024-11-30",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 6010, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

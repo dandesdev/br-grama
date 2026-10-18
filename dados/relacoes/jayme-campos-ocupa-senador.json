@@ -1,0 +1,26 @@
+{
+  "id": "rel:jayme-campos-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Jayme Campos é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:jayme-campos",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação MT.",
+  "vigencia": {
+    "de": "2022-07-30",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 4531, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

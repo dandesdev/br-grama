@@ -1,0 +1,24 @@
+{
+  "id": "fonte:senado-api-senadores",
+  "tipo": "fonte",
+  "nome": "Dados abertos do Senado: senadores, mandatos e filiações",
+  "resumo": "Dados oficiais dos senadores da legislatura, com os períodos de exercício e as filiações partidárias.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/senador/lista/legislatura/57",
+  "acesso_em": "2026-10-18",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  },
+  "notas": "Também consultados, para cada senador, /senador/{codigo}/mandatos e /senador/{codigo}/filiacoes. Respostas resumidas em pesquisa/brutos/senado-dados-abertos/2026-10-18/."
+}

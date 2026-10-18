@@ -1,0 +1,26 @@
+{
+  "id": "rel:fernando-dueire-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Fernando Dueire é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:fernando-dueire",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação PE, como 1º suplente em exercício.",
+  "vigencia": {
+    "de": "2023-09-04",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5917, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

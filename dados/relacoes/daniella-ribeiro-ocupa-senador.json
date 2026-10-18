@@ -1,0 +1,26 @@
+{
+  "id": "rel:daniella-ribeiro-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Daniella Ribeiro é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:daniella-ribeiro",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação PB.",
+  "vigencia": {
+    "de": "2021-01-22",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5998, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}

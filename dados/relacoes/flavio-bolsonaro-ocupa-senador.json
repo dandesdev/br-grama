@@ -1,0 +1,26 @@
+{
+  "id": "rel:flavio-bolsonaro-ocupa-senador",
+  "tipo": "relacao",
+  "nome": "Flávio Bolsonaro é senador",
+  "relacao": "ocupa",
+  "de": "pessoa:flavio-bolsonaro",
+  "para": "cargo:senador",
+  "condicao": "Pela unidade da federação RJ.",
+  "vigencia": {
+    "de": "2019-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-senadores",
+      "dispositivo": "senador 5894, mandatos e exercícios"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-senado-senadores",
+    "notas": "Importação automática dos dados abertos do Senado (scripts/importar/senado-senadores.ts), conferida pelo script: 81 senadores em exercício na data de referência, 3 por UF."
+  }
+}
