@@ -1,0 +1,33 @@
+{
+  "id": "org:partido-missao",
+  "tipo": "orgao",
+  "nome": "Partido Missão",
+  "sigla": "MISSÃO",
+  "resumo": "Partido político com representação na Câmara dos Deputados em 01/10/2026.",
+  "tipo_orgao": "partido-politico",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "endpoint /partidos"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Partidos registrados no TSE",
+      "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+    }
+  ]
+}

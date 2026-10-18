@@ -1,0 +1,27 @@
+{
+  "id": "rel:aline-gurgel-ocupa-deputado-federal",
+  "tipo": "relacao",
+  "nome": "Aline Gurgel é deputado federal",
+  "relacao": "ocupa",
+  "de": "pessoa:aline-gurgel",
+  "para": "cargo:deputado-federal",
+  "condicao": "Pela unidade da federação AP, como titular.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Em exercício em 2026-10-01 segundo a Câmara. A data de início do exercício não foi importada."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 204353"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  }
+}

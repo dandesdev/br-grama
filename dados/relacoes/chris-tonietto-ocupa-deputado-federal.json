@@ -1,0 +1,27 @@
+{
+  "id": "rel:chris-tonietto-ocupa-deputado-federal",
+  "tipo": "relacao",
+  "nome": "Chris Tonietto é deputado federal",
+  "relacao": "ocupa",
+  "de": "pessoa:chris-tonietto",
+  "para": "cargo:deputado-federal",
+  "condicao": "Pela unidade da federação RJ, como titular.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Em exercício em 2026-10-01 segundo a Câmara. A data de início do exercício não foi importada."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 204462"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  }
+}

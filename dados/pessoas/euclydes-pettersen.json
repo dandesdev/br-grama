@@ -1,0 +1,45 @@
+{
+  "id": "pessoa:euclydes-pettersen",
+  "tipo": "pessoa",
+  "nome": "Euclydes Pettersen",
+  "nome_civil": "EUCLYDES MARCOS PETTERSEN NETO",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 204482"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página na Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/deputados/204482"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-republicanos",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido na data de referência (a última mudança de status registrada pela Câmara é de 2026-07-25). A data de filiação não foi importada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputados-em-exercicio",
+          "dispositivo": "deputado 204482, ultimoStatus"
+        }
+      ]
+    }
+  ]
+}

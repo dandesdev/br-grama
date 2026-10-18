@@ -1,0 +1,27 @@
+{
+  "id": "rel:paulo-soares-ocupa-deputado-federal",
+  "tipo": "relacao",
+  "nome": "Paulo Soares é deputado federal",
+  "relacao": "ocupa",
+  "de": "pessoa:paulo-soares",
+  "para": "cargo:deputado-federal",
+  "condicao": "Pela unidade da federação SP, como suplente.",
+  "vigencia": {
+    "de": "2026-06-16",
+    "ate": "2026-10-15",
+    "nota": "Exercício iniciado em 2026-06-16; terminou em 2026-10-15 (afastamento de suplente). Conforme o histórico do deputado na Câmara."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 154700, /historico"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  }
+}

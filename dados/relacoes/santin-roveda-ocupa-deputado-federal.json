@@ -1,0 +1,27 @@
+{
+  "id": "rel:santin-roveda-ocupa-deputado-federal",
+  "tipo": "relacao",
+  "nome": "Santin Roveda é deputado federal",
+  "relacao": "ocupa",
+  "de": "pessoa:santin-roveda",
+  "para": "cargo:deputado-federal",
+  "condicao": "Pela unidade da federação PR, como suplente.",
+  "vigencia": {
+    "de": "2026-06-10",
+    "ate": "2026-10-09",
+    "nota": "Exercício iniciado em 2026-06-10; terminou em 2026-10-09 (afastamento de suplente). Conforme o histórico do deputado na Câmara."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 236518, /historico"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  }
+}

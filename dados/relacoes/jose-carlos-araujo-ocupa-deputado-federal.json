@@ -1,0 +1,27 @@
+{
+  "id": "rel:jose-carlos-araujo-ocupa-deputado-federal",
+  "tipo": "relacao",
+  "nome": "José Carlos Araujo é deputado federal",
+  "relacao": "ocupa",
+  "de": "pessoa:jose-carlos-araujo",
+  "para": "cargo:deputado-federal",
+  "condicao": "Pela unidade da federação BA, como suplente.",
+  "vigencia": {
+    "de": "2026-06-30",
+    "ate": null,
+    "nota": "Exercício iniciado em 2026-06-30. Conforme o histórico do deputado na Câmara."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 74140, /historico"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  }
+}

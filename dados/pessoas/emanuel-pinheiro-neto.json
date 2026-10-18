@@ -1,0 +1,45 @@
+{
+  "id": "pessoa:emanuel-pinheiro-neto",
+  "tipo": "pessoa",
+  "nome": "Emanuel Pinheiro Neto",
+  "nome_civil": "EMANUEL PINHEIRO DA SILVA PRIMO",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 198783"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página na Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/deputados/198783"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-psd",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido na data de referência (a última mudança de status registrada pela Câmara é de 2023-02-01). A data de filiação não foi importada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputados-em-exercicio",
+          "dispositivo": "deputado 198783, ultimoStatus"
+        }
+      ]
+    }
+  ]
+}

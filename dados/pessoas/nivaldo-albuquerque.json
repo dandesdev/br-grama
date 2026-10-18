@@ -1,0 +1,45 @@
+{
+  "id": "pessoa:nivaldo-albuquerque",
+  "tipo": "pessoa",
+  "nome": "Nivaldo Albuquerque",
+  "nome_civil": "NIVALDO FERREIRA DE ALBUQUERQUE NETO",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 194260"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos. Partido conferido no histórico porque houve mudança de status depois da data de referência."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página na Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/deputados/194260"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-uniao",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido na data de referência, conforme o histórico do deputado na Câmara. A data de filiação não foi importada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputados-em-exercicio",
+          "dispositivo": "deputado 194260, /historico"
+        }
+      ]
+    }
+  ]
+}

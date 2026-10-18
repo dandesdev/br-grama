@@ -1,0 +1,27 @@
+{
+  "id": "rel:jorge-araujo-ocupa-deputado-federal",
+  "tipo": "relacao",
+  "nome": "Jorge Araújo é deputado federal",
+  "relacao": "ocupa",
+  "de": "pessoa:jorge-araujo",
+  "para": "cargo:deputado-federal",
+  "condicao": "Pela unidade da federação BA, como suplente.",
+  "vigencia": {
+    "de": "2026-04-08",
+    "ate": "2026-10-13",
+    "nota": "Exercício iniciado em 2026-04-08; terminou em 2026-10-13 (afastamento de suplente). Conforme o histórico do deputado na Câmara."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 235800, /historico"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  }
+}

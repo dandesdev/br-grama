@@ -1,0 +1,24 @@
+{
+  "id": "fonte:camara-api-deputados-em-exercicio",
+  "tipo": "fonte",
+  "nome": "Dados abertos da Câmara: deputados em exercício",
+  "resumo": "Lista oficial dos deputados em exercício num período, com partido e unidade da federação.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Câmara dos Deputados",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?dataInicio=2026-10-01&dataFim=2026-10-01&itens=1000",
+  "acesso_em": "2026-10-18",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  },
+  "notas": "Respostas brutas (sem CPF, nascimento, foto ou e-mail) em pesquisa/brutos/camara-dados-abertos/2026-10-17/."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "pessoa:antonia-lucia",
+  "tipo": "pessoa",
+  "nome": "Antônia Lúcia",
+  "nome_civil": "ANTÔNIA LUCILÉIA CRUZ RAMOS CÂMARA",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-deputados-em-exercicio",
+      "dispositivo": "deputado 123756"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-camara-deputados",
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Página na Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/deputados/123756"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-mdb",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido na data de referência (a última mudança de status registrada pela Câmara é de 2023-02-01). A data de filiação não foi importada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputados-em-exercicio",
+          "dispositivo": "deputado 123756, ultimoStatus"
+        }
+      ]
+    }
+  ]
+}

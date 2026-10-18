@@ -164,11 +164,23 @@ export class Painel {
     if (ocup.length || vacancias.length) {
       const titulo = vagas === 1 ? "Ocupante" : `Ocupantes registrados (${ocup.length}${vagas ? ` de ${vagas}` : ""})`;
       partes.push(`<h3>${titulo} em ${formatarData(this.dados.data)}</h3>`);
-      partes.push(
-        ocup
-          .map(({ pessoa, partido }) => `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`)
-          .join(""),
-      );
+      const linhaOcupante = ({ pessoa, partido }: (typeof ocup)[number]) =>
+        `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`;
+      if (ocup.length <= 12) partes.push(ocup.map(linhaOcupante).join(""));
+      else {
+        // Muitos ocupantes (ex.: 513 deputados): composição por partido e a lista recolhida.
+        const porPartido = new Map<string, number>();
+        for (const o of ocup) {
+          const sigla = o.partido?.sigla ?? o.partido?.nome ?? "sem partido registrado";
+          porPartido.set(sigla, (porPartido.get(sigla) ?? 0) + 1);
+        }
+        const bancadas = [...porPartido].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+        partes.push(`<table class="bancadas"><caption>Por partido</caption>${bancadas
+          .map(([sigla, n]) => `<tr><th scope="row">${esc(sigla)}</th><td><span class="barra-bancada" style="width:${(100 * n) / bancadas[0][1]}%"></span></td><td>${n}</td></tr>`)
+          .join("")}</table>`);
+        const ordenados = [...ocup].sort((x, y) => x.pessoa.nome.localeCompare(y.pessoa.nome, "pt-BR"));
+        partes.push(`<details class="lista-ocupantes"><summary>Ver os ${ocup.length} nomes</summary>${ordenados.map(linhaOcupante).join("")}</details>`);
+      }
       for (const v of vacancias) {
         partes.push(`<div class="ocupante vaga">${v.vagas} cadeira${v.vagas > 1 ? "s" : ""} vaga${v.vagas > 1 ? "s" : ""} desde ${formatarData(v.vigencia.de)}${v.vigencia.incerta ? " (data aproximada)" : ""}</div>`);
       }
