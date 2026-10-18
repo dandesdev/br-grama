@@ -34,6 +34,7 @@ const CHAVES_COM_VOCABULARIO: Record<string, string> = {
   regra: "quorum",
   votacao: "votacao",
   unidade: "unidade_prazo",
+  natureza: "natureza_competencia",
 };
 
 /** Percorre o arquivo inteiro chamando visitar(chave, valor, caminho) em cada propriedade. */
@@ -78,6 +79,11 @@ for (const arq of lerArquivos()) {
     }
   });
 
+  if (ent.tipo === "relacao" && ent.relacao === "tem-competencia") {
+    const c = ent.competencia as { tipo?: string } | undefined;
+    if (!c) erro(arq.caminho, `relação "tem-competencia" exige o campo competencia`);
+    else if (c.tipo && !vocab.tipo_competencia?.[c.tipo]) erro(arq.caminho, `competencia.tipo "${c.tipo}" não está no vocabulário tipo_competencia`);
+  }
   if (ent.tipo === "cargo" && ent.provimento === "variavel" && !(ent.provimento_casos as unknown[])?.length) {
     erro(arq.caminho, `provimento "variavel" exige provimento_casos`);
   }

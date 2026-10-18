@@ -70,6 +70,8 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - **Prazo:** `{ texto, valor?, unidade?, conta_de?, efeito? }`. `texto` sempre presente; os demais quando a norma permitir estruturar.
 - **Regime:** variante que muda várias etapas, como a urgência constitucional: `{ id, nome, resumo, detalhes?, quem_aciona, fontes, efeitos: [{ etapa, prazo?, nota? }] }`.
 
+**Competência (D38).** Cada matéria (trânsito, saúde, direito civil) é um `obj:` com `tipo_objeto: "materia"`. A competência é uma relação `tem-competencia` do ente para a matéria, com `competencia: { tipo, natureza, nota? }`: `tipo` vem do vocabulário `tipo_competencia` (exclusiva, privativa, comum, concorrente, suplementar, interesse local, residual), e `natureza` é `legislativa` (legislar) ou `material` (executar). "Os estados" e "os municípios" como categoria são entes típicos (`ente:arquetipo-estadual`, `ente:arquetipo-municipal`, com `arquetipo`). As matérias não aparecem no mapa, só na matriz de competências.
+
 **Aviso.** `tipo_aviso`, `afeta`, `gravidade` e `onde_procuramos` (onde a informação foi buscada sem sucesso). Um fato com fonte (ex.: uma cadeira vaga) **não** é aviso: registre no próprio cargo.
 
 **Variação.** `entes`, `abrangencia` (`ente` ou `municipios-do-estado`), `difere_de` (órgão do arquétipo), `instancia` (órgão real), `substitui_relacoes` e `porque`.

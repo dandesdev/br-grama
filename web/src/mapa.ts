@@ -21,6 +21,7 @@ export const TRACO_GRUPO: Record<string, { estilo: "solid" | "dashed" | "dotted"
   "poderes-administrativos": { estilo: "dotted", seta: "tee" },
   recursos: { estilo: "dashed", seta: "triangle-backcurve", dash: [2, 6] },
   representacao: { estilo: "dashed", seta: "circle", dash: [10, 4] },
+  competencias: { estilo: "solid", seta: "square" },
 };
 
 const BORDA_CONFIANCA: Record<string, string> = {

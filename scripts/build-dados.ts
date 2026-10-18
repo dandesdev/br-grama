@@ -29,7 +29,9 @@ const vocabRelacoes = lerJson<Record<string, { grupo: string }>>("esquema/vocabu
 const ehNo = (e: Entidade | undefined): e is Entidade =>
   !!e &&
   vigenteEm(e as Parameters<typeof vigenteEm>[0], DATA_REFERENCIA) &&
-  (e.tipo === "cargo" || e.tipo === "objeto" || (e.tipo === "orgao" && e.tipo_orgao !== "partido-politico"));
+  (e.tipo === "cargo" ||
+    (e.tipo === "objeto" && e.tipo_objeto !== "materia") || // matérias aparecem na matriz de competências (D38)
+    (e.tipo === "orgao" && e.tipo_orgao !== "partido-politico"));
 
 const paiDe = (e: Entidade): string | undefined => {
   const pai = (e.tipo === "cargo" ? e.orgao : e.contido_em) as string | undefined;

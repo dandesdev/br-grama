@@ -69,6 +69,7 @@ export const GRUPOS_RELACAO: Record<string, string> = {
   "poderes-administrativos": "Poderes administrativos",
   recursos: "Recursos",
   representacao: "Representação",
+  competencias: "Competências",
 };
 
 export const NOMES_TIPO: Record<string, string> = {

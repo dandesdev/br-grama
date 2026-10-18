@@ -101,7 +101,23 @@
     "contas": { "nome": "Contas", "definicao": "Prestação de contas da gestão de recursos públicos." },
     "acao-judicial": { "nome": "Ação judicial", "definicao": "Tipo de processo levado a um tribunal (ex.: ação direta de inconstitucionalidade)." },
     "decisao": { "nome": "Decisão", "definicao": "Ato que resolve um caso concreto (ex.: julgamento, parecer)." },
+    "materia": { "nome": "Matéria", "definicao": "Assunto sobre o qual os entes podem legislar ou agir (ex.: trânsito, saúde, direito civil)." },
     "documento": { "nome": "Documento", "definicao": "Outro documento oficial com papel no funcionamento do Estado." }
+  },
+
+  "tipo_competencia": {
+    "exclusiva": { "nome": "Exclusiva", "definicao": "Só este ente exerce; não pode delegar (ex.: art. 21)." },
+    "privativa": { "nome": "Privativa", "definicao": "Só este ente legisla, mas lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único)." },
+    "comum": { "nome": "Comum", "definicao": "União, estados, DF e municípios agem juntos, em cooperação (art. 23)." },
+    "concorrente": { "nome": "Concorrente", "definicao": "A União faz as normas gerais e os estados e o DF as complementam (art. 24)." },
+    "suplementar": { "nome": "Suplementar", "definicao": "O ente completa a legislação federal e estadual no que couber (ex.: municípios, art. 30, II)." },
+    "interesse-local": { "nome": "Interesse local", "definicao": "O município legisla sobre assuntos de interesse local (art. 30, I)." },
+    "residual": { "nome": "Residual", "definicao": "Cabe ao ente o que não foi atribuído aos outros (estados, art. 25, § 1º)." }
+  },
+
+  "natureza_competencia": {
+    "legislativa": { "nome": "Legislar", "definicao": "Fazer as leis sobre a matéria." },
+    "material": { "nome": "Executar", "definicao": "Agir, prestar o serviço ou fiscalizar a matéria." }
   },
 
   "quorum": {

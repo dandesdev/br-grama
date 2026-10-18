@@ -12,7 +12,8 @@
         "tipo_ente": { "type": "string" },
         "uf": { "type": "string", "pattern": "^[A-Z]{2}$" },
         "codigo_ibge": { "type": "string", "pattern": "^\\d{1,7}$" },
-        "contido_em": { "$ref": "comum.schema.json#/$defs/id", "description": "Para municípios: o estado." }
+        "contido_em": { "$ref": "comum.schema.json#/$defs/id", "description": "Para municípios: o estado." },
+        "arquetipo": { "enum": ["estadual", "municipal"], "description": "Ente típico: representa todos os estados ou todos os municípios (ex.: na matriz de competências)." }
       },
       "unevaluatedProperties": false
     },
@@ -196,7 +197,18 @@
         "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
         "condicao": { "type": "string" },
         "depende_de": { "$ref": "comum.schema.json#/$defs/ids" },
-        "restrita_a": { "$ref": "comum.schema.json#/$defs/ids", "description": "Entes onde a relação vale, quando liga órgãos de arquétipo." }
+        "restrita_a": { "$ref": "comum.schema.json#/$defs/ids", "description": "Entes onde a relação vale, quando liga órgãos de arquétipo." },
+        "competencia": {
+          "description": "Obrigatório na relação 'tem-competencia'.",
+          "type": "object",
+          "required": ["tipo", "natureza"],
+          "properties": {
+            "tipo": { "type": "string", "description": "Vocabulário 'tipo_competencia'." },
+            "natureza": { "type": "string", "description": "Vocabulário 'natureza_competencia'." },
+            "nota": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
       },
       "unevaluatedProperties": false
     },
