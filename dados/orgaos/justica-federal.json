@@ -1,0 +1,39 @@
+{
+  "id": "org:justica-federal",
+  "tipo": "orgao",
+  "nome": "Justiça Federal",
+  "resumo": "Ramo do Judiciário que julga, em geral, as causas de interesse da União, de suas autarquias e empresas públicas. Formado pelos Tribunais Regionais Federais e pelos juízes federais.",
+  "detalhes": "Na primeira instância atuam os juízes federais, organizados em seções judiciárias, uma em cada estado e no DF, com sede na capital (art. 110). Os TRFs julgam os recursos contra as decisões deles (art. 108, II). O Conselho da Justiça Federal, que funciona junto ao STJ, faz a supervisão administrativa e orçamentária do primeiro e do segundo graus (art. 105, § 1º, II).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, III; art. 105, § 1º, II; arts. 106 a 110"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, III"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Ramo da Justiça modelado como 'conjunto': o vocabulário tipo_orgao não tem termo para ramo do Judiciário (proposto no diário). A competência dos juízes federais está no art. 109."
+}

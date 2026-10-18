@@ -1,0 +1,38 @@
+{
+  "id": "org:justica-estadual",
+  "tipo": "orgao",
+  "nome": "Justiça dos Estados e do Distrito Federal",
+  "resumo": "Ramo do Judiciário organizado por cada estado, com um Tribunal de Justiça e juízes de direito. A Justiça do Distrito Federal é organizada e mantida pela União.",
+  "detalhes": "Cada estado organiza sua Justiça seguindo os princípios da Constituição; a competência dos tribunais é definida na Constituição do estado, e a lei de organização judiciária é de iniciativa do Tribunal de Justiça (art. 125, § 1º). O estado pode criar a Justiça Militar estadual; onde o efetivo militar passa de vinte mil integrantes, a segunda instância pode ser um Tribunal de Justiça Militar (art. 125, § 3º).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "contido_em": "org:poder-judiciario",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII; art. 22, XVII; art. 92, VII; arts. 125 e 126"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Ramo da Justiça modelado como 'conjunto' (ver nota em org:justica-federal). Esfera 'estadual' por aproximação: inclui a Justiça do DF e Territórios, mantida pela União (art. 21, XIII). Sem 'ente', porque reúne os 27 tribunais de justiça. Na doutrina, a Justiça estadual tem competência residual (julga o que não cabe às demais); a CF não diz isso com essas palavras, por isso o texto não afirma."
+}

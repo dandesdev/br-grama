@@ -1,0 +1,25 @@
+{
+  "id": "obj:emenda-constitucional",
+  "tipo": "objeto",
+  "nome": "Emenda à Constituição",
+  "resumo": "Alteração do texto da Constituição Federal, aprovada em dois turnos por três quintos de cada Casa e promulgada pelas Mesas da Câmara e do Senado.",
+  "detalhes": "Não pode abolir a forma federativa, o voto direto, secreto, universal e periódico, a separação dos Poderes nem os direitos e garantias individuais (art. 60, § 4º). A Constituição não pode ser emendada durante intervenção federal, estado de defesa ou estado de sítio (art. 60, § 1º).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 59, I; art. 60"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "f0-legislativo"
+  }
+}

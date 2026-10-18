@@ -1,9 +1,9 @@
 ---
 id: f0-legislativo
 escopo: "Fatia 0: as demais espécies normativas do art. 59 da CF e os instrumentos de fiscalização do Congresso"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-17
 concluida_em: null
 ---
 
@@ -28,3 +28,6 @@ Fiscalização pelo Congresso:
 - f0-judiciario: `org:cnj`, tribunais (`org:trf-*`, `org:trt-*`, `org:tre-*`, `org:tj-*`)
 
 ## Diário
+- 2026-10-17 22:15 — iniciada; lidos CLAUDE.md, decisões, modelo de dados, protocolo, vocabulários e o modelo proc:lei-ordinaria
+- 2026-10-17 22:22 — gravado obj:emenda-constitucional
+- 2026-10-17 22:38 — gravados norma:resolucao-cn-1-2002, norma:resolucao-cn-3-1990, norma:lei-1579-1952, norma:lei-10001-2000, fonte:stf-informativo-657-adi-4029, fonte:stf-informativo-870-ms-27931 (Wayback deu 429: arquivo null nas URLs novas; tentar de novo)

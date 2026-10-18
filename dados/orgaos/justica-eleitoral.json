@@ -1,0 +1,39 @@
+{
+  "id": "org:justica-eleitoral",
+  "tipo": "orgao",
+  "nome": "Justiça Eleitoral",
+  "resumo": "Ramo do Judiciário especializado em matéria eleitoral. Formado pelo TSE, pelos TREs, pelos juízes eleitorais e pelas juntas eleitorais.",
+  "detalhes": "Não tem quadro próprio de magistrados: os membros dos tribunais eleitorais vêm do STF, do STJ, dos Tribunais de Justiça, dos TRFs e da advocacia, e servem por dois anos, no mínimo, e nunca por mais de dois biênios consecutivos (arts. 119, 120 e 121, § 2º). A organização e a competência dos tribunais, dos juízes de direito e das juntas eleitorais são definidas em lei complementar (art. 121).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, V; arts. 118 a 121"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, V"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-17",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Ramo da Justiça modelado como 'conjunto' (ver nota em org:justica-federal). A CF remete a competência à lei complementar (art. 121)."
+}

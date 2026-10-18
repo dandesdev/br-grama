@@ -1,9 +1,9 @@
 ---
 id: f0-judiciario
 escopo: "Fatia 0: o Poder Judiciário completo no nível da CF (arts. 92 a 126), com todos os tribunais reais"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-17
 concluida_em: null
 ---
 
@@ -33,3 +33,5 @@ Processo:
 - f0-legislativo: `obj:emenda-constitucional`, `obj:lei-complementar`
 
 ## Diário
+- 2026-10-17 22:14 — iniciada; lidos instruções, decisões, modelo de dados, protocolo, vocabulários e exemplos do piloto
+- 2026-10-17 22:19 — gravados org:justica-federal, org:justica-do-trabalho, org:justica-eleitoral, org:justica-militar-da-uniao, org:justica-estadual (CF, texto de pesquisa/brutos/planalto-cf/2026-10-16; EC 140 e 141 não tocam os arts. 92 a 126)

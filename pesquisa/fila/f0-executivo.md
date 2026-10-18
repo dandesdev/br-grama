@@ -1,9 +1,9 @@
 ---
 id: f0-executivo
 escopo: "Fatia 0: o Poder Executivo federal no nível da CF e da lei de organização dos ministérios, com ocupantes em 2026-10-01"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-17
 concluida_em: null
 ---
 
@@ -33,3 +33,4 @@ Processos:
 `org:banco-central`, `org:forcas-armadas`, `obj:tratado-internacional`, `obj:indulto`, `obj:decreto`
 
 ## Diário
+- 2026-10-17 22:14 — iniciada; lidos instruções, decisões, modelo de dados, protocolo, vocabulários e exemplos do piloto
