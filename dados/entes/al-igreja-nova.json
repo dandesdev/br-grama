@@ -1,0 +1,28 @@
+{
+  "id": "ente:al-igreja-nova",
+  "tipo": "ente",
+  "nome": "Igreja Nova",
+  "resumo": "Município de AL.",
+  "tipo_ente": "municipio",
+  "uf": "AL",
+  "contido_em": "ente:al",
+  "codigo_ibge": "2703205",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não importada; o ente existia na data-base da DTB (31/12/2025)."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:ibge-dtb-2025",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-ibge-dtb",
+    "notas": "Importação automática da DTB 2025 do IBGE (scripts/importar/ibge-dtb.ts), conferida pelo script: códigos únicos de 7 dígitos, prefixo da UF e contagem."
+  }
+}

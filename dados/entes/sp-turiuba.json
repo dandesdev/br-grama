@@ -1,0 +1,28 @@
+{
+  "id": "ente:sp-turiuba",
+  "tipo": "ente",
+  "nome": "Turiúba",
+  "resumo": "Município de SP.",
+  "tipo_ente": "municipio",
+  "uf": "SP",
+  "contido_em": "ente:sp",
+  "codigo_ibge": "3555208",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não importada; o ente existia na data-base da DTB (31/12/2025)."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:ibge-dtb-2025",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-18",
+    "tarefa": "importacao-ibge-dtb",
+    "notas": "Importação automática da DTB 2025 do IBGE (scripts/importar/ibge-dtb.ts), conferida pelo script: códigos únicos de 7 dígitos, prefixo da UF e contagem."
+  }
+}

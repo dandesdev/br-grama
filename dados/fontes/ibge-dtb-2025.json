@@ -1,0 +1,24 @@
+{
+  "id": "fonte:ibge-dtb-2025",
+  "tipo": "fonte",
+  "nome": "Divisão Territorial Brasileira 2025 (IBGE)",
+  "resumo": "Relação oficial de estados e municípios, com códigos do IBGE, na data-base de 31/12/2025.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+  "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/divisao_territorial/2025/DTB_2025.zip",
+  "acesso_em": "2026-10-17",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": "2025-12-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-17",
+    "tarefa": "importacao-ibge-dtb",
+    "notas": "Arquivo baixado do servidor oficial do IBGE; cópia local em pesquisa/brutos/ibge-dtb/2025/."
+  },
+  "notas": "A DTB 2026 ainda não foi publicada. Município instalado entre 31/12/2025 e 01/10/2026, se houver, não está nesta fonte."
+}

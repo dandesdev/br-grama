@@ -22,6 +22,15 @@ Cada `fonte:` e cada `norma:` guarda:
 
 Dados brutos pequenos (CSV, JSON) baixados de fontes oficiais vão para `pesquisa/brutos/<fonte>/<data>/`, sem edição.
 
+## Importações automáticas
+
+Quando existe uma base oficial estruturada e completa, os dados entram por script em `scripts/importar/`, não por agente. Exemplo: os estados e municípios vêm da Divisão Territorial Brasileira do IBGE (`scripts/importar/ibge-dtb.ts`).
+
+- O arquivo oficial baixado fica em `pesquisa/brutos/<fonte>/<ano>/`, para que a importação possa ser refeita.
+- O script confere o que importa: contagens, códigos únicos e coerência entre campos. Se algo não bater, ele para com erro em vez de gravar.
+- O script nunca sobrescreve uma entidade já pesquisada à mão. Só confere se os dois concordam.
+- As entidades importadas saem com `verificacao.status: "verificado"`, e a nota explica que a conferência foi feita pelo script. A revisão humana ou por agente se concentra no próprio script.
+
 ## Tarefas
 
 A pesquisa é dividida em tarefas pequenas: cada entregável deve caber numa sessão de agente, algo como 20 a 50 entidades. Cada tarefa é um arquivo em `pesquisa/fila/<id>.md`:

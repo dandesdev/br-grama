@@ -148,6 +148,17 @@ for (const linha of GRADE) {
   if (alturaLinha) y += alturaLinha + ESPACO_REGIOES;
 }
 
+// Os 5.570 municípios ficam fora do arquivo do site, exceto os citados por outra entidade
+// (ex.: São Paulo, que tem tribunal de contas próprio). Quando o site precisar de todos,
+// eles irão num arquivo à parte, carregado sob demanda (D29).
+const referenciados = new Set<string>();
+for (const e of entidades.values()) {
+  JSON.stringify(e, (chave, valor) => {
+    if (chave !== "id" && typeof valor === "string" && valor.startsWith("ente:")) referenciados.add(valor);
+    return valor;
+  });
+}
+
 const saida = {
   gerado_em: new Date().toISOString(),
   data_referencia: DATA_REFERENCIA,
@@ -159,7 +170,7 @@ const saida = {
   regioes,
   regiao_de: Object.fromEntries(nos.map((n) => [n.id, regiaoDe(n.id)])),
   layout,
-  entidades: Object.fromEntries(entidades),
+  entidades: Object.fromEntries([...entidades].filter(([id, e]) => e.tipo !== "ente" || e.tipo_ente !== "municipio" || referenciados.has(id))),
 };
 
 const dir = join(RAIZ, "web", "public", "dados");
