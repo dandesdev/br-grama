@@ -251,3 +251,6 @@ main { flex: 1; display: flex; min-height: 0; }
 .voltar { margin-bottom: 8px; font-size: 13px; }
 .ficha dd ul { padding-left: 16px; list-style: disc; }
 .relacoes li { margin-bottom: 8px; }
+
+.previa { padding: 6px 16px; font-size: 13px; background: var(--plano); border-bottom: 1px solid var(--linha); color: var(--tinta-2); }
+.previa a { color: var(--tinta); margin-left: 8px; }
