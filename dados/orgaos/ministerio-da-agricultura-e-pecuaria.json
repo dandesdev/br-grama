@@ -1,0 +1,65 @@
+{
+  "id": "org:ministerio-da-agricultura-e-pecuaria",
+  "tipo": "orgao",
+  "nome": "Ministério da Agricultura e Pecuária",
+  "sigla": "MAPA",
+  "resumo": "Cuida da política agrícola e da produção agropecuária, da defesa sanitária animal e vegetal e da segurança dos alimentos de origem agropecuária.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 76; art. 87"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 17, I"
+        }
+      ],
+      "nota": "A Lei 14.600/2023 trata os Ministérios num capítulo próprio (cap. III), fora da Presidência (cap. II). O SIORG mostra os ministérios como unidades abaixo da Presidência da República."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": null
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 17, I; art. 19; art. 18, I"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-12642-2025",
+      "dispositivo": "Anexo I",
+      "nota": "estrutura regimental"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão listado na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-executivo"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério da Agricultura e Pecuária (gov.br)",
+      "url": "https://www.gov.br/agricultura/pt-br/"
+    }
+  ]
+}

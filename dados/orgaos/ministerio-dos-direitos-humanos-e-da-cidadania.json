@@ -1,0 +1,65 @@
+{
+  "id": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "tipo": "orgao",
+  "nome": "Ministério dos Direitos Humanos e da Cidadania",
+  "sigla": "MDHC",
+  "resumo": "Cuida das políticas de promoção dos direitos humanos, como os da pessoa idosa, da criança e do adolescente e da pessoa com deficiência.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 76; art. 87"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 17, X"
+        }
+      ],
+      "nota": "A Lei 14.600/2023 trata os Ministérios num capítulo próprio (cap. III), fora da Presidência (cap. II). O SIORG mostra os ministérios como unidades abaixo da Presidência da República."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": null
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 17, X; art. 28; art. 18, I"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11341-2023",
+      "dispositivo": "Anexo I",
+      "nota": "estrutura regimental"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão listado na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-executivo"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério dos Direitos Humanos e da Cidadania (gov.br)",
+      "url": "https://www.gov.br/mdh/pt-br/"
+    }
+  ]
+}

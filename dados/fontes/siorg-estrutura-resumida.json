@@ -1,0 +1,23 @@
+{
+  "id": "fonte:siorg-estrutura-resumida",
+  "tipo": "fonte",
+  "nome": "SIORG: estrutura organizacional resumida do Poder Executivo federal",
+  "resumo": "Base oficial do Sistema de Organização e Inovação Institucional (SIORG) com órgãos e unidades do Executivo federal, siglas e hierarquia.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Ministério da Gestão e da Inovação em Serviços Públicos (SIORG)",
+  "url": "https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/resumida?codigoPoder=1&codigoEsfera=1&codigoNaturezaJuridica=1",
+  "acesso_em": "2026-10-17",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Arquivo de cerca de 96 MB, não copiado para pesquisa/brutos. Usado para siglas dos órgãos. O SIORG coloca todos os ministérios como unidades subordinadas à Presidência da República (codigoUnidadePai = 26), enquanto a Lei 14.600/2023 trata a Presidência (cap. II) e os Ministérios (cap. III) em capítulos separados."
+}

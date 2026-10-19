@@ -3,29 +3,58 @@
   "tipo": "orgao",
   "nome": "Tribunal Superior Eleitoral",
   "sigla": "TSE",
-  "resumo": "Tribunal superior da Justiça Eleitoral; pode propor projetos de lei sobre a Justiça.",
-  "detalhes": "Tem no mínimo sete membros: três ministros do STF e dois do STJ, eleitos pelos próprios tribunais, e dois advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF. Como tribunal superior, tem iniciativa de leis e seus projetos começam na Câmara.",
+  "resumo": "Tribunal superior da Justiça Eleitoral. Tem no mínimo sete membros vindos do STF, do STJ e da advocacia, que servem por dois anos, no mínimo.",
+  "detalhes": "Três membros são eleitos por voto secreto dentre os ministros do STF e dois dentre os do STJ; dois são advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF (art. 119). O Presidente e o Vice-Presidente são ministros do STF, e o Corregedor Eleitoral é ministro do STJ. Os membros servem por dois anos, no mínimo, e nunca por mais de dois biênios seguidos (art. 121, § 2º). Julga os recursos contra decisões dos TREs (Código Eleitoral, art. 22, II), e suas decisões são irrecorríveis, salvo as que contrariarem a Constituição e as que negarem habeas corpus ou mandado de segurança (art. 121, § 3º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:poder-judiciario",
-  "vigencia": {
-    "de": "1988-10-05",
-    "ate": null
-  },
+  "contido_em": "org:justica-eleitoral",
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 92, V; art. 118, I; art. 119; art. 61, caput; art. 96, II"
+      "dispositivo": "art. 92, V e §§ 1º e 2º; art. 61, caput; art. 96, II; art. 118, I; art. 119; art. 121, §§ 2º e 3º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 22, II"
+    },
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "página do TSE (sede e site)"
     }
   ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 118, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TSE",
+      "url": "https://www.tse.jus.br/"
+    },
+    {
+      "titulo": "Página do TSE no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-superior-eleitoral-tse/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O TSE já existia antes da CF/88; a data usada aqui é a da Constituição atual."
+  },
   "confianca": "oficial",
-  "notas": "O TSE já existia antes da CF/88. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
-  }
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario",
+    "notas": "Esboço verificado em verificacao-piloto-processo-lei e completado nesta tarefa; contido_em passou de org:poder-judiciario para org:justica-eleitoral."
+  },
+  "notas": "A CF fala em 'eleição, pelo voto secreto' dos juízes vindos do STF e do STJ, sem dizer quem vota; entende-se que são os próprios tribunais de origem (ver rel:stf-elege-ministro-do-tse e rel:stj-elege-ministro-do-tse)."
 }

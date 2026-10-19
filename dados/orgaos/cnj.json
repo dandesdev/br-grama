@@ -1,0 +1,64 @@
+{
+  "id": "org:cnj",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Justiça",
+  "sigla": "CNJ",
+  "resumo": "Órgão do Judiciário que controla a atuação administrativa e financeira dos tribunais e o cumprimento dos deveres funcionais dos juízes. Tem 15 conselheiros, com mandato de dois anos.",
+  "detalhes": "É presidido pelo Presidente do STF. Os outros 14 membros vêm da magistratura dos vários ramos, do Ministério Público, da advocacia e de dois cidadãos indicados pela Câmara e pelo Senado, e são nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado (art. 103-B, I a XIII e §§ 1º e 2º). Pode rever a legalidade de atos administrativos do Judiciário, receber reclamações contra juízes e tribunais, avocar processos disciplinares e aplicar sanções administrativas (art. 103-B, § 4º). O ministro do STJ é o Corregedor Nacional de Justiça (art. 103-B, § 5º). Não julga processos: as ações contra o CNJ são julgadas pelo STF (art. 102, I, r).",
+  "tipo_orgao": "judiciario-orgao-de-controle",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-judiciario",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, I-A e § 1º; art. 102, I, r; art. 103-B"
+    },
+    {
+      "ref": "norma:ec-45-2004",
+      "dispositivo": "arts. 1º, 5º e 10"
+    },
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "rodapé (endereço da sede em Brasília)"
+    },
+    {
+      "ref": "fonte:stf-adi-3367",
+      "dispositivo": null,
+      "nota": "STF julgou improcedente a ação contra a criação do CNJ pela EC 45/2004"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, I-A"
+        }
+      ]
+    },
+    "detalhes": {
+      "nota": "'Não julga processos' é leitura nossa do art. 103-B, § 4º, que dá ao CNJ só controle administrativo, financeiro e disciplinar.",
+      "confianca": "inferido"
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do CNJ",
+      "url": "https://www.cnj.jus.br/"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Criado pela EC 45/2004, em vigor desde a publicação em 31/12/2004 (art. 10); a EC mandou instalá-lo em até 180 dias (art. 5º). A data de instalação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Composição pela redação da EC 61/2009 (Presidente do STF como membro nato). Pendência: fontes secundárias dizem que a ementa da ADI 3367 afirma que o CNJ não tem competência sobre o STF e seus ministros; não conseguimos acessar o acórdão para confirmar, por isso o texto público não afirma isso."
+}

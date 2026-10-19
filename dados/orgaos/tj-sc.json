@@ -1,0 +1,55 @@
+{
+  "id": "org:tj-sc",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça de Santa Catarina",
+  "sigla": "TJSC",
+  "resumo": "Tribunal de segundo grau da Justiça estadual de Santa Catarina. Sede: Florianópolis.",
+  "detalhes": "Abrange: Santa Catarina. Sede: Florianópolis (SC). Julga, entre outros, os juízes estaduais e os membros do Ministério Público nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral (CF, art. 96, III). Suas competências são definidas na Constituição do estado, e a lei de organização judiciária é de iniciativa do próprio tribunal (CF, art. 125, § 1º).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "ente": "ente:sc",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais de Justiça' (nome e sigla); página do TJSC (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, VII; art. 93, III; art. 96, III; art. 125"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TJSC",
+      "url": "https://www.tjsc.jus.br/"
+    },
+    {
+      "titulo": "Página do TJSC no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-de-justica-de-santa-catarina-tjsc/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:sc. Nome conforme a lista do CNJ (o nome usado pelo próprio tribunal pode ser mais longo, ex.: \"do Estado de\"). Sede tirada do endereço na página do CNJ: \"Rua Álvaro Millen da Silveira, 208 - Centro - Florianópolis/SC - CEP: 88020-901\"."
+}

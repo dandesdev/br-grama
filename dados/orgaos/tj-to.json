@@ -1,0 +1,55 @@
+{
+  "id": "org:tj-to",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça do Tocantins",
+  "sigla": "TJTO",
+  "resumo": "Tribunal de segundo grau da Justiça estadual do Tocantins. Sede: Palmas.",
+  "detalhes": "Abrange: Tocantins. Sede: Palmas (TO). Julga, entre outros, os juízes estaduais e os membros do Ministério Público nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral (CF, art. 96, III). Suas competências são definidas na Constituição do estado, e a lei de organização judiciária é de iniciativa do próprio tribunal (CF, art. 125, § 1º).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "ente": "ente:to",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais de Justiça' (nome e sigla); página do TJTO (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, VII; art. 93, III; art. 96, III; art. 125"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TJTO",
+      "url": "http://www.tjto.jus.br/"
+    },
+    {
+      "titulo": "Página do TJTO no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-de-justica-do-tocantins-tjto/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:to. Nome conforme a lista do CNJ (o nome usado pelo próprio tribunal pode ser mais longo, ex.: \"do Estado de\"). Sede tirada do endereço na página do CNJ: \"Praça dos Girassóis, s/n - Centro - Palmas/TO - CEP: 77015-007\"."
+}

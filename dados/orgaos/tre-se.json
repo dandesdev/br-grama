@@ -1,0 +1,55 @@
+{
+  "id": "org:tre-se",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional Eleitoral de Sergipe",
+  "sigla": "TRE-SE",
+  "resumo": "Tribunal da Justiça Eleitoral no estado de Sergipe. Sede: Aracaju.",
+  "detalhes": "Abrange: Sergipe. Sede: Aracaju, capital do estado (CF, art. 120). Tem sete membros: quatro eleitos por voto secreto, que são dois desembargadores do Tribunal de Justiça e dois juízes de direito escolhidos pelo TJ; um juiz do TRF com sede na capital ou, se não houver, um juiz federal, escolhido pelo TRF respectivo; e dois advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo TJ (art. 120, § 1º).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-eleitoral",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais Eleitorais' (nome e link para o site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, V; art. 118, II; art. 120; art. 121"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 118, II"
+        }
+      ]
+    },
+    "sigla": {
+      "confianca": "inferido",
+      "nota": "A lista do CNJ não dá sigla para os TREs; usamos a do endereço do site (tre-se.jus.br)."
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRE-SE",
+      "url": "https://www.tre-se.jus.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (CF, art. 120; lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:se. Nome conforme a lista do CNJ. A sede vem da regra do art. 120 da CF (um TRE na capital de cada estado e no DF); a cidade é a capital de Sergipe."
+}

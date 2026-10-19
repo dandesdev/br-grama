@@ -1,0 +1,52 @@
+{
+  "id": "org:casa-civil",
+  "tipo": "orgao",
+  "nome": "Casa Civil da Presidência da República",
+  "resumo": "Órgão da Presidência que assiste diretamente o Presidente: coordena as ações do governo e acompanha os ministérios. Seu titular é Ministro de Estado.",
+  "detalhes": "Também analisa o mérito e a compatibilidade das propostas com as diretrizes do governo, inclusive as que tramitam no Congresso, e avalia a ação governamental (Lei 14.600/2023, art. 3º).",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, I"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, I; art. 3º; art. 18, II"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I",
+      "nota": "estrutura regimental da Casa Civil"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão anterior à Lei 14.600/2023; a data de criação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-executivo"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Casa Civil (gov.br)",
+      "url": "https://www.gov.br/casacivil/pt-br/"
+    }
+  ]
+}

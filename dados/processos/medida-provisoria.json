@@ -1,0 +1,537 @@
+{
+  "id": "proc:medida-provisoria",
+  "tipo": "processo",
+  "nome": "Tramitação da medida provisória",
+  "resumo": "Caminho da medida provisória: vale como lei desde a edição, passa por comissão mista, Câmara e Senado e vira lei ou perde a eficácia.",
+  "detalhes": "O Presidente edita a medida, que vigora de imediato por 60 dias, prorrogáveis por mais 60. Se o Congresso a aprovar, ela vira lei; se a rejeitar ou não terminar de votar no prazo, perde a eficácia desde a edição, e o Congresso pode regular os efeitos por decreto legislativo. Depois de 45 dias sem votação, ela tranca a pauta da Casa onde estiver.",
+  "forma": "linha",
+  "produz": "obj:medida-provisoria",
+  "etapas": [
+    {
+      "id": "edicao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "Edita a medida provisória, que vale como lei desde a publicação, e a envia de imediato ao Congresso",
+      "detalhes": "Só cabe em caso de relevância e urgência e fora das matérias vedadas (art. 62, § 1º; art. 246). O texto vai ao Congresso no dia da publicação no Diário Oficial, com a mensagem e um documento que expõe a motivação.",
+      "prazo": {
+        "texto": "Vigência de 60 dias da publicação, prorrogada uma vez por mais 60 se a votação não terminar nas duas Casas; o prazo fica suspenso no recesso (CF, art. 62, §§ 3º, 4º e 7º)",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "publicação da medida provisória",
+        "efeito": "sem conversão em lei no prazo total, a medida perde a eficácia desde a edição"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, caput e §§ 1º, 3º, 4º e 7º; art. 84, XXVI; art. 246"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 2º, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "comissao-mista-designacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "comissao-mista-designacao",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "cargo:deputado-federal",
+        "cargo:senador"
+      ],
+      "acao": "O Presidente do Congresso cria a comissão mista; deputados e senadores apresentam emendas em 6 dias",
+      "detalhes": "A comissão tem 12 senadores e 12 deputados, indicados pelos líderes (mais uma vaga por Casa para as bancadas minoritárias). Instalada em 24 horas, elege presidente e vice de Casas diferentes, alternando entre Câmara e Senado; o relator é da Casa diversa da do presidente. As emendas só podem ser apresentadas perante a comissão, e emenda sobre matéria estranha à medida é indeferida. Medida que abre crédito extraordinário vai à comissão mista de orçamento (art. 166, § 1º).",
+      "prazo": {
+        "texto": "Designação em 48 horas da publicação; emendas nos 6 primeiros dias (Resolução 1/2002-CN, arts. 2º e 4º)",
+        "valor": 6,
+        "unidade": "dias",
+        "conta_de": "publicação da medida provisória"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, § 5º; art. 62, § 9º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "arts. 2º a 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "comissao-mista-parecer",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "comissao-mista-parecer",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comissoes-mistas-do-congresso-nacional"
+      ],
+      "acao": "A comissão mista vota um parecer sobre constitucionalidade, urgência e relevância, finanças e mérito",
+      "detalhes": "O parecer é obrigatório antes da votação nos Plenários (STF, ADI 4029). Pode propor aprovar a medida como está, rejeitá-la ou alterá-la; se alterar, apresenta um projeto de lei de conversão e um projeto de decreto legislativo sobre os efeitos dos trechos mudados. O prazo de 14 dias da Resolução 1/2002-CN foi declarado inconstitucional pelo STF.",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Maioria dos votos, presente a maioria absoluta dos membros de cada Casa na comissão (Resolução 1/2002-CN, art. 4º, § 6º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, § 9º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 4º, § 6º; art. 5º, §§ 1º a 5º"
+        },
+        {
+          "ref": "fonte:stf-informativo-657-adi-4029",
+          "dispositivo": null,
+          "nota": "Parecer da comissão mista é fase obrigatória; inconstitucionalidade do art. 5º, caput, e do art. 6º, §§ 1º e 2º, da Resolução 1/2002-CN"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": "Parecer aprovado, favorável ou contrário"
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "A Câmara decide primeiro se há relevância e urgência e, se houver, vota o mérito",
+      "detalhes": "A votação sempre começa na Câmara. Se o Plenário concluir que faltam os pressupostos ou que a medida é inadequada do ponto de vista financeiro, ela é arquivada sem exame do mérito. A Câmara pode aprovar a medida como está ou na forma do projeto de lei de conversão.",
+      "prazo": {
+        "texto": "Até o 28º dia de vigência da medida, contado da publicação (Resolução 1/2002-CN, art. 6º, caput)",
+        "valor": 28,
+        "unidade": "dias",
+        "conta_de": "publicação da medida provisória"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Presente a maioria absoluta dos deputados (CF, art. 47)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47; art. 62, §§ 5º, 8º e 9º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 6º, caput; art. 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-plenario",
+          "quando": "Aprovada, no texto original ou como projeto de lei de conversão"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Rejeitada, ou sem relevância e urgência, ou inadequada financeiramente"
+        },
+        {
+          "para": "perda-de-eficacia",
+          "quando": "Vigência total esgotada sem votação concluída"
+        }
+      ]
+    },
+    {
+      "id": "senado-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "O Senado também decide sobre relevância e urgência e depois vota o mérito",
+      "detalhes": "O Senado pode começar a discutir antes, mas só vota depois que a Câmara terminar. Se o Senado alterar o texto, inclusive restabelecendo trecho rejeitado pela Câmara, a alteração volta à Câmara.",
+      "prazo": {
+        "texto": "Até o 42º dia de vigência da medida, contado da publicação (Resolução 1/2002-CN, art. 7º)",
+        "valor": 42,
+        "unidade": "dias",
+        "conta_de": "publicação da medida provisória"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Presente a maioria absoluta dos senadores (CF, art. 47)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47; art. 62, §§ 5º, 8º e 9º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 7º; art. 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-sem-alteracao",
+          "quando": "Medida aprovada sem alteração de mérito nas duas Casas"
+        },
+        {
+          "para": "envio-a-sancao",
+          "quando": "Projeto de lei de conversão aprovado sem modificação pelo Senado"
+        },
+        {
+          "para": "camara-aprecia-modificacoes",
+          "quando": "Aprovada com modificações do Senado"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Rejeitada, ou sem relevância e urgência, ou inadequada financeiramente"
+        },
+        {
+          "para": "perda-de-eficacia",
+          "quando": "Vigência total esgotada sem votação concluída"
+        }
+      ]
+    },
+    {
+      "id": "camara-aprecia-modificacoes",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "A Câmara vota as modificações do Senado em turno único, sem fazer novas alterações",
+      "prazo": {
+        "texto": "3 dias (Resolução 1/2002-CN, art. 7º, § 4º)",
+        "valor": 3,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 7º, §§ 3º a 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-sem-alteracao",
+          "quando": "Prevalece o texto original da medida, sem alteração de mérito"
+        },
+        {
+          "para": "envio-a-sancao",
+          "quando": "Prevalece um projeto de lei de conversão"
+        },
+        {
+          "para": "perda-de-eficacia",
+          "quando": "Vigência total esgotada sem votação concluída"
+        }
+      ]
+    },
+    {
+      "id": "promulgacao-sem-alteracao",
+      "atores": [
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "Aprovada sem alteração de mérito, a medida é promulgada pelo Presidente do Congresso e publicada como lei",
+      "detalhes": "Não há sanção: o texto do Presidente da República já foi aprovado como está.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, § 5º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "conversao-em-lei",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "envio-a-sancao",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal",
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O projeto de lei de conversão vai à sanção; sanção e veto seguem as regras da lei ordinária",
+      "detalhes": "A Casa onde a votação terminou envia o projeto ao Presidente. Até a sanção ou o veto, a medida original continua em vigor integralmente. Sanção, veto e derrubada do veto seguem proc:lei-ordinaria (etapas 'envio-a-sancao' a 'promulgacao-pelo-vice-presidente-do-senado'). Os trechos alterados também levam a comissão mista a preparar o decreto legislativo sobre os efeitos.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, § 12; art. 66"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 11, caput; art. 13"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "conversao-em-lei",
+          "quando": "Lei sancionada, ou promulgada após veto derrubado ou sanção tácita"
+        },
+        {
+          "para": "decreto-legislativo-efeitos",
+          "quando": "Para os efeitos do texto original que foi alterado"
+        }
+      ]
+    },
+    {
+      "id": "conversao-em-lei",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:imprensa-nacional"
+      ],
+      "acao": "A medida convertida em lei é publicada no Diário Oficial da União",
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "arts. 12 e 13"
+        },
+        {
+          "ref": "norma:decreto-11329-2023",
+          "dispositivo": "Anexo I, art. 38, I"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "rejeicao",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "Rejeitada por uma Casa, a medida perde a eficácia desde a edição e não pode ser reeditada na mesma sessão legislativa",
+      "detalhes": "O Presidente da Casa que rejeitou comunica o fato ao Presidente da República e publica no Diário Oficial um ato declaratório de rejeição.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, §§ 3º e 10"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 14, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto-legislativo-efeitos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "perda-de-eficacia",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "Sem votação concluída nas duas Casas em 60 + 60 dias, a medida perde a eficácia desde a edição",
+      "detalhes": "A prorrogação por mais 60 dias é automática e comunicada por ato do Presidente do Congresso. Esgotado o prazo total, ele comunica o fato ao Presidente da República e publica ato declaratório de encerramento da vigência. A medida não pode ser reeditada na mesma sessão legislativa.",
+      "prazo": {
+        "texto": "60 dias, prorrogados uma vez por igual período, sem contar o recesso (CF, art. 62, §§ 3º, 4º e 7º)",
+        "valor": 120,
+        "unidade": "dias",
+        "conta_de": "publicação da medida provisória",
+        "efeito": "perda da eficácia desde a edição"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, §§ 3º, 4º, 7º e 10"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 10; art. 14, parágrafo único; art. 18"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto-legislativo-efeitos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decreto-legislativo-efeitos",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comissoes-mistas-do-congresso-nacional",
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso pode editar decreto legislativo para regular o que aconteceu enquanto a medida vigorou",
+      "detalhes": "A comissão mista prepara o projeto de decreto legislativo; se não o fizer em 15 dias, qualquer deputado ou senador pode apresentá-lo na sua Casa. A tramitação começa na Câmara. O decreto legislativo não vai à sanção.",
+      "prazo": {
+        "texto": "60 dias após a rejeição ou a perda de eficácia (CF, art. 62, § 11)",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "rejeição ou perda de eficácia da medida",
+        "efeito": "sem decreto legislativo, as relações jurídicas do período continuam regidas pela medida"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 48, caput; art. 62, §§ 3º e 11"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 5º, § 4º, II; art. 11"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto-legislativo-editado",
+          "quando": "Decreto legislativo aprovado nas duas Casas"
+        },
+        {
+          "para": "relacoes-preservadas",
+          "quando": "Nenhum decreto legislativo em 60 dias"
+        }
+      ]
+    },
+    {
+      "id": "decreto-legislativo-editado",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente do Senado promulga o decreto legislativo que disciplina os efeitos da medida",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, § 3º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 48, XXVIII"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "relacoes-preservadas",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Sem decreto legislativo em 60 dias, os atos praticados durante a vigência continuam regidos pela medida",
+      "prazo": {
+        "texto": "60 dias após a rejeição ou a perda de eficácia",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "rejeição ou perda de eficácia da medida"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, § 11"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 11, § 2º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "urgencia-apos-45-dias",
+      "nome": "Trancamento de pauta depois de 45 dias",
+      "resumo": "Sem apreciação em 45 dias da publicação, a medida entra em regime de urgência e tranca as votações da Casa onde está",
+      "detalhes": "Vale sucessivamente na Câmara e no Senado e dura até a votação terminar. O STF (MS 27931) restringiu o bloqueio às matérias que podem ser tratadas por medida provisória: ficam livres as propostas de emenda constitucional e os projetos de lei complementar, de decreto legislativo, de resolução e de lei ordinária sobre temas vedados a medida provisória. O prazo não corre no recesso.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, §§ 4º e 6º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2002",
+          "dispositivo": "art. 9º; art. 18"
+        },
+        {
+          "ref": "fonte:stf-informativo-870-ms-27931",
+          "dispositivo": null,
+          "nota": "Interpretação conforme do art. 62, § 6º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-plenario",
+          "prazo": {
+            "texto": "Depois de 45 dias da publicação, as demais deliberações legislativas do Plenário da Câmara ficam sobrestadas até a votação",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "publicação da medida provisória",
+            "efeito": "sobrestamento das deliberações legislativas da Câmara sobre matérias passíveis de medida provisória"
+          }
+        },
+        {
+          "etapa": "senado-plenario",
+          "prazo": {
+            "texto": "Se a medida chegar ao Senado depois do 45º dia, as demais deliberações legislativas do Plenário do Senado ficam sobrestadas até a votação",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "publicação da medida provisória",
+            "efeito": "sobrestamento das deliberações legislativas do Senado sobre matérias passíveis de medida provisória"
+          }
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2001-09-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 47, 48, 57, § 5º, 59, V, 62, 66, 84, XXVI, e 246"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "arts. 2º a 14 e 18"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, XXVIII"
+    },
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I, art. 38, I"
+    },
+    {
+      "ref": "fonte:stf-informativo-657-adi-4029",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:stf-informativo-870-ms-27931",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:agencia-senado-comissoes-mp-2025",
+      "dispositivo": null,
+      "nota": "Situação de fato das comissões mistas até março de 2025"
+    },
+    {
+      "ref": "norma:ec-32-2001",
+      "dispositivo": "arts. 1º e 3º",
+      "nota": "Rito atual do art. 62, em vigor desde 12/9/2001"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) A prorrogação automática por mais 60 dias não é etapa própria: aparece no prazo da etapa 'edicao' e na etapa 'perda-de-eficacia'. (2) O trancamento de pauta é o regime 'urgencia-apos-45-dias', disparado pelo tempo, sem quem_aciona. (3) Sanção e veto do projeto de lei de conversão remetem a proc:lei-ordinaria. (4) Os arts. 5º, caput, e 6º, §§ 1º e 2º, da Resolução 1/2002-CN não foram usados, porque o STF os declarou inconstitucionais (ADI 4029); por isso a comissão mista não tem prazo próprio estruturado. (5) O processo segue as normas. Na prática, as comissões mistas deixaram de se reunir em 2020, na pandemia, voltaram em março de 2023 e pararam de novo até ao menos março de 2025, com medidas votadas direto nos Plenários (fonte:agencia-senado-comissoes-mp-2025); essa prática não foi modelada. (6) vigencia.de = vigor da EC 32/2001, que criou o rito atual; antes, a redação original previa 30 dias, sem prorrogação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

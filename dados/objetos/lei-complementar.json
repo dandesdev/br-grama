@@ -1,0 +1,26 @@
+{
+  "id": "obj:lei-complementar",
+  "tipo": "objeto",
+  "nome": "Lei complementar federal",
+  "resumo": "Lei sobre matérias que a Constituição reserva expressamente a ela; exige maioria absoluta em cada Casa e passa pela sanção do Presidente.",
+  "detalhes": "A iniciativa segue as regras da lei ordinária (art. 61). Medida provisória e lei delegada não podem tratar de matéria reservada a lei complementar (art. 62, § 1º, III; art. 68, § 1º). Exemplos de reserva: o número de deputados por estado (art. 45, § 1º) e a elaboração e consolidação das leis (art. 59, parágrafo único).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 45, § 1º; art. 48, caput; art. 59, II e parágrafo único; art. 61; art. 62, § 1º, III; art. 66; art. 68, § 1º; art. 69"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF não traz uma lista única das matérias de lei complementar: cada reserva está no dispositivo que pede 'lei complementar'. A sanção decorre do art. 48, caput, e do art. 66, que valem para os projetos de lei em geral; as exceções à sanção (arts. 49, 51 e 52) não incluem lei complementar.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -3,29 +3,58 @@
   "tipo": "orgao",
   "nome": "Tribunal Superior do Trabalho",
   "sigla": "TST",
-  "resumo": "Tribunal superior da Justiça do Trabalho; pode propor projetos de lei sobre a Justiça.",
-  "detalhes": "Tem 27 ministros, nomeados pelo Presidente da República depois de aprovação por maioria absoluta do Senado. Como tribunal superior, tem iniciativa de leis e seus projetos começam na Câmara.",
+  "resumo": "Tribunal superior da Justiça do Trabalho; julga, entre outros, os recursos contra decisões dos TRTs. Tem 27 ministros.",
+  "detalhes": "Um quinto dos ministros vem da advocacia e do Ministério Público do Trabalho, pela regra do art. 94; os demais são juízes de carreira dos TRTs indicados pelo próprio TST. Todos são nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado (art. 111-A). A competência do TST é definida em lei (art. 111-A, § 1º): pela CLT, julga o recurso de revista contra decisões dos TRTs em recurso ordinário (CLT, art. 896). Junto a ele funcionam a Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho e o Conselho Superior da Justiça do Trabalho (art. 111-A, § 2º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:poder-judiciario",
-  "vigencia": {
-    "de": "1988-10-05",
-    "ate": null
-  },
+  "contido_em": "org:justica-do-trabalho",
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 92, II-A; art. 111-A; art. 61, caput; art. 96, II"
+      "dispositivo": "art. 92, II-A e §§ 1º e 2º; art. 61, caput; art. 96, II; art. 111, I; art. 111-A"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 896"
+    },
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "página do TST (sede e site)"
     }
   ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TST",
+      "url": "https://www.tst.jus.br/"
+    },
+    {
+      "titulo": "Página do TST no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-superior-do-trabalho-tst/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O TST já existia antes da CF/88; a data usada aqui é a da Constituição atual."
+  },
   "confianca": "oficial",
-  "notas": "O inciso II-A do art. 92 foi incluído pela EC 92/2016; o TST já existia antes da CF/88. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
-  }
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario",
+    "notas": "Esboço verificado em verificacao-piloto-processo-lei e completado nesta tarefa; contido_em passou de org:poder-judiciario para org:justica-do-trabalho."
+  },
+  "notas": "O inciso II-A do art. 92 foi incluído pela EC 92/2016. Composição de 27 ministros e limite de idade na redação da EC 122/2022."
 }

@@ -1,0 +1,23 @@
+{
+  "id": "fonte:cnj-tribunais",
+  "tipo": "fonte",
+  "nome": "CNJ: página 'Tribunais' (lista dos tribunais brasileiros por ramo, com página de cada um)",
+  "resumo": "Lista oficial do CNJ com todos os tribunais do país, por ramo, e uma página por tribunal com endereço da sede e site oficial.",
+  "tipo_fonte": "pagina-oficial",
+  "publicador": "Conselho Nacional de Justiça",
+  "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/",
+  "acesso_em": "2026-10-17",
+  "arquivo": "http://web.archive.org/web/20261003205332/https://www.cnj.jus.br/poder-judiciario/tribunais/",
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "A lista traz 6 TRFs (com os estados de cada um), 27 TJs, 27 TREs, 24 TRTs (com os estados) e 3 TJMs. Cada tribunal, exceto os TREs, tem uma subpágina no CNJ (ex.: /poder-judiciario/tribunais/tribunal-regional-federal-da-1a-regiao-trf1/; TJAP e TJAM em /poder-judiciario/<slug>/) com endereço e site; os TREs apontam direto para o site do tribunal. Cópias brutas em pesquisa/brutos/cnj/2026-10-17/ (tribunais.html e subpaginas/). Na subpágina do TJPE o título diz 'Tribunal da Justiça de Pernambuco'; a lista principal diz 'Tribunal de Justiça de Pernambuco'."
+}

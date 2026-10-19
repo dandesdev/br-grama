@@ -1,0 +1,55 @@
+{
+  "id": "org:tjm-sp",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça Militar de São Paulo",
+  "sigla": "TJMSP",
+  "resumo": "Tribunal de segundo grau da Justiça Militar estadual de São Paulo, que julga os militares do estado nos crimes militares. Sede: São Paulo.",
+  "detalhes": "Abrange: São Paulo. Sede: São Paulo (SP). A Constituição permite criar Tribunal de Justiça Militar nos estados com efetivo militar acima de vinte mil integrantes; nos demais, o segundo grau da Justiça Militar estadual é o próprio Tribunal de Justiça (art. 125, § 3º). A Justiça Militar estadual julga os militares do estado (policiais e bombeiros militares) nos crimes militares definidos em lei e as ações contra atos disciplinares militares (art. 125, § 4º; art. 42).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "ente": "ente:sp",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais de Justiça Militar' (nome e sigla); página do TJMSP (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 42; art. 92, VII; art. 125, §§ 3º a 5º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII; art. 125, § 3º"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TJMSP",
+      "url": "https://www.tjmsp.jus.br/"
+    },
+    {
+      "titulo": "Página do TJMSP no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-de-justica-militar-de-sao-paulo-tjmsp/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:sp. Sede tirada do endereço na página do CNJ: \"R. Dr Vila Nova, 285 - Vila Buarque - São Paulo/SP - CEP: 01222-200\". Fica dentro de org:justica-estadual porque a Justiça Militar estadual é criada por lei estadual (art. 125, § 3º), e não dentro de org:justica-militar-da-uniao."
+}

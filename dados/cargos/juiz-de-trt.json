@@ -1,0 +1,87 @@
+{
+  "id": "cargo:juiz-de-trt",
+  "tipo": "cargo",
+  "nome": "Juiz de Tribunal Regional do Trabalho",
+  "resumo": "Integra um dos 24 TRTs, a segunda instância da Justiça do Trabalho. Quatro quintos vêm da promoção de juízes do trabalho; um quinto, da advocacia e do Ministério Público do Trabalho.",
+  "orgao": "org:justica-do-trabalho",
+  "provimento": "variavel",
+  "vagas": null,
+  "vagas_nota": "O número de cadeiras é fixado por lei para cada tribunal; não somamos.",
+  "provimento_casos": [
+    {
+      "quando": "Quatro quintos das vagas: promoção de juízes do trabalho, por antiguidade e merecimento, alternadamente (carreira iniciada por concurso)",
+      "provimento": "concurso-publico",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 115"
+        }
+      ]
+    },
+    {
+      "quando": "Um quinto das vagas (quinto constitucional): advogado ou membro do Ministério Público escolhido por o Presidente da República dentre lista tríplice do tribunal",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 94"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Um quinto das vagas é de advogados e de membros do Ministério Público com mais de dez anos de atividade ou de carreira: a OAB ou o MP envia lista de seis nomes, o tribunal forma lista tríplice e o chefe do Executivo escolhe um em 20 dias (art. 94). Em todos os casos, a nomeação é do Presidente da República, sem aprovação do Senado (art. 115, caput; art. 84, XVI).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Não há mandato: o cargo é vitalício (art. 95, I). Aposentadoria compulsória aos 75 anos (art. 40, § 1º, II, aplicado aos magistrados pelo art. 93, VI; LC 152/2015, art. 2º, II)."
+  },
+  "detalhes": "Tem as garantias da magistratura (vitaliciedade, inamovibilidade e irredutibilidade de subsídio) e as vedações do art. 95, parágrafo único: não pode exercer outro cargo ou função, salvo uma de magistério, nem atividade político-partidária. O cargo pertence a cada TRT; aqui ele aparece no ramo da Justiça do Trabalho porque são 24 tribunais.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, § 1º, II; art. 93, III e VI; art. 94; art. 95; art. 115"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "Os termos de provimento são aproximações (ver notas)."
+    }
+  },
+  "notas": "Vocabulário: não há termo para promoção na carreira nem para nomeação dentre lista; usamos \"concurso-publico\" (o ingresso na carreira é por concurso) e \"nomeacao-livre\" (termo mais próximo para a escolha do Executivo dentre lista tríplice, que não é livre). Proposto no relatório da tarefa.",
+  "requisitos": [
+    {
+      "texto": "brasileiro com mais de 30 e menos de 70 anos de idade, recrutado, quando possível, na respectiva região",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 115, caput, redação da EC 122/2022"
+        }
+      ]
+    },
+    {
+      "texto": "juiz do trabalho (promoção) ou advogado com mais de dez anos de atividade ou membro do MPT com mais de dez anos de exercício",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 115, I e II"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  }
+}

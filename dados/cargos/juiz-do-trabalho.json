@@ -1,0 +1,63 @@
+{
+  "id": "cargo:juiz-do-trabalho",
+  "tipo": "cargo",
+  "nome": "Juiz do trabalho",
+  "resumo": "Juiz de primeira instância da Justiça do Trabalho, que atua sozinho nas Varas do Trabalho. Ingressa por concurso público.",
+  "orgao": "org:justica-do-trabalho",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
+  "provimento_nota": "O ingresso na carreira é no cargo de juiz substituto, por concurso público de provas e títulos com participação da OAB em todas as fases; as nomeações seguem a ordem de classificação (art. 93, I). Depois, a promoção é alternadamente por antiguidade e merecimento (art. 93, II).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Não há mandato. No primeiro grau, a vitaliciedade só é adquirida após dois anos de exercício; antes disso, a perda do cargo depende de deliberação do tribunal (art. 95, I). Aposentadoria compulsória aos 75 anos (art. 40, § 1º, II; art. 93, VI; LC 152/2015, art. 2º, II)."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, I"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB em todas as fases; nomeação pela ordem de classificação",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, I"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Tem as garantias da magistratura (vitaliciedade, inamovibilidade e irredutibilidade de subsídio) e as vedações do art. 95, parágrafo único: não pode exercer outro cargo ou função, salvo uma de magistério, nem atividade político-partidária. Nas Varas do Trabalho, a jurisdição é exercida por um juiz singular (art. 116). Os recursos contra suas decisões vão ao TRT (CLT, art. 895, I).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, § 1º, II; art. 93, I e VI; art. 95; art. 111, III; art. 116"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, II"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 895, I"
+    }
+  ],
+  "notas": "Inclui o juiz do trabalho substituto, cargo inicial da carreira (art. 93, I). A CLT (art. 895, I) prevê recurso ordinário das decisões das Varas para a instância superior; citada só como base do detalhe.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "cargo:desembargador",
+  "tipo": "cargo",
+  "nome": "Desembargador de Tribunal de Justiça",
+  "resumo": "Integra um Tribunal de Justiça, a segunda instância da Justiça estadual. Quatro quintos vêm da promoção de juízes de direito; um quinto, da advocacia e do Ministério Público.",
+  "orgao": "org:justica-estadual",
+  "provimento": "variavel",
+  "vagas": null,
+  "vagas_nota": "O número de cadeiras é fixado por lei para cada tribunal; não somamos.",
+  "provimento_casos": [
+    {
+      "quando": "Quatro quintos das vagas: promoção de juízes de direito da última ou única entrância, por antiguidade e merecimento, alternadamente (carreira iniciada por concurso)",
+      "provimento": "concurso-publico",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, III"
+        }
+      ]
+    },
+    {
+      "quando": "Um quinto das vagas (quinto constitucional): advogado ou membro do Ministério Público escolhido por o chefe do Poder Executivo dentre lista tríplice do tribunal",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 94"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Um quinto das vagas é de advogados e de membros do Ministério Público com mais de dez anos de atividade ou de carreira: a OAB ou o MP envia lista de seis nomes, o tribunal forma lista tríplice e o chefe do Executivo escolhe um em 20 dias (art. 94). No quinto, quem escolhe é o \"Poder Executivo\" (art. 94, parágrafo único): nos estados, o governador; a CF não detalha o caso do TJDFT.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Não há mandato: o cargo é vitalício (art. 95, I). Aposentadoria compulsória aos 75 anos (art. 40, § 1º, II, aplicado aos magistrados pelo art. 93, VI; LC 152/2015, art. 2º, II)."
+  },
+  "detalhes": "Tem as garantias da magistratura (vitaliciedade, inamovibilidade e irredutibilidade de subsídio) e as vedações do art. 95, parágrafo único: não pode exercer outro cargo ou função, salvo uma de magistério, nem atividade político-partidária. A Constituição usa o nome \"desembargador\" (arts. 103-B, IV, 104, I, e 120, § 1º, I, a). Em cada estado, a organização do tribunal segue a Constituição estadual e a lei de organização judiciária (art. 125, § 1º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, § 1º, II; art. 93, III e VI; art. 94; art. 95; art. 93, III"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "Os termos de provimento são aproximações (ver notas)."
+    }
+  },
+  "notas": "Vocabulário: não há termo para promoção na carreira nem para nomeação dentre lista; usamos \"concurso-publico\" (o ingresso na carreira é por concurso) e \"nomeacao-livre\" (termo mais próximo para a escolha do Executivo dentre lista tríplice, que não é livre). Proposto no relatório da tarefa. \"Nos estados, o governador\": leitura de \"Poder Executivo\" no art. 94, parágrafo único; a CF não nomeia o governador. Para o TJDFT, que a União organiza (art. 21, XIII), não conferimos quem nomeia.",
+  "requisitos": [
+    {
+      "texto": "juiz de direito promovido por antiguidade e merecimento, apurados na última ou única entrância; ou advogado com mais de dez anos de atividade ou membro do Ministério Público com mais de dez anos de carreira",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, III; art. 94"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "org:tjm-rs",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça Militar do Rio Grande do Sul",
+  "sigla": "TJMRS",
+  "resumo": "Tribunal de segundo grau da Justiça Militar estadual do Rio Grande do Sul, que julga os militares do estado nos crimes militares. Sede: Porto Alegre.",
+  "detalhes": "Abrange: Rio Grande do Sul. Sede: Porto Alegre (RS). A Constituição permite criar Tribunal de Justiça Militar nos estados com efetivo militar acima de vinte mil integrantes; nos demais, o segundo grau da Justiça Militar estadual é o próprio Tribunal de Justiça (art. 125, § 3º). A Justiça Militar estadual julga os militares do estado (policiais e bombeiros militares) nos crimes militares definidos em lei e as ações contra atos disciplinares militares (art. 125, § 4º; art. 42).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "ente": "ente:rs",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais de Justiça Militar' (nome e sigla); página do TJMRS (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 42; art. 92, VII; art. 125, §§ 3º a 5º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII; art. 125, § 3º"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TJMRS",
+      "url": "https://www.tjmrs.jus.br/"
+    },
+    {
+      "titulo": "Página do TJMRS no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-de-justica-militar-do-rio-grande-do-sul-tjmrs/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:rs. Sede tirada do endereço na página do CNJ: \"Av. Praia de Belas, 799 - Praia de Belas - Porto Alegre/RS - CEP: 90110-001\". Fica dentro de org:justica-estadual porque a Justiça Militar estadual é criada por lei estadual (art. 125, § 3º), e não dentro de org:justica-militar-da-uniao."
+}

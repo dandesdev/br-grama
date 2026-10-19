@@ -3,29 +3,58 @@
   "tipo": "orgao",
   "nome": "Superior Tribunal Militar",
   "sigla": "STM",
-  "resumo": "Tribunal superior da Justiça Militar da União; pode propor projetos de lei sobre a Justiça.",
-  "detalhes": "Tem 15 ministros vitalícios, dez oficiais-generais das três Forças e cinco civis, nomeados pelo Presidente da República depois de aprovação do Senado. Como tribunal superior, tem iniciativa de leis e seus projetos começam na Câmara.",
+  "resumo": "Tribunal superior da Justiça Militar da União. Tem 15 ministros vitalícios: dez oficiais-generais das três Forças e cinco civis.",
+  "detalhes": "São três oficiais-generais da Marinha, quatro do Exército e três da Aeronáutica, todos da ativa e do posto mais alto da carreira, e cinco civis: três advogados e dois escolhidos, em partes iguais, entre juízes da Justiça Militar e membros do Ministério Público Militar. Todos são nomeados pelo Presidente da República depois de aprovados pelo Senado (art. 123). Pela lei, julga as apelações e os recursos contra decisões dos juízes de primeiro grau da Justiça Militar e, originariamente, os oficiais-generais nos crimes militares (Lei 8.457/1992, art. 6º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:poder-judiciario",
-  "vigencia": {
-    "de": "1988-10-05",
-    "ate": null
-  },
+  "contido_em": "org:justica-militar-da-uniao",
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 92, VI; art. 122, I; art. 123; art. 61, caput; art. 96, II"
+      "dispositivo": "art. 92, VI e §§ 1º e 2º; art. 61, caput; art. 96, II; art. 122, I; arts. 123 e 124"
+    },
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 1º; art. 6º, I, a, e II, c"
+    },
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "página do STM (sede e site)"
     }
   ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 122, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do STM",
+      "url": "https://www.stm.jus.br/"
+    },
+    {
+      "titulo": "Página do STM no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/superior-tribunal-militar-stm/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O STM já existia antes da CF/88; a data usada aqui é a da Constituição atual."
+  },
   "confianca": "oficial",
-  "notas": "O STM já existia antes da CF/88. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
-  }
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario",
+    "notas": "Esboço verificado em verificacao-piloto-processo-lei e completado nesta tarefa; contido_em passou de org:poder-judiciario para org:justica-militar-da-uniao."
+  },
+  "notas": "A CF (art. 123, parágrafo único, II) fala em 'juízes auditores'; a Lei 8.457/1992, na redação da Lei 13.774/2018, chama o cargo de juiz federal da Justiça Militar (art. 1º, IV)."
 }

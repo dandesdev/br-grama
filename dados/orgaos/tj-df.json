@@ -1,0 +1,55 @@
+{
+  "id": "org:tj-df",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça do Distrito Federal e Territórios",
+  "sigla": "TJDFT",
+  "resumo": "Tribunal de segundo grau da Justiça do Distrito Federal e Territórios, organizada e mantida pela União. Sede: Brasília.",
+  "detalhes": "Abrange: Distrito Federal (e os Territórios, se forem criados). Sede: Brasília (DF). Julga, entre outros, os juízes do Distrito Federal e Territórios e os membros do Ministério Público nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral (CF, art. 96, III). A organização judiciária do DF é matéria de lei federal (CF, art. 22, XVII).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais de Justiça' (nome e sigla); página do TJDFT (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII; art. 22, XVII; art. 92, VII; art. 93, III; art. 96, III"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TJDFT",
+      "url": "https://www.tjdft.jus.br/"
+    },
+    {
+      "titulo": "Página do TJDFT no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-de-justica-do-distrito-federal-e-territorios-tjdft/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:df. Nome conforme a lista do CNJ (o nome usado pelo próprio tribunal pode ser mais longo, ex.: \"do Estado de\"). Sede tirada do endereço na página do CNJ: \"Praça Municipal lote 1 - Brasília/DF - CEP: 70094-900\". Esfera \"federal\" e ente:uniao porque a União organiza e mantém o Judiciário do DF e dos Territórios (CF, art. 21, XIII); o tribunal atua no DF."
+}

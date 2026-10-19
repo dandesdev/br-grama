@@ -31,3 +31,10 @@ Fiscalização pelo Congresso:
 - 2026-10-17 22:15 — iniciada; lidos CLAUDE.md, decisões, modelo de dados, protocolo, vocabulários e o modelo proc:lei-ordinaria
 - 2026-10-17 22:22 — gravado obj:emenda-constitucional
 - 2026-10-17 22:38 — gravados norma:resolucao-cn-1-2002, norma:resolucao-cn-3-1990, norma:lei-1579-1952, norma:lei-10001-2000, fonte:stf-informativo-657-adi-4029, fonte:stf-informativo-870-ms-27931 (Wayback deu 429: arquivo null nas URLs novas; tentar de novo)
+- 2026-10-18 08:24 — retomada após renovação da cota; git status e validação conferidos: as 7 entidades gravadas estão no commit f71c039 e sem erro
+- 2026-10-18 08:40 — gravados obj:lei-complementar, obj:medida-provisoria, obj:lei-delegada, obj:decreto-legislativo, obj:resolucao
+- 2026-10-18 08:50 — gravado org:arquetipo-estadual-assembleia-legislativa (não existia; criado para ser ator da iniciativa de PEC, art. 60, III)
+- 2026-10-18 09:05 — gravado proc:emenda-constitucional (8 etapas, sem regimes)
+- 2026-10-18 09:25 — gravado proc:lei-complementar (10 etapas e o regime de urgência; etapas iguais às da lei ordinária condensadas, com remissão)
+- 2026-10-18 09:55 — gravados norma:ec-32-2001, fonte:agencia-senado-comissoes-mp-2025 e proc:medida-provisoria (14 etapas e o regime de trancamento de pauta)
+- 2026-10-18 10:15 — gravado proc:lei-delegada (10 etapas)

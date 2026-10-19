@@ -1,0 +1,400 @@
+{
+  "id": "proc:lei-complementar",
+  "tipo": "processo",
+  "nome": "Processo legislativo da lei complementar federal",
+  "resumo": "Caminho de um projeto de lei complementar: como a lei ordinária, mas sempre votado nos Plenários e aprovado por maioria absoluta de cada Casa.",
+  "detalhes": "As diferenças em relação à lei ordinária são três: o quórum de aprovação é a maioria absoluta dos membros (art. 69); as comissões não decidem sozinhas, em nenhuma das Casas; e, na Câmara, há dois turnos de votação. Iniciativa, casa revisora, sanção, veto, promulgação e publicação seguem as regras de proc:lei-ordinaria.",
+  "forma": "linha",
+  "produz": "obj:lei-complementar",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:comissoes-do-senado-federal",
+        "org:comissoes-mistas-do-congresso-nacional",
+        "cargo:presidente-da-republica",
+        "org:stf",
+        "org:stj",
+        "org:tst",
+        "org:tse",
+        "org:stm",
+        "cargo:procurador-geral-da-republica",
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Apresenta o projeto de lei complementar; quem pode propor é o mesmo da lei ordinária",
+      "detalhes": "O art. 61 da CF dá a mesma iniciativa para leis complementares e ordinárias, inclusive a iniciativa privativa do Presidente nos temas do § 1º e a iniciativa popular. A casa iniciadora segue as regras da lei ordinária (ver proc:lei-ordinaria, etapas 'iniciativa' e 'iniciativa-popular').",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 61, caput e §§ 1º e 2º; art. 64, caput"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 109, § 1º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 142"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissoes",
+          "quando": "Autor: deputado, comissão da Câmara, Presidente da República, STF, tribunal superior, PGR ou cidadãos; ou comissão mista, quando for a vez da Câmara"
+        },
+        {
+          "para": "senado-comissoes",
+          "quando": "Autor: senador ou comissão do Senado; ou comissão mista, quando for a vez do Senado"
+        }
+      ]
+    },
+    {
+      "id": "camara-comissoes",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:cft-camara",
+        "org:ccjc-camara"
+      ],
+      "acao": "As comissões da Câmara dão parecer; ao contrário da lei ordinária, nunca decidem sozinhas",
+      "detalhes": "A distribuição e o exame nas comissões seguem as regras da lei ordinária (ver proc:lei-ordinaria, etapas 'camara-distribuicao' e 'camara-comissoes'), mas projeto de lei complementar está excluído da apreciação conclusiva: vai sempre ao Plenário.",
+      "prazo": {
+        "texto": "Por comissão: 40 sessões (tramitação ordinária), 10 (prioridade) ou 5 (urgência) (RICD, art. 52)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 2º, I"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 24, II, a; art. 52; art. 139"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "Plenário vota em dois turnos; aprovar exige maioria absoluta dos deputados (257 votos)",
+      "detalhes": "Na Câmara, o projeto de lei complementar tem dois turnos, enquanto a lei ordinária tem turno único. Entre a aprovação sem emendas num turno e o início do seguinte há interstício de duas sessões.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros da Câmara (257 de 513), não só dos presentes."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 69"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 148; art. 150, II; art. 183, § 1º"
+        },
+        {
+          "ref": "norma:lc-78-1993",
+          "dispositivo": "art. 1º",
+          "nota": "Total de 513 deputados, base do cálculo de 257 votos"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-comissoes",
+          "quando": "Aprovado e a Câmara é a casa iniciadora"
+        },
+        {
+          "para": "sancao-veto-e-promulgacao",
+          "quando": "Aprovado sem emendas e a Câmara é a casa revisora"
+        },
+        {
+          "para": "senado-aprecia-emendas-da-camara",
+          "quando": "Aprovado com emendas e a Câmara é a casa revisora"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado ou sem os votos da maioria absoluta"
+        }
+      ]
+    },
+    {
+      "id": "senado-comissoes",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "org:comissoes-do-senado-federal",
+        "org:ccj-senado"
+      ],
+      "acao": "As comissões do Senado dão parecer; a decisão terminativa não vale para lei complementar",
+      "detalhes": "No Senado, a decisão terminativa das comissões vale para projetos de lei ordinária de senador (e, por delegação do Presidente, para alguns outros), não para projetos de lei complementar, que vão sempre ao Plenário. O resto segue a lei ordinária (ver proc:lei-ordinaria, etapas 'senado-distribuicao' e 'senado-comissoes').",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 2º, I"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 91, I e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "senado-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "Plenário vota em turno único; aprovar exige maioria absoluta dos senadores (41 votos)",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros do Senado (41 de 81)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 46, § 1º; art. 65; art. 69"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 270; art. 288, III, a"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissoes",
+          "quando": "Aprovado e o Senado é a casa iniciadora"
+        },
+        {
+          "para": "sancao-veto-e-promulgacao",
+          "quando": "Aprovado sem emendas e o Senado é a casa revisora"
+        },
+        {
+          "para": "camara-aprecia-emendas-do-senado",
+          "quando": "Aprovado com emendas e o Senado é a casa revisora"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado ou sem os votos da maioria absoluta"
+        }
+      ]
+    },
+    {
+      "id": "camara-aprecia-emendas-do-senado",
+      "atores": [
+        "org:comissoes-da-camara-dos-deputados",
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "Câmara, como casa iniciadora, aceita ou rejeita as emendas do Senado",
+      "detalhes": "Igual à lei ordinária (ver proc:lei-ordinaria, etapa de mesmo nome): a casa iniciadora dá a palavra final sobre o texto.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 65, parágrafo único"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 123"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sancao-veto-e-promulgacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "senado-aprecia-emendas-da-camara",
+      "atores": [
+        "org:comissoes-do-senado-federal",
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "Senado, como casa iniciadora, aceita ou rejeita as emendas da Câmara",
+      "detalhes": "Igual à lei ordinária (ver proc:lei-ordinaria, etapa de mesmo nome): a casa iniciadora dá a palavra final sobre o texto.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 65, parágrafo único"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "arts. 285 a 287"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sancao-veto-e-promulgacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "sancao-veto-e-promulgacao",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:congresso-nacional",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "Sanção, veto, apreciação do veto e promulgação seguem as mesmas regras da lei ordinária",
+      "detalhes": "O Presidente tem 15 dias úteis para sancionar ou vetar; o silêncio vale como sanção; o Congresso derruba o veto pela maioria absoluta de deputados e de senadores; nos casos de sanção tácita e de veto derrubado, se o Presidente não promulgar em 48 horas, promulga o Presidente do Senado. Ver proc:lei-ordinaria, etapas 'envio-a-sancao' a 'promulgacao-pelo-vice-presidente-do-senado'.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66; art. 84, IV e V"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "publicacao-e-vigencia",
+          "quando": "Lei promulgada"
+        }
+      ]
+    },
+    {
+      "id": "publicacao-e-vigencia",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:imprensa-nacional"
+      ],
+      "acao": "A lei complementar é publicada no Diário Oficial e entra em vigor na data que fixar ou, se omissa, em 45 dias",
+      "detalhes": "Igual à lei ordinária (ver proc:lei-ordinaria, etapas 'publicacao' e 'vigencia').",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, IV"
+        },
+        {
+          "ref": "norma:lindb",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:lc-95-1998",
+          "dispositivo": "art. 8º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "O projeto rejeitado é arquivado; na mesma sessão legislativa, só volta por proposta da maioria absoluta de uma Casa",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 65; art. 67"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "urgencia-constitucional",
+      "nome": "Urgência pedida pelo Presidente",
+      "resumo": "Em projeto do Presidente, cada Casa tem 45 dias para votar; depois, as demais votações da Casa ficam suspensas",
+      "detalhes": "Mesmas regras do regime de proc:lei-ordinaria: o art. 64, § 1º, vale para os projetos de iniciativa do Presidente, sem distinguir lei ordinária e complementar. Os prazos não correm no recesso.",
+      "quem_aciona": [
+        "cargo:presidente-da-republica"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 64, §§ 1º a 4º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-plenario",
+          "prazo": {
+            "texto": "45 dias do recebimento pela Câmara; depois, as demais deliberações da Câmara ficam sobrestadas, salvo as de prazo constitucional",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "recebimento do projeto pela Câmara",
+            "efeito": "sobrestamento das demais deliberações da Câmara até a votação"
+          }
+        },
+        {
+          "etapa": "senado-plenario",
+          "prazo": {
+            "texto": "45 dias do recebimento pelo Senado; depois, as demais deliberações do Senado ficam sobrestadas, salvo as de prazo constitucional",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "recebimento do projeto pelo Senado",
+            "efeito": "sobrestamento das demais deliberações do Senado até a votação"
+          }
+        },
+        {
+          "etapa": "camara-aprecia-emendas-do-senado",
+          "prazo": {
+            "texto": "10 dias (CF, art. 64, § 3º)",
+            "valor": 10,
+            "unidade": "dias",
+            "efeito": "sobrestamento das demais deliberações da Câmara até a votação"
+          }
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 46, 58, § 2º, I, 59, II, 61, 64 a 67, 69 e 84, IV e V"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 24, II, a, 52, 109, § 1º, 123, 139, 148, 150 e 183, § 1º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 91, 270, 285 a 287 e 288, III, a"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 142"
+    },
+    {
+      "ref": "norma:lindb",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lc-95-1998",
+      "dispositivo": "art. 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "etapas": {
+      "nota": "Inclusão de org:eleitorado-nacional entre os autores: o art. 61, caput, dá iniciativa aos cidadãos para leis complementares e ordinárias; o § 2º e a Lei 9.709/1998, art. 13, falam só em 'projeto de lei', sem excluir a lei complementar."
+    }
+  },
+  "notas": "Decisões de modelagem: (1) Para não duplicar proc:lei-ordinaria, as etapas iguais foram condensadas: 'camara-comissoes' junta distribuição e comissões; 'sancao-veto-e-promulgacao' resume oito etapas da lei ordinária; 'publicacao-e-vigencia' junta duas. Cada uma remete às etapas correspondentes. (2) Não há etapas de prazo de recurso ao Plenário, porque não há decisão conclusiva ou terminativa (RICD, art. 24, II, a; RISF, art. 91, I). (3) O quórum de aprovação das emendas da casa revisora pela casa iniciadora não está explícito na CF nem nos regimentos; não foi estruturado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

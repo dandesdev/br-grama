@@ -1,0 +1,310 @@
+{
+  "id": "proc:emenda-constitucional",
+  "tipo": "processo",
+  "nome": "Processo de emenda à Constituição",
+  "resumo": "Caminho de uma proposta de emenda constitucional (PEC): dois turnos em cada Casa, 3/5 dos votos e promulgação pelas Mesas, sem sanção.",
+  "detalhes": "A proposta precisa ser aprovada nas duas Casas com o mesmo texto; cada alteração feita por uma Casa volta à outra. Não pode abolir as cláusulas pétreas (art. 60, § 4º), não pode ser votada durante intervenção federal, estado de defesa ou estado de sítio (§ 1º) e, se rejeitada, não volta na mesma sessão legislativa (§ 5º).",
+  "forma": "linha",
+  "produz": "obj:emenda-constitucional",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "cargo:presidente-da-republica",
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "Apresenta a proposta: 1/3 dos deputados ou dos senadores, o Presidente ou mais da metade das Assembleias",
+      "detalhes": "Cada Assembleia Legislativa se manifesta pela maioria relativa de seus membros. Não há iniciativa popular, nem de tribunais ou do PGR. A Constituição não pode ser emendada durante intervenção federal, estado de defesa ou estado de sítio.",
+      "quorum": {
+        "regra": "um-terco",
+        "nota": "Para propostas de parlamentares: um terço, no mínimo, dos membros da Câmara ou do Senado."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 60, I a III e § 1º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 201, I"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 354, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-ccjc",
+          "quando": "Proposta de deputados, do Presidente da República ou das Assembleias Legislativas"
+        },
+        {
+          "para": "senado-ccj",
+          "quando": "Proposta de senadores"
+        }
+      ]
+    },
+    {
+      "id": "camara-ccjc",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:ccjc-camara"
+      ],
+      "acao": "O Presidente da Câmara envia a proposta à CCJC, que decide se ela é admissível",
+      "detalhes": "A CCJC verifica a autoria, as circunstâncias que impedem emenda e as cláusulas pétreas: não pode ser votada proposta tendente a abolir a forma federativa, o voto direto, secreto, universal e periódico, a separação dos Poderes ou os direitos e garantias individuais. Se a CCJC inadmitir, o autor, com apoio de líderes que representem um terço dos deputados, pode pedir que o Plenário aprecie a admissibilidade.",
+      "prazo": {
+        "texto": "5 sessões (RICD, art. 202, caput)",
+        "valor": 5,
+        "unidade": "sessoes"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Regra geral das comissões: maioria dos votos, presente a maioria absoluta dos membros (CF, art. 47)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47; art. 60, §§ 1º e 4º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 201, II; art. 202, caput e § 1º; art. 203"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissao-especial",
+          "quando": "Proposta admitida pela CCJC ou, em apreciação preliminar, pelo Plenário"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Proposta inadmitida, sem pedido de apreciação preliminar ou com inadmissão confirmada pelo Plenário"
+        }
+      ]
+    },
+    {
+      "id": "camara-comissao-especial",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:comissoes-da-camara-dos-deputados"
+      ],
+      "acao": "Uma comissão especial, criada pelo Presidente da Câmara, examina o mérito e dá parecer",
+      "detalhes": "Emendas só podem ser apresentadas perante a comissão especial, nas dez primeiras sessões, e cada uma precisa da assinatura de um terço dos deputados. Vale também para a proposta vinda do Senado e para as emendas do Senado a proposta da Câmara.",
+      "prazo": {
+        "texto": "40 sessões a partir da constituição da comissão (RICD, art. 202, § 2º)",
+        "valor": 40,
+        "unidade": "sessoes",
+        "conta_de": "constituição da comissão especial"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 202, §§ 2º a 4º; art. 203"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "Plenário vota em dois turnos; a proposta precisa de 3/5 dos deputados (308 votos) em cada turno",
+      "detalhes": "Entre os turnos há interstício de cinco sessões, e a votação é nominal. A proposta entra na Ordem do Dia depois de publicado o parecer e de um interstício de duas sessões.",
+      "quorum": {
+        "regra": "tres-quintos",
+        "votacao": "nominal",
+        "nota": "Três quintos dos membros da Câmara (308 de 513) em cada um dos dois turnos."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 60, § 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 202, §§ 5º a 7º"
+        },
+        {
+          "ref": "norma:lc-78-1993",
+          "dispositivo": "art. 1º",
+          "nota": "Total de 513 deputados, base do cálculo de 308 votos"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-ccj",
+          "quando": "Aprovada e a Câmara é a casa iniciadora, ou aprovada com alterações quando a Câmara revê proposta do Senado"
+        },
+        {
+          "para": "promulgacao",
+          "quando": "Aprovada sem alterações quando a Câmara revê proposta do Senado, ou aprovadas sem mudança as alterações do Senado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitada em qualquer dos turnos"
+        }
+      ]
+    },
+    {
+      "id": "senado-ccj",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "org:ccj-senado"
+      ],
+      "acao": "A CCJ do Senado dá parecer sobre a proposta e as emendas",
+      "detalhes": "Se a CCJ não se manifestar no prazo, a proposta vai ao Plenário e o parecer é dado oralmente por relator designado pelo Presidente. No Senado, emendas precisam da assinatura de um terço dos senadores e de relação direta com a matéria.",
+      "prazo": {
+        "texto": "Até 30 dias do despacho da Presidência (RISF, art. 356)",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "despacho da Presidência do Senado",
+        "efeito": "a proposta vai ao Plenário, com parecer oral de relator designado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "arts. 355 a 359; art. 368"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "senado-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "Plenário vota em dois turnos; a proposta precisa de 3/5 dos senadores (49 votos) em cada turno",
+      "detalhes": "O primeiro turno tem cinco sessões deliberativas de discussão; entre os turnos há interstício de pelo menos cinco dias úteis; no segundo turno, a discussão dura três sessões e só cabem emendas que não mudem o mérito. As votações são nominais.",
+      "quorum": {
+        "regra": "tres-quintos",
+        "votacao": "nominal",
+        "nota": "Três quintos dos membros do Senado (49 de 81) em cada um dos dois turnos."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 46, § 1º; art. 60, § 2º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 288, II; arts. 358 e 360 a 366"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-ccjc",
+          "quando": "Aprovada e o Senado é a casa iniciadora, ou aprovada com alterações quando o Senado revê proposta da Câmara"
+        },
+        {
+          "para": "promulgacao",
+          "quando": "Aprovada sem alterações quando o Senado revê proposta da Câmara, ou aprovadas sem mudança as alterações da Câmara"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitada em qualquer dos turnos"
+        }
+      ]
+    },
+    {
+      "id": "promulgacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:mesa-da-camara-dos-deputados",
+        "org:mesa-do-senado-federal"
+      ],
+      "acao": "As Mesas da Câmara e do Senado promulgam a emenda, com seu número de ordem, em sessão do Congresso",
+      "detalhes": "A Casa onde a aprovação terminou comunica o fato à outra e é convocada sessão solene do Congresso para a promulgação. Não há sanção nem veto do Presidente da República.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 60, § 3º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 1º, III e § 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 203, parágrafo único"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 369"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "Proposta rejeitada ou prejudicada é arquivada; o tema não pode voltar na mesma sessão legislativa",
+      "detalhes": "Para a lei ordinária, a maioria absoluta de uma Casa pode reapresentar o tema na mesma sessão legislativa (art. 67); para emenda constitucional, a CF não prevê essa exceção.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 60, § 5º; art. 67"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 373"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 47; art. 60; art. 67"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 201 a 203"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 288, II; arts. 354 a 369 e 373"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 1º, III e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "etapas": {
+      "nota": "Na etapa 'iniciativa', o envio à Câmara das propostas do Presidente e das Assembleias é inferido do RICD, art. 201, I, que lista esses autores entre as propostas apreciadas pela Câmara; a CF não fixa casa iniciadora para PEC (o art. 64 trata só de projetos de lei)."
+    }
+  },
+  "notas": "Decisões de modelagem: (1) Como em proc:lei-ordinaria, as etapas de cada Casa servem às duas posições (iniciadora e revisora); o papel aparece no 'quando'. (2) A volta das alterações à outra Casa segue RICD, art. 203 (emendas do Senado têm a mesma tramitação), e RISF, arts. 367 e 368 (substitutivo da Câmara é proposta nova; a revisão do Senado segue o mesmo rito). A prática de promulgar só a parte aprovada pelas duas Casas não foi modelada por falta de norma expressa. (3) O RICD, art. 201, II, repete os limites do art. 60, mas omite a intervenção federal entre as circunstâncias que impedem emenda; prevalece a CF (art. 60, § 1º), e o RISF, art. 354, § 2º, a inclui. (4) A comissão especial é temporária e entra no nó agregado org:comissoes-da-camara-dos-deputados. (5) Não modelamos publicação nem vigência: a CF não diz quem publica a emenda, e cada emenda fixa sua própria vigência.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

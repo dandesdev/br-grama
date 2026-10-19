@@ -1,0 +1,324 @@
+{
+  "id": "proc:lei-delegada",
+  "tipo": "processo",
+  "nome": "Processo da lei delegada",
+  "resumo": "O Presidente pede ao Congresso poderes para legislar sobre um tema; o Congresso os concede por resolução, e o Presidente edita a lei.",
+  "detalhes": "A delegação é dada por resolução do Congresso, que fixa o conteúdo e os termos. Se a resolução exigir, o Congresso vota o texto do Presidente em votação única, sem emendas; se não, o Presidente o promulga direto.",
+  "forma": "linha",
+  "produz": "obj:lei-delegada",
+  "etapas": [
+    {
+      "id": "solicitacao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente da República pede ao Congresso delegação para legislar sobre um tema",
+      "detalhes": "Só o Presidente pode pedir. A proposta vai ao Presidente do Senado, que convoca sessão conjunta para o Congresso tomar conhecimento. Não podem ser delegados: competências exclusivas do Congresso ou privativas de uma das Casas, matéria de lei complementar, organização do Judiciário e do Ministério Público, nacionalidade, cidadania, direitos individuais, políticos e eleitorais, e planos e orçamentos.",
+      "prazo": {
+        "texto": "Sessão conjunta em até 72 horas do recebimento (RCCN, art. 119)",
+        "valor": 72,
+        "unidade": "horas",
+        "conta_de": "recebimento da proposta pelo Presidente do Senado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 68, caput e § 1º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "arts. 116, 118 e 119, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "comissao-mista-parecer",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "comissao-mista-parecer",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "org:comissoes-mistas-do-congresso-nacional"
+      ],
+      "acao": "Uma comissão mista dá parecer e propõe a resolução que fixa conteúdo, termos e prazo da delegação",
+      "detalhes": "A comissão é constituída na sessão conjunta de conhecimento. O projeto de resolução fixa prazo de até 45 dias para o Presidente promulgar, publicar ou remeter ao Congresso o texto que elaborar.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 68, § 2º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 119, §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "congresso-delibera-resolucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "congresso-delibera-resolucao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "Deputados e senadores, em sessão conjunta, discutem e votam o projeto de resolução de delegação",
+      "detalhes": "A discussão ocorre em sessão conjunta convocada para até 5 dias depois da publicação do parecer. Se houver emendas, a comissão tem 8 dias para opinar sobre elas, e depois o projeto é votado.",
+      "prazo": {
+        "texto": "Sessão de discussão em até 5 dias; parecer sobre emendas em 8 dias (RCCN, arts. 120 e 121)"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Em sessão conjunta, os votos da Câmara e do Senado são contados separadamente; o voto contrário de uma das Casas rejeita a matéria (RCCN, art. 43). A CF não fixa quórum especial."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 68, § 2º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "arts. 43, 120 e 121"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-da-resolucao",
+          "quando": "Resolução aprovada"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Resolução rejeitada"
+        }
+      ]
+    },
+    {
+      "id": "promulgacao-da-resolucao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "A resolução de delegação é promulgada e comunicada ao Presidente da República",
+      "detalhes": "O RCCN fixa o prazo, mas não diz quem promulga a resolução do Congresso.",
+      "prazo": {
+        "texto": "24 horas da aprovação (RCCN, art. 122)",
+        "valor": 24,
+        "unidade": "horas",
+        "conta_de": "aprovação do projeto de resolução"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 68, § 2º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 122"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "elaboracao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "elaboracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente elabora a lei delegada dentro do conteúdo e do prazo fixados pela resolução",
+      "prazo": {
+        "texto": "O prazo fixado na resolução, de até 45 dias (RCCN, art. 119, § 2º)",
+        "valor": 45,
+        "unidade": "dias",
+        "conta_de": "promulgação da resolução",
+        "efeito": "se o Presidente não agir no prazo, a delegação fica insubsistente"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 68, caput e § 2º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 119, § 2º; art. 123; art. 127"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-e-publicacao",
+          "quando": "A resolução não exige que o Congresso aprecie o texto"
+        },
+        {
+          "para": "congresso-aprecia-projeto",
+          "quando": "A resolução exige apreciação do texto pelo Congresso"
+        },
+        {
+          "para": "delegacao-insubsistente",
+          "quando": "O Presidente não promulga, não publica nem remete o texto no prazo"
+        }
+      ]
+    },
+    {
+      "id": "congresso-aprecia-projeto",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comissoes-mistas-do-congresso-nacional",
+        "org:congresso-nacional"
+      ],
+      "acao": "Se a resolução exigir, o Congresso vota o texto do Presidente em votação única, sem emendas",
+      "detalhes": "A comissão que examinou o pedido opina, em 5 dias, se o texto respeita a delegação. O texto é votado em globo; só as partes que a comissão apontar como contrárias à delegação podem ser votadas em separado.",
+      "prazo": {
+        "texto": "Remessa à comissão em 48 horas e parecer em 5 dias (RCCN, art. 124)",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "remessa à comissão"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Em sessão conjunta, os votos da Câmara e do Senado são contados separadamente; o voto contrário de uma das Casas rejeita a matéria (RCCN, art. 43). A CF não fixa quórum especial."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 68, § 3º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "arts. 43, 124 e 125"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-e-publicacao",
+          "quando": "Texto aprovado"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Texto rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "promulgacao-e-publicacao",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:imprensa-nacional"
+      ],
+      "acao": "O Presidente da República promulga a lei delegada, que é publicada no Diário Oficial da União",
+      "detalhes": "Não há sanção nem veto: o texto é do próprio Presidente.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, IV"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 123"
+        },
+        {
+          "ref": "norma:decreto-11329-2023",
+          "dispositivo": "Anexo I, art. 38, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "vigencia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "vigencia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A lei delegada entra em vigor na data que fixar ou, se for omissa, 45 dias depois de publicada",
+      "detalhes": "Se a lei delegada exceder os limites da delegação, o Congresso pode sustá-la por decreto legislativo (art. 49, V).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, V"
+        },
+        {
+          "ref": "norma:lindb",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:lc-95-1998",
+          "dispositivo": "art. 8º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "delegacao-insubsistente",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Esgotado o prazo sem que o Presidente aja, a delegação deixa de valer",
+      "fontes": [
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 127"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "rejeicao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso rejeita a delegação ou o texto, e não há lei delegada",
+      "fontes": [
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 43, § 1º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, V; art. 59, IV; art. 68; art. 84, IV"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 1º, IX; art. 43; arts. 116 a 127"
+    },
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I, art. 38, I"
+    },
+    {
+      "ref": "norma:lindb",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lc-95-1998",
+      "dispositivo": "art. 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) Os arts. 116 a 127 do RCCN são de 1970; a edição oficial anota que vários trechos foram revogados pela CF/88. A lista de matérias indelegáveis do RCCN, art. 117, é anterior à CF e difere do art. 68, § 1º; usamos só a CF. (2) Não achamos regra expressa sobre quem promulga a resolução de delegação (RCCN, art. 122, só fixa o prazo); a etapa usa org:congresso-nacional. (3) A promulgação da lei delegada pelo Presidente se apoia no art. 84, IV, da CF e no RCCN, art. 123 ('irão à promulgação'), que não nomeia o autor.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

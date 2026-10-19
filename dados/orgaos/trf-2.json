@@ -1,0 +1,55 @@
+{
+  "id": "org:trf-2",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional Federal da 2ª Região",
+  "sigla": "TRF2",
+  "resumo": "Segunda instância da Justiça Federal em ES e RJ. Sede: Rio de Janeiro.",
+  "detalhes": "Abrange: Espírito Santo e Rio de Janeiro. Sede: Rio de Janeiro (RJ). Julga os recursos contra as decisões dos juízes federais da região e dos juízes estaduais no exercício da competência federal e, originariamente, entre outros, os juízes federais da região nos crimes comuns e de responsabilidade (CF, art. 108).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-federal",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais Federais' (estados); página do TRF2 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, III; arts. 107 e 108; ADCT, art. 27, § 6º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 106, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRF2",
+      "url": "https://www10.trf2.jus.br/portal/"
+    },
+    {
+      "titulo": "Página do TRF2 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-federal-da-2a-regiao-trf2/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Criado pelo ADCT, art. 27, § 6º, na promulgação da CF; instalado depois, em data não pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:es, ente:rj. Sede tirada do endereço na página do CNJ: \"R Acre, 80 - Centro - Rio de Janeiro/RJ - CEP: 20081-000\"."
+}

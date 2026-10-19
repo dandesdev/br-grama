@@ -3,8 +3,8 @@
   "tipo": "orgao",
   "nome": "Superior Tribunal de Justiça",
   "sigla": "STJ",
-  "resumo": "Tribunal superior que uniformiza a interpretação da lei federal; pode propor projetos de lei sobre a Justiça.",
-  "detalhes": "Tem no mínimo 33 ministros, nomeados pelo Presidente da República depois de aprovação por maioria absoluta do Senado. Como tribunal superior, tem iniciativa de leis (CF, art. 61) e seus projetos começam na Câmara (art. 64).",
+  "resumo": "Tribunal superior que uniformiza a interpretação da lei federal: julga o recurso especial contra decisões dos TRFs e dos Tribunais de Justiça. Tem no mínimo 33 ministros.",
+  "detalhes": "Os ministros vêm, em terços, dos TRFs, dos Tribunais de Justiça e, em partes iguais, da advocacia e do Ministério Público, e são nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado (art. 104). Julga originariamente, entre outros, os governadores nos crimes comuns e os desembargadores e membros dos TRFs, TREs e TRTs nos crimes comuns e de responsabilidade (art. 105, I, a). A EC 125/2022 criou o filtro de relevância: o recorrente deve mostrar que a questão de direito federal é relevante, e o STJ só pode recusar o recurso por esse motivo com dois terços dos membros do órgão julgador (art. 105, §§ 2º e 3º). A Lei 15.484/2026 regulamentou o filtro. Junto a ele funcionam a Escola Nacional de Formação e Aperfeiçoamento de Magistrados e o Conselho da Justiça Federal (art. 105, § 1º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
@@ -16,22 +16,52 @@
       "dispositivo": "art. 105 (competências)"
     }
   ],
-  "vigencia": {
-    "de": "1988-10-05",
-    "ate": null
-  },
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 92, II; art. 104; art. 105, III; art. 61, caput; art. 96, II"
+      "dispositivo": "art. 92, II e §§ 1º e 2º; art. 61, caput; art. 96, II; arts. 104 e 105"
+    },
+    {
+      "ref": "norma:lei-15484-2026",
+      "dispositivo": "art. 2º (CPC, art. 1.035-A)"
+    },
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "página do STJ (sede e site)"
     }
   ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, II"
+        }
+      ],
+      "nota": "O STJ não pertence a um único ramo: é a cúpula das Justiças Federal e estadual em matéria de lei federal. Por isso fica direto no Poder Judiciário."
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do STJ",
+      "url": "https://www.stj.jus.br/"
+    },
+    {
+      "titulo": "Página do STJ no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/superior-tribunal-de-justica-stj/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Criado pela CF/88; instalado depois sob a presidência do STF (ADCT, art. 27)."
+  },
   "confianca": "oficial",
-  "notas": "Criado pela CF/88. Composição e competências detalhadas fora do escopo desta tarefa.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
-  }
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario",
+    "notas": "Esboço verificado em verificacao-piloto-processo-lei e completado nesta tarefa."
+  },
+  "notas": "Sede em Brasília (art. 92, § 1º; endereço na página do CNJ). A regulamentação legal da relevância (Lei 15.484/2026) vigora desde 3/9/2026."
 }

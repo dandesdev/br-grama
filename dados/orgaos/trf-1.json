@@ -1,0 +1,55 @@
+{
+  "id": "org:trf-1",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional Federal da 1ª Região",
+  "sigla": "TRF1",
+  "resumo": "Segunda instância da Justiça Federal em AC, AM, AP, BA, DF, GO, MA, MT, PA, PI, RO, RR e TO. Sede: Brasília.",
+  "detalhes": "Abrange: Acre, Amazonas, Amapá, Bahia, Distrito Federal, Goiás, Maranhão, Mato Grosso, Pará, Piauí, Rondônia, Roraima e Tocantins. Sede: Brasília (DF). Julga os recursos contra as decisões dos juízes federais da região e dos juízes estaduais no exercício da competência federal e, originariamente, entre outros, os juízes federais da região nos crimes comuns e de responsabilidade (CF, art. 108).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-federal",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais Federais' (estados); página do TRF1 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, III; arts. 107 e 108; ADCT, art. 27, § 6º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 106, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRF1",
+      "url": "https://portal.trf1.jus.br/portaltrf1/pagina-inicial.htm"
+    },
+    {
+      "titulo": "Página do TRF1 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-federal-da-1a-regiao-trf1/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Criado pelo ADCT, art. 27, § 6º, na promulgação da CF; instalado depois, em data não pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:ac, ente:am, ente:ap, ente:ba, ente:df, ente:go, ente:ma, ente:mt, ente:pa, ente:pi, ente:ro, ente:rr, ente:to. Sede tirada do endereço na página do CNJ: \"SAU Sul quadra 2 bloco A - Praça dos Tribunais Superiores - Brasília/DF - CEP: 70070-900\". Minas Gerais saiu da 1ª Região com a criação do TRF6 (Lei 14.226/2021, art. 1º)."
+}

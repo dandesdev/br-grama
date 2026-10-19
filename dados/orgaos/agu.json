@@ -1,0 +1,57 @@
+{
+  "id": "org:agu",
+  "tipo": "orgao",
+  "nome": "Advocacia-Geral da União",
+  "sigla": "AGU",
+  "resumo": "Instituição que representa a União em juízo e presta consultoria e assessoramento jurídico ao Poder Executivo. Seu chefe é o Advogado-Geral da União.",
+  "tipo_orgao": "advocacia-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "campos": {
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": null
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, VI; art. 14; art. 18, VII"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-12540-2025",
+      "dispositivo": "Anexo I",
+      "nota": "estrutura regimental"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão listado na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-executivo"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Advocacia-Geral da União (gov.br)",
+      "url": "https://www.gov.br/agu/pt-br"
+    }
+  ],
+  "detalhes": "A Constituição a coloca entre as funções essenciais à Justiça (art. 131). O Advogado-Geral da União, de livre nomeação do Presidente entre maiores de 35 anos de notável saber jurídico e reputação ilibada, tem status de Ministro de Estado e assessora juridicamente o Presidente (Lei 14.600/2023, arts. 14 e 18, VII).",
+  "notas": "Sem contido_em, como org:ministerio-publico-da-uniao: a CF trata a AGU no capítulo das funções essenciais à Justiça. A Lei 14.600/2023 (art. 2º, § 1º, VI) põe o Advogado-Geral da União entre os órgãos de assessoramento que integram a Presidência, e o SIORG mostra a AGU abaixo da Presidência. Estrutura e funcionamento na LC 73/1993, que não foi cadastrada."
+}

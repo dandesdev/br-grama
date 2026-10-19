@@ -1,0 +1,55 @@
+{
+  "id": "org:trf-5",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional Federal da 5ª Região",
+  "sigla": "TRF5",
+  "resumo": "Segunda instância da Justiça Federal em AL, CE, PB, PE, RN e SE. Sede: Recife.",
+  "detalhes": "Abrange: Alagoas, Ceará, Paraíba, Pernambuco, Rio Grande do Norte e Sergipe. Sede: Recife (PE). Julga os recursos contra as decisões dos juízes federais da região e dos juízes estaduais no exercício da competência federal e, originariamente, entre outros, os juízes federais da região nos crimes comuns e de responsabilidade (CF, art. 108).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-federal",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais Federais' (estados); página do TRF5 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, III; arts. 107 e 108; ADCT, art. 27, § 6º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 106, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRF5",
+      "url": "https://www.trf5.jus.br/"
+    },
+    {
+      "titulo": "Página do TRF5 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-federal-da-5a-regiao-trf5/"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Criado pelo ADCT, art. 27, § 6º, na promulgação da CF; instalado depois, em data não pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:al, ente:ce, ente:pb, ente:pe, ente:rn, ente:se. Sede tirada do endereço na página do CNJ: \"Cais do Apolo, s/n - Edifício Ministro Djaci Falcão - Bairro do Recife - Recife/PE - CEP: 50030-908\"."
+}

@@ -1,0 +1,55 @@
+{
+  "id": "org:tj-mt",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça de Mato Grosso",
+  "sigla": "TJMT",
+  "resumo": "Tribunal de segundo grau da Justiça estadual de Mato Grosso. Sede: Cuiabá.",
+  "detalhes": "Abrange: Mato Grosso. Sede: Cuiabá (MT). Julga, entre outros, os juízes estaduais e os membros do Ministério Público nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral (CF, art. 96, III). Suas competências são definidas na Constituição do estado, e a lei de organização judiciária é de iniciativa do próprio tribunal (CF, art. 125, § 1º).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "ente": "ente:mt",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais de Justiça' (nome e sigla); página do TJMT (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, VII; art. 93, III; art. 96, III; art. 125"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TJMT",
+      "url": "https://www.tjmt.jus.br/"
+    },
+    {
+      "titulo": "Página do TJMT no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-de-justica-de-mato-grosso-tjmt/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:mt. Nome conforme a lista do CNJ (o nome usado pelo próprio tribunal pode ser mais longo, ex.: \"do Estado de\"). Sede tirada do endereço na página do CNJ: \"Centro Político Administrativo - Rua C, s/n - Cuiabá/MT - CEP: 78049-926\"."
+}

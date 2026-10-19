@@ -1,0 +1,55 @@
+{
+  "id": "org:trt-14",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional do Trabalho da 14ª Região",
+  "sigla": "TRT14",
+  "resumo": "Segunda instância da Justiça do Trabalho em AC e RO. Sede: Porto Velho.",
+  "detalhes": "Abrange: Acre e Rondônia. Sede: Porto Velho (RO). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CF, art. 112).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-do-trabalho",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais do Trabalho' (estados); página do TRT14 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, IV; art. 111, II; art. 112; art. 115"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111, II"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRT14",
+      "url": "https://portal.trt14.jus.br/portal/"
+    },
+    {
+      "titulo": "Página do TRT14 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-do-trabalho-da-14a-regiao-trt14/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:ac, ente:ro. Sede tirada do endereço na página do CNJ: \"R Almirante Barroso, 600 - Porto Velho/RO - CEP: 76801-901\"."
+}

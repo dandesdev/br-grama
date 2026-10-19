@@ -1,0 +1,68 @@
+{
+  "id": "cargo:ministro-do-stm",
+  "tipo": "cargo",
+  "nome": "Ministro do Superior Tribunal Militar",
+  "resumo": "Integra o STM, de 15 ministros vitalícios: dez oficiais-generais da Marinha, do Exército e da Aeronáutica e cinco civis. Nomeado pelo Presidente após aprovação do Senado.",
+  "orgao": "org:stm",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "vagas": 15,
+  "vagas_nota": "Três vagas da Marinha, quatro do Exército, três da Aeronáutica e cinco de civis (art. 123).",
+  "provimento_nota": "O Presidente da República escolhe e indica; o Senado aprova a indicação e o Presidente nomeia (art. 123, caput; art. 84, XIV). Dos cinco civis, três são advogados e dois são escolhidos, em partes iguais, entre juízes da Justiça Militar (a CF diz \"juízes auditores\") e membros do Ministério Público Militar (art. 123, parágrafo único). O art. 123 não exige maioria absoluta no Senado, diferente dos arts. 101, 104 e 111-A.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Não há mandato: o cargo é vitalício (art. 95, I). Aposentadoria compulsória aos 75 anos (art. 40, § 1º, II, aplicado aos magistrados pelo art. 93, VI; LC 152/2015, art. 2º, II)."
+  },
+  "requisitos": [
+    {
+      "texto": "militares: oficial-general da ativa e do posto mais elevado da carreira na Marinha, no Exército ou na Aeronáutica",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 123, caput"
+        }
+      ]
+    },
+    {
+      "texto": "civis: brasileiro com mais de 35 e menos de 70 anos de idade",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 123, parágrafo único, redação da EC 122/2022"
+        }
+      ]
+    },
+    {
+      "texto": "civis advogados: notório saber jurídico, conduta ilibada e mais de dez anos de efetiva atividade profissional",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 123, parágrafo único, I"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Os ministros são vitalícios (art. 123) e têm as garantias e vedações da magistratura (art. 95).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, § 1º, II; art. 84, XIV; art. 93, VI; art. 95; art. 123"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "notas": "A aposentadoria compulsória aos 75 anos vale para os membros do Poder Judiciário (LC 152/2015, art. 2º, II); não conferimos regra específica para os ministros militares.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  }
+}

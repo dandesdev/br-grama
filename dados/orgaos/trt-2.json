@@ -1,0 +1,55 @@
+{
+  "id": "org:trt-2",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional do Trabalho da 2ª Região",
+  "sigla": "TRT2",
+  "resumo": "Segunda instância da Justiça do Trabalho em parte de SP (Grande São Paulo e Baixada Santista). Sede: São Paulo.",
+  "detalhes": "Abrange: parte do estado de São Paulo: Grande São Paulo e Baixada Santista (conforme o CNJ, \"SP / Grande São Paulo e Baixada Santista\"). Sede: São Paulo (SP). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CF, art. 112).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-do-trabalho",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais do Trabalho' (estados); página do TRT2 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, IV; art. 111, II; art. 112; art. 115"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111, II"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRT2",
+      "url": "https://ww2.trt2.jus.br/"
+    },
+    {
+      "titulo": "Página do TRT2 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-do-trabalho-da-2a-regiao-trt2/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:sp (só parte do estado). Sede tirada do endereço na página do CNJ: \"R da Consolação, 1272 - São Paulo/SP - CEP: 01302-906\". São Paulo é o único estado com dois TRTs (2ª e 15ª Regiões), segundo a lista do CNJ."
+}

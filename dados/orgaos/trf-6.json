@@ -1,0 +1,59 @@
+{
+  "id": "org:trf-6",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional Federal da 6ª Região",
+  "sigla": "TRF6",
+  "resumo": "Segunda instância da Justiça Federal em MG. Sede: Belo Horizonte.",
+  "detalhes": "Abrange: Minas Gerais. Sede: Belo Horizonte (MG). Julga os recursos contra as decisões dos juízes federais da região e dos juízes estaduais no exercício da competência federal e, originariamente, entre outros, os juízes federais da região nos crimes comuns e de responsabilidade (CF, art. 108).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-federal",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais Federais' (estados); página do TRF6 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, III; arts. 107 e 108"
+    },
+    {
+      "ref": "norma:lei-14226-2021",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 106, I"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRF6",
+      "url": "https://portal.trf6.jus.br/"
+    },
+    {
+      "titulo": "Página do TRF6 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-federal-da-6a-regiao-trf6/"
+    }
+  ],
+  "vigencia": {
+    "de": "2022-01-03",
+    "ate": null,
+    "nota": "Data de vigência da Lei 14.226/2021 (art. 15); a instalação do tribunal foi posterior, em data não pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:mg. Sede tirada do endereço na página do CNJ: \"Av. Álvares Cabral, 1805 - Santo Agostinho - Belo Horizonte/MG - CEP: 30170-001\"."
+}

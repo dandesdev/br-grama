@@ -1,0 +1,55 @@
+{
+  "id": "org:trt-5",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional do Trabalho da 5ª Região",
+  "sigla": "TRT5",
+  "resumo": "Segunda instância da Justiça do Trabalho em BA. Sede: Salvador.",
+  "detalhes": "Abrange: Bahia. Sede: Salvador (BA). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CF, art. 112).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-do-trabalho",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais do Trabalho' (estados); página do TRT5 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, IV; art. 111, II; art. 112; art. 115"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111, II"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRT5",
+      "url": "https://www.trt5.jus.br/"
+    },
+    {
+      "titulo": "Página do TRT5 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-do-trabalho-da-5a-regiao-trt5/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:ba. Sede tirada do endereço na página do CNJ: \"R. Ivonne Silveira, 248, Narandiba, Salvador. Fórum 2 de Julho.  CEP: 41192-002\". O endereço do CNJ não segue o formato Cidade/UF; a cidade é Salvador."
+}

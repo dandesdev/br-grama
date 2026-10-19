@@ -1,0 +1,34 @@
+{
+  "id": "obj:resolucao",
+  "tipo": "objeto",
+  "nome": "Resolução do Congresso, da Câmara ou do Senado",
+  "resumo": "Ato do Congresso ou de uma das Casas sobre matérias de sua competência privativa ou interna, como regimentos, CPIs e, no Senado, limites de endividamento.",
+  "detalhes": "A Câmara e o Senado editam resoluções sobre o que lhes cabe privativamente (arts. 51 e 52); o Congresso, por exemplo, para delegar poderes ao Presidente (art. 68, § 2º). Não vão à sanção. As da Câmara são promulgadas pelo Presidente da Câmara; as do Senado, pelo Presidente do Senado.",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 48, caput; art. 51; art. 52; art. 59, VII; art. 68, § 2º; art. 155, § 2º, IV"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 17, VI, m; art. 109, III"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, XXVIII; art. 213, III"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Objeto único para as três origens (Congresso, Câmara e Senado), porque o mapa usa o objeto como alvo de relações; quem edita cada resolução aparece nas relações. A CF exige 'resolução do Senado' expressamente em alguns casos, como as alíquotas interestaduais do ICMS (art. 155, § 2º, IV). Não achamos regra expressa sobre quem promulga as resoluções do Congresso Nacional (o RCCN, art. 122, só fixa o prazo de 24 horas para a resolução de delegação).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

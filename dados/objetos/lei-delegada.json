@@ -1,0 +1,25 @@
+{
+  "id": "obj:lei-delegada",
+  "tipo": "objeto",
+  "nome": "Lei delegada",
+  "resumo": "Lei elaborada pelo Presidente da República com delegação do Congresso, dada por resolução que fixa o conteúdo e os termos.",
+  "detalhes": "Não pode tratar de competência exclusiva do Congresso ou privativa de uma das Casas, de matéria de lei complementar, de organização do Judiciário e do Ministério Público, de nacionalidade, cidadania, direitos individuais, políticos e eleitorais, nem de planos e orçamentos (art. 68, § 1º). O Congresso pode sustar a lei delegada que exceder os limites da delegação (art. 49, V).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, V; art. 59, IV; art. 68"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

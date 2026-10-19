@@ -1,0 +1,82 @@
+{
+  "id": "cargo:conselheiro-do-cnj",
+  "tipo": "cargo",
+  "nome": "Conselheiro do Conselho Nacional de Justiça",
+  "resumo": "Integra o CNJ, de 15 membros com mandato de dois anos: o Presidente do STF, oito outros magistrados, dois membros do Ministério Público, dois advogados e dois cidadãos.",
+  "orgao": "org:cnj",
+  "provimento": "variavel",
+  "vagas": 15,
+  "vagas_nota": "Quinze cadeiras (art. 103-B, caput).",
+  "provimento_casos": [
+    {
+      "quando": "Presidente do STF, que também preside o Conselho",
+      "provimento": "nato",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-B, I e § 1º"
+        }
+      ]
+    },
+    {
+      "quando": "Os outros 14 membros: indicados conforme o inciso e nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado",
+      "provimento": "nomeacao-com-aprovacao-do-senado",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-B, II a XIII e § 2º"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Quem indica: o STJ indica um ministro do STJ, um juiz de TRF e um juiz federal; o TST, um ministro do TST, um juiz de TRT e um juiz do trabalho; o STF, um desembargador de TJ e um juiz estadual; o Procurador-Geral da República, um membro do MPU, e escolhe um do MP estadual entre os nomes enviados pelos MPs dos estados; o Conselho Federal da OAB, dois advogados; a Câmara e o Senado, um cidadão cada (art. 103-B, II a XIII). Se as indicações não forem feitas no prazo legal, a escolha cabe ao STF (art. 103-B, § 3º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "admitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução (art. 103-B, caput)."
+  },
+  "requisitos": [
+    {
+      "texto": "pertencer à categoria do inciso pelo qual é indicado (magistrado, membro do Ministério Público, advogado ou cidadão)",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-B, I a XIII"
+        }
+      ]
+    },
+    {
+      "texto": "os dois cidadãos: notável saber jurídico e reputação ilibada",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-B, XIII"
+        }
+      ]
+    }
+  ],
+  "detalhes": "O ministro do STJ exerce a função de Ministro-Corregedor e fica fora da distribuição de processos no STJ (art. 103-B, § 5º). O Procurador-Geral da República e o Presidente do Conselho Federal da OAB oficiam junto ao Conselho, sem serem membros (art. 103-B, § 6º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B"
+    },
+    {
+      "ref": "norma:ec-45-2004",
+      "dispositivo": "art. 1º (inclui o art. 103-B)"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Cargo criado com o CNJ pela EC 45/2004."
+  },
+  "notas": "Caput e incisos I, §§ 1º e 2º na redação da EC 61/2009. O Conselho Federal da OAB ainda não existe como entidade no mapa; por isso não há relação \"indica\" partindo dele.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  }
+}

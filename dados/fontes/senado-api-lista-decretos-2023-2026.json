@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-lista-decretos-2023-2026",
+  "tipo": "fonte",
+  "nome": "Senado Federal, dados abertos: lista de decretos federais de 2023 a 2026",
+  "resumo": "Lista oficial de decretos federais com número, data e ementa, por ano, na API de legislação do Senado.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/legislacao/lista?tipo=DEC&ano=2026",
+  "acesso_em": "2026-10-17",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Consultados os anos 2023, 2024, 2025 e 2026 (parâmetro ano). Cópias em pesquisa/brutos/senado-dados-abertos/2026-10-17/legislacao-lista-DEC-<ano>.json. A lista de 2026 vai até o Decreto 13.138, de 14/10/2026."
+}

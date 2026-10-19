@@ -1,0 +1,74 @@
+{
+  "id": "cargo:ministro-do-tse",
+  "tipo": "cargo",
+  "nome": "Ministro do Tribunal Superior Eleitoral",
+  "resumo": "Integra o TSE, de no mínimo sete membros: três ministros do STF, dois do STJ e dois advogados. Serve por dois anos, no mínimo, e no máximo dois biênios seguidos.",
+  "orgao": "org:tse",
+  "provimento": "variavel",
+  "vagas": 7,
+  "vagas_nota": "A CF fixa o mínimo de sete membros (art. 119). Os substitutos são escolhidos na mesma ocasião e pelo mesmo processo, em número igual para cada categoria (art. 121, § 2º); não estão contados aqui.",
+  "provimento_casos": [
+    {
+      "quando": "Três vagas de ministros do STF e duas de ministros do STJ: eleição por voto secreto",
+      "provimento": "eleicao-pelos-pares",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 119, I"
+        }
+      ]
+    },
+    {
+      "quando": "Duas vagas de advogados: o Presidente da República nomeia um dos seis nomes indicados pelo STF, sem passar pelo Senado. A escolha não é livre (fica presa à lista); \"livre nomeação\" é o termo mais próximo do vocabulário",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 119, II"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Os ministros do STF e do STJ são eleitos por voto secreto (art. 119, I); a CF não diz quem vota, e o entendimento é que são os próprios tribunais. Os advogados, de notável saber jurídico e idoneidade moral, são nomeados pelo Presidente da República dentre seis indicados pelo STF (art. 119, II). O TSE elege seu Presidente e Vice-Presidente entre os ministros do STF e o Corregedor Eleitoral entre os do STJ (art. 119, parágrafo único).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "no máximo dois biênios consecutivos",
+    "nota": "Servem por dois anos, no mínimo, salvo motivo justificado, e nunca por mais de dois biênios consecutivos (art. 121, § 2º). Os ministros vindos do STF e do STJ continuam vitalícios nos tribunais de origem."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STF ou do STJ, ou advogado de notável saber jurídico e idoneidade moral",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 119"
+        }
+      ]
+    }
+  ],
+  "detalhes": "No exercício das funções, têm plenas garantias e são inamovíveis (art. 121, § 1º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119; art. 121, §§ 1º e 2º"
+    }
+  ],
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "Quem vota na eleição do art. 119, I, não está escrito na CF (ver provimento_nota). O termo \"nomeacao-livre\" é aproximação; falta no vocabulário um termo para nomeação vinculada a lista."
+    }
+  },
+  "notas": "Vocabulário: falta um termo de provimento para nomeação dentre lista (proposto no relatório da tarefa).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  }
+}

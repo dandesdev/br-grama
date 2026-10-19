@@ -1,0 +1,37 @@
+{
+  "id": "obj:decreto-legislativo",
+  "tipo": "objeto",
+  "nome": "Decreto legislativo",
+  "resumo": "Ato do Congresso Nacional sobre matérias de sua competência exclusiva, como aprovar tratados e sustar atos do Executivo; não vai à sanção.",
+  "detalhes": "Também regula as relações jurídicas criadas por medida provisória rejeitada ou que perdeu a eficácia (art. 62, § 3º). É promulgado pelo Presidente do Senado (RISF, art. 48, XXVIII).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:congresso-nacional"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 48, caput; art. 49; art. 59, VI; art. 62, §§ 3º e 11"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, II"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, XXVIII; art. 213, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF lista o decreto legislativo como espécie (art. 59, VI) e o exige expressamente só no art. 62, § 3º; a ligação com o art. 49 está nos regimentos (RICD, art. 109, II; RISF, art. 213, II). A dispensa de sanção para as matérias do art. 49 está no art. 48, caput, da CF.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

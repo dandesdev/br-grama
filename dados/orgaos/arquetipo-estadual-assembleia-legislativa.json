@@ -1,0 +1,28 @@
+{
+  "id": "org:arquetipo-estadual-assembleia-legislativa",
+  "tipo": "orgao",
+  "nome": "Assembleia Legislativa",
+  "resumo": "Parlamento do estado, com uma só Casa, formado por deputados estaduais com mandato de quatro anos.",
+  "detalhes": "O número de deputados estaduais é o triplo da bancada do estado na Câmara dos Deputados até 36; acima disso, soma-se um para cada deputado federal acima de doze (art. 27). Mais da metade das Assembleias pode propor emenda à Constituição Federal (art. 60, III).",
+  "tipo_orgao": "legislativo-parlamento",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 27, caput, §§ 1º e 3º; art. 60, III"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado nesta tarefa para servir de ator na iniciativa de emenda constitucional. Como em org:arquetipo-estadual-tce, não há contido_em porque o arquétipo estadual ainda não tem nó de Poder Legislativo estadual. O Distrito Federal tem Câmara Legislativa (art. 32, § 3º), não modelada aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-legislativo"
+  }
+}

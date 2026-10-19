@@ -1,0 +1,55 @@
+{
+  "id": "org:trt-17",
+  "tipo": "orgao",
+  "nome": "Tribunal Regional do Trabalho da 17ª Região",
+  "sigla": "TRT17",
+  "resumo": "Segunda instância da Justiça do Trabalho em ES. Sede: Vitória.",
+  "detalhes": "Abrange: Espírito Santo. Sede: Vitória (ES). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CF, art. 112).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-do-trabalho",
+  "fontes": [
+    {
+      "ref": "fonte:cnj-tribunais",
+      "dispositivo": "lista 'Tribunais Regionais do Trabalho' (estados); página do TRT17 (endereço da sede e site)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 92, IV; art. 111, II; art. 112; art. 115"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111, II"
+        }
+      ]
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TRT17",
+      "url": "https://www.trt17.jus.br/"
+    },
+    {
+      "titulo": "Página do TRT17 no CNJ",
+      "url": "https://www.cnj.jus.br/poder-judiciario/tribunais/tribunal-regional-do-trabalho-da-17a-regiao-trt17/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o tribunal existe na data de referência (lista do CNJ)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-18",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Abrangência (entes): ente:es. Sede tirada do endereço na página do CNJ: \"Av Nossa Senhora dos Navegantes, 1245 - Enseada do Suá - Vitória/ES - CEP: 29050-335\"."
+}
