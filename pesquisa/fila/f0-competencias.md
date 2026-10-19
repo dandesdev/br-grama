@@ -1,9 +1,9 @@
 ---
 id: f0-competencias
 escopo: "Fatia 0: repartição de competências entre União, estados, DF e municípios (CF, arts. 21 a 25, 30 e 32), para a matriz de competências (D38)"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-19
 concluida_em: null
 ---
 
@@ -26,3 +26,4 @@ concluida_em: null
 - Já existem: `ente:uniao`, `ente:<uf>`, `ente:df`, `norma:cf-1988`
 
 ## Diário
+- 2026-10-19 07:49 — iniciada; lidos instruções, decisões, modelo (D38), vocabulários; texto da CF tirado da cópia local pesquisa/brutos/planalto-cf/2026-10-16/cf.htm (até EC 139/2026)

@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-aprova-indicacao-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Aprovação do PGR pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Por voto secreto, após arguição pública, e por maioria absoluta; o Presidente nomeia para mandato de dois anos, com recondução permitida.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "votacao": "secreta"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, e; art. 128, § 1º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 288, III, d"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A destituição do PGR antes do fim do mandato, que também passa pelo Senado (art. 52, XI; art. 128, § 2º), não foi modelada: o vocabulário não tem termo para 'aprova a exoneração'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

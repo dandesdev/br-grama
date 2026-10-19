@@ -4,7 +4,7 @@
   "nome": "Justiça do Trabalho",
   "resumo": "Ramo do Judiciário que julga as ações oriundas das relações de trabalho, inclusive greves e conflitos sindicais. Formado pelo TST, pelos TRTs e pelos juízes do trabalho.",
   "detalhes": "Na primeira instância, cada Vara do Trabalho tem um juiz singular (art. 116). Onde não houver vara, a lei pode dar a jurisdição trabalhista ao juiz de direito, com recurso para o TRT (art. 112). O Conselho Superior da Justiça do Trabalho, que funciona junto ao TST, supervisiona a administração, o orçamento, as finanças e o patrimônio do primeiro e do segundo graus (art. 111-A, § 2º, II).",
-  "tipo_orgao": "conjunto",
+  "tipo_orgao": "ramo-da-justica",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
@@ -31,9 +31,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-17",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-19",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; tipo_orgao passou de conjunto para ramo-da-justica"
   },
-  "notas": "Ramo da Justiça modelado como 'conjunto' (ver nota em org:justica-federal). Competência no art. 114."
+  "notas": "Competência no art. 114."
 }

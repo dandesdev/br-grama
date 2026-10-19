@@ -1,0 +1,34 @@
+{
+  "id": "rel:congresso-delibera-concessao-de-radiodifusao",
+  "tipo": "relacao",
+  "nome": "Apreciação das concessões de rádio e TV",
+  "relacao": "delibera",
+  "de": "org:congresso-nacional",
+  "para": "obj:concessao-de-radiodifusao",
+  "condicao": "Aprecia a outorga e a renovação feitas pelo Executivo, no prazo do art. 64, §§ 2º e 4º; o ato só produz efeitos depois disso. Não renovar exige dois quintos do Congresso, em votação nominal.",
+  "quorum": {
+    "regra": "outro",
+    "votacao": "nominal",
+    "nota": "Dois quintos do Congresso Nacional para a não renovação (art. 223, § 2º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XII; art. 223, §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91, III; art. 288, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

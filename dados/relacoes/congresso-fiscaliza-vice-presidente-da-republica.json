@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-fiscaliza-vice-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Licença do Congresso para o Vice sair do País",
+  "relacao": "fiscaliza",
+  "de": "org:congresso-nacional",
+  "para": "cargo:vice-presidente-da-republica",
+  "condicao": "O Vice-Presidente precisa de licença do Congresso para se ausentar do País por mais de 15 dias, sob pena de perda do cargo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, III; art. 83"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Mesmo problema de vocabulário de rel:congresso-fiscaliza-presidente-da-republica ('autoriza').",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

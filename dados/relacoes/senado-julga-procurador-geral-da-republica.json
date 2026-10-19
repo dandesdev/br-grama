@@ -1,0 +1,33 @@
+{
+  "id": "rel:senado-julga-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Julgamento do PGR por crime de responsabilidade",
+  "relacao": "julga",
+  "de": "org:senado-federal",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Nos crimes de responsabilidade, sob a presidência do Presidente do STF; a condenação exige dois terços e se limita à perda do cargo com inabilitação por oito anos.",
+  "quorum": {
+    "regra": "dois-tercos",
+    "nota": "Para condenar."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, II e parágrafo único"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 288, I, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

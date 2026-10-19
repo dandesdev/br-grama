@@ -1,0 +1,28 @@
+{
+  "id": "obj:concessao-de-radiodifusao",
+  "tipo": "objeto",
+  "nome": "Concessão de rádio e televisão",
+  "resumo": "Outorga ou renovação, pelo Executivo, de concessão, permissão ou autorização de rádio e TV, que só produz efeitos depois de apreciada pelo Congresso.",
+  "detalhes": "O prazo é de dez anos para rádio e quinze para televisão. Não renovar exige dois quintos do Congresso em votação nominal, e cancelar antes do prazo depende de decisão judicial.",
+  "tipo_objeto": "decisao",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:poder-executivo-federal"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XII; art. 223"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -4,7 +4,7 @@
   "nome": "Justiça Militar da União",
   "resumo": "Ramo do Judiciário que julga os crimes militares definidos em lei. Formado pelo Superior Tribunal Militar e pelos tribunais e juízes militares instituídos por lei.",
   "detalhes": "A Constituição a chama de Justiça Militar (art. 122); o nome 'da União' a distingue da Justiça Militar estadual, que julga os militares dos estados e faz parte da Justiça estadual (art. 125, §§ 3º a 5º). A organização, o funcionamento e a competência são definidos em lei (art. 124, parágrafo único).",
-  "tipo_orgao": "conjunto",
+  "tipo_orgao": "ramo-da-justica",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
@@ -31,9 +31,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-17",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-19",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; tipo_orgao passou de conjunto para ramo-da-justica"
   },
-  "notas": "Ramo da Justiça modelado como 'conjunto' (ver nota em org:justica-federal). O id e o nome 'da União' seguem a tarefa; o art. 92, VI fala em 'Tribunais e Juízes Militares'."
+  "notas": "O id e o nome 'da União' seguem a tarefa; o art. 92, VI fala em 'Tribunais e Juízes Militares'."
 }

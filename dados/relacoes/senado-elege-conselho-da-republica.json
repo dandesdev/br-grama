@@ -1,0 +1,26 @@
+{
+  "id": "rel:senado-elege-conselho-da-republica",
+  "tipo": "relacao",
+  "nome": "Eleição de membros do Conselho da República pelo Senado",
+  "relacao": "elege",
+  "de": "org:senado-federal",
+  "para": "org:conselho-da-republica",
+  "condicao": "Elege dois dos seis cidadãos brasileiros natos, maiores de 35 anos, que integram o Conselho, com mandato de três anos, vedada a recondução.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, XIV; art. 89, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "org:conselho-da-republica é id da tarefa f0-executivo. O alvo é o órgão porque não há cargo modelado para os membros cidadãos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

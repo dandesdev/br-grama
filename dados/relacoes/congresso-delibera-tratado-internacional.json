@@ -1,0 +1,30 @@
+{
+  "id": "rel:congresso-delibera-tratado-internacional",
+  "tipo": "relacao",
+  "nome": "Aprovação de tratados pelo Congresso",
+  "relacao": "delibera",
+  "de": "org:congresso-nacional",
+  "para": "obj:tratado-internacional",
+  "condicao": "Resolve definitivamente sobre tratados, acordos ou atos internacionais que tragam encargos ou compromissos gravosos ao patrimônio nacional; o Presidente celebra os tratados sujeitos a referendo do Congresso.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, I; art. 84, VIII"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 213, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "obj:tratado-internacional é id reservado à tarefa f0-executivo. A forma de decreto legislativo vem dos regimentos (RISF, art. 213, II; RICD, art. 109, II).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

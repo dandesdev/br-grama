@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-fiscaliza-lei-delegada",
+  "tipo": "relacao",
+  "nome": "Sustação de lei delegada que exceda a delegação",
+  "relacao": "fiscaliza",
+  "de": "org:congresso-nacional",
+  "para": "obj:lei-delegada",
+  "condicao": "Pode sustar a lei delegada que exorbite dos limites da delegação legislativa.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, V; art. 68, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O vocabulário não tem 'susta'; usamos 'fiscaliza'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

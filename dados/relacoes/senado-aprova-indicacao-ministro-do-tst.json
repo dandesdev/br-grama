@@ -1,0 +1,36 @@
+{
+  "id": "rel:senado-aprova-indicacao-ministro-do-tst",
+  "tipo": "relacao",
+  "nome": "Aprovação de ministros do TST pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:ministro-do-tst",
+  "condicao": "Por voto secreto, após arguição pública, e por maioria absoluta; depois o Presidente nomeia.",
+  "depende_de": [
+    "rel:tst-indica-ministro-do-tst"
+  ],
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "votacao": "secreta"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, a; art. 111-A, caput"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 288, III, d"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

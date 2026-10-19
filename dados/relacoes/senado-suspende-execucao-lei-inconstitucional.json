@@ -1,0 +1,30 @@
+{
+  "id": "rel:senado-suspende-execucao-lei-inconstitucional",
+  "tipo": "relacao",
+  "nome": "Suspensão de lei declarada inconstitucional pelo STF",
+  "relacao": "suspende-execucao",
+  "de": "org:senado-federal",
+  "para": "obj:lei-ou-ato-normativo-federal-ou-estadual",
+  "condicao": "Suspende, por resolução, no todo ou em parte, a execução de lei declarada inconstitucional por decisão definitiva do STF.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, X"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O art. 52, X, fala em 'lei' declarada inconstitucional pelo STF, o que inclui lei municipal julgada em recurso extraordinário; o objeto-alvo existente cobre só lei ou ato normativo federal ou estadual. Problema de modelo anotado no relatório da tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

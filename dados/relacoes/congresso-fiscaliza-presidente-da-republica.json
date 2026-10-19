@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-fiscaliza-presidente-da-republica",
+  "tipo": "relacao",
+  "nome": "Autorizações do Congresso ao Presidente",
+  "relacao": "fiscaliza",
+  "de": "org:congresso-nacional",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "O Presidente depende de autorização do Congresso para declarar guerra, celebrar a paz, permitir a passagem ou a permanência de forças estrangeiras (salvo casos de lei complementar) e se ausentar do País por mais de 15 dias, sob pena de perda do cargo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, II e III; art. 83; art. 84, XIX, XX e XXII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O vocabulário não tem 'autoriza'; usamos 'fiscaliza' (controle sobre a atuação de outro). Termo 'autoriza' proposto no relatório da tarefa. Declaração de guerra e celebração da paz podem ser referendadas depois, se ocorridas no intervalo das sessões legislativas (art. 84, XIX e XX).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

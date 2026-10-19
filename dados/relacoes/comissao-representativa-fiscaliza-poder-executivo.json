@@ -1,0 +1,29 @@
+{
+  "id": "rel:comissao-representativa-fiscaliza-poder-executivo",
+  "tipo": "relacao",
+  "nome": "Fiscalização do Executivo durante o recesso",
+  "relacao": "fiscaliza",
+  "de": "org:comissao-representativa-do-congresso-nacional",
+  "para": "org:poder-executivo-federal",
+  "condicao": "No recesso, fiscaliza os atos do Executivo, inclusive da administração indireta; pode sustar com urgência atos normativos que exorbitem do poder regulamentar e convocar ministros quando as Mesas estiverem impedidas.",
+  "vigencia": {
+    "de": "1990-11-22",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, § 4º"
+    },
+    {
+      "ref": "norma:resolucao-cn-3-1990",
+      "dispositivo": "art. 7º, IV, a, VII e IX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}
