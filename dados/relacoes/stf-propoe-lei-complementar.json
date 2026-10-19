@@ -1,0 +1,25 @@
+{
+  "id": "rel:stf-propoe-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei complementar",
+  "relacao": "propoe",
+  "de": "org:stf",
+  "para": "obj:lei-complementar",
+  "condicao": "Por exemplo, o Estatuto da Magistratura é lei complementar de iniciativa do STF (art. 93). O projeto começa na Câmara.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput; art. 64, caput; art. 93, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

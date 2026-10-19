@@ -1,0 +1,29 @@
+{
+  "id": "rel:pgr-propoe-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei complementar",
+  "relacao": "propoe",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "obj:lei-complementar",
+  "condicao": "Inclusive a lei complementar de organização do Ministério Público da União, de iniciativa facultada ao PGR (art. 128, § 5º).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput; art. 128, § 5º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, § 1º, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

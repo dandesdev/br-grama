@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-da-republica-sanciona-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Sanção de lei complementar",
+  "relacao": "sanciona",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:lei-complementar",
+  "condicao": "Como na lei ordinária: 15 dias úteis do recebimento; o silêncio vale como sanção.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, caput, §§ 1º e 3º; art. 84, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:tst-julga-recursos-da-justica-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Recurso de revista ao TST",
+  "relacao": "julga",
+  "de": "org:tst",
+  "para": "org:justica-do-trabalho",
+  "condicao": "Pela CLT, julga o recurso de revista contra decisões dos TRTs em recurso ordinário, em dissídio individual, nos casos de divergência de interpretação ou de violação de lei federal ou da Constituição. A CF deixa a competência do TST para a lei.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 111-A, § 1º"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 896"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

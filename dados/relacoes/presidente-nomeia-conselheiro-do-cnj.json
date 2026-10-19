@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-nomeia-conselheiro-do-cnj",
+  "tipo": "relacao",
+  "nome": "Nomeação dos conselheiros do CNJ",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:conselheiro-do-cnj",
+  "condicao": "Nomeia os 14 conselheiros indicados, depois de aprovados pela maioria absoluta do Senado.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  },
+  "depende_de": [
+    "rel:senado-aprova-indicacao-conselheiro-do-cnj"
+  ]
+}

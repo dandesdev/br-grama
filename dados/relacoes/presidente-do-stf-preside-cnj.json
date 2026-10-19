@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-do-stf-preside-cnj",
+  "tipo": "relacao",
+  "nome": "Presidência do CNJ",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-stf",
+  "para": "org:cnj",
+  "condicao": "Preside o Conselho; nas ausências e impedimentos, quem preside é o Vice-Presidente do STF.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

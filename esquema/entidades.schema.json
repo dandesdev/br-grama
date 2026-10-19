@@ -32,6 +32,7 @@
           "description": "Onde o órgão aparece no organograma (hierarquia visual). Não use a relação 'integra' para dizer a mesma coisa."
         },
         "arquetipo": { "enum": ["estadual", "municipal"] },
+        "jurisdicao": { "$ref": "comum.schema.json#/$defs/ids", "description": "Entes cujo território o órgão abrange (ex.: um TRF e os estados da sua região)." },
         "estrutura_continua": {
           "description": "Quando a estrutura interna existe mas não foi modelada (D09): onde encontrá-la.",
           "$ref": "comum.schema.json#/$defs/fontes"

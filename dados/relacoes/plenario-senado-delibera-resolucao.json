@@ -1,0 +1,29 @@
+{
+  "id": "rel:plenario-senado-delibera-resolucao",
+  "tipo": "relacao",
+  "nome": "Resoluções do Senado",
+  "relacao": "delibera",
+  "de": "org:plenario-do-senado-federal",
+  "para": "obj:resolucao",
+  "condicao": "Vota projetos de resolução sobre a competência privativa do Senado, como limites de endividamento e operações de crédito dos entes, suspensão de lei declarada inconstitucional pelo STF e alíquotas do ICMS.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, V a IX e X; art. 155, § 2º, IV"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 213, III; art. 288, III, g"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

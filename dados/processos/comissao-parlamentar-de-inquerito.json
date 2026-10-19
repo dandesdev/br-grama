@@ -1,0 +1,279 @@
+{
+  "id": "proc:comissao-parlamentar-de-inquerito",
+  "tipo": "processo",
+  "nome": "Comissão parlamentar de inquérito (CPI)",
+  "resumo": "Como uma CPI nasce, investiga e encaminha suas conclusões: pedido de 1/3 dos parlamentares, fato determinado, prazo certo e relatório ao Ministério Público.",
+  "detalhes": "A CPI é uma comissão temporária da Câmara, do Senado ou mista. Tem poderes de investigação próprios das autoridades judiciais, mas não julga: suas conclusões vão ao Ministério Público e a outras autoridades, que decidem o que fazer.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "requerimento",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador"
+      ],
+      "acao": "Um terço dos deputados, dos senadores ou de ambos assina o pedido, que indica fato determinado e prazo",
+      "detalhes": "Fato determinado é um acontecimento de relevante interesse público, descrito no próprio requerimento. No Senado, o pedido também diz o número de membros e o limite de despesas. Para uma CPI mista, é preciso um terço de cada Casa.",
+      "quorum": {
+        "regra": "um-terco",
+        "nota": "Um terço dos membros da Casa; na CPI mista, um terço da Câmara mais um terço do Senado."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 3º"
+        },
+        {
+          "ref": "norma:lei-1579-1952",
+          "dispositivo": "art. 1º, parágrafo único"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 35, caput e § 1º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 145, § 1º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "criacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente da Casa confere os requisitos e manda publicar o requerimento, criando a CPI",
+      "detalhes": "Na Câmara, se faltar algum requisito, o Presidente devolve o pedido ao autor, que pode recorrer ao Plenário; e não se cria nova CPI enquanto cinco estiverem funcionando, salvo por projeto de resolução com o mesmo número de assinaturas. A CPI mista é instituída automaticamente em sessão conjunta. No Senado não cabe CPI sobre matérias da Câmara, do Judiciário ou dos estados.",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 35, §§ 2º e 4º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 145, § 2º; art. 146"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "investigacao",
+          "quando": "Requisitos atendidos"
+        },
+        {
+          "para": "pedido-devolvido",
+          "quando": "Requisitos não atendidos e recurso negado ou não apresentado"
+        }
+      ]
+    },
+    {
+      "id": "investigacao",
+      "atores": [
+        "org:cpis-da-camara-dos-deputados",
+        "org:cpis-do-senado-federal",
+        "org:cpmis-do-congresso-nacional"
+      ],
+      "acao": "A CPI investiga com poderes de autoridade judicial: ouve testemunhas, requisita documentos, faz diligências",
+      "detalhes": "Pode ouvir indiciados e testemunhas sob compromisso, convocar ministros, tomar depoimento de autoridades e requisitar informações e documentos da administração; no Senado, também pedir auditorias ao TCU. Se a testemunha faltar sem motivo, a CPI pede ao juiz criminal que a intime; medidas cautelares sobre bens também dependem do juiz. Mentir ou calar a verdade perante a CPI é crime. O depoente pode ter advogado.",
+      "prazo": {
+        "texto": "Prazo certo fixado na criação: na Câmara, 120 dias, prorrogáveis por até metade; no Senado, prorrogável a pedido de 1/3 dos senadores; em qualquer caso, não passa da legislatura (RICD, art. 35, § 3º; RISF, arts. 76, § 4º, e 152; Lei 1.579/1952, art. 5º, § 2º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 3º"
+        },
+        {
+          "ref": "norma:lei-1579-1952",
+          "dispositivo": "arts. 2º a 4º e 5º, § 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "arts. 35, § 3º, e 36"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 76, § 4º; arts. 148, 149 e 152"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "relatorio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "relatorio",
+      "atores": [
+        "org:cpis-da-camara-dos-deputados",
+        "org:cpis-do-senado-federal",
+        "org:cpmis-do-congresso-nacional"
+      ],
+      "acao": "A CPI aprova o relatório com suas conclusões, que pode propor projeto de lei, de decreto legislativo ou de resolução",
+      "detalhes": "Se forem vários fatos, a CPI pode concluir sobre cada um separadamente. Na Câmara, o relatório é publicado e as propostas vão à Mesa, que as põe em pauta em cinco sessões.",
+      "fontes": [
+        {
+          "ref": "norma:lei-1579-1952",
+          "dispositivo": "art. 5º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 37, caput e I"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 150"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "encaminhamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "encaminhamento",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente da Casa envia o relatório ao Ministério Público ou à AGU e a outras autoridades competentes",
+      "detalhes": "O relatório e a resolução que o aprovar vão aos chefes do Ministério Público da União ou dos estados, ou às autoridades administrativas ou judiciais competentes. Na Câmara, também ao Executivo, para medidas disciplinares e administrativas, à comissão permanente da área, à comissão mista de orçamento e ao TCU, em cinco sessões.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 3º"
+        },
+        {
+          "ref": "norma:lei-1579-1952",
+          "dispositivo": "art. 6º-A"
+        },
+        {
+          "ref": "norma:lei-10001-2000",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 37, II a V e parágrafo único"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 151"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "providencias",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "providencias",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:ministerio-publico-da-uniao",
+        "org:agu",
+        "org:tcu",
+        "org:poder-executivo-federal"
+      ],
+      "acao": "Quem recebe o relatório decide as medidas da sua competência; só a Justiça pode condenar",
+      "detalhes": "O Ministério Público ou a AGU pode propor ações para apurar a responsabilidade civil ou criminal; o Executivo, abrir processos disciplinares; o TCU, adotar as medidas de controle externo.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 3º; art. 71"
+        },
+        {
+          "ref": "norma:lei-1579-1952",
+          "dispositivo": "art. 6º-A"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 37, II a V"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "pedido-devolvido",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "Sem os requisitos, o pedido é devolvido e a CPI não é criada",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 35, § 2º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 146"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, § 3º"
+    },
+    {
+      "ref": "norma:lei-1579-1952",
+      "dispositivo": "arts. 1º a 6º-A"
+    },
+    {
+      "ref": "norma:lei-10001-2000",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 35 a 37"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 76, § 4º; arts. 145 a 153"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 21"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "etapas": {
+      "nota": "Na etapa 'providencias', 'só a Justiça pode condenar' é leitura nossa do art. 58, § 3º, que manda as conclusões ao Ministério Público 'para que promova a responsabilidade civil ou criminal'. Na etapa 'providencias', o Ministério Público dos estados também pode receber o relatório (Lei 10.001/2000, art. 1º), mas não é ator no mapa federal."
+    }
+  },
+  "notas": "Processo não pedido como entregável; criado para mostrar o que acontece com as conclusões das CPIs, com os destinatários como atores. Não tem 'produz', porque o relatório da CPI não foi modelado como objeto. Prazos: a Lei 1.579/1952, art. 5º, § 2º, diz que a CPI termina com a sessão legislativa, salvo prorrogação dentro da legislatura; o RICD (art. 35, § 3º) fixa 120 dias prorrogáveis por metade; o RISF (art. 76, § 4º) impede passar da legislatura. As regras de prazo foram resumidas sem estruturar 'valor'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

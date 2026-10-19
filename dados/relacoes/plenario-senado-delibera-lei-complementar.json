@@ -1,0 +1,33 @@
+{
+  "id": "rel:plenario-senado-delibera-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Votação de lei complementar no Plenário do Senado",
+  "relacao": "delibera",
+  "de": "org:plenario-do-senado-federal",
+  "para": "obj:lei-complementar",
+  "condicao": "Em turno único; aprova com a maioria absoluta dos senadores (41 de 81).",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Maioria absoluta dos membros do Senado."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 69"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 270; art. 288, III, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

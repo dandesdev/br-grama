@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-julga-recursos-da-justica-estadual",
+  "tipo": "relacao",
+  "nome": "Recursos ao STJ contra decisões dos tribunais dos estados e do DF",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "org:justica-estadual",
+  "condicao": "Julga o recurso especial contra causas decididas em única ou última instância pelos tribunais dos estados e do DF que contrariem tratado ou lei federal, julguem válido ato local contestado em face de lei federal ou divirjam de outro tribunal na interpretação da lei federal; e recurso ordinário em habeas corpus e mandado de segurança negados por esses tribunais.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, II, a e b; III; §§ 2º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

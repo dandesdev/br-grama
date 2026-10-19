@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-propoe-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei complementar",
+  "relacao": "propoe",
+  "de": "org:stj",
+  "para": "obj:lei-complementar",
+  "condicao": "Como tribunal superior; o projeto começa na Câmara. A iniciativa da lei complementar segue o art. 61, como a da lei ordinária.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput; art. 64, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

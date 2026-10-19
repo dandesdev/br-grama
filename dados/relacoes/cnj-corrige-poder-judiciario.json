@@ -1,0 +1,26 @@
+{
+  "id": "rel:cnj-corrige-poder-judiciario",
+  "tipo": "relacao",
+  "nome": "Controle disciplinar dos juízes",
+  "relacao": "corrige",
+  "de": "org:cnj",
+  "para": "org:poder-judiciario",
+  "condicao": "Recebe reclamações contra juízes e tribunais, pode avocar processos disciplinares, determinar remoção ou disponibilidade e aplicar outras sanções, e rever processos disciplinares julgados há menos de um ano. A corregedoria é exercida pelo ministro do STJ no Conselho.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, § 4º, III e V; § 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rel:plenario-senado-delibera-medida-provisoria",
+  "tipo": "relacao",
+  "nome": "Votação de medida provisória no Plenário do Senado",
+  "relacao": "delibera",
+  "de": "org:plenario-do-senado-federal",
+  "para": "obj:medida-provisoria",
+  "condicao": "Vota depois da Câmara, também começando por relevância e urgência; alterações do Senado voltam à Câmara.",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Presente a maioria absoluta dos senadores."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 62, §§ 5º, 6º e 8º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "arts. 7º e 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

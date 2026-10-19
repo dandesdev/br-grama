@@ -1,0 +1,29 @@
+{
+  "id": "rel:stf-indica-ministro-do-tse",
+  "tipo": "relacao",
+  "nome": "Lista de advogados para o TSE",
+  "relacao": "indica",
+  "de": "org:stf",
+  "para": "cargo:ministro-do-tse",
+  "condicao": "O STF indica seis advogados de notável saber jurídico e idoneidade moral; o Presidente da República nomeia dois.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119, II"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 7º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:deputado-federal-propoe-decreto-legislativo",
+  "tipo": "relacao",
+  "nome": "Iniciativa de decreto legislativo na Câmara",
+  "relacao": "propoe",
+  "de": "cargo:deputado-federal",
+  "para": "obj:decreto-legislativo",
+  "condicao": "Qualquer deputado ou comissão pode apresentar projeto de decreto legislativo, salvo quando a iniciativa for privativa da Mesa ou de outro colegiado. Também pode apresentá-lo sobre os efeitos de medida provisória, se a comissão mista não o fizer em 15 dias.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, § 2º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "art. 11, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

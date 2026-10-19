@@ -1,0 +1,27 @@
+{
+  "id": "rel:cnj-controla-internamente-poder-judiciario",
+  "tipo": "relacao",
+  "nome": "Controle administrativo e financeiro do Judiciário",
+  "relacao": "controla-internamente",
+  "de": "org:cnj",
+  "para": "org:poder-judiciario",
+  "condicao": "Controla a atuação administrativa e financeira do Judiciário: zela pela autonomia do Poder, pode expedir atos regulamentares e rever a legalidade de atos administrativos de juízes e tribunais, sem prejuízo da competência do TCU.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, § 4º, caput, I e II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Pendência: segundo fontes secundárias, o STF decidiu na ADI 3367 que o CNJ não tem competência sobre o STF; não confirmamos no acórdão (ver notas de org:cnj)."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:stf-julga-cnj",
+  "tipo": "relacao",
+  "nome": "Ações contra o CNJ",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "org:cnj",
+  "condicao": "O STF julga originariamente as ações contra o CNJ.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Alínea incluída pela EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, r"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

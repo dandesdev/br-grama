@@ -1,0 +1,232 @@
+{
+  "id": "proc:caminho-de-um-processo",
+  "tipo": "processo",
+  "nome": "Caminho de um processo na Justiça comum, do juiz ao STF",
+  "resumo": "Como uma ação cível sobe da primeira instância (juiz estadual ou federal) ao Tribunal de Justiça ou TRF, ao STJ e ao STF, com apelação, recurso especial e recurso extraordinário.",
+  "detalhes": "Mostra o caminho principal nas Justiças estadual e federal. O juiz de primeira instância dá a sentença; o TJ ou o TRF julga a apelação; o STJ pode rever a aplicação da lei federal (recurso especial) e o STF, as questões constitucionais (recurso extraordinário). Em cada etapa, sem recurso no prazo, a decisão transita em julgado. Embargos de declaração, agravos e as Justiças especializadas não estão modelados.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "sentenca",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-de-direito",
+        "cargo:juiz-federal"
+      ],
+      "acao": "O juiz de primeira instância julga a causa e dá a sentença",
+      "detalhes": "A ação começa na Justiça Federal quando a União, uma autarquia ou empresa pública federal é parte, entre outros casos do art. 109; nos demais casos da Justiça comum, começa na Justiça estadual, com o juiz de direito da comarca. Nos juizados especiais, os recursos vão a turmas de juízes de primeiro grau (art. 98, I), e daí só cabe recurso extraordinário ao STF: o recurso especial ao STJ exige decisão de TRF ou de tribunal estadual (art. 105, III).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 98, I; art. 109; art. 125"
+        },
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 1.009"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apelacao",
+          "quando": "A parte vencida apela"
+        },
+        {
+          "para": "transito-em-julgado",
+          "quando": "Ninguém recorre no prazo"
+        }
+      ]
+    },
+    {
+      "id": "apelacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:desembargador",
+        "cargo:juiz-de-trf"
+      ],
+      "acao": "O Tribunal de Justiça ou o TRF julga a apelação em colegiado e profere o acórdão",
+      "detalhes": "A apelação é apresentada ao próprio juiz que deu a sentença, que intima a outra parte para responder em 15 dias e remete o processo ao tribunal sem examinar se o recurso cabe (CPC, art. 1.010). Em regra, a apelação suspende os efeitos da sentença (CPC, art. 1.012). Na Justiça Federal, o TRF julga em grau de recurso as causas decididas pelos juízes federais e pelos juízes estaduais no exercício da competência federal (CF, art. 108, II, e art. 109, § 4º); na Justiça estadual, o tribunal de segundo grau é o Tribunal de Justiça.",
+      "prazo": {
+        "texto": "15 dias úteis, contados da intimação da decisão (CPC, arts. 219 e 1.003, caput e § 5º)",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "intimação da decisão",
+        "efeito": "sem recurso no prazo, a decisão transita em julgado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, III; art. 108, II; art. 109, § 4º"
+        },
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "arts. 219, 1.003, § 5º, 1.009, 1.010 e 1.012"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissao-resp-re",
+          "quando": "A parte vencida interpõe recurso especial (questão de lei federal), recurso extraordinário (questão constitucional) ou os dois"
+        },
+        {
+          "para": "transito-em-julgado",
+          "quando": "Ninguém recorre no prazo"
+        }
+      ]
+    },
+    {
+      "id": "admissao-resp-re",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:desembargador",
+        "cargo:juiz-de-trf"
+      ],
+      "acao": "O presidente ou o vice-presidente do tribunal de origem decide se admite o recurso especial e o extraordinário",
+      "detalhes": "Os dois recursos são apresentados em petições separadas ao presidente ou vice-presidente do tribunal que julgou a apelação; a outra parte responde em 15 dias (CPC, arts. 1.029 e 1.030). O tribunal nega seguimento ao recurso que contrarie tese já firmada pelo STF em repercussão geral ou pelo STJ no regime de relevância ou de recursos repetitivos. Contra a inadmissão cabe agravo ao STJ ou ao STF, salvo quando ela se basear nessas teses (CPC, art. 1.042). Se houver os dois recursos, o processo vai primeiro ao STJ (CPC, art. 1.031).",
+      "prazo": {
+        "texto": "15 dias úteis para interpor, contados da intimação do acórdão (CPC, arts. 219 e 1.003, § 5º)",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "intimação do acórdão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, III; art. 105, III"
+        },
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "arts. 1.029 a 1.031 e 1.042, redação da Lei 15.484/2026"
+        },
+        {
+          "ref": "norma:lei-15484-2026",
+          "dispositivo": "art. 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-especial",
+          "quando": "Recurso especial admitido (ou agravo contra a inadmissão provido pelo STJ); se houver também recurso extraordinário, o STJ julga primeiro"
+        },
+        {
+          "para": "recurso-extraordinario",
+          "quando": "Só há recurso extraordinário, admitido (ou agravo contra a inadmissão provido pelo STF)"
+        },
+        {
+          "para": "transito-em-julgado",
+          "quando": "Recursos inadmitidos, sem agravo ou com agravo negado"
+        }
+      ]
+    },
+    {
+      "id": "recurso-especial",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stj"
+      ],
+      "acao": "O STJ julga o recurso especial, que trata da interpretação da lei federal",
+      "detalhes": "Cabe contra decisão de TRF ou de tribunal estadual, em única ou última instância, que contrarie tratado ou lei federal, julgue válido ato de governo local contestado em face de lei federal ou interprete a lei federal de forma diferente de outro tribunal (CF, art. 105, III). O recorrente precisa mostrar que a questão de direito federal é relevante; a relevância é presumida em ações penais, de improbidade, com valor acima de 500 salários mínimos, que possam gerar inelegibilidade ou contra a jurisprudência dominante do STJ (CF, art. 105, §§ 2º e 3º; CPC, art. 1.035-A).",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Para não conhecer do recurso por falta de relevância: dois terços dos membros do órgão competente (CF, art. 105, § 2º; CPC, art. 1.035-A, § 6º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 105, III e §§ 2º e 3º"
+        },
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "arts. 1.031 e 1.035-A"
+        },
+        {
+          "ref": "norma:lei-15484-2026",
+          "dispositivo": "art. 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-extraordinario",
+          "quando": "Também há recurso extraordinário e ele não ficou prejudicado"
+        },
+        {
+          "para": "transito-em-julgado",
+          "quando": "Não há recurso extraordinário pendente nem outro recurso cabível"
+        }
+      ]
+    },
+    {
+      "id": "recurso-extraordinario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF julga o recurso extraordinário, que trata de questão constitucional",
+      "detalhes": "Cabe contra causa decidida em única ou última instância quando a decisão contraria a Constituição, declara inconstitucional tratado ou lei federal, ou julga válida lei ou ato local contestado em face da Constituição ou de lei federal (CF, art. 102, III). O recorrente precisa mostrar a repercussão geral da questão (CF, art. 102, § 3º; CPC, art. 1.035). Também pode chegar ao STF recurso extraordinário contra decisão do STJ.",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Para recusar o recurso por falta de repercussão geral: dois terços dos membros do STF (CF, art. 102, § 3º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, III e § 3º"
+        },
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 1.035"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "transito-em-julgado",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "transito-em-julgado",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A decisão transita em julgado: não cabe mais recurso, e o que foi decidido não pode ser rediscutido",
+      "detalhes": "A coisa julgada torna a decisão de mérito imutável quando não há mais recurso (CPC, art. 502), e a lei não pode prejudicá-la (CF, art. 5º, XXXVI). Depois vem o cumprimento da decisão, que não está modelado aqui.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, XXXVI"
+        },
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 502"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "2016-03",
+    "ate": null,
+    "incerta": true,
+    "nota": "Os nomes, prazos e passos dos recursos seguem o CPC de 2015 (em vigor um ano após a publicação, art. 1.045; usamos só o mês, sem conferir o dia), com a redação da Lei 15.484/2026 (em vigor desde 3/9/2026). A estrutura constitucional (arts. 102 e 105) vem de 1988, com as EC 45/2004 e 125/2022."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, XXXVI; art. 93, III; art. 98, I; art. 102, III e § 3º; art. 105, III e §§ 2º e 3º; arts. 108 e 109; art. 125"
+    },
+    {
+      "ref": "norma:lei-13105-2015",
+      "dispositivo": "arts. 219, 502, 1.003, 1.009, 1.010, 1.012, 1.029 a 1.031, 1.035, 1.035-A e 1.042"
+    },
+    {
+      "ref": "norma:lei-15484-2026",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "Decisões de modelagem: (1) os atores dos tribunais de segundo grau são os cargos (desembargador e juiz de TRF), porque são 33 tribunais; (2) a admissão do REsp e do RE no tribunal de origem é uma etapa própria, com o agravo do CPC, art. 1.042, descrito nos detalhes e no \"quando\"; (3) o processo não tem \"produz\": não existe objeto para \"decisão judicial definitiva\"; (4) vigencia.de usa a data em que o CPC/2015 começou a valer, marcada como incerta."
+}

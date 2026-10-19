@@ -1,0 +1,34 @@
+{
+  "id": "rel:plenario-camara-delibera-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Votação de PEC no Plenário da Câmara",
+  "relacao": "delibera",
+  "de": "org:plenario-da-camara-dos-deputados",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Dois turnos, com interstício de cinco sessões, em votação nominal; aprova com três quintos dos deputados (308) em cada turno.",
+  "quorum": {
+    "regra": "tres-quintos",
+    "votacao": "nominal",
+    "nota": "Em cada um dos dois turnos."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, § 2º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 202, §§ 6º e 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

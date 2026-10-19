@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-do-senado-promulga-decreto-legislativo",
+  "tipo": "relacao",
+  "nome": "Promulgação de decreto legislativo",
+  "relacao": "promulga",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "obj:decreto-legislativo",
+  "condicao": "Promulga os decretos legislativos aprovados.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, XXVIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

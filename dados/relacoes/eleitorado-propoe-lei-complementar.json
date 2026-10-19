@@ -1,0 +1,25 @@
+{
+  "id": "rel:eleitorado-propoe-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei complementar",
+  "relacao": "propoe",
+  "de": "org:eleitorado-nacional",
+  "para": "obj:lei-complementar",
+  "condicao": "Projeto apresentado à Câmara e assinado por pelo menos 1% do eleitorado nacional, de pelo menos cinco estados, com no mínimo 0,3% dos eleitores de cada um.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "org:comissao-representativa-do-congresso-nacional",
+  "tipo": "orgao",
+  "nome": "Comissão Representativa do Congresso Nacional",
+  "resumo": "Atua em nome do Congresso durante o recesso: 7 senadores e 16 deputados, eleitos pelas Casas na última sessão ordinária de cada período.",
+  "detalhes": "Pode, entre outras coisas, autorizar o Presidente e o Vice a se ausentarem do País, sustar com urgência atos normativos do Executivo que exorbitem do poder regulamentar, fiscalizar o Executivo, convocar ministros e pedir-lhes informações quando as Mesas estiverem impedidas, e votar créditos adicionais e prazos que vençam no recesso. É presidida por um membro da Mesa do Senado, com um vice da Mesa da Câmara.",
+  "tipo_orgao": "colegiado",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "vigencia": {
+    "de": "1990-11-22",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, § 4º"
+    },
+    {
+      "ref": "norma:resolucao-cn-3-1990",
+      "dispositivo": "arts. 2º a 10"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 4º"
+        }
+      ]
+    },
+    "vigencia": {
+      "confianca": "inferido",
+      "nota": "Data de publicação da Resolução 3/1990-CN, que a regulamentou; a CF prevê a comissão desde 1988 (art. 58, § 4º)."
+    }
+  },
+  "notas": "Deliberações por maioria simples, presente a maioria absoluta dos membros, com votos de senadores e deputados contados separadamente; a matéria só é aprovada com decisão favorável das duas Casas (Res. 3/1990-CN, art. 10). Não registramos os membros eleitos para o recesso de julho de 2026.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-do-stf-integra-cnj",
+  "tipo": "relacao",
+  "nome": "Composição do CNJ",
+  "relacao": "integra",
+  "de": "cargo:presidente-do-stf",
+  "para": "org:cnj",
+  "condicao": "O Presidente do STF é membro nato e preside o Conselho.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

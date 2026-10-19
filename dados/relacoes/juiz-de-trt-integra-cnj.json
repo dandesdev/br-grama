@@ -1,0 +1,26 @@
+{
+  "id": "rel:juiz-de-trt-integra-cnj",
+  "tipo": "relacao",
+  "nome": "Composição do CNJ",
+  "relacao": "integra",
+  "de": "cargo:juiz-de-trt",
+  "para": "org:cnj",
+  "condicao": "Um juiz de TRT, indicado pelo TST.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, VIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:tst-indica-ministro-do-tst",
+  "tipo": "relacao",
+  "nome": "Indicação de ministro do TST",
+  "relacao": "indica",
+  "de": "org:tst",
+  "para": "cargo:ministro-do-tst",
+  "condicao": "Indica os juízes de carreira dos TRTs para as vagas da magistratura e forma lista tríplice, a partir da lista de seis da OAB ou do MPT, para as vagas do quinto.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 111-A, I e II; art. 94"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

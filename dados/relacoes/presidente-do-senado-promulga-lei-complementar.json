@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-do-senado-promulga-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Promulgação supletiva de lei complementar",
+  "relacao": "promulga",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "obj:lei-complementar",
+  "condicao": "Se o Presidente da República não promulgar em 48 horas nos casos de sanção tácita ou veto derrubado; se ele também não o fizer em 48 horas, promulga o Vice-Presidente do Senado.",
+  "ordem": 1,
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, § 7º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

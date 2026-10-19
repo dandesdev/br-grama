@@ -1,0 +1,29 @@
+{
+  "id": "rel:ccjc-camara-delibera-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Admissibilidade de PEC na CCJC da Câmara",
+  "relacao": "delibera",
+  "de": "org:ccjc-camara",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Examina se a proposta é admissível (autoria, cláusulas pétreas, circunstâncias que impedem emenda) em 5 sessões; o mérito vai a uma comissão especial.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, §§ 1º e 4º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 202, caput e §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

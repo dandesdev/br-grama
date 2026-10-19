@@ -1,0 +1,34 @@
+{
+  "id": "rel:plenario-senado-delibera-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Votação de PEC no Plenário do Senado",
+  "relacao": "delibera",
+  "de": "org:plenario-do-senado-federal",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Dois turnos, com interstício mínimo de cinco dias úteis, em votação nominal; aprova com três quintos dos senadores (49) em cada turno.",
+  "quorum": {
+    "regra": "tres-quintos",
+    "votacao": "nominal",
+    "nota": "Em cada um dos dois turnos."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, § 2º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 288, II; arts. 361 e 362"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -29,7 +29,7 @@
       ]
     }
   ],
-  "provimento_nota": "Os ministros do STF e do STJ são eleitos por voto secreto (art. 119, I); a CF não diz quem vota, e o entendimento é que são os próprios tribunais. Os advogados, de notável saber jurídico e idoneidade moral, são nomeados pelo Presidente da República dentre seis indicados pelo STF (art. 119, II). O TSE elege seu Presidente e Vice-Presidente entre os ministros do STF e o Corregedor Eleitoral entre os do STJ (art. 119, parágrafo único).",
+  "provimento_nota": "Os ministros do STF e do STJ são eleitos por voto secreto (art. 119, I); a CF não diz quem vota. No STF, quem elege é o Plenário, que também organiza a lista de advogados (RISTF, art. 7º, II); no STJ, não conferimos o regimento. Os advogados, de notável saber jurídico e idoneidade moral, são nomeados pelo Presidente da República dentre seis indicados pelo STF (art. 119, II). O TSE elege seu Presidente e Vice-Presidente entre os ministros do STF e o Corregedor Eleitoral entre os do STJ (art. 119, parágrafo único).",
   "mandato": {
     "anos": 2,
     "vitalicio": false,
@@ -52,12 +52,16 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 119; art. 121, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 7º, II; art. 143, parágrafo único"
     }
   ],
   "campos": {
     "provimento_casos": {
       "confianca": "inferido",
-      "nota": "Quem vota na eleição do art. 119, I, não está escrito na CF (ver provimento_nota). O termo \"nomeacao-livre\" é aproximação; falta no vocabulário um termo para nomeação vinculada a lista."
+      "nota": "Para o STJ, quem vota na eleição do art. 119, I, b, não foi conferido no regimento do STJ. O termo \"nomeacao-livre\" é aproximação; falta no vocabulário um termo para nomeação vinculada a lista."
     }
   },
   "notas": "Vocabulário: falta um termo de provimento para nomeação dentre lista (proposto no relatório da tarefa).",

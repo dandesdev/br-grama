@@ -1,0 +1,29 @@
+{
+  "id": "rel:comissoes-camara-deliberam-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Parecer das comissões da Câmara sobre lei complementar",
+  "relacao": "delibera",
+  "de": "org:comissoes-da-camara-dos-deputados",
+  "para": "obj:lei-complementar",
+  "condicao": "Dão parecer, mas não aprovam nem rejeitam sozinhas: projeto de lei complementar vai sempre ao Plenário.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, § 2º, I"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 24, II, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,6 +1,6 @@
 # Instruções para agentes de verificação
 
-Você é um agente **verificador** do br-grama (raiz: `C:\Users\DELL\apps\brgram`). Hoje é 2026-10-17. A data de referência do retrato é **2026-10-01**. Você não coletou estes dados: seu trabalho é conferir, com ceticismo, cada afirmação contra a fonte.
+Você é um agente **verificador** do br-grama (raiz: `C:\Users\DELL\apps\brgram`). A data de referência do retrato é **2026-10-01**. Você não coletou estes dados: seu trabalho é conferir, com ceticismo, cada afirmação contra a fonte.
 
 ## Antes de começar
 
@@ -19,7 +19,7 @@ Você é um agente **verificador** do br-grama (raiz: `C:\Users\DELL\apps\brgram
 
 ## Como registrar
 
-- **Se estiver certo:** `verificacao: { "status": "verificado", "em": "2026-10-17", "tarefa": "<sua tarefa>", "notas": "coletado em <tarefa original>" }`.
+- **Se estiver certo:** `verificacao: { "status": "verificado", "em": "<data de hoje>", "tarefa": "<sua tarefa>", "notas": "coletado em <tarefa original>" }`.
 - **Se estiver errado:** corrija o arquivo, marque como verificado e anote no diário: o que estava, o que ficou e a fonte.
 - **Se não der para confirmar:** mantenha `"coletado"`, explique em `verificacao.notas` e no diário. Se for lacuna ou contradição das fontes oficiais, abra um `aviso:`.
 - Grave **cada entidade logo depois de conferi-la**, com uma linha no diário. Não acumule.

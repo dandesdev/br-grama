@@ -1,0 +1,29 @@
+{
+  "id": "rel:plenario-camara-delibera-resolucao",
+  "tipo": "relacao",
+  "nome": "Resoluções da Câmara",
+  "relacao": "delibera",
+  "de": "org:plenario-da-camara-dos-deputados",
+  "para": "obj:resolucao",
+  "condicao": "Vota projetos de resolução sobre a competência privativa da Câmara e assuntos internos, como regimento, criação e conclusões de CPI e perda de mandato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 51"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

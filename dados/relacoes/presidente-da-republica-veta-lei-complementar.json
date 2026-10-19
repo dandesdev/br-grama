@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-da-republica-veta-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Veto a projeto de lei complementar",
+  "relacao": "veta",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:lei-complementar",
+  "condicao": "Como na lei ordinária: total ou parcial, por inconstitucionalidade ou contrariedade ao interesse público, em 15 dias úteis.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, §§ 1º e 2º; art. 84, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

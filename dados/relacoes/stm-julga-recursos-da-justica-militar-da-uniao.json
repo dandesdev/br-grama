@@ -1,0 +1,29 @@
+{
+  "id": "rel:stm-julga-recursos-da-justica-militar-da-uniao",
+  "tipo": "relacao",
+  "nome": "Apelações ao STM",
+  "relacao": "julga",
+  "de": "org:stm",
+  "para": "org:justica-militar-da-uniao",
+  "condicao": "Pela lei de organização da Justiça Militar da União, julga as apelações e os recursos contra decisões dos juízes de primeiro grau.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 124, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 6º, II, c"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-ministro-do-tse",
+  "tipo": "relacao",
+  "nome": "Nomeação dos advogados do TSE",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-tse",
+  "condicao": "Nomeia os dois membros vindos da advocacia, escolhidos entre os seis indicados pelo STF, sem aprovação do Senado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVI; art. 119, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  },
+  "depende_de": [
+    "rel:stf-indica-ministro-do-tse"
+  ]
+}

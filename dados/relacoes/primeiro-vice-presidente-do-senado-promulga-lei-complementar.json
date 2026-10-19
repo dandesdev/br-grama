@@ -1,0 +1,30 @@
+{
+  "id": "rel:primeiro-vice-presidente-do-senado-promulga-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Promulgação supletiva de lei complementar pelo Vice do Senado",
+  "relacao": "promulga",
+  "de": "cargo:primeiro-vice-presidente-do-senado-federal",
+  "para": "obj:lei-complementar",
+  "condicao": "Quando nem o Presidente da República nem o Presidente do Senado promulgaram no prazo.",
+  "ordem": 2,
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, § 7º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 52, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

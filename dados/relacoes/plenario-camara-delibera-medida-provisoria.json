@@ -1,0 +1,37 @@
+{
+  "id": "rel:plenario-camara-delibera-medida-provisoria",
+  "tipo": "relacao",
+  "nome": "Votação de medida provisória no Plenário da Câmara",
+  "relacao": "delibera",
+  "de": "org:plenario-da-camara-dos-deputados",
+  "para": "obj:medida-provisoria",
+  "condicao": "A votação começa na Câmara: primeiro sobre relevância e urgência, depois sobre o mérito. Depois de 45 dias da publicação, a medida tranca a pauta da Casa para matérias que podem ser objeto de medida provisória.",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Presente a maioria absoluta dos deputados."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 62, §§ 5º, 6º e 8º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "arts. 6º, 8º e 9º"
+    },
+    {
+      "ref": "fonte:stf-informativo-870-ms-27931",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

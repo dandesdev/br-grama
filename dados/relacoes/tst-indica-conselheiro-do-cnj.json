@@ -1,0 +1,26 @@
+{
+  "id": "rel:tst-indica-conselheiro-do-cnj",
+  "tipo": "relacao",
+  "nome": "Indicação de conselheiro do CNJ",
+  "relacao": "indica",
+  "de": "org:tst",
+  "para": "cargo:conselheiro-do-cnj",
+  "condicao": "Indica três conselheiros: um ministro do TST, um juiz de TRT e um juiz do trabalho.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, III, VIII e IX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

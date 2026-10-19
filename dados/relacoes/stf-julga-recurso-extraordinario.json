@@ -1,0 +1,25 @@
+{
+  "id": "rel:stf-julga-recurso-extraordinario",
+  "tipo": "relacao",
+  "nome": "Recurso extraordinário",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "org:poder-judiciario",
+  "condicao": "Julga o recurso extraordinário contra causas decididas em única ou última instância, por qualquer órgão do Judiciário, quando a decisão contrariar a Constituição, declarar inconstitucional tratado ou lei federal ou julgar válida lei ou ato local contestado em face da Constituição ou de lei federal. O recorrente tem de mostrar repercussão geral; o STF só recusa por esse motivo com dois terços dos membros.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, III e § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

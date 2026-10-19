@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-da-republica-propoe-medida-provisoria",
+  "tipo": "relacao",
+  "nome": "Edição de medida provisória",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:medida-provisoria",
+  "condicao": "Edita a medida, com força de lei desde a publicação, em caso de relevância e urgência, e a submete de imediato ao Congresso.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 62, caput; art. 84, XXVI"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "art. 2º, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O vocabulário não tem um verbo para 'edita' ou 'adota'; usamos 'propõe' porque a medida é submetida ao Congresso, que decide se a converte em lei. Termo 'edita' proposto no relatório da tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

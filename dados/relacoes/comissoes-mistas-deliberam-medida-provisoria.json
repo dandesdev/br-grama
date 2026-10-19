@@ -1,0 +1,37 @@
+{
+  "id": "rel:comissoes-mistas-deliberam-medida-provisoria",
+  "tipo": "relacao",
+  "nome": "Parecer da comissão mista sobre medida provisória",
+  "relacao": "delibera",
+  "de": "org:comissoes-mistas-do-congresso-nacional",
+  "para": "obj:medida-provisoria",
+  "condicao": "Uma comissão mista de 12 deputados e 12 senadores para cada medida dá parecer obrigatório sobre constitucionalidade, relevância e urgência, finanças e mérito, antes dos Plenários.",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Presente a maioria absoluta dos membros de cada Casa na comissão (Resolução 1/2002-CN, art. 4º, § 6º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 62, § 9º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "arts. 2º a 5º"
+    },
+    {
+      "ref": "fonte:stf-informativo-657-adi-4029",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

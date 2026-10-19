@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-da-republica-propoe-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Proposta de emenda constitucional pelo Presidente",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:emenda-constitucional",
+  "condicao": "O Presidente pode propor emenda, mas não a sanciona nem a veta: a promulgação é das Mesas da Câmara e do Senado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, II e § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-da-republica-promulga-lei-delegada",
+  "tipo": "relacao",
+  "nome": "Elaboração e promulgação de lei delegada",
+  "relacao": "promulga",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:lei-delegada",
+  "condicao": "Elabora a lei nos limites da delegação e a promulga, sem sanção nem veto; se a resolução exigir, só depois da aprovação do Congresso.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 68, caput; art. 84, IV"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 123"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-da-republica-propoe-decreto-legislativo",
+  "tipo": "relacao",
+  "nome": "Pedido de calamidade pública nacional",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:decreto-legislativo",
+  "condicao": "Propõe ao Congresso a decretação do estado de calamidade pública de âmbito nacional, que o Congresso decreta.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XVIII; art. 84, XXVIII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF não diz expressamente que a calamidade é decretada por decreto legislativo; a ligação vem do art. 49, XVIII (competência exclusiva) e dos regimentos (RICD, art. 109, II; RISF, art. 213, II).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

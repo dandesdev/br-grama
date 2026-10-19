@@ -22,6 +22,10 @@
     {
       "ref": "fonte:cnj-tribunais",
       "dispositivo": "página do TSE (sede e site)"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 7º, II; art. 143, parágrafo único"
     }
   ],
   "campos": {
@@ -56,5 +60,5 @@
     "tarefa": "f0-judiciario",
     "notas": "Esboço verificado em verificacao-piloto-processo-lei e completado nesta tarefa; contido_em passou de org:poder-judiciario para org:justica-eleitoral."
   },
-  "notas": "A CF fala em 'eleição, pelo voto secreto' dos juízes vindos do STF e do STJ, sem dizer quem vota; entende-se que são os próprios tribunais de origem (ver rel:stf-elege-ministro-do-tse e rel:stj-elege-ministro-do-tse)."
+  "notas": "A CF fala em 'eleição, pelo voto secreto' dos juízes vindos do STF e do STJ, sem dizer quem vota. Para o STF, o RISTF diz que é o Plenário (art. 7º, II), com quórum de oito ministros (art. 143, parágrafo único); para o STJ não conferimos o regimento (ver rel:stf-elege-ministro-do-tse e rel:stj-elege-ministro-do-tse)."
 }

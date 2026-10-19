@@ -1,0 +1,29 @@
+{
+  "id": "rel:congresso-nacional-delibera-lei-delegada",
+  "tipo": "relacao",
+  "nome": "Delegação legislativa ao Presidente",
+  "relacao": "delibera",
+  "de": "org:congresso-nacional",
+  "para": "obj:lei-delegada",
+  "condicao": "Concede a delegação por resolução, que fixa conteúdo e termos; se a resolução exigir, vota o texto do Presidente em votação única, sem emendas.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 68, §§ 2º e 3º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "arts. 119 a 125"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:congresso-nacional-delibera-resolucao",
+  "tipo": "relacao",
+  "nome": "Resoluções do Congresso Nacional",
+  "relacao": "delibera",
+  "de": "org:congresso-nacional",
+  "para": "obj:resolucao",
+  "condicao": "Em sessão conjunta, vota resoluções como a delegação legislativa ao Presidente e o Regimento Comum.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 3º, II; art. 68, § 2º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 1º, IX e XI; art. 128"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

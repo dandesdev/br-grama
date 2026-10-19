@@ -38,3 +38,10 @@ Fiscalização pelo Congresso:
 - 2026-10-18 09:25 — gravado proc:lei-complementar (10 etapas e o regime de urgência; etapas iguais às da lei ordinária condensadas, com remissão)
 - 2026-10-18 09:55 — gravados norma:ec-32-2001, fonte:agencia-senado-comissoes-mp-2025 e proc:medida-provisoria (14 etapas e o regime de trancamento de pauta)
 - 2026-10-18 10:15 — gravado proc:lei-delegada (10 etapas)
+- 2026-10-19 07:45 — retomada; tudo até proc:lei-delegada está no commit ef216a9 e valida sem erro (o ajuste da MP com a EC 32 já tinha sido gravado em 2026-10-18 09:55). Próximo: relações do grupo normas e competências dos arts. 49 a 52
+- 2026-10-19 07:55 — gravadas 10 relações de proc:emenda-constitucional (propõe: deputados, senadores, Presidente, Assembleias; delibera: CCJC, Plenário da Câmara, CCJ do Senado, Plenário do Senado; promulga: Mesas da Câmara e do Senado)
+- 2026-10-19 08:10 — gravadas 25 relações de proc:lei-complementar (13 propõe; 4 delibera; sanciona; veta; aprecia-veto; 3 promulga; 2 publica)
+- 2026-10-19 08:15 — corrigido proc:emenda-constitucional (etapa iniciativa) e rel:assembleias-legislativas-propoem-emenda-constitucional: pelo RISF, art. 212, II, a PEC das Assembleias também pode começar no Senado; só a do Presidente vai à Câmara (inferido do RICD, art. 201, I, e do RISF, art. 212)
+- 2026-10-19 08:35 — gravadas 18 relações de MP, lei delegada, decreto legislativo e resolução (propõe, delibera, promulga)
+- 2026-10-19 08:55 — gravados org:cpis-da-camara-dos-deputados, org:cpis-do-senado-federal, org:cpmis-do-congresso-nacional (conjuntos) e org:comissao-representativa-do-congresso-nacional (colegiado)
+- 2026-10-19 09:15 — gravado proc:comissao-parlamentar-de-inquerito (7 etapas; não estava nos entregáveis, criado para ligar CPIs a MP, AGU, TCU e Executivo)

@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-indica-ministro-do-stj",
+  "tipo": "relacao",
+  "nome": "Lista tríplice do STJ",
+  "relacao": "indica",
+  "de": "org:stj",
+  "para": "cargo:ministro-do-stj",
+  "condicao": "Forma lista tríplice para cada vaga: de juízes dos TRFs, de desembargadores dos TJs ou, a partir da lista de seis da OAB ou do Ministério Público, de advogados e membros do MP. O Presidente da República escolhe da lista.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 104, parágrafo único, I e II; art. 94"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

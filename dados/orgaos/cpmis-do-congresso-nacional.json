@@ -1,0 +1,55 @@
+{
+  "id": "org:cpmis-do-congresso-nacional",
+  "tipo": "orgao",
+  "nome": "Comissões parlamentares mistas de inquérito (CPMIs)",
+  "resumo": "CPIs formadas por deputados e senadores em igual número, criadas a pedido de 1/3 dos membros de cada Casa.",
+  "detalhes": "A criação é automática quando requerida por um terço dos deputados e um terço dos senadores. Têm os mesmos poderes e deveres das CPIs de cada Casa, e o relatório é enviado pelo Presidente do Congresso às autoridades competentes.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, § 3º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 21"
+    },
+    {
+      "ref": "norma:lei-1579-1952",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-10001-2000",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 3º ('em conjunto')"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 21"
+        }
+      ]
+    }
+  },
+  "notas": "Nó agregado (conjunto). O RCCN, art. 21, é o único dispositivo do Regimento Comum sobre CPMIs; nos casos omissos, aplica-se o Regimento do Senado e depois o da Câmara (RCCN, art. 151). vigencia.de = promulgação da CF/88.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

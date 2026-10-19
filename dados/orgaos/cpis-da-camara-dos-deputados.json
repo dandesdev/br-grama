@@ -1,0 +1,55 @@
+{
+  "id": "org:cpis-da-camara-dos-deputados",
+  "tipo": "orgao",
+  "nome": "Comissões parlamentares de inquérito da Câmara (CPIs)",
+  "resumo": "Comissões temporárias que investigam fato determinado por prazo certo, com poderes de investigação de autoridade judicial; criadas a pedido de 1/3 dos deputados.",
+  "detalhes": "O requerimento de 171 deputados basta para criar a CPI, desde que indique fato determinado e prazo; o prazo é de 120 dias, prorrogável por até metade. Não se cria nova CPI se cinco já estiverem funcionando, salvo por projeto de resolução. Ao final, o relatório vai à Mesa e, conforme o caso, ao Ministério Público ou à AGU, ao Executivo e ao TCU; a CPI não condena ninguém.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 58, § 3º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 35 a 37"
+    },
+    {
+      "ref": "norma:lei-1579-1952",
+      "dispositivo": "arts. 1º a 6º-A"
+    },
+    {
+      "ref": "norma:lei-10001-2000",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 3º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 35, caput"
+        }
+      ]
+    }
+  },
+  "notas": "Nó agregado (conjunto): representa todas as CPIs da Câmara, que são temporárias e mudam ao longo do tempo. Não listamos as CPIs em funcionamento em 2026-10-01. 'A CPI não condena ninguém' resume o art. 58, § 3º, que manda as conclusões ao Ministério Público 'para que promova a responsabilidade civil ou criminal'. vigencia.de = promulgação da CF/88; as CPIs existiam antes (Lei 1.579/1952).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

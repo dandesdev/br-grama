@@ -1,0 +1,29 @@
+{
+  "id": "rel:comissoes-camara-propoem-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Iniciativa de lei complementar",
+  "relacao": "propoe",
+  "de": "org:comissoes-da-camara-dos-deputados",
+  "para": "obj:lei-complementar",
+  "condicao": "Qualquer comissão da Câmara. A iniciativa da lei complementar segue o art. 61, como a da lei ordinária.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, § 1º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

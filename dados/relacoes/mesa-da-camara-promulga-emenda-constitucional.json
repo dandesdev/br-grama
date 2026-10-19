@@ -1,0 +1,33 @@
+{
+  "id": "rel:mesa-da-camara-promulga-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Promulgação de emenda constitucional pela Mesa da Câmara",
+  "relacao": "promulga",
+  "de": "org:mesa-da-camara-dos-deputados",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Junto com a Mesa do Senado, em sessão do Congresso, dando à emenda seu número de ordem.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, § 3º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 1º, III"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 203, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

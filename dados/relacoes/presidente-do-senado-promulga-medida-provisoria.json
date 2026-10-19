@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-do-senado-promulga-medida-provisoria",
+  "tipo": "relacao",
+  "nome": "Promulgação de medida provisória aprovada sem alteração",
+  "relacao": "promulga",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "obj:medida-provisoria",
+  "condicao": "Como Presidente da Mesa do Congresso, promulga como lei a medida aprovada sem alteração de mérito; se houver projeto de lei de conversão, ele vai à sanção do Presidente da República.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 5º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2002",
+      "dispositivo": "arts. 12 e 13"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

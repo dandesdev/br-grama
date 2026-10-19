@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-nomeia-juiz-de-trt",
+  "tipo": "relacao",
+  "nome": "Nomeação de juiz de TRT",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:juiz-de-trt",
+  "condicao": "Nomeia os juízes dos TRTs: os juízes do trabalho promovidos e, no quinto, um nome da lista tríplice do tribunal. Não há aprovação do Senado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVI; art. 94; art. 115"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "rel:assembleias-legislativas-propoem-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Proposta de emenda constitucional pelas Assembleias Legislativas",
+  "relacao": "propoe",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Só em conjunto: mais da metade das Assembleias Legislativas das unidades da Federação, cada uma pela maioria relativa de seus membros. A proposta pode começar na Câmara ou no Senado.",
+  "quorum": {
+    "regra": "outro",
+    "nota": "Mais da metade das Assembleias; em cada uma, maioria relativa dos membros."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, III"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 201, I"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 212, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF fala em 'Assembleias Legislativas das unidades da Federação'; não diz se a Câmara Legislativa do DF entra na conta.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

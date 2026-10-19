@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-da-republica-propoe-resolucao",
+  "tipo": "relacao",
+  "nome": "Iniciativa do Presidente em resoluções",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:resolucao",
+  "condicao": "Pede ao Congresso a delegação legislativa, que é dada por resolução; propõe ao Senado os limites globais da dívida consolidada dos entes; e pode propor a resolução do Senado sobre alíquotas interestaduais do ICMS.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, VI; art. 68, caput e § 2º; art. 155, § 2º, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

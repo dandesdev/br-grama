@@ -1,0 +1,33 @@
+{
+  "id": "rel:congresso-nacional-aprecia-veto-lei-complementar",
+  "tipo": "relacao",
+  "nome": "Apreciação de veto a lei complementar",
+  "relacao": "aprecia-veto",
+  "de": "org:congresso-nacional",
+  "para": "obj:lei-complementar",
+  "condicao": "Em sessão conjunta, em 30 dias; a derrubada exige maioria absoluta dos deputados e dos senadores, com votos contados separadamente.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Para derrubar o veto: maioria absoluta dos deputados e dos senadores, contadas separadamente."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 3º, IV; art. 66, §§ 4º e 6º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 43"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

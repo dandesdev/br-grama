@@ -1,0 +1,29 @@
+{
+  "id": "rel:senadores-propoem-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Proposta de emenda constitucional por senadores",
+  "relacao": "propoe",
+  "de": "cargo:senador",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Proposta assinada por um terço, no mínimo, dos senadores (27 de 81).",
+  "quorum": {
+    "regra": "um-terco",
+    "nota": "Um terço dos membros do Senado."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 46, § 1º; art. 60, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

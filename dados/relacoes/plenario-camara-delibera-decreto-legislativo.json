@@ -1,0 +1,33 @@
+{
+  "id": "rel:plenario-camara-delibera-decreto-legislativo",
+  "tipo": "relacao",
+  "nome": "Votação de decreto legislativo na Câmara",
+  "relacao": "delibera",
+  "de": "org:plenario-da-camara-dos-deputados",
+  "para": "obj:decreto-legislativo",
+  "condicao": "Vota os projetos de decreto legislativo sobre as matérias de competência exclusiva do Congresso, que não vão à sanção. Entre outras matérias do art. 49: tratados que tragam encargos ao patrimônio nacional, autorizações ao Presidente (guerra, paz, forças estrangeiras, ausência do País por mais de 15 dias), estado de defesa, intervenção federal e estado de sítio, sustação de atos normativos do Executivo, subsídios do Presidente, do Vice e dos Ministros, concessões de rádio e TV, atividades nucleares, referendo e plebiscito, terras indígenas e calamidade pública nacional.",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Regra geral (art. 47); há quóruns especiais, como maioria absoluta para estado de defesa e de sítio (arts. 136, § 4º, e 137, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 48, caput; art. 49"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 109, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:stj-elege-ministro-do-tse",
+  "tipo": "relacao",
+  "nome": "Eleição dos ministros do STJ que vão ao TSE",
+  "relacao": "elege",
+  "de": "org:stj",
+  "para": "cargo:ministro-do-tse",
+  "condicao": "Dois ministros do STJ são eleitos por voto secreto para o TSE; um deles será o Corregedor Eleitoral.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119, I, b, e parágrafo único"
+    }
+  ],
+  "confianca": "inferido",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-judiciario"
+  },
+  "notas": "A CF não diz quem vota; atribuímos a eleição ao próprio STJ por analogia com o STF (RISTF, art. 7º, II), sem conferir o regimento do STJ."
+}

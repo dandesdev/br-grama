@@ -1,0 +1,25 @@
+{
+  "id": "rel:ccj-senado-delibera-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Parecer sobre PEC na CCJ do Senado",
+  "relacao": "delibera",
+  "de": "org:ccj-senado",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Dá parecer sobre a proposta e as emendas em até 30 dias; sem parecer no prazo, a proposta vai ao Plenário com parecer oral.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 356 a 359"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}

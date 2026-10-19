@@ -1,0 +1,38 @@
+{
+  "id": "rel:deputados-propoem-emenda-constitucional",
+  "tipo": "relacao",
+  "nome": "Proposta de emenda constitucional por deputados",
+  "relacao": "propoe",
+  "de": "cargo:deputado-federal",
+  "para": "obj:emenda-constitucional",
+  "condicao": "Proposta assinada por um terço, no mínimo, dos deputados (171 de 513).",
+  "quorum": {
+    "regra": "um-terco",
+    "nota": "Um terço dos membros da Câmara."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 60, I"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 201, I"
+    },
+    {
+      "ref": "norma:lc-78-1993",
+      "dispositivo": "art. 1º",
+      "nota": "Total de 513 deputados"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-19",
+    "tarefa": "f0-legislativo"
+  }
+}
