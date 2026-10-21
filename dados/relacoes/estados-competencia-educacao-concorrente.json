@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-educacao-concorrente",
+  "tipo": "relacao",
+  "nome": "Estados: Educação (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:materia-educacao",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "Legislar sobre educação e ensino. Os estados suplementam as normas gerais da União; sem lei federal de normas gerais, legislam plenamente, e a lei federal posterior suspende a estadual no que for contrária (art. 24, §§ 2º a 4º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, IX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

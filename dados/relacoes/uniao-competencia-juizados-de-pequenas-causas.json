@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-juizados-de-pequenas-causas",
+  "tipo": "relacao",
+  "nome": "União: Juizados de pequenas causas (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-juizados-de-pequenas-causas",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "A União edita só as normas gerais (art. 24, § 1º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, X"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

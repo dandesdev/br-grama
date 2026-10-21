@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-assuntos-de-interesse-local",
+  "tipo": "objeto",
+  "nome": "Assuntos de interesse local",
+  "resumo": "Assuntos que dizem respeito principalmente à vida do próprio município.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 30, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

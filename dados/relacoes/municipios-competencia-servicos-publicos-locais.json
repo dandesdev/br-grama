@@ -1,0 +1,35 @@
+{
+  "id": "rel:municipios-competencia-servicos-publicos-locais",
+  "tipo": "relacao",
+  "nome": "Municípios: Serviços públicos locais (interesse local, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:materia-servicos-publicos-locais",
+  "competencia": {
+    "tipo": "interesse-local",
+    "natureza": "material",
+    "nota": "Organizar e prestar os serviços diretamente ou por concessão ou permissão, incluído o transporte coletivo, que tem caráter essencial."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 30, V"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "competencia": {
+      "confianca": "inferido",
+      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

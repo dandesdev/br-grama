@@ -101,10 +101,10 @@
     {
       "id": "promulgacao-da-resolucao",
       "atores": [
-        "org:congresso-nacional"
+        "cargo:presidente-do-senado-federal"
       ],
-      "acao": "A resolução de delegação é promulgada e comunicada ao Presidente da República",
-      "detalhes": "O RCCN fixa o prazo, mas não diz quem promulga a resolução do Congresso.",
+      "acao": "O Presidente do Senado promulga a resolução de delegação e a comunica ao Presidente da República",
+      "detalhes": "Como Presidente do Congresso (CF, art. 57, § 5º), o Presidente do Senado promulga a matéria de competência exclusiva do Congresso (RCCN, art. 52, parágrafo único); o art. 122 fixa o prazo de 24 horas.",
       "prazo": {
         "texto": "24 horas da aprovação (RCCN, art. 122)",
         "valor": 24,
@@ -114,11 +114,11 @@
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 68, § 2º"
+          "dispositivo": "art. 57, § 5º; art. 68, § 2º"
         },
         {
           "ref": "norma:rccn",
-          "dispositivo": "art. 122"
+          "dispositivo": "art. 52, parágrafo único; art. 122"
         }
       ],
       "seguintes": [
@@ -299,7 +299,7 @@
     },
     {
       "ref": "norma:rccn",
-      "dispositivo": "art. 1º, IX; art. 43; arts. 116 a 127"
+      "dispositivo": "art. 1º, IX; art. 43; art. 52, parágrafo único; arts. 116 a 127"
     },
     {
       "ref": "norma:decreto-11329-2023",
@@ -315,10 +315,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) Os arts. 116 a 127 do RCCN são de 1970; a edição oficial anota que vários trechos foram revogados pela CF/88. A lista de matérias indelegáveis do RCCN, art. 117, é anterior à CF e difere do art. 68, § 1º; usamos só a CF. (2) Não achamos regra expressa sobre quem promulga a resolução de delegação (RCCN, art. 122, só fixa o prazo); a etapa usa org:congresso-nacional. (3) A promulgação da lei delegada pelo Presidente se apoia no art. 84, IV, da CF e no RCCN, art. 123 ('irão à promulgação'), que não nomeia o autor.",
+  "notas": "Decisões de modelagem: (1) Os arts. 116 a 127 do RCCN são de 1970; a edição oficial anota que vários trechos foram revogados pela CF/88. A lista de matérias indelegáveis do RCCN, art. 117, é anterior à CF e difere do art. 68, § 1º; usamos só a CF. (2) Quem promulga a resolução de delegação: o Presidente do Senado, pelo RCCN, art. 52, parágrafo único (matéria de competência exclusiva do Congresso), que o índice oficial do RCCN liga à promulgação da 'resolução do Congresso Nacional'; o art. 122 fixa o prazo. Ponto resolvido na verificação de 2026-10-20; antes a etapa usava org:congresso-nacional. (3) A promulgação da lei delegada pelo Presidente se apoia no art. 84, IV, da CF e no RCCN, art. 123 ('irão à promulgação'), que não nomeia o autor.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra CF, art. 68, e RCCN, arts. 116 a 127; promulgação da resolução atribuída ao Presidente do Senado (RCCN, art. 52, parágrafo único)"
   }
 }

@@ -37,3 +37,42 @@ concluida_em: null
 - 2026-10-20 09:50 — org:cpis-do-senado-federal: verificado sem correção
 - 2026-10-20 09:50 — org:cpmis-do-congresso-nacional: verificado sem correção
 - 2026-10-20 09:50 — proc:comissao-parlamentar-de-inquerito: verificado etapa por etapa; sem correção
+- 2026-10-20 23:05 — retomada após renovação da cota; git status limpo nos arquivos da tarefa, 22 entidades verificadas já no commit 61a5eed; campo remete_a continua ausente do esquema. Próximo: proc:emenda-constitucional
+- 2026-10-20 23:06 — proc:emenda-constitucional: verificado etapa por etapa. Corrigido: a etapa 'iniciativa' mandava a PEC das Assembleias à Câmara ou ao Senado; agora só ao Senado (RISF, art. 212, II; o RICD, art. 201, I, lista também 'o Senado Federal', logo é a lista do que a Câmara aprecia e não define origem; a página oficial Clique Regimento da Câmara, card 4, diz 'apresentada perante o Senado'). Ponto em aberto (PEC do Presidente começa na Câmara): mantido como inferido, agora com confianca 'inferido' em campos.etapas e a dedução por exclusão do RISF, art. 212, explicada. Acrescentado RCCN, art. 85, na promulgação
+- 2026-10-20 23:06 — rel:assembleias-legislativas-propoem-emenda-constitucional: corrigido: condição dizia que a proposta podia começar na Câmara ou no Senado; agora só no Senado; retirada a fonte RICD, art. 201, I (fonte: RISF, art. 212, II; Clique Regimento da Câmara, card 4)
+- 2026-10-20 23:06 — rel:presidente-da-republica-propoe-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:deputados-propoem-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:senadores-propoem-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:ccjc-camara-delibera-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:plenario-camara-delibera-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:ccj-senado-delibera-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:plenario-senado-delibera-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:mesa-da-camara-promulga-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:06 — rel:mesa-do-senado-promulga-emenda-constitucional: verificado sem correção
+- 2026-10-20 23:07 — proc:lei-complementar: verificado etapa por etapa. Ajuste: na etapa 'senado-comissoes', o RISF, art. 91, § 1º, V ('proposições diversas') não exclui expressamente o projeto de lei complementar; a ida obrigatória ao Plenário passou a ser fundamentada também no art. 288, III, a (maioria absoluta da composição da Casa). remete_a não aplicado (fora do esquema)
+- 2026-10-20 23:07 — rel:comissoes-senado-deliberam-lei-complementar: verificado; condição e fonte completadas com o RISF, art. 288, III, a (o art. 91, § 1º, V, sozinho, não exclui o projeto de lei complementar)
+- 2026-10-20 23:07 — rel:comissoes-camara-deliberam-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:comissoes-camara-propoem-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:comissoes-mistas-propoem-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:comissoes-senado-propoem-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:congresso-nacional-aprecia-veto-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:deputado-federal-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:eleitorado-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:imprensa-nacional-publica-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:pgr-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:plenario-camara-delibera-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:plenario-senado-delibera-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:presidente-da-republica-promulga-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:presidente-da-republica-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:presidente-da-republica-publica-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:presidente-da-republica-sanciona-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:presidente-da-republica-veta-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:presidente-do-senado-promulga-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:primeiro-vice-presidente-do-senado-promulga-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:senador-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:stf-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:stj-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:stm-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:tse-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:07 — rel:tst-propoe-lei-complementar: verificado sem correção
+- 2026-10-20 23:08 — proc:lei-delegada: verificado etapa por etapa. Corrigido (ponto em aberto resolvido): a etapa 'promulgacao-da-resolucao' tinha como ator org:congresso-nacional e dizia que o RCCN não indica quem promulga; agora o ator é cargo:presidente-do-senado-federal (RCCN, art. 52, parágrafo único; CF, art. 57, § 5º)

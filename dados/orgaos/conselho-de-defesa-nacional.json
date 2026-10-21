@@ -1,0 +1,49 @@
+{
+  "id": "org:conselho-de-defesa-nacional",
+  "tipo": "orgao",
+  "nome": "Conselho de Defesa Nacional",
+  "sigla": "CDN",
+  "resumo": "Órgão de consulta do Presidente sobre soberania nacional e defesa do Estado democrático: opina sobre guerra e paz, intervenção federal, estado de defesa e de sítio.",
+  "detalhes": "É presidido pelo Presidente da República e tem como membros natos o Vice-Presidente, os Presidentes da Câmara e do Senado, os Ministros da Justiça, da Defesa, das Relações Exteriores e do Planejamento e os Comandantes da Marinha, do Exército e da Aeronáutica. Também propõe critérios de uso de áreas indispensáveis à segurança do território, como a faixa de fronteira.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 2º, II"
+        }
+      ],
+      "nota": "A lei o lista entre os órgãos de consulta do Presidente da República, na seção da Presidência."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 91; art. 84, XVIII"
+    },
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "arts. 1º a 7º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 2º, II; art. 16"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O GSI executa as atividades permanentes do Conselho e é sua Secretaria-Executiva (Lei 8.183/1991, arts. 2º, § 3º, e 4º, redação da MP 2.216-37/2001). O Presidente pode designar membros eventuais e pode ouvir os membros separadamente, sem reunião (Lei 8.183/1991, arts. 2º, § 1º, e 3º, parágrafo único). O art. 2º da Lei 8.183/1991 ainda lista os antigos Ministros militares; vale a composição do art. 91 da CF, com a redação da EC 23/1999. 'Ministro do Planejamento' na CF corresponde hoje ao Ministro do Planejamento e Orçamento (Lei 14.600/2023, art. 17); a correspondência é leitura nossa. Os Comandantes das Forças não têm cargo modelado; por isso não há relação 'integra' para eles.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

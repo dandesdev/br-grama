@@ -1,25 +1,25 @@
 ---
 id: f0-competencias
 escopo: "Fatia 0: repartição de competências entre União, estados, DF e municípios (CF, arts. 21 a 25, 30 e 32), para a matriz de competências (D38)"
-status: em-andamento
+status: coletada
 depende_de: []
 iniciada_em: 2026-10-19
-concluida_em: null
+concluida_em: 2026-10-20
 ---
 
 ## Entregáveis
 
-- [ ] Entes típicos: `ente:arquetipo-estadual` (tipo_ente "estado", `arquetipo: "estadual"`) e `ente:arquetipo-municipal` (tipo_ente "municipio", `arquetipo: "municipal"`). O DF acumula as competências de estado e de município (art. 32, § 1º): registre isso como relação ou nota em `ente:df`, sem duplicar todas as matérias.
-- [ ] Uma matéria (`obj:materia-<slug>`, `tipo_objeto: "materia"`) para cada inciso dos arts. 21, 22, 23 e 24, mais as do art. 30. Agrupe só quando o próprio inciso agrupa ("direito civil, comercial, penal…" pode virar uma matéria por ramo, se a matriz ficar mais clara; explique no diário). O `resumo` diz em palavras simples do que se trata; o `nome` é curto ("Trânsito e transporte").
-- [ ] Para cada matéria, as relações `tem-competencia` do ente (`ente:uniao`, `ente:arquetipo-estadual`, `ente:arquetipo-municipal`) com `competencia.tipo` e `competencia.natureza`:
+- [x] Entes típicos: `ente:arquetipo-estadual` (tipo_ente "estado", `arquetipo: "estadual"`) e `ente:arquetipo-municipal` (tipo_ente "municipio", `arquetipo: "municipal"`). O DF acumula as competências de estado e de município (art. 32, § 1º): registre isso como relação ou nota em `ente:df`, sem duplicar todas as matérias.
+- [x] Uma matéria (`obj:materia-<slug>`, `tipo_objeto: "materia"`) para cada inciso dos arts. 21, 22, 23 e 24, mais as do art. 30. Agrupe só quando o próprio inciso agrupa ("direito civil, comercial, penal…" pode virar uma matéria por ramo, se a matriz ficar mais clara; explique no diário). O `resumo` diz em palavras simples do que se trata; o `nome` é curto ("Trânsito e transporte").
+- [x] Para cada matéria, as relações `tem-competencia` do ente (`ente:uniao`, `ente:arquetipo-estadual`, `ente:arquetipo-municipal`) com `competencia.tipo` e `competencia.natureza`:
   - art. 21: União, exclusiva, material
   - art. 22: União, privativa, legislativa (com nota sobre o parágrafo único)
   - art. 23: os três, comum, material
   - art. 24: União e estados, concorrente, legislativa; nota sobre os §§ 1º a 4º (normas gerais, competência suplementar dos estados, competência plena na falta de lei federal)
   - art. 25, § 1º: estados, residual; art. 25, §§ 2º e 3º (gás canalizado, regiões metropolitanas)
   - art. 30: municípios (interesse local, suplementar e as competências materiais dos incisos III a IX)
-- [ ] Use o `dispositivo` exato (ex.: "art. 22, XI") em cada relação. Ids das relações: `rel:<ente>-competencia-<materia>` (ex.: `rel:uniao-competencia-transito`).
-- [ ] Uma mesma matéria pode aparecer em vários artigos (ex.: trânsito no art. 22, XI, e educação para o trânsito no art. 23, XII): reutilize o objeto quando for o mesmo assunto e crie outro quando forem coisas diferentes.
+- [x] Use o `dispositivo` exato (ex.: "art. 22, XI") em cada relação. Ids das relações: `rel:<ente>-competencia-<materia>` (ex.: `rel:uniao-competencia-transito`).
+- [x] Uma mesma matéria pode aparecer em vários artigos (ex.: trânsito no art. 22, XI, e educação para o trânsito no art. 23, XII): reutilize o objeto quando for o mesmo assunto e crie outro quando forem coisas diferentes.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -103,3 +103,40 @@ concluida_em: null
 - 2026-10-20 09:51 — concluído art. 23, X: gravados obj:materia-combate-a-pobreza, rel:uniao-competencia-combate-a-pobreza, rel:estados-competencia-combate-a-pobreza, rel:municipios-competencia-combate-a-pobreza
 - 2026-10-20 09:51 — concluído art. 23, XI: gravados obj:materia-concessoes-de-recursos-hidricos-e-minerais, rel:uniao-competencia-concessoes-de-recursos-hidricos-e-minerais, rel:estados-competencia-concessoes-de-recursos-hidricos-e-minerais, rel:municipios-competencia-concessoes-de-recursos-hidricos-e-minerais
 - 2026-10-20 09:51 — concluído art. 23, XII: gravados obj:materia-educacao-para-o-transito, rel:uniao-competencia-educacao-para-o-transito, rel:estados-competencia-educacao-para-o-transito, rel:municipios-competencia-educacao-para-o-transito
+- 2026-10-20 23:05 — retomada pedida pelo coordenador "a partir do art. 23, XIII": o art. 23 vai só até o inciso XII (conferido na cópia de 2026-10-16 e no texto do Planalto de hoje); o parágrafo único (cooperação por leis complementares) já está na nota de cada relação do art. 23. Art. 23 concluído; próximo: art. 24, I
+- 2026-10-20 23:06 — concluído art. 24, I: gravados obj:materia-direito-tributario, obj:materia-direito-financeiro, obj:materia-direito-penitenciario, obj:materia-direito-economico, obj:materia-urbanismo, rel:uniao-competencia-direito-tributario, rel:estados-competencia-direito-tributario, rel:uniao-competencia-direito-financeiro, rel:estados-competencia-direito-financeiro, rel:uniao-competencia-direito-penitenciario, rel:estados-competencia-direito-penitenciario, rel:uniao-competencia-direito-economico, rel:estados-competencia-direito-economico, rel:uniao-competencia-urbanismo-concorrente, rel:estados-competencia-urbanismo
+- 2026-10-20 23:06 — concluído art. 24, II: gravados obj:materia-orcamento, rel:uniao-competencia-orcamento, rel:estados-competencia-orcamento
+- 2026-10-20 23:06 — concluído art. 24, III: gravados obj:materia-juntas-comerciais, rel:uniao-competencia-juntas-comerciais, rel:estados-competencia-juntas-comerciais
+- 2026-10-20 23:06 — concluído art. 24, IV: gravados obj:materia-custas-forenses, rel:uniao-competencia-custas-forenses, rel:estados-competencia-custas-forenses
+- 2026-10-20 23:06 — concluído art. 24, V: gravados obj:materia-producao-e-consumo, rel:uniao-competencia-producao-e-consumo, rel:estados-competencia-producao-e-consumo
+- 2026-10-20 23:06 — concluído art. 24, VI: gravados obj:materia-meio-ambiente, rel:uniao-competencia-meio-ambiente-concorrente, rel:estados-competencia-meio-ambiente-concorrente
+- 2026-10-20 23:06 — concluído art. 24, VII: gravados obj:materia-patrimonio-cultural, rel:uniao-competencia-patrimonio-cultural-concorrente, rel:estados-competencia-patrimonio-cultural-concorrente
+- 2026-10-20 23:06 — concluído art. 24, VIII: gravados obj:materia-responsabilidade-por-danos, rel:uniao-competencia-responsabilidade-por-danos, rel:estados-competencia-responsabilidade-por-danos
+- 2026-10-20 23:06 — concluído art. 24, IX: gravados obj:materia-educacao, obj:materia-cultura, obj:materia-desporto, obj:materia-ciencia-e-tecnologia, rel:uniao-competencia-educacao-concorrente, rel:estados-competencia-educacao-concorrente, rel:uniao-competencia-cultura-concorrente, rel:estados-competencia-cultura-concorrente, rel:uniao-competencia-desporto, rel:estados-competencia-desporto, rel:uniao-competencia-ciencia-e-tecnologia-concorrente, rel:estados-competencia-ciencia-e-tecnologia-concorrente
+- 2026-10-20 23:06 — concluído art. 24, X: gravados obj:materia-juizados-de-pequenas-causas, rel:uniao-competencia-juizados-de-pequenas-causas, rel:estados-competencia-juizados-de-pequenas-causas
+- 2026-10-20 23:06 — concluído art. 24, XI: gravados obj:materia-direito-processual, rel:uniao-competencia-direito-processual-concorrente, rel:estados-competencia-direito-processual
+- 2026-10-20 23:06 — concluído art. 24, XII: gravados obj:materia-previdencia-social, obj:materia-saude, rel:uniao-competencia-previdencia-social, rel:estados-competencia-previdencia-social, rel:uniao-competencia-saude-concorrente, rel:estados-competencia-saude-concorrente
+- 2026-10-20 23:06 — concluído art. 24, XIII: gravados obj:materia-assistencia-juridica-e-defensoria, rel:uniao-competencia-assistencia-juridica-e-defensoria, rel:estados-competencia-assistencia-juridica-e-defensoria
+- 2026-10-20 23:06 — concluído art. 24, XIV: gravados obj:materia-pessoas-com-deficiencia, rel:uniao-competencia-pessoas-com-deficiencia-concorrente, rel:estados-competencia-pessoas-com-deficiencia-concorrente
+- 2026-10-20 23:06 — concluído art. 24, XV: gravados obj:materia-infancia-e-juventude, rel:uniao-competencia-infancia-e-juventude, rel:estados-competencia-infancia-e-juventude
+- 2026-10-20 23:06 — concluído art. 24, XVI: gravados obj:materia-policias-civis, rel:uniao-competencia-policias-civis, rel:estados-competencia-policias-civis
+- 2026-10-20 23:06 — concluído art. 24, §§ 1º a 4º: gravados obj:materia-legislacao-suplementar, rel:estados-competencia-legislacao-suplementar
+- 2026-10-20 23:06 — concluído art. 25, § 1º: gravados obj:materia-competencias-remanescentes, rel:estados-competencia-competencias-remanescentes-legislar, rel:estados-competencia-competencias-remanescentes-executar
+- 2026-10-20 23:06 — concluído art. 25, § 2º: gravados obj:materia-gas-canalizado, rel:estados-competencia-gas-canalizado
+- 2026-10-20 23:06 — concluído art. 25, § 3º: gravados obj:materia-regioes-metropolitanas, rel:estados-competencia-regioes-metropolitanas
+- 2026-10-20 23:06 — concluído art. 30, I: gravados obj:materia-assuntos-de-interesse-local, rel:municipios-competencia-assuntos-de-interesse-local
+- 2026-10-20 23:06 — concluído art. 30, II: gravados obj:materia-legislacao-suplementar, rel:municipios-competencia-legislacao-suplementar
+- 2026-10-20 23:06 — concluído art. 30, III: gravados obj:materia-tributos-municipais, rel:municipios-competencia-tributos-municipais
+- 2026-10-20 23:06 — concluído art. 30, IV: gravados obj:materia-distritos-municipais, rel:municipios-competencia-distritos-municipais
+- 2026-10-20 23:06 — concluído art. 30, V: gravados obj:materia-servicos-publicos-locais, obj:materia-transito-e-transporte, rel:municipios-competencia-servicos-publicos-locais, rel:municipios-competencia-transito-e-transporte
+- 2026-10-20 23:06 — concluído art. 30, VI: gravados obj:materia-educacao, rel:municipios-competencia-educacao-interesse-local
+- 2026-10-20 23:06 — concluído art. 30, VII: gravados obj:materia-saude, rel:municipios-competencia-saude-interesse-local
+- 2026-10-20 23:06 — concluído art. 30, VIII: gravados obj:materia-urbanismo, rel:municipios-competencia-urbanismo
+- 2026-10-20 23:06 — concluído art. 30, IX: gravados obj:materia-patrimonio-cultural, rel:municipios-competencia-patrimonio-cultural-interesse-local
+- 2026-10-20 23:06 — concluído art. 32, § 1º: editado ente:df (detalhes + campos.detalhes com fonte art. 32, § 1º; dispositivo da fonte CF passou a "art. 32, caput e § 1º"). O § 1º atribui ao DF só as competências LEGISLATIVAS de estados e municípios; as materiais comuns (art. 23) já citam o DF e o art. 24 também. Não dupliquei matérias. Ajustados resumos de obj:materia-anistia e obj:materia-competencias-remanescentes
+- 2026-10-20 23:08 — critérios usados (para a revisão): (1) matéria por assunto, reutilizada entre artigos quando é o mesmo assunto (ex.: telecomunicações em 21, XI e 22, IV; educação em 22, XXIV, 23, V, 24, IX e 30, VI); o alcance exato de cada inciso vai em competencia.nota; (2) incisos com vários assuntos foram divididos por assunto: 22, I (um ramo do direito por matéria; direito do trabalho virou obj:materia-trabalho, junto com a inspeção do trabalho do 21, XXIV), 22, IV, 22, XXVIII (defesa nacional / defesa civil), 23, II, 23, V, 24, I, 24, IX, 24, XII; (3) incisos do mesmo artigo sobre o mesmo assunto viraram uma relação com várias fontes (21, XII, c e f; 21, XII, d, e e XXI; 22, IX e XI; 23, III e IV; 23, VI e VII); (4) 24, XI (procedimentos) reutiliza obj:materia-direito-processual, com nota; 21, XX, 24, I (urbanístico) e 30, VIII compartilham obj:materia-urbanismo; 30, V gerou duas relações (serviços públicos locais e trânsito e transporte, só transporte coletivo)
+- 2026-10-20 23:08 — ids: rel:<ente>-competencia-<matéria>, com ente = uniao | estados | municipios; quando o mesmo ente tem mais de uma relação com a mesma matéria, todas levam o tipo como sufixo (ex.: rel:uniao-competencia-educacao-privativa); em competências remanescentes (25, § 1º), mesma tipo e naturezas diferentes, o sufixo é legislar/executar
+- 2026-10-20 23:08 — art. 22, parágrafo único, art. 23, parágrafo único e art. 24, §§ 1º a 4º ficaram em competencia.nota e não em fontes: a matriz (web/src/matriz.ts) ordena as linhas pelo dispositivo, e "parágrafo único" seria lido como inciso 0, quebrando a ordem da CF. Exceção: obj:materia-legislacao-suplementar, cuja fonte é o art. 24, § 2º (estados) e o art. 30, II (municípios)
+- 2026-10-20 23:08 — classificações inferidas (campos.competencia.confianca = inferido): 25, § 2º e § 3º (exclusiva) e 30, III a IX (interesse local, material); o art. 30 não dá nome ao tipo, e o vocabulário não tem termo para competência material própria do município
+- 2026-10-20 23:08 — validação: nenhum erro ou aviso nos arquivos desta tarefa (os 2 erros restantes são de relações de outra tarefa que apontam para org:conselho-da-republica); build:dados, vite build e tsc sem erro; ajustado resumo de obj:materia-educacao
+- 2026-10-20 23:08 — coletada: 2 entes típicos, 89 matérias, 173 relações tem-competencia (União 108, estados 42, municípios 23), nota em ente:df

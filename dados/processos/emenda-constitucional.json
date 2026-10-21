@@ -38,11 +38,11 @@
       "seguintes": [
         {
           "para": "camara-ccjc",
-          "quando": "Proposta de deputados ou do Presidente da República; ou das Assembleias Legislativas, se apresentada à Câmara"
+          "quando": "Proposta de deputados ou do Presidente da República"
         },
         {
           "para": "senado-ccj",
-          "quando": "Proposta de senadores; ou das Assembleias Legislativas, se apresentada ao Senado"
+          "quando": "Proposta de senadores ou das Assembleias Legislativas"
         }
       ]
     },
@@ -237,7 +237,7 @@
         },
         {
           "ref": "norma:rccn",
-          "dispositivo": "art. 1º, III e § 2º"
+          "dispositivo": "art. 1º, III e § 2º; art. 85"
         },
         {
           "ref": "norma:ricd",
@@ -298,13 +298,15 @@
   "confianca": "oficial",
   "campos": {
     "etapas": {
-      "nota": "Na etapa 'iniciativa', o envio à Câmara das propostas do Presidente é inferido: o RICD, art. 201, I, lista o Presidente entre os autores de propostas apreciadas pela Câmara, e o RISF, art. 212, não o lista entre as que podem começar no Senado; a CF não fixa casa iniciadora para PEC (o art. 64 trata só de projetos de lei). As propostas das Assembleias podem começar em qualquer das Casas (RICD, art. 201, I; RISF, art. 212, II)."
+      "confianca": "inferido",
+      "nota": "Na etapa 'iniciativa', a Casa onde começa a proposta do Presidente e a das Assembleias é dedução nossa; a CF não fixa casa iniciadora para PEC (o art. 64 trata só de projetos de lei). O RISF, art. 212, só admite começar no Senado a proposta de um terço dos senadores e a das Assembleias Legislativas; por exclusão, a do Presidente começa na Câmara. O RICD, art. 201, I, lista o Presidente e as Assembleias, mas também 'o Senado Federal': é a lista das propostas que a Câmara aprecia, como iniciadora ou revisora, e não define a origem. Para as Assembleias, a página oficial de ensino do Regimento da Câmara (educacaoadistancia.camara.leg.br/clique_regimento/card/4, lida em 2026-10-20) diz que a proposta é 'apresentada perante o Senado'."
     }
   },
   "notas": "Decisões de modelagem: (1) Como em proc:lei-ordinaria, as etapas de cada Casa servem às duas posições (iniciadora e revisora); o papel aparece no 'quando'. (2) A volta das alterações à outra Casa segue RICD, art. 203 (emendas do Senado têm a mesma tramitação), e RISF, arts. 367 e 368 (substitutivo da Câmara é proposta nova; a revisão do Senado segue o mesmo rito). A prática de promulgar só a parte aprovada pelas duas Casas não foi modelada por falta de norma expressa. (3) O RICD, art. 201, II, repete os limites do art. 60, mas omite a intervenção federal entre as circunstâncias que impedem emenda; prevalece a CF (art. 60, § 1º), e o RISF, art. 354, § 2º, a inclui. (4) A comissão especial é temporária e entra no nó agregado org:comissoes-da-camara-dos-deputados. (5) Não modelamos publicação nem vigência: a CF não diz quem publica a emenda, e cada emenda fixa sua própria vigência.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra CF, art. 60, RICD, arts. 201 a 203, RISF, arts. 212, 288 e 354 a 373, e RCCN, arts. 1º e 85; corrigida a casa iniciadora da proposta das Assembleias"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "rel:estados-competencia-regioes-metropolitanas",
+  "tipo": "relacao",
+  "nome": "Estados: Regiões metropolitanas (exclusiva, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:materia-regioes-metropolitanas",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "legislativa",
+    "nota": "Os estados podem instituí-las por lei complementar estadual."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "competencia": {
+      "confianca": "inferido",
+      "nota": "A Constituição atribui a medida aos estados, por lei complementar, sem dar nome ao tipo; classificamos como exclusiva porque nenhum outro ente recebe a mesma atribuição."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

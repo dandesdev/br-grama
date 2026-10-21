@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-juizados-de-pequenas-causas",
+  "tipo": "objeto",
+  "nome": "Juizados de pequenas causas",
+  "resumo": "Criação, funcionamento e processo dos juizados para causas de menor valor ou complexidade.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, X"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

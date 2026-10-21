@@ -4,12 +4,15 @@
   "nome": "Tribunal Regional do Trabalho da 6ª Região",
   "sigla": "TRT6",
   "resumo": "Segunda instância da Justiça do Trabalho em PE. Sede: Recife.",
-  "detalhes": "Abrange: Pernambuco. Sede: Recife (PE). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CF, art. 112).",
+  "detalhes": "Abrange: Pernambuco. Sede: Recife (PE). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CLT, art. 895, I; CF, art. 112).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
   "contido_em": "org:justica-do-trabalho",
+  "jurisdicao": [
+    "ente:pe"
+  ],
   "fontes": [
     {
       "ref": "fonte:cnj-tribunais",
@@ -18,6 +21,10 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 92, IV; art. 111, II; art. 112; art. 115"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 895, I"
     }
   ],
   "campos": {
@@ -47,9 +54,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; nome, sigla, estados, sede e site conferidos na lista e na subpágina do CNJ; jurisdicao preenchido; recurso das Varas do Trabalho ao TRT passou a citar a CLT, art. 895, I (o art. 112 da CF só trata dos juízes de direito)"
   },
-  "notas": "Abrangência (entes): ente:pe. Sede tirada do endereço na página do CNJ: \"Av Cais do Apolo, 739 - Bairro do Recife - Recife/PE - CEP: 50030-902\"."
+  "notas": "Sede tirada do endereço na página do CNJ: \"Av Cais do Apolo, 739 - Bairro do Recife - Recife/PE - CEP: 50030-902\"."
 }

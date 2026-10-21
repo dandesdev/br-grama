@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-competencias-remanescentes-legislar",
+  "tipo": "relacao",
+  "nome": "Estados: Competências remanescentes (residual, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:materia-competencias-remanescentes",
+  "competencia": {
+    "tipo": "residual",
+    "natureza": "legislativa",
+    "nota": "Ficam com os estados as competências que a Constituição não lhes veda."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

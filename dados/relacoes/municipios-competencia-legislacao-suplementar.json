@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-legislacao-suplementar",
+  "tipo": "relacao",
+  "nome": "Municípios: Legislação suplementar (suplementar, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:materia-legislacao-suplementar",
+  "competencia": {
+    "tipo": "suplementar",
+    "natureza": "legislativa",
+    "nota": "Suplementar a legislação federal e a estadual no que couber."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 30, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

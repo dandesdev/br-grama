@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-policias-civis",
+  "tipo": "objeto",
+  "nome": "Polícias civis",
+  "resumo": "Organização, garantias, direitos e deveres das polícias civis.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, XVI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

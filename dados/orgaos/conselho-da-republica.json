@@ -1,0 +1,48 @@
+{
+  "id": "org:conselho-da-republica",
+  "tipo": "orgao",
+  "nome": "Conselho da República",
+  "resumo": "Órgão superior de consulta do Presidente: opina sobre intervenção federal, estado de defesa, estado de sítio e questões graves para a estabilidade democrática.",
+  "detalhes": "É presidido pelo Presidente da República e reúne o Vice-Presidente, os Presidentes da Câmara e do Senado, os líderes da maioria e da minoria nas duas Casas, o Ministro da Justiça e seis cidadãos brasileiros natos com mais de 35 anos (dois nomeados pelo Presidente, dois eleitos pelo Senado e dois pela Câmara), com mandato de três anos sem recondução. Só se reúne quando o Presidente convoca, e a opinião dele não obriga o Presidente.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 2º, I"
+        }
+      ],
+      "nota": "A lei o lista entre os órgãos de consulta do Presidente da República, na seção da Presidência."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 89 e 90; art. 84, XVII e XVIII"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "arts. 1º a 7º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 2º, I; art. 16"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A Secretaria-Geral da Presidência dá apoio administrativo e o Secretário-Geral secretaria as reuniões (Lei 8.041/1990, art. 4º). As reuniões exigem a presença da maioria dos conselheiros (art. 6º). O Presidente pode convocar Ministro de Estado para a reunião quando a pauta tocar o ministério dele; esse ministro não vota (CF, art. 90, § 1º; Lei 8.041/1990, art. 5º, parágrafo único). Os seis membros cidadãos têm suplentes (Lei 8.041/1990, art. 3º, § 2º). Não pesquisamos quem eram os membros cidadãos em 2026-10-01. Os líderes da maioria e da minoria não têm cargo modelado; por isso não há relação 'integra' para eles.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

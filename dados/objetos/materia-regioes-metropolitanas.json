@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-regioes-metropolitanas",
+  "tipo": "objeto",
+  "nome": "Regiões metropolitanas",
+  "resumo": "Agrupamentos de municípios vizinhos (regiões metropolitanas, aglomerações urbanas e microrregiões) para planejar e executar funções públicas comuns.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

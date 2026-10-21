@@ -1,0 +1,28 @@
+{
+  "id": "rel:municipios-competencia-assuntos-de-interesse-local",
+  "tipo": "relacao",
+  "nome": "Municípios: Assuntos de interesse local (interesse local, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:materia-assuntos-de-interesse-local",
+  "competencia": {
+    "tipo": "interesse-local",
+    "natureza": "legislativa"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 30, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

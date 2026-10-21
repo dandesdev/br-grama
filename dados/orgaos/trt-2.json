@@ -4,12 +4,15 @@
   "nome": "Tribunal Regional do Trabalho da 2ª Região",
   "sigla": "TRT2",
   "resumo": "Segunda instância da Justiça do Trabalho em parte de SP (Grande São Paulo e Baixada Santista). Sede: São Paulo.",
-  "detalhes": "Abrange: parte do estado de São Paulo: Grande São Paulo e Baixada Santista (conforme o CNJ, \"SP / Grande São Paulo e Baixada Santista\"). Sede: São Paulo (SP). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CF, art. 112).",
+  "detalhes": "Abrange: parte do estado de São Paulo: Grande São Paulo e Baixada Santista (conforme o CNJ, \"SP / Grande São Paulo e Baixada Santista\"). Sede: São Paulo (SP). Julga os recursos contra as decisões das Varas do Trabalho da região e dos juízes de direito que exercem a jurisdição trabalhista onde não há vara (CLT, art. 895, I; CF, art. 112).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
   "ente": "ente:uniao",
   "contido_em": "org:justica-do-trabalho",
+  "jurisdicao": [
+    "ente:sp"
+  ],
   "fontes": [
     {
       "ref": "fonte:cnj-tribunais",
@@ -18,6 +21,10 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 92, IV; art. 111, II; art. 112; art. 115"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 895, I"
     }
   ],
   "campos": {
@@ -47,9 +54,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; nome, sigla, estados, sede e site conferidos na lista e na subpágina do CNJ; jurisdicao preenchido; recurso das Varas do Trabalho ao TRT passou a citar a CLT, art. 895, I (o art. 112 da CF só trata dos juízes de direito)"
   },
-  "notas": "Abrangência (entes): ente:sp (só parte do estado). Sede tirada do endereço na página do CNJ: \"R da Consolação, 1272 - São Paulo/SP - CEP: 01302-906\". São Paulo é o único estado com dois TRTs (2ª e 15ª Regiões), segundo a lista do CNJ."
+  "notas": "A jurisdição é só parte de São Paulo (ver detalhes). Sede tirada do endereço na página do CNJ: \"R da Consolação, 1272 - São Paulo/SP - CEP: 01302-906\". São Paulo é o único estado com dois TRTs (2ª e 15ª Regiões), segundo a lista do CNJ."
 }

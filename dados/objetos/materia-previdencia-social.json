@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-previdencia-social",
+  "tipo": "objeto",
+  "nome": "Previdência social",
+  "resumo": "Aposentadorias, pensões e outros benefícios pagos a quem contribui para a previdência.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, XII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

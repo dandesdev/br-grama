@@ -1,0 +1,36 @@
+{
+  "id": "rel:estados-competencia-gas-canalizado",
+  "tipo": "relacao",
+  "nome": "Estados: Gás canalizado (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:materia-gas-canalizado",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar os serviços locais de gás canalizado diretamente ou por concessão, na forma da lei; é proibido usar medida provisória para regulamentá-los."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 5/1995."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "competencia": {
+      "confianca": "inferido",
+      "nota": "A Constituição diz que \"cabe aos Estados\" explorar o serviço, sem dar nome ao tipo; classificamos como exclusiva porque nenhum outro ente recebe a mesma atribuição."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-urbanismo-concorrente",
+  "tipo": "relacao",
+  "nome": "União: Urbanismo e desenvolvimento urbano (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-urbanismo",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "Legislar sobre direito urbanístico. A União edita só as normas gerais (art. 24, § 1º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

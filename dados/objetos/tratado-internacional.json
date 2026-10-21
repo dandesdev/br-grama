@@ -1,0 +1,29 @@
+{
+  "id": "obj:tratado-internacional",
+  "tipo": "objeto",
+  "nome": "Tratado internacional",
+  "resumo": "Tratado, convenção ou ato internacional que o Presidente celebra em nome do Brasil, sujeito a referendo do Congresso Nacional.",
+  "detalhes": "O Presidente negocia e assina; o Congresso resolve definitivamente sobre os tratados que tragam encargos ou compromissos gravosos ao patrimônio nacional (art. 49, I). Tratados de direitos humanos aprovados em cada Casa, em dois turnos, por três quintos dos votos equivalem a emendas constitucionais (art. 5º, § 3º). O STF pode declarar a inconstitucionalidade de tratado (art. 102, III, b).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "relativo_a": [
+    "cargo:presidente-da-republica"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, VIII; art. 49, I; art. 5º, § 3º; art. 102, III, b"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A relação rel:congresso-delibera-tratado-internacional (f0-legislativo) já apontava para este id. Esfera 'federal' porque o objeto modela o ato do lado brasileiro (celebração pela União e referendo do Congresso); o tratado em si vincula Estados soberanos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

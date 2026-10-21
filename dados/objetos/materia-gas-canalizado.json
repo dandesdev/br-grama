@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-gas-canalizado",
+  "tipo": "objeto",
+  "nome": "Gás canalizado",
+  "resumo": "Distribuição local de gás por tubulação.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

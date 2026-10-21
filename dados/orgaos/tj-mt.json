@@ -10,6 +10,9 @@
   "esfera": "estadual",
   "ente": "ente:mt",
   "contido_em": "org:justica-estadual",
+  "jurisdicao": [
+    "ente:mt"
+  ],
   "fontes": [
     {
       "ref": "fonte:cnj-tribunais",
@@ -47,9 +50,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; nome, sigla, sede (endereço) e site conferidos na lista e na subpágina do CNJ; CF arts. 96, III, e 125 conferidos; jurisdicao preenchido com o ente que estava nas notas"
   },
-  "notas": "Abrangência (entes): ente:mt. Nome conforme a lista do CNJ (o nome usado pelo próprio tribunal pode ser mais longo, ex.: \"do Estado de\"). Sede tirada do endereço na página do CNJ: \"Centro Político Administrativo - Rua C, s/n - Cuiabá/MT - CEP: 78049-926\"."
+  "notas": "Nome conforme a lista do CNJ (o nome usado pelo próprio tribunal pode ser mais longo, ex.: \"do Estado de\"). Sede tirada do endereço na página do CNJ: \"Centro Político Administrativo - Rua C, s/n - Cuiabá/MT - CEP: 78049-926\"."
 }

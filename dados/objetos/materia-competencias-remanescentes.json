@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-competencias-remanescentes",
+  "tipo": "objeto",
+  "nome": "Competências remanescentes",
+  "resumo": "Competências que a Constituição não proíbe aos estados: ficam com eles por exclusão.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

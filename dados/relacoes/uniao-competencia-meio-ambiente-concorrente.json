@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-meio-ambiente-concorrente",
+  "tipo": "relacao",
+  "nome": "União: Meio ambiente (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-meio-ambiente",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "Legislar sobre florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição. A União edita só as normas gerais (art. 24, § 1º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, VI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

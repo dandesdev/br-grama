@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-direito-penitenciario",
+  "tipo": "objeto",
+  "nome": "Direito penitenciário",
+  "resumo": "Regras do cumprimento das penas e do funcionamento das prisões.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

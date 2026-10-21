@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-juntas-comerciais",
+  "tipo": "objeto",
+  "nome": "Juntas comerciais",
+  "resumo": "Órgãos que registram empresas e atos empresariais.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

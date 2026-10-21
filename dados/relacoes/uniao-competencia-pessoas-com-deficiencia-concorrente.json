@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-pessoas-com-deficiencia-concorrente",
+  "tipo": "relacao",
+  "nome": "União: Pessoas com deficiência (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-pessoas-com-deficiencia",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "Legislar sobre proteção e integração social das pessoas com deficiência. A União edita só as normas gerais (art. 24, § 1º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, XIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

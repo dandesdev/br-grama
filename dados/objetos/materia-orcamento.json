@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-orcamento",
+  "tipo": "objeto",
+  "nome": "Orçamento",
+  "resumo": "Leis que preveem as receitas e autorizam as despesas do poder público.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

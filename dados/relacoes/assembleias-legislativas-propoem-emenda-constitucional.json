@@ -5,7 +5,7 @@
   "relacao": "propoe",
   "de": "org:arquetipo-estadual-assembleia-legislativa",
   "para": "obj:emenda-constitucional",
-  "condicao": "Só em conjunto: mais da metade das Assembleias Legislativas das unidades da Federação, cada uma pela maioria relativa de seus membros. A proposta pode começar na Câmara ou no Senado.",
+  "condicao": "Só em conjunto: mais da metade das Assembleias Legislativas das unidades da Federação, cada uma pela maioria relativa de seus membros. A proposta começa no Senado.",
   "quorum": {
     "regra": "outro",
     "nota": "Mais da metade das Assembleias; em cada uma, maioria relativa dos membros."
@@ -20,19 +20,16 @@
       "dispositivo": "art. 60, III"
     },
     {
-      "ref": "norma:ricd",
-      "dispositivo": "art. 201, I"
-    },
-    {
       "ref": "norma:risf",
       "dispositivo": "art. 212, II"
     }
   ],
   "confianca": "oficial",
-  "notas": "A CF fala em 'Assembleias Legislativas das unidades da Federação'; não diz se a Câmara Legislativa do DF entra na conta.",
+  "notas": "A CF fala em 'Assembleias Legislativas das unidades da Federação'; não diz se a Câmara Legislativa do DF entra na conta. Verificação de 2026-10-20: a condição dizia que a proposta podia começar também na Câmara, com base no RICD, art. 201, I; esse inciso lista as propostas que a Câmara aprecia, inclusive as vindas do Senado, e não define a origem. O RISF, art. 212, II, prevê o início no Senado, e a página oficial de ensino do Regimento da Câmara (educacaoadistancia.camara.leg.br/clique_regimento/card/4) diz 'apresentada perante o Senado'.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; corrigida a casa iniciadora: só o Senado (RISF, art. 212, II)"
   }
 }

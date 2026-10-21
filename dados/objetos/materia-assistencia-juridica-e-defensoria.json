@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-assistencia-juridica-e-defensoria",
+  "tipo": "objeto",
+  "nome": "Assistência jurídica e Defensoria Pública",
+  "resumo": "Orientação e defesa jurídica gratuita para quem não pode pagar, prestada pela Defensoria Pública.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, XIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

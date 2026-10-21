@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-direito-economico",
+  "tipo": "objeto",
+  "nome": "Direito econômico",
+  "resumo": "Regras da intervenção do Estado na economia e da organização dos mercados.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

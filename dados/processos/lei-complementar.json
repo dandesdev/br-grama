@@ -135,7 +135,7 @@
         "org:ccj-senado"
       ],
       "acao": "As comissões do Senado dão parecer; a decisão terminativa não vale para lei complementar",
-      "detalhes": "No Senado, a decisão terminativa das comissões vale para projetos de lei ordinária de senador (e, por delegação do Presidente, para alguns outros), não para projetos de lei complementar, que vão sempre ao Plenário. O resto segue a lei ordinária (ver proc:lei-ordinaria, etapas 'senado-distribuicao' e 'senado-comissoes').",
+      "detalhes": "No Senado, a decisão terminativa das comissões vale para projetos de lei ordinária de senador (art. 91, I) e para as matérias que o Presidente do Senado delegar (§ 1º). O projeto de lei complementar vai ao Plenário, porque só se aprova com a maioria absoluta da composição da Casa (art. 288, III, a). O resto segue a lei ordinária (ver proc:lei-ordinaria, etapas 'senado-distribuicao' e 'senado-comissoes').",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -143,7 +143,7 @@
         },
         {
           "ref": "norma:risf",
-          "dispositivo": "art. 91, I e § 1º"
+          "dispositivo": "art. 91, I e § 1º; art. 288, III, a"
         }
       ],
       "seguintes": [
@@ -393,8 +393,9 @@
   },
   "notas": "Decisões de modelagem: (1) Para não duplicar proc:lei-ordinaria, as etapas iguais foram condensadas: 'camara-comissoes' junta distribuição e comissões; 'sancao-veto-e-promulgacao' resume oito etapas da lei ordinária; 'publicacao-e-vigencia' junta duas. Cada uma remete às etapas correspondentes. (2) Não há etapas de prazo de recurso ao Plenário, porque não há decisão conclusiva ou terminativa (RICD, art. 24, II, a; RISF, art. 91, I). (3) O quórum de aprovação das emendas da casa revisora pela casa iniciadora não está explícito na CF nem nos regimentos; não foi estruturado.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra CF, arts. 61 a 69, RICD, arts. 24, 52, 109, 123, 148, 150 e 183, RISF, arts. 91, 270, 285 a 288, e RCCN, art. 142; ajuste na fundamentação da etapa senado-comissoes"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-direito-processual",
+  "tipo": "relacao",
+  "nome": "Estados: Direito processual (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:materia-direito-processual",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "Só os procedimentos em matéria processual; o direito processual em si é privativo da União (art. 22, I). Os estados suplementam as normas gerais da União; sem lei federal de normas gerais, legislam plenamente, e a lei federal posterior suspende a estadual no que for contrária (art. 24, §§ 2º a 4º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

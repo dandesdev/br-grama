@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-servicos-publicos-locais",
+  "tipo": "objeto",
+  "nome": "Serviços públicos locais",
+  "resumo": "Serviços públicos de interesse local, como o transporte coletivo.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 30, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

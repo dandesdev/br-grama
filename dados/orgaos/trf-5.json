@@ -10,6 +10,14 @@
   "esfera": "federal",
   "ente": "ente:uniao",
   "contido_em": "org:justica-federal",
+  "jurisdicao": [
+    "ente:al",
+    "ente:ce",
+    "ente:pb",
+    "ente:pe",
+    "ente:rn",
+    "ente:se"
+  ],
   "fontes": [
     {
       "ref": "fonte:cnj-tribunais",
@@ -47,9 +55,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; nome, sigla, estados, sede e site conferidos na lista e na subpágina do CNJ; campo jurisdicao preenchido com os entes que estavam nas notas"
   },
-  "notas": "Abrangência (entes): ente:al, ente:ce, ente:pb, ente:pe, ente:rn, ente:se. Sede tirada do endereço na página do CNJ: \"Cais do Apolo, s/n - Edifício Ministro Djaci Falcão - Bairro do Recife - Recife/PE - CEP: 50030-908\"."
+  "notas": "Sede tirada do endereço na página do CNJ: \"Cais do Apolo, s/n - Edifício Ministro Djaci Falcão - Bairro do Recife - Recife/PE - CEP: 50030-908\"."
 }

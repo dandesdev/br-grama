@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-patrimonio-cultural-concorrente",
+  "tipo": "relacao",
+  "nome": "União: Patrimônio histórico e cultural (concorrente, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-patrimonio-cultural",
+  "competencia": {
+    "tipo": "concorrente",
+    "natureza": "legislativa",
+    "nota": "Legislar sobre a proteção ao patrimônio histórico, cultural, artístico, turístico e paisagístico. A União edita só as normas gerais (art. 24, § 1º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

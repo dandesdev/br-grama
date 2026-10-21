@@ -1,0 +1,35 @@
+{
+  "id": "rel:municipios-competencia-saude-interesse-local",
+  "tipo": "relacao",
+  "nome": "Municípios: Saúde (interesse local, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:materia-saude",
+  "competencia": {
+    "tipo": "interesse-local",
+    "natureza": "material",
+    "nota": "Prestar serviços de atendimento à saúde da população, com a cooperação técnica e financeira da União e do estado."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 30, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "competencia": {
+      "confianca": "inferido",
+      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

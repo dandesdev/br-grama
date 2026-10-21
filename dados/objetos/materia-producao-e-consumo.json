@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-producao-e-consumo",
+  "tipo": "objeto",
+  "nome": "Produção e consumo",
+  "resumo": "Regras sobre a produção e o consumo de bens e serviços.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

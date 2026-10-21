@@ -4,6 +4,7 @@
   "nome": "Distrito Federal",
   "sigla": "DF",
   "resumo": "Ente federativo com competências de estado e de município; não se divide em municípios.",
+  "detalhes": "Recebe as competências legislativas reservadas aos estados e aos municípios; na matriz, valem para o DF as competências de legislar das colunas Estados e Municípios. As competências comuns (art. 23) e as concorrentes (art. 24) citam o DF expressamente.",
   "tipo_ente": "distrito-federal",
   "uf": "DF",
   "codigo_ibge": "53",
@@ -19,9 +20,25 @@
     },
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 32, caput"
+      "dispositivo": "art. 32, caput e § 1º"
     }
   ],
+  "campos": {
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 32, § 1º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 23, caput; art. 24, caput"
+        }
+      ],
+      "confianca": "oficial",
+      "nota": "Acrescentado pela tarefa f0-competencias em 2026-10-20 (coletado, a verificar). O § 1º fala só em competências legislativas; as materiais comuns do art. 23 já incluem o DF expressamente."
+    }
+  },
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
