@@ -1,0 +1,38 @@
+{
+  "id": "rel:george-santoro-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "George Santoro é Ministro de Estado dos Transportes",
+  "relacao": "ocupa",
+  "de": "pessoa:george-santoro",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério dos Transportes (org:ministerio-dos-transportes).",
+  "vigencia": {
+    "de": "2026-04-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 1º/4/2026 (DOU 1º/4/2026, ed. 62-A, Seção 2 Extra A, p. 1): exonera José Renan Vasconcelos Calheiros Filho e nomeia George André Palermo Santoro",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-1-de-abril-de-2026-697085793"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de acordo de cooperação técnica (DOU 25/9/2026, Seção 3), assinado pelo Ministro de Estado dos Transportes, George André Palermo Santoro",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-acordo-de-cooperacao-tecnica-734324345"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Lei 15.507, de 21/9/2026 (DOU 22/9/2026, Seção 1), referendada por George André Palermo Santoro",
+      "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.507-de-21-de-setembro-de-2026-733209594"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "O ato mais próximo de 2026-10-01 achado no DOU é de 25/9/2026; não há exoneração nem nova nomeação para a pasta no DOU até 1º/10/2026."
+}

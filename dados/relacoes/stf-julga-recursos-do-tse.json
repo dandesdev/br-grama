@@ -2,7 +2,7 @@
   "id": "rel:stf-julga-recursos-do-tse",
   "tipo": "relacao",
   "nome": "Recursos ao STF contra decisões do TSE",
-  "relacao": "julga",
+  "relacao": "julga-recursos-contra",
   "de": "org:stf",
   "para": "org:tse",
   "condicao": "Julga recurso ordinário contra habeas corpus, mandado de segurança, habeas data e mandado de injunção negados em única instância pelo TSE, e recurso extraordinário contra suas decisões que envolvam a Constituição. As decisões do TSE só são recorríveis quando contrariarem a Constituição ou negarem habeas corpus ou mandado de segurança.",
@@ -18,8 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF conferida (art. 102, II, a, e III; art. 121, § 3º); relacao julga -> julga-recursos-contra"
   }
 }

@@ -2,10 +2,10 @@
   "id": "rel:stf-julga-recurso-extraordinario",
   "tipo": "relacao",
   "nome": "Recurso extraordinário",
-  "relacao": "julga",
+  "relacao": "julga-recursos-contra",
   "de": "org:stf",
   "para": "org:poder-judiciario",
-  "condicao": "Julga o recurso extraordinário contra causas decididas em única ou última instância, por qualquer órgão do Judiciário, quando a decisão contrariar a Constituição, declarar inconstitucional tratado ou lei federal ou julgar válida lei ou ato local contestado em face da Constituição ou de lei federal. O recorrente tem de mostrar repercussão geral; o STF só recusa por esse motivo com dois terços dos membros.",
+  "condicao": "Julga o recurso extraordinário contra causas decididas em única ou última instância, por qualquer órgão do Judiciário, quando a decisão contrariar a Constituição, declarar inconstitucional tratado ou lei federal ou julgar válida lei ou ato de governo local contestado em face da Constituição, ou julgar válida lei local contestada em face de lei federal. O recorrente tem de mostrar repercussão geral; o STF só recusa por esse motivo com dois terços dos membros.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -18,8 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF conferida (art. 102, III e § 3º); relacao julga -> julga-recursos-contra; condicao: a alínea d do art. 102, III, fala só de lei local (não de ato) contestada em face de lei federal, e o texto juntava as duas alíneas como se valessem para lei e ato"
   }
 }

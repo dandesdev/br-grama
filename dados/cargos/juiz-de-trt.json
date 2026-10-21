@@ -9,8 +9,8 @@
   "vagas_nota": "O número de cadeiras é fixado por lei para cada tribunal; não somamos.",
   "provimento_casos": [
     {
-      "quando": "Quatro quintos das vagas: promoção de juízes do trabalho, por antiguidade e merecimento, alternadamente (carreira iniciada por concurso)",
-      "provimento": "concurso-publico",
+      "quando": "Quatro quintos das vagas: promoção de juízes do trabalho, por antiguidade e merecimento, alternadamente",
+      "provimento": "promocao",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "quando": "Um quinto das vagas (quinto constitucional): advogado ou membro do Ministério Público escolhido por o Presidente da República dentre lista tríplice do tribunal",
-      "provimento": "nomeacao-livre",
+      "quando": "Um quinto das vagas (quinto constitucional): advogado ou membro do Ministério Público escolhido pelo Presidente da República dentre lista tríplice do tribunal",
+      "provimento": "nomeacao-a-partir-de-lista",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -47,13 +47,6 @@
       "dispositivo": "art. 2º, II"
     }
   ],
-  "campos": {
-    "provimento_casos": {
-      "confianca": "inferido",
-      "nota": "Os termos de provimento são aproximações (ver notas)."
-    }
-  },
-  "notas": "Vocabulário: não há termo para promoção na carreira nem para nomeação dentre lista; usamos \"concurso-publico\" (o ingresso na carreira é por concurso) e \"nomeacao-livre\" (termo mais próximo para a escolha do Executivo dentre lista tríplice, que não é livre). Proposto no relatório da tarefa.",
   "requisitos": [
     {
       "texto": "brasileiro com mais de 30 e menos de 70 anos de idade, recrutado, quando possível, na respectiva região",
@@ -80,8 +73,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF arts. 84, XVI, 93, 94, 95 e 115 conferidos; vocabulário: promoção concurso-publico -> promocao; quinto nomeacao-livre -> nomeacao-a-partir-de-lista; campos.provimento_casos deixou de ser inferido"
   }
 }

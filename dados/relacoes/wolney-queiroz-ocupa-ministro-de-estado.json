@@ -1,0 +1,32 @@
+{
+  "id": "rel:wolney-queiroz-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Wolney Queiroz é Ministro de Estado da Previdência Social",
+  "relacao": "ocupa",
+  "de": "pessoa:wolney-queiroz",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Previdência Social (org:ministerio-da-previdencia-social).",
+  "vigencia": {
+    "de": "2025-05-02",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 2/5/2025 (DOU 2/5/2025, ed. 81-B, Seção 2 Extra B, p. 1): exonera, a pedido, Carlos Roberto Lupi e nomeia Wolney Queiroz Maciel",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-2-de-maio-de-2025-626969164"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria MPS nº 1.424, de 30/9/2026, do Ministro de Estado da Previdência Social (DOU 1º/10/2026, Seção 2), assinada por Wolney Queiroz Maciel",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-mps-n-1.424-de-30-de-setembro-de-2026-735805697"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

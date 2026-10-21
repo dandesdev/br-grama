@@ -9,8 +9,8 @@
   "vagas_nota": "O número de cadeiras é fixado por lei para cada tribunal; não somamos.",
   "provimento_casos": [
     {
-      "quando": "Quatro quintos das vagas: promoção de juízes de direito da última ou única entrância, por antiguidade e merecimento, alternadamente (carreira iniciada por concurso)",
-      "provimento": "concurso-publico",
+      "quando": "Quatro quintos das vagas: promoção de juízes de direito da última ou única entrância, por antiguidade e merecimento, alternadamente",
+      "provimento": "promocao",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "quando": "Um quinto das vagas (quinto constitucional): advogado ou membro do Ministério Público escolhido por o chefe do Poder Executivo dentre lista tríplice do tribunal",
-      "provimento": "nomeacao-livre",
+      "quando": "Um quinto das vagas (quinto constitucional): advogado ou membro do Ministério Público escolhido pelo chefe do Poder Executivo dentre lista tríplice do tribunal",
+      "provimento": "nomeacao-a-partir-de-lista",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -40,7 +40,7 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 40, § 1º, II; art. 93, III e VI; art. 94; art. 95; art. 93, III"
+      "dispositivo": "art. 40, § 1º, II; art. 93, III e VI; art. 94; art. 95; art. 103-B, IV; art. 104, I; art. 120, § 1º, I, a; art. 125, § 1º"
     },
     {
       "ref": "norma:lc-152-2015",
@@ -48,12 +48,12 @@
     }
   ],
   "campos": {
-    "provimento_casos": {
+    "provimento_nota": {
       "confianca": "inferido",
-      "nota": "Os termos de provimento são aproximações (ver notas)."
+      "nota": "\"Nos estados, o governador\" é leitura nossa de \"Poder Executivo\" no art. 94, parágrafo único; a CF não nomeia o governador."
     }
   },
-  "notas": "Vocabulário: não há termo para promoção na carreira nem para nomeação dentre lista; usamos \"concurso-publico\" (o ingresso na carreira é por concurso) e \"nomeacao-livre\" (termo mais próximo para a escolha do Executivo dentre lista tríplice, que não é livre). Proposto no relatório da tarefa. \"Nos estados, o governador\": leitura de \"Poder Executivo\" no art. 94, parágrafo único; a CF não nomeia o governador. Para o TJDFT, que a União organiza (art. 21, XIII), não conferimos quem nomeia.",
+  "notas": "Para o TJDFT, que a União organiza (art. 21, XIII), não conferimos quem nomeia no quinto.",
   "requisitos": [
     {
       "texto": "juiz de direito promovido por antiguidade e merecimento, apurados na última ou única entrância; ou advogado com mais de dez anos de atividade ou membro do Ministério Público com mais de dez anos de carreira",
@@ -71,8 +71,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF arts. 84, XVI, 93, 94, 95 e 125 conferidos; vocabulário: promoção concurso-publico -> promocao; quinto nomeacao-livre -> nomeacao-a-partir-de-lista; campos.provimento_casos deixou de ser inferido; fontes: art. 93, III estava duplicado e faltavam os arts. 103-B, 104, 120 e 125 citados nos detalhes"
   }
 }

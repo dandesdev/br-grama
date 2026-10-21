@@ -1,0 +1,38 @@
+{
+  "id": "rel:eloy-terena-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Eloy Terena é Ministro de Estado dos Povos Indígenas",
+  "relacao": "ocupa",
+  "de": "pessoa:eloy-terena",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério dos Povos Indígenas (org:ministerio-dos-povos-indigenas).",
+  "vigencia": {
+    "de": "2026-03-31",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/3/2026 (DOU 31/3/2026, ed. 61-A, Seção 2 Extra A, p. 1): exonera Sônia Bone de Sousa Silva Santos e nomeia Luiz Henrique Eloy Amado",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696677452"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Lei 15.518, de 22/9/2026 (DOU 23/9/2026, Seção 1), referendada por Luiz Henrique Eloy Amado",
+      "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.518-de-22-de-setembro-de-2026-733476413"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 28/9/2026, Seção 2 Extra A): férias do Ministro de Estado dos Povos Indígenas, Luiz Henrique Eloy Amado, a partir de 28/9/2026",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-735038861"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Estava em férias em 2026-10-01 (despacho no DOU de 28/9/2026); férias não interrompem a titularidade do cargo. O período exato das férias não foi conferido."
+}

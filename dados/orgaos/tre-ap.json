@@ -10,6 +10,9 @@
   "esfera": "federal",
   "ente": "ente:uniao",
   "contido_em": "org:justica-eleitoral",
+  "jurisdicao": [
+    "ente:ap"
+  ],
   "fontes": [
     {
       "ref": "fonte:cnj-tribunais",
@@ -30,8 +33,7 @@
       ]
     },
     "sigla": {
-      "confianca": "inferido",
-      "nota": "A lista do CNJ não dá sigla para os TREs; usamos a do endereço do site (tre-ap.jus.br)."
+      "nota": "A lista do CNJ não dá sigla para os TREs; a forma TRE-AP aparece no próprio site do tribunal (página inicial do site, cópia do Wayback de 5/10/2026)."
     }
   },
   "mais_informacoes": [
@@ -47,9 +49,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; nome e site conferidos na lista do CNJ e no título do site do tribunal (cópia do Wayback); sede pela CF, art. 120; jurisdicao preenchido; sigla confirmada no site do tribunal (campos.sigla deixou de ser inferido)"
   },
-  "notas": "Abrangência (entes): ente:ap. Nome conforme a lista do CNJ. A sede vem da regra do art. 120 da CF (um TRE na capital de cada estado e no DF); a cidade é a capital de Amapá."
+  "notas": "Nome conforme a lista do CNJ e o título do site do tribunal (http://web.archive.org/web/20261005165522/https://www.tre-ap.jus.br/). A sede vem da regra do art. 120 da CF (um TRE na capital de cada estado e no DF); a cidade é a capital de Amapá."
 }

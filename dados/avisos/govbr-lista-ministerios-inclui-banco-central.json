@@ -1,0 +1,44 @@
+{
+  "id": "aviso:govbr-lista-ministerios-inclui-banco-central",
+  "tipo": "aviso",
+  "nome": "Página do gov.br lista o Banco Central entre os órgãos com status de ministério",
+  "resumo": "O portal gov.br põe o Banco Central na lista de ministérios e órgãos com status de ministério, mas desde 2021 a lei não dá ao seu Presidente cargo de Ministro de Estado.",
+  "detalhes": "A página 'Ministérios e órgãos com status de ministérios' do gov.br (atualizada em 28/8/2025) lista o Banco Central do Brasil ao lado dos 38 órgãos da Lei 14.600/2023. A LC 179/2021, art. 9º, transformou o cargo de Ministro de Estado Presidente do Banco Central em cargo de Natureza Especial, e o art. 6º desvincula o Banco Central de qualquer ministério. A Lei 14.600/2023, art. 18, não inclui o Presidente do Banco Central entre os Ministros de Estado. Seguimos a lei: o mapa mostra 38 ministros.",
+  "tipo_aviso": "contradicao",
+  "gravidade": "baixa",
+  "afeta": [
+    "fonte:govbr-ministerios-e-orgaos-com-status-de-ministerio",
+    "cargo:ministro-de-estado",
+    "org:banco-central"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:govbr-ministerios-e-orgaos-com-status-de-ministerio",
+      "dispositivo": null,
+      "nota": "'Banco Central do Brasil' aparece na lista; página baixada em 2026-10-20, 'Atualizado em 28/08/2025 18h07'"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 6º e 9º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 18"
+    }
+  ],
+  "onde_procuramos": [
+    "Página do gov.br 'Ministérios e órgãos com status de ministérios' (cópia em pesquisa/brutos/govbr/2026-10-20/)",
+    "LC 179/2021 e Lei 14.600/2023 no Planalto"
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "A lista do gov.br é de navegação (links para os sites dos órgãos) e pode ter mantido o Banco Central por conveniência; a contradição é com o texto da página, que fala em 'status de ministério'."
+}

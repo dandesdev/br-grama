@@ -1,0 +1,47 @@
+{
+  "id": "pessoa:guilherme-boulos",
+  "tipo": "pessoa",
+  "nome": "Guilherme Boulos",
+  "nome_civil": "Guilherme Castro Boulos",
+  "resumo": "Ministro de Estado da Secretaria-Geral da Presidência desde outubro de 2025; deputado federal por São Paulo licenciado. Filiado ao PSOL.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 20/10/2025 (DOU 21/10/2025, ed. 201, Seção 2, p. 1): exonera, a pedido, Márcio Costa Macêdo e nomeia Guilherme Castro Boulos",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-20-de-outubro-de-2025-663711885"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 25/9/2026, Seção 2 Extra A): afastamento do cargo pelo Ministro de Estado da Secretaria-Geral, Guilherme Castro Boulos, de 28/9 a 2/10/2026, para tratar de assuntos particulares",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-734809015"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-psol",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido no último status registrado pela Câmara (licença, 2025-10-29); a data de filiação não foi pesquisada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputado-detalhe",
+          "dispositivo": "deputado 220639, ultimoStatus.siglaPartido \"PSOL\"",
+          "nota": "cópia em pesquisa/brutos/camara-dados-abertos/2026-10-20/deputado-220639.json"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Deputado federal por SP (titular), em licença segundo a Câmara."
+}

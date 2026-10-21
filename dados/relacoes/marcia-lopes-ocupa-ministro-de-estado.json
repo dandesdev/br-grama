@@ -1,0 +1,38 @@
+{
+  "id": "rel:marcia-lopes-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Márcia Lopes é Ministra de Estado das Mulheres",
+  "relacao": "ocupa",
+  "de": "pessoa:marcia-lopes",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério das Mulheres (org:ministerio-das-mulheres).",
+  "vigencia": {
+    "de": "2025-05-05",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 5/5/2025 (DOU 5/5/2025, ed. 82-B, Seção 2 Extra B, p. 1): exonera Aparecida Gonçalves e nomeia Márcia Helena Carvalho Lopes",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-5-de-maio-de-2025-627239074"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GM/MMulheres nº 146, de 29/9/2026 (DOU 30/9/2026, Seção 1), assinada por Marcia Helena Carvalho Lopes",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gm/mmulheres-n-146-de-29-de-setembro-de-2026-735410892"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 2/10/2026, Seção 2): férias da Ministra de Estado das Mulheres, Márcia Helena Carvalho Lopes, em 1º e 2/10/2026",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-736077273"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Estava em férias em 2026-10-01 (despacho no DOU de 2/10/2026); férias não interrompem a titularidade."
+}

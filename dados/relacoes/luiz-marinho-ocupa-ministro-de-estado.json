@@ -1,0 +1,38 @@
+{
+  "id": "rel:luiz-marinho-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Luiz Marinho é Ministro de Estado do Trabalho e Emprego",
+  "relacao": "ocupa",
+  "de": "pessoa:luiz-marinho",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério do Trabalho e Emprego (org:ministerio-do-trabalho-e-emprego).",
+  "vigencia": {
+    "de": "2025-02-03",
+    "ate": null,
+    "nota": "Período contínuo que inclui 2026-10-01. Ministro da pasta desde 2023, foi exonerado a pedido a partir de 1º/2/2025 e renomeado por decreto de 31/1/2025, publicado em 3/2/2025; usamos a data da publicação. O mesmo ocorreu em 31/1-1º/2/2023. Períodos anteriores não registrados."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 31/1/2025 (DOU 3/2/2025, ed. 23, Seção 2, p. 2): nomeia Luiz Marinho",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-31-de-janeiro-de-2025-610350347"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria Interministerial MJSP/MRE/MTE nº 68, de 15/9/2026 (DOU 17/9/2026, Seção 1 Extra D), assinada por Luiz Marinho, Ministro de Estado do Trabalho e Emprego",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-interministerial-mjsp/mre/mte-n-68-de-15-de-setembro-de-2026-732449243"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 30/1/2025 (DOU 31/1/2025, ed. 22, Seção 2, p. 2): exonera Luiz Marinho, a pedido, a partir de 1º/2/2025",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-30-de-janeiro-de-2025-610201793"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "As exonerações de fevereiro de 2023 e de 2025 coincidem com o início das sessões legislativas (eleição da Mesa da Câmara); é leitura nossa, os decretos não dão o motivo. Sem exoneração no DOU entre 3/2/2025 e 1º/10/2026 (busca na Seção 2)."
+}

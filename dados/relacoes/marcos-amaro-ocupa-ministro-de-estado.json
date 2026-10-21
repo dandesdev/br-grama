@@ -1,0 +1,32 @@
+{
+  "id": "rel:marcos-amaro-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Marcos Amaro é Ministro de Estado Chefe do Gabinete de Segurança Institucional",
+  "relacao": "ocupa",
+  "de": "pessoa:marcos-amaro",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Gabinete de Segurança Institucional da Presidência da República (org:gabinete-de-seguranca-institucional).",
+  "vigencia": {
+    "de": "2023-05-03",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 3/5/2023 (DOU 4/5/2023, ed. 84, Seção 2, p. 1): nomeia Marcos Antonio Amaro dos Santos",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-3-de-maio-de-2023-480863425"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Atos de 28/9/2026 do Ministro de Estado Chefe do Gabinete de Segurança Institucional (DOU 29/9/2026, Seção 1), assinados por Marcos Antonio Amaro dos Santos",
+      "nota": "https://www.in.gov.br/web/dou/-/atos-de-28-de-setembro-de-2026-735123922"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

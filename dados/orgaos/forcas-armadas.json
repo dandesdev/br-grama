@@ -1,0 +1,44 @@
+{
+  "id": "org:forcas-armadas",
+  "tipo": "orgao",
+  "nome": "Forças Armadas",
+  "resumo": "Marinha, Exército e Aeronáutica: instituições permanentes, sob a autoridade suprema do Presidente e subordinadas ao Ministro da Defesa, para defender a Pátria e garantir os poderes constitucionais.",
+  "detalhes": "Organizadas com base na hierarquia e na disciplina, também garantem a lei e a ordem por iniciativa de um dos poderes constitucionais. Cada Força tem um Comandante, oficial-general do último posto, indicado pelo Ministro da Defesa e nomeado pelo Presidente. O Estado-Maior Conjunto das Forças Armadas assessora o Ministro da Defesa.",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-defesa",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 3º"
+        }
+      ],
+      "nota": "'As Forças Armadas são subordinadas ao Ministro de Estado da Defesa, dispondo de estruturas próprias.'"
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 142; art. 84, XIII"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 1º a 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Criado com o mínimo para servir de alvo à relação de comando supremo (CF, art. 84, XIII). Tipo 'conjunto' porque representa as três Forças (Marinha, Exército e Aeronáutica), cada uma com seu Comando, que não foram modeladas separadamente. Os Comandantes integram o Conselho de Defesa Nacional (CF, art. 91, VIII), mas não têm cargo modelado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

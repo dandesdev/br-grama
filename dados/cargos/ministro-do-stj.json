@@ -6,8 +6,8 @@
   "orgao": "org:stj",
   "provimento": "nomeacao-com-aprovacao-do-senado",
   "vagas": 33,
-  "vagas_nota": "A CF fixa o mínimo de 33 ministros (art. 104); o número só aumenta por lei, proposta pelo próprio tribunal superior (art. 96, II, a).",
-  "provimento_nota": "Um terço das vagas é de juízes dos TRFs e um terço de desembargadores dos TJs, em lista tríplice feita pelo próprio STJ. O outro terço é, em partes iguais e alternadamente, de advogados e de membros do Ministério Público federal, estadual e do DF: a OAB ou o MP envia lista de seis nomes, e o STJ forma a lista tríplice (art. 104, I e II; art. 94). O Presidente da República escolhe um nome da lista, o Senado aprova por maioria absoluta e o Presidente nomeia (art. 104, parágrafo único; art. 52, III, a; art. 84, XIV).",
+  "vagas_nota": "A CF fixa o mínimo de 33 ministros (art. 104), e o Regimento Interno do STJ fixa a composição em 33 (art. 1º); o número só aumenta por lei, proposta pelo próprio tribunal superior (art. 96, II, a).",
+  "provimento_nota": "Um terço das vagas é de juízes dos TRFs e um terço de desembargadores dos TJs, em lista tríplice feita pelo Plenário do STJ (RISTJ, art. 10, VI). O outro terço é, em partes iguais e alternadamente, de advogados e de membros do Ministério Público federal, estadual e do DF: a OAB ou o MP envia lista de seis nomes, e o STJ forma a lista tríplice (art. 104, I e II; art. 94). O Presidente da República escolhe um nome da lista, o Senado aprova por maioria absoluta e o Presidente nomeia (art. 104, parágrafo único; art. 52, III, a; art. 84, XIV).",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -42,17 +42,22 @@
     {
       "ref": "norma:lc-152-2015",
       "dispositivo": "art. 2º, II"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 1º; art. 10, VI"
     }
   ],
-  "notas": "Requisito de idade na redação da EC 122/2022. vagas = 33, o mínimo constitucional; não conferimos se lei aumentou o número.",
+  "notas": "Requisito de idade na redação da EC 122/2022.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF arts. 40, § 1º, II; 52, III, a; 84, XIV; 93, VI; 94; 95; 103-B; 104; 119 conferidos; complemento: 33 cadeiras confirmadas no RISTJ, art. 1º, e lista tríplice pelo Plenário (RISTJ, art. 10, VI); nota de pendência sobre o número de vagas removida"
   }
 }

@@ -47,3 +47,8 @@ Processos:
 - 2026-10-20 23:09 — gravado pessoa:dario-durigan, rel:dario-durigan-ocupa-ministro-de-estado
 - 2026-10-20 23:10 — gravado fonte:camara-api-deputado-detalhe (brutos da Câmara e do Senado em pesquisa/brutos/*/2026-10-20/)
 - 2026-10-20 23:11 — gravado pessoa + rel ocupa (ministro-de-estado): andre-de-paula vladimir-lima fernanda-machiaveli marcio-elias-rosa wellington-dias janine-mello leonardo-barchini paulo-henrique-rodrigues-pereira paulo-henrique-perna-cordeiro
+- 2026-10-20 23:13 — gravado pessoa + rel ocupa (ministro-de-estado): rachel-barros-de-oliveira eloy-terena joao-paulo-capobianco rivetla-edipo-araujo-cruz bruno-moretti tome-franca george-santoro miriam-belchior jose-guimaraes wellington-cesar-lima-e-silva
+- 2026-10-20 23:16 — gravado pessoa + rel ocupa (ministro-de-estado): luciana-santos frederico-de-siqueira-filho margareth-menezes jose-mucio esther-dweck waldez-goes alexandre-silveira marcia-lopes wolney-queiroz mauro-vieira alexandre-padilha luiz-marinho gustavo-feliciano vinicius-marques-de-carvalho jorge-messias marcos-amaro guilherme-boulos sidonio-palmeira
+- 2026-10-20 23:17 — gravado norma:lc-179-2021, aviso:govbr-lista-ministerios-inclui-banco-central (contradição confirmada na página baixada), org:banco-central
+- 2026-10-20 23:18 — gravado norma:lc-97-1999, org:forcas-armadas
+- 2026-10-20 23:18 — gravado obj:indulto

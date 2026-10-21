@@ -1,0 +1,38 @@
+{
+  "id": "rel:mauro-vieira-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Mauro Vieira é Ministro de Estado das Relações Exteriores",
+  "relacao": "ocupa",
+  "de": "pessoa:mauro-vieira",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério das Relações Exteriores (org:ministerio-das-relacoes-exteriores).",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 3): nomeia Mauro Luiz Iecker Vieira",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455347375"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 23/9/2026 (DOU 24/9/2026, Seção 2): lista Mauro Luiz Iecker Vieira, Ministro de Estado das Relações Exteriores, na comitiva oficial",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-23-de-setembro-de-2026-733752514"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria Interministerial MJSP/MRE/MTE nº 68, de 15/9/2026 (DOU 17/9/2026, Seção 1 Extra D), assinada por Mauro Luiz Iecker Vieira",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-interministerial-mjsp/mre/mte-n-68-de-15-de-setembro-de-2026-732449243"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Como Ministro das Relações Exteriores, integra o Conselho de Defesa Nacional (CF, art. 91, VI)."
+}

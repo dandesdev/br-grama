@@ -9,27 +9,39 @@
   "vagas_nota": "A CF fixa o mínimo de sete membros (art. 119). Os substitutos são escolhidos na mesma ocasião e pelo mesmo processo, em número igual para cada categoria (art. 121, § 2º); não estão contados aqui.",
   "provimento_casos": [
     {
-      "quando": "Três vagas de ministros do STF e duas de ministros do STJ: eleição por voto secreto",
+      "quando": "Três vagas de ministros do STF e duas de ministros do STJ: eleição por voto secreto, pelo Plenário de cada tribunal, dentre os seus ministros",
       "provimento": "eleicao-pelos-pares",
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 119, I"
+        },
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 7º, II"
+        },
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 10, III"
         }
       ]
     },
     {
-      "quando": "Duas vagas de advogados: o Presidente da República nomeia um dos seis nomes indicados pelo STF, sem passar pelo Senado. A escolha não é livre (fica presa à lista); \"livre nomeação\" é o termo mais próximo do vocabulário",
-      "provimento": "nomeacao-livre",
+      "quando": "Duas vagas de advogados: o Presidente da República nomeia um dos seis nomes indicados pelo STF, sem passar pelo Senado",
+      "provimento": "nomeacao-a-partir-de-lista",
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 119, II"
+        },
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 7º, II"
         }
       ]
     }
   ],
-  "provimento_nota": "Os ministros do STF e do STJ são eleitos por voto secreto (art. 119, I); a CF não diz quem vota. No STF, quem elege é o Plenário, que também organiza a lista de advogados (RISTF, art. 7º, II); no STJ, não conferimos o regimento. Os advogados, de notável saber jurídico e idoneidade moral, são nomeados pelo Presidente da República dentre seis indicados pelo STF (art. 119, II). O TSE elege seu Presidente e Vice-Presidente entre os ministros do STF e o Corregedor Eleitoral entre os do STJ (art. 119, parágrafo único).",
+  "provimento_nota": "Os ministros do STF e do STJ são eleitos por voto secreto (art. 119, I); a CF não diz quem vota. Os regimentos dizem que quem elege é o Plenário de cada tribunal: no STF, que também organiza a lista de advogados (RISTF, art. 7º, II), e no STJ (RISTJ, art. 10, III). Os advogados, de notável saber jurídico e idoneidade moral, são nomeados pelo Presidente da República dentre seis indicados pelo STF (art. 119, II). O TSE elege seu Presidente e Vice-Presidente entre os ministros do STF e o Corregedor Eleitoral entre os do STJ (art. 119, parágrafo único).",
   "mandato": {
     "anos": 2,
     "vitalicio": false,
@@ -56,23 +68,26 @@
     {
       "ref": "norma:ristf",
       "dispositivo": "art. 7º, II; art. 143, parágrafo único"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 10, III"
     }
   ],
   "campos": {
     "provimento_casos": {
-      "confianca": "inferido",
-      "nota": "Para o STJ, quem vota na eleição do art. 119, I, b, não foi conferido no regimento do STJ. O termo \"nomeacao-livre\" é aproximação; falta no vocabulário um termo para nomeação vinculada a lista."
+      "nota": "\"Eleito pelos pares\" aqui quer dizer eleito pelos colegas do tribunal de origem (STF ou STJ), não do TSE."
     }
   },
-  "notas": "Vocabulário: falta um termo de provimento para nomeação dentre lista (proposto no relatório da tarefa).",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF arts. 119 e 121, §§ 1º e 2º; RISTF art. 7º, II, e 143; RISTJ art. 10, III conferidos; vocabulário: advogados passaram de nomeacao-livre para nomeacao-a-partir-de-lista; resolvida a eleição no STJ (Plenário, RISTJ art. 10, III), e provimento_casos deixou de ser inferido"
   }
 }

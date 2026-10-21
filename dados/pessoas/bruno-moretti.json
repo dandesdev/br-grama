@@ -1,0 +1,31 @@
+{
+  "id": "pessoa:bruno-moretti",
+  "tipo": "pessoa",
+  "nome": "Bruno Moretti",
+  "nome_civil": "Bruno Moretti",
+  "resumo": "Ministro de Estado do Planejamento e Orçamento desde março de 2026.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/3/2026 (DOU 31/3/2026, ed. 61-A, Seção 2 Extra A, p. 1): exonera Simone Nassar Tebet e nomeia Bruno Moretti",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696696406"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto nº 13.130, de 30/9/2026 (DOU 30/9/2026, Seção 1 Extra B), referendado por Bruno Moretti",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-n-13.130-de-30-de-setembro-de-2026-735678653"
+    }
+  ],
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Filiação partidária não pesquisada em fonte oficial; não é parlamentar."
+}

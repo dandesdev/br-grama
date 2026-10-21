@@ -1,0 +1,33 @@
+{
+  "id": "rel:tome-franca-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Tomé Franca é Ministro de Estado de Portos e Aeroportos",
+  "relacao": "ocupa",
+  "de": "pessoa:tome-franca",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério de Portos e Aeroportos (org:ministerio-de-portos-e-aeroportos).",
+  "vigencia": {
+    "de": "2026-03-31",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/3/2026 (DOU 31/3/2026, ed. 61-A, Seção 2 Extra A, p. 2): exonera Sílvio Serafim Costa Filho e nomeia Tomé Barros Monteiro da Franca",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696677401"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria de Pessoal nº 191, de 17/9/2026, do Ministro de Estado de Portos e Aeroportos (DOU 22/9/2026, Seção 2), assinada por Tomé Barros Monteiro da Franca",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-n-191-de-17-de-setembro-de-2026-733277002"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "O ato assinado mais próximo de 2026-10-01 achado no DOU é de 17/9/2026; não há exoneração nem nova nomeação para a pasta no DOU até 1º/10/2026."
+}

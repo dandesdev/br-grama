@@ -5,7 +5,7 @@
   "relacao": "corrige",
   "de": "org:cnj",
   "para": "org:poder-judiciario",
-  "condicao": "Recebe reclamações contra juízes e tribunais, pode avocar processos disciplinares, determinar remoção ou disponibilidade e aplicar outras sanções, e rever processos disciplinares julgados há menos de um ano. A corregedoria é exercida pelo ministro do STJ no Conselho.",
+  "condicao": "Recebe reclamações contra juízes e tribunais, pode avocar processos disciplinares, determinar remoção ou disponibilidade e aplicar outras sanções, e rever processos disciplinares julgados há menos de um ano. A corregedoria é exercida pelo ministro do STJ no Conselho. Não alcança o STF e seus ministros (ADI 3367).",
   "vigencia": {
     "de": "2004-12-31",
     "ate": null,
@@ -15,12 +15,17 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 103-B, § 4º, III e V; § 5º"
+    },
+    {
+      "ref": "fonte:stf-adi-3367",
+      "dispositivo": "ementa, item 4"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF art. 103-B, §§ 4º e 5º conferidos; acrescentada a exclusão do STF (ADI 3367, ementa, item 4)"
   }
 }

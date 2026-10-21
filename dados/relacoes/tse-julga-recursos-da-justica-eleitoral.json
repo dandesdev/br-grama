@@ -2,7 +2,7 @@
   "id": "rel:tse-julga-recursos-da-justica-eleitoral",
   "tipo": "relacao",
   "nome": "Recursos ao TSE contra decisões dos TREs",
-  "relacao": "julga",
+  "relacao": "julga-recursos-contra",
   "de": "org:tse",
   "para": "org:justica-eleitoral",
   "condicao": "Julga os recursos contra decisões dos TREs, que só cabem nos casos do art. 121, § 4º: decisão contra a Constituição ou a lei, divergência entre tribunais eleitorais, inelegibilidade ou diplomas em eleições federais ou estaduais, perda de mandato e negativa de habeas corpus, mandado de segurança, habeas data ou mandado de injunção.",
@@ -22,8 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF conferida (art. 121, § 4º, art. 22, II); relacao julga -> julga-recursos-contra"
   }
 }

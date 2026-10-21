@@ -1,0 +1,37 @@
+{
+  "id": "rel:luciana-santos-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Luciana Santos é Ministra de Estado da Ciência, Tecnologia e Inovação",
+  "relacao": "ocupa",
+  "de": "pessoa:luciana-santos",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Ciência, Tecnologia e Inovação (org:ministerio-da-ciencia-tecnologia-e-inovacao).",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 1): nomeia Luciana Barbosa de Oliveira Santos",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455346565"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 25/9/2026, Seção 2 Extra A): férias da Ministra de Estado da Ciência, Tecnologia e Inovação, Luciana Barbosa de Oliveira Santos",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-734808964"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de cessão de uso (DOU 22/9/2026, Seção 3), assinado por Luciana Barbosa de Oliveira Santos, Ministra de Estado da Ciência, Tecnologia e Inovação",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-cessao-de-uso-733397376"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

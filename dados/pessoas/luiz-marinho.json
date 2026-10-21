@@ -1,0 +1,47 @@
+{
+  "id": "pessoa:luiz-marinho",
+  "tipo": "pessoa",
+  "nome": "Luiz Marinho",
+  "nome_civil": "Luiz Marinho",
+  "resumo": "Ministro de Estado do Trabalho e Emprego; deputado federal por São Paulo licenciado. Filiado ao PT.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 31/1/2025 (DOU 3/2/2025, ed. 23, Seção 2, p. 2): nomeia Luiz Marinho",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-31-de-janeiro-de-2025-610350347"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria Interministerial MJSP/MRE/MTE nº 68, de 15/9/2026 (DOU 17/9/2026, Seção 1 Extra D), assinada por Luiz Marinho, Ministro de Estado do Trabalho e Emprego",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-interministerial-mjsp/mre/mte-n-68-de-15-de-setembro-de-2026-732449243"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido no último status registrado pela Câmara (licença, 2025-02-03); a data de filiação não foi pesquisada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputado-detalhe",
+          "dispositivo": "deputado 220636, ultimoStatus.siglaPartido \"PT\"",
+          "nota": "cópia em pesquisa/brutos/camara-dados-abertos/2026-10-20/deputado-220636.json"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Deputado federal por SP (titular), em licença desde 2025-02-03 segundo a Câmara."
+}

@@ -5,7 +5,7 @@
   "relacao": "elege",
   "de": "org:stj",
   "para": "cargo:ministro-do-tse",
-  "condicao": "Dois ministros do STJ são eleitos por voto secreto para o TSE; um deles será o Corregedor Eleitoral.",
+  "condicao": "O Plenário do STJ elege, por voto secreto, dois de seus ministros para o TSE, como membros efetivos e substitutos; um deles será o Corregedor Eleitoral.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -14,13 +14,17 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 119, I, b, e parágrafo único"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 10, III"
     }
   ],
-  "confianca": "inferido",
+  "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
-  },
-  "notas": "A CF não diz quem vota; atribuímos a eleição ao próprio STJ por analogia com o STF (RISTF, art. 7º, II), sem conferir o regimento do STJ."
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; ponto em aberto resolvido: RISTJ art. 10, III diz que quem elege é o Plenário do STJ; confianca inferido -> oficial; condicao e fontes atualizadas"
+  }
 }

@@ -1,0 +1,37 @@
+{
+  "id": "rel:waldez-goes-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Waldez Góes é Ministro de Estado da Integração e do Desenvolvimento Regional",
+  "relacao": "ocupa",
+  "de": "pessoa:waldez-goes",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Integração e do Desenvolvimento Regional (org:ministerio-da-integracao-e-do-desenvolvimento-regional).",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 2): nomeia Antônio Waldez Góes da Silva para Ministro de Estado da Integração e Desenvolvimento Regional",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455346139"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria MIDR nº 3.158, de 22/9/2026, do Ministro de Estado da Integração e do Desenvolvimento Regional (DOU 23/9/2026, Seção 2), assinada por Antonio Waldez Góes da Silva",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-midr-n-3.158-de-22-de-setembro-de-2026-733523100"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Lei 15.506, de 16/9/2026 (DOU 16/9/2026, Seção 1 Extra C), referendada por Antônio Waldez Góes da Silva",
+      "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.506-de-16-de-setembro-de-2026-732159558"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

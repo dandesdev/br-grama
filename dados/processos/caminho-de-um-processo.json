@@ -161,7 +161,7 @@
         "org:stf"
       ],
       "acao": "O STF julga o recurso extraordinário, que trata de questão constitucional",
-      "detalhes": "Cabe contra causa decidida em única ou última instância quando a decisão contraria a Constituição, declara inconstitucional tratado ou lei federal, ou julga válida lei ou ato local contestado em face da Constituição ou de lei federal (CF, art. 102, III). O recorrente precisa mostrar a repercussão geral da questão (CF, art. 102, § 3º; CPC, art. 1.035). Também pode chegar ao STF recurso extraordinário contra decisão do STJ.",
+      "detalhes": "Cabe contra causa decidida em única ou última instância quando a decisão contraria a Constituição, declara inconstitucional tratado ou lei federal, julga válida lei ou ato de governo local contestado em face da Constituição, ou julga válida lei local contestada em face de lei federal (CF, art. 102, III). O recorrente precisa mostrar a repercussão geral da questão (CF, art. 102, § 3º; CPC, art. 1.035). Também pode chegar ao STF recurso extraordinário contra decisão do STJ.",
       "quorum": {
         "regra": "dois-tercos",
         "nota": "Para recusar o recurso por falta de repercussão geral: dois terços dos membros do STF (CF, art. 102, § 3º)."
@@ -224,9 +224,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF arts. 5º, XXXVI, 98, I, 102, 105, 108 e 109 e CPC arts. 219, 502, 1.003, § 5º, 1.009, 1.010, 1.012, 1.029 a 1.031, 1.035, 1.035-A e 1.042 (redação da Lei 15.484/2026) conferidos; correção na etapa recurso-extraordinario: a alínea d do art. 102, III, trata só de lei local contestada em face de lei federal"
   },
   "notas": "Decisões de modelagem: (1) os atores dos tribunais de segundo grau são os cargos (desembargador e juiz de TRF), porque são 33 tribunais; (2) a admissão do REsp e do RE no tribunal de origem é uma etapa própria, com o agravo do CPC, art. 1.042, descrito nos detalhes e no \"quando\"; (3) o processo não tem \"produz\": não existe objeto para \"decisão judicial definitiva\"; (4) vigencia.de usa a data em que o CPC/2015 começou a valer, marcada como incerta."
 }

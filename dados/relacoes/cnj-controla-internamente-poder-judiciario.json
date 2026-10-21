@@ -5,7 +5,7 @@
   "relacao": "controla-internamente",
   "de": "org:cnj",
   "para": "org:poder-judiciario",
-  "condicao": "Controla a atuação administrativa e financeira do Judiciário: zela pela autonomia do Poder, pode expedir atos regulamentares e rever a legalidade de atos administrativos de juízes e tribunais, sem prejuízo da competência do TCU.",
+  "condicao": "Controla a atuação administrativa e financeira do Judiciário: zela pela autonomia do Poder, pode expedir atos regulamentares e rever a legalidade de atos administrativos de juízes e tribunais, sem prejuízo da competência do TCU. Esse controle não alcança o STF e seus ministros (ADI 3367).",
   "vigencia": {
     "de": "2004-12-31",
     "ate": null,
@@ -15,13 +15,17 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 103-B, § 4º, caput, I e II"
+    },
+    {
+      "ref": "fonte:stf-adi-3367",
+      "dispositivo": "ementa, item 4"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
-  },
-  "notas": "Pendência: segundo fontes secundárias, o STF decidiu na ADI 3367 que o CNJ não tem competência sobre o STF; não confirmamos no acórdão (ver notas de org:cnj)."
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF art. 103-B, § 4º conferido; pendência da ADI 3367 resolvida (ementa lida): condicao ganhou a exclusão do STF, com a fonte"
+  }
 }

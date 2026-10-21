@@ -1,0 +1,32 @@
+{
+  "id": "rel:rachel-barros-de-oliveira-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Rachel Barros de Oliveira é Ministra de Estado da Igualdade Racial",
+  "relacao": "ocupa",
+  "de": "pessoa:rachel-barros-de-oliveira",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Igualdade Racial (org:ministerio-da-igualdade-racial).",
+  "vigencia": {
+    "de": "2026-03-31",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/3/2026 (DOU 31/3/2026, ed. 61-C, Seção 2 Extra C, p. 1): exonera Anielle Francisco da Silva e nomeia Rachel Barros de Oliveira",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696677539"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GAB/MIR nº 589, de 1º/10/2026, da Ministra de Estado da Igualdade Racial (DOU 2/10/2026, Seção 2), assinada por Rachel Barros de Oliveira",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gab-mir-n-589-de-1-de-outubro-de-2026-736090886"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

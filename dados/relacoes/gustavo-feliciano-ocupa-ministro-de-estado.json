@@ -1,0 +1,32 @@
+{
+  "id": "rel:gustavo-feliciano-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Gustavo Feliciano é Ministro de Estado do Turismo",
+  "relacao": "ocupa",
+  "de": "pessoa:gustavo-feliciano",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério do Turismo (org:ministerio-do-turismo).",
+  "vigencia": {
+    "de": "2025-12-18",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 18/12/2025 (DOU 19/12/2025, ed. 242, Seção 2, p. 2): exonera, a pedido, Celso Sabino de Oliveira e nomeia Gustavo Costa Feliciano",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-18-de-dezembro-de-2025-676491674"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria MTur nº 34, de 30/9/2026, do Ministro de Estado do Turismo (DOU 2/10/2026, Seção 1), assinada por Gustavo Feliciano",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-mtur-n-34-de-30-de-setembro-de-2026-736040676"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "org:tre-to",
   "tipo": "orgao",
-  "nome": "Tribunal Regional Eleitoral de Tocantins",
+  "nome": "Tribunal Regional Eleitoral do Tocantins",
   "sigla": "TRE-TO",
   "resumo": "Tribunal da Justiça Eleitoral no estado do Tocantins. Sede: Palmas.",
   "detalhes": "Abrange: Tocantins. Sede: Palmas, capital do estado (CF, art. 120). Tem sete membros: quatro eleitos por voto secreto, que são dois desembargadores do Tribunal de Justiça e dois juízes de direito escolhidos pelo TJ; um juiz do TRF com sede na capital ou, se não houver, um juiz federal, escolhido pelo TRF respectivo; e dois advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo TJ (art. 120, § 1º).",
@@ -10,6 +10,9 @@
   "esfera": "federal",
   "ente": "ente:uniao",
   "contido_em": "org:justica-eleitoral",
+  "jurisdicao": [
+    "ente:to"
+  ],
   "fontes": [
     {
       "ref": "fonte:cnj-tribunais",
@@ -30,8 +33,10 @@
       ]
     },
     "sigla": {
-      "confianca": "inferido",
-      "nota": "A lista do CNJ não dá sigla para os TREs; usamos a do endereço do site (tre-to.jus.br)."
+      "nota": "A lista do CNJ não dá sigla para os TREs; a forma TRE-TO aparece no próprio site do tribunal (página inicial do site, cópia do Wayback de 17/1/2026)."
+    },
+    "nome": {
+      "nota": "Nome como o próprio tribunal usa no título do site (http://web.archive.org/web/20260117133227/https://www.tre-to.jus.br/). A lista do CNJ escreve \"Tribunal Regional Eleitoral de Tocantins\"."
     }
   },
   "mais_informacoes": [
@@ -47,9 +52,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; nome e site conferidos na lista do CNJ e no título do site do tribunal (cópia do Wayback); sede pela CF, art. 120; jurisdicao preenchido; nome corrigido para o usado pelo próprio tribunal; sigla confirmada no site do tribunal (campos.sigla deixou de ser inferido)"
   },
-  "notas": "Abrangência (entes): ente:to. Nome conforme a lista do CNJ. A sede vem da regra do art. 120 da CF (um TRE na capital de cada estado e no DF); a cidade é a capital de Tocantins."
+  "notas": "Nome conforme o site do tribunal; a lista do CNJ usa outra preposição (ver campos.nome). A sede vem da regra do art. 120 da CF (um TRE na capital de cada estado e no DF); a cidade é a capital de Tocantins."
 }

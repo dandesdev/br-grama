@@ -2,7 +2,7 @@
   "id": "rel:stf-julga-recursos-do-tst",
   "tipo": "relacao",
   "nome": "Recursos ao STF contra decisões do TST",
-  "relacao": "julga",
+  "relacao": "julga-recursos-contra",
   "de": "org:stf",
   "para": "org:tst",
   "condicao": "Julga recurso ordinário contra habeas corpus, mandado de segurança, habeas data e mandado de injunção negados em única instância pelo TST, e recurso extraordinário contra suas decisões que envolvam a Constituição.",
@@ -18,8 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF conferida (art. 102, II, a, e III); relacao julga -> julga-recursos-contra"
   }
 }

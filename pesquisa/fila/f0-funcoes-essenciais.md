@@ -17,6 +17,7 @@ concluida_em: null
 - [ ] Procuradorias dos estados e do DF (art. 132): arquétipo `org:arquetipo-estadual-procuradoria-geral`
 - [ ] Advocacia (art. 133) e a OAB, como entidade (`org:oab`) com a natureza jurídica conforme a fonte oficial e a jurisprudência do STF
 - [ ] Defensoria Pública: `org:dpu` (art. 134), `cargo:defensor-publico-geral-federal`, arquétipo estadual `org:arquetipo-estadual-defensoria-publica`; autonomia (art. 134, §§ 2º e 3º)
+- [ ] Membros do CNJ indicados pelo MP e pela OAB (art. 103-B, X a XII): relações de indicação para `org:cnj` (sugestão da revisão do Judiciário)
 - [ ] Relações principais: quem nomeia, quem fiscaliza, quem representa quem judicialmente, quem pode propor ação de controle de constitucionalidade (art. 103, VI e VII)
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)

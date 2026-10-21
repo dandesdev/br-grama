@@ -1,0 +1,33 @@
+{
+  "id": "rel:esther-dweck-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Esther Dweck é Ministra de Estado da Gestão e da Inovação em Serviços Públicos",
+  "relacao": "ocupa",
+  "de": "pessoa:esther-dweck",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Gestão e da Inovação em Serviços Públicos (org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos).",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 2): nomeia Esther Dweck para Ministra de Estado da Gestão e Inovação em Serviços Públicos",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455343486"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GM/MGI nº 8.225, de 1º/10/2026 (DOU 2/10/2026, Seção 2), assinada por Esther Dweck",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gm/mgi-n-8.225-de-1-de-outubro-de-2026-736066528"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Também exerceu interinamente o cargo de Ministra dos Direitos Humanos em setembro de 2024 (Decretos de 6/9/2024, DOU Seção 2 Extra C), sem deixar a pasta da Gestão. Um despacho no DOU de 2/10/2026 trata de férias dela; o período não foi conferido."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "rel:miriam-belchior-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Miriam Belchior é Ministra de Estado da Casa Civil",
+  "relacao": "ocupa",
+  "de": "pessoa:miriam-belchior",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Casa Civil da Presidência da República (org:casa-civil).",
+  "vigencia": {
+    "de": "2026-04-02",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 2/4/2026 (DOU 2/4/2026, ed. 63-B, Seção 2 Extra B, p. 1): exonera Rui Costa dos Santos e nomeia Miriam Aparecida Belchior",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-2-de-abril-de-2026-697370016"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de termo aditivo (DOU 18/9/2026, Seção 3), assinado por Miriam Aparecida Belchior, Ministra de Estado",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-732469822"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 2/10/2026, Seção 2 Extra A): férias da Ministra de Estado da Casa Civil, Miriam Aparecida Belchior, em 2/10/2026",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-736227746"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

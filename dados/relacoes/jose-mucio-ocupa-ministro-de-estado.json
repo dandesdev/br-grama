@@ -1,0 +1,33 @@
+{
+  "id": "rel:jose-mucio-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "José Múcio é Ministro de Estado da Defesa",
+  "relacao": "ocupa",
+  "de": "pessoa:jose-mucio",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Defesa (org:ministerio-da-defesa).",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 1): nomeia José Múcio Monteiro Filho",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455346646"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GM-MD nº 5.082, de 30/9/2026 (DOU 2/10/2026, Seção 2), assinada por José Mucio Monteiro Filho",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gm-md-n-5.082-de-30-de-setembro-de-2026-736049260"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Como Ministro da Defesa, integra o Conselho de Defesa Nacional (CF, art. 91, V)."
+}

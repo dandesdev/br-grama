@@ -2,7 +2,7 @@
   "id": "rel:stj-julga-recursos-da-justica-federal",
   "tipo": "relacao",
   "nome": "Recursos ao STJ contra decisões dos TRFs",
-  "relacao": "julga",
+  "relacao": "julga-recursos-contra",
   "de": "org:stj",
   "para": "org:justica-federal",
   "condicao": "Julga o recurso especial contra causas decididas em única ou última instância pelos TRFs que contrariem tratado ou lei federal, julguem válido ato local contestado em face de lei federal ou divirjam de outro tribunal na interpretação da lei federal; e recurso ordinário em habeas corpus e mandado de segurança negados pelos TRFs.",
@@ -18,8 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF conferida (art. 105, II, a e b; III; §§ 2º e 3º); relacao julga -> julga-recursos-contra"
   }
 }

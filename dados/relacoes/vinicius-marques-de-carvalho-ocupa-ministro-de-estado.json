@@ -1,0 +1,32 @@
+{
+  "id": "rel:vinicius-marques-de-carvalho-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Vinícius Marques de Carvalho é Ministro de Estado da Controladoria-Geral da União",
+  "relacao": "ocupa",
+  "de": "pessoa:vinicius-marques-de-carvalho",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Controladoria-Geral da União (org:cgu).",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 3): nomeia Vinícius Marques de Carvalho",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455343787"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 2.617, de 30/9/2026, do Ministro de Estado da Controladoria-Geral da União (DOU 2/10/2026, Seção 2), assinada por Vinicius Marques de Carvalho",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-2.617-de-30-de-setembro-de-2026-736098393"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

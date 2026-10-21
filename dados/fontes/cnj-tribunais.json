@@ -15,9 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; contagens (6 TRFs, 27 TJs, 27 TREs, 24 TRTs, 3 TJMs), URL, arquivo do Wayback (3/10/2026) e caminhos das subpáginas do TJAP e do TJAM conferidos na cópia bruta"
   },
-  "notas": "A lista traz 6 TRFs (com os estados de cada um), 27 TJs, 27 TREs, 24 TRTs (com os estados) e 3 TJMs. Cada tribunal, exceto os TREs, tem uma subpágina no CNJ (ex.: /poder-judiciario/tribunais/tribunal-regional-federal-da-1a-regiao-trf1/; TJAP e TJAM em /poder-judiciario/<slug>/) com endereço e site; os TREs apontam direto para o site do tribunal. Cópias brutas em pesquisa/brutos/cnj/2026-10-17/ (tribunais.html e subpaginas/). Na subpágina do TJPE o título diz 'Tribunal da Justiça de Pernambuco'; a lista principal diz 'Tribunal de Justiça de Pernambuco'."
+  "notas": "A lista traz 6 TRFs (com os estados de cada um), 27 TJs, 27 TREs, 24 TRTs (com os estados) e 3 TJMs. Cada tribunal, exceto os TREs, tem uma subpágina no CNJ (ex.: /poder-judiciario/tribunais/tribunal-regional-federal-da-1a-regiao-trf1/; TJAP e TJAM em /poder-judiciario/<slug>/) com endereço e site; os TREs apontam direto para o site do tribunal. Cópias brutas em pesquisa/brutos/cnj/2026-10-17/ (tribunais.html e subpaginas/). Na subpágina do TJPE o título diz 'Tribunal da Justiça de Pernambuco'; a lista principal diz 'Tribunal de Justiça de Pernambuco'. Os nomes dos TREs de MT, MS e TO na lista (\"do Mato Grosso\", \"do Mato Grosso do Sul\", \"de Tocantins\") diferem dos usados pelos próprios tribunais (\"de Mato Grosso\", \"de Mato Grosso do Sul\", \"do Tocantins\")."
 }

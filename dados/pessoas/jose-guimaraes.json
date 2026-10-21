@@ -1,0 +1,47 @@
+{
+  "id": "pessoa:jose-guimaraes",
+  "tipo": "pessoa",
+  "nome": "José Guimarães",
+  "nome_civil": "José Nobre Guimarães",
+  "resumo": "Ministro de Estado da Secretaria de Relações Institucionais desde abril de 2026; deputado federal pelo Ceará licenciado. Filiado ao PT.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 13/4/2026 (DOU 13/4/2026, ed. 69-A, Seção 2 Extra A, p. 1): nomeia José Nobre Guimarães",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-13-de-abril-de-2026-699267177"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 30/9/2026, Seção 2 Extra A): afastamento do cargo pelo Ministro de Estado da Secretaria de Relações Institucionais, José Nobre Guimarães, de 30/9 a 2/10/2026, para tratar de assuntos particulares",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-735678732"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido no último status registrado pela Câmara (licença, 2026-04-14); a data de filiação não foi pesquisada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputado-detalhe",
+          "dispositivo": "deputado 141470, ultimoStatus.siglaPartido \"PT\"",
+          "nota": "cópia em pesquisa/brutos/camara-dados-abertos/2026-10-20/deputado-141470.json"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Deputado federal pelo CE (titular), em licença desde 2026-04-14 segundo a Câmara."
+}

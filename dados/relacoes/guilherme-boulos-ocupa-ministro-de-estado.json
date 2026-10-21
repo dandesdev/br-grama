@@ -1,0 +1,38 @@
+{
+  "id": "rel:guilherme-boulos-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Guilherme Boulos é Ministro de Estado da Secretaria-Geral da Presidência da República",
+  "relacao": "ocupa",
+  "de": "pessoa:guilherme-boulos",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Secretaria-Geral da Presidência da República (org:secretaria-geral-da-presidencia).",
+  "vigencia": {
+    "de": "2025-10-20",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 20/10/2025 (DOU 21/10/2025, ed. 201, Seção 2, p. 1): exonera, a pedido, Márcio Costa Macêdo e nomeia Guilherme Castro Boulos",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-20-de-outubro-de-2025-663711885"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Presidente da República (DOU 25/9/2026, Seção 2 Extra A): afastamento do cargo pelo Ministro de Estado da Secretaria-Geral, Guilherme Castro Boulos, de 28/9 a 2/10/2026, para tratar de assuntos particulares",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-734809015"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de termo de adesão nº 5/2026 (DOU 28/9/2026, Seção 3), assinado por Guilherme Castro Boulos, Ministro de Estado da Secretaria-Geral da Presidência da República",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-termo-de-adesao-n-5/2026-734941833"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Em 2026-10-01 estava afastado do cargo, por despacho do Presidente, para tratar de assuntos particulares (28/9 a 2/10/2026); continuava titular. Não pesquisamos quem exerceu a pasta como substituto. A Câmara registra a licença a partir de 2025-10-29; o decreto de nomeação é de 20/10/2025."
+}

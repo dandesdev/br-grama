@@ -1,0 +1,37 @@
+{
+  "id": "rel:rivetla-edipo-araujo-cruz-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Rivetla Edipo Araujo Cruz é Ministro de Estado da Pesca e Aquicultura",
+  "relacao": "ocupa",
+  "de": "pessoa:rivetla-edipo-araujo-cruz",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Pesca e Aquicultura (org:ministerio-da-pesca-e-aquicultura).",
+  "vigencia": {
+    "de": "2026-03-31",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/3/2026 (DOU 31/3/2026, ed. 61-A, Seção 2 Extra A, p. 1): exonera André Carlos Alves de Paula Filho e nomeia Rivetla Edipo Araujo Cruz",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696696429"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria de Pessoal MPA nº 367, de 1º/10/2026 (DOU 2/10/2026, Seção 2), assinada por Rivetla Edipo Araujo Cruz",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-mpa-n-367-de-1-de-outubro-de-2026-736083778"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Lei 15.526, de 29/9/2026 (DOU 30/9/2026, Seção 1), referendada por Rivetla Edipo Araujo Cruz",
+      "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.526-de-29-de-setembro-de-2026-735384105"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

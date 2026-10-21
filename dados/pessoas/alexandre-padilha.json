@@ -1,0 +1,47 @@
+{
+  "id": "pessoa:alexandre-padilha",
+  "tipo": "pessoa",
+  "nome": "Alexandre Padilha",
+  "nome_civil": "Alexandre Rocha Santos Padilha",
+  "resumo": "Ministro de Estado da Saúde desde março de 2025; deputado federal por São Paulo licenciado. Filiado ao PT.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 10/3/2025 (DOU 10/3/2025, ed. 46-A, Seção 2 Extra A, p. 1): exonera Nísia Verônica Trindade Lima e nomeia Alexandre Rocha Santos Padilha",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-10-de-marco-de-2025-616753152"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GM/MS nº 12.249, de 29/9/2026 (DOU 2/10/2026, Seção 1), assinada por Alexandre Rocha Santos Padilha",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.249-de-29-de-setembro-de-2026-736046811"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido no último status registrado pela Câmara (licença, 2025-03-10); a data de filiação não foi pesquisada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:camara-api-deputado-detalhe",
+          "dispositivo": "deputado 204503, ultimoStatus.siglaPartido \"PT\"",
+          "nota": "cópia em pesquisa/brutos/camara-dados-abertos/2026-10-20/deputado-204503.json"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Deputado federal por SP (titular), em licença segundo a Câmara. Antes de ir para a Saúde, foi Ministro da Secretaria de Relações Institucionais (2023 a março de 2025)."
+}

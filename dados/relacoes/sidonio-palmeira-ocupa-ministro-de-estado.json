@@ -1,0 +1,32 @@
+{
+  "id": "rel:sidonio-palmeira-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Sidônio Palmeira é Ministro de Estado da Secretaria de Comunicação Social",
+  "relacao": "ocupa",
+  "de": "pessoa:sidonio-palmeira",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Secretaria de Comunicação Social da Presidência da República (org:secretaria-de-comunicacao-social).",
+  "vigencia": {
+    "de": "2025-01-14",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 14/1/2025 (DOU 14/1/2025, ed. 9-A, Seção 2 Extra A, p. 1): exonera, a pedido, Paulo Roberto Severo Pimenta e nomeia Sidônio Cardoso Palmeira",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-14-de-janeiro-de-2025-607005543"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 207, de 1º/10/2026, do Ministro de Estado da Secretaria de Comunicação Social (DOU 2/10/2026, Seção 2), assinada por Sidônio Cardoso Palmeira",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-207-de-1-de-outubro-de-2026-736081734"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

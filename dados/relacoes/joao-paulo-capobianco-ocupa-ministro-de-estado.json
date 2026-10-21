@@ -1,0 +1,32 @@
+{
+  "id": "rel:joao-paulo-capobianco-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "João Paulo Capobianco é Ministro de Estado do Meio Ambiente e Mudança do Clima",
+  "relacao": "ocupa",
+  "de": "pessoa:joao-paulo-capobianco",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério do Meio Ambiente e Mudança do Clima (org:ministerio-do-meio-ambiente-e-mudanca-do-clima).",
+  "vigencia": {
+    "de": "2026-04-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 1º/4/2026 (DOU 1º/4/2026, ed. 62-A, Seção 2 Extra A, p. 1): exonera, a pedido, Maria Osmarina Marina da Silva Vaz de Lima e nomeia João Paulo Ribeiro Capobianco",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-1-de-abril-de-2026-697085661"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GM/MMA nº 1.794, de 30/9/2026 (DOU 30/9/2026, Seção 1 Extra C), assinada por João Paulo Ribeiro Capobianco",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gm/mma-n-1794-de-30-de-setembro-de-2026-735702200"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

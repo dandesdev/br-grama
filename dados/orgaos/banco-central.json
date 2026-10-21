@@ -1,0 +1,53 @@
+{
+  "id": "org:banco-central",
+  "tipo": "orgao",
+  "nome": "Banco Central do Brasil",
+  "sigla": "BCB",
+  "resumo": "Autarquia de natureza especial, sem vínculo com ministério, que conduz a política monetária para assegurar a estabilidade de preços e zela pelo sistema financeiro.",
+  "detalhes": "A Diretoria Colegiada tem nove membros, incluindo o Presidente, todos indicados e nomeados pelo Presidente da República após aprovação do Senado, com mandatos de quatro anos; o do Presidente do Banco Central começa no terceiro ano do mandato do Presidente da República. Só emite moeda a União, por meio do Banco Central (CF, art. 164).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-179-2021",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A LC 179/2021 diz que o Banco Central não se vincula a ministério nem se subordina hierarquicamente; o pusemos direto sob o Poder Executivo federal por ser autarquia da União. A posição é leitura nossa."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV; art. 52, III, d; art. 164"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 1º, 3º, 4º, 6º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Criado pela Lei 4.595/1964 (não pesquisada nesta tarefa); a autonomia atual vem da LC 179/2021."
+  },
+  "confianca": "oficial",
+  "notas": "Criado com o mínimo para servir de alvo às relações do art. 84, XIV (nomeação do presidente e dos diretores após aprovação do Senado). Órgãos internos, Conselho Monetário Nacional e Copom não foram modelados. Ver aviso:govbr-lista-ministerios-inclui-banco-central.",
+  "mais_informacoes": [
+    {
+      "titulo": "Banco Central do Brasil",
+      "url": "https://www.bcb.gov.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}
