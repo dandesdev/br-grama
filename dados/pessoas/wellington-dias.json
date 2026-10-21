@@ -1,0 +1,47 @@
+{
+  "id": "pessoa:wellington-dias",
+  "tipo": "pessoa",
+  "nome": "Wellington Dias",
+  "nome_civil": "José Wellington Barroso de Araújo Dias",
+  "resumo": "Ministro de Estado do Desenvolvimento e Assistência Social, Família e Combate à Fome; senador pelo Piauí licenciado. Filiado ao PT.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 5/5/2026 (DOU 6/5/2026, ed. 83, Seção 2, p. 1): nomeia José Wellington Barroso de Araújo Dias",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-5-de-maio-de-2026-703498159"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho de 1º/10/2026 do Ministro de Estado do Desenvolvimento e Assistência Social (DOU 2/10/2026, Seção 2), assinado por José Wellington Barroso de Araújo Dias",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-de-1-de-outubro-de-2026-736097840"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido registrado pelo Senado na data da consulta (2026-10-20); a data de filiação não foi pesquisada."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-senadores",
+          "dispositivo": "legislatura 57, senador 5016, SiglaPartidoParlamentar \"PT\"",
+          "nota": "cópia em pesquisa/brutos/senado-dados-abertos/2026-10-20/senador-lista-legislatura-57.json"
+        }
+      ]
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Senador pelo PI (mandato 2023-2031), licenciado para ser ministro. O Senado registra exercício do mandato de 28/4 a 6/5/2026, período em que ele esteve fora do ministério."
+}

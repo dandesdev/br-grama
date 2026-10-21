@@ -66,7 +66,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - `restrita_a`: entes onde a relação vale, quando liga órgãos de arquétipo.
 
 **Processo.** `forma`, `produz` (objeto), `etapas` e `regimes`.
-- **Etapa:** `id`, `tipo_etapa` (`acao` por padrão, `decisao`, `decurso-de-prazo`, `fim`), `atores` (pode ser vazio só em decurso de prazo e fim), `acao` (até 120 caracteres), `detalhes`, `prazo`, `quorum`, `fontes`, `seguintes: [{ para, quando }]`.
+- **Etapa:** `id`, `tipo_etapa` (`acao` por padrão, `decisao`, `decurso-de-prazo`, `fim`), `atores` (pode ser vazio só em decurso de prazo e fim), `acao` (até 120 caracteres), `detalhes`, `prazo`, `quorum`, `fontes`, `remete_a` (opcional: id do processo cujo rito a etapa segue, ex.: a votação da lei complementar segue `proc:lei-ordinaria`), `seguintes: [{ para, quando }]`.
 - **Prazo:** `{ texto, valor?, unidade?, conta_de?, efeito? }`. `texto` sempre presente; os demais quando a norma permitir estruturar.
 - **Regime:** variante que muda várias etapas, como a urgência constitucional: `{ id, nome, resumo, detalhes?, quem_aciona, fontes, efeitos: [{ etapa, prazo?, nota? }] }`.
 

@@ -29,6 +29,7 @@ export interface Etapa {
   prazo?: Prazo;
   quorum?: Quorum;
   fontes: FonteRef[];
+  remete_a?: string;
   seguintes: { para: string; quando?: string | null }[];
 }
 

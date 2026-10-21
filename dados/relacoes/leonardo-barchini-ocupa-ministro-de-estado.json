@@ -1,0 +1,32 @@
+{
+  "id": "rel:leonardo-barchini-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Leonardo Barchini é Ministro de Estado da Educação",
+  "relacao": "ocupa",
+  "de": "pessoa:leonardo-barchini",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Educação (org:ministerio-da-educacao).",
+  "vigencia": {
+    "de": "2026-04-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 1º/4/2026 (DOU 2/4/2026, ed. 63, Seção 2, p. 1): exonera Camilo Sobreira de Santana e nomeia Leonardo Osvaldo Barchini Rosa",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-1-de-abril-de-2026-697140408"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria MEC nº 742, de 29/9/2026 (DOU 1º/10/2026, Seção 2), assinada por Leonardo Osvaldo Barchini Rosa",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-mec-n-742-de-29-de-setembro-de-2026-735902814"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  }
+}

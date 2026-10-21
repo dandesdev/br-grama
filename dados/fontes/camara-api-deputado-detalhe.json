@@ -1,0 +1,23 @@
+{
+  "id": "fonte:camara-api-deputado-detalhe",
+  "tipo": "fonte",
+  "nome": "Câmara dos Deputados, Dados Abertos: dados de cada deputado",
+  "resumo": "Ficha de cada deputado na API da Câmara, com nome civil e último status (partido, UF e situação, inclusive licença).",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Câmara dos Deputados",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
+  "acesso_em": "2026-10-20",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Usada para deputados licenciados para exercer cargo de Ministro, que não entraram na importação dos deputados em exercício. A ficha de cada um fica em /deputados/<id>; cada citação indica o id do deputado no 'dispositivo'. Cópias brutas em pesquisa/brutos/camara-dados-abertos/2026-10-20/deputado-<id>.json."
+}

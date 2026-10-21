@@ -1,0 +1,38 @@
+{
+  "id": "rel:wellington-dias-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "Wellington Dias é Ministro de Estado do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+  "relacao": "ocupa",
+  "de": "pessoa:wellington-dias",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (org:ministerio-do-desenvolvimento-e-assistencia-social).",
+  "vigencia": {
+    "de": "2026-05-05",
+    "ate": null,
+    "nota": "Período contínuo que inclui 2026-10-01: começa no decreto de 5/5/2026. Ele era ministro da pasta desde 2023, mas foi exonerado a pedido em 28/4/2026 e renomeado em 5/5/2026; os períodos anteriores não foram registrados aqui."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 5/5/2026 (DOU 6/5/2026, ed. 83, Seção 2, p. 1): nomeia José Wellington Barroso de Araújo Dias",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-5-de-maio-de-2026-703498159"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho de 1º/10/2026 do Ministro de Estado do Desenvolvimento e Assistência Social (DOU 2/10/2026, Seção 2), assinado por José Wellington Barroso de Araújo Dias",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-de-1-de-outubro-de-2026-736097840"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 28/4/2026 (DOU 28/4/2026, Seção 2 Extra A): exonera, a pedido, José Wellington Barroso de Araújo Dias do cargo",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-28-de-abril-de-2026-702067056"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Períodos anteriores na mesma pasta (desde 2023) não foram modelados. Sem exoneração no DOU entre 5/5 e 1º/10/2026."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rel:senado-aprova-exoneracao-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Aprovação pelo Senado da exoneração do PGR",
+  "relacao": "aprova-exoneracao",
+  "de": "org:senado-federal",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "O Presidente da República só pode destituir o PGR antes do fim do mandato com autorização do Senado, por maioria absoluta e voto secreto.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "votacao": "secreta"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, XI; art. 128, § 2º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 288, III, b"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada na verificação da f0-legislativo (entregável: art. 52, XI). A iniciativa da destituição é do Presidente da República (art. 128, § 2º).",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "criada e conferida em verificacao-f0-legislativo contra CF, arts. 52, XI, e 128, § 2º, e RISF, art. 288, III, b"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "id": "rel:congresso-fiscaliza-decreto",
+  "id": "rel:congresso-susta-decreto",
   "tipo": "relacao",
   "nome": "Sustação de atos normativos do Executivo",
-  "relacao": "fiscaliza",
+  "relacao": "susta",
   "de": "org:congresso-nacional",
   "para": "obj:decreto",
   "condicao": "Pode sustar os atos normativos do Executivo que exorbitem do poder regulamentar e zela por sua competência legislativa diante da atribuição normativa dos outros Poderes.",
@@ -21,10 +21,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "O vocabulário não tem 'susta'; usamos 'fiscaliza'. Termo 'susta' proposto no relatório da tarefa. Durante o recesso, a Comissão Representativa pode deliberar sobre a sustação em caso de urgência (Resolução 3/1990-CN, art. 7º, IV, a). A sustação se faz por decreto legislativo (RICD, art. 109, II; RISF, art. 213, II). obj:decreto é id reservado à tarefa f0-executivo.",
+  "notas": "Durante o recesso, a Comissão Representativa pode deliberar sobre a sustação em caso de urgência (Resolução 3/1990-CN, art. 7º, IV, a). A sustação se faz por decreto legislativo (RICD, art. 109, II; RISF, art. 213, II). Verificação de 2026-10-20: relação 'fiscaliza' trocada por 'susta' (termo criado depois da coleta; id antigo 'congresso-fiscaliza-decreto').",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; relação 'susta'"
   }
 }

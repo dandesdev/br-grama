@@ -1,8 +1,8 @@
 {
-  "id": "rel:congresso-fiscaliza-lei-delegada",
+  "id": "rel:congresso-susta-lei-delegada",
   "tipo": "relacao",
   "nome": "Sustação de lei delegada que exceda a delegação",
-  "relacao": "fiscaliza",
+  "relacao": "susta",
   "de": "org:congresso-nacional",
   "para": "obj:lei-delegada",
   "condicao": "Pode sustar a lei delegada que exorbite dos limites da delegação legislativa.",
@@ -17,10 +17,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "O vocabulário não tem 'susta'; usamos 'fiscaliza'.",
+  "notas": "Verificação de 2026-10-20: relação 'fiscaliza' trocada por 'susta' (termo criado depois da coleta; id antigo 'congresso-fiscaliza-lei-delegada'). A sustação se faz por decreto legislativo (RICD, art. 109, II; RISF, art. 213, II).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; relação 'susta'"
   }
 }

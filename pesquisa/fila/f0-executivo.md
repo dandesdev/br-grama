@@ -43,3 +43,7 @@ Processos:
 - 2026-10-20 09:55 — gravado obj:decreto, obj:tratado-internacional
 - 2026-10-20 23:07 — gravado norma:lei-8041-1990, norma:lei-8183-1991 (brutos em pesquisa/brutos/planalto-leis/2026-10-20/, com a Lei 14.600 baixada de novo)
 - 2026-10-20 23:07 — gravado org:conselho-da-republica, org:conselho-de-defesa-nacional
+- 2026-10-20 23:09 — gravado fonte:dou-in-gov-br
+- 2026-10-20 23:09 — gravado pessoa:dario-durigan, rel:dario-durigan-ocupa-ministro-de-estado
+- 2026-10-20 23:10 — gravado fonte:camara-api-deputado-detalhe (brutos da Câmara e do Senado em pesquisa/brutos/*/2026-10-20/)
+- 2026-10-20 23:11 — gravado pessoa + rel ocupa (ministro-de-estado): andre-de-paula vladimir-lima fernanda-machiaveli marcio-elias-rosa wellington-dias janine-mello leonardo-barchini paulo-henrique-rodrigues-pereira paulo-henrique-perna-cordeiro

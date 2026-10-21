@@ -266,6 +266,7 @@
               "prazo": { "$ref": "comum.schema.json#/$defs/prazo" },
               "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
               "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "remete_a": { "type": "string", "pattern": "^proc:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Processo cujo rito esta etapa segue (ex.: a votação da lei complementar segue proc:lei-ordinaria)." },
               "seguintes": {
                 "type": "array",
                 "items": {

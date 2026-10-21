@@ -1,8 +1,8 @@
 {
-  "id": "rel:senado-fiscaliza-ministro-de-estado",
+  "id": "rel:senado-convoca-ministro-de-estado",
   "tipo": "relacao",
   "nome": "Convocação e pedidos de informação a ministros pelo Senado",
-  "relacao": "fiscaliza",
+  "relacao": "convoca",
   "de": "org:senado-federal",
   "para": "cargo:ministro-de-estado",
   "condicao": "O Plenário, a pedido de qualquer senador ou comissão, ou uma comissão pode convocar ministro para depor pessoalmente; a Mesa decide os pedidos escritos de informação. Faltar sem justificação, recusar, não responder em 30 dias ou mentir é crime de responsabilidade.",
@@ -21,10 +21,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "O art. 50 também alcança o Presidente do Comitê Gestor do IBS (EC 132/2023), não modelado. O vocabulário não tem 'convoca'; usamos 'fiscaliza'.",
+  "notas": "O art. 50 também alcança o Presidente do Comitê Gestor do IBS (EC 132/2023), não modelado. Verificação de 2026-10-20: relação 'fiscaliza' trocada por 'convoca' (termo criado depois da coleta; id antigo 'senado-fiscaliza-ministro-de-estado').",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; relação 'convoca'"
   }
 }

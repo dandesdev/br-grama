@@ -1,8 +1,8 @@
 {
-  "id": "rel:presidente-da-republica-propoe-medida-provisoria",
+  "id": "rel:presidente-da-republica-edita-medida-provisoria",
   "tipo": "relacao",
   "nome": "Edição de medida provisória",
-  "relacao": "propoe",
+  "relacao": "edita",
   "de": "cargo:presidente-da-republica",
   "para": "obj:medida-provisoria",
   "condicao": "Edita a medida, com força de lei desde a publicação, em caso de relevância e urgência, e a submete de imediato ao Congresso.",
@@ -21,10 +21,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "O vocabulário não tem um verbo para 'edita' ou 'adota'; usamos 'propõe' porque a medida é submetida ao Congresso, que decide se a converte em lei. Termo 'edita' proposto no relatório da tarefa.",
+  "notas": "Verificação de 2026-10-20: a relação era 'propoe', por falta de termo no vocabulário; passou a 'edita', criado depois da coleta, e o id mudou de 'presidente-da-republica-propoe-medida-provisoria' para rel:presidente-da-republica-edita-medida-provisoria.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; relação 'propoe' trocada por 'edita'; id renomeado"
   }
 }

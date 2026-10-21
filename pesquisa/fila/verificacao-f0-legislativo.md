@@ -1,17 +1,17 @@
 ---
 id: verificacao-f0-legislativo
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-legislativo\""
-status: em-andamento
+status: verificada
 depende_de: [f0-legislativo]
 iniciada_em: 2026-10-20
-concluida_em: null
+concluida_em: 2026-10-20
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-legislativo"` conferidas contra a fonte (processos etapa por etapa)
-- [ ] Aplicar os termos criados depois da coleta, onde couberem: `edita` (o Presidente edita MP; hoje `propoe`), `autoriza`, `susta`, `convoca` (hoje `fiscaliza`), `aprova-exoneracao` (art. 52, XI: crie a relação que faltou) e o campo `remete_a` nas etapas que hoje só citam em texto o rito da lei ordinária
-- [ ] Pontos em aberto da coleta: quem promulga resolução do Congresso Nacional; início da PEC do Presidente na Câmara (hoje `inferido`, RICD, art. 201, I); efeitos da ADI 4029 sobre a Resolução 1/2002-CN
+- [x] Todas as entidades com `"tarefa": "f0-legislativo"` conferidas contra a fonte (processos etapa por etapa)
+- [x] Aplicar os termos criados depois da coleta, onde couberem: `edita` (o Presidente edita MP; hoje `propoe`), `autoriza`, `susta`, `convoca` (hoje `fiscaliza`), `aprova-exoneracao` (art. 52, XI: crie a relação que faltou) e o campo `remete_a` nas etapas que hoje só citam em texto o rito da lei ordinária — **remete_a pendente: o campo não existe no esquema (ver diário)**
+- [x] Pontos em aberto da coleta: quem promulga resolução do Congresso Nacional; início da PEC do Presidente na Câmara (hoje `inferido`, RICD, art. 201, I); efeitos da ADI 4029 sobre a Resolução 1/2002-CN
 
 ## Diário
 - 2026-10-20 — iniciada; lidos CLAUDE.md, instruções de verificação, modelo de dados, protocolo, decisões e o diário da coleta; 97 entidades no escopo
@@ -76,3 +76,43 @@ concluida_em: null
 - 2026-10-20 23:07 — rel:tse-propoe-lei-complementar: verificado sem correção
 - 2026-10-20 23:07 — rel:tst-propoe-lei-complementar: verificado sem correção
 - 2026-10-20 23:08 — proc:lei-delegada: verificado etapa por etapa. Corrigido (ponto em aberto resolvido): a etapa 'promulgacao-da-resolucao' tinha como ator org:congresso-nacional e dizia que o RCCN não indica quem promulga; agora o ator é cargo:presidente-do-senado-federal (RCCN, art. 52, parágrafo único; CF, art. 57, § 5º)
+- 2026-10-20 23:08 — rel:presidente-da-republica-edita-medida-provisoria: corrigido: relação 'propoe' → 'edita' (termo criado depois da coleta); id renomeado de rel:presidente-da-republica-propoe-medida-provisoria para rel:presidente-da-republica-edita-medida-provisoria (arquivo antigo removido; nenhuma entidade o referenciava, só o grafo gerado em web/public)
+- 2026-10-20 23:08 — rel:presidente-do-senado-promulga-resolucao: corrigido: condição dizia só 'resoluções do Senado'; passou a incluir as do Congresso Nacional (ponto em aberto resolvido; CF, art. 57, § 5º; RCCN, art. 52, parágrafo único, e art. 122)
+- 2026-10-20 23:08 — rel:presidente-do-senado-promulga-decreto-legislativo: verificado; fontes completadas com CF, art. 57, § 5º, e RCCN, art. 52, parágrafo único
+- 2026-10-20 23:08 — rel:comissoes-mistas-deliberam-medida-provisoria: verificado sem correção
+- 2026-10-20 23:08 — rel:plenario-camara-delibera-medida-provisoria: verificado sem correção
+- 2026-10-20 23:08 — rel:plenario-senado-delibera-medida-provisoria: verificado sem correção
+- 2026-10-20 23:08 — rel:presidente-do-senado-promulga-medida-provisoria: verificado sem correção
+- 2026-10-20 23:08 — rel:congresso-nacional-delibera-lei-delegada: verificado sem correção
+- 2026-10-20 23:08 — rel:presidente-da-republica-promulga-lei-delegada: verificado sem correção
+- 2026-10-20 23:08 — rel:deputado-federal-propoe-decreto-legislativo: verificado sem correção
+- 2026-10-20 23:08 — rel:presidente-da-republica-propoe-decreto-legislativo: verificado sem correção
+- 2026-10-20 23:08 — rel:plenario-camara-delibera-decreto-legislativo: verificado sem correção
+- 2026-10-20 23:08 — rel:plenario-senado-delibera-decreto-legislativo: verificado sem correção
+- 2026-10-20 23:08 — rel:congresso-nacional-delibera-resolucao: verificado sem correção
+- 2026-10-20 23:08 — rel:plenario-camara-delibera-resolucao: verificado sem correção
+- 2026-10-20 23:08 — rel:plenario-senado-delibera-resolucao: verificado sem correção
+- 2026-10-20 23:08 — rel:presidente-da-camara-promulga-resolucao: verificado sem correção
+- 2026-10-20 23:08 — rel:presidente-da-republica-propoe-resolucao: verificado sem correção
+- 2026-10-20 23:10 — rel:camara-convoca-ministro-de-estado: corrigido: relação 'fiscaliza' → 'convoca' e id renomeado (era rel:camara-fiscaliza-ministro-de-estado); quórum estava 'maioria-simples', mas o RICD, art. 219, § 1º, exige 'maioria da respectiva composição plenária' → 'maioria-absoluta'
+- 2026-10-20 23:10 — rel:senado-convoca-ministro-de-estado: corrigido: relação 'fiscaliza' → 'convoca' e id renomeado (era rel:senado-fiscaliza-ministro-de-estado); conteúdo confere com RISF, arts. 215, I, a, 216 e 397 a 400
+- 2026-10-20 23:10 — rel:congresso-susta-decreto: corrigido: relação 'fiscaliza' → 'susta' e id renomeado (era rel:congresso-fiscaliza-decreto). Fora do escopo: obj:decreto (f0-executivo) cita o id antigo nas notas
+- 2026-10-20 23:10 — rel:congresso-susta-lei-delegada: corrigido: relação 'fiscaliza' → 'susta' e id renomeado (era rel:congresso-fiscaliza-lei-delegada)
+- 2026-10-20 23:10 — rel:congresso-autoriza-presidente-da-republica: corrigido: relação 'fiscaliza' → 'autoriza' e id renomeado (era rel:congresso-fiscaliza-presidente-da-republica); CF, arts. 49, II e III, 83 e 84, XIX, XX e XXII conferidos
+- 2026-10-20 23:10 — rel:congresso-autoriza-vice-presidente-da-republica: corrigido: relação 'fiscaliza' → 'autoriza' e id renomeado (era rel:congresso-fiscaliza-vice-presidente-da-republica)
+- 2026-10-20 23:10 — rel:senado-aprova-indicacao-procurador-geral-da-republica: verificado; notas atualizadas para apontar a nova relação de exoneração
+- 2026-10-20 23:10 — rel:senado-aprova-exoneracao-procurador-geral-da-republica: criada (entregável; CF, art. 52, XI, e art. 128, § 2º; RISF, art. 288, III, b: maioria absoluta, voto secreto) e gravada como verificada
+- 2026-10-20 23:10 — rel:congresso-delibera-intervencao-defesa-e-sitio: corrigido: a condição dizia que o Congresso 'aprova o decreto de intervenção federal (em 24 horas)'; as 24 horas são o prazo para o Presidente submeter o decreto (CF, art. 36, § 1º; art. 136, § 4º). Mantida a relação 'delibera' (alvo é obj:decreto; o 'autoriza' do estado de sítio fica na condição)
+- 2026-10-20 23:10 — rel:camara-elege-conselho-da-republica: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-elege-conselho-da-republica: verificado sem correção
+- 2026-10-20 23:10 — rel:comissao-representativa-fiscaliza-poder-executivo: verificado sem correção
+- 2026-10-20 23:10 — rel:congresso-delibera-concessao-de-radiodifusao: verificado sem correção
+- 2026-10-20 23:10 — rel:congresso-delibera-tratado-internacional: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-aprova-indicacao-ministro-do-stj: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-aprova-indicacao-ministro-do-stm: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-aprova-indicacao-ministro-do-tst: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-julga-conselheiro-do-cnj: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-julga-procurador-geral-da-republica: verificado sem correção
+- 2026-10-20 23:10 — rel:senado-suspende-execucao-lei-inconstitucional: verificado sem correção
+- 2026-10-20 23:11 — validação: nenhum erro nos arquivos desta tarefa. Restam, fora do escopo: ERRO em dados/fontes/camara-api-deputado-detalhe.json (url inválida; de outra tarefa) e aviso em obj:decreto (f0-executivo), cujas notas citam o id antigo rel:congresso-fiscaliza-decreto (agora rel:congresso-susta-decreto)
+- 2026-10-20 23:11 — verificada: 97 entidades conferidas + 1 criada (rel:senado-aprova-exoneracao-procurador-geral-da-republica). Termos aplicados: edita (MP), convoca (Câmara e Senado → ministros), susta (decreto e lei delegada), autoriza (Presidente e Vice), aprova-exoneracao (PGR); os ids mudaram junto. Pendente para o coordenador: o campo remete_a não existe em esquema/entidades.schema.json (a etapa tem additionalProperties: false), embora a mensagem do commit fce7ad7 o cite; as remissões a proc:lei-ordinaria continuam só em texto em proc:medida-provisoria (etapa envio-a-sancao) e proc:lei-complementar (iniciativa, camara-comissoes, senado-comissoes, camara/senado-aprecia-emendas, sancao-veto-e-promulgacao, publicacao-e-vigencia). Wayback continuou com erro 429: arquivo null nas 3 leis e 3 fontes da coleta

@@ -1,8 +1,8 @@
 {
-  "id": "rel:congresso-fiscaliza-vice-presidente-da-republica",
+  "id": "rel:congresso-autoriza-vice-presidente-da-republica",
   "tipo": "relacao",
   "nome": "Licença do Congresso para o Vice sair do País",
-  "relacao": "fiscaliza",
+  "relacao": "autoriza",
   "de": "org:congresso-nacional",
   "para": "cargo:vice-presidente-da-republica",
   "condicao": "O Vice-Presidente precisa de licença do Congresso para se ausentar do País por mais de 15 dias, sob pena de perda do cargo.",
@@ -17,10 +17,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Mesmo problema de vocabulário de rel:congresso-fiscaliza-presidente-da-republica ('autoriza').",
+  "notas": "Verificação de 2026-10-20: relação 'fiscaliza' trocada por 'autoriza' (termo criado depois da coleta; id antigo 'congresso-fiscaliza-vice-presidente-da-republica').",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; relação 'autoriza'"
   }
 }

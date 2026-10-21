@@ -1,8 +1,8 @@
 {
-  "id": "rel:congresso-fiscaliza-presidente-da-republica",
+  "id": "rel:congresso-autoriza-presidente-da-republica",
   "tipo": "relacao",
   "nome": "Autorizações do Congresso ao Presidente",
-  "relacao": "fiscaliza",
+  "relacao": "autoriza",
   "de": "org:congresso-nacional",
   "para": "cargo:presidente-da-republica",
   "condicao": "O Presidente depende de autorização do Congresso para declarar guerra, celebrar a paz, permitir a passagem ou a permanência de forças estrangeiras (salvo casos de lei complementar) e se ausentar do País por mais de 15 dias, sob pena de perda do cargo.",
@@ -17,10 +17,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "O vocabulário não tem 'autoriza'; usamos 'fiscaliza' (controle sobre a atuação de outro). Termo 'autoriza' proposto no relatório da tarefa. Declaração de guerra e celebração da paz podem ser referendadas depois, se ocorridas no intervalo das sessões legislativas (art. 84, XIX e XX).",
+  "notas": "Declaração de guerra e celebração da paz podem ser referendadas depois, se ocorridas no intervalo das sessões legislativas (art. 84, XIX e XX). Verificação de 2026-10-20: relação 'fiscaliza' trocada por 'autoriza' (termo criado depois da coleta; id antigo 'congresso-fiscaliza-presidente-da-republica').",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; relação 'autoriza'"
   }
 }

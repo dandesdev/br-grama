@@ -308,6 +308,7 @@ export class Painel {
       ${et.detalhes ? `<p>${esc(et.detalhes)}</p>` : ""}
       ${et.atores.length ? `<h3>Quem age</h3><ul>${et.atores.map((a) => `<li>${this.link(a)}</li>`).join("")}</ul>` : ""}
       ${et.prazo || et.quorum ? `<h3>Regras</h3><p>${[this.prazo(et.prazo), this.quorum(et.quorum)].filter(Boolean).join("<br>")}</p>` : ""}
+      ${et.remete_a ? `<p>Segue o rito de: ${this.link(et.remete_a)}</p>` : ""}
       ${efeito ? `<div class="aviso"><span class="icone" aria-hidden="true">⏱</span><div>${esc(regime!.nome)}: ${esc(efeito.prazo?.texto ?? efeito.nota ?? "")}</div></div>` : ""}
       <h3>Base legal</h3>${this.fontes(et.fontes) || "<p>—</p>"}
       ${et.seguintes.length ? `<h3>Depois</h3><ul class="seguintes">${et.seguintes

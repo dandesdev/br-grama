@@ -1,11 +1,11 @@
 {
   "id": "rel:presidente-do-senado-promulga-resolucao",
   "tipo": "relacao",
-  "nome": "Promulgação das resoluções do Senado",
+  "nome": "Promulgação das resoluções do Senado e do Congresso",
   "relacao": "promulga",
   "de": "cargo:presidente-do-senado-federal",
   "para": "obj:resolucao",
-  "condicao": "Promulga as resoluções do Senado.",
+  "condicao": "Promulga as resoluções do Senado e, como Presidente do Congresso, as resoluções do Congresso Nacional, como a de delegação legislativa (em 24 horas).",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -14,12 +14,21 @@
     {
       "ref": "norma:risf",
       "dispositivo": "art. 48, XXVIII"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 5º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 52, parágrafo único; art. 122"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-19",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; estendida às resoluções do Congresso (RCCN, art. 52, parágrafo único)"
   }
 }

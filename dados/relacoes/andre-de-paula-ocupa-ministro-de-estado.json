@@ -1,0 +1,38 @@
+{
+  "id": "rel:andre-de-paula-ocupa-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "André de Paula é Ministro de Estado da Agricultura e Pecuária",
+  "relacao": "ocupa",
+  "de": "pessoa:andre-de-paula",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Titular de Ministério da Agricultura e Pecuária (org:ministerio-da-agricultura-e-pecuaria).",
+  "vigencia": {
+    "de": "2026-03-31",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: sem exoneração no DOU entre a nomeação e essa data, e com atos assinados como ministro em torno dela."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/3/2026 (DOU 31/3/2026, ed. 61-A, Seção 2 Extra A, p. 1): exonera Carlos Fávaro e nomeia André Carlos Alves de Paula Filho",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696696186"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de acordo de cooperação (DOU 1º/10/2026, Seção 3), assinado por André Carlos Alves de Paula Filho como Ministro de Estado da Agricultura e Pecuária",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-acordo-de-cooperacao-735855210"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Lei 15.526, de 29/9/2026 (DOU 30/9/2026, Seção 1), referendada por André Carlos Alves de Paula Filho",
+      "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.526-de-29-de-setembro-de-2026-735384105"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-executivo"
+  },
+  "notas": "Antes era Ministro da Pesca e Aquicultura; foi exonerado dessa pasta no mesmo dia (Decretos de 31/3/2026, DOU 31/3/2026, Seção 2 Extra A: https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-696696429). Esta relação cobre só o período na Agricultura."
+}
