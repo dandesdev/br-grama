@@ -55,7 +55,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - `mandato`: `{ anos, vitalicio, limite, inicio, reconducao, nota }`.
 - `requisitos`: `[{ texto, fontes }]`; `fontes: []` remete às fontes do cargo.
 
-**Pessoa.** `nome` é o nome de uso; `nome_civil`, o completo. Cada período **contínuo** de exercício de um cargo é **uma** relação `ocupa`. Cada filiação tem vigência e pode ter `confianca` própria.
+**Pessoa.** `nome` é o nome de uso; `nome_civil`, o completo. Cada período **contínuo** de exercício de um cargo é **uma** relação `ocupa`. Num cargo agregado exercido em órgãos diferentes (ex.: Ministro de Estado), `orgao_exercicio` diz onde (a pasta). Cada filiação tem vigência e pode ter `confianca` própria.
 
 **Objeto.** `tipo_objeto` (ato normativo, contas, ação judicial, decisão, documento), `esfera` e `relativo_a` (de quem é: as contas do Presidente são `relativo_a: ["cargo:presidente-da-republica"]`). Relações como `sanciona`, `promulga`, `julga` (contas) e `controla-constitucionalidade` apontam para objetos.
 

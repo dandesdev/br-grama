@@ -197,6 +197,7 @@
         "ordem": { "type": "integer", "minimum": 1, "description": "Posição numa sequência de relações do mesmo tipo e alvo (ex.: linha de substituição)." },
         "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
         "condicao": { "type": "string" },
+        "orgao_exercicio": { "type": "string", "pattern": "^org:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Em relações ocupa de cargo agregado: órgão onde a pessoa exerce o cargo (ex.: a pasta do Ministro de Estado)." },
         "depende_de": { "$ref": "comum.schema.json#/$defs/ids" },
         "restrita_a": { "$ref": "comum.schema.json#/$defs/ids", "description": "Entes onde a relação vale, quando liga órgãos de arquétipo." },
         "competencia": {

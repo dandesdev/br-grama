@@ -126,16 +126,24 @@ export class Dados {
   }
 
   /** Quem ocupa o cargo na data de referência, com o partido vigente. */
-  ocupantes(cargoId: string): { pessoa: Entidade; partido?: Entidade }[] {
+  ocupantes(cargoId: string): { pessoa: Entidade; partido?: Entidade; orgao?: Entidade }[] {
     return this.relacoesChegando(cargoId)
       .filter((r) => r.relacao === "ocupa")
-      .map((r) => this.get(r.de as string))
-      .filter((p): p is Entidade => !!p)
-      .map((pessoa) => {
+      .map((r) => ({ pessoa: this.get(r.de as string), orgao: r.orgao_exercicio ? this.get(r.orgao_exercicio as string) : undefined }))
+      .filter((o): o is { pessoa: Entidade; orgao: Entidade | undefined } => !!o.pessoa)
+      .map(({ pessoa, orgao }) => {
         const filiacoes = (pessoa.filiacoes as { partido: string; vigencia: Vigencia }[] | undefined) ?? [];
         const f = filiacoes.find((x) => vigenteEm(x, this.data));
-        return { pessoa, partido: f ? this.get(f.partido) : undefined };
+        return { pessoa, partido: f ? this.get(f.partido) : undefined, orgao };
       });
+  }
+
+  /** Quem exerce um cargo agregado neste órgão (ex.: o ministro de uma pasta). */
+  titularesEm(orgaoId: string): { pessoa: Entidade; cargo: Entidade }[] {
+    return this.todas("relacao")
+      .filter((r) => r.relacao === "ocupa" && r.orgao_exercicio === orgaoId)
+      .map((r) => ({ pessoa: this.get(r.de as string), cargo: this.get(r.para as string) }))
+      .filter((t): t is { pessoa: Entidade; cargo: Entidade } => !!t.pessoa && !!t.cargo);
   }
 
   /** Avisos (lacunas e divergências das fontes) que apontam para a entidade. */

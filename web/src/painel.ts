@@ -168,7 +168,13 @@ export class Painel {
       partes.push(`<h3>${titulo} em ${formatarData(this.dados.data)}</h3>`);
       const linhaOcupante = ({ pessoa, partido }: (typeof ocup)[number]) =>
         `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`;
-      if (ocup.length <= 12) partes.push(ocup.map(linhaOcupante).join(""));
+      if (ocup.some((o) => o.orgao)) {
+        // Cargo agregado exercido em órgãos diferentes (ex.: Ministro de Estado): um titular por órgão.
+        const porOrgao = [...ocup].sort((x, y) => (x.orgao?.nome ?? "~").localeCompare(y.orgao?.nome ?? "~", "pt-BR"));
+        partes.push(`<table class="titulares">${porOrgao
+          .map((o) => `<tr><th scope="row">${o.orgao ? this.link(o.orgao.id) : "—"}</th><td>${linhaOcupante(o)}</td></tr>`)
+          .join("")}</table>`);
+      } else if (ocup.length <= 12) partes.push(ocup.map(linhaOcupante).join(""));
       else {
         // Muitos ocupantes (ex.: 513 deputados): composição por partido e a lista recolhida.
         const porPartido = new Map<string, number>();
@@ -215,6 +221,12 @@ export class Painel {
       ${e.contido_em ? `<dt>Parte de</dt><dd>${this.link(e.contido_em as string)}</dd>` : ""}
     </dl>`];
     const cargos = this.dados.todas("cargo").filter((c) => c.orgao === e.id);
+    const titulares = this.dados.titularesEm(e.id);
+    if (titulares.length) {
+      partes.push(`<h3>Titular em ${formatarData(this.dados.data)}</h3>${titulares
+        .map((t) => `<div class="ocupante">${this.link(t.pessoa.id)} <span class="dispositivo">${esc(t.cargo.nome)}</span></div>`)
+        .join("")}`);
+    }
     if (cargos.length) partes.push(`<h3>Cargos</h3><ul>${cargos.map((c) => `<li>${this.link(c.id)}</li>`).join("")}</ul>`);
     if (e.estrutura_continua) partes.push(`<h3>A estrutura continua</h3>${this.fontes(e.estrutura_continua as FonteRef[])}`);
     return partes.join("");

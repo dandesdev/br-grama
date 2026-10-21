@@ -277,3 +277,7 @@ main { flex: 1; display: flex; min-height: 0; }
 .competencia { display: inline-block; margin: 2px 4px 2px 0; padding: 1px 8px; border-radius: 999px; border: 1.5px solid var(--tinta-3); white-space: nowrap; }
 .competencia.legislativa { border-style: solid; }
 .competencia.material { border-style: dashed; }
+.titulares { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 13px; }
+.titulares th { text-align: left; font-weight: 400; padding: 2px 8px 2px 0; vertical-align: top; }
+.titulares td { padding: 2px 0; }
+.titulares .ocupante { margin: 0; }
