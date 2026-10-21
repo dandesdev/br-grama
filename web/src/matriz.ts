@@ -28,9 +28,12 @@ function chaveDispositivo(rels: Entidade[]): [number, number] {
   let melhor: [number, number] = [999, 999];
   for (const r of rels) {
     for (const f of r.fontes ?? []) {
-      const m = String(f.dispositivo ?? "").match(/art\.\s*(\d+)(?:[^,]*,\s*([IVXLC]+))?/);
+      // Depois do artigo: inciso romano ("XI"), parágrafo ("§ 2º") ou "parágrafo único".
+      // Parágrafos vêm depois de todos os incisos, como na CF.
+      const m = String(f.dispositivo ?? "").match(/art\.\s*(\d+)[^,]*(?:,\s*(?:([IVXLC]+)\b|§\s*(\d+)|(par[aá]grafo [uú]nico)))?/i);
       if (m) {
-        const k: [number, number] = [Number(m[1]), m[2] ? romano(m[2]) : 0];
+        const sub = m[2] ? romano(m[2]) : m[3] ? 900 + Number(m[3]) : m[4] ? 900 : 0;
+        const k: [number, number] = [Number(m[1]), sub];
         if (k[0] < melhor[0] || (k[0] === melhor[0] && k[1] < melhor[1])) melhor = k;
       }
     }
