@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-do-senado-integra-conselho-da-republica",
+  "tipo": "relacao",
+  "nome": "O Presidente do Senado é membro do Conselho da República",
+  "relacao": "integra",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "org:conselho-da-republica",
+  "condicao": "Membro nato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 89, III"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 3º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

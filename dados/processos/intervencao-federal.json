@@ -1,0 +1,272 @@
+{
+  "id": "proc:intervencao-federal",
+  "tipo": "processo",
+  "nome": "Intervenção federal",
+  "resumo": "A União assume temporariamente funções de um estado ou do DF nos casos taxativos do art. 34, por decreto do Presidente submetido ao Congresso.",
+  "detalhes": "A regra é a autonomia dos estados; a intervenção é exceção. Conforme o caso, o Presidente age por conta própria, a pedido de um Poder estadual coagido, por requisição de tribunal ou depois de o STF acolher representação do PGR. O decreto vai ao Congresso em 24 horas, salvo quando só suspende o ato impugnado.",
+  "forma": "linha",
+  "produz": "obj:decreto",
+  "etapas": [
+    {
+      "id": "hipotese",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente identifica uma das hipóteses do art. 34 que permitem a intervenção num estado ou no DF",
+      "detalhes": "A União só intervém nos estados e no DF nos casos taxativos do art. 34. Nos incisos I, II, III e V o Presidente age por iniciativa própria; nos demais, a Constituição exige pedido de um Poder estadual, requisição de tribunal ou decisão do STF (art. 36).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 34; art. 36"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "consulta-conselhos",
+          "quando": "Integridade nacional, invasão, grave comprometimento da ordem pública ou finanças do estado (art. 34, I, II, III e V)"
+        },
+        {
+          "para": "solicitacao-ou-requisicao",
+          "quando": "Coação a um Poder estadual (art. 34, IV) ou desobediência a ordem ou decisão judicial (art. 34, VI)"
+        },
+        {
+          "para": "representacao-do-pgr",
+          "quando": "Violação dos princípios do art. 34, VII, ou recusa à execução de lei federal"
+        }
+      ]
+    },
+    {
+      "id": "solicitacao-ou-requisicao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:stf",
+        "org:stj",
+        "org:tse"
+      ],
+      "acao": "O Poder estadual coagido solicita a intervenção, ou o STF, o STJ ou o TSE a requisita",
+      "detalhes": "Coação contra o Legislativo ou o Executivo estadual: solicitação do Poder coagido ou impedido. Coação contra o Judiciário estadual: requisição do STF. Desobediência a ordem ou decisão judicial: requisição do STF, do STJ ou do TSE.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, I e II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "consulta-conselhos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "representacao-do-pgr",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O Procurador-Geral da República propõe ao STF representação pela intervenção",
+      "detalhes": "É a representação interventiva, para assegurar os princípios do art. 34, VII (forma republicana, direitos da pessoa humana, autonomia municipal, prestação de contas, aplicação mínima em educação e saúde) ou a execução de lei federal.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "stf-julga-representacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "stf-julga-representacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF julga a representação do Procurador-Geral",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "consulta-conselhos",
+          "quando": "Representação provida"
+        },
+        {
+          "para": "fim-sem-intervencao",
+          "quando": "Representação negada"
+        }
+      ]
+    },
+    {
+      "id": "consulta-conselhos",
+      "atores": [
+        "org:conselho-da-republica",
+        "org:conselho-de-defesa-nacional"
+      ],
+      "acao": "O Conselho da República e o Conselho de Defesa Nacional opinam sobre a intervenção",
+      "detalhes": "Os dois conselhos têm competência para se pronunciar sobre a intervenção, e o parecer não vincula o Presidente. Ao contrário dos arts. 136 e 137 (estado de defesa e de sítio), a CF não diz expressamente que eles devem ser ouvidos antes do decreto.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 90, I; art. 91, § 1º, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decreto",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente decreta a intervenção, com amplitude, prazo, condições e, se couber, o interventor",
+      "detalhes": "Quando a intervenção é para executar lei federal, ordem ou decisão judicial ou garantir os princípios do art. 34, VII, o decreto pode limitar-se a suspender o ato impugnado, se isso bastar; nesse caso dispensa a apreciação do Congresso (art. 36, § 3º). Enquanto durar a intervenção, a Constituição não pode ser emendada (art. 60, § 1º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, X; art. 36, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "submissao-ao-congresso",
+          "quando": "Regra geral"
+        },
+        {
+          "para": "execucao",
+          "quando": "Execução de lei federal, ordem judicial ou princípios do art. 34, VII, quando basta suspender o ato impugnado"
+        }
+      ]
+    },
+    {
+      "id": "submissao-ao-congresso",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O decreto é submetido ao Congresso Nacional em 24 horas",
+      "detalhes": "Se o Congresso estiver em recesso, o Presidente do Senado o convoca extraordinariamente (art. 57, § 6º, I).",
+      "prazo": {
+        "texto": "24 horas para submeter o decreto; se o Congresso não estiver funcionando, convocação extraordinária no mesmo prazo de 24 horas",
+        "valor": 24,
+        "unidade": "horas",
+        "conta_de": "decretação da intervenção"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, §§ 1º e 2º; art. 57, § 6º, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "congresso-aprecia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "congresso-aprecia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso Nacional aprova ou rejeita a intervenção",
+      "detalhes": "É competência exclusiva do Congresso aprovar a intervenção federal ou suspendê-la a qualquer tempo (art. 49, IV).",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "A CF não fixa quórum especial para aprovar a intervenção, ao contrário do estado de defesa e de sítio (maioria absoluta)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, IV; art. 36, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": "Intervenção aprovada"
+        },
+        {
+          "para": "cessacao",
+          "quando": "Intervenção rejeitada ou suspensa"
+        }
+      ]
+    },
+    {
+      "id": "execucao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "A intervenção é executada nos termos do decreto, pelo interventor quando houver",
+      "detalhes": "Cabe ao Presidente decretar e executar a intervenção. O Congresso pode suspendê-la a qualquer momento (art. 49, IV).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, X"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "cessacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "cessacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Cessados os motivos, as autoridades afastadas voltam aos cargos, salvo impedimento legal",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, § 4º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "fim-sem-intervencao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Sem provimento da representação, não há intervenção",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, III"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 34 a 36; art. 49, IV; art. 84, X; art. 90, I; art. 91, § 1º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Modela só a intervenção da União nos estados e no DF. A intervenção dos estados nos municípios (art. 35) tem rito próprio, com apreciação da Assembleia Legislativa e representação ao Tribunal de Justiça, e não foi modelada. O decreto legislativo que aprova a intervenção não tem processo próprio no mapa (ainda não há processo de decreto legislativo modelado), por isso a etapa congresso-aprecia não usa 'remete_a'. Os atores de solicitacao-ou-requisicao usam a Assembleia Legislativa do arquétipo estadual como representante do Poder estadual coagido; o Executivo estadual (Governador) não tem órgão de arquétipo modelado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Nomeação do Procurador-Geral da República",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Entre integrantes da carreira com mais de 35 anos, depois da aprovação do Senado por maioria absoluta, para mandato de dois anos, permitida a recondução.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-procurador-geral-da-republica"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV; art. 128, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

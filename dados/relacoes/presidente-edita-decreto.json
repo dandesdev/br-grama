@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-edita-decreto",
+  "tipo": "relacao",
+  "nome": "O Presidente edita decretos",
+  "relacao": "edita",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:decreto",
+  "condicao": "Decretos e regulamentos para a fiel execução das leis; decretos autônomos sobre organização da administração federal (sem aumento de despesa nem criação ou extinção de órgãos) e extinção de cargos vagos; e os decretos de intervenção federal, estado de defesa e estado de sítio.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, IV, VI, IX e X"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A atribuição do inciso VI pode ser delegada aos Ministros, ao PGR ou ao AGU (art. 84, parágrafo único). O Ministro da área referenda os decretos (art. 87, parágrafo único, I).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

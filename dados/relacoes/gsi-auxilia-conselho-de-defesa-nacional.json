@@ -1,0 +1,25 @@
+{
+  "id": "rel:gsi-auxilia-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "O GSI é a Secretaria-Executiva do Conselho de Defesa Nacional",
+  "relacao": "auxilia",
+  "de": "org:gabinete-de-seguranca-institucional",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "Executa as atividades permanentes necessárias ao exercício da competência do Conselho.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "art. 2º, § 3º; art. 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

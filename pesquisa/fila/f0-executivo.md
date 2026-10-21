@@ -1,27 +1,27 @@
 ---
 id: f0-executivo
 escopo: "Fatia 0: o Poder Executivo federal no nível da CF e da lei de organização dos ministérios, com ocupantes em 2026-10-01"
-status: em-andamento
+status: coletada
 depende_de: []
 iniciada_em: 2026-10-17
-concluida_em: null
+concluida_em: 2026-10-21
 ---
 
 ## Entregáveis
 
 Estrutura:
-- [ ] Os ministérios e os órgãos da Presidência com status de ministério, conforme a Lei 14.600/2023 e alterações vigentes em 2026-10-01 (32 + 6, conferidos no piloto). Cada um é um `org:` com `contido_em: org:poder-executivo-federal` (ou a Presidência, quando a lei disser) e um link para a estrutura regimental (decreto) em `estrutura_continua`. Ids: `org:casa-civil`, `org:ministerio-da-fazenda` etc.
-- [ ] Ocupante de cada ministério em 2026-10-01: `pessoa:` + relação `ocupa` para `cargo:ministro-de-estado`, com a pasta indicada na relação (`condicao` ou `notas`). Atenção: em abril de 2026 muitos ministros saíram para disputar a eleição (desincompatibilização). Confira no DOU e no Planalto quem estava no cargo em 2026-10-01, inclusive interinos. Use `nome_civil` e filiação partidária (só partido).
-- [ ] Conselho da República (arts. 89 e 90) e Conselho de Defesa Nacional (art. 91): `org:` tipo `colegiado`, composição como relações `integra` dos cargos membros, competências como relações.
+- [x] Os ministérios e os órgãos da Presidência com status de ministério, conforme a Lei 14.600/2023 e alterações vigentes em 2026-10-01 (32 + 6, conferidos no piloto). Cada um é um `org:` com `contido_em: org:poder-executivo-federal` (ou a Presidência, quando a lei disser) e um link para a estrutura regimental (decreto) em `estrutura_continua`. Ids: `org:casa-civil`, `org:ministerio-da-fazenda` etc.
+- [x] Ocupante de cada ministério em 2026-10-01: `pessoa:` + relação `ocupa` para `cargo:ministro-de-estado`, com a pasta indicada na relação (`condicao` ou `notas`). Atenção: em abril de 2026 muitos ministros saíram para disputar a eleição (desincompatibilização). Confira no DOU e no Planalto quem estava no cargo em 2026-10-01, inclusive interinos. Use `nome_civil` e filiação partidária (só partido).
+- [x] Conselho da República (arts. 89 e 90) e Conselho de Defesa Nacional (art. 91): `org:` tipo `colegiado`, composição como relações `integra` dos cargos membros, competências como relações.
 
 Competências do Presidente (art. 84) que ainda não estão no mapa:
-- [ ] `obj:decreto` (decreto regulamentar e decreto autônomo do art. 84, VI) e a relação `regulamenta`
-- [ ] Relações com objetos ou cargos para os incisos relevantes: celebrar tratados (sujeitos ao Congresso), exercer o comando supremo das Forças Armadas, decretar intervenção, estado de defesa e de sítio, conceder indulto, nomear (as nomeações ainda não modeladas: TCU já está; nomear PGR, presidente e diretores do Banco Central, ministros de tribunais superiores e juízes de TRF), prover cargos públicos. Pode citar `org:banco-central`, `org:forcas-armadas`, `obj:tratado-internacional` e `obj:indulto`; crie os objetos e os órgãos mínimos de que precisar (ver ids reservados abaixo)
+- [x] `obj:decreto` (decreto regulamentar e decreto autônomo do art. 84, VI) e a relação `regulamenta`
+- [x] Relações com objetos ou cargos para os incisos relevantes: celebrar tratados (sujeitos ao Congresso), exercer o comando supremo das Forças Armadas, decretar intervenção, estado de defesa e de sítio, conceder indulto, nomear (as nomeações ainda não modeladas: TCU já está; nomear PGR, presidente e diretores do Banco Central, ministros de tribunais superiores e juízes de TRF), prover cargos públicos. Pode citar `org:banco-central`, `org:forcas-armadas`, `obj:tratado-internacional` e `obj:indulto`; crie os objetos e os órgãos mínimos de que precisar (ver ids reservados abaixo)
 
 Processos:
-- [ ] `proc:intervencao-federal` (arts. 34 a 36)
-- [ ] `proc:estado-de-defesa` (art. 136)
-- [ ] `proc:estado-de-sitio` (arts. 137 a 139)
+- [x] `proc:intervencao-federal` (arts. 34 a 36)
+- [x] `proc:estado-de-defesa` (art. 136)
+- [x] `proc:estado-de-sitio` (arts. 137 a 139)
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -52,3 +52,11 @@ Processos:
 - 2026-10-20 23:17 — gravado norma:lc-179-2021, aviso:govbr-lista-ministerios-inclui-banco-central (contradição confirmada na página baixada), org:banco-central
 - 2026-10-20 23:18 — gravado norma:lc-97-1999, org:forcas-armadas
 - 2026-10-20 23:18 — gravado obj:indulto
+- 2026-10-21 07:31 — gravado relações dos Conselhos: presidente-preside-conselho-da-republica, presidente-preside-conselho-de-defesa-nacional, conselho-da-republica-assessora-presidente, conselho-de-defesa-nacional-assessora-presidente, presidente-nomeia-conselho-da-republica, {vice-presidente,presidente-da-camara,presidente-do-senado,ministro-de-estado}-integra-{conselho-da-republica,conselho-de-defesa-nacional}, secretaria-geral-auxilia-conselho-da-republica, gsi-auxilia-conselho-de-defesa-nacional
+- 2026-10-21 07:31 — gravado relações do art. 84: presidente-edita-decreto, presidente-regulamenta-lei-ordinaria, presidente-regulamenta-lei-complementar, presidente-propoe-tratado-internacional, forcas-armadas-subordinam-se-presidente, presidente-edita-indulto, presidente-nomeia-{ministro-do-stj,ministro-do-tst,ministro-do-stm,juiz-de-trf,procurador-geral-da-republica,diretoria-banco-central,cargos-publicos-federais}, presidente-exonera-procurador-geral-da-republica, senado-aprova-indicacao-diretoria-banco-central
+- 2026-10-21 07:33 — gravado proc:intervencao-federal
+- 2026-10-21 07:34 — gravado proc:estado-de-defesa, proc:estado-de-sitio
+- 2026-10-21 00:20 — ajuste: 'condicao' e nota de vigência das 38 relações ocupa reescritas (texto mais preciso); validação sem erros
+- 2026-10-21 00:25 — achado para outra tarefa: o Decreto 13.131, de 30/9/2026 (DOU 1º/10/2026), altera o Decreto 11.348/2023 (estrutura regimental do MJSP); a estrutura_continua do org:ministerio-da-justica-e-seguranca-publica segue válida, mas a revisão deve conferir
+- 2026-10-21 00:25 — não usado 'remete_a' nos três processos: não existe processo de decreto legislativo modelado
+- 2026-10-21 00:30 — concluída (coletada)

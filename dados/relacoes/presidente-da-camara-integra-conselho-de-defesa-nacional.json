@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-da-camara-integra-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "O Presidente da Câmara é membro do Conselho de Defesa Nacional",
+  "relacao": "integra",
+  "de": "cargo:presidente-da-camara-dos-deputados",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "Membro nato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 91, II"
+    },
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

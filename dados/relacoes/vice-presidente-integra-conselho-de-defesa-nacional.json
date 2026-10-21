@@ -1,0 +1,29 @@
+{
+  "id": "rel:vice-presidente-integra-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "O Vice-Presidente é membro do Conselho de Defesa Nacional",
+  "relacao": "integra",
+  "de": "cargo:vice-presidente-da-republica",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "Membro nato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 91, I"
+    },
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "art. 2º, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

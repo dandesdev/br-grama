@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-ministro-do-tst",
+  "tipo": "relacao",
+  "nome": "Nomeação de ministro do TST",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-tst",
+  "condicao": "Depois da aprovação do Senado por maioria absoluta. Um quinto vem de advogados e membros do Ministério Público do Trabalho (art. 94); os demais, de juízes de TRT da carreira, indicados pelo próprio TST.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-ministro-do-tst"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV; art. 111-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

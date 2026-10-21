@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-ministro-do-stj",
+  "tipo": "relacao",
+  "nome": "Nomeação de ministro do STJ",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-stj",
+  "condicao": "Depois da aprovação do Senado por maioria absoluta. Um terço vem de lista tríplice de juízes dos TRFs e um terço de lista tríplice de desembargadores dos TJs, feitas pelo STJ; um terço, de advogados e membros do Ministério Público, alternadamente, na forma do art. 94.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-ministro-do-stj"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV; art. 104, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

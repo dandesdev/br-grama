@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-propoe-tratado-internacional",
+  "tipo": "relacao",
+  "nome": "O Presidente celebra tratados e os submete ao Congresso",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:tratado-internacional",
+  "condicao": "Celebra tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional, a quem os envia.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, VIII; art. 49, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O vocabulário não tem 'celebra'; usamos 'propoe' porque, depois de assinar, o Presidente submete o tratado ao Congresso (rel:congresso-delibera-tratado-internacional). Termo 'celebra' proposto no relatório da tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

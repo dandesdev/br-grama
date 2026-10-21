@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-nomeia-juiz-de-trf",
+  "tipo": "relacao",
+  "nome": "Nomeação de juiz de TRF",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:juiz-de-trf",
+  "condicao": "Um quinto vem de advogados e membros do MPF: o TRF forma lista tríplice a partir da lista sêxtupla da classe, e o Presidente escolhe em 20 dias. Os demais vêm da promoção de juízes federais com mais de cinco anos de exercício, por antiguidade e merecimento, alternadamente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVI; art. 107; art. 94"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Sem aprovação do Senado. Não conferimos se a lei dá forma própria à nomeação nos casos de promoção.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

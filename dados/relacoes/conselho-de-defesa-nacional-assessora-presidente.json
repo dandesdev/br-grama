@@ -1,0 +1,29 @@
+{
+  "id": "rel:conselho-de-defesa-nacional-assessora-presidente",
+  "tipo": "relacao",
+  "nome": "O Conselho de Defesa Nacional aconselha o Presidente",
+  "relacao": "assessora",
+  "de": "org:conselho-de-defesa-nacional",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Opina sobre declaração de guerra e celebração da paz, sobre estado de defesa, estado de sítio e intervenção federal e sobre o uso de áreas indispensáveis à segurança do território, como a faixa de fronteira.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 91, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

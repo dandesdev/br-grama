@@ -1,0 +1,30 @@
+{
+  "id": "rel:conselho-da-republica-assessora-presidente",
+  "tipo": "relacao",
+  "nome": "O Conselho da República aconselha o Presidente",
+  "relacao": "assessora",
+  "de": "org:conselho-da-republica",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Pronuncia-se sobre intervenção federal, estado de defesa e estado de sítio e sobre questões relevantes para a estabilidade das instituições democráticas. O parecer não vincula o Presidente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 89, caput; art. 90"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "'O parecer não vincula' é leitura nossa: a CF chama o Conselho de órgão de consulta e não dá efeito obrigatório à manifestação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

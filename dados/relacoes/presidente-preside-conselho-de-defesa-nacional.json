@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-preside-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "O Presidente da República preside o Conselho de Defesa Nacional",
+  "relacao": "preside",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "Convoca as reuniões e as preside; pode também ouvir os membros separadamente, sem reunião.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVIII"
+    },
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

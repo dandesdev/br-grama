@@ -1,0 +1,29 @@
+{
+  "id": "rel:forcas-armadas-subordinam-se-presidente",
+  "tipo": "relacao",
+  "nome": "As Forças Armadas estão sob a autoridade suprema do Presidente",
+  "relacao": "subordina-se",
+  "de": "org:forcas-armadas",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "O Presidente exerce o comando supremo das Forças Armadas, nomeia os Comandantes da Marinha, do Exército e da Aeronáutica e promove os oficiais-generais.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIII; art. 142"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 1º, 2º e 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

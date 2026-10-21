@@ -1,0 +1,33 @@
+{
+  "id": "rel:presidente-nomeia-diretoria-banco-central",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia o presidente e os diretores do Banco Central",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:banco-central",
+  "condicao": "Indica e nomeia os nove membros da Diretoria Colegiada, inclusive o presidente do Banco Central, depois da aprovação do Senado, para mandatos de quatro anos, com uma recondução. Só pode exonerá-los nos casos da LC 179/2021 (a pedido, doença incapacitante, condenação ou desempenho insuficiente, este com aprovação do Senado por maioria absoluta).",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-diretoria-banco-central"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 3º, 4º e 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O alvo é o órgão porque não há cargo modelado para presidente e diretores do Banco Central.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

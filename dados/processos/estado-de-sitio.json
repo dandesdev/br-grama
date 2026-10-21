@@ -1,0 +1,224 @@
+{
+  "id": "proc:estado-de-sitio",
+  "tipo": "processo",
+  "nome": "Estado de sítio",
+  "resumo": "Medida de exceção mais grave que o estado de defesa: exige autorização prévia do Congresso e pode suspender garantias constitucionais.",
+  "detalhes": "Cabe em comoção grave de repercussão nacional, se o estado de defesa falhou, ou em guerra e agressão armada estrangeira. O Presidente ouve os dois conselhos, pede autorização ao Congresso, que decide por maioria absoluta, e então decreta.",
+  "forma": "linha",
+  "produz": "obj:decreto",
+  "etapas": [
+    {
+      "id": "consulta-conselhos",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:conselho-da-republica",
+        "org:conselho-de-defesa-nacional"
+      ],
+      "acao": "O Presidente ouve o Conselho da República e o Conselho de Defesa Nacional",
+      "detalhes": "A consulta é obrigatória ('ouvidos'), mas o parecer não vincula o Presidente. Cabe o estado de sítio em comoção grave de repercussão nacional, quando o estado de defesa se mostrou ineficaz, ou em declaração de guerra ou resposta a agressão armada estrangeira.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 137, caput; art. 90, I; art. 91, § 1º, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "solicitacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "solicitacao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente pede ao Congresso autorização para decretar o estado de sítio, expondo os motivos",
+      "detalhes": "Ao contrário do estado de defesa, o estado de sítio depende de autorização prévia do Congresso.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 137, parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "congresso-decide",
+          "quando": "Congresso em funcionamento"
+        },
+        {
+          "para": "convocacao-extraordinaria",
+          "quando": "Pedido feito durante o recesso"
+        }
+      ]
+    },
+    {
+      "id": "convocacao-extraordinaria",
+      "atores": [
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente do Senado convoca o Congresso para se reunir em até 5 dias",
+      "prazo": {
+        "texto": "Convocação imediata, para reunião em até 5 dias",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "pedido de autorização"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 138, § 2º; art. 57, § 6º, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "congresso-decide",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "congresso-decide",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso Nacional autoriza ou nega o estado de sítio",
+      "quorum": {
+        "regra": "maioria-absoluta"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, IV; art. 137, parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto",
+          "quando": "Autorização concedida"
+        },
+        {
+          "para": "fim-sem-sitio",
+          "quando": "Autorização negada"
+        }
+      ]
+    },
+    {
+      "id": "decreto",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente decreta o estado de sítio e depois designa o executor e as áreas abrangidas",
+      "detalhes": "O decreto indica a duração, as normas de execução e as garantias constitucionais suspensas.",
+      "prazo": {
+        "texto": "Comoção grave ou ineficácia do estado de defesa: até 30 dias, com prorrogações de até 30 dias cada. Guerra ou agressão estrangeira: enquanto durarem",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "decretação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, IX; art. 138, caput e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "execucao",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-do-congresso-nacional"
+      ],
+      "acao": "As medidas são executadas; o Congresso segue funcionando e uma comissão as fiscaliza",
+      "detalhes": "No caso de comoção grave, só se admitem contra as pessoas: obrigação de permanecer em local determinado, detenção fora de presídio comum, restrições à correspondência, às comunicações e à imprensa na forma da lei, suspensão da liberdade de reunião, busca e apreensão em domicílio, intervenção em empresas de serviços públicos e requisição de bens (art. 139). Uma comissão de cinco parlamentares, designada pela Mesa do Congresso depois de ouvidos os líderes partidários, acompanha e fiscaliza a execução das medidas (art. 140). O Congresso pode suspender a medida a qualquer tempo (art. 49, IV). Enquanto ela durar, a Constituição não pode ser emendada (art. 60, § 1º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 138, § 3º; art. 139; art. 140; art. 49, IV; art. 60, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "solicitacao",
+          "quando": "Prorrogação (caso de comoção grave): novo pedido de autorização"
+        },
+        {
+          "para": "relatorio-final",
+          "quando": "Fim do prazo, fim da guerra ou suspensão pelo Congresso"
+        }
+      ]
+    },
+    {
+      "id": "relatorio-final",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "Cessada a medida, o Presidente relata ao Congresso as providências e os atingidos",
+      "detalhes": "A mensagem especifica e justifica as providências, com relação nominal dos atingidos e as restrições aplicadas. Os efeitos cessam com a medida, mas os executores respondem pelos ilícitos que cometeram.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 141"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O estado de sítio termina",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 141"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "fim-sem-sitio",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Sem autorização do Congresso, não há estado de sítio",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, IV; art. 137"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 137 a 141; art. 49, IV; art. 84, IX; art. 60, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "No caso de guerra ou agressão estrangeira (art. 137, II), o art. 139 não limita as medidas contra as pessoas; a CF só lista as medidas admitidas no caso do inciso I. As prorrogações no caso de comoção grave também dependem de autorização (art. 137, parágrafo único). Os processos de decreto legislativo não estão modelados, por isso a decisão do Congresso não usa 'remete_a'. A Mesa do Congresso aparece como ator da execução porque designa a comissão fiscalizadora (art. 140); a comissão em si não foi modelada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

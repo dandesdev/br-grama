@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-ministro-do-stm",
+  "tipo": "relacao",
+  "nome": "Nomeação de ministro do STM",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ministro-do-stm",
+  "condicao": "Depois da aprovação do Senado. Dez são oficiais-generais da ativa (três da Marinha, quatro do Exército, três da Aeronáutica) e cinco são civis escolhidos pelo Presidente (três advogados; dois, por escolha paritária, entre juízes auditores e membros do Ministério Público Militar).",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-ministro-do-stm"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV; art. 123"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

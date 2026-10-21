@@ -1,0 +1,30 @@
+{
+  "id": "rel:ministro-de-estado-integra-conselho-da-republica",
+  "tipo": "relacao",
+  "nome": "O Ministro da Justiça é membro do Conselho da República",
+  "relacao": "integra",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conselho-da-republica",
+  "condicao": "Só o Ministro da Justiça (hoje, Ministro da Justiça e Segurança Pública) é membro. Outro Ministro pode ser convocado para uma reunião quando a pauta tocar o seu ministério, sem direito a voto.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 89, VI; art. 90, § 1º"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 3º, VI; art. 5º, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF diz 'Ministro da Justiça'; a pasta hoje se chama Ministério da Justiça e Segurança Pública (Lei 14.600/2023, art. 17). A correspondência é leitura nossa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

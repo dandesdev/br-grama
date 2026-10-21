@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-edita-indulto",
+  "tipo": "relacao",
+  "nome": "O Presidente concede indulto e comuta penas",
+  "relacao": "edita",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:indulto",
+  "condicao": "Pode ouvir antes, se necessário, os órgãos instituídos em lei; pode delegar aos Ministros, ao PGR ou ao AGU.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XII e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

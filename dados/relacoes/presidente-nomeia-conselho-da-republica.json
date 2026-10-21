@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-nomeia-conselho-da-republica",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia dois membros do Conselho da República",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conselho-da-republica",
+  "condicao": "Nomeia dois dos seis cidadãos brasileiros natos com mais de 35 anos, com mandato de três anos, vedada a recondução; os outros quatro são eleitos pela Câmara e pelo Senado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVII; art. 89, VII"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 3º, VII, a"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O alvo é o órgão porque não há cargo modelado para os membros cidadãos (mesmo critério de rel:camara-elege-conselho-da-republica e rel:senado-elege-conselho-da-republica).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

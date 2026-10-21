@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-nomeia-cargos-publicos-federais",
+  "tipo": "relacao",
+  "nome": "O Presidente provê os cargos públicos federais",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Provê e extingue os cargos públicos federais, na forma da lei; pode delegar o provimento aos Ministros, ao PGR ou ao AGU.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XXV e parágrafo único"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "Não há objeto nem cargo genérico para 'cargos públicos federais'; usamos o Poder Executivo federal como alvo aproximado. A competência em si tem fonte oficial; a escolha do alvo é nossa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

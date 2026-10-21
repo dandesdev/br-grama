@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-integra-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "Quatro Ministros de Estado são membros do Conselho de Defesa Nacional",
+  "relacao": "integra",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "Membros natos: os Ministros da Justiça, da Defesa, das Relações Exteriores e do Planejamento.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 91, IV a VII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O art. 2º da Lei 8.183/1991 ainda traz a composição anterior à EC 23/1999 (Ministros militares e Ministro da Economia, Fazenda e Planejamento); seguimos a CF. 'Ministro do Planejamento' corresponde hoje ao Ministro do Planejamento e Orçamento (leitura nossa). Os Comandantes da Marinha, do Exército e da Aeronáutica (art. 91, VIII) não têm cargo modelado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-preside-conselho-da-republica",
+  "tipo": "relacao",
+  "nome": "O Presidente da República preside o Conselho da República",
+  "relacao": "preside",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conselho-da-republica",
+  "condicao": "Convoca as reuniões e as preside; o Conselho só se reúne por convocação dele.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVIII"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "arts. 3º e 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

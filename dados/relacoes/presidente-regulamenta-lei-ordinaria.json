@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-regulamenta-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "O Presidente regulamenta leis ordinárias",
+  "relacao": "regulamenta",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:lei-ordinaria",
+  "condicao": "Por decreto, para a fiel execução da lei, sem inovar nem ir além dela; o Congresso pode sustar o que exorbitar do poder regulamentar.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, IV; art. 49, V"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O instrumento é obj:decreto (rel:presidente-edita-decreto); a sustação está em rel:congresso-susta-decreto.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

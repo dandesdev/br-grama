@@ -1,0 +1,30 @@
+{
+  "id": "rel:senado-aprova-indicacao-diretoria-banco-central",
+  "tipo": "relacao",
+  "nome": "O Senado aprova os indicados para o Banco Central",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "org:banco-central",
+  "condicao": "Aprova previamente, por voto secreto e após arguição pública, a escolha do presidente e dos diretores do Banco Central.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, d"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada nesta tarefa porque a nomeação do Banco Central dependia dela e não havia relação do Senado. O alvo é o órgão porque não há cargo modelado para presidente e diretores.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

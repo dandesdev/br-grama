@@ -1,0 +1,220 @@
+{
+  "id": "proc:estado-de-defesa",
+  "tipo": "processo",
+  "nome": "Estado de defesa",
+  "resumo": "Medida de exceção, por até 30 dias prorrogáveis uma vez, em locais determinados, para enfrentar grave instabilidade institucional ou grande calamidade natural.",
+  "detalhes": "O Presidente ouve os dois conselhos, decreta e só depois submete o decreto ao Congresso, que decide em 10 dias por maioria absoluta; se rejeitar, a medida cessa na hora. Permite restringir reunião e sigilo de correspondência e de comunicações.",
+  "forma": "linha",
+  "produz": "obj:decreto",
+  "etapas": [
+    {
+      "id": "consulta-conselhos",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:conselho-da-republica",
+        "org:conselho-de-defesa-nacional"
+      ],
+      "acao": "O Presidente ouve o Conselho da República e o Conselho de Defesa Nacional",
+      "detalhes": "A consulta é obrigatória ('ouvidos'), mas o parecer não vincula o Presidente. O estado de defesa serve para preservar ou restabelecer, em locais restritos e determinados, a ordem pública ou a paz social ameaçadas por grave instabilidade institucional ou atingidas por grandes calamidades naturais.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 136, caput; art. 90, I; art. 91, § 1º, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decreto",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente decreta o estado de defesa, com duração, áreas abrangidas e medidas coercitivas",
+      "detalhes": "As medidas possíveis são restrições aos direitos de reunião, ao sigilo de correspondência e ao sigilo de comunicação telegráfica e telefônica e, em calamidade pública, a ocupação e o uso temporário de bens e serviços públicos, com a União respondendo pelos danos.",
+      "prazo": {
+        "texto": "Até 30 dias, prorrogável uma vez por igual período se persistirem as razões",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "decretação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, IX; art. 136, §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "submissao-ao-congresso",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "submissao-ao-congresso",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente envia o decreto e a justificação ao Congresso em 24 horas",
+      "detalhes": "Se o Congresso estiver em recesso, o Presidente do Senado o convoca extraordinariamente (art. 57, § 6º, I), e ele se reúne em até cinco dias (art. 136, § 5º). O estado de defesa vale desde o decreto, antes da decisão do Congresso.",
+      "prazo": {
+        "texto": "24 horas para submeter o decreto; em recesso, convocação extraordinária do Congresso em 5 dias",
+        "valor": 24,
+        "unidade": "horas",
+        "conta_de": "decretação ou prorrogação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 136, §§ 4º e 5º; art. 57, § 6º, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "congresso-decide",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "congresso-decide",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso Nacional aprova ou rejeita o decreto",
+      "prazo": {
+        "texto": "10 dias contados do recebimento do decreto; o Congresso continua funcionando enquanto vigorar o estado de defesa",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "recebimento do decreto"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, IV; art. 136, §§ 4º, 6º e 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": "Decreto aprovado"
+        },
+        {
+          "para": "relatorio-final",
+          "quando": "Decreto rejeitado: o estado de defesa cessa imediatamente"
+        }
+      ]
+    },
+    {
+      "id": "execucao",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-do-congresso-nacional"
+      ],
+      "acao": "As medidas são executadas, sob fiscalização de uma comissão do Congresso",
+      "detalhes": "A prisão por crime contra o Estado determinada pelo executor é comunicada de imediato ao juiz, que a relaxa se for ilegal; nenhuma prisão passa de dez dias sem autorização judicial, e é proibida a incomunicabilidade do preso (art. 136, § 3º). Uma comissão de cinco parlamentares, designada pela Mesa do Congresso depois de ouvidos os líderes partidários, acompanha e fiscaliza a execução das medidas (art. 140). O Congresso pode suspender a medida a qualquer tempo (art. 49, IV). Enquanto ela durar, a Constituição não pode ser emendada (art. 60, § 1º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 136, § 3º; art. 140; art. 49, IV; art. 60, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "prorrogacao",
+          "quando": "Persistem as razões (só uma prorrogação)"
+        },
+        {
+          "para": "relatorio-final",
+          "quando": "Fim do prazo ou suspensão pelo Congresso"
+        }
+      ]
+    },
+    {
+      "id": "prorrogacao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente prorroga o estado de defesa uma vez, por até 30 dias",
+      "detalhes": "A prorrogação também é submetida ao Congresso em 24 horas e decidida por maioria absoluta.",
+      "prazo": {
+        "texto": "Uma única prorrogação, por igual período (até 30 dias)",
+        "valor": 30,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 136, §§ 2º e 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "submissao-ao-congresso",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "relatorio-final",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "Cessada a medida, o Presidente relata ao Congresso as providências e os atingidos",
+      "detalhes": "A mensagem especifica e justifica as providências, com relação nominal dos atingidos e as restrições aplicadas. Os efeitos cessam com a medida, mas os executores respondem pelos ilícitos que cometeram.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 141"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O estado de defesa termina",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 141"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 136; arts. 140 e 141; art. 49, IV; art. 84, IX; art. 60, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei que, segundo o art. 136, § 1º, fixa termos e limites das medidas coercitivas não foi pesquisada. Os processos de decreto legislativo não estão modelados, por isso a decisão do Congresso não usa 'remete_a'. A Mesa do Congresso aparece como ator da execução porque designa a comissão fiscalizadora (art. 140); a comissão em si não foi modelada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-exonera-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Destituição do Procurador-Geral da República",
+  "relacao": "exonera",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Por iniciativa do Presidente, com autorização prévia da maioria absoluta do Senado.",
+  "depende_de": [
+    "rel:senado-aprova-exoneracao-procurador-geral-da-republica"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 2º; art. 52, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-21",
+    "tarefa": "f0-executivo"
+  }
+}
