@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-policias-federais",
+  "tipo": "objeto",
+  "nome": "Polícias federais",
+  "resumo": "Competência da Polícia Federal, da Polícia Rodoviária Federal e da Polícia Ferroviária Federal.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

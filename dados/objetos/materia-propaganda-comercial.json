@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-propaganda-comercial",
+  "tipo": "objeto",
+  "nome": "Propaganda comercial",
+  "resumo": "Publicidade de produtos e serviços.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXIX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

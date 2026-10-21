@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-moeda-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Moeda e sistema monetário (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-moeda",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Emitir moeda."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

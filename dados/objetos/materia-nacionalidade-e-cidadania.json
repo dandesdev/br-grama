@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-nacionalidade-e-cidadania",
+  "tipo": "objeto",
+  "nome": "Nacionalidade e cidadania",
+  "resumo": "Quem é brasileiro, como um estrangeiro se naturaliza e quais são os direitos de cidadania.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

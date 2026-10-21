@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-policia-de-fronteiras",
+  "tipo": "relacao",
+  "nome": "União: Polícia marítima, aeroportuária e de fronteiras (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-policia-de-fronteiras",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 19/1998 (\"aeroportuária\" no lugar de \"aérea\")."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rel:uniao-competencia-guerra-e-paz",
+  "tipo": "relacao",
+  "nome": "União: Guerra e paz (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-guerra-e-paz",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

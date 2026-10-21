@@ -1,0 +1,28 @@
+{
+  "id": "rel:uniao-competencia-classificacao-indicativa",
+  "tipo": "relacao",
+  "nome": "União: Classificação indicativa (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-classificacao-indicativa",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XVI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

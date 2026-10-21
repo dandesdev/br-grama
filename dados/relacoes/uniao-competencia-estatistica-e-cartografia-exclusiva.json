@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-estatistica-e-cartografia-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Estatística, geografia, geologia e cartografia (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-estatistica-e-cartografia",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Organizar e manter os serviços oficiais de âmbito nacional."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

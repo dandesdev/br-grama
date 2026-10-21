@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-forcas-estrangeiras",
+  "tipo": "objeto",
+  "nome": "Forças estrangeiras no território",
+  "resumo": "Permitir que tropas estrangeiras passem pelo país ou fiquem nele temporariamente, nos casos previstos em lei complementar.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

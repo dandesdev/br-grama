@@ -35,10 +35,11 @@
   ],
   "compilacao_ate": "edição oficial do Regimento Comum atualizada até julho de 2025",
   "redacao_conferida_em": "2026-10-17",
-  "notas": "Texto conferido na edição oficial do Regimento Comum e normas conexas (Parte II), a mesma de norma:rccn, atualizada até julho de 2025 (ver aviso:risf-rccn-compilacao-ate-julho-2025). Data de assinatura (8/5/2002) tirada da API de legislação do Senado (cópia em pesquisa/brutos/senado-dados-abertos/2026-10-17/legislacao-lista-RCN-2002.json); publicação no DOU de 9/5/2002 segundo nota da edição oficial; art. 23: vigor na data da publicação. A lista de RCN de 2026 da API (conferida no piloto) não traz nenhuma resolução nova.",
+  "notas": "Texto conferido na edição oficial do Regimento Comum e normas conexas (Parte II), a mesma de norma:rccn, atualizada até julho de 2025 (ver aviso:risf-rccn-compilacao-ate-julho-2025). Data de assinatura (8/5/2002) tirada da API de legislação do Senado (cópia em pesquisa/brutos/senado-dados-abertos/2026-10-17/legislacao-lista-RCN-2002.json); publicação no DOU de 9/5/2002 segundo nota da edição oficial; art. 23: vigor na data da publicação. A lista de RCN de 2026 da API (conferida no piloto) não traz nenhuma resolução nova. Efeitos da ADI 4029 (conferidos em 2026-10-20 no Informativo 657 e na edição oficial): a declaração foi incidental e ex nunc, valendo para as medidas provisórias editadas depois do julgamento (7 e 8/3/2012); as que já tinham tramitado ou estavam em curso foram ressalvadas. A edição oficial do Regimento Comum mantém impresso o texto do art. 5º, caput, e do art. 6º, §§ 1º e 2º, com nota de rodapé: a comissão mista deve, obrigatoriamente, emitir parecer antes dos Plenários (ADI 4.029, DOU de 16/3/2012). Na prática, caem o prazo de 14 dias da comissão e a remessa à Câmara sem parecer; o art. 6º, caput (28º dia), e os demais artigos não foram atingidos.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-17",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; efeitos da ADI 4029 detalhados nas notas"
   }
 }

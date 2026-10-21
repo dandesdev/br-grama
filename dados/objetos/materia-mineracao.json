@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-mineracao",
+  "tipo": "objeto",
+  "nome": "Mineração",
+  "resumo": "Jazidas, minas e outros recursos minerais, metalurgia e garimpo.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXV"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

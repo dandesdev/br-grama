@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-agropecuaria-e-abastecimento",
+  "tipo": "relacao",
+  "nome": "Estados: Agropecuária e abastecimento (comum, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:materia-agropecuaria-e-abastecimento",
+  "competencia": {
+    "tipo": "comum",
+    "natureza": "material",
+    "nota": "Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, VIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

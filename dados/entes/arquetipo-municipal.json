@@ -1,0 +1,26 @@
+{
+  "id": "ente:arquetipo-municipal",
+  "tipo": "ente",
+  "nome": "Município típico",
+  "resumo": "Representa os municípios como categoria, para mostrar as competências que a Constituição dá a todos eles.",
+  "detalhes": "Os municípios são autônomos e se regem por lei orgânica própria, respeitando a Constituição Federal e a do estado. Cuidam dos assuntos de interesse local.",
+  "tipo_ente": "municipio",
+  "arquetipo": "municipal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18, caput; art. 29, caput; art. 30, I"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  },
+  "notas": "Ente típico (D06, D38): não é um município real; serve de coluna \"Municípios\" na matriz de competências."
+}

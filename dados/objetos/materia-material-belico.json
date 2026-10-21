@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-material-belico",
+  "tipo": "objeto",
+  "nome": "Material bélico",
+  "resumo": "Autorizar e fiscalizar a fabricação e o comércio de armas, munições e outros materiais de guerra.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, VI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

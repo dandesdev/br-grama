@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-justica-do-df-e-territorios-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Judiciário, MP e Defensoria do DF e dos Territórios (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-justica-do-df-e-territorios",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Organizar e manter esses órgãos."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 69/2012, que tirou da União a Defensoria Pública do DF."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

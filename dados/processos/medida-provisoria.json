@@ -369,8 +369,8 @@
         "cargo:senador",
         "org:congresso-nacional"
       ],
-      "acao": "O Congresso pode editar decreto legislativo para regular o que aconteceu enquanto a medida vigorou",
-      "detalhes": "A comissão mista prepara o projeto de decreto legislativo; se não o fizer em 15 dias, qualquer deputado ou senador pode apresentá-lo na sua Casa. A tramitação começa na Câmara. O decreto legislativo não vai à sanção.",
+      "acao": "O Congresso deve regular, por decreto legislativo, o que aconteceu enquanto a medida vigorou",
+      "detalhes": "A CF manda o Congresso disciplinar essas relações (art. 62, § 3º), mas, se ele não o fizer em 60 dias, elas continuam regidas pela medida (§ 11). A comissão mista prepara o projeto de decreto legislativo; se não o fizer em 15 dias, qualquer deputado ou senador pode apresentá-lo na sua Casa. A tramitação começa na Câmara. O decreto legislativo não vai à sanção.",
       "prazo": {
         "texto": "60 dias após a rejeição ou a perda de eficácia (CF, art. 62, § 11)",
         "valor": 60,
@@ -414,6 +414,10 @@
         {
           "ref": "norma:risf",
           "dispositivo": "art. 48, XXVIII"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 52, parágrafo único"
         }
       ],
       "seguintes": []
@@ -528,10 +532,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) A prorrogação automática por mais 60 dias não é etapa própria: aparece no prazo da etapa 'edicao' e na etapa 'perda-de-eficacia'. (2) O trancamento de pauta é o regime 'urgencia-apos-45-dias', disparado pelo tempo, sem quem_aciona. (3) Sanção e veto do projeto de lei de conversão remetem a proc:lei-ordinaria. (4) Os arts. 5º, caput, e 6º, §§ 1º e 2º, da Resolução 1/2002-CN não foram usados, porque o STF os declarou inconstitucionais (ADI 4029); por isso a comissão mista não tem prazo próprio estruturado. (5) O processo segue as normas. Na prática, as comissões mistas deixaram de se reunir em 2020, na pandemia, voltaram em março de 2023 e pararam de novo até ao menos março de 2025, com medidas votadas direto nos Plenários (fonte:agencia-senado-comissoes-mp-2025); essa prática não foi modelada. (6) vigencia.de = vigor da EC 32/2001, que criou o rito atual; antes, a redação original previa 30 dias, sem prorrogação.",
+  "notas": "Decisões de modelagem: (1) A prorrogação automática por mais 60 dias não é etapa própria: aparece no prazo da etapa 'edicao' e na etapa 'perda-de-eficacia'. (2) O trancamento de pauta é o regime 'urgencia-apos-45-dias', disparado pelo tempo, sem quem_aciona. (3) Sanção e veto do projeto de lei de conversão remetem a proc:lei-ordinaria. (4) Os arts. 5º, caput, e 6º, §§ 1º e 2º, da Resolução 1/2002-CN não foram usados, porque o STF os declarou inconstitucionais (ADI 4029); por isso a comissão mista não tem prazo próprio estruturado. (5) O processo segue as normas. Na prática, as comissões mistas deixaram de se reunir em 2020, na pandemia, voltaram em março de 2023 e pararam de novo até ao menos março de 2025, com medidas votadas direto nos Plenários (fonte:agencia-senado-comissoes-mp-2025); essa prática não foi modelada. Na verificação (2026-10-20): as comissões voltaram a ser instaladas em 2025, e a página oficial da CMMPV 1323/2025 (legis.senado.leg.br/atividade/comissoes/comissao/2823/) registra designação em 7/11/2025 e instalação em 3/2/2026, o que indica que o rito com comissão mista estava em uso perto da data de referência. (6) vigencia.de = vigor da EC 32/2001, que criou o rito atual; antes, a redação original previa 30 dias, sem prorrogação.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-legislativo"
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-legislativo",
+    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra a CF, art. 62, e a Res. 1/2002-CN; ajustes na etapa do decreto legislativo sobre os efeitos"
   }
 }

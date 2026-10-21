@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-trabalho-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Trabalho (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-trabalho",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Organizar, manter e executar a inspeção do trabalho."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

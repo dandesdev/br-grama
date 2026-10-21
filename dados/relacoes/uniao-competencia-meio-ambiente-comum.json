@@ -1,0 +1,33 @@
+{
+  "id": "rel:uniao-competencia-meio-ambiente-comum",
+  "tipo": "relacao",
+  "nome": "União: Meio ambiente (comum, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-meio-ambiente",
+  "competencia": {
+    "tipo": "comum",
+    "natureza": "material",
+    "nota": "Proteger o meio ambiente, combater a poluição e preservar as florestas, a fauna e a flora (art. 23, VI e VII). Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, VI"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

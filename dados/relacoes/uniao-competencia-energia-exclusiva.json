@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-energia-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Energia (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-energia",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar os serviços e instalações de energia elétrica e o aproveitamento energético dos cursos de água, em articulação com os estados onde estão os potenciais hidrelétricos."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

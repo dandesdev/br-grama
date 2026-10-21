@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-mineracao-privativa",
+  "tipo": "relacao",
+  "nome": "União: Mineração (privativa, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-mineracao",
+  "competencia": {
+    "tipo": "privativa",
+    "natureza": "legislativa",
+    "nota": "Legislar sobre jazidas, minas, outros recursos minerais e metalurgia. Lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

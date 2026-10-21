@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-policias-do-df",
+  "tipo": "objeto",
+  "nome": "Polícias e bombeiros do DF",
+  "resumo": "Polícia civil, polícia penal, polícia militar e corpo de bombeiros militar do Distrito Federal, mantidos pela União.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

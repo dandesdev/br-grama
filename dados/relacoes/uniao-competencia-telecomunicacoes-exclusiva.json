@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-telecomunicacoes-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Telecomunicações (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-telecomunicacoes",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar os serviços diretamente ou por autorização, concessão ou permissão, nos termos da lei, que também cria um órgão regulador."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 8/1995; o texto original também reservava as telecomunicações à União."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

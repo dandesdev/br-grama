@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-energia",
+  "tipo": "objeto",
+  "nome": "Energia",
+  "resumo": "Energia elétrica e aproveitamento da força dos rios para gerar energia.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, b"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

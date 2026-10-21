@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-concessoes-de-recursos-hidricos-e-minerais",
+  "tipo": "relacao",
+  "nome": "Municípios: Concessões de recursos hídricos e minerais (comum, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:materia-concessoes-de-recursos-hidricos-e-minerais",
+  "competencia": {
+    "tipo": "comum",
+    "natureza": "material",
+    "nota": "Cada ente age em seu território. Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

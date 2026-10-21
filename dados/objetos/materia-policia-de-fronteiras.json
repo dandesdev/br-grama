@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-policia-de-fronteiras",
+  "tipo": "objeto",
+  "nome": "Polícia marítima, aeroportuária e de fronteiras",
+  "resumo": "Policiamento do mar, dos aeroportos e das fronteiras do país.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

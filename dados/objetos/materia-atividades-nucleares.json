@@ -1,0 +1,28 @@
+{
+  "id": "obj:materia-atividades-nucleares",
+  "tipo": "objeto",
+  "nome": "Atividades nucleares",
+  "resumo": "Usinas, instalações e minérios nucleares, sob monopólio da União, e uso de radioisótopos.",
+  "detalhes": "Toda atividade nuclear no país só é admitida para fins pacíficos e com aprovação do Congresso Nacional. A responsabilidade por danos nucleares independe de culpa.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXIII"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXVI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-moeda",
+  "tipo": "objeto",
+  "nome": "Moeda e sistema monetário",
+  "resumo": "Emissão de moeda e regras do sistema monetário e de medidas, incluindo títulos e garantias dos metais.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, VII"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, VI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

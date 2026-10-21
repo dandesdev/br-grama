@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-educacao",
+  "tipo": "objeto",
+  "nome": "Educação",
+  "resumo": "Escolas, ensino e acesso à educação, da educação infantil ao ensino superior.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXIV"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-meio-ambiente",
+  "tipo": "objeto",
+  "nome": "Meio ambiente",
+  "resumo": "Proteção da natureza (florestas, fauna, flora, solo e recursos naturais), caça e pesca, e combate à poluição.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, VI"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

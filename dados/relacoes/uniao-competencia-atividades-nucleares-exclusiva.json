@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-atividades-nucleares-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Atividades nucleares (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-atividades-nucleares",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar os serviços e instalações nucleares e exercer monopólio sobre pesquisa, lavra, enriquecimento, reprocessamento, industrialização e comércio de minérios nucleares; radioisótopos para pesquisa e usos médicos, agrícolas e industriais podem ser autorizados sob regime de permissão."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Alíneas b a d com redação das EC 49/2006 e 118/2022."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

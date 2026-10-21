@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-defesa-civil",
+  "tipo": "objeto",
+  "nome": "Defesa civil e calamidades",
+  "resumo": "Prevenção e resposta a calamidades públicas, como secas e inundações, e defesa civil.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XVIII"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXVIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

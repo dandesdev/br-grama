@@ -1,0 +1,39 @@
+{
+  "id": "obj:materia-transito-e-transporte",
+  "tipo": "objeto",
+  "nome": "Trânsito e transporte",
+  "resumo": "Regras de trânsito, transporte de pessoas e cargas e vias de transporte.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, d"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, e"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXI"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, IX"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-servico-postal",
+  "tipo": "objeto",
+  "nome": "Serviço postal",
+  "resumo": "Correios: o serviço postal e o correio aéreo nacional.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, X"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

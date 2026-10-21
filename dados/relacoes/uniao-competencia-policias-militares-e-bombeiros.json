@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-policias-militares-e-bombeiros",
+  "tipo": "relacao",
+  "nome": "União: Polícias militares e bombeiros militares (privativa, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-policias-militares-e-bombeiros",
+  "competencia": {
+    "tipo": "privativa",
+    "natureza": "legislativa",
+    "nota": "A União legisla sobre as normas gerais. Lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 103/2019, que incluiu inatividades e pensões."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-radiodifusao-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Rádio e televisão (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-radiodifusao",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar os serviços diretamente ou por autorização, concessão ou permissão."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual da alínea dada pela EC 8/1995."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

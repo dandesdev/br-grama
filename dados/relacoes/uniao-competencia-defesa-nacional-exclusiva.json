@@ -1,0 +1,28 @@
+{
+  "id": "rel:uniao-competencia-defesa-nacional-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Defesa nacional (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-defesa-nacional",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

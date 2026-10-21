@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-concessoes-de-recursos-hidricos-e-minerais",
+  "tipo": "objeto",
+  "nome": "Concessões de recursos hídricos e minerais",
+  "resumo": "Registro, acompanhamento e fiscalização das concessões para pesquisar e explorar águas e minérios no território de cada ente.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

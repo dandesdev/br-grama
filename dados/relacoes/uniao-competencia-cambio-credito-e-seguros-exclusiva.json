@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-cambio-credito-e-seguros-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Câmbio, crédito e seguros (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-cambio-credito-e-seguros",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Administrar as reservas cambiais e fiscalizar as operações financeiras, especialmente as de crédito, câmbio e capitalização, seguros e previdência privada."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, VIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

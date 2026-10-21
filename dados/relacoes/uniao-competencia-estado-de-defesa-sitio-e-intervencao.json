@@ -1,0 +1,28 @@
+{
+  "id": "rel:uniao-competencia-estado-de-defesa-sitio-e-intervencao",
+  "tipo": "relacao",
+  "nome": "União: Estado de defesa, estado de sítio e intervenção federal (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-estado-de-defesa-sitio-e-intervencao",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

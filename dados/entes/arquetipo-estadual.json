@@ -1,0 +1,26 @@
+{
+  "id": "ente:arquetipo-estadual",
+  "tipo": "ente",
+  "nome": "Estado típico",
+  "resumo": "Representa os estados como categoria, para mostrar as competências que a Constituição dá a todos eles.",
+  "detalhes": "Os estados são autônomos e se organizam pelas próprias constituições e leis, respeitando os princípios da Constituição Federal. Ficam com as competências que a Constituição não lhes veda.",
+  "tipo_ente": "estado",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18, caput; art. 25, caput e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  },
+  "notas": "Ente típico (D06, D38): não é um estado real; serve de coluna \"Estados\" na matriz de competências."
+}

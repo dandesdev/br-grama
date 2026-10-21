@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-urbanismo-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Urbanismo e desenvolvimento urbano (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-urbanismo",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Instituir diretrizes para o desenvolvimento urbano, inclusive habitação, saneamento básico e transportes urbanos."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

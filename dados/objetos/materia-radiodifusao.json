@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-radiodifusao",
+  "tipo": "objeto",
+  "nome": "Rádio e televisão",
+  "resumo": "Serviços de radiodifusão de sons (rádio) e de sons e imagens (televisão).",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, a"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

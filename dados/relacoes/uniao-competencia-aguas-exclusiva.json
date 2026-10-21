@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-aguas-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Águas e recursos hídricos (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-aguas",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Instituir o sistema nacional de gerenciamento de recursos hídricos e definir critérios de outorga de direitos de uso."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

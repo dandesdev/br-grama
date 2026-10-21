@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-requisicoes-civis-e-militares",
+  "tipo": "objeto",
+  "nome": "Requisições civis e militares",
+  "resumo": "Uso de bens e serviços particulares pelo Estado em caso de perigo iminente e em tempo de guerra.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

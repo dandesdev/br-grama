@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-direito-agrario",
+  "tipo": "objeto",
+  "nome": "Direito agrário",
+  "resumo": "Regras sobre a terra rural, seu uso e a reforma agrária.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

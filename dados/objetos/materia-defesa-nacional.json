@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-defesa-nacional",
+  "tipo": "objeto",
+  "nome": "Defesa nacional",
+  "resumo": "Defesa do país e do seu território (terrestre, aéreo e marítimo) e mobilização nacional em caso de agressão.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, III"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXVIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

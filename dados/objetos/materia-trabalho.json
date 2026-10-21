@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-trabalho",
+  "tipo": "objeto",
+  "nome": "Trabalho",
+  "resumo": "Regras das relações de trabalho (direito do trabalho) e fiscalização do seu cumprimento (inspeção do trabalho).",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXIV"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

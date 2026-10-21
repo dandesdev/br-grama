@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-licitacoes-e-contratos",
+  "tipo": "relacao",
+  "nome": "União: Licitações e contratos públicos (privativa, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-licitacoes-e-contratos",
+  "competencia": {
+    "tipo": "privativa",
+    "natureza": "legislativa",
+    "nota": "Só as normas gerais, para a administração direta, autárquica e fundacional de todos os entes e para as empresas públicas e sociedades de economia mista. Lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 19/1998."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXVII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

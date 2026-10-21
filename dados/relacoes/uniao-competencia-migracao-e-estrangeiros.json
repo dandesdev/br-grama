@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-migracao-e-estrangeiros",
+  "tipo": "relacao",
+  "nome": "União: Migração e estrangeiros (privativa, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-migracao-e-estrangeiros",
+  "competencia": {
+    "tipo": "privativa",
+    "natureza": "legislativa",
+    "nota": "Lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

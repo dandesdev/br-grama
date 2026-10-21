@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-consorcios-e-sorteios",
+  "tipo": "relacao",
+  "nome": "União: Consórcios e sorteios (privativa, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-consorcios-e-sorteios",
+  "competencia": {
+    "tipo": "privativa",
+    "natureza": "legislativa",
+    "nota": "Lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-consorcios-e-sorteios",
+  "tipo": "objeto",
+  "nome": "Consórcios e sorteios",
+  "resumo": "Sistemas de consórcios e de sorteios, como loterias.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

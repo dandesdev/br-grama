@@ -4,7 +4,7 @@
   "nome": "Tribunal Superior Eleitoral",
   "sigla": "TSE",
   "resumo": "Tribunal superior da Justiça Eleitoral. Tem no mínimo sete membros vindos do STF, do STJ e da advocacia, que servem por dois anos, no mínimo.",
-  "detalhes": "Três membros são eleitos por voto secreto dentre os ministros do STF e dois dentre os do STJ; dois são advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF (art. 119). O Presidente e o Vice-Presidente são ministros do STF, e o Corregedor Eleitoral é ministro do STJ. Os membros servem por dois anos, no mínimo, e nunca por mais de dois biênios seguidos (art. 121, § 2º). Julga os recursos contra decisões dos TREs (Código Eleitoral, art. 22, II), e suas decisões são irrecorríveis, salvo as que contrariarem a Constituição e as que negarem habeas corpus ou mandado de segurança (art. 121, § 3º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
+  "detalhes": "Três membros são eleitos por voto secreto dentre os ministros do STF e dois dentre os do STJ, pelo Plenário de cada tribunal (RISTF, art. 7º, II; RISTJ, art. 10, III); dois são advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF (art. 119). O Presidente e o Vice-Presidente são ministros do STF, e o Corregedor Eleitoral é ministro do STJ. Os membros servem por dois anos, no mínimo, e nunca por mais de dois biênios seguidos (art. 121, § 2º). Julga os recursos contra decisões dos TREs (Código Eleitoral, art. 22, II), e suas decisões são irrecorríveis, salvo as que contrariarem a Constituição e as que negarem habeas corpus ou mandado de segurança (art. 121, § 3º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
@@ -26,6 +26,10 @@
     {
       "ref": "norma:ristf",
       "dispositivo": "art. 7º, II; art. 143, parágrafo único"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 10, III"
     }
   ],
   "campos": {
@@ -55,10 +59,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-judiciario",
-    "notas": "Esboço verificado em verificacao-piloto-processo-lei e completado nesta tarefa; contido_em passou de org:poder-judiciario para org:justica-eleitoral."
+    "status": "verificado",
+    "em": "2026-10-20",
+    "tarefa": "verificacao-f0-judiciario",
+    "notas": "coletado em f0-judiciario; CF arts. 118, 119 e 121; Código Eleitoral, art. 22, II; RISTF, arts. 7º, II, e 143 conferidos; resolvido o ponto em aberto: no STJ quem elege é o Plenário (RISTJ, art. 10, III), acrescentado aos detalhes, às fontes e às notas"
   },
-  "notas": "A CF fala em 'eleição, pelo voto secreto' dos juízes vindos do STF e do STJ, sem dizer quem vota. Para o STF, o RISTF diz que é o Plenário (art. 7º, II), com quórum de oito ministros (art. 143, parágrafo único); para o STJ não conferimos o regimento (ver rel:stf-elege-ministro-do-tse e rel:stj-elege-ministro-do-tse)."
+  "notas": "A CF fala em 'eleição, pelo voto secreto' dos juízes vindos do STF e do STJ, sem dizer quem vota. Os regimentos dizem que é o Plenário de cada tribunal: RISTF, art. 7º, II (quórum de oito ministros, art. 143, parágrafo único) e RISTJ, art. 10, III."
 }

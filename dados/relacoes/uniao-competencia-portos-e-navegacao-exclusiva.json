@@ -1,0 +1,33 @@
+{
+  "id": "rel:uniao-competencia-portos-e-navegacao-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Portos e navegação (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-portos-e-navegacao",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar, diretamente ou por autorização, concessão ou permissão, a navegação aérea e aeroespacial, a infraestrutura aeroportuária e os portos marítimos, fluviais e lacustres."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, c"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, f"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

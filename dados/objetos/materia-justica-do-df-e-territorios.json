@@ -1,0 +1,27 @@
+{
+  "id": "obj:materia-justica-do-df-e-territorios",
+  "tipo": "objeto",
+  "nome": "Judiciário, MP e Defensoria do DF e dos Territórios",
+  "resumo": "Organização do Judiciário e do Ministério Público do Distrito Federal e dos Territórios e da Defensoria Pública dos Territórios.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XVII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

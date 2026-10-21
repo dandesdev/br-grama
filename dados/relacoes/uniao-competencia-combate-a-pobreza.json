@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-combate-a-pobreza",
+  "tipo": "relacao",
+  "nome": "União: Combate à pobreza (comum, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-combate-a-pobreza",
+  "competencia": {
+    "tipo": "comum",
+    "natureza": "material",
+    "nota": "Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, X"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

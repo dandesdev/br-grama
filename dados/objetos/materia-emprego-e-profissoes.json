@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-emprego-e-profissoes",
+  "tipo": "objeto",
+  "nome": "Emprego e profissões",
+  "resumo": "Organização do sistema nacional de emprego e condições para exercer profissões.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XVI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

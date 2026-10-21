@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-policias-do-df",
+  "tipo": "relacao",
+  "nome": "União: Polícias e bombeiros do DF (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-policias-do-df",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Organizar e manter essas corporações e prestar assistência financeira ao DF para a execução de serviços públicos, por meio de fundo próprio."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual dada pela EC 104/2019 (inclusão da polícia penal); a assistência financeira por fundo próprio veio da EC 19/1998."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

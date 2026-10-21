@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-planos-de-desenvolvimento",
+  "tipo": "objeto",
+  "nome": "Planos nacionais e regionais de desenvolvimento",
+  "resumo": "Planos nacionais e regionais de ordenação do território e de desenvolvimento econômico e social.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, IX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

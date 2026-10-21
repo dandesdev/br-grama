@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-habitacao-e-saneamento",
+  "tipo": "objeto",
+  "nome": "Moradia e saneamento básico",
+  "resumo": "Programas de construção de moradias e de melhoria das condições de habitação e de saneamento básico.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, IX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

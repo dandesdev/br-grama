@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-urbanismo",
+  "tipo": "objeto",
+  "nome": "Urbanismo e desenvolvimento urbano",
+  "resumo": "Desenvolvimento das cidades e uso do solo urbano, incluindo habitação, saneamento e transportes urbanos.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

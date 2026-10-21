@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-protecao-de-dados-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Proteção de dados pessoais (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-protecao-de-dados",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Organizar e fiscalizar a proteção e o tratamento de dados pessoais, nos termos da lei."
+  },
+  "vigencia": {
+    "de": "2022-02-10",
+    "ate": null,
+    "nota": "Inciso incluído pela EC 115/2022."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXVI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

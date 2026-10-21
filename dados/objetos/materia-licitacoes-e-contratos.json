@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-licitacoes-e-contratos",
+  "tipo": "objeto",
+  "nome": "Licitações e contratos públicos",
+  "resumo": "Regras para o poder público comprar e contratar, em todas as esferas, incluindo empresas estatais.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXVII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

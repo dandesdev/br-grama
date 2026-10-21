@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-seguridade-social",
+  "tipo": "relacao",
+  "nome": "União: Seguridade social (privativa, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-seguridade-social",
+  "competencia": {
+    "tipo": "privativa",
+    "natureza": "legislativa",
+    "nota": "Lei complementar pode autorizar os estados a legislar sobre questões específicas (art. 22, parágrafo único). A previdência social e a proteção da saúde também aparecem na competência concorrente (art. 24, XII)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

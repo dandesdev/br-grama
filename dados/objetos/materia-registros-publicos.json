@@ -1,0 +1,23 @@
+{
+  "id": "obj:materia-registros-publicos",
+  "tipo": "objeto",
+  "nome": "Registros públicos",
+  "resumo": "Registros oficiais de pessoas, imóveis, títulos e documentos, como os feitos nos cartórios.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

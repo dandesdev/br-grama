@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-ciencia-e-tecnologia-comum",
+  "tipo": "relacao",
+  "nome": "União: Ciência, tecnologia e inovação (comum, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-ciencia-e-tecnologia",
+  "competencia": {
+    "tipo": "comum",
+    "natureza": "material",
+    "nota": "Proporcionar os meios de acesso à ciência, à tecnologia, à pesquisa e à inovação. Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A ciência está no texto original; tecnologia, pesquisa e inovação foram incluídas pela EC 85/2015."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

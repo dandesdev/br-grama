@@ -1,0 +1,37 @@
+{
+  "id": "rel:uniao-competencia-transito-e-transporte-exclusiva",
+  "tipo": "relacao",
+  "nome": "União: Trânsito e transporte (exclusiva, executar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:materia-transito-e-transporte",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "material",
+    "nota": "Explorar, diretamente ou por autorização, concessão ou permissão, o transporte ferroviário e aquaviário entre portos brasileiros e fronteiras ou que cruze limites de estado e o transporte rodoviário interestadual e internacional de passageiros; estabelecer princípios e diretrizes do sistema nacional de viação."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, d"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XII, e"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}

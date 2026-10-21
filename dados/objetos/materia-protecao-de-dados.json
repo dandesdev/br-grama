@@ -1,0 +1,28 @@
+{
+  "id": "obj:materia-protecao-de-dados",
+  "tipo": "objeto",
+  "nome": "Proteção de dados pessoais",
+  "resumo": "Proteção e tratamento de dados pessoais.",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "2022-02-10",
+    "ate": null,
+    "nota": "Incluída na Constituição pela EC 115/2022."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XXVI"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 22, XXX"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-20",
+    "tarefa": "f0-competencias"
+  }
+}
