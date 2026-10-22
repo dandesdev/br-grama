@@ -1,0 +1,24 @@
+{
+  "id": "obj:ato-de-admissao-de-pessoal",
+  "tipo": "objeto",
+  "nome": "Ato de admissão de pessoal",
+  "resumo": "Ato que admite alguém no serviço público, a qualquer título. O tribunal de contas aprecia a legalidade para fins de registro; nomeações para cargo em comissão ficam de fora.",
+  "detalhes": "Vale para a administração direta e indireta, incluídas as fundações mantidas pelo Poder Público. Na União quem aprecia é o TCU; nos estados e municípios, o tribunal de contas competente, no que couber (CF, art. 75).",
+  "tipo_objeto": "decisao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, III; art. 75"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

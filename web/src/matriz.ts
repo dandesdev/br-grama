@@ -62,7 +62,7 @@ export class Matriz {
     this.el.innerHTML = `
       <div class="matriz-topo">
         <h2>Quem cuida de quê</h2>
-        <p class="intro">Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal acumula as de estado e as de município (art. 32, § 1º). Clique numa linha para ver os detalhes e a base legal.</p>
+        <p class="intro">Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal legisla sobre o que cabe a estados e municípios (art. 32, § 1º) e aparece ao lado dos estados nas competências comuns e concorrentes (arts. 23 e 24). Clique numa linha para ver os detalhes e a base legal.</p>
         <div class="matriz-filtros">
           <input type="search" name="busca-materia" placeholder="Filtrar matérias…" aria-label="Filtrar matérias" />
           <select name="natureza" aria-label="Natureza da competência">

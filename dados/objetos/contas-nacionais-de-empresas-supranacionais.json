@@ -1,0 +1,25 @@
+{
+  "id": "obj:contas-nacionais-de-empresas-supranacionais",
+  "tipo": "objeto",
+  "nome": "Contas nacionais das empresas supranacionais",
+  "resumo": "Contas da parte brasileira de empresas criadas por tratado entre países, quando a União participa do capital, direta ou indiretamente.",
+  "detalhes": "O TCU fiscaliza essas contas nos termos do tratado que criou a empresa (CF, art. 71, V).",
+  "tipo_objeto": "contas",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, V"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

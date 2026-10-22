@@ -3,8 +3,8 @@
   "tipo": "orgao",
   "nome": "Ministério Público da União",
   "sigla": "MPU",
-  "resumo": "Ramo federal do Ministério Público, chefiado pelo Procurador-Geral da República.",
-  "detalhes": "Compreende o Ministério Público Federal, o do Trabalho, o Militar e o do Distrito Federal e Territórios. Pode propor ao Legislativo a criação e a extinção de seus cargos (CF, art. 127, § 2º).",
+  "resumo": "Ramo federal do Ministério Público, formado pelo MPF, MPT, MPM e MPDFT e chefiado pelo Procurador-Geral da República.",
+  "detalhes": "Como todo o Ministério Público, defende a ordem jurídica, o regime democrático e os interesses sociais (CF, art. 127). Tem autonomia funcional e administrativa, faz a própria proposta orçamentária e pode propor ao Legislativo a criação e a extinção de seus cargos (art. 127, §§ 2º e 3º). Entre suas funções: promover a ação penal pública e a ação civil pública e exercer o controle externo da atividade policial (art. 129).",
   "tipo_orgao": "ministerio-publico",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
@@ -13,6 +13,11 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 128, I, a a d"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 24, parágrafo único",
+      "nota": "a estrutura básica é organizada por regulamento"
     }
   ],
   "vigencia": {
@@ -22,15 +27,25 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 127; art. 128, I e § 1º"
+      "dispositivo": "art. 127; art. 128, I e § 1º; art. 129"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 24 a 26"
     }
   ],
   "confianca": "oficial",
-  "notas": "Os quatro ramos não foram modelados nesta tarefa. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
+  "notas": "Os quatro ramos estão em org:mpf, org:mpt, org:mpm e org:mpdft (contido_em este órgão). vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
-  }
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais",
+    "notas": "complementado em f0-funcoes-essenciais (resumo, detalhes, fontes, estrutura_continua, notas); antes verificado em verificacao-piloto-processo-lei (2026-10-17)"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério Público Federal: Procuradoria-Geral da República",
+      "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "obj:materia-energia",
   "tipo": "objeto",
   "nome": "Energia",
-  "resumo": "Energia elétrica e aproveitamento da força dos rios para gerar energia.",
+  "resumo": "Energia em geral, em especial a elétrica e o aproveitamento da força dos rios para gerá-la.",
   "tipo_objeto": "materia",
   "vigencia": {
     "de": "1988-10-05",
@@ -20,8 +20,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; resumo: o art. 22, IV dá à União legislar sobre energia em geral, não só a elétrica"
   }
 }

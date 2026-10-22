@@ -8,7 +8,7 @@
   "competencia": {
     "tipo": "exclusiva",
     "natureza": "material",
-    "nota": "Explorar, diretamente ou por autorização, concessão ou permissão, o transporte ferroviário e aquaviário entre portos brasileiros e fronteiras ou que cruze limites de estado e o transporte rodoviário interestadual e internacional de passageiros; estabelecer princípios e diretrizes do sistema nacional de viação."
+    "nota": "Explorar, diretamente ou por autorização, concessão ou permissão, o transporte ferroviário e aquaviário entre portos brasileiros e fronteiras ou que cruze limites de estado ou território e o transporte rodoviário interestadual e internacional de passageiros; estabelecer princípios e diretrizes do sistema nacional de viação."
   },
   "vigencia": {
     "de": "1988-10-05",
@@ -30,8 +30,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; nota: acrescentado \"ou território\" (art. 21, XII, d)"
   }
 }

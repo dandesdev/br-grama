@@ -1,12 +1,12 @@
 {
-  "id": "rel:municipios-competencia-patrimonio-cultural-interesse-local",
+  "id": "rel:municipios-competencia-patrimonio-cultural-propria",
   "tipo": "relacao",
-  "nome": "Municípios: Patrimônio histórico e cultural (interesse local, executar)",
+  "nome": "Municípios: Patrimônio histórico e cultural (própria, executar)",
   "relacao": "tem-competencia",
   "de": "ente:arquetipo-municipal",
   "para": "obj:materia-patrimonio-cultural",
   "competencia": {
-    "tipo": "interesse-local",
+    "tipo": "propria",
     "natureza": "material",
     "nota": "Proteger o patrimônio histórico-cultural local, observadas a legislação e a fiscalização federal e estadual."
   },
@@ -21,15 +21,10 @@
     }
   ],
   "confianca": "oficial",
-  "campos": {
-    "competencia": {
-      "confianca": "inferido",
-      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
-    }
-  },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; tipo interesse-local (inferido) → propria (oficial): o art. 30, IX dá a matéria ao município de forma expressa, sem dizer o tipo"
   }
 }

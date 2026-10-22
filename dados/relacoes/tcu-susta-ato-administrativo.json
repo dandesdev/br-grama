@@ -1,0 +1,25 @@
+{
+  "id": "rel:tcu-susta-ato-administrativo",
+  "tipo": "relacao",
+  "nome": "Sustação de ato ilegal pelo TCU",
+  "relacao": "susta",
+  "de": "org:tcu",
+  "para": "obj:ato-administrativo",
+  "condicao": "Se verificar ilegalidade, dá prazo ao órgão ou entidade para corrigi-la; se não for atendido, susta a execução do ato e comunica a decisão à Câmara dos Deputados e ao Senado Federal. Não vale para contratos.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, IX e X, e § 1º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

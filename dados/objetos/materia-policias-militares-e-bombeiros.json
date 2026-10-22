@@ -2,7 +2,7 @@
   "id": "obj:materia-policias-militares-e-bombeiros",
   "tipo": "objeto",
   "nome": "Polícias militares e bombeiros militares",
-  "resumo": "Normas gerais de organização, efetivos, armamento, garantias, convocação, mobilização, inatividade e pensões das PMs e dos bombeiros militares.",
+  "resumo": "Normas gerais de organização, efetivos, material bélico, garantias, convocação, mobilização, inatividade e pensões das PMs e dos bombeiros militares.",
   "tipo_objeto": "materia",
   "vigencia": {
     "de": "1988-10-05",
@@ -16,8 +16,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; resumo: \"armamento\" → \"material bélico\", termo do art. 22, XXI"
   }
 }

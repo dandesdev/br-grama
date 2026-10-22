@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-aplica-sancoes",
+  "tipo": "relacao",
+  "nome": "Aplicação de sanções pelo TCU",
+  "relacao": "julga",
+  "de": "org:tcu",
+  "para": "obj:sancao-de-tribunal-de-contas",
+  "condicao": "Em caso de despesa ilegal ou contas irregulares, aplica aos responsáveis as sanções previstas em lei, entre elas multa proporcional ao dano. A decisão que imputa débito ou multa é título executivo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, VIII e § 3º"
+    }
+  ],
+  "notas": "Termo 'julga' usado por falta de um termo para 'aplica sanção' (proposto no diário da f0-controle).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

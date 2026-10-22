@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-aprecia-aposentadorias-e-pensoes",
+  "tipo": "relacao",
+  "nome": "Registro de aposentadorias, reformas e pensões",
+  "relacao": "julga",
+  "de": "org:tcu",
+  "para": "obj:concessao-de-aposentadoria-reforma-e-pensao",
+  "condicao": "Aprecia, para fins de registro, a legalidade das concessões de aposentadoria, reforma e pensão na esfera federal, salvo melhorias posteriores que não alterem o fundamento legal do ato.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, III"
+    }
+  ],
+  "notas": "Termo 'julga' usado por falta de um termo para 'apreciar para fins de registro' (proposto no diário da f0-controle).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

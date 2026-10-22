@@ -1,0 +1,51 @@
+{
+  "id": "org:mpf",
+  "tipo": "orgao",
+  "nome": "Ministério Público Federal",
+  "sigla": "MPF",
+  "resumo": "Ramo do MPU que atua nas causas do STF, do STJ, da Justiça Federal e da Justiça Eleitoral. É chefiado pelo Procurador-Geral da República.",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-publico-da-uniao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, I, a"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, I, a"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 24, I; art. 37; art. 45; arts. 46 e 47"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "vigencia.de = promulgação da CF/88, base usada aqui; o órgão é anterior.",
+  "detalhes": "Também atua, perante qualquer juízo, na defesa dos povos indígenas, do meio ambiente e do patrimônio nacional (LC 75/1993, art. 37). Perante o STF, as funções cabem ao PGR, que delega aos subprocuradores-gerais (arts. 46 e 47).",
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério Público Federal",
+      "url": "https://www.mpf.mp.br"
+    }
+  ]
+}

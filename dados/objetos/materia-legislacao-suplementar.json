@@ -2,7 +2,7 @@
   "id": "obj:materia-legislacao-suplementar",
   "tipo": "objeto",
   "nome": "Legislação suplementar",
-  "resumo": "Leis que completam as normas gerais de outro ente para atender a necessidades regionais ou locais.",
+  "resumo": "Leis que completam a legislação federal ou estadual para atender a necessidades regionais ou locais.",
   "tipo_objeto": "materia",
   "vigencia": {
     "de": "1988-10-05",
@@ -20,8 +20,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; resumo: o município suplementa a legislação federal e estadual, não só normas gerais (art. 30, II)"
   }
 }

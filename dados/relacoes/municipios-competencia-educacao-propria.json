@@ -1,12 +1,12 @@
 {
-  "id": "rel:municipios-competencia-educacao-interesse-local",
+  "id": "rel:municipios-competencia-educacao-propria",
   "tipo": "relacao",
-  "nome": "Municípios: Educação (interesse local, executar)",
+  "nome": "Municípios: Educação (própria, executar)",
   "relacao": "tem-competencia",
   "de": "ente:arquetipo-municipal",
   "para": "obj:materia-educacao",
   "competencia": {
-    "tipo": "interesse-local",
+    "tipo": "propria",
     "natureza": "material",
     "nota": "Manter programas de educação infantil e de ensino fundamental, com a cooperação técnica e financeira da União e do estado."
   },
@@ -22,15 +22,10 @@
     }
   ],
   "confianca": "oficial",
-  "campos": {
-    "competencia": {
-      "confianca": "inferido",
-      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
-    }
-  },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; tipo interesse-local (inferido) → propria (oficial): o art. 30, VI dá a matéria ao município de forma expressa, sem dizer o tipo"
   }
 }

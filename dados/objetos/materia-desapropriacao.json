@@ -2,7 +2,7 @@
   "id": "obj:materia-desapropriacao",
   "tipo": "objeto",
   "nome": "Desapropriação",
-  "resumo": "Tomada de um bem particular pelo poder público, mediante indenização, por utilidade pública ou interesse social.",
+  "resumo": "Tomada de um bem particular pelo poder público, em geral mediante indenização.",
   "tipo_objeto": "materia",
   "vigencia": {
     "de": "1988-10-05",
@@ -16,8 +16,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; resumo: tirado \"por utilidade pública ou interesse social\", que restringia (a CF também prevê necessidade pública e casos sem indenização) e não vem do art. 22, II"
   }
 }

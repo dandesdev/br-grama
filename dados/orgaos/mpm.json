@@ -1,0 +1,51 @@
+{
+  "id": "org:mpm",
+  "tipo": "orgao",
+  "nome": "Ministério Público Militar",
+  "sigla": "MPM",
+  "resumo": "Ramo do MPU que atua junto à Justiça Militar da União. É chefiado pelo Procurador-Geral da Justiça Militar.",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-publico-da-uniao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, I, c"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, I, c"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 24, III; art. 116; arts. 120 e 121"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "vigencia.de = promulgação da CF/88, base usada aqui; o órgão é anterior.",
+  "detalhes": "O Procurador-Geral da Justiça Militar é nomeado pelo Procurador-Geral da República a partir de lista tríplice votada pelo Colégio de Procuradores, para mandato de dois anos, com uma recondução (LC 75/1993, arts. 120 e 121).",
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério Público Militar",
+      "url": "https://www.mpm.mp.br"
+    }
+  ]
+}

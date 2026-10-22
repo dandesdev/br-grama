@@ -1,0 +1,24 @@
+{
+  "id": "obj:ato-administrativo",
+  "tipo": "objeto",
+  "nome": "Ato administrativo",
+  "resumo": "Decisão concreta de um órgão ou entidade da administração (ex.: um pagamento, uma licitação, uma nomeação). Se ilegal, o tribunal de contas pode sustar sua execução.",
+  "detalhes": "O tribunal de contas primeiro dá prazo para que o órgão corrija a ilegalidade; se não for atendido, susta a execução do ato e comunica a decisão à Câmara dos Deputados e ao Senado Federal (CF, art. 71, IX e X). Contratos seguem regra própria (art. 71, §§ 1º e 2º).",
+  "tipo_objeto": "decisao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, IX e X"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

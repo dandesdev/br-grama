@@ -1,12 +1,12 @@
 {
   "id": "rel:municipios-competencia-distritos-municipais",
   "tipo": "relacao",
-  "nome": "Municípios: Distritos municipais (interesse local, executar)",
+  "nome": "Municípios: Distritos municipais (própria, executar)",
   "relacao": "tem-competencia",
   "de": "ente:arquetipo-municipal",
   "para": "obj:materia-distritos-municipais",
   "competencia": {
-    "tipo": "interesse-local",
+    "tipo": "propria",
     "natureza": "material",
     "nota": "Criar, organizar e suprimir distritos, observada a legislação estadual."
   },
@@ -21,15 +21,10 @@
     }
   ],
   "confianca": "oficial",
-  "campos": {
-    "competencia": {
-      "confianca": "inferido",
-      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
-    }
-  },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; tipo interesse-local (inferido) → propria (oficial): o art. 30, IV dá a matéria ao município de forma expressa, sem dizer o tipo"
   }
 }

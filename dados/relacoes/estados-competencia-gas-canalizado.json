@@ -1,12 +1,12 @@
 {
   "id": "rel:estados-competencia-gas-canalizado",
   "tipo": "relacao",
-  "nome": "Estados: Gás canalizado (exclusiva, executar)",
+  "nome": "Estados: Gás canalizado (própria, executar)",
   "relacao": "tem-competencia",
   "de": "ente:arquetipo-estadual",
   "para": "obj:materia-gas-canalizado",
   "competencia": {
-    "tipo": "exclusiva",
+    "tipo": "propria",
     "natureza": "material",
     "nota": "Explorar os serviços locais de gás canalizado diretamente ou por concessão, na forma da lei; é proibido usar medida provisória para regulamentá-los."
   },
@@ -22,15 +22,10 @@
     }
   ],
   "confianca": "oficial",
-  "campos": {
-    "competencia": {
-      "confianca": "inferido",
-      "nota": "A Constituição diz que \"cabe aos Estados\" explorar o serviço, sem dar nome ao tipo; classificamos como exclusiva porque nenhum outro ente recebe a mesma atribuição."
-    }
-  },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; tipo exclusiva (inferido) → propria (oficial): o art. 25, § 2º dá o serviço aos estados de forma expressa, sem dizer o tipo"
   }
 }

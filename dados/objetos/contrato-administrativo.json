@@ -1,0 +1,26 @@
+{
+  "id": "obj:contrato-administrativo",
+  "tipo": "objeto",
+  "nome": "Contrato da administração pública",
+  "resumo": "Contrato firmado por órgão ou entidade pública. Se ilegal, quem susta é o Congresso Nacional; o TCU só decide se Congresso e Executivo não agirem em 90 dias.",
+  "detalhes": "No caso de contrato, o ato de sustação é adotado diretamente pelo Congresso Nacional, que pede ao Executivo as medidas cabíveis. Se nem o Congresso nem o Executivo efetivarem essas medidas em noventa dias, o TCU decide a respeito (CF, art. 71, §§ 1º e 2º).",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, §§ 1º e 2º"
+    }
+  ],
+  "notas": "esfera federal porque a regra citada é a do TCU e do Congresso; nos estados vale no que couber (art. 75), com a Assembleia no lugar do Congresso, o que não foi modelado aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

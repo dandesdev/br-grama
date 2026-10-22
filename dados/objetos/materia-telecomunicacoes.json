@@ -2,7 +2,7 @@
   "id": "obj:materia-telecomunicacoes",
   "tipo": "objeto",
   "nome": "Telecomunicações",
-  "resumo": "Serviços de telefonia, internet, transmissão de dados e demais telecomunicações.",
+  "resumo": "Serviços de telefonia, transmissão de dados e demais telecomunicações.",
   "tipo_objeto": "materia",
   "vigencia": {
     "de": "1988-10-05",
@@ -20,8 +20,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; resumo: tirado \"internet\", que a CF não menciona e cuja classificação como telecomunicação é discutida"
   }
 }

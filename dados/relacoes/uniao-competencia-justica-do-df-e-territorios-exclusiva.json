@@ -1,14 +1,14 @@
 {
   "id": "rel:uniao-competencia-justica-do-df-e-territorios-exclusiva",
   "tipo": "relacao",
-  "nome": "União: Judiciário, MP e Defensoria do DF e dos Territórios (exclusiva, executar)",
+  "nome": "União: Judiciário e MP do DF e dos Territórios (exclusiva, executar)",
   "relacao": "tem-competencia",
   "de": "ente:uniao",
   "para": "obj:materia-justica-do-df-e-territorios",
   "competencia": {
     "tipo": "exclusiva",
     "natureza": "material",
-    "nota": "Organizar e manter esses órgãos."
+    "nota": "Organizar e manter o Poder Judiciário e o Ministério Público do Distrito Federal e dos Territórios e a Defensoria Pública dos Territórios (a do DF não entra neste inciso)."
   },
   "vigencia": {
     "de": "1988-10-05",
@@ -23,8 +23,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; nota explicita que a Defensoria do inciso é só a dos Territórios; nome acompanha o novo nome da matéria"
   }
 }

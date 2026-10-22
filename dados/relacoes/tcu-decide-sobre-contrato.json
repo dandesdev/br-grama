@@ -1,0 +1,29 @@
+{
+  "id": "rel:tcu-decide-sobre-contrato",
+  "tipo": "relacao",
+  "nome": "Decisão do TCU sobre contrato não sustado",
+  "relacao": "julga",
+  "de": "org:tcu",
+  "para": "obj:contrato-administrativo",
+  "condicao": "Se o Congresso ou o Executivo não efetivarem, em noventa dias, as medidas de sustação do contrato, o TCU decide a respeito.",
+  "depende_de": [
+    "rel:congresso-susta-contrato"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, § 2º"
+    }
+  ],
+  "notas": "A CF diz só que o Tribunal 'decidirá a respeito'; não dizemos que o TCU susta o contrato, porque o alcance dessa decisão é discutido. Termo 'julga' por ser o mais próximo de 'decidir'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

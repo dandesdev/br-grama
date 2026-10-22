@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-executivo
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-executivo\""
-status: pendente
+status: em-andamento
 depende_de: [f0-executivo]
-iniciada_em: null
+iniciada_em: 2026-10-22
 concluida_em: null
 ---
 
@@ -23,3 +23,4 @@ concluida_em: null
   - processos: a falta de parecer obrigatório dos conselhos antes da intervenção é leitura do texto da CF
 
 ## Diário
+- 2026-10-22 14:57 — iniciada; lidos instruções, CLAUDE.md, modelo de dados, protocolo, decisões e diário da coleta. Escopo: 201 entidades (42 org, 38 pessoas, 68 rel, 41 normas, 5 fontes, 3 obj, 3 proc, 1 aviso)

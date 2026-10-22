@@ -1,14 +1,14 @@
 {
   "id": "rel:municipios-competencia-tributos-municipais",
   "tipo": "relacao",
-  "nome": "Municípios: Tributos e rendas municipais (interesse local, executar)",
+  "nome": "Municípios: Tributos e rendas municipais (própria, executar)",
   "relacao": "tem-competencia",
   "de": "ente:arquetipo-municipal",
   "para": "obj:materia-tributos-municipais",
   "competencia": {
-    "tipo": "interesse-local",
+    "tipo": "propria",
     "natureza": "material",
-    "nota": "Instituir e arrecadar os tributos de sua competência e aplicar suas rendas, com a obrigação de prestar contas e publicar balancetes nos prazos da lei."
+    "nota": "Instituir e arrecadar os tributos de sua competência e aplicar suas rendas, com a obrigação de prestar contas e publicar balancetes nos prazos da lei. Instituir tributo depende de lei (art. 150, I)."
   },
   "vigencia": {
     "de": "1988-10-05",
@@ -21,15 +21,10 @@
     }
   ],
   "confianca": "oficial",
-  "campos": {
-    "competencia": {
-      "confianca": "inferido",
-      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
-    }
-  },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; tipo interesse-local (inferido) → propria (oficial): o art. 30, III dá a matéria ao município de forma expressa, sem dizer o tipo; nota: instituir tributo depende de lei (art. 150, I)"
   }
 }

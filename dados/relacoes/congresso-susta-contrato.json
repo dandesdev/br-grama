@@ -1,0 +1,25 @@
+{
+  "id": "rel:congresso-susta-contrato",
+  "tipo": "relacao",
+  "nome": "Sustação de contrato pelo Congresso",
+  "relacao": "susta",
+  "de": "org:congresso-nacional",
+  "para": "obj:contrato-administrativo",
+  "condicao": "No caso de contrato ilegal, o Congresso adota diretamente o ato de sustação e pede de imediato ao Executivo as medidas cabíveis.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, § 1º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

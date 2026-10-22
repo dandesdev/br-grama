@@ -1,0 +1,25 @@
+{
+  "id": "obj:sancao-de-tribunal-de-contas",
+  "tipo": "objeto",
+  "nome": "Sanção aplicada pelo tribunal de contas (débito e multa)",
+  "resumo": "Condenação de quem fez despesa ilegal ou teve contas irregulares: multa proporcional ao dano e outras sanções da lei. A decisão vale como título executivo.",
+  "detalhes": "As sanções são as previstas em lei, que deve incluir multa proporcional ao dano causado ao erário (CF, art. 71, VIII). A decisão que imputa débito ou multa tem eficácia de título executivo: pode ser cobrada na Justiça sem novo processo para provar a dívida (art. 71, § 3º).",
+  "tipo_objeto": "decisao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, VIII e § 3º; art. 75"
+    }
+  ],
+  "notas": "A explicação de 'título executivo' (cobrança judicial sem novo processo de conhecimento) é nossa, para o público geral.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

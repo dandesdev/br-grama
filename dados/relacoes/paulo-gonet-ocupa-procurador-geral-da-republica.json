@@ -1,0 +1,35 @@
+{
+  "id": "rel:paulo-gonet-ocupa-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Paulo Gonet é Procurador-Geral da República",
+  "relacao": "ocupa",
+  "de": "pessoa:paulo-gonet",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Primeiro mandato a partir de dezembro de 2023; reconduzido para novo mandato de dois anos a partir de 19/12/2025.",
+  "vigencia": {
+    "de": "2023-12-15",
+    "ate": null,
+    "nota": "Data da publicação da nomeação no DOU; a data da posse não foi conferida em fonte oficial. A recondução, sem interrupção, conta a partir de 19/12/2025; por isso é um só período contínuo. Em exercício em 2026-10-01: assina a Portaria PGR/MPF nº 659 dessa data."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-msf-89-2023",
+      "dispositivo": "tramitação: aprovação em 13/12/2023; nomeação no DOU nº 238-A, Seção II, edição extra, de 15/12/2023, p. 1"
+    },
+    {
+      "ref": "fonte:senado-msf-60-2025",
+      "dispositivo": "tramitação: aprovação em 12/11/2025; recondução no DOU nº 234, Seção II, de 9/12/2025, p. 1, a partir de 19/12/2025"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria PGR/MPF nº 659, de 1º/10/2026 (DOU 2/10/2026, Seção 2), assinada por Paulo Gustavo Gonet Branco",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-pgr/mpf-n-659-de-1-de-outubro-de-2026-736052277"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

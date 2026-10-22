@@ -1,9 +1,9 @@
 ---
 id: f0-funcoes-essenciais
 escopo: "Fatia 0: funções essenciais à Justiça (CF, arts. 127 a 135): Ministério Público, Advocacia Pública, Advocacia e Defensoria Pública"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-22
 concluida_em: null
 ---
 
@@ -26,3 +26,9 @@ concluida_em: null
 - f0-executivo: ministérios `org:ministerio-*`, `org:casa-civil`
 
 ## Diário
+- 2026-10-22 14:59 — iniciada; lidas instruções, decisões, modelo e protocolo
+- 2026-10-22 15:00 — gravados (esboço, só CF) org:mpf, org:mpt, org:mpm, org:mpdft
+- 2026-10-22 15:02 — gravado norma:lc-75-1993 (arquivo null: Wayback 429); completados org:mpf, org:mpt, org:mpm, org:mpdft com a LC 75/1993
+- 2026-10-22 15:04 — gravados fonte:senado-msf-89-2023, fonte:senado-msf-60-2025, pessoa:paulo-gonet, rel:paulo-gonet-ocupa-procurador-geral-da-republica (falta prova de exercício perto de 2026-10-01)
+- 2026-10-22 15:04 — exercício do PGR em 2026-10-01 confirmado no DOU (Portaria PGR/MPF 659, de 1º/10/2026); acrescentado à relação e à pessoa
+- 2026-10-22 15:05 — completados cargo:procurador-geral-da-republica e org:ministerio-publico-da-uniao (verificacao volta a coletado, com nota); gravado cargo:membro-do-ministerio-publico-da-uniao

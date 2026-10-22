@@ -21,15 +21,10 @@
     }
   ],
   "confianca": "oficial",
-  "campos": {
-    "competencia": {
-      "confianca": "inferido",
-      "nota": "O art. 30 não dá nome ao tipo destas competências; usamos \"interesse local\", o termo mais próximo do vocabulário."
-    }
-  },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-competencias"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-competencias",
+    "notas": "coletado em f0-competencias; confiança da competência inferido → oficial: o termo interesse-local agora cobre o art. 30, V"
   }
 }

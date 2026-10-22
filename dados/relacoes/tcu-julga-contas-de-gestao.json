@@ -1,0 +1,25 @@
+{
+  "id": "rel:tcu-julga-contas-de-gestao",
+  "tipo": "relacao",
+  "nome": "Julgamento das contas dos administradores federais",
+  "relacao": "julga",
+  "de": "org:tcu",
+  "para": "obj:contas-de-gestao",
+  "condicao": "Julga as contas dos administradores e responsáveis por recursos públicos da administração federal direta e indireta, e as de quem causar perda, extravio ou outra irregularidade com prejuízo ao erário.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, II"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

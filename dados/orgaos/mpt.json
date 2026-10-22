@@ -1,0 +1,51 @@
+{
+  "id": "org:mpt",
+  "tipo": "orgao",
+  "nome": "Ministério Público do Trabalho",
+  "sigla": "MPT",
+  "resumo": "Ramo do MPU que atua junto à Justiça do Trabalho. É chefiado pelo Procurador-Geral do Trabalho.",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-publico-da-uniao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, I, b"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, I, b"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 24, II; art. 83; arts. 87 e 88"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "vigencia.de = promulgação da CF/88, base usada aqui; o órgão é anterior.",
+  "detalhes": "O Procurador-Geral do Trabalho é nomeado pelo Procurador-Geral da República a partir de lista tríplice votada pelo Colégio de Procuradores do Trabalho, para mandato de dois anos, com uma recondução (LC 75/1993, arts. 87 e 88).",
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério Público do Trabalho",
+      "url": "https://mpt.mp.br"
+    }
+  ]
+}

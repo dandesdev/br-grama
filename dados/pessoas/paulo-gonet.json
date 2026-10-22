@@ -1,0 +1,40 @@
+{
+  "id": "pessoa:paulo-gonet",
+  "tipo": "pessoa",
+  "nome": "Paulo Gonet",
+  "nome_civil": "Paulo Gustavo Gonet Branco",
+  "resumo": "Procurador-Geral da República desde dezembro de 2023, reconduzido para mandato a partir de 19/12/2025.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-msf-89-2023",
+      "dispositivo": "tramitação: nomeação publicada no DOU nº 238-A, Seção II, edição extra, de 15/12/2023, p. 1"
+    },
+    {
+      "ref": "fonte:senado-msf-60-2025",
+      "dispositivo": "tramitação: recondução publicada no DOU nº 234, Seção II, de 9/12/2025, p. 1"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria PGR/MPF nº 659, de 1º/10/2026 (DOU 2/10/2026, Seção 2), assinada por Paulo Gustavo Gonet Branco",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-pgr/mpf-n-659-de-1-de-outubro-de-2026-736052277"
+    }
+  ],
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Membro do MPF; não tem filiação partidária (membros do MP não podem exercer atividade político-partidária, CF, art. 128, § 5º, II, e).",
+  "mais_informacoes": [
+    {
+      "titulo": "Procuradoria-Geral da República",
+      "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr"
+    }
+  ]
+}

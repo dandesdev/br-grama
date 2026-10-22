@@ -1,0 +1,24 @@
+{
+  "id": "obj:concessao-de-aposentadoria-reforma-e-pensao",
+  "tipo": "objeto",
+  "nome": "Concessão de aposentadoria, reforma e pensão",
+  "resumo": "Ato que concede aposentadoria a servidor, reforma a militar ou pensão a dependente. O tribunal de contas aprecia a legalidade para fins de registro.",
+  "detalhes": "Melhorias posteriores que não mudem o fundamento legal do ato concessório não passam por nova apreciação. Na União quem aprecia é o TCU; nos estados e municípios, o tribunal de contas competente, no que couber (CF, art. 75).",
+  "tipo_objeto": "decisao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, III; art. 75"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

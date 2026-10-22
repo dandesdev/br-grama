@@ -3,25 +3,40 @@
   "tipo": "cargo",
   "nome": "Procurador-Geral da República",
   "sigla": "PGR",
-  "resumo": "Chefe do Ministério Público da União; entre outras atribuições, pode propor projetos de lei.",
-  "detalhes": "Nomeado pelo Presidente da República entre integrantes da carreira com mais de 35 anos, depois de aprovado pela maioria absoluta do Senado, para mandato de dois anos, com recondução permitida. Tem iniciativa de leis (CF, art. 61) e, em especial, das leis complementares que organizam o Ministério Público da União (art. 128, § 5º).",
+  "resumo": "Chefe do Ministério Público da União e do MPF. Atua perante o STF, preside o CNMP e pode propor ação direta de inconstitucionalidade.",
+  "detalhes": "Nomeado pelo Presidente da República entre integrantes da carreira com mais de 35 anos, depois de aprovado pela maioria absoluta do Senado, para mandato de dois anos; cada recondução passa por nova aprovação do Senado. Deve ser ouvido nas ações de inconstitucionalidade e em todos os processos do STF, preside o Conselho Nacional do Ministério Público e tem iniciativa de leis, em especial a lei complementar do MPU (CF, arts. 61, 103, 128 e 130-A). É julgado pelo STF nos crimes comuns e pelo Senado nos de responsabilidade.",
   "orgao": "org:ministerio-publico-da-uniao",
   "provimento": "nomeacao-com-aprovacao-do-senado",
-  "provimento_nota": "Escolha do Presidente da República entre integrantes da carreira; aprovação do nome pela maioria absoluta do Senado. A destituição por iniciativa do Presidente também exige autorização da maioria absoluta do Senado (CF, art. 128, § 2º).",
+  "provimento_nota": "Escolha do Presidente da República entre integrantes da carreira; aprovação do nome pela maioria absoluta do Senado (CF, art. 128, § 1º). A recondução é precedida de nova decisão do Senado (LC 75/1993, art. 25). A destituição por iniciativa do Presidente exige autorização da maioria absoluta do Senado (CF, art. 128, § 2º), em votação secreta (LC 75/1993, art. 25, parágrafo único).",
   "mandato": {
     "anos": 2,
+    "vitalicio": false,
     "reconducao": "permitida",
-    "nota": "A CF não limita o número de reconduções do PGR (art. 128, § 1º), diferentemente dos procuradores-gerais estaduais (§ 3º)."
+    "nota": "A CF não limita o número de reconduções do PGR (art. 128, § 1º), diferentemente dos procuradores-gerais estaduais (§ 3º). Cada recondução depende de nova aprovação do Senado (LC 75/1993, art. 25)."
   },
   "vagas": 1,
   "requisitos": [
     {
       "texto": "integrante da carreira do Ministério Público da União",
-      "fontes": []
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 1º"
+        },
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 25"
+        }
+      ]
     },
     {
       "texto": "mais de 35 anos",
-      "fontes": []
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 1º"
+        }
+      ]
     }
   ],
   "vigencia": {
@@ -31,15 +46,19 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 128, §§ 1º, 2º e 5º; art. 61, caput"
+      "dispositivo": "art. 61, caput; art. 102, I, b; art. 103, VI e § 1º; art. 128, §§ 1º, 2º e 5º; art. 130-A, I"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 25, 26, 45 e 46"
     }
   ],
   "confianca": "oficial",
-  "notas": "O requisito 'integrante da carreira' é lido como carreira do MPU, de que o PGR é chefe (art. 128, § 1º); a CF diz apenas 'dentre integrantes da carreira'.",
+  "notas": "O requisito \"integrante da carreira\" é lido como carreira do MPU, de que o PGR é chefe; a LC 75/1993, art. 25, repete a CF. A CF diz apenas \"dentre integrantes da carreira\". O PGR é também chefe do MPF (LC 75/1993, art. 45) e nomeia os chefes do MPT e do MPM (art. 26, IV).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais",
+    "notas": "complementado em f0-funcoes-essenciais (resumo, detalhes, provimento_nota, mandato, requisitos com fonte, fontes); antes verificado em verificacao-piloto-processo-lei (2026-10-17)"
   }
 }

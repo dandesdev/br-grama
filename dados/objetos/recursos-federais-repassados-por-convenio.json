@@ -1,0 +1,24 @@
+{
+  "id": "obj:recursos-federais-repassados-por-convenio",
+  "tipo": "objeto",
+  "nome": "Recursos federais repassados por convênio",
+  "resumo": "Dinheiro que a União repassa a estados, ao DF ou a municípios por convênio, acordo, ajuste ou instrumento parecido. O TCU fiscaliza sua aplicação.",
+  "tipo_objeto": "contas",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, VI"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-controle"
+  },
+  "confianca": "oficial"
+}

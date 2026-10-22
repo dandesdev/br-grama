@@ -1,9 +1,9 @@
 ---
 id: f0-controle
 escopo: "Fatia 0: controle externo e interno (CF, arts. 70 a 75) e os 27 tribunais de contas estaduais e do DF"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-22
 concluida_em: null
 ---
 
@@ -22,3 +22,7 @@ concluida_em: null
 - Já existem: `org:arquetipo-estadual-tce`, os tribunais de contas municipais e dos municípios (`org:tcm-*`), `obj:contas-anuais-do-presidente-da-republica`, `obj:contas-anuais-do-prefeito`
 
 ## Diário
+- 2026-10-22 15:00 — iniciada; lidos instruções, decisões, modelo, protocolo
+- 2026-10-22 15:08 — lidos CF arts. 70 a 75 (cópia local) e EC 139/2026 (cópia local emc139.htm); gravado obj:contas-de-gestao
+- 2026-10-22 15:22 — gravados obj:ato-de-admissao-de-pessoal, obj:concessao-de-aposentadoria-reforma-e-pensao, obj:ato-administrativo, obj:contrato-administrativo, obj:sancao-de-tribunal-de-contas; rel:tcu-julga-contas-de-gestao, rel:tcu-aprecia-admissao-de-pessoal, rel:tcu-aprecia-aposentadorias-e-pensoes, rel:tcu-aplica-sancoes, rel:tcu-susta-ato-administrativo, rel:congresso-susta-contrato, rel:tcu-decide-sobre-contrato (art. 71, II, III, VIII a X, §§ 1º a 3º). Vocabulário: faltam termos para *apreciar para registro* e *aplicar sanção*; usado julga
+- 2026-10-22 15:27 — gravados obj:contas-nacionais-de-empresas-supranacionais, obj:recursos-federais-repassados-por-convenio, rel:tcu-fiscaliza-empresas-supranacionais, rel:tcu-fiscaliza-recursos-repassados (art. 71, V e VI). Art. 71, IV, VII e § 4º já cobertos por rel:tcu-fiscaliza-uniao e rel:tcu-auxilia-congresso (piloto); não dupliquei. Art. 71, XI (representar ao Poder competente): sem termo no vocabulário; não criado, proposto no relatório
