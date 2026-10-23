@@ -1,0 +1,40 @@
+{
+  "id": "pessoa:raquel-lyra",
+  "tipo": "pessoa",
+  "nome": "Raquel Lyra",
+  "nome_civil": "RAQUEL TEIXEIRA LYRA LUCENA",
+  "resumo": "Governadora de Pernambuco na data de referência (1º/10/2026). Filiada ao PSD.",
+  "fontes": [
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_PE.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'RAQUEL LYRA', SG_PARTIDO 'PSD', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-psd",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_PE.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'RAQUEL LYRA', SG_PARTIDO 'PSD', DS_OCUPACAO 'GOVERNADOR'"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
+}

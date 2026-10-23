@@ -1,0 +1,32 @@
+{
+  "id": "rel:lucas-ribeiro-ocupa-governador-pb",
+  "tipo": "relacao",
+  "nome": "Lucas Ribeiro ocupa o cargo de Governador da Paraíba",
+  "relacao": "ocupa",
+  "de": "pessoa:lucas-ribeiro",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:pb"
+  ],
+  "vigencia": {
+    "de": "2026-04-02",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:a-uniao-lucas-ribeiro-assume-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_PB.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'LUCAS RIBEIRO', SG_PARTIDO 'PP', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Era vice-governador e assumiu com a renúncia de João Azevêdo, candidato ao Senado."
+}

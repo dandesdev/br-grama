@@ -1,0 +1,48 @@
+{
+  "id": "pessoa:otaviano-pivetta",
+  "tipo": "pessoa",
+  "nome": "Otaviano Pivetta",
+  "nome_civil": "OTAVIANO OLAVO PIVETTA",
+  "resumo": "Governador de Mato Grosso na data de referência (1º/10/2026). Filiado ao Republicanos.",
+  "fontes": [
+    {
+      "ref": "fonte:almt-posse-otaviano-pivetta-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_MT.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'OTAVIANO PIVETTA', SG_PARTIDO 'REPUBLICANOS', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-republicanos",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_MT.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'OTAVIANO PIVETTA', SG_PARTIDO 'REPUBLICANOS', DS_OCUPACAO 'GOVERNADOR'"
+        },
+        {
+          "ref": "fonte:almt-posse-otaviano-pivetta-2026",
+          "dispositivo": "'Otaviano Pivetta (Republicanos)'"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "org:territorios-federais",
+  "tipo": "orgao",
+  "nome": "Territórios Federais",
+  "resumo": "A CF permite criar territórios federais, que integram a União. Nenhum existe em 1º/10/2026: os três de 1988 viraram estados ou foram extintos.",
+  "detalhes": "Roraima e Amapá foram transformados em estados, e Fernando de Noronha foi extinto e devolvido a Pernambuco (ADCT, arts. 14 e 15). Um território novo depende de lei complementar (art. 18, § 2º). Se existir, terá governador nomeado pelo Presidente com aprovação do Senado e contas julgadas pelo Congresso, com parecer do TCU (arts. 33, 52, III, c, e 84, XIV).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18, § 2º; art. 33; art. 52, III, c; art. 84, XIV; ADCT, arts. 14 e 15"
+    },
+    {
+      "ref": "fonte:ibge-dtb-2025",
+      "dispositivo": "27 unidades da Federação (26 estados e o DF), nenhum território"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A categoria existe na CF desde 1988; nenhum território foi criado desde então (DTB 2025 sem territórios)."
+  },
+  "notas": "Registrado como fato com fonte, não como aviso (D36). Conjunto vazio: sem ocupantes, sem órgãos internos. Proposta: avaliar se o site deve mostrar este nó ou só a nota.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

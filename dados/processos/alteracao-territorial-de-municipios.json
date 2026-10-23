@@ -1,0 +1,234 @@
+{
+  "id": "proc:alteracao-territorial-de-municipios",
+  "tipo": "processo",
+  "nome": "Criação, incorporação, fusão e desmembramento de municípios",
+  "resumo": "Mudar o mapa dos municípios exige lei estadual, estudo de viabilidade e plebiscito. Em 2026, só há regra para desmembrar parte de um município e juntá-la a outro.",
+  "detalhes": "A CF exige lei complementar federal que fixe o período em que os estados podem criar, incorporar, fundir ou desmembrar municípios (art. 18, § 4º). Em 1º/10/2026 a única lei complementar sobre o tema é a LC 230/2026, que trata só do desmembramento de parte de um município para incorporação a outro, limítrofe, e proíbe que isso crie município novo. Criar, fundir ou incorporar municípios inteiros continua sem lei complementar. Os municípios criados por lei publicada até 31/12/2006 foram convalidados (ADCT, art. 96).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "tipo-de-alteracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "Que mudança se pretende: criar, fundir ou incorporar municípios, ou desmembrar parte de um para juntar a outro?",
+      "detalhes": "A LC 230/2026 cobre só o desmembramento de parte de um município para incorporação a outro, limítrofe, e não vale para conflitos entre estados (art. 1º, §§ 1º e 2º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 4º"
+        },
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 1º, caput e §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sem-lei-complementar",
+          "quando": "Criação, fusão ou incorporação de municípios inteiros"
+        },
+        {
+          "para": "iniciativa",
+          "quando": "Desmembramento de parte de um município para incorporação a outro, limítrofe"
+        }
+      ]
+    },
+    {
+      "id": "sem-lei-complementar",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Não pode ser feito em 2026: não existe a lei complementar federal que fixe o período para isso",
+      "detalhes": "A LC 230/2026 diz que o desmembramento feito por ela nunca pode resultar em município novo (art. 1º, § 1º). Não encontramos outra lei complementar sobre o art. 18, § 4º: o texto compilado da CF no Planalto remete só à LC 230/2026.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 4º"
+        },
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 1º, § 1º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "iniciativa",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "A Assembleia Legislativa abre o processo e providencia o Estudo de Viabilidade Municipal (EVM)",
+      "detalhes": "O EVM analisa, no mínimo, a situação econômico-financeira e fiscal dos municípios, a infraestrutura e os serviços públicos, e aspectos urbanísticos e sociais, inclusive o sentimento de pertencimento da população; deve trazer os limites georreferenciados (LC 230/2026, art. 3º). O estudo precisa ser divulgado antes da consulta (CF, art. 18, § 4º).",
+      "prazo": {
+        "texto": "O período para desmembramentos é de 15 anos a partir de 16/4/2026; o processo fica suspenso 1 ano antes do Censo de 2030 e volta após a divulgação da contagem.",
+        "valor": 15,
+        "unidade": "anos",
+        "conta_de": "publicação da LC 230/2026"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 4º"
+        },
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 1º, § 3º; art. 2º, I; art. 3º; art. 4º, parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "convocacao-do-plebiscito",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "convocacao-do-plebiscito",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "Depois de divulgado o EVM, a Assembleia vota o decreto legislativo que convoca o plebiscito",
+      "detalhes": "Para que o plebiscito coincida com uma eleição, o decreto precisa ser aprovado ao menos 90 dias antes dela (60 dias, só para a eleição de 2026).",
+      "prazo": {
+        "texto": "Pelo menos 90 dias antes da eleição em que o plebiscito será feito (60 dias na eleição geral de 2026)",
+        "valor": 90,
+        "unidade": "dias",
+        "conta_de": "data da eleição (contagem regressiva)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 2º, II; art. 4º, caput; art. 7º"
+        },
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "art. 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "plebiscito",
+          "quando": "Decreto legislativo aprovado"
+        },
+        {
+          "para": "nao-aprovado",
+          "quando": "Decreto rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "plebiscito",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:justica-eleitoral",
+        "org:arquetipo-municipal-eleitorado"
+      ],
+      "acao": "O TRE organiza um plebiscito único com os eleitores dos dois municípios envolvidos",
+      "detalhes": "De preferência na data das eleições gerais ou municipais. Votam tanto a população da área que sai quanto a do município que a recebe (Lei 9.709/1998, art. 7º). O TRE proclama o resultado.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 4º"
+        },
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 2º, III e IV, e parágrafo único"
+        },
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "art. 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "lei-estadual",
+          "quando": "Resultado favorável"
+        },
+        {
+          "para": "nao-aprovado",
+          "quando": "Resultado contrário"
+        }
+      ]
+    },
+    {
+      "id": "lei-estadual",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "A Assembleia aprova e o estado publica a lei estadual que fixa os novos limites",
+      "detalhes": "Segue o processo da lei estadual. Os novos valores do FPM e de outras transferências só passam a ser distribuídos depois do fim do exercício seguinte ao da aprovação da lei.",
+      "remete_a": "proc:lei-estadual",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 4º"
+        },
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 2º, IV; art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "novos-limites",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "novos-limites",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Os municípios passam a ter os novos limites fixados na lei estadual",
+      "fontes": [
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 2º, IV"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "nao-aprovado",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O desmembramento não acontece",
+      "fontes": [
+        {
+          "ref": "norma:lc-230-2026",
+          "dispositivo": "art. 2º, II a IV"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual do art. 18, § 4º, dada pela EC 15/1996; o rito do desmembramento vale desde a LC 230/2026 (16/4/2026)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18, § 4º; ADCT, art. 96"
+    },
+    {
+      "ref": "norma:lc-230-2026",
+      "dispositivo": "arts. 1º a 7º"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "arts. 5º e 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "A falta de lei complementar para criar municípios é fato com fonte, não aviso (D36). A busca por outra lei complementar se limitou à remissão do Planalto no art. 18, § 4º; o revisor pode conferir no portal de legislação. A ação 'decreto legislativo' é estadual; obj:decreto-legislativo existente é o federal, por isso não foi usado como produto. O ator do plebiscito é org:justica-eleitoral porque o TRE varia por estado (ex.: org:tre-pe)."
+}

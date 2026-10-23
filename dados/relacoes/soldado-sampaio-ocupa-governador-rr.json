@@ -1,0 +1,45 @@
+{
+  "id": "rel:soldado-sampaio-ocupa-governador-rr",
+  "tipo": "relacao",
+  "nome": "Soldado Sampaio ocupa o cargo de Governador de Roraima",
+  "relacao": "ocupa",
+  "de": "pessoa:soldado-sampaio",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:rr"
+  ],
+  "condicao": "Governador em exercício, como presidente da Assembleia Legislativa, até a posse do eleito na eleição suplementar.",
+  "vigencia": {
+    "de": "2026-05",
+    "ate": null,
+    "incerta": true,
+    "nota": "Assumiu como presidente da Assembleia depois que o TSE cassou o governador Edilson Damião, em 30/4/2026 (Antonio Denarium havia renunciado em 27/3/2026). O dia em que assumiu não foi conferido; maio de 2026 é dedução."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:doe-rr-2026-09-25",
+      "dispositivo": "assinatura 'GOVERNADOR DO ESTADO DE RORAIMA'"
+    },
+    {
+      "ref": "fonte:agencia-brasil-cassacao-governador-rr-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_RR.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'SOLDADO SAMPAIO', SG_PARTIDO 'REPUBLICANOS', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "campos": {
+    "vigencia": {
+      "confianca": "inferido",
+      "nota": "Início deduzido da data da cassação (Agência Brasil, 30/4/2026); o Diário Oficial de 25/9/2026 comprova o exercício perto da data de referência."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Caso atípico em 2026. Na eleição suplementar de 21/6/2026, Arthur Henrique (PL) foi o mais votado, mas o resultado não foi proclamado nem houve diplomação até outubro de 2026, por pendências judiciais sobre a elegibilidade (notícias do TSE de junho de 2026 e da imprensa de 21/10/2026, não registradas como fonte). Sampaio também foi candidato na suplementar e é candidato a governador na eleição geral de 2026."
+}

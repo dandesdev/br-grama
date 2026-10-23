@@ -1,0 +1,28 @@
+{
+  "id": "org:arquetipo-municipal-poder-executivo",
+  "tipo": "orgao",
+  "nome": "Poder Executivo municipal",
+  "resumo": "Poder Executivo de cada município, chefiado pelo prefeito, eleito com o vice para quatro anos.",
+  "detalhes": "A CF fala em 'Poder Executivo Municipal' ao tratar da fiscalização: ele mantém sistemas de controle interno (art. 31, caput). O prefeito é auxiliado pelos secretários municipais (art. 29, V).",
+  "tipo_orgao": "poder",
+  "poder": "executivo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, I a III e V; art. 31, caput"
+    }
+  ],
+  "notas": "Nó de Poder do arquétipo municipal, no molde de org:poder-executivo-federal e de org:arquetipo-estadual-poder-executivo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

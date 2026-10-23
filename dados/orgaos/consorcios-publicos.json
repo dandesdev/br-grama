@@ -1,0 +1,31 @@
+{
+  "id": "org:consorcios-publicos",
+  "tipo": "orgao",
+  "nome": "Consórcios públicos",
+  "resumo": "Entidades criadas por entes da Federação, por contrato ratificado em lei, para atingir objetivos de interesse comum (ex.: saúde, resíduos, transporte).",
+  "detalhes": "A CF manda os entes disciplinarem por lei os consórcios e convênios de cooperação (art. 241). O consórcio é associação pública ou pessoa jurídica de direito privado; como associação pública, integra a administração indireta de todos os consorciados (Lei 11.107/2005, arts. 1º, § 1º, e 6º). Nasce de um protocolo de intenções ratificado por lei de cada ente (arts. 3º a 5º). A União só participa se também participarem os estados onde ficam os municípios consorciados (art. 1º, § 2º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 241"
+    },
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "arts. 1º a 6º"
+    }
+  ],
+  "notas": "Conjunto (não é órgão real). Esfera 'nacional' por aproximação: um consórcio pode reunir municípios, estados, DF e União. Não há lista oficial única de consórcios consultada nesta tarefa (D07: só exemplos relevantes; nenhum exemplo levantado). Tipo 'conjunto' e não 'entidade-interfederativa' porque o consórcio de direito público integra a administração indireta de cada ente consorciado, enquanto a definição do vocabulário fala em entidade 'sem vínculo com nenhum deles'.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "var:df-corpo-de-bombeiros-militar",
+  "tipo": "variacao",
+  "nome": "Corpo de Bombeiros Militar do DF, mantido pela União",
+  "resumo": "O Corpo de Bombeiros Militar do DF é organizado e mantido pela União; o Governo do DF o utiliza na forma de lei federal.",
+  "entes": [
+    "ente:df"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-estadual-corpo-de-bombeiros-militar",
+  "porque": "Cabe à União organizar e manter o corpo de bombeiros militar do DF; lei federal dispõe sobre o uso dele pelo Governo do DF.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIV; art. 32, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

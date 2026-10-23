@@ -1,0 +1,29 @@
+{
+  "id": "var:df-sem-municipios",
+  "tipo": "variacao",
+  "nome": "Distrito Federal sem municípios",
+  "resumo": "O DF não pode se dividir em municípios. Não há prefeitura nem câmara municipal: o DF exerce as competências de estado e de município.",
+  "entes": [
+    "ente:df"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-municipal-prefeitura",
+  "porque": "A CF veda a divisão do DF em municípios e lhe atribui as competências legislativas reservadas aos estados e aos municípios.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 32, caput e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "notas": "Vale também para org:arquetipo-municipal-camara-municipal (o esquema aceita só um difere_de). As regiões administrativas do DF não foram modeladas.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rel:fatima-bezerra-ocupa-governador-rn",
+  "tipo": "relacao",
+  "nome": "Fátima Bezerra ocupa o cargo de Governadora do Rio Grande do Norte",
+  "relacao": "ocupa",
+  "de": "pessoa:fatima-bezerra",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:rn"
+  ],
+  "vigencia": {
+    "de": "2019-01-01",
+    "ate": null,
+    "nota": "Reeleita em 2022 (diplomação de 19/12/2022); o primeiro mandato começou em 1º/1/2019, data deduzida da regra de posse em 1º de janeiro então vigente (CF, art. 28, redação anterior à EC 111/2021). Exercício contínuo, uma relação só."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:doe-rn-2026-09-22",
+      "dispositivo": "cabeçalho e assinaturas de leis"
+    },
+    {
+      "ref": "fonte:cmnat-diplomacao-tre-rn-2022",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "campos": {
+    "vigencia": {
+      "confianca": "inferido",
+      "nota": "A data de 1º/1/2019 é dedução: reeleita em 2022 e posse em 1º de janeiro pela redação do art. 28 vigente em 2019."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Não concorre em 2026: desistiu do Senado em março de 2026 e ficou no cargo."
+}

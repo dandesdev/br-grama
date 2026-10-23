@@ -1,0 +1,35 @@
+{
+  "id": "rel:ricardo-couto-de-castro-ocupa-governador-rj",
+  "tipo": "relacao",
+  "nome": "Ricardo Couto de Castro ocupa o cargo de Governador do Rio de Janeiro",
+  "relacao": "ocupa",
+  "de": "pessoa:ricardo-couto-de-castro",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:rj"
+  ],
+  "condicao": "Governador em exercício, como presidente do Tribunal de Justiça do Rio de Janeiro, por dupla vacância (sem vice e com o presidente da Assembleia afastado), até nova decisão do STF sobre a eleição do mandato-tampão.",
+  "vigencia": {
+    "de": "2026-03-23",
+    "ate": null,
+    "incerta": true,
+    "nota": "Cláudio Castro renunciou em 23/3/2026; o dia exato em que o presidente do TJ-RJ assumiu não foi conferido."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stf-noticia-mandato-tampao-rj-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:doe-rj-decreto-50447-2026",
+      "dispositivo": "assinatura 'Governador em exercício'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Caso atípico em 2026. Desembargador, presidente do TJ-RJ; não tem partido (magistrados não podem ter atividade político-partidária, CF, art. 95, parágrafo único, III). Em 29/5/2026 o STF manteve o presidente do TJ-RJ no governo (ADI 7942, Rcl 92644). O decreto de 26/8/2026 o identifica como governador em exercício."
+}

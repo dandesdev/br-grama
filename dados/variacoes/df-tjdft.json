@@ -1,0 +1,30 @@
+{
+  "id": "var:df-tjdft",
+  "tipo": "variacao",
+  "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+  "resumo": "A Justiça do DF é organizada e mantida pela União, não pelo próprio DF.",
+  "entes": [
+    "ente:df"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-estadual-tribunal-de-justica",
+  "instancia": "org:tj-df",
+  "porque": "Cabe à União organizar e manter o Poder Judiciário do DF e legislar sobre sua organização judiciária.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII; art. 22, XVII"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "notas": "Quem nomeia os desembargadores do quinto constitucional do TJDFT não foi pesquisado (ver cargo:desembargador); por isso rel:governador-nomeia-desembargador exclui o TJDFT na condição.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

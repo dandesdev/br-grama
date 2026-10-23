@@ -1,0 +1,29 @@
+{
+  "id": "obj:lei-organica-municipal",
+  "tipo": "objeto",
+  "nome": "Lei orgânica municipal",
+  "resumo": "Norma fundamental de cada município, votada em dois turnos e aprovada por dois terços da Câmara Municipal, que a promulga.",
+  "detalhes": "Deve respeitar a Constituição Federal e a do estado e seguir os preceitos do art. 29 (eleição, mandatos, número de vereadores, subsídios, foro do prefeito, iniciativa popular, entre outros). As leis orgânicas foram votadas depois das Constituições estaduais (ADCT, art. 11, parágrafo único).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "municipal",
+  "relativo_a": [
+    "ente:arquetipo-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, caput e I a XIV; ADCT, art. 11, parágrafo único"
+    }
+  ],
+  "notas": "No DF, a lei orgânica faz as vezes de Constituição e é aprovada pela Câmara Legislativa (art. 32, caput); ver var:df-camara-legislativa.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

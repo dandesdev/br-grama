@@ -1,0 +1,32 @@
+{
+  "id": "rel:ricardo-ferraco-ocupa-governador-es",
+  "tipo": "relacao",
+  "nome": "Ricardo Ferraço ocupa o cargo de Governador do Espírito Santo",
+  "relacao": "ocupa",
+  "de": "pessoa:ricardo-ferraco",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:es"
+  ],
+  "vigencia": {
+    "de": "2026-04-02",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:es-gov-posse-ricardo-ferraco-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_ES.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'RICARDO FERRAÇO', SG_PARTIDO 'MDB', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Era vice-governador e assumiu com a renúncia de Renato Casagrande, candidato ao Senado."
+}

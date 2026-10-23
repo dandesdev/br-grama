@@ -1,0 +1,33 @@
+{
+  "id": "var:df-mpdft",
+  "tipo": "variacao",
+  "nome": "Ministério Público do Distrito Federal e Territórios",
+  "resumo": "O Ministério Público que atua no DF é um ramo do Ministério Público da União, organizado e mantido pela União.",
+  "entes": [
+    "ente:df"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-estadual-ministerio-publico",
+  "instancia": "org:mpdft",
+  "porque": "O MPDFT integra o MPU, e a União organiza e mantém o Ministério Público do DF e dos Territórios.",
+  "substitui_relacoes": [
+    "rel:governador-nomeia-procurador-geral-de-justica"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII; art. 128, I, d"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "notas": "A nomeação do procurador-geral do MPDFT segue regra própria (ver org:mpdft e cargo:arquetipo-estadual-procurador-geral-de-justica, notas); não foi detalhada aqui.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

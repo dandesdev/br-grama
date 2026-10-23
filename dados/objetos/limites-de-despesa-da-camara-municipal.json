@@ -1,0 +1,33 @@
+{
+  "id": "obj:limites-de-despesa-da-camara-municipal",
+  "tipo": "objeto",
+  "nome": "Limites de despesa da Câmara Municipal",
+  "resumo": "Teto do gasto total do Legislativo municipal, de 7% a 3,5% de certas receitas do município, conforme a população; a folha não passa de 70% da receita da Câmara.",
+  "detalhes": "A base é a soma da receita tributária e de transferências constitucionais do ano anterior. Os percentuais vão de 7% (até 100 mil habitantes) a 3,5% (acima de 8 milhões). É crime de responsabilidade do prefeito repassar acima do limite, não repassar até o dia 20 de cada mês ou repassar menos que o previsto no orçamento; e do presidente da Câmara gastar mais de 70% com folha. Há também teto para a remuneração total dos vereadores, de 5% da receita do município (art. 29, VII).",
+  "tipo_objeto": "regra-fiscal",
+  "esfera": "municipal",
+  "relativo_a": [
+    "org:arquetipo-municipal-camara-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, VII; art. 29-A, caput, I a VI e §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:ec-25-2000",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-01-01",
+    "ate": null,
+    "nota": "O art. 29-A foi incluído pela EC 25/2000, em vigor em 1º/1/2001 (EC 25/2000, art. 3º); os percentuais atuais vêm da EC 58/2009 e a base de cálculo, da EC 109/2021."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

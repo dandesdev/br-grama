@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-integram-regioes-metropolitanas",
+  "tipo": "relacao",
+  "nome": "Municípios nas regiões metropolitanas",
+  "relacao": "integra",
+  "de": "ente:arquetipo-municipal",
+  "para": "org:arquetipo-estadual-regioes-metropolitanas",
+  "condicao": "Só os municípios limítrofes incluídos pela lei complementar estadual. Estado e municípios incluídos devem promover a governança interfederativa.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 3º"
+    },
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 3º, caput e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

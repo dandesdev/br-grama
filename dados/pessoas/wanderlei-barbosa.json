@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:wanderlei-barbosa",
+  "tipo": "pessoa",
+  "nome": "Wanderlei Barbosa",
+  "nome_civil": "Wanderlei Barbosa Castro",
+  "resumo": "Governador do Tocantins na data de referência (1º/10/2026). Filiado ao Republicanos.",
+  "fontes": [
+    {
+      "ref": "fonte:doe-to-2025-12-05",
+      "dispositivo": "termo de reassunção"
+    },
+    {
+      "ref": "fonte:to-gov-governador",
+      "dispositivo": null
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-republicanos",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:conexao-to-eli-borges-republicanos-2026",
+          "dispositivo": "'governador Wanderlei Barbosa, presidente da sigla no estado'"
+        }
+      ],
+      "confianca": "secundario"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

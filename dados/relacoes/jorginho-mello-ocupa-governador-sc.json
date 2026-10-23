@@ -1,0 +1,33 @@
+{
+  "id": "rel:jorginho-mello-ocupa-governador-sc",
+  "tipo": "relacao",
+  "nome": "Jorginho Mello ocupa o cargo de Governador de Santa Catarina",
+  "relacao": "ocupa",
+  "de": "pessoa:jorginho-mello",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:sc"
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_SC.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'JORGINHO MELLO', SG_PARTIDO 'PL', DS_OCUPACAO 'GOVERNADOR'"
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Eleito em 2022; candidato à reeleição em 2026."
+}

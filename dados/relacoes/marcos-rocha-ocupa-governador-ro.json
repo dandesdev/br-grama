@@ -1,0 +1,33 @@
+{
+  "id": "rel:marcos-rocha-ocupa-governador-ro",
+  "tipo": "relacao",
+  "nome": "Marcos Rocha ocupa o cargo de Governador de Rondônia",
+  "relacao": "ocupa",
+  "de": "pessoa:marcos-rocha",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:ro"
+  ],
+  "vigencia": {
+    "de": "2019-01-01",
+    "ate": null,
+    "nota": "Posse em 1º/1/2019 e, reeleito, em 1º/1/2023. Exercício contínuo, uma relação só."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:transparencia-ro-governadores",
+      "dispositivo": "posses de 01/01/2019 e 01/01/2023"
+    },
+    {
+      "ref": "fonte:doe-ro-2026-09-30",
+      "dispositivo": "assinatura de 30/9/2026"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE). Eleito em 2018 pelo PSL e reeleito em 2022 pelo União Brasil; filiou-se ao PSD em 30/1/2026, segundo a imprensa."
+}

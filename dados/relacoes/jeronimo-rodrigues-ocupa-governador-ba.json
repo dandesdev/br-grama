@@ -1,0 +1,37 @@
+{
+  "id": "rel:jeronimo-rodrigues-ocupa-governador-ba",
+  "tipo": "relacao",
+  "nome": "Jerônimo Rodrigues ocupa o cargo de Governador da Bahia",
+  "relacao": "ocupa",
+  "de": "pessoa:jeronimo-rodrigues",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:ba"
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:ba-gov-equipe-de-governo",
+      "dispositivo": "'Governador: Jerônimo Rodrigues'"
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_BA.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'JERÔNIMO RODRIGUES', SG_PARTIDO 'PT', DS_OCUPACAO 'SERVIDOR PÚBLICO ESTADUAL'"
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Eleito em 2022; candidato à reeleição em 2026 (no registro do TSE declarou a ocupação 'servidor público estadual')."
+}

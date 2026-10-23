@@ -18,6 +18,7 @@
   "poder": "legislativo",
   "esfera": "municipal",
   "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-poder-legislativo",
   "detalhes": "A CF fixa o número máximo de vereadores conforme a população, de 9 a 55. A Câmara julga as contas anuais do prefeito depois do parecer prévio do tribunal de contas, e só pode afastar esse parecer pelo voto de dois terços dos seus membros.",
   "fontes": [
     {
@@ -30,5 +31,16 @@
       "nota": "julgamento das contas anuais do prefeito pela Câmara"
     }
   ],
-  "notas": "Unicameral. Há limites de despesa total do Legislativo municipal conforme a população (art. 29-A)."
+  "notas": "Unicameral. Há limites de despesa total do Legislativo municipal conforme a população (art. 29-A).",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29-A, caput; art. 31, caput"
+        }
+      ],
+      "nota": "Acrescentado por f0-tipicos (2026-10-23), que criou o nó do Poder Legislativo municipal; a CF chama a Câmara de Poder Legislativo Municipal ao tratar do controle externo."
+    }
+  }
 }

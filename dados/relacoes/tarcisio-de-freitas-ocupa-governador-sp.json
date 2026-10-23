@@ -1,0 +1,33 @@
+{
+  "id": "rel:tarcisio-de-freitas-ocupa-governador-sp",
+  "tipo": "relacao",
+  "nome": "Tarcísio de Freitas ocupa o cargo de Governador de São Paulo",
+  "relacao": "ocupa",
+  "de": "pessoa:tarcisio-de-freitas",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:sp"
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_SP.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'TARCÍSIO', SG_PARTIDO 'REPUBLICANOS', DS_OCUPACAO 'GOVERNADOR'"
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Eleito em 2022; candidato à reeleição em 2026."
+}

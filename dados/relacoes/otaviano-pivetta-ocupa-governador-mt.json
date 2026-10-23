@@ -1,0 +1,32 @@
+{
+  "id": "rel:otaviano-pivetta-ocupa-governador-mt",
+  "tipo": "relacao",
+  "nome": "Otaviano Pivetta ocupa o cargo de Governador de Mato Grosso",
+  "relacao": "ocupa",
+  "de": "pessoa:otaviano-pivetta",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:mt"
+  ],
+  "vigencia": {
+    "de": "2026-03-31",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:almt-posse-otaviano-pivetta-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_MT.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'OTAVIANO PIVETTA', SG_PARTIDO 'REPUBLICANOS', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Era vice-governador e assumiu com a renúncia de Mauro Mendes, candidato ao Senado."
+}

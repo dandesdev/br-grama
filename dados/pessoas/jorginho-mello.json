@@ -1,0 +1,40 @@
+{
+  "id": "pessoa:jorginho-mello",
+  "tipo": "pessoa",
+  "nome": "Jorginho Mello",
+  "nome_civil": "JORGINHO DOS SANTOS MELLO",
+  "resumo": "Governador de Santa Catarina na data de referência (1º/10/2026). Filiado ao PL.",
+  "fontes": [
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_SC.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'JORGINHO MELLO', SG_PARTIDO 'PL', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pl",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_SC.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'JORGINHO MELLO', SG_PARTIDO 'PL', DS_OCUPACAO 'GOVERNADOR'"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
+}

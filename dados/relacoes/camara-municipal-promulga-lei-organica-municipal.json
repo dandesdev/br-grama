@@ -1,0 +1,29 @@
+{
+  "id": "rel:camara-municipal-promulga-lei-organica-municipal",
+  "tipo": "relacao",
+  "nome": "Promulgação da lei orgânica",
+  "relacao": "promulga",
+  "de": "org:arquetipo-municipal-camara-municipal",
+  "para": "obj:lei-organica-municipal",
+  "condicao": "A própria Câmara promulga; não há sanção do prefeito.",
+  "depende_de": [
+    "rel:camara-municipal-delibera-lei-organica-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, caput"
+    }
+  ],
+  "notas": "'Não há sanção' é dedução: o art. 29 dá a promulgação à Câmara e não menciona o prefeito.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rel:paulo-dantas-ocupa-governador-al",
+  "tipo": "relacao",
+  "nome": "Paulo Dantas ocupa o cargo de Governador de Alagoas",
+  "relacao": "ocupa",
+  "de": "pessoa:paulo-dantas",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:al"
+  ],
+  "vigencia": {
+    "de": "2022-05",
+    "ate": null,
+    "incerta": true,
+    "nota": "Assumiu em maio de 2022, eleito pela Assembleia para completar o mandato vago; o dia não foi conferido. Reeleito em 2022. Possíveis interrupções do exercício depois de maio de 2022 não foram pesquisadas."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:alagoas-gov-governador",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE), por isso o mandato vai até 6/1/2027 (EC 111/2021, art. 4º)."
+}

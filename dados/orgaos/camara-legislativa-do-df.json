@@ -1,0 +1,40 @@
+{
+  "id": "org:camara-legislativa-do-df",
+  "tipo": "orgao",
+  "nome": "Câmara Legislativa do Distrito Federal",
+  "sigla": "CLDF",
+  "resumo": "Parlamento do Distrito Federal, com 24 deputados distritais. Faz o papel de Assembleia Legislativa e de Câmara Municipal.",
+  "detalhes": "Vota e promulga a Lei Orgânica do DF, por dois terços, em dois turnos (art. 32, caput). Valem para ela e para os deputados distritais as regras do art. 27 (art. 32, § 3º); por isso são 24, o triplo dos 8 deputados federais do DF. Foi instalada em 1º/1/1991. O Tribunal de Contas do DF a auxilia no controle externo (art. 75).",
+  "tipo_orgao": "legislativo-parlamento",
+  "poder": "legislativo",
+  "esfera": "distrital",
+  "ente": "ente:df",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 32, caput e §§ 1º a 3º; art. 27, caput; art. 75"
+    },
+    {
+      "ref": "fonte:cldf-sobre-a-cldf",
+      "dispositivo": null
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial da CLDF",
+      "url": "https://www.cl.df.gov.br/"
+    }
+  ],
+  "vigencia": {
+    "de": "1991-01-01",
+    "ate": null,
+    "nota": "Instalação, segundo a página institucional da CLDF."
+  },
+  "notas": "Instância da variação var:df-camara-legislativa. Sem contido_em: não criamos nó de Poder Legislativo distrital. A conta 3 × 8 = 24 é nossa; o número 24 vem da página da CLDF.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

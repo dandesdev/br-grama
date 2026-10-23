@@ -1,0 +1,41 @@
+{
+  "id": "var:pe-fernando-de-noronha",
+  "tipo": "variacao",
+  "nome": "Fernando de Noronha: distrito estadual, não município",
+  "resumo": "O arquipélago não tem prefeito nem câmara de vereadores: é um distrito estadual de Pernambuco, com administrador-geral e Conselho Distrital.",
+  "entes": [
+    "ente:pe-fernando-de-noronha"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-municipal-prefeitura",
+  "instancia": "org:pe-distrito-estadual-de-fernando-de-noronha",
+  "porque": "Com a extinção do Território Federal em 1988, a área voltou a Pernambuco, que a organizou como distrito estadual, uma autarquia territorial, por lei de 1995.",
+  "substitui_relacoes": [
+    "rel:eleitorado-municipal-elege-prefeito",
+    "rel:eleitorado-municipal-elege-vice-prefeito",
+    "rel:eleitorado-municipal-elege-vereador"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 15"
+    },
+    {
+      "ref": "norma:pe-lei-11304-1995",
+      "dispositivo": "arts. 1º e 16"
+    }
+  ],
+  "vigencia": {
+    "de": "1995-12-28",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Lei 11.304/1995."
+  },
+  "notas": "Na DTB do IBGE o arquipélago aparece com código de município (2605459), e por isso ente:pe-fernando-de-noronha tem tipo_ente 'municipio'; pela lei estadual, é distrito estadual. Não procuramos outros distritos estaduais semelhantes de forma sistemática; não conhecemos outro caso.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

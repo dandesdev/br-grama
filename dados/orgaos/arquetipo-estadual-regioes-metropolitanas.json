@@ -1,0 +1,32 @@
+{
+  "id": "org:arquetipo-estadual-regioes-metropolitanas",
+  "tipo": "orgao",
+  "nome": "Regiões metropolitanas, aglomerações urbanas e microrregiões",
+  "resumo": "Agrupamentos de municípios vizinhos instituídos por lei complementar estadual para planejar e executar juntos funções públicas de interesse comum.",
+  "detalhes": "O estado as institui por lei complementar (art. 25, § 3º). O Estatuto da Metrópole exige governança interfederativa, com uma instância executiva formada pelos Executivos dos entes, uma instância colegiada com a sociedade civil, um órgão técnico-consultivo e um sistema de alocação de recursos (Lei 13.089/2015, arts. 3º e 8º), além de um plano de desenvolvimento urbano integrado aprovado por lei estadual (art. 10).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 3º"
+    },
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "arts. 1º a 3º, 8º e 10"
+    }
+  ],
+  "notas": "Conjunto (não é órgão real): cada região tem estrutura própria, definida na lei complementar estadual. A lista de regiões metropolitanas do país não foi levantada. Sem contido_em: a governança é compartilhada entre estado e municípios.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

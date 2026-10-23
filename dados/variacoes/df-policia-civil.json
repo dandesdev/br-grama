@@ -1,0 +1,29 @@
+{
+  "id": "var:df-policia-civil",
+  "tipo": "variacao",
+  "nome": "Polícia Civil do DF, mantida pela União",
+  "resumo": "A Polícia Civil do DF é organizada e mantida pela União; o Governo do DF a utiliza na forma de lei federal.",
+  "entes": [
+    "ente:df"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-estadual-policia-civil",
+  "porque": "Cabe à União organizar e manter a polícia civil, a polícia penal, a polícia militar e o corpo de bombeiros militar do DF; lei federal dispõe sobre o uso delas pelo Governo do DF.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIV; art. 32, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "notas": "A subordinação ao governador (art. 144, § 6º) também vale no DF; o que muda é quem organiza e mantém a corporação.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

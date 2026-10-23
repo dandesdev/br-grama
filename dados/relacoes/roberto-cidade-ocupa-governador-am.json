@@ -1,0 +1,46 @@
+{
+  "id": "rel:roberto-cidade-ocupa-governador-am",
+  "tipo": "relacao",
+  "nome": "Roberto Cidade ocupa o cargo de Governador do Amazonas",
+  "relacao": "ocupa",
+  "de": "pessoa:roberto-cidade",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:am"
+  ],
+  "vigencia": {
+    "de": "2026-04",
+    "ate": null,
+    "incerta": true,
+    "nota": "Exerce o governo desde o início de abril de 2026 (dia não confirmado em fonte oficial): primeiro como presidente da Assembleia, depois da renúncia do governador Wilson Lima e do vice Tadeu de Souza; em 4/5/2026 foi eleito pela Assembleia para completar o mandato. Como o exercício foi contínuo, ficou uma relação só."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:gazeta-do-povo-roberto-cidade-eleito-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_AM.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'ROBERTO CIDADE', SG_PARTIDO 'UNIÃO', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "campos": {
+    "vigencia": {
+      "fontes": [
+        {
+          "ref": "fonte:gazeta-do-povo-roberto-cidade-eleito-2026",
+          "dispositivo": null
+        }
+      ],
+      "confianca": "secundario",
+      "nota": "Datas só em fonte de imprensa; o TSE confirma que ele se registrou candidato em 2026 com a ocupação de governador."
+    }
+  },
+  "confianca": "secundario",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Caso atípico em 2026: dupla vacância na segunda metade do mandato, com eleição indireta pela Assembleia Legislativa. O vice eleito com ele é Serafim Corrêa (PSB), segundo a imprensa; não criamos a pessoa do vice (D11)."
+}

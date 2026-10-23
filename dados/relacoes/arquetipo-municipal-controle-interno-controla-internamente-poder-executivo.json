@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-municipal-controle-interno-controla-internamente-poder-executivo",
+  "tipo": "relacao",
+  "nome": "Controle interno do Executivo municipal",
+  "relacao": "controla-internamente",
+  "de": "org:arquetipo-municipal-controle-interno",
+  "para": "org:arquetipo-municipal-poder-executivo",
+  "condicao": "Na forma da lei de cada município.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

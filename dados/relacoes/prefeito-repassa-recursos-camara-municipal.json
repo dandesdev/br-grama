@@ -1,0 +1,25 @@
+{
+  "id": "rel:prefeito-repassa-recursos-camara-municipal",
+  "tipo": "relacao",
+  "nome": "Repasse mensal à Câmara",
+  "relacao": "repassa-recursos",
+  "de": "cargo:arquetipo-municipal-prefeito",
+  "para": "org:arquetipo-municipal-camara-municipal",
+  "condicao": "Até o dia 20 de cada mês, na proporção da lei orçamentária e dentro dos limites do art. 29-A; o descumprimento é crime de responsabilidade do prefeito.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29-A, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

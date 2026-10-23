@@ -1,0 +1,48 @@
+{
+  "id": "pessoa:mateus-simoes",
+  "tipo": "pessoa",
+  "nome": "Mateus Simões",
+  "nome_civil": "MATEUS SIMÕES DE ALMEIDA",
+  "resumo": "Governador de Minas Gerais na data de referência (1º/10/2026). Filiado ao PSD.",
+  "fontes": [
+    {
+      "ref": "fonte:almg-posse-mateus-simoes-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_MG.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'MATEUS SIMÕES', SG_PARTIDO 'PSD', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-psd",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_MG.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'MATEUS SIMÕES', SG_PARTIDO 'PSD', DS_OCUPACAO 'GOVERNADOR'"
+        },
+        {
+          "ref": "fonte:almg-posse-mateus-simoes-2026",
+          "dispositivo": "'Mateus Simões de Almeida (PSD)'"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
+}

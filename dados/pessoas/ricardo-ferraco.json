@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:ricardo-ferraco",
+  "tipo": "pessoa",
+  "nome": "Ricardo Ferraço",
+  "nome_civil": "RICARDO DE REZENDE FERRAÇO",
+  "resumo": "Governador do Espírito Santo na data de referência (1º/10/2026). Filiado ao MDB.",
+  "fontes": [
+    {
+      "ref": "fonte:es-gov-posse-ricardo-ferraco-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_ES.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'RICARDO FERRAÇO', SG_PARTIDO 'MDB', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-mdb",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:tse-consulta-cand-2026",
+          "dispositivo": "consulta_cand_2026_ES.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'RICARDO FERRAÇO', SG_PARTIDO 'MDB', DS_OCUPACAO 'GOVERNADOR'"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
+}

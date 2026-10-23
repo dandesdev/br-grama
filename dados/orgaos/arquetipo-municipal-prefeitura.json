@@ -18,6 +18,7 @@
   "poder": "executivo",
   "esfera": "municipal",
   "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-poder-executivo",
   "detalhes": "O prefeito presta contas todo ano à Câmara Municipal. O Executivo municipal também mantém um sistema de controle interno.",
   "fontes": [
     {
@@ -25,5 +26,16 @@
       "dispositivo": "art. 29, I a III; art. 31, caput e § 2º"
     }
   ],
-  "notas": "A CF fala em \"Poder Executivo Municipal\" e em Prefeito, sem descrever o órgão de chefia; a estrutura vem da lei orgânica de cada município. Diferente da União (org:vice-presidencia-da-republica), o vice-prefeito ficou dentro da Prefeitura por falta de base para separá-lo. \"Prefeitura\" às vezes designa toda a administração municipal; aqui é só a chefia."
+  "notas": "A CF fala em \"Poder Executivo Municipal\" e em Prefeito, sem descrever o órgão de chefia; a estrutura vem da lei orgânica de cada município. Diferente da União (org:vice-presidencia-da-republica), o vice-prefeito ficou dentro da Prefeitura por falta de base para separá-lo. \"Prefeitura\" às vezes designa toda a administração municipal; aqui é só a chefia.",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, I a III; art. 31, caput"
+        }
+      ],
+      "nota": "Acrescentado por f0-tipicos (2026-10-23), que criou o nó do Poder Executivo municipal; mesmo modelo de org:presidencia-da-republica dentro de org:poder-executivo-federal."
+    }
+  }
 }

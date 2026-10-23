@@ -1,0 +1,38 @@
+{
+  "id": "rel:wanderlei-barbosa-ocupa-governador-to",
+  "tipo": "relacao",
+  "nome": "Wanderlei Barbosa ocupa o cargo de Governador do Tocantins",
+  "relacao": "ocupa",
+  "de": "pessoa:wanderlei-barbosa",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:to"
+  ],
+  "vigencia": {
+    "de": "2025-12-05",
+    "ate": null,
+    "nota": "Período atual começa com a reassunção em 5/12/2025, depois de afastamento determinado pelo STJ desde setembro de 2025 (o vice Laurez Moreira exerceu o cargo nesse intervalo). O exercício anterior (desde 2021-2022) não foi modelado."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:doe-to-2025-12-05",
+      "dispositivo": "termo de reassunção"
+    },
+    {
+      "ref": "fonte:to-gov-governador",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE). O retorno veio de liminar do STF (ministro Nunes Marques)."
+}

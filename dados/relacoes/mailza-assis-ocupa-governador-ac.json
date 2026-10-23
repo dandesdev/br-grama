@@ -1,0 +1,32 @@
+{
+  "id": "rel:mailza-assis-ocupa-governador-ac",
+  "tipo": "relacao",
+  "nome": "Mailza Assis ocupa o cargo de Governadora do Acre",
+  "relacao": "ocupa",
+  "de": "pessoa:mailza-assis",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:ac"
+  ],
+  "vigencia": {
+    "de": "2026-04-02",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:agencia-ac-transmissao-cargo-mailza-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_AC.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'MAILZA ASSIS', SG_PARTIDO 'PP', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Era vice-governadora e assumiu com a renúncia de Gladson Camelí, que deixou o cargo para disputar o Senado (CF, art. 14, § 6º)."
+}

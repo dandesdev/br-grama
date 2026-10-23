@@ -1,0 +1,44 @@
+{
+  "id": "pessoa:marcos-rocha",
+  "tipo": "pessoa",
+  "nome": "Marcos Rocha",
+  "nome_civil": "Marcos José Rocha dos Santos",
+  "resumo": "Governador de Rondônia na data de referência (1º/10/2026). Filiado ao PSD.",
+  "fontes": [
+    {
+      "ref": "fonte:transparencia-ro-governadores",
+      "dispositivo": "posses de 01/01/2019 e 01/01/2023"
+    },
+    {
+      "ref": "fonte:doe-ro-2026-09-30",
+      "dispositivo": "assinatura de 30/9/2026"
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-psd",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:poder360-marcos-rocha-psd-2026",
+          "dispositivo": null
+        }
+      ],
+      "confianca": "secundario"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

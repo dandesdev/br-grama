@@ -21,7 +21,7 @@ Pendências anotadas pelas tarefas:
 - [ ] Dinheiro: contribuições ao Sistema S (art. 240) e adicional por rotatividade (art. 239, § 4º); créditos adicionais (art. 166, § 8º; art. 167, V); bancadas estaduais como proponentes da emenda de bancada; ADI 8010 (LC 200/2023); presidente do Comitê Gestor do IBS; verbo para "propõe a exoneração" (CMN, hoje `propoe`).
 - [ ] Controle: data da posse de Jhonatan de Jesus (aviso aberto); Constituições estaduais sobre a escolha dos conselheiros.
 - [ ] Defesa e segurança: cargo de Diretor-Geral da PRF; Secretaria Nacional de Políticas Penais.
-- [ ] Modelo (decisões do coordenador): campo de sede com fonte própria; nó para sociedade civil; objeto transferido em `repassa-recursos`; dedupe de ocupantes com duas relações `ocupa` para um só ato (AGU).
+- [ ] Modelo (decisões do coordenador): `difere_de` das variações aceita um só órgão (DF sem municípios afeta prefeitura e câmara); `ocupa` em cargo de arquétipo só diz o estado por `restrita_a`; campo de sede com fonte própria; nó para sociedade civil; objeto transferido em `repassa-recursos`; dedupe de ocupantes com duas relações `ocupa` para um só ato (AGU).
 
 Cobertura (D04):
 - [ ] Varredura da CF artigo por artigo (arts. 1º a 250 e ADCT no que estrutura o Estado em 2026-10-01): para cada órgão, cargo, competência e procedimento previsto, a entidade que o representa. Lacunas viram lista; a cobertura sai em percentual. Já conhecida: intervenção estadual nos municípios (art. 35).

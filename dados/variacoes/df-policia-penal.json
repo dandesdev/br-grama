@@ -1,0 +1,29 @@
+{
+  "id": "var:df-policia-penal",
+  "tipo": "variacao",
+  "nome": "Polícia Penal do DF, mantida pela União",
+  "resumo": "A Polícia Penal do DF é organizada e mantida pela União; o Governo do DF a utiliza na forma de lei federal.",
+  "entes": [
+    "ente:df"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-estadual-policia-penal",
+  "porque": "Cabe à União organizar e manter a polícia penal do DF (EC 104/2019); lei federal dispõe sobre o uso dela pelo Governo do DF.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIV; art. 32, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-12-05",
+    "ate": null,
+    "nota": "A polícia penal entrou no art. 21, XIV, com a EC 104/2019, de 4/12/2019, publicada no DOU de 5/12/2019 (texto no Planalto, lido em 2026-10-23)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

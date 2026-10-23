@@ -1,0 +1,34 @@
+{
+  "id": "rel:eduardo-leite-ocupa-governador-rs",
+  "tipo": "relacao",
+  "nome": "Eduardo Leite ocupa o cargo de Governador do Rio Grande do Sul",
+  "relacao": "ocupa",
+  "de": "pessoa:eduardo-leite",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:rs"
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Início do mandato atual. O exercício do primeiro mandato (2019 a 2022) não foi levantado; segundo a imprensa, ele renunciou em 2022, o que separa os períodos."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:rs-gov-governador",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 4º",
+      "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE). Saiu do PSDB e filiou-se ao PSD em maio de 2025, segundo a imprensa."
+}

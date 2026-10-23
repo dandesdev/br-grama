@@ -1,0 +1,32 @@
+{
+  "id": "rel:mateus-simoes-ocupa-governador-mg",
+  "tipo": "relacao",
+  "nome": "Mateus Simões ocupa o cargo de Governador de Minas Gerais",
+  "relacao": "ocupa",
+  "de": "pessoa:mateus-simoes",
+  "para": "cargo:arquetipo-estadual-governador",
+  "restrita_a": [
+    "ente:mg"
+  ],
+  "vigencia": {
+    "de": "2026-03-22",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:almg-posse-mateus-simoes-2026",
+      "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2026",
+      "dispositivo": "consulta_cand_2026_MG.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'MATEUS SIMÕES', SG_PARTIDO 'PSD', DS_OCUPACAO 'GOVERNADOR'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Era vice-governador e assumiu com a renúncia de Romeu Zema, candidato a Presidente."
+}

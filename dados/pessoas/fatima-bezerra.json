@@ -1,0 +1,47 @@
+{
+  "id": "pessoa:fatima-bezerra",
+  "tipo": "pessoa",
+  "nome": "Fátima Bezerra",
+  "resumo": "Governadora do Rio Grande do Norte na data de referência (1º/10/2026). Filiada ao PT.",
+  "fontes": [
+    {
+      "ref": "fonte:doe-rn-2026-09-22",
+      "dispositivo": "cabeçalho e assinaturas de leis"
+    },
+    {
+      "ref": "fonte:cmnat-diplomacao-tre-rn-2022",
+      "dispositivo": null
+    }
+  ],
+  "filiacoes": [
+    {
+      "partido": "org:partido-pt",
+      "vigencia": {
+        "de": null,
+        "ate": null,
+        "nota": "Partido em 1º/10/2026. A data de filiação não foi pesquisada, salvo o que dizem as notas."
+      },
+      "fontes": [
+        {
+          "ref": "fonte:sbt-news-fatima-bezerra-permanece-2026",
+          "dispositivo": "'Fátima Bezerra (PT)'"
+        },
+        {
+          "ref": "fonte:cmnat-diplomacao-tre-rn-2022",
+          "dispositivo": "'governadora reeleita Fátima Bezerra (PT)'"
+        }
+      ],
+      "confianca": "secundario"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}
