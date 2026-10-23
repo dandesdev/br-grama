@@ -1,0 +1,25 @@
+{
+  "id": "obj:tributo-impostos-residuais",
+  "tipo": "objeto",
+  "nome": "Impostos residuais da União",
+  "resumo": "Novos impostos que a União pode criar por lei complementar, além dos previstos na Constituição.",
+  "detalhes": "Precisam ser não cumulativos e não podem ter fato gerador ou base de cálculo de impostos já previstos (art. 154, I). Do que arrecadar, a União entrega 20% aos estados e ao DF (art. 157, II).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 154, I; art. 157, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

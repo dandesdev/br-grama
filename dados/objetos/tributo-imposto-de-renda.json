@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-imposto-de-renda",
+  "tipo": "objeto",
+  "nome": "Imposto sobre a renda e proventos de qualquer natureza",
+  "sigla": "IR",
+  "resumo": "Imposto da União sobre a renda de pessoas e empresas, guiado pela generalidade, universalidade e progressividade.",
+  "detalhes": "Aumentos valem no ano seguinte ao da lei, mas sem a espera de 90 dias (art. 150, § 1º). Parte da arrecadação vai para estados e municípios pelos fundos de participação (art. 159, I).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, III, e § 2º; art. 150, § 1º; art. 159, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "cargo:presidente-do-banco-central",
+  "tipo": "cargo",
+  "nome": "Presidente do Banco Central do Brasil",
+  "resumo": "Dirige o Banco Central e integra o Conselho Monetário Nacional. Tem mandato fixo de quatro anos, que não coincide com o do Presidente da República.",
+  "detalhes": "É um dos nove membros da Diretoria Colegiada. O mandato começa em 1º de janeiro do terceiro ano do mandato presidencial (LC 179/2021, art. 4º, § 1º). Duas vezes por ano apresenta ao Senado, em arguição pública, os relatórios de inflação e de estabilidade financeira (art. 11). Desde 2021 o cargo é de Natureza Especial, e não mais de Ministro de Estado (art. 9º).",
+  "orgao": "org:banco-central",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "provimento_nota": "O Presidente da República indica; o Senado aprova o nome por voto secreto, após arguição pública (CF, art. 52, III, d); o Presidente da República nomeia (CF, art. 84, XIV; LC 179/2021, art. 4º). Só pode ser exonerado a pedido, por doença incapacitante, por condenação por improbidade ou por crime que impeça o acesso a cargos públicos, ou por desempenho insuficiente; neste caso, a proposta é do Conselho Monetário Nacional e depende de aprovação do Senado por maioria absoluta (LC 179/2021, art. 5º). Se o cargo vagar, assume interinamente o diretor com mais tempo no cargo (art. 5º, § 3º).",
+  "mandato": {
+    "anos": 4,
+    "vitalicio": false,
+    "inicio": "1º de janeiro do terceiro ano do mandato do Presidente da República",
+    "reconducao": "uma vez, por decisão do Presidente da República",
+    "nota": "O mandato se estende até a posse do sucessor (LC 179/2021, art. 4º, §§ 1º, 3º e 4º)."
+  },
+  "vagas": 1,
+  "requisitos": [
+    {
+      "texto": "brasileiro idôneo, de reputação ilibada e de notória capacidade em assuntos econômico-financeiros ou com conhecimentos comprovados que o qualifiquem para a função",
+      "fontes": [
+        {
+          "ref": "norma:lc-179-2021",
+          "dispositivo": "art. 3º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2021-02-25",
+    "ate": null,
+    "nota": "Cargo de Natureza Especial criado pela transformação do cargo de Ministro de Estado Presidente do Banco Central (LC 179/2021, art. 9º), em vigor na publicação."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, d; art. 84, XIV"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 3º, 4º, 5º, 9º, 10 e 11"
+    },
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 8º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "obj:tributo-emprestimo-compulsorio",
+  "tipo": "objeto",
+  "nome": "Empréstimo compulsório",
+  "resumo": "Tributo que a União pode criar por lei complementar em calamidade, guerra ou investimento público urgente.",
+  "detalhes": "O dinheiro arrecadado fica vinculado à despesa que justificou o empréstimo (art. 148, parágrafo único). No caso de calamidade ou guerra, vale de imediato (art. 150, § 1º); no de investimento urgente, respeita a regra de só valer no ano seguinte ao da lei (art. 148, II).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 148; art. 150, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

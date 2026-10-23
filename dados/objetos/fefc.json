@@ -1,0 +1,38 @@
+{
+  "id": "obj:fefc",
+  "tipo": "objeto",
+  "nome": "Fundo Especial de Financiamento de Campanha",
+  "sigla": "FEFC",
+  "resumo": "Fundo eleitoral criado em 2017: dinheiro do orçamento da União, em ano de eleição, repassado pelo TSE aos partidos para pagar campanhas.",
+  "detalhes": "É formado por dotações da União em ano eleitoral. O Tesouro deposita até o 1º dia útil de junho numa conta à disposição do TSE, que divulga o valor e o divide (Lei 9.504/1997, art. 16-C). A divisão no 1º turno é: 2% em partes iguais entre todos os partidos registrados; 35% pelos votos na última eleição para a Câmara, entre os que têm ao menos um deputado; 48% pelo número de deputados e 15% pelo de senadores (art. 16-D). Cada partido define, por maioria absoluta da direção nacional, como reparte entre candidatos, com no mínimo 30% para candidatas e 30% para candidaturas de pessoas pretas e pardas (CF, art. 17, §§ 8º e 9º). O que sobrar volta ao Tesouro.",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:partidos-politicos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 16-C, caput, §§ 2º, 3º, 7º, 11 e 16; art. 16-D"
+    },
+    {
+      "ref": "norma:lei-13487-2017",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, §§ 6º, 8º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "2017-10-06",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Também chamado de 'Fundo Eleitoral' na própria lei (art. 16-C, § 3º, I). tipo_objeto 'documento' por falta de termo melhor. Não pesquisamos o valor de 2026. Partido pode renunciar ao FEFC até o 1º dia útil de junho, sem redistribuição (art. 16-C, § 16)."
+}

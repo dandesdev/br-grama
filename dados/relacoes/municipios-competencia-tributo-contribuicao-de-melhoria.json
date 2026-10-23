@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-tributo-contribuicao-de-melhoria",
+  "tipo": "relacao",
+  "nome": "Municípios: Contribuição de melhoria (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:tributo-contribuicao-de-melhoria",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Cada ente institui sobre o seu poder de polícia, os seus serviços ou as suas obras."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 145, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

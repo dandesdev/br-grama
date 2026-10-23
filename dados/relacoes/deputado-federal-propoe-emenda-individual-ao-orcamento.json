@@ -1,0 +1,26 @@
+{
+  "id": "rel:deputado-federal-propoe-emenda-individual-ao-orcamento",
+  "tipo": "relacao",
+  "nome": "Deputados propõem emendas individuais ao orçamento",
+  "relacao": "propoe",
+  "de": "cargo:deputado-federal",
+  "para": "obj:emenda-individual-ao-orcamento",
+  "condicao": "Cada parlamentar apresenta emendas individuais ao projeto da LOA, na CMO; o conjunto das emendas de deputados tem execução obrigatória até 1,55% da receita corrente líquida do ano anterior.",
+  "vigencia": {
+    "de": "2015-03-18",
+    "ate": null,
+    "nota": "Execução obrigatória desde a EC 86/2015; divisão entre deputados e senadores pela EC 126/2022."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 166, §§ 2º, 9º, 9º-A e 11"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

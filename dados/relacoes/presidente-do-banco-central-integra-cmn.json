@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-do-banco-central-integra-cmn",
+  "tipo": "relacao",
+  "nome": "O Presidente do Banco Central integra o Conselho Monetário Nacional",
+  "relacao": "integra",
+  "de": "cargo:presidente-do-banco-central",
+  "para": "org:cmn",
+  "condicao": "Membro nato. O Banco Central também funciona como secretaria-executiva do Conselho.",
+  "vigencia": {
+    "de": "2021-02-25",
+    "ate": null,
+    "nota": "Cargo atual desde a LC 179/2021; o Presidente do Banco Central já integrava o CMN antes, em outras redações do art. 8º."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 8º, III, e § 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

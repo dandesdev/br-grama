@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-propoe-ppa",
+  "tipo": "relacao",
+  "nome": "O Presidente propõe o projeto do plano plurianual",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:ppa",
+  "condicao": "A iniciativa é só do Poder Executivo; o Presidente envia o projeto ao Congresso nos prazos do ADCT, art. 35, § 2º, e pode propor mudanças enquanto a CMO não começar a votar a parte a alterar.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XXIII; art. 165, I; art. 166, §§ 5º e 6º; ADCT, art. 35, § 2º, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

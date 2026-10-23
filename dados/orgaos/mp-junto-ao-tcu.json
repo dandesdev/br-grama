@@ -4,11 +4,12 @@
   "nome": "Ministério Público junto ao Tribunal de Contas da União",
   "sigla": "MPTCU",
   "resumo": "Ministério Público especial que atua nos processos do TCU como fiscal da lei. Não faz parte do MPU.",
-  "detalhes": "Tem um procurador-geral, três subprocuradores-gerais e quatro procuradores, nomeados pelo Presidente da República; o ingresso é por concurso público (Lei 8.443/1992, art. 80). Opina obrigatoriamente nas tomadas e prestações de contas e nos atos de pessoal e aposentadoria (art. 81, II). Seus membros têm os direitos, vedações e forma de investidura do MP comum (CF, art. 130). Os estados têm órgãos equivalentes junto aos tribunais de contas estaduais.",
+  "detalhes": "Tem um procurador-geral, três subprocuradores-gerais e quatro procuradores, nomeados pelo Presidente da República; o ingresso é por concurso público (Lei 8.443/1992, art. 80). É obrigatoriamente ouvido nos processos de tomada e prestação de contas e nos de admissão de pessoal, aposentadorias, reformas e pensões (art. 81, II). Seus membros têm os direitos, vedações e forma de investidura do MP comum (CF, art. 130). Para o STF, integra a estrutura do TCU e não tem vínculo com o MP comum. A CF prevê MP junto a todos os tribunais de contas (art. 130).",
   "tipo_orgao": "ministerio-publico",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
   "ente": "ente:uniao",
+  "contido_em": "org:tcu",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -17,12 +18,30 @@
     {
       "ref": "norma:lei-8443-1992",
       "dispositivo": "arts. 80 a 84"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-130",
+      "dispositivo": "ADI 3.315 (que cita a ADI 789) e MS 27.339"
     }
   ],
   "campos": {
     "sigla": {
-      "confianca": "secundario",
-      "nota": "Sigla usada pelo próprio órgão em mp.tcu.gov.br; não aparece na lei."
+      "confianca": "oficial",
+      "nota": "Sigla usada pelo próprio órgão em mp.tcu.gov.br (conferido em 2026-10-23); não aparece na lei."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-130",
+          "dispositivo": "ADI 4.427 e ADI 3.315 (que cita a ADI 789)"
+        },
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 83",
+          "nota": "usa o apoio administrativo e de pessoal da secretaria do Tribunal"
+        }
+      ],
+      "nota": "A CF e a Lei 8.443/1992 não dizem com essas palavras que o órgão integra o TCU; a posição vem da jurisprudência do STF."
     }
   },
   "mais_informacoes": [
@@ -38,9 +57,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: ganhou contido_em org:tcu (jurisprudência do STF), detalhes reescritos sem ampliar o art. 81, II, sigla com confiança oficial; Lei 8.443/1992, arts. 80 a 84, conferida"
   },
-  "notas": "Sem contido_em: a CF (art. 130) e a Lei 8.443/1992 não dizem que o órgão integra o TCU; ele usa o apoio administrativo da secretaria do Tribunal (art. 83). Doutrina e o STF (ADI 789, não consultada) o tratam como integrante da estrutura do TCU; conferir antes de pôr contido_em. Os MPs de contas estaduais não foram modelados (art. 130 vale para todos os tribunais de contas). A afirmação de que não faz parte do MPU decorre de o art. 128, I, não o listar entre os ramos do MPU."
+  "notas": "contido_em org:tcu desde a verificação: o STF trata o MP de contas como parte da estrutura do tribunal (ADI 789, citada na ADI 3.315; ADI 4.427), e a Lei 8.443/1992, art. 83, lhe dá o apoio administrativo da secretaria do TCU. poder mantido em funcoes-essenciais-a-justica (a CF o trata na seção do MP), embora o TCU esteja no Legislativo. Que não faz parte do MPU: o art. 128, I, não o lista, e o STF diz que não tem vínculo com o MP comum. Os MPs de contas estaduais não foram modelados."
 }

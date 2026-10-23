@@ -32,9 +32,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; CF, art. 132, conferido"
   },
   "notas": "A CF não diz como se escolhe o procurador-geral do estado; por isso não criamos o cargo de chefia no arquétipo. Sem contido_em: o arquétipo estadual ainda não tem nó de Poder Executivo (f0-tipicos)."
 }

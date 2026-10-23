@@ -1,0 +1,32 @@
+{
+  "id": "cargo:procurador-geral-eleitoral",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral Eleitoral",
+  "resumo": "Chefe do Ministério Público Eleitoral e quem atua nas causas do TSE. O cargo é exercido pelo Procurador-Geral da República.",
+  "orgao": "org:ministerio-publico-eleitoral",
+  "provimento": "nato",
+  "provimento_nota": "O Procurador-Geral Eleitoral é o Procurador-Geral da República (LC 75/1993, art. 73). Ele designa, dentre os Subprocuradores-Gerais da República, o Vice-Procurador-Geral Eleitoral, que o substitui nos impedimentos e na vacância (art. 73, parágrafo único).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "nota": "Acompanha o mandato do Procurador-Geral da República."
+  },
+  "detalhes": "Exerce as funções do Ministério Público nas causas de competência do TSE (art. 74). Designa o Procurador Regional Eleitoral de cada estado e do DF, acompanha os procedimentos do Corregedor-Geral Eleitoral e resolve conflitos de atribuição (art. 75).",
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 73 a 75"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Quem ocupa: o mesmo titular de cargo:procurador-geral-da-republica; não duplicamos a relação ocupa."
+}

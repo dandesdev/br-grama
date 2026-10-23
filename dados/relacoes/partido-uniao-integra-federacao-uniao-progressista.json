@@ -1,0 +1,29 @@
+{
+  "id": "rel:partido-uniao-integra-federacao-uniao-progressista",
+  "tipo": "relacao",
+  "nome": "União Brasil integra a Federação União Progressista",
+  "relacao": "integra",
+  "de": "org:partido-uniao",
+  "para": "org:federacao-uniao-progressista",
+  "condicao": "O partido fica na federação por, no mínimo, quatro anos; se sair antes, não pode entrar em outra federação nem fazer coligação nas duas eleições seguintes e fica sem o Fundo Partidário pelo tempo que faltar.",
+  "vigencia": {
+    "de": "2026-03-26",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-federacoes-registradas",
+      "dispositivo": "tabela: Federação União Progressista, partidos integrantes"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 3º, II, e § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

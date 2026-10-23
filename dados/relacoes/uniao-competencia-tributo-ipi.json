@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-ipi",
+  "tipo": "relacao",
+  "nome": "União: Imposto sobre produtos industrializados (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-ipi",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre produtos industrializados."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

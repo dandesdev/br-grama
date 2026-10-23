@@ -1,0 +1,365 @@
+{
+  "id": "proc:eleicao-geral",
+  "tipo": "processo",
+  "nome": "Eleição geral (Presidente, governadores, senadores e deputados)",
+  "resumo": "A cada quatro anos, no 1º domingo de outubro, o país elege Presidente, governadores, senadores e deputados. Em 2026-10-01 a eleição de 2026 estava em curso.",
+  "detalhes": "O ciclo começa seis meses antes, com os prazos de registro de partidos, filiação e renúncia, passa pelas convenções, pelo registro das candidaturas e pela campanha, e termina com a votação, a apuração, a diplomação e a posse. Os cargos executivos e o Senado usam o sistema majoritário; Câmara dos Deputados e Assembleias, o proporcional. A lei que alterar o processo eleitoral só vale para eleição que ocorra mais de um ano depois da sua vigência (art. 16). Na data de referência (1º/10/2026) já tinham passado o prazo de registro das candidaturas (15/8) e o de julgamento nas instâncias ordinárias (14/9), e era o último dia da propaganda gratuita no rádio e na TV do 1º turno, marcado para 4/10/2026.",
+  "forma": "ciclo",
+  "produz": "obj:diploma-eleitoral",
+  "etapas": [
+    {
+      "id": "prazos-seis-meses",
+      "atores": [
+        "org:partidos-politicos",
+        "org:tse"
+      ],
+      "acao": "Seis meses antes: partidos e federações registrados no TSE; candidatos com domicílio e filiação; renúncias",
+      "detalhes": "Só disputa a eleição o partido ou a federação com estatuto registrado no TSE até seis meses antes. O pretenso candidato precisa ter domicílio eleitoral na circunscrição e filiação deferida no mesmo prazo. Presidente, governadores e prefeitos que queiram concorrer a outro cargo devem renunciar até seis meses antes (CF, art. 14, § 6º).",
+      "prazo": {
+        "texto": "Até seis meses antes do 1º turno; em 2026, até 4 de abril.",
+        "valor": 6,
+        "unidade": "meses",
+        "conta_de": "data do 1º turno"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 6º"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "arts. 4º e 9º"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 4 de abril, itens 1 a 3"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "convencoes",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "convencoes",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Partidos e federações fazem convenções para escolher candidatos e decidir coligações majoritárias",
+      "detalhes": "Coligações só são permitidas nas eleições majoritárias; nas proporcionais, desde 2020, cada partido ou federação concorre sozinho (CF, art. 17, § 1º; EC 97/2017, art. 2º).",
+      "prazo": {
+        "texto": "De 20 de julho a 5 de agosto do ano da eleição (Lei 9.504/1997, art. 8º); em 2026, de 20/7 a 5/8."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "arts. 6º e 8º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 17, § 1º"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 20 de julho, item 1; 5 de agosto, item 1"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pedido-de-registro",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pedido-de-registro",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Partidos, federações e coligações pedem à Justiça Eleitoral o registro dos candidatos",
+      "prazo": {
+        "texto": "Até as 19h de 15 de agosto do ano da eleição; em 2026, sábado, 15/8.",
+        "conta_de": "15 de agosto"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 11, caput"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 15 de agosto, item 1"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-dos-registros",
+          "quando": null
+        },
+        {
+          "para": "propaganda",
+          "quando": "Em paralelo, a campanha começa em 16 de agosto"
+        }
+      ]
+    },
+    {
+      "id": "julgamento-dos-registros",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tse",
+        "org:justica-eleitoral"
+      ],
+      "acao": "A Justiça Eleitoral confere elegibilidade e inelegibilidades e defere ou indefere cada registro",
+      "detalhes": "O TSE julga os pedidos para Presidente e Vice; os TREs, os demais cargos da eleição geral (Código Eleitoral, art. 89). Candidatos, partidos, coligações e o Ministério Público podem impugnar o pedido em cinco dias da publicação (LC 64/1990, art. 3º). Os critérios estão em obj:registro-de-candidatura.",
+      "prazo": {
+        "texto": "Todos os pedidos, inclusive impugnados e recursos, julgados nas instâncias ordinárias até 20 dias antes da eleição; em 2026, até 14/9.",
+        "valor": 20,
+        "unidade": "dias",
+        "conta_de": "data do 1º turno"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 89, I e II"
+        },
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 3º"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 16, caput e § 1º"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 14 de setembro, item 2"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "primeiro-turno",
+          "quando": "Registro deferido"
+        }
+      ]
+    },
+    {
+      "id": "propaganda",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Campanha: propaganda eleitoral liberada e horário gratuito no rádio e na TV",
+      "detalhes": "A propaganda eleitoral, inclusive na internet, só é permitida depois de 15 de agosto. O horário gratuito ocupa os 35 dias anteriores à antevéspera da eleição; propaganda paga no rádio e na TV é proibida.",
+      "prazo": {
+        "texto": "Propaganda a partir de 16 de agosto; horário gratuito do 1º turno de 28/8 a 1º/10/2026 (35 dias anteriores à antevéspera)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 36, caput e § 2º; art. 47, caput"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 16 de agosto, item 1; 28 de agosto, item 3; 1º de outubro, item 1"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "primeiro-turno",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "primeiro-turno",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Eleitores votam, em todo o país, para Presidente, governador, senador, deputado federal e estadual ou distrital",
+      "detalhes": "Voto direto e secreto, obrigatório dos 18 aos 70 anos e facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos (art. 14, § 1º). Em 2026 votam 158,7 milhões de eleitores aptos em 517.206 seções de 2.641 zonas eleitorais, segundo o TSE.",
+      "prazo": {
+        "texto": "Primeiro domingo de outubro do ano anterior ao fim dos mandatos; em 2026, 4 de outubro."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, caput e § 1º; art. 28, caput; art. 77, caput"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 4 de outubro, item 1"
+        },
+        {
+          "ref": "fonte:tse-noticia-eleitorado-2026",
+          "dispositivo": "parágrafos 1 e 3"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apuracao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "apuracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:juntas-eleitorais",
+        "org:justica-eleitoral",
+        "org:tse"
+      ],
+      "acao": "Juntas apuram; TREs e TSE totalizam, aplicam os sistemas majoritário e proporcional e proclamam os eleitos",
+      "detalhes": "Majoritário: Presidente e governador precisam da maioria absoluta dos votos válidos (sem brancos e nulos); senador segue o princípio majoritário, sem 2º turno (CF, art. 46; Código Eleitoral, art. 83). Proporcional (deputados): divide-se o total de votos válidos pelo número de vagas (quociente eleitoral); cada partido ou federação recebe tantas vagas quantas vezes atingir o quociente (quociente partidário), preenchidas pelos mais votados que tenham ao menos 10% do quociente. As vagas que sobram vão às maiores médias (Código Eleitoral, arts. 106 a 109). O TSE apura a eleição presidencial; os TREs, as demais.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 45, caput; art. 46, caput; art. 77, § 2º; art. 28, caput"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 2º, caput; art. 5º"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 40, I; arts. 83, 84, 106 a 109 e 197; arts. 205 a 211"
+        },
+        {
+          "ref": "fonte:stf-informativo-1126",
+          "dispositivo": "ADI 7.228/DF, 7.263/DF e 7.325/DF"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "segundo-turno",
+          "quando": "Nenhum candidato a Presidente ou governador obteve maioria absoluta dos votos válidos"
+        },
+        {
+          "para": "diplomacao",
+          "quando": "Eleitos definidos no 1º turno"
+        }
+      ]
+    },
+    {
+      "id": "segundo-turno",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Nova votação entre os dois mais votados para Presidente e, onde houver, para governador",
+      "detalhes": "Vence quem tiver a maioria dos votos válidos. Se antes do 2º turno um candidato morrer, desistir ou for impedido, entra o de maior votação entre os restantes; empate em segundo lugar favorece o mais idoso. A propaganda gratuita do 2º turno vai da sexta-feira seguinte ao 1º turno até a antevéspera (em 2026, de 9/10 a 23/10).",
+      "prazo": {
+        "texto": "Último domingo de outubro; em 2026, 25 de outubro. A CF diz 'em até vinte dias após a proclamação do resultado' (art. 77, § 3º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 77, caput e §§ 3º a 5º; art. 28, caput"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 2º, §§ 1º a 3º; art. 49, caput"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 9 de outubro, item 1; 25 de outubro, item 1"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "diplomacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "diplomacao",
+      "atores": [
+        "org:tse",
+        "org:justica-eleitoral"
+      ],
+      "acao": "A Justiça Eleitoral expede os diplomas dos eleitos e dos suplentes",
+      "detalhes": "O TSE diploma o Presidente e o Vice; os TREs, os governadores, senadores e deputados. A partir da diplomação corre o prazo de 15 dias para a ação de impugnação de mandato eletivo.",
+      "prazo": {
+        "texto": "Em 2026, até 18 de dezembro."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 30, VII; art. 197, IV; art. 212, § 2º; art. 215"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 10"
+        },
+        {
+          "ref": "norma:resolucao-tse-23760-2026",
+          "dispositivo": "Anexo I, 18 de dezembro, item 1"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "posse",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "posse",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:congresso-nacional",
+        "org:camara-dos-deputados",
+        "org:senado-federal",
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "Posse: Presidente em 5/1, governadores em 6/1 e parlamentares a partir de 1º/2 do ano seguinte",
+      "detalhes": "O Presidente e o Vice tomam posse em sessão do Congresso Nacional (art. 78). As datas de 5 e 6 de janeiro valem a partir da eleição de 2026 (EC 111/2021, art. 5º); até então a posse era em 1º de janeiro. Deputados federais e senadores tomam posse nas sessões preparatórias das Casas, a partir de 1º de fevereiro do primeiro ano da legislatura (art. 57, § 4º). Para a eleição de 2026: 5/1/2027, 6/1/2027 e a partir de 1º/2/2027.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 28, caput; art. 57, § 4º; art. 78; art. 82"
+        },
+        {
+          "ref": "norma:ec-111-2021",
+          "dispositivo": "arts. 4º e 5º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Regras atuais de datas desde a EC 16/1997 (1º domingo e último domingo de outubro) e, para a posse, desde a EC 111/2021. Ciclo em curso na data de referência: eleição de 2026."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 14 a 17; art. 28; art. 45; art. 46; arts. 77 e 82"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "arts. 1º, 2º, 8º, 11, 16, 36 e 47"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 84, 89, 106 a 109 e 215"
+    },
+    {
+      "ref": "norma:resolucao-tse-23760-2026",
+      "dispositivo": "Anexo I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "A posse nas Assembleias Legislativas não foi pesquisada (depende das constituições estaduais); o ator org:arquetipo-estadual-assembleia-legislativa está na etapa só porque os deputados estaduais são eleitos nesta eleição. Faltam os nós do governador típico (f0-tipicos). Sobras: o Planalto marca 'Vide ADI 7228, 7263 e 7325' no art. 109, § 2º, e no art. 111 do Código Eleitoral; pelo STF (Informativo 1126), todos os partidos e candidatos participam da 3ª etapa de distribuição das sobras, sem as exigências de 80% e 20% do quociente, e o art. 111 é inconstitucional. Não detalhamos isso no texto da etapa para mantê-lo curto."
+}

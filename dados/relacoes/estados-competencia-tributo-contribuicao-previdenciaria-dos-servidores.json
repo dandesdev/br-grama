@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-tributo-contribuicao-previdenciaria-dos-servidores",
+  "tipo": "relacao",
+  "nome": "Estados: Contribuição para o regime próprio de previdência dos servidores (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:tributo-contribuicao-previdenciaria-dos-servidores",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Cada ente institui, por lei, a contribuição dos próprios servidores. O DF tem a mesma competência (art. 149, § 1º)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

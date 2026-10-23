@@ -1,0 +1,32 @@
+{
+  "id": "obj:fndr",
+  "tipo": "objeto",
+  "nome": "Fundo Nacional de Desenvolvimento Regional",
+  "sigla": "FNDR",
+  "resumo": "Fundo criado pela reforma tributária para a União entregar recursos aos estados e ao DF para infraestrutura, produção e inovação, a partir de 2029.",
+  "detalhes": "A divisão segue população (30%) e o coeficiente de cada estado no FPE (70%); o TCU regulamenta e calcula os coeficientes (art. 159-A, §§ 4º e 5º). Os valores começam em 2029 e crescem até 2043, quando se estabilizam (EC 132/2023, art. 13).",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Instituído pela EC 132/2023; as entregas começam em 2029 (EC 132/2023, art. 13, I). Em 2026-10-01 não havia entregas."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159-A"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 13"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'documento' por falta de termo melhor.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:uniao-repassa-impostos-residuais-estados",
+  "tipo": "relacao",
+  "nome": "A União entrega aos estados e ao DF 20% dos impostos residuais",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Pertencem aos estados e ao DF 20% da arrecadação de impostos que a União criar com base na competência residual (art. 154, I).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 157, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

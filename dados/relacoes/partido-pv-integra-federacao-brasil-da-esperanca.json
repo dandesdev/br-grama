@@ -1,0 +1,29 @@
+{
+  "id": "rel:partido-pv-integra-federacao-brasil-da-esperanca",
+  "tipo": "relacao",
+  "nome": "PV integra a Federação Brasil da Esperança",
+  "relacao": "integra",
+  "de": "org:partido-pv",
+  "para": "org:federacao-brasil-da-esperanca",
+  "condicao": "O partido fica na federação por, no mínimo, quatro anos; se sair antes, não pode entrar em outra federação nem fazer coligação nas duas eleições seguintes e fica sem o Fundo Partidário pelo tempo que faltar.",
+  "vigencia": {
+    "de": "2022-05-24",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-federacoes-registradas",
+      "dispositivo": "tabela: Federação Brasil da Esperança, partidos integrantes"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 3º, II, e § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

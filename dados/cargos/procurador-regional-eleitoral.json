@@ -1,0 +1,44 @@
+{
+  "id": "cargo:procurador-regional-eleitoral",
+  "tipo": "cargo",
+  "nome": "Procurador Regional Eleitoral",
+  "resumo": "Membro do MPF que atua nas causas do TRE de um estado ou do DF e dirige ali as atividades eleitorais do MP. Mandato de dois anos, com uma recondução.",
+  "orgao": "org:ministerio-publico-eleitoral",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "É designado, com o substituto, pelo Procurador-Geral Eleitoral dentre os Procuradores Regionais da República no estado ou no DF ou, onde não houver, dentre os Procuradores da República vitalícios (LC 75/1993, art. 76). A escolha é livre dentro desse grupo, mas a destituição antes do fim do mandato depende da concordância da maioria absoluta do Conselho Superior do MPF (art. 76, § 2º).",
+  "vagas": 27,
+  "vagas_nota": "Um em cada estado e no Distrito Federal (art. 75, I).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "uma vez (art. 76, § 1º)"
+  },
+  "requisitos": [
+    {
+      "texto": "ser Procurador Regional da República no estado ou no DF ou, onde não houver, Procurador da República vitalício",
+      "fontes": []
+    }
+  ],
+  "detalhes": "Exerce as funções do Ministério Público nas causas do TRE respectivo (art. 77). O Procurador-Geral Eleitoral pode designar outros membros do MPF para atuar perante os TREs sob a coordenação dele.",
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 75, I; arts. 76 e 77"
+    }
+  ],
+  "campos": {
+    "provimento": {
+      "nota": "O vocabulário não tem termo para 'designação' entre membros de uma carreira com mandato; 'nomeacao-livre' é o mais próximo, com a ressalva da destituição na nota."
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

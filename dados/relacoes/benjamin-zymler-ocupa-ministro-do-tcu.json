@@ -6,15 +6,17 @@
   "de": "pessoa:benjamin-zymler",
   "para": "cargo:ministro-do-tcu",
   "vigencia": {
-    "de": "2001",
-    "ate": null,
-    "incerta": true,
-    "nota": "O currículo publicado pelo TCU diz \"Desde 2001 Ministro do Tribunal de Contas da União\"; o dia da posse não foi conferido em fonte oficial."
+    "de": "2001-09-11",
+    "ate": null
   },
   "fontes": [
     {
       "ref": "fonte:tcu-curriculos-ministros",
-      "dispositivo": "currículo do ministro Benjamin Zymler: \"Desde 2001 Ministro do Tribunal de Contas da União\"; \"1998/2001 Ministro-substituto\""
+      "dispositivo": "currículo do ministro Benjamin Zymler, histórico profissional: \"Desde 11/9/2001 até os dias atuais: ocupa o cargo de Ministro do TCU\""
+    },
+    {
+      "ref": "fonte:senado-msf-160-2001",
+      "dispositivo": "nomeação publicada no DOU nº 168-E, de 31/8/2001, Seção II, p. 1"
     },
     {
       "ref": "fonte:tcu-autoridades",
@@ -24,8 +26,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: vigencia.de era \"2001\" (incerta); o histórico profissional do currículo publicado pelo TCU dá 11/9/2001, coerente com a nomeação no DOU de 31/8/2001 (MSF 160/2001 no Senado)"
   }
 }

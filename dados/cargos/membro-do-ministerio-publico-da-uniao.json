@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "detalhes": "Garantias: vitaliciedade, inamovibilidade (salvo interesse público, por decisão da maioria absoluta do colegiado competente) e irredutibilidade de subsídio. Vedações: receber honorários ou custas, advogar, participar de sociedade comercial, exercer outra função pública salvo uma de magistério e exercer atividade político-partidária (CF, art. 128, § 5º). Os que oficiam perante tribunais são julgados pelo STJ; os demais, pelo TRF (arts. 105, I, a, e 108, I, a).",
+  "detalhes": "Garantias: vitaliciedade, inamovibilidade (salvo interesse público, por decisão da maioria absoluta do colegiado competente) e irredutibilidade de subsídio. Vedações: receber honorários ou custas, advogar, participar de sociedade comercial, exercer outra função pública salvo uma de magistério, exercer atividade político-partidária e receber auxílios ou contribuições de pessoas ou entidades, salvo exceções da lei (CF, art. 128, § 5º). Nos crimes comuns e de responsabilidade, os que oficiam perante tribunais são julgados pelo STJ; os demais, pelo TRF, ressalvada a Justiça Eleitoral (arts. 105, I, a, e 108, I, a).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -52,8 +52,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: faltava a vedação do art. 128, § 5º, II, f, e a ressalva da Justiça Eleitoral no foro; LC 152/2015, art. 2º, III, e LC 75/1993, art. 44, conferidos"
   }
 }

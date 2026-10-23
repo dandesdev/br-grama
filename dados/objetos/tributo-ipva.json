@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-ipva",
+  "tipo": "objeto",
+  "nome": "Imposto sobre a propriedade de veículos automotores",
+  "sigla": "IPVA",
+  "resumo": "Imposto dos estados e do DF sobre a propriedade de veículos.",
+  "detalhes": "Metade da arrecadação vai para o município onde o veículo é licenciado (art. 158, III). A fixação da base de cálculo não precisa esperar 90 dias (art. 150, § 1º).",
+  "tipo_objeto": "materia",
+  "esfera": "estadual",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, III; art. 158, III; art. 150, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

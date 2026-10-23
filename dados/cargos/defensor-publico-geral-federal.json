@@ -5,9 +5,9 @@
   "sigla": "DPGF",
   "resumo": "Chefe da Defensoria Pública da União, escolhido pelo Presidente em lista tríplice eleita pela carreira e aprovado pelo Senado.",
   "orgao": "org:dpu",
-  "provimento": "nomeacao-a-partir-de-lista",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
   "vagas": 1,
-  "provimento_nota": "Os defensores públicos federais elegem uma lista tríplice por voto direto, secreto, plurinominal e obrigatório; o Presidente da República escolhe um nome, que precisa ser aprovado pela maioria absoluta do Senado antes da nomeação (LC 80/1994, art. 6º; CF, art. 52, III, f).",
+  "provimento_nota": "Os defensores públicos federais elegem uma lista tríplice por voto direto, secreto, plurinominal e obrigatório; o Presidente da República escolhe um dos três, e o nome precisa ser aprovado pela maioria absoluta do Senado antes da nomeação (LC 80/1994, art. 6º; CF, art. 52, III, f).",
   "mandato": {
     "anos": 2,
     "vitalicio": false,
@@ -54,7 +54,6 @@
       "dispositivo": "arts. 6º a 8º e 23"
     }
   ],
-  "notas": "Provimento: o vocabulário não tem um termo para \"lista tríplice e aprovação do Senado\"; usamos nomeacao-a-partir-de-lista, e a aprovação do Senado está em rel:senado-aprova-indicacao-defensor-publico-geral-federal.",
   "vigencia": {
     "de": "1994-01-13",
     "ate": null,
@@ -62,8 +61,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; provimento trocado de nomeacao-a-partir-de-lista para nomeacao-com-aprovacao-do-senado (definição ampliada depois da coleta); a lista tríplice fica em provimento_nota; nota sobre a falta do termo removida; LC 80/1994, arts. 6º a 8º e 23, conferidos"
   }
 }

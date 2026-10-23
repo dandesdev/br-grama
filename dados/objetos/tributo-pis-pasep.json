@@ -1,0 +1,31 @@
+{
+  "id": "obj:tributo-pis-pasep",
+  "tipo": "objeto",
+  "nome": "Contribuições para o PIS e o Pasep",
+  "sigla": "PIS/Pasep",
+  "resumo": "Contribuições para o Programa de Integração Social e o Programa de Formação do Patrimônio do Servidor Público, que financiam o seguro-desemprego e o abono salarial.",
+  "detalhes": "Pelo menos 28% vão para programas de desenvolvimento via BNDES (art. 239, § 1º). O PIS será extinto em 2027, substituído pela CBS (ADCT, art. 126, II); o Pasep continua sendo cobrado até que lei disponha sobre ele (EC 132/2023, art. 20).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Recepcionadas pela CF de 1988 (criadas em 1970). O PIS é extinto a partir de 2027 (ADCT, art. 126, II); o Pasep continua (EC 132/2023, art. 20)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 239; ADCT, art. 126, II"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 20"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

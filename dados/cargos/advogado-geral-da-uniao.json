@@ -10,7 +10,7 @@
   "mandato": {
     "anos": null,
     "vitalicio": false,
-    "nota": "Não tem mandato: pode ser exonerado a qualquer tempo pelo Presidente."
+    "nota": "Não tem mandato: é de livre nomeação (CF, art. 131, § 1º) e, como Ministro de Estado (Lei 14.600/2023, art. 18, VII), pode ser exonerado pelo Presidente a qualquer tempo (CF, art. 84, I)."
   },
   "requisitos": [
     {
@@ -36,7 +36,7 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 52, II; art. 84, XVI; art. 103, § 3º; art. 131, § 1º"
+      "dispositivo": "art. 52, II; art. 84, I e XVI; art. 103, § 3º; art. 131, § 1º"
     },
     {
       "ref": "norma:lc-73-1993",
@@ -55,8 +55,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; nota do mandato passou a citar a base da exoneração (art. 84, I, com a Lei 14.600/2023, art. 18, VII); CF, arts. 52, II, 84, XVI, 103, § 3º (em vigor) e 131, § 1º, LC 73/1993, arts. 3º e 4º, e Lei 14.600/2023, arts. 14 e 18, VII, conferidos"
   }
 }

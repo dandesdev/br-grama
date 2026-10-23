@@ -1,0 +1,44 @@
+{
+  "id": "org:ministerio-publico-eleitoral",
+  "tipo": "orgao",
+  "nome": "Ministério Público Eleitoral",
+  "resumo": "Funções do Ministério Público junto à Justiça Eleitoral, exercidas pelo MPF em todas as fases e instâncias e, nas zonas, por promotores dos MPs estaduais.",
+  "detalhes": "Não é um ramo próprio do Ministério Público: a LC 75/1993 dá ao MPF as funções eleitorais. No TSE atua o Procurador-Geral Eleitoral, que é o Procurador-Geral da República; em cada TRE, um Procurador Regional Eleitoral; perante os juízes e as juntas eleitorais, o Promotor Eleitoral, membro do Ministério Público do estado.",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpf",
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 72 a 80"
+    },
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 22, caput"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 72, caput"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null,
+    "nota": "Data de vigência da LC 75/1993, que organiza as funções eleitorais do MPF."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "O nome 'Ministério Público Eleitoral' aparece na lei (LC 64/1990, art. 22); a LC 75/1993 fala em 'funções eleitorais do Ministério Público Federal' (título da Seção X). Não está na lista de ramos do art. 128 da CF. Posto dentro do MPF porque a lei atribui a ele as funções (art. 72); os promotores eleitorais, porém, são do MP estadual (art. 79)."
+}

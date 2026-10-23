@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-tributo-iptu",
+  "tipo": "relacao",
+  "nome": "Municípios: Imposto sobre a propriedade predial e territorial urbana (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:tributo-iptu",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre a propriedade urbana. O DF cobra os impostos municipais (art. 147)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156, I; art. 147"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

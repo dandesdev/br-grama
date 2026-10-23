@@ -1,0 +1,33 @@
+{
+  "id": "rel:cmo-delibera-ppa",
+  "tipo": "relacao",
+  "nome": "A CMO dá parecer sobre o projeto do plano plurianual",
+  "relacao": "delibera",
+  "de": "org:cmo",
+  "para": "obj:ppa",
+  "condicao": "Examina o projeto, recebe as emendas dos parlamentares, das comissões e das bancadas e vota o parecer, que segue para o Plenário do Congresso.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 166, § 1º, I, e § 2º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "art. 2º, I; arts. 94 a 98"
+    },
+    {
+      "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+      "dispositivo": "arts. 94 a 98"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

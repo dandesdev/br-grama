@@ -1,0 +1,57 @@
+{
+  "id": "cargo:diretor-do-banco-central",
+  "tipo": "cargo",
+  "nome": "Diretor do Banco Central do Brasil",
+  "resumo": "Membro da Diretoria Colegiada do Banco Central, com mandato fixo de quatro anos; são oito diretores, com mandatos escalonados.",
+  "detalhes": "Os mandatos começam em datas diferentes, dois a cada ano do mandato presidencial, para que a diretoria não seja trocada de uma vez (LC 179/2021, art. 4º, § 2º).",
+  "orgao": "org:banco-central",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "provimento_nota": "Mesma forma do Presidente do Banco Central: indicação e nomeação pelo Presidente da República após aprovação do Senado (CF, arts. 52, III, d, e 84, XIV; LC 179/2021, art. 4º), com as mesmas hipóteses de exoneração (art. 5º).",
+  "mandato": {
+    "anos": 4,
+    "vitalicio": false,
+    "inicio": "Escalonado: dois diretores em 1º de março do primeiro ano do mandato presidencial e dois em 1º de janeiro de cada um dos três anos seguintes",
+    "reconducao": "uma vez, por decisão do Presidente da República",
+    "nota": "O mandato se estende até a posse do sucessor (LC 179/2021, art. 4º, §§ 2º a 4º)."
+  },
+  "vagas": 8,
+  "vagas_nota": "A Diretoria Colegiada tem nove membros, um deles o Presidente (LC 179/2021, art. 3º); restam oito diretores.",
+  "requisitos": [
+    {
+      "texto": "brasileiro idôneo, de reputação ilibada e de notória capacidade em assuntos econômico-financeiros ou com conhecimentos comprovados que o qualifiquem para a função",
+      "fontes": [
+        {
+          "ref": "norma:lc-179-2021",
+          "dispositivo": "art. 3º"
+        }
+      ]
+    }
+  ],
+  "campos": {
+    "vagas": {
+      "confianca": "inferido",
+      "nota": "Oito é a conta de nove membros menos o Presidente (LC 179/2021, art. 3º); o art. 4º, § 2º, distribui oito mandatos de diretor."
+    }
+  },
+  "vigencia": {
+    "de": "2021-02-25",
+    "ate": null,
+    "nota": "Mandatos fixos desde a LC 179/2021; o cargo é anterior. Não pesquisamos os ocupantes (D11: diretores não são citados nominalmente)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, d; art. 84, XIV"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 3º, 4º, 5º e 10"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

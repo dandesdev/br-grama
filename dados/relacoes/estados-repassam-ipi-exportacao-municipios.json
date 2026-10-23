@@ -1,0 +1,25 @@
+{
+  "id": "rel:estados-repassam-ipi-exportacao-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados entregam aos municípios 25% do que recebem da cota de exportação do IPI e do Imposto Seletivo",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Entregam 25% do que recebem pelo art. 159, II, segundo os critérios do ICMS (para a parte do IPI) e do IBS (para a do Imposto Seletivo).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

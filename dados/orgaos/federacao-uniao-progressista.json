@@ -1,0 +1,38 @@
+{
+  "id": "org:federacao-uniao-progressista",
+  "tipo": "orgao",
+  "nome": "Federação União Progressista",
+  "resumo": "Federação de partidos formada por União Brasil e Progressistas (PP), registrada no TSE em 26/3/2026. Atua como um só partido nas eleições e no Parlamento.",
+  "detalhes": "Cada partido mantém nome, registro e autonomia, mas a federação age como se fosse uma única agremiação: lança candidatos, soma votos na distribuição de cadeiras e segue as regras de funcionamento parlamentar e de fidelidade partidária. Os partidos devem ficar nela por, no mínimo, quatro anos (Lei 9.096/1995, art. 11-A).",
+  "tipo_orgao": "federacao-partidaria",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": "2026-03-26",
+    "ate": null,
+    "nota": "Data de deferimento do registro pelo TSE."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-federacoes-registradas",
+      "dispositivo": "tabela 'Federações partidárias registradas no TSE': Federação União Progressista, deferimento em 26/3/2026 (RFP nº 0601165-53.2025.6.00.0000)"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, caput, §§ 1º a 3º e 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TSE: federações partidárias registradas",
+      "url": "https://www.tse.jus.br/partidos/federacoes-registradas-no-tse/federacoes-partidarias-registradas-no-tse"
+    }
+  ],
+  "notas": "Registrada na página do TSE na cópia de 1º/10/2026. Partidos integrantes como relações 'integra' (partido -> federação), não como contido_em, porque o partido não é subordinado à federação (art. 11-A, § 2º). Presidente nacional listado pelo TSE não registrado (D11: não é cúpula do Estado)."
+}

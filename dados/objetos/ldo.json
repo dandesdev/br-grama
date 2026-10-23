@@ -1,0 +1,39 @@
+{
+  "id": "obj:ldo",
+  "tipo": "objeto",
+  "nome": "Lei de diretrizes orçamentárias",
+  "sigla": "LDO",
+  "resumo": "Lei anual de iniciativa do Executivo que fixa metas e prioridades, a política fiscal e as regras para elaborar o orçamento do ano seguinte.",
+  "detalhes": "Traz as metas fiscais, em linha com uma trajetória sustentável da dívida, orienta a elaboração da LOA, dispõe sobre mudanças na legislação tributária e define a política das agências oficiais de fomento (art. 165, § 2º). O Congresso não entra em recesso de julho sem aprová-la (art. 57, § 2º). O projeto é enviado até oito meses e meio antes do fim do ano (15 de abril) e devolvido até o fim do primeiro período da sessão legislativa (ADCT, art. 35, § 2º, II).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 165, II, e §§ 2º e 12; art. 57, § 2º; ADCT, art. 35, § 2º, II"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "campos": {
+    "detalhes": {
+      "confianca": "inferido",
+      "nota": "A data de 15 de abril é cálculo nosso: oito meses e meio antes de 31 de dezembro. O 'recesso de julho' é leitura do art. 57, caput (a sessão vai de 2/2 a 17/7 e de 1º/8 a 22/12) com o § 2º."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

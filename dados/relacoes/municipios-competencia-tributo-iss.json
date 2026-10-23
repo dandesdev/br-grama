@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-tributo-iss",
+  "tipo": "relacao",
+  "nome": "Municípios: Imposto sobre serviços de qualquer natureza (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:tributo-iss",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre serviços. O DF cobra os impostos municipais (art. 147). Extinto a partir de 2033 (ADCT, art. 129)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "2032-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156, III; art. 147; ADCT, art. 129"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

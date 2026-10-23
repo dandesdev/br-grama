@@ -1,0 +1,29 @@
+{
+  "id": "rel:partido-psdb-integra-federacao-psdb-cidadania",
+  "tipo": "relacao",
+  "nome": "PSDB integra a Federação PSDB Cidadania",
+  "relacao": "integra",
+  "de": "org:partido-psdb",
+  "para": "org:federacao-psdb-cidadania",
+  "condicao": "O partido fica na federação por, no mínimo, quatro anos; se sair antes, não pode entrar em outra federação nem fazer coligação nas duas eleições seguintes e fica sem o Fundo Partidário pelo tempo que faltar.",
+  "vigencia": {
+    "de": "2022-05-26",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-federacoes-registradas",
+      "dispositivo": "tabela: Federação PSDB Cidadania, partidos integrantes"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 3º, II, e § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

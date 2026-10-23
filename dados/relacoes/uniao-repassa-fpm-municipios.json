@@ -1,0 +1,26 @@
+{
+  "id": "rel:uniao-repassa-fpm-municipios",
+  "tipo": "relacao",
+  "nome": "A União entrega aos municípios 25,5% do IR, do IPI e do Imposto Seletivo, pelo FPM",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Entrega ao Fundo de Participação dos Municípios (obj:fpm) 22,5% da arrecadação do imposto de renda, do IPI e do Imposto Seletivo, mais 1% no primeiro decêndio de julho, 1% no de setembro e 1% no de dezembro.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159, I, b, d, e e f, e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Parcelas adicionais de 1%: EC 55/2007 (dezembro), EC 84/2014 (julho) e EC 112/2021 (setembro).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

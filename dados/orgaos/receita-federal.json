@@ -1,0 +1,59 @@
+{
+  "id": "org:receita-federal",
+  "tipo": "orgao",
+  "nome": "Secretaria Especial da Receita Federal do Brasil",
+  "sigla": "RFB",
+  "resumo": "Órgão do Ministério da Fazenda que administra os tributos federais e a aduana: fiscaliza, lança, cobra e arrecada.",
+  "detalhes": "Planeja e executa a administração tributária e aduaneira da União, inclusive das contribuições sociais; interpreta a legislação tributária federal, cria obrigações acessórias e julga em primeira instância os processos administrativos de exigência de tributos.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 2º, II, b"
+        }
+      ],
+      "nota": "Órgão específico singular do Ministério da Fazenda na estrutura regimental."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 37, XXII"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, II, b; art. 27"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, II, b, e arts. 27 e seguintes",
+      "nota": "subsecretarias e unidades da RFB"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Existe na estrutura regimental vigente em 2026-10-01; a data de criação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "Receita Federal (gov.br)",
+      "url": "https://www.gov.br/receitafederal/pt-br"
+    }
+  ],
+  "notas": "O id segue a tarefa (org:receita-federal); o nome oficial no decreto é Secretaria Especial da Receita Federal do Brasil. A CF, art. 37, XXII, trata as administrações tributárias como atividades essenciais ao funcionamento do Estado, exercidas por servidores de carreiras específicas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -12,7 +12,7 @@
         "org:eleitorado-nacional"
       ],
       "acao": "Um cidadão, partido político, associação ou sindicato denuncia irregularidade ou ilegalidade ao TCU",
-      "detalhes": "Partidos, associações e sindicatos também podem denunciar, mas não têm nó próprio no mapa; o ator mostrado é o eleitorado, que reúne os cidadãos. O denunciante não sofre sanção administrativa, civil ou penal pela denúncia, salvo má-fé comprovada.",
+      "detalhes": "Partidos, associações e sindicatos também podem denunciar, mas não têm nó próprio no mapa. O ator mostrado é o eleitorado, aproximação nossa: a CF não define 'cidadão' neste artigo, e o eleitorado é o conjunto que mais se aproxima dele no mapa. O denunciante não sofre sanção administrativa, civil ou penal pela denúncia, salvo má-fé comprovada.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -155,8 +155,9 @@
   "confianca": "oficial",
   "notas": "O art. 55, § 1º (o Tribunal decide se mantém ou não o sigilo de objeto e autoria) tem expressão suspensa pela Resolução SF 16/2006, segundo anotação do Planalto; por isso a etapa final usa só o § 3º (Lei 13.866/2019). A resolução do Senado não foi lida. 'Cidadão' aqui foi associado ao eleitorado (org:eleitorado-nacional); se o mapa ganhar um nó para a sociedade civil ou para os partidos em conjunto, o ator da etapa 'denuncia' deve ser revisto.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; CF art. 74, § 2º, e Lei 8.443/1992, arts. 53 a 55, conferidos etapa por etapa (prazos de 15 e 90 dias, sigilo, arquivamento por despacho fundamentado, § 1º do art. 55 com expressão suspensa pela Res. SF 16/2006 e § 3º incluído pela Lei 13.866/2019); etapa denuncia: deixado explícito que o eleitorado é aproximação nossa para \"cidadão\""
   }
 }

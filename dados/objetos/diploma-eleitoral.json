@@ -1,0 +1,30 @@
+{
+  "id": "obj:diploma-eleitoral",
+  "tipo": "objeto",
+  "nome": "Diploma eleitoral",
+  "resumo": "Documento da Justiça Eleitoral que certifica a eleição de um candidato ou a posição dele como suplente. Sem diploma não há posse.",
+  "detalhes": "Traz o nome do eleito, a legenda, o cargo ou a classificação como suplente. É expedido pelo TSE na eleição do Presidente, pelos TREs nas eleições federais e estaduais e pelas juntas eleitorais nas municipais. A diplomação abre o prazo de 15 dias para a ação de impugnação de mandato eletivo (CF, art. 14, § 10).",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 215; art. 30, VII; art. 40, IV; art. 197, IV; arts. 211 e 212, § 2º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 10"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Que a diplomação é condição da posse é leitura nossa da sequência do Código Eleitoral e do calendário; não citamos dispositivo que diga isso expressamente. Revisar o resumo se a revisão não achar base."
+}

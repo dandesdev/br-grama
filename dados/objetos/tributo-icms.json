@@ -1,0 +1,31 @@
+{
+  "id": "obj:tributo-icms",
+  "tipo": "objeto",
+  "nome": "Imposto sobre circulação de mercadorias e serviços de transporte interestadual e intermunicipal e de comunicação",
+  "sigla": "ICMS",
+  "resumo": "Imposto dos estados e do DF sobre a circulação de mercadorias e alguns serviços; será extinto em 2033 pela reforma tributária.",
+  "detalhes": "Um quarto da arrecadação vai para os municípios (art. 158, IV, a). De 2029 a 2032 as alíquotas caem aos poucos, e o imposto é extinto a partir de 2033, substituído pelo IBS (ADCT, arts. 128 e 129).",
+  "tipo_objeto": "materia",
+  "esfera": "estadual",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "2032-12-31",
+    "nota": "Extinto a partir de 2033 (ADCT, art. 129; EC 132/2023, art. 22, II, a). Em 2026-10-01 vigorava plenamente."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, II, e § 2º; art. 158, IV, a; ADCT, arts. 128 e 129"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 22, II, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

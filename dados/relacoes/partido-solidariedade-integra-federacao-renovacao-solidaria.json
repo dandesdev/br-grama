@@ -1,0 +1,29 @@
+{
+  "id": "rel:partido-solidariedade-integra-federacao-renovacao-solidaria",
+  "tipo": "relacao",
+  "nome": "Solidariedade integra a Federação Renovação Solidária",
+  "relacao": "integra",
+  "de": "org:partido-solidariedade",
+  "para": "org:federacao-renovacao-solidaria",
+  "condicao": "O partido fica na federação por, no mínimo, quatro anos; se sair antes, não pode entrar em outra federação nem fazer coligação nas duas eleições seguintes e fica sem o Fundo Partidário pelo tempo que faltar.",
+  "vigencia": {
+    "de": "2025-12-04",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-federacoes-registradas",
+      "dispositivo": "tabela: Federação Renovação Solidária, partidos integrantes"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 3º, II, e § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

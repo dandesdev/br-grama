@@ -1,0 +1,29 @@
+{
+  "id": "rel:partidos-politicos-presta-contas-a-justica-eleitoral",
+  "tipo": "relacao",
+  "nome": "Prestação de contas dos partidos",
+  "relacao": "presta-contas-a",
+  "de": "org:partidos-politicos",
+  "para": "org:justica-eleitoral",
+  "condicao": "Todo partido presta contas à Justiça Eleitoral; a federação também presta contas como se fosse um partido.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, III"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

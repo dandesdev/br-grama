@@ -1,0 +1,25 @@
+{
+  "id": "rel:justica-eleitoral-julga-aime",
+  "tipo": "relacao",
+  "nome": "Impugnação de mandato na Justiça Eleitoral",
+  "relacao": "julga",
+  "de": "org:justica-eleitoral",
+  "para": "obj:acao-de-impugnacao-de-mandato-eletivo",
+  "condicao": "A ação é proposta perante a Justiça Eleitoral no prazo de 15 dias contados da diplomação.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 10"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

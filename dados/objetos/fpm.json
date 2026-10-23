@@ -1,0 +1,28 @@
+{
+  "id": "obj:fpm",
+  "tipo": "objeto",
+  "nome": "Fundo de Participação dos Municípios",
+  "sigla": "FPM",
+  "resumo": "Fundo que recebe 25,5% do imposto de renda, do IPI e do Imposto Seletivo arrecadados pela União e os divide entre os municípios.",
+  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% em cada um dos primeiros dez dias de julho, setembro e dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160.",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da CF de 1988; o fundo é anterior. Parcelas adicionais de 1%: dezembro pela EC 55/2007, julho pela EC 84/2014, setembro pela EC 112/2021. O Imposto Seletivo entrou na base com a EC 132/2023."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159, I, b, d, e e f; art. 160; art. 161, II e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'documento' por falta de termo melhor. Os critérios de rateio estão na LC 62/1989, citada pela CF compilada ('Vide'), não pesquisada nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

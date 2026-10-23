@@ -1,0 +1,26 @@
+{
+  "id": "rel:procurador-geral-eleitoral-nomeia-procurador-regional-eleitoral",
+  "tipo": "relacao",
+  "nome": "Designação dos Procuradores Regionais Eleitorais",
+  "relacao": "nomeia",
+  "de": "cargo:procurador-geral-eleitoral",
+  "para": "cargo:procurador-regional-eleitoral",
+  "condicao": "Designa o Procurador Regional Eleitoral e o substituto em cada estado e no DF, para mandato de dois anos; a destituição antecipada exige a concordância da maioria absoluta do Conselho Superior do MPF.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 75, I; art. 76"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "A lei diz 'designará'; o vocabulário não tem 'designa', e 'nomeia' (investe formalmente alguém em um cargo) é o mais próximo."
+}

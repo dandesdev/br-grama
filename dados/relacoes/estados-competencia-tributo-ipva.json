@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-tributo-ipva",
+  "tipo": "relacao",
+  "nome": "Estados: Imposto sobre a propriedade de veículos automotores (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:tributo-ipva",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre a propriedade de veículos automotores. O DF tem a mesma competência (art. 155, caput)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

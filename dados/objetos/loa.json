@@ -1,0 +1,35 @@
+{
+  "id": "obj:loa",
+  "tipo": "objeto",
+  "nome": "Lei orçamentária anual",
+  "sigla": "LOA",
+  "resumo": "Lei anual de iniciativa do Executivo que estima a receita e fixa a despesa da União, com os orçamentos fiscal, de investimento das estatais e da seguridade social.",
+  "detalhes": "Não pode conter nada estranho à previsão da receita e à fixação da despesa, salvo autorizar créditos suplementares e operações de crédito (art. 165, § 8º). O projeto é enviado até quatro meses antes do fim do ano (31 de agosto) e devolvido para sanção até o fim da sessão legislativa (ADCT, art. 35, § 2º, III). A administração tem o dever de executar o que foi programado, nos limites das regras fiscais (art. 165, §§ 10 e 11).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 165, III, e §§ 5º, 8º, 10 e 11; art. 166; ADCT, art. 35, § 2º, III"
+    }
+  ],
+  "campos": {
+    "detalhes": {
+      "confianca": "inferido",
+      "nota": "A data de 31 de agosto é cálculo nosso: quatro meses antes de 31 de dezembro."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

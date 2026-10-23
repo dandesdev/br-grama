@@ -1,0 +1,32 @@
+{
+  "id": "rel:executivo-repassa-duodecimos-ministerio-publico-da-uniao",
+  "tipo": "relacao",
+  "nome": "O Executivo entrega os duodécimos ao Ministério Público da União",
+  "relacao": "repassa-recursos",
+  "de": "org:poder-executivo-federal",
+  "para": "org:ministerio-publico-da-uniao",
+  "condicao": "Entrega, até o dia 20 de cada mês, um doze avos das dotações orçamentárias do órgão, inclusive créditos suplementares e especiais.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual pela EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 168"
+    }
+  ],
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "O art. 168 diz que os recursos 'ser-lhes-ão entregues', sem dizer por quem; atribuímos ao Poder Executivo, que executa o orçamento e a programação financeira."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

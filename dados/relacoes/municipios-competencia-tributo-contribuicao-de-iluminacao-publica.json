@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-tributo-contribuicao-de-iluminacao-publica",
+  "tipo": "relacao",
+  "nome": "Municípios: Contribuição para custeio do serviço de iluminação pública (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:tributo-contribuicao-de-iluminacao-publica",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir a contribuição de iluminação pública. O DF tem a mesma competência (art. 149-A)."
+  },
+  "vigencia": {
+    "de": "2002-12-20",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

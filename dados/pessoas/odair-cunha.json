@@ -2,7 +2,7 @@
   "id": "pessoa:odair-cunha",
   "tipo": "pessoa",
   "nome": "Odair Cunha",
-  "nome_civil": "Odair Jose da Cunha",
+  "nome_civil": "Odair José da Cunha",
   "resumo": "Ministro do TCU desde 20 de maio de 2026; antes foi deputado federal por Minas Gerais.",
   "vigencia": {
     "de": null,
@@ -21,9 +21,10 @@
   "filiacoes": [],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: nome_civil \"Odair Jose\" para \"Odair José da Cunha\", grafia do decreto de nomeação e do Decreto Legislativo 19/2026 no DOU; posse em 20/5/2026 conferida"
   },
   "mais_informacoes": [
     {
@@ -31,5 +32,5 @@
       "url": "https://portal.tcu.gov.br/autoridades/ministros/ministro-odair-cunha"
     }
   ],
-  "notas": "Nome completo conforme a lista de ministros do TCU. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
+  "notas": "Nome completo conforme o decreto de nomeação (DOU 28/4/2026); a lista do TCU grafa \"Jose\", sem acento. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
 }

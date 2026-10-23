@@ -3,7 +3,7 @@
   "tipo": "pessoa",
   "nome": "Vital do Rêgo",
   "nome_civil": "Vital do Rêgo Filho",
-  "resumo": "Presidente do TCU e ministro desde 2014, na vaga escolhida pelo Senado.",
+  "resumo": "Presidente do TCU e ministro desde 4 de fevereiro de 2015, na vaga escolhida pelo Senado.",
   "vigencia": {
     "de": null,
     "ate": null
@@ -14,16 +14,21 @@
       "dispositivo": "lista de ministros (nome completo)"
     },
     {
-      "ref": "fonte:tcu-curriculos-ministros",
-      "dispositivo": "currículo do ministro Vital do Rêgo Filho (versão de 30/8/2016)"
+      "ref": "fonte:agencia-senado-posse-vital-do-rego-tcu-2015",
+      "dispositivo": "posse em 4/2/2015, na vaga de José Jorge"
+    },
+    {
+      "ref": "fonte:agencia-senado-nomeacao-vital-do-rego-tcu-2014",
+      "dispositivo": "indicação na vaga do Senado"
     }
   ],
   "filiacoes": [],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: resumo dizia \"ministro desde 2014\"; posse em 4/2/2015 (a nomeação é de 19/12/2014). Nome civil conferido na lista do TCU"
   },
   "mais_informacoes": [
     {

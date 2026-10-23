@@ -7,7 +7,7 @@
   "publicador": "Supremo Tribunal Federal",
   "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2233",
   "acesso_em": "2026-10-23",
-  "arquivo": null,
+  "arquivo": "https://web.archive.org/web/20261023202637/https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2233",
   "oficial": true,
   "vigencia": {
     "de": "2003-10-13",
@@ -15,10 +15,11 @@
     "nota": "Data de publicação do enunciado: DJ de 13/10/2003 (página do STF)."
   },
   "confianca": "oficial",
-  "notas": "Súmula comum, não vinculante: é a interpretação consolidada do STF sobre a CF, arts. 73 e 75, e entra aqui como fonte secundária de interpretação, conforme a tarefa f0-controle. Texto: 'No Tribunal de Contas Estadual, composto por sete conselheiros, quatro devem ser escolhidos pela Assembléia Legislativa e três pelo chefe do Poder Executivo estadual, cabendo a este indicar um dentre auditores e outro dentre membros do Ministério Público, e um terceiro a sua livre escolha.' Cópia bruta em pesquisa/brutos/stf/2026-10-23/sumula-653.html. Wayback não consultado (API devolvendo 429).",
+  "notas": "Súmula comum, não vinculante: é a interpretação consolidada do STF sobre a CF, arts. 73 e 75, e entra aqui como fonte secundária de interpretação, conforme a tarefa f0-controle. Texto: 'No Tribunal de Contas Estadual, composto por sete conselheiros, quatro devem ser escolhidos pela Assembléia Legislativa e três pelo chefe do Poder Executivo estadual, cabendo a este indicar um dentre auditores e outro dentre membros do Ministério Público, e um terceiro a sua livre escolha.' Cópia bruta em pesquisa/brutos/stf/2026-10-23/sumula-653.html.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; enunciado e data de publicação (DJ 13/10/2003) conferidos no portal do STF; arquivo do Wayback preenchido"
   }
 }

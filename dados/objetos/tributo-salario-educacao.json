@@ -1,0 +1,25 @@
+{
+  "id": "obj:tributo-salario-educacao",
+  "tipo": "objeto",
+  "nome": "Contribuição social do salário-educação",
+  "resumo": "Contribuição recolhida pelas empresas como fonte adicional de financiamento da educação básica pública.",
+  "detalhes": "As cotas de estados e municípios são distribuídas conforme o número de alunos matriculados nas redes públicas de educação básica (art. 212, § 6º).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212, §§ 5º e 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "obj:estatuto-de-partido-politico",
+  "tipo": "objeto",
+  "nome": "Estatuto de partido político ou de federação",
+  "resumo": "Documento que organiza o partido. Só depois de registrado no TSE o partido pode disputar eleições, receber o Fundo Partidário e ter tempo de rádio e TV.",
+  "detalhes": "O partido primeiro adquire personalidade jurídica pela lei civil e depois registra o estatuto no TSE (art. 17, § 2º). Para isso precisa provar caráter nacional: apoio de eleitores não filiados igual a pelo menos 0,5% dos votos válidos da última eleição para a Câmara, distribuídos por um terço ou mais dos estados, com no mínimo 0,1% do eleitorado que votou em cada um, colhido em até dois anos (Lei 9.096/1995, art. 7º, § 1º). A federação também registra no TSE um estatuto comum (art. 11-A, § 6º, II). Para disputar a eleição de 2026, o registro tinha de estar feito até 4/4/2026, seis meses antes do 1º turno.",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:partidos-politicos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, § 2º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 7º, §§ 1º a 3º; art. 11-A, § 6º"
+    },
+    {
+      "ref": "norma:resolucao-tse-23760-2026",
+      "dispositivo": "Anexo I, 4 de abril, item 1"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  }
+}

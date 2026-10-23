@@ -1,0 +1,288 @@
+{
+  "id": "proc:eleicao-municipal",
+  "tipo": "processo",
+  "nome": "Eleição municipal (prefeitos e vereadores)",
+  "resumo": "A cada quatro anos, dois anos depois da eleição geral, todos os municípios elegem prefeito, vice e vereadores no mesmo dia. A próxima, depois da data de referência, é a de 2028.",
+  "detalhes": "Segue os mesmos passos da eleição geral: prazos de seis meses, convenções, registro, campanha, votação, apuração, diplomação e posse. As diferenças: o registro é julgado pelo juiz eleitoral, a diplomação é feita pelas juntas eleitorais, prefeito é eleito por maioria simples (há 2º turno só nos municípios com mais de 200 mil eleitores) e a posse é em 1º de janeiro. Junto com a eleição podem ser feitas consultas populares sobre questões locais aprovadas pela Câmara Municipal (art. 14, § 12).",
+  "forma": "ciclo",
+  "produz": "obj:diploma-eleitoral",
+  "etapas": [
+    {
+      "id": "prazos-seis-meses",
+      "atores": [
+        "org:partidos-politicos",
+        "org:tse"
+      ],
+      "acao": "Seis meses antes: partidos e federações registrados; candidatos com domicílio no município e filiação; renúncias",
+      "prazo": {
+        "texto": "Até seis meses antes do 1º turno.",
+        "valor": 6,
+        "unidade": "meses",
+        "conta_de": "data do 1º turno"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 6º"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "arts. 4º e 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "convencoes",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "convencoes",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Convenções escolhem candidatos a prefeito, vice e vereador e decidem coligações para prefeito",
+      "prazo": {
+        "texto": "De 20 de julho a 5 de agosto do ano da eleição."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "arts. 6º e 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pedido-de-registro",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pedido-de-registro",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Partidos, federações e coligações pedem o registro dos candidatos ao juiz eleitoral",
+      "prazo": {
+        "texto": "Até as 19h de 15 de agosto do ano da eleição."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 11, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-dos-registros",
+          "quando": null
+        },
+        {
+          "para": "propaganda",
+          "quando": "Em paralelo, a campanha começa em 16 de agosto"
+        }
+      ]
+    },
+    {
+      "id": "julgamento-dos-registros",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-eleitoral"
+      ],
+      "acao": "O juiz eleitoral defere ou indefere o registro dos candidatos municipais",
+      "prazo": {
+        "texto": "Julgamento nas instâncias ordinárias até 20 dias antes da eleição.",
+        "valor": 20,
+        "unidade": "dias",
+        "conta_de": "data do 1º turno"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 35, XII; art. 89, III"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 16, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "primeiro-turno",
+          "quando": "Registro deferido"
+        }
+      ]
+    },
+    {
+      "id": "propaganda",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Campanha: propaganda eleitoral e horário gratuito no rádio e na TV",
+      "prazo": {
+        "texto": "Propaganda a partir de 16 de agosto; horário gratuito nos 35 dias anteriores à antevéspera da eleição."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 36, caput; art. 47, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "primeiro-turno",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "primeiro-turno",
+      "atores": [
+        "org:arquetipo-municipal-eleitorado"
+      ],
+      "acao": "Eleitores de todos os municípios votam para prefeito e vereador no mesmo dia",
+      "prazo": {
+        "texto": "Primeiro domingo de outubro do ano anterior ao fim dos mandatos (próxima: 2028)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, I e II"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apuracao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "apuracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:juntas-eleitorais"
+      ],
+      "acao": "Juntas apuram e proclamam: prefeito por maioria; vereadores pelo sistema proporcional",
+      "detalhes": "Prefeito: vence quem tiver mais votos válidos; nos municípios com mais de 200 mil eleitores é preciso maioria absoluta, senão há 2º turno. Vereadores: mesmo cálculo de quociente eleitoral e partidário usado para deputados.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, II"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 3º, caput e § 2º"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 40, I; art. 84; arts. 106 a 109"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "segundo-turno",
+          "quando": "Município com mais de 200 mil eleitores e nenhum candidato a prefeito com maioria absoluta"
+        },
+        {
+          "para": "diplomacao",
+          "quando": "Demais casos"
+        }
+      ]
+    },
+    {
+      "id": "segundo-turno",
+      "atores": [
+        "org:arquetipo-municipal-eleitorado"
+      ],
+      "acao": "Nova votação entre os dois candidatos a prefeito mais votados",
+      "prazo": {
+        "texto": "Último domingo de outubro."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, II; art. 77, § 3º"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 2º, § 1º; art. 3º, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "diplomacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "diplomacao",
+      "atores": [
+        "org:juntas-eleitorais"
+      ],
+      "acao": "A junta eleitoral expede os diplomas do prefeito, do vice, dos vereadores e dos suplentes",
+      "detalhes": "Onde houver mais de uma junta no município, diploma a presidida pelo juiz eleitoral mais antigo.",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 40, IV e parágrafo único; art. 215"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "posse",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "posse",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:arquetipo-municipal-prefeito",
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "Posse do prefeito e do vice em 1º de janeiro do ano seguinte",
+      "detalhes": "A CF fixa a data só para prefeito e vice; a posse dos vereadores segue a lei orgânica de cada município (não pesquisado).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, III"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, §§ 12 e 13; art. 29, I a III"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "arts. 1º, 3º, 8º, 11, 16, 36 e 47"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 35, 40, 89 e 215"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Os prazos são os da lei; o calendário de 2028 ainda não existe. Na data de referência não havia eleição municipal em curso (a última foi em 2024)."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-do-planejamento-integra-cmn",
+  "tipo": "relacao",
+  "nome": "O Ministro do Planejamento e Orçamento integra o Conselho Monetário Nacional",
+  "relacao": "integra",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cmn",
+  "condicao": "Só o Ministro de Estado do Planejamento e Orçamento, como membro nato.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "nota": "Redação dada pela Lei 14.600/2023, em vigor na publicação (DOU de 20/6/2023, art. 79). Antes, a MP 1.158/2023 trazia a mesma composição, segundo as marcas do texto compilado."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 8º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "cargo:ministro-de-estado é agregado; a condição restringe ao titular do Planejamento e Orçamento.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

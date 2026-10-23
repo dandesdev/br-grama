@@ -1,0 +1,29 @@
+{
+  "id": "rel:municipios-competencia-tributo-itbi",
+  "tipo": "relacao",
+  "nome": "Municípios: Imposto sobre a transmissão inter vivos de bens imóveis (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:tributo-itbi",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre transmissão onerosa de imóveis. O DF cobra os impostos municipais (art. 147)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156, II; art. 147"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

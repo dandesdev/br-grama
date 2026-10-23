@@ -1,0 +1,32 @@
+{
+  "id": "rel:cmo-emite-parecer-contas-presidente",
+  "tipo": "relacao",
+  "nome": "A CMO dá parecer sobre as contas do Presidente",
+  "relacao": "emite-parecer-previo",
+  "de": "org:cmo",
+  "para": "obj:contas-anuais-do-presidente-da-republica",
+  "condicao": "Examina as contas anuais do Presidente, com o parecer prévio do TCU, e emite parecer antes do julgamento pelo Congresso.",
+  "depende_de": [
+    "rel:tcu-emite-parecer-contas-presidente"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 166, § 1º, I"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "art. 2º, I; arts. 115 e 116"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -11,7 +11,8 @@
   "mandato": {
     "anos": null,
     "vitalicio": false,
-    "nota": "Cargo efetivo, com estabilidade (LC 80/1994, art. 43, IV)."
+    "nota": "Cargo efetivo, com estabilidade (LC 80/1994, art. 43, IV). Aposentadoria compulsória aos 75 anos (LC 152/2015, art. 2º, IV).",
+    "limite": "aposentadoria compulsória aos 75 anos"
   },
   "requisitos": [
     {
@@ -32,11 +33,15 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 134, § 1º; art. 135"
+      "dispositivo": "art. 134, § 1º"
     },
     {
       "ref": "norma:lc-80-1994",
       "dispositivo": "arts. 19, 24 e 43"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, IV"
     }
   ],
   "vigencia": {
@@ -45,8 +50,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
-  }
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: art. 135 da CF saiu das fontes (remete às Seções II e III; a Defensoria é a Seção IV desde a EC 80/2014); acrescentado o limite de 75 anos (LC 152/2015, art. 2º, IV)"
+  },
+  "notas": "O art. 135 da CF (remuneração por subsídio) fala nas carreiras das \"Seções II e III\" do capítulo; desde a EC 80/2014 a Defensoria está na Seção IV, e o texto não foi ajustado. Por isso não citamos o art. 135 aqui."
 }

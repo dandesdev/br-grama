@@ -1,0 +1,27 @@
+{
+  "id": "obj:tributo-contribuicao-de-iluminacao-publica",
+  "tipo": "objeto",
+  "nome": "Contribuição para custeio do serviço de iluminação pública",
+  "sigla": "COSIP",
+  "resumo": "Contribuição dos municípios e do DF para custear a iluminação pública e o monitoramento de logradouros.",
+  "detalhes": "Pode ser cobrada na conta de energia elétrica (art. 149-A, parágrafo único). A EC 132/2023 acrescentou os sistemas de monitoramento para segurança dos logradouros.",
+  "tipo_objeto": "materia",
+  "esfera": "municipal",
+  "vigencia": {
+    "de": "2002-12-20",
+    "ate": null,
+    "nota": "Incluída pela EC 39/2002 (DOU de 20/12/2002), que entrou em vigor na publicação; nova redação pela EC 132/2023."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

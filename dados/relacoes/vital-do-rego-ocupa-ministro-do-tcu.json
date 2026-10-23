@@ -6,15 +6,21 @@
   "de": "pessoa:vital-do-rego",
   "para": "cargo:ministro-do-tcu",
   "vigencia": {
-    "de": "2014",
-    "ate": null,
-    "incerta": true,
-    "nota": "O currículo publicado pelo TCU diz que foi senador até 2014, \"quando tomou posse no Tribunal de Contas da União\"; o dia não foi conferido em fonte oficial."
+    "de": "2015-02-04",
+    "ate": null
   },
   "fontes": [
     {
-      "ref": "fonte:tcu-curriculos-ministros",
-      "dispositivo": "currículo do ministro Vital do Rêgo Filho (versão de 30/8/2016)"
+      "ref": "fonte:agencia-senado-posse-vital-do-rego-tcu-2015",
+      "dispositivo": "posse na manhã de quarta-feira, 4/2/2015"
+    },
+    {
+      "ref": "fonte:tcu-noticia-posse-vital-do-rego",
+      "dispositivo": "posse marcada para quarta-feira, 4/2/2015, às 10h"
+    },
+    {
+      "ref": "fonte:agencia-senado-nomeacao-vital-do-rego-tcu-2014",
+      "dispositivo": "nomeação publicada no DOU de 19/12/2014"
     },
     {
       "ref": "fonte:tcu-autoridades",
@@ -24,8 +30,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: vigencia.de era \"2014\" (incerta), tirado do currículo do TCU; a nomeação saiu no DOU em 19/12/2014, mas a posse foi em 4/2/2015 (notícias do TCU e da Agência Senado)"
   }
 }

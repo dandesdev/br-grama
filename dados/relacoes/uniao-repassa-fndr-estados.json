@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-repassa-fndr-estados",
+  "tipo": "relacao",
+  "nome": "A União entrega recursos aos estados e ao DF pelo Fundo Nacional de Desenvolvimento Regional",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Entrega recursos do FNDR (obj:fndr) para infraestrutura, fomento produtivo e inovação, com valores fixados na EC 132/2023, a partir de 2029; os estados decidem a aplicação.",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Instituído pela EC 132/2023; entregas a partir de 2029 (EC 132/2023, art. 13)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159-A, caput e § 3º"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 13"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

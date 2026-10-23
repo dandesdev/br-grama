@@ -1,0 +1,31 @@
+{
+  "id": "obj:tributo-iss",
+  "tipo": "objeto",
+  "nome": "Imposto sobre serviços de qualquer natureza",
+  "sigla": "ISS",
+  "resumo": "Imposto dos municípios e do DF sobre serviços definidos em lei complementar; será extinto em 2033 pela reforma tributária.",
+  "detalhes": "De 2029 a 2032 as alíquotas caem aos poucos, e o imposto é extinto a partir de 2033, substituído pelo IBS (ADCT, arts. 128 e 129).",
+  "tipo_objeto": "materia",
+  "esfera": "municipal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "2032-12-31",
+    "nota": "Extinto a partir de 2033 (ADCT, art. 129; EC 132/2023, art. 22, II, a). Em 2026-10-01 vigorava plenamente."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156, III; art. 147; ADCT, arts. 128 e 129"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 22, II, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "org:partidos-politicos",
+  "tipo": "orgao",
+  "nome": "Partidos políticos",
+  "resumo": "Todos os partidos registrados no TSE. Pessoas jurídicas de direito privado, de caráter nacional, que lançam os candidatos: sem filiação partidária ninguém se elege.",
+  "detalhes": "A criação de partidos é livre, mas cada um precisa ter caráter nacional, não pode receber dinheiro de governo ou entidade estrangeira, presta contas à Justiça Eleitoral e registra o estatuto no TSE (art. 17). Só têm Fundo Partidário e tempo gratuito de rádio e TV os que passam a cláusula de desempenho (art. 17, § 3º, com a transição da EC 97/2017). Deputados e vereadores que saem do partido pelo qual se elegeram perdem o mandato, salvo anuência do partido ou justa causa prevista em lei (art. 17, § 6º). Podem se unir em federações por pelo menos quatro anos.",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º, V; art. 17, caput, I a IV, §§ 1º a 6º"
+    },
+    {
+      "ref": "norma:ec-97-2017",
+      "dispositivo": "arts. 2º e 3º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 1º; art. 7º, §§ 1º a 3º; art. 11-A"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TSE: partidos políticos registrados",
+      "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+    }
+  ],
+  "notas": "Conjunto criado para concentrar as regras do art. 17 e servir de ponta às relações sobre todos os partidos (fundos, prestação de contas, registro). Os partidos com representação na Câmara existem como entidades próprias (ex.: org:partido-pt), mas não têm contido_em apontando para cá: decidir com o mantenedor se devem ter. A lista completa de partidos registrados está em fonte:tse-partidos-registrados."
+}

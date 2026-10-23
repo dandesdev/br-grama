@@ -1,0 +1,27 @@
+{
+  "id": "obj:acao-de-impugnacao-de-mandato-eletivo",
+  "tipo": "objeto",
+  "nome": "Ação de impugnação de mandato eletivo",
+  "sigla": "AIME",
+  "resumo": "Ação na Justiça Eleitoral, até 15 dias depois da diplomação, para cassar o mandato obtido com abuso do poder econômico, corrupção ou fraude.",
+  "detalhes": "Precisa vir com provas. Tramita em segredo de justiça, e o autor responde se agir de forma temerária ou de má-fé.",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, §§ 10 e 11"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "A sigla AIME é de uso corrente, não está na CF."
+}

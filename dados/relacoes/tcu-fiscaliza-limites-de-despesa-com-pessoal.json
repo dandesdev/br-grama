@@ -1,0 +1,25 @@
+{
+  "id": "rel:tcu-fiscaliza-limites-de-despesa-com-pessoal",
+  "tipo": "relacao",
+  "nome": "O TCU verifica os limites de despesa com pessoal da União",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "obj:limites-de-despesa-com-pessoal",
+  "condicao": "Verifica os cálculos dos limites de cada Poder e órgão e os alerta quando a despesa passa de 90% do limite. Os tribunais de contas estaduais e municipais fazem o mesmo nos seus entes.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 59, caput, III, § 1º, II, e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

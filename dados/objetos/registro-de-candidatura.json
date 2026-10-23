@@ -1,0 +1,47 @@
+{
+  "id": "obj:registro-de-candidatura",
+  "tipo": "objeto",
+  "nome": "Registro de candidatura",
+  "resumo": "Pedido do partido, federação ou coligação para que alguém dispute a eleição. A Justiça Eleitoral confere as condições de elegibilidade e as inelegibilidades.",
+  "detalhes": "Para ser candidato é preciso ser brasileiro, estar em pleno gozo dos direitos políticos, ser eleitor, ter domicílio eleitoral na circunscrição, ser filiado a partido e ter a idade mínima do cargo (art. 14, § 3º). São inelegíveis os analfabetos e quem não pode se alistar (§ 4º); o cônjuge e parentes até o 2º grau de chefes do Executivo, no território deles (§ 7º); e os casos da LC 64/1990, como quem foi condenado por órgão colegiado por certos crimes ou teve contas de cargo público rejeitadas por irregularidade insanável que configure improbidade dolosa (art. 1º, I, e e g, na redação dada pela LC 135/2010, a Lei da Ficha Limpa). Chefes do Executivo que querem disputar outro cargo devem renunciar seis meses antes (§ 6º).",
+  "tipo_objeto": "decisao",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, §§ 3º a 9º"
+    },
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lc-135-2010",
+      "dispositivo": "art. 2º"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 11, caput e §§ 2º e 16"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 89"
+    }
+  ],
+  "campos": {
+    "detalhes": {
+      "nota": "Idade mínima (art. 14, § 3º, VI): 35 anos para Presidente, Vice e senador; 30 para governador e vice; 21 para deputado federal, estadual ou distrital, prefeito, vice e juiz de paz; 18 para vereador. Desde a Lei 15.230/2025, ela é aferida na data da posse para cargos do Executivo, na data-limite do pedido de registro para vereador e na posse presumida para as demais Casas (Lei 9.504/1997, art. 11, § 2º). Militar alistável é elegível, com afastamento ou agregação (§ 8º)."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Concentra aqui as regras de inelegibilidade do art. 14, §§ 4º a 9º, em vez de repeti-las em cada cargo; os requisitos de elegibilidade de cada cargo já estavam nos arquivos dos cargos. A Lei 15.230/2025 não é norma: no projeto (citada pelo texto compilado da Lei 9.504/1997). LC 219/2025 mudou prazos e marcos de contagem das inelegibilidades; não detalhamos cada hipótese."
+}

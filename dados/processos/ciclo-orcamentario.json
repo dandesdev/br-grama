@@ -1,0 +1,464 @@
+{
+  "id": "proc:ciclo-orcamentario",
+  "tipo": "processo",
+  "nome": "Ciclo orçamentário federal",
+  "resumo": "Caminho anual do orçamento da União: o Executivo propõe a LDO e a LOA, o Congresso emenda e aprova, o governo executa e as contas são julgadas.",
+  "detalhes": "No primeiro semestre tramita a LDO, que orienta o orçamento; no segundo, a LOA do ano seguinte. No primeiro ano de cada mandato presidencial, o projeto do plano plurianual segue o mesmo caminho e o mesmo prazo da LOA. Depois da execução, o Presidente presta contas, o TCU dá parecer prévio e o Congresso julga.",
+  "forma": "ciclo",
+  "produz": "obj:loa",
+  "etapas": [
+    {
+      "id": "ldo-elaboracao",
+      "atores": [
+        "org:ministerio-do-planejamento-e-orcamento"
+      ],
+      "acao": "O Ministério do Planejamento e Orçamento elabora o projeto da LDO",
+      "detalhes": "A LDO traz as metas e prioridades, as metas fiscais e as regras para elaborar a LOA (CF, art. 165, § 2º; LRF, art. 4º). Os limites que ela fixa valem também para as propostas dos tribunais, do Ministério Público e da Defensoria.",
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 40, IV"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 165, II, e § 2º"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ldo-envio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "ldo-envio",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente envia o projeto da LDO ao Congresso",
+      "prazo": {
+        "texto": "Até oito meses e meio antes do fim do exercício financeiro (15 de abril), enquanto não vier a lei complementar do art. 165, § 9º",
+        "valor": 8.5,
+        "unidade": "meses",
+        "conta_de": "antes do encerramento do exercício financeiro"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, XXIII; art. 165, II; art. 166, § 6º; ADCT, art. 35, § 2º, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ldo-tramitacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "ldo-tramitacao",
+      "atores": [
+        "org:cmo",
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:congresso-nacional"
+      ],
+      "acao": "A CMO recebe emendas e dá parecer; as duas Casas votam a LDO",
+      "detalhes": "As emendas são apresentadas na CMO e não podem ser incompatíveis com o PPA (CF, art. 166, §§ 2º e 4º). O Congresso não entra no recesso de julho sem aprovar a LDO (art. 57, § 2º). A Resolução 1/2006-CN fixa os prazos internos (art. 92).",
+      "prazo": {
+        "texto": "Devolução para sanção até o encerramento do primeiro período da sessão legislativa (17 de julho)",
+        "efeito": "A sessão legislativa não é interrompida sem a aprovação do projeto (CF, art. 57, § 2º)."
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "A LDO é lei ordinária; a CF não exige quórum especial (art. 47)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, caput e § 2º; art. 166, caput, §§ 1º, 2º e 4º; ADCT, art. 35, § 2º, II"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 92"
+        },
+        {
+          "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+          "dispositivo": "art. 92"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ldo-sancao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "ldo-sancao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente sanciona ou veta a LDO, como numa lei ordinária",
+      "detalhes": "Aplicam-se as regras gerais do processo legislativo: sanção ou veto em 15 dias úteis e apreciação do veto pelo Congresso (CF, art. 166, § 7º; art. 66).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66; art. 166, § 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "loa-elaboracao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "loa-elaboracao",
+      "atores": [
+        "org:ministerio-do-planejamento-e-orcamento",
+        "org:poder-judiciario",
+        "org:ministerio-publico-da-uniao",
+        "org:dpu"
+      ],
+      "acao": "O Executivo consolida o projeto da LOA com as propostas dos tribunais, do Ministério Público e da Defensoria",
+      "detalhes": "Os tribunais, o Ministério Público e a Defensoria elaboram suas propostas dentro dos limites da LDO; no Judiciário da União, quem encaminha são os presidentes do STF e dos tribunais superiores (CF, arts. 99, §§ 1º e 2º, 127, § 3º, e 134, §§ 2º e 3º). O Ministério do Planejamento e Orçamento cuida da elaboração do orçamento (Lei 14.600/2023, art. 40, IV). No primeiro ano do mandato presidencial, prepara também o projeto do PPA.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 99, §§ 1º e 2º; art. 127, § 3º; art. 134, §§ 2º e 3º; art. 165, III, e §§ 5º a 8º"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 40, IV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "loa-envio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "loa-envio",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente envia o projeto da LOA (e, no 1º ano do mandato, o do PPA) ao Congresso",
+      "detalhes": "O Presidente pode mandar mensagem para mudar o projeto enquanto a CMO não começar a votar a parte a alterar (CF, art. 166, § 5º).",
+      "prazo": {
+        "texto": "Até quatro meses antes do fim do exercício financeiro (31 de agosto), enquanto não vier a lei complementar do art. 165, § 9º; o PPA, no mesmo prazo do primeiro ano do mandato",
+        "valor": 4,
+        "unidade": "meses",
+        "conta_de": "antes do encerramento do exercício financeiro"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, XXIII; art. 166, §§ 5º e 6º; ADCT, art. 35, § 2º, I e III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "loa-emendas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "loa-emendas",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:comissoes-do-senado-federal"
+      ],
+      "acao": "Parlamentares, comissões e bancadas estaduais apresentam emendas na CMO",
+      "detalhes": "A emenda precisa ser compatível com o PPA e a LDO e indicar de onde sai o dinheiro, sem cortar pessoal, dívida ou transferências constitucionais (CF, art. 166, § 3º). As emendas individuais e as de bancada estadual têm execução obrigatória até os limites do art. 166, §§ 9º a 12.",
+      "prazo": {
+        "texto": "De 1º a 20 de outubro, para emendas à despesa e à receita (Resolução 1/2006-CN, art. 82, III)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 166, §§ 2º, 3º, 9º a 12"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 82, III"
+        },
+        {
+          "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+          "dispositivo": "art. 82, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "loa-parecer-cmo",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "loa-parecer-cmo",
+      "atores": [
+        "org:cmo"
+      ],
+      "acao": "A CMO vota os relatórios da receita, preliminar, setoriais e geral e envia o parecer à Mesa do Congresso",
+      "detalhes": "A sequência e os prazos internos estão na Resolução 1/2006-CN, art. 82, IV a XIV.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 166, § 1º, I, e § 2º"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 82, IV a XIV"
+        },
+        {
+          "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+          "dispositivo": "art. 82, IV a XIV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "loa-votacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "loa-votacao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "As duas Casas votam o projeto da LOA e as emendas, na forma do regimento comum",
+      "prazo": {
+        "texto": "Devolução para sanção até o encerramento da sessão legislativa (22 de dezembro)"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "A LOA é lei ordinária; a CF não exige quórum especial (art. 47)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47; art. 57, caput; art. 166, caput e § 2º; ADCT, art. 35, § 2º, III"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 82, XV"
+        },
+        {
+          "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+          "dispositivo": "art. 82, XV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "loa-sancao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "loa-sancao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente sanciona ou veta a LOA, como numa lei ordinária",
+      "detalhes": "Os recursos que ficarem sem despesa por veto, emenda ou rejeição podem ser usados por créditos especiais ou suplementares, com autorização legislativa prévia e específica (CF, art. 166, § 8º).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66; art. 166, §§ 7º e 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "execucao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:secretaria-do-tesouro-nacional",
+        "org:cmo"
+      ],
+      "acao": "O governo executa o orçamento; a CMO acompanha a execução",
+      "detalhes": "A administração deve executar o que foi programado (CF, art. 165, § 10), inclusive as emendas impositivas (art. 166, §§ 11 e 12). O Executivo publica relatório resumido da execução a cada bimestre (art. 165, § 3º) e entrega os duodécimos aos outros Poderes, ao MP e à Defensoria até o dia 20 de cada mês (art. 168). Se a receita não comportar as metas fiscais, os Poderes limitam empenho (LRF, art. 9º). A STN faz a programação financeira (Decreto 11.907/2024, Anexo I, art. 35, I).",
+      "prazo": {
+        "texto": "O exercício financeiro, de 1º de janeiro a 31 de dezembro"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 165, §§ 3º, 10 e 11; art. 166, § 1º, II, §§ 11 e 12; art. 168"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 9º"
+        },
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 35, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "prestacao-de-contas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "prestacao-de-contas",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente presta ao Congresso as contas do ano anterior",
+      "prazo": {
+        "texto": "Até 60 dias após a abertura da sessão legislativa",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "abertura da sessão legislativa",
+        "efeito": "Se não prestar, a Câmara dos Deputados procede à tomada de contas (CF, art. 51, II)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 84, XXIV; art. 51, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "parecer-previo-tcu",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "parecer-previo-tcu",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "O TCU aprecia as contas e emite parecer prévio",
+      "prazo": {
+        "texto": "60 dias do recebimento",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "recebimento das contas"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 71, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "parecer-cmo-contas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "parecer-cmo-contas",
+      "atores": [
+        "org:cmo"
+      ],
+      "acao": "A CMO examina as contas e o parecer do TCU e propõe projeto de decreto legislativo",
+      "prazo": {
+        "texto": "Até 40 dias para o relatório e o projeto de decreto legislativo, contados do recebimento do parecer prévio, mais os prazos de emendas e votação (Resolução 1/2006-CN, art. 116)",
+        "valor": 40,
+        "unidade": "dias",
+        "conta_de": "recebimento do parecer prévio"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 166, § 1º, I"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "arts. 115 e 116"
+        },
+        {
+          "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+          "dispositivo": "arts. 115 e 116"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-das-contas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento-das-contas",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso julga as contas do Presidente",
+      "detalhes": "O julgamento é feito por decreto legislativo, matéria de competência exclusiva do Congresso (CF, art. 49, IX). A CF não fixa prazo para o julgamento.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, IX"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 115"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 47, 49, IX, 51, II, 57, § 2º, 71, I, 84, XXIII e XXIV, 165 a 168; ADCT, art. 35, § 2º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 82, 92, 115 e 116"
+    },
+    {
+      "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+      "dispositivo": "arts. 82, 92, 115 e 116"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "arts. 4º e 9º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 40, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais, que também passam pela CMO (art. 166, caput), não foram modelados. (4) As bancadas estaduais não têm entidade própria e aparecem só no texto da etapa 'loa-emendas'. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

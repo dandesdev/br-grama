@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Contas dos administradores e responsáveis por recursos públicos",
   "resumo": "Contas de quem gere dinheiro, bens e valores públicos, e de quem causa prejuízo ao erário. São julgadas pelo tribunal de contas, não pelo Legislativo.",
-  "detalhes": "Na União, o TCU julga as contas dos administradores da administração direta e indireta, incluídas fundações e sociedades mantidas pelo Poder Público federal. Nos estados e municípios, a regra se aplica, no que couber, aos tribunais de contas locais (CF, art. 75). São diferentes das contas anuais do chefe do Executivo, sobre as quais o tribunal só dá parecer prévio.",
+  "detalhes": "Na União, o TCU julga as contas dos administradores da administração direta e indireta, incluídas fundações e sociedades instituídas e mantidas pelo Poder Público federal. Nos estados e municípios, a regra se aplica, no que couber, aos tribunais de contas locais (CF, art. 75). São diferentes das contas anuais do chefe do Executivo, sobre as quais o tribunal só dá parecer prévio.",
   "tipo_objeto": "contas",
   "vigencia": {
     "de": "1988-10-05",
@@ -17,9 +17,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-controle"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; CF art. 70, parágrafo único, art. 71, II, e art. 75 conferidos; detalhes: \"mantidas\" corrigido para \"instituídas e mantidas\", como na CF"
   },
   "notas": "Sem esfera: o objeto vale para a União (TCU) e, pelo art. 75, para os tribunais de contas estaduais, distritais e municipais. O id segue o exemplo da tarefa (obj:contas-de-gestao); 'contas de gestão' é a expressão usual, não o texto da CF."
 }

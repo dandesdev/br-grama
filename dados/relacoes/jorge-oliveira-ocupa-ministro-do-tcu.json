@@ -15,6 +15,11 @@
       "dispositivo": "posse na manhã de quinta-feira, 31/12/2020"
     },
     {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 30/12/2020 (DOU 31/12/2020, ed. 250, Seção 2, p. 1): aposenta José Mucio Monteiro Filho e nomeia Jorge Antonio de Oliveira Francisco Ministro do TCU (art. 73, § 2º, I)",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-30-de-dezembro-de-2020-297161545"
+    },
+    {
       "ref": "fonte:tcu-autoridades",
       "dispositivo": "lista de ministros",
       "nota": "consta da composição em 2026-10-23. Os nove ministros atuais tomaram posse até 30/9/2026 e o cargo tem nove vagas; logo, esta era a composição em 2026-10-01"
@@ -22,8 +27,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; posse em 31/12/2020 conferida; nomeação conferida no DOU"
   }
 }

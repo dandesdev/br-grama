@@ -30,9 +30,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; decreto de 1º/1/2023 (cópia em pesquisa/brutos/dou/2026-10-20/) e Portaria AGU nº 348, de 1º/10/2026 (DOU 2/10/2026, cópia em pesquisa/brutos/dou/2026-10-23/) conferidos; as notas desta relação e de rel:jorge-messias-ocupa-ministro-de-estado deixam claro que é um só ato e um só cargo"
   },
   "notas": "Mesmo período e mesmas fontes de rel:jorge-messias-ocupa-ministro-de-estado (f0-executivo), que fica como está. Decisão desta tarefa: o decreto de 1º/1/2023 nomeia para o cargo de Advogado-Geral da União (CF, art. 131, § 1º; art. 84, XVI), e a Lei 14.600/2023, art. 18, VII, dá a esse titular o cargo de Ministro de Estado. As duas relações descrevem um só ato: esta liga a pessoa ao cargo próprio da AGU; a outra, à lista de ministros por pasta (orgao_exercicio org:agu). Não somar as duas como dois cargos."
 }

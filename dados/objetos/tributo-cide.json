@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-cide",
+  "tipo": "objeto",
+  "nome": "Contribuições de intervenção no domínio econômico",
+  "sigla": "CIDE",
+  "resumo": "Contribuições que a União cria como instrumento de atuação num setor da economia.",
+  "detalhes": "Não incidem sobre receitas de exportação e incidem sobre importações (art. 149, § 2º). A CIDE sobre combustíveis tem regras próprias e parte da arrecadação vai a estados e municípios (arts. 177, § 4º, e 159, III).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput e § 2º; art. 177, § 4º; art. 159, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

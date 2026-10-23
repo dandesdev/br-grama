@@ -1,0 +1,31 @@
+{
+  "id": "obj:tributo-imposto-seletivo",
+  "tipo": "objeto",
+  "nome": "Imposto Seletivo",
+  "sigla": "IS",
+  "resumo": "Imposto da União sobre bens e serviços prejudiciais à saúde ou ao meio ambiente, criado pela reforma tributária e cobrado a partir de 2027.",
+  "detalhes": "Incide uma única vez e não incide sobre exportações nem sobre energia elétrica e telecomunicações; as alíquotas são fixadas em lei ordinária (art. 153, § 6º). Foi instituído pela LC 214/2025 (art. 409), e a cobrança começa em 2027 (ADCT, art. 126, I, b).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Previsto na CF desde a EC 132/2023 (DOU de 21/12/2023); instituído pela LC 214/2025; cobrado a partir de 2027 (ADCT, art. 126, I, b). Em 2026-10-01 ainda não era cobrado."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, VIII, e § 6º; ADCT, art. 126, I, b"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 409"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

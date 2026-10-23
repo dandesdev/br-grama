@@ -1,0 +1,40 @@
+{
+  "id": "cargo:promotor-eleitoral",
+  "tipo": "cargo",
+  "nome": "Promotor Eleitoral",
+  "resumo": "Membro do Ministério Público do estado que exerce as funções eleitorais do MP perante o juiz e as juntas eleitorais de uma zona.",
+  "orgao": "org:ministerio-publico-eleitoral",
+  "provimento": "nato",
+  "provimento_nota": "É o membro do Ministério Público local que oficia junto ao juízo encarregado do serviço eleitoral da zona (LC 75/1993, art. 79). Se não houver promotor na zona, ou em caso de impedimento ou recusa justificada, o chefe do MP local indica ao Procurador Regional Eleitoral o substituto a ser designado (art. 79, parágrafo único).",
+  "vagas": null,
+  "vagas_nota": "Em regra um por zona eleitoral (2.641 zonas em 2026, segundo o TSE); não há número oficial de promotores eleitorais.",
+  "mandato": null,
+  "requisitos": [
+    {
+      "texto": "ser membro do Ministério Público do estado; quem é filiado a partido não pode exercer funções eleitorais até dois anos após cancelar a filiação",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 79 e 80"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 78 a 80"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Função exercida por cargo:arquetipo-estadual-membro-do-ministerio-publico."
+}

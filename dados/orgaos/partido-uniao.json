@@ -8,6 +8,7 @@
   "tipo_orgao": "partido-politico",
   "poder": "nao-estatal",
   "esfera": "federal",
+  "contido_em": "org:partidos-politicos",
   "vigencia": {
     "de": "2022-02-08",
     "ate": null
@@ -34,6 +35,14 @@
           "dispositivo": "campos NM_FEDERACAO e DS_COMPOSICAO_FEDERACAO: 'Federação União Progressista', 44-UNIÃO/11-PP"
         }
       ]
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 17"
+        }
+      ]
     }
   },
   "confianca": "oficial",
@@ -41,7 +50,7 @@
     "status": "verificado",
     "em": "2026-10-17",
     "tarefa": "verificacao-piloto-pessoas",
-    "notas": "coletado em piloto-pessoas"
+    "notas": "coletado em piloto-pessoas; contido_em org:partidos-politicos acrescentado pelo coordenador em 2026-10-23"
   },
   "mais_informacoes": [
     {
@@ -49,5 +58,5 @@
       "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
     }
   ],
-  "notas": "Federação não é partido: a Federação União Progressista não ganhou org: próprio."
+  "notas": "Integra a federação União Progressista (org:federacao-uniao-progressista), com o PP."
 }

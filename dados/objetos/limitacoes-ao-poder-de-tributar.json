@@ -1,0 +1,26 @@
+{
+  "id": "obj:limitacoes-ao-poder-de-tributar",
+  "tipo": "objeto",
+  "nome": "Limitações ao poder de tributar",
+  "resumo": "Garantias do contribuinte que valem para todos os entes: tributo só por lei, cobrança só depois de prazos e imunidades para certas pessoas e bens.",
+  "detalhes": "Legalidade: nenhum tributo é criado ou aumentado sem lei (art. 150, I). Anterioridade: o tributo novo ou aumentado só é cobrado no ano seguinte ao da lei e depois de 90 dias, com as exceções do § 1º, como os impostos de importação, exportação e operações financeiras (art. 150, III, b e c). Imunidades: os entes não cobram impostos uns dos outros nem de templos, partidos, sindicatos de trabalhadores, entidades de educação e assistência sem fins lucrativos, livros e jornais, entre outros (art. 150, VI).",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A noventena (art. 150, III, c) foi incluída pela EC 42/2003."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 146, II; art. 150, I, III, VI, e § 1º; arts. 151 e 152"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Registrado como objeto, com tipo 'materia', porque o art. 146, II, reserva à lei complementar regular essas limitações. Sem relação tem-competencia: a CF não diz qual ente edita a lei complementar do art. 146 (ela é votada pelo Congresso). Outras limitações (isonomia, irretroatividade, não confisco, liberdade de tráfego, uniformidade, arts. 151 e 152) não foram detalhadas, como pede a tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

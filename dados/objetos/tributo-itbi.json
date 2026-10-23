@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-itbi",
+  "tipo": "objeto",
+  "nome": "Imposto sobre a transmissão inter vivos de bens imóveis",
+  "sigla": "ITBI",
+  "resumo": "Imposto dos municípios e do DF sobre a venda e outras transmissões onerosas de imóveis.",
+  "detalhes": "Não incide sobre direitos reais de garantia (art. 156, II).",
+  "tipo_objeto": "materia",
+  "esfera": "municipal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156, II; art. 147"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

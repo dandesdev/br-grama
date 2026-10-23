@@ -1,0 +1,26 @@
+{
+  "id": "rel:estados-repassam-ipva-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados entregam aos municípios 50% do IPVA",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Pertencem aos municípios 50% do IPVA dos veículos licenciados em seu território e, no caso de veículos aquáticos e aéreos, dos que têm donos domiciliados nele.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 158, III"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os veículos aquáticos e aéreos entraram com a EC 132/2023.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

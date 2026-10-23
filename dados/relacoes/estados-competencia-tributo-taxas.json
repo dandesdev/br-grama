@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-tributo-taxas",
+  "tipo": "relacao",
+  "nome": "Estados: Taxas (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:tributo-taxas",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Cada ente institui sobre o seu poder de polícia, os seus serviços ou as suas obras. O DF tem a mesma competência (art. 145, caput)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 145, II, e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

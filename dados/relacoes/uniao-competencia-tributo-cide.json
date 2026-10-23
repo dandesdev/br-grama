@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-cide",
+  "tipo": "relacao",
+  "nome": "União: Contribuições de intervenção no domínio econômico (exclusiva, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-cide",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "legislativa",
+    "nota": "Instituir contribuições de intervenção no domínio econômico."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

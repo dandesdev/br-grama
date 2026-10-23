@@ -8,12 +8,22 @@
   "vigencia": {
     "de": "2023-03-15",
     "ate": null,
-    "nota": "Data anunciada pela notícia do TCU de 13/3/2023; a realização da posse nesse dia não foi conferida em outra fonte oficial."
+    "nota": "Data da sessão solene de posse convocada pelo TCU (ata de 15/2/2023) e anunciada na notícia de 13/3/2023. A ata da 1ª Câmara de 14/3/2023 (DOU 22/3/2023) já o registra presente como ministro; ver aviso:posse-jhonatan-de-jesus-tcu-data."
   },
   "fontes": [
     {
       "ref": "fonte:tcu-noticia-posse-jhonatan-de-jesus",
       "dispositivo": "posse marcada para quarta-feira, 15/3/2023, às 11h"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Ata nº 6, de 15/2/2023, do Plenário do TCU (DOU 2/3/2023, ed. 42, Seção 1, p. 97): convoca sessão solene para a posse em 15/3/2023, às 10h",
+      "nota": "https://www.in.gov.br/web/dou/-/ata-n-6-de-15-de-fevereiro-de-2023-467445481"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Ata nº 7, de 1º/3/2023, do Plenário do TCU (DOU 10/3/2023, ed. 48, Seção 1, p. 156): registra a publicação do decreto de nomeação, na vaga da aposentadoria de Ana Arraes",
+      "nota": "https://www.in.gov.br/web/dou/-/ata-n-7-de-1-de-marco-de-2023-469361973"
     },
     {
       "ref": "fonte:tcu-autoridades",
@@ -23,8 +33,22 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; posse convocada para 15/3/2023 conferida no DOU (ata do Plenário de 15/2/2023); a ata da 1ª Câmara de 14/3/2023 o registra presente como ministro: contradição de um dia, aberto aviso:posse-jhonatan-de-jesus-tcu-data; vigencia.de mantida em 15/3/2023"
+  },
+  "campos": {
+    "vigencia": {
+      "confianca": "oficial-contraditorio",
+      "fontes": [
+        {
+          "ref": "fonte:dou-in-gov-br",
+          "dispositivo": "Ata nº 5, de 14/3/2023, da 1ª Câmara do TCU (DOU 22/3/2023, ed. 56, Seção 1, p. 92): sessão aberta com a presença dos Ministros Benjamin Zymler e Jhonatan de Jesus",
+          "nota": "https://www.in.gov.br/web/dou/-/ata-n-5-de-14-de-marco-de-2023-471959342"
+        }
+      ],
+      "nota": "Uma ata oficial o mostra atuando como ministro em 14/3/2023, um dia antes da posse convocada para 15/3/2023."
+    }
   }
 }

@@ -15,6 +15,11 @@
       "dispositivo": "posse na manhã de quinta-feira, 3/2/2022"
     },
     {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/1/2022 (DOU 31/1/2022, ed. 21-A, Seção 2 Extra A, p. 1): aposenta Raimundo Carreiro Silva e nomeia Antonio Augusto Junho Anastasia Ministro do TCU",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-janeiro-de-2022-377159317"
+    },
+    {
       "ref": "fonte:tcu-autoridades",
       "dispositivo": "lista de ministros",
       "nota": "consta da composição em 2026-10-23. Os nove ministros atuais tomaram posse até 30/9/2026 e o cargo tem nove vagas; logo, esta era a composição em 2026-10-01"
@@ -22,8 +27,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; posse em 3/2/2022 conferida; nomeação conferida no DOU"
   }
 }

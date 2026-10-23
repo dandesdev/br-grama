@@ -1,0 +1,30 @@
+{
+  "id": "rel:tse-repassa-fundo-partidario-partidos",
+  "tipo": "relacao",
+  "nome": "TSE distribui o Fundo Partidário",
+  "relacao": "repassa-recursos",
+  "de": "org:tse",
+  "para": "org:partidos-politicos",
+  "condicao": "Fundo Partidário: o TSE distribui aos órgãos nacionais dos partidos, em até cinco dias do depósito mensal do Tesouro, 5% em partes iguais entre os que passam a cláusula de desempenho e 95% na proporção dos votos da última eleição para a Câmara.",
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 40, § 1º; arts. 41 e 41-A"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "O fundo é obj:fundo-partidario; o esquema de relação não tem campo para o objeto transferido, por isso ele vai no nome e na condição."
+}

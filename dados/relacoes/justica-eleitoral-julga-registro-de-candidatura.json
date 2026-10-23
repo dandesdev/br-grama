@@ -1,0 +1,34 @@
+{
+  "id": "rel:justica-eleitoral-julga-registro-de-candidatura",
+  "tipo": "relacao",
+  "nome": "Julgamento dos pedidos de registro",
+  "relacao": "julga",
+  "de": "org:justica-eleitoral",
+  "para": "obj:registro-de-candidatura",
+  "condicao": "TSE: Presidente e Vice. TRE: senador, deputado federal, governador, vice e deputado estadual. Juiz eleitoral: prefeito, vice-prefeito e vereador. Em 2026, todos os pedidos tinham de estar julgados nas instâncias ordinárias até 14/9.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 89; art. 35, XII"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 16, § 1º"
+    },
+    {
+      "ref": "norma:resolucao-tse-23760-2026",
+      "dispositivo": "Anexo I, 14 de setembro, item 2"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Uma relação só, a partir do ramo, porque não há nó agregado para os 27 TREs; a condição diz quem julga cada cargo."
+}

@@ -3,12 +3,16 @@
   "tipo": "pessoa",
   "nome": "Beto Simonetti",
   "nome_civil": "José Alberto Ribeiro Simonetti Cabral",
-  "resumo": "Advogado amazonense, presidente do Conselho Federal da OAB desde 2022, reeleito em 2025 para mandato até 2028.",
+  "resumo": "Advogado, conselheiro federal da OAB pelo Amazonas, presidente do Conselho Federal desde 1º/2/2022, reeleito em 2025 para mandato até 2028.",
   "vigencia": {
     "de": null,
     "ate": null
   },
   "fontes": [
+    {
+      "ref": "fonte:oab-noticia-posse-simonetti-2022",
+      "dispositivo": "texto da notícia"
+    },
     {
       "ref": "fonte:oab-noticia-reeleicao-simonetti-2025",
       "dispositivo": "texto da notícia"
@@ -20,16 +24,23 @@
   ],
   "campos": {
     "nome_civil": {
-      "confianca": "secundario",
-      "nota": "Nome completo visto em resultados de busca (imprensa e um discurso publicado pelo STJ), não lido em página oficial da OAB."
+      "fontes": [
+        {
+          "ref": "norma:pb-lei-12738-2023",
+          "dispositivo": "ementa e art. 1º"
+        }
+      ],
+      "confianca": "oficial",
+      "nota": "A lei estadual da Paraíba traz o nome completo. A notícia oficial da OAB de 2022 usa a forma abreviada \"José Alberto Simonetti\"."
     }
   },
   "filiacoes": [],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: nome civil confirmado em fonte oficial (Lei 12.738/2023 da Paraíba), confiança secundario → oficial; resumo com a data de posse conferida"
   },
   "notas": "Filiação partidária não pesquisada; não é cargo eletivo público."
 }

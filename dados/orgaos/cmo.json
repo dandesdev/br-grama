@@ -4,7 +4,7 @@
   "nome": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização",
   "sigla": "CMO",
   "resumo": "Comissão permanente de deputados e senadores que dá parecer sobre as leis orçamentárias e as contas do Presidente e acompanha a execução do orçamento.",
-  "detalhes": "É a comissão mista permanente do art. 166, § 1º, da Constituição. Tem 40 titulares: 30 deputados e 10 senadores. Diante de indícios de despesa não autorizada, pode pedir esclarecimentos ao governo e um pronunciamento do TCU e, se for o caso, propor ao Congresso a sustação do gasto (art. 72).",
+  "detalhes": "É a comissão mista permanente do art. 166, § 1º, da Constituição. Tem 40 titulares: 30 deputados e 10 senadores. Diante de indícios de despesa não autorizada, pode pedir esclarecimentos ao governo e um pronunciamento do TCU e, se for o caso, propor ao Congresso a sustação do gasto (art. 72). As emendas aos projetos do PPA, da LDO, da LOA e dos créditos adicionais são apresentadas na CMO, que dá parecer sobre elas antes da votação pelo Plenário das duas Casas (art. 166, § 2º); a comissão também dá parecer sobre os planos e programas nacionais, regionais e setoriais (art. 166, § 1º, II). Ver proc:ciclo-orcamentario.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -20,13 +20,13 @@
       ]
     },
     "detalhes": {
-      "nota": "O número de membros (art. 5º da Resolução 1/2006-CN) foi lido no texto do Planalto, sem marcas de alteração; não conferido na versão alterada pela Resolução 3/2015-CN."
+      "nota": "O número de membros (art. 5º da Resolução 1/2006-CN) foi conferido no texto atualizado do Legin da Câmara em 2026-10-23: o artigo não foi alterado por nenhuma resolução posterior."
     }
   },
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 72; art. 166, § 1º"
+      "dispositivo": "art. 72; art. 166, §§ 1º e 2º"
     },
     {
       "ref": "norma:resolucao-cn-1-2006",
@@ -43,6 +43,7 @@
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "f0-dinheiro",
+    "notas": "complementado em f0-dinheiro (detalhes: emendas e planos do art. 166, §§ 1º, II, e 2º; fonte art. 166, § 2º); antes verificado em verificacao-f0-controle (2026-10-23)"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-itcmd",
+  "tipo": "objeto",
+  "nome": "Imposto sobre transmissão causa mortis e doação",
+  "sigla": "ITCMD",
+  "resumo": "Imposto dos estados e do DF sobre heranças e doações de quaisquer bens ou direitos.",
+  "detalhes": "É progressivo conforme o valor do quinhão, do legado ou da doação, e o Senado fixa as alíquotas máximas (art. 155, § 1º, IV e VI).",
+  "tipo_objeto": "materia",
+  "esfera": "estadual",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, I, e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

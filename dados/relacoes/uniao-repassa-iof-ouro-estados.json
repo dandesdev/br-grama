@@ -1,0 +1,25 @@
+{
+  "id": "rel:uniao-repassa-iof-ouro-estados",
+  "tipo": "relacao",
+  "nome": "A União entrega aos estados e ao DF 30% do IOF sobre o ouro",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Do IOF sobre o ouro usado como ativo financeiro ou instrumento cambial, 30% vão para o estado, o DF ou o território de origem.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, § 5º, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

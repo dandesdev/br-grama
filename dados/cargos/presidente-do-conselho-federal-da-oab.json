@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "detalhes": "Convoca e preside o Conselho Federal e o representa em juízo e fora dele; nas votações do Conselho, tem só o voto de qualidade (Lei 8.906/1994, art. 55, §§ 1º e 3º). Oficia junto ao CNJ e ao CNMP, sem ser membro (CF, arts. 103-B, § 6º, e 130-A, § 4º).",
+  "detalhes": "Convoca e preside o Conselho Federal e o representa em juízo e fora dele; nas votações do Conselho, tem só o voto de qualidade e pode embargar decisão que não seja unânime (Lei 8.906/1994, art. 55, §§ 1º e 3º). Oficia junto ao CNJ e ao CNMP, sem ser membro (CF, arts. 103-B, § 6º, e 130-A, § 4º).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -41,8 +41,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: os detalhes omitiam o direito de embargar decisão não unânime (art. 55, § 3º); art. 67 conferido"
   }
 }

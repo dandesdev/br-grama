@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-competencia-tributo-icms",
+  "tipo": "relacao",
+  "nome": "Estados: Imposto sobre circulação de mercadorias e serviços de transporte interestadual e intermunicipal e de comunicação (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:tributo-icms",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre circulação de mercadorias e serviços. O DF tem a mesma competência (art. 155, caput). Extinto a partir de 2033 (ADCT, art. 129)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "2032-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, II; ADCT, art. 129"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

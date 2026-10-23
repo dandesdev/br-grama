@@ -1,0 +1,28 @@
+{
+  "id": "obj:fpe",
+  "tipo": "objeto",
+  "nome": "Fundo de Participação dos Estados e do Distrito Federal",
+  "sigla": "FPE",
+  "resumo": "Fundo que recebe 21,5% do imposto de renda, do IPI e do Imposto Seletivo arrecadados pela União e os divide entre os estados e o DF.",
+  "detalhes": "Os critérios de rateio são definidos em lei complementar, para promover o equilíbrio entre os estados (art. 161, II), e o TCU calcula as cotas (art. 161, parágrafo único). A União não pode reter nem restringir a entrega, salvo para cobrar créditos seus ou exigir os gastos mínimos em saúde (art. 160).",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da CF de 1988; o fundo é anterior. O Imposto Seletivo entrou na base com a EC 132/2023."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159, I, a; art. 160; art. 161, II e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'documento' por falta de termo melhor: um fundo de repartição não é ato, contas, ação, decisão nem matéria. Os critérios de rateio estão na LC 62/1989, citada pela CF compilada ('Vide'), não pesquisada nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

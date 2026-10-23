@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-iptu",
+  "tipo": "objeto",
+  "nome": "Imposto sobre a propriedade predial e territorial urbana",
+  "sigla": "IPTU",
+  "resumo": "Imposto dos municípios e do DF sobre imóveis urbanos.",
+  "detalhes": "A fixação da base de cálculo não precisa esperar 90 dias da lei (art. 150, § 1º).",
+  "tipo_objeto": "materia",
+  "esfera": "municipal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156, I; art. 147; art. 150, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

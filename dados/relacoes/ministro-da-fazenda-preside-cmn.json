@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-da-fazenda-preside-cmn",
+  "tipo": "relacao",
+  "nome": "O Ministro da Fazenda preside o Conselho Monetário Nacional",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cmn",
+  "condicao": "Só o Ministro de Estado da Fazenda. Pode decidir sozinho, em caso de urgência e relevante interesse, sujeito a referendo do Conselho na reunião seguinte.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "nota": "Redação dada pela Lei 14.600/2023, em vigor na publicação (DOU de 20/6/2023, art. 79). Antes, a MP 1.158/2023 trazia a mesma composição, segundo as marcas do texto compilado."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 8º, I, e §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "cargo:ministro-de-estado é agregado (38 pastas); a condição restringe ao titular da Fazenda.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

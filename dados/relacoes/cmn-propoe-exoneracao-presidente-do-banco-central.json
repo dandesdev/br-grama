@@ -1,0 +1,26 @@
+{
+  "id": "rel:cmn-propoe-exoneracao-presidente-do-banco-central",
+  "tipo": "relacao",
+  "nome": "O CMN pode propor a exoneração do Presidente e dos diretores do Banco Central por desempenho insuficiente",
+  "relacao": "propoe",
+  "de": "org:cmn",
+  "para": "cargo:presidente-do-banco-central",
+  "condicao": "Em caso de desempenho insuficiente comprovado e recorrente, o CMN propõe ao Presidente da República a exoneração do Presidente ou de diretor do Banco Central; a exoneração depende de aprovação prévia do Senado por maioria absoluta. Vale também para os diretores (cargo:diretor-do-banco-central).",
+  "vigencia": {
+    "de": "2021-02-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "art. 5º, IV, e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Relação 'propoe' por falta de termo para 'propõe a exoneração'. Uma só relação, para o cargo de Presidente; a condição estende aos diretores.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -10,10 +10,9 @@
     "regra": "maioria-absoluta"
   },
   "vigencia": {
-    "de": "2009-10-08",
+    "de": "1994-01-13",
     "ate": null,
-    "incerta": true,
-    "nota": "Regra da LC 132/2009, que deu a redação atual ao art. 6º da LC 80/1994; a data é a da LC 132/2009, não conferida no texto dela."
+    "nota": "A aprovação do Senado já estava na redação original do art. 6º da LC 80/1994 (texto riscado na cópia do Planalto); a LC 132/2009 (DOU de 8/10/2009) acrescentou a lista tríplice."
   },
   "fontes": [
     {
@@ -27,8 +26,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: vigencia.de era 2009-10-08 (incerta), mas a aprovação do Senado já constava da redação original do art. 6º da LC 80/1994; a LC 132/2009 só acrescentou a lista tríplice"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "rel:estados-repassam-ibs-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados entregam aos municípios 25% do IBS estadual",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Pertencem aos municípios 25% do IBS distribuído aos estados: 80% pela população, 10% por resultados de aprendizagem, 5% por preservação ambiental e 5% em partes iguais.",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Incluído pela EC 132/2023. Em 2026 a arrecadação do IBS de teste não segue as repartições da CF (ADCT, art. 125, § 3º)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 158, IV, b, e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

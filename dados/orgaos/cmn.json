@@ -1,0 +1,55 @@
+{
+  "id": "org:cmn",
+  "tipo": "orgao",
+  "nome": "Conselho Monetário Nacional",
+  "sigla": "CMN",
+  "resumo": "Colegiado do Ministério da Fazenda que formula a política da moeda e do crédito, fixa as metas de política monetária e regula o sistema financeiro.",
+  "detalhes": "Tem três membros: o Ministro da Fazenda, que o preside, o Ministro do Planejamento e Orçamento e o Presidente do Banco Central (Lei 9.069/1995, art. 8º). Decide por resoluções, por maioria de votos, reúne-se uma vez por mês e tem o Banco Central como secretaria-executiva (art. 8º, §§ 1º, 4º e 5º). Entre suas competências estão fixar as diretrizes da política cambial, disciplinar o crédito e regular o funcionamento das instituições financeiras (Lei 4.595/1964, art. 4º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 2º, III, a; art. 61"
+        }
+      ],
+      "nota": "Órgão colegiado na estrutura regimental do Ministério da Fazenda."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4595-1964",
+      "dispositivo": "arts. 2º, 3º e 4º"
+    },
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 8º"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 2º e 5º, § 1º"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, III, a; art. 61"
+    }
+  ],
+  "vigencia": {
+    "de": "1965-03-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criado pela Lei 4.595/1964 (art. 2º), que entrou em vigor 90 dias após a publicação (art. 65); data calculada por nós. Composição atual pela Lei 14.600/2023, que deu nova redação ao art. 8º da Lei 9.069/1995."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 9.069/1995, art. 9º, cria junto ao CMN a Comissão Técnica da Moeda e do Crédito, não modelada. O art. 6º da Lei 4.595/1964 (composição antiga) foi revogado pela LC 179/2021.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

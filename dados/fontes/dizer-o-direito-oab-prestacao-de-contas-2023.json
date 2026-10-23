@@ -15,9 +15,10 @@
   },
   "confianca": "secundario",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; trechos da ementa conferidos com o inteiro teor oficial; deixou de ser usada em org:oab"
   },
-  "notas": "Publicado em 3/6/2023; autor não identificado na página. Trechos da ementa da ADI 3026 (Rel. Eros Grau, j. 8/6/2006) citados: \"A OAB não é uma entidade da Administração Indireta da União\"; \"A Ordem é um serviço público independente, categoria ímpar no elenco das personalidades jurídicas existentes no direito brasileiro\". Usado só porque a ementa oficial não foi acessível (o site de jurisprudência do STF carrega por JavaScript)."
+  "notas": "Publicado em 3/6/2023; autor não identificado na página. Trechos da ementa da ADI 3026 (Rel. Eros Grau, j. 8/6/2006) citados: \"A OAB não é uma entidade da Administração Indireta da União\"; \"A Ordem é um serviço público independente, categoria ímpar no elenco das personalidades jurídicas existentes no direito brasileiro\". Os trechos citados batem com o inteiro teor oficial (fonte:stf-adi-3026-acordao), que substituiu esta fonte em org:oab; ficou sem uso."
 }

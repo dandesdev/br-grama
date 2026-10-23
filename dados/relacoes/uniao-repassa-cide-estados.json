@@ -1,0 +1,27 @@
+{
+  "id": "rel:uniao-repassa-cide-estados",
+  "tipo": "relacao",
+  "nome": "A União entrega aos estados e ao DF 29% da CIDE-combustíveis",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Entrega 29% da arrecadação da contribuição de intervenção no domínio econômico sobre combustíveis (art. 177, § 4º), distribuídos na forma da lei.",
+  "vigencia": {
+    "de": "2003-12-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Inciso incluído pela EC 42/2003 (DOU de 31/12/2003) e alterado pelas EC 44/2004 e 132/2023, segundo as marcas do texto compilado; não conferimos quando o percentual passou a 29%."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

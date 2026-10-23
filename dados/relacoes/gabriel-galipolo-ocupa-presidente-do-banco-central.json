@@ -1,0 +1,37 @@
+{
+  "id": "rel:gabriel-galipolo-ocupa-presidente-do-banco-central",
+  "tipo": "relacao",
+  "nome": "Gabriel Galípolo é Presidente do Banco Central",
+  "relacao": "ocupa",
+  "de": "pessoa:gabriel-galipolo",
+  "para": "cargo:presidente-do-banco-central",
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": null,
+    "nota": "Nomeado a partir de 1º/1/2025, com mandato até 31/12/2028 (decreto de 30/12/2024). Em exercício em 2026-10-01: assina como Presidente do Banco Central a Resolução CMN 5.343, de 24/9/2026, e a Portaria BCB 127.903, de 2/10/2026. Não fizemos busca exaustiva de exoneração; a busca no DOU pelo nome (1/2025 a 10/2026) só trouxe atos assinados por ele."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 30/12/2024 (DOU 31/12/2024, ed. 251, Seção 2, p. 1)",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-30-de-dezembro-de-2024-605002699"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Resolução CMN nº 5.343, de 24/9/2026 (DOU 28/9/2026, ed. 183, Seção 1, p. 50), assinada por Gabriel Muricca Galípolo, Presidente do Banco Central",
+      "nota": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.343-de-24-de-setembro-de-2026-734838070"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 127.903, de 2/10/2026 (DOU 5/10/2026, ed. 188, Seção 2, p. 59), do Presidente do Banco Central",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-127.903-de-2-de-outubro-de-2026-736373637"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Cópias das páginas do DOU em pesquisa/brutos/dou/2026-10-23/. A aprovação pelo Senado (8/10/2024, segundo a imprensa) não foi conferida em fonte oficial.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-salario-educacao",
+  "tipo": "relacao",
+  "nome": "União: Contribuição social do salário-educação (exclusiva, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-salario-educacao",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "legislativa",
+    "nota": "Instituir a contribuição social do salário-educação; contribuições sociais são competência exclusiva da União (art. 149, caput)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput; art. 212, § 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

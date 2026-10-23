@@ -1,0 +1,44 @@
+{
+  "id": "org:juntas-eleitorais",
+  "tipo": "orgao",
+  "nome": "Juntas eleitorais",
+  "resumo": "Órgãos temporários da Justiça Eleitoral que apuram os votos das zonas e diplomam os eleitos nos municípios. Cada uma tem um juiz de direito e 2 ou 4 cidadãos.",
+  "detalhes": "São formadas a cada eleição: os membros são nomeados 60 dias antes pelo presidente do TRE, depois de aprovação do tribunal, e qualquer partido pode impugnar as indicações. Cabe a elas apurar as eleições das zonas sob sua jurisdição, resolver as impugnações da contagem, expedir os boletins de apuração e o diploma dos eleitos para cargos municipais (Código Eleitoral, arts. 36 e 40).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-eleitoral",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 118, IV; art. 121, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 36, 37 e 40"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 118, IV"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "As juntas já existiam antes da CF/88 (Código Eleitoral de 1965); a data usada é a da Constituição atual."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Conjunto: representa todas as juntas do país. Pode haver tantas juntas quantos forem os juízes de direito com as garantias do art. 95 da CF (Código Eleitoral, art. 37). Não achamos número oficial de juntas para 2026."
+}

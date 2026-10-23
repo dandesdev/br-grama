@@ -2,8 +2,8 @@
   "id": "aviso:destituicao-procurador-geral-de-justica-quorum",
   "tipo": "aviso",
   "nome": "Destituição do procurador-geral de justiça: CF e Lei 8.625/1993 descrevem ritos diferentes",
-  "resumo": "A CF exige deliberação da maioria absoluta do Legislativo; a Lei 8.625/1993 fala em iniciativa do Colégio de Procuradores e autorização de um terço da Assembleia.",
-  "detalhes": "CF, art. 128, § 4º: os procuradores-gerais nos estados podem ser destituídos por deliberação da maioria absoluta do Poder Legislativo, na forma da lei complementar respectiva. Lei 8.625/1993, art. 9º, § 2º: a destituição por iniciativa do Colégio de Procuradores deve ser precedida de autorização de um terço dos membros da Assembleia. Os dois textos podem tratar de etapas diferentes, mas não achamos fonte oficial que os concilie. O mapa segue a CF.",
+  "resumo": "A CF exige deliberação da maioria absoluta do Legislativo; a Lei 8.625/1993 fala em proposta do Colégio de Procuradores e autorização prévia de um terço da Assembleia.",
+  "detalhes": "CF, art. 128, § 4º: os procuradores-gerais nos estados podem ser destituídos por deliberação da maioria absoluta do Poder Legislativo, na forma da lei complementar respectiva. Lei 8.625/1993: o Colégio de Procuradores propõe a destituição ao Legislativo, por iniciativa da maioria absoluta e voto de dois terços dos seus membros (art. 12, IV), e a destituição por iniciativa do Colégio deve ser precedida de autorização de um terço da Assembleia (art. 9º, § 2º). Uma leitura possível é a de fases sucessivas: proposta do Colégio, autorização de um terço e deliberação final por maioria absoluta. Nenhuma das normas diz isso, e não achamos fonte oficial que as concilie. O mapa segue a CF.",
   "tipo_aviso": "ambiguidade-normativa",
   "gravidade": "baixa",
   "afeta": [
@@ -11,8 +11,9 @@
   ],
   "onde_procuramos": [
     "Texto da CF (cópia do Planalto de 2026-10-16)",
-    "Lei 8.625/1993 no Planalto (2026-10-22)",
-    "Não pesquisamos jurisprudência do STF nem as leis complementares estaduais"
+    "Lei 8.625/1993 no Planalto (2026-10-22 e 2026-10-23), arts. 9º e 12",
+    "Busca na web por jurisprudência do STF sobre o art. 9º, § 2º (2026-10-23), sem resultado oficial",
+    "Não pesquisamos as leis complementares estaduais"
   ],
   "vigencia": {
     "de": "1993-02-15",
@@ -25,13 +26,14 @@
     },
     {
       "ref": "norma:lei-8625-1993",
-      "dispositivo": "art. 9º, § 2º"
+      "dispositivo": "art. 9º, § 2º; art. 12, IV"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; não é contradição frontal: as normas podem tratar de fases diferentes (proposta do Colégio, art. 12, IV; autorização de um terço, art. 9º, § 2º; deliberação por maioria absoluta, CF art. 128, § 4º), mas nenhuma fonte oficial as concilia; tipo ambiguidade-normativa mantido; detalhes completados com o art. 12, IV"
   }
 }

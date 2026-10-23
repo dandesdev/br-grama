@@ -9,7 +9,7 @@
   "vigencia": {
     "de": "2026-05-06",
     "ate": null,
-    "nota": "Data da publicação da nomeação no DOU; a data da posse não foi pesquisada. Em exercício em 2026-10-01: assina a Portaria GABDPGF DPGU nº 1.389, de 19/9/2026, publicada no DOU de 1º/10/2026."
+    "nota": "Data da publicação da nomeação no DOU; a data da posse não foi pesquisada. Em exercício perto de 2026-10-01: assina as Portarias GABDPGF DPGU nº 1.449, de 28/9/2026 (DOU 29/9/2026), e nº 1.484, de 5/10/2026 (DOU 8/10/2026)."
   },
   "fontes": [
     {
@@ -18,14 +18,20 @@
     },
     {
       "ref": "fonte:dou-in-gov-br",
-      "dispositivo": "Portaria GABDPGF DPGU nº 1.389, de 19/9/2026 (DOU 1º/10/2026, Seção 2), assinada por Tarcijany Linhares Aguiar Machado como Defensora Pública-Geral Federal",
-      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabdpgf-dpgu-n-1.389-de-19-de-setembro-de-2026-735904078"
+      "dispositivo": "Portaria GABDPGF DPGU nº 1.449, de 28/9/2026 (DOU 29/9/2026, Seção 1), assinada por Tarcijany Linhares Aguiar Machado como Defensora Pública-Geral Federal",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabdpgf-dpgu-n-1.449-de-28-de-setembro-de-2026-735100357"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GABDPGF DPGU nº 1.484, de 5/10/2026 (DOU 8/10/2026, Seção 2), assinada por Tarcijany Linhares Aguiar Machado",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabdpgf-dpgu-n-1.484-de-5-de-outubro-de-2026-737217882"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: a prova de exercício era a Portaria nº 1.389, assinada em 19/9/2026 (só publicada em 1º/10); trocada por atos assinados em 28/9 e 5/10/2026, que cercam a data de referência; nenhum outro titular achado na busca do DOU de 28/9 a 9/10/2026"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-emprestimo-compulsorio",
+  "tipo": "relacao",
+  "nome": "União: Empréstimo compulsório (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-emprestimo-compulsorio",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir, por lei complementar, empréstimos compulsórios."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 148"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

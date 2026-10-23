@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-itr",
+  "tipo": "relacao",
+  "nome": "União: Imposto sobre a propriedade territorial rural (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-itr",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre a propriedade territorial rural. Os municípios podem optar por fiscalizar e cobrar (art. 153, § 4º, III)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, VI, e § 4º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

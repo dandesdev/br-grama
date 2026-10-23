@@ -1,0 +1,44 @@
+{
+  "id": "aviso:posse-jhonatan-de-jesus-tcu-data",
+  "tipo": "aviso",
+  "nome": "Data de início de Jhonatan de Jesus no TCU: atas oficiais divergem em um dia",
+  "resumo": "O TCU convocou a posse de Jhonatan de Jesus para 15/3/2023, mas a ata da 1ª Câmara de 14/3/2023 já o registra presente como ministro.",
+  "detalhes": "A ata do Plenário de 15/2/2023 convoca a sessão solene de posse para 15/3/2023, e a notícia do TCU de 13/3/2023 confirma a data. A ata da sessão da 1ª Câmara de 14/3/2023, publicada no DOU de 22/3/2023, abre a sessão com a presença dos Ministros Benjamin Zymler e Jhonatan de Jesus e o inclui no quórum. Não achamos termo de posse que explique a diferença. O mapa usa 15/3/2023.",
+  "tipo_aviso": "contradicao",
+  "gravidade": "baixa",
+  "afeta": [
+    "rel:jhonatan-de-jesus-ocupa-ministro-do-tcu"
+  ],
+  "onde_procuramos": [
+    "busca do in.gov.br por \"Jhonatan de Jesus\" e \"Jhonatan Pereira de Jesus\", 1º/1 a 31/3/2023 (todas as seções): achadas as atas de 15/2, 1º/3 e 14/3/2023 e portarias do gabinete; nenhum termo de posse",
+    "página do ministro e currículo no portal do TCU (cópias de 2026-10-23): sem data de posse"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Ata nº 6, de 15/2/2023, do Plenário do TCU (DOU 2/3/2023, Seção 1, p. 97)",
+      "nota": "https://www.in.gov.br/web/dou/-/ata-n-6-de-15-de-fevereiro-de-2023-467445481"
+    },
+    {
+      "ref": "fonte:tcu-noticia-posse-jhonatan-de-jesus",
+      "dispositivo": "posse marcada para quarta-feira, 15/3/2023, às 11h"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Ata nº 5, de 14/3/2023, da 1ª Câmara do TCU (DOU 22/3/2023, Seção 1, p. 92)",
+      "nota": "https://www.in.gov.br/web/dou/-/ata-n-5-de-14-de-marco-de-2023-471959342"
+    }
+  ],
+  "confianca": "oficial-contraditorio",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-controle",
+    "notas": "aberto na verificação"
+  },
+  "notas": "A ata de 15/2/2023 diz 10h e a notícia de 13/3/2023 diz 11h para a cerimônia; diferença de horário sem efeito no mapa."
+}

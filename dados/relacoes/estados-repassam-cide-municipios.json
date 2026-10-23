@@ -1,0 +1,27 @@
+{
+  "id": "rel:estados-repassam-cide-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados entregam aos municípios 25% da sua parte na CIDE-combustíveis",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Entregam aos seus municípios 25% do que recebem pelo art. 159, III, na forma da lei.",
+  "vigencia": {
+    "de": "2003-12-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Incluído pela EC 42/2003 (DOU de 31/12/2003)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 159, § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

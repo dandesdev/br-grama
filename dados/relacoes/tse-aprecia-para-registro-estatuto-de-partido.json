@@ -1,0 +1,30 @@
+{
+  "id": "rel:tse-aprecia-para-registro-estatuto-de-partido",
+  "tipo": "relacao",
+  "nome": "Registro de partidos e federações no TSE",
+  "relacao": "aprecia-para-registro",
+  "de": "org:tse",
+  "para": "obj:estatuto-de-partido-politico",
+  "condicao": "Registra o estatuto do partido que comprovar caráter nacional e o das federações. Só o registro garante a exclusividade do nome, da sigla e dos símbolos.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, § 2º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 7º, §§ 1º a 3º; art. 11-A, caput e § 3º, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "'aprecia-para-registro' foi pensado para o TCU (art. 71, III), mas a definição ('examina a legalidade de um ato e decide se ele é registrado') cabe aqui. Se o mantenedor preferir, criar um termo 'registra'."
+}

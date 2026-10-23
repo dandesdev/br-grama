@@ -2,7 +2,7 @@
   "id": "rel:tcu-aprecia-admissao-de-pessoal",
   "tipo": "relacao",
   "nome": "Registro dos atos de admissão de pessoal",
-  "relacao": "julga",
+  "relacao": "aprecia-para-registro",
   "de": "org:tcu",
   "para": "obj:ato-de-admissao-de-pessoal",
   "condicao": "Aprecia, para fins de registro, a legalidade das admissões na administração federal direta e indireta, exceto nomeações para cargo em comissão.",
@@ -16,11 +16,11 @@
       "dispositivo": "art. 71, III"
     }
   ],
-  "notas": "Termo 'julga' usado por falta de um termo para 'apreciar para fins de registro' (proposto no diário da f0-controle).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-controle"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; CF art. 71, III, conferido; termo trocado de 'julga' para 'aprecia-para-registro'"
   },
   "confianca": "oficial"
 }

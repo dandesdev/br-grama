@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-iof",
+  "tipo": "relacao",
+  "nome": "União: Imposto sobre operações de crédito, câmbio e seguro, ou relativas a títulos ou valores mobiliários (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-iof",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Instituir o imposto sobre operações financeiras."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

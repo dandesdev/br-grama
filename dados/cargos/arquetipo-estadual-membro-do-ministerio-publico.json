@@ -8,7 +8,7 @@
   "provimento": "concurso-publico",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado na lei de cada estado; não somamos.",
-  "provimento_nota": "Concurso público de provas e títulos, com participação da OAB; exige bacharelado em direito e três anos de atividade jurídica; nomeação pela ordem de classificação (CF, art. 129, § 3º). O ingresso é como promotor; procurador de justiça é cargo de promoção na carreira.",
+  "provimento_nota": "Concurso público de provas e títulos, com participação da OAB; exige bacharelado em direito e três anos de atividade jurídica; nomeação pela ordem de classificação (CF, art. 129, § 3º). O ingresso é como promotor; procurador de justiça é cargo de promoção na carreira, por antiguidade e merecimento alternados (Lei 8.625/1993, art. 61, I).",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -43,28 +43,23 @@
     },
     {
       "ref": "norma:lei-8625-1993",
-      "dispositivo": "arts. 7º, 31, 32 e 38"
+      "dispositivo": "arts. 7º, 31, 32, 38 e 61, I"
     },
     {
       "ref": "norma:lc-152-2015",
       "dispositivo": "art. 2º, III"
     }
   ],
-  "notas": "Cargo agregado. \"Procurador de justiça é cargo de promoção\" vem da estrutura da Lei 8.625/1993 (art. 7º, III e IV; art. 31) e das leis estaduais; os detalhes da carreira variam por estado.",
-  "campos": {
-    "provimento_nota": {
-      "confianca": "inferido",
-      "nota": "A frase sobre a promoção a procurador de justiça é inferida da Lei 8.625/1993, que não a diz com essas palavras."
-    }
-  },
+  "notas": "Cargo agregado. A promoção da entrância mais elevada para procurador de justiça está na Lei 8.625/1993, art. 61, I; os detalhes da carreira (entrâncias) variam por estado.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: a promoção a procurador de justiça deixou de ser inferida; a Lei 8.625/1993, art. 61, I, a prevê expressamente"
   }
 }

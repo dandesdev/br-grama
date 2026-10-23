@@ -1,0 +1,57 @@
+{
+  "id": "cargo:juiz-eleitoral",
+  "tipo": "cargo",
+  "nome": "Juiz eleitoral",
+  "resumo": "Juiz de direito que exerce a jurisdição eleitoral numa zona eleitoral: cuida do alistamento, dos locais de votação, das mesas e do registro de candidatos municipais.",
+  "orgao": "org:justica-eleitoral",
+  "provimento": "nato",
+  "provimento_nota": "Não há concurso nem cargo próprio: a jurisdição de cada zona cabe a um juiz de direito em exercício (ou ao seu substituto legal com as garantias do art. 95 da CF). Onde houver mais de uma vara, o TRE designa a que fará o serviço eleitoral (Código Eleitoral, art. 32).",
+  "vagas": 2641,
+  "vagas_nota": "Uma por zona eleitoral. O TSE informou 2.641 zonas eleitorais nas Eleições 2026.",
+  "mandato": null,
+  "requisitos": [
+    {
+      "texto": "ser juiz de direito em efetivo exercício, ou o substituto legal dele com as garantias do art. 95 da CF",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 32"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Entre outras funções, processa e julga os crimes eleitorais e os comuns conexos, inscreve e exclui eleitores, divide a zona em seções, nomeia os mesários e registra (ou cassa o registro de) candidatos a prefeito, vice-prefeito e vereador (Código Eleitoral, art. 35). Tem as garantias e a inamovibilidade do art. 121, § 1º, da CF no exercício da função.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 118, III; art. 121, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 32, 35 e 89, III"
+    }
+  ],
+  "campos": {
+    "vagas": {
+      "fontes": [
+        {
+          "ref": "fonte:tse-noticia-eleitorado-2026",
+          "dispositivo": "'A votação ocorrerá em 517.206 seções eleitorais, organizadas em 2.641 zonas eleitorais.'"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "O TSE publica o número de zonas, não o de juízes eleitorais; deduzimos um juiz por zona pela regra do Código Eleitoral, art. 32."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "A CF diz 'os Juízes Eleitorais' (art. 118, III) e, no art. 121, 'os juízes de direito'. Função exercida pelo cargo:juiz-de-direito. Não pesquisamos as regras do TSE sobre o rodízio dos juízes nas zonas; por isso mandato fica null."
+}

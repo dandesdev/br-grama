@@ -3,7 +3,7 @@
   "tipo": "pessoa",
   "nome": "Benjamin Zymler",
   "nome_civil": "Benjamin Zymler",
-  "resumo": "Ministro do TCU desde 2001; antes foi ministro-substituto do Tribunal.",
+  "resumo": "Ministro do TCU desde 11 de setembro de 2001; antes foi ministro-substituto do Tribunal.",
   "vigencia": {
     "de": null,
     "ate": null
@@ -15,15 +15,16 @@
     },
     {
       "ref": "fonte:tcu-curriculos-ministros",
-      "dispositivo": "currículo do ministro Benjamin Zymler: \"Desde 2001 Ministro do Tribunal de Contas da União\"; \"1998/2001 Ministro-substituto\""
+      "dispositivo": "currículo do ministro Benjamin Zymler: \"Desde 11/9/2001 até os dias atuais: ocupa o cargo de Ministro do TCU\"; \"1998/2001 Ministro-substituto\""
     }
   ],
   "filiacoes": [],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; resumo completado com o dia (11/9/2001, currículo do TCU); nome conferido na lista do TCU"
   },
   "mais_informacoes": [
     {

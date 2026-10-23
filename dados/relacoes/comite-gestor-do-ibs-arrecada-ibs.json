@@ -1,0 +1,30 @@
+{
+  "id": "rel:comite-gestor-do-ibs-arrecada-ibs",
+  "tipo": "relacao",
+  "nome": "O Comitê Gestor arrecada e distribui o IBS",
+  "relacao": "arrecada",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "obj:tributo-ibs",
+  "condicao": "Em nome dos estados, do DF e dos municípios, edita o regulamento único, arrecada o imposto, faz as compensações, distribui o produto entre os entes e decide o contencioso administrativo. Fiscalização, lançamento e cobrança ficam com as administrações tributárias e procuradorias de cada ente, coordenadas pelo Comitê.",
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Data da LC 227/2026, que instituiu o CGIBS definitivo; antes atuava o CGIBS provisório da LC 214/2025, art. 480."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, caput, I a III, e § 2º, V"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:procurador-regional-eleitoral-oficia-junto-a-justica-eleitoral",
+  "tipo": "relacao",
+  "nome": "Procurador Regional Eleitoral atua no TRE",
+  "relacao": "oficia-junto-a",
+  "de": "cargo:procurador-regional-eleitoral",
+  "para": "org:justica-eleitoral",
+  "condicao": "Cada Procurador Regional Eleitoral atua nas causas de competência do TRE do seu estado ou do DF.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 77"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "O alvo é o ramo porque não há nó agregado para os 27 TREs; a condição diz qual tribunal."
+}

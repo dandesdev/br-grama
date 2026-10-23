@@ -8,6 +8,7 @@
   "tipo_orgao": "partido-politico",
   "poder": "nao-estatal",
   "esfera": "federal",
+  "contido_em": "org:partidos-politicos",
   "vigencia": {
     "de": "1982-02-11",
     "ate": null
@@ -30,6 +31,14 @@
           "dispositivo": "campos NM_FEDERACAO e SG_FEDERACAO: 'Federação Brasil da Esperança - FE Brasil', 13-PT/65-PC do B/43-PV"
         }
       ]
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 17"
+        }
+      ]
     }
   },
   "confianca": "oficial",
@@ -37,7 +46,7 @@
     "status": "verificado",
     "em": "2026-10-17",
     "tarefa": "verificacao-piloto-pessoas",
-    "notas": "coletado em piloto-pessoas; frase sobre regras da federação retirada por falta de fonte (ver notas)"
+    "notas": "coletado em piloto-pessoas; frase sobre regras da federação retirada por falta de fonte (ver notas); contido_em org:partidos-politicos acrescentado pelo coordenador em 2026-10-23"
   },
   "mais_informacoes": [
     {
@@ -45,5 +54,5 @@
       "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
     }
   ],
-  "notas": "Federação não é partido: não criamos org: para ela. O modelo ainda não tem tipo de entidade para federação partidária. Verificação 2026-10-17: retirada dos detalhes a frase 'A federação age como um só partido por pelo menos quatro anos, mas cada partido mantém seu registro', que não tinha fonte no arquivo. Ela está correta pela Lei 9.096/1995, art. 11-A, caput, § 2º e § 3º, II (incluídos pela Lei 14.208/2021), mas essa lei ainda não é norma: no projeto. Pode voltar quando a norma for criada."
+  "notas": "Integra a federação Brasil da Esperança (org:federacao-brasil-da-esperanca), com PCdoB e PV."
 }

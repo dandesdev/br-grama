@@ -1,0 +1,31 @@
+{
+  "id": "obj:tributo-contribuicao-do-importador",
+  "tipo": "objeto",
+  "nome": "Contribuição do importador de bens ou serviços",
+  "resumo": "Contribuição de quem importa bens ou serviços, para a seguridade social; será extinta em 2027 e substituída pela CBS.",
+  "detalhes": "A EC 132/2023 revoga o dispositivo em 2027, quando a CBS passa a ser cobrada (ADCT, art. 126, II).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2003-12-31",
+    "ate": "2026-12-31",
+    "incerta": true,
+    "nota": "Incluída pela EC 42/2003 (DOU de 31/12/2003; a emenda não traz cláusula de vigência, e usamos a data de publicação). Extinta a partir de 2027 (ADCT, art. 126, II; EC 132/2023, art. 22, I)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, IV; ADCT, art. 126, II"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 22, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

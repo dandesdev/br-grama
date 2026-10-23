@@ -20,11 +20,12 @@
       "dispositivo": "art. 18, VII"
     }
   ],
-  "confianca": "inferido",
-  "notas": "Inferido: a CF diz \"livre nomeação\" (art. 131, § 1º) e não fala em exoneração do AGU; como o AGU é Ministro de Estado (Lei 14.600/2023, art. 18, VII), aplica-se o art. 84, I (nomear e exonerar os Ministros de Estado).",
+  "confianca": "oficial",
+  "notas": "A CF fala só em \"livre nomeação\" do AGU (art. 131, § 1º). A exoneração vem de dois textos expressos: a Lei 14.600/2023, art. 18, VII, diz que o AGU é Ministro de Estado, e a CF, art. 84, I, dá ao Presidente o poder de nomear e exonerar os Ministros de Estado.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-22",
-    "tarefa": "f0-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; confiança inferido → oficial: os dois dispositivos são expressos (Lei 14.600/2023, art. 18, VII; CF, art. 84, I); a nota explica a combinação"
   }
 }

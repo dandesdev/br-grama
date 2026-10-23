@@ -13,21 +13,23 @@
   "vigencia": {
     "de": "2006-12-26",
     "ate": null,
-    "incerta": true,
-    "nota": "Data de publicação (DOU de 26/12/2006, retificado em 28/12/2006, segundo o rodapé do Planalto); cláusula de vigência não conferida."
+    "nota": "Em vigor na publicação (art. 161), no DOU de 26/12/2006, Seção 1, p. 4; retificada no DOU de 28/12/2006."
   },
   "fontes": [
     {
       "ref": "norma:resolucao-cn-1-2006",
-      "dispositivo": "arts. 1º, 2º e 5º"
+      "dispositivo": "arts. 1º, 2º, 5º e 161"
     }
   ],
   "confianca": "oficial",
-  "notas": "Data da resolução (22/12/2006) conforme o endereço do texto no Legin da Câmara; o texto do Planalto traz só \"Resolução nº 1, de 2006-CN\". O texto do Planalto não traz marcas de alteração, mas a Câmara publica uma versão 'alterada pela Resolução 3/2015-CN'; os dispositivos citados aqui (arts. 1º, 2º e 5º) não foram conferidos na versão atualizada. Cópia em pesquisa/brutos/planalto-leis/2026-10-23/rescn-1-2006.htm. Wayback não consultado.",
+  "notas": "Data da resolução (22/12/2006) conforme o Legin da Câmara; o texto do Planalto traz só \"Resolução nº 1, de 2006-CN\" e não incorpora as alterações. Texto atualizado conferido no Legin da Câmara em 2026-10-23 (cópia em pesquisa/brutos/camara/2026-10-23/rescn-1-2006-normaatualizada.html; ficha com a lista de alterações em rescn-1-2006-ficha.html): alterada pelas Resoluções 3/2008, 3/2013, 3/2015, 2/2021, 1/2022, 1/2025 e 2/2025-CN, nenhuma delas nos arts. 1º, 2º e 5º, que seguem com a redação original. Nenhuma resolução de 2026 alterando-a foi achada. Cópia do Planalto em pesquisa/brutos/planalto-leis/2026-10-23/rescn-1-2006.htm.",
   "publicacao": "2006-12-26",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
-  }
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: vigência deixou de ser incerta (art. 161: vigor na publicação, DOU 26/12/2006); arts. 1º, 2º e 5º conferidos no texto atualizado do Legin da Câmara, que incorpora as alterações até a Res. 2/2025-CN, nenhuma nesses artigos; compilacao_ate e redacao_conferida_em preenchidos"
+  },
+  "compilacao_ate": "Resolução nº 2, de 2025-CN",
+  "redacao_conferida_em": "2026-10-23"
 }

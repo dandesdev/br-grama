@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-impostos-residuais",
+  "tipo": "relacao",
+  "nome": "União: Impostos residuais da União (residual, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-impostos-residuais",
+  "competencia": {
+    "tipo": "residual",
+    "natureza": "legislativa",
+    "nota": "Instituir, por lei complementar, impostos não previstos no art. 153."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 154, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

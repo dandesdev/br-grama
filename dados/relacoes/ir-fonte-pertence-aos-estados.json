@@ -1,0 +1,25 @@
+{
+  "id": "rel:ir-fonte-pertence-aos-estados",
+  "tipo": "relacao",
+  "nome": "Pertence aos estados e ao DF o imposto de renda retido na fonte sobre o que eles pagam",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "O imposto de renda da União retido na fonte sobre rendimentos pagos pelos estados, pelo DF, suas autarquias e fundações pertence a eles.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 157, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

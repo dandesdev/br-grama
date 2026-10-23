@@ -1,0 +1,26 @@
+{
+  "id": "obj:tributo-ipi",
+  "tipo": "objeto",
+  "nome": "Imposto sobre produtos industrializados",
+  "sigla": "IPI",
+  "resumo": "Imposto da União sobre produtos industrializados, seletivo conforme a essencialidade e não cumulativo.",
+  "detalhes": "O Executivo pode alterar as alíquotas nos limites da lei; aumentos esperam 90 dias, mas não o ano seguinte (arts. 153, § 1º, e 150, § 1º). Com a reforma tributária, a partir de 2027 suas alíquotas ficam zeradas, salvo para produtos com industrialização incentivada na Zona Franca de Manaus (ADCT, art. 126, III).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, IV, e §§ 1º e 3º; art. 150, § 1º; art. 159, I e II; ADCT, art. 126, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

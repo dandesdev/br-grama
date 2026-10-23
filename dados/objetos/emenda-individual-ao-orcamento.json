@@ -1,0 +1,31 @@
+{
+  "id": "obj:emenda-individual-ao-orcamento",
+  "tipo": "objeto",
+  "nome": "Emenda individual ao orçamento",
+  "resumo": "Emenda de deputado ou senador ao projeto da LOA, de execução obrigatória até 2% da receita corrente líquida, metade para a saúde.",
+  "detalhes": "Do limite de 2%, 1,55% cabe aos deputados e 0,45% aos senadores (art. 166, §§ 9º e 9º-A). A execução é obrigatória, salvo impedimento técnico, e pode ser reduzida na mesma proporção das demais despesas discricionárias se a meta fiscal estiver em risco (§§ 11, 13 e 18). Pode mandar dinheiro a estados e municípios por transferência especial, sem convênio, ou com finalidade definida (art. 166-A).",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2015-03-18",
+    "ate": null,
+    "nota": "A execução obrigatória entrou na CF pela EC 86/2015, em vigor na publicação (DOU de 18/3/2015), com efeitos desde a execução orçamentária de 2014 (art. 4º). Limites atuais pela EC 126/2022 (DOU de 22/12/2022)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 166, §§ 2º, 3º, 9º, 9º-A, 10, 11, 13, 16 a 19; art. 166-A"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "art. 49"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'documento' por falta de termo melhor: a emenda é uma proposta que vira programação da LOA. A CF compilada remete à ADI 7697 (STF) em vários desses dispositivos; não pesquisamos o conteúdo da ação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

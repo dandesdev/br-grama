@@ -1,0 +1,29 @@
+{
+  "id": "obj:perda-ou-suspensao-de-direitos-politicos",
+  "tipo": "objeto",
+  "nome": "Perda ou suspensão de direitos políticos",
+  "resumo": "A CF proíbe cassar direitos políticos. Eles só são perdidos ou suspensos em cinco casos, quase todos ligados a decisão judicial definitiva.",
+  "detalhes": "Os casos são: cancelamento da naturalização por sentença definitiva; incapacidade civil absoluta; condenação criminal definitiva, enquanto durarem os efeitos; recusa de cumprir obrigação imposta a todos ou a prestação alternativa (escusa de consciência, art. 5º, VIII); e improbidade administrativa (art. 37, § 4º). Sem direitos políticos a pessoa não vota nem pode ser candidata (art. 14, § 3º, II).",
+  "tipo_objeto": "decisao",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:eleitorado-nacional"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 15, I a V; art. 5º, VIII; art. 14, § 3º, II; art. 37, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Objeto sem relação: a decisão vem de juízos diferentes conforme o caso (penal, cível, improbidade, Justiça Federal no cancelamento da naturalização). A CF não diz quais casos são de perda e quais de suspensão; não classificamos para não afirmar além do texto."
+}

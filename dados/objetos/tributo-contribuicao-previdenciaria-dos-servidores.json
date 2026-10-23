@@ -1,0 +1,24 @@
+{
+  "id": "obj:tributo-contribuicao-previdenciaria-dos-servidores",
+  "tipo": "objeto",
+  "nome": "Contribuição para o regime próprio de previdência dos servidores",
+  "resumo": "Contribuição que cada ente cobra dos seus servidores ativos, aposentados e pensionistas para custear o regime próprio de previdência.",
+  "detalhes": "As alíquotas podem ser progressivas. Havendo déficit atuarial, pode incidir sobre aposentadorias acima do salário mínimo e, na União, admite contribuição extraordinária (art. 149, §§ 1º a 1º-C).",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, §§ 1º a 1º-C"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

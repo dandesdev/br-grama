@@ -1,0 +1,30 @@
+{
+  "id": "obj:tributo-iof",
+  "tipo": "objeto",
+  "nome": "Imposto sobre operações de crédito, câmbio e seguro, ou relativas a títulos ou valores mobiliários",
+  "sigla": "IOF",
+  "resumo": "Imposto da União sobre operações financeiras: crédito, câmbio, seguro e títulos ou valores mobiliários.",
+  "detalhes": "O Executivo pode alterar as alíquotas nos limites da lei, e o aumento vale de imediato (arts. 153, § 1º, e 150, § 1º). O ouro como ativo financeiro só paga este imposto, repartido com o estado e o município de origem (art. 153, § 5º). A partir de 2027 o seguro sai da base do imposto (EC 132/2023, arts. 3º e 23, I).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, V, e §§ 1º e 5º; art. 150, § 1º"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "arts. 3º e 23, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

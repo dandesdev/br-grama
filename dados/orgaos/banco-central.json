@@ -3,8 +3,8 @@
   "tipo": "orgao",
   "nome": "Banco Central do Brasil",
   "sigla": "BCB",
-  "resumo": "Autarquia de natureza especial, sem vínculo com ministério, que conduz a política monetária para assegurar a estabilidade de preços e zela pelo sistema financeiro.",
-  "detalhes": "A Diretoria Colegiada tem nove membros, incluindo o Presidente, todos indicados e nomeados pelo Presidente da República após aprovação do Senado, com mandatos de quatro anos; o do Presidente do Banco Central começa no terceiro ano do mandato do Presidente da República. Só emite moeda a União, por meio do Banco Central (CF, art. 164).",
+  "resumo": "Autarquia de natureza especial, sem vínculo a ministério, que emite a moeda, conduz a política monetária para manter os preços estáveis e zela pelo sistema financeiro.",
+  "detalhes": "Só o Banco Central emite moeda em nome da União; ele não pode emprestar ao Tesouro Nacional, mas pode comprar e vender títulos do Tesouro para regular a moeda e os juros, e guarda o caixa da União (CF, art. 164). Tem autonomia técnica, operacional, administrativa e financeira e cumpre as metas de política monetária fixadas pelo Conselho Monetário Nacional (LC 179/2021, arts. 2º e 6º). A Diretoria Colegiada tem nove membros, o Presidente e oito diretores, com mandatos fixos e escalonados de quatro anos (arts. 3º e 4º).",
   "tipo_orgao": "autarquia",
   "poder": "executivo",
   "esfera": "federal",
@@ -25,20 +25,29 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 84, XIV; art. 52, III, d; art. 164"
+      "dispositivo": "art. 52, III, d; art. 84, XIV; art. 164"
     },
     {
       "ref": "norma:lc-179-2021",
-      "dispositivo": "arts. 1º, 3º, 4º, 6º e 9º"
+      "dispositivo": "arts. 1º a 6º e 9º"
+    },
+    {
+      "ref": "norma:lei-4595-1964",
+      "dispositivo": "arts. 8º e 9º"
+    },
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 8º, § 5º"
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "1965-03-31",
     "ate": null,
-    "nota": "Criado pela Lei 4.595/1964 (não pesquisada nesta tarefa); a autonomia atual vem da LC 179/2021."
+    "incerta": true,
+    "nota": "Criado pela Lei 4.595/1964, que transformou a Superintendência da Moeda e do Crédito em autarquia com o nome de Banco Central da República do Brasil (art. 8º); a lei entrou em vigor 90 dias após a publicação (art. 65), data calculada por nós. A autonomia atual vem da LC 179/2021."
   },
   "confianca": "oficial",
-  "notas": "Criado com o mínimo para servir de alvo às relações do art. 84, XIV (nomeação do presidente e dos diretores após aprovação do Senado). Órgãos internos, Conselho Monetário Nacional e Copom não foram modelados. Ver aviso:govbr-lista-ministerios-inclui-banco-central.",
+  "notas": "Esboço criado em f0-executivo para servir de alvo às relações do art. 84, XIV; completado em f0-dinheiro, que passou a ser dona do órgão. Cargos: cargo:presidente-do-banco-central e cargo:diretor-do-banco-central. As relações rel:presidente-nomeia-diretoria-banco-central e rel:senado-aprova-indicacao-diretoria-banco-central (de f0-executivo) ainda apontam para o órgão; poderiam passar a apontar para os cargos. Órgãos internos e Copom não foram modelados. Ver aviso:govbr-lista-ministerios-inclui-banco-central.",
   "mais_informacoes": [
     {
       "titulo": "Banco Central do Brasil",
@@ -46,9 +55,16 @@
     }
   ],
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; CF, arts. 52, III, d, 84, XIV, e 164, e LC 179/2021, arts. 1º, 3º, 4º, 6º e 9º, conferidos; contido_em segue inferido (a LC 179/2021 nega vínculo a ministério, mas não diz onde o órgão fica)"
-  }
+    "tarefa": "f0-dinheiro",
+    "notas": "complementado em f0-dinheiro (resumo, detalhes, fontes, vigência, estrutura); antes verificado em verificacao-f0-executivo (2026-10-23)"
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "art. 3º",
+      "nota": "Diretoria Colegiada; a estrutura interna está no Regimento Interno do Banco Central (Resolução BCB nº 340/2023, citada no DOU), não pesquisado"
+    }
+  ]
 }

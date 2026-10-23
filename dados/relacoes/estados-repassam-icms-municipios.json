@@ -1,0 +1,30 @@
+{
+  "id": "rel:estados-repassam-icms-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados entregam aos municípios 25% do ICMS",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Pertencem aos municípios 25% do ICMS: pelo menos 65% conforme o valor adicionado em cada território e até 35% conforme lei estadual, com no mínimo 10 pontos ligados a resultados de aprendizagem.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "2032-12-31",
+    "nota": "Acaba com o ICMS, extinto a partir de 2033 (ADCT, art. 129; EC 132/2023, art. 22, II, a)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 158, IV, a, e § 1º"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 22, II, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

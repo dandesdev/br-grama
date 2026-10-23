@@ -1,0 +1,30 @@
+{
+  "id": "obj:tributo-contribuicao-sobre-receita-ou-faturamento",
+  "tipo": "objeto",
+  "nome": "Contribuição do empregador sobre a receita ou o faturamento",
+  "resumo": "Contribuição de empresas sobre a receita ou o faturamento, para a seguridade social; será extinta em 2027 e substituída pela CBS.",
+  "detalhes": "É a base da Cofins, nome dado pela lei, não pela Constituição. A EC 132/2023 revoga o dispositivo em 2027, quando a CBS passa a ser cobrada (ADCT, art. 126, II).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": "2026-12-31",
+    "nota": "Extinta a partir de 2027 (ADCT, art. 126, II; EC 132/2023, art. 22, I). Em 2026-10-01 era cobrada normalmente."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, I, b; ADCT, art. 126, II"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "art. 22, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

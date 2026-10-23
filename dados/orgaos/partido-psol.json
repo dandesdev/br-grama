@@ -7,6 +7,7 @@
   "tipo_orgao": "partido-politico",
   "poder": "nao-estatal",
   "esfera": "nacional",
+  "contido_em": "org:partidos-politicos",
   "vigencia": {
     "de": null,
     "ate": null
@@ -22,12 +23,22 @@
     "status": "verificado",
     "em": "2026-10-18",
     "tarefa": "importacao-camara-deputados",
-    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos. Contido_em org:partidos-politicos acrescentado pelo coordenador em 2026-10-23"
   },
   "mais_informacoes": [
     {
       "titulo": "Partidos registrados no TSE",
       "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
     }
-  ]
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 17"
+        }
+      ]
+    }
+  }
 }

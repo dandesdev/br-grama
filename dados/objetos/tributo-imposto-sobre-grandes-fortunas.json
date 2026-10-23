@@ -1,0 +1,27 @@
+{
+  "id": "obj:tributo-imposto-sobre-grandes-fortunas",
+  "tipo": "objeto",
+  "nome": "Imposto sobre grandes fortunas",
+  "sigla": "IGF",
+  "resumo": "Imposto da União previsto na Constituição, que depende de lei complementar para ser cobrado.",
+  "detalhes": "A Constituição dá a competência à União, mas exige lei complementar para instituí-lo (art. 153, VII).",
+  "tipo_objeto": "materia",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 153, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Não localizamos lei complementar que o institua; não afirmamos no site que ele nunca foi instituído porque não temos fonte oficial para isso.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

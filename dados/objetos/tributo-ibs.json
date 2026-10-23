@@ -1,0 +1,30 @@
+{
+  "id": "obj:tributo-ibs",
+  "tipo": "objeto",
+  "nome": "Imposto sobre Bens e Serviços",
+  "sigla": "IBS",
+  "resumo": "Imposto sobre bens e serviços de competência compartilhada entre estados, DF e municípios; substitui o ICMS e o ISS.",
+  "detalhes": "Instituído por lei complementar, com legislação única nacional; cada ente fixa sua alíquota por lei própria, e a administração é feita em conjunto pelo Comitê Gestor do IBS (arts. 156-A e 156-B). Em 2026 é cobrado em caráter de teste, à alíquota estadual de 0,1%, compensável com PIS e Cofins, e quem cumpre as obrigações acessórias fica dispensado de recolher (ADCT, art. 125; LC 214/2025, arts. 343 e 348).",
+  "tipo_objeto": "materia",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Previsto na CF desde a EC 132/2023; instituído pela LC 214/2025; em 2026, cobrança de teste (ADCT, art. 125); de 2029 a 2032, transição com o ICMS e o ISS (ADCT, art. 128)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-A; art. 156-B; ADCT, arts. 125, 127, 128 e 131"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 1º, I, 343 e 348"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

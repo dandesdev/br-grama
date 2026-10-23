@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Ordem dos Advogados do Brasil",
   "sigla": "OAB",
-  "resumo": "Entidade que representa, seleciona e disciplina os advogados no país. A lei a define como serviço público, sem vínculo com a administração pública.",
+  "resumo": "Entidade que representa, seleciona e disciplina os advogados no país. A lei a define como serviço público, sem vínculo funcional ou hierárquico com a administração pública.",
   "detalhes": "Tem personalidade jurídica e forma federativa: Conselho Federal, conselhos seccionais nos estados e no DF, subseções e caixas de assistência (Lei 8.906/1994, arts. 44 e 45). Não mantém vínculo funcional ou hierárquico com a administração pública (art. 44, § 1º) e, segundo o STF, não presta contas ao TCU (Tema 1.054). Para o STF, não integra a administração indireta: é um serviço público independente, de categoria própria (ADI 3026).",
   "tipo_orgao": "outro",
   "poder": "nao-estatal",
@@ -22,22 +22,10 @@
       "dispositivo": "tese do Tema 1.054"
     },
     {
-      "ref": "fonte:stf-adi-3026",
-      "dispositivo": "decisão de 8/6/2006"
+      "ref": "fonte:stf-adi-3026-acordao",
+      "dispositivo": "ementa, itens 3 e 5"
     }
   ],
-  "campos": {
-    "detalhes": {
-      "fontes": [
-        {
-          "ref": "fonte:dizer-o-direito-oab-prestacao-de-contas-2023",
-          "dispositivo": "transcrição da ementa da ADI 3026"
-        }
-      ],
-      "confianca": "secundario",
-      "nota": "A última frase (não integra a administração indireta; categoria própria) vem da ementa da ADI 3026, lida só em fonte secundária. O resto dos detalhes tem fonte oficial (Lei 8.906/1994 e tese do Tema 1.054)."
-    }
-  },
   "mais_informacoes": [
     {
       "titulo": "Conselho Federal da OAB",
@@ -51,9 +39,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-funcoes-essenciais"
+    "tarefa": "verificacao-f0-funcoes-essenciais",
+    "notas": "coletado em f0-funcoes-essenciais; corrigido: a frase sobre a ADI 3026 tinha fonte secundária; a ementa foi lida no inteiro teor oficial (fonte:stf-adi-3026-acordao), e campos.detalhes (secundario) saiu; resumo passou a dizer 'sem vínculo funcional ou hierárquico', como o art. 44, § 1º; Lei 8.906/1994, arts. 44 a 46, e tese do Tema 1.054 conferidos"
   },
-  "notas": "tipo_orgao outro e poder nao-estatal: o STF a tratou como categoria ímpar, fora da administração indireta, e por isso não a classificamos como paraestatal nem como conselho profissional comum. A CF cita o Conselho Federal da OAB como legitimado para ADI (art. 103, VII) e para indicar membros do CNJ e do CNMP (arts. 103-B, XII, e 130-A, V), e prevê a participação da OAB nos concursos da magistratura, do MP e das procuradorias (arts. 93, I; 129, § 3º; 132). Seccionais, subseções e caixas não foram modeladas."
+  "notas": "tipo_orgao outro e poder nao-estatal: o STF a tratou como serviço público independente, \"categoria ímpar\" (ADI 3026), fora da administração indireta, e por isso não a classificamos como paraestatal nem como conselho profissional comum. A CF cita o Conselho Federal da OAB como legitimado para ADI (art. 103, VII) e para indicar membros do CNJ e do CNMP (arts. 103-B, XII, e 130-A, V), e prevê a participação da OAB nos concursos da magistratura, do MP e das procuradorias (arts. 93, I; 129, § 3º; 132). Seccionais, subseções e caixas não foram modeladas."
 }

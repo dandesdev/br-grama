@@ -1,0 +1,44 @@
+{
+  "id": "obj:fundo-partidario",
+  "tipo": "objeto",
+  "nome": "Fundo Partidário",
+  "sigla": "Fundo Partidário",
+  "resumo": "Fundo Especial de Assistência Financeira aos Partidos Políticos. Recebe dinheiro do orçamento da União, multas eleitorais e doações, e é dividido pelo TSE entre os partidos.",
+  "detalhes": "É formado por multas eleitorais, doações e dotações da União de no mínimo R$ 0,35 (valores de agosto de 1995) por eleitor inscrito (Lei 9.096/1995, art. 38). O Tesouro deposita mensalmente numa conta à disposição do TSE, que divide em cinco dias: 5% em partes iguais entre os partidos que passam a cláusula de desempenho e 95% na proporção dos votos da última eleição para a Câmara (arts. 40, 41 e 41-A). Pelo menos 5% devem ir para programas de participação política das mulheres (CF, art. 17, § 7º).",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:partidos-politicos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, §§ 3º, 5º, 7º a 9º"
+    },
+    {
+      "ref": "norma:ec-97-2017",
+      "dispositivo": "art. 3º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "arts. 38, 40, 41 e 41-A"
+    }
+  ],
+  "campos": {
+    "detalhes": {
+      "nota": "Cláusula de desempenho (CF, art. 17, § 3º; EC 97/2017, art. 3º): na legislatura seguinte à eleição de 2022, vigente em 2026-10-01, só tem acesso o partido com 2% dos votos válidos para a Câmara em pelo menos um terço das UFs (com 1% em cada) ou 11 deputados federais eleitos em um terço das UFs. O resultado de 2026 vale para a legislatura seguinte com 2,5% (1,5% por UF) ou 13 deputados; a regra cheia (3% e 2%, ou 15 deputados) vale a partir das eleições de 2030."
+    }
+  },
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null,
+    "nota": "Data da Lei 9.096/1995; um fundo partidário já existia em leis anteriores (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "tipo_objeto 'documento' por falta de termo para fundo ou recurso financeiro; propor 'recurso-financeiro' ou 'fundo'. Não pesquisamos o valor do fundo em 2026."
+}

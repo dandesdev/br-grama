@@ -1,0 +1,97 @@
+{
+  "id": "cargo:juiz-de-tre",
+  "tipo": "cargo",
+  "nome": "Juiz de Tribunal Regional Eleitoral",
+  "resumo": "Integra um dos 27 TREs, que têm sete membros cada: dois desembargadores, dois juízes de direito, um juiz federal ou do TRF e dois advogados. Serve dois anos, renováveis uma vez.",
+  "orgao": "org:justica-eleitoral",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "Duas vagas de desembargadores do Tribunal de Justiça: eleição por voto secreto pelo TJ",
+      "provimento": "eleicao-pelos-pares",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 1º, I, a"
+        }
+      ]
+    },
+    {
+      "quando": "Duas vagas de juízes de direito: eleição por voto secreto, escolhidos pelo Tribunal de Justiça",
+      "provimento": "eleicao-pelos-pares",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 1º, I, b"
+        }
+      ]
+    },
+    {
+      "quando": "Uma vaga de juiz do TRF com sede na capital ou, se não houver, de juiz federal: escolha pelo TRF respectivo",
+      "provimento": "eleicao-pelos-pares",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 1º, II"
+        }
+      ]
+    },
+    {
+      "quando": "Duas vagas de advogados: o Presidente da República nomeia dois de seis nomes indicados pelo Tribunal de Justiça",
+      "provimento": "nomeacao-a-partir-de-lista",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 1º, III"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "O TRE elege o seu Presidente e o Vice-Presidente entre os desembargadores (art. 120, § 2º). Os substitutos são escolhidos na mesma ocasião e pelo mesmo processo (art. 121, § 2º).",
+  "vagas": 189,
+  "vagas_nota": "Sete por tribunal (art. 120, § 1º) em 27 TREs (um na capital de cada estado e no DF, art. 120, caput). Substitutos não contados.",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "no máximo dois biênios consecutivos",
+    "nota": "Servem por dois anos, no mínimo, salvo motivo justificado, e nunca por mais de dois biênios consecutivos (art. 121, § 2º). Os magistrados continuam vitalícios nos tribunais e juízos de origem."
+  },
+  "requisitos": [
+    {
+      "texto": "ser desembargador do TJ, juiz de direito, juiz do TRF ou juiz federal, ou advogado de notável saber jurídico e idoneidade moral",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "No exercício das funções, têm plenas garantias e são inamovíveis (art. 121, § 1º). Nos crimes comuns e de responsabilidade, são julgados pelo STJ (art. 105, I, a). O cargo pertence a cada TRE; aqui aparece no ramo da Justiça Eleitoral porque são 27 tribunais.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, a; art. 120; art. 121, §§ 1º e 2º"
+    }
+  ],
+  "campos": {
+    "vagas": {
+      "confianca": "inferido",
+      "nota": "Conta nossa: 7 × 27. A CF fixa sete membros por TRE e um TRE por estado e no DF."
+    },
+    "provimento_casos": {
+      "nota": "\"Eleito pelos pares\" aqui quer dizer escolhido por votação no tribunal de origem (TJ ou TRF), não no TRE; o vocabulário não tem termo mais preciso."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-eleicoes"
+  },
+  "notas": "Criado para receber a relação de foro no STJ (art. 105, I, a), no modelo de cargo:juiz-de-trt. A CF chama os membros dos TREs de 'juízes' (art. 120, § 1º, e art. 121, § 2º)."
+}

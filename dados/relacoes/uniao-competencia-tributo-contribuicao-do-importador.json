@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-contribuicao-do-importador",
+  "tipo": "relacao",
+  "nome": "União: Contribuição do importador de bens ou serviços (exclusiva, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-contribuicao-do-importador",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "legislativa",
+    "nota": "Instituir a contribuição social. Contribuições sociais são competência exclusiva da União (art. 149, caput); servidores de estados e municípios pagam a contribuição do regime próprio (art. 149, § 1º)."
+  },
+  "vigencia": {
+    "de": "2003-12-31",
+    "ate": "2026-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput; art. 195, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

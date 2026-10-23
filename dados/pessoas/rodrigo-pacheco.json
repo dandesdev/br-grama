@@ -2,7 +2,7 @@
   "id": "pessoa:rodrigo-pacheco",
   "tipo": "pessoa",
   "nome": "Rodrigo Pacheco",
-  "nome_civil": "Rodrigo Otavio Soares Pacheco",
+  "nome_civil": "Rodrigo Otávio Soares Pacheco",
   "resumo": "Ministro do TCU desde 30 de setembro de 2026, na vaga de Bruno Dantas; antes foi senador por Minas Gerais e presidente do Senado.",
   "vigencia": {
     "de": null,
@@ -21,9 +21,10 @@
   "filiacoes": [],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: nome_civil \"Rodrigo Otavio\" para \"Rodrigo Otávio Soares Pacheco\", grafia do decreto de nomeação e do Decreto Legislativo 386/2026 no DOU; posse em 30/9/2026 conferida"
   },
   "mais_informacoes": [
     {
@@ -31,5 +32,5 @@
       "url": "https://portal.tcu.gov.br/autoridades/ministros/ministro-rodrigo-pacheco"
     }
   ],
-  "notas": "Nome completo conforme a lista de ministros do TCU. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
+  "notas": "Nome completo conforme o decreto de nomeação (DOU 28/9/2026); a lista do TCU grafa \"Otavio\", sem acento. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
 }
