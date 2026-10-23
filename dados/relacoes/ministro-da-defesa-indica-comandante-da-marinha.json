@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-da-defesa-indica-comandante-da-marinha",
+  "tipo": "relacao",
+  "nome": "O Ministro da Defesa indica o Comandante da Marinha",
+  "relacao": "indica",
+  "de": "cargo:ministro-de-estado",
+  "para": "cargo:comandante-da-marinha",
+  "orgao_exercicio": "org:ministerio-da-defesa",
+  "condicao": "Ministro de Estado da Defesa. A indicação vai ao Presidente, que nomeia.",
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2010-08-26",
+    "ate": null,
+    "nota": "Redação dada pela LC 136/2010 (DOU 26/8/2010); antes, o Presidente nomeava ouvido o Ministro."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

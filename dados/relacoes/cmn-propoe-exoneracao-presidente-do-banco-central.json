@@ -17,10 +17,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Relação 'propoe' por falta de termo para 'propõe a exoneração'. Uma só relação, para o cargo de Presidente; a condição estende aos diretores.",
+  "notas": "Relação 'propoe' por falta de termo para 'propõe a exoneração'. Uma só relação, para o cargo de Presidente; a condição estende aos diretores. A aprovação do Senado está em rel:senado-aprova-exoneracao-presidente-do-banco-central.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; LC 179/2021, art. 5º, IV, e § 1º, conferido; notas remetem à relação nova do Senado"
   }
 }

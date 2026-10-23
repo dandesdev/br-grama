@@ -2,7 +2,7 @@
   "id": "rel:tcu-calcula-cotas-fpe",
   "tipo": "relacao",
   "nome": "O TCU calcula as cotas do FPE",
-  "relacao": "regula",
+  "relacao": "calcula",
   "de": "org:tcu",
   "para": "obj:fpe",
   "condicao": "Calcula as cotas de cada estado e do DF no fundo, segundo os critérios da lei complementar.",
@@ -17,10 +17,10 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Relação 'regula' por falta de termo: a CF diz que o TCU 'efetuará o cálculo das quotas'. Proposto o termo 'calcula'.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; verbo \"regula\" trocado por \"calcula\" (termo novo); id mantido, já dizia \"calcula\"; base conferida: CF, art. 161, parágrafo único"
   }
 }

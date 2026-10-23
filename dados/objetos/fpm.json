@@ -4,7 +4,7 @@
   "nome": "Fundo de Participação dos Municípios",
   "sigla": "FPM",
   "resumo": "Fundo que recebe 25,5% do imposto de renda, do IPI e do Imposto Seletivo arrecadados pela União e os divide entre os municípios.",
-  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% em cada um dos primeiros dez dias de julho, setembro e dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160.",
+  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% nos primeiros dez dias de julho, de setembro e de dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160.",
   "tipo_objeto": "fundo",
   "esfera": "federal",
   "vigencia": {
@@ -21,8 +21,9 @@
   "confianca": "oficial",
   "notas": "Os critérios de rateio estão na LC 62/1989, citada pela CF compilada ('Vide'), não pesquisada nesta tarefa.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; CF, arts. 159, I, b, d, e e f, 160 e 161 conferidos; redação \"em cada um dos primeiros dez dias\" (dava a entender 1% por dia) trocada por \"nos primeiros dez dias\" (primeiro decêndio)"
   }
 }

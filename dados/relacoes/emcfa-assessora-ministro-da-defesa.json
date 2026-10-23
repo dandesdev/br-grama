@@ -1,0 +1,31 @@
+{
+  "id": "rel:emcfa-assessora-ministro-da-defesa",
+  "tipo": "relacao",
+  "nome": "O EMCFA assessora o Ministro da Defesa",
+  "relacao": "assessora",
+  "de": "org:estado-maior-conjunto-das-forcas-armadas",
+  "para": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:ministerio-da-defesa",
+  "condicao": "Ministro de Estado da Defesa: planejamento do emprego conjunto, exercícios conjuntos e operações de paz.",
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 3º-A, 9º e 11"
+    },
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 12"
+    }
+  ],
+  "vigencia": {
+    "de": "2010-08-26",
+    "ate": null,
+    "nota": "Desde a LC 136/2010 (DOU 26/8/2010)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

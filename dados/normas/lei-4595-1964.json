@@ -28,8 +28,15 @@
   "compilacao_ate": "Lei 14.286/2021",
   "redacao_conferida_em": "2026-10-23",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; arts. 2º, 4º, 8º, 9º e 65 conferidos; data de início marcada como inferida em campos.vigencia; nota final do Planalto: DOU de 31/12/1964 (suplemento), retificado em 3/2/1965"
+  },
+  "campos": {
+    "vigencia": {
+      "confianca": "inferido",
+      "nota": "Data calculada por nós: 90 dias após a publicação no DOU de 31/12/1964 (art. 65)."
+    }
   }
 }

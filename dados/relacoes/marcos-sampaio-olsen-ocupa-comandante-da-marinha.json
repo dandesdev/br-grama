@@ -1,0 +1,36 @@
+{
+  "id": "rel:marcos-sampaio-olsen-ocupa-comandante-da-marinha",
+  "tipo": "relacao",
+  "nome": "Marcos Sampaio Olsen é Comandante da Marinha",
+  "relacao": "ocupa",
+  "de": "pessoa:marcos-sampaio-olsen",
+  "para": "cargo:comandante-da-marinha",
+  "vigencia": {
+    "de": "2022-12-31",
+    "ate": null,
+    "nota": "Exercício contínuo: interino de 31/12/2022 até a nomeação efetiva de 5/1/2023. A data da posse não foi pesquisada. Em exercício em 2026-10-01: ato assinado no cargo com data próxima a 2026-10-01 e nenhuma exoneração achada na busca do DOU."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 29/12/2022 (DOU 30/12/2022, Seção 2): nomeia interinamente, a partir de 31/12/2022, o Almirante de Esquadra Marcos Sampaio Olsen",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-29-de-dezembro-de-2022-454906356"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 5/1/2023 (DOU 5/1/2023, Seção 2, edição extra A): nomeia o Almirante de Esquadra Marcos Sampaio Olsen Comandante da Marinha",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-5-de-janeiro-de-2023-456335616"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 249 MB/MD, de 29/9/2026 (DOU 1º/10/2026, Seção 2), assinada pelo Comandante da Marinha, Alte Esq Marcos Sampaio Olsen",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-249-mb/md-de-29-de-setembro-de-2026-735910664"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

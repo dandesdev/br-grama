@@ -1,0 +1,60 @@
+{
+  "id": "org:marinha",
+  "tipo": "orgao",
+  "nome": "Marinha",
+  "resumo": "Força naval: uma das três Forças Armadas, dirigida e gerida pelo Comandante da Marinha.",
+  "detalhes": "Na estrutura do Ministério da Defesa aparece como Comando da Marinha. Tem efetivos fixados em lei, dotações próprias no orçamento da Defesa, que ela mesma gere, e seu Comandante cuida do preparo dos órgãos operativos e de apoio.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:forcas-armadas",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 142, caput"
+        },
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:decreto-11337-2023",
+          "dispositivo": "art. 2º, VI, a (redação do Decreto 12.726/2025)"
+        }
+      ],
+      "nota": "As Forças Armadas são constituídas pela Marinha, pelo Exército e pela Aeronáutica."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 142, caput"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 1º, 4º, 8º, 12, §§ 1º e 3º, e 13"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 64",
+      "nota": "estruturas e organizações de cada Força definidas em regulamentos próprios"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; a Força é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Sem sigla: a sigla usual não foi conferida em fonte oficial estruturada. A estrutura regimental do Comando não foi modelada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

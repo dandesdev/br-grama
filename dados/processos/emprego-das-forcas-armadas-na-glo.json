@@ -1,0 +1,163 @@
+{
+  "id": "proc:emprego-das-forcas-armadas-na-glo",
+  "tipo": "processo",
+  "nome": "Emprego das Forças Armadas na garantia da lei e da ordem",
+  "resumo": "Como as Forças Armadas passam a atuar na ordem pública: pedido de um Poder ou iniciativa do Presidente, esgotamento das polícias reconhecido e decisão do Presidente.",
+  "detalhes": "As Forças Armadas garantem a lei e a ordem por iniciativa de qualquer dos poderes constitucionais (CF, art. 142). A decisão é sempre do Presidente e só vem depois de esgotados os órgãos de segurança pública do art. 144. A atuação é episódica, em área delimitada e por tempo limitado.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:presidente-do-stf",
+        "cargo:presidente-do-senado-federal",
+        "cargo:presidente-da-camara-dos-deputados"
+      ],
+      "acao": "O Presidente age por iniciativa própria ou a pedido de um Poder, feito pelo Presidente do STF, do Senado ou da Câmara",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 142, caput"
+        },
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 15, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "esgotamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "esgotamento",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O chefe do Executivo federal ou estadual reconhece que as polícias do art. 144 são indisponíveis ou insuficientes",
+      "detalhes": "Também valem como esgotados os órgãos reconhecidos como inexistentes. A atuação na garantia da lei e da ordem só ocorre depois de esgotados os instrumentos de preservação da ordem pública relacionados no art. 144 da CF.",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 15, §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decisao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente decide se emprega as Forças Armadas e determina ao Ministro da Defesa a ativação dos órgãos operacionais",
+      "detalhes": "A atuação segue diretrizes baixadas em ato do Presidente. A forma de subordinação dos meios empregados depende do caso: comando conjunto (ao Presidente, por intermédio do Ministro), adestramento e operações de paz (ao Ministro) ou uma só Força (ao Comandante dela).",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 15, caput, I a III, e §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ativacao",
+          "quando": "decide empregar"
+        },
+        {
+          "para": "fim",
+          "quando": "não emprega"
+        }
+      ]
+    },
+    {
+      "id": "ativacao",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:ministro-de-estado",
+        "org:forcas-armadas"
+      ],
+      "acao": "Após mensagem do Presidente, os órgãos operacionais atuam de forma episódica, em área definida e por tempo limitado",
+      "detalhes": "O Ministro de Estado que recebe a determinação é o da Defesa. As ações podem ser preventivas e repressivas.",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 15, caput, e § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "controle-operacional",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "controle-operacional",
+      "atores": [
+        "org:forcas-armadas"
+      ],
+      "acao": "A autoridade competente transfere o controle operacional das polícias necessárias à autoridade encarregada da operação",
+      "detalhes": "A autoridade encarregada forma um centro de coordenação de operações com representantes dos órgãos sob seu controle. Controle operacional é o poder de atribuir e coordenar missões aos efetivos policiais, respeitadas as competências deles.",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 15, §§ 5º e 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Fim do emprego, ao término do tempo e da área definidos",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 15, § 4º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 142, caput"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 15"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 24, XVI, a"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-06-10",
+    "ate": null,
+    "nota": "Desde a LC 97/1999 (DOU 10/6/1999). Os §§ 3º a 6º do art. 15 (esgotamento, ativação e controle operacional) foram incluídos pela LC 117/2004, cuja data não foi conferida aqui."
+  },
+  "confianca": "oficial",
+  "notas": "O governador aparece como ator porque o § 3º admite o reconhecimento pelo chefe do Executivo estadual. A LC não diz quem é a 'autoridade competente' que transfere o controle operacional; deixamos só as Forças Armadas como atores dessa etapa. O texto do Planalto remete à ADI 6457 nos §§ 1º a 3º; o conteúdo da decisão não foi conferido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

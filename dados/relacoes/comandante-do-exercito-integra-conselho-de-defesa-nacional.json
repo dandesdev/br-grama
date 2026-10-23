@@ -1,0 +1,26 @@
+{
+  "id": "rel:comandante-do-exercito-integra-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "O Comandante do Exército é membro do Conselho de Defesa Nacional",
+  "relacao": "integra",
+  "de": "cargo:comandante-do-exercito",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "Membro nato.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 91, VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-09-03",
+    "ate": null,
+    "nota": "Inciso VIII incluído pela EC 23/1999 (DOU 3/9/1999)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

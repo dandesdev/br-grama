@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Regime fiscal sustentável",
   "resumo": "Regra fiscal da União (LC 200/2023): limites de despesa primária por Poder e órgão, que crescem com a inflação mais parte do aumento real da receita.",
-  "detalhes": "O crescimento real dos limites é de 70% do crescimento real da receita se a meta de resultado primário do ano anterior foi cumprida, ou de 50% se não foi, sempre entre 0,6% e 2,5% ao ano (LC 200/2023, art. 5º). As metas de resultado primário ficam na LDO, e o Banco Central apura o resultado e a dívida (art. 2º). A CF exige que todos os entes mantenham a dívida em nível sustentável (art. 164-A).",
+  "detalhes": "O crescimento real dos limites é de 70% do crescimento real da receita se a meta de resultado primário do ano anterior foi cumprida, ou de 50% se não foi, sempre entre 0,6% e 2,5% ao ano (LC 200/2023, art. 5º). As metas de resultado primário ficam na LDO, e o Banco Central apura o resultado e a dívida (art. 2º). Desde 2026, precatórios e requisições de pequeno valor ficam fora do limite do Executivo (CF, art. 165, § 18). A CF exige que todos os entes mantenham a dívida em nível sustentável (art. 164-A).",
   "tipo_objeto": "regra-fiscal",
   "esfera": "federal",
   "relativo_a": [
@@ -17,7 +17,7 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 163, VIII; art. 164-A; art. 165, § 2º"
+      "dispositivo": "art. 163, VIII; art. 164-A; art. 165, §§ 2º e 18"
     },
     {
       "ref": "norma:lc-200-2023",
@@ -25,10 +25,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Sem números de metas anuais, como pede a tarefa. O texto compilado da LC 200/2023 no Planalto remete às ADIs 7064, 7641, 7922 e 8010 (STF), não pesquisadas.",
+  "notas": "Sem números de metas anuais, como pede a tarefa. O texto compilado da LC 200/2023 no Planalto remete às ADIs 7064, 7641, 7922 e 8010 (STF). Segundo notícias do STF, a ADI 7641 (julgada em 2025) e a ADI 7922 (referendo em janeiro de 2026) tiraram do limite as receitas próprias do Judiciário e do MPU; não conferimos as decisões nem a situação da ADI 8010. A LC 235/2026, art. 14, criou vedações ligadas ao limite do Executivo em caso de déficit projetado, sem alterar o texto da LC 200/2023.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; LC 200/2023, arts. 1º a 5º e 15, conferidos; acrescentada a exclusão dos precatórios do limite do Executivo desde 2026 (CF, art. 165, § 18, EC 136/2025); notas com as decisões do STF sobre receitas próprias e a LC 235/2026"
   }
 }

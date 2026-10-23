@@ -1,0 +1,67 @@
+{
+  "id": "org:estado-maior-conjunto-das-forcas-armadas",
+  "tipo": "orgao",
+  "nome": "Estado-Maior Conjunto das Forças Armadas",
+  "sigla": "EMCFA",
+  "resumo": "Órgão permanente de assessoramento do Ministro da Defesa que planeja o emprego conjunto das três Forças.",
+  "detalhes": "Também assessora o Ministro na condução de exercícios conjuntos e na atuação de forças brasileiras em operações de paz. O chefe coordena um comitê formado pelos chefes de Estado-Maior das três Forças.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-defesa",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 3º-A"
+        },
+        {
+          "ref": "norma:decreto-11337-2023",
+          "dispositivo": "art. 2º, II, b"
+        }
+      ],
+      "nota": "Órgão de assessoramento do Ministério da Defesa."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:dou-in-gov-br",
+          "dispositivo": "Portaria EMCFA-MD nº 4.671, de 11/9/2026 (DOU 25/9/2026, Seção 2)",
+          "nota": "https://www.in.gov.br/web/dou/-/portaria-emcfa-md-n-4.671-de-11-de-setembro-de-2026-734485772"
+        }
+      ],
+      "nota": "Sigla usada nos atos do próprio órgão no DOU."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 3º-A, 9º e 11"
+    },
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 2º, II, b; art. 12; art. 65"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 2º, II, b",
+      "nota": "chefias e subchefias do EMCFA"
+    }
+  ],
+  "vigencia": {
+    "de": "2010-08-26",
+    "ate": null,
+    "nota": "Criado pela LC 136/2010 (DOU 26/8/2010, vigência na publicação), que substituiu o Estado-Maior de Defesa."
+  },
+  "confianca": "oficial",
+  "notas": "Antes da LC 136/2010 havia o Estado-Maior de Defesa (LC 97/1999, art. 10, revogado).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "org:conselho-militar-de-defesa",
+  "tipo": "orgao",
+  "nome": "Conselho Militar de Defesa",
+  "resumo": "Assessora o Presidente, como Comandante Supremo, no emprego de meios militares. Reúne os três Comandantes e o Chefe do Estado-Maior Conjunto.",
+  "detalhes": "Quando assessora o Presidente sobre o emprego de meios militares, o Ministro da Defesa integra o Conselho como seu presidente. Também é órgão permanente de assessoramento do Ministro na direção superior das Forças.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-defesa",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11337-2023",
+          "dispositivo": "art. 2º, II, a"
+        }
+      ],
+      "nota": "Órgão de assessoramento na estrutura do Ministério da Defesa."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 2º, I, e §§ 1º e 2º; art. 9º, caput"
+    },
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 2º, II, a"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-06-10",
+    "ate": null,
+    "nota": "Previsto na LC 97/1999 desde a publicação; a composição atual (com o Chefe do EMCFA) é da LC 136/2010."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rel:presidente-nomeia-comandante-da-marinha",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia o Comandante da Marinha",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:comandante-da-marinha",
+  "condicao": "Por indicação do Ministro da Defesa, entre oficiais-generais do último posto.",
+  "depende_de": [
+    "rel:ministro-da-defesa-indica-comandante-da-marinha"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIII"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-06-10",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

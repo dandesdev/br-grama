@@ -2,7 +2,7 @@
   "id": "rel:tcu-calcula-coeficientes-fndr",
   "tipo": "relacao",
   "nome": "O TCU regulamenta e calcula os coeficientes do FNDR",
-  "relacao": "regula",
+  "relacao": "calcula",
   "de": "org:tcu",
   "para": "obj:fndr",
   "condicao": "Regulamenta e calcula os coeficientes individuais de participação dos estados e do DF no fundo.",
@@ -18,8 +18,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
-  }
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; verbo \"regula\" trocado por \"calcula\" (termo novo); id mantido, já dizia \"calcula\"; base conferida: CF, art. 159-A, § 5º"
+  },
+  "notas": "A base é o art. 159-A, § 5º (incluído pela EC 132/2023), que dá ao TCU a tarefa de regulamentar e calcular os coeficientes individuais de participação; o art. 161, parágrafo único, trata só dos fundos de participação."
 }

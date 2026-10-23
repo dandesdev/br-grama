@@ -1,0 +1,49 @@
+{
+  "id": "cargo:comandante-da-aeronautica",
+  "tipo": "cargo",
+  "nome": "Comandante da Aeronáutica",
+  "resumo": "Dirige e gere a Aeronáutica. É oficial-general do último posto da própria Força, indicado pelo Ministro da Defesa e nomeado pelo Presidente.",
+  "orgao": "org:aeronautica",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "O Ministro da Defesa indica e o Presidente nomeia (CF, art. 84, XIII; LC 97/1999, art. 4º). Se o indicado estiver na ativa, passa para a reserva remunerada ao tomar posse, mas mantém as prerrogativas do serviço ativo enquanto estiver no cargo (LC 97/1999, art. 5º, §§ 2º e 3º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na LC 97/1999."
+  },
+  "requisitos": [
+    {
+      "texto": "oficial-general do último posto da respectiva Força",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 5º, caput"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Tem precedência sobre os demais oficiais-generais das três Forças, cuida do preparo dos órgãos operativos e de apoio e propõe ao Ministro a lista de escolha para promoção a oficial-general. Integra o Conselho de Defesa Nacional e o Conselho Militar de Defesa.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIII; art. 91, VIII"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 2º, § 1º, 4º, 5º, 7º e 13"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-06-10",
+    "ate": null,
+    "nota": "Cargo criado com a LC 97/1999 (antes havia Ministros militares); a forma atual de escolha é da LC 136/2010."
+  },
+  "confianca": "oficial",
+  "notas": "Provimento 'nomeacao-livre' é o termo mais próximo do vocabulário: a escolha é do Presidente, por indicação do Ministro, restrita a oficiais-generais do último posto. Dirigente máximo da Força (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

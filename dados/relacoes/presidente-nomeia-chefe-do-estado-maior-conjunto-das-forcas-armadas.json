@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-nomeia-chefe-do-estado-maior-conjunto-das-forcas-armadas",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia o Chefe do Estado-Maior Conjunto das Forças Armadas",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:chefe-do-estado-maior-conjunto-das-forcas-armadas",
+  "condicao": "Por indicação do Ministro da Defesa, entre oficiais-generais do último posto.",
+  "depende_de": [
+    "rel:ministro-da-defesa-indica-chefe-do-estado-maior-conjunto-das-forcas-armadas"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 3º-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2010-08-26",
+    "ate": null,
+    "nota": "Cargo criado pela LC 136/2010 (DOU 26/8/2010)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

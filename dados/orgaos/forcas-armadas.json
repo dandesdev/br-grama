@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Forças Armadas",
   "resumo": "Marinha, Exército e Aeronáutica: instituições permanentes, sob a autoridade suprema do Presidente e subordinadas ao Ministro da Defesa, para defender a Pátria e garantir os poderes constitucionais.",
-  "detalhes": "Organizadas com base na hierarquia e na disciplina, também garantem a lei e a ordem por iniciativa de um dos poderes constitucionais. Cada Força tem um Comandante, oficial-general do último posto, indicado pelo Ministro da Defesa e nomeado pelo Presidente. O Estado-Maior Conjunto das Forças Armadas assessora o Ministro da Defesa.",
+  "detalhes": "Organizadas com base na hierarquia e na disciplina, também garantem a lei e a ordem por iniciativa de um dos poderes constitucionais. Cada Força tem um Comandante, oficial-general do último posto, indicado pelo Ministro da Defesa e nomeado pelo Presidente. O serviço militar é obrigatório nos termos da lei; mulheres e eclesiásticos são isentos em tempo de paz, e quem alegar imperativo de consciência cumpre serviço alternativo (art. 143).",
   "tipo_orgao": "conjunto",
   "poder": "executivo",
   "esfera": "federal",
@@ -15,19 +15,27 @@
         {
           "ref": "norma:lc-97-1999",
           "dispositivo": "art. 3º"
+        },
+        {
+          "ref": "norma:decreto-11337-2023",
+          "dispositivo": "art. 2º, VI (redação do Decreto 12.726/2025)"
         }
       ],
-      "nota": "'As Forças Armadas são subordinadas ao Ministro de Estado da Defesa, dispondo de estruturas próprias.'"
+      "nota": "LC 97/1999, art. 3º: 'As Forças Armadas são subordinadas ao Ministro de Estado da Defesa, dispondo de estruturas próprias.' A estrutura regimental do Ministério lista as três Forças (Comandos da Marinha, do Exército e da Aeronáutica) como subordinadas ao Ministro."
     }
   },
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 142; art. 84, XIII"
+      "dispositivo": "art. 142; art. 143; art. 84, XIII"
     },
     {
       "ref": "norma:lc-97-1999",
       "dispositivo": "arts. 1º a 5º"
+    },
+    {
+      "ref": "norma:lei-4375-1964",
+      "dispositivo": "art. 2º"
     }
   ],
   "vigencia": {
@@ -35,11 +43,11 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "Criado com o mínimo para servir de alvo à relação de comando supremo (CF, art. 84, XIII). Tipo 'conjunto' porque representa as três Forças (Marinha, Exército e Aeronáutica), cada uma com seu Comando, que não foram modeladas separadamente. Os Comandantes integram o Conselho de Defesa Nacional (CF, art. 91, VIII), mas não têm cargo modelado.",
+  "notas": "Tipo 'conjunto': representa as três Forças, que agora são nós próprios (org:marinha, org:exercito, org:aeronautica) contidos aqui. Criado em f0-executivo e completado em f0-defesa-seguranca. O serviço militar obrigatório (art. 143) ficou como nota nos detalhes, sem objeto próprio. No texto do Planalto, os arts. 1º e 15 da LC 97/1999 trazem remissão à ADI 6457 (STF); o conteúdo da decisão não foi conferido aqui.",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; CF, arts. 84, XIII, e 142, e LC 97/1999, arts. 1º a 5º (texto compilado até a LC 136/2010), conferidos"
+    "tarefa": "f0-defesa-seguranca",
+    "notas": "completado em f0-defesa-seguranca a partir do esboço verificado em verificacao-f0-executivo; acrescentados art. 143, Lei 4.375/1964 e Decreto 11.337/2023, art. 2º, VI; resumo e vigência mantidos"
   }
 }

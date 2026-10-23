@@ -126,7 +126,8 @@ export class Painel {
       const ordem = r.ordem ? `<span class="ordem">${r.ordem}º</span> ` : "";
       const comp = r.competencia as { tipo: string; natureza: string } | undefined;
       const competencia = comp ? `${esc(this.dados.nomeDe("tipo_competencia", comp.tipo))}, para ${esc(this.dados.nomeDe("natureza_competencia", comp.natureza).toLowerCase())}` : "";
-      const extra = [competencia, r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
+      const pasta = r.orgao_exercicio ? `No órgão: ${this.link(r.orgao_exercicio as string)}` : "";
+      const extra = [competencia, pasta, r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
       return `<li>${ordem}${saindo ? `${verbo} ${this.link(outro)}` : `${this.link(outro)} ${verbo}`}${extra ? `<br><span class="dispositivo">${extra}</span>` : ""}</li>`;
     };
     const saindo = this.dados.relacoesSaindo(id).filter((r) => r.relacao !== "ocupa");
@@ -257,10 +258,11 @@ export class Painel {
     if (e.tipo === "objeto") partes.push(this.fichaObjeto(e));
     if (e.tipo === "pessoa") {
       const cargos = this.dados.relacoesSaindo(id).filter((r) => r.relacao === "ocupa");
-      partes.push(`<h3>Cargos em ${formatarData(this.dados.data)}</h3><ul>${cargos.map((r) => `<li>${this.link(r.para as string)} desde ${formatarData(r.vigencia.de)}</li>`).join("")}</ul>`);
+      partes.push(`<h3>Cargos em ${formatarData(this.dados.data)}</h3><ul>${cargos.map((r) => `<li>${this.link(r.para as string)}${r.orgao_exercicio ? ` (${this.link(r.orgao_exercicio as string)})` : ""} desde ${formatarData(r.vigencia.de)}</li>`).join("")}</ul>`);
     }
     if (e.tipo === "relacao") {
       partes.push(`<p>${this.link(e.de as string)} ${this.termo("relacao", e.relacao as string)} ${this.link(e.para as string)}</p>`);
+      if (e.orgao_exercicio) partes.push(`<p>No órgão: ${this.link(e.orgao_exercicio as string)}</p>`);
       if (e.condicao) partes.push(`<p>${esc(e.condicao)}</p>`);
       if (e.quorum) partes.push(`<p>${this.quorum(e.quorum as Quorum)}</p>`);
     }

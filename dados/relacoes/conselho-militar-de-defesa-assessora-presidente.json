@@ -1,0 +1,25 @@
+{
+  "id": "rel:conselho-militar-de-defesa-assessora-presidente",
+  "tipo": "relacao",
+  "nome": "O Conselho Militar de Defesa assessora o Presidente no emprego de meios militares",
+  "relacao": "assessora",
+  "de": "org:conselho-militar-de-defesa",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Na condição de Comandante Supremo das Forças Armadas; nos demais assuntos militares, quem assessora é o Ministro da Defesa.",
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 2º, I e II"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1999-06-10",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

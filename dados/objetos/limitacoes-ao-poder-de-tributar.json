@@ -17,10 +17,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Registrado como objeto, com tipo 'materia', porque o art. 146, II, reserva à lei complementar regular essas limitações. Sem relação tem-competencia: a CF não diz qual ente edita a lei complementar do art. 146 (ela é votada pelo Congresso). Outras limitações (isonomia, irretroatividade, não confisco, liberdade de tráfego, uniformidade, arts. 151 e 152) não foram detalhadas, como pede a tarefa.",
+  "notas": "Registrado como objeto do tipo 'regra-fiscal'; o art. 146, II, reserva à lei complementar regular essas limitações. Sem relação tem-competencia: a CF não diz qual ente edita a lei complementar do art. 146 (ela é votada pelo Congresso). Outras limitações (isonomia, irretroatividade, não confisco, liberdade de tráfego, uniformidade, arts. 151 e 152) não foram detalhadas, como pede a tarefa.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; CF, arts. 146, II, 150, I, III, VI e § 1º, 151 e 152 conferidos; notas diziam tipo \"materia\", mas o tipo já era \"regra-fiscal\""
   }
 }

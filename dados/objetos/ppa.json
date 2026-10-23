@@ -4,7 +4,7 @@
   "nome": "Plano plurianual",
   "sigla": "PPA",
   "resumo": "Lei de iniciativa do Executivo que fixa, por região, as diretrizes, objetivos e metas da administração federal para quatro anos.",
-  "detalhes": "Cobre as despesas de capital e os programas de duração continuada (art. 165, § 1º). O projeto vale até o fim do primeiro ano do mandato presidencial seguinte: é enviado até quatro meses antes do fim do primeiro ano do mandato e devolvido para sanção até o fim da sessão legislativa (ADCT, art. 35, § 2º, I). Planos e programas nacionais, regionais e setoriais seguem o PPA (art. 165, § 4º).",
+  "detalhes": "Cobre as despesas de capital e os programas de duração continuada (art. 165, § 1º). O plano vale até o fim do primeiro ano do mandato presidencial seguinte: o projeto é enviado até quatro meses antes do fim do primeiro ano do mandato e devolvido para sanção até o fim da sessão legislativa (ADCT, art. 35, § 2º, I). Planos e programas nacionais, regionais e setoriais seguem o PPA (art. 165, § 4º).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
   "relativo_a": [
@@ -22,9 +22,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; CF, art. 165, §§ 1º e 4º, e ADCT, art. 35, § 2º, I, conferidos; \"o projeto vale\" corrigido para \"o plano vale\"; a duração de quatro anos não está escrita no ADCT (que só diz \"até o final do primeiro exercício financeiro do mandato presidencial subsequente\") e segue marcada como inferida"
   },
   "campos": {
     "resumo": {

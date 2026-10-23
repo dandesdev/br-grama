@@ -18,6 +18,7 @@ Pendências anotadas pelas tarefas:
 - [ ] Executivo: cargos dos membros cidadãos do Conselho da República (art. 89, VII); processo do decreto legislativo; verbo para "convoca reunião de colegiado" (hoje `preside`).
 - [ ] Eleições: STJ julga os Procuradores Regionais Eleitorais (art. 105, I, a, membros do MPU que oficiam perante tribunais); normas que faltam: Lei 15.230/2025 (idade mínima) e Lei 14.291/2022 (propaganda partidária); posse de deputados estaduais e vereadores; ADI 7881 (LC 219/2025) se o STF decidir.
 - [ ] Funções essenciais: TRF julga membros do MPU (art. 108, I, a), sem nó único para os TRFs; MPs de contas estaduais; Defensoria do DF.
+- [ ] Dinheiro: contribuições ao Sistema S (art. 240) e adicional por rotatividade (art. 239, § 4º); créditos adicionais (art. 166, § 8º; art. 167, V); bancadas estaduais como proponentes da emenda de bancada; ADI 8010 (LC 200/2023); presidente do Comitê Gestor do IBS; verbo para "propõe a exoneração" (CMN, hoje `propoe`).
 - [ ] Controle: data da posse de Jhonatan de Jesus (aviso aberto); Constituições estaduais sobre a escolha dos conselheiros.
 - [ ] Modelo (decisões do coordenador): campo de sede com fonte própria; nó para sociedade civil; objeto transferido em `repassa-recursos`; dedupe de ocupantes com duas relações `ocupa` para um só ato (AGU).
 

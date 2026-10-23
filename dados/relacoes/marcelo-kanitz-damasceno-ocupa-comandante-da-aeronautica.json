@@ -1,0 +1,31 @@
+{
+  "id": "rel:marcelo-kanitz-damasceno-ocupa-comandante-da-aeronautica",
+  "tipo": "relacao",
+  "nome": "Marcelo Kanitz Damasceno é Comandante da Aeronáutica",
+  "relacao": "ocupa",
+  "de": "pessoa:marcelo-kanitz-damasceno",
+  "para": "cargo:comandante-da-aeronautica",
+  "vigencia": {
+    "de": "2023-01-02",
+    "ate": null,
+    "nota": "Data de início fixada no decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: ato assinado no cargo com data próxima a 2026-10-01 e nenhuma exoneração achada na busca do DOU."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 29/12/2022 (DOU 30/12/2022, Seção 2): nomeia, a partir de 2/1/2023, o Tenente-Brigadeiro do Ar Marcelo Kanitz Damasceno Comandante da Aeronáutica",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-29-de-dezembro-de-2022-454906356"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GABAER/GC3 nº 1.763, de 1º/10/2026 (DOU 2/10/2026, Seção 1), assinada pelo Comandante da Aeronáutica, Ten Brig Ar Marcelo Kanitz Damasceno",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabaer/gc3-n-1.763-de-1-de-outubro-de-2026-736033201"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

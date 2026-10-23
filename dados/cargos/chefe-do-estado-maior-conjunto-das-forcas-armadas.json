@@ -1,0 +1,49 @@
+{
+  "id": "cargo:chefe-do-estado-maior-conjunto-das-forcas-armadas",
+  "tipo": "cargo",
+  "nome": "Chefe do Estado-Maior Conjunto das Forças Armadas",
+  "resumo": "Chefia o EMCFA e coordena o comitê dos chefes de Estado-Maior das três Forças. É oficial-general do último posto, indicado pelo Ministro e nomeado pelo Presidente.",
+  "orgao": "org:estado-maior-conjunto-das-forcas-armadas",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "O Ministro da Defesa indica e o Presidente nomeia (LC 97/1999, art. 3º-A). Pode vir da ativa ou da reserva; se estiver na ativa, passa para a reserva remunerada ao tomar posse (art. 3º-A, § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na LC 97/1999."
+  },
+  "requisitos": [
+    {
+      "texto": "oficial-general do último posto, da ativa ou da reserva",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 3º-A, caput"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Tem a mesma precedência hierárquica dos Comandantes das Forças e integra o Conselho Militar de Defesa.",
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 2º, § 1º, e 3º-A"
+    },
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 65"
+    }
+  ],
+  "vigencia": {
+    "de": "2010-08-26",
+    "ate": null,
+    "nota": "Cargo criado pela LC 136/2010 (DOU 26/8/2010)."
+  },
+  "confianca": "oficial",
+  "notas": "Provimento 'nomeacao-livre' é o termo mais próximo do vocabulário (indicação do Ministro, nomeação do Presidente, restrita a oficiais-generais do último posto).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rel:forcas-armadas-subordinam-se-ministro-da-defesa",
+  "tipo": "relacao",
+  "nome": "As Forças Armadas estão sob a direção superior do Ministro da Defesa",
+  "relacao": "subordina-se",
+  "de": "org:forcas-armadas",
+  "para": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:ministerio-da-defesa",
+  "condicao": "Ministro de Estado da Defesa, que exerce a direção superior das Forças Armadas, assessorado pelo Conselho Militar de Defesa e pelo EMCFA.",
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "arts. 3º e 9º"
+    },
+    {
+      "ref": "norma:decreto-11337-2023",
+      "dispositivo": "art. 2º, VI (redação do Decreto 12.726/2025)"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-06-10",
+    "ate": null,
+    "nota": "Desde a LC 97/1999 (DOU 10/6/1999)."
+  },
+  "notas": "Complementa o contido_em de org:forcas-armadas (org:ministerio-da-defesa): aqui a relação é com o cargo do Ministro. orgao_exercicio indica a pasta, como nas relações ocupa do cargo agregado.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}
