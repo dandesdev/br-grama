@@ -20,6 +20,7 @@ concluida_em: null
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
 - f0-judiciario: `org:tse`, `org:tre-<uf>`, `org:justica-eleitoral`
+- f0-funcoes-essenciais: `org:ministerio-publico-da-uniao`, `org:mpf`, `cargo:procurador-geral-da-republica` (o Ministério Público Eleitoral não foi criado; crie-o aqui, com a LC 75/1993, arts. 72 a 80, `norma:lc-75-1993`)
 - f0-tipicos: `cargo:arquetipo-estadual-governador`, `cargo:arquetipo-estadual-deputado-estadual`
 - Já existem: `cargo:presidente-da-republica`, `cargo:deputado-federal`, `cargo:senador`, `cargo:arquetipo-municipal-prefeito`, `cargo:arquetipo-municipal-vereador`, `org:arquetipo-municipal-eleitorado`, os partidos
 

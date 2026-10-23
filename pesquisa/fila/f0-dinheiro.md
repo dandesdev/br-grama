@@ -21,7 +21,7 @@ concluida_em: null
 
 - f0-executivo: `org:ministerio-da-fazenda`, `org:ministerio-do-planejamento-e-orcamento`, `org:banco-central` (esboço)
 - f0-competencias: `ente:arquetipo-estadual`, `ente:arquetipo-municipal`
-- f0-controle: competências do TCU
+- f0-controle: competências do TCU, `org:cmo` (Comissão Mista de Orçamento, art. 166, § 1º) e `norma:resolucao-cn-1-2006`; complete a CMO com o que o art. 166 pede, sem recriar
 - Já existem: `ente:uniao`, `ente:<uf>`, `org:congresso-nacional`, `obj:lei-ordinaria`, `obj:lei-complementar`, `proc:lei-ordinaria`, `obj:contas-anuais-do-presidente-da-republica`
 
 ## Diário
