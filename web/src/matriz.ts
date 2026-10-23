@@ -44,10 +44,12 @@ function chaveDispositivo(rels: Entidade[]): [number, number] {
 const VISTAS = {
   materia: {
     rotulo: "Matérias",
+    singular: "Matéria",
     intro: "Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal legisla sobre o que cabe a estados e municípios (art. 32, § 1º) e aparece ao lado dos estados nas competências comuns e concorrentes (arts. 23 e 24).",
   },
   tributo: {
     rotulo: "Tributos",
+    singular: "Tributo",
     intro: "Quem pode instituir cada tributo (arts. 145 a 156-B e 195). O Distrito Federal tem os impostos dos estados e dos municípios (arts. 147 e 155).",
   },
 } as const;
@@ -81,7 +83,7 @@ export class Matriz {
           <select name="vista" aria-label="O que mostrar">
             ${Object.entries(VISTAS).map(([v, { rotulo }]) => `<option value="${v}"${v === this.vista ? " selected" : ""}>${rotulo}</option>`).join("")}
           </select>
-          <input type="search" name="busca-materia" placeholder="Filtrar matérias…" aria-label="Filtrar matérias" />
+          <input type="search" name="busca-materia" aria-label="Filtrar" />
           <select name="natureza" aria-label="Natureza da competência">
             <option value="">Legislar e executar</option>
             <option value="legislativa">Só legislar</option>
@@ -90,7 +92,7 @@ export class Matriz {
         </div>
       </div>
       <table class="matriz">
-        <thead><tr><th scope="col">Matéria</th>${COLUNAS.map((c) => `<th scope="col">${c.nome}</th>`).join("")}</tr></thead>
+        <thead><tr><th scope="col" class="coluna-objeto"></th>${COLUNAS.map((c) => `<th scope="col">${c.nome}</th>`).join("")}</tr></thead>
         <tbody></tbody>
       </table>`;
     this.desenharLinhas();
@@ -101,6 +103,9 @@ export class Matriz {
     if (!corpo) return;
     const intro = this.el.querySelector(".matriz-topo .intro");
     if (intro) intro.textContent = `${VISTAS[this.vista].intro} Clique numa linha para ver os detalhes e a base legal.`;
+    const cabecalho = this.el.querySelector(".coluna-objeto");
+    if (cabecalho) cabecalho.textContent = VISTAS[this.vista].singular;
+    this.el.querySelector<HTMLInputElement>("[name=busca-materia]")!.placeholder = `Filtrar ${VISTAS[this.vista].rotulo.toLowerCase()}…`;
     const materias = this.dados.todas("objeto").filter((o) => o.tipo_objeto === this.vista);
     if (!materias.length) {
       corpo.innerHTML = `<tr><td colspan="${COLUNAS.length + 1}" class="intro">Ainda em pesquisa.</td></tr>`;
