@@ -1,0 +1,52 @@
+{
+  "id": "org:tce-pr",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Estado do Paraná",
+  "sigla": "TCE-PR",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado do Paraná e as Câmaras Municipais no controle externo dos municípios. Sede: Curitiba.",
+  "detalhes": "Abrange: Paraná. Sede: Curitiba (PR). Fiscaliza também os municípios do estado, como no arquétipo. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "ente": "ente:pr",
+  "jurisdicao": [
+    "ente:pr"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tce-pr-portal",
+      "dispositivo": "página inicial: nome, sigla e endereço da sede"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCE-PR",
+      "url": "https://www1.tce.pr.gov.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/pr.html). Endereço da sede: \"Praça Nossa Senhora de Salette, s/n Centro Cívico - Curitiba - PR - CEP: 80530-910\". Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCE-PR. Formas usadas no próprio site: TCE-PR, TCEPR."
+    }
+  }
+}

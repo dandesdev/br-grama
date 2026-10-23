@@ -1,0 +1,52 @@
+{
+  "id": "org:tce-al",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Estado de Alagoas",
+  "sigla": "TCE-AL",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado de Alagoas e as Câmaras Municipais no controle externo dos municípios. Sede: Maceió.",
+  "detalhes": "Abrange: Alagoas. Sede: Maceió (AL). Fiscaliza também os municípios do estado, como no arquétipo. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "ente": "ente:al",
+  "jurisdicao": [
+    "ente:al"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tce-al-portal",
+      "dispositivo": "página inicial: nome, sigla e endereço da sede"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCE-AL",
+      "url": "https://www.tceal.tc.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/al.html). Endereço da sede: \"Av. Fernandes Lima, 1047, Farol Maceió-Alagoas CEP: 57055-903\". Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCE-AL. Formas usadas no próprio site: TCE-AL, TCE/AL."
+    }
+  }
+}

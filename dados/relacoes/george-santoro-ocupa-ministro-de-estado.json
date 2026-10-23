@@ -5,7 +5,7 @@
   "relacao": "ocupa",
   "de": "pessoa:george-santoro",
   "para": "cargo:ministro-de-estado",
-  "condicao": "Titular da pasta: Ministério dos Transportes (org:ministerio-dos-transportes).",
+  "condicao": "Titular da pasta.",
   "orgao_exercicio": "org:ministerio-dos-transportes",
   "vigencia": {
     "de": "2026-04-01",
@@ -27,13 +27,18 @@
       "ref": "fonte:dou-in-gov-br",
       "dispositivo": "Lei 15.507, de 21/9/2026 (DOU 22/9/2026, Seção 1), referendada por George André Palermo Santoro",
       "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.507-de-21-de-setembro-de-2026-733209594"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho de 29/9/2026 do Ministro de Estado dos Transportes (DOU 30/9/2026, Seção 2), assinado por George Santoro",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-de-29-de-setembro-de-2026-735682231"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
-  },
-  "notas": "O ato mais próximo de 2026-10-01 achado no DOU é de 25/9/2026; não há exoneração nem nova nomeação para a pasta no DOU até 1º/10/2026."
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; decreto de nomeação conferido (cópia local do DOU); atos do titular perto de 2026-10-01 conferidos no DOU; nenhuma exoneração desta pessoa do cargo de Ministro de Estado no DOU entre a nomeação e 22/10/2026 (busca mês a mês, todas as seções, jan/2023 a out/2026); orgao_exercicio conferido"
+  }
 }

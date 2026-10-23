@@ -1,0 +1,46 @@
+{
+  "id": "org:mp-junto-ao-tcu",
+  "tipo": "orgao",
+  "nome": "Ministério Público junto ao Tribunal de Contas da União",
+  "sigla": "MPTCU",
+  "resumo": "Ministério Público especial que atua nos processos do TCU como fiscal da lei. Não faz parte do MPU.",
+  "detalhes": "Tem um procurador-geral, três subprocuradores-gerais e quatro procuradores, nomeados pelo Presidente da República; o ingresso é por concurso público (Lei 8.443/1992, art. 80). Opina obrigatoriamente nas tomadas e prestações de contas e nos atos de pessoal e aposentadoria (art. 81, II). Seus membros têm os direitos, vedações e forma de investidura do MP comum (CF, art. 130). Os estados têm órgãos equivalentes junto aos tribunais de contas estaduais.",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, § 2º, I; art. 130"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "arts. 80 a 84"
+    }
+  ],
+  "campos": {
+    "sigla": {
+      "confianca": "secundario",
+      "nota": "Sigla usada pelo próprio órgão em mp.tcu.gov.br; não aparece na lei."
+    }
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Ministério Público junto ao TCU",
+      "url": "https://mp.tcu.gov.br"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Sem contido_em: a CF (art. 130) e a Lei 8.443/1992 não dizem que o órgão integra o TCU; ele usa o apoio administrativo da secretaria do Tribunal (art. 83). Doutrina e o STF (ADI 789, não consultada) o tratam como integrante da estrutura do TCU; conferir antes de pôr contido_em. Os MPs de contas estaduais não foram modelados (art. 130 vale para todos os tribunais de contas). A afirmação de que não faz parte do MPU decorre de o art. 128, I, não o listar entre os ramos do MPU."
+}

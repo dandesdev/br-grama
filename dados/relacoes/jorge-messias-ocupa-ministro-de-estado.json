@@ -5,7 +5,7 @@
   "relacao": "ocupa",
   "de": "pessoa:jorge-messias",
   "para": "cargo:ministro-de-estado",
-  "condicao": "Titular da pasta: Advocacia-Geral da União (cargo de Advogado-Geral da União) (org:agu).",
+  "condicao": "Titular da pasta, no cargo de Advogado-Geral da União.",
   "orgao_exercicio": "org:agu",
   "vigencia": {
     "de": "2023-01-01",
@@ -31,9 +31,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; decreto de nomeação conferido (cópia local do DOU); atos do titular perto de 2026-10-01 conferidos no DOU; nenhuma exoneração desta pessoa do cargo de Ministro de Estado no DOU entre a nomeação e 22/10/2026 (busca mês a mês, todas as seções, jan/2023 a out/2026); orgao_exercicio conferido"
   },
   "notas": "O cargo formal é o de Advogado-Geral da União (CF, art. 131, § 1º; nomeação pelo art. 84, XVI); a Lei 14.600/2023, art. 18, VII, faz do titular um Ministro de Estado. Por isso a relação aponta para cargo:ministro-de-estado."
 }

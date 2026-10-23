@@ -1,0 +1,52 @@
+{
+  "id": "org:tc-df",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Distrito Federal",
+  "sigla": "TCDF",
+  "resumo": "Auxilia a Câmara Legislativa no controle externo das contas do Distrito Federal. Sede: Brasília.",
+  "detalhes": "Abrange: Distrito Federal. Sede: Brasília. O DF não se divide em municípios, e o tribunal cuida só das contas distritais. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "distrital",
+  "ente": "ente:df",
+  "jurisdicao": [
+    "ente:df"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tc-df-portal",
+      "dispositivo": "página inicial: nome, sigla e endereço da sede"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCDF",
+      "url": "https://www.tc.df.gov.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/df.html). Endereço da sede: \"Palácio Costa e Silva, Praça do Buriti Brasília, DF 70075-901\". O endereço www.tc.df.gov.br redireciona para www2.tc.df.gov.br. Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCDF. Formas usadas no próprio site: TCDF."
+    }
+  }
+}
