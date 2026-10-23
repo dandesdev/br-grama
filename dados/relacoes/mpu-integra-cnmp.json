@@ -1,0 +1,26 @@
+{
+  "id": "rel:mpu-integra-cnmp",
+  "tipo": "relacao",
+  "nome": "Composição do CNMP",
+  "relacao": "integra",
+  "de": "org:ministerio-publico-da-uniao",
+  "para": "org:cnmp",
+  "condicao": "Quatro membros do MPU, um de cada carreira (MPF, MPT, MPM e MPDFT).",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

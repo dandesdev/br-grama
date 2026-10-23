@@ -1,0 +1,30 @@
+{
+  "id": "rel:mpu-indica-conselheiro-do-cnmp",
+  "tipo": "relacao",
+  "nome": "Indicação de conselheiro do CNMP",
+  "relacao": "indica",
+  "de": "org:ministerio-publico-da-uniao",
+  "para": "cargo:conselheiro-do-cnmp",
+  "condicao": "Cada ramo indica um conselheiro: o colégio de procuradores forma lista tríplice e o procurador-geral do ramo escolhe o nome, que o PGR submete ao Senado.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004; o procedimento é da Lei 11.372/2006."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, II e § 1º"
+    },
+    {
+      "ref": "norma:lei-11372-2006",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -32,3 +32,6 @@ concluida_em: null
 - 2026-10-22 15:04 — gravados fonte:senado-msf-89-2023, fonte:senado-msf-60-2025, pessoa:paulo-gonet, rel:paulo-gonet-ocupa-procurador-geral-da-republica (falta prova de exercício perto de 2026-10-01)
 - 2026-10-22 15:04 — exercício do PGR em 2026-10-01 confirmado no DOU (Portaria PGR/MPF 659, de 1º/10/2026); acrescentado à relação e à pessoa
 - 2026-10-22 15:05 — completados cargo:procurador-geral-da-republica e org:ministerio-publico-da-uniao (verificacao volta a coletado, com nota); gravado cargo:membro-do-ministerio-publico-da-uniao
+- 2026-10-22 15:07 — gravados norma:lei-11372-2006, org:cnmp, cargo:conselheiro-do-cnmp
+- 2026-10-22 15:08 — gravados norma:lei-8625-1993, org:arquetipo-estadual-ministerio-publico, cargo:arquetipo-estadual-procurador-geral-de-justica, cargo:arquetipo-estadual-membro-do-ministerio-publico, aviso:destituicao-procurador-geral-de-justica-quorum
+- 2026-10-22 15:10 — gravado obj:adi-e-adc

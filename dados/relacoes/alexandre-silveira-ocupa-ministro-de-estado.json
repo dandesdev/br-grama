@@ -5,7 +5,7 @@
   "relacao": "ocupa",
   "de": "pessoa:alexandre-silveira",
   "para": "cargo:ministro-de-estado",
-  "condicao": "Titular da pasta: Ministério de Minas e Energia (org:ministerio-de-minas-e-energia).",
+  "condicao": "Titular da pasta.",
   "orgao_exercicio": "org:ministerio-de-minas-e-energia",
   "vigencia": {
     "de": "2023-01-01",
@@ -25,15 +25,16 @@
     },
     {
       "ref": "fonte:dou-in-gov-br",
-      "dispositivo": "Despacho do Presidente da República (DOU 25/9/2026, Seção 2 Extra A): férias do Ministro de Estado de Minas e Energia, Alexandre Silveira de Oliveira, a partir de 24/9/2026",
+      "dispositivo": "Despacho do Presidente da República (DOU 25/9/2026, Seção 2 Extra A): férias do Ministro de Estado de Minas e Energia, Alexandre Silveira de Oliveira, de 24/9 a 2/10/2026",
       "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-734808992"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; decreto de nomeação conferido (cópia local do DOU); atos do titular perto de 2026-10-01 conferidos no DOU; nenhuma exoneração desta pessoa do cargo de Ministro de Estado no DOU entre a nomeação e 22/10/2026 (busca mês a mês, todas as seções, jan/2023 a out/2026); orgao_exercicio conferido"
   },
-  "notas": "Estava em férias no fim de setembro de 2026 (despacho no DOU de 25/9/2026; o fim do período não foi conferido), e uma portaria de pessoal do MME de 30/9/2026 foi assinada pelo ministro substituto; férias não interrompem a titularidade."
+  "notas": "Estava em férias de 24/9 a 2/10/2026 (despacho do Presidente no DOU de 25/9/2026); atos do MME de 30/9 e 1º/10/2026 foram assinados pelo ministro substituto. Férias não interrompem a titularidade."
 }

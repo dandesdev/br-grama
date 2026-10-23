@@ -1,0 +1,26 @@
+{
+  "id": "rel:senado-indica-conselheiro-do-cnmp",
+  "tipo": "relacao",
+  "nome": "Indicação de conselheiro do CNMP",
+  "relacao": "indica",
+  "de": "org:senado-federal",
+  "para": "cargo:conselheiro-do-cnmp",
+  "condicao": "Indica um cidadão de notável saber jurídico e reputação ilibada.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, VI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

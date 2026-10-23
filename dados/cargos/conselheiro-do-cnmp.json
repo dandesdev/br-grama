@@ -1,0 +1,90 @@
+{
+  "id": "cargo:conselheiro-do-cnmp",
+  "tipo": "cargo",
+  "nome": "Conselheiro do Conselho Nacional do Ministério Público",
+  "resumo": "Integra o CNMP, de 14 membros com mandato de dois anos: o PGR, sete membros do Ministério Público, dois juízes, dois advogados e dois cidadãos.",
+  "orgao": "org:cnmp",
+  "provimento": "variavel",
+  "vagas": 14,
+  "vagas_nota": "Quatorze cadeiras (art. 130-A, caput).",
+  "provimento_casos": [
+    {
+      "quando": "Procurador-Geral da República, que preside o Conselho",
+      "provimento": "nato",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 130-A, I"
+        }
+      ]
+    },
+    {
+      "quando": "Os outros 13 membros: indicados conforme o inciso e nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado",
+      "provimento": "nomeacao-com-aprovacao-do-senado",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 130-A, caput, II a VI e § 1º"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Quem indica: os ramos do MPU, quatro membros, um de cada carreira; os MPs dos estados, três; o STF e o STJ, um juiz cada; o Conselho Federal da OAB, dois advogados; a Câmara e o Senado, um cidadão cada (art. 130-A, II a VI). No MPU, o procurador-geral de cada ramo escolhe o nome a partir de lista tríplice do colégio de procuradores e o envia ao PGR, que o submete ao Senado; nos estados, cada procurador-geral de justiça indica um nome a partir de lista tríplice da carreira, e os procuradores-gerais reunidos formam a lista com os três nomes (Lei 11.372/2006, arts. 1º e 2º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "admitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução (art. 130-A, caput)."
+  },
+  "requisitos": [
+    {
+      "texto": "pertencer à categoria do inciso pelo qual é indicado (membro do Ministério Público, juiz, advogado ou cidadão)",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 130-A, I a VI"
+        }
+      ]
+    },
+    {
+      "texto": "os dois cidadãos: notável saber jurídico e reputação ilibada",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 130-A, VI"
+        }
+      ]
+    },
+    {
+      "texto": "os membros do Ministério Público: mais de 35 anos e mais de 10 anos na carreira",
+      "fontes": [
+        {
+          "ref": "norma:lei-11372-2006",
+          "dispositivo": "arts. 1º e 2º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "O Corregedor nacional é escolhido pelo Conselho, em votação secreta, entre os conselheiros vindos do Ministério Público, sem recondução (art. 130-A, § 3º). Os conselheiros respondem por crime de responsabilidade perante o Senado (art. 52, II).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, II; art. 130-A, caput, I a VI e §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:lei-11372-2006",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

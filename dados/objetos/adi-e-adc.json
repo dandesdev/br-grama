@@ -1,0 +1,28 @@
+{
+  "id": "obj:adi-e-adc",
+  "tipo": "objeto",
+  "nome": "Ação direta de inconstitucionalidade e ação declaratória de constitucionalidade",
+  "sigla": "ADI e ADC",
+  "resumo": "Ações propostas diretamente no STF para declarar uma lei ou ato normativo inconstitucional (ADI) ou constitucional (ADC).",
+  "detalhes": "Só podem ser propostas pelos legitimados do art. 103 da CF, entre eles o Procurador-Geral da República e o Conselho Federal da OAB. O PGR é ouvido antes em todas elas, e o Advogado-Geral da União defende o ato questionado na ADI (art. 103, §§ 1º e 3º).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A ADC foi criada pela EC 3/1993; a redação atual do art. 103, que dá os mesmos legitimados às duas ações, é da EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, a; art. 103, caput, I a IX, §§ 1º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Criado para ligar os legitimados do art. 103 (relações propoe). O alvo do controle continua sendo obj:lei-ou-ato-normativo-federal-ou-estadual (rel:stf-controla-constitucionalidade-leis-e-atos). A EC 3/1993 vem da marca de redação no art. 102, I, a, do texto do Planalto; a emenda não foi cadastrada."
+}

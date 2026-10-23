@@ -1,0 +1,26 @@
+{
+  "id": "rel:stf-julga-cnmp",
+  "tipo": "relacao",
+  "nome": "Ações contra o CNMP",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "org:cnmp",
+  "condicao": "O STF julga originariamente as ações contra o CNMP.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, r"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

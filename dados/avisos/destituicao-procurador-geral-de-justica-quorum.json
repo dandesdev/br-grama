@@ -1,0 +1,37 @@
+{
+  "id": "aviso:destituicao-procurador-geral-de-justica-quorum",
+  "tipo": "aviso",
+  "nome": "Destituição do procurador-geral de justiça: CF e Lei 8.625/1993 descrevem ritos diferentes",
+  "resumo": "A CF exige deliberação da maioria absoluta do Legislativo; a Lei 8.625/1993 fala em iniciativa do Colégio de Procuradores e autorização de um terço da Assembleia.",
+  "detalhes": "CF, art. 128, § 4º: os procuradores-gerais nos estados podem ser destituídos por deliberação da maioria absoluta do Poder Legislativo, na forma da lei complementar respectiva. Lei 8.625/1993, art. 9º, § 2º: a destituição por iniciativa do Colégio de Procuradores deve ser precedida de autorização de um terço dos membros da Assembleia. Os dois textos podem tratar de etapas diferentes, mas não achamos fonte oficial que os concilie. O mapa segue a CF.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "gravidade": "baixa",
+  "afeta": [
+    "cargo:arquetipo-estadual-procurador-geral-de-justica"
+  ],
+  "onde_procuramos": [
+    "Texto da CF (cópia do Planalto de 2026-10-16)",
+    "Lei 8.625/1993 no Planalto (2026-10-22)",
+    "Não pesquisamos jurisprudência do STF nem as leis complementares estaduais"
+  ],
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 4º"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 9º, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

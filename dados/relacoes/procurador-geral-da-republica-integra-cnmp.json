@@ -1,0 +1,26 @@
+{
+  "id": "rel:procurador-geral-da-republica-integra-cnmp",
+  "tipo": "relacao",
+  "nome": "Composição do CNMP",
+  "relacao": "integra",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "org:cnmp",
+  "condicao": "O PGR é membro nato e preside o Conselho.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:cnmp-corrige-mpu",
+  "tipo": "relacao",
+  "nome": "Corregedoria nacional sobre o MPU",
+  "relacao": "corrige",
+  "de": "org:cnmp",
+  "para": "org:ministerio-publico-da-uniao",
+  "condicao": "Recebe reclamações contra membros e órgãos, pode avocar processos disciplinares, determinar remoção ou disponibilidade e aplicar outras sanções, e rever processos disciplinares julgados há menos de um ano. Um Corregedor nacional, eleito entre os conselheiros do MP, faz inspeções e correições.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, § 2º, III e IV, e § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

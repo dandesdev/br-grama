@@ -1,0 +1,54 @@
+{
+  "id": "cargo:arquetipo-estadual-procurador-geral-de-justica",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral de Justiça",
+  "resumo": "Chefe do Ministério Público do estado, nomeado pelo governador a partir de lista tríplice da carreira, para mandato de dois anos.",
+  "orgao": "org:arquetipo-estadual-ministerio-publico",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "Os membros da carreira elegem uma lista tríplice, por voto plurinominal; o governador nomeia um dos três (CF, art. 128, § 3º; Lei 8.625/1993, art. 9º, caput e § 1º). Se o governador não nomear em 15 dias do recebimento da lista, assume automaticamente o mais votado (Lei 8.625/1993, art. 9º, § 4º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução pelo mesmo procedimento (CF, art. 128, § 3º; Lei 8.625/1993, art. 9º). Pode ser destituído por deliberação da maioria absoluta da Assembleia Legislativa, na forma da lei complementar estadual (CF, art. 128, § 4º)."
+  },
+  "requisitos": [
+    {
+      "texto": "integrante da carreira do Ministério Público do estado, incluído em lista tríplice",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 9º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Representa o Ministério Público do estado, preside o Colégio de Procuradores e o Conselho Superior e envia ao Legislativo os projetos de lei de iniciativa do MP (Lei 8.625/1993, art. 10). Pode propor a lei complementar que organiza o MP do estado (CF, art. 128, § 5º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, §§ 3º a 5º"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 9º e 10"
+    }
+  ],
+  "notas": "A Lei 8.625/1993, art. 9º, § 2º, também prevê destituição por iniciativa do Colégio de Procuradores, precedida de autorização de um terço da Assembleia Legislativa; a CF, art. 128, § 4º, fala em deliberação da maioria absoluta do Legislativo. Ver aviso:destituicao-procurador-geral-de-justica-quorum. O PGJ do MPDFT segue regra própria (org:mpdft).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

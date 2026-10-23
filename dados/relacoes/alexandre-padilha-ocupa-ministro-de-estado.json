@@ -5,7 +5,7 @@
   "relacao": "ocupa",
   "de": "pessoa:alexandre-padilha",
   "para": "cargo:ministro-de-estado",
-  "condicao": "Titular da pasta: Ministério da Saúde (org:ministerio-da-saude).",
+  "condicao": "Titular da pasta.",
   "orgao_exercicio": "org:ministerio-da-saude",
   "vigencia": {
     "de": "2025-03-10",
@@ -26,9 +26,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-22",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; decreto de nomeação conferido (cópia local do DOU); atos do titular perto de 2026-10-01 conferidos no DOU; nenhuma exoneração desta pessoa do cargo de Ministro de Estado no DOU entre a nomeação e 22/10/2026 (busca mês a mês, todas as seções, jan/2023 a out/2026); orgao_exercicio conferido"
   },
   "notas": "Antes era Ministro da Secretaria de Relações Institucionais; o decreto de 10/3/2025 o nomeia para a Saúde 'ficando exonerado do cargo que atualmente ocupa'. Esta relação cobre só o período na Saúde."
 }

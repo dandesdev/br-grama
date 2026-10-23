@@ -1,0 +1,29 @@
+{
+  "id": "rel:senado-aprova-indicacao-conselheiro-do-cnmp",
+  "tipo": "relacao",
+  "nome": "Aprovação dos conselheiros do CNMP",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:conselheiro-do-cnmp",
+  "condicao": "Aprova os 13 conselheiros indicados (todos, menos o PGR) antes da nomeação.",
+  "quorum": {
+    "regra": "maioria-absoluta"
+  },
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

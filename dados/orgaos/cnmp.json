@@ -1,0 +1,44 @@
+{
+  "id": "org:cnmp",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional do Ministério Público",
+  "sigla": "CNMP",
+  "resumo": "Controla a atuação administrativa e financeira do Ministério Público da União e dos estados e o cumprimento dos deveres dos seus membros. Tem 14 conselheiros.",
+  "detalhes": "Presidido pelo Procurador-Geral da República. Os outros 13 membros vêm do MPU, dos MPs estaduais, da magistratura, da advocacia e de dois cidadãos indicados pela Câmara e pelo Senado, e são nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado (CF, art. 130-A, caput e I a VI). Pode rever a legalidade de atos administrativos do MP, receber reclamações contra seus membros, avocar processos disciplinares e aplicar sanções (§ 2º). Escolhe entre seus membros do MP um Corregedor nacional (§ 3º). O Presidente do Conselho Federal da OAB oficia junto ao Conselho (§ 4º). As ações contra ele são julgadas pelo STF (art. 102, I, r).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "nacional",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, r; art. 130-A"
+    },
+    {
+      "ref": "norma:ec-45-2004",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-11372-2006",
+      "dispositivo": "arts. 1º, 2º e 8º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do CNMP",
+      "url": "https://www.cnmp.mp.br/portal/"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Criado pela EC 45/2004, publicada em 31/12/2004. A data de instalação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "tipo_orgao colegiado: o vocabulário não tem um tipo de órgão de controle do Ministério Público (judiciario-orgao-de-controle é do Judiciário). esfera nacional porque controla o MP da União e dos estados. Sem contido_em: a CF o põe na seção do Ministério Público, mas não dentro do MPU. Pode usar a estrutura administrativa da PGR (Lei 11.372/2006, art. 8º)."
+}

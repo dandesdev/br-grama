@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-ministerio-publico-integra-cnj",
+  "tipo": "relacao",
+  "nome": "Composição do CNJ",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-ministerio-publico",
+  "para": "org:cnj",
+  "condicao": "Um membro do Ministério Público estadual, escolhido pelo Procurador-Geral da República entre os nomes indicados pelo órgão competente de cada MP estadual.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

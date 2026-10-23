@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-ministerio-publico-integra-cnmp",
+  "tipo": "relacao",
+  "nome": "Composição do CNMP",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-ministerio-publico",
+  "para": "org:cnmp",
+  "condicao": "Três membros dos Ministérios Públicos dos estados.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

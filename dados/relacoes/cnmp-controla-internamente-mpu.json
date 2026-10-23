@@ -1,0 +1,26 @@
+{
+  "id": "rel:cnmp-controla-internamente-mpu",
+  "tipo": "relacao",
+  "nome": "Controle administrativo do MPU pelo CNMP",
+  "relacao": "controla-internamente",
+  "de": "org:cnmp",
+  "para": "org:ministerio-publico-da-uniao",
+  "condicao": "Controla a atuação administrativa e financeira: zela pela autonomia do MP, pode expedir atos regulamentares e rever, desconstituir ou fixar prazo para corrigir atos administrativos, sem prejuízo dos Tribunais de Contas.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, § 2º, caput, I e II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-assembleia-legislativa-exonera-procurador-geral-de-justica",
+  "tipo": "relacao",
+  "nome": "Destituição do procurador-geral de justiça",
+  "relacao": "exonera",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "cargo:arquetipo-estadual-procurador-geral-de-justica",
+  "condicao": "Destituição por deliberação da maioria absoluta do Legislativo, na forma da lei complementar estadual. Ver aviso:destituicao-procurador-geral-de-justica-quorum.",
+  "quorum": {
+    "regra": "maioria-absoluta"
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Termo exonera: pela CF, o próprio Legislativo delibera a destituição; aprova-exoneracao seria o caso em que outro desliga e o Legislativo só autoriza.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "org:arquetipo-estadual-ministerio-publico",
+  "tipo": "orgao",
+  "nome": "Ministério Público do Estado",
+  "resumo": "Ministério Público de cada estado: atua perante a Justiça estadual e é chefiado pelo procurador-geral de justiça.",
+  "detalhes": "Tem as mesmas funções e princípios do Ministério Público em geral: promover a ação penal pública e a ação civil pública, controlar externamente a atividade policial, entre outras (CF, arts. 127 e 129). Tem autonomia funcional e administrativa e faz a própria proposta orçamentária (art. 127, §§ 2º e 3º). A organização vem da Lei 8.625/1993 e da lei complementar de cada estado, de iniciativa facultada ao procurador-geral de justiça (art. 128, § 5º).",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 127; art. 128, II, e §§ 3º a 5º; art. 129"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 1º a 3º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 5º a 7º",
+      "nota": "órgãos da administração e de execução; detalhados na lei orgânica de cada estado"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; os MPs estaduais são anteriores."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Sem sigla: cada estado usa a sua. O MP do DF não é estadual: integra o MPU (org:mpdft). Sem contido_em, como org:ministerio-publico-da-uniao. Os promotores de justiça também exercem funções eleitorais na primeira instância (Lei 8.625/1993, art. 32, III)."
+}

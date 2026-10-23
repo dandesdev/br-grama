@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-ministerio-publico-indica-conselheiro-do-cnj",
+  "tipo": "relacao",
+  "nome": "Indicação de conselheiro do CNJ",
+  "relacao": "indica",
+  "de": "org:arquetipo-estadual-ministerio-publico",
+  "para": "cargo:conselheiro-do-cnj",
+  "condicao": "O órgão competente de cada MP estadual indica nomes; o Procurador-Geral da República escolhe um entre eles (rel:pgr-indica-conselheiro-do-cnj).",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}
