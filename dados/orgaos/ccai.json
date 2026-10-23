@@ -1,0 +1,46 @@
+{
+  "id": "org:ccai",
+  "tipo": "orgao",
+  "nome": "Comissão Mista de Controle das Atividades de Inteligência",
+  "sigla": "CCAI",
+  "resumo": "Comissão permanente do Congresso que faz o controle e a fiscalização externos da atividade de inteligência, sobretudo do Sisbin.",
+  "detalhes": "É formada pelos presidentes das Comissões de Relações Exteriores e Defesa Nacional da Câmara e do Senado, pelos líderes da maioria e da minoria nas duas Casas e por mais seis parlamentares. A presidência alterna a cada ano entre os presidentes das duas comissões de relações exteriores.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-2-2013",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "Comissão permanente do Congresso Nacional."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 6º"
+    },
+    {
+      "ref": "norma:resolucao-cn-2-2013",
+      "dispositivo": "arts. 1º, 2º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2013-11-25",
+    "ate": null,
+    "nota": "Regulada pela Resolução nº 2/2013-CN (DOU 25/11/2013); o controle externo pelo Legislativo está previsto desde a Lei 9.883/1999."
+  },
+  "confianca": "oficial",
+  "notas": "Composição pela publicação original da resolução; alterações posteriores não conferidas. Nó próprio, fora do conjunto org:comissoes-mistas-do-congresso-nacional, porque é o órgão de controle previsto na Lei 9.883/1999.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

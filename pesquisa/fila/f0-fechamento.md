@@ -20,6 +20,7 @@ Pendências anotadas pelas tarefas:
 - [ ] Funções essenciais: TRF julga membros do MPU (art. 108, I, a), sem nó único para os TRFs; MPs de contas estaduais; Defensoria do DF.
 - [ ] Dinheiro: contribuições ao Sistema S (art. 240) e adicional por rotatividade (art. 239, § 4º); créditos adicionais (art. 166, § 8º; art. 167, V); bancadas estaduais como proponentes da emenda de bancada; ADI 8010 (LC 200/2023); presidente do Comitê Gestor do IBS; verbo para "propõe a exoneração" (CMN, hoje `propoe`).
 - [ ] Controle: data da posse de Jhonatan de Jesus (aviso aberto); Constituições estaduais sobre a escolha dos conselheiros.
+- [ ] Defesa e segurança: cargo de Diretor-Geral da PRF; Secretaria Nacional de Políticas Penais.
 - [ ] Modelo (decisões do coordenador): campo de sede com fonte própria; nó para sociedade civil; objeto transferido em `repassa-recursos`; dedupe de ocupantes com duas relações `ocupa` para um só ato (AGU).
 
 Cobertura (D04):

@@ -1,0 +1,31 @@
+{
+  "id": "rel:presidente-nomeia-diretor-geral-da-policia-federal",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia o Diretor-Geral da Polícia Federal",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:diretor-geral-da-policia-federal",
+  "condicao": "Entre delegados da classe especial. Em 2023 o ato foi assinado pelo Ministro-Chefe da Casa Civil, por delegação do Presidente.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9266-1996",
+      "dispositivo": "art. 2º-C"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 188 da Casa Civil, de 1º/1/2023 (DOU 2/1/2023, Seção 2, edição extra B): designa Andrei Augusto Passos Rodrigues para a função de Diretor-Geral da Polícia Federal",
+      "nota": "https://www.in.gov.br/web/dou/-/portarias-de-1-de-janeiro-de-2023-455354618"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-12-03",
+    "ate": null,
+    "nota": "Redação do art. 2º-C dada pela Lei 13.047/2014 (DOU 3/12/2014)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

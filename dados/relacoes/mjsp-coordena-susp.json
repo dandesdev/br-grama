@@ -1,0 +1,31 @@
+{
+  "id": "rel:mjsp-coordena-susp",
+  "tipo": "relacao",
+  "nome": "O Ministério da Justiça e Segurança Pública coordena o Susp",
+  "relacao": "preside",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Coordenação do sistema (não é presidência de colegiado).",
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 35, XVII"
+    },
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "arts. 9º e 10, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "nota": "Coordenação atribuída ao MJSP pela Lei 14.600/2023 (vigência registrada em norma:lei-14600-2023)."
+  },
+  "confianca": "oficial",
+  "notas": "'preside' é o termo mais próximo; o vocabulário não tem 'coordena'. A Lei 13.675/2018 fala no Ministério Extraordinário da Segurança Pública, que não existe mais.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

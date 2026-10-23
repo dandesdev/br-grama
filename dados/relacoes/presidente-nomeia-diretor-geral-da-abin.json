@@ -1,0 +1,32 @@
+{
+  "id": "rel:presidente-nomeia-diretor-geral-da-abin",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia o Diretor-Geral da ABIN",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:diretor-geral-da-abin",
+  "condicao": "Escolha privativa do Presidente, depois da aprovação do Senado.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-diretor-geral-da-abin"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV"
+    },
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 11, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

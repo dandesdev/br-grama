@@ -1,0 +1,42 @@
+{
+  "id": "cargo:diretor-geral-da-abin",
+  "tipo": "cargo",
+  "nome": "Diretor-Geral da Agência Brasileira de Inteligência",
+  "resumo": "Dirige a ABIN. É escolhido e nomeado pelo Presidente depois de aprovado pelo Senado.",
+  "orgao": "org:abin",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "vagas": 1,
+  "provimento_nota": "O Presidente escolhe o nome, o Senado aprova e o Presidente nomeia (Lei 9.883/1999, art. 11, parágrafo único; CF, art. 52, III, f).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na lei."
+  },
+  "requisitos": [],
+  "detalhes": "Edita o regimento interno da ABIN, que o Presidente aprova, e mantém a lista dos órgãos que integram o Sisbin.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "arts. 8º e 11"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    },
+    {
+      "ref": "norma:decreto-11693-2023",
+      "dispositivo": "art. 7º, § 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo de natureza especial (Lei 9.883/1999, art. 11). A lei não fixa requisitos próprios.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

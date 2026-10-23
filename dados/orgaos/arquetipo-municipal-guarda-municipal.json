@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Guarda Municipal",
   "resumo": "Protege os bens, serviços e instalações do município. É facultativa: cada município decide se a cria, por lei.",
-  "detalhes": "A Constituição permite, mas não obriga, que os municípios tenham guarda municipal (CF, art. 144, § 8º). As normas gerais estão no Estatuto Geral das Guardas Municipais.",
+  "detalhes": "A Constituição permite, mas não obriga, que os municípios tenham guarda (CF, art. 144, § 8º); quem decide é o município, por lei. A guarda é civil, uniformizada e armada conforme a lei, subordina-se ao prefeito e tem efetivo máximo proporcional à população (de 0,2% a 0,4%). Integra o Sistema Único de Segurança Pública.",
   "tipo_orgao": "executivo-direta",
   "poder": "executivo",
   "esfera": "municipal",
@@ -12,6 +12,14 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 144, § 8º"
+    },
+    {
+      "ref": "norma:lei-13022-2014",
+      "dispositivo": "arts. 2º, 4º, 5º, 6º e 7º"
+    },
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 9º, § 2º, VII"
     }
   ],
   "vigencia": {
@@ -19,7 +27,7 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "Arquétipo de um órgão facultativo: nem todo município tem guarda. Sem contido_em por enquanto; a Prefeitura (org:arquetipo-municipal-prefeitura) é só a chefia do Executivo.",
+  "notas": "Arquétipo de um órgão facultativo: nem todo município tem guarda; quantos têm não foi pesquisado. Sem contido_em: não há nó do Executivo municipal além da Prefeitura (chefia). O texto do Planalto remete à ADPF 995 (STF) nos arts. 4º da Lei 13.022/2014 e 9º da Lei 13.675/2018; o conteúdo da decisão não foi conferido. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-23",

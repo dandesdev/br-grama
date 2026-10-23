@@ -1,0 +1,26 @@
+{
+  "id": "rel:policia-federal-integra-sisbin",
+  "tipo": "relacao",
+  "nome": "Integra o Sistema Brasileiro de Inteligência",
+  "relacao": "integra",
+  "de": "org:policia-federal",
+  "para": "org:sistema-brasileiro-de-inteligencia",
+  "condicao": "Pela Diretoria de Inteligência Policial (órgão permanente).",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11693-2023",
+      "dispositivo": "art. 7º, § 1º, X"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-09-06",
+    "ate": null,
+    "nota": "Composição atual do Decreto 11.693/2023 (DOU 6/9/2023); o Sisbin existe desde 1999."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

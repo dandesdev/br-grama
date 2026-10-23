@@ -1,0 +1,25 @@
+{
+  "id": "rel:policia-rodoviaria-federal-integra-susp",
+  "tipo": "relacao",
+  "nome": "Integra o Sistema Único de Segurança Pública",
+  "relacao": "integra",
+  "de": "org:policia-rodoviaria-federal",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Integrante operacional.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 9º, § 2º, II"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

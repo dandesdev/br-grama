@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-policia-penal-integra-susp",
+  "tipo": "relacao",
+  "nome": "Integra o Sistema Único de Segurança Pública",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-policia-penal",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Integrante como órgão do sistema penitenciário (a lei, de 2018, fala em 'agentes penitenciários' e 'órgãos do sistema penitenciário').",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 9º, caput, e § 2º, VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null
+  },
+  "confianca": "inferido",
+  "notas": "Leitura nossa: as polícias penais (EC 104/2019) ocupam o lugar dos órgãos do sistema penitenciário citados na lei.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

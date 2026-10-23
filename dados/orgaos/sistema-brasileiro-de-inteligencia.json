@@ -1,0 +1,34 @@
+{
+  "id": "org:sistema-brasileiro-de-inteligencia",
+  "tipo": "orgao",
+  "nome": "Sistema Brasileiro de Inteligência",
+  "sigla": "Sisbin",
+  "resumo": "Rede dos órgãos federais que produzem inteligência, coordenada pela ABIN, para dar subsídios ao Presidente. Estados e DF podem aderir.",
+  "detalhes": "Tem órgão central (a ABIN), órgãos permanentes (unidades da Casa Civil, do GSI, do Itamaraty, do EMCFA, das três Forças, da PF, da PRF e do MJSP), dedicados, associados e federados (das unidades da Federação). Cada órgão mantém autonomia funcional.",
+  "tipo_orgao": "outro",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "arts. 1º e 2º"
+    },
+    {
+      "ref": "norma:decreto-11693-2023",
+      "dispositivo": "arts. 2º, 5º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null,
+    "nota": "Instituído pela Lei 9.883/1999 (DOU 8/12/1999)."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'outro': não é um órgão, e sim um sistema de órgãos de vários ministérios, sem hierarquia própria (por isso sem contido_em). As relações 'integra' ligam os membros que estão no mapa; a lista completa é publicada pelo Diretor-Geral da ABIN (Decreto 11.693/2023, art. 7º, § 5º; última achada: Portaria GAB/DG/ABIN/CC/PR nº 4.784, de 9/9/2026, DOU 18/9/2026). Membros permanentes sem nó no mapa: Secretaria-Geral das Relações Exteriores, Diretoria de Inteligência Penitenciária da Senappen e Diretoria de Operações Integradas e de Inteligência da Senasp.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

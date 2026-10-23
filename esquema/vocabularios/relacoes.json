@@ -2,6 +2,7 @@
   "_descricao": "Tipos de relação (aresta). Leitura: <de> <nome> <para>. 'nome' é o verbo exibido no site.",
 
   "integra": { "grupo": "estrutura", "nome": "integra", "definicao": "É parte componente de outro órgão, Poder ou ente." },
+  "coordena": { "grupo": "estrutura", "nome": "coordena", "definicao": "Organiza a atuação conjunta de órgãos que não lhe são subordinados (ex.: o Ministério da Justiça e Segurança Pública e o Sistema Único de Segurança Pública)." },
   "subordina-se": { "grupo": "estrutura", "nome": "subordina-se a", "definicao": "Está sob comando hierárquico de outro órgão ou cargo." },
   "vincula-se": { "grupo": "estrutura", "nome": "vincula-se a", "definicao": "Entidade da administração indireta sob supervisão de um órgão, sem hierarquia." },
   "exerce": { "grupo": "estrutura", "nome": "exerce", "definicao": "Exerce as funções de um Poder ou de um órgão (ex.: o Congresso exerce o Poder Legislativo)." },

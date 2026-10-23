@@ -1,0 +1,53 @@
+{
+  "id": "org:abin",
+  "tipo": "orgao",
+  "nome": "Agência Brasileira de Inteligência",
+  "sigla": "ABIN",
+  "resumo": "Órgão central do Sistema Brasileiro de Inteligência: planeja, executa e coordena a inteligência do país para assessorar o Presidente. Integra a Casa Civil.",
+  "detalhes": "Avalia ameaças internas e externas à ordem constitucional, protege conhecimentos sensíveis do Estado e executa a Política Nacional de Inteligência. As atividades devem respeitar os direitos e garantias individuais. O controle externo é do Congresso, pela CCAI.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:casa-civil",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11816-2023",
+          "dispositivo": "Anexo I, art. 1º"
+        }
+      ],
+      "nota": "'órgão integrante da Casa Civil da Presidência da República'. A Lei 9.883/1999 (art. 3º) diz só 'órgão da Presidência da República'."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "arts. 3º, 4º, 8º e 11"
+    },
+    {
+      "ref": "norma:decreto-11816-2023",
+      "dispositivo": "Anexo I, arts. 1º e 2º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11816-2023",
+      "dispositivo": "Anexo I, art. 2º",
+      "nota": "departamentos e superintendências estaduais"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null,
+    "nota": "Criada pela Lei 9.883/1999 (DOU 8/12/1999)."
+  },
+  "confianca": "oficial",
+  "notas": "Ver aviso:abin-atos-e-despesas-sigilosas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

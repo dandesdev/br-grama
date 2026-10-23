@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Polícia Militar do Estado",
   "resumo": "Faz a polícia ostensiva e preserva a ordem pública no estado. É força auxiliar e reserva do Exército e se subordina ao governador.",
-  "detalhes": "Organizada com base na hierarquia e na disciplina; seus membros são militares do estado (CF, art. 42). A União legisla sobre as normas gerais de organização, efetivos, material bélico, garantias, convocação e mobilização (art. 22, XXI).",
+  "detalhes": "Organizada com base na hierarquia e na disciplina; seus membros são militares do estado (CF, art. 42), e o comandante-geral é oficial da ativa do último posto. A União legisla sobre as normas gerais de organização, efetivos, material bélico, garantias, convocação e mobilização (art. 22, XXI), hoje na Lei 14.751/2023.",
   "tipo_orgao": "executivo-direta",
   "poder": "executivo",
   "esfera": "estadual",
@@ -12,6 +12,10 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 144, caput, V, §§ 5º e 6º; art. 42, caput; art. 22, XXI"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "arts. 2º, 5º e 7º"
     }
   ],
   "vigencia": {
@@ -20,10 +24,22 @@
     "nota": "Data da promulgação da CF/88, base usada aqui; as polícias militares são anteriores."
   },
   "confianca": "oficial",
-  "notas": "Sem sigla: cada estado usa a sua. Sem contido_em por enquanto (nó do Executivo estadual criado pela f0-tipicos). Os crimes militares dos seus membros são julgados pela Justiça Militar estadual (art. 125, § 4º).",
+  "notas": "Sem sigla: cada estado usa a sua. Os crimes militares dos seus membros são julgados pela Justiça Militar estadual (art. 125, § 4º). A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-23",
     "tarefa": "f0-defesa-seguranca"
+  },
+  "contido_em": "org:arquetipo-estadual-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 144, § 6º"
+        }
+      ],
+      "nota": "A CF subordina as polícias e os bombeiros militares ao governador. Em muitos estados eles ficam numa secretaria de segurança pública, conforme a lei local; isso não foi generalizado aqui."
+    }
   }
 }

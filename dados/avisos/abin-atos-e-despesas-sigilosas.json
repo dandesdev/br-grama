@@ -1,0 +1,36 @@
+{
+  "id": "aviso:abin-atos-e-despesas-sigilosas",
+  "tipo": "aviso",
+  "nome": "Parte dos atos e das despesas da ABIN é sigilosa por lei",
+  "resumo": "Atos da ABIN cuja publicidade comprometa atividades sigilosas saem só em extrato, e há verba específica para ações sigilosas. Quadro e movimentação de pessoal não são públicos por inteiro.",
+  "detalhes": "A Lei 9.883/1999 manda publicar em extrato os atos sobre funcionamento, atribuições, atuação e cargos da ABIN e a movimentação dos titulares (art. 9º), restringe o fornecimento de informações de inteligência (art. 9º-A) e prevê rubrica orçamentária própria para ações sigilosas (art. 13, parágrafo único).",
+  "tipo_aviso": "sigilo",
+  "afeta": [
+    "org:abin",
+    "cargo:diretor-geral-da-abin",
+    "org:sistema-brasileiro-de-inteligencia"
+  ],
+  "gravidade": "media",
+  "onde_procuramos": [
+    "Lei 9.883/1999 (Planalto)",
+    "Decreto 11.816/2023, estrutura regimental da ABIN (Planalto)",
+    "Busca no DOU (in.gov.br) por atos da ABIN em 2026"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "arts. 9º, 9º-A e 13, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A estrutura até o nível de departamento é pública (Decreto 11.816/2023) e a lista de órgãos do Sisbin é publicada no DOU. O que a lei protege são atos, informações e despesas de atividades sigilosas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

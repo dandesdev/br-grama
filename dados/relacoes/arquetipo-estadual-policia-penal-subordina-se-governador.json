@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-policia-penal-subordina-se-governador",
+  "tipo": "relacao",
+  "nome": "A Polícia Penal do estado se subordina ao governador",
+  "relacao": "subordina-se",
+  "de": "org:arquetipo-estadual-policia-penal",
+  "para": "cargo:arquetipo-estadual-governador",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-12-05",
+    "ate": null,
+    "nota": "Redação do § 6º dada pela EC 104/2019 (DOU 5/12/2019), que incluiu as polícias penais."
+  },
+  "confianca": "oficial",
+  "notas": "No DF e nos territórios a subordinação também é ao governador, mas as polícias do DF são organizadas e mantidas pela União (art. 21, XIV).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

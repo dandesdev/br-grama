@@ -1,0 +1,29 @@
+{
+  "id": "rel:senado-aprova-indicacao-diretor-geral-da-abin",
+  "tipo": "relacao",
+  "nome": "Aprovação do Diretor-Geral da ABIN pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:diretor-geral-da-abin",
+  "condicao": "Por voto secreto, como nas demais escolhas do art. 52, III. Depois o Presidente nomeia.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    },
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 11, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

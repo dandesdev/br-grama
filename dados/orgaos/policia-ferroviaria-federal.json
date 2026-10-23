@@ -1,0 +1,41 @@
+{
+  "id": "org:policia-ferroviaria-federal",
+  "tipo": "orgao",
+  "nome": "Polícia Ferroviária Federal",
+  "resumo": "Prevista na Constituição para patrulhar as ferrovias federais, mas sem órgão em funcionamento: não aparece na estrutura do Ministério da Justiça e Segurança Pública.",
+  "detalhes": "A CF a lista entre os órgãos de segurança pública, como órgão permanente da União estruturado em carreira. A lei de 2023 que organiza os ministérios só atribui ao MJSP a polícia federal e a rodoviária federal, e a estrutura regimental do MJSP não tem unidade de polícia ferroviária.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, caput, III, e § 3º; art. 22, XXII"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 35, XIII e XIV"
+    },
+    {
+      "ref": "norma:decreto-11348-2023",
+      "dispositivo": "art. 2º"
+    },
+    {
+      "ref": "norma:lei-12462-2011",
+      "dispositivo": "art. 48"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Prevista na CF desde 1988; não há órgão instituído na estrutura vigente em 2026-10-01."
+  },
+  "confianca": "oficial",
+  "notas": "Existe só no texto constitucional. Em 2011 a Lei 12.462 (art. 48) incluiu um Departamento de Polícia Ferroviária Federal na estrutura do Ministério da Justiça, por alteração da Lei 10.683/2003, que não é mais a lei de organização dos ministérios; a Lei 14.600/2023 e o Decreto 11.348/2023 (texto do Planalto de 2026-10-23, com as alterações de 2026) não mencionam polícia ferroviária. Sem contido_em por isso. Pista secundária não usada como fonte: imprensa de 2025 relata cobrança pública pela criação do órgão. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

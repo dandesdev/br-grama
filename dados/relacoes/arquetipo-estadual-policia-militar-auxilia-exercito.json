@@ -1,0 +1,30 @@
+{
+  "id": "rel:arquetipo-estadual-policia-militar-auxilia-exercito",
+  "tipo": "relacao",
+  "nome": "A Polícia Militar do estado é força auxiliar e reserva do Exército",
+  "relacao": "auxilia",
+  "de": "org:arquetipo-estadual-policia-militar",
+  "para": "org:exercito",
+  "condicao": "Força auxiliar e reserva do Exército; continua subordinada ao governador.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 6º"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "'auxilia' é o termo mais próximo do vocabulário para 'força auxiliar e reserva'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

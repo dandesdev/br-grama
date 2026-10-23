@@ -1,0 +1,55 @@
+{
+  "id": "org:policia-rodoviaria-federal",
+  "tipo": "orgao",
+  "nome": "Polícia Rodoviária Federal",
+  "resumo": "Faz o patrulhamento ostensivo das rodovias federais. É órgão permanente, organizado e mantido pela União e estruturado em carreira.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-justica-e-seguranca-publica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11348-2023",
+          "dispositivo": "art. 2º, II (órgãos específicos singulares)"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 35, XIV"
+        }
+      ],
+      "nota": "Órgão específico singular do MJSP."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, caput, II, e § 2º; art. 22, XXII"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 35, XIV"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11348-2023",
+      "dispositivo": "art. 2º, II",
+      "nota": "diretorias da Polícia Rodoviária Federal"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Sem sigla: a sigla usual não foi conferida em fonte oficial estruturada. O Diretor-Geral não foi modelado como cargo. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

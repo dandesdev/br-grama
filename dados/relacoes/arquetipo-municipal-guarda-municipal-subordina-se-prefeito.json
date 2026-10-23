@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-municipal-guarda-municipal-subordina-se-prefeito",
+  "tipo": "relacao",
+  "nome": "A guarda municipal se subordina ao prefeito",
+  "relacao": "subordina-se",
+  "de": "org:arquetipo-municipal-guarda-municipal",
+  "para": "cargo:arquetipo-municipal-prefeito",
+  "fontes": [
+    {
+      "ref": "norma:lei-13022-2014",
+      "dispositivo": "art. 6º, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-08-11",
+    "ate": null,
+    "nota": "Regra da Lei 13.022/2014 (DOU 11/8/2014)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

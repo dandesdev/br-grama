@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-policia-civil-integra-susp",
+  "tipo": "relacao",
+  "nome": "Integra o Sistema Único de Segurança Pública",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-policia-civil",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Integrante operacional.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 9º, § 2º, IV"
+    },
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

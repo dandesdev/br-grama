@@ -1,0 +1,48 @@
+{
+  "id": "cargo:diretor-geral-da-policia-federal",
+  "tipo": "cargo",
+  "nome": "Diretor-Geral da Polícia Federal",
+  "resumo": "Dirige a Polícia Federal. O cargo é privativo de delegado de Polícia Federal da classe especial.",
+  "orgao": "org:policia-federal",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "A lei diz que o Diretor-Geral é nomeado pelo Presidente da República (Lei 9.266/1996, art. 2º-C). O ato vigente foi uma designação para função comissionada (FCE 1.17) assinada pelo Ministro-Chefe da Casa Civil, por delegação (Portaria de 1º/1/2023, DOU 2/1/2023).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na lei."
+  },
+  "requisitos": [
+    {
+      "texto": "delegado de Polícia Federal integrante da classe especial",
+      "fontes": [
+        {
+          "ref": "norma:lei-9266-1996",
+          "dispositivo": "art. 2º-C"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9266-1996",
+      "dispositivo": "art. 2º-C"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-12-03",
+    "ate": null,
+    "nota": "Data da redação atual do art. 2º-C, dada pela Lei 13.047/2014 (DOU 3/12/2014), conversão da MP 657/2014, que já havia incluído o artigo; a data da MP não foi conferida. O cargo de direção é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Dirigente máximo de órgão de segurança pública federal (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

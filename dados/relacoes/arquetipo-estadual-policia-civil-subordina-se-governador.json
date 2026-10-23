@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-policia-civil-subordina-se-governador",
+  "tipo": "relacao",
+  "nome": "A Polícia Civil do estado se subordina ao governador",
+  "relacao": "subordina-se",
+  "de": "org:arquetipo-estadual-policia-civil",
+  "para": "cargo:arquetipo-estadual-governador",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 6º"
+    },
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "No DF e nos territórios a subordinação também é ao governador, mas as polícias do DF são organizadas e mantidas pela União (art. 21, XIV).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

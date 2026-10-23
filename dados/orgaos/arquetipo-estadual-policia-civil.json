@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Polícia Civil do Estado",
   "resumo": "Polícia judiciária do estado: investiga as infrações penais, menos as militares e as que cabem à União. É dirigida por delegado de polícia de carreira.",
-  "detalhes": "Subordina-se ao governador (CF, art. 144, § 6º). A organização de cada polícia civil vem da lei do estado, dentro das normas gerais federais.",
+  "detalhes": "É dirigida por delegado de polícia em atividade, da classe mais elevada, nomeado pelo governador. Integra o Sistema Único de Segurança Pública. A lei orgânica de cada polícia civil, de iniciativa do governador, segue as normas gerais da Lei 14.735/2023.",
   "tipo_orgao": "executivo-direta",
   "poder": "executivo",
   "esfera": "estadual",
@@ -11,7 +11,11 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 144, caput, IV, §§ 4º, 6º e 7º"
+      "dispositivo": "art. 144, caput, IV, §§ 4º, 6º e 7º; art. 24, XVI"
+    },
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 1º a 3º"
     }
   ],
   "vigencia": {
@@ -20,10 +24,22 @@
     "nota": "Data da promulgação da CF/88, base usada aqui; as polícias civis são anteriores."
   },
   "confianca": "oficial",
-  "notas": "Sem sigla: cada estado usa a sua. Sem contido_em por enquanto: o nó do Executivo estadual é criado pela f0-tipicos; a subordinação ao governador está em rel:arquetipo-estadual-policia-civil-subordina-se-governador. As polícias do DF são organizadas e mantidas pela União (art. 21, XIV) e ficam para a variação do DF (f0-tipicos).",
+  "notas": "Sem sigla: cada estado usa a sua. A subordinação ao governador está em rel:arquetipo-estadual-policia-civil-subordina-se-governador. As polícias do DF são organizadas e mantidas pela União (art. 21, XIV) e ficam para a variação do DF (f0-tipicos). A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-23",
     "tarefa": "f0-defesa-seguranca"
+  },
+  "contido_em": "org:arquetipo-estadual-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 144, § 6º"
+        }
+      ],
+      "nota": "A CF subordina as polícias e os bombeiros militares ao governador. Em muitos estados eles ficam numa secretaria de segurança pública, conforme a lei local; isso não foi generalizado aqui."
+    }
   }
 }

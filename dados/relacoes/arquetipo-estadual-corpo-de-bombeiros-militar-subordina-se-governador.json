@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-corpo-de-bombeiros-militar-subordina-se-governador",
+  "tipo": "relacao",
+  "nome": "O Corpo de Bombeiros Militar do estado se subordina ao governador",
+  "relacao": "subordina-se",
+  "de": "org:arquetipo-estadual-corpo-de-bombeiros-militar",
+  "para": "cargo:arquetipo-estadual-governador",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 6º"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "No DF e nos territórios a subordinação também é ao governador, mas as polícias do DF são organizadas e mantidas pela União (art. 21, XIV).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}
