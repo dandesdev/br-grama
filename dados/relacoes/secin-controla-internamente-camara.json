@@ -1,0 +1,29 @@
+{
+  "id": "rel:secin-controla-internamente-camara",
+  "tipo": "relacao",
+  "nome": "Controle interno da Câmara dos Deputados",
+  "relacao": "controla-internamente",
+  "de": "org:secretaria-de-controle-interno-da-camara",
+  "para": "org:camara-dos-deputados",
+  "condicao": "Acompanha e fiscaliza a gestão contábil, financeira, orçamentária, operacional e patrimonial da Câmara e avalia os resultados dos administradores da Casa.",
+  "vigencia": {
+    "de": "1994-06-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 74"
+    },
+    {
+      "ref": "norma:camara-resolucao-69-1994",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

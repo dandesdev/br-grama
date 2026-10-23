@@ -1,0 +1,26 @@
+{
+  "id": "rel:cgu-corrige-poder-executivo-federal",
+  "tipo": "relacao",
+  "nome": "Correição no Executivo federal pela CGU",
+  "relacao": "corrige",
+  "de": "org:cgu",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Instaura sindicâncias e processos disciplinares e de responsabilização de empresas (Lei Anticorrupção), e pode acompanhar e avocar os que estiverem em curso em órgãos e entidades federais.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "nota": "Data de publicação da Lei 14.600/2023, a base citada (antes, MP 1.154/2023, não pesquisada). O controle interno do Executivo e a CGU são anteriores."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 49, V, e § 1º, II, III e VII, e § 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

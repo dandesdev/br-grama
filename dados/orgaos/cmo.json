@@ -1,0 +1,48 @@
+{
+  "id": "org:cmo",
+  "tipo": "orgao",
+  "nome": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização",
+  "sigla": "CMO",
+  "resumo": "Comissão permanente de deputados e senadores que dá parecer sobre as leis orçamentárias e as contas do Presidente e acompanha a execução do orçamento.",
+  "detalhes": "É a comissão mista permanente do art. 166, § 1º, da Constituição. Tem 40 titulares: 30 deputados e 10 senadores. Diante de indícios de despesa não autorizada, pode pedir esclarecimentos ao governo e um pronunciamento do TCU e, se for o caso, propor ao Congresso a sustação do gasto (art. 72).",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 166, § 1º"
+        }
+      ]
+    },
+    "detalhes": {
+      "nota": "O número de membros (art. 5º da Resolução 1/2006-CN) foi lido no texto do Planalto, sem marcas de alteração; não conferido na versão alterada pela Resolução 3/2015-CN."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 72; art. 166, § 1º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 1º, 2º e 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A comissão mista permanente existe desde a CF de 1988; o nome atual vem da Resolução 1/2006-CN (art. 1º)."
+  },
+  "confianca": "oficial",
+  "notas": "Criado pela f0-controle por causa do art. 72; a f0-legislativo não tinha este órgão. Não há relação 'integra' (o contido_em já diz a posição).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

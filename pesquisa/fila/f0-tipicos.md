@@ -14,6 +14,7 @@ Estado típico:
 - [ ] Poder Legislativo estadual: complete `org:arquetipo-estadual-assembleia-legislativa` (já existe; não desfaça), `cargo:arquetipo-estadual-deputado-estadual` (número de deputados pela regra do art. 27, caput), constituição estadual (`obj:constituicao-estadual`, art. 25) e o processo legislativo estadual por simetria, como nota e `remete_a` ao processo federal, com fonte de que a simetria se aplica (STF, se usada, como fonte de interpretação).
 - [ ] Poder Judiciário estadual: arquétipo `org:arquetipo-estadual-tribunal-de-justica`, ligado aos 27 TJs reais (que já existem) por nota ou variação, e a competência do art. 125.
 - [ ] Ligações com os arquétipos que outras tarefas criam (MP, Defensoria, Procuradoria, polícias, TCE): só relações, sem recriar.
+  - pendentes das tarefas já coletadas: Governador nomeia o procurador-geral de justiça (art. 128, § 3º) e o defensor público-geral do estado (LC 80/1994); TJ julga membros do MP estadual (art. 96, III); `contido_em` de `org:arquetipo-estadual-tce` no Poder Legislativo estadual, se você criar o nó desse Poder (o TCU fica em `org:poder-legislativo-federal`)
 - [ ] Os 27 governadores em 2026-10-01: `pessoa:` + `ocupa`, com partido. Fonte oficial de cada estado ou do TSE. Quem assumiu porque o titular saiu em abril de 2026 (desincompatibilização) precisa aparecer corretamente.
 
 Município típico:
@@ -22,7 +23,7 @@ Município típico:
 - [ ] Regiões metropolitanas e consórcios públicos (art. 25, § 3º; Lei 11.107/2005; Lei 13.089/2015): objeto ou órgão mínimo.
 
 Atipicidades (D06), cada uma como `variacao:` com fonte:
-- [ ] DF (art. 32): sem municípios, Câmara Legislativa, polícias organizadas e mantidas pela União (art. 21, XIV).
+- [ ] DF (art. 32): sem municípios, Câmara Legislativa, polícias organizadas e mantidas pela União (art. 21, XIV). Com a Câmara Legislativa criada, ligue `org:tc-df` a ela (`auxilia`, art. 75).
 - [ ] Fernando de Noronha (distrito estadual de Pernambuco) e outros casos semelhantes, se houver.
 - [ ] Territórios federais (art. 33): nenhum existe em 2026-10-01; registre como fato com fonte.
 

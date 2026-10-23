@@ -1,0 +1,170 @@
+{
+  "id": "proc:despesa-nao-autorizada",
+  "tipo": "processo",
+  "nome": "Despesa não autorizada: pedido de esclarecimento e sustação",
+  "resumo": "Como a comissão de orçamento do Congresso reage a indícios de despesa não autorizada: pede explicações ao governo, consulta o TCU e pode propor a sustação do gasto.",
+  "detalhes": "Vale para despesas não autorizadas, inclusive investimentos não programados e subsídios não aprovados (CF, art. 72).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "pedido-de-esclarecimentos",
+      "atores": [
+        "org:cmo"
+      ],
+      "acao": "Diante de indícios de despesa não autorizada, a CMO pede esclarecimentos à autoridade responsável",
+      "prazo": {
+        "texto": "cinco dias para a autoridade prestar os esclarecimentos",
+        "valor": 5,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "avaliacao-dos-esclarecimentos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "avaliacao-dos-esclarecimentos",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:cmo"
+      ],
+      "acao": "Os esclarecimentos foram prestados e são suficientes?",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "encerramento",
+          "quando": "sim"
+        },
+        {
+          "para": "consulta-ao-tcu",
+          "quando": "não foram prestados ou são insuficientes"
+        }
+      ]
+    },
+    {
+      "id": "encerramento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O caso não segue para o TCU",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, § 1º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "consulta-ao-tcu",
+      "atores": [
+        "org:cmo"
+      ],
+      "acao": "A CMO pede ao TCU pronunciamento conclusivo sobre a matéria",
+      "prazo": {
+        "texto": "trinta dias para o pronunciamento do TCU",
+        "valor": 30,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pronunciamento-do-tcu",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pronunciamento-do-tcu",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "O TCU considera a despesa irregular?",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "encerramento",
+          "quando": "não"
+        },
+        {
+          "para": "proposta-de-sustacao",
+          "quando": "sim, e a CMO julga que o gasto pode causar dano irreparável ou grave lesão à economia pública"
+        }
+      ]
+    },
+    {
+      "id": "proposta-de-sustacao",
+      "atores": [
+        "org:cmo"
+      ],
+      "acao": "A CMO propõe ao Congresso Nacional a sustação da despesa",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "deliberacao-do-congresso",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "deliberacao-do-congresso",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso Nacional delibera sobre a sustação",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 72, § 2º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 72"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A 'autoridade governamental responsável' não tem ator próprio: depende do gasto. A CF não diz o que ocorre se a CMO não julgar o gasto capaz de causar dano irreparável depois do parecer de irregularidade; a etapa 'encerramento' cobre só os casos expressos. A forma da deliberação do Congresso (decreto legislativo?) não foi pesquisada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

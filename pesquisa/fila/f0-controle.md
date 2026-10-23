@@ -1,20 +1,20 @@
 ---
 id: f0-controle
 escopo: "Fatia 0: controle externo e interno (CF, arts. 70 a 75) e os 27 tribunais de contas estaduais e do DF"
-status: em-andamento
+status: coletada
 depende_de: []
 iniciada_em: 2026-10-22
-concluida_em: null
+concluida_em: 2026-10-23
 ---
 
 ## Entregáveis
 
-- [ ] TCU completo (`org:tcu` e `cargo:ministro-do-tcu` já existem e foram revisados; complete sem desfazer): todas as competências do art. 71 que faltam, como relações para objetos ou órgãos (julgar contas dos administradores, registrar admissões e aposentadorias, fazer inspeções e auditorias, aplicar sanções, sustar atos, representar ao Poder competente), sustação de contratos (art. 71, §§ 1º e 2º), eficácia de título executivo (§ 3º)
-- [ ] Controle interno (art. 74): o sistema de controle interno de cada Poder e a CGU (`org:cgu`, conforme a Lei 14.600/2023), com `cargo:ministro-da-cgu` só se a lei o tratar como ministro (confira; pode ser `cargo:ministro-de-estado` com a pasta indicada)
-- [ ] Denúncia de irregularidades ao TCU por qualquer cidadão, partido, associação ou sindicato (art. 74, § 2º)
-- [ ] Os 27 tribunais de contas estaduais e do DF reais (`org:tce-<uf>`; para o DF, `org:tc-df`), com nome oficial, sede e site, e a variação de cada um em relação a `org:arquetipo-estadual-tce`, se houver. A EC 139/2026 alterou o art. 75: registre o efeito dela.
-- [ ] Composição dos tribunais de contas estaduais (art. 75, parágrafo único: sete conselheiros) e a forma de escolha (Súmula 653 do STF, como fonte secundária de interpretação, se usada)
-- [ ] Objetos de competência necessários (`obj:contas-de-gestao`, `obj:ato-de-admissao-de-pessoal` etc.), com fonte
+- [x] TCU completo (`org:tcu` e `cargo:ministro-do-tcu` já existem e foram revisados; complete sem desfazer): todas as competências do art. 71 que faltam, como relações para objetos ou órgãos (julgar contas dos administradores, registrar admissões e aposentadorias, fazer inspeções e auditorias, aplicar sanções, sustar atos, representar ao Poder competente), sustação de contratos (art. 71, §§ 1º e 2º), eficácia de título executivo (§ 3º). Parcial: art. 71, XI, não modelado (falta termo no vocabulário)
+- [x] Controle interno (art. 74): o sistema de controle interno de cada Poder e a CGU (`org:cgu`, conforme a Lei 14.600/2023), com `cargo:ministro-da-cgu` só se a lei o tratar como ministro (confira; pode ser `cargo:ministro-de-estado` com a pasta indicada). Parcial: Executivo (CGU) e Câmara feitos; Senado e TCU pendentes; Judiciário coberto pelo CNJ
+- [x] Denúncia de irregularidades ao TCU por qualquer cidadão, partido, associação ou sindicato (art. 74, § 2º)
+- [x] Os 27 tribunais de contas estaduais e do DF reais (`org:tce-<uf>`; para o DF, `org:tc-df`), com nome oficial, sede e site, e a variação de cada um em relação a `org:arquetipo-estadual-tce`, se houver. A EC 139/2026 alterou o art. 75: registre o efeito dela.
+- [x] Composição dos tribunais de contas estaduais (art. 75, parágrafo único: sete conselheiros) e a forma de escolha (Súmula 653 do STF, como fonte secundária de interpretação, se usada)
+- [x] Objetos de competência necessários (`obj:contas-de-gestao`, `obj:ato-de-admissao-de-pessoal` etc.), com fonte
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -33,3 +33,8 @@ concluida_em: null
 - 2026-10-23 16:20 — composição do TCU em 2026-10-01 (não havia no piloto): gravados fonte:tcu-autoridades, fonte:tcu-curriculos-ministros, 5 fontes de notícias de posse (Pacheco 30/9/2026, Odair Cunha 20/5/2026, Jhonatan 15/3/2023, Anastasia 3/2/2022, Jorge Oliveira 31/12/2020); pessoas vital-do-rego, jorge-oliveira, walton-alencar-rodrigues, benjamin-zymler, augusto-nardes, antonio-anastasia, jhonatan-de-jesus, odair-cunha, rodrigo-pacheco, cada uma com rel:<pessoa>-ocupa-ministro-do-tcu. Aroldo Cedraz e Bruno Dantas saíram antes de 2026-10-01 (cópia do Wayback de 16/2/2026 ainda os lista; despedida de Dantas em 2/9/2026). Datas de posse de Vital (2014) e Zymler (2001) só com o ano (incerta)
 - 2026-10-23 16:45 — gravado proc:denuncia-ao-tcu (art. 74, § 2º; Lei 8.443/1992, arts. 53 a 55). norma:lei-8443-1992 já existia (criada pela f0-funcoes-essenciais): reutilizada, meu rascunho descartado. org:mp-junto-ao-tcu também já existe (f0-funcoes-essenciais); não criei
 - 2026-10-23 17:00 — gravados fonte:tcu-noticia-eleicao-presidencia-2025, fonte:tcu-noticia-reeleicao-presidencia-2026, cargo:presidente-do-tcu (Lei 8.443, art. 69), rel:vital-do-rego-ocupa-presidente-do-tcu (2025-01-01 a 2026-12-31), cargo:ministro-substituto-do-tcu (CF art. 73, § 4º; Lei 8.443, arts. 63, 77 a 79) e rel:ministro-substituto-substitui-ministro-do-tcu
+- 2026-10-23 17:30 — controle interno (art. 74): gravados rel:cgu-controla-internamente-poder-executivo-federal, rel:cgu-corrige-poder-executivo-federal, rel:cgu-auxilia-tcu (art. 74, IV e § 1º), rel:casa-civil-controla-internamente-cgu (Lei 14.600, art. 49, § 6º); norma:camara-resolucao-69-1994, org:secretaria-de-controle-interno-da-camara, rel:secin-controla-internamente-camara. CGU: a Lei 14.600/2023 lista a CGU entre os Ministérios (art. 17, XXXI) e chama o titular de Ministro de Estado da CGU (art. 49, §§ 3º e 4º), por isso não criei cargo:ministro-da-cgu (o titular já está em cargo:ministro-de-estado com orgao_exercicio org:cgu). Pendências: controle interno do Senado (achei só a Resolução SF 71/1993; o Regulamento Administrativo vigente, Resolução SF 13/2018, não foi lido) e do TCU; Judiciário já coberto por rel:cnj-controla-internamente-poder-judiciario; unidades de auditoria de cada tribunal não modeladas (D09). Aviso do validador em presidente-celebra-tratado-internacional.json é de outra tarefa
+- 2026-10-23 17:40 — preenchido arquivo (Wayback) das 27 fontes fonte:<tc>-portal; sem cópia: CE, MT, PE, RJ (arquivo null). Algumas cópias são antigas (AC 2023, AP 2024, RR 2022, RS 2024, SE 2025), mas são do mesmo site
+- 2026-10-23 17:55 — art. 72: gravados norma:resolucao-cn-1-2006 (nome da CMO e 40 membros, texto do Planalto sem marcas de alteração; versão alterada pela Res. 3/2015-CN não conferida), org:cmo (não existia; criado aqui) e proc:despesa-nao-autorizada
+- 2026-10-23 18:05 — EC 139/2026 conferida no Planalto em 2026-10-23: texto dos arts. 1º e 2º idêntico à cópia local de 2026-10-16. Efeito registrado nos 27 tribunais (detalhes: instituição permanente, vedada a extinção) e já presente em org:tcu e no arquétipo. Gravados rel:tce-auxilia-assembleia-legislativa e rel:tce-julga-contas-de-gestao (arquétipo, art. 71 c/c art. 75)
+- 2026-10-23 18:15 — coletada; validação sem erros nos arquivos da tarefa (118 arquivos). Faltou ou ficou parcial: art. 71, XI (representar ao Poder competente), sem termo no vocabulário; controle interno do Senado e do TCU; Constituições estaduais (escolha dos conselheiros, lista e aprovação pela Assembleia) não lidas. Termos que faltaram: relação para apreciar para registro, aplicar sanção, representar a, denunciar; provimento nomeação com aprovação do Legislativo estadual

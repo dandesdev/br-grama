@@ -1,0 +1,31 @@
+{
+  "id": "rel:cgu-controla-internamente-poder-executivo-federal",
+  "tipo": "relacao",
+  "nome": "Controle interno do Executivo federal pela CGU",
+  "relacao": "controla-internamente",
+  "de": "org:cgu",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Faz o controle interno e a auditoria governamental do Executivo federal: avalia políticas, programas e a gestão dos administradores federais quanto à legalidade, eficácia e eficiência, e faz inspeções e apura irregularidades em órgãos e entidades federais.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "nota": "Data de publicação da Lei 14.600/2023, a base citada (antes, MP 1.154/2023, não pesquisada). O controle interno do Executivo e a CGU são anteriores."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 70, caput; art. 74, caput e I a III"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 49, II e III, e § 1º, I e II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Lei 14.600/2023 fala em Sistema de Gestão de Riscos e Controle Interno do Poder Executivo federal (art. 49, §§ 2º e 3º); a regulação desse sistema (Lei 10.180/2001 e decretos) não foi lida nesta tarefa. O art. 49 não tem marcas de alteração no texto compilado acessado em 2026-10-23.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

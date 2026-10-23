@@ -1,0 +1,26 @@
+{
+  "id": "rel:tce-julga-contas-de-gestao",
+  "tipo": "relacao",
+  "nome": "Julgamento das contas dos administradores estaduais",
+  "relacao": "julga",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "obj:contas-de-gestao",
+  "condicao": "Julga as contas dos administradores e responsáveis por recursos públicos do estado, como o TCU faz na União, no que couber.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, II, c/c art. 75, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "As demais competências do art. 71 (registro de admissões e aposentadorias, sanções, sustação de atos) também valem para os TCEs no que couber, mas não foram duplicadas como relações do arquétipo; os objetos correspondentes (obj:ato-de-admissao-de-pessoal etc.) já dizem que a regra vale para os tribunais estaduais.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}
