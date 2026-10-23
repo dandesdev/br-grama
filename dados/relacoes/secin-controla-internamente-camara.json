@@ -7,7 +7,7 @@
   "para": "org:camara-dos-deputados",
   "condicao": "Acompanha e fiscaliza a gestão contábil, financeira, orçamentária, operacional e patrimonial da Câmara e avalia os resultados dos administradores da Casa.",
   "vigencia": {
-    "de": "1994-06-21",
+    "de": "1994-06-22",
     "ate": null
   },
   "fontes": [
@@ -22,8 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: vigencia.de de 21/6/1994 para 22/6/1994 (publicação da Resolução 69/1994); CF art. 74 e Resolução 69/1994, arts. 2º e 3º, conferidos"
   }
 }

@@ -1,21 +1,21 @@
 ---
 id: f0-dinheiro
 escopo: "Fatia 0: tributação, repartição de receitas, finanças públicas e orçamento (CF, arts. 145 a 169) e Banco Central"
-status: em-andamento
+status: coletada
 depende_de: []
 iniciada_em: 2026-10-23
-concluida_em: null
+concluida_em: 2026-10-23
 ---
 
 ## Entregáveis
 
-- [ ] Competências tributárias (arts. 145 a 156-B): um `obj:tributo-<slug>` para cada tributo previsto na CF em 2026-10-01 (impostos, taxas, contribuição de melhoria, empréstimo compulsório, contribuições), com relações `tem-competencia` do ente que institui (`ente:uniao`, `ente:arquetipo-estadual`, `ente:arquetipo-municipal`). A reforma tributária (EC 132/2023) criou o IBS e a CBS e extingue tributos aos poucos: registre o que vigora em 2026-10-01 e a transição, com `vigencia`. Confira a regulamentação (LC 214/2025 e o que veio depois) e o Comitê Gestor do IBS: nome oficial, natureza e lei que o instituiu (não deduza o número da lei).
-- [ ] Limitações ao poder de tributar (arts. 150 a 152): só as principais (legalidade, anterioridade, imunidades), como notas ou objetos, sem detalhar cada imunidade.
-- [ ] Repartição das receitas (arts. 157 a 162): FPE, FPM e as demais transferências constitucionais, como relações entre entes com o percentual e o dispositivo. `obj:fpm` e `obj:fpe` (ou nomes oficiais), com o órgão que calcula as cotas (TCU, art. 161, parágrafo único).
-- [ ] Ciclo orçamentário (arts. 165 a 169): `obj:ppa`, `obj:ldo`, `obj:loa` e o processo `proc:ciclo-orcamentario` (do projeto do Executivo à execução e ao julgamento das contas), com a Comissão Mista de Orçamento (art. 166, § 1º; `org:cmo` se ainda não existir) e as emendas parlamentares individuais e de bancada impositivas (art. 166, §§ 9º a 20). Use `remete_a` onde uma etapa seguir o rito de outro processo. Prazos do ADCT, art. 35, § 2º.
-- [ ] Banco Central (art. 164 e LC 179/2021): complete `org:banco-central` (a tarefa f0-executivo pode ter criado um esboço; esta tarefa passa a ser dona dele), com natureza jurídica, autonomia, `cargo:presidente-do-banco-central` e diretoria (mandatos; nomeação pelo Presidente após aprovação do Senado), ocupante em 2026-10-01. Conselho Monetário Nacional (`org:cmn`, Lei 4.595/1964 e alterações), composição.
-- [ ] Tesouro Nacional e Receita Federal: órgãos mínimos (`org:secretaria-do-tesouro-nacional`, `org:receita-federal`), `contido_em` o ministério conforme a estrutura regimental vigente, com link em `estrutura_continua`.
-- [ ] Regras fiscais: só o que está na CF ou em LC estruturante (LRF, LC 101/2000; regime fiscal da LC 200/2023), como objetos ou notas, sem números de metas anuais.
+- [x] Competências tributárias (arts. 145 a 156-B): um `obj:tributo-<slug>` para cada tributo previsto na CF em 2026-10-01 (impostos, taxas, contribuição de melhoria, empréstimo compulsório, contribuições), com relações `tem-competencia` do ente que institui (`ente:uniao`, `ente:arquetipo-estadual`, `ente:arquetipo-municipal`). A reforma tributária (EC 132/2023) criou o IBS e a CBS e extingue tributos aos poucos: registre o que vigora em 2026-10-01 e a transição, com `vigencia`. Confira a regulamentação (LC 214/2025 e o que veio depois) e o Comitê Gestor do IBS: nome oficial, natureza e lei que o instituiu (não deduza o número da lei).
+- [x] Limitações ao poder de tributar (arts. 150 a 152): só as principais (legalidade, anterioridade, imunidades), como notas ou objetos, sem detalhar cada imunidade.
+- [x] Repartição das receitas (arts. 157 a 162): FPE, FPM e as demais transferências constitucionais, como relações entre entes com o percentual e o dispositivo. `obj:fpm` e `obj:fpe` (ou nomes oficiais), com o órgão que calcula as cotas (TCU, art. 161, parágrafo único).
+- [x] Ciclo orçamentário (arts. 165 a 169): `obj:ppa`, `obj:ldo`, `obj:loa` e o processo `proc:ciclo-orcamentario` (do projeto do Executivo à execução e ao julgamento das contas), com a Comissão Mista de Orçamento (art. 166, § 1º; `org:cmo` se ainda não existir) e as emendas parlamentares individuais e de bancada impositivas (art. 166, §§ 9º a 20). Use `remete_a` onde uma etapa seguir o rito de outro processo. Prazos do ADCT, art. 35, § 2º.
+- [x] Banco Central (art. 164 e LC 179/2021): complete `org:banco-central` (a tarefa f0-executivo pode ter criado um esboço; esta tarefa passa a ser dona dele), com natureza jurídica, autonomia, `cargo:presidente-do-banco-central` e diretoria (mandatos; nomeação pelo Presidente após aprovação do Senado), ocupante em 2026-10-01. Conselho Monetário Nacional (`org:cmn`, Lei 4.595/1964 e alterações), composição.
+- [x] Tesouro Nacional e Receita Federal: órgãos mínimos (`org:secretaria-do-tesouro-nacional`, `org:receita-federal`), `contido_em` o ministério conforme a estrutura regimental vigente, com link em `estrutura_continua`.
+- [x] Regras fiscais: só o que está na CF ou em LC estruturante (LRF, LC 101/2000; regime fiscal da LC 200/2023), como objetos ou notas, sem números de metas anuais.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -39,3 +39,8 @@ concluida_em: null
 - 2026-10-23 17:34 — complementado org:banco-central (f0-dinheiro passa a ser dona): resumo, detalhes, fontes (CF 164, Lei 4.595, Lei 9.069), vigência, estrutura_continua; verificacao volta a coletado
 - 2026-10-23 17:35 — gravado obj:limites-de-despesa-com-pessoal, obj:regime-fiscal-sustentavel, obj:regra-de-ouro, rel:tcu-fiscaliza-limites-de-despesa-com-pessoal
 - 2026-10-23 17:35 — complementado org:cmo (de f0-controle, já verificado): detalhes com emendas e planos do art. 166, §§ 1º, II, e 2º; fonte art. 166, § 2º; verificacao volta a coletado
+- 2026-10-23 17:36 — gravado aviso:planalto-resolucao-cn-1-2006-desatualizada
+- 2026-10-23 18:40 — gravados obj:limites-de-despesa-com-pessoal, obj:regime-fiscal-sustentavel, obj:regra-de-ouro, rel:tcu-fiscaliza-limites-de-despesa-com-pessoal, aviso:planalto-resolucao-cn-1-2006-desatualizada; Wayback da fonte da Câmara preenchido
+- 2026-10-23 18:41 — vocabulário: faltaram tipo_competencia 'compartilhada' (IBS, art. 156-A; usado 'propria'), relação 'calcula' (TCU e cotas do FPE/FPM, art. 161, par. único; usado 'regula'), tipo_objeto para fundo de repartição (FPE, FPM, FNDR; usado 'documento'), para regra fiscal (usado 'ato-normativo') e para emenda parlamentar ao orçamento (usado 'documento'); tipo_orgao/esfera para entidade interfederativa (CGIBS; usados 'outro' e 'nacional', inferido)
+- 2026-10-23 18:42 — pendências para revisão: rel:presidente-nomeia-diretoria-banco-central e rel:senado-aprova-indicacao-diretoria-banco-central (f0-executivo) apontam para org:banco-central e poderiam apontar para os novos cargos; aprovação de Galípolo pelo Senado não conferida em fonte oficial; LC 235/2026 não lida; bancadas estaduais sem entidade
+- 2026-10-23 18:43 — coletada; validação sem erros

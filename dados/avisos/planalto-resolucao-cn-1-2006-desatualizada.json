@@ -1,0 +1,40 @@
+{
+  "id": "aviso:planalto-resolucao-cn-1-2006-desatualizada",
+  "tipo": "aviso",
+  "nome": "Texto da Resolução 1/2006-CN no Planalto não traz as alterações posteriores",
+  "resumo": "O Planalto publica a Resolução 1/2006-CN, que rege a tramitação do orçamento, sem as alterações de 2015 a 2025; os prazos que mostra para a LOA estão superados.",
+  "detalhes": "No texto do Planalto, o art. 82 (prazos do projeto da LOA) dá, por exemplo, 15 dias para emendas à receita contados do recebimento do projeto. No texto atualizado da Câmara (Legin), o mesmo artigo tem redação da Resolução 3/2015-CN, com emendas de 1º a 20 de outubro e 16 incisos. Usamos o texto da Câmara para os prazos.",
+  "tipo_aviso": "desatualizacao",
+  "gravidade": "baixa",
+  "afeta": [
+    "norma:resolucao-cn-1-2006",
+    "proc:ciclo-orcamentario"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "art. 82",
+      "nota": "texto do Planalto, cópia em pesquisa/brutos/planalto-leis/2026-10-23/rescn-1-2006.htm"
+    },
+    {
+      "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+      "dispositivo": "art. 82",
+      "nota": "redação dada pela Resolução 3/2015-CN"
+    }
+  ],
+  "onde_procuramos": [
+    "Planalto: https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Congresso/ResCN1-06.htm (acesso em 2026-10-23), sem marcas de alteração",
+    "Câmara dos Deputados, Legin, norma atualizada (acesso em 2026-10-23), com alterações até a Resolução 2/2025-CN"
+  ],
+  "confianca": "oficial",
+  "notas": "Não procuramos texto atualizado no site do Congresso Nacional nem do Senado; a Câmara é fonte oficial e basta para os prazos usados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro"
+  }
+}

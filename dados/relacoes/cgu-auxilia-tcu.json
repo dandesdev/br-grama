@@ -7,9 +7,9 @@
   "para": "org:tcu",
   "condicao": "O controle interno apoia o controle externo. Quem o exerce deve dar ciência ao TCU de qualquer irregularidade ou ilegalidade de que tome conhecimento, sob pena de responsabilidade solidária; a CGU provoca a atuação do TCU sempre que necessário.",
   "vigencia": {
-    "de": "1988-10-05",
+    "de": "2023-06-20",
     "ate": null,
-    "nota": "O dever vem da CF de 1988; a CGU, com esse nome e competências, é posterior, e a Lei 14.600/2023 é a base atual."
+    "nota": "Data de publicação da Lei 14.600/2023, a base atual da CGU. O dever de dar ciência ao TCU vem da CF de 1988 (art. 74, § 1º), e a CGU é anterior à lei; a data de criação não foi pesquisada."
   },
   "fontes": [
     {
@@ -22,10 +22,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "O art. 74, IV e § 1º, vale para o sistema de controle interno dos três Poderes; a relação foi registrada só para a CGU, órgão do Executivo federal. vigencia.de é a da CF; a CGU não existia em 1988 com esse nome (data de criação não pesquisada).",
+  "notas": "O art. 74, IV e § 1º, vale para o sistema de controle interno dos três Poderes; a relação foi registrada só para a CGU, órgão do Executivo federal.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; corrigido: vigencia.de era 1988-10-05, antes de a CGU existir; passa a 2023-06-20, como as demais relações da CGU (Lei 14.600/2023), com nota sobre a CF. CF art. 74, IV e § 1º, e Lei 14.600, art. 49, § 2º, conferidos"
   }
 }

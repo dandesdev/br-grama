@@ -23,7 +23,7 @@ concluida_em: null
   - `vagas` de `cargo:juiz-eleitoral` (2.641) e `cargo:juiz-de-tre` (189), `inferido` por conta nossa: a conta está certa? Há número oficial?
   - sobras eleitorais (Informativo 1126 do STF): a regra registrada é a que vale para 2026?
   - repasse dos fundos: o objeto transferido só está no nome e na condição da relação; está claro?
-  - os fundos (`obj:fundo-partidario`, `obj:fefc`) estão como `documento` porque falta tipo de objeto para recursos; não troque, o coordenador vai decidir junto com a coleta de dinheiro.
+  - os fundos (`obj:fundo-partidario`, `obj:fefc`) passaram de `documento` para o termo novo `tipo_objeto: "fundo"`, aplicado pelo coordenador; só confira.
 - [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário

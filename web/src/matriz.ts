@@ -41,7 +41,20 @@ function chaveDispositivo(rels: Entidade[]): [number, number] {
   return melhor;
 }
 
+const VISTAS = {
+  materia: {
+    rotulo: "Matérias",
+    intro: "Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal legisla sobre o que cabe a estados e municípios (art. 32, § 1º) e aparece ao lado dos estados nas competências comuns e concorrentes (arts. 23 e 24).",
+  },
+  tributo: {
+    rotulo: "Tributos",
+    intro: "Quem pode instituir cada tributo (arts. 145 a 156-B e 195). O Distrito Federal tem os impostos dos estados e dos municípios (arts. 147 e 155).",
+  },
+} as const;
+type Vista = keyof typeof VISTAS;
+
 export class Matriz {
+  private vista: Vista = "materia";
   private filtroTexto = "";
   private filtroNatureza = "";
 
@@ -54,6 +67,7 @@ export class Matriz {
       const alvo = ev.target as HTMLInputElement | HTMLSelectElement;
       if (alvo.name === "busca-materia") this.filtroTexto = normalizar(alvo.value.trim());
       if (alvo.name === "natureza") this.filtroNatureza = alvo.value;
+      if (alvo.name === "vista") this.vista = alvo.value as Vista;
       this.desenharLinhas();
     });
   }
@@ -62,8 +76,11 @@ export class Matriz {
     this.el.innerHTML = `
       <div class="matriz-topo">
         <h2>Quem cuida de quê</h2>
-        <p class="intro">Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal legisla sobre o que cabe a estados e municípios (art. 32, § 1º) e aparece ao lado dos estados nas competências comuns e concorrentes (arts. 23 e 24). Clique numa linha para ver os detalhes e a base legal.</p>
+        <p class="intro"></p>
         <div class="matriz-filtros">
+          <select name="vista" aria-label="O que mostrar">
+            ${Object.entries(VISTAS).map(([v, { rotulo }]) => `<option value="${v}"${v === this.vista ? " selected" : ""}>${rotulo}</option>`).join("")}
+          </select>
           <input type="search" name="busca-materia" placeholder="Filtrar matérias…" aria-label="Filtrar matérias" />
           <select name="natureza" aria-label="Natureza da competência">
             <option value="">Legislar e executar</option>
@@ -82,9 +99,11 @@ export class Matriz {
   private desenharLinhas() {
     const corpo = this.el.querySelector("tbody");
     if (!corpo) return;
-    const materias = this.dados.todas("objeto").filter((o) => o.tipo_objeto === "materia");
+    const intro = this.el.querySelector(".matriz-topo .intro");
+    if (intro) intro.textContent = `${VISTAS[this.vista].intro} Clique numa linha para ver os detalhes e a base legal.`;
+    const materias = this.dados.todas("objeto").filter((o) => o.tipo_objeto === this.vista);
     if (!materias.length) {
-      corpo.innerHTML = `<tr><td colspan="${COLUNAS.length + 1}" class="intro">As competências ainda estão sendo pesquisadas.</td></tr>`;
+      corpo.innerHTML = `<tr><td colspan="${COLUNAS.length + 1}" class="intro">Ainda em pesquisa.</td></tr>`;
       return;
     }
     const linhas = materias

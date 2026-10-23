@@ -1,0 +1,31 @@
+{
+  "id": "rel:auditoria-do-senado-controla-internamente-senado",
+  "tipo": "relacao",
+  "nome": "Controle interno do Senado Federal",
+  "relacao": "controla-internamente",
+  "de": "org:auditoria-do-senado-federal",
+  "para": "org:senado-federal",
+  "condicao": "Audita e fiscaliza a aplicação dos recursos do Senado quanto à legalidade, legitimidade, economicidade, eficiência e eficácia, e recomenda providências à Mesa, à Comissão Diretora e à Diretoria-Geral.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início não pesquisado; a base citada é o Regulamento Administrativo vigente."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 74"
+    },
+    {
+      "ref": "norma:senado-regulamento-administrativo",
+      "dispositivo": "art. 206"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-controle",
+    "notas": "criada na verificação"
+  }
+}

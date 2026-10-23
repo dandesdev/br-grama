@@ -1,12 +1,12 @@
 {
   "id": "rel:estados-competencia-tributo-ibs",
   "tipo": "relacao",
-  "nome": "Estados: Imposto sobre Bens e Serviços (própria, legislar)",
+  "nome": "Estados: Imposto sobre Bens e Serviços (compartilhada, legislar)",
   "relacao": "tem-competencia",
   "de": "ente:arquetipo-estadual",
   "para": "obj:tributo-ibs",
   "competencia": {
-    "tipo": "propria",
+    "tipo": "compartilhada",
     "natureza": "legislativa",
     "nota": "Competência compartilhada com os municípios (art. 156-A, caput): o imposto é instituído por lei complementar, cada estado e o DF fixam a própria alíquota por lei específica (§ 1º, V), e a administração é exercida em conjunto, só por meio do Comitê Gestor (art. 156-B)."
   },

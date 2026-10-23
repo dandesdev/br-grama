@@ -62,7 +62,7 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 - **D35** No mapa, as relações aparecem quando se clica num órgão ou cargo; a opção "Todas" mostra todas de uma vez. Com todas visíveis ao mesmo tempo, o mapa ficava ilegível.
 - **D36** Um fato com fonte oficial não é aviso, mesmo que seja notável (ex.: cadeira vaga no STF). Avisos são lacunas, contradições, sigilo e baixa transparência das fontes.
 - **D37** Contradições entre fontes oficiais, lacunas, sigilo e fontes desatualizadas continuam sendo apontadas, mas como **avisos** (`aviso:`), não como "achados de auditoria". A expressão era uma metáfora do mantenedor e se confundia com as auditorias reais do TCU e da CGU. O mapa tem a camada "Avisos" e uma lista navegável.
-- **D38** As competências dos entes (CF, arts. 21 a 24 e 30) aparecem numa **matriz de competências**, uma terceira vista do site: matérias nas linhas, União, estados e municípios nas colunas, e o tipo de competência (exclusiva, privativa, comum, concorrente, suplementar) na célula. Cada matéria é um objeto de competência.
+- **D38** As competências dos entes (CF, arts. 21 a 24 e 30) aparecem numa **matriz de competências**, uma terceira vista do site: matérias nas linhas, União, estados e municípios nas colunas, e o tipo de competência (exclusiva, privativa, comum, concorrente, suplementar) na célula. Cada matéria é um objeto de competência. A competência tributária (arts. 145 a 156-B e 195) usa a mesma matriz, numa vista à parte: cada tributo é um objeto `tipo_objeto: "tributo"`.
 
 ## Fora do escopo por enquanto
 

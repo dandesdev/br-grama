@@ -106,7 +106,10 @@
     "acao-judicial": { "nome": "Ação judicial", "definicao": "Tipo de processo levado a um tribunal (ex.: ação direta de inconstitucionalidade)." },
     "decisao": { "nome": "Decisão", "definicao": "Ato que resolve um caso concreto (ex.: julgamento, parecer)." },
     "materia": { "nome": "Matéria", "definicao": "Assunto sobre o qual os entes podem legislar ou agir (ex.: trânsito, saúde, direito civil)." },
-    "documento": { "nome": "Documento", "definicao": "Outro documento oficial com papel no funcionamento do Estado." }
+    "documento": { "nome": "Documento", "definicao": "Outro documento oficial com papel no funcionamento do Estado." },
+    "tributo": { "nome": "Tributo", "definicao": "Imposto, taxa ou contribuição que um ente pode instituir e cobrar (arts. 145 a 156-B, 195)." },
+    "fundo": { "nome": "Fundo", "definicao": "Conjunto de recursos públicos com destino definido em norma (ex.: fundos de participação, art. 159, I; Fundo Partidário)." },
+    "regra-fiscal": { "nome": "Regra fiscal", "definicao": "Limite que a Constituição ou a lei impõe a quem tributa, gasta ou se endivida (ex.: anterioridade, art. 150, III; despesa com pessoal, art. 169; regra de ouro, art. 167, III)." }
   },
 
   "tipo_competencia": {
@@ -117,6 +120,7 @@
     "suplementar": { "nome": "Suplementar", "definicao": "O ente completa a legislação federal e estadual no que couber (ex.: municípios, art. 30, II)." },
     "interesse-local": { "nome": "Interesse local", "definicao": "O município legisla sobre assuntos de interesse local (art. 30, I) e organiza e presta os serviços públicos de interesse local (art. 30, V)." },
     "propria": { "nome": "Própria", "definicao": "A Constituição dá a matéria a este ente de forma expressa, sem dizer se é exclusiva, comum ou concorrente (ex.: municípios, art. 30, III, IV, VI a IX)." },
+    "compartilhada": { "nome": "Compartilhada", "definicao": "Estados, DF e municípios exercem juntos a mesma competência tributária, com uma lei complementar comum e alíquota própria de cada ente (IBS, art. 156-A)." },
     "residual": { "nome": "Residual", "definicao": "Cabe ao ente o que não foi atribuído aos outros (estados, art. 25, § 1º)." }
   },
 
