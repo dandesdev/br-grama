@@ -1,0 +1,25 @@
+{
+  "id": "rel:eleitorado-estadual-elege-deputado-estadual",
+  "tipo": "relacao",
+  "nome": "Eleição dos deputados estaduais",
+  "relacao": "elege",
+  "de": "org:arquetipo-estadual-eleitorado",
+  "para": "cargo:arquetipo-estadual-deputado-estadual",
+  "condicao": "Sistema proporcional, o mesmo dos deputados federais.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 27, § 1º; art. 45, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

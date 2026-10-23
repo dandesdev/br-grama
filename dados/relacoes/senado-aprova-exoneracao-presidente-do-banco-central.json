@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-aprova-exoneracao-presidente-do-banco-central",
+  "tipo": "relacao",
+  "nome": "Aprovação pelo Senado da exoneração do Presidente ou de diretor do Banco Central por desempenho insuficiente",
+  "relacao": "aprova-exoneracao",
+  "de": "org:senado-federal",
+  "para": "cargo:presidente-do-banco-central",
+  "condicao": "Quando o CMN propõe a exoneração por desempenho insuficiente comprovado e recorrente, ela só se completa com aprovação prévia do Senado, por maioria absoluta. Vale também para os diretores (cargo:diretor-do-banco-central).",
+  "quorum": {
+    "regra": "maioria-absoluta"
+  },
+  "depende_de": [
+    "rel:cmn-propoe-exoneracao-presidente-do-banco-central"
+  ],
+  "vigencia": {
+    "de": "2021-02-25",
+    "ate": null,
+    "nota": "A nomeação após aprovação do Senado vem da CF de 1988 (arts. 52, III, d, e 84, XIV); os mandatos fixos e o cargo atual, da LC 179/2021 (DOU de 25/2/2021), em vigor na publicação (art. 14)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "art. 5º, IV, e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada na verificação da f0-dinheiro, para fechar a cadeia da exoneração com rel:cmn-propoe-exoneracao-presidente-do-banco-central. Uma só relação, como aquela: o alvo é o cargo de Presidente e a condição estende aos diretores. A LC 179/2021 não diz se a votação é secreta.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "criada na verificação; CF, arts. 52, III, d, e 84, XIV, e LC 179/2021, arts. 3º a 5º, conferidos"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "obj:tributo-contribuicao-estadual-sobre-produtos-primarios",
+  "tipo": "objeto",
+  "nome": "Contribuição estadual sobre produtos primários e semielaborados",
+  "resumo": "Contribuição que os estados que tinham fundos de infraestrutura e habitação ligados ao ICMS em abril de 2023 podem manter, desvinculada do ICMS, até 2043.",
+  "detalhes": "Vale só para os estados que, em 30/4/2023, tinham fundos de obras de infraestrutura e habitação financiados por contribuições cobradas como condição para diferimento ou regime especial do ICMS. A nova contribuição não pode ter alíquota maior nem base mais ampla que a antiga, extingue a anterior, mantém o mesmo destino da receita e acaba em 31/12/2043 (ADCT, art. 136).",
+  "tipo_objeto": "tributo",
+  "esfera": "estadual",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": "2043-12-31",
+    "nota": "Incluída no ADCT pela EC 132/2023 (DOU de 21/12/2023), em vigor na publicação (art. 23, III); a contribuição instituída com base nela é extinta em 31/12/2043 (ADCT, art. 136, IV)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 136"
+    },
+    {
+      "ref": "norma:ec-132-2023",
+      "dispositivo": "arts. 2º e 23, III"
+    }
+  ],
+  "campos": {
+    "nome": {
+      "confianca": "inferido",
+      "nota": "Nome descritivo nosso; o ADCT não dá nome ao tributo, só o descreve como contribuições sobre produtos primários e semielaborados semelhantes às vinculadas ao ICMS."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "Criado na verificação: faltava na lista de tributos da coleta. Não pesquisamos quais estados tinham esses fundos em 30/4/2023 nem quais instituíram a contribuição.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "criado na verificação: tributo do ADCT, art. 136, ausente na coleta"
+  }
+}

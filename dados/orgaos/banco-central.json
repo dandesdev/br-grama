@@ -20,6 +20,10 @@
       ],
       "confianca": "inferido",
       "nota": "A LC 179/2021 diz que o Banco Central não se vincula a ministério nem se subordina hierarquicamente; o pusemos direto sob o Poder Executivo federal por ser autarquia da União. A posição é leitura nossa. O SIORG põe o Banco Central (unidade 89) sob a Presidência da República (unidade 26), como faz com os ministérios; aqui seguimos o mesmo critério dos ministérios, que ficam sob o Poder Executivo federal."
+    },
+    "vigencia": {
+      "confianca": "inferido",
+      "nota": "Data calculada por nós: a Lei 4.595/1964 entrou em vigor 90 dias após a publicação (art. 65), no DOU de 31/12/1964 (suplemento)."
     }
   },
   "fontes": [
@@ -47,7 +51,7 @@
     "nota": "Criado pela Lei 4.595/1964, que transformou a Superintendência da Moeda e do Crédito em autarquia com o nome de Banco Central da República do Brasil (art. 8º); a lei entrou em vigor 90 dias após a publicação (art. 65), data calculada por nós. A autonomia atual vem da LC 179/2021."
   },
   "confianca": "oficial",
-  "notas": "Esboço criado em f0-executivo para servir de alvo às relações do art. 84, XIV; completado em f0-dinheiro, que passou a ser dona do órgão. Cargos: cargo:presidente-do-banco-central e cargo:diretor-do-banco-central. As relações rel:presidente-nomeia-diretoria-banco-central e rel:senado-aprova-indicacao-diretoria-banco-central (de f0-executivo) ainda apontam para o órgão; poderiam passar a apontar para os cargos. Órgãos internos e Copom não foram modelados. Ver aviso:govbr-lista-ministerios-inclui-banco-central.",
+  "notas": "Esboço criado em f0-executivo para servir de alvo às relações do art. 84, XIV; completado em f0-dinheiro, que passou a ser dona do órgão. Cargos: cargo:presidente-do-banco-central e cargo:diretor-do-banco-central; nomeação e aprovação pelo Senado modeladas por cargo (rel:presidente-nomeia-presidente-do-banco-central, rel:presidente-nomeia-diretor-do-banco-central, rel:senado-aprova-indicacao-presidente-do-banco-central e rel:senado-aprova-indicacao-diretor-do-banco-central). Órgãos internos e Copom não foram modelados. Ver aviso:govbr-lista-ministerios-inclui-banco-central.",
   "mais_informacoes": [
     {
       "titulo": "Banco Central do Brasil",
@@ -55,10 +59,10 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro",
-    "notas": "complementado em f0-dinheiro (resumo, detalhes, fontes, vigência, estrutura); antes verificado em verificacao-f0-executivo (2026-10-23)"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; CF, art. 164, LC 179/2021, arts. 1º a 6º, e Lei 4.595/1964, arts. 8º, 9º e 65, conferidos; data de início marcada como inferida em campos.vigencia; notas atualizadas com as relações por cargo"
   },
   "estrutura_continua": [
     {

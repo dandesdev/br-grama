@@ -1,0 +1,30 @@
+{
+  "id": "rel:assembleia-legislativa-elege-conselheiro-do-tce",
+  "tipo": "relacao",
+  "nome": "Escolha de conselheiros do TCE pela Assembleia",
+  "relacao": "elege",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "cargo:arquetipo-estadual-conselheiro-do-tce",
+  "condicao": "Escolhe quatro dos sete conselheiros.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, § 2º, II, c/c art. 75"
+    },
+    {
+      "ref": "fonte:stf-sumula-653",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "secundario",
+  "notas": "Mesmo tipo de relação de rel:congresso-elege-ministro-do-tcu. A divisão 4 + 3 vem da Súmula 653, usada como fonte de interpretação (ver cargo:arquetipo-estadual-conselheiro-do-tce).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

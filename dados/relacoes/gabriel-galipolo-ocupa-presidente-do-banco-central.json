@@ -17,6 +17,10 @@
       "nota": "https://www.in.gov.br/web/dou/-/decretos-de-30-de-dezembro-de-2024-605002699"
     },
     {
+      "ref": "fonte:senado-msf-42-2024",
+      "dispositivo": "aprovação pelo Plenário em 8/10/2024 (66 a 5)"
+    },
+    {
       "ref": "fonte:dou-in-gov-br",
       "dispositivo": "Resolução CMN nº 5.343, de 24/9/2026 (DOU 28/9/2026, ed. 183, Seção 1, p. 50), assinada por Gabriel Muricca Galípolo, Presidente do Banco Central",
       "nota": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.343-de-24-de-setembro-de-2026-734838070"
@@ -28,10 +32,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Cópias das páginas do DOU em pesquisa/brutos/dou/2026-10-23/. A aprovação pelo Senado (8/10/2024, segundo a imprensa) não foi conferida em fonte oficial.",
+  "notas": "Cópias das páginas do DOU em pesquisa/brutos/dou/2026-10-23/. Aprovação pelo Senado em 8/10/2024 conferida na página oficial da MSF 42/2024 (fonte:senado-msf-42-2024).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; decreto de 30/12/2024 (nomeação a partir de 1º/1/2025, mandato até 31/12/2028), Resolução CMN 5.343/2026 (assinada por ele, DOU 28/9/2026) e Portaria BCB 127.903/2026 (DOU 5/10/2026) conferidos nas cópias; aprovação do Senado em 8/10/2024 conferida na MSF 42/2024"
   }
 }

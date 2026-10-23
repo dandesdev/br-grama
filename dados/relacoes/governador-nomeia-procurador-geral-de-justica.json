@@ -1,0 +1,29 @@
+{
+  "id": "rel:governador-nomeia-procurador-geral-de-justica",
+  "tipo": "relacao",
+  "nome": "Nomeação do procurador-geral de justiça",
+  "relacao": "nomeia",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "cargo:arquetipo-estadual-procurador-geral-de-justica",
+  "condicao": "Escolhe um dos três nomes da lista tríplice eleita pela carreira; se não nomear em 15 dias, assume o mais votado.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 3º"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 9º, caput e §§ 1º e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

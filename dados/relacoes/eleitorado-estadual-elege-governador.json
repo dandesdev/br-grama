@@ -1,0 +1,25 @@
+{
+  "id": "rel:eleitorado-estadual-elege-governador",
+  "tipo": "relacao",
+  "nome": "Eleição do governador",
+  "relacao": "elege",
+  "de": "org:arquetipo-estadual-eleitorado",
+  "para": "cargo:arquetipo-estadual-governador",
+  "condicao": "Maioria absoluta dos votos válidos, com segundo turno entre os dois mais votados se ninguém a alcançar (regras do art. 77).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 28, caput; art. 77, §§ 2º e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

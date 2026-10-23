@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-processo-pec-18-2025",
+  "tipo": "fonte",
+  "nome": "Senado Federal, dados abertos: processo da PEC 18/2025 (PEC da Segurança Pública)",
+  "resumo": "Situação da PEC 18/2025 no Senado: em tramitação, pronta para o Plenário desde 15/10/2026, sem promulgação.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/processo?sigla=PEC&numero=18&ano=2025",
+  "acesso_em": "2026-10-23",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Resposta da API em 2026-10-23: tramitando = Sim; situação atual PRONTO PARA DELIBERAÇÃO DO PLENÁRIO (desde 2026-10-15); a ementa altera, entre outros, o art. 144 e acrescenta os arts. 144-A e 144-B. Cópia em pesquisa/brutos/senado-dados-abertos/2026-10-23/processo-pec-18-2025.json. Sem cópia no Wayback.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

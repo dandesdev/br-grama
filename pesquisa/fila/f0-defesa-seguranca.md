@@ -1,9 +1,9 @@
 ---
 id: f0-defesa-seguranca
 escopo: "Fatia 0: Forças Armadas (CF, arts. 142 e 143) e segurança pública (art. 144)"
-status: pendente
+status: em-andamento
 depende_de: []
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -23,3 +23,6 @@ concluida_em: null
 - Já existem: `cargo:presidente-da-republica`, `ente:<uf>`
 
 ## Diário
+- 2026-10-23 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e vocabulários
+- 2026-10-23 20:04 — gravados os quatro arquétipos (org:arquetipo-estadual-policia-civil, org:arquetipo-estadual-policia-militar, org:arquetipo-estadual-corpo-de-bombeiros-militar, org:arquetipo-municipal-guarda-municipal), só com a CF; leis orgânicas a acrescentar
+- 2026-10-23 20:16 — gravadas normas lei-13022-2014, lei-14735-2023, lei-14751-2023, lei-13675-2018, lei-9883-1999, lei-9266-1996, lei-4375-1964, lei-14875-2024, lei-12462-2011, decreto-11816-2023, decreto-11693-2023, resolucao-cn-2-2013; fontes senado-api-processo-pec-18-2025, planalto-quadro-emendas-constitucionais

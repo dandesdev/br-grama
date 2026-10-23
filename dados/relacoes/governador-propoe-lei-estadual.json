@@ -1,0 +1,33 @@
+{
+  "id": "rel:governador-propoe-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Iniciativa do governador",
+  "relacao": "propoe",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "obj:lei-estadual",
+  "condicao": "Inclusive com iniciativa privativa nas matérias que, na União, são reservadas ao Presidente (art. 61, § 1º), por simetria.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput e § 1º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-25",
+      "dispositivo": "ADI 5.520"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

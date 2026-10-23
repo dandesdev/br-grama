@@ -1,0 +1,32 @@
+{
+  "id": "obj:contas-anuais-do-governador",
+  "tipo": "objeto",
+  "nome": "Contas anuais do governador",
+  "resumo": "Prestação de contas anual do governador, que recebe parecer prévio do Tribunal de Contas do Estado e é julgada pela Assembleia Legislativa.",
+  "detalhes": "Repete no estado o modelo federal: o TCU dá parecer sobre as contas do Presidente e o Congresso as julga (arts. 49, IX, e 71, I), regras que valem, no que couber, para os tribunais de contas dos estados (art. 75). O parecer é opinativo, e a falta dele no prazo não impede o julgamento pela Assembleia (STF, ADPF 434).",
+  "tipo_objeto": "contas",
+  "esfera": "estadual",
+  "relativo_a": [
+    "cargo:arquetipo-estadual-governador"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, IX; art. 71, I; art. 75, caput"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-75",
+      "dispositivo": "ADPF 434"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:arquetipo-estadual-deputado-estadual-propoe-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Iniciativa dos deputados estaduais",
+  "relacao": "propoe",
+  "de": "cargo:arquetipo-estadual-deputado-estadual",
+  "para": "obj:lei-estadual",
+  "condicao": "Iniciativa geral, salvo nas matérias reservadas ao governador, ao Judiciário e ao Ministério Público.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, caput"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "Pelo modelo federal (art. 61, caput, iniciativa de qualquer membro das Casas) absorvido pelos estados (ADI 637). Comissões e Mesa da Assembleia não foram modeladas.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

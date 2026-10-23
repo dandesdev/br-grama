@@ -1,0 +1,30 @@
+{
+  "id": "rel:governador-sanciona-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Sanção das leis estaduais",
+  "relacao": "sanciona",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "obj:lei-estadual",
+  "condicao": "Sanciona ou veta o projeto aprovado pela Assembleia, como o Presidente faz na União (art. 66).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "O STF fala na absorção compulsória das 'linhas básicas' do processo legislativo federal pelos estados (ADI 637). Que a sanção e o veto estão entre essas linhas é leitura nossa; a regra concreta está em cada Constituição estadual.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-tj-propoe-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Iniciativa do Tribunal de Justiça",
+  "relacao": "propoe",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "obj:lei-estadual",
+  "condicao": "Nas matérias do Judiciário estadual: lei de organização judiciária, criação e extinção de cargos, remuneração dos seus serviços auxiliares e dos juízes, número de membros dos tribunais inferiores.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, II; art. 125, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

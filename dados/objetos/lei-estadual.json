@@ -1,0 +1,30 @@
+{
+  "id": "obj:lei-estadual",
+  "tipo": "objeto",
+  "nome": "Lei estadual",
+  "resumo": "Lei aprovada pela Assembleia Legislativa e sancionada pelo governador, nas matérias de competência do estado.",
+  "detalhes": "O processo legislativo dos estados segue as linhas básicas do modelo federal, inclusive as reservas de iniciativa (STF, ADI 637). Os estados legislam sobre o que a CF não lhes veda (art. 25, § 1º) e, na competência concorrente, completam as normas gerais da União (art. 24, §§ 2º e 3º).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 24, §§ 2º e 3º; art. 25, caput e § 1º; art. 27, § 4º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    }
+  ],
+  "notas": "Abrange a lei ordinária estadual; a lei complementar estadual existe em várias matérias (ex.: art. 25, § 3º; art. 128, § 5º), mas não ganhou objeto próprio.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

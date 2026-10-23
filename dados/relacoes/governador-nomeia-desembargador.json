@@ -1,0 +1,31 @@
+{
+  "id": "rel:governador-nomeia-desembargador",
+  "tipo": "relacao",
+  "nome": "Nomeação de desembargadores do quinto constitucional",
+  "relacao": "nomeia",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "cargo:desembargador",
+  "condicao": "Só no quinto constitucional dos tribunais de justiça dos estados: escolhe, em 20 dias, um nome da lista tríplice formada pelo tribunal. No TJDFT a regra é outra (ver var:df-tjdft).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94"
+    }
+  ],
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A CF diz que a lista vai ao 'Poder Executivo' (art. 94, parágrafo único); nos tribunais de justiça dos estados, é o governador, chefe do Executivo estadual. Mesma leitura de cargo:desembargador (campos.provimento_nota)."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

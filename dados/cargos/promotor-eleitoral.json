@@ -4,8 +4,8 @@
   "nome": "Promotor Eleitoral",
   "resumo": "Membro do Ministério Público do estado que exerce as funções eleitorais do MP perante o juiz e as juntas eleitorais de uma zona.",
   "orgao": "org:ministerio-publico-eleitoral",
-  "provimento": "nato",
-  "provimento_nota": "É o membro do Ministério Público local que oficia junto ao juízo encarregado do serviço eleitoral da zona (LC 75/1993, art. 79). Se não houver promotor na zona, ou em caso de impedimento ou recusa justificada, o chefe do MP local indica ao Procurador Regional Eleitoral o substituto a ser designado (art. 79, parágrafo único).",
+  "provimento": "variavel",
+  "provimento_nota": "Em regra é o promotor que já atua perante o juiz eleitoral da zona (LC 75/1993, art. 79). Na falta, impedimento ou recusa justificada, o chefe do MP do estado indica ao Procurador Regional Eleitoral o substituto a ser designado (art. 79, parágrafo único). A Lei 8.625/1993, anterior, também prevê designação pelo Procurador-Geral de Justiça a pedido do Procurador-Geral da República e, em impedimento ou recusa, o substituto designado pelo Procurador-Geral de Justiça (art. 73, caput e § 2º).",
   "vagas": null,
   "vagas_nota": "Em regra um por zona eleitoral (2.641 zonas em 2026, segundo o TSE); não há número oficial de promotores eleitorais.",
   "mandato": null,
@@ -24,6 +24,10 @@
     {
       "ref": "norma:lc-75-1993",
       "dispositivo": "arts. 78 a 80"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 10, IX, h; art. 73"
     }
   ],
   "vigencia": {
@@ -32,9 +36,36 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; LC 75/1993, arts. 78 a 80, e Lei 8.625/1993, arts. 10, IX, h, e 73, conferidos. Provimento nato → variavel: nato na regra (art. 79, caput) e designacao pelo Procurador Regional Eleitoral na falta, impedimento ou recusa (art. 79, parágrafo único)"
   },
-  "notas": "Função exercida por cargo:arquetipo-estadual-membro-do-ministerio-publico."
+  "notas": "Função exercida por cargo:arquetipo-estadual-membro-do-ministerio-publico.",
+  "provimento_casos": [
+    {
+      "quando": "Regra: o membro do Ministério Público do estado que oficia junto ao juízo encarregado do serviço eleitoral da zona é o Promotor Eleitoral, sem ato de escolha",
+      "provimento": "nato",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 79, caput"
+        },
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 73, § 1º"
+        }
+      ]
+    },
+    {
+      "quando": "Se não houver promotor na zona, ou houver impedimento ou recusa justificada: o chefe do Ministério Público do estado indica o substituto e o Procurador Regional Eleitoral o designa",
+      "provimento": "designacao",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 79, parágrafo único"
+        }
+      ]
+    }
+  ]
 }

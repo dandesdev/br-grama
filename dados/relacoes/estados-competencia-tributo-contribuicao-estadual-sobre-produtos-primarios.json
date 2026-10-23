@@ -1,0 +1,30 @@
+{
+  "id": "rel:estados-competencia-tributo-contribuicao-estadual-sobre-produtos-primarios",
+  "tipo": "relacao",
+  "nome": "Estados: Contribuição estadual sobre produtos primários e semielaborados (própria, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:tributo-contribuicao-estadual-sobre-produtos-primarios",
+  "competencia": {
+    "tipo": "propria",
+    "natureza": "legislativa",
+    "nota": "Só os estados que, em 30/4/2023, tinham fundos de infraestrutura e habitação financiados por contribuições ligadas a benefícios do ICMS podem instituir a nova contribuição, até 31/12/2043 (ADCT, art. 136)."
+  },
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": "2043-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 136"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "criada na verificação junto com o tributo do ADCT, art. 136"
+  }
+}

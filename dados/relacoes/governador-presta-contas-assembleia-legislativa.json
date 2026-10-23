@@ -1,0 +1,30 @@
+{
+  "id": "rel:governador-presta-contas-assembleia-legislativa",
+  "tipo": "relacao",
+  "nome": "Prestação de contas do governador",
+  "relacao": "presta-contas-a",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "org:arquetipo-estadual-assembleia-legislativa",
+  "condicao": "Todo ano. O prazo vem da Constituição estadual; no modelo federal, 60 dias após a abertura da sessão legislativa (art. 84, XXIV).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, I, c/c art. 75, caput; art. 84, XXIV"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-75",
+      "dispositivo": "ADPF 434"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "A CF não diz literalmente que o governador presta contas à Assembleia; deduzimos do art. 71, I, aplicado no que couber (art. 75), e do julgamento das contas pela Assembleia mencionado pelo STF (ADPF 434). As Constituições estaduais, que tratam disso, não foram lidas uma a uma.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

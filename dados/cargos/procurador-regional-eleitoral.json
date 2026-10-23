@@ -4,7 +4,7 @@
   "nome": "Procurador Regional Eleitoral",
   "resumo": "Membro do MPF que atua nas causas do TRE de um estado ou do DF e dirige ali as atividades eleitorais do MP. Mandato de dois anos, com uma recondução.",
   "orgao": "org:ministerio-publico-eleitoral",
-  "provimento": "nomeacao-livre",
+  "provimento": "designacao",
   "provimento_nota": "É designado, com o substituto, pelo Procurador-Geral Eleitoral dentre os Procuradores Regionais da República no estado ou no DF ou, onde não houver, dentre os Procuradores da República vitalícios (LC 75/1993, art. 76). A escolha é livre dentro desse grupo, mas a destituição antes do fim do mandato depende da concordância da maioria absoluta do Conselho Superior do MPF (art. 76, § 2º).",
   "vagas": 27,
   "vagas_nota": "Um em cada estado e no Distrito Federal (art. 75, I).",
@@ -19,26 +19,22 @@
       "fontes": []
     }
   ],
-  "detalhes": "Exerce as funções do Ministério Público nas causas do TRE respectivo (art. 77). O Procurador-Geral Eleitoral pode designar outros membros do MPF para atuar perante os TREs sob a coordenação dele.",
+  "detalhes": "Exerce as funções do Ministério Público nas causas do TRE respectivo (art. 77). O Procurador-Geral Eleitoral pode designar outros membros do MPF para atuar perante os TREs, sob a coordenação do Procurador Regional Eleitoral (art. 77, parágrafo único).",
   "fontes": [
     {
       "ref": "norma:lc-75-1993",
       "dispositivo": "art. 75, I; arts. 76 e 77"
     }
   ],
-  "campos": {
-    "provimento": {
-      "nota": "O vocabulário não tem termo para 'designação' entre membros de uma carreira com mandato; 'nomeacao-livre' é o mais próximo, com a ressalva da destituição na nota."
-    }
-  },
   "vigencia": {
     "de": "1993-05-21",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; LC 75/1993, arts. 75 a 77, conferidos. Provimento nomeacao-livre → designacao (termo novo). Corrigido nos detalhes: os membros designados para os TREs ficam sob a coordenação do Procurador Regional, não do Procurador-Geral (art. 77, parágrafo único)"
   }
 }

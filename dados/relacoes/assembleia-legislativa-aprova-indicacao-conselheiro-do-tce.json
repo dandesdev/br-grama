@@ -1,0 +1,30 @@
+{
+  "id": "rel:assembleia-legislativa-aprova-indicacao-conselheiro-do-tce",
+  "tipo": "relacao",
+  "nome": "Aprovação dos conselheiros indicados pelo governador",
+  "relacao": "aprova-indicacao",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "cargo:arquetipo-estadual-conselheiro-do-tce",
+  "condicao": "Onde a Constituição estadual exige (ex.: SP, art. 20, XII; BA, art. 94), a Assembleia aprova antes os nomes indicados pelo governador.",
+  "fontes": [
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 20, XII"
+    },
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "art. 94, caput"
+    }
+  ],
+  "notas": "Paralelo federal: o Senado aprova os ministros do TCU escolhidos pelo Presidente (art. 52, III, b; art. 73, § 2º, I). Lidas só as Constituições de SP e da BA; não sabemos se todas as 26 exigem a aprovação.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -19,6 +19,10 @@
         }
       ],
       "nota": "Órgão colegiado na estrutura regimental do Ministério da Fazenda."
+    },
+    "vigencia": {
+      "confianca": "inferido",
+      "nota": "Data calculada por nós: a Lei 4.595/1964 entrou em vigor 90 dias após a publicação (art. 65), no DOU de 31/12/1964 (suplemento)."
     }
   },
   "fontes": [
@@ -48,8 +52,9 @@
   "confianca": "oficial",
   "notas": "A Lei 9.069/1995, art. 9º, cria junto ao CMN a Comissão Técnica da Moeda e do Crédito, não modelada. O art. 6º da Lei 4.595/1964 (composição antiga) foi revogado pela LC 179/2021.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; Lei 9.069/1995, art. 8º (redação da Lei 14.600/2023), Lei 4.595/1964, arts. 2º e 4º, LC 179/2021, arts. 2º e 5º, § 1º, e Decreto 11.907/2024, Anexo I, arts. 2º, III, a, e 61, conferidos; data de início marcada como inferida em campos.vigencia"
   }
 }

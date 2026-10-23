@@ -1,0 +1,28 @@
+{
+  "id": "org:arquetipo-estadual-eleitorado",
+  "tipo": "orgao",
+  "nome": "Eleitorado estadual",
+  "resumo": "Eleitores do estado. Elegem governador, vice-governador e deputados estaduais e podem propor projetos de lei estadual.",
+  "detalhes": "A eleição estadual coincide com a eleição geral, a cada quatro anos. A iniciativa popular de leis estaduais é regulada pela lei de cada estado (art. 27, § 4º).",
+  "tipo_orgao": "corpo-eleitoral",
+  "poder": "povo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, caput; art. 27, §§ 1º e 4º; art. 28, caput"
+    }
+  ],
+  "notas": "Como org:arquetipo-municipal-eleitorado, não é órgão formal: é o povo do estado agindo como corpo eleitoral. Os senadores e deputados federais, também eleitos por estado, ficam com org:eleitorado-nacional (rel:eleitorado-elege-senador), criados antes desta tarefa.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

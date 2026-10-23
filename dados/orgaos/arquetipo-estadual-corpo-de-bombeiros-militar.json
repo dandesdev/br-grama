@@ -1,0 +1,29 @@
+{
+  "id": "org:arquetipo-estadual-corpo-de-bombeiros-militar",
+  "tipo": "orgao",
+  "nome": "Corpo de Bombeiros Militar do Estado",
+  "resumo": "Executa as atividades de defesa civil no estado, além das atribuições que a lei lhe der. É força auxiliar e reserva do Exército e se subordina ao governador.",
+  "detalhes": "Organizado com base na hierarquia e na disciplina; seus membros são militares do estado (CF, art. 42). A União legisla sobre as normas gerais de organização, efetivos, material bélico, garantias, convocação e mobilização (art. 22, XXI).",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, caput, V, §§ 5º e 6º; art. 42, caput; art. 22, XXI"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; os corpos de bombeiros são anteriores."
+  },
+  "confianca": "oficial",
+  "notas": "Sem sigla: cada estado usa a sua. Sem contido_em por enquanto (nó do Executivo estadual criado pela f0-tipicos). Em alguns estados o corpo de bombeiros já integrou a polícia militar; isso não foi pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

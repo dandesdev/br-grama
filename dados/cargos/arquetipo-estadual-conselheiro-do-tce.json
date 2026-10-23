@@ -38,11 +38,21 @@
     },
     {
       "quando": "Uma das sete vagas: livre escolha do Governador",
-      "provimento": "nomeacao-livre",
+      "provimento": "nomeacao-com-aprovacao-do-legislativo",
       "fontes": [
         {
           "ref": "fonte:stf-sumula-653",
           "dispositivo": null
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 20, XII",
+          "nota": "Assembleia aprova previamente, após arguição pública, os conselheiros indicados pelo Governador"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 94, caput",
+          "nota": "os sete conselheiros são escolhidos após aprovação pela Assembleia"
         }
       ]
     }
@@ -82,6 +92,14 @@
     {
       "ref": "fonte:stf-sumula-653",
       "dispositivo": null
+    },
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 20, XII"
+    },
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "art. 94, caput"
     }
   ],
   "campos": {
@@ -93,11 +111,11 @@
         }
       ],
       "confianca": "secundario",
-      "nota": "A divisão 4 + 3 e a origem das vagas do Governador vêm da Súmula 653 do STF, usada como fonte secundária de interpretação: a CF diz só que as regras do TCU valem 'no que couber' e que os tribunais estaduais têm sete conselheiros. Coerência com o art. 73, § 2º, aplicado por simetria: as quatro vagas da Assembleia correspondem às do Congresso (inciso II) e as duas técnicas às do inciso I. Na União, porém, todos os escolhidos pelo Presidente passam pelo Senado, e os técnicos saem de lista tríplice do tribunal; nos estados, a aprovação pela Assembleia e a lista dependem da Constituição estadual (não lidas). 'nomeacao-livre' é aproximado: o conselheiro de livre escolha não pode ser exonerado livremente (é vitalício); falta no vocabulário um termo para nomeação com aprovação do Legislativo estadual."
+      "nota": "A divisão 4 + 3 e a origem das vagas do Governador vêm da Súmula 653 do STF, usada como fonte secundária de interpretação: a CF diz só que as regras do TCU valem 'no que couber' e que os tribunais estaduais têm sete conselheiros. Coerência com o art. 73, § 2º, aplicado por simetria: as quatro vagas da Assembleia correspondem às do Congresso (inciso II) e as duas técnicas às do inciso I. Na União, porém, todos os escolhidos pelo Presidente passam pelo Senado, e os técnicos saem de lista tríplice do tribunal; nos estados, a aprovação pela Assembleia e a lista dependem da Constituição estadual (não lidas). 'nomeacao-livre' é aproximado: o conselheiro de livre escolha não pode ser exonerado livremente (é vitalício); falta no vocabulário um termo para nomeação com aprovação do Legislativo estadual. Atualização da f0-tipicos (2026-10-23): o caso de livre escolha do Governador passou de 'nomeacao-livre' para 'nomeacao-com-aprovacao-do-legislativo', termo criado depois; a aprovação prévia pela Assembleia está nas Constituições de SP (art. 20, XII) e da BA (art. 94, caput), lidas nas cópias de pesquisa/brutos/alesp/2026-10-16 e al-ba/2026-10-16. As outras 25 Constituições não foram lidas; nas duas lidas, a aprovação vale para todos os indicados pelo Governador, inclusive os dois técnicos, o que não foi alterado no caso da lista."
     }
   },
   "confianca": "oficial",
-  "notas": "Vale também para o TCDF (art. 75). Vocabulário: o caso de livre escolha do Governador usa 'nomeacao-livre' por falta de um termo para nomeação com aprovação do Legislativo estadual; a aprovação pela Assembleia, quando houver, vem da Constituição estadual (não pesquisada estado a estado). 'Conselheiro substituto' é o nome usado nos sites de vários TCEs para os auditores do art. 73, § 4º (ex.: TCE-AP, TCE-TO).",
+  "notas": "Vale também para o TCDF (art. 75). O caso de livre escolha do Governador usa 'nomeacao-com-aprovacao-do-legislativo' (troca feita pela f0-tipicos, com base nas Constituições de SP e BA); as demais Constituições estaduais não foram pesquisadas. 'Conselheiro substituto' é o nome usado nos sites de vários TCEs para os auditores do art. 73, § 4º (ex.: TCE-AP, TCE-TO).",
   "verificacao": {
     "status": "verificado",
     "em": "2026-10-23",

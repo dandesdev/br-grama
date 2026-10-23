@@ -1,0 +1,54 @@
+{
+  "id": "org:arquetipo-estadual-tribunal-de-justica",
+  "tipo": "orgao",
+  "nome": "Tribunal de Justiça",
+  "sigla": "TJ",
+  "resumo": "Tribunal de segundo grau da Justiça do estado. Cada estado tem o seu; a Constituição estadual define a competência.",
+  "detalhes": "Formado por desembargadores, um quinto deles vindo da advocacia e do Ministério Público (art. 94). Julga juízes estaduais e membros do Ministério Público, salvo na Justiça Eleitoral (art. 96, III), e os prefeitos (art. 29, X). Propõe a lei de organização judiciária (art. 125, § 1º) e julga as ações contra leis estaduais e municipais que contrariem a Constituição do estado (art. 125, § 2º).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, X; art. 92, VII; art. 94; art. 96, I a III; art. 125, caput e §§ 1º a 3º, 6º e 7º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-125",
+      "dispositivo": "§ 2º: ADI 558 e ADI 119"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ],
+      "nota": "Mesma posição dos tribunais de justiça reais (ex.: org:tj-sp), dentro de org:justica-estadual."
+    },
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-125",
+          "dispositivo": "§ 2º: ADI 558 e ADI 119"
+        }
+      ],
+      "nota": "O art. 125, § 2º, manda os estados instituírem a representação de inconstitucionalidade, sem nomear o tribunal; que ela é julgada pelo TJ vem da jurisprudência do STF (ADI 558; ADI 119) e das Constituições estaduais."
+    }
+  },
+  "notas": "Arquétipo dos tribunais de justiça (D06). Os tribunais reais já existem (f0-judiciario) e seguem este modelo: org:tj-ac, org:tj-al, org:tj-am, org:tj-ap, org:tj-ba, org:tj-ce, org:tj-es, org:tj-go, org:tj-ma, org:tj-mg, org:tj-ms, org:tj-mt, org:tj-pa, org:tj-pb, org:tj-pe, org:tj-pi, org:tj-pr, org:tj-rj, org:tj-rn, org:tj-ro, org:tj-rr, org:tj-rs, org:tj-sc, org:tj-se, org:tj-sp e org:tj-to. O TJDFT (org:tj-df) é organizado e mantido pela União (art. 21, XIII; ver var:df-tjdft). Os cargos de desembargador e de juiz de direito estão em org:justica-estadual (f0-judiciario), não neste nó. Onde há Tribunal de Justiça Militar (MG, RS e SP: org:tjm-mg, org:tjm-rs, org:tjm-sp), ele é a segunda instância da Justiça Militar estadual (art. 125, § 3º).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

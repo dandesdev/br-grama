@@ -15,9 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; URL, cópia Wayback e conteúdo conferidos; comparada com as cópias de 31/3, 10/9, 9/10 e 23/10/2026"
   },
-  "notas": "O site do TSE devolve HTTP 403 a acesso automatizado; a página foi lida na cópia do Wayback de 1º/10/2026, 02:49 (a própria data de referência), salva em pesquisa/brutos/tse/2026-10-23/federacoes-registradas-wayback-20261001.html. A página cita como legislação aplicável a Lei 9.096/1995 e a Resolução-TSE 23.670/2021."
+  "notas": "O site do TSE devolve HTTP 403 a acesso automatizado; a página foi lida na cópia do Wayback de 1º/10/2026, 02:49 (a própria data de referência), salva em pesquisa/brutos/tse/2026-10-23/federacoes-registradas-wayback-20261001.html. As cópias de 31/3/2026 e de 23/10/2026 (mesma pasta) têm a mesma tabela; só mudam nomes de presidentes nacionais. A página cita como legislação aplicável a Lei 9.096/1995 e a Resolução-TSE 23.670/2021."
 }

@@ -8,6 +8,7 @@
   "poder": "legislativo",
   "esfera": "estadual",
   "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-poder-legislativo",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -19,11 +20,22 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Criado nesta tarefa para servir de ator na iniciativa de emenda constitucional. Como em org:arquetipo-estadual-tce, não há contido_em porque o arquétipo estadual ainda não tem nó de Poder Legislativo estadual. O Distrito Federal tem Câmara Legislativa (art. 32, § 3º), não modelada aqui.",
+  "notas": "Criado nesta tarefa para servir de ator na iniciativa de emenda constitucional. O contido_em (org:arquetipo-estadual-poder-legislativo) foi acrescentado pela f0-tipicos. O Distrito Federal tem Câmara Legislativa (art. 32, § 3º), modelada em org:camara-legislativa-do-df pela f0-tipicos.",
   "verificacao": {
     "status": "verificado",
     "em": "2026-10-20",
     "tarefa": "verificacao-f0-legislativo",
     "notas": "coletado em f0-legislativo"
+  },
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 27"
+        }
+      ],
+      "nota": "Acrescentado por f0-tipicos (2026-10-23), que criou o nó do Poder Legislativo estadual. O art. 27 trata da Assembleia como o Legislativo do estado; posição no organograma no molde de org:congresso-nacional dentro de org:poder-legislativo-federal."
+    }
   }
 }

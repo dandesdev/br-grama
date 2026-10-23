@@ -3,13 +3,13 @@
   "tipo": "objeto",
   "nome": "Contribuição do empregador sobre a receita ou o faturamento",
   "resumo": "Contribuição de empresas sobre a receita ou o faturamento, para a seguridade social; será extinta em 2027 e substituída pela CBS.",
-  "detalhes": "É a base da Cofins, nome dado pela lei, não pela Constituição. A EC 132/2023 revoga o dispositivo em 2027, quando a CBS passa a ser cobrada (ADCT, art. 126, II).",
+  "detalhes": "É a base da Cofins, nome dado pela lei, não pela Constituição. A EC 132/2023 revoga o dispositivo em 2027, quando a CBS passa a ser cobrada (ADCT, art. 126, II). A revogação não atinge as contribuições sobre a receita que substituem a contribuição sobre a folha e já existiam em 2023 (EC 132/2023, art. 11).",
   "tipo_objeto": "tributo",
   "esfera": "federal",
   "vigencia": {
     "de": "1988-10-05",
     "ate": "2026-12-31",
-    "nota": "Extinta a partir de 2027 (ADCT, art. 126, II; EC 132/2023, art. 22, I). Em 2026-10-01 era cobrada normalmente."
+    "nota": "Extinta a partir de 2027 (ADCT, art. 126, II; EC 132/2023, art. 22, I), salvo as contribuições sobre a receita que substituem a da folha, mantidas pelo art. 11 da EC 132/2023. Em 2026-10-01 era cobrada normalmente."
   },
   "fontes": [
     {
@@ -18,13 +18,14 @@
     },
     {
       "ref": "norma:ec-132-2023",
-      "dispositivo": "art. 22, I"
+      "dispositivo": "arts. 11 e 22, I"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; acrescentada a ressalva do art. 11 da EC 132/2023 (contribuições sobre a receita que substituem a da folha não são atingidas pela revogação)"
   }
 }

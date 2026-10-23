@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-tj-julga-membro-do-ministerio-publico",
+  "tipo": "relacao",
+  "nome": "Foro dos membros do Ministério Público estadual",
+  "relacao": "julga",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "cargo:arquetipo-estadual-membro-do-ministerio-publico",
+  "condicao": "Nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

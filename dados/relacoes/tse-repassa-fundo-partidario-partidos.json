@@ -22,9 +22,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; Lei 9.096/1995, arts. 40, § 1º, e 41-A, conferidos. O fundo transferido está claro no nome e no início da condição, mas não fica ligado a obj:fundo-partidario por campo (o esquema não tem)"
   },
   "notas": "O fundo é obj:fundo-partidario; o esquema de relação não tem campo para o objeto transferido, por isso ele vai no nome e na condição."
 }

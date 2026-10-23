@@ -1,0 +1,41 @@
+{
+  "id": "org:arquetipo-estadual-governadoria",
+  "tipo": "orgao",
+  "nome": "Governadoria do Estado",
+  "resumo": "Chefia do Poder Executivo estadual, exercida pelo governador. O vice-governador também fica neste nó.",
+  "detalhes": "A CF fala em Governador e Vice-Governador, eleitos juntos, mas não descreve o órgão de chefia; a estrutura (gabinete, casa civil, casa militar e outros) vem da Constituição e das leis de cada estado.",
+  "tipo_orgao": "executivo-chefia",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-poder-executivo",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 28, caput e § 2º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 28, caput"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A CF não diz que a chefia é um órgão dentro do Poder Executivo estadual; seguimos o modelo federal (org:presidencia-da-republica dentro de org:poder-executivo-federal, art. 76) e o municipal (org:arquetipo-municipal-prefeitura)."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "O nome do órgão de chefia varia de estado para estado e não foi conferido um a um; 'Governadoria' foi escolhido para não confundir com o Poder Executivo inteiro ('Governo do Estado'). Como na Prefeitura do arquétipo municipal, o vice fica dentro da chefia por falta de base na CF para separá-lo."
+}

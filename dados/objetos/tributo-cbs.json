@@ -4,28 +4,29 @@
   "nome": "Contribuição Social sobre Bens e Serviços",
   "sigla": "CBS",
   "resumo": "Contribuição da União sobre bens e serviços, criada pela reforma tributária para substituir PIS e Cofins.",
-  "detalhes": "Segue as mesmas regras do IBS em fato gerador, base, imunidades e créditos (art. 149-B). Em 2026 é cobrada em caráter de teste, à alíquota de 0,9%, compensável com PIS e Cofins; a cobrança plena começa em 2027 (ADCT, arts. 125 e 126; LC 214/2025, arts. 346 e 348).",
+  "detalhes": "Segue as mesmas regras do IBS em fato gerador, base, imunidades e créditos (art. 149-B). Em 2026 é cobrada em caráter de teste, à alíquota de 0,9%, compensável com PIS e Cofins, e quem cumpre as obrigações acessórias fica dispensado de recolher (ADCT, art. 125; LC 214/2025, arts. 346 e 348). Em 2027 começa a cobrança efetiva, quando PIS e Cofins são extintos; em 2027 e 2028 a alíquota é reduzida em 0,1 ponto (ADCT, arts. 126 e 127).",
   "tipo_objeto": "tributo",
   "esfera": "federal",
   "vigencia": {
     "de": "2023-12-21",
     "ate": null,
-    "nota": "Prevista na CF desde a EC 132/2023; instituída pela LC 214/2025; em 2026, cobrança de teste (ADCT, art. 125); cobrança plena a partir de 2027 (ADCT, art. 126, I, a)."
+    "nota": "Prevista na CF desde a EC 132/2023; instituída pela LC 214/2025; em 2026, cobrança de teste (ADCT, art. 125); cobrança efetiva a partir de 2027 (ADCT, art. 126, I, a)."
   },
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 195, V; art. 149-B; ADCT, arts. 125 e 126, I, a"
+      "dispositivo": "art. 195, V; art. 149-B; ADCT, arts. 125, 126, I, a, e 127, parágrafo único"
     },
     {
       "ref": "norma:lc-214-2025",
-      "dispositivo": "arts. 1º, II, 346 e 348"
+      "dispositivo": "arts. 1º, II, 346, 347 e 348"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; \"cobrança plena\" em 2027 trocado por \"cobrança efetiva\", com a redução de 0,1 ponto em 2027-2028 (ADCT, art. 127, parágrafo único; LC 214, art. 347); acrescentada a dispensa de recolhimento em 2026 para quem cumpre obrigações acessórias (LC 214, art. 348, § 1º), como já constava no IBS"
   }
 }

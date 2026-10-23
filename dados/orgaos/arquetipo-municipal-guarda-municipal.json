@@ -1,0 +1,28 @@
+{
+  "id": "org:arquetipo-municipal-guarda-municipal",
+  "tipo": "orgao",
+  "nome": "Guarda Municipal",
+  "resumo": "Protege os bens, serviços e instalações do município. É facultativa: cada município decide se a cria, por lei.",
+  "detalhes": "A Constituição permite, mas não obriga, que os municípios tenham guarda municipal (CF, art. 144, § 8º). As normas gerais estão no Estatuto Geral das Guardas Municipais.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Arquétipo de um órgão facultativo: nem todo município tem guarda. Sem contido_em por enquanto; a Prefeitura (org:arquetipo-municipal-prefeitura) é só a chefia do Executivo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

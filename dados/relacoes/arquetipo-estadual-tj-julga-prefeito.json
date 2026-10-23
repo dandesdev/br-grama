@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-tj-julga-prefeito",
+  "tipo": "relacao",
+  "nome": "Foro do prefeito",
+  "relacao": "julga",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "cargo:arquetipo-municipal-prefeito",
+  "condicao": "A CF manda que o prefeito seja julgado perante o Tribunal de Justiça.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, X"
+    }
+  ],
+  "notas": "O inciso não distingue tipos de crime; o alcance (crimes comuns, crimes federais, eleitorais) vem da jurisprudência, não lida nesta tarefa.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

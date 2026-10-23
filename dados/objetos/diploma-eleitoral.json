@@ -2,8 +2,8 @@
   "id": "obj:diploma-eleitoral",
   "tipo": "objeto",
   "nome": "Diploma eleitoral",
-  "resumo": "Documento da Justiça Eleitoral que certifica a eleição de um candidato ou a posição dele como suplente. Sem diploma não há posse.",
-  "detalhes": "Traz o nome do eleito, a legenda, o cargo ou a classificação como suplente. É expedido pelo TSE na eleição do Presidente, pelos TREs nas eleições federais e estaduais e pelas juntas eleitorais nas municipais. A diplomação abre o prazo de 15 dias para a ação de impugnação de mandato eletivo (CF, art. 14, § 10).",
+  "resumo": "Documento da Justiça Eleitoral que certifica a eleição de um candidato ou a posição dele como suplente. O eleito o apresenta para tomar posse.",
+  "detalhes": "Traz o nome do eleito, a legenda, o cargo ou a classificação como suplente. É expedido pelo TSE na eleição do Presidente, pelos TREs nas eleições federais e estaduais e pelas juntas eleitorais nas municipais. A diplomação abre o prazo de 15 dias para a ação de impugnação de mandato eletivo (CF, art. 14, § 10). Na Câmara dos Deputados, o eleito entrega o diploma à Mesa até 31 de janeiro e só os diplomados tomam posse em 1º de fevereiro (Regimento Interno, arts. 3º e 4º).",
   "tipo_objeto": "documento",
   "esfera": "nacional",
   "fontes": [
@@ -14,6 +14,10 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 14, § 10"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 3º e 4º"
     }
   ],
   "vigencia": {
@@ -22,9 +26,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; Código Eleitoral, arts. 30, VII, 40, IV, 197, IV, 212, § 2º, e 215, e CF, art. 14, § 10, conferidos. Resumo 'Sem diploma não há posse' trocado por frase com base: RICD, arts. 3º e 4º (posse dos deputados diplomados); o resto continua leitura nossa, dito nas notas"
   },
-  "notas": "Que a diplomação é condição da posse é leitura nossa da sequência do Código Eleitoral e do calendário; não citamos dispositivo que diga isso expressamente. Revisar o resumo se a revisão não achar base."
+  "notas": "A regra geral de que só toma posse quem foi diplomado não está escrita num único dispositivo; está expressa para os deputados federais no Regimento Interno da Câmara (arts. 3º e 4º) e decorre, nos demais cargos, da sequência do Código Eleitoral e do calendário (leitura nossa). Cópia do RICD consultado em pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html."
 }

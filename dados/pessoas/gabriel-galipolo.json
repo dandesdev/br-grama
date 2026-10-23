@@ -13,14 +13,19 @@
       "ref": "fonte:dou-in-gov-br",
       "dispositivo": "Decretos de 30/12/2024 (DOU 31/12/2024, ed. 251, Seção 2, p. 1): nomeia Gabriel Muricca Galípolo Presidente do Banco Central",
       "nota": "https://www.in.gov.br/web/dou/-/decretos-de-30-de-dezembro-de-2024-605002699"
+    },
+    {
+      "ref": "fonte:senado-msf-42-2024",
+      "dispositivo": "votação no Plenário em 8/10/2024"
     }
   ],
   "filiacoes": [],
   "confianca": "oficial",
   "notas": "Filiação partidária não pesquisada. Nome de uso como aparece na assinatura de atos do Banco Central no DOU (sem o segundo sobrenome).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; nome civil e cargo conferidos no decreto de 30/12/2024 (DOU 31/12/2024) e na MSF 42/2024 do Senado"
   }
 }

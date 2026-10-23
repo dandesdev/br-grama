@@ -1,0 +1,33 @@
+{
+  "id": "rel:assembleia-legislativa-julga-contas-governador",
+  "tipo": "relacao",
+  "nome": "Julgamento das contas do governador",
+  "relacao": "julga",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "obj:contas-anuais-do-governador",
+  "condicao": "Depois do parecer prévio do TCE; se o parecer não vier no prazo, a Assembleia julga mesmo assim.",
+  "depende_de": [
+    "rel:tce-emite-parecer-previo-contas-governador"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-75",
+      "dispositivo": "ADPF 434"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, IX, c/c art. 75, caput"
+    }
+  ],
+  "notas": "O art. 75 estende aos estados as normas da Seção IX (arts. 70 a 75); o art. 49, IX, fica fora dela. A competência da Assembleia vem das Constituições estaduais e é reconhecida pelo STF (ADPF 434: 'julgamento político da Assembleia Legislativa').",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

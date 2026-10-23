@@ -1,0 +1,32 @@
+{
+  "id": "rel:tce-emite-parecer-previo-contas-governador",
+  "tipo": "relacao",
+  "nome": "Parecer prévio sobre as contas do governador",
+  "relacao": "emite-parecer-previo",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "obj:contas-anuais-do-governador",
+  "condicao": "No modelo federal, em 60 dias do recebimento das contas (art. 71, I); o parecer não vincula a Assembleia.",
+  "depende_de": [
+    "rel:governador-presta-contas-assembleia-legislativa"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, I, c/c art. 75, caput"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-75",
+      "dispositivo": "ADPF 434"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

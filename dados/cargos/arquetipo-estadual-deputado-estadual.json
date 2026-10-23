@@ -1,0 +1,65 @@
+{
+  "id": "cargo:arquetipo-estadual-deputado-estadual",
+  "tipo": "cargo",
+  "arquetipo": "estadual",
+  "nome": "Deputado Estadual",
+  "resumo": "Membro da Assembleia Legislativa, eleito pelo sistema proporcional para quatro anos. O número de cadeiras depende do tamanho da bancada do estado na Câmara.",
+  "detalhes": "Valem para ele as regras da CF sobre os deputados federais quanto a sistema eleitoral, inviolabilidade, imunidades, remuneração, perda de mandato, licença, impedimentos e incorporação às Forças Armadas (art. 27, § 1º). O subsídio é fixado por lei de iniciativa da Assembleia e não passa de 75% do subsídio do deputado federal (art. 27, § 2º).",
+  "orgao": "org:arquetipo-estadual-assembleia-legislativa",
+  "provimento": "eleicao-proporcional",
+  "vagas": null,
+  "vagas_nota": "O número é o triplo da bancada do estado na Câmara dos Deputados; chegando a 36, soma-se um para cada deputado federal acima de doze (art. 27, caput). Como cada estado tem de 8 a 70 deputados federais (art. 45, § 1º), as Assembleias vão de 24 a 94 deputados.",
+  "mandato": {
+    "anos": 4,
+    "reconducao": "permitida",
+    "nota": "A CF não limita reeleições de deputado estadual (art. 27, § 1º, remete às regras dos deputados federais)."
+  },
+  "requisitos": [
+    {
+      "texto": "idade mínima de 21 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, c"
+        }
+      ]
+    },
+    {
+      "texto": "nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, I a V"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º; art. 27, caput e §§ 1º e 2º; art. 45, § 1º"
+    }
+  ],
+  "campos": {
+    "vagas_nota": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 27, caput; art. 45, § 1º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "Os limites 24 e 94 são conta nossa: 3 × 8 = 24; 36 + (70 − 12) = 94. As bancadas de 2026 são as de 2022, mantidas pelo STF na ADO 38 (ver cargo:deputado-federal); a distribuição por estado não foi conferida nesta tarefa."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

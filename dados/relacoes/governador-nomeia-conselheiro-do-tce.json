@@ -1,0 +1,30 @@
+{
+  "id": "rel:governador-nomeia-conselheiro-do-tce",
+  "tipo": "relacao",
+  "nome": "Nomeação de conselheiros do TCE pelo governador",
+  "relacao": "nomeia",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "cargo:arquetipo-estadual-conselheiro-do-tce",
+  "condicao": "Escolhe três dos sete conselheiros: um entre auditores, um entre membros do Ministério Público junto ao tribunal e um de livre escolha.",
+  "fontes": [
+    {
+      "ref": "fonte:stf-sumula-653",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, § 2º, I, c/c art. 75"
+    }
+  ],
+  "confianca": "secundario",
+  "notas": "Pelas Constituições de SP (art. 20, XII) e da BA (art. 94, caput), o governador também nomeia os escolhidos pela Assembleia e os seus indicados passam por aprovação prévia dela; as outras Constituições não foram lidas, por isso esta relação fala só das três vagas do governador.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

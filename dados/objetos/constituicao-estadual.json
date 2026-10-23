@@ -1,0 +1,29 @@
+{
+  "id": "obj:constituicao-estadual",
+  "tipo": "objeto",
+  "nome": "Constituição estadual",
+  "resumo": "Norma fundamental de cada estado, feita pela Assembleia Legislativa. Organiza os Poderes do estado, respeitando os princípios da Constituição Federal.",
+  "detalhes": "As Assembleias elaboraram as Constituições estaduais, com poderes constituintes, no ano seguinte à CF (ADCT, art. 11). Cabe a elas, entre outras coisas, definir a competência dos tribunais do estado (art. 125, § 1º) e dispor sobre o tribunal de contas (art. 75, parágrafo único). A lei orgânica de cada município deve respeitá-la (art. 29, caput).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "estadual",
+  "relativo_a": [
+    "ente:arquetipo-estadual"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, caput; art. 29, caput; art. 75, parágrafo único; art. 125, §§ 1º e 2º; ADCT, art. 11"
+    }
+  ],
+  "notas": "As regras de emenda de cada Constituição estadual estão nela própria e não foram levantadas. Já existem como normas, usadas como fonte em outras tarefas: norma:ba-constituicao-1989, norma:go-constituicao-1989, norma:pa-constituicao-1989 e norma:sp-constituicao-1989.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

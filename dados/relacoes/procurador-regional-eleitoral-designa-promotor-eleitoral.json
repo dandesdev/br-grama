@@ -1,0 +1,26 @@
+{
+  "id": "rel:procurador-regional-eleitoral-designa-promotor-eleitoral",
+  "tipo": "relacao",
+  "nome": "Designação de Promotor Eleitoral substituto",
+  "relacao": "designa",
+  "de": "cargo:procurador-regional-eleitoral",
+  "para": "cargo:promotor-eleitoral",
+  "condicao": "Só quando não há promotor que oficie perante a zona eleitoral, ou há impedimento ou recusa justificada; o substituto é indicado pelo chefe do Ministério Público do estado.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 79, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-eleicoes"
+  },
+  "notas": "Na regra, o Promotor Eleitoral é o membro do MP local que já oficia na zona, sem designação (art. 79, caput). A Lei 8.625/1993, art. 73, prevê ainda designação pelo Procurador-Geral de Justiça a pedido do PGR; não criamos relação para ela porque o chefe do MP estadual é arquétipo e a LC 75, posterior, dá a designação do substituto ao Procurador Regional."
+}

@@ -1,0 +1,64 @@
+{
+  "id": "cargo:arquetipo-estadual-vice-governador",
+  "tipo": "cargo",
+  "arquetipo": "estadual",
+  "nome": "Vice-Governador",
+  "resumo": "Eleito na mesma chapa do governador, para quatro anos.",
+  "detalhes": "A Constituição Federal não diz, para os estados, quando o vice substitui ou sucede o governador; isso fica na Constituição de cada estado. Quando o governador renuncia para disputar outro cargo (art. 14, § 6º), é o vice quem costuma assumir.",
+  "orgao": "org:arquetipo-estadual-governadoria",
+  "provimento": "eleicao-conjunta",
+  "provimento_nota": "Eleito junto com o candidato a governador registrado na mesma chapa (art. 28, caput, c/c art. 77, § 1º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 4,
+    "inicio": "6 de janeiro do ano seguinte ao da eleição, a partir da eleição de 2026",
+    "nota": "Mesma regra de posse do governador (art. 28, caput, redação da EC 111/2021; EC 111/2021, art. 5º)."
+  },
+  "requisitos": [
+    {
+      "texto": "idade mínima de 30 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, b"
+        }
+      ]
+    },
+    {
+      "texto": "nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, I a V"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º; art. 28, caput e § 2º; art. 77, § 1º"
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "art. 5º"
+    }
+  ],
+  "campos": {
+    "detalhes": {
+      "confianca": "inferido",
+      "nota": "'É o vice quem costuma assumir' é inferência a partir dos casos de 2026 registrados nesta tarefa (relações ocupa dos governadores que assumiram em abril de 2026), não regra da CF."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Não criamos relações substitui/sucede no arquétipo porque a base é a Constituição de cada estado, não a CF (mesmo critério de cargo:arquetipo-municipal-vice-prefeito)."
+}

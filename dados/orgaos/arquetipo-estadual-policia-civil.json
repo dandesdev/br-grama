@@ -1,0 +1,29 @@
+{
+  "id": "org:arquetipo-estadual-policia-civil",
+  "tipo": "orgao",
+  "nome": "Polícia Civil do Estado",
+  "resumo": "Polícia judiciária do estado: investiga as infrações penais, menos as militares e as que cabem à União. É dirigida por delegado de polícia de carreira.",
+  "detalhes": "Subordina-se ao governador (CF, art. 144, § 6º). A organização de cada polícia civil vem da lei do estado, dentro das normas gerais federais.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, caput, IV, §§ 4º, 6º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; as polícias civis são anteriores."
+  },
+  "confianca": "oficial",
+  "notas": "Sem sigla: cada estado usa a sua. Sem contido_em por enquanto: o nó do Executivo estadual é criado pela f0-tipicos; a subordinação ao governador está em rel:arquetipo-estadual-policia-civil-subordina-se-governador. As polícias do DF são organizadas e mantidas pela União (art. 21, XIV) e ficam para a variação do DF (f0-tipicos).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-defesa-seguranca"
+  }
+}

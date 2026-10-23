@@ -1,0 +1,63 @@
+{
+  "id": "cargo:arquetipo-estadual-governador",
+  "tipo": "cargo",
+  "arquetipo": "estadual",
+  "nome": "Governador",
+  "resumo": "Chefe do Poder Executivo estadual, eleito com o vice-governador para quatro anos, em dois turnos se preciso.",
+  "detalhes": "Perde o mandato se assumir outro cargo ou função na administração pública, salvo posse por concurso (art. 28, § 1º). Para disputar outro cargo, precisa renunciar até seis meses antes da eleição (art. 14, § 6º). Nos crimes comuns é julgado pelo STJ (art. 105, I, a); nos de responsabilidade, a Assembleia admite a acusação por maioria absoluta e o julgamento segue a Lei 1.079/1950.",
+  "orgao": "org:arquetipo-estadual-governadoria",
+  "provimento": "eleicao-majoritaria-maioria-absoluta",
+  "provimento_nota": "Eleição no primeiro domingo de outubro do ano anterior ao fim do mandato, com segundo turno no último domingo de outubro, se ninguém tiver maioria absoluta dos votos válidos; valem as regras do art. 77 (art. 28, caput). O vice-governador é eleito na mesma chapa.",
+  "vagas": 1,
+  "mandato": {
+    "anos": 4,
+    "reconducao": "uma reeleição para o período subsequente (art. 14, § 5º)",
+    "inicio": "6 de janeiro do ano seguinte ao da eleição, a partir da eleição de 2026",
+    "nota": "A posse em 6 de janeiro vem da EC 111/2021 e vale a partir da eleição de 2026 (EC 111/2021, art. 5º). Os governadores eleitos em 2022 tomaram posse em 1º/1/2023 e ficam até a posse dos sucessores, em 6/1/2027 (EC 111/2021, art. 4º)."
+  },
+  "requisitos": [
+    {
+      "texto": "idade mínima de 30 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, b"
+        }
+      ]
+    },
+    {
+      "texto": "nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, I a V"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, §§ 3º, 5º e 6º; art. 28, caput e §§ 1º e 2º; art. 77; art. 105, I, a"
+    },
+    {
+      "ref": "norma:ec-111-2021",
+      "dispositivo": "arts. 4º e 5º"
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 74 a 79"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Lei 1.079/1950: qualquer cidadão pode denunciar o governador à Assembleia (art. 75); declarada procedente a acusação por maioria absoluta, ele fica suspenso (art. 77); a pena é a perda do cargo com inabilitação até cinco anos, por dois terços do tribunal de julgamento (art. 78, caput e § 2º); onde a Constituição estadual não regular, julga um tribunal de cinco deputados e cinco desembargadores, presidido pelo presidente do TJ (art. 78, § 3º). Há jurisprudência do STF sobre o tema (competência da União para definir crimes de responsabilidade) que não foi lida nesta tarefa. O art. 28, § 1º, remete ao art. 38, I, IV e V. As competências do governador (sancionar, vetar, nomear secretários, etc.) vêm de cada Constituição estadual; não as listamos aqui sem ler as Constituições."
+}

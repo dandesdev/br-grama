@@ -8,7 +8,7 @@
   "provimento_casos": [
     {
       "quando": "Duas vagas de desembargadores do Tribunal de Justiça: eleição por voto secreto pelo TJ",
-      "provimento": "eleicao-pelos-pares",
+      "provimento": "eleicao-por-tribunal",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -18,7 +18,7 @@
     },
     {
       "quando": "Duas vagas de juízes de direito: eleição por voto secreto, escolhidos pelo Tribunal de Justiça",
-      "provimento": "eleicao-pelos-pares",
+      "provimento": "eleicao-por-tribunal",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -28,7 +28,7 @@
     },
     {
       "quando": "Uma vaga de juiz do TRF com sede na capital ou, se não houver, de juiz federal: escolha pelo TRF respectivo",
-      "provimento": "eleicao-pelos-pares",
+      "provimento": "eleicao-por-tribunal",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -80,7 +80,7 @@
       "nota": "Conta nossa: 7 × 27. A CF fixa sete membros por TRE e um TRE por estado e no DF."
     },
     "provimento_casos": {
-      "nota": "\"Eleito pelos pares\" aqui quer dizer escolhido por votação no tribunal de origem (TJ ou TRF), não no TRE; o vocabulário não tem termo mais preciso."
+      "nota": "Nas vagas do TJ a CF fala em eleição por voto secreto (art. 120, § 1º, I); na vaga federal diz só 'escolhido pelo Tribunal Regional Federal' (inciso II). Usamos 'eleicao-por-tribunal' nos três casos porque a escolha é feita pelo tribunal de origem, não pelo TRE."
     }
   },
   "vigencia": {
@@ -89,9 +89,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; CF, arts. 105, I, a, 120 e 121, §§ 1º e 2º, conferidos. Provimento das vagas do TJ e do TRF passou de eleicao-pelos-pares para eleicao-por-tribunal (termo novo); vagas 189 = 7 × 27, conta conferida (inferido)"
   },
   "notas": "Criado para receber a relação de foro no STJ (art. 105, I, a), no modelo de cargo:juiz-de-trt. A CF chama os membros dos TREs de 'juízes' (art. 120, § 1º, e art. 121, § 2º)."
 }

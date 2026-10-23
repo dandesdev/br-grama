@@ -4,8 +4,8 @@
   "nome": "Comitê Gestor do Imposto sobre Bens e Serviços",
   "sigla": "CGIBS",
   "resumo": "Entidade pública dos estados, do DF e dos municípios que administra em conjunto o IBS: regulamento único, arrecadação e distribuição entre os entes.",
-  "detalhes": "É entidade pública sob regime especial, com independência técnica, administrativa, orçamentária e financeira, sem vínculo nem subordinação a órgão algum (CF, art. 156-B, § 1º; LC 227/2026, art. 1º). A instância máxima é o Conselho Superior, com 27 representantes dos estados e do DF e 27 dos municípios; a presidência alterna entre os dois conjuntos, e o controle externo cabe aos próprios entes (CF, art. 156-B, § 2º; LC 227/2026, art. 8º).",
-  "tipo_orgao": "outro",
+  "detalhes": "É entidade pública sob regime especial, com independência técnica, administrativa, orçamentária e financeira (CF, art. 156-B, § 1º), sem vínculo, tutela ou subordinação a órgão algum (LC 227/2026, art. 1º). A instância máxima é o Conselho Superior, com 27 representantes dos estados e do DF e 27 do conjunto dos municípios e do DF; a presidência alterna entre os dois conjuntos, e o controle externo cabe aos próprios entes (CF, art. 156-B, §§ 2º e 3º; LC 227/2026, art. 8º).",
+  "tipo_orgao": "entidade-interfederativa",
   "poder": "executivo",
   "esfera": "nacional",
   "fontes": [
@@ -52,10 +52,11 @@
       "url": "https://www.cgibs.gov.br/"
     }
   ],
-  "notas": "Sem contido_em: não pertence a nenhum ente nem a órgão de ente (LC 227/2026, art. 1º, parágrafo único, II). A tarefa não pediu cargos nem pessoas do CGIBS; a imprensa e o site do CGIBS indicam um presidente eleito pelo Conselho Superior em 2026, não conferido aqui. tipo_orgao 'outro' porque o vocabulário não tem entidade interfederativa.",
+  "notas": "Sem contido_em: não pertence a nenhum ente nem a órgão de ente (LC 227/2026, art. 1º, parágrafo único, II). A tarefa não pediu cargos nem pessoas do CGIBS; a imprensa e o site do CGIBS indicam um presidente eleito pelo Conselho Superior em 2026, não conferido aqui.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; tipo_orgao trocado de \"outro\" para \"entidade-interfederativa\" (termo novo), conferido com CF, art. 156-B, § 1º, e LC 227/2026, art. 1º; citação da composição corrigida para art. 156-B, §§ 2º e 3º (a composição 27 + 27 está no § 3º)"
   }
 }

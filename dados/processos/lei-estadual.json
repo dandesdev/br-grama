@@ -1,0 +1,225 @@
+{
+  "id": "proc:lei-estadual",
+  "tipo": "processo",
+  "nome": "Processo legislativo da lei estadual",
+  "resumo": "Caminho de um projeto de lei no estado típico: segue as linhas básicas do processo federal, mas numa Casa só, a Assembleia Legislativa, com sanção ou veto do governador.",
+  "detalhes": "O STF entende que os estados devem absorver as linhas básicas do processo legislativo federal, inclusive as reservas de iniciativa (ADI 637), com base no art. 25 da CF (regra da simetria). Cada etapa remete à etapa equivalente de proc:lei-ordinaria; prazos e quóruns exatos estão na Constituição e no regimento de cada estado.",
+  "forma": "linha",
+  "produz": "obj:lei-estadual",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:arquetipo-estadual-deputado-estadual",
+        "cargo:arquetipo-estadual-governador",
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "cargo:arquetipo-estadual-procurador-geral-de-justica",
+        "org:arquetipo-estadual-eleitorado"
+      ],
+      "acao": "Apresenta o projeto de lei à Assembleia Legislativa",
+      "detalhes": "Deputados têm iniciativa geral. O governador tem iniciativa privativa nas matérias equivalentes às do art. 61, § 1º; o Tribunal de Justiça e o Ministério Público, nas suas matérias (arts. 96, II, 125, § 1º, e 127, § 2º). A iniciativa popular segue a lei do estado (art. 27, § 4º).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 27, § 4º; art. 61; art. 96, II; art. 125, § 1º; art. 127, § 2º; art. 128, § 5º"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+          "dispositivo": "ADI 637; ADI 2.079"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "assembleia-votacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "assembleia-votacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "Comissões e Plenário da Assembleia examinam e votam o projeto; não há casa revisora",
+      "detalhes": "O rito segue o regimento interno de cada Assembleia (art. 27, § 3º). Emendas parlamentares que aumentem a despesa em projeto de iniciativa reservada do governador são vedadas, como na União (art. 63, I; ADI 2.079).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 27, § 3º; art. 63, I"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+          "dispositivo": "ADI 2.079"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sancao-ou-veto",
+          "quando": "Aprovado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "sancao-ou-veto",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador sanciona ou veta, no todo ou em parte, o projeto aprovado",
+      "detalhes": "O prazo é o da Constituição estadual; no modelo federal, 15 dias úteis, e o silêncio vale como sanção (art. 66, §§ 1º e 3º).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, §§ 1º a 3º"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+          "dispositivo": "ADI 637"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-e-publicacao",
+          "quando": "Sancionado, expressa ou tacitamente"
+        },
+        {
+          "para": "apreciacao-do-veto",
+          "quando": "Vetado, no todo ou em parte"
+        }
+      ]
+    },
+    {
+      "id": "apreciacao-do-veto",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "A Assembleia mantém ou derruba o veto",
+      "detalhes": "No modelo federal, derrubar o veto exige a maioria absoluta dos membros (art. 66, § 4º).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, §§ 4º a 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-e-publicacao",
+          "quando": "Veto derrubado"
+        },
+        {
+          "para": "veto-mantido",
+          "quando": "Veto mantido"
+        }
+      ]
+    },
+    {
+      "id": "veto-mantido",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "O veto é mantido e a parte vetada não entra na lei",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, § 4º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "promulgacao-e-publicacao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador",
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "O governador promulga e publica a lei; se não o fizer, o presidente da Assembleia promulga",
+      "detalhes": "A substituição na promulgação segue, no modelo federal, o art. 66, § 7º (Presidente do Senado e depois o Vice). Nos estados, a regra está na Constituição estadual.",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, §§ 5º e 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "vigencia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "vigencia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A lei entra em vigor na data que ela fixar; se não fixar, 45 dias depois de publicada",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:lindb",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "O projeto rejeitado é arquivado",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 67"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, caput; art. 27, §§ 3º e 4º; arts. 61 a 67"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-25",
+      "dispositivo": "ADI 4.298 MC"
+    }
+  ],
+  "campos": {
+    "etapas": {
+      "confianca": "inferido",
+      "nota": "As etapas são o modelo federal aplicado por simetria (ADI 637: 'absorção compulsória das linhas básicas do modelo constitucional federal'). O STF também adverte que a simetria não vale para tudo (ADI 4.298 MC). Prazos, quóruns e detalhes de cada estado não foram lidos; por isso as etapas citam o dispositivo federal e remetem a proc:lei-ordinaria."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Pedido da tarefa: processo legislativo estadual por simetria, como nota e remete_a ao processo federal. A lei complementar estadual e a emenda à Constituição estadual não foram modeladas."
+}

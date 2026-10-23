@@ -49,9 +49,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; CF, arts. 118, III, e 121, § 1º, e Código Eleitoral, arts. 32, 35 e 89, III, conferidos; vagas 2.641 = zonas informadas pelo TSE (fonte:tse-noticia-eleitorado-2026), um juiz por zona pela regra do art. 32: conta certa, continua inferido; não achamos número oficial de juízes eleitorais"
   },
   "notas": "A CF diz 'os Juízes Eleitorais' (art. 118, III) e, no art. 121, 'os juízes de direito'. Função exercida pelo cargo:juiz-de-direito. Não pesquisamos as regras do TSE sobre o rodízio dos juízes nas zonas; por isso mandato fica null."
 }

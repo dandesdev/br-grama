@@ -27,9 +27,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; CF, art. 14, § 3º, V, e art. 17 (caput, I a IV, §§ 1º a 6º); EC 97/2017, arts. 2º e 3º; Lei 9.096/1995, arts. 1º, 7º e 11-A, conferidos. Nota atualizada: os partidos já têm contido_em para este conjunto"
   },
   "mais_informacoes": [
     {
@@ -37,5 +38,5 @@
       "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
     }
   ],
-  "notas": "Conjunto criado para concentrar as regras do art. 17 e servir de ponta às relações sobre todos os partidos (fundos, prestação de contas, registro). Os partidos com representação na Câmara existem como entidades próprias (ex.: org:partido-pt), mas não têm contido_em apontando para cá: decidir com o mantenedor se devem ter. A lista completa de partidos registrados está em fonte:tse-partidos-registrados."
+  "notas": "Conjunto criado para concentrar as regras do art. 17 e servir de ponta às relações sobre todos os partidos (fundos, prestação de contas, registro). Os 22 partidos com deputado em exercício em 2026-10-01 existem como entidades próprias (ex.: org:partido-pt) e têm contido_em apontando para cá (acrescentado pelo coordenador em 2026-10-23). As federações ficam fora do conjunto e se ligam aos partidos por 'integra'. A lista completa de partidos registrados está em fonte:tse-partidos-registrados."
 }

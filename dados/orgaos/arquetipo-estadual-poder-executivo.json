@@ -1,0 +1,28 @@
+{
+  "id": "org:arquetipo-estadual-poder-executivo",
+  "tipo": "orgao",
+  "nome": "Poder Executivo estadual",
+  "resumo": "Poder Executivo de cada estado, chefiado pelo governador, eleito com o vice-governador para quatro anos.",
+  "detalhes": "A Constituição Federal trata do Executivo estadual em poucas regras (eleição, mandato, posse, perda do mandato e subsídios, art. 28); o resto vem da Constituição de cada estado. Além do governador e do vice, a CF cita os secretários de Estado (art. 28, § 2º).",
+  "tipo_orgao": "poder",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, caput; art. 28, caput e §§ 1º e 2º; art. 34, IV; art. 37, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  },
+  "notas": "Nó de Poder do arquétipo estadual, no molde de org:poder-executivo-federal. Sem 'ente': o arquétipo vale para todos os estados. A existência de Poderes nos estados está na CF (art. 34, IV: 'qualquer dos Poderes nas unidades da Federação'; art. 37, caput: 'Poderes da União, dos Estados...'); o art. 28 fala em Governador, Vice-Governador e Secretários de Estado."
+}

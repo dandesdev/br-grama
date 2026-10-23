@@ -1,0 +1,35 @@
+{
+  "id": "rel:presidente-nomeia-presidente-do-banco-central",
+  "tipo": "relacao",
+  "nome": "Nomeação do Presidente do Banco Central",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:presidente-do-banco-central",
+  "condicao": "Indica e nomeia, depois da aprovação do Senado, para mandato de quatro anos que começa em 1º de janeiro do terceiro ano do mandato presidencial, com uma recondução. Só pode exonerar nos casos da LC 179/2021: a pedido, doença incapacitante, condenação por improbidade ou por crime que proíba o acesso a cargos públicos, ou desempenho insuficiente, este por proposta do CMN e com aprovação do Senado.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-presidente-do-banco-central"
+  ],
+  "vigencia": {
+    "de": "2021-02-25",
+    "ate": null,
+    "nota": "A nomeação após aprovação do Senado vem da CF de 1988 (arts. 52, III, d, e 84, XIV); os mandatos fixos e o cargo atual, da LC 179/2021 (DOU de 25/2/2021), em vigor na publicação (art. 14)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV"
+    },
+    {
+      "ref": "norma:lc-179-2021",
+      "dispositivo": "arts. 3º, 4º, caput e §§ 1º e 3º, e 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Substitui, com a relação do outro cargo do Banco Central, as relações que a f0-executivo fazia apontar para o órgão (feito na verificação da f0-dinheiro).",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "criada na verificação; CF, arts. 52, III, d, e 84, XIV, e LC 179/2021, arts. 3º a 5º, conferidos"
+  }
+}

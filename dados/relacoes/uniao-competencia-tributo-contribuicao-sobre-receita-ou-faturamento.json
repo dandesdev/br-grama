@@ -8,7 +8,7 @@
   "competencia": {
     "tipo": "exclusiva",
     "natureza": "legislativa",
-    "nota": "Instituir a contribuição social. Contribuições sociais são competência exclusiva da União (art. 149, caput); servidores de estados e municípios pagam a contribuição do regime próprio (art. 149, § 1º)."
+    "nota": "Instituir a contribuição social. Contribuições sociais são competência exclusiva da União (art. 149, caput); a exceção é a contribuição dos regimes próprios dos servidores, que cada ente institui para os seus (art. 149, § 1º). Extinta a partir de 2027 (ADCT, art. 126, II), salvo as contribuições sobre a receita que substituem a da folha (EC 132/2023, art. 11)."
   },
   "vigencia": {
     "de": "1988-10-05",
@@ -22,8 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; CF conferida no dispositivo citado; ente, tipo e datas de fim conferidos; nota reescrita: a ressalva do art. 149, § 1º, é exceção à exclusividade da União, não regra sobre quem paga; nota com a ressalva do art. 11 da EC 132/2023"
   }
 }

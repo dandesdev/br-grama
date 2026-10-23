@@ -1,0 +1,28 @@
+{
+  "id": "org:arquetipo-estadual-poder-legislativo",
+  "tipo": "orgao",
+  "nome": "Poder Legislativo estadual",
+  "resumo": "Poder Legislativo de cada estado, exercido pela Assembleia Legislativa, com uma só Casa. O Tribunal de Contas do Estado o auxilia no controle externo.",
+  "detalhes": "A CF trata do Legislativo estadual no art. 27 (número de deputados, mandato, subsídio, regimento e iniciativa popular). As normas do TCU valem, no que couber, para os tribunais de contas dos estados, que a Constituição de cada estado organiza (art. 75).",
+  "tipo_orgao": "poder",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 27; art. 34, IV; art. 75"
+    }
+  ],
+  "notas": "Nó de Poder do arquétipo estadual, no molde de org:poder-legislativo-federal (que contém o Congresso e o TCU). Sem ente: o arquétipo vale para todos os estados.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

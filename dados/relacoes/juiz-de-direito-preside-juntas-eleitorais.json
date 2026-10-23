@@ -5,7 +5,7 @@
   "relacao": "preside",
   "de": "cargo:juiz-de-direito",
   "para": "org:juntas-eleitorais",
-  "condicao": "Cada junta é presidida por um juiz de direito, que não precisa ser o juiz eleitoral da zona; quando há mais de uma junta, o presidente do TRE designa os juízes que as presidem.",
+  "condicao": "Cada junta é presidida por um juiz de direito, que não precisa ser o juiz eleitoral da zona; quando há mais de uma junta na zona, ou o cargo de juiz eleitoral está vago ou impedido, o presidente do TRE, com aprovação do tribunal, designa os juízes que as presidem.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -18,8 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; Código Eleitoral, arts. 36 e 37, conferidos; condição completada com a aprovação do TRE e os casos de vaga ou impedimento do juiz eleitoral (art. 37, parágrafo único)"
   }
 }

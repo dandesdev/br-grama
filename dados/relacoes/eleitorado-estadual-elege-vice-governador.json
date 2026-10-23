@@ -1,0 +1,28 @@
+{
+  "id": "rel:eleitorado-estadual-elege-vice-governador",
+  "tipo": "relacao",
+  "nome": "Eleição do vice-governador",
+  "relacao": "elege",
+  "de": "org:arquetipo-estadual-eleitorado",
+  "para": "cargo:arquetipo-estadual-vice-governador",
+  "condicao": "Na mesma chapa do governador: a eleição do governador importa a do vice registrado com ele.",
+  "depende_de": [
+    "rel:eleitorado-estadual-elege-governador"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 28, caput; art. 77, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

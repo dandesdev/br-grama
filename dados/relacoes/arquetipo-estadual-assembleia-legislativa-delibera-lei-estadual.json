@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-assembleia-legislativa-delibera-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Votação das leis estaduais",
+  "relacao": "delibera",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "obj:lei-estadual",
+  "condicao": "Casa única: não há casa revisora. O rito vem da Constituição estadual e do regimento interno.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 27, § 3º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

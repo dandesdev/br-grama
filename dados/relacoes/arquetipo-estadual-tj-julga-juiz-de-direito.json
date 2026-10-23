@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-tj-julga-juiz-de-direito",
+  "tipo": "relacao",
+  "nome": "Foro dos juízes estaduais",
+  "relacao": "julga",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "cargo:juiz-de-direito",
+  "condicao": "Nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral. Os juízes do DF são julgados pelo TJDFT pela mesma regra.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

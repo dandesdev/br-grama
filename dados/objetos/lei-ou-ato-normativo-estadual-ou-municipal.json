@@ -1,0 +1,29 @@
+{
+  "id": "obj:lei-ou-ato-normativo-estadual-ou-municipal",
+  "tipo": "objeto",
+  "nome": "Lei ou ato normativo estadual ou municipal (em face da Constituição estadual)",
+  "resumo": "Normas do estado ou dos municípios que podem ser questionadas diretamente no Tribunal de Justiça por contrariar a Constituição do estado.",
+  "detalhes": "É a representação de inconstitucionalidade estadual. Cada estado a institui e define quem pode propô-la, mas não pode dar essa legitimação a um único órgão (art. 125, § 2º). Leis municipais não podem ser questionadas no TJ, por via direta, em face da Constituição Federal (STF, ADI 347).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 125, § 2º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-125",
+      "dispositivo": "§ 2º: ADI 558, ADI 119 e ADI 347"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:arquetipo-estadual-procurador-geral-de-justica-propoe-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Iniciativa do Ministério Público estadual",
+  "relacao": "propoe",
+  "de": "cargo:arquetipo-estadual-procurador-geral-de-justica",
+  "para": "obj:lei-estadual",
+  "condicao": "Criação e extinção de cargos e serviços auxiliares do MP, política remuneratória e planos de carreira; e a lei complementar de organização do MP do estado, de iniciativa facultada a ele.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 127, § 2º; art. 128, § 5º"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 10"
+    }
+  ],
+  "notas": "A CF dá a iniciativa ao Ministério Público (art. 127, § 2º); quem encaminha os projetos ao Legislativo é o procurador-geral de justiça (Lei 8.625/1993, art. 10, conforme cargo:arquetipo-estadual-procurador-geral-de-justica).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

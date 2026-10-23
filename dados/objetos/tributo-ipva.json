@@ -4,7 +4,7 @@
   "nome": "Imposto sobre a propriedade de veículos automotores",
   "sigla": "IPVA",
   "resumo": "Imposto dos estados e do DF sobre a propriedade de veículos.",
-  "detalhes": "Metade da arrecadação vai para o município onde o veículo é licenciado (art. 158, III). A fixação da base de cálculo não precisa esperar 90 dias (art. 150, § 1º).",
+  "detalhes": "Metade da arrecadação vai para o município onde o veículo é licenciado ou, no caso de veículos aquáticos e aéreos, onde o dono tem domicílio (art. 158, III). A fixação da base de cálculo não precisa esperar 90 dias (art. 150, § 1º).",
   "tipo_objeto": "tributo",
   "esfera": "estadual",
   "vigencia": {
@@ -19,8 +19,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; detalhes completados com a regra dos veículos aquáticos e aéreos (art. 158, III, redação da EC 132/2023)"
   }
 }

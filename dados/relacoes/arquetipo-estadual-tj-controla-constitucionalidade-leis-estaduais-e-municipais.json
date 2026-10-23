@@ -1,0 +1,40 @@
+{
+  "id": "rel:arquetipo-estadual-tj-controla-constitucionalidade-leis-estaduais-e-municipais",
+  "tipo": "relacao",
+  "nome": "Controle de constitucionalidade estadual",
+  "relacao": "controla-constitucionalidade",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "obj:lei-ou-ato-normativo-estadual-ou-municipal",
+  "condicao": "Em face da Constituição do estado, na representação de inconstitucionalidade instituída por ela.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 125, § 2º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-125",
+      "dispositivo": "§ 2º: ADI 558 e ADI 119"
+    }
+  ],
+  "campos": {
+    "de": {
+      "fontes": [
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-125",
+          "dispositivo": "§ 2º: ADI 558 e ADI 119"
+        }
+      ],
+      "nota": "A CF não nomeia o TJ como órgão julgador; o STF se refere ao controle abstrato 'no Tribunal de Justiça estadual'."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}

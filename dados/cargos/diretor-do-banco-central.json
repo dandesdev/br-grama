@@ -15,7 +15,7 @@
     "nota": "O mandato se estende até a posse do sucessor (LC 179/2021, art. 4º, §§ 2º a 4º)."
   },
   "vagas": 8,
-  "vagas_nota": "A Diretoria Colegiada tem nove membros, um deles o Presidente (LC 179/2021, art. 3º); restam oito diretores.",
+  "vagas_nota": "A Diretoria Colegiada tem nove membros, um deles o Presidente (LC 179/2021, art. 3º); são oito diretores (art. 8º).",
   "requisitos": [
     {
       "texto": "brasileiro idôneo, de reputação ilibada e de notória capacidade em assuntos econômico-financeiros ou com conhecimentos comprovados que o qualifiquem para a função",
@@ -29,8 +29,13 @@
   ],
   "campos": {
     "vagas": {
-      "confianca": "inferido",
-      "nota": "Oito é a conta de nove membros menos o Presidente (LC 179/2021, art. 3º); o art. 4º, § 2º, distribui oito mandatos de diretor."
+      "fontes": [
+        {
+          "ref": "norma:lc-179-2021",
+          "dispositivo": "arts. 3º e 8º, caput"
+        }
+      ],
+      "nota": "O art. 3º dá nove membros à Diretoria Colegiada, um deles o Presidente; o art. 8º fala expressamente em 'o Presidente e 8 (oito) Diretores', e o art. 4º, § 2º, distribui oito mandatos."
     }
   },
   "vigencia": {
@@ -45,13 +50,14 @@
     },
     {
       "ref": "norma:lc-179-2021",
-      "dispositivo": "arts. 3º, 4º, 5º e 10"
+      "dispositivo": "arts. 3º, 4º, 5º, 8º e 10"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-dinheiro"
+    "tarefa": "verificacao-f0-dinheiro",
+    "notas": "coletado em f0-dinheiro; número de diretores deixou de ser inferido: a LC 179/2021, art. 8º, diz \"o Presidente e 8 (oito) Diretores\"; mandatos e escala do art. 4º, § 2º, conferidos"
   }
 }

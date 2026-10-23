@@ -4,7 +4,7 @@
   "nome": "Lei Complementar nº 219, de 29 de setembro de 2025",
   "sigla": "LC 219/2025",
   "resumo": "Altera a LC 64/1990 para mudar prazos e marcos de contagem das inelegibilidades e cria o Requerimento de Declaração de Elegibilidade.",
-  "detalhes": "Também altera o art. 11 da Lei 9.504/1997: o pré-candidato em dúvida sobre sua elegibilidade, ou o partido dele, pode pedir à Justiça Eleitoral uma declaração a qualquer tempo (§ 16).",
+  "detalhes": "Também altera o art. 11 da Lei 9.504/1997: o pré-candidato em dúvida sobre sua elegibilidade, ou o partido dele, pode pedir à Justiça Eleitoral uma declaração a qualquer tempo (§ 16). A lei é contestada no STF (ADI 7881). Em 1º/10/2026 o julgamento não tinha terminado e não havia liminar: a lei estava em vigor.",
   "tipo_norma": "lei-complementar",
   "numero": "219",
   "data": "2025-09-29",
@@ -21,13 +21,18 @@
     {
       "ref": "norma:lc-219-2025",
       "dispositivo": "ementa; arts. 1º a 5º"
+    },
+    {
+      "ref": "fonte:stf-adi-7881",
+      "dispositivo": "abas Andamentos e Decisões: destaque em 21/9/2026; sem decisão final nem liminar até 1º/10/2026"
     }
   ],
-  "notas": "Publicada no DOU de 30/9/2025; vigência na publicação (art. 5º). Como foi publicada mais de um ano antes de 4/10/2026, a regra da anualidade (CF, art. 16) não a afasta da eleição de 2026: leitura nossa, sem conferência em decisão do TSE. Cópia local em pesquisa/brutos/planalto-leis/2026-10-23/lcp219.htm.",
+  "notas": "Publicada no DOU de 30/9/2025; vigência na publicação (art. 5º). Como foi publicada mais de um ano antes de 4/10/2026, a regra da anualidade (CF, art. 16) não a afasta da eleição de 2026: leitura nossa, sem conferência em decisão do TSE. Os resumos das decisões de julgamento no andamento da ADI 7881 discutem só a validade das mudanças e não tratam do art. 16. Cópia local em pesquisa/brutos/planalto-leis/2026-10-23/lcp219.htm.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-eleicoes"
+    "tarefa": "verificacao-f0-eleicoes",
+    "notas": "coletado em f0-eleicoes; ementa, data, publicação (DOU 30/9/2025), art. 3º (§ 16 do art. 11 da Lei 9.504) e art. 5º conferidos na cópia local; acrescentada a ADI 7881, pendente em 2026-10-01 (fonte:stf-adi-7881)"
   }
 }

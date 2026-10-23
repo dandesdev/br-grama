@@ -1,0 +1,33 @@
+{
+  "id": "rel:arquetipo-estadual-assembleia-legislativa-aprecia-veto-lei-estadual",
+  "tipo": "relacao",
+  "nome": "Apreciação do veto do governador",
+  "relacao": "aprecia-veto",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "obj:lei-estadual",
+  "condicao": "Mantém ou derruba o veto; no modelo federal, derrubar exige maioria absoluta (art. 66, § 4º).",
+  "depende_de": [
+    "rel:governador-veta-lei-estadual"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, § 4º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "ADI 637"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "Mesma ressalva de rel:governador-sanciona-lei-estadual.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-tipicos"
+  }
+}
