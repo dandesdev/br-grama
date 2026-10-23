@@ -1,28 +1,28 @@
 ---
 id: verificacao-f0-controle
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-controle\""
-status: em-andamento
+status: verificada
 depende_de: [f0-controle]
 iniciada_em: 2026-10-23
-concluida_em: null
+concluida_em: 2026-10-23
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-controle"` conferidas contra a fonte: 29 órgãos (os 27 tribunais de contas, a Secretaria de Controle Interno da Câmara e a CMO), 3 cargos, 9 pessoas, 27 relações, 2 normas, 38 fontes, 8 objetos e 2 processos (etapa por etapa). Confira inciso por inciso que o art. 71 está todo coberto, somando as relações do piloto (`rel:tcu-fiscaliza-uniao`, `rel:tcu-auxilia-congresso`).
-- [ ] Composição do TCU em 2026-10-01: os 9 ministros e o presidente. Confira no DOU as nomeações, posses e aposentadorias perto da data, em especial Odair Cunha (posse em 20/5/2026), Rodrigo Pacheco (posse em 30/9/2026) e a saída de Aroldo Cedraz e Bruno Dantas. Procure o dia de posse de Vital do Rêgo (2014) e de Benjamin Zymler (2001), hoje só com o ano.
-- [ ] Termos criados depois da coleta (aplique trocando verbo e id):
+- [x] Todas as entidades com `"tarefa": "f0-controle"` conferidas contra a fonte: 29 órgãos (os 27 tribunais de contas, a Secretaria de Controle Interno da Câmara e a CMO), 3 cargos, 9 pessoas, 27 relações, 2 normas, 38 fontes, 8 objetos e 2 processos (etapa por etapa). Confira inciso por inciso que o art. 71 está todo coberto, somando as relações do piloto (`rel:tcu-fiscaliza-uniao`, `rel:tcu-auxilia-congresso`).
+- [x] Composição do TCU em 2026-10-01: os 9 ministros e o presidente. Confira no DOU as nomeações, posses e aposentadorias perto da data, em especial Odair Cunha (posse em 20/5/2026), Rodrigo Pacheco (posse em 30/9/2026) e a saída de Aroldo Cedraz e Bruno Dantas. Procure o dia de posse de Vital do Rêgo (2014) e de Benjamin Zymler (2001), hoje só com o ano.
+- [x] Termos criados depois da coleta (aplique trocando verbo e id):
   - `aprecia-para-registro`: as relações do art. 71, III, hoje com `julga` (`rel:tcu-aprecia-admissao-de-pessoal`, `rel:tcu-aprecia-aposentadorias-e-pensoes`)
   - `aplica-sancao`: `rel:tcu-aplica-sancoes` (art. 71, VIII), hoje com `julga`
   - `representa-a`: crie a relação do art. 71, XI (TCU representa ao Poder competente). O alvo pode ser `org:congresso-nacional` com nota de que vale para qualquer Poder, ou outra solução que você justifique no diário.
   - As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-controle"`.
-- [ ] Pontos do coletor a conferir:
+- [x] Pontos do coletor a conferir:
   - `org:cmo` e `norma:resolucao-cn-1-2006`, criados aqui porque o art. 72 precisava da comissão: confira a versão vigente da resolução (houve alterações, como a Resolução 3/2015-CN)
   - sedes de TCE-MT (carta de serviços de 2019) e TCE-RR (deduzida do endereço da Ouvidoria); nome completo do TCE-SC; fontes sem cópia no Wayback (CE, MT, PE, RJ)
   - "cidadão" em `proc:denuncia-ao-tcu` ligado a `org:eleitorado-nacional`: o art. 74, § 2º fala em qualquer cidadão, e eleitorado é um conjunto mais estreito? Diga no diário se é aceitável ou se a etapa deve citar o ator só no texto
   - `cargo:arquetipo-estadual-conselheiro-do-tce`: a divisão 4/3 vem da Súmula 653 (`secundario`); os casos de `provimento_casos` estão coerentes com o art. 73, § 2º, aplicado por simetria (art. 75)?
   - controle interno do Senado (Resolução SF 71/1993?) e do TCU: se achar fonte oficial, complete; se não, registre no diário onde procurou
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-23 17:13 — iniciada; lidos CLAUDE.md, instruções de verificação, decisões, modelo, protocolo e diário da f0-controle
@@ -38,3 +38,8 @@ concluida_em: null
 - 2026-10-23 17:38 — CGU: Lei 14.600/2023, art. 49 (cópia local, sem marcas de alteração; art. 17, XXXI, e art. 79 conferidos) sustenta as quatro relações. Correção: rel:cgu-auxilia-tcu tinha vigencia.de 1988-10-05, anterior à própria CGU; passou a 2023-06-20, como as outras relações da CGU, com nota sobre a origem constitucional do dever. Decisão do coletor de não criar cargo:ministro-da-cgu confere com a lei (art. 17, XXXI; art. 18, I; art. 49, §§ 3º e 4º)
 - 2026-10-23 17:39 — controle interno do TCU (pendência do coletor): Secretaria de Auditoria Interna (Seaud), vinculada à Presidência, com a finalidade de cumprir o art. 74 da CF (Resolução-TCU 373/2024, arts. 66 e 67; vigor em 2/1/2025, art. 98; BTCU Especial de 23/12/2024, cópia em brutos/tcu/2026-10-23; Wayback criado). Ainda citada como vigente na Portaria-Segepres 2/2026 (DOU 5/3/2026). Criados (coletado): norma:resolucao-tcu-373-2024, org:secretaria-de-auditoria-interna-do-tcu, rel:seaud-controla-internamente-tcu
 - 2026-10-23 17:39 — arquétipo: rel:tce-auxilia-assembleia-legislativa e rel:tce-julga-contas-de-gestao verificados (art. 71 c/c art. 75)
+- 2026-10-23 17:48 — criada fonte:alesc-autografo-plc-1-2026 (coletado): ALESC confirma o nome "Tribunal de Contas do Estado de Santa Catarina" (ementa da LC 202/2000); o ofício do próprio TCE-SC de 2023 traz o mesmo nome no cabeçalho. Cópias em pesquisa/brutos/alesc/2026-10-23/
+- 2026-10-23 17:48 — 27 tribunais (26 TCEs e TCDF): nome e cidade da sede conferidos nas cópias brutas (script de busca nos arquivos de pesquisa/brutos/tces/2026-10-22); AC (cidade no link do mapa) e SC (nome) conferidos à mão. Variações em relação ao arquétipo coerentes (BA, GO, PA com TCM; capitais SP e RJ; DF sem municípios; CE fiscaliza os municípios desde a extinção do TCM). Correção nos 27: detalhes e vigencia.nota diziam que a EC 139/2026 "veda sua extinção"; o texto é "vedada sua extinção, criação ou instalação", na mesma frase que cita os tribunais e conselhos de contas dos municípios, e a leitura de que alcança os TCEs é nossa; reescrito como em org:tcu ("instituições permanentes e essenciais ao controle externo"). RR: sede em Boa Vista é dedução, marcada inferido em campos.detalhes. MT: sede pela Carta de Serviços de 2019 mantida (site atual só por JavaScript). Fontes dos portais: verificadas; Wayback criado para CE e PE; MT e RJ falharam (520/523)
+- 2026-10-23 17:57 — org:cmo: depois da minha verificação, a f0-dinheiro completou o órgão (art. 166, § 2º) e o gravou como coletado na tarefa dela (commit 935eada). Não desfiz: a parte desta tarefa (art. 72; Res. 1/2006-CN, arts. 1º, 2º e 5º) ficou conferida e anotada na verificacao.notas dela; o acréscimo fica para a verificacao-f0-dinheiro
+- 2026-10-23 17:57 — concluída: 118 entidades da coleta conferidas (117 marcadas verificado; org:cmo passou à f0-dinheiro). Corrigidas 60 (27 tribunais pela frase da EC 139/2026; as demais listadas acima). Criadas 15, todas coletado: 3 relações representa-a (art. 71, XI), Auditoria do Senado e Seaud do TCU com normas e relações, 5 fontes e 1 aviso (posse de Jhonatan de Jesus). Validação sem erros. Em aberto: data exata da posse de Jhonatan de Jesus (aviso); Wayback de MT e RJ; Constituições estaduais (escolha dos conselheiros) não lidas; termo de vocabulário para nomeação com aprovação do Legislativo estadual
+- 2026-10-23 17:57 — retificação da linha anterior: foram 48 entidades corrigidas, não 60 (27 tribunais; 3 relações com termos novos; 3 objetos; Vital e Zymler, relação e pessoa de cada; nome civil de Pacheco e Odair; relação de Jhonatan; cargo de conselheiro; processo de denúncia; Res. 1/2006-CN; nota da CMO; Res. 69/1994, Secin e sua relação; rel:cgu-auxilia-tcu). Outras 13 receberam só acréscimos (atos do DOU em 4 relações ocupa, arquivo do Wayback em 9 fontes)

@@ -4,7 +4,7 @@
   "nome": "Tribunal de Contas do Estado do Rio de Janeiro",
   "sigla": "TCE-RJ",
   "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado do Rio de Janeiro e as Câmaras de todos os municípios, exceto a capital. Sede: Rio de Janeiro.",
-  "detalhes": "Abrange: Rio de Janeiro. Sede: Rio de Janeiro (RJ). Diferente do arquétipo só na capital, que tem tribunal de contas do município próprio (TCMRio). Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "detalhes": "Abrange: Rio de Janeiro. Sede: Rio de Janeiro (RJ). Diferente do arquétipo só na capital, que tem tribunal de contas do município próprio (TCMRio). Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026, a Constituição declara os tribunais de contas instituições permanentes e essenciais ao controle externo.",
   "tipo_orgao": "tribunal-de-contas",
   "poder": "legislativo",
   "esfera": "estadual",
@@ -35,13 +35,14 @@
   "vigencia": {
     "de": null,
     "ate": null,
-    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) declara os tribunais de contas instituições permanentes."
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-controle"
+    "tarefa": "verificacao-f0-controle",
+    "notas": "coletado em f0-controle; nome, cidade da sede e site conferidos nas cópias brutas de 2026-10-22; variação em relação ao arquétipo conferida; corrigida a frase sobre a EC 139/2026 em detalhes e vigencia.nota (\"veda sua extinção\" passou a \"instituições permanentes e essenciais ao controle externo\", como em org:tcu)"
   },
   "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/rj.html; rj-atribuicoes.html e rj-localizacao.html). Endereço da sede: \"EDIFÍCIO RUI BARBOSA (EDIFÍCIO-SEDE) Praça da República, 50 - Centro - Rio de Janeiro - Brasil - CEP: 20211-351\". O endereço www.tcerj.tc.br redireciona para www.tcerj.tc.br/portalnovo/. Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
   "campos": {
