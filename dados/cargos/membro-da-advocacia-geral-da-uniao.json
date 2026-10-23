@@ -1,0 +1,50 @@
+{
+  "id": "cargo:membro-da-advocacia-geral-da-uniao",
+  "tipo": "cargo",
+  "nome": "Advogado da União e Procurador da Fazenda Nacional",
+  "resumo": "Membros de carreira da AGU, que defendem a União em juízo e prestam consultoria jurídica ao Executivo. Ingressam por concurso público.",
+  "orgao": "org:agu",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos nas classes iniciais, com nomeação pela ordem de classificação (CF, art. 131, § 2º; LC 73/1993, art. 21). Os dois primeiros anos são de estágio confirmatório (art. 22).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, sem mandato nem vitaliciedade."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 131, § 2º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "A LC 73/1993 criou as carreiras de Advogado da União, de Procurador da Fazenda Nacional e de Assistente Jurídico, cada uma com três categorias (art. 20). São remunerados por subsídio (CF, art. 135).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, § 2º; art. 135"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 20 a 22"
+    }
+  ],
+  "notas": "Cargo agregado. Os procuradores federais, que representam autarquias e fundações, têm carreira própria em lei posterior, não pesquisada aqui.",
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null,
+    "nota": "Carreiras criadas pela LC 73/1993."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

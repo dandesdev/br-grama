@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-nomeia-advogado-geral-da-uniao",
+  "tipo": "relacao",
+  "nome": "Nomeação do Advogado-Geral da União",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:advogado-geral-da-uniao",
+  "condicao": "Livre nomeação, sem aprovação do Senado, entre cidadãos com mais de 35 anos, de notável saber jurídico e reputação ilibada.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVI; art. 131, § 1º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

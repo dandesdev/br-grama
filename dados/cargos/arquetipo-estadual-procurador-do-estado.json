@@ -1,0 +1,46 @@
+{
+  "id": "cargo:arquetipo-estadual-procurador-do-estado",
+  "tipo": "cargo",
+  "nome": "Procurador do Estado",
+  "resumo": "Advogado público de carreira do estado. Ingressa por concurso público e tem estabilidade após três anos.",
+  "orgao": "org:arquetipo-estadual-procuradoria-geral",
+  "arquetipo": "estadual",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado na lei de cada estado; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos, com participação da OAB em todas as fases (CF, art. 132, caput).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo. Estabilidade após três anos de efetivo exercício, com avaliação de desempenho e relatório das corregedorias (art. 132, parágrafo único)."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB em todas as fases",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 132, caput"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Faz a representação judicial e a consultoria jurídica do estado (CF, art. 132). É remunerado por subsídio (art. 135).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 132; art. 135"
+    }
+  ],
+  "notas": "Vale também para os procuradores do Distrito Federal (art. 132).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

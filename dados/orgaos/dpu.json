@@ -1,0 +1,47 @@
+{
+  "id": "org:dpu",
+  "tipo": "orgao",
+  "nome": "Defensoria Pública da União",
+  "sigla": "DPU",
+  "resumo": "Presta orientação jurídica e defesa gratuita a quem não pode pagar, nas causas da Justiça Federal, do Trabalho, Eleitoral e Militar e nos tribunais superiores.",
+  "detalhes": "Como as demais Defensorias, tem autonomia funcional e administrativa e faz a própria proposta orçamentária (CF, art. 134, §§ 2º e 3º). É chefiada pelo Defensor Público-Geral Federal, que atua junto ao STF (LC 80/1994, arts. 6º e 23). Os defensores públicos federais atuam nos estados e no DF, nas unidades da DPU (art. 5º).",
+  "tipo_orgao": "defensoria-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 134, caput, §§ 1º a 4º"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 1º, 2º, I, 5º, 6º e 20 a 23"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 5º",
+      "nota": "órgãos de administração superior, de atuação e de execução"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Defensoria Pública da União",
+      "url": "https://www.dpu.def.br"
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Organizada pela LC 80/1994; a CF já a previa desde 1988."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "A autonomia da DPU veio com a EC 74/2013, que estendeu a ela o § 2º do art. 134 (marca no texto do Planalto). A Defensoria do DF não foi modelada."
+}

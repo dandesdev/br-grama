@@ -1,0 +1,40 @@
+{
+  "id": "org:arquetipo-estadual-procuradoria-geral",
+  "tipo": "orgao",
+  "nome": "Procuradoria-Geral do Estado",
+  "sigla": "PGE",
+  "resumo": "Advocacia pública do estado: representa o estado em juízo e presta consultoria jurídica ao governo estadual.",
+  "detalhes": "Os procuradores do estado são organizados em carreira, com ingresso por concurso público com participação da OAB em todas as fases (CF, art. 132). A organização, a chefia e a forma de escolha do procurador-geral são definidas pela constituição e pelas leis de cada estado. O DF tem órgão equivalente (art. 132).",
+  "tipo_orgao": "advocacia-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 132, caput e parágrafo único"
+    }
+  ],
+  "campos": {
+    "sigla": {
+      "confianca": "inferido",
+      "nota": "Sigla genérica de uso comum; a CF não usa sigla nem o nome \"Procuradoria-Geral do Estado\", só \"Procuradores dos Estados e do Distrito Federal\"."
+    },
+    "nome": {
+      "confianca": "inferido",
+      "nota": "A CF trata dos procuradores, não do órgão; o nome usual vem das constituições estaduais, não conferidas."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "A CF não diz como se escolhe o procurador-geral do estado; por isso não criamos o cargo de chefia no arquétipo. Sem contido_em: o arquétipo estadual ainda não tem nó de Poder Executivo (f0-tipicos)."
+}

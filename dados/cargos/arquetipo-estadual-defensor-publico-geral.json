@@ -1,0 +1,46 @@
+{
+  "id": "cargo:arquetipo-estadual-defensor-publico-geral",
+  "tipo": "cargo",
+  "nome": "Defensor Público-Geral do Estado",
+  "resumo": "Chefe da Defensoria Pública do estado, nomeado pelo governador a partir de lista tríplice eleita pela carreira, para mandato de dois anos.",
+  "orgao": "org:arquetipo-estadual-defensoria-publica",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "Os membros da carreira elegem uma lista tríplice por voto direto, secreto, plurinominal e obrigatório; o governador nomeia um dos três. Se não nomear em 15 dias, assume automaticamente o mais votado (LC 80/1994, art. 99, caput e § 4º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "LC 80/1994, art. 99, caput."
+  },
+  "requisitos": [
+    {
+      "texto": "membro estável da carreira, com mais de 35 anos, incluído em lista tríplice",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99, caput"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Dirige a Defensoria do estado e a representa judicial e extrajudicialmente (LC 80/1994, art. 100).",
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 99 e 100"
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Regra atual de escolha pela LC 132/2009, que deu nova redação ao art. 99."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

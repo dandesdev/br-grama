@@ -1,0 +1,56 @@
+{
+  "id": "org:tce-mt",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Estado de Mato Grosso",
+  "sigla": "TCE-MT",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado de Mato Grosso e as Câmaras Municipais no controle externo dos municípios. Sede: Cuiabá.",
+  "detalhes": "Abrange: Mato Grosso. Sede: Cuiabá (MT). Fiscaliza também os municípios do estado, como no arquétipo. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "ente": "ente:mt",
+  "jurisdicao": [
+    "ente:mt"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tce-mt-portal",
+      "dispositivo": "página inicial (nome e sigla)"
+    },
+    {
+      "ref": "fonte:tce-mt-carta-de-servicos-2019",
+      "dispositivo": "seção '1. Pessoal' (prédio sede e endereço)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCE-MT",
+      "url": "https://www.tce.mt.gov.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/mt.html; mt-contato.html; texto da Carta de serviços em mt-carta-de-servicos-2019.txt). Endereço da sede: \"Prédio Sede – Edifício Marechal Rondon. Endereço: Rua Conselheiro Benjamin Duarte Monteiro, nº 1 Centro Político Administrativo - Cuiabá-MT (Carta de serviços ao usuário, 3. ed., 2019)\". O site do TCE-MT monta o rodapé por JavaScript e rejeita acessos automatizados (página 'Request Rejected'); o endereço não pôde ser lido nele. Usamos a Carta de serviços ao usuário do próprio TCE-MT (3. ed., 2019), que é de 2019: o endereço pode ter mudado, mas a sede em Cuiabá é a mesma citada nas notícias do site. Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCE-MT. Formas usadas no próprio site: TCE-MT."
+    }
+  }
+}

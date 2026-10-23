@@ -1,0 +1,106 @@
+{
+  "id": "cargo:arquetipo-estadual-conselheiro-do-tce",
+  "tipo": "cargo",
+  "arquetipo": "estadual",
+  "nome": "Conselheiro do Tribunal de Contas do Estado",
+  "resumo": "Integra o tribunal de contas estadual, de sete conselheiros. Quatro são escolhidos pela Assembleia Legislativa e três pelo Governador.",
+  "detalhes": "As regras do TCU valem, no que couber, para os tribunais de contas dos estados e do DF (CF, art. 75). Por isso a escolha segue a proporção do art. 73, § 2º: dois terços pelo Legislativo e um terço pelo chefe do Executivo, que indica um auditor, um membro do Ministério Público junto ao tribunal e um nome de livre escolha (Súmula 653 do STF).",
+  "orgao": "org:arquetipo-estadual-tce",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "Quatro das sete vagas",
+      "provimento": "escolha-pelo-legislativo",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 73, § 2º, II, c/c art. 75"
+        },
+        {
+          "ref": "fonte:stf-sumula-653",
+          "dispositivo": null
+        }
+      ]
+    },
+    {
+      "quando": "Duas das sete vagas: uma entre auditores (conselheiros substitutos) e outra entre membros do Ministério Público junto ao tribunal",
+      "provimento": "nomeacao-a-partir-de-lista",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 73, § 2º, I, c/c art. 75"
+        },
+        {
+          "ref": "fonte:stf-sumula-653",
+          "dispositivo": null
+        }
+      ]
+    },
+    {
+      "quando": "Uma das sete vagas: livre escolha do Governador",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "fonte:stf-sumula-653",
+          "dispositivo": null
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Quatro conselheiros são escolhidos pela Assembleia Legislativa. Três são escolhidos pelo Governador: um dentre auditores, um dentre membros do Ministério Público junto ao tribunal e um de livre escolha (Súmula 653 do STF). Na União, os dois nomes técnicos saem de lista tríplice do tribunal e todos os escolhidos pelo Presidente passam pelo Senado (art. 73, § 2º, I); nos estados, a lista e a aprovação pela Assembleia dependem de cada Constituição estadual, que dispõe sobre o tribunal (art. 75, parágrafo único).",
+  "vagas": 7,
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Não há mandato. Pela regra do art. 75, aplica-se, no que couber, o art. 73, § 3º (garantias dos ministros do TCU). A aposentadoria compulsória aos 75 anos vale para os membros dos Tribunais e Conselhos de Contas (LC 152/2015, art. 2º, V)."
+  },
+  "requisitos": [
+    {
+      "texto": "os mesmos exigidos dos ministros do TCU, no que couber: brasileiro, mais de 35 e menos de 70 anos, idoneidade moral, notórios conhecimentos e mais de 10 anos de atividade que os exija",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 73, § 1º, c/c art. 75"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, §§ 1º a 3º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, V"
+    },
+    {
+      "ref": "fonte:stf-sumula-653",
+      "dispositivo": null
+    }
+  ],
+  "campos": {
+    "provimento_casos": {
+      "fontes": [
+        {
+          "ref": "fonte:stf-sumula-653",
+          "dispositivo": null
+        }
+      ],
+      "confianca": "secundario",
+      "nota": "A divisão 4 + 3 e a origem das vagas do Governador vêm da Súmula 653 do STF, usada como fonte secundária de interpretação: a CF diz só que as regras do TCU valem 'no que couber' e que os tribunais estaduais têm sete conselheiros."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "Vale também para o TCDF (art. 75). Vocabulário: o caso de livre escolha do Governador usa 'nomeacao-livre' por falta de um termo para nomeação com aprovação do Legislativo estadual; a aprovação pela Assembleia, quando houver, vem da Constituição estadual (não pesquisada estado a estado). 'Conselheiro substituto' é o nome usado nos sites de vários TCEs para os auditores do art. 73, § 4º (ex.: TCE-AP, TCE-TO).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

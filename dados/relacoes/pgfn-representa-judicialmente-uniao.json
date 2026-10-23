@@ -1,0 +1,29 @@
+{
+  "id": "rel:pgfn-representa-judicialmente-uniao",
+  "tipo": "relacao",
+  "nome": "A PGFN representa a União nas causas fiscais",
+  "relacao": "representa-judicialmente",
+  "de": "org:pgfn",
+  "para": "ente:uniao",
+  "condicao": "Representa privativamente a União na execução da dívida ativa tributária e nas causas de natureza fiscal; também apura e inscreve a dívida ativa tributária.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, § 3º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 12, I, II e V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

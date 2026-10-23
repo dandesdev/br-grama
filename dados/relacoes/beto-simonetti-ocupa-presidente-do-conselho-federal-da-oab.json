@@ -1,0 +1,35 @@
+{
+  "id": "rel:beto-simonetti-ocupa-presidente-do-conselho-federal-da-oab",
+  "tipo": "relacao",
+  "nome": "Beto Simonetti é presidente do Conselho Federal da OAB",
+  "relacao": "ocupa",
+  "de": "pessoa:beto-simonetti",
+  "para": "cargo:presidente-do-conselho-federal-da-oab",
+  "condicao": "Primeiro mandato a partir de 2022; reeleito em 31/1/2025 para mandato até 2028.",
+  "vigencia": {
+    "de": "2022-02-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Dia 1º de fevereiro pela regra de posse da Lei 8.906/1994, art. 67, IV; a OAB diz só que a primeira gestão foi \"iniciada em 2022\". Reeleição sem interrupção, posse em 1º/2/2025; um só período contínuo. Em exercício em 2026-10-01: mandato até 2028 e presidente na página da diretoria acessada em 2026-10-23."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:oab-noticia-reeleicao-simonetti-2025",
+      "dispositivo": "texto da notícia"
+    },
+    {
+      "ref": "fonte:oab-diretoria-conselho-federal",
+      "dispositivo": "lista da diretoria"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 67, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

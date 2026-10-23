@@ -1,0 +1,52 @@
+{
+  "id": "org:pgfn",
+  "tipo": "orgao",
+  "nome": "Procuradoria-Geral da Fazenda Nacional",
+  "sigla": "PGFN",
+  "resumo": "Órgão da AGU que inscreve e cobra a dívida ativa tributária da União e a representa nas causas fiscais.",
+  "detalhes": "Na execução da dívida ativa tributária, a representação da União cabe à PGFN (CF, art. 131, § 3º). É órgão de direção superior da AGU, subordinado técnica e juridicamente ao Advogado-Geral e administrativamente ao Ministro da Fazenda (LC 73/1993, art. 2º, I, b, e § 1º; art. 12). O Procurador-Geral da Fazenda Nacional é nomeado pelo Presidente por indicação do Ministro da Fazenda (art. 49, III).",
+  "tipo_orgao": "advocacia-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 12, caput",
+          "nota": "órgão administrativamente subordinado ao titular do Ministério da Fazenda"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, § 3º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º, I, b, e § 1º; art. 12; art. 49, III"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Procuradoria-Geral da Fazenda Nacional",
+      "url": "https://www.gov.br/pgfn/pt-br"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "contido_em segue a subordinação administrativa ao Ministério da Fazenda (LC 73/1993, art. 12); a pertença à AGU vai na relação rel:pgfn-integra-agu, que não repete o contido_em. Posição no SIORG não conferida."
+}

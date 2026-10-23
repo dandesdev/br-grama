@@ -26,6 +26,10 @@
     {
       "ref": "norma:lei-14600-2023",
       "dispositivo": "art. 2º, § 1º, VI; art. 14; art. 18, VII"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 1º a 4º"
     }
   ],
   "estrutura_continua": [
@@ -33,6 +37,11 @@
       "ref": "norma:decreto-12540-2025",
       "dispositivo": "Anexo I",
       "nota": "estrutura regimental"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º",
+      "nota": "órgãos de direção superior, de execução e vinculados"
     }
   ],
   "vigencia": {
@@ -43,8 +52,9 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-executivo"
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais",
+    "notas": "coletado em f0-executivo (2026-10-18); complementado em f0-funcoes-essenciais (detalhes, fontes e estrutura_continua com a LC 73/1993)"
   },
   "mais_informacoes": [
     {
@@ -52,6 +62,6 @@
       "url": "https://www.gov.br/agu/pt-br"
     }
   ],
-  "detalhes": "A Constituição a coloca entre as funções essenciais à Justiça (art. 131). O Advogado-Geral da União, de livre nomeação do Presidente entre maiores de 35 anos de notável saber jurídico e reputação ilibada, tem status de Ministro de Estado e assessora juridicamente o Presidente (Lei 14.600/2023, arts. 14 e 18, VII).",
-  "notas": "Sem contido_em, como org:ministerio-publico-da-uniao: a CF trata a AGU no capítulo das funções essenciais à Justiça. A Lei 14.600/2023 (art. 2º, § 1º, VI) põe o Advogado-Geral da União entre os órgãos de assessoramento que integram a Presidência, e o SIORG mostra a AGU abaixo da Presidência. Estrutura e funcionamento na LC 73/1993, que não foi cadastrada."
+  "detalhes": "A Constituição a coloca entre as funções essenciais à Justiça (art. 131). Representa a União em juízo, diretamente ou por órgão vinculado; na execução da dívida ativa tributária, a representação cabe à Procuradoria-Geral da Fazenda Nacional (art. 131, § 3º). O Advogado-Geral da União, de livre nomeação do Presidente, tem cargo de Ministro de Estado (Lei 14.600/2023, art. 18, VII). Compreende, entre outros, a Procuradoria-Geral da União, a PGFN e a Consultoria-Geral da União (LC 73/1993, art. 2º).",
+  "notas": "Sem contido_em, como org:ministerio-publico-da-uniao: a CF trata a AGU no capítulo das funções essenciais à Justiça. A Lei 14.600/2023 (art. 2º, § 1º, VI) põe o Advogado-Geral da União entre os órgãos de assessoramento que integram a Presidência, e o SIORG mostra a AGU abaixo da Presidência. Estrutura e funcionamento na LC 73/1993 (norma:lc-73-1993, cadastrada em f0-funcoes-essenciais)."
 }

@@ -1,0 +1,40 @@
+{
+  "id": "org:arquetipo-estadual-defensoria-publica",
+  "tipo": "orgao",
+  "nome": "Defensoria Pública do Estado",
+  "resumo": "Presta orientação jurídica e defesa gratuita a quem não pode pagar, nas causas da Justiça estadual. Chefiada pelo defensor público-geral.",
+  "detalhes": "Tem autonomia funcional e administrativa e a iniciativa da própria proposta orçamentária, dentro da lei de diretrizes orçamentárias (CF, art. 134, § 2º, incluído pela EC 45/2004). A LC 80/1994 traz normas gerais; cada estado a organiza por lei complementar própria (art. 134, § 1º).",
+  "tipo_orgao": "defensoria-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 134, caput, §§ 1º, 2º e 4º"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 2º, III; arts. 97-A, 98 e 99"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 98",
+      "nota": "órgãos da Defensoria Pública dos Estados, detalhados na lei de cada estado"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Data da promulgação da CF/88, base usada aqui."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Sem sigla: cada estado usa a sua. Sem contido_em, como as demais funções essenciais à Justiça."
+}

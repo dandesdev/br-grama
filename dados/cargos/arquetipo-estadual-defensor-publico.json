@@ -1,0 +1,53 @@
+{
+  "id": "cargo:arquetipo-estadual-defensor-publico",
+  "tipo": "cargo",
+  "nome": "Defensor Público do Estado",
+  "resumo": "Membro da carreira da Defensoria Pública do estado. Ingressa por concurso público.",
+  "orgao": "org:arquetipo-estadual-defensoria-publica",
+  "arquetipo": "estadual",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado na lei de cada estado; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos, com participação da OAB, nos cargos iniciais da carreira (CF, art. 134, § 1º; LC 80/1994, art. 112).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, com estabilidade (LC 80/1994, art. 127, IV)."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 134, § 1º"
+        },
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 112"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Tem inamovibilidade e não pode advogar fora das atribuições institucionais (CF, art. 134, § 1º). Garantias: independência funcional, inamovibilidade, irredutibilidade de vencimentos e estabilidade (LC 80/1994, art. 127).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 134, § 1º; art. 135"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 112 e 127"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

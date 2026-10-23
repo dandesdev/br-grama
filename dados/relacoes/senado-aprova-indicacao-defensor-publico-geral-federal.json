@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-aprova-indicacao-defensor-publico-geral-federal",
+  "tipo": "relacao",
+  "nome": "Aprovação do Defensor Público-Geral Federal",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:defensor-publico-geral-federal",
+  "condicao": "Aprova o nome escolhido pelo Presidente na lista tríplice, antes da nomeação; também cada recondução.",
+  "quorum": {
+    "regra": "maioria-absoluta"
+  },
+  "vigencia": {
+    "de": "2009-10-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Regra da LC 132/2009, que deu a redação atual ao art. 6º da LC 80/1994; a data é a da LC 132/2009, não conferida no texto dela."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:conselho-federal-da-oab-indica-conselheiro-do-cnmp",
+  "tipo": "relacao",
+  "nome": "Indicação de conselheiro do CNMP",
+  "relacao": "indica",
+  "de": "org:conselho-federal-da-oab",
+  "para": "cargo:conselheiro-do-cnmp",
+  "condicao": "Indica dois advogados.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 130-A, V"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

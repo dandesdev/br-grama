@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-exonera-advogado-geral-da-uniao",
+  "tipo": "relacao",
+  "nome": "Exoneração do Advogado-Geral da União",
+  "relacao": "exonera",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:advogado-geral-da-uniao",
+  "condicao": "Livremente, a qualquer tempo.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, I; art. 131, § 1º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 18, VII"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "Inferido: a CF diz \"livre nomeação\" (art. 131, § 1º) e não fala em exoneração do AGU; como o AGU é Ministro de Estado (Lei 14.600/2023, art. 18, VII), aplica-se o art. 84, I (nomear e exonerar os Ministros de Estado).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

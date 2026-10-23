@@ -1,0 +1,162 @@
+{
+  "id": "proc:denuncia-ao-tcu",
+  "tipo": "processo",
+  "nome": "Denúncia de irregularidades ao TCU",
+  "resumo": "Qualquer cidadão, partido, associação ou sindicato pode denunciar irregularidades ao TCU. A apuração é sigilosa até haver provas; o denunciante não pode ser punido, salvo má-fé.",
+  "detalhes": "A Constituição dá a qualquer cidadão, partido político, associação ou sindicato o direito de denunciar irregularidades ou ilegalidades ao TCU (art. 74, § 2º). A Lei Orgânica do TCU regula a apuração: sigilo no início, arquivamento só depois de diligências e ampla defesa quando houver provas.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "denuncia",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Um cidadão, partido político, associação ou sindicato denuncia irregularidade ou ilegalidade ao TCU",
+      "detalhes": "Partidos, associações e sindicatos também podem denunciar, mas não têm nó próprio no mapa; o ator mostrado é o eleitorado, que reúne os cidadãos. O denunciante não sofre sanção administrativa, civil ou penal pela denúncia, salvo má-fé comprovada.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 74, § 2º"
+        },
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 53, caput; art. 55, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apuracao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "apuracao",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "O TCU apura a denúncia em caráter sigiloso, até comprovar sua procedência",
+      "detalhes": "O sigilo protege os direitos e garantias individuais e dura até a decisão definitiva. Depois de 90 dias do recebimento da denúncia, o denunciante tem direito a certidão dos despachos e fatos apurados, mesmo que a investigação não tenha terminado.",
+      "prazo": {
+        "texto": "certidão ao denunciante: em até 15 dias do pedido, se o processo estiver concluído ou arquivado; obrigatória após 90 dias do recebimento da denúncia",
+        "valor": 90,
+        "unidade": "dias",
+        "conta_de": "recebimento da denúncia",
+        "efeito": "o denunciante passa a ter direito à certidão dos despachos e fatos apurados"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 53, § 3º; art. 54; art. 55, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "procedencia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "procedencia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "Há provas de irregularidade ou ilegalidade?",
+      "detalhes": "Sem provas, a denúncia só pode ser arquivada depois das diligências pertinentes, por despacho fundamentado. Com provas, os demais atos do processo passam a ser públicos.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 53, §§ 3º e 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "arquivamento",
+          "quando": "não há provas, depois das diligências"
+        },
+        {
+          "para": "processo-publico",
+          "quando": "há provas"
+        }
+      ]
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "A denúncia é arquivada por despacho fundamentado",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 53, § 3º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "processo-publico",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "Os atos seguintes do processo são públicos, e os acusados têm ampla defesa",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 53, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao-final",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decisao-final",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:tcu"
+      ],
+      "acao": "O TCU decide e só mantém o sigilo do objeto e da autoria se for imprescindível à segurança da sociedade e do Estado",
+      "detalhes": "Se comprovar irregularidade, o Tribunal pode aplicar as sanções da lei (CF, art. 71, VIII).",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 55, caput e § 3º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 71, VIII"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "O direito de denunciar está na CF desde 1988 (art. 74, § 2º); o rito descrito é o da Lei 8.443/1992."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 74, § 2º"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "arts. 53 a 55"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O art. 55, § 1º (o Tribunal decide se mantém ou não o sigilo de objeto e autoria) tem expressão suspensa pela Resolução SF 16/2006, segundo anotação do Planalto; por isso a etapa final usa só o § 3º (Lei 13.866/2019). A resolução do Senado não foi lida. 'Cidadão' aqui foi associado ao eleitorado (org:eleitorado-nacional); se o mapa ganhar um nó para a sociedade civil ou para os partidos em conjunto, o ator da etapa 'denuncia' deve ser revisto.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

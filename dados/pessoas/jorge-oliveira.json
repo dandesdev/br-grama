@@ -1,0 +1,35 @@
+{
+  "id": "pessoa:jorge-oliveira",
+  "tipo": "pessoa",
+  "nome": "Jorge Oliveira",
+  "nome_civil": "Jorge Antonio de Oliveira Francisco",
+  "resumo": "Vice-Presidente do TCU e ministro desde 31 de dezembro de 2020.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros (nome completo)"
+    },
+    {
+      "ref": "fonte:tcu-noticia-posse-jorge-oliveira",
+      "dispositivo": "posse na manhã de quinta-feira, 31/12/2020"
+    }
+  ],
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TCU: página do ministro Jorge Oliveira",
+      "url": "https://portal.tcu.gov.br/autoridades/ministros/ministro-jorge-oliveira"
+    }
+  ],
+  "notas": "Nome completo conforme a lista de ministros do TCU. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
+}

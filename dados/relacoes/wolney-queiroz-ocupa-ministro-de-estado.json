@@ -5,7 +5,7 @@
   "relacao": "ocupa",
   "de": "pessoa:wolney-queiroz",
   "para": "cargo:ministro-de-estado",
-  "condicao": "Titular da pasta: Ministério da Previdência Social (org:ministerio-da-previdencia-social).",
+  "condicao": "Titular da pasta.",
   "orgao_exercicio": "org:ministerio-da-previdencia-social",
   "vigencia": {
     "de": "2025-05-02",
@@ -26,8 +26,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; decreto de nomeação conferido (cópia local do DOU); atos do titular perto de 2026-10-01 conferidos no DOU; nenhuma exoneração desta pessoa do cargo de Ministro de Estado no DOU entre a nomeação e 22/10/2026 (busca mês a mês, todas as seções, jan/2023 a out/2026); orgao_exercicio conferido"
   }
 }

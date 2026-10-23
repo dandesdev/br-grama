@@ -1,0 +1,29 @@
+{
+  "id": "rel:conselho-federal-da-oab-propoe-adi-e-adc",
+  "tipo": "relacao",
+  "nome": "Conselho Federal da OAB pode propor ADI e ADC",
+  "relacao": "propoe",
+  "de": "org:conselho-federal-da-oab",
+  "para": "obj:adi-e-adc",
+  "condicao": "É um dos legitimados do art. 103 da CF.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, VII"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 54, XIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

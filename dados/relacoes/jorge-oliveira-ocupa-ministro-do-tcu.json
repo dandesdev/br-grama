@@ -1,0 +1,29 @@
+{
+  "id": "rel:jorge-oliveira-ocupa-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Jorge Oliveira ocupa o cargo de Ministro do TCU",
+  "relacao": "ocupa",
+  "de": "pessoa:jorge-oliveira",
+  "para": "cargo:ministro-do-tcu",
+  "vigencia": {
+    "de": "2020-12-31",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-noticia-posse-jorge-oliveira",
+      "dispositivo": "posse na manhã de quinta-feira, 31/12/2020"
+    },
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros",
+      "nota": "consta da composição em 2026-10-23. Os nove ministros atuais tomaram posse até 30/9/2026 e o cargo tem nove vagas; logo, esta era a composição em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pessoa:benjamin-zymler",
+  "tipo": "pessoa",
+  "nome": "Benjamin Zymler",
+  "nome_civil": "Benjamin Zymler",
+  "resumo": "Ministro do TCU desde 2001; antes foi ministro-substituto do Tribunal.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros (nome completo)"
+    },
+    {
+      "ref": "fonte:tcu-curriculos-ministros",
+      "dispositivo": "currículo do ministro Benjamin Zymler: \"Desde 2001 Ministro do Tribunal de Contas da União\"; \"1998/2001 Ministro-substituto\""
+    }
+  ],
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TCU: página do ministro Benjamin Zymler",
+      "url": "https://portal.tcu.gov.br/autoridades/ministros/ministro-benjamin-zymler"
+    }
+  ],
+  "notas": "Nome completo conforme a lista de ministros do TCU. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
+}

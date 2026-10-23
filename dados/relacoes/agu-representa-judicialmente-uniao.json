@@ -1,0 +1,29 @@
+{
+  "id": "rel:agu-representa-judicialmente-uniao",
+  "tipo": "relacao",
+  "nome": "A AGU representa a União",
+  "relacao": "representa-judicialmente",
+  "de": "org:agu",
+  "para": "ente:uniao",
+  "condicao": "Representa a União judicial e extrajudicialmente, diretamente ou por órgão vinculado. Na execução da dívida ativa tributária, a representação cabe à PGFN.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, caput e § 3º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

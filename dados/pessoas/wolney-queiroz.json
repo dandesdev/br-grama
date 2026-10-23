@@ -23,9 +23,10 @@
   "filiacoes": [],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; nome civil conferido no decreto de nomeação e em atos de set-out/2026"
   },
-  "notas": "Filiação partidária não pesquisada em fonte oficial; não é parlamentar na 57ª legislatura."
+  "notas": "Filiação partidária não confirmada em fonte oficial para 2026: não está na 57ª legislatura da Câmara; a API da Câmara o registra como PDT-PE na 56ª legislatura (2019-2023, deputado 74439), o que não prova a filiação em 2026-10-01. A consulta de filiados do TSE estava fora do ar em 2026-10-22 e 23."
 }

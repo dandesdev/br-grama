@@ -1,0 +1,52 @@
+{
+  "id": "org:tce-sc",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Estado de Santa Catarina",
+  "sigla": "TCE-SC",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado de Santa Catarina e as Câmaras Municipais no controle externo dos municípios. Sede: Florianópolis.",
+  "detalhes": "Abrange: Santa Catarina. Sede: Florianópolis (SC). Fiscaliza também os municípios do estado, como no arquétipo. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "ente": "ente:sc",
+  "jurisdicao": [
+    "ente:sc"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tce-sc-portal",
+      "dispositivo": "página inicial (sigla, endereço e links para a Lei Orgânica e o Regimento Interno, cujos títulos trazem o nome completo)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCE-SC",
+      "url": "https://www.tcesc.tc.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/sc.html). Endereço da sede: \"Acesso pela rua José da Costa Moellmann, 104 Centro — Florianópolis (SC) — CEP 88020-170\". O texto do site usa 'Tribunal de Contas de Santa Catarina'. O nome completo, 'Tribunal de Contas do Estado de Santa Catarina', está no título da Lei Complementar estadual 202/2000 (Lei Orgânica do tribunal) e do Regimento Interno (Resolução 6/2001), ambos ligados na página inicial; o texto dessas normas não foi lido. Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCE-SC. Formas usadas no próprio site: TCE/SC, TCE-SC."
+    }
+  }
+}

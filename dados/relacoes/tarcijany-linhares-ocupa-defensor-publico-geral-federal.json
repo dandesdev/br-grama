@@ -1,0 +1,31 @@
+{
+  "id": "rel:tarcijany-linhares-ocupa-defensor-publico-geral-federal",
+  "tipo": "relacao",
+  "nome": "Tarcijany Linhares é Defensora Pública-Geral Federal",
+  "relacao": "ocupa",
+  "de": "pessoa:tarcijany-linhares",
+  "para": "cargo:defensor-publico-geral-federal",
+  "condicao": "Mandato de dois anos (biênio 2026-2028).",
+  "vigencia": {
+    "de": "2026-05-06",
+    "ate": null,
+    "nota": "Data da publicação da nomeação no DOU; a data da posse não foi pesquisada. Em exercício em 2026-10-01: assina a Portaria GABDPGF DPGU nº 1.389, de 19/9/2026, publicada no DOU de 1º/10/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-msf-12-2026",
+      "dispositivo": "tramitação: aprovação em 29/4/2026; nomeação no DOU nº 83-A, Seção II, edição extra, de 6/5/2026, p. 1"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GABDPGF DPGU nº 1.389, de 19/9/2026 (DOU 1º/10/2026, Seção 2), assinada por Tarcijany Linhares Aguiar Machado como Defensora Pública-Geral Federal",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabdpgf-dpgu-n-1.389-de-19-de-setembro-de-2026-735904078"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

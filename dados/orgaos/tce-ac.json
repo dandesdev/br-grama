@@ -1,0 +1,52 @@
+{
+  "id": "org:tce-ac",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Estado do Acre",
+  "sigla": "TCE-AC",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado do Acre e as Câmaras Municipais no controle externo dos municípios. Sede: Rio Branco.",
+  "detalhes": "Abrange: Acre. Sede: Rio Branco (AC). Fiscaliza também os municípios do estado, como no arquétipo. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "ente": "ente:ac",
+  "jurisdicao": [
+    "ente:ac"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tce-ac-portal",
+      "dispositivo": "página inicial e página Contatos, https://tceac.tc.br/site/inicio/contatos/ (nome, sigla e endereço da sede)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCE-AC",
+      "url": "https://tceac.tc.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/ac.html; ac-contatos.html). Endereço da sede: \"Av. Ceará, 2994, 7ºBEC - CEP 69.918-111; o link do mapa na mesma página diz: Av. Ceará, 2994 - Estação Experimental, Rio Branco - AC, 69918-111\". O endereço tceac.tc.br redireciona para tceac.tc.br/site/. O domínio www.tce.ac.gov.br não respondeu. Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCE-AC. Formas usadas no próprio site: TCE-AC."
+    }
+  }
+}

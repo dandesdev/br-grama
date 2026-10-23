@@ -1,0 +1,33 @@
+{
+  "id": "rel:advogado-geral-da-uniao-assessora-presidente",
+  "tipo": "relacao",
+  "nome": "Assessoramento jurídico do Presidente",
+  "relacao": "assessora",
+  "de": "cargo:advogado-geral-da-uniao",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "É o mais elevado órgão de assessoramento jurídico do Executivo, sob supervisão direta do Presidente; elabora pareceres, sugere medidas e assiste no controle interno da legalidade.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, caput"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 3º, § 1º; art. 4º, II, VII a IX"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 14, I a III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "org:conselho-federal-da-oab",
+  "tipo": "orgao",
+  "nome": "Conselho Federal da Ordem dos Advogados do Brasil",
+  "sigla": "CFOAB",
+  "resumo": "Órgão supremo da OAB, com sede em Brasília. Pode propor ADI e indica advogados para o CNJ e o CNMP.",
+  "detalhes": "Formado por três conselheiros federais de cada unidade da federação, mais os ex-presidentes, só com voz (Lei 8.906/1994, art. 51). Entre outras tarefas, edita o Regulamento Geral e o Código de Ética, julga recursos contra decisões das seccionais, elabora as listas de advogados para os tribunais de âmbito nacional e ajuíza ações de controle de constitucionalidade (art. 54).",
+  "tipo_orgao": "colegiado",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "contido_em": "org:oab",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8906-1994",
+          "dispositivo": "art. 45, I e § 1º"
+        }
+      ]
+    },
+    "sigla": {
+      "confianca": "secundario",
+      "nota": "Sigla de uso corrente, não prevista na lei."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, VII; art. 103-B, XII; art. 130-A, V"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 45, § 1º; arts. 51, 54 e 55"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Conselho Federal da OAB",
+      "url": "https://www.oab.org.br"
+    }
+  ],
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto atual (Lei 8.906/1994); o Conselho é anterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

@@ -28,9 +28,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-18",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; número, data, publicação (DOU) e cláusula de vigência conferidos no texto do Planalto em 2026-10-23; na lista de decretos do Senado (2023 a 14/10/2026) não há decreto posterior que aprove nova estrutura regimental para o órgão"
   },
-  "notas": "Estrutura regimental em vigor em 2026-10-01: o texto do Planalto (acesso em 2026-10-18) não traz marca de revogação, e a lista de decretos de 2023 a 2026 da API de legislação do Senado (fonte:senado-api-lista-decretos-2023-2026) não mostra outro decreto que aprove nova estrutura para o órgão até 14/10/2026. Só a estrutura regimental é citada; alterações posteriores não foram conferidas."
+  "notas": "Estrutura regimental em vigor em 2026-10-01: o texto do Planalto (acesso em 2026-10-18) não traz marca de revogação, e a lista de decretos de 2023 a 2026 da API de legislação do Senado (fonte:senado-api-lista-decretos-2023-2026) não mostra outro decreto que aprove nova estrutura para o órgão até 14/10/2026. Decretos de 2026 que alteram este decreto até 1º/10/2026, pela lista do Senado: 13.090, de 04/08/2026. O texto de cada alteração não foi conferido."
 }

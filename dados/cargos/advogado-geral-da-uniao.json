@@ -1,0 +1,62 @@
+{
+  "id": "cargo:advogado-geral-da-uniao",
+  "tipo": "cargo",
+  "nome": "Advogado-Geral da União",
+  "resumo": "Chefe da Advocacia-Geral da União e principal assessor jurídico do Presidente da República. Tem cargo de Ministro de Estado.",
+  "orgao": "org:agu",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "Livre nomeação pelo Presidente da República, sem aprovação do Senado (CF, art. 131, § 1º; art. 84, XVI). O Presidente também nomeia um substituto eventual com os mesmos requisitos (LC 73/1993, art. 3º, § 2º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Não tem mandato: pode ser exonerado a qualquer tempo pelo Presidente."
+  },
+  "requisitos": [
+    {
+      "texto": "mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 131, § 1º"
+        }
+      ]
+    },
+    {
+      "texto": "notável saber jurídico e reputação ilibada",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 131, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Representa a União no STF e defende a norma questionada nas ações diretas de inconstitucionalidade (CF, art. 103, § 3º; LC 73/1993, art. 4º, III e IV). Assessora o Presidente em assuntos jurídicos e fixa a interpretação das leis a ser seguida pela administração federal (LC 73/1993, art. 4º; Lei 14.600/2023, art. 14). É Ministro de Estado (Lei 14.600/2023, art. 18, VII) e responde por crime de responsabilidade perante o Senado (CF, art. 52, II).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, II; art. 84, XVI; art. 103, § 3º; art. 131, § 1º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 3º e 4º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 14; art. 18, VII"
+    }
+  ],
+  "notas": "O titular aparece duas vezes: rel:jorge-messias-ocupa-advogado-geral-da-uniao (este cargo, em que foi investido) e rel:jorge-messias-ocupa-ministro-de-estado (com orgao_exercicio org:agu, da f0-executivo, para a lista de ministros por pasta). É o mesmo ato de nomeação; o cargo de Ministro de Estado é atribuído por lei ao Advogado-Geral.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Cargo previsto desde a CF/88; a AGU foi organizada pela LC 73/1993."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

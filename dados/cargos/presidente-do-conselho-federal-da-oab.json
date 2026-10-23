@@ -1,0 +1,48 @@
+{
+  "id": "cargo:presidente-do-conselho-federal-da-oab",
+  "tipo": "cargo",
+  "nome": "Presidente do Conselho Federal da OAB",
+  "resumo": "Representa a OAB no país e no exterior e preside o Conselho Federal. Eleito pelos conselheiros federais para mandato de três anos.",
+  "orgao": "org:conselho-federal-da-oab",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Os conselheiros federais elegem a diretoria do Conselho Federal em 31 de janeiro do ano seguinte ao da eleição das seccionais, por voto secreto e maioria simples, presente a maioria absoluta; a posse é no dia seguinte. A candidatura à presidência precisa do apoio de pelo menos seis conselhos seccionais (Lei 8.906/1994, art. 67). O candidato a presidente não precisa ser conselheiro federal; os demais integrantes da chapa, sim (art. 67, parágrafo único).",
+  "mandato": {
+    "anos": 3,
+    "vitalicio": false,
+    "nota": "Mandato de três anos (Lei 8.906/1994, art. 67, IV). A lei não trata do limite de reeleição nesse artigo; não pesquisamos o Regulamento Geral."
+  },
+  "requisitos": [
+    {
+      "texto": "apoio de pelo menos seis conselhos seccionais ao registro da candidatura",
+      "fontes": [
+        {
+          "ref": "norma:lei-8906-1994",
+          "dispositivo": "art. 67, II"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Convoca e preside o Conselho Federal e o representa em juízo e fora dele; nas votações do Conselho, tem só o voto de qualidade (Lei 8.906/1994, art. 55, §§ 1º e 3º). Oficia junto ao CNJ e ao CNMP, sem ser membro (CF, arts. 103-B, § 6º, e 130-A, § 4º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, § 6º; art. 130-A, § 4º"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 55, §§ 1º e 3º; art. 67"
+    }
+  ],
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Regras do Estatuto atual; o cargo é anterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

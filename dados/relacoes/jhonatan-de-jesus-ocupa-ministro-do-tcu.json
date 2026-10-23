@@ -1,0 +1,30 @@
+{
+  "id": "rel:jhonatan-de-jesus-ocupa-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Jhonatan de Jesus ocupa o cargo de Ministro do TCU",
+  "relacao": "ocupa",
+  "de": "pessoa:jhonatan-de-jesus",
+  "para": "cargo:ministro-do-tcu",
+  "vigencia": {
+    "de": "2023-03-15",
+    "ate": null,
+    "nota": "Data anunciada pela notícia do TCU de 13/3/2023; a realização da posse nesse dia não foi conferida em outra fonte oficial."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-noticia-posse-jhonatan-de-jesus",
+      "dispositivo": "posse marcada para quarta-feira, 15/3/2023, às 11h"
+    },
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros",
+      "nota": "consta da composição em 2026-10-23. Os nove ministros atuais tomaram posse até 30/9/2026 e o cargo tem nove vagas; logo, esta era a composição em 2026-10-01"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cargo:defensor-publico-geral-federal",
+  "tipo": "cargo",
+  "nome": "Defensor Público-Geral Federal",
+  "sigla": "DPGF",
+  "resumo": "Chefe da Defensoria Pública da União, escolhido pelo Presidente em lista tríplice eleita pela carreira e aprovado pelo Senado.",
+  "orgao": "org:dpu",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "Os defensores públicos federais elegem uma lista tríplice por voto direto, secreto, plurinominal e obrigatório; o Presidente da República escolhe um nome, que precisa ser aprovado pela maioria absoluta do Senado antes da nomeação (LC 80/1994, art. 6º; CF, art. 52, III, f).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução precedida de nova aprovação do Senado (LC 80/1994, art. 6º)."
+  },
+  "requisitos": [
+    {
+      "texto": "membro estável da carreira da Defensoria Pública da União",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ]
+    },
+    {
+      "texto": "mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ]
+    },
+    {
+      "texto": "incluído em lista tríplice eleita pelos membros da carreira",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Dirige a DPU e atua junto ao STF (LC 80/1994, arts. 8º e 23). É substituído pelo Subdefensor Público-Geral Federal (art. 7º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f; art. 134, § 1º"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 6º a 8º e 23"
+    }
+  ],
+  "notas": "Provimento: o vocabulário não tem um termo para \"lista tríplice e aprovação do Senado\"; usamos nomeacao-a-partir-de-lista, e a aprovação do Senado está em rel:senado-aprova-indicacao-defensor-publico-geral-federal.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Regra atual de escolha pela LC 132/2009, que deu nova redação ao art. 6º."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

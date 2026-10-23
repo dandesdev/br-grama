@@ -1,0 +1,38 @@
+{
+  "id": "rel:jorge-messias-ocupa-advogado-geral-da-uniao",
+  "tipo": "relacao",
+  "nome": "Jorge Messias é Advogado-Geral da União",
+  "relacao": "ocupa",
+  "de": "pessoa:jorge-messias",
+  "para": "cargo:advogado-geral-da-uniao",
+  "condicao": "Nomeado para o cargo de Advogado-Geral da União, que tem cargo de Ministro de Estado.",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Data do decreto de nomeação; a data da posse não foi pesquisada. Em exercício em 2026-10-01: nenhuma exoneração achada no DOU (Seção 2) entre a nomeação e essa data, e com atos no DOU que o identificam como titular perto dessa data."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 1º/1/2023 (DOU 1º/1/2023, Seção 2, edição especial, p. 1): nomeia Jorge Rodrigo Araújo Messias para o cargo de Advogado-Geral da União, com base no art. 84, XVI, da CF",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-de-1-de-janeiro-de-2023-455345477"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria AGU nº 348, de 1º/10/2026 (DOU 2/10/2026, Seção 2), assinada por Jorge Rodrigo Araújo Messias",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-agu-n-348-de-1-de-outubro-de-2026-736091834"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Lei 15.526, de 29/9/2026 (DOU 30/9/2026, Seção 1), referendada por Jorge Rodrigo Araújo Messias",
+      "nota": "https://www.in.gov.br/web/dou/-/lei-n-15.526-de-29-de-setembro-de-2026-735384105"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Mesmo período e mesmas fontes de rel:jorge-messias-ocupa-ministro-de-estado (f0-executivo), que fica como está. Decisão desta tarefa: o decreto de 1º/1/2023 nomeia para o cargo de Advogado-Geral da União (CF, art. 131, § 1º; art. 84, XVI), e a Lei 14.600/2023, art. 18, VII, dá a esse titular o cargo de Ministro de Estado. As duas relações descrevem um só ato: esta liga a pessoa ao cargo próprio da AGU; a outra, à lista de ministros por pasta (orgao_exercicio org:agu). Não somar as duas como dois cargos."
+}

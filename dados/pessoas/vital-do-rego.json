@@ -1,0 +1,35 @@
+{
+  "id": "pessoa:vital-do-rego",
+  "tipo": "pessoa",
+  "nome": "Vital do Rêgo",
+  "nome_civil": "Vital do Rêgo Filho",
+  "resumo": "Presidente do TCU e ministro desde 2014, na vaga escolhida pelo Senado.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros (nome completo)"
+    },
+    {
+      "ref": "fonte:tcu-curriculos-ministros",
+      "dispositivo": "currículo do ministro Vital do Rêgo Filho (versão de 30/8/2016)"
+    }
+  ],
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TCU: página do ministro Vital do Rêgo",
+      "url": "https://portal.tcu.gov.br/autoridades/ministros/ministro-vital-do-rego"
+    }
+  ],
+  "notas": "Nome completo conforme a lista de ministros do TCU. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
+}

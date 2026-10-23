@@ -1,0 +1,52 @@
+{
+  "id": "org:tce-ms",
+  "tipo": "orgao",
+  "nome": "Tribunal de Contas do Estado de Mato Grosso do Sul",
+  "sigla": "TCE-MS",
+  "resumo": "Auxilia a Assembleia Legislativa no controle externo do estado de Mato Grosso do Sul e as Câmaras Municipais no controle externo dos municípios. Sede: Campo Grande.",
+  "detalhes": "Abrange: Mato Grosso do Sul. Sede: Campo Grande (MS). Fiscaliza também os municípios do estado, como no arquétipo. Tem sete conselheiros (CF, art. 75, parágrafo único) e segue, no que couber, as regras do TCU. Desde a EC 139/2026 a Constituição declara os tribunais de contas instituições permanentes e veda sua extinção.",
+  "tipo_orgao": "tribunal-de-contas",
+  "poder": "legislativo",
+  "esfera": "estadual",
+  "ente": "ente:ms",
+  "jurisdicao": [
+    "ente:ms"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tce-ms-portal",
+      "dispositivo": "página inicial (sigla e endereço da sede) e página Institucional, https://www.tce.ms.gov.br/institucional (nome completo, no histórico)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 1º; art. 75, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:ec-139-2026",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Site oficial do TCE-MS",
+      "url": "https://www.tce.ms.gov.br/"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada. O tribunal existe na data de referência: o site oficial está ativo, e a EC 139/2026 (em vigor desde 6/5/2026) veda a extinção de tribunais de contas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "notas": "Nome e endereço conforme a página inicial do site (acesso em 2026-10-22; cópia bruta em pesquisa/brutos/tces/2026-10-22/ms.html; ms-institucional.html). Endereço da sede: \"Av. Des. José Nunes da Cunha, bloco 29 Campo Grande/MS CEP: 79031-310\". A página inicial escreve 'Tribunal de Contas Estado de Mato Grosso do Sul'; o nome completo, com 'do Estado de', está no histórico da página Institucional. Não há contido_em: o arquétipo estadual (org:arquetipo-estadual-tce) também não tem, porque ainda não há nó de Poder Legislativo estadual.",
+  "campos": {
+    "sigla": {
+      "nota": "Padronizamos a forma TCE-MS. Formas usadas no próprio site: TCE MS, TCE-MS, TCE/MS."
+    }
+  }
+}

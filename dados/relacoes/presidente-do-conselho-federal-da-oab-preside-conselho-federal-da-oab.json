@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-do-conselho-federal-da-oab-preside-conselho-federal-da-oab",
+  "tipo": "relacao",
+  "nome": "Presidência do Conselho Federal da OAB",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-conselho-federal-da-oab",
+  "para": "org:conselho-federal-da-oab",
+  "condicao": "Convoca e preside o Conselho Federal; vota só para desempatar.",
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 55, §§ 1º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-22",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

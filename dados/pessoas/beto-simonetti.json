@@ -1,0 +1,35 @@
+{
+  "id": "pessoa:beto-simonetti",
+  "tipo": "pessoa",
+  "nome": "Beto Simonetti",
+  "nome_civil": "José Alberto Ribeiro Simonetti Cabral",
+  "resumo": "Advogado amazonense, presidente do Conselho Federal da OAB desde 2022, reeleito em 2025 para mandato até 2028.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:oab-noticia-reeleicao-simonetti-2025",
+      "dispositivo": "texto da notícia"
+    },
+    {
+      "ref": "fonte:oab-diretoria-conselho-federal",
+      "dispositivo": "lista da diretoria"
+    }
+  ],
+  "campos": {
+    "nome_civil": {
+      "confianca": "secundario",
+      "nota": "Nome completo visto em resultados de busca (imprensa e um discurso publicado pelo STJ), não lido em página oficial da OAB."
+    }
+  },
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  },
+  "notas": "Filiação partidária não pesquisada; não é cargo eletivo público."
+}

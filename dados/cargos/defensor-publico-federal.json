@@ -1,0 +1,52 @@
+{
+  "id": "cargo:defensor-publico-federal",
+  "tipo": "cargo",
+  "nome": "Defensor Público Federal",
+  "resumo": "Membro da carreira da Defensoria Pública da União. Ingressa por concurso público nacional.",
+  "orgao": "org:dpu",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
+  "provimento_nota": "Concurso público nacional de provas e títulos, com participação da OAB, no cargo inicial de Defensor Público Federal de 2ª Categoria (CF, art. 134, § 1º; LC 80/1994, art. 24).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, com estabilidade (LC 80/1994, art. 43, IV)."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 134, § 1º"
+        },
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 24"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Tem inamovibilidade e não pode advogar fora das atribuições institucionais (CF, art. 134, § 1º). A carreira tem três categorias (LC 80/1994, art. 19). Garantias: independência funcional, inamovibilidade, irredutibilidade de vencimentos e estabilidade (art. 43).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 134, § 1º; art. 135"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 19, 24 e 43"
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-funcoes-essenciais"
+  }
+}

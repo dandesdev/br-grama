@@ -1,0 +1,35 @@
+{
+  "id": "pessoa:antonio-anastasia",
+  "tipo": "pessoa",
+  "nome": "Antonio Anastasia",
+  "nome_civil": "Antonio Augusto Junho Anastasia",
+  "resumo": "Ministro do TCU desde 3 de fevereiro de 2022; antes foi senador por Minas Gerais.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros (nome completo)"
+    },
+    {
+      "ref": "fonte:tcu-noticia-posse-antonio-anastasia",
+      "dispositivo": "posse na manhã de quinta-feira, 3/2/2022"
+    }
+  ],
+  "filiacoes": [],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "TCU: página do ministro Antonio Anastasia",
+      "url": "https://portal.tcu.gov.br/autoridades/ministros/ministro-antonio-anastasia"
+    }
+  ],
+  "notas": "Nome completo conforme a lista de ministros do TCU. Sem filiações: ministros do TCU têm os impedimentos dos ministros do STJ (CF, art. 73, § 3º), entre eles a vedação de atividade político-partidária (art. 95, parágrafo único, III); filiações anteriores ao cargo não foram pesquisadas."
+}
