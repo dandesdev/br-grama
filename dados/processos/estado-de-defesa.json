@@ -2,7 +2,7 @@
   "id": "proc:estado-de-defesa",
   "tipo": "processo",
   "nome": "Estado de defesa",
-  "resumo": "Medida de exceção, por até 30 dias prorrogáveis uma vez, em locais determinados, para enfrentar grave instabilidade institucional ou grande calamidade natural.",
+  "resumo": "Medida de exceção, por até 30 dias prorrogáveis uma vez, em locais restritos e determinados, para enfrentar grave e iminente instabilidade institucional ou grande calamidade natural.",
   "detalhes": "O Presidente ouve os dois conselhos, decreta e só depois submete o decreto ao Congresso, que decide em 10 dias por maioria absoluta; se rejeitar, a medida cessa na hora. Permite restringir reunião e sigilo de correspondência e de comunicações.",
   "forma": "linha",
   "produz": "obj:decreto",
@@ -15,7 +15,7 @@
         "org:conselho-de-defesa-nacional"
       ],
       "acao": "O Presidente ouve o Conselho da República e o Conselho de Defesa Nacional",
-      "detalhes": "A consulta é obrigatória ('ouvidos'), mas o parecer não vincula o Presidente. O estado de defesa serve para preservar ou restabelecer, em locais restritos e determinados, a ordem pública ou a paz social ameaçadas por grave instabilidade institucional ou atingidas por grandes calamidades naturais.",
+      "detalhes": "A consulta é obrigatória ('ouvidos'); a CF não diz que o parecer vincula o Presidente. O estado de defesa serve para preservar ou restabelecer, em locais restritos e determinados, a ordem pública ou a paz social ameaçadas por grave e iminente instabilidade institucional ou atingidas por calamidades de grandes proporções na natureza.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -62,7 +62,7 @@
         "cargo:presidente-do-senado-federal"
       ],
       "acao": "O Presidente envia o decreto e a justificação ao Congresso em 24 horas",
-      "detalhes": "Se o Congresso estiver em recesso, o Presidente do Senado o convoca extraordinariamente (art. 57, § 6º, I), e ele se reúne em até cinco dias (art. 136, § 5º). O estado de defesa vale desde o decreto, antes da decisão do Congresso.",
+      "detalhes": "Se o Congresso estiver em recesso, o Presidente do Senado o convoca extraordinariamente (art. 57, § 6º, I), no prazo de cinco dias (art. 136, § 5º). O estado de defesa vale desde o decreto, antes da decisão do Congresso.",
       "prazo": {
         "texto": "24 horas para submeter o decreto; em recesso, convocação extraordinária do Congresso em 5 dias",
         "valor": 24,
@@ -213,8 +213,9 @@
   "confianca": "oficial",
   "notas": "A lei que, segundo o art. 136, § 1º, fixa termos e limites das medidas coercitivas não foi pesquisada. Os processos de decreto legislativo não estão modelados, por isso a decisão do Congresso não usa 'remete_a'. A Mesa do Congresso aparece como ator da execução porque designa a comissão fiscalizadora (art. 140); a comissão em si não foi modelada.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; etapas conferidas uma a uma nos arts. 49, IV, 57, § 6º, I, 60, § 1º, 84, IX, 90, I, 91, § 1º, II, e 136, 140 e 141 da CF; corrigidos: o § 5º do art. 136 fala em convocação no prazo de cinco dias, não em reunião em até cinco dias; 'grave e iminente instabilidade' no resumo; 'o parecer não vincula' passou a 'a CF não diz que vincula'; sem 'remete_a' (não há processo de decreto legislativo)"
   }
 }

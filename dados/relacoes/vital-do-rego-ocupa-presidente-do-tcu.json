@@ -1,0 +1,35 @@
+{
+  "id": "rel:vital-do-rego-ocupa-presidente-do-tcu",
+  "tipo": "relacao",
+  "nome": "Vital do Rêgo ocupa o cargo de Presidente do TCU",
+  "relacao": "ocupa",
+  "de": "pessoa:vital-do-rego",
+  "para": "cargo:presidente-do-tcu",
+  "condicao": "Mandato de 2025, renovado por reeleição para 2026, sem interrupção.",
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2026-12-31",
+    "nota": "Exercício desde 1º/1/2025 (eleito em 4/12/2024, posse em 11/12/2024); reeleito em 3/12/2025 para 2026. A Lei 8.443/1992 só permite uma reeleição, e o mandato de 2026 é de um ano civil."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-noticia-eleicao-presidencia-2025",
+      "dispositivo": "eleição em 4/12/2024; exercício a partir de 1º/1/2025"
+    },
+    {
+      "ref": "fonte:tcu-noticia-reeleicao-presidencia-2026",
+      "dispositivo": "reeleição em 3/12/2025; exercício a partir de 1º/1/2026"
+    },
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista de ministros: 'Ministro Vital do Rêgo Filho Presidente'"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "vigencia.ate é o fim previsto do mandato de 2026 (um ano civil, Lei 8.443/1992, art. 69), não uma saída já ocorrida.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

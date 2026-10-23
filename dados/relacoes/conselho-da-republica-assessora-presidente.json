@@ -5,7 +5,7 @@
   "relacao": "assessora",
   "de": "org:conselho-da-republica",
   "para": "cargo:presidente-da-republica",
-  "condicao": "Pronuncia-se sobre intervenção federal, estado de defesa e estado de sítio e sobre questões relevantes para a estabilidade das instituições democráticas. O parecer não vincula o Presidente.",
+  "condicao": "Pronuncia-se sobre intervenção federal, estado de defesa e estado de sítio e sobre questões relevantes para a estabilidade das instituições democráticas. A Constituição não diz que a manifestação vincula o Presidente.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -23,8 +23,9 @@
   "confianca": "oficial",
   "notas": "'O parecer não vincula' é leitura nossa: a CF chama o Conselho de órgão de consulta e não dá efeito obrigatório à manifestação.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20); condicao corrigida: 'O parecer não vincula o Presidente' era leitura nossa apresentada como fato"
   }
 }

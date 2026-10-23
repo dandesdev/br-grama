@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Tratado internacional",
   "resumo": "Tratado, convenção ou ato internacional que o Presidente celebra em nome do Brasil, sujeito a referendo do Congresso Nacional.",
-  "detalhes": "O Presidente negocia e assina; o Congresso resolve definitivamente sobre os tratados que tragam encargos ou compromissos gravosos ao patrimônio nacional (art. 49, I). Tratados de direitos humanos aprovados em cada Casa, em dois turnos, por três quintos dos votos equivalem a emendas constitucionais (art. 5º, § 3º). O STF pode declarar a inconstitucionalidade de tratado (art. 102, III, b).",
+  "detalhes": "O Presidente celebra; o Congresso resolve definitivamente sobre os tratados que tragam encargos ou compromissos gravosos ao patrimônio nacional (art. 49, I). Tratados de direitos humanos aprovados em cada Casa, em dois turnos, por três quintos dos votos equivalem a emendas constitucionais (art. 5º, § 3º). O STF pode declarar a inconstitucionalidade de tratado (art. 102, III, b).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
   "relativo_a": [
@@ -22,8 +22,9 @@
   "confianca": "oficial",
   "notas": "A relação rel:congresso-delibera-tratado-internacional (f0-legislativo) já apontava para este id. Esfera 'federal' porque o objeto modela o ato do lado brasileiro (celebração pela União e referendo do Congresso); o tratado em si vincula Estados soberanos.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; CF, arts. 5º, § 3º, 49, I, 84, VIII, e 102, III, b, conferidos; 'negocia e assina' trocado por 'celebra', verbo da CF"
   }
 }

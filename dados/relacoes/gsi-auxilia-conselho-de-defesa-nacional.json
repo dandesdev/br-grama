@@ -1,14 +1,16 @@
 {
   "id": "rel:gsi-auxilia-conselho-de-defesa-nacional",
   "tipo": "relacao",
-  "nome": "O GSI é a Secretaria-Executiva do Conselho de Defesa Nacional",
+  "nome": "O GSI executa as atividades permanentes do Conselho de Defesa Nacional",
   "relacao": "auxilia",
   "de": "org:gabinete-de-seguranca-institucional",
   "para": "org:conselho-de-defesa-nacional",
   "condicao": "Executa as atividades permanentes necessárias ao exercício da competência do Conselho.",
   "vigencia": {
-    "de": "1988-10-05",
-    "ate": null
+    "de": "2001-09-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação do art. 4º da Lei 8.183/1991 dada pela MP 2.216-37/2001 (DOU 1º/9/2001), em vigor por força da EC 32/2001, art. 2º. Reedições anteriores da medida provisória podem ter dado a mesma atribuição antes; não conferimos."
   },
   "fontes": [
     {
@@ -18,8 +20,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
-  }
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20); corrigidos o nome (dizia que o GSI 'é a Secretaria-Executiva', o que a lei não diz com essas palavras) e a vigência (dizia 1988; a atribuição ao GSI vem da MP 2.216-37/2001)"
+  },
+  "notas": "A Lei 8.183/1991 prevê uma Secretaria-Executiva para as atividades permanentes do Conselho (art. 2º, § 3º) e atribui essas atividades ao GSI (art. 4º); ver o GSI como a Secretaria-Executiva é leitura nossa."
 }

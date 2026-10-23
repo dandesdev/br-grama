@@ -5,13 +5,14 @@
   "relacao": "nomeia",
   "de": "cargo:presidente-da-republica",
   "para": "org:banco-central",
-  "condicao": "Indica e nomeia os nove membros da Diretoria Colegiada, inclusive o presidente do Banco Central, depois da aprovação do Senado, para mandatos de quatro anos, com uma recondução. Só pode exonerá-los nos casos da LC 179/2021 (a pedido, doença incapacitante, condenação ou desempenho insuficiente, este com aprovação do Senado por maioria absoluta).",
+  "condicao": "Indica e nomeia os nove membros da Diretoria Colegiada, inclusive o presidente do Banco Central, depois da aprovação do Senado, para mandatos de quatro anos, com uma recondução. Só pode exonerá-los nos casos da LC 179/2021 (a pedido, doença incapacitante, condenação por improbidade ou por crime que proíba o acesso a cargos públicos, ou desempenho insuficiente, este por proposta do Conselho Monetário Nacional e com aprovação do Senado por maioria absoluta).",
   "depende_de": [
     "rel:senado-aprova-indicacao-diretoria-banco-central"
   ],
   "vigencia": {
     "de": "1988-10-05",
-    "ate": null
+    "ate": null,
+    "nota": "A nomeação após aprovação do Senado vem da CF de 1988; os mandatos e as hipóteses de exoneração, da LC 179/2021 (DOU 25/2/2021)."
   },
   "fontes": [
     {
@@ -26,8 +27,9 @@
   "confianca": "oficial",
   "notas": "O alvo é o órgão porque não há cargo modelado para presidente e diretores do Banco Central.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20); condicao precisada nas hipóteses de exoneração (LC 179/2021, art. 5º) e vigencia.nota acrescentada"
   }
 }

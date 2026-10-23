@@ -1,0 +1,68 @@
+{
+  "id": "cargo:ministro-substituto-do-tcu",
+  "tipo": "cargo",
+  "nome": "Ministro-Substituto do TCU (auditor)",
+  "resumo": "Substitui os ministros do TCU em ausências, impedimentos e vagas. Entra por concurso público e, fora das substituições, relata processos com proposta de decisão.",
+  "detalhes": "A Constituição chama o cargo de auditor e lhe dá, quando substitui ministro, as garantias e impedimentos do titular; nas demais funções, as de juiz de Tribunal Regional Federal (art. 73, § 4º). O TCU usa o nome ministro-substituto. Dois dos ministros escolhidos pelo Presidente da República saem, alternadamente, de auditores e de membros do Ministério Público junto ao Tribunal (art. 73, § 2º, I).",
+  "orgao": "org:tcu",
+  "provimento": "concurso-publico",
+  "provimento_nota": "Nomeado pelo Presidente da República entre quem cumpre os requisitos do cargo de ministro, mediante concurso público de provas e títulos, na ordem de classificação.",
+  "vagas": 3,
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Depois de empossado, só perde o cargo por sentença judicial transitada em julgado (Lei 8.443/1992, art. 79). Aposentadoria compulsória aos 75 anos dos servidores efetivos e dos membros dos tribunais de contas (LC 152/2015, art. 2º)."
+  },
+  "requisitos": [
+    {
+      "texto": "os requisitos exigidos para o cargo de ministro do TCU",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 77, caput"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 77, caput"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, §§ 2º, I, e 4º"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "arts. 63, 77, 78, parágrafo único, e 79"
+    },
+    {
+      "ref": "fonte:tcu-autoridades",
+      "dispositivo": "lista 'Ministros-Substitutos' (nome do cargo e três ocupantes)"
+    }
+  ],
+  "campos": {
+    "mandato": {
+      "confianca": "inferido",
+      "nota": "A lei não usa a palavra 'vitalício'; a garantia de só perder o cargo por sentença judicial transitada em julgado (art. 79) é o que a vitaliciedade significa. Qual inciso da LC 152/2015, art. 2º, se aplica (I, servidores efetivos, ou V, membros dos tribunais de contas) não foi decidido."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "D11: os ocupantes (Augusto Sherman Cavalcanti, Marcos Bemquerer Costa e Weder de Oliveira, segundo fonte:tcu-autoridades) não foram registrados como pessoas, porque o cargo não é de cúpula. A lei fixa três auditores (art. 77), número que coincide com a lista do TCU.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

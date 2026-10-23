@@ -2,7 +2,7 @@
   "id": "proc:intervencao-federal",
   "tipo": "processo",
   "nome": "Intervenção federal",
-  "resumo": "A União assume temporariamente funções de um estado ou do DF nos casos taxativos do art. 34, por decreto do Presidente submetido ao Congresso.",
+  "resumo": "A União intervém temporariamente num estado ou no DF, só nos casos do art. 34, por decreto do Presidente, em regra submetido ao Congresso.",
   "detalhes": "A regra é a autonomia dos estados; a intervenção é exceção. Conforme o caso, o Presidente age por conta própria, a pedido de um Poder estadual coagido, por requisição de tribunal ou depois de o STF acolher representação do PGR. O decreto vai ao Congresso em 24 horas, salvo quando só suspende o ato impugnado.",
   "forma": "linha",
   "produz": "obj:decreto",
@@ -109,8 +109,8 @@
         "org:conselho-da-republica",
         "org:conselho-de-defesa-nacional"
       ],
-      "acao": "O Conselho da República e o Conselho de Defesa Nacional opinam sobre a intervenção",
-      "detalhes": "Os dois conselhos têm competência para se pronunciar sobre a intervenção, e o parecer não vincula o Presidente. Ao contrário dos arts. 136 e 137 (estado de defesa e de sítio), a CF não diz expressamente que eles devem ser ouvidos antes do decreto.",
+      "acao": "O Conselho da República e o Conselho de Defesa Nacional podem ser ouvidos sobre a intervenção",
+      "detalhes": "Os dois conselhos têm competência para se pronunciar sobre a intervenção (arts. 90, I, e 91, § 1º, II). Ao contrário dos arts. 136 e 137 (estado de defesa e de sítio), o art. 36 não diz que eles devem ser ouvidos antes do decreto, e a CF não diz que o parecer vincula o Presidente. Ler a consulta como não obrigatória é leitura nossa do texto.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -185,12 +185,12 @@
       "detalhes": "É competência exclusiva do Congresso aprovar a intervenção federal ou suspendê-la a qualquer tempo (art. 49, IV).",
       "quorum": {
         "regra": "maioria-simples",
-        "nota": "A CF não fixa quórum especial para aprovar a intervenção, ao contrário do estado de defesa e de sítio (maioria absoluta)."
+        "nota": "A CF não fixa quórum especial para aprovar a intervenção, ao contrário do estado de defesa e de sítio (maioria absoluta); vale a regra geral do art. 47 (maioria dos votos, presente a maioria absoluta dos membros)."
       },
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 49, IV; art. 36, § 1º"
+          "dispositivo": "art. 49, IV; art. 36, § 1º; art. 47"
         }
       ],
       "seguintes": [
@@ -263,10 +263,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Modela só a intervenção da União nos estados e no DF. A intervenção dos estados nos municípios (art. 35) tem rito próprio, com apreciação da Assembleia Legislativa e representação ao Tribunal de Justiça, e não foi modelada. O decreto legislativo que aprova a intervenção não tem processo próprio no mapa (ainda não há processo de decreto legislativo modelado), por isso a etapa congresso-aprecia não usa 'remete_a'. Os atores de solicitacao-ou-requisicao usam a Assembleia Legislativa do arquétipo estadual como representante do Poder estadual coagido; o Executivo estadual (Governador) não tem órgão de arquétipo modelado.",
+  "notas": "Modela só a intervenção da União nos estados e no DF. A intervenção dos estados nos municípios (art. 35) tem rito próprio, com apreciação da Assembleia Legislativa e representação ao Tribunal de Justiça, e não foi modelada. O decreto legislativo que aprova a intervenção não tem processo próprio no mapa (ainda não há processo de decreto legislativo modelado), por isso a etapa congresso-aprecia não usa 'remete_a'. Na revisão também não achamos outro processo existente cujo rito alguma etapa siga (a representação do PGR ao STF não é o rito de proc:caminho-de-um-processo). Os atores de solicitacao-ou-requisicao usam a Assembleia Legislativa do arquétipo estadual como representante do Poder estadual coagido; o Executivo estadual (Governador) não tem órgão de arquétipo modelado.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; etapas conferidas uma a uma nos arts. 34, 36, 47, 49, IV, 57, § 6º, I, 60, § 1º, 84, X, 90, I, e 91, § 1º, II, da CF; corrigidos o resumo ('assume funções' trocado por 'intervém', pois o decreto pode só suspender o ato) e a etapa consulta-conselhos (agora 'podem ser ouvidos', com a leitura marcada como nossa); art. 47 acrescentado ao quórum; sem 'remete_a' (nenhum processo existente tem o rito)"
   }
 }

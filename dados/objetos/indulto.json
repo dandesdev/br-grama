@@ -2,7 +2,7 @@
   "id": "obj:indulto",
   "tipo": "objeto",
   "nome": "Indulto e comutação de penas",
-  "resumo": "Perdão (indulto) ou redução (comutação) de penas concedido pelo Presidente da República, em geral por decreto anual que fixa quem tem direito.",
+  "resumo": "Perdão (indulto) ou redução (comutação) de penas, concedido pelo Presidente da República.",
   "detalhes": "É competência privativa do Presidente, que pode ouvir antes os órgãos previstos em lei (art. 84, XII) e pode delegá-la aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União (art. 84, parágrafo único). A Constituição manda a lei tornar insuscetíveis de graça ou anistia a tortura, o tráfico de drogas, o terrorismo e os crimes hediondos (art. 5º, XLIII).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
@@ -20,10 +20,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Classificado como ato normativo porque o indulto coletivo sai por decreto com regras gerais; o indulto individual (graça) é ato concreto. A CF fala em 'graça ou anistia' no art. 5º, XLIII; a extensão dessa vedação ao indulto vem da lei e da jurisprudência, não pesquisadas nesta tarefa.",
+  "notas": "Classificado como ato normativo porque o indulto coletivo sai por decreto com regras gerais; o indulto individual (graça) é ato concreto. A CF fala em 'graça ou anistia' no art. 5º, XLIII; a extensão dessa vedação ao indulto vem da lei e da jurisprudência, não pesquisadas nesta tarefa. Na revisão, saiu do resumo 'em geral por decreto anual que fixa quem tem direito': é a prática, mas não está nas fontes citadas.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; CF, arts. 5º, XLIII, e 84, XII e parágrafo único, conferidos; resumo corrigido (a prática do decreto anual não tem fonte citada)"
   }
 }

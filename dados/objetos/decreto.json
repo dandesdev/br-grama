@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Decreto do Presidente da República",
   "resumo": "Ato do Presidente que regulamenta leis para sua fiel execução, organiza a administração federal ou formaliza decisões como intervenção federal e estado de defesa ou de sítio.",
-  "detalhes": "O decreto regulamentar detalha como cumprir uma lei e não pode ir além dela (art. 84, IV). O decreto autônomo trata só da organização e do funcionamento da administração federal, sem aumentar despesa nem criar ou extinguir órgãos, e da extinção de funções e cargos vagos (art. 84, VI). Os decretos são referendados pelo Ministro da área (art. 87, parágrafo único, I), e o Congresso pode sustar os que exorbitem do poder regulamentar (art. 49, V).",
+  "detalhes": "O decreto regulamentar detalha como cumprir uma lei, para sua fiel execução (art. 84, IV). O decreto autônomo trata só da organização e do funcionamento da administração federal, sem aumentar despesa nem criar ou extinguir órgãos, e da extinção de funções e cargos vagos (art. 84, VI). Os decretos são referendados pelo Ministro da área (art. 87, parágrafo único, I), e o Congresso pode sustar os que exorbitem do poder regulamentar (art. 49, V).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
   "relativo_a": [
@@ -22,8 +22,9 @@
   "confianca": "oficial",
   "notas": "Um só objeto para os decretos presidenciais: regulamentar (art. 84, IV), autônomo (art. 84, VI, redação da EC 32/2001) e os decretos que formalizam intervenção federal, estado de defesa e estado de sítio (art. 84, IX e X; arts. 36, § 1º, 136, § 1º, e 138). As relações do Legislativo (rel:congresso-susta-decreto e rel:congresso-delibera-intervencao-defesa-e-sitio) já apontavam para este id. A delegação do inciso VI aos Ministros, ao PGR ou ao AGU está no parágrafo único do art. 84.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-20",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; CF, arts. 49, V, 84, IV, VI, IX e X, e 87, parágrafo único, I, conferidos; corrigido nos detalhes: 'não pode ir além dela' (doutrina) trocado pela expressão da CF, 'para sua fiel execução'"
   }
 }

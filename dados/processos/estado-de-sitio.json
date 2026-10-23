@@ -15,7 +15,7 @@
         "org:conselho-de-defesa-nacional"
       ],
       "acao": "O Presidente ouve o Conselho da República e o Conselho de Defesa Nacional",
-      "detalhes": "A consulta é obrigatória ('ouvidos'), mas o parecer não vincula o Presidente. Cabe o estado de sítio em comoção grave de repercussão nacional, quando o estado de defesa se mostrou ineficaz, ou em declaração de guerra ou resposta a agressão armada estrangeira.",
+      "detalhes": "A consulta é obrigatória ('ouvidos'); a CF não diz que o parecer vincula o Presidente. Cabe o estado de sítio em comoção grave de repercussão nacional, quando o estado de defesa se mostrou ineficaz, ou em declaração de guerra ou resposta a agressão armada estrangeira.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -138,7 +138,7 @@
         "org:mesa-do-congresso-nacional"
       ],
       "acao": "As medidas são executadas; o Congresso segue funcionando e uma comissão as fiscaliza",
-      "detalhes": "No caso de comoção grave, só se admitem contra as pessoas: obrigação de permanecer em local determinado, detenção fora de presídio comum, restrições à correspondência, às comunicações e à imprensa na forma da lei, suspensão da liberdade de reunião, busca e apreensão em domicílio, intervenção em empresas de serviços públicos e requisição de bens (art. 139). Uma comissão de cinco parlamentares, designada pela Mesa do Congresso depois de ouvidos os líderes partidários, acompanha e fiscaliza a execução das medidas (art. 140). O Congresso pode suspender a medida a qualquer tempo (art. 49, IV). Enquanto ela durar, a Constituição não pode ser emendada (art. 60, § 1º).",
+      "detalhes": "No caso de comoção grave, só se admitem contra as pessoas: obrigação de permanecer em local determinado, detenção fora de presídio comum, restrições à correspondência, ao sigilo das comunicações, à prestação de informações e à liberdade de imprensa, radiodifusão e televisão, na forma da lei (sem atingir a difusão de pronunciamentos de parlamentares liberada pela Mesa), suspensão da liberdade de reunião, busca e apreensão em domicílio, intervenção em empresas de serviços públicos e requisição de bens (art. 139). Uma comissão de cinco parlamentares, designada pela Mesa do Congresso depois de ouvidos os líderes partidários, acompanha e fiscaliza a execução das medidas (art. 140). O Congresso pode suspender a medida a qualquer tempo (art. 49, IV). Enquanto ela durar, a Constituição não pode ser emendada (art. 60, § 1º).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -217,8 +217,9 @@
   "confianca": "oficial",
   "notas": "No caso de guerra ou agressão estrangeira (art. 137, II), o art. 139 não limita as medidas contra as pessoas; a CF só lista as medidas admitidas no caso do inciso I. As prorrogações no caso de comoção grave também dependem de autorização (art. 137, parágrafo único). Os processos de decreto legislativo não estão modelados, por isso a decisão do Congresso não usa 'remete_a'. A Mesa do Congresso aparece como ator da execução porque designa a comissão fiscalizadora (art. 140); a comissão em si não foi modelada.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; etapas conferidas uma a uma nos arts. 49, IV, 57, § 6º, I, 60, § 1º, 84, IX, 90, I, 91, § 1º, II, e 137 a 141 da CF; 'o parecer não vincula' passou a 'a CF não diz que vincula'; lista do art. 139, III, completada; sem 'remete_a' (não há processo de decreto legislativo)"
   }
 }

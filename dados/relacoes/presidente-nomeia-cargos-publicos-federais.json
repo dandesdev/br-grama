@@ -17,10 +17,11 @@
     }
   ],
   "confianca": "inferido",
-  "notas": "Não há objeto nem cargo genérico para 'cargos públicos federais'; usamos o Poder Executivo federal como alvo aproximado. A competência em si tem fonte oficial; a escolha do alvo é nossa.",
+  "notas": "Não há objeto nem cargo genérico para 'cargos públicos federais'; usamos o Poder Executivo federal como alvo aproximado. A competência em si tem fonte oficial; a escolha do alvo é nossa. Os outros Poderes proveem os próprios cargos (ex.: os tribunais, CF, art. 96, I, c e e), por isso o alvo é o Executivo.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-21",
-    "tarefa": "f0-executivo"
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20); segue 'inferido' só pela escolha do alvo; a competência (art. 84, XXV e parágrafo único) foi conferida"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "rel:presidente-celebra-tratado-internacional",
+  "tipo": "relacao",
+  "nome": "O Presidente celebra tratados internacionais",
+  "relacao": "celebra",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:tratado-internacional",
+  "condicao": "Celebra tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional, a quem os envia.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, VIII; art. 49, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Antes da revisão o verbo era 'propoe' e o id rel:presidente-propoe-tratado-internacional, porque o vocabulário não tinha 'celebra'. O envio ao Congresso e o referendo estão em rel:congresso-delibera-tratado-internacional.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-executivo",
+    "notas": "coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20); verbo trocado de 'propoe' para 'celebra' e id renomeado (antes rel:presidente-propoe-tratado-internacional)"
+  }
+}

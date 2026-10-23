@@ -1,0 +1,29 @@
+{
+  "id": "rel:ministro-substituto-substitui-ministro-do-tcu",
+  "tipo": "relacao",
+  "nome": "Substituição de ministro do TCU",
+  "relacao": "substitui",
+  "de": "cargo:ministro-substituto-do-tcu",
+  "para": "cargo:ministro-do-tcu",
+  "condicao": "Em ausências e impedimentos (licença, férias ou outro afastamento legal), por convocação do Presidente do TCU, na ordem de antiguidade; também para formar quórum e, se o cargo vagar, até novo provimento.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, § 4º"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 63, caput e §§"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}

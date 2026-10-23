@@ -1,0 +1,45 @@
+{
+  "id": "cargo:presidente-do-tcu",
+  "tipo": "cargo",
+  "nome": "Presidente do Tribunal de Contas da União",
+  "resumo": "Dirige o TCU. É eleito pelos ministros para um ano civil, com uma reeleição permitida.",
+  "detalhes": "O Vice-Presidente, eleito do mesmo modo, substitui o Presidente em ausências e impedimentos e exerce as funções de corregedor. Na falta dos dois, assume o ministro mais antigo no cargo.",
+  "orgao": "org:tcu",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Os ministros elegem o Presidente em escrutínio secreto, na última sessão ordinária de dezembro, com a presença de pelo menos cinco ministros titulares. A eleição do Presidente precede a do Vice-Presidente.",
+  "vagas": 1,
+  "mandato": {
+    "anos": 1,
+    "inicio": "1º de janeiro (mandato de um ano civil)",
+    "reconducao": "permitida a reeleição apenas por um período de igual duração",
+    "nota": "Se a vaga abrir antes do fim do mandato, o eleito completa o período; não há nova eleição se a vaga ocorrer nos 60 dias anteriores ao término."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do TCU",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 69, caput"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992; o cargo é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 69, caput e §§ 1º a 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle"
+  }
+}
