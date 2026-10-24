@@ -5,7 +5,7 @@
   "relacao": "julga",
   "de": "org:tribunais-do-juri",
   "para": "obj:acao-penal-publica",
-  "condicao": "Só os crimes dolosos contra a vida, consumados ou tentados (homicídio doloso, induzimento ao suicídio ou automutilação, infanticídio e aborto). Os jurados decidem; o juiz presidente dá a sentença.",
+  "condicao": "Só os crimes dolosos contra a vida, consumados ou tentados (homicídio doloso, induzimento ao suicídio ou automutilação, infanticídio e aborto). Exceção: homicídios de membros de organização criminosa ultraviolenta, grupo paramilitar ou milícia conexos aos crimes da Lei 15.358/2026 vão às varas colegiadas.",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -14,6 +14,10 @@
     {
       "ref": "norma:decreto-lei-3689-1941",
       "dispositivo": "art. 74, § 1º; art. 447"
+    },
+    {
+      "ref": "norma:lei-15358-2026",
+      "dispositivo": "art. 2º, § 8º; art. 38 (CPP, art. 78, I)"
     }
   ],
   "vigencia": {
@@ -21,7 +25,7 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "obj:acao-penal-publica é o alvo mais próximo; o júri também julga crimes conexos (CPP, art. 78, I, não conferido aqui).",
+  "notas": "obj:acao-penal-publica é o alvo mais próximo. No concurso com outro órgão da jurisdição comum, prevalece o júri (CPP, art. 78, I), salvo a exceção da Lei 15.358/2026.",
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-24",

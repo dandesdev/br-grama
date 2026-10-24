@@ -1,0 +1,26 @@
+{
+  "id": "obj:extradicao",
+  "tipo": "objeto",
+  "nome": "Extradição",
+  "resumo": "Pedido de um Estado estrangeiro para que o Brasil entregue uma pessoa acusada ou condenada lá. O STF julga se o pedido pode ser atendido.",
+  "detalhes": "O STF julga a extradição pedida por Estado estrangeiro (art. 102, I, g). Nenhum brasileiro nato é extraditado; o naturalizado só por crime comum anterior à naturalização ou por envolvimento comprovado com tráfico de drogas (art. 5º, LI). Não há extradição de estrangeiro por crime político ou de opinião (art. 5º, LII).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LI e LII; art. 102, I, g"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O rito está na Lei 13.445/2017 (Lei de Migração), não registrada nesta tarefa; o papel do Executivo (pedido por via diplomática, entrega) não foi modelado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

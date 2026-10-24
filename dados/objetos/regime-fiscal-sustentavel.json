@@ -17,7 +17,7 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 163, VIII; art. 164-A; art. 165, §§ 2º e 18"
+      "dispositivo": "art. 163, VIII; art. 164-A; art. 165, §§ 2º e 18; ADCT, art. 138"
     },
     {
       "ref": "norma:lc-200-2023",
@@ -25,11 +25,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Sem números de metas anuais, como pede a tarefa. O texto compilado da LC 200/2023 no Planalto remete às ADIs 7064, 7641, 7922 e 8010 (STF). Segundo notícias do STF, a ADI 7641 (julgada em 2025) e a ADI 7922 (referendo em janeiro de 2026) tiraram do limite as receitas próprias do Judiciário e do MPU; não conferimos as decisões nem a situação da ADI 8010. A LC 235/2026, art. 14, criou vedações ligadas ao limite do Executivo em caso de déficit projetado, sem alterar o texto da LC 200/2023.",
+  "notas": "Sem números de metas anuais, como pede a tarefa. O texto compilado da LC 200/2023 no Planalto remete às ADIs 7064, 7641, 7922 e 8010 (STF). Segundo notícias do STF, a ADI 7641 (julgada em 2025) e a ADI 7922 (referendo em janeiro de 2026) tiraram do limite as receitas próprias do Judiciário e do MPU; não conferimos as decisões nem a situação da ADI 8010. A LC 235/2026, art. 14, criou vedações ligadas ao limite do Executivo em caso de déficit projetado, sem alterar o texto da LC 200/2023. Até 2032, nenhuma vinculação de receita a despesa criada, alterada ou prorrogada, nem aplicação mínima, pode fazer a despesa primária correspondente crescer mais que o limite de despesas primárias (ADCT, art. 138, incluído pela EC 135/2024). ADI 8010 (Anadef, relator Alexandre de Moraes): questiona a sujeição das receitas próprias da DPU ao limite; ajuizada em 2026, sem decisão até 2026-10-01 segundo notícia do STF de 1/9/2026 (https://noticias.stf.jus.br/postsnoticias/associacao-questiona-no-stf-submissao-de-receitas-proprias-da-dpu-aos-limites-do-arcabouco-fiscal/); notícias não oficiais relatam liminar em 5/10/2026, depois da data de referência, não conferida.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; LC 200/2023, arts. 1º a 5º e 15, conferidos; acrescentada a exclusão dos precatórios do limite do Executivo desde 2026 (CF, art. 165, § 18, EC 136/2025); notas com as decisões do STF sobre receitas próprias e a LC 235/2026"
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar",
+    "notas": "verificado antes em verificacao-f0-dinheiro; f0-dinheiro-complementar acrescentou o ADCT, art. 138, às fontes e às notas, e a situação da ADI 8010 às notas; o resto não mudou"
   }
 }

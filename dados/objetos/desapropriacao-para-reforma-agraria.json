@@ -1,0 +1,28 @@
+{
+  "id": "obj:desapropriacao-para-reforma-agraria",
+  "tipo": "objeto",
+  "nome": "Desapropriação de imóvel rural para reforma agrária",
+  "resumo": "Tomada, pela União, de imóvel rural que não cumpre a função social, com indenização em títulos da dívida agrária e benfeitorias pagas em dinheiro.",
+  "detalhes": "Pequena e média propriedade (se o dono não tiver outra) e propriedade produtiva não podem ser desapropriadas para esse fim. A transferência do imóvel desapropriado é isenta de impostos.",
+  "tipo_objeto": "decisao",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 184, caput e §§ 1º e 5º; art. 185; art. 186"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

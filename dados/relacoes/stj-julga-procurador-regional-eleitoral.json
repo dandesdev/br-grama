@@ -1,0 +1,35 @@
+{
+  "id": "rel:stj-julga-procurador-regional-eleitoral",
+  "tipo": "relacao",
+  "nome": "Foro dos procuradores regionais eleitorais",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "cargo:procurador-regional-eleitoral",
+  "condicao": "Originariamente, nos crimes comuns e de responsabilidade, por serem membros do MPU que oficiam perante tribunal (o TRE).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, a"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 76 e 77"
+    }
+  ],
+  "campos": {
+    "para": {
+      "confianca": "inferido",
+      "nota": "A CF fala em membros do MPU \"que oficiem perante tribunais\"; o PRE é membro do MPF designado para oficiar perante o TRE (LC 75/1993, arts. 76 e 77). A ligação é dedução nossa; já coberta em termos gerais por rel:stj-julga-membro-do-mpu."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

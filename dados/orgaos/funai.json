@@ -1,0 +1,83 @@
+{
+  "id": "org:funai",
+  "tipo": "orgao",
+  "nome": "Fundação Nacional dos Povos Indígenas",
+  "sigla": "Funai",
+  "resumo": "Órgão indigenista federal: conduz os estudos de identificação e delimitação das terras indígenas, protege os povos indígenas e exerce poder de polícia nessas terras.",
+  "detalhes": "Na demarcação de terra indígena, nomeia o antropólogo e o grupo técnico, aprova e publica o relatório e envia o processo ao Ministro da Justiça; depois da homologação, registra a terra em cartório e na Secretaria do Patrimônio da União. Pode disciplinar a entrada de terceiros em áreas com indígenas isolados.",
+  "tipo_orgao": "fundacao-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, d"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 58"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:funai-vincula-se-ministerio-dos-povos-indigenas."
+    },
+    "tipo_orgao": {
+      "confianca": "oficial-contraditorio",
+      "fontes": [
+        {
+          "ref": "norma:lei-5371-1967",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 58"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "natureza jurídica da unidade 173 (Fundação Pública), arquivo baixado em 2026-10-24"
+        }
+      ],
+      "nota": "A Lei 5.371/1967 cria uma fundação de direito privado; a Lei 14.600/2023, art. 58, a chama de autarquia federal; o SIORG a classifica como fundação pública. Usamos fundação pública, como o SIORG e o nome. Ver aviso:funai-natureza-juridica."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 231"
+    },
+    {
+      "ref": "norma:lei-5371-1967",
+      "dispositivo": "art. 1º, I, b, e VII"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 58"
+    },
+    {
+      "ref": "norma:decreto-1775-1996",
+      "dispositivo": "arts. 1º, 2º, 6º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "1967-12-06",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 5.371/1967 autorizou a instituição; a data em que a fundação foi de fato instituída não foi conferida. Nome atual desde a Lei 14.600/2023 (art. 58)."
+  },
+  "confianca": "oficial",
+  "notas": "O Decreto 1.775/1996 fala em 'órgão federal de assistência ao índio' sem nomeá-lo; a Lei 5.371/1967 (finalidades, art. 1º) e a Lei 14.701/2023 (arts. 4º, § 8º, e 16, § 3º, que citam a Funai pelo nome) mostram que é a Funai. O estatuto da Funai (decreto) não foi lido.",
+  "mais_informacoes": [
+    {
+      "titulo": "Funai (gov.br)",
+      "url": "https://www.gov.br/funai/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

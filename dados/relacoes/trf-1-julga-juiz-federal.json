@@ -1,0 +1,25 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "id": "rel:trf-1-julga-juiz-federal",
+  "nome": "Foro dos juízes federais da 1ª Região",
+  "relacao": "julga",
+  "de": "org:trf-1",
+  "para": "cargo:juiz-federal",
+  "condicao": "Julga originariamente os juízes federais da 1ª Região nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 108, I, a"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

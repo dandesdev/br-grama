@@ -1,0 +1,31 @@
+{
+  "id": "obj:precatorio",
+  "tipo": "objeto",
+  "nome": "Precatório",
+  "resumo": "Ordem do Judiciário para que a União, um estado, o DF ou um município pague uma condenação judicial definitiva. É pago pela ordem de chegada, com verba do orçamento.",
+  "detalhes": "Os pagamentos seguem a ordem cronológica de apresentação, sem indicar casos ou pessoas no orçamento (art. 100, caput). Os créditos alimentares têm preferência, e os de idosos, doentes graves e pessoas com deficiência, preferência maior até o triplo do pequeno valor (§§ 1º e 2º). Condenações de pequeno valor são pagas sem precatório, por requisição de pequeno valor (§ 3º). O credor pode ceder o crédito a terceiros (§ 13).",
+  "tipo_objeto": "decisao",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 100, caput e §§ 1º a 6º e 13"
+    },
+    {
+      "ref": "norma:resolucao-cnj-303-2019",
+      "dispositivo": "arts. 1º e 12"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O regime atual do art. 100 resulta de várias emendas (EC 30/2000, 62/2009, 94/2016, 99/2017, 113 e 114/2021, 136/2025)."
+  },
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'decisao' (ato que resolve um caso concreto); 'documento' seria a alternativa. Requisição de pequeno valor: o limite é fixado por lei de cada ente, com mínimo igual ao maior benefício do RGPS (art. 100, § 4º); até a lei, 40 salários mínimos para estados e DF e 30 para municípios (ADCT, art. 87); na União, 60 salários mínimos (Lei 10.259/2001, art. 17, § 1º). Correção dos requisitórios: IPCA mais juros simples de 2% ao ano, limitada à Selic (EC 113/2021, art. 3º, e ADCT, art. 97, §§ 16 e 16-A, ambos na redação da EC 136/2025). O § 12 do art. 100 (poupança) foi declarado inconstitucional em parte pelo STF na ADI 4425, citada no texto da CF; não conferimos o alcance.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

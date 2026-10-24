@@ -1,0 +1,35 @@
+{
+  "id": "org:organizacoes-sindicais-entidades-de-classe-e-associacoes",
+  "tipo": "orgao",
+  "nome": "Organizações sindicais, entidades de classe e associações",
+  "resumo": "Sindicatos, entidades de classe e associações com pelo menos um ano de funcionamento, que podem impetrar mandado de segurança e mandado de injunção coletivos em favor dos membros.",
+  "detalhes": "Precisam estar legalmente constituídas e em funcionamento há pelo menos um ano e agir em defesa de seus membros ou associados, conforme o estatuto e as finalidades, sem precisar de autorização especial deles (CF, art. 5º, LXX, b; Lei 12.016/2009, art. 21; Lei 13.300/2016, art. 12, III).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXX, b"
+    },
+    {
+      "ref": "norma:lei-12016-2009",
+      "dispositivo": "art. 21, caput"
+    },
+    {
+      "ref": "norma:lei-13300-2016",
+      "dispositivo": "art. 12, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto criado para ser a ponta das relações 'ajuiza' dos remédios coletivos, como org:partidos-politicos e org:confederacoes-sindicais-e-entidades-de-classe-nacionais fazem para outras ações. É grupo mais amplo que o das confederações do art. 103, IX: inclui entidades de qualquer âmbito. Não lista as entidades.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

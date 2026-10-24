@@ -1,0 +1,37 @@
+{
+  "id": "obj:dados-contabeis-orcamentarios-e-fiscais-dos-entes",
+  "tipo": "objeto",
+  "nome": "Dados contábeis, orçamentários e fiscais dos entes",
+  "resumo": "Informações de contas, orçamento e finanças que União, estados, DF e municípios devem publicar no formato e no sistema definidos pelo órgão central de contabilidade da União.",
+  "detalhes": "A regra busca rastreabilidade, comparabilidade e publicidade, com divulgação em meio eletrônico de amplo acesso (CF, art. 163-A). O órgão central de contabilidade da União é a Secretaria do Tesouro Nacional (Lei 10.180/2001, art. 17, I).",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2020-08-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Art. 163-A incluído pela EC 108/2020, publicada no DOU de 27/8/2020 (quadro de emendas do Planalto, cópia em pesquisa/brutos/planalto-cf/2026-10-23/quadro_emc.htm); a cláusula de vigência da emenda não foi lida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 163-A"
+    },
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 17, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'documento' por ser um conjunto de informações a publicar. O sistema usado hoje (Siconfi) e as portarias da STN não foram pesquisados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

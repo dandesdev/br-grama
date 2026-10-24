@@ -1,0 +1,29 @@
+{
+  "id": "rel:organizacoes-sindicais-e-associacoes-ajuiza-mandado-de-seguranca",
+  "tipo": "relacao",
+  "nome": "Sindicatos e associações podem impetrar mandado de segurança coletivo",
+  "relacao": "ajuiza",
+  "de": "org:organizacoes-sindicais-entidades-de-classe-e-associacoes",
+  "para": "obj:mandado-de-seguranca",
+  "condicao": "Só o mandado de segurança coletivo, em defesa de direitos líquidos e certos de todos ou parte dos membros, pertinentes às finalidades da entidade; exige um ano de funcionamento.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXX, b"
+    },
+    {
+      "ref": "norma:lei-12016-2009",
+      "dispositivo": "art. 21, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rel:dpu-ajuiza-mandado-de-injuncao",
+  "tipo": "relacao",
+  "nome": "A DPU pode impetrar mandado de injunção coletivo",
+  "relacao": "ajuiza",
+  "de": "org:dpu",
+  "para": "obj:mandado-de-injuncao",
+  "condicao": "Só o mandado de injunção coletivo, quando a tutela for especialmente relevante para os direitos humanos e a defesa dos direitos individuais e coletivos dos necessitados.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13300-2016",
+      "dispositivo": "art. 12, IV"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-06-24",
+    "ate": null,
+    "nota": "Vigência da Lei 13.300/2016."
+  },
+  "confianca": "oficial",
+  "notas": "A lei diz \"Defensoria Pública\"; a relação foi feita para a DPU e para a Defensoria estadual.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

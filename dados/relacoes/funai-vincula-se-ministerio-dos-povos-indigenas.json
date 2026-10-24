@@ -1,0 +1,31 @@
+{
+  "id": "rel:funai-vincula-se-ministerio-dos-povos-indigenas",
+  "tipo": "relacao",
+  "nome": "A Funai é vinculada ao Ministério dos Povos Indígenas",
+  "relacao": "vincula-se",
+  "de": "org:funai",
+  "para": "org:ministerio-dos-povos-indigenas",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11355-2023",
+      "dispositivo": "Anexo I, art. 2º, IV"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 42, I"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.355/2023, editado na criação do ministério. Antes a Funai era vinculada a outra pasta; histórico não levantado."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

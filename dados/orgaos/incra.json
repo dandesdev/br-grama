@@ -1,0 +1,70 @@
+{
+  "id": "org:incra",
+  "tipo": "orgao",
+  "nome": "Instituto Nacional de Colonização e Reforma Agrária",
+  "sigla": "Incra",
+  "resumo": "Autarquia federal que executa a reforma agrária, cuida da regularização fundiária de terras rurais e titula os territórios quilombolas.",
+  "detalhes": "Na desapropriação para reforma agrária, entra nos imóveis rurais para levantar dados e, como órgão federal executor da reforma agrária, propõe a ação de desapropriação na Justiça Federal depois do decreto do Presidente. Também cuida do ordenamento territorial e da regularização fundiária.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:decreto-lei-1110-1970",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:incra-vincula-se-ministerio-do-desenvolvimento-agrario-e-agricultura-familiar."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-1110-1970",
+      "dispositivo": "arts. 1º e 4º"
+    },
+    {
+      "ref": "norma:decreto-11232-2022",
+      "dispositivo": "Anexo I, art. 1º, parágrafo único, I a IV"
+    },
+    {
+      "ref": "norma:lei-8629-1993",
+      "dispositivo": "art. 2º, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:lc-76-1993",
+      "dispositivo": "art. 2º, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1970-07-10",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  },
+  "notas": "A LC 76/1993, art. 2º, § 1º, e a Lei 8.629/1993, art. 2º, § 2º, falam em 'órgão federal executor da reforma agrária' e 'órgão federal competente' sem dar o nome; que esse órgão é o Incra sai do Decreto 11.232/2022, Anexo I, art. 1º, parágrafo único, III ('promoção e execução da reforma agrária'). A Lei 8.629/1993 cita o Incra pelo nome em vários artigos (ex.: art. 20-A). Cargos do Incra sem nó próprio. Estrutura interna no Decreto 11.232/2022.",
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11232-2022",
+      "dispositivo": "Anexo I",
+      "nota": "estrutura regimental"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "Incra (gov.br)",
+      "url": "https://www.gov.br/incra/pt-br"
+    }
+  ]
+}

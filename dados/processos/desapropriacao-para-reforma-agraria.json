@@ -1,0 +1,193 @@
+{
+  "id": "proc:desapropriacao-para-reforma-agraria",
+  "tipo": "processo",
+  "nome": "Desapropriação para reforma agrária",
+  "resumo": "O Incra vistoria o imóvel, o Presidente declara o interesse social por decreto, o Incra move a ação e o juiz federal fixa a indenização e transfere o imóvel.",
+  "detalhes": "A ação segue rito sumário próprio, definido em lei complementar. Na Justiça, o proprietário pode discutir o valor, mas não o interesse social declarado.",
+  "forma": "linha",
+  "produz": "obj:desapropriacao-para-reforma-agraria",
+  "etapas": [
+    {
+      "id": "vistoria",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra entra no imóvel para levantar dados, com aviso prévio por escrito ao proprietário",
+      "detalhes": "Se o proprietário não for encontrado, o aviso sai por edital. Imóvel invadido em conflito agrário coletivo não é vistoriado nos dois anos seguintes à desocupação.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8629-1993",
+          "dispositivo": "art. 2º, §§ 2º, 3º e 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto",
+          "quando": "Se o imóvel não cumprir a função social"
+        }
+      ]
+    },
+    {
+      "id": "decreto",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente declara o imóvel de interesse social para reforma agrária, por decreto",
+      "detalhes": "O decreto autoriza a União a propor a ação de desapropriação.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 184, § 2º"
+        },
+        {
+          "ref": "norma:lc-76-1993",
+          "dispositivo": "art. 2º, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "acao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "acao",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra propõe a ação de desapropriação na Justiça Federal, com oferta de preço",
+      "detalhes": "A petição traz o decreto, o laudo de vistoria e avaliação, o lançamento dos títulos da dívida agrária para a terra nua e o depósito em dinheiro para as benfeitorias.",
+      "prazo": {
+        "texto": "Até dois anos da publicação do decreto",
+        "valor": 2,
+        "unidade": "anos",
+        "conta_de": "publicação do decreto"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-76-1993",
+          "dispositivo": "art. 2º, § 1º; art. 3º; art. 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "imissao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "imissao",
+      "atores": [
+        "cargo:juiz-federal"
+      ],
+      "acao": "O juiz federal manda imitir o Incra na posse do imóvel e cita o proprietário",
+      "prazo": {
+        "texto": "De plano ou em até 48 horas do despacho da petição inicial",
+        "valor": 48,
+        "unidade": "horas"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-76-1993",
+          "dispositivo": "art. 6º, I e II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contestacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "contestacao",
+      "atores": [],
+      "tipo_etapa": "decurso-de-prazo",
+      "acao": "O proprietário pode contestar em 15 dias, sem discutir o interesse social",
+      "prazo": {
+        "texto": "15 dias",
+        "valor": 15,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-76-1993",
+          "dispositivo": "art. 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sentenca",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "sentenca",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-federal"
+      ],
+      "acao": "O juiz homologa o acordo de preço ou fixa a indenização na sentença",
+      "detalhes": "Pode haver perícia limitada aos pontos impugnados do laudo. O Ministério Público Federal intervém obrigatoriamente antes de cada decisão.",
+      "fontes": [
+        {
+          "ref": "norma:lc-76-1993",
+          "dispositivo": "art. 9º, § 1º; art. 10; art. 12; art. 18, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "transferencia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "transferencia",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:juiz-federal"
+      ],
+      "acao": "O juiz expede o mandado que transfere o domínio ao expropriante, para registro em cartório",
+      "prazo": {
+        "texto": "Mandado em 48 horas; registro em 3 dias da apresentação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-76-1993",
+          "dispositivo": "art. 17"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1993-07-07",
+    "ate": null,
+    "nota": "Rito da LC 76/1993; a competência da União é de 1988 (art. 184)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 184 a 186"
+    },
+    {
+      "ref": "norma:lei-8629-1993",
+      "dispositivo": "art. 2º"
+    },
+    {
+      "ref": "norma:lc-76-1993",
+      "dispositivo": "arts. 1º a 18"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O MPF (org:mpf) intervém em todas as fases (LC 76/1993, art. 18, § 2º), mas não foi posto como ator para não parecer parte. Recursos (art. 13) e levantamento da indenização (art. 16) ficaram fora das etapas. O que a lei chama de 'órgão federal executor da reforma agrária' é o Incra (ver notas de org:incra).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

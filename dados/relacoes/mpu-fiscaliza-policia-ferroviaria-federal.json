@@ -1,0 +1,33 @@
+{
+  "tipo": "relacao",
+  "relacao": "fiscaliza",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "id": "rel:mpu-fiscaliza-policia-ferroviaria-federal",
+  "nome": "Controle externo da atividade policial: Polícia Ferroviária Federal",
+  "de": "org:ministerio-publico-da-uniao",
+  "para": "org:policia-ferroviaria-federal",
+  "condicao": "Controle externo da atividade policial, por medidas judiciais e extrajudiciais: livre ingresso em estabelecimentos policiais e prisionais, acesso a documentos da atividade-fim, representação e requisição de inquérito.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 129, VII; art. 144, III"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 3º e 9º"
+    },
+    {
+      "ref": "norma:resolucao-cnmp-20-2007",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

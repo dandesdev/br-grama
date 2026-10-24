@@ -1,0 +1,29 @@
+{
+  "id": "rel:flavio-cesar-mendes-de-oliveira-ocupa-presidente-do-cgibs",
+  "tipo": "relacao",
+  "nome": "Flávio César é Presidente do Comitê Gestor do IBS",
+  "relacao": "ocupa",
+  "de": "pessoa:flavio-cesar-mendes-de-oliveira",
+  "para": "cargo:presidente-do-cgibs",
+  "vigencia": {
+    "de": "2026-03-10",
+    "ate": null,
+    "nota": "Ratificado na 2ª Reunião Extraordinária do Conselho Superior, em 10/3/2026, com mandato até 31/3/2027 (Portaria CGIBS nº 1/2026). Em exercício perto de 2026-10-01: assina como Presidente as Portarias CGIBS nº 5/2026 (3/7/2026) e nº 9/2026 (17/8/2026); não procuramos atos de setembro ou outubro de 2026. Antes, presidia o CGIBS provisório desde 1º/8/2025 e foi reconduzido temporariamente de 1º/1 a 3/3/2026 (notícia do CGIBS de 19/2/2026)."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:cgibs-portaria-1-2026",
+      "dispositivo": "art. 1º, I"
+    },
+    {
+      "ref": "fonte:cgibs-portaria-9-2026",
+      "dispositivo": "assinatura do Presidente, 17/8/2026"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:partidos-politicos-ajuiza-mandado-de-injuncao",
+  "tipo": "relacao",
+  "nome": "Partido político pode impetrar mandado de injunção coletivo",
+  "relacao": "ajuiza",
+  "de": "org:partidos-politicos",
+  "para": "obj:mandado-de-injuncao",
+  "condicao": "Só o mandado de injunção coletivo, e só partido com representação no Congresso Nacional, para direitos dos seus integrantes ou ligados à finalidade partidária.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13300-2016",
+      "dispositivo": "art. 12, II"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-06-24",
+    "ate": null,
+    "nota": "Vigência da Lei 13.300/2016."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

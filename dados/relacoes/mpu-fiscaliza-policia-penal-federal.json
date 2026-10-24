@@ -1,0 +1,35 @@
+{
+  "tipo": "relacao",
+  "relacao": "fiscaliza",
+  "vigencia": {
+    "de": "2024-05-31",
+    "ate": null,
+    "nota": "Data de criação da Polícia Penal Federal (ver org:policia-penal-federal)."
+  },
+  "confianca": "oficial",
+  "id": "rel:mpu-fiscaliza-policia-penal-federal",
+  "nome": "Controle externo da atividade policial: Polícia Penal Federal",
+  "de": "org:ministerio-publico-da-uniao",
+  "para": "org:policia-penal-federal",
+  "condicao": "Controle externo da atividade policial, por medidas judiciais e extrajudiciais: livre ingresso em estabelecimentos policiais e prisionais, acesso a documentos da atividade-fim, representação e requisição de inquérito.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 129, VII; art. 144, VI"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 3º e 9º"
+    },
+    {
+      "ref": "norma:resolucao-cnmp-20-2007",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "notas": "A Resolução CNMP 20/2007 sujeita ao controle externo os \"organismos policiais relacionados no art. 144\"; a polícia penal entrou na lista depois (EC 104/2019).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

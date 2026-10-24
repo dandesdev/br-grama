@@ -1,0 +1,35 @@
+{
+  "id": "rel:incra-vincula-se-ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "tipo": "relacao",
+  "nome": "O Incra é vinculado ao Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+  "relacao": "vincula-se",
+  "de": "org:incra",
+  "para": "org:ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11232-2022",
+      "dispositivo": "Anexo I, art. 1º, caput"
+    },
+    {
+      "ref": "norma:decreto-11396-2023",
+      "dispositivo": "Anexo I, art. 2º, V, a"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 25, I"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "O Ministério do Desenvolvimento Agrário e Agricultura Familiar foi criado em 2023 (Lei 14.600/2023); a redação do Decreto 11.232/2022 que vincula o Incra a ele é do Decreto 12.171/2024. A data exata da troca de vinculação não foi conferida."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

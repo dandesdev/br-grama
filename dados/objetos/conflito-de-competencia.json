@@ -1,0 +1,26 @@
+{
+  "id": "obj:conflito-de-competencia",
+  "tipo": "objeto",
+  "nome": "Conflito de competência",
+  "resumo": "Disputa entre juízes ou tribunais sobre quem deve julgar um caso. Conforme os envolvidos, quem decide é o STF, o STJ ou um TRF.",
+  "detalhes": "O STF julga os conflitos entre o STJ e quaisquer tribunais, entre tribunais superiores, ou entre estes e qualquer outro tribunal (art. 102, I, o). O STJ julga os conflitos entre quaisquer outros tribunais, entre tribunal e juízes a ele não vinculados e entre juízes vinculados a tribunais diversos (art. 105, I, d). Os TRFs julgam os conflitos entre juízes federais vinculados a eles (art. 108, I, e).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, o; art. 105, I, d; art. 108, I, e"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Ligamos STF e STJ; o caso dos TRFs fica nos detalhes, para não criar mais seis relações.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

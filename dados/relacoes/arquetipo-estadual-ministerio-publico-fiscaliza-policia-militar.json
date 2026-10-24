@@ -1,0 +1,33 @@
+{
+  "tipo": "relacao",
+  "relacao": "fiscaliza",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "id": "rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-militar",
+  "nome": "Controle externo da atividade policial: polícia militar do estado",
+  "de": "org:arquetipo-estadual-ministerio-publico",
+  "para": "org:arquetipo-estadual-policia-militar",
+  "condicao": "Controle externo da atividade policial, na forma da lei complementar do estado; aplica-se subsidiariamente a Lei Orgânica do MPU.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 5º; art. 129, VII; art. 144, V e § 5º"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 80"
+    },
+    {
+      "ref": "norma:resolucao-cnmp-20-2007",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

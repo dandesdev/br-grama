@@ -1,0 +1,35 @@
+{
+  "id": "rel:cnj-regulamenta-precatorio",
+  "tipo": "relacao",
+  "nome": "O CNJ regulamenta a gestão dos precatórios no Judiciário",
+  "relacao": "regulamenta",
+  "de": "org:cnj",
+  "para": "obj:precatorio",
+  "condicao": "Regula a expedição, a gestão e o pagamento das requisições do art. 100 no Judiciário. Os TJs, o CJF e o CSJT editam normas complementares.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, § 4º, I; ADCT, art. 107-A, § 4º"
+    },
+    {
+      "ref": "norma:resolucao-cnj-303-2019",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:provimento-cnj-207-2025",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-12-19",
+    "ate": null,
+    "nota": "Data de publicação da Resolução CNJ 303/2019, que reuniu a regulamentação atual."
+  },
+  "confianca": "oficial",
+  "notas": "'regulamenta' no vocabulário fala em normas para a execução de leis; aqui o CNJ regulamenta a aplicação da própria CF pelos tribunais (poder do art. 103-B, § 4º, I). A Resolução 303 está desatualizada em relação à EC 136/2025 (aviso:resolucao-cnj-303-desatualizada-ec-136).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

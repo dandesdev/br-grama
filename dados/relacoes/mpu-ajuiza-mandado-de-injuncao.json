@@ -1,0 +1,27 @@
+{
+  "id": "rel:mpu-ajuiza-mandado-de-injuncao",
+  "tipo": "relacao",
+  "nome": "O MPU pode impetrar mandado de injunção coletivo",
+  "relacao": "ajuiza",
+  "de": "org:ministerio-publico-da-uniao",
+  "para": "obj:mandado-de-injuncao",
+  "condicao": "Só o mandado de injunção coletivo, quando a tutela for especialmente relevante para a ordem jurídica, o regime democrático ou os interesses sociais ou individuais indisponíveis.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13300-2016",
+      "dispositivo": "art. 12, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-06-24",
+    "ate": null,
+    "nota": "Vigência da Lei 13.300/2016."
+  },
+  "confianca": "oficial",
+  "notas": "A lei diz \"Ministério Público\", sem distinguir ramos; a relação foi feita para o MPU e para o MP estadual (rel:arquetipo-estadual-ministerio-publico-ajuiza-mandado-de-injuncao).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "tipo": "relacao",
+  "relacao": "fiscaliza",
+  "vigencia": {
+    "de": "2019-12-05",
+    "ate": null,
+    "nota": "Data da EC 104/2019, que incluiu as polícias penais no art. 144 (ver org:arquetipo-estadual-policia-penal)."
+  },
+  "confianca": "oficial",
+  "id": "rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-penal",
+  "nome": "Controle externo da atividade policial: polícia penal do estado",
+  "de": "org:arquetipo-estadual-ministerio-publico",
+  "para": "org:arquetipo-estadual-policia-penal",
+  "condicao": "Controle externo da atividade policial, na forma da lei complementar do estado; aplica-se subsidiariamente a Lei Orgânica do MPU.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 5º; art. 129, VII; art. 144, VI e § 5º-A"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 80"
+    },
+    {
+      "ref": "norma:resolucao-cnmp-20-2007",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "notas": "A Resolução CNMP 20/2007 sujeita ao controle externo os \"organismos policiais relacionados no art. 144\"; a polícia penal entrou na lista depois (EC 104/2019).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

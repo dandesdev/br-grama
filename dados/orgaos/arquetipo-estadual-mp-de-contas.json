@@ -1,0 +1,44 @@
+{
+  "id": "org:arquetipo-estadual-mp-de-contas",
+  "tipo": "orgao",
+  "nome": "Ministério Público junto ao Tribunal de Contas do estado",
+  "resumo": "Ministério Público especial que atua nos processos do tribunal de contas estadual como fiscal da lei. Integra a estrutura do tribunal e não se confunde com o MP estadual.",
+  "detalhes": "Seus membros têm os direitos, vedações e forma de investidura do MP comum (art. 130), e a regra é de repetição obrigatória nas Constituições estaduais (STF, ADI 3.804). Para o STF, integra a estrutura do tribunal de contas e tem fisionomia própria: procuradores de justiça do MP estadual não podem atuar nele (ADI 4.427; MS 27.339). Uma das cadeiras do tribunal de contas cabe a membro desse MP (Súmula 653).",
+  "tipo_orgao": "ministerio-publico",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-tce",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 73, § 2º, I; art. 75; art. 130"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-130",
+      "dispositivo": "ADI 4.427, ADI 3.804, ADI 3.315, MS 27.339 e Rcl 14.282 AgR-ED"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-130",
+          "dispositivo": "ADI 4.427 e ADI 3.315 (que cita a ADI 789)"
+        }
+      ],
+      "nota": "Mesma posição de org:mp-junto-ao-tcu, dentro do tribunal de contas; a CF não diz isso com essas palavras."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Arquétipo (D06). Os MPs de contas reais dos 26 estados e do DF não foram levantados nesta tarefa. A forma de escolha do procurador-geral é definida por cada estado (ADI 4.427). Onde há tribunal de contas dos municípios (ex.: org:tcm-bahia), também há MP junto a ele (art. 130 fala em \"Tribunais de Contas\"); não modelado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

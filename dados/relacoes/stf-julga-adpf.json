@@ -8,7 +8,7 @@
   "condicao": "A decisão vale para todos e vincula os demais órgãos do Poder Público; cabe reclamação se for descumprida (Lei 9.882, arts. 10, § 3º, e 13).",
   "quorum": {
     "regra": "outro",
-    "nota": "A decisão exige a presença de pelo menos dois terços dos ministros (Lei 9.882, art. 8º); a liminar, maioria absoluta dos membros (art. 5º); restringir os efeitos no tempo, dois terços (art. 11)."
+    "nota": "A decisão exige a presença de pelo menos dois terços dos ministros (Lei 9.882, art. 8º); a liminar, maioria absoluta dos membros (art. 5º); restringir os efeitos no tempo, dois terços (art. 11). Para declarar a inconstitucionalidade de lei ou ato, vale a maioria absoluta da CF (art. 97), isto é, seis votos."
   },
   "vigencia": {
     "de": "1999-12-06",
@@ -18,18 +18,23 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 102, § 1º"
+      "dispositivo": "art. 97; art. 102, § 1º"
     },
     {
       "ref": "norma:lei-9882-1999",
       "dispositivo": "arts. 5º, 8º, 10, § 3º, 11 e 13"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 77-B; art. 143, parágrafo único; art. 173"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade; CF, arts. 97 e 102, § 1º, e Lei 9.882, arts. 5º, 8º, 10, 11 e 13, conferidos; RISTF consolidado (PDF oficial, ER 59/2023) lido: sem quórum de votação próprio para ADPF (só art. 77-B); quórum completado com a maioria absoluta do art. 97 da CF e notas atualizadas"
   },
-  "notas": "A Lei 9.882 não fixa o número de votos para a decisão de mérito (o art. 8º, § 1º, foi vetado); não pesquisamos o RISTF sobre isso."
+  "notas": "A Lei 9.882 não fixa o número de votos para a decisão de mérito (o art. 8º, § 1º, foi vetado). O RISTF (consolidado até a ER 59/2023) não tem regra de votação própria para a ADPF: só a cita na distribuição por prevenção (art. 77-B). Para a representação de inconstitucionalidade, ele pede oito ministros presentes (art. 143, parágrafo único) e seis votos (art. 173); aplicar essa regra à ADPF é leitura nossa. A maioria absoluta do art. 97 da CF vale para qualquer declaração de inconstitucionalidade por tribunal."
 }

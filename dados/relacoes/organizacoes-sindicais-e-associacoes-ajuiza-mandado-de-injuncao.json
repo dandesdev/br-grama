@@ -1,0 +1,26 @@
+{
+  "id": "rel:organizacoes-sindicais-e-associacoes-ajuiza-mandado-de-injuncao",
+  "tipo": "relacao",
+  "nome": "Sindicatos e associações podem impetrar mandado de injunção coletivo",
+  "relacao": "ajuiza",
+  "de": "org:organizacoes-sindicais-entidades-de-classe-e-associacoes",
+  "para": "obj:mandado-de-injuncao",
+  "condicao": "Só o mandado de injunção coletivo, para direitos de todos ou parte dos membros ou associados, pertinentes às finalidades da entidade; exige um ano de funcionamento.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13300-2016",
+      "dispositivo": "art. 12, III"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-06-24",
+    "ate": null,
+    "nota": "Vigência da Lei 13.300/2016."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

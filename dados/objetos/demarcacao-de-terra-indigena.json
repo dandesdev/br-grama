@@ -1,0 +1,32 @@
+{
+  "id": "obj:demarcacao-de-terra-indigena",
+  "tipo": "objeto",
+  "nome": "Demarcação de terra indígena",
+  "resumo": "Ato da União que reconhece e fixa os limites de uma terra tradicionalmente ocupada por indígenas, destinada à sua posse permanente.",
+  "detalhes": "As terras indígenas são da União, inalienáveis e indisponíveis; os indígenas têm o usufruto exclusivo das riquezas do solo, dos rios e dos lagos. Mineração e aproveitamento hídrico nelas dependem de autorização do Congresso.",
+  "tipo_objeto": "decisao",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 20, XI; art. 231, caput e §§ 1º a 4º"
+    },
+    {
+      "ref": "norma:decreto-1775-1996",
+      "dispositivo": "arts. 1º e 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

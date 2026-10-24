@@ -3,8 +3,8 @@
   "tipo": "objeto",
   "nome": "Ação direta de inconstitucionalidade (por ação ou por omissão) e ação declaratória de constitucionalidade",
   "sigla": "ADI, ADO e ADC",
-  "resumo": "Ações propostas diretamente no STF para declarar uma lei ou ato normativo inconstitucional (ADI) ou constitucional (ADC), ou para apontar a falta de norma que a Constituição exige (ADO).",
-  "detalhes": "Só os legitimados do art. 103 da CF podem propô-las. O PGR é ouvido antes, e o Advogado-Geral da União defende o ato questionado na ADI (art. 103, §§ 1º e 3º). Na ADO, o STF avisa o Poder omisso; se a omissão for de órgão administrativo, ele tem 30 dias para agir (art. 103, § 2º).",
+  "resumo": "Ações propostas diretamente no STF para declarar uma lei ou ato normativo inconstitucional (ADI) ou constitucional (ADC), ou para apontar a falta de medida que a Constituição exige (ADO).",
+  "detalhes": "A ADI pode atacar lei ou ato normativo federal ou estadual; a ADC só trata de lei ou ato federal (art. 102, I, a). Só os legitimados do art. 103 da CF podem propô-las. O PGR é ouvido antes, e o Advogado-Geral da União defende o ato questionado na ADI (art. 103, §§ 1º e 3º). A ADO cobre a falta de lei ou de providência administrativa (Lei 9.868, art. 12-B, I): o STF avisa o Poder omisso e, se a omissão for de órgão administrativo, ele tem 30 dias para agir (art. 103, § 2º).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "vigencia": {
@@ -19,15 +19,15 @@
     },
     {
       "ref": "norma:lei-9868-1999",
-      "dispositivo": "arts. 2º, 12-A e 12-H"
+      "dispositivo": "arts. 2º, 12-A, 12-B, I, 12-H e 13"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade",
-    "notas": "verificado antes em verificacao-f0-funcoes-essenciais (2026-10-23); ampliado nesta tarefa para incluir a ADO: nome, sigla, resumo, detalhes, fontes, nota de vigência e notas mudaram e precisam de nova conferência"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade (antes verificado em verificacao-f0-funcoes-essenciais); conferidos CF, arts. 102, I, a, e 103 (incluídos o antigo § 4º, revogado pela EC 45/2004, e a redação original dos incisos IV e V), e Lei 9.868, arts. 2º, 12-A a 12-H e 13. Corrigido: o resumo dizia que a ADO aponta só a falta de norma; ela cobre também providência administrativa (art. 12-B, I). Acrescentado nos detalhes que a ADC só trata de lei ou ato federal. Fontes: + arts. 12-B e 13 da Lei 9.868, citados nas notas"
   },
   "notas": "Criado para ligar os legitimados do art. 103 (relações propoe). O alvo do controle continua sendo obj:lei-ou-ato-normativo-federal-ou-estadual (rel:stf-controla-constitucionalidade-leis-e-atos). A EC 3/1993 vem da marca de redação no art. 102, I, a, do texto do Planalto; a emenda não foi cadastrada. Em f0-controle-constitucionalidade a ação direta de inconstitucionalidade por omissão (ADO) entrou neste objeto, em vez de virar objeto próprio: a CF a trata no mesmo art. 103 (caput e § 2º) como espécie de ação direta, e a Lei 9.868 (art. 12-A) dá a ela os mesmos legitimados da ADI e da ADC. Assim as relações propoe valem para as três. A Lei 9.868, art. 13, ainda lista só quatro legitimados para a ADC (redação de 1999); vale a CF, que desde a EC 45/2004 dá à ADC os legitimados da ADI."
 }

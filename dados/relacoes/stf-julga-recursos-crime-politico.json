@@ -1,0 +1,31 @@
+{
+  "id": "rel:stf-julga-recursos-crime-politico",
+  "tipo": "relacao",
+  "nome": "Recurso ordinário nos crimes políticos",
+  "relacao": "julga-recursos-contra",
+  "de": "org:stf",
+  "para": "cargo:juiz-federal",
+  "condicao": "Só nos crimes políticos: os juízes federais os julgam em primeira instância, e o recurso ordinário vai direto ao STF, sem passar pelo TRF.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, II, b; art. 109, IV"
+    }
+  ],
+  "campos": {
+    "condicao": {
+      "confianca": "inferido",
+      "nota": "\"Sem passar pelo TRF\" é leitura nossa da combinação do art. 102, II, b (recurso ordinário ao STF) com o art. 109, IV; a CF não diz isso com essas palavras."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

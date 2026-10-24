@@ -14,7 +14,7 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 156-A; art. 156-B; ADCT, arts. 125, 127, 128 e 131"
+      "dispositivo": "art. 156-A; art. 156-B; ADCT, arts. 125, 127, 128, 131 e 132"
     },
     {
       "ref": "norma:lc-214-2025",
@@ -23,9 +23,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF arts. 156-A, 156-B, ADCT 125, 127, 128 e 131 e LC 214/2025, arts. 1º, I, 343 e 348, conferidos; LC 235/2026 (DOU 28/8/2026) só altera os arts. 82 e 174 da LC 214 e não muda o IBS em 2026-10-01"
-  }
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar",
+    "notas": "verificado antes em verificacao-f0-dinheiro; f0-dinheiro-complementar acrescentou o ADCT, art. 132, às fontes e uma frase às notas; o resto não mudou"
+  },
+  "notas": "Na transição, do IBS de estados, DF e municípios calculado pelas alíquotas de referência, 5% são retidos e distribuídos aos entes com a menor razão entre esse valor e a receita média de referência, até igualar as razões (ADCT, art. 132, incluído pela EC 132/2023)."
 }

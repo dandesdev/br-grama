@@ -1,0 +1,44 @@
+{
+  "id": "aviso:funai-natureza-juridica",
+  "tipo": "aviso",
+  "nome": "Leis divergem sobre a natureza jurídica da Funai",
+  "resumo": "A lei que criou a Funai fala em fundação de direito privado; a Lei 14.600/2023 a chama de autarquia federal; o SIORG a classifica como fundação pública.",
+  "detalhes": "A Lei 5.371/1967, art. 1º, autoriza instituir 'uma fundação, com patrimônio próprio e personalidade jurídica de direito privado'. A Lei 14.600/2023, art. 58, ao mudar o nome, diz 'Fundação Nacional do Índio (Funai), autarquia federal criada pela Lei nº 5.371'. O SIORG registra a entidade como fundação pública.",
+  "tipo_aviso": "contradicao",
+  "afeta": [
+    "org:funai"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Lei 5.371/1967 (Planalto)",
+    "Lei 14.600/2023, art. 58 (Planalto)",
+    "SIORG, estrutura resumida baixada em 2026-10-24 (unidade 173)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-5371-1967",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 58"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 173"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Desde a Lei 14.600/2023 (data da MP de origem não conferida)."
+  },
+  "confianca": "oficial",
+  "notas": "Não pesquisamos o estatuto da Funai nem a doutrina e a jurisprudência sobre a natureza da entidade.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

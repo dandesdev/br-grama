@@ -1,0 +1,26 @@
+{
+  "id": "rel:stj-julga-conselheiro-do-tce",
+  "tipo": "relacao",
+  "nome": "Foro dos conselheiros dos tribunais de contas estaduais",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "cargo:arquetipo-estadual-conselheiro-do-tce",
+  "condicao": "Originariamente, nos crimes comuns e de responsabilidade. Vale também para os membros do TCDF e dos conselhos ou tribunais de contas dos municípios.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, a"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Os conselheiros dos TCMs (ex.: org:tcm-sao-paulo, org:tcm-rio-de-janeiro, org:tcm-bahia) não têm cargo próprio no mapa; ficam citados na condição.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

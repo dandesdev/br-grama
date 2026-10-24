@@ -1,0 +1,39 @@
+{
+  "id": "obj:limite-de-pagamento-de-precatorios",
+  "tipo": "objeto",
+  "nome": "Limites de pagamento de precatórios",
+  "resumo": "Teto anual que a Constituição põe no pagamento de precatórios: para estados, DF e municípios, de 1% a 5% da receita corrente líquida, conforme o tamanho da dívida atrasada.",
+  "detalhes": "Desde a EC 136/2025, estados, DF e municípios pagam por ano um percentual da receita corrente líquida do ano anterior que vai de 1% (sem estoque ou estoque em mora até 15% da receita) a 5% (estoque acima de 85%) (art. 100, § 23). Os limites sobem 0,5 ponto a cada dez anos a partir de 2036 se ainda houver estoque (§ 24) e ficam suspensos se o ente não liberar os recursos a tempo (§ 27). Na União, o teto do ADCT, art. 107-A, só valeu para 2022 (STF, ADI 7064).",
+  "tipo_objeto": "regra-fiscal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 100, §§ 23 a 28; art. 165, §§ 18 a 22; ADCT, arts. 101, § 6º, e 107-A"
+    },
+    {
+      "ref": "norma:ec-136-2025",
+      "dispositivo": "arts. 1º, 7º e 8º"
+    },
+    {
+      "ref": "fonte:stf-adi-7064",
+      "dispositivo": "decisão de 30/11/2023"
+    },
+    {
+      "ref": "norma:provimento-cnj-207-2025",
+      "dispositivo": "art. 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2025-09-10",
+    "ate": null,
+    "nota": "Limites dos estados, DF e municípios desde a EC 136/2025. O teto da União (ADCT, art. 107-A, EC 114/2021) vai formalmente até 2026, mas o STF restringiu seus efeitos a 2022."
+  },
+  "confianca": "oficial",
+  "notas": "Os limites valem também para os precatórios já inscritos antes da EC 136/2025 (art. 8º) e para os entes no regime especial do ADCT, art. 101 (§ 6º). Pagamentos com créditos ofertados pelo credor ou por amortização de dívidas (§§ 11 e 21) não contam para o limite (§ 26), e o ente pode pagar acima dele com dotação específica (§ 28). Para a União, a EC 136/2025 tirou as despesas com precatórios e RPVs do limite individualizado do Executivo a partir de 2026 e manda incorporá-las à meta de resultado primário a partir de 2027, em no mínimo 10% ao ano, de forma cumulativa (art. 165, §§ 18 e 21). O CNJ entende que o § 23 tem aplicação imediata (Provimento 207/2025, art. 5º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

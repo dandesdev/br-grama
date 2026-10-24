@@ -1,0 +1,25 @@
+{
+  "id": "rel:stf-julga-conflito-federativo",
+  "tipo": "relacao",
+  "nome": "Conflitos entre a União e os estados",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "obj:conflito-federativo",
+  "condicao": "Originariamente.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, f"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

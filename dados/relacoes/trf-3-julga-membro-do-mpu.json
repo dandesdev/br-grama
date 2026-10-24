@@ -1,0 +1,25 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "id": "rel:trf-3-julga-membro-do-mpu",
+  "nome": "Foro dos membros do MPU na 3ª Região",
+  "relacao": "julga",
+  "de": "org:trf-3",
+  "para": "cargo:membro-do-ministerio-publico-da-uniao",
+  "condicao": "Julga originariamente os membros do MPU que atuam na área da 3ª Região, nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral. Os que oficiam perante tribunais são julgados pelo STJ (art. 105, I, a).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 108, I, a; art. 105, I, a"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "rel:stn-regulamenta-dados-contabeis-orcamentarios-e-fiscais-dos-entes",
+  "tipo": "relacao",
+  "nome": "A Secretaria do Tesouro Nacional define como os entes publicam seus dados fiscais",
+  "relacao": "regulamenta",
+  "de": "org:secretaria-do-tesouro-nacional",
+  "para": "obj:dados-contabeis-orcamentarios-e-fiscais-dos-entes",
+  "condicao": "Como órgão central de contabilidade da União, fixa a periodicidade, o formato e o sistema em que União, estados, DF e municípios entregam esses dados.",
+  "vigencia": {
+    "de": "2020-08-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Mesma data do objeto."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 163-A"
+    },
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 17, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

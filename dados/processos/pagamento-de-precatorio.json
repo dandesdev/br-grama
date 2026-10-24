@@ -1,0 +1,381 @@
+{
+  "id": "proc:pagamento-de-precatorio",
+  "tipo": "processo",
+  "nome": "Pagamento de condenação judicial da Fazenda Pública (precatório)",
+  "resumo": "Como o poder público paga uma condenação definitiva: requisição pelo juiz, inscrição pelo presidente do tribunal, inclusão no orçamento e pagamento pela ordem cronológica.",
+  "detalhes": "Vale para União, estados, DF e municípios e suas autarquias e fundações (art. 100). Condenações de pequeno valor seguem caminho curto, sem precatório. Estados, DF e municípios pagam dentro de limites anuais ligados à receita (EC 136/2025), e os que estavam em mora em 2015 seguem o regime especial do ADCT, art. 101, sem o prazo final de 2029.",
+  "forma": "linha",
+  "produz": "obj:precatorio",
+  "etapas": [
+    {
+      "id": "condenacao",
+      "atores": [
+        "cargo:juiz-de-direito",
+        "cargo:juiz-federal",
+        "cargo:juiz-do-trabalho"
+      ],
+      "acao": "A condenação da Fazenda Pública transita em julgado, e o juízo da execução expede a requisição de pagamento",
+      "detalhes": "O juiz da execução é o magistrado onde tramita o processo com a obrigação de pagar da Fazenda Pública (Resolução CNJ 303/2019, art. 2º, I). Cada precatório é expedido por beneficiário (art. 7º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, caput e § 5º"
+        },
+        {
+          "ref": "norma:resolucao-cnj-303-2019",
+          "dispositivo": "art. 2º, I; art. 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pequeno-valor",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pequeno-valor",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-de-direito",
+        "cargo:juiz-federal",
+        "cargo:juiz-do-trabalho"
+      ],
+      "acao": "O valor cabe no limite de pequeno valor fixado em lei do ente devedor?",
+      "detalhes": "Cada ente fixa o seu limite, com mínimo igual ao maior benefício do RGPS (art. 100, § 4º). Até a lei, 40 salários mínimos para estados e DF e 30 para municípios (ADCT, art. 87); na União, 60 salários mínimos (Lei 10.259/2001, art. 17, § 1º). É proibido fracionar a execução para caber no limite (art. 100, § 8º); o credor pode renunciar ao excedente (ADCT, art. 87, parágrafo único).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, §§ 3º, 4º e 8º; ADCT, art. 87"
+        },
+        {
+          "ref": "norma:lei-10259-2001",
+          "dispositivo": "art. 17, § 1º"
+        },
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 13, §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "rpv",
+          "quando": "Sim: requisição de pequeno valor"
+        },
+        {
+          "para": "inscricao",
+          "quando": "Não: precatório"
+        }
+      ]
+    },
+    {
+      "id": "rpv",
+      "atores": [
+        "cargo:juiz-de-direito",
+        "cargo:juiz-federal",
+        "cargo:juiz-do-trabalho"
+      ],
+      "acao": "O juiz requisita o pagamento direto à autoridade citada na causa, que paga em 60 dias, sem precatório",
+      "detalhes": "Se a requisição não é atendida, o juiz determina o sequestro do valor (Lei 10.259/2001, art. 17, § 2º; Lei 12.153/2009, art. 13, § 1º). O prazo de 60 dias está nas leis dos juizados federais e da Fazenda Pública; fora delas, o prazo da RPV depende da lei processual e da lei de cada ente, não conferidas aqui.",
+      "prazo": {
+        "texto": "60 dias da entrega da requisição (Lei 10.259/2001, art. 17; Lei 12.153/2009, art. 13, I)",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "entrega da requisição à autoridade"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, § 3º"
+        },
+        {
+          "ref": "norma:lei-10259-2001",
+          "dispositivo": "art. 17, caput e § 2º"
+        },
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 13, I e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "inscricao",
+      "atores": [
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "org:justica-federal",
+        "org:justica-do-trabalho"
+      ],
+      "acao": "O presidente do tribunal confere o precatório e o inscreve na ordem cronológica do ente devedor",
+      "detalhes": "O momento de apresentação é o recebimento do ofício pelo tribunal a que se vincula o juízo da execução, e o tribunal publica a lista da ordem cronológica, sem identificar os credores (Resolução CNJ 303/2019, arts. 3º e 12). Na Justiça Federal e na do Trabalho, quem age é o presidente do TRF ou do TRT da região.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, caput e § 6º"
+        },
+        {
+          "ref": "norma:resolucao-cnj-303-2019",
+          "dispositivo": "arts. 3º e 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "comunicacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "comunicacao",
+      "atores": [
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "org:justica-federal",
+        "org:justica-do-trabalho"
+      ],
+      "acao": "O tribunal comunica ao ente devedor os precatórios apresentados até 1º de fevereiro, para o orçamento do ano seguinte",
+      "detalhes": "A data de 1º de fevereiro é da EC 136/2025; a Resolução CNJ 303/2019 ainda fala em 2 de abril (aviso:resolucao-cnj-303-desatualizada-ec-136). Os precatórios apresentados depois entram no orçamento de dois anos depois.",
+      "prazo": {
+        "texto": "Precatórios apresentados até 1º de fevereiro entram no orçamento do exercício seguinte (art. 100, § 5º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, § 5º"
+        },
+        {
+          "ref": "norma:resolucao-cnj-303-2019",
+          "dispositivo": "arts. 15 e 17",
+          "nota": "datas desatualizadas"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "orcamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "orcamento",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:arquetipo-estadual-governador",
+        "cargo:arquetipo-municipal-prefeito"
+      ],
+      "acao": "O ente devedor inclui no orçamento a verba para pagar os precatórios, consignada diretamente ao Poder Judiciário",
+      "detalhes": "A inclusão é obrigatória, e as dotações e créditos vão direto ao Judiciário (art. 100, §§ 5º e 6º). O orçamento segue o ciclo orçamentário de cada ente.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, §§ 5º e 6º"
+        }
+      ],
+      "remete_a": "proc:ciclo-orcamentario",
+      "seguintes": [
+        {
+          "para": "pagamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pagamento",
+      "atores": [
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "org:justica-federal",
+        "org:justica-do-trabalho"
+      ],
+      "acao": "O presidente do tribunal manda pagar até o fim do exercício seguinte, na ordem cronológica e com as preferências",
+      "detalhes": "Primeiro os créditos alimentares de idosos, doentes graves e pessoas com deficiência, até o triplo do pequeno valor; depois os demais alimentares; depois os outros (art. 100, §§ 1º e 2º). Se um precatório passa de 15% do total apresentado, 15% são pagos no exercício seguinte e o resto em cinco parcelas anuais, ou por acordo direto (art. 100, § 20).",
+      "prazo": {
+        "texto": "Até o final do exercício seguinte ao da apresentação (art. 100, § 5º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, §§ 1º, 2º, 5º, 6º e 20"
+        },
+        {
+          "ref": "norma:resolucao-cnj-303-2019",
+          "dispositivo": "art. 17, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pago",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pago",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "org:justica-federal",
+        "org:justica-do-trabalho"
+      ],
+      "acao": "O credor foi pago na ordem e no prazo?",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, § 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": "Sim"
+        },
+        {
+          "para": "sequestro",
+          "quando": "Não: o credor foi preterido na ordem ou a verba não foi alocada"
+        }
+      ]
+    },
+    {
+      "id": "sequestro",
+      "atores": [
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "org:justica-federal",
+        "org:justica-do-trabalho"
+      ],
+      "acao": "A pedido do credor, o presidente do tribunal autoriza o sequestro da quantia",
+      "detalhes": "O sequestro cabe só na quebra da ordem de precedência ou na falta de alocação da verba (art. 100, § 6º). O pedido é decidido pelo presidente do tribunal, que intima o gestor do ente a pagar ou se explicar em 10 dias e ouve o Ministério Público (Resolução CNJ 303/2019, arts. 19 e 20). O presidente que retardar ou frustrar o pagamento comete crime de responsabilidade e responde ao CNJ (art. 100, § 7º).",
+      "prazo": {
+        "texto": "10 dias para o gestor do ente comprovar o pagamento, pagar ou prestar informações (Resolução CNJ 303/2019, art. 20, § 2º)",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "intimação do gestor"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, §§ 6º e 7º"
+        },
+        {
+          "ref": "norma:resolucao-cnj-303-2019",
+          "dispositivo": "arts. 19 e 20"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O crédito é pago",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "limite-estados-e-municipios",
+      "nome": "Limite anual dos estados, DF e municípios (EC 136/2025)",
+      "resumo": "O pagamento anual de precatórios fica limitado a 1% a 5% da receita corrente líquida, conforme o estoque em mora",
+      "detalhes": "Vale para as administrações direta e indireta, inclusive para precatórios já inscritos antes da emenda (EC 136/2025, art. 8º). Se o ente não liberar os recursos a tempo, os limites ficam suspensos, o presidente do TJ local determina o sequestro das contas do ente, o chefe do Executivo responde por responsabilidade fiscal e improbidade, e o ente fica sem transferências voluntárias (art. 100, § 27). Credores não pagos por causa do limite podem fazer acordo direto, com renúncia de parte do crédito (§ 29).",
+      "quem_aciona": [],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 100, §§ 23 a 30"
+        },
+        {
+          "ref": "norma:ec-136-2025",
+          "dispositivo": "art. 8º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "orcamento",
+          "nota": "A verba anual é a do limite do § 23 (1% a 5% da receita corrente líquida do ano anterior), salvo se o ente decidir pagar mais (§ 28)."
+        },
+        {
+          "etapa": "pagamento",
+          "nota": "Os aportes vão às contas especiais de cada tribunal credor, rateados pela dívida consolidada (Provimento CNJ 207/2025, art. 9º); sobre os valores aportados não correm mais juros nem correção (art. 100, § 30)."
+        },
+        {
+          "etapa": "sequestro",
+          "nota": "Na falta de liberação dos recursos, quem determina o sequestro é o presidente do TJ local, também para os precatórios da Justiça Federal e do Trabalho (art. 100, § 27, II; Provimento CNJ 207/2025, art. 9º, § 2º)."
+        }
+      ]
+    },
+    {
+      "id": "regime-especial-adct-101",
+      "nome": "Regime especial dos entes em mora (ADCT, art. 101)",
+      "resumo": "Estados, DF e municípios em mora em 25/3/2015 depositam todo mês, numa conta do TJ, um percentual da receita, segundo plano anual",
+      "detalhes": "O depósito mensal é 1/12 de um percentual da receita corrente líquida, nunca menor que o praticado na entrada do regime, conforme plano apresentado todo ano ao TJ (ADCT, art. 101). O prazo de quitação até 31/12/2029 deixou de valer com a EC 136/2025 (art. 7º), e aplicam-se ao regime os limites do art. 100, §§ 23 a 30 (ADCT, art. 101, § 6º). Pelo menos metade dos recursos segue a ordem cronológica; o resto pode ir para acordos diretos com desconto de até 40% (art. 102). Se o ente não deposita, o presidente do TJ sequestra as contas e a União retém os repasses do FPE e do FPM (art. 104).",
+      "quem_aciona": [],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "ADCT, arts. 101 a 105"
+        },
+        {
+          "ref": "norma:ec-136-2025",
+          "dispositivo": "art. 2º (ADCT, art. 101, § 6º) e art. 7º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "orcamento",
+          "nota": "Em vez da verba anual por precatório, o ente deposita mensalmente na conta especial do TJ, que a administra (ADCT, art. 101, caput)."
+        },
+        {
+          "etapa": "pagamento",
+          "nota": "O TJ paga com os recursos da conta especial; as preferências por idade, doença e deficiência vão até o quíntuplo do pequeno valor (ADCT, art. 102, § 2º). Credores podem compensar o precatório com dívida ativa inscrita até 25/3/2015 (ADCT, art. 105)."
+        },
+        {
+          "etapa": "sequestro",
+          "nota": "Enquanto o ente deposita em dia, não há sequestro (ADCT, art. 103). Na falta de depósito, o presidente do TJ sequestra e a União retém o FPE ou o FPM (ADCT, art. 104, I e III)."
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 100; ADCT, arts. 87 e 101 a 105"
+    },
+    {
+      "ref": "norma:ec-136-2025",
+      "dispositivo": "arts. 1º, 2º, 7º e 8º"
+    },
+    {
+      "ref": "norma:resolucao-cnj-303-2019",
+      "dispositivo": "arts. 2º, 3º, 7º, 12, 15, 17, 19 e 20"
+    },
+    {
+      "ref": "norma:provimento-cnj-207-2025",
+      "dispositivo": "arts. 1º a 3º, 5º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "As etapas seguem a redação vigente em 2026-10-01; o limite dos estados e municípios vale desde a EC 136/2025 (10/9/2025)."
+  },
+  "confianca": "oficial",
+  "notas": "O texto compilado da CF no Planalto ainda mostra, no ADCT, art. 101, caput, \"até 31 de dezembro de 2029\", sem marcar que a EC 136/2025, art. 7º, tornou o prazo inaplicável; seguimos a emenda. ADCT, art. 107-A (teto federal até 2026): o STF limitou os efeitos a 2022 (ADI 7064), por isso não virou regime; ver obj:limite-de-pagamento-de-precatorios. O § 9º do art. 100 (compensação com dívida ativa na redação da EC 113/2021) foi declarado inconstitucional na ADI 7064 e não entrou nas etapas. Atores: 'org:justica-federal' e 'org:justica-do-trabalho' representam os TRFs e TRTs, que não têm nó único; os presidentes dos tribunais não têm cargo próprio no mapa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

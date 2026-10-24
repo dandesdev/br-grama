@@ -1,0 +1,34 @@
+{
+  "id": "pessoa:flavio-cesar-mendes-de-oliveira",
+  "tipo": "pessoa",
+  "nome": "Flávio César",
+  "nome_civil": "Flávio César Mendes de Oliveira",
+  "resumo": "Presidente do Comitê Gestor do IBS desde a ratificação de 10 de março de 2026, com mandato até 31 de março de 2027; secretário de Fazenda de Mato Grosso do Sul.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:cgibs-portaria-1-2026",
+      "dispositivo": "art. 1º, I"
+    },
+    {
+      "ref": "fonte:cgibs-portaria-9-2026",
+      "dispositivo": "assinatura (17/8/2026)"
+    }
+  ],
+  "campos": {
+    "resumo": {
+      "nota": "O cargo de secretário de Fazenda de MS e o nome de uso 'Flávio César' vêm da notícia do CGIBS de 19/2/2026 (https://www.cgibs.gov.br/flavio-cesar-e-definido-presidente-temporario-do-conselho-superior-do-comite-gestor-do-ibs-ate-a-reuniao-presencial-de-3-de-marc), lida pela ferramenta de busca e não salva."
+    }
+  },
+  "filiacoes": [],
+  "confianca": "oficial",
+  "notas": "Filiação partidária não pesquisada. Segundo a mesma notícia do CGIBS, ele presidia o CGIBS provisório desde 1º/8/2025 e foi reconduzido temporariamente de 1º/1 a 3/3/2026; esse período anterior não virou relação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

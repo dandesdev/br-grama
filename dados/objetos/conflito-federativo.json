@@ -1,0 +1,26 @@
+{
+  "id": "obj:conflito-federativo",
+  "tipo": "objeto",
+  "nome": "Conflito federativo",
+  "resumo": "Causa ou conflito entre a União e os estados ou o DF, ou entre estes, inclusive suas autarquias, fundações e empresas. Vai direto ao STF.",
+  "detalhes": "A CF dá ao STF a competência originária para julgar as causas e os conflitos entre a União e os estados, a União e o DF, ou entre uns e outros, inclusive as entidades da administração indireta (art. 102, I, f).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, f"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A jurisprudência do STF restringe a alínea f aos casos que ameaçam o pacto federativo; não registrada aqui por falta de fonte conferida nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "id": "rel:trf-3-julga-juiz-do-trabalho",
+  "nome": "Foro dos juízes do trabalho na 3ª Região",
+  "relacao": "julga",
+  "de": "org:trf-3",
+  "para": "cargo:juiz-do-trabalho",
+  "condicao": "Julga originariamente os juízes do trabalho que atuam na área da 3ª Região, nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 108, I, a"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

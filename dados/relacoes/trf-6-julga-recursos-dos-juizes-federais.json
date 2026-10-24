@@ -1,0 +1,26 @@
+{
+  "tipo": "relacao",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "id": "rel:trf-6-julga-recursos-dos-juizes-federais",
+  "nome": "Recursos contra juízes federais da 6ª Região",
+  "relacao": "julga-recursos-contra",
+  "de": "org:trf-6",
+  "para": "cargo:juiz-federal",
+  "condicao": "Julga, em grau de recurso, as causas decididas pelos juízes federais da 6ª Região e pelos juízes estaduais da região no exercício da competência federal.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 108, II; art. 109, §§ 3º e 4º"
+    }
+  ],
+  "notas": "Uma relação por TRF, porque não há nó único para os TRFs. Os recursos dos juizados especiais federais não vêm ao TRF: vão às turmas recursais (rel:turmas-recursais-federais-julga-recursos-dos-juizados).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

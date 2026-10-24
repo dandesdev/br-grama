@@ -1,0 +1,49 @@
+{
+  "id": "cargo:arquetipo-estadual-procurador-de-contas",
+  "tipo": "cargo",
+  "nome": "Procurador do Ministério Público de Contas do estado",
+  "resumo": "Membro do Ministério Público especial que atua junto ao tribunal de contas estadual. Ingressa por concurso público e tem os direitos e vedações do MP comum.",
+  "orgao": "org:arquetipo-estadual-mp-de-contas",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "Fixado na lei de cada estado; não somamos.",
+  "provimento_nota": "Ingressa por concurso público de provas e títulos, com participação da OAB, como no MP comum (arts. 129, § 3º, e 130). O procurador-geral é escolhido na forma da lei estadual (STF, ADI 4.427).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "nota": "Tem as garantias do MP comum, inclusive vitaliciedade (art. 128, § 5º, I, aplicado pelo art. 130; STF, ADI 3.804)."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica; aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 129, § 3º; art. 130"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Um dos sete conselheiros do tribunal de contas estadual é escolhido pelo Governador entre membros desse MP (Súmula 653 do STF; ver cargo:arquetipo-estadual-conselheiro-do-tce).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 5º; art. 129, § 3º; art. 130"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-130",
+      "dispositivo": "ADI 3.804 e ADI 4.427"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado de arquétipo (D11). O nome do cargo varia nos estados; usamos \"procurador de contas\", termo comum nos sites dos MPs de contas, sem conferir estado por estado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}
