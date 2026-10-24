@@ -8,7 +8,7 @@
   "condicao": "Ao julgar um caso, juízes e tribunais podem declarar inconstitucional a lei ou o ato normativo arguido no processo. Nos tribunais, a turma ou câmara que acolher a arguição envia a questão ao plenário ou ao órgão especial, salvo se ele ou o plenário do STF já tiver decidido. A decisão pode chegar ao STF por recurso extraordinário.",
   "quorum": {
     "regra": "maioria-absoluta",
-    "nota": "Reserva de plenário: nos tribunais, só a maioria absoluta dos membros ou do órgão especial declara a inconstitucionalidade (CF, art. 97). O juiz de primeiro grau decide sozinho."
+    "nota": "Reserva de plenário: nos tribunais, só a maioria absoluta dos membros ou do órgão especial declara a inconstitucionalidade (CF, art. 97). O art. 97 não fala do juiz de primeiro grau, que decide sozinho (leitura nossa)."
   },
   "vigencia": {
     "de": "1988-10-05",
@@ -26,9 +26,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade; CF, arts. 97 e 102, III, b, e CPC, arts. 948 e 949, conferidos; a frase sobre o juiz de primeiro grau, que só estava marcada como leitura nossa nas notas, passou a dizer isso também na nota do quórum"
   },
   "notas": "\"O juiz de primeiro grau decide sozinho\" é leitura nossa: o art. 97 só se aplica a tribunais, e o art. 102, III, b, admite recurso contra decisões que declaram a inconstitucionalidade. Depois de decisão definitiva do STF, o Senado pode suspender a execução da lei (rel:senado-suspende-execucao-lei-inconstitucional, art. 52, X). O órgão especial (art. 93, XI) não tem nó no mapa."
 }

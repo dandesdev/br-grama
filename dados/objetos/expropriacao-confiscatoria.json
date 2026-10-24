@@ -1,0 +1,34 @@
+{
+  "id": "obj:expropriacao-confiscatoria",
+  "tipo": "objeto",
+  "nome": "Expropriação sem indenização (art. 243)",
+  "resumo": "Perda, sem indenização, de imóvel rural ou urbano onde houver cultivo ilegal de plantas psicotrópicas ou exploração de trabalho escravo; o imóvel vai para a reforma agrária ou para habitação popular.",
+  "detalhes": "Bens de valor econômico apreendidos por tráfico de drogas ou trabalho escravo são confiscados e vão para um fundo especial. Para as plantas psicotrópicas, o rito judicial está na Lei 8.257/1991.",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O caso de trabalho escravo e a destinação à habitação popular vêm da EC 81/2014."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 243, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:lei-8257-1991",
+      "dispositivo": "arts. 1º, 6º e 15"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Não localizamos lei que regule a expropriação por trabalho escravo ('na forma da lei', art. 243, redação da EC 81/2014); busca feita só na web, sem pesquisa sistemática no Planalto e no Congresso. Data da EC 81/2014 não conferida.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

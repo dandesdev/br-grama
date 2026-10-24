@@ -13,19 +13,24 @@
   "vigencia": {
     "de": null,
     "ate": null,
-    "nota": "A lei não tem cláusula de vigência; publicada no DOU de 5/7/1965 e republicada em 8/4/1974. Data de início não conferida."
+    "nota": "A lei não tem cláusula de vigência, então vale a regra geral da LINDB (art. 1º): começa a valer 45 dias depois de publicada. Publicada no DOU de 5/7/1965 e republicada em 8/4/1974; a data exata não foi calculada."
   },
   "fontes": [
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 5º, LXXIII"
+    },
+    {
+      "ref": "norma:lindb",
+      "dispositivo": "art. 1º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade; texto compilado (cópia em brutos de 23/10/2026) relido: sem cláusula de vigência (termina no art. 22), DOU de 5/7/1965 e republicação de 8/4/1974, últimas alterações Leis 6.014/1973 e 6.513/1977; nota de vigência passou a citar a regra geral da LINDB, art. 1º"
   },
   "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23/l4717.htm. Anterior à CF de 1988, que a recepcionou ao prever a ação popular (art. 5º, LXXIII; recepção é leitura nossa). Últimas alterações no texto compilado: Leis 6.014/1973 e 6.513/1977.",
   "compilacao_ate": "Lei 6.513/1977",

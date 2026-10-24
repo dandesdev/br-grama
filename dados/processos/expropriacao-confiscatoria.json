@@ -1,0 +1,146 @@
+{
+  "id": "proc:expropriacao-confiscatoria",
+  "tipo": "processo",
+  "nome": "Expropriação de gleba com cultura ilegal de plantas psicotrópicas",
+  "resumo": "A União pede na Justiça a expropriação da gleba; o juiz pode imiti-la logo na posse e, ao fim, o imóvel passa à União sem indenização.",
+  "detalhes": "O rito é curto: citação em cinco dias, contestação em dez, audiência em quinze e sentença em cinco dias depois da instrução. A expropriação prevalece sobre hipotecas e outras garantias.",
+  "forma": "linha",
+  "produz": "obj:expropriacao-confiscatoria",
+  "etapas": [
+    {
+      "id": "acao",
+      "atores": [
+        "org:agu"
+      ],
+      "acao": "A União propõe a ação expropriatória",
+      "fontes": [
+        {
+          "ref": "norma:lei-8257-1991",
+          "dispositivo": "arts. 6º e 10"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 131"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "citacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "citacao",
+      "atores": [
+        "cargo:juiz-federal"
+      ],
+      "acao": "O juiz manda citar os expropriados, nomeia perito e pode imitir a União na posse",
+      "prazo": {
+        "texto": "Citação em 5 dias; laudo do perito em 8 dias",
+        "valor": 5,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8257-1991",
+          "dispositivo": "art. 7º; art. 10"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contestacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "contestacao",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "Os expropriados podem contestar",
+      "prazo": {
+        "texto": "10 dias da juntada do mandado de citação",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "juntada do mandado de citação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8257-1991",
+          "dispositivo": "art. 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sentenca",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "sentenca",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-federal"
+      ],
+      "acao": "O juiz faz a audiência e dá a sentença",
+      "prazo": {
+        "texto": "Audiência em até 15 dias da contestação; sentença em 5 dias após a instrução"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8257-1991",
+          "dispositivo": "arts. 9º, 11 a 13"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "incorporacao",
+          "quando": "Se julgar procedente"
+        }
+      ]
+    },
+    {
+      "id": "incorporacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Com o trânsito em julgado, o imóvel é incorporado ao patrimônio da União",
+      "detalhes": "Destina-se ao assentamento de colonos; se não puder ter essa destinação em 120 dias, fica reservado na União.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8257-1991",
+          "dispositivo": "art. 1º; art. 15"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1991-11-27",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 243"
+    },
+    {
+      "ref": "norma:lei-8257-1991",
+      "dispositivo": "arts. 1º a 17"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "etapas": {
+      "confianca": "inferido",
+      "nota": "A Lei 8.257/1991 não diz quem propõe a ação nem qual é o juízo; inferimos a AGU porque a União é imitida na posse (art. 10) e a AGU a representa em juízo (CF, art. 131), e o juiz federal porque a União é autora (CF, art. 109, I)."
+    }
+  },
+  "notas": "Só o caso das plantas psicotrópicas; o do trabalho escravo não tem rito próprio localizado (ver obj:expropriacao-confiscatoria). O regulamento da lei (decreto) não foi lido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

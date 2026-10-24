@@ -3,13 +3,13 @@
   "tipo": "objeto",
   "nome": "Habeas corpus",
   "resumo": "Ação para proteger quem sofre ou está ameaçado de sofrer violência ou coação na liberdade de ir e vir, por ilegalidade ou abuso de poder.",
-  "detalhes": "É gratuita (CF, art. 5º, LXXVII). O tribunal competente depende de quem é o coator ou o paciente: a CF reparte os casos entre STF, STJ, TRFs e juízes federais (arts. 102, 105, 108 e 109).",
+  "detalhes": "É gratuito (CF, art. 5º, LXXVII). O tribunal competente depende de quem é o coator ou o paciente: a CF dá casos ao STF, ao STJ, aos TRFs e aos juízes federais (arts. 102, 105, 108 e 109) e, em matéria sujeita à sua jurisdição, à Justiça do Trabalho (art. 114, IV). A Justiça Eleitoral e a dos estados também julgam habeas corpus (art. 121, § 4º, V; art. 125, § 1º).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 5º, LXVIII e LXXVII; art. 102, I, d e i, II, a; art. 105, I, c, II, a; art. 108, I, d; art. 109, VII"
+      "dispositivo": "art. 5º, LXVIII e LXXVII; art. 102, I, d e i, II, a; art. 105, I, c, II, a; art. 108, I, d; art. 109, VII; art. 114, IV; art. 121, § 4º, V; art. 125, § 1º; art. 142, § 2º"
     }
   ],
   "vigencia": {
@@ -18,9 +18,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade; CF, art. 5º, LXVIII e LXXVII, arts. 102, 105, 108, 109, 114, IV, 121, §§ 3º e 4º, 125, § 1º, e 142, § 2º, conferidos. Corrigido: os detalhes davam a entender que só STF, STJ, TRFs e juízes federais julgam habeas corpus; acrescentadas a Justiça do Trabalho (art. 114, IV), a Eleitoral e a dos estados"
   },
   "notas": "O rito está no Código de Processo Penal, não lido nem cadastrado nesta tarefa. Na Justiça Eleitoral, a negativa de habeas corpus pelo TRE ou pelo TSE é recorrível (art. 121, §§ 3º e 4º, V), o que já está nas relações de recurso do TSE e do STF. A CF exclui o habeas corpus contra punições disciplinares militares (art. 142, § 2º)."
 }

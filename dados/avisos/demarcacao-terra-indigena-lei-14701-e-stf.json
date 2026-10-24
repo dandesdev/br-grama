@@ -1,0 +1,42 @@
+{
+  "id": "aviso:demarcacao-terra-indigena-lei-14701-e-stf",
+  "tipo": "aviso",
+  "nome": "Regras da demarcação de terras indígenas incertas depois do julgamento da Lei 14.701/2023",
+  "resumo": "O STF declarou inconstitucional o marco temporal da Lei 14.701/2023 e fixou regras transitórias; não conferimos quais artigos da lei e do Decreto 1.775/1996 continuam valendo.",
+  "detalhes": "O Planalto mostra a Lei 14.701/2023 com remissões às ações do STF (ADC 87; ADIs 7582, 7583 e 7586) em vários artigos, mas sem indicar o que foi invalidado. A notícia oficial do STF de 22/12/2025 diz que o trecho do marco temporal é inconstitucional, que a União tem dez anos para concluir as demarcações pendentes e que as determinações valem até nova lei. O processo no mapa segue o Decreto 1.775/1996.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "proc:demarcacao-de-terra-indigena",
+    "norma:lei-14701-2023",
+    "norma:decreto-1775-1996"
+  ],
+  "gravidade": "media",
+  "onde_procuramos": [
+    "Lei 14.701/2023, texto compilado (Planalto, 2026-10-24)",
+    "Decreto 1.775/1996 (Planalto, 2026-10-23)",
+    "Notícia do STF de 22/12/2025 (noticias.stf.jus.br)",
+    "Portal do STF, página da ADC 87 (devolveu 504 em 2026-10-24); acórdão não lido"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-14701-2023",
+      "dispositivo": "arts. 4º a 15"
+    },
+    {
+      "ref": "fonte:stf-noticia-marco-temporal-2025-12-22",
+      "dispositivo": null
+    }
+  ],
+  "vigencia": {
+    "de": "2025-12-19",
+    "ate": null,
+    "nota": "Fim da sessão virtual do julgamento."
+  },
+  "confianca": "oficial",
+  "notas": "Fontes secundárias (escritórios de advocacia) dizem que o acórdão foi publicado em março de 2026; não conferido. Não verificamos se as EC 140 e 141, de 16/10/2026, tratam do tema (são posteriores à data de referência).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

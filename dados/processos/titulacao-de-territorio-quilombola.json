@@ -1,0 +1,168 @@
+{
+  "id": "proc:titulacao-de-territorio-quilombola",
+  "tipo": "processo",
+  "nome": "Titulação de território quilombola",
+  "resumo": "O Incra identifica e delimita o território, publica edital, ouve outros órgãos e interessados, desapropria títulos particulares válidos e emite o título coletivo.",
+  "detalhes": "A comunidade participa de todas as fases. A autodefinição é registrada na Fundação Cultural Palmares, que emite certidão.",
+  "forma": "linha",
+  "produz": "obj:titulo-de-territorio-quilombola",
+  "etapas": [
+    {
+      "id": "abertura",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra abre o procedimento, de ofício ou a pedido de qualquer interessado",
+      "detalhes": "A autodefinição da comunidade é inscrita no cadastro da Fundação Cultural Palmares.",
+      "fontes": [
+        {
+          "ref": "norma:decreto-4887-2003",
+          "dispositivo": "art. 2º, § 1º; art. 3º, caput e §§ 3º e 4º; art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "identificacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "identificacao",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra identifica e delimita o território e publica edital no DOU e no diário oficial do estado",
+      "detalhes": "Os critérios de territorialidade indicados pela comunidade são considerados. O Incra notifica ocupantes e vizinhos.",
+      "fontes": [
+        {
+          "ref": "norma:decreto-4887-2003",
+          "dispositivo": "art. 2º, § 3º; art. 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "consulta",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "consulta",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra envia o relatório técnico a Iphan, Ibama, SPU, Funai, Conselho de Defesa Nacional e Palmares",
+      "prazo": {
+        "texto": "30 dias, prazo comum; o silêncio vale como concordância",
+        "valor": 30,
+        "unidade": "dias",
+        "efeito": "concordância tácita"
+      },
+      "fontes": [
+        {
+          "ref": "norma:decreto-4887-2003",
+          "dispositivo": "art. 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contestacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "contestacao",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "Interessados podem contestar o relatório",
+      "prazo": {
+        "texto": "90 dias após o edital e as notificações",
+        "valor": 90,
+        "unidade": "dias",
+        "conta_de": "publicação do edital e notificações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:decreto-4887-2003",
+          "dispositivo": "art. 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "desapropriacao",
+          "quando": "Se houver título particular válido na área"
+        },
+        {
+          "para": "titulacao",
+          "quando": "Sem título particular válido"
+        }
+      ]
+    },
+    {
+      "id": "desapropriacao",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra vistoria e avalia o imóvel particular para desapropriá-lo, quando couber",
+      "fontes": [
+        {
+          "ref": "norma:decreto-4887-2003",
+          "dispositivo": "art. 13"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "titulacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "titulacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:incra"
+      ],
+      "acao": "O Incra emite o título coletivo e pró-indiviso em nome da associação da comunidade",
+      "detalhes": "Terras de estados, DF ou municípios: o Incra remete o processo ao ente dono da terra, que titula.",
+      "fontes": [
+        {
+          "ref": "norma:decreto-4887-2003",
+          "dispositivo": "art. 9º, parágrafo único; art. 12; art. 17"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "2003-11-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 68"
+    },
+    {
+      "ref": "norma:decreto-4887-2003",
+      "dispositivo": "arts. 1º a 17"
+    },
+    {
+      "ref": "norma:decreto-11232-2022",
+      "dispositivo": "Anexo I, art. 1º, parágrafo único, IV"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 25, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Fundação Cultural Palmares (Ministério da Cultura) e o Iphan não têm nó no mapa; aparecem só no texto. O procedimento detalhado está em instrução normativa do Incra (Decreto 4.887/2003, art. 3º, § 1º), não lida. Lei 14.600/2023, art. 25, IV: a titulação de terras quilombolas é área do Ministério do Desenvolvimento Agrário e Agricultura Familiar, observadas as competências do Ministério da Igualdade Racial.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

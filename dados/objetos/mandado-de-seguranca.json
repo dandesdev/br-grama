@@ -3,29 +3,30 @@
   "tipo": "objeto",
   "nome": "Mandado de segurança",
   "resumo": "Ação para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder de autoridade pública.",
-  "detalhes": "Também cabe contra agente de pessoa jurídica no exercício de atribuições do Poder Público (CF, art. 5º, LXIX). O mandado de segurança coletivo pode ser impetrado por partido político com representação no Congresso e por organização sindical, entidade de classe ou associação com pelo menos um ano de funcionamento, em defesa dos seus membros (art. 5º, LXX).",
+  "detalhes": "Também cabe contra agente de pessoa jurídica no exercício de atribuições do Poder Público (CF, art. 5º, LXIX). O mandado de segurança coletivo pode ser impetrado por partido político com representação no Congresso e por organização sindical, entidade de classe ou associação com pelo menos um ano de funcionamento, em defesa dos seus membros (art. 5º, LXX). O tribunal competente depende da autoridade: a CF dá casos ao STF, ao STJ, aos TRFs e aos juízes federais (arts. 102, 105, 108 e 109) e à Justiça do Trabalho (art. 114, IV).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 5º, LXIX e LXX; art. 102, I, d, II, a; art. 105, I, b, II, b; art. 108, I, c; art. 109, VIII"
+      "dispositivo": "art. 5º, LXIX e LXX; art. 102, I, d, II, a; art. 105, I, b, II, b; art. 108, I, c; art. 109, VIII; art. 114, IV"
     },
     {
       "ref": "norma:lei-12016-2009",
-      "dispositivo": "arts. 1º e 21"
+      "dispositivo": "arts. 1º, 21 e 29"
     }
   ],
   "vigencia": {
     "de": "1988-10-05",
     "ate": null,
-    "nota": "O mandado de segurança individual já existia antes de 1988; a data é a da CF atual. O coletivo foi criado pela CF de 1988."
+    "nota": "O mandado de segurança individual é anterior a 1988: a Lei 12.016 revogou, entre outras, a Lei 1.533/1951 (art. 29). A data é a da CF atual, que também prevê o coletivo (art. 5º, LXX)."
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade; CF, art. 5º, LXIX e LXX, arts. 102, 105, 108, 109 e 114, IV, e Lei 12.016, arts. 1º, 21 e 29, conferidos. Corrigido: a nota de vigência dizia, sem fonte, que o coletivo foi criado pela CF de 1988; ficou só o que a fonte mostra (Lei 1.533/1951 revogada pelo art. 29). Detalhes ganharam a repartição de competência, com a Justiça do Trabalho"
   },
   "notas": "Objeto único para o individual e o coletivo, porque os tribunais competentes são os mesmos. A Lei 12.016 tem dispositivos com \"Vide ADIN 4296\" (não lida); não citamos esses dispositivos."
 }

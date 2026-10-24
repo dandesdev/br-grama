@@ -1,17 +1,17 @@
 ---
 id: verificacao-f0-controle-constitucionalidade
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-controle-constitucionalidade\""
-status: em-andamento
+status: verificada
 depende_de: [f0-controle-constitucionalidade]
 iniciada_em: 2026-10-24
-concluida_em: null
+concluida_em: 2026-10-24
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-controle-constitucionalidade"` conferidas contra a fonte: 1 órgão (conjunto das confederações e entidades de classe), 58 relações, 7 normas e 10 objetos. Inclui `obj:adi-e-adc`, que foi ampliado para ADI, ADO e ADC e voltou a `coletado`.
-- [ ] Mudança do coordenador a conferir: as relações de quem pode levar uma ação ao Judiciário passaram de `propoe` para o termo novo `ajuiza` (ids renomeados: `rel:*-ajuiza-adi-e-adc`, `rel:*-ajuiza-adpf`, `rel:eleitorado-ajuiza-acao-popular`, `rel:partidos-politicos-ajuiza-mandado-de-seguranca`). As propostas de súmula vinculante continuam `propoe`. Confira se alguma relação ficou com o verbo errado.
-- [ ] Pontos do coletor a conferir:
+- [x] Todas as entidades com `"tarefa": "f0-controle-constitucionalidade"` conferidas contra a fonte: 1 órgão (conjunto das confederações e entidades de classe), 58 relações, 7 normas e 10 objetos. Inclui `obj:adi-e-adc`, que foi ampliado para ADI, ADO e ADC e voltou a `coletado`.
+- [x] Mudança do coordenador a conferir: as relações de quem pode levar uma ação ao Judiciário passaram de `propoe` para o termo novo `ajuiza` (ids renomeados: `rel:*-ajuiza-adi-e-adc`, `rel:*-ajuiza-adpf`, `rel:eleitorado-ajuiza-acao-popular`, `rel:partidos-politicos-ajuiza-mandado-de-seguranca`). As propostas de súmula vinculante continuam `propoe`. Confira se alguma relação ficou com o verbo errado.
+- [x] Pontos do coletor a conferir:
   - ADO dentro de `obj:adi-e-adc` (art. 103, caput e § 2º; Lei 9.868, art. 12-A): a decisão está explicada?
   - legitimados da ADC: a Lei 9.868, art. 13, ainda lista quatro; vale a CF desde a EC 45/2004. Está registrado assim?
   - súmula vinculante: os 21 proponentes da Lei 11.417, art. 3º; "Tribunais Militares" representados só pelo STM; o município como proponente incidental
@@ -20,7 +20,7 @@ concluida_em: null
   - competências dos remédios constitucionais no STF, no STJ e na Justiça Federal (arts. 102, 105, 108, 109) e a falta delas na Justiça Eleitoral e na do Trabalho (art. 121; art. 114, IV): estão certas e completas para o que foi modelado?
   - vigência da Lei 11.417/2006 (cálculo nosso, incerta) e da Lei 4.717/1965 (sem cláusula de vigência)
   - controle difuso: "o juiz de primeiro grau decide sozinho" está marcado como leitura nossa?
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-24 — iniciada; lidas instruções de verificação, CLAUDE.md, modelo, protocolo, decisões e diário da coleta; escopo: 76 entidades (1 órgão, 58 relações, 7 normas, 10 objetos)
@@ -35,3 +35,18 @@ concluida_em: null
 - 2026-10-24 16:49 — verificado rel:stm-propoe-sumula-vinculante e acrescentada nota: a lei fala em "Tribunais Militares" sem dizer se inclui os TJMs estaduais (CF, art. 125, § 3º); não há nó de tribunal militar estadual (Glob em dados/orgaos). Ponto continua aberto (interpretação da lei), sem aviso: não há fonte oficial contraditória
 - 2026-10-24 16:49 — verificados sem mudança rel:stf-edita-sumula-vinculante (dois terços) e obj:sumula-vinculante
 - 2026-10-24 16:49 — verificada norma:lei-11417-2006; vigência mantida 2007-03-20 incerta; nota passou a citar a LC 95, art. 8º, § 1º (conferido no Planalto, cópia só em pasta temporária), e a LC 95 entrou nas fontes
+- 2026-10-24 16:49 — verificadas sem mudança as normas lei-9868-1999 (DOU 11/11/1999, art. 31; Cap. II-A da Lei 12.063/2009; "Vide ADO nº 26" no art. 12), lei-9882-1999 (DOU 6/12/1999, art. 14), lei-12016-2009 (DOU 10/8/2009, art. 28; oito "Vide ADIN 4296"), lei-13300-2016 (DOU 24/6/2016, art. 15) e lei-9507-1997 (DOU 13/11/1997, art. 22)
+- 2026-10-24 16:49 — verificada norma:lei-4717-1965: confirmado que não há cláusula de vigência; nota de vigência passou a citar a LINDB, art. 1º (45 dias), e a LINDB entrou nas fontes; vigencia.de continua null
+- 2026-10-24 16:50 — verificado e corrigido obj:habeas-corpus: detalhes diziam que a CF reparte o habeas corpus entre STF, STJ, TRFs e juízes federais; ficou com a Justiça do Trabalho (art. 114, IV), a Eleitoral (art. 121, § 4º, V) e a dos estados (art. 125, § 1º); fontes atualizadas
+- 2026-10-24 16:50 — verificado e corrigido obj:mandado-de-seguranca: nota de vigência dizia, sem fonte, que o coletivo foi criado pela CF de 1988; ficou a revogação da Lei 1.533/1951 pela Lei 12.016 (art. 29). Detalhes ganharam a repartição de competência, com a Justiça do Trabalho (art. 114, IV)
+- 2026-10-24 16:50 — verificado e corrigido obj:mandado-de-injuncao: detalhes diziam que o tribunal fixa as condições de exercício "enquanto a norma não sai"; pela Lei 13.300, art. 8º, II, elas valem se a norma não sair no prazo
+- 2026-10-24 16:50 — verificado obj:habeas-data; notas ganharam a Lei 9.507, art. 20 (inclui recurso ao STJ contra TRF, II, b, que a CF não lista) e a CF, art. 114, IV
+- 2026-10-24 16:50 — verificados sem mudança obj:acao-popular, obj:reclamacao (CPC, art. 988, na cópia de 17/10/2026: o inciso V novo, da Lei 15.484/2026, não afeta o que citamos) e obj:lei-ou-ato-normativo-do-poder-publico
+- 2026-10-24 16:51 — verificadas as 15 relações dos remédios e da reclamação: stf-julga-habeas-corpus (nota de vigência precisada: o original da alínea i já falava em tribunal sujeito ao STF; a EC 22/1999 passou a nomear o Tribunal Superior), stj-julga-habeas-data (nota nova: Lei 9.507, art. 20, II, b, dá recurso ao STJ que a CF não lista), as outras 13 sem mudança (stf/stj-julga-mandado-de-seguranca, -habeas-data, -mandado-de-injuncao, -reclamacao, stj-julga-habeas-corpus, justica-federal-julga-habeas-corpus, -mandado-de-seguranca, -habeas-data, eleitorado-ajuiza-acao-popular, partidos-politicos-ajuiza-mandado-de-seguranca). Verbos: ajuiza só em quem leva a ação; julga nos tribunais; nenhum errado
+- 2026-10-24 16:51 — verificado rel:poder-judiciario-controla-constitucionalidade-no-caso-concreto (CPC, arts. 948 e 949, conferidos na cópia de 17/10/2026). Ponto do coletor: "o juiz de primeiro grau decide sozinho" estava marcado como leitura nossa só nas notas internas; a nota do quórum, que aparece no site, passou a dizer "(leitura nossa)"
+- 2026-10-24 16:51 — ponto do coletor (competências): as relações modeladas estão certas para STF, STJ e Justiça Federal. Faltam, como sugestão ao coordenador (não criei): Justiça do Trabalho julga habeas corpus, mandado de segurança e habeas data (CF, art. 114, IV); Justiça Eleitoral julga os quatro remédios (art. 121, § 4º, V, pressupõe que os TREs os decidem; competência em lei complementar, art. 121, caput); Justiça estadual (art. 125, § 1º); Justiça Federal e as Justiças especializadas julgam mandado de injunção nos casos excluídos do STJ (art. 105, I, h). Os objetos agora mencionam essas Justiças nos detalhes ou notas
+- 2026-10-24 16:51 — verificado sem mudança org:confederacoes-sindicais-e-entidades-de-classe-nacionais (CLT, art. 535, caput: três federações, sede na Capital)
+- 2026-10-24 16:52 — obj:mandado-de-injuncao: notas diziam que não havia relações para os legitimados do coletivo; a coleta f0-judiciario-complementar criou 7 relações ajuiza para mandado de injunção e mandado de segurança coletivos (fora do meu escopo, não conferidas). Nota atualizada
+- 2026-10-24 16:52 — conferência final: 76 de 76 entidades com verificacao.tarefa = verificacao-f0-controle-constitucionalidade; nenhuma ficou com f0-controle-constitucionalidade. Verbos: 29 ajuiza e 15 julga nas ações, 21 propoe e 1 edita na súmula; nenhum verbo errado. npm run -s validar: nenhum erro
+- 2026-10-24 — concluída: 76 entidades verificadas, 11 com mudança (corrigidas: obj:adi-e-adc, obj:habeas-corpus, obj:mandado-de-seguranca, obj:mandado-de-injuncao, rel:stf-julga-adpf; completadas: obj:habeas-data, rel:stj-julga-habeas-data, rel:stf-julga-habeas-corpus, rel:stm-propoe-sumula-vinculante, rel:poder-judiciario-controla-constitucionalidade-no-caso-concreto, norma:lei-11417-2006, norma:lei-4717-1965, e as notas de obj:mandado-de-injuncao). Nenhum aviso novo. Continua aberto: "Tribunais Militares" da Lei 11.417, art. 3º, XI (se inclui os TJMs estaduais); dia exato de vigência da Lei 11.417 e da Lei 4.717. Sugestões ao coordenador: relações de competência da Justiça do Trabalho (art. 114, IV), Eleitoral (art. 121), estadual (art. 125, § 1º) para os remédios; condição de rel:pgr-ajuiza-adi-e-adc ("as duas ações")
+- 2026-10-24 16:52 — correção da linha anterior: foram 12 entidades com mudança, não 11 (5 corrigidas e 7 completadas, como listado)

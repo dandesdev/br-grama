@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Mandado de injunção",
   "resumo": "Ação para quando a falta de norma regulamentadora impede o exercício de direitos e liberdades constitucionais ou de prerrogativas ligadas à nacionalidade, à soberania e à cidadania.",
-  "detalhes": "É proposto contra o Poder, órgão ou autoridade que deveria editar a norma (Lei 13.300, art. 3º). Se reconhecer a omissão, o tribunal fixa prazo para a norma sair e as condições para exercer o direito enquanto ela não sai (art. 8º).",
+  "detalhes": "É proposto contra o Poder, órgão ou autoridade que deveria editar a norma (Lei 13.300, art. 3º). Se reconhecer a omissão, a decisão fixa prazo para a norma sair e diz como o direito poderá ser exercido se ela não sair nesse prazo (art. 8º).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "fontes": [
@@ -22,9 +22,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-controle-constitucionalidade"
+    "status": "verificado",
+    "em": "2026-10-24",
+    "tarefa": "verificacao-f0-controle-constitucionalidade",
+    "notas": "coletado em f0-controle-constitucionalidade; CF, arts. 5º, LXXI, 102, I, q, II, a, e 105, I, h, e Lei 13.300, arts. 2º, 3º, 8º, 9º e 12, conferidos. Corrigido: os detalhes diziam que as condições valem \"enquanto a norma não sai\"; pelo art. 8º, II, elas valem se a norma não sair no prazo fixado"
   },
-  "notas": "A decisão vale, em regra, só para as partes, mas pode ter efeito para todos (Lei 13.300, art. 9º, § 1º). O mandado de injunção coletivo pode ser proposto pelo Ministério Público, por partido com representação no Congresso, por organização sindical, entidade de classe ou associação e pela Defensoria Pública (art. 12); não criamos relações propoe para esses legitimados. Difere da ADO: esta é abstrata e só os legitimados do art. 103 a propõem; o mandado de injunção é proposto por quem tem o direito bloqueado (art. 3º)."
+  "notas": "A decisão vale, em regra, só para as partes, mas pode ter efeito para todos (Lei 13.300, art. 9º, § 1º). O mandado de injunção coletivo pode ser proposto pelo Ministério Público, por partido com representação no Congresso, por organização sindical, entidade de classe ou associação e pela Defensoria Pública (art. 12); as relações ajuiza desses legitimados foram criadas em f0-judiciario-complementar. Difere da ADO: esta é abstrata e só os legitimados do art. 103 a propõem; o mandado de injunção é proposto por quem tem o direito bloqueado (art. 3º)."
 }
