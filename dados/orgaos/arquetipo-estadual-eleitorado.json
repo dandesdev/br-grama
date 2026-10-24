@@ -12,6 +12,10 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 14, caput; art. 27, §§ 1º e 4º; art. 28, caput"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 1º, parágrafo único, I"
     }
   ],
   "notas": "Como org:arquetipo-municipal-eleitorado, não é órgão formal: é o povo do estado agindo como corpo eleitoral. Os senadores e deputados federais, também eleitos por estado, ficam com org:eleitorado-nacional (rel:eleitorado-elege-senador), criados antes desta tarefa.",
@@ -21,8 +25,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: acrescentada a Lei 9.504/1997, art. 1º, parágrafo único, I (eleições simultâneas)"
   }
 }

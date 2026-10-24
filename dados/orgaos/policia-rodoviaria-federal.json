@@ -48,8 +48,9 @@
   "confianca": "oficial",
   "notas": "Sem sigla: a sigla usual não foi conferida em fonte oficial estruturada. O Diretor-Geral não foi modelado como cargo. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; conferidos CF arts. 22, XXII, e 144, II e § 2º, Lei 14.600/2023 art. 35, XIV, e Decreto 11.348/2023 art. 2º, II, j"
   }
 }

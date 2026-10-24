@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Lei estadual",
   "resumo": "Lei aprovada pela Assembleia Legislativa e sancionada pelo governador, nas matérias de competência do estado.",
-  "detalhes": "O processo legislativo dos estados segue as linhas básicas do modelo federal, inclusive as reservas de iniciativa (STF, ADI 637). Os estados legislam sobre o que a CF não lhes veda (art. 25, § 1º) e, na competência concorrente, completam as normas gerais da União (art. 24, §§ 2º e 3º).",
+  "detalhes": "O processo legislativo dos estados segue as linhas básicas do modelo federal, inclusive as reservas de iniciativa (STF, ADI 637). Os estados legislam sobre o que a CF não lhes veda (art. 25, § 1º) e, na competência concorrente, completam as normas gerais da União e, sem lei federal sobre normas gerais, legislam plenamente (art. 24, §§ 2º e 3º).",
   "tipo_objeto": "ato-normativo",
   "esfera": "estadual",
   "fontes": [
@@ -23,8 +23,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: art. 24, § 3º trata da competência plena na falta de lei federal, não de completar normas gerais"
   }
 }

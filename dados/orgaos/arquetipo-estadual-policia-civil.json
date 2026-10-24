@@ -26,9 +26,10 @@
   "confianca": "oficial",
   "notas": "Sem sigla: cada estado usa a sua. A subordinação ao governador está em rel:arquetipo-estadual-policia-civil-subordina-se-governador. As polícias do DF são organizadas e mantidas pela União (art. 21, XIV) e ficam para a variação do DF (f0-tipicos). A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; conferidos CF art. 144, IV, §§ 4º, 6º e 7º, art. 24, XVI, e Lei 14.735/2023 arts. 1º a 3º"
   },
   "contido_em": "org:arquetipo-estadual-poder-executivo",
   "campos": {

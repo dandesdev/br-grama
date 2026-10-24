@@ -8,6 +8,22 @@
   "condicao": "Iniciativa geral, salvo nas matérias reservadas ao governador, ao Judiciário e ao Ministério Público.",
   "fontes": [
     {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 24, caput"
+    },
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "art. 75"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "art. 104, caput"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "art. 20, caput"
+    },
+    {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 61, caput"
     },
@@ -16,15 +32,16 @@
       "dispositivo": "ADI 637"
     }
   ],
-  "confianca": "inferido",
-  "notas": "Pelo modelo federal (art. 61, caput, iniciativa de qualquer membro das Casas) absorvido pelos estados (ADI 637). Comissões e Mesa da Assembleia não foram modeladas.",
+  "confianca": "oficial",
+  "notas": "Revisão (verificacao-f0-tipicos): passou de inferido a oficial; as Constituições de SP (art. 24), BA (art. 75), PA (art. 104) e GO (art. 20) dão a iniciativa a qualquer deputado ou comissão da Assembleia, no molde do art. 61, caput, da CF. Comissões e Mesa da Assembleia não foram modeladas.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: inferido → oficial, com as Constituições de SP, BA, PA e GO (texto expresso)"
   }
 }

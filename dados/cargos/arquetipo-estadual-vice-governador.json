@@ -56,9 +56,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos"
   },
   "notas": "Não criamos relações substitui/sucede no arquétipo porque a base é a Constituição de cada estado, não a CF (mesmo critério de cargo:arquetipo-municipal-vice-prefeito)."
 }

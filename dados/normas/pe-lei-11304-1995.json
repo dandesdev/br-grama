@@ -14,21 +14,22 @@
     "de": "1995-12-28",
     "ate": null,
     "incerta": true,
-    "nota": "Data da lei; a data de publicação e a cláusula de vigência não foram conferidas."
+    "nota": "Em vigor na publicação (art. 110); a data de publicação no Diário Oficial não aparece no texto da Alepe, por isso usamos a data da lei."
   },
   "fontes": [
     {
       "ref": "norma:pe-lei-11304-1995",
-      "dispositivo": "arts. 1º e 16"
+      "dispositivo": "arts. 1º, 16 e 110"
     }
   ],
-  "notas": "Texto anotado do portal de legislação da Alepe, lido em 2026-10-23 (página de 0,9 MB, sem cópia local). A lei mais recente citada nas anotações é de 2016 (Lei 15.895, de 23/9/2016). O art. 1º diz que o distrito foi constituído 'conforme disposto no artigo 96 da Constituição Estadual', dispositivo que não foi lido.",
+  "notas": "Texto anotado do portal de legislação da Alepe, lido em 2026-10-23; trechos (arts. 1º a 3º, 11, 16, 36 a 38 e 43 a 45) copiados em pesquisa/brutos/alepe/2026-10-23/lei-11304-1995-trechos.txt (a página inteira tem 0,9 MB). A lei mais recente citada nas anotações é de 2016 (Lei 15.895, de 23/9/2016). O art. 1º diz que o distrito foi constituído 'conforme disposto no artigo 96 da Constituição Estadual', dispositivo que não foi lido.",
   "compilacao_ate": "Lei 15.895/2016 (última alteração anotada encontrada)",
   "redacao_conferida_em": "2026-10-23",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: cláusula de vigência conferida (art. 110); trechos copiados em brutos/alepe/2026-10-23"
   }
 }

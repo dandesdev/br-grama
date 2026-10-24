@@ -5,7 +5,7 @@
   "relacao": "nomeia",
   "de": "cargo:presidente-da-republica",
   "para": "cargo:diretor-geral-da-policia-federal",
-  "condicao": "Entre delegados da classe especial. Em 2023 o ato foi assinado pelo Ministro-Chefe da Casa Civil, por delegação do Presidente.",
+  "condicao": "Entre delegados da classe especial. Em 2023 o ato foi assinado pelo Ministro-Chefe da Casa Civil, por delegação do Presidente (Decreto 9.794/2019, art. 4º).",
   "fontes": [
     {
       "ref": "norma:lei-9266-1996",
@@ -18,14 +18,15 @@
     }
   ],
   "vigencia": {
-    "de": "2014-12-03",
+    "de": "2014-10-14",
     "ate": null,
-    "nota": "Redação do art. 2º-C dada pela Lei 13.047/2014 (DOU 3/12/2014)."
+    "nota": "Data em que o art. 2º-C entrou na Lei 9.266/1996, pela MP 657, de 13/10/2014 (DOU 14/10/2014, vigência na publicação), com o mesmo texto que a Lei 13.047/2014 (DOU 3/12/2014) manteve na conversão. Cópias em pesquisa/brutos/planalto-leis/2026-10-23/mpv657.htm e l13047.htm."
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; corrigido: vigência passou de 2014-12-03 para 2014-10-14 (MP 657/2014, mesmo texto); a condição passou a citar o decreto de delegação, conferido no Planalto (cópia em pesquisa/brutos/planalto-leis/2026-10-23/D9794.htm)"
   }
 }

@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Ação civil pública",
   "resumo": "Ação para proteger o patrimônio público e social, o meio ambiente e outros interesses difusos e coletivos.",
-  "detalhes": "A CF a põe entre as funções do Ministério Público, junto com o inquérito civil (art. 129, III). A legitimação do MP não impede a de outros, conforme a CF e a lei (art. 129, § 1º); a Defensoria Pública, por exemplo, também pode propô-la (LC 80/1994, art. 4º, VII).",
+  "detalhes": "A CF a põe entre as funções do Ministério Público, junto com o inquérito civil (art. 129, III). A legitimação do MP não impede a de outros, conforme a CF e a lei (art. 129, § 1º); a Defensoria Pública, por exemplo, também pode propô-la quando o resultado puder beneficiar grupo de pessoas hipossuficientes (LC 80/1994, art. 4º, VII).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "fontes": [
@@ -23,9 +23,9 @@
   "confianca": "oficial",
   "notas": "O inquérito civil, citado no mesmo inciso, fica nesta nota e nos detalhes, sem objeto próprio. A lei geral da ação civil pública (Lei 7.347/1985) não foi cadastrada.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "criada na verificação de f0-funcoes-essenciais (termo novo do vocabulário); revisão na próxima leva"
+    "tarefa": "verificacao-f0-complementos",
+    "notas": "criada em verificacao-f0-funcoes-essenciais; conferidos CF art. 129, III e § 1º, e LC 80/1994, art. 4º, VII (redação da LC 132/2009); acrescentada a condição da LC 80 para a Defensoria (grupo de hipossuficientes)"
   }
 }

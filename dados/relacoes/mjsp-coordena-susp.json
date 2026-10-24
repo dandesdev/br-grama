@@ -2,10 +2,10 @@
   "id": "rel:mjsp-coordena-susp",
   "tipo": "relacao",
   "nome": "O Ministério da Justiça e Segurança Pública coordena o Susp",
-  "relacao": "preside",
+  "relacao": "coordena",
   "de": "org:ministerio-da-justica-e-seguranca-publica",
   "para": "org:sistema-unico-de-seguranca-publica",
-  "condicao": "Coordenação do sistema (não é presidência de colegiado).",
+  "condicao": "Coordenação de um sistema formado por órgãos de vários entes, que não são subordinados ao Ministério.",
   "fontes": [
     {
       "ref": "norma:lei-14600-2023",
@@ -13,19 +13,20 @@
     },
     {
       "ref": "norma:lei-13675-2018",
-      "dispositivo": "arts. 9º e 10, § 1º"
+      "dispositivo": "art. 9º, caput; art. 10, § 1º"
     }
   ],
   "vigencia": {
     "de": "2023-06-20",
     "ate": null,
-    "nota": "Coordenação atribuída ao MJSP pela Lei 14.600/2023 (vigência registrada em norma:lei-14600-2023)."
+    "nota": "Data da Lei 14.600/2023 (vigência registrada em norma:lei-14600-2023), base usada aqui. A atribuição ao MJSP por leis de organização anteriores não foi pesquisada."
   },
   "confianca": "oficial",
-  "notas": "'preside' é o termo mais próximo; o vocabulário não tem 'coordena'. A Lei 13.675/2018 fala no Ministério Extraordinário da Segurança Pública, que não existe mais.",
+  "notas": "A Lei 13.675/2018 (art. 9º, caput, e art. 10, § 1º) dá o papel de órgão central e coordenador ao Ministério Extraordinário da Segurança Pública, que não existe mais; hoje a coordenação do Susp é área de competência do MJSP (Lei 14.600/2023, art. 35, XVII).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; relacao trocada de preside para coordena (termo criado depois da coleta); condição e nota reescritas; conferidos Lei 14.600/2023, art. 35, XVII, e Lei 13.675/2018, arts. 9º e 10, § 1º"
   }
 }

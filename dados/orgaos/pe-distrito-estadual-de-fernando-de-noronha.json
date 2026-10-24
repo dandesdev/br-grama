@@ -14,7 +14,7 @@
   "fontes": [
     {
       "ref": "norma:pe-lei-11304-1995",
-      "dispositivo": "art. 1º, caput, parágrafo único e § 1º; arts. 16, 43 e 45"
+      "dispositivo": "art. 1º, caput e parágrafo único; art. 11, § 1º; arts. 16, 43 e 45"
     },
     {
       "ref": "norma:cf-1988",
@@ -27,11 +27,12 @@
     "incerta": true,
     "nota": "Data da Lei 11.304/1995; publicação não conferida."
   },
-  "notas": "Instância da variação var:pe-fernando-de-noronha. A lei o chama de 'entidade autárquica integrante da administração direta do Poder Executivo', com jurisdição sobre o arquipélago nas 'competências estadual e municipal' (art. 1º, parágrafo único), e o vincula à Governadoria do Estado (art. 1º, § 1º). Tipo 'autarquia' segue a natureza declarada na lei ('autarquia territorial', art. 1º). Sem contido_em: não há nó real da governadoria de PE.",
+  "notas": "Instância da variação var:pe-fernando-de-noronha. A lei o chama de 'entidade autárquica integrante da administração direta do Poder Executivo', com jurisdição sobre o arquipélago nas 'competências estadual e municipal' (art. 1º, parágrafo único), e o vincula à Governadoria do Estado pela Administração Geral (art. 11, § 1º). Tipo 'autarquia' segue a natureza declarada na lei ('autarquia territorial', art. 1º). Sem contido_em: não há nó real da governadoria de PE.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: vínculo com a Governadoria é o art. 11, § 1º, não o art. 1º, § 1º (texto da Alepe lido em 2026-10-23)"
   }
 }

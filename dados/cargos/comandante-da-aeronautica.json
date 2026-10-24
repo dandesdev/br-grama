@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "detalhes": "Tem precedência sobre os demais oficiais-generais das três Forças, cuida do preparo dos órgãos operativos e de apoio e propõe ao Ministro a lista de escolha para promoção a oficial-general. Integra o Conselho de Defesa Nacional e o Conselho Militar de Defesa.",
+  "detalhes": "Tem precedência sobre os demais oficiais-generais das três Forças, cuida do preparo dos órgãos operativos e de apoio e apresenta ao Ministro a lista de escolha para promoção a oficial-general e propõe nomes para os cargos privativos de oficial-general. Integra o Conselho de Defesa Nacional e o Conselho Militar de Defesa.",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -42,8 +42,9 @@
   "confianca": "oficial",
   "notas": "Provimento 'nomeacao-livre' é o termo mais próximo do vocabulário: a escolha é do Presidente, por indicação do Ministro, restrita a oficiais-generais do último posto. Dirigente máximo da Força (D11).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; conferidos CF arts. 84, XIII, e 91, VIII, e LC 97/1999 arts. 2º, § 1º, 4º, 5º, 7º e 13. Corrigido: detalhes dizia que o Comandante propõe a lista de escolha; pelo art. 7º ele a apresenta ao Ministro e propõe nomes para os cargos privativos"
   }
 }

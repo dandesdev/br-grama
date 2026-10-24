@@ -10,7 +10,7 @@ concluida_em: null
 ## Entregáveis
 
 Revisão do que os revisores criaram:
-- [ ] Entidades com `verificacao.status: "coletado"` e `tarefa: "verificacao-f0-*"` (criadas durante as revisões): conferir cada uma contra a fonte.
+- [x] Entidades com `verificacao.status: "coletado"` e `tarefa: "verificacao-f0-*"` (criadas durante as revisões): conferir cada uma contra a fonte. Feito em `verificacao-f0-complementos` (33 entidades); as criadas nas revisões da leva 5 entram na próxima rodada.
 
 Pendências anotadas pelas tarefas:
 - [x] Legislativo: `remete_a` nas etapas que seguem o rito da lei ordinária (hoje só citado no texto).

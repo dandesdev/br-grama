@@ -2,7 +2,7 @@
   "id": "obj:acao-penal-publica",
   "tipo": "objeto",
   "nome": "Ação penal pública",
-  "resumo": "Ação em que se pede ao Judiciário a condenação de quem cometeu crime de ação pública. Só o Ministério Público pode propô-la.",
+  "resumo": "Ação em que se pede ao Judiciário a condenação do acusado de um crime de ação pública. Só o Ministério Público pode propô-la.",
   "detalhes": "O MP a promove privativamente, na forma da lei (CF, art. 129, I). Se o MP não a propuser no prazo legal, a CF admite a ação privada (art. 5º, LIX).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
@@ -19,9 +19,9 @@
   "confianca": "oficial",
   "notas": "Os casos em que a ação é pública e o rito estão no Código Penal e no Código de Processo Penal, não pesquisados aqui.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "criada na verificação de f0-funcoes-essenciais (termo novo do vocabulário); revisão na próxima leva"
+    "tarefa": "verificacao-f0-complementos",
+    "notas": "criada em verificacao-f0-funcoes-essenciais; conferidos CF art. 5º, LIX, e art. 129, I; resumo reescrito para não presumir a culpa ('acusado' em vez de 'quem cometeu')"
   }
 }

@@ -5,7 +5,7 @@
   "relacao": "controla-internamente",
   "de": "org:auditoria-do-senado-federal",
   "para": "org:senado-federal",
-  "condicao": "Audita e fiscaliza a aplicação dos recursos do Senado quanto à legalidade, legitimidade, economicidade, eficiência e eficácia, e recomenda providências à Mesa, à Comissão Diretora e à Diretoria-Geral.",
+  "condicao": "Audita e fiscaliza a aplicação dos recursos do Senado quanto à legalidade, legitimidade, economicidade, efetividade, eficiência e eficácia, e recomenda providências à Mesa, à Comissão Diretora, ao Presidente e à Diretoria-Geral.",
   "vigencia": {
     "de": null,
     "ate": null,
@@ -23,9 +23,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-controle",
-    "notas": "criada na verificação"
+    "tarefa": "verificacao-f0-complementos",
+    "notas": "criada em verificacao-f0-controle; conferida no art. 206 do Regulamento Administrativo do Senado; acrescentados à condição o critério de efetividade e o Presidente entre os destinatários das recomendações"
   }
 }

@@ -17,10 +17,11 @@
     "ate": null
   },
   "confianca": "inferido",
-  "notas": "Leitura nossa: as polícias penais (EC 104/2019) ocupam o lugar dos órgãos do sistema penitenciário citados na lei.",
+  "notas": "Leitura nossa: o caput do art. 9º diz que o Susp é integrado pelos órgãos de que trata o art. 144 da CF, e as polícias penais entraram no art. 144 com a EC 104/2019, depois da lei; o § 2º, VIII, lista os órgãos do sistema penitenciário. O texto compilado da Lei 13.675/2018 (Planalto, cópia de 2026-10-23) não cita polícias penais.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; mantido inferido: não há texto expresso que inclua as polícias penais no Susp (conferidos o art. 9º compilado da Lei 13.675/2018, a Lei 14.875/2024 e a Lei 14.600/2023); nota reescrita para citar o caput do art. 9º"
   }
 }

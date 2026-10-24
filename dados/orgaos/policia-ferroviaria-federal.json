@@ -32,10 +32,11 @@
     "nota": "Prevista na CF desde 1988; não há órgão instituído na estrutura vigente em 2026-10-01."
   },
   "confianca": "oficial",
-  "notas": "Existe só no texto constitucional. Em 2011 a Lei 12.462 (art. 48) incluiu um Departamento de Polícia Ferroviária Federal na estrutura do Ministério da Justiça, por alteração da Lei 10.683/2003, que não é mais a lei de organização dos ministérios; a Lei 14.600/2023 e o Decreto 11.348/2023 (texto do Planalto de 2026-10-23, com as alterações de 2026) não mencionam polícia ferroviária. Sem contido_em por isso. Pista secundária não usada como fonte: imprensa de 2025 relata cobrança pública pela criação do órgão. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
+  "notas": "Existe só no texto constitucional. A Lei 10.683/2003 (art. 29, XIV) listava um Departamento de Polícia Ferroviária Federal no Ministério da Justiça desde a redação original; a Lei 12.462/2011 (art. 48) deu nova redação ao inciso e acrescentou o § 8º, que passou ao departamento o pessoal da segurança ferroviária da RFFSA, da CBTU e da Trensurb. A Lei 10.683/2003 foi revogada pela Lei 13.502/2017; a Lei 14.600/2023 e o Decreto 11.348/2023 (texto do Planalto de 2026-10-23, com as alterações de 2026) não mencionam polícia ferroviária. Sem contido_em por isso. Pista secundária não usada como fonte: imprensa de 2025 relata cobrança pública pela criação do órgão. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; conferidos CF arts. 22, XXII, e 144, III e § 3º, Lei 14.600/2023 art. 35 (sem polícia ferroviária) e Decreto 11.348/2023 art. 2º (cópia de 2026-10-23, sem unidade de polícia ferroviária). Corrigida a nota: o departamento não foi incluído em 2011, já constava da Lei 10.683/2003 desde 2003"
   }
 }

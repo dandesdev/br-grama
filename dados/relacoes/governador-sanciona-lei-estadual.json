@@ -5,8 +5,24 @@
   "relacao": "sanciona",
   "de": "cargo:arquetipo-estadual-governador",
   "para": "obj:lei-estadual",
-  "condicao": "Sanciona ou veta o projeto aprovado pela Assembleia, como o Presidente faz na União (art. 66).",
+  "condicao": "Sanciona o projeto aprovado pela Assembleia, se concordar; se não, veta. Em SP, PA e GO, o silêncio no prazo vale como sanção, como no art. 66, § 3º, da CF.",
   "fontes": [
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 28, caput e § 4º"
+    },
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "art. 80, caput"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "art. 108, caput e § 3º"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "art. 23, caput e § 3º"
+    },
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 66"
@@ -16,15 +32,16 @@
       "dispositivo": "ADI 637"
     }
   ],
-  "confianca": "inferido",
-  "notas": "O STF fala na absorção compulsória das 'linhas básicas' do processo legislativo federal pelos estados (ADI 637). Que a sanção e o veto estão entre essas linhas é leitura nossa; a regra concreta está em cada Constituição estadual.",
+  "confianca": "oficial",
+  "notas": "Revisão (verificacao-f0-tipicos): passou de inferido a oficial porque a sanção está expressa nas Constituições de SP (art. 28), BA (art. 80), PA (art. 108) e GO (art. 23), todas no molde do art. 66 da CF; o STF fala na absorção compulsória das linhas básicas do processo legislativo federal pelos estados (ADI 637). As outras 22 Constituições não foram lidas.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: inferido → oficial, com as Constituições de SP, BA, PA e GO (texto expresso)"
   }
 }

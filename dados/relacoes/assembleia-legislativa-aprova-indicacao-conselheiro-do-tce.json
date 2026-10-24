@@ -5,7 +5,7 @@
   "relacao": "aprova-indicacao",
   "de": "org:arquetipo-estadual-assembleia-legislativa",
   "para": "cargo:arquetipo-estadual-conselheiro-do-tce",
-  "condicao": "Onde a Constituição estadual exige (ex.: SP, art. 20, XII; BA, art. 94), a Assembleia aprova antes os nomes indicados pelo governador.",
+  "condicao": "Onde a Constituição estadual exige (ex.: SP, art. 20, XII; BA, art. 94, I; PA, art. 119, § 1º, I; GO, art. 28, § 2º, II), a Assembleia aprova antes os nomes indicados pelo governador.",
   "fontes": [
     {
       "ref": "norma:sp-constituicao-1989",
@@ -13,18 +13,27 @@
     },
     {
       "ref": "norma:ba-constituicao-1989",
-      "dispositivo": "art. 94, caput"
+      "dispositivo": "art. 94, caput e I"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "art. 119, § 1º, I"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "art. 28, § 2º, II"
     }
   ],
-  "notas": "Paralelo federal: o Senado aprova os ministros do TCU escolhidos pelo Presidente (art. 52, III, b; art. 73, § 2º, I). Lidas só as Constituições de SP e da BA; não sabemos se todas as 26 exigem a aprovação.",
+  "notas": "Paralelo federal: o Senado aprova os ministros do TCU escolhidos pelo Presidente (art. 52, III, b; art. 73, § 2º, I). Lidas as Constituições de SP, BA, PA e GO (e a do MA, sem norma registrada): todas exigem a aprovação para os três indicados do governador. As outras 21 não foram lidas.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: acrescentadas as Constituições do PA (art. 119, § 1º, I) e de GO (art. 28, § 2º, II); BA é art. 94, caput e I"
   }
 }

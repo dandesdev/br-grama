@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Emprego das Forças Armadas na garantia da lei e da ordem",
   "resumo": "Como as Forças Armadas passam a atuar na ordem pública: pedido de um Poder ou iniciativa do Presidente, esgotamento das polícias reconhecido e decisão do Presidente.",
-  "detalhes": "As Forças Armadas garantem a lei e a ordem por iniciativa de qualquer dos poderes constitucionais (CF, art. 142). A decisão é sempre do Presidente e só vem depois de esgotados os órgãos de segurança pública do art. 144. A atuação é episódica, em área delimitada e por tempo limitado.",
+  "detalhes": "As Forças Armadas garantem a lei e a ordem por iniciativa de qualquer dos poderes constitucionais (CF, art. 142). Quem decide é o Presidente, e a atuação só começa depois de esgotados os órgãos de segurança pública do art. 144. É episódica, em área delimitada e por tempo limitado. Para o STF (ADI 6457, 2024), o emprego é excepcional e não dá às Forças Armadas papel de poder moderador entre os Poderes.",
   "forma": "linha",
   "etapas": [
     {
@@ -146,18 +146,24 @@
     {
       "ref": "norma:lei-14600-2023",
       "dispositivo": "art. 24, XVI, a"
+    },
+    {
+      "ref": "fonte:stf-adi-6457",
+      "dispositivo": "notícia de 8/4/2024",
+      "nota": "julgamento que interpreta o art. 142 da CF e os arts. 1º e 15 da LC 97/1999"
     }
   ],
   "vigencia": {
     "de": "1999-06-10",
     "ate": null,
-    "nota": "Desde a LC 97/1999 (DOU 10/6/1999). Os §§ 3º a 6º do art. 15 (esgotamento, ativação e controle operacional) foram incluídos pela LC 117/2004, cuja data não foi conferida aqui."
+    "nota": "Desde a LC 97/1999 (DOU 10/6/1999). Os §§ 3º a 6º do art. 15 (esgotamento, ativação e controle operacional) foram incluídos pela LC 117, de 2/9/2004, em vigor na publicação (DOU 3/9/2004; https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp117.htm, cópia em pesquisa/brutos/planalto-leis/2026-10-23/lcp117.htm)."
   },
   "confianca": "oficial",
-  "notas": "O governador aparece como ator porque o § 3º admite o reconhecimento pelo chefe do Executivo estadual. A LC não diz quem é a 'autoridade competente' que transfere o controle operacional; deixamos só as Forças Armadas como atores dessa etapa. O texto do Planalto remete à ADI 6457 nos §§ 1º a 3º; o conteúdo da decisão não foi conferido.",
+  "notas": "O governador aparece como ator porque o § 3º admite o reconhecimento pelo chefe do Executivo estadual. A LC não diz quem é a autoridade competente que transfere o controle operacional; deixamos só as Forças Armadas como atores dessa etapa. O texto do Planalto remete à ADI 6457 no caput e nos §§ 1º a 3º do art. 15; o resultado (sessão virtual encerrada em 8/4/2024) foi conferido na notícia oficial do STF, não no acórdão.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; conferidas etapa por etapa contra a LC 97/1999, art. 15, caput, I a III e §§ 1º a 6º, a CF, art. 142, e a Lei 14.600/2023, art. 24, XVI, a. Corrigido: detalhes dizia que a decisão só vem depois do esgotamento (o § 2º fala da atuação); acrescentado o julgamento da ADI 6457 e a data da LC 117/2004 na nota de vigência"
   }
 }

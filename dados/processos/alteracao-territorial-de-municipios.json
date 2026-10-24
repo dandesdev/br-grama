@@ -126,7 +126,7 @@
         "org:arquetipo-municipal-eleitorado"
       ],
       "acao": "O TRE organiza um plebiscito único com os eleitores dos dois municípios envolvidos",
-      "detalhes": "De preferência na data das eleições gerais ou municipais. Votam tanto a população da área que sai quanto a do município que a recebe (Lei 9.709/1998, art. 7º). O TRE proclama o resultado.",
+      "detalhes": "De preferência na data das eleições gerais ou municipais. Votam os eleitores dos dois municípios, o que perde a área e o que a recebe, num plebiscito único (LC 230/2026, art. 2º, parágrafo único; Lei 9.709/1998, art. 7º). O TRE proclama o resultado.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -226,9 +226,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: etapa plebiscito dizia que votam a área que sai e o município que a recebe; votam os dois municípios inteiros (LC 230/2026, art. 2º, parágrafo único); quadro de LCs do Planalto conferido"
   },
-  "notas": "A falta de lei complementar para criar municípios é fato com fonte, não aviso (D36). A busca por outra lei complementar se limitou à remissão do Planalto no art. 18, § 4º; o revisor pode conferir no portal de legislação. A ação 'decreto legislativo' é estadual; obj:decreto-legislativo existente é o federal, por isso não foi usado como produto. O ator do plebiscito é org:justica-eleitoral porque o TRE varia por estado (ex.: org:tre-pe)."
+  "notas": "A falta de lei complementar para criar municípios é fato com fonte, não aviso (D36). Na revisão, o quadro de leis complementares do Planalto (lido em 2026-10-23, até a LC 238/2026; cópia em pesquisa/brutos/planalto-leis/2026-10-23/quadro_lcp.htm) não mostra outra lei complementar sobre o art. 18, § 4º. A ação 'decreto legislativo' é estadual; obj:decreto-legislativo existente é o federal, por isso não foi usado como produto. O ator do plebiscito é org:justica-eleitoral porque o TRE varia por estado (ex.: org:tre-pe)."
 }

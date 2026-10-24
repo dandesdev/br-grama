@@ -34,8 +34,9 @@
   "notas": "Na DTB do IBGE o arquipélago aparece com código de município (2605459), e por isso ente:pe-fernando-de-noronha tem tipo_ente 'municipio'; pela lei estadual, é distrito estadual. Não procuramos outros distritos estaduais semelhantes de forma sistemática; não conhecemos outro caso.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos"
   }
 }

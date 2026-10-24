@@ -5,8 +5,24 @@
   "relacao": "veta",
   "de": "cargo:arquetipo-estadual-governador",
   "para": "obj:lei-estadual",
-  "condicao": "Veto total ou parcial, com os motivos comunicados à Assembleia, como no art. 66, § 1º.",
+  "condicao": "Veto total ou parcial, em 15 dias úteis (SP, PA e GO) ou 15 dias (BA), por inconstitucionalidade ou contrariedade ao interesse público, com os motivos comunicados à Assembleia em 48 horas.",
   "fontes": [
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 28, §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "art. 80, §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "art. 108, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "art. 23, §§ 1º e 2º"
+    },
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 66, §§ 1º e 2º"
@@ -16,15 +32,16 @@
       "dispositivo": "ADI 637"
     }
   ],
-  "confianca": "inferido",
-  "notas": "Mesma ressalva de rel:governador-sanciona-lei-estadual.",
+  "confianca": "oficial",
+  "notas": "Revisão (verificacao-f0-tipicos): passou de inferido a oficial com o texto expresso das Constituições de SP, BA, PA e GO; o prazo varia (na CF, 15 dias úteis). As outras 22 Constituições não foram lidas.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: inferido → oficial, com as Constituições de SP, BA, PA e GO (texto expresso)"
   }
 }

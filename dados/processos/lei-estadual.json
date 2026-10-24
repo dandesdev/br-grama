@@ -27,6 +27,22 @@
         {
           "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
           "dispositivo": "ADI 637; ADI 2.079"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 24, caput"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 75"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 104"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 20, caput"
         }
       ],
       "seguintes": [
@@ -73,7 +89,7 @@
         "cargo:arquetipo-estadual-governador"
       ],
       "acao": "O governador sanciona ou veta, no todo ou em parte, o projeto aprovado",
-      "detalhes": "O prazo é o da Constituição estadual; no modelo federal, 15 dias úteis, e o silêncio vale como sanção (art. 66, §§ 1º e 3º).",
+      "detalhes": "Nas Constituições de SP, PA e GO, o prazo é de 15 dias úteis e o silêncio vale como sanção, como no art. 66, §§ 1º e 3º; na BA, o prazo é de 15 dias.",
       "remete_a": "proc:lei-ordinaria",
       "fontes": [
         {
@@ -83,6 +99,22 @@
         {
           "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
           "dispositivo": "ADI 637"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 28, caput e §§ 1º a 4º"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 80, caput e §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 108, caput e §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 23, caput e §§ 1º a 3º"
         }
       ],
       "seguintes": [
@@ -103,12 +135,28 @@
         "org:arquetipo-estadual-assembleia-legislativa"
       ],
       "acao": "A Assembleia mantém ou derruba o veto",
-      "detalhes": "No modelo federal, derrubar o veto exige a maioria absoluta dos membros (art. 66, § 4º).",
+      "detalhes": "Nas Constituições lidas (SP, BA, PA e GO), a Assembleia tem 30 dias e só derruba o veto pela maioria absoluta dos deputados, como no art. 66, § 4º; vencido o prazo, o veto passa à frente das demais matérias.",
       "remete_a": "proc:lei-ordinaria",
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 66, §§ 4º a 6º"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 28, §§ 5º e 6º"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 80, §§ 4º a 6º"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 108, §§ 4º a 6º"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 23, §§ 4º a 6º"
         }
       ],
       "seguintes": [
@@ -120,7 +168,11 @@
           "para": "veto-mantido",
           "quando": "Veto mantido"
         }
-      ]
+      ],
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros da Assembleia para derrubar o veto."
+      }
     },
     {
       "id": "veto-mantido",
@@ -145,12 +197,28 @@
         "org:arquetipo-estadual-assembleia-legislativa"
       ],
       "acao": "O governador promulga e publica a lei; se não o fizer, o presidente da Assembleia promulga",
-      "detalhes": "A substituição na promulgação segue, no modelo federal, o art. 66, § 7º (Presidente do Senado e depois o Vice). Nos estados, a regra está na Constituição estadual.",
+      "detalhes": "Em BA, PA e GO, se o governador não promulgar em 48 horas, promulga o presidente da Assembleia e, depois, um vice-presidente, como no art. 66, § 7º. Em SP, na sanção tácita, quem promulga é o presidente da Assembleia (art. 28, § 4º).",
       "remete_a": "proc:lei-ordinaria",
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 66, §§ 5º e 7º"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 28, § 4º"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 80, § 7º"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 108, § 7º"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 23, § 7º"
         }
       ],
       "seguintes": [
@@ -211,15 +279,16 @@
   ],
   "campos": {
     "etapas": {
-      "confianca": "inferido",
-      "nota": "As etapas são o modelo federal aplicado por simetria (ADI 637: 'absorção compulsória das linhas básicas do modelo constitucional federal'). O STF também adverte que a simetria não vale para tudo (ADI 4.298 MC). Prazos, quóruns e detalhes de cada estado não foram lidos; por isso as etapas citam o dispositivo federal e remetem a proc:lei-ordinaria."
+      "confianca": "oficial",
+      "nota": "As etapas seguem o modelo federal, que os estados devem absorver nas linhas básicas (ADI 637); o STF adverte que a simetria não vale para tudo (ADI 4.298 MC). A revisão (verificacao-f0-tipicos) conferiu as etapas nas Constituições de SP, BA, PA e GO, que as preveem expressamente; prazos e detalhes mudam de estado para estado, e as outras 22 Constituições não foram lidas."
     }
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: etapas conferidas nas Constituições de SP, BA, PA e GO (fontes acrescentadas; campos.etapas passou de inferido a oficial; quórum na apreciação do veto)"
   },
   "notas": "Pedido da tarefa: processo legislativo estadual por simetria, como nota e remete_a ao processo federal. A lei complementar estadual e a emenda à Constituição estadual não foram modeladas."
 }

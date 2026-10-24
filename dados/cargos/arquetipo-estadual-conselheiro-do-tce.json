@@ -53,6 +53,16 @@
           "ref": "norma:ba-constituicao-1989",
           "dispositivo": "art. 94, caput",
           "nota": "os sete conselheiros são escolhidos após aprovação pela Assembleia"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 119, § 1º, I",
+          "nota": "três pelo Governador, com aprovação da Assembleia, um de livre escolha"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 28, § 2º, II",
+          "nota": "três pelo Governador, com aprovação da Assembleia, o primeiro de livre escolha"
         }
       ]
     }
@@ -100,6 +110,14 @@
     {
       "ref": "norma:ba-constituicao-1989",
       "dispositivo": "art. 94, caput"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "art. 119, § 1º, I"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "art. 28, § 2º, II"
     }
   ],
   "campos": {
@@ -111,15 +129,15 @@
         }
       ],
       "confianca": "secundario",
-      "nota": "A divisão 4 + 3 e a origem das vagas do Governador vêm da Súmula 653 do STF, usada como fonte secundária de interpretação: a CF diz só que as regras do TCU valem 'no que couber' e que os tribunais estaduais têm sete conselheiros. Coerência com o art. 73, § 2º, aplicado por simetria: as quatro vagas da Assembleia correspondem às do Congresso (inciso II) e as duas técnicas às do inciso I. Na União, porém, todos os escolhidos pelo Presidente passam pelo Senado, e os técnicos saem de lista tríplice do tribunal; nos estados, a aprovação pela Assembleia e a lista dependem da Constituição estadual (não lidas). 'nomeacao-livre' é aproximado: o conselheiro de livre escolha não pode ser exonerado livremente (é vitalício); falta no vocabulário um termo para nomeação com aprovação do Legislativo estadual. Atualização da f0-tipicos (2026-10-23): o caso de livre escolha do Governador passou de 'nomeacao-livre' para 'nomeacao-com-aprovacao-do-legislativo', termo criado depois; a aprovação prévia pela Assembleia está nas Constituições de SP (art. 20, XII) e da BA (art. 94, caput), lidas nas cópias de pesquisa/brutos/alesp/2026-10-16 e al-ba/2026-10-16. As outras 25 Constituições não foram lidas; nas duas lidas, a aprovação vale para todos os indicados pelo Governador, inclusive os dois técnicos, o que não foi alterado no caso da lista."
+      "nota": "A divisão 4 + 3 e a origem das vagas do Governador vêm da Súmula 653 do STF, usada como fonte secundária de interpretação: a CF diz só que as regras do TCU valem 'no que couber' e que os tribunais estaduais têm sete conselheiros. Coerência com o art. 73, § 2º, aplicado por simetria: as quatro vagas da Assembleia correspondem às do Congresso (inciso II) e as duas técnicas às do inciso I. Na União, porém, todos os escolhidos pelo Presidente passam pelo Senado, e os técnicos saem de lista tríplice do tribunal; nos estados, a aprovação pela Assembleia e a lista dependem da Constituição estadual (não lidas). 'nomeacao-livre' é aproximado: o conselheiro de livre escolha não pode ser exonerado livremente (é vitalício); falta no vocabulário um termo para nomeação com aprovação do Legislativo estadual. Atualização da f0-tipicos (2026-10-23): o caso de livre escolha do Governador passou de 'nomeacao-livre' para 'nomeacao-com-aprovacao-do-legislativo', termo criado depois; a aprovação prévia pela Assembleia está nas Constituições de SP (art. 20, XII) e da BA (art. 94, caput), lidas nas cópias de pesquisa/brutos/alesp/2026-10-16 e al-ba/2026-10-16. As outras 25 Constituições não foram lidas; nas duas lidas, a aprovação vale para todos os indicados pelo Governador, inclusive os dois técnicos, o que não foi alterado no caso da lista. Revisão (verificacao-f0-tipicos, 2026-10-23): a aprovação prévia pela Assembleia foi conferida também nas Constituições do PA (art. 119, § 1º, I) e de GO (art. 28, § 2º, II) e na cópia da Constituição do MA (art. 52, § 2º, I, cópia em pesquisa/brutos/al-ma/2026-10-16; sem norma registrada). Nas cinco lidas, a aprovação vale para os três indicados do Governador. Ressalva: 21 Constituições não foram lidas; o termo vale para o arquétipo, não para cada estado."
     }
   },
   "confianca": "oficial",
-  "notas": "Vale também para o TCDF (art. 75). O caso de livre escolha do Governador usa 'nomeacao-com-aprovacao-do-legislativo' (troca feita pela f0-tipicos, com base nas Constituições de SP e BA); as demais Constituições estaduais não foram pesquisadas. 'Conselheiro substituto' é o nome usado nos sites de vários TCEs para os auditores do art. 73, § 4º (ex.: TCE-AP, TCE-TO).",
+  "notas": "Vale também para o TCDF (art. 75). O caso de livre escolha do Governador usa 'nomeacao-com-aprovacao-do-legislativo' (troca feita pela f0-tipicos, com base nas Constituições de SP e BA; a revisão conferiu também PA e GO); as demais Constituições estaduais não foram pesquisadas. 'Conselheiro substituto' é o nome usado nos sites de vários TCEs para os auditores do art. 73, § 4º (ex.: TCE-AP, TCE-TO).",
   "verificacao": {
     "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-controle",
-    "notas": "coletado em f0-controle; Súmula 653 lida no portal do STF (cópia em brutos/stf/2026-10-23; DJ 13/10/2003); CF art. 73, §§ 1º a 3º, e art. 75 conferidos; LC 152/2015, art. 2º, V, confirmado também pelo decreto de aposentadoria de Aroldo Cedraz (DOU 26/2/2026). Detalhes reescritos para explicar a conta 4 + 3 (antes dizia que a escolha \"segue a proporção\" de dois terços, o que sete vagas não permitem); ressalvas sobre simetria e sobre nomeacao-livre acrescentadas em campos.provimento_casos.nota"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-controle; verificado antes em verificacao-f0-controle; a troca do caso de livre escolha feita pela f0-tipicos foi conferida nas Constituições de SP (art. 20, XII), BA (art. 94, I), PA (art. 119, § 1º, I) e GO (art. 28, § 2º, II)"
   }
 }
