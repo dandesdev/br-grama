@@ -1,0 +1,30 @@
+{
+  "id": "obj:habeas-data",
+  "tipo": "objeto",
+  "nome": "Habeas data",
+  "resumo": "Ação para conhecer ou corrigir informações sobre a própria pessoa guardadas em registros ou bancos de dados do governo ou de caráter público.",
+  "detalhes": "Antes de ir à Justiça é preciso pedir ao órgão que guarda os dados e ter o pedido negado ou sem resposta no prazo (Lei 9.507, art. 8º, parágrafo único). É gratuita (CF, art. 5º, LXXVII).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXXII e LXXVII; art. 102, I, d, II, a; art. 105, I, b; art. 108, I, c; art. 109, VIII"
+    },
+    {
+      "ref": "norma:lei-9507-1997",
+      "dispositivo": "arts. 2º, 7º e 8º, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "A Lei 9.507 acrescenta um terceiro caso: anotar contestação ou explicação sobre dado verdadeiro mas sob pendência (art. 7º, III)."
+}

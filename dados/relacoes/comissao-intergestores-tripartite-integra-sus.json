@@ -1,0 +1,29 @@
+{
+  "id": "rel:comissao-intergestores-tripartite-integra-sus",
+  "tipo": "relacao",
+  "nome": "A CIT é foro de pactuação do SUS",
+  "relacao": "integra",
+  "de": "org:comissao-intergestores-tripartite",
+  "para": "org:sistema-unico-de-saude",
+  "condicao": "Foro de negociação e pactuação entre os gestores das três esferas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-A"
+    },
+    {
+      "ref": "norma:decreto-7508-2011",
+      "dispositivo": "art. 30, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-29",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

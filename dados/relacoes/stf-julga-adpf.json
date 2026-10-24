@@ -1,0 +1,35 @@
+{
+  "id": "rel:stf-julga-adpf",
+  "tipo": "relacao",
+  "nome": "STF julga ADPF",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "obj:adpf",
+  "condicao": "A decisão vale para todos e vincula os demais órgãos do Poder Público; cabe reclamação se for descumprida (Lei 9.882, arts. 10, § 3º, e 13).",
+  "quorum": {
+    "regra": "outro",
+    "nota": "A decisão exige a presença de pelo menos dois terços dos ministros (Lei 9.882, art. 8º); a liminar, maioria absoluta dos membros (art. 5º); restringir os efeitos no tempo, dois terços (art. 11)."
+  },
+  "vigencia": {
+    "de": "1999-12-06",
+    "ate": null,
+    "nota": "Prevista na CF desde 1988, mas só regulamentada pela Lei 9.882/1999."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, § 1º"
+    },
+    {
+      "ref": "norma:lei-9882-1999",
+      "dispositivo": "arts. 5º, 8º, 10, § 3º, 11 e 13"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "A Lei 9.882 não fixa o número de votos para a decisão de mérito (o art. 8º, § 1º, foi vetado); não pesquisamos o RISTF sobre isso."
+}

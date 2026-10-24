@@ -1,0 +1,36 @@
+{
+  "id": "rel:presidente-propoe-plano-nacional-de-educacao",
+  "tipo": "relacao",
+  "nome": "O Executivo federal envia ao Congresso o projeto do próximo PNE",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:plano-nacional-de-educacao",
+  "condicao": "Até o fim de junho do último ano de vigência do plano em curso, com avaliação da sua execução baseada em dados do Inep. O projeto tramita como lei ordinária.",
+  "vigencia": {
+    "de": "2026-04-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-15388-2026",
+      "dispositivo": "art. 35"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 9º, I"
+    }
+  ],
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A lei diz 'Poder Executivo federal'; o envio de projetos de lei ao Congresso é ato do Presidente da República (CF, art. 61, caput, e art. 84, III)."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "A LDB dá à União a tarefa de elaborar o PNE em colaboração com estados, DF e municípios (art. 9º, I); a Cite apresenta contribuições para o plano seguinte (LC 220/2025, art. 13, VII).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

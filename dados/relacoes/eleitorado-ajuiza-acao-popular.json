@@ -1,0 +1,30 @@
+{
+  "id": "rel:eleitorado-ajuiza-acao-popular",
+  "tipo": "relacao",
+  "nome": "Cidadão pode ajuizar ação popular",
+  "relacao": "ajuiza",
+  "de": "org:eleitorado-nacional",
+  "para": "obj:acao-popular",
+  "condicao": "Qualquer cidadão, individualmente; a cidadania se prova com o título de eleitor. Fica isento de custas e honorários, salvo má-fé.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXXIII"
+    },
+    {
+      "ref": "norma:lei-4717-1965",
+      "dispositivo": "art. 1º, caput e § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "O eleitorado é o conjunto dos eleitores; aqui cada eleitor age sozinho, não o conjunto."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:stj-julga-habeas-data",
+  "tipo": "relacao",
+  "nome": "STJ julga habeas data",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "obj:habeas-data",
+  "condicao": "Originariamente, contra ato de Ministro de Estado, dos Comandantes da Marinha, do Exército e da Aeronáutica ou do próprio STJ.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A menção aos Comandantes da Marinha, do Exército e da Aeronáutica é da EC 23/1999."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

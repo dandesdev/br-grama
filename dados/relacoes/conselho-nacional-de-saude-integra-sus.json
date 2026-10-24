@@ -1,0 +1,29 @@
+{
+  "id": "rel:conselho-nacional-de-saude-integra-sus",
+  "tipo": "relacao",
+  "nome": "O Conselho Nacional de Saúde é instância colegiada do SUS",
+  "relacao": "integra",
+  "de": "org:conselho-nacional-de-saude",
+  "para": "org:sistema-unico-de-saude",
+  "condicao": "Instância colegiada do SUS na esfera federal (participação da comunidade).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 198, III"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

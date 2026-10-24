@@ -1,0 +1,41 @@
+{
+  "id": "org:comissao-intergovernamental-de-financiamento-da-educacao-basica",
+  "tipo": "orgao",
+  "nome": "Comissão Intergovernamental de Financiamento para a Educação Básica de Qualidade",
+  "resumo": "Colegiado no MEC, com representantes da União, dos estados e dos municípios, que fixa todo ano as ponderações usadas para dividir o dinheiro do Fundeb.",
+  "detalhes": "Tem 15 membros: cinco do MEC, incluídos um do Inep e um do FNDE, cinco secretários estaduais indicados pelo Consed e cinco secretários municipais indicados pela Undime, um por região. Define os pesos por etapa, modalidade, jornada e tipo de escola, aprova as metodologias de cálculo dos indicadores e acompanha as condicionalidades da complementação VAAR.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-educacao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14113-2020",
+          "dispositivo": "art. 17, caput"
+        }
+      ],
+      "nota": "A lei a mantém 'no âmbito do Ministério da Educação'. Ela não aparece entre os órgãos colegiados do Decreto 12.769/2025 (art. 2º, III, só lista o CNE)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "arts. 17 a 19"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Instituída pelo art. 12 da Lei 11.494/2007 (de 20/6/2007), cuja data de vigência não foi conferida, e mantida pela Lei 14.113/2020, art. 17."
+  },
+  "confianca": "oficial",
+  "notas": "Pode ser vista como subcomissão permanente da Cite, que absorve as comissões tripartites de educação criadas por lei federal (LC 220/2025, art. 12, § 2º; Portaria MEC 102/2026, art. 7º): leitura nossa, porque a lei a chama de 'intergovernamental' e não de 'intergestores'. As ponderações saem em resolução no DOU até 31 de julho, para o ano seguinte (Lei 14.113/2020, art. 17, § 2º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

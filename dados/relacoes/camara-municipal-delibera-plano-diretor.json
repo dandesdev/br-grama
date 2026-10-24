@@ -1,0 +1,38 @@
+{
+  "id": "rel:camara-municipal-delibera-plano-diretor",
+  "tipo": "relacao",
+  "nome": "Aprovação do plano diretor",
+  "relacao": "delibera",
+  "de": "org:arquetipo-municipal-camara-municipal",
+  "para": "obj:plano-diretor",
+  "condicao": "Aprova o plano diretor por lei municipal, depois de audiências públicas com a população; a lei deve ser revista pelo menos a cada dez anos.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 182, § 1º"
+    },
+    {
+      "ref": "norma:lei-10257-2001",
+      "dispositivo": "art. 40, caput e §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "art. 40, § 4º, II; art. 41, I"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "art. 70, caput e parágrafo único, V"
+    }
+  ],
+  "notas": "O quórum varia: em SP, 3/5 dos membros (LOM, art. 40, § 4º, II); no Rio, maioria absoluta, como lei complementar (LOM, art. 70). A CF não fixa quórum.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

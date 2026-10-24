@@ -1,0 +1,37 @@
+{
+  "id": "org:sistema-federal-de-ensino",
+  "tipo": "orgao",
+  "nome": "Sistema federal de ensino",
+  "resumo": "Reúne as escolas, universidades e institutos mantidos pela União, as faculdades e universidades privadas e os órgãos federais de educação.",
+  "detalhes": "A União organiza o sistema federal, financia suas instituições públicas e presta assistência técnica e financeira aos demais entes, numa função redistributiva e supletiva (CF, art. 211, § 1º). Cabe a ela coordenar, regular, avaliar e supervisionar o sistema, o que inclui autorizar e credenciar cursos e instituições de educação superior (LDB, art. 9º, IX; LC 220/2025, art. 5º, II).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 211, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 8º; art. 9º, II, III e IX; art. 16"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 5º, II e III"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Previsto na redação original do art. 211, § 1º. A composição atual é a da LDB, art. 16 (inciso II na redação da Lei 13.868/2019)."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema': inclui instituições privadas de educação superior, que não fazem parte do Estado. A LDB, art. 16, I, inclui as instituições de ensino mantidas pela União, que não têm nó próprio aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

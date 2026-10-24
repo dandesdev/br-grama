@@ -1,0 +1,57 @@
+{
+  "id": "org:conselho-nacional-de-saude",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Saúde",
+  "sigla": "CNS",
+  "resumo": "Colegiado permanente e deliberativo do SUS na União. Metade dos membros representa os usuários; suas resoluções são homologadas pelo Ministro da Saúde.",
+  "detalhes": "Tem 48 membros titulares com mandato de três anos: 50% de usuários, 25% de profissionais de saúde e 25% divididos entre governo federal (6), Conass (1), Conasems (1), prestadores de serviço (2) e entidades empresariais (2). As entidades são escolhidas por eleição a cada três anos, e o presidente é eleito entre os conselheiros. Atua na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos financeiros.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11798-2023",
+          "dispositivo": "Anexo I, art. 2º, IV, a"
+        },
+        {
+          "ref": "norma:decreto-5839-2006",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 198, III"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, II e §§ 2º a 5º"
+    },
+    {
+      "ref": "norma:decreto-5839-2006",
+      "dispositivo": "arts. 1º a 7º"
+    },
+    {
+      "ref": "norma:decreto-11798-2023",
+      "dispositivo": "Anexo I, art. 64"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null,
+    "nota": "Data da Lei 8.142/1990, que fixou o papel atual dos conselhos de saúde; o CNS é anterior (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "Composição atual pelo Decreto 5.839/2006; não conferimos os conselheiros nem o presidente em 2026-10-01.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

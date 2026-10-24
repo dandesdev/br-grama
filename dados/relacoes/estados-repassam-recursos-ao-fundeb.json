@@ -1,0 +1,30 @@
+{
+  "id": "rel:estados-repassam-recursos-ao-fundeb",
+  "tipo": "relacao",
+  "nome": "Os estados destinam ao Fundeb 20% dos seus principais impostos e transferências",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:fundeb",
+  "condicao": "20% do ITCMD, do ICMS e do IPVA estaduais, das parcelas do FPE e do IPI-exportação e, desde 2026, da parcela estadual do IBS, entre outras fontes. O DF entra com as parcelas equivalentes.",
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212-A, caput, I e II"
+    },
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Fontes listadas no art. 3º da Lei 14.113/2020; o IBS foi incluído pela LC 227/2026 (art. 3º, X). Esses 20% fazem parte dos 25% do piso da educação (Lei 14.113/2020, art. 1º, parágrafo único).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

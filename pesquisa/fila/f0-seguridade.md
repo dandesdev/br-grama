@@ -24,3 +24,10 @@ concluida_em: null
 ## Diário
 
 - 2026-10-23 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o quadro do f0-cobertura (arts. 40, 194 a 204, 248 a 250; ADCT, art. 122)
+- 2026-10-23 23:00 — gravado norma:lei-8080-1990, norma:lei-8142-1990, org:sistema-unico-de-saude
+- 2026-10-23 23:02 — gravado norma:decreto-7508-2011, norma:decreto-5839-2006, org:arquetipo-estadual-secretaria-de-saude, org:arquetipo-municipal-secretaria-de-saude, rel:ministerio-da-saude-coordena-sus, rel:arquetipo-estadual-secretaria-de-saude-coordena-sus, rel:arquetipo-municipal-secretaria-de-saude-coordena-sus
+- 2026-10-23 23:03 — gravado org:conselho-nacional-de-saude, org:arquetipo-estadual-conselho-de-saude, org:arquetipo-municipal-conselho-de-saude, org:conferencias-de-saude, org:comissao-intergestores-tripartite, org:arquetipo-estadual-comissao-intergestores-bipartite
+- 2026-10-23 23:05 — gravado norma:lc-141-2012, obj:piso-constitucional-da-saude, obj:fundo-nacional-de-saude, rel:conselho-nacional-de-saude-fiscaliza-fundo-nacional-de-saude, rel:uniao-repassa-recursos-saude-estados, rel:uniao-repassa-recursos-saude-municipios, rel:estados-repassam-recursos-saude-municipios
+- 2026-10-23 23:07 — gravado norma:lei-9782-1999, org:anvisa, rel:anvisa-integra-sus; org:anvisa criado aqui (art. 200); f0-administracao-indireta pode referenciar sem recriar
+- 2026-10-23 23:07 — gravado rel:conselho-nacional-de-saude-integra-sus, rel:arquetipo-estadual-conselho-de-saude-integra-sus, rel:arquetipo-municipal-conselho-de-saude-integra-sus, rel:conferencias-de-saude-integra-sus, rel:comissao-intergestores-tripartite-integra-sus, rel:arquetipo-estadual-comissao-intergestores-bipartite-integra-sus
+- 2026-10-23 23:10 — gravado norma:lei-8213-1991, norma:lei-8029-1990, norma:decreto-10995-2022, org:inss, org:conselho-nacional-de-previdencia-social, org:conselho-de-recursos-da-previdencia-social, rel:crps-julga-recursos-contra-inss, obj:fundo-do-regime-geral-de-previdencia-social

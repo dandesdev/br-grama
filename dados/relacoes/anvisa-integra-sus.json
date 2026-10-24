@@ -1,0 +1,33 @@
+{
+  "id": "rel:anvisa-integra-sus",
+  "tipo": "relacao",
+  "nome": "A Anvisa integra o SUS",
+  "relacao": "integra",
+  "de": "org:anvisa",
+  "para": "org:sistema-unico-de-saude",
+  "condicao": "Executa, no plano federal, a vigilância sanitária que a CF atribui ao SUS.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 200, II"
+    },
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 4º"
+    },
+    {
+      "ref": "norma:lei-9782-1999",
+      "dispositivo": "arts. 1º e 7º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-01-27",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

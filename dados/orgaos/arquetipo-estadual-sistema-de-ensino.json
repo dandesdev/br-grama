@@ -1,0 +1,37 @@
+{
+  "id": "org:arquetipo-estadual-sistema-de-ensino",
+  "tipo": "orgao",
+  "nome": "Sistema estadual de ensino",
+  "resumo": "Reúne as escolas mantidas pelo estado, as escolas privadas de ensino fundamental e médio e os órgãos estaduais de educação. Atua sobretudo nos ensinos fundamental e médio.",
+  "detalhes": "A CF dá aos estados e ao DF atuação prioritária no ensino fundamental e no médio (art. 211, § 3º). O estado deve garantir o ensino fundamental, oferecer o médio com prioridade e definir com seus municípios como dividir a oferta do fundamental (LDB, art. 10, II e VI). Também regula e supervisiona as escolas do seu sistema e baixa normas complementares para ele (LDB, art. 10, IV e V).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 211, caput e §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 10; art. 17"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 2º, parágrafo único; art. 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Previsto na redação original do art. 211, caput. As prioridades de atuação vêm do § 3º, incluído pela EC 14/1996, e a composição, da LDB, art. 17 (1996)."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema'. Cada estado institui o seu por lei própria (LC 220/2025, art. 2º, parágrafo único). No DF, o sistema reúne as competências de estado e de município e inclui as escolas privadas de educação infantil (LDB, art. 10, parágrafo único, e art. 17, parágrafo único). O conselho estadual de educação, instância normativa (LC 220/2025, art. 15, III), não tem nó aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

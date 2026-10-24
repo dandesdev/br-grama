@@ -1,0 +1,44 @@
+{
+  "id": "obj:plano-nacional-de-educacao",
+  "tipo": "objeto",
+  "nome": "Plano Nacional de Educação",
+  "sigla": "PNE",
+  "resumo": "Lei que fixa, para dez anos, diretrizes, objetivos, metas e estratégias da educação no país. O plano em vigor é o da Lei 15.388/2026.",
+  "detalhes": "O PNE de 2026 tem 19 objetivos e 73 metas, entre elas investir em educação o equivalente a 7,5% do PIB até o sétimo ano e 10% até o fim do decênio. Estados, DF e municípios devem aprovar por lei seus próprios planos decenais, alinhados ao nacional. O monitoramento cabe ao MEC, ao CNE, às comissões de educação da Câmara e do Senado e ao Fórum Nacional de Educação; o Inep publica os índices de alcance das metas a cada dois anos.",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "2026-04-15",
+    "ate": null,
+    "nota": "Vigência do plano atual, de 10 anos a contar da publicação (Lei 15.388/2026, art. 1º). O anterior (Lei 13.005/2014) valeu até 31/12/2025, prorrogado pela Lei 14.934/2024."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 214, caput e I a VI"
+    },
+    {
+      "ref": "norma:lei-15388-2026",
+      "dispositivo": "arts. 1º, 6º, 8º, § 1º, 11 e 35; Anexo I, Meta 19.a"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 27"
+    }
+  ],
+  "campos": {
+    "detalhes": {
+      "nota": "Contagem de 19 objetivos e 73 metas feita por nós no Anexo I da cópia do Planalto."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "A CF exige que o PNE fixe meta de gasto público em educação como proporção do PIB (art. 214, VI, EC 59/2009). A distribuição de recursos deve priorizar o ensino obrigatório nos termos do PNE (art. 212, § 3º). Planos estaduais e distrital deviam sair em até 12 meses e os municipais em até 15 meses da publicação (Lei 15.388/2026, art. 34).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

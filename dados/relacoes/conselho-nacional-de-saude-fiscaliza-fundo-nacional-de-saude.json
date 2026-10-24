@@ -1,0 +1,30 @@
+{
+  "id": "rel:conselho-nacional-de-saude-fiscaliza-fundo-nacional-de-saude",
+  "tipo": "relacao",
+  "nome": "O Conselho Nacional de Saúde fiscaliza a movimentação do Fundo Nacional de Saúde",
+  "relacao": "fiscaliza",
+  "de": "org:conselho-nacional-de-saude",
+  "para": "obj:fundo-nacional-de-saude",
+  "condicao": "Controle social: os recursos do SUS são movimentados sob fiscalização do conselho de saúde de cada esfera, que avalia a cada quatro meses o relatório de execução orçamentária e financeira da saúde.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 33, caput"
+    },
+    {
+      "ref": "norma:lc-141-2012",
+      "dispositivo": "art. 41"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-09-20",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O conselho não é órgão de controle externo em sentido estrito (que cabe ao Legislativo e ao TCU); usamos 'fiscaliza' por ser o termo da lei.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "proc:alteracao-territorial-de-estados",
+  "tipo": "processo",
+  "nome": "Incorporação, subdivisão e desmembramento de estados",
+  "resumo": "Mudar o mapa dos estados, ou criar estado ou território novo, exige plebiscito da população interessada e lei complementar do Congresso, ouvidas as Assembleias.",
+  "detalhes": "Os estados podem se juntar, se dividir ou ceder parte do território a outro, e daí podem surgir estados ou territórios federais novos (art. 18, § 3º). O Congresso convoca o plebiscito por decreto legislativo; se o resultado for favorável, vota a lei complementar, depois de ouvir as Assembleias Legislativas, cuja opinião não vincula (Lei 9.709/1998, arts. 3º e 4º).",
+  "forma": "linha",
+  "produz": "obj:lei-complementar",
+  "etapas": [
+    {
+      "id": "proposta-de-plebiscito",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador"
+      ],
+      "acao": "Um terço, no mínimo, dos membros da Câmara ou do Senado propõe o decreto legislativo que convoca o plebiscito",
+      "fontes": [
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "art. 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "convocacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "convocacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:congresso-nacional"
+      ],
+      "acao": "O Congresso Nacional aprova ou rejeita o decreto legislativo que convoca o plebiscito",
+      "detalhes": "Convocar plebiscito é competência exclusiva do Congresso (art. 49, XV). Aprovado o ato, o Presidente do Congresso avisa a Justiça Eleitoral, e a tramitação de projetos sobre o mesmo assunto fica suspensa até o resultado (Lei 9.709/1998, arts. 8º e 9º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49, XV"
+        },
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "arts. 3º, 8º e 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "plebiscito",
+          "quando": "Decreto legislativo aprovado"
+        },
+        {
+          "para": "nao-aprovado",
+          "quando": "Decreto legislativo rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "plebiscito",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:justica-eleitoral",
+        "org:arquetipo-estadual-eleitorado"
+      ],
+      "acao": "A Justiça Eleitoral faz o plebiscito, na mesma data e horário em cada estado envolvido",
+      "detalhes": "Vota a população diretamente interessada: no desmembramento, tanto a da área que sai quanto a da que fica; na fusão ou anexação, tanto a da área anexada quanto a da que a recebe (Lei 9.709/1998, art. 7º; STF, ADI 2.650). Vence a maioria simples, com resultado homologado pelo TSE (art. 10).",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Lei 9.709/1998, art. 10: aprovado ou rejeitado por maioria simples, conforme o resultado homologado pelo TSE."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 3º"
+        },
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "arts. 4º, caput, 7º, 8º e 10"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-18",
+          "dispositivo": "ADI 2.650"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "projeto-e-audiencia",
+          "quando": "Resultado favorável"
+        },
+        {
+          "para": "nao-aprovado",
+          "quando": "Resultado contrário"
+        }
+      ]
+    },
+    {
+      "id": "projeto-e-audiencia",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal",
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "O projeto de lei complementar é apresentado numa das Casas, que ouve as Assembleias Legislativas dos estados envolvidos",
+      "detalhes": "As Assembleias opinam sem caráter vinculante e mandam ao Congresso os dados administrativos, financeiros, sociais e econômicos da área afetada, que o Congresso deve levar em conta (Lei 9.709/1998, art. 4º, §§ 2º a 4º).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 48, VI"
+        },
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "art. 4º, §§ 1º a 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "lei-complementar",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "lei-complementar",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:congresso-nacional",
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Congresso vota a lei complementar, por maioria absoluta, e o Presidente a sanciona ou veta",
+      "detalhes": "A matéria do art. 48, VI, depende de sanção do Presidente da República (art. 48, caput). O rito é o da lei complementar federal.",
+      "remete_a": "proc:lei-complementar",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Lei complementar: maioria absoluta dos membros de cada Casa (art. 69)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 3º; art. 48, caput e VI; art. 69"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "novos-limites",
+          "quando": "Lei complementar aprovada e sancionada (ou veto derrubado)"
+        },
+        {
+          "para": "nao-aprovado",
+          "quando": "Projeto rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "novos-limites",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Os estados passam a ter os limites, ou o novo estado ou território passa a existir, nos termos da lei complementar",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 3º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "nao-aprovado",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A alteração territorial não acontece",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 18, § 3º"
+        },
+        {
+          "ref": "norma:lei-9709-1998",
+          "dispositivo": "arts. 4º e 10"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O rito do plebiscito vem da Lei 9.709/1998, em vigor desde 19/11/1998."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 18, § 3º; art. 48, VI; art. 49, XV; art. 69"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "arts. 3º, 4º e 7º a 10"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-18",
+      "dispositivo": "ADI 2.650"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  },
+  "notas": "A etapa proposta-de-plebiscito usa os cargos de deputado e senador porque a Lei 9.709/1998, art. 3º, exige proposta de um terço dos membros de uma Casa. A votação do decreto legislativo não usa 'remete_a': ainda não há processo do decreto legislativo no mapa. A Lei 9.709/1998 não diz quem apresenta o projeto de lei complementar (art. 4º, § 1º: 'será proposto perante qualquer das Casas'); valem as regras gerais de iniciativa. Os estados de Tocantins, Roraima e Amapá foram criados pelo ADCT (arts. 13 e 14), não por este rito."
+}

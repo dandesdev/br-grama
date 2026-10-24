@@ -1,0 +1,31 @@
+{
+  "id": "obj:acao-popular",
+  "tipo": "objeto",
+  "nome": "Ação popular",
+  "resumo": "Ação que qualquer cidadão pode propor para anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural.",
+  "detalhes": "O autor não paga custas nem os honorários da outra parte, salvo má-fé (CF, art. 5º, LXXIII). Cidadão, aqui, é o eleitor: a prova é o título eleitoral (Lei 4.717, art. 1º, § 3º). O Ministério Público acompanha a ação e não pode defender o ato (art. 6º, § 4º).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXXIII"
+    },
+    {
+      "ref": "norma:lei-4717-1965",
+      "dispositivo": "art. 1º, § 3º; art. 5º; art. 6º, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A ação popular já existia antes de 1988 (Lei 4.717/1965); a data é a da CF atual."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "O juízo competente é o que cuida das causas do ente de onde veio o ato (Lei 4.717, art. 5º); por isso não ligamos a ação a um tribunal específico."
+}

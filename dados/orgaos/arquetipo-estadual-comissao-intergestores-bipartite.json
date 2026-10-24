@@ -1,0 +1,47 @@
+{
+  "id": "org:arquetipo-estadual-comissao-intergestores-bipartite",
+  "tipo": "orgao",
+  "nome": "Comissão Intergestores Bipartite",
+  "sigla": "CIB",
+  "resumo": "Foro em que o estado e seus municípios pactuam a organização da rede de saúde e a gestão compartilhada do SUS no estado.",
+  "detalhes": "Pactua as etapas e os prazos do planejamento municipal e as regras de acesso na rede estadual. Nas regiões de saúde há ainda comissões intergestores regionais, que seguem as diretrizes da CIB. Fica vinculada à secretaria estadual de saúde para fins administrativos.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-secretaria-de-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-7508-2011",
+          "dispositivo": "art. 30, II"
+        }
+      ],
+      "nota": "Vinculada à secretaria estadual de saúde para efeitos administrativos e operacionais."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-A"
+    },
+    {
+      "ref": "norma:decreto-7508-2011",
+      "dispositivo": "art. 19; arts. 30 a 32"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-29",
+    "ate": null,
+    "incerta": true,
+    "nota": "Mesma base da CIT: data do Decreto 7.508/2011; as CIBs são anteriores (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "As comissões intergestores regionais (Decreto 7.508/2011, art. 30, III) não têm nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

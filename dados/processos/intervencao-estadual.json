@@ -1,0 +1,359 @@
+{
+  "id": "proc:intervencao-estadual",
+  "tipo": "processo",
+  "nome": "Intervenção estadual nos municípios",
+  "resumo": "O estado intervém temporariamente num município, só nos quatro casos do art. 35, por decreto do governador, em regra submetido à Assembleia Legislativa.",
+  "detalhes": "A autonomia municipal é a regra. O estado só intervém se o município deixar de pagar a dívida fundada por dois anos, não prestar contas, não aplicar o mínimo em ensino e saúde ou se o Tribunal de Justiça prover representação. O rito do decreto é o mesmo da intervenção federal (art. 36, §§ 1º a 4º).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "hipotese",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "Ocorre uma das hipóteses do art. 35, as únicas que permitem ao estado intervir no município",
+      "detalhes": "As hipóteses são taxativas: a Constituição estadual não pode ampliá-las nem restringi-las (STF, ADI 336). Os municípios dentro de estados só sofrem intervenção do próprio estado; a União só intervém em municípios de Território Federal (art. 35, caput; IF 590 QO).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 35, caput e I a IV"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-35",
+          "dispositivo": "ADI 336; IF 590 QO"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "representacao-da-camara",
+          "quando": "Dívida fundada não paga por dois anos, contas não prestadas ou mínimo em ensino e saúde não aplicado (art. 35, I a III)"
+        },
+        {
+          "para": "representacao-ao-tj",
+          "quando": "Observância de princípios da Constituição estadual ou execução de lei, ordem ou decisão judicial (art. 35, IV)"
+        }
+      ]
+    },
+    {
+      "id": "representacao-da-camara",
+      "atores": [
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "A Câmara Municipal representa ao governador pela intervenção",
+      "detalhes": "Para o STF, nos casos de contas cabe à Câmara, e não ao tribunal de contas, apreciar o parecer prévio e, se for o caso, representar ao governador (ADI 614 MC; ADI 2.631, que derrubou a regra do Pará que dava esse poder ao TCM). A CF não diz quem provoca o governador nos incisos I a III; GO e PA preveem a representação da Câmara, e o texto da Constituição da BA ainda a atribui ao TCM.",
+      "fontes": [
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-35",
+          "dispositivo": "ADI 614 MC; ADI 2.631"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 61, § 1º, I; art. 70, VIII"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 85, I"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 65, § 1º, I; art. 95, II, a"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "representacao-ao-tj",
+      "atores": [
+        "cargo:arquetipo-estadual-procurador-geral-de-justica"
+      ],
+      "acao": "O Procurador-Geral de Justiça representa ao Tribunal de Justiça pela intervenção",
+      "detalhes": "É a representação interventiva estadual, para garantir princípios da Constituição do estado ou a execução de lei, ordem ou decisão judicial. Os princípios sensíveis do art. 34, VII, valem mesmo que a Constituição estadual não os repita (ADI 7.369).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 35, IV"
+        },
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 25, II; art. 29, II"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 61, § 1º, III"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 138, IV"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-35",
+          "dispositivo": "ADI 7.369"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "tj-julga-representacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "tj-julga-representacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-tribunal-de-justica"
+      ],
+      "acao": "O Tribunal de Justiça julga a representação e, se der provimento, requisita a intervenção ao governador",
+      "detalhes": "A decisão do TJ que defere a intervenção tem natureza político-administrativa e não admite recurso extraordinário ao STF (Súmula 637).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 35, IV"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 74, VI; art. 75, II"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 65, § 1º, II; art. 123, I, d, e X"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 85, II"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-35",
+          "dispositivo": "Súmula 637; AI 597.466 AgR"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decreto",
+          "quando": "Representação provida"
+        },
+        {
+          "para": "fim-sem-intervencao",
+          "quando": "Representação negada"
+        }
+      ]
+    },
+    {
+      "id": "decreto",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador decreta a intervenção, com amplitude, prazo, condições e, se couber, o interventor",
+      "detalhes": "No caso do art. 35, IV, o decreto pode só suspender o ato impugnado, se isso bastar; então dispensa a apreciação da Assembleia (art. 36, § 3º).",
+      "remete_a": "proc:intervencao-federal",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, §§ 1º e 3º"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 47, VIII; art. 149, §§ 1º e 3º"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 105, VIII; art. 65, §§ 2º e 4º"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 37, VII; art. 61, §§ 2º e 3º"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 85, §§ 1º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "submissao-a-assembleia",
+          "quando": "Regra geral"
+        },
+        {
+          "para": "execucao",
+          "quando": "Caso do art. 35, IV, quando basta suspender o ato impugnado"
+        }
+      ]
+    },
+    {
+      "id": "submissao-a-assembleia",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O decreto é submetido à Assembleia Legislativa em 24 horas",
+      "detalhes": "Se a Assembleia não estiver funcionando, é convocada extraordinariamente no mesmo prazo.",
+      "prazo": {
+        "texto": "24 horas para submeter o decreto; se a Assembleia não estiver funcionando, convocação extraordinária no mesmo prazo",
+        "valor": 24,
+        "unidade": "horas",
+        "conta_de": "decretação da intervenção"
+      },
+      "remete_a": "proc:intervencao-federal",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, §§ 1º e 2º"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 149, §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "assembleia-aprecia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "assembleia-aprecia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "A Assembleia Legislativa aprova ou rejeita a intervenção",
+      "detalhes": "As Constituições de SP, BA e GO dão à Assembleia a competência de decidir sobre a intervenção (na BA, também de suspendê-la). O quórum não é fixado na CF nem nos artigos lidos.",
+      "remete_a": "proc:intervencao-federal",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, § 1º"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 20, VII"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 71, VI"
+        },
+        {
+          "ref": "norma:go-constituicao-1989",
+          "dispositivo": "art. 11, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": "Intervenção aprovada"
+        },
+        {
+          "para": "cessacao",
+          "quando": "Intervenção rejeitada"
+        }
+      ]
+    },
+    {
+      "id": "execucao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "A intervenção é executada nos termos do decreto, pelo interventor quando houver",
+      "detalhes": "Em SP, na BA e no PA, o interventor presta contas ao governador e aos órgãos que fiscalizavam as autoridades afastadas, e a Assembleia recebe relatório (BA e PA).",
+      "remete_a": "proc:intervencao-federal",
+      "fontes": [
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 47, VIII; art. 149, § 5º"
+        },
+        {
+          "ref": "norma:ba-constituicao-1989",
+          "dispositivo": "art. 105, VIII; art. 65, § 6º"
+        },
+        {
+          "ref": "norma:pa-constituicao-1989",
+          "dispositivo": "art. 85, § 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "cessacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "cessacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Cessados os motivos, as autoridades afastadas voltam aos cargos, salvo impedimento legal",
+      "remete_a": "proc:intervencao-federal",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, § 4º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "fim-sem-intervencao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Sem provimento da representação, não há intervenção",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 35, IV"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O inciso III do art. 35 tem a redação da EC 29/2000, que acrescentou a saúde ao ensino."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 35; art. 36, §§ 1º a 4º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-35",
+      "dispositivo": "Súmula 637; ADI 336; ADI 2.631; ADI 614 MC; ADI 7.369"
+    },
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "arts. 20, VII, 47, VIII, 74, VI, 75, II, e 149"
+    },
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "arts. 65, 71, VI, 95, II, a, 105, VIII, 123, I, d, e X, e 138, IV"
+    },
+    {
+      "ref": "norma:pa-constituicao-1989",
+      "dispositivo": "arts. 84 e 85"
+    },
+    {
+      "ref": "norma:go-constituicao-1989",
+      "dispositivo": "arts. 11, III, 37, VII, 61 e 70, VIII"
+    }
+  ],
+  "campos": {
+    "etapas": {
+      "confianca": "oficial",
+      "nota": "A CF fixa as hipóteses (art. 35) e o rito do decreto (art. 36, §§ 1º a 4º, que citam a Assembleia Legislativa). Quem provoca o governador nos incisos I a III e quem representa ao TJ no inciso IV vêm da Lei 8.625/1993, da jurisprudência do STF e das Constituições lidas (SP, BA, PA e GO); as outras 22 não foram lidas."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  },
+  "notas": "Sem 'produz': obj:decreto é o decreto presidencial e não há objeto para o decreto do governador. As etapas do decreto em diante remetem a proc:intervencao-federal, porque o art. 36, §§ 1º a 4º, vale para as duas intervenções. A intervenção da União em municípios de Território Federal (art. 35, caput) fica latente: não há território em 2026-10-01. Divergências nos textos estaduais lidos: a Constituição da BA (texto do Legislabahia, cópia de 2026-10-16) ainda cita só o ensino no art. 65, III, e dá ao TCM a representação nos incisos I a III (art. 65, § 1º, I; art. 95, II, a); a do PA dá a representação à Câmara 'ou' ao TCM (art. 85, I), e a parte do TCM foi declarada inconstitucional na ADI 2.631. Não abrimos aviso: a regra federal e a do STF prevalecem e estão citadas. Em GO, art. 61, § 1º, I, a EC 46/2010 trocou a representação da 'Corte de Contas' pela da Câmara Municipal."
+}

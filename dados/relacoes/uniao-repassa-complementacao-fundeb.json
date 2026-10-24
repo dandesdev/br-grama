@@ -1,0 +1,35 @@
+{
+  "id": "rel:uniao-repassa-complementacao-fundeb",
+  "tipo": "relacao",
+  "nome": "A União complementa os fundos do Fundeb com no mínimo 23% do total",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "obj:fundeb",
+  "condicao": "10 pontos percentuais vão aos fundos dos estados onde o valor por aluno (VAAF) fica abaixo do mínimo nacional; no mínimo 10,5 pontos às redes com valor total por aluno (VAAT) abaixo do mínimo; 2,5 pontos às redes que melhoram seus indicadores (VAAR).",
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null,
+    "nota": "Implantação progressiva desde 1º/1/2021: 12% no primeiro ano até 23% no sexto, 2026 (ADCT, art. 60)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 211, § 1º; art. 212-A, IV, V, VIII, IX e XIII"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 60"
+    },
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "arts. 4º e 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "É a principal forma da função redistributiva e supletiva da União (CF, art. 211, § 1º). Até 30% da complementação pode contar para o piso federal de 18% (art. 212-A, VIII), o salário-educação não pode ser usado nela (XIII), e reter o repasse é crime de responsabilidade (IX; Lei 14.113/2020, art. 4º, § 4º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

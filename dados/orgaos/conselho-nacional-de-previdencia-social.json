@@ -1,0 +1,49 @@
+{
+  "id": "org:conselho-nacional-de-previdencia-social",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Previdência Social",
+  "sigla": "CNPS",
+  "resumo": "Colegiado que fixa diretrizes gerais da previdência social e acompanha sua gestão, com governo, aposentados, trabalhadores e empregadores (gestão quadripartite).",
+  "detalhes": "Tem 15 membros nomeados pelo Presidente da República: seis do governo federal e três de cada grupo da sociedade civil (aposentados e pensionistas, trabalhadores em atividade e empregadores), indicados por centrais sindicais e confederações, com mandato de dois anos e uma recondução. Aprecia os planos, a proposta orçamentária e a prestação de contas da previdência antes do envio ao TCU.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-previdencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11356-2023",
+          "dispositivo": "Anexo I, art. 2º, III, a, e art. 20"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 194, parágrafo único, VII"
+    },
+    {
+      "ref": "norma:lei-8213-1991",
+      "dispositivo": "arts. 3º a 5º"
+    },
+    {
+      "ref": "norma:decreto-10995-2022",
+      "dispositivo": "Anexo I, art. 1º, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "1991-07-25",
+    "ate": null,
+    "nota": "Instituído pela Lei 8.213/1991."
+  },
+  "confianca": "oficial",
+  "notas": "É o exemplo federal mais claro da gestão quadripartite da seguridade social (CF, art. 194, parágrafo único, VII). Membros em 2026-10-01 não pesquisados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

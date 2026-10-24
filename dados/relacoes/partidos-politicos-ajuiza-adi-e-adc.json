@@ -1,0 +1,30 @@
+{
+  "id": "rel:partidos-politicos-ajuiza-adi-e-adc",
+  "tipo": "relacao",
+  "nome": "Partido político pode ajuizar ADI, ADO e ADC",
+  "relacao": "ajuiza",
+  "de": "org:partidos-politicos",
+  "para": "obj:adi-e-adc",
+  "condicao": "Só partido com representação no Congresso Nacional.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Pode propor ADI e ADO desde 1988; a ADC só desde a EC 45/2004, que deu a ela os mesmos legitimados da ADI."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, VIII"
+    },
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "art. 2º, VIII; art. 12-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

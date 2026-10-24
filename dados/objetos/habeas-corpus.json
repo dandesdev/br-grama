@@ -1,0 +1,26 @@
+{
+  "id": "obj:habeas-corpus",
+  "tipo": "objeto",
+  "nome": "Habeas corpus",
+  "resumo": "Ação para proteger quem sofre ou está ameaçado de sofrer violência ou coação na liberdade de ir e vir, por ilegalidade ou abuso de poder.",
+  "detalhes": "É gratuita (CF, art. 5º, LXXVII). O tribunal competente depende de quem é o coator ou o paciente: a CF reparte os casos entre STF, STJ, TRFs e juízes federais (arts. 102, 105, 108 e 109).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXVIII e LXXVII; art. 102, I, d e i, II, a; art. 105, I, c, II, a; art. 108, I, d; art. 109, VII"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "O rito está no Código de Processo Penal, não lido nem cadastrado nesta tarefa. Na Justiça Eleitoral, a negativa de habeas corpus pelo TRE ou pelo TSE é recorrível (art. 121, §§ 3º e 4º, V), o que já está nas relações de recurso do TSE e do STF. A CF exclui o habeas corpus contra punições disciplinares militares (art. 142, § 2º)."
+}

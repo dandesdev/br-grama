@@ -1,0 +1,30 @@
+{
+  "id": "rel:camara-legislativa-do-df-ajuiza-adi-e-adc",
+  "tipo": "relacao",
+  "nome": "Câmara Legislativa do DF pode ajuizar ADI, ADO e ADC",
+  "relacao": "ajuiza",
+  "de": "org:camara-legislativa-do-df",
+  "para": "obj:adi-e-adc",
+  "condicao": "Por meio da sua Mesa.",
+  "vigencia": {
+    "de": "1999-11-11",
+    "ate": null,
+    "nota": "A Lei 9.868 (art. 2º, IV) já dava a ADI à Mesa da Câmara Legislativa; a CF passou a citá-la, também para a ADC, com a EC 45/2004. Antes da lei, a posição não foi pesquisada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, IV"
+    },
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "art. 2º, IV; art. 12-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

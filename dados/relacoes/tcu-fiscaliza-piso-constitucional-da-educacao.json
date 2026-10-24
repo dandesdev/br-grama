@@ -1,0 +1,30 @@
+{
+  "id": "rel:tcu-fiscaliza-piso-constitucional-da-educacao",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza a aplicação mínima da União em educação",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "obj:piso-constitucional-da-educacao",
+  "condicao": "Cumprimento do art. 212 da CF pelos órgãos federais (18% da receita de impostos da União).",
+  "vigencia": {
+    "de": "2020-12-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 30, caput e III"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Lei 14.113/2020, art. 30, dá a fiscalização do art. 212 aos controles interno e externo; o recorte do TCU (órgãos federais) vem do inciso III. A fiscalização das contas federais pelo TCU já decorria da CF, art. 71.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

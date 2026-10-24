@@ -1,0 +1,34 @@
+{
+  "id": "rel:vereador-propoe-lei-municipal",
+  "tipo": "relacao",
+  "nome": "Iniciativa dos vereadores",
+  "relacao": "propoe",
+  "de": "cargo:arquetipo-municipal-vereador",
+  "para": "obj:lei-municipal",
+  "condicao": "Iniciativa geral, salvo nas matérias reservadas ao prefeito; comissões da Câmara também propõem.",
+  "fontes": [
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "art. 37, caput"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "art. 69"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas. O STF aplica aos municípios as reservas de iniciativa do art. 61, § 1º, da CF: lei de iniciativa parlamentar que cria despesa é válida se não tratar da estrutura ou das atribuições de órgãos nem do regime de servidores (Tema 917).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:arquetipo-estadual-governador-propoe-sumula-vinculante",
+  "tipo": "relacao",
+  "nome": "Governador pode propor súmula vinculante",
+  "relacao": "propoe",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "obj:sumula-vinculante",
+  "condicao": "Vale para o Governador de cada estado e para o do Distrito Federal. Pode propor a edição, a revisão ou o cancelamento.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Os legitimados da ADI podem provocar a súmula desde a EC 45/2004 (art. 103-A, § 2º); a Lei 11.417/2006 os repete."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, V; art. 103-A, § 2º"
+    },
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "art. 3º, X"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

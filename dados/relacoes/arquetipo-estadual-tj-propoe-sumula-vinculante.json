@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-tj-propoe-sumula-vinculante",
+  "tipo": "relacao",
+  "nome": "Tribunal de Justiça pode propor súmula vinculante",
+  "relacao": "propoe",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "obj:sumula-vinculante",
+  "condicao": "Pode propor a edição, a revisão ou o cancelamento.",
+  "vigencia": {
+    "de": "2007-03-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Legitimado acrescentado pela Lei 11.417/2006, em vigor três meses após a publicação (20/12/2006); a data exata é cálculo nosso."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "art. 3º, XI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

@@ -1,9 +1,9 @@
 ---
 id: f0-federacao
 escopo: "Fatia 0, lacunas da varredura: federação, estados e municípios, CF arts. 18, § 3º; 20, § 1º; 29; 35; 43; 144, § 10; 182; 236; ADCT, arts. 32 e 69"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -26,3 +26,12 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+- 2026-10-23 10:00 — iniciada; lidos CLAUDE.md, instrucoes-agentes, docs, quadro de f0-cobertura
+- 2026-10-23 23:05 — gravado fonte:stf-constituicao-e-o-supremo-art-35 (cópias do STF dos arts. 18, 20, 29, 35, 182 e 236 em pesquisa/brutos/stf/2026-10-23-federacao/)
+- 2026-10-23 23:12 — gravado proc:intervencao-estadual (CF arts. 35 e 36; Lei 8.625/1993; STF; CEs de SP, BA, PA e GO)
+- 2026-10-23 23:20 — gravados fonte:stf-constituicao-e-o-supremo-art-18 e proc:alteracao-territorial-de-estados (CF arts. 18, § 3º, 48, VI, 49, XV, 69; Lei 9.709/1998; ADI 2.650)
+- 2026-10-23 23:35 — gravadas norma:sp-sao-paulo-lei-organica-1990 e norma:rj-rio-de-janeiro-lei-organica-1990 (compilações antigas: até as Emendas 31/2008 e 20/2009; anotado nas normas)
+- 2026-10-23 23:40 — gravado obj:lei-municipal
+- 2026-10-23 23:48 — gravadas 7 relações da lei municipal: rel:eleitorado-municipal-propoe-lei-municipal, rel:vereador-propoe-lei-municipal, rel:prefeito-propoe-lei-municipal, rel:camara-municipal-delibera-lei-municipal, rel:prefeito-sanciona-lei-municipal, rel:prefeito-veta-lei-municipal, rel:camara-municipal-aprecia-veto-lei-municipal
+- 2026-10-23 23:55 — gravado proc:lei-municipal (CF art. 29; STF Temas 223 e 917; LOMs de SP e Rio)
+- 2026-10-24 00:05 — gravados norma:lei-10257-2001, fonte:stf-constituicao-e-o-supremo-art-182, obj:plano-diretor, rel:camara-municipal-delibera-plano-diretor

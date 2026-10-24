@@ -1,0 +1,39 @@
+{
+  "id": "rel:mec-coordena-sistema-federal-de-ensino",
+  "tipo": "relacao",
+  "nome": "O Ministério da Educação coordena, regula e supervisiona o sistema federal de ensino",
+  "relacao": "coordena",
+  "de": "org:ministerio-da-educacao",
+  "para": "org:sistema-federal-de-ensino",
+  "condicao": "Inclui autorizar, reconhecer, credenciar, supervisionar e avaliar cursos e instituições de educação superior do sistema federal, públicas e privadas.",
+  "vigencia": {
+    "de": "1996-12-23",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 9º, II e IX"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 5º, II"
+    },
+    {
+      "ref": "norma:lei-4024-1961",
+      "dispositivo": "art. 6º, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "As leis dão a tarefa à União; o MEC a exerce como órgão federal da educação (Lei 4.024/1961, art. 6º)."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

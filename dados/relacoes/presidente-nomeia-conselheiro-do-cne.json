@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-nomeia-conselheiro-do-cne",
+  "tipo": "relacao",
+  "nome": "Nomeação dos conselheiros do CNE",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:conselheiro-do-cne",
+  "condicao": "Escolhe e nomeia os conselheiros, pelo menos metade a partir de listas de entidades da sociedade civil; os membros natos também são nomeados por ele, como secretários do MEC.",
+  "vigencia": {
+    "de": "1995-11-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4024-1961",
+      "dispositivo": "art. 8º, caput e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

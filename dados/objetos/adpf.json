@@ -1,0 +1,32 @@
+{
+  "id": "obj:adpf",
+  "tipo": "objeto",
+  "nome": "Arguição de descumprimento de preceito fundamental",
+  "sigla": "ADPF",
+  "resumo": "Ação no STF para evitar ou reparar lesão a um preceito fundamental da Constituição causada por ato do Poder Público, inclusive lei municipal ou anterior a 1988.",
+  "detalhes": "Só cabe quando não houver outro meio eficaz (Lei 9.882, art. 4º, § 1º). Podem propô-la os mesmos legitimados da ADI, e qualquer interessado pode pedir ao PGR que a proponha (art. 2º, I e § 1º). A decisão vale para todos e vincula os demais órgãos do Poder Público (art. 10, § 3º).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, § 1º"
+    },
+    {
+      "ref": "norma:lei-9882-1999",
+      "dispositivo": "art. 1º, caput e parágrafo único, I; art. 2º, I e § 1º; art. 4º, § 1º; art. 10, § 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Prevista desde 1988 no parágrafo único do art. 102, transformado em § 1º pela EC 3/1993; regulamentada pela Lei 9.882/1999."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "\"Preceito fundamental\" não é definido na CF nem na Lei 9.882; quem diz quais são é a jurisprudência do STF, não pesquisada aqui. O art. 2º, § 1º, da Lei 9.882 remete ao inciso II, vetado; mesmo assim o texto em vigor prevê a representação ao PGR."
+}

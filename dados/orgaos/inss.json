@@ -1,0 +1,71 @@
+{
+  "id": "org:inss",
+  "tipo": "orgao",
+  "nome": "Instituto Nacional do Seguro Social",
+  "sigla": "INSS",
+  "resumo": "Autarquia federal que opera o Regime Geral de Previdência Social: reconhece o direito, concede e paga aposentadorias, pensões e demais benefícios, além de benefícios assistenciais.",
+  "detalhes": "O Regime Geral é contributivo e obrigatório para quem trabalha fora do serviço público efetivo; cobre incapacidade, idade avançada, maternidade, desemprego involuntário, morte e outros eventos. O INSS também paga o benefício assistencial de prestação continuada e gere o Fundo do Regime Geral de Previdência Social. É dirigido por um Presidente e cinco Diretores, e segue as diretrizes do Conselho Nacional de Previdência Social.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-previdencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11356-2023",
+          "dispositivo": "Anexo I, art. 2º, IV, a"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 43, I"
+        }
+      ],
+      "nota": "Autarquia vinculada ao Ministério da Previdência Social: há supervisão ministerial, não subordinação hierárquica. A posição segue a lista de entidades vinculadas da estrutura regimental do ministério."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 201; art. 248"
+    },
+    {
+      "ref": "norma:lei-8029-1990",
+      "dispositivo": "art. 17"
+    },
+    {
+      "ref": "norma:decreto-10995-2022",
+      "dispositivo": "Anexo I, arts. 1º, 2º e 5º"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 68, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-07-02",
+    "ate": null,
+    "nota": "Criado pelo Decreto 99.350, de 27/6/1990 (em vigor em 2/7/1990, hoje revogado pelo Decreto 569/1992), com base no art. 17 da Lei 8.029/1990, pela fusão do IAPAS com o INPS. Texto do decreto em pesquisa/brutos/planalto-leis/2026-10-23-seguridade/d99350.htm."
+  },
+  "confianca": "oficial",
+  "notas": "O Regime Geral de Previdência Social (CF, art. 201) não tem nó próprio: é o regime que o INSS opera. O art. 248 da CF, que aplica o teto do art. 37, XI, aos benefícios pagos pelo órgão responsável pelo Regime Geral, fica citado aqui. A arrecadação das contribuições previdenciárias é da Receita Federal (não modelada aqui). O INSS também mantém aposentadorias e pensões do regime próprio da União das autarquias e fundações (Decreto 10.995/2022, Anexo I, art. 2º, III).",
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-10995-2022",
+      "dispositivo": "Anexo I",
+      "nota": "estrutura regimental"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "INSS (gov.br)",
+      "url": "https://www.gov.br/inss/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

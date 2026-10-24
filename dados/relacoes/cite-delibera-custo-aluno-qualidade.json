@@ -1,0 +1,33 @@
+{
+  "id": "rel:cite-delibera-custo-aluno-qualidade",
+  "tipo": "relacao",
+  "nome": "A Cite pactua a metodologia do Custo Aluno Qualidade",
+  "relacao": "delibera",
+  "de": "org:cite",
+  "para": "obj:custo-aluno-qualidade",
+  "condicao": "Aprova a metodologia de cálculo, com base em estudos técnicos do Inep, e pactua o padrão mínimo de qualidade que serve de base ao CAQ; publica o resultado em resolução.",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Quórum de instalação de maioria absoluta, com presença mínima de três representantes de cada esfera; voto de qualidade da presidência (Portaria MEC 102/2026, art. 5º)."
+  },
+  "vigencia": {
+    "de": "2026-02-02",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 13, V e VI, e § 3º; art. 41, § 2º"
+    },
+    {
+      "ref": "norma:portaria-mec-102-2026",
+      "dispositivo": "arts. 5º e 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

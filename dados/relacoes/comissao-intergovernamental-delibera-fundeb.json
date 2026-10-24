@@ -1,0 +1,25 @@
+{
+  "id": "rel:comissao-intergovernamental-delibera-fundeb",
+  "tipo": "relacao",
+  "nome": "A Comissão Intergovernamental fixa as ponderações de distribuição do Fundeb",
+  "relacao": "delibera",
+  "de": "org:comissao-intergovernamental-de-financiamento-da-educacao-basica",
+  "para": "obj:fundeb",
+  "condicao": "Especifica todo ano as diferenças e ponderações do valor por aluno entre etapas, modalidades, jornada e tipos de escola, e as ligadas ao nível socioeconômico e à capacidade fiscal dos entes, dentro dos limites da lei.",
+  "vigencia": {
+    "de": "2020-12-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 17, § 2º; art. 18, I a VIII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

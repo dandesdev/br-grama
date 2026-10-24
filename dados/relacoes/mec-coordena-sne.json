@@ -1,0 +1,39 @@
+{
+  "id": "rel:mec-coordena-sne",
+  "tipo": "relacao",
+  "nome": "O Ministério da Educação coordena o Sistema Nacional de Educação",
+  "relacao": "coordena",
+  "de": "org:ministerio-da-educacao",
+  "para": "org:sistema-nacional-de-educacao",
+  "condicao": "Coordenação de sistemas de ensino de entes autônomos, sem subordinação.",
+  "vigencia": {
+    "de": "2025-11-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 5º, I; arts. 13, 25 e 47"
+    },
+    {
+      "ref": "norma:lei-4024-1961",
+      "dispositivo": "art. 6º, caput"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 8º, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A LC 220/2025, art. 5º, I, dá a coordenação do SNE à União. Atribuímos ao MEC porque ele exerce as atribuições do poder público federal em educação (Lei 4.024/1961, art. 6º) e porque a própria LC põe o MEC à frente da Cite, da Inde e da avaliação nacional (arts. 13, 25 e 47)."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

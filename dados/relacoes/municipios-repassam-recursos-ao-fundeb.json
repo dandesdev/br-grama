@@ -1,0 +1,30 @@
+{
+  "id": "rel:municipios-repassam-recursos-ao-fundeb",
+  "tipo": "relacao",
+  "nome": "Os municípios destinam ao Fundeb 20% das suas cotas de impostos transferidos",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:fundeb",
+  "condicao": "20% das cotas municipais do ICMS, do IPVA e do ITR e da parcela do FPM, entre outras. Os valores vão para o fundo do estado onde fica o município.",
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212-A, caput, I e II, c"
+    },
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 3º, II, III, V e VII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os impostos próprios dos municípios (IPTU, ISS, ITBI) não entram no Fundeb, mas contam para o piso de 25% (Lei 14.113/2020, art. 1º, parágrafo único, II): leitura nossa, porque o art. 3º não os lista.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

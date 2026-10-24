@@ -1,0 +1,38 @@
+{
+  "id": "rel:prefeito-propoe-lei-municipal",
+  "tipo": "relacao",
+  "nome": "Iniciativa do prefeito",
+  "relacao": "propoe",
+  "de": "cargo:arquetipo-municipal-prefeito",
+  "para": "obj:lei-municipal",
+  "condicao": "Iniciativa geral e iniciativa privativa nas matérias equivalentes às do art. 61, § 1º, da CF (cargos, remuneração e regime dos servidores, organização administrativa); pode pedir urgência.",
+  "fontes": [
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "art. 37, caput e § 2º; art. 38"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "arts. 69, 71 e 73"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 61, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas. Em SP, a matéria orçamentária também é de iniciativa privativa do prefeito (art. 37, § 2º, IV).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

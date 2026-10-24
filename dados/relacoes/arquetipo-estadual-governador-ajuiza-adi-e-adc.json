@@ -1,0 +1,30 @@
+{
+  "id": "rel:arquetipo-estadual-governador-ajuiza-adi-e-adc",
+  "tipo": "relacao",
+  "nome": "Governador pode ajuizar ADI, ADO e ADC",
+  "relacao": "ajuiza",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "obj:adi-e-adc",
+  "condicao": "Vale para o Governador de cada estado e para o do Distrito Federal.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Governador de estado: ADI e ADO desde 1988; ADC desde a EC 45/2004. O Governador do DF aparece na Lei 9.868 (art. 2º, V) desde 1999 e na CF desde a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, V"
+    },
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "art. 2º, V; art. 12-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

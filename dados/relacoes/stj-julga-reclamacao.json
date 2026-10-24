@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-julga-reclamacao",
+  "tipo": "relacao",
+  "nome": "STJ julga reclamação",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "obj:reclamacao",
+  "condicao": "Para preservar sua competência e garantir a autoridade de suas decisões.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, f"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-julga-mandado-de-injuncao",
+  "tipo": "relacao",
+  "nome": "STJ julga mandado de injunção",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "obj:mandado-de-injuncao",
+  "condicao": "Originariamente, quando a norma que falta cabe a órgão, entidade ou autoridade federal, da administração direta ou indireta, fora dos casos do STF e das Justiças Militar, Eleitoral, do Trabalho e Federal.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, h"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

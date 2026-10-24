@@ -1,0 +1,47 @@
+{
+  "id": "obj:fundo-nacional-de-saude",
+  "tipo": "objeto",
+  "nome": "Fundo Nacional de Saúde",
+  "sigla": "FNS",
+  "resumo": "Fundo do Ministério da Saúde que recebe os recursos federais do SUS e os transfere, fundo a fundo, aos fundos de saúde de estados e municípios.",
+  "detalhes": "Os recursos vêm do orçamento da seguridade social e de outras fontes. Os repasses a estados, DF e municípios são regulares e automáticos, sem convênio, com valores definidos pelo Ministério da Saúde por metodologia pactuada na CIT e aprovada pelo Conselho Nacional de Saúde. Cada ente mantém um fundo de saúde próprio, cuja movimentação é fiscalizada pelo conselho de saúde.",
+  "tipo_objeto": "fundo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:ministerio-da-saude"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, § 10; art. 198, § 1º"
+    },
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 33, caput e § 1º; art. 34"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "arts. 2º a 4º"
+    },
+    {
+      "ref": "norma:lc-141-2012",
+      "dispositivo": "arts. 12, 14, 17 e 18"
+    },
+    {
+      "ref": "norma:decreto-11798-2023",
+      "dispositivo": "Anexo I, art. 16"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Já existia quando a Lei 8.080/1990 o citou (art. 33, § 1º); a norma de criação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Gerido pela Diretoria-Executiva do FNS, na Secretaria-Executiva do Ministério da Saúde (Decreto 11.798/2023, Anexo I, art. 2º e art. 16). ADCT, art. 122 (transferências do FNS para a Covid-19 até 2023) é transitório esgotado. Os fundos estaduais e municipais de saúde não têm nó próprio. A Lei 8.142/1990 (art. 3º, § 2º) manda destinar pelo menos 70% dos repasses do art. 2º, IV, aos municípios e o restante aos estados; não conferimos como essa regra convive com os critérios de rateio da LC 141/2012 (art. 17), por isso ela não aparece no texto.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

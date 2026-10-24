@@ -1,0 +1,33 @@
+{
+  "id": "rel:uniao-repassa-cotas-salario-educacao-estados",
+  "tipo": "relacao",
+  "nome": "A União entrega aos estados as cotas estaduais do salário-educação",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Cotas estaduais da arrecadação do salário-educação (obj:tributo-salario-educacao), divididas conforme o número de alunos matriculados na educação básica da rede estadual. Vale também para o DF.",
+  "vigencia": {
+    "de": "2006-12-20",
+    "ate": null,
+    "nota": "Critério das matrículas incluído no art. 212, § 6º, pela EC 53/2006 (DOU de 20/12/2006, segundo o quadro de emendas do Planalto)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212, §§ 5º e 6º"
+    }
+  ],
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A CF não diz quem distribui as cotas; a contribuição é da União (obj:tributo-salario-educacao, esfera federal). O órgão que opera a distribuição não foi pesquisado."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "As cotas estaduais e municipais do salário-educação entram no cálculo do VAAT do Fundeb (CF, art. 212-A, § 1º, II).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

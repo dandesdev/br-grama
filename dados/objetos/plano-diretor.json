@@ -1,0 +1,37 @@
+{
+  "id": "obj:plano-diretor",
+  "tipo": "objeto",
+  "nome": "Plano diretor",
+  "resumo": "Lei municipal aprovada pela Câmara que ordena o crescimento da cidade; obrigatória para cidades com mais de 20 mil habitantes, entre outras.",
+  "detalhes": "É o instrumento básico da política urbana, que cabe ao município executar (art. 182, caput e § 1º). Deve cobrir todo o território do município, ser elaborado com audiências públicas e ser revisto pelo menos a cada dez anos (Lei 10.257/2001, art. 40). A função social da propriedade urbana é medida pelo que ele exige (art. 182, § 2º).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "municipal",
+  "relativo_a": [
+    "ente:arquetipo-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 182, caput e §§ 1º, 2º e 4º"
+    },
+    {
+      "ref": "norma:lei-10257-2001",
+      "dispositivo": "arts. 39 a 42-B; art. 52, VI e VII"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-182",
+      "dispositivo": "ADI 826; RE 607.940 (Tema 348)"
+    }
+  ],
+  "notas": "Além das cidades com mais de 20 mil habitantes (CF), a Lei 10.257/2001, art. 41, obriga as de regiões metropolitanas e aglomerações urbanas, as que querem usar os instrumentos do art. 182, § 4º, as de interesse turístico, as afetadas por grandes empreendimentos e as do cadastro de áreas de risco. A Constituição estadual não pode ampliar a obrigação (ADI 826, sobre o Amapá). O prefeito que impede as audiências ou não providencia a revisão decenal incorre em improbidade (art. 52, VI e VII). Leis orgânicas lidas: em SP, o plano diretor exige 3/5 dos vereadores (LOM, art. 40, § 4º, II) e cabe ao prefeito propô-lo (art. 70, X); no Rio, é lei complementar (LOM, art. 70, parágrafo único, V).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

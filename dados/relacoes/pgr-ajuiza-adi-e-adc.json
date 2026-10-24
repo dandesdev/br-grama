@@ -1,8 +1,8 @@
 {
-  "id": "rel:pgr-propoe-adi-e-adc",
+  "id": "rel:pgr-ajuiza-adi-e-adc",
   "tipo": "relacao",
-  "nome": "PGR pode propor ADI e ADC",
-  "relacao": "propoe",
+  "nome": "PGR pode ajuizar ADI, ADO e ADC",
+  "relacao": "ajuiza",
   "de": "cargo:procurador-geral-da-republica",
   "para": "obj:adi-e-adc",
   "condicao": "Pode propor as duas ações e deve ser ouvido antes em todas as ações de inconstitucionalidade.",
@@ -25,6 +25,6 @@
     "status": "verificado",
     "em": "2026-10-23",
     "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; CF, art. 103, VI e § 1º, e LC 75/1993, art. 46, parágrafo único, I conferido(s)"
+    "notas": "coletado em f0-funcoes-essenciais; CF, art. 103, VI e § 1º, e LC 75/1993, art. 46, parágrafo único, I conferido(s); verbo propoe → ajuiza (termo novo) e id renomeado pelo coordenador em 2026-10-23"
   }
 }

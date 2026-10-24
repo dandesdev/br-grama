@@ -1,0 +1,39 @@
+{
+  "id": "obj:reclamacao",
+  "tipo": "objeto",
+  "nome": "Reclamação",
+  "resumo": "Pedido feito diretamente a um tribunal para preservar sua competência, garantir a autoridade de suas decisões ou fazer cumprir súmula vinculante.",
+  "detalhes": "No STF e no STJ, a CF a prevê para proteger a competência e as decisões de cada tribunal (arts. 102, I, l, e 105, I, f). No STF cabe também contra ato administrativo ou decisão judicial que contrarie súmula vinculante ou a aplique mal: se procedente, o STF anula o ato ou cassa a decisão (art. 103-A, § 3º). O CPC a admite em qualquer tribunal (art. 988, § 1º).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, l; art. 103-A, § 3º; art. 105, I, f"
+    },
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:lei-9882-1999",
+      "dispositivo": "art. 13"
+    },
+    {
+      "ref": "norma:lei-13105-2015",
+      "dispositivo": "art. 988, caput, I a III, e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A reclamação por ofensa a súmula vinculante veio com a EC 45/2004 (art. 103-A, § 3º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "Contra ato ou omissão da administração pública, a reclamação por ofensa a súmula vinculante só cabe depois de esgotadas as vias administrativas (Lei 11.417, art. 7º, § 1º). Também cabe contra o descumprimento de decisão em ADPF (Lei 9.882, art. 13) e, pelo CPC, para garantir decisão do STF em controle concentrado (art. 988, III, redação da Lei 13.256/2016). Pode ser proposta pela parte interessada ou pelo Ministério Público (art. 988, caput). Lido no texto compilado do CPC guardado em pesquisa/brutos/planalto-leis/2026-10-17/l13105.htm. Só ligamos STF e STJ, que a CF nomeia."
+}

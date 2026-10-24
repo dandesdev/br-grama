@@ -1,0 +1,38 @@
+{
+  "id": "obj:custo-aluno-qualidade",
+  "tipo": "objeto",
+  "nome": "Custo Aluno Qualidade",
+  "sigla": "CAQ",
+  "resumo": "Valor de referência do investimento por aluno na educação básica, calculado a partir do padrão mínimo de qualidade pactuado entre União, estados e municípios.",
+  "detalhes": "A CF manda que o padrão mínimo de qualidade do ensino tenha o CAQ como referência (art. 211, § 7º). A Cite aprova a metodologia, com base em estudos do Inep, e o MEC faz o cálculo; o valor deve subir aos poucos para cumprir as metas de financiamento do PNE (LC 220/2025, arts. 13, VI, e 41).",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": "2020-08-27",
+    "ate": null,
+    "nota": "Previsto no art. 211, § 7º, incluído pela EC 108/2020 (DOU de 27/8/2020, segundo o quadro de emendas do Planalto). Regulado pela LC 220/2025 (arts. 13, VI, e 41)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 211, § 7º"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 5º, III; art. 13, V e VI; art. 41"
+    }
+  ],
+  "campos": {
+    "tipo_objeto": {
+      "confianca": "inferido",
+      "nota": "O CAQ é um valor de referência publicado em resolução, sem termo próprio no vocabulário; usamos 'documento'."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "Não achamos resolução da Cite que aprove a metodologia do CAQ até 2026-10-01 (busca do DOU em pesquisa/brutos/dou/2026-10-23/educacao/busca-cite.html). A Lei 15.388/2026 (PNE) também usa o CAQ como diretriz do financiamento (art. 17, III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

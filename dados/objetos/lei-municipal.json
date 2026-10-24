@@ -1,0 +1,33 @@
+{
+  "id": "obj:lei-municipal",
+  "tipo": "objeto",
+  "nome": "Lei municipal",
+  "resumo": "Lei aprovada pela Câmara Municipal e sancionada pelo prefeito, sobre assuntos de interesse local ou para suplementar leis federais e estaduais.",
+  "detalhes": "O município legisla sobre assuntos de interesse local e suplementa a legislação federal e estadual no que couber (art. 30, I e II). O processo segue a lei orgânica de cada município, que reproduz as linhas básicas do modelo federal, inclusive as reservas de iniciativa do prefeito (STF, RE 590.829, Tema 223).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "municipal",
+  "relativo_a": [
+    "ente:arquetipo-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, caput, V e XIII; art. 30, I e II"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+    }
+  ],
+  "notas": "Abrange a lei ordinária municipal. Leis orgânicas preveem também lei complementar municipal (ex.: Rio de Janeiro, art. 70), que não ganhou objeto próprio. A lei orgânica tem objeto próprio (obj:lei-organica-municipal).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

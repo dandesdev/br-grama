@@ -1,0 +1,34 @@
+{
+  "id": "rel:ministerio-da-saude-coordena-sus",
+  "tipo": "relacao",
+  "nome": "O Ministério da Saúde dirige o SUS no âmbito da União",
+  "relacao": "coordena",
+  "de": "org:ministerio-da-saude",
+  "para": "org:sistema-unico-de-saude",
+  "condicao": "Direção nacional do SUS: define e coordena os sistemas de vigilância e de alta complexidade, coopera técnica e financeiramente com estados e municípios e avalia o sistema em todo o país.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 198, I"
+    },
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 9º, I; art. 16"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 45, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-09-20",
+    "ate": null,
+    "nota": "Data de vigência da Lei 8.080/1990."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

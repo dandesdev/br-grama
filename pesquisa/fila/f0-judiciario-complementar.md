@@ -15,6 +15,7 @@ concluida_em: null
 - [ ] Precatórios (art. 100; ADCT, arts. 101 a 105 e 107-A): `obj:precatorio` e `proc:pagamento-de-precatorio`, com o regime especial vigente em 2026-10-01.
 - [ ] Controle externo da atividade policial pelo MP (art. 129, VII) e MPs de contas estaduais (art. 130).
 - [ ] Pendências do Judiciário: quem nomeia o quinto constitucional do TJDFT; alterações do RISTJ depois da ER 47/2024; `rel:stm-julga-recursos-da-justica-militar-da-uniao` deve citar também a lei de organização da Justiça Militar.
+- [ ] Restos do art. 102 apontados pela coleta do controle de constitucionalidade: conflitos federativos (I, f), conflitos de competência (I, o), extradição (I, g) e crime político (II, b); legitimados do mandado de injunção coletivo (Lei 13.300/2016, art. 12) e associações no mandado de segurança coletivo. O CPP e o rito do habeas corpus só se ajudarem.
 - [ ] Para cada artigo do escopo, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)

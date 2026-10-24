@@ -1,0 +1,34 @@
+{
+  "id": "rel:uniao-repassa-recursos-saude-municipios",
+  "tipo": "relacao",
+  "nome": "A União transfere recursos do SUS aos fundos municipais de saúde",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Do Fundo Nacional de Saúde aos fundos municipais de saúde, de forma regular e automática, sem convênio, pelo critério de necessidades de saúde da população. Para receber, o município precisa ter fundo, conselho e plano de saúde, entre outros requisitos; se não tiver, o estado administra os recursos.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, § 10; art. 198, § 3º, II"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "arts. 3º e 4º"
+    },
+    {
+      "ref": "norma:lc-141-2012",
+      "dispositivo": "arts. 17 e 18"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 8.142/1990 (art. 3º, § 2º) manda destinar pelo menos 70% dos repasses do art. 2º, IV, aos municípios e o restante aos estados; não conferimos como essa regra convive com os critérios de rateio da LC 141/2012 (art. 17), por isso ela não aparece no texto.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "org:sistema-unico-de-saude",
+  "tipo": "orgao",
+  "nome": "Sistema Único de Saúde",
+  "sigla": "SUS",
+  "resumo": "Rede única formada pelas ações e serviços públicos de saúde da União, dos estados, do DF e dos municípios, com direção única em cada esfera.",
+  "detalhes": "A direção é exercida pelo Ministério da Saúde na União e pelas secretarias de saúde nos estados, no DF e nos municípios. Cada esfera tem um conselho e uma conferência de saúde, com participação da comunidade. Serviços privados podem participar de forma complementar, por contrato ou convênio.",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 198, caput, I a III e § 1º; art. 199, § 1º; art. 200"
+    },
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "arts. 4º, 8º e 9º"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Previsto na CF de 1988 (art. 198); organizado pela Lei 8.080/1990, em vigor desde 20/9/1990."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema', como o Susp: órgãos de todas as esferas, sem hierarquia própria. Competências do art. 200 (vigilância sanitária e epidemiológica, controle de produtos, saúde do trabalhador, saneamento, alimentos, substâncias tóxicas e radioativas) ficam aqui como nota; a vigilância sanitária federal tem nó próprio em org:anvisa. Integra a seguridade social (CF, art. 194), que não tem nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

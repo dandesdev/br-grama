@@ -1,0 +1,54 @@
+{
+  "id": "org:cite",
+  "tipo": "orgao",
+  "nome": "Comissão Intergestores Tripartite da Educação",
+  "sigla": "Cite",
+  "resumo": "Colegiado em que MEC, secretários estaduais e secretários municipais de educação negociam e pactuam a política de educação básica, o padrão mínimo de qualidade e o Custo Aluno Qualidade.",
+  "detalhes": "Tem 18 membros em partes iguais: seis da União, com o Ministro da Educação na presidência; seis secretários estaduais, entre eles o presidente do Consed; e seis representantes municipais: o presidente da Undime, quatro dirigentes indicados por ela e o presidente do Consec. Suas pactuações sobre o padrão mínimo de qualidade e a metodologia do CAQ viram resoluções; as demais orientam os entes, sem obrigá-los.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:sistema-nacional-de-educacao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-220-2025",
+          "dispositivo": "art. 11, I; art. 12, I"
+        },
+        {
+          "ref": "norma:portaria-mec-102-2026",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A LC 220/2025 a define como instância permanente de pactuação do SNE. O Regimento Interno a vincula ao MEC só para apoio administrativo e operacional (Resolução Cite 1/2026, Anexo, art. 1º); não a pusemos dentro do MEC porque reúne representantes dos três níveis da Federação."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "arts. 5º, VIII, 12 e 13"
+    },
+    {
+      "ref": "norma:portaria-mec-102-2026",
+      "dispositivo": "arts. 1º a 5º e 8º"
+    },
+    {
+      "ref": "norma:cite-resolucao-1-2026",
+      "dispositivo": "Anexo, arts. 1º e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-02-02",
+    "ate": null,
+    "nota": "Instituída pela Portaria MEC 102/2026, em vigor na publicação (DOU de 2/2/2026)."
+  },
+  "confianca": "oficial",
+  "notas": "Decide por maioria simples, com quórum de instalação de maioria absoluta e voto de qualidade da presidência (Portaria MEC 102/2026, art. 5º). FNDE, Inep e Capes dão apoio técnico, sem voto (LC 220/2025, art. 13, § 1º; Portaria, art. 5º, § 6º). Comissões tripartites de educação criadas por lei federal são subcomissões dela (LC, art. 12, § 2º). Em cada estado há uma comissão bipartite (Cibe), criada por ato do Executivo estadual e coordenada pela Secretaria Estadual de Educação (LC, arts. 12, II, e 14), sem nó no mapa. Na busca do DOU (2026-01-01 a 2026-09-30) a única resolução da Cite achada é a do Regimento Interno.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

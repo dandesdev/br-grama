@@ -1,0 +1,26 @@
+{
+  "id": "rel:stf-julga-habeas-corpus",
+  "tipo": "relacao",
+  "nome": "STF julga habeas corpus",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "obj:habeas-corpus",
+  "condicao": "Originariamente, quando o paciente tem foro no STF (Presidente, Vice, congressistas, ministros do STF, PGR, Ministros de Estado, Comandantes militares, membros dos Tribunais Superiores e do TCU, chefes de missão diplomática permanente), quando o coator é Tribunal Superior, ou quando coator ou paciente está sujeito diretamente à jurisdição do STF. Em recurso ordinário, quando um Tribunal Superior o nega em única instância.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O caso do coator Tribunal Superior é da EC 22/1999. A menção aos Comandantes da Marinha, do Exército e da Aeronáutica é da EC 23/1999."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, b a d e i; II, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-comissao-intergestores-bipartite-integra-sus",
+  "tipo": "relacao",
+  "nome": "A CIB é foro de pactuação do SUS no estado",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-comissao-intergestores-bipartite",
+  "para": "org:sistema-unico-de-saude",
+  "condicao": "Foro de negociação e pactuação entre o gestor estadual e os gestores municipais.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-A"
+    },
+    {
+      "ref": "norma:decreto-7508-2011",
+      "dispositivo": "art. 30, II"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-29",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "id": "rel:conselho-federal-da-oab-propoe-adi-e-adc",
+  "id": "rel:conselho-federal-da-oab-ajuiza-adi-e-adc",
   "tipo": "relacao",
-  "nome": "Conselho Federal da OAB pode propor ADI e ADC",
-  "relacao": "propoe",
+  "nome": "Conselho Federal da OAB pode ajuizar ADI, ADO e ADC",
+  "relacao": "ajuiza",
   "de": "org:conselho-federal-da-oab",
   "para": "obj:adi-e-adc",
   "condicao": "É um dos legitimados do art. 103 da CF.",
@@ -25,6 +25,6 @@
     "status": "verificado",
     "em": "2026-10-23",
     "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; CF, art. 103, VII, e Lei 8.906/1994, art. 54, XIV, conferidos"
+    "notas": "coletado em f0-funcoes-essenciais; CF, art. 103, VII, e Lei 8.906/1994, art. 54, XIV, conferidos; verbo propoe → ajuiza (termo novo) e id renomeado pelo coordenador em 2026-10-23"
   }
 }

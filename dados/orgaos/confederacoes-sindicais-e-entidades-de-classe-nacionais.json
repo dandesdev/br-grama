@@ -1,0 +1,39 @@
+{
+  "id": "org:confederacoes-sindicais-e-entidades-de-classe-nacionais",
+  "tipo": "orgao",
+  "nome": "Confederações sindicais e entidades de classe de âmbito nacional",
+  "resumo": "Entidades da sociedade civil que a Constituição autoriza a propor ações de controle de constitucionalidade no STF: confederações de sindicatos e entidades nacionais de categorias.",
+  "detalhes": "Uma confederação sindical reúne pelo menos três federações e tem sede na Capital da República (CLT, art. 535). Além da ADI, da ADO e da ADC (CF, art. 103, IX), podem propor ADPF e súmula vinculante (Lei 9.882, art. 2º, I; Lei 11.417, art. 3º, VIII).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, IX"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 535, caput"
+    },
+    {
+      "ref": "norma:lei-9882-1999",
+      "dispositivo": "art. 2º, I"
+    },
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "art. 3º, VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "Conjunto criado nesta tarefa para ser a ponta das relações propoe do art. 103, IX, como org:partidos-politicos faz para o inciso VIII. Não lista as entidades. Quais entidades se enquadram (âmbito nacional, ligação entre a finalidade da entidade e a norma atacada) é decidido pelo STF caso a caso; essa jurisprudência não foi pesquisada. As organizações sindicais e associações que podem impetrar mandado de segurança e mandado de injunção coletivos (CF, art. 5º, LXX, b; Lei 13.300, art. 12, III) formam grupo mais amplo e não estão aqui."
+}

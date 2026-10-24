@@ -1,0 +1,47 @@
+{
+  "id": "obj:fundeb",
+  "tipo": "objeto",
+  "nome": "Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação",
+  "sigla": "Fundeb",
+  "resumo": "Um fundo em cada estado e no DF, formado por 20% de impostos estaduais e municipais e completado pela União, que divide o dinheiro da educação básica por número de alunos.",
+  "detalhes": "Os recursos são repartidos entre o governo estadual e seus municípios conforme as matrículas na educação básica presencial de cada rede, na área de atuação prioritária de cada um (CF, art. 212-A, III). A União acrescenta no mínimo 23% do total dos fundos, em três parcelas (VAAF, VAAT e VAAR). Pelo menos 70% de cada fundo paga os profissionais da educação básica em exercício (art. 212-A, XI).",
+  "tipo_objeto": "fundo",
+  "esfera": "estadual",
+  "relativo_a": [
+    "ente:arquetipo-estadual",
+    "ente:df",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null,
+    "nota": "Fundeb permanente, incluído na CF pela EC 108/2020 (art. 212-A) e regulamentado pela Lei 14.113/2020, que revogou a Lei 11.494/2007 (Fundeb anterior) a partir de 1º/1/2021 (art. 53). A complementação da União cresce desde 1º/1/2021 e chega a 23% no sexto ano, 2026 (ADCT, art. 60, VI)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212-A, caput e I a XV"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, arts. 60 e 60-A"
+    },
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "arts. 1º, 3º, 4º, 5º, 11, 21 e 26"
+    }
+  ],
+  "campos": {
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "São 27 fundos de natureza contábil, um no âmbito de cada estado e do DF (CF, art. 212-A, I), que também recebem recursos dos municípios e da União. Marcamos 'estadual' pelo âmbito do fundo."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "Fontes dos 20% (Lei 14.113/2020, art. 3º): ITCMD, ICMS e IPVA, incluídas as cotas municipais do ICMS e do IPVA; a cota municipal do ITR; as parcelas do IR e do IPI no FPE e no FPM; o IPI-exportação; e, desde a LC 227/2026, a parcela estadual do IBS, entre outras. A partir de 2026, ao menos 4% de cada fundo vai para criar matrículas em tempo integral (CF, art. 212-A, XV, incluído pela EC 135/2024). Os critérios de distribuição devem ser revistos no sexto ano (2026) e depois a cada 10 anos (ADCT, art. 60-A); não achamos lei de revisão publicada até 2026-10-01. Cada ente tem um conselho de acompanhamento e controle social do fundo (Lei 14.113/2020, arts. 33 e 34), sem nó no mapa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

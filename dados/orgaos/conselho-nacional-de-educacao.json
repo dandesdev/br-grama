@@ -1,0 +1,65 @@
+{
+  "id": "org:conselho-nacional-de-educacao",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Educação",
+  "sigla": "CNE",
+  "resumo": "Colegiado do Ministério da Educação com funções normativas, deliberativas e de assessoramento ao Ministro. Delibera, por exemplo, sobre as diretrizes curriculares nacionais.",
+  "detalhes": "Tem duas câmaras, de Educação Básica e de Educação Superior, com 12 conselheiros cada. Acompanha a execução do Plano Nacional de Educação e decide sobre diretrizes curriculares e normas de credenciamento de faculdades e universidades. Suas deliberações só valem depois de homologadas pelo Ministro da Educação (Lei 9.131/1995, art. 2º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-educacao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-12769-2025",
+          "dispositivo": "Anexo I, art. 2º, III; art. 54"
+        }
+      ],
+      "nota": "Órgão colegiado na estrutura regimental do Ministério da Educação."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4024-1961",
+      "dispositivo": "arts. 6º, § 1º, 7º, 8º e 9º (redação da Lei 9.131/1995)"
+    },
+    {
+      "ref": "norma:lei-9131-1995",
+      "dispositivo": "art. 2º"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 9º, § 1º"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 15, II, e § 5º"
+    },
+    {
+      "ref": "norma:decreto-12769-2025",
+      "dispositivo": "Anexo I, art. 2º, III; art. 54"
+    }
+  ],
+  "vigencia": {
+    "de": "1995-11-25",
+    "ate": null,
+    "incerta": true,
+    "nota": "Estrutura atual dada pela Lei 9.131/1995 (DOU de 25/11/1995), conversão da MP 1.159/1995. A data da MP, que pode ter criado o Conselho antes, não foi conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Instância normativa do SNE (LC 220/2025, art. 15, II); coordena o Fórum dos Conselhos de Educação dos estados, do DF e dos municípios, instituído por ato do Ministro (art. 15, § 5º). Presidente eleito pelos pares para mandato de dois anos, sem reeleição imediata; o Ministro preside as sessões a que comparece (Lei 4.024/1961, art. 7º, §§ 3º e 4º). A Lei 4.024/1961 ainda usa o nome antigo do órgão, 'Ministério da Educação e do Desporto'.",
+  "mais_informacoes": [
+    {
+      "titulo": "Conselho Nacional de Educação (gov.br)",
+      "url": "https://www.gov.br/mec/pt-br/cne"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rel:prefeito-sanciona-lei-municipal",
+  "tipo": "relacao",
+  "nome": "Sanção das leis municipais",
+  "relacao": "sanciona",
+  "de": "cargo:arquetipo-municipal-prefeito",
+  "para": "obj:lei-municipal",
+  "condicao": "Sanciona o projeto aprovado pela Câmara, se concordar; se não, veta. Passados 15 dias úteis sem veto, o projeto é tido como sancionado.",
+  "fontes": [
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "art. 42, caput e § 3º"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "art. 79, caput e § 3º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas. No Rio, o silêncio importa sanção (art. 79, § 3º); em SP, passado o prazo, a lei vai à promulgação (art. 42, §§ 3º e 7º).",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

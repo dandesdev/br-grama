@@ -1,0 +1,41 @@
+{
+  "id": "rel:camara-municipal-aprecia-veto-lei-municipal",
+  "tipo": "relacao",
+  "nome": "Apreciação do veto do prefeito",
+  "relacao": "aprecia-veto",
+  "de": "org:arquetipo-municipal-camara-municipal",
+  "para": "obj:lei-municipal",
+  "condicao": "Mantém ou derruba o veto em 30 dias; derrubar exige a maioria absoluta dos vereadores. Vencido o prazo, o veto tranca a pauta.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Maioria absoluta dos vereadores para derrubar o veto (LOM de SP, art. 42, § 5º; LOM do Rio, art. 79, § 4º)."
+  },
+  "depende_de": [
+    "rel:prefeito-veta-lei-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "art. 42, §§ 4º e 5º"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "art. 79, §§ 4º e 6º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 66, §§ 4º e 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

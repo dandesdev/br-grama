@@ -1,0 +1,29 @@
+{
+  "id": "rel:partidos-politicos-ajuiza-mandado-de-seguranca",
+  "tipo": "relacao",
+  "nome": "Partido político pode impetrar mandado de segurança coletivo",
+  "relacao": "ajuiza",
+  "de": "org:partidos-politicos",
+  "para": "obj:mandado-de-seguranca",
+  "condicao": "Só o mandado de segurança coletivo, e só partido com representação no Congresso Nacional, em defesa dos seus integrantes ou da finalidade partidária.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXX, a"
+    },
+    {
+      "ref": "norma:lei-12016-2009",
+      "dispositivo": "art. 21, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

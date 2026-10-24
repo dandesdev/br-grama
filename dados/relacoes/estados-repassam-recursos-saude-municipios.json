@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-repassam-recursos-saude-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados transferem recursos de saúde aos fundos municipais de saúde",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Direto aos fundos municipais de saúde, de forma regular e automática, pelo critério de necessidades de saúde da população, conforme o plano estadual de saúde.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, § 10; art. 198, § 3º, II"
+    },
+    {
+      "ref": "norma:lc-141-2012",
+      "dispositivo": "arts. 19 e 20"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-01-16",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -1,29 +1,33 @@
 {
   "id": "obj:adi-e-adc",
   "tipo": "objeto",
-  "nome": "Ação direta de inconstitucionalidade e ação declaratória de constitucionalidade",
-  "sigla": "ADI e ADC",
-  "resumo": "Ações propostas diretamente no STF para declarar uma lei ou ato normativo inconstitucional (ADI) ou constitucional (ADC).",
-  "detalhes": "Só podem ser propostas pelos legitimados do art. 103 da CF, entre eles o Procurador-Geral da República e o Conselho Federal da OAB. O PGR é ouvido antes em todas elas, e o Advogado-Geral da União defende o ato questionado na ADI (art. 103, §§ 1º e 3º).",
+  "nome": "Ação direta de inconstitucionalidade (por ação ou por omissão) e ação declaratória de constitucionalidade",
+  "sigla": "ADI, ADO e ADC",
+  "resumo": "Ações propostas diretamente no STF para declarar uma lei ou ato normativo inconstitucional (ADI) ou constitucional (ADC), ou para apontar a falta de norma que a Constituição exige (ADO).",
+  "detalhes": "Só os legitimados do art. 103 da CF podem propô-las. O PGR é ouvido antes, e o Advogado-Geral da União defende o ato questionado na ADI (art. 103, §§ 1º e 3º). Na ADO, o STF avisa o Poder omisso; se a omissão for de órgão administrativo, ele tem 30 dias para agir (art. 103, § 2º).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null,
-    "nota": "A ADC foi criada pela EC 3/1993; a redação atual do art. 103, que dá os mesmos legitimados às duas ações, é da EC 45/2004."
+    "nota": "A ADC foi criada pela EC 3/1993; a redação atual do art. 103, que dá os mesmos legitimados às duas ações, é da EC 45/2004. A ADO está no art. 103, § 2º, desde 1988; seu rito entrou na Lei 9.868 pela Lei 12.063/2009."
   },
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 102, I, a; art. 103, caput, I a IX, §§ 1º e 3º"
+      "dispositivo": "art. 102, I, a; art. 103, caput, I a IX, §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "arts. 2º, 12-A e 12-H"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; CF, arts. 102, I, a (marca da EC 3/1993), e 103, caput, I a IX, §§ 1º e 3º (este em vigor; só o § 4º foi revogado pela EC 45/2004), conferidos"
+    "tarefa": "f0-controle-constitucionalidade",
+    "notas": "verificado antes em verificacao-f0-funcoes-essenciais (2026-10-23); ampliado nesta tarefa para incluir a ADO: nome, sigla, resumo, detalhes, fontes, nota de vigência e notas mudaram e precisam de nova conferência"
   },
-  "notas": "Criado para ligar os legitimados do art. 103 (relações propoe). O alvo do controle continua sendo obj:lei-ou-ato-normativo-federal-ou-estadual (rel:stf-controla-constitucionalidade-leis-e-atos). A EC 3/1993 vem da marca de redação no art. 102, I, a, do texto do Planalto; a emenda não foi cadastrada."
+  "notas": "Criado para ligar os legitimados do art. 103 (relações propoe). O alvo do controle continua sendo obj:lei-ou-ato-normativo-federal-ou-estadual (rel:stf-controla-constitucionalidade-leis-e-atos). A EC 3/1993 vem da marca de redação no art. 102, I, a, do texto do Planalto; a emenda não foi cadastrada. Em f0-controle-constitucionalidade a ação direta de inconstitucionalidade por omissão (ADO) entrou neste objeto, em vez de virar objeto próprio: a CF a trata no mesmo art. 103 (caput e § 2º) como espécie de ação direta, e a Lei 9.868 (art. 12-A) dá a ela os mesmos legitimados da ADI e da ADC. Assim as relações propoe valem para as três. A Lei 9.868, art. 13, ainda lista só quatro legitimados para a ADC (redação de 1999); vale a CF, que desde a EC 45/2004 dá à ADC os legitimados da ADI."
 }

@@ -1,0 +1,24 @@
+{
+  "id": "rel:sistema-federal-de-ensino-integra-sne",
+  "tipo": "relacao",
+  "nome": "Integra o Sistema Nacional de Educação",
+  "relacao": "integra",
+  "de": "org:sistema-federal-de-ensino",
+  "para": "org:sistema-nacional-de-educacao",
+  "vigencia": {
+    "de": "2025-11-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

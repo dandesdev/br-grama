@@ -1,0 +1,283 @@
+{
+  "id": "proc:lei-municipal",
+  "tipo": "processo",
+  "nome": "Processo legislativo da lei municipal",
+  "resumo": "Caminho de um projeto de lei no município típico: segue as linhas básicas do processo federal, numa Casa só, a Câmara Municipal, com sanção ou veto do prefeito.",
+  "detalhes": "A CF manda cada município reger-se por lei orgânica (art. 29) e prevê a iniciativa popular municipal (art. 29, XIII). O STF aplica aos municípios as reservas de iniciativa do art. 61, § 1º (RE 590.829, Tema 223; Tema 917). Cada etapa remete à etapa equivalente de proc:lei-ordinaria; prazos e quóruns exatos estão na lei orgânica e no regimento de cada Câmara.",
+  "forma": "linha",
+  "produz": "obj:lei-municipal",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:arquetipo-municipal-vereador",
+        "cargo:arquetipo-municipal-prefeito",
+        "org:arquetipo-municipal-eleitorado"
+      ],
+      "acao": "Apresenta o projeto de lei à Câmara Municipal",
+      "detalhes": "Vereadores e comissões da Câmara têm iniciativa geral. O prefeito tem iniciativa privativa nas matérias equivalentes às do art. 61, § 1º (cargos, remuneração e regime dos servidores, organização administrativa). A iniciativa popular exige pelo menos 5% do eleitorado (art. 29, XIII).",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, XIII; art. 61, § 1º"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+          "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+        },
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 37; art. 44, I"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "arts. 69 e 71; art. 80, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-votacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-votacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "Comissões e Plenário da Câmara Municipal examinam e votam o projeto; não há casa revisora",
+      "detalhes": "O rito segue a lei orgânica e o regimento da Câmara (art. 29, XI). Em SP e no Rio, os projetos passam por dois turnos ou duas discussões; em SP, aprova-se por maioria dos presentes, salvo as matérias em que a lei orgânica exige maioria absoluta ou 3/5.",
+      "remete_a": "proc:lei-ordinaria",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Regra geral em SP: maioria dos vereadores presentes, com a maioria absoluta presente (LOM, art. 40, caput e § 1º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 29, XI"
+        },
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 40"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 78"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sancao-ou-veto",
+          "quando": "Aprovado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "sancao-ou-veto",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-municipal-prefeito"
+      ],
+      "acao": "O prefeito sanciona ou veta, no todo ou em parte, o projeto aprovado",
+      "detalhes": "Em SP e no Rio, o prazo é de 15 dias úteis, e os motivos do veto vão ao presidente da Câmara em 48 horas, como no art. 66, § 1º. Passado o prazo sem veto, o projeto segue para promulgação.",
+      "remete_a": "proc:lei-ordinaria",
+      "prazo": {
+        "texto": "15 dias úteis a contar do recebimento (SP e Rio de Janeiro)",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "recebimento do projeto aprovado",
+        "efeito": "No Rio, o silêncio importa sanção (art. 79, § 3º); em SP, o projeto segue à promulgação (art. 42, §§ 3º e 7º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 42, caput e §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 79, caput e §§ 1º a 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-e-publicacao",
+          "quando": "Sancionado, expressa ou tacitamente"
+        },
+        {
+          "para": "apreciacao-do-veto",
+          "quando": "Vetado, no todo ou em parte"
+        }
+      ]
+    },
+    {
+      "id": "apreciacao-do-veto",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "A Câmara Municipal mantém ou derruba o veto",
+      "detalhes": "Em SP e no Rio, a Câmara tem 30 dias e só derruba o veto pela maioria absoluta dos vereadores; vencido o prazo, o veto passa à frente das demais proposições.",
+      "remete_a": "proc:lei-ordinaria",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos vereadores para derrubar o veto."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, §§ 4º a 6º"
+        },
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 42, §§ 4º e 5º"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 79, §§ 4º e 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-e-publicacao",
+          "quando": "Veto derrubado"
+        },
+        {
+          "para": "veto-mantido",
+          "quando": "Veto mantido"
+        }
+      ]
+    },
+    {
+      "id": "veto-mantido",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "O veto é mantido e a parte vetada não entra na lei",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 42, § 5º"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 79, § 4º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "promulgacao-e-publicacao",
+      "atores": [
+        "cargo:arquetipo-municipal-prefeito",
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "O prefeito promulga a lei; se não o fizer em 48 horas, o presidente da Câmara promulga",
+      "detalhes": "Em SP e no Rio, na sanção tácita ou com o veto derrubado, se o prefeito não promulgar, promulga o presidente da Câmara e, depois dele, outro membro da Mesa, como no art. 66, § 7º.",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 66, §§ 5º e 7º"
+        },
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 42, §§ 6º e 7º"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 79, §§ 5º e 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "vigencia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "vigencia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A lei entra em vigor na data que ela fixar; se não fixar, 45 dias depois de publicada",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:lindb",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "O projeto rejeitado é arquivado",
+      "remete_a": "proc:lei-ordinaria",
+      "fontes": [
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 43"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 74"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, caput, XI e XIII; art. 30, I e II; arts. 61 a 67"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
+      "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+    },
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "arts. 37 a 44"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "arts. 69 a 80"
+    }
+  ],
+  "campos": {
+    "etapas": {
+      "confianca": "oficial",
+      "nota": "Etapas conferidas nas leis orgânicas de São Paulo e do Rio de Janeiro, que as preveem expressamente no molde do art. 66 da CF; os textos compilados lidos vão até a Emenda 31/2008 (SP) e a Emenda 20/2009 (Rio). As demais leis orgânicas não foram lidas; o STF aplica aos municípios as reservas de iniciativa do modelo federal."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  },
+  "notas": "Pedido da tarefa: processo legislativo municipal por simetria, como proc:lei-estadual. A fonte da simetria é a compilação do STF sobre o art. 61 (RE 590.829: a lei orgânica que regula direitos de servidores afronta a iniciativa do prefeito; Tema 917, aplicado a leis municipais no RE 1.498.771). A lei complementar municipal e a emenda à lei orgânica não foram modeladas como processos (a emenda à lei orgânica, em SP, exige 2/3 dos membros: LOM, art. 40, § 5º, III). A etapa arquivamento cita, em SP, a rejeição pelo parecer contrário de todas as comissões (art. 43) e, no Rio, a regra da matéria rejeitada (art. 74)."
+}

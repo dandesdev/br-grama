@@ -1,0 +1,57 @@
+{
+  "id": "org:anvisa",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Vigilância Sanitária",
+  "sigla": "Anvisa",
+  "resumo": "Autarquia federal que regula, controla e fiscaliza produtos e serviços que envolvem risco à saúde, como medicamentos, alimentos e cosméticos, e coordena o sistema nacional de vigilância sanitária.",
+  "detalhes": "Autoriza o funcionamento de fabricantes, distribuidores e importadores, registra produtos, fiscaliza portos, aeroportos e fronteiras e arrecada a taxa de fiscalização de vigilância sanitária. É dirigida por uma Diretoria Colegiada de cinco membros, indicados e nomeados pelo Presidente da República após aprovação do Senado, com mandato de cinco anos sem recondução.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-9782-1999",
+          "dispositivo": "art. 3º"
+        },
+        {
+          "ref": "norma:decreto-11798-2023",
+          "dispositivo": "Anexo I, art. 2º, V, a, 1"
+        }
+      ],
+      "nota": "Autarquia sob regime especial vinculada ao Ministério da Saúde: há supervisão ministerial, não subordinação hierárquica. A posição segue a lista de entidades vinculadas da estrutura regimental do ministério."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 200, I, II, VI e VII; art. 52, III, f"
+    },
+    {
+      "ref": "norma:lei-9782-1999",
+      "dispositivo": "arts. 1º a 3º, 7º, 8º, 10 e 11"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-01-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 9.782/1999. A agência foi criada antes, pela MP 1.791/1998 (data não conferida), e só passou a exercer as atribuições após publicar o regimento interno (art. 30)."
+  },
+  "confianca": "oficial",
+  "notas": "Exemplo de agência reguladora da saúde (D07). A Agência Nacional de Saúde Suplementar (ANS), também vinculada ao Ministério da Saúde, não foi modelada. Cargos da Diretoria Colegiada sem nó próprio.",
+  "mais_informacoes": [
+    {
+      "titulo": "Anvisa (gov.br)",
+      "url": "https://www.gov.br/anvisa/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

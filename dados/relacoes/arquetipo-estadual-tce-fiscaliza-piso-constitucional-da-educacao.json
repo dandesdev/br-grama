@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-tce-fiscaliza-piso-constitucional-da-educacao",
+  "tipo": "relacao",
+  "nome": "O tribunal de contas fiscaliza a aplicação mínima do estado e dos municípios em educação",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "obj:piso-constitucional-da-educacao",
+  "condicao": "Cumprimento dos 25% do art. 212 da CF pelos entes sob sua jurisdição.",
+  "vigencia": {
+    "de": "2020-12-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 30, caput e II"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF manda a lei dispor sobre a fiscalização das despesas com educação nos estados, no DF e nos municípios (art. 212, § 9º, incluído pela EC 108/2020).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

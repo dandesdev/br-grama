@@ -1,0 +1,31 @@
+{
+  "id": "obj:sumula-vinculante",
+  "tipo": "objeto",
+  "nome": "Súmula vinculante",
+  "resumo": "Enunciado aprovado pelo STF, por dois terços dos ministros, que obriga os demais juízes e a administração pública de todas as esferas.",
+  "detalhes": "Trata da validade, da interpretação ou da eficácia de normas sobre as quais haja controvérsia atual entre órgãos judiciários, ou entre eles e a administração, que gere grave insegurança jurídica e muitos processos iguais (CF, art. 103-A, § 1º). Só depois de reiteradas decisões sobre matéria constitucional. Quem a contraria pode ser alvo de reclamação ao STF (§ 3º).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-A, caput e §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Art. 103-A incluído pela EC 45/2004; regulamentado pela Lei 11.417/2006."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "tipo_objeto ato-normativo é aproximação: a súmula não cria lei nova, mas fixa uma interpretação com efeito geral e vinculante. O PGR se manifesta antes nas propostas que não fez (Lei 11.417, art. 2º, § 2º). A mesma decisão de dois terços revisa ou cancela a súmula (art. 2º, § 3º)."
+}

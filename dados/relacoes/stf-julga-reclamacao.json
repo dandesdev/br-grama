@@ -1,0 +1,34 @@
+{
+  "id": "rel:stf-julga-reclamacao",
+  "tipo": "relacao",
+  "nome": "STF julga reclamação",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "obj:reclamacao",
+  "condicao": "Para preservar sua competência e garantir a autoridade de suas decisões, e contra ato administrativo ou decisão judicial que contrarie súmula vinculante ou a aplique indevidamente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A reclamação por ofensa a súmula vinculante veio com a EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, l; art. 103-A, § 3º"
+    },
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:lei-9882-1999",
+      "dispositivo": "art. 13"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

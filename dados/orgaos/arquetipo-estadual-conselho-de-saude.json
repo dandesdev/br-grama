@@ -1,0 +1,53 @@
+{
+  "id": "org:arquetipo-estadual-conselho-de-saude",
+  "tipo": "orgao",
+  "nome": "Conselho Estadual de Saúde",
+  "resumo": "Colegiado permanente e deliberativo do SUS no estado, com metade dos membros representando os usuários. Suas decisões são homologadas pelo governador.",
+  "detalhes": "Formado por representantes do governo, prestadores de serviço, profissionais de saúde e usuários, com os usuários em paridade com os demais segmentos. Controla a execução da política de saúde no estado, inclusive a movimentação dos recursos do fundo estadual de saúde. Ter conselho de saúde é condição para receber os repasses federais.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-secretaria-de-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8142-1990",
+          "dispositivo": "art. 1º, § 2º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A lei não diz onde o conselho fica; seguimos o modelo federal, em que o CNS integra a estrutura do Ministério da Saúde."
+    },
+    "resumo": {
+      "confianca": "inferido",
+      "nota": "A lei diz que as decisões são homologadas pelo chefe do poder legalmente constituído em cada esfera; lemos aqui como o governador."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 198, III"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, II e §§ 2º, 4º e 5º; art. 4º, II"
+    },
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 33, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Composição e funcionamento variam conforme a lei de cada estado; não levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

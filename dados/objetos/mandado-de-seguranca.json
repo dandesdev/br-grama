@@ -1,0 +1,31 @@
+{
+  "id": "obj:mandado-de-seguranca",
+  "tipo": "objeto",
+  "nome": "Mandado de segurança",
+  "resumo": "Ação para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder de autoridade pública.",
+  "detalhes": "Também cabe contra agente de pessoa jurídica no exercício de atribuições do Poder Público (CF, art. 5º, LXIX). O mandado de segurança coletivo pode ser impetrado por partido político com representação no Congresso e por organização sindical, entidade de classe ou associação com pelo menos um ano de funcionamento, em defesa dos seus membros (art. 5º, LXX).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXIX e LXX; art. 102, I, d, II, a; art. 105, I, b, II, b; art. 108, I, c; art. 109, VIII"
+    },
+    {
+      "ref": "norma:lei-12016-2009",
+      "dispositivo": "arts. 1º e 21"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O mandado de segurança individual já existia antes de 1988; a data é a da CF atual. O coletivo foi criado pela CF de 1988."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  },
+  "notas": "Objeto único para o individual e o coletivo, porque os tribunais competentes são os mesmos. A Lei 12.016 tem dispositivos com \"Vide ADIN 4296\" (não lida); não citamos esses dispositivos."
+}

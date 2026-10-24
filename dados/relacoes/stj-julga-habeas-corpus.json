@@ -1,0 +1,26 @@
+{
+  "id": "rel:stj-julga-habeas-corpus",
+  "tipo": "relacao",
+  "nome": "STJ julga habeas corpus",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "obj:habeas-corpus",
+  "condicao": "Originariamente, quando coator ou paciente tem foro no STJ (governadores, desembargadores, membros dos TRFs, TREs, TRTs e tribunais de contas estaduais e municipais, membros do MPU que oficiam em tribunais) ou quando o coator é tribunal sujeito à sua jurisdição, Ministro de Estado ou Comandante militar, salvo competência da Justiça Eleitoral. Em recurso ordinário, quando TRF ou TJ o nega em única ou última instância.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O caso do coator tribunal sujeito à jurisdição do STJ é da EC 22/1999. A menção aos Comandantes da Marinha, do Exército e da Aeronáutica é da EC 23/1999."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, a e c; II, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-controle-constitucionalidade"
+  }
+}

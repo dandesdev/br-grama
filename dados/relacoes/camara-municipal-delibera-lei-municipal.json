@@ -1,0 +1,38 @@
+{
+  "id": "rel:camara-municipal-delibera-lei-municipal",
+  "tipo": "relacao",
+  "nome": "Votação das leis municipais",
+  "relacao": "delibera",
+  "de": "org:arquetipo-municipal-camara-municipal",
+  "para": "obj:lei-municipal",
+  "condicao": "Comissões e Plenário examinam o projeto, em regra em dois turnos ou duas discussões. Não há casa revisora.",
+  "quorum": {
+    "regra": "maioria-simples",
+    "nota": "Em SP, maioria dos presentes, com a maioria absoluta dos membros presente (LOM, art. 40, caput e § 1º); a lei orgânica exige maioria absoluta ou 3/5 em certas matérias (art. 40, §§ 3º e 4º)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 29, caput e XI"
+    },
+    {
+      "ref": "norma:sp-sao-paulo-lei-organica-1990",
+      "dispositivo": "art. 40"
+    },
+    {
+      "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+      "dispositivo": "art. 78"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

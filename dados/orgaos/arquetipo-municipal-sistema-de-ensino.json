@@ -1,0 +1,37 @@
+{
+  "id": "org:arquetipo-municipal-sistema-de-ensino",
+  "tipo": "orgao",
+  "nome": "Sistema municipal de ensino",
+  "resumo": "Reúne as escolas mantidas pelo município, as creches e pré-escolas privadas e os órgãos municipais de educação. Atua sobretudo na educação infantil e no ensino fundamental.",
+  "detalhes": "A CF dá aos municípios atuação prioritária no ensino fundamental e na educação infantil (art. 211, § 2º). O município só pode atuar em outros níveis quando já atende plenamente a sua área e com recursos acima do mínimo constitucional (LDB, art. 11, V). Em vez de manter sistema próprio, pode se integrar ao sistema do estado ou formar com ele um sistema único de educação básica (LDB, art. 11, parágrafo único).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 211, caput e §§ 2º e 4º"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 11; art. 18"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 2º, parágrafo único; art. 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Previsto na redação original do art. 211, caput. As prioridades vêm do § 2º, na redação da EC 14/1996, e a composição, da LDB, art. 18 (1996)."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema'. Quantos municípios têm sistema próprio e quantos se integraram ao estadual não foi levantado. O conselho municipal de educação, instância normativa (LC 220/2025, art. 15, IV), não tem nó aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

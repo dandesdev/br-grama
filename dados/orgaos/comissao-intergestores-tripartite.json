@@ -1,0 +1,49 @@
+{
+  "id": "org:comissao-intergestores-tripartite",
+  "tipo": "orgao",
+  "nome": "Comissão Intergestores Tripartite",
+  "sigla": "CIT",
+  "resumo": "Foro em que União, estados e municípios negociam e pactuam as regras operacionais, financeiras e administrativas da gestão compartilhada do SUS.",
+  "detalhes": "Reúne gestores das três esferas; estados e municípios podem ser representados pelo Conass e pelo Conasems. Define diretrizes nacionais sobre redes de atenção e regiões de saúde, que os estados instituem com os municípios. Fica vinculada ao Ministério da Saúde para fins administrativos.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:ministerio-da-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-7508-2011",
+          "dispositivo": "art. 30, I"
+        },
+        {
+          "ref": "norma:decreto-11798-2023",
+          "dispositivo": "Anexo I, art. 13, X"
+        }
+      ],
+      "nota": "O decreto vincula a CIT ao Ministério da Saúde só para efeitos administrativos e operacionais; ela não é órgão hierárquico do ministério."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-A"
+    },
+    {
+      "ref": "norma:decreto-7508-2011",
+      "dispositivo": "art. 4º; arts. 30 a 32"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-29",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 12.466/2011 incluiu o art. 14-A na Lei 8.080/1990 e o Decreto 7.508/2011 (DOU de 29/6/2011) regulou a comissão; usamos a data do decreto. A CIT já funcionava antes por portarias (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

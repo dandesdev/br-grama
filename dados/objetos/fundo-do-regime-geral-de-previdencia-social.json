@@ -1,0 +1,35 @@
+{
+  "id": "obj:fundo-do-regime-geral-de-previdencia-social",
+  "tipo": "objeto",
+  "nome": "Fundo do Regime Geral de Previdência Social",
+  "resumo": "Fundo da União para pagar benefícios do Regime Geral, formado por contribuições previdenciárias, bens do INSS e recursos do orçamento. É gerido pelo INSS.",
+  "detalhes": "A CF autorizou a União a criar o fundo, além da arrecadação própria do regime. A LRF o criou e o compôs com as contribuições sobre a folha e dos trabalhadores, bens e rendas do INSS não usados na operação, ativos de devedores da previdência, rendimentos de aplicações e recursos da União.",
+  "tipo_objeto": "fundo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:inss",
+    "org:ministerio-da-previdencia-social"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 250"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 68"
+    }
+  ],
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "Criado pela LRF, em vigor desde a publicação (DOU de 5/5/2000)."
+  },
+  "confianca": "oficial",
+  "notas": "A LRF vincula o fundo ao antigo Ministério da Previdência e Assistência Social; hoje a previdência social é área do Ministério da Previdência Social (Lei 14.600/2023, art. 43). Valor do fundo não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

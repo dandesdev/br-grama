@@ -1,0 +1,90 @@
+{
+  "id": "cargo:conselheiro-do-cne",
+  "tipo": "cargo",
+  "nome": "Conselheiro do Conselho Nacional de Educação",
+  "resumo": "Integra uma das duas câmaras do CNE, de 12 membros cada. Nomeado pelo Presidente da República para mandato de quatro anos; ao menos metade sai de listas da sociedade civil.",
+  "orgao": "org:conselho-nacional-de-educacao",
+  "provimento": "variavel",
+  "vagas": 24,
+  "vagas_nota": "Doze por câmara, incluído um membro nato em cada (Lei 4.024/1961, art. 8º, caput).",
+  "provimento_casos": [
+    {
+      "quando": "Membros natos: na Câmara de Educação Básica, o secretário do MEC que a lei chama de Secretário de Educação Fundamental (hoje, na prática, o de Educação Básica); na de Educação Superior, o Secretário de Educação Superior",
+      "provimento": "nato",
+      "fontes": [
+        {
+          "ref": "norma:lei-4024-1961",
+          "dispositivo": "art. 8º, caput"
+        },
+        {
+          "ref": "fonte:cne-composicao",
+          "dispositivo": "membros natos das duas câmaras"
+        },
+        {
+          "ref": "fonte:mec-quem-e-quem",
+          "dispositivo": "Secretaria de Educação Básica; Secretaria de Educação Superior"
+        }
+      ]
+    },
+    {
+      "quando": "Pelo menos metade dos conselheiros de cada câmara: escolhidos entre os nomes de listas feitas por consulta a entidades da sociedade civil da área",
+      "provimento": "nomeacao-a-partir-de-lista",
+      "fontes": [
+        {
+          "ref": "norma:lei-4024-1961",
+          "dispositivo": "art. 8º, §§ 1º a 3º"
+        }
+      ]
+    },
+    {
+      "quando": "Os demais conselheiros",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lei-4024-1961",
+          "dispositivo": "art. 8º, § 1º"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "O Presidente da República escolhe e nomeia; na escolha, considera a representação de todas as regiões e modalidades de ensino (art. 8º, § 5º). Para a Câmara de Educação Básica, a consulta envolve entidades de docentes, dirigentes de escolas e secretários de educação; para a de Educação Superior, reitores, diretores de instituições, docentes, estudantes, a comunidade científica e as instituições comunitárias (art. 8º, §§ 2º e 3º).",
+  "mandato": {
+    "anos": 4,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução para o período seguinte",
+    "nota": "Metade de cada câmara é renovada a cada dois anos (art. 8º, § 6º)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro de reputação ilibada que tenha prestado serviços relevantes à educação, à ciência e à cultura (para os indicados pelas entidades)",
+      "fontes": [
+        {
+          "ref": "norma:lei-4024-1961",
+          "dispositivo": "art. 8º, § 4º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-4024-1961",
+      "dispositivo": "art. 8º (redação da Lei 9.131/1995 e, no § 3º, da Lei 13.868/2019)"
+    }
+  ],
+  "vigencia": {
+    "de": "1995-11-25",
+    "ate": null
+  },
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "A lei ainda cita o Secretário de Educação Fundamental, cargo que não existe na estrutura atual do MEC (Decreto 12.769/2025, art. 2º, II, a, tem a Secretaria de Educação Básica). Em 08/10/2026 o membro nato da Câmara de Educação Básica era Kátia Helena Serafina Cruz Schweickardt e o da Câmara de Educação Superior, Marcus Vinicius David (fonte:cne-composicao), que o MEC indica como Secretária de Educação Básica e Secretário de Educação Superior (fonte:mec-quem-e-quem). A divisão entre nomeação a partir de lista e livre é leitura nossa do art. 8º, § 1º (\"pelo menos a metade\")."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}
