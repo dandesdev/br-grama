@@ -1,0 +1,25 @@
+{
+  "id": "rel:cgsn-regulamenta-simples-nacional",
+  "tipo": "relacao",
+  "nome": "O CGSN regulamenta o Simples Nacional",
+  "relacao": "regulamenta",
+  "de": "org:comite-gestor-do-simples-nacional",
+  "para": "obj:simples-nacional",
+  "condicao": "Regulamenta opção, exclusão, tributação, fiscalização, arrecadação, cobrança, dívida ativa e recolhimento do regime.",
+  "vigencia": {
+    "de": "2006-12-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-123-2006",
+      "dispositivo": "art. 2º, I, e § 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

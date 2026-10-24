@@ -1,0 +1,36 @@
+{
+  "id": "obj:simples-nacional",
+  "tipo": "objeto",
+  "nome": "Simples Nacional",
+  "resumo": "Regime opcional de arrecadação unificada para microempresas e empresas de pequeno porte: um único documento mensal recolhe tributos da União, dos estados e dos municípios.",
+  "detalhes": "O recolhimento é centralizado e cada ente recebe a sua parte de imediato, sem retenção (CF, art. 146, § 1º). Abrange, entre outros, IRPJ, CSLL, PIS/Pasep, Cofins, IPI, contribuição patronal, ICMS e ISS (LC 123/2006, art. 13). O optante pode recolher o IBS e a CBS por fora do regime único (CF, art. 146, § 2º).",
+  "tipo_objeto": "regra-fiscal",
+  "esfera": "nacional",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2007-07-01",
+    "ate": null,
+    "nota": "O regime único de arrecadação entrou na CF pela EC 42/2003 (art. 146, parágrafo único, hoje § 1º pela EC 132/2023) e começou a valer em 1º/7/2007 (LC 123/2006, art. 88)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 146, III, d, e §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:lc-123-2006",
+      "dispositivo": "arts. 1º, I, 12, 13 e 88"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'regra-fiscal' por falta de termo para regime de arrecadação (proposta: 'regime-tributario'). A CF permite condições de enquadramento diferentes por estado e arrecadação, fiscalização e cobrança compartilhadas, com cadastro nacional único (art. 146, § 1º, II e IV). Os limites de receita das empresas não foram registrados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

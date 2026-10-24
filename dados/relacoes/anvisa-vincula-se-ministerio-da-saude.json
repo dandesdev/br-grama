@@ -1,0 +1,32 @@
+{
+  "id": "rel:anvisa-vincula-se-ministerio-da-saude",
+  "tipo": "relacao",
+  "nome": "A Anvisa é supervisionada pelo Ministério da Saúde",
+  "relacao": "vincula-se",
+  "de": "org:anvisa",
+  "para": "org:ministerio-da-saude",
+  "condicao": "Supervisão ministerial, sem hierarquia; a autarquia é de regime especial, com independência administrativa e mandato fixo dos dirigentes.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9782-1999",
+      "dispositivo": "art. 3º"
+    },
+    {
+      "ref": "norma:decreto-11798-2023",
+      "dispositivo": "Anexo I, art. 2º, V, a, 1"
+    }
+  ],
+  "notas": "Lei 9.782/1999, art. 3º: autarquia sob regime especial vinculada ao Ministério da Saúde; o Decreto 11.798/2023 a lista entre as entidades vinculadas.",
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1999-01-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 9.782/1999, cujo art. 3º vincula a agência ao Ministério da Saúde; a agência veio da MP 1.791/1998 (data não conferida)."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

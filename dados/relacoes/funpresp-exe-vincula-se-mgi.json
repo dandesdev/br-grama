@@ -1,0 +1,28 @@
+{
+  "id": "rel:funpresp-exe-vincula-se-mgi",
+  "tipo": "relacao",
+  "nome": "A Funpresp-Exe é supervisionada pelo Ministério da Gestão e da Inovação em Serviços Públicos",
+  "relacao": "vincula-se",
+  "de": "org:funpresp-exe",
+  "para": "org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-12904-2026",
+      "dispositivo": "Anexo I, art. 2º, IV, c, 2"
+    }
+  ],
+  "notas": "Fundação de natureza pública com personalidade de direito privado (Lei 12.618/2012, art. 4º, § 1º).",
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2026-04-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do Decreto 12.904/2026, estrutura regimental atual do MGI, que a lista entre as entidades vinculadas. Antes, o Decreto 7.808/2012 a vinculava ao extinto Ministério do Planejamento, Orçamento e Gestão; as estruturas regimentais intermediárias não foram levantadas."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -9,20 +9,16 @@
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:ministerio-da-previdencia-social",
+  "contido_em": "org:poder-executivo-federal",
   "campos": {
     "contido_em": {
       "fontes": [
         {
-          "ref": "norma:decreto-11356-2023",
-          "dispositivo": "Anexo I, art. 2º, IV, a"
-        },
-        {
-          "ref": "norma:lei-14600-2023",
-          "dispositivo": "art. 43, I"
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
         }
       ],
-      "nota": "Autarquia vinculada ao Ministério da Previdência Social: há supervisão ministerial, não subordinação hierárquica. A posição segue a lista de entidades vinculadas da estrutura regimental do ministério."
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal; o DL 200/1967, art. 4º, II, inclui a administração indireta na Administração Federal, e o art. 1º diz que o Poder Executivo é exercido pelo Presidente auxiliado pelos Ministros. A supervisão ministerial, que antes definia a posição, está em rel:inss-vincula-se-ministerio-da-previdencia-social."
     }
   },
   "fontes": [
@@ -49,7 +45,7 @@
     "nota": "Criado pelo Decreto 99.350, de 27/6/1990 (em vigor em 2/7/1990, hoje revogado pelo Decreto 569/1992), com base no art. 17 da Lei 8.029/1990, pela fusão do IAPAS com o INPS. Texto do decreto em pesquisa/brutos/planalto-leis/2026-10-23-seguridade/d99350.htm."
   },
   "confianca": "oficial",
-  "notas": "O Regime Geral de Previdência Social (CF, art. 201) não tem nó próprio: é o regime que o INSS opera. O art. 248 da CF, que aplica o teto do art. 37, XI, aos benefícios pagos pelo órgão responsável pelo Regime Geral, fica citado aqui. A arrecadação das contribuições previdenciárias é da Receita Federal (não modelada aqui). O INSS também mantém aposentadorias e pensões do regime próprio da União das autarquias e fundações (Decreto 10.995/2022, Anexo I, art. 2º, III). A proteção contra o desemprego involuntário (art. 201, III) é paga pelo seguro-desemprego, fora do INSS (não pesquisado aqui).",
+  "notas": "O Regime Geral de Previdência Social (CF, art. 201) não tem nó próprio: é o regime que o INSS opera. O art. 248 da CF, que aplica o teto do art. 37, XI, aos benefícios pagos pelo órgão responsável pelo Regime Geral, fica citado aqui. A arrecadação das contribuições previdenciárias é da Receita Federal (não modelada aqui). O INSS também mantém aposentadorias e pensões do regime próprio da União das autarquias e fundações (Decreto 10.995/2022, Anexo I, art. 2º, III). A proteção contra o desemprego involuntário (art. 201, III) é paga pelo seguro-desemprego, fora do INSS (não pesquisado aqui). f0-administracao-indireta (2026-10-23): contido_em trocado de org:ministerio-da-previdencia-social para org:poder-executivo-federal pela D39; a fonte da vinculação (norma:decreto-11356-2023, norma:lei-14600-2023) foi para rel:inss-vincula-se-ministerio-da-previdencia-social.",
   "estrutura_continua": [
     {
       "ref": "norma:decreto-10995-2022",

@@ -1,0 +1,38 @@
+{
+  "id": "obj:desvinculacao-de-receitas",
+  "tipo": "objeto",
+  "nome": "Desvinculação de receitas",
+  "resumo": "Regra transitória que solta parte das receitas da União, dos estados, do DF e dos municípios das vinculações a órgão, fundo ou despesa, até 31/12/2032.",
+  "detalhes": "Na União, ficam livres 30% das contribuições sociais, das CIDE, das taxas e das receitas patrimoniais (ADCT, art. 76); nos estados e no DF, 30% de impostos, taxas, multas e outras receitas correntes (art. 76-A); nos municípios, 50% até 2026 e 30% de 2027 a 2032 (art. 76-B). Ficam de fora, entre outros, os mínimos de saúde e educação, as transferências a outros entes e as contribuições da seguridade social da União.",
+  "tipo_objeto": "regra-fiscal",
+  "sigla": "DRU",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2000-03-22",
+    "ate": "2032-12-31",
+    "nota": "A desvinculação da União entrou no ADCT pela EC 27/2000 (DOU de 22/3/2000) e foi prorrogada várias vezes; a redação atual do art. 76 é da EC 135/2024. Os arts. 76-A e 76-B (estados e municípios) vieram com a EC 93/2016, com redação atual das ECs 132/2023 e 136/2025."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, arts. 76, 76-A e 76-B"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Sigla DRU (Desvinculação de Receitas da União) é o nome corrente da parte federal; o ADCT não usa a sigla. Exceções no art. 76: salário-educação (§ 2º), contribuições da seguridade social (§ 4º), transferências a outros entes (§ 5º) e os fundos do art. 47 da Lei 12.351/2010 e do art. 2º da Lei 12.858/2013 (§ 6º). Nos municípios, o superávit dos fundos do Executivo municipal pode ir para saúde, educação e adaptação climática (art. 76-B, § 2º). Cópias das ECs 27/2000, 93/2016, 135/2024 e 136/2025 em pesquisa/brutos/planalto-leis/2026-10-23-dinheiro/.",
+  "campos": {
+    "sigla": {
+      "confianca": "inferido",
+      "nota": "A sigla não aparece no ADCT; é o nome corrente da desvinculação da União."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

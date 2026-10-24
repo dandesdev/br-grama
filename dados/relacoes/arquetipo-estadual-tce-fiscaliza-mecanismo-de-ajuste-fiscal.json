@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-tce-fiscaliza-mecanismo-de-ajuste-fiscal",
+  "tipo": "relacao",
+  "nome": "O tribunal de contas declara se o ente adotou todas as medidas do ajuste fiscal",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "obj:mecanismo-de-ajuste-fiscal",
+  "condicao": "Quando a despesa corrente passa de 95% da receita corrente, o ente sofre restrições de crédito e garantias até que o tribunal de contas declare que todos os Poderes e órgãos adotaram as vedações.",
+  "vigencia": {
+    "de": "2021-03-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 167-A, § 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF diz 'respectivo Tribunal de Contas': para os municípios, em geral é o TCE; onde há tribunal de contas dos municípios, é ele (ver as variações de controle externo municipal). Ligamos só o arquétipo estadual.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

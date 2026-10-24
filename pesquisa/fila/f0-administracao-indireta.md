@@ -1,9 +1,9 @@
 ---
 id: f0-administracao-indireta
 escopo: "Fatia 0, lacunas da varredura: administração indireta, regulação, terras e sistemas setoriais, CF arts. 37, 39, 173, 175 a 177, 184, 216-A, 217, 219-B, 225, 231, 242, 243; ADCT, arts. 8º e 68"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -28,3 +28,7 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+- 2026-10-23 23:28 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões (D05, D07, D09, D34, D39), vocabulários e entidades existentes da administração indireta (Banco Central, INSS, Anvisa, Previc, Funpresp-Exe, Sudam, Sudene, Sudeco, unidades gestoras do RPPS)
+- 2026-10-23 23:40 — gravado norma:decreto-lei-200-1967 (arts. 4º, 5º, 19, 20 e 26 lidos no Planalto)
+- 2026-10-23 23:50 — D39: org:inss (de org:ministerio-da-previdencia-social), org:anvisa (de org:ministerio-da-saude), org:previc (de org:ministerio-da-previdencia-social) e org:funpresp-exe (de org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos) passaram a contido_em org:poder-executivo-federal, com fonte DL 200/1967, art. 4º, II; as fontes antigas de campos.contido_em foram para as novas relações rel:inss-vincula-se-ministerio-da-previdencia-social, rel:anvisa-vincula-se-ministerio-da-saude, rel:previc-vincula-se-ministerio-da-previdencia-social e rel:funpresp-exe-vincula-se-mgi; nota da troca em notas (as quatro estavam coletadas)
+- 2026-10-23 23:52 — D39: org:sudam, org:sudene e org:sudeco já estavam sob org:poder-executivo-federal com vincula-se (f0-federacao); só acrescentei o DL 200/1967, art. 4º, II, a, em campos.contido_em.fontes, com nota. Unidades gestoras do RPPS nos arquétipos já estavam sob o Executivo do ente típico; não criei vincula-se para elas porque a secretaria supervisora varia por ente e não há nó de arquétipo para ela. org:pe-distrito-estadual-de-fernando-de-noronha segue sem contido_em (não há nó do Executivo de PE)

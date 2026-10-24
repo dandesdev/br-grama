@@ -9,20 +9,16 @@
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:ministerio-da-previdencia-social",
+  "contido_em": "org:poder-executivo-federal",
   "campos": {
     "contido_em": {
       "fontes": [
         {
-          "ref": "norma:lei-12154-2009",
-          "dispositivo": "art. 1º"
-        },
-        {
-          "ref": "norma:decreto-11356-2023",
-          "dispositivo": "Anexo I, art. 2º, IV, b"
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
         }
       ],
-      "nota": "Autarquia de natureza especial vinculada ao Ministério da Previdência Social: há supervisão ministerial, não subordinação hierárquica."
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal; o DL 200/1967, art. 4º, II, inclui a administração indireta na Administração Federal, e o art. 1º diz que o Poder Executivo é exercido pelo Presidente auxiliado pelos Ministros. A supervisão ministerial, que antes definia a posição, está em rel:previc-vincula-se-ministerio-da-previdencia-social."
     }
   },
   "fontes": [
@@ -45,7 +41,7 @@
     "nota": "Criada pela Lei 12.154/2009, em vigor na publicação."
   },
   "confianca": "oficial",
-  "notas": "A previdência complementar aberta (planos vendidos por seguradoras e entidades abertas) é fiscalizada por outro órgão, ligado ao Ministério da Fazenda (LC 109/2001, art. 74), não modelado aqui. A Câmara de Recursos da Previdência Complementar, que julga em última instância administrativa recursos contra decisões da Previc (Lei 12.154/2009, art. 15), não tem nó próprio.",
+  "notas": "A previdência complementar aberta (planos vendidos por seguradoras e entidades abertas) é fiscalizada por outro órgão, ligado ao Ministério da Fazenda (LC 109/2001, art. 74), não modelado aqui. A Câmara de Recursos da Previdência Complementar, que julga em última instância administrativa recursos contra decisões da Previc (Lei 12.154/2009, art. 15), não tem nó próprio. f0-administracao-indireta (2026-10-23): contido_em trocado de org:ministerio-da-previdencia-social para org:poder-executivo-federal pela D39; a fonte da vinculação (norma:lei-12154-2009, norma:decreto-11356-2023) foi para rel:previc-vincula-se-ministerio-da-previdencia-social.",
   "mais_informacoes": [
     {
       "titulo": "Previc (gov.br)",

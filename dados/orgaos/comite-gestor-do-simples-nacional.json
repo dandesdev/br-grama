@@ -1,0 +1,60 @@
+{
+  "id": "org:comite-gestor-do-simples-nacional",
+  "tipo": "orgao",
+  "nome": "Comitê Gestor do Simples Nacional",
+  "sigla": "CGSN",
+  "resumo": "Colegiado vinculado ao Ministério da Fazenda, com representantes da União, dos estados e dos municípios, que regulamenta o Simples Nacional.",
+  "detalhes": "Tem 4 representantes da União (3 da Receita Federal e 1 do Ministério do Empreendedorismo), 2 dos estados e do DF, indicados pelo Confaz, 2 dos municípios, 1 do Sebrae e 1 das confederações do segmento. É presidido por representante da União e decide por 3/4 dos presentes (LC 123/2006, art. 2º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-123-2006",
+          "dispositivo": "art. 2º, I"
+        },
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 2º, III, j; art. 70"
+        }
+      ],
+      "nota": "A lei diz 'vinculado ao Ministério da Fazenda', e a estrutura regimental do ministério o lista entre os seus órgãos colegiados."
+    }
+  },
+  "vigencia": {
+    "de": "2006-12-15",
+    "ate": null,
+    "nota": "Criado pela LC 123/2006; composição atual pela LC 214/2025, com efeitos desde 1º/1/2025."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 146, III, d, e § 1º"
+    },
+    {
+      "ref": "norma:lc-123-2006",
+      "dispositivo": "art. 1º, § 1º; art. 2º, I, §§ 1º, 2º, 4º-A, 4º-B, 6º, 8º e 8º-A"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, III, j; art. 70"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os membros são designados pelo Ministro da Fazenda por indicação dos órgãos e entidades (LC 123/2006, art. 2º, § 8º). Os representantes municipais são indicados um pela entidade das secretarias de finanças das capitais e outro pelas entidades nacionais de municípios (§ 2º). A deliberação que exclui ocupação do MEI exige unanimidade (§ 4º-B). O Decreto 6.038/2007, citado no Decreto 11.907/2024, não foi lido.",
+  "mais_informacoes": [
+    {
+      "titulo": "Portal do Simples Nacional",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

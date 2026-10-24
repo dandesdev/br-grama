@@ -9,20 +9,16 @@
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:ministerio-da-saude",
+  "contido_em": "org:poder-executivo-federal",
   "campos": {
     "contido_em": {
       "fontes": [
         {
-          "ref": "norma:lei-9782-1999",
-          "dispositivo": "art. 3º"
-        },
-        {
-          "ref": "norma:decreto-11798-2023",
-          "dispositivo": "Anexo I, art. 2º, V, a, 1"
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
         }
       ],
-      "nota": "Autarquia sob regime especial vinculada ao Ministério da Saúde: há supervisão ministerial, não subordinação hierárquica. A posição segue a lista de entidades vinculadas da estrutura regimental do ministério."
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal; o DL 200/1967, art. 4º, II, inclui a administração indireta na Administração Federal, e o art. 1º diz que o Poder Executivo é exercido pelo Presidente auxiliado pelos Ministros. A supervisão ministerial, que antes definia a posição, está em rel:anvisa-vincula-se-ministerio-da-saude."
     }
   },
   "fontes": [
@@ -42,7 +38,7 @@
     "nota": "Data de publicação da Lei 9.782/1999. A agência foi criada antes, pela MP 1.791/1998 (data não conferida), e só passou a exercer as atribuições após publicar o regimento interno (art. 30)."
   },
   "confianca": "oficial",
-  "notas": "Exemplo de agência reguladora da saúde (D07). A Agência Nacional de Saúde Suplementar (ANS), também vinculada ao Ministério da Saúde, não foi modelada. Cargos da Diretoria Colegiada sem nó próprio.",
+  "notas": "Exemplo de agência reguladora da saúde (D07). A Agência Nacional de Saúde Suplementar (ANS), também vinculada ao Ministério da Saúde, não foi modelada. Cargos da Diretoria Colegiada sem nó próprio. f0-administracao-indireta (2026-10-23): contido_em trocado de org:ministerio-da-saude para org:poder-executivo-federal pela D39; a fonte da vinculação (norma:lei-9782-1999, norma:decreto-11798-2023) foi para rel:anvisa-vincula-se-ministerio-da-saude.",
   "mais_informacoes": [
     {
       "titulo": "Anvisa (gov.br)",

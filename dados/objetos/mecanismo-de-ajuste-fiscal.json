@@ -1,0 +1,34 @@
+{
+  "id": "obj:mecanismo-de-ajuste-fiscal",
+  "tipo": "objeto",
+  "nome": "Mecanismo de ajuste fiscal",
+  "resumo": "Vedações (reajustes, contratações, concursos, novas despesas obrigatórias, incentivos) que estados, DF e municípios podem adotar se a despesa corrente passar de 95% da receita corrente.",
+  "detalhes": "A relação é apurada a cada dois meses, em 12 meses. Acima de 95%, cada Poder e órgão autônomo do ente pode aplicar as vedações; se não aplicar todas, o ente não recebe garantias nem faz operações de crédito com outro ente, conforme declaração do tribunal de contas. Acima de 85%, o chefe do Executivo já pode adotá-las por ato submetido ao Legislativo em regime de urgência (CF, art. 167-A).",
+  "tipo_objeto": "regra-fiscal",
+  "relativo_a": [
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2021-03-16",
+    "ate": null,
+    "nota": "Art. 167-A incluído pela EC 109/2021, em vigor na publicação."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 167-A; art. 167-G"
+    },
+    {
+      "ref": "norma:ec-109-2021",
+      "dispositivo": "art. 1º; art. 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O ato do Executivo entre 85% e 95% perde a eficácia se rejeitado, se não for apreciado em 180 dias ou se a despesa voltar abaixo de 85% (art. 167-A, § 3º). Na calamidade pública nacional, as vedações valem para a União (art. 167-G; ver obj:estado-de-calamidade-publica-nacional). Sem esfera: vale para estados, DF e municípios. 'Mecanismo de ajuste fiscal' é a expressão do próprio art. 167-A.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

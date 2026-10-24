@@ -35,3 +35,5 @@ concluida_em: null
 - 2026-10-24 00:05 — gravados rel:congresso-autoriza-atividades-nucleares, rel:congresso-autoriza-exploracao-em-terras-indigenas, rel:congresso-autoriza-alienacao-de-terras-publicas (art. 49, XIV, XVI e XVII; art. 188, § 1º; art. 231, § 3º)
 - 2026-10-24 00:12 — gravados obj:plebiscito-e-referendo, rel:congresso-convoca-plebiscito-e-referendo (relacao 'autoriza'; 'convoca' não serve), rel:deputados-propoem- e rel:senadores-propoem-plebiscito-e-referendo, rel:eleitorado-nacional-delibera-plebiscito-e-referendo, rel:tse-homologa-plebiscito-e-referendo (art. 14, I e II; art. 49, XV)
 - 2026-10-24 00:22 — gravados rel:senado-fixa-aliquotas-de-referencia-ibs/-cbs (relacao 'edita') e rel:tcu-calcula-aliquotas-de-referencia-ibs/-cbs (ADCT, art. 130; LC 214/2025, arts. 18 e 19)
+- 2026-10-24 00:35 — gravadas fonte:stf-constituicao-e-o-supremo-art-51, -52, -53 e -55 (ADPF 378, ADI 5.526, AP 2.668 QO, AP 694); a página do STF para o ADCT, art. 113, devolve 404
+- 2026-10-24 00:55 — gravado proc:crime-de-responsabilidade-do-presidente (19 etapas; regime 'infracao-penal-comum' com as etapas do STF; rito do Senado pela ADPF 378). Art. 86 coberto

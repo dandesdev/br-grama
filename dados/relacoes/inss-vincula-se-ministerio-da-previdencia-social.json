@@ -1,0 +1,32 @@
+{
+  "id": "rel:inss-vincula-se-ministerio-da-previdencia-social",
+  "tipo": "relacao",
+  "nome": "O INSS é supervisionado pelo Ministério da Previdência Social",
+  "relacao": "vincula-se",
+  "de": "org:inss",
+  "para": "org:ministerio-da-previdencia-social",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11356-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 43, I"
+    }
+  ],
+  "notas": "A Lei 14.600/2023, art. 43, I, dá ao ministério a área de previdência; o Decreto 11.356/2023 lista o INSS entre as entidades vinculadas.",
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do Decreto 11.356/2023, que lista o INSS entre as entidades vinculadas ao ministério, recriado em 1º/1/2023. A vinculação ao ministério da área é anterior, mas a pasta mudou de nome e estrutura várias vezes; o histórico não foi levantado."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

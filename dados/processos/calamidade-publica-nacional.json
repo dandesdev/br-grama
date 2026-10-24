@@ -34,8 +34,7 @@
         "org:congresso-nacional"
       ],
       "acao": "O Congresso decide e, se aprovar, decreta a calamidade, sem sanção do Presidente",
-      "detalhes": "É competência exclusiva do Congresso (art. 49, XVIII). Os regimentos tratam a matéria como decreto legislativo.",
-      "remete_a": "proc:decreto-legislativo",
+      "detalhes": "É competência exclusiva do Congresso (art. 49, XVIII). Segue o rito do decreto legislativo, espécie que os regimentos usam para a matéria.",
       "quorum": {
         "regra": "maioria-simples",
         "nota": "A CF não exige quórum especial (art. 47)."
@@ -156,7 +155,7 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "A etapa 'decretacao' remete a proc:decreto-legislativo, que a tarefa f0-processos-legislativos está criando. A CF não fixa prazo para a decisão do Congresso nem duração máxima da calamidade. Durante a calamidade, a transferência aos fundos regionais (art. 159, I, c) segue o valor do ano anterior (art. 167-G, § 2º).",
+  "notas": "A etapa 'decretacao' segue o rito do decreto legislativo; quando existir proc:decreto-legislativo (f0-processos-legislativos), ligar por remete_a. A CF não fixa prazo para a decisão do Congresso nem duração máxima da calamidade. Durante a calamidade, a transferência aos fundos regionais (art. 159, I, c) segue o valor do ano anterior (art. 167-G, § 2º).",
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-23",

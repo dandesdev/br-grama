@@ -9,16 +9,16 @@
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "contido_em": "org:poder-executivo-federal",
   "campos": {
     "contido_em": {
       "fontes": [
         {
-          "ref": "norma:decreto-12904-2026",
-          "dispositivo": "Anexo I, art. 2º, IV, c, 2"
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, d"
         }
       ],
-      "nota": "Entidade vinculada ao MGI (supervisão ministerial, sem subordinação). O Decreto 7.808/2012 a vinculava ao extinto Ministério do Planejamento, Orçamento e Gestão."
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal; o DL 200/1967, art. 4º, II, inclui a administração indireta na Administração Federal, e o art. 1º diz que o Poder Executivo é exercido pelo Presidente auxiliado pelos Ministros. A supervisão ministerial, que antes definia a posição, está em rel:funpresp-exe-vincula-se-mgi."
     },
     "tipo_orgao": {
       "nota": "A lei a define como fundação de natureza pública com personalidade jurídica de direito privado (Lei 12.618/2012, art. 4º, § 1º; Decreto 7.808/2012, art. 1º, § 1º); 'fundacao-publica' é o termo mais próximo."
@@ -48,7 +48,7 @@
     "nota": "Criada pelo Decreto 7.808/2012, em vigor na publicação (DOU de 21/9/2012)."
   },
   "confianca": "oficial",
-  "notas": "Exemplo federal do art. 40, §§ 14 e 15 (D07). A existência da Funpresp-Leg e o atendimento do Legislativo em 2026-10-01 não foram conferidos; a Funpresp-Jud não foi modelada.",
+  "notas": "Exemplo federal do art. 40, §§ 14 e 15 (D07). A existência da Funpresp-Leg e o atendimento do Legislativo em 2026-10-01 não foram conferidos; a Funpresp-Jud não foi modelada. f0-administracao-indireta (2026-10-23): contido_em trocado de org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos para org:poder-executivo-federal pela D39; a fonte da vinculação (norma:decreto-12904-2026) foi para rel:funpresp-exe-vincula-se-mgi.",
   "mais_informacoes": [
     {
       "titulo": "Funpresp-Exe",

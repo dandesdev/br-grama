@@ -1,0 +1,607 @@
+{
+  "id": "proc:crime-de-responsabilidade-do-presidente",
+  "tipo": "processo",
+  "nome": "Processo contra o Presidente da República (impeachment e crime comum)",
+  "resumo": "Caminho da acusação contra o Presidente: a Câmara autoriza por dois terços; o Senado julga os crimes de responsabilidade (impeachment) e o STF, os crimes comuns.",
+  "detalhes": "No impeachment, qualquer cidadão denuncia à Câmara; autorizado o processo, o Senado decide se o instaura, afasta o Presidente por até 180 dias, faz a pronúncia e julga em sessão presidida pelo Presidente do STF. A condenação exige dois terços e leva à perda do cargo com inabilitação por oito anos. Nos crimes comuns, o PGR denuncia ao STF, que depende da mesma autorização da Câmara.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "denuncia",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Um cidadão apresenta à Câmara denúncia contra o Presidente por crime de responsabilidade",
+      "detalhes": "A denúncia leva a assinatura do denunciante com firma reconhecida, os documentos que a comprovem (ou onde encontrá-los) e, havendo prova testemunhal, o rol de pelo menos cinco testemunhas. Só pode ser recebida enquanto o denunciado não tiver deixado o cargo em definitivo. Os crimes de responsabilidade são atos do Presidente que atentam contra a Constituição, como os listados no art. 85, definidos na Lei 1.079/1950.",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 14 a 16"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 218, caput e § 1º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 85"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recebimento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recebimento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados"
+      ],
+      "acao": "O Presidente da Câmara examina a denúncia e decide se a recebe",
+      "detalhes": "Verificados os requisitos, a denúncia recebida é lida na sessão seguinte e enviada a uma comissão especial. Se o Presidente da Câmara a indeferir, cabe recurso ao Plenário.",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 218, §§ 2º e 3º"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 19"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissao-especial",
+          "quando": "Denúncia recebida"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Denúncia indeferida, sem recurso ou com recurso negado pelo Plenário"
+        }
+      ]
+    },
+    {
+      "id": "denuncia-do-pgr",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "Por infração penal comum, o PGR oferece denúncia contra o Presidente ao STF",
+      "detalhes": "Só no rito do crime comum (regime 'infracao-penal-comum'). Cabe ao STF processar e julgar o Presidente nas infrações penais comuns, e ao Ministério Público promover a ação penal pública. Durante o mandato, o Presidente não responde por atos estranhos ao exercício das funções.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, b; art. 129, I; art. 86, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "stf-pede-autorizacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "stf-pede-autorizacao",
+      "atores": [
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "O Presidente do STF pede à Câmara autorização para instaurar o processo",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 86, caput"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 217, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-ccjc",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-ccjc",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:ccjc-camara"
+      ],
+      "acao": "O Presidente da Câmara notifica o acusado e envia o pedido à CCJC, que dá parecer",
+      "detalhes": "Só no rito do crime comum. O acusado pode se manifestar na comissão; o parecer conclui pelo deferimento ou indeferimento da autorização.",
+      "prazo": {
+        "texto": "Defesa em 10 sessões; parecer em 5 sessões contadas da defesa ou do fim do prazo dela (RICD, art. 217, I e II)",
+        "valor": 5,
+        "unidade": "sessoes",
+        "conta_de": "manifestação do acusado ou fim do prazo para ela"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 217, I a III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-comissao-especial",
+      "atores": [
+        "org:comissoes-da-camara-dos-deputados"
+      ],
+      "acao": "Uma comissão especial, com todos os partidos, ouve o denunciado e dá parecer sobre a autorização",
+      "detalhes": "A comissão é eleita com representantes de todos os partidos, na proporção das bancadas, e se reúne em até 48 horas. O denunciado é notificado para se manifestar. O parecer conclui pelo deferimento ou indeferimento da autorização e entra na pauta 48 horas depois de publicado.",
+      "prazo": {
+        "texto": "Defesa em 10 sessões; parecer em 5 sessões contadas da defesa ou do fim do prazo dela (RICD, art. 218, §§ 4º e 5º). A Lei 1.079/1950, art. 20, fala em 10 dias para o parecer.",
+        "valor": 5,
+        "unidade": "sessoes",
+        "conta_de": "manifestação do denunciado ou fim do prazo para ela"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 218, §§ 2º e 4º a 7º"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 19 e 20"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "A Câmara vota o parecer; autorizar o processo exige dois terços dos deputados (342 votos)",
+      "detalhes": "Votação nominal, por chamada. A Câmara faz um juízo político e delibera uma só vez: não julga o mérito nem 'decreta a acusação', como previa a Lei 1.079/1950 (ADPF 378). A decisão vai ao Presidente do Senado (crime de responsabilidade) ou ao STF (crime comum) em até duas sessões.",
+      "quorum": {
+        "regra": "dois-tercos",
+        "votacao": "nominal",
+        "nota": "Dois terços dos membros da Câmara: 342 de 513."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 51, I; art. 86, caput"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 217, IV e §§ 1º e 2º; art. 218, §§ 8º e 9º"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-51",
+          "dispositivo": "art. 51, I: ADPF 378 MC"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-comissao-especial",
+          "quando": "Autorizado, no crime de responsabilidade"
+        },
+        {
+          "para": "stf-recebe-denuncia",
+          "quando": "Autorizado, no crime comum"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Menos de dois terços a favor"
+        }
+      ]
+    },
+    {
+      "id": "senado-comissao-especial",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "org:comissoes-do-senado-federal"
+      ],
+      "acao": "O Senado lê a autorização e elege comissão especial, que dá parecer sobre instaurar o processo",
+      "detalhes": "A comissão tem um quarto dos senadores, na proporção dos partidos e blocos. Na falta de regra específica, o STF mandou aplicar por analogia o rito da Lei 1.079/1950 para ministros do STF e para o PGR (ADPF 378).",
+      "prazo": {
+        "texto": "Parecer em 10 dias (Lei 1.079/1950, art. 45, aplicado por analogia)",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "reunião de instalação da comissão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 380, I e II"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 44 a 46"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
+          "dispositivo": "art. 52, I: ADPF 378 MC"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-instauracao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "senado-instauracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "O Senado decide, por maioria simples, se instaura o processo",
+      "detalhes": "O Senado não está obrigado a abrir o processo autorizado pela Câmara. A Mesa não pode rejeitar a denúncia sozinha, e o quórum de dois terços vale só para a condenação (ADPF 378).",
+      "quorum": {
+        "regra": "maioria-simples",
+        "votacao": "nominal",
+        "nota": "Lei 1.079/1950, art. 47, aplicado por analogia pela ADPF 378."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, I; art. 86, § 1º, II"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 47 a 49"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
+          "dispositivo": "art. 52, I: ADPF 378 MC"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "afastamento",
+          "quando": "Processo instaurado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Processo não instaurado"
+        }
+      ]
+    },
+    {
+      "id": "stf-recebe-denuncia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF decide se recebe a denúncia ou queixa-crime",
+      "detalhes": "Só no rito do crime comum.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 86, caput e § 1º, I; art. 102, I, b"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "afastamento",
+          "quando": "Denúncia recebida"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Denúncia rejeitada"
+        }
+      ]
+    },
+    {
+      "id": "afastamento",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:vice-presidente-da-republica"
+      ],
+      "acao": "O Presidente fica suspenso das funções e o Vice-Presidente assume",
+      "detalhes": "No crime de responsabilidade, a suspensão começa com a instauração no Senado; no crime comum, com o recebimento da denúncia pelo STF. Suspenso, o Presidente está impedido, e o Vice o substitui.",
+      "prazo": {
+        "texto": "180 dias; se o julgamento não terminar, o afastamento cessa e o processo continua",
+        "valor": 180,
+        "unidade": "dias",
+        "conta_de": "início da suspensão",
+        "efeito": "o Presidente volta ao cargo, sem interromper o processo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 86, §§ 1º e 2º; art. 79"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 381"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-pronuncia",
+          "quando": "Crime de responsabilidade"
+        },
+        {
+          "para": "stf-julgamento",
+          "quando": "Crime comum"
+        }
+      ]
+    },
+    {
+      "id": "senado-pronuncia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comissoes-do-senado-federal",
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "Depois da defesa e das provas, o Senado decide, por maioria simples, se a acusação procede (pronúncia)",
+      "detalhes": "O acusado responde em 10 dias; a comissão colhe as provas, com participação das partes, e dá parecer em 10 dias. Aprovada a pronúncia, o denunciante apresenta o libelo acusatório e o acusado a contrariedade, em 48 horas cada.",
+      "prazo": {
+        "texto": "Resposta em 10 dias; parecer em 10 dias depois do prazo da resposta (Lei 1.079/1950, arts. 49 e 51, aplicados por analogia)",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "fim do prazo de resposta"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "votacao": "nominal",
+        "nota": "Lei 1.079/1950, art. 54, aplicado por analogia pela ADPF 378."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 49 a 55 e 58"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 380, III"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
+          "dispositivo": "art. 52, I: ADPF 378 MC"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": "Acusação procedente"
+        },
+        {
+          "para": "absolvicao",
+          "quando": "Acusação improcedente"
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal",
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "O Senado, presidido pelo Presidente do STF, julga; condenar exige dois terços dos senadores (54 votos)",
+      "detalhes": "O processo vai ao Presidente do STF, que preside a sessão. São ouvidas as testemunhas, há debate entre acusação e defesa, e os senadores votam se o acusado cometeu o crime e deve perder o cargo.",
+      "prazo": {
+        "texto": "Pelo menos 10 dias entre a notificação das partes e o julgamento (Lei 1.079/1950, art. 60, parágrafo único)",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "notificação das partes"
+      },
+      "quorum": {
+        "regra": "dois-tercos",
+        "votacao": "nominal",
+        "nota": "Dois terços dos membros do Senado (54 de 81), como diz a CF; a Lei 1.079/1950, art. 68, fala em dois terços dos senadores presentes."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, I, e parágrafo único"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "arts. 377, 378 e 380, III a VI"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 59 a 68"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "condenacao",
+          "quando": "Dois terços ou mais pela condenação"
+        },
+        {
+          "para": "absolvicao",
+          "quando": "Menos de dois terços pela condenação"
+        }
+      ]
+    },
+    {
+      "id": "stf-julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF julga o Presidente pela infração penal comum",
+      "detalhes": "Só no rito do crime comum. Enquanto não houver sentença condenatória, o Presidente não pode ser preso.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, b; art. 86, § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "condenacao-crime-comum",
+          "quando": "Condenação"
+        },
+        {
+          "para": "absolvicao",
+          "quando": "Absolvição"
+        }
+      ]
+    },
+    {
+      "id": "condenacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:senado-federal"
+      ],
+      "acao": "O Presidente perde o cargo e fica inabilitado por oito anos para função pública",
+      "detalhes": "A condenação pelo Senado se limita a essas duas penas, sem prejuízo de outras sanções judiciais. O Vice-Presidente sucede o Presidente no cargo vago.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, parágrafo único; art. 79"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 70"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "condenacao-crime-comum",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "Condenado, o Presidente cumpre as penas da lei penal e tem os direitos políticos suspensos",
+      "detalhes": "Os direitos políticos ficam suspensos enquanto durarem os efeitos da condenação criminal transitada em julgado.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 15, III"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "absolvicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Absolvido, o Presidente é reabilitado e volta ao cargo, se estava afastado",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 70"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 86, § 2º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A denúncia é arquivada e não há processo",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 218, § 3º"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 48"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 86, caput"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "infracao-penal-comum",
+      "nome": "Infração penal comum",
+      "resumo": "O Presidente é acusado de crime comum: o STF julga, e não o Senado; a Câmara só autoriza",
+      "detalhes": "O rito começa com a denúncia do PGR (ou queixa-crime) ao STF, cujo Presidente pede a autorização à Câmara. Na Câmara, o parecer vem da CCJC, e não de comissão especial; o quórum é o mesmo. Autorizado o processo, o STF decide se recebe a denúncia, e o recebimento suspende o Presidente. Usa as etapas denuncia-do-pgr, stf-pede-autorizacao, camara-ccjc, stf-recebe-denuncia, stf-julgamento e condenacao-crime-comum, que ficam fora do rito do crime de responsabilidade.",
+      "quem_aciona": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 86, caput e § 1º, I; art. 102, I, b"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 217"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-plenario",
+          "nota": "O parecer votado é o da CCJC (RICD, art. 217), e a decisão é comunicada ao STF em até duas sessões."
+        },
+        {
+          "etapa": "afastamento",
+          "prazo": {
+            "texto": "180 dias contados do recebimento da denúncia pelo STF",
+            "valor": 180,
+            "unidade": "dias",
+            "conta_de": "recebimento da denúncia pelo STF",
+            "efeito": "o Presidente volta ao cargo, sem interromper o processo"
+          },
+          "nota": "A suspensão começa com o recebimento da denúncia pelo STF (art. 86, § 1º, I)."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 51, I; 52, I, e parágrafo único; 85; 86; 102, I, b"
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 14 a 24 e 44 a 70"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 217 e 218"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 377 a 382"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-51",
+      "dispositivo": "art. 51, I: ADPF 378 MC"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
+      "dispositivo": "art. 52, I: ADPF 378 MC"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) O rito do Senado segue a ADPF 378 MC (2015), que mandou aplicar por analogia ao Presidente as regras da Lei 1.079/1950 para ministros do STF e PGR (arts. 44 a 49 e 51 a 55), criando as etapas de instauração e de pronúncia, como no caso Collor; os arts. 23, §§ 1º, 4º e 5º, 80 (1ª parte) e 81 da lei não foram recepcionados. (2) A liminar das ADPFs 1259 e 1260 (dez/2025), que fixou dois terços para os pareceres dos arts. 47 e 54, vale para membros do Judiciário, não para o Presidente (ver aviso:lei-1079-adpf-1259-1260). (3) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, o ator usado para a iniciativa popular. (4) O mesmo rito vale para o Vice-Presidente e, nos crimes conexos, para ministros e Comandantes (arts. 51, I, e 52, I); o processo modela só o Presidente. (5) As etapas do crime comum estão no processo porque um regime não pode criar etapas; o regime 'infracao-penal-comum' diz quais delas usar. (6) A Lei 1.079/1950, art. 68, parágrafo único, prevê votação separada da inabilitação por até cinco anos; a CF fixa oito anos junto com a perda do cargo, e não modelamos a votação separada. (7) Os prazos da Câmara são os do RICD; os do Senado, os da Lei 1.079/1950 aplicados por analogia, que o RISF (arts. 380 a 382) não altera. (8) O exame do Presidente da Câmara na etapa 'recebimento' segue o RICD; o alcance desse exame foi discutido pelo STF em mandados de segurança que não consultamos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}
