@@ -1,0 +1,34 @@
+{
+  "id": "rel:cmo-delibera-credito-adicional",
+  "tipo": "relacao",
+  "nome": "A CMO dá parecer sobre os projetos de crédito adicional",
+  "relacao": "delibera",
+  "de": "org:cmo",
+  "para": "obj:credito-adicional",
+  "condicao": "Examina os projetos de crédito e as emendas até 20 de novembro; depois disso, o projeto vai direto ao Plenário do Congresso. Também dá parecer sobre a medida provisória de crédito extraordinário.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 166, caput e § 1º, I"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 106 a 110"
+    },
+    {
+      "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+      "dispositivo": "arts. 106 a 111"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Cada parlamentar pode apresentar até 10 emendas a crédito adicional (Res. 1/2006-CN, art. 108).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

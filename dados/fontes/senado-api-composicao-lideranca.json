@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-composicao-lideranca",
+  "tipo": "fonte",
+  "nome": "Senado Federal, Dados Abertos: lideranças no Congresso, no Senado e na Câmara",
+  "resumo": "Lista das lideranças em exercício (governo, maioria, minoria, oposição, partidos e blocos), com data de designação e o ofício que a comunicou.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/composicao/lideranca.json",
+  "acesso_em": "2026-10-23",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  },
+  "notas": "Retrato das lideranças em exercício no dia do acesso (2026-10-23), não um histórico. Para 2026-10-01 valem as designações anteriores a essa data que continuavam em vigor em 2026-10-23. Inclui as lideranças da Câmara. Sem cópia no Wayback; cópia bruta em pesquisa/brutos/senado-dados-abertos/2026-10-23-processos-legislativos/composicao-lideranca.json."
+}

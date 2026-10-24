@@ -1,0 +1,41 @@
+{
+  "id": "var:pr-carreira-especial-de-advogado-do-estado",
+  "tipo": "variacao",
+  "nome": "Carreira especial de advogado do Estado do Paraná",
+  "resumo": "O Paraná manteve, ao lado da Procuradoria-Geral, uma carreira de advogados do Estado para assessoria jurídica, em extinção, autorizada pelo art. 69 do ADCT.",
+  "entes": [
+    "ente:pr"
+  ],
+  "abrangencia": "ente",
+  "difere_de": "org:arquetipo-estadual-procuradoria-geral",
+  "porque": "O art. 69 do ADCT permite aos estados manter consultorias jurídicas separadas da Procuradoria-Geral, se já as tinham em 1988. O STF validou a carreira paranaense como exceção transitória, só para os 295 ocupantes estáveis de então, sem novos concursos (ADI 484).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 69; art. 132"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-132",
+      "dispositivo": "ADI 484"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-10-05",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do ADCT da Constituição do Paraná (art. 56), que autorizou a carreira, segundo a compilação do STF; a Lei estadual 9.422/1990 a organizou. Não sabemos se ainda havia ocupantes em 1º/10/2026; ver aviso:pr-carreira-especial-de-advogado-do-estado-situacao."
+  },
+  "campos": {
+    "vigencia": {
+      "confianca": "indisponivel",
+      "nota": "A carreira é em extinção e não achamos fonte sobre quantos cargos restam em 2026."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  },
+  "notas": "Único caso do ADCT, art. 69, que achamos com fonte (compilação do STF). Outros estados podem ter situações parecidas; não foram levantados."
+}

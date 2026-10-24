@@ -1,0 +1,29 @@
+{
+  "id": "rel:ccs-auxilia-congresso",
+  "tipo": "relacao",
+  "nome": "Conselho de Comunicação Social auxilia o Congresso",
+  "relacao": "auxilia",
+  "de": "org:conselho-de-comunicacao-social",
+  "para": "org:congresso-nacional",
+  "condicao": "Faz estudos, pareceres e recomendações sobre os temas do capítulo da comunicação social que o Congresso lhe encaminhar, como liberdade de expressão, propaganda de tabaco e bebidas, programação de rádio e TV, concentração e propriedade de meios e outorga de concessões.",
+  "vigencia": {
+    "de": "1991-12-31",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 224"
+    },
+    {
+      "ref": "norma:lei-8389-1991",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

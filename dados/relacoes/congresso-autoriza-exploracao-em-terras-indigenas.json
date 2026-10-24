@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-autoriza-exploracao-em-terras-indigenas",
+  "tipo": "relacao",
+  "nome": "Congresso autoriza mineração e aproveitamento hídrico em terras indígenas",
+  "relacao": "autoriza",
+  "de": "org:congresso-nacional",
+  "para": "org:poder-executivo-federal",
+  "condicao": "O aproveitamento de recursos hídricos, inclusive potenciais de energia, e a pesquisa e a lavra de minérios em terras indígenas só podem ocorrer com autorização do Congresso, ouvidas as comunidades afetadas, que participam dos resultados da lavra na forma da lei.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XVI; art. 231, § 3º; art. 176, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O alvo é o Executivo federal porque é a União quem dá a autorização ou concessão de pesquisa, lavra e aproveitamento hidráulico (art. 176, § 1º). Não há objeto de competência para essas concessões ainda (a varredura propôs criá-lo em outra tarefa).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

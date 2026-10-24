@@ -1,0 +1,51 @@
+{
+  "id": "org:arquetipo-estadual-orgao-executivo-de-transito",
+  "nome": "Órgão executivo de trânsito do estado (Detran)",
+  "resumo": "Habilita condutores, registra e licencia veículos e fiscaliza o trânsito no estado, por delegação federal nas duas primeiras tarefas.",
+  "detalhes": "A segurança viária cabe, nos estados, no DF e nos municípios, a órgãos ou entidades executivos de trânsito com agentes de carreira (CF, art. 144, § 10). O do estado expede a CNH e licencia veículos mediante delegação do órgão máximo da União, fiscaliza e multa, salvo nas infrações reservadas aos municípios (CTB, art. 22).",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 144, § 10, II"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A CF diz só que a segurança viária compete aos 'órgãos ou entidades executivos' de cada ente; o nó fica sob o Poder Executivo estadual por ser órgão ou entidade da administração do estado (D39 para as entidades)."
+    },
+    "tipo_orgao": {
+      "confianca": "inferido",
+      "nota": "Tipo 'outro' porque a forma varia: a CF e o CTB falam em 'órgãos ou entidades', e cada estado escolhe se é autarquia ou órgão da administração direta (não levantado)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 10"
+    },
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 5º; art. 7º, III; art. 22"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-01-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Competências atuais desde o CTB; o § 10 do art. 144 é da EC 82/2014."
+  },
+  "notas": "Integra o Sistema Nacional de Trânsito (CTB, art. 7º, III), que não tem nó próprio. Nomes variam por estado; a sigla Detran é a mais usada, mas não está na lei federal.",
+  "tipo": "orgao",
+  "tipo_orgao": "outro",
+  "poder": "executivo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

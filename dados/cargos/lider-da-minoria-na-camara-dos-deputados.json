@@ -1,0 +1,40 @@
+{
+  "id": "cargo:lider-da-minoria-na-camara-dos-deputados",
+  "tipo": "cargo",
+  "nome": "Líder da Minoria na Câmara dos Deputados",
+  "resumo": "Líder da representação que forma a Minoria na Câmara dos Deputados; por isso, membro do Conselho da República.",
+  "orgao": "org:camara-dos-deputados",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "A Maioria é o partido ou bloco com a maioria absoluta dos deputados; se nenhum a tiver, a de maior bancada. A Minoria é a representação seguinte que, em relação ao Governo, tenha posição diversa da Maioria. Cada representação escolhe seu líder em documento assinado pela maioria absoluta dos seus integrantes e comunicado à Mesa; o líder fica até nova indicação (RICD, arts. 9º, §§ 2º e 3º, e 13). O Líder da Minoria é indicado pela representação considerada Minoria (art. 11-A, § 1º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo: exerce até que a representação indique outro líder ou mude a composição da Minoria."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 89, IV"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 3º, IV"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 9º, 11-A e 13"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Provimento: o líder é escolhido pelos integrantes da bancada ou do bloco, não pela Casa inteira; 'eleicao-pelos-pares' é o termo mais próximo do vocabulário. A Lei 8.041/1990 diz que esses líderes são 'designados na forma regimental'. Na Câmara, a função de Maioria e Minoria é definida pelo partido ou bloco, mas o RICD só dá estrutura própria à Liderança da Minoria (art. 11-A).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

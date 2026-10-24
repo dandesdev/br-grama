@@ -1,0 +1,25 @@
+{
+  "id": "rel:congresso-elege-conselheiro-do-ccs",
+  "tipo": "relacao",
+  "nome": "Congresso elege os membros do Conselho de Comunicação Social",
+  "relacao": "elege",
+  "de": "org:congresso-nacional",
+  "para": "cargo:conselheiro-do-conselho-de-comunicacao-social",
+  "condicao": "Em sessão conjunta; as entidades de cada setor podem sugerir nomes à Mesa do Congresso.",
+  "vigencia": {
+    "de": "1991-12-31",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8389-1991",
+      "dispositivo": "art. 4º, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:silvio-costa-filho-ocupa-lider-da-maioria-na-camara-dos-deputados",
+  "tipo": "relacao",
+  "nome": "Silvio Costa Filho é Líder da Maioria na Câmara dos Deputados",
+  "relacao": "ocupa",
+  "de": "pessoa:silvio-costa-filho",
+  "para": "cargo:lider-da-maioria-na-camara-dos-deputados",
+  "condicao": "Pelo Republicanos (PE).",
+  "vigencia": {
+    "de": "2026-06-23",
+    "ate": null,
+    "nota": "Em exercício em 2026-10-23, com designação anterior à data de referência; logo, também em 2026-10-01."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-composicao-lideranca",
+      "dispositivo": "registro 18556, 'Liderança da Maioria na Câmara dos Deputados'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-autoriza-alienacao-de-terras-publicas",
+  "tipo": "relacao",
+  "nome": "Congresso aprova a venda ou concessão de terras públicas acima de 2.500 hectares",
+  "relacao": "autoriza",
+  "de": "org:congresso-nacional",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Alienar ou conceder, a qualquer título, terras públicas com mais de 2.500 hectares a uma pessoa física ou jurídica, ainda que por interposta pessoa, depende de aprovação prévia do Congresso. Não se aplica às alienações e concessões para reforma agrária.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XVII; art. 188, §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF fala em 'terras públicas' sem distinguir a esfera. Ligamos a relação ao Executivo federal, que administra as terras da União; não pesquisamos se e como a exigência se aplica às terras públicas dos estados e municípios.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

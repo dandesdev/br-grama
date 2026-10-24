@@ -1,0 +1,40 @@
+{
+  "id": "cargo:lider-da-maioria-no-senado-federal",
+  "tipo": "cargo",
+  "nome": "Líder da Maioria no Senado Federal",
+  "resumo": "Líder da representação que forma a Maioria no Senado Federal; por isso, membro do Conselho da República.",
+  "orgao": "org:senado-federal",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "A Maioria é o bloco ou partido com a maioria absoluta dos senadores; se nenhum a tiver, o de maior número de integrantes. A Minoria é o maior bloco ou partido que se opuser à Maioria. Os líderes da Maioria e da Minoria são os líderes desses blocos ou partidos; a constituição de cada uma é comunicada à Mesa pelos líderes que a compõem (RISF, art. 65, §§ 1º a 5º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo: exerce até que a representação indique outro líder ou mude a composição da Maioria."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 89, V"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 3º, V"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 65"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Provimento: o líder é escolhido pelos integrantes da bancada ou do bloco, não pela Casa inteira; 'eleicao-pelos-pares' é o termo mais próximo do vocabulário. A Lei 8.041/1990 diz que esses líderes são 'designados na forma regimental'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

@@ -318,8 +318,49 @@
       ],
       "seguintes": [
         {
+          "para": "creditos-adicionais",
+          "quando": "Se durante o ano faltar dotação ou surgir despesa sem dotação"
+        },
+        {
           "para": "prestacao-de-contas",
-          "quando": null
+          "quando": "Encerrado o exercício"
+        }
+      ]
+    },
+    {
+      "id": "creditos-adicionais",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:cmo",
+        "org:congresso-nacional"
+      ],
+      "acao": "Durante o ano, o orçamento é alterado por créditos adicionais votados pelo Congresso ou abertos por MP",
+      "detalhes": "Créditos suplementares e especiais dependem de lei, com indicação dos recursos, e são abertos por decreto; a CMO dá parecer e as duas Casas votam (CF, arts. 166 e 167, V; Lei 4.320/1964, art. 42). Para despesa imprevisível e urgente, o Presidente abre crédito extraordinário por medida provisória (arts. 62, § 1º, I, d, e 167, § 3º).",
+      "prazo": {
+        "texto": "A CMO aprecia os projetos de crédito até 20 de novembro; depois, eles vão direto ao Plenário do Congresso (Resolução 1/2006-CN, arts. 106 e 107)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 62, § 1º, I, d; art. 166, caput e § 1º, I; art. 167, V, e § 3º"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "arts. 40 a 44"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "arts. 106 e 107"
+        },
+        {
+          "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
+          "dispositivo": "arts. 106 e 107"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": "O crédito aberto passa a integrar a execução do ano"
         }
       ]
     },
@@ -455,12 +496,12 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais, que também passam pela CMO (art. 166, caput), não foram modelados. (4) As bancadas estaduais não têm entidade própria e aparecem só no texto da etapa 'loa-emendas'. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas.",
+  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais: etapa creditos-adicionais, acrescentada em f0-dinheiro-complementar, que volta à execução (ver obj:credito-adicional). (4) As bancadas estaduais não têm entidade própria e aparecem só no texto da etapa 'loa-emendas'. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas.",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; etapa por etapa conferida: ADCT, art. 35, § 2º, I a III, CF, arts. 47, 49, IX, 51, II, 57, 66, 71, I, 84, XXIII e XXIV, 99, 127, 134 e 165 a 168, LRF, arts. 4º e 9º, Lei 14.600/2023, art. 40, IV, e Res. 1/2006-CN, arts. 82, III a XV, 92, 115 e 116 (texto da Câmara); datas calculadas marcadas como inferidas em campos.etapas; fontes da etapa ldo-elaboracao completadas"
+    "tarefa": "f0-dinheiro-complementar",
+    "notas": "verificado antes em verificacao-f0-dinheiro; f0-dinheiro-complementar acrescentou a etapa creditos-adicionais, mudou os seguintes da etapa execucao e a nota (3); o resto não mudou"
   },
   "campos": {
     "etapas": {

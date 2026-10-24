@@ -1,0 +1,36 @@
+{
+  "id": "rel:eleitorado-nacional-delibera-plebiscito-e-referendo",
+  "tipo": "relacao",
+  "nome": "Os eleitores votam no plebiscito e no referendo",
+  "relacao": "delibera",
+  "de": "org:eleitorado-nacional",
+  "para": "obj:plebiscito-e-referendo",
+  "condicao": "Por voto direto e secreto; aprovado ou rejeitado por maioria simples. Nas mudanças de território, vota só a população diretamente interessada.",
+  "quorum": {
+    "regra": "maioria-simples"
+  },
+  "depende_de": [
+    "rel:congresso-convoca-plebiscito-e-referendo"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, caput, I e II"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "arts. 7º e 10"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O quórum de maioria simples está na Lei 9.709/1998 (art. 10); a CF não o fixa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

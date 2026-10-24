@@ -1,0 +1,38 @@
+{
+  "id": "rel:senado-fixa-aliquotas-de-referencia-cbs",
+  "tipo": "relacao",
+  "nome": "Senado fixa as alíquotas de referência da CBS",
+  "relacao": "edita",
+  "de": "org:senado-federal",
+  "para": "obj:tributo-cbs",
+  "condicao": "Por resolução, no ano anterior ao de sua vigência e com base no cálculo do TCU. A alíquota de referência é a que vale quando o ente não fixa a sua. De 2027 a 2033, deve repor a receita dos tributos substituídos; depois, o Senado a ajusta sempre que lei federal mudar a arrecadação.",
+  "depende_de": [
+    "rel:tcu-calcula-aliquotas-de-referencia-cbs"
+  ],
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Desde a EC 132/2023. As primeiras alíquotas valem para a CBS a partir de 2027 e para o IBS a partir de 2029, fixadas no ano anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 130, caput, I, e § 1º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, § 16, c/c art. 156-A, § 1º, XII, e § 9º, I"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 18, I, e 19"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Vocabulário: usamos 'edita' (o Senado cria a norma por ato próprio); não há termo específico para 'fixa alíquota'. A anterioridade do art. 150, III, c, não se aplica à fixação da transição (ADCT, art. 130, § 1º). Não pesquisamos se alguma resolução já tinha sido editada até 2026-10-01.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

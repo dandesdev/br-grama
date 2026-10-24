@@ -1,0 +1,30 @@
+{
+  "id": "rel:tse-homologa-plebiscito-e-referendo",
+  "tipo": "relacao",
+  "nome": "TSE homologa o resultado do plebiscito e do referendo",
+  "relacao": "homologa",
+  "de": "org:tse",
+  "para": "obj:plebiscito-e-referendo",
+  "condicao": "A Justiça Eleitoral marca a data, divulga a cédula, expede instruções e garante horário gratuito a partidos e frentes; o resultado vale conforme homologado pelo TSE.",
+  "depende_de": [
+    "rel:eleitorado-nacional-delibera-plebiscito-e-referendo"
+  ],
+  "vigencia": {
+    "de": "1998-11-19",
+    "ate": null,
+    "nota": "Atribuições fixadas pela Lei 9.709/1998."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "arts. 8º e 10"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei fala em 'Justiça Eleitoral, nos limites de sua circunscrição' para a organização (art. 8º) e em homologação pelo TSE (art. 10).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

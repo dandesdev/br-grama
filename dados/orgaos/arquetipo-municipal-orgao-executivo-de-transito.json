@@ -1,0 +1,51 @@
+{
+  "id": "org:arquetipo-municipal-orgao-executivo-de-transito",
+  "nome": "Órgão executivo de trânsito do município",
+  "resumo": "Fiscaliza o trânsito e o estacionamento nas vias do município, opera semáforos e sinalização e aplica multas, depois de o município se integrar ao Sistema Nacional de Trânsito.",
+  "detalhes": "Cabe-lhe, entre outras tarefas, fiscalizar e multar nas infrações de circulação, parada e estacionamento, algumas delas com exclusividade, e operar o estacionamento rotativo (CTB, art. 24, X e § 4º). Para isso o município precisa se integrar ao Sistema Nacional de Trânsito, por órgão próprio ou pela própria prefeitura (art. 24, § 2º).",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 144, § 10, II"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "Sob o Poder Executivo municipal, como a guarda municipal; pode ser órgão, entidade ou a própria prefeitura (CTB, art. 24, § 2º)."
+    },
+    "tipo_orgao": {
+      "confianca": "inferido",
+      "nota": "Tipo 'outro' porque pode ser órgão da administração direta, entidade (autarquia) ou a própria prefeitura."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 10"
+    },
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 7º, III; art. 24, caput, X, §§ 1º, 2º e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-01-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Competências atuais desde o CTB; o § 10 do art. 144 é da EC 82/2014."
+  },
+  "notas": "No DF, as competências municipais são exercidas pelo órgão executivo de trânsito do DF (CTB, art. 24, § 1º). Nem todo município está integrado ao Sistema Nacional de Trânsito; quantos estão não foi levantado.",
+  "tipo": "orgao",
+  "tipo_orgao": "outro",
+  "poder": "executivo",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rel:veneziano-vital-do-rego-ocupa-lider-da-maioria-no-senado-federal",
+  "tipo": "relacao",
+  "nome": "Veneziano Vital do Rêgo é Líder da Maioria no Senado Federal",
+  "relacao": "ocupa",
+  "de": "pessoa:veneziano-vital-do-rego",
+  "para": "cargo:lider-da-maioria-no-senado-federal",
+  "condicao": "Pelo MDB (PB).",
+  "vigencia": {
+    "de": "2025-02-19",
+    "ate": null,
+    "nota": "Em exercício em 2026-10-23, com designação anterior à data de referência; logo, também em 2026-10-01."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-composicao-lideranca",
+      "dispositivo": "registro 17553, 'Liderança da Maioria no Senado Federal'"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A API registra dataDesignacao 2025-02-18, mas a observação do registro diz que a designação foi em 19/2/2025 (Of. 24/2025-GLMDB); usamos a da observação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

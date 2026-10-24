@@ -27,3 +27,11 @@ concluida_em: null
 
 ## Diário
 - 2026-10-23 23:15 — iniciada; lendo instruções, modelo, processos existentes e quadro de cobertura
+- 2026-10-23 23:25 — gravados norma:lei-8389-1991, org:conselho-de-comunicacao-social
+- 2026-10-23 23:30 — gravados cargo:conselheiro-do-conselho-de-comunicacao-social, rel:congresso-elege-conselheiro-do-ccs, rel:ccs-auxilia-congresso (art. 224 coberto)
+- 2026-10-23 23:40 — gravados fonte:senado-api-composicao-lideranca, 4 cargos de líder da maioria/minoria (Câmara e Senado), 4 relações integra com org:conselho-da-republica e 4 ocupa (Silvio Costa Filho, Gustavo Gayer, Veneziano Vital do Rêgo, Ciro Nogueira), pelos dados abertos do Senado com designações anteriores a 2026-10-01 ainda vigentes em 2026-10-23
+- 2026-10-23 23:47 — gravado cargo:membro-cidadao-do-conselho-da-republica sem ocupantes (nenhum ato oficial encontrado); descartada a relação integra que repetiria o campo orgao (D34). Art. 89 coberto
+- 2026-10-23 23:58 — gravados norma:lei-11440-2006, cargo:chefe-de-missao-diplomatica-permanente, rel:presidente-indica-/senado-aprova-indicacao-/presidente-nomeia-chefe-de-missao-diplomatica-permanente, rel:senado-julga-comandante-da-marinha/-do-exercito/-da-aeronautica (art. 52, I e IV cobertos; XV continua lacuna)
+- 2026-10-24 00:05 — gravados rel:congresso-autoriza-atividades-nucleares, rel:congresso-autoriza-exploracao-em-terras-indigenas, rel:congresso-autoriza-alienacao-de-terras-publicas (art. 49, XIV, XVI e XVII; art. 188, § 1º; art. 231, § 3º)
+- 2026-10-24 00:12 — gravados obj:plebiscito-e-referendo, rel:congresso-convoca-plebiscito-e-referendo (relacao 'autoriza'; 'convoca' não serve), rel:deputados-propoem- e rel:senadores-propoem-plebiscito-e-referendo, rel:eleitorado-nacional-delibera-plebiscito-e-referendo, rel:tse-homologa-plebiscito-e-referendo (art. 14, I e II; art. 49, XV)
+- 2026-10-24 00:22 — gravados rel:senado-fixa-aliquotas-de-referencia-ibs/-cbs (relacao 'edita') e rel:tcu-calcula-aliquotas-de-referencia-ibs/-cbs (ADCT, art. 130; LC 214/2025, arts. 18 e 19)

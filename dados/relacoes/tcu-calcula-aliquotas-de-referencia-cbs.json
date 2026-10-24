@@ -1,0 +1,30 @@
+{
+  "id": "rel:tcu-calcula-aliquotas-de-referencia-cbs",
+  "tipo": "relacao",
+  "nome": "O TCU calcula as alíquotas de referência da CBS",
+  "relacao": "calcula",
+  "de": "org:tcu",
+  "para": "obj:tributo-cbs",
+  "condicao": "Faz o cálculo em que o Senado se baseia. Nos ajustes por mudança da lei, o TCU confere e decide em definitivo os cálculos enviados pelo Comitê Gestor do IBS e pelo Executivo federal e os remete ao Senado.",
+  "vigencia": {
+    "de": "2023-12-21",
+    "ate": null,
+    "nota": "Desde a EC 132/2023. As primeiras alíquotas valem para a CBS a partir de 2027 e para o IBS a partir de 2029, fixadas no ano anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 130, § 1º"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 19, § 1º, III, e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

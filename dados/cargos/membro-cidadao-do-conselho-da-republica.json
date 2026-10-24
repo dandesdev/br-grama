@@ -1,0 +1,97 @@
+{
+  "id": "cargo:membro-cidadao-do-conselho-da-republica",
+  "tipo": "cargo",
+  "nome": "Membro cidadão do Conselho da República",
+  "resumo": "Seis cidadãos brasileiros natos com mais de 35 anos: dois nomeados pelo Presidente, dois eleitos pelo Senado e dois pela Câmara, com mandato de três anos.",
+  "orgao": "org:conselho-da-republica",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "Dois membros",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 89, VII; art. 84, XVII"
+        },
+        {
+          "ref": "norma:lei-8041-1990",
+          "dispositivo": "art. 3º, VII, a"
+        }
+      ]
+    },
+    {
+      "quando": "Dois membros eleitos pelo Senado Federal",
+      "provimento": "escolha-pelo-legislativo",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, XIV; art. 89, VII"
+        },
+        {
+          "ref": "norma:lei-8041-1990",
+          "dispositivo": "art. 3º, VII, b"
+        }
+      ]
+    },
+    {
+      "quando": "Dois membros eleitos pela Câmara dos Deputados",
+      "provimento": "escolha-pelo-legislativo",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 51, V; art. 89, VII"
+        },
+        {
+          "ref": "norma:lei-8041-1990",
+          "dispositivo": "art. 3º, VII, c"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 225"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Cada membro tem suplente, nomeado ou eleito junto com ele. Até 15 dias antes do fim dos mandatos, a Presidência e cada Casa publicam os nomes dos novos conselheiros. Na Câmara, a eleição segue as regras da eleição da Mesa, sem a proporcionalidade partidária (RICD, art. 225).",
+  "vagas": 6,
+  "mandato": {
+    "anos": 3,
+    "vitalicio": false,
+    "reconducao": "vedada",
+    "inicio": "data da posse",
+    "nota": "Contado da posse (Lei 8.041/1990, art. 3º, § 3º)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro nato com mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 89, VII"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 89, VII"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 3º, VII e §§ 2º, 3º e 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Ocupantes não modelados: não encontramos ato oficial (decreto de nomeação ou resolução de eleição) que diga quem eram os membros cidadãos em 2026-10-01. Buscamos na web por notícias e atos de nomeação e eleição de 2023 a 2026, sem resultado; não consultamos o DOU edição a edição. Provimento dos eleitos: 'escolha-pelo-legislativo' é o termo mais próximo, embora a lei não preveja nomeação posterior pelo Presidente. As relações rel:camara-elege-conselho-da-republica, rel:senado-elege-conselho-da-republica e rel:presidente-nomeia-conselho-da-republica, de outra tarefa, apontam para o órgão porque este cargo não existia.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

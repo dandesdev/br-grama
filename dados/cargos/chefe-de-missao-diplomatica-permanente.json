@@ -1,0 +1,58 @@
+{
+  "id": "cargo:chefe-de-missao-diplomatica-permanente",
+  "tipo": "cargo",
+  "nome": "Chefe de Missão Diplomática Permanente (Embaixador)",
+  "resumo": "Embaixador que chefia uma embaixada ou missão permanente junto a organismo internacional; nomeado pelo Presidente depois de aprovado pelo Senado.",
+  "detalhes": "É a mais alta autoridade brasileira no país onde está acreditado. Em regra, é escolhido entre os Ministros de Primeira Classe da carreira diplomática.",
+  "orgao": "org:ministerio-das-relacoes-exteriores",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "provimento_nota": "O Presidente escolhe e envia o nome ao Senado, que aprova ou rejeita por voto secreto, depois de arguição em sessão secreta (CF, art. 52, IV). Aprovado, é nomeado pelo Presidente com o título de Embaixador (Lei 11.440/2006, art. 39). A escolha recai sobre Ministros de Primeira Classe ou, excepcionalmente, de Segunda Classe (arts. 41 e 46); também pode ser designado, em caráter excepcional, brasileiro nato de fora da carreira (art. 41, parágrafo único).",
+  "vagas": null,
+  "vagas_nota": "Uma por posto no exterior; o número de embaixadas e missões não foi levantado. A mesma regra vale para chefes de missão ou delegação permanente junto a organismo internacional (Lei 11.440/2006, art. 39).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "A CF e a lei não fixam prazo."
+  },
+  "requisitos": [
+    {
+      "texto": "Ministro de Primeira Classe da carreira diplomática ou, excepcionalmente, Ministro de Segunda Classe",
+      "fontes": [
+        {
+          "ref": "norma:lei-11440-2006",
+          "dispositivo": "arts. 41 e 46"
+        }
+      ]
+    },
+    {
+      "texto": "fora da carreira, só excepcionalmente: brasileiro nato, maior de 35 anos, de reconhecido mérito e com relevantes serviços prestados ao País",
+      "fontes": [
+        {
+          "ref": "norma:lei-11440-2006",
+          "dispositivo": "art. 41, parágrafo único"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, IV"
+    },
+    {
+      "ref": "norma:lei-11440-2006",
+      "dispositivo": "arts. 39 a 41 e 46"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Cargo agregado, sem ocupantes nominais (D11). Vigência desde a CF de 1988, que exige a aprovação do Senado (art. 52, IV); a regra de nomeação citada é a da Lei 11.440/2006. Os chefes de missão temporária (art. 56, I) não entram aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

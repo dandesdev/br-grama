@@ -1,0 +1,49 @@
+{
+  "id": "org:conselho-de-comunicacao-social",
+  "tipo": "orgao",
+  "nome": "Conselho de Comunicação Social",
+  "sigla": "CCS",
+  "resumo": "Órgão auxiliar do Congresso que faz estudos, pareceres e recomendações sobre comunicação social, como rádio, TV, imprensa e propaganda.",
+  "detalhes": "Tem 13 membros, cada um com suplente: representantes das empresas de rádio, de TV e de imprensa escrita, um engenheiro da área, representantes de jornalistas, radialistas, artistas e profissionais de cinema e vídeo, e cinco da sociedade civil. São eleitos pelo Congresso em sessão conjunta, para mandato de dois anos, com uma recondução. Só atua sobre o que o Congresso lhe encaminhar.",
+  "tipo_orgao": "colegiado",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 224"
+        },
+        {
+          "ref": "norma:lei-8389-1991",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "A CF e a lei o definem como órgão auxiliar do Congresso Nacional; as despesas correm pelo orçamento do Senado (Lei 8.389/1991, art. 7º)."
+    }
+  },
+  "vigencia": {
+    "de": "1991-12-31",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 224"
+    },
+    {
+      "ref": "norma:lei-8389-1991",
+      "dispositivo": "arts. 1º a 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Vigência a partir da lei que o instituiu (publicada em 31/12/1991); a data em que foi de fato instalado não foi pesquisada. O presidente e o vice-presidente são eleitos pelo próprio Conselho entre os cinco membros da sociedade civil (art. 5º). Reúne-se com a maioria absoluta dos membros, na sede do Congresso; a convocação extraordinária cabe ao Presidente do Senado ou ao presidente do Conselho (art. 6º). O regimento interno do Conselho depende de aprovação da Mesa do Senado (art. 3º). Os membros não foram modelados como pessoas (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

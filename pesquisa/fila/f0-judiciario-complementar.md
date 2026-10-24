@@ -25,3 +25,12 @@ concluida_em: null
 
 ## Diário
 - 2026-10-23 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o quadro de f0-cobertura (arts. 5º, 98, 100, 102, 105, 108, 111-A, 129, 130; ADCT 87, 101 a 107-A)
+- 2026-10-23 23:25 — gravado norma:lei-9099-1995
+- 2026-10-23 23:25 — gravado norma:lei-10259-2001
+- 2026-10-23 23:25 — gravado norma:lei-12153-2009
+- 2026-10-23 23:25 — gravado norma:lei-11798-2008
+- 2026-10-23 23:25 — gravado norma:lei-11697-2008
+- 2026-10-23 23:25 — gravado norma:lei-14824-2024
+- 2026-10-23 23:25 — gravado norma:decreto-lei-3689-1941
+- 2026-10-23 23:25 — gravado norma:decreto-lei-253-1967
+- 2026-10-23 23:25 — gravado norma:ec-136-2025

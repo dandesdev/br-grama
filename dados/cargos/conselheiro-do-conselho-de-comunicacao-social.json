@@ -1,0 +1,45 @@
+{
+  "id": "cargo:conselheiro-do-conselho-de-comunicacao-social",
+  "tipo": "cargo",
+  "nome": "Conselheiro do Conselho de Comunicação Social",
+  "resumo": "Um dos 13 membros do Conselho de Comunicação Social, eleitos pelo Congresso em sessão conjunta para mandato de dois anos.",
+  "orgao": "org:conselho-de-comunicacao-social",
+  "provimento": "escolha-pelo-legislativo",
+  "provimento_nota": "Os membros e seus suplentes são eleitos em sessão conjunta do Congresso Nacional; as entidades representativas de cada setor podem sugerir nomes à Mesa do Congresso. Oito vagas são de setores específicos (empresas de rádio, de televisão e de imprensa escrita; um engenheiro da área; jornalistas; radialistas; artistas; cinema e vídeo) e cinco da sociedade civil. A lei não prevê nomeação posterior pelo Executivo.",
+  "vagas": 13,
+  "vagas_nota": "Cada membro tem um suplente exclusivo (Lei 8.389/1991, art. 4º, § 1º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Durante o mandato, o membro tem estabilidade no emprego (art. 4º, § 5º)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro, maior de idade e de reputação ilibada",
+      "fontes": [
+        {
+          "ref": "norma:lei-8389-1991",
+          "dispositivo": "art. 4º, § 3º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1991-12-31",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8389-1991",
+      "dispositivo": "art. 4º; art. 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Provimento: o vocabulário não tem termo para 'eleito pelo Legislativo sem nomeação posterior'; usamos 'escolha-pelo-legislativo', o mais próximo. Ocupantes não modelados: são conselheiros de órgão auxiliar, fora da cúpula (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-autoriza-atividades-nucleares",
+  "tipo": "relacao",
+  "nome": "Congresso aprova as iniciativas nucleares do Executivo",
+  "relacao": "autoriza",
+  "de": "org:congresso-nacional",
+  "para": "org:poder-executivo-federal",
+  "condicao": "As iniciativas do Executivo sobre atividades nucleares dependem de aprovação do Congresso; toda atividade nuclear no país só é admitida para fins pacíficos e com essa aprovação. A localização de usinas com reator nuclear exige lei federal.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XIV; art. 21, XXIII, a; art. 225, § 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A aprovação é matéria de competência exclusiva do Congresso, por isso tramita como decreto legislativo (ver proc:decreto-legislativo). A instalação de usinas também depende de lei (art. 225, § 6º), que passa por sanção.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

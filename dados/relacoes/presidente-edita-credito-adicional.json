@@ -1,0 +1,31 @@
+{
+  "id": "rel:presidente-edita-credito-adicional",
+  "tipo": "relacao",
+  "nome": "O Presidente abre os créditos adicionais",
+  "relacao": "edita",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:credito-adicional",
+  "condicao": "Abre por decreto os créditos suplementares e especiais autorizados em lei; o crédito extraordinário, para despesa imprevisível e urgente, ele abre por medida provisória.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "A medida provisória como via do crédito extraordinário está expressa desde a EC 32/2001 (art. 62, § 1º, I, d)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 62, caput e § 1º, I, d; art. 167, V, e § 3º"
+    },
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "arts. 42 e 44"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A medida provisória de crédito extraordinário segue o rito de proc:medida-provisoria, com parecer da CMO (Res. 1/2006-CN, art. 110).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

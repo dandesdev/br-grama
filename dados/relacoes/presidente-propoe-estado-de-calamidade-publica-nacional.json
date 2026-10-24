@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-propoe-estado-de-calamidade-publica-nacional",
+  "tipo": "relacao",
+  "nome": "O Presidente pede ao Congresso o estado de calamidade pública nacional",
+  "relacao": "propoe",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:estado-de-calamidade-publica-nacional",
+  "condicao": "Iniciativa privativa: só o Presidente pode propor a decretação.",
+  "vigencia": {
+    "de": "2021-03-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XXVIII; art. 167-B"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Mesma competência de rel:presidente-da-republica-propoe-decreto-legislativo (f0-legislativo), que aponta para a espécie normativa; esta aponta para o regime.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:senadores-propoem-plebiscito-e-referendo",
+  "tipo": "relacao",
+  "nome": "Senadores propõem plebiscito ou referendo",
+  "relacao": "propoe",
+  "de": "cargo:senador",
+  "para": "obj:plebiscito-e-referendo",
+  "condicao": "Projeto de decreto legislativo assinado por, no mínimo, um terço dos membros do Senado.",
+  "quorum": {
+    "regra": "um-terco",
+    "nota": "Para apresentar a proposta: um terço dos membros do Senado."
+  },
+  "vigencia": {
+    "de": "1998-11-19",
+    "ate": null,
+    "nota": "A exigência de um terço vem da Lei 9.709/1998."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "art. 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:congresso-delibera-estado-de-calamidade-publica-nacional",
+  "tipo": "relacao",
+  "nome": "O Congresso decreta o estado de calamidade pública nacional",
+  "relacao": "delibera",
+  "de": "org:congresso-nacional",
+  "para": "obj:estado-de-calamidade-publica-nacional",
+  "condicao": "Competência exclusiva: decide sobre o pedido do Presidente e, se aprovar, decreta a calamidade, sem sanção presidencial.",
+  "depende_de": [
+    "rel:presidente-propoe-estado-de-calamidade-publica-nacional"
+  ],
+  "vigencia": {
+    "de": "2021-03-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 48, caput; art. 49, caput e XVIII; art. 167-B"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Verbo 'delibera' por falta de 'decreta' no vocabulário.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

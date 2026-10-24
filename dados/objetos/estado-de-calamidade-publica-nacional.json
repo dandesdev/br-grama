@@ -1,0 +1,38 @@
+{
+  "id": "obj:estado-de-calamidade-publica-nacional",
+  "tipo": "objeto",
+  "nome": "Estado de calamidade pública de âmbito nacional",
+  "resumo": "Situação decretada pelo Congresso, a pedido do Presidente, que abre um regime fiscal, financeiro e de contratações extraordinário para a União enfrentar a calamidade.",
+  "detalhes": "Enquanto durar, a União pode contratar pessoal temporário, obras e compras por processos simplificados, fica dispensada da regra de ouro e dos limites para operações de crédito no ano e aplica a si as vedações do mecanismo de ajuste fiscal (CF, arts. 167-B a 167-G). Estados, DF e municípios podem aderir às vedações (art. 167-G, § 3º).",
+  "tipo_objeto": "regra-fiscal",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "2021-03-16",
+    "ate": null,
+    "nota": "Arts. 49, XVIII, 84, XXVIII, e 167-B a 167-G incluídos pela EC 109/2021, em vigor na publicação."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 49, XVIII; art. 84, XXVIII; arts. 167-B a 167-G"
+    },
+    {
+      "ref": "norma:ec-109-2021",
+      "dispositivo": "art. 1º; art. 7º"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 65, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'regra-fiscal' porque o objeto é, sobretudo, o regime extraordinário que suspende regras fiscais; o ato que o decreta é um decreto legislativo (obj:decreto-legislativo; a CF não nomeia a espécie, ver rel:presidente-da-republica-propoe-decreto-legislativo). A LRF, art. 65, § 1º (LC 173/2020), dispensa outros limites para todos os entes quando o Congresso reconhece calamidade por decreto legislativo. Não pesquisamos se havia calamidade nacional decretada em 2026-10-01.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

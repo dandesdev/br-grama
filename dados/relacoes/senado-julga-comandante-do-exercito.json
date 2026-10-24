@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-julga-comandante-do-exercito",
+  "tipo": "relacao",
+  "nome": "Julgamento do Comandante do Exército pelo Senado",
+  "relacao": "julga",
+  "de": "org:senado-federal",
+  "para": "cargo:comandante-do-exercito",
+  "condicao": "Só crimes de responsabilidade conexos com os do Presidente ou do Vice-Presidente da República. Sessão presidida pelo Presidente do STF; condenação por dois terços, limitada à perda do cargo com inabilitação por oito anos.",
+  "quorum": {
+    "regra": "dois-tercos",
+    "nota": "Para condenar."
+  },
+  "vigencia": {
+    "de": "1999-09-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, I, e parágrafo único"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 377, I, e 378"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os Comandantes entraram no art. 52, I, pela EC 23/1999, que criou o Ministério da Defesa. A vigência começa na publicação da EC 23/1999 (DOU de 3/9/1999), conforme o quadro de emendas do Planalto (cópia em pesquisa/brutos/planalto-cf/2026-10-23/quadro_emc.htm).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

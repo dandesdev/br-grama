@@ -19,6 +19,7 @@ concluida_em: null
 - [ ] Colégio Pedro II (art. 242, § 2º) e Comissão de Anistia (ADCT, art. 8º; Lei 10.559/2002), se existirem em 2026-10-01.
 - [ ] Pendências de f0-defesa-seguranca: cargo de Diretor-Geral da PRF; Secretaria Nacional de Políticas Penais.
 - [ ] Aplicar a D39 (docs/decisoes.md) a toda entidade da administração indireta já existente e às que você criar: `contido_em` no Poder Executivo do ente (fonte: Decreto-Lei 200/1967, art. 4º, II, que você cria como `norma:decreto-lei-200-1967` depois de conferir no Planalto; para estados e municípios, a lei do ente ou o mesmo critério com nota) e relação `vincula-se` ao ministério ou secretaria supervisora (fonte: a que hoje está em `campos.contido_em`). Já existem e precisam da troca: `org:inss`, `org:anvisa`, `org:previc`, `org:funpresp-exe`, as unidades gestoras do regime próprio nos arquétipos (se forem autarquias) e as superintendências regionais criadas pela f0-federacao. A Anvisa já existe: não a recrie.
+- [ ] Quando criar `org:anp`, troque a origem das duas relações de repasse dos royalties do petróleo (hoje partem de `ente:uniao`, criadas pela f0-federacao) se a lei disser que a ANP distribui; justifique no diário.
 - [ ] Para cada artigo do escopo, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)

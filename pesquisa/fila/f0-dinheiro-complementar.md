@@ -1,9 +1,9 @@
 ---
 id: f0-dinheiro-complementar
 escopo: "Fatia 0, lacunas da varredura e pendências: dinheiro e regras fiscais, CF arts. 146, 163-A, 166, § 8º, 167, 167-A a 167-G, 239, 240; ADCT, arts. 40, 62, 76 a 76-B, 79 a 82, 92 a 92-B, 132, 138"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -25,3 +25,7 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+- 2026-10-23 23:19 — iniciada; lendo instruções, decisões, cobertura e diários de f0-dinheiro
+- 2026-10-23 23:25 — gravados norma:lei-4320-1964, obj:credito-adicional, rel:cmo-delibera-credito-adicional, rel:congresso-delibera-credito-adicional, rel:presidente-edita-credito-adicional (cópias das leis em pesquisa/brutos/planalto-leis/2026-10-23-dinheiro/)
+- 2026-10-23 23:25 — complementado proc:ciclo-orcamentario (de f0-dinheiro, já verificado): etapa nova creditos-adicionais depois de execucao (volta a execucao), seguintes de execucao com 'quando', nota (3) atualizada; verificacao volta a coletado
+- 2026-10-23 23:26 — gravados norma:ec-109-2021, obj:estado-de-calamidade-publica-nacional, rel:presidente-propoe-estado-de-calamidade-publica-nacional, rel:congresso-delibera-estado-de-calamidade-publica-nacional, proc:calamidade-publica-nacional (remete_a proc:decreto-legislativo, ainda não criado por f0-processos-legislativos)

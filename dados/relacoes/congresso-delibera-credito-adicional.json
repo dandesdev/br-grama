@@ -1,0 +1,32 @@
+{
+  "id": "rel:congresso-delibera-credito-adicional",
+  "tipo": "relacao",
+  "nome": "O Congresso vota os projetos de crédito adicional",
+  "relacao": "delibera",
+  "de": "org:congresso-nacional",
+  "para": "obj:credito-adicional",
+  "condicao": "As duas Casas apreciam, na forma do regimento comum, os projetos de crédito suplementar ou especial; sem essa autorização, a abertura é vedada (salvo o que a própria LOA autorizar).",
+  "depende_de": [
+    "rel:cmo-delibera-credito-adicional"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 165, § 8º; art. 166, caput; art. 167, V"
+    },
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "art. 42"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

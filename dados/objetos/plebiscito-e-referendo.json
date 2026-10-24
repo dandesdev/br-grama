@@ -1,0 +1,33 @@
+{
+  "id": "obj:plebiscito-e-referendo",
+  "tipo": "objeto",
+  "nome": "Plebiscito e referendo",
+  "resumo": "Consultas em que os eleitores decidem diretamente um tema relevante: o plebiscito vem antes do ato; o referendo, depois, para confirmá-lo ou rejeitá-lo.",
+  "detalhes": "Na esfera federal, são convocados por decreto legislativo, por proposta de um terço de uma das Casas. A Justiça Eleitoral marca a data e organiza a votação, e o resultado vale por maioria simples, homologado pelo TSE. Mudanças de território de estados e municípios exigem plebiscito próprio; nos temas de estados e municípios, a convocação segue a Constituição estadual e a lei orgânica.",
+  "tipo_objeto": "decisao",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:eleitorado-nacional"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, I e II; art. 49, XV; art. 18, §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "arts. 2º a 12"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Um só objeto para as duas consultas, como na proposta da varredura, porque têm o mesmo rito de convocação. O referendo pode ser convocado em até 30 dias da promulgação da lei ou da adoção da medida a que se refere (Lei 9.709/1998, art. 11). Convocado o plebiscito, o projeto ou a medida sobre o tema fica com a tramitação sustada até o resultado (art. 9º). A tramitação segue o Regimento Comum (art. 12). Não pesquisamos as consultas já realizadas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-processos-legislativos"
+  }
+}
