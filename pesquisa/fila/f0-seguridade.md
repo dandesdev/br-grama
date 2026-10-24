@@ -1,9 +1,9 @@
 ---
 id: f0-seguridade
 escopo: "Fatia 0, lacunas da varredura: seguridade social (saúde, previdência, assistência), CF arts. 40, 194 a 204, 248 a 250; ADCT, art. 122"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -22,3 +22,5 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+
+- 2026-10-23 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o quadro do f0-cobertura (arts. 40, 194 a 204, 248 a 250; ADCT, art. 122)

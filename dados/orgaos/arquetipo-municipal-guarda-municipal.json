@@ -8,6 +8,7 @@
   "poder": "executivo",
   "esfera": "municipal",
   "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-poder-executivo",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -32,11 +33,22 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "Arquétipo de um órgão facultativo: nem todo município tem guarda; quantos têm não foi pesquisado. Sem contido_em: não há nó do Executivo municipal além da Prefeitura (chefia). O texto do Planalto remete à ADPF 995 (STF) nos arts. 4º da Lei 13.022/2014 e 9º da Lei 13.675/2018. Resultado (notícia oficial do STF, fonte:stf-adpf-995): por maioria, em 25/8/2023, o STF decidiu que as guardas municipais integram o sistema de segurança pública. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
+  "notas": "Arquétipo de um órgão facultativo: nem todo município tem guarda; quantos têm não foi pesquisado. O texto do Planalto remete à ADPF 995 (STF) nos arts. 4º da Lei 13.022/2014 e 9º da Lei 13.675/2018. Resultado (notícia oficial do STF, fonte:stf-adpf-995): por maioria, em 25/8/2023, o STF decidiu que as guardas municipais integram o sistema de segurança pública. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
     "status": "verificado",
     "em": "2026-10-23",
     "tarefa": "verificacao-f0-defesa-seguranca",
-    "notas": "coletado em f0-defesa-seguranca; conferidos CF art. 144, § 8º, Lei 13.022/2014 arts. 2º, 4º a 7º e Lei 13.675/2018 art. 9º, § 2º, VII; acrescentado o resultado da ADPF 995"
+    "notas": "coletado em f0-defesa-seguranca; conferidos CF art. 144, § 8º, Lei 13.022/2014 arts. 2º, 4º a 7º e Lei 13.675/2018 art. 9º, § 2º, VII; acrescentado o resultado da ADPF 995; contido_em em org:arquetipo-municipal-poder-executivo acrescentado por verificacao-f0-tipicos (Lei 13.022/2014, art. 6º, parágrafo único)"
+  },
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13022-2014",
+          "dispositivo": "art. 6º, parágrafo único"
+        }
+      ],
+      "nota": "A guarda municipal é subordinada ao chefe do Poder Executivo municipal. Acrescentado por verificacao-f0-tipicos (2026-10-23), depois da criação do nó do Executivo municipal; mesmo critério das polícias estaduais em org:arquetipo-estadual-poder-executivo."
+    }
   }
 }

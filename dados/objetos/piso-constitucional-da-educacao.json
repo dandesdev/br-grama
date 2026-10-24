@@ -1,0 +1,42 @@
+{
+  "id": "obj:piso-constitucional-da-educacao",
+  "tipo": "objeto",
+  "nome": "Piso constitucional da educação",
+  "resumo": "Gasto mínimo com ensino: a União aplica ao menos 18% e estados, DF e municípios ao menos 25% da receita de impostos, incluídas as transferências.",
+  "detalhes": "O dinheiro vai para a manutenção e o desenvolvimento do ensino. O imposto que um ente transfere a outro conta só para quem o recebe (art. 212, § 1º), e esses recursos não podem pagar aposentadorias e pensões (art. 212, § 7º). Parte do piso de estados, DF e municípios forma o Fundeb (art. 212-A).",
+  "tipo_objeto": "regra-fiscal",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:df",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Percentuais na redação original do art. 212, caput. O § 7º foi incluído pela EC 108/2020."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212, caput e §§ 1º, 2º e 7º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212-A, caput"
+    }
+  ],
+  "campos": {
+    "nome": {
+      "confianca": "inferido",
+      "nota": "A CF não dá nome à regra; fala em aplicação mínima na manutenção e desenvolvimento do ensino. 'Piso' é o nome corrente."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "O que conta como despesa de manutenção e desenvolvimento do ensino está na LDB (Lei 9.394/1996, arts. 70 e 71). Descumprir o piso permite intervenção da União nos estados e dos estados nos municípios (CF, art. 34, VII, e; art. 35, III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-educacao"
+  }
+}

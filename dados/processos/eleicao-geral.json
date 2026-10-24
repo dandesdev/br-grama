@@ -11,7 +11,8 @@
       "id": "prazos-seis-meses",
       "atores": [
         "org:partidos-politicos",
-        "org:tse"
+        "org:tse",
+        "cargo:arquetipo-estadual-governador"
       ],
       "acao": "Seis meses antes: partidos e federações registrados no TSE; candidatos com domicílio e filiação; renúncias",
       "detalhes": "Só disputa a eleição o partido ou a federação com estatuto registrado no TSE até seis meses antes. O pretenso candidato precisa ter domicílio eleitoral na circunscrição e filiação deferida no mesmo prazo. Presidente, governadores e prefeitos que queiram concorrer a outro cargo devem renunciar até seis meses antes (CF, art. 14, § 6º).",
@@ -174,7 +175,8 @@
     {
       "id": "primeiro-turno",
       "atores": [
-        "org:eleitorado-nacional"
+        "org:eleitorado-nacional",
+        "org:arquetipo-estadual-eleitorado"
       ],
       "acao": "Eleitores votam, em todo o país, para Presidente, governador, senador, deputado federal e estadual ou distrital",
       "detalhes": "Voto direto e secreto, obrigatório dos 18 aos 70 anos e facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos (art. 14, § 1º). Em 2026 votam 158,7 milhões de eleitores aptos em 517.206 seções de 2.641 zonas eleitorais, segundo o TSE.",
@@ -248,7 +250,8 @@
     {
       "id": "segundo-turno",
       "atores": [
-        "org:eleitorado-nacional"
+        "org:eleitorado-nacional",
+        "org:arquetipo-estadual-eleitorado"
       ],
       "acao": "Nova votação entre os dois mais votados para Presidente e, onde houver, para governador",
       "detalhes": "Vence quem tiver a maioria dos votos válidos. Se antes do 2º turno um candidato morrer, desistir ou for impedido, entra o de maior votação entre os restantes; empate em segundo lugar favorece o mais idoso. A propaganda gratuita do 2º turno vai da sexta-feira seguinte ao 1º turno até a antevéspera (em 2026, de 9/10 a 23/10).",
@@ -315,7 +318,9 @@
         "org:congresso-nacional",
         "org:camara-dos-deputados",
         "org:senado-federal",
-        "org:arquetipo-estadual-assembleia-legislativa"
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "cargo:arquetipo-estadual-governador",
+        "cargo:arquetipo-estadual-vice-governador"
       ],
       "acao": "Posse: Presidente em 5/1, governadores em 6/1 e parlamentares a partir de 1º/2 do ano seguinte",
       "detalhes": "O Presidente e o Vice tomam posse em sessão do Congresso Nacional (art. 78). As datas de 5 e 6 de janeiro valem a partir da eleição de 2026 (EC 111/2021, art. 5º); até então a posse era em 1º de janeiro. Deputados federais e senadores tomam posse nas sessões preparatórias das Casas, a partir de 1º de fevereiro do primeiro ano da legislatura (art. 57, § 4º). Para a eleição de 2026: 5/1/2027, 6/1/2027 e a partir de 1º/2/2027.",
@@ -360,7 +365,7 @@
     "status": "verificado",
     "em": "2026-10-23",
     "tarefa": "verificacao-f0-eleicoes",
-    "notas": "coletado em f0-eleicoes; cada etapa conferida: datas de 2026 contra o Anexo I da Res. TSE 23.760/2026 (4/4 itens 1 a 3, 20/7, 5/8, 15/8, 16/8, 28/8 item 3, 14/9 item 2, 1º/10 item 1, 4/10, 9/10, 25/10, 18/12 item 1), todas certas; CF, arts. 14, 16, 28, 46, 57, § 4º, 77, 78 e 82, EC 111/2021, arts. 4º e 5º, Lei 9.504/1997, arts. 4º, 8º, 9º, 11, 16, 36, 47 e 49, LC 64/1990, art. 3º, Código Eleitoral, arts. 83, 84, 89, 106 a 111, 197, 212 e 215, conferidos. Apuração: regra das sobras completada com as duas fases e o efeito da decisão do STF"
+    "notas": "coletado em f0-eleicoes; cada etapa conferida: datas de 2026 contra o Anexo I da Res. TSE 23.760/2026 (4/4 itens 1 a 3, 20/7, 5/8, 15/8, 16/8, 28/8 item 3, 14/9 item 2, 1º/10 item 1, 4/10, 9/10, 25/10, 18/12 item 1), todas certas; CF, arts. 14, 16, 28, 46, 57, § 4º, 77, 78 e 82, EC 111/2021, arts. 4º e 5º, Lei 9.504/1997, arts. 4º, 8º, 9º, 11, 16, 36, 47 e 49, LC 64/1990, art. 3º, Código Eleitoral, arts. 83, 84, 89, 106 a 111, 197, 212 e 215, conferidos. Apuração: regra das sobras completada com as duas fases e o efeito da decisão do STF; atores estaduais acrescentados por verificacao-f0-tipicos (governador, vice e eleitorado estadual)"
   },
-  "notas": "A posse nas Assembleias Legislativas não foi pesquisada (depende das constituições estaduais); o ator org:arquetipo-estadual-assembleia-legislativa está na etapa só porque os deputados estaduais são eleitos nesta eleição. O governador típico (cargo:arquetipo-estadual-governador) foi criado depois desta nota; ligá-lo às etapas é pendência da revisão da f0-tipicos. Sobras: o Planalto marca 'Vide ADI 7228, 7263 e 7325' no art. 109, § 2º, e no art. 111 do Código Eleitoral; pelo STF (Informativo 1126), todos os partidos e candidatos participam da 3ª etapa de distribuição das sobras, sem as exigências de 80% e 20% do quociente, e o art. 111 é inconstitucional. Não detalhamos isso no texto da etapa para mantê-lo curto."
+  "notas": "A posse nas Assembleias Legislativas não foi pesquisada (depende das constituições estaduais); o ator org:arquetipo-estadual-assembleia-legislativa está na etapa só porque os deputados estaduais são eleitos nesta eleição. Ligações feitas pela revisão da f0-tipicos (2026-10-23): cargo:arquetipo-estadual-governador na etapa dos prazos de seis meses (renúncia para concorrer a outro cargo, art. 14, § 6º) e, com o vice, na posse (art. 28, caput); org:arquetipo-estadual-eleitorado nos dois turnos, porque elege governador, vice e deputados estaduais (art. 28, caput; art. 27, § 1º). A posse do governador nas Assembleias não foi detalhada. Sobras: o Planalto marca 'Vide ADI 7228, 7263 e 7325' no art. 109, § 2º, e no art. 111 do Código Eleitoral; pelo STF (Informativo 1126), todos os partidos e candidatos participam da 3ª etapa de distribuição das sobras, sem as exigências de 80% e 20% do quociente, e o art. 111 é inconstitucional. Não detalhamos isso no texto da etapa para mantê-lo curto."
 }

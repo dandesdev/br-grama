@@ -1,9 +1,9 @@
 ---
 id: f0-educacao
 escopo: "Fatia 0, lacunas da varredura: educação, CF arts. 211 a 214; ADCT, arts. 60 e 60-A"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -22,3 +22,5 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+- 2026-10-23 22:57 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o quadro de f0-cobertura (arts. 211 a 214; ADCT 60 e 60-A)
+- 2026-10-23 23:05 — gravado obj:piso-constitucional-da-educacao (CF, art. 212; conferidos arts. 34, VII, e, e 35, III no texto de 2026-10-16; nenhuma EC posterior a 2026-10-01 toca arts. 211 a 214 ou ADCT 60 e 60-A, conforme quadro de ECs de 2026-10-23)
