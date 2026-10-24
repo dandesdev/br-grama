@@ -1,0 +1,23 @@
+{
+  "id": "fonte:tse-consulta-cand-2022",
+  "tipo": "fonte",
+  "nome": "TSE, Dados Abertos: candidatos das Eleições Gerais de 2022 (consulta_cand_2022)",
+  "resumo": "Registro de candidaturas de 2022, com nome civil, partido e resultado de cada candidato, inclusive os governadores eleitos.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Tribunal Superior Eleitoral",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2022.zip",
+  "acesso_em": "2026-10-23",
+  "arquivo": "https://web.archive.org/web/20261024015344/https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2022.zip",
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "notas": "Baixado em 2026-10-23 (arquivos gerados em 23/10/2026). Usados os consulta_cand_2022_<UF>.csv, linhas de GOVERNADOR com DS_SIT_TOT_TURNO ELEITO (27 eleitos, um por UF). Não copiado para pesquisa/brutos porque contém CPF, e-mail e outros dados pessoais.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "verificacao-f0-tipicos"
+  }
+}

@@ -8,6 +8,10 @@
     {
       "ref": "fonte:alagoas-gov-governador",
       "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_AL.csv: NM_CANDIDATO PAULO SURUAGY DO AMARAL DANTAS, MDB"
     }
   ],
   "filiacoes": [
@@ -32,8 +36,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
-  }
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; TSE 2022 acrescentado; nome civil difere do TSE 2022 (sem Britto), anotado"
+  },
+  "notas": "Nome civil conforme a página do governo de Alagoas; no registro de candidatura de 2022 no TSE consta PAULO SURUAGY DO AMARAL DANTAS, sem Britto (possível mudança de nome depois de 2022; não conferida)."
 }

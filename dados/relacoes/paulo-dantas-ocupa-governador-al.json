@@ -20,6 +20,10 @@
       "dispositivo": null
     },
     {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_AL.csv: GOVERNADOR, PAULO DANTAS (MDB), ELEITO no 2º turno"
+    },
+    {
       "ref": "norma:ec-111-2021",
       "dispositivo": "art. 4º",
       "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
@@ -27,9 +31,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; data de início e exercício em 2026-10-01 conferidos na fonte do estado ou do TSE; TSE 2022 acrescentado onde cabe"
   },
   "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE), por isso o mandato vai até 6/1/2027 (EC 111/2021, art. 4º)."
 }

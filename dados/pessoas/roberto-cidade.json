@@ -6,6 +6,10 @@
   "resumo": "Governador do Amazonas na data de referência (1º/10/2026). Filiado ao União Brasil.",
   "fontes": [
     {
+      "ref": "fonte:doe-am-2026-09-30",
+      "dispositivo": "quadro da Governadoria"
+    },
+    {
       "ref": "fonte:gazeta-do-povo-roberto-cidade-eleito-2026",
       "dispositivo": null
     },
@@ -36,9 +40,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; fonte oficial acrescentada (DOE-AM / ata da ALE-RR)"
   },
   "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
 }

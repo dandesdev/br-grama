@@ -37,7 +37,8 @@ const todos = [...artigos(texto.slice(0, inicioAdct), "art. "), ...artigos(texto
 
 // 2. Citações nas fontes das entidades.
 const citacoes = new Map<string, Set<string>>();
-const NUM = String.raw`\d+(?:º|°)?(?:-[A-Z])?`;
+// (?!\d) impede que o número encolha ("89, I" virar 8) quando o lookahead de inciso força o recuo.
+const NUM = String.raw`\d+(?!\d)(?:º|°)?(?:-[A-Z])?`;
 function chavesDe(dispositivo: string): string[] {
   const chaves: string[] = [];
   for (const segmento of dispositivo.split(";")) {

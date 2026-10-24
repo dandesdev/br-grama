@@ -21,13 +21,18 @@
     {
       "ref": "fonte:doe-ro-2026-09-30",
       "dispositivo": "assinatura de 30/9/2026"
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_RO.csv: GOVERNADOR, CORONEL MARCOS ROCHA (UNIÃO), ELEITO no 2º turno"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; data de início e exercício em 2026-10-01 conferidos na fonte do estado ou do TSE; TSE 2022 acrescentado onde cabe"
   },
   "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE). Eleito em 2018 pelo PSL e reeleito em 2022 pelo União Brasil; filiou-se ao PSD em 30/1/2026, segundo a imprensa."
 }

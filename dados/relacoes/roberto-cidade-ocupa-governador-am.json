@@ -12,12 +12,29 @@
     "de": "2026-04",
     "ate": null,
     "incerta": true,
-    "nota": "Exerce o governo desde o início de abril de 2026 (dia não confirmado em fonte oficial): primeiro como presidente da Assembleia, depois da renúncia do governador Wilson Lima e do vice Tadeu de Souza; em 4/5/2026 foi eleito pela Assembleia para completar o mandato. Como o exercício foi contínuo, ficou uma relação só."
+    "nota": "Entre 2/4 e 6/4/2026: o Diário Oficial de 1º/4 ainda traz Wilson Lima e o vice Tadeu de Souza; o de 6/4, a edição seguinte, traz Roberto Cidade como governador, sem vice. Primeiro exerceu como presidente da Assembleia, depois da renúncia do governador e do vice; foi eleito pela Assembleia para completar o mandato (4/5/2026, segundo a imprensa), com Serafim Corrêa de vice, que já aparece no Diário Oficial de 4/5. Exercício contínuo, uma relação só."
   },
   "fontes": [
     {
+      "ref": "fonte:doe-am-2026-04-01",
+      "dispositivo": "quadro da Governadoria: Wilson Lima e Tadeu de Souza"
+    },
+    {
+      "ref": "fonte:doe-am-2026-04-06",
+      "dispositivo": "quadro da Governadoria e decretos de 6/4/2026"
+    },
+    {
+      "ref": "fonte:doe-am-2026-05-04",
+      "dispositivo": "quadro da Governadoria, com Serafim Corrêa de vice"
+    },
+    {
+      "ref": "fonte:doe-am-2026-09-30",
+      "dispositivo": "lei assinada em 30/9/2026"
+    },
+    {
       "ref": "fonte:gazeta-do-povo-roberto-cidade-eleito-2026",
-      "dispositivo": null
+      "dispositivo": null,
+      "nota": "data da eleição indireta (4/5/2026) e renúncia simultânea de governador e vice"
     },
     {
       "ref": "fonte:tse-consulta-cand-2026",
@@ -33,14 +50,15 @@
         }
       ],
       "confianca": "secundario",
-      "nota": "Datas só em fonte de imprensa; o TSE confirma que ele se registrou candidato em 2026 com a ocupação de governador."
+      "nota": "O início entre 2/4 e 6/4 vem do Diário Oficial; a data da eleição indireta e a renúncia simultânea do governador e do vice vêm da imprensa."
     }
   },
-  "confianca": "secundario",
+  "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: Diário Oficial do AM (1º/4, 6/4, 4/5 e 30/9/2026) acrescentado; secundario → oficial; janela de início 2/4 a 6/4 na nota"
   },
   "notas": "Caso atípico em 2026: dupla vacância na segunda metade do mandato, com eleição indireta pela Assembleia Legislativa. O vice eleito com ele é Serafim Corrêa (PSB), segundo a imprensa; não criamos a pessoa do vice (D11)."
 }

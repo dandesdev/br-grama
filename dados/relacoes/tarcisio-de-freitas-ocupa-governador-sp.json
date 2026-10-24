@@ -18,6 +18,10 @@
       "dispositivo": "consulta_cand_2026_SP.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'TARCÍSIO', SG_PARTIDO 'REPUBLICANOS', DS_OCUPACAO 'GOVERNADOR'"
     },
     {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_SP.csv: GOVERNADOR, TARCÍSIO (REPUBLICANOS), ELEITO no 2º turno"
+    },
+    {
       "ref": "norma:ec-111-2021",
       "dispositivo": "art. 4º",
       "nota": "governadores eleitos em 2022 tomaram posse em 1º/1/2023, com mandato até a posse dos sucessores em 6/1/2027"
@@ -25,9 +29,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; data de início e exercício em 2026-10-01 conferidos na fonte do estado ou do TSE; TSE 2022 acrescentado onde cabe"
   },
   "notas": "Eleito em 2022; candidato à reeleição em 2026."
 }

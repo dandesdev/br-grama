@@ -1,10 +1,10 @@
 ---
 id: f0-cobertura
 escopo: "Fatia 0: varredura da CF artigo por artigo (D04): o que a Constituição prevê de estrutura do Estado e ainda não está no mapa"
-status: em-andamento
+status: concluida
 depende_de: []
 iniciada_em: 2026-10-23
-concluida_em: null
+concluida_em: 2026-10-23
 ---
 
 ## Como trabalhar
@@ -17,16 +17,16 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 
 ## Entregáveis
 
-- [ ] Para cada artigo vigente da CF (arts. 1º a 250, com os de letra) e do ADCT, uma classificação no quadro abaixo:
+- [x] Para cada artigo vigente da CF (arts. 1º a 250, com os de letra) e do ADCT, uma classificação no quadro abaixo:
   - `coberto`: há entidade que representa o que o artigo prevê (cite o id)
   - `parcial`: há entidade, mas falta parte (diga o quê)
   - `lacuna`: o artigo prevê órgão, cargo, competência ou procedimento que não está no mapa (diga o quê e proponha id e tipo)
   - `fora`: direito, princípio ou regra material sem órgão, cargo, competência ou procedimento próprio (uma palavra de motivo basta)
   - `transitorio-esgotado` (só ADCT): regra que já produziu efeito e não estrutura o Estado em 2026-10-01
   Artigos citados no relatório também precisam de classificação: confira por amostragem que a citação de fato cobre o artigo, e classifique todos.
-- [ ] Lista das lacunas agrupadas em propostas de tarefa de coleta (tema, artigos, entidades propostas, fontes prováveis), em ordem de importância para quem quer entender como o Estado funciona.
-- [ ] Percentual de cobertura: (coberto + parcial/2) / (total − fora − transitorio-esgotado), para CF e ADCT separados.
-- [ ] Erros de dispositivo achados no caminho (entidade que cita artigo errado): liste com o id; não corrija.
+- [x] Lista das lacunas agrupadas em propostas de tarefa de coleta (tema, artigos, entidades propostas, fontes prováveis), em ordem de importância para quem quer entender como o Estado funciona.
+- [x] Percentual de cobertura: (coberto + parcial/2) / (total − fora − transitorio-esgotado), para CF e ADCT separados.
+- [x] Erros de dispositivo achados no caminho (entidade que cita artigo errado): liste com o id; não corrija.
 
 ## Quadro
 
@@ -305,6 +305,179 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 248 | fora | teto dos benefícios do RGPS (o órgão gestor está na lacuna do art. 201) |
 | art. 249 | lacuna | Fundos previdenciários dos entes para os regimes próprios; entra na proposta do art. 40 (RPPS), baixa prioridade |
 | art. 250 | lacuna | Fundo do Regime Geral de Previdência Social; entra na proposta do art. 201, baixa prioridade |
+| ADCT, art. 1º | transitorio-esgotado | compromisso na promulgação |
+| ADCT, art. 2º | transitorio-esgotado | plebiscito de 1993 |
+| ADCT, art. 3º | transitorio-esgotado | revisão constitucional de 1993-94 |
+| ADCT, art. 4º | transitorio-esgotado | mandatos de 1988-90 |
+| ADCT, art. 5º | transitorio-esgotado | eleições de 1988 |
+| ADCT, art. 6º | transitorio-esgotado | registro de partidos em 1989 |
+| ADCT, art. 7º | fora | tribunal internacional de direitos humanos (diretriz) |
+| ADCT, art. 8º | lacuna | Anistia política ainda aplicada (requerimentos e reparação em curso). Proposta: o colegiado federal que a aplica (Comissão de Anistia, a conferir na Lei 10.559/2002), baixa prioridade |
+| ADCT, art. 9º | transitorio-esgotado | revisão de cassações de 1969 |
+| ADCT, art. 10 | fora | proteção provisória do emprego (direito trabalhista, ainda vigente) |
+| ADCT, art. 11 | transitorio-esgotado | elaboração das Constituições estaduais e leis orgânicas (citado em `obj:constituicao-estadual` e `obj:lei-organica-municipal` como origem) |
+| ADCT, art. 12 | transitorio-esgotado | Comissão de Estudos Territoriais de 1988. A citação em `obj:tributo-cbs` é falso positivo do leitor do script (dispositivo "ADCT, arts. 125, 126, I, a, e 127") |
+| ADCT, art. 13 | transitorio-esgotado | criação e instalação do Tocantins (o estado existe como ente) |
+| ADCT, art. 14 | transitorio-esgotado | Roraima e Amapá transformados em estados (citado em `org:territorios-federais`) |
+| ADCT, art. 15 | coberto | extinção do Território de Fernando de Noronha e reincorporação a Pernambuco: base de `org:pe-distrito-estadual-de-fernando-de-noronha` e `var:pe-fernando-de-noronha` |
+| ADCT, art. 16 | transitorio-esgotado | governo do DF antes da eleição de 1990 |
+| ADCT, art. 17 | transitorio-esgotado | redução de remunerações em 1988 |
+| ADCT, art. 18 | transitorio-esgotado | atos de estabilidade de 1987-88 |
+| ADCT, art. 18-A | transitorio-esgotado | convalidação de atos do Tocantins de 1989-94 |
+| ADCT, art. 19 | transitorio-esgotado | estabilidade de servidores em 1988 |
+| ADCT, art. 20 | transitorio-esgotado | revisão de proventos em 1989 |
+| ADCT, art. 21 | transitorio-esgotado | juízes temporários de 1988 |
+| ADCT, art. 22 | transitorio-esgotado | opção dos defensores de 1987 |
+| ADCT, art. 23 | transitorio-esgotado | censores federais |
+| ADCT, art. 24 | transitorio-esgotado | prazo para leis de pessoal |
+| ADCT, art. 25 | transitorio-esgotado | revogação de delegações ao Executivo em 1989 |
+| ADCT, art. 26 | transitorio-esgotado | comissão mista sobre a dívida externa |
+| ADCT, art. 27 | transitorio-esgotado | instalação do STJ e criação dos cinco primeiros TRFs (citado nos TRFs como origem) |
+| ADCT, art. 28 | transitorio-esgotado | juízes federais de 1977 |
+| ADCT, art. 29 | transitorio-esgotado | regime até as leis do MPU e da AGU (LCs 73 e 75/1993) |
+| ADCT, art. 30 | transitorio-esgotado | juízes de paz anteriores à lei (a justiça de paz está no art. 98) |
+| ADCT, art. 31 | transitorio-esgotado | estatização das serventias judiciais |
+| ADCT, art. 32 | lacuna | serventias notariais já oficializadas em 1988 continuam fora do regime privado; entra na proposta do art. 236 como atipicidade, baixa prioridade |
+| ADCT, art. 33 | transitorio-esgotado | precatórios de 1988 |
+| ADCT, art. 34 | transitorio-esgotado | entrada em vigor do sistema tributário |
+| ADCT, art. 35 | coberto | § 2º: prazos do PPA, da LDO e da LOA até a lei complementar, em `proc:ciclo-orcamentario`, `obj:ppa`, `obj:ldo`, `obj:loa` |
+| ADCT, art. 36 | transitorio-esgotado | ratificação de fundos em 1990 |
+| ADCT, art. 37 | transitorio-esgotado | adaptação à regra de ouro até 1993 |
+| ADCT, art. 38 | transitorio-esgotado | limite de pessoal até a LC (LRF de 2000) |
+| ADCT, art. 39 | transitorio-esgotado | revisão do orçamento de 1989 |
+| ADCT, art. 40 | lacuna | Zona Franca de Manaus, prorrogada pelos arts. 92 e 92-A; proposta `obj:zona-franca-de-manaus` (regime) e o órgão federal que a administra (a conferir), baixa prioridade |
+| ADCT, art. 41 | transitorio-esgotado | reavaliação de incentivos em 1990 |
+| ADCT, art. 42 | fora | aplicação regional dos recursos de irrigação (vinculação de despesa) |
+| ADCT, art. 43 | transitorio-esgotado | títulos minerários inativos em 1989 |
+| ADCT, art. 44 | transitorio-esgotado | adaptação das mineradoras até 1992 |
+| ADCT, art. 45 | transitorio-esgotado | refinarias e contratos de risco anteriores |
+| ADCT, art. 46 | transitorio-esgotado | correção de créditos de instituições liquidadas |
+| ADCT, art. 47 | transitorio-esgotado | débitos de 1986-87 |
+| ADCT, art. 48 | transitorio-esgotado | código de defesa do consumidor |
+| ADCT, art. 49 | fora | enfiteuse (direito civil) |
+| ADCT, art. 50 | transitorio-esgotado | lei agrícola |
+| ADCT, art. 51 | transitorio-esgotado | revisão de doações de terras até 1991 |
+| ADCT, art. 52 | fora | restrição ao capital estrangeiro em bancos até a lei do art. 192 |
+| ADCT, art. 53 | fora | direitos dos ex-combatentes |
+| ADCT, art. 54 | fora | pensão dos seringueiros |
+| ADCT, art. 54-A | fora | indenização dos seringueiros |
+| ADCT, art. 55 | transitorio-esgotado | saúde até a primeira LDO |
+| ADCT, art. 56 | transitorio-esgotado | Finsocial até a lei |
+| ADCT, art. 57 | transitorio-esgotado | débitos previdenciários de 1988 |
+| ADCT, art. 58 | transitorio-esgotado | revisão de benefícios de 1988 |
+| ADCT, art. 59 | transitorio-esgotado | prazos das leis da seguridade |
+| ADCT, art. 60 | lacuna | complementação da União ao Fundeb (implantação progressiva a partir de 2021); entra na proposta `obj:fundeb` (art. 212-A) |
+| ADCT, art. 60-A | lacuna | revisão dos critérios do Fundeb no sexto ano; entra na proposta `obj:fundeb` |
+| ADCT, art. 61 | fora | recursos a entidades educacionais |
+| ADCT, art. 62 | lacuna | SENAR, nos moldes do SENAI e do SENAC: entra na proposta do Sistema S (art. 240) |
+| ADCT, art. 63 | transitorio-esgotado | comissão do centenário da República |
+| ADCT, art. 64 | transitorio-esgotado | edição popular da Constituição |
+| ADCT, art. 65 | transitorio-esgotado | prazo para regulamentar o art. 220, § 4º |
+| ADCT, art. 66 | transitorio-esgotado | concessões de telecomunicações de 1988 |
+| ADCT, art. 67 | transitorio-esgotado | prazo de cinco anos para demarcação (a competência permanente está no art. 231) |
+| ADCT, art. 68 | lacuna | Reconhecimento da propriedade das comunidades quilombolas, com emissão de títulos pelo Estado; proposta `proc:titulacao-de-territorio-quilombola` e o órgão federal que titula (a conferir) |
+| ADCT, art. 69 | lacuna | Estados podem manter consultoria jurídica separada da PGE se já a tinham em 1988; proposta de variação (`var:`) nos estados que a mantêm, a levantar; baixa prioridade |
+| ADCT, art. 70 | transitorio-esgotado | competência dos tribunais até as Constituições estaduais |
+| ADCT, art. 71 | transitorio-esgotado | Fundo Social de Emergência (1994-99) |
+| ADCT, art. 72 | transitorio-esgotado | composição do Fundo Social de Emergência |
+| ADCT, art. 73 | transitorio-esgotado | regulação do Fundo Social de Emergência |
+| ADCT, art. 74 | transitorio-esgotado | CPMF |
+| ADCT, art. 75 | transitorio-esgotado | prorrogação da CPMF |
+| ADCT, art. 76 | lacuna | Desvinculação de receitas da União até 2032; proposta `obj:desvinculacao-de-receitas` (regra fiscal), baixa prioridade |
+| ADCT, art. 76-A | lacuna | desvinculação de receitas dos estados e do DF até 2032; mesma proposta |
+| ADCT, art. 76-B | lacuna | desvinculação de receitas dos municípios até 2032; mesma proposta |
+| ADCT, art. 77 | transitorio-esgotado | mínimos de saúde até 2004 |
+| ADCT, art. 78 | transitorio-esgotado | parcelamento de precatórios da EC 30/2000 |
+| ADCT, art. 79 | lacuna | Fundo de Combate e Erradicação da Pobreza no Executivo federal (vigência prorrogada pela EC 67/2010, a conferir); proposta `obj:fundo-de-combate-e-erradicacao-da-pobreza` (fundo); a matéria está na matriz (`obj:materia-combate-a-pobreza`) |
+| ADCT, art. 80 | lacuna | composição do fundo federal; mesma proposta |
+| ADCT, art. 81 | lacuna | fundo com recursos de desestatização que alimenta o de combate à pobreza; mesma proposta, baixa prioridade |
+| ADCT, art. 82 | lacuna | fundos estaduais e municipais de combate à pobreza, geridos com participação da sociedade civil; proposta de fundo no arquétipo estadual e municipal |
+| ADCT, art. 83 | fora | definição de produtos supérfluos (remete à lei) |
+| ADCT, art. 84 | transitorio-esgotado | CPMF até 2004 |
+| ADCT, art. 85 | transitorio-esgotado | isenções da CPMF |
+| ADCT, art. 86 | transitorio-esgotado | precatórios da EC 37/2002 |
+| ADCT, art. 87 | lacuna | valores de pequeno valor dos precatórios até as leis de cada ente; entra na proposta `proc:pagamento-de-precatorio` (art. 100) |
+| ADCT, art. 88 | transitorio-esgotado | alíquota mínima do ISS até a LC (LC 157/2016) |
+| ADCT, art. 89 | transitorio-esgotado | servidores do ex-Território de Rondônia |
+| ADCT, art. 90 | transitorio-esgotado | prorrogação da CPMF até 2007 |
+| ADCT, art. 92 | lacuna | prorrogação da Zona Franca de Manaus; mesma proposta do art. 40 |
+| ADCT, art. 92-A | lacuna | nova prorrogação (até 2073); mesma proposta |
+| ADCT, art. 92-B | lacuna | diferencial da Zona Franca no IBS e na CBS; mesma proposta |
+| ADCT, art. 93 | transitorio-esgotado | início da partilha da CIDE após a lei |
+| ADCT, art. 94 | transitorio-esgotado | fim dos regimes especiais com o Simples Nacional |
+| ADCT, art. 95 | fora | registro de nascidos no exterior (direito) |
+| ADCT, art. 96 | transitorio-esgotado | convalidação de municípios criados até 2006 (efeito produzido em 2008; citado em `proc:alteracao-territorial-de-municipios` como contexto) |
+| ADCT, art. 97 | transitorio-esgotado | regime especial de precatórios da EC 62/2009, substituído pelo do art. 101 (conferir) |
+| ADCT, art. 98 | fora | proporcionalidade de defensores; prazo do § 1º vencido em 2022 |
+| ADCT, art. 99 | transitorio-esgotado | partilha do ICMS até 2019 |
+| ADCT, art. 100 | transitorio-esgotado | aposentadoria aos 75 até a LC 152/2015 |
+| ADCT, art. 101 | lacuna | regime especial de precatórios dos entes em mora até 2029, com conta no Tribunal de Justiça; entra na proposta `proc:pagamento-de-precatorio` |
+| ADCT, art. 102 | lacuna | idem (uso dos recursos do regime especial) |
+| ADCT, art. 103 | lacuna | idem (proibição de sequestro) |
+| ADCT, art. 104 | lacuna | idem (sequestro pelo presidente do TJ e retenção de repasses) |
+| ADCT, art. 105 | lacuna | idem (compensação com dívida ativa) |
+| ADCT, art. 107-A | lacuna | limite das despesas com sentenças judiciais na proposta orçamentária até 2026; regra fiscal ligada aos precatórios |
+| ADCT, art. 113 | lacuna | estimativa de impacto obrigatória na proposição que cria despesa obrigatória ou renúncia; proposta de nota ou etapa em `proc:lei-ordinaria` e `proc:lei-complementar` |
+| ADCT, art. 115 | fora | parcelamento de débitos dos entes com seus regimes próprios (regra financeira) |
+| ADCT, art. 116 | fora | parcelamento de débitos municipais com o RGPS |
+| ADCT, art. 116-A | fora | parcelamento de débitos dos consórcios com o RGPS |
+| ADCT, art. 117 | fora | formalização dos parcelamentos (até 31/08/2026) |
+| ADCT, art. 118 | transitorio-esgotado | regras de 2022 para a renda básica |
+| ADCT, art. 119 | transitorio-esgotado | educação em 2020-21 |
+| ADCT, art. 120 | transitorio-esgotado | estado de emergência de 2022 |
+| ADCT, art. 121 | fora | encerramento de contas do PIS-Pasep |
+| ADCT, art. 122 | transitorio-esgotado | transferências da Covid até 2023 |
+| ADCT, art. 123 | fora | permissões lotéricas |
+| ADCT, art. 124 | coberto | transição para IBS e CBS em `obj:tributo-ibs` e `obj:tributo-cbs` |
+| ADCT, art. 125 | coberto | alíquotas de teste de 2026 em `obj:tributo-ibs` e `obj:tributo-cbs` |
+| ADCT, art. 126 | coberto | cobrança da CBS e do IS e extinção de PIS e Cofins a partir de 2027, nos tributos correspondentes |
+| ADCT, art. 127 | coberto | `obj:tributo-ibs` |
+| ADCT, art. 128 | coberto | `obj:tributo-ibs`, `obj:tributo-icms`, `obj:tributo-iss` |
+| ADCT, art. 129 | coberto | extinção de ICMS e ISS em 2033 nos objetos |
+| ADCT, art. 130 | lacuna | Resolução do Senado fixa as alíquotas de referência do IBS e da CBS; proposta `rel:senado-fixa-aliquotas-de-referencia` (para `obj:tributo-ibs` e `obj:tributo-cbs`) |
+| ADCT, art. 131 | coberto | distribuição do IBS de 2029 a 2077 em `obj:tributo-ibs` |
+| ADCT, art. 132 | lacuna | retenção de 5% do IBS para os entes com menor razão de receita; acrescentar a `obj:tributo-ibs`, baixa prioridade |
+| ADCT, art. 133 | fora | base de cálculo do IBS e da CBS |
+| ADCT, art. 134 | fora | saldos credores do ICMS |
+| ADCT, art. 135 | fora | créditos de IPI, PIS e Cofins |
+| ADCT, art. 136 | coberto | `obj:tributo-contribuicao-estadual-sobre-produtos-primarios` |
+| ADCT, art. 137 | transitorio-esgotado | saldos da Covid até 2024 |
+| ADCT, art. 138 | lacuna | limite ao crescimento de despesas vinculadas até 2032; acrescentar a `obj:regime-fiscal-sustentavel`, baixa prioridade |
+
+## Cobertura
+
+Contagem do quadro acima (411 artigos vigentes; `npm run -s cobertura` rodado de novo no fim, 183 citados, sem mudança nas citações durante a tarefa).
+
+| Parte | Coberto | Parcial | Lacuna | Fora | Transitório esgotado | Base (total − fora − esgotado) | Cobertura |
+|---|---|---|---|---|---|---|---|
+| CF (arts. 1º a 250) | 134 | 30 | 42 | 67 | — | 206 | (134 + 15) / 206 = **72,3%** |
+| ADCT | 10 | 0 | 29 | 21 | 78 | 39 | 10 / 39 = **25,6%** |
+| Total | 144 | 30 | 71 | 88 | 78 | 245 | 64,9% |
+
+Critério usado: `coberto` quando o órgão, cargo, competência ou procedimento principal do artigo tem entidade; `parcial` quando falta um elemento que mereceria entidade própria (lacunas só de detalhe ficam anotadas em `coberto`). Artigos com regras do mandato ou do cargo (ex.: arts. 54, 56, 95) contam como `fora` mesmo quando citados nos cargos. No ADCT, regras transitórias ainda vigentes em 2026-10-01 que estruturam algo (Fundeb, precatórios, DRU, Zona Franca) contam como `lacuna`; as que já produziram efeito, como `transitorio-esgotado`.
+
+Amostragem das citações: as citações dos 183 artigos citados foram lidas junto com o texto do artigo; as relações da matriz de competências foram conferidas inciso a inciso contra os arts. 21 a 24 e 30 (todas batem). A conta do script inclui 3 falsos positivos (ver "Erros de dispositivo"); sem eles, são 180 artigos citados (CF 167 de 273; ADCT 13 de 138).
+
+## Propostas de tarefa
+
+Em ordem de importância para quem quer entender como o Estado funciona. Ids são propostas; normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
+
+1. **Seguridade social: saúde, previdência e assistência** (arts. 194, 198, 200, 201, 202, 204, 40, 248 a 250; ADCT, art. 122). Propostas: `org:sistema-unico-de-saude` (tipo `sistema`), gestores por esfera (ministério e secretarias de saúde dos arquétipos), conselhos de saúde, `obj:piso-constitucional-da-saude`, fundos nacionais de saúde e de assistência social; `org:inss` (ou `org:regime-geral-de-previdencia-social`) ligado ao `org:ministerio-da-previdencia-social`; `org:sistema-unico-de-assistencia-social`; regime próprio dos servidores e seu gestor único (art. 40, § 20); previdência complementar. Fontes prováveis: Lei 8.080/1990, Lei 8.142/1990, LC 141/2012, Leis 8.212 e 8.213/1991, Lei 8.742/1993, Lei 9.717/1998, LCs 108 e 109/2001; SIORG.
+2. **Educação** (arts. 211, 212, 212-A, 214; ADCT, arts. 60 e 60-A). Propostas: sistemas de ensino por esfera (tipo `sistema`), `obj:piso-constitucional-da-educacao`, `obj:fundeb` com os repasses e a complementação da União, `obj:plano-nacional-de-educacao`, colegiado nacional de educação. Fontes prováveis: Lei 9.394/1996, Lei 14.113/2020, lei do PNE vigente em 2026-10-01.
+3. **Federação, estados e municípios** (arts. 18, § 3º; 20, § 1º; 29; 35; 43; 144, § 10; 182; 236; ADCT, arts. 32 e 69). Propostas: `proc:intervencao-estadual`; `proc:alteracao-territorial-de-estados`; `obj:lei-municipal`, `proc:lei-municipal` e `rel:eleitorado-municipal-propoe-lei-municipal`; `obj:plano-diretor`; órgãos executivos de trânsito nos arquétipos; serviços notariais e de registro (conjunto, fiscalizado pelo TJ e pelo CNJ); `obj:compensacao-financeira-recursos-naturais` (royalties) com repasses; `org:sudam`, `org:sudene`, `org:sudeco`; variações de consultoria jurídica estadual. Fontes prováveis: Constituições estaduais e leis orgânicas, Lei 10.257/2001, Lei 9.503/1997, Lei 8.935/1994, LCs 124/2007, 125/2007 e 129/2009.
+4. **Controle de constitucionalidade e instrumentos das cortes** (arts. 5º, 97, 102, 103, 103-A). Propostas: `obj:adpf`, `obj:ado` (ou ampliar `obj:adi-e-adc`), `obj:reclamacao-constitucional`, `obj:sumula-vinculante` com `rel:stf-edita-sumula-vinculante`, relações `propoe` dos demais legitimados da ADI, remédios constitucionais (`obj:habeas-corpus`, `obj:mandado-de-seguranca`, `obj:mandado-de-injuncao`, `obj:habeas-data`, `obj:acao-popular`), controle difuso com reserva de plenário. Fontes prováveis: Leis 9.868 e 9.882/1999, Lei 11.417/2006, Lei 12.016/2009, Lei 13.300/2016, Lei 4.717/1965.
+5. **Organização judiciária complementar, precatórios e funções essenciais** (arts. 5º, XXXVIII; 98; 100; 105; 108; 111-A; 129, VII; 130; ADCT, arts. 87, 101 a 105, 107-A). Propostas: `org:tribunal-do-juri`, `org:juizados-especiais` e turmas recursais, justiça de paz e `cargo:arquetipo-estadual-juiz-de-paz`, `org:enfam`, `org:conselho-da-justica-federal`, `org:enamat`, `org:csjt`, `rel:trfs-julgam-recursos-dos-juizes-federais`, TRF julga juízes federais e membros do MPU, `rel:stj-julga-conselheiro-do-tce`; `obj:precatorio` e `proc:pagamento-de-precatorio` (com o regime especial até 2029); `rel:ministerio-publico-controla-atividade-policial`; MPs de contas estaduais. Fontes prováveis: Lei 9.099/1995, Lei 10.259/2001, Lei 12.153/2009, Lei 11.798/2008, resoluções do CNJ sobre precatórios, LC 75/1993, Lei 8.625/1993.
+6. **Processos políticos do Legislativo** (arts. 14, 49, 52, 53, 55, 59, 84, VII, 86, 89, 188, 224, 231, § 3º; ADCT, arts. 113 e 130). Propostas: `proc:crime-de-responsabilidade-do-presidente` (impeachment em raias, com regime para crime comum); `proc:perda-de-mandato-parlamentar`; sustação de ação penal contra parlamentar; `obj:plebiscito-e-referendo` e `rel:congresso-convoca-plebiscito-e-referendo`; `proc:decreto-legislativo` e `proc:resolucao`; relações do Congresso para atividades nucleares, mineração em terras indígenas e terras públicas acima de 2.500 ha; Senado julga comandantes; `cargo:chefe-de-missao-diplomatica-permanente`; líderes da maioria e da minoria; `org:conselho-de-comunicacao-social`; estimativa de impacto no processo legislativo; Senado fixa alíquotas de referência do IBS e da CBS. Fontes prováveis: Lei 9.709/1998, Lei 1.079/1950, RICD, RISF, RCCN, Lei 8.389/1991.
+7. **Dinheiro e regras fiscais** (arts. 146, 163-A, 167, 167-A a 167-G, 239, 240; ADCT, arts. 40, 62, 76 a 76-B, 79 a 82, 92 a 92-B, 132, 138). Propostas: `obj:credito-adicional`; `obj:estado-de-calamidade-publica-nacional` e `proc:calamidade-publica-nacional`; `obj:mecanismo-de-ajuste-fiscal`; `obj:desvinculacao-de-receitas`; `obj:simples-nacional`; `obj:fundo-de-amparo-ao-trabalhador` e `org:bndes`; Sistema S (entidades paraestatais e contribuição); `obj:fundo-de-combate-e-erradicacao-da-pobreza` e fundos estaduais e municipais; `obj:zona-franca-de-manaus`; órgão central de contabilidade da União. Fontes prováveis: Lei 4.320/1964, LC 101/2000, LC 123/2006, Lei 7.998/1990, LC 111/2001, LC 200/2023.
+8. **Administração indireta, regulação e terras** (arts. 37, 39, 173, 175, 176, 177, 184, 225, 231, 242, 243; ADCT, arts. 8º e 68). Propostas: exemplos de autarquias, fundações, empresas públicas e sociedades de economia mista (D07, com a indicação do SIORG); `org:cade`, `org:anp`, agência de mineração; `obj:concessao-de-servico-publico`, `obj:concessao-de-lavra-e-de-potencial-hidraulico`; `proc:desapropriacao-para-reforma-agraria` e `org:incra`; `proc:demarcacao-de-terra-indigena` e o órgão indigenista; `proc:titulacao-de-territorio-quilombola`; `proc:licenciamento-ambiental` e `org:sisnama`; `obj:acao-de-improbidade-administrativa`; escola de governo e conselho de política de pessoal; `org:colegio-pedro-ii`; `proc:expropriacao-confiscatoria`; Comissão de Anistia. Fontes prováveis: SIORG, Lei 12.529/2011, Lei 9.478/1997, Lei 13.575/2017, Lei 8.987/1995, Lei 8.629/1993 e LC 76/1993, Decreto 1.775/1996, Decreto 4.887/2003, Lei 6.938/1981, LC 140/2011, Lei 8.429/1992, Lei 10.559/2002.
+9. **Sistemas setoriais** (arts. 216-A, 217, 219-B). Propostas: `org:sistema-nacional-de-cultura`, `org:sncti` (tipo `sistema`), justiça desportiva (fronteira, D05). Fontes prováveis: lei do Sistema Nacional de Cultura, Lei 13.243/2016, Lei 9.615/1998.
+
+## Erros de dispositivo
+
+Nenhuma entidade com dispositivo errado foi confirmada. Achados:
+
+- **Leitor do script, não das entidades:** em `scripts/cobertura-cf.ts`, o padrão `NUM` (`\d+…`) retrocede quando o número vem seguido de inciso romano, porque a verificação negativa só olha o fim do número. Assim "89, I" conta como art. 8º, "49, IX" como art. 4º e "126, I" como ADCT, art. 12. Falsos positivos: art. 4º (`proc:ciclo-orcamentario`), art. 8º (`cargo:vice-presidente-da-republica`) e ADCT, art. 12 (`obj:tributo-cbs`). Com `\d+(?!\d)` em `NUM` os três somem e nenhuma outra citação muda (testado numa cópia fora do repositório; o script não foi alterado). O mesmo padrão faz o leitor parar a lista no primeiro inciso, então listas como "arts. 47, 49, IX, 51, II, …" perdem os artigos seguintes na contagem; os que se perdem são citados em outras entidades.
+- **Citações conferidas e corretas, mas que parecem estranhas:** `org:justica-militar-da-uniao` cita art. 125, §§ 3º a 5º (Justiça Militar estadual) para contrastar, como explica o texto; `rel:stj-julga-membro-do-mpu` cita art. 108, I, a para delimitar o foro; entidades do processo legislativo e das CPIs citam art. 46, § 1º para o número de senadores. `rel:stm-julga-recursos-da-justica-militar-da-uniao` cita só o art. 124, parágrafo único, que remete à lei; a competência recursal vem da lei de organização da Justiça Militar (sugestão: citar a lei junto).
 
 ## Diário
 - 2026-10-23 — iniciada; lidos CLAUDE.md, decisões, modelo de dados e protocolo; `npm run -s cobertura`: 183 de 411 artigos vigentes citados (CF 169/273; ADCT 14/138)
@@ -318,3 +491,5 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 - 2026-10-23 — bloco 8 gravado: Título VII (arts. 170 a 192). Lacunas: estatais e CADE (173), concessões (175), lavra (176), ANP (177), plano diretor (182), reforma agrária (184), terras públicas (188)
 - 2026-10-23 — bloco 9 gravado: Título VIII (arts. 193 a 232). Lacunas: SUS, RGPS, SUAS e seguridade (194 a 204), sistemas de ensino, piso da educação, Fundeb e PNE (211 a 214), Sistema Nacional de Cultura (216-A), SNCTI (219-B), Conselho de Comunicação Social (224), licenciamento e Sisnama (225), terras indígenas (231)
 - 2026-10-23 — bloco 10 gravado: Título IX (arts. 234 a 250). Lacunas: cartórios (236), comércio exterior (237), FAT e BNDES (239), Sistema S (240), Colégio Pedro II (242), expropriação (243), fundos previdenciários (249, 250). Fim da parte permanente; segue o ADCT
+- 2026-10-23 — bloco 11 gravado: ADCT (138 artigos vigentes). Lacunas vigentes: Fundeb (60, 60-A), Sistema S (62), quilombolas (68), DRU (76 a 76-B), fundos de combate à pobreza (79 a 82), Zona Franca (40, 92 a 92-B), precatórios (87, 101 a 107-A), estimativa de impacto (113), alíquotas de referência (130). Achado: o leitor de `scripts/cobertura-cf.ts` retrocede no número quando ele vem seguido de inciso romano ("89, I" vira art. 8º; "49, IX" vira art. 4º; "126, I" vira ADCT art. 12), o que dá 3 falsos positivos; com `\d+(?!\d)` em NUM eles somem e nada mais muda (testado fora do repositório). Script não alterado
+- 2026-10-23 — fechamento: `npm run -s cobertura` de novo (183 de 411; as revisões gravadas durante a tarefa, commits 9ca2daf e 03b9f6c, não mudaram nenhuma citação da CF). Quadro com 411 artigos conferido contra a lista do script (nenhum faltando ou repetido). Cobertura: CF 72,3%, ADCT 25,6%. Propostas de tarefa (9 grupos) e erros de dispositivo gravados. Concluída

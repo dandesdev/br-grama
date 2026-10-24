@@ -6,6 +6,10 @@
   "resumo": "Governador de Roraima na data de referência (1º/10/2026). Filiado ao Republicanos.",
   "fontes": [
     {
+      "ref": "fonte:ale-rr-diario-4645-2026",
+      "dispositivo": "ata da sessão solene de posse de 30/4/2026"
+    },
+    {
       "ref": "fonte:doe-rr-2026-09-25",
       "dispositivo": "assinatura 'GOVERNADOR DO ESTADO DE RORAIMA'"
     },
@@ -40,9 +44,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; fonte oficial acrescentada (DOE-AM / ata da ALE-RR)"
   },
   "notas": "Nome civil conforme o registro de candidatura no TSE (consulta_cand_2026), em maiúsculas como no original."
 }

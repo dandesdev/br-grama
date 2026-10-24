@@ -12,6 +12,10 @@
     {
       "ref": "fonte:to-gov-governador",
       "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_TO.csv: NM_CANDIDATO WANDERLEI BARBOSA CASTRO, REPUBLICANOS"
     }
   ],
   "filiacoes": [
@@ -26,6 +30,10 @@
         {
           "ref": "fonte:conexao-to-eli-borges-republicanos-2026",
           "dispositivo": "'governador Wanderlei Barbosa, presidente da sigla no estado'"
+        },
+        {
+          "ref": "fonte:tse-consulta-cand-2022",
+          "dispositivo": "eleito governador em 2022 pelo Republicanos"
         }
       ],
       "confianca": "secundario"
@@ -37,8 +45,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; TSE 2022 acrescentado; filiação de 2026 continua secundario (sem fonte oficial)"
   }
 }

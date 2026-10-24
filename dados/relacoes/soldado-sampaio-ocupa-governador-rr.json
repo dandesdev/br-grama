@@ -10,12 +10,15 @@
   ],
   "condicao": "Governador em exercício, como presidente da Assembleia Legislativa, até a posse do eleito na eleição suplementar.",
   "vigencia": {
-    "de": "2026-05",
+    "de": "2026-04-30",
     "ate": null,
-    "incerta": true,
-    "nota": "Assumiu como presidente da Assembleia depois que o TSE cassou o governador Edilson Damião, em 30/4/2026 (Antonio Denarium havia renunciado em 27/3/2026). O dia em que assumiu não foi conferido; maio de 2026 é dedução."
+    "nota": "Posse como governador interino em sessão solene da Assembleia em 30/4/2026, no mesmo dia em que o TSE cassou o governador Edilson Damião (Antonio Denarium havia renunciado em 27/3/2026)."
   },
   "fontes": [
+    {
+      "ref": "fonte:ale-rr-diario-4645-2026",
+      "dispositivo": "ata da sessão solene de posse de 30/4/2026"
+    },
     {
       "ref": "fonte:doe-rr-2026-09-25",
       "dispositivo": "assinatura 'GOVERNADOR DO ESTADO DE RORAIMA'"
@@ -37,9 +40,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: início 2026-05 (incerto) → 2026-04-30, pela ata da sessão solene de posse no Diário da ALE-RR nº 4645"
   },
   "notas": "Caso atípico em 2026. Na eleição suplementar de 21/6/2026, Arthur Henrique (PL) foi o mais votado, mas o resultado não foi proclamado nem houve diplomação até outubro de 2026, por pendências judiciais sobre a elegibilidade (notícias do TSE de junho de 2026 e da imprensa de 21/10/2026, não registradas como fonte). Sampaio também foi candidato na suplementar e é candidato a governador na eleição geral de 2026."
 }

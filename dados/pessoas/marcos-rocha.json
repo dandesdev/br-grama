@@ -12,6 +12,10 @@
     {
       "ref": "fonte:doe-ro-2026-09-30",
       "dispositivo": "assinatura de 30/9/2026"
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_RO.csv: NM_CANDIDATO MARCOS JOSÉ ROCHA DOS SANTOS, UNIÃO"
     }
   ],
   "filiacoes": [
@@ -37,8 +41,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
-  }
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; TSE 2022 acrescentado; filiação de 2026 continua secundario (sem fonte oficial)"
+  },
+  "notas": "Em 2022 foi eleito pelo União Brasil (TSE); a filiação ao PSD só tem fonte de imprensa."
 }

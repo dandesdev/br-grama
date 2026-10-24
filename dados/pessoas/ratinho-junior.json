@@ -2,7 +2,7 @@
   "id": "pessoa:ratinho-junior",
   "tipo": "pessoa",
   "nome": "Ratinho Junior",
-  "nome_civil": "Carlos Massa Ratinho Junior",
+  "nome_civil": "CARLOS ROBERTO MASSA JUNIOR",
   "resumo": "Governador do Paraná na data de referência (1º/10/2026). Filiado ao PSD.",
   "fontes": [
     {
@@ -12,6 +12,10 @@
     {
       "ref": "fonte:tnh1-ratinho-junior-conclui-mandato-2026",
       "dispositivo": null
+    },
+    {
+      "ref": "fonte:tse-consulta-cand-2022",
+      "dispositivo": "consulta_cand_2022_PR.csv: NM_CANDIDATO CARLOS ROBERTO MASSA JUNIOR, NM_URNA_CANDIDATO CARLOS MASSA RATINHO JUNIOR, PSD"
     }
   ],
   "filiacoes": [
@@ -26,6 +30,10 @@
         {
           "ref": "fonte:tnh1-ratinho-junior-conclui-mandato-2026",
           "dispositivo": "'Ratinho Júnior (PSD)'"
+        },
+        {
+          "ref": "fonte:tse-consulta-cand-2022",
+          "dispositivo": "eleito governador em 2022 pelo PSD"
         }
       ],
       "confianca": "secundario"
@@ -37,8 +45,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-tipicos"
-  }
+    "tarefa": "verificacao-f0-tipicos",
+    "notas": "coletado em f0-tipicos; corrigido: nome_civil era o nome de urna; passou a CARLOS ROBERTO MASSA JUNIOR (TSE 2022); filiação continua secundario"
+  },
+  "notas": "Nome civil conforme o registro de candidatura de 2022 no TSE, em maiúsculas como no original. \"Carlos Massa Ratinho Junior\", usado antes, é o nome de urna e o nome usado pelo governo do Paraná. Partido em 2026 só na imprensa; em 2022 ele foi eleito pelo PSD (TSE)."
 }
