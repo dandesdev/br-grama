@@ -1,0 +1,35 @@
+{
+  "id": "obj:acao-de-improbidade-administrativa",
+  "tipo": "objeto",
+  "nome": "Ação de improbidade administrativa",
+  "resumo": "Ação para punir agente público, ou quem se beneficie, por enriquecimento ilícito, dano ao erário ou ofensa aos princípios da administração.",
+  "detalhes": "As sanções vão da perda da função pública e da suspensão dos direitos políticos à multa e à proibição de contratar com o poder público. Pode ser proposta pelo Ministério Público ou pelo ente público lesado.",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": "1992-06-03",
+    "ate": null,
+    "nota": "Lei 8.429/1992; as regras atuais vêm da Lei 14.230/2021 e do julgamento das ADIs 7042 e 7043 (31/8/2022)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 37, § 4º"
+    },
+    {
+      "ref": "norma:lei-8429-1992",
+      "dispositivo": "art. 12; art. 17"
+    },
+    {
+      "ref": "fonte:stf-noticia-improbidade-2022-08-31",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A suspensão dos direitos políticos que resulta da condenação também aparece em obj:perda-ou-suspensao-de-direitos-politicos (art. 15, V).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

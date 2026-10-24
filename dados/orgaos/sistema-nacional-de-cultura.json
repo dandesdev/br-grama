@@ -1,0 +1,34 @@
+{
+  "id": "org:sistema-nacional-de-cultura",
+  "tipo": "orgao",
+  "nome": "Sistema Nacional de Cultura",
+  "sigla": "SNC",
+  "resumo": "Articula a União, os estados, o DF e os municípios que aderem, com a sociedade, para planejar e executar juntos as políticas públicas de cultura.",
+  "detalhes": "É formado por órgãos gestores da cultura, conselhos de política cultural, conferências, comissões intergestores, planos e sistemas de financiamento e de informações. Para aderir por completo, o ente faz lei do seu sistema de cultura e cria conselho, plano e fundo de cultura próprios.",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 216-A, caput e §§ 2º a 4º"
+    },
+    {
+      "ref": "norma:lei-14835-2024",
+      "dispositivo": "art. 5º, § 4º; arts. 6º a 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-11-30",
+    "ate": null,
+    "incerta": true,
+    "nota": "Art. 216-A incluído pela EC 71/2012 (data não conferida); marco regulatório pela Lei 14.835/2024."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema'. A adesão é voluntária (Lei 14.835/2024, arts. 5º, § 4º, e 9º: 'Estados que aderirem'); por isso não há relação 'integra' dos arquétipos. O Conselho Nacional de Política Cultural e o Plano Nacional de Cultura não têm nó.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -2,6 +2,26 @@
 
 Este arquivo é para a sessão que assume a coordenação da fatia 0. Ele diz onde o trabalho parou e o que fazer, em ordem. Quando tudo aqui estiver feito, apague este arquivo num commit.
 
+## Atualização: fim da segunda sessão (2026-10-24, 21h20 UTC)
+
+A segunda sessão parou de propósito ao chegar a 50% do uso (pedido do usuário: parar quando restar só 50%). Uso: rode  (janela de 5 h e semana) e pare de novo ao chegar a 50% em qualquer uma.
+
+| Tarefa | Coleta | Revisão |
+|---|---|---|
+| f0-controle-constitucionalidade | coletada | **verificada** |
+| f0-educacao | coletada | escrita, pendente |
+| f0-seguridade | coletada | escrita, pendente |
+| f0-federacao | coletada | escrita, pendente |
+| f0-processos-legislativos | **coletada** | escrita, pendente |
+| f0-dinheiro-complementar | **coletada** | escrita, pendente |
+| f0-judiciario-complementar | **coletada** | escrita, pendente |
+| f0-administracao-indireta | em andamento (parada pelo coordenador) | escrever ao terminar |
+
+- Próximo passo: relançar f0-administracao-indireta pelo diário (último registro: Comissão de Anistia, 21:10; o agente ia tratar do licenciamento ambiental:  cita , que não existe) e as 6 revisões pendentes, no máximo 4 agentes. Avise o revisor de seguridade sobre INSS, Anvisa, Previc e Funpresp-Exe (ver passo 3).
+- Termos criados nesta sessão (já postos como "aplique" nas revisões):  e  ampliados; , , ; ; ;  e  ampliado; .
+- Propostas de nova tarefa e decisões menores foram anotadas no diário de f0-fechamento.
+- Decisões de modelo ainda abertas (interino em , cargos eleitos no processo eleitoral,  em etapas): perguntar ao usuário no fechamento.
+
 ## Pedido do usuário
 
 "Siga e não pare a menos que precise perguntar algo." Conduza sozinho as coletas que faltam, as revisões e o fechamento da fatia 0. Pare só para perguntar o que for decisão do mantenedor. Fale com o usuário em português, curto, com placar (coletadas e verificadas).

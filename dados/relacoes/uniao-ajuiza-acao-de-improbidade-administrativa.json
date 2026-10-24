@@ -1,0 +1,32 @@
+{
+  "id": "rel:uniao-ajuiza-acao-de-improbidade-administrativa",
+  "tipo": "relacao",
+  "nome": "A União, se lesada, pode propor a ação de improbidade",
+  "relacao": "ajuiza",
+  "de": "ente:uniao",
+  "para": "obj:acao-de-improbidade-administrativa",
+  "condicao": "Quando sofreu o prejuízo; legitimidade concorrente com o Ministério Público, reconhecida pelo STF.",
+  "fontes": [
+    {
+      "ref": "fonte:stf-noticia-improbidade-2022-08-31",
+      "dispositivo": null
+    },
+    {
+      "ref": "norma:lei-8429-1992",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2022-08-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do julgamento das ADIs 7042 e 7043. Antes da Lei 14.230/2021 a lei já previa a legitimidade da pessoa jurídica interessada; esse histórico não foi modelado."
+  },
+  "notas": "O texto compilado do art. 17 ainda diz 'proposta pelo Ministério Público', com remissão às ADIs 7042 e 7043; a legitimidade do ente lesado vem da decisão do STF (notícia oficial; acórdão não lido). Vale também para as entidades da administração indireta lesadas, que não ganharam relação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "org:comissao-de-anistia",
+  "tipo": "orgao",
+  "nome": "Comissão de Anistia",
+  "resumo": "Colegiado do Ministério dos Direitos Humanos e da Cidadania que examina os pedidos de anistia política e assessora o Ministro na decisão.",
+  "detalhes": "Trata de quem foi atingido por atos de exceção por motivação política entre 1946 e 1988. Pode fazer diligências, ouvir testemunhas e propor o valor da reparação. Tem entre seus membros um representante do Ministério da Defesa e um dos anistiados.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11341-2023",
+          "dispositivo": "Anexo I, art. 2º, I, j (redação do Decreto 11.394/2023)"
+        }
+      ],
+      "nota": "Órgão de assistência direta e imediata ao Ministro. A Lei 10.559/2002, art. 12, ainda a situa no extinto Ministério da Mulher, da Família e dos Direitos Humanos."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 8º"
+    },
+    {
+      "ref": "norma:lei-10559-2002",
+      "dispositivo": "art. 12, caput e §§ 1º e 3º"
+    },
+    {
+      "ref": "norma:decreto-11341-2023",
+      "dispositivo": "Anexo I, art. 12"
+    }
+  ],
+  "vigencia": {
+    "de": "2002-11-14",
+    "ate": null,
+    "nota": "Criada pela Lei 10.559/2002 (antes pela MP 65/2002, data não conferida). Mudou de ministério várias vezes; histórico não modelado."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

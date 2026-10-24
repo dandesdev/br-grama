@@ -1,0 +1,30 @@
+{
+  "id": "org:sncti",
+  "tipo": "orgao",
+  "nome": "Sistema Nacional de Ciência, Tecnologia e Inovação",
+  "sigla": "SNCTI",
+  "resumo": "Sistema previsto na Constituição para organizar, em colaboração, entes públicos e privados que promovem a ciência, a tecnologia e a inovação.",
+  "detalhes": "A Constituição manda uma lei federal fixar as normas gerais do sistema e deixa estados, DF e municípios legislar sobre suas peculiaridades.",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 219-B"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-02-26",
+    "ate": null,
+    "incerta": true,
+    "nota": "Art. 219-B incluído pela EC 85/2015 (data não conferida)."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema'. Não localizamos a lei federal de normas gerais do art. 219-B, § 1º: a Lei 13.243/2016, citada no escopo, trata de estímulos à inovação e não menciona o SNCTI (texto lido no Planalto). A estrutura do Ministério da Ciência, Tecnologia e Inovação (Decreto 11.493/2023, Anexo I, art. 11, VIII) só manda 'articular-se com os agentes' do SNCTI; por isso não criamos relação 'coordena'. Sem integrantes ligados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

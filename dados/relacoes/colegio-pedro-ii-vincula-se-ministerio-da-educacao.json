@@ -1,0 +1,26 @@
+{
+  "id": "rel:colegio-pedro-ii-vincula-se-ministerio-da-educacao",
+  "tipo": "relacao",
+  "nome": "O Colégio Pedro II é vinculado ao Ministério da Educação",
+  "relacao": "vincula-se",
+  "de": "org:colegio-pedro-ii",
+  "para": "org:ministerio-da-educacao",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11892-2008",
+      "dispositivo": "art. 4º-A, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2012-06-26",
+    "ate": null,
+    "nota": "Art. 4º-A incluído pela Lei 12.677/2012 (DOU de 26/6/2012)."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

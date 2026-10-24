@@ -1,0 +1,32 @@
+{
+  "id": "obj:requerimento-de-anistia-politica",
+  "tipo": "objeto",
+  "nome": "Requerimento de anistia política",
+  "resumo": "Pedido de quem foi punido por motivação exclusivamente política entre 1946 e 1988 para ser declarado anistiado político e receber reparação.",
+  "detalhes": "A decisão pode reconhecer a condição de anistiado, reparação econômica em prestação única ou mensal, contagem de tempo de serviço e outros direitos.",
+  "tipo_objeto": "decisao",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "2002-11-14",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 8º"
+    },
+    {
+      "ref": "norma:lei-10559-2002",
+      "dispositivo": "art. 1º; art. 10"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

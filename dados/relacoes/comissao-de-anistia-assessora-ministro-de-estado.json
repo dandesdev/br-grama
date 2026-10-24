@@ -1,0 +1,32 @@
+{
+  "id": "rel:comissao-de-anistia-assessora-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "A Comissão de Anistia examina os pedidos e assessora o Ministro",
+  "relacao": "assessora",
+  "de": "org:comissao-de-anistia",
+  "para": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "condicao": "Nos requerimentos de anistia política.",
+  "fontes": [
+    {
+      "ref": "norma:lei-10559-2002",
+      "dispositivo": "art. 12, caput e § 3º"
+    },
+    {
+      "ref": "norma:decreto-11341-2023",
+      "dispositivo": "Anexo I, art. 12, I"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "No ministério atual desde 2023; a comissão existe desde 2002."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

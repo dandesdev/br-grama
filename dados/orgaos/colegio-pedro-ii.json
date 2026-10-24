@@ -1,0 +1,65 @@
+{
+  "id": "org:colegio-pedro-ii",
+  "tipo": "orgao",
+  "nome": "Colégio Pedro II",
+  "sigla": "CPII",
+  "resumo": "Autarquia federal de ensino no Rio de Janeiro, de educação básica e licenciaturas; é a única escola que a Constituição manda manter na esfera federal.",
+  "detalhes": "Integra a Rede Federal de Educação Profissional, Científica e Tecnológica, tem a mesma estrutura dos Institutos Federais e se organiza em vários campi.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-11892-2008",
+          "dispositivo": "art. 1º, V, e parágrafo único"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:colegio-pedro-ii-vincula-se-ministerio-da-educacao."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 256 (sigla 'CP II'), arquivo baixado em 2026-10-24"
+        }
+      ],
+      "nota": "O SIORG grafa 'CP II'; usamos sem espaço."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 242, § 2º"
+    },
+    {
+      "ref": "norma:lei-11892-2008",
+      "dispositivo": "art. 1º, V, e parágrafo único; art. 4º-A; arts. 13-A e 13-B"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-06-26",
+    "ate": null,
+    "nota": "Incluído na Rede Federal como autarquia, com o art. 4º-A, pela Lei 12.677, de 25/6/2012, em vigor na publicação (DOU de 26/6/2012; cópia em brutos). O colégio é muito anterior; histórico não modelado."
+  },
+  "confianca": "oficial",
+  "notas": "A estrutura regimental do Ministério da Educação (Decreto 12.769/2025, Anexo I, art. 2º, IV) remete as entidades vinculadas a 'regulamento específico'; a vinculação vem da própria lei.",
+  "mais_informacoes": [
+    {
+      "titulo": "Colégio Pedro II",
+      "url": "https://www.cp2.g12.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:ministerio-publico-da-uniao-promove-acao-de-improbidade-administrativa",
+  "tipo": "relacao",
+  "nome": "Ministério Público da União promove a ação de improbidade",
+  "relacao": "promove",
+  "de": "org:ministerio-publico-da-uniao",
+  "para": "obj:acao-de-improbidade-administrativa",
+  "condicao": "Na esfera federal. Pode pedir tutelas provisórias, como a indisponibilidade de bens.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8429-1992",
+      "dispositivo": "art. 17, caput e § 6º-A"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1992-06-03",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

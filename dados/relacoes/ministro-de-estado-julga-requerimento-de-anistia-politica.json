@@ -1,0 +1,35 @@
+{
+  "id": "rel:ministro-de-estado-julga-requerimento-de-anistia-politica",
+  "tipo": "relacao",
+  "nome": "O Ministro dos Direitos Humanos e da Cidadania decide os pedidos de anistia política",
+  "relacao": "julga",
+  "de": "cargo:ministro-de-estado",
+  "para": "obj:requerimento-de-anistia-politica",
+  "orgao_exercicio": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "condicao": "Depois do exame pela Comissão de Anistia.",
+  "depende_de": [
+    "rel:comissao-de-anistia-assessora-ministro-de-estado"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-10559-2002",
+      "dispositivo": "art. 10"
+    },
+    {
+      "ref": "norma:decreto-11341-2023",
+      "dispositivo": "Anexo I, art. 12, I"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "A lei atribui a decisão ao titular da pasta de direitos humanos (redação da Lei 13.844/2019, que cita o ministério anterior); o ministério atual é de 2023 (Lei 14.600/2023)."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

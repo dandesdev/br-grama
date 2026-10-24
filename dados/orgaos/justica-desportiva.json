@@ -1,0 +1,32 @@
+{
+  "id": "org:justica-desportiva",
+  "tipo": "orgao",
+  "nome": "Justiça desportiva",
+  "resumo": "Tribunais privados das entidades esportivas que julgam infrações disciplinares e questões das competições; o Judiciário só aceita essas causas depois deles.",
+  "detalhes": "Formada pelo Superior Tribunal de Justiça Desportiva, junto às entidades nacionais de cada esporte, pelos Tribunais de Justiça Desportiva, junto às regionais, e por comissões disciplinares. É independente das entidades que a custeiam e tem até 60 dias para a decisão final. Não faz parte do Poder Judiciário.",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 217, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:lei-9615-1998",
+      "dispositivo": "arts. 49, 50, caput e § 4º, e 52"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Prevista na CF de 1988; a organização atual vem da Lei 9.615/1998."
+  },
+  "confianca": "oficial",
+  "notas": "Caso de fronteira (D05): um nó só para o conjunto, sem contido_em. Não se aplica aos Comitês Olímpico e Paralímpico (Lei 9.615/1998, art. 51). A justiça desportiva antidopagem (art. 50-A e Lei 14.597/2023) não foi modelada. Os Códigos de Justiça Desportiva (art. 50) não foram lidos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}
