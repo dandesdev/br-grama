@@ -1,0 +1,47 @@
+{
+  "id": "org:sudam",
+  "tipo": "orgao",
+  "nome": "Superintendência do Desenvolvimento da Amazônia",
+  "sigla": "Sudam",
+  "resumo": "Autarquia federal que planeja e executa ações de desenvolvimento regional em Acre, Amapá, Amazonas, Mato Grosso, Rondônia, Roraima, Tocantins, Pará e a porção do Maranhão a oeste do meridiano 44º.",
+  "detalhes": "É um dos organismos regionais previstos no art. 43, § 1º, II, da CF. Tem sede em Belém (PA), um Conselho Deliberativo com governadores da região, ministros e representantes de municípios, empresários e trabalhadores, e uma Diretoria Colegiada (superintendente e mais quatro diretores) nomeada pelo Presidente da República.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-124-2007",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "D39: autarquia da União sob o Poder Executivo federal; a lei de criação diz que é autarquia vinculada ao ministério, não que integra o Executivo, por isso a posição é leitura nossa. A supervisão ministerial está em rel:sudam-vincula-se-ministerio-da-integracao."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 43, § 1º, II"
+    },
+    {
+      "ref": "norma:lc-124-2007",
+      "dispositivo": "arts. 1º, 2º, art. 8º e art. 10, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-01-04",
+    "ate": null,
+    "nota": "Data de publicação da lei complementar que a instituiu."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  },
+  "notas": "Exemplo de administração indireta (D07). A Diretoria Colegiada não tem nó de cargo próprio."
+}

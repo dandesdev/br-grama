@@ -1,0 +1,25 @@
+{
+  "tipo": "relacao",
+  "id": "rel:arquetipo-estadual-tj-exerce-poder-disciplinar-sobre-servicos-notariais-e-de-registro",
+  "nome": "O Judiciário estadual pune notários e registradores",
+  "relacao": "exerce-poder-disciplinar-sobre",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "org:arquetipo-estadual-servicos-notariais-e-de-registro",
+  "condicao": "Aplica repreensão, multa, suspensão e perda da delegação, esta por sentença judicial ou processo administrativo com ampla defesa; pode afastar o titular e nomear interventor.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8935-1994",
+      "dispositivo": "arts. 32, 34, 35 e 36"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "org:arquetipo-estadual-servicos-notariais-e-de-registro",
+  "tipo": "orgao",
+  "nome": "Cartórios (serviços notariais e de registro)",
+  "resumo": "Tabelionatos e registros exercidos por particulares, por delegação do poder público, aprovados em concurso e fiscalizados pelo Judiciário de cada estado.",
+  "detalhes": "Garantem publicidade, autenticidade e segurança dos atos jurídicos: escrituras, protestos, registro de imóveis, de pessoas e de documentos (Lei 8.935/1994, arts. 1º e 5º). O titular é profissional do direito com fé pública, entra por concurso feito pelo Judiciário e gere a serventia por conta própria (arts. 3º, 14, 15 e 21). Não é concessão de serviço público: é função estatal delegada a pessoa natural (STF, ADI 2.415).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 236, caput e §§ 1º a 3º; art. 103-B, § 4º, III"
+    },
+    {
+      "ref": "norma:lei-8935-1994",
+      "dispositivo": "arts. 1º, 3º, 5º, 14, 15, 21, 37 e 38"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-236",
+      "dispositivo": "ADI 2.415; ADI 3.643; ADI 417"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-8935-1994",
+      "dispositivo": "art. 5º",
+      "nota": "sete especialidades de titulares (notas, contratos marítimos, protesto, imóveis, títulos e documentos e pessoas jurídicas, pessoas naturais, distribuição); as serventias de cada estado estão nos cadastros do Judiciário local e do CNJ"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Regime privado por delegação desde a CF de 1988 (art. 236); a lei geral é de 1994."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  },
+  "notas": "Caso de fronteira (D05): poder 'nao-estatal' porque o titular é particular, embora a atividade seja estatal (ADI 3.643); tipo 'conjunto' porque representa milhares de serventias. Sem contido_em: não integram o Tribunal de Justiça. Atipicidade: as serventias já oficializadas pelo poder público em 1988 ficaram fora do regime privado (ADCT, art. 32); não levantamos quais estados ainda as têm. No DF, o concurso e a fiscalização cabem ao TJDFT (ver var:df-tjdft)."
+}

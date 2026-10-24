@@ -1,0 +1,33 @@
+{
+  "id": "org:sistema-unico-de-assistencia-social",
+  "tipo": "orgao",
+  "nome": "Sistema Único de Assistência Social",
+  "sigla": "Suas",
+  "resumo": "Sistema descentralizado e participativo que organiza a assistência social da União, dos estados, do DF e dos municípios, com cofinanciamento e gestão compartilhada.",
+  "detalhes": "A União coordena e edita normas gerais; estados e municípios coordenam e executam os programas, com entidades beneficentes. Os serviços chegam à população sobretudo pelos centros de referência (Cras e Creas). Cada esfera tem conselho de assistência social paritário entre governo e sociedade civil, e só recebe repasses quem tem conselho, fundo e plano de assistência social.",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 194, caput; art. 204, I e II"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "arts. 6º, 6º-C, 11, 16 e 30"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-07-07",
+    "ate": null,
+    "nota": "O nome Suas e o art. 6º atual da Lei 8.742/1993 vêm da Lei 12.435, de 6/7/2011, em vigor na publicação (art. 4º), DOU de 7/7/2011 (texto em pesquisa/brutos/planalto-leis/2026-10-23-seguridade/l12435.htm). A organização descentralizada e participativa já estava na CF (art. 204) e na redação original da Lei 8.742/1993."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema', como o SUS e o Susp. Integram o Suas os entes federativos, os conselhos de assistência social e as entidades de assistência social (Lei 8.742/1993, art. 6º, § 2º); os órgãos gestores estaduais e municipais não têm nó próprio. O benefício de prestação continuada (art. 203, V) é pago pelo INSS (ver org:inss). Integra a seguridade social (CF, art. 194), que não tem nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

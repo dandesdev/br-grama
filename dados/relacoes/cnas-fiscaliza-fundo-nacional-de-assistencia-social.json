@@ -1,0 +1,30 @@
+{
+  "id": "rel:cnas-fiscaliza-fundo-nacional-de-assistencia-social",
+  "tipo": "relacao",
+  "nome": "O CNAS orienta e controla o Fundo Nacional de Assistência Social",
+  "relacao": "fiscaliza",
+  "de": "org:conselho-nacional-de-assistencia-social",
+  "para": "obj:fundo-nacional-de-assistencia-social",
+  "condicao": "Controle social: o fundo é gerido pelo ministério sob orientação e controle do conselho, que recebe relatórios trimestrais e anuais de execução.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 19, VII; art. 28, § 1º"
+    },
+    {
+      "ref": "norma:decreto-11392-2023",
+      "dispositivo": "Anexo I, art. 46, X"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Como no caso do CNS e do FNS, 'fiscaliza' é controle social, não controle externo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

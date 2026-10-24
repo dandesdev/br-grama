@@ -1,0 +1,30 @@
+{
+  "id": "rel:sudam-vincula-se-ministerio-da-integracao",
+  "tipo": "relacao",
+  "nome": "A Sudam é supervisionada pelo Ministério da Integração",
+  "relacao": "vincula-se",
+  "de": "org:sudam",
+  "para": "org:ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "condicao": "Supervisão ministerial, sem hierarquia; o ministro preside o Conselho Deliberativo, salvo quando presente o Presidente da República.",
+  "fontes": [
+    {
+      "ref": "norma:lc-124-2007",
+      "dispositivo": "art. 1º; art. 8º, § 1º"
+    },
+    {
+      "ref": "norma:decreto-12504-2025",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 1"
+    }
+  ],
+  "notas": "A lei complementar fala em Ministério da Integração Nacional; a pasta atual é o Ministério da Integração e do Desenvolvimento Regional, que lista a Sudam entre as entidades vinculadas (Decreto 12.504/2025).",
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2007-01-04",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

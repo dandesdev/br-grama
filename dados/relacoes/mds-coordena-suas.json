@@ -1,0 +1,35 @@
+{
+  "id": "rel:mds-coordena-suas",
+  "tipo": "relacao",
+  "nome": "O MDS coordena o Suas",
+  "relacao": "coordena",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "para": "org:sistema-unico-de-assistencia-social",
+  "condicao": "Instância coordenadora da política nacional de assistência social: propõe normas ao CNAS, transfere recursos do fundo nacional e presta assessoria técnica a estados e municípios.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 204, I"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 6º, § 3º; art. 19"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 27, III e X"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "nota": "Data da Lei 14.600/2023, base usada aqui; a coordenação federal existe desde a Lei 8.742/1993 (órgãos anteriores não pesquisados)."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 8.742/1993, art. 6º, § 3º, nomeia o antigo Ministério do Desenvolvimento Social e Combate à Fome; a área é hoje do MDS (Lei 14.600/2023, art. 27, III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

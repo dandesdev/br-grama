@@ -1,0 +1,58 @@
+{
+  "id": "obj:compensacao-financeira-recursos-naturais",
+  "tipo": "objeto",
+  "nome": "Royalties e compensações financeiras pela exploração de recursos naturais",
+  "resumo": "Pagamentos de quem explora petróleo, gás, minérios ou rios para energia, divididos por lei entre União, estados, DF e municípios, sobretudo os produtores.",
+  "detalhes": "A CF garante aos entes participação no resultado da exploração ou compensação financeira (art. 20, § 1º). Há três regimes: royalties e participação especial do petróleo e gás (Lei 9.478/1997), compensação pelo uso de recursos hídricos para energia (Leis 7.990/1989 e 8.001/1990, art. 1º) e CFEM, dos minérios (Lei 8.001/1990, art. 2º). Os recursos não podem pagar dívida nem quadro permanente de pessoal, salvo exceções da lei (Lei 7.990/1989, art. 8º).",
+  "tipo_objeto": "fundo",
+  "esfera": "nacional",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 20, § 1º"
+    },
+    {
+      "ref": "norma:lei-7990-1989",
+      "dispositivo": "arts. 1º, 6º, 8º e 9º"
+    },
+    {
+      "ref": "norma:lei-8001-1990",
+      "dispositivo": "art. 1º; art. 2º, § 2º"
+    },
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "arts. 47 a 50"
+    },
+    {
+      "ref": "fonte:stf-adi-4917",
+      "dispositivo": "liminar de 18/3/2013"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-20",
+      "dispositivo": "ADI 4.606; RE 228.800"
+    }
+  ],
+  "campos": {
+    "tipo_objeto": {
+      "confianca": "inferido",
+      "nota": "O vocabulário não tem tipo para receita; 'fundo' foi o mais próximo (recursos com destino definido em norma). Para o STF não é tributo (RE 228.800): é receita patrimonial originária de cada ente afetado, com recolhimento e repartição definidos pela União (ADI 4.606)."
+    }
+  },
+  "notas": "Divisão em vigor em 1º/10/2026: hidrelétricas, 25% estados, 65% municípios e 10% órgãos federais (Lei 8.001/1990, art. 1º); CFEM, 15% estados e DF produtores, 60% municípios produtores, 15% municípios afetados e 10% órgãos federais (art. 2º, § 2º); petróleo, a parte de até 5% segue os critérios da Lei 7.990/1989 e a parte acima de 5% segue o art. 49 da Lei 9.478/1997. As regras da Lei 12.734/2012 para a produção no mar (fundos especiais para todos os estados e municípios) estão suspensas por liminar do STF de 18/3/2013 (ADI 4.917); o julgamento de mérito começou em 6/5/2026 e não tinha terminado em 1º/10/2026 (fato com fonte, sem aviso: D36). Na produção no mar, o texto anterior a 2012 dá 22,5% da parcela acima de 5% aos estados e 22,5% aos municípios confrontantes (redação original do art. 49, II). O regime de partilha (Lei 12.351/2010) não foi detalhado.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Redação atual do art. 20, § 1º, dada pela EC 102/2019."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

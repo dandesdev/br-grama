@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-municipal-conselho-de-assistencia-social-integra-suas",
+  "tipo": "relacao",
+  "nome": "O conselho municipal de assistência social é instância deliberativa do Suas",
+  "relacao": "integra",
+  "de": "org:arquetipo-municipal-conselho-de-assistencia-social",
+  "para": "org:sistema-unico-de-assistencia-social",
+  "condicao": "Instância deliberativa no município.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 6º, § 2º; art. 16, IV"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

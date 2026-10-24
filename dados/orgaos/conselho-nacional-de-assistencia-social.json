@@ -1,0 +1,49 @@
+{
+  "id": "org:conselho-nacional-de-assistencia-social",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Assistência Social",
+  "sigla": "CNAS",
+  "resumo": "Colegiado paritário que aprova a política nacional de assistência social, normatiza os serviços do setor e acompanha o Fundo Nacional de Assistência Social.",
+  "detalhes": "Tem 18 membros nomeados pelo Presidente da República, com mandato de dois anos e uma recondução: nove do governo (inclusive um dos estados e um dos municípios) e nove da sociedade civil (usuários, entidades e trabalhadores do setor). Elege seu presidente para mandato de um ano. Convoca a cada quatro anos a Conferência Nacional de Assistência Social.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8742-1993",
+          "dispositivo": "art. 17, caput"
+        },
+        {
+          "ref": "norma:decreto-11392-2023",
+          "dispositivo": "Anexo I, art. 2º, III, e art. 47"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 204, II"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "arts. 16 a 18"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null,
+    "nota": "Instituído pela Lei 8.742/1993."
+  },
+  "confianca": "oficial",
+  "notas": "Membros e presidente em 2026-10-01 não pesquisados. As conferências de assistência social (nacional, estaduais e municipais) não têm nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -1,9 +1,9 @@
 ---
 id: f0-processos-legislativos
 escopo: "Fatia 0, lacunas da varredura: processos políticos do Legislativo, CF arts. 14, 49, 52, 53, 55, 59, 84, VII, 86, 89, 188, 224, 231, § 3º; ADCT, arts. 113 e 130"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -26,3 +26,4 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+- 2026-10-23 23:15 — iniciada; lendo instruções, modelo, processos existentes e quadro de cobertura

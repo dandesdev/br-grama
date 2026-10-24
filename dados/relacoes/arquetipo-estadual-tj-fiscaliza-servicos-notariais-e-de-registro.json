@@ -1,0 +1,30 @@
+{
+  "tipo": "relacao",
+  "id": "rel:arquetipo-estadual-tj-fiscaliza-servicos-notariais-e-de-registro",
+  "nome": "O Judiciário estadual fiscaliza os cartórios",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "org:arquetipo-estadual-servicos-notariais-e-de-registro",
+  "condicao": "Pelo juízo competente definido na organização judiciária do estado ou do DF, de ofício ou por representação de qualquer interessado; também realiza os concursos de ingresso.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 236, §§ 1º e 3º"
+    },
+    {
+      "ref": "norma:lei-8935-1994",
+      "dispositivo": "arts. 15, 37 e 38"
+    }
+  ],
+  "notas": "A lei fala em 'juízo competente' definido na órbita estadual e do DF; em geral são o juiz corregedor e a corregedoria do Tribunal de Justiça, conforme a lei de organização judiciária de cada estado (não conferido nas leis estaduais). O nó do TJ representa o Judiciário estadual.",
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

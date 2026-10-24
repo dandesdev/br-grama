@@ -18,6 +18,7 @@ concluida_em: null
 - [ ] Sistemas setoriais: Sistema Nacional de Cultura (art. 216-A) e SNCTI (art. 219-B; Lei 13.243/2016) como `sistema`; justiça desportiva (art. 217; Lei 9.615/1998) como fronteira (D05).
 - [ ] Colégio Pedro II (art. 242, § 2º) e Comissão de Anistia (ADCT, art. 8º; Lei 10.559/2002), se existirem em 2026-10-01.
 - [ ] Pendências de f0-defesa-seguranca: cargo de Diretor-Geral da PRF; Secretaria Nacional de Políticas Penais.
+- [ ] Aplicar a D39 (docs/decisoes.md) a toda entidade da administração indireta já existente e às que você criar: `contido_em` no Poder Executivo do ente (fonte: Decreto-Lei 200/1967, art. 4º, II, que você cria como `norma:decreto-lei-200-1967` depois de conferir no Planalto; para estados e municípios, a lei do ente ou o mesmo critério com nota) e relação `vincula-se` ao ministério ou secretaria supervisora (fonte: a que hoje está em `campos.contido_em`). Já existem e precisam da troca: `org:inss`, `org:anvisa`, `org:previc`, `org:funpresp-exe`, as unidades gestoras do regime próprio nos arquétipos (se forem autarquias) e as superintendências regionais criadas pela f0-federacao. A Anvisa já existe: não a recrie.
 - [ ] Para cada artigo do escopo, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)

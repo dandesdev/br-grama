@@ -1,0 +1,44 @@
+{
+  "id": "org:arquetipo-estadual-conselho-de-assistencia-social",
+  "tipo": "orgao",
+  "nome": "Conselho Estadual de Assistência Social",
+  "resumo": "Colegiado paritário entre governo e sociedade civil que delibera sobre a assistência social no estado, aprova a proposta orçamentária do setor e controla o fundo estadual.",
+  "detalhes": "Acompanha a execução da política de assistência social no estado e fixa os critérios para os repasses aos municípios dos benefícios eventuais. Ter conselho, fundo e plano de assistência social é condição para receber recursos federais.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-secretarias",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8742-1993",
+          "dispositivo": "art. 16, parágrafo único"
+        }
+      ],
+      "nota": "A lei vincula o conselho ao órgão gestor de assistência social, que costuma ser uma secretaria estadual; o órgão gestor não tem nó próprio, por isso o conselho fica no conjunto das secretarias."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 204, II"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 13, I; art. 16, II; art. 17, § 4º; art. 28, § 1º; art. 30"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Composição varia conforme a lei de cada estado; não levantada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -63,6 +63,7 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 - **D36** Um fato com fonte oficial não é aviso, mesmo que seja notável (ex.: cadeira vaga no STF). Avisos são lacunas, contradições, sigilo e baixa transparência das fontes.
 - **D37** Contradições entre fontes oficiais, lacunas, sigilo e fontes desatualizadas continuam sendo apontadas, mas como **avisos** (`aviso:`), não como "achados de auditoria". A expressão era uma metáfora do mantenedor e se confundia com as auditorias reais do TCU e da CGU. O mapa tem a camada "Avisos" e uma lista navegável.
 - **D38** As competências dos entes (CF, arts. 21 a 24 e 30) aparecem numa **matriz de competências**, uma terceira vista do site: matérias nas linhas, União, estados e municípios nas colunas, e o tipo de competência (exclusiva, privativa, comum, concorrente, suplementar) na célula. Cada matéria é um objeto de competência. A competência tributária (arts. 145 a 156-B e 195) usa a mesma matriz, numa vista à parte: cada tributo é um objeto `tipo_objeto: "tributo"`.
+- **D39** Entidades da administração indireta (autarquias, fundações, empresas públicas, sociedades de economia mista) ficam com `contido_em` no Poder Executivo do seu ente, e não no ministério ou secretaria que as supervisiona: supervisão não é hierarquia (D34). A ligação com o órgão supervisor é a relação `vincula-se`, com a fonte da vinculação (lei ou decreto de estrutura). O Banco Central já seguia essa regra.
 
 ## Fora do escopo por enquanto
 

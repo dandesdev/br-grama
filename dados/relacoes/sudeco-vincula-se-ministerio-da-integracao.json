@@ -1,0 +1,30 @@
+{
+  "id": "rel:sudeco-vincula-se-ministerio-da-integracao",
+  "tipo": "relacao",
+  "nome": "A Sudeco é supervisionada pelo Ministério da Integração",
+  "relacao": "vincula-se",
+  "de": "org:sudeco",
+  "para": "org:ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "condicao": "Supervisão ministerial, sem hierarquia; o ministro preside o Conselho Deliberativo, salvo quando presente o Presidente da República.",
+  "fontes": [
+    {
+      "ref": "norma:lc-129-2009",
+      "dispositivo": "art. 1º; art. 8º, § 1º"
+    },
+    {
+      "ref": "norma:decreto-12504-2025",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 3"
+    }
+  ],
+  "notas": "A lei complementar fala em Ministério da Integração Nacional; a pasta atual é o Ministério da Integração e do Desenvolvimento Regional, que lista a Sudeco entre as entidades vinculadas (Decreto 12.504/2025).",
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2009-01-09",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}

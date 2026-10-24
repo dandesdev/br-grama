@@ -1,0 +1,44 @@
+{
+  "id": "org:arquetipo-municipal-conselho-de-assistencia-social",
+  "tipo": "orgao",
+  "nome": "Conselho Municipal de Assistência Social",
+  "resumo": "Colegiado paritário entre governo e sociedade civil que delibera sobre a assistência social no município, inscreve e fiscaliza as entidades de assistência e controla o fundo municipal.",
+  "detalhes": "As entidades e organizações de assistência social só funcionam depois de inscritas no conselho municipal. O conselho também aprova a proposta orçamentária do setor e fixa critérios para os benefícios eventuais.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-secretarias",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8742-1993",
+          "dispositivo": "art. 16, parágrafo único"
+        }
+      ],
+      "nota": "A lei vincula o conselho ao órgão gestor de assistência social, que costuma ser uma secretaria municipal; o órgão gestor não tem nó próprio, por isso o conselho fica no conjunto das secretarias."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 204, II"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 9º, caput e § 2º; art. 15, I; art. 16, IV; art. 17, § 4º; art. 28, § 1º; art. 30"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "No DF, o Conselho de Assistência Social do DF acumula o papel (art. 16, III); sem variação própria.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

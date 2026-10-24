@@ -1,0 +1,29 @@
+{
+  "id": "rel:estados-repassam-recursos-assistencia-social-municipios",
+  "tipo": "relacao",
+  "nome": "Os estados cofinanciam a assistência social dos municípios",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Por transferência automática, e para o custeio dos benefícios eventuais pelos critérios do conselho estadual.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, § 10"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 13, I e II"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "rel:uniao-repassa-royalties-do-petroleo-municipios",
+  "tipo": "relacao",
+  "nome": "Royalties do petróleo e gás entregues aos municípios",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Os municípios produtores, os confrontantes com a produção no mar e os afetados por instalações de embarque e desembarque recebem parte dos royalties, creditada em conta específica. As regras novas da Lei 12.734/2012 para o mar estão suspensas pelo STF desde 2013.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 20, § 1º"
+    },
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 47, §§ 4º e 5º; arts. 48 a 50"
+    },
+    {
+      "ref": "norma:decreto-2705-1998",
+      "dispositivo": "art. 35, caput e §§ 2º a 4º"
+    },
+    {
+      "ref": "fonte:stf-adi-4917",
+      "dispositivo": "liminar de 18/3/2013"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Quem distribui é a ANP, autarquia federal, sob supervisão do Ministério de Minas e Energia (Decreto 2.705/1998, art. 35); usamos ente:uniao porque org:anp ainda não existe no mapa (tarefa f0-administracao-indireta). Os royalties de hidrelétricas e minérios são pagos diretamente aos entes pelo explorador (Lei 7.990/1989, art. 8º) e não entram nesta relação.",
+  "vigencia": {
+    "de": "1997-08-07",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-federacao"
+  }
+}
