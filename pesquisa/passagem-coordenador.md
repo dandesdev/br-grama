@@ -4,7 +4,7 @@ Este arquivo é para a sessão que assume a coordenação da fatia 0. Ele diz on
 
 ## Atualização: fim da segunda sessão (2026-10-24, 21h20 UTC)
 
-A segunda sessão parou de propósito ao chegar a 50% do uso (pedido do usuário: parar quando restar só 50%). Uso: rode  (janela de 5 h e semana) e pare de novo ao chegar a 50% em qualquer uma.
+A segunda sessão parou de propósito ao chegar a 50% do uso (pedido do usuário: parar quando restar só 50%). Uso: rode `sh C:/Users/DELL/scratch-brgram/uso.sh` (janela de 5 h e semana) e pare de novo ao chegar a 50% em qualquer uma.
 
 | Tarefa | Coleta | Revisão |
 |---|---|---|
@@ -17,10 +17,10 @@ A segunda sessão parou de propósito ao chegar a 50% do uso (pedido do usuário
 | f0-judiciario-complementar | **coletada** | escrita, pendente |
 | f0-administracao-indireta | em andamento (parada pelo coordenador) | escrever ao terminar |
 
-- Próximo passo: relançar f0-administracao-indireta pelo diário (último registro: Comissão de Anistia, 21:10; o agente ia tratar do licenciamento ambiental:  cita , que não existe) e as 6 revisões pendentes, no máximo 4 agentes. Avise o revisor de seguridade sobre INSS, Anvisa, Previc e Funpresp-Exe (ver passo 3).
-- Termos criados nesta sessão (já postos como "aplique" nas revisões):  e  ampliados; , , ; ; ;  e  ampliado; .
+- Próximo passo: relançar f0-administracao-indireta pelo diário (último registro: Comissão de Anistia, 21:10; o agente ia tratar do licenciamento ambiental: `obj:licenca-ambiental` cita `proc:licenciamento-ambiental`, que não existe) e as 6 revisões pendentes, no máximo 4 agentes. Avise o revisor de seguridade sobre INSS, Anvisa, Previc e Funpresp-Exe (ver passo 3).
+- Termos criados nesta sessão (já postos como "aplique" nas revisões): `convoca` e `monitora` ampliados; `gere`, `propoe-exoneracao`, `supervisiona`; `tipo_objeto: regime-tributario`; `tipo_orgao: escola-judicial`; `provimento: sorteio` e `designacao` ampliado; `tipo_norma: provimento`.
 - Propostas de nova tarefa e decisões menores foram anotadas no diário de f0-fechamento.
-- Decisões de modelo ainda abertas (interino em , cargos eleitos no processo eleitoral,  em etapas): perguntar ao usuário no fechamento.
+- Decisões de modelo ainda abertas (interino em `ocupa`, cargos eleitos no processo eleitoral, `orgao_exercicio` em etapas): perguntar ao usuário no fechamento.
 
 ## Pedido do usuário
 
