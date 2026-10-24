@@ -5,7 +5,7 @@
   "sigla": "Sisbin",
   "resumo": "Rede dos órgãos federais que produzem inteligência, coordenada pela ABIN, para dar subsídios ao Presidente. Estados e DF podem aderir.",
   "detalhes": "Tem órgão central (a ABIN), órgãos permanentes (unidades da Casa Civil, do GSI, do Itamaraty, do EMCFA, das três Forças, da PF, da PRF e do MJSP), dedicados, associados e federados (das unidades da Federação). Cada órgão mantém autonomia funcional.",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
@@ -25,10 +25,11 @@
     "nota": "Instituído pela Lei 9.883/1999 (DOU 8/12/1999)."
   },
   "confianca": "oficial",
-  "notas": "Tipo 'outro': não é um órgão, e sim um sistema de órgãos de vários ministérios, sem hierarquia própria (por isso sem contido_em). As relações 'integra' ligam os membros que estão no mapa; a lista completa é publicada pelo Diretor-Geral da ABIN (Decreto 11.693/2023, art. 7º, § 5º; última achada: Portaria GAB/DG/ABIN/CC/PR nº 4.784, de 9/9/2026, DOU 18/9/2026). Membros permanentes sem nó no mapa: Secretaria-Geral das Relações Exteriores, Diretoria de Inteligência Penitenciária da Senappen e Diretoria de Operações Integradas e de Inteligência da Senasp.",
+  "notas": "Tipo 'sistema': órgãos de vários ministérios, sem hierarquia própria (por isso sem contido_em). As relações 'integra' ligam os membros que estão no mapa; a lista completa é publicada pelo Diretor-Geral da ABIN (Decreto 11.693/2023, art. 7º, § 5º; última achada: Portaria GAB/DG/ABIN/CC/PR nº 4.784, de 9/9/2026, DOU 18/9/2026). Membros permanentes sem nó no mapa: Secretaria-Geral das Relações Exteriores, Diretoria de Inteligência Penitenciária da Senappen (nome do Decreto 11.693/2023; na estrutura do MJSP a unidade passou a se chamar Diretoria de Inteligência Penal, Decreto 11.348/2023, art. 2º, II, e, 5, redação do Decreto 12.543/2025) e Diretoria de Operações Integradas e de Inteligência da Senasp.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; tipo_orgao trocado de outro para sistema (termo criado depois da coleta); conferidos Lei 9.883/1999 arts. 1º e 2º e Decreto 11.693/2023 arts. 2º, 5º e 7º; nota sobre o novo nome da diretoria de inteligência da Senappen"
   }
 }

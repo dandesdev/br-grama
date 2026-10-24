@@ -5,7 +5,7 @@
   "sigla": "Susp",
   "resumo": "Reúne os órgãos de segurança pública da União, dos estados, do DF e dos municípios para agir de forma integrada. É coordenado pelo Ministério da Justiça e Segurança Pública.",
   "detalhes": "A integração ocorre por operações conjuntas, estratégias comuns, aceitação mútua de registros de ocorrência e compartilhamento de dados. Cada ente mantém a organização própria de suas polícias. Há conselhos de segurança pública e defesa social em cada esfera.",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "nacional",
   "fontes": [
@@ -28,10 +28,11 @@
     "nota": "Instituído pela Lei 13.675/2018, em vigor 30 dias após a publicação de 12/6/2018."
   },
   "confianca": "oficial",
-  "notas": "Tipo 'outro': sistema de órgãos de todas as esferas, sem hierarquia própria. A Lei 13.675/2018 ainda dá ao Ministério Extraordinário da Segurança Pública o papel de órgão central e coordenador (arts. 9º e 10, § 1º); pela Lei 14.600/2023 a coordenação é área do MJSP. O Susp não está na Constituição em 2026-10-01: a PEC 18/2025, que o inseriria, ainda tramitava no Senado em 2026-10-23 (fonte:senado-api-processo-pec-18-2025). Integrantes operacionais sem nó no mapa: institutos de criminalística, Senasp, Sedec, Senad, agentes de trânsito, guarda portuária e polícias legislativas.",
+  "notas": "Tipo 'sistema': órgãos de todas as esferas, sem hierarquia própria. A Lei 13.675/2018 ainda dá ao Ministério Extraordinário da Segurança Pública o papel de órgão central e coordenador (arts. 9º e 10, § 1º); pela Lei 14.600/2023 a coordenação é área do MJSP. O Susp não está na Constituição em 2026-10-01: a PEC 18/2025, que o inseriria, ainda tramitava no Senado em 2026-10-23 (fonte:senado-api-processo-pec-18-2025). Integrantes operacionais sem nó no mapa: institutos de criminalística, Senasp, Sedec, Senad, agentes de trânsito, guarda portuária e polícias legislativas.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; tipo_orgao trocado de outro para sistema (termo criado depois da coleta); conferidos CF art. 144, § 7º, Lei 13.675/2018 arts. 9º, 10 e 19 a 21 e Lei 14.600/2023 art. 35, XVII"
   }
 }

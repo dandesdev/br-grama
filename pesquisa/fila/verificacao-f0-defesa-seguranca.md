@@ -1,28 +1,28 @@
 ---
 id: verificacao-f0-defesa-seguranca
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-defesa-seguranca\""
-status: em-andamento
+status: verificada
 depende_de: [f0-defesa-seguranca]
 iniciada_em: 2026-10-23
-concluida_em: null
+concluida_em: 2026-10-23
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-defesa-seguranca"` conferidas contra a fonte: 19 órgãos, 6 cargos, 6 pessoas, 54 relações, 13 normas, 2 fontes, 1 aviso e `proc:emprego-das-forcas-armadas-na-glo` (etapa por etapa). Inclui `org:forcas-armadas`, completado aqui depois da f0-executivo.
-- [ ] Ocupantes em 2026-10-01: Comandantes da Marinha (Olsen), do Exército (Tomás Paiva) e da Aeronáutica (Damasceno), Chefe do Estado-Maior Conjunto (Aguiar Freire), Diretor-Geral da PF (Andrei Rodrigues) e Diretor-Geral da ABIN (Luiz Fernando Corrêa). Confira no DOU nomeação e ato assinado perto da data. A prova de exercício da ABIN é a mais fraca (último ato achado de 9/9/2026): procure ato mais próximo ou exoneração.
-- [ ] Termos criados depois da coleta (aplique):
+- [x] Todas as entidades com `"tarefa": "f0-defesa-seguranca"` conferidas contra a fonte: 19 órgãos, 6 cargos, 6 pessoas, 54 relações, 13 normas, 2 fontes, 1 aviso e `proc:emprego-das-forcas-armadas-na-glo` (etapa por etapa). Inclui `org:forcas-armadas`, completado aqui depois da f0-executivo.
+- [x] Ocupantes em 2026-10-01: Comandantes da Marinha (Olsen), do Exército (Tomás Paiva) e da Aeronáutica (Damasceno), Chefe do Estado-Maior Conjunto (Aguiar Freire), Diretor-Geral da PF (Andrei Rodrigues) e Diretor-Geral da ABIN (Luiz Fernando Corrêa). Confira no DOU nomeação e ato assinado perto da data. A prova de exercício da ABIN é a mais fraca (último ato achado de 9/9/2026): procure ato mais próximo ou exoneração.
+- [x] Termos criados depois da coleta (aplique):
   - relação `coordena`: `rel:mjsp-coordena-susp` está com `preside`; troque o verbo (o id já está certo).
   - `tipo_orgao: "sistema"`: `org:sistema-brasileiro-de-inteligencia` e `org:sistema-unico-de-seguranca-publica`, hoje `outro`.
   - As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-defesa-seguranca"`.
-- [ ] Pontos do coletor a conferir:
+- [x] Pontos do coletor a conferir:
   - art. 144 sem emenda depois da EC 104/2019 até 2026-10-01; PEC 18/2025 não promulgada
   - Polícia Ferroviária Federal só no texto da CF, sem órgão na Lei 14.600/2023 nem no Decreto 11.348/2023: está registrado como fato com fonte?
   - Susp: a Lei 13.675/2018 cita o extinto Ministério Extraordinário da Segurança Pública; a coordenação pelo MJSP vem da Lei 14.600/2023? A ligação das polícias penais ao Susp está `inferido`: há texto expresso?
   - Diretor-Geral da PF: a lei diz nomeação pelo Presidente; o ato de 2023 foi do Ministro da Casa Civil por delegação. A relação diz isso?
   - datas não conferidas: LC 117/2004 (§§ 3º a 6º do art. 15 da LC 97/1999), vigência da Lei 4.375/1964, alterações da Resolução 2/2013-CN e do Decreto 11.816/2023 em 2026; ADI 6457 e ADPF 995 (citadas pelo Planalto nesses dispositivos)
   - `aviso:abin-atos-e-despesas-sigilosas` (D08, D37): diz o que não é público, com fonte?
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-23 22:28 — iniciada; lidos CLAUDE.md, instruções de verificação, modelo, protocolo, decisões, diário da coleta; 102 entidades no escopo
@@ -41,3 +41,8 @@ concluida_em: null
 - 2026-10-23 22:42 — cargo:diretor-geral-da-policia-federal e rel:presidente-nomeia-diretor-geral-da-policia-federal: corrigida a vigência de 2014-12-03 para 2014-10-14: o art. 2º-C foi incluído pela MP 657, de 13/10/2014 (DOU 14/10/2014, vigência na publicação), com o mesmo texto mantido pela Lei 13.047/2014 (novas cópias mpv657.htm e l13047.htm em pesquisa/brutos/planalto-leis/2026-10-23/). Ponto do coletor resolvido: a relação diz que em 2023 o ato foi do Ministro da Casa Civil por delegação; acrescentada a base da delegação, Decreto 9.794/2019, art. 4º (inciso IV, CCE/FCE 15 a 17), conferida no Planalto (cópia D9794.htm). pessoa:andrei-augusto-passos-rodrigues e a relação ocupa: Portaria 188/2023 e Portarias DG/PF 623 e 632/2026 conferidas no DOU. Verificados.
 - 2026-10-23 22:43 — arquétipos org:arquetipo-estadual-policia-civil (Lei 14.735/2023 arts. 1º a 3º), -policia-militar e -corpo-de-bombeiros-militar (Lei 14.751/2023 art. 2º e §§; CF arts. 22, XXI, e 42), -policia-penal (EC 104/2019, DOU 5/12/2019) e org:arquetipo-municipal-guarda-municipal (Lei 13.022/2014 arts. 2º, 4º a 7º): conferidos, sem erro; na guarda, acrescentada a fonte:stf-adpf-995 e o resultado na nota. O contido_em dos estaduais (org:arquetipo-estadual-poder-executivo) foi mantido como estava. Verificados.
 - 2026-10-23 22:44 — relações do Susp e dos arquétipos: rel:mjsp-coordena-susp trocada de 'preside' para 'coordena' (termo novo), condição e nota reescritas (Lei 14.600/2023, art. 35, XVII; Lei 13.675/2018, arts. 9º e 10, § 1º, ainda citam o Ministério Extraordinário). Ponto do coletor: a coordenação pelo MJSP vem da Lei 14.600/2023, art. 35, XVII (confirmado). rel:arquetipo-estadual-policia-penal-integra-susp e rel:policia-penal-federal-integra-susp: mantido 'inferido' (não há texto expresso; o caput do art. 9º remete aos órgãos do art. 144, onde as polícias penais entraram depois, em 2019); nota reescrita. Demais (6 integra Susp, 4 subordina-se ao governador, 1 ao prefeito, 2 auxilia Exército) conferidas sem correção. Verificadas.
+- 2026-10-23 22:45 — org:sistema-brasileiro-de-inteligencia e org:sistema-unico-de-seguranca-publica: tipo_orgao trocado de 'outro' para 'sistema' (termo novo), notas ajustadas; no Sisbin, anotado que a Diretoria de Inteligência Penitenciária da Senappen se chama hoje Diretoria de Inteligência Penal (Decreto 12.543/2025). org:abin e org:ccai conferidos (Lei 9.883/1999; Decreto 11.816/2023; Resolução 2/2013-CN arts. 1º, 2º e 7º); nota da CCAI atualizada (sem alteração registrada). Verificados.
+- 2026-10-23 22:46 — ABIN: rel:luiz-fernando-correa-ocupa-diretor-geral-da-abin e pessoa: achado ato assinado em 1º/10/2026 (extrato do Acordo de Adesão 60/2026 do TSE, DOU 5/10/2026, Seção 3, assina 'Luiz Fernado Correa, Diretor-Geral, pela ABIN'; cópia nova em pesquisa/brutos/dou/2026-10-23/); busca no DOU de 1º/9 a 23/10/2026 sem exoneração; nota de prova fraca removida. cargo:diretor-geral-da-abin, rel:presidente-nomeia e rel:senado-aprova-indicacao (CF arts. 52, III, f, e 84, XIV; Lei 9.883 art. 11) e rel:ccai-fiscaliza-sisbin conferidos sem erro. aviso:abin-atos-e-despesas-sigilosas: resumo e detalhes corrigidos para incluir a condição do art. 9º (só atos cuja publicidade possa comprometer atividades sigilosas saem em extrato); o aviso diz o que não é público e tem fonte (D08, D37). Verificados.
+- 2026-10-23 22:46 — 9 relações integra Sisbin (ABIN, Casa Civil, GSI, EMCFA, Marinha, Exército, Aeronáutica, PF, PRF) conferidas contra o Decreto 11.693/2023, art. 7º, I e § 1º, I, II, IV a VII, X e XI; sem correção. Verificadas.
+- 2026-10-23 22:47 — precisão sobre a linha da PF acima: o diário citou o inciso IV do art. 4º do Decreto 9.794/2019 na redação atual (CCE 15 a 17, Decreto 11.376/2023); a redação vigente em 1º/1/2023 não foi conferida inciso a inciso. As entidades citam só o art. 4º, que delega à Casa Civil a nomeação e a designação, e a própria Portaria 188/2023 invoca esse artigo.
+- 2026-10-23 22:47 — fechamento: 102 entidades da coleta conferidas e verificadas (19 órgãos, 6 cargos, 6 pessoas, 54 relações, 13 normas, 2 fontes, 1 aviso, 1 processo), 19 com correção; 2 fontes novas criadas (fonte:stf-adi-6457, fonte:stf-adpf-995), com status coletado. Termos novos aplicados: coordena (rel:mjsp-coordena-susp) e sistema (Sisbin, Susp). Vocabulário que ainda falta (do coletor, confirmado): provimento de indicação pelo Ministro + nomeação pelo Presidente (comandantes e Chefe do EMCFA usam nomeacao-livre) e relação de força auxiliar e reserva (usado auxilia). Pontos em aberto: não há texto expresso que inclua as polícias penais no Susp (mantido inferido); ADI 6457 e ADPF 995 conferidas só nas notícias oficiais do STF, não nos acórdãos. validar sem erros. Tarefa verificada.

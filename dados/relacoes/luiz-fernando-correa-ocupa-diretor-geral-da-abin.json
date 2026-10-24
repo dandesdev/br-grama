@@ -8,7 +8,7 @@
   "vigencia": {
     "de": "2023-05-29",
     "ate": null,
-    "nota": "Data do decreto de nomeação; a posse não foi pesquisada. Em exercício em 2026-10-01: último ato assinado achado é de 9/9/2026 (DOU 18/9/2026); nenhuma exoneração achada na busca do DOU até 20/10/2026."
+    "nota": "Data do decreto de nomeação; a posse não foi pesquisada. Em exercício em 2026-10-01: assinou como Diretor-Geral, nessa data, o acordo de adesão do TSE à câmara temática do Sisbin (DOU 5/10/2026); nenhuma exoneração achada na busca do DOU de 1º/9 a 23/10/2026."
   },
   "fontes": [
     {
@@ -20,13 +20,18 @@
       "ref": "fonte:dou-in-gov-br",
       "dispositivo": "Portaria GAB/DG/ABIN/CC/PR nº 4.784, de 9/9/2026 (DOU 18/9/2026, Seção 1), assinada por Luiz Fernando Corrêa",
       "nota": "https://www.in.gov.br/web/dou/-/portaria-gab/dg/abin/cc/pr-n-4.784-de-9-de-setembro-de-2026-732691102"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de Acordo de Adesão nº 60/2026 do TSE (DOU 5/10/2026, Seção 3): assinado em 1º/10/2026 por Luiz Fernando Corrêa (grafado \"Luiz Fernado Correa\"), Diretor-Geral, pela ABIN",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-acordo-de-adesao-n-60/2026-uasg-070001.-n-processo-2026.00.000007774-4-736488004"
     }
   ],
   "confianca": "oficial",
-  "notas": "Prova de exercício mais fraca que nos demais cargos: não achamos ato assinado entre 18/9 e 1º/10/2026.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-23",
-    "tarefa": "f0-defesa-seguranca"
+    "tarefa": "verificacao-f0-defesa-seguranca",
+    "notas": "coletado em f0-defesa-seguranca; decreto de 29/5/2023 conferido; achada prova de exercício mais forte: extrato do TSE com assinatura do Diretor-Geral em 1º/10/2026 (cópia em pesquisa/brutos/dou/2026-10-23/); nota sobre prova fraca removida"
   }
 }

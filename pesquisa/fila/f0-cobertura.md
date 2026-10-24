@@ -244,6 +244,67 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 190 | fora | aquisição de terra por estrangeiro (remete à lei) |
 | art. 191 | fora | usucapião rural |
 | art. 192 | coberto | `org:cmn` e `org:banco-central` representam a regulação do sistema financeiro. Detalhe: não há nó para o sistema financeiro nacional nem outros reguladores (ex.: CVM); baixa prioridade |
+| art. 193 | fora | princípio da ordem social |
+| art. 194 | lacuna | Seguridade social como conjunto (saúde, previdência, assistência) com gestão quadripartite em colegiados (VII). Só há a matéria na matriz (`obj:materia-seguridade-social`). Proposta: não criar um nó próprio; cobrir pelos três sistemas (arts. 198, 201 e 204) e seus colegiados |
+| art. 195 | coberto | contribuições sociais na matriz tributária (`obj:tributo-contribuicao-sobre-folha-de-salarios`, `…-receita-ou-faturamento`, `…-sobre-o-lucro`, `…-do-trabalhador`, `…-concursos-de-prognosticos`, `…-do-importador`, `obj:tributo-cbs`). Detalhe: orçamento da seguridade social (§ 2º) só como parte de `obj:loa` |
+| art. 196 | fora | direito à saúde |
+| art. 197 | fora | relevância pública das ações de saúde |
+| art. 198 | lacuna | Sistema Único de Saúde: rede regionalizada com direção única em cada esfera (I), participação da comunidade (III), pisos mínimos de aplicação (§ 2º), agentes comunitários pagos pela União (§§ 7º a 9º). Propostas `org:sistema-unico-de-saude` (tipo `sistema`), gestores por esfera (`org:ministerio-da-saude` e secretarias de saúde dos arquétipos), conselhos de saúde, `obj:piso-constitucional-da-saude` (regra fiscal), fundo nacional de saúde (ver ADCT, art. 122). Fontes prováveis: Lei 8.080/1990, Lei 8.142/1990, LC 141/2012 |
+| art. 199 | fora | assistência à saúde pela iniciativa privada |
+| art. 200 | lacuna | Competências do SUS (vigilância sanitária e epidemiológica, controle de produtos, saneamento); entram como relações do `org:sistema-unico-de-saude` proposto, com a agência de vigilância sanitária como exemplo (a conferir na lei) |
+| art. 201 | lacuna | Regime Geral de Previdência Social: proposta `org:regime-geral-de-previdencia-social` (sistema) ou o órgão que o opera (proposta `org:inss`, autarquia, a conferir), ligado ao `org:ministerio-da-previdencia-social` |
+| art. 202 | lacuna | Previdência complementar e fiscalização das entidades fechadas; proposta: órgão de supervisão federal como exemplo (a conferir na LC 109/2001), baixa prioridade |
+| art. 203 | fora | objetivos da assistência social e benefício de prestação continuada (direito) |
+| art. 204 | lacuna | Assistência social descentralizada, com coordenação federal e participação popular. Proposta `org:sistema-unico-de-assistencia-social` (tipo `sistema`), com conselhos e fundo nacional (ver ADCT, art. 122); fonte provável: Lei 8.742/1993 |
+| art. 205 | fora | direito à educação |
+| art. 206 | fora | princípios do ensino |
+| art. 207 | fora | autonomia universitária (regra); universidades federais entram como exemplos de administração indireta (ver art. 37) |
+| art. 208 | fora | garantias do dever de educar |
+| art. 209 | fora | ensino privado |
+| art. 210 | fora | conteúdos mínimos |
+| art. 211 | lacuna | Sistemas de ensino da União, dos estados e dos municípios em regime de colaboração, com atuação prioritária de cada nível (§§ 2º e 3º) e função redistributiva da União (§ 1º). Hoje só a matéria na matriz (`obj:materia-educacao`). Propostas: sistemas de ensino por esfera (tipo `sistema`) e o colegiado nacional de educação, a conferir na Lei 9.394/1996 |
+| art. 212 | parcial | `obj:tributo-salario-educacao` (§§ 5º e 6º). Falta: o piso de aplicação em educação (18% da União, 25% dos demais; proposta `obj:piso-constitucional-da-educacao`, regra fiscal fiscalizada pelos tribunais de contas) |
+| art. 212-A | lacuna | Fundeb: fundos estaduais com complementação da União. Proposta `obj:fundeb` (fundo) com `repassa-recursos` da União e dos entes; liga-se a ADCT, arts. 60 e 60-A |
+| art. 213 | fora | destinação de recursos a escolas |
+| art. 214 | lacuna | Plano nacional de educação decenal e sistema nacional de educação. Proposta `obj:plano-nacional-de-educacao` (lei) |
+| art. 215 | fora | direitos culturais; plano de cultura por lei |
+| art. 216 | coberto | competência de proteção do patrimônio cultural na matriz (`obj:materia-patrimonio-cultural`). Detalhe: o órgão federal de tombamento seria exemplo (D07) |
+| art. 216-A | lacuna | Sistema Nacional de Cultura, com a estrutura do § 2º (órgãos gestores, conselhos, conferências, comissões intergestores, planos e sistemas de financiamento). Proposta `org:sistema-nacional-de-cultura` (tipo `sistema`), ligado a `org:ministerio-da-cultura` |
+| art. 217 | lacuna | Justiça desportiva como instância prévia obrigatória ao Judiciário (§§ 1º e 2º); caso de fronteira (D05), baixa prioridade |
+| art. 218 | fora | fomento à ciência |
+| art. 219 | fora | mercado interno e inovação |
+| art. 219-A | fora | cooperação em ciência e tecnologia (faculdade) |
+| art. 219-B | lacuna | Sistema Nacional de Ciência, Tecnologia e Inovação; proposta `org:sncti` (tipo `sistema`), ligado a `org:ministerio-da-ciencia-tecnologia-e-inovacao` |
+| art. 220 | fora | liberdade de expressão |
+| art. 221 | fora | princípios da programação |
+| art. 222 | fora | propriedade de empresas de comunicação |
+| art. 223 | coberto | `obj:concessao-de-radiodifusao`, `rel:congresso-delibera-concessao-de-radiodifusao` |
+| art. 224 | lacuna | Conselho de Comunicação Social, órgão auxiliar do Congresso; proposta `org:conselho-de-comunicacao-social` (colegiado em `org:congresso-nacional`), fonte provável Lei 8.389/1991 |
+| art. 225 | parcial | Competência ambiental na matriz (`obj:materia-meio-ambiente`). Falta: estudo prévio de impacto e licenciamento (§ 1º, IV; proposta `proc:licenciamento-ambiental`) e o sistema de órgãos ambientais (proposta `org:sisnama`, tipo `sistema`, a conferir na Lei 6.938/1981) |
+| art. 226 | fora | família |
+| art. 227 | fora | criança, adolescente e jovem |
+| art. 228 | fora | inimputabilidade |
+| art. 229 | fora | deveres familiares |
+| art. 230 | fora | idosos |
+| art. 231 | lacuna | Demarcação das terras indígenas pela União (caput), autorização do Congresso para mineração e aproveitamento hídrico (§ 3º; ver art. 49, XVI) e remoção "ad referendum" do Congresso (§ 5º). Propostas `proc:demarcacao-de-terra-indigena` e o órgão indigenista federal (a conferir), ligado a `org:ministerio-dos-povos-indigenas` |
+| art. 232 | fora | legitimidade processual dos índios (a defesa pelo MP está no art. 129, V) |
+| art. 234 | fora | vedação na criação de estado |
+| art. 235 | fora | regras para os dez primeiros anos de um estado novo (nenhum em 2026-10-01) |
+| art. 236 | lacuna | Serviços notariais e de registro por delegação, com concurso e fiscalização pelo Judiciário (caso de fronteira, D05). Propostas `org:arquetipo-estadual-servicos-notariais-e-de-registro` (conjunto) e `rel:arquetipo-estadual-tj-fiscaliza-servicos-notariais`; o CNJ também atua (art. 103-B, § 4º, III) |
+| art. 237 | lacuna | Fiscalização e controle do comércio exterior pelo Ministério da Fazenda; proposta de relação de `org:ministerio-da-fazenda` (ou `org:receita-federal`) com `obj:materia-comercio-exterior-e-interestadual`; baixa prioridade |
+| art. 238 | fora | comércio de combustíveis (remete à lei) |
+| art. 239 | parcial | `obj:tributo-pis-pasep`. Falta: destino da arrecadação ao seguro-desemprego e ao abono salarial, com no mínimo 28% para o BNDES (§§ 1º e 3º); propostas `obj:fundo-de-amparo-ao-trabalhador` (fundo, a conferir na Lei 7.998/1990) e `org:bndes` (empresa pública, exemplo D07); adicional por rotatividade (§ 4º; já anotado em f0-fechamento) |
+| art. 240 | lacuna | Contribuições compulsórias ao Sistema S (já anotado em f0-fechamento). Propostas: as entidades do Sistema S como `paraestatal` (D05) e a contribuição na matriz tributária |
+| art. 241 | coberto | `org:consorcios-publicos` |
+| art. 242 | lacuna | § 2º: o Colégio Pedro II mantido na órbita federal (único órgão de ensino nomeado na CF); proposta `org:colegio-pedro-ii`, baixa prioridade. O resto é regra de ensino (fora) |
+| art. 243 | lacuna | Expropriação de terras com cultivo ilegal de psicotrópicos ou trabalho escravo e fundo especial para os bens confiscados; propostas `proc:expropriacao-confiscatoria` e o fundo (a conferir na lei); baixa prioridade |
+| art. 244 | fora | acessibilidade (remete à lei) |
+| art. 245 | fora | assistência a vítimas de crime (remete à lei) |
+| art. 246 | coberto | vedação de MP em `obj:medida-provisoria` e `proc:medida-provisoria` |
+| art. 247 | fora | perda do cargo de servidor estável (regra de pessoal) |
+| art. 248 | fora | teto dos benefícios do RGPS (o órgão gestor está na lacuna do art. 201) |
+| art. 249 | lacuna | Fundos previdenciários dos entes para os regimes próprios; entra na proposta do art. 40 (RPPS), baixa prioridade |
+| art. 250 | lacuna | Fundo do Regime Geral de Previdência Social; entra na proposta do art. 201, baixa prioridade |
 
 ## Diário
 - 2026-10-23 — iniciada; lidos CLAUDE.md, decisões, modelo de dados e protocolo; `npm run -s cobertura`: 183 de 411 artigos vigentes citados (CF 169/273; ADCT 14/138)
@@ -255,3 +316,5 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 - 2026-10-23 — bloco 6 gravado: Título IV, Cap. IV, e Título V (arts. 127 a 144). Lacunas: controle externo da atividade policial (129, VII), MP de contas estaduais (130), órgãos de trânsito (144, § 10)
 - 2026-10-23 — bloco 7 gravado: Título VI (arts. 145 a 169). Lacunas: Simples Nacional (146), órgão central de contabilidade (163-A), créditos adicionais (167), mecanismo de ajuste fiscal (167-A), calamidade pública nacional (167-B a 167-G)
 - 2026-10-23 — bloco 8 gravado: Título VII (arts. 170 a 192). Lacunas: estatais e CADE (173), concessões (175), lavra (176), ANP (177), plano diretor (182), reforma agrária (184), terras públicas (188)
+- 2026-10-23 — bloco 9 gravado: Título VIII (arts. 193 a 232). Lacunas: SUS, RGPS, SUAS e seguridade (194 a 204), sistemas de ensino, piso da educação, Fundeb e PNE (211 a 214), Sistema Nacional de Cultura (216-A), SNCTI (219-B), Conselho de Comunicação Social (224), licenciamento e Sisnama (225), terras indígenas (231)
+- 2026-10-23 — bloco 10 gravado: Título IX (arts. 234 a 250). Lacunas: cartórios (236), comércio exterior (237), FAT e BNDES (239), Sistema S (240), Colégio Pedro II (242), expropriação (243), fundos previdenciários (249, 250). Fim da parte permanente; segue o ADCT
