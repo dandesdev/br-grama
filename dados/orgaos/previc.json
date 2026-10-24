@@ -1,0 +1,60 @@
+{
+  "id": "org:previc",
+  "tipo": "orgao",
+  "nome": "Superintendência Nacional de Previdência Complementar",
+  "sigla": "Previc",
+  "resumo": "Autarquia federal que fiscaliza os fundos de pensão (entidades fechadas de previdência complementar), autoriza seu funcionamento e pode intervir neles.",
+  "detalhes": "Autoriza a criação de entidades, planos e reorganizações, apura infrações e aplica penalidades, e pode decretar intervenção e liquidação extrajudicial. Segue as diretrizes do Conselho Nacional de Previdência Complementar. É dirigida por um Diretor-Superintendente e quatro Diretores, indicados pelo Ministro da Previdência Social e nomeados pelo Presidente da República.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-previdencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-12154-2009",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:decreto-11356-2023",
+          "dispositivo": "Anexo I, art. 2º, IV, b"
+        }
+      ],
+      "nota": "Autarquia de natureza especial vinculada ao Ministério da Previdência Social: há supervisão ministerial, não subordinação hierárquica."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 202"
+    },
+    {
+      "ref": "norma:lc-109-2001",
+      "dispositivo": "art. 5º"
+    },
+    {
+      "ref": "norma:lei-12154-2009",
+      "dispositivo": "arts. 1º, 2º e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2009-12-23",
+    "ate": null,
+    "nota": "Criada pela Lei 12.154/2009, em vigor na publicação."
+  },
+  "confianca": "oficial",
+  "notas": "A previdência complementar aberta (planos vendidos por seguradoras e entidades abertas) é fiscalizada por outro órgão, ligado ao Ministério da Fazenda (LC 109/2001, art. 74), não modelado aqui. A Câmara de Recursos da Previdência Complementar, que julga em última instância administrativa recursos contra decisões da Previc (Lei 12.154/2009, art. 15), não tem nó próprio.",
+  "mais_informacoes": [
+    {
+      "titulo": "Previc (gov.br)",
+      "url": "https://www.gov.br/previc/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

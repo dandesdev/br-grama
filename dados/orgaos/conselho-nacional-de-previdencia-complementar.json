@@ -1,0 +1,49 @@
+{
+  "id": "org:conselho-nacional-de-previdencia-complementar",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Previdência Complementar",
+  "sigla": "CNPC",
+  "resumo": "Colegiado que regula a previdência complementar fechada (fundos de pensão): edita as normas que a Previc aplica e fiscaliza.",
+  "detalhes": "Tem oito membros com voto e mandato de dois anos, com uma recondução: cinco do poder público e três indicados pelas entidades fechadas, pelos patrocinadores e instituidores e pelos participantes e assistidos.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-previdencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11356-2023",
+          "dispositivo": "Anexo I, art. 2º, III, c, e art. 22"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 202"
+    },
+    {
+      "ref": "norma:lc-109-2001",
+      "dispositivo": "art. 5º"
+    },
+    {
+      "ref": "norma:lei-12154-2009",
+      "dispositivo": "arts. 13 e 14"
+    }
+  ],
+  "vigencia": {
+    "de": "2009-12-23",
+    "ate": null,
+    "nota": "Nome e papel atuais desde a Lei 12.154/2009, que renomeou o antigo Conselho de Gestão da Previdência Complementar."
+  },
+  "confianca": "oficial",
+  "notas": "Competências detalhadas no Decreto 7.123/2010 (não pesquisado).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

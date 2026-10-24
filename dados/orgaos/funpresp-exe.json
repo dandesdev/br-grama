@@ -1,0 +1,63 @@
+{
+  "id": "org:funpresp-exe",
+  "tipo": "orgao",
+  "nome": "Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo",
+  "sigla": "Funpresp-Exe",
+  "resumo": "Fundo de pensão dos servidores federais do Executivo: administra os planos de previdência complementar de quem ganha acima do teto do Regime Geral.",
+  "detalhes": "Existe porque a aposentadoria dos servidores que entraram depois da criação do regime complementar é limitada ao teto do Regime Geral; o que passa disso vem do plano complementar, de contribuição definida. É fundação de natureza pública com personalidade de direito privado, com conselho deliberativo e conselho fiscal paritários e diretoria executiva. Legislativo e Judiciário têm previsão de fundações próprias (Funpresp-Leg e Funpresp-Jud).",
+  "tipo_orgao": "fundacao-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-12904-2026",
+          "dispositivo": "Anexo I, art. 2º, IV, c, 2"
+        }
+      ],
+      "nota": "Entidade vinculada ao MGI (supervisão ministerial, sem subordinação). O Decreto 7.808/2012 a vinculava ao extinto Ministério do Planejamento, Orçamento e Gestão."
+    },
+    "tipo_orgao": {
+      "nota": "A lei a define como fundação de natureza pública com personalidade jurídica de direito privado (Lei 12.618/2012, art. 4º, § 1º; Decreto 7.808/2012, art. 1º, § 1º); 'fundacao-publica' é o termo mais próximo."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, §§ 14 a 16; art. 202, §§ 3º a 6º"
+    },
+    {
+      "ref": "norma:lei-12618-2012",
+      "dispositivo": "arts. 1º, 3º, 4º, I e § 1º, e 5º"
+    },
+    {
+      "ref": "norma:decreto-7808-2012",
+      "dispositivo": "arts. 1º e 3º"
+    },
+    {
+      "ref": "norma:lc-108-2001",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-09-21",
+    "ate": null,
+    "nota": "Criada pelo Decreto 7.808/2012, em vigor na publicação (DOU de 21/9/2012)."
+  },
+  "confianca": "oficial",
+  "notas": "Exemplo federal do art. 40, §§ 14 e 15 (D07). A existência da Funpresp-Leg e o atendimento do Legislativo em 2026-10-01 não foram conferidos; a Funpresp-Jud não foi modelada.",
+  "mais_informacoes": [
+    {
+      "titulo": "Funpresp-Exe",
+      "url": "https://www.funpresp.com.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

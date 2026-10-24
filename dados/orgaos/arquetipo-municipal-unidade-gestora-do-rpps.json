@@ -1,0 +1,58 @@
+{
+  "id": "org:arquetipo-municipal-unidade-gestora-do-rpps",
+  "tipo": "orgao",
+  "nome": "Unidade gestora do regime próprio de previdência do município",
+  "resumo": "Nos municípios que têm regime próprio de previdência, órgão ou entidade única que administra aposentadorias e pensões dos servidores efetivos da prefeitura e da câmara.",
+  "detalhes": "Desde a EC 103/2019 é proibido criar novos regimes próprios, então só os municípios que já tinham o seu mantêm unidade gestora; os demais servidores municipais ficam no Regime Geral. O regime é contributivo, com equilíbrio atuarial, pode ter fundo previdenciário e é fiscalizado pela União, que emite o Certificado de Regularidade Previdenciária.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 40, § 20"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A CF não diz onde fica a unidade gestora; pusemos sob o Executivo municipal. A forma varia por município e não foi levantada."
+    },
+    "tipo_orgao": {
+      "confianca": "inferido",
+      "nota": "A CF admite 'órgão ou entidade gestora'. Escolhemos autarquia como forma típica, sem levantamento dos municípios."
+    },
+    "detalhes": {
+      "confianca": "inferido",
+      "nota": "Que os servidores de municípios sem regime próprio ficam no Regime Geral é leitura nossa do art. 40, §§ 13 e 22, e do art. 201 da CF; não conferimos a lei que regula isso nem quantos municípios têm regime próprio."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, caput, §§ 20 e 22; art. 249"
+    },
+    {
+      "ref": "norma:ec-103-2019",
+      "dispositivo": "art. 9º, caput e § 6º"
+    },
+    {
+      "ref": "norma:lei-9717-1998",
+      "dispositivo": "art. 1º, VI; arts. 6º, 8º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-11-13",
+    "ate": null,
+    "nota": "A exigência de unidade gestora única e a proibição de novos regimes são da EC 103/2019."
+  },
+  "confianca": "oficial",
+  "notas": "Arquétipo de existência condicional: nem todo município tem regime próprio. O número de municípios com regime próprio em 2026-10-01 não foi pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

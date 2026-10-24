@@ -1,0 +1,30 @@
+{
+  "id": "rel:previc-fiscaliza-funpresp-exe",
+  "tipo": "relacao",
+  "nome": "A Previc fiscaliza a Funpresp-Exe",
+  "relacao": "fiscaliza",
+  "de": "org:previc",
+  "para": "org:funpresp-exe",
+  "condicao": "Como fiscaliza toda entidade fechada de previdência complementar: autoriza estatuto e planos, apura infrações e pode intervir.",
+  "fontes": [
+    {
+      "ref": "norma:lei-12154-2009",
+      "dispositivo": "art. 2º, I, II, IV e VI"
+    },
+    {
+      "ref": "norma:lei-12618-2012",
+      "dispositivo": "art. 4º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-09-21",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A Funpresp-Exe é o único fundo de pensão modelado; a Previc fiscaliza todos os fundos de pensão do país.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}

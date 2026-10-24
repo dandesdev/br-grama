@@ -1,9 +1,9 @@
 ---
 id: f0-judiciario-complementar
 escopo: "Fatia 0, lacunas da varredura e pendências: organização judiciária complementar, precatórios e funções essenciais, CF arts. 5º, XXXVIII; 98; 100; 105; 108; 111-A; 129, VII; 130; ADCT, arts. 87, 101 a 105, 107-A"
-status: pendente
+status: em-andamento
 depende_de: [f0-cobertura]
-iniciada_em: null
+iniciada_em: 2026-10-23
 concluida_em: null
 ---
 
@@ -24,3 +24,4 @@ concluida_em: null
 - O quadro e as propostas da varredura estão em `pesquisa/fila/f0-cobertura.md` (seção "Propostas de tarefa"): ids ali são propostas, e as normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
 ## Diário
+- 2026-10-23 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o quadro de f0-cobertura (arts. 5º, 98, 100, 102, 105, 108, 111-A, 129, 130; ADCT 87, 101 a 107-A)

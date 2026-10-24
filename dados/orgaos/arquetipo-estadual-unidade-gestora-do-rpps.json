@@ -1,0 +1,54 @@
+{
+  "id": "org:arquetipo-estadual-unidade-gestora-do-rpps",
+  "tipo": "orgao",
+  "nome": "Unidade gestora do regime próprio de previdência do estado",
+  "resumo": "Órgão ou entidade única que administra as aposentadorias e pensões dos servidores efetivos de todos os Poderes e órgãos do estado (regime próprio de previdência).",
+  "detalhes": "O regime próprio é contributivo e solidário: pagam o estado, os servidores ativos, os aposentados e os pensionistas, com equilíbrio financeiro e atuarial. Cada ente pode ter só um regime e uma unidade gestora, e o estado pode manter fundos previdenciários com bens e contribuições. Os servidores participam dos colegiados de decisão, e a União fiscaliza o regime e emite o Certificado de Regularidade Previdenciária.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 40, § 20"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A CF não diz onde fica a unidade gestora; ela abrange todos os Poderes do ente. Pusemos sob o Executivo por ser, em geral, entidade da administração estadual; a forma varia por estado e não foi levantada."
+    },
+    "tipo_orgao": {
+      "confianca": "inferido",
+      "nota": "A CF admite 'órgão ou entidade gestora'. Escolhemos autarquia como forma típica, sem levantamento dos estados."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 40, caput, §§ 20 e 22; art. 249"
+    },
+    {
+      "ref": "norma:ec-103-2019",
+      "dispositivo": "art. 9º, caput e § 6º"
+    },
+    {
+      "ref": "norma:lei-9717-1998",
+      "dispositivo": "art. 1º, VI; arts. 6º, 8º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-11-13",
+    "ate": null,
+    "nota": "A exigência de unidade gestora única é da EC 103/2019 (art. 40, § 20, nessa redação), com prazo de dois anos para adequação (EC 103/2019, art. 9º, § 6º). Os regimes próprios estaduais são anteriores."
+  },
+  "confianca": "oficial",
+  "notas": "Arquétipo: o nome e a forma (autarquia, fundo, instituto) mudam por estado. Os militares estaduais têm sistema de proteção social próprio (não modelado). Na União ainda não há unidade gestora única: o Decreto 10.620/2021 (art. 1º, parágrafo único, I; arts. 2º e 3º) reparte a concessão entre o órgão central do Sipec e o INSS até que lei a institua, e a centralização está suspensa até 31/12/2026 (art. 4º, § 1º). Ver o relatório da tarefa f0-seguridade.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-23",
+    "tarefa": "f0-seguridade"
+  }
+}
