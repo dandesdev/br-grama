@@ -1,0 +1,59 @@
+{
+  "id": "org:ibama",
+  "tipo": "orgao",
+  "nome": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+  "sigla": "Ibama",
+  "resumo": "Autarquia federal que licencia os empreendimentos de competência da União, fiscaliza e pune infrações ambientais e exerce o poder de polícia ambiental.",
+  "detalhes": "Licencia, por exemplo, obras no mar, em terras indígenas, em mais de um estado ou na fronteira com outro país. É um dos dois órgãos executores do Sistema Nacional do Meio Ambiente (Sisnama), ao lado do ICMBio.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-7735-1989",
+          "dispositivo": "art. 2º, caput"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:ibama-vincula-se-ministerio-do-meio-ambiente-e-mudanca-do-clima."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-7735-1989",
+      "dispositivo": "art. 2º"
+    },
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, IV"
+    },
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 7º, XIV"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-02-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A LC 140/2011 atribui o licenciamento 'à União'; quem o executa é o Ibama (Lei 7.735/1989, art. 2º, II). A estrutura regimental do Ibama (decreto de 2024, pela lista do Senado) não foi lida.",
+  "mais_informacoes": [
+    {
+      "titulo": "Ibama (gov.br)",
+      "url": "https://www.gov.br/ibama/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

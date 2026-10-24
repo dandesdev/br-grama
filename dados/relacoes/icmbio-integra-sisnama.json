@@ -1,0 +1,31 @@
+{
+  "id": "rel:icmbio-integra-sisnama",
+  "tipo": "relacao",
+  "nome": "O ICMBio é órgão executor do Sisnama",
+  "relacao": "integra",
+  "de": "org:icmbio",
+  "para": "org:sisnama",
+  "condicao": "Órgão executor: executa e faz executar a política e as diretrizes ambientais do governo, conforme as suas competências.",
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, IV"
+    },
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 3º, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2007-08-28",
+    "ate": null,
+    "incerta": true,
+    "nota": "A redação atual do art. 6º, IV, é da Lei 12.856/2013; antes o ICMBio não era citado. Datas a partir da criação de cada entidade; histórico da redação não levantado."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

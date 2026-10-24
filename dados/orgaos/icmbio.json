@@ -1,0 +1,56 @@
+{
+  "id": "org:icmbio",
+  "tipo": "orgao",
+  "nome": "Instituto Chico Mendes de Conservação da Biodiversidade",
+  "sigla": "ICMBio",
+  "resumo": "Autarquia federal que propõe, implanta, administra, protege e fiscaliza as unidades de conservação criadas pela União.",
+  "detalhes": "Exerce o poder de polícia ambiental dentro das unidades de conservação da União, sem excluir a atuação supletiva do Ibama, e apoia as populações tradicionais nas unidades de uso sustentável. É órgão executor do Sisnama.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-11516-2007",
+          "dispositivo": "art. 1º, caput"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:icmbio-vincula-se-ministerio-do-meio-ambiente-e-mudanca-do-clima."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11516-2007",
+      "dispositivo": "arts. 1º e 2º"
+    },
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, IV"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-08-28",
+    "ate": null,
+    "nota": "Criado pela MP 366/2007, convertida na Lei 11.516/2007; a data da MP não foi conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Estrutura regimental (decreto de 2024, pela lista de decretos do Senado) não lida.",
+  "mais_informacoes": [
+    {
+      "titulo": "ICMBio (gov.br)",
+      "url": "https://www.gov.br/icmbio/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:municipios-autoriza-licenca-ambiental",
+  "tipo": "relacao",
+  "nome": "Os municípios licenciam atividades de impacto local",
+  "relacao": "autoriza",
+  "de": "ente:arquetipo-municipal",
+  "para": "obj:licenca-ambiental",
+  "condicao": "Impacto ambiental de âmbito local, conforme a tipologia do conselho estadual de meio ambiente, e unidades de conservação municipais (salvo APAs).",
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 9º, XIV; art. 13"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null
+  },
+  "notas": "Cada empreendimento é licenciado por um único ente (LC 140/2011, art. 13). No arquétipo, o órgão ambiental do ente não tem nó próprio; a relação parte do ente.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

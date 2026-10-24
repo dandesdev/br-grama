@@ -1,0 +1,44 @@
+{
+  "id": "aviso:sisnama-orgao-central-desatualizado",
+  "tipo": "aviso",
+  "nome": "Lei e decreto do Sisnama citam como órgão central uma secretaria que não existe mais",
+  "resumo": "A Lei 6.938/1981 e o Decreto 99.274/1990 ainda dão como órgão central do Sisnama a Secretaria do Meio Ambiente da Presidência da República, extinta.",
+  "detalhes": "A redação vem de 1990. Hoje a política ambiental é área do Ministério do Meio Ambiente e Mudança do Clima, cuja estrutura tem um departamento de apoio ao Conama e ao Sisnama, mas nenhuma das duas normas foi atualizada para indicar o novo órgão central.",
+  "tipo_aviso": "desatualizacao",
+  "afeta": [
+    "org:sisnama",
+    "org:ministerio-do-meio-ambiente-e-mudanca-do-clima"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Lei 6.938/1981, art. 6º, III, texto compilado (Planalto, 2026-10-23)",
+    "Decreto 99.274/1990, art. 3º, III (Planalto, 2026-10-24)",
+    "Decreto 12.254/2024, estrutura do MMA, art. 17 (Planalto, 2026-10-24)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, III"
+    },
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 3º, III"
+    },
+    {
+      "ref": "norma:decreto-12254-2024",
+      "dispositivo": "Anexo I, art. 17"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a extinção da Secretaria do Meio Ambiente da Presidência, data não conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Não procuramos ato que declare expressamente o MMA como órgão central; por isso não criamos relação do ministério com o Sisnama.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

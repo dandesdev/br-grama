@@ -1,0 +1,30 @@
+{
+  "id": "rel:ibama-autoriza-licenca-ambiental",
+  "tipo": "relacao",
+  "nome": "O Ibama licencia os empreendimentos atribuídos à União",
+  "relacao": "autoriza",
+  "de": "org:ibama",
+  "para": "obj:licenca-ambiental",
+  "condicao": "Casos da União: fronteira com país vizinho; mar territorial, plataforma continental e zona econômica exclusiva; terras indígenas; unidades de conservação federais (salvo APAs); dois ou mais estados; atividades militares; material radioativo e energia nuclear; e tipologias definidas pelo Executivo.",
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 7º, XIV; art. 13"
+    },
+    {
+      "ref": "norma:lei-7735-1989",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null
+  },
+  "notas": "Cada empreendimento é licenciado por um único ente (LC 140/2011, art. 13).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

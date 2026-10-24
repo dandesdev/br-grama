@@ -1,0 +1,37 @@
+{
+  "id": "org:sisnama",
+  "tipo": "orgao",
+  "nome": "Sistema Nacional do Meio Ambiente",
+  "sigla": "Sisnama",
+  "resumo": "Reúne os órgãos e entidades da União, dos estados, do DF e dos municípios responsáveis pela proteção e pela melhoria da qualidade ambiental.",
+  "detalhes": "Tem um órgão superior (Conselho de Governo), um consultivo e deliberativo (Conama, que fixa normas e padrões ambientais), um órgão central, os executores federais (Ibama e ICMBio), os órgãos seccionais dos estados e os locais dos municípios. Estados e municípios podem fazer normas supletivas, respeitando as do Conama.",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, caput, I a VI, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 3º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 23, VI e VII; art. 225"
+    }
+  ],
+  "vigencia": {
+    "de": "1981-09-02",
+    "ate": null,
+    "nota": "Criado pela Lei 6.938/1981; a composição atual vem de várias alterações (Leis 7.804/1989, 8.028/1990, 12.856/2013 e 15.190/2025)."
+  },
+  "confianca": "oficial",
+  "notas": "Tipo 'sistema'. Só Ibama e ICMBio ganharam relação 'integra'. O Conama e o Conselho de Governo não têm nó no mapa. O órgão central previsto na lei não existe mais: aviso:sisnama-orgao-central-desatualizado. Os órgãos ambientais estaduais e municipais não têm nó de arquétipo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

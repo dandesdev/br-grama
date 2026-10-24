@@ -1,0 +1,26 @@
+{
+  "id": "rel:estados-autoriza-licenca-ambiental",
+  "tipo": "relacao",
+  "nome": "Os estados licenciam o que não cabe à União nem aos municípios",
+  "relacao": "autoriza",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:licenca-ambiental",
+  "condicao": "Competência residual: todo licenciamento que não seja da União (art. 7º) nem dos municípios (art. 9º), mais as unidades de conservação estaduais (salvo APAs).",
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 8º, XIV e XV; art. 13"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null
+  },
+  "notas": "Cada empreendimento é licenciado por um único ente (LC 140/2011, art. 13). No arquétipo, o órgão ambiental do ente não tem nó próprio; a relação parte do ente.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,22 +1,22 @@
 ---
 id: f0-judiciario-complementar
 escopo: "Fatia 0, lacunas da varredura e pendências: organização judiciária complementar, precatórios e funções essenciais, CF arts. 5º, XXXVIII; 98; 100; 105; 108; 111-A; 129, VII; 130; ADCT, arts. 87, 101 a 105, 107-A"
-status: em-andamento
+status: coletada
 depende_de: [f0-cobertura]
 iniciada_em: 2026-10-23
-concluida_em: null
+concluida_em: 2026-10-24
 ---
 
 ## Entregáveis
 
-- [ ] Tribunal do júri (art. 5º, XXXVIII), juizados especiais e turmas recursais (art. 98, I; Leis 9.099/1995, 10.259/2001, 12.153/2009) e justiça de paz (art. 98, II), com cargos agregados quando couber.
-- [ ] Órgãos que hoje só aparecem no texto: ENFAM e Conselho da Justiça Federal (art. 105, parágrafo único), ENAMAT e CSJT (art. 111-A, § 2º).
-- [ ] Competências que faltam: TRF julga recursos dos juízes federais e julga juízes federais e membros do MPU (art. 108); STJ julga conselheiros dos tribunais de contas estaduais e membros do MPU que oficiam perante tribunais, incluindo os Procuradores Regionais Eleitorais (art. 105, I, a). Sem nó único para os TRFs: decida (conjunto ou relação por TRF) e justifique.
-- [ ] Precatórios (art. 100; ADCT, arts. 101 a 105 e 107-A): `obj:precatorio` e `proc:pagamento-de-precatorio`, com o regime especial vigente em 2026-10-01.
-- [ ] Controle externo da atividade policial pelo MP (art. 129, VII) e MPs de contas estaduais (art. 130).
-- [ ] Pendências do Judiciário: quem nomeia o quinto constitucional do TJDFT; alterações do RISTJ depois da ER 47/2024; `rel:stm-julga-recursos-da-justica-militar-da-uniao` deve citar também a lei de organização da Justiça Militar.
-- [ ] Restos do art. 102 apontados pela coleta do controle de constitucionalidade: conflitos federativos (I, f), conflitos de competência (I, o), extradição (I, g) e crime político (II, b); legitimados do mandado de injunção coletivo (Lei 13.300/2016, art. 12) e associações no mandado de segurança coletivo. O CPP e o rito do habeas corpus só se ajudarem.
-- [ ] Para cada artigo do escopo, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
+- [x] Tribunal do júri (art. 5º, XXXVIII), juizados especiais e turmas recursais (art. 98, I; Leis 9.099/1995, 10.259/2001, 12.153/2009) e justiça de paz (art. 98, II), com cargos agregados quando couber.
+- [x] Órgãos que hoje só aparecem no texto: ENFAM e Conselho da Justiça Federal (art. 105, parágrafo único), ENAMAT e CSJT (art. 111-A, § 2º).
+- [x] Competências que faltam: TRF julga recursos dos juízes federais e julga juízes federais e membros do MPU (art. 108); STJ julga conselheiros dos tribunais de contas estaduais e membros do MPU que oficiam perante tribunais, incluindo os Procuradores Regionais Eleitorais (art. 105, I, a). Sem nó único para os TRFs: decida (conjunto ou relação por TRF) e justifique.
+- [x] Precatórios (art. 100; ADCT, arts. 101 a 105 e 107-A): `obj:precatorio` e `proc:pagamento-de-precatorio`, com o regime especial vigente em 2026-10-01.
+- [x] Controle externo da atividade policial pelo MP (art. 129, VII) e MPs de contas estaduais (art. 130).
+- [x] Pendências do Judiciário: quem nomeia o quinto constitucional do TJDFT; alterações do RISTJ depois da ER 47/2024; `rel:stm-julga-recursos-da-justica-militar-da-uniao` deve citar também a lei de organização da Justiça Militar.
+- [x] Restos do art. 102 apontados pela coleta do controle de constitucionalidade: conflitos federativos (I, f), conflitos de competência (I, o), extradição (I, g) e crime político (II, b); legitimados do mandado de injunção coletivo (Lei 13.300/2016, art. 12) e associações no mandado de segurança coletivo. O CPP e o rito do habeas corpus só se ajudarem.
+- [x] Para cada artigo do escopo, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -146,3 +146,16 @@ concluida_em: null
 - 2026-10-24 16:50 — pendência RISTJ: o bruto já guardado pesquisa/brutos/stj/2026-10-23/ristj-bdjur-wayback-20260821.pdf é a edição consolidada "atualizada até a Emenda Regimental n. 54, de 17 de agosto de 2026" e lista as ERs 48 a 52 (11/6/2026, DJe 17/6/2026), 53 (30/6/2026, DJe 1º/7/2026) e 54 (17/8/2026, DJe 18/8/2026). Os dispositivos usados por norma:ristj (art. 10, III e VI) não têm marca de alteração; o art. 10, II, foi alterado pela ER 49/2026 (eleição dos ministros do CJF pelo Plenário). PARA O COORDENADOR (norma:ristj é de outra tarefa, não editei): atualizar compilacao_ate para "ER 54/2026" e a nota; não confirmamos se houve ER entre 18/8 e 1º/10/2026. URL provável da edição no BDJur: https://bdjur.stj.jus.br/server/api/core/bitstreams/34c899f9-2e95-42c8-bd0b-bbfa6fc1e8ae/content (achada em busca, não aberta)
 - 2026-10-24 16:50 — pendência STM: rel:stm-julga-recursos-da-justica-militar-da-uniao já cita norma:lei-8457-1992, art. 6º, II, c (feito na verificação de f0-judiciario); conferi no bruto 2026-10-17/l8457.htm: "as apelações e os recursos de decisões dos juízes de primeiro grau". Nada a fazer
 - 2026-10-24 16:50 — achado ao conferir o CPP: a Lei 15.358/2026 (24/3/2026) tira do júri os homicídios de membros de organização criminosa ultraviolenta, grupo paramilitar ou milícia conexos aos crimes dela (art. 2º, § 8º; CPP, art. 78, I). Gravei norma:lei-15358-2026 e fonte:stf-adi-7952 (ADIs 7952, 7956, 7957 e 7958, sem decisão até 16/9/2026). Não abri aviso: não é contradição entre fontes oficiais; a constitucionalidade está em julgamento
+- 2026-10-24 16:53 — cobertura: art. 5º, XXXVIII coberto (org:tribunais-do-juri, org:tribunais-do-juri-federais, cargo:jurado, julga e preside)
+- 2026-10-24 16:53 — cobertura: art. 98 coberto: I (org:juizados-especiais-estaduais, org:turmas-recursais-estaduais, cargo:juiz-leigo, cargo:conciliador-dos-juizados-especiais), § 1º (org:juizados-especiais-federais, org:turmas-recursais-federais, org:turma-nacional-de-uniformizacao), II (org:justica-de-paz, cargo:juiz-de-paz). Fica fora o § 2º (custas destinadas à Justiça), regra financeira sem nó
+- 2026-10-24 16:53 — cobertura: art. 100 coberto (obj:precatorio, obj:limite-de-pagamento-de-precatorios, proc:pagamento-de-precatorio com os regimes do § 23 e do ADCT, art. 101, rel:cnj-regulamenta-precatorio). §§ 11, 13 a 22 e 29 só em notas e detalhes
+- 2026-10-24 16:53 — cobertura: art. 102: I, f (obj:conflito-federativo), I, g (obj:extradicao), I, o (obj:conflito-de-competencia) e II, b (rel:stf-julga-recursos-crime-politico) cobertos. Seguem sem nó: I, e (litígio com Estado estrangeiro ou organismo internacional), j (revisão criminal e rescisória), m (execução de sentença) e n (ação em que a magistratura é interessada) — proposta no relatório
+- 2026-10-24 16:53 — cobertura: art. 105: I, a completo (rel:stj-julga-conselheiro-do-tce, rel:stj-julga-procurador-regional-eleitoral; TCMs na condição), I, d (rel:stj-julga-conflito-de-competencia), § 1º (org:enfam, org:conselho-da-justica-federal). Seguem sem nó: I, g (conflitos de atribuições) e I, j (conflitos com o Comitê Gestor do IBS)
+- 2026-10-24 16:53 — cobertura: art. 108: I, a e II cobertos (30 relações por TRF); I, e só nos detalhes de obj:conflito-de-competencia; I, b a d (rescisória, MS, HC contra juiz federal) sem nó
+- 2026-10-24 16:53 — cobertura: art. 111-A, § 2º coberto (org:enamat, org:csjt, rel:csjt-coordena-justica-do-trabalho)
+- 2026-10-24 16:53 — cobertura: art. 129, VII coberto (rel:mpu-fiscaliza-* para as 4 polícias federais e rel:arquetipo-estadual-ministerio-publico-fiscaliza-* para polícia civil, militar e penal). Polícias do DF e polícias legislativas (Res. CNMP 20, art. 1º) ficaram fora
+- 2026-10-24 16:53 — cobertura: art. 130 coberto (org:arquetipo-estadual-mp-de-contas, cargo:arquetipo-estadual-procurador-de-contas); MPs junto aos TCMs não modelados
+- 2026-10-24 16:53 — cobertura: ADCT, art. 87 coberto (etapa pequeno-valor do proc); arts. 101 a 105 cobertos (regime regime-especial-adct-101); art. 107-A coberto em obj:limite-de-pagamento-de-precatorios (efeitos só em 2022, ADI 7064)
+- 2026-10-24 16:53 — cobertura: Lei 13.300/2016, art. 12 coberto (MP da União e estadual, partidos, sindicatos e associações, DPU e Defensoria estadual ajuízam MI coletivo); associações no MS coletivo cobertas (org:organizacoes-sindicais-entidades-de-classe-e-associacoes)
+- 2026-10-24 16:53 — vocabulário (proposta, não editado): provimento 'sorteio' (cargo:jurado usa 'designacao'); ampliar a definição de 'designacao' para incluir auxiliares da Justiça não membros de carreira (juiz leigo, conciliador); relação 'supervisiona' (CJF e CSJT usam 'coordena'); tipo_orgao 'escola-judicial' (Enfam e Enamat usam 'outro'); tipo_norma 'provimento' (Provimento CNJ 207/2025 usa 'outro')
+- 2026-10-24 16:53 — validação sem erro nem aviso nos arquivos da tarefa; status coletada

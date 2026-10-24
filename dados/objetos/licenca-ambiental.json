@@ -1,0 +1,36 @@
+{
+  "id": "obj:licenca-ambiental",
+  "tipo": "objeto",
+  "nome": "Licença ambiental",
+  "resumo": "Autorização que um único ente (União, estado ou município) dá para instalar e operar atividade que use recursos ambientais ou possa degradar o meio ambiente.",
+  "detalhes": "A Constituição exige estudo prévio de impacto ambiental para obra ou atividade que possa causar degradação significativa. Os outros entes interessados podem opinar, sem vincular a decisão, e quem licencia é quem fiscaliza e autua.",
+  "tipo_objeto": "decisao",
+  "esfera": "nacional",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null,
+    "nota": "Divisão entre os entes pela LC 140/2011. O licenciamento existe desde a Lei 6.938/1981 (art. 10)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 225, § 1º, IV"
+    },
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "arts. 7º, XIV; 8º, XIV; 9º, XIV; 13; 17"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O rito do licenciamento (tipos de licença, prazos, licença por adesão etc.) está na Lei Geral do Licenciamento Ambiental, Lei 15.190/2025 (vigência 180 dias após a publicação; cópia em brutos), não lida além do art. 1º; por isso não há processo no mapa. Proposta de entregável para outra tarefa: proc:licenciamento-ambiental pela Lei 15.190/2025.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}
