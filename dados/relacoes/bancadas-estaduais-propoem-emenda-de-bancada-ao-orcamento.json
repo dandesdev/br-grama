@@ -1,0 +1,34 @@
+{
+  "id": "rel:bancadas-estaduais-propoem-emenda-de-bancada-ao-orcamento",
+  "tipo": "relacao",
+  "nome": "As bancadas estaduais propõem emendas de bancada ao orçamento",
+  "relacao": "propoe",
+  "de": "org:bancadas-estaduais-no-congresso-nacional",
+  "para": "obj:emenda-de-bancada-ao-orcamento",
+  "condicao": "Emendas ao projeto da LOA sobre matérias de interesse do estado ou do DF; a ata que decide a apresentação precisa do voto de três quartos dos deputados e dois terços dos senadores da unidade.",
+  "quorum": {
+    "regra": "outro",
+    "nota": "Três quartos dos deputados federais e dois terços dos senadores da unidade da Federação (Res. 1/2006-CN, art. 47, I, na redação da Res. 1/2025-CN)."
+  },
+  "vigencia": {
+    "de": "2019-06-27",
+    "ate": null,
+    "nota": "Mesma data do objeto (EC 100/2019, emendas de bancada impositivas); as bancadas já apresentavam emendas antes (Res. 1/2006-CN, art. 46). O quórum atual vale desde a sanção da LOA de 2025 (Res. 1/2025-CN)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 166, § 12"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 46 e 47, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

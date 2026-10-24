@@ -1,0 +1,30 @@
+{
+  "id": "rel:juiz-leigo-auxilia-juiz-de-direito",
+  "tipo": "relacao",
+  "nome": "O juiz leigo auxilia o juiz togado nos juizados",
+  "relacao": "auxilia",
+  "de": "cargo:juiz-leigo",
+  "para": "cargo:juiz-de-direito",
+  "condicao": "Nos juizados especiais estaduais: o juiz leigo segue a orientação jurídica do juiz togado, que responde pela disciplina e avaliação dele.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:resolucao-cnj-174-2013",
+      "dispositivo": "art. 9º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 9.099/1995."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

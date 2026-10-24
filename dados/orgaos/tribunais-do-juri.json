@@ -1,0 +1,44 @@
+{
+  "id": "org:tribunais-do-juri",
+  "tipo": "orgao",
+  "nome": "Tribunais do júri",
+  "resumo": "Órgãos da Justiça estadual em que cidadãos sorteados decidem os crimes dolosos contra a vida. Cada um tem um juiz de direito, que preside, e 25 jurados.",
+  "detalhes": "A Constituição garante o júri, com plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para os crimes dolosos contra a vida (art. 5º, XXXVIII). Em cada sessão, 7 dos 25 jurados sorteados formam o Conselho de Sentença (CPP, art. 447). Das decisões do júri cabe apelação só nos casos do CPP, art. 593, III.",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, XXXVIII"
+    },
+    {
+      "ref": "norma:decreto-lei-3689-1941",
+      "dispositivo": "art. 74, § 1º; arts. 425, 436, 447 e 593, III"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-3689-1941",
+          "dispositivo": "art. 74, caput, e art. 447"
+        }
+      ],
+      "nota": "O júri é presidido por juiz togado (CPP, art. 447), e a competência por natureza da infração é regulada pelas leis de organização judiciária, ressalvada a competência privativa do júri (art. 74). O júri federal fica em org:tribunais-do-juri-federais."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O júri é anterior à CF/88; a data usada é a da Constituição atual."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: representa os júris de todas as comarcas. Crimes do júri pelo CPP, art. 74, § 1º: os dos arts. 121, §§ 1º e 2º, 122, parágrafo único, e 123 a 127 do Código Penal, consumados ou tentados. O alistamento anual é feito pelo presidente do júri: de 80 a 1.500 jurados, conforme a população da comarca (CPP, art. 425).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

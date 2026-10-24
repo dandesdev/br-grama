@@ -1,0 +1,26 @@
+{
+  "id": "rel:stj-julga-recursos-da-tnu",
+  "tipo": "relacao",
+  "nome": "O STJ dirime divergência da TNU com a sua jurisprudência",
+  "relacao": "julga-recursos-contra",
+  "de": "org:stj",
+  "para": "org:turma-nacional-de-uniformizacao",
+  "condicao": "Quando a tese da TNU sobre direito material contraria súmula ou jurisprudência dominante do STJ, a parte pode provocar o STJ, que dirime a divergência.",
+  "fontes": [
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 14, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 10.259/2001."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

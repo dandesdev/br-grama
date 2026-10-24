@@ -1,0 +1,31 @@
+{
+  "id": "rel:conselho-da-justica-federal-coordena-justica-federal",
+  "tipo": "relacao",
+  "nome": "Supervisão administrativa e orçamentária da Justiça Federal",
+  "relacao": "coordena",
+  "de": "org:conselho-da-justica-federal",
+  "para": "org:justica-federal",
+  "condicao": "Supervisiona a administração e o orçamento do primeiro e do segundo graus como órgão central do sistema, com decisões vinculantes: expede normas, aprova propostas orçamentárias e homologa decisões dos TRFs que aumentem despesas.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, § 1º, II"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 1º; art. 3º; art. 5º, III, V e VI"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Redação do art. 105 dada pela EC 45/2004."
+  },
+  "confianca": "oficial",
+  "notas": "O vocabulário não tem 'supervisiona'; 'coordena' é o mais próximo (os TRFs não são subordinados ao CJF, mas as decisões dele os vinculam). Proposta de termo no diário.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

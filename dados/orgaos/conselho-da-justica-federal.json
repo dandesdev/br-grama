@@ -1,0 +1,59 @@
+{
+  "id": "org:conselho-da-justica-federal",
+  "tipo": "orgao",
+  "nome": "Conselho da Justiça Federal",
+  "sigla": "CJF",
+  "resumo": "Órgão central da administração da Justiça Federal: supervisiona orçamento e gestão dos TRFs e dos juízes federais, com poder de correição e decisões vinculantes.",
+  "detalhes": "Funciona no STJ e é presidido pelo Presidente do STJ. É formado pelo Presidente e pelo Vice do STJ, por quatro ministros do STJ eleitos e pelos presidentes dos TRFs; os presidentes da OAB e da Ajufe têm assento sem voto (Lei 11.798/2008, art. 2º). Aprova as propostas orçamentárias dos TRFs e da primeira instância e julga processos disciplinares contra membros dos TRFs (art. 5º, VI e IX).",
+  "tipo_orgao": "judiciario-orgao-de-controle",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, § 1º, II"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "arts. 1º a 5º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 105, § 1º, II",
+          "nota": "\"Funcionarão junto ao Superior Tribunal de Justiça\""
+        },
+        {
+          "ref": "norma:lei-11798-2008",
+          "dispositivo": "art. 1º",
+          "nota": "\"funcionará no Superior Tribunal de Justiça\""
+        }
+      ],
+      "nota": "Fica dentro do STJ no organograma, como diz a lei. A ligação com a Justiça Federal, que ele supervisiona, está nas relações."
+    }
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 4º (Corregedoria-Geral da Justiça Federal e Centro de Estudos Judiciários; a TNU tem nó próprio)"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação atual do art. 105, § 1º, II, dada pela EC 45/2004 (renumerado pela EC 125/2022). O CJF é anterior; a redação original da CF não foi aberta nesta tarefa."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 11.798/2008, art. 1º, ainda remete ao \"inciso II do parágrafo único do art. 105\" da CF, hoje § 1º, II (renumeração da EC 125/2022). Quatro ministros eleitos: redação da Lei 14.226/2021. Mandato de 2 anos, sem recondução, salvo para os presidentes do STJ e dos TRFs (art. 2º, §§ 3º a 5º). A Corregedoria-Geral é dirigida por ministro do STJ eleito Corregedor-Geral (art. 2º, § 6º, redação da Lei 13.788/2018).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "obj:tributo-contribuicoes-ao-sistema-s",
+  "tipo": "objeto",
+  "nome": "Contribuições ao Sistema S",
+  "resumo": "Contribuições compulsórias dos empregadores sobre a folha de salários, destinadas às entidades de serviço social e de formação profissional do Sistema S.",
+  "detalhes": "A CF manteve essas contribuições, já existentes em 1988, fora das regras do art. 195 (art. 240). Cada entidade tem a sua lei: por exemplo, 1% da folha para o Senac, 2% para o Sesc e 2,5% para o Senar. Desde 2007 quem as arrecada e cobra é a Receita Federal, como contribuições devidas a terceiros.",
+  "tipo_objeto": "tributo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:sistema-s"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Ressalvadas pela CF de 1988 (art. 240); as mais antigas vêm dos anos 1940 (ex.: Decreto-Lei 4.048/1942, art. 4º)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 240"
+    },
+    {
+      "ref": "norma:decreto-lei-8621-1946",
+      "dispositivo": "art. 4º"
+    },
+    {
+      "ref": "norma:decreto-lei-9853-1946",
+      "dispositivo": "art. 3º, § 1º"
+    },
+    {
+      "ref": "norma:lei-8315-1991",
+      "dispositivo": "art. 3º, I"
+    },
+    {
+      "ref": "norma:lei-11457-2007",
+      "dispositivo": "art. 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "As alíquotas citadas são as do texto compilado do Planalto em 2026-10-24; não conferimos se leis posteriores as mudaram fora dessas páginas. O Senar não acumula com Senai e Senac (Lei 8.315/1991, art. 3º, § 1º). O adicional que financia Sebrae, Apex-Brasil, ABDI e Embratur incide sobre as alíquotas das entidades do Decreto-Lei 2.318/1986 (Lei 8.029/1990, art. 8º, §§ 3º e 4º; não citado como fonte). A Receita fica com 3,5% do arrecadado como retribuição, salvo lei específica (Lei 11.457/2007, art. 3º, § 1º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

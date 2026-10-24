@@ -1,0 +1,33 @@
+{
+  "id": "rel:ministro-de-estado-autoriza-concessao-de-lavra",
+  "tipo": "relacao",
+  "nome": "O Ministro de Minas e Energia outorga concessões de lavra",
+  "relacao": "autoriza",
+  "de": "cargo:ministro-de-estado",
+  "para": "obj:concessao-de-lavra-e-de-potencial-hidraulico",
+  "orgao_exercicio": "org:ministerio-de-minas-e-energia",
+  "condicao": "Regra geral para a concessão de lavra; também declara caducidade e anui com a cessão. As análises técnicas são feitas pela ANM.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13575-2017",
+      "dispositivo": "art. 3º, I a III e parágrafo único"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 176, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2017-12-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Lei 13.575/2017; a competência ministerial é anterior (Código de Mineração), histórico não levantado."
+  },
+  "notas": "O vocabulário não tem 'outorga' ou 'concede'; 'autoriza' é o mais próximo (proposta no diário da tarefa).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

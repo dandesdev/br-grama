@@ -1,0 +1,31 @@
+{
+  "id": "rel:csjt-coordena-justica-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Supervisão administrativa, orçamentária, financeira e patrimonial da Justiça do Trabalho",
+  "relacao": "coordena",
+  "de": "org:csjt",
+  "para": "org:justica-do-trabalho",
+  "condicao": "Supervisiona o primeiro e o segundo graus como órgão central do sistema, com decisões vinculantes: expede normas gerais, fiscaliza os serviços e controla a legalidade de atos administrativos dos TRTs.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 111-A, § 2º, II"
+    },
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "art. 1º; art. 7º, I a IV e VII"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Art. 111-A, § 2º, incluído pela EC 45/2004."
+  },
+  "confianca": "oficial",
+  "notas": "Mesma escolha de termo de rel:conselho-da-justica-federal-coordena-justica-federal.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

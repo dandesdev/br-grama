@@ -1,0 +1,30 @@
+{
+  "id": "obj:arquetipo-estadual-fundo-de-combate-a-pobreza",
+  "tipo": "objeto",
+  "nome": "Fundo estadual de combate à pobreza",
+  "resumo": "Fundo que cada estado e o DF devem criar para combater a pobreza, gerido com participação da sociedade civil e financiável por adicional de até 2 pontos no ICMS sobre supérfluos.",
+  "detalhes": "O adicional do ICMS incide sobre produtos e serviços supérfluos, nas condições da lei complementar do ICMS, e não é repartido com os municípios (ADCT, art. 82, § 1º). Além dele, o fundo recebe outros recursos que o ente destinar (art. 82, caput).",
+  "tipo_objeto": "fundo",
+  "esfera": "estadual",
+  "relativo_a": [
+    "ente:arquetipo-estadual"
+  ],
+  "vigencia": {
+    "de": "2000-12-18",
+    "ate": null,
+    "nota": "Previsto pela EC 31/2000, em vigor na publicação (DOU de 18/12/2000). O art. 82 do ADCT não tem prazo."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 82, caput e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Cada estado cria o seu fundo por lei própria; nomes, alíquotas e gestores variam e não foram levantados. A EC 132/2023 remete o adicional ao imposto que substituir o ICMS ('vide' no art. 82), com efeitos futuros não levantados. A LC 227/2026 trata da parcela do IBS destinada ao fundo do DF (arts. 123 a 125; não citada como fonte).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

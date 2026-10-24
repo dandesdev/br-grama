@@ -1,0 +1,404 @@
+{
+  "id": "proc:decreto-legislativo",
+  "tipo": "processo",
+  "nome": "Processo legislativo do decreto legislativo",
+  "resumo": "Caminho de um projeto de decreto legislativo, ato do Congresso sobre matérias de sua competência exclusiva: passa pelas duas Casas e não vai à sanção.",
+  "detalhes": "É o rito usado para aprovar tratados, autorizar o Presidente, aprovar estado de defesa ou intervenção, sustar atos do Executivo, aprovar concessões de rádio e TV, entre outras matérias do art. 49 da CF. Câmara e Senado votam como numa lei ordinária, mas, no fim, o Presidente do Senado promulga o decreto, sem passar pelo Presidente da República.",
+  "forma": "linha",
+  "produz": "obj:decreto-legislativo",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:comissoes-do-senado-federal",
+        "org:comissoes-mistas-do-congresso-nacional"
+      ],
+      "acao": "Deputado, senador ou comissão apresenta o projeto de decreto legislativo na sua Casa",
+      "detalhes": "Na Câmara, qualquer deputado ou comissão pode apresentar o projeto, salvo os de iniciativa privativa da Mesa ou de outro colegiado (RICD, art. 109, § 2º); as comissões, por exemplo, podem elaborar o projeto que susta ato normativo do Executivo, sem excluir a iniciativa de deputado (RICD, art. 24, XII e § 2º). O Senado numera os projetos de decreto legislativo indicando a Casa de origem, porque podem começar em qualquer das duas (RISF, art. 246, I, d).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 49; art. 59, VI"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 24, XII e § 2º; art. 109, II e § 2º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 213, II; art. 245; art. 246, I, d"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissoes",
+          "quando": "Autor: deputado ou comissão da Câmara"
+        },
+        {
+          "para": "senado-comissoes",
+          "quando": "Autor: senador ou comissão do Senado"
+        }
+      ]
+    },
+    {
+      "id": "mensagem-do-presidente",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente envia ao Congresso a mensagem com o ato que depende de aprovação ou o pedido de autorização",
+      "detalhes": "Muitas matérias do art. 49 nascem de mensagem do Presidente: tratados que ele celebrou (art. 84, VIII), estado de defesa e intervenção federal já decretados (arts. 36, § 1º, e 136, § 4º), pedido de estado de sítio (art. 137), concessões de rádio e TV (art. 223, § 1º). A mensagem não é o projeto: na Câmara, a comissão técnica aprova o projeto de decreto legislativo a partir dela (RICD, art. 151, I, j). No Senado, o projeto sobre ato internacional só tramita acompanhado do texto do ato, da mensagem e da exposição de motivos (RISF, art. 376, I).",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 36, § 1º; art. 49, I a IV; art. 84, VIII; art. 136, § 4º; art. 137, parágrafo único; art. 223, § 1º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 32, XV, c, e XXVII, c; art. 151, I, j"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 376, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissoes",
+          "quando": "Mensagem examinada primeiro pela Câmara, que elabora o projeto"
+        }
+      ]
+    },
+    {
+      "id": "camara-comissoes",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:ccjc-camara"
+      ],
+      "acao": "As comissões da Câmara dão parecer; o projeto de decreto legislativo sempre vai ao Plenário",
+      "detalhes": "A apreciação conclusiva das comissões da Câmara vale só para projetos de lei (RICD, art. 24, II); o projeto de decreto legislativo é sempre votado em Plenário. Tratados vão à Comissão de Relações Exteriores e de Defesa Nacional, e concessões de rádio e TV, à Comissão de Comunicação. Os projetos sobre guerra, forças estrangeiras, intervenção federal, ausência do Presidente do País e tratados tramitam em urgência (RICD, art. 151, I). Distribuição e pareceres seguem as regras da lei ordinária.",
+      "prazo": {
+        "texto": "Por comissão: 40 sessões (tramitação ordinária), 10 (prioridade) ou 5 (urgência) (RICD, art. 52)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 24, I e II; art. 32, XV, c, e XXVII, c; art. 52; art. 151, I, a, g, h, i e j"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "Plenário da Câmara vota o projeto; em regra, aprova por maioria dos votos, presente a maioria absoluta",
+      "detalhes": "Há quóruns especiais fixados pela CF: maioria absoluta para estado de defesa e estado de sítio (arts. 136, § 4º, e 137, parágrafo único), dois quintos do Congresso, em votação nominal, para não renovar concessão de rádio e TV (art. 223, § 2º), e três quintos em dois turnos para tratado de direitos humanos com força de emenda constitucional (art. 5º, § 3º).",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Regra geral do art. 47; ver os quóruns especiais nos detalhes."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, § 3º; art. 47; art. 136, § 4º; art. 137, parágrafo único; art. 223, § 2º"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "senado-comissoes",
+          "quando": "Aprovado e a Câmara é a casa iniciadora"
+        },
+        {
+          "para": "promulgacao",
+          "quando": "Aprovado sem emendas e a Câmara é a casa revisora"
+        },
+        {
+          "para": "iniciadora-aprecia-emendas",
+          "quando": "Aprovado com emendas e a Câmara é a casa revisora"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "senado-comissoes",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "org:comissoes-do-senado-federal",
+        "org:ccj-senado"
+      ],
+      "acao": "As comissões do Senado dão parecer; em alguns casos decidem sozinhas (decisão terminativa)",
+      "detalhes": "A decisão terminativa vale sempre para os projetos de concessão de rádio e TV (RISF, art. 91, III) e, se o Presidente do Senado delegar, para tratados, mineração e recursos hídricos em terras indígenas e terras públicas acima de 2.500 ha (art. 91, § 1º, I a III). Os projetos sobre atos internacionais vão à Comissão de Relações Exteriores e Defesa Nacional, que tem 15 dias úteis, prorrogáveis, para opinar (art. 376). Um décimo dos senadores pode recorrer ao Plenário contra a decisão terminativa.",
+      "prazo": {
+        "texto": "Atos internacionais: emendas em 5 dias úteis e parecer da comissão em 15 dias úteis, prorrogáveis por igual período (RISF, art. 376, III)",
+        "valor": 15,
+        "unidade": "dias-uteis",
+        "conta_de": "fim do prazo de emendas"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 2º, I"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 91, III, § 1º, I a III, e §§ 2º a 5º; art. 376, II a V"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "senado-plenario",
+          "quando": "Matéria sem decisão terminativa, ou recurso de um décimo dos senadores"
+        },
+        {
+          "para": "promulgacao",
+          "quando": "Decisão terminativa aprovando o projeto sem emendas, sem recurso, e o Senado é a casa revisora"
+        },
+        {
+          "para": "camara-comissoes",
+          "quando": "Decisão terminativa aprovando o projeto, sem recurso, e o Senado é a casa iniciadora"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Decisão terminativa rejeitando o projeto, sem recurso"
+        }
+      ]
+    },
+    {
+      "id": "senado-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "Plenário do Senado vota o projeto; em regra, aprova por maioria dos votos, presente a maioria absoluta",
+      "detalhes": "Os quóruns especiais são os mesmos da Câmara (ver a etapa camara-plenario). Projeto sobre ato internacional entra na Ordem do Dia depois de publicados o parecer e as emendas (RISF, art. 376, IV).",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Regra geral do art. 47 da CF e do RISF, art. 288."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 288, caput; art. 376, IV"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "camara-comissoes",
+          "quando": "Aprovado e o Senado é a casa iniciadora"
+        },
+        {
+          "para": "promulgacao",
+          "quando": "Aprovado sem emendas e o Senado é a casa revisora"
+        },
+        {
+          "para": "iniciadora-aprecia-emendas",
+          "quando": "Aprovado com emendas e o Senado é a casa revisora"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "iniciadora-aprecia-emendas",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados",
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "A casa iniciadora vota as emendas da revisora, aceitando-as ou rejeitando-as",
+      "detalhes": "As emendas do Senado a projeto da Câmara voltam às comissões da Câmara com o projeto (RICD, art. 123); as emendas da Câmara a projeto do Senado não aceitam subemenda e são votadas em globo, salvo destaque (RISF, arts. 285 e 286). Depois disso o projeto vai à promulgação.",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 123"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "arts. 285 a 287"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "promulgacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "promulgacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente do Senado promulga o decreto legislativo, sem sanção do Presidente da República",
+      "detalhes": "As matérias do art. 49 não passam pela sanção (CF, art. 48, caput). O texto aprovado em definitivo é promulgado pelo Presidente do Senado, que também preside o Congresso.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 48, caput; art. 57, § 5º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 48, XXVIII; art. 91, § 5º; art. 328"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 52, parágrafo único"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "O projeto rejeitado é arquivado",
+      "detalhes": "No Senado, o projeto com pareceres contrários de mérito é arquivado, salvo recurso de um décimo dos senadores (RISF, art. 254). Na Câmara, como as comissões não decidem sozinhas sobre decreto legislativo, a regra do arquivamento por pareceres contrários não se aplica (RICD, art. 133) e o arquivamento vem da rejeição em Plenário.",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 133"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 91, § 5º; art. 254"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "radiodifusao",
+      "nome": "Concessão de rádio e TV",
+      "resumo": "O ato de outorga ou renovação do Executivo só vale depois do Congresso; cada Casa tem 45 dias, e não renovar exige 2/5 em votação nominal",
+      "detalhes": "O Poder Executivo outorga e renova as concessões, e o Congresso aprecia o ato no prazo do art. 64, §§ 2º e 4º, contado do recebimento da mensagem: 45 dias em cada Casa, que não correm no recesso. A não renovação depende de dois quintos do Congresso, em votação nominal. No Senado, a decisão da comissão é terminativa.",
+      "quem_aciona": [
+        "cargo:presidente-da-republica"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 64, §§ 2º e 4º; art. 223, caput e §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 32, XXVII, c"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 91, III"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-plenario",
+          "prazo": {
+            "texto": "45 dias do recebimento da mensagem (CF, art. 223, § 1º, c/c art. 64, §§ 2º e 4º)",
+            "valor": 45,
+            "unidade": "dias",
+            "conta_de": "recebimento da mensagem",
+            "efeito": "sobrestamento das demais deliberações da Câmara, salvo as de prazo constitucional"
+          },
+          "nota": "A não renovação exige dois quintos do Congresso, em votação nominal (art. 223, § 2º)."
+        },
+        {
+          "etapa": "senado-comissoes",
+          "nota": "A comissão decide de forma terminativa (RISF, art. 91, III)."
+        },
+        {
+          "etapa": "senado-plenario",
+          "prazo": {
+            "texto": "45 dias no Senado (CF, art. 223, § 1º, c/c art. 64, §§ 2º e 4º)",
+            "valor": 45,
+            "unidade": "dias",
+            "efeito": "sobrestamento das demais deliberações do Senado, salvo as de prazo constitucional"
+          },
+          "nota": "Só chega ao Plenário se houver recurso contra a decisão terminativa."
+        }
+      ]
+    },
+    {
+      "id": "tratado-de-direitos-humanos",
+      "nome": "Tratado de direitos humanos com força de emenda",
+      "resumo": "Aprovado em dois turnos por três quintos dos membros de cada Casa, o tratado de direitos humanos equivale a emenda constitucional",
+      "detalhes": "A CF diz que os tratados e convenções sobre direitos humanos aprovados assim são equivalentes às emendas constitucionais. Sem esse quórum, o tratado é aprovado pela regra geral.",
+      "quem_aciona": [
+        "org:congresso-nacional"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, § 3º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-plenario",
+          "nota": "Dois turnos; aprovação por três quintos dos membros da Câmara (308 de 513)."
+        },
+        {
+          "etapa": "senado-plenario",
+          "nota": "Dois turnos; aprovação por três quintos dos membros do Senado (49 de 81)."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 47; art. 48, caput; art. 49; art. 59, VI"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 24; art. 109, II e § 2º; art. 151, I"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, XXVIII; art. 91; art. 213, II; art. 376"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 52, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) a CF não diz por onde começa o projeto de decreto legislativo (o art. 64 trata só de projetos de lei); a etapa 'mensagem-do-presidente' leva à Câmara porque o RICD, art. 151, I, j, prevê que a comissão técnica da Câmara aprove o projeto a partir da mensagem do Executivo sobre tratados, e o RISF, art. 376, trata o projeto sobre ato internacional como já formado quando chega ao Senado; para as outras mensagens (estado de defesa, intervenção, concessões), a casa iniciadora não foi conferida em norma e deve ser revista. (2) Não há etapa de publicação: nenhuma norma consultada diz quem manda publicar o decreto legislativo. (3) Matérias com rito próprio (contas do Presidente pela CMO, efeitos de medida provisória rejeitada, estado de defesa e sítio, calamidade) usam este rito com variações descritas nos seus processos: ver proc:medida-provisoria, proc:estado-de-defesa, proc:estado-de-sitio, proc:calamidade-publica-nacional. (4) Os 308 e 49 votos do regime de tratado de direitos humanos são três quintos de 513 e de 81. RICD lido na cópia de pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html; RISF e RCCN nos PDFs de pesquisa/brutos/senado/2026-10-23-processos-legislativos/ (compilação até julho de 2025, ver aviso:risf-rccn-compilacao-ate-julho-2025); CF na cópia de 2026-10-16 (as EC 140 e 141 não tocam os artigos citados).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

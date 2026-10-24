@@ -1,0 +1,29 @@
+{
+  "id": "rel:conselho-da-justica-federal-corrige-juiz-de-trf",
+  "tipo": "relacao",
+  "nome": "Correição e processo disciplinar dos membros dos TRFs",
+  "relacao": "corrige",
+  "de": "org:conselho-da-justica-federal",
+  "para": "cargo:juiz-de-trf",
+  "condicao": "Julga processos administrativos disciplinares contra membros dos TRFs; sua Corregedoria-Geral faz inspeções e correições nos TRFs. Não exclui a atuação do CNJ.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, § 1º, II"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 5º, IX; art. 6º, III e IV; art. 7º, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

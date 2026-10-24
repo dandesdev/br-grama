@@ -1,0 +1,46 @@
+{
+  "id": "org:codefat",
+  "tipo": "orgao",
+  "nome": "Conselho Deliberativo do Fundo de Amparo ao Trabalhador",
+  "sigla": "Codefat",
+  "resumo": "Colegiado tripartite do Ministério do Trabalho e Emprego que gere o FAT: aprova o plano anual do seguro-desemprego e do abono e a proposta orçamentária do fundo.",
+  "detalhes": "Tem 18 membros: 6 do governo federal (entre eles o BNDES), 6 indicados pelas centrais sindicais e 6 pelas confederações de empregadores. A presidência, eleita a cada dois anos, alterna entre as três representações (Decreto 11.496/2023, arts. 29 e 30).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-do-trabalho-e-emprego",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11496-2023",
+          "dispositivo": "art. 1º, IV; art. 32"
+        }
+      ],
+      "nota": "O decreto trata o Codefat como colegiado 'do âmbito do Ministério do Trabalho e Emprego', que exerce a sua secretaria-executiva."
+    }
+  },
+  "vigencia": {
+    "de": "1990-01-12",
+    "ate": null,
+    "nota": "Instituído pela Lei 7.998/1990 (art. 18); composição atual pelo Decreto 11.496/2023."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-7998-1990",
+      "dispositivo": "arts. 18, 19 e 20"
+    },
+    {
+      "ref": "norma:decreto-11496-2023",
+      "dispositivo": "arts. 1º, IV, e 29 a 32"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os representantes de trabalhadores e empregadores têm mandato de quatro anos, com recondução (Decreto 11.496/2023, art. 29, § 3º). Quando a presidência cabe ao governo, é do representante do MTE (art. 30, § 1º). Entre as competências (Lei 7.998/1990, art. 19): propor mudança das alíquotas do PIS/Pasep e fiscalizar a administração do fundo. O Codefat também disciplina a devolução ao FAT dos recursos repassados ao BNDES (Lei 8.019/1990, art. 7º, não citado como fonte).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

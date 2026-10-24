@@ -1,0 +1,25 @@
+{
+  "id": "rel:juiz-federal-preside-tribunais-do-juri-federais",
+  "tipo": "relacao",
+  "nome": "O juiz federal preside o júri federal",
+  "relacao": "preside",
+  "de": "cargo:juiz-federal",
+  "para": "org:tribunais-do-juri-federais",
+  "condicao": "Preside o juiz a quem cabe o processamento da ação penal.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-253-1967",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

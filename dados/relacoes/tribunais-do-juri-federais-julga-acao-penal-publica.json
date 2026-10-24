@@ -1,0 +1,29 @@
+{
+  "id": "rel:tribunais-do-juri-federais-julga-acao-penal-publica",
+  "tipo": "relacao",
+  "nome": "O júri federal julga os crimes dolosos contra a vida de competência federal",
+  "relacao": "julga",
+  "de": "org:tribunais-do-juri-federais",
+  "para": "obj:acao-penal-publica",
+  "condicao": "Só os crimes dolosos contra a vida que sejam de competência da Justiça Federal.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, XXXVIII, d"
+    },
+    {
+      "ref": "norma:decreto-lei-253-1967",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rel:presidente-nomeia-desembargador-do-tjdft",
+  "tipo": "relacao",
+  "nome": "Nomeação de desembargadores do quinto constitucional do TJDFT",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:desembargador",
+  "condicao": "Só no quinto constitucional do TJDFT: escolhe, em 20 dias, um nome da lista tríplice formada pelo tribunal a partir da lista sêxtupla da OAB ou do MPDFT.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XIII; art. 94"
+    },
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 55, §§ 2º a 4º"
+    },
+    {
+      "ref": "fonte:tjdft-noticia-posse-desembargadora-2026-08-05",
+      "nota": "decreto de nomeação assinado pelo Presidente da República, DOU de 7/7/2026, vaga do quinto do MPDFT"
+    }
+  ],
+  "campos": {
+    "de": {
+      "fontes": [
+        {
+          "ref": "fonte:tjdft-noticia-posse-desembargadora-2026-08-05"
+        }
+      ],
+      "nota": "A CF (art. 94, parágrafo único) e a Lei 11.697/2008 (art. 55, § 3º) falam em \"Poder Executivo\". Como a União organiza e mantém o Judiciário do DF (art. 21, XIII), é o Executivo federal; a notícia oficial do TJDFT mostra o decreto assinado pelo Presidente da República."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Resolve a pendência anotada em cargo:desembargador e var:df-tjdft (quem nomeia no quinto do TJDFT). As vagas de carreira do TJDFT são por promoção (Lei 11.697/2008, art. 55, caput); quem assina o ato de promoção de desembargador não foi pesquisado. Os juízes de direito e substitutos do DF são nomeados pelo Presidente do TJDFT (art. 51).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

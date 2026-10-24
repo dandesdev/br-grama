@@ -1,0 +1,59 @@
+{
+  "id": "cargo:jurado",
+  "tipo": "cargo",
+  "nome": "Jurado",
+  "resumo": "Cidadão alistado e sorteado para o tribunal do júri. Sete jurados formam o Conselho de Sentença, que decide se o réu é culpado nos crimes dolosos contra a vida.",
+  "orgao": "org:tribunais-do-juri",
+  "provimento": "designacao",
+  "vagas": null,
+  "vagas_nota": "Cada júri tem 25 jurados sorteados por reunião, dos quais 7 formam o Conselho de Sentença em cada sessão (CPP, art. 447). O alistamento anual vai de 80 a 1.500 cidadãos por comarca, conforme a população (art. 425). Não somamos.",
+  "provimento_nota": "O presidente do júri faz a lista anual de jurados entre cidadãos maiores de 18 anos de notória idoneidade (CPP, arts. 425 e 436). Para cada reunião, sorteia 25 nomes; na sessão, 7 são sorteados para o Conselho de Sentença (art. 447). O serviço é obrigatório, e a recusa sem motivo dá multa (art. 436, § 2º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Não há mandato: o jurado serve na reunião para a qual foi sorteado."
+  },
+  "requisitos": [
+    {
+      "texto": "cidadão maior de 18 anos, de notória idoneidade",
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-3689-1941",
+          "dispositivo": "art. 436"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Os jurados votam em sigilo, e o veredicto é soberano (CF, art. 5º, XXXVIII, b e c). O exercício efetivo da função é serviço público relevante e cria presunção de idoneidade moral (CPP, art. 439). Na Justiça Federal, a lista é organizada por um dos juízes da seção, em rodízio (Decreto-Lei 253/1967, art. 4º, parágrafo único).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, XXXVIII"
+    },
+    {
+      "ref": "norma:decreto-lei-3689-1941",
+      "dispositivo": "arts. 425, 436, 439 e 447"
+    },
+    {
+      "ref": "norma:decreto-lei-253-1967",
+      "dispositivo": "art. 4º, parágrafo único"
+    }
+  ],
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "O vocabulário não tem termo para alistamento e sorteio. Usamos 'designacao', o mais próximo (escolha para exercer uma função por tempo determinado, sem nomeação). Proposta de termo 'sorteio' no diário da tarefa."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11). Serve também nos júris federais (org:tribunais-do-juri-federais), que seguem o CPP.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

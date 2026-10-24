@@ -3,7 +3,7 @@
   "tipo": "relacao",
   "nome": "Royalties do petróleo e gás entregues aos municípios",
   "relacao": "repassa-recursos",
-  "de": "ente:uniao",
+  "de": "org:anp",
   "para": "ente:arquetipo-municipal",
   "condicao": "Os municípios produtores, os confrontantes com a produção no mar e os afetados por instalações de embarque e desembarque recebem parte dos royalties, creditada em conta específica. As regras novas da Lei 12.734/2012 para o mar estão suspensas pelo STF desde 2013.",
   "fontes": [
@@ -25,14 +25,16 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Quem distribui é a ANP, autarquia federal, sob supervisão do Ministério de Minas e Energia (Decreto 2.705/1998, art. 35); usamos ente:uniao porque org:anp ainda não existe no mapa (tarefa f0-administracao-indireta). Os royalties de hidrelétricas e minérios são pagos diretamente aos entes pelo explorador (Lei 7.990/1989, art. 8º) e não entram nesta relação.",
+  "notas": "f0-administracao-indireta (2026-10-24): origem trocada de ente:uniao para org:anp. A Lei 9.478/1997, art. 47, § 4º, manda distribuir com base nos cálculos da 'autoridade administrativa competente'; o Decreto 2.705/1998, art. 35, caput (redação do Decreto 10.078/2019), diz que os recursos 'serão distribuídos pela ANP', e o § 2º diz que a ANP executa o empenho, a liquidação e o pagamento da transferência aos estados e municípios, sob supervisão do Ministério de Minas e Energia; o § 3º dá à ANP o cálculo dos valores de cada beneficiário. O id foi mantido para não quebrar referências. Os royalties de hidrelétricas e minérios são pagos diretamente aos entes pelo explorador (Lei 7.990/1989, art. 8º) e não entram nesta relação.",
   "vigencia": {
-    "de": "1997-08-07",
-    "ate": null
+    "de": "2019-10-21",
+    "ate": null,
+    "nota": "A ANP distribui desde o Decreto 10.078, de 21/10/2019 (DOU extra do mesmo dia, vigência na publicação), que deu nova redação ao art. 35 do Decreto 2.705/1998; antes, a redação do Decreto 9.302/2018 dizia que a distribuição era feita 'pela União'. Os royalties são pagos desde a Lei 9.478/1997 (em vigor em 7/8/1997); o histórico de quem distribuía antes de 2019 não foi modelado."
   },
   "verificacao": {
     "status": "coletado",
     "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "tarefa": "f0-federacao",
+    "notas": "Origem e vigência alteradas por f0-administracao-indireta em 2026-10-24 (ver notas)."
   }
 }

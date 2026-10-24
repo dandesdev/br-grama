@@ -1,0 +1,43 @@
+{
+  "id": "aviso:contribuicao-adicional-por-rotatividade-sem-lei",
+  "tipo": "aviso",
+  "nome": "Contribuição adicional por rotatividade: não achamos a lei que a institui",
+  "resumo": "A CF prevê desde 1988 uma contribuição extra das empresas com rotatividade acima da média do setor, mas não localizamos lei que a tenha criado.",
+  "detalhes": "O art. 239, § 4º, remete à lei. A Lei 7.998/1990 mandou o Executivo enviar o projeto em 180 dias (art. 30), e a justificativa do PLS 173/2015, do Senado, dizia que o dispositivo ainda não estava regulamentado; o projeto foi arquivado ao fim da legislatura, em 21/12/2018. Não fizemos busca exaustiva na legislação posterior.",
+  "tipo_aviso": "lacuna",
+  "gravidade": "baixa",
+  "afeta": [
+    "obj:tributo-contribuicao-adicional-por-rotatividade"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 239, § 4º"
+    },
+    {
+      "ref": "norma:lei-7998-1990",
+      "dispositivo": "art. 11, IV; art. 30"
+    }
+  ],
+  "confianca": "secundario",
+  "mais_informacoes": [
+    {
+      "titulo": "PLS nº 173/2015 (Senado): regulamenta o art. 239, § 4º; arquivado ao fim da legislatura",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/120438"
+    }
+  ],
+  "onde_procuramos": [
+    "Lei 7.998/1990 e Lei 8.019/1990 (textos compilados do Planalto, 2026-10-24)",
+    "Busca na web por lei que regulamente o art. 239, § 4º (2026-10-24): só o PLS 173/2015 e notícias antigas",
+    "Página do PLS 173/2015 no Senado (2026-10-24): tramitação encerrada, arquivado em 21/12/2018"
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

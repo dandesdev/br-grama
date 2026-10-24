@@ -1,0 +1,25 @@
+{
+  "id": "rel:juiz-de-direito-preside-tribunais-do-juri",
+  "tipo": "relacao",
+  "nome": "O juiz de direito preside o júri",
+  "relacao": "preside",
+  "de": "cargo:juiz-de-direito",
+  "para": "org:tribunais-do-juri",
+  "condicao": "O júri tem um juiz togado, seu presidente, que alista os jurados, conduz a sessão e dá a sentença conforme o veredicto.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-3689-1941",
+      "dispositivo": "arts. 425 e 447"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "cargo:conciliador-dos-juizados-especiais",
+  "tipo": "cargo",
+  "nome": "Conciliador dos juizados especiais",
+  "resumo": "Auxiliar da Justiça que conduz, sob supervisão do juiz, a audiência de conciliação nos juizados especiais, de preferência bacharel em direito.",
+  "orgao": "org:juizados-especiais-estaduais",
+  "provimento": "designacao",
+  "vagas": null,
+  "vagas_nota": "Definido por cada tribunal; não somamos.",
+  "provimento_nota": "Nos juizados estaduais, é designado na forma da lei estadual (Lei 12.153/2009, art. 15). Nos juizados federais, o juiz presidente do juizado designa os conciliadores por 2 anos, com recondução; a função é gratuita, com os direitos do jurado (Lei 10.259/2001, art. 18).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Nos juizados federais, 2 anos, admitida recondução (Lei 10.259/2001, art. 18); nos estaduais, conforme a lei de cada estado."
+  },
+  "requisitos": [
+    {
+      "texto": "recrutado de preferência entre bacharéis em direito",
+      "fontes": [
+        {
+          "ref": "norma:lei-9099-1995",
+          "dispositivo": "art. 7º"
+        },
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 15, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Conduz a audiência de conciliação sob a supervisão do juiz e pode ouvir as partes e testemunhas para buscar um acordo (Lei 12.153/2009, art. 16, aplicado também aos juizados federais pelo art. 26).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 18"
+    },
+    {
+      "ref": "norma:lei-12153-2009",
+      "dispositivo": "arts. 15, 16 e 26"
+    }
+  ],
+  "campos": {
+    "provimento": {
+      "confianca": "oficial",
+      "nota": "\"designará os conciliadores\" (Lei 10.259/2001, art. 18) e \"serão designados\" (Lei 12.153/2009, art. 15)."
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Previsto desde a Lei 9.099/1995 (art. 7º)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11). Um só cargo para os juizados estaduais e federais; o 'orgao' aponta para os estaduais, onde há mais regras, e os detalhes dizem como é nos federais.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

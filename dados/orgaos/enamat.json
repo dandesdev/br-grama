@@ -1,0 +1,42 @@
+{
+  "id": "org:enamat",
+  "tipo": "orgao",
+  "nome": "Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho",
+  "sigla": "Enamat",
+  "resumo": "Escola que funciona junto ao TST e regulamenta os cursos oficiais para o ingresso e a promoção na carreira de juiz do trabalho.",
+  "detalhes": "Prevista pela EC 45/2004 (art. 111-A, § 2º, I). A participação em curso oficial ou reconhecido por escola de magistratura é etapa do vitaliciamento e critério de promoção por merecimento dos juízes (art. 93, II, c, e IV).",
+  "tipo_orgao": "outro",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tst",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, II, c, e IV; art. 111-A, § 2º, I"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111-A, § 2º, I",
+          "nota": "\"Funcionarão junto ao Tribunal Superior do Trabalho\""
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Prevista pela EC 45/2004 (DOU de 31/12/2004); data de instalação não pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário não tem tipo para escola judicial.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

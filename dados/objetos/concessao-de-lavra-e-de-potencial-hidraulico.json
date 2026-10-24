@@ -1,0 +1,33 @@
+{
+  "id": "obj:concessao-de-lavra-e-de-potencial-hidraulico",
+  "tipo": "objeto",
+  "nome": "Autorização ou concessão para minerar ou aproveitar potencial hidráulico",
+  "resumo": "Ato da União que permite a pesquisa e a lavra de minérios e o aproveitamento de potenciais de energia hidráulica, que pertencem à União e não ao dono do solo.",
+  "detalhes": "Só brasileiros ou empresas constituídas no Brasil podem receber. A autorização de pesquisa tem prazo, e nenhuma autorização ou concessão pode ser cedida sem anuência do poder concedente. Potencial de energia renovável de capacidade reduzida não depende de autorização.",
+  "tipo_objeto": "decisao",
+  "esfera": "federal",
+  "relativo_a": [
+    "ente:uniao"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 176, caput e §§ 1º, 3º e 4º"
+    },
+    {
+      "ref": "norma:lei-13575-2017",
+      "dispositivo": "art. 2º, V, XVII e XVIII; art. 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Quem outorga a concessão de lavra: o Ministro de Minas e Energia, em regra, e a ANM para os minerais do art. 1º da Lei 6.567/1978 (rel:ministro-de-estado-autoriza-concessao-de-lavra, rel:anm-autoriza-concessao-de-lavra). Quem outorga o aproveitamento de potencial hidráulico (Lei 9.074/1995, Aneel) não foi pesquisado. Petróleo e gás seguem o art. 177 (monopólio, contratos da ANP), fora deste objeto. O DL 227/1967 (Código de Mineração) não foi lido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rel:anp-vincula-se-ministerio-de-minas-e-energia",
+  "tipo": "relacao",
+  "nome": "A ANP é vinculada ao Ministério de Minas e Energia",
+  "relacao": "vincula-se",
+  "de": "org:anp",
+  "para": "org:ministerio-de-minas-e-energia",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 7º, caput"
+    },
+    {
+      "ref": "norma:decreto-11492-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 2"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1997-08-07",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

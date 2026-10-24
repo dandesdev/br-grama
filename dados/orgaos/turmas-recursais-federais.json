@@ -1,0 +1,50 @@
+{
+  "id": "org:turmas-recursais-federais",
+  "tipo": "orgao",
+  "nome": "Turmas recursais dos juizados especiais federais",
+  "resumo": "Colegiados de juízes federais de primeiro grau que julgam os recursos contra as decisões dos juizados especiais federais. Cada TRF define a composição e a área das suas.",
+  "detalhes": "São instituídas por decisão do TRF, que define a composição e a área de competência, que pode abranger mais de uma seção judiciária (Lei 10.259/2001, art. 21). Divergências entre turmas da mesma região vão à reunião conjunta delas; entre regiões diferentes, à Turma Nacional de Uniformização (art. 14).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:juizados-especiais-federais",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 98, I e § 1º"
+    },
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "arts. 1º, 14 e 21"
+    },
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "art. 41, § 1º",
+      "nota": "aplicado aos juizados federais pela Lei 10.259/2001, art. 1º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-10259-2001",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "nota": "Colocadas dentro dos juizados federais, como as estaduais, porque julgam só os recursos deles."
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Lei 10.259/2001; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: representa as turmas das seis regiões.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

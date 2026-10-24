@@ -1,0 +1,30 @@
+{
+  "id": "rel:estados-fiscaliza-concessao-de-servico-publico",
+  "tipo": "relacao",
+  "nome": "Os estados fiscalizam as concessões dos serviços públicos estaduais",
+  "relacao": "fiscaliza",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:concessao-de-servico-publico",
+  "condicao": "Como poder concedente dos serviços públicos de competência estadual (ex.: gás canalizado, art. 25, § 2º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 175, caput e parágrafo único, I; art. 25, § 2º"
+    },
+    {
+      "ref": "norma:lei-8987-1995",
+      "dispositivo": "art. 2º, I; art. 3º; art. 29, I e II"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1995-02-14",
+    "ate": null
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  },
+  "notas": "O poder concedente também regulamenta o serviço, aplica penalidades, revê tarifas, intervém e extingue a concessão (Lei 8.987/1995, art. 29); o vocabulário não tem verbo próprio para conceder, e 'fiscaliza' (art. 3º; art. 29, I) é o mais próximo. A vigência começa na Lei 8.987/1995; o art. 175 é de 1988."
+}

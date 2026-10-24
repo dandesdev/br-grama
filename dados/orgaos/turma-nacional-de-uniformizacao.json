@@ -1,0 +1,46 @@
+{
+  "id": "org:turma-nacional-de-uniformizacao",
+  "tipo": "orgao",
+  "nome": "Turma Nacional de Uniformização dos Juizados Especiais Federais",
+  "sigla": "TNU",
+  "resumo": "Colegiado que uniformiza a interpretação da lei federal quando turmas recursais de regiões diferentes decidem de modo divergente ou contra a jurisprudência do STJ.",
+  "detalhes": "É presidida pelo Corregedor-Geral da Justiça Federal e tem dois juízes federais de cada região, escolhidos pelo TRF entre os titulares dos juizados especiais (Lei 11.798/2008, art. 9º, § 1º). Se a tese da TNU contrariar súmula ou jurisprudência dominante do STJ, a parte pode levar a divergência ao STJ (Lei 10.259/2001, art. 14, § 4º).",
+  "tipo_orgao": "colegiado",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:conselho-da-justica-federal",
+  "fontes": [
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 14, §§ 2º e 4º"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 4º; art. 7º, III; art. 9º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11798-2008",
+          "dispositivo": "art. 4º",
+          "nota": "integra a estrutura institucional do Conselho da Justiça Federal"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Prevista na Lei 10.259/2001 (\"Turma de Uniformização\"); data de instalação não pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 10.259/2001, art. 14, § 2º, fala em \"Turma de Uniformização ... sob a presidência do Coordenador da Justiça Federal\"; a Lei 11.798/2008 usa o nome atual e dá a presidência ao Corregedor-Geral (art. 7º, III). Com seis TRFs, seriam 12 juízes mais o presidente (conta nossa, não conferida em fonte do CJF).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

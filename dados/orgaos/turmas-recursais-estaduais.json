@@ -1,0 +1,52 @@
+{
+  "id": "org:turmas-recursais-estaduais",
+  "tipo": "orgao",
+  "nome": "Turmas recursais dos juizados especiais dos estados e do DF",
+  "resumo": "Colegiados de três juízes de primeiro grau que julgam os recursos contra as decisões dos juizados especiais estaduais. São a última instância ordinária desses processos.",
+  "detalhes": "Os juízes têm mandato de 2 anos e são designados por antiguidade e merecimento, de preferência entre os que atuam nos juizados (Lei 12.153/2009, art. 17). Contra a decisão de turma recursal não cabe recurso especial ao STJ (STF, Tema 17); divergência entre turmas de estados diferentes sobre lei federal vai ao STJ por pedido de uniformização (Lei 12.153/2009, art. 18, § 3º).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "contido_em": "org:juizados-especiais-estaduais",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 98, I"
+    },
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "art. 41, § 1º; art. 82"
+    },
+    {
+      "ref": "norma:lei-12153-2009",
+      "dispositivo": "arts. 17 e 18"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-98",
+      "dispositivo": "RE 586.789 (Tema 159) e RE 571.572 ED (Tema 17)"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 17",
+          "nota": "\"Turmas Recursais do Sistema dos Juizados Especiais\""
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Mesma origem de org:juizados-especiais-estaduais (Lei 9.099/1995)."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: representa as turmas de todos os estados e do DF.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

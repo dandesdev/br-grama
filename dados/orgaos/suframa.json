@@ -1,0 +1,56 @@
+{
+  "id": "org:suframa",
+  "tipo": "orgao",
+  "nome": "Superintendência da Zona Franca de Manaus",
+  "sigla": "Suframa",
+  "resumo": "Autarquia federal com sede em Manaus que administra a Zona Franca de Manaus: planeja, promove e coordena as atividades da área e os seus incentivos.",
+  "detalhes": "Criada pelo Decreto-Lei 288/1967 para administrar as instalações e os serviços da Zona Franca, elaborar o seu plano diretor e articular-se com a Sudam, o governo do Amazonas e os municípios da área (arts. 10 e 11). É dirigida por um Superintendente nomeado pelo Presidente da República (art. 13).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:decreto-lei-288-1967",
+          "dispositivo": "art. 10"
+        }
+      ],
+      "nota": "D39: autarquia da União sob o Poder Executivo federal. A supervisão ministerial está em rel:suframa-vincula-se-mdic."
+    }
+  },
+  "vigencia": {
+    "de": "1967-02-28",
+    "ate": null,
+    "nota": "Data de publicação do Decreto-Lei 288/1967."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-288-1967",
+      "dispositivo": "arts. 10 a 13"
+    },
+    {
+      "ref": "norma:decreto-11427-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 3"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O DL 288/1967 previa vinculação ao Ministério do Interior (art. 10, parágrafo único) e indicação do Superintendente pelo Ministro do Interior (art. 13); as duas regras foram superadas pela organização atual dos ministérios. A estrutura regimental própria da Suframa e o seu Conselho de Administração não foram pesquisados.",
+  "mais_informacoes": [
+    {
+      "titulo": "Suframa (gov.br)",
+      "url": "https://www.gov.br/suframa/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

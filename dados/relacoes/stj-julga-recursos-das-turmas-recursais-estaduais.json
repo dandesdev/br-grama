@@ -1,0 +1,31 @@
+{
+  "id": "rel:stj-julga-recursos-das-turmas-recursais-estaduais",
+  "tipo": "relacao",
+  "nome": "O STJ uniformiza a lei federal nos juizados da Fazenda Pública",
+  "relacao": "julga-recursos-contra",
+  "de": "org:stj",
+  "para": "org:turmas-recursais-estaduais",
+  "condicao": "Só pedido de uniformização no sistema dos juizados da Fazenda Pública: quando turmas de estados diferentes dão à lei federal interpretações divergentes ou a decisão contraria súmula do STJ. Não cabe recurso especial contra decisão de turma recursal.",
+  "fontes": [
+    {
+      "ref": "norma:lei-12153-2009",
+      "dispositivo": "art. 18, § 3º; art. 19"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-98",
+      "dispositivo": "RE 571.572 ED (Tema 17)"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 12.153/2009."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 12.153/2009, art. 18, fala de turmas recursais do sistema dos juizados dos estados e do DF; a lei não restringe expressamente o pedido aos juizados da Fazenda Pública, mas é a lei desses juizados. A condição usa a leitura restrita; conferir na revisão.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

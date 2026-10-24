@@ -1,0 +1,39 @@
+{
+  "id": "obj:tributo-contribuicao-adicional-por-rotatividade",
+  "tipo": "objeto",
+  "nome": "Contribuição adicional por rotatividade",
+  "resumo": "Contribuição prevista na CF para as empresas que demitem e contratam acima da média do seu setor, destinada ao seguro-desemprego; depende de lei.",
+  "detalhes": "A CF manda que a empresa cujo índice de rotatividade da força de trabalho supere a média do setor pague uma contribuição adicional para o seguro-desemprego, na forma da lei (art. 239, § 4º). A Lei 7.998/1990 a lista entre os recursos do FAT e mandou o Executivo enviar o projeto de lei em 180 dias (arts. 11, IV, e 30).",
+  "tipo_objeto": "tributo",
+  "esfera": "federal",
+  "relativo_a": [
+    "obj:fundo-de-amparo-ao-trabalhador"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Prevista desde o texto original da CF. Não encontramos lei que a tenha instituído (ver aviso:contribuicao-adicional-por-rotatividade-sem-lei)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 239, § 4º"
+    },
+    {
+      "ref": "norma:lei-7998-1990",
+      "dispositivo": "art. 11, IV; art. 30"
+    }
+  ],
+  "campos": {
+    "vigencia": {
+      "confianca": "indisponivel",
+      "nota": "A previsão constitucional está em vigor; a cobrança depende de lei que não localizamos."
+    }
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

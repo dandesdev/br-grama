@@ -1,0 +1,32 @@
+{
+  "id": "rel:cade-vincula-se-ministerio-da-justica-e-seguranca-publica",
+  "tipo": "relacao",
+  "nome": "O Cade é vinculado ao Ministério da Justiça e Segurança Pública",
+  "relacao": "vincula-se",
+  "de": "org:cade",
+  "para": "org:ministerio-da-justica-e-seguranca-publica",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:lei-12529-2011",
+      "dispositivo": "art. 4º"
+    },
+    {
+      "ref": "norma:decreto-11348-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei fala em 'Ministério da Justiça'; hoje a pasta é o Ministério da Justiça e Segurança Pública, cuja estrutura regimental (Decreto 11.348/2023, texto compilado baixado em 2026-10-24, cópia em brutos) lista o Cade entre as entidades vinculadas.",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.348/2023. A vinculação ao ministério da área de justiça é anterior; o histórico não foi levantado."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

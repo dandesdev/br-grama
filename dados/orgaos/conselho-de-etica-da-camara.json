@@ -1,0 +1,41 @@
+{
+  "id": "org:conselho-de-etica-da-camara",
+  "tipo": "orgao",
+  "nome": "Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados",
+  "resumo": "Colegiado da Câmara que examina condutas de deputados contrárias ao decoro e propõe as penalidades, inclusive a perda do mandato.",
+  "detalhes": "Tem 21 titulares e 21 suplentes, indicados pelos líderes conforme a proporção dos partidos, para mandato de dois anos. Instrui o processo disciplinar e vota o parecer; a suspensão e a perda do mandato são decididas depois pelo Plenário da Câmara.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 21-E"
+        }
+      ],
+      "nota": "O RICD o define como órgão da Câmara dos Deputados."
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Previsto no Código de Ética e Decoro Parlamentar da Câmara (Resolução nº 25/2001) e, no RICD, desde a Resolução nº 2/2011; a data de instalação não foi pesquisada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 21-E; Código de Ética e Decoro Parlamentar, arts. 6º a 8º, 13 e 14"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O Código de Ética e Decoro Parlamentar da Câmara 'integra' o RICD (art. 21-E) e aparece no texto compilado do RICD (cópia em pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html), por isso é citado como norma:ricd. Presidente e dois vice-presidentes são eleitos entre os titulares, sem reeleição na eleição seguinte (Código, art. 7º, § 5º). O Corregedor da Câmara participa do processo sem voto (Código, art. 9º, § 4º). Os membros não foram modelados (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

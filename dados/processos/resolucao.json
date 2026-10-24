@@ -1,0 +1,304 @@
+{
+  "id": "proc:resolucao",
+  "tipo": "processo",
+  "nome": "Processo legislativo da resolução",
+  "resumo": "Caminho de um projeto de resolução da Câmara, do Senado ou do Congresso: votado só pela Casa (ou pelo Congresso em sessão conjunta) e promulgado sem sanção.",
+  "detalhes": "A resolução trata de matérias privativas de cada Casa (como o regimento, CPIs, perda de mandato e, no Senado, os limites de endividamento) ou do Congresso (como a delegação legislativa ao Presidente). Ao contrário da lei e do decreto legislativo, a resolução da Câmara ou do Senado não passa pela outra Casa.",
+  "forma": "linha",
+  "produz": "obj:resolucao",
+  "etapas": [
+    {
+      "id": "iniciativa",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:comissoes-do-senado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "org:mesa-do-senado-federal",
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "Deputado, senador, comissão ou Mesa apresenta o projeto de resolução",
+      "detalhes": "Na Câmara, qualquer deputado ou comissão pode apresentar, salvo matéria de iniciativa privativa da Mesa ou de outro colegiado. No Senado, o regimento pode ser alterado por projeto de qualquer senador, da Comissão Diretora ou de comissão temporária. O Regimento Comum só muda por iniciativa das Mesas das duas Casas ou de 100 parlamentares (20 senadores e 80 deputados). O Presidente da República pede a delegação legislativa e propõe ao Senado limites da dívida.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, VI; art. 59, VII; art. 68, caput e § 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 109, III e § 2º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 213, III; art. 401, caput"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 118; art. 128, caput, I e II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-comissoes",
+          "quando": "Resolução da Câmara (competência privativa da Câmara, art. 51)"
+        },
+        {
+          "para": "senado-comissoes",
+          "quando": "Resolução do Senado (competência privativa do Senado, art. 52)"
+        },
+        {
+          "para": "congresso-sessao-conjunta",
+          "quando": "Resolução do Congresso Nacional, como delegação legislativa ou Regimento Comum"
+        }
+      ]
+    },
+    {
+      "id": "camara-comissoes",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:ccjc-camara"
+      ],
+      "acao": "As comissões da Câmara dão parecer; o projeto de resolução sempre vai ao Plenário",
+      "detalhes": "A apreciação conclusiva das comissões da Câmara vale só para projetos de lei (RICD, art. 24, II). Algumas resoluções têm rito próprio, como a perda de mandato (ver proc:perda-de-mandato-parlamentar) e a criação de CPI (ver proc:comissao-parlamentar-de-inquerito).",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 24, I e II; art. 109, III"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "O Plenário da Câmara vota; em regra, aprova por maioria dos votos, presente a maioria absoluta",
+      "detalhes": "A perda de mandato exige maioria absoluta (art. 55, § 2º).",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Regra geral do art. 47."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47; art. 55, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-pelo-presidente-da-camara",
+          "quando": "Aprovado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "promulgacao-pelo-presidente-da-camara",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados"
+      ],
+      "acao": "O Presidente da Câmara promulga a resolução, sem sanção",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 48, caput"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 17, VI, m"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "senado-comissoes",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "org:comissoes-do-senado-federal",
+        "org:ccj-senado"
+      ],
+      "acao": "As comissões do Senado dão parecer; em alguns casos decidem sozinhas (decisão terminativa)",
+      "detalhes": "A decisão é terminativa para a resolução que suspende lei declarada inconstitucional pelo STF (art. 52, X) e, se o Presidente do Senado delegar, para outras proposições, exceto alteração do regimento, as resoluções sobre crédito e dívida (art. 52, V a IX) e as alíquotas do ICMS (art. 155). Um décimo dos senadores pode recorrer ao Plenário. Projeto que altera o regimento recebe emendas por 5 dias úteis e passa sempre pela CCJ.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 58, § 2º, I"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 91, II, § 1º, V, e §§ 2º a 5º; art. 401, §§ 1º a 4º"
+        }
+      ],
+      "remete_a": "proc:lei-ordinaria",
+      "seguintes": [
+        {
+          "para": "senado-plenario",
+          "quando": "Matéria sem decisão terminativa, ou recurso de um décimo dos senadores"
+        },
+        {
+          "para": "promulgacao-pelo-presidente-do-senado",
+          "quando": "Decisão terminativa aprovando o projeto, sem recurso"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Decisão terminativa rejeitando o projeto, sem recurso"
+        }
+      ]
+    },
+    {
+      "id": "senado-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "O Plenário do Senado vota; em regra, aprova por maioria dos votos, presente a maioria absoluta",
+      "detalhes": "Há quóruns especiais: maioria absoluta para perda de mandato e para as alíquotas interestaduais do ICMS; dois terços para as alíquotas internas máximas em conflito entre estados e para suspender imunidades de senador no estado de sítio.",
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Regra geral do art. 47; ver os quóruns especiais nos detalhes."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 47; art. 53, § 8º; art. 55, § 2º; art. 155, § 2º, IV e V, b"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 288, I, b e c, e III, c e g"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "promulgacao-pelo-presidente-do-senado",
+          "quando": "Aprovado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "congresso-sessao-conjunta",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comissoes-mistas-do-congresso-nacional",
+        "org:congresso-nacional"
+      ],
+      "acao": "Uma comissão mista dá parecer e o Congresso vota o projeto em sessão conjunta",
+      "detalhes": "Na delegação legislativa, o Presidente do Senado convoca sessão conjunta em 72 horas para o Congresso tomar conhecimento do pedido; a comissão mista conclui por projeto de resolução, que fixa o conteúdo da delegação e prazo de até 45 dias; publicado o parecer, a sessão conjunta de discussão ocorre em 5 dias. O projeto de reforma do Regimento Comum é apresentado em sessão conjunta.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, § 3º, II; art. 68, § 2º"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "arts. 116 a 121; art. 128, § 1º"
+        }
+      ],
+      "remete_a": "proc:lei-delegada",
+      "seguintes": [
+        {
+          "para": "promulgacao-pelo-presidente-do-senado",
+          "quando": "Aprovado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Rejeitado"
+        }
+      ]
+    },
+    {
+      "id": "promulgacao-pelo-presidente-do-senado",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "O Presidente do Senado promulga a resolução do Senado ou do Congresso, sem sanção",
+      "detalhes": "A resolução do Congresso é promulgada em 24 horas, com comunicação ao Presidente da República quando for o caso, como na delegação legislativa.",
+      "prazo": {
+        "texto": "Resolução do Congresso: 24 horas depois de aprovada (RCCN, art. 122)",
+        "valor": 24,
+        "unidade": "horas",
+        "conta_de": "aprovação do projeto"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 48, caput; art. 57, § 5º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 48, XXVIII"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 52, parágrafo único; art. 122"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal",
+        "org:congresso-nacional"
+      ],
+      "acao": "O projeto rejeitado é arquivado",
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 91, § 5º; art. 254"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 48, caput; arts. 51 e 52; art. 59, VII; art. 68, § 2º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 17, VI, m; art. 109, III"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 48, XXVIII; art. 91; art. 213, III"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 52, parágrafo único; arts. 116 a 122; art. 128"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) um só processo para as três origens, como obj:resolucao; a Casa aparece no 'quando' da iniciativa. (2) A etapa 'congresso-sessao-conjunta' remete a proc:lei-delegada, porque a delegação é o caso principal de resolução do Congresso; o Regimento Comum segue o RCCN, art. 128. (3) O RICD não tem regra de arquivamento própria para a resolução rejeitada em Plenário; a etapa 'arquivamento' cita só o RISF. (4) Sem etapa de publicação: as normas consultadas não dizem quem manda publicar a resolução. RICD lido em pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html; RISF e RCCN nos PDFs de pesquisa/brutos/senado/2026-10-23-processos-legislativos/ (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

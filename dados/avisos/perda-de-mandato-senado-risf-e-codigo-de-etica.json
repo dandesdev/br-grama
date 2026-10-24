@@ -1,0 +1,45 @@
+{
+  "id": "aviso:perda-de-mandato-senado-risf-e-codigo-de-etica",
+  "tipo": "aviso",
+  "nome": "Dois ritos escritos para a perda de mandato de senador",
+  "resumo": "O Regimento do Senado e o Código de Ética do Senado descrevem caminhos diferentes para a representação pela perda do mandato; nenhum dos dois revoga o outro expressamente.",
+  "detalhes": "Pelo RISF (arts. 32 a 35), a representação vai à CCJ, o Plenário admite e uma comissão de nove membros instrui. Pela Res. 20/1993, na redação da Res. 25/2008, a representação vai direto ao Conselho de Ética, que instrui e vota, e a CCJ só examina os aspectos jurídicos do parecer. Os dois textos também mantêm o voto secreto, retirado da CF pela EC 76/2013.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "proc:perda-de-mandato-parlamentar",
+    "org:conselho-de-etica-do-senado"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "RISF, texto consolidado atualizado até julho de 2025 (PDF oficial do Senado), arts. 32 a 35 e 291",
+    "Res. 20/1993, compilação multivigente no portal de legislação do Senado (legis.senado.leg.br/norma/561878)",
+    "Ficha da Res. 20/1993 no Legin da Câmara"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 32 a 35; art. 291, I, b, e nota 212"
+    },
+    {
+      "ref": "norma:senado-resolucao-20-1993",
+      "dispositivo": "arts. 13, 14, 15, 15-A e 17-O"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 55, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-07-16",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Res. 25/2008 segundo a URL da sua ficha no Legin (resolucao-25-16-julho-2008); a publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "notas": "O processo segue a Res. 20/1993, por ser mais nova e específica. Não procuramos a prática recente do Conselho de Ética do Senado nem pareceres da Mesa sobre o conflito.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

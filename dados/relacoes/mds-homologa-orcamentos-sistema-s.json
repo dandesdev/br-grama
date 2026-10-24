@@ -1,0 +1,32 @@
+{
+  "id": "rel:mds-homologa-orcamentos-sistema-s",
+  "tipo": "relacao",
+  "nome": "O Ministério do Desenvolvimento e Assistência Social aprova os orçamentos do Sesi, do Sesc e do Sest",
+  "relacao": "homologa",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "para": "org:sistema-s",
+  "condicao": "Só os orçamentos gerais do Sesi, do Sesc e do Sest, entre as entidades do Sistema S.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 14.600/2023; a regra é anterior, mas o histórico não foi levantado."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 27, XIII"
+    },
+    {
+      "ref": "norma:decreto-11392-2023",
+      "dispositivo": "Anexo I, art. 1º, XII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Verbo 'homologa' como o mais próximo de 'aprova o orçamento'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:uniao-competencia-tributo-contribuicao-adicional-por-rotatividade",
+  "tipo": "relacao",
+  "nome": "União: Contribuição adicional por rotatividade (exclusiva, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-contribuicao-adicional-por-rotatividade",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "legislativa",
+    "nota": "Contribuição social para o seguro-desemprego: as contribuições sociais são de competência exclusiva da União (art. 149, caput), e o art. 239, § 4º, remete à lei."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput; art. 239, § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

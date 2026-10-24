@@ -1,0 +1,67 @@
+{
+  "id": "cargo:juiz-de-paz",
+  "tipo": "cargo",
+  "nome": "Juiz de paz",
+  "resumo": "Cidadão eleito para mandato de 4 anos que celebra casamentos, confere o processo de habilitação e faz conciliação, sem julgar processos. É remunerado.",
+  "orgao": "org:justica-de-paz",
+  "provimento": "eleicao-majoritaria-maioria-simples",
+  "vagas": null,
+  "vagas_nota": "O número é definido pela lei de cada estado e do DF; não somamos.",
+  "provimento_nota": "Eleito pelo voto direto, universal e secreto (CF, art. 98, II). O candidato precisa de filiação partidária, pela regra geral de elegibilidade do art. 14, § 3º (STF, ADI 2.938). A idade mínima é 21 anos (art. 14, § 3º, VI, c). As regras da eleição dependem da lei de cada estado; a lei que criou a justiça de paz deve marcar a eleição e manter os juízes de paz anteriores até a posse dos eleitos (ADCT, art. 30).",
+  "mandato": {
+    "anos": 4,
+    "vitalicio": false
+  },
+  "requisitos": [
+    {
+      "texto": "condições de elegibilidade do art. 14, § 3º, inclusive filiação partidária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-98",
+          "dispositivo": "ADI 2.938"
+        }
+      ]
+    },
+    {
+      "texto": "idade mínima de 21 anos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 14, § 3º, VI, c"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Integra o Poder Judiciário e recebe remuneração fixa, sem custas nem participação no que é arrecadado (STF, ADI 954). A remuneração depende de lei de iniciativa do tribunal de justiça (ADI 1.051).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 3º, VI, c; art. 98, II; ADCT, art. 30"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-98",
+      "dispositivo": "ADI 954, ADI 1.051 e ADI 2.938"
+    }
+  ],
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A CF diz só \"eleitos pelo voto direto, universal e secreto\"; não diz se a eleição é majoritária nem quem vota (todo o estado ou a circunscrição). Usamos o termo de eleição direta mais próximo; as leis estaduais não foram conferidas."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11). Não verificamos se as eleições acontecem nos estados; na ADO 40 (fevereiro de 2026) o STF não reconheceu omissão inconstitucional nos estados restantes (ver org:justica-de-paz).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

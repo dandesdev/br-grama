@@ -1,0 +1,72 @@
+{
+  "id": "org:anp",
+  "tipo": "orgao",
+  "nome": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+  "sigla": "ANP",
+  "resumo": "Agência reguladora federal que regula, contrata e fiscaliza a exploração, a produção, o refino e o abastecimento de petróleo, gás natural e biocombustíveis.",
+  "detalhes": "Faz as licitações e assina os contratos de exploração e produção, autoriza refinarias, dutos e distribuidoras, fixa a qualidade dos combustíveis e aplica sanções. Também calcula e distribui aos estados e municípios os royalties e a participação especial. É dirigida por uma Diretoria Colegiada de cinco membros, nomeados pelo Presidente da República após aprovação do Senado, com mandato de cinco anos sem recondução.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-9478-1997",
+          "dispositivo": "art. 7º, caput"
+        }
+      ],
+      "nota": "D39: a Lei 9.478/1997, art. 7º, diz que a ANP integra a Administração Federal indireta, em regime autárquico especial. A vinculação ao Ministério de Minas e Energia está em rel:anp-vincula-se-ministerio-de-minas-e-energia."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 177, caput e § 2º, III; art. 52, III, f"
+    },
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 7º; art. 8º, I a XIX; art. 11, caput e §§ 2º e 3º; art. 47, § 4º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, II; art. 3º, caput"
+    },
+    {
+      "ref": "norma:decreto-2705-1998",
+      "dispositivo": "art. 35, caput e §§ 2º e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-08-07",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituída pela Lei 9.478/1997 (art. 7º), em vigor na publicação (7/8/1997). A instalação efetiva veio depois, por decreto não conferido aqui. O nome atual (com gás natural e biocombustíveis) é da Lei 11.097/2005."
+  },
+  "confianca": "oficial",
+  "notas": "CF, art. 177, § 2º, III: a lei que trata da contratação com empresas no monopólio do petróleo deve dispor sobre o órgão regulador; é a ANP. Sede no Distrito Federal e escritórios centrais no Rio de Janeiro (art. 7º, § 1º). Desde as Leis 14.993/2024 e 15.103/2025 também regula combustíveis sintéticos, hidrogênio de baixo carbono e captura e estocagem de carbono (arts. 7º, § 2º, e 8º). Cargos da Diretoria Colegiada sem nó próprio.",
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "mais_informacoes": [
+    {
+      "titulo": "ANP (gov.br)",
+      "url": "https://www.gov.br/anp/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

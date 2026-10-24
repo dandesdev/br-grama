@@ -1,0 +1,34 @@
+{
+  "id": "obj:zona-franca-de-manaus",
+  "tipo": "objeto",
+  "nome": "Zona Franca de Manaus",
+  "resumo": "Área de livre comércio com incentivos fiscais em Manaus e arredores, mantida pela Constituição até 2073 e administrada pela Suframa.",
+  "detalhes": "O ADCT manteve a Zona Franca por 25 anos (art. 40) e somou mais 10 (art. 92) e mais 50 anos (art. 92-A), o que leva o prazo a 2073. Os critérios de aprovação de projetos só mudam por lei federal (art. 40, parágrafo único). As leis do IBS e da CBS devem manter o diferencial competitivo da área (art. 92-B).",
+  "tipo_objeto": "regra-fiscal",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:suframa"
+  ],
+  "vigencia": {
+    "de": "1967-02-28",
+    "ate": null,
+    "nota": "Regulada pelo Decreto-Lei 288/1967 (art. 1º), que alterou a Lei 3.173/1957 (não lida). Mantida pela CF desde 1988 por 25 anos, prorrogados pela EC 42/2003 (+10) e pela EC 83/2014 (+50): 25 + 10 + 50 anos contados de 5/10/1988 dão 2073 (conta nossa)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, arts. 40, 92, 92-A e 92-B"
+    },
+    {
+      "ref": "norma:decreto-lei-288-1967",
+      "dispositivo": "arts. 1º, 3º, 10 e 11"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_objeto 'regra-fiscal' por falta de termo para regime fiscal territorial (mesma proposta do Simples: 'regime-tributario'). O art. 92-B, § 2º, prevê lei complementar que institua o Fundo de Sustentabilidade e Diversificação Econômica do Estado do Amazonas; não pesquisamos se ela já existe. As áreas de livre comércio citadas no art. 92-B não têm nó próprio. O art. 40 cita o Decreto 7.212/2010 ('vide'), não lido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

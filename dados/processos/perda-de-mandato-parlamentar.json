@@ -1,0 +1,363 @@
+{
+  "id": "proc:perda-de-mandato-parlamentar",
+  "tipo": "processo",
+  "nome": "Perda do mandato de deputado federal ou senador",
+  "resumo": "Como um deputado ou senador perde o mandato: por voto da maioria absoluta da sua Casa, depois do Conselho de Ética, ou por declaração da Mesa.",
+  "detalhes": "A CF prevê seis causas (art. 55). Quebra de decoro, violação das proibições do art. 54 e condenação criminal definitiva são decididas pelo Plenário da Casa, por maioria absoluta, mediante provocação da Mesa ou de partido. Faltas a um terço das sessões, perda ou suspensão dos direitos políticos e decisão da Justiça Eleitoral levam a Mesa a declarar a perda. Em todos os casos há ampla defesa.",
+  "forma": "linha",
+  "produz": "obj:resolucao",
+  "etapas": [
+    {
+      "id": "representacao",
+      "atores": [
+        "org:mesa-da-camara-dos-deputados",
+        "org:mesa-do-senado-federal",
+        "org:partidos-politicos"
+      ],
+      "acao": "A Mesa da Casa ou partido representado no Congresso apresenta representação pela perda do mandato",
+      "detalhes": "Vale para quebra de decoro, violação das proibições do art. 54 e condenação criminal definitiva (art. 55, I, II e VI). Na Câmara, qualquer cidadão pode pedir à Mesa que represente; a Mesa examina o pedido antes, mas a representação de partido segue direto ao Conselho de Ética em 3 sessões ordinárias. No Senado, a representação é oferecida diretamente ao Conselho de Ética. Se o parlamentar renunciar depois de aberto o processo, a renúncia só produz efeito ao final.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 55, I, II e VI, e §§ 2º e 4º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 240, §§ 1º e 3º; Código de Ética e Decoro Parlamentar, art. 9º, §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "arts. 13, 14 e 20"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-conselho-de-etica",
+          "quando": "Deputado acusado de quebra de decoro"
+        },
+        {
+          "para": "camara-ccjc",
+          "quando": "Deputado acusado de violar o art. 54 ou condenado em definitivo (art. 55, I e VI)"
+        },
+        {
+          "para": "senado-conselho-de-etica",
+          "quando": "Senador"
+        }
+      ]
+    },
+    {
+      "id": "camara-conselho-de-etica",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:conselho-de-etica-da-camara"
+      ],
+      "acao": "O Conselho de Ética da Câmara instrui o processo disciplinar e vota o parecer do relator",
+      "detalhes": "O relator é sorteado entre três membros que não sejam do partido nem do estado do acusado. O deputado tem 10 dias úteis para a defesa escrita; a instrução dura até 40 dias úteis e o parecer sai em 10 dias úteis, com projeto de resolução se a representação for procedente. A votação do parecer é nominal. Representação de partido considerada inepta ou sem justa causa é arquivada, salvo recurso de um décimo dos deputados ao Plenário.",
+      "prazo": {
+        "texto": "Defesa em 10 dias úteis; instrução em até 40 dias úteis; parecer em 10 dias úteis (Código de Ética, art. 14, § 4º, II e IV)",
+        "valor": 40,
+        "unidade": "dias-uteis",
+        "conta_de": "apresentação da defesa",
+        "efeito": "prazo improrrogável da instrução no caso de perda de mandato"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 21-E; Código de Ética e Decoro Parlamentar, art. 8º, § 3º; art. 13, I; art. 14, § 4º, I a VI"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-ccjc",
+          "quando": "O deputado recorre à CCJC contra atos do Conselho, em 5 dias úteis"
+        },
+        {
+          "para": "camara-plenario",
+          "quando": "Parecer pela perda do mandato, sem recurso"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Parecer pela improcedência, ou representação inepta sem recurso ao Plenário"
+        }
+      ]
+    },
+    {
+      "id": "camara-ccjc",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:ccjc-camara"
+      ],
+      "acao": "A CCJC instrui a representação por violação do art. 54 ou condenação, ou julga o recurso contra o Conselho",
+      "detalhes": "Nos casos do art. 55, I e VI, a representação vai à CCJC: o deputado tem 5 sessões para a defesa, e a comissão dá parecer em 5 sessões, com projeto de resolução se procedente. Nos casos de decoro, a CCJC só julga o recurso do deputado contra atos do Conselho de Ética que violem a CF, o RICD ou o Código, em 5 dias úteis, com efeito suspensivo.",
+      "prazo": {
+        "texto": "Art. 55, I e VI: defesa em 5 sessões e parecer em 5 sessões (RICD, art. 240, § 3º); recurso contra o Conselho: 5 dias úteis (Código de Ética, art. 14, § 4º, VII)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 240, § 3º, I a IV; Código de Ética e Decoro Parlamentar, art. 14, § 4º, VII e VIII"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "camara-plenario",
+          "quando": "Parecer pela procedência, ou recurso julgado"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Parecer pelo arquivamento da representação (art. 55, I e VI)"
+        }
+      ]
+    },
+    {
+      "id": "camara-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "acao": "O Plenário da Câmara decide, em votação aberta, por maioria absoluta (257 votos)",
+      "detalhes": "Recebido o processo, a Mesa tem 2 sessões ordinárias para pô-lo na pauta. Os processos que concluem pela perda do mandato devem ser votados em até 90 dias úteis; esgotado o prazo, passam a trancar a pauta. A votação é ostensiva desde a EC 76/2013, que tirou o voto secreto do art. 55, § 2º.",
+      "prazo": {
+        "texto": "Até 90 dias úteis para a deliberação nos processos que concluem pela perda do mandato (Código de Ética, art. 16, § 1º)",
+        "valor": 90,
+        "unidade": "dias-uteis",
+        "efeito": "o processo passa a sobrestar a pauta"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "votacao": "aberta",
+        "nota": "Maioria absoluta dos membros da Câmara: 257 de 513."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 55, § 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 240, § 1º; Código de Ética e Decoro Parlamentar, arts. 14, caput, e 16, §§ 1º a 3º"
+        },
+        {
+          "ref": "norma:lc-78-1993",
+          "dispositivo": "art. 1º",
+          "nota": "Total de 513 deputados, base do cálculo de 257 votos"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "perda-do-mandato",
+          "quando": "Ao menos 257 votos pela perda"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Menos de 257 votos pela perda"
+        }
+      ]
+    },
+    {
+      "id": "senado-conselho-de-etica",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:conselho-de-etica-do-senado"
+      ],
+      "acao": "O Conselho de Ética do Senado admite a representação, instrui o processo e vota o parecer",
+      "detalhes": "O Presidente do Conselho faz exame preliminar em 5 dias úteis e arquiva a representação sem legitimidade ou sem fatos definidos, com recurso de 5 membros ao Plenário do Conselho. O senador tem 10 dias úteis para a defesa prévia; o relator, sorteado fora dos partidos envolvidos, apresenta relatório preliminar em 5 dias úteis, e o Conselho decide, em votação nominal e aberta, se instaura o processo. Ao fim da instrução, alegações finais em 3 dias úteis e parecer votado em 10 dias úteis.",
+      "prazo": {
+        "texto": "Exame preliminar em 5 dias úteis; defesa prévia em 10 dias úteis; relatório preliminar em 5 dias úteis; alegações finais em 3 dias úteis e apreciação do parecer em 10 dias úteis (Res. 20/1993, arts. 14, 15, 15-A e 17-I)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "art. 14, §§ 1º e 2º; art. 15; art. 15-A; art. 17-A; art. 17-I; art. 17-O, I a V; art. 23"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-ccj",
+          "quando": "Parecer pela perda do mandato"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Representação arquivada no exame preliminar ou julgada improcedente"
+        }
+      ]
+    },
+    {
+      "id": "senado-ccj",
+      "atores": [
+        "org:ccj-senado"
+      ],
+      "acao": "A CCJ do Senado examina os aspectos constitucionais, legais e jurídicos do parecer pela perda do mandato",
+      "prazo": {
+        "texto": "5 sessões ordinárias (Res. 20/1993, art. 17-O, § 2º)",
+        "valor": 5,
+        "unidade": "sessoes"
+      },
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "art. 17-O, §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "senado-plenario",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "senado-plenario",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "O Plenário do Senado decide por maioria absoluta (41 votos)",
+      "detalhes": "O processo é lido no Expediente, publicado e incluído na Ordem do Dia. A Res. 20/1993 e o RISF ainda falam em escrutínio secreto, mas a EC 76/2013 tirou o voto secreto do art. 55, § 2º, da CF.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta da composição do Senado: 41 de 81."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 55, § 2º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 32, § 2º; art. 35; art. 288, III, c; art. 291, I, b, e nota 212"
+        },
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "art. 13; art. 17-O, § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "perda-do-mandato",
+          "quando": "Ao menos 41 votos pela perda"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Menos de 41 votos pela perda"
+        }
+      ]
+    },
+    {
+      "id": "declaracao-pela-mesa",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:mesa-da-camara-dos-deputados",
+        "org:mesa-do-senado-federal"
+      ],
+      "acao": "A Mesa declara a perda nos casos de faltas, perda dos direitos políticos ou decisão da Justiça Eleitoral",
+      "detalhes": "Nos casos do art. 55, III a V, não há votação em Plenário: a Mesa declara a perda de ofício ou a pedido de parlamentar ou partido, com ampla defesa. Na Câmara, diante de decisão judicial, a análise se limita aos aspectos formais. Para o STF, a condenação a regime fechado que impeça o comparecimento a um terço das sessões leva à declaração pela Mesa (art. 55, III), e não à votação do art. 55, VI.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 55, III a V, e § 3º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 21-F, parágrafo único; art. 240, § 2º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 32, §§ 3º a 5º"
+        },
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "art. 13, parágrafo único"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-55",
+          "dispositivo": "art. 55: AP 694"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "perda-do-mandato",
+          "quando": "A Mesa declara a perda"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "A Mesa conclui que a causa não se configurou"
+        }
+      ]
+    },
+    {
+      "id": "perda-do-mandato",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal"
+      ],
+      "acao": "A resolução de perda do mandato é promulgada, a vaga se abre e o suplente é convocado",
+      "detalhes": "Na Câmara, o Presidente promulga as resoluções; no Senado, o Presidente do Senado.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 56, § 1º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 17, VI, m; art. 109, III, a; art. 238, III"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 48, XXVIII"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "A representação é arquivada e o parlamentar mantém o mandato",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 240, § 3º, III; Código de Ética e Decoro Parlamentar, art. 14, § 4º, III e IV"
+        },
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "art. 14, § 1º; art. 15-A, § 6º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 54 a 56"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 21-E, 240; Código de Ética e Decoro Parlamentar, arts. 9º a 16"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 32 a 35"
+    },
+    {
+      "ref": "norma:senado-resolucao-20-1993",
+      "dispositivo": "arts. 11 a 17-O"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Decisões de modelagem: (1) etapas únicas para as duas Casas onde o rito coincide (representação, declaração pela Mesa, fim); onde difere, uma etapa por Casa. (2) A etapa 'declaracao-pela-mesa' não sai de 'representacao' porque nasce de outra provocação (de ofício, parlamentar ou partido); fica como segunda entrada do processo. (3) No Senado, o RISF (arts. 32 a 35) prevê um rito diferente (parecer da CCJ sobre a admissibilidade, votação da admissão em Plenário e comissão de nove membros), enquanto a Res. 20/1993, com a redação da Res. 25/2008, manda a representação direto ao Conselho de Ética; o processo segue a resolução, mais nova e específica (ver aviso:perda-de-mandato-senado-risf-e-codigo-de-etica). (4) As penas menores (advertência, censura, suspensão de prerrogativas e suspensão temporária do mandato) usam parte deste rito e não foram modeladas. (5) Para o STF (AP 694), a condenação a regime fechado que impeça o comparecimento leva à declaração pela Mesa; o caso está na etapa 'declaracao-pela-mesa'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

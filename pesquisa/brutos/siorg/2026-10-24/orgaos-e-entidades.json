@@ -1,0 +1,2141 @@
+{
+ "_nota": "Extrato (sem edição dos valores) das unidades com codigoUnidade == codigoOrgaoEntidade da estrutura resumida do SIORG, baixada em 2026-10-24 de https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/resumida?codigoPoder=1&codigoEsfera=1 (o parâmetro codigoNaturezaJuridica é ignorado pela API: 1, 2, 4 e 6 devolveram o mesmo arquivo de 96.319.756 bytes). Gerado por f0-administracao-indireta.",
+ "entidades": [
+  {
+   "codigo": "208613",
+   "sigla": "PE",
+   "nome": "Poder Executivo",
+   "natureza": null,
+   "codigoPai": "200001",
+   "dataInicialVersaoConsulta": "2013-11-11"
+  },
+  {
+   "codigo": "46",
+   "sigla": "AGU",
+   "nome": "Advocacia-Geral da União",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "72080",
+   "sigla": "AEPR",
+   "nome": "Assessoria Especial do Presidente da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2025-12-22"
+  },
+  {
+   "codigo": "2837",
+   "sigla": "CC-PR",
+   "nome": "Casa Civil da Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "214460",
+   "sigla": "CGU",
+   "nome": "Controladoria-Geral da União",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-08-03"
+  },
+  {
+   "codigo": "1949",
+   "sigla": "GPPR",
+   "nome": "Gabinete Pessoal do Presidente da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-09"
+  },
+  {
+   "codigo": "27",
+   "sigla": "GSI/PR",
+   "nome": "Gabinete de Segurança Institucional da Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-05-22"
+  },
+  {
+   "codigo": "308793",
+   "sigla": "MAPA",
+   "nome": "Ministério da Agricultura e Pecuária",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-14"
+  },
+  {
+   "codigo": "267175",
+   "sigla": "MCTI",
+   "nome": "Ministério da Ciência, Tecnologia e Inovação",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "308821",
+   "sigla": "MinC",
+   "nome": "Ministério da Cultura",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-08-21"
+  },
+  {
+   "codigo": "41066",
+   "sigla": "MD",
+   "nome": "Ministério da Defesa",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-21"
+  },
+  {
+   "codigo": "244",
+   "sigla": "MEC",
+   "nome": "Ministério da Educação",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "308800",
+   "sigla": "MF",
+   "nome": "Ministério da Fazenda",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-08"
+  },
+  {
+   "codigo": "308803",
+   "sigla": "MGI",
+   "nome": "Ministério da Gestão e da Inovação em Serviços Públicos",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "308823",
+   "sigla": "MIR",
+   "nome": "Ministério da Igualdade Racial",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-12"
+  },
+  {
+   "codigo": "308799",
+   "sigla": "MIDR",
+   "nome": "Ministério da Integração e do Desenvolvimento Regional",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "235881",
+   "sigla": "MJSP",
+   "nome": "Ministério da Justiça e Segurança Pública",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "308795",
+   "sigla": "MPA",
+   "nome": "Ministério da Pesca e Aquicultura",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-22"
+  },
+  {
+   "codigo": "308819",
+   "sigla": "MPS",
+   "nome": "Ministério da Previdência Social",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "304",
+   "sigla": "MS",
+   "nome": "Ministério da Saúde",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-14"
+  },
+  {
+   "codigo": "308798",
+   "sigla": "MCID",
+   "nome": "Ministério das Cidades",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "264359",
+   "sigla": "MCOM",
+   "nome": "Ministério das Comunicações",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-04-24"
+  },
+  {
+   "codigo": "308815",
+   "sigla": "MMULHERES",
+   "nome": "Ministério das Mulheres",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-07-31"
+  },
+  {
+   "codigo": "263",
+   "sigla": "MRE",
+   "nome": "Ministério das Relações Exteriores",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-29"
+  },
+  {
+   "codigo": "2852",
+   "sigla": "MME",
+   "nome": "Ministério de Minas e Energia",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-08-21"
+  },
+  {
+   "codigo": "308817",
+   "sigla": "MPOR",
+   "nome": "Ministério de Portos e Aeroportos",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "308794",
+   "sigla": "MDA",
+   "nome": "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-13"
+  },
+  {
+   "codigo": "308796",
+   "sigla": "MDS",
+   "nome": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "308814",
+   "sigla": "MDIC",
+   "nome": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-07-16"
+  },
+  {
+   "codigo": "330683",
+   "sigla": "MEMP",
+   "nome": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-07-15"
+  },
+  {
+   "codigo": "308797",
+   "sigla": "MESP",
+   "nome": "Ministério do Esporte",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-28"
+  },
+  {
+   "codigo": "1927",
+   "sigla": "MMA",
+   "nome": "Ministério do Meio Ambiente e Mudança do Clima",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-01"
+  },
+  {
+   "codigo": "308804",
+   "sigla": "MPO",
+   "nome": "Ministério do Planejamento e Orçamento",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-08-17"
+  },
+  {
+   "codigo": "308820",
+   "sigla": "MTE",
+   "nome": "Ministério do Trabalho e Emprego",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-08-19"
+  },
+  {
+   "codigo": "72084",
+   "sigla": "MTur",
+   "nome": "Ministério do Turismo",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-18"
+  },
+  {
+   "codigo": "308816",
+   "sigla": "MDHC",
+   "nome": "Ministério dos Direitos Humanos e da Cidadania",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "308824",
+   "sigla": "MPI",
+   "nome": "Ministério dos Povos Indígenas",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-01"
+  },
+  {
+   "codigo": "308818",
+   "sigla": "MT",
+   "nome": "Ministério dos Transportes",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-08-19"
+  },
+  {
+   "codigo": "26",
+   "sigla": "PR",
+   "nome": "Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "208613",
+   "dataInicialVersaoConsulta": "2025-11-21"
+  },
+  {
+   "codigo": "308822",
+   "sigla": "SECOM",
+   "nome": "Secretaria de Comunicação Social da Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "42673",
+   "sigla": "SRI/PR",
+   "nome": "Secretaria de Relações Institucionais da Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-10-22"
+  },
+  {
+   "codigo": "219924",
+   "sigla": "SG",
+   "nome": "Secretaria-Geral da Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-01-29"
+  },
+  {
+   "codigo": "1408",
+   "sigla": "VPR",
+   "nome": "Vice-Presidência da República",
+   "natureza": "Administração Direta",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-04-23"
+  },
+  {
+   "codigo": "4243",
+   "sigla": "AEB",
+   "nome": "Agência Espacial Brasileira",
+   "natureza": "Autarquia",
+   "codigoPai": "267175",
+   "dataInicialVersaoConsulta": "2026-07-16"
+  },
+  {
+   "codigo": "86144",
+   "sigla": "ANAC",
+   "nome": "Agência Nacional de Aviação Civil",
+   "natureza": "Autarquia",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "21089",
+   "sigla": "ANEEL",
+   "nome": "Agência Nacional de Energia Elétrica",
+   "natureza": "Autarquia",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2026-10-06"
+  },
+  {
+   "codigo": "222120",
+   "sigla": "ANM",
+   "nome": "Agência Nacional de Mineração",
+   "natureza": "Autarquia",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2026-04-06"
+  },
+  {
+   "codigo": "235884",
+   "sigla": "ANPD",
+   "nome": "Agência Nacional de Proteção de Dados",
+   "natureza": "Autarquia",
+   "codigoPai": "235881",
+   "dataInicialVersaoConsulta": "2026-07-17"
+  },
+  {
+   "codigo": "45013",
+   "sigla": "ANS",
+   "nome": "Agência Nacional de Saúde Suplementar",
+   "natureza": "Autarquia",
+   "codigoPai": "304",
+   "dataInicialVersaoConsulta": "2026-09-23"
+  },
+  {
+   "codigo": "25064",
+   "sigla": "ANATEL",
+   "nome": "Agência Nacional de Telecomunicações",
+   "natureza": "Autarquia",
+   "codigoPai": "264359",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "54843",
+   "sigla": "ANTAQ",
+   "nome": "Agência Nacional de Transportes Aquaviários",
+   "natureza": "Autarquia",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "54793",
+   "sigla": "ANTT",
+   "nome": "Agência Nacional de Transportes Terrestres",
+   "natureza": "Autarquia",
+   "codigoPai": "308818",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "36687",
+   "sigla": "ANVISA",
+   "nome": "Agência Nacional de Vigilância Sanitária",
+   "natureza": "Autarquia",
+   "codigoPai": "304",
+   "dataInicialVersaoConsulta": "2026-02-05"
+  },
+  {
+   "codigo": "46876",
+   "sigla": "ANA",
+   "nome": "Agência Nacional de Águas e Saneamento Básico",
+   "natureza": "Autarquia",
+   "codigoPai": "308799",
+   "dataInicialVersaoConsulta": "2026-07-09"
+  },
+  {
+   "codigo": "57682",
+   "sigla": "ANCINE",
+   "nome": "Agência Nacional do Cinema",
+   "natureza": "Autarquia",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2026-09-10"
+  },
+  {
+   "codigo": "25281",
+   "sigla": "ANP",
+   "nome": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+   "natureza": "Autarquia",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2026-09-29"
+  },
+  {
+   "codigo": "273855",
+   "sigla": "ANSN",
+   "nome": "Autoridade Nacional de Segurança Nuclear",
+   "natureza": "Autarquia",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2026-02-11"
+  },
+  {
+   "codigo": "89",
+   "sigla": "BCB",
+   "nome": "Banco Central do Brasil",
+   "natureza": "Autarquia",
+   "codigoPai": "26",
+   "dataInicialVersaoConsulta": "2026-09-08"
+  },
+  {
+   "codigo": "208",
+   "sigla": "CCCPCM",
+   "nome": "Caixa de Construções de Casas para o Pessoal da Marinha",
+   "natureza": "Autarquia",
+   "codigoPai": "185",
+   "dataInicialVersaoConsulta": "2022-05-25"
+  },
+  {
+   "codigo": "930",
+   "sigla": "CFIAE",
+   "nome": "Caixa de Financiamento Imobiliário da Aeronáutica",
+   "natureza": "Autarquia",
+   "codigoPai": "48",
+   "dataInicialVersaoConsulta": "2026-08-19"
+  },
+  {
+   "codigo": "448",
+   "sigla": "CEFET-RJ",
+   "nome": "Centro Federal de Educação Tecnológica - Celso Suckow da Fonseca",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-28"
+  },
+  {
+   "codigo": "445",
+   "sigla": "CEFET-MG",
+   "nome": "Centro Federal de Educação Tecnológica de Minas Gerais",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "256",
+   "sigla": "CP II",
+   "nome": "Colégio Pedro II",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-22"
+  },
+  {
+   "codigo": "223",
+   "sigla": "CNEN",
+   "nome": "Comissão Nacional de Energia Nuclear",
+   "natureza": "Autarquia",
+   "codigoPai": "267175",
+   "dataInicialVersaoConsulta": "2026-10-08"
+  },
+  {
+   "codigo": "478",
+   "sigla": "CVM",
+   "nome": "Comissão de Valores Mobiliários",
+   "natureza": "Autarquia",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2026-10-21"
+  },
+  {
+   "codigo": "322",
+   "sigla": "CADE",
+   "nome": "Conselho Administrativo de Defesa Econômica",
+   "natureza": "Autarquia",
+   "codigoPai": "235881",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "54844",
+   "sigla": "DNIT",
+   "nome": "Departamento Nacional de Infraestrutura de Transportes",
+   "natureza": "Autarquia",
+   "codigoPai": "308818",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "367",
+   "sigla": "DNOCS",
+   "nome": "Departamento Nacional de Obras Contra as Secas",
+   "natureza": "Autarquia",
+   "codigoPai": "308799",
+   "dataInicialVersaoConsulta": "2026-08-17"
+  },
+  {
+   "codigo": "253",
+   "sigla": "FNDE",
+   "nome": "Fundo Nacional de Desenvolvimento da Educação",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "100584",
+   "sigla": "IBRAM",
+   "nome": "Instituto Brasileiro de Museus",
+   "natureza": "Autarquia",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2026-08-31"
+  },
+  {
+   "codigo": "1812",
+   "sigla": "IBAMA",
+   "nome": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+   "natureza": "Autarquia",
+   "codigoPai": "1927",
+   "dataInicialVersaoConsulta": "2026-10-22"
+  },
+  {
+   "codigo": "91842",
+   "sigla": "ICMBio",
+   "nome": "Instituto Chico Mendes de Conservação da Biodiversidade",
+   "natureza": "Autarquia",
+   "codigoPai": "1927",
+   "dataInicialVersaoConsulta": "2026-10-05"
+  },
+  {
+   "codigo": "100920",
+   "sigla": "IF BAIANO",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia Baiano",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "100919",
+   "sigla": "IFC",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia Catarinense",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-29"
+  },
+  {
+   "codigo": "100906",
+   "sigla": "IFFAR",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia Farroupilha",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-21"
+  },
+  {
+   "codigo": "100931",
+   "sigla": "IFF",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia Fluminense",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "100913",
+   "sigla": "IF-GOIANO",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia Goiano",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-09"
+  },
+  {
+   "codigo": "456",
+   "sigla": "IFSul",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia Sul-Rio-Grandense",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-01"
+  },
+  {
+   "codigo": "444",
+   "sigla": "IFBA",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "100905",
+   "sigla": "IFPB",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-21"
+  },
+  {
+   "codigo": "100900",
+   "sigla": "IFAL",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Alagoas",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-13"
+  },
+  {
+   "codigo": "94430",
+   "sigla": "IFB",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Brasília",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-07"
+  },
+  {
+   "codigo": "451",
+   "sigla": "IFG",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Goiás",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-17"
+  },
+  {
+   "codigo": "100916",
+   "sigla": "IFMT",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-22"
+  },
+  {
+   "codigo": "100904",
+   "sigla": "IFMS",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-22"
+  },
+  {
+   "codigo": "100914",
+   "sigla": "IFMG",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-21"
+  },
+  {
+   "codigo": "100922",
+   "sigla": "IFPE",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-13"
+  },
+  {
+   "codigo": "100907",
+   "sigla": "IFRO",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Rondônia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "3561",
+   "sigla": "IFRR",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Roraima",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-08"
+  },
+  {
+   "codigo": "455",
+   "sigla": "IFSC",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "100909",
+   "sigla": "IFS",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Sergipe",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "453",
+   "sigla": "IFSP",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "94427",
+   "sigla": "IFAC",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Acre",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-29"
+  },
+  {
+   "codigo": "94428",
+   "sigla": "IFAP",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amapá",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-14"
+  },
+  {
+   "codigo": "100910",
+   "sigla": "IFAM",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-17"
+  },
+  {
+   "codigo": "100911",
+   "sigla": "IFCE",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "100912",
+   "sigla": "IFES",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "100921",
+   "sigla": "IFMA",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Maranhão",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-06"
+  },
+  {
+   "codigo": "100901",
+   "sigla": "IFNMG",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas Gerais",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-15"
+  },
+  {
+   "codigo": "49103",
+   "sigla": "IFPR",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-16"
+  },
+  {
+   "codigo": "100917",
+   "sigla": "IFPA",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-04"
+  },
+  {
+   "codigo": "434",
+   "sigla": "IFPI",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Piauí",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-29"
+  },
+  {
+   "codigo": "439",
+   "sigla": "IFRN",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-14"
+  },
+  {
+   "codigo": "100918",
+   "sigla": "IFRS",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "100930",
+   "sigla": "IFRJ",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-02"
+  },
+  {
+   "codigo": "628352",
+   "sigla": "IFSertãoPB",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sertão Paraibano",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-05-15"
+  },
+  {
+   "codigo": "46784",
+   "sigla": "IFSertaoPE",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-10"
+  },
+  {
+   "codigo": "100902",
+   "sigla": "IFSUDMG",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "100915",
+   "sigla": "IFSULMG",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-13"
+  },
+  {
+   "codigo": "100908",
+   "sigla": "IFTO",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Tocantins",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "100903",
+   "sigla": "IFTM",
+   "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "382",
+   "sigla": "INPI",
+   "nome": "Instituto Nacional da Propriedade Industrial",
+   "natureza": "Autarquia",
+   "codigoPai": "308814",
+   "dataInicialVersaoConsulta": "2026-09-01"
+  },
+  {
+   "codigo": "1799",
+   "sigla": "INCRA",
+   "nome": "Instituto Nacional de Colonização e Reforma Agrária",
+   "natureza": "Autarquia",
+   "codigoPai": "308794",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "249",
+   "sigla": "INEP",
+   "nome": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-05"
+  },
+  {
+   "codigo": "240",
+   "sigla": "INMETRO",
+   "nome": "Instituto Nacional de Metrologia, Qualidade e Tecnologia",
+   "natureza": "Autarquia",
+   "codigoPai": "308814",
+   "dataInicialVersaoConsulta": "2026-06-03"
+  },
+  {
+   "codigo": "47388",
+   "sigla": "ITI",
+   "nome": "Instituto Nacional de Tecnologia da Informação",
+   "natureza": "Autarquia",
+   "codigoPai": "308803",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "1934",
+   "sigla": "INSS",
+   "nome": "Instituto Nacional do Seguro Social",
+   "natureza": "Autarquia",
+   "codigoPai": "308819",
+   "dataInicialVersaoConsulta": "2026-07-08"
+  },
+  {
+   "codigo": "1913",
+   "sigla": "JBRJ",
+   "nome": "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro",
+   "natureza": "Autarquia",
+   "codigoPai": "1927",
+   "dataInicialVersaoConsulta": "2026-08-24"
+  },
+  {
+   "codigo": "2045",
+   "sigla": "IPHAN",
+   "nome": "Instituto do Patrimônio Histórico e Artístico Nacional",
+   "natureza": "Autarquia",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2026-09-15"
+  },
+  {
+   "codigo": "105915",
+   "sigla": "PREVIC",
+   "nome": "Superintendência Nacional de Previdência Complementar",
+   "natureza": "Autarquia",
+   "codigoPai": "308819",
+   "dataInicialVersaoConsulta": "2026-09-04"
+  },
+  {
+   "codigo": "166",
+   "sigla": "SUFRAMA",
+   "nome": "Superintendência da Zona Franca de Manaus",
+   "natureza": "Autarquia",
+   "codigoPai": "308814",
+   "dataInicialVersaoConsulta": "2026-09-15"
+  },
+  {
+   "codigo": "235",
+   "sigla": "SUSEP",
+   "nome": "Superintendência de Seguros Privados",
+   "natureza": "Autarquia",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2026-09-08"
+  },
+  {
+   "codigo": "91138",
+   "sigla": "SUDAM",
+   "nome": "Superintendência do Desenvolvimento da Amazônia",
+   "natureza": "Autarquia",
+   "codigoPai": "308799",
+   "dataInicialVersaoConsulta": "2026-02-04"
+  },
+  {
+   "codigo": "100113",
+   "sigla": "SUDECO",
+   "nome": "Superintendência do Desenvolvimento do Centro-Oeste",
+   "natureza": "Autarquia",
+   "codigoPai": "308799",
+   "dataInicialVersaoConsulta": "2025-09-09"
+  },
+  {
+   "codigo": "91144",
+   "sigla": "SUDENE",
+   "nome": "Superintendência do Desenvolvimento do Nordeste",
+   "natureza": "Autarquia",
+   "codigoPai": "308799",
+   "dataInicialVersaoConsulta": "2026-09-29"
+  },
+  {
+   "codigo": "427",
+   "sigla": "UFF",
+   "nome": "Universidade Federal Fluminense",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "633271",
+   "sigla": "Unind",
+   "nome": "Universidade Federal Indígena",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-05-29"
+  },
+  {
+   "codigo": "457",
+   "sigla": "UFRA",
+   "nome": "Universidade Federal Rural da Amazônia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-09"
+  },
+  {
+   "codigo": "433",
+   "sigla": "UFRPE",
+   "nome": "Universidade Federal Rural de Pernambuco",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-25"
+  },
+  {
+   "codigo": "432",
+   "sigla": "UFRRJ",
+   "nome": "Universidade Federal Rural do Rio de Janeiro",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "458",
+   "sigla": "UFERSA-RN",
+   "nome": "Universidade Federal Rural do Semi-Árido",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "421",
+   "sigla": "UFBA",
+   "nome": "Universidade Federal da Bahia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "668873",
+   "sigla": "UFFN",
+   "nome": "Universidade Federal da Fronteira Norte",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-28"
+  },
+  {
+   "codigo": "103730",
+   "sigla": "UFFS",
+   "nome": "Universidade Federal da Fronteira Sul",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-05"
+  },
+  {
+   "codigo": "105793",
+   "sigla": "UNILA",
+   "nome": "Universidade Federal da Integração Latino-Americana",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-02"
+  },
+  {
+   "codigo": "419",
+   "sigla": "UFPB",
+   "nome": "Universidade Federal da Paraíba",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-09"
+  },
+  {
+   "codigo": "420",
+   "sigla": "UFAL",
+   "nome": "Universidade Federal de Alagoas",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-08"
+  },
+  {
+   "codigo": "461",
+   "sigla": "UNIFAL-MG",
+   "nome": "Universidade Federal de Alfenas",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-05"
+  },
+  {
+   "codigo": "67671",
+   "sigla": "UFCG",
+   "nome": "Universidade Federal de Campina Grande",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-14"
+  },
+  {
+   "codigo": "226371",
+   "sigla": "UFCAT",
+   "nome": "Universidade Federal de Catalão",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-15"
+  },
+  {
+   "codigo": "422",
+   "sigla": "UFG",
+   "nome": "Universidade Federal de Goiás",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-08"
+  },
+  {
+   "codigo": "462",
+   "sigla": "UNIFEI",
+   "nome": "Universidade Federal de Itajubá",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "226372",
+   "sigla": "UFJ",
+   "nome": "Universidade Federal de Jataí",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "424",
+   "sigla": "UFJF",
+   "nome": "Universidade Federal de Juiz de Fora",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-22"
+  },
+  {
+   "codigo": "463",
+   "sigla": "UFLA",
+   "nome": "Universidade Federal de Lavras",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-14"
+  },
+  {
+   "codigo": "423",
+   "sigla": "UFMG",
+   "nome": "Universidade Federal de Minas Gerais",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-18"
+  },
+  {
+   "codigo": "418",
+   "sigla": "UFPE",
+   "nome": "Universidade Federal de Pernambuco",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-21"
+  },
+  {
+   "codigo": "226373",
+   "sigla": "UFR",
+   "nome": "Universidade Federal de Rondonópolis",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-12"
+  },
+  {
+   "codigo": "429",
+   "sigla": "UFSC",
+   "nome": "Universidade Federal de Santa Catarina",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "431",
+   "sigla": "UFSM",
+   "nome": "Universidade Federal de Santa Maria",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-22"
+  },
+  {
+   "codigo": "464",
+   "sigla": "UNIFESP",
+   "nome": "Universidade Federal de São Paulo",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-28"
+  },
+  {
+   "codigo": "227868",
+   "sigla": "UFAPE",
+   "nome": "Universidade Federal do Agreste de Pernambuco",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-17"
+  },
+  {
+   "codigo": "122391",
+   "sigla": "UFCA",
+   "nome": "Universidade Federal do Cariri ",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-19"
+  },
+  {
+   "codigo": "416",
+   "sigla": "UFC",
+   "nome": "Universidade Federal do Ceará",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "227867",
+   "sigla": "UFDPar",
+   "nome": "Universidade Federal do Delta do Parnaíba",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-28"
+  },
+  {
+   "codigo": "645131",
+   "sigla": "UFEsporte",
+   "nome": "Universidade Federal do Esporte",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-07"
+  },
+  {
+   "codigo": "425",
+   "sigla": "UFES",
+   "nome": "Universidade Federal do Espírito Santo",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-06-22"
+  },
+  {
+   "codigo": "241361",
+   "sigla": "UFNT",
+   "nome": "Universidade Federal do Norte do Tocantins",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-07"
+  },
+  {
+   "codigo": "122386",
+   "sigla": "UFOB",
+   "nome": "Universidade Federal do Oeste da Bahia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-02"
+  },
+  {
+   "codigo": "104667",
+   "sigla": "UFOPA",
+   "nome": "Universidade Federal do Oeste do Pará",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-13"
+  },
+  {
+   "codigo": "428",
+   "sigla": "UFPR",
+   "nome": "Universidade Federal do Paraná",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "415",
+   "sigla": "UFPA",
+   "nome": "Universidade Federal do Pará",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-16"
+  },
+  {
+   "codigo": "84710",
+   "sigla": "UFRB",
+   "nome": "Universidade Federal do Recôncavo da Bahia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-02"
+  },
+  {
+   "codigo": "417",
+   "sigla": "UFRN",
+   "nome": "Universidade Federal do Rio Grande do Norte",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-12"
+  },
+  {
+   "codigo": "430",
+   "sigla": "UFRGS",
+   "nome": "Universidade Federal do Rio Grande do Sul",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "426",
+   "sigla": "UFRJ",
+   "nome": "Universidade Federal do Rio de Janeiro",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-13"
+  },
+  {
+   "codigo": "122378",
+   "sigla": "UFSB",
+   "nome": "Universidade Federal do Sul da Bahia",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "122381",
+   "sigla": "Unifesspa",
+   "nome": "Universidade Federal do Sul e Sudeste do Pará",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "459",
+   "sigla": "UFTM",
+   "nome": "Universidade Federal do Triângulo Mineiro",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-01"
+  },
+  {
+   "codigo": "460",
+   "sigla": "UFVJM",
+   "nome": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-21"
+  },
+  {
+   "codigo": "454",
+   "sigla": "UTFPR",
+   "nome": "Universidade Tecnológica Federal do Paraná",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "109912",
+   "sigla": "UNILAB",
+   "nome": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira",
+   "natureza": "Autarquia",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-08"
+  },
+  {
+   "codigo": "118698",
+   "sigla": "ABGF",
+   "nome": "Agência Brasileira Gestora de Fundos Garantidores e Garantias S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2023-01-26"
+  },
+  {
+   "codigo": "200949",
+   "sigla": "AMAZUL",
+   "nome": "Amazônia Azul Tecnologias de Defesa S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "185",
+   "dataInicialVersaoConsulta": "2019-01-04"
+  },
+  {
+   "codigo": "959",
+   "sigla": "APS S.A.",
+   "nome": "Autoridade Portuária de Santos S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2023-01-24"
+  },
+  {
+   "codigo": "2",
+   "sigla": "BNDES",
+   "nome": "Banco Nacional de Desenvolvimento Econômico e Social",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308814",
+   "dataInicialVersaoConsulta": "2023-01-25"
+  },
+  {
+   "codigo": "638052",
+   "sigla": "CAIXA Cartões",
+   "nome": "CAIXA Cartões Holding S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "91",
+   "dataInicialVersaoConsulta": "2026-06-17"
+  },
+  {
+   "codigo": "638071",
+   "sigla": "CAIXA DTVM",
+   "nome": "CAIXA Distribuidora de Títulos e Valores Mobiliários S/A",
+   "natureza": "Empresa Pública",
+   "codigoPai": "91",
+   "dataInicialVersaoConsulta": "2026-06-17"
+  },
+  {
+   "codigo": "638011",
+   "sigla": "CAIXA Loterias",
+   "nome": "CAIXA Loterias S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "91",
+   "dataInicialVersaoConsulta": "2026-06-17"
+  },
+  {
+   "codigo": "91",
+   "sigla": "CAIXA",
+   "nome": "Caixa Econômica Federal",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2023-01-26"
+  },
+  {
+   "codigo": "92",
+   "sigla": "CMB",
+   "nome": "Casa da Moeda do Brasil",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2024-10-14"
+  },
+  {
+   "codigo": "98519",
+   "sigla": "CEITEC/S.A.",
+   "nome": "Centro Nacional de Tecnologia Eletrônica Avançada S. A",
+   "natureza": "Empresa Pública",
+   "codigoPai": "267175",
+   "dataInicialVersaoConsulta": "2024-07-03"
+  },
+  {
+   "codigo": "372",
+   "sigla": "CBTU",
+   "nome": "Companhia Brasileira de Trens Urbanos ",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308798",
+   "dataInicialVersaoConsulta": "2025-10-30"
+  },
+  {
+   "codigo": "2114",
+   "sigla": "CONAB",
+   "nome": "Companhia Nacional de Abastecimento",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308794",
+   "dataInicialVersaoConsulta": "2025-09-12"
+  },
+  {
+   "codigo": "169",
+   "sigla": "CODEVASF",
+   "nome": "Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308799",
+   "dataInicialVersaoConsulta": "2025-04-23"
+  },
+  {
+   "codigo": "227",
+   "sigla": "CPRM",
+   "nome": "Companhia de Pesquisa de Recursos Minerais",
+   "natureza": "Empresa Pública",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2024-07-05"
+  },
+  {
+   "codigo": "86567",
+   "sigla": "EBC",
+   "nome": "Empresa Brasil de Comunicação S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308822",
+   "dataInicialVersaoConsulta": "2026-07-24"
+  },
+  {
+   "codigo": "109913",
+   "sigla": "PPSA",
+   "nome": "Empresa Brasileira de Administração de Petróleo e Gás Natural S.A.- Pré-Sal Petróleo S.A",
+   "natureza": "Empresa Pública",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2024-07-05"
+  },
+  {
+   "codigo": "74",
+   "sigla": "ECT",
+   "nome": "Empresa Brasileira de Correios e Telégrafos",
+   "natureza": "Empresa Pública",
+   "codigoPai": "264359",
+   "dataInicialVersaoConsulta": "2024-08-16"
+  },
+  {
+   "codigo": "83815",
+   "sigla": "HEMOBRÁS",
+   "nome": "Empresa Brasileira de Hemoderivados e Biotecnologia",
+   "natureza": "Empresa Pública",
+   "codigoPai": "304",
+   "dataInicialVersaoConsulta": "2024-06-14"
+  },
+  {
+   "codigo": "73",
+   "sigla": "INFRAERO",
+   "nome": "Empresa Brasileira de Infraestrutura Aeroportuária",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2026-08-25"
+  },
+  {
+   "codigo": "25",
+   "sigla": "EMBRAPA",
+   "nome": "Empresa Brasileira de Pesquisa Agropecuária",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308793",
+   "dataInicialVersaoConsulta": "2026-07-13"
+  },
+  {
+   "codigo": "117267",
+   "sigla": "HU BRASIL",
+   "nome": "Empresa Brasileira de Serviços Hospitalares",
+   "natureza": "Empresa Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "1013",
+   "sigla": "EMGEPRON",
+   "nome": "Empresa Gerencial de Projetos Navais",
+   "natureza": "Empresa Pública",
+   "codigoPai": "185",
+   "dataInicialVersaoConsulta": "2025-09-16"
+  },
+  {
+   "codigo": "55962",
+   "sigla": "EMGEA",
+   "nome": "Empresa Gestora de Ativos",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2024-10-17"
+  },
+  {
+   "codigo": "76608",
+   "sigla": "EPE",
+   "nome": "Empresa de Pesquisa Energética",
+   "natureza": "Empresa Pública",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2023-09-14"
+  },
+  {
+   "codigo": "303",
+   "sigla": "DATAPREV",
+   "nome": "Empresa de Tecnologia e Informações da Previdência ",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308803",
+   "dataInicialVersaoConsulta": "2023-07-06"
+  },
+  {
+   "codigo": "958",
+   "sigla": "TRENSURB",
+   "nome": "Empresa de Trens Urbanos de Porto Alegre S.A",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308798",
+   "dataInicialVersaoConsulta": "2024-06-20"
+  },
+  {
+   "codigo": "1",
+   "sigla": "FINEP",
+   "nome": "Financiadora de Estudos e Projetos",
+   "natureza": "Empresa Pública",
+   "codigoPai": "267175",
+   "dataInicialVersaoConsulta": "2024-07-04"
+  },
+  {
+   "codigo": "258",
+   "sigla": "HCPA",
+   "nome": "Hospital de Clínicas de Porto Alegre",
+   "natureza": "Empresa Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2024-07-04"
+  },
+  {
+   "codigo": "134",
+   "sigla": "IMBEL",
+   "nome": "Indústria de Material Bélico do Brasil",
+   "natureza": "Empresa Pública",
+   "codigoPai": "94",
+   "dataInicialVersaoConsulta": "2024-11-27"
+  },
+  {
+   "codigo": "292009",
+   "sigla": "NAV Brasil",
+   "nome": "NAV Brasil Serviços de Navegação Aérea S.A",
+   "natureza": "Empresa Pública",
+   "codigoPai": "48",
+   "dataInicialVersaoConsulta": "2026-06-26"
+  },
+  {
+   "codigo": "90",
+   "sigla": "SERPRO",
+   "nome": "Serviço Federal de Processamento de Dados",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2026-06-16"
+  },
+  {
+   "codigo": "1800",
+   "sigla": "VALEC",
+   "nome": "VALEC - Engenharia, Construções e Ferrovias S.A. ",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308818",
+   "dataInicialVersaoConsulta": "2025-09-18"
+  },
+  {
+   "codigo": "314990",
+   "sigla": "VDMG Investimentos",
+   "nome": "Veículo de Desestatização MG Investimentos S.A.",
+   "natureza": "Empresa Pública",
+   "codigoPai": "308798",
+   "dataInicialVersaoConsulta": "2024-05-10"
+  },
+  {
+   "codigo": "8",
+   "sigla": "CNPq",
+   "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+   "natureza": "Fundação Pública",
+   "codigoPai": "267175",
+   "dataInicialVersaoConsulta": "2026-07-20"
+  },
+  {
+   "codigo": "299",
+   "sigla": "FUNAG",
+   "nome": "Fundação Alexandre de Gusmão",
+   "natureza": "Fundação Pública",
+   "codigoPai": "263",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "984",
+   "sigla": "FBN",
+   "nome": "Fundação Biblioteca Nacional",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2025-09-11"
+  },
+  {
+   "codigo": "261",
+   "sigla": "FCRB",
+   "nome": "Fundação Casa de Rui Barbosa",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2026-04-29"
+  },
+  {
+   "codigo": "250",
+   "sigla": "CAPES",
+   "nome": "Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-05-06"
+  },
+  {
+   "codigo": "1782",
+   "sigla": "FCP",
+   "nome": "Fundação Cultural Palmares",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2026-04-16"
+  },
+  {
+   "codigo": "956",
+   "sigla": "Enap",
+   "nome": "Fundação Escola Nacional de Administração Pública",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308803",
+   "dataInicialVersaoConsulta": "2026-09-15"
+  },
+  {
+   "codigo": "957",
+   "sigla": "FHE",
+   "nome": "Fundação Habitacional do Exército",
+   "natureza": "Fundação Pública",
+   "codigoPai": "94",
+   "dataInicialVersaoConsulta": "2020-11-05"
+  },
+  {
+   "codigo": "3",
+   "sigla": "IBGE",
+   "nome": "Fundação Instituto Brasileiro de Geografia e Estatística",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308804",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "257",
+   "sigla": "FUNDAJ",
+   "nome": "Fundação Joaquim Nabuco",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2025-09-18"
+  },
+  {
+   "codigo": "221",
+   "sigla": "FUNDACENTRO",
+   "nome": "Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308820",
+   "dataInicialVersaoConsulta": "2026-07-02"
+  },
+  {
+   "codigo": "2330",
+   "sigla": "FUNARTE",
+   "nome": "Fundação Nacional de Artes",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308821",
+   "dataInicialVersaoConsulta": "2025-11-06"
+  },
+  {
+   "codigo": "2207",
+   "sigla": "FUNASA",
+   "nome": "Fundação Nacional de Saúde",
+   "natureza": "Fundação Pública",
+   "codigoPai": "304",
+   "dataInicialVersaoConsulta": "2026-08-24"
+  },
+  {
+   "codigo": "173",
+   "sigla": "FUNAI",
+   "nome": "Fundação Nacional dos Povos Indígenas",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308824",
+   "dataInicialVersaoConsulta": "2026-10-23"
+  },
+  {
+   "codigo": "315",
+   "sigla": "FIOCRUZ",
+   "nome": "Fundação Oswaldo Cruz",
+   "natureza": "Fundação Pública",
+   "codigoPai": "304",
+   "dataInicialVersaoConsulta": "2025-09-11"
+  },
+  {
+   "codigo": "8406",
+   "sigla": "FOSORIO",
+   "nome": "Fundação Osório",
+   "natureza": "Fundação Pública",
+   "codigoPai": "94",
+   "dataInicialVersaoConsulta": "2026-08-10"
+  },
+  {
+   "codigo": "84712",
+   "sigla": "UFGD",
+   "nome": "Fundação Universidade Federal da Grande Dourados",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "970",
+   "sigla": "UFCSPA",
+   "nome": "Fundação Universidade Federal de Ciências da Saúde de Porto Alegre",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-22"
+  },
+  {
+   "codigo": "471",
+   "sigla": "UFMT",
+   "nome": "Fundação Universidade Federal de Mato Grosso",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-03"
+  },
+  {
+   "codigo": "827",
+   "sigla": "UFMS",
+   "nome": "Fundação Universidade Federal de Mato Grosso do Sul",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-17"
+  },
+  {
+   "codigo": "473",
+   "sigla": "FUFOP",
+   "nome": "Fundação Universidade Federal de Ouro Preto",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-25"
+  },
+  {
+   "codigo": "477",
+   "sigla": "UFPel",
+   "nome": "Fundação Universidade Federal de Pelotas",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "1209",
+   "sigla": "UNIR",
+   "nome": "Fundação Universidade Federal de Rondônia",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-05-07"
+  },
+  {
+   "codigo": "1605",
+   "sigla": "UFRR",
+   "nome": "Fundação Universidade Federal de Roraima",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-07"
+  },
+  {
+   "codigo": "469",
+   "sigla": "UFS",
+   "nome": "Fundação Universidade Federal de Sergipe",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-15"
+  },
+  {
+   "codigo": "475",
+   "sigla": "UFSCar",
+   "nome": "Fundação Universidade Federal de São Carlos",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-20"
+  },
+  {
+   "codigo": "1734",
+   "sigla": "FUNRei",
+   "nome": "Fundação Universidade Federal de São João Del Rei",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-07-17"
+  },
+  {
+   "codigo": "474",
+   "sigla": "UFV",
+   "nome": "Fundação Universidade Federal de Viçosa",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-09"
+  },
+  {
+   "codigo": "84703",
+   "sigla": "UFABC",
+   "nome": "Fundação Universidade Federal do ABC",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "466",
+   "sigla": "UFAC",
+   "nome": "Fundação Universidade Federal do Acre",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "1710",
+   "sigla": "UNIFAP",
+   "nome": "Fundação Universidade Federal do Amapá",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-07"
+  },
+  {
+   "codigo": "467",
+   "sigla": "UFMA",
+   "nome": "Fundação Universidade Federal do Maranhão",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-02"
+  },
+  {
+   "codigo": "94739",
+   "sigla": "UNIPAMPA",
+   "nome": "Fundação Universidade Federal do Pampa",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-14"
+  },
+  {
+   "codigo": "468",
+   "sigla": "UFPI",
+   "nome": "Fundação Universidade Federal do Piauí",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-09-30"
+  },
+  {
+   "codigo": "476",
+   "sigla": "FURG",
+   "nome": "Fundação Universidade Federal do Rio Grande",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-14"
+  },
+  {
+   "codigo": "52702",
+   "sigla": "UFT",
+   "nome": "Fundação Universidade Federal do Tocantins",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "69624",
+   "sigla": "UNIVASF",
+   "nome": "Fundação Universidade Federal do Vale do São Francisco",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-05"
+  },
+  {
+   "codigo": "470",
+   "sigla": "UNB",
+   "nome": "Fundação Universidade de Brasília",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-16"
+  },
+  {
+   "codigo": "465",
+   "sigla": "UFAM",
+   "nome": "Fundação Universidade do Amazonas",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-08-11"
+  },
+  {
+   "codigo": "120397",
+   "sigla": "Funpresp-Exe",
+   "nome": "Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308803",
+   "dataInicialVersaoConsulta": "2023-01-26"
+  },
+  {
+   "codigo": "7",
+   "sigla": "IPEA",
+   "nome": "Instituto de Pesquisa Econômica Aplicada",
+   "natureza": "Fundação Pública",
+   "codigoPai": "308804",
+   "dataInicialVersaoConsulta": "2026-10-22"
+  },
+  {
+   "codigo": "472",
+   "sigla": "UFU",
+   "nome": "Universidade Federal de Uberlândia",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-02"
+  },
+  {
+   "codigo": "260",
+   "sigla": "UNIRIO",
+   "nome": "Universidade Federal do Estado do Rio de Janeiro",
+   "natureza": "Fundação Pública",
+   "codigoPai": "244",
+   "dataInicialVersaoConsulta": "2026-10-21"
+  },
+  {
+   "codigo": "300037",
+   "sigla": "ENBpar",
+   "nome": " Empresa Brasileira de Participações em Energia Nuclear e Binacional S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2025-03-14"
+  },
+  {
+   "codigo": "171",
+   "sigla": "BASA",
+   "nome": "Banco da Amazônia S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2023-01-26"
+  },
+  {
+   "codigo": "93",
+   "sigla": "BB",
+   "nome": "Banco do Brasil S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2023-01-26"
+  },
+  {
+   "codigo": "172",
+   "sigla": "BNB",
+   "nome": "Banco do Nordeste do Brasil S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308800",
+   "dataInicialVersaoConsulta": "2023-01-26"
+  },
+  {
+   "codigo": "638051",
+   "sigla": "Caixa Seguridade",
+   "nome": "Caixa Seguridade Participações S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "91",
+   "dataInicialVersaoConsulta": "2026-06-17"
+  },
+  {
+   "codigo": "47838",
+   "sigla": "CEASA-MG",
+   "nome": "Centrais de Abastecimento de Minas Gerais S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308794",
+   "dataInicialVersaoConsulta": "2023-01-24"
+  },
+  {
+   "codigo": "758",
+   "sigla": "CDC",
+   "nome": "Companhia Docas do Ceará",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2023-01-24"
+  },
+  {
+   "codigo": "182",
+   "sigla": "CDP",
+   "nome": "Companhia Docas do Pará",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2023-01-24"
+  },
+  {
+   "codigo": "183",
+   "sigla": "CODERN",
+   "nome": "Companhia Docas do Rio Grande do Norte",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2025-09-11"
+  },
+  {
+   "codigo": "180",
+   "sigla": "CDRJ",
+   "nome": "Companhia Docas do Rio de Janeiro",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2024-05-28"
+  },
+  {
+   "codigo": "702",
+   "sigla": "CODEBA",
+   "nome": "Companhia das Docas do Estado da Bahia",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308817",
+   "dataInicialVersaoConsulta": "2023-01-24"
+  },
+  {
+   "codigo": "29415",
+   "sigla": "CEAGESP",
+   "nome": "Companhia de Entrepostos e Armazéns Gerais de São Paulo ",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "308794",
+   "dataInicialVersaoConsulta": "2023-01-30"
+  },
+  {
+   "codigo": "60609",
+   "sigla": "ELETRONUCLEAR",
+   "nome": "Eletronuclear S.A",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "300037",
+   "dataInicialVersaoConsulta": "2025-03-14"
+  },
+  {
+   "codigo": "2026",
+   "sigla": "HNSC",
+   "nome": "Grupo Hospitalar Conceição S.A",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "304",
+   "dataInicialVersaoConsulta": "2025-08-07"
+  },
+  {
+   "codigo": "228",
+   "sigla": "INB",
+   "nome": "Indústrias Nucleares do Brasil S/A",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2026-08-06"
+  },
+  {
+   "codigo": "48739",
+   "sigla": "NUCLEP",
+   "nome": "Nuclebrás Equipamentos Pesados S/A",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2024-07-05"
+  },
+  {
+   "codigo": "224",
+   "sigla": "PETROBRAS",
+   "nome": "Petróleo Brasileiro S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "2852",
+   "dataInicialVersaoConsulta": "2025-06-10"
+  },
+  {
+   "codigo": "75",
+   "sigla": "TELEBRÁS",
+   "nome": "Telecomunicações Brasileiras S.A.",
+   "natureza": "Sociedade de Economia Mista",
+   "codigoPai": "264359",
+   "dataInicialVersaoConsulta": "2024-06-20"
+  },
+  {
+   "codigo": "260668",
+   "sigla": "DPU",
+   "nome": "Defensoria Pública da União",
+   "natureza": "Órgão Público Autônomo Federal",
+   "codigoPai": "244322",
+   "dataInicialVersaoConsulta": "2023-11-14"
+  }
+ ]
+}

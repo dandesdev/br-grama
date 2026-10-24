@@ -1,0 +1,27 @@
+{
+  "id": "rel:bndes-vincula-se-mdic",
+  "tipo": "relacao",
+  "nome": "O BNDES é supervisionado pelo Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+  "relacao": "vincula-se",
+  "de": "org:bndes",
+  "para": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "vigencia": {
+    "de": "2023-03-02",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.427/2023, que lista o BNDES entre as entidades vinculadas ao MDIC. A vinculação anterior (ao Ministério do Planejamento, em 1971, e depois a outras pastas) não foi levantada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-11427-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

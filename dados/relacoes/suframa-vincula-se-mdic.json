@@ -1,0 +1,27 @@
+{
+  "id": "rel:suframa-vincula-se-mdic",
+  "tipo": "relacao",
+  "nome": "A Suframa é supervisionada pelo Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+  "relacao": "vincula-se",
+  "de": "org:suframa",
+  "para": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "vigencia": {
+    "de": "2023-03-02",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.427/2023, que lista a Suframa entre as autarquias vinculadas ao MDIC. As vinculações anteriores não foram levantadas."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-11427-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 3"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

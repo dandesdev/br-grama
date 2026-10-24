@@ -1,0 +1,53 @@
+{
+  "id": "org:sistema-s",
+  "tipo": "orgao",
+  "nome": "Sistema S (serviços sociais autônomos)",
+  "resumo": "Entidades privadas de serviço social e de formação profissional ligadas às confederações patronais, como Senai, Sesi, Senac, Sesc, Senar e Sebrae, custeadas por contribuições sobre a folha.",
+  "detalhes": "A CF manteve as contribuições compulsórias dos empregadores sobre a folha destinadas a essas entidades (art. 240). Cada uma foi criada por lei e é dirigida pela confederação do seu setor: o Senai e o Sesi pela Confederação Nacional da Indústria, o Senac e o Sesc pela Confederação Nacional do Comércio, o Senar pela Confederação Nacional da Agricultura. O Sebrae nasceu da transformação de um órgão federal em serviço social autônomo.",
+  "tipo_orgao": "paraestatal",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": "1942-01-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da criação do Senai (Decreto-Lei 4.048/1942), a mais antiga das entidades aqui citadas. As contribuições foram ressalvadas pela CF de 1988 (art. 240)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 240; ADCT, art. 62"
+    },
+    {
+      "ref": "norma:decreto-lei-4048-1942",
+      "dispositivo": "arts. 1º a 4º"
+    },
+    {
+      "ref": "norma:decreto-lei-9403-1946",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-8621-1946",
+      "dispositivo": "arts. 1º, 2º e 4º"
+    },
+    {
+      "ref": "norma:decreto-lei-9853-1946",
+      "dispositivo": "arts. 1º e 3º"
+    },
+    {
+      "ref": "norma:lei-8315-1991",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "norma:lei-8029-1990",
+      "dispositivo": "art. 8º, caput, §§ 3º e 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Caso de fronteira (D05): poder 'nao-estatal' porque são pessoas jurídicas de direito privado (o Sesi, por exemplo, pelo Decreto-Lei 9.403/1946, art. 2º); um só nó para o conjunto, sem contido_em. A lista não é exaustiva: Sest e Senat (Lei 8.706/1993, página do Planalto não abriu em 2026-10-24), Sescoop (MP 2.168-40/2001) e outros não foram lidos. A CF não classifica as contribuições do art. 240; não registramos a jurisprudência sobre a sua natureza. Termo 'serviço social autônomo' tirado da Lei 8.029/1990, art. 8º. O controle das contas pelo TCU não foi pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

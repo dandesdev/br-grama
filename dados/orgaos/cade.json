@@ -1,0 +1,57 @@
+{
+  "id": "org:cade",
+  "tipo": "orgao",
+  "nome": "Conselho Administrativo de Defesa Econômica",
+  "sigla": "Cade",
+  "resumo": "Autarquia federal que previne e pune infrações contra a ordem econômica, como cartéis, e aprova ou veta fusões e aquisições de empresas.",
+  "detalhes": "Julga, na esfera administrativa, processos por infração à ordem econômica e decide sobre atos de concentração, como fusões e aquisições. Tem um Tribunal Administrativo de sete membros (Presidente e seis Conselheiros) nomeados pelo Presidente da República após aprovação do Senado, com mandato de quatro anos sem recondução, além de uma Superintendência-Geral e de um Departamento de Estudos Econômicos.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-12529-2011",
+          "dispositivo": "art. 4º"
+        }
+      ],
+      "nota": "D39: autarquia federal (Lei 12.529/2011, art. 4º), posta sob o Poder Executivo federal. A vinculação ao Ministério da Justiça e Segurança Pública está em rel:cade-vincula-se-ministerio-da-justica-e-seguranca-publica."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 173, § 4º"
+    },
+    {
+      "ref": "norma:lei-12529-2011",
+      "dispositivo": "arts. 3º a 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-29",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data em que a Lei 12.529/2011 entrou em vigor e deu ao Cade a estrutura atual. O Cade é anterior a essa lei; o histórico não foi pesquisado."
+  },
+  "confianca": "oficial",
+  "notas": "O Sistema Brasileiro de Defesa da Concorrência (Lei 12.529/2011, art. 3º) é formado pelo Cade e pela Secretaria de Acompanhamento Econômico do Ministério da Fazenda; não conferimos se essa secretaria existe hoje com esse nome nem qual unidade a sucedeu, por isso o SBDC não ganhou nó. Cargos do Tribunal sem nó próprio.",
+  "mais_informacoes": [
+    {
+      "titulo": "Cade (gov.br)",
+      "url": "https://www.gov.br/cade/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

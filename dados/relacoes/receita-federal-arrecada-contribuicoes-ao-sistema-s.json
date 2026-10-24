@@ -1,0 +1,27 @@
+{
+  "id": "rel:receita-federal-arrecada-contribuicoes-ao-sistema-s",
+  "tipo": "relacao",
+  "nome": "A Receita Federal arrecada as contribuições ao Sistema S",
+  "relacao": "arrecada",
+  "de": "org:receita-federal",
+  "para": "obj:tributo-contribuicoes-ao-sistema-s",
+  "condicao": "Tributa, fiscaliza, arrecada e cobra, como contribuições devidas a terceiros.",
+  "vigencia": {
+    "de": "2007-05-02",
+    "ate": null,
+    "incerta": true,
+    "nota": "O art. 3º da Lei 11.457/2007 vale desde o primeiro dia útil do segundo mês seguinte à publicação (art. 51, II), em maio de 2007. Antes, a arrecadação era feita pela Previdência Social."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11457-2007",
+      "dispositivo": "art. 2º, caput; art. 3º, caput e § 1º; art. 51, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

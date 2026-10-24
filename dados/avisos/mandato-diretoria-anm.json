@@ -1,0 +1,44 @@
+{
+  "id": "aviso:mandato-diretoria-anm",
+  "tipo": "aviso",
+  "nome": "Duas leis dão mandatos diferentes à diretoria da ANM",
+  "resumo": "A lei da ANM fixa mandato de quatro anos com uma recondução; a lei geral das agências, alterada depois, fixa cinco anos sem recondução e inclui a ANM.",
+  "detalhes": "A Lei 13.575/2017, art. 7º, dá aos diretores da ANM mandatos de quatro anos, não coincidentes, com uma recondução. A Lei 9.986/2000, art. 6º, na redação da Lei 13.848/2019, fixa cinco anos sem recondução para os dirigentes das agências reguladoras, e a Lei 13.848/2019, art. 2º, XI, inclui a ANM entre elas. O texto compilado da Lei 13.575/2017 no Planalto não traz remissão a essa mudança.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "org:anm"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Lei 13.575/2017, texto compilado (Planalto, acesso em 2026-10-23)",
+    "Lei 9.986/2000, texto compilado (Planalto, acesso em 2026-10-24)",
+    "Lei 13.848/2019, texto compilado (Planalto, acesso em 2026-10-23)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13575-2017",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 6º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, XI"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Desde a vigência da Lei 13.848/2019 (nossa contagem)."
+  },
+  "confianca": "oficial",
+  "notas": "Não pesquisamos como a ANM, o Senado ou os decretos de nomeação aplicam a regra, nem se há parecer da AGU ou decisão judicial sobre o conflito. A Lei 13.848/2019, art. 1º, lista as leis que altera e não inclui a Lei 13.575/2017.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

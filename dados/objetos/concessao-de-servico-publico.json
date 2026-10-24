@@ -1,0 +1,35 @@
+{
+  "id": "obj:concessao-de-servico-publico",
+  "tipo": "objeto",
+  "nome": "Concessão ou permissão de serviço público",
+  "resumo": "Contrato pelo qual o ente responsável por um serviço público entrega sua prestação a uma empresa escolhida por licitação, por prazo determinado.",
+  "detalhes": "O poder concedente é a União, o estado, o DF ou o município a quem o serviço cabe. Ele regulamenta e fiscaliza o serviço, aplica penalidades, revê tarifas e pode intervir ou extinguir a concessão. A permissão é a delegação a título precário, também por licitação.",
+  "tipo_objeto": "decisao",
+  "esfera": "nacional",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 175"
+    },
+    {
+      "ref": "norma:lei-8987-1995",
+      "dispositivo": "arts. 1º a 4º; art. 29"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Mesmo tipo_objeto de obj:concessao-de-radiodifusao. Em vários setores federais a regulação e a fiscalização ficam com uma agência reguladora (ex.: Aneel, Anatel, ANTT), por lei própria não lida aqui. A concessão de lavra e de potencial hidráulico (art. 176) é outro objeto: obj:concessao-de-lavra-e-de-potencial-hidraulico.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

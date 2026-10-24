@@ -1,0 +1,30 @@
+{
+  "id": "rel:turmas-recursais-federais-julga-recursos-dos-juizados",
+  "tipo": "relacao",
+  "nome": "Recursos dos juizados especiais federais",
+  "relacao": "julga-recursos-contra",
+  "de": "org:turmas-recursais-federais",
+  "para": "org:juizados-especiais-federais",
+  "condicao": "Recursos contra as sentenças dos juizados especiais federais e contra as medidas cautelares deferidas no curso do processo.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 98, I e § 1º"
+    },
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "arts. 1º, 5º e 21"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 10.259/2001."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

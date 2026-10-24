@@ -1,0 +1,31 @@
+{
+  "id": "rel:tnu-julga-recursos-das-turmas-recursais-federais",
+  "tipo": "relacao",
+  "nome": "Uniformização nacional nos juizados federais",
+  "relacao": "julga-recursos-contra",
+  "de": "org:turma-nacional-de-uniformizacao",
+  "para": "org:turmas-recursais-federais",
+  "condicao": "Pedido de uniformização sobre direito material quando turmas de regiões diferentes divergem ou a decisão contraria súmula ou jurisprudência dominante do STJ.",
+  "fontes": [
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 14, § 2º"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 9º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 10.259/2001."
+  },
+  "confianca": "oficial",
+  "notas": "O pedido de uniformização não é recurso no sentido estrito; 'julga-recursos-contra' é o termo mais próximo do vocabulário.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

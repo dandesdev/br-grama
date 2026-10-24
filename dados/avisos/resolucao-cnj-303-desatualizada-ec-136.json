@@ -1,0 +1,49 @@
+{
+  "id": "aviso:resolucao-cnj-303-desatualizada-ec-136",
+  "tipo": "aviso",
+  "nome": "Resolução CNJ 303/2019 (precatórios) não foi atualizada depois da EC 136/2025",
+  "resumo": "A resolução do CNJ que regula os precatórios ainda traz datas e índices anteriores à EC 136/2025. Regras provisórias estão num provimento da Corregedoria, de outubro de 2025.",
+  "detalhes": "A Resolução 303 manda incluir no orçamento os precatórios apresentados até 2 de abril (art. 17) e corrigi-los pela Selic (art. 21); depois da EC 136/2025, a data é 1º de fevereiro (CF, art. 100, § 5º) e a correção é IPCA mais 2% ao ano, limitada à Selic. Também não trata dos limites de pagamento por faixa de receita (art. 100, § 23). O Provimento CNJ 207/2025 orienta os tribunais até a revisão, que em junho de 2026 ainda estava em debate.",
+  "tipo_aviso": "desatualizacao",
+  "gravidade": "media",
+  "afeta": [
+    "norma:resolucao-cnj-303-2019"
+  ],
+  "vigencia": {
+    "de": "2025-09-10",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cnj-303-2019",
+      "dispositivo": "arts. 15, 17 e 21",
+      "nota": "texto compilado até a Resolução 613/2025"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 100, §§ 5º e 23 (redação da EC 136/2025)"
+    },
+    {
+      "ref": "norma:ec-136-2025",
+      "dispositivo": "art. 2º (ADCT, art. 97, §§ 16 e 16-A) e art. 3º (EC 113/2021, art. 3º)"
+    },
+    {
+      "ref": "norma:provimento-cnj-207-2025",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "fonte:cnj-noticia-revisao-resolucao-303-2026-06-11"
+    }
+  ],
+  "onde_procuramos": [
+    "CNJ, Atos: página da Resolução 303/2019 (https://atos.cnj.jus.br/atos/detalhar/3130), acesso em 2026-10-23; última alteração listada: Resolução 613, de 20/1/2025",
+    "Busca web em 2026-10-24 por resolução do CNJ que altere a Resolução 303/2019 depois da EC 136/2025: só achamos o Provimento CNJ 207/2025 e a notícia de 11/6/2026 sobre a revisão em curso"
+  ],
+  "confianca": "oficial",
+  "notas": "Não conferimos se o Plenário do CNJ aprovou a revisão entre 11/6/2026 e 2026-10-01. Os campos ligados a datas e índices em proc:pagamento-de-precatorio seguem a CF e a EC 136/2025, não a Resolução 303.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

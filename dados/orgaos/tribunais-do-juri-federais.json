@@ -1,0 +1,44 @@
+{
+  "id": "org:tribunais-do-juri-federais",
+  "tipo": "orgao",
+  "nome": "Tribunais do júri da Justiça Federal",
+  "resumo": "Júris que julgam os crimes dolosos contra a vida de competência da Justiça Federal. São presididos pelo juiz federal responsável pela ação penal.",
+  "detalhes": "Seguem o rito do Código de Processo Penal. Nas seções judiciárias com mais de uma vara criminal, um dos juízes organiza a lista anual de jurados, em rodízio (Decreto-Lei 253/1967, art. 4º).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-federal",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, XXXVIII"
+    },
+    {
+      "ref": "norma:decreto-lei-253-1967",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-253-1967",
+          "dispositivo": "art. 4º"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "O júri federal é anterior à CF/88 (Decreto-Lei 253/1967); a data usada é a da Constituição atual."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: representa os júris de todas as seções judiciárias. Separado de org:tribunais-do-juri para ficar no ramo certo do organograma. Não achamos número oficial de júris federais.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

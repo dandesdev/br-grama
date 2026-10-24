@@ -1,0 +1,26 @@
+{
+  "id": "rel:anm-autoriza-concessao-de-lavra",
+  "tipo": "relacao",
+  "nome": "A ANM outorga concessões de lavra de alguns minerais",
+  "relacao": "autoriza",
+  "de": "org:anm",
+  "para": "obj:concessao-de-lavra-e-de-potencial-hidraulico",
+  "condicao": "Só para os minerais do art. 1º da Lei 6.567/1978; a ANM também gere os demais títulos minerários e expede os títulos.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13575-2017",
+      "dispositivo": "art. 2º, V, XVII, XVIII e XIX"
+    }
+  ],
+  "vigencia": {
+    "de": "2017-12-27",
+    "ate": null
+  },
+  "notas": "O vocabulário não tem 'outorga' ou 'concede'; 'autoriza' é o mais próximo (proposta no diário da tarefa).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

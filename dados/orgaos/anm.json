@@ -1,0 +1,65 @@
+{
+  "id": "org:anm",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Mineração",
+  "sigla": "ANM",
+  "resumo": "Agência reguladora federal que administra os títulos de mineração, regula e fiscaliza a atividade mineral e cobra a compensação financeira pela exploração de minérios (CFEM).",
+  "detalhes": "Gere os direitos e títulos minerários, expede os títulos, fiscaliza a atividade de mineração e aplica sanções. A concessão de lavra, em regra, é dada pelo Ministro de Minas e Energia, com análise técnica da ANM; a própria agência outorga a dos minerais listados no art. 1º da Lei 6.567/1978. É dirigida por uma Diretoria Colegiada de cinco membros nomeados após aprovação do Senado.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-13575-2017",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "D39: a Lei 13.575/2017, art. 1º, põe a ANM na administração pública federal indireta, em regime autárquico especial. A vinculação ao Ministério de Minas e Energia está em rel:anm-vincula-se-ministerio-de-minas-e-energia."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 176, caput e § 1º; art. 20, § 1º; art. 52, III, f"
+    },
+    {
+      "ref": "norma:lei-13575-2017",
+      "dispositivo": "art. 1º; art. 2º, V, XI, XII, XVII e XVIII; art. 3º, I e parágrafo único; art. 5º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, XI"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 5º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2017-12-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criada pela Lei 13.575/2017, em vigor na publicação (27/12/2017). A instalação dependia de decreto com o regulamento (art. 36), não conferido aqui; até lá valia a estrutura do antigo DNPM (art. 37)."
+  },
+  "confianca": "oficial",
+  "notas": "Mandato da Diretoria fora do texto do mapa porque as leis divergem: aviso:mandato-diretoria-anm. A lista de minerais do art. 1º da Lei 6.567/1978 (art. 2º, XVIII, da Lei 13.575/2017) não foi lida. Cargos da Diretoria Colegiada sem nó próprio.",
+  "mais_informacoes": [
+    {
+      "titulo": "ANM (gov.br)",
+      "url": "https://www.gov.br/anm/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

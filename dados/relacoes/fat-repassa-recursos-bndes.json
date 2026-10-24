@@ -1,0 +1,31 @@
+{
+  "id": "rel:fat-repassa-recursos-bndes",
+  "tipo": "relacao",
+  "nome": "Recursos do FAT vão ao BNDES",
+  "relacao": "repassa-recursos",
+  "de": "obj:fundo-de-amparo-ao-trabalhador",
+  "para": "org:bndes",
+  "condicao": "Pelo menos 28% da arrecadação do PIS/Pasep vão ao BNDES para programas de desenvolvimento econômico, com remuneração que preserve o seu valor; o risco das operações é do banco.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Destinação ao BNDES desde a CF de 1988 (art. 239, § 1º, hoje com redação da EC 103/2019, que fixou o mínimo de 28%). A partir de 2027 a base é 18% da CBS mais o Pasep (Lei 8.019/1990, art. 2º, com redação da LC 214/2025)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 239, § 1º"
+    },
+    {
+      "ref": "norma:lei-8019-1990",
+      "dispositivo": "art. 2º, caput e § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O 'de' é o fundo, e não um órgão, porque a lei fala em repasse de parte da arrecadação destinada ao FAT sem nomear quem transfere. A redação original do § 1º previa 'pelo menos quarenta por cento'; a mudança para 28% veio com a EC 103/2019 (marca no texto compilado).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-susta-acao-penal-contra-senador",
+  "tipo": "relacao",
+  "nome": "Sustação de ação penal contra senador",
+  "relacao": "susta",
+  "de": "org:senado-federal",
+  "para": "obj:acao-penal-publica",
+  "condicao": "Só ação no STF contra senador por crime cometido depois da diplomação. Recebida a denúncia, o STF avisa o Senado; a pedido de partido representado na Casa, o Senado pode sustar a ação até a decisão final, em até 45 dias do recebimento do pedido pela Mesa. A sustação suspende a prescrição enquanto durar o mandato.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Voto da maioria dos membros da Casa (art. 53, § 3º): 41 de 81."
+  },
+  "vigencia": {
+    "de": "2001-12-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 53, §§ 1º, 3º, 4º e 5º"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-53",
+      "dispositivo": "art. 53, § 3º: AP 2.668 QO"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Redação da EC 35/2001 (DOU de 21/12/2001, segundo o quadro de emendas do Planalto; cópia em pesquisa/brutos/planalto-cf/2026-10-23/quadro_emc.htm); antes dela, a ação dependia de licença prévia da Casa. Na AP 2.668 QO o STF entendeu que só ações por crimes posteriores à diplomação podem ser sustadas. O RISF não traz rito próprio para o pedido de sustação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

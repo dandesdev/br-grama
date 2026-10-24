@@ -1,0 +1,47 @@
+{
+  "id": "org:enfam",
+  "tipo": "orgao",
+  "nome": "Escola Nacional de Formação e Aperfeiçoamento de Magistrados",
+  "sigla": "Enfam",
+  "resumo": "Escola que funciona junto ao STJ e regulamenta os cursos oficiais exigidos para o ingresso e a promoção na carreira de juiz.",
+  "detalhes": "Prevista pela EC 45/2004 (art. 105, § 1º, I). A participação em curso oficial ou reconhecido por escola de magistratura é etapa do vitaliciamento e critério de promoção por merecimento (art. 93, II, c, e IV). O Centro de Estudos Judiciários do CJF forma os juízes federais segundo normas da Enfam (Lei 11.798/2008, art. 8º, II).",
+  "tipo_orgao": "outro",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, II, c, e IV; art. 105, § 1º, I"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 8º, II e III"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 105, § 1º, I",
+          "nota": "\"Funcionarão junto ao Superior Tribunal de Justiça\""
+        }
+      ],
+      "nota": "\"Junto ao\" STJ não diz se é unidade do tribunal; ficou dentro dele no organograma, como o CJF."
+    }
+  },
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Prevista pela EC 45/2004, em vigor na publicação (DOU de 31/12/2004); a data de instalação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário não tem tipo para escola judicial. Site citado pelo CNJ e pelo STJ: enfam.jus.br (não aberto nesta tarefa, por isso fora de mais_informacoes).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

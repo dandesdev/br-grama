@@ -1,0 +1,41 @@
+{
+  "id": "org:conselho-de-etica-do-senado",
+  "tipo": "orgao",
+  "nome": "Conselho de Ética e Decoro Parlamentar do Senado Federal",
+  "resumo": "Colegiado do Senado que recebe representações e denúncias contra senadores, instrui o processo disciplinar e propõe a perda do mandato.",
+  "detalhes": "Tem 15 titulares e 15 suplentes, eleitos para mandato de dois anos a partir das indicações dos líderes, com proporcionalidade partidária. Decide por voto aberto; o parecer pela perda do mandato passa pela CCJ e vai ao Plenário do Senado.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-20-1993",
+          "dispositivo": "arts. 22 e 23"
+        }
+      ],
+      "nota": "A resolução cria o Conselho como colegiado do Senado e manda aplicar a ele as regras regimentais das comissões (art. 24)."
+    }
+  },
+  "vigencia": {
+    "de": "1993-03-18",
+    "ate": null,
+    "nota": "Data de publicação da Resolução nº 20/1993; a data de instalação não foi pesquisada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-20-1993",
+      "dispositivo": "arts. 14, 15, 15-A, 17, 17-I, 17-O, 22 a 25"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O Corregedor do Senado participa das deliberações com voz e voto (art. 25). A eleição dos membros ocorre em fevereiro e março da primeira e da terceira sessões legislativas (art. 23, § 4º). Os membros não foram modelados (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-processos-legislativos"
+  }
+}

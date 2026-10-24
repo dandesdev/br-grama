@@ -1,0 +1,43 @@
+{
+  "id": "obj:fundo-de-amparo-ao-trabalhador",
+  "tipo": "objeto",
+  "nome": "Fundo de Amparo ao Trabalhador",
+  "sigla": "FAT",
+  "resumo": "Fundo federal que paga o seguro-desemprego e o abono salarial e financia programas de desenvolvimento econômico, com recursos vindos do PIS/Pasep.",
+  "detalhes": "A CF destina a arrecadação do PIS/Pasep ao seguro-desemprego, ao abono salarial e a outras ações da previdência, e pelo menos 28% dela a programas de desenvolvimento via BNDES (art. 239, caput e § 1º). O fundo é contábil, vinculado ao Ministério do Trabalho e Emprego, gerido pelo Codefat e integra o orçamento da seguridade social (Lei 7.998/1990, arts. 10, 19 e 22).",
+  "tipo_objeto": "fundo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:ministerio-do-trabalho-e-emprego"
+  ],
+  "vigencia": {
+    "de": "1990-01-12",
+    "ate": null,
+    "nota": "Instituído pela Lei 7.998/1990 (art. 10), em vigor na publicação. A partir de 1º/1/2027, 18% da CBS substituem o PIS como fonte do fundo (Lei 7.998/1990, art. 11, e Lei 8.019/1990, arts. 1º e 2º, com redação da LC 214/2025, arts. 499 e 500; efeitos pelo art. 544, III)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 239, caput, §§ 1º, 3º, 4º e 5º"
+    },
+    {
+      "ref": "norma:lei-7998-1990",
+      "dispositivo": "arts. 10, 11, 19 e 22"
+    },
+    {
+      "ref": "norma:lei-8019-1990",
+      "dispositivo": "arts. 1º, 2º e 6º"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 499, 500 e 544, III"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Recursos do FAT (Lei 7.998/1990, art. 11): PIS/Pasep, encargos por atraso, juros e correção pagos pelos agentes aplicadores e pagadores, a contribuição adicional por rotatividade (art. 239, § 4º) e outros. O Tesouro repassa mensalmente ao fundo os recursos para as despesas (Lei 8.019/1990, art. 6º). Os programas financiados via BNDES são avaliados todo ano e apresentados na CMO (CF, art. 239, § 5º). O seguro-desemprego e o abono salarial não têm nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-controle-constitucionalidade
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-controle-constitucionalidade\""
-status: pendente
+status: em-andamento
 depende_de: [f0-controle-constitucionalidade]
-iniciada_em: null
+iniciada_em: 2026-10-24
 concluida_em: null
 ---
 
@@ -23,3 +23,4 @@ concluida_em: null
 - [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
+- 2026-10-24 — iniciada; lidas instruções de verificação, CLAUDE.md, modelo, protocolo, decisões e diário da coleta; escopo: 76 entidades (1 órgão, 58 relações, 7 normas, 10 objetos)

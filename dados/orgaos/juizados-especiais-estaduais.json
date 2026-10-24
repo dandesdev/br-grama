@@ -1,0 +1,53 @@
+{
+  "id": "org:juizados-especiais-estaduais",
+  "tipo": "orgao",
+  "nome": "Juizados especiais dos estados e do DF",
+  "resumo": "Juízos para causas cíveis simples, infrações penais de menor potencial ofensivo e causas contra estado, DF e município até 60 salários mínimos, com rito oral e rápido.",
+  "detalhes": "Formam o Sistema dos Juizados Especiais: cíveis (causas até 40 salários mínimos e outras de menor complexidade), criminais (contravenções e crimes com pena máxima de até 2 anos) e da Fazenda Pública (Lei 12.153/2009, art. 1º, parágrafo único). Contam com juízes togados, juízes leigos e conciliadores. Os recursos vão às turmas recursais, formadas por juízes de primeiro grau (CF, art. 98, I).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 98, I"
+    },
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "arts. 1º, 3º, 7º, 60, 61 e 93"
+    },
+    {
+      "ref": "norma:lei-12153-2009",
+      "dispositivo": "arts. 1º, 2º, 14 e 15"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-9099-1995",
+          "dispositivo": "art. 1º",
+          "nota": "\"órgãos da Justiça Ordinária\""
+        },
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 1º",
+          "nota": "\"órgãos da justiça comum\""
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "A Lei 9.099/1995 entrou em vigor 60 dias após a publicação (art. 96); cada estado instalou os seus em datas próprias. Os da Fazenda Pública vêm da Lei 12.153/2009."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: representa os juizados de todos os estados e do DF. A organização, a composição e a competência de cada sistema estadual são dadas por lei estadual (Lei 9.099/1995, art. 93); os juizados da Fazenda Pública são instalados pelos tribunais de justiça (Lei 12.153/2009, art. 14).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cargo:juiz-leigo",
+  "tipo": "cargo",
+  "nome": "Juiz leigo dos juizados especiais",
+  "resumo": "Advogado que auxilia o juiz togado nos juizados especiais dos estados e do DF: conduz audiências e prepara projetos de sentença. Atua por prazo determinado.",
+  "orgao": "org:juizados-especiais-estaduais",
+  "provimento": "designacao",
+  "vagas": null,
+  "vagas_nota": "O número é definido por cada tribunal de justiça; não somamos.",
+  "provimento_nota": "Quando remunerado, é recrutado por processo seletivo público de provas e títulos, por prazo determinado, com uma recondução (Resolução CNJ 174/2013, art. 2º). Nos juizados da Fazenda Pública, é designado na forma da lei estadual (Lei 12.153/2009, art. 15). Pode ser afastado a qualquer tempo (Resolução CNJ 174/2013, art. 13).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Prazo determinado fixado pelo tribunal, com uma recondução (Resolução CNJ 174/2013, art. 2º)."
+  },
+  "requisitos": [
+    {
+      "texto": "advogado com mais de 2 anos de experiência (na Lei 9.099/1995, art. 7º, eram 5 anos; a Lei 12.153/2009 e a Resolução CNJ 174/2013 falam em 2)",
+      "fontes": [
+        {
+          "ref": "norma:lei-9099-1995",
+          "dispositivo": "art. 7º"
+        },
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 15, § 1º"
+        },
+        {
+          "ref": "norma:resolucao-cnj-174-2013",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    },
+    {
+      "texto": "não advogar nos juizados especiais enquanto exercer a função",
+      "fontes": [
+        {
+          "ref": "norma:lei-9099-1995",
+          "dispositivo": "art. 7º, parágrafo único"
+        },
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 15, § 2º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "É auxiliar da Justiça, sem vínculo empregatício ou estatutário (Lei 9.099/1995, art. 7º; Resolução CNJ 174/2013, art. 3º). Segue a orientação jurídica do juiz togado, que responde pela disciplina e avaliação dele junto com a coordenação dos juizados (Resolução CNJ 174/2013, art. 9º).",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 98, I"
+    },
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:lei-12153-2009",
+      "dispositivo": "art. 15"
+    },
+    {
+      "ref": "norma:resolucao-cnj-174-2013",
+      "dispositivo": "arts. 1º a 3º, 9º e 13"
+    }
+  ],
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A Lei 12.153/2009, art. 15, diz que conciliadores e juízes leigos \"serão designados\". O processo seletivo da Resolução CNJ 174/2013 não é concurso público para cargo efetivo; usamos 'designacao' e propomos ampliar a definição do termo (hoje restrita a membros de carreira)."
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Previsto desde a Lei 9.099/1995 (art. 7º); a CF já falava em juízes togados e leigos (art. 98, I)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11). Os juizados especiais federais não têm juiz leigo na Lei 10.259/2001, só conciliadores (art. 18). Requisito de experiência: a Lei 9.099/1995 (5 anos) e a Lei 12.153/2009 (2 anos) divergem; a Resolução CNJ 174/2013 adota 2 anos para todo o sistema. Não abrimos aviso: a lei posterior trata dos juizados da Fazenda Pública, e a aplicação do prazo menor aos cíveis e criminais vem da resolução do CNJ.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

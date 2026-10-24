@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-competencia-tributo-contribuicoes-ao-sistema-s",
+  "tipo": "relacao",
+  "nome": "União: Contribuições ao Sistema S (exclusiva, legislar)",
+  "relacao": "tem-competencia",
+  "de": "ente:uniao",
+  "para": "obj:tributo-contribuicoes-ao-sistema-s",
+  "competencia": {
+    "tipo": "exclusiva",
+    "natureza": "legislativa",
+    "nota": "As contribuições foram criadas e são reguladas por leis federais, e o art. 149, caput, reserva à União as contribuições sociais e as de interesse de categorias econômicas; a CF não diz em qual espécie elas se enquadram (art. 240)."
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput; art. 240"
+    }
+  ],
+  "confianca": "inferido",
+  "notas": "Confiança 'inferido': a CF não atribui expressamente essas contribuições a um ente; a leitura vem do art. 149 e de serem todas instituídas por norma federal.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

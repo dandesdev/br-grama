@@ -1,0 +1,30 @@
+{
+  "id": "rel:conciliador-auxilia-juiz-de-direito",
+  "tipo": "relacao",
+  "nome": "O conciliador auxilia o juiz nos juizados",
+  "relacao": "auxilia",
+  "de": "cargo:conciliador-dos-juizados-especiais",
+  "para": "cargo:juiz-de-direito",
+  "condicao": "Conduz a audiência de conciliação sob a supervisão do juiz. Nos juizados federais, auxilia o juiz federal (Lei 10.259/2001, art. 18).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9099-1995",
+      "dispositivo": "art. 7º"
+    },
+    {
+      "ref": "norma:lei-12153-2009",
+      "dispositivo": "art. 16"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 9.099/1995."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}

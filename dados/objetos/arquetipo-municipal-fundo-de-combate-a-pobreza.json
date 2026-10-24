@@ -1,0 +1,30 @@
+{
+  "id": "obj:arquetipo-municipal-fundo-de-combate-a-pobreza",
+  "tipo": "objeto",
+  "nome": "Fundo municipal de combate à pobreza",
+  "resumo": "Fundo que cada município deve criar para combater a pobreza, gerido com participação da sociedade civil e financiável por adicional de até meio ponto no ISS sobre serviços supérfluos.",
+  "detalhes": "O adicional incide sobre o imposto sobre serviços, ou o que o substituir, em serviços supérfluos (ADCT, art. 82, § 2º). Além dele, o fundo recebe outros recursos que o município destinar (art. 82, caput).",
+  "tipo_objeto": "fundo",
+  "esfera": "municipal",
+  "relativo_a": [
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2000-12-18",
+    "ate": null,
+    "nota": "Previsto pela EC 31/2000, em vigor na publicação (DOU de 18/12/2000). O art. 82 do ADCT não tem prazo."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 82, caput e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Cada município cria o seu fundo por lei própria; não levantamos quantos o fizeram. A EC 132/2023 remete o adicional ao imposto que substituir o ISS ('vide' no art. 82, § 2º), com efeitos futuros não levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

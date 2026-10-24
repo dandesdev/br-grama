@@ -1,0 +1,53 @@
+{
+  "id": "obj:fundo-de-combate-e-erradicacao-da-pobreza",
+  "tipo": "objeto",
+  "nome": "Fundo de Combate e Erradicação da Pobreza",
+  "resumo": "Fundo federal que financia ações suplementares de nutrição, habitação, educação, saúde e reforço de renda para a população pobre; gerido pelo Ministério do Desenvolvimento e Assistência Social.",
+  "detalhes": "Recebe, entre outras receitas, um adicional de 5 pontos no IPI sobre produtos supérfluos, o imposto sobre grandes fortunas (se criado) e dotações do orçamento; os recursos não entram na repartição com estados e municípios nem em desvinculações (ADCT, art. 80). Criado até 2010, foi prorrogado por tempo indeterminado (EC 67/2010).",
+  "tipo_objeto": "fundo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:ministerio-do-desenvolvimento-e-assistencia-social"
+  ],
+  "vigencia": {
+    "de": "2000-12-18",
+    "ate": null,
+    "nota": "Instituído pela EC 31/2000 (DOU de 18/12/2000), em vigor na publicação, para durar até 2010; prorrogado por tempo indeterminado pela EC 67/2010, art. 1º."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, arts. 79 a 81 e 83"
+    },
+    {
+      "ref": "norma:ec-67-2010",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lc-111-2001",
+      "dispositivo": "arts. 1º a 5º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 27, XI"
+    }
+  ],
+  "campos": {
+    "relativo_a": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 27, XI"
+        }
+      ],
+      "nota": "A LC 111/2001, art. 5º, manda o Presidente designar o órgão gestor; a Lei 14.600/2023 põe a gestão do fundo entre as áreas do ministério."
+    }
+  },
+  "confianca": "oficial",
+  "notas": "A EC 31/2000 não tem norma própria no repositório; a data vem da nota final da página do Planalto (emc31.htm, DOU de 18/12/2000), copiada em pesquisa/brutos/planalto-leis/2026-10-23-dinheiro/. O adicional de 0,08 ponto na CPMF valeu só de 2000 a 2002 (ADCT, art. 80, I). O fundo do art. 81 (rendimentos de privatizações) alimenta este fundo e não tem nó próprio. A EC 132/2023 remete o adicional do IPI ao imposto que o substituir ('vide' no art. 80, II), com efeitos futuros não levantados. O Conselho Consultivo e de Acompanhamento (ADCT, art. 79, parágrafo único; LC 111/2001, art. 4º) não foi pesquisado: não sabemos se está em funcionamento. Lei 'de produtos supérfluos' do art. 83 não pesquisada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

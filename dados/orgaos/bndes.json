@@ -1,0 +1,60 @@
+{
+  "id": "org:bndes",
+  "tipo": "orgao",
+  "nome": "Banco Nacional de Desenvolvimento Econômico e Social",
+  "sigla": "BNDES",
+  "resumo": "Banco de desenvolvimento federal, empresa pública com capital inteiramente da União, que financia investimentos com recursos que incluem ao menos 28% do PIS/Pasep.",
+  "detalhes": "Criado como autarquia em 1952, virou empresa pública em 1971 (Lei 5.662/1971, art. 1º). A CF manda aplicar por meio dele pelo menos 28% da arrecadação do PIS/Pasep em programas de desenvolvimento econômico, avaliados todo ano e apresentados na Comissão Mista de Orçamento (art. 239, §§ 1º e 5º).",
+  "tipo_orgao": "empresa-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, b"
+        }
+      ],
+      "nota": "D39: empresa pública da União, posta sob o Poder Executivo federal; a supervisão ministerial está em rel:bndes-vincula-se-mdic."
+    }
+  },
+  "vigencia": {
+    "de": "1971-06-21",
+    "ate": null,
+    "nota": "Empresa pública desde a Lei 5.662/1971; antes era autarquia, criada pela Lei 1.628/1952 (não lida). O nome passou de BNDE para BNDES depois; a norma da mudança não foi pesquisada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 239, §§ 1º e 5º"
+    },
+    {
+      "ref": "norma:lei-5662-1971",
+      "dispositivo": "arts. 1º, 2º, 5º e 5º-A"
+    },
+    {
+      "ref": "norma:lei-8019-1990",
+      "dispositivo": "art. 2º"
+    },
+    {
+      "ref": "norma:decreto-11427-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, b"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O estatuto social vigente não foi lido: o Decreto 4.418/2002, que o aprovava, foi revogado pelo Decreto 10.810/2021 (segundo a página do Planalto). O BNDES tem um representante no Codefat (Decreto 11.496/2023, art. 29, I, f). Subsidiárias (BNDESPar, Finame) não modeladas. Orçamento e número de empregados não levantados.",
+  "mais_informacoes": [
+    {
+      "titulo": "BNDES",
+      "url": "https://www.bndes.gov.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-dinheiro-complementar"
+  }
+}

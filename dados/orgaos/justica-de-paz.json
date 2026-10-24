@@ -1,0 +1,48 @@
+{
+  "id": "org:justica-de-paz",
+  "tipo": "orgao",
+  "nome": "Justiça de paz",
+  "resumo": "Juízes de paz eleitos, com mandato de 4 anos, que celebram casamentos, conferem a habilitação para o casamento e fazem conciliação, sem julgar processos.",
+  "detalhes": "A União, no DF e nos Territórios, e os estados devem criá-la, remunerada e composta de cidadãos eleitos pelo voto direto, universal e secreto (art. 98, II). Para o STF, os juízes de paz integram o Poder Judiciário, recebem valor fixo e não podem receber custas (ADI 954); a remuneração depende de lei de iniciativa do tribunal de justiça (ADI 1.051).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "contido_em": "org:justica-estadual",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 98, II; ADCT, art. 30"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-98",
+      "dispositivo": "ADI 954, ADI 1.051 e ADI 2.938"
+    },
+    {
+      "ref": "fonte:stf-ado-40",
+      "dispositivo": "decisão de 18/2/2026"
+    }
+  ],
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-98",
+          "dispositivo": "ADI 954",
+          "nota": "\"os juízes de paz integram o Poder Judiciário\""
+        }
+      ],
+      "nota": "Posta na Justiça dos estados e do DF porque é criada pelos estados e pela União no DF (art. 98, caput) e a remuneração é fixada em lei de iniciativa do TJ (ADI 1.051)."
+    }
+  },
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: representa a justiça de paz de todos os estados e do DF. O ADCT, art. 30, manda a lei que criar a justiça de paz manter os juízes de paz anteriores até a posse dos eleitos e marcar a eleição. Na ADO 40, ajuizada pela PGR contra a falta de leis estaduais sobre a eleição, o STF julgou em fevereiro de 2026 perda de objeto para 7 estados (que editaram normas depois do ajuizamento) e improcedência para os outros 14 réus, inclusive o DF. Não procuramos, estado por estado, se as eleições de juiz de paz de fato ocorrem.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-24",
+    "tarefa": "f0-judiciario-complementar"
+  }
+}
