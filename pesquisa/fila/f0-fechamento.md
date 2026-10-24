@@ -13,7 +13,7 @@ Revisão do que os revisores criaram:
 - [ ] Entidades com `verificacao.status: "coletado"` e `tarefa: "verificacao-f0-*"` (criadas durante as revisões): conferir cada uma contra a fonte.
 
 Pendências anotadas pelas tarefas:
-- [ ] Legislativo: `remete_a` nas etapas que seguem o rito da lei ordinária (hoje só citado no texto).
+- [x] Legislativo: `remete_a` nas etapas que seguem o rito da lei ordinária (hoje só citado no texto).
 - [ ] Judiciário: quem nomeia o quinto constitucional do TJDFT; alterações do RISTJ depois da ER 47/2024.
 - [ ] Executivo: cargos dos membros cidadãos do Conselho da República (art. 89, VII); processo do decreto legislativo; verbo para "convoca reunião de colegiado" (hoje `preside`).
 - [ ] Eleições: STJ julga os Procuradores Regionais Eleitorais (art. 105, I, a, membros do MPU que oficiam perante tribunais); normas que faltam: Lei 15.230/2025 (idade mínima) e Lei 14.291/2022 (propaganda partidária); posse de deputados estaduais e vereadores; ADI 7881 (LC 219/2025) se o STF decidir.
@@ -27,3 +27,5 @@ Cobertura (D04):
 - [ ] Varredura da CF artigo por artigo (arts. 1º a 250 e ADCT no que estrutura o Estado em 2026-10-01): para cada órgão, cargo, competência e procedimento previsto, a entidade que o representa. Lacunas viram lista; a cobertura sai em percentual. Já conhecida: intervenção estadual nos municípios (art. 35).
 
 ## Diário
+- 2026-10-23 22:40 — coordenador: `remete_a: "proc:lei-ordinaria"` acrescentado em 6 etapas cujo texto já mandava ver o rito da lei ordinária (lei complementar: camara-comissoes, camara-aprecia-emendas-do-senado, senado-aprecia-emendas-da-camara, sancao-veto-e-promulgacao, publicacao-e-vigencia; medida provisória: envio-a-sancao). Emenda constitucional e lei delegada não têm etapa que siga o rito ordinário.
+- 2026-10-23 22:40 — coordenador, decisões de modelo: (1) `difere_de` continua com um só id, porque é ele que põe a variação no mapa; quando a variação afeta vários órgãos do arquétipo, aponte para o principal e cite os outros em `porque`. (2) `ocupa` em cargo de arquétipo com `restrita_a` para dizer o ente fica como está. (3) Campo de sede, nó de sociedade civil, objeto em `repassa-recursos` e dedupe de ocupantes ficam para depois da fatia 0: nenhum muda o que o mapa mostra hoje.

@@ -282,7 +282,8 @@
           "para": "decreto-legislativo-efeitos",
           "quando": "Para os efeitos do texto original que foi alterado"
         }
-      ]
+      ],
+      "remete_a": "proc:lei-ordinaria"
     },
     {
       "id": "conversao-em-lei",
@@ -537,6 +538,6 @@
     "status": "verificado",
     "em": "2026-10-20",
     "tarefa": "verificacao-f0-legislativo",
-    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra a CF, art. 62, e a Res. 1/2002-CN; ajustes na etapa do decreto legislativo sobre os efeitos"
+    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra a CF, art. 62, e a Res. 1/2002-CN; ajustes na etapa do decreto legislativo sobre os efeitos; remete_a proc:lei-ordinaria acrescentado pelo coordenador em 2026-10-23 nas etapas que o texto já mandava ver no rito da lei ordinária (envio-a-sancao)"
   }
 }

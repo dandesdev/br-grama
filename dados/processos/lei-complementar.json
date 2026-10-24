@@ -79,7 +79,8 @@
           "para": "camara-plenario",
           "quando": null
         }
-      ]
+      ],
+      "remete_a": "proc:lei-ordinaria"
     },
     {
       "id": "camara-plenario",
@@ -216,7 +217,8 @@
           "para": "sancao-veto-e-promulgacao",
           "quando": null
         }
-      ]
+      ],
+      "remete_a": "proc:lei-ordinaria"
     },
     {
       "id": "senado-aprecia-emendas-da-camara",
@@ -241,7 +243,8 @@
           "para": "sancao-veto-e-promulgacao",
           "quando": null
         }
-      ]
+      ],
+      "remete_a": "proc:lei-ordinaria"
     },
     {
       "id": "sancao-veto-e-promulgacao",
@@ -263,7 +266,8 @@
           "para": "publicacao-e-vigencia",
           "quando": "Lei promulgada"
         }
-      ]
+      ],
+      "remete_a": "proc:lei-ordinaria"
     },
     {
       "id": "publicacao-e-vigencia",
@@ -288,7 +292,8 @@
           "dispositivo": "art. 8º"
         }
       ],
-      "seguintes": []
+      "seguintes": [],
+      "remete_a": "proc:lei-ordinaria"
     },
     {
       "id": "arquivamento",
@@ -396,6 +401,6 @@
     "status": "verificado",
     "em": "2026-10-20",
     "tarefa": "verificacao-f0-legislativo",
-    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra CF, arts. 61 a 69, RICD, arts. 24, 52, 109, 123, 148, 150 e 183, RISF, arts. 91, 270, 285 a 288, e RCCN, art. 142; ajuste na fundamentação da etapa senado-comissoes"
+    "notas": "coletado em f0-legislativo; conferido etapa por etapa contra CF, arts. 61 a 69, RICD, arts. 24, 52, 109, 123, 148, 150 e 183, RISF, arts. 91, 270, 285 a 288, e RCCN, art. 142; ajuste na fundamentação da etapa senado-comissoes; remete_a proc:lei-ordinaria acrescentado pelo coordenador em 2026-10-23 nas etapas que o texto já mandava ver no rito da lei ordinária (camara-comissoes, camara-aprecia-emendas-do-senado, senado-aprecia-emendas-da-camara, sancao-veto-e-promulgacao, publicacao-e-vigencia)"
   }
 }
