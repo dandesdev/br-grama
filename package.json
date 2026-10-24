@@ -8,7 +8,8 @@
     "build:dados": "tsx scripts/build-dados.ts",
     "dev": "npm run build:dados && vite",
     "build": "npm run validar && npm run build:dados && vite build",
-    "tipos": "tsc"
+    "tipos": "tsc",
+    "cobertura": "tsx scripts/cobertura-cf.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
