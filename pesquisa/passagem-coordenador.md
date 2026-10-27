@@ -20,7 +20,7 @@ A segunda sessão parou de propósito ao chegar a 50% do uso (pedido do usuário
 - Próximo passo: relançar f0-administracao-indireta pelo diário (último registro: Comissão de Anistia, 21:10; o agente ia tratar do licenciamento ambiental: `obj:licenca-ambiental` cita `proc:licenciamento-ambiental`, que não existe) e as 6 revisões pendentes, no máximo 4 agentes. Avise o revisor de seguridade sobre INSS, Anvisa, Previc e Funpresp-Exe (ver passo 3).
 - Termos criados nesta sessão (já postos como "aplique" nas revisões): `convoca` e `monitora` ampliados; `gere`, `propoe-exoneracao`, `supervisiona`; `tipo_objeto: regime-tributario`; `tipo_orgao: escola-judicial`; `provimento: sorteio` e `designacao` ampliado; `tipo_norma: provimento`.
 - Propostas de nova tarefa e decisões menores foram anotadas no diário de f0-fechamento.
-- Decisões de modelo ainda abertas (interino em `ocupa`, cargos eleitos no processo eleitoral, `orgao_exercicio` em etapas): perguntar ao usuário no fechamento.
+- Decisões de modelo tomadas pelo usuário em 2026-10-27: D40 (interino em `ocupa`), D41 (cargos eleitos derivados de `elege`), D42 (`orgao_exercicio` em atores de etapa). Aplicar no fechamento.
 
 ## Pedido do usuário
 
