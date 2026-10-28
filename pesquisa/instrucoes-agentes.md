@@ -43,3 +43,15 @@ Você é um agente de **coleta** do br-grama (raiz: `C:\Users\DELL\apps\brgram`)
    - pontos incertos e avisos abertos;
    - termos de vocabulário que faltaram;
    - problemas do modelo de dados.
+
+## Fase 2: leis estruturantes (D49, D50)
+
+Cada tarefa da fase 2 cobre um conjunto de leis. Para cada lei:
+
+1. **Cópia local.** Baixe o texto compilado do Planalto (ou da Casa/tribunal, para regimentos) para `pesquisa/brutos/planalto-leis/2026-10-28-<tarefa>/` (um arquivo por lei, como veio). Anote no diário a última alteração incorporada ("compilacao_ate") e confira se houve mudança entre 2026-10-01 e hoje.
+2. **Norma.** Use a `norma:` existente (procure em `dados/normas/`); se não existir, crie.
+3. **Quadro de cobertura** na própria tarefa, seção "Cobertura", uma tabela por lei: `| Artigos | Classe | Entidades ou motivo |`. Classes: `coberto` (há entidade que cita o artigo em `fontes` ou `campos`), `parcial`, `lacuna` (deveria estar e não está; diga o que falta) e `fora` (direitos e deveres individuais, crimes e penas, transição esgotada, detalhe de processo que não cria órgão, cargo nem etapa; diga qual motivo). Artigos vizinhos com a mesma classe podem ir numa linha (ex.: "arts. 10 a 19"). Termine com a conta: total de artigos vigentes e percentual (coberto + fora) / total.
+4. **Entidades.** Crie o que a lei prevê e o mapa não tem: órgãos e colegiados internos (`contido_em` no órgão da tarefa), cargos de direção e de carreira no nível da lei (agregados, D11: sem pessoas abaixo da cúpula), relações com outras entidades (nomeia, supervisiona, integra, julga...) e processos que a lei descreve como sequência de atos. Ocupantes só da cúpula (D11) e só se a fonte oficial disser quem estava no cargo em 2026-10-01.
+5. **Competências em incisos** (D50): vão no `detalhes` do órgão, com o artigo em `fontes`. Relação só quando o inciso liga o órgão a outra entidade do mapa.
+6. Reaproveite o que existe: antes de criar, procure com Grep em `dados/` pelo nome e pela sigla. Se uma entidade existente já representa o que a lei prevê, só acrescente a lei às `fontes` dela (pode editar entidades existentes para isso; anote no diário).
+7. Ao editar uma entidade existente, mude `verificacao` para `{ "status": "coletado", "em": "<hoje>", "tarefa": "<sua tarefa>", "notas": "<o que mudou>" }`, para que a revisão confira a mudança.
