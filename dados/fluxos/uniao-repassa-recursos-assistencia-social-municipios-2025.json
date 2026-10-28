@@ -2,19 +2,20 @@
   "id": "fluxo:uniao-repassa-recursos-assistencia-social-municipios-2025",
   "tipo": "fluxo",
   "nome": "A União cofinancia a assistência social dos municípios: valores de 2025",
-  "resumo": "R$ 3,3 bilhões pagos em 2025.",
+  "resumo": "Pagamentos de R$ 4,3 bilhões em 2025.",
   "repasse": "rel:uniao-repassa-recursos-assistencia-social-municipios",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 3256438499.75,
-    "despesas_pagas": 2978148775.53,
-    "restos_a_pagar_pagos": 278289724.22,
-    "pagamentos_primarios": 3256438499.75,
-    "dotacao_inicial": 2798584004.51,
-    "dotacao_atualizada": 3178255454.51,
-    "despesas_empenhadas": 3162342890.5,
-    "despesas_liquidadas": 3005046844.63
+    "pagamentos_totais": 4250760017.82,
+    "despesas_pagas": 3903640258.17,
+    "restos_a_pagar_pagos": 347119759.65,
+    "pagamentos_primarios": 4250760017.82,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 3837156409.77,
+    "dotacao_atualizada": 4182847859.77,
+    "despesas_empenhadas": 4166935295.76,
+    "despesas_liquidadas": 3930538327.27
   },
   "recorte": {
     "unidades_orcamentarias": [
@@ -22,9 +23,31 @@
     ],
     "modalidades": [
       "40",
-      "41"
+      "41",
+      "42",
+      "45",
+      "46"
     ],
-    "nota": "Tudo o que o Fundo Nacional de Assistência Social pagou a municípios. Ações somadas: 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219E (COFINANCIAMENTO DA PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219F (COFINANCIAMENTO DA PROTECAO SOCIAL ESPECIAL DE MEDIA E ALTA); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 219G (ESTRUTURACAO DA REDE DE SERVICOS E FORTALECIMENTO DA GESTAO); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 2589 (GESTAO, ADMINISTRACAO E OPERACIONALIZACAO DE BENEFICIOS SOCI); 2B30 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL BASICA); 2B31 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL ESPECIAL); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI); 8893 (ORGANIZACAO EM AMBITO NACIONAL DA GESTAO DO SISTEMA UNICO DE)."
+    "tambem": [
+      {
+        "unidades_orcamentarias": [
+          "55101"
+        ],
+        "acoes": [
+          "00US",
+          "6414",
+          "217M"
+        ],
+        "modalidades": [
+          "40",
+          "41",
+          "42",
+          "45",
+          "46"
+        ]
+      }
+    ],
+    "nota": "O que o Fundo Nacional de Assistência Social pagou a municípios, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219E (COFINANCIAMENTO DA PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219F (COFINANCIAMENTO DA PROTECAO SOCIAL ESPECIAL DE MEDIA E ALTA); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 219G (ESTRUTURACAO DA REDE DE SERVICOS E FORTALECIMENTO DA GESTAO); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 2589 (GESTAO, ADMINISTRACAO E OPERACIONALIZACAO DE BENEFICIOS SOCI); 2B30 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL BASICA); 2B31 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL ESPECIAL); 6414 (SISTEMA NACIONAL PARA IDENTIFICACAO E SELECAO DE PUBLICO-ALV); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI); 8893 (ORGANIZACAO EM AMBITO NACIONAL DA GESTAO DO SISTEMA UNICO DE)."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -38,9 +61,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

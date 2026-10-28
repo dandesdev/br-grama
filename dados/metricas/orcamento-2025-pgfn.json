@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-pgfn",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Procuradoria-Geral da Fazenda Nacional",
-  "resumo": "Pagou R$ 1,5 bilhão em 2025; dotação atualizada de R$ 4,4 bilhões.",
+  "resumo": "Pagou R$ 1,5 bilhão em 2025; dotação atualizada de R$ 1,7 bilhão.",
   "de": "org:pgfn",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,15 +12,17 @@
     "despesas_pagas": 1428748312.92,
     "restos_a_pagar_pagos": 120234390.41,
     "pagamentos_primarios": 1421163254.19,
-    "dotacao_inicial": 4305265657,
-    "dotacao_atualizada": 4370903300,
+    "pagamentos_financeiros": 127819449.14,
+    "dotacao_inicial": 1669865159,
+    "dotacao_atualizada": 1735502802,
     "despesas_empenhadas": 1680039948.24,
     "despesas_liquidadas": 1569225284.33
   },
   "recorte": {
     "unidades_orcamentarias": [
       "25104"
-    ]
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

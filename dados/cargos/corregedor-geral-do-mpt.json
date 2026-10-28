@@ -1,0 +1,53 @@
+{
+  "id": "cargo:corregedor-geral-do-mpt",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral do Ministério Público do Trabalho",
+  "resumo": "Dirige a Corregedoria do MPT. É nomeado pelo Procurador-Geral do Trabalho a partir de lista tríplice do Conselho Superior, para mandato de dois anos.",
+  "detalhes": "Participa das reuniões do Conselho Superior sem direito a voto; os outros nomes da lista são seus suplentes (LC 75/1993, arts. 105, § 2º, e 106, I).",
+  "orgao": "org:corregedoria-do-mpt",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Conselho Superior forma lista tríplice de subprocuradores-gerais do Trabalho que não sejam conselheiros, e o Procurador-Geral do Trabalho nomeia um deles (LC 75/1993, arts. 91, III, 98, VI, e 105). Pode ser destituído antes do fim do mandato, por iniciativa do Procurador-Geral, pelo voto de dois terços do Conselho Superior (arts. 98, IV, e 105, § 3º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "renovável uma vez",
+    "nota": "LC 75/1993, art. 105."
+  },
+  "requisitos": [
+    {
+      "texto": "subprocurador-geral do Trabalho",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 105 e 108, I"
+        }
+      ]
+    },
+    {
+      "texto": "não ser membro do Conselho Superior",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 105, § 1º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 91, III, 98, IV e VI, 105, 106 e 108, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

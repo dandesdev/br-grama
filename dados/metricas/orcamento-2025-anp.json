@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-anp",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
-  "resumo": "Pagou R$ 498,7 milhões em 2025; dotação atualizada de R$ 2,1 bilhões.",
+  "resumo": "Pagou R$ 498,7 milhões em 2025; dotação atualizada de R$ 514,6 milhões.",
   "de": "org:anp",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,15 +12,17 @@
     "despesas_pagas": 452586992.41,
     "restos_a_pagar_pagos": 46159191.47,
     "pagamentos_primarios": 465531822.79,
-    "dotacao_inicial": 2468178368,
-    "dotacao_atualizada": 2104074380,
+    "pagamentos_financeiros": 33214361.09,
+    "dotacao_inicial": 449718054,
+    "dotacao_atualizada": 514627772,
     "despesas_empenhadas": 508945227.27,
     "despesas_liquidadas": 488156311.28
   },
   "recorte": {
     "unidades_orcamentarias": [
       "32265"
-    ]
+    ],
+    "nota": "Os royalties e a participação especial que a ANP distribui a estados e municípios são pagos pela unidade 73116 (recursos sob supervisão da ANP) e não entram aqui. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

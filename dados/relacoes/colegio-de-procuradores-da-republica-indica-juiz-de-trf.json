@@ -1,0 +1,29 @@
+{
+  "id": "rel:colegio-de-procuradores-da-republica-indica-juiz-de-trf",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MPF para os TRFs",
+  "relacao": "indica",
+  "de": "org:colegio-de-procuradores-da-republica",
+  "para": "cargo:juiz-de-trf",
+  "condicao": "Nas vagas do quinto constitucional destinadas ao MPF, forma lista sêxtupla entre membros com mais de dez anos de carreira e idade entre 30 e 65 anos, de preferência lotados na região; o PGR a encaminha ao tribunal.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 107, I"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, VI; art. 53, II e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

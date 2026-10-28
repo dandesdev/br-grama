@@ -1,0 +1,29 @@
+{
+  "id": "rel:conselho-superior-do-mpt-propoe-exoneracao-procurador-geral-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Proposta de exoneração do Procurador-Geral do Trabalho",
+  "relacao": "propoe-exoneracao",
+  "de": "org:conselho-superior-do-mpt",
+  "para": "cargo:procurador-geral-do-trabalho",
+  "condicao": "Antes do fim do mandato, a proposta vai ao Procurador-Geral da República.",
+  "quorum": {
+    "regra": "dois-tercos",
+    "votacao": "secreta"
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 88, parágrafo único; art. 98, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

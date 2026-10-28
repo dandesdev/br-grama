@@ -1,0 +1,53 @@
+{
+  "id": "cargo:corregedor-geral-do-mpf",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral do Ministério Público Federal",
+  "resumo": "Dirige a Corregedoria do MPF. É nomeado pelo PGR a partir de lista tríplice do Conselho Superior, para mandato de dois anos.",
+  "detalhes": "Participa das reuniões do Conselho Superior sem direito a voto (LC 75/1993, art. 65, I). Os outros dois nomes da lista tríplice são seus suplentes, na ordem que o PGR fixar (art. 64, § 2º).",
+  "orgao": "org:corregedoria-do-mpf",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Conselho Superior forma lista tríplice de subprocuradores-gerais que não sejam seus membros, e o PGR nomeia um deles (LC 75/1993, arts. 49, V, 57, VI, e 64). Pode ser destituído antes do fim do mandato pelo Conselho Superior, por iniciativa do PGR e voto de dois terços dos conselheiros (arts. 57, V, e 64, § 3º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "renovável uma vez",
+    "nota": "LC 75/1993, art. 64."
+  },
+  "requisitos": [
+    {
+      "texto": "subprocurador-geral da República",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 64 e 67, III"
+        }
+      ]
+    },
+    {
+      "texto": "não ser membro do Conselho Superior",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 64, § 1º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 49, V, 57, V e VI, 64, 65 e 67, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

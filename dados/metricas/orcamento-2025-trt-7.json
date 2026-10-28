@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-trt-7",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Tribunal Regional do Trabalho da 7ª Região",
-  "resumo": "Pagou R$ 627,5 milhões em 2025; dotação atualizada de R$ 629,0 milhões.",
+  "resumo": "Pagou R$ 627,5 milhões em 2025; dotação atualizada de R$ 627,2 milhões.",
   "de": "org:trt-7",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,15 +12,17 @@
     "despesas_pagas": 622586343.58,
     "restos_a_pagar_pagos": 4944269.51,
     "pagamentos_primarios": 577198638.27,
-    "dotacao_inicial": 588028120,
-    "dotacao_atualizada": 629034564,
+    "pagamentos_financeiros": 50331974.82,
+    "dotacao_inicial": 581978737,
+    "dotacao_atualizada": 627219749,
     "despesas_empenhadas": 623977750.07,
     "despesas_liquidadas": 623036407.92
   },
   "recorte": {
     "unidades_orcamentarias": [
       "15108"
-    ]
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

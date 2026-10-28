@@ -2,19 +2,20 @@
   "id": "fluxo:uniao-repassa-recursos-assistencia-social-estados-2025",
   "tipo": "fluxo",
   "nome": "A União cofinancia a assistência social dos estados: valores de 2025",
-  "resumo": "R$ 78,6 milhões pagos em 2025.",
+  "resumo": "Pagamentos de R$ 107,7 milhões em 2025.",
   "repasse": "rel:uniao-repassa-recursos-assistencia-social-estados",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 78590481.75,
-    "despesas_pagas": 66228542.11,
-    "restos_a_pagar_pagos": 12361939.64,
-    "pagamentos_primarios": 78590481.75,
-    "dotacao_inicial": 138786023.53,
-    "dotacao_atualizada": 122814636.53,
-    "despesas_empenhadas": 109693079.53,
-    "despesas_liquidadas": 66228542.11
+    "pagamentos_totais": 107657014.92,
+    "despesas_pagas": 91371490.32,
+    "restos_a_pagar_pagos": 16285524.6,
+    "pagamentos_primarios": 107657014.92,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 167270404.03,
+    "dotacao_atualizada": 151299017.03,
+    "despesas_empenhadas": 138177460.03,
+    "despesas_liquidadas": 91371490.32
   },
   "recorte": {
     "unidades_orcamentarias": [
@@ -22,9 +23,31 @@
     ],
     "modalidades": [
       "30",
-      "31"
+      "31",
+      "32",
+      "35",
+      "36"
     ],
-    "nota": "Tudo o que o Fundo Nacional de Assistência Social pagou a estados e ao DF. Ações somadas: 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219E (COFINANCIAMENTO DA PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219F (COFINANCIAMENTO DA PROTECAO SOCIAL ESPECIAL DE MEDIA E ALTA); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 219G (ESTRUTURACAO DA REDE DE SERVICOS E FORTALECIMENTO DA GESTAO); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI); 8893 (ORGANIZACAO EM AMBITO NACIONAL DA GESTAO DO SISTEMA UNICO DE)."
+    "tambem": [
+      {
+        "unidades_orcamentarias": [
+          "55101"
+        ],
+        "acoes": [
+          "00US",
+          "6414",
+          "217M"
+        ],
+        "modalidades": [
+          "30",
+          "31",
+          "32",
+          "35",
+          "36"
+        ]
+      }
+    ],
+    "nota": "O que o Fundo Nacional de Assistência Social pagou a estados e ao DF, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219E (COFINANCIAMENTO DA PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219F (COFINANCIAMENTO DA PROTECAO SOCIAL ESPECIAL DE MEDIA E ALTA); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 219G (ESTRUTURACAO DA REDE DE SERVICOS E FORTALECIMENTO DA GESTAO); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 6414 (SISTEMA NACIONAL PARA IDENTIFICACAO E SELECAO DE PUBLICO-ALV); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI); 8893 (ORGANIZACAO EM AMBITO NACIONAL DA GESTAO DO SISTEMA UNICO DE)."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -38,9 +61,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

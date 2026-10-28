@@ -1,0 +1,27 @@
+{
+  "id": "rel:presidente-da-republica-indica-lider-do-governo-na-camara",
+  "tipo": "relacao",
+  "nome": "Presidente da República indica o Líder do Governo na Câmara",
+  "relacao": "indica",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:lider-do-governo-na-camara-dos-deputados",
+  "condicao": "Entre os deputados; a escolha não depende de aprovação de outro órgão.",
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previsto no texto original do RICD (Resolução nº 17/1989)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 11"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O vocabulário define 'indica' como escolha que depende de aprovação de outro; aqui não depende. Usado por ser o verbo do RICD.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "org:colegio-de-procuradores-da-republica",
+  "tipo": "orgao",
+  "nome": "Colégio de Procuradores da República",
+  "resumo": "Reúne todos os membros em atividade do MPF. Elege parte do Conselho Superior e forma as listas sêxtuplas do MPF para o STJ e os TRFs.",
+  "detalhes": "É presidido pelo Procurador-Geral da República (LC 75/1993, art. 52). Por voto plurinominal, facultativo e secreto, forma as listas sêxtuplas para as vagas do MPF no STJ e nos TRFs e elege quatro membros do Conselho Superior entre os subprocuradores-gerais; também opina sobre assuntos gerais da instituição (art. 53). Para votar não precisa se reunir: segue o regimento interno, exigida a maioria absoluta dos eleitores (art. 53, § 1º).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpf",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 43, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 52 e 53"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

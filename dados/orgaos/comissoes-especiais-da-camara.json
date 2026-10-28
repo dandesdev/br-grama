@@ -1,0 +1,40 @@
+{
+  "id": "org:comissoes-especiais-da-camara",
+  "tipo": "orgao",
+  "nome": "Comissões especiais da Câmara dos Deputados",
+  "resumo": "Comissões temporárias criadas para dar parecer sobre propostas de emenda à Constituição, projetos de código e projetos que tocam mais de quatro comissões de mérito.",
+  "detalhes": "Examinam a admissibilidade e o mérito da proposição e das emendas. São criadas pelo Presidente da Câmara, ouvido o Colégio de Líderes, e têm o número de membros fixado no ato de criação; os membros são designados por indicação dos líderes.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-da-camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 33, I"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 17, I, m; art. 33; art. 34"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previstas no texto original do RICD."
+  },
+  "confianca": "oficial",
+  "notas": "Nó agregado: as comissões especiais são muitas e temporárias.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -340,7 +340,7 @@
       "required": ["de", "medida", "exercicio", "moeda", "valores", "recorte", "fontes"],
       "properties": {
         "tipo": { "const": "metrica" },
-        "de": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão ou ente medido." },
+        "de": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão, ente ou fundo (objeto) medido." },
         "medida": { "type": "string", "description": "Vocabulário 'medida'." },
         "exercicio": { "type": "integer", "minimum": 1988 },
         "moeda": { "enum": ["BRL"] },
@@ -385,6 +385,7 @@
         "despesas_pagas": { "type": "number" },
         "restos_a_pagar_pagos": { "type": "number" },
         "pagamentos_primarios": { "type": "number", "description": "Parte dos pagamentos totais classificada como despesa primária." },
+        "pagamentos_financeiros": { "type": "number", "description": "Parte dos pagamentos totais classificada como despesa financeira (dívida, empréstimos). O resto são ajustes." },
         "dotacao_inicial": { "type": "number" },
         "dotacao_atualizada": { "type": "number" },
         "despesas_empenhadas": { "type": "number" },
@@ -402,6 +403,8 @@
         "unidades_orcamentarias": { "type": "array", "items": { "type": "string" } },
         "acoes": { "type": "array", "items": { "type": "string" } },
         "modalidades": { "type": "array", "items": { "type": "string" }, "description": "Códigos de modalidade de aplicação (ex.: 40 = transferências a municípios)." },
+        "modalidades_excluidas": { "type": "array", "items": { "type": "string" }, "description": "Modalidades tiradas do recorte (ex.: 91, intraorçamentária, nos agregados)." },
+        "tambem": { "type": "array", "items": { "$ref": "#/$defs/recorteOrcamento" }, "description": "Outros recortes somados a este." },
         "nota": { "type": "string" }
       },
       "additionalProperties": false

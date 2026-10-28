@@ -1,0 +1,38 @@
+{
+  "id": "org:camara-de-coordenacao-e-revisao-do-mpm",
+  "tipo": "orgao",
+  "nome": "Câmara de Coordenação e Revisão do Ministério Público Militar",
+  "resumo": "Órgão de coordenação, integração e revisão da atuação dos membros do MPM. Manifesta-se sobre o arquivamento de inquérito policial militar.",
+  "detalhes": "Tem três membros com mandato de dois anos, um indicado pelo Procurador-Geral da Justiça Militar e dois pelo Conselho Superior; o Procurador-Geral designa o coordenador (LC 75/1993, arts. 134 e 135). Manifesta-se sobre o arquivamento de inquérito policial militar, salvo nos casos de competência originária do Procurador-Geral, e decide conflitos de atribuição (art. 136). É organizada por ato normativo, com regimento do Conselho Superior (art. 133).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpm",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 118, IV"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 132 a 136"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

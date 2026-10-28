@@ -1,0 +1,26 @@
+{
+  "id": "rel:vice-procurador-geral-da-republica-substitui-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "Substituição do Procurador-Geral da República",
+  "relacao": "substitui",
+  "de": "cargo:vice-procurador-geral-da-republica",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Nos impedimentos. Na vacância, quem exerce o cargo até o provimento definitivo é o Vice-Presidente do Conselho Superior do MPF.",
+  "ordem": 1,
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 27"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

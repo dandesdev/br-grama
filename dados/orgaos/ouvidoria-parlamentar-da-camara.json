@@ -1,0 +1,40 @@
+{
+  "id": "org:ouvidoria-parlamentar-da-camara",
+  "tipo": "orgao",
+  "nome": "Ouvidoria Parlamentar da Câmara dos Deputados",
+  "resumo": "Recebe reclamações e denúncias de pessoas e entidades sobre ilegalidades, abusos e mau funcionamento dos serviços da Câmara e as encaminha a quem pode agir.",
+  "detalhes": "É composta de um Ouvidor-Geral e dois Ouvidores Substitutos, deputados designados pelo Presidente da Câmara a cada dois anos, sem recondução no período seguinte. Encaminha ao TCU, à Polícia Federal, ao Ministério Público ou a outro órgão as denúncias que precisem de apuração, propõe sindicâncias e realiza audiências públicas.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 21-B"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 21-A, 21-B, 21-C e 21-D"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-03-14",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 19/2001, que criou o órgão no RICD; o dia exato da publicação não foi conferido."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

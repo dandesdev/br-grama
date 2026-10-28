@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-da-camara-designa-corregedor-parlamentar",
+  "tipo": "relacao",
+  "nome": "Presidente da Câmara designa o Corregedor Parlamentar",
+  "relacao": "designa",
+  "de": "cargo:presidente-da-camara-dos-deputados",
+  "para": "cargo:corregedor-parlamentar-da-camara-dos-deputados",
+  "condicao": "Entre os deputados, para dois anos.",
+  "vigencia": {
+    "de": "2013-03-26",
+    "ate": null,
+    "incerta": true
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 21-G, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

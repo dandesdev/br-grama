@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-cnj",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Conselho Nacional de Justiça",
-  "resumo": "Pagou R$ 570,9 milhões em 2025; dotação atualizada de R$ 576,5 milhões.",
+  "resumo": "Pagou R$ 570,9 milhões em 2025; dotação atualizada de R$ 576,4 milhões.",
   "de": "org:cnj",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 565549722.23,
     "restos_a_pagar_pagos": 5312175.27,
     "pagamentos_primarios": 558081773.28,
-    "dotacao_inicial": 318967069,
-    "dotacao_atualizada": 576454759,
+    "pagamentos_financeiros": 12780124.22,
+    "dotacao_inicial": 310336526,
+    "dotacao_atualizada": 576370429,
     "despesas_empenhadas": 573474109.13,
     "despesas_liquidadas": 566357025.12
   },
@@ -21,7 +22,7 @@
     "poderes": [
       "CNJ"
     ],
-    "nota": "Unidades orçamentárias somadas: 17101."
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -35,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-ministerio-da-cultura",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Ministério da Cultura",
-  "resumo": "Pagou R$ 3,0 bilhões em 2025; dotação atualizada de R$ 4,0 bilhões.",
+  "resumo": "Pagou R$ 3,0 bilhões em 2025; dotação atualizada de R$ 2,9 bilhões.",
   "de": "org:ministerio-da-cultura",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 2335861291.47,
     "restos_a_pagar_pagos": 625126030.56,
     "pagamentos_primarios": 2254408757.86,
-    "dotacao_inicial": 4250086140,
-    "dotacao_atualizada": 3980635258,
+    "pagamentos_financeiros": 706578564.17,
+    "dotacao_inicial": 2902129894,
+    "dotacao_atualizada": 2925081053,
     "despesas_empenhadas": 2890065680.87,
     "despesas_liquidadas": 2441292404.18
   },
@@ -23,6 +24,7 @@
       "despesas_pagas": 2024370570,
       "restos_a_pagar_pagos": 12763829.92,
       "pagamentos_primarios": 1771134399.92,
+      "pagamentos_financeiros": 266000000,
       "dotacao_inicial": 752035641,
       "dotacao_atualizada": 2557819730,
       "despesas_empenhadas": 2557197329.96,
@@ -32,11 +34,11 @@
       "73120",
       "74912"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "42000",
-    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 42101, 42201, 42202, 42203, 42204, 42205, 42206, 42207, 42902, 54203, 54204, 54205, 54206, 54207, 54208, 54902, 55207, 55903."
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 42101, 42201, 42202, 42203, 42204, 42205, 42206, 42207, 42902, 54203, 54204, 54205, 54206, 54207, 54208, 54902, 55207, 55903."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -50,9 +52,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

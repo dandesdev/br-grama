@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-do-trabalho-nomeia-corregedor-geral-do-mpt",
+  "tipo": "relacao",
+  "nome": "Nomeação do Corregedor-Geral do MPT",
+  "relacao": "nomeia",
+  "de": "cargo:procurador-geral-do-trabalho",
+  "para": "cargo:corregedor-geral-do-mpt",
+  "condicao": "Escolhe um dos nomes da lista tríplice do Conselho Superior, para mandato de dois anos, renovável uma vez.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpt-indica-corregedor-geral-do-mpt"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 91, III; art. 105"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

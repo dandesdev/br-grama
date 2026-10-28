@@ -1,0 +1,38 @@
+{
+  "id": "org:colegio-de-procuradores-da-justica-militar",
+  "tipo": "orgao",
+  "nome": "Colégio de Procuradores da Justiça Militar",
+  "resumo": "Reúne todos os membros em atividade do MPM. Forma a lista tríplice para a escolha do Procurador-Geral da Justiça Militar.",
+  "detalhes": "É presidido pelo Procurador-Geral da Justiça Militar (LC 75/1993, art. 126). Forma a lista tríplice para Procurador-Geral por voto plurinominal, facultativo e secreto, sem reunião, exigida a maioria absoluta dos eleitores, e opina sobre assuntos gerais da instituição (art. 127).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpm",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 118, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 126 e 127"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

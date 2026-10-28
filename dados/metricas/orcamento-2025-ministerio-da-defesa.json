@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-ministerio-da-defesa",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Ministério da Defesa",
-  "resumo": "Pagou R$ 131,9 bilhões em 2025; dotação atualizada de R$ 133,4 bilhões.",
+  "resumo": "Pagou R$ 131,9 bilhões em 2025; dotação atualizada de R$ 133,3 bilhões.",
   "de": "org:ministerio-da-defesa",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 118466751093.79,
     "restos_a_pagar_pagos": 13438816499.84,
     "pagamentos_primarios": 128926375520.12,
-    "dotacao_inicial": 133321756614.77,
-    "dotacao_atualizada": 133418223933.77,
+    "pagamentos_financeiros": 2979192073.51,
+    "dotacao_inicial": 127958000240.77,
+    "dotacao_atualizada": 133303741432.77,
     "despesas_empenhadas": 132024810820.87,
     "despesas_liquidadas": 124843809527.07
   },
@@ -23,6 +24,7 @@
       "despesas_pagas": 164532628.67,
       "restos_a_pagar_pagos": 37330834.52,
       "pagamentos_primarios": 217387.1,
+      "pagamentos_financeiros": 201646076.09,
       "dotacao_inicial": 225165912,
       "dotacao_atualizada": 235165912,
       "despesas_empenhadas": 231754054.07,
@@ -33,11 +35,11 @@
       "74204",
       "74205"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "52000",
-    "nota": "Inclui os comandos da Marinha, do Exército e da Aeronáutica e seus fundos. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 52101, 52111, 52121, 52131, 52133, 52211, 52221, 52222, 52232, 52233, 52901, 52902, 52903, 52911, 52921, 52931, 52932."
+    "nota": "Inclui os comandos da Marinha, do Exército e da Aeronáutica e seus fundos. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 52101, 52111, 52121, 52131, 52133, 52211, 52221, 52222, 52232, 52233, 52901, 52902, 52903, 52911, 52921, 52931, 52932."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -51,9 +53,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

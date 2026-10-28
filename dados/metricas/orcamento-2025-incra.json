@@ -2,25 +2,28 @@
   "id": "met:orcamento-2025-incra",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Instituto Nacional de Colonização e Reforma Agrária",
-  "resumo": "Pagou R$ 2,3 bilhões em 2025; dotação atualizada de R$ 2,5 bilhões.",
+  "resumo": "Pagou R$ 2,3 bilhões em 2025; dotação atualizada de R$ 2,4 bilhões.",
   "de": "org:incra",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 2287812274.56,
+    "pagamentos_totais": 2337194231.81,
     "despesas_pagas": 1908511940.9,
-    "restos_a_pagar_pagos": 379300333.66,
-    "pagamentos_primarios": 2201444028.54,
-    "dotacao_inicial": 2727953386,
-    "dotacao_atualizada": 2457252071,
+    "restos_a_pagar_pagos": 428682290.91,
+    "pagamentos_primarios": 2250825985.79,
+    "pagamentos_financeiros": 86368246.02,
+    "dotacao_inicial": 2112562951,
+    "dotacao_atualizada": 2436472454,
     "despesas_empenhadas": 2422940617.75,
     "despesas_liquidadas": 2052425397.57
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "49201"
-    ]
+      "49201",
+      "22201"
+    ],
+    "nota": "A unidade 22201 é o código antigo do Incra, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

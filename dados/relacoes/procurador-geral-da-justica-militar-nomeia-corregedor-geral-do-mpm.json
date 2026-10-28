@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-da-justica-militar-nomeia-corregedor-geral-do-mpm",
+  "tipo": "relacao",
+  "nome": "Nomeação do Corregedor-Geral do MPM",
+  "relacao": "nomeia",
+  "de": "cargo:procurador-geral-da-justica-militar",
+  "para": "cargo:corregedor-geral-do-mpm",
+  "condicao": "Escolhe um dos nomes da lista tríplice do Conselho Superior, para mandato de dois anos, renovável uma vez.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpm-indica-corregedor-geral-do-mpm"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 124, III; art. 138"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

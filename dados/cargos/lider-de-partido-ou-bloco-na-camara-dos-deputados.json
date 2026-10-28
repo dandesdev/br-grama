@@ -1,0 +1,35 @@
+{
+  "id": "cargo:lider-de-partido-ou-bloco-na-camara-dos-deputados",
+  "tipo": "cargo",
+  "nome": "Líder de partido ou bloco parlamentar na Câmara dos Deputados",
+  "resumo": "Deputado escolhido pela bancada do seu partido ou bloco para falar por ela, orientar as votações e indicar seus membros nas comissões.",
+  "detalhes": "Só tem líder o partido ou bloco que cumpre a cláusula de desempenho do art. 17, § 3º, da CF. O líder pode indicar vice-líderes (um para cada quatro deputados da bancada), integra o Colégio de Líderes e registra os candidatos da bancada aos cargos da Mesa. Os líderes de partidos que formam bloco perdem as prerrogativas, que passam ao líder do bloco.",
+  "orgao": "org:liderancas-da-camara-dos-deputados",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "A bancada comunica a escolha à Mesa no início da legislatura ou depois de criado o bloco, em documento assinado pela maioria absoluta dos seus integrantes; o líder fica até nova indicação (RICD, art. 9º, §§ 2º e 3º).",
+  "vagas": null,
+  "vagas_nota": "Um por partido ou bloco com liderança; o número muda com a formação de blocos.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo: exerce até a bancada indicar outro líder."
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 9º, 10, 12 e 20"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previsto no texto original do RICD (Resolução nº 17/1989)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11). 'eleicao-pelos-pares' é o termo mais próximo: quem escolhe é a bancada, não a Casa inteira.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

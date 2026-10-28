@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-justica-do-trabalho",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Justiça do Trabalho",
-  "resumo": "Pagou R$ 29,1 bilhões em 2025; dotação atualizada de R$ 30,6 bilhões.",
+  "resumo": "Pagou R$ 29,1 bilhões em 2025; dotação atualizada de R$ 29,3 bilhões.",
   "de": "org:justica-do-trabalho",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 28418215386.89,
     "restos_a_pagar_pagos": 697329802.21,
     "pagamentos_primarios": 26942507043.47,
-    "dotacao_inicial": 30479055568,
-    "dotacao_atualizada": 30601671300,
+    "pagamentos_financeiros": 2173038145.63,
+    "dotacao_inicial": 27577934677,
+    "dotacao_atualizada": 29281757236,
     "despesas_empenhadas": 29195025777.4,
     "despesas_liquidadas": 28824109543.17
   },
@@ -21,7 +22,7 @@
     "poderes": [
       "JT"
     ],
-    "nota": "Inclui o TST e os 24 TRTs. Unidades orçamentárias somadas: 15101, 15102, 15103, 15104, 15105, 15106, 15107, 15108, 15109, 15110, 15111, 15112, 15113, 15114, 15115, 15116, 15117, 15118, 15119, 15120, 15121, 15122, 15123, 15124, 15125, 15126."
+    "nota": "Inclui o TST, os 24 TRTs e o CSJT (unidade 15126, que em 2025 só teve dotação de reserva). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -35,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

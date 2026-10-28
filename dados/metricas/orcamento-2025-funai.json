@@ -8,10 +8,11 @@
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 931278590.16,
+    "pagamentos_totais": 931324228.5,
     "despesas_pagas": 700181002.65,
-    "restos_a_pagar_pagos": 231097587.51,
-    "pagamentos_primarios": 897277508.51,
+    "restos_a_pagar_pagos": 231143225.85,
+    "pagamentos_primarios": 897323146.85,
+    "pagamentos_financeiros": 34001081.65,
     "dotacao_inicial": 1097700066,
     "dotacao_atualizada": 1001608973,
     "despesas_empenhadas": 1000277914.35,
@@ -19,8 +20,10 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "84201"
-    ]
+      "84201",
+      "30202"
+    ],
+    "nota": "A unidade 30202 é o código antigo da Funai, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

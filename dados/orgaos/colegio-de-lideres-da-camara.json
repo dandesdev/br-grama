@@ -1,0 +1,43 @@
+{
+  "id": "org:colegio-de-lideres-da-camara",
+  "tipo": "orgao",
+  "nome": "Colégio de Líderes da Câmara dos Deputados",
+  "resumo": "Reúne os líderes da Maioria, da Minoria, dos partidos, dos blocos e do Governo na Câmara; decide por consenso ou por maioria ponderada pelo tamanho das bancadas.",
+  "detalhes": "Os líderes de partidos que estão num bloco e o Líder do Governo têm voz, mas não voto. Quando não há consenso, prevalece a maioria absoluta, com o voto de cada líder pesando conforme o tamanho da sua bancada. É ouvido pela Mesa para fixar quantos deputados cada partido terá nas comissões e pelo Presidente da Câmara para montar a agenda mensal do Plenário.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 20"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 20"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 15, X; art. 17, I, s"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previsto no texto original do RICD (Resolução nº 17/1989)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

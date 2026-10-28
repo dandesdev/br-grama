@@ -1,0 +1,26 @@
+{
+  "id": "rel:primeiro-vice-presidente-da-camara-substitui-presidente-da-camara",
+  "tipo": "relacao",
+  "nome": "Primeiro Vice-Presidente da Câmara substitui o Presidente da Câmara",
+  "relacao": "substitui",
+  "de": "cargo:primeiro-vice-presidente-da-camara-dos-deputados",
+  "para": "cargo:presidente-da-camara-dos-deputados",
+  "condicao": "Nas ausências e impedimentos do Presidente, segundo a numeração ordinal dos Vice-Presidentes.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 18, caput e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "ordem": 1,
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:conselho-superior-do-mpm-indica-corregedor-geral-do-mpm",
+  "tipo": "relacao",
+  "nome": "Lista tríplice para Corregedor-Geral do MPM",
+  "relacao": "indica",
+  "de": "org:conselho-superior-do-mpm",
+  "para": "cargo:corregedor-geral-do-mpm",
+  "condicao": "Forma lista tríplice de subprocuradores-gerais da Justiça Militar.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 131, VI; art. 138"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cargo:corregedor-geral-do-mpm",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral do Ministério Público Militar",
+  "resumo": "Dirige a Corregedoria do MPM. É nomeado pelo Procurador-Geral da Justiça Militar a partir de lista tríplice do Conselho Superior, para mandato de dois anos.",
+  "detalhes": "Os outros nomes da lista tríplice são seus suplentes, na ordem que o Procurador-Geral fixar (LC 75/1993, art. 138, § 1º).",
+  "orgao": "org:corregedoria-do-mpm",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Conselho Superior forma lista tríplice de subprocuradores-gerais da Justiça Militar, e o Procurador-Geral da Justiça Militar nomeia um deles (LC 75/1993, arts. 124, III, 131, VI, e 138). Pode ser destituído antes do fim do mandato, por iniciativa do Procurador-Geral, pelo voto de dois terços do Conselho Superior (arts. 131, IV, e 138, § 2º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "renovável uma vez",
+    "nota": "LC 75/1993, art. 138."
+  },
+  "requisitos": [
+    {
+      "texto": "subprocurador-geral da Justiça Militar",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 138 e 141, I"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 124, III, 131, IV e VI, 138, 139 e 141, I"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Diferentemente do MPF, do MPT e do MPDFT, a lei não impede conselheiros de integrar a lista: no MPM todos os subprocuradores-gerais são membros do Conselho Superior (art. 128).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

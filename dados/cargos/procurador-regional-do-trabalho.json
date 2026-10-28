@@ -1,0 +1,49 @@
+{
+  "id": "cargo:procurador-regional-do-trabalho",
+  "tipo": "cargo",
+  "nome": "Procurador Regional do Trabalho",
+  "resumo": "Nível intermediário da carreira do MPT. Atua junto aos Tribunais Regionais do Trabalho e é lotado nas Procuradorias Regionais do Trabalho.",
+  "detalhes": "Pode ser convocado pelo Procurador-Geral, com aprovação do Conselho Superior, para substituir subprocurador-geral afastado por mais de 30 dias (LC 75/1993, art. 110, parágrafo único). A carreira do MPT tem três cargos: procurador do Trabalho (inicial), procurador regional do Trabalho e subprocurador-geral do Trabalho (último nível) (LC 75/1993, art. 86).",
+  "orgao": "org:mpt",
+  "provimento": "promocao",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei (LC 75/1993, art. 34); não somamos.",
+  "provimento_nota": "Por promoção de procurador do Trabalho. Promoção alternada por antiguidade e merecimento; o merecimento usa lista tríplice do Conselho Superior (LC 75/1993, arts. 98, V, 199 e 200).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Vitalício após dois anos de exercício (LC 75/1993, arts. 17, I, e 184). Aposentadoria compulsória aos 75 anos (CF, art. 40, § 1º, II; LC 152/2015, art. 2º, III)."
+  },
+  "requisitos": [
+    {
+      "texto": "procurador do Trabalho, promovido na carreira",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 86 e 199"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 86, 110, 111, 199 e 200"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "org:liderancas-da-camara-dos-deputados",
+  "tipo": "orgao",
+  "nome": "Lideranças partidárias da Câmara dos Deputados",
+  "resumo": "Os líderes e vice-líderes de cada partido ou bloco com bancada mínima na Câmara, mais as lideranças do Governo e da Minoria.",
+  "detalhes": "Cada partido ou bloco que cumpre a cláusula de desempenho do art. 17, § 3º, da CF escolhe seu líder, que pode indicar um vice-líder para cada quatro deputados. O líder fala em nome da bancada, encaminha votações, registra candidatos à Mesa e indica os membros da bancada nas comissões. Partido sem liderança só pode indicar quem expresse sua posição nas votações.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 9º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 9º a 13"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previstas no texto original do RICD (Resolução nº 17/1989)."
+  },
+  "confianca": "oficial",
+  "notas": "Nó agregado: representa o conjunto das lideranças. Os líderes da Maioria e da Minoria têm cargos próprios porque integram o Conselho da República.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

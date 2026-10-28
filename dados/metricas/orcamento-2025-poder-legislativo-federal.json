@@ -2,20 +2,21 @@
   "id": "met:orcamento-2025-poder-legislativo-federal",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Poder Legislativo federal",
-  "resumo": "Pagou R$ 16,2 bilhões em 2025; dotação atualizada de R$ 18,0 bilhões.",
+  "resumo": "Pagou R$ 15,3 bilhões em 2025; dotação atualizada de R$ 16,9 bilhões.",
   "de": "org:poder-legislativo-federal",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 16236189765.42,
-    "despesas_pagas": 15662417356.57,
-    "restos_a_pagar_pagos": 573772408.85,
-    "pagamentos_primarios": 15735693084.22,
-    "dotacao_inicial": 17970608326,
-    "dotacao_atualizada": 17970608326,
-    "despesas_empenhadas": 16590107515.18,
-    "despesas_liquidadas": 15931786637.08
+    "pagamentos_totais": 15310967425.12,
+    "despesas_pagas": 14768523545.29,
+    "restos_a_pagar_pagos": 542443879.83,
+    "pagamentos_primarios": 15310967425.12,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 16703782327.45,
+    "dotacao_atualizada": 16922607557.45,
+    "despesas_empenhadas": 15655111319.47,
+    "despesas_liquidadas": 15022653632.57
   },
   "recorte": {
     "poderes": [
@@ -23,7 +24,10 @@
       "SF",
       "TCU"
     ],
-    "nota": "Câmara dos Deputados, Senado Federal e Tribunal de Contas da União, como na lei orçamentária. Unidades orçamentárias somadas: 1101, 1901, 2101, 3101."
+    "modalidades_excluidas": [
+      "91"
+    ],
+    "nota": "Câmara dos Deputados, Senado Federal e Tribunal de Contas da União, como na lei orçamentária. Sem as aplicações intraorçamentárias (modalidade 91), pagas de um órgão federal a outro, que seriam contadas duas vezes. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -37,9 +41,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

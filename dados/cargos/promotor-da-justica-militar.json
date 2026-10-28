@@ -1,0 +1,72 @@
+{
+  "id": "cargo:promotor-da-justica-militar",
+  "tipo": "cargo",
+  "nome": "Promotor da Justiça Militar",
+  "resumo": "Cargo inicial da carreira do MPM. Atua junto às Auditorias Militares e é lotado nas Procuradorias da Justiça Militar. Ingressa por concurso.",
+  "detalhes": "Pode ser convocado pelo Procurador-Geral, com aprovação do Conselho Superior, para substituir procurador da Justiça Militar afastado por mais de 30 dias (LC 75/1993, art. 145, parágrafo único). A carreira do MPM tem três cargos: promotor da Justiça Militar (inicial), procurador da Justiça Militar e subprocurador-geral da Justiça Militar (último nível) (LC 75/1993, art. 119).",
+  "orgao": "org:mpm",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei (LC 75/1993, art. 34); não somamos.",
+  "provimento_nota": "Concurso público nacional de provas e títulos, específico do MPM, com comissão presidida pelo Procurador-Geral da Justiça Militar e integrada por advogado indicado pelo Conselho Federal da OAB; nomeação pela ordem de classificação e dois anos de estágio probatório (LC 75/1993, arts. 183, 186, 189, 194 e 197).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Vitalício após dois anos de exercício (LC 75/1993, arts. 17, I, e 184). Aposentadoria compulsória aos 75 anos (CF, art. 40, § 1º, II; LC 152/2015, art. 2º, III)."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 129, § 3º"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 183 e 186"
+        }
+      ]
+    },
+    {
+      "texto": "não ter completado 65 anos e ser considerado apto em exame de higidez física e mental",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 191"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 129, § 3º"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 119, 145, 146 e 182 a 198"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Sobre o tempo de formado exigido (LC 75/1993, art. 187, versus CF, art. 129, § 3º), ver a nota de cargo:procurador-da-republica.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

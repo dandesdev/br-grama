@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-ibama",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
-  "resumo": "Pagou R$ 2,2 bilhões em 2025; dotação atualizada de R$ 2,5 bilhões.",
+  "resumo": "Pagou R$ 2,2 bilhões em 2025; dotação atualizada de R$ 2,3 bilhões.",
   "de": "org:ibama",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,15 +12,17 @@
     "despesas_pagas": 1887852479.65,
     "restos_a_pagar_pagos": 274574377.46,
     "pagamentos_primarios": 2061218901.04,
-    "dotacao_inicial": 2146302022,
-    "dotacao_atualizada": 2475741050,
+    "pagamentos_financeiros": 101207956.07,
+    "dotacao_inicial": 1971140124,
+    "dotacao_atualizada": 2304860690,
     "despesas_empenhadas": 2238225504.35,
     "despesas_liquidadas": 2031091671.06
   },
   "recorte": {
     "unidades_orcamentarias": [
       "44201"
-    ]
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

@@ -1,0 +1,41 @@
+{
+  "id": "org:centro-de-estudos-e-debates-estrategicos-da-camara",
+  "tipo": "orgao",
+  "nome": "Centro de Estudos e Debates Estratégicos da Câmara dos Deputados",
+  "resumo": "Órgão técnico-consultivo ligado ao Presidente da Câmara que faz estudos sobre políticas públicas, impactos e riscos de planos e projetos de governo.",
+  "detalhes": "Integra o sistema de consultoria e assessoramento da Câmara, ao lado da Consultoria Legislativa; sua estrutura é regulada por resolução própria.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 276"
+        }
+      ],
+      "nota": "O RICD o diz \"diretamente jurisdicionado ao Presidente da Câmara\"; o cargo de Presidente não é contêiner no mapa, por isso usamos a Câmara."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 275 e 276"
+    }
+  ],
+  "vigencia": {
+    "de": "2013-03-26",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 26/2013, que criou o órgão no RICD; o dia exato da publicação não foi conferido."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

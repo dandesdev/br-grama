@@ -1,0 +1,38 @@
+{
+  "id": "org:conselho-de-assessoramento-superior-do-mpu",
+  "tipo": "orgao",
+  "nome": "Conselho de Assessoramento Superior do Ministério Público da União",
+  "resumo": "Colegiado dos chefes dos quatro ramos do MPU, presidido pelo Procurador-Geral da República, que opina sobre assuntos de interesse comum da instituição.",
+  "detalhes": "Reúne o Procurador-Geral da República, que o preside, o Vice-Procurador-Geral da República e os procuradores-gerais do Trabalho, da Justiça Militar e de Justiça do DF e Territórios; as reuniões são convocadas pelo PGR (LC 75/1993, arts. 28 e 29). Opina sobre projetos de lei de interesse comum do MPU, como os que alteram suas normas gerais, a proposta de orçamento e a fixação de vencimentos, e sobre a organização da Secretaria do MPU (art. 30). Pode propor aos conselhos superiores dos ramos medidas para uniformizar as normas que eles editam (art. 31).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-publico-da-uniao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 28"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 28 a 31"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

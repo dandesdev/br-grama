@@ -4,7 +4,7 @@
   "nome": "Comissão de Constituição e Justiça e de Cidadania",
   "sigla": "CCJC",
   "resumo": "Comissão da Câmara que examina se todo projeto é constitucional e juridicamente correto; seu parecer contrário pode encerrar o projeto.",
-  "detalhes": "Todo projeto passa obrigatoriamente por ela. O parecer sobre constitucionalidade ou juridicidade é terminativo: se for contrário, o projeto é arquivado, salvo recurso ao Plenário. Também elabora a redação final das proposições em geral.",
+  "detalhes": "Todo projeto passa obrigatoriamente por ela. O parecer sobre constitucionalidade ou juridicidade é terminativo: se for contrário, o projeto é arquivado, salvo recurso ao Plenário. Também elabora a redação final das proposições em geral. Tem 66 membros titulares na 57ª legislatura, número fixado por ato da Mesa.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -18,14 +18,32 @@
     {
       "ref": "norma:ricd",
       "dispositivo": "art. 32, IV, a e q; art. 53, III; art. 54, I; art. 139, II, c; art. 200, § 1º"
+    },
+    {
+      "ref": "norma:camara-ato-da-mesa-11-2023",
+      "dispositivo": "Anexo I"
     }
   ],
   "confianca": "oficial",
   "notas": "Nome atual dado pela Resolução nº 20/2004 da Câmara. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei; detalhe da redação final ampliado (RICD art. 32, IV, q)"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentado o número de membros (66) do Ato da Mesa nº 11/2023, Anexo I"
+  },
+  "campos": {
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "norma:camara-ato-da-mesa-11-2023",
+          "dispositivo": "Anexo I"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 25, caput"
+        }
+      ]
+    }
   }
 }

@@ -96,6 +96,7 @@ export interface ValoresOrcamento {
   despesas_pagas?: number;
   restos_a_pagar_pagos?: number;
   pagamentos_primarios?: number;
+  pagamentos_financeiros?: number;
   dotacao_inicial?: number;
   dotacao_atualizada?: number;
 }

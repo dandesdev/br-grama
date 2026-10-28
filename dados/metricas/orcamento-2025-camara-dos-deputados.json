@@ -12,8 +12,9 @@
     "despesas_pagas": 7026556318.1,
     "restos_a_pagar_pagos": 324723391.88,
     "pagamentos_primarios": 7131351266.08,
-    "dotacao_inicial": 8594493584,
-    "dotacao_atualizada": 8594493584,
+    "pagamentos_financeiros": 219928443.9,
+    "dotacao_inicial": 8564263423,
+    "dotacao_atualizada": 8564263423,
     "despesas_empenhadas": 7498149713.73,
     "despesas_liquidadas": 7183429222.89
   },
@@ -21,7 +22,7 @@
     "poderes": [
       "CD"
     ],
-    "nota": "Unidades orçamentárias somadas: 1101, 1901."
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -35,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

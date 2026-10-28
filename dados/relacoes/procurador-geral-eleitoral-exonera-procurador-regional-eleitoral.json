@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-eleitoral-exonera-procurador-regional-eleitoral",
+  "tipo": "relacao",
+  "nome": "Destituição do Procurador Regional Eleitoral",
+  "relacao": "exonera",
+  "de": "cargo:procurador-geral-eleitoral",
+  "para": "cargo:procurador-regional-eleitoral",
+  "condicao": "Antes do fim do mandato de dois anos, com a anuência da maioria absoluta do Conselho Superior do MPF.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpf-aprova-exoneracao-procurador-regional-eleitoral"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 76, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

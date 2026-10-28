@@ -1,0 +1,29 @@
+{
+  "id": "rel:colegio-de-procuradores-do-trabalho-indica-juiz-de-trt",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MPT para os TRTs",
+  "relacao": "indica",
+  "de": "org:colegio-de-procuradores-do-trabalho",
+  "para": "cargo:juiz-de-trt",
+  "condicao": "Nas vagas do quinto constitucional destinadas ao MPT, forma lista sêxtupla entre procuradores com mais de dez anos de carreira; o PGR a encaminha ao tribunal.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 115, I"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, VI; art. 94, III e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

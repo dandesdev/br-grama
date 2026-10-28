@@ -1,0 +1,39 @@
+{
+  "id": "org:conselho-superior-do-mpf",
+  "tipo": "orgao",
+  "nome": "Conselho Superior do Ministério Público Federal",
+  "sigla": "CSMPF",
+  "resumo": "Órgão normativo e disciplinar do MPF, presidido pelo PGR: aprova regimentos e regras de concurso e promoção, forma listas e decide sobre a carreira dos membros.",
+  "detalhes": "Compõe-se do PGR e do Vice-Procurador-Geral da República, membros natos, e de oito subprocuradores-gerais eleitos para dois anos, com uma reeleição: quatro pelo Colégio de Procuradores e quatro pelos próprios subprocuradores-gerais (LC 75/1993, art. 54). Reúne-se uma vez por mês e decide por maioria, presente a maioria absoluta; várias matérias disciplinares exigem dois terços (arts. 55 a 57, § 2º). Aprova regimentos e as regras de concurso, designação e promoção, aprova o nome do Procurador Federal dos Direitos do Cidadão, forma as listas para Corregedor-Geral e para promoção, decide sobre estágio probatório, remoção por interesse público e processos disciplinares, aprova a proposta orçamentária do MPF e designa o subprocurador-geral que atua em crime comum atribuído ao PGR (arts. 51 e 57).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpf",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 43, III"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 51 e 54 a 57"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

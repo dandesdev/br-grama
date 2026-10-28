@@ -1,0 +1,61 @@
+{
+  "id": "org:cespo-camara",
+  "tipo": "orgao",
+  "nome": "Comissão do Esporte",
+  "sigla": "CESPO",
+  "resumo": "Comissão permanente da Câmara sobre sistema desportivo nacional, normas gerais sobre desporto e justiça desportiva.",
+  "detalhes": "Tem 21 membros titulares na 57ª legislatura, número fixado por ato da Mesa no início da legislatura, e igual número de suplentes. Como as demais comissões permanentes, discute e vota projetos de lei da sua área, muitos sem passar pelo Plenário, faz audiências públicas, convoca ministros e fiscaliza atos do Executivo.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-da-camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 22, I; art. 32, caput"
+        }
+      ]
+    },
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "norma:camara-ato-da-mesa-11-2023",
+          "dispositivo": "Anexo I"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 25, caput"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 32, XXII"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 22, I; art. 24; arts. 25 e 26"
+    },
+    {
+      "ref": "norma:camara-ato-da-mesa-11-2023",
+      "dispositivo": "Anexo I"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; nome e campo temático conforme o RICD em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "Número de membros: Ato da Mesa nº 11/2023, Anexo I (lido na imagem). Sigla conforme o mesmo anexo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

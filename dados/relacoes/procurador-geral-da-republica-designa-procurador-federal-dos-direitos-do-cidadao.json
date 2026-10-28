@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-da-republica-designa-procurador-federal-dos-direitos-do-cidadao",
+  "tipo": "relacao",
+  "nome": "Designação do Procurador Federal dos Direitos do Cidadão",
+  "relacao": "designa",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "cargo:procurador-federal-dos-direitos-do-cidadao",
+  "condicao": "Entre os subprocuradores-gerais, para dois anos, depois de aprovado o nome pelo Conselho Superior.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpf-aprova-indicacao-procurador-federal-dos-direitos-do-cidadao"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 40; art. 49, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

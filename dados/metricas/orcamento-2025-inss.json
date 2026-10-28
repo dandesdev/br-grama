@@ -8,10 +8,11 @@
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 17040091931.08,
+    "pagamentos_totais": 17040501589.81,
     "despesas_pagas": 16004565792.56,
-    "restos_a_pagar_pagos": 1035526138.52,
-    "pagamentos_primarios": 16428168207.6,
+    "restos_a_pagar_pagos": 1035935797.25,
+    "pagamentos_primarios": 16428577866.33,
+    "pagamentos_financeiros": 611923723.48,
     "dotacao_inicial": 14675144687,
     "dotacao_atualizada": 18034583023,
     "despesas_empenhadas": 17895333573.12,
@@ -19,8 +20,11 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "33201"
-    ]
+      "33201",
+      "25303",
+      "40201"
+    ],
+    "nota": "Custeio e pessoal do INSS. Os benefícios do regime geral são pagos pelo Fundo do Regime Geral de Previdência Social (unidade 33904), que aparece no Ministério da Previdência Social e no próprio fundo. As unidades 25303 e 40201 são códigos antigos do INSS, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +38,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

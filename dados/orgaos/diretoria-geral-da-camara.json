@@ -1,0 +1,40 @@
+{
+  "id": "org:diretoria-geral-da-camara",
+  "tipo": "orgao",
+  "nome": "Diretoria-Geral da Câmara dos Deputados",
+  "resumo": "Chefia os serviços administrativos da Câmara; o Diretor-Geral ordena as despesas da Casa.",
+  "detalhes": "O Diretor-Geral toma posse perante o Primeiro-Secretário, a quem cabem os recursos contra seus atos. Pode delegar competências administrativas. A organização dos serviços administrativos fica em regulamentos próprios, aprovados pelo Plenário.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 262; art. 265"
+        }
+      ],
+      "nota": "O RICD põe os serviços administrativos sob a direção da Mesa (art. 262), mas não diz onde a Diretoria-Geral fica no organograma; usamos a Câmara como contêiner."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 19, III e V; art. 262; art. 265, § 1º; art. 274, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; o RICD de 1989 já menciona o Diretor-Geral."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

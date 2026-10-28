@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-previc",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Superintendência Nacional de Previdência Complementar",
-  "resumo": "Pagou R$ 56,1 milhões em 2025; dotação atualizada de R$ 76,2 milhões.",
+  "resumo": "Pagou R$ 56,1 milhões em 2025; dotação atualizada de R$ 58,1 milhões.",
   "de": "org:previc",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,15 +12,17 @@
     "despesas_pagas": 48615707.63,
     "restos_a_pagar_pagos": 7479826.96,
     "pagamentos_primarios": 53460556.53,
-    "dotacao_inicial": 97851395,
-    "dotacao_atualizada": 76158244,
+    "pagamentos_financeiros": 2634978.06,
+    "dotacao_inicial": 51690110,
+    "dotacao_atualizada": 58076831,
     "despesas_empenhadas": 54380909.49,
     "despesas_liquidadas": 52144971.48
   },
   "recorte": {
     "unidades_orcamentarias": [
       "33206"
-    ]
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

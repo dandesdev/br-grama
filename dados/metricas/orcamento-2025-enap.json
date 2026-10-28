@@ -8,10 +8,11 @@
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 112607498.21,
+    "pagamentos_totais": 112610070.97,
     "despesas_pagas": 104578793.39,
-    "restos_a_pagar_pagos": 8028704.82,
-    "pagamentos_primarios": 109434994.52,
+    "restos_a_pagar_pagos": 8031277.58,
+    "pagamentos_primarios": 109437567.28,
+    "pagamentos_financeiros": 3172503.69,
     "dotacao_inicial": 93910746,
     "dotacao_atualizada": 133891051,
     "despesas_empenhadas": 132450097.79,
@@ -19,8 +20,10 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "46201"
-    ]
+      "46201",
+      "25302"
+    ],
+    "nota": "A unidade 25302 é o código antigo da Enap, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

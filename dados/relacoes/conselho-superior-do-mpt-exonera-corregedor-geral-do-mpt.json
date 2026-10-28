@@ -1,0 +1,28 @@
+{
+  "id": "rel:conselho-superior-do-mpt-exonera-corregedor-geral-do-mpt",
+  "tipo": "relacao",
+  "nome": "Destituição do Corregedor-Geral do MPT",
+  "relacao": "exonera",
+  "de": "org:conselho-superior-do-mpt",
+  "para": "cargo:corregedor-geral-do-mpt",
+  "condicao": "Antes do fim do mandato, por iniciativa do Procurador-Geral do Trabalho.",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 98, IV; art. 105, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

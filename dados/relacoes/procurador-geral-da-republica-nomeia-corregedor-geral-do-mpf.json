@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-da-republica-nomeia-corregedor-geral-do-mpf",
+  "tipo": "relacao",
+  "nome": "Nomeação do Corregedor-Geral do MPF",
+  "relacao": "nomeia",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "cargo:corregedor-geral-do-mpf",
+  "condicao": "Escolhe um dos nomes da lista tríplice do Conselho Superior, para mandato de dois anos, renovável uma vez.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpf-indica-corregedor-geral-do-mpf"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 49, V; art. 64"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

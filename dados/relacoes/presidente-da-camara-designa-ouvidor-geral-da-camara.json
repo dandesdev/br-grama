@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-da-camara-designa-ouvidor-geral-da-camara",
+  "tipo": "relacao",
+  "nome": "Presidente da Câmara designa o Ouvidor-Geral",
+  "relacao": "designa",
+  "de": "cargo:presidente-da-camara-dos-deputados",
+  "para": "cargo:ouvidor-geral-da-camara-dos-deputados",
+  "condicao": "Entre os deputados, a cada dois anos.",
+  "vigencia": {
+    "de": "2001-03-14",
+    "ate": null,
+    "incerta": true
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 21-B"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

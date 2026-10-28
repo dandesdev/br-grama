@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-da-republica-nomeia-procurador-geral-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Nomeação do Procurador-Geral do Trabalho",
+  "relacao": "nomeia",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "cargo:procurador-geral-do-trabalho",
+  "condicao": "Escolhe um dos nomes da lista tríplice do Colégio de Procuradores do Trabalho e lhe dá posse, para mandato de dois anos.",
+  "depende_de": [
+    "rel:colegio-de-procuradores-do-trabalho-indica-procurador-geral-do-trabalho"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, IV; art. 88"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

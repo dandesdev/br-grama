@@ -1,0 +1,26 @@
+{
+  "id": "rel:deputadas-elegem-procuradora-da-mulher-da-camara",
+  "tipo": "relacao",
+  "nome": "Deputadas elegem a Procuradora da Mulher da Câmara",
+  "relacao": "elege",
+  "de": "cargo:deputado-federal",
+  "para": "cargo:procuradora-da-mulher-da-camara-dos-deputados",
+  "condicao": "Votam só as deputadas.",
+  "vigencia": {
+    "de": "2013-07-10",
+    "ate": null,
+    "incerta": true
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 20-B"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

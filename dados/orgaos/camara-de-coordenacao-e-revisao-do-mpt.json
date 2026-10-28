@@ -1,0 +1,38 @@
+{
+  "id": "org:camara-de-coordenacao-e-revisao-do-mpt",
+  "tipo": "orgao",
+  "nome": "Câmara de Coordenação e Revisão do Ministério Público do Trabalho",
+  "resumo": "Órgão de coordenação, integração e revisão da atuação dos membros do MPT. Decide os conflitos de atribuição entre órgãos do MPT.",
+  "detalhes": "Tem três membros com mandato de dois anos, um indicado pelo Procurador-Geral do Trabalho e dois pelo Conselho Superior, de preferência do último grau da carreira; o Procurador-Geral designa o coordenador (LC 75/1993, arts. 101 e 102). Promove a integração dos órgãos do MPT, resolve sobre distribuição especial de feitos e decide conflitos de atribuição (art. 103). É organizada por ato normativo, com regimento elaborado pelo Conselho Superior (art. 100).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpt",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 85, IV"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 99 a 103"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

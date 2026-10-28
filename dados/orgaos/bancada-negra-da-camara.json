@@ -1,0 +1,40 @@
+{
+  "id": "org:bancada-negra-da-camara",
+  "tipo": "orgao",
+  "nome": "Bancada Negra da Câmara dos Deputados",
+  "resumo": "Reúne os deputados e deputadas negros, conforme a autodeclaração no registro de candidatura, e participa das reuniões de líderes com voz e voto.",
+  "detalhes": "Tem uma Coordenação-Geral e três Vice-Coordenadorias eleitas para um ano, com uma recondução na mesma legislatura. Pode falar semanalmente no horário das Comunicações de Liderança para expressar a posição dos parlamentares negros.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 13-A"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 13-A e 13-B"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 6/2023, que criou o órgão no RICD; o dia exato da publicação não foi conferido. A redação atual do art. 13-A é da Resolução nº 33/2026."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

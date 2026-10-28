@@ -12,6 +12,7 @@
     "despesas_pagas": 8908056541.03,
     "restos_a_pagar_pagos": 2959685026.75,
     "pagamentos_primarios": 11678966385.31,
+    "pagamentos_financeiros": 188775182.47,
     "dotacao_inicial": 12976837153.8,
     "dotacao_atualizada": 13056388458.8,
     "despesas_empenhadas": 12572381250.61,
@@ -23,6 +24,7 @@
       "despesas_pagas": 6871017887.29,
       "restos_a_pagar_pagos": 1368900517.94,
       "pagamentos_primarios": 68436707.94,
+      "pagamentos_financeiros": 8171481697.29,
       "dotacao_inicial": 7187895867,
       "dotacao_atualizada": 7187895867,
       "despesas_empenhadas": 7184227023.04,
@@ -32,11 +34,11 @@
       "74104",
       "74901"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "22000",
-    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 22101, 22202, 22906."
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 22101, 22202, 22906."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -50,9 +52,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

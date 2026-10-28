@@ -1,0 +1,53 @@
+{
+  "id": "cargo:procurador-geral-do-trabalho",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral do Trabalho",
+  "resumo": "Chefe do Ministério Público do Trabalho. É nomeado pelo Procurador-Geral da República a partir de lista tríplice do Colégio de Procuradores do Trabalho.",
+  "detalhes": "Atua junto ao Plenário do TST, preside o Colégio de Procuradores, o Conselho Superior e a Comissão de Concurso do MPT e nomeia o Corregedor-Geral (LC 75/1993, arts. 90 e 91). Elabora a proposta orçamentária do MPT, que, aprovada pelo Conselho Superior, envia ao PGR, a quem também propõe a criação de cargos (art. 91, XVII a XIX). Designa entre os subprocuradores-gerais o Vice-Procurador-Geral do Trabalho, que o substitui nos impedimentos; na vacância, exerce o cargo o Vice-Presidente do Conselho Superior (art. 89).",
+  "orgao": "org:mpt",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Colégio de Procuradores do Trabalho forma lista tríplice por voto plurinominal, facultativo e secreto, e o Procurador-Geral da República nomeia e dá posse a um dos três (LC 75/1993, arts. 26, IV, 88 e 94, I). A exoneração antes do fim do mandato é proposta ao PGR pelo Conselho Superior, por voto secreto de dois terços (art. 88, parágrafo único).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução pelo mesmo processo (LC 75/1993, art. 88)."
+  },
+  "requisitos": [
+    {
+      "texto": "integrante do MPT com mais de 35 anos de idade e cinco anos de carreira (ou mais de dois anos, se não houver candidatos suficientes com cinco)",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 88"
+        }
+      ]
+    },
+    {
+      "texto": "incluído em lista tríplice do Colégio de Procuradores do Trabalho",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 88 e 94, I"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 26, IV, 28, 87 a 92 e 182"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

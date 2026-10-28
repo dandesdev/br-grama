@@ -65,7 +65,7 @@ export class Dinheiro {
   private listaOrgaos(): string {
     const itens = this.dados
       .todosOrcamentos()
-      .filter((m) => !AGREGADOS.has(m.de as string))
+      .filter((m) => !AGREGADOS.has(m.de as string) && !(m.de as string).startsWith("obj:"))
       .map((m) => ({ m, e: this.dados.get(m.de as string) }))
       .filter(({ e }) => !this.filtroPoder || this.poderDe(e) === this.filtroPoder)
       .filter(({ e }) => !this.busca || normalizar(`${e?.nome ?? ""} ${e?.sigla ?? ""}`).includes(this.busca))
@@ -101,7 +101,13 @@ export class Dinheiro {
       .map((m) => ({ m, s: (m.sob_supervisao as { valores: ValoresOrcamento }).valores }))
       .filter(({ s }) => s.pagamentos_totais > 1e8)
       .sort((a, b) => b.s.pagamentos_totais - a.s.pagamentos_totais)
-      .map(({ m, s }) => ({ id: m.de as string, rotulo: d.get(m.de as string)?.nome ?? (m.de as string), valor: s.pagamentos_totais, titulo: `Recursos sob supervisão pagos em ${ano}: ${reais(s.pagamentos_totais)}` }));
+      .map(({ m, s }) => ({ id: m.de as string, rotulo: d.get(m.de as string)?.nome ?? (m.de as string), valor: s.pagamentos_totais, titulo: `Pagamentos em ${ano} dos recursos sob supervisão: ${reais(s.pagamentos_totais)}` }));
+
+    const fundos: Barra[] = d
+      .todosOrcamentos()
+      .filter((m) => (m.de as string).startsWith("obj:"))
+      .sort((a, b) => (b.valores as ValoresOrcamento).pagamentos_totais - (a.valores as ValoresOrcamento).pagamentos_totais)
+      .map((m) => ({ id: m.de as string, rotulo: d.get(m.de as string)?.nome ?? (m.de as string), valor: (m.valores as ValoresOrcamento).pagamentos_totais, titulo: this.titulo(m) }));
 
     const destino = (r: Entidade | undefined) => {
       const para = (r?.para as string) ?? "";
@@ -113,7 +119,7 @@ export class Dinheiro {
       const g = destino(r);
       grupos.set(g, [
         ...(grupos.get(g) ?? []),
-        { id: f.repasse as string, rotulo: (r?.nome as string) ?? (f.repasse as string), valor: (f.valores as ValoresOrcamento).pagamentos_totais, titulo: `${reais((f.valores as ValoresOrcamento).pagamentos_totais)} pagos em ${ano}` },
+        { id: f.repasse as string, rotulo: (r?.nome as string) ?? (f.repasse as string), valor: (f.valores as ValoresOrcamento).pagamentos_totais, titulo: `Pagamentos em ${ano}: ${reais((f.valores as ValoresOrcamento).pagamentos_totais)}` },
       ]);
     }
     const maxFluxo = Math.max(...[...grupos.values()].flat().map((b) => b.valor));
@@ -132,7 +138,7 @@ export class Dinheiro {
         <p class="intro">Quanto cada parte do Estado federal pagou no último ano fechado e quanto a União repassou a estados, municípios e outros. Valores pagos no ano, inclusive restos a pagar de anos anteriores; a dotação aprovada aparece ao passar o mouse e no painel. Fonte: Tesouro Nacional.</p>
         <div class="numeros">
           <div class="numero"><span class="rotulo">Pago pelos órgãos</span><strong>${reais(vu.pagamentos_totais)}</strong></div>
-          <div class="numero"><span class="rotulo">Encargos financeiros, dívida, transferências e operações de crédito</span><strong>${reais(supU)}</strong></div>
+          <div class="numero"><span class="rotulo">Recursos sob supervisão: encargos, aposentadorias civis, transferências, crédito e dívida</span><strong>${reais(supU)}</strong></div>
         </div>
       </div>
       <section>
@@ -146,7 +152,7 @@ export class Dinheiro {
       </section>
       <section>
         <h3>Órgãos com orçamento próprio</h3>
-        <p class="intro">Ministérios incluem as entidades vinculadas a eles (a Anvisa entra no Ministério da Saúde e aparece também sozinha). Órgãos sem unidade orçamentária própria, como as secretarias da Presidência e as estatais que não dependem do Tesouro, não aparecem.</p>
+        <p class="intro">Ministérios incluem as entidades vinculadas a eles (a Anvisa entra no Ministério da Saúde e aparece também sozinha). Órgãos sem unidade orçamentária própria, como as secretarias da Presidência, não aparecem. Estatais que não dependem do Tesouro (Caixa, Banco do Brasil, Petrobras) também não: elas entram só no orçamento de investimento (CF, art. 165, § 5º, II), que esta base não traz.</p>
         <div class="matriz-filtros">
           <select id="dinheiro-poder" aria-label="Filtrar por Poder">
             <option value="">Todos os Poderes</option>
@@ -160,8 +166,13 @@ export class Dinheiro {
         <div id="dinheiro-orgaos">${this.listaOrgaos()}</div>
       </section>
       <section>
+        <h3>Fundos</h3>
+        <p class="intro">Fundos com unidade orçamentária própria. O que eles pagam já está contado no ministério a que pertencem.</p>
+        ${this.barras(fundos)}
+      </section>
+      <section>
         <h3>Recursos sob supervisão</h3>
-        <p class="intro">Na lei orçamentária, encargos financeiros, dívida pública, transferências constitucionais e operações oficiais de crédito são órgãos próprios, supervisionados por um ministério. Ficam fora do valor do ministério para não parecer que o Ministério da Fazenda gasta trilhões consigo mesmo.</p>
+        <p class="intro">Na lei orçamentária, encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e o refinanciamento da dívida são órgãos próprios, supervisionados por um ministério. Ficam fora do valor do ministério para não parecer que o Ministério da Fazenda gasta trilhões consigo mesmo. Só o refinanciamento da dívida (rolagem) passa de R$ 2 trilhões.</p>
         ${this.barras(supervisao)}
       </section>`;
   }

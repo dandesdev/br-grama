@@ -4,7 +4,7 @@
   "nome": "Comissão de Finanças e Tributação",
   "sigla": "CFT",
   "resumo": "Comissão da Câmara que verifica se o projeto cabe no orçamento e nas leis orçamentárias; seu parecer contrário pode encerrar o projeto.",
-  "detalhes": "Examina projetos com impacto financeiro ou orçamentário. O parecer sobre adequação financeira e orçamentária é terminativo, salvo recurso ao Plenário. Também opina sobre o mérito de temas financeiros e tributários.",
+  "detalhes": "Examina projetos com impacto financeiro ou orçamentário. O parecer sobre adequação financeira e orçamentária é terminativo, salvo recurso ao Plenário. Também opina sobre o mérito de temas financeiros e tributários. Tem 48 membros titulares na 57ª legislatura, número fixado por ato da Mesa.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -18,14 +18,32 @@
     {
       "ref": "norma:ricd",
       "dispositivo": "art. 32, X; art. 53, II; art. 54, II; art. 139, II, b"
+    },
+    {
+      "ref": "norma:camara-ato-da-mesa-11-2023",
+      "dispositivo": "Anexo I"
     }
   ],
   "confianca": "oficial",
   "notas": "vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentado o número de membros (48) do Ato da Mesa nº 11/2023, Anexo I"
+  },
+  "campos": {
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "norma:camara-ato-da-mesa-11-2023",
+          "dispositivo": "Anexo I"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 25, caput"
+        }
+      ]
+    }
   }
 }

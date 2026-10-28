@@ -2,20 +2,21 @@
   "id": "met:orcamento-2025-poder-judiciario",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Poder Judiciário",
-  "resumo": "Pagou R$ 66,0 bilhões em 2025; dotação atualizada de R$ 68,6 bilhões.",
+  "resumo": "Pagou R$ 60,8 bilhões em 2025; dotação atualizada de R$ 61,7 bilhões.",
   "de": "org:poder-judiciario",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 65966395644.08,
-    "despesas_pagas": 63907909991.86,
-    "restos_a_pagar_pagos": 2058485652.22,
-    "pagamentos_primarios": 60896174779.86,
-    "dotacao_inicial": 67398563727,
-    "dotacao_atualizada": 68551295363,
-    "despesas_empenhadas": 66116283449.31,
-    "despesas_liquidadas": 64676918099.02
+    "pagamentos_totais": 60801133030.19,
+    "despesas_pagas": 58752915114.8,
+    "restos_a_pagar_pagos": 2048217915.39,
+    "pagamentos_primarios": 60801133030.19,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 58075965534.84,
+    "dotacao_atualizada": 61705266766.84,
+    "despesas_empenhadas": 60865980320.84,
+    "despesas_liquidadas": 59446677372.54
   },
   "recorte": {
     "poderes": [
@@ -28,7 +29,10 @@
       "JDFT",
       "CNJ"
     ],
-    "nota": "Só o Judiciário da União (inclui o TJDFT, que a União mantém); os tribunais estaduais têm orçamento dos estados. Unidades orçamentárias somadas: 10101, 11101, 12101, 12102, 12103, 12104, 12105, 12106, 12107, 13101, 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14113, 14114, 14115, 14116, 14117, 14118, 14119, 14120, 14121, 14122, 14123, 14124, 14125, 14126, 14127, 14128, 14901, 15101, 15102, 15103, 15104, 15105, 15106, 15107, 15108, 15109, 15110, 15111, 15112, 15113, 15114, 15115, 15116, 15117, 15118, 15119, 15120, 15121, 15122, 15123, 15124, 15125, 15126, 16101, 16103, 17101."
+    "modalidades_excluidas": [
+      "91"
+    ],
+    "nota": "Só o Judiciário da União (inclui o TJDFT, que a União mantém: CF, art. 21, XIII); os tribunais estaduais têm orçamento dos estados. Sem as aplicações intraorçamentárias (modalidade 91), pagas de um órgão federal a outro, que seriam contadas duas vezes. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -42,9 +46,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

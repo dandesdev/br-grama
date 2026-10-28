@@ -1,0 +1,25 @@
+{
+  "id": "rel:procurador-geral-da-republica-preside-conselho-superior-do-mpf",
+  "tipo": "relacao",
+  "nome": "Presidência do Conselho Superior do MPF",
+  "relacao": "preside",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "org:conselho-superior-do-mpf",
+  "condicao": "Membro nato e presidente; tem voto de desempate, salvo em matéria de sanções, em que prevalece a solução mais favorável ao acusado.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 49, II, 54, 55 e 56, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

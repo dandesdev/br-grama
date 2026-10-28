@@ -124,6 +124,7 @@ interface Linha {
   nomeAcao: string;
   modalidade: string;
   primaria: boolean;
+  financeira: boolean;
   v: Record<(typeof VALORES)[number], number>;
 }
 
@@ -142,6 +143,7 @@ function lerBruto(): { linhas: Linha[]; cabecalho: string } {
       nomeAcao: g("NO_ACAO"),
       modalidade: g("CO_MOAP_NADE"),
       primaria: g("PRIMARIA_FINANCEIRA") === "Primária",
+      financeira: g("PRIMARIA_FINANCEIRA") === "Despesa Financeira",
       v: Object.fromEntries(VALORES.map((k) => [k, Number(g(k))])) as Linha["v"],
     };
   });
@@ -205,23 +207,29 @@ interface Recorte {
   uos?: string[];
   acoes?: string[];
   modalidades?: string[];
+  /** Agregados de vários órgãos (União, Poderes) tiram as aplicações intraorçamentárias (modalidade 91), que um órgão federal paga a outro e seriam contadas duas vezes. */
+  semIntra?: boolean;
+  /** Outros recortes somados a este (ex.: ações de outra unidade que pagam o mesmo repasse). */
+  tambem?: Recorte[];
 }
 interface DefMetrica { de: string; recorte: Recorte; nota?: string }
 interface DefFluxo { relacao: string; recorte: Recorte; nota?: string }
 
 const JUDICIARIO = ["STF", "STJ", "JF", "JM", "JE", "JT", "JDFT", "CNJ"];
-const NOTA_SUPERVISAO =
-  "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47).";
+export const DESCRICAO_SUPERVISAO =
+  "encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida";
+const NOTA_SUPERVISAO = `Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: ${DESCRICAO_SUPERVISAO}) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47).`;
+const NOTA_AGREGADO = "Sem as aplicações intraorçamentárias (modalidade 91), pagas de um órgão federal a outro, que seriam contadas duas vezes.";
 
 const ministerio = (de: string, orgao: string, nota?: string): DefMetrica => ({ de, recorte: { orgao }, nota });
 const unidade = (de: string, uo: string, nota?: string): DefMetrica => ({ de, recorte: { uos: [uo] }, nota });
 const UFS_TRE = ["ac", "al", "am", "ba", "ce", "df", "es", "go", "ma", "mt", "ms", "mg", "pa", "pb", "pr", "pe", "pi", "rj", "rn", "rs", "ro", "sc", "sp", "se", "to", "rr", "ap"];
 
 export const METRICAS: DefMetrica[] = [
-  { de: "ente:uniao", recorte: {}, nota: "Todos os Poderes, o MPU e a DPU." },
-  { de: "org:poder-executivo-federal", recorte: { poderes: ["EXE"] } },
-  { de: "org:poder-legislativo-federal", recorte: { poderes: ["CD", "SF", "TCU"] }, nota: "Câmara dos Deputados, Senado Federal e Tribunal de Contas da União, como na lei orçamentária." },
-  { de: "org:poder-judiciario", recorte: { poderes: JUDICIARIO }, nota: "Só o Judiciário da União (inclui o TJDFT, que a União mantém); os tribunais estaduais têm orçamento dos estados." },
+  { de: "ente:uniao", recorte: { semIntra: true }, nota: "Todos os Poderes, o MPU e a DPU." },
+  { de: "org:poder-executivo-federal", recorte: { poderes: ["EXE"], semIntra: true } },
+  { de: "org:poder-legislativo-federal", recorte: { poderes: ["CD", "SF", "TCU"], semIntra: true }, nota: "Câmara dos Deputados, Senado Federal e Tribunal de Contas da União, como na lei orçamentária." },
+  { de: "org:poder-judiciario", recorte: { poderes: JUDICIARIO, semIntra: true }, nota: "Só o Judiciário da União (inclui o TJDFT, que a União mantém: CF, art. 21, XIII); os tribunais estaduais têm orçamento dos estados." },
   { de: "org:camara-dos-deputados", recorte: { poderes: ["CD"] } },
   { de: "org:senado-federal", recorte: { poderes: ["SF"] } },
   { de: "org:tcu", recorte: { poderes: ["TCU"] } },
@@ -229,7 +237,7 @@ export const METRICAS: DefMetrica[] = [
   { de: "org:stj", recorte: { poderes: ["STJ"] } },
   { de: "org:cnj", recorte: { poderes: ["CNJ"] } },
   { de: "org:justica-federal", recorte: { poderes: ["JF"] }, nota: "Inclui a primeira instância (unidade 12101) e os seis TRFs." },
-  { de: "org:justica-do-trabalho", recorte: { poderes: ["JT"] }, nota: "Inclui o TST e os 24 TRTs." },
+  { de: "org:justica-do-trabalho", recorte: { poderes: ["JT"] }, nota: "Inclui o TST, os 24 TRTs e o CSJT (unidade 15126, que em 2025 só teve dotação de reserva)." },
   { de: "org:justica-eleitoral", recorte: { poderes: ["JE"] }, nota: "Inclui o TSE, os 27 TREs e o Fundo Partidário (unidade 14901), que fica no orçamento da Justiça Eleitoral." },
   { de: "org:justica-militar-da-uniao", recorte: { poderes: ["JM"] }, nota: "Uma só unidade orçamentária (13101) para o STM e as auditorias militares." },
   { de: "org:tj-df", recorte: { poderes: ["JDFT"] } },
@@ -238,7 +246,7 @@ export const METRICAS: DefMetrica[] = [
   { de: "org:tst", recorte: { uos: ["15101"] } },
   ...Array.from({ length: 24 }, (_, i) => unidade(`org:trt-${i + 1}`, String(15102 + i))),
   ...Array.from({ length: 6 }, (_, i) => unidade(`org:trf-${i + 1}`, String(12102 + i))),
-  { de: "org:ministerio-publico-da-uniao", recorte: { poderes: ["MPU"] } },
+  { de: "org:ministerio-publico-da-uniao", recorte: { poderes: ["MPU"] }, nota: "Inclui os quatro ramos e a Escola Superior do MPU (unidade 34105)." },
   unidade("org:mpf", "34101"),
   unidade("org:mpm", "34102"),
   unidade("org:mpdft", "34103"),
@@ -279,34 +287,41 @@ export const METRICAS: DefMetrica[] = [
   ministerio("org:ministerio-do-empreendedorismo", "69000"),
   ministerio("org:ministerio-dos-direitos-humanos-e-da-cidadania", "81000"),
   ministerio("org:ministerio-dos-povos-indigenas", "84000"),
-  unidade("org:banco-central", "83201", "Só a parte do Banco Central que está nos orçamentos fiscal e da seguridade social; a autoridade monetária tem orçamento próprio."),
+  unidade("org:banco-central", "83201", "Só as despesas do Banco Central que a LRF manda incluir na lei orçamentária da União: pessoal e encargos, custeio administrativo e investimentos (LRF, art. 5º, § 6º)."),
+  unidade("org:vice-presidencia-da-republica", "60101", "Gabinete da Vice-Presidência, unidade do órgão orçamentário da Presidência."),
   unidade("org:abin", "20118"),
   unidade("org:receita-federal", "25103"),
   unidade("org:pgfn", "25104"),
   unidade("org:colegio-pedro-ii", "26201"),
   unidade("org:inep", "26290"),
-  unidade("org:fnde", "26298"),
-  unidade("org:suframa", "28233"),
+  unidade("org:fnde", "26298", "As cotas do salário-educação que o FNDE entrega a estados e municípios são pagas pela unidade 73107 (recursos sob supervisão do MEC) e não entram aqui."),
+  { de: "org:suframa", recorte: { uos: ["28233", "25298"] }, nota: "A unidade 25298 é o código antigo da Suframa, com restos a pagar." },
   unidade("org:policia-rodoviaria-federal", "30107"),
   unidade("org:policia-federal", "30108"),
   unidade("org:cade", "30211"),
-  unidade("org:anp", "32265"),
+  unidade("org:anp", "32265", "Os royalties e a participação especial que a ANP distribui a estados e municípios são pagos pela unidade 73116 (recursos sob supervisão da ANP) e não entram aqui."),
   unidade("org:anm", "32396"),
-  unidade("org:inss", "33201"),
+  { de: "org:inss", recorte: { uos: ["33201", "25303", "40201"] }, nota: "Custeio e pessoal do INSS. Os benefícios do regime geral são pagos pelo Fundo do Regime Geral de Previdência Social (unidade 33904), que aparece no Ministério da Previdência Social e no próprio fundo. As unidades 25303 e 40201 são códigos antigos do INSS, com restos a pagar." },
   unidade("org:previc", "33206"),
   unidade("org:anvisa", "36212"),
   unidade("org:ibama", "44201"),
   unidade("org:icmbio", "44207"),
-  unidade("org:enap", "46201"),
-  unidade("org:ibge", "47205"),
-  unidade("org:incra", "49201"),
-  unidade("org:aeronautica", "52111"),
-  unidade("org:exercito", "52121"),
-  unidade("org:marinha", "52131"),
+  { de: "org:enap", recorte: { uos: ["46201", "25302"] }, nota: "A unidade 25302 é o código antigo da Enap, com restos a pagar." },
+  { de: "org:ibge", recorte: { uos: ["47205", "25301"] }, nota: "A unidade 25301 é o código antigo do IBGE, com restos a pagar." },
+  { de: "org:incra", recorte: { uos: ["49201", "22201"] }, nota: "A unidade 22201 é o código antigo do Incra, com restos a pagar." },
+  { de: "org:aeronautica", recorte: { uos: ["52111", "52911"] }, nota: "Comando da Aeronáutica (52111) e Fundo Aeronáutico (52911)." },
+  { de: "org:exercito", recorte: { uos: ["52121", "52921"] }, nota: "Comando do Exército (52121) e Fundo do Exército (52921)." },
+  { de: "org:marinha", recorte: { uos: ["52131", "52931", "52932"] }, nota: "Comando da Marinha (52131), Fundo Naval (52931) e Fundo de Desenvolvimento do Ensino Profissional Marítimo (52932)." },
   unidade("org:sudam", "53202"),
   unidade("org:sudene", "53203"),
   unidade("org:sudeco", "53207"),
-  unidade("org:funai", "84201"),
+  { de: "org:funai", recorte: { uos: ["84201", "30202"] }, nota: "A unidade 30202 é o código antigo da Funai, com restos a pagar." },
+  // Fundos que são objetos de competência no mapa e têm unidade orçamentária própria.
+  unidade("obj:fundo-do-regime-geral-de-previdencia-social", "33904", "Paga os benefícios do regime geral de previdência (aposentadorias, pensões, auxílios)."),
+  unidade("obj:fundo-nacional-de-saude", "36901"),
+  unidade("obj:fundo-de-amparo-ao-trabalhador", "40901"),
+  unidade("obj:fundo-nacional-de-assistencia-social", "55901"),
+  unidade("obj:fundo-partidario", "14901"),
 ];
 
 const NOTA_FUNDEB_RETIDO = "A parcela destinada ao Fundeb (CF, art. 212-A, II) é paga na ação 0C33, que reúne a retenção de várias transferências, e não entra aqui.";
@@ -321,12 +336,12 @@ export const FLUXOS: DefFluxo[] = [
   { relacao: "rel:uniao-repassa-complementacao-fundeb", recorte: { uos: ["26298"], acoes: ["00SB"] } },
   { relacao: "rel:fnde-repassa-cotas-salario-educacao-estados", recorte: { uos: ["73107"], acoes: ["0369"], modalidades: ["30"] }, nota: "A ação fica na unidade 73107 (recursos sob supervisão do MEC)." },
   { relacao: "rel:fnde-repassa-cotas-salario-educacao-municipios", recorte: { uos: ["73107"], acoes: ["0369"], modalidades: ["40"] }, nota: "A ação fica na unidade 73107 (recursos sob supervisão do MEC)." },
-  { relacao: "rel:uniao-repassa-recursos-saude-estados", recorte: { uos: ["36901"], modalidades: ["30", "31"] }, nota: "Tudo o que o Fundo Nacional de Saúde pagou a estados e ao DF, fundo a fundo (31) ou não (30)." },
-  { relacao: "rel:uniao-repassa-recursos-saude-municipios", recorte: { uos: ["36901"], modalidades: ["40", "41"] }, nota: "Tudo o que o Fundo Nacional de Saúde pagou a municípios, fundo a fundo (41) ou não (40)." },
-  { relacao: "rel:uniao-repassa-recursos-assistencia-social-estados", recorte: { uos: ["55901"], modalidades: ["30", "31"] }, nota: "Tudo o que o Fundo Nacional de Assistência Social pagou a estados e ao DF." },
-  { relacao: "rel:uniao-repassa-recursos-assistencia-social-municipios", recorte: { uos: ["55901"], modalidades: ["40", "41"] }, nota: "Tudo o que o Fundo Nacional de Assistência Social pagou a municípios." },
-  { relacao: "rel:anp-repassa-royalties-do-petroleo-estados", recorte: { uos: ["73116"], acoes: ["0A53"], modalidades: ["30"] }, nota: "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP)." },
-  { relacao: "rel:anp-repassa-royalties-do-petroleo-municipios", recorte: { uos: ["73116"], acoes: ["0A53"], modalidades: ["40"] }, nota: "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP)." },
+  { relacao: "rel:uniao-repassa-recursos-saude-estados", recorte: { uos: ["36901"], modalidades: ["30", "31", "32", "35", "36"] }, nota: "Tudo o que o Fundo Nacional de Saúde pagou a estados e ao DF, em todas as modalidades de transferência a estados (30, 31, 32, 35 e 36)." },
+  { relacao: "rel:uniao-repassa-recursos-saude-municipios", recorte: { uos: ["36901"], modalidades: ["40", "41", "42", "45", "46"] }, nota: "Tudo o que o Fundo Nacional de Saúde pagou a municípios, em todas as modalidades de transferência a municípios (40, 41, 42, 45 e 46)." },
+  { relacao: "rel:uniao-repassa-recursos-assistencia-social-estados", recorte: { uos: ["55901"], modalidades: ["30", "31", "32", "35", "36"], tambem: [{ uos: ["55101"], acoes: ["00US", "6414", "217M"], modalidades: ["30", "31", "32", "35", "36"] }] }, nota: "O que o Fundo Nacional de Assistência Social pagou a estados e ao DF, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101)." },
+  { relacao: "rel:uniao-repassa-recursos-assistencia-social-municipios", recorte: { uos: ["55901"], modalidades: ["40", "41", "42", "45", "46"], tambem: [{ uos: ["55101"], acoes: ["00US", "6414", "217M"], modalidades: ["40", "41", "42", "45", "46"] }] }, nota: "O que o Fundo Nacional de Assistência Social pagou a municípios, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101)." },
+  { relacao: "rel:anp-repassa-royalties-do-petroleo-estados", recorte: { uos: ["73116"], acoes: ["0A53"], modalidades: ["30"] }, nota: "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). A ação não separa as parcelas por critério de distribuição." },
+  { relacao: "rel:anp-repassa-royalties-do-petroleo-municipios", recorte: { uos: ["73116"], acoes: ["0A53"], modalidades: ["40"] }, nota: "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). A ação não separa as parcelas por critério de distribuição." },
   { relacao: "rel:fat-repassa-recursos-bndes", recorte: { uos: ["40901"], acoes: ["0158"] } },
   { relacao: "rel:tse-repassa-fundo-partidario-partidos", recorte: { uos: ["14901"] } },
 ];
@@ -337,13 +352,19 @@ export const FLUXOS: DefFluxo[] = [
 // põe sob o Ministério da Fazenda.
 const RESERVA = "90000";
 const ehSupervisao = (uo: string) => /^7[1-5]\d{3}$/.test(uo);
-const filtra = (r: Recorte) => (l: Linha) =>
-  l.uo !== "N/A" &&
+// As ações 0Z* são reserva de contingência dentro das unidades: só dotação, nenhum pagamento; ficam
+// fora para não inflar a dotação (em 2025, R$ 34,8 bilhões).
+const ehReserva = (l: Linha) => l.uo === RESERVA || l.acao.startsWith("0Z");
+const casa = (r: Recorte, l: Linha) =>
   (!r.poderes || r.poderes.includes(l.poder)) &&
-  (!r.orgao || (l.orgao === r.orgao && l.uo !== RESERVA)) &&
+  (!r.orgao || l.orgao === r.orgao) &&
   (!r.uos || r.uos.includes(l.uo)) &&
   (!r.acoes || r.acoes.includes(l.acao)) &&
-  (!r.modalidades || r.modalidades.includes(l.modalidade));
+  (!r.modalidades || r.modalidades.includes(l.modalidade)) &&
+  (!r.semIntra || l.modalidade !== "91");
+const filtra = (r: Recorte) => (l: Linha) => l.uo !== "N/A" && !ehReserva(l) && (casa(r, l) || (r.tambem ?? []).some((t) => casa(t, l)));
+/** Ajustes "Extra-SIAFI" sem unidade orçamentária no recorte de Poderes: ficam fora, mas a nota diz quanto. */
+const extraSiafi = (r: Recorte) => (l: Linha) => l.uo === "N/A" && !r.uos && !r.orgao && (!r.poderes || r.poderes.includes(l.poder));
 
 const centavos = (x: number) => Math.round(x * 100) / 100;
 function somar(ls: Linha[]) {
@@ -353,6 +374,7 @@ function somar(ls: Linha[]) {
     despesas_pagas: t("DESPESAS_PAGAS"),
     restos_a_pagar_pagos: t("RESTOS_A_PAGAR_PAGOS"),
     pagamentos_primarios: centavos(ls.filter((l) => l.primaria).reduce((s, l) => s + l.v.PAGAMENTOS_TOTAIS, 0)),
+    pagamentos_financeiros: centavos(ls.filter((l) => l.financeira).reduce((s, l) => s + l.v.PAGAMENTOS_TOTAIS, 0)),
     dotacao_inicial: t("DOTACAO_INICIAL"),
     dotacao_atualizada: t("DOTACAO_ATUALIZADA"),
     despesas_empenhadas: t("DESPESAS_EMPENHADAS"),
@@ -373,7 +395,7 @@ function gerar(verificacaoNotas?: string) {
   const dados = (pasta: string) => join(RAIZ, "dados", pasta);
   const ler = (id: string) => {
     const [prefixo, slug] = id.split(":");
-    const pasta = { ente: "entes", org: "orgaos", rel: "relacoes" }[prefixo]!;
+    const pasta = { ente: "entes", org: "orgaos", rel: "relacoes", obj: "objetos" }[prefixo]!;
     return JSON.parse(readFileSync(join(dados(pasta), `${slug}.json`), "utf8"));
   };
   const verificacao = verificacaoNotas
@@ -389,12 +411,14 @@ function gerar(verificacaoNotas?: string) {
     }
   }
 
-  const recorteJson = (r: Recorte, nota?: string) => ({
+  const recorteJson = (r: Recorte, nota?: string): Record<string, unknown> => ({
     ...(r.poderes ? { poderes: r.poderes } : {}),
     ...(r.orgao ? { orgao_orcamentario: r.orgao } : {}),
     ...(r.uos ? { unidades_orcamentarias: r.uos } : {}),
     ...(r.acoes ? { acoes: r.acoes } : {}),
     ...(r.modalidades ? { modalidades: r.modalidades } : {}),
+    ...(r.semIntra ? { modalidades_excluidas: ["91"] } : {}),
+    ...(r.tambem ? { tambem: r.tambem.map((t) => recorteJson(t)) } : {}),
     ...(nota ? { nota } : {}),
   });
   const dispositivo = `planilha de ${EXERCICIO}, aba "${EXERCICIO}", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo "recorte"`;
@@ -409,7 +433,15 @@ function gerar(verificacaoNotas?: string) {
     const valores = somar(proprias);
     const slug = m.de.split(":")[1];
     const uosProprias = [...new Set(proprias.map((l) => l.uo))].sort();
-    const nota = [m.nota, supervisao.length ? NOTA_SUPERVISAO : null, m.recorte.uos ? null : `Unidades orçamentárias somadas: ${uosProprias.join(", ")}.`]
+    const ajuste = linhas.filter(extraSiafi(m.recorte)).reduce((s, l) => s + l.v.PAGAMENTOS_TOTAIS, 0);
+    const nota = [
+      m.nota,
+      m.recorte.semIntra ? NOTA_AGREGADO : null,
+      supervisao.length ? NOTA_SUPERVISAO : null,
+      Math.abs(ajuste) > 1e6 ? `Ajustes "Extra-SIAFI" sem unidade orçamentária (${reais(ajuste)} no saldo) ficam de fora.` : null,
+      "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora.",
+      m.recorte.orgao ? `Unidades orçamentárias somadas: ${uosProprias.join(", ")}.` : null,
+    ]
       .filter(Boolean)
       .join(" ");
     const entidade = {
@@ -427,7 +459,7 @@ function gerar(verificacaoNotas?: string) {
             sob_supervisao: {
               valores: somar(supervisao),
               unidades_orcamentarias: [...new Set(supervisao.map((l) => l.uo))].sort(),
-              nota: "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47).",
+              nota: `Recursos sob supervisão deste órgão (D47): ${DESCRICAO_SUPERVISAO}.`,
             },
           }
         : {}),
@@ -454,7 +486,7 @@ function gerar(verificacaoNotas?: string) {
       id: `fluxo:${slug}-${EXERCICIO}`,
       tipo: "fluxo",
       nome: `${rel.nome}: valores de ${EXERCICIO}`,
-      resumo: `${reais(valores.pagamentos_totais)} pagos em ${EXERCICIO}.`,
+      resumo: `Pagamentos de ${reais(valores.pagamentos_totais)} em ${EXERCICIO}.`,
       repasse: f.relacao,
       exercicio: EXERCICIO,
       moeda: "BRL",

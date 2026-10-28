@@ -2,25 +2,28 @@
   "id": "met:orcamento-2025-aeronautica",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Aeronáutica",
-  "resumo": "Pagou R$ 28,7 bilhões em 2025; dotação atualizada de R$ 29,9 bilhões.",
+  "resumo": "Pagou R$ 33,5 bilhões em 2025; dotação atualizada de R$ 34,5 bilhões.",
   "de": "org:aeronautica",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 28727879546.05,
-    "despesas_pagas": 27061413333.44,
-    "restos_a_pagar_pagos": 1666466212.61,
-    "pagamentos_primarios": 26634118688.81,
-    "dotacao_inicial": 28388361490,
-    "dotacao_atualizada": 29864317246,
-    "despesas_empenhadas": 29628244969.49,
-    "despesas_liquidadas": 28389696713.8
+    "pagamentos_totais": 33504482371.28,
+    "despesas_pagas": 30256284964.73,
+    "restos_a_pagar_pagos": 3248197406.55,
+    "pagamentos_primarios": 31410721514.04,
+    "pagamentos_financeiros": 2093760857.24,
+    "dotacao_inicial": 32997961049,
+    "dotacao_atualizada": 34514842375,
+    "despesas_empenhadas": 34257943125.75,
+    "despesas_liquidadas": 31666701822.4
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "52111"
-    ]
+      "52111",
+      "52911"
+    ],
+    "nota": "Comando da Aeronáutica (52111) e Fundo Aeronáutico (52911). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

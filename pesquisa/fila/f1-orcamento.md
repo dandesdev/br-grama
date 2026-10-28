@@ -1,7 +1,7 @@
 ---
 id: f1-orcamento
 escopo: "Fase 1 (D44): orçamento executado da União em 2025 por Poder, órgão e unidade orçamentária, e valores pagos pelas relações repassa-recursos (D45 a D48)"
-status: coletada
+status: concluida
 depende_de: [f0-fechamento]
 iniciada_em: 2026-10-28
 concluida_em: 2026-10-28
@@ -15,7 +15,7 @@ concluida_em: 2026-10-28
 - [x] Fontes `fonte:tesouro-despesas-transferencias-uniao` e `fonte:portal-transparencia-orcamento-despesa`, com cópia no Wayback.
 - [x] 143 métricas de orçamento de 2025 e 18 fluxos.
 - [x] Site: seção "Orçamento" no painel de órgãos e entes, valor nas relações de repasse, camada "Orçamento" no mapa e aba "Dinheiro".
-- [ ] Revisão independente: `verificacao-f1-orcamento`.
+- [x] Revisão independente: `verificacao-f1-orcamento` (16 achados aplicados no importador; 149 métricas e 18 fluxos verificados).
 
 ## Diário
 

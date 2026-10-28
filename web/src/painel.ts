@@ -128,7 +128,7 @@ export class Painel {
       const competencia = comp ? `${esc(this.dados.nomeDe("tipo_competencia", comp.tipo))}, para ${esc(this.dados.nomeDe("natureza_competencia", comp.natureza).toLowerCase())}` : "";
       const pasta = r.orgao_exercicio ? `No órgão: ${this.link(r.orgao_exercicio as string)}` : "";
       const f = this.dados.fluxoDe(r.id);
-      const valor = f ? `<strong>${reais((f.valores as ValoresOrcamento).pagamentos_totais)}</strong> pagos em ${f.exercicio}` : "";
+      const valor = f ? `Pagamentos em ${f.exercicio}: <strong>${reais((f.valores as ValoresOrcamento).pagamentos_totais)}</strong>` : "";
       const extra = [valor, competencia, pasta, r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
       return `<li>${ordem}${saindo ? `${verbo} ${this.link(outro)}` : `${this.link(outro)} ${verbo}`}${extra ? `<br><span class="dispositivo">${extra}</span>` : ""}</li>`;
     };
@@ -155,7 +155,7 @@ export class Painel {
       ${linha("Restos a pagar pagos", v.restos_a_pagar_pagos)}
       ${linha("Dotação inicial", v.dotacao_inicial)}
       ${linha("Dotação atualizada", v.dotacao_atualizada)}
-      ${v.pagamentos_primarios !== undefined && Math.abs(v.pagamentos_totais - v.pagamentos_primarios) > 1e6 ? linha("Dos quais, despesa financeira", v.pagamentos_totais - v.pagamentos_primarios) : ""}
+      ${v.pagamentos_financeiros !== undefined && v.pagamentos_financeiros > 1e6 ? linha("Dos quais, despesa financeira", v.pagamentos_financeiros) : ""}
     </dl>`;
   }
 
@@ -168,8 +168,8 @@ export class Painel {
     const recorte = m.recorte as { nota?: string };
     const aberto = this.aberto.has(m.id);
     return `<h3>Orçamento em ${m.exercicio}</h3>
-      <p class="valor-orcamento"><strong>${reais(v.pagamentos_totais)}</strong> pagos</p>
-      ${sup ? `<p class="dispositivo">Mais ${reais(sup.valores.pagamentos_totais)} em recursos sob sua supervisão (encargos financeiros, dívida, transferências e operações de crédito), que a lei orçamentária trata à parte.</p>` : ""}
+      <p class="valor-orcamento">Pagamentos: <strong>${reais(v.pagamentos_totais)}</strong></p>
+      ${sup ? `<p class="dispositivo">Mais ${reais(sup.valores.pagamentos_totais)} em recursos sob sua supervisão (encargos financeiros, aposentadorias e pensões civis, transferências a estados e municípios, operações de crédito e refinanciamento da dívida), que a lei orçamentária trata à parte.</p>` : ""}
       <button class="mais" data-mais="${esc(m.id)}" aria-expanded="${aberto}"><span class="i">i</span> Como se chega a esse número</button>
       <div class="detalhes" ${aberto ? "" : "hidden"}>
         ${this.linhasValores(v)}
@@ -186,7 +186,7 @@ export class Painel {
     const v = f.valores as ValoresOrcamento;
     const aberto = this.aberto.has(f.id);
     return `<h3>Quanto passou em ${f.exercicio}</h3>
-      <p class="valor-orcamento"><strong>${reais(v.pagamentos_totais)}</strong> pagos</p>
+      <p class="valor-orcamento">Pagamentos: <strong>${reais(v.pagamentos_totais)}</strong></p>
       <button class="mais" data-mais="${esc(f.id)}" aria-expanded="${aberto}"><span class="i">i</span> Como se chega a esse número</button>
       <div class="detalhes" ${aberto ? "" : "hidden"}>
         ${this.linhasValores(v)}
@@ -305,7 +305,7 @@ export class Painel {
 
     if (e.tipo === "cargo") partes.push(this.fichaCargo(e));
     if (e.tipo === "orgao") partes.push(this.fichaOrgao(e));
-    if (e.tipo === "orgao" || e.tipo === "ente") partes.push(this.orcamento(id));
+    if (e.tipo === "orgao" || e.tipo === "ente" || e.tipo === "objeto") partes.push(this.orcamento(id));
     if (e.tipo === "objeto") partes.push(this.fichaObjeto(e));
     if (e.tipo === "pessoa") {
       const cargos = this.dados.relacoesSaindo(id).filter((r) => r.relacao === "ocupa");
@@ -415,7 +415,7 @@ export class Painel {
       <h3>Escala (reduzida aqui; no mapa, com o zoom)</h3>
       ${circulo(1e12)}${circulo(1e11)}${circulo(1e10)}
       <h3>O que fica de fora</h3>
-      <p>Órgãos sem unidade orçamentária própria (secretarias, conselhos, a maior parte dos colegiados) e estatais que não dependem do Tesouro, como Caixa, Banco do Brasil e Petrobras, ficam sem círculo. Encargos financeiros, dívida e transferências a estados e municípios aparecem à parte, na aba Dinheiro.</p>
+      <p>Órgãos sem unidade orçamentária própria (secretarias, conselhos, a maior parte dos colegiados) ficam sem círculo. Estatais que não dependem do Tesouro, como Caixa, Banco do Brasil e Petrobras, também: elas entram só no orçamento de investimento (CF, art. 165, § 5º, II), que esta base não traz. Encargos financeiros, aposentadorias e pensões civis, transferências a estados e municípios, operações de crédito e a dívida aparecem à parte, na aba Dinheiro.</p>
       <p><span class="dispositivo">Fonte: Tesouro Nacional, Despesas e Transferências Totais da União.</span></p>`;
   }
 

@@ -1,0 +1,48 @@
+{
+  "id": "cargo:ouvidor-geral-da-camara-dos-deputados",
+  "tipo": "cargo",
+  "nome": "Ouvidor-Geral da Câmara dos Deputados",
+  "resumo": "Deputado que dirige a Ouvidoria Parlamentar; pode pedir informações e documentos a qualquer órgão da Câmara e promover diligências.",
+  "detalhes": "A demora injustificada em atender seus pedidos pode levar à responsabilização da autoridade ou do servidor. Dois Ouvidores Substitutos o auxiliam.",
+  "orgao": "org:ouvidoria-parlamentar-da-camara",
+  "provimento": "designacao",
+  "provimento_nota": "Designado pelo Presidente da Câmara entre os deputados, a cada dois anos, no início da sessão legislativa (RICD, art. 21-B).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "reconducao": "vedada no período subsequente"
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputado federal",
+      "fontes": []
+    },
+    {
+      "texto": "não ser suplente convocado em substituição",
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 243"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 21-B e 21-C; art. 243"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-03-14",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 19/2001, que criou a Ouvidoria."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

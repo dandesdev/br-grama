@@ -1,0 +1,28 @@
+{
+  "id": "rel:conselho-superior-do-mpf-exonera-corregedor-geral-do-mpf",
+  "tipo": "relacao",
+  "nome": "Destituição do Corregedor-Geral do MPF",
+  "relacao": "exonera",
+  "de": "org:conselho-superior-do-mpf",
+  "para": "cargo:corregedor-geral-do-mpf",
+  "condicao": "Antes do fim do mandato, por iniciativa do PGR.",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 57, V; art. 64, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:altineu-cortes-ocupa-primeiro-vice-presidente-da-camara",
+  "tipo": "relacao",
+  "nome": "Altineu Côrtes ocupa o cargo de Primeiro Vice-Presidente da Câmara dos Deputados",
+  "relacao": "ocupa",
+  "de": "pessoa:altineu-cortes",
+  "para": "cargo:primeiro-vice-presidente-da-camara-dos-deputados",
+  "vigencia": {
+    "de": "2025-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-mesa-legislatura-57",
+      "dispositivo": "título '1º Vice-Presidente', dataInicio 2025-02-01, dataFim null",
+      "nota": "consultada de novo em 2026-10-28; cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/camara-api-legislaturas-57-mesa.json"
+    }
+  ],
+  "confianca": "oficial",
+  "detalhes": "Eleito para a Mesa no segundo biênio da 57ª legislatura (2025–2027).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-ministerio-de-portos-e-aeroportos",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Ministério de Portos e Aeroportos",
-  "resumo": "Pagou R$ 1,9 bilhão em 2025; dotação atualizada de R$ 7,4 bilhões.",
+  "resumo": "Pagou R$ 1,9 bilhão em 2025; dotação atualizada de R$ 6,2 bilhões.",
   "de": "org:ministerio-de-portos-e-aeroportos",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 1441535135.45,
     "restos_a_pagar_pagos": 434660366.82,
     "pagamentos_primarios": 1816378206,
-    "dotacao_inicial": 4495662195.99,
-    "dotacao_atualizada": 7421852023.99,
+    "pagamentos_financeiros": 59817296.27,
+    "dotacao_inicial": 2634633011.99,
+    "dotacao_atualizada": 6245486059.99,
     "despesas_empenhadas": 6080591141.7,
     "despesas_liquidadas": 1561344217.11
   },
@@ -23,6 +24,7 @@
       "despesas_pagas": 3069892026.78,
       "restos_a_pagar_pagos": 0,
       "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 3069892026.78,
       "dotacao_inicial": 9324975091,
       "dotacao_atualizada": 9324975091,
       "despesas_empenhadas": 3069892026.78,
@@ -31,11 +33,11 @@
     "unidades_orcamentarias": [
       "74904"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "68000",
-    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 39254, 39902, 68101, 68201, 68213, 68901, 68902."
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 39254, 39902, 68101, 68201, 68213, 68901, 68902."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -49,9 +51,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

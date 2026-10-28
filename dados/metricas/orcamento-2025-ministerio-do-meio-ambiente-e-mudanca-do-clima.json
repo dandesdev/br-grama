@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-ministerio-do-meio-ambiente-e-mudanca-do-clima",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Ministério do Meio Ambiente e Mudança do Clima",
-  "resumo": "Pagou R$ 4,1 bilhões em 2025; dotação atualizada de R$ 4,8 bilhões.",
+  "resumo": "Pagou R$ 4,1 bilhões em 2025; dotação atualizada de R$ 4,4 bilhões.",
   "de": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 3591380633.98,
     "restos_a_pagar_pagos": 494134620.19,
     "pagamentos_primarios": 3884902664.18,
-    "dotacao_inicial": 4230059934,
-    "dotacao_atualizada": 4794528797,
+    "pagamentos_financeiros": 200612589.99,
+    "dotacao_inicial": 3748622192,
+    "dotacao_atualizada": 4381089826,
     "despesas_empenhadas": 4266866283.27,
     "despesas_liquidadas": 3848019838.37
   },
@@ -23,6 +24,7 @@
       "despesas_pagas": 15595820925.72,
       "restos_a_pagar_pagos": 3102944345.24,
       "pagamentos_primarios": 11162930.53,
+      "pagamentos_financeiros": 18687602340.43,
       "dotacao_inicial": 21240463487,
       "dotacao_atualizada": 26562869814,
       "despesas_empenhadas": 26540820925.72,
@@ -32,11 +34,11 @@
       "73111",
       "74916"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "44000",
-    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 44101, 44102, 44201, 44206, 44207, 44901, 44902."
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 44101, 44102, 44201, 44206, 44207, 44901, 44902."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -50,9 +52,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

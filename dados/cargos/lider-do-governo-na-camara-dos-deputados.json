@@ -1,0 +1,40 @@
+{
+  "id": "cargo:lider-do-governo-na-camara-dos-deputados",
+  "tipo": "cargo",
+  "nome": "Líder do Governo na Câmara dos Deputados",
+  "resumo": "Deputado indicado pelo Presidente da República para representar o Governo nas votações da Câmara; tem 20 vice-líderes.",
+  "detalhes": "Pode usar da palavra, participar sem voto de qualquer comissão e encaminhar votações no Plenário. Integra o Colégio de Líderes com voz, mas sem voto.",
+  "orgao": "org:liderancas-da-camara-dos-deputados",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "O Presidente da República indica um deputado para a Liderança do Governo, composta de Líder e de 20 Vice-Líderes (RICD, art. 11).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo."
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputado federal",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 11; art. 20, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previsto no texto original do RICD (Resolução nº 17/1989)."
+  },
+  "confianca": "oficial",
+  "notas": "Provimento: o RICD diz que o Presidente 'poderá indicar', sem aprovação de outro órgão; 'nomeacao-livre' é o termo mais próximo. Ocupante não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

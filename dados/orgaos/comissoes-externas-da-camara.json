@@ -1,0 +1,40 @@
+{
+  "id": "org:comissoes-externas-da-camara",
+  "tipo": "orgao",
+  "nome": "Comissões externas da Câmara dos Deputados",
+  "resumo": "Comissões temporárias que representam a Câmara em missão autorizada no país ou no exterior.",
+  "detalhes": "São instituídas pelo Presidente da Câmara, de ofício ou a pedido de deputado; dependem do Plenário quando geram custo para a Casa. A missão dura no máximo oito sessões no país e trinta no exterior.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-da-camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 33, III"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 33; art. 38"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null,
+    "nota": "Previstas no texto original do RICD."
+  },
+  "confianca": "oficial",
+  "notas": "Nó agregado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

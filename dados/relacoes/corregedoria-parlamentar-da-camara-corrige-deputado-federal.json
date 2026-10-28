@@ -1,0 +1,26 @@
+{
+  "id": "rel:corregedoria-parlamentar-da-camara-corrige-deputado-federal",
+  "tipo": "relacao",
+  "nome": "Corregedoria Parlamentar apura infrações de deputados",
+  "relacao": "corrige",
+  "de": "org:corregedoria-parlamentar-da-camara",
+  "para": "cargo:deputado-federal",
+  "condicao": "Sindicância ou inquérito sobre ilícitos no âmbito da Câmara que envolvam deputados; a pedido do Presidente nos excessos disciplinares. A punição por quebra de decoro cabe ao Conselho de Ética e ao Plenário.",
+  "vigencia": {
+    "de": "2013-03-26",
+    "ate": null,
+    "incerta": true
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 21-F, I e III; art. 268"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

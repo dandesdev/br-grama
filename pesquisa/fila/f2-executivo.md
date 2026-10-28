@@ -1,8 +1,10 @@
 ---
 id: f2-executivo
 escopo: "Fase 2 (D49): Lei 14.600/2023 (Presidência e ministérios), Decreto-Lei 200/1967 e leis das agências reguladoras"
-status: pendente
+status: em-andamento
 depende_de: [f0-executivo, f0-administracao-indireta]
+iniciada_em: 2026-10-28
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -29,3 +31,8 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 ## Cobertura
 
 ## Diário
+- 2026-10-28 08:37 — iniciada; lidos CLAUDE.md, instruções (com a Fase 2), D01 a D50, modelo de dados, protocolo e vocabulários
+- 2026-10-28 08:55 — cópias baixadas em pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/ (Lei 14.600, DL 200, Lei 9.986, Lei 13.848, leis de criação das agências e decretos de estrutura dos ministérios supervisores); curl falhou (conexão resetada), baixado com Invoke-WebRequest
+- 2026-10-28 08:48 — gravado norma:mp-1154-2023 (para datar a criação dos ministérios de 2023)
+- 2026-10-28 08:49 — gravado norma:lei-14816-2024
+- 2026-10-28 08:51 — editados os 31 ministérios do art. 17 (exceto a CGU): detalhes com as áreas de competência da Lei 14.600 (D50), incisos nas fontes e, quando criados em 2023, vigencia.de pela MP 1.154/2023 (arts. 51 a 53) ou pela MP 1.187/2023 (MEMP)

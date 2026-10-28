@@ -12,6 +12,7 @@
     "despesas_pagas": 4517071733.01,
     "restos_a_pagar_pagos": 426293667.52,
     "pagamentos_primarios": 4563250206.69,
+    "pagamentos_financeiros": 380115193.84,
     "dotacao_inicial": 4642856825,
     "dotacao_atualizada": 5070658435,
     "despesas_empenhadas": 5062297291.05,
@@ -19,7 +20,7 @@
   },
   "recorte": {
     "orgao_orcamentario": "63000",
-    "nota": "A AGU é função essencial à Justiça, mas o orçamento dela fica no Executivo. Unidades orçamentárias somadas: 63101."
+    "nota": "A AGU é função essencial à Justiça, mas o orçamento dela fica no Executivo. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 63101."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -33,9 +34,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

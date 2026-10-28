@@ -1,0 +1,38 @@
+{
+  "id": "cargo:procuradora-da-mulher-da-camara-dos-deputados",
+  "tipo": "cargo",
+  "nome": "Procuradora da Mulher da Câmara dos Deputados",
+  "resumo": "Deputada eleita pelas deputadas para dirigir a Procuradoria da Mulher da Câmara, com três Procuradoras Adjuntas.",
+  "orgao": "org:procuradoria-da-mulher-da-camara",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Eleita pelas deputadas na primeira quinzena da 1ª e da 3ª sessão legislativa da legislatura (RICD, art. 20-B).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "reconducao": "vedada; não conta como recondução a eleição em outra legislatura"
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputada federal",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 20-B; art. 243"
+    }
+  ],
+  "vigencia": {
+    "de": "2013-07-10",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 31/2013."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:camara-presta-contas-a-tcu",
+  "tipo": "relacao",
+  "nome": "Câmara dos Deputados presta contas ao TCU",
+  "relacao": "presta-contas-a",
+  "de": "org:camara-dos-deputados",
+  "para": "org:tcu",
+  "condicao": "A Mesa encaminha a prestação de contas de cada exercício; o Presidente a envia até 30 de junho do ano seguinte.",
+  "vigencia": {
+    "de": "1989-09",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 15, XXVII; art. 265, § 4º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 70, parágrafo único; art. 71, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

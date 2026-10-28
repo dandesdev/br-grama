@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2025-fundo-nacional-de-assistencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Fundo Nacional de Assistência Social",
+  "resumo": "Pagou R$ 130,7 bilhões em 2025; dotação atualizada de R$ 131,3 bilhões.",
+  "de": "obj:fundo-nacional-de-assistencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 130660206778.92,
+    "despesas_pagas": 125050939405.24,
+    "restos_a_pagar_pagos": 5609267373.68,
+    "pagamentos_primarios": 130660206778.92,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 122176255803,
+    "dotacao_atualizada": 131285964473,
+    "despesas_empenhadas": 131129325080.86,
+    "despesas_liquidadas": 130379609446.56
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "55901"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-28",
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
+  }
+}

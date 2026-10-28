@@ -35,7 +35,12 @@
   "fontes": [
     {
       "ref": "norma:lei-14600-2023",
-      "dispositivo": "art. 17, XII-A; art. 30-A; art. 18, I"
+      "dispositivo": "art. 17, XII-A; art. 30-A, I a XIV, e §§ 1º a 3º; art. 18, I"
+    },
+    {
+      "ref": "norma:lei-14816-2024",
+      "dispositivo": "art. 1º",
+      "nota": "criação do órgão"
     }
   ],
   "estrutura_continua": [
@@ -46,21 +51,23 @@
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "2023-09-13",
     "ate": null,
-    "nota": "Órgão listado na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+    "incerta": true,
+    "nota": "Criado por desmembramento do Ministério do Desenvolvimento, Indústria, Comércio e Serviços pela MP 1.187, de 13/9/2023, em vigor na publicação (art. 6º), convertida na Lei 14.816/2024 (art. 1º). A data de publicação da MP no DOU não foi conferida; usamos a da assinatura."
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; nome e inciso do art. 17 ou 2º e 18 da Lei 14.600/2023 (texto compilado até a Lei 15.352/2026) conferidos; resumo conferido no artigo de competências; sigla conferida no SIORG (resumida, baixada em 2026-10-23); decreto de estrutura regimental vigente em 2026-10-01 conferido; link de mais_informacoes responde"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "detalhes com as áreas de competência (D50); vigencia.de pela criação na MP 1.187/2023 (Lei 14.816/2024, art. 1º); antes verificado em verificacao-f0-executivo"
   },
   "mais_informacoes": [
     {
       "titulo": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (gov.br)",
       "url": "https://www.gov.br/memp/pt-br"
     }
-  ]
+  ],
+  "detalhes": "Pela Lei 14.600/2023, coordena as políticas de apoio ao empreendedorismo, às microempresas e empresas de pequeno porte, ao artesanato e ao microempreendedor, inclusive o tratamento diferenciado que a Constituição lhes garante, a formalização, o microcrédito e o acesso a mercados. Cuida também do registro público de empresas mercantis; o Sebrae apoia a implementação e a avaliação dessas políticas."
 }

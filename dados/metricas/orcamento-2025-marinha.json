@@ -2,25 +2,29 @@
   "id": "met:orcamento-2025-marinha",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Marinha",
-  "resumo": "Pagou R$ 33,2 bilhões em 2025; dotação atualizada de R$ 34,1 bilhões.",
+  "resumo": "Pagou R$ 35,1 bilhões em 2025; dotação atualizada de R$ 36,2 bilhões.",
   "de": "org:marinha",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 33166181292.18,
-    "despesas_pagas": 31103868310.07,
-    "restos_a_pagar_pagos": 2062312982.11,
-    "pagamentos_primarios": 32420560613.86,
-    "dotacao_inicial": 32075421879,
-    "dotacao_atualizada": 34055085921,
-    "despesas_empenhadas": 33363418901.67,
-    "despesas_liquidadas": 32809192172.27
+    "pagamentos_totais": 35073862504,
+    "despesas_pagas": 32461862553.87,
+    "restos_a_pagar_pagos": 2611999950.13,
+    "pagamentos_primarios": 34328241825.68,
+    "pagamentos_financeiros": 745620678.32,
+    "dotacao_inicial": 34238048412,
+    "dotacao_atualizada": 36175290286,
+    "despesas_empenhadas": 35451642152.85,
+    "despesas_liquidadas": 34203311586.11
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "52131"
-    ]
+      "52131",
+      "52931",
+      "52932"
+    ],
+    "nota": "Comando da Marinha (52131), Fundo Naval (52931) e Fundo de Desenvolvimento do Ensino Profissional Marítimo (52932). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +38,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

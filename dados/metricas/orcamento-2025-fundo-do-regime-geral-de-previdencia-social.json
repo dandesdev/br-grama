@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2025-fundo-do-regime-geral-de-previdencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Fundo do Regime Geral de Previdência Social",
+  "resumo": "Pagou R$ 1,0 trilhão em 2025; dotação atualizada de R$ 1,0 trilhão.",
+  "de": "obj:fundo-do-regime-geral-de-previdencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1026330917365.04,
+    "despesas_pagas": 968207854969.64,
+    "restos_a_pagar_pagos": 58123062395.4,
+    "pagamentos_primarios": 1026330917365.04,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 1020029694123,
+    "dotacao_atualizada": 1030628959580,
+    "despesas_empenhadas": 1030366444984.88,
+    "despesas_liquidadas": 1028209249046.92
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "33904"
+    ],
+    "nota": "Paga os benefícios do regime geral de previdência (aposentadorias, pensões, auxílios). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-28",
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
+  }
+}

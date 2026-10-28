@@ -1,0 +1,38 @@
+{
+  "id": "org:colegio-de-procuradores-do-trabalho",
+  "tipo": "orgao",
+  "nome": "Colégio de Procuradores do Trabalho",
+  "resumo": "Reúne todos os membros em atividade do MPT. Forma a lista tríplice para Procurador-Geral do Trabalho e as listas sêxtuplas para o TST e os TRTs.",
+  "detalhes": "É presidido pelo Procurador-Geral do Trabalho (LC 75/1993, art. 93). Por voto plurinominal, facultativo e secreto, forma a lista tríplice para Procurador-Geral, as listas sêxtuplas para as vagas do MPT no TST e nos TRTs e elege quatro membros do Conselho Superior entre os subprocuradores-gerais do Trabalho (art. 94). Vota sem se reunir, na forma do regimento interno, exigida a maioria absoluta dos eleitores (art. 94, § 1º).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpt",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 85, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 93 e 94"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

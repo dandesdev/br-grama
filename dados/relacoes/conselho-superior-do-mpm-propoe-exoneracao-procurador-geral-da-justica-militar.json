@@ -1,0 +1,29 @@
+{
+  "id": "rel:conselho-superior-do-mpm-propoe-exoneracao-procurador-geral-da-justica-militar",
+  "tipo": "relacao",
+  "nome": "Proposta de exoneração do Procurador-Geral da Justiça Militar",
+  "relacao": "propoe-exoneracao",
+  "de": "org:conselho-superior-do-mpm",
+  "para": "cargo:procurador-geral-da-justica-militar",
+  "condicao": "Antes do fim do mandato, a proposta vai ao Procurador-Geral da República.",
+  "quorum": {
+    "regra": "dois-tercos",
+    "votacao": "secreta"
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 121, parágrafo único; art. 131, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

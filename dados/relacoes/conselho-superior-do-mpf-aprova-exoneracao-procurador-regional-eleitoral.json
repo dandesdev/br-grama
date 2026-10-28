@@ -1,0 +1,28 @@
+{
+  "id": "rel:conselho-superior-do-mpf-aprova-exoneracao-procurador-regional-eleitoral",
+  "tipo": "relacao",
+  "nome": "Aprovação da destituição do Procurador Regional Eleitoral",
+  "relacao": "aprova-exoneracao",
+  "de": "org:conselho-superior-do-mpf",
+  "para": "cargo:procurador-regional-eleitoral",
+  "condicao": "A destituição antes do fim do mandato, por iniciativa do Procurador-Geral Eleitoral, depende da anuência da maioria absoluta do Conselho.",
+  "quorum": {
+    "regra": "maioria-absoluta"
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 57, IV; art. 76, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

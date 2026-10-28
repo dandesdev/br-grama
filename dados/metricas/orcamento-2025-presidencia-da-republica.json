@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-presidencia-da-republica",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Presidência da República",
-  "resumo": "Pagou R$ 4,0 bilhões em 2025; dotação atualizada de R$ 4,5 bilhões.",
+  "resumo": "Pagou R$ 4,0 bilhões em 2025; dotação atualizada de R$ 4,3 bilhões.",
   "de": "org:presidencia-da-republica",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,8 +12,9 @@
     "despesas_pagas": 3372376894.15,
     "restos_a_pagar_pagos": 638430469.65,
     "pagamentos_primarios": 3958096170.48,
-    "dotacao_inicial": 4484411549,
-    "dotacao_atualizada": 4463173807,
+    "pagamentos_financeiros": 52711193.32,
+    "dotacao_inicial": 4257775181,
+    "dotacao_atualizada": 4301753367,
     "despesas_empenhadas": 4222192016.94,
     "despesas_liquidadas": 3514153653.95
   },
@@ -23,6 +24,7 @@
       "despesas_pagas": 16582562550.06,
       "restos_a_pagar_pagos": 0,
       "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 16657821719.17,
       "dotacao_inicial": 31198908477,
       "dotacao_atualizada": 44196909075,
       "despesas_empenhadas": 44093358679.79,
@@ -33,11 +35,11 @@
       "74906",
       "74921"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "20000",
-    "nota": "Inclui a Abin e a EBC, que têm unidade orçamentária própria no órgão orçamentário da Presidência. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 20101, 20118, 20415, 20927, 60101."
+    "nota": "Inclui a Abin e a EBC, que têm unidade orçamentária própria no órgão orçamentário da Presidência. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 20101, 20118, 20415, 20927, 60101."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -51,9 +53,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

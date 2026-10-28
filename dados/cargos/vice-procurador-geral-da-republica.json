@@ -1,0 +1,52 @@
+{
+  "id": "cargo:vice-procurador-geral-da-republica",
+  "tipo": "cargo",
+  "nome": "Vice-Procurador-Geral da República",
+  "resumo": "Subprocurador-geral designado pelo Procurador-Geral da República para substituí-lo nos impedimentos. É membro nato do Conselho Superior do MPF.",
+  "detalhes": "Integra o Conselho Superior do MPF como membro nato e o Conselho de Assessoramento Superior do MPU (LC 75/1993, arts. 28 e 54, I). Se o cargo de PGR vagar, não é ele quem o exerce: até a nova nomeação, assume o Vice-Presidente do Conselho Superior do MPF (art. 27).",
+  "orgao": "org:ministerio-publico-da-uniao",
+  "provimento": "designacao",
+  "vagas": 1,
+  "provimento_nota": "Designado pelo Procurador-Geral da República entre os integrantes da carreira com mais de 35 anos (LC 75/1993, art. 27); a função é privativa de subprocurador-geral da República (art. 67, I).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "A lei não fixa mandato: a designação é do PGR (art. 27)."
+  },
+  "requisitos": [
+    {
+      "texto": "subprocurador-geral da República",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 67, I"
+        }
+      ]
+    },
+    {
+      "texto": "mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 27"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 27, 28, 54, I, e 67, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

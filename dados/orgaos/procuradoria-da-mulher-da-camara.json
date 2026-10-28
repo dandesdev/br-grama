@@ -1,0 +1,40 @@
+{
+  "id": "org:procuradoria-da-mulher-da-camara",
+  "tipo": "orgao",
+  "nome": "Procuradoria da Mulher da Câmara dos Deputados",
+  "resumo": "Recebe denúncias de violência e discriminação contra a mulher e fiscaliza programas federais de igualdade de gênero.",
+  "detalhes": "Formada por uma Procuradora e três Procuradoras Adjuntas eleitas pelas deputadas no início da 1ª e da 3ª sessão legislativa, para dois anos, sem recondução. Também promove estudos sobre a sub-representação feminina na política e coopera com organismos nacionais e internacionais.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:secretaria-da-mulher-da-camara",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 20-A"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 20-A, 20-B e 20-D"
+    }
+  ],
+  "vigencia": {
+    "de": "2013-07-10",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 31/2013, que criou o órgão no RICD; o dia exato da publicação não foi conferido."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

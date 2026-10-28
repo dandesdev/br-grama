@@ -2,7 +2,7 @@
   "id": "fluxo:anp-repassa-royalties-do-petroleo-estados-2025",
   "tipo": "fluxo",
   "nome": "Royalties do petróleo e gás entregues aos estados: valores de 2025",
-  "resumo": "R$ 31,1 bilhões pagos em 2025.",
+  "resumo": "Pagamentos de R$ 31,1 bilhões em 2025.",
   "repasse": "rel:anp-repassa-royalties-do-petroleo-estados",
   "exercicio": 2025,
   "moeda": "BRL",
@@ -11,6 +11,7 @@
     "despesas_pagas": 28135702383.08,
     "restos_a_pagar_pagos": 2987948647.35,
     "pagamentos_primarios": 31123651030.43,
+    "pagamentos_financeiros": 0,
     "dotacao_inicial": 36649584849.69,
     "dotacao_atualizada": 35996195035.69,
     "despesas_empenhadas": 33972270776.32,
@@ -26,7 +27,7 @@
     "modalidades": [
       "30"
     ],
-    "nota": "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). Ações somadas: 0A53 (TRANSFERENCIAS DAS PARTICIPACOES PELA PRODUCAO DE PETROLEO E)."
+    "nota": "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). A ação não separa as parcelas por critério de distribuição. Ações somadas: 0A53 (TRANSFERENCIAS DAS PARTICIPACOES PELA PRODUCAO DE PETROLEO E)."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -40,9 +41,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

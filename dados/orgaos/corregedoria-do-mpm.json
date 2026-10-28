@@ -1,0 +1,39 @@
+{
+  "id": "org:corregedoria-do-mpm",
+  "tipo": "orgao",
+  "nome": "Corregedoria do Ministério Público Militar",
+  "resumo": "Fiscaliza a atividade funcional e a conduta dos membros do MPM. É dirigida pelo Corregedor-Geral.",
+  "detalhes": "Faz correições e sindicâncias, instaura inquérito contra integrante da carreira e propõe ao Conselho Superior o processo administrativo; acompanha o estágio probatório e pode propor a exoneração de quem não cumprir suas condições (LC 75/1993, arts. 137 e 139).",
+  "tipo_orgao": "outro",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpm",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 118, V"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 137 e 139"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário não tem termo para órgão interno do Ministério Público.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

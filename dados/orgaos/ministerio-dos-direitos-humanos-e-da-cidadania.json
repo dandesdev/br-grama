@@ -35,7 +35,12 @@
   "fontes": [
     {
       "ref": "norma:lei-14600-2023",
-      "dispositivo": "art. 17, X; art. 28; art. 18, I"
+      "dispositivo": "art. 17, X; art. 28, I a VI; art. 18, I; art. 51, V, b"
+    },
+    {
+      "ref": "norma:mp-1154-2023",
+      "dispositivo": "art. 51, V, b",
+      "nota": "criação do órgão"
     }
   ],
   "estrutura_continua": [
@@ -46,21 +51,23 @@
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "2023-01-01",
     "ate": null,
-    "nota": "Órgão listado na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+    "incerta": true,
+    "nota": "Criado por desmembramento do Ministério da Mulher, da Família e dos Direitos Humanos pela MP 1.154, de 1º/1/2023, em vigor na publicação (art. 73), convertida na Lei 14.600/2023 (art. 51, V, b). A data de publicação da MP no DOU não foi conferida; usamos a da assinatura."
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; nome e inciso do art. 17 ou 2º e 18 da Lei 14.600/2023 (texto compilado até a Lei 15.352/2026) conferidos; resumo conferido no artigo de competências; sigla conferida no SIORG (resumida, baixada em 2026-10-23); decreto de estrutura regimental vigente em 2026-10-01 conferido; link de mais_informacoes responde"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "detalhes com as áreas de competência (D50); vigencia.de pela criação na MP 1.154/2023 (Lei 14.600, art. 51, V, b); antes verificado em verificacao-f0-executivo"
   },
   "mais_informacoes": [
     {
       "titulo": "Ministério dos Direitos Humanos e da Cidadania (gov.br)",
       "url": "https://www.gov.br/mdh/pt-br/"
     }
-  ]
+  ],
+  "detalhes": "Pela Lei 14.600/2023, formula políticas de promoção dos direitos humanos, em especial da pessoa idosa, da criança e do adolescente, da pessoa com deficiência, das pessoas LGBTQIA+, da população em situação de rua e de outros grupos vulnerabilizados. Exerce a ouvidoria nacional de direitos humanos e promove a educação em direitos humanos e o combate à violência, ao preconceito e à discriminação."
 }

@@ -123,11 +123,11 @@ for (const { entidade, caminho } of entidades.values()) {
   });
 }
 
-// Métricas medem órgão ou ente; fluxos ficam presos a uma relação repassa-recursos (D45).
+// Métricas medem órgão, ente ou fundo (objeto); fluxos ficam presos a uma relação repassa-recursos (D45).
 for (const { entidade, caminho } of entidades.values()) {
   if (entidade.tipo === "metrica") {
     const alvo = entidades.get(entidade.de as string)?.entidade;
-    if (alvo && alvo.tipo !== "orgao" && alvo.tipo !== "ente") erro(caminho, `métrica deve medir um órgão ou ente, não ${alvo.tipo}`);
+    if (alvo && !(alvo.tipo === "orgao" || alvo.tipo === "ente" || alvo.tipo === "objeto")) erro(caminho, `métrica deve medir um órgão, ente ou fundo, não ${alvo.tipo}`);
   }
   if (entidade.tipo === "fluxo") {
     const rel = entidades.get(entidade.repasse as string)?.entidade;

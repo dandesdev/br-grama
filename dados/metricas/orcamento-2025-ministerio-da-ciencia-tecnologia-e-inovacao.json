@@ -12,8 +12,9 @@
     "despesas_pagas": 10833577647.88,
     "restos_a_pagar_pagos": 2455918502.73,
     "pagamentos_primarios": 13088440815.72,
-    "dotacao_inicial": 13718873063,
-    "dotacao_atualizada": 13548126382,
+    "pagamentos_financeiros": 201055334.89,
+    "dotacao_inicial": 13590726933,
+    "dotacao_atualizada": 13458514091,
     "despesas_empenhadas": 13394827615.65,
     "despesas_liquidadas": 11714325547.59
   },
@@ -23,6 +24,7 @@
       "despesas_pagas": 9146210036,
       "restos_a_pagar_pagos": 0,
       "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 9146210036,
       "dotacao_inicial": 7334389513,
       "dotacao_atualizada": 23334389513,
       "despesas_empenhadas": 23334389513,
@@ -31,11 +33,11 @@
     "unidades_orcamentarias": [
       "74910"
     ],
-    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
   },
   "recorte": {
     "orgao_orcamentario": "24000",
-    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 24101, 24201, 24204, 24205, 24209, 24901."
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 24101, 24201, 24204, 24205, 24209, 24901."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -49,9 +51,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

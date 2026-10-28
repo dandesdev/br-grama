@@ -2,7 +2,7 @@
   "id": "met:orcamento-2025-trt-14",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Tribunal Regional do Trabalho da 14ª Região",
-  "resumo": "Pagou R$ 486,4 milhões em 2025; dotação atualizada de R$ 505,5 milhões.",
+  "resumo": "Pagou R$ 486,4 milhões em 2025; dotação atualizada de R$ 504,4 milhões.",
   "de": "org:trt-14",
   "medida": "orcamento-executado",
   "exercicio": 2025,
@@ -12,15 +12,17 @@
     "despesas_pagas": 473322973.22,
     "restos_a_pagar_pagos": 13043276.25,
     "pagamentos_primarios": 451687458.45,
-    "dotacao_inicial": 470030492,
-    "dotacao_atualizada": 505491765,
+    "pagamentos_financeiros": 34678791.02,
+    "dotacao_inicial": 466334569,
+    "dotacao_atualizada": 504382988,
     "despesas_empenhadas": 504028217.67,
     "despesas_liquidadas": 489638882.15
   },
   "recorte": {
     "unidades_orcamentarias": [
       "15115"
-    ]
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

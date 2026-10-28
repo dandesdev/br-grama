@@ -1,0 +1,46 @@
+{
+  "id": "org:camaras-de-coordenacao-e-revisao-do-mpf",
+  "tipo": "orgao",
+  "nome": "Câmaras de Coordenação e Revisão do MPF",
+  "resumo": "Órgãos setoriais do MPF, organizados por função ou matéria, que coordenam a atuação dos membros e revisam arquivamentos de inquéritos.",
+  "detalhes": "Cada câmara tem três membros com mandato de dois anos, um indicado pelo PGR e dois pelo Conselho Superior, de preferência do último grau da carreira; o PGR designa o coordenador entre eles (LC 75/1993, arts. 60 e 61). Manifestam-se sobre o arquivamento de inquérito policial, inquérito parlamentar ou peças de informação, salvo nos casos de competência originária do PGR, e decidem os conflitos de atribuição entre órgãos do MPF (art. 62). Podem funcionar reunidas, formando o Conselho Institucional (art. 43, parágrafo único).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpf",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 43, IV"
+        }
+      ]
+    }
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 59",
+      "nota": "as câmaras são criadas por ato normativo, por função ou por matéria"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 43, IV e parágrafo único, e 58 a 62"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: a LC 75/1993 não fixa quantas câmaras existem nem os temas; número atual não pesquisado (fase 4, D09).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

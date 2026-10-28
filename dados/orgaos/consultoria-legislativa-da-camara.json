@@ -1,0 +1,39 @@
+{
+  "id": "org:consultoria-legislativa-da-camara",
+  "tipo": "orgao",
+  "nome": "Consultoria Legislativa da Câmara dos Deputados",
+  "resumo": "Corpo de consultores concursados que dá assessoramento técnico-legislativo à Mesa, às comissões, às lideranças e aos deputados.",
+  "detalhes": "Organiza-se em núcleos temáticos de pelo menos quatro Consultores Legislativos, admitidos por concurso público de provas e títulos, e tem um núcleo de assessoramento às comissões.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:camara-dos-deputados",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 275"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 275 e 278"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; a redação atual do art. 275 é da Resolução nº 26/2013."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

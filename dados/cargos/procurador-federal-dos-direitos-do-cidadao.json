@@ -1,0 +1,54 @@
+{
+  "id": "cargo:procurador-federal-dos-direitos-do-cidadao",
+  "tipo": "cargo",
+  "nome": "Procurador Federal dos Direitos do Cidadão",
+  "sigla": "PFDC",
+  "resumo": "Subprocurador-geral que coordena, no MPF, a defesa dos direitos constitucionais do cidadão diante dos Poderes Públicos federais e dos prestadores de serviço público.",
+  "detalhes": "Age de ofício ou por representação: notifica a autoridade, pede informações e, se concluir que direitos constitucionais foram desrespeitados e a notificação não for atendida, representa à autoridade competente para que responsabilize quem agiu ou se omitiu (LC 75/1993, arts. 12 a 14, 39 e 42). Expede instruções aos procuradores regionais dos direitos do cidadão, designados pelo PGR em cada estado e no DF (art. 41). Não pode levar a juízo a defesa de direitos individuais: remete o caso a outro órgão do MP ou à Defensoria (art. 15).",
+  "orgao": "org:mpf",
+  "provimento": "designacao",
+  "vagas": 1,
+  "provimento_nota": "O PGR designa um subprocurador-geral da República depois de aprovação prévia do nome pelo Conselho Superior do MPF. Só pode ser dispensado antes do fim do prazo por iniciativa do PGR, com a anuência da maioria absoluta do Conselho (LC 75/1993, arts. 40, 49, III, e 57, II).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "uma recondução, precedida de nova decisão do Conselho Superior",
+    "nota": "LC 75/1993, art. 40."
+  },
+  "requisitos": [
+    {
+      "texto": "subprocurador-geral da República",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 40 e 67, IV"
+        }
+      ]
+    },
+    {
+      "texto": "nome aprovado previamente pelo Conselho Superior do MPF",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 40 e 57, II"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 11 a 15, 39 a 42, 49, III, 57, II, e 67, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -2,7 +2,7 @@
   "id": "fluxo:fnde-repassa-cotas-salario-educacao-municipios-2025",
   "tipo": "fluxo",
   "nome": "O FNDE entrega aos municípios as cotas municipais do salário-educação: valores de 2025",
-  "resumo": "R$ 13,4 bilhões pagos em 2025.",
+  "resumo": "Pagamentos de R$ 13,4 bilhões em 2025.",
   "repasse": "rel:fnde-repassa-cotas-salario-educacao-municipios",
   "exercicio": 2025,
   "moeda": "BRL",
@@ -11,6 +11,7 @@
     "despesas_pagas": 11576789906.14,
     "restos_a_pagar_pagos": 1795684940.04,
     "pagamentos_primarios": 13372474846.18,
+    "pagamentos_financeiros": 0,
     "dotacao_inicial": 12856995108.94,
     "dotacao_atualizada": 14223244260.94,
     "despesas_empenhadas": 14143383364.68,
@@ -40,9 +41,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }

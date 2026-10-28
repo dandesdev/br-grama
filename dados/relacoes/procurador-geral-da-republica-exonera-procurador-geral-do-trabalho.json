@@ -1,0 +1,29 @@
+{
+  "id": "rel:procurador-geral-da-republica-exonera-procurador-geral-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Exoneração do Procurador-Geral do Trabalho",
+  "relacao": "exonera",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "cargo:procurador-geral-do-trabalho",
+  "condicao": "Antes do fim do mandato, por proposta do Conselho Superior do MPT.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpt-propoe-exoneracao-procurador-geral-do-trabalho"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 88, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei diz que a exoneração é proposta ao PGR; não diz expressamente se ele pode recusar a proposta.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

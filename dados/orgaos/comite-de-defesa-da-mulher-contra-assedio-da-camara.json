@@ -1,0 +1,40 @@
+{
+  "id": "org:comite-de-defesa-da-mulher-contra-assedio-da-camara",
+  "tipo": "orgao",
+  "nome": "Comitê de Defesa da Mulher contra Assédio Moral ou Sexual da Câmara dos Deputados",
+  "resumo": "Recebe denúncias de assédio moral ou sexual na Câmara e, se fundamentadas, envia relatório à Mesa ou ao Diretor-Geral.",
+  "detalhes": "Três deputadas, escolhidas em votação pelas deputadas para dois anos (uma recondução), e duas servidoras efetivas. Preserva a identidade das partes; se o denunciante for homem, pode designar um integrante masculino para o caso.",
+  "tipo_orgao": "colegiado",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:secretaria-da-mulher-da-camara",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 20-A, § 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 20-A, §§ 2º a 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-03-07",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução da Câmara nº 27/2018, que criou o órgão no RICD; o dia exato da publicação não foi conferido."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

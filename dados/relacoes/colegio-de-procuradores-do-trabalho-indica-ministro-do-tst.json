@@ -1,0 +1,29 @@
+{
+  "id": "rel:colegio-de-procuradores-do-trabalho-indica-ministro-do-tst",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MPT para o TST",
+  "relacao": "indica",
+  "de": "org:colegio-de-procuradores-do-trabalho",
+  "para": "cargo:ministro-do-tst",
+  "condicao": "Nas vagas do TST destinadas ao MPT, forma lista sêxtupla entre membros com mais de dez anos de carreira e idade entre 35 e 65 anos; o PGR a encaminha ao tribunal.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 111-A, I"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, VI; art. 94, II e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cargo:procurador-geral-da-justica-militar",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral da Justiça Militar",
+  "resumo": "Chefe do Ministério Público Militar. É nomeado pelo Procurador-Geral da República a partir de lista tríplice do Colégio de Procuradores da Justiça Militar.",
+  "detalhes": "Atua junto ao Superior Tribunal Militar, preside o Colégio de Procuradores, o Conselho Superior e a Comissão de Concurso do MPM e nomeia o Corregedor-Geral (LC 75/1993, arts. 123 e 124). Elabora a proposta orçamentária do MPM, que, aprovada pelo Conselho Superior, envia ao PGR, a quem também propõe a criação de cargos (art. 124, XVI a XVIII). Designa entre os subprocuradores-gerais o Vice-Procurador-Geral da Justiça Militar, que o substitui nos impedimentos; na vacância, exerce o cargo o Vice-Presidente do Conselho Superior (art. 122).",
+  "orgao": "org:mpm",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Colégio de Procuradores da Justiça Militar forma lista tríplice por voto plurinominal, facultativo e secreto, e o Procurador-Geral da República nomeia e dá posse a um dos três (LC 75/1993, arts. 26, IV, 121 e 127, I). A exoneração antes do fim do mandato é proposta ao PGR pelo Conselho Superior, por voto secreto de dois terços (art. 121, parágrafo único).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução pelo mesmo processo (LC 75/1993, art. 121)."
+  },
+  "requisitos": [
+    {
+      "texto": "integrante do MPM com mais de 35 anos de idade e cinco anos de carreira (ou mais de dois anos, se não houver candidatos suficientes com cinco)",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 121"
+        }
+      ]
+    },
+    {
+      "texto": "incluído em lista tríplice do Colégio de Procuradores da Justiça Militar",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 121 e 127, I"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 26, IV, 28, 120 a 125 e 182"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

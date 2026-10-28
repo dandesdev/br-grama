@@ -2,25 +2,28 @@
   "id": "met:orcamento-2025-suframa",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Superintendência da Zona Franca de Manaus",
-  "resumo": "Pagou R$ 160,8 milhões em 2025; dotação atualizada de R$ 269,0 milhões.",
+  "resumo": "Pagou R$ 161,4 milhões em 2025; dotação atualizada de R$ 169,5 milhões.",
   "de": "org:suframa",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 160831812.6,
+    "pagamentos_totais": 161395936.76,
     "despesas_pagas": 142774691.65,
-    "restos_a_pagar_pagos": 18057120.95,
-    "pagamentos_primarios": 145968237.28,
-    "dotacao_inicial": 389738099,
-    "dotacao_atualizada": 268965917,
+    "restos_a_pagar_pagos": 18621245.11,
+    "pagamentos_primarios": 146532361.44,
+    "pagamentos_financeiros": 14863575.32,
+    "dotacao_inicial": 178317519,
+    "dotacao_atualizada": 169549114,
     "despesas_empenhadas": 166422853.16,
     "despesas_liquidadas": 157130872.39
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "28233"
-    ]
+      "28233",
+      "25298"
+    ],
+    "nota": "A unidade 25298 é o código antigo da Suframa, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -34,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-28",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes de todas as métricas conferidos no resumo (TREs, TRTs, TRFs, ministérios e unidades), contas refeitas por outro script sem divergência; valores de Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços e notas explicativas dos próprios órgãos (diferenças até 0,03%, salvo CNMP +1,85% por repasse a outros órgãos). Correções aplicadas pelo coordenador: reserva de contingência fora da dotação, modalidades 32/35/36 e 42/45/46 na saúde, ações do MDS na assistência, fundos das Forças nos comandos, códigos antigos com restos a pagar, intraorçamentárias fora dos agregados, despesa financeira só das linhas financeiras, notas do INSS, FNDE, ANP e Banco Central."
   }
 }
