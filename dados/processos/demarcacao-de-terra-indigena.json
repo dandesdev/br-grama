@@ -108,7 +108,10 @@
       "id": "declaracao",
       "tipo_etapa": "decisao",
       "atores": [
-        "cargo:ministro-de-estado"
+        {
+          "ator": "cargo:ministro-de-estado",
+          "orgao_exercicio": "org:ministerio-da-justica-e-seguranca-publica"
+        }
       ],
       "acao": "O Ministro da Justiça declara os limites por portaria, pede diligências ou desaprova",
       "detalhes": "Diligências devem ser cumpridas em 90 dias. A desaprovação devolve o processo à Funai e só pode se basear no art. 231, § 1º.",

@@ -1,0 +1,289 @@
+{
+  "id": "proc:licenciamento-ambiental",
+  "tipo": "processo",
+  "nome": "Licenciamento ambiental (procedimento trifásico)",
+  "resumo": "Um único ente licencia: define os estudos, ouve o público e quem tem interesse, sem ficar preso às opiniões, e emite as licenças prévia, de instalação e de operação.",
+  "detalhes": "Quem licencia é o Ibama, o estado ou o município, conforme a LC 140/2011. Órgãos que cuidam de terras indígenas e quilombolas, patrimônio cultural e unidades de conservação opinam sem vincular. Se o prazo vencer sem decisão, não há licença tácita, mas o empreendedor pode pedir que outro ente assuma.",
+  "forma": "linha",
+  "produz": "obj:licenca-ambiental",
+  "vigencia": {
+    "de": "2026-02-04",
+    "ate": null,
+    "nota": "Rito da Lei 15.190/2025, em vigor desde 4/2/2026 e aplicado aos processos iniciados depois disso (art. 60). Quem licencia segue a LC 140/2011, desde 9/12/2011."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 225, § 1º, IV"
+    },
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "arts. 13 a 15"
+    },
+    {
+      "ref": "norma:lei-15190-2025",
+      "dispositivo": "arts. 3º, II e III; 18; 19; 42 a 44; 47; 50"
+    }
+  ],
+  "confianca": "oficial",
+  "etapas": [
+    {
+      "id": "termo-de-referencia",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O ente licenciador recebe o pedido e define os estudos exigidos (termo de referência)",
+      "detalhes": "Só um ente licencia cada empreendimento: o Ibama nos casos da União, o município no impacto local e o estado no restante. O termo de referência é enviado às autoridades envolvidas, que têm 30 dias para opinar; sem resposta, vale o termo padrão.",
+      "prazo": {
+        "texto": "30 dias do requerimento, prorrogáveis por igual período se houver oitiva das autoridades envolvidas",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "requerimento",
+        "efeito": "O empreendedor pode protocolar os estudos com base no termo de referência padrão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-140-2011",
+          "dispositivo": "arts. 7º, XIV; 8º, XIV; 9º, XIV; 13"
+        },
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 3º, II; art. 28, caput e §§ 4º e 5º; art. 43, §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "admissao",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O ente licenciador confere se o estudo de impacto (EIA/Rima) entregue cumpre o termo de referência",
+      "detalhes": "Se faltar item do termo de referência, o pedido não é admitido e o procedimento recomeça. Atividade sem potencial de degradação significativa não precisa de EIA.",
+      "prazo": {
+        "texto": "15 dias",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "protocolo do estudo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 19, § 2º; art. 18, § 4º; art. 47, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "manifestacoes",
+          "quando": "Se o estudo for admitido"
+        },
+        {
+          "para": "termo-de-referencia",
+          "quando": "Se faltar item, o estudo é reapresentado e o prazo recomeça"
+        }
+      ]
+    },
+    {
+      "id": "manifestacoes",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "Autoridades envolvidas e outros entes interessados podem opinar, sem vincular a decisão",
+      "detalhes": "O ente licenciador pede a opinião das autoridades envolvidas em até 30 dias do recebimento do EIA. A falta de resposta não impede a licença. Os demais entes também podem se manifestar antes da emissão.",
+      "prazo": {
+        "texto": "90 dias do pedido, no caso de EIA/Rima, prorrogáveis por 30",
+        "valor": 90,
+        "unidade": "dias",
+        "conta_de": "recebimento da solicitação do ente licenciador",
+        "efeito": "O licenciamento segue mesmo sem manifestação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 42, I e III; art. 44, §§ 1º a 4º e 6º; art. 50"
+        },
+        {
+          "ref": "norma:lc-140-2011",
+          "dispositivo": "art. 13, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "audiencia-publica",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "audiencia-publica",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O ente licenciador faz ao menos uma audiência pública antes de decidir a licença prévia",
+      "detalhes": "O EIA e o Rima ficam disponíveis ao público pelo menos 45 dias antes da audiência.",
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "arts. 39 e 40"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "licenca-previa",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "licenca-previa",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O ente licenciador concede ou nega a licença prévia (viabilidade ambiental)",
+      "prazo": {
+        "texto": "10 meses da entrega do EIA e dos documentos exigidos",
+        "valor": 10,
+        "unidade": "meses",
+        "conta_de": "entrega do estudo ambiental",
+        "efeito": "Não há licença tácita; a pedido do empreendedor, outro ente assume em caráter supletivo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 5º, I; art. 19; art. 47, I e § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "licenca-de-instalacao",
+          "quando": "Se conceder"
+        },
+        {
+          "para": "negada",
+          "quando": "Se negar"
+        },
+        {
+          "para": "supletiva",
+          "quando": "Se o prazo vencer sem decisão e o empreendedor pedir"
+        }
+      ]
+    },
+    {
+      "id": "supletiva",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual"
+      ],
+      "acao": "Outro ente assume o licenciamento em caráter supletivo e reinicia o prazo de análise",
+      "detalhes": "A União assume no lugar do estado, e o estado no lugar do município. Os estudos já aceitos são aproveitados.",
+      "fontes": [
+        {
+          "ref": "norma:lc-140-2011",
+          "dispositivo": "art. 14, § 3º; art. 15"
+        },
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 47, §§ 3º e 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "licenca-previa",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "licenca-de-instalacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O ente licenciador concede ou nega a licença de instalação, com base no plano básico ambiental",
+      "prazo": {
+        "texto": "3 meses da entrega dos documentos",
+        "valor": 3,
+        "unidade": "meses",
+        "conta_de": "entrega do estudo ambiental"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 5º, II, e § 1º, II; art. 19; art. 47, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "licenca-de-operacao",
+          "quando": "Se conceder"
+        },
+        {
+          "para": "negada",
+          "quando": "Se negar"
+        }
+      ]
+    },
+    {
+      "id": "licenca-de-operacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:ibama",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O ente licenciador concede a licença de operação, depois de conferir as condicionantes",
+      "detalhes": "Quem licencia também fiscaliza e autua o empreendimento, e pode suspender ou cancelar a licença por decisão motivada.",
+      "prazo": {
+        "texto": "3 meses da entrega dos documentos",
+        "valor": 3,
+        "unidade": "meses",
+        "conta_de": "entrega do estudo ambiental"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 5º, III, e § 1º, III; art. 16; art. 47, III"
+        },
+        {
+          "ref": "norma:lc-140-2011",
+          "dispositivo": "art. 17"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "negada",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Licença negada: a atividade não pode ser instalada ou operada",
+      "fontes": [
+        {
+          "ref": "norma:lei-15190-2025",
+          "dispositivo": "art. 4º, caput; art. 37"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "notas": "Só o procedimento ordinário trifásico com EIA (Lei 15.190, art. 18, I). Os simplificados (bifásico, licença única, licença por adesão e compromisso), o corretivo e a Licença Ambiental Especial (art. 18, II a IV; Lei 15.300/2025) não estão no mapa; o ente licenciador escolhe o procedimento (art. 18, § 1º). Atores: no arquétipo o órgão ambiental do estado e do município não tem nó, por isso a etapa parte do ente, como em rel:estados-autoriza-licenca-ambiental. A lei não nomeia as autoridades envolvidas (art. 3º, III: quem cuida de terras indígenas e quilombolas, patrimônio cultural e unidades de conservação); por isso a etapa de manifestações não tem ator. Etapa supletiva: art. 15 da LC 140 fala em falta de órgão capacitado; o art. 14, § 3º, e a Lei 15.190, art. 47, § 3º, estendem a regra ao prazo vencido. Se o ente original for a União, não há supletivo acima dela. A lei é questionada no STF (ADIs 7913, 7916 e 7919), sem decisão até 2026-10-27; ver norma:lei-15190-2025. A ADI 7916 sustenta que parte da lei invade a LC 140/2011.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

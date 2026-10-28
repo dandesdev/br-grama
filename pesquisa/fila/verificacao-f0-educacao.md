@@ -29,3 +29,4 @@ concluida_em: null
 
 ## Diário
 - 2026-10-27 21:16 — iniciada; lidos CLAUDE.md, instruções de verificação, modelo, protocolo, decisões e o diário de f0-educacao; escopo: 43 entidades com tarefa f0-educacao
+- 2026-10-27 21:40 — normas verificadas: norma:lei-9394-1996, norma:lei-14113-2020, norma:lei-15388-2026 e norma:cite-resolucao-1-2026 sem erro; norma:lc-220-2025 (dispositivo da CF passou de 'art. 23, parágrafo único' para 'art. 23, V e parágrafo único', como no art. 1º da LC); norma:lei-4024-1961 (acrescentada a fonte LDB, art. 92, da revogação parcial); norma:lei-9131-1995 (nota de vigência com a data da MP 1.159, 26/10/1995, conferida na ficha do Senado, legis.senado.leg.br/norma/554186); norma:portaria-mec-102-2026 (tipo_norma outro → portaria). DOU segue sem cópia no Wayback (520)

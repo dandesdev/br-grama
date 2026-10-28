@@ -287,6 +287,14 @@ export class Painel {
     this.el.scrollTop = 0;
   }
 
+  /** Eleições: os cargos em disputa saem das relações "elege" do eleitorado que vota nas etapas (D41). */
+  private cargosEmDisputa(p: Entidade): string {
+    if (p.produz !== "obj:diploma-eleitoral") return "";
+    const eleitorados = new Set((p.etapas as Etapa[]).flatMap((et) => et.atores).filter((a) => this.dados.get(a)?.tipo_orgao === "corpo-eleitoral"));
+    const cargos = new Set([...eleitorados].flatMap((a) => this.dados.relacoesSaindo(a).filter((r) => r.relacao === "elege").map((r) => r.para as string)));
+    return cargos.size ? `<h3>Cargos em disputa</h3><ul>${[...cargos].map((c) => `<li>${this.link(c)}</li>`).join("")}</ul>` : "";
+  }
+
   mostrarProcesso(p: Entidade, regimeAtivo: string | null = null) {
     const etapas = p.etapas as Etapa[];
     const regimes = (p.regimes as Regime[] | undefined) ?? [];
@@ -295,6 +303,7 @@ export class Painel {
       <h2>${esc(p.nome)}</h2>
       <p class="resumo">${esc(p.resumo)}</p>
       ${p.produz ? `<dl class="ficha"><dt>Produz</dt><dd>${this.link(p.produz as string)}</dd></dl>` : ""}
+      ${this.cargosEmDisputa(p)}
       ${this.blocoMais(p)}
       ${regimes.length ? `<h3>Variantes</h3>${regimes
         .map((r) => `<button class="mais" data-regime="${esc(r.id)}" data-processo="${esc(p.id)}" aria-pressed="${regimeAtivo === r.id}">${regimeAtivo === r.id ? "✓ " : ""}${esc(r.nome)}</button>
