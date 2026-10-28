@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-igualdade-racial",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Igualdade Racial",
+  "resumo": "Pagou R$ 184,7 milhões em 2025; dotação atualizada de R$ 192,6 milhões.",
+  "de": "org:ministerio-da-igualdade-racial",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 184724175.44,
+    "despesas_pagas": 146345410.13,
+    "restos_a_pagar_pagos": 38378765.31,
+    "pagamentos_primarios": 184724165.42,
+    "dotacao_inicial": 217898160,
+    "dotacao_atualizada": 192587012,
+    "despesas_empenhadas": 184050684.1,
+    "despesas_liquidadas": 152428559.58
+  },
+  "recorte": {
+    "orgao_orcamentario": "67000",
+    "nota": "Unidades orçamentárias somadas: 67101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

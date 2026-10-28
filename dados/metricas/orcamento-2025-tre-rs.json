@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-rs",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Rio Grande do Sul",
+  "resumo": "Pagou R$ 445,7 milhões em 2025; dotação atualizada de R$ 442,7 milhões.",
+  "de": "org:tre-rs",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 445742563.4,
+    "despesas_pagas": 429613513.33,
+    "restos_a_pagar_pagos": 16129050.07,
+    "pagamentos_primarios": 405414328.68,
+    "dotacao_inicial": 408717077,
+    "dotacao_atualizada": 442661233,
+    "despesas_empenhadas": 437213511.53,
+    "despesas_liquidadas": 429614342.87
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14121"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

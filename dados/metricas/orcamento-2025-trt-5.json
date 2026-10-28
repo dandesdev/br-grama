@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-trt-5",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional do Trabalho da 5ª Região",
+  "resumo": "Pagou R$ 1,6 bilhão em 2025; dotação atualizada de R$ 1,6 bilhão.",
+  "de": "org:trt-5",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1613604896.89,
+    "despesas_pagas": 1537665595.07,
+    "restos_a_pagar_pagos": 75939301.82,
+    "pagamentos_primarios": 1497887639.71,
+    "dotacao_inicial": 1473581592,
+    "dotacao_atualizada": 1589913145,
+    "despesas_empenhadas": 1581723890.57,
+    "despesas_liquidadas": 1562572349.79
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15106"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

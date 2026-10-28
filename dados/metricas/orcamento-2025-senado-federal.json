@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-senado-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Senado Federal",
+  "resumo": "Pagou R$ 6,0 bilhões em 2025; dotação atualizada de R$ 6,3 bilhões.",
+  "de": "org:senado-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6030507705.54,
+    "despesas_pagas": 5855852268.02,
+    "restos_a_pagar_pagos": 174655437.52,
+    "pagamentos_primarios": 5873453226.52,
+    "dotacao_inicial": 6317040410,
+    "dotacao_atualizada": 6317040410,
+    "despesas_empenhadas": 6112990552.25,
+    "despesas_liquidadas": 5869759307.09
+  },
+  "recorte": {
+    "poderes": [
+      "SF"
+    ],
+    "nota": "Unidades orçamentárias somadas: 2101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

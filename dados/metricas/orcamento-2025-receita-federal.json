@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-receita-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Secretaria Especial da Receita Federal do Brasil",
+  "resumo": "Pagou R$ 10,4 bilhões em 2025; dotação atualizada de R$ 16,0 bilhões.",
+  "de": "org:receita-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 10433656604.71,
+    "despesas_pagas": 8633896802.5,
+    "restos_a_pagar_pagos": 1799759802.21,
+    "pagamentos_primarios": 9740575646.89,
+    "dotacao_inicial": 18104423207,
+    "dotacao_atualizada": 15978466567,
+    "despesas_empenhadas": 9864237025.59,
+    "despesas_liquidadas": 9476308551.53
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "25103"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

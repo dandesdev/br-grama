@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-es",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Espírito Santo",
+  "resumo": "Pagou R$ 182,3 milhões em 2025; dotação atualizada de R$ 189,2 milhões.",
+  "de": "org:tre-es",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 182284771.43,
+    "despesas_pagas": 175240414.71,
+    "restos_a_pagar_pagos": 7044356.72,
+    "pagamentos_primarios": 166388199.79,
+    "dotacao_inicial": 172012941,
+    "dotacao_atualizada": 189199673,
+    "despesas_empenhadas": 181851671.23,
+    "despesas_liquidadas": 178157949.28
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14108"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

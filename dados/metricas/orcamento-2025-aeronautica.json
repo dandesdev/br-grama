@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-aeronautica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Aeronáutica",
+  "resumo": "Pagou R$ 28,7 bilhões em 2025; dotação atualizada de R$ 29,9 bilhões.",
+  "de": "org:aeronautica",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 28727879546.05,
+    "despesas_pagas": 27061413333.44,
+    "restos_a_pagar_pagos": 1666466212.61,
+    "pagamentos_primarios": 26634118688.81,
+    "dotacao_inicial": 28388361490,
+    "dotacao_atualizada": 29864317246,
+    "despesas_empenhadas": 29628244969.49,
+    "despesas_liquidadas": 28389696713.8
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "52111"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

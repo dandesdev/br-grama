@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-inep",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira",
+  "resumo": "Pagou R$ 1,0 bilhão em 2025; dotação atualizada de R$ 1,5 bilhão.",
+  "de": "org:inep",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1023010453.71,
+    "despesas_pagas": 827890899.78,
+    "restos_a_pagar_pagos": 195119553.93,
+    "pagamentos_primarios": 1009747044.16,
+    "dotacao_inicial": 1394297213,
+    "dotacao_atualizada": 1462365662,
+    "despesas_empenhadas": 1457736027.38,
+    "despesas_liquidadas": 854884030.87
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "26290"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-justica-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Justiça Federal",
+  "resumo": "Pagou R$ 17,3 bilhões em 2025; dotação atualizada de R$ 17,4 bilhões.",
+  "de": "org:justica-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 17288983201.36,
+    "despesas_pagas": 16646406610.7,
+    "restos_a_pagar_pagos": 642576590.66,
+    "pagamentos_primarios": 15751678495.18,
+    "dotacao_inicial": 17214461661,
+    "dotacao_atualizada": 17445621872,
+    "despesas_empenhadas": 17224477986.76,
+    "despesas_liquidadas": 16855281939.75
+  },
+  "recorte": {
+    "poderes": [
+      "JF"
+    ],
+    "nota": "Inclui a primeira instância (unidade 12101) e os seis TRFs. Unidades orçamentárias somadas: 12101, 12102, 12103, 12104, 12105, 12106, 12107."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

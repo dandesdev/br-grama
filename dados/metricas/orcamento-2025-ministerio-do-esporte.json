@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-esporte",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Esporte",
+  "resumo": "Pagou R$ 1,4 bilhão em 2025; dotação atualizada de R$ 2,9 bilhões.",
+  "de": "org:ministerio-do-esporte",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1412330408.74,
+    "despesas_pagas": 563815107.48,
+    "restos_a_pagar_pagos": 848515301.26,
+    "pagamentos_primarios": 1410959974.93,
+    "dotacao_inicial": 3198671867,
+    "dotacao_atualizada": 2909787707,
+    "despesas_empenhadas": 2566281755.81,
+    "despesas_liquidadas": 572205816.1
+  },
+  "recorte": {
+    "orgao_orcamentario": "51000",
+    "nota": "Unidades orçamentárias somadas: 51101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

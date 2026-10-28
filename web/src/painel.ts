@@ -1,7 +1,7 @@
 // Painel lateral: legenda, ficha da entidade selecionada, processo e etapas, lista de avisos.
 // Os textos longos ficam atrás do botão "i" (D25).
-import { Dados, GRUPOS_RELACAO, NOMES_TIPO, formatarData, type Entidade, type Etapa, type FonteRef, type Prazo, type Quorum, type Regime } from "./dados.ts";
-import { TRACO_GRUPO } from "./mapa.ts";
+import { Dados, GRUPOS_RELACAO, NOMES_TIPO, formatarData, reais, type Entidade, type Etapa, type FonteRef, type Prazo, type Quorum, type Regime, type ValoresOrcamento } from "./dados.ts";
+import { TRACO_GRUPO, diametro } from "./mapa.ts";
 
 const esc = (s: unknown) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
@@ -127,7 +127,9 @@ export class Painel {
       const comp = r.competencia as { tipo: string; natureza: string } | undefined;
       const competencia = comp ? `${esc(this.dados.nomeDe("tipo_competencia", comp.tipo))}, para ${esc(this.dados.nomeDe("natureza_competencia", comp.natureza).toLowerCase())}` : "";
       const pasta = r.orgao_exercicio ? `No órgão: ${this.link(r.orgao_exercicio as string)}` : "";
-      const extra = [competencia, pasta, r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
+      const f = this.dados.fluxoDe(r.id);
+      const valor = f ? `<strong>${reais((f.valores as ValoresOrcamento).pagamentos_totais)}</strong> pagos em ${f.exercicio}` : "";
+      const extra = [valor, competencia, pasta, r.condicao ? esc(r.condicao) : "", this.quorum(r.quorum as Quorum | undefined)].filter(Boolean).join("<br>");
       return `<li>${ordem}${saindo ? `${verbo} ${this.link(outro)}` : `${this.link(outro)} ${verbo}`}${extra ? `<br><span class="dispositivo">${extra}</span>` : ""}</li>`;
     };
     const saindo = this.dados.relacoesSaindo(id).filter((r) => r.relacao !== "ocupa");
@@ -143,6 +145,54 @@ export class Painel {
         .join("")}</ul>`);
     }
     return blocos.join("");
+  }
+
+  /** Linhas de detalhe de um valor orçamentário (D26: a dotação fica no "i"). */
+  private linhasValores(v: ValoresOrcamento): string {
+    const linha = (rotulo: string, x: number | undefined) => (x === undefined ? "" : `<dt>${rotulo}</dt><dd>${reais(x)}</dd>`);
+    return `<dl class="ficha">
+      ${linha("Despesas do ano pagas", v.despesas_pagas)}
+      ${linha("Restos a pagar pagos", v.restos_a_pagar_pagos)}
+      ${linha("Dotação inicial", v.dotacao_inicial)}
+      ${linha("Dotação atualizada", v.dotacao_atualizada)}
+      ${v.pagamentos_primarios !== undefined && Math.abs(v.pagamentos_totais - v.pagamentos_primarios) > 1e6 ? linha("Dos quais, despesa financeira", v.pagamentos_totais - v.pagamentos_primarios) : ""}
+    </dl>`;
+  }
+
+  /** Orçamento executado no último ano fechado (D26, D46, D47). */
+  private orcamento(id: string): string {
+    const m = this.dados.orcamentoDe(id);
+    if (!m) return "";
+    const v = m.valores as ValoresOrcamento;
+    const sup = m.sob_supervisao as { valores: ValoresOrcamento; unidades_orcamentarias: string[] } | undefined;
+    const recorte = m.recorte as { nota?: string };
+    const aberto = this.aberto.has(m.id);
+    return `<h3>Orçamento em ${m.exercicio}</h3>
+      <p class="valor-orcamento"><strong>${reais(v.pagamentos_totais)}</strong> pagos</p>
+      ${sup ? `<p class="dispositivo">Mais ${reais(sup.valores.pagamentos_totais)} em recursos sob sua supervisão (encargos financeiros, dívida, transferências e operações de crédito), que a lei orçamentária trata à parte.</p>` : ""}
+      <button class="mais" data-mais="${esc(m.id)}" aria-expanded="${aberto}"><span class="i">i</span> Como se chega a esse número</button>
+      <div class="detalhes" ${aberto ? "" : "hidden"}>
+        ${this.linhasValores(v)}
+        ${recorte.nota ? `<p class="dispositivo">${esc(recorte.nota)}</p>` : ""}
+        ${sup ? `<h3>Sob supervisão (unidades ${esc(sup.unidades_orcamentarias.join(", "))})</h3>${this.linhasValores(sup.valores)}` : ""}
+        <h3>Fonte</h3>${this.fontes(m.fontes)}
+      </div>`;
+  }
+
+  /** Valores pagos por uma relação repassa-recursos no último ano fechado (D24 c, D45). */
+  private fluxo(relId: string): string {
+    const f = this.dados.fluxoDe(relId);
+    if (!f) return "";
+    const v = f.valores as ValoresOrcamento;
+    const aberto = this.aberto.has(f.id);
+    return `<h3>Quanto passou em ${f.exercicio}</h3>
+      <p class="valor-orcamento"><strong>${reais(v.pagamentos_totais)}</strong> pagos</p>
+      <button class="mais" data-mais="${esc(f.id)}" aria-expanded="${aberto}"><span class="i">i</span> Como se chega a esse número</button>
+      <div class="detalhes" ${aberto ? "" : "hidden"}>
+        ${this.linhasValores(v)}
+        <p class="dispositivo">${esc((f.recorte as { nota?: string }).nota ?? "")}</p>
+        <h3>Fonte</h3>${this.fontes(f.fontes)}
+      </div>`;
   }
 
   private processosDe(id: string): string {
@@ -255,6 +305,7 @@ export class Painel {
 
     if (e.tipo === "cargo") partes.push(this.fichaCargo(e));
     if (e.tipo === "orgao") partes.push(this.fichaOrgao(e));
+    if (e.tipo === "orgao" || e.tipo === "ente") partes.push(this.orcamento(id));
     if (e.tipo === "objeto") partes.push(this.fichaObjeto(e));
     if (e.tipo === "pessoa") {
       const cargos = this.dados.relacoesSaindo(id).filter((r) => r.relacao === "ocupa");
@@ -265,6 +316,7 @@ export class Painel {
       if (e.orgao_exercicio) partes.push(`<p>No órgão: ${this.link(e.orgao_exercicio as string)}</p>`);
       if (e.condicao) partes.push(`<p>${esc(e.condicao)}</p>`);
       if (e.quorum) partes.push(`<p>${this.quorum(e.quorum as Quorum)}</p>`);
+      partes.push(this.fluxo(id));
     }
     if (e.tipo === "aviso") {
       partes.push(`<dl class="ficha"><dt>Tipo</dt><dd>${this.termo("tipo_aviso", e.tipo_aviso as string)}</dd>${e.gravidade ? `<dt>Gravidade</dt><dd>${esc(e.gravidade)}</dd>` : ""}</dl>`);
@@ -348,6 +400,23 @@ export class Painel {
       <ul>${avisos
         .map((a) => `<li class="aviso"><span class="icone" aria-hidden="true">⚠</span><div>${this.link(a.id)}<br>${esc(a.resumo)}</div></li>`)
         .join("") || "<li>Nenhum aviso registrado.</li>"}</ul>`;
+  }
+
+  /** Legenda da camada "Orçamento": escala dos círculos e o que fica de fora (D47, D48). */
+  mostrarLegendaOrcamento() {
+    const ano = this.dados.exercicio;
+    const circulo = (valor: number) => {
+      const d = diametro(valor) * 0.35;
+      return `<div class="legenda-item"><span class="circulo" style="width:${d}px;height:${d}px"></span>${reais(valor)}</div>`;
+    };
+    this.el.innerHTML = `
+      <h2>Orçamento em ${ano}</h2>
+      <p class="intro">O círculo atrás de cada órgão tem área proporcional ao que ele pagou em ${ano}, inclusive restos a pagar de anos anteriores. O valor aparece no rótulo; clique no órgão para ver a dotação e como o número foi calculado.</p>
+      <h3>Escala (reduzida aqui; no mapa, com o zoom)</h3>
+      ${circulo(1e12)}${circulo(1e11)}${circulo(1e10)}
+      <h3>O que fica de fora</h3>
+      <p>Órgãos sem unidade orçamentária própria (secretarias, conselhos, a maior parte dos colegiados) e estatais que não dependem do Tesouro, como Caixa, Banco do Brasil e Petrobras, ficam sem círculo. Encargos financeiros, dívida e transferências a estados e municípios aparecem à parte, na aba Dinheiro.</p>
+      <p><span class="dispositivo">Fonte: Tesouro Nacional, Despesas e Transferências Totais da União.</span></p>`;
   }
 
   mostrarLegenda() {

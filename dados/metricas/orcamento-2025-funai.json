@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-funai",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Fundação Nacional dos Povos Indígenas",
+  "resumo": "Pagou R$ 931,3 milhões em 2025; dotação atualizada de R$ 1,0 bilhão.",
+  "de": "org:funai",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 931278590.16,
+    "despesas_pagas": 700181002.65,
+    "restos_a_pagar_pagos": 231097587.51,
+    "pagamentos_primarios": 897277508.51,
+    "dotacao_inicial": 1097700066,
+    "dotacao_atualizada": 1001608973,
+    "despesas_empenhadas": 1000277914.35,
+    "despesas_liquidadas": 753844185.16
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "84201"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

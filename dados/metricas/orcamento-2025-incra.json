@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-incra",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Instituto Nacional de Colonização e Reforma Agrária",
+  "resumo": "Pagou R$ 2,3 bilhões em 2025; dotação atualizada de R$ 2,5 bilhões.",
+  "de": "org:incra",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2287812274.56,
+    "despesas_pagas": 1908511940.9,
+    "restos_a_pagar_pagos": 379300333.66,
+    "pagamentos_primarios": 2201444028.54,
+    "dotacao_inicial": 2727953386,
+    "dotacao_atualizada": 2457252071,
+    "despesas_empenhadas": 2422940617.75,
+    "despesas_liquidadas": 2052425397.57
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "49201"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

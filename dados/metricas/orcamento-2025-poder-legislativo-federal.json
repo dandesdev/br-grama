@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2025-poder-legislativo-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Poder Legislativo federal",
+  "resumo": "Pagou R$ 16,2 bilhões em 2025; dotação atualizada de R$ 18,0 bilhões.",
+  "de": "org:poder-legislativo-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 16236189765.42,
+    "despesas_pagas": 15662417356.57,
+    "restos_a_pagar_pagos": 573772408.85,
+    "pagamentos_primarios": 15735693084.22,
+    "dotacao_inicial": 17970608326,
+    "dotacao_atualizada": 17970608326,
+    "despesas_empenhadas": 16590107515.18,
+    "despesas_liquidadas": 15931786637.08
+  },
+  "recorte": {
+    "poderes": [
+      "CD",
+      "SF",
+      "TCU"
+    ],
+    "nota": "Câmara dos Deputados, Senado Federal e Tribunal de Contas da União, como na lei orçamentária. Unidades orçamentárias somadas: 1101, 1901, 2101, 3101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

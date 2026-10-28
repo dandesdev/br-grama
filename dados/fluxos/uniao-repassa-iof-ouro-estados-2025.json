@@ -1,0 +1,48 @@
+{
+  "id": "fluxo:uniao-repassa-iof-ouro-estados-2025",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos estados e ao DF 30% do IOF sobre o ouro: valores de 2025",
+  "resumo": "R$ 11,4 milhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-iof-ouro-estados",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 11411473.9,
+    "despesas_pagas": 11047893.74,
+    "restos_a_pagar_pagos": 363580.16,
+    "pagamentos_primarios": 11411473.9,
+    "dotacao_inicial": 25999918,
+    "dotacao_atualizada": 25999918,
+    "despesas_empenhadas": 11599876.37,
+    "despesas_liquidadas": 11047893.74
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "00H6"
+    ],
+    "modalidades": [
+      "30"
+    ],
+    "nota": "Ações somadas: 00H6 (TRANSFERENCIA DO IMPOSTO SOBRE OPERACOES FINANCEIRAS INCIDEN)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-mpt",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério Público do Trabalho",
+  "resumo": "Pagou R$ 2,5 bilhões em 2025; dotação atualizada de R$ 2,5 bilhões.",
+  "de": "org:mpt",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2499682114.24,
+    "despesas_pagas": 2488700330.21,
+    "restos_a_pagar_pagos": 10981784.03,
+    "pagamentos_primarios": 2302755674.08,
+    "dotacao_inicial": 2508967103,
+    "dotacao_atualizada": 2512301010,
+    "despesas_empenhadas": 2499681091.11,
+    "despesas_liquidadas": 2494081105.24
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34104"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

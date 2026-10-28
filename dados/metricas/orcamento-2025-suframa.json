@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-suframa",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Superintendência da Zona Franca de Manaus",
+  "resumo": "Pagou R$ 160,8 milhões em 2025; dotação atualizada de R$ 269,0 milhões.",
+  "de": "org:suframa",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 160831812.6,
+    "despesas_pagas": 142774691.65,
+    "restos_a_pagar_pagos": 18057120.95,
+    "pagamentos_primarios": 145968237.28,
+    "dotacao_inicial": 389738099,
+    "dotacao_atualizada": 268965917,
+    "despesas_empenhadas": 166422853.16,
+    "despesas_liquidadas": 157130872.39
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "28233"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

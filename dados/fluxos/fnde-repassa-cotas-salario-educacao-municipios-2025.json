@@ -1,0 +1,48 @@
+{
+  "id": "fluxo:fnde-repassa-cotas-salario-educacao-municipios-2025",
+  "tipo": "fluxo",
+  "nome": "O FNDE entrega aos municípios as cotas municipais do salário-educação: valores de 2025",
+  "resumo": "R$ 13,4 bilhões pagos em 2025.",
+  "repasse": "rel:fnde-repassa-cotas-salario-educacao-municipios",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 13372474846.18,
+    "despesas_pagas": 11576789906.14,
+    "restos_a_pagar_pagos": 1795684940.04,
+    "pagamentos_primarios": 13372474846.18,
+    "dotacao_inicial": 12856995108.94,
+    "dotacao_atualizada": 14223244260.94,
+    "despesas_empenhadas": 14143383364.68,
+    "despesas_liquidadas": 11576789906.14
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73107"
+    ],
+    "acoes": [
+      "0369"
+    ],
+    "modalidades": [
+      "40"
+    ],
+    "nota": "A ação fica na unidade 73107 (recursos sob supervisão do MEC). Ações somadas: 0369 (TRANSFERENCIA DAS QUOTAS ESTADUAL E MUNICIPAL DO SALARIO-EDU)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

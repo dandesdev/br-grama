@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-cade",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Conselho Administrativo de Defesa Econômica",
+  "resumo": "Pagou R$ 56,7 milhões em 2025; dotação atualizada de R$ 67,0 milhões.",
+  "de": "org:cade",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 56742280.51,
+    "despesas_pagas": 47979879.21,
+    "restos_a_pagar_pagos": 8762401.3,
+    "pagamentos_primarios": 56275136.61,
+    "dotacao_inicial": 67063753,
+    "dotacao_atualizada": 67024131,
+    "despesas_empenhadas": 64633858.06,
+    "despesas_liquidadas": 49673384.09
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30211"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

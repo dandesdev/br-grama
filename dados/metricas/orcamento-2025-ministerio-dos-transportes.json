@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-dos-transportes",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério dos Transportes",
+  "resumo": "Pagou R$ 17,0 bilhões em 2025; dotação atualizada de R$ 25,2 bilhões.",
+  "de": "org:ministerio-dos-transportes",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 16964094614.77,
+    "despesas_pagas": 12614192775.91,
+    "restos_a_pagar_pagos": 4349901838.86,
+    "pagamentos_primarios": 16828122723.51,
+    "dotacao_inicial": 29281574882,
+    "dotacao_atualizada": 25191609917,
+    "despesas_empenhadas": 16660981247.08,
+    "despesas_liquidadas": 12890842988.99
+  },
+  "recorte": {
+    "orgao_orcamentario": "39000",
+    "nota": "Unidades orçamentárias somadas: 39101, 39207, 39250, 39252, 39253, 39905, 56901."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

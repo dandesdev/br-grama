@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-pe",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral de Pernambuco",
+  "resumo": "Pagou R$ 383,1 milhões em 2025; dotação atualizada de R$ 393,7 milhões.",
+  "de": "org:tre-pe",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 383080934.24,
+    "despesas_pagas": 376953741.81,
+    "restos_a_pagar_pagos": 6127192.43,
+    "pagamentos_primarios": 352139412.66,
+    "dotacao_inicial": 362902042,
+    "dotacao_atualizada": 393718579,
+    "despesas_empenhadas": 386436661.32,
+    "despesas_liquidadas": 376964541.99
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14117"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

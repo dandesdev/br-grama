@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-cnmp",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Conselho Nacional do Ministério Público",
+  "resumo": "Pagou R$ 123,5 milhões em 2025; dotação atualizada de R$ 123,5 milhões.",
+  "de": "org:cnmp",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 123456408.49,
+    "despesas_pagas": 121978659.6,
+    "restos_a_pagar_pagos": 1477748.89,
+    "pagamentos_primarios": 116401274.13,
+    "dotacao_inicial": 123194230,
+    "dotacao_atualizada": 123499230,
+    "despesas_empenhadas": 123455402.33,
+    "despesas_liquidadas": 122760383.4
+  },
+  "recorte": {
+    "poderes": [
+      "CNMP"
+    ],
+    "nota": "Unidades orçamentárias somadas: 59101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

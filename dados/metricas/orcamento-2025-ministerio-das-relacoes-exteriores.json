@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-das-relacoes-exteriores",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério das Relações Exteriores",
+  "resumo": "Pagou R$ 5,3 bilhões em 2025; dotação atualizada de R$ 5,5 bilhões.",
+  "de": "org:ministerio-das-relacoes-exteriores",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 5303918723.21,
+    "despesas_pagas": 5136476557.86,
+    "restos_a_pagar_pagos": 167442165.35,
+    "pagamentos_primarios": 5131785461.65,
+    "dotacao_inicial": 5037440423.12,
+    "dotacao_atualizada": 5547469802.12,
+    "despesas_empenhadas": 5348983762.38,
+    "despesas_liquidadas": 5218038371.25
+  },
+  "recorte": {
+    "orgao_orcamentario": "35000",
+    "nota": "Unidades orçamentárias somadas: 35101, 35201."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

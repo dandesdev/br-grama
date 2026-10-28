@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-justica-militar-da-uniao",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Justiça Militar da União",
+  "resumo": "Pagou R$ 821,8 milhões em 2025; dotação atualizada de R$ 834,5 milhões.",
+  "de": "org:justica-militar-da-uniao",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 821797112.16,
+    "despesas_pagas": 793764767.04,
+    "restos_a_pagar_pagos": 28032345.12,
+    "pagamentos_primarios": 780624739.52,
+    "dotacao_inicial": 803257033,
+    "dotacao_atualizada": 834541368,
+    "despesas_empenhadas": 829356162.25,
+    "despesas_liquidadas": 796511996.79
+  },
+  "recorte": {
+    "poderes": [
+      "JM"
+    ],
+    "nota": "Uma só unidade orçamentária (13101) para o STM e as auditorias militares. Unidades orçamentárias somadas: 13101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

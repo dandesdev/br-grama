@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-stj",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Superior Tribunal de Justiça",
+  "resumo": "Pagou R$ 2,2 bilhões em 2025; dotação atualizada de R$ 2,3 bilhões.",
+  "de": "org:stj",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2190853643.67,
+    "despesas_pagas": 2066303779.86,
+    "restos_a_pagar_pagos": 124549863.81,
+    "pagamentos_primarios": 2057059001.09,
+    "dotacao_inicial": 2247534274,
+    "dotacao_atualizada": 2261749771,
+    "despesas_empenhadas": 2237302710.43,
+    "despesas_liquidadas": 2137968482.5
+  },
+  "recorte": {
+    "poderes": [
+      "STJ"
+    ],
+    "nota": "Unidades orçamentárias somadas: 11101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-ibama",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+  "resumo": "Pagou R$ 2,2 bilhões em 2025; dotação atualizada de R$ 2,5 bilhões.",
+  "de": "org:ibama",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2162426857.11,
+    "despesas_pagas": 1887852479.65,
+    "restos_a_pagar_pagos": 274574377.46,
+    "pagamentos_primarios": 2061218901.04,
+    "dotacao_inicial": 2146302022,
+    "dotacao_atualizada": 2475741050,
+    "despesas_empenhadas": 2238225504.35,
+    "despesas_liquidadas": 2031091671.06
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "44201"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

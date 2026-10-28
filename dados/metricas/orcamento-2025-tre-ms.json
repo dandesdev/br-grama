@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-ms",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral de Mato Grosso do Sul",
+  "resumo": "Pagou R$ 166,7 milhões em 2025; dotação atualizada de R$ 169,3 milhões.",
+  "de": "org:tre-ms",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 166748705.47,
+    "despesas_pagas": 159076750.88,
+    "restos_a_pagar_pagos": 7671954.59,
+    "pagamentos_primarios": 153037426.57,
+    "dotacao_inicial": 152507673,
+    "dotacao_atualizada": 169280831,
+    "despesas_empenhadas": 166977969.49,
+    "despesas_liquidadas": 159188698.03
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14112"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

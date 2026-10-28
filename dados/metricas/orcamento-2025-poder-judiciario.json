@@ -1,0 +1,50 @@
+{
+  "id": "met:orcamento-2025-poder-judiciario",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Poder Judiciário",
+  "resumo": "Pagou R$ 66,0 bilhões em 2025; dotação atualizada de R$ 68,6 bilhões.",
+  "de": "org:poder-judiciario",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 65966395644.08,
+    "despesas_pagas": 63907909991.86,
+    "restos_a_pagar_pagos": 2058485652.22,
+    "pagamentos_primarios": 60896174779.86,
+    "dotacao_inicial": 67398563727,
+    "dotacao_atualizada": 68551295363,
+    "despesas_empenhadas": 66116283449.31,
+    "despesas_liquidadas": 64676918099.02
+  },
+  "recorte": {
+    "poderes": [
+      "STF",
+      "STJ",
+      "JF",
+      "JM",
+      "JE",
+      "JT",
+      "JDFT",
+      "CNJ"
+    ],
+    "nota": "Só o Judiciário da União (inclui o TJDFT, que a União mantém); os tribunais estaduais têm orçamento dos estados. Unidades orçamentárias somadas: 10101, 11101, 12101, 12102, 12103, 12104, 12105, 12106, 12107, 13101, 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14113, 14114, 14115, 14116, 14117, 14118, 14119, 14120, 14121, 14122, 14123, 14124, 14125, 14126, 14127, 14128, 14901, 15101, 15102, 15103, 15104, 15105, 15106, 15107, 15108, 15109, 15110, 15111, 15112, 15113, 15114, 15115, 15116, 15117, 15118, 15119, 15120, 15121, 15122, 15123, 15124, 15125, 15126, 16101, 16103, 17101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

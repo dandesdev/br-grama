@@ -1,0 +1,24 @@
+{
+  "id": "fonte:portal-transparencia-orcamento-despesa",
+  "tipo": "fonte",
+  "nome": "Portal da Transparência: orçamento da despesa (download de dados)",
+  "resumo": "Arquivo anual da CGU com o orçamento do Poder Executivo federal por órgão, unidade orçamentária e ação: inicial, atualizado, empenhado e realizado (pago).",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Controladoria-Geral da União (Portal da Transparência)",
+  "url": "https://portaldatransparencia.gov.br/download-de-dados/orcamento-despesa",
+  "acesso_em": "2026-10-28",
+  "arquivo": "https://web.archive.org/web/20261028110326/https://portaldatransparencia.gov.br/download-de-dados/orcamento-despesa",
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Arquivo de 2025 (2025_OrcamentoDespesa.zip) baixado; o dicionário de dados do Portal define \"Orçamento Realizado\" como o valor do orçamento atualizado que já foi pago."
+  },
+  "notas": "Usado só para conferir a base do Tesouro (D46), porque cobre apenas o Executivo. Dicionário de dados: https://portaldatransparencia.gov.br/pagina-interna/603417-dicionario-de-dados-orcamento-da-despesa"
+}

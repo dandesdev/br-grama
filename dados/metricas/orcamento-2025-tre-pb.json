@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-pb",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral da Paraíba",
+  "resumo": "Pagou R$ 215,5 milhões em 2025; dotação atualizada de R$ 222,5 milhões.",
+  "de": "org:tre-pb",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 215495999.03,
+    "despesas_pagas": 210630137.11,
+    "restos_a_pagar_pagos": 4865861.92,
+    "pagamentos_primarios": 194695917.66,
+    "dotacao_inicial": 206511175,
+    "dotacao_atualizada": 222494596,
+    "despesas_empenhadas": 219585618.31,
+    "despesas_liquidadas": 213952128.46
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14115"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

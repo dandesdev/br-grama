@@ -1,0 +1,58 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-cultura",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Cultura",
+  "resumo": "Pagou R$ 3,0 bilhões em 2025; dotação atualizada de R$ 4,0 bilhões.",
+  "de": "org:ministerio-da-cultura",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2960987322.03,
+    "despesas_pagas": 2335861291.47,
+    "restos_a_pagar_pagos": 625126030.56,
+    "pagamentos_primarios": 2254408757.86,
+    "dotacao_inicial": 4250086140,
+    "dotacao_atualizada": 3980635258,
+    "despesas_empenhadas": 2890065680.87,
+    "despesas_liquidadas": 2441292404.18
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2037134399.92,
+      "despesas_pagas": 2024370570,
+      "restos_a_pagar_pagos": 12763829.92,
+      "pagamentos_primarios": 1771134399.92,
+      "dotacao_inicial": 752035641,
+      "dotacao_atualizada": 2557819730,
+      "despesas_empenhadas": 2557197329.96,
+      "despesas_liquidadas": 2026627312.79
+    },
+    "unidades_orcamentarias": [
+      "73120",
+      "74912"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "42000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 42101, 42201, 42202, 42203, 42204, 42205, 42206, 42207, 42902, 54203, 54204, 54205, 54206, 54207, 54208, 54902, 55207, 55903."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

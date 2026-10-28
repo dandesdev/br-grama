@@ -1,0 +1,57 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-turismo",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Turismo",
+  "resumo": "Pagou R$ 742,7 milhões em 2025; dotação atualizada de R$ 2,6 bilhões.",
+  "de": "org:ministerio-do-turismo",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 742679379.2,
+    "despesas_pagas": 258787977.8,
+    "restos_a_pagar_pagos": 483891401.4,
+    "pagamentos_primarios": 738499264.22,
+    "dotacao_inicial": 3174645230,
+    "dotacao_atualizada": 2581429050,
+    "despesas_empenhadas": 1967858872.02,
+    "despesas_liquidadas": 270740488.28
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 753850180.36,
+      "despesas_pagas": 327548025.98,
+      "restos_a_pagar_pagos": 426302154.38,
+      "pagamentos_primarios": 0,
+      "dotacao_inicial": 620032208,
+      "dotacao_atualizada": 924613519,
+      "despesas_empenhadas": 924613519,
+      "despesas_liquidadas": 327548025.98
+    },
+    "unidades_orcamentarias": [
+      "74908"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "54000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 54101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-to",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Tocantins",
+  "resumo": "Pagou R$ 136,9 milhões em 2025; dotação atualizada de R$ 153,0 milhões.",
+  "de": "org:tre-to",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 136867711.43,
+    "despesas_pagas": 131871699.47,
+    "restos_a_pagar_pagos": 4996011.96,
+    "pagamentos_primarios": 127518269.41,
+    "dotacao_inicial": 141000814,
+    "dotacao_atualizada": 152998293,
+    "despesas_empenhadas": 138436212.2,
+    "despesas_liquidadas": 132253905.21
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14126"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

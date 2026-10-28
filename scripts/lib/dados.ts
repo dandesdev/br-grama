@@ -18,6 +18,8 @@ export const TIPOS = {
   objeto: { pasta: "objetos", prefixo: "obj" },
   aviso: { pasta: "avisos", prefixo: "aviso" },
   variacao: { pasta: "variacoes", prefixo: "var" },
+  metrica: { pasta: "metricas", prefixo: "met" },
+  fluxo: { pasta: "fluxos", prefixo: "fluxo" },
 } as const;
 
 export type Tipo = keyof typeof TIPOS;

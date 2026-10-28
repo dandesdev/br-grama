@@ -2,6 +2,7 @@ import { carregar, formatarData, normalizar, GRUPOS_RELACAO, type Entidade, type
 import { Mapa } from "./mapa.ts";
 import { Fluxo } from "./fluxo.ts";
 import { Matriz } from "./matriz.ts";
+import { Dinheiro } from "./dinheiro.ts";
 import { Painel, amostraTraco } from "./painel.ts";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -22,18 +23,23 @@ const painel = new Painel($("painel"), dados, {
 });
 painel.mostrarLegenda();
 const matriz = new Matriz($("matriz"), dados, (id) => painel.mostrar(id));
+const dinheiro = new Dinheiro($("dinheiro"), dados, (id) => {
+  painel.mostrar(id);
+  mapa.selecionar(dados.noDe(id) ?? null);
+});
 
 // ---------- Abas: mapa e fluxo do processo ----------
 const abaFluxo = $<HTMLButtonElement>("aba-fluxo");
-type Aba = "mapa" | "fluxo" | "matriz";
+type Aba = "mapa" | "fluxo" | "matriz" | "dinheiro";
 function mostrarAba(aba: Aba) {
-  for (const id of ["mapa", "fluxo", "matriz"]) $(id).hidden = id !== aba;
+  for (const id of ["mapa", "fluxo", "matriz", "dinheiro"]) $(id).hidden = id !== aba;
   for (const b of document.querySelectorAll<HTMLButtonElement>(".abas button")) {
     b.setAttribute("aria-selected", String(b.dataset.aba === aba));
   }
   if (aba === "mapa") mapa.cy.resize();
   else if (aba === "fluxo") fluxo.enquadrar();
-  else matriz.mostrar();
+  else if (aba === "matriz") matriz.mostrar();
+  else dinheiro.mostrar();
 }
 for (const b of document.querySelectorAll<HTMLButtonElement>(".abas button")) {
   b.addEventListener("click", () => mostrarAba(b.dataset.aba as Aba));
@@ -133,6 +139,16 @@ $<HTMLInputElement>("avisos").addEventListener("change", (ev) => {
   } else painel.mostrarLegenda();
 });
 
+// ---------- Orçamento (D48) ----------
+$<HTMLInputElement>("orcamento").addEventListener("change", (ev) => {
+  const ligado = (ev.target as HTMLInputElement).checked;
+  mapa.mostrarOrcamento(ligado);
+  if (ligado) {
+    painel.mostrarLegendaOrcamento();
+    mostrarAba("mapa");
+  } else painel.mostrarLegenda();
+});
+
 // ---------- Busca ----------
 const busca = $<HTMLInputElement>("busca");
 const resultados = $<HTMLUListElement>("busca-resultados");
@@ -172,3 +188,6 @@ $("tema").addEventListener("click", () => {
   mapa.reaplicarEstilo();
   fluxo.reaplicarEstilo();
 });
+
+// Acesso para testes automáticos no navegador (scripts de conferência visual).
+(globalThis as Record<string, unknown>).brGrama = { dados, mapa };

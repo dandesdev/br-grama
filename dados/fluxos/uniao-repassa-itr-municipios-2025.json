@@ -1,0 +1,45 @@
+{
+  "id": "fluxo:uniao-repassa-itr-municipios-2025",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos municípios 50% do ITR, ou 100% se eles o cobrarem: valores de 2025",
+  "resumo": "R$ 2,9 bilhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-itr-municipios",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2920316954.8,
+    "despesas_pagas": 2807575252.08,
+    "restos_a_pagar_pagos": 112741702.72,
+    "pagamentos_primarios": 2920316954.8,
+    "dotacao_inicial": 2709723223,
+    "dotacao_atualizada": 3400290783,
+    "despesas_empenhadas": 2928685173.95,
+    "despesas_liquidadas": 2807575252.08
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "006M"
+    ],
+    "nota": "A parcela destinada ao Fundeb (CF, art. 212-A, II) é paga na ação 0C33, que reúne a retenção de várias transferências, e não entra aqui. Ações somadas: 006M (TRANSFERENCIA DO IMPOSTO TERRITORIAL RURAL - ITR)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

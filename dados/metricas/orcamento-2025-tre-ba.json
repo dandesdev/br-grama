@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-ba",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral da Bahia",
+  "resumo": "Pagou R$ 517,2 milhões em 2025; dotação atualizada de R$ 527,0 milhões.",
+  "de": "org:tre-ba",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 517195234.68,
+    "despesas_pagas": 487690424.22,
+    "restos_a_pagar_pagos": 29504810.46,
+    "pagamentos_primarios": 467956476.15,
+    "dotacao_inicial": 475063647,
+    "dotacao_atualizada": 526995340,
+    "despesas_empenhadas": 522428121.41,
+    "despesas_liquidadas": 495898467.63
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14105"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

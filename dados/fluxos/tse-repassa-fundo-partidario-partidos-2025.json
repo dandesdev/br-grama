@@ -1,0 +1,42 @@
+{
+  "id": "fluxo:tse-repassa-fundo-partidario-partidos-2025",
+  "tipo": "fluxo",
+  "nome": "TSE distribui o Fundo Partidário: valores de 2025",
+  "resumo": "R$ 1,3 bilhão pagos em 2025.",
+  "repasse": "rel:tse-repassa-fundo-partidario-partidos",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1307815003.68,
+    "despesas_pagas": 1307815003.68,
+    "restos_a_pagar_pagos": 0,
+    "pagamentos_primarios": 1307815003.68,
+    "dotacao_inicial": 1328764722,
+    "dotacao_atualizada": 1328764722,
+    "despesas_empenhadas": 1308461534.56,
+    "despesas_liquidadas": 1307815003.68
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14901"
+    ],
+    "nota": "Ações somadas: 0413 (MANUTENCAO E OPERACAO DOS PARTIDOS POLITICOS)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-anvisa",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Nacional de Vigilância Sanitária",
+  "resumo": "Pagou R$ 990,1 milhões em 2025; dotação atualizada de R$ 1,0 bilhão.",
+  "de": "org:anvisa",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 990116071.29,
+    "despesas_pagas": 889750133.98,
+    "restos_a_pagar_pagos": 100365937.31,
+    "pagamentos_primarios": 922093336.15,
+    "dotacao_inicial": 965519873,
+    "dotacao_atualizada": 1032026457,
+    "despesas_empenhadas": 1013480300.67,
+    "despesas_liquidadas": 978278296.01
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "36212"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

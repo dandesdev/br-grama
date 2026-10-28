@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-pr",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Paraná",
+  "resumo": "Pagou R$ 463,8 milhões em 2025; dotação atualizada de R$ 475,5 milhões.",
+  "de": "org:tre-pr",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 463846645.63,
+    "despesas_pagas": 457184128.31,
+    "restos_a_pagar_pagos": 6662517.32,
+    "pagamentos_primarios": 420992459.97,
+    "dotacao_inicial": 433504137,
+    "dotacao_atualizada": 475471975,
+    "despesas_empenhadas": 468137735.32,
+    "despesas_liquidadas": 457242253.41
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14116"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

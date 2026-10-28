@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-pa",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Pará",
+  "resumo": "Pagou R$ 286,1 milhões em 2025; dotação atualizada de R$ 284,4 milhões.",
+  "de": "org:tre-pa",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 286128693.51,
+    "despesas_pagas": 271764125.26,
+    "restos_a_pagar_pagos": 14364568.25,
+    "pagamentos_primarios": 266539020.55,
+    "dotacao_inicial": 258405484,
+    "dotacao_atualizada": 284446141,
+    "despesas_empenhadas": 282801341.59,
+    "despesas_liquidadas": 272174405.6
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14114"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

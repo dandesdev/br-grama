@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-fnde",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Fundo Nacional de Desenvolvimento da Educação",
+  "resumo": "Pagou R$ 76,5 bilhões em 2025; dotação atualizada de R$ 78,5 bilhões.",
+  "de": "org:fnde",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 76521396479.75,
+    "despesas_pagas": 64796628983.11,
+    "restos_a_pagar_pagos": 11724767496.64,
+    "pagamentos_primarios": 76505698896.17,
+    "dotacao_inicial": 75874363684,
+    "dotacao_atualizada": 78541762559,
+    "despesas_empenhadas": 78469604282.87,
+    "despesas_liquidadas": 64848142411.07
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "26298"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

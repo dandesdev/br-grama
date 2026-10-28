@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-se",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral de Sergipe",
+  "resumo": "Pagou R$ 137,6 milhões em 2025; dotação atualizada de R$ 138,5 milhões.",
+  "de": "org:tre-se",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 137566971.91,
+    "despesas_pagas": 132125674.68,
+    "restos_a_pagar_pagos": 5441297.23,
+    "pagamentos_primarios": 125806159.05,
+    "dotacao_inicial": 128217204,
+    "dotacao_atualizada": 138492310,
+    "despesas_empenhadas": 137344517,
+    "despesas_liquidadas": 134267530.16
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14125"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-tj-df",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal de Justiça do Distrito Federal e Territórios",
+  "resumo": "Pagou R$ 4,2 bilhões em 2025; dotação atualizada de R$ 4,3 bilhões.",
+  "de": "org:tj-df",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4230245379.57,
+    "despesas_pagas": 4177092951.03,
+    "restos_a_pagar_pagos": 53152428.54,
+    "pagamentos_primarios": 3886062526.25,
+    "dotacao_inicial": 4083171539,
+    "dotacao_atualizada": 4303334202,
+    "despesas_empenhadas": 4303334189.69,
+    "despesas_liquidadas": 4185921987.64
+  },
+  "recorte": {
+    "poderes": [
+      "JDFT"
+    ],
+    "nota": "Unidades orçamentárias somadas: 16101, 16103."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

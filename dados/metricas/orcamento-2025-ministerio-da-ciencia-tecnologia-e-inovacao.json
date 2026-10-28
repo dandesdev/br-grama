@@ -1,0 +1,57 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-ciencia-tecnologia-e-inovacao",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Ciência, Tecnologia e Inovação",
+  "resumo": "Pagou R$ 13,3 bilhões em 2025; dotação atualizada de R$ 13,5 bilhões.",
+  "de": "org:ministerio-da-ciencia-tecnologia-e-inovacao",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 13289496150.61,
+    "despesas_pagas": 10833577647.88,
+    "restos_a_pagar_pagos": 2455918502.73,
+    "pagamentos_primarios": 13088440815.72,
+    "dotacao_inicial": 13718873063,
+    "dotacao_atualizada": 13548126382,
+    "despesas_empenhadas": 13394827615.65,
+    "despesas_liquidadas": 11714325547.59
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 9146210036,
+      "despesas_pagas": 9146210036,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 0,
+      "dotacao_inicial": 7334389513,
+      "dotacao_atualizada": 23334389513,
+      "despesas_empenhadas": 23334389513,
+      "despesas_liquidadas": 9146210036
+    },
+    "unidades_orcamentarias": [
+      "74910"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "24000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 24101, 24201, 24204, 24205, 24209, 24901."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

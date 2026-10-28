@@ -1,7 +1,11 @@
 // Desenho do mapa com Cytoscape. As posições vêm prontas do build (D29); aqui só aplicamos
 // estilo, camadas e destaques.
 import cytoscape, { type Core, type ElementDefinition, type StylesheetJson } from "cytoscape";
-import { Dados, type Etapa, type Entidade } from "./dados.ts";
+import { Dados, reais, type Etapa, type Entidade, type ValoresOrcamento } from "./dados.ts";
+
+/** Camada "Orçamento" (D48): diâmetro do círculo de R$ 100 bilhões, em pixels do mapa. Área proporcional ao valor. */
+export const DIAMETRO_100_BI = 160;
+export const diametro = (valor: number) => DIAMETRO_100_BI * Math.sqrt(Math.max(0, valor) / 1e11);
 
 const NOMES_REGIAO: Record<string, string> = {
   povo: "Povo",
@@ -231,6 +235,17 @@ function estilo(): StylesheetJson {
     { selector: "node:selected", style: { "border-width": 4, "border-color": destaque } },
     { selector: "node.contem:selected", style: { "border-width": 3 } },
 
+    // Orçamento: círculo atrás do nó com área proporcional ao valor pago (D23, D48).
+    {
+      selector: "node.com-orcamento",
+      style: {
+        "underlay-color": "data(cor)",
+        "underlay-opacity": 0.22,
+        "underlay-padding": "data(folga)",
+        "underlay-shape": "ellipse",
+      } as never,
+    },
+
     // Avisos (cor de status + ícone no rótulo: nunca só cor)
     { selector: "node.com-aviso", style: { "border-color": alerta, "border-width": 3.5 } },
 
@@ -304,6 +319,37 @@ export class Mapa {
     const vizinhos = arestas.connectedNodes().union(no).union(no.descendants()).union(no.ancestors()).union(arestas.connectedNodes().ancestors());
     cy.elements().not(vizinhos).not(arestas).not(".regiao").addClass("apagado");
     arestas.addClass("vizinho");
+  }
+
+  /** Camada de orçamento: valor pago no rótulo e um círculo de área proporcional atrás do nó. */
+  mostrarOrcamento(visivel: boolean) {
+    this.cy.batch(() => {
+      this.cy.nodes("[valor]").forEach((n) => {
+        n.data("rotulo", n.data("rotuloBase"));
+        n.removeData("valor");
+      });
+      this.cy.nodes(".com-orcamento").removeClass("com-orcamento");
+      if (visivel) this.marcarOrcamento();
+    });
+  }
+
+  private marcarOrcamento() {
+    for (const m of this.dados.todosOrcamentos()) {
+      const n = this.cy.getElementById(m.de as string);
+      if (n.empty()) continue;
+      const v = (m.valores as ValoresOrcamento).pagamentos_totais;
+      n.data("valor", reais(v, true));
+      n.data("rotulo", `${n.data("rotuloBase")}
+${n.data("valor")}`);
+      if (this.dados.get(m.de as string)?.tipo_orgao === "poder") continue; // o contêiner do Poder já é enorme
+      // Folga em volta do retângulo para que a elipse (w + 2f) x (h + 2f) tenha a área do círculo.
+      const w = n.width();
+      const h = n.height();
+      const d = diametro(v);
+      const folga = d * d > w * h ? (-(w + h) + Math.sqrt((w + h) ** 2 - 4 * (w * h - d * d))) / 4 : 0;
+      n.data("folga", folga);
+      n.addClass("com-orcamento");
+    }
   }
 
   /** Camada de avisos: borda de alerta e ícone ⚠ no rótulo dos nós afetados. */

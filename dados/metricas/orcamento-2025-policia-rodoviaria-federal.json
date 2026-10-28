@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-policia-rodoviaria-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Polícia Rodoviária Federal",
+  "resumo": "Pagou R$ 6,7 bilhões em 2025; dotação atualizada de R$ 7,1 bilhões.",
+  "de": "org:policia-rodoviaria-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6731730320.58,
+    "despesas_pagas": 5996360975.81,
+    "restos_a_pagar_pagos": 735369344.77,
+    "pagamentos_primarios": 6187163057.57,
+    "dotacao_inicial": 7090461783,
+    "dotacao_atualizada": 7085738265,
+    "despesas_empenhadas": 6801750881.82,
+    "despesas_liquidadas": 6528851448.87
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30107"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

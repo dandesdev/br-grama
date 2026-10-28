@@ -1,0 +1,45 @@
+{
+  "id": "fluxo:uniao-repassa-ipi-exportacao-estados-2025",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos estados e ao DF 10% do IPI e do Imposto Seletivo, conforme as exportações: valores de 2025",
+  "resumo": "R$ 7,0 bilhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-ipi-exportacao-estados",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 7023875485.53,
+    "despesas_pagas": 6770562677.16,
+    "restos_a_pagar_pagos": 253312808.37,
+    "pagamentos_primarios": 7023875485.53,
+    "dotacao_inicial": 7436149230,
+    "dotacao_atualizada": 7413588864,
+    "despesas_empenhadas": 7089238628.52,
+    "despesas_liquidadas": 6770562677.16
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "0046"
+    ],
+    "nota": "A parcela destinada ao Fundeb (CF, art. 212-A, II) é paga na ação 0C33, que reúne a retenção de várias transferências, e não entra aqui. Ações somadas: 0046 (TRANSFERENCIA DA COTA-PARTE DOS ESTADOS E DF EXPORTADORES NA)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

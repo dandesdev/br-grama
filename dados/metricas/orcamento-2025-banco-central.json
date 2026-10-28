@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-banco-central",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Banco Central do Brasil",
+  "resumo": "Pagou R$ 4,6 bilhões em 2025; dotação atualizada de R$ 4,7 bilhões.",
+  "de": "org:banco-central",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4592302843.84,
+    "despesas_pagas": 4252554361.83,
+    "restos_a_pagar_pagos": 339748482.01,
+    "pagamentos_primarios": 4421166219.29,
+    "dotacao_inicial": 4389316652,
+    "dotacao_atualizada": 4678320932,
+    "despesas_empenhadas": 4648849833.96,
+    "despesas_liquidadas": 4574115366.68
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "83201"
+    ],
+    "nota": "Só a parte do Banco Central que está nos orçamentos fiscal e da seguridade social; a autoridade monetária tem orçamento próprio."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

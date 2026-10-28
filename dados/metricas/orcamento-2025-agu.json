@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-agu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Advocacia-Geral da União",
+  "resumo": "Pagou R$ 4,9 bilhões em 2025; dotação atualizada de R$ 5,1 bilhões.",
+  "de": "org:agu",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4943365400.53,
+    "despesas_pagas": 4517071733.01,
+    "restos_a_pagar_pagos": 426293667.52,
+    "pagamentos_primarios": 4563250206.69,
+    "dotacao_inicial": 4642856825,
+    "dotacao_atualizada": 5070658435,
+    "despesas_empenhadas": 5062297291.05,
+    "despesas_liquidadas": 4869048738.43
+  },
+  "recorte": {
+    "orgao_orcamentario": "63000",
+    "nota": "A AGU é função essencial à Justiça, mas o orçamento dela fica no Executivo. Unidades orçamentárias somadas: 63101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

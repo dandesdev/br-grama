@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-mpdft",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério Público do Distrito Federal e Territórios",
+  "resumo": "Pagou R$ 1,3 bilhão em 2025; dotação atualizada de R$ 1,3 bilhão.",
+  "de": "org:mpdft",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1265029866.97,
+    "despesas_pagas": 1255214740.03,
+    "restos_a_pagar_pagos": 9815126.94,
+    "pagamentos_primarios": 1160466828.82,
+    "dotacao_inicial": 1277453104,
+    "dotacao_atualizada": 1276262825,
+    "despesas_empenhadas": 1265465306.07,
+    "despesas_liquidadas": 1262970773.69
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34103"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

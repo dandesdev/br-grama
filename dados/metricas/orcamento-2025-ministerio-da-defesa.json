@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-defesa",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Defesa",
+  "resumo": "Pagou R$ 131,9 bilhões em 2025; dotação atualizada de R$ 133,4 bilhões.",
+  "de": "org:ministerio-da-defesa",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 131905567593.63,
+    "despesas_pagas": 118466751093.79,
+    "restos_a_pagar_pagos": 13438816499.84,
+    "pagamentos_primarios": 128926375520.12,
+    "dotacao_inicial": 133321756614.77,
+    "dotacao_atualizada": 133418223933.77,
+    "despesas_empenhadas": 132024810820.87,
+    "despesas_liquidadas": 124843809527.07
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 201863463.19,
+      "despesas_pagas": 164532628.67,
+      "restos_a_pagar_pagos": 37330834.52,
+      "pagamentos_primarios": 217387.1,
+      "dotacao_inicial": 225165912,
+      "dotacao_atualizada": 235165912,
+      "despesas_empenhadas": 231754054.07,
+      "despesas_liquidadas": 164916773.97
+    },
+    "unidades_orcamentarias": [
+      "72152",
+      "74204",
+      "74205"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "52000",
+    "nota": "Inclui os comandos da Marinha, do Exército e da Aeronáutica e seus fundos. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 52101, 52111, 52121, 52131, 52133, 52211, 52221, 52222, 52232, 52233, 52901, 52902, 52903, 52911, 52921, 52931, 52932."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

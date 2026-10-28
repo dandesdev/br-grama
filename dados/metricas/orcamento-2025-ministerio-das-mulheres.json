@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-das-mulheres",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério das Mulheres",
+  "resumo": "Pagou R$ 262,5 milhões em 2025; dotação atualizada de R$ 314,3 milhões.",
+  "de": "org:ministerio-das-mulheres",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 262463625.67,
+    "despesas_pagas": 118300786.91,
+    "restos_a_pagar_pagos": 144162838.76,
+    "pagamentos_primarios": 262463625.67,
+    "dotacao_inicial": 370538893,
+    "dotacao_atualizada": 314305842,
+    "despesas_empenhadas": 300271911.59,
+    "despesas_liquidadas": 124150579.06
+  },
+  "recorte": {
+    "orgao_orcamentario": "65000",
+    "nota": "Unidades orçamentárias somadas: 65101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

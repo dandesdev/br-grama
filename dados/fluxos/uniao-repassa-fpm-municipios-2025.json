@@ -1,0 +1,45 @@
+{
+  "id": "fluxo:uniao-repassa-fpm-municipios-2025",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos municípios 25,5% do IR, do IPI e do Imposto Seletivo, pelo FPM: valores de 2025",
+  "resumo": "R$ 198,0 bilhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-fpm-municipios",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 198040362278.93,
+    "despesas_pagas": 192390356623.6,
+    "restos_a_pagar_pagos": 5650005655.33,
+    "pagamentos_primarios": 198040362278.93,
+    "dotacao_inicial": 198224395636,
+    "dotacao_atualizada": 208027695335,
+    "despesas_empenhadas": 198463908875.03,
+    "despesas_liquidadas": 192390356623.6
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "0045"
+    ],
+    "nota": "A parcela destinada ao Fundeb (CF, art. 212-A, II) é paga na ação 0C33, que reúne a retenção de várias transferências, e não entra aqui. Ações somadas: 0045 (TRANSFERENCIA AO FUNDO DE PARTICIPACAO DOS MUNICIPIOS - FPM)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

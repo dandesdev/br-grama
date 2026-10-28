@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-dpu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Defensoria Pública da União",
+  "resumo": "Pagou R$ 803,9 milhões em 2025; dotação atualizada de R$ 832,0 milhões.",
+  "de": "org:dpu",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 803931057.39,
+    "despesas_pagas": 705030927.54,
+    "restos_a_pagar_pagos": 98900129.85,
+    "pagamentos_primarios": 746500578.88,
+    "dotacao_inicial": 831769782,
+    "dotacao_atualizada": 831971993,
+    "despesas_empenhadas": 830933020.98,
+    "despesas_liquidadas": 775071573.07
+  },
+  "recorte": {
+    "poderes": [
+      "DPU"
+    ],
+    "nota": "Unidades orçamentárias somadas: 29101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-enap",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Fundação Escola Nacional de Administração Pública",
+  "resumo": "Pagou R$ 112,6 milhões em 2025; dotação atualizada de R$ 133,9 milhões.",
+  "de": "org:enap",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 112607498.21,
+    "despesas_pagas": 104578793.39,
+    "restos_a_pagar_pagos": 8028704.82,
+    "pagamentos_primarios": 109434994.52,
+    "dotacao_inicial": 93910746,
+    "dotacao_atualizada": 133891051,
+    "despesas_empenhadas": 132450097.79,
+    "despesas_liquidadas": 112049979.7
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "46201"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

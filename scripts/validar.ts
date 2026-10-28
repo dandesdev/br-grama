@@ -35,6 +35,7 @@ const CHAVES_COM_VOCABULARIO: Record<string, string> = {
   votacao: "votacao",
   unidade: "unidade_prazo",
   natureza: "natureza_competencia",
+  medida: "medida",
 };
 
 /** Percorre o arquivo inteiro chamando visitar(chave, valor, caminho) em cada propriedade. */
@@ -90,13 +91,19 @@ for (const arq of lerArquivos()) {
   if (ent.tipo === "relacao" && ent.interino !== undefined && ent.relacao !== "ocupa") {
     erro(arq.caminho, `o campo interino só vale na relação "ocupa" (D40)`);
   }
+  if (ent.tipo === "fluxo" || ent.tipo === "metrica") {
+    const v = ent.valores as { pagamentos_totais: number; despesas_pagas?: number; restos_a_pagar_pagos?: number };
+    if (v.despesas_pagas !== undefined && v.restos_a_pagar_pagos !== undefined && Math.abs(v.despesas_pagas + v.restos_a_pagar_pagos - v.pagamentos_totais) > 1) {
+      erro(arq.caminho, `pagamentos_totais deveria ser despesas_pagas + restos_a_pagar_pagos (D46)`);
+    }
+  }
   if (ent.confianca === "indisponivel" && ent.tipo !== "aviso") {
     aviso(arq.caminho, `confiança "indisponivel"; confira se há um aviso apontando para ${ent.id}`);
   }
 }
 
 // 2. Referências: toda string com formato de id precisa existir; refs de fonte apontam para norma/fonte.
-const PADRAO_ID_NO_TEXTO = /\b(?:ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|aviso|var):[a-z0-9]+(?:-[a-z0-9]+)*/g;
+const PADRAO_ID_NO_TEXTO = /\b(?:ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|aviso|var|met|fluxo):[a-z0-9]+(?:-[a-z0-9]+)*/g;
 const CAMPOS_DE_TEXTO = new Set(["resumo", "detalhes", "notas", "nota", "condicao", "porque", "quando", "texto", "vagas_nota", "provimento_nota"]);
 
 for (const { entidade, caminho } of entidades.values()) {
@@ -114,6 +121,18 @@ for (const { entidade, caminho } of entidades.values()) {
       }
     }
   });
+}
+
+// Métricas medem órgão ou ente; fluxos ficam presos a uma relação repassa-recursos (D45).
+for (const { entidade, caminho } of entidades.values()) {
+  if (entidade.tipo === "metrica") {
+    const alvo = entidades.get(entidade.de as string)?.entidade;
+    if (alvo && alvo.tipo !== "orgao" && alvo.tipo !== "ente") erro(caminho, `métrica deve medir um órgão ou ente, não ${alvo.tipo}`);
+  }
+  if (entidade.tipo === "fluxo") {
+    const rel = entidades.get(entidade.repasse as string)?.entidade;
+    if (rel && (rel.tipo !== "relacao" || rel.relacao !== "repassa-recursos")) erro(caminho, `fluxo deve apontar para uma relação repassa-recursos`);
+  }
 }
 
 // 3. Processos: etapas com ids únicos, ligações válidas, atores coerentes com o tipo da etapa

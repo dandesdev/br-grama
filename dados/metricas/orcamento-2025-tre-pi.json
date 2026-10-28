@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-pi",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Piauí",
+  "resumo": "Pagou R$ 231,1 milhões em 2025; dotação atualizada de R$ 237,9 milhões.",
+  "de": "org:tre-pi",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 231128752.28,
+    "despesas_pagas": 225065990.25,
+    "restos_a_pagar_pagos": 6062762.03,
+    "pagamentos_primarios": 210175065.2,
+    "dotacao_inicial": 219576995,
+    "dotacao_atualizada": 237947415,
+    "despesas_empenhadas": 235061540.58,
+    "despesas_liquidadas": 228365528.96
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14118"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

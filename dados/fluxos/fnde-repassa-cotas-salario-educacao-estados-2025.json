@@ -1,0 +1,48 @@
+{
+  "id": "fluxo:fnde-repassa-cotas-salario-educacao-estados-2025",
+  "tipo": "fluxo",
+  "nome": "O FNDE entrega aos estados as cotas estaduais do salário-educação: valores de 2025",
+  "resumo": "R$ 8,0 bilhões pagos em 2025.",
+  "repasse": "rel:fnde-repassa-cotas-salario-educacao-estados",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 7997430889.43,
+    "despesas_pagas": 6924188015.94,
+    "restos_a_pagar_pagos": 1073242873.49,
+    "pagamentos_primarios": 7997430889.43,
+    "dotacao_inicial": 8473787659.06,
+    "dotacao_atualizada": 8473787659.06,
+    "despesas_empenhadas": 8473787659.06,
+    "despesas_liquidadas": 6924188015.94
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73107"
+    ],
+    "acoes": [
+      "0369"
+    ],
+    "modalidades": [
+      "30"
+    ],
+    "nota": "A ação fica na unidade 73107 (recursos sob supervisão do MEC). Ações somadas: 0369 (TRANSFERENCIA DAS QUOTAS ESTADUAL E MUNICIPAL DO SALARIO-EDU)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

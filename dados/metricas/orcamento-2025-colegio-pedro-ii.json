@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-colegio-pedro-ii",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Colégio Pedro II",
+  "resumo": "Pagou R$ 955,5 milhões em 2025; dotação atualizada de R$ 961,2 milhões.",
+  "de": "org:colegio-pedro-ii",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 955497966.67,
+    "despesas_pagas": 863366193.42,
+    "restos_a_pagar_pagos": 92131773.25,
+    "pagamentos_primarios": 883120804.49,
+    "dotacao_inicial": 853510713,
+    "dotacao_atualizada": 961231280,
+    "despesas_empenhadas": 958143827.4,
+    "despesas_liquidadas": 930292662.43
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "26201"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

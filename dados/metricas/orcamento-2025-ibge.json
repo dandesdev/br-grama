@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-ibge",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Fundação Instituto Brasileiro de Geografia e Estatística",
+  "resumo": "Pagou R$ 3,1 bilhões em 2025; dotação atualizada de R$ 3,2 bilhões.",
+  "de": "org:ibge",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3134923615.37,
+    "despesas_pagas": 2910108039.58,
+    "restos_a_pagar_pagos": 224815575.79,
+    "pagamentos_primarios": 2984412221.84,
+    "dotacao_inicial": 2908288088,
+    "dotacao_atualizada": 3189755270,
+    "despesas_empenhadas": 3162393936.4,
+    "despesas_liquidadas": 3107286420.24
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "47205"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

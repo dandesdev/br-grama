@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-rj",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Rio de Janeiro",
+  "resumo": "Pagou R$ 700,8 milhões em 2025; dotação atualizada de R$ 719,6 milhões.",
+  "de": "org:tre-rj",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 700842228.53,
+    "despesas_pagas": 688123050.98,
+    "restos_a_pagar_pagos": 12719177.55,
+    "pagamentos_primarios": 635062732.75,
+    "dotacao_inicial": 677439019,
+    "dotacao_atualizada": 719567144,
+    "despesas_empenhadas": 709056440.33,
+    "despesas_liquidadas": 689264176.86
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14119"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

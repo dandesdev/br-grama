@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tse",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Superior Eleitoral",
+  "resumo": "Pagou R$ 1,1 bilhão em 2025; dotação atualizada de R$ 1,6 bilhão.",
+  "de": "org:tse",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1077390563.02,
+    "despesas_pagas": 893849095.09,
+    "restos_a_pagar_pagos": 183541467.93,
+    "pagamentos_primarios": 1038001205.45,
+    "dotacao_inicial": 2141003624,
+    "dotacao_atualizada": 1649072926,
+    "despesas_empenhadas": 1025126798.85,
+    "despesas_liquidadas": 909896656.24
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14101"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

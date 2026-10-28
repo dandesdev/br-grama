@@ -28,6 +28,8 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 | processo | `proc:` | `processos/` | Sequência de etapas, com regimes (variantes) |
 | aviso | `aviso:` | `avisos/` | Lacuna, contradição, sigilo ou baixa transparência |
 | variação | `var:` | `variacoes/` | Atipicidade de um ente em relação ao arquétipo |
+| métrica | `met:` | `metricas/` | Número medido de um órgão ou ente num exercício, como o orçamento executado (D45) |
+| fluxo | `fluxo:` | `fluxos/` | Dinheiro pago num exercício por uma relação `repassa-recursos` (D45) |
 
 ## Campos comuns
 
@@ -75,6 +77,10 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 **Aviso.** `tipo_aviso`, `afeta`, `gravidade` e `onde_procuramos` (lista dos lugares onde a informação foi buscada sem sucesso). Um fato com fonte (ex.: uma cadeira vaga) **não** é aviso: registre no próprio cargo. Aviso resolvido não se apaga: ganha `vigencia.ate` com a data da fonte que resolveu a lacuna e sai do retrato (D43).
 
 **Variação.** `entes`, `abrangencia` (`ente` ou `municipios-do-estado`), `difere_de` (órgão do arquétipo), `instancia` (órgão real), `substitui_relacoes` e `porque`.
+
+**Métrica (D45 a D47).** `de` (órgão ou ente), `medida` (vocabulário; hoje só `orcamento-executado`), `exercicio`, `moeda` (`BRL`), `valores` e `recorte`. `valores` traz `pagamentos_totais` (despesas do ano pagas mais restos a pagar pagos, o número principal), as duas parcelas, `pagamentos_primarios`, as dotações inicial e atualizada, o empenhado e o liquidado. `recorte` diz como refazer a conta na fonte: `poderes`, `orgao_orcamentario`, `unidades_orcamentarias`, `acoes`, `modalidades` e uma `nota`. No ministério, os recursos sob supervisão (unidades 71xxx a 75xxx) ficam em `sob_supervisao`, fora do número principal. `vigencia` é o ano medido; o site mostra o último ano fechado antes da data de referência (D26). Métricas e fluxos são gerados por `scripts/importar/tesouro-despesas.ts`; não edite à mão, mude o script e gere de novo.
+
+**Fluxo (D45).** `repasse` (a relação `repassa-recursos` que dá a base legal), `exercicio`, `moeda`, `valores` e `recorte`, com os mesmos campos da métrica.
 
 **Norma.** `tipo_norma`, `numero`, `data`, `publicacao`, `url`, `acesso_em`, `arquivo` (Wayback), `compilacao_ate` (última alteração incorporada no texto consultado) e `redacao_conferida_em`.
 

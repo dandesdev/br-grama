@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-previc",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Superintendência Nacional de Previdência Complementar",
+  "resumo": "Pagou R$ 56,1 milhões em 2025; dotação atualizada de R$ 76,2 milhões.",
+  "de": "org:previc",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 56095534.59,
+    "despesas_pagas": 48615707.63,
+    "restos_a_pagar_pagos": 7479826.96,
+    "pagamentos_primarios": 53460556.53,
+    "dotacao_inicial": 97851395,
+    "dotacao_atualizada": 76158244,
+    "despesas_empenhadas": 54380909.49,
+    "despesas_liquidadas": 52144971.48
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "33206"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

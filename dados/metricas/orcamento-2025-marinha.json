@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-marinha",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Marinha",
+  "resumo": "Pagou R$ 33,2 bilhões em 2025; dotação atualizada de R$ 34,1 bilhões.",
+  "de": "org:marinha",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 33166181292.18,
+    "despesas_pagas": 31103868310.07,
+    "restos_a_pagar_pagos": 2062312982.11,
+    "pagamentos_primarios": 32420560613.86,
+    "dotacao_inicial": 32075421879,
+    "dotacao_atualizada": 34055085921,
+    "despesas_empenhadas": 33363418901.67,
+    "despesas_liquidadas": 32809192172.27
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "52131"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

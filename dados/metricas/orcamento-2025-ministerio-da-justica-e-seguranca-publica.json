@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-justica-e-seguranca-publica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Justiça e Segurança Pública",
+  "resumo": "Pagou R$ 21,9 bilhões em 2025; dotação atualizada de R$ 23,2 bilhões.",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 21937987473.26,
+    "despesas_pagas": 18500475553.28,
+    "restos_a_pagar_pagos": 3437511919.98,
+    "pagamentos_primarios": 20517091039.64,
+    "dotacao_inicial": 22869551412,
+    "dotacao_atualizada": 23224951007,
+    "despesas_empenhadas": 22296498619.63,
+    "despesas_liquidadas": 19881216700.42
+  },
+  "recorte": {
+    "orgao_orcamentario": "30000",
+    "nota": "Unidades orçamentárias somadas: 30101, 30107, 30108, 30211, 30212, 30905, 30907, 30911, 30912."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

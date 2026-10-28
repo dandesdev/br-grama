@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-anm",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Nacional de Mineração",
+  "resumo": "Pagou R$ 529,1 milhões em 2025; dotação atualizada de R$ 793,3 milhões.",
+  "de": "org:anm",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 529057592.91,
+    "despesas_pagas": 484330946.96,
+    "restos_a_pagar_pagos": 44726645.95,
+    "pagamentos_primarios": 489877409.24,
+    "dotacao_inicial": 907818628,
+    "dotacao_atualizada": 793336162,
+    "despesas_empenhadas": 553218095.06,
+    "despesas_liquidadas": 538842780.74
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "32396"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

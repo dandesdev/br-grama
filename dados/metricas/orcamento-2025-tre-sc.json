@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-sc",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral de Santa Catarina",
+  "resumo": "Pagou R$ 288,9 milhões em 2025; dotação atualizada de R$ 292,8 milhões.",
+  "de": "org:tre-sc",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 288909361.67,
+    "despesas_pagas": 280805389.08,
+    "restos_a_pagar_pagos": 8103972.59,
+    "pagamentos_primarios": 264554029.23,
+    "dotacao_inicial": 270302772,
+    "dotacao_atualizada": 292792758,
+    "despesas_empenhadas": 291268244.63,
+    "despesas_liquidadas": 282547220.62
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14123"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

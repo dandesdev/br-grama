@@ -1,0 +1,57 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-planejamento-e-orcamento",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Planejamento e Orçamento",
+  "resumo": "Pagou R$ 3,9 bilhões em 2025; dotação atualizada de R$ 4,1 bilhões.",
+  "de": "org:ministerio-do-planejamento-e-orcamento",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3947927363.87,
+    "despesas_pagas": 3646358440.6,
+    "restos_a_pagar_pagos": 301568923.27,
+    "pagamentos_primarios": 3738670181.72,
+    "dotacao_inicial": 3687818958,
+    "dotacao_atualizada": 4051135260,
+    "despesas_empenhadas": 4006182877.8,
+    "despesas_liquidadas": 3922537889.95
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2182895685.76,
+      "despesas_pagas": 2123895685.76,
+      "restos_a_pagar_pagos": 59000000,
+      "pagamentos_primarios": 2182895685.76,
+      "dotacao_inicial": 21056211036,
+      "dotacao_atualizada": 3303813726,
+      "despesas_empenhadas": 2199816218.76,
+      "despesas_liquidadas": 2123895685.76
+    },
+    "unidades_orcamentarias": [
+      "71102"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "47000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 25301, 47101, 47204, 47205."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "fluxo:uniao-repassa-cide-estados-2025",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos estados e ao DF 29% da CIDE-combustíveis: valores de 2025",
+  "resumo": "R$ 917,9 milhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-cide-estados",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 917863021.66,
+    "despesas_pagas": 702413731.33,
+    "restos_a_pagar_pagos": 215449290.33,
+    "pagamentos_primarios": 917863021.66,
+    "dotacao_inicial": 1256725374,
+    "dotacao_atualizada": 1203688894,
+    "despesas_empenhadas": 972115387.95,
+    "despesas_liquidadas": 702413731.33
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "0999"
+    ],
+    "nota": "Ações somadas: 0999 (TRANSFERENCIA DE REPARTICAO DA CONTRIBUICAO DE INTERVENCAO N)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

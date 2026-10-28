@@ -1,0 +1,48 @@
+{
+  "id": "fluxo:anp-repassa-royalties-do-petroleo-municipios-2025",
+  "tipo": "fluxo",
+  "nome": "Royalties do petróleo e gás entregues aos municípios: valores de 2025",
+  "resumo": "R$ 28,7 bilhões pagos em 2025.",
+  "repasse": "rel:anp-repassa-royalties-do-petroleo-municipios",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 28671098897.82,
+    "despesas_pagas": 24438376300.61,
+    "restos_a_pagar_pagos": 4232722597.21,
+    "pagamentos_primarios": 28671098897.82,
+    "dotacao_inicial": 30081863275.31,
+    "dotacao_atualizada": 29443270163.31,
+    "despesas_empenhadas": 29336827824.31,
+    "despesas_liquidadas": 24438376300.61
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73116"
+    ],
+    "acoes": [
+      "0A53"
+    ],
+    "modalidades": [
+      "40"
+    ],
+    "nota": "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). Ações somadas: 0A53 (TRANSFERENCIAS DAS PARTICIPACOES PELA PRODUCAO DE PETROLEO E)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

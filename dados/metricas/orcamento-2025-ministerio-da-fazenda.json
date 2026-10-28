@@ -1,0 +1,68 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-fazenda",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Fazenda",
+  "resumo": "Pagou R$ 14,4 bilhões em 2025; dotação atualizada de R$ 24,9 bilhões.",
+  "de": "org:ministerio-da-fazenda",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 14426574951.8,
+    "despesas_pagas": 12163455004.55,
+    "restos_a_pagar_pagos": 2263119947.25,
+    "pagamentos_primarios": 12633582086.73,
+    "dotacao_inicial": 27235186130,
+    "dotacao_atualizada": 24857654746,
+    "despesas_empenhadas": 14230654783.4,
+    "despesas_liquidadas": 13341747852.45
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2762265666383.46,
+      "despesas_pagas": 2722736539134.24,
+      "restos_a_pagar_pagos": 39529127249.22,
+      "pagamentos_primarios": 570109040410.71,
+      "dotacao_inicial": 3106459451461,
+      "dotacao_atualizada": 3179828176398,
+      "despesas_empenhadas": 2780823486435.53,
+      "despesas_liquidadas": 2723635371941.35
+    },
+    "unidades_orcamentarias": [
+      "71101",
+      "71103",
+      "71104",
+      "71904",
+      "71905",
+      "73101",
+      "73108",
+      "73901",
+      "74101",
+      "74102",
+      "74201",
+      "75101"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "25000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 25101, 25103, 25104, 25203, 25208, 25903."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

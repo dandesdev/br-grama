@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-sudam",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Superintendência do Desenvolvimento da Amazônia",
+  "resumo": "Pagou R$ 69,0 milhões em 2025; dotação atualizada de R$ 63,9 milhões.",
+  "de": "org:sudam",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 69002568.21,
+    "despesas_pagas": 45110582.24,
+    "restos_a_pagar_pagos": 23891985.97,
+    "pagamentos_primarios": 66527024.05,
+    "dotacao_inicial": 69986508,
+    "dotacao_atualizada": 63886446,
+    "despesas_empenhadas": 61649911.29,
+    "despesas_liquidadas": 48019694.97
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "53202"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

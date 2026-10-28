@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-trt-19",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional do Trabalho da 19ª Região",
+  "resumo": "Pagou R$ 346,1 milhões em 2025; dotação atualizada de R$ 350,8 milhões.",
+  "de": "org:trt-19",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 346078760.88,
+    "despesas_pagas": 338285522.8,
+    "restos_a_pagar_pagos": 7793238.08,
+    "pagamentos_primarios": 316940647.18,
+    "dotacao_inicial": 316633196,
+    "dotacao_atualizada": 350789360,
+    "despesas_empenhadas": 347753647.82,
+    "despesas_liquidadas": 339452353.11
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15120"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

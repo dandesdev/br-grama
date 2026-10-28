@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-cgu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Controladoria-Geral da União",
+  "resumo": "Pagou R$ 1,5 bilhão em 2025; dotação atualizada de R$ 1,5 bilhão.",
+  "de": "org:cgu",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1486715454.04,
+    "despesas_pagas": 1319328009.52,
+    "restos_a_pagar_pagos": 167387444.52,
+    "pagamentos_primarios": 1363894087.04,
+    "dotacao_inicial": 1424380170,
+    "dotacao_atualizada": 1531227556,
+    "despesas_empenhadas": 1524243752.8,
+    "despesas_liquidadas": 1481088608.21
+  },
+  "recorte": {
+    "orgao_orcamentario": "37000",
+    "nota": "Unidades orçamentárias somadas: 37101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

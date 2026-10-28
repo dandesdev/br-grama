@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-trt-15",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional do Trabalho da 15ª Região",
+  "resumo": "Pagou R$ 2,4 bilhões em 2025; dotação atualizada de R$ 2,5 bilhões.",
+  "de": "org:trt-15",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2440012067.33,
+    "despesas_pagas": 2385811477.06,
+    "restos_a_pagar_pagos": 54200590.27,
+    "pagamentos_primarios": 2263986564.97,
+    "dotacao_inicial": 2261158656,
+    "dotacao_atualizada": 2455721416,
+    "despesas_empenhadas": 2441030952.61,
+    "despesas_liquidadas": 2405848973.75
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15116"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

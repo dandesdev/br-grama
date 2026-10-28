@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-trf-3",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Federal da 3ª Região",
+  "resumo": "Pagou R$ 1,0 bilhão em 2025; dotação atualizada de R$ 1,0 bilhão.",
+  "de": "org:trf-3",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1011058313.19,
+    "despesas_pagas": 976955772.2,
+    "restos_a_pagar_pagos": 34102540.99,
+    "pagamentos_primarios": 915587036.7,
+    "dotacao_inicial": 956167172,
+    "dotacao_atualizada": 1028835489,
+    "despesas_empenhadas": 1021836064.9,
+    "despesas_liquidadas": 989835015.67
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "12104"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-cnj",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Conselho Nacional de Justiça",
+  "resumo": "Pagou R$ 570,9 milhões em 2025; dotação atualizada de R$ 576,5 milhões.",
+  "de": "org:cnj",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 570861897.5,
+    "despesas_pagas": 565549722.23,
+    "restos_a_pagar_pagos": 5312175.27,
+    "pagamentos_primarios": 558081773.28,
+    "dotacao_inicial": 318967069,
+    "dotacao_atualizada": 576454759,
+    "despesas_empenhadas": 573474109.13,
+    "despesas_liquidadas": 566357025.12
+  },
+  "recorte": {
+    "poderes": [
+      "CNJ"
+    ],
+    "nota": "Unidades orçamentárias somadas: 17101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

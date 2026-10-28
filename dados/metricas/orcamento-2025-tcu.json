@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-tcu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal de Contas da União",
+  "resumo": "Pagou R$ 2,9 bilhões em 2025; dotação atualizada de R$ 3,1 bilhões.",
+  "de": "org:tcu",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2854402349.9,
+    "despesas_pagas": 2780008770.45,
+    "restos_a_pagar_pagos": 74393579.45,
+    "pagamentos_primarios": 2730888591.62,
+    "dotacao_inicial": 3059074332,
+    "dotacao_atualizada": 3059074332,
+    "despesas_empenhadas": 2978967249.2,
+    "despesas_liquidadas": 2878598107.1
+  },
+  "recorte": {
+    "poderes": [
+      "TCU"
+    ],
+    "nota": "Unidades orçamentárias somadas: 3101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

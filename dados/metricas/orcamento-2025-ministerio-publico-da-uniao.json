@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-ministerio-publico-da-uniao",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério Público da União",
+  "resumo": "Pagou R$ 9,8 bilhões em 2025; dotação atualizada de R$ 9,9 bilhões.",
+  "de": "org:ministerio-publico-da-uniao",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 9835598564.34,
+    "despesas_pagas": 9762936596.63,
+    "restos_a_pagar_pagos": 72661967.71,
+    "pagamentos_primarios": 9038622402.38,
+    "dotacao_inicial": 9903319884,
+    "dotacao_atualizada": 9903319884,
+    "despesas_empenhadas": 9832150869.67,
+    "despesas_liquidadas": 9777634286.97
+  },
+  "recorte": {
+    "poderes": [
+      "MPU"
+    ],
+    "nota": "Unidades orçamentárias somadas: 34101, 34102, 34103, 34104, 34105."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -281,3 +281,24 @@ main { flex: 1; display: flex; min-height: 0; }
 .titulares th { text-align: left; font-weight: 400; padding: 2px 8px 2px 0; vertical-align: top; }
 .titulares td { padding: 2px 0; }
 .titulares .ocupante { margin: 0; }
+
+/* Orçamento (D48): aba Dinheiro, painel e legenda da camada */
+#dinheiro { flex: 1; min-height: 0; overflow: auto; padding: 16px 20px 40px; background: var(--superficie); }
+#dinheiro section { margin-top: 22px; max-width: 980px; }
+#dinheiro h3 { margin: 16px 0 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--tinta-2); }
+#dinheiro h3 .sub { text-transform: none; letter-spacing: 0; font-weight: 500; color: var(--tinta); margin-left: 6px; }
+.dinheiro-topo h2 { margin: 0 0 4px; font-size: 18px; }
+.dinheiro-topo .intro, #dinheiro .intro { max-width: 75ch; color: var(--tinta-2); margin: 0 0 8px; }
+.numeros { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 12px; }
+.numero { display: flex; flex-direction: column; max-width: 26ch; }
+.numero .rotulo { font-size: 12px; color: var(--tinta-2); }
+.numero strong { font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.barras { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.barras tr:hover { background: var(--plano); }
+.barras th { text-align: left; font-weight: 400; width: 38%; padding: 3px 10px 3px 0; vertical-align: middle; }
+.barras th .sub { font-size: 11px; color: var(--tinta-2); }
+.barras .trilho { padding: 3px 0; }
+.barras .barra-valor { display: block; height: 10px; border-radius: 0 4px 4px 0; background: var(--tinta-2); min-width: 2px; }
+.barras .valor { text-align: right; width: 7em; padding-left: 10px; color: var(--tinta); white-space: nowrap; }
+.valor-orcamento { font-size: 15px; font-variant-numeric: tabular-nums; }
+.legenda-item .circulo { display: inline-block; border-radius: 50%; background: color-mix(in srgb, var(--executivo) 22%, transparent); margin-right: 8px; vertical-align: middle; flex: none; }

@@ -1,0 +1,57 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-empreendedorismo",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
+  "resumo": "Pagou R$ 119,6 milhões em 2025; dotação atualizada de R$ 219,9 milhões.",
+  "de": "org:ministerio-do-empreendedorismo",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 119599328.38,
+    "despesas_pagas": 107399630.47,
+    "restos_a_pagar_pagos": 12199697.91,
+    "pagamentos_primarios": 119400447.2,
+    "dotacao_inicial": 270487330,
+    "dotacao_atualizada": 219909573,
+    "despesas_empenhadas": 210883080.29,
+    "despesas_liquidadas": 111185014.15
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 97705756.5,
+      "despesas_pagas": 0,
+      "restos_a_pagar_pagos": 97705756.5,
+      "pagamentos_primarios": 97705756.5,
+      "dotacao_inicial": 0,
+      "dotacao_atualizada": 0,
+      "despesas_empenhadas": 0,
+      "despesas_liquidadas": 0
+    },
+    "unidades_orcamentarias": [
+      "74120"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "69000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 69101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

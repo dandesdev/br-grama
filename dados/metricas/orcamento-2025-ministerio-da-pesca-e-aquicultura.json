@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-pesca-e-aquicultura",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Pesca e Aquicultura",
+  "resumo": "Pagou R$ 286,2 milhões em 2025; dotação atualizada de R$ 279,7 milhões.",
+  "de": "org:ministerio-da-pesca-e-aquicultura",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 286228942.84,
+    "despesas_pagas": 168525580.36,
+    "restos_a_pagar_pagos": 117703362.48,
+    "pagamentos_primarios": 284466779.53,
+    "dotacao_inicial": 273271098,
+    "dotacao_atualizada": 279666038,
+    "despesas_empenhadas": 269234989.43,
+    "despesas_liquidadas": 191333585.2
+  },
+  "recorte": {
+    "orgao_orcamentario": "58000",
+    "nota": "Unidades orçamentárias somadas: 58101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

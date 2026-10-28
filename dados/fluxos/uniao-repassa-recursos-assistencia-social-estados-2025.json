@@ -1,0 +1,46 @@
+{
+  "id": "fluxo:uniao-repassa-recursos-assistencia-social-estados-2025",
+  "tipo": "fluxo",
+  "nome": "A União cofinancia a assistência social dos estados: valores de 2025",
+  "resumo": "R$ 78,6 milhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-recursos-assistencia-social-estados",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 78590481.75,
+    "despesas_pagas": 66228542.11,
+    "restos_a_pagar_pagos": 12361939.64,
+    "pagamentos_primarios": 78590481.75,
+    "dotacao_inicial": 138786023.53,
+    "dotacao_atualizada": 122814636.53,
+    "despesas_empenhadas": 109693079.53,
+    "despesas_liquidadas": 66228542.11
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "55901"
+    ],
+    "modalidades": [
+      "30",
+      "31"
+    ],
+    "nota": "Tudo o que o Fundo Nacional de Assistência Social pagou a estados e ao DF. Ações somadas: 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219E (COFINANCIAMENTO DA PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219F (COFINANCIAMENTO DA PROTECAO SOCIAL ESPECIAL DE MEDIA E ALTA); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 219G (ESTRUTURACAO DA REDE DE SERVICOS E FORTALECIMENTO DA GESTAO); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI); 8893 (ORGANIZACAO EM AMBITO NACIONAL DA GESTAO DO SISTEMA UNICO DE)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

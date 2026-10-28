@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-stf",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Supremo Tribunal Federal",
+  "resumo": "Pagou R$ 987,1 milhões em 2025; dotação atualizada de R$ 1,0 bilhão.",
+  "de": "org:stf",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 987070997.68,
+    "despesas_pagas": 913484455.16,
+    "restos_a_pagar_pagos": 73586542.52,
+    "pagamentos_primarios": 934744278.28,
+    "dotacao_inicial": 953887705,
+    "dotacao_atualizada": 1012178710,
+    "despesas_empenhadas": 1005432658.13,
+    "despesas_liquidadas": 929550185.06
+  },
+  "recorte": {
+    "poderes": [
+      "STF"
+    ],
+    "nota": "Unidades orçamentárias somadas: 10101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-abin",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Brasileira de Inteligência",
+  "resumo": "Pagou R$ 835,5 milhões em 2025; dotação atualizada de R$ 866,0 milhões.",
+  "de": "org:abin",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 835498441.73,
+    "despesas_pagas": 768760782.26,
+    "restos_a_pagar_pagos": 66737659.47,
+    "pagamentos_primarios": 784019842.37,
+    "dotacao_inicial": 831419772,
+    "dotacao_atualizada": 866045251,
+    "despesas_empenhadas": 857521684.88,
+    "despesas_liquidadas": 840834631.97
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "20118"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Gestão e da Inovação em Serviços Públicos",
+  "resumo": "Pagou R$ 4,1 bilhões em 2025; dotação atualizada de R$ 4,4 bilhões.",
+  "de": "org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4061688628.43,
+    "despesas_pagas": 3166243670.2,
+    "restos_a_pagar_pagos": 895444958.23,
+    "pagamentos_primarios": 3855192179.29,
+    "dotacao_inicial": 4572636757,
+    "dotacao_atualizada": 4398628338,
+    "despesas_empenhadas": 4131730251.86,
+    "despesas_liquidadas": 3640208197.56
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 24900170080.46,
+      "despesas_pagas": 24260219485.23,
+      "restos_a_pagar_pagos": 639950595.23,
+      "pagamentos_primarios": 24563985226.22,
+      "dotacao_inicial": 21137461831,
+      "dotacao_atualizada": 26842655934,
+      "despesas_empenhadas": 26434571165.66,
+      "despesas_liquidadas": 26192632986.66
+    },
+    "unidades_orcamentarias": [
+      "72140",
+      "72146",
+      "72225",
+      "73113"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "46000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 20204, 25302, 30103, 46101, 46102, 46201, 46203."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

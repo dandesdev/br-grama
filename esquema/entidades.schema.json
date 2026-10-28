@@ -332,6 +332,79 @@
         "porque": { "type": "string" }
       },
       "unevaluatedProperties": false
+    },
+
+    "metrica": {
+      "description": "Número medido de uma entidade num exercício (D45). Gerado por script de importação.",
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["de", "medida", "exercicio", "moeda", "valores", "recorte", "fontes"],
+      "properties": {
+        "tipo": { "const": "metrica" },
+        "de": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão ou ente medido." },
+        "medida": { "type": "string", "description": "Vocabulário 'medida'." },
+        "exercicio": { "type": "integer", "minimum": 1988 },
+        "moeda": { "enum": ["BRL"] },
+        "valores": { "$ref": "#/$defs/valoresOrcamento" },
+        "sob_supervisao": {
+          "description": "Recursos sob supervisão do órgão que a lei orçamentária trata como órgãos próprios (D47).",
+          "type": "object",
+          "required": ["valores", "unidades_orcamentarias"],
+          "properties": {
+            "valores": { "$ref": "#/$defs/valoresOrcamento" },
+            "unidades_orcamentarias": { "type": "array", "items": { "type": "string" } },
+            "nota": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "recorte": { "$ref": "#/$defs/recorteOrcamento" }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "fluxo": {
+      "description": "Dinheiro que passou de uma entidade a outra num exercício, preso a uma relação repassa-recursos (D45).",
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["repasse", "exercicio", "moeda", "valores", "recorte", "fontes"],
+      "properties": {
+        "tipo": { "const": "fluxo" },
+        "repasse": { "$ref": "comum.schema.json#/$defs/id", "description": "Relação repassa-recursos que dá a base legal." },
+        "exercicio": { "type": "integer", "minimum": 1988 },
+        "moeda": { "enum": ["BRL"] },
+        "valores": { "$ref": "#/$defs/valoresOrcamento" },
+        "recorte": { "$ref": "#/$defs/recorteOrcamento" }
+      },
+      "unevaluatedProperties": false
+    },
+
+    "valoresOrcamento": {
+      "description": "Valores em reais. pagamentos_totais = despesas_pagas + restos_a_pagar_pagos (D46).",
+      "type": "object",
+      "required": ["pagamentos_totais"],
+      "properties": {
+        "pagamentos_totais": { "type": "number" },
+        "despesas_pagas": { "type": "number" },
+        "restos_a_pagar_pagos": { "type": "number" },
+        "pagamentos_primarios": { "type": "number", "description": "Parte dos pagamentos totais classificada como despesa primária." },
+        "dotacao_inicial": { "type": "number" },
+        "dotacao_atualizada": { "type": "number" },
+        "despesas_empenhadas": { "type": "number" },
+        "despesas_liquidadas": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+
+    "recorteOrcamento": {
+      "description": "Como o número foi calculado na fonte, para que possa ser refeito.",
+      "type": "object",
+      "properties": {
+        "poderes": { "type": "array", "items": { "type": "string" }, "description": "Códigos de Poder/órgão da fonte (ex.: CD, STF, EXE)." },
+        "orgao_orcamentario": { "type": "string", "description": "Código do órgão orçamentário (ex.: 36000)." },
+        "unidades_orcamentarias": { "type": "array", "items": { "type": "string" } },
+        "acoes": { "type": "array", "items": { "type": "string" } },
+        "modalidades": { "type": "array", "items": { "type": "string" }, "description": "Códigos de modalidade de aplicação (ex.: 40 = transferências a municípios)." },
+        "nota": { "type": "string" }
+      },
+      "additionalProperties": false
     }
   }
 }

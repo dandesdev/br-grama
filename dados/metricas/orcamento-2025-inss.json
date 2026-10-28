@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-inss",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Instituto Nacional do Seguro Social",
+  "resumo": "Pagou R$ 17,0 bilhões em 2025; dotação atualizada de R$ 18,0 bilhões.",
+  "de": "org:inss",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 17040091931.08,
+    "despesas_pagas": 16004565792.56,
+    "restos_a_pagar_pagos": 1035526138.52,
+    "pagamentos_primarios": 16428168207.6,
+    "dotacao_inicial": 14675144687,
+    "dotacao_atualizada": 18034583023,
+    "despesas_empenhadas": 17895333573.12,
+    "despesas_liquidadas": 17088461099.55
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "33201"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-dos-direitos-humanos-e-da-cidadania",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério dos Direitos Humanos e da Cidadania",
+  "resumo": "Pagou R$ 520,1 milhões em 2025; dotação atualizada de R$ 571,2 milhões.",
+  "de": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 520077463.85,
+    "despesas_pagas": 359130577.7,
+    "restos_a_pagar_pagos": 160946886.15,
+    "pagamentos_primarios": 520076378.19,
+    "dotacao_inicial": 571088405,
+    "dotacao_atualizada": 571224628,
+    "despesas_empenhadas": 555089851.44,
+    "despesas_liquidadas": 367688207.7
+  },
+  "recorte": {
+    "orgao_orcamentario": "81000",
+    "nota": "Unidades orçamentárias somadas: 81101, 81901, 81902."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

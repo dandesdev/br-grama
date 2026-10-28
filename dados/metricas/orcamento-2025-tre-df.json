@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-df",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral do Distrito Federal",
+  "resumo": "Pagou R$ 150,7 milhões em 2025; dotação atualizada de R$ 153,1 milhões.",
+  "de": "org:tre-df",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 150745229.71,
+    "despesas_pagas": 148514862.8,
+    "restos_a_pagar_pagos": 2230366.91,
+    "pagamentos_primarios": 141232802.63,
+    "dotacao_inicial": 141003849,
+    "dotacao_atualizada": 153134261,
+    "despesas_empenhadas": 150185992.29,
+    "despesas_liquidadas": 148514862.8
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14107"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

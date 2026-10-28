@@ -1,0 +1,41 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+  "resumo": "Pagou R$ 1,9 bilhão em 2025; dotação atualizada de R$ 3,1 bilhões.",
+  "de": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1935883575.99,
+    "despesas_pagas": 1764940613.1,
+    "restos_a_pagar_pagos": 170942962.89,
+    "pagamentos_primarios": 1819490440.7,
+    "dotacao_inicial": 3089401230,
+    "dotacao_atualizada": 3141435453,
+    "despesas_empenhadas": 1966802410.49,
+    "despesas_liquidadas": 1911307678.23
+  },
+  "recorte": {
+    "orgao_orcamentario": "28000",
+    "nota": "Unidades orçamentárias somadas: 25296, 25298, 28101, 28202, 28203, 28233, 28904."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

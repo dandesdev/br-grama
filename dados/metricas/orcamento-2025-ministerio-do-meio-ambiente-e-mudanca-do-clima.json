@@ -1,0 +1,58 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Meio Ambiente e Mudança do Clima",
+  "resumo": "Pagou R$ 4,1 bilhões em 2025; dotação atualizada de R$ 4,8 bilhões.",
+  "de": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4085515254.17,
+    "despesas_pagas": 3591380633.98,
+    "restos_a_pagar_pagos": 494134620.19,
+    "pagamentos_primarios": 3884902664.18,
+    "dotacao_inicial": 4230059934,
+    "dotacao_atualizada": 4794528797,
+    "despesas_empenhadas": 4266866283.27,
+    "despesas_liquidadas": 3848019838.37
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 18698765270.96,
+      "despesas_pagas": 15595820925.72,
+      "restos_a_pagar_pagos": 3102944345.24,
+      "pagamentos_primarios": 11162930.53,
+      "dotacao_inicial": 21240463487,
+      "dotacao_atualizada": 26562869814,
+      "despesas_empenhadas": 26540820925.72,
+      "despesas_liquidadas": 15595820925.72
+    },
+    "unidades_orcamentarias": [
+      "73111",
+      "74916"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "44000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 44101, 44102, 44201, 44206, 44207, 44901, 44902."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

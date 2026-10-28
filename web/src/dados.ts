@@ -87,15 +87,42 @@ export const NOMES_TIPO: Record<string, string> = {
   objeto: "Objeto de competência",
   aviso: "Aviso",
   variacao: "Variação",
+  metrica: "Métrica",
+  fluxo: "Fluxo de recursos",
 };
+
+export interface ValoresOrcamento {
+  pagamentos_totais: number;
+  despesas_pagas?: number;
+  restos_a_pagar_pagos?: number;
+  pagamentos_primarios?: number;
+  dotacao_inicial?: number;
+  dotacao_atualizada?: number;
+}
 
 export class Dados {
   readonly data: string;
   private porAlvo = new Map<string, Entidade[]>();
   private porOrigem = new Map<string, Entidade[]>();
+  private orcamentos = new Map<string, Entidade>();
+  private fluxos = new Map<string, Entidade>();
+  /** Último exercício fechado antes da data de referência (D26). */
+  readonly exercicio: number | null;
 
   constructor(readonly grafo: Grafo) {
     this.data = grafo.data_referencia;
+    // Métricas e fluxos valem para o ano medido, não para a data de referência: o retrato usa o
+    // último ano fechado (D26, D45).
+    const ano = Number(this.data.slice(0, 4));
+    const ultimo = (mapa: Map<string, Entidade>, chave: string, e: Entidade) => {
+      const atual = mapa.get(chave);
+      if ((e.exercicio as number) < ano && (!atual || (atual.exercicio as number) < (e.exercicio as number))) mapa.set(chave, e);
+    };
+    for (const e of Object.values(grafo.entidades)) {
+      if (e.tipo === "metrica" && e.medida === "orcamento-executado") ultimo(this.orcamentos, e.de as string, e);
+      if (e.tipo === "fluxo") ultimo(this.fluxos, e.repasse as string, e);
+    }
+    this.exercicio = Math.max(0, ...[...this.orcamentos.values()].map((m) => m.exercicio as number)) || null;
     for (const e of this.todas("relacao")) {
       this.porOrigem.set(e.de as string, [...(this.porOrigem.get(e.de as string) ?? []), e]);
       this.porAlvo.set(e.para as string, [...(this.porAlvo.get(e.para as string) ?? []), e]);
@@ -148,6 +175,24 @@ export class Dados {
       .filter((t): t is { pessoa: Entidade; cargo: Entidade } => !!t.pessoa && !!t.cargo);
   }
 
+  /** Orçamento executado da entidade no último ano fechado, se ela tiver unidade orçamentária própria. */
+  orcamentoDe(id: string): Entidade | undefined {
+    return this.orcamentos.get(id);
+  }
+
+  todosOrcamentos(): Entidade[] {
+    return [...this.orcamentos.values()];
+  }
+
+  /** Valores pagos no último ano fechado por uma relação repassa-recursos. */
+  fluxoDe(relacaoId: string): Entidade | undefined {
+    return this.fluxos.get(relacaoId);
+  }
+
+  todosFluxos(): Entidade[] {
+    return [...this.fluxos.values()];
+  }
+
   /** Avisos (lacunas e divergências das fontes) que apontam para a entidade. */
   avisosDe(id: string): Entidade[] {
     return this.todas("aviso").filter((a) => (a.afeta as string[]).includes(id));
@@ -191,6 +236,14 @@ export async function carregar(): Promise<Dados> {
   const resp = await fetch("./dados/grafo.json");
   if (!resp.ok) throw new Error(`Não foi possível carregar os dados (${resp.status}).`);
   return new Dados(await resp.json());
+}
+
+/** Valor em reais, abreviado: "R$ 251,8 bilhões" (ou "R$ 251,8 bi" com curto). */
+export function reais(x: number, curto = false): string {
+  const [n, longo, abrev] = Math.abs(x) >= 1e12 ? [x / 1e12, "trilh", "tri"] : Math.abs(x) >= 1e9 ? [x / 1e9, "bilh", "bi"] : [x / 1e6, "milh", "mi"];
+  // "1,8 bilhão", "2,0 bilhões": o plural começa em 2.
+  const unidade = curto ? abrev : `${longo}${Math.abs(n as number) < 2 ? "ão" : "ões"}`;
+  return `R$ ${(n as number).toLocaleString("pt-BR", { maximumFractionDigits: 1, minimumFractionDigits: 1 })} ${unidade}`;
 }
 
 /** Remove acentos e caixa, para busca. */

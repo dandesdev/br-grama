@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2025-ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+  "resumo": "Pagou R$ 5,5 bilhões em 2025; dotação atualizada de R$ 6,3 bilhões.",
+  "de": "org:ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 5546059034.97,
+    "despesas_pagas": 4601317419.44,
+    "restos_a_pagar_pagos": 944741615.53,
+    "pagamentos_primarios": 5458270593.84,
+    "dotacao_inicial": 6240050561,
+    "dotacao_atualizada": 6251017952,
+    "despesas_empenhadas": 5841559611.64,
+    "despesas_liquidadas": 4847277169.61
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 1553055474.27,
+      "despesas_pagas": 1076834810.97,
+      "restos_a_pagar_pagos": 476220663.3,
+      "pagamentos_primarios": 625498.35,
+      "dotacao_inicial": 1101350310,
+      "dotacao_atualizada": 1250677527,
+      "despesas_empenhadas": 1215005869,
+      "despesas_liquidadas": 1076834810.97
+    },
+    "unidades_orcamentarias": [
+      "74119",
+      "74203",
+      "74906"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "49000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 22201, 22211, 49101, 49201, 49202."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

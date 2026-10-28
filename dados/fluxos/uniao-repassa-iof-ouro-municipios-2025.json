@@ -1,0 +1,48 @@
+{
+  "id": "fluxo:uniao-repassa-iof-ouro-municipios-2025",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos municípios 70% do IOF sobre o ouro: valores de 2025",
+  "resumo": "R$ 26,6 milhões pagos em 2025.",
+  "repasse": "rel:uniao-repassa-iof-ouro-municipios",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 26626758.49,
+    "despesas_pagas": 25778405.22,
+    "restos_a_pagar_pagos": 848353.27,
+    "pagamentos_primarios": 26626758.49,
+    "dotacao_inicial": 42329901,
+    "dotacao_atualizada": 42329901,
+    "despesas_empenhadas": 27066364.26,
+    "despesas_liquidadas": 25778405.22
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "00H6"
+    ],
+    "modalidades": [
+      "40"
+    ],
+    "nota": "Ações somadas: 00H6 (TRANSFERENCIA DO IMPOSTO SOBRE OPERACOES FINANCEIRAS INCIDEN)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

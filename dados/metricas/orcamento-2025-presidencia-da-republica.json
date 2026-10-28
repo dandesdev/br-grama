@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2025-presidencia-da-republica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Presidência da República",
+  "resumo": "Pagou R$ 4,0 bilhões em 2025; dotação atualizada de R$ 4,5 bilhões.",
+  "de": "org:presidencia-da-republica",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4010807363.8,
+    "despesas_pagas": 3372376894.15,
+    "restos_a_pagar_pagos": 638430469.65,
+    "pagamentos_primarios": 3958096170.48,
+    "dotacao_inicial": 4484411549,
+    "dotacao_atualizada": 4463173807,
+    "despesas_empenhadas": 4222192016.94,
+    "despesas_liquidadas": 3514153653.95
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 16582562550.06,
+      "despesas_pagas": 16582562550.06,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 0,
+      "dotacao_inicial": 31198908477,
+      "dotacao_atualizada": 44196909075,
+      "despesas_empenhadas": 44093358679.79,
+      "despesas_liquidadas": 16582562550.06
+    },
+    "unidades_orcamentarias": [
+      "71903",
+      "74906",
+      "74921"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "20000",
+    "nota": "Inclui a Abin e a EBC, que têm unidade orçamentária própria no órgão orçamentário da Presidência. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 20101, 20118, 20415, 20927, 60101."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

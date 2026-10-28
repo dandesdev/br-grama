@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2025-ministerio-de-minas-e-energia",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério de Minas e Energia",
+  "resumo": "Pagou R$ 5,1 bilhões em 2025; dotação atualizada de R$ 8,2 bilhões.",
+  "de": "org:ministerio-de-minas-e-energia",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 5125556120.93,
+    "despesas_pagas": 4581061546.65,
+    "restos_a_pagar_pagos": 544494574.28,
+    "pagamentos_primarios": 5027773374.07,
+    "dotacao_inicial": 9555837166,
+    "dotacao_atualizada": 8165630931,
+    "despesas_empenhadas": 4958111889.8,
+    "despesas_liquidadas": 4823405769.58
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 70194834787.26,
+      "despesas_pagas": 62591640103.88,
+      "restos_a_pagar_pagos": 7603194683.38,
+      "pagamentos_primarios": 70194834787.26,
+      "dotacao_inicial": 76424887168,
+      "dotacao_atualizada": 75956203877,
+      "despesas_empenhadas": 73708695647.82,
+      "despesas_liquidadas": 62591640103.88
+    },
+    "unidades_orcamentarias": [
+      "73116",
+      "73118",
+      "73119"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "32000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 32101, 32202, 32265, 32266, 32314, 32396, 32398."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

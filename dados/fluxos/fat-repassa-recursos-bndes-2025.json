@@ -1,0 +1,45 @@
+{
+  "id": "fluxo:fat-repassa-recursos-bndes-2025",
+  "tipo": "fluxo",
+  "nome": "Recursos do FAT vão ao BNDES: valores de 2025",
+  "resumo": "R$ 28,9 bilhões pagos em 2025.",
+  "repasse": "rel:fat-repassa-recursos-bndes",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 28933287015.47,
+    "despesas_pagas": 28933287015.47,
+    "restos_a_pagar_pagos": 0,
+    "pagamentos_primarios": 0,
+    "dotacao_inicial": 31191328182,
+    "dotacao_atualizada": 31191328182,
+    "despesas_empenhadas": 28933287015.47,
+    "despesas_liquidadas": 28933287015.47
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "40901"
+    ],
+    "acoes": [
+      "0158"
+    ],
+    "nota": "Ações somadas: 0158 (FINANCIAMENTO DE PROGRAMAS DE DESENVOLVIMENTO ECONOMICO A CA)."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

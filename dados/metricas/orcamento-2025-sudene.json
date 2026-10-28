@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-sudene",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Superintendência do Desenvolvimento do Nordeste",
+  "resumo": "Pagou R$ 70,3 milhões em 2025; dotação atualizada de R$ 68,9 milhões.",
+  "de": "org:sudene",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 70268866.64,
+    "despesas_pagas": 55892799.67,
+    "restos_a_pagar_pagos": 14376066.97,
+    "pagamentos_primarios": 66643432.14,
+    "dotacao_inicial": 76007323,
+    "dotacao_atualizada": 68882578,
+    "despesas_empenhadas": 65286038,
+    "despesas_liquidadas": 59274288.53
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "53203"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

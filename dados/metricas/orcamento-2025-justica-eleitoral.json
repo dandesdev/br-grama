@@ -1,0 +1,43 @@
+{
+  "id": "met:orcamento-2025-justica-eleitoral",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Justiça Eleitoral",
+  "resumo": "Pagou R$ 10,8 bilhões em 2025; dotação atualizada de R$ 11,5 bilhões.",
+  "de": "org:justica-eleitoral",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 10761038223.04,
+    "despesas_pagas": 10327092318.95,
+    "restos_a_pagar_pagos": 433945904.09,
+    "pagamentos_primarios": 9985416922.79,
+    "dotacao_inicial": 11298228878,
+    "dotacao_atualizada": 11515743381,
+    "despesas_empenhadas": 10747879855.52,
+    "despesas_liquidadas": 10381216938.99
+  },
+  "recorte": {
+    "poderes": [
+      "JE"
+    ],
+    "nota": "Inclui o TSE, os 27 TREs e o Fundo Partidário (unidade 14901), que fica no orçamento da Justiça Eleitoral. Unidades orçamentárias somadas: 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14113, 14114, 14115, 14116, 14117, 14118, 14119, 14120, 14121, 14122, 14123, 14124, 14125, 14126, 14127, 14128, 14901."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

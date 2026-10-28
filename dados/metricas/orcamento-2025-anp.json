@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-anp",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+  "resumo": "Pagou R$ 498,7 milhões em 2025; dotação atualizada de R$ 2,1 bilhões.",
+  "de": "org:anp",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 498746183.88,
+    "despesas_pagas": 452586992.41,
+    "restos_a_pagar_pagos": 46159191.47,
+    "pagamentos_primarios": 465531822.79,
+    "dotacao_inicial": 2468178368,
+    "dotacao_atualizada": 2104074380,
+    "despesas_empenhadas": 508945227.27,
+    "despesas_liquidadas": 488156311.28
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "32265"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

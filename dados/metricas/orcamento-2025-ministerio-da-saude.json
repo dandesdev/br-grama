@@ -1,0 +1,57 @@
+{
+  "id": "met:orcamento-2025-ministerio-da-saude",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Ministério da Saúde",
+  "resumo": "Pagou R$ 251,8 bilhões em 2025; dotação atualizada de R$ 254,1 bilhões.",
+  "de": "org:ministerio-da-saude",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 251752912620.08,
+    "despesas_pagas": 227930931862.22,
+    "restos_a_pagar_pagos": 23821980757.86,
+    "pagamentos_primarios": 250725543739.96,
+    "dotacao_inicial": 246554470224,
+    "dotacao_atualizada": 254146049084,
+    "despesas_empenhadas": 253112422735.72,
+    "despesas_liquidadas": 231492965097.67
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2394593.86,
+      "despesas_pagas": 2373981.44,
+      "restos_a_pagar_pagos": 20612.42,
+      "pagamentos_primarios": 0,
+      "dotacao_inicial": 3500000,
+      "dotacao_atualizada": 3500000,
+      "despesas_empenhadas": 2718437.12,
+      "despesas_liquidadas": 2415395.41
+    },
+    "unidades_orcamentarias": [
+      "74202"
+    ],
+    "nota": "Encargos financeiros, dívida, transferências e operações oficiais de crédito sob supervisão deste órgão (D47)."
+  },
+  "recorte": {
+    "orgao_orcamentario": "36000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros, dívida, transferências a estados e municípios e operações oficiais de crédito) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Unidades orçamentárias somadas: 36201, 36210, 36211, 36212, 36213, 36901."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2025-tre-ro",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Tribunal Regional Eleitoral de Rondônia",
+  "resumo": "Pagou R$ 149,2 milhões em 2025; dotação atualizada de R$ 149,8 milhões.",
+  "de": "org:tre-ro",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 149239298.47,
+    "despesas_pagas": 130397703.94,
+    "restos_a_pagar_pagos": 18841594.53,
+    "pagamentos_primarios": 141045177.8,
+    "dotacao_inicial": 134737717,
+    "dotacao_atualizada": 149795568,
+    "despesas_empenhadas": 148577686.04,
+    "despesas_liquidadas": 130398703.94
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14122"
+    ]
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}
