@@ -5,7 +5,7 @@
   "relacao": "convoca",
   "de": "cargo:presidente-da-republica",
   "para": "org:conselho-da-republica",
-  "condicao": "O Conselho só se reúne por convocação do Presidente. Ele pode também chamar um Ministro de Estado para a reunião quando a pauta tratar do respectivo ministério; esse Ministro não vota.",
+  "condicao": "O Conselho se reúne por convocação do Presidente. Ele pode também chamar um Ministro de Estado para a reunião quando a pauta tratar do respectivo ministério; esse Ministro não vota.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -23,8 +23,9 @@
   "confianca": "oficial",
   "notas": "Criada na revisão de f0-processos-legislativos, com o termo 'convoca' ampliado para 'chama a reunião de um colegiado'. A relação rel:presidente-preside-conselho-da-republica continua; as duas vêm do mesmo inciso ('convocar e presidir').",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "verificacao-f0-processos-legislativos"
+    "tarefa": "verificacao-f0-complementos-2",
+    "notas": "coletado em verificacao-f0-processos-legislativos; conferido: CF, arts. 84, XVIII, e 90, § 1º; Lei 8.041/1990, art. 5º, caput e parágrafo único (cópia de 2026-10-20). Corrigido: 'só se reúne' virou 'se reúne', como diz a lei"
   }
 }

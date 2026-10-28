@@ -1,9 +1,9 @@
 {
   "id": "aviso:posse-jhonatan-de-jesus-tcu-data",
   "tipo": "aviso",
-  "nome": "Data de início de Jhonatan de Jesus no TCU: atas oficiais divergem em um dia",
-  "resumo": "O TCU convocou a posse de Jhonatan de Jesus para 15/3/2023, mas a ata da 1ª Câmara de 14/3/2023 já o registra presente como ministro.",
-  "detalhes": "A ata do Plenário de 15/2/2023 convoca a sessão solene de posse para 15/3/2023, e o TCU confirma que a posse ocorreu nesse dia; a ata de 22/3/2023 homologa a ata da sessão extraordinária de 15/3/2023. A ata da sessão da 1ª Câmara de 14/3/2023, publicada no DOU de 22/3/2023, abre a sessão com a presença dos Ministros Benjamin Zymler e Jhonatan de Jesus e o inclui no quórum. Não achamos termo de posse que explique a diferença. O mapa usa 15/3/2023.",
+  "nome": "Data de início de Jhonatan de Jesus no TCU: divergência de um dia entre atas (resolvida)",
+  "resumo": "Resolvido: a ata da 1ª Câmara de 14/3/2023 o mostra como ministro antes da posse solene de 15/3 porque a posse administrativa foi em 8/3/2023.",
+  "detalhes": "A ata do Plenário de 15/2/2023 convocou a sessão solene de posse para 15/3/2023, e o TCU noticiou a posse nesse dia; mas a ata da 1ª Câmara de 14/3/2023 já o registra presente como ministro. A explicação está na Ata nº 8 do Plenário, de 8/3/2023 (DOU 17/3/2023): ao fim da sessão, ele tomou posse administrativa na Sala da Presidência. O mapa passou a usar 8/3/2023 como início do exercício; 15/3/2023 foi a cerimônia solene.",
   "tipo_aviso": "contradicao",
   "gravidade": "baixa",
   "afeta": [
@@ -13,11 +13,13 @@
     "busca do in.gov.br por \"Jhonatan de Jesus\" e \"Jhonatan Pereira de Jesus\", 1º/1 a 31/3/2023 (todas as seções): achadas as atas de 15/2, 1º/3 e 14/3/2023 e portarias do gabinete; nenhum termo de posse",
     "página do ministro e currículo no portal do TCU (cópias de 2026-10-23): sem data de posse",
     "busca do in.gov.br por \"Jhonatan de Jesus\", publicações de 15/3 a 30/6/2023 (f0-residuais, 2026-10-27): achadas a Ata nº 10, de 15/3/2023 (sessão ordinária do Plenário, às 14h36, com ele presente) e a Ata nº 11, de 22/3/2023, que homologa a Ata nº 9 (sessão extraordinária de 15/3/2023); a Ata nº 9 não apareceu na busca; nenhum termo de posse",
-    "portal do TCU: notícia da Voz do Brasil de 15/3/2023 (confirma a posse no dia, sem termo nem data de exercício); busca na web pelo Regimento Interno do TCU sobre posse de ministro, sem achar o dispositivo"
+    "portal do TCU: notícia da Voz do Brasil de 15/3/2023 (confirma a posse no dia, sem termo nem data de exercício); busca na web pelo Regimento Interno do TCU sobre posse de ministro, sem achar o dispositivo",
+    "busca do in.gov.br por \"Jhonatan Pereira de Jesus\", publicações de 15/3 a 30/6/2023 (verificacao-f0-residuais, 2026-10-27): achada a Ata nº 8, de 8/3/2023, do Plenário (DOU 17/3/2023, ed. 53, Seção 1, p. 69), que registra a posse administrativa; a busca só pelo nome de uso não a trazia"
   ],
   "vigencia": {
     "de": null,
-    "ate": null
+    "ate": "2023-03-17",
+    "nota": "Resolvido na revisão de 2026-10-27. O modelo não tem campo próprio para aviso resolvido; usamos vigencia.ate com a data em que o DOU publicou a Ata nº 8/2023, que desfaz a divergência. A Ata nº 8 saiu antes da ata da 1ª Câmara (DOU de 22/3/2023), então as duas nunca se contradisseram no DOU; o aviso fica como registro da busca."
   },
   "fontes": [
     {
@@ -42,14 +44,19 @@
       "ref": "fonte:dou-in-gov-br",
       "dispositivo": "Ata nº 11, de 22/3/2023, do Plenário do TCU (DOU 31/3/2023, ed. 63, Seção 1, p. 132): homologa as Atas nº 9 e 10, das sessões extraordinária e ordinária de 15/3/2023",
       "nota": "https://www.in.gov.br/web/dou/-/ata-n-11-de-22-de-marco-de-2023-474184387"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Ata nº 8, de 8/3/2023, do Plenário do TCU (DOU 17/3/2023, ed. 53, Seção 1, p. 69): no encerramento, às 17h40, a Presidência convida o Plenário e o MP a acompanhar a posse administrativa do Ministro Jhonatan Pereira de Jesus, realizada a seguir na Sala da Presidência",
+      "nota": "https://www.in.gov.br/web/dou/-/ata-n%C2%BA-8-de-8-de-mar%C3%87o-de-2023"
     }
   ],
-  "confianca": "oficial-contraditorio",
+  "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais",
-    "notas": "f0-residuais: busca nova pela data da posse; contradição continua (aviso não resolvido); acrescentadas duas fontes que confirmam 15/3/2023 e os novos lugares de busca. Antes: verificado em 2026-10-23 por verificacao-f0-complementos: criado em verificacao-f0-controle; conferidas as cópias brutas das atas do DOU (Plenário, 15/2/2023, p. 97: posse convocada para 15/3 às 10h; 1ª Câmara, 14/3/2023, p. 92: Jhonatan de Jesus presente e no quórum) e da notícia do TCU de 13/3/2023 (15/3, 11h). Contradição real entre fontes oficiais"
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; fontes anteriores conferidas nas cópias locais do DOU e do TCU; resolvido com a Ata nº 8/2023 do Plenário (posse administrativa em 8/3/2023); rel:jhonatan-de-jesus-ocupa-ministro-do-tcu corrigida"
   },
-  "notas": "A ata de 15/2/2023 diz 10h e a notícia de 13/3/2023 diz 11h para a cerimônia; diferença de horário sem efeito no mapa."
+  "notas": "A ata de 15/2/2023 diz 10h e a notícia de 13/3/2023 diz 11h para a cerimônia; diferença de horário sem efeito no mapa. Resolução (verificacao-f0-residuais, 2026-10-27): posse administrativa em 8/3/2023, no mesmo dia em que a Câmara registra a renúncia ao mandato de deputado (API da Câmara, histórico do deputado 160531: 'Saída - Afastamento definitivo - Renúncia', 2023-03-08; cópia em pesquisa/brutos/camara-dados-abertos/2026-10-27-verificacao-residuais/deputado-160531-historico.json). Pelo D36 o aviso poderia ser apagado; ficou marcado como resolvido até o coordenador decidir."
 }

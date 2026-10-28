@@ -323,15 +323,20 @@
         "cargo:arquetipo-estadual-vice-governador"
       ],
       "acao": "Posse: Presidente em 5/1, governadores em 6/1 e parlamentares a partir de 1º/2 do ano seguinte",
-      "detalhes": "O Presidente e o Vice tomam posse em sessão do Congresso Nacional (art. 78). As datas de 5 e 6 de janeiro valem a partir da eleição de 2026 (EC 111/2021, art. 5º); até então a posse era em 1º de janeiro. Deputados federais e senadores tomam posse nas sessões preparatórias das Casas, a partir de 1º de fevereiro do primeiro ano da legislatura (art. 57, § 4º). Para a eleição de 2026: 5/1/2027, 6/1/2027 e a partir de 1º/2/2027.",
+      "detalhes": "O Presidente e o Vice tomam posse em sessão do Congresso Nacional (art. 78). As datas de 5 e 6 de janeiro valem a partir da eleição de 2026 (EC 111/2021, art. 5º); até então a posse era em 1º de janeiro. Deputados federais e senadores tomam posse nas sessões preparatórias das Casas, a partir de 1º de fevereiro do primeiro ano da legislatura (art. 57, § 4º). Para a eleição de 2026: 5/1/2027, 6/1/2027 e a partir de 1º/2/2027. Os deputados estaduais tomam posse na data da Constituição de cada estado; a CF só manda aplicar a eles as regras federais sobre sistema eleitoral, imunidades, perda de mandato e outras (art. 27, § 1º). Em São Paulo, por exemplo, a Assembleia se reúne em sessões preparatórias a partir de 1º de fevereiro do primeiro ano da legislatura para a posse dos deputados e a eleição da Mesa, e o governador e o vice tomam posse perante a Assembleia (Constituição de SP, arts. 9º, § 2º, e 43).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 28, caput; art. 57, § 4º; art. 78; art. 82"
+          "dispositivo": "art. 27, § 1º; art. 28, caput; art. 57, § 4º; art. 78; art. 82"
         },
         {
           "ref": "norma:ec-111-2021",
           "dispositivo": "arts. 4º e 5º"
+        },
+        {
+          "ref": "norma:sp-constituicao-1989",
+          "dispositivo": "art. 9º, § 2º; art. 43",
+          "nota": "exemplo de Constituição estadual"
         }
       ],
       "seguintes": []
@@ -365,7 +370,7 @@
     "status": "verificado",
     "em": "2026-10-23",
     "tarefa": "verificacao-f0-eleicoes",
-    "notas": "coletado em f0-eleicoes; cada etapa conferida: datas de 2026 contra o Anexo I da Res. TSE 23.760/2026 (4/4 itens 1 a 3, 20/7, 5/8, 15/8, 16/8, 28/8 item 3, 14/9 item 2, 1º/10 item 1, 4/10, 9/10, 25/10, 18/12 item 1), todas certas; CF, arts. 14, 16, 28, 46, 57, § 4º, 77, 78 e 82, EC 111/2021, arts. 4º e 5º, Lei 9.504/1997, arts. 4º, 8º, 9º, 11, 16, 36, 47 e 49, LC 64/1990, art. 3º, Código Eleitoral, arts. 83, 84, 89, 106 a 111, 197, 212 e 215, conferidos. Apuração: regra das sobras completada com as duas fases e o efeito da decisão do STF; atores estaduais acrescentados por verificacao-f0-tipicos (governador, vice e eleitorado estadual)"
+    "notas": "coletado em f0-eleicoes; cada etapa conferida: datas de 2026 contra o Anexo I da Res. TSE 23.760/2026 (4/4 itens 1 a 3, 20/7, 5/8, 15/8, 16/8, 28/8 item 3, 14/9 item 2, 1º/10 item 1, 4/10, 9/10, 25/10, 18/12 item 1), todas certas; CF, arts. 14, 16, 28, 46, 57, § 4º, 77, 78 e 82, EC 111/2021, arts. 4º e 5º, Lei 9.504/1997, arts. 4º, 8º, 9º, 11, 16, 36, 47 e 49, LC 64/1990, art. 3º, Código Eleitoral, arts. 83, 84, 89, 106 a 111, 197, 212 e 215, conferidos. Apuração: regra das sobras completada com as duas fases e o efeito da decisão do STF; atores estaduais acrescentados por verificacao-f0-tipicos (governador, vice e eleitorado estadual); verificacao-f0-residuais (2026-10-27): etapa posse ganhou nos detalhes a posse dos deputados estaduais (CF, art. 27, § 1º, no cf.htm local; Constituição de SP, art. 9º, § 2º, na redação da EC 47/2019, e art. 43, na cópia local da Alesp), como exemplo"
   },
   "notas": "A posse nas Assembleias Legislativas não foi pesquisada (depende das constituições estaduais); o ator org:arquetipo-estadual-assembleia-legislativa está na etapa só porque os deputados estaduais são eleitos nesta eleição. Ligações feitas pela revisão da f0-tipicos (2026-10-23): cargo:arquetipo-estadual-governador na etapa dos prazos de seis meses (renúncia para concorrer a outro cargo, art. 14, § 6º) e, com o vice, na posse (art. 28, caput); org:arquetipo-estadual-eleitorado nos dois turnos, porque elege governador, vice e deputados estaduais (art. 28, caput; art. 27, § 1º). A posse do governador nas Assembleias não foi detalhada. Sobras: o Planalto marca 'Vide ADI 7228, 7263 e 7325' no art. 109, § 2º, e no art. 111 do Código Eleitoral; pelo STF (Informativo 1126), todos os partidos e candidatos participam da 3ª etapa de distribuição das sobras, sem as exigências de 80% e 20% do quociente, e o art. 111 é inconstitucional. Não detalhamos isso no texto da etapa para mantê-lo curto."
 }

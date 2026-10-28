@@ -1,27 +1,27 @@
 ---
 id: verificacao-f0-residuais
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-residuais\""
-status: em-andamento
+status: verificada
 depende_de: [f0-residuais]
 iniciada_em: 2026-10-27
-concluida_em: null
+concluida_em: 2026-10-27
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-residuais"` conferidas contra a fonte: 2 processos (`proc:extradicao`, etapa por etapa e com o regime de prisão cautelar; `proc:eleicao-municipal`, só a etapa `posse`, que a coleta mudou), 5 objetos, 21 relações `julga` (STF, art. 102, I, e, j, m, n; STJ, art. 105, I, e, g; TRFs, art. 108, I, b; Justiça do Trabalho, art. 114, IV; Justiça Eleitoral; TJ típico, art. 125, § 1º), 3 normas (Leis 15.230/2025, 14.291/2022 e 13.445/2017), 3 fontes e 1 aviso (`aviso:posse-jhonatan-de-jesus-tcu-data`).
-- [ ] Edições autorizadas fora do escopo:
+- [x] Todas as entidades com `"tarefa": "f0-residuais"` conferidas contra a fonte: 2 processos (`proc:extradicao`, etapa por etapa e com o regime de prisão cautelar; `proc:eleicao-municipal`, só a etapa `posse`, que a coleta mudou), 5 objetos, 21 relações `julga` (STF, art. 102, I, e, j, m, n; STJ, art. 105, I, e, g; TRFs, art. 108, I, b; Justiça do Trabalho, art. 114, IV; Justiça Eleitoral; TJ típico, art. 125, § 1º), 3 normas (Leis 15.230/2025, 14.291/2022 e 13.445/2017), 3 fontes e 1 aviso (`aviso:posse-jhonatan-de-jesus-tcu-data`).
+- [x] Edições autorizadas fora do escopo:
   - `obj:extradicao`: confira se o texto aponta para `proc:extradicao` (o processo já tem `produz: obj:extradicao`) e ajuste só as notas se precisar.
   - `proc:eleicao-geral`, etapa `posse`: acrescente nos detalhes a posse dos deputados estaduais (CF, art. 27, § 1º; a coleta achou a Constituição de SP, art. 9º, § 2º, e art. 43, como exemplo).
   - Crie `norma:decreto-12543-2025` (nome atual da Diretoria de Inteligência Penal) se a coleta a citou em `norma:decreto-11693-2023` e a fonte abrir.
-- [ ] Pontos do coletor a conferir:
+- [x] Pontos do coletor a conferir:
   - Extradição: a Lei 13.445/2017 diz só "órgão competente do Poder Executivo" para a entrega; o coletor pôs o Ministério da Justiça como ator inferido (autoridade central pela estrutura do MJSP). Leia o Decreto 9.199/2017 (regulamento da Lei de Migração) e confirme ou corrija. Se o ator for cargo agregado, use D42.
   - Justiça Eleitoral: as relações de MS e HC vêm do Código Eleitoral; confira os dispositivos e a vigência. O art. 121, § 4º, V, é o recurso ao TSE contra decisão que denega; veja se as relações dizem isso sem ampliar.
   - TJ típico: a competência do art. 125, § 1º, vem da Constituição do estado; a Constituição de SP é só exemplo. Confira se `restrita_a` ou a condição deixa isso claro.
   - `rel:stf-julga-execucao-de-sentenca`: usa `julga` para "processa a execução" (decisão do coordenador); confira se a condição explica.
   - Jhonatan de Jesus: a coleta achou duas fontes para 15/3/2023, mas a ata da 1ª Câmara de 14/3 o mostra presente. Veja se dá para fechar a data; senão, o aviso continua.
   - Normas novas sem cópia no Wayback (429) e leis lidas só por WebFetch: tente as cópias.
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-27 22:23 — iniciada; lidos instrucoes-verificacao, CLAUDE.md, decisoes (D01-D42), modelo-de-dados, protocolo e o diário de f0-residuais; escopo: 35 entidades com tarefa f0-residuais
@@ -36,3 +36,7 @@ concluida_em: null
 - 2026-10-27 22:33 — criadas norma:decreto-9199-2017 (regulamento da Lei de Migração; arts. 262, 269, 271 e 275 nomeiam o MJSP na extradição) e norma:decreto-12543-2025 (autorizada pela tarefa; vigência 30/7/2025, incerta, pela LC 95; o Decreto 13.131/2026 revogou parte do art. 3º, mas o texto compilado do Decreto 11.348 com alterações até o 13.131 mantém a Diretoria de Inteligência Penal e o art. 36). Ambas como coletado/verificacao-f0-residuais. Validação sem erros
 - 2026-10-27 22:34 — verificado proc:extradicao, etapa por etapa (Lei 13.445, arts. 81 a 96, na cópia do Wayback; CF, art. 5º, LI e LII, e 102, I, g). Ponto do coletor resolvido: o Decreto 9.199/2017 nomeia o MJSP (art. 262, § 2º: faz a extradição em coordenação com o MRE; art. 269: recebe, confere e envia ao STF ou arquiva; art. 271: após o STF, avalia os requisitos e comunica o Estado requerente; art. 275: na prisão cautelar, a autoridade central representa ao STF); o ator é órgão, não cargo agregado, então D42 não se aplica; campos.etapas deixou de ser inferido. Correções: regime prisao-cautelar dizia que a prisão é pedida "antes do pedido formal" (art. 84: antes ou junto com ele) e o efeito dizia que o preso "não pode ser preso de novo" (§ 5º: não se admite novo pedido de prisão cautelar); defesa ganhou "a pedido do MPF" na diligência (art. 91, § 2º) e "até o julgamento ou a entrega" (art. 86); entrega ganhou a avaliação do MJSP (Decreto 9.199, art. 271); fonte norma:decreto-9199-2017 nas etapas pedido, arquivamento, entrega, no regime e no processo
 - 2026-10-27 22:34 — obj:extradicao (fora do escopo, autorizado): só a nota mudou; dizia que o rito não fora modelado, agora aponta proc:extradicao. Status e tarefa de verificação mantidos, acréscimo em verificacao.notas
+- 2026-10-27 22:35 — verificado proc:eleicao-municipal, etapa posse (CF, art. 29, III; LOM-SP, arts. 14, IV, 15 e 58; LOM-Rio, arts. 52 e 101, nas cópias da Câmara). Sem correção. proc:eleicao-geral (fora do escopo, autorizado): etapa posse ganhou nos detalhes a posse dos deputados estaduais na data da Constituição do estado (CF, art. 27, § 1º) com o exemplo de SP (art. 9º, § 2º, EC 47/2019: sessões preparatórias a partir de 1º/2; art. 43: governador e vice tomam posse perante a Assembleia); fontes ampliadas; status mantido (verificado em verificacao-f0-eleicoes), acréscimo em verificacao.notas
+- 2026-10-27 22:41 — verificadas fonte:stf-adi-6457-acordao e fonte:stf-adpf-995-acordao (ementa, acórdão, votação, datas do DJe e do trânsito conferidos nos PDFs e abas locais) e fonte:tcu-voz-do-brasil-posse-jhonatan-de-jesus (texto igual ao do Wayback). Wayback achado para as três (estava null por 429): ADI 6457 cópia de 2025-02-19 (a captura nova de 2026-10-28 veio vazia), ADPF 995 de 2024-09-18 (idêntica byte a byte à local), TCU de 2026-02-07
+- 2026-10-27 22:41 — aviso:posse-jhonatan-de-jesus-tcu-data RESOLVIDO: a busca no in.gov.br por "Jhonatan Pereira de Jesus" trouxe a Ata nº 8, de 8/3/2023, do Plenário do TCU (DOU 17/3/2023, ed. 53, Seção 1, p. 69; cópia em pesquisa/brutos/dou/2026-10-27/tcu-plenario-ata-8-2023-03-08.html): no encerramento, às 17h40, ele tomou posse administrativa na Sala da Presidência; 15/3 foi a sessão solene. A API da Câmara registra a renúncia ao mandato de deputado em 8/3/2023 (cópia em pesquisa/brutos/camara-dados-abertos/2026-10-27-verificacao-residuais/). Corrigida rel:jhonatan-de-jesus-ocupa-ministro-do-tcu (autorizado pelo ponto do coletor): vigencia.de 2023-03-15 -> 2023-03-08, fonte Ata 8 acrescentada, campos.vigencia deixou de ser oficial-contraditorio. O modelo não tem campo de aviso resolvido: o aviso ficou com vigencia.ate 2023-03-17 (publicação da Ata 8), confianca oficial, resumo e detalhes reescritos, status verificado. Proposta ao coordenador: pelo D36 o aviso pode ser apagado
+- 2026-10-27 22:42 — concluída (verificada): 35 de 35 entidades do escopo conferidas e marcadas verificado; 8 com correção de conteúdo (proc:extradicao, obj:revisao-criminal-e-acao-rescisoria, rel:stf-julga-execucao-de-sentenca, rel:justica-eleitoral-julga-mandado-de-seguranca, aviso:posse-jhonatan-de-jesus-tcu-data resolvido, e notas ou dispositivos em obj:execucao-de-sentenca, rel:justica-eleitoral-julga-habeas-corpus e nas 4 relações do TJ típico); arquivo do Wayback preenchido em 3 normas e 3 fontes. Fora do escopo (autorizado): obj:extradicao (nota), proc:eleicao-geral (posse dos deputados estaduais), rel:jhonatan-de-jesus-ocupa-ministro-do-tcu (início 8/3/2023). Criadas norma:decreto-9199-2017 e norma:decreto-12543-2025 (coletado, pedem outra conferência). Propostas: apagar o aviso resolvido (D36); relação do TJ para conflito de atribuições entre autoridades do mesmo estado (Constituição de SP, art. 74, IX). Validação sem erros
