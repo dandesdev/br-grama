@@ -198,6 +198,7 @@
         "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
         "condicao": { "type": "string" },
         "orgao_exercicio": { "type": "string", "pattern": "^org:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Em relações de cargo agregado: órgão onde o cargo é exercido (ex.: a pasta do Ministro de Estado). Em ocupa, diz a pasta da pessoa; nas demais, de qual titular se trata (ex.: o Ministro da Fazenda preside o CMN)." },
+        "interino": { "type": "boolean", "description": "Só em ocupa: a pessoa exerce o cargo sem ser a titular (ex.: presidente da Assembleia no governo até a eleição suplementar), D40." },
         "depende_de": { "$ref": "comum.schema.json#/$defs/ids" },
         "restrita_a": { "$ref": "comum.schema.json#/$defs/ids", "description": "Entes onde a relação vale, quando liga órgãos de arquétipo." },
         "competencia": {
@@ -261,7 +262,24 @@
             "properties": {
               "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
               "tipo_etapa": { "type": "string", "description": "Vocabulário 'tipo_etapa'; padrão 'acao'." },
-              "atores": { "$ref": "comum.schema.json#/$defs/ids" },
+              "atores": {
+                "type": "array",
+                "description": "Ids de quem age. Para cargo agregado, { ator, orgao_exercicio } diz de qual titular se trata (D42).",
+                "items": {
+                  "oneOf": [
+                    { "$ref": "comum.schema.json#/$defs/id" },
+                    {
+                      "type": "object",
+                      "required": ["ator", "orgao_exercicio"],
+                      "properties": {
+                        "ator": { "$ref": "comum.schema.json#/$defs/id" },
+                        "orgao_exercicio": { "type": "string", "pattern": "^org:[a-z0-9]+(-[a-z0-9]+)*$" }
+                      },
+                      "additionalProperties": false
+                    }
+                  ]
+                }
+              },
               "acao": { "type": "string", "maxLength": 120 },
               "detalhes": { "type": "string" },
               "prazo": { "$ref": "comum.schema.json#/$defs/prazo" },

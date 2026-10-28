@@ -55,7 +55,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - `mandato`: `{ anos, vitalicio, limite, inicio, reconducao, nota }`.
 - `requisitos`: `[{ texto, fontes }]`; `fontes: []` remete às fontes do cargo.
 
-**Pessoa.** `nome` é o nome de uso; `nome_civil`, o completo. Cada período **contínuo** de exercício de um cargo é **uma** relação `ocupa`. Num cargo agregado exercido em órgãos diferentes (ex.: Ministro de Estado), `orgao_exercicio` diz onde (a pasta). O mesmo campo vale nas outras relações do cargo agregado, para dizer de qual titular se trata (ex.: o Ministro da Fazenda preside o CMN). Cada filiação tem vigência e pode ter `confianca` própria.
+**Pessoa.** `nome` é o nome de uso; `nome_civil`, o completo. Cada período **contínuo** de exercício de um cargo é **uma** relação `ocupa`. Num cargo agregado exercido em órgãos diferentes (ex.: Ministro de Estado), `orgao_exercicio` diz onde (a pasta). O mesmo campo vale nas outras relações do cargo agregado, para dizer de qual titular se trata (ex.: o Ministro da Fazenda preside o CMN). Quem exerce o cargo sem ser titular (suplente em exercício, presidente da Assembleia no governo) tem `interino: true` na relação `ocupa` (D40). Cada filiação tem vigência e pode ter `confianca` própria.
 
 **Objeto.** `tipo_objeto` (ato normativo, contas, ação judicial, decisão, documento), `esfera` e `relativo_a` (de quem é: as contas do Presidente são `relativo_a: ["cargo:presidente-da-republica"]`). Relações como `sanciona`, `promulga`, `julga` (contas) e `controla-constitucionalidade` apontam para objetos.
 
@@ -66,7 +66,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - `restrita_a`: entes onde a relação vale, quando liga órgãos de arquétipo.
 
 **Processo.** `forma`, `produz` (objeto), `etapas` e `regimes`.
-- **Etapa:** `id`, `tipo_etapa` (`acao` por padrão, `decisao`, `decurso-de-prazo`, `fim`), `atores` (pode ser vazio só em decurso de prazo e fim), `acao` (até 120 caracteres), `detalhes`, `prazo`, `quorum`, `fontes`, `remete_a` (opcional: id do processo cujo rito a etapa segue, ex.: a votação da lei complementar segue `proc:lei-ordinaria`), `seguintes: [{ para, quando }]`.
+- **Etapa:** `id`, `tipo_etapa` (`acao` por padrão, `decisao`, `decurso-de-prazo`, `fim`), `atores` (pode ser vazio só em decurso de prazo e fim; cada ator é um id ou, para cargo agregado, `{ ator, orgao_exercicio }`, D42), `acao` (até 120 caracteres), `detalhes`, `prazo`, `quorum`, `fontes`, `remete_a` (opcional: id do processo cujo rito a etapa segue, ex.: a votação da lei complementar segue `proc:lei-ordinaria`), `seguintes: [{ para, quando }]`.
 - **Prazo:** `{ texto, valor?, unidade?, conta_de?, efeito? }`. `texto` sempre presente; os demais quando a norma permitir estruturar.
 - **Regime:** variante que muda várias etapas, como a urgência constitucional: `{ id, nome, resumo, detalhes?, quem_aciona, fontes, efeitos: [{ etapa, prazo?, nota? }] }`.
 

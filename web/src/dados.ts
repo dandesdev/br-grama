@@ -23,6 +23,8 @@ export interface Entidade {
 export interface Etapa {
   id: string;
   atores: string[];
+  /** Pasta de cada ator que é cargo agregado (D42), preenchida pelo build. */
+  atores_exercicio?: Record<string, string>;
   acao: string;
   detalhes?: string;
   tipo_etapa?: string;
@@ -126,15 +128,15 @@ export class Dados {
   }
 
   /** Quem ocupa o cargo na data de referência, com o partido vigente. */
-  ocupantes(cargoId: string): { pessoa: Entidade; partido?: Entidade; orgao?: Entidade }[] {
+  ocupantes(cargoId: string): { pessoa: Entidade; partido?: Entidade; orgao?: Entidade; interino: boolean }[] {
     return this.relacoesChegando(cargoId)
       .filter((r) => r.relacao === "ocupa")
-      .map((r) => ({ pessoa: this.get(r.de as string), orgao: r.orgao_exercicio ? this.get(r.orgao_exercicio as string) : undefined }))
-      .filter((o): o is { pessoa: Entidade; orgao: Entidade | undefined } => !!o.pessoa)
-      .map(({ pessoa, orgao }) => {
+      .map((r) => ({ pessoa: this.get(r.de as string), orgao: r.orgao_exercicio ? this.get(r.orgao_exercicio as string) : undefined, interino: r.interino === true }))
+      .filter((o): o is { pessoa: Entidade; orgao: Entidade | undefined; interino: boolean } => !!o.pessoa)
+      .map(({ pessoa, orgao, interino }) => {
         const filiacoes = (pessoa.filiacoes as { partido: string; vigencia: Vigencia }[] | undefined) ?? [];
         const f = filiacoes.find((x) => vigenteEm(x, this.data));
-        return { pessoa, partido: f ? this.get(f.partido) : undefined, orgao };
+        return { pessoa, partido: f ? this.get(f.partido) : undefined, orgao, interino };
       });
   }
 

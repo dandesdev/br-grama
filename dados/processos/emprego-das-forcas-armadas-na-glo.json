@@ -82,7 +82,10 @@
       "id": "ativacao",
       "atores": [
         "cargo:presidente-da-republica",
-        "cargo:ministro-de-estado",
+        {
+          "ator": "cargo:ministro-de-estado",
+          "orgao_exercicio": "org:ministerio-da-defesa"
+        },
         "org:forcas-armadas"
       ],
       "acao": "Após mensagem do Presidente, os órgãos operacionais atuam de forma episódica, em área definida e por tempo limitado",

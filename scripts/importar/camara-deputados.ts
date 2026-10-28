@@ -197,6 +197,7 @@ function gerar() {
             de: idPessoa,
             para: "cargo:deputado-federal",
             condicao: `Pela unidade da federação ${d.siglaUf}${d.ultimoStatus.condicaoEleitoral ? `, como ${d.ultimoStatus.condicaoEleitoral.toLowerCase()}` : ""}.`,
+            ...(/^suplente$/i.test(d.ultimoStatus.condicaoEleitoral ?? "") ? { interino: true } : {}), // D40
             vigencia: { de: null, ate: null, nota: `Em exercício em ${DATA_REF} segundo a Câmara. A data de início do exercício não foi importada.` },
             fontes: [{ ref: FONTE, dispositivo: `deputado ${d.id}` }],
             confianca: "oficial",

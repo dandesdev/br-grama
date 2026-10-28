@@ -167,8 +167,8 @@ export class Painel {
     if (ocup.length || vacancias.length) {
       const titulo = vagas === 1 ? "Ocupante" : `Ocupantes registrados (${ocup.length}${vagas ? ` de ${vagas}` : ""})`;
       partes.push(`<h3>${titulo} em ${formatarData(this.dados.data)}</h3>`);
-      const linhaOcupante = ({ pessoa, partido }: (typeof ocup)[number]) =>
-        `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}</div>`;
+      const linhaOcupante = ({ pessoa, partido, interino }: (typeof ocup)[number]) =>
+        `<div class="ocupante">${this.link(pessoa.id)}${partido ? ` <span class="partido">${esc(partido.sigla ?? partido.nome)}</span>` : ""}${interino ? ` <span class="etiqueta">em exercício</span>` : ""}</div>`;
       if (ocup.some((o) => o.orgao)) {
         // Cargo agregado exercido em órgãos diferentes (ex.: Ministro de Estado): um titular por órgão.
         const porOrgao = [...ocup].sort((x, y) => (x.orgao?.nome ?? "~").localeCompare(y.orgao?.nome ?? "~", "pt-BR"));
@@ -258,7 +258,7 @@ export class Painel {
     if (e.tipo === "objeto") partes.push(this.fichaObjeto(e));
     if (e.tipo === "pessoa") {
       const cargos = this.dados.relacoesSaindo(id).filter((r) => r.relacao === "ocupa");
-      partes.push(`<h3>Cargos em ${formatarData(this.dados.data)}</h3><ul>${cargos.map((r) => `<li>${this.link(r.para as string)}${r.orgao_exercicio ? ` (${this.link(r.orgao_exercicio as string)})` : ""} desde ${formatarData(r.vigencia.de)}</li>`).join("")}</ul>`);
+      partes.push(`<h3>Cargos em ${formatarData(this.dados.data)}</h3><ul>${cargos.map((r) => `<li>${this.link(r.para as string)}${r.orgao_exercicio ? ` (${this.link(r.orgao_exercicio as string)})` : ""}${r.interino ? ` <span class="etiqueta">em exercício</span>` : ""} desde ${formatarData(r.vigencia.de)}</li>`).join("")}</ul>`);
     }
     if (e.tipo === "relacao") {
       partes.push(`<p>${this.link(e.de as string)} ${this.termo("relacao", e.relacao as string)} ${this.link(e.para as string)}</p>`);
@@ -320,7 +320,7 @@ export class Painel {
       <div class="etiquetas"><span class="etiqueta">Etapa ${i + 1} de ${etapas.length}</span>${et.tipo_etapa && et.tipo_etapa !== "acao" ? `<span class="etiqueta">${this.termo("tipo_etapa", et.tipo_etapa)}</span>` : ""}</div>
       <h2>${esc(et.acao)}</h2>
       ${et.detalhes ? `<p>${esc(et.detalhes)}</p>` : ""}
-      ${et.atores.length ? `<h3>Quem age</h3><ul>${et.atores.map((a) => `<li>${this.link(a)}</li>`).join("")}</ul>` : ""}
+      ${et.atores.length ? `<h3>Quem age</h3><ul>${et.atores.map((a) => `<li>${this.link(a)}${et.atores_exercicio?.[a] ? ` (${this.link(et.atores_exercicio[a])})` : ""}</li>`).join("")}</ul>` : ""}
       ${et.prazo || et.quorum ? `<h3>Regras</h3><p>${[this.prazo(et.prazo), this.quorum(et.quorum)].filter(Boolean).join("<br>")}</p>` : ""}
       ${et.remete_a ? `<p>Segue o rito de: ${this.link(et.remete_a)}</p>` : ""}
       ${efeito ? `<div class="aviso"><span class="icone" aria-hidden="true">⏱</span><div>${esc(regime!.nome)}: ${esc(efeito.prazo?.texto ?? efeito.nota ?? "")}</div></div>` : ""}

@@ -22,6 +22,18 @@ for (const arq of lerArquivos()) {
   const e = arq.conteudo as Entidade | null;
   if (e && typeof e.id === "string") entidades.set(e.id, e);
 }
+
+// Atores de etapa com orgao_exercicio (D42) viram id simples; a pasta vai em atores_exercicio.
+type Ator = string | { ator: string; orgao_exercicio: string };
+for (const e of entidades.values()) {
+  if (e.tipo !== "processo") continue;
+  for (const etapa of e.etapas as { atores: Ator[]; atores_exercicio?: Record<string, string> }[]) {
+    const pastas = etapa.atores.filter((a): a is Exclude<Ator, string> => typeof a === "object");
+    if (!pastas.length) continue;
+    etapa.atores_exercicio = Object.fromEntries(pastas.map((a) => [a.ator, a.orgao_exercicio]));
+    etapa.atores = etapa.atores.map((a) => (typeof a === "string" ? a : a.ator));
+  }
+}
 const vocabRelacoes = lerJson<Record<string, { grupo: string }>>("esquema/vocabularios/relacoes.json");
 
 // Nós do mapa, em vigor na data de referência: órgãos (exceto partidos, que aparecem só no

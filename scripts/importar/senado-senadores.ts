@@ -224,6 +224,7 @@ function gerar() {
             de: idPessoa,
             para: "cargo:senador",
             condicao: `Pela unidade da federação ${s.uf}${suplente ? `, como ${s.participacao.toLowerCase()} em exercício` : ""}.`,
+            ...(suplente ? { interino: true } : {}), // D40
             vigencia: { de: exercicio.inicio, ate: exercicio.fim },
             fontes: [{ ref: FONTE, dispositivo: `senador ${s.codigo}, mandatos e exercícios` }],
             confianca: "oficial",

@@ -87,6 +87,9 @@ for (const arq of lerArquivos()) {
   if (ent.tipo === "cargo" && ent.provimento === "variavel" && !(ent.provimento_casos as unknown[])?.length) {
     erro(arq.caminho, `provimento "variavel" exige provimento_casos`);
   }
+  if (ent.tipo === "relacao" && ent.interino !== undefined && ent.relacao !== "ocupa") {
+    erro(arq.caminho, `o campo interino só vale na relação "ocupa" (D40)`);
+  }
   if (ent.confianca === "indisponivel" && ent.tipo !== "aviso") {
     aviso(arq.caminho, `confiança "indisponivel"; confira se há um aviso apontando para ${ent.id}`);
   }
@@ -114,7 +117,7 @@ for (const { entidade, caminho } of entidades.values()) {
 }
 
 // 3. Processos: etapas com ids únicos, ligações válidas, atores coerentes com o tipo da etapa
-interface Etapa { id: string; tipo_etapa?: string; atores: string[]; seguintes: { para: string }[] }
+interface Etapa { id: string; tipo_etapa?: string; atores: (string | { ator: string; orgao_exercicio: string })[]; seguintes: { para: string }[] }
 for (const { entidade, caminho } of entidades.values()) {
   if (entidade.tipo !== "processo") continue;
   const etapas = (entidade.etapas as Etapa[]) ?? [];
@@ -132,6 +135,9 @@ for (const { entidade, caminho } of entidades.values()) {
     if (tipo !== "fim" && !etapa.seguintes.length) erro(caminho, `etapa ${etapa.id}: sem seguintes; use tipo_etapa "fim"`);
     if (tipo !== "decurso-de-prazo" && tipo !== "fim" && !etapa.atores.length) {
       erro(caminho, `etapa ${etapa.id}: sem atores; só etapas de decurso de prazo ou fim podem não ter`);
+    }
+    for (const a of etapa.atores) {
+      if (typeof a === "object" && !a.ator.startsWith("cargo:")) erro(caminho, `etapa ${etapa.id}: orgao_exercicio só vale para ator do tipo cargo (${a.ator})`);
     }
   }
   for (const regime of (entidade.regimes as { id: string; efeitos: { etapa: string }[] }[]) ?? []) {

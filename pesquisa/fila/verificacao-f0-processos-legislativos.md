@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-processos-legislativos
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-processos-legislativos\""
-status: pendente
+status: em-andamento
 depende_de: [f0-processos-legislativos]
-iniciada_em: null
+iniciada_em: 2026-10-27
 concluida_em: null
 ---
 
@@ -30,3 +30,5 @@ concluida_em: null
 - Art. 53, § 2º (a Casa resolve sobre a prisão em flagrante) e § 8º (imunidades no estado de sítio): ficam para a lista de descobertos explicada no fechamento.
 
 ## Diário
+- 2026-10-27 21:17 — iniciada; lidos instruções, modelo, protocolo, decisões e diário da coleta; 54 entidades no escopo
+- 2026-10-27 21:40 — verificados norma:lei-8389-1991 e norma:lei-11440-2006 (cópias locais do Planalto)

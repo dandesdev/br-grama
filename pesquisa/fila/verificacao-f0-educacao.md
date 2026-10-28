@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-educacao
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-educacao\""
-status: pendente
+status: em-andamento
 depende_de: [f0-educacao]
-iniciada_em: null
+iniciada_em: 2026-10-27
 concluida_em: null
 ---
 
@@ -28,3 +28,4 @@ concluida_em: null
 - [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
+- 2026-10-27 21:16 — iniciada; lidos CLAUDE.md, instruções de verificação, modelo, protocolo, decisões e o diário de f0-educacao; escopo: 43 entidades com tarefa f0-educacao
