@@ -1,0 +1,31 @@
+{
+  "id": "rel:fnde-vincula-se-ministerio-da-educacao",
+  "tipo": "relacao",
+  "nome": "O FNDE é vinculado ao Ministério da Educação",
+  "relacao": "vincula-se",
+  "de": "org:fnde",
+  "para": "org:ministerio-da-educacao",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:lei-5537-1968",
+      "dispositivo": "art. 1º (redação do Decreto-Lei 872/1969)"
+    },
+    {
+      "ref": "norma:decreto-12769-2025",
+      "dispositivo": "Anexo I, art. 2º, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1968-11-21",
+    "ate": null,
+    "incerta": true,
+    "nota": "A lei vincula a autarquia ao então Ministério da Educação e Cultura. A estrutura do MEC (Decreto 12.769/2025) remete as entidades vinculadas a regulamento específico, não lido."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "org:fnde",
+  "tipo": "orgao",
+  "nome": "Fundo Nacional de Desenvolvimento da Educação",
+  "sigla": "FNDE",
+  "resumo": "Autarquia federal do Ministério da Educação que financia programas educacionais e distribui a arrecadação do salário-educação à União, aos estados e aos municípios.",
+  "detalhes": "Do salário-educação, depois de 1% para o INSS, um terço fica na quota federal, com o próprio FNDE, e dois terços vão às secretarias de educação de estados, DF e municípios.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:fnde-vincula-se-ministerio-da-educacao."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-5537-1968",
+      "dispositivo": "art. 1º (redação do Decreto-Lei 872/1969)"
+    },
+    {
+      "ref": "norma:lei-9424-1996",
+      "dispositivo": "art. 15, § 1º (redação da Lei 10.832/2003)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212, §§ 5º e 6º"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 253 (natureza “Autarquia”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": "1968-11-21",
+    "ate": null,
+    "nota": "Autarquia criada pela Lei 5.537/1968 com o nome INDEP; o nome FNDE vem do Decreto-Lei 872/1969 (data não conferida)."
+  },
+  "confianca": "oficial",
+  "notas": "Estrutura regimental (decreto) não lida. Programas (PNAE, PNLD etc.) não modelados. As relações rel:uniao-repassa-cotas-salario-educacao-estados e -municipios (de outra tarefa) partem de ente:uniao; pela Lei 9.424, art. 15, § 1º, quem distribui é o FNDE: ver diário.",
+  "mais_informacoes": [
+    {
+      "titulo": "FNDE",
+      "url": "https://www.gov.br/fnde/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

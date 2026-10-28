@@ -1,0 +1,31 @@
+{
+  "id": "rel:senado-monitora-sistema-tributario-nacional",
+  "tipo": "relacao",
+  "nome": "O Senado avalia o Sistema Tributário Nacional",
+  "relacao": "monitora",
+  "de": "org:senado-federal",
+  "para": "obj:sistema-tributario-nacional",
+  "condicao": "Avalia periodicamente a funcionalidade do sistema, em sua estrutura e componentes, e o desempenho das administrações tributárias da União, dos estados, do DF e dos municípios. A avaliação é anual, feita por um grupo de senadores da Comissão de Assuntos Econômicos, cujo relatório é enviado ao Presidente da República, à Câmara e aos governadores, entre outros.",
+  "vigencia": {
+    "de": "2003-12-31",
+    "ate": null,
+    "nota": "Inciso XV do art. 52 incluído pela EC 42/2003, publicada no DOU de 31/12/2003 segundo o quadro de emendas do Planalto (cópia em pesquisa/brutos/planalto-cf/2026-10-23/quadro_emc.htm). O rito no RISF (arts. 99-A e 393-A a 393-F) veio da Res. SF 1/2013."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, XV"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 99-A; arts. 393-A a 393-F"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada na revisão de f0-processos-legislativos, com o termo 'monitora' ampliado depois da coleta. O RISF lista os aspectos avaliados (arts. 393-D e 393-E), os prazos do trabalho (art. 393-C: documentos até 15/3, audiências até 30/4, relatório até 30/6) e diz que o relatório é votado em caráter terminativo na CAE (art. 393-F). Não pesquisamos os relatórios já feitos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos"
+  }
+}

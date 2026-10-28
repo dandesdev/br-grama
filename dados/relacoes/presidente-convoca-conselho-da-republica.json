@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-convoca-conselho-da-republica",
+  "tipo": "relacao",
+  "nome": "O Presidente da República convoca o Conselho da República",
+  "relacao": "convoca",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conselho-da-republica",
+  "condicao": "O Conselho só se reúne por convocação do Presidente. Ele pode também chamar um Ministro de Estado para a reunião quando a pauta tratar do respectivo ministério; esse Ministro não vota.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVIII; art. 90, § 1º"
+    },
+    {
+      "ref": "norma:lei-8041-1990",
+      "dispositivo": "art. 5º, caput e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada na revisão de f0-processos-legislativos, com o termo 'convoca' ampliado para 'chama a reunião de um colegiado'. A relação rel:presidente-preside-conselho-da-republica continua; as duas vêm do mesmo inciso ('convocar e presidir').",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos"
+  }
+}

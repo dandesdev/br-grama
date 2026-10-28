@@ -1,0 +1,26 @@
+{
+  "id": "obj:sistema-tributario-nacional",
+  "tipo": "objeto",
+  "nome": "Sistema Tributário Nacional",
+  "resumo": "Conjunto das regras da Constituição sobre tributos: quem pode cobrar cada um, os limites ao poder de tributar e a repartição das receitas.",
+  "detalhes": "Ocupa o capítulo I do Título VI da Constituição (arts. 145 a 162). O Senado avalia periodicamente se o sistema funciona, em sua estrutura e componentes, e o desempenho das administrações tributárias da União, dos estados, do DF e dos municípios (art. 52, XV).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "nacional",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "Título VI, Capítulo I (arts. 145 a 162); art. 52, XV"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado na revisão para receber a relação 'monitora' do Senado (art. 52, XV, incluído pela EC 42/2003). Tipo 'ato-normativo' por ser um conjunto de normas constitucionais; o vocabulário não tem termo para 'sistema'. Os tributos e as limitações ao poder de tributar já são objetos próprios (os obj:tributo-ibs, obj:tributo-icms e demais, e obj:limitacoes-ao-poder-de-tributar).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos"
+  }
+}

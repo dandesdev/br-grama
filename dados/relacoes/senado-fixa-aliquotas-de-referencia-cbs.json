@@ -5,7 +5,7 @@
   "relacao": "edita",
   "de": "org:senado-federal",
   "para": "obj:tributo-cbs",
-  "condicao": "Por resolução, no ano anterior ao de sua vigência e com base no cálculo do TCU. A alíquota de referência é a que vale quando o ente não fixa a sua. De 2027 a 2033, deve repor a receita dos tributos substituídos; depois, o Senado a ajusta sempre que lei federal mudar a arrecadação.",
+  "condicao": "Por resolução, no ano anterior ao de sua vigência e com base no cálculo do TCU. A alíquota de referência é a que vale quando o ente não fixa a sua. De 2027 a 2033, deve repor a receita dos tributos substituídos. A lei complementar prevê a fixação de 2027 a 2035 (depois, valem as do ano anterior) e, a qualquer tempo, o ajuste pelo Senado sempre que lei federal mudar a arrecadação.",
   "depende_de": [
     "rel:tcu-calcula-aliquotas-de-referencia-cbs"
   ],
@@ -25,14 +25,15 @@
     },
     {
       "ref": "norma:lc-214-2025",
-      "dispositivo": "arts. 18, I, e 19"
+      "dispositivo": "arts. 18, I e III, e 19"
     }
   ],
   "confianca": "oficial",
   "notas": "Vocabulário: usamos 'edita' (o Senado cria a norma por ato próprio); não há termo específico para 'fixa alíquota'. A anterioridade do art. 150, III, c, não se aplica à fixação da transição (ADCT, art. 130, § 1º). Não pesquisamos se alguma resolução já tinha sido editada até 2026-10-01.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-processos-legislativos"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos",
+    "notas": "coletado em f0-processos-legislativos; ADCT, art. 130, LC 214/2025, arts. 18 e 19, e publicação da EC 132/2023 (DOU de 21/12/2023) conferidos; condição corrigida"
   }
 }

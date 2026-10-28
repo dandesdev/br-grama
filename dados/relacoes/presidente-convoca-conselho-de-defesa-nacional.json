@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-convoca-conselho-de-defesa-nacional",
+  "tipo": "relacao",
+  "nome": "O Presidente da República convoca o Conselho de Defesa Nacional",
+  "relacao": "convoca",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conselho-de-defesa-nacional",
+  "condicao": "O Conselho se reúne por convocação do Presidente. Quando a matéria não justificar a reunião, ele pode ouvir os membros por consulta feita a cada um, separadamente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XVIII"
+    },
+    {
+      "ref": "norma:lei-8183-1991",
+      "dispositivo": "art. 3º, caput e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada na revisão de f0-processos-legislativos, com o termo 'convoca' ampliado para 'chama a reunião de um colegiado'. A relação rel:presidente-preside-conselho-de-defesa-nacional continua; as duas vêm do mesmo inciso ('convocar e presidir').",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos"
+  }
+}

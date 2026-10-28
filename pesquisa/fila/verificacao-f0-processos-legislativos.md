@@ -1,20 +1,20 @@
 ---
 id: verificacao-f0-processos-legislativos
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-processos-legislativos\""
-status: em-andamento
+status: verificada
 depende_de: [f0-processos-legislativos]
 iniciada_em: 2026-10-27
-concluida_em: null
+concluida_em: 2026-10-28
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-processos-legislativos"` conferidas contra a fonte: 4 processos (`proc:crime-de-responsabilidade-do-presidente`, `proc:decreto-legislativo`, `proc:perda-de-mandato-parlamentar`, `proc:resolucao`, etapa por etapa, com os `remete_a` e as variantes), 3 órgãos (Conselho de Comunicação Social, Conselhos de Ética da Câmara e do Senado), 7 cargos (líderes da maioria e da minoria nas duas Casas, membro cidadão do Conselho da República, conselheiro do CCS, chefe de missão diplomática permanente), 30 relações, 3 normas, 5 fontes, 1 objeto e 1 aviso.
-- [ ] Termos com definição ampliada depois da coleta (aplique). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-processos-legislativos"`:
+- [x] Todas as entidades com `"tarefa": "f0-processos-legislativos"` conferidas contra a fonte: 4 processos (`proc:crime-de-responsabilidade-do-presidente`, `proc:decreto-legislativo`, `proc:perda-de-mandato-parlamentar`, `proc:resolucao`, etapa por etapa, com os `remete_a` e as variantes), 3 órgãos (Conselho de Comunicação Social, Conselhos de Ética da Câmara e do Senado), 7 cargos (líderes da maioria e da minoria nas duas Casas, membro cidadão do Conselho da República, conselheiro do CCS, chefe de missão diplomática permanente), 30 relações, 3 normas, 5 fontes, 1 objeto e 1 aviso.
+- [x] Termos com definição ampliada depois da coleta (aplique). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-processos-legislativos"`:
   - `convoca` agora cobre "chama a reunião de um colegiado". Crie `rel:presidente-convoca-conselho-da-republica` e `rel:presidente-convoca-conselho-de-defesa-nacional` (art. 84, XVIII: "convocar e presidir"). As relações `preside` que já existem ficam.
   - `monitora` agora cobre a avaliação de um sistema. Crie a relação do Senado com o Sistema Tributário Nacional (art. 52, XV), com o objeto que faltar (procure antes em `dados/objetos`).
   - ADCT, art. 113: você pode editar a etapa `iniciativa` de `proc:lei-ordinaria` e de `proc:lei-complementar` só para pôr a estimativa de impacto orçamentário em `detalhes`, com a fonte.
-- [ ] Pontos do coletor a conferir:
+- [x] Pontos do coletor a conferir:
   - `aviso:perda-de-mandato-senado-risf-e-codigo-de-etica`: o RISF (arts. 32 a 35) e o Código de Ética do Senado (Res. 20/1993, redação de 2008) descrevem ritos diferentes; os dois ainda falam em voto secreto, que a EC 76/2013 tirou da CF. Confirme a contradição e o rito seguido.
   - Res. 21/2016 do Senado, citada na ficha da Câmara: não conferida.
   - Casa onde começa o decreto legislativo: só achada a regra dos tratados (Câmara). Estado de defesa, intervenção e concessões não conferidos.
@@ -22,7 +22,7 @@ concluida_em: null
   - Cópias no Wayback: o campo `arquivo` ficou vazio (erro 429). Tente de novo.
   - O Código de Ética da Câmara foi citado como `norma:ricd` (está dentro do Regimento). Confira.
   - Perda de mandato: a declaração pela Mesa (art. 55, III a V) é uma segunda porta de entrada, só explicada nas notas. Confira se as notas dizem isso com clareza; o modelo não muda nesta revisão.
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Decisões do coordenador sobre as propostas da coleta
 
@@ -44,3 +44,9 @@ concluida_em: null
 - 2026-10-27 23:58 — verificados org:conselho-de-comunicacao-social (correção: 'Só atua sobre o que o Congresso lhe encaminhar' restringia mais que a Lei 8.389/1991, art. 2º; trocado pela tarefa descrita na lei), cargo:conselheiro-do-conselho-de-comunicacao-social, rel:congresso-elege-conselheiro-do-ccs e rel:ccs-auxilia-congresso
 - 2026-10-28 00:05 — verificados cargo:membro-cidadao-do-conselho-da-republica, cargo:chefe-de-missao-diplomatica-permanente, as 3 relações do chefe de missão (indica, aprova-indicacao, nomeia) e as 3 rel:senado-julga-comandante-*, sem correções
 - 2026-10-28 00:15 — verificados as 3 rel:congresso-autoriza-* do escopo (terras públicas, atividades nucleares, terras indígenas), obj:plebiscito-e-referendo e as 5 relações do plebiscito, sem correções. rel:congresso-convoca-plebiscito-e-referendo mantém 'autoriza': a definição ampliada de 'convoca' (reunião de colegiado) não cobre a consulta popular
+- 2026-10-28 00:30 — verificadas as 2 rel:*-susta-acao-penal-*, sem correções, e as 4 relações das alíquotas de referência, com correção: (1) rel:senado-fixa-aliquotas-de-referencia-cbs e -ibs diziam "De 2027 a 2033, deve repor a receita...; depois, o Senado a ajusta sempre que lei federal mudar a arrecadação"; pela LC 214/2025, art. 19, e pela CF, art. 156-A, § 9º, o ajuste vale a qualquer tempo, e a fixação vai de 2027 (CBS) ou 2029 (IBS) a 2035, valendo depois as do ano anterior (art. 18, III); no IBS, o período de reposição é 2029 a 2033 (ADCT, art. 130, II e III), e não 2027; dispositivos da LC 214 ajustados; (2) rel:tcu-calcula-aliquotas-de-referencia-cbs e -ibs diziam que o TCU decide sobre cálculos "do Comitê Gestor e do Executivo" nos dois casos; pela LC 214/2025, art. 19, § 2º, I, a CBS tem cálculo do Executivo e o IBS do Comitê Gestor, em ato conjunto se a lei afetar os dois
+- 2026-10-28 00:45 — termos ampliados aplicados, entidades novas com status coletado: obj:sistema-tributario-nacional (não havia objeto em dados/objetos; tipo 'ato-normativo', por falta de termo para 'sistema'), rel:senado-monitora-sistema-tributario-nacional (CF, art. 52, XV, EC 42/2003, DOU de 31/12/2003; RISF, arts. 99-A e 393-A a 393-F), rel:presidente-convoca-conselho-da-republica (CF, arts. 84, XVIII, e 90, § 1º; Lei 8.041/1990, art. 5º) e rel:presidente-convoca-conselho-de-defesa-nacional (CF, art. 84, XVIII; Lei 8.183/1991, art. 3º). As relações 'preside' ficaram como estavam (são de verificacao-f0-executivo; a condição delas ainda fala em convocar, o que agora se repete na 'convoca'; anotado para o coordenador, sem editar)
+- 2026-10-28 00:52 — edição autorizada fora do escopo: etapa 'iniciativa' de proc:lei-ordinaria e de proc:lei-complementar recebeu, em detalhes, a exigência da estimativa de impacto orçamentário e financeiro (ADCT, art. 113, incluído pela EC 95/2016), com a fonte; nada mais foi alterado nesses processos (verificacao mantida como estava)
+- 2026-10-28 01:00 — pontos do coletor: resolvidos o aviso do Senado (contradição confirmada; rito seguido é o da Res. 20/1993), a Res. 21/2016 (aplicação, não alteração), o Código de Ética da Câmara como norma:ricd (correto), as cópias no Wayback (feitas para norma:senado-resolucao-20-1993, fonte:stf-constituicao-e-o-supremo-art-55 e fonte:senado-api-composicao-lideranca) e a segunda porta de entrada da perda de mandato (notas reescritas). Continuam abertos: casa iniciadora do decreto legislativo no estado de defesa e nas concessões (a intervenção tem só a prática do PDL 1/2023) e quem manda publicar o decreto legislativo e a resolução (nenhuma regra achada)
+- 2026-10-28 01:02 — sugestões para o coordenador, sem edição: (a) as condições de rel:presidente-preside-conselho-da-republica e rel:presidente-preside-conselho-de-defesa-nacional ainda descrevem a convocação, que agora tem relação própria; (b) proc:crime-de-responsabilidade-do-presidente poderia citar nas notas a votação separada da inabilitação em 2016; (c) a forma do ato de declaração de perda do mandato pela Mesa (Câmara e Senado) não foi conferida; (d) obj:sistema-tributario-nacional usa 'ato-normativo' por falta de termo para 'sistema' no vocabulário tipo_objeto
+- 2026-10-28 01:05 — concluída: 54 entidades conferidas, todas verificadas; 13 com correção (aviso do Senado, proc:perda-de-mandato-parlamentar, proc:resolucao, org:conselho-de-comunicacao-social, as 4 relações de alíquotas de referência, norma:senado-resolucao-20-1993 e fonte:stf-constituicao-e-o-supremo-art-55 nas notas e no arquivo, fonte:senado-api-composicao-lideranca no arquivo, proc:decreto-legislativo nas notas); 4 entidades novas (coletado); edição autorizada em proc:lei-ordinaria e proc:lei-complementar (ADCT, art. 113). Validação sem erros. Tarefa verificada

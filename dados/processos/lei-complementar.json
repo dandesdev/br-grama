@@ -25,7 +25,7 @@
         "org:eleitorado-nacional"
       ],
       "acao": "Apresenta o projeto de lei complementar; quem pode propor é o mesmo da lei ordinária",
-      "detalhes": "O art. 61 da CF dá a mesma iniciativa para leis complementares e ordinárias, inclusive a iniciativa privativa do Presidente nos temas do § 1º e a iniciativa popular. A casa iniciadora segue as regras da lei ordinária (ver proc:lei-ordinaria, etapas 'iniciativa' e 'iniciativa-popular').",
+      "detalhes": "O art. 61 da CF dá a mesma iniciativa para leis complementares e ordinárias, inclusive a iniciativa privativa do Presidente nos temas do § 1º e a iniciativa popular. A casa iniciadora segue as regras da lei ordinária (ver proc:lei-ordinaria, etapas 'iniciativa' e 'iniciativa-popular'). Projeto que crie ou altere despesa obrigatória ou renúncia de receita precisa vir acompanhado da estimativa do seu impacto orçamentário e financeiro (ADCT, art. 113).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -38,6 +38,11 @@
         {
           "ref": "norma:rccn",
           "dispositivo": "art. 142"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "ADCT, art. 113",
+          "nota": "Incluído pela EC 95/2016; vale para toda proposição legislativa, de qualquer autor."
         }
       ],
       "seguintes": [

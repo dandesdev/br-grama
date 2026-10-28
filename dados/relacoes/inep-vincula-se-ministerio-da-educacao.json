@@ -1,0 +1,30 @@
+{
+  "id": "rel:inep-vincula-se-ministerio-da-educacao",
+  "tipo": "relacao",
+  "nome": "O Inep é vinculado ao Ministério da Educação",
+  "relacao": "vincula-se",
+  "de": "org:inep",
+  "para": "org:ministerio-da-educacao",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9448-1997",
+      "dispositivo": "art. 1º, caput"
+    },
+    {
+      "ref": "norma:decreto-12769-2025",
+      "dispositivo": "Anexo I, art. 2º, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1997-03-15",
+    "ate": null,
+    "nota": "Lei 9.448/1997, art. 1º (então Ministério da Educação e do Desporto)."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

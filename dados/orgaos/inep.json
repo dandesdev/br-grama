@@ -1,0 +1,70 @@
+{
+  "id": "org:inep",
+  "tipo": "orgao",
+  "nome": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira",
+  "sigla": "Inep",
+  "resumo": "Autarquia federal do Ministério da Educação que produz as estatísticas educacionais e faz as avaliações e exames nacionais da educação básica e superior.",
+  "detalhes": "Mantém o sistema de informações educacionais, coordena a avaliação dos cursos de graduação e propõe os parâmetros dos exames de acesso ao ensino superior.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:inep-vincula-se-ministerio-da-educacao."
+    },
+    "nome": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 249 (natureza “Autarquia”), arquivo baixado em 2026-10-24"
+        }
+      ],
+      "nota": "A Lei 9.448/1997 usa 'Instituto Nacional de Estudos e Pesquisas Educacionais - INEP'; o complemento 'Anísio Teixeira' vem do SIORG, sem a norma que o deu conferida."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 249 (natureza “Autarquia”), arquivo baixado em 2026-10-24"
+        }
+      ],
+      "nota": "O SIORG e a lei grafam INEP; usamos Inep."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9448-1997",
+      "dispositivo": "art. 1º, caput e I a X"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 249 (natureza “Autarquia”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-03-15",
+    "ate": null,
+    "nota": "Autarquia desde a Lei 9.448/1997; antes era órgão do Ministério da Educação."
+  },
+  "confianca": "oficial",
+  "notas": "Estrutura regimental não lida. Exames (Enem, Enade, Saeb) não modelados.",
+  "mais_informacoes": [
+    {
+      "titulo": "Inep",
+      "url": "https://www.gov.br/inep/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

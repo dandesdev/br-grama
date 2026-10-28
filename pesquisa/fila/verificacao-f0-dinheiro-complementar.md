@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-dinheiro-complementar
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-dinheiro-complementar\""
-status: pendente
+status: em-andamento
 depende_de: [f0-dinheiro-complementar]
-iniciada_em: null
+iniciada_em: 2026-10-27
 concluida_em: null
 ---
 
@@ -26,3 +26,4 @@ concluida_em: null
 - [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
+- 2026-10-27 21:38 — iniciada; lidos instruções, docs, diário da coleta; 64 arquivos no escopo (tarefa f0-dinheiro-complementar)

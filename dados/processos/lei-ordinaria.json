@@ -24,7 +24,7 @@
         "cargo:procurador-geral-da-republica"
       ],
       "acao": "Apresenta o projeto de lei",
-      "detalhes": "Podem propor lei ordinária: deputados, senadores, comissões da Câmara, do Senado e do Congresso, o Presidente da República, o STF, os tribunais superiores, o PGR e os cidadãos (etapa própria). Alguns temas só podem ser propostos pelo Presidente, como criação de cargos na administração direta e autárquica e efetivo das Forças Armadas (art. 61, § 1º). Os projetos do Presidente, do STF e dos tribunais superiores começam na Câmara (art. 64); os de comissão mista começam alternadamente em cada Casa (RCCN, art. 142).",
+      "detalhes": "Podem propor lei ordinária: deputados, senadores, comissões da Câmara, do Senado e do Congresso, o Presidente da República, o STF, os tribunais superiores, o PGR e os cidadãos (etapa própria). Alguns temas só podem ser propostos pelo Presidente, como criação de cargos na administração direta e autárquica e efetivo das Forças Armadas (art. 61, § 1º). Os projetos do Presidente, do STF e dos tribunais superiores começam na Câmara (art. 64); os de comissão mista começam alternadamente em cada Casa (RCCN, art. 142). Projeto que crie ou altere despesa obrigatória ou renúncia de receita precisa vir acompanhado da estimativa do seu impacto orçamentário e financeiro (ADCT, art. 113).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -37,6 +37,11 @@
         {
           "ref": "norma:rccn",
           "dispositivo": "art. 142"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "ADCT, art. 113",
+          "nota": "Incluído pela EC 95/2016; vale para toda proposição legislativa, de qualquer autor."
         }
       ],
       "seguintes": [

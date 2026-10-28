@@ -5,7 +5,7 @@
   "relacao": "calcula",
   "de": "org:tcu",
   "para": "obj:tributo-cbs",
-  "condicao": "Faz o cálculo em que o Senado se baseia. Nos ajustes por mudança da lei, o TCU confere e decide em definitivo os cálculos enviados pelo Comitê Gestor do IBS e pelo Executivo federal e os remete ao Senado.",
+  "condicao": "Faz o cálculo em que o Senado se baseia. Nos ajustes por mudança da lei, o TCU confere e decide em definitivo os cálculos enviados pelo Executivo federal (em ato conjunto com o Comitê Gestor do IBS, se a lei afetar também o IBS) e os remete ao Senado.",
   "vigencia": {
     "de": "2023-12-21",
     "ate": null,
@@ -18,13 +18,14 @@
     },
     {
       "ref": "norma:lc-214-2025",
-      "dispositivo": "art. 19, § 1º, III, e § 2º"
+      "dispositivo": "art. 19, § 1º, III, e § 2º, I, b e c, e IV"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-processos-legislativos"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos",
+    "notas": "coletado em f0-processos-legislativos; ADCT, art. 130, LC 214/2025, arts. 18 e 19, e publicação da EC 132/2023 (DOU de 21/12/2023) conferidos; condição corrigida"
   }
 }
