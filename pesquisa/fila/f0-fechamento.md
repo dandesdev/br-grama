@@ -1,10 +1,10 @@
 ---
 id: f0-fechamento
 escopo: "Fatia 0: pendências pequenas que sobraram das tarefas e varredura de cobertura da CF (D04)"
-status: pendente
+status: concluida
 depende_de: [f0-defesa-seguranca, f0-tipicos]
-iniciada_em: null
-concluida_em: null
+iniciada_em: 2026-10-23
+concluida_em: 2026-10-28
 ---
 
 ## Entregáveis
@@ -14,17 +14,17 @@ Revisão do que os revisores criaram:
 
 Pendências anotadas pelas tarefas:
 - [x] Legislativo: `remete_a` nas etapas que seguem o rito da lei ordinária (hoje só citado no texto).
-- [ ] Judiciário: quem nomeia o quinto constitucional do TJDFT; alterações do RISTJ depois da ER 47/2024.
-- [ ] Executivo: cargos dos membros cidadãos do Conselho da República (art. 89, VII); processo do decreto legislativo; verbo para "convoca reunião de colegiado" (hoje `preside`).
-- [ ] Eleições: STJ julga os Procuradores Regionais Eleitorais (art. 105, I, a, membros do MPU que oficiam perante tribunais); normas que faltam: Lei 15.230/2025 (idade mínima) e Lei 14.291/2022 (propaganda partidária); posse de deputados estaduais e vereadores; ADI 7881 (LC 219/2025) se o STF decidir.
-- [ ] Funções essenciais: TRF julga membros do MPU (art. 108, I, a), sem nó único para os TRFs; MPs de contas estaduais; Defensoria do DF.
-- [ ] Dinheiro: contribuições ao Sistema S (art. 240) e adicional por rotatividade (art. 239, § 4º); créditos adicionais (art. 166, § 8º; art. 167, V); bancadas estaduais como proponentes da emenda de bancada; ADI 8010 (LC 200/2023); presidente do Comitê Gestor do IBS; verbo para "propõe a exoneração" (CMN, hoje `propoe`).
-- [ ] Controle: data da posse de Jhonatan de Jesus (aviso aberto); Constituições estaduais sobre a escolha dos conselheiros.
-- [ ] Defesa e segurança: cargo de Diretor-Geral da PRF; Secretaria Nacional de Políticas Penais; acórdãos da ADI 6457 e da ADPF 995 (só lidas as notícias do STF); Decreto 11.693/2023 com nome antigo da Diretoria de Inteligência Penal. Modelo: etapas de processo não têm `orgao_exercicio` (Ministro da Defesa na GLO aparece como Ministro de Estado).
-- [ ] Modelo (decisões do coordenador): `difere_de` das variações aceita um só órgão (DF sem municípios afeta prefeitura e câmara); `ocupa` em cargo de arquétipo só diz o estado por `restrita_a`; campo de sede com fonte própria; nó para sociedade civil; objeto transferido em `repassa-recursos`; marcar em `ocupa` quem exerce sem ser titular (governador interino no RJ e em RR, suplentes de deputado: hoje só em `condicao`); cargos eleitos num processo eleitoral (hoje só atores da posse); dedupe de ocupantes com duas relações `ocupa` para um só ato (AGU).
+- [x] Judiciário: quem nomeia o quinto constitucional do TJDFT; alterações do RISTJ depois da ER 47/2024.
+- [x] Executivo: cargos dos membros cidadãos do Conselho da República (art. 89, VII); processo do decreto legislativo; verbo para "convoca reunião de colegiado" (hoje `preside`).
+- [x] Eleições: STJ julga os Procuradores Regionais Eleitorais (art. 105, I, a, membros do MPU que oficiam perante tribunais); normas que faltam: Lei 15.230/2025 (idade mínima) e Lei 14.291/2022 (propaganda partidária); posse de deputados estaduais e vereadores; ADI 7881 (LC 219/2025) se o STF decidir.
+- [x] Funções essenciais: TRF julga membros do MPU (art. 108, I, a), sem nó único para os TRFs; MPs de contas estaduais; Defensoria do DF.
+- [x] Dinheiro: contribuições ao Sistema S (art. 240) e adicional por rotatividade (art. 239, § 4º); créditos adicionais (art. 166, § 8º; art. 167, V); bancadas estaduais como proponentes da emenda de bancada; ADI 8010 (LC 200/2023); presidente do Comitê Gestor do IBS; verbo para "propõe a exoneração" (CMN, hoje `propoe`).
+- [x] Controle: data da posse de Jhonatan de Jesus (aviso aberto); Constituições estaduais sobre a escolha dos conselheiros.
+- [x] Defesa e segurança: cargo de Diretor-Geral da PRF; Secretaria Nacional de Políticas Penais; acórdãos da ADI 6457 e da ADPF 995 (só lidas as notícias do STF); Decreto 11.693/2023 com nome antigo da Diretoria de Inteligência Penal. Modelo: etapas de processo não têm `orgao_exercicio` (Ministro da Defesa na GLO aparece como Ministro de Estado).
+- [x] Modelo (decisões do coordenador): `difere_de` das variações aceita um só órgão (DF sem municípios afeta prefeitura e câmara); `ocupa` em cargo de arquétipo só diz o estado por `restrita_a`; campo de sede com fonte própria; nó para sociedade civil; objeto transferido em `repassa-recursos`; marcar em `ocupa` quem exerce sem ser titular (governador interino no RJ e em RR, suplentes de deputado: hoje só em `condicao`); cargos eleitos num processo eleitoral (hoje só atores da posse); dedupe de ocupantes com duas relações `ocupa` para um só ato (AGU).
 
 Cobertura (D04):
-- [ ] Varredura da CF artigo por artigo (arts. 1º a 250 e ADCT no que estrutura o Estado em 2026-10-01): para cada órgão, cargo, competência e procedimento previsto, a entidade que o representa. Lacunas viram lista; a cobertura sai em percentual. Já conhecida: intervenção estadual nos municípios (art. 35).
+- [x] Varredura da CF artigo por artigo (arts. 1º a 250 e ADCT no que estrutura o Estado em 2026-10-01): para cada órgão, cargo, competência e procedimento previsto, a entidade que o representa. Lacunas viram lista; a cobertura sai em percentual. Já conhecida: intervenção estadual nos municípios (art. 35).
 
 ## Diário
 - 2026-10-23 22:40 — coordenador: `remete_a: "proc:lei-ordinaria"` acrescentado em 6 etapas cujo texto já mandava ver o rito da lei ordinária (lei complementar: camara-comissoes, camara-aprecia-emendas-do-senado, senado-aprecia-emendas-da-camara, sancao-veto-e-promulgacao, publicacao-e-vigencia; medida provisória: envio-a-sancao). Emenda constitucional e lei delegada não têm etapa que siga o rito ordinário.
@@ -40,3 +40,4 @@ Cobertura (D04):
 - 2026-10-28 — coordenador: de f0-residuais. Corrigido: 5 relações do TRF-6 começavam em 1988 e passam a 2022-01-03 (Lei 14.226/2021). Decisões: "processa a execução" (art. 102, I, m) fica como `julga`, com nota; Estado estrangeiro não vira nó (como em `acredita`). Para os complementos: posse dos deputados estaduais nos detalhes da etapa `posse` de `proc:eleicao-geral`; `norma:decreto-12543-2025`. Para depois da fatia 0: polícias legislativas como órgãos; MPs junto aos TCMs; custas do art. 98, § 2º.
 - 2026-10-28 — coordenador: de f0-sugestoes-revisoes, para depois da fatia 0: relações `convoca` do Presidente do Senado (sessões conjuntas) e do Presidente do Conselho Federal da OAB, hoje só no texto de `preside`.
 - 2026-10-28 — coordenador: da revisão de f0-residuais. Decisão: aviso resolvido fica com `vigencia.ate` (a data em que a fonte resolveu a lacuna), como fez a revisão no aviso de Jhonatan de Jesus; não se apaga, para manter o histórico. Para depois da fatia 0: TJ julga conflitos de atribuição entre autoridades do estado (Constituição de SP, art. 74, IX).
+- 2026-10-28 — coordenador: fechamento concluído. As pendências desta lista foram absorvidas pelas 8 coletas de lacunas (f0-seguridade, f0-educacao, f0-federacao, f0-controle-constitucionalidade, f0-judiciario-complementar, f0-processos-legislativos, f0-dinheiro-complementar, f0-administracao-indireta), por f0-residuais e por f0-sugestoes-revisoes, todas revisadas (verificacao-f0-complementos-2 conferiu as entidades criadas nas revisões e em f0-sugestoes-revisoes). Decisões de modelo: D40 a D43; sede, sociedade civil, objeto em repassa-recursos, dedupe de ocupa, difere_de com um só órgão e ocupa em arquétipo ficam para depois da fatia 0, com as propostas anotadas neste diário. Cobertura (f0-cobertura atualizado): CF 97,6%, ADCT 97,4%; o script vê 260 de 411 artigos citados. Validação: 9.162 entidades, todas verificadas, nenhum erro.
