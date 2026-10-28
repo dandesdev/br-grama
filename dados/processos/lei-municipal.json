@@ -244,7 +244,37 @@
       "seguintes": []
     }
   ],
-  "regimes": [],
+  "regimes": [
+    {
+      "id": "urgencia-do-prefeito",
+      "nome": "Urgência pedida pelo prefeito",
+      "resumo": "O prefeito pede urgência para projeto seu; vencido o prazo da lei orgânica, o projeto tranca a pauta da Câmara até ser votado",
+      "detalhes": "Não vem da CF: depende de cada lei orgânica. Em São Paulo, o prazo é de 30 dias; no Rio de Janeiro, de 45 dias. Nas duas, o prazo não corre no recesso e não vale para projetos de código.",
+      "quem_aciona": [
+        "cargo:arquetipo-municipal-prefeito"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 38"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 71, §§ 3º e 4º; art. 73"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-votacao",
+          "prazo": {
+            "texto": "Fixado pela lei orgânica: 30 dias em SP (LOM, art. 38, § 1º); 45 dias no Rio (LOM, art. 73, § 1º, redação da Emenda 43/2025). Vencido o prazo, o projeto entra na Ordem do Dia e as demais deliberações ficam sobrestadas até a votação",
+            "efeito": "inclusão na Ordem do Dia, com sobrestamento das demais deliberações até a votação"
+          },
+          "nota": "Só para projetos de iniciativa do prefeito. Os prazos não correm no recesso e não se aplicam a projetos de código (SP, art. 38, § 2º) ou de código e alteração de codificação (Rio, art. 73, § 2º). No Rio, a Emenda 43/2025 diz que o projeto entra na Ordem do Dia da sessão ordinária seguinte. Também no Rio, os projetos do Executivo sobre aumento ou reajuste da remuneração dos servidores tramitam sempre em urgência, com preferência sobre as outras matérias, salvo vetos, leis orçamentárias e matérias de tramitação especial (art. 71, §§ 3º e 4º)."
+        }
+      ]
+    }
+  ],
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -275,10 +305,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-27",
-    "tarefa": "verificacao-f0-federacao",
-    "notas": "coletado em f0-federacao; etapas reconferidas nas leis orgânicas compiladas pelas Câmaras (SP até a Emenda 44/2025; Rio até a Emenda 43/2025); corrigidos: Rio art. 80, I (reescrito pela Emenda 43/2025) para art. 80; arquivamento no Rio, de art. 74 para art. 82; acrescentados SP art. 42, § 1º-A, e ARE 878.911 (caso-líder do Tema 917)"
+    "tarefa": "f0-sugestoes-revisoes",
+    "notas": "verificado antes em verificacao-f0-federacao (2026-10-27; coletado em f0-federacao; etapas reconferidas nas leis orgânicas compiladas pelas Câmaras (SP até a Emenda 44/2025; Rio até a Emenda 43/2025); corrigidos: Rio art. 80, I (reescrito pela Emenda 43/2025) para art. 80; arquivamento no Rio, de art. 74 para art. 82; acrescentados SP art. 42, § 1º-A, e ARE 878.911 (caso-líder do Tema 917)); em f0-sugestoes-revisoes, acrescentado o regime urgencia-do-prefeito (SP, LOM, art. 38; Rio, LOM, arts. 71, §§ 3º e 4º, e 73)"
   },
-  "notas": "Pedido da tarefa: processo legislativo municipal por simetria, como proc:lei-estadual. A fonte da simetria é a compilação do STF sobre o art. 61 (RE 590.829: a lei orgânica que regula direitos de servidores afronta a iniciativa do prefeito; Tema 917, aplicado a leis municipais no RE 1.498.771). A lei complementar municipal e a emenda à lei orgânica não foram modeladas como processos (a emenda à lei orgânica, em SP, exige 2/3 dos membros: LOM, art. 40, § 5º, III). A etapa arquivamento cita a rejeição pelo parecer contrário, quanto ao mérito, de todas as comissões (SP, art. 43, com recurso ao Plenário; Rio, art. 82). No Rio, a matéria rejeitada só volta na mesma sessão legislativa por proposta da maioria absoluta (art. 74), como no art. 67 da CF."
+  "notas": "Pedido da tarefa: processo legislativo municipal por simetria, como proc:lei-estadual. A fonte da simetria é a compilação do STF sobre o art. 61 (RE 590.829: a lei orgânica que regula direitos de servidores afronta a iniciativa do prefeito; Tema 917, aplicado a leis municipais no RE 1.498.771). A lei complementar municipal e a emenda à lei orgânica não foram modeladas como processos (a emenda à lei orgânica, em SP, exige 2/3 dos membros: LOM, art. 40, § 5º, III). A etapa arquivamento cita a rejeição pelo parecer contrário, quanto ao mérito, de todas as comissões (SP, art. 43, com recurso ao Plenário; Rio, art. 82). No Rio, a matéria rejeitada só volta na mesma sessão legislativa por proposta da maioria absoluta (art. 74), como no art. 67 da CF. O regime urgencia-do-prefeito foi acrescentado em f0-sugestoes-revisoes a partir das leis orgânicas de SP (art. 38) e do Rio (arts. 71, §§ 3º e 4º, e 73), nas cópias compiladas pelas Câmaras em pesquisa/brutos/leis-organicas/2026-10-27/; como em proc:lei-ordinaria, a urgência é um regime, não uma etapa."
 }

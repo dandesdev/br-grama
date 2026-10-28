@@ -1,10 +1,10 @@
 ---
 id: f0-sugestoes-revisoes
 escopo: "Fatia 0, fechamento: sugestões pequenas deixadas pelas revisões das coletas de lacunas (fundos, conselhos, legislativo, federação)"
-status: em-andamento
+status: coletada
 depende_de: [f0-fechamento]
 iniciada_em: 2026-10-27
-concluida_em: null
+concluida_em: 2026-10-27
 ---
 
 ## Entregáveis
@@ -29,9 +29,9 @@ Legislativo:
 
 Federação:
 - [x] Constituição da Bahia: confira se ainda dá ao TCM a representação para intervenção nos incisos I a III do art. 35. Se sim, abra `aviso:` de contradição (o STF julgou inconstitucional regra igual do Pará na ADI 2.631), ligado a `proc:intervencao-estadual`.
-- [ ] Regime de urgência do prefeito em `proc:lei-municipal`: acrescente como `regime` se as leis orgânicas de SP e do Rio (já em brutos) o preverem, com prazo e efeito.
+- [x] Regime de urgência do prefeito em `proc:lei-municipal`: acrescente como `regime` se as leis orgânicas de SP e do Rio (já em brutos) o preverem, com prazo e efeito.
 
-- [ ] Para cada item, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
+- [x] Para cada item, diga no diário se ficou coberto; o que não couber vira proposta no relatório.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -56,3 +56,5 @@ Federação:
 - 2026-10-27 23:12 — gravado fonte:radio-senado-impeachment-dilma-2016-08-31 (página oficial do Senado, cópia local; resolução do Senado de 2016 não localizada: busca na web sem o texto, BDSF pediu verificação de segurança; Wayback com 429)
 - 2026-10-27 23:15 — editado proc:crime-de-responsabilidade-do-presidente: etapa 'condenacao' com a votação separada de 2016 (Rádio Senado) e nota (6) ajustada; status coletado; item coberto (sem a resolução do Senado)
 - 2026-10-27 23:25 — conferido: a Constituição da BA (Legislabahia, nova cópia de 2026-10-27 igual à de 2026-10-16) ainda dá ao TCM a representação nos incisos I a III (art. 65, § 1º, I; art. 95, II, a); gravado aviso:ba-constituicao-tcm-representacao-intervencao (contradição com a ADI 2.631); proc:intervencao-estadual: só a nota interna "Não abrimos aviso" trocada pela referência ao aviso, status mantido em verificado; item coberto
+- 2026-10-27 23:35 — editado proc:lei-municipal: regime urgencia-do-prefeito (SP, LOM, art. 38: 30 dias; Rio, LOM, art. 73, § 1º, redação da Emenda 43/2025: 45 dias; sobrestamento; sem recesso nem códigos; nota com a urgência automática do Rio para remuneração de servidores, art. 71, §§ 3º e 4º), lido nas cópias das Câmaras de 2026-10-27 em brutos; status coletado; item coberto
+- 2026-10-27 23:40 — resumo por item: (1) fundos, coberto (3 relações gere); (2) CF, art. 165, § 5º, III, coberto no fundo do RGPS, INSS não tocado; (3) Ministro do Trabalho nomeia Codefat, coberto; (4) Lei 8.706/1993 e MP 2.168-40/2001, cobertos (normas e fontes de org:sistema-s); (5) aviso do conselho consultivo do fundo de combate à pobreza, coberto; (6) Lei 11.494/2007, coberta (norma; ligação na comissão fica como proposta); (7) preside com convocação, coberto nos dois Conselhos, Senado/Congresso e OAB ficam como proposta; (8) votação separada de 2016, coberto com notícia da Rádio Senado, sem a resolução; (9) Constituição da BA, coberto com aviso de contradição; (10) urgência do prefeito, coberto como regime. Pendente: arquivo (Wayback) de fonte:radio-senado-impeachment-dilma-2016-08-31, porque o Wayback respondeu 429. Validação sem erros. Tarefa coletada
