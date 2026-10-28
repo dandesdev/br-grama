@@ -72,7 +72,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 
 **Competência (D38).** Cada matéria (trânsito, saúde, direito civil) é um `obj:` com `tipo_objeto: "materia"`. A competência é uma relação `tem-competencia` do ente para a matéria, com `competencia: { tipo, natureza, nota? }`: `tipo` vem do vocabulário `tipo_competencia` (exclusiva, privativa, comum, concorrente, suplementar, interesse local, residual), e `natureza` é `legislativa` (legislar) ou `material` (executar). "Os estados" e "os municípios" como categoria são entes típicos (`ente:arquetipo-estadual`, `ente:arquetipo-municipal`, com `arquetipo`). As matérias não aparecem no mapa, só na matriz de competências.
 
-**Aviso.** `tipo_aviso`, `afeta`, `gravidade` e `onde_procuramos` (lista dos lugares onde a informação foi buscada sem sucesso). Um fato com fonte (ex.: uma cadeira vaga) **não** é aviso: registre no próprio cargo.
+**Aviso.** `tipo_aviso`, `afeta`, `gravidade` e `onde_procuramos` (lista dos lugares onde a informação foi buscada sem sucesso). Um fato com fonte (ex.: uma cadeira vaga) **não** é aviso: registre no próprio cargo. Aviso resolvido não se apaga: ganha `vigencia.ate` com a data da fonte que resolveu a lacuna e sai do retrato (D43).
 
 **Variação.** `entes`, `abrangencia` (`ente` ou `municipios-do-estado`), `difere_de` (órgão do arquétipo), `instancia` (órgão real), `substitui_relacoes` e `porque`.
 

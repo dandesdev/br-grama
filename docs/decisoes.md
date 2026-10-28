@@ -67,6 +67,7 @@ Decisões tomadas no brainstorm inicial (15–16/10/2026). Cada decisão tem um 
 - **D40** Quem exerce um cargo sem ser o titular (ex.: o presidente da Assembleia de Roraima governando até a eleição suplementar) recebe `interino: true` na relação `ocupa`, e o site mostra o selo "em exercício". Antes a diferença ficava só no texto de `condicao`, e o interino parecia titular.
 - **D41** O processo eleitoral não lista os cargos em disputa. O site os obtém das relações `elege` que partem do eleitorado presente nas etapas de votação, para que o dado não exista em dois lugares.
 - **D42** Numa etapa de processo, o ator pode ser `{ ator, orgao_exercicio }` em vez de só o id, para dizer de qual titular de cargo agregado se trata (ex.: Ministro de Estado no Ministério da Defesa, na GLO), como já se faz nas relações.
+- **D43** Aviso resolvido não é apagado: recebe `vigencia.ate` com a data da fonte que o resolveu (ex.: a ata do TCU que registra a posse de Jhonatan de Jesus) e sai do retrato, mas fica no histórico.
 
 ## Fora do escopo por enquanto
 
