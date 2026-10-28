@@ -1,24 +1,24 @@
 ---
 id: verificacao-f0-federacao
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-federacao\""
-status: em-andamento
+status: coletada
 depende_de: [f0-federacao]
 iniciada_em: 2026-10-27
-concluida_em: null
+concluida_em: 2026-10-27
 ---
 
 ## Entregáveis
 
 - [ ] Todas as entidades com `"tarefa": "f0-federacao"` conferidas contra a fonte: 6 órgãos (Sudam, Sudene, Sudeco, cartórios, órgãos de trânsito dos arquétipos), 16 relações, 14 normas, 7 fontes, 3 objetos, 1 aviso, 2 variações e 3 processos (`proc:intervencao-estadual`, `proc:alteracao-territorial-de-estados`, `proc:lei-municipal`, etapa por etapa, com os `remete_a`).
-- [ ] Termo criado depois da coleta (aplique): `tipo_objeto: "receita"` em `obj:compensacao-financeira-recursos-naturais` (hoje `fundo`, `inferido`; o STF trata o royalty como receita patrimonial originária, ADI 4.606). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-federacao"`.
-- [ ] Pontos do coletor a conferir:
+- [x] Termo criado depois da coleta (aplique): `tipo_objeto: "receita"` em `obj:compensacao-financeira-recursos-naturais` (hoje `fundo`, `inferido`; o STF trata o royalty como receita patrimonial originária, ADI 4.606). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-federacao"`.
+- [x] Pontos do coletor a conferir:
   - intervenção estadual: quem representa em cada inciso do art. 35 (Câmara Municipal nos incisos I a III? PGJ ao TJ no IV) e a base de cada um; Súmula 637 e ADIs 336, 2.631 e 7.369; BA e PA com o TCM
   - royalties do petróleo: liminar da ADI 4.917 (18/3/2013) suspendendo a Lei 12.734/2012; estado do julgamento em 2026-10-01
   - simetria do processo legislativo municipal (RE 590.829, Tema 223; Tema 917) e as leis orgânicas de SP e do Rio usadas (compiladas só até 2008 e 2009: há versão mais nova?)
   - superintendências pela D39: `contido_em` no Poder Executivo federal (`inferido`) e `vincula-se` ao Ministério da Integração (LCs 124, 125 e 129; Decreto 12.504/2025)
   - `aviso:pr-carreira-especial-de-advogado-do-estado-situacao` (lacuna): procure fonte oficial do Paraná sobre a carreira em extinção
   - datas incertas: Lei 10.257/2001, CTB e efeitos da EC 69/2012
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-27 — iniciada; lidos instruções, docs, diário de f0-federacao; 52 entidades no escopo
@@ -33,3 +33,8 @@ concluida_em: null
 - 2026-10-27 21:32 — normas dos royalties verificadas (lei-7990-1989, lei-8001-1990, lei-9478-1997, decreto-2705-1998 sem correções; lei-12734-2012: reescrita a nota 'vetadas e depois mantidas', ambígua, para 'veto derrubado, publicado em 15/3/2013'). obj:compensacao-financeira-recursos-naturais verificado: tipo_objeto 'fundo' (inferido) → 'receita', com campos.tipo_objeto citando ADI 4.606 e RE 228.800; percentuais conferidos (hidrelétricas 25/65/3/3/4; CFEM 15/60/15/10; petróleo art. 49 original, 22,5% e 22,5% no mar); nota da ADI 4.917 detalhada (voto da relatora em 7/5/2026, vista devolvida em 10/9/2026)
 - 2026-10-27 21:34 — org:sudam, org:sudene, org:sudeco e as três relações vincula-se verificadas (ponto D39 resolvido: contido_em org:poder-executivo-federal, inferido, com LC art. 1º e DL 200/1967; vincula-se ao MIDR pelas LCs e pelo Decreto 12.504/2025, Anexo I, art. 2º, IV, a, 1 a 3). Correções: Sudam e Sudene citavam a Diretoria Colegiada no art. 10, § 1º; é o art. 11, § 1º, das LCs 124 e 125; resumo da Sudene com 'em os' corrigido para 'nos'
 - 2026-10-27 21:34 — cartórios verificados: org:arquetipo-estadual-servicos-notariais-e-de-registro e rel:arquetipo-estadual-tj-fiscaliza-servicos-notariais-e-de-registro sem correções. Correções de vigência: rel:cnj-fiscaliza-servicos-notariais-e-de-registro (1988-10-05 → 2004-12-31, EC 45/2004, como as outras relações do CNJ); rel:arquetipo-estadual-tj-exerce-poder-disciplinar-sobre-servicos-notariais-e-de-registro (1988-10-05 → 1994-11-21, Lei 8.935/1994, que define as penas)
+- 2026-10-27 21:35 — órgãos executivos de trânsito estadual e municipal verificados sem correções (CF art. 144, § 10; CTB arts. 5º, 7º, 22 e 24)
+- 2026-10-27 21:36 — var:df-defensoria-publica verificada sem correções. var:pr-carreira-especial-de-advogado-do-estado verificada; 'porque' dizia 'só para os 295 ocupantes estáveis de então'; a ADI 484 fala em 295 cargos criados pela Lei 9.422/1990, preenchidos só por quem já era estável: reescrito. aviso:pr-carreira-especial-de-advogado-do-estado-situacao: nova busca (pr.gov.br, legislacao.pr.gov.br, pge.pr.gov.br) sem fonte oficial; lacuna mantida, aviso verificado, onde_procuramos ampliado
+- 2026-10-27 21:36 — pendentes (2): rel:uniao-repassa-royalties-do-petroleo-estados e rel:uniao-repassa-royalties-do-petroleo-municipios ficam com f0-administracao-indireta, por instrução do coordenador (a origem já foi trocada para org:anp por ela em 2026-10-24); não foram editadas e seguem 'coletado'. Para a revisão delas: as fontes que citam (Lei 9.478/1997, arts. 47 a 50; Decreto 2.705/1998, art. 35; ADI 4.917) foram conferidas aqui e estão certas
+- 2026-10-27 21:36 — sugestões (sem entidade nova): (1) regime de urgência do prefeito no proc:lei-municipal (SP, art. 38: 30 dias; Rio, art. 73, § 1º: 45 dias, redação da Emenda 43/2025); (2) a Constituição da BA ainda dá ao TCM a representação nos incisos I a III do art. 35 (art. 65, § 1º, I) e cita só o ensino no inciso III; o STF derrubou a regra igual do PA (ADI 2.631), mas não achamos decisão sobre a BA: candidata a aviso de contradição se o coordenador quiser; (3) o texto da liminar da ADI 4.917 atribui os arts. 42-B e 42-C à Lei 9.478, que são da Lei 12.351/2010 (anotado em fonte:stf-adi-4917)
+- 2026-10-27 21:36 — coletada (não 'verificada'): 50 de 52 entidades verificadas, 2 relações de royalties pendentes com f0-administracao-indireta. validar sem erros

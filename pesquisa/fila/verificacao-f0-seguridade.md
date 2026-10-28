@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-seguridade
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-seguridade\""
-status: pendente
+status: em-andamento
 depende_de: [f0-seguridade]
-iniciada_em: null
+iniciada_em: 2026-10-27
 concluida_em: null
 ---
 
@@ -25,3 +25,4 @@ concluida_em: null
 - [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
+- 2026-10-27 — iniciada; lidos CLAUDE.md, instruções de verificação, modelo, protocolo, decisões e o diário de f0-seguridade; escopo: 70 entidades (22 órgãos, 26 relações, 18 normas, 4 objetos)

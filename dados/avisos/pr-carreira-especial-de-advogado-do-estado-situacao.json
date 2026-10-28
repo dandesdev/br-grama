@@ -10,7 +10,8 @@
   "gravidade": "baixa",
   "onde_procuramos": [
     "Compilação do STF sobre o art. 132 da CF e sobre o ADCT, art. 69 (portal.stf.jus.br)",
-    "Busca na web por Lei estadual 9.422/1990 e pela carreira especial de advogado do Estado do Paraná (2026-10-23)"
+    "Busca na web por Lei estadual 9.422/1990 e pela carreira especial de advogado do Estado do Paraná (2026-10-23)",
+    "Nova busca na web (2026-10-27) por Lei estadual 9.422/1990, 'carreira especial de advogado do Estado' e quadro em extinção em pr.gov.br, legislacao.pr.gov.br e pge.pr.gov.br: só apareceram resumos da ADI 484 em sites não oficiais"
   ],
   "fontes": [
     {
@@ -24,9 +25,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-federacao",
+    "notas": "coletado em f0-federacao; lacuna confirmada: a nova busca de 2026-10-27 também não achou fonte oficial do Paraná sobre a situação da carreira em 2026"
   },
   "notas": "Para fechar: legislação estadual do Paraná (Casa Civil ou Assembleia) e quadro de pessoal da Procuradoria-Geral do Estado."
 }

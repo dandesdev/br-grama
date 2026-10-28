@@ -1,0 +1,31 @@
+{
+  "id": "rel:presidente-nomeia-diretor-geral-da-policia-rodoviaria-federal",
+  "tipo": "relacao",
+  "nome": "O Presidente escolhe o Diretor-Geral da Polícia Rodoviária Federal",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:diretor-geral-da-policia-rodoviaria-federal",
+  "condicao": "Designação para função de confiança FCE 1.17. O ato é assinado pelo Ministro-Chefe da Casa Civil, por delegação do Presidente, sem subdelegação.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-9794-2019",
+      "dispositivo": "art. 2º; art. 4º, IV, e § 3º"
+    },
+    {
+      "ref": "norma:decreto-11348-2023",
+      "dispositivo": "Anexo II, quadro da Polícia Rodoviária Federal (Diretor-Geral, FCE 1.17)"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.348/2023 (nível FCE 1.17). A redação atual do art. 4º, IV, do Decreto 9.794/2019 é do Decreto 11.376/2023."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

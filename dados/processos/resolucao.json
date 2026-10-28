@@ -120,9 +120,21 @@
         {
           "ref": "norma:ricd",
           "dispositivo": "art. 17, VI, m"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 200, § 2º"
         }
       ],
-      "seguintes": []
+      "seguintes": [],
+      "detalhes": "O Presidente da Câmara tem duas sessões, contadas do recebimento dos autógrafos, para promulgar; se não o fizer, a atribuição passa aos Vice-Presidentes, na ordem.",
+      "prazo": {
+        "texto": "2 sessões depois do recebimento dos autógrafos (RICD, art. 200, § 2º)",
+        "valor": 2,
+        "unidade": "sessoes",
+        "conta_de": "recebimento dos autógrafos",
+        "efeito": "a promulgação cabe aos Vice-Presidentes, na ordem"
+      }
     },
     {
       "id": "senado-comissoes",
@@ -133,7 +145,7 @@
         "org:ccj-senado"
       ],
       "acao": "As comissões do Senado dão parecer; em alguns casos decidem sozinhas (decisão terminativa)",
-      "detalhes": "A decisão é terminativa para a resolução que suspende lei declarada inconstitucional pelo STF (art. 52, X) e, se o Presidente do Senado delegar, para outras proposições, exceto alteração do regimento, as resoluções sobre crédito e dívida (art. 52, V a IX) e as alíquotas do ICMS (art. 155). Um décimo dos senadores pode recorrer ao Plenário. Projeto que altera o regimento recebe emendas por 5 dias úteis e passa sempre pela CCJ.",
+      "detalhes": "A decisão é terminativa para a resolução que suspende lei declarada inconstitucional pelo STF (art. 52, X) e, se o Presidente do Senado delegar, para outras proposições, exceto alteração do regimento, as resoluções sobre crédito e dívida (art. 52, V a IX) e as alíquotas do ICMS e do imposto sobre heranças e doações (art. 155, § 1º, IV, e § 2º, IV e V). Um décimo dos senadores pode recorrer ao Plenário. Projeto que altera o regimento recebe emendas por 5 dias úteis e passa sempre pela CCJ.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -295,10 +307,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) um só processo para as três origens, como obj:resolucao; a Casa aparece no 'quando' da iniciativa. (2) A etapa 'congresso-sessao-conjunta' remete a proc:lei-delegada, porque a delegação é o caso principal de resolução do Congresso; o Regimento Comum segue o RCCN, art. 128. (3) O RICD não tem regra de arquivamento própria para a resolução rejeitada em Plenário; a etapa 'arquivamento' cita só o RISF. (4) Sem etapa de publicação: as normas consultadas não dizem quem manda publicar a resolução. RICD lido em pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html; RISF e RCCN nos PDFs de pesquisa/brutos/senado/2026-10-23-processos-legislativos/ (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
+  "notas": "Decisões de modelagem: (1) um só processo para as três origens, como obj:resolucao; a Casa aparece no 'quando' da iniciativa. (2) A etapa 'congresso-sessao-conjunta' remete a proc:lei-delegada, porque a delegação é o caso principal de resolução do Congresso; o Regimento Comum segue o RCCN, art. 128. (3) O RICD não tem regra de arquivamento própria para a resolução rejeitada em Plenário; a etapa 'arquivamento' cita só o RISF. (4) Sem etapa de publicação: as normas consultadas não dizem quem manda publicar a resolução; a revisão procurou de novo no RICD, no RISF e no RCCN, sem achar regra. O prazo de promulgação da Câmara (RICD, art. 200, § 2º) entrou na revisão. RICD lido em pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html; RISF e RCCN nos PDFs de pesquisa/brutos/senado/2026-10-23-processos-legislativos/ (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-processos-legislativos"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos",
+    "notas": "coletado em f0-processos-legislativos; conferidas as 9 etapas e os remete_a contra CF, arts. 47, 48, 52, VI, 53, § 8º, 55, § 2º, 57, §§ 3º, II, e 5º, 58, § 2º, I, 59, VII, 68 e 155, § 2º, IV e V; RICD, arts. 17, VI, m, 24, 109 e 200; RISF, arts. 48, XXVIII, 91, 213, 254, 288 e 401; RCCN, arts. 52, 116 a 122 e 128; corrigida a lista de exceções à decisão terminativa e acrescentado o prazo de promulgação na Câmara"
   }
 }

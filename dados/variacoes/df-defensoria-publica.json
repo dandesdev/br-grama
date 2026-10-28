@@ -27,9 +27,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-federacao",
+    "notas": "coletado em f0-federacao; conferidos EC 69/2012, arts. 1º a 4º, e CF art. 21, XIII, na redação da EC 69 (cópias locais); data de efeitos (28/7/2012) bate com a contagem da LC 95/1998, art. 8º, § 1º"
   },
   "notas": "Variação só de origem e de regime: hoje a Defensoria do DF segue o arquétipo estadual, ao contrário do Judiciário e do MP do DF (var:df-tjdft, var:df-mpdft). Sem 'instancia': não criamos nó próprio para ela; nome oficial, sigla e lei complementar distrital não foram levantados. Pendência herdada de f0-funcoes-essenciais."
 }

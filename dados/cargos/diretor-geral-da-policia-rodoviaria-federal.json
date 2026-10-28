@@ -1,0 +1,48 @@
+{
+  "id": "cargo:diretor-geral-da-policia-rodoviaria-federal",
+  "tipo": "cargo",
+  "nome": "Diretor-Geral da Polícia Rodoviária Federal",
+  "resumo": "Dirige a Polícia Rodoviária Federal. É uma função de confiança de nível FCE 1.17 no Ministério da Justiça e Segurança Pública.",
+  "orgao": "org:policia-rodoviaria-federal",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "A designação é de competência originária do Presidente da República, delegada ao Ministro-Chefe da Casa Civil para funções de nível CCE 17 e equivalentes (Decreto 9.794/2019, arts. 2º e 4º, IV). Não localizamos lei que fixe requisito ou forma própria de escolha, como há para o Diretor-Geral da Polícia Federal.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo em norma localizada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-11348-2023",
+      "dispositivo": "Anexo I, art. 2º, II, j (redação do Decreto 11.759/2023); Anexo II, quadro da Polícia Rodoviária Federal (Diretor-Geral, FCE 1.17)"
+    },
+    {
+      "ref": "norma:decreto-9794-2019",
+      "dispositivo": "arts. 2º e 4º, IV"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 2º"
+    }
+  ],
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A FCE é função de confiança: o ato é de designação, mas o vocabulário 'designacao' fala de membro de carreira por tempo determinado; usamos 'nomeacao-livre', como no Diretor-Geral da Polícia Federal. Que a FCE só possa ser ocupada por servidor efetivo (Lei 14.204/2021) não foi conferido."
+    }
+  },
+  "vigencia": {
+    "de": "2023-01-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da estrutura regimental vigente do MJSP (Decreto 11.348/2023), que dá o nível FCE 1.17. O cargo de direção é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Dirigente máximo de órgão de segurança pública federal (D11). Pessoa não criada: a imprensa (ex.: Conjur, 2/1/2023) diz que Antônio Fernando Souza Oliveira foi designado em 2/1/2023, mas não localizamos a portaria no DOU (in.gov.br não respondeu) nem fonte oficial de que ele ocupava a função em 2026-10-01. Proposta: criar a pessoa e a relação ocupa com a portaria da Casa Civil.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}
