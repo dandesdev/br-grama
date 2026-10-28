@@ -1,0 +1,28 @@
+{
+  "id": "rel:procurador-geral-de-justica-do-mpdft-nomeia-corregedor-geral-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Nomeação do Corregedor-Geral do MPDFT",
+  "relacao": "nomeia",
+  "de": "cargo:procurador-geral-de-justica-do-mpdft",
+  "para": "cargo:corregedor-geral-do-mpdft",
+  "condicao": "Escolhe um dos nomes da lista tríplice do Conselho Superior, para mandato de dois anos, renovável uma vez.",
+  "depende_de": [
+    "rel:conselho-superior-do-mpdft-indica-corregedor-geral-do-mpdft"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 159, V; art. 173"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

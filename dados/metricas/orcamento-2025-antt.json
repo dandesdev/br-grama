@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2025-antt",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Nacional de Transportes Terrestres",
+  "resumo": "Pagou R$ 593,9 milhões em 2025; dotação atualizada de R$ 633,4 milhões.",
+  "de": "org:antt",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 593885434.84,
+    "despesas_pagas": 527968377.44,
+    "restos_a_pagar_pagos": 65917057.4,
+    "pagamentos_primarios": 555464314.94,
+    "pagamentos_financeiros": 38421119.9,
+    "dotacao_inicial": 597243972,
+    "dotacao_atualizada": 633360154,
+    "despesas_empenhadas": 622380698.76,
+    "despesas_liquidadas": 566273640.21
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "39250"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-28",
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes conferidos no resumo, contas refeitas por outro script sem divergência; Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços dos próprios órgãos. Correções da revisão aplicadas pelo coordenador. Agências reguladoras criadas em f2-executivo mapeadas pelo coordenador à unidade orçamentária de mesmo nome (32266, 41231, 36213, 53210, 39250, 68201, 42206, 68213, 30212)."
+  }
+}

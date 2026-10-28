@@ -1,0 +1,39 @@
+{
+  "id": "org:arquetipo-estadual-conselho-superior-da-defensoria-publica",
+  "tipo": "orgao",
+  "nome": "Conselho Superior da Defensoria Pública do Estado",
+  "resumo": "Órgão consultivo, normativo e decisório da Defensoria do estado, presidido pelo defensor público-geral. Escolhe o Ouvidor-Geral e forma a lista para Corregedor-Geral.",
+  "detalhes": "Tem como membros natos o defensor público-geral, que o preside com voto de qualidade (salvo em matéria disciplinar), o subdefensor, o Corregedor-Geral e o Ouvidor-Geral; a maioria são membros estáveis eleitos para dois anos, com uma reeleição, e o presidente da principal associação da carreira tem assento e voz (LC 80/1994, art. 101). Fixa as atribuições dos órgãos de atuação, julga recursos disciplinares e conflitos de atribuição, aprova o plano de atuação, regula a eleição do defensor público-geral e forma as listas de promoção por merecimento; as sessões são públicas, ao menos bimestrais (arts. 99, § 3º, 102 e 116, § 3º).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-defensoria-publica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 98, I, c"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 98, I, c, 99, § 3º, 101, 102 e 116, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

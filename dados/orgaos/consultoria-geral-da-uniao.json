@@ -1,0 +1,46 @@
+{
+  "id": "org:consultoria-geral-da-uniao",
+  "tipo": "orgao",
+  "nome": "Consultoria-Geral da União",
+  "resumo": "Órgão da AGU que colabora com o Advogado-Geral no assessoramento jurídico ao Presidente da República, com pareceres e estudos.",
+  "detalhes": "Subordina-se direta e imediatamente ao Advogado-Geral e compõe-se do Consultor-Geral da União e da Consultoria da União (LC 73/1993, arts. 2º, § 1º, e 10). Os pareceres que emite, aprovados pelo Advogado-Geral e pelo Presidente, valem como pareceres do Advogado-Geral e, publicados, vinculam a administração federal (arts. 40 e 41).",
+  "tipo_orgao": "advocacia-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:agu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 2º, I, c, e § 1º"
+        }
+      ]
+    }
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 45, § 1º",
+      "nota": "competência e estrutura detalhadas no Regimento Interno da AGU"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º, I, c, II, b, e § 1º; arts. 10, 40 e 41"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A sigla CGU é usada também pela Controladoria-Geral da União; por isso não a pomos no campo sigla.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

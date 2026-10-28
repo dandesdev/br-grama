@@ -1,0 +1,44 @@
+{
+  "id": "cargo:corregedor-geral-da-dpu",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral da Defensoria Pública da União",
+  "resumo": "Exerce a Corregedoria-Geral da DPU. É nomeado pelo Presidente da República a partir de indicação do Conselho Superior, para mandato de dois anos.",
+  "detalhes": "É membro nato do Conselho Superior (LC 80/1994, art. 9º). Apresenta ao Defensor Público-Geral, todo janeiro, o relatório das atividades do ano anterior (art. 13, V).",
+  "orgao": "org:corregedoria-geral-da-dpu",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Conselho Superior indica nomes entre os integrantes da categoria mais elevada da carreira, e o Presidente da República nomeia (LC 80/1994, arts. 10, XIV, e 12). Pode ser destituído antes do fim do mandato, por proposta do Defensor Público-Geral, pelo voto de dois terços do Conselho Superior, com ampla defesa (arts. 10, X, e 12, parágrafo único).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "LC 80/1994, art. 12; a lei não trata de recondução."
+  },
+  "requisitos": [
+    {
+      "texto": "defensor público federal da categoria mais elevada da carreira, indicado pelo Conselho Superior",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "arts. 10, XIV, e 12"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 9º, 10, X e XIV, 12 e 13"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A LC 80/1994 o chama ora de Corregedor-Geral (art. 12), ora de Corregedor-Geral Federal (arts. 9º e 10, XIV).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

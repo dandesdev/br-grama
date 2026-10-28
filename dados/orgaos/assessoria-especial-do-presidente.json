@@ -1,0 +1,39 @@
+{
+  "id": "org:assessoria-especial-do-presidente",
+  "tipo": "orgao",
+  "nome": "Assessoria Especial do Presidente da República",
+  "resumo": "Órgão de assessoramento da Presidência que assiste o Presidente em política externa e soberania nacional e prepara seus encontros e sua correspondência com autoridades estrangeiras.",
+  "detalhes": "Faz estudos e contatos com interlocutores estrangeiros a pedido do Presidente, processa os expedientes da área diplomática que tramitam na Presidência e o acompanha em compromissos internacionais (Lei 14.600/2023, art. 15).",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 1º, VII"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, VII; art. 15, I a VII"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

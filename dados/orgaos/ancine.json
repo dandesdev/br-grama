@@ -1,0 +1,75 @@
+{
+  "id": "org:ancine",
+  "tipo": "orgao",
+  "nome": "Agência Nacional do Cinema",
+  "sigla": "Ancine",
+  "resumo": "Agência reguladora federal que fomenta, regula e fiscaliza a indústria cinematográfica e audiovisual.",
+  "detalhes": "Executa a política nacional de fomento ao cinema, gere programas e mecanismos de fomento, fiscaliza a legislação do setor, combate a pirataria de obras audiovisuais, emite o Certificado de Produto Brasileiro e aplica multas e sanções (MP 2.228-1/2001, arts. 5º e 7º). É dirigida por uma Diretoria Colegiada de um Diretor-Presidente e três Diretores, com mandatos não coincidentes de cinco anos sem recondução, nomeados na forma da Lei 9.986/2000 (art. 8º).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:mp-2228-1-2001",
+          "dispositivo": "art. 5º"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:ancine-vincula-se-ministerio-da-cultura."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 57682"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:mp-2228-1-2001",
+      "dispositivo": "art. 5º; art. 7º; art. 8º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, IX; art. 3º, caput; art. 44; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-09-10",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criada pela MP 2.228-1/2001 (art. 5º), em vigor na publicação (10/9/2001). A instalação efetiva veio depois e não foi conferida."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "Ancine (gov.br)",
+      "url": "https://www.gov.br/ancine/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

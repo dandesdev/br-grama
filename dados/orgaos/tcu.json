@@ -14,12 +14,16 @@
     {
       "ref": "norma:ec-139-2026",
       "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "arts. 1º, 3º, 4º, 5º, 44, 46, 60 e 62"
     }
   ],
   "sigla": "TCU",
   "ente": "ente:uniao",
   "contido_em": "org:poder-legislativo-federal",
-  "detalhes": "Tem nove ministros, sede no Distrito Federal e jurisdição em todo o país. Desde a EC 139/2026, a Constituição declara os tribunais de contas instituições permanentes e essenciais ao controle externo.",
+  "detalhes": "Tem nove ministros, sede no Distrito Federal e jurisdição em todo o país. Desde a EC 139/2026, a Constituição declara os tribunais de contas instituições permanentes e essenciais ao controle externo. A Lei Orgânica (Lei 8.443/1992) lhe dá jurisdição própria sobre quem administra dinheiro, bens e valores federais, poder de editar normas sobre os processos que julga e competência para responder a consultas com caráter normativo. Além de julgar contas e aplicar multas, pode afastar cautelarmente o responsável, decretar por até um ano a indisponibilidade de bens, declarar inidôneo por até cinco anos o licitante que fraudar licitação e, por maioria absoluta, inabilitar o responsável por cinco a oito anos para cargo em comissão.",
   "notas": "A CF trata do TCU dentro do capítulo do Poder Legislativo (Título IV, Cap. I, Seção IX) e diz que ele auxilia o Congresso (art. 71), mas não diz que ele integra o Congresso. Por isso usamos contido_em = Poder Legislativo e uma relação 'auxilia' com o Congresso, sem relação 'integra'. O art. 73 também lhe dá autonomia (quadro próprio, atribuições do art. 96).",
   "vigencia": {
     "de": "1988-10-05",
@@ -27,9 +31,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF arts. 71, 73 e 75 (redação da EC 139/2026) conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentada a fonte Lei 8.443/1992 (arts. 1º, 3º, 4º, 5º, 44, 46, 60 e 62) e, no detalhes, as competências da lei (D50)"
   }
 }

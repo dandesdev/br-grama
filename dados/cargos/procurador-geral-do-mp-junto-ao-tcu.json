@@ -1,0 +1,59 @@
+{
+  "id": "cargo:procurador-geral-do-mp-junto-ao-tcu",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral do Ministério Público junto ao TCU",
+  "resumo": "Chefe do Ministério Público junto ao TCU: defende a ordem jurídica nos processos do Tribunal e é ouvido obrigatoriamente nas contas e nos atos de pessoal.",
+  "detalhes": "Comparece às sessões e se manifesta em todos os assuntos sujeitos à decisão do Tribunal, interpõe recursos e promove, junto à AGU ou aos dirigentes das entidades, a cobrança judicial das dívidas e o arresto de bens dos responsáveis. Tem tratamento e prerrogativas de ministro do TCU.",
+  "orgao": "org:mp-junto-ao-tcu",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "Nomeado pelo Presidente da República entre os integrantes da carreira, para mandato de dois anos, com recondução permitida; na vacância, o Presidente do TCU envia a lista de todos os membros da carreira por antiguidade (RITCU, art. 58, §§ 1º e 2º). A Lei 8.443/1992 diz só que os membros são nomeados pelo Presidente da República (art. 80).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "reconducao": "permitida"
+  },
+  "requisitos": [
+    {
+      "texto": "ser membro da carreira do Ministério Público junto ao TCU",
+      "fontes": [
+        {
+          "ref": "norma:ritcu",
+          "dispositivo": "art. 58, § 1º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "arts. 80, 81 e 82, parágrafo único"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "arts. 58 a 60"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "campos": {
+    "mandato": {
+      "fontes": [
+        {
+          "ref": "norma:ritcu",
+          "dispositivo": "art. 58, § 1º"
+        }
+      ],
+      "nota": "O mandato vem do Regimento Interno, não da lei."
+    }
+  },
+  "notas": "Provimento: escolha livre do Presidente da República dentro da carreira, sem aprovação de outro órgão; 'nomeacao-livre' é o termo mais próximo. Ocupante em 2026-10-01 não pesquisado (a página de autoridades do TCU remete ao site do MP de Contas).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

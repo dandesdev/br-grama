@@ -1,0 +1,50 @@
+{
+  "id": "org:agencias-reguladoras-federais",
+  "tipo": "orgao",
+  "nome": "Agências reguladoras federais",
+  "resumo": "As doze autarquias de regime especial que a Lei 13.848/2019 chama de agências reguladoras: regulam e fiscalizam setores com autonomia e dirigentes com mandato fixo.",
+  "detalhes": "A Lei 13.848/2019 lista as agências (art. 2º) e lhes dá regras comuns: sem tutela nem subordinação hierárquica, com autonomia funcional, decisória, administrativa e financeira e dirigentes com mandato (art. 3º). Cada uma decide em colegiado e em reunião pública, faz análise de impacto regulatório e consulta pública antes de editar normas de interesse geral, tem um ouvidor com mandato e aprova plano estratégico, plano de gestão anual e agenda regulatória; o relatório anual vai ao ministro supervisor, ao Senado, à Câmara e ao TCU, e o plano de gestão anual, ao Senado, à Câmara e ao TCU (arts. 6º a 24). Cooperam com os órgãos de defesa da concorrência, do consumidor e do meio ambiente, podem editar normas conjuntas e delegar fiscalização a agências estaduais e municipais, permanecendo como instância recursal (arts. 25 a 35).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 2º; art. 3º, caput"
+        }
+      ],
+      "nota": "Conjunto, não órgão real (tipo \"conjunto\"): agrupa as agências para as regras comuns da Lei 13.848/2019 e da Lei 9.986/2000. Cada agência continua com contido_em no Poder Executivo federal (D39) e se liga ao conjunto pela relação integra."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "arts. 2º e 3º; arts. 6º a 24; arts. 25 a 35"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 10"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa), que fixou a lista. As agências são anteriores; a ANPD entrou na lista pela Lei 15.352/2026."
+  },
+  "confianca": "oficial",
+  "notas": "Criado nesta tarefa para ligar as regras gerais (escolha dos dirigentes, ouvidor, controle externo, relação com o Cade) a um só nó, sem repetir doze relações iguais.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

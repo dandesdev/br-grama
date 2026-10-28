@@ -1,0 +1,29 @@
+{
+  "id": "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-ministro-do-stj",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MPDFT para o STJ",
+  "relacao": "indica",
+  "de": "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
+  "para": "cargo:ministro-do-stj",
+  "condicao": "Nas vagas do STJ destinadas ao MPDFT, forma lista sêxtupla entre membros com idade entre 35 e 65 anos; o PGR a encaminha ao tribunal.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 104, parágrafo único, II"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, VI; art. 162, V e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

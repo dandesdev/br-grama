@@ -1,0 +1,39 @@
+{
+  "id": "org:conselho-superior-da-dpu",
+  "tipo": "orgao",
+  "nome": "Conselho Superior da Defensoria Pública da União",
+  "resumo": "Órgão normativo da DPU, presidido pelo Defensor Público-Geral Federal: organiza concursos, forma listas de promoção e indica os nomes para Subdefensor e Corregedor-Geral.",
+  "detalhes": "Tem como membros natos o Defensor Público-Geral Federal, que o preside com voto de qualidade (salvo em remoção e promoção), o Subdefensor e o Corregedor-Geral; a maioria são representantes estáveis da carreira, dois por categoria, eleitos por voto direto, plurinominal, obrigatório e secreto para dois anos, com uma reeleição (LC 80/1994, art. 9º). Exerce o poder normativo na DPU, forma a lista tríplice para promoção por merecimento, julga recursos em processo disciplinar, decide sobre remoção voluntária e estágio probatório, organiza os concursos e pode destituir o Corregedor-Geral por dois terços (arts. 10, 27 e 31, § 2º).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:dpu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 5º, I, c"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 5º, I, c, 9º, 10, 27 e 31, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

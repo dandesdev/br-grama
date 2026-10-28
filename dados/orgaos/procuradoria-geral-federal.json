@@ -1,0 +1,45 @@
+{
+  "id": "org:procuradoria-geral-federal",
+  "tipo": "orgao",
+  "nome": "Procuradoria-Geral Federal",
+  "sigla": "PGF",
+  "resumo": "Representa em juízo e assessora juridicamente as autarquias e fundações públicas federais. É vinculada à AGU e tem autonomia administrativa e financeira.",
+  "detalhes": "Inscreve em dívida ativa e cobra os créditos dessas entidades; as procuradorias e departamentos jurídicos de cada autarquia e fundação são seus órgãos de execução, com procuradorias especializadas nas entidades de âmbito nacional e procuradorias federais nas capitais e seccionais no interior (Lei 10.480/2002, arts. 9º e 10). A AGU supervisiona a PGF, e o Advogado-Geral edita os atos sobre sua estrutura; a regra não se aplica à Procuradoria-Geral do Banco Central (arts. 9º, parágrafo único, 14 e 15).",
+  "tipo_orgao": "advocacia-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:agu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-10480-2002",
+          "dispositivo": "art. 9º",
+          "nota": "vinculada à AGU, que a supervisiona"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "2002-07-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10480-2002",
+      "dispositivo": "arts. 9º, 10, 14 e 15"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º, § 3º; arts. 17 e 18"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "contido_em org:agu: a lei diz 'vinculada' e dá à PGF autonomia administrativa e financeira, mas ela não tem personalidade jurídica própria (não é entidade da administração indireta), por isso não aplicamos a D39. A LC 73/1993 já tratava os órgãos jurídicos das autarquias e fundações como vinculados à AGU (art. 2º, § 3º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

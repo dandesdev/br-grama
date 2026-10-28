@@ -4,7 +4,7 @@
   "nome": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização",
   "sigla": "CMO",
   "resumo": "Comissão permanente de deputados e senadores que dá parecer sobre as leis orçamentárias e as contas do Presidente e acompanha a execução do orçamento.",
-  "detalhes": "É a comissão mista permanente do art. 166, § 1º, da Constituição. Tem 40 titulares: 30 deputados e 10 senadores. Diante de indícios de despesa não autorizada, pode pedir esclarecimentos ao governo e um pronunciamento do TCU e, se for o caso, propor ao Congresso a sustação do gasto (art. 72). As emendas aos projetos do PPA, da LDO, da LOA e dos créditos adicionais são apresentadas na CMO, que dá parecer sobre elas antes da votação pelo Plenário das duas Casas (art. 166, § 2º); a comissão também dá parecer sobre os planos e programas nacionais, regionais e setoriais (art. 166, § 1º, II). Ver proc:ciclo-orcamentario.",
+  "detalhes": "É a comissão mista permanente do art. 166, § 1º, da Constituição. Tem 40 titulares: 30 deputados e 10 senadores. Diante de indícios de despesa não autorizada, pode pedir esclarecimentos ao governo e um pronunciamento do TCU e, se for o caso, propor ao Congresso a sustação do gasto (art. 72). As emendas aos projetos do PPA, da LDO, da LOA e dos créditos adicionais são apresentadas na CMO, que dá parecer sobre elas antes da votação pelo Plenário das duas Casas (art. 166, § 2º); a comissão também dá parecer sobre os planos e programas nacionais, regionais e setoriais (art. 166, § 1º, II). Ver proc:ciclo-orcamentario. Às 40 vagas soma-se uma vaga adicional por Casa para as bancadas minoritárias (Regimento Comum, art. 10-A). A presidência alterna a cada ano entre Senado e Câmara. Funciona com quatro comitês permanentes (fiscalização da execução, receita, obras com indícios de irregularidades e admissibilidade de emendas) e com relatores indicados pelas lideranças, como o Relator-Geral do orçamento.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -31,6 +31,14 @@
     {
       "ref": "norma:resolucao-cn-1-2006",
       "dispositivo": "arts. 1º, 2º e 5º"
+    },
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 5º, 12, 13, 16 e 18"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 10-A"
     }
   ],
   "vigencia": {
@@ -41,9 +49,9 @@
   "confianca": "oficial",
   "notas": "Criado pela f0-controle por causa do art. 72; a f0-legislativo não tinha este órgão. Não há relação 'integra' (o contido_em já diz a posição).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-controle e completado em f0-dinheiro; releitura completa: CF, arts. 72 e 166, §§ 1º e 2º, e Resolução 1/2006-CN, arts. 1º, 2º e 5º (texto atualizado da Câmara), conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "detalhes ampliados com composição, presidência alternada, comitês e relatores (Res. 1/2006-CN, arts. 5º, 12, 13, 16 e 18; RCCN, art. 10-A)"
   }
 }

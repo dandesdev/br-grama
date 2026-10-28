@@ -1,0 +1,35 @@
+{
+  "id": "cargo:lider-de-partido-ou-bloco-no-senado-federal",
+  "tipo": "cargo",
+  "nome": "Líder de partido ou bloco parlamentar no Senado Federal",
+  "resumo": "Senador escolhido pela bancada do seu partido ou bloco para representá-la e indicar seus membros nas comissões.",
+  "detalhes": "Indica vice-líderes na proporção de um para cada três integrantes da bancada. Ausente o líder, o vice-líder exerce suas atribuições.",
+  "orgao": "org:liderancas-do-senado-federal",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Indicado no início da 1ª e da 3ª sessão legislativa, em documento assinado pela maioria da bancada e comunicado à Mesa; a mesma maioria pode substituí-lo a qualquer tempo (RISF, art. 65, § 6º). O líder do bloco é escolhido entre os líderes dos partidos que o compõem (art. 62).",
+  "vagas": null,
+  "vagas_nota": "Um por partido ou bloco.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo."
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 62, 65, §§ 6º e 7º, e 66"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RISF em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

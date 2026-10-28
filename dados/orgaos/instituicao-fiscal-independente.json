@@ -1,0 +1,41 @@
+{
+  "id": "org:instituicao-fiscal-independente",
+  "tipo": "orgao",
+  "nome": "Instituição Fiscal Independente",
+  "sigla": "IFI",
+  "resumo": "Órgão do Senado que publica estimativas e análises das contas públicas, acompanha o cumprimento das metas fiscais e projeta a evolução da dívida.",
+  "detalhes": "Dirigida por um Conselho Diretor de três membros com mandatos de quatro anos, não coincidentes e sem recondução: um indicado pelo Presidente do Senado, um pela CAE e um pela CTFC, todos aprovados pelo Senado após arguição pública. Só perdem o cargo por renúncia, condenação, processo disciplinar ou voto de censura da maioria absoluta do Senado. Apresenta à CAE, todo semestre, a evolução do quadro fiscal.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-42-2016",
+          "dispositivo": "art. 1º, caput"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-42-2016",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-11-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 42/2016; a data de publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cargo:corregedor-parlamentar-do-senado-federal",
+  "tipo": "cargo",
+  "nome": "Corregedor Parlamentar do Senado Federal",
+  "resumo": "Senador que dirige a Corregedoria do Senado e preside o inquérito quando um senador comete delito nos edifícios da Casa.",
+  "detalhes": "Pode baixar provimentos para prevenir perturbações da ordem. Três Corregedores substitutos o substituem pela ordem de precedência.",
+  "orgao": "org:corregedoria-parlamentar-do-senado",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Eleito pelos senadores como os demais membros da Comissão Diretora (Resolução nº 17/1993, art. 1º; RISF, art. 60).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "nota": "Inferido da regra da Comissão Diretora (RISF, art. 59); a resolução não fixa o mandato."
+  },
+  "requisitos": [
+    {
+      "texto": "ser senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-17-1993",
+      "dispositivo": "arts. 1º a 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-03-17",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 17/1993; a data de publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "campos": {
+    "mandato": {
+      "confianca": "inferido",
+      "nota": "A Resolução nº 17/1993 manda eleger o Corregedor como os membros da Comissão Diretora, cujo mandato é de dois anos."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

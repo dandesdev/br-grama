@@ -1,0 +1,45 @@
+{
+  "id": "cargo:arquetipo-estadual-corregedor-geral-do-ministerio-publico",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral do Ministério Público do Estado",
+  "resumo": "Dirige a Corregedoria-Geral do MP estadual. É eleito pelo Colégio de Procuradores de Justiça, entre os procuradores de justiça, para mandato de dois anos.",
+  "detalhes": "É membro nato do Colégio de Procuradores e do Conselho Superior (Lei 8.625/1993, art. 16, parágrafo único). Pode ser destituído pelo Colégio, por dois terços, em caso de abuso de poder, conduta incompatível ou grave omissão, por representação do procurador-geral ou da maioria dos procuradores (art. 12, VI).",
+  "orgao": "org:arquetipo-estadual-corregedoria-geral-do-ministerio-publico",
+  "arquetipo": "estadual",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo Colégio de Procuradores de Justiça entre os procuradores de justiça (Lei 8.625/1993, arts. 12, V, e 16).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Lei 8.625/1993, art. 16."
+  },
+  "requisitos": [
+    {
+      "texto": "procurador de justiça",
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 16"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 12, V e VI, 14, I, e 16"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

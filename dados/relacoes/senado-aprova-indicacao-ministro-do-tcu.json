@@ -17,14 +17,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 52, III, b; art. 73, § 2º, I"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 72, I"
     }
   ],
   "confianca": "oficial",
   "notas": "A CF não fixa quórum especial para essa aprovação (diferente do STF, que exige maioria absoluta).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF arts. 52, III, b, e 73, § 2º, I, conferidos; de fato não há quórum especial"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentada a fonte Lei 8.443/1992, art. 72, I (fase 2, D49)"
   }
 }

@@ -1,0 +1,76 @@
+{
+  "id": "org:ana",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Águas e Saneamento Básico",
+  "sigla": "ANA",
+  "resumo": "Agência reguladora federal que implementa a Política Nacional de Recursos Hídricos, outorga o uso da água de domínio da União e edita normas de referência para o saneamento.",
+  "detalhes": "Outorga e fiscaliza o uso de recursos hídricos em corpos de água da União, implementa a cobrança pelo uso da água, define regras de operação de reservatórios, gere o Sistema Nacional de Informações sobre Recursos Hídricos e o de segurança de barragens e institui normas de referência para a regulação do saneamento básico (Lei 9.984/2000, arts. 3º e 4º). É dirigida por uma Diretoria Colegiada de cinco membros, um deles o Diretor-Presidente, nomeados pelo Presidente da República com mandatos não coincidentes de cinco anos sem recondução (art. 9º).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-9984-2000",
+          "dispositivo": "art. 3º"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:ana-vincula-se-ministerio-da-integracao."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 46876"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9984-2000",
+      "dispositivo": "art. 3º; art. 4º; art. 9º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, VI; art. 3º, caput; art. 41; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2000-07-18",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criada pela Lei 9.984/2000 (art. 3º), em vigor na publicação (18/7/2000). Passou a se chamar Agência Nacional de Águas e Saneamento Básico pela Lei 14.026/2020."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "ANA (gov.br)",
+      "url": "https://www.gov.br/ana/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  },
+  "notas": "A Lei 9.984/2000, art. 9º, não menciona a aprovação do Senado; ela vem da Lei 9.986/2000, art. 5º, que vale para todas as agências do art. 2º da Lei 13.848/2019. Natureza (autarquia) e sigla conferidas no SIORG (unidade 46876)."
+}

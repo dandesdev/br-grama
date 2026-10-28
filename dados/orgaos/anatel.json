@@ -1,0 +1,75 @@
+{
+  "id": "org:anatel",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Telecomunicações",
+  "sigla": "Anatel",
+  "resumo": "Agência reguladora federal das telecomunicações: outorga e fiscaliza os serviços, administra o espectro de radiofrequências e defende os direitos dos usuários.",
+  "detalhes": "Implementa a política nacional de telecomunicações, expede normas e atos de outorga dos serviços nos regimes público e privado, celebra e fiscaliza contratos de concessão, controla tarifas e certifica equipamentos (Lei 9.472/1997, art. 19). Tem como órgão máximo o Conselho Diretor, de um Presidente e quatro conselheiros nomeados pelo Presidente da República após aprovação do Senado, com mandato de cinco anos sem recondução, e conta com Conselho Consultivo, Procuradoria, Corregedoria e Ouvidoria (arts. 8º, § 1º, 20, 23 e 24).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-9472-1997",
+          "dispositivo": "art. 8º, caput"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:anatel-vincula-se-ministerio-das-comunicacoes."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 25064"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9472-1997",
+      "dispositivo": "art. 8º, caput e § 1º; art. 19, I a XXXII; arts. 20, 23 e 24"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, III; art. 3º, caput; art. 37; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-07-17",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criada pela Lei 9.472/1997 (art. 8º), em vigor na publicação (17/7/1997). A instalação efetiva veio depois, por decreto não conferido aqui."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "Anatel (gov.br)",
+      "url": "https://www.gov.br/anatel/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-defensor-publico-geral-preside-conselho-superior-da-defensoria-publica",
+  "tipo": "relacao",
+  "nome": "Presidência do Conselho Superior da Defensoria do estado",
+  "relacao": "preside",
+  "de": "cargo:arquetipo-estadual-defensor-publico-geral",
+  "para": "org:arquetipo-estadual-conselho-superior-da-defensoria-publica",
+  "condicao": "Membro nato e presidente; tem voto de qualidade, salvo em matéria disciplinar.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 101, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

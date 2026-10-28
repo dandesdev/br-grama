@@ -1,0 +1,41 @@
+{
+  "id": "org:conselho-de-desenvolvimento-economico-social-sustentavel",
+  "tipo": "orgao",
+  "nome": "Conselho de Desenvolvimento Econômico Social Sustentável",
+  "sigla": "CDESS",
+  "resumo": "Colegiado da Presidência que assessora o Presidente em políticas de desenvolvimento econômico e social sustentável, reunindo governo e representantes da sociedade civil.",
+  "detalhes": "Produz indicações normativas, propostas políticas e acordos de procedimento e aprecia propostas de políticas e reformas que o Presidente lhe submeta. A composição e as regras de funcionamento são definidas por ato do Executivo, e a Secretaria de Relações Institucionais coordena e secretaria o seu funcionamento (Lei 14.600/2023, arts. 5º, V, e 10).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 1º, II"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, II; art. 5º, V; art. 10, I a III, e parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Sigla CDESS: não conferida em fonte oficial nesta tarefa; conhecido também como \"Conselhão\" (uso corrente, não oficial).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

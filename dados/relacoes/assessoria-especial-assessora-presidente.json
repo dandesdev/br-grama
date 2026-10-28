@@ -1,0 +1,27 @@
+{
+  "id": "rel:assessoria-especial-assessora-presidente",
+  "tipo": "relacao",
+  "nome": "A Assessoria Especial assiste o Presidente em política externa",
+  "relacao": "assessora",
+  "de": "org:assessoria-especial-do-presidente",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Em temas estratégicos de política externa e soberania nacional e nos contatos com autoridades estrangeiras.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 15, I a VII"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 14.600/2023, a base citada (antes, MP 1.154/2023). A regra pode ser anterior; não pesquisamos."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-indica-ouvidor-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "O Presidente indica os ouvidores das agências reguladoras",
+  "relacao": "indica",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ouvidor-de-agencia-reguladora",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 23, caput"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cargo:lider-da-bancada-feminina-no-senado-federal",
+  "tipo": "cargo",
+  "nome": "Líder da Bancada Feminina no Senado Federal",
+  "resumo": "Senadora indicada pela bancada feminina, com revezamento a cada seis meses e as prerrogativas de líder de partido, inclusive voto.",
+  "orgao": "org:liderancas-do-senado-federal",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Indicada pela bancada feminina, com revezamento a cada seis meses entre as integrantes (RISF, art. 66-C).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Seis meses, em revezamento."
+  },
+  "requisitos": [
+    {
+      "texto": "ser senadora",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 66-C"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RISF em vigor."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

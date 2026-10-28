@@ -1,0 +1,48 @@
+{
+  "id": "org:cmcvm",
+  "tipo": "orgao",
+  "nome": "Comissão Permanente Mista de Combate à Violência contra a Mulher",
+  "sigla": "CMCVM",
+  "resumo": "Comissão permanente do Congresso que aponta falhas nos serviços às mulheres vítimas de violência e propõe medidas para a política nacional de enfrentamento.",
+  "detalhes": "Tem onze deputados e onze senadores, com igual número de suplentes, para mandato de dois anos; os projetos que elabora começam pela Câmara. Pode fazer audiências públicas e pedir depoimento de qualquer autoridade ou cidadão. O Regimento Comum acrescenta a toda comissão mista uma vaga por Casa para as bancadas minoritárias (art. 10-A); por isso os dados abertos registram 12 titulares de cada Casa.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2014",
+          "dispositivo": "art. 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-1-2014",
+      "dispositivo": "arts. 2º a 5º e 7º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 10-A"
+    },
+    {
+      "ref": "fonte:senado-api-comissoes-mistas",
+      "dispositivo": "colegiado CMCVM"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-01-17",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 1/2014-CN."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

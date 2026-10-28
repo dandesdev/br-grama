@@ -1,0 +1,31 @@
+{
+  "id": "rel:senadores-elegem-corregedor-parlamentar-do-senado",
+  "tipo": "relacao",
+  "nome": "Eleição do Corregedor Parlamentar do Senado",
+  "relacao": "elege",
+  "de": "cargo:senador",
+  "para": "cargo:corregedor-parlamentar-do-senado-federal",
+  "condicao": "Eleito na forma dos demais membros da Comissão Diretora.",
+  "vigencia": {
+    "de": "1993-03-17",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 17/1993; a data de publicação não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-17-1993",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 60"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

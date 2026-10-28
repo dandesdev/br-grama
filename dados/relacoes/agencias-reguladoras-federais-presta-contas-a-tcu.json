@@ -1,0 +1,27 @@
+{
+  "id": "rel:agencias-reguladoras-federais-presta-contas-a-tcu",
+  "tipo": "relacao",
+  "nome": "As agências reguladoras prestam contas ao TCU",
+  "relacao": "presta-contas-a",
+  "de": "org:agencias-reguladoras-federais",
+  "para": "org:tcu",
+  "condicao": "O relatório anual de atividades acompanha o relatório de gestão da prestação de contas e vai ao TCU, ao ministro supervisor, ao Senado e à Câmara em até 90 dias após a abertura da sessão legislativa; o plano de gestão anual é comunicado ao TCU, ao Senado e à Câmara.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 15, § 2º; art. 18, § 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

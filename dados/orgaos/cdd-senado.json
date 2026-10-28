@@ -1,0 +1,52 @@
+{
+  "id": "org:cdd-senado",
+  "tipo": "orgao",
+  "nome": "Comissão de Defesa da Democracia do Senado Federal",
+  "sigla": "CDD",
+  "resumo": "Comissão permanente do Senado sobre defesa da democracia e liberdades de expressão, de imprensa e política.",
+  "detalhes": "Tem 11 membros titulares, número fixado no próprio Regimento. Substituiu a Comissão Senado do Futuro, transformada pela Resolução do Senado nº 14/2023. Como as demais comissões permanentes, dá parecer sobre os projetos da sua área e decide de forma terminativa nos casos previstos no RISF.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-do-senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 72, XII"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 72, XII"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 77, XII"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 104-D"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; nome, composição e competência conforme o RISF atualizado até julho de 2025."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

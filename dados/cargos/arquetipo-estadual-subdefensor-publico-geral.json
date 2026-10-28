@@ -1,0 +1,46 @@
+{
+  "id": "cargo:arquetipo-estadual-subdefensor-publico-geral",
+  "tipo": "cargo",
+  "nome": "Subdefensor Público-Geral do Estado",
+  "resumo": "Substituto do defensor público-geral do estado, nomeado por ele entre os membros estáveis da carreira.",
+  "detalhes": "Substitui o defensor público-geral em faltas, licenças, férias e impedimentos e é membro nato do Conselho Superior (LC 80/1994, arts. 99, § 1º, e 101). A Subdefensoria Pública-Geral é órgão de administração superior da Defensoria do estado (art. 98, I, b).",
+  "orgao": "org:arquetipo-estadual-defensoria-publica",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-livre",
+  "vagas": null,
+  "vagas_nota": "Cada estado pode ter mais de um Subdefensor, segundo suas necessidades (LC 80/1994, art. 99, § 2º).",
+  "provimento_nota": "Nomeado pelo defensor público-geral entre integrantes estáveis da carreira, na forma da lei estadual (LC 80/1994, art. 99, § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "A LC 80/1994 não fixa mandato; depende da lei estadual."
+  },
+  "requisitos": [
+    {
+      "texto": "membro estável da carreira da Defensoria do estado",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99, § 1º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 98, I, b, 99, §§ 1º e 2º, e 101"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

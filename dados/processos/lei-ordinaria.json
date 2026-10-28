@@ -829,10 +829,10 @@
   "confianca": "oficial",
   "notas": "Decisões de modelagem: (1) as etapas de cada Casa são únicas e servem tanto à casa iniciadora quanto à revisora; o papel da Casa aparece no 'quando'. (2) A urgência constitucional é o regime 'urgencia-constitucional', que muda prazos de várias etapas e pode ser pedida em qualquer fase. (3) A etapa 'vigencia' é um fim sem ator: a lei entra em vigor pelo decurso do prazo fixado no texto aprovado (LC 95, art. 8º) ou na LINDB. (4) Nenhuma norma diz quem manda publicar a lei quando a promulgação é feita pelo Presidente ou Vice-Presidente do Senado; a etapa 'publicacao' mantém o Presidente da República (CF, art. 84, IV) e a Imprensa Nacional (ver aviso:publicacao-apos-promulgacao-supletiva). (5) O caminho do projeto do PGR para a Câmara se apoia no RICD, art. 109, § 1º, VII; o art. 64 da CF não menciona o PGR (ver aviso:casa-iniciadora-projeto-do-pgr). (6) Iniciativas específicas fora do art. 61 (CF, arts. 51, IV, 52, XIII, 73 c/c 96, 127, § 2º, e 134, § 4º) não foram modeladas como atores. (7) RISF e RCCN conferidos em texto oficial atualizado até julho de 2025; a API de legislação do Senado não mostra resoluções posteriores que os alterem (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei; 24 etapas e o regime de urgência conferidos contra CF, RICD, RISF, RCCN, Lei 9.709, LINDB, LC 95 e Decretos 9.215 e 11.329; correções e acréscimos no diário da tarefa"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentados os regimes urgencia-regimental-camara (RICD, arts. 152 a 157) e urgencia-regimental-senado (RISF, arts. 336 a 338 e 345)"
   },
   "regimes": [
     {
@@ -904,6 +904,76 @@
             "valor": 10,
             "unidade": "dias",
             "efeito": "sobrestamento das demais deliberações da Câmara até a votação"
+          }
+        }
+      ]
+    },
+    {
+      "id": "urgencia-regimental-camara",
+      "nome": "Urgência regimental na Câmara",
+      "resumo": "O Plenário da Câmara aprova requerimento de urgência: o projeto vai à Ordem do Dia da sessão seguinte e não pode ser decidido só pelas comissões",
+      "detalhes": "Pode ser pedida por um terço dos deputados ou líderes que representem esse número, por dois terços da Mesa ou por dois terços da comissão de mérito, em casos como defesa das liberdades, calamidade pública ou prazos a vencer. Dispensa exigências e prazos regimentais, mas não a publicação, os pareceres nem o quórum. Com a maioria absoluta dos deputados, a matéria pode entrar na pauta e ser votada na mesma sessão (art. 155). Não podem tramitar ao mesmo tempo mais de duas matérias com urgência aprovada por requerimento.",
+      "quem_aciona": [
+        "cargo:deputado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "org:comissoes-da-camara-dos-deputados",
+        "org:plenario-da-camara-dos-deputados"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 24, II, h; art. 151, I, o; arts. 152 a 157"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "camara-comissoes",
+          "prazo": {
+            "texto": "as comissões podem pedir até duas sessões para dar parecer; depois, a matéria vai ao Plenário com ou sem parecer, e o relator designado em Plenário dá parecer oral (RICD, art. 157, §§ 1º e 2º)",
+            "valor": 2,
+            "unidade": "sessoes"
+          },
+          "nota": "Projeto em urgência não tem apreciação conclusiva pelas comissões (RICD, art. 24, II, h)."
+        },
+        {
+          "etapa": "camara-plenario",
+          "nota": "A matéria entra em discussão na sessão seguinte à aprovação do requerimento, em primeiro lugar na Ordem do Dia; o tempo de fala cai para três minutos por orador (RICD, art. 157, caput e § 3º)."
+        },
+        {
+          "etapa": "camara-prazo-de-recurso",
+          "nota": "Não se aplica: sem apreciação conclusiva, não há recurso ao Plenário."
+        }
+      ]
+    },
+    {
+      "id": "urgencia-regimental-senado",
+      "nome": "Urgência regimental no Senado",
+      "resumo": "O Plenário do Senado aprova requerimento de urgência: dispensa prazos e formalidades, e a matéria é votada logo ou em até quatro sessões",
+      "detalhes": "Pode ser pedida pela Mesa ou pela maioria dos senadores, em caso de perigo para a segurança nacional ou calamidade pública (votação imediata); por dois terços dos senadores ou por comissão, para votar na segunda sessão seguinte; ou por um quarto dos senadores ou por comissão, para incluir matéria sem parecer, votada na quarta sessão seguinte. Não dispensa pareceres, quórum nem distribuição de cópias. Projetos de competência terminativa das comissões só podem ter urgência se houver recurso de um décimo dos senadores.",
+      "quem_aciona": [
+        "cargo:senador",
+        "org:mesa-do-senado-federal",
+        "org:comissoes-do-senado-federal",
+        "org:plenario-do-senado-federal"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "arts. 336 a 338 e 345"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "senado-comissoes",
+          "nota": "Com urgência, a matéria pode ir ao Plenário pendente de parecer, dado então em Plenário; projeto terminativo só tem urgência depois do recurso de um décimo dos senadores (RISF, art. 336, III e parágrafo único)."
+        },
+        {
+          "etapa": "senado-plenario",
+          "prazo": {
+            "texto": "imediatamente (art. 336, I), na segunda (art. 336, II) ou na quarta (art. 336, III) sessão deliberativa ordinária depois da concessão da urgência (RISF, art. 345)",
+            "valor": 4,
+            "unidade": "sessoes",
+            "conta_de": "concessão da urgência"
           }
         }
       ]

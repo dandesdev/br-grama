@@ -1,0 +1,39 @@
+{
+  "id": "org:conselho-de-governo",
+  "tipo": "orgao",
+  "nome": "Conselho de Governo",
+  "resumo": "Colegiado da Presidência que assessora o Presidente na formulação das diretrizes da ação governamental; reúne os Ministros de Estado.",
+  "detalhes": "É presidido pelo Presidente da República ou, por determinação dele, pelo Ministro-Chefe da Casa Civil, e integrado pelos Ministros de Estado e pelo titular do Gabinete Pessoal. Atua também por câmaras, criadas por ato do Executivo, para formular políticas setoriais que ultrapassem um ministério; as regras de funcionamento são fixadas por ato do Executivo (Lei 14.600/2023, art. 9º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 1º, I"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, I; art. 9º, I e II, e parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

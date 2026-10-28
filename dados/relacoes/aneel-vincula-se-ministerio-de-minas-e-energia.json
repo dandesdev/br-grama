@@ -1,0 +1,42 @@
+{
+  "id": "rel:aneel-vincula-se-ministerio-de-minas-e-energia",
+  "tipo": "relacao",
+  "nome": "A Aneel é vinculada ao Ministério de Minas e Energia",
+  "relacao": "vincula-se",
+  "de": "org:aneel",
+  "para": "org:ministerio-de-minas-e-energia",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9427-1996",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-11492-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 3"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, parágrafo único; arts. 19 e 26"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1996-12-27",
+    "ate": null,
+    "nota": "A Lei 9.427/1996 (art. 1º) já vinculava a Aneel ao Ministério de Minas e Energia; períodos em que a pasta teve outra estrutura não foram levantados."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

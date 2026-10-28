@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-corregedor-geral-da-agu",
+  "tipo": "relacao",
+  "nome": "Nomeação do Corregedor-Geral da Advocacia da União",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:corregedor-geral-da-agu",
+  "condicao": "Nomeia o indicado, sem aprovação do Senado.",
+  "depende_de": [
+    "rel:advogado-geral-da-uniao-indica-corregedor-geral-da-agu"
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 49, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

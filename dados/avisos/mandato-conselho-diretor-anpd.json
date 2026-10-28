@@ -1,0 +1,52 @@
+{
+  "id": "aviso:mandato-conselho-diretor-anpd",
+  "tipo": "aviso",
+  "nome": "Duas leis dão mandatos diferentes ao Conselho Diretor da ANPD",
+  "resumo": "A LGPD fixa mandato de quatro anos para os diretores da ANPD; a lei geral das agências, que passou a valer para a ANPD em 2026, fixa cinco anos sem recondução.",
+  "detalhes": "A Lei 13.709/2018, art. 55-D, § 3º, dá aos membros do Conselho Diretor da ANPD mandato de quatro anos. A Lei 15.352/2026 incluiu a ANPD na lista de agências reguladoras da Lei 13.848/2019 (art. 2º, XII), que também vale para a Lei 9.986/2000, cujo art. 6º fixa cinco anos sem recondução, e mandou que as nomeações seguintes observem as três leis ao mesmo tempo, com a transição de durações do art. 50 da Lei 13.848/2019 (Lei 15.352/2026, arts. 12 e 17). Não alterou o § 3º do art. 55-D, e nenhuma das leis diz qual prazo prevalece.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "org:anpd",
+    "cargo:dirigente-de-agencia-reguladora"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Lei 13.709/2018, texto compilado (Planalto, acesso em 2026-10-28)",
+    "Lei 13.848/2019, texto compilado (Planalto, acesso em 2026-10-28)",
+    "Lei 9.986/2000, texto compilado (Planalto, acesso em 2026-10-28)",
+    "Lei 15.352/2026, texto original (Planalto, acesso em 2026-10-28)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13709-2018",
+      "dispositivo": "art. 55-D, § 3º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, caput e XII"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 6º"
+    },
+    {
+      "ref": "norma:lei-15352-2026",
+      "dispositivo": "arts. 12 e 17"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 50"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-02-25",
+    "ate": null,
+    "nota": "Data da Lei 15.352/2026 (publicada em 25/2/2026); a inclusão da ANPD na lista veio antes, pela MP 1.317/2025 (data não conferida)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

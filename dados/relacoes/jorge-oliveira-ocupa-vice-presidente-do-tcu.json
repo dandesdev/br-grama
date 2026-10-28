@@ -1,0 +1,29 @@
+{
+  "id": "rel:jorge-oliveira-ocupa-vice-presidente-do-tcu",
+  "tipo": "relacao",
+  "nome": "Jorge Oliveira ocupa o cargo de Vice-Presidente do TCU",
+  "relacao": "ocupa",
+  "de": "pessoa:jorge-oliveira",
+  "para": "cargo:vice-presidente-do-tcu",
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2026-12-31",
+    "nota": "Eleito em 4/12/2024 para 2025 e reeleito em 3/12/2025 para 2026; mandato de um ano civil, com uma só reeleição. A página de autoridades do TCU, consultada em 2026-10-28, ainda o mostra como Vice-Presidente."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-noticia-eleicao-presidencia-2025",
+      "dispositivo": "eleição em 4/12/2024 para vice-presidente; mandato a partir de 1º/1/2025"
+    },
+    {
+      "ref": "fonte:tcu-noticia-reeleicao-presidencia-2026",
+      "dispositivo": "reeleição em 3/12/2025 para vice-presidente; mandato a partir de 1º/1/2026"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

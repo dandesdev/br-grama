@@ -1,0 +1,75 @@
+{
+  "id": "org:antaq",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Transportes Aquaviários",
+  "sigla": "Antaq",
+  "resumo": "Agência reguladora federal da navegação fluvial, de cabotagem e de longo curso, dos portos organizados e das instalações portuárias.",
+  "detalhes": "Atua sobre a navegação fluvial, lacustre, de travessia, de apoio e de cabotagem e longo curso, os portos organizados e as instalações portuárias, o transporte aquaviário de cargas especiais e a infraestrutura aquaviária federal (Lei 10.233/2001, arts. 23 e 27). É dirigida por uma Diretoria Colegiada de um Diretor-Geral e quatro Diretores, nomeados pelo Presidente da República após aprovação do Senado, com mandatos de cinco anos sem recondução (arts. 52 a 54; composição dada pela Lei 14.465/2022).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-10233-2001",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:antaq-vincula-se-ministerio-de-portos-e-aeroportos."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 54843"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10233-2001",
+      "dispositivo": "art. 21; art. 23; art. 27; arts. 52 a 54"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, VII; art. 3º, caput; art. 43; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-06-06",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituída pela Lei 10.233/2001 (art. 21), em vigor na publicação (6/6/2001). A instalação efetiva veio depois, por decreto não conferido aqui."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "Antaq (gov.br)",
+      "url": "https://www.gov.br/antaq/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

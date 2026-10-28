@@ -1,0 +1,128 @@
+{
+  "id": "proc:escolha-do-defensor-publico-geral-do-estado",
+  "tipo": "processo",
+  "nome": "Escolha do defensor público-geral do estado",
+  "resumo": "Os defensores do estado elegem uma lista tríplice; o governador nomeia um dos três em 15 dias, ou o mais votado assume automaticamente.",
+  "detalhes": "O Conselho Superior da Defensoria edita as normas da eleição (LC 80/1994, art. 99, § 3º). O mandato é de dois anos, com uma recondução (art. 99).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "lista-triplice",
+      "atores": [
+        "cargo:arquetipo-estadual-defensor-publico"
+      ],
+      "acao": "Os membros da carreira elegem a lista tríplice por voto direto, secreto, plurinominal e obrigatório",
+      "detalhes": "Concorrem membros estáveis da carreira com mais de 35 anos.",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99, caput e § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "escolha",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "escolha",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador escolhe um dos três nomes",
+      "prazo": {
+        "texto": "15 dias do recebimento da lista tríplice",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "recebimento da lista tríplice",
+        "efeito": "sem nomeação no prazo, o mais votado é investido no cargo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99, caput e § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "nomeacao",
+          "quando": "nomeia no prazo"
+        },
+        {
+          "para": "investidura-automatica",
+          "quando": "não nomeia em 15 dias"
+        }
+      ]
+    },
+    {
+      "id": "nomeacao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador nomeia o escolhido",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "investidura-automatica",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "O defensor mais votado é investido automaticamente no cargo",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "mandato",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O defensor público-geral exerce mandato de dois anos, com uma recondução",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 99"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Regra atual dada pela LC 132/2009 ao art. 99."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 99"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

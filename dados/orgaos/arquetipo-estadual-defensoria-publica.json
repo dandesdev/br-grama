@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Defensoria Pública do Estado",
   "resumo": "Presta orientação jurídica e defesa gratuita a quem não pode pagar, nas causas da Justiça estadual. Chefiada pelo defensor público-geral.",
-  "detalhes": "Tem autonomia funcional e administrativa e a iniciativa da própria proposta orçamentária, dentro da lei de diretrizes orçamentárias (CF, art. 134, § 2º, incluído pela EC 45/2004). A LC 80/1994 traz normas gerais; cada estado a organiza por lei complementar própria (art. 134, § 1º).",
+  "detalhes": "Tem autonomia funcional e administrativa e a iniciativa da própria proposta orçamentária, dentro da lei de diretrizes orçamentárias (CF, art. 134, § 2º, incluído pela EC 45/2004). A LC 80/1994 traz normas gerais; cada estado a organiza por lei complementar própria (art. 134, § 1º). Presta assistência jurídica em todos os graus de jurisdição e instâncias administrativas do estado e pode recorrer aos tribunais superiores (LC 80/1994, art. 106). Seus órgãos são os de administração superior (Defensoria Pública-Geral, Subdefensoria, Conselho Superior e Corregedoria-Geral), os de atuação (as defensorias e os núcleos, com prioridade para as regiões de maior exclusão social), os defensores públicos e a Ouvidoria-Geral, órgão auxiliar (arts. 98 e 107); a proposta orçamentária vai ao governador para consolidação, e os recursos são entregues até o dia 20 de cada mês (art. 97-B).",
   "tipo_orgao": "defensoria-publica",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "estadual",
@@ -15,7 +15,7 @@
     },
     {
       "ref": "norma:lc-80-1994",
-      "dispositivo": "art. 2º, III; arts. 97-A, 98 e 99"
+      "dispositivo": "art. 2º, III; arts. 97, 97-A, 97-B, 98, 106, 106-A, 107 e 109"
     }
   ],
   "estrutura_continua": [
@@ -32,10 +32,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; CF, art. 134, §§ 1º, 2º (EC 45/2004) e 4º, e LC 80/1994, arts. 2º, 97-A, 98 e 99, conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais",
+    "notas": "f2-funcoes-essenciais: detalhes ampliados com a atuação, os órgãos e a autonomia orçamentária (LC 80/1994, arts. 97-A, 97-B, 98, 106 e 107)"
   },
   "notas": "Sem sigla: cada estado usa a sua. Sem contido_em, como as demais funções essenciais à Justiça."
 }

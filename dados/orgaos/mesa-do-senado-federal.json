@@ -14,21 +14,25 @@
     {
       "ref": "norma:risf",
       "dispositivo": "arts. 46 e 59"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 77, caput; art. 98"
     }
   ],
   "ente": "ente:uniao",
   "contido_em": "org:senado-federal",
-  "detalhes": "Os membros são eleitos pelos senadores para mandato de dois anos; há quatro suplentes de Secretário. Pode propor ação direta de inconstitucionalidade no STF.",
+  "detalhes": "Os membros são eleitos pelos senadores para mandato de dois anos; há quatro suplentes de Secretário. Pode propor ação direta de inconstitucionalidade no STF. Os sete titulares da Mesa formam também a Comissão Diretora, que administra o Senado, regulamenta a polícia interna e propõe as resoluções sobre organização, cargos e pessoal da Casa.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF arts. 57, § 4º; 58, § 1º; 103, II e RISF arts. 46 e 59 conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "detalhes: acrescentada a Comissão Diretora (RISF, arts. 77 e 98); fonte acrescentada"
   },
   "campos": {
     "contido_em": {

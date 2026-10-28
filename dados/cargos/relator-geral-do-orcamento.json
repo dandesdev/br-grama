@@ -1,0 +1,53 @@
+{
+  "id": "cargo:relator-geral-do-orcamento",
+  "tipo": "cargo",
+  "nome": "Relator-Geral do projeto de lei orçamentária anual",
+  "resumo": "Parlamentar da CMO que consolida o parecer sobre o orçamento anual: cuida do texto da lei e da reserva de contingência e pode remanejar emendas coletivas.",
+  "detalhes": "É indicado pelas lideranças a cada ano, alternadamente entre senadores e deputados, e não pode ser da mesma Casa, partido ou bloco do Presidente da CMO. Cada parlamentar só pode ser Relator-Geral uma vez por legislatura. Integra o comitê de fiscalização da execução orçamentária e pode criar até dois comitês de assessoramento.",
+  "orgao": "org:cmo",
+  "provimento": "designacao",
+  "provimento_nota": "Indicado pelas lideranças partidárias e designado na CMO, com alternância anual entre Senado e Câmara (Resolução nº 1/2006-CN, arts. 16 e 17).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 1,
+    "nota": "Uma relatoria por projeto de lei orçamentária anual."
+  },
+  "requisitos": [
+    {
+      "texto": "ser membro titular ou suplente da CMO",
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 16, § 2º"
+        }
+      ]
+    },
+    {
+      "texto": "não ser da mesma Casa, partido ou bloco do Presidente da CMO",
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 16, III"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 16, 17, 18, § 4º, 27, 65 e 66"
+    }
+  ],
+  "vigencia": {
+    "de": "2006-12-26",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 1/2006-CN."
+  },
+  "confianca": "oficial",
+  "notas": "'designacao' é o termo mais próximo: a função é escolhida entre parlamentares, sem nova nomeação.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

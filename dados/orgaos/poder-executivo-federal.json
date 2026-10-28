@@ -10,6 +10,10 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 2º; art. 76"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "arts. 1º, 2º, 4º e 5º; art. 170"
     }
   ],
   "ente": "ente:uniao",
@@ -19,9 +23,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF arts. 2º e 76 conferidos"
-  }
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "detalhes e fonte do Decreto-Lei 200/1967 (administração direta e indireta, arts. 4º e 5º; avocação, art. 170); antes verificado em verificacao-piloto-estrutura"
+  },
+  "detalhes": "A administração federal tem duas partes: a direta, formada pela Presidência e pelos ministérios, e a indireta, cujas entidades têm personalidade jurídica própria e se vinculam ao ministério da sua atividade principal (Decreto-Lei 200/1967, art. 4º). Na indireta estão as autarquias, criadas por lei para atividades típicas da administração; as empresas públicas, de capital exclusivo da União, e as sociedades de economia mista, com maioria das ações com voto da União ou de entidade da indireta, ambas de direito privado e voltadas a atividade econômica; e as fundações públicas, sem fins lucrativos, para atividades que não exijam execução por órgão de direito público (art. 5º). O Presidente pode avocar e decidir qualquer assunto da administração federal por motivo relevante de interesse público (art. 170)."
 }

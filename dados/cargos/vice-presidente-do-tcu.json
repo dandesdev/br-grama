@@ -1,0 +1,47 @@
+{
+  "id": "cargo:vice-presidente-do-tcu",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Tribunal de Contas da União",
+  "resumo": "Substitui o Presidente do TCU nas ausências e impedimentos, exerce as funções de corregedor e preside uma das Câmaras.",
+  "orgao": "org:tcu",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Eleito pelos ministros titulares em escrutínio secreto, na última sessão ordinária de dezembro, logo depois da eleição do Presidente; vence quem tiver a maioria dos votos (Lei 8.443/1992, art. 69, §§ 1º, 6º e 7º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 1,
+    "inicio": "1º de janeiro (mandato de um ano civil)",
+    "reconducao": "permitida a reeleição apenas por um período de igual duração"
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do TCU",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 69, caput"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 69, caput e §§ 1º a 8º"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "arts. 8º, 12 e 31"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

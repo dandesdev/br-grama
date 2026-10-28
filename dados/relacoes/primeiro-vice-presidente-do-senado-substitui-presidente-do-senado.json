@@ -1,0 +1,26 @@
+{
+  "id": "rel:primeiro-vice-presidente-do-senado-substitui-presidente-do-senado",
+  "tipo": "relacao",
+  "nome": "Primeiro Vice-Presidente do Senado substitui o Presidente do Senado",
+  "relacao": "substitui",
+  "de": "cargo:primeiro-vice-presidente-do-senado-federal",
+  "para": "cargo:presidente-do-senado-federal",
+  "condicao": "Nas faltas ou impedimentos do Presidente.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 52, I"
+    }
+  ],
+  "confianca": "oficial",
+  "ordem": 1,
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

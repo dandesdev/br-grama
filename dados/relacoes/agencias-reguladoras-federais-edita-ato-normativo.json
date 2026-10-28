@@ -1,0 +1,27 @@
+{
+  "id": "rel:agencias-reguladoras-federais-edita-ato-normativo",
+  "tipo": "relacao",
+  "nome": "As agências reguladoras editam normas para os seus setores",
+  "relacao": "edita",
+  "de": "org:agencias-reguladoras-federais",
+  "para": "obj:ato-normativo-de-agencia-reguladora",
+  "condicao": "Por decisão colegiada da diretoria, depois da análise de impacto regulatório e da consulta pública, quando o ato for de interesse geral.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 6º; art. 7º; art. 9º; art. 29"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

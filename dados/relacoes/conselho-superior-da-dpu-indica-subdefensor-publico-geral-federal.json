@@ -1,0 +1,26 @@
+{
+  "id": "rel:conselho-superior-da-dpu-indica-subdefensor-publico-geral-federal",
+  "tipo": "relacao",
+  "nome": "Indicação do Subdefensor Público-Geral Federal",
+  "relacao": "indica",
+  "de": "org:conselho-superior-da-dpu",
+  "para": "cargo:subdefensor-publico-geral-federal",
+  "condicao": "Indica seis nomes da categoria mais elevada da carreira, entre os quais o Presidente nomeia o Subdefensor e o Corregedor-Geral.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 7º; art. 10, XIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

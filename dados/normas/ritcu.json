@@ -1,0 +1,40 @@
+{
+  "id": "norma:ritcu",
+  "tipo": "norma",
+  "nome": "Regimento Interno do Tribunal de Contas da União",
+  "sigla": "RITCU",
+  "resumo": "Regras de organização e funcionamento do TCU: Plenário, Câmaras, Presidência, Corregedoria, Ministério Público junto ao Tribunal e processos.",
+  "detalhes": "Aprovado pela Resolução-TCU nº 246/2011 e republicado no Boletim do TCU de 6/1/2023 com as alterações até então. Usado aqui só para localizar a estrutura interna que a Lei 8.443/1992 manda o Regimento definir.",
+  "tipo_norma": "regimento-interno",
+  "numero": "246",
+  "data": "2011",
+  "ente": "ente:uniao",
+  "url": "https://btcu.apps.tcu.gov.br/api/obterDocumentoPdf/72729378",
+  "acesso_em": "2026-10-28",
+  "arquivo": null,
+  "vigencia": {
+    "de": "2012-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Segundo pista de busca, a Resolução-TCU 246/2011 entrou em vigor em 1º/1/2012; não conferido no texto da resolução."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 1º, X; art. 99"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "arts. 7º a 14, 31, 32, 58 e 65"
+    }
+  ],
+  "compilacao_ate": "republicação no BTCU Especial nº 3, de 6/1/2023 (alterações até a Resolução-TCU 345/2022, segundo a pista de busca)",
+  "redacao_conferida_em": "2026-10-28",
+  "confianca": "oficial",
+  "notas": "Cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/ritcu-btcu-72729378.pdf. Há alterações posteriores à republicação (por exemplo a Resolução-TCU 375/2025, que muda os arts. 28, 93, 124, 139 e 264, segundo pista de busca); os artigos citados aqui (7º a 14, 31, 32, 58 e 65) não foram conferidos contra elas. O PDF do RITCU no portal do TCU respondeu 404 em 2026-10-28.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "org:arquetipo-estadual-centro-de-estudos-e-aperfeicoamento-funcional",
+  "tipo": "orgao",
+  "nome": "Centro de Estudos e Aperfeiçoamento Funcional do Ministério Público",
+  "resumo": "Órgão auxiliar do MP estadual que promove cursos, seminários, pesquisas e publicações para o aperfeiçoamento dos membros e servidores.",
+  "detalhes": "A organização e o funcionamento são definidos pela lei orgânica de cada estado (Lei 8.625/1993, art. 35).",
+  "tipo_orgao": "outro",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 8º, III"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 8º, III, e 35"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário tem 'escola-judicial' só para magistrados. O nome varia por estado (em vários, escola superior do MP).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

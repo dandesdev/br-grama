@@ -1,0 +1,39 @@
+{
+  "id": "cargo:lider-do-governo-no-senado-federal",
+  "tipo": "cargo",
+  "nome": "Líder do Governo no Senado Federal",
+  "resumo": "Senador indicado pelo Presidente da República para exercer a liderança do Governo no Senado; indica vice-líderes entre os partidos governistas.",
+  "orgao": "org:liderancas-do-senado-federal",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "Indicado pelo Presidente da República (RISF, art. 66-A).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo."
+  },
+  "requisitos": [
+    {
+      "texto": "ser senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 66-A"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RISF em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "'nomeacao-livre' é o termo mais próximo; ocupante não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

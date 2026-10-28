@@ -1,0 +1,61 @@
+{
+  "id": "cargo:procurador-da-fazenda-nacional",
+  "tipo": "cargo",
+  "nome": "Procurador da Fazenda Nacional",
+  "resumo": "Membro de carreira da AGU lotado na PGFN, que cobra a dívida ativa tributária e representa a União nas causas fiscais. Ingressa por concurso.",
+  "detalhes": "A carreira tem três categorias: 2ª (inicial), 1ª (intermediária) e especial (final); a lotação e a distribuição são feitas pelo Procurador-Geral da Fazenda Nacional (LC 73/1993, arts. 20, II, e 23, parágrafo único). Os dois primeiros anos no cargo inicial são de estágio confirmatório; a confirmação ou a exoneração é decidida pelo Conselho Superior com base em parecer da Corregedoria (LC 73/1993, arts. 5º, V, 7º, III, e 22). A promoção, semestral, alterna antiguidade e merecimento e é processada pelo Conselho Superior (arts. 24 e 25).",
+  "orgao": "org:pgfn",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos na categoria inicial, com representação da OAB na banca; nomeação pela ordem de classificação (CF, art. 131, § 2º; LC 73/1993, art. 21).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, sem mandato nem vitaliciedade; estágio confirmatório de dois anos (LC 73/1993, art. 22)."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 131, § 2º"
+        },
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 21"
+        }
+      ]
+    },
+    {
+      "texto": "pelo menos dois anos de prática forense na inscrição",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 21, § 2º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, §§ 2º e 3º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 12, 20 a 25"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

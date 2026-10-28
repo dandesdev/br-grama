@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-do-senado-designa-ouvidor-geral-do-senado",
+  "tipo": "relacao",
+  "nome": "Presidente do Senado designa o Ouvidor-Geral",
+  "relacao": "designa",
+  "de": "cargo:presidente-do-senado-federal",
+  "para": "cargo:ouvidor-geral-do-senado-federal",
+  "condicao": "Entre os senadores, para dois anos.",
+  "vigencia": {
+    "de": "2011-06-16",
+    "ate": null,
+    "incerta": true
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-ato-da-mesa-1-2011",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

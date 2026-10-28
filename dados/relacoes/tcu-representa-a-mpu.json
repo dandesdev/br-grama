@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-representa-a-mpu",
+  "tipo": "relacao",
+  "nome": "TCU envia ao MPU as provas de dano ao Erário",
+  "relacao": "representa-a",
+  "de": "org:tcu",
+  "para": "org:ministerio-publico-da-uniao",
+  "condicao": "Quando julga irregulares as contas por dano decorrente de ato ilegítimo ou antieconômico ou por desfalque ou desvio, remete cópia da documentação para as ações civis e penais.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 16, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "org:gabinete-pessoal-do-presidente",
+  "tipo": "orgao",
+  "nome": "Gabinete Pessoal do Presidente da República",
+  "resumo": "Órgão da Presidência que assiste direta e imediatamente o Presidente: agenda, secretariado particular, cerimonial, ajudância de ordens e assuntos pessoais.",
+  "detalhes": "Também prepara subsídios para os pronunciamentos do Presidente, coordena a correspondência pessoal e social e a formação do acervo privado presidencial e planeja assuntos específicos que o Presidente indicar (Lei 14.600/2023, art. 7º). Seu titular integra o Conselho de Governo (art. 9º, I).",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, V"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, V; art. 7º, I a X; art. 9º, I"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

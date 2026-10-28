@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-aprova-indicacao-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Aprovação dos dirigentes das agências reguladoras pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Por voto secreto, como nas demais escolhas do art. 52, III. Depois o Presidente nomeia.",
+  "depende_de": [
+    "rel:presidente-indica-dirigente-de-agencia-reguladora"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 5º, caput e § 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação atual dada pela Lei 13.848/2019 (vigência contada por nós). A aprovação pelo Senado já constava da redação original da Lei 9.986/2000."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

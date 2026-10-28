@@ -1,0 +1,27 @@
+{
+  "id": "rel:presidente-designa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "O Presidente designa os substitutos dos dirigentes das agências",
+  "relacao": "designa",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Na vacância, escolhe três servidores da agência (superintendentes ou equivalentes) entre nomes indicados pela diretoria, que formam a lista de substituição; cada substituto exerce o cargo vago por até 180 dias seguidos. Sem designação até 31 de janeiro do ano seguinte à indicação, assume o superintendente com mais tempo na função.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 10, §§ 1º a 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação atual dada pela Lei 13.848/2019 (vigência contada por nós). A aprovação pelo Senado já constava da redação original da Lei 9.986/2000."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

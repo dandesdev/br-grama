@@ -1,0 +1,29 @@
+{
+  "id": "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-procurador-geral-de-justica-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Lista tríplice para Procurador-Geral de Justiça do MPDFT",
+  "relacao": "indica",
+  "de": "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
+  "para": "cargo:procurador-geral-de-justica-do-mpdft",
+  "condicao": "Forma lista tríplice por voto plurinominal, facultativo e secreto, sem reunião, exigida a maioria absoluta dos eleitores; o PGR a encaminha ao Presidente da República.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 3º"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 156; art. 162, I e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

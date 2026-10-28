@@ -1,0 +1,47 @@
+{
+  "id": "org:primeira-camara-do-tcu",
+  "tipo": "orgao",
+  "nome": "Primeira Câmara do Tribunal de Contas da União",
+  "resumo": "Colegiado de quatro ministros do TCU que julga, entre outras matérias, contas e atos de pessoal que não são da competência privativa do Plenário.",
+  "detalhes": "O Presidente do TCU indica os quatro ministros e designa quem preside cada Câmara na primeira sessão do ano: uma é presidida pelo Vice-Presidente do Tribunal e a outra pelo ministro mais antigo. Atuam junto a ela um ministro-substituto e um representante do Ministério Público.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tcu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 67"
+        },
+        {
+          "ref": "norma:ritcu",
+          "dispositivo": "art. 7º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 67"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "arts. 7º, 11, 12 e 17"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "A Lei 8.443/1992 permite a divisão em Câmaras (art. 67); a data de criação da Primeira Câmara não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

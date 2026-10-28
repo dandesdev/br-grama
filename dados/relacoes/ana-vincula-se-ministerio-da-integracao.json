@@ -1,0 +1,45 @@
+{
+  "id": "rel:ana-vincula-se-ministerio-da-integracao",
+  "tipo": "relacao",
+  "nome": "A ANA é vinculada ao Ministério da Integração e do Desenvolvimento Regional",
+  "relacao": "vincula-se",
+  "de": "org:ana",
+  "para": "org:ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9984-2000",
+      "dispositivo": "art. 3º",
+      "nota": "redação da Lei 14.600/2023, art. 60"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 60"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, parágrafo único; arts. 19 e 26"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação do art. 3º da Lei 9.984/2000 dada pela Lei 14.600/2023 (art. 60), publicada em 20/6/2023. Antes a ANA esteve vinculada a outras pastas (Meio Ambiente, Desenvolvimento Regional), conforme as redações anteriores do mesmo artigo."
+  },
+  "confianca": "oficial",
+  "notas": "O Decreto 12.504/2025 (estrutura regimental do MIDR, Anexo I, art. 2º, IV) não lista a ANA entre as entidades vinculadas, embora a lei a vincule ao ministério; o SIORG (estrutura resumida baixada em 2026-10-24) põe a ANA sob o MIDR. Seguimos a lei.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

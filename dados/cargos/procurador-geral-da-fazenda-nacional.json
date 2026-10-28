@@ -1,0 +1,61 @@
+{
+  "id": "cargo:procurador-geral-da-fazenda-nacional",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral da Fazenda Nacional",
+  "resumo": "Dirige a PGFN. É nomeado pelo Presidente da República por indicação do Ministro da Fazenda.",
+  "detalhes": "Integra o Conselho Superior da AGU (LC 73/1993, art. 8º, II). A PGFN responde técnica e juridicamente ao Advogado-Geral e administrativamente ao Ministro da Fazenda (art. 2º, § 1º, e art. 12).",
+  "orgao": "org:pgfn",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "Nomeado pelo Presidente da República mediante indicação do Ministro de Estado da Fazenda (LC 73/1993, art. 49, III).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo de natureza especial, sem mandato fixo na lei."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito de elevado saber jurídico e reconhecida idoneidade",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "dez anos de prática forense",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 2º, § 1º, 8º, II, 12, 49, III, e 55"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

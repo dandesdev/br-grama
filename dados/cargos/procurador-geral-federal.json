@@ -1,0 +1,43 @@
+{
+  "id": "cargo:procurador-geral-federal",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral Federal",
+  "resumo": "Dirige a Procuradoria-Geral Federal e representa as autarquias e fundações federais no STF e nos tribunais superiores. É nomeado pelo Presidente por indicação do Advogado-Geral.",
+  "detalhes": "Coordena a PGF, sugere ao Advogado-Geral medidas de interesse das autarquias e fundações e pode atuar em qualquer juízo ou tribunal; pode delegar a representação nos tribunais superiores a chefes de órgãos jurídicos e outras atribuições ao Subprocurador-Geral Federal (Lei 10.480/2002, art. 11, §§ 2º a 4º).",
+  "orgao": "org:procuradoria-geral-federal",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "Nomeado pelo Presidente da República mediante indicação do Advogado-Geral da União (Lei 10.480/2002, art. 11, § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo de natureza especial, sem mandato fixo na lei."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito de elevado saber jurídico e reconhecida idoneidade",
+      "fontes": [
+        {
+          "ref": "norma:lei-10480-2002",
+          "dispositivo": "art. 11"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2002-07-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10480-2002",
+      "dispositivo": "art. 11; art. 12, § 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:antaq-integra-agencias-reguladoras-federais",
+  "tipo": "relacao",
+  "nome": "A Antaq é uma das agências reguladoras federais",
+  "relacao": "integra",
+  "de": "org:antaq",
+  "para": "org:agencias-reguladoras-federais",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, VII"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

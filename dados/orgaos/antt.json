@@ -1,0 +1,75 @@
+{
+  "id": "org:antt",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Transportes Terrestres",
+  "sigla": "ANTT",
+  "resumo": "Agência reguladora federal do transporte ferroviário, do transporte rodoviário interestadual e internacional de passageiros, do transporte de cargas e das rodovias federais concedidas.",
+  "detalhes": "Atua sobre o transporte ferroviário e a infraestrutura ferroviária, o transporte rodoviário interestadual e internacional de passageiros, o transporte rodoviário de cargas, a exploração da infraestrutura rodoviária federal e o transporte multimodal; propõe ao Ministério dos Transportes os planos de outorga e regula e fiscaliza concessões e permissões (Lei 10.233/2001, arts. 22 e 24). É dirigida por uma Diretoria Colegiada de um Diretor-Geral e quatro Diretores, nomeados pelo Presidente da República após aprovação do Senado, com mandatos de cinco anos sem recondução (arts. 52 a 54).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-10233-2001",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:antt-vincula-se-ministerio-dos-transportes."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 54793"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10233-2001",
+      "dispositivo": "art. 21; art. 22; art. 24; arts. 52 a 54"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, VIII; art. 3º, caput; art. 43; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-06-06",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituída pela Lei 10.233/2001 (art. 21), em vigor na publicação (6/6/2001). A instalação efetiva veio depois, por decreto não conferido aqui."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "ANTT (gov.br)",
+      "url": "https://www.gov.br/antt/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

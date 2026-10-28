@@ -1,0 +1,54 @@
+{
+  "id": "cargo:subdefensor-publico-geral-federal",
+  "tipo": "cargo",
+  "nome": "Subdefensor Público-Geral Federal",
+  "resumo": "Substituto do Defensor Público-Geral Federal. É nomeado pelo Presidente da República entre defensores da categoria especial escolhidos pelo Conselho Superior.",
+  "detalhes": "Substitui o Defensor Público-Geral Federal em faltas, impedimentos, licenças e férias, auxilia-o nos assuntos da instituição e cumpre as tarefas que ele delegar; é membro nato do Conselho Superior (LC 80/1994, arts. 7º, 8º, parágrafo único, e 9º). A Subdefensoria Pública-Geral é órgão de administração superior da DPU (art. 5º, I, b).",
+  "orgao": "org:dpu",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": null,
+  "vagas_nota": "A União pode ter mais de um Subdefensor, segundo suas necessidades (LC 80/1994, art. 7º, parágrafo único); número atual não pesquisado.",
+  "provimento_nota": "O Conselho Superior indica seis nomes da categoria mais elevada da carreira, entre os quais o Presidente da República nomeia o Subdefensor e o Corregedor-Geral (LC 80/1994, arts. 7º e 10, XIV).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "LC 80/1994, art. 7º; a lei não trata de recondução."
+  },
+  "requisitos": [
+    {
+      "texto": "defensor público federal de categoria especial",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 7º"
+        }
+      ]
+    },
+    {
+      "texto": "escolhido pelo Conselho Superior entre os seis nomes que ele indica",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "arts. 7º e 10, XIV"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 5º, I, b, 7º a 10, XIV, e 147"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

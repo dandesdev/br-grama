@@ -1,0 +1,25 @@
+{
+  "id": "rel:advogado-geral-da-uniao-indica-corregedor-geral-da-agu",
+  "tipo": "relacao",
+  "nome": "Indicação do Corregedor-Geral da Advocacia da União",
+  "relacao": "indica",
+  "de": "cargo:advogado-geral-da-uniao",
+  "para": "cargo:corregedor-geral-da-agu",
+  "condicao": "Entre os membros efetivos da AGU.",
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 49, I e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

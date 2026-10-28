@@ -1,0 +1,38 @@
+{
+  "id": "org:arquetipo-estadual-colegio-de-procuradores-de-justica",
+  "tipo": "orgao",
+  "nome": "Colégio de Procuradores de Justiça",
+  "resumo": "Reúne todos os procuradores de justiça do estado. Elege o Corregedor-Geral, aprova o orçamento do MP e pode propor ao Legislativo a destituição do procurador-geral.",
+  "detalhes": "Opina sobre a autonomia do MP, propõe criação de cargos e mudanças na lei orgânica, aprova a proposta orçamentária, elege e pode destituir o Corregedor-Geral por dois terços e julga recursos contra decisões de vitaliciamento, disciplinares e de remoção por interesse público (Lei 8.625/1993, art. 12). Pode propor ao Legislativo, por dois terços, a destituição do procurador-geral de justiça por abuso de poder, conduta incompatível ou grave omissão (art. 12, IV). Onde houver mais de 40 procuradores de justiça, a lei orgânica pode criar um Órgão Especial para exercer parte das atribuições (art. 13).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 5º, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 5º, II, 12 e 13"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

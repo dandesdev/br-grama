@@ -1,0 +1,24 @@
+{
+  "id": "rel:advogado-geral-da-uniao-indica-procurador-geral-federal",
+  "tipo": "relacao",
+  "nome": "Indicação do Procurador-Geral Federal",
+  "relacao": "indica",
+  "de": "cargo:advogado-geral-da-uniao",
+  "para": "cargo:procurador-geral-federal",
+  "vigencia": {
+    "de": "2002-07-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10480-2002",
+      "dispositivo": "art. 11, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

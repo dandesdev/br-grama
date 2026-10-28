@@ -1,0 +1,43 @@
+{
+  "id": "rel:anac-vincula-se-ministerio-de-portos-e-aeroportos",
+  "tipo": "relacao",
+  "nome": "A Anac é vinculada ao Ministério de Portos e Aeroportos",
+  "relacao": "vincula-se",
+  "de": "org:anac",
+  "para": "org:ministerio-de-portos-e-aeroportos",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:lei-11182-2005",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-11354-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 2"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, parágrafo único; arts. 19 e 26"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.354/2023, estrutura vigente do Ministério de Portos e Aeroportos. A Lei 11.182/2005 (art. 1º) ainda fala em vinculação ao Ministério da Defesa; a vinculação atual vem do decreto (Lei 14.600/2023, art. 1º, § 3º). Períodos anteriores não levantados."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

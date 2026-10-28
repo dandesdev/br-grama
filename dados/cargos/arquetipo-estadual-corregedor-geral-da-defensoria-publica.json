@@ -1,0 +1,46 @@
+{
+  "id": "cargo:arquetipo-estadual-corregedor-geral-da-defensoria-publica",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral da Defensoria Pública do Estado",
+  "resumo": "Exerce a Corregedoria-Geral da Defensoria do estado. É nomeado pelo defensor público-geral a partir de lista tríplice do Conselho Superior, para mandato de dois anos.",
+  "detalhes": "É membro nato do Conselho Superior (LC 80/1994, art. 101).",
+  "orgao": "org:arquetipo-estadual-corregedoria-geral-da-defensoria-publica",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Conselho Superior forma lista tríplice entre integrantes da classe mais elevada da carreira, e o defensor público-geral nomeia um deles (LC 80/1994, art. 104). Pode ser destituído antes do fim do mandato, por proposta do defensor público-geral, pelo voto de dois terços do Conselho Superior (art. 104, § 1º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "LC 80/1994, art. 104."
+  },
+  "requisitos": [
+    {
+      "texto": "integrante da classe mais elevada da carreira, incluído em lista tríplice do Conselho Superior",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 104"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 101 e 104"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

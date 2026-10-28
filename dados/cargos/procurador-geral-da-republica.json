@@ -4,7 +4,7 @@
   "nome": "Procurador-Geral da República",
   "sigla": "PGR",
   "resumo": "Chefe do Ministério Público da União e do MPF. Atua perante o STF, preside o CNMP e pode propor ação direta de inconstitucionalidade.",
-  "detalhes": "Nomeado pelo Presidente da República entre integrantes da carreira com mais de 35 anos, depois de aprovado pela maioria absoluta do Senado, para mandato de dois anos; cada recondução passa por nova aprovação do Senado. Deve ser ouvido nas ações de inconstitucionalidade e em todos os processos do STF, preside o Conselho Nacional do Ministério Público e tem iniciativa de leis, em especial a lei complementar do MPU (CF, arts. 61, 103, 128 e 130-A). É julgado pelo STF nas infrações penais comuns e pelo Senado nos crimes de responsabilidade (arts. 102, I, b, e 52, II).",
+  "detalhes": "Nomeado pelo Presidente da República entre integrantes da carreira com mais de 35 anos, depois de aprovado pela maioria absoluta do Senado, para mandato de dois anos; cada recondução passa por nova aprovação do Senado. Deve ser ouvido nas ações de inconstitucionalidade e em todos os processos do STF, preside o Conselho Nacional do Ministério Público e tem iniciativa de leis, em especial a lei complementar do MPU (CF, arts. 61, 103, 128 e 130-A). É julgado pelo STF nas infrações penais comuns e pelo Senado nos crimes de responsabilidade (arts. 102, I, b, e 52, II). Como chefe do MPU, propõe a proposta orçamentária consolidada dos ramos, nomeia e dá posse aos procuradores-gerais do Trabalho e da Justiça Militar, dá posse ao procurador-geral de justiça do DF e encaminha ao Presidente a lista tríplice para esse cargo (LC 75/1993, art. 26). Perante o STJ, propõe a representação para intervenção federal por recusa à execução de lei federal e a ação penal contra governadores e outras autoridades com foro ali (art. 48).",
   "orgao": "org:ministerio-publico-da-uniao",
   "provimento": "nomeacao-com-aprovacao-do-senado",
   "provimento_nota": "Escolha do Presidente da República entre integrantes da carreira; aprovação do nome pela maioria absoluta do Senado (CF, art. 128, § 1º). A recondução é precedida de nova decisão do Senado (LC 75/1993, art. 25). A destituição por iniciativa do Presidente exige autorização da maioria absoluta do Senado (CF, art. 128, § 2º), em votação secreta (LC 75/1993, art. 25, parágrafo único).",
@@ -50,15 +50,15 @@
     },
     {
       "ref": "norma:lc-75-1993",
-      "dispositivo": "arts. 25, 26, 45 e 46"
+      "dispositivo": "arts. 25 a 27, 45 a 51"
     }
   ],
   "confianca": "oficial",
   "notas": "O requisito \"integrante da carreira\" é lido como carreira do MPU, de que o PGR é chefe; a LC 75/1993, art. 25, repete a CF. A CF diz apenas \"dentre integrantes da carreira\". O PGR é também chefe do MPF (LC 75/1993, art. 45) e nomeia os chefes do MPT e do MPM (art. 26, IV).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; antes verificado em verificacao-piloto-processo-lei (2026-10-17); corrigido: faltava o art. 52, II, nas fontes (julgamento pelo Senado); CF e LC 75/1993, arts. 25, 26, 45 e 46, conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais",
+    "notas": "f2-funcoes-essenciais: detalhes com as atribuições de chefe do MPU (LC 75/1993, art. 26) e perante o STJ (art. 48); fontes da LC 75 ampliadas (arts. 25 a 27 e 45 a 51)"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "org:corregedoria-do-mpdft",
+  "tipo": "orgao",
+  "nome": "Corregedoria do Ministério Público do Distrito Federal e Territórios",
+  "resumo": "Fiscaliza a atividade funcional e a conduta dos membros do MPDFT. É dirigida pelo Corregedor-Geral.",
+  "detalhes": "Faz correições e sindicâncias, instaura inquérito contra integrante da carreira e propõe ao Conselho Superior o processo administrativo; acompanha o estágio probatório e pode propor a exoneração de quem não cumprir suas condições (LC 75/1993, arts. 172 e 174).",
+  "tipo_orgao": "outro",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpdft",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 153, IV"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 172 e 174"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário não tem termo para órgão interno do Ministério Público.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

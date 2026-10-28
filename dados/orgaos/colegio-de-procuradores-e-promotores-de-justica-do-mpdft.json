@@ -1,0 +1,38 @@
+{
+  "id": "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
+  "tipo": "orgao",
+  "nome": "Colégio de Procuradores e Promotores de Justiça do MPDFT",
+  "resumo": "Reúne todos os membros em atividade do MPDFT. Forma a lista tríplice para Procurador-Geral de Justiça e as listas sêxtuplas para o TJDFT e o STJ.",
+  "detalhes": "É presidido pelo Procurador-Geral de Justiça (LC 75/1993, art. 161). Por voto plurinominal, facultativo e secreto, forma a lista tríplice para Procurador-Geral, as listas sêxtuplas para as vagas do MPDFT no TJDFT e no STJ e elege quatro membros do Conselho Superior entre os procuradores de justiça; também opina sobre assuntos gerais da instituição (art. 162). Vota sem se reunir, na forma do regimento interno, exigida a maioria absoluta dos eleitores (art. 162, § 1º).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpdft",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 153, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 161 e 162"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

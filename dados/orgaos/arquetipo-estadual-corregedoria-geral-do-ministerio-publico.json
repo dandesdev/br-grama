@@ -1,0 +1,39 @@
+{
+  "id": "org:arquetipo-estadual-corregedoria-geral-do-ministerio-publico",
+  "tipo": "orgao",
+  "nome": "Corregedoria-Geral do Ministério Público do Estado",
+  "resumo": "Orienta e fiscaliza a atividade funcional e a conduta dos membros do MP estadual. É dirigida pelo Corregedor-Geral, eleito pelo Colégio de Procuradores.",
+  "detalhes": "Faz correições e inspeções, inclusive nas procuradorias de justiça, propõe ao Conselho Superior o não vitaliciamento, instaura e preside processo disciplinar contra membros, aplicando as sanções previstas na lei orgânica, e envia ao procurador-geral os processos que lhe cabe decidir (Lei 8.625/1993, art. 17). O Corregedor-Geral é assessorado por promotores de justiça da mais elevada entrância, por ele indicados e designados pelo procurador-geral (art. 18).",
+  "tipo_orgao": "outro",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 5º, IV"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 5º, IV, 17 e 18"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário não tem termo para órgão interno do Ministério Público.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

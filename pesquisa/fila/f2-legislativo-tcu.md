@@ -132,3 +132,143 @@ Os regimentos são longos e cheios de regras de tramitação. Classifique como `
 - 2026-10-28 08:48 — gravado org:comissoes-especiais-da-camara
 - 2026-10-28 08:48 — gravado org:comissoes-externas-da-camara
 - 2026-10-28 08:48 — editado org:comissoes-da-camara-dos-deputados (estrutura_continua removida)
+- 2026-10-28 08:54 — RISF e RCCN: API de legislação do Senado consultada de novo hoje (RSF e RCN de 2026; cópias senado-legislacao-lista-*.json): a última RSF de 2026 é a nº 47, de 4/9/2026, e não há RCN de 2026; nenhuma altera os regimentos; logo nada mudou entre 2026-10-01 e hoje. Baixados também o volume II do RISF (normas conexas, ago/2025), as Resoluções do Senado nº 17/1993, 40/1995, 9/2013 e 42/2016 (Legis Senado) e o Ato da Mesa do Senado nº 1/2011 (Ouvidoria), mais a composição da Mesa do Senado (dados abertos, versão 27/10/2026) e os cargos de cada titular (serviço /senador/{código}/cargos)
+- 2026-10-28 08:55 — Ana Paula Lobato aparece como 3ª Secretária do Senado desde 2025-02-01 (dados abertos), mas não há pessoa: para ela no mapa (não estava entre os 81 senadores em exercício importados para 2026-10-01); não criei a relação ocupa; ver relatório
+- 2026-10-28 08:54 — gravado norma:senado-resolucao-17-1993
+- 2026-10-28 08:54 — gravado norma:senado-resolucao-40-1995
+- 2026-10-28 08:54 — gravado norma:senado-resolucao-9-2013
+- 2026-10-28 08:54 — gravado norma:senado-resolucao-42-2016
+- 2026-10-28 08:54 — gravado norma:senado-ato-da-mesa-1-2011
+- 2026-10-28 08:54 — gravado cargo:segundo-vice-presidente-do-senado-federal
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-segundo-vice-presidente-do-senado
+- 2026-10-28 08:54 — gravado cargo:primeiro-secretario-do-senado-federal
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-primeiro-secretario-do-senado
+- 2026-10-28 08:54 — gravado cargo:segundo-secretario-do-senado-federal
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-segundo-secretario-do-senado
+- 2026-10-28 08:54 — gravado cargo:terceiro-secretario-do-senado-federal
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-terceiro-secretario-do-senado
+- 2026-10-28 08:54 — gravado cargo:quarto-secretario-do-senado-federal
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-quarto-secretario-do-senado
+- 2026-10-28 08:54 — gravado cargo:suplente-de-secretario-do-senado-federal
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-suplente-de-secretario-do-senado
+- 2026-10-28 08:54 — gravado rel:segundo-vice-presidente-do-senado-substitui-primeiro-vice-presidente
+- 2026-10-28 08:54 — gravado fonte:senado-api-cargos-de-senadores
+- 2026-10-28 08:54 — gravado rel:eduardo-gomes-ocupa-primeiro-vice-presidente-do-senado
+- 2026-10-28 08:54 — gravado rel:humberto-costa-ocupa-segundo-vice-presidente-do-senado
+- 2026-10-28 08:54 — gravado rel:daniella-ribeiro-ocupa-primeiro-secretario-do-senado
+- 2026-10-28 08:54 — gravado rel:confucio-moura-ocupa-segundo-secretario-do-senado
+- 2026-10-28 08:54 — gravado rel:laercio-oliveira-ocupa-quarto-secretario-do-senado
+- 2026-10-28 08:54 — corrigido fonte:senado-api-cargos-de-senadores (URL)
+- 2026-10-28 08:54 — gravado rel:senadores-elegem-primeiro-vice-presidente-do-senado
+- 2026-10-28 08:54 — gravado rel:primeiro-vice-presidente-do-senado-substitui-presidente-do-senado
+- 2026-10-28 08:55 — gravado org:liderancas-do-senado-federal
+- 2026-10-28 08:55 — gravado org:corregedoria-parlamentar-do-senado
+- 2026-10-28 08:55 — gravado org:procuradoria-parlamentar-do-senado
+- 2026-10-28 08:55 — gravado org:procuradoria-especial-da-mulher-do-senado
+- 2026-10-28 08:55 — gravado org:ouvidoria-do-senado-federal
+- 2026-10-28 08:55 — gravado org:instituicao-fiscal-independente
+- 2026-10-28 08:55 — editado org:mesa-do-senado-federal
+- 2026-10-28 08:55 — gravado cargo:lider-de-partido-ou-bloco-no-senado-federal
+- 2026-10-28 08:55 — gravado cargo:lider-do-governo-no-senado-federal
+- 2026-10-28 08:55 — gravado cargo:lider-da-oposicao-no-senado-federal
+- 2026-10-28 08:55 — gravado cargo:lider-da-bancada-feminina-no-senado-federal
+- 2026-10-28 08:55 — gravado cargo:corregedor-parlamentar-do-senado-federal
+- 2026-10-28 08:55 — gravado cargo:ouvidor-geral-do-senado-federal
+- 2026-10-28 08:55 — gravado cargo:diretor-da-instituicao-fiscal-independente
+- 2026-10-28 08:55 — gravado rel:presidente-da-republica-indica-lider-do-governo-no-senado
+- 2026-10-28 08:55 — gravado rel:senadores-elegem-corregedor-parlamentar-do-senado
+- 2026-10-28 08:55 — gravado rel:corregedoria-parlamentar-do-senado-corrige-senador
+- 2026-10-28 08:55 — gravado rel:presidente-do-senado-designa-ouvidor-geral-do-senado
+- 2026-10-28 08:55 — gravado rel:presidente-do-senado-indica-diretor-da-ifi
+- 2026-10-28 08:55 — gravado rel:senado-aprova-indicacao-diretor-da-ifi
+- 2026-10-28 08:56 — gravado org:cae-senado
+- 2026-10-28 08:56 — gravado org:cas-senado
+- 2026-10-28 08:56 — gravado org:ce-senado
+- 2026-10-28 08:56 — gravado org:ctfc-senado
+- 2026-10-28 08:56 — gravado org:cdh-senado
+- 2026-10-28 08:56 — gravado org:cre-senado
+- 2026-10-28 08:56 — gravado org:ci-senado
+- 2026-10-28 08:56 — gravado org:cdr-senado
+- 2026-10-28 08:56 — gravado org:cra-senado
+- 2026-10-28 08:56 — gravado org:cct-senado
+- 2026-10-28 08:56 — gravado org:cdd-senado
+- 2026-10-28 08:56 — gravado org:cma-senado
+- 2026-10-28 08:56 — gravado org:csp-senado
+- 2026-10-28 08:56 — gravado org:ccdd-senado
+- 2026-10-28 08:56 — gravado org:cesp-senado
+- 2026-10-28 08:56 — editado org:ccj-senado
+- 2026-10-28 08:56 — editado org:comissoes-do-senado-federal
+- 2026-10-28 08:56 — corrigido org:ctfc-senado (destinatários do relatório, art. 102-C)
+- 2026-10-28 08:59 — gravado norma:resolucao-cn-4-2008
+- 2026-10-28 08:59 — gravado norma:resolucao-cn-1-2011
+- 2026-10-28 08:59 — gravado norma:resolucao-cn-1-2014
+- 2026-10-28 08:59 — gravado norma:ato-conjunto-cn-1-2019
+- 2026-10-28 08:59 — gravado fonte:senado-api-comissoes-mistas
+- 2026-10-28 08:59 — gravado org:cmmc
+- 2026-10-28 08:59 — gravado org:cmcvm
+- 2026-10-28 08:59 — gravado org:cmmir
+- 2026-10-28 08:59 — gravado org:representacao-brasileira-no-parlamento-do-mercosul
+- 2026-10-28 08:59 — editado org:mesa-do-congresso-nacional
+- 2026-10-28 09:02 — gravado norma:ritcu
+- 2026-10-28 09:02 — gravado org:plenario-do-tcu
+- 2026-10-28 09:02 — gravado org:primeira-camara-do-tcu
+- 2026-10-28 09:02 — gravado org:segunda-camara-do-tcu
+- 2026-10-28 09:02 — gravado org:corregedoria-do-tcu
+- 2026-10-28 09:02 — gravado org:secretaria-do-tcu
+- 2026-10-28 09:02 — gravado org:instituto-serzedello-correa
+- 2026-10-28 09:02 — gravado cargo:vice-presidente-do-tcu
+- 2026-10-28 09:02 — gravado cargo:procurador-geral-do-mp-junto-ao-tcu
+- 2026-10-28 09:02 — gravado cargo:membro-do-mp-junto-ao-tcu
+- 2026-10-28 09:02 — gravado rel:ministros-do-tcu-elegem-presidente-do-tcu
+- 2026-10-28 09:02 — gravado rel:ministros-do-tcu-elegem-vice-presidente-do-tcu
+- 2026-10-28 09:02 — gravado rel:vice-presidente-do-tcu-substitui-presidente-do-tcu
+- 2026-10-28 09:02 — gravado rel:vice-presidente-do-tcu-exerce-corregedoria
+- 2026-10-28 09:02 — gravado rel:presidente-do-tcu-preside-plenario-do-tcu
+- 2026-10-28 09:02 — gravado rel:presidente-da-republica-nomeia-procurador-geral-do-mp-junto-ao-tcu
+- 2026-10-28 09:02 — gravado rel:presidente-da-republica-nomeia-membro-do-mp-junto-ao-tcu
+- 2026-10-28 09:02 — gravado rel:congresso-fiscaliza-tcu
+- 2026-10-28 09:02 — gravado rel:tcu-auxilia-cmo
+- 2026-10-28 09:02 — gravado rel:tcu-representa-a-mpu
+- 2026-10-28 09:02 — gravado rel:tcu-representa-a-ministerio-publico-eleitoral
+- 2026-10-28 09:02 — gravado rel:jorge-oliveira-ocupa-vice-presidente-do-tcu
+- 2026-10-28 09:02 — editado org:tcu (fonte Lei 8.443/1992, arts. 1º, 3º, 4º, 5º e 62)
+- 2026-10-28 09:02 — editado cargo:ministro-do-tcu (fonte Lei 8.443/1992, arts. 62, 63, 71, 73, 74, 76, 94, 95 e 105)
+- 2026-10-28 09:02 — editado rel:tcu-julga-contas-de-gestao (fonte Lei 8.443/1992, art. 1º, I; arts. 6º, 7º, 15 e 16)
+- 2026-10-28 09:02 — editado rel:tcu-emite-parecer-contas-presidente (fonte Lei 8.443/1992, art. 1º, III; art. 36)
+- 2026-10-28 09:02 — editado rel:tcu-aprecia-admissao-de-pessoal (fonte Lei 8.443/1992, art. 1º, V; art. 39, I)
+- 2026-10-28 09:02 — editado rel:tcu-aprecia-aposentadorias-e-pensoes (fonte Lei 8.443/1992, art. 1º, V; art. 39, II)
+- 2026-10-28 09:02 — editado rel:tcu-aplica-sancoes (fonte Lei 8.443/1992, art. 1º, IX; arts. 56 a 61)
+- 2026-10-28 09:02 — editado rel:tcu-susta-ato-administrativo (fonte Lei 8.443/1992, art. 45, caput e § 1º)
+- 2026-10-28 09:02 — editado rel:tcu-decide-sobre-contrato (fonte Lei 8.443/1992, art. 45, §§ 2º e 3º)
+- 2026-10-28 09:02 — editado rel:tcu-fiscaliza-empresas-supranacionais (fonte Lei 8.443/1992, art. 5º, IV; art. 41, III)
+- 2026-10-28 09:02 — editado rel:tcu-fiscaliza-recursos-repassados (fonte Lei 8.443/1992, art. 5º, VII; art. 41, IV)
+- 2026-10-28 09:02 — editado rel:tcu-calcula-cotas-fpe (fonte Lei 8.443/1992, art. 1º, VI; art. 102)
+- 2026-10-28 09:02 — editado rel:tcu-calcula-cotas-fpm (fonte Lei 8.443/1992, art. 1º, VI; art. 102)
+- 2026-10-28 09:02 — editado rel:tcu-fiscaliza-uniao (fonte Lei 8.443/1992, art. 1º, II e IV; arts. 38 e 41)
+- 2026-10-28 09:02 — editado rel:tcu-indica-ministro-do-tcu (fonte Lei 8.443/1992, art. 72, I; art. 105, I)
+- 2026-10-28 09:02 — editado rel:congresso-elege-ministro-do-tcu (fonte Lei 8.443/1992, art. 72, II; art. 105, II)
+- 2026-10-28 09:02 — editado rel:presidente-indica-ministro-do-tcu (fonte Lei 8.443/1992, art. 72, I; art. 105, I)
+- 2026-10-28 09:02 — editado rel:senado-aprova-indicacao-ministro-do-tcu (fonte Lei 8.443/1992, art. 72, I)
+- 2026-10-28 09:02 — editado rel:tcu-auxilia-congresso (fonte Lei 8.443/1992, art. 38)
+- 2026-10-28 09:03 — editado org:tcu (detalhes com competências da Lei 8.443, D50)
+- 2026-10-28 09:04 — gravado proc:julgamento-de-contas-pelo-tcu
+- 2026-10-28 09:04 — corrigido proc:julgamento-de-contas-pelo-tcu (ator da etapa pronunciamento-do-ministro)
+- 2026-10-28 09:04 — editado proc:lei-ordinaria (regimes de urgência regimental na Câmara e no Senado)
+- 2026-10-28 09:04 — editado norma:risf
+- 2026-10-28 09:04 — editado norma:rccn
+- 2026-10-28 09:04 — editado norma:lei-8443-1992
+- 2026-10-28 09:06 — gravado org:comite-de-fiscalizacao-da-execucao-orcamentaria-da-cmo
+- 2026-10-28 09:06 — gravado org:comite-de-avaliacao-da-receita-da-cmo
+- 2026-10-28 09:06 — gravado org:comite-de-obras-com-indicios-de-irregularidades-da-cmo
+- 2026-10-28 09:06 — gravado org:comite-de-admissibilidade-de-emendas-da-cmo
+- 2026-10-28 09:06 — gravado cargo:relator-geral-do-orcamento
+- 2026-10-28 09:06 — editado org:cmo
+- 2026-10-28 09:06 — editado org:cmo (redação do detalhes)
+- 2026-10-28 09:07 — editado rel:camara-toma-contas-presidente (acrescentada a fonte RICD, art. 32, XI, a, e art. 215 (fase 2))
+- 2026-10-28 09:07 — editado org:comissao-representativa-do-congresso-nacional (acrescentada a fonte RICD, arts. 224 e 225 (participação da Câmara), fase 2)
+- 2026-10-28 09:07 — editado rel:cgu-auxilia-tcu (acrescentada a fonte Lei 8.443/1992, arts. 49 a 51 (controle interno em apoio ao controle externo), fase 2)
+- 2026-10-28 09:07 — editado org:mp-junto-ao-tcu (acrescentada a fonte Lei 8.443/1992, art. 64 (o MP funciona junto ao TCU), fase 2)
+- 2026-10-28 09:08 — gravado aviso:ricd-tomada-de-contas-cft-ou-cffc
+- 2026-10-28 09:09 — editado rel:senado-suspende-execucao-lei-inconstitucional (acrescentada a fonte RISF, arts. 386 a 388 (rito da suspensão), fase 2)
+- 2026-10-28 09:09 — editado rel:senado-elege-conselho-da-republica (acrescentada a fonte RISF, art. 384 (eleição dos membros do Conselho da República), fase 2)
+- 2026-10-28 09:09 — editado rel:senado-aprova-exoneracao-procurador-geral-da-republica (acrescentada a fonte RISF, art. 385, fase 2)

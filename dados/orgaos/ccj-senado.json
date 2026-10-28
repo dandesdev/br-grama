@@ -4,7 +4,7 @@
   "nome": "Comissão de Constituição, Justiça e Cidadania do Senado Federal",
   "sigla": "CCJ",
   "resumo": "Comissão do Senado que opina sobre a constitucionalidade e a juridicidade dos projetos e sobre o mérito de vários temas jurídicos.",
-  "detalhes": "Examina os projetos que lhe são enviados por despacho do Presidente do Senado, por decisão do Plenário ou por consulta de outra comissão. Também opina sobre o mérito de matérias como direito civil, penal e processual.",
+  "detalhes": "Examina os projetos que lhe são enviados por despacho do Presidente do Senado, por decisão do Plenário ou por consulta de outra comissão. Também opina sobre o mérito de matérias como direito civil, penal e processual. Tem 27 membros titulares, número fixado no próprio Regimento.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -18,14 +18,18 @@
     {
       "ref": "norma:risf",
       "dispositivo": "art. 72, III; art. 101"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 77, III"
     }
   ],
   "confianca": "oficial",
   "notas": "No Senado, ao contrário da Câmara, o RISF não torna obrigatória a passagem de todo projeto pela CCJ. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentado o número de membros (27) do RISF, art. 77, III"
   }
 }

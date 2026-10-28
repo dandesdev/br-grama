@@ -1,0 +1,39 @@
+{
+  "id": "org:comite-de-admissibilidade-de-emendas-da-cmo",
+  "tipo": "orgao",
+  "nome": "Comitê de Exame da Admissibilidade de Emendas",
+  "resumo": "Comitê permanente da CMO que propõe a inadmissibilidade das emendas aos projetos do orçamento, da LDO e do plano plurianual, inclusive as de relator.",
+  "detalhes": "O relatório de cada um desses projetos não pode ser votado pela CMO antes do relatório do Comitê, salvo decisão em contrário do Plenário da comissão. Tem de 5 a 10 membros indicados pelos líderes, com um coordenador; seus relatórios são aprovados pela maioria absoluta dos membros e vão à CMO.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:cmo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "art. 18, IV"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-1-2006",
+      "dispositivo": "arts. 18 a 21 e 25"
+    }
+  ],
+  "vigencia": {
+    "de": "2006-12-26",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 1/2006-CN."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

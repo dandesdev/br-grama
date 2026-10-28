@@ -1,0 +1,39 @@
+{
+  "id": "org:arquetipo-estadual-procuradorias-de-justica",
+  "tipo": "orgao",
+  "nome": "Procuradorias de Justiça",
+  "resumo": "Órgãos de administração do MP estadual com cargos de procurador de justiça, que atuam junto aos tribunais.",
+  "detalhes": "Um procurador de justiça deve estar presente nas sessões de julgamento dos processos da procuradoria, e os procuradores inspecionam permanentemente o trabalho dos promotores nos autos em que oficiam (Lei 8.625/1993, art. 19). Cada procuradoria escolhe o procurador responsável pelos seus serviços administrativos, e os procuradores que atuam no mesmo tribunal fixam orientações jurídicas não vinculantes (arts. 20 a 22).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 6º, I"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 6º, I, e 19 a 22"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: número e divisão variam por estado, conforme a lei orgânica.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

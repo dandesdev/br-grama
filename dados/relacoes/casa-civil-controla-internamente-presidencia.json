@@ -1,0 +1,27 @@
+{
+  "id": "rel:casa-civil-controla-internamente-presidencia",
+  "tipo": "relacao",
+  "nome": "A Casa Civil faz o controle interno da Presidência",
+  "relacao": "controla-internamente",
+  "de": "org:casa-civil",
+  "para": "org:presidencia-da-republica",
+  "condicao": "Acompanha a gestão dos órgãos da Presidência por fiscalização contábil, financeira, orçamentária, operacional e patrimonial, e supervisiona suas atividades administrativas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 3º, XIII e XIV"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 14.600/2023, a base citada (antes, MP 1.154/2023). A regra pode ser anterior; não pesquisamos."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

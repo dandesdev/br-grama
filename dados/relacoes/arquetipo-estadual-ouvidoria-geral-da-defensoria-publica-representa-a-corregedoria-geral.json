@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-ouvidoria-geral-da-defensoria-publica-representa-a-corregedoria-geral",
+  "tipo": "relacao",
+  "nome": "Representações da Ouvidoria à Corregedoria da Defensoria do estado",
+  "relacao": "representa-a",
+  "de": "org:arquetipo-estadual-ouvidoria-geral-da-defensoria-publica",
+  "para": "org:arquetipo-estadual-corregedoria-geral-da-defensoria-publica",
+  "condicao": "Recebe representações de qualquer pessoa contra membros e servidores e as encaminha ao Corregedor-Geral, assegurada a defesa preliminar.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Incluído pela LC 132/2009; a data de início não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 105-C, I e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-conselho-superior-da-defensoria-publica-indica-corregedor-geral",
+  "tipo": "relacao",
+  "nome": "Lista tríplice para Corregedor-Geral da Defensoria do estado",
+  "relacao": "indica",
+  "de": "org:arquetipo-estadual-conselho-superior-da-defensoria-publica",
+  "para": "cargo:arquetipo-estadual-corregedor-geral-da-defensoria-publica",
+  "condicao": "Forma lista tríplice entre integrantes da classe mais elevada da carreira.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 104"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

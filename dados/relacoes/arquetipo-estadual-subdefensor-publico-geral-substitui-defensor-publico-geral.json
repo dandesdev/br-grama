@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-subdefensor-publico-geral-substitui-defensor-publico-geral",
+  "tipo": "relacao",
+  "nome": "Substituição do defensor público-geral do estado",
+  "relacao": "substitui",
+  "de": "cargo:arquetipo-estadual-subdefensor-publico-geral",
+  "para": "cargo:arquetipo-estadual-defensor-publico-geral",
+  "condicao": "Em faltas, licenças, férias e impedimentos.",
+  "ordem": 1,
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 99, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -29,7 +29,7 @@
       ]
     }
   ],
-  "detalhes": "Representa o Ministério Público do estado, preside o Colégio de Procuradores e o Conselho Superior e envia ao Legislativo os projetos de lei de iniciativa do MP (Lei 8.625/1993, art. 10). Pode propor a lei complementar que organiza o MP do estado (CF, art. 128, § 5º).",
+  "detalhes": "Representa o Ministério Público do estado, preside o Colégio de Procuradores e o Conselho Superior, envia ao Legislativo os projetos de lei de iniciativa do MP, provê os cargos, decide processos disciplinares e designa membros para funções como a direção dos centros de apoio operacional (Lei 8.625/1993, arts. 10 e 11). Atua nos tribunais: representa por inconstitucionalidade de leis estaduais e municipais perante o Tribunal de Justiça, representa para intervenção do estado em município e propõe a ação penal de competência originária dos tribunais (art. 29). Pode propor a lei complementar que organiza o MP do estado (CF, art. 128, § 5º; Lei 8.625/1993, art. 2º).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -37,7 +37,7 @@
     },
     {
       "ref": "norma:lei-8625-1993",
-      "dispositivo": "arts. 9º e 10"
+      "dispositivo": "arts. 2º, 9º a 11 e 29"
     }
   ],
   "notas": "A Lei 8.625/1993, art. 9º, § 2º, também prevê destituição por iniciativa do Colégio de Procuradores, precedida de autorização de um terço da Assembleia Legislativa; a CF, art. 128, § 4º, fala em deliberação da maioria absoluta do Legislativo. Ver aviso:destituicao-procurador-geral-de-justica-quorum. O PGJ do MPDFT segue regra própria (org:mpdft).",
@@ -47,9 +47,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; CF, art. 128, §§ 3º a 5º, e Lei 8.625/1993, arts. 9º e 10, conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais",
+    "notas": "f2-funcoes-essenciais: detalhes ampliados com as atribuições dos arts. 10, 11 e 29 da Lei 8.625/1993; fontes ampliadas"
   }
 }

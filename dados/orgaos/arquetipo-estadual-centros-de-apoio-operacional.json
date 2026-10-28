@@ -1,0 +1,39 @@
+{
+  "id": "org:arquetipo-estadual-centros-de-apoio-operacional",
+  "tipo": "orgao",
+  "nome": "Centros de Apoio Operacional do Ministério Público",
+  "resumo": "Órgãos auxiliares do MP estadual que integram e informam os membros que atuam na mesma área, sem atuar como órgão de execução.",
+  "detalhes": "Estimulam o intercâmbio entre órgãos de execução da mesma área, remetem informações técnico-jurídicas não vinculantes e relatam anualmente ao procurador-geral; não podem exercer atividade de órgão de execução nem expedir atos normativos a eles dirigidos (Lei 8.625/1993, art. 33). São dirigidos por membros designados pelo procurador-geral (art. 10, IX, a).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 8º, I"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 8º, I, 10, IX, a, e 33"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: as áreas dos centros variam por estado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

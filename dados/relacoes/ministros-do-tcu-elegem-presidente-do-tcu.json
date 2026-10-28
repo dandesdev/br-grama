@@ -1,0 +1,31 @@
+{
+  "id": "rel:ministros-do-tcu-elegem-presidente-do-tcu",
+  "tipo": "relacao",
+  "nome": "Ministros do TCU elegem o Presidente do Tribunal",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-tcu",
+  "para": "cargo:presidente-do-tcu",
+  "condicao": "Escrutínio secreto na última sessão ordinária de dezembro, com ao menos cinco ministros titulares; maioria dos votos, ou segundo escrutínio entre os dois mais votados.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 1º, XI; art. 69, caput e §§ 1º, 6º a 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "quorum": {
+    "regra": "maioria-simples",
+    "votacao": "secreta",
+    "nota": "Maioria dos votos; não alcançada, novo escrutínio entre os dois mais votados e, persistindo, vence o mais antigo no cargo (art. 69, § 7º)."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

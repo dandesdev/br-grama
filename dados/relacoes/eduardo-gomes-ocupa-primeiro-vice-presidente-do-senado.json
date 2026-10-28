@@ -1,0 +1,29 @@
+{
+  "id": "rel:eduardo-gomes-ocupa-primeiro-vice-presidente-do-senado",
+  "tipo": "relacao",
+  "nome": "Eduardo Gomes ocupa o cargo de Primeiro Vice-Presidente do Senado Federal",
+  "relacao": "ocupa",
+  "de": "pessoa:eduardo-gomes",
+  "para": "cargo:primeiro-vice-presidente-do-senado-federal",
+  "vigencia": {
+    "de": "2025-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-cargos-de-senadores",
+      "dispositivo": "senador 3777, Comissão Diretora (CDIR), 1º VICE-PRESIDENTE, DataInicio 2025-02-01, sem DataFim"
+    },
+    {
+      "ref": "fonte:senado-api-mesa-senado",
+      "dispositivo": "Comissão Diretora, cargo 1º VICE-PRESIDENTE (versão de 27/10/2026)"
+    }
+  ],
+  "confianca": "oficial",
+  "detalhes": "Eleito para a Mesa do biênio 2025–2026.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

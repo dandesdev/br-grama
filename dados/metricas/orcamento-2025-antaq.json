@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2025-antaq",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Nacional de Transportes Aquaviários",
+  "resumo": "Pagou R$ 199,0 milhões em 2025; dotação atualizada de R$ 210,9 milhões.",
+  "de": "org:antaq",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 199013570.55,
+    "despesas_pagas": 178178357.77,
+    "restos_a_pagar_pagos": 20835212.78,
+    "pagamentos_primarios": 185278250.29,
+    "pagamentos_financeiros": 13735320.26,
+    "dotacao_inicial": 190602723,
+    "dotacao_atualizada": 210853983,
+    "despesas_empenhadas": 209391749.64,
+    "despesas_liquidadas": 197217983.13
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "68201"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-28",
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes conferidos no resumo, contas refeitas por outro script sem divergência; Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços dos próprios órgãos. Correções da revisão aplicadas pelo coordenador. Agências reguladoras criadas em f2-executivo mapeadas pelo coordenador à unidade orçamentária de mesmo nome (32266, 41231, 36213, 53210, 39250, 68201, 42206, 68213, 30212)."
+  }
+}

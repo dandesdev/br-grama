@@ -1,0 +1,39 @@
+{
+  "id": "org:consultorias-juridicas-dos-ministerios",
+  "tipo": "orgao",
+  "nome": "Consultorias Jurídicas dos ministérios",
+  "resumo": "Órgãos de execução da AGU que assessoram juridicamente cada ministro de Estado e examinam editais, contratos e dispensas de licitação.",
+  "detalhes": "São administrativamente subordinadas aos ministros e aos titulares das secretarias da Presidência; coordenam os órgãos jurídicos das entidades vinculadas, fixam a interpretação das normas em sua área quando não houver orientação do Advogado-Geral e examinam previamente editais, contratos e atos de dispensa ou inexigibilidade de licitação (LC 73/1993, art. 11). Seus pareceres aprovados pelo ministro obrigam os órgãos e entidades vinculados (art. 42); o consultor jurídico é nomeado pelo Presidente por indicação do ministro, entre bacharéis com cinco anos de prática forense (arts. 49, II, e 58).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:agu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 2º, II, b"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º, II, b; arts. 11, 42, 49, II, e 58"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: uma consultoria em cada ministério e órgão listado. Posta dentro da AGU (art. 2º, II, b); a subordinação administrativa aos ministros fica no texto, porque um conjunto não cabe em um só ministério. A LC 73/1993 ainda cita o Estado-Maior das Forças Armadas, extinto; não conferimos a lista atual.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

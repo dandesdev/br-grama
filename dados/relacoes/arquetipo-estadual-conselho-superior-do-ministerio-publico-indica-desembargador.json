@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-conselho-superior-do-ministerio-publico-indica-desembargador",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MP estadual para o Tribunal de Justiça",
+  "relacao": "indica",
+  "de": "org:arquetipo-estadual-conselho-superior-do-ministerio-publico",
+  "para": "cargo:desembargador",
+  "condicao": "Nas vagas do quinto constitucional destinadas ao MP no Tribunal de Justiça; o procurador-geral encaminha a lista ao tribunal.",
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 10, XIII; art. 15, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

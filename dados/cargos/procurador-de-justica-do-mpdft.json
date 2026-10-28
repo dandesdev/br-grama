@@ -1,0 +1,49 @@
+{
+  "id": "cargo:procurador-de-justica-do-mpdft",
+  "tipo": "cargo",
+  "nome": "Procurador de Justiça do MPDFT",
+  "resumo": "Último nível da carreira do MPDFT. Atua junto ao TJDFT e nas Câmaras de Coordenação e Revisão e é lotado na Procuradoria-Geral de Justiça.",
+  "detalhes": "Só procuradores de justiça podem ser Corregedor-Geral, Procurador Distrital dos Direitos do Cidadão e coordenador de câmara; oito deles, eleitos, integram o Conselho Superior (LC 75/1993, arts. 163 e 175 a 177). A carreira do MPDFT tem três cargos: promotor de justiça adjunto (inicial), promotor de justiça e procurador de justiça (último nível) (LC 75/1993, art. 154).",
+  "orgao": "org:mpdft",
+  "provimento": "promocao",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei (LC 75/1993, art. 34); não somamos.",
+  "provimento_nota": "Por promoção de promotor de justiça. Promoção alternada por antiguidade e merecimento; o merecimento usa lista tríplice do Conselho Superior (LC 75/1993, arts. 166, V, 199 e 200).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Vitalício após dois anos de exercício (LC 75/1993, arts. 17, I, e 184). Aposentadoria compulsória aos 75 anos (CF, art. 40, § 1º, II; LC 152/2015, art. 2º, III)."
+  },
+  "requisitos": [
+    {
+      "texto": "promotor de justiça do MPDFT, promovido na carreira",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 154 e 199"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 154, 163, 175 a 177, 199 e 200"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

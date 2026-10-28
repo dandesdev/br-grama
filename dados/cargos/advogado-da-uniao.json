@@ -1,0 +1,65 @@
+{
+  "id": "cargo:advogado-da-uniao",
+  "tipo": "cargo",
+  "nome": "Advogado da União",
+  "resumo": "Membro de carreira da AGU que representa a União em juízo e presta consultoria jurídica ao Executivo. Ingressa por concurso.",
+  "detalhes": "A carreira tem três categorias: 2ª (inicial), 1ª (intermediária) e especial (final) (LC 73/1993, art. 20, I). Os cargos da antiga carreira de Assistente Jurídico da AGU foram transformados em cargos de Advogado da União (Lei 10.549/2002, art. 11). Os dois primeiros anos no cargo inicial são de estágio confirmatório; a confirmação ou a exoneração é decidida pelo Conselho Superior com base em parecer da Corregedoria (LC 73/1993, arts. 5º, V, 7º, III, e 22). A promoção, semestral, alterna antiguidade e merecimento e é processada pelo Conselho Superior (arts. 24 e 25).",
+  "orgao": "org:agu",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos na categoria inicial, com representação da OAB na banca; nomeação pela ordem de classificação, e lotação e distribuição pelo Advogado-Geral (CF, art. 131, § 2º; LC 73/1993, arts. 21 e 23).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, sem mandato nem vitaliciedade; estágio confirmatório de dois anos (LC 73/1993, art. 22)."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 131, § 2º"
+        },
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 21"
+        }
+      ]
+    },
+    {
+      "texto": "pelo menos dois anos de prática forense na inscrição",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 21, § 2º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, § 2º"
+    },
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 20 a 25"
+    },
+    {
+      "ref": "norma:lei-10549-2002",
+      "dispositivo": "art. 11"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

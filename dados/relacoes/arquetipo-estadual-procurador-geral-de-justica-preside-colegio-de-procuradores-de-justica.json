@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-procurador-geral-de-justica-preside-colegio-de-procuradores-de-justica",
+  "tipo": "relacao",
+  "nome": "Presidência do Colégio de Procuradores de Justiça",
+  "relacao": "preside",
+  "de": "cargo:arquetipo-estadual-procurador-geral-de-justica",
+  "para": "org:arquetipo-estadual-colegio-de-procuradores-de-justica",
+  "condicao": "Membro nato e presidente.",
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 10, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

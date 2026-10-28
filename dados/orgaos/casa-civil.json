@@ -4,7 +4,7 @@
   "nome": "Casa Civil da Presidência da República",
   "sigla": "CC-PR",
   "resumo": "Órgão da Presidência que assiste diretamente o Presidente: coordena as ações do governo e acompanha os ministérios. Seu titular é Ministro de Estado.",
-  "detalhes": "Também analisa o mérito e a compatibilidade das propostas com as diretrizes do governo, inclusive as que tramitam no Congresso, e avalia a ação governamental (Lei 14.600/2023, art. 3º).",
+  "detalhes": "Também analisa o mérito e a compatibilidade das propostas com as diretrizes do governo, inclusive as que tramitam no Congresso, e avalia a ação governamental (Lei 14.600/2023, art. 3º). Verifica antes a constitucionalidade e a legalidade dos atos presidenciais, coordena a sanção e o veto, prepara as mensagens do Executivo ao Congresso e publica os atos oficiais do Presidente; coordena ainda o Programa de Parcerias de Investimentos e as obras de infraestrutura estratégicas. Supervisiona as atividades administrativas da Presidência e faz o controle interno dela e da Vice-Presidência.",
   "tipo_orgao": "executivo-direta",
   "poder": "executivo",
   "esfera": "federal",
@@ -31,7 +31,7 @@
   "fontes": [
     {
       "ref": "norma:lei-14600-2023",
-      "dispositivo": "art. 2º, I; art. 3º; art. 18, II"
+      "dispositivo": "art. 2º, I; art. 3º, I a XIV; art. 18, II"
     }
   ],
   "estrutura_continua": [
@@ -48,10 +48,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; nome e inciso do art. 17 ou 2º e 18 da Lei 14.600/2023 (texto compilado até a Lei 15.352/2026) conferidos; resumo conferido no artigo de competências; sigla conferida no SIORG (resumida, baixada em 2026-10-23); decreto de estrutura regimental vigente em 2026-10-01 conferido; link de mais_informacoes responde; sigla CC-PR acrescentada (SIORG, unidade 2837)"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "detalhes com as competências da Lei 14.600 (D50) e incisos nas fontes; antes verificado em verificacao-f0-executivo"
   },
   "mais_informacoes": [
     {

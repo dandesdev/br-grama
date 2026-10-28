@@ -1,0 +1,28 @@
+{
+  "id": "rel:conselho-superior-da-dpu-exonera-corregedor-geral-da-dpu",
+  "tipo": "relacao",
+  "nome": "Destituição do Corregedor-Geral da DPU",
+  "relacao": "exonera",
+  "de": "org:conselho-superior-da-dpu",
+  "para": "cargo:corregedor-geral-da-dpu",
+  "condicao": "Antes do fim do mandato, por proposta do Defensor Público-Geral Federal, com ampla defesa.",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 10, X; art. 12, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

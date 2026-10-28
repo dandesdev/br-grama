@@ -1,0 +1,26 @@
+{
+  "id": "rel:conselho-superior-da-dpu-indica-corregedor-geral-da-dpu",
+  "tipo": "relacao",
+  "nome": "Indicação do Corregedor-Geral da DPU",
+  "relacao": "indica",
+  "de": "org:conselho-superior-da-dpu",
+  "para": "cargo:corregedor-geral-da-dpu",
+  "condicao": "Indica nomes da categoria mais elevada da carreira; o Presidente da República nomeia.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 10, XIV; art. 12"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

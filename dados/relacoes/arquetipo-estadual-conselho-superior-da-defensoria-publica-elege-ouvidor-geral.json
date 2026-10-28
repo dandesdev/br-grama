@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-conselho-superior-da-defensoria-publica-elege-ouvidor-geral",
+  "tipo": "relacao",
+  "nome": "Escolha do Ouvidor-Geral da Defensoria do estado",
+  "relacao": "elege",
+  "de": "org:arquetipo-estadual-conselho-superior-da-defensoria-publica",
+  "para": "cargo:arquetipo-estadual-ouvidor-geral-da-defensoria-publica",
+  "condicao": "Escolhe um dos nomes da lista tríplice formada pela sociedade civil, conforme normas que o próprio Conselho edita.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Incluído pela LC 132/2009; a data de início não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 105-B, caput e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Termo elege como o mais próximo: a lei diz que o Ouvidor é 'escolhido pelo Conselho Superior' e depois nomeado pelo defensor público-geral.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

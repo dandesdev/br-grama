@@ -1,0 +1,52 @@
+{
+  "id": "org:ctfc-senado",
+  "tipo": "orgao",
+  "nome": "Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor do Senado Federal",
+  "sigla": "CTFC",
+  "resumo": "Comissão permanente do Senado sobre fiscalização e controle dos atos do Poder Executivo, transparência, governança e defesa do consumidor.",
+  "detalhes": "Tem 17 membros titulares, número fixado no próprio Regimento. Ao fim de cada fiscalização, envia relatório à Mesa ou ao Plenário e, conforme o caso, ao Ministério Público ou à AGU, ao Poder Executivo e ao TCU. Como as demais comissões permanentes, dá parecer sobre os projetos da sua área e decide de forma terminativa nos casos previstos no RISF.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-do-senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 72, V"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 72, V"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 77, V"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 102-A a 102-D, em especial art. 102-C"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; nome, composição e competência conforme o RISF atualizado até julho de 2025."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

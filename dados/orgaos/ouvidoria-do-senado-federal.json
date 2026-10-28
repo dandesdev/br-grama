@@ -1,0 +1,40 @@
+{
+  "id": "org:ouvidoria-do-senado-federal",
+  "tipo": "orgao",
+  "nome": "Ouvidoria do Senado Federal",
+  "resumo": "Recebe sugestões, críticas, reclamações e denúncias identificadas dos cidadãos sobre as atividades do Senado e responde em até 30 dias úteis.",
+  "detalhes": "Um Ouvidor-Geral, senador designado pelo Presidente do Senado no início da 1ª e da 3ª sessão legislativa, para dois anos, sem recondução no período seguinte. Pode pedir informações a qualquer órgão do Senado, que deve responder em cinco dias úteis, e promover diligências.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:senado-ato-da-mesa-1-2011",
+          "dispositivo": "art. 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-ato-da-mesa-1-2011",
+      "dispositivo": "arts. 1º a 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2005",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criada pelo Ato da Comissão Diretora nº 5/2005 e pela Resolução nº 1/2005 (não lidos) e regulamentada pelo Ato da Mesa nº 1/2011."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

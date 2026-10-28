@@ -1,0 +1,34 @@
+{
+  "id": "aviso:ricd-tomada-de-contas-cft-ou-cffc",
+  "tipo": "aviso",
+  "nome": "RICD atribui a tomada de contas do Presidente a duas comissões diferentes",
+  "resumo": "O art. 32, XI, a, do Regimento da Câmara dá a tomada de contas do Presidente da República à CFFC; o art. 215 ainda a dá à Comissão de Finanças e Tributação.",
+  "detalhes": "O campo temático da Comissão de Fiscalização Financeira e Controle inclui a tomada de contas do Presidente na hipótese do art. 51, II, da CF. O art. 215, no capítulo sobre a tomada de contas, diz que ela incumbe à Comissão de Finanças e Tributação, com uma Subcomissão Especial e o auxílio do TCU. O texto atualizado da Câmara não traz nota que resolva a diferença. No mapa, a CFFC aparece com a competência, seguindo o art. 32.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "org:cffc-camara",
+    "org:cft-camara",
+    "rel:camara-toma-contas-presidente"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "RICD, texto atualizado do Legin da Câmara até a Resolução nº 34/2026 (arts. 32, X e XI, e 215)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 32, XI, a; art. 215, caput"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Não pesquisamos como a Câmara aplica a regra na prática (qual comissão recebeu as últimas tomadas de contas, se houve).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

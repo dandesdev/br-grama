@@ -1,0 +1,39 @@
+{
+  "id": "org:arquetipo-estadual-promotorias-de-justica",
+  "tipo": "orgao",
+  "nome": "Promotorias de Justiça",
+  "resumo": "Órgãos de administração do MP estadual com pelo menos um cargo de promotor de justiça, judiciais ou extrajudiciais, gerais ou especializadas.",
+  "detalhes": "As atribuições de cada promotoria e de seus cargos são fixadas por proposta do procurador-geral aprovada pelo Colégio de Procuradores; mudá-las exige a maioria absoluta do Colégio (Lei 8.625/1993, art. 23). O procurador-geral pode, com a concordância do titular, designar outro promotor para um feito determinado (art. 24).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 6º, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 6º, II, 23 e 24"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: número e especialização variam por estado e por comarca.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

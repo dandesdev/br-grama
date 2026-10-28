@@ -1,0 +1,34 @@
+{
+  "id": "rel:senado-aprova-indicacao-ouvidor-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Aprovação dos ouvidores das agências reguladoras pelo Senado",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:ouvidor-de-agencia-reguladora",
+  "condicao": "Por voto secreto, como nas demais escolhas do art. 52, III. Depois o Presidente nomeia.",
+  "depende_de": [
+    "rel:presidente-indica-ouvidor-de-agencia-reguladora"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 23, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-cargos-de-senadores",
+  "tipo": "fonte",
+  "nome": "Senado Federal, Dados Abertos: cargos de cada senador",
+  "resumo": "Serviço que lista os cargos de um senador em comissões e na Mesa, com datas de início e fim.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/senador/3777/cargos",
+  "acesso_em": "2026-10-28",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O serviço é /dadosabertos/senador/<código>/cargos; a URL acima é a do senador 3777 (Eduardo Gomes). Consultado em 2026-10-28 para os senadores 3777, 5008, 5998, 475, 4811 e 6358; cópias em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/senado-senador-<código>-cargos.json. A composição atual da Mesa (versão 27/10/2026) está em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/senado-MesaSenado-2026-10-28.json.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

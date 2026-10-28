@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Ministério Público do Estado",
   "resumo": "Ministério Público de cada estado: atua perante a Justiça estadual e é chefiado pelo procurador-geral de justiça.",
-  "detalhes": "Tem as mesmas funções e princípios do Ministério Público em geral: promover a ação penal pública e a ação civil pública, controlar externamente a atividade policial, entre outras (CF, arts. 127 e 129). Tem autonomia funcional e administrativa e faz a própria proposta orçamentária (art. 127, §§ 2º e 3º). A organização vem da Lei 8.625/1993 e da lei complementar de cada estado, de iniciativa facultada ao procurador-geral de justiça (art. 128, § 5º).",
+  "detalhes": "Tem as mesmas funções e princípios do Ministério Público em geral: promover a ação penal pública e a ação civil pública, controlar externamente a atividade policial, entre outras (CF, arts. 127 e 129). Tem autonomia funcional e administrativa e faz a própria proposta orçamentária (art. 127, §§ 2º e 3º). A organização vem da Lei 8.625/1993 e da lei complementar de cada estado, de iniciativa facultada ao procurador-geral de justiça (art. 128, § 5º). A Lei 8.625/1993 acrescenta funções como a ação de inconstitucionalidade perante a Constituição estadual, a representação para intervenção do estado no município, a fiscalização de prisões e de instituições para idosos, menores e pessoas com deficiência e a ação para responsabilizar gestores condenados por tribunais de contas (art. 25); para isso instaura inquérito civil e requisita informações, perícias, diligências e inquéritos (art. 26). Seus órgãos são os de administração superior (Procuradoria-Geral de Justiça, Colégio de Procuradores, Conselho Superior e Corregedoria-Geral), as procuradorias e promotorias de justiça, os órgãos de execução (procurador-geral, Conselho Superior, procuradores e promotores) e os auxiliares, como os centros de apoio operacional, a comissão de concurso, o centro de estudos, os serviços de apoio administrativo e os estagiários (arts. 5º a 8º e 33 a 37).",
   "tipo_orgao": "ministerio-publico",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "estadual",
@@ -15,7 +15,7 @@
     },
     {
       "ref": "norma:lei-8625-1993",
-      "dispositivo": "arts. 1º a 3º"
+      "dispositivo": "arts. 1º a 8º, 25 a 27 e 33 a 37"
     }
   ],
   "estrutura_continua": [
@@ -32,10 +32,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; Lei 8.625/1993, arts. 1º a 3º, 5º a 7º e 32, III, conferidos (cópia em pesquisa/brutos/planalto-leis/2026-10-23/l8625.htm)"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais",
+    "notas": "f2-funcoes-essenciais: detalhes ampliados com as funções (Lei 8.625/1993, arts. 25 e 26) e os órgãos (arts. 5º a 8º, 33 a 37); fontes da Lei 8.625 ampliadas"
   },
   "notas": "Sem sigla: cada estado usa a sua. O MP do DF não é estadual: integra o MPU (org:mpdft). Sem contido_em, como org:ministerio-publico-da-uniao. Os promotores de justiça também exercem funções eleitorais na primeira instância (Lei 8.625/1993, art. 32, III)."
 }

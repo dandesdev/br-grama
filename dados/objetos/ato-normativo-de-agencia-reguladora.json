@@ -1,0 +1,31 @@
+{
+  "id": "obj:ato-normativo-de-agencia-reguladora",
+  "tipo": "objeto",
+  "nome": "Ato normativo de agência reguladora",
+  "resumo": "Norma que uma agência reguladora federal edita sobre o setor que regula, em geral chamada de resolução, depois de análise de impacto e consulta pública.",
+  "detalhes": "Quando é de interesse geral dos agentes econômicos, dos consumidores ou dos usuários, deve passar por análise de impacto regulatório e por consulta pública e ser aprovado pela diretoria colegiada (Lei 13.848/2019, arts. 6º, 7º e 9º). Duas ou mais agências podem editar atos conjuntos para agentes sujeitos a mais de uma regulação (art. 29).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:agencias-reguladoras-federais"
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "arts. 6º, 7º, 9º e 29"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O nome do ato (resolução, resolução normativa, portaria) varia de agência para agência e é dado pelo regimento interno de cada uma; não foi levantado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

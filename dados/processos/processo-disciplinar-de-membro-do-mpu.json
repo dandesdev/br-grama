@@ -1,0 +1,212 @@
+{
+  "id": "proc:processo-disciplinar-de-membro-do-mpu",
+  "tipo": "processo",
+  "nome": "Processo disciplinar de membro do MPU",
+  "resumo": "Como uma falta de procurador ou promotor do MPU é apurada: inquérito da Corregedoria, processo no Conselho Superior e sanção do procurador-geral ou ação na Justiça.",
+  "detalhes": "O rito é o mesmo nos quatro ramos; em cada etapa age o órgão do ramo do acusado. Advertência, censura e suspensão são aplicadas pelo procurador-geral do ramo; demissão de membro vitalício e cassação de aposentadoria ou disponibilidade dependem de decisão judicial transitada em julgado (LC 75/1993, arts. 208, 242 e 243). A punição pode ser revista a qualquer tempo, pelo mesmo rito, se surgirem fatos que provem a inocência ou se a sanção se basear em prova falsa (arts. 262 a 265).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "inquerito",
+      "atores": [
+        "cargo:corregedor-geral-do-mpf",
+        "cargo:corregedor-geral-do-mpt",
+        "cargo:corregedor-geral-do-mpm",
+        "cargo:corregedor-geral-do-mpdft"
+      ],
+      "acao": "O Corregedor-Geral instaura inquérito sigiloso e designa comissão de três membros para apurar a falta",
+      "detalhes": "Pode ser precedido de sindicância, para colher dados sumários. A comissão, de membros vitalícios de classe igual ou superior à do indiciado, instrui o inquérito e abre vista ao indiciado por 15 dias.",
+      "prazo": {
+        "texto": "30 dias para concluir, prorrogáveis por mais 30",
+        "valor": 30,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 246 a 250"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "deliberacao-inquerito",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "deliberacao-inquerito",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:conselho-superior-do-mpf",
+        "org:conselho-superior-do-mpt",
+        "org:conselho-superior-do-mpm",
+        "org:conselho-superior-do-mpdft"
+      ],
+      "acao": "O Conselho Superior arquiva o inquérito, pede diligências ou instaura processo administrativo",
+      "detalhes": "Recebe o inquérito com parecer conclusivo da comissão; se não acolher a proposta de arquivamento, devolve ao Corregedor-Geral para formular a acusação.",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 251"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "processo",
+          "quando": "acolhe a súmula de acusação"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "arquiva"
+        }
+      ]
+    },
+    {
+      "id": "processo",
+      "atores": [
+        "org:conselho-superior-do-mpf",
+        "org:conselho-superior-do-mpt",
+        "org:conselho-superior-do-mpm",
+        "org:conselho-superior-do-mpdft"
+      ],
+      "acao": "Uma comissão designada pelo Conselho Superior conduz o processo administrativo, com citação, defesa e provas",
+      "detalhes": "A comissão tem três membros vitalícios que não participaram do inquérito. O acusado tem 15 dias para defesa prévia e 15 para razões finais; a comissão envia o processo ao Conselho em 15 dias. O Conselho pode afastar o acusado preventivamente por até 120 dias, salvo se a falta só admitir advertência ou censura.",
+      "prazo": {
+        "texto": "90 dias para concluir, prorrogáveis por mais 30, contados da publicação da decisão que instaura o processo",
+        "valor": 90,
+        "unidade": "dias",
+        "conta_de": "publicação da decisão que instaura o processo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 252 a 258 e 260"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "deliberacao-processo",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "deliberacao-processo",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:conselho-superior-do-mpf",
+        "org:conselho-superior-do-mpt",
+        "org:conselho-superior-do-mpm",
+        "org:conselho-superior-do-mpdft"
+      ],
+      "acao": "O Conselho Superior propõe ao procurador-geral o arquivamento ou uma sanção, ou propõe ação de perda do cargo",
+      "detalhes": "Não vota quem atuou na sindicância, no inquérito ou no processo (art. 259, parágrafo único).",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 259"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sancao",
+          "quando": "sanção de advertência, censura ou suspensão"
+        },
+        {
+          "para": "acao-civil",
+          "quando": "demissão ou cassação"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "arquivamento"
+        }
+      ]
+    },
+    {
+      "id": "sancao",
+      "atores": [
+        "cargo:procurador-geral-da-republica",
+        "cargo:procurador-geral-do-trabalho",
+        "cargo:procurador-geral-da-justica-militar",
+        "cargo:procurador-geral-de-justica-do-mpdft"
+      ],
+      "acao": "O procurador-geral do ramo aplica advertência, censura ou suspensão",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 239, 240 e 243"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "acao-civil",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O PGR propõe na Justiça ação civil para demitir membro vitalício ou cassar aposentadoria ou disponibilidade",
+      "detalhes": "No MPF e no MPT a lei exige autorização da maioria absoluta do Conselho Superior para o PGR propor a ação (arts. 57, XX, e 98, XVIII).",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 208, 242 e 259, IV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O inquérito ou o processo é arquivado",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 251, § 2º, II, e 259, II"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A sanção é aplicada ou a ação segue na Justiça; cabe revisão a qualquer tempo",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 262 a 265"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 239 a 265"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Atores múltiplos por etapa: cada ramo usa seus próprios Corregedor-Geral, Conselho Superior e procurador-geral. Os prazos de prescrição (arts. 244 e 245) não entram como etapas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

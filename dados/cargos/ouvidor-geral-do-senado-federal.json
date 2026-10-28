@@ -1,0 +1,37 @@
+{
+  "id": "cargo:ouvidor-geral-do-senado-federal",
+  "tipo": "cargo",
+  "nome": "Ouvidor-Geral do Senado Federal",
+  "resumo": "Senador que dirige a Ouvidoria do Senado; pode pedir informações a qualquer órgão da Casa e promover diligências.",
+  "orgao": "org:ouvidoria-do-senado-federal",
+  "provimento": "designacao",
+  "provimento_nota": "Designado pelo Presidente do Senado entre os senadores, no início da 1ª e da 3ª sessão legislativa (Ato da Mesa nº 1/2011, art. 2º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "reconducao": "proibida no período subsequente"
+  },
+  "requisitos": [
+    {
+      "texto": "ser senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:senado-ato-da-mesa-1-2011",
+      "dispositivo": "arts. 2º e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-16",
+    "ate": null,
+    "incerta": true
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

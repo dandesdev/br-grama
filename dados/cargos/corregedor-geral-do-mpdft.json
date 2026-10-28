@@ -1,0 +1,53 @@
+{
+  "id": "cargo:corregedor-geral-do-mpdft",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral do Ministério Público do Distrito Federal e Territórios",
+  "resumo": "Dirige a Corregedoria do MPDFT. É nomeado pelo Procurador-Geral de Justiça a partir de lista tríplice do Conselho Superior, para mandato de dois anos.",
+  "detalhes": "Participa das reuniões do Conselho Superior sem direito a voto; os outros nomes da lista são seus suplentes (LC 75/1993, arts. 173, § 2º, e 174, I).",
+  "orgao": "org:corregedoria-do-mpdft",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Conselho Superior forma lista tríplice de procuradores de justiça que não sejam conselheiros, e o Procurador-Geral de Justiça nomeia um deles (LC 75/1993, arts. 159, V, 166, VI, e 173). Pode ser destituído antes do fim do mandato, por iniciativa do Procurador-Geral, pelo voto de dois terços do Conselho Superior (arts. 166, IV, e 173, § 3º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "renovável uma vez",
+    "nota": "LC 75/1993, art. 173."
+  },
+  "requisitos": [
+    {
+      "texto": "procurador de justiça do MPDFT",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 173 e 176, I"
+        }
+      ]
+    },
+    {
+      "texto": "não ser membro do Conselho Superior",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 173, § 1º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 159, V, 166, IV e VI, 173, 174 e 176, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

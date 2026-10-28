@@ -1,0 +1,29 @@
+{
+  "id": "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-desembargador",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MPDFT para o TJDFT",
+  "relacao": "indica",
+  "de": "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
+  "para": "cargo:desembargador",
+  "condicao": "Só no TJDFT: nas vagas do quinto constitucional destinadas ao MPDFT, forma lista sêxtupla entre membros com mais de dez anos de carreira; o PGR a encaminha ao tribunal.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, VI; art. 162, III e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

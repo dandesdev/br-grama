@@ -1,0 +1,43 @@
+{
+  "id": "rel:antaq-vincula-se-ministerio-de-portos-e-aeroportos",
+  "tipo": "relacao",
+  "nome": "A Antaq é vinculada ao Ministério de Portos e Aeroportos",
+  "relacao": "vincula-se",
+  "de": "org:antaq",
+  "para": "org:ministerio-de-portos-e-aeroportos",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:lei-10233-2001",
+      "dispositivo": "art. 21"
+    },
+    {
+      "ref": "norma:decreto-11354-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, a, 1"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, parágrafo único; arts. 19 e 26"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.354/2023, estrutura vigente do Ministério de Portos e Aeroportos. A Lei 10.233/2001 (art. 21, redação da Lei 12.815/2013) ainda fala em vinculação à Secretaria de Portos da Presidência; a vinculação atual vem do decreto (Lei 14.600/2023, art. 1º, § 3º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:congresso-fiscaliza-tcu",
+  "tipo": "relacao",
+  "nome": "Congresso Nacional fiscaliza o TCU",
+  "relacao": "fiscaliza",
+  "de": "org:congresso-nacional",
+  "para": "org:tcu",
+  "condicao": "Fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Tribunal, na forma do Regimento Comum; o TCU envia ao Congresso relatório trimestral e anual das suas atividades.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 90"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, § 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

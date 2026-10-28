@@ -1,0 +1,143 @@
+{
+  "id": "proc:escolha-do-procurador-geral-de-justica",
+  "tipo": "processo",
+  "nome": "Escolha do procurador-geral de justiça do estado",
+  "resumo": "Os membros do MP estadual elegem uma lista tríplice; o governador nomeia um dos três em 15 dias, ou o mais votado assume automaticamente.",
+  "detalhes": "O procurador-geral de justiça tem mandato de dois anos, com uma recondução pelo mesmo procedimento (CF, art. 128, § 3º; Lei 8.625/1993, art. 9º). A forma da eleição é definida pela lei de cada estado; a destituição depende do Legislativo (CF, art. 128, § 4º; ver aviso:destituicao-procurador-geral-de-justica-quorum).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "lista-triplice",
+      "atores": [
+        "cargo:arquetipo-estadual-membro-do-ministerio-publico"
+      ],
+      "acao": "Todos os membros da carreira elegem a lista tríplice por voto plurinominal",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 9º, caput e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "escolha",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "escolha",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador escolhe um dos três nomes",
+      "prazo": {
+        "texto": "15 dias do recebimento da lista tríplice",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "recebimento da lista tríplice",
+        "efeito": "sem nomeação no prazo, o mais votado é investido no cargo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 9º, caput e § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "nomeacao",
+          "quando": "nomeia no prazo"
+        },
+        {
+          "para": "investidura-automatica",
+          "quando": "não nomeia em 15 dias"
+        }
+      ]
+    },
+    {
+      "id": "nomeacao",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador nomeia o escolhido",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "investidura-automatica",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "O mais votado da lista é investido automaticamente no cargo",
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 9º, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "mandato",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O procurador-geral de justiça exerce mandato de dois anos, com uma recondução",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 9º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null,
+    "nota": "Investidura automática pela Lei 8.625/1993; a lista tríplice e o mandato vêm da CF/88."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 9º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

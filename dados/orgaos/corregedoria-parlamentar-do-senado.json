@@ -1,0 +1,44 @@
+{
+  "id": "org:corregedoria-parlamentar-do-senado",
+  "tipo": "orgao",
+  "nome": "Corregedoria Parlamentar do Senado Federal",
+  "resumo": "Zela pelo decoro, pela ordem e pela disciplina no Senado e faz sindicância sobre denúncias de ilícitos que envolvam senadores.",
+  "detalhes": "Tem um Corregedor e três Corregedores substitutos, eleitos como os demais membros da Comissão Diretora. Cumpre as ordens da Mesa sobre segurança, supervisiona a proibição do porte de armas e preside o inquérito quando um senador comete delito nos edifícios do Senado.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-17-1993",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-17-1993",
+      "dispositivo": "arts. 1º a 5º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "nota 26 ao art. 22"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-03-17",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 17/1993; a data de publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

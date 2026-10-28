@@ -1,0 +1,49 @@
+{
+  "id": "org:cmmir",
+  "tipo": "orgao",
+  "nome": "Comissão Mista Permanente sobre Migrações Internacionais e Refugiados",
+  "sigla": "CMMIR",
+  "resumo": "Comissão permanente do Congresso que acompanha e fiscaliza as questões dos movimentos migratórios nas fronteiras e os direitos dos refugiados.",
+  "detalhes": "Tem onze deputados e onze senadores, com igual número de suplentes. Foi criada por ato conjunto dos Presidentes do Senado e da Câmara, ad referendum, e o ato se declara parte do Regimento Comum. O Regimento Comum acrescenta a toda comissão mista uma vaga por Casa para as bancadas minoritárias (art. 10-A); por isso os dados abertos registram 12 titulares de cada Casa.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ato-conjunto-cn-1-2019",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ato-conjunto-cn-1-2019",
+      "dispositivo": "arts. 1º e 2º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 10-A"
+    },
+    {
+      "ref": "fonte:senado-api-comissoes-mistas",
+      "dispositivo": "colegiado CMMIR"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-10-03",
+    "ate": null,
+    "nota": "Publicação do Ato Conjunto nº 1/2019 no DOU."
+  },
+  "confianca": "oficial",
+  "notas": "Os dados abertos do Senado a listavam como \"aguardando instalação\" em consultas anteriores (pista de busca); a situação em 2026-10-01 não foi conferida.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

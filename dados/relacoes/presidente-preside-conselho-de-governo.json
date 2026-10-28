@@ -1,0 +1,27 @@
+{
+  "id": "rel:presidente-preside-conselho-de-governo",
+  "tipo": "relacao",
+  "nome": "O Presidente preside o Conselho de Governo",
+  "relacao": "preside",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conselho-de-governo",
+  "condicao": "Por determinação do Presidente, o Ministro-Chefe da Casa Civil pode presidi-lo.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 9º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 14.600/2023, a base citada (antes, MP 1.154/2023). A regra pode ser anterior; não pesquisamos."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

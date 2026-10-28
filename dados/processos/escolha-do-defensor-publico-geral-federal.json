@@ -1,0 +1,130 @@
+{
+  "id": "proc:escolha-do-defensor-publico-geral-federal",
+  "tipo": "processo",
+  "nome": "Escolha do Defensor Público-Geral Federal",
+  "resumo": "Os defensores federais elegem uma lista tríplice; o Presidente escolhe um dos três, o Senado aprova por maioria absoluta e o Presidente nomeia.",
+  "detalhes": "O mandato é de dois anos, com uma recondução, também precedida de aprovação do Senado (LC 80/1994, art. 6º).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "lista-triplice",
+      "atores": [
+        "cargo:defensor-publico-federal"
+      ],
+      "acao": "Os membros da carreira elegem a lista tríplice por voto direto, secreto, plurinominal e obrigatório",
+      "detalhes": "Concorrem membros estáveis da carreira com mais de 35 anos.",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "indicacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "indicacao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente da República escolhe um dos três e envia o nome ao Senado",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "aprovacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "aprovacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:senado-federal"
+      ],
+      "acao": "O Senado aprova ou rejeita o nome",
+      "detalhes": "A LC 80/1994 não diz o que acontece se o nome for rejeitado.",
+      "quorum": {
+        "regra": "maioria-absoluta"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, III, f"
+        },
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "nomeacao",
+          "quando": "aprovado"
+        }
+      ]
+    },
+    {
+      "id": "nomeacao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente da República nomeia o aprovado",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "mandato",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O Defensor Público-Geral Federal exerce mandato de dois anos, com uma recondução",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Regra atual dada pela LC 132/2009 ao art. 6º."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    },
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

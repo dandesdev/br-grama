@@ -1,0 +1,39 @@
+{
+  "id": "org:representacao-brasileira-no-parlamento-do-mercosul",
+  "tipo": "orgao",
+  "nome": "Representação Brasileira no Parlamento do Mercosul",
+  "resumo": "Órgão do Congresso que liga o Parlamento brasileiro ao Parlamento do Mercosul e dá parecer sobre as matérias de interesse do bloco.",
+  "detalhes": "Tem 37 titulares, 27 deputados e 10 senadores, com igual número de suplentes, designados pelo Presidente da Mesa do Congresso. Examina as normas do Mercosul submetidas ao Congresso e oferece o projeto de decreto legislativo, que segue para a Câmara e depois para o Senado.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-1-2011",
+          "dispositivo": "art. 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-1-2011",
+      "dispositivo": "arts. 2º, 3º, 5º e 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-07",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 1/2011-CN."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

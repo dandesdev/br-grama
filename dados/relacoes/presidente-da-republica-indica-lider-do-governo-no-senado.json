@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-da-republica-indica-lider-do-governo-no-senado",
+  "tipo": "relacao",
+  "nome": "Presidente da República indica o Líder do Governo no Senado",
+  "relacao": "indica",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:lider-do-governo-no-senado-federal",
+  "condicao": "Entre os senadores; não depende de aprovação de outro órgão.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RISF em vigor."
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 66-A"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

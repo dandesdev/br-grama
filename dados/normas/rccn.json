@@ -22,11 +22,13 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Data da resolução (11/8/1970) tirada da ficha catalográfica da edição oficial de 2025; início exato de vigência não conferido. Texto consolidado até janeiro de 2023 e atualizado até julho de 2025; alterações posteriores não conferidas (ver aviso:risf-rccn-compilacao-ate-julho-2025). Verificação de 2026-10-17: a lista de resoluções na API de legislação do Senado (dadosabertos, tipo RSF e RCN, anos 2025 e 2026; cópias em pesquisa/brutos/senado-dados-abertos/2026-10-17/) não traz nenhuma resolução posterior a julho de 2025 que altere o RCCN. As três RCN de 2025 são de março e junho, já incorporadas ao texto; não há RCN de 2026 na lista.",
+  "notas": "Data da resolução (11/8/1970) tirada da ficha catalográfica da edição oficial de 2025; início exato de vigência não conferido. Texto consolidado até janeiro de 2023 e atualizado até julho de 2025; alterações posteriores não conferidas (ver aviso:risf-rccn-compilacao-ate-julho-2025). Verificação de 2026-10-17: a lista de resoluções na API de legislação do Senado (dadosabertos, tipo RSF e RCN, anos 2025 e 2026; cópias em pesquisa/brutos/senado-dados-abertos/2026-10-17/) não traz nenhuma resolução posterior a julho de 2025 que altere o RCCN. As três RCN de 2025 são de março e junho, já incorporadas ao texto; não há RCN de 2026 na lista. Fase 2 (2026-10-28): PDF oficial baixado de novo (pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/rccn.pdf); a API do Senado, consultada hoje, não lista nenhuma RCN de 2026.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei; sem alteração posterior a jul/2025 segundo a API de legislação do Senado (RCN 2025-2026)"
-  }
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "redacao_conferida_em atualizado na fase 2; compilacao_ate preenchido"
+  },
+  "compilacao_ate": "edição oficial consolidada até janeiro de 2023 e atualizada até julho de 2025",
+  "redacao_conferida_em": "2026-10-28"
 }

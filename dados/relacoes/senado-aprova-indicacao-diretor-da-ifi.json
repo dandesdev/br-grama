@@ -1,0 +1,27 @@
+{
+  "id": "rel:senado-aprova-indicacao-diretor-da-ifi",
+  "tipo": "relacao",
+  "nome": "Senado aprova os diretores da IFI",
+  "relacao": "aprova-indicacao",
+  "de": "org:senado-federal",
+  "para": "cargo:diretor-da-instituicao-fiscal-independente",
+  "condicao": "Depois de arguição pública.",
+  "vigencia": {
+    "de": "2016-11-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 42/2016; a data de publicação não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-42-2016",
+      "dispositivo": "art. 1º, § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

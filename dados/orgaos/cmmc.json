@@ -1,0 +1,48 @@
+{
+  "id": "org:cmmc",
+  "tipo": "orgao",
+  "nome": "Comissão Mista Permanente sobre Mudanças Climáticas",
+  "sigla": "CMMC",
+  "resumo": "Comissão permanente do Congresso que acompanha, monitora e fiscaliza de modo contínuo as ações sobre mudanças climáticas no Brasil.",
+  "detalhes": "Tem onze deputados e onze senadores, com igual número de suplentes; a Mesa do Congresso fixa a representação dos partidos no início de cada sessão legislativa. O Regimento Comum acrescenta a toda comissão mista uma vaga por Casa para as bancadas minoritárias (art. 10-A); por isso os dados abertos registram 12 titulares de cada Casa.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-4-2008",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-4-2008",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 10-A"
+    },
+    {
+      "ref": "fonte:senado-api-comissoes-mistas",
+      "dispositivo": "colegiado CMMC"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-12-31",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 4/2008-CN, em vigor na data da publicação."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

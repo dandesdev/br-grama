@@ -7,7 +7,7 @@
   "provimento": "concurso-publico",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
-  "provimento_nota": "Concurso público nacional de provas e títulos, com participação da OAB, no cargo inicial de Defensor Público Federal de 2ª Categoria (CF, art. 134, § 1º; LC 80/1994, art. 24).",
+  "provimento_nota": "Concurso público nacional de provas e títulos, com participação da OAB, no cargo inicial de Defensor Público Federal de 2ª Categoria; bancas constituídas pelo Conselho Superior; nomeação pelo Presidente da República pela ordem de classificação, com escolha da lotação; os aprovados fazem curso oficial de preparação para a carreira (CF, art. 134, § 1º; LC 80/1994, arts. 24 a 29 e 26-A).",
   "mandato": {
     "anos": null,
     "vitalicio": false,
@@ -27,9 +27,18 @@
           "dispositivo": "art. 24"
         }
       ]
+    },
+    {
+      "texto": "registro na OAB (salvo quem é proibido de obtê-lo, que o comprova até a posse) e pelo menos dois anos de prática forense na inscrição",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 26"
+        }
+      ]
     }
   ],
-  "detalhes": "Tem inamovibilidade e não pode advogar fora das atribuições institucionais (CF, art. 134, § 1º). A carreira tem três categorias (LC 80/1994, art. 19). Garantias: independência funcional, inamovibilidade, irredutibilidade de vencimentos e estabilidade (art. 43).",
+  "detalhes": "Tem inamovibilidade e não pode advogar fora das atribuições institucionais (CF, art. 134, § 1º). A carreira tem três categorias: a 2ª categoria (inicial) atua nos juízos federais, do trabalho, eleitorais e militares e nas instâncias administrativas; a 1ª, nos TRFs, nas turmas recursais dos juizados federais, nos TRTs e nos TREs; a categoria especial, no STJ, no TST, no TSE, no STM e na Turma Nacional de Uniformização (LC 80/1994, arts. 19 a 22). A promoção de uma categoria a outra alterna antiguidade e merecimento, com lista tríplice do Conselho Superior, e é feita por ato do Defensor Público-Geral Federal (arts. 30 a 33); garantias: independência funcional, inamovibilidade, irredutibilidade de vencimentos e estabilidade (art. 43).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -37,7 +46,7 @@
     },
     {
       "ref": "norma:lc-80-1994",
-      "dispositivo": "arts. 19, 24 e 43"
+      "dispositivo": "arts. 18 a 33, 26-A e 43"
     },
     {
       "ref": "norma:lc-152-2015",
@@ -50,10 +59,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; corrigido: art. 135 da CF saiu das fontes (remete às Seções II e III; a Defensoria é a Seção IV desde a EC 80/2014); acrescentado o limite de 75 anos (LC 152/2015, art. 2º, IV)"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais",
+    "notas": "f2-funcoes-essenciais: detalhes com as três categorias e a promoção (LC 80/1994, arts. 19 a 22 e 30 a 33); provimento_nota com nomeação, lotação e curso de preparação (arts. 24 a 29 e 26-A); requisito do art. 26"
   },
   "notas": "O art. 135 da CF (remuneração por subsídio) fala nas carreiras das \"Seções II e III\" do capítulo; desde a EC 80/2014 a Defensoria está na Seção IV, e o texto não foi ajustado. Por isso não citamos o art. 135 aqui."
 }

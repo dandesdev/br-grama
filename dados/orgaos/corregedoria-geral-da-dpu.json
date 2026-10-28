@@ -1,0 +1,39 @@
+{
+  "id": "org:corregedoria-geral-da-dpu",
+  "tipo": "orgao",
+  "nome": "Corregedoria-Geral da Defensoria Pública da União",
+  "resumo": "Fiscaliza a atividade funcional e a conduta dos membros e servidores da DPU. É exercida pelo Corregedor-Geral.",
+  "detalhes": "Faz correições e inspeções, recebe representações contra defensores e as encaminha com parecer ao Conselho Superior, propõe processo disciplinar, acompanha o estágio probatório e pode propor a exoneração de quem não cumprir suas condições (LC 80/1994, arts. 11 e 13). Os chefes das unidades nos estados lhe enviam relatório semestral (art. 15, parágrafo único, V).",
+  "tipo_orgao": "outro",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:dpu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 5º, I, d"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 5º, I, d, 11, 13 e 49"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': o vocabulário não tem termo para órgão interno da Defensoria.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

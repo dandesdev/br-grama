@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-do-tcu-preside-plenario-do-tcu",
+  "tipo": "relacao",
+  "nome": "Presidente do TCU dirige o Plenário",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-tcu",
+  "para": "org:plenario-do-tcu",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 66; art. 70, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

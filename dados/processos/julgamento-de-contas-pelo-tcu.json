@@ -1,0 +1,318 @@
+{
+  "id": "proc:julgamento-de-contas-pelo-tcu",
+  "tipo": "processo",
+  "nome": "Julgamento de contas pelo TCU",
+  "resumo": "Como o TCU julga as contas de quem administra dinheiro federal: auditoria do controle interno, instrução, defesa, parecer do Ministério Público, julgamento e cobrança.",
+  "detalhes": "Vale para as contas anuais (tomada ou prestação de contas) e para a tomada de contas especial, aberta quando há dano ao Erário ou falta de prestação de contas. As contas do Presidente da República seguem outro caminho: o TCU só dá parecer prévio, e quem julga é o Congresso.",
+  "forma": "linha",
+  "produz": "obj:contas-de-gestao",
+  "etapas": [
+    {
+      "id": "tce-instauracao",
+      "atores": [
+        "org:cgu",
+        "org:tcu"
+      ],
+      "acao": "Diante de dano ao Erário ou de contas não prestadas, abre-se tomada de contas especial",
+      "detalhes": "Cabe à autoridade administrativa competente, que não tem nó próprio no mapa, instaurar a tomada de contas especial para apurar os fatos, identificar os responsáveis e quantificar o dano; o controle interno a alerta formalmente. Se ela não o fizer, o TCU determina a instauração, e o próprio Tribunal converte em tomada de contas especial o processo de fiscalização em que constatar dano. Vai direto ao TCU se o dano for igual ou maior que o valor fixado pelo Tribunal a cada ano; abaixo disso, é julgada junto com as contas anuais.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 8º, caput e §§ 1º a 3º; art. 47; art. 50, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "instrucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "contas-anuais",
+      "atores": [
+        "org:cgu"
+      ],
+      "acao": "O controle interno audita as contas anuais do responsável e emite relatório, certificado e parecer",
+      "detalhes": "As contas dos administradores de recursos federais são submetidas todo ano ao TCU, como tomada ou prestação de contas, com relatório de gestão e todos os recursos geridos. O ator mostrado é a CGU, órgão de controle interno do Executivo; no Legislativo e no Judiciário, a auditoria cabe ao controle interno de cada Poder.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 7º; art. 9º, I a III; art. 50, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pronunciamento-do-ministro",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pronunciamento-do-ministro",
+      "atores": [
+        "cargo:ministro-de-estado"
+      ],
+      "acao": "O Ministro de Estado supervisor atesta que conhece as conclusões do controle interno sobre as contas",
+      "detalhes": "O pronunciamento é expresso e indelegável. Fora do Executivo, faz-se a autoridade de nível hierárquico equivalente.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 9º, IV; art. 52"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "instrucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "instrucao",
+      "atores": [
+        "cargo:ministro-do-tcu",
+        "cargo:ministro-substituto-do-tcu",
+        "org:secretaria-do-tcu"
+      ],
+      "acao": "O relator preside a instrução, e a unidade técnica do TCU examina as contas",
+      "detalhes": "A distribuição dos processos aos relatores segue a publicidade, a alternância e o sorteio. O relator pode, por despacho, sobrestar o julgamento, mandar citar ou ouvir os responsáveis ou pedir diligências.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 1º, § 3º, I; art. 10, § 1º; art. 11; art. 107"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "irregularidade",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "irregularidade",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-tcu",
+        "cargo:ministro-substituto-do-tcu"
+      ],
+      "acao": "Há irregularidade nas contas?",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "citacao-ou-audiencia",
+          "quando": "há irregularidade"
+        },
+        {
+          "para": "parecer-do-mp",
+          "quando": "não há irregularidade"
+        }
+      ]
+    },
+    {
+      "id": "citacao-ou-audiencia",
+      "atores": [
+        "cargo:ministro-do-tcu",
+        "cargo:ministro-substituto-do-tcu"
+      ],
+      "acao": "O relator manda citar o responsável, se houver débito, ou ouvi-lo em audiência, se não houver",
+      "detalhes": "Citado, o responsável apresenta defesa ou recolhe a quantia devida; ouvido em audiência, apresenta razões de justificativa. Quem não atende é considerado revel e o processo segue. Reconhecida a boa-fé, o pagamento do débito atualizado no prazo sana o processo, se não houver outra irregularidade. A ampla defesa é assegurada em todas as etapas.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 12, I a IV e §§ 1º a 3º; art. 22; art. 31"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "parecer-do-mp",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "parecer-do-mp",
+      "atores": [
+        "org:mp-junto-ao-tcu"
+      ],
+      "acao": "O Ministério Público junto ao TCU dá parecer, obrigatório nos processos de contas",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 81, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-tcu",
+        "org:primeira-camara-do-tcu",
+        "org:segunda-camara-do-tcu"
+      ],
+      "acao": "O TCU julga as contas regulares, regulares com ressalva ou irregulares",
+      "detalhes": "Regulares: demonstram exatidão, legalidade, legitimidade e economicidade. Com ressalva: há falha formal sem dano. Irregulares: omissão no dever de prestar contas, ato ilegal, ilegítimo ou antieconômico, dano ao Erário, desfalque ou desvio; a reincidência no descumprimento de determinação também pode levar a esse resultado. Iliquidáveis: caso fortuito ou força maior torna impossível julgar o mérito. O Plenário ou uma das Câmaras julga, conforme o Regimento Interno.",
+      "prazo": {
+        "texto": "até o fim do exercício seguinte àquele em que as contas foram apresentadas (art. 14)",
+        "conta_de": "apresentação das contas"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "arts. 10, 14, 15, 16 e 20"
+        },
+        {
+          "ref": "norma:ritcu",
+          "dispositivo": "arts. 15 a 17"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "quitacao",
+          "quando": "contas regulares ou regulares com ressalva"
+        },
+        {
+          "para": "condenacao",
+          "quando": "contas irregulares"
+        },
+        {
+          "para": "trancamento",
+          "quando": "contas iliquidáveis"
+        }
+      ]
+    },
+    {
+      "id": "quitacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:plenario-do-tcu",
+        "org:primeira-camara-do-tcu",
+        "org:segunda-camara-do-tcu"
+      ],
+      "acao": "O TCU dá quitação ao responsável; nas contas com ressalva, determina a correção das falhas",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "arts. 17, 18 e 23, I e II"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "condenacao",
+      "atores": [
+        "org:plenario-do-tcu",
+        "org:primeira-camara-do-tcu",
+        "org:segunda-camara-do-tcu"
+      ],
+      "acao": "O TCU condena o responsável a pagar o débito, pode aplicar multa e o acórdão vira título executivo",
+      "detalhes": "Havendo débito, o responsável paga a dívida atualizada, com juros, e pode levar multa de até 100% do dano; sem débito, cabe a multa do art. 58. Em casos de dano por ato ilegítimo, desfalque ou desvio, o Tribunal fixa a responsabilidade solidária de quem concorreu para o dano e envia cópia ao Ministério Público da União. Por maioria absoluta, pode ainda inabilitar o responsável por cinco a oito anos para cargo em comissão.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 16, §§ 2º e 3º; art. 19; arts. 23, III, e 24; arts. 57, 58 e 60"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recursos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recursos",
+      "atores": [
+        "org:mp-junto-ao-tcu",
+        "org:plenario-do-tcu",
+        "org:primeira-camara-do-tcu",
+        "org:segunda-camara-do-tcu"
+      ],
+      "acao": "O responsável ou o Ministério Público junto ao TCU pode recorrer da decisão",
+      "detalhes": "Reconsideração, com efeito suspensivo, em 15 dias, julgada por quem decidiu; embargos de declaração em 10 dias; revisão ao Plenário, sem efeito suspensivo, em até cinco anos, por erro de cálculo, documento falso ou documento novo.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "arts. 32 a 35"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pagamento-ou-cobranca",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pagamento-ou-cobranca",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:tcu",
+        "org:mp-junto-ao-tcu",
+        "org:agu"
+      ],
+      "acao": "O responsável paga e recebe quitação; se não pagar, o TCU manda descontar o valor ou cobrar na Justiça",
+      "detalhes": "O Tribunal pode parcelar a dívida. Sem pagamento no prazo, determina o desconto nos vencimentos do responsável ou autoriza a cobrança judicial, que o Ministério Público junto ao TCU promove por meio da AGU ou dos dirigentes da entidade credora; pode também pedir o arresto de bens. Quando a cobrança custaria mais que o valor a recuperar, o processo pode ser arquivado sem cancelar o débito.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "arts. 25 a 28; art. 61; art. 81, III; art. 93"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "trancamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:plenario-do-tcu",
+        "org:primeira-camara-do-tcu",
+        "org:segunda-camara-do-tcu"
+      ],
+      "acao": "O TCU tranca as contas iliquidáveis e arquiva o processo",
+      "detalhes": "Em até cinco anos, diante de elementos novos, o Tribunal pode desarquivar o processo; depois disso, as contas são encerradas com baixa na responsabilidade do administrador.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "arts. 20, 21 e 29"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Rito da Lei 8.443/1992; o julgamento de contas pelo TCU está na CF desde 1988 (art. 71, II)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, II, VIII e § 3º"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "arts. 1º a 35, 47, 50, 52, 57 a 61 e 81"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "produz: o objeto mais próximo é obj:contas-de-gestao (as contas julgadas); a decisão em si (acórdão) não tem objeto próprio. A tomada de contas especial entra como etapa inicial alternativa, não como regime, porque muda só o começo do rito. Os prazos de defesa e de recolhimento ficam no Regimento Interno, não na lei.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

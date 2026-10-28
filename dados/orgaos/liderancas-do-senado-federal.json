@@ -1,0 +1,40 @@
+{
+  "id": "org:liderancas-do-senado-federal",
+  "tipo": "orgao",
+  "nome": "Lideranças partidárias do Senado Federal",
+  "resumo": "Os líderes e vice-líderes dos partidos e blocos do Senado, da Maioria, da Minoria, do Governo, da Oposição e da bancada feminina.",
+  "detalhes": "Cada representação partidária indica seu líder no início da 1ª e da 3ª sessão legislativa, em documento assinado pela maioria da bancada, e pode trocá-lo a qualquer momento. Os líderes indicam os membros das comissões. Bloco parlamentar precisa reunir ao menos um décimo do Senado; os líderes dos partidos que o formam perdem as prerrogativas, que passam ao líder do bloco.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 65"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 61, 62, 64, 65, 66, 66-A, 66-B e 66-C"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; previsto no RISF em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "Nó agregado. Os líderes da Maioria e da Minoria já tinham cargo próprio (integram o Conselho da República).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "proc:escolha-do-procurador-geral-de-justica-do-mpdft",
+  "tipo": "processo",
+  "nome": "Escolha do Procurador-Geral de Justiça do MPDFT",
+  "resumo": "Os membros do MPDFT elegem uma lista tríplice, o PGR a encaminha ao Presidente da República, que nomeia um dos três para mandato de dois anos.",
+  "detalhes": "Diferentemente do MPT e do MPM, quem nomeia é o Presidente da República, sem aprovação do Senado; o Senado só atua na destituição antecipada, por maioria absoluta e mediante representação do Presidente (LC 75/1993, art. 156, § 2º). A recondução, permitida uma vez, exige nova lista tríplice (art. 156).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "lista-triplice",
+      "atores": [
+        "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft"
+      ],
+      "acao": "O Colégio de Procuradores e Promotores de Justiça elege a lista tríplice por voto plurinominal, facultativo e secreto",
+      "detalhes": "Concorrem membros com mais de cinco anos de exercício na carreira que não tenham sofrido condenação definitiva nos últimos quatro anos nem respondam a processo penal ou administrativo.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "votacao": "secreta",
+        "nota": "Maioria absoluta dos eleitores, em voto plurinominal e facultativo, sem reunião do colégio."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 156, caput e § 1º; art. 162, I e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "encaminhamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "encaminhamento",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O Procurador-Geral da República encaminha a lista tríplice ao Presidente da República",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 26, V"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "nomeacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "nomeacao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente da República nomeia um dos três",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 156"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "posse",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "posse",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O Procurador-Geral da República dá posse ao nomeado",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 26, IV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "mandato",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O Procurador-Geral de Justiça exerce mandato de dois anos, com uma recondução precedida de nova lista",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 156"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, IV e V; art. 156; art. 162, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

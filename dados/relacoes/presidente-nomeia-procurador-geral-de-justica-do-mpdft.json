@@ -1,0 +1,32 @@
+{
+  "id": "rel:presidente-nomeia-procurador-geral-de-justica-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Nomeação do Procurador-Geral de Justiça do MPDFT",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:procurador-geral-de-justica-do-mpdft",
+  "condicao": "Escolhe um dos nomes da lista tríplice encaminhada pelo PGR, para mandato de dois anos; a posse é dada pelo PGR.",
+  "depende_de": [
+    "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-procurador-geral-de-justica-do-mpdft"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 3º"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, IV e V; art. 156"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

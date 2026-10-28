@@ -1,0 +1,27 @@
+{
+  "id": "rel:cgu-representa-a-mjsp",
+  "tipo": "relacao",
+  "nome": "A CGU provoca o Ministério da Justiça quando há indício de crime",
+  "relacao": "representa-a",
+  "de": "org:cgu",
+  "para": "org:ministerio-da-justica-e-seguranca-publica",
+  "condicao": "Quando houver indícios de responsabilidade penal, inclusive em representações ou denúncias manifestamente caluniosas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 49, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 14.600/2023, a base citada (antes, MP 1.154/2023). A regra pode ser anterior; não pesquisamos."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

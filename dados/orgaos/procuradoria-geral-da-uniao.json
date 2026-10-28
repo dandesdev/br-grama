@@ -1,0 +1,46 @@
+{
+  "id": "org:procuradoria-geral-da-uniao",
+  "tipo": "orgao",
+  "nome": "Procuradoria-Geral da União",
+  "sigla": "PGU",
+  "resumo": "Órgão da AGU que representa a União em juízo, exceto nas causas fiscais, a cargo da PGFN.",
+  "detalhes": "Subordina-se direta e imediatamente ao Advogado-Geral da União (LC 73/1993, arts. 2º, § 1º, e 9º). O Procurador-Geral da União representa a União nos tribunais superiores; as Procuradorias Regionais da União, nos demais tribunais; e as Procuradorias da União nos estados e no DF, na primeira instância da Justiça Federal, com procuradorias seccionais criadas por proposta do Advogado-Geral (arts. 2º, II, a, e § 2º, e 9º).",
+  "tipo_orgao": "advocacia-publica",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:agu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 2º, I, b, e § 1º"
+        }
+      ]
+    }
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 45, § 1º",
+      "nota": "competência e estrutura detalhadas no Regimento Interno da AGU"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º, I, b, II, a, §§ 1º e 2º; art. 9º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

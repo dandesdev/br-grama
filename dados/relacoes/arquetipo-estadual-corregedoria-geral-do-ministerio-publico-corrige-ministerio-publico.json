@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-corregedoria-geral-do-ministerio-publico-corrige-ministerio-publico",
+  "tipo": "relacao",
+  "nome": "Correição no MP estadual",
+  "relacao": "corrige",
+  "de": "org:arquetipo-estadual-corregedoria-geral-do-ministerio-publico",
+  "para": "org:arquetipo-estadual-ministerio-publico",
+  "condicao": "Instaura e preside processo disciplinar contra membros e aplica as sanções previstas na lei orgânica; os casos reservados ao procurador-geral seguem para ele decidir.",
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

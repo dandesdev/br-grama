@@ -1,0 +1,39 @@
+{
+  "id": "cargo:lider-da-oposicao-no-senado-federal",
+  "tipo": "cargo",
+  "nome": "Líder da Oposição no Senado Federal",
+  "resumo": "Líder indicado pelo maior partido ou bloco de oposição ao Governo Federal, com as mesmas prerrogativas da Liderança do Governo.",
+  "orgao": "org:liderancas-do-senado-federal",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Indicado pelo bloco parlamentar ou partido de oposição com mais senadores (RISF, art. 66-B, parágrafo único).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo."
+  },
+  "requisitos": [
+    {
+      "texto": "ser senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 66-B"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RISF em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "A Liderança da Oposição é facultativa (\"poderão constituir\"). Ocupante não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

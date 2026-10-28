@@ -1,0 +1,71 @@
+{
+  "id": "cargo:procurador-geral-de-justica-do-mpdft",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral de Justiça do Distrito Federal e Territórios",
+  "resumo": "Chefe do MPDFT. É nomeado pelo Presidente da República a partir de lista tríplice da carreira, para mandato de dois anos.",
+  "detalhes": "Atua no Plenário do TJDFT, integra o Colégio de Procuradores e Promotores de Justiça, o Conselho Superior e a Comissão de Concurso e nomeia o Corregedor-Geral (LC 75/1993, arts. 158 e 159). Elabora a proposta orçamentária do MPDFT, que, aprovada pelo Conselho Superior, envia ao PGR, a quem também propõe a criação de cargos (art. 159, XVI a XVIII). Designa entre os procuradores de justiça o Vice-Procurador-Geral de Justiça, que o substitui nos impedimentos; na vacância, exerce o cargo o Vice-Presidente do Conselho Superior (art. 157).",
+  "orgao": "org:mpdft",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "O Colégio de Procuradores e Promotores de Justiça forma lista tríplice por voto plurinominal, facultativo e secreto; o PGR a encaminha ao Presidente da República, que nomeia um dos três, e o PGR lhe dá posse (CF, art. 128, § 3º; LC 75/1993, arts. 26, IV e V, 156 e 162, I). Pode ser destituído antes do fim do mandato por deliberação da maioria absoluta do Senado Federal, mediante representação do Presidente da República (art. 156, § 2º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "Mandato de dois anos, com uma recondução precedida de nova lista tríplice (CF, art. 128, § 3º; LC 75/1993, art. 156)."
+  },
+  "requisitos": [
+    {
+      "texto": "membro do MPDFT com mais de cinco anos de exercício nas funções da carreira",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 156, § 1º"
+        }
+      ]
+    },
+    {
+      "texto": "sem condenação definitiva nos últimos quatro anos e sem responder a processo penal ou administrativo",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 156, § 1º"
+        }
+      ]
+    },
+    {
+      "texto": "incluído em lista tríplice do Colégio de Procuradores e Promotores de Justiça",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 128, § 3º"
+        },
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 156 e 162, I"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 26, IV e V, 28, 155 a 160 e 182"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A CF, art. 128, § 4º, fala em destituição dos procuradores-gerais do DF e Territórios pela maioria absoluta do Poder Legislativo; a LC 75/1993, art. 156, § 2º, atribui a deliberação ao Senado Federal, mediante representação do Presidente.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

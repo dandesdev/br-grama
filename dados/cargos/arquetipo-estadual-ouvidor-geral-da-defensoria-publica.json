@@ -1,0 +1,56 @@
+{
+  "id": "cargo:arquetipo-estadual-ouvidor-geral-da-defensoria-publica",
+  "tipo": "cargo",
+  "nome": "Ouvidor-Geral da Defensoria Pública do Estado",
+  "resumo": "Dirige a Ouvidoria-Geral da Defensoria do estado. É escolhido pelo Conselho Superior em lista tríplice da sociedade civil e não pode ser membro da carreira.",
+  "detalhes": "Exerce o cargo em dedicação exclusiva (LC 80/1994, art. 105-B, § 3º). É membro nato do Conselho Superior (art. 101), onde participa com direito a voz (art. 105-C, IV); publica relatório semestral e pesquisas de satisfação dos usuários (art. 105-C, III e IX).",
+  "orgao": "org:arquetipo-estadual-ouvidoria-geral-da-defensoria-publica",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-a-partir-de-lista",
+  "vagas": 1,
+  "provimento_nota": "A sociedade civil forma lista tríplice, na forma regulada pelo Conselho Superior; o Conselho escolhe um dos nomes e o defensor público-geral o nomeia (LC 80/1994, art. 105-B).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida uma recondução",
+    "nota": "LC 80/1994, art. 105-B."
+  },
+  "requisitos": [
+    {
+      "texto": "cidadão de reputação ilibada que não integre a carreira",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 105-B"
+        }
+      ]
+    },
+    {
+      "texto": "incluído em lista tríplice formada pela sociedade civil",
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 105-B"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Incluído pela LC 132/2009; a data de início não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 101, 105-B e 105-C"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O art. 101 inclui o Ouvidor-Geral entre os membros natos do Conselho Superior; o art. 105-C, IV, fala em participação 'com direito a voz'. A lei não diz expressamente se ele vota.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-corregedoria-geral-da-defensoria-publica-corrige-defensoria-publica",
+  "tipo": "relacao",
+  "nome": "Correição na Defensoria do estado",
+  "relacao": "corrige",
+  "de": "org:arquetipo-estadual-corregedoria-geral-da-defensoria-publica",
+  "para": "org:arquetipo-estadual-defensoria-publica",
+  "condicao": "Fiscaliza membros e servidores e propõe processo disciplinar; as infrações e sanções são definidas em lei estadual.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 103, 105 e 133 a 135"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

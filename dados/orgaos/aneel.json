@@ -1,0 +1,75 @@
+{
+  "id": "org:aneel",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Energia Elétrica",
+  "sigla": "Aneel",
+  "resumo": "Agência reguladora federal que regula e fiscaliza a geração, a transmissão, a distribuição e a comercialização de energia elétrica.",
+  "detalhes": "Implementa as políticas do setor elétrico, promove por delegação as licitações de concessões e permissões, gere os contratos e fiscaliza os serviços, fixa tarifas de distribuição e de uso das redes e aplica multas (Lei 9.427/1996, art. 3º). É dirigida por um Diretor-Geral e quatro Diretores em regime de colegiado, nomeados pelo Presidente da República após aprovação do Senado, com mandatos não coincidentes de cinco anos sem recondução (arts. 4º e 5º).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-9427-1996",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:aneel-vincula-se-ministerio-de-minas-e-energia."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 21089"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9427-1996",
+      "dispositivo": "art. 1º; art. 3º, I a XX; art. 4º, caput e § 1º; art. 5º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, I; art. 3º, caput; art. 36; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "1996-12-27",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituída pela Lei 9.427/1996 (art. 1º), em vigor na publicação (27/12/1996). A instalação efetiva veio depois, por decreto não conferido aqui."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "Aneel (gov.br)",
+      "url": "https://www.gov.br/aneel/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cargo:procurador-geral-da-uniao",
+  "tipo": "cargo",
+  "nome": "Procurador-Geral da União",
+  "resumo": "Dirige a Procuradoria-Geral da União e representa a União nos tribunais superiores. É nomeado pelo Presidente por indicação do Advogado-Geral.",
+  "detalhes": "Pode atuar também perante os demais tribunais e a primeira instância e receber do Advogado-Geral delegação para desistir, transigir e firmar acordos nas ações da União (LC 73/1993, arts. 4º, § 3º, e 9º, §§ 1º e 4º). Integra o Conselho Superior da AGU (art. 8º, II).",
+  "orgao": "org:procuradoria-geral-da-uniao",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "Nomeado pelo Presidente da República mediante indicação do Advogado-Geral da União, sem aprovação do Senado (LC 73/1993, art. 49, I).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo de natureza especial, sem mandato fixo na lei."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito de elevado saber jurídico e reconhecida idoneidade",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "dez anos de prática forense",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 4º, § 3º, 8º, II, 9º, 49, I, e 55"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

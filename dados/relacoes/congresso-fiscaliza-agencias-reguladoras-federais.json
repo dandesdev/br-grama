@@ -1,0 +1,31 @@
+{
+  "id": "rel:congresso-fiscaliza-agencias-reguladoras-federais",
+  "tipo": "relacao",
+  "nome": "O Congresso exerce o controle externo das agências reguladoras",
+  "relacao": "fiscaliza",
+  "de": "org:congresso-nacional",
+  "para": "org:agencias-reguladoras-federais",
+  "condicao": "Com o auxílio do TCU. Detalha, para as agências, o controle externo que o Congresso exerce sobre todo o Executivo.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 14"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 70 e 71"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

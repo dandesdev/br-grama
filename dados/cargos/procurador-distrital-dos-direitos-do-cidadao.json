@@ -1,0 +1,53 @@
+{
+  "id": "cargo:procurador-distrital-dos-direitos-do-cidadao",
+  "tipo": "cargo",
+  "nome": "Procurador Distrital dos Direitos do Cidadão",
+  "resumo": "Procurador de justiça do MPDFT que coordena a defesa dos direitos constitucionais do cidadão diante dos Poderes Públicos do DF e dos prestadores de serviço público.",
+  "detalhes": "O MPDFT defende os direitos constitucionais do cidadão perante os Poderes Públicos e a administração do DF e dos Territórios, seus concessionários e delegatários (LC 75/1993, art. 151); o Procurador Distrital exerce essa função de forma dedicada, sempre que possível sem acumular outras (art. 152, § 1º).",
+  "orgao": "org:mpdft",
+  "provimento": "designacao",
+  "vagas": 1,
+  "provimento_nota": "O Procurador-Geral de Justiça designa um procurador de justiça depois de aprovação prévia do nome pelo Conselho Superior. Só pode ser dispensado antes do fim do prazo por iniciativa do Procurador-Geral, com a anuência da maioria absoluta do Conselho (LC 75/1993, arts. 152 e 166, II).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida, precedida de nova decisão do Conselho Superior",
+    "nota": "LC 75/1993, art. 152; a lei não limita o número de reconduções."
+  },
+  "requisitos": [
+    {
+      "texto": "procurador de justiça do MPDFT",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 152 e 176, II"
+        }
+      ]
+    },
+    {
+      "texto": "nome aprovado previamente pelo Conselho Superior do MPDFT",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "arts. 152 e 166, II"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 151, 152, 159, III, 166, II, e 176, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

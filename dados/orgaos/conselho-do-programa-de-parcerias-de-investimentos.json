@@ -1,0 +1,41 @@
+{
+  "id": "org:conselho-do-programa-de-parcerias-de-investimentos",
+  "tipo": "orgao",
+  "nome": "Conselho do Programa de Parcerias de Investimentos",
+  "sigla": "CPPI",
+  "resumo": "Colegiado da Presidência que assessora o Presidente nas políticas de parceria com a iniciativa privada em infraestrutura e desestatização.",
+  "detalhes": "Trata da interação entre o Estado e a iniciativa privada para empreendimentos públicos de infraestrutura e outras medidas de desestatização, nos termos do art. 7º da Lei 13.334/2016; a composição e as regras de funcionamento são definidas por ato do Executivo (Lei 14.600/2023, arts. 12 e 65). A Casa Civil coordena, monitora e supervisiona as ações do Programa de Parcerias de Investimentos (art. 3º, V).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 1º, IV"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, IV; art. 3º, V; art. 12; art. 65"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 13.334/2016 (que criou o programa e o conselho) não foi baixada nesta tarefa; a data de criação não foi pesquisada. Sigla CPPI: usada no art. 7º, § 1º, da Lei 13.334/2016, na redação dada pelo art. 65 da Lei 14.600/2023.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

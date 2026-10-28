@@ -1,0 +1,27 @@
+{
+  "id": "rel:corregedoria-parlamentar-do-senado-corrige-senador",
+  "tipo": "relacao",
+  "nome": "Corregedoria do Senado apura ilícitos envolvendo senadores",
+  "relacao": "corrige",
+  "de": "org:corregedoria-parlamentar-do-senado",
+  "para": "cargo:senador",
+  "condicao": "Sindicância sobre denúncias de ilícitos no âmbito do Senado que envolvam senadores; inquérito em caso de delito nos edifícios da Casa.",
+  "vigencia": {
+    "de": "1993-03-17",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 17/1993; a data de publicação não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-17-1993",
+      "dispositivo": "art. 2º, I e IV; art. 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

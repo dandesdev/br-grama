@@ -22,6 +22,10 @@
     {
       "ref": "fonte:stf-constituicao-e-o-supremo-art-130",
       "dispositivo": "ADI 3.315 (que cita a ADI 789) e MS 27.339"
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 64"
     }
   ],
   "campos": {
@@ -57,10 +61,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; corrigido: ganhou contido_em org:tcu (jurisprudência do STF), detalhes reescritos sem ampliar o art. 81, II, sigla com confiança oficial; Lei 8.443/1992, arts. 80 a 84, conferida"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentada a fonte Lei 8.443/1992, art. 64 (o MP funciona junto ao TCU), fase 2"
   },
   "notas": "contido_em org:tcu desde a verificação: o STF trata o MP de contas como parte da estrutura do tribunal (ADI 789, citada na ADI 3.315; ADI 4.427), e a Lei 8.443/1992, art. 83, lhe dá o apoio administrativo da secretaria do TCU. poder mantido em funcoes-essenciais-a-justica (a CF o trata na seção do MP), embora o TCU esteja no Legislativo. Que não faz parte do MPU: o art. 128, I, não o lista, e o STF diz que não tem vínculo com o MP comum. Os MPs de contas estaduais não foram modelados."
 }

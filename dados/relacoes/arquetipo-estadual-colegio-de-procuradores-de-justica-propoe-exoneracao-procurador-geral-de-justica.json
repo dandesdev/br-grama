@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-colegio-de-procuradores-de-justica-propoe-exoneracao-procurador-geral-de-justica",
+  "tipo": "relacao",
+  "nome": "Proposta de destituição do procurador-geral de justiça",
+  "relacao": "propoe-exoneracao",
+  "de": "org:arquetipo-estadual-colegio-de-procuradores-de-justica",
+  "para": "cargo:arquetipo-estadual-procurador-geral-de-justica",
+  "condicao": "Propõe ao Legislativo, por iniciativa da maioria absoluta dos integrantes, em caso de abuso de poder, conduta incompatível ou grave omissão, com ampla defesa. Ver aviso:destituicao-procurador-geral-de-justica-quorum.",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 9º, § 2º; art. 12, IV; art. 13, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Atribuição do Colégio inteiro: não pode ser delegada ao Órgão Especial (art. 13, parágrafo único).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

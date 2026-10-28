@@ -1,0 +1,43 @@
+{
+  "id": "rel:anatel-vincula-se-ministerio-das-comunicacoes",
+  "tipo": "relacao",
+  "nome": "A Anatel é vinculada ao Ministério das Comunicações",
+  "relacao": "vincula-se",
+  "de": "org:anatel",
+  "para": "org:ministerio-das-comunicacoes",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9472-1997",
+      "dispositivo": "art. 8º, caput"
+    },
+    {
+      "ref": "norma:decreto-11335-2023",
+      "dispositivo": "Anexo I, art. 2º, V, a"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, parágrafo único; arts. 19 e 26"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.335/2023, estrutura vigente do Ministério das Comunicações. A Lei 9.472/1997 (art. 8º) já vinculava a Anatel ao Ministério das Comunicações; períodos em outras pastas não levantados."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

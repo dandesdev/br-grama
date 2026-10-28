@@ -1,0 +1,46 @@
+{
+  "id": "org:camaras-de-coordenacao-e-revisao-do-mpdft",
+  "tipo": "orgao",
+  "nome": "Câmaras de Coordenação e Revisão do MPDFT",
+  "resumo": "Órgãos setoriais do MPDFT, organizados por função ou matéria, que coordenam a atuação dos membros e revisam arquivamentos de inquéritos civis e policiais.",
+  "detalhes": "Cada câmara tem três membros com mandato de dois anos, um indicado pelo Procurador-Geral de Justiça e dois pelo Conselho Superior; o Procurador-Geral designa o coordenador (LC 75/1993, arts. 169 e 170). Homologam a promoção de arquivamento de inquérito civil ou designam outro membro para agir, manifestam-se sobre o arquivamento de inquérito policial e decidem conflitos de atribuição (art. 171).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:mpdft",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 153, V"
+        }
+      ]
+    }
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 168",
+      "nota": "as câmaras são criadas por ato normativo, por função ou por matéria"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "arts. 167 a 171"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: a lei não fixa quantas câmaras existem; número atual não pesquisado (fase 4, D09).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

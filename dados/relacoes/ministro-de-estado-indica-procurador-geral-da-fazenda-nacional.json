@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-indica-procurador-geral-da-fazenda-nacional",
+  "tipo": "relacao",
+  "nome": "Indicação do Procurador-Geral da Fazenda Nacional",
+  "relacao": "indica",
+  "de": "cargo:ministro-de-estado",
+  "para": "cargo:procurador-geral-da-fazenda-nacional",
+  "condicao": "O Ministro da Fazenda indica o nome.",
+  "orgao_exercicio": "org:ministerio-da-fazenda",
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 49, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

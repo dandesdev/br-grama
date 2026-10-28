@@ -1,0 +1,25 @@
+{
+  "id": "rel:ministro-de-estado-preside-cnpe",
+  "tipo": "relacao",
+  "nome": "O Ministro de Minas e Energia preside o CNPE",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cnpe",
+  "orgao_exercicio": "org:ministerio-de-minas-e-energia",
+  "fontes": [
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 2º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-08-07",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

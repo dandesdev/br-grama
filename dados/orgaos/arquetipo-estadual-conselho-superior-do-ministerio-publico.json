@@ -1,0 +1,38 @@
+{
+  "id": "org:arquetipo-estadual-conselho-superior-do-ministerio-publico",
+  "tipo": "orgao",
+  "nome": "Conselho Superior do Ministério Público do Estado",
+  "resumo": "Colegiado do MP estadual que forma as listas para promoção, remoção e o quinto constitucional, decide o vitaliciamento e revê arquivamentos de inquérito civil.",
+  "detalhes": "Tem como membros natos só o procurador-geral de justiça e o Corregedor-Geral; os demais são procuradores de justiça eleitos, na forma da lei orgânica de cada estado (Lei 8.625/1993, art. 14). Forma as listas sêxtuplas do MP para os tribunais, indica em lista tríplice os candidatos a promoção e remoção por merecimento, decide o vitaliciamento e, por dois terços, a disponibilidade ou remoção de membros por interesse público (arts. 15 e 74). Revê o arquivamento de inquérito civil e expede editais para remoção e promoção (arts. 30 e 62).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-ministerio-publico",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8625-1993",
+          "dispositivo": "art. 5º, III"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "arts. 5º, III, 7º, II, 14, 15, 30, 62 e 74"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

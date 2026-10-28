@@ -1,0 +1,39 @@
+{
+  "id": "org:unidades-da-dpu-nos-estados",
+  "tipo": "orgao",
+  "nome": "Defensorias Públicas da União nos estados e no DF",
+  "resumo": "Órgãos de atuação da DPU em cada estado e no DF, dirigidos por um Defensor Público-Chefe, que podem atuar por meio de núcleos.",
+  "detalhes": "Atuam junto às Justiças Federal, do Trabalho, Eleitoral e Militar, aos tribunais superiores e às instâncias administrativas da União; a DPU deve firmar convênios para que as Defensorias dos estados atuem em seu nome onde ela não estiver (LC 80/1994, art. 14). Cada unidade é dirigida por Defensor Público-Chefe designado pelo Defensor Público-Geral Federal, que coordena os defensores da área e envia relatório semestral à Corregedoria (arts. 15 a 17). A organização da DPU deve priorizar a descentralização e o atendimento interdisciplinar (art. 15-A).",
+  "tipo_orgao": "conjunto",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:dpu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-80-1994",
+          "dispositivo": "art. 5º, II"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 5º, II, 14 a 17 e 15-A"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Conjunto: uma unidade por estado e no DF, mais os núcleos; número de núcleos não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

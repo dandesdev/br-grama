@@ -1,0 +1,74 @@
+{
+  "id": "cargo:ouvidor-de-agencia-reguladora",
+  "tipo": "cargo",
+  "nome": "Ouvidor de agência reguladora",
+  "resumo": "Cada agência reguladora federal tem um ouvidor, sem subordinação hierárquica, que acompanha as reclamações contra a agência. É escolhido pelo Presidente e aprovado pelo Senado.",
+  "orgao": "org:agencias-reguladoras-federais",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "vagas": 12,
+  "vagas_nota": "Um por agência (Lei 13.848/2019, art. 22, caput), nas doze agências do art. 2º. Cargos vagos não foram levantados.",
+  "provimento_nota": "O Presidente da República escolhe o nome, o Senado aprova e o Presidente nomeia (Lei 13.848/2019, art. 23, caput; CF, art. 52, III, f). Na vacância, o sucessor completa o prazo restante, com recondução admitida se ele for de até dois anos (art. 23, § 4º).",
+  "mandato": {
+    "anos": 3,
+    "vitalicio": false,
+    "reconducao": "Vedada, salvo quando o sucessor completa mandato alheio com prazo restante de até dois anos (Lei 13.848/2019, art. 23, §§ 1º e 4º).",
+    "nota": "Só perde o cargo por renúncia, condenação judicial transitada em julgado ou condenação em processo disciplinar (art. 23, § 1º). O processo disciplinar só pode ser instaurado pelo ministro da pasta a que a agência se vincula, por iniciativa dele ou do Ministro da CGU, a partir de representação da diretoria da agência (art. 23, § 3º)."
+  },
+  "requisitos": [
+    {
+      "texto": "não ser inelegível pela LC 64/1990 (art. 1º, I)",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 23, caput"
+        }
+      ]
+    },
+    {
+      "texto": "notório conhecimento em administração pública, em regulação de setores econômicos ou no campo de atuação da agência",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 23, caput"
+        }
+      ]
+    },
+    {
+      "texto": "não ter participação, direta ou indireta, em empresa regulada pela agência",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 23, § 2º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Zela pela qualidade e pela rapidez dos serviços da agência, acompanha a apuração de denúncias e reclamações contra ela e tem acesso a todos os seus processos. Faz relatório anual, que vai à diretoria e depois ao ministro supervisor, à Câmara, ao Senado e ao TCU; o relatório não obriga a diretoria (Lei 13.848/2019, art. 22).",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "arts. 22 a 24"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 11"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (contagem nossa). Algumas agências já tinham ouvidor pelas leis próprias; a Aneel, a ANP e a ANA tiveram 120 dias para organizar as suas (art. 47)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11), um por agência; \"orgao\" aponta para o conjunto das agências. Ocupantes não foram levantados. Na ANTT e na Antaq, a Lei 10.233/2001 (art. 63) também prevê ouvidor nomeado pelo Presidente com mandato de três anos sem recondução.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

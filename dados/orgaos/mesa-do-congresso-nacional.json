@@ -10,21 +10,29 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 57, § 5º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "página de rosto da edição oficial de 2025 (composição da Mesa no biênio 2025–2026)"
+    },
+    {
+      "ref": "fonte:senado-api-cargos-de-senadores",
+      "dispositivo": "senadores 5008, 475 e 4811: cargos na Mesa Diretora do Congresso Nacional desde 2025-02-01"
     }
   ],
   "ente": "ente:uniao",
   "contido_em": "org:congresso-nacional",
-  "detalhes": "Os demais cargos da Mesa são ocupados, alternadamente, por quem ocupa os cargos equivalentes nas Mesas da Câmara e do Senado.",
+  "detalhes": "É presidida pelo Presidente do Senado. Os demais cargos são ocupados, alternadamente, por quem ocupa os cargos equivalentes nas Mesas da Câmara e do Senado: no biênio 2025–2026, o Primeiro Vice-Presidente e o Primeiro e o Terceiro Secretários vêm da Câmara, e o Segundo Vice-Presidente e o Segundo e o Quarto Secretários vêm do Senado.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF art. 57, § 5º conferido"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "composição conferida (f2-legislativo-tcu): RCCN, edição 2025, e dados abertos do Senado; detalhes ampliados com a alternância do biênio 2025–2026"
   },
   "campos": {
     "contido_em": {

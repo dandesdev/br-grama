@@ -1,0 +1,25 @@
+{
+  "id": "rel:corregedoria-geral-da-dpu-corrige-dpu",
+  "tipo": "relacao",
+  "nome": "Correição na DPU",
+  "relacao": "corrige",
+  "de": "org:corregedoria-geral-da-dpu",
+  "para": "org:dpu",
+  "condicao": "Faz correições e propõe processo disciplinar; o Defensor Público-Geral Federal instaura o processo, por recomendação do Conselho Superior, e o decide.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "arts. 8º, IX e X, 11, 13 e 49"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

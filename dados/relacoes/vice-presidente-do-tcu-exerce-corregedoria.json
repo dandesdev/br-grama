@@ -1,0 +1,29 @@
+{
+  "id": "rel:vice-presidente-do-tcu-exerce-corregedoria",
+  "tipo": "relacao",
+  "nome": "Vice-Presidente do TCU exerce as funções de corregedor",
+  "relacao": "exerce",
+  "de": "cargo:vice-presidente-do-tcu",
+  "para": "org:corregedoria-do-tcu",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 69, § 2º"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "art. 31, III; art. 32"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

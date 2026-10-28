@@ -1,0 +1,41 @@
+{
+  "id": "org:procuradoria-parlamentar-do-senado",
+  "tipo": "orgao",
+  "nome": "Procuradoria Parlamentar do Senado Federal",
+  "resumo": "Defende o Senado, seus órgãos e seus senadores quando atingidos na honra ou na imagem por causa do mandato, em colaboração com a Mesa.",
+  "detalhes": "Cinco senadores designados pelo Presidente do Senado para dois anos, renováveis uma vez, com um Coordenador escolhido entre eles. Pede publicidade reparadora e promove medidas judiciais por meio do Ministério Público, da Advocacia-Geral da União, da Advocacia do Senado ou de advogados contratados.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-40-1995",
+          "dispositivo": "art. 1º, caput"
+        }
+      ],
+      "nota": "A resolução diz que a Procuradoria dá apoio à Mesa; não a põe dentro dela."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-40-1995",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1995-08-23",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 40/1995; a data de publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

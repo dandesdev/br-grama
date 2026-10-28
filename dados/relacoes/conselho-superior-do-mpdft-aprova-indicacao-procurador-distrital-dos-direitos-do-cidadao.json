@@ -1,0 +1,25 @@
+{
+  "id": "rel:conselho-superior-do-mpdft-aprova-indicacao-procurador-distrital-dos-direitos-do-cidadao",
+  "tipo": "relacao",
+  "nome": "Aprovação do Procurador Distrital dos Direitos do Cidadão",
+  "relacao": "aprova-indicacao",
+  "de": "org:conselho-superior-do-mpdft",
+  "para": "cargo:procurador-distrital-dos-direitos-do-cidadao",
+  "condicao": "Aprova previamente o nome e cada recondução; a dispensa antecipada exige a anuência da maioria absoluta do Conselho.",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 152; art. 166, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

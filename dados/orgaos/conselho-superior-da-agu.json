@@ -1,0 +1,38 @@
+{
+  "id": "org:conselho-superior-da-agu",
+  "tipo": "orgao",
+  "nome": "Conselho Superior da Advocacia-Geral da União",
+  "resumo": "Colegiado da AGU que organiza os concursos das carreiras, as listas de promoção e remoção e decide a confirmação no cargo após o estágio.",
+  "detalhes": "É presidido pelo Advogado-Geral, com voto de desempate, e reúne o Procurador-Geral da União, o Procurador-Geral da Fazenda Nacional, o Consultor-Geral da União, o Corregedor-Geral e um representante eleito de cada carreira, com mandato de dois anos sem recondução (LC 73/1993, art. 8º). Propõe, organiza e dirige os concursos, organiza as listas de promoção e remoção e julga recursos contra elas, decide sobre a confirmação ou exoneração no estágio confirmatório e convoca os nomeados para escolher a vaga (arts. 7º, 21, § 5º, 24 e 25).",
+  "tipo_orgao": "colegiado",
+  "poder": "funcoes-essenciais-a-justica",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:agu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 2º, I, d"
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 2º, I, d; arts. 7º, 8º, 21, § 5º, 24 e 25"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

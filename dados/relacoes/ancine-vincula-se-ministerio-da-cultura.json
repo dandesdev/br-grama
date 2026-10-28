@@ -1,0 +1,43 @@
+{
+  "id": "rel:ancine-vincula-se-ministerio-da-cultura",
+  "tipo": "relacao",
+  "nome": "A Ancine é vinculada ao Ministério da Cultura",
+  "relacao": "vincula-se",
+  "de": "org:ancine",
+  "para": "org:ministerio-da-cultura",
+  "condicao": "Vinculação sem tutela nem subordinação hierárquica (agência reguladora).",
+  "fontes": [
+    {
+      "ref": "norma:mp-2228-1-2001",
+      "dispositivo": "art. 5º"
+    },
+    {
+      "ref": "norma:decreto-11336-2023",
+      "dispositivo": "Anexo I, art. 2º, V, a, 1"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, parágrafo único; arts. 19 e 26"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.336/2023, estrutura vigente do Ministério da Cultura. A MP 2.228-1/2001 (art. 5º) ainda fala em vinculação ao Ministério do Desenvolvimento, Indústria e Comércio Exterior; a vinculação atual vem do decreto (Lei 14.600/2023, art. 1º, § 3º). Períodos anteriores não levantados."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

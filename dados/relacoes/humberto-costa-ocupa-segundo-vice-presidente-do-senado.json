@@ -1,0 +1,29 @@
+{
+  "id": "rel:humberto-costa-ocupa-segundo-vice-presidente-do-senado",
+  "tipo": "relacao",
+  "nome": "Humberto Costa ocupa o cargo de Segundo Vice-Presidente do Senado Federal",
+  "relacao": "ocupa",
+  "de": "pessoa:humberto-costa",
+  "para": "cargo:segundo-vice-presidente-do-senado-federal",
+  "vigencia": {
+    "de": "2025-02-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-cargos-de-senadores",
+      "dispositivo": "senador 5008, Comissão Diretora (CDIR), 2º VICE-PRESIDENTE, DataInicio 2025-02-01, sem DataFim"
+    },
+    {
+      "ref": "fonte:senado-api-mesa-senado",
+      "dispositivo": "Comissão Diretora, cargo 2º VICE-PRESIDENTE (versão de 27/10/2026)"
+    }
+  ],
+  "confianca": "oficial",
+  "detalhes": "Eleito para a Mesa do biênio 2025–2026.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

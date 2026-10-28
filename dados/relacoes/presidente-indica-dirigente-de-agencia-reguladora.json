@@ -1,0 +1,31 @@
+{
+  "id": "rel:presidente-indica-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "O Presidente indica os dirigentes das agências reguladoras",
+  "relacao": "indica",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "A indicação diz se a vaga é de Presidente, Diretor-Presidente, Diretor-Geral, Diretor ou Conselheiro.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 5º, caput e § 5º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação atual dada pela Lei 13.848/2019 (vigência contada por nós). A aprovação pelo Senado já constava da redação original da Lei 9.986/2000."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

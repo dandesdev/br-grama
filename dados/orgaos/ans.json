@@ -1,0 +1,75 @@
+{
+  "id": "org:ans",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Saúde Suplementar",
+  "sigla": "ANS",
+  "resumo": "Agência reguladora federal dos planos de saúde: registra operadoras e planos, define a cobertura mínima, autoriza reajustes e fiscaliza o setor.",
+  "detalhes": "Elabora o rol de procedimentos de cobertura obrigatória, autoriza o registro e o funcionamento das operadoras e dos planos, autoriza reajustes ouvido o Ministério da Fazenda, normatiza o ressarcimento ao SUS e aplica penalidades (Lei 9.961/2000, arts. 1º e 4º). É dirigida por uma Diretoria Colegiada de cinco diretores, um deles o Diretor-Presidente, nomeados pelo Presidente da República após aprovação do Senado, com mandato de cinco anos sem recondução (arts. 5º a 7º). Tem sede no Rio de Janeiro.",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-9961-2000",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:ans-vincula-se-ministerio-da-saude."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 45013"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9961-2000",
+      "dispositivo": "art. 1º; art. 4º; art. 5º; arts. 6º e 7º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, V; art. 3º, caput; art. 40; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2000-01-29",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 9.961/2000, conversão da MP 2.012-2/2000; a primeira medida provisória que criou a ANS não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "ANS (gov.br)",
+      "url": "https://www.gov.br/ans/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

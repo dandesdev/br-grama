@@ -1,0 +1,24 @@
+{
+  "id": "rel:procurador-geral-de-justica-do-mpdft-preside-colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Presidência do Colégio de Procuradores e Promotores de Justiça do MPDFT",
+  "relacao": "preside",
+  "de": "cargo:procurador-geral-de-justica-do-mpdft",
+  "para": "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 161"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

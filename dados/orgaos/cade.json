@@ -4,7 +4,7 @@
   "nome": "Conselho Administrativo de Defesa Econômica",
   "sigla": "Cade",
   "resumo": "Autarquia federal que previne e pune infrações contra a ordem econômica, como cartéis, e aprova ou veta fusões e aquisições de empresas.",
-  "detalhes": "Julga, na esfera administrativa, processos por infração à ordem econômica e decide sobre atos de concentração, como fusões e aquisições. Tem um Tribunal Administrativo de sete membros (Presidente e seis Conselheiros) nomeados pelo Presidente da República após aprovação do Senado, com mandato de quatro anos sem recondução, além de uma Superintendência-Geral e de um Departamento de Estudos Econômicos.",
+  "detalhes": "Julga, na esfera administrativa, processos por infração à ordem econômica e decide sobre atos de concentração, como fusões e aquisições. Tem um Tribunal Administrativo de sete membros (Presidente e seis Conselheiros) nomeados pelo Presidente da República após aprovação do Senado, com mandato de quatro anos sem recondução, além de uma Superintendência-Geral e de um Departamento de Estudos Econômicos. Embora não seja agência reguladora, a Lei 13.848/2019 lhe estende a natureza especial das agências e as regras de controle externo, relatório anual e planejamento (arts. 3º e 14 a 20, por força do art. 51).",
   "tipo_orgao": "autarquia",
   "poder": "executivo",
   "esfera": "federal",
@@ -33,6 +33,10 @@
     {
       "ref": "norma:lei-12529-2011",
       "dispositivo": "arts. 3º a 7º"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 51"
     }
   ],
   "vigencia": {
@@ -50,9 +54,9 @@
     }
   ],
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-administracao-indireta",
-    "notas": "coletado em f0-administracao-indireta; Lei 12.529, arts. 3º a 6º, DL 200, art. 4º, II, a, e SIORG (unidade 322, Autarquia) conferidos; nota sobre o SBDC atualizada com a unidade que hoje exerce o art. 19 (Decreto 11.907/2024)"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "acrescentada a Lei 13.848/2019, art. 51 (aplica ao Cade o art. 3º e os arts. 14 a 20); antes verificado em verificacao-f0-administracao-indireta"
   }
 }

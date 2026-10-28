@@ -1,0 +1,33 @@
+{
+  "id": "rel:senado-exonera-procurador-geral-de-justica-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Destituição do Procurador-Geral de Justiça do MPDFT",
+  "relacao": "exonera",
+  "de": "org:senado-federal",
+  "para": "cargo:procurador-geral-de-justica-do-mpdft",
+  "condicao": "Antes do fim do mandato, mediante representação do Presidente da República.",
+  "quorum": {
+    "regra": "maioria-absoluta"
+  },
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 128, § 4º"
+    },
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 156, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Termo exonera, como em rel:arquetipo-estadual-assembleia-legislativa-exonera-procurador-geral-de-justica: o próprio Legislativo delibera a destituição.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

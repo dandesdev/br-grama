@@ -14,13 +14,17 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 51, II"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 32, XI, a; art. 215"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF art. 51, II conferido; removida nota interna desatualizada (o vocabulário v1 já tem toma-contas)"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentada a fonte RICD, art. 32, XI, a, e art. 215 (fase 2)"
   }
 }

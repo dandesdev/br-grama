@@ -1,0 +1,80 @@
+{
+  "id": "org:anpd",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Proteção de Dados",
+  "sigla": "ANPD",
+  "resumo": "Agência reguladora federal que zela pela proteção de dados pessoais: edita regulamentos, fiscaliza o tratamento de dados e aplica as sanções da LGPD.",
+  "detalhes": "Elabora diretrizes para a política nacional de proteção de dados, fiscaliza e sanciona o tratamento irregular de dados, aprecia petições de titulares contra controladores e edita regulamentos; a aplicação das sanções da LGPD é exclusiva dela (Lei 13.709/2018, arts. 55-J e 55-K). Tem Conselho Diretor de cinco diretores, entre eles o Diretor-Presidente, escolhidos e nomeados pelo Presidente da República após aprovação do Senado, além do Conselho Nacional de Proteção de Dados Pessoais e da Privacidade, Corregedoria, Ouvidoria, Procuradoria e Auditoria (arts. 55-C e 55-D).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-13709-2018",
+          "dispositivo": "art. 55-A"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:anpd-vincula-se-ministerio-da-justica-e-seguranca-publica."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 235884"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13709-2018",
+      "dispositivo": "art. 55-A; art. 55-C; art. 55-D; art. 55-E; art. 55-J; art. 55-K"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, XII; art. 3º, caput; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    },
+    {
+      "ref": "norma:lei-15352-2026",
+      "dispositivo": "arts. 12, 15 e 17"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-28",
+    "ate": null,
+    "incerta": true,
+    "nota": "Os artigos da LGPD sobre a autoridade (55-A a 55-L) vigoram desde 28/12/2018 (art. 65, I). Era órgão da Presidência; virou autarquia de natureza especial pela Lei 14.460/2022 (conversão da MP 1.124/2022) e passou a se chamar Agência Nacional de Proteção de Dados e a constar da lista de agências reguladoras pela Lei 15.352/2026 (conversão da MP 1.317/2025)."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "ANPD (gov.br)",
+      "url": "https://www.gov.br/anpd/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  },
+  "notas": "O mandato de quatro anos do Conselho Diretor (LGPD, art. 55-D, § 3º) diverge dos cinco anos da Lei 9.986/2000 (art. 6º), que passou a valer para a ANPD com a Lei 15.352/2026: ver aviso:mandato-conselho-diretor-anpd. Afastamento e julgamento de diretor em processo disciplinar cabem ao Presidente da República, e a instauração ao Ministro-Chefe da Casa Civil (art. 55-E, §§ 1º e 2º)."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cargo:procurador-federal",
+  "tipo": "cargo",
+  "nome": "Procurador Federal",
+  "resumo": "Membro de carreira da Procuradoria-Geral Federal, que representa e assessora as autarquias e fundações públicas federais. Ingressa por concurso.",
+  "detalhes": "A carreira foi criada pela Medida Provisória 2.229-43/2001 e integra quadro próprio da PGF; o Advogado-Geral disciplina e homologa os concursos e distribui os cargos pelas três categorias da carreira (Lei 10.480/2002, art. 12).",
+  "orgao": "org:procuradoria-geral-federal",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos, disciplinado, promovido e homologado pelo Advogado-Geral da União (Lei 10.480/2002, art. 12, § 1º, I).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, sem mandato nem vitaliciedade."
+  },
+  "requisitos": [
+    {
+      "texto": "aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:lei-10480-2002",
+          "dispositivo": "art. 12, § 1º, I"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2002-07-03",
+    "ate": null,
+    "nota": "A carreira é anterior (MP 2.229-43/2001); usamos a data da Lei 10.480/2002, que a pôs no quadro próprio da PGF."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 131, § 2º"
+    },
+    {
+      "ref": "norma:lei-10480-2002",
+      "dispositivo": "arts. 10 e 12"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A MP 2.229-43/2001, que criou a carreira, não foi consultada nesta tarefa; requisitos de ingresso e categorias por nome não conferidos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

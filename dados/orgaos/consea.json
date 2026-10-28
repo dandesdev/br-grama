@@ -1,0 +1,41 @@
+{
+  "id": "org:consea",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Segurança Alimentar e Nutricional",
+  "sigla": "Consea",
+  "resumo": "Colegiado da Presidência que assessora o Presidente em políticas para garantir o direito humano à alimentação e no combate à fome.",
+  "detalhes": "Integra as ações do governo voltadas a quem não tem meios para prover suas necessidades básicas, em especial o combate à fome. As regras de funcionamento são definidas por ato do Executivo (Lei 14.600/2023, art. 13).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 1º, V"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, V; art. 13"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Sigla Consea: não aparece na Lei 14.600/2023; uso corrente, não conferido em fonte oficial nesta tarefa. A lei própria do conselho (Lei 11.346/2006, Losan) não foi consultada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

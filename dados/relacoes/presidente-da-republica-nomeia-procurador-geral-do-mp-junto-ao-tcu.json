@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-da-republica-nomeia-procurador-geral-do-mp-junto-ao-tcu",
+  "tipo": "relacao",
+  "nome": "Presidente da República nomeia o Procurador-Geral junto ao TCU",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:procurador-geral-do-mp-junto-ao-tcu",
+  "condicao": "Entre os integrantes da carreira, para dois anos, permitida a recondução.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 80, caput"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "art. 58, §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

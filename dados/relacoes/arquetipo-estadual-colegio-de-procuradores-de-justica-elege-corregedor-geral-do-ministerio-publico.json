@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-colegio-de-procuradores-de-justica-elege-corregedor-geral-do-ministerio-publico",
+  "tipo": "relacao",
+  "nome": "Eleição do Corregedor-Geral do MP estadual",
+  "relacao": "elege",
+  "de": "org:arquetipo-estadual-colegio-de-procuradores-de-justica",
+  "para": "cargo:arquetipo-estadual-corregedor-geral-do-ministerio-publico",
+  "condicao": "Entre os procuradores de justiça, para mandato de dois anos, com uma recondução pelo mesmo procedimento.",
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 12, V; art. 16"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

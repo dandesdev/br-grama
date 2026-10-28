@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-defensor-publico-geral-nomeia-corregedor-geral-da-defensoria-publica",
+  "tipo": "relacao",
+  "nome": "Nomeação do Corregedor-Geral da Defensoria do estado",
+  "relacao": "nomeia",
+  "de": "cargo:arquetipo-estadual-defensor-publico-geral",
+  "para": "cargo:arquetipo-estadual-corregedor-geral-da-defensoria-publica",
+  "condicao": "Escolhe um dos nomes da lista tríplice do Conselho Superior, para mandato de dois anos, com uma recondução.",
+  "depende_de": [
+    "rel:arquetipo-estadual-conselho-superior-da-defensoria-publica-indica-corregedor-geral"
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 104"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

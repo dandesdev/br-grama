@@ -1,0 +1,70 @@
+{
+  "id": "cargo:corregedor-geral-da-agu",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral da Advocacia da União",
+  "resumo": "Dirige a Corregedoria-Geral da AGU. É nomeado pelo Presidente, por indicação do Advogado-Geral, entre os membros efetivos da AGU.",
+  "detalhes": "Integra o Conselho Superior da AGU e apresenta ao Advogado-Geral o relatório de cada correição, propondo as medidas cabíveis (LC 73/1993, arts. 8º, II, e 33).",
+  "orgao": "org:corregedoria-geral-da-agu",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "Nomeado pelo Presidente da República mediante indicação do Advogado-Geral, entre os membros efetivos da AGU (LC 73/1993, art. 49, I e § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo de natureza especial, sem mandato fixo na lei."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito de elevado saber jurídico e reconhecida idoneidade",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "dez anos de prática forense",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "mais de 35 anos",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 55"
+        }
+      ]
+    },
+    {
+      "texto": "membro efetivo da AGU",
+      "fontes": [
+        {
+          "ref": "norma:lc-73-1993",
+          "dispositivo": "art. 49, § 1º"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "arts. 8º, II, 33, 49, I e § 1º, e 55"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

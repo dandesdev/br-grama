@@ -1,0 +1,25 @@
+{
+  "id": "rel:anpd-integra-agencias-reguladoras-federais",
+  "tipo": "relacao",
+  "nome": "A ANPD é uma das agências reguladoras federais",
+  "relacao": "integra",
+  "de": "org:anpd",
+  "para": "org:agencias-reguladoras-federais",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, XII"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Inciso XII incluído pela MP 1.317/2025 (data não conferida) e mantido na conversão pela Lei 15.352, de 25/2/2026."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

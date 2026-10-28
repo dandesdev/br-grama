@@ -13,10 +13,14 @@
     },
     {
       "ref": "norma:lei-14600-2023",
-      "dispositivo": "arts. 17 e 18"
+      "dispositivo": "arts. 17 e 18; art. 50, caput e § 1º; art. 54, II"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "arts. 19, 20 e 25 a 28"
     }
   ],
-  "detalhes": "Orienta e supervisiona os órgãos da sua área, assina junto com o Presidente (referenda) os atos e decretos dele, expede instruções para executar leis e apresenta relatório anual ao Presidente (art. 87, parágrafo único).",
+  "detalhes": "Orienta e supervisiona os órgãos da sua área, assina junto com o Presidente (referenda) os atos e decretos dele, expede instruções para executar leis e apresenta relatório anual ao Presidente (art. 87, parágrafo único). Responde perante o Presidente pela supervisão dos órgãos e das entidades da sua área: orienta, coordena e controla os órgãos subordinados e as entidades vinculadas, sem hierarquia sobre estas, que lhe prestam contas e respondem por seu intermédio aos pedidos de informação do Congresso (Decreto-Lei 200/1967, arts. 19, 20 e 25 a 28). Cada ministério tem, no mínimo, Gabinete do Ministro, Secretaria-Executiva (exceto Defesa e Relações Exteriores), Consultoria Jurídica, Ouvidoria e Secretarias, e o Secretário-Executivo supervisiona e coordena as Secretarias (Lei 14.600/2023, art. 50).",
   "vagas_nota": "Contagem nossa no texto compilado da Lei 14.600/2023 (reconferida em 2026-10-17): 32 ministérios no art. 17 (incisos I a XXXI e XII-A, incluindo a CGU) e mais 6 titulares com cargo de Ministro de Estado no art. 18, II a VII (Casa Civil, Secretaria-Geral, Secretaria de Relações Institucionais, Secretaria de Comunicação Social, GSI e AGU). O Presidente do Banco Central deixou de ter cargo de Ministro de Estado com a LC 179/2021 (art. 9º). Os ministérios são criados e extintos por lei (CF, art. 88), então o número muda.",
   "mandato": null,
   "requisitos": [
@@ -65,9 +69,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; art. 87 e parágrafo único, art. 84, I e II, art. 12, § 3º, VII conferidos; contagem de 38 refeita no texto compilado da Lei 14.600/2023 (última alteração: Lei 15.352/2026, sem efeito nos arts. 17 e 18); nenhuma MPV de 2025 ou 2026 com ementa que crie ministério (API da Câmara); imprensa de 2026 também fala em 38 pastas"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "detalhes com a supervisão ministerial (DL 200/1967, arts. 19, 20 e 25 a 28) e a estrutura mínima dos ministérios (Lei 14.600/2023, art. 50); art. 54, II, nas fontes; antes verificado em verificacao-piloto-estrutura"
   }
 }

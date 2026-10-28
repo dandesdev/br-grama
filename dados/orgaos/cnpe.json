@@ -1,0 +1,44 @@
+{
+  "id": "org:cnpe",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Política Energética",
+  "sigla": "CNPE",
+  "resumo": "Colegiado da Presidência, presidido pelo Ministro de Minas e Energia, que propõe ao Presidente políticas nacionais e medidas para a área de energia.",
+  "detalhes": "Criado pela Lei 9.478/1997 (art. 2º), propõe políticas para o aproveitamento racional dos recursos energéticos, o suprimento de áreas remotas e a revisão periódica das matrizes energéticas, entre outras. A Lei 14.600/2023 o põe entre os órgãos de assessoramento do Presidente (arts. 2º, § 1º, III, e 11); as regras de funcionamento são fixadas por ato do Executivo.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 2º, § 1º, III"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 2º, § 1º, III; art. 11"
+    },
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 2º, caput e I a III"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-08-07",
+    "ate": null,
+    "nota": "Criado pela Lei 9.478/1997 (art. 2º), em vigor na publicação (7/8/1997)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

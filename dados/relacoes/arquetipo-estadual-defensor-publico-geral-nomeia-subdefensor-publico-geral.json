@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-defensor-publico-geral-nomeia-subdefensor-publico-geral",
+  "tipo": "relacao",
+  "nome": "Nomeação do subdefensor público-geral do estado",
+  "relacao": "nomeia",
+  "de": "cargo:arquetipo-estadual-defensor-publico-geral",
+  "para": "cargo:arquetipo-estadual-subdefensor-publico-geral",
+  "condicao": "Entre integrantes estáveis da carreira, na forma da lei estadual.",
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 99, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

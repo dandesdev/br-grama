@@ -1,0 +1,40 @@
+{
+  "id": "org:procuradoria-especial-da-mulher-do-senado",
+  "tipo": "orgao",
+  "nome": "Procuradoria Especial da Mulher do Senado Federal",
+  "resumo": "Defende os direitos da mulher no Senado, recebe denúncias de violência e discriminação e fiscaliza programas federais de igualdade de gênero.",
+  "detalhes": "Uma Procuradora designada pelo Presidente do Senado a cada dois anos, no início da 1ª e da 3ª sessão legislativa. Também incentiva a participação das senadoras nos trabalhos da Casa e auxilia as comissões em projetos sobre direitos da mulher e da família.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-9-2013",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-9-2013",
+      "dispositivo": "arts. 1º e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2013-03-25",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 9/2013; a data de publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

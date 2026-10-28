@@ -1,0 +1,34 @@
+{
+  "id": "rel:presidente-nomeia-ouvidor-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia os ouvidores das agências reguladoras",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:ouvidor-de-agencia-reguladora",
+  "condicao": "Só depois da aprovação do Senado.",
+  "depende_de": [
+    "rel:senado-aprova-indicacao-ouvidor-de-agencia-reguladora"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 23, caput"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIV"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

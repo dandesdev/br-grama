@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-representa-a-ministerio-publico-eleitoral",
+  "tipo": "relacao",
+  "nome": "TCU envia ao Ministério Público Eleitoral a lista de contas irregulares",
+  "relacao": "representa-a",
+  "de": "org:tcu",
+  "para": "org:ministerio-publico-eleitoral",
+  "condicao": "Nomes dos responsáveis com contas julgadas irregulares nos cinco anos anteriores à eleição, para fins de inelegibilidade (LC 64/1990, art. 1º, I, g).",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 91"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

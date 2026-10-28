@@ -3,18 +3,12 @@
   "tipo": "orgao",
   "nome": "Comissões do Senado Federal",
   "resumo": "Colegiados de senadores que examinam os projetos por tema e podem decidir de forma terminativa, sem o plenário.",
-  "detalhes": "Agrupa as comissões permanentes, organizadas por tema, e as temporárias. Neste mapa só a CCJ aparece individualmente; as demais estão listadas no art. 72 do RISF.",
+  "detalhes": "Agrupa as 16 comissões permanentes, organizadas por tema (RISF, art. 72), e as temporárias: internas, externas e de inquérito. O número de membros de cada comissão permanente está no próprio Regimento (art. 77); cada senador pode ser titular de até três comissões e suplente de outras três.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
   "ente": "ente:uniao",
   "contido_em": "org:senado-federal",
-  "estrutura_continua": [
-    {
-      "ref": "norma:risf",
-      "dispositivo": "art. 72"
-    }
-  ],
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -26,15 +20,15 @@
     },
     {
       "ref": "norma:risf",
-      "dispositivo": "arts. 71, 72 e 91"
+      "dispositivo": "arts. 71, 72, 74, 77 e 91"
     }
   ],
   "confianca": "oficial",
   "notas": "Nó agregado: representa o conjunto das comissões, não um órgão único. Criado para servir de ator no processo da lei ordinária. vigencia.de = promulgação da CF/88, que é a base usada aqui; o órgão pode ser anterior.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-processo-lei",
-    "notas": "coletado em piloto-processo-lei"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "detalhes reescritos: as 16 comissões permanentes agora têm nó próprio; estrutura_continua removida; fontes ampliadas com os arts. 74 e 77"
   }
 }

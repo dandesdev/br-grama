@@ -1,0 +1,49 @@
+{
+  "id": "org:instituto-serzedello-correa",
+  "tipo": "orgao",
+  "nome": "Instituto Serzedello Corrêa",
+  "sigla": "ISC",
+  "resumo": "Escola do TCU: faz os concursos e cursos de formação para as carreiras do Tribunal, treina os servidores e mantém biblioteca e centro de documentação.",
+  "detalhes": "A Lei 8.443/1992 criou o instituto na Secretaria do TCU, subordinado diretamente à Presidência, e deixou sua organização para resolução do Tribunal. Hoje é unidade da Secretaria-Geral da Presidência e também cuida da gestão do conhecimento e da gestão documental.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:secretaria-do-tcu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 88, caput"
+        },
+        {
+          "ref": "norma:resolucao-tcu-373-2024",
+          "dispositivo": "art. 9º, VIII"
+        }
+      ],
+      "nota": "A lei o põe na Secretaria do Tribunal, subordinado à Presidência; a Resolução-TCU 373/2024 o coloca na Secretaria-Geral da Presidência, que não tem nó próprio."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 88"
+    },
+    {
+      "ref": "norma:resolucao-tcu-373-2024",
+      "dispositivo": "art. 9º, VIII; arts. 24 e 25"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Criado pela Lei 8.443/1992, art. 88; o nome vem da Resolução-TCU 373/2024."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

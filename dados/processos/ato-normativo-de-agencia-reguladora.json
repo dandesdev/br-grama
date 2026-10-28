@@ -1,0 +1,285 @@
+{
+  "id": "proc:ato-normativo-de-agencia-reguladora",
+  "tipo": "processo",
+  "nome": "Edição de ato normativo por agência reguladora",
+  "resumo": "Como uma agência reguladora federal aprova uma norma de interesse geral: análise de impacto, consulta pública de pelo menos 45 dias e decisão colegiada em reunião pública.",
+  "detalhes": "Vale para os atos normativos de interesse geral dos agentes econômicos, dos consumidores ou dos usuários; cada agência detalha o rito no seu regimento interno (Lei 13.848/2019, arts. 6º, § 2º, e 9º, § 6º).",
+  "forma": "linha",
+  "produz": "obj:ato-normativo-de-agencia-reguladora",
+  "etapas": [
+    {
+      "id": "analise-de-impacto",
+      "atores": [
+        "org:agencias-reguladoras-federais"
+      ],
+      "acao": "A agência faz a análise de impacto regulatório (AIR) da proposta de ato normativo",
+      "detalhes": "A AIR reúne dados sobre os possíveis efeitos do ato. Um regulamento diz quando ela é obrigatória e quando pode ser dispensada; sem AIR, a agência divulga ao menos uma nota técnica que fundamente a proposta.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 6º, caput e §§ 1º, 2º e 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "manifestacao-da-diretoria",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "manifestacao-da-diretoria",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:dirigente-de-agencia-reguladora"
+      ],
+      "acao": "A diretoria colegiada se manifesta sobre o relatório de AIR e decide se a proposta segue",
+      "detalhes": "Diz se a proposta é adequada aos objetivos e se os impactos estimados recomendam adotá-la, com os complementos necessários. A manifestação acompanha o relatório na consulta ou audiência pública.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 6º, §§ 3º e 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "consulta-publica",
+          "quando": "segue"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "não segue"
+        }
+      ]
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A proposta não segue",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 6º, § 4º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "consulta-publica",
+      "atores": [
+        "org:agencias-reguladoras-federais"
+      ],
+      "acao": "A agência abre consulta pública sobre a minuta, com aviso no Diário Oficial e no seu sítio",
+      "detalhes": "Qualquer interessado envia críticas, sugestões e contribuições. A agência publica, desde o início, o relatório de AIR, os estudos, os dados e o material técnico, salvo os sigilosos.",
+      "prazo": {
+        "texto": "no mínimo 45 dias, salvo prazo diferente em lei específica ou urgência motivada",
+        "valor": 45,
+        "unidade": "dias",
+        "conta_de": "publicação do aviso de abertura"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 9º, caput e §§ 1º a 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "divulgacao-das-contribuicoes",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "divulgacao-das-contribuicoes",
+      "atores": [
+        "org:agencias-reguladoras-federais"
+      ],
+      "acao": "A agência divulga as críticas e sugestões recebidas",
+      "prazo": {
+        "texto": "até 10 dias úteis após o fim da consulta",
+        "valor": 10,
+        "unidade": "dias-uteis",
+        "conta_de": "término da consulta pública"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 9º, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "audiencia-publica-decisao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "audiencia-publica-decisao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:dirigente-de-agencia-reguladora"
+      ],
+      "acao": "A diretoria decide se convoca audiência pública sobre a matéria",
+      "detalhes": "A audiência é facultativa, para matéria relevante; nela qualquer interessado pode se manifestar oralmente.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 10, caput e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "audiencia-publica",
+          "quando": "sim"
+        },
+        {
+          "para": "deliberacao",
+          "quando": "não"
+        }
+      ]
+    },
+    {
+      "id": "audiencia-publica",
+      "atores": [
+        "org:agencias-reguladoras-federais"
+      ],
+      "acao": "A agência realiza audiência pública, aberta a manifestações orais",
+      "detalhes": "O aviso sai no Diário Oficial e em outros meios; os documentos que fundamentam a proposta ficam disponíveis antes do início. O relatório da audiência é divulgado em até 30 dias úteis após o encerramento.",
+      "prazo": {
+        "texto": "aviso e documentos com antecedência mínima de 5 dias úteis",
+        "valor": 5,
+        "unidade": "dias-uteis",
+        "conta_de": "início da audiência"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 10, §§ 2º a 4º; art. 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "deliberacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "deliberacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:dirigente-de-agencia-reguladora"
+      ],
+      "acao": "A diretoria colegiada delibera sobre o ato em reunião pública e gravada",
+      "detalhes": "A pauta é divulgada no sítio da agência com antecedência e só se delibera o que está nela. A gravação sai em até 15 dias úteis e a ata em até 5 dias úteis após aprovada.",
+      "prazo": {
+        "texto": "pauta divulgada com no mínimo 3 dias úteis de antecedência",
+        "valor": 3,
+        "unidade": "dias-uteis",
+        "conta_de": "reunião deliberativa"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos votos dos membros do colegiado, entre eles o presidente, diretor-presidente ou diretor-geral (art. 7º, § 1º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 7º, caput e § 1º; art. 8º, caput e §§ 1º a 4º; art. 9º, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "posicionamento-sobre-contribuicoes",
+          "quando": "aprova"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "rejeita"
+        }
+      ]
+    },
+    {
+      "id": "rejeicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O ato não é aprovado",
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 7º, § 1º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "posicionamento-sobre-contribuicoes",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:agencias-reguladoras-federais"
+      ],
+      "acao": "A agência divulga seu posicionamento sobre as contribuições da consulta pública",
+      "prazo": {
+        "texto": "até 30 dias úteis após a reunião de deliberação final",
+        "valor": 30,
+        "unidade": "dias-uteis",
+        "conta_de": "reunião de deliberação final"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 9º, § 5º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "urgencia",
+      "nome": "Matéria urgente e relevante",
+      "resumo": "Dispensa a antecedência da pauta e permite consulta pública mais curta, com motivação.",
+      "quem_aciona": [
+        "cargo:dirigente-de-agencia-reguladora"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-13848-2019",
+          "dispositivo": "art. 8º, § 5º; art. 9º, § 2º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "consulta-publica",
+          "nota": "Em caso excepcional de urgência e relevância, devidamente motivado, a consulta pode durar menos de 45 dias (art. 9º, § 2º)."
+        },
+        {
+          "etapa": "deliberacao",
+          "nota": "A critério do presidente, diretor-presidente ou diretor-geral, a matéria pode ser deliberada sem a divulgação prévia da pauta (art. 8º, § 5º)."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "arts. 6º a 12"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "As reuniões que tratam de documentos sigilosos ou de matéria administrativa não seguem as regras de publicidade do art. 8º (§ 6º). As etapas de audiência pública e de AIR podem não ocorrer: a audiência é facultativa (art. 10) e a AIR pode ser dispensada nos casos do regulamento (art. 6º, § 1º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

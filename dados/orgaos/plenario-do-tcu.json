@@ -1,0 +1,47 @@
+{
+  "id": "org:plenario-do-tcu",
+  "tipo": "orgao",
+  "nome": "Plenário do Tribunal de Contas da União",
+  "resumo": "Reunião dos nove ministros do TCU, dirigida pelo Presidente; decide as matérias mais importantes, como o parecer sobre as contas do Presidente da República.",
+  "detalhes": "Elege o Presidente e o Vice-Presidente, aprova e altera o Regimento Interno por maioria absoluta dos ministros, julga recursos de revisão e forma a lista tríplice de ministros-substitutos e procuradores para as vagas de ministro escolhidas pelo Presidente da República. A competência privativa do Plenário, que as Câmaras não podem exercer, está no Regimento Interno.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tcu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 66"
+        },
+        {
+          "ref": "norma:ritcu",
+          "dispositivo": "art. 7º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 66; art. 67, § 1º; art. 72, I; art. 99"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "arts. 7º, 15 e 16"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

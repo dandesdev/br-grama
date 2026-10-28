@@ -1,0 +1,28 @@
+{
+  "id": "rel:arquetipo-estadual-colegio-de-procuradores-de-justica-exonera-corregedor-geral-do-ministerio-publico",
+  "tipo": "relacao",
+  "nome": "Destituição do Corregedor-Geral do MP estadual",
+  "relacao": "exonera",
+  "de": "org:arquetipo-estadual-colegio-de-procuradores-de-justica",
+  "para": "cargo:arquetipo-estadual-corregedor-geral-do-ministerio-publico",
+  "condicao": "Em caso de abuso de poder, conduta incompatível ou grave omissão, por representação do procurador-geral ou da maioria dos integrantes, com ampla defesa.",
+  "quorum": {
+    "regra": "dois-tercos"
+  },
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 12, VI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

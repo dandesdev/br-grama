@@ -4,7 +4,7 @@
   "nome": "Defensoria Pública da União",
   "sigla": "DPU",
   "resumo": "Presta orientação jurídica e defesa gratuita a quem não pode pagar, nas causas da Justiça Federal, do Trabalho, Eleitoral e Militar e nos tribunais superiores.",
-  "detalhes": "Como as demais Defensorias, tem autonomia funcional e administrativa e faz a própria proposta orçamentária (CF, art. 134, §§ 2º e 3º). É chefiada pelo Defensor Público-Geral Federal, que atua junto ao STF (LC 80/1994, arts. 6º e 23). Os defensores públicos federais atuam nos estados e no DF, nas unidades da DPU (art. 5º).",
+  "detalhes": "Como as demais Defensorias, tem autonomia funcional e administrativa e faz a própria proposta orçamentária (CF, art. 134, §§ 2º e 3º). É chefiada pelo Defensor Público-Geral Federal, que atua junto ao STF (LC 80/1994, arts. 6º e 23). Os defensores públicos federais atuam nos estados e no DF, nas unidades da DPU (art. 5º). Pela LC 80/1994, as Defensorias têm como princípios a unidade, a indivisibilidade e a independência funcional e como objetivos, entre outros, a dignidade da pessoa humana, a redução das desigualdades e a efetividade dos direitos humanos (arts. 3º e 3º-A). Entre as funções listadas na lei estão a solução extrajudicial de conflitos, a ação civil pública em favor de grupos de pessoas carentes, a defesa de crianças, idosos, pessoas com deficiência, mulheres vítimas de violência e outros grupos vulneráveis, a atuação em presídios e unidades de internação e a representação a sistemas internacionais de direitos humanos (art. 4º). A DPU atua nas Justiças Federal, do Trabalho, Eleitoral e Militar, nos tribunais superiores e nas instâncias administrativas da União; seus órgãos de administração superior são a Defensoria Pública-Geral, a Subdefensoria, o Conselho Superior e a Corregedoria-Geral (arts. 5º e 14).",
   "tipo_orgao": "defensoria-publica",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
@@ -16,7 +16,7 @@
     },
     {
       "ref": "norma:lc-80-1994",
-      "dispositivo": "arts. 1º, 2º, I, 5º, 6º e 20 a 23"
+      "dispositivo": "arts. 1º a 4º, 3º-A, 5º, 6º, 14 e 20 a 23"
     }
   ],
   "estrutura_continua": [
@@ -39,10 +39,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-funcoes-essenciais",
-    "notas": "coletado em f0-funcoes-essenciais; CF, art. 134 (marca da EC 74/2013 no § 3º), e LC 80/1994, arts. 1º, 2º, 5º, 6º, 14 e 20 a 23, conferidos"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais",
+    "notas": "f2-funcoes-essenciais: detalhes ampliados com princípios e objetivos (LC 80/1994, arts. 3º e 3º-A), as funções (art. 4º), a atuação (art. 14) e os órgãos (art. 5º); fontes ampliadas"
   },
   "notas": "A autonomia da DPU veio com a EC 74/2013, que estendeu a ela o § 2º do art. 134 (marca no texto do Planalto). A Defensoria do DF não foi modelada."
 }

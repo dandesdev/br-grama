@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-nomeia-procurador-geral-da-fazenda-nacional",
+  "tipo": "relacao",
+  "nome": "Nomeação do Procurador-Geral da Fazenda Nacional",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:procurador-geral-da-fazenda-nacional",
+  "condicao": "Nomeia o indicado, sem aprovação do Senado.",
+  "depende_de": [
+    "rel:ministro-de-estado-indica-procurador-geral-da-fazenda-nacional"
+  ],
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 49, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

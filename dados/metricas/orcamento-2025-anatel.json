@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2025-anatel",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2025: Agência Nacional de Telecomunicações",
+  "resumo": "Pagou R$ 706,7 milhões em 2025; dotação atualizada de R$ 805,4 milhões.",
+  "de": "org:anatel",
+  "medida": "orcamento-executado",
+  "exercicio": 2025,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 706725460.11,
+    "despesas_pagas": 616927821.5,
+    "restos_a_pagar_pagos": 89797638.61,
+    "pagamentos_primarios": 651102982.97,
+    "pagamentos_financeiros": 55622477.14,
+    "dotacao_inicial": 756246351,
+    "dotacao_atualizada": 805377045,
+    "despesas_empenhadas": 783580271.08,
+    "despesas_liquidadas": 680101920.67
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "41231"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2025-01-01",
+    "ate": "2025-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2025, aba \"2025\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-28",
+    "tarefa": "verificacao-f1-orcamento",
+    "notas": "Revisão independente (verificacao-f1-orcamento): recortes conferidos no resumo, contas refeitas por outro script sem divergência; Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços dos próprios órgãos. Correções da revisão aplicadas pelo coordenador. Agências reguladoras criadas em f2-executivo mapeadas pelo coordenador à unidade orçamentária de mesmo nome (32266, 41231, 36213, 53210, 39250, 68201, 42206, 68213, 30212)."
+  }
+}

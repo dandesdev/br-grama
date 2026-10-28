@@ -9,22 +9,27 @@
   "publicacao": "1967-02-27",
   "ente": "ente:uniao",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm",
-  "acesso_em": "2026-10-23",
+  "acesso_em": "2026-10-28",
   "arquivo": "http://web.archive.org/web/20261011192845/https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm",
-  "compilacao_ate": "Lei 9.649/1998",
-  "redacao_conferida_em": "2026-10-23",
+  "compilacao_ate": "Lei 9.636/1998 (revoga o art. 195)",
+  "redacao_conferida_em": "2026-10-28",
   "vigencia": {
     "de": "1967-03-15",
     "ate": null,
     "nota": "Art. 214: em vigor em 15/3/1967, ressalvadas as disposições com vigência própria. Publicado no DOU de 27/2/1967, com retificações em 8/3, 30/3 e 17/7/1967."
   },
-  "fontes": [],
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 214"
+    }
+  ],
   "confianca": "oficial",
-  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/del0200.htm. Dispositivos usados: art. 4º (administração direta e indireta; parágrafo único: as entidades da indireta vinculam-se ao ministério da sua principal atividade), art. 5º (definições de autarquia, empresa pública, sociedade de economia mista e fundação pública), arts. 19, 20 e 26 (supervisão ministerial). A alteração mais recente que aparece no texto compilado é da Lei 9.649/1998; as remissões à Lei 10.683/2003 são só 'vide'.",
+  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/del0200.htm. Dispositivos usados: art. 4º (administração direta e indireta; parágrafo único: as entidades da indireta vinculam-se ao ministério da sua principal atividade), art. 5º (definições de autarquia, empresa pública, sociedade de economia mista e fundação pública), arts. 19, 20 e 26 (supervisão ministerial). A alteração mais recente que aparece no texto compilado é da Lei 9.649/1998; as remissões à Lei 10.683/2003 são só 'vide'. Cópia bruta de 2026-10-28 em pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/del0200.htm (f2-executivo). A última alteração marcada no texto é a revogação do art. 195 pela Lei 9.636/1998; a Lei 9.649/1998 aparece só como \"vide\". Revogados expressamente no texto: arts. 58, 125 a 144, 151, 168, 169 e 192 a 197 (30 artigos); muitos outros estão superados por leis posteriores sem revogação expressa marcada.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-administracao-indireta",
-    "notas": "coletado em f0-administracao-indireta; data, publicação, vigência e dispositivos usados conferidos na cópia bruta"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "reconferida a compilação na cópia de 2026-10-28; compilacao_ate e notas atualizados; antes verificado em verificacao-f0-administracao-indireta"
   }
 }

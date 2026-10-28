@@ -1,0 +1,24 @@
+{
+  "id": "rel:advogado-geral-da-uniao-indica-procurador-geral-da-uniao",
+  "tipo": "relacao",
+  "nome": "Indicação do Procurador-Geral da União",
+  "relacao": "indica",
+  "de": "cargo:advogado-geral-da-uniao",
+  "para": "cargo:procurador-geral-da-uniao",
+  "vigencia": {
+    "de": "1993-02-11",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-73-1993",
+      "dispositivo": "art. 49, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

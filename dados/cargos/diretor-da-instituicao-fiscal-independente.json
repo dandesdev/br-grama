@@ -1,0 +1,46 @@
+{
+  "id": "cargo:diretor-da-instituicao-fiscal-independente",
+  "tipo": "cargo",
+  "nome": "Diretor da Instituição Fiscal Independente",
+  "resumo": "Membro do Conselho Diretor da IFI: três diretores com mandato de quatro anos, aprovados pelo Senado depois de arguição pública.",
+  "detalhes": "Um é o diretor-executivo, indicado pelo Presidente do Senado; os outros dois são indicados pela CAE e pela CTFC. Não podem exercer outra atividade profissional nem ter filiação partidária.",
+  "orgao": "org:instituicao-fiscal-independente",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "provimento_nota": "Indicação pelo Presidente do Senado, pela CAE ou pela CTFC, conforme a vaga; arguição pública e aprovação pelo Senado (Resolução nº 42/2016, art. 1º, §§ 2º e 3º).",
+  "vagas": 3,
+  "mandato": {
+    "anos": 4,
+    "reconducao": "não admitida",
+    "nota": "Mandatos não coincidentes, renovados a cada dois anos, alternadamente."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro de reputação ilibada e notório saber nos temas da IFI",
+      "fontes": [
+        {
+          "ref": "norma:senado-resolucao-42-2016",
+          "dispositivo": "art. 1º, § 3º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:senado-resolucao-42-2016",
+      "dispositivo": "art. 1º, §§ 2º a 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-11-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Resolução do Senado nº 42/2016; a data de publicação não foi conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (três vagas). Ocupantes não pesquisados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "rel:vice-presidente-do-tcu-substitui-presidente-do-tcu",
+  "tipo": "relacao",
+  "nome": "Vice-Presidente do TCU substitui o Presidente",
+  "relacao": "substitui",
+  "de": "cargo:vice-presidente-do-tcu",
+  "para": "cargo:presidente-do-tcu",
+  "condicao": "Nas ausências e impedimentos; na falta dos dois, assume o ministro mais antigo em exercício.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 69, §§ 2º e 3º"
+    },
+    {
+      "ref": "norma:ritcu",
+      "dispositivo": "art. 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "ordem": 1,
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

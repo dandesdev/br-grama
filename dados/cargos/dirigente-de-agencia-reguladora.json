@@ -1,0 +1,84 @@
+{
+  "id": "cargo:dirigente-de-agencia-reguladora",
+  "tipo": "cargo",
+  "nome": "Membro do conselho diretor ou da diretoria colegiada de agência reguladora",
+  "resumo": "Dirige, em colegiado de até cinco membros, uma das doze agências reguladoras federais. É indicado pelo Presidente, aprovado pelo Senado e tem mandato fixo de cinco anos.",
+  "orgao": "org:agencias-reguladoras-federais",
+  "provimento": "nomeacao-com-aprovacao-do-senado",
+  "vagas": 59,
+  "vagas_nota": "Soma nossa das composições fixadas nas leis de cada agência: Aneel 5 (Lei 9.427/1996, art. 4º), ANP 5 (Lei 9.478/1997, art. 11), Anatel 5 (Lei 9.472/1997, art. 20), Anvisa 5 (Lei 9.782/1999, art. 10), ANS 5 (Lei 9.961/2000, art. 6º), ANA 5 (Lei 9.984/2000, art. 9º), Antaq 5 e ANTT 5 (Lei 10.233/2001, art. 53), Ancine 4 (MP 2.228-1/2001, art. 8º), Anac 5 (Lei 11.182/2005, art. 10), ANM 5 (Lei 13.575/2017, art. 5º) e ANPD 5 (Lei 13.709/2018, art. 55-D). Em cada agência, um deles é o Presidente, Diretor-Presidente ou Diretor-Geral (cargo CD I); os demais são Diretores ou Conselheiros (CD II). Cargos vagos não foram levantados.",
+  "provimento_nota": "O Presidente da República indica, dizendo em cada caso se a vaga é de Presidente, Diretor-Presidente, Diretor-Geral, Diretor ou Conselheiro; o Senado aprova, por voto secreto; o Presidente nomeia (Lei 9.986/2000, art. 5º, caput e § 5º; CF, art. 52, III, f). Na vacância antes do fim do mandato, o sucessor completa o prazo restante. Enquanto não há novo titular, exerce o cargo um servidor da lista de substituição: três superintendentes ou equivalentes que o Presidente designa entre nomes indicados pela própria diretoria, cada um por até 180 dias seguidos (art. 10).",
+  "mandato": {
+    "anos": 5,
+    "vitalicio": false,
+    "inicio": "Logo após o fim do mandato anterior, qualquer que seja a data da indicação, da aprovação ou da posse (Lei 9.986/2000, art. 5º, § 8º).",
+    "reconducao": "Vedada, salvo quando o sucessor completa mandato alheio com prazo restante de até dois anos (art. 5º, § 7º; art. 6º).",
+    "nota": "Mandatos não coincidentes, para que a cada ano termine, se possível, um mandato (art. 4º, §§ 1º e 2º). Só perde o mandato por renúncia, condenação judicial transitada em julgado, condenação em processo disciplinar ou violação das vedações do art. 8º-B (art. 9º). A ANM e a ANPD têm prazos diferentes nas leis próprias (ver avisos)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro, de reputação ilibada e notório conhecimento no campo de sua especialidade",
+      "fontes": [
+        {
+          "ref": "norma:lei-9986-2000",
+          "dispositivo": "art. 5º, caput"
+        }
+      ]
+    },
+    {
+      "texto": "experiência de 10 anos em direção superior no setor da agência, ou 4 anos em cargo de direção em empresa do setor, cargo em comissão DAS-4 ou superior, ou docência e pesquisa na área, ou 10 anos como profissional liberal na área",
+      "fontes": [
+        {
+          "ref": "norma:lei-9986-2000",
+          "dispositivo": "art. 5º, I"
+        }
+      ]
+    },
+    {
+      "texto": "formação acadêmica compatível com o cargo",
+      "fontes": [
+        {
+          "ref": "norma:lei-9986-2000",
+          "dispositivo": "art. 5º, II"
+        }
+      ]
+    },
+    {
+      "texto": "não ser Ministro de Estado, secretário estadual ou municipal, dirigente de partido nem parlamentar (nem parente até o terceiro grau deles), nem ter atuado em partido ou campanha nos 36 meses anteriores, nem ocupar cargo sindical ou de direção de associação patronal ou trabalhista ligada ao setor, nem ter interesse em empresa do setor regulado, nem ser inelegível pela LC 64/1990",
+      "fontes": [
+        {
+          "ref": "norma:lei-9986-2000",
+          "dispositivo": "art. 8º-A, I a V e VII, e parágrafo único"
+        }
+      ]
+    }
+  ],
+  "detalhes": "O Presidente, Diretor-Presidente ou Diretor-Geral representa a agência, comanda o pessoal e os serviços e preside as sessões do colegiado (Lei 9.986/2000, art. 4º, § 4º). As decisões de regulação são colegiadas, por maioria absoluta, em reuniões públicas e gravadas (Lei 13.848/2019, arts. 7º e 8º). Durante o mandato, o dirigente não pode exercer outra profissão (salvo magistério), atividade sindical ou político-partidária, e por seis meses depois de sair fica impedido de trabalhar no setor regulado (Lei 9.986/2000, arts. 8º e 8º-B).",
+  "fontes": [
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º; arts. 8º a 10"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º; art. 3º, caput; art. 7º; art. 8º; art. 42"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, III, f"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Regras atuais (requisitos, mandato de cinco anos sem recondução, vedações) vêm da Lei 13.848/2019, em vigor 90 dias após a publicação de 26/6/2019 (contagem nossa). A escolha com aprovação do Senado é anterior (redação original da Lei 9.986/2000, art. 5º, de 2000)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11) que vale para as doze agências do art. 2º da Lei 13.848/2019, que também é o rol da Lei 9.986/2000. Por isso \"orgao\" aponta para o conjunto org:agencias-reguladoras-federais, como o Ministro de Estado aponta para o Poder Executivo. Ocupantes não foram levantados. Exceções conhecidas: aviso:mandato-diretoria-anm e aviso:mandato-conselho-diretor-anpd.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

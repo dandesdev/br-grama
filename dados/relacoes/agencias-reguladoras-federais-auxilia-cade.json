@@ -1,0 +1,27 @@
+{
+  "id": "rel:agencias-reguladoras-federais-auxilia-cade",
+  "tipo": "relacao",
+  "nome": "As agências reguladoras auxiliam o Cade na defesa da concorrência",
+  "relacao": "auxilia",
+  "de": "org:agencias-reguladoras-federais",
+  "para": "org:cade",
+  "condicao": "Monitoram as práticas de mercado dos setores regulados, comunicam ao Cade fatos que possam configurar infração à ordem econômica e emitem pareceres técnicos quando pedidos; o Cade aplica a lei de concorrência nos setores regulados e notifica a agência de suas decisões em até 48 horas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "arts. 25 a 28"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-09-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início da vigência da Lei 13.848/2019 (90 dias após a publicação de 26/6/2019, contagem nossa)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

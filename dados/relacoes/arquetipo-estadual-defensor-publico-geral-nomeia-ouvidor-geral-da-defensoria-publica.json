@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-defensor-publico-geral-nomeia-ouvidor-geral-da-defensoria-publica",
+  "tipo": "relacao",
+  "nome": "Nomeação do Ouvidor-Geral da Defensoria do estado",
+  "relacao": "nomeia",
+  "de": "cargo:arquetipo-estadual-defensor-publico-geral",
+  "para": "cargo:arquetipo-estadual-ouvidor-geral-da-defensoria-publica",
+  "condicao": "Nomeia o escolhido pelo Conselho Superior.",
+  "depende_de": [
+    "rel:arquetipo-estadual-conselho-superior-da-defensoria-publica-elege-ouvidor-geral"
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Incluído pela LC 132/2009; a data de início não foi conferida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 105-B, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "cargo:membro-do-mp-junto-ao-tcu",
+  "tipo": "cargo",
+  "nome": "Subprocurador-Geral ou Procurador do Ministério Público junto ao TCU",
+  "resumo": "Membros da carreira do MP de Contas da União: três subprocuradores-gerais e quatro procuradores, que exercem por delegação as funções do Procurador-Geral.",
+  "detalhes": "O ingresso é no cargo de procurador, por concurso público de provas e títulos com participação da OAB; a promoção a subprocurador-geral alterna antiguidade e merecimento. Aplicam-se a eles, no que couber, as regras da Lei Orgânica do MPU sobre direitos, garantias, vedações e regime disciplinar.",
+  "orgao": "org:mp-junto-ao-tcu",
+  "provimento": "concurso-publico",
+  "provimento_nota": "Nomeados pelo Presidente da República pela ordem de classificação no concurso (Lei 8.443/1992, art. 80, caput e § 3º).",
+  "vagas": 7,
+  "vagas_nota": "Três subprocuradores-gerais e quatro procuradores (art. 80, caput).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo de carreira, sem mandato."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro, bacharel em direito",
+      "fontes": [
+        {
+          "ref": "norma:lei-8443-1992",
+          "dispositivo": "art. 80, caput"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 80, caput e §§ 2º e 3º; arts. 82 e 84"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11): reúne as duas classes da carreira.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "org:anac",
+  "tipo": "orgao",
+  "nome": "Agência Nacional de Aviação Civil",
+  "sigla": "Anac",
+  "resumo": "Agência reguladora federal que regula e fiscaliza a aviação civil e a infraestrutura aeronáutica e aeroportuária.",
+  "detalhes": "Implementa a política de aviação civil, regula e fiscaliza os serviços aéreos, a segurança em aeroportos e a bordo, os produtos aeronáuticos e a formação de pessoal, certifica operadores e administra o Registro Aeronáutico Brasileiro (Lei 11.182/2005, arts. 2º e 8º). É dirigida por uma Diretoria Colegiada de um Diretor-Presidente e quatro Diretores, nomeados pelo Presidente da República após aprovação do Senado, com mandato de cinco anos sem recondução, e tem Procuradoria, Corregedoria, Conselho Consultivo e Ouvidoria (arts. 9º, 10, 12 e 13).",
+  "tipo_orgao": "autarquia",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, a"
+        },
+        {
+          "ref": "norma:lei-11182-2005",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "D39: autarquia da administração indireta, com contido_em no Poder Executivo federal. A vinculação ministerial está em rel:anac-vincula-se-ministerio-de-portos-e-aeroportos."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 86144"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11182-2005",
+      "dispositivo": "art. 1º; art. 2º; art. 8º; arts. 9º, 10, 12 e 13"
+    },
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 2º, X; art. 3º, caput; art. 45; art. 14"
+    },
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "arts. 4º a 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": null,
+      "nota": "estrutura interna da autarquia"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-09-28",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criada pela Lei 11.182/2005 (art. 1º), em vigor na publicação (28/9/2005). A instalação efetiva veio depois, por decreto não conferido aqui."
+  },
+  "confianca": "oficial",
+  "mais_informacoes": [
+    {
+      "titulo": "Anac (gov.br)",
+      "url": "https://www.gov.br/anac/pt-br"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo"
+  }
+}

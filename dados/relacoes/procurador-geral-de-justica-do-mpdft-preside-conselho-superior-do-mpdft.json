@@ -1,0 +1,24 @@
+{
+  "id": "rel:procurador-geral-de-justica-do-mpdft-preside-conselho-superior-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Presidência do Conselho Superior do MPDFT",
+  "relacao": "preside",
+  "de": "cargo:procurador-geral-de-justica-do-mpdft",
+  "para": "org:conselho-superior-do-mpdft",
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 159, II; art. 163"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

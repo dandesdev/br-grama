@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-nomeia-subdefensor-publico-geral-federal",
+  "tipo": "relacao",
+  "nome": "Nomeação do Subdefensor Público-Geral Federal",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:subdefensor-publico-geral-federal",
+  "condicao": "Entre os nomes indicados pelo Conselho Superior da DPU, para mandato de dois anos.",
+  "depende_de": [
+    "rel:conselho-superior-da-dpu-indica-subdefensor-publico-geral-federal"
+  ],
+  "vigencia": {
+    "de": "1994-01-13",
+    "ate": null,
+    "nota": "Previsto desde a LC 80/1994; a redação atual vem da LC 132/2009."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 7º; art. 10, XIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

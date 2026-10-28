@@ -1,0 +1,83 @@
+{
+  "id": "proc:escolha-do-procurador-geral-do-trabalho",
+  "tipo": "processo",
+  "nome": "Escolha do Procurador-Geral do Trabalho",
+  "resumo": "Os membros do MPT elegem uma lista tríplice, e o Procurador-Geral da República nomeia um dos três para mandato de dois anos.",
+  "detalhes": "A escolha fica dentro do Ministério Público da União, sem participação do Presidente da República nem do Senado. A recondução, permitida uma vez, segue o mesmo processo; a exoneração antecipada depende de proposta de dois terços do Conselho Superior do MPT ao PGR (LC 75/1993, art. 88).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "lista-triplice",
+      "atores": [
+        "org:colegio-de-procuradores-do-trabalho"
+      ],
+      "acao": "O Colégio de Procuradores do Trabalho elege a lista tríplice por voto plurinominal, facultativo e secreto",
+      "detalhes": "Concorrem integrantes do MPT com mais de 35 anos de idade e cinco anos de carreira; se não houver candidatos suficientes, basta ter mais de dois anos de carreira.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "votacao": "secreta",
+        "nota": "Maioria absoluta dos eleitores, em voto plurinominal e facultativo, sem reunião do colégio."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 88; art. 94, I e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "nomeacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "nomeacao",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O Procurador-Geral da República nomeia um dos três e lhe dá posse",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 26, IV; art. 88"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "mandato",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "mandato",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O Procurador-Geral do Trabalho exerce mandato de dois anos, com uma recondução pelo mesmo processo",
+      "fontes": [
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 88"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 26, IV; art. 88; art. 94, I e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "org:cre-senado",
+  "tipo": "orgao",
+  "nome": "Comissão de Relações Exteriores e Defesa Nacional do Senado Federal",
+  "sigla": "CRE",
+  "resumo": "Comissão permanente do Senado sobre atos e relações internacionais, comércio exterior, Forças Armadas e defesa nacional.",
+  "detalhes": "Tem 19 membros titulares, número fixado no próprio Regimento. Examina as indicações de chefes de missão diplomática de caráter permanente. Como as demais comissões permanentes, dá parecer sobre os projetos da sua área e decide de forma terminativa nos casos previstos no RISF.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-do-senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 72, VII"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 72, VII"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 77, VII"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 103"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; nome, composição e competência conforme o RISF atualizado até julho de 2025."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

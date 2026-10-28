@@ -1,0 +1,30 @@
+{
+  "id": "rel:ministros-do-tcu-elegem-vice-presidente-do-tcu",
+  "tipo": "relacao",
+  "nome": "Ministros do TCU elegem o Vice-Presidente do Tribunal",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-tcu",
+  "para": "cargo:vice-presidente-do-tcu",
+  "condicao": "Mesma sessão e mesmas regras da eleição do Presidente, logo depois dela.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "nota": "Regras da Lei 8.443/1992, em vigor desde a publicação; o órgão é anterior."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 1º, XI; art. 69, caput e §§ 1º, 6º a 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "quorum": {
+    "regra": "maioria-simples",
+    "votacao": "secreta"
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

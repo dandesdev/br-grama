@@ -1,0 +1,23 @@
+{
+  "id": "fonte:senado-api-comissoes-mistas",
+  "tipo": "fonte",
+  "nome": "Senado Federal, Dados Abertos: composição das comissões mistas do Congresso",
+  "resumo": "Lista as comissões mistas do Congresso Nacional com o ato de criação, a finalidade e o número de membros por Casa.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/comissao/lista/mistas",
+  "acesso_em": "2026-10-28",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Versão de 28/10/2026. Cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/senado-api-comissoes-mistas.json. Lista CCAI, CMMC, CMO, CMCVM e CMMIR; a Representação Brasileira no Parlamento do Mercosul não aparece.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

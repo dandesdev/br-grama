@@ -14,14 +14,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 52, XIV; art. 89, VII"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 384"
     }
   ],
   "confianca": "oficial",
   "notas": "org:conselho-da-republica é id da tarefa f0-executivo. O alvo é o órgão porque não há cargo modelado para os membros cidadãos.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-legislativo",
-    "notas": "coletado em f0-legislativo"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu",
+    "notas": "acrescentada a fonte RISF, art. 384 (eleição dos membros do Conselho da República), fase 2"
   }
 }

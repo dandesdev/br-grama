@@ -1,0 +1,52 @@
+{
+  "id": "org:ce-senado",
+  "tipo": "orgao",
+  "nome": "Comissão de Educação e Cultura do Senado Federal",
+  "sigla": "CE",
+  "resumo": "Comissão permanente do Senado sobre educação, cultura, ensino e diretrizes e bases da educação nacional.",
+  "detalhes": "Tem 21 membros titulares, número fixado no próprio Regimento. Teve 27 membros até 31 de janeiro de 2025. Como as demais comissões permanentes, dá parecer sobre os projetos da sua área e decide de forma terminativa nos casos previstos no RISF.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:comissoes-do-senado-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 72, IV"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 72, IV"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 77, IV"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 102"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 91"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; nome, composição e competência conforme o RISF atualizado até julho de 2025."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-legislativo-tcu"
+  }
+}

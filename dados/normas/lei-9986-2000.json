@@ -9,22 +9,27 @@
   "publicacao": "2000-07-19",
   "ente": "ente:uniao",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9986.htm",
-  "acesso_em": "2026-10-24",
+  "acesso_em": "2026-10-28",
   "arquivo": null,
   "compilacao_ate": "Lei 14.724/2023",
-  "redacao_conferida_em": "2026-10-24",
+  "redacao_conferida_em": "2026-10-28",
   "vigencia": {
     "de": "2000-07-19",
     "ate": null,
     "nota": "Art. 38: vigência na publicação (DOU de 19/7/2000)."
   },
-  "fontes": [],
+  "fontes": [
+    {
+      "ref": "norma:lei-9986-2000",
+      "dispositivo": "art. 38"
+    }
+  ],
   "confianca": "oficial",
-  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l9986.htm. Dispositivos usados: art. 5º (dirigentes indicados e nomeados pelo Presidente da República após aprovação do Senado, com requisitos de experiência; redação da Lei 13.848/2019) e art. 6º (mandato de 5 anos, vedada a recondução, salvo o caso do art. 5º, § 7º; redação da Lei 13.848/2019). arquivo: Wayback devolveu 429 em 2026-10-24.",
+  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l9986.htm. Dispositivos usados: art. 5º (dirigentes indicados e nomeados pelo Presidente da República após aprovação do Senado, com requisitos de experiência; redação da Lei 13.848/2019) e art. 6º (mandato de 5 anos, vedada a recondução, salvo o caso do art. 5º, § 7º; redação da Lei 13.848/2019). arquivo: Wayback devolveu 429 em 2026-10-24. Cópia bruta de 2026-10-28 em pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/l9986.htm (f2-executivo): mesma compilação (última alteração: Lei 14.724/2023, que revoga o art. 32).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-administracao-indireta",
-    "notas": "coletado em f0-administracao-indireta; data, publicação, vigência e dispositivos usados conferidos na cópia bruta"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "reconferida a compilação na cópia de 2026-10-28; compilacao_ate e notas atualizados; antes verificado em verificacao-f0-administracao-indireta"
   }
 }

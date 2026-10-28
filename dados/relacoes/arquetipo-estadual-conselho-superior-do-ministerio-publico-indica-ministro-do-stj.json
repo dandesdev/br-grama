@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-conselho-superior-do-ministerio-publico-indica-ministro-do-stj",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla do MP estadual para o STJ",
+  "relacao": "indica",
+  "de": "org:arquetipo-estadual-conselho-superior-do-ministerio-publico",
+  "para": "cargo:ministro-do-stj",
+  "condicao": "Nas vagas do STJ destinadas ao MP dos estados; cada Conselho Superior organiza a lista sêxtupla, que o procurador-geral encaminha ao tribunal.",
+  "vigencia": {
+    "de": "1993-02-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 104, parágrafo único, II"
+    },
+    {
+      "ref": "norma:lei-8625-1993",
+      "dispositivo": "art. 10, XIII; art. 15, I; art. 74"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-funcoes-essenciais"
+  }
+}

@@ -9,23 +9,28 @@
   "publicacao": "2019-06-26",
   "ente": "ente:uniao",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13848.htm",
-  "acesso_em": "2026-10-23",
+  "acesso_em": "2026-10-28",
   "arquivo": null,
   "compilacao_ate": "Lei 15.352/2026 (art. 2º, XII)",
-  "redacao_conferida_em": "2026-10-24",
+  "redacao_conferida_em": "2026-10-28",
   "vigencia": {
     "de": "2019-09-24",
     "ate": null,
     "incerta": true,
     "nota": "Art. 53: vigência 90 dias após a publicação (DOU de 26/6/2019). A data é a nossa contagem pela LC 95/1998, art. 8º, § 1º."
   },
-  "fontes": [],
+  "fontes": [
+    {
+      "ref": "norma:lei-13848-2019",
+      "dispositivo": "art. 53"
+    }
+  ],
   "confianca": "oficial",
-  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l13848.htm. Art. 2º lista as agências reguladoras federais (Aneel, ANP, Anatel, Anvisa, ANS, ANA, Antaq, ANTT, Ancine, Anac, ANM e, pela Lei 15.352/2026, ANPD); art. 3º define a natureza especial (sem tutela nem subordinação hierárquica, autonomia funcional, decisória, administrativa e financeira, mandato fixo dos dirigentes). A data da Lei 15.352/2026 não foi conferida aqui. arquivo: a consulta ao Wayback (archive.org/wayback/available) devolveu 429 em 2026-10-24.",
+  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l13848.htm. Art. 2º lista as agências reguladoras federais (Aneel, ANP, Anatel, Anvisa, ANS, ANA, Antaq, ANTT, Ancine, Anac, ANM e, pela Lei 15.352/2026, ANPD); art. 3º define a natureza especial (sem tutela nem subordinação hierárquica, autonomia funcional, decisória, administrativa e financeira, mandato fixo dos dirigentes). A data da Lei 15.352/2026 não foi conferida aqui. arquivo: a consulta ao Wayback (archive.org/wayback/available) devolveu 429 em 2026-10-24. Cópia bruta de 2026-10-28 em pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/l13848.htm (f2-executivo): mesma compilação; a Lei 15.352/2026 é de 25/2/2026 (DOU da mesma data, edição extra), anterior à data de referência.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-administracao-indireta",
-    "notas": "coletado em f0-administracao-indireta; data, publicação, vigência e dispositivos usados conferidos na cópia bruta"
+    "status": "coletado",
+    "em": "2026-10-28",
+    "tarefa": "f2-executivo",
+    "notas": "reconferida a compilação na cópia de 2026-10-28; compilacao_ate e notas atualizados; antes verificado em verificacao-f0-administracao-indireta"
   }
 }
