@@ -1,0 +1,31 @@
+{
+  "id": "rel:arquetipo-estadual-tj-julga-habeas-data",
+  "tipo": "relacao",
+  "nome": "TJ julga habeas data",
+  "relacao": "julga",
+  "de": "org:arquetipo-estadual-tribunal-de-justica",
+  "para": "obj:habeas-data",
+  "condicao": "Contra atos das autoridades que a Constituição do estado indicar. Em SP, as mesmas do mandado de segurança: Governador, Mesa e Presidência da Assembleia, o próprio TJ, Presidentes dos tribunais de contas, Procurador-Geral de Justiça, Prefeito e Presidente da Câmara da capital.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 125, § 1º"
+    },
+    {
+      "ref": "norma:sp-constituicao-1989",
+      "dispositivo": "art. 74, III a V",
+      "nota": "exemplo de Constituição estadual"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "A CF não lista a competência do TJ: remete à Constituição do estado (art. 125, § 1º). O exemplo é a Constituição de SP; outras podem listar autoridades diferentes."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:justica-eleitoral-julga-habeas-corpus",
+  "tipo": "relacao",
+  "nome": "Justiça Eleitoral julga habeas corpus",
+  "relacao": "julga",
+  "de": "org:justica-eleitoral",
+  "para": "obj:habeas-corpus",
+  "condicao": "Em matéria eleitoral: os juízes eleitorais, salvo competência de instância superior; os TREs, contra atos de autoridades que respondem no TJ por crime de responsabilidade e em recurso contra os juízes eleitorais; o TSE, contra atos dos TREs. Se o TRE nega o pedido, cabe recurso ao TSE.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 121, § 4º, V"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 22, I, e; art. 29, I, e; art. 35, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "O art. 22, I, e, do Código Eleitoral também cita atos do Presidente da República e dos Ministros de Estado, mas o Planalto anota a suspensão de execução pela Resolução do Senado 132/1984; por isso a condição não cita essas autoridades. O recurso ao TSE também cabe quando o TRE nega habeas data ou mandado de injunção (art. 121, § 4º, V), ver rel:tse-julga-recursos-da-justica-eleitoral."
+}

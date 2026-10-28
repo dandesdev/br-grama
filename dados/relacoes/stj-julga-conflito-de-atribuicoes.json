@@ -1,0 +1,25 @@
+{
+  "id": "rel:stj-julga-conflito-de-atribuicoes",
+  "tipo": "relacao",
+  "nome": "STJ julga conflito de atribuições",
+  "relacao": "julga",
+  "de": "org:stj",
+  "para": "obj:conflito-de-atribuicoes",
+  "condicao": "Originariamente, entre autoridades administrativas e judiciárias da União, entre judiciárias de um estado e administrativas de outro ou do DF, ou entre as do DF e as da União.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, g"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  }
+}

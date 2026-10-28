@@ -18,6 +18,11 @@
     {
       "ref": "norma:lc-101-2000",
       "dispositivo": "art. 68"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 165, § 5º, III",
+      "nota": "O orçamento da seguridade social abrange os fundos instituídos e mantidos pelo Poder Público, o que inclui este fundo."
     }
   ],
   "vigencia": {
@@ -28,9 +33,9 @@
   "confianca": "oficial",
   "notas": "A LRF vincula o fundo ao antigo Ministério da Previdência e Assistência Social; hoje a previdência social é área do Ministério da Previdência Social (Lei 14.600/2023, art. 43). Valor do fundo não pesquisado.",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-27",
-    "tarefa": "verificacao-f0-seguridade",
-    "notas": "coletado em f0-seguridade; CF, art. 250, LRF, art. 68, caput e §§ 1º e 2º, e Lei 14.600/2023, art. 43, conferidos"
+    "tarefa": "f0-sugestoes-revisoes",
+    "notas": "verificado antes em verificacao-f0-seguridade (2026-10-27; coletado em f0-seguridade; CF, art. 250, LRF, art. 68, caput e §§ 1º e 2º, e Lei 14.600/2023, art. 43, conferidos); em f0-sugestoes-revisoes, acrescentada a fonte CF, art. 165, § 5º, III (orçamento da seguridade social), sugerida por aquela revisão"
   }
 }

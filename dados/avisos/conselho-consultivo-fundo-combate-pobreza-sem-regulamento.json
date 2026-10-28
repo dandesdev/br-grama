@@ -1,0 +1,48 @@
+{
+  "id": "aviso:conselho-consultivo-fundo-combate-pobreza-sem-regulamento",
+  "tipo": "aviso",
+  "nome": "Conselho consultivo do Fundo de Combate à Pobreza: sem regulamento vigente desde 2020",
+  "resumo": "A CF e a LC 111/2001 preveem um conselho consultivo e de acompanhamento do fundo, mas os artigos que o compunham foram revogados em 2020 e não achamos ato que os substitua.",
+  "detalhes": "A LC 111/2001 institui o conselho, com membros designados pelo Presidente, e manda um ato do Executivo regular a composição, com representação da sociedade civil. O Decreto 4.564/2003 fazia isso nos arts. 2º e 3º, cuja revogação foi declarada pelo Decreto 10.223/2020. O art. 1º do mesmo decreto ainda atribui ao órgão gestor o apoio ao conselho 'de que trata o art. 2º'. Não sabemos se o conselho funciona.",
+  "tipo_aviso": "lacuna",
+  "gravidade": "baixa",
+  "afeta": [
+    "obj:fundo-de-combate-e-erradicacao-da-pobreza"
+  ],
+  "vigencia": {
+    "de": "2020-03-07",
+    "ate": null,
+    "incerta": true,
+    "nota": "Desde a vigência do Decreto 10.223/2020 (trinta dias após a publicação de 6/2/2020)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 79, parágrafo único"
+    },
+    {
+      "ref": "norma:lc-111-2001",
+      "dispositivo": "art. 4º; art. 5º, V; art. 6º"
+    },
+    {
+      "ref": "norma:decreto-4564-2003",
+      "dispositivo": "art. 1º, parágrafo único, V; arts. 2º e 3º"
+    },
+    {
+      "ref": "norma:decreto-10223-2020",
+      "dispositivo": "art. 1º, CXLVIII"
+    }
+  ],
+  "confianca": "oficial",
+  "onde_procuramos": [
+    "Decreto 4.564/2003, texto compilado do Planalto (cópia do Wayback de 2026-06-14, com a redação do Decreto 11.992/2024): os arts. 2º e 3º aparecem como revogados, e o Decreto 11.992/2024 não recompôs o conselho",
+    "Página do Planalto do Decreto 4.564/2003 lida na revisão de f0-dinheiro-complementar (2026-10-27): mesma anotação de revogação",
+    "Busca na web (2026-10-27) por decreto de 2020 em diante sobre o 'Conselho Consultivo e de Acompanhamento do Fundo de Combate e Erradicação da Pobreza', inclusive em gov.br: só os textos da LC 111/2001, do Decreto 3.997/2001 (revogado) e do Decreto 4.564/2003"
+  ],
+  "notas": "Sugerido pela revisão verificacao-f0-dinheiro-complementar. Não buscamos atos de designação de membros no DOU nem a página do conselho no site do MDS. A EC 31/2000 é a origem do ADCT, art. 79, parágrafo único.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes"
+  }
+}

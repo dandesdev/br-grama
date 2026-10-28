@@ -1,0 +1,27 @@
+{
+  "id": "rel:trf-6-julga-revisao-criminal-e-acao-rescisoria",
+  "tipo": "relacao",
+  "nome": "TRF-6 julga revisão criminal e ação rescisória",
+  "relacao": "julga",
+  "de": "org:trf-6",
+  "para": "obj:revisao-criminal-e-acao-rescisoria",
+  "condicao": "Originariamente, contra julgados do próprio tribunal ou dos juízes federais da 6ª Região.",
+  "vigencia": {
+    "de": "2022-01-03",
+    "ate": null,
+    "nota": "Início do TRF-6 (vigência da Lei 14.226/2021, como em org:trf-6)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 108, I, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Uma relação por TRF, conteúdo igual nas seis regiões, como em rel:trf-6-julga-juiz-federal."
+}

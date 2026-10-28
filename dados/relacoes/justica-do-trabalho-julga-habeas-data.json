@@ -1,0 +1,26 @@
+{
+  "id": "rel:justica-do-trabalho-julga-habeas-data",
+  "tipo": "relacao",
+  "nome": "Justiça do Trabalho julga habeas data",
+  "relacao": "julga",
+  "de": "org:justica-do-trabalho",
+  "para": "obj:habeas-data",
+  "condicao": "Quando o ato questionado envolve matéria sujeita à jurisdição trabalhista.",
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "nota": "Inciso IV do art. 114 incluído pela EC 45/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 114, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  }
+}

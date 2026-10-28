@@ -5,7 +5,7 @@
   "relacao": "preside",
   "de": "cargo:presidente-da-republica",
   "para": "org:conselho-de-defesa-nacional",
-  "condicao": "Convoca as reuniões e as preside; pode também ouvir os membros separadamente, sem reunião.",
+  "condicao": "Preside as reuniões do Conselho.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -21,10 +21,11 @@
     }
   ],
   "confianca": "oficial",
+  "notas": "A convocação das reuniões tem relação própria (rel:presidente-convoca-conselho-de-defesa-nacional); por isso saiu do texto desta relação.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20)"
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes",
+    "notas": "verificado antes em verificacao-f0-executivo (2026-10-23; coletado em f0-executivo; dispositivos conferidos no texto da CF (cópia de 2026-10-16) e nas leis citadas (cópias de 2026-10-20)); em f0-sugestoes-revisoes, a condição deixou de descrever a convocação (era: 'Convoca as reuniões e as preside; pode também ouvir os membros separadamente, sem reunião.')"
   }
 }

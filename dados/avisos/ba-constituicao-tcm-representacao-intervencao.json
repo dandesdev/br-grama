@@ -1,0 +1,46 @@
+{
+  "id": "aviso:ba-constituicao-tcm-representacao-intervencao",
+  "tipo": "aviso",
+  "nome": "Bahia: a Constituição estadual ainda dá ao TCM a representação para intervir em município",
+  "resumo": "O texto da Constituição da Bahia faz a intervenção nos casos de dívida, contas e ensino depender de representação do TCM; o STF derrubou regra igual do Pará (ADI 2.631).",
+  "detalhes": "Pela Constituição baiana, a intervenção estadual nos casos dos incisos I a III do art. 35 da CF depende de representação fundamentada do Tribunal de Contas dos Municípios, que tem a competência privativa de representar ao Executivo. Na ADI 2.631, o STF julgou inconstitucional a regra do Pará que dava o mesmo poder ao TCM, porque o tribunal age como auxiliar da Câmara Municipal, a quem cabe a representação. Não achamos decisão do STF sobre o dispositivo baiano.",
+  "tipo_aviso": "contradicao",
+  "gravidade": "baixa",
+  "afeta": [
+    "proc:intervencao-estadual",
+    "org:tcm-bahia",
+    "norma:ba-constituicao-1989"
+  ],
+  "vigencia": {
+    "de": "2003-08-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação do acórdão da ADI 2.631 (DJ de 8/8/2003), quando a contradição com a jurisprudência do STF ficou explícita; o texto baiano é de 1989."
+  },
+  "fontes": [
+    {
+      "ref": "norma:ba-constituicao-1989",
+      "dispositivo": "art. 65, § 1º, I; art. 95, II, a"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-35",
+      "dispositivo": "ADI 2.631; ADI 614 MC"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 31, § 2º; art. 35, I a III"
+    }
+  ],
+  "confianca": "oficial",
+  "onde_procuramos": [
+    "Constituição da Bahia no Legislabahia: cópia de 2026-10-16 (pesquisa/brutos/al-ba/2026-10-16/) e nova cópia de 2026-10-27 (pesquisa/brutos/al-ba/2026-10-27-sugestoes/), com o mesmo texto e sem anotação de inconstitucionalidade nos arts. 65 e 95, embora a página anote outras ADIs",
+    "Página 'A Constituição e o Supremo', art. 35 (cópia de 2026-10-23): cita a ADI 2.631 (Pará) e a ADI 614 MC (Maranhão), nenhuma sobre a Bahia",
+    "Busca na web (2026-10-27) por ADI contra o art. 65, § 1º, da Constituição da Bahia: nada encontrado"
+  ],
+  "notas": "Sugerido pela revisão verificacao-f0-federacao. A ADI 2.631 vale só para o Pará; a contradição é entre o texto baiano e o entendimento do STF, não uma decisão sobre a Bahia. No mapa, o processo segue o STF (representação da Câmara). O mesmo texto baiano ainda cita só o ensino no art. 65, III, sem a saúde que a EC 29/2000 acrescentou ao art. 35, III, da CF (ver notas de proc:intervencao-estadual).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes"
+  }
+}

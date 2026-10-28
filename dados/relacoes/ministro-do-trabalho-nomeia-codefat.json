@@ -1,0 +1,33 @@
+{
+  "id": "rel:ministro-do-trabalho-nomeia-codefat",
+  "tipo": "relacao",
+  "nome": "O Ministro do Trabalho e Emprego nomeia os membros do Codefat",
+  "relacao": "nomeia",
+  "de": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:ministerio-do-trabalho-e-emprego",
+  "para": "org:codefat",
+  "condicao": "Nomeia os 18 membros e os suplentes: os do governo federal são indicados pelos titulares dos órgãos que representam; os de trabalhadores e empregadores, pelas centrais sindicais e confederações.",
+  "vigencia": {
+    "de": "1990-01-12",
+    "ate": null,
+    "incerta": true,
+    "nota": "A regra vem da Lei 7.998/1990, que fala em 'Ministro do Trabalho'; o nome da pasta mudou desde então, e as mudanças não foram levantadas."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-7998-1990",
+      "dispositivo": "art. 18, §§ 3º e 4º"
+    },
+    {
+      "ref": "norma:decreto-11496-2023",
+      "dispositivo": "art. 29, §§ 2º e 3º; art. 46"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Lei 7.998/1990, art. 18, § 4º: 'Compete ao Ministro do Trabalho a nomeação dos membros do Codefat.' O Decreto 11.496/2023, art. 46, diz que os membros titulares e suplentes dos colegiados do decreto são designados em ato do Ministro de Estado do Trabalho e Emprego. O alvo é o órgão porque não há cargo modelado para os membros do Codefat (mesmo critério de rel:presidente-nomeia-conselho-da-republica).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes"
+  }
+}

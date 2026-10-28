@@ -461,7 +461,7 @@
         "org:senado-federal"
       ],
       "acao": "O Presidente perde o cargo e fica inabilitado por oito anos para função pública",
-      "detalhes": "A condenação pelo Senado se limita a essas duas penas, sem prejuízo de outras sanções judiciais. O Vice-Presidente sucede o Presidente no cargo vago.",
+      "detalhes": "A condenação pelo Senado se limita a essas duas penas, sem prejuízo de outras sanções judiciais. O Vice-Presidente sucede o Presidente no cargo vago. Em 2016, no caso Dilma Rousseff, o Senado votou a inabilitação separada da perda do cargo e, nessa segunda votação, não a aplicou.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -470,6 +470,10 @@
         {
           "ref": "norma:lei-1079-1950",
           "dispositivo": "art. 70"
+        },
+        {
+          "ref": "fonte:radio-senado-impeachment-dilma-2016-08-31",
+          "dispositivo": "votações de 31/8/2016"
         }
       ],
       "seguintes": []
@@ -598,11 +602,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) O rito do Senado segue a ADPF 378 MC (2015), que mandou aplicar por analogia ao Presidente as regras da Lei 1.079/1950 para ministros do STF e PGR (arts. 44 a 49 e 51 a 55), criando as etapas de instauração e de pronúncia, como no caso Collor; os arts. 23, §§ 1º, 4º e 5º, 80 (1ª parte) e 81 da lei não foram recepcionados. (2) A liminar das ADPFs 1259 e 1260 (dez/2025), que fixou dois terços para os pareceres dos arts. 47 e 54, vale para membros do Judiciário, não para o Presidente (ver aviso:lei-1079-adpf-1259-1260). (3) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, o ator usado para a iniciativa popular. (4) O mesmo rito vale para o Vice-Presidente e, nos crimes conexos, para ministros e Comandantes (arts. 51, I, e 52, I); o processo modela só o Presidente. (5) As etapas do crime comum estão no processo porque um regime não pode criar etapas; o regime 'infracao-penal-comum' diz quais delas usar. (6) A Lei 1.079/1950, art. 68, parágrafo único, prevê votação separada da inabilitação por até cinco anos; a CF fixa oito anos junto com a perda do cargo, e não modelamos a votação separada. (7) Os prazos da Câmara são os do RICD; os do Senado, os da Lei 1.079/1950 aplicados por analogia, que o RISF (arts. 380 a 382) não altera. (8) O exame do Presidente da Câmara na etapa 'recebimento' segue o RICD; o alcance desse exame foi discutido pelo STF em mandados de segurança que não consultamos.",
+  "notas": "Decisões de modelagem: (1) O rito do Senado segue a ADPF 378 MC (2015), que mandou aplicar por analogia ao Presidente as regras da Lei 1.079/1950 para ministros do STF e PGR (arts. 44 a 49 e 51 a 55), criando as etapas de instauração e de pronúncia, como no caso Collor; os arts. 23, §§ 1º, 4º e 5º, 80 (1ª parte) e 81 da lei não foram recepcionados. (2) A liminar das ADPFs 1259 e 1260 (dez/2025), que fixou dois terços para os pareceres dos arts. 47 e 54, vale para membros do Judiciário, não para o Presidente (ver aviso:lei-1079-adpf-1259-1260). (3) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, o ator usado para a iniciativa popular. (4) O mesmo rito vale para o Vice-Presidente e, nos crimes conexos, para ministros e Comandantes (arts. 51, I, e 52, I); o processo modela só o Presidente. (5) As etapas do crime comum estão no processo porque um regime não pode criar etapas; o regime 'infracao-penal-comum' diz quais delas usar. (6) A Lei 1.079/1950, art. 68, parágrafo único, prevê votação separada da inabilitação por até cinco anos; a CF fixa oito anos junto com a perda do cargo, e não modelamos a votação separada como etapa, mas a etapa 'condenacao' registra que ela ocorreu em 2016 (fonte:radio-senado-impeachment-dilma-2016-08-31). (7) Os prazos da Câmara são os do RICD; os do Senado, os da Lei 1.079/1950 aplicados por analogia, que o RISF (arts. 380 a 382) não altera. (8) O exame do Presidente da Câmara na etapa 'recebimento' segue o RICD; o alcance desse exame foi discutido pelo STF em mandados de segurança que não consultamos.",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-10-27",
-    "tarefa": "verificacao-f0-processos-legislativos",
-    "notas": "coletado em f0-processos-legislativos; conferidas as 19 etapas e o regime contra CF, arts. 15, III, 51, I, 52, I e parágrafo único, 79, 85, 86, 102, I, b, e 129, I; Lei 1.079/1950, arts. 14 a 23 e 44 a 70; RICD, arts. 217 e 218; RISF, arts. 377 a 382; ADPF 378 MC nas páginas do STF dos arts. 51 e 52"
+    "tarefa": "f0-sugestoes-revisoes",
+    "notas": "verificado antes em verificacao-f0-processos-legislativos (2026-10-27; coletado em f0-processos-legislativos; conferidas as 19 etapas e o regime contra CF, arts. 15, III, 51, I, 52, I e parágrafo único, 79, 85, 86, 102, I, b, e 129, I; Lei 1.079/1950, arts. 14 a 23 e 44 a 70; RICD, arts. 217 e 218; RISF, arts. 377 a 382; ADPF 378 MC nas páginas do STF dos arts. 51 e 52); em f0-sugestoes-revisoes, os detalhes da etapa 'condenacao' ganharam a votação separada da inabilitação em 2016, com fonte da Rádio Senado, e a nota (6) foi ajustada"
   }
 }

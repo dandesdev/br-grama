@@ -1,0 +1,26 @@
+{
+  "id": "obj:execucao-de-sentenca",
+  "tipo": "objeto",
+  "nome": "Execução de sentença",
+  "resumo": "Fase em que se cumpre o que a decisão mandou. Nas causas que começam no STF, o próprio STF conduz a execução e pode delegar atos processuais.",
+  "detalhes": "A CF dá ao STF a execução de sentença nas causas de sua competência originária, facultada a delegação de atribuições para a prática de atos processuais (art. 102, I, m).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, m"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Objeto genérico, ligado só ao STF, que é o único caso previsto na CF. Nos demais juízos a execução segue o CPC e o CPP. Criado em f0-residuais."
+}

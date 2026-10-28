@@ -1,0 +1,220 @@
+{
+  "id": "proc:extradicao",
+  "tipo": "processo",
+  "nome": "Extradição pedida por Estado estrangeiro",
+  "resumo": "O Executivo recebe o pedido e confere a forma; o STF julga se a extradição é legal e procedente; se for, o Executivo autoriza a entrega.",
+  "detalhes": "É a extradição passiva, em que outro país pede ao Brasil que entregue uma pessoa processada ou condenada lá. Não se extradita brasileiro nato, nem por crime político ou de opinião, nem quem tem refúgio ou asilo, entre outros casos. O processo no STF não tem recurso.",
+  "forma": "linha",
+  "produz": "obj:extradicao",
+  "etapas": [
+    {
+      "id": "pedido",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:ministerio-da-justica-e-seguranca-publica"
+      ],
+      "acao": "O Executivo recebe o pedido do Estado estrangeiro e confere os requisitos formais",
+      "detalhes": "O pedido chega por via diplomática ou pela autoridade central. No Ministério da Justiça, quem exerce a função de autoridade central para a extradição é o Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional, por delegação do Ministro.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 81, caput e § 1º; art. 82; art. 83; art. 89, caput"
+        },
+        {
+          "ref": "norma:decreto-11348-2023",
+          "dispositivo": "Anexo I, art. 15, III, b, 1, e IV"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, LI e LII"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "defesa",
+          "quando": "requisitos formais atendidos: o pedido vai ao STF"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "requisitos formais não atendidos"
+        }
+      ]
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:ministerio-da-justica-e-seguranca-publica"
+      ],
+      "acao": "O pedido é arquivado por decisão fundamentada; pode ser renovado",
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 89, parágrafo único"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "defesa",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O relator no STF interroga o extraditando, nomeia defensor se preciso e abre prazo para a defesa",
+      "detalhes": "A defesa só pode tratar da identidade da pessoa, de defeito de forma dos documentos ou da ilegalidade da extradição. Se o pedido estiver mal instruído, o STF pode converter o julgamento em diligência. Até o julgamento, o STF pode autorizar prisão albergue ou domiciliar ou deixar o extraditando responder em liberdade, com o documento de viagem retido.",
+      "prazo": {
+        "texto": "Defesa em 10 dias contados do interrogatório.",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "interrogatório"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 86; art. 91, caput e §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF decide sobre a legalidade e a procedência do pedido, sem recurso",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, g"
+        },
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 90"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "entrega",
+          "quando": "extradição julgada procedente"
+        },
+        {
+          "para": "negada",
+          "quando": "extradição negada"
+        }
+      ]
+    },
+    {
+      "id": "negada",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Extradição negada; não se admite novo pedido pelo mesmo fato",
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 94"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "entrega",
+      "atores": [
+        "org:ministerio-da-justica-e-seguranca-publica"
+      ],
+      "acao": "O Executivo autoriza a entrega, e a decisão é comunicada ao Estado requerente por via diplomática",
+      "detalhes": "A entrega só ocorre se o Estado requerente se comprometer, entre outros pontos, a descontar o tempo de prisão no Brasil, trocar pena de morte, perpétua ou corporal por prisão de até 30 anos, não entregar a pessoa a outro país sem consentimento do Brasil e não submetê-la a tortura. Se a pessoa responde a processo ou cumpre pena no Brasil por crime punível com prisão, a entrega espera o fim, com exceções.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 81, § 2º; art. 92; art. 95; art. 96"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "retirada",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "retirada",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O Estado requerente retira o extraditando do país; se não o fizer no prazo, ele é solto",
+      "prazo": {
+        "texto": "60 dias contados da comunicação da decisão.",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "comunicação ao Estado requerente",
+        "efeito": "o extraditando é posto em liberdade"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 92; art. 93"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "prisao-cautelar",
+      "nome": "Prisão cautelar urgente",
+      "resumo": "Em caso de urgência, o Estado estrangeiro pede a prisão antes do pedido formal de extradição, que deve chegar em até 60 dias da ciência da prisão.",
+      "detalhes": "O pedido de prisão vem por via diplomática ou pela autoridade central (também pela Interpol, com a ordem de prisão estrangeira). O Executivo confere os requisitos formais e o leva à autoridade judicial competente, ouvido o Ministério Público Federal. Sem o pedido formal no prazo, a pessoa é solta.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13445-2017",
+          "dispositivo": "art. 84, caput e §§ 2º, 4º e 5º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "pedido",
+          "prazo": {
+            "texto": "Pedido formal em até 60 dias contados da ciência da prisão, salvo regra diferente em tratado.",
+            "valor": 60,
+            "unidade": "dias",
+            "conta_de": "ciência da prisão",
+            "efeito": "o preso é solto e não pode ser preso de novo pelo mesmo fato sem o pedido de extradição"
+          }
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2017-11-21",
+    "ate": null,
+    "nota": "Rito da Lei de Migração, em vigor desde 21/11/2017; antes valia o Estatuto do Estrangeiro (Lei 6.815/1980), não pesquisado."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LI e LII; art. 102, I, g"
+    },
+    {
+      "ref": "norma:lei-13445-2017",
+      "dispositivo": "arts. 81 a 96"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "etapas": {
+      "confianca": "inferido",
+      "nota": "A Lei 13.445/2017 fala só em 'órgão competente do Poder Executivo' (arts. 81, § 2º, 89 e 92). Pusemos o Ministério da Justiça e Segurança Pública porque a estrutura dele dá ao seu Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional a função de autoridade central em extradição (Decreto 11.348/2023, Anexo I, art. 15, III, b, 1, e IV); o regulamento da lei (Decreto 9.199/2017) não foi lido. A lei não diz que a entrega é decidida pelo Presidente da República."
+    }
+  },
+  "notas": "Só a extradição passiva (pedida ao Brasil); a ativa (art. 88) não foi modelada. Rito lido via WebFetch em 2026-10-27. Criado em f0-residuais.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "obj:conflito-de-atribuicoes",
+  "tipo": "objeto",
+  "nome": "Conflito de atribuições",
+  "resumo": "Disputa entre uma autoridade administrativa e uma autoridade judiciária sobre quem deve agir num caso. Envolvendo entes diferentes ou a União, decide o STJ.",
+  "detalhes": "O STJ julga os conflitos de atribuições entre autoridades administrativas e judiciárias da União, entre autoridades judiciárias de um estado e administrativas de outro ou do DF, ou entre as do DF e as da União (art. 105, I, g). Difere do conflito de competência, que é entre juízes ou tribunais (obj:conflito-de-competencia).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 105, I, g"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Criado em f0-residuais."
+}

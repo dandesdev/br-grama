@@ -1,0 +1,32 @@
+{
+  "id": "rel:mds-gere-fundo-nacional-de-assistencia-social",
+  "tipo": "relacao",
+  "nome": "O Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome gere o Fundo Nacional de Assistência Social",
+  "relacao": "gere",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "para": "obj:fundo-nacional-de-assistencia-social",
+  "condicao": "Como órgão federal que coordena a política de assistência social, gere o fundo sob orientação e controle do Conselho Nacional de Assistência Social.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 14.600/2023, que põe a gestão do FNAS entre as áreas do ministério. A regra de que o órgão coordenador da política gere o fundo vem da Lei 8.742/1993 (art. 28, § 1º); os órgãos gestores anteriores não foram levantados."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 28, § 1º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 27, X"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Lei 8.742/1993, art. 28, § 1º (redação da Lei 12.435/2011), diz que cabe ao órgão responsável pela coordenação da política de assistência social, nas três esferas, 'gerir o Fundo de Assistência Social'. A Lei 14.600/2023, art. 27, X, lista a 'gestão do Fundo Nacional de Assistência Social (FNAS)' entre as áreas do MDS. O controle pelo conselho tem relação própria (rel:cnas-fiscaliza-fundo-nacional-de-assistencia-social). Vigência copiada do precedente rel:mds-gere-fundo-de-combate-e-erradicacao-da-pobreza.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes"
+  }
+}

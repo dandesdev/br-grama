@@ -1,0 +1,32 @@
+{
+  "id": "rel:ministerio-da-saude-gere-fundo-nacional-de-saude",
+  "tipo": "relacao",
+  "nome": "O Ministério da Saúde gere o Fundo Nacional de Saúde",
+  "relacao": "gere",
+  "de": "org:ministerio-da-saude",
+  "para": "obj:fundo-nacional-de-saude",
+  "condicao": "Na esfera federal, os recursos do SUS vindos do orçamento da seguridade social, de outros orçamentos da União e de outras fontes são administrados pelo Ministério da Saúde por meio do fundo, sob fiscalização do Conselho Nacional de Saúde.",
+  "vigencia": {
+    "de": "1990-09-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 8.080/1990 (DOU de 20/9/1990), que fixou a regra; a norma de criação do fundo não foi pesquisada."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 33, caput e § 1º"
+    },
+    {
+      "ref": "norma:decreto-11798-2023",
+      "dispositivo": "Anexo I, art. 16"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Lei 8.080/1990, art. 33, § 1º, diz que os recursos 'serão administrados pelo Ministério da Saúde, através do Fundo Nacional de Saúde'. Dentro do ministério, a Diretoria-Executiva do FNS, na Secretaria-Executiva, cuida da gestão (Decreto 11.798/2023, Anexo I, art. 16, conforme as notas do fundo). A fiscalização pelo conselho tem relação própria (rel:conselho-nacional-de-saude-fiscaliza-fundo-nacional-de-saude).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes"
+  }
+}

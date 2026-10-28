@@ -1,0 +1,30 @@
+{
+  "id": "rel:inss-gere-fundo-do-regime-geral-de-previdencia-social",
+  "tipo": "relacao",
+  "nome": "O INSS gere o Fundo do Regime Geral de Previdência Social",
+  "relacao": "gere",
+  "de": "org:inss",
+  "para": "obj:fundo-do-regime-geral-de-previdencia-social",
+  "condicao": "A LRF, ao criar o fundo para pagar os benefícios do Regime Geral, atribui a sua gestão ao INSS, na forma da lei.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 68, § 2º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 250"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "LRF, art. 68, § 2º: 'O Fundo será gerido pelo Instituto Nacional do Seguro Social, na forma da lei.' A lei de que fala o dispositivo não foi pesquisada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-sugestoes-revisoes"
+  }
+}

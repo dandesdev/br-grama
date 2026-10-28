@@ -1,0 +1,26 @@
+{
+  "id": "obj:acao-de-interesse-da-magistratura",
+  "tipo": "objeto",
+  "nome": "Ação de interesse de toda a magistratura",
+  "resumo": "Ação em que todos os juízes do país têm interesse, ou em que mais da metade do tribunal de origem está impedida ou interessada. Vai direto ao STF.",
+  "detalhes": "A regra evita que juízes julguem causa em que eles mesmos têm interesse: quando o interesse é de toda a magistratura, direto ou indireto, ou quando mais da metade dos membros do tribunal que julgaria está impedida ou interessada, a causa sobe ao STF (art. 102, I, n).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, n"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Criado em f0-residuais."
+}

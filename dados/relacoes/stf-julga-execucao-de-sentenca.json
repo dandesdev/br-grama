@@ -1,0 +1,26 @@
+{
+  "id": "rel:stf-julga-execucao-de-sentenca",
+  "tipo": "relacao",
+  "nome": "STF executa as sentenças das causas originárias",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "obj:execucao-de-sentenca",
+  "condicao": "Nas causas de sua competência originária; pode delegar a prática de atos processuais.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, m"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Relação 'julga' usada por falta de verbo melhor: a CF fala em 'processar e julgar' a execução. Ver o diário de f0-residuais."
+}

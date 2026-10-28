@@ -1,0 +1,26 @@
+{
+  "id": "rel:trf-3-julga-revisao-criminal-e-acao-rescisoria",
+  "tipo": "relacao",
+  "nome": "TRF-3 julga revisão criminal e ação rescisória",
+  "relacao": "julga",
+  "de": "org:trf-3",
+  "para": "obj:revisao-criminal-e-acao-rescisoria",
+  "condicao": "Originariamente, contra julgados do próprio tribunal ou dos juízes federais da 3ª Região.",
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 108, I, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Uma relação por TRF, conteúdo igual nas seis regiões, como em rel:trf-3-julga-juiz-federal."
+}

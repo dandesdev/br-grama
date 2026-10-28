@@ -1,0 +1,26 @@
+{
+  "id": "obj:litigio-com-estado-estrangeiro",
+  "tipo": "objeto",
+  "nome": "Litígio com Estado estrangeiro ou organismo internacional",
+  "resumo": "Causa entre um país estrangeiro ou organismo internacional e um ente da federação ou pessoa no Brasil. Quem julga depende da outra parte.",
+  "detalhes": "Se a outra parte é a União, um estado, o DF ou um território, o STF julga desde o início (art. 102, I, e). Se é um município ou pessoa residente ou domiciliada no país, a causa começa com os juízes federais (art. 109, II), e o recurso ordinário vai direto ao STJ (art. 105, II, c).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, e; art. 105, II, c; art. 109, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais"
+  },
+  "notas": "Ligamos só o STF (rel:stf-julga-litigio-com-estado-estrangeiro); o caminho pelos juízes federais e pelo STJ fica nos detalhes. Criado em f0-residuais."
+}
