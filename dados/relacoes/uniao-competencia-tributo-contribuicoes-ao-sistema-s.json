@@ -21,10 +21,11 @@
     }
   ],
   "confianca": "inferido",
-  "notas": "Confiança 'inferido': a CF não atribui expressamente essas contribuições a um ente; a leitura vem do art. 149 e de serem todas instituídas por norma federal.",
+  "notas": "Confiança 'inferido': a CF não atribui expressamente essas contribuições a um ente; a leitura vem do art. 149 e de serem todas instituídas por norma federal (decretos-leis de 1942 a 1946, Lei 8.315/1991, Lei 8.706/1993, MP 2.168-40/2001, Lei 8.029/1990) e arrecadadas pela Receita Federal (Lei 11.457/2007, art. 3º). Na revisão (2026-10-27) não achamos norma que diga isso expressamente. Pista não oficial, lida em notícias e não conferida no portal do STF: no RE 603.624 (Tema 325, julgado em 23/9/2020), o STF tratou as contribuições ao Sebrae, à Apex e à ABDI como contribuições do art. 149 e as considerou recepcionadas pela EC 33/2001.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; base procurada sem achar norma expressa; a confiança 'inferido' fica, e as notas registram as leis federais que instituem as contribuições e a pista do Tema 325 do STF (não oficial)"
   }
 }

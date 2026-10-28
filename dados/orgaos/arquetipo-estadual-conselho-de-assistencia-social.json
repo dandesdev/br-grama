@@ -17,7 +17,8 @@
           "dispositivo": "art. 16, parágrafo único"
         }
       ],
-      "nota": "A lei vincula o conselho ao órgão gestor de assistência social, que costuma ser uma secretaria estadual; o órgão gestor não tem nó próprio, por isso o conselho fica no conjunto das secretarias."
+      "nota": "A lei vincula o conselho ao órgão gestor de assistência social, que costuma ser uma secretaria estadual; o órgão gestor não tem nó próprio, por isso o conselho fica no conjunto das secretarias.",
+      "confianca": "inferido"
     }
   },
   "fontes": [
@@ -37,8 +38,9 @@
   "confianca": "oficial",
   "notas": "Composição varia conforme a lei de cada estado; não levantada.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; Lei 8.742/1993, art. 13, I; art. 16, II; art. 17, § 4º; art. 28, § 1º; art. 30, conferidos; contido_em marcado como 'inferido' (a lei vincula o conselho ao órgão gestor, e que ele seja uma secretaria é leitura nossa, como nos conselhos de saúde)"
   }
 }

@@ -4,7 +4,7 @@
   "nome": "Sistema Único de Assistência Social",
   "sigla": "Suas",
   "resumo": "Sistema descentralizado e participativo que organiza a assistência social da União, dos estados, do DF e dos municípios, com cofinanciamento e gestão compartilhada.",
-  "detalhes": "A União coordena e edita normas gerais; estados e municípios coordenam e executam os programas, com entidades beneficentes. Os serviços chegam à população sobretudo pelos centros de referência (Cras e Creas). Cada esfera tem conselho de assistência social paritário entre governo e sociedade civil, e só recebe repasses quem tem conselho, fundo e plano de assistência social.",
+  "detalhes": "A União coordena e edita normas gerais; estados e municípios coordenam e executam os programas, com entidades beneficentes. Os serviços chegam à população sobretudo pelos centros de referência (Cras e Creas). Cada esfera tem conselho de assistência social paritário entre governo e sociedade civil, e só recebe repasses quem tem conselho, fundo e plano de assistência social. Faz parte da seguridade social, com a saúde e a previdência (CF, art. 194).",
   "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "nacional",
@@ -26,8 +26,9 @@
   "confianca": "oficial",
   "notas": "Tipo 'sistema', como o SUS e o Susp. Integram o Suas os entes federativos, os conselhos de assistência social e as entidades de assistência social (Lei 8.742/1993, art. 6º, § 2º); os órgãos gestores estaduais e municipais não têm nó próprio. O benefício de prestação continuada (art. 203, V) é pago pelo INSS (ver org:inss). Integra a seguridade social (CF, art. 194), que não tem nó próprio.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 194 e 204, I e II, Lei 8.742/1993, arts. 6º, 6º-C, 11, 16 e 30, e Lei 12.435/2011 (art. 4º, DOU de 7/7/2011) conferidos; detalhes ganharam a frase sobre a seguridade social (art. 194), que antes só estava em notas internas"
   }
 }

@@ -45,10 +45,11 @@
     "nota": "A exigência de unidade gestora única é da EC 103/2019 (art. 40, § 20, nessa redação), com prazo de dois anos para adequação (EC 103/2019, art. 9º, § 6º). Os regimes próprios estaduais são anteriores."
   },
   "confianca": "oficial",
-  "notas": "Arquétipo: o nome e a forma (autarquia, fundo, instituto) mudam por estado. Os militares estaduais têm sistema de proteção social próprio (não modelado). Na União ainda não há unidade gestora única: o Decreto 10.620/2021 (art. 1º, parágrafo único, I; arts. 2º e 3º) reparte a concessão entre o órgão central do Sipec e o INSS até que lei a institua, e a centralização está suspensa até 31/12/2026 (art. 4º, § 1º). Ver o relatório da tarefa f0-seguridade.",
+  "notas": "Arquétipo: o nome e a forma (autarquia, fundo, instituto) mudam por estado. Os militares estaduais têm sistema de proteção social próprio (não modelado). Na União ainda não há unidade gestora única: o Decreto 10.620/2021 (art. 1º, parágrafo único, I; arts. 2º e 3º) reparte a concessão entre o órgão central do Sipec e o INSS até que lei a institua, e a centralização está suspensa até 31/12/2026 (art. 4º, § 1º). O fato aparece nos detalhes de org:inss, com fonte.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 40, caput, §§ 20 e 22, e 249, EC 103/2019, art. 9º, caput e § 6º, e Lei 9.717/1998, arts. 1º, VI, 6º, 7º, 8º e 9º, conferidos; contido_em e tipo 'autarquia' seguem inferido, com a base explicada em campos (D39 já seguida: Poder Executivo do ente)"
   }
 }

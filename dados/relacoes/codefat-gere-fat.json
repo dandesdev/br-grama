@@ -1,0 +1,27 @@
+{
+  "id": "rel:codefat-gere-fat",
+  "tipo": "relacao",
+  "nome": "O Codefat gere o FAT",
+  "relacao": "gere",
+  "de": "org:codefat",
+  "para": "obj:fundo-de-amparo-ao-trabalhador",
+  "condicao": "Aprova o plano de trabalho anual do seguro-desemprego e do abono, elabora a proposta orçamentária do FAT, delibera sobre as suas contas e fiscaliza a sua administração.",
+  "vigencia": {
+    "de": "1990-01-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-7998-1990",
+      "dispositivo": "art. 19, caput, II, III, IV e VIII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei diz que compete ao Codefat 'gerir o FAT' (art. 19, caput). Antes era codefat-delibera-fat, com 'delibera' por falta do termo 'gere'.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; relação trocada de 'delibera' para 'gere' e arquivo renomeado (era codefat-delibera-fat), porque a Lei 7.998/1990, art. 19, caput, diz 'gerir o FAT'; acrescentado o inciso VIII (fiscalizar a administração do fundo)"
+  }
+}

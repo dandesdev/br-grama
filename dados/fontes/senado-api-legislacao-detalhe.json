@@ -1,0 +1,24 @@
+{
+  "id": "fonte:senado-api-legislacao-detalhe",
+  "tipo": "fonte",
+  "nome": "Senado Federal, dados abertos: ficha de norma federal (publicações no DOU)",
+  "resumo": "Ficha de uma norma federal na API de legislação do Senado, com a data e a página da publicação original no Diário Oficial da União.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Senado Federal",
+  "url": "https://legis.senado.leg.br/dadosabertos/legislacao/584385",
+  "acesso_em": "2026-10-27",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "criada na revisão de f0-administracao-indireta para registrar a data de publicação de normas cujo rodapé no Planalto tem erro"
+  },
+  "notas": "Endereço por documento: https://legis.senado.leg.br/dadosabertos/legislacao/<id>, com o id obtido em /legislacao/lista?tipo=LEI&numero=<n>&ano=<a>. Consultados os documentos 584385 (Lei 12.529/2011: DOU de 01/12/2011, p. 1) e 547754 (Lei 5.878/1973: DOU de 15/05/1973, p. 4697). Cópias em pesquisa/brutos/senado-dados-abertos/2026-10-27-verificacao-administracao-indireta/legislacao-<id>.xml. arquivo: não pedido ao Wayback."
+}

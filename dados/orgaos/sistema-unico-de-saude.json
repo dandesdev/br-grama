@@ -4,7 +4,7 @@
   "nome": "Sistema Único de Saúde",
   "sigla": "SUS",
   "resumo": "Rede única formada pelas ações e serviços públicos de saúde da União, dos estados, do DF e dos municípios, com direção única em cada esfera.",
-  "detalhes": "A direção é exercida pelo Ministério da Saúde na União e pelas secretarias de saúde nos estados, no DF e nos municípios. Cada esfera tem um conselho e uma conferência de saúde, com participação da comunidade. Serviços privados podem participar de forma complementar, por contrato ou convênio.",
+  "detalhes": "A direção é exercida pelo Ministério da Saúde na União e pelas secretarias de saúde nos estados, no DF e nos municípios. Cada esfera tem um conselho e uma conferência de saúde, com participação da comunidade. Serviços privados podem participar de forma complementar, por contrato ou convênio. Faz parte da seguridade social, com a previdência e a assistência social (CF, art. 194).",
   "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "nacional",
@@ -30,8 +30,9 @@
   "confianca": "oficial",
   "notas": "Tipo 'sistema', como o Susp: órgãos de todas as esferas, sem hierarquia própria. Competências do art. 200 (vigilância sanitária e epidemiológica, controle de produtos, saúde do trabalhador, saneamento, alimentos, substâncias tóxicas e radioativas) ficam aqui como nota; a vigilância sanitária federal tem nó próprio em org:anvisa. Integra a seguridade social (CF, art. 194), que não tem nó próprio.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 194, 198, 199, § 1º, e 200, e Lei 8.080/1990, arts. 4º, 8º e 9º, conferidos (sem emendas posteriores a 2026-10-01 nesses artigos); detalhes ganharam a frase sobre a seguridade social (art. 194), que antes só estava em notas internas"
   }
 }

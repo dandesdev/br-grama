@@ -14,12 +14,12 @@
   "vigencia": {
     "de": "2001-02-07",
     "ate": null,
-    "nota": "Conversão da Medida Provisória nº 2.112-88/2001, promulgada pelo Presidente do Congresso Nacional."
+    "nota": "Em vigor na publicação (art. 40). Conversão da Medida Provisória nº 2.112-88/2001, promulgada pelo Presidente do Congresso Nacional."
   },
   "fontes": [
     {
       "ref": "norma:lei-10180-2001",
-      "dispositivo": "arts. 15 a 18"
+      "dispositivo": "arts. 15 a 18 e 40"
     }
   ],
   "confianca": "oficial",
@@ -27,8 +27,9 @@
   "compilacao_ate": "Lei 13.464/2017",
   "redacao_conferida_em": "2026-10-24",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; arts. 15 a 18 (STN como órgão central, art. 17, I) e promulgação conferidos; vigência passou a citar o art. 40"
   }
 }

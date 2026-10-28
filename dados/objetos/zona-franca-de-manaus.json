@@ -4,7 +4,7 @@
   "nome": "Zona Franca de Manaus",
   "resumo": "Área de livre comércio com incentivos fiscais em Manaus e arredores, mantida pela Constituição até 2073 e administrada pela Suframa.",
   "detalhes": "O ADCT manteve a Zona Franca por 25 anos (art. 40) e somou mais 10 (art. 92) e mais 50 anos (art. 92-A), o que leva o prazo a 2073. Os critérios de aprovação de projetos só mudam por lei federal (art. 40, parágrafo único). As leis do IBS e da CBS devem manter o diferencial competitivo da área (art. 92-B).",
-  "tipo_objeto": "regra-fiscal",
+  "tipo_objeto": "regime-tributario",
   "esfera": "federal",
   "relativo_a": [
     "org:suframa"
@@ -25,10 +25,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "tipo_objeto 'regra-fiscal' por falta de termo para regime fiscal territorial (mesma proposta do Simples: 'regime-tributario'). O art. 92-B, § 2º, prevê lei complementar que institua o Fundo de Sustentabilidade e Diversificação Econômica do Estado do Amazonas; não pesquisamos se ela já existe. As áreas de livre comércio citadas no art. 92-B não têm nó próprio. O art. 40 cita o Decreto 7.212/2010 ('vide'), não lido.",
+  "notas": "tipo_objeto 'regime-tributario' (termo novo, que cita a própria Zona Franca como exemplo): o ADCT, art. 40, a mantém como área de livre comércio e de incentivos fiscais, e o Decreto-Lei 288/1967, arts. 1º e 3º, dá isenções próprias da área. O art. 92-B, § 2º, prevê lei complementar que institua o Fundo de Sustentabilidade e Diversificação Econômica do Estado do Amazonas, constituído e gerido pela União com participação do Estado; na revisão (2026-10-27) não achamos essa lei: a LC 214/2025 e a LC 227/2026 não falam do fundo, e a busca na web só mostrou o PLP 47/2024, sem notícia de aprovação. O fundo não tem nó próprio. As áreas de livre comércio citadas no art. 92-B não têm nó próprio. O art. 40 cita o Decreto 7.212/2010 ('vide'), não lido.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; ADCT, arts. 40, 92, 92-A e 92-B, e Decreto-Lei 288/1967 conferidos; tipo_objeto trocado de 'regra-fiscal' para 'regime-tributario' (termo novo); fundo do art. 92-B, § 2º, pesquisado: sem lei complementar até 2026-10-01, só o PLP 47/2024"
   }
 }

@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Calamidade pública de âmbito nacional",
   "resumo": "O Presidente pede, o Congresso decreta e a União passa a um regime fiscal e de contratações extraordinário enquanto durar a calamidade.",
-  "detalhes": "O regime vale só naquilo em que a urgência for incompatível com as regras normais. Em troca das dispensas, a União fica sujeita às vedações do mecanismo de ajuste fiscal (art. 167-A), como a proibição de reajustes e de criar despesa obrigatória, salvo nas medidas temporárias de combate à calamidade.",
+  "detalhes": "O regime vale só naquilo em que a urgência for incompatível com as regras normais. Em troca das dispensas, a União fica sujeita às vedações do mecanismo de ajuste fiscal (art. 167-A), como a proibição de reajustes, até o fim da calamidade. Nas medidas temporárias de combate à calamidade, cinco delas não valem: criar cargos, admitir pessoal, criar despesa obrigatória, ampliar programas de financiamento e conceder benefício tributário (art. 167-G, § 1º).",
   "forma": "linha",
   "produz": "obj:estado-de-calamidade-publica-nacional",
   "etapas": [
@@ -63,7 +63,7 @@
         "org:poder-executivo-federal"
       ],
       "acao": "A União adota o regime extraordinário fiscal, financeiro e de contratações",
-      "detalhes": "Permite contratar pessoal temporário, obras, serviços e compras por processos simplificados (art. 167-C); dispensa limitações legais a medidas temporárias de combate à calamidade (art. 167-D); dispensa a regra de ouro e os limites de operações de crédito durante todo o exercício (arts. 167-E e 167-F, I) e permite usar o superávit financeiro do ano anterior (art. 167-F, II). As vedações do art. 167-A passam a valer para a União, salvo nas medidas temporárias (art. 167-G, caput e § 1º).",
+      "detalhes": "Permite contratar pessoal temporário, obras, serviços e compras por processos simplificados (art. 167-C); dispensa limitações legais a medidas temporárias de combate à calamidade (art. 167-D); dispensa a regra de ouro e os limites de operações de crédito durante todo o exercício (arts. 167-E e 167-F, I) e permite usar o superávit financeiro do ano anterior (art. 167-F, II). As vedações do art. 167-A passam a valer para a União até o fim da calamidade; nas medidas temporárias de combate a ela, não valem as dos incisos II, IV, VII, IX e X (art. 167-G, caput e § 1º).",
       "prazo": {
         "texto": "Enquanto durar a calamidade; as dispensas dos arts. 167-E e 167-F, I, valem para todo o exercício financeiro em que ela vigorar"
       },
@@ -156,10 +156,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "A etapa 'decretacao' segue o rito do decreto legislativo; quando existir proc:decreto-legislativo (f0-processos-legislativos), ligar por remete_a. A CF não fixa prazo para a decisão do Congresso nem duração máxima da calamidade. Durante a calamidade, a transferência aos fundos regionais (art. 159, I, c) segue o valor do ano anterior (art. 167-G, § 2º).",
+  "notas": "A etapa 'decretacao' segue o rito do decreto legislativo e aponta para proc:decreto-legislativo por remete_a. A CF não fixa prazo para a decisão do Congresso nem duração máxima da calamidade. Durante a calamidade, a transferência aos fundos regionais (art. 159, I, c) segue o valor do ano anterior (art. 167-G, § 2º).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; etapas conferidas na CF (arts. 47, 49, XVIII, 84, XXVIII, 167-A, § 6º, 167-B a 167-G) e na LRF, art. 65, § 1º; remete_a da etapa decretacao para proc:decreto-legislativo conferido (o processo existe); corrigido: o resumo das vedações dizia que todas deixam de valer nas medidas temporárias, mas o art. 167-G, § 1º, só afasta as dos incisos II, IV, VII, IX e X do art. 167-A (a de reajustes continua); nota sobre o remete_a pendente atualizada"
   }
 }

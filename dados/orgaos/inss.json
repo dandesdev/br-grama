@@ -4,7 +4,7 @@
   "nome": "Instituto Nacional do Seguro Social",
   "sigla": "INSS",
   "resumo": "Autarquia federal que opera o Regime Geral de Previdência Social: reconhece o direito, concede e paga aposentadorias, pensões e demais benefícios, além de benefícios assistenciais.",
-  "detalhes": "O Regime Geral é contributivo e de filiação obrigatória, e cobre incapacidade para o trabalho, idade avançada, maternidade, morte e outros eventos previstos em lei. O INSS também paga o benefício assistencial de prestação continuada e gere o Fundo do Regime Geral de Previdência Social. É dirigido por um Presidente e cinco Diretores, e segue as diretrizes do Conselho Nacional de Previdência Social.",
+  "detalhes": "O Regime Geral é contributivo e de filiação obrigatória, e cobre incapacidade para o trabalho, idade avançada, maternidade, morte e outros eventos previstos em lei. O INSS também paga o benefício assistencial de prestação continuada e gere o Fundo do Regime Geral de Previdência Social. É dirigido por um Presidente e cinco Diretores, e segue as diretrizes do Conselho Nacional de Previdência Social. Na União não há unidade gestora única do regime próprio: enquanto a lei não a cria, o INSS concede e mantém as aposentadorias e pensões dos servidores de autarquias e fundações, e o órgão central do Sipec as da administração direta; a centralização dessas tarefas está suspensa até 31/12/2026. O Regime Geral faz parte da seguridade social, com a saúde e a assistência social (CF, art. 194).",
   "tipo_orgao": "autarquia",
   "poder": "executivo",
   "esfera": "federal",
@@ -37,6 +37,10 @@
     {
       "ref": "norma:lc-101-2000",
       "dispositivo": "art. 68, § 2º"
+    },
+    {
+      "ref": "norma:decreto-10620-2021",
+      "dispositivo": "art. 1º, parágrafo único, I; arts. 2º e 3º; art. 4º, § 1º"
     }
   ],
   "vigencia": {
@@ -60,8 +64,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 194, 201 e 248, Lei 8.029/1990, art. 17 (renumerado do art. 14 pela Lei 8.154/1990, por isso o Decreto 99.350 cita o art. 14), Decreto 99.350/1990, arts. 1º e 19, Decreto 10.995/2022, Anexo I, arts. 1º, 2º e 5º, e LRF, art. 68, § 2º, conferidos; contido_em e vínculo não conferidos nesta tarefa (D39, f0-administracao-indireta); detalhes completados com a falta de unidade gestora única na União (Decreto 10.620/2021, arts. 1º a 4º), que antes só estava em notas internas dos arquétipos; detalhes ganharam a frase sobre a seguridade social (art. 194), que antes só estava em notas internas"
   }
 }

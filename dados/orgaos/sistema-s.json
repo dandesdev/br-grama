@@ -3,8 +3,8 @@
   "tipo": "orgao",
   "nome": "Sistema S (serviços sociais autônomos)",
   "resumo": "Entidades privadas de serviço social e de formação profissional ligadas às confederações patronais, como Senai, Sesi, Senac, Sesc, Senar e Sebrae, custeadas por contribuições sobre a folha.",
-  "detalhes": "A CF manteve as contribuições compulsórias dos empregadores sobre a folha destinadas a essas entidades (art. 240). Cada uma foi criada por lei e é dirigida pela confederação do seu setor: o Senai e o Sesi pela Confederação Nacional da Indústria, o Senac e o Sesc pela Confederação Nacional do Comércio, o Senar pela Confederação Nacional da Agricultura. O Sebrae nasceu da transformação de um órgão federal em serviço social autônomo.",
-  "tipo_orgao": "paraestatal",
+  "detalhes": "A CF manteve as contribuições compulsórias dos empregadores sobre a folha destinadas a essas entidades (art. 240). Cada uma foi criada por lei e é dirigida pela confederação do seu setor: o Senai e o Sesi pela Confederação Nacional da Indústria, o Senac e o Sesc pela Confederação Nacional do Comércio, o Senar pela Confederação Nacional da Agricultura. O Sebrae nasceu da transformação em serviço social autônomo do Cebrae, que a lei desvinculou da administração federal (Lei 8.029/1990, art. 8º). Cada entidade é pessoa jurídica de direito privado, uma entidade paraestatal.",
+  "tipo_orgao": "conjunto",
   "poder": "nao-estatal",
   "esfera": "nacional",
   "vigencia": {
@@ -44,10 +44,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Caso de fronteira (D05): poder 'nao-estatal' porque são pessoas jurídicas de direito privado (o Sesi, por exemplo, pelo Decreto-Lei 9.403/1946, art. 2º); um só nó para o conjunto, sem contido_em. A lista não é exaustiva: Sest e Senat (Lei 8.706/1993, página do Planalto não abriu em 2026-10-24), Sescoop (MP 2.168-40/2001) e outros não foram lidos. A CF não classifica as contribuições do art. 240; não registramos a jurisprudência sobre a sua natureza. Termo 'serviço social autônomo' tirado da Lei 8.029/1990, art. 8º. O controle das contas pelo TCU não foi pesquisado.",
+  "notas": "Caso de fronteira (D05): poder 'nao-estatal' porque são pessoas jurídicas de direito privado (o Sesi, por exemplo, pelo Decreto-Lei 9.403/1946, art. 2º); um só nó para o conjunto, sem contido_em. Tipo 'conjunto', como os cartórios e os partidos (org:arquetipo-estadual-servicos-notariais-e-de-registro, org:partidos-politicos): o nó representa várias entidades; cada uma, sozinha, seria 'paraestatal'. A lista não é exaustiva. Sest e Senat: a CNT tem o encargo de criá-los, organizá-los e administrá-los, com personalidade de direito privado e fiscalização do TCU, e as contribuições valem desde 1º/1/1994 (Lei 8.706/1993, arts. 1º e 7º, DOU de 15/9/1993; lida em 2026-10-27 em https://planalto.gov.br/ccivil_03/leis/1989_1994/L8706.htm, sem cópia local nem entidade norma). Sescoop: criação autorizada pela MP 2.168-40/2001 (art. 8º), dirigido por conselho presidido pelo presidente da OCB (art. 9º), com contribuição de 2,5% sobre a folha das cooperativas (art. 10, I); cópia em pesquisa/brutos/planalto-leis/2026-10-24-dinheiro/2168-40.htm, sem entidade norma. A Lei 8.706/1993 e a MP 2.168-40/2001 sujeitam essas entidades à fiscalização do TCU; o controle das contas do conjunto pelo TCU não foi modelado. A CF não classifica as contribuições do art. 240; não registramos a jurisprudência sobre a sua natureza. Termo 'serviço social autônomo' tirado da Lei 8.029/1990, art. 8º.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; corrigido: tipo_orgao de 'paraestatal' para 'conjunto', seguindo o precedente de cartórios e partidos (o nó junta várias entidades); detalhe do Sebrae ajustado à Lei 8.029/1990, art. 8º (o Cebrae foi desvinculado da administração federal); Sest, Senat (Lei 8.706/1993) e Sescoop (MP 2.168-40/2001) pesquisados e anotados"
   }
 }

@@ -1,9 +1,9 @@
 ---
 id: verificacao-f0-judiciario-complementar
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-judiciario-complementar\""
-status: pendente
+status: em-andamento
 depende_de: [f0-judiciario-complementar]
-iniciada_em: null
+iniciada_em: 2026-10-27
 concluida_em: null
 ---
 
@@ -29,3 +29,4 @@ concluida_em: null
 - [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
+- 2026-10-27 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o diário da coleta; 113 entidades no escopo

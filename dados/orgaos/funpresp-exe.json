@@ -21,7 +21,7 @@
       "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal; o DL 200/1967, art. 4º, II, inclui a administração indireta na Administração Federal, e o art. 1º diz que o Poder Executivo é exercido pelo Presidente auxiliado pelos Ministros. A supervisão ministerial, que antes definia a posição, está em rel:funpresp-exe-vincula-se-mgi."
     },
     "tipo_orgao": {
-      "nota": "A lei a define como fundação de natureza pública com personalidade jurídica de direito privado (Lei 12.618/2012, art. 4º, § 1º; Decreto 7.808/2012, art. 1º, § 1º); 'fundacao-publica' é o termo mais próximo."
+      "nota": "A lei a define como fundação de natureza pública com personalidade jurídica de direito privado (Lei 12.618/2012, art. 4º, § 1º; Decreto 7.808/2012, art. 1º, § 1º); o termo 'fundacao-publica' cobre fundações de direito público e de direito privado."
     }
   },
   "fontes": [
@@ -56,8 +56,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 40, §§ 14 a 16, e 202, Lei 12.618/2012, arts. 1º, 3º, 4º, I e § 1º, e 5º, Decreto 7.808/2012, arts. 1º e 3º, e LC 108/2001, art. 1º, conferidos; tipo 'fundacao-publica' coerente com a definição nova (direito privado incluído), nota de campos.tipo_orgao atualizada; contido_em e vínculo não conferidos nesta tarefa (D39, f0-administracao-indireta)"
   }
 }

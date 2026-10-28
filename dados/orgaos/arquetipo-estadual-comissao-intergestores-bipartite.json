@@ -4,7 +4,7 @@
   "nome": "Comissão Intergestores Bipartite",
   "sigla": "CIB",
   "resumo": "Foro em que o estado e seus municípios pactuam a organização da rede de saúde e a gestão compartilhada do SUS no estado.",
-  "detalhes": "Pactua as etapas e os prazos do planejamento municipal e as regras de acesso na rede estadual. Nas regiões de saúde há ainda comissões intergestores regionais, que seguem as diretrizes da CIB. Fica vinculada à secretaria estadual de saúde para fins administrativos.",
+  "detalhes": "Pactua as etapas e os prazos do planejamento municipal e as regras de continuidade do acesso aos serviços de saúde no estado. Nas regiões de saúde há ainda comissões intergestores regionais, que seguem as diretrizes da CIB. Fica vinculada à secretaria estadual de saúde para fins administrativos.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "estadual",
@@ -28,7 +28,7 @@
     },
     {
       "ref": "norma:decreto-7508-2011",
-      "dispositivo": "art. 19; arts. 30 a 32"
+      "dispositivo": "art. 12, parágrafo único; art. 19; arts. 30 a 32"
     }
   ],
   "vigencia": {
@@ -40,8 +40,9 @@
   "confianca": "oficial",
   "notas": "As comissões intergestores regionais (Decreto 7.508/2011, art. 30, III) não têm nó próprio.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; Lei 8.080, art. 14-A, e Decreto 7.508/2011, arts. 19 e 30 a 32, conferidos; detalhes corrigidos ('regras de acesso na rede estadual' → 'regras de continuidade do acesso aos serviços de saúde no estado') e fonte completada com o art. 12, parágrafo único, de onde vem essa competência"
   }
 }

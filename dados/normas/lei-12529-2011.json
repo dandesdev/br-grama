@@ -15,15 +15,21 @@
   "redacao_conferida_em": "2026-10-24",
   "campos": {
     "publicacao": {
-      "confianca": "inferido",
-      "nota": "O rodapé do Planalto diz 'publicado no DOU de 1º.11.2011 e retificado em 2.12.2011', mas a lei é de 30/11/2011; lemos 1º/12/2011 como a data certa (erro de digitação no rodapé). Não conferido no DOU."
+      "fontes": [
+        {
+          "ref": "fonte:senado-api-legislacao-detalhe",
+          "dispositivo": "documento 584385: publicação original no DOU de 01/12/2011, p. 1"
+        }
+      ],
+      "confianca": "oficial",
+      "nota": "O rodapé do Planalto diz \"publicado no DOU de 1º.11.2011 e retificado em 2.12.2011\", erro de digitação; a ficha da lei na API do Senado dá a publicação original no DOU de 01/12/2011."
     }
   },
   "vigencia": {
     "de": "2012-05-29",
     "ate": null,
     "incerta": true,
-    "nota": "Art. 128: vigência 180 dias após a publicação. Data pela nossa contagem (LC 95/1998, art. 8º, § 1º) a partir de 1º/12/2011."
+    "nota": "Art. 128: vigência 180 dias após a publicação. Data pela nossa contagem (LC 95/1998, art. 8º, § 1º) a partir de 1º/12/2011 (data da publicação conferida na API do Senado)."
   },
   "fontes": [
     {
@@ -34,8 +40,9 @@
   "confianca": "oficial",
   "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l12529.htm. Dispositivos usados: art. 3º (SBDC: Cade e Secretaria de Acompanhamento Econômico do Ministério da Fazenda), art. 4º (Cade, autarquia federal vinculada ao Ministério da Justiça), art. 5º (Tribunal, Superintendência-Geral e Departamento de Estudos Econômicos), art. 6º (Tribunal: Presidente e seis Conselheiros nomeados após aprovação do Senado, mandato de 4 anos sem recondução). Alteração mais recente vista no texto compilado: Lei 14.470/2022. arquivo: Wayback devolveu 429 em 2026-10-24.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; arts. 3º a 6º e 128 conferidos na cópia bruta; data de publicação confirmada na API do Senado (antes inferida), contagem dos 180 dias conferida (29/5/2012)"
   }
 }

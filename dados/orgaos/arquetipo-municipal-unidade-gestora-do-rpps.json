@@ -2,7 +2,7 @@
   "id": "org:arquetipo-municipal-unidade-gestora-do-rpps",
   "tipo": "orgao",
   "nome": "Unidade gestora do regime próprio de previdência do município",
-  "resumo": "Nos municípios que têm regime próprio de previdência, órgão ou entidade única que administra aposentadorias e pensões dos servidores efetivos da prefeitura e da câmara.",
+  "resumo": "Nos municípios que têm regime próprio de previdência, órgão ou entidade única que administra aposentadorias e pensões dos servidores efetivos da prefeitura, da câmara, das autarquias e das fundações.",
   "detalhes": "Desde a EC 103/2019 é proibido criar novos regimes próprios, então só os municípios que já tinham o seu mantêm unidade gestora; os demais servidores municipais ficam no Regime Geral. O regime é contributivo, com equilíbrio atuarial, pode ter fundo previdenciário e é fiscalizado pela União, que emite o Certificado de Regularidade Previdenciária.",
   "tipo_orgao": "autarquia",
   "poder": "executivo",
@@ -23,10 +23,6 @@
     "tipo_orgao": {
       "confianca": "inferido",
       "nota": "A CF admite 'órgão ou entidade gestora'. Escolhemos autarquia como forma típica, sem levantamento dos municípios."
-    },
-    "detalhes": {
-      "confianca": "inferido",
-      "nota": "Que os servidores de municípios sem regime próprio ficam no Regime Geral é leitura nossa do art. 40, §§ 13 e 22, e do art. 201 da CF; não conferimos a lei que regula isso nem quantos municípios têm regime próprio."
     }
   },
   "fontes": [
@@ -41,6 +37,10 @@
     {
       "ref": "norma:lei-9717-1998",
       "dispositivo": "art. 1º, VI; arts. 6º, 8º e 9º"
+    },
+    {
+      "ref": "norma:lei-8213-1991",
+      "dispositivo": "art. 12, caput"
     }
   ],
   "vigencia": {
@@ -49,10 +49,11 @@
     "nota": "A exigência de unidade gestora única e a proibição de novos regimes são da EC 103/2019."
   },
   "confianca": "oficial",
-  "notas": "Arquétipo de existência condicional: nem todo município tem regime próprio. O número de municípios com regime próprio em 2026-10-01 não foi pesquisado.",
+  "notas": "Arquétipo de existência condicional: nem todo município tem regime próprio. O número de municípios com regime próprio em 2026-10-01 não foi pesquisado. Que os servidores efetivos de municípios sem regime próprio ficam no Regime Geral vem da Lei 8.213/1991, art. 12 (só os amparados por regime próprio são excluídos do Regime Geral).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 40, caput, §§ 20 e 22, e 249, EC 103/2019, art. 9º, e Lei 9.717/1998, arts. 1º, VI, 6º, 7º, 8º e 9º, conferidos; resumo corrigido ('servidores efetivos da prefeitura e da câmara' → acrescidas autarquias e fundações, CF, art. 40, § 20); detalhes passam de inferido a oficial com a Lei 8.213/1991, art. 12; contido_em e tipo 'autarquia' seguem inferido"
   }
 }

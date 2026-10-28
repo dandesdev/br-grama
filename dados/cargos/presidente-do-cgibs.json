@@ -6,12 +6,12 @@
   "detalhes": "Convoca e preside as sessões do Conselho Superior, promulga e publica as suas resoluções, dá posse aos diretores e presta informações ao Congresso quando convocado (LC 227/2026, art. 12). É substituído pelo Primeiro Vice-Presidente, que deve ser da outra esfera federativa (arts. 14 e 17, § 1º).",
   "orgao": "org:comite-gestor-do-ibs",
   "provimento": "eleicao-pelos-pares",
-  "provimento_nota": "Eleito pelos membros titulares do Conselho Superior, entre eles (LC 227/2026, art. 16). A presidência alterna entre o conjunto dos estados e DF e o dos municípios e DF (CF, art. 156-B, § 3º; LC 227/2026, art. 17). Só perde o cargo nas hipóteses do art. 9º, § 2º, automaticamente ou por maioria absoluta do Conselho Superior (art. 16, § 3º).",
+  "provimento_nota": "Eleito pelos membros titulares do Conselho Superior, entre eles (LC 227/2026, art. 16). A presidência alterna entre o conjunto dos estados e DF e o dos municípios e DF (CF, art. 156-B, § 2º, II; LC 227/2026, art. 17). Só perde o cargo nas hipóteses do art. 9º, § 2º, automaticamente ou por maioria absoluta do Conselho Superior (art. 16, § 3º).",
   "mandato": {
     "anos": 2,
     "vitalicio": false,
     "reconducao": "vedada a reeleição para o mesmo cargo na eleição seguinte, salvo se o mandato anterior foi de até 12 meses",
-    "nota": "LC 227/2026, art. 16, caput e § 2º. A Presidência eleita em 2026 tem mandato até 31/3/2027 (fonte:cgibs-portaria-1-2026), menor que dois anos; não lemos a regra de transição que explica isso."
+    "nota": "LC 227/2026, art. 16, caput e § 2º. A primeira Presidência, de 2026, foi eleita com base na regra de instalação da LC 214/2025, art. 483, § 1º, III (os titulares do Conselho Superior elegem entre si o Presidente e os dois Vice-Presidentes), e não no art. 16 da LC 227/2026; a própria LC 227/2026 (art. 182, II) chama essa eleição de \"eleição do Presidente do CGIBS, prevista no inciso III do § 1º do art. 483\". O mandato até 31/3/2027 vem da Portaria CGIBS nº 1/2026 e coincide com o fim dos mandatos dos representantes dos municípios indicados pela CNM e pela FNP (LC 214/2025, art. 482-A, § 1º, incluído pela LC 227/2026); nenhuma das leis lidas fixa essa data para a Presidência."
   },
   "vagas": 1,
   "requisitos": [
@@ -21,6 +21,15 @@
         {
           "ref": "norma:lc-227-2026",
           "dispositivo": "art. 16, caput"
+        }
+      ]
+    },
+    {
+      "texto": "ter notórios conhecimentos de administração tributária",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 156-B, § 5º"
         }
       ]
     }
@@ -33,17 +42,26 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 156-B, § 3º"
+      "dispositivo": "art. 156-B, §§ 2º, II, e 5º"
     },
     {
       "ref": "norma:lc-227-2026",
       "dispositivo": "arts. 7º, II, 12, 14, 16 e 17"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 482-A, § 1º, e 483, § 1º, III"
+    },
+    {
+      "ref": "fonte:cgibs-portaria-1-2026",
+      "dispositivo": "art. 1º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; corrigido: a CF era citada no art. 156-B, § 3º (que trata da composição), mas a alternância está no § 2º, II; acrescentado o requisito do § 5º (notórios conhecimentos de administração tributária); a nota do mandato agora explica a base da eleição de 2026 (LC 214/2025, art. 483, § 1º, III) e a data de 31/3/2027 (LC 214/2025, art. 482-A, § 1º)"
   }
 }

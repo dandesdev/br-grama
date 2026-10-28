@@ -1,0 +1,33 @@
+{
+  "id": "rel:mds-gere-fundo-de-combate-e-erradicacao-da-pobreza",
+  "tipo": "relacao",
+  "nome": "O Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome gere o Fundo de Combate e Erradicação da Pobreza",
+  "relacao": "gere",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "para": "obj:fundo-de-combate-e-erradicacao-da-pobreza",
+  "condicao": "Como órgão gestor: coordena as políticas e diretrizes de aplicação, seleciona os programas financiados, coordena a proposta orçamentária do fundo e acompanha os resultados.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 14.600/2023, que põe a gestão do fundo entre as áreas do ministério; o histórico dos órgãos gestores anteriores não foi levantado."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 27, XI"
+    },
+    {
+      "ref": "norma:lc-111-2001",
+      "dispositivo": "art. 5º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A LC 111/2001, art. 5º, lista as competências do órgão gestor, a ser designado pelo Presidente da República. A designação do MDS está no Decreto 4.564/2003, art. 1º, com redação do Decreto 11.992/2024 (lido em https://www.planalto.gov.br/ccivil_03/decreto/2003/d4564.htm em 2026-10-27; sem entidade norma).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "criada na revisão, com o termo novo 'gere'; antes a gestão estava só no relativo_a do fundo"
+  }
+}

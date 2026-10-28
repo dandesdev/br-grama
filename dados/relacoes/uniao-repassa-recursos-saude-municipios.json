@@ -5,7 +5,7 @@
   "relacao": "repassa-recursos",
   "de": "ente:uniao",
   "para": "ente:arquetipo-municipal",
-  "condicao": "Do Fundo Nacional de Saúde aos fundos municipais de saúde, de forma regular e automática, sem convênio, pelo critério de necessidades de saúde da população. Para receber, o município precisa ter fundo, conselho e plano de saúde, entre outros requisitos; se não tiver, o estado administra os recursos.",
+  "condicao": "Do Fundo Nacional de Saúde aos fundos municipais de saúde, de forma regular e automática, sem convênio, pelo critério de necessidades de saúde da população. Para receber, o município precisa ter fundo, conselho e plano de saúde, entre outros requisitos; se não tiver, o estado administra os recursos. Pelo menos 70% desses recursos vão aos municípios e o restante aos estados.",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -13,7 +13,7 @@
     },
     {
       "ref": "norma:lei-8142-1990",
-      "dispositivo": "arts. 3º e 4º"
+      "dispositivo": "art. 3º, caput e § 2º; art. 4º"
     },
     {
       "ref": "norma:lc-141-2012",
@@ -25,10 +25,11 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "A Lei 8.142/1990 (art. 3º, § 2º) manda destinar pelo menos 70% dos repasses do art. 2º, IV, aos municípios e o restante aos estados; não conferimos como essa regra convive com os critérios de rateio da LC 141/2012 (art. 17), por isso ela não aparece no texto.",
+  "notas": "A regra dos 70% (Lei 8.142/1990, art. 3º, § 2º) continua no texto: o Planalto não anota alteração na Lei 8.142, e a LC 141/2012 só revogou o art. 35, § 1º, da Lei 8.080 e o art. 12 da Lei 8.689/1993 (art. 47). O art. 17 da LC 141 fixa os critérios de rateio sem tratar da proporção entre estados e municípios, e as duas regras não se contradizem. Não achamos ato oficial sobre a aplicação prática do piso de 70%.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; CF, arts. 195, § 10, e 198, § 3º, II, Lei 8.142, arts. 3º e 4º, e LC 141, arts. 17 e 18, conferidos; ponto dos 70% resolvido: a regra continua no texto e passou para a condição"
   }
 }

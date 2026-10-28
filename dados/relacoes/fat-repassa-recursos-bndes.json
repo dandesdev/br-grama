@@ -5,7 +5,7 @@
   "relacao": "repassa-recursos",
   "de": "obj:fundo-de-amparo-ao-trabalhador",
   "para": "org:bndes",
-  "condicao": "Pelo menos 28% da arrecadação do PIS/Pasep vão ao BNDES para programas de desenvolvimento econômico, com remuneração que preserve o seu valor; o risco das operações é do banco.",
+  "condicao": "Pelo menos 28% da arrecadação do PIS/Pasep vão ao BNDES para programas de desenvolvimento econômico, com remuneração que preserve o seu valor (a lei ainda fala em 40%); o risco das operações é do banco.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null,
@@ -18,14 +18,15 @@
     },
     {
       "ref": "norma:lei-8019-1990",
-      "dispositivo": "art. 2º, caput e § 4º"
+      "dispositivo": "arts. 2º, caput e § 4º, e 6º"
     }
   ],
   "confianca": "oficial",
-  "notas": "O 'de' é o fundo, e não um órgão, porque a lei fala em repasse de parte da arrecadação destinada ao FAT sem nomear quem transfere. A redação original do § 1º previa 'pelo menos quarenta por cento'; a mudança para 28% veio com a EC 103/2019 (marca no texto compilado).",
+  "notas": "O 'de' é o fundo, e não um órgão: nem a CF (art. 239, § 1º) nem a Lei 8.019/1990 (art. 2º) dizem quem transfere; a lei só diz que o Tesouro repassa mensalmente ao FAT o necessário, inclusive para os programas do BNDES (art. 6º). A redação original do § 1º previa 'pelo menos quarenta por cento'; a mudança para 28% veio com a EC 103/2019. A Lei 8.019/1990, art. 2º, segue com 'pelo menos 40%' até 31/12/2026; a redação de 28% é da LC 214/2025 (art. 500), com efeitos em 2027.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; corrigido: a condição e as notas tratavam os 28% como regra da lei, mas a Lei 8.019/1990, art. 2º, em vigor em 2026-10-01 diz 40%; os 28% são o mínimo da CF. O 'de' segue o fundo: conferido que nenhuma norma diz quem transfere (ponto em aberto resolvido)"
   }
 }

@@ -4,7 +4,7 @@
   "nome": "Simples Nacional",
   "resumo": "Regime opcional de arrecadação unificada para microempresas e empresas de pequeno porte: um único documento mensal recolhe tributos da União, dos estados e dos municípios.",
   "detalhes": "O recolhimento é centralizado e cada ente recebe a sua parte de imediato, sem retenção (CF, art. 146, § 1º). Abrange, entre outros, IRPJ, CSLL, PIS/Pasep, Cofins, IPI, contribuição patronal, ICMS e ISS (LC 123/2006, art. 13). O optante pode recolher o IBS e a CBS por fora do regime único (CF, art. 146, § 2º).",
-  "tipo_objeto": "regra-fiscal",
+  "tipo_objeto": "regime-tributario",
   "esfera": "nacional",
   "relativo_a": [
     "ente:uniao",
@@ -27,10 +27,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "tipo_objeto 'regra-fiscal' por falta de termo para regime de arrecadação (proposta: 'regime-tributario'). A CF permite condições de enquadramento diferentes por estado e arrecadação, fiscalização e cobrança compartilhadas, com cadastro nacional único (art. 146, § 1º, II e IV). Os limites de receita das empresas não foram registrados.",
+  "notas": "tipo_objeto 'regime-tributario' (termo novo, que cita o Simples como exemplo): a CF, art. 146, III, d, e § 1º, prevê tratamento diferenciado e regime único de arrecadação para microempresas e empresas de pequeno porte. A CF permite condições de enquadramento diferentes por estado e arrecadação, fiscalização e cobrança compartilhadas, com cadastro nacional único (art. 146, § 1º, II e IV). Os limites de receita das empresas não foram registrados.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; CF, art. 146, III, d, e §§ 1º a 3º, e LC 123/2006, arts. 12, 13 e 88, conferidos; tipo_objeto trocado de 'regra-fiscal' para 'regime-tributario' (termo novo)"
   }
 }

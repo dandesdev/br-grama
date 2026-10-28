@@ -7,10 +7,10 @@
   "para": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
   "condicao": "Supervisão ministerial, sem hierarquia.",
   "vigencia": {
-    "de": "2023-03-02",
+    "de": "2023-03-09",
     "ate": null,
     "incerta": true,
-    "nota": "Data do Decreto 11.427/2023, que lista a Suframa entre as autarquias vinculadas ao MDIC. As vinculações anteriores não foram levantadas."
+    "nota": "Início de vigência do Decreto 11.427, de 2/3/2023, que lista a Suframa entre as autarquias vinculadas ao MDIC. As vinculações anteriores não foram levantadas."
   },
   "fontes": [
     {
@@ -20,8 +20,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; Decreto 11.427/2023, Anexo I, art. 2º, IV, a, 3, conferido; corrigido o início da vigência de 2023-03-02 (assinatura) para 2023-03-09 (vigência do decreto)"
   }
 }

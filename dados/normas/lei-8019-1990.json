@@ -2,7 +2,7 @@
   "id": "norma:lei-8019-1990",
   "tipo": "norma",
   "nome": "Lei nº 8.019, de 11 de abril de 1990",
-  "resumo": "Altera a legislação do FAT: destina ao fundo a arrecadação do PIS/Pasep e manda repassar pelo menos 28% dela ao BNDES.",
+  "resumo": "Altera a legislação do FAT: destina ao fundo a arrecadação do PIS/Pasep e manda repassar pelo menos 40% dela ao BNDES (28% a partir de 2027).",
   "tipo_norma": "lei-ordinaria",
   "numero": "8.019",
   "data": "1990-04-11",
@@ -14,21 +14,22 @@
   "vigencia": {
     "de": "1990-04-12",
     "ate": null,
-    "nota": "Conversão da Medida Provisória nº 147/1990."
+    "nota": "Em vigor na publicação (art. 15). Conversão da Medida Provisória nº 147/1990."
   },
   "fontes": [
     {
       "ref": "norma:lei-8019-1990",
-      "dispositivo": "arts. 1º, 2º, 6º e 7º"
+      "dispositivo": "arts. 1º, 2º, 6º, 7º e 15"
     }
   ],
   "confianca": "oficial",
-  "notas": "DOU de 12/4/1990, segundo a nota final da página do Planalto. A LC 214/2025 (art. 500) deu nova redação aos arts. 1º e 2º, trocando o PIS por 18% da CBS, com efeitos só a partir de 1º/1/2027 (LC 214/2025, art. 544, III); em 2026-10-01 vale a redação anterior, que destina ao FAT a arrecadação do PIS e do Pasep. Cópia em pesquisa/brutos/planalto-leis/2026-10-24-dinheiro/l8019.htm.",
+  "notas": "DOU de 12/4/1990, segundo a nota final da página do Planalto. A LC 214/2025 (art. 500) deu nova redação aos arts. 1º e 2º, trocando o PIS por 18% da CBS e o repasse ao BNDES de 40% para 28%, com efeitos só a partir de 1º/1/2027 (LC 214/2025, art. 544, III); em 2026-10-01 vale a redação anterior, que destina ao FAT a arrecadação do PIS e do Pasep e manda repassar ao BNDES pelo menos 40% dela (art. 2º). A CF, art. 239, § 1º, na redação da EC 103/2019, já exige só 28%. Cópia em pesquisa/brutos/planalto-leis/2026-10-24-dinheiro/l8019.htm.",
   "compilacao_ate": "LC 214/2025",
   "redacao_conferida_em": "2026-10-24",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; corrigido: o resumo dizia que a lei manda repassar 28% ao BNDES, mas em 2026-10-01 vale a redação original do art. 2º (40%); os 28% são da CF, art. 239, § 1º (EC 103/2019) e da redação da LC 214/2025, que só vale a partir de 2027"
   }
 }

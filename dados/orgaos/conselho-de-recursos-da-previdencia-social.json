@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Conselho de Recursos da Previdência Social",
   "sigla": "CRPS",
-  "resumo": "Colegiado administrativo que julga os recursos contra decisões do INSS sobre benefícios e outras demandas previdenciárias, antes ou em vez de ir à Justiça.",
+  "resumo": "Colegiado que julga, na via administrativa, os recursos contra decisões do INSS sobre benefícios e outras demandas previdenciárias.",
   "detalhes": "Julga recursos dos beneficiários contra decisões do INSS, contestações sobre o Fator Acidentário de Prevenção, recursos sobre a comprovação de atividade rural e processos de compensação entre regimes e de fiscalização dos regimes próprios. Quem entra na Justiça com o mesmo pedido renuncia ao recurso administrativo.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
@@ -38,8 +38,9 @@
   "confianca": "oficial",
   "notas": "Composição e organização em juntas e câmaras estão no regulamento (não pesquisado).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-seguridade"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-seguridade",
+    "notas": "coletado em f0-seguridade; Lei 8.213/1991, art. 126, caput, I a IV e § 3º, e Decreto 11.356/2023, Anexo I, arts. 2º, III, b, e 21, conferidos; resumo corrigido: 'antes ou em vez de ir à Justiça' saiu, porque a lei não exige o recurso antes da ação e só diz que a ação judicial importa renúncia ao recurso (art. 126, § 3º, já nos detalhes)"
   }
 }
