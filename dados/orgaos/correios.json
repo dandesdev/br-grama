@@ -1,0 +1,64 @@
+{
+  "id": "org:correios",
+  "tipo": "orgao",
+  "nome": "Empresa Brasileira de Correios e Telégrafos",
+  "sigla": "ECT",
+  "resumo": "Empresa pública federal que presta o serviço postal, que a Constituição atribui à União manter.",
+  "detalhes": "Criada em 1969 pela transformação do antigo Departamento dos Correios e Telégrafos, com sede em Brasília e atuação no país e no exterior.",
+  "tipo_orgao": "empresa-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, b"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:correios-vincula-se-ministerio-das-comunicacoes."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, X"
+    },
+    {
+      "ref": "norma:decreto-lei-509-1969",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 3º"
+    },
+    {
+      "ref": "norma:decreto-11335-2023",
+      "dispositivo": "Anexo I, art. 2º, V, b"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 74 (natureza “Empresa Pública”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": "1969-03-21",
+    "ate": null,
+    "nota": "Transformação do DCT em empresa pública (DL 509/1969, em vigor na publicação)."
+  },
+  "confianca": "oficial",
+  "notas": "O id usa o nome de uso (Correios), não conferido em norma. Estatuto social e regime do serviço postal (Lei 6.538/1978) não lidos.",
+  "mais_informacoes": [
+    {
+      "titulo": "Empresa Brasileira de Correios e Telégrafos",
+      "url": "https://www.correios.com.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "rel:caixa-economica-federal-vincula-se-ministerio-da-fazenda",
+  "tipo": "relacao",
+  "nome": "A Caixa é vinculada ao Ministério da Fazenda",
+  "relacao": "vincula-se",
+  "de": "org:caixa-economica-federal",
+  "para": "org:ministerio-da-fazenda",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-759-1969",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, IV, b, 3"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "A vinculação ao Ministério da Fazenda está no DL 759/1969; o ministério atual vem da reorganização de 2023 (Lei 14.600/2023), e a estrutura vigente, do Decreto 11.907/2024. Vinculações intermediárias (ex.: Ministério da Economia, 2019 a 2022) não levantadas."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

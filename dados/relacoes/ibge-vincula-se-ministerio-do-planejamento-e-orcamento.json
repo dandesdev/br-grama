@@ -1,0 +1,27 @@
+{
+  "id": "rel:ibge-vincula-se-ministerio-do-planejamento-e-orcamento",
+  "tipo": "relacao",
+  "nome": "O IBGE é vinculado ao Ministério do Planejamento e Orçamento",
+  "relacao": "vincula-se",
+  "de": "org:ibge",
+  "para": "org:ministerio-do-planejamento-e-orcamento",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11353-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, 1"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.353/2023, estrutura vigente do Ministério do Planejamento e Orçamento. Vinculações anteriores não levantadas."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

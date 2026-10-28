@@ -1,0 +1,69 @@
+{
+  "id": "org:petrobras",
+  "tipo": "orgao",
+  "nome": "Petróleo Brasileiro S.A.",
+  "sigla": "Petrobras",
+  "resumo": "Sociedade de economia mista federal de petróleo e gás: sociedade anônima em que a União tem a maioria das ações com direito a voto.",
+  "detalhes": "Atua em pesquisa, lavra, refino, transporte e comércio de petróleo, gás e derivados, em livre competição com outras empresas. É exemplo de sociedade de economia mista.",
+  "tipo_orgao": "sociedade-economia-mista",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, c"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:petrobras-vincula-se-ministerio-de-minas-e-energia."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 224 (natureza “Sociedade de Economia Mista”), arquivo baixado em 2026-10-24"
+        }
+      ],
+      "nota": "O SIORG grafa PETROBRAS; a Lei 9.478, art. 61, PETROBRÁS."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 61, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 4º"
+    },
+    {
+      "ref": "norma:decreto-11492-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, c (redação do Decreto 12.212/2024)"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 224 (natureza “Sociedade de Economia Mista”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Criada pela Lei 2.004/1953, não lida; data não conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Participação acionária da União não levantada. Subsidiárias não modeladas. A Lei 9.478, art. 61-A, autoriza atividades de energia e de transição energética.",
+  "mais_informacoes": [
+    {
+      "titulo": "Petróleo Brasileiro S.A.",
+      "url": "https://petrobras.com.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

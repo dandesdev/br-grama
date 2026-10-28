@@ -1,0 +1,30 @@
+{
+  "id": "rel:cne-monitora-plano-nacional-de-educacao",
+  "tipo": "relacao",
+  "nome": "O CNE acompanha a execução do PNE",
+  "relacao": "monitora",
+  "de": "org:conselho-nacional-de-educacao",
+  "para": "obj:plano-nacional-de-educacao",
+  "condicao": "Participa do monitoramento e da avaliação do plano; cada câmara acompanha a execução na sua área.",
+  "vigencia": {
+    "de": "2026-04-15",
+    "ate": null,
+    "nota": "Início do PNE atual. A competência de acompanhar o PNE vem da Lei 9.131/1995."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-15388-2026",
+      "dispositivo": "art. 8º, § 1º, II"
+    },
+    {
+      "ref": "norma:lei-4024-1961",
+      "dispositivo": "art. 7º, § 1º, a; art. 9º, § 1º, d, e § 2º, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao"
+  }
+}

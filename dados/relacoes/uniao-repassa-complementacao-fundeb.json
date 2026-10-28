@@ -5,7 +5,7 @@
   "relacao": "repassa-recursos",
   "de": "ente:uniao",
   "para": "obj:fundeb",
-  "condicao": "10 pontos percentuais vão aos fundos dos estados onde o valor por aluno (VAAF) fica abaixo do mínimo nacional; no mínimo 10,5 pontos às redes com valor total por aluno (VAAT) abaixo do mínimo; 2,5 pontos às redes que melhoram seus indicadores (VAAR).",
+  "condicao": "10 pontos percentuais vão aos fundos dos estados onde o valor por aluno (VAAF) fica abaixo do mínimo nacional; no mínimo 10,5 pontos às redes com valor total por aluno (VAAT) abaixo do mínimo; 2,5 pontos às redes que cumprem condicionalidades de gestão e melhoram seus indicadores de atendimento e aprendizagem (VAAR).",
   "vigencia": {
     "de": "2021-01-01",
     "ate": null,
@@ -28,8 +28,9 @@
   "confianca": "oficial",
   "notas": "É a principal forma da função redistributiva e supletiva da União (CF, art. 211, § 1º). Até 30% da complementação pode contar para o piso federal de 18% (art. 212-A, VIII), o salário-educação não pode ser usado nela (XIII), e reter o repasse é crime de responsabilidade (IX; Lei 14.113/2020, art. 4º, § 4º).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; CF, arts. 211, § 1º, e 212-A, IV, V, VIII, IX e XIII, ADCT, art. 60, e Lei 14.113/2020, arts. 4º e 5º, conferidos; condição do VAAR completada com as condicionalidades de gestão (art. 212-A, V, c)"
   }
 }

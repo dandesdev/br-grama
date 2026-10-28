@@ -24,7 +24,7 @@
         },
         {
           "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
-          "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+          "dispositivo": "RE 590.829 (Tema 223); ARE 878.911 RG (Tema 917); RE 1.498.771"
         },
         {
           "ref": "norma:sp-sao-paulo-lei-organica-1990",
@@ -32,7 +32,7 @@
         },
         {
           "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
-          "dispositivo": "arts. 69 e 71; art. 80, I"
+          "dispositivo": "arts. 69, 71 e 80"
         }
       ],
       "seguintes": [
@@ -87,7 +87,7 @@
         "cargo:arquetipo-municipal-prefeito"
       ],
       "acao": "O prefeito sanciona ou veta, no todo ou em parte, o projeto aprovado",
-      "detalhes": "Em SP e no Rio, o prazo é de 15 dias úteis, e os motivos do veto vão ao presidente da Câmara em 48 horas, como no art. 66, § 1º. Passado o prazo sem veto, o projeto segue para promulgação.",
+      "detalhes": "Em SP e no Rio, o prazo é de 15 dias úteis, e os motivos do veto vão ao presidente da Câmara em 48 horas, como no art. 66, § 1º. O veto parcial só abrange texto inteiro de artigo, parágrafo, inciso ou alínea. Passado o prazo sem veto, o projeto segue para promulgação.",
       "remete_a": "proc:lei-ordinaria",
       "prazo": {
         "texto": "15 dias úteis a contar do recebimento (SP e Rio de Janeiro)",
@@ -103,7 +103,7 @@
         },
         {
           "ref": "norma:sp-sao-paulo-lei-organica-1990",
-          "dispositivo": "art. 42, caput e §§ 1º a 3º"
+          "dispositivo": "art. 42, caput e §§ 1º, 1º-A, 2º e 3º"
         },
         {
           "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
@@ -238,7 +238,7 @@
         },
         {
           "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
-          "dispositivo": "art. 74"
+          "dispositivo": "art. 82"
         }
       ],
       "seguintes": []
@@ -256,7 +256,7 @@
     },
     {
       "ref": "fonte:stf-constituicao-e-o-supremo-art-61",
-      "dispositivo": "RE 590.829 (Tema 223); RE 1.498.771 (Tema 917)"
+      "dispositivo": "RE 590.829 (Tema 223); ARE 878.911 RG (Tema 917); RE 1.498.771"
     },
     {
       "ref": "norma:sp-sao-paulo-lei-organica-1990",
@@ -264,20 +264,21 @@
     },
     {
       "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
-      "dispositivo": "arts. 69 a 80"
+      "dispositivo": "arts. 69 a 82"
     }
   ],
   "campos": {
     "etapas": {
       "confianca": "oficial",
-      "nota": "Etapas conferidas nas leis orgânicas de São Paulo e do Rio de Janeiro, que as preveem expressamente no molde do art. 66 da CF; os textos compilados lidos vão até a Emenda 31/2008 (SP) e a Emenda 20/2009 (Rio). As demais leis orgânicas não foram lidas; o STF aplica aos municípios as reservas de iniciativa do modelo federal."
+      "nota": "Etapas conferidas nas leis orgânicas de São Paulo e do Rio de Janeiro, que as preveem expressamente no molde do art. 66 da CF; os textos lidos são os compilados pelas Câmaras, até a Emenda 44/2025 (SP) e a Emenda 43/2025 (Rio). As demais leis orgânicas não foram lidas; o STF aplica aos municípios as reservas de iniciativa do modelo federal."
     }
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-federacao",
+    "notas": "coletado em f0-federacao; etapas reconferidas nas leis orgânicas compiladas pelas Câmaras (SP até a Emenda 44/2025; Rio até a Emenda 43/2025); corrigidos: Rio art. 80, I (reescrito pela Emenda 43/2025) para art. 80; arquivamento no Rio, de art. 74 para art. 82; acrescentados SP art. 42, § 1º-A, e ARE 878.911 (caso-líder do Tema 917)"
   },
-  "notas": "Pedido da tarefa: processo legislativo municipal por simetria, como proc:lei-estadual. A fonte da simetria é a compilação do STF sobre o art. 61 (RE 590.829: a lei orgânica que regula direitos de servidores afronta a iniciativa do prefeito; Tema 917, aplicado a leis municipais no RE 1.498.771). A lei complementar municipal e a emenda à lei orgânica não foram modeladas como processos (a emenda à lei orgânica, em SP, exige 2/3 dos membros: LOM, art. 40, § 5º, III). A etapa arquivamento cita, em SP, a rejeição pelo parecer contrário de todas as comissões (art. 43) e, no Rio, a regra da matéria rejeitada (art. 74)."
+  "notas": "Pedido da tarefa: processo legislativo municipal por simetria, como proc:lei-estadual. A fonte da simetria é a compilação do STF sobre o art. 61 (RE 590.829: a lei orgânica que regula direitos de servidores afronta a iniciativa do prefeito; Tema 917, aplicado a leis municipais no RE 1.498.771). A lei complementar municipal e a emenda à lei orgânica não foram modeladas como processos (a emenda à lei orgânica, em SP, exige 2/3 dos membros: LOM, art. 40, § 5º, III). A etapa arquivamento cita a rejeição pelo parecer contrário, quanto ao mérito, de todas as comissões (SP, art. 43, com recurso ao Plenário; Rio, art. 82). No Rio, a matéria rejeitada só volta na mesma sessão legislativa por proposta da maioria absoluta (art. 74), como no art. 67 da CF."
 }

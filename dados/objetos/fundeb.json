@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação",
   "sigla": "Fundeb",
-  "resumo": "Um fundo em cada estado e no DF, formado por 20% de impostos estaduais e municipais e completado pela União, que divide o dinheiro da educação básica por número de alunos.",
+  "resumo": "Um fundo em cada estado e no DF, formado por 20% de impostos e transferências de estados e municípios e completado pela União, que divide o dinheiro da educação básica por número de alunos.",
   "detalhes": "Os recursos são repartidos entre o governo estadual e seus municípios conforme as matrículas na educação básica presencial de cada rede, na área de atuação prioritária de cada um (CF, art. 212-A, III). A União acrescenta no mínimo 23% do total dos fundos, em três parcelas (VAAF, VAAT e VAAR). Pelo menos 70% de cada fundo paga os profissionais da educação básica em exercício (art. 212-A, XI).",
   "tipo_objeto": "fundo",
   "esfera": "estadual",
@@ -38,10 +38,11 @@
     }
   },
   "confianca": "oficial",
-  "notas": "Fontes dos 20% (Lei 14.113/2020, art. 3º): ITCMD, ICMS e IPVA, incluídas as cotas municipais do ICMS e do IPVA; a cota municipal do ITR; as parcelas do IR e do IPI no FPE e no FPM; o IPI-exportação; e, desde a LC 227/2026, a parcela estadual do IBS, entre outras. A partir de 2026, ao menos 4% de cada fundo vai para criar matrículas em tempo integral (CF, art. 212-A, XV, incluído pela EC 135/2024). Os critérios de distribuição devem ser revistos no sexto ano (2026) e depois a cada 10 anos (ADCT, art. 60-A); não achamos lei de revisão publicada até 2026-10-01. Cada ente tem um conselho de acompanhamento e controle social do fundo (Lei 14.113/2020, arts. 33 e 34), sem nó no mapa.",
+  "notas": "Fontes dos 20% (Lei 14.113/2020, art. 3º): ITCMD, ICMS e IPVA, incluídas as cotas municipais do ICMS e do IPVA; a cota municipal do ITR; as parcelas do IR e do IPI no FPE e no FPM; o IPI-exportação; e, desde a LC 227/2026, a parcela estadual do IBS, entre outras. A partir de 2026, ao menos 4% de cada fundo vai para criar matrículas em tempo integral (CF, art. 212-A, XV, incluído pela EC 135/2024). Os critérios de distribuição devem ser revistos no sexto ano (2026) e depois a cada 10 anos (ADCT, art. 60-A); não achamos lei de revisão publicada até 2026-10-01 (busca web e texto compilado da Lei 14.113/2020 de 2026-10-23, cuja última alteração marcada é a LC 227/2026, de janeiro). Cada ente tem um conselho de acompanhamento e controle social do fundo (Lei 14.113/2020, arts. 33 e 34), sem nó no mapa.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; CF, art. 212-A, ADCT, arts. 60 e 60-A, e Lei 14.113/2020, arts. 1º, 3º a 5º, 11, 21, 26 e 53, conferidos; resumo corrigido: os 20% saem de impostos e transferências (FPE, FPM, IPI-exportação), não só de impostos estaduais e municipais"
   }
 }

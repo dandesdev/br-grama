@@ -33,7 +33,7 @@
     },
     {
       "ref": "norma:lc-124-2007",
-      "dispositivo": "arts. 1º, 2º, art. 8º e art. 10, § 1º"
+      "dispositivo": "arts. 1º, 2º e 8º; art. 11, § 1º"
     }
   ],
   "vigencia": {
@@ -43,9 +43,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-federacao",
+    "notas": "coletado em f0-federacao; corrigido o dispositivo da Diretoria Colegiada: art. 11, § 1º, e não art. 10, § 1º (o art. 10 trata do Conselho Deliberativo); contido_em no Poder Executivo federal (inferido) conforme D39"
   },
   "notas": "Exemplo de administração indireta (D07). A Diretoria Colegiada não tem nó de cargo próprio. f0-administracao-indireta (2026-10-23): acrescentado o DL 200/1967, art. 4º, II, a, às fontes de campos.contido_em (D39); posição e relação vincula-se mantidas."
 }

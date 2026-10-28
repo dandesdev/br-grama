@@ -1,0 +1,44 @@
+{
+  "id": "aviso:administracao-indireta-lista-nao-exaustiva",
+  "tipo": "aviso",
+  "nome": "O mapa mostra só exemplos da administração indireta",
+  "resumo": "Autarquias, fundações, empresas públicas e sociedades de economia mista aparecem só como exemplos; a lista federal completa está no SIORG.",
+  "detalhes": "No extrato do SIORG de 24/10/2026, o Executivo federal tem 129 autarquias, 43 fundações públicas, 33 empresas públicas e 18 sociedades de economia mista. Estados e municípios têm entidades próprias, que o mapa não lista; a fonte é a lei de cada ente.",
+  "tipo_aviso": "lacuna",
+  "afeta": [
+    "org:poder-executivo-federal",
+    "org:arquetipo-estadual-poder-executivo",
+    "org:arquetipo-municipal-poder-executivo"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "SIORG, estrutura organizacional resumida do Poder Executivo federal (baixada em 2026-10-24; extrato em pesquisa/brutos/siorg/2026-10-24/orgaos-e-entidades.json)",
+    "Estruturas regimentais dos ministérios, listas de entidades vinculadas (Planalto, 2026-10-24)"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidades com natureza Autarquia, Fundação Pública, Empresa Pública e Sociedade de Economia Mista (extrato de 2026-10-24)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 37, XIX e XX"
+    },
+    {
+      "ref": "norma:decreto-lei-200-1967",
+      "dispositivo": "art. 4º, II"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Escolha de escopo (D07), sem data."
+  },
+  "confianca": "oficial",
+  "notas": "Exigido pela D07. Exemplos no mapa (federais): autarquias INSS, Anvisa, Previc, Banco Central, Sudam, Sudene, Sudeco, Suframa, Incra, Ibama, ICMBio, ANP, ANM, CADE, Colégio Pedro II; fundações Funai, Funpresp-Exe e IBGE; empresas públicas BNDES, Caixa e Correios; sociedades de economia mista Petrobras e Banco do Brasil. O SIORG não separa subsidiárias; não conferimos se todas as estatais estão nele (fonte provável: Panorama das Estatais, do MGI).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

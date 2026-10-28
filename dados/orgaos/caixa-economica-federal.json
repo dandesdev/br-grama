@@ -1,0 +1,70 @@
+{
+  "id": "org:caixa-economica-federal",
+  "tipo": "orgao",
+  "nome": "Caixa Econômica Federal",
+  "sigla": "Caixa",
+  "resumo": "Banco federal sob a forma de empresa pública, com capital inteiramente da União: recebe poupança popular e financia habitação e programas sociais.",
+  "detalhes": "A lei autorizou o Executivo a constituí-la como instituição financeira de direito privado, com patrimônio próprio e autonomia administrativa. É exemplo de empresa pública: capital todo do ente, criação autorizada por lei.",
+  "tipo_orgao": "empresa-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, b"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:caixa-economica-federal-vincula-se-ministerio-da-fazenda."
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 91 (natureza “Empresa Pública”), arquivo baixado em 2026-10-24"
+        }
+      ],
+      "nota": "O SIORG grafa CAIXA; o DL 759/1969 usa CEF."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-759-1969",
+      "dispositivo": "arts. 1º e 2º"
+    },
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 3º"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, IV, b, 3"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 91 (natureza “Empresa Pública”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": "1969-08-26",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data em que vigorou o Decreto-Lei 759/1969, que autorizou a constituição; o ato de constituição e a história anterior das caixas econômicas não foram pesquisados."
+  },
+  "confianca": "oficial",
+  "notas": "Estatuto social não lido. Funções de agente operador (FGTS e outras) não modeladas. Orçamento e número de empregados não levantados.",
+  "mais_informacoes": [
+    {
+      "titulo": "Caixa Econômica Federal",
+      "url": "https://www.caixa.gov.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

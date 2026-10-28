@@ -4,7 +4,7 @@
   "nome": "Sistema Nacional de Educação",
   "sigla": "SNE",
   "resumo": "Articula os sistemas de ensino da União, dos estados, do DF e dos municípios para planejar e executar a política educacional em regime de colaboração.",
-  "detalhes": "A União coordena o sistema. Os gestores das três esferas negociam e pactuam na Comissão Intergestores Tripartite (Cite), no plano nacional, e numa comissão bipartite em cada estado (Cibe). O MEC, o Conselho Nacional de Educação e os conselhos estaduais e municipais de educação são suas instâncias normativas.",
+  "detalhes": "A União coordena o sistema. Os gestores das três esferas negociam e pactuam na Comissão Intergestores Tripartite (Cite), no plano nacional, e numa comissão bipartite em cada estado (Cibe). As instâncias normativas são o MEC, o Conselho Nacional de Educação, os conselhos de educação dos estados, do DF e dos municípios e o órgão que dirige a educação em cada esfera.",
   "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "nacional",
@@ -26,8 +26,9 @@
   "confianca": "oficial",
   "notas": "Tipo 'sistema': não é órgão com estrutura própria; a LC 220/2025 o define como o conjunto de relações que articula os sistemas de ensino (art. 2º). Instâncias de participação e controle social sem nó no mapa: fóruns de educação, incluído o Fórum Nacional de Educação, conferências de educação e conselhos de acompanhamento e controle social (art. 16). Também cria a Infraestrutura Nacional de Dados da Educação (Inde), organizada pelo MEC (arts. 24 e 25).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; LC 220/2025, arts. 1º, 2º, 5º, 11, 12 e 15, conferidos; detalhes completados com o órgão dirigente da educação de cada esfera, que o art. 15, V, também lista como instância normativa"
   }
 }

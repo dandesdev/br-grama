@@ -1,0 +1,31 @@
+{
+  "id": "rel:correios-vincula-se-ministerio-das-comunicacoes",
+  "tipo": "relacao",
+  "nome": "Os Correios são vinculados ao Ministério das Comunicações",
+  "relacao": "vincula-se",
+  "de": "org:correios",
+  "para": "org:ministerio-das-comunicacoes",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-509-1969",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-11335-2023",
+      "dispositivo": "Anexo I, art. 2º, V, b"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do Decreto 11.335/2023, estrutura vigente do Ministério das Comunicações. A vinculação original (DL 509/1969) já era ao Ministério das Comunicações; períodos em outras pastas não levantados."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

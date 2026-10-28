@@ -17,18 +17,19 @@
     },
     {
       "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
-      "dispositivo": "art. 69; art. 80, I"
+      "dispositivo": "art. 69; art. 80"
     }
   ],
   "confianca": "oficial",
-  "notas": "O percentual mínimo de 5% está na CF; as leis orgânicas de SP e do Rio repetem o número (o Rio admite 5% do eleitorado do município ou de bairros e também projetos de entidades da sociedade civil, art. 80, II e III).",
+  "notas": "O percentual mínimo de 5% está na CF; as leis orgânicas de SP e do Rio repetem o número. No Rio, até a Emenda 43/2025, o art. 80 também admitia projetos de entidades da sociedade civil (incisos II e III); a redação atual só prevê os 5% do eleitorado do município ou de bairros, para lei de interesse específico e emenda à lei orgânica.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-federacao",
+    "notas": "coletado em f0-federacao; corrigida a nota e o dispositivo do Rio: o art. 80 foi reescrito pela Emenda 43/2025 e não tem mais os incisos II e III (entidades da sociedade civil)"
   }
 }

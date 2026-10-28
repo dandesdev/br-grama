@@ -8,7 +8,7 @@
   "condicao": "Aprova a metodologia de cálculo, com base em estudos técnicos do Inep, e pactua o padrão mínimo de qualidade que serve de base ao CAQ; publica o resultado em resolução.",
   "quorum": {
     "regra": "maioria-simples",
-    "nota": "Quórum de instalação de maioria absoluta, com presença mínima de três representantes de cada esfera; voto de qualidade da presidência (Portaria MEC 102/2026, art. 5º)."
+    "nota": "Quórum de instalação de maioria absoluta, com presença mínima de três representantes de cada esfera; voto de qualidade da presidência (Portaria MEC 102/2026, art. 5º). O Regimento manda buscar primeiro o consenso (Resolução Cite 1/2026, Anexo, art. 11, §§ 2º a 4º)."
   },
   "vigencia": {
     "de": "2026-02-02",
@@ -22,12 +22,17 @@
     {
       "ref": "norma:portaria-mec-102-2026",
       "dispositivo": "arts. 5º e 8º"
+    },
+    {
+      "ref": "norma:cite-resolucao-1-2026",
+      "dispositivo": "Anexo, art. 11, §§ 2º a 4º e 6º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; LC 220/2025, arts. 13 e 41, e Portaria MEC 102/2026, arts. 5º e 8º, conferidos; nota do quórum completada com a regra do consenso do Regimento Interno"
   }
 }

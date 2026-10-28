@@ -11,7 +11,7 @@
   "ente": "ente:uniao",
   "url": "https://legis.senado.leg.br/norma/561878/publicacao/16433594",
   "acesso_em": "2026-10-24",
-  "arquivo": null,
+  "arquivo": "https://web.archive.org/web/20261028002406/https://legis.senado.leg.br/norma/561878/publicacao/16433594",
   "vigencia": {
     "de": "1993-03-18",
     "ate": null,
@@ -32,10 +32,11 @@
       "url": "https://legis.senado.leg.br/norma/561878"
     }
   ],
-  "notas": "Texto da 'compilação multivigente' do portal de legislação do Senado; cópias em pesquisa/brutos/senado/2026-10-24/ (rsf-20-1993-norma.html e rsf-20-1993-pub-16433594.html). A compilação mostra as redações sucessivas (original, Res. 1/2008 e Res. 25/2008) lado a lado; vale a última de cada dispositivo. A ficha da Câmara (Legin; cópia em pesquisa/brutos/camara/2026-10-24/rsf-20-1993-ficha.html) cita ainda as Res. 42/2006 e 25/2008 como alterações e a Res. 21/2016 como 'vide'; a Res. 21/2016 não foi conferida. O art. 13 ainda fala em escrutínio secreto para a perda do mandato, mas a EC 76/2013 tirou o voto secreto do art. 55, § 2º, da CF (o RISF registra isso em nota ao art. 291). Wayback: a consulta à API devolveu 429 em 2026-10-24.",
+  "notas": "Texto da 'compilação multivigente' do portal de legislação do Senado; cópias em pesquisa/brutos/senado/2026-10-24/ (rsf-20-1993-norma.html e rsf-20-1993-pub-16433594.html). A compilação mostra as redações sucessivas (original, Res. 42/2006, Res. 1/2008 e Res. 25/2008) lado a lado; vale a última de cada dispositivo. A ficha do Senado lista como alterações só as Res. 42/2006, 1/2008 e 25/2008; a ficha da Câmara (Legin; cópia em pesquisa/brutos/camara/2026-10-24/rsf-20-1993-ficha.html) cita as mesmas e a Res. 21/2016 como 'vide (aplicação)'. A Res. 21/2016 não altera esta norma: é a resolução que decretou a perda do mandato do senador Delcídio do Amaral, com base nos arts. 5º, I e III, e 11, II (publicação original no Legin da Câmara; DOU de 11/5/2016). O art. 13 ainda fala em escrutínio secreto para a perda do mandato, mas a EC 76/2013 tirou o voto secreto do art. 55, § 2º, da CF (o RISF registra isso em nota ao art. 291). Wayback: a consulta à API devolveu 429 em 2026-10-24; cópia feita em 2026-10-27 (havia também uma de 2023-03-28).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-processos-legislativos"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-processos-legislativos",
+    "notas": "coletado em f0-processos-legislativos; conferidos na compilação multivigente a ementa, os arts. 7º, 13 a 17-O, 22 a 25 e 27, a publicação no DCN de 18/3/1993 e a republicação no DOU de 22/2/1999; Res. 21/2016 conferida (aplicação, não alteração); cópia no Wayback feita"
   }
 }

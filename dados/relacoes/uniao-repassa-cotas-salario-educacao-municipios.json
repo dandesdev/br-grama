@@ -20,14 +20,15 @@
   "campos": {
     "de": {
       "confianca": "inferido",
-      "nota": "A CF não diz quem distribui as cotas; a contribuição é da União (obj:tributo-salario-educacao, esfera federal). O órgão que opera a distribuição não foi pesquisado."
+      "nota": "A CF não diz quem distribui as cotas; a contribuição é da União (obj:tributo-salario-educacao, esfera federal). Pela Lei 9.424/1996, art. 15, § 1º (redação da Lei 10.832/2003), conferida no Planalto em 2026-10-27, o FNDE, autarquia federal, distribui a arrecadação e credita as cotas estaduais e municipais às secretarias de educação. A lei não está cadastrada como norma e o FNDE não tem nó; por isso o de segue inferido."
     }
   },
   "confianca": "oficial",
   "notas": "As cotas estaduais e municipais do salário-educação entram no cálculo do VAAT do Fundeb (CF, art. 212-A, § 1º, II).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; CF, art. 212, §§ 5º e 6º, conferido; quem distribui: o FNDE, pela Lei 9.424/1996, art. 15, § 1º, anotado em campos.de"
   }
 }

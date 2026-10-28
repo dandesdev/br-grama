@@ -5,7 +5,7 @@
   "relacao": "repassa-recursos",
   "de": "ente:arquetipo-municipal",
   "para": "obj:fundeb",
-  "condicao": "20% das cotas municipais do ICMS, do IPVA e do ITR e da parcela do FPM, entre outras. Os valores vão para o fundo do estado onde fica o município.",
+  "condicao": "20% das cotas municipais do ICMS, do IPVA, do ITR e, pela LC 227/2026, do IBS distribuído aos estados, e da parcela do FPM, entre outras. Os valores vão para o fundo do estado onde fica o município.",
   "vigencia": {
     "de": "2021-01-01",
     "ate": null
@@ -17,14 +17,15 @@
     },
     {
       "ref": "norma:lei-14113-2020",
-      "dispositivo": "art. 3º, II, III, V e VII"
+      "dispositivo": "art. 3º, II, III, V, VII e X"
     }
   ],
   "confianca": "oficial",
   "notas": "Os impostos próprios dos municípios (IPTU, ISS, ITBI) não entram no Fundeb, mas contam para o piso de 25% (Lei 14.113/2020, art. 1º, parágrafo único, II): leitura nossa, porque o art. 3º não os lista.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; Lei 14.113/2020, arts. 1º e 3º, e CF, arts. 158, IV, b, e 212-A, II, conferidos; acrescentada a cota municipal do IBS (art. 3º, X, combinado com a CF, art. 158, IV, b)"
   }
 }

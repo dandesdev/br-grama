@@ -1,0 +1,60 @@
+{
+  "id": "org:enap",
+  "tipo": "orgao",
+  "nome": "Fundação Escola Nacional de Administração Pública",
+  "sigla": "Enap",
+  "resumo": "Fundação pública federal de formação e aperfeiçoamento de servidores; é a escola de governo que a Constituição manda a União manter.",
+  "detalhes": "A Constituição exige que União, estados e DF mantenham escolas de governo e que a participação nos cursos conte para a promoção na carreira. A Enap é supervisionada pelo Ministério da Gestão e da Inovação em Serviços Públicos.",
+  "tipo_orgao": "fundacao-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, d"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:enap-vincula-se-mgi."
+    },
+    "resumo": {
+      "confianca": "inferido",
+      "nota": "Que a Enap seja a escola de governo do art. 39, § 2º, é leitura nossa a partir do nome e da natureza; não lemos norma que o diga (a Lei 11.907/2009, arts. 292 e 292-A, citada no Decreto 12.904/2026 sobre a gratificação de escola de governo, não pôde ser lida: página longa demais para o WebFetch e Planalto inacessível por curl)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 39, § 2º"
+    },
+    {
+      "ref": "norma:decreto-12904-2026",
+      "dispositivo": "Anexo I, art. 2º, IV, c, 1"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 956 (natureza “Fundação Pública”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Norma de criação não pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Estatuto não lido. Outras escolas de governo federais (ex.: as dos ministérios e as militares) não levantadas.",
+  "mais_informacoes": [
+    {
+      "titulo": "Enap",
+      "url": "https://www.enap.gov.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

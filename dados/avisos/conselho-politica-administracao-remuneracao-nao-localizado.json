@@ -1,0 +1,42 @@
+{
+  "id": "aviso:conselho-politica-administracao-remuneracao-nao-localizado",
+  "tipo": "aviso",
+  "nome": "Conselho de política de administração e remuneração de pessoal da União: não o localizamos",
+  "resumo": "A Constituição manda cada ente instituir um conselho de política de administração e remuneração de pessoal, mas não achamos o da União.",
+  "detalhes": "A regra está no art. 39, caput, na redação da EC 19/1998, que ficou suspensa por liminar do STF de 2007 até o julgamento da ADI 2135, em novembro de 2024. Não achamos lei nem decreto federal que crie o conselho; há notícias de proposta com esse fim na reforma administrativa, não conferidas.",
+  "tipo_aviso": "lacuna",
+  "gravidade": "baixa",
+  "afeta": [
+    "ente:uniao",
+    "org:poder-executivo-federal"
+  ],
+  "onde_procuramos": [
+    "CF, art. 39, caput, texto do Planalto (2026-10-27)",
+    "Decreto 12.904/2026, estrutura do MGI: órgãos colegiados (Planalto, cópia de 2026-10-24)",
+    "Extrato do SIORG de 2026-10-24 (só unidades de primeiro nível)",
+    "Busca na web por conselho federal instituído com base no art. 39 (2026-10-27): só exemplos estaduais (ex.: São Paulo) e menção a um 'COPAR' em documento não oficial de 2026, sem instrumento localizado"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 39, caput (redação da EC 19/1998)"
+    },
+    {
+      "ref": "fonte:stf-noticia-adi-2135-2024-11-06",
+      "dispositivo": "julgamento da ADI 2135, 6/11/2024"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-11-06",
+    "ate": null,
+    "incerta": true,
+    "nota": "A exigência voltou a valer com a revogação da liminar na ADI 2135; antes, de 1998 a 2007, também vigorou."
+  },
+  "confianca": "oficial",
+  "notas": "Não buscamos o conselho nos estados e municípios dos arquétipos. Não lemos o acórdão da ADI 2135.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

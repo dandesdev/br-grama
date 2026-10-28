@@ -1,0 +1,30 @@
+{
+  "id": "rel:petrobras-vincula-se-ministerio-de-minas-e-energia",
+  "tipo": "relacao",
+  "nome": "A Petrobras é vinculada ao Ministério de Minas e Energia",
+  "relacao": "vincula-se",
+  "de": "org:petrobras",
+  "para": "org:ministerio-de-minas-e-energia",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9478-1997",
+      "dispositivo": "art. 61, caput"
+    },
+    {
+      "ref": "norma:decreto-11492-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, c (redação do Decreto 12.212/2024)"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "1997-08-07",
+    "ate": null,
+    "nota": "Vinculação dada pela Lei 9.478/1997, art. 61."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

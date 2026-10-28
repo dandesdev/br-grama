@@ -9,7 +9,7 @@
   "fontes": [
     {
       "ref": "norma:sp-sao-paulo-lei-organica-1990",
-      "dispositivo": "art. 42, §§ 1º e 2º"
+      "dispositivo": "art. 42, §§ 1º, 1º-A e 2º"
     },
     {
       "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
@@ -21,14 +21,15 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas.",
+  "notas": "Nas leis orgânicas lidas (São Paulo e Rio de Janeiro), no molde do processo federal; as demais não foram lidas. O veto parcial só abrange texto inteiro de artigo, parágrafo, inciso ou alínea (SP, art. 42, § 1º-A, da Emenda 42/2022; Rio, art. 79, § 2º, que inclui o item), como no art. 66, § 2º, da CF.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-federacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-federacao",
+    "notas": "coletado em f0-federacao; conferidos SP art. 42 e Rio art. 79 (textos das Câmaras, 2025); acrescentado o § 1º-A de SP (veto parcial)"
   }
 }

@@ -1,0 +1,60 @@
+{
+  "id": "org:banco-do-brasil",
+  "tipo": "orgao",
+  "nome": "Banco do Brasil S.A.",
+  "sigla": "BB",
+  "resumo": "Banco federal sob a forma de sociedade de economia mista; executa a política de crédito do governo e é agente financeiro do Tesouro Nacional.",
+  "detalhes": "Atua sob a supervisão do Conselho Monetário Nacional como instrumento da política creditícia e financeira do Governo Federal. É exemplo de sociedade de economia mista.",
+  "tipo_orgao": "sociedade-economia-mista",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, c"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:banco-do-brasil-vincula-se-ministerio-da-fazenda."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4595-1964",
+      "dispositivo": "art. 19, caput e I"
+    },
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 4º"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, IV, c, 1"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 93 (natureza “Sociedade de Economia Mista”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Origem anterior à Lei 4.595/1964; data de criação e lei autorizadora não pesquisadas."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 4.595/1964, art. 21, § 1º, prevê nomeação do Presidente do BB pelo Presidente da República após aprovação do Senado; não conferimos se a regra é aplicada hoje nem modelamos o cargo. Participação da União não levantada.",
+  "mais_informacoes": [
+    {
+      "titulo": "Banco do Brasil S.A.",
+      "url": "https://www.bb.com.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

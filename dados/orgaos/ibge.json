@@ -1,0 +1,60 @@
+{
+  "id": "org:ibge",
+  "tipo": "orgao",
+  "nome": "Fundação Instituto Brasileiro de Geografia e Estatística",
+  "sigla": "IBGE",
+  "resumo": "Fundação pública federal que produz as estatísticas e a cartografia oficiais, como o censo; organizar esses serviços é competência da União.",
+  "detalhes": "Produz informações estatísticas, geográficas, cartográficas e demográficas e coordena os sistemas estatístico e cartográfico nacionais. É exemplo de fundação pública.",
+  "tipo_orgao": "fundacao-publica",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, d"
+        }
+      ],
+      "nota": "D39: entidade da administração indireta da União, posta sob o Poder Executivo federal. A supervisão ministerial está em rel:ibge-vincula-se-ministerio-do-planejamento-e-orcamento."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 21, XV"
+    },
+    {
+      "ref": "norma:lei-5878-1973",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "norma:decreto-11353-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, 1"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 3 (natureza “Fundação Pública”), arquivo baixado em 2026-10-24"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Instituído como fundação pelo Decreto-Lei 161/1967 (Lei 5.878/1973, art. 1º), não lido; data não conferida."
+  },
+  "confianca": "oficial",
+  "notas": "Estatuto (decreto) não lido. Orçamento e número de servidores não levantados.",
+  "mais_informacoes": [
+    {
+      "titulo": "Fundação Instituto Brasileiro de Geografia e Estatística",
+      "url": "https://www.ibge.gov.br/"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

@@ -6,7 +6,7 @@
   "de": "org:conselho-nacional-de-educacao",
   "para": "cargo:ministro-de-estado",
   "orgao_exercicio": "org:ministerio-da-educacao",
-  "condicao": "Só o Ministro de Estado da Educação. O Conselho emite pareceres e delibera; o Ministro homologa as deliberações do Conselho Pleno e das câmaras.",
+  "condicao": "Só o Ministro de Estado da Educação. O Conselho emite pareceres e delibera; a homologação das deliberações pelo Ministro está em rel:ministro-da-educacao-homologa-deliberacoes-do-cne.",
   "vigencia": {
     "de": "1995-11-25",
     "ate": null
@@ -22,10 +22,10 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Falta no vocabulário uma relação 'homologa' (o Ministro homologa as deliberações do CNE, Lei 9.131/1995, art. 2º); registrada só na condição.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; Lei 4.024/1961, art. 7º, e Lei 9.131/1995, art. 2º, conferidos; a homologação, antes só na condição, virou a relação rel:ministro-da-educacao-homologa-deliberacoes-do-cne (termo 'homologa' criado depois da coleta)"
   }
 }

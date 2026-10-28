@@ -18,6 +18,10 @@
         }
       ],
       "nota": "A lei a mantém 'no âmbito do Ministério da Educação'. Ela não aparece entre os órgãos colegiados do Decreto 12.769/2025 (art. 2º, III, só lista o CNE)."
+    },
+    "vigencia": {
+      "confianca": "oficial",
+      "nota": "Lei 11.494/2007 e MP 339/2006 conferidas no Planalto em 2026-10-27 (sem norma própria cadastrada)."
     }
   },
   "fontes": [
@@ -27,15 +31,16 @@
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "2007-06-21",
     "ate": null,
-    "nota": "Instituída pelo art. 12 da Lei 11.494/2007 (de 20/6/2007), cuja data de vigência não foi conferida, e mantida pela Lei 14.113/2020, art. 17."
+    "nota": "Instituída pelo art. 12 da Lei 11.494/2007, em vigor na publicação (art. 49), no DOU de 21/6/2007, e mantida pela Lei 14.113/2020, art. 17 (a Lei 14.113 revogou a 11.494 ressalvado o caput do art. 12, art. 53). A MP 339/2006, convertida na Lei 11.494, não tinha esta comissão (seu art. 12 criava a Junta de Acompanhamento dos Fundos)."
   },
   "confianca": "oficial",
-  "notas": "Pode ser vista como subcomissão permanente da Cite, que absorve as comissões tripartites de educação criadas por lei federal (LC 220/2025, art. 12, § 2º; Portaria MEC 102/2026, art. 7º): leitura nossa, porque a lei a chama de 'intergovernamental' e não de 'intergestores'. As ponderações saem em resolução no DOU até 31 de julho, para o ano seguinte (Lei 14.113/2020, art. 17, § 2º).",
+  "notas": "Pode ser vista como subcomissão permanente da Cite, que absorve as comissões tripartites de educação criadas por lei federal (LC 220/2025, art. 12, § 2º; Portaria MEC 102/2026, art. 7º; Resolução Cite 1/2026, Anexo, art. 12): leitura nossa, porque a lei a chama de 'intergovernamental' e não de 'intergestores', embora tenha representantes das três esferas. A lista de subcomissões permanentes que a Secretaria-Executiva da Cite deve divulgar (Regimento, art. 12, § 6º) não foi achada. As ponderações saem em resolução no DOU até 31 de julho, para o ano seguinte (Lei 14.113/2020, art. 17, § 2º).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-educacao"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao",
+    "notas": "coletado em f0-educacao; Lei 14.113/2020, arts. 17 a 19, conferidos; vigência preenchida (2007-06-21, Lei 11.494/2007, art. 49, conferida no Planalto); a leitura de subcomissão da Cite segue como leitura nossa, sem lista oficial achada"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "rel:mec-monitora-plano-nacional-de-educacao",
+  "tipo": "relacao",
+  "nome": "O Ministério da Educação monitora e avalia o PNE",
+  "relacao": "monitora",
+  "de": "org:ministerio-da-educacao",
+  "para": "obj:plano-nacional-de-educacao",
+  "condicao": "Edita o ato que disciplina o monitoramento e a avaliação, ouvidas as demais instâncias, e faz esse trabalho junto com o CNE, as comissões de educação da Câmara e do Senado e o Fórum Nacional de Educação, com dados do Inep, dos censos e das avaliações nacionais.",
+  "vigencia": {
+    "de": "2026-04-15",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-15388-2026",
+      "dispositivo": "art. 8º, caput e § 1º, I; art. 12"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 5º, VII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A LC 220/2025 dá à União a coordenação do monitoramento e da avaliação do PNE (art. 5º, VII); a Lei 15.388/2026 nomeia o MEC. O Inep monitora as metas e publica os índices de alcance a cada dois anos, até 31 de março (art. 11), e o Fórum Nacional de Educação acompanha a execução (art. 10, parágrafo único, I); nenhum dos dois tem nó no mapa, nem as comissões de educação da Câmara e do Senado (art. 8º, § 1º, III e IV).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao"
+  }
+}

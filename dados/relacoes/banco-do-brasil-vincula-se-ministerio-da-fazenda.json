@@ -1,0 +1,27 @@
+{
+  "id": "rel:banco-do-brasil-vincula-se-ministerio-da-fazenda",
+  "tipo": "relacao",
+  "nome": "O Banco do Brasil é vinculado ao Ministério da Fazenda",
+  "relacao": "vincula-se",
+  "de": "org:banco-do-brasil",
+  "para": "org:ministerio-da-fazenda",
+  "condicao": "Supervisão ministerial, sem hierarquia.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 2º, IV, c, 1"
+    }
+  ],
+  "confianca": "oficial",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "O ministério atual vem da reorganização de 2023 (Lei 14.600/2023), e a estrutura vigente, do Decreto 11.907/2024. Vinculações anteriores não levantadas."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-administracao-indireta"
+  }
+}

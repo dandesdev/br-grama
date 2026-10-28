@@ -1,0 +1,31 @@
+{
+  "id": "rel:ministro-da-educacao-homologa-deliberacoes-do-cne",
+  "tipo": "relacao",
+  "nome": "O Ministro da Educação homologa as deliberações do CNE",
+  "relacao": "homologa",
+  "de": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:ministerio-da-educacao",
+  "para": "org:conselho-nacional-de-educacao",
+  "condicao": "Só o Ministro de Estado da Educação. Abrange as deliberações e os pronunciamentos do Conselho Pleno e das câmaras de Educação Básica e de Educação Superior.",
+  "vigencia": {
+    "de": "1995-11-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9131-1995",
+      "dispositivo": "art. 2º, caput"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 15, II, e § 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Lei 9.131/1995 ainda fala em 'Ministro de Estado da Educação e do Desporto'. A LC 220/2025 sujeita os atos normativos de todos os conselhos de educação à homologação do Poder Executivo do respectivo ente (art. 15, § 3º). No sistema federal, a autorização, o credenciamento e o reconhecimento de instituições e cursos superiores se tornam efetivos por ato do Poder Executivo (Lei 9.131/1995, art. 2º, parágrafo único).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-educacao"
+  }
+}
