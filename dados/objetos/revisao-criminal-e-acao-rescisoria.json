@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Revisão criminal e ação rescisória",
   "resumo": "Ações que reabrem uma decisão já definitiva: a revisão criminal, a favor do condenado; a ação rescisória, para desfazer decisão de mérito em outras causas.",
-  "detalhes": "A revisão criminal cabe, a qualquer tempo, contra condenação contrária à lei ou à prova dos autos, baseada em prova falsa ou desmentida por prova nova de inocência (CPP, arts. 621 e 622). A ação rescisória desfaz decisão de mérito transitada em julgado em casos como corrupção ou impedimento do juiz, ofensa à coisa julgada ou violação manifesta de norma, em até dois anos (CPC, arts. 966 e 975). Cada tribunal julga as de seus próprios julgados: STF (art. 102, I, j), STJ (art. 105, I, e) e TRFs, que julgam também as das sentenças dos juízes federais da região (art. 108, I, b).",
+  "detalhes": "A revisão criminal cabe, a qualquer tempo, contra condenação contrária à lei ou à prova dos autos, baseada em prova falsa ou quando surge prova nova de inocência ou de motivo para reduzir a pena (CPP, arts. 621 e 622). A ação rescisória desfaz decisão de mérito transitada em julgado em casos como corrupção ou impedimento do juiz, ofensa à coisa julgada ou violação manifesta de norma, em regra em até dois anos do trânsito em julgado (CPC, arts. 966 e 975). Cada tribunal julga as de seus próprios julgados: STF (art. 102, I, j), STJ (art. 105, I, e) e TRFs, que julgam também as das sentenças dos juízes federais da região (art. 108, I, b).",
   "tipo_objeto": "acao-judicial",
   "esfera": "nacional",
   "fontes": [
@@ -26,9 +26,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais"
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; CF, arts. 102, I, j, 105, I, e, e 108, I, b, conferidos no cf.htm local; CPP, arts. 621 e 622, e CPC, arts. 966 e 975, nas cópias locais; detalhes corrigidos: a revisão criminal também cabe por prova nova de circunstância que reduz a pena (art. 621, III), e o prazo de dois anos da rescisória é a regra (art. 975, caput)"
   },
   "notas": "As duas ações ficam num só objeto porque a CF sempre as trata juntas na competência dos tribunais (como obj:adi-e-adc). Os TJs, TRTs, TREs e o TST também julgam ações desse tipo, mas por lei ou regimento, não pela CF; não ligados. Criado em f0-residuais."
 }

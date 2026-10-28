@@ -1,0 +1,41 @@
+{
+  "id": "norma:decreto-12543-2025",
+  "tipo": "norma",
+  "nome": "Decreto nº 12.543, de 1º de julho de 2025",
+  "resumo": "Altera a estrutura regimental do Ministério da Justiça e Segurança Pública e remaneja cargos; entre outras mudanças, a Senappen passa a ter a Diretoria de Inteligência Penal.",
+  "tipo_norma": "decreto",
+  "numero": "12.543",
+  "data": "2025-07-01",
+  "publicacao": "2025-07-02",
+  "ente": "ente:uniao",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12543.htm",
+  "acesso_em": "2026-10-27",
+  "arquivo": "http://web.archive.org/web/20260707220735/https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12543.htm",
+  "vigencia": {
+    "de": "2025-07-30",
+    "ate": null,
+    "incerta": true,
+    "nota": "Entra em vigor 28 dias após a publicação (art. 6º), no DOU de 2/7/2025; data contada por nós pela LC 95/1998, art. 8º, § 1º."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-12543-2025",
+      "dispositivo": "ementa; art. 3º; art. 6º"
+    },
+    {
+      "ref": "fonte:senado-api-legislacao-detalhe",
+      "dispositivo": "documento 41102067",
+      "nota": "DOU de 2/7/2025, p. 4, e alterações posteriores"
+    }
+  ],
+  "confianca": "oficial",
+  "compilacao_ate": "Decreto 12.780/2025",
+  "redacao_conferida_em": "2026-10-27",
+  "notas": "Criado na revisão de f0-residuais, como pedia a tarefa (o nome atual da Diretoria de Inteligência Penal vem deste decreto; ver norma:decreto-11693-2023). O curl ao Planalto falhou (também com --http1.1); o texto foi lido na cópia do Wayback de 2026-07-07, guardada em pesquisa/brutos/planalto-leis/2026-10-27-verificacao-residuais/d12543.htm. O art. 3º dá nova redação ao Anexo I do Decreto 11.348/2023, entre outros no art. 2º, II, e, itens 4 e 5 (Diretoria da Polícia Penal Federal e Diretoria de Inteligência Penal), e no art. 36. Depois da cópia do Wayback: o Decreto 12.780/2025 revogou o art. 4º e o Anexo III, e o Decreto 13.131, de 30/9/2026 (DOU de 1º/10/2026), revogou parte do art. 3º (ficha do Senado; cópias em pesquisa/brutos/senado-dados-abertos/2026-10-27-verificacao-residuais/dec-12543-2025.json e dec-13131-2026.json). No texto compilado do Decreto 11.348/2023 com as alterações até o Decreto 13.131/2026 (pesquisa/brutos/planalto-leis/2026-10-23/d11348.htm), a Diretoria de Inteligência Penal e o art. 36 continuam com a redação deste decreto.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "criado pela revisão; falta outra conferência"
+  }
+}

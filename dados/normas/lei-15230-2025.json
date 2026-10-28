@@ -12,7 +12,7 @@
   "ente": "ente:uniao",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15230.htm",
   "acesso_em": "2026-10-23",
-  "arquivo": null,
+  "arquivo": "http://web.archive.org/web/20261014001200/https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15230.htm",
   "vigencia": {
     "de": "2025-10-03",
     "ate": null
@@ -23,11 +23,13 @@
       "dispositivo": "ementa; arts. 1º e 2º"
     }
   ],
-  "notas": "Publicada no DOU de 3/10/2025 (nota do Planalto); vigência na publicação (art. 2º). Publicada mais de um ano antes da eleição de 2026, então vale para ela (CF, art. 16). A 'posse presumida' do inciso III é a que ocorre em até 90 dias contados da eleição da Mesa da Casa. Texto lido na cópia local pesquisa/brutos/planalto-leis/2026-10-23/l15230.htm (baixada em 2026-10-23 por f0-eleicoes); a URL vem do link no texto compilado da Lei 9.504/1997. Wayback: archive.org respondeu 429 em 2026-10-27; arquivo fica null.",
+  "notas": "Publicada no DOU de 3/10/2025 (nota do Planalto); vigência na publicação (art. 2º). Publicada mais de um ano antes da eleição de 2026, então vale para ela (CF, art. 16). A 'posse presumida' do inciso III é a que ocorre em até 90 dias contados da eleição da Mesa da Casa. Texto lido na cópia local pesquisa/brutos/planalto-leis/2026-10-23/l15230.htm (baixada em 2026-10-23 por f0-eleicoes); a URL vem do link no texto compilado da Lei 9.504/1997. Wayback: archive.org respondeu 429 na coleta; na revisão (2026-10-27) achou-se a cópia de 2026-10-14, guardada em pesquisa/brutos/planalto-leis/2026-10-27-verificacao-residuais/l15230.htm. Publicação no DOU de 3/10/2025, p. 1, confirmada na ficha da API de legislação do Senado (documento 41528134; cópia em pesquisa/brutos/senado-dados-abertos/2026-10-27-verificacao-residuais/lei-15230-2025.json). No texto compilado da Lei 9.504/1997 (cópia de 2026-10-16), os arts. 11, § 2º, e 38, § 5º, seguem com a redação desta lei.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais"
-  }
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; ementa, arts. 1º e 2º, data e DOU conferidos na cópia do Wayback e na cópia local de f0-eleicoes; resumo e detalhes batem com o texto; arquivo preenchido"
+  },
+  "redacao_conferida_em": "2026-10-27"
 }

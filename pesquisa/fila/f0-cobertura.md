@@ -36,22 +36,22 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 2º | coberto | `org:poder-legislativo-federal`, `org:poder-executivo-federal`, `org:poder-judiciario` e as relações `integra` com `ente:uniao` |
 | art. 3º | fora | objetivos |
 | art. 4º | fora | princípios das relações internacionais. A citação em `proc:ciclo-orcamentario` é falso positivo do leitor do script (dispositivo "arts. 47, 49, IX, 51, II, …") |
-| art. 5º | parcial | § 3º (tratado de direitos humanos com quórum de emenda) em `obj:tratado-internacional`. Falta: tribunal do júri (XXXVIII), órgão da Justiça comum com competência própria (proposta: `org:tribunal-do-juri`, órgão); remédios constitucionais como objetos de competência das cortes (LXVIII a LXXIII: habeas corpus, mandado de segurança, mandado de injunção, habeas data, ação popular; propostas: `obj:habeas-corpus`, `obj:mandado-de-seguranca`, `obj:mandado-de-injuncao`, `obj:habeas-data`, `obj:acao-popular`); adesão ao Tribunal Penal Internacional (§ 4º; proposta: `org:tribunal-penal-internacional`, organismo internacional, D05). O resto é direito individual (fora) |
+| art. 5º | parcial | Júri (XXXVIII): `org:tribunais-do-juri`, `org:tribunais-do-juri-federais`, `cargo:jurado`, `rel:tribunais-do-juri-julga-acao-penal-publica`; remédios (LXVIII a LXXIII): `obj:habeas-corpus`, `obj:mandado-de-seguranca`, `obj:mandado-de-injuncao`, `obj:habeas-data`, `obj:acao-popular` e as relações `julga` das cortes; § 3º em `obj:tratado-internacional`. Falta: adesão ao Tribunal Penal Internacional (§ 4º; proposta `org:tribunal-penal-internacional`, organismo internacional, D05). Lacuna para a fase das leis estruturantes (D04): o vínculo vem do tratado e da lei que o promulga, não da CF. O resto é direito individual (fora) |
 | art. 6º | fora | direitos sociais |
 | art. 7º | fora | direitos dos trabalhadores |
 | art. 8º | fora | organização sindical. A citação em `cargo:vice-presidente-da-republica` é falso positivo do leitor (dispositivo "arts. 79, 89, I, e 91, I") |
 | art. 9º | fora | direito de greve |
 | art. 10 | fora | participação em colegiados (princípio) |
 | art. 11 | fora | representação de empregados |
-| art. 12 | parcial | § 3º (cargos privativos de brasileiro nato) nos requisitos dos cargos da cúpula e de `cargo:ministro-de-estado` (Defesa). Falta: carreira diplomática e oficial das Forças Armadas (§ 3º, V e VI) não têm cargo agregado; baixa prioridade. O resto (aquisição e perda da nacionalidade) é direito material |
+| art. 12 | parcial | § 3º (cargos privativos de brasileiro nato) nos requisitos dos cargos da cúpula, de `cargo:ministro-de-estado` (Defesa) e de `org:ministerio-da-defesa`. Falta: carreira diplomática e oficial das Forças Armadas (§ 3º, V e VI) como cargos agregados (`cargo:chefe-de-missao-diplomatica-permanente` cobre só os chefes de missão). Lacuna para a fase das leis estruturantes (D04): as carreiras vêm da Lei 11.440/2006 (`norma:lei-11440-2006`) e do estatuto dos militares; baixa prioridade. O resto (aquisição e perda da nacionalidade) é direito material |
 | art. 13 | fora | idioma e símbolos |
-| art. 14 | parcial | eleitorados, `proc:eleicao-geral`, `proc:eleicao-municipal`, `obj:registro-de-candidatura`, `obj:acao-de-impugnacao-de-mandato-eletivo`, requisitos de idade nos cargos eletivos. Falta: plebiscito e referendo (I e II) como objeto e procedimento (convocação pelo Congresso, art. 49, XV; Lei 9.709/1998 já registrada como `norma:lei-9709-1998`); propostas `obj:plebiscito-e-referendo` e `rel:congresso-convoca-plebiscito-e-referendo`. Juiz de paz eletivo (§ 3º, VI, c): ver art. 98 |
+| art. 14 | coberto | eleitorados, `proc:eleicao-geral`, `proc:eleicao-municipal`, `obj:registro-de-candidatura`, `obj:acao-de-impugnacao-de-mandato-eletivo`, requisitos de idade nos cargos eletivos; plebiscito e referendo (I e II): `obj:plebiscito-e-referendo`, `rel:congresso-convoca-plebiscito-e-referendo`, `rel:eleitorado-nacional-delibera-plebiscito-e-referendo`, `rel:tse-homologa-plebiscito-e-referendo`; iniciativa popular (III) em `proc:lei-ordinaria`. Juiz de paz eletivo (§ 3º, VI, c): `cargo:juiz-de-paz` (ver art. 98) |
 | art. 15 | coberto | `obj:perda-ou-suspensao-de-direitos-politicos` |
 | art. 16 | fora | anterioridade da lei eleitoral (regra material); citado em `proc:eleicao-geral` |
 | art. 17 | coberto | `org:partidos-politicos`, partidos e federações, `obj:estatuto-de-partido-politico`, `obj:fundo-partidario`, `obj:fefc`, `rel:partidos-politicos-presta-contas-a-justica-eleitoral`, `rel:tse-aprecia-para-registro-estatuto-de-partido` |
-| art. 18 | parcial | Entes (`ente:uniao`, estaduais, `ente:df`, municipais); `org:territorios-federais` (§ 2º); `proc:alteracao-territorial-de-municipios` (§ 4º). Falta: o procedimento de incorporação, subdivisão e desmembramento de estados e de criação de territórios (§ 3º: plebiscito mais lei complementar do Congresso); proposta `proc:alteracao-territorial-de-estados` |
+| art. 18 | coberto | Entes (`ente:uniao`, estaduais, `ente:df`, municipais); `org:territorios-federais` (§ 2º); `proc:alteracao-territorial-de-estados` (§ 3º, com plebiscito e lei complementar); `proc:alteracao-territorial-de-municipios` (§ 4º) |
 | art. 19 | fora | vedações aos entes |
-| art. 20 | lacuna | Os bens da União (caput) são regra material. Falta o § 1º: participação dos entes no resultado da exploração de petróleo, gás, recursos hídricos e minerais, ou compensação financeira (royalties), transferência entre entes; proposta `obj:compensacao-financeira-recursos-naturais` (receita) com `repassa-recursos` para estados e municípios |
+| art. 20 | coberto | Os bens da União (caput) são regra material. § 1º: `obj:compensacao-financeira-recursos-naturais`, `rel:anp-repassa-royalties-do-petroleo-estados`, `rel:anp-repassa-royalties-do-petroleo-municipios`. Detalhe: compensações de hidrelétricas e da mineração são pagas direto aos entes e ficam no texto do objeto |
 | art. 21 | coberto | matriz de competências: relações `tem-competencia` da União para cada inciso (I a XXVI) |
 | art. 22 | coberto | matriz de competências: incisos I a XXX |
 | art. 23 | coberto | matriz de competências: competência comum, incisos I a XII |
@@ -60,38 +60,38 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 26 | fora | bens dos estados |
 | art. 27 | coberto | `org:arquetipo-estadual-assembleia-legislativa`, `cargo:arquetipo-estadual-deputado-estadual`, `rel:eleitorado-estadual-propoe-lei-estadual` (§ 4º) |
 | art. 28 | coberto | `cargo:arquetipo-estadual-governador`, `cargo:arquetipo-estadual-vice-governador`, `org:arquetipo-estadual-secretarias`, `proc:eleicao-geral` |
-| art. 29 | parcial | Lei orgânica, eleição e cargos municipais, julgamento do prefeito pelo TJ (X). Falta: o processo legislativo municipal (não há `obj:lei-municipal` nem processo; propostas `obj:lei-municipal` e `proc:lei-municipal`, por simetria como `proc:lei-estadual`) e a iniciativa popular municipal (XIII; proposta `rel:eleitorado-municipal-propoe-lei-municipal`) |
+| art. 29 | coberto | Lei orgânica, eleição e cargos municipais, julgamento do prefeito pelo TJ (X); processo legislativo municipal: `obj:lei-municipal`, `proc:lei-municipal` (com o regime de urgência do prefeito), `rel:vereador-propoe-lei-municipal`, `rel:prefeito-propoe-lei-municipal`, `rel:camara-municipal-delibera-lei-municipal`, `rel:prefeito-sanciona-lei-municipal`, `rel:prefeito-veta-lei-municipal`, `rel:camara-municipal-aprecia-veto-lei-municipal`; iniciativa popular (XIII): `rel:eleitorado-municipal-propoe-lei-municipal` |
 | art. 29-A | coberto | `obj:limites-de-despesa-da-camara-municipal`, `rel:prefeito-repassa-recursos-camara-municipal` |
 | art. 30 | coberto | matriz de competências dos municípios (I a IX) |
 | art. 31 | coberto | `org:arquetipo-municipal-controle-interno`, `rel:camara-municipal-fiscaliza-prefeitura`, `rel:camara-municipal-julga-contas-prefeito`, `rel:tce-parecer-previo-contas-prefeito`, TCMs e variações |
 | art. 32 | coberto | `org:camara-legislativa-do-df`, `var:df-*` (sem municípios, polícias e bombeiros mantidos pela União) |
 | art. 33 | coberto | `org:territorios-federais` (não há território em 2026-10-01; a organização prevista no artigo fica latente) |
 | art. 34 | coberto | `proc:intervencao-federal` |
-| art. 35 | lacuna | Intervenção do estado nos municípios (já anotada em f0-fechamento): proposta `proc:intervencao-estadual` (governador decreta; Assembleia aprecia; TJ provê representação no caso do IV). A citação em `proc:intervencao-federal` vem da faixa "arts. 34 a 36" e só cobre a União nos municípios de território |
+| art. 35 | coberto | `proc:intervencao-estadual` (governador decreta, Assembleia aprecia, TJ provê a representação do IV; remete a `proc:intervencao-federal` do decreto em diante); `aviso:ba-constituicao-tcm-representacao-intervencao` |
 | art. 36 | coberto | `proc:intervencao-federal`, `rel:congresso-delibera-intervencao-defesa-e-sitio` |
-| art. 37 | parcial | § 4º em `obj:perda-ou-suspensao-de-direitos-politicos`; XXII em `org:receita-federal`. Falta: administração indireta como categoria (XIX e XX: autarquias, fundações, empresas públicas, sociedades de economia mista; o mapa só tem duas autarquias; D07 pede exemplos); ação de improbidade administrativa (§ 4º; proposta `obj:acao-de-improbidade-administrativa`, que MP e advocacia pública propõem); ouvidorias e participação do usuário (§ 3º), baixa prioridade |
+| art. 37 | coberto | § 4º em `obj:perda-ou-suspensao-de-direitos-politicos` e `obj:acao-de-improbidade-administrativa` (MP e entes lesados ajuízam); XXII em `org:receita-federal`; administração indireta (XIX e XX): exemplos dos quatro tipos (`org:inss`, `org:ibge`, `org:caixa-economica-federal`, `org:correios`, `org:petrobras`, `org:banco-do-brasil` e outros, D39) com `aviso:administracao-indireta-lista-nao-exaustiva` (D07). Detalhe: ouvidorias e participação do usuário (§ 3º) sem nó, baixa prioridade |
 | art. 38 | fora | servidor no exercício de mandato |
-| art. 39 | lacuna | Conselho de política de administração e remuneração de pessoal de cada ente (caput) e escolas de governo (§ 2º). Propostas: verificar se a União instituiu o conselho antes de criar entidade; escola de governo federal como exemplo (proposta `org:enap`, a confirmar na lei); o resto é regime de pessoal (fora) |
-| art. 40 | parcial | Aposentadoria compulsória nos requisitos dos cargos (§ 1º, II); contribuição em `obj:tributo-contribuicao-previdenciaria-dos-servidores`. Falta: o regime próprio de previdência e seu gestor único por ente (§ 20) e a previdência complementar dos servidores (§§ 14 e 15). Propostas: `org:arquetipo-rpps` ou o gestor federal, e a entidade de previdência complementar federal como exemplo, a confirmar na lei |
+| art. 39 | coberto | Escola de governo (§ 2º): `org:enap`, `rel:enap-vincula-se-mgi`. Conselho de política de administração e remuneração (caput): não localizado na União, registrado em `aviso:conselho-politica-administracao-remuneracao-nao-localizado`. O resto é regime de pessoal (fora) |
+| art. 40 | coberto | Aposentadoria compulsória nos requisitos dos cargos (§ 1º, II); contribuição em `obj:tributo-contribuicao-previdenciaria-dos-servidores`; regime próprio e unidade gestora (§§ 20 e 22): `org:arquetipo-estadual-unidade-gestora-do-rpps`, `org:arquetipo-municipal-unidade-gestora-do-rpps`, `rel:ministerio-da-previdencia-social-regula-rpps-estaduais`, `rel:ministerio-da-previdencia-social-regula-rpps-municipais`; previdência complementar (§§ 14 a 16): `org:funpresp-exe`, `rel:previc-fiscaliza-funpresp-exe`. Detalhe: na União não há unidade gestora única (Decreto 10.620/2021; nota nos arquétipos) |
 | art. 41 | fora | estabilidade do servidor |
 | art. 42 | coberto | `org:arquetipo-estadual-policia-militar`, `org:arquetipo-estadual-corpo-de-bombeiros-militar`, TJMs |
-| art. 43 | lacuna | Organismos regionais que executam os planos regionais (§ 1º, II): propostas `org:sudam`, `org:sudene`, `org:sudeco` (autarquias federais; criadas por leis complementares a conferir), ligadas ao `org:ministerio-da-integracao-e-do-desenvolvimento-regional` e ao `obj:materia-planos-de-desenvolvimento` |
+| art. 43 | coberto | `org:sudam`, `org:sudene`, `org:sudeco` (autarquias, D39) com `rel:sudam-vincula-se-ministerio-da-integracao`, `rel:sudene-vincula-se-ministerio-da-integracao`, `rel:sudeco-vincula-se-ministerio-da-integracao` |
 | art. 44 | coberto | `org:congresso-nacional`, `org:camara-dos-deputados`, `org:senado-federal`, `rel:congresso-exerce-poder-legislativo` |
 | art. 45 | coberto | `cargo:deputado-federal`, `rel:eleitorado-elege-deputado-federal`, `norma:lc-78-1993` |
 | art. 46 | coberto | `cargo:senador`, `rel:eleitorado-elege-senador` |
 | art. 47 | coberto | quórum nas relações `delibera` dos plenários e nos processos legislativos |
 | art. 48 | coberto | competência legislativa do Congresso com sanção: `proc:lei-ordinaria`, `obj:lei-ordinaria`, `rel:congresso-delibera-ppa`/`ldo`/`loa` |
-| art. 49 | parcial | I a XIII cobertos (tratados, autorizações ao Presidente, defesa/sítio/intervenção, sustação, contas, radiodifusão, TCU); XVIII parcial em `rel:presidente-da-republica-propoe-decreto-legislativo`. Falta: XIV (aprovar iniciativas nucleares), XV (plebiscito e referendo, ver art. 14), XVI (autorizar mineração e aproveitamento hídrico em terras indígenas), XVII (aprovar alienação de terras públicas acima de 2.500 ha), XVIII como objeto (proposta `obj:estado-de-calamidade-publica-nacional`, com `rel:congresso-decreta-calamidade-publica`); VII e VIII (fixar subsídios), baixa prioridade |
+| art. 49 | coberto | I a XIII cobertos (tratados, autorizações ao Presidente, defesa/sítio/intervenção, sustação, contas, radiodifusão, TCU); XIV: `rel:congresso-autoriza-atividades-nucleares`; XV: `rel:congresso-convoca-plebiscito-e-referendo`; XVI: `rel:congresso-autoriza-exploracao-em-terras-indigenas`; XVII: `rel:congresso-autoriza-alienacao-de-terras-publicas`; XVIII: `obj:estado-de-calamidade-publica-nacional`, `rel:congresso-delibera-estado-de-calamidade-publica-nacional`, `proc:calamidade-publica-nacional`; forma do ato em `proc:decreto-legislativo`. Detalhe: VII e VIII (fixar subsídios) sem relação, baixa prioridade |
 | art. 50 | coberto | `rel:camara-convoca-ministro-de-estado`, `rel:senado-convoca-ministro-de-estado`, `rel:congresso-fiscaliza-poder-executivo`. Detalhe: não há cargo de presidente do Comitê Gestor do IBS, também convocável (já anotado em f0-fechamento) |
 | art. 51 | coberto | `rel:camara-autoriza-processo-presidente`, `rel:camara-autoriza-processo-vice-presidente`, `rel:camara-toma-contas-presidente`, `rel:camara-elege-conselho-da-republica`, `norma:ricd` |
-| art. 52 | parcial | I, II, III (a a f), V a IX (por resolução), X, XI, XIV e parágrafo único cobertos. Falta: julgamento dos Comandantes das Forças Armadas por crime conexo (I; proposta `rel:senado-julga-comandantes-das-forcas-armadas`, ou uma por cargo); aprovação dos chefes de missão diplomática permanente (IV; proposta `cargo:chefe-de-missao-diplomatica-permanente`, agregado, em `org:ministerio-das-relacoes-exteriores`, com `rel:senado-aprova-indicacao-…`); avaliação do Sistema Tributário Nacional e das administrações tributárias (XV) |
-| art. 53 | parcial | Foro no STF (§ 1º) em `rel:stf-julga-deputado-federal` e `rel:stf-julga-senador`. Falta: deliberação da Casa sobre a prisão em flagrante e sustação da ação penal (§§ 2º a 4º); proposta `rel:camara-susta-acao-penal-contra-deputado` e equivalente no Senado, com quórum de maioria absoluta |
+| art. 52 | coberto | I, II, III (a a f), V a IX (por resolução), X, XI, XIV e parágrafo único cobertos; I (comandantes): `rel:senado-julga-comandante-da-marinha`, `rel:senado-julga-comandante-do-exercito`, `rel:senado-julga-comandante-da-aeronautica`; IV: `cargo:chefe-de-missao-diplomatica-permanente`, `rel:senado-aprova-indicacao-chefe-de-missao-diplomatica-permanente`; XV: `rel:senado-monitora-sistema-tributario-nacional` (para `obj:sistema-tributario-nacional`) |
+| art. 53 | parcial | Foro no STF (§ 1º) em `rel:stf-julga-deputado-federal` e `rel:stf-julga-senador`; sustação da ação penal (§§ 3º a 5º): `rel:camara-susta-acao-penal-contra-deputado`, `rel:senado-susta-acao-penal-contra-senador`. Falta: a Casa resolve sobre a prisão em flagrante (§ 2º) e suspensão das imunidades no estado de sítio (§ 8º). Fora do escopo da fatia 0 (decisão do coordenador em f0-fechamento, 2026-10-24, de pôr os dois na lista de descobertos): a prisão do parlamentar não é objeto do mapa e o § 8º é detalhe de `proc:estado-de-sitio` |
 | art. 54 | fora | incompatibilidades do parlamentar (regra do mandato; citadas nos cargos) |
-| art. 55 | parcial | Hipóteses citadas em `cargo:deputado-federal` e `cargo:senador`. Falta: o procedimento de perda de mandato (Casa decide por maioria absoluta nos casos I, II e VI; Mesa declara nos casos III a V); proposta `proc:perda-de-mandato-parlamentar` ou relações `rel:camara-decide-perda-de-mandato-deputado` e `rel:senado-decide-perda-de-mandato-senador` |
+| art. 55 | coberto | Hipóteses citadas em `cargo:deputado-federal` e `cargo:senador`; procedimento: `proc:perda-de-mandato-parlamentar` (Casa decide nos casos I, II e VI; Mesa declara nos III a V), `org:conselho-de-etica-da-camara`, `org:conselho-de-etica-do-senado`, `aviso:perda-de-mandato-senado-risf-e-codigo-de-etica` |
 | art. 56 | fora | licença, suplência e investidura em outros cargos (regra do mandato; citada nos cargos) |
 | art. 57 | coberto | sessões, Mesas, `org:mesa-do-congresso-nacional`, convocação extraordinária nos processos de defesa, sítio e intervenção |
 | art. 58 | coberto | comissões das Casas e mistas, CPIs e CPMIs, `proc:comissao-parlamentar-de-inquerito`, `org:comissao-representativa-do-congresso-nacional` |
-| art. 59 | parcial | Objetos das sete espécies existem (`obj:emenda-constitucional` a `obj:resolucao`) e há processos para emenda, lei complementar, ordinária, delegada e medida provisória. Falta: processo do decreto legislativo e da resolução (já anotado em f0-fechamento); propostas `proc:decreto-legislativo` e `proc:resolucao` |
+| art. 59 | coberto | Objetos das sete espécies (`obj:emenda-constitucional` a `obj:resolucao`) e processos de todas: `proc:emenda-constitucional`, `proc:lei-complementar`, `proc:lei-ordinaria`, `proc:lei-delegada`, `proc:medida-provisoria`, `proc:decreto-legislativo`, `proc:resolucao` |
 | art. 60 | coberto | `proc:emenda-constitucional`, `obj:emenda-constitucional`, proponentes e promulgação pelas Mesas |
 | art. 61 | coberto | relações `propoe` de todos os legitimados, iniciativa popular (`rel:eleitorado-propoe-lei-ordinaria`) |
 | art. 62 | coberto | `proc:medida-provisoria`, `obj:medida-provisoria`, `rel:presidente-da-republica-edita-medida-provisoria` |
@@ -116,12 +116,12 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 81 | coberto | `rel:congresso-elege-presidente-da-republica` (eleição indireta), `rel:congresso-elege-vice-presidente-da-republica` |
 | art. 82 | coberto | mandato em `cargo:presidente-da-republica` |
 | art. 83 | coberto | `rel:congresso-autoriza-presidente-da-republica`, `rel:congresso-autoriza-vice-presidente-da-republica` |
-| art. 84 | parcial | Incisos I a VI, VIII a X, XII a XX, XXII a XXVI e XXVIII têm relação. Falta: VII (manter relações com Estados estrangeiros e acreditar diplomatas; proposta de relação do Presidente com o MRE e os chefes de missão, ver art. 52, IV); XI (mensagem ao Congresso na abertura da sessão) e XXI (condecorações), baixa prioridade |
+| art. 84 | parcial | Incisos I a VI, VIII a X, XII a XX, XXII a XXVI e XXVIII têm relação; chefes de missão diplomática em `rel:presidente-indica-chefe-de-missao-diplomatica-permanente` e `rel:presidente-nomeia-chefe-de-missao-diplomatica-permanente`. Falta: VII (manter relações com Estados estrangeiros e acreditar seus representantes). Fora do escopo da fatia 0: Estados estrangeiros e seus diplomatas não são nós, e o verbo `acredita` não entra (decisão do coordenador em f0-fechamento, 2026-10-24). XI (mensagem ao Congresso) e XXI (condecorações) sem relação, baixa prioridade |
 | art. 85 | coberto | `rel:senado-julga-presidente-crime-de-responsabilidade`, `norma:lei-1079-1950`, `aviso:lei-1079-adpf-1259-1260` |
-| art. 86 | parcial | Relações `rel:camara-autoriza-processo-presidente`, `rel:senado-julga-presidente-crime-de-responsabilidade`, `rel:stf-julga-presidente-crime-comum`. Falta a vista em raias do impeachment e do processo por crime comum (admissão por 2/3 da Câmara, instauração pelo Senado, afastamento de 180 dias, julgamento presidido pelo Presidente do STF); proposta `proc:crime-de-responsabilidade-do-presidente` (com regime para crime comum) |
+| art. 86 | coberto | `proc:crime-de-responsabilidade-do-presidente` (admissão por 2/3 da Câmara, instauração pelo Senado, afastamento de 180 dias, julgamento presidido pelo Presidente do STF; regime para infração penal comum), `rel:camara-autoriza-processo-presidente`, `rel:senado-julga-presidente-crime-de-responsabilidade`, `rel:stf-julga-presidente-crime-comum` |
 | art. 87 | coberto | `cargo:ministro-de-estado` e os ministérios |
 | art. 88 | coberto | `norma:lei-14600-2023` (organização dos ministérios) |
-| art. 89 | parcial | `org:conselho-da-republica` e membros I a III e VI. Falta: líderes da maioria e da minoria na Câmara e no Senado (IV e V; propostas `cargo:lider-da-maioria-na-camara-dos-deputados`, `cargo:lider-da-minoria-na-camara-dos-deputados` e equivalentes no Senado); cargo dos seis cidadãos (VII; já anotado em f0-fechamento) |
+| art. 89 | coberto | `org:conselho-da-republica` e membros I a VII: líderes da maioria e da minoria (`cargo:lider-da-maioria-na-camara-dos-deputados`, `cargo:lider-da-minoria-na-camara-dos-deputados`, `cargo:lider-da-maioria-no-senado-federal`, `cargo:lider-da-minoria-no-senado-federal`, com relações `integra` e ocupantes); seis cidadãos: `cargo:membro-cidadao-do-conselho-da-republica` (sem ocupantes: nenhum ato oficial achado) |
 | art. 90 | coberto | `rel:conselho-da-republica-assessora-presidente`; participação nos processos de defesa, sítio e intervenção |
 | art. 91 | coberto | `org:conselho-de-defesa-nacional`, membros natos, `rel:conselho-de-defesa-nacional-assessora-presidente`. Detalhe: § 1º, III (critérios de uso da faixa de fronteira) só no texto |
 | art. 92 | coberto | `org:poder-judiciario` e todos os órgãos listados (STF, CNJ, STJ, TST, ramos da Justiça, TRFs, TRTs, TREs, STM, TJs, TJMs) |
@@ -129,24 +129,24 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 94 | coberto | quinto constitucional nos cargos de desembargador, juiz de TRF e de TRT, e em `rel:governador-nomeia-desembargador`, `rel:presidente-nomeia-juiz-de-trf` |
 | art. 95 | fora | garantias e vedações dos juízes (regra do cargo; citada nos cargos) |
 | art. 96 | coberto | `rel:ministros-do-stf-elegem-presidente-do-stf`, `rel:*-propoe-lei-*` dos tribunais, `rel:arquetipo-estadual-tj-julga-juiz-de-direito`, `rel:arquetipo-estadual-tj-julga-membro-do-ministerio-publico` |
-| art. 97 | lacuna | Reserva de plenário: só a maioria absoluta do tribunal ou do órgão especial declara inconstitucionalidade. Falta o controle difuso pelos tribunais (proposta `rel:poder-judiciario-controla-constitucionalidade`, com quórum de maioria absoluta) e o órgão especial (art. 93, XI); baixa prioridade |
-| art. 98 | parcial | Juizados especiais só aparecem nas etapas de `proc:caminho-de-um-processo`. Falta: juizados especiais e turmas recursais como órgãos (I e § 1º; proposta `org:juizados-especiais`, conjunto, na Justiça estadual e na federal); justiça de paz eletiva (II; propostas `org:arquetipo-estadual-justica-de-paz` e `cargo:arquetipo-estadual-juiz-de-paz`, com eleição direta) |
+| art. 97 | coberto | Reserva de plenário: `rel:poder-judiciario-controla-constitucionalidade-no-caso-concreto` (quórum de maioria absoluta) para `obj:lei-ou-ato-normativo-do-poder-publico`. Detalhe: o órgão especial (art. 93, XI) continua sem nó, baixa prioridade |
+| art. 98 | coberto | I: `org:juizados-especiais-estaduais`, `org:turmas-recursais-estaduais`, `cargo:juiz-leigo`, `cargo:conciliador-dos-juizados-especiais`; § 1º: `org:juizados-especiais-federais`, `org:turmas-recursais-federais`, `org:turma-nacional-de-uniformizacao`; II: `org:justica-de-paz`, `cargo:juiz-de-paz`. Detalhe: custas e emolumentos destinados à Justiça (§ 2º) sem nó; ficam para depois da fatia 0 (decisão do coordenador em f0-fechamento, 2026-10-28) |
 | art. 99 | coberto | autonomia e proposta orçamentária do Judiciário em `proc:ciclo-orcamentario` |
-| art. 100 | lacuna | Precatórios: pagamento das condenações judiciais das Fazendas Públicas, com requisição pelo presidente do tribunal e inclusão no orçamento. Propostas `obj:precatorio` e `proc:pagamento-de-precatorio` (atores: juízo, presidente do tribunal, ente devedor, CNJ) |
+| art. 100 | coberto | `obj:precatorio`, `obj:limite-de-pagamento-de-precatorios`, `proc:pagamento-de-precatorio` (com o regime do § 23 e o do ADCT, art. 101), `rel:cnj-regulamenta-precatorio`. Detalhe: §§ 11, 13 a 22 e 29 só em notas e detalhes |
 | art. 101 | coberto | `cargo:ministro-do-stf`, indicação, aprovação pelo Senado e nomeação |
-| art. 102 | parcial | ADI e ADC (`obj:adi-e-adc`, `rel:stf-controla-constitucionalidade-leis-e-atos`), foro (I, b e c), ações contra CNJ e CNMP (I, r), recursos ordinário e extraordinário com repercussão geral. Falta: arguição de descumprimento de preceito fundamental (§ 1º; proposta `obj:adpf`); reclamação constitucional (I, l; proposta `obj:reclamacao-constitucional`); conflitos federativos entre entes (I, f); habeas corpus, mandado de segurança e mandado de injunção contra as cúpulas (I, d, i, q; ver os objetos propostos no art. 5º) |
-| art. 103 | parcial | `obj:adi-e-adc`, `rel:pgr-propoe-adi-e-adc`, `rel:conselho-federal-da-oab-propoe-adi-e-adc`; AGU (§ 3º) citado no cargo. Falta: relações `propoe` dos demais legitimados (Presidente, Mesas do Senado, da Câmara e das Assembleias, Governador, partidos com representação, confederações sindicais e entidades de classe); ação de inconstitucionalidade por omissão (§ 2º; proposta `obj:ado` ou ampliar `obj:adi-e-adc`) |
-| art. 103-A | lacuna | Súmula vinculante: proposta `obj:sumula-vinculante` e `rel:stf-edita-sumula-vinculante` (quórum de 2/3), com reclamação ao STF (§ 3º) |
+| art. 102 | coberto | I, a e p: `obj:adi-e-adc`, `rel:stf-julga-adi-e-adc`; b e c (foro): `rel:stf-julga-*`; d, i e q: remédios (`rel:stf-julga-habeas-corpus`, `rel:stf-julga-mandado-de-seguranca`, `rel:stf-julga-habeas-data`, `rel:stf-julga-mandado-de-injuncao`); e: `rel:stf-julga-litigio-com-estado-estrangeiro`; f: `rel:stf-julga-conflito-federativo`; g: `rel:stf-julga-extradicao` e `proc:extradicao`; j: `rel:stf-julga-revisao-criminal-e-acao-rescisoria`; l: `rel:stf-julga-reclamacao`; m: `rel:stf-julga-execucao-de-sentenca`; n: `rel:stf-julga-acao-de-interesse-da-magistratura`; o: `rel:stf-julga-conflito-de-competencia`; r: `rel:stf-julga-cnj`, `rel:stf-julga-cnmp`; II: recursos ordinários e `rel:stf-julga-recursos-crime-politico`; III: `rel:stf-julga-recurso-extraordinario`; § 1º: `obj:adpf`, `rel:stf-julga-adpf` |
+| art. 103 | coberto | `obj:adi-e-adc` (ADI, ADO e ADC) com os legitimados I a IX (`rel:presidente-ajuiza-adi-e-adc`, `rel:mesa-do-senado-ajuiza-adi-e-adc`, `rel:mesa-da-camara-ajuiza-adi-e-adc`, `rel:arquetipo-estadual-assembleia-legislativa-ajuiza-adi-e-adc`, `rel:camara-legislativa-do-df-ajuiza-adi-e-adc`, `rel:arquetipo-estadual-governador-ajuiza-adi-e-adc`, `rel:pgr-ajuiza-adi-e-adc`, `rel:conselho-federal-da-oab-ajuiza-adi-e-adc`, `rel:partidos-politicos-ajuiza-adi-e-adc`, `rel:confederacoes-sindicais-e-entidades-de-classe-ajuiza-adi-e-adc`); omissão (§ 2º) no objeto e em `rel:stf-julga-adi-e-adc`; AGU (§ 3º) citado no cargo |
+| art. 103-A | coberto | `obj:sumula-vinculante`, `rel:stf-edita-sumula-vinculante` (dois terços), relações `propoe-sumula-vinculante` dos legitimados (§ 2º e Lei 11.417/2006); reclamação (§ 3º) em `obj:reclamacao` e `rel:stf-julga-reclamacao` |
 | art. 103-B | coberto | `org:cnj`, `cargo:conselheiro-do-cnj`, indicações, `rel:cnj-controla-internamente-poder-judiciario`, `rel:cnj-corrige-poder-judiciario` |
 | art. 104 | coberto | `cargo:ministro-do-stj`, `rel:stj-indica-ministro-do-stj`, aprovação e nomeação |
-| art. 105 | parcial | Foro (I, a) para governadores, desembargadores, juízes de TRF, TRE e TRT e membros do MPU; recursos ordinário e especial. Falta: julgamento dos conselheiros dos tribunais de contas estaduais e municipais (I, a; proposta `rel:stj-julga-conselheiro-do-tce`); conflitos com o Comitê Gestor do IBS (I, j); Escola Nacional de Formação e Aperfeiçoamento de Magistrados e Conselho da Justiça Federal (§ 1º; propostas `org:enfam` e `org:conselho-da-justica-federal`, hoje só no texto de `org:stj` e `org:justica-federal`) |
+| art. 105 | parcial | Foro (I, a) completo: governadores, desembargadores, juízes de TRF, TRE e TRT, membros do MPU, `rel:stj-julga-conselheiro-do-tce`, `rel:stj-julga-procurador-regional-eleitoral`; remédios (I, b, c, h; II, a e b); I, d: `rel:stj-julga-conflito-de-competencia`; I, e: `rel:stj-julga-revisao-criminal-e-acao-rescisoria`; I, f: `rel:stj-julga-reclamacao`; I, g: `rel:stj-julga-conflito-de-atribuicoes`; recursos ordinário e especial; § 1º: `org:enfam`, `org:conselho-da-justica-federal`. Falta: conflitos entre entes, ou entre eles e o Comitê Gestor do IBS (I, j, EC 132/2023; proposta `rel:stj-julga-conflito-com-comite-gestor-do-ibs`, ou ampliar `obj:conflito-federativo`). Lacuna para a fase das leis estruturantes (D04), junto com a lei complementar do IBS |
 | art. 106 | coberto | `org:justica-federal`, `org:trf-1` a `org:trf-6`, `cargo:juiz-federal` |
 | art. 107 | coberto | `cargo:juiz-de-trf`, `rel:presidente-nomeia-juiz-de-trf` |
-| art. 108 | parcial | Citado em `org:justica-federal`, nos TRFs e em `proc:caminho-de-um-processo`. Falta: TRF julga juízes federais (incluídos os militares e do trabalho) e membros do MPU (I, a; já anotado em f0-fechamento, sem nó único para os TRFs) e julga recursos contra os juízes federais (II; proposta `rel:trfs-julgam-recursos-dos-juizes-federais`) |
+| art. 108 | coberto | I, a: `rel:trf-1-julga-juiz-federal` e equivalentes (juízes federais, do trabalho e da Justiça Militar, membros do MPU; uma relação por TRF, as do TRF-6 desde 2022); I, b: `rel:trf-1-julga-revisao-criminal-e-acao-rescisoria` e equivalentes; I, c e d: `rel:justica-federal-julga-mandado-de-seguranca`, `rel:justica-federal-julga-habeas-data`, `rel:justica-federal-julga-habeas-corpus`; II: `rel:trf-1-julga-recursos-dos-juizes-federais` e equivalentes. Detalhe: I, e (conflitos de competência entre juízes federais) só nos detalhes de `obj:conflito-de-competencia` |
 | art. 109 | coberto | competência dos juízes federais em `org:justica-federal` e `cargo:juiz-federal`; delegação aos juízes de direito (§§ 3º e 4º) em `cargo:juiz-de-direito` |
 | art. 110 | coberto | seções judiciárias em `org:justica-federal` |
 | art. 111 | coberto | `org:justica-do-trabalho`, `org:tst`, TRTs, `cargo:juiz-do-trabalho` |
-| art. 111-A | parcial | `cargo:ministro-do-tst`, `rel:tst-indica-ministro-do-tst`, `rel:tst-julga-recursos-da-justica-do-trabalho`. Falta: ENAMAT e Conselho Superior da Justiça do Trabalho (§ 2º; propostas `org:enamat` e `org:csjt`, hoje só no texto de `org:tst`) |
+| art. 111-A | coberto | `cargo:ministro-do-tst`, `rel:tst-indica-ministro-do-tst`, `rel:tst-julga-recursos-da-justica-do-trabalho`; § 2º: `org:enamat`, `org:csjt`, `rel:csjt-supervisiona-justica-do-trabalho` |
 | art. 112 | coberto | varas do trabalho e jurisdição trabalhista do juiz de direito em `org:justica-do-trabalho` |
 | art. 113 | coberto | `org:justica-do-trabalho` |
 | art. 114 | coberto | competência em `org:justica-do-trabalho` (o dissídio coletivo do MPT, § 3º, só no texto) |
@@ -163,8 +163,8 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 126 | coberto | varas agrárias citadas em `org:justica-estadual` |
 | art. 127 | coberto | `org:ministerio-publico-da-uniao`, `org:arquetipo-estadual-ministerio-publico`, iniciativa de lei (`rel:pgr-propoe-lei-ordinaria`), proposta orçamentária em `proc:ciclo-orcamentario` |
 | art. 128 | coberto | MPU e seus ramos (`org:mpf`, `org:mpt`, `org:mpm`, `org:mpdft`), `cargo:procurador-geral-da-republica` (nomeação, aprovação e destituição), `cargo:arquetipo-estadual-procurador-geral-de-justica`, `aviso:destituicao-procurador-geral-de-justica-quorum` |
-| art. 129 | parcial | Ação penal pública e ação civil pública (`rel:mpu-promove-*`, `rel:arquetipo-estadual-ministerio-publico-promove-*`); representação para intervenção em `proc:intervencao-federal`. Falta: controle externo da atividade policial (VII; proposta `rel:ministerio-publico-controla-atividade-policial`, do MP para as polícias); requisição de inquérito policial (VIII); defesa judicial das populações indígenas (V), baixa prioridade |
-| art. 130 | parcial | `org:mp-junto-ao-tcu`. Falta: Ministérios Públicos junto aos tribunais de contas estaduais (já anotado em f0-fechamento; proposta `org:arquetipo-estadual-mp-de-contas`) |
+| art. 129 | coberto | Ação penal pública e ação civil pública (`rel:mpu-promove-*`, `rel:arquetipo-estadual-ministerio-publico-promove-*`); representação para intervenção em `proc:intervencao-federal` e `proc:intervencao-estadual`; controle externo da atividade policial (VII): `rel:mpu-fiscaliza-policia-federal`, `rel:mpu-fiscaliza-policia-rodoviaria-federal`, `rel:mpu-fiscaliza-policia-ferroviaria-federal`, `rel:mpu-fiscaliza-policia-penal-federal`, `rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-civil`, `rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-militar`, `rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-penal` (polícias do DF pelo arquétipo, com `var:df-mpdft`). Detalhe: requisição de inquérito (VIII) e defesa judicial das populações indígenas (V) sem relação, baixa prioridade; polícias legislativas ficam para depois da fatia 0 (decisão do coordenador em f0-fechamento, 2026-10-28) |
+| art. 130 | coberto | `org:mp-junto-ao-tcu`; MPs junto aos tribunais de contas dos estados: `org:arquetipo-estadual-mp-de-contas`, `cargo:arquetipo-estadual-procurador-de-contas`. Detalhe: MPs junto aos TCMs (SP, RJ e TCMs estaduais) não modelados; ficam para depois da fatia 0 (decisão do coordenador em f0-fechamento, 2026-10-28) |
 | art. 130-A | coberto | `org:cnmp`, `cargo:conselheiro-do-cnmp`, indicações, controle e correição |
 | art. 131 | coberto | `org:agu`, `cargo:advogado-geral-da-uniao`, `org:pgfn` (§ 3º), `rel:agu-representa-judicialmente-uniao` |
 | art. 132 | coberto | `org:arquetipo-estadual-procuradoria-geral`, `cargo:arquetipo-estadual-procurador-do-estado` |
@@ -179,9 +179,9 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 141 | coberto | relatório final ao Congresso nas etapas dos dois processos |
 | art. 142 | coberto | `org:forcas-armadas`, `org:marinha`, `org:exercito`, `org:aeronautica`, `rel:forcas-armadas-subordinam-se-presidente`, `proc:emprego-das-forcas-armadas-na-glo` |
 | art. 143 | coberto | serviço militar em `org:forcas-armadas`, `norma:lei-4375-1964` |
-| art. 144 | parcial | Todos os órgãos dos incisos I a VI, guardas municipais (§ 8º), `org:sistema-unico-de-seguranca-publica` (§ 7º). Falta: órgãos executivos de trânsito dos estados, do DF e dos municípios (§ 10, segurança viária; propostas `org:arquetipo-estadual-orgao-executivo-de-transito` e `org:arquetipo-municipal-orgao-executivo-de-transito`) |
+| art. 144 | coberto | Todos os órgãos dos incisos I a VI, guardas municipais (§ 8º), `org:sistema-unico-de-seguranca-publica` (§ 7º); segurança viária (§ 10): `org:arquetipo-estadual-orgao-executivo-de-transito`, `org:arquetipo-municipal-orgao-executivo-de-transito` |
 | art. 145 | coberto | matriz tributária: `obj:tributo-taxas`, `obj:tributo-contribuicao-de-melhoria` e competências dos três níveis |
-| art. 146 | parcial | `obj:limitacoes-ao-poder-de-tributar` (II). Falta: o regime único de arrecadação das micro e pequenas empresas (III, d, e §§ 1º a 3º: Simples Nacional, com arrecadação compartilhada entre os entes); proposta `obj:simples-nacional` e o comitê gestor previsto em lei complementar (a conferir) |
+| art. 146 | coberto | `obj:limitacoes-ao-poder-de-tributar` (II); regime único das micro e pequenas empresas (III, d, e §§ 1º a 3º): `obj:simples-nacional`, `org:comite-gestor-do-simples-nacional`, `rel:cgsn-regulamenta-simples-nacional` |
 | art. 146-A | fora | critério especial de tributação (regra material) |
 | art. 147 | coberto | competência tributária no DF e nos territórios na matriz (IPTU, ISS, ITBI) |
 | art. 148 | coberto | `obj:tributo-emprestimo-compulsorio` |
@@ -206,105 +206,105 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | art. 161 | coberto | `rel:tcu-calcula-cotas-fpe`, `rel:tcu-calcula-cotas-fpm` |
 | art. 162 | fora | dever de divulgar a arrecadação |
 | art. 163 | coberto | `obj:regime-fiscal-sustentavel` (finanças públicas e sustentabilidade da dívida) |
-| art. 163-A | lacuna | O órgão central de contabilidade da União fixa formato e sistema dos dados contábeis e fiscais de todos os entes. Proposta: relação da `org:secretaria-do-tesouro-nacional` (a conferir na lei como órgão central de contabilidade) com os entes; baixa prioridade |
+| art. 163-A | coberto | `obj:dados-contabeis-orcamentarios-e-fiscais-dos-entes`, `rel:stn-regulamenta-dados-contabeis-orcamentarios-e-fiscais-dos-entes` (`org:secretaria-do-tesouro-nacional` como órgão central de contabilidade, Lei 10.180/2001) |
 | art. 164 | coberto | `org:banco-central` (emissão de moeda) |
 | art. 164-A | coberto | `obj:regime-fiscal-sustentavel` |
 | art. 165 | coberto | `obj:ppa`, `obj:ldo`, `obj:loa`, `proc:ciclo-orcamentario`, `rel:presidente-propoe-*` |
 | art. 166 | coberto | `org:cmo`, emendas individuais e de bancada, `proc:ciclo-orcamentario` |
 | art. 166-A | coberto | transferências das emendas individuais em `obj:emenda-individual-ao-orcamento` |
-| art. 167 | parcial | `obj:regra-de-ouro` (III). Falta: créditos adicionais (suplementares, especiais e extraordinários; V e §§ 2º e 3º; já anotado em f0-fechamento; proposta `obj:credito-adicional`, com aprovação do Congresso e abertura por medida provisória no caso extraordinário) |
-| art. 167-A | lacuna | Mecanismo de ajuste fiscal dos estados e municípios quando a despesa corrente passa de 95% da receita corrente; proposta `obj:mecanismo-de-ajuste-fiscal` (regra fiscal), baixa prioridade |
-| art. 167-B | lacuna | Estado de calamidade pública de âmbito nacional decretado pelo Congresso por iniciativa do Presidente; proposta `obj:estado-de-calamidade-publica-nacional` e `proc:calamidade-publica-nacional` (ver art. 49, XVIII, e 84, XXVIII) |
-| art. 167-C | lacuna | regime extraordinário da calamidade (contratações simplificadas); entra no `proc:calamidade-publica-nacional` proposto |
-| art. 167-D | lacuna | idem (dispensa de regras para proposições da calamidade) |
-| art. 167-E | lacuna | idem (dispensa da regra de ouro) |
-| art. 167-F | lacuna | idem (dispensa de limites de crédito) |
-| art. 167-G | lacuna | idem (vedações do art. 167-A para a União) |
+| art. 167 | coberto | `obj:regra-de-ouro` (III); créditos adicionais (V e §§ 2º e 3º): `obj:credito-adicional`, `rel:cmo-delibera-credito-adicional`, `rel:congresso-delibera-credito-adicional`, `rel:presidente-edita-credito-adicional`, etapa de créditos adicionais em `proc:ciclo-orcamentario`. Detalhe: as demais vedações ficam no texto |
+| art. 167-A | coberto | `obj:mecanismo-de-ajuste-fiscal`, `rel:arquetipo-estadual-tce-fiscaliza-mecanismo-de-ajuste-fiscal` |
+| art. 167-B | coberto | `obj:estado-de-calamidade-publica-nacional`, `rel:presidente-propoe-estado-de-calamidade-publica-nacional`, `rel:congresso-delibera-estado-de-calamidade-publica-nacional`, `proc:calamidade-publica-nacional` (remete a `proc:decreto-legislativo`) |
+| art. 167-C | coberto | etapa de regime extraordinário de `proc:calamidade-publica-nacional` (contratações simplificadas). O script não vê a citação porque ela vem na faixa "arts. 167-B a 167-G" |
+| art. 167-D | coberto | idem (dispensa de limitações legais para as medidas da calamidade), em `proc:calamidade-publica-nacional`; citado só na faixa "arts. 167-B a 167-G" |
+| art. 167-E | coberto | idem (dispensa da regra de ouro), em `proc:calamidade-publica-nacional`; citado só na faixa |
+| art. 167-F | coberto | idem (dispensa de limites de crédito e uso do superávit), em `proc:calamidade-publica-nacional`; citado só na faixa |
+| art. 167-G | coberto | vedações do art. 167-A para a União, em `proc:calamidade-publica-nacional` e `obj:mecanismo-de-ajuste-fiscal` |
 | art. 168 | coberto | duodécimos (`rel:executivo-repassa-duodecimos-*`) |
 | art. 169 | coberto | `obj:limites-de-despesa-com-pessoal`, `rel:tcu-fiscaliza-limites-de-despesa-com-pessoal` |
 | art. 170 | fora | princípios da ordem econômica |
 | art. 172 | fora | capital estrangeiro (remete à lei) |
-| art. 173 | lacuna | Empresas estatais que exploram atividade econômica (§§ 1º a 3º) e repressão ao abuso do poder econômico (§ 4º). Falta: exemplos de empresas públicas e sociedades de economia mista federais (D07; nenhuma no mapa) e o órgão de defesa da concorrência (proposta `org:cade`, autarquia, a conferir na Lei 12.529/2011) |
+| art. 173 | coberto | Estatais de exemplo (`org:caixa-economica-federal`, `org:correios`, `org:petrobras`, `org:banco-do-brasil`, D39, com a Lei 13.303/2016) e `aviso:administracao-indireta-lista-nao-exaustiva`; repressão ao abuso do poder econômico (§ 4º): `org:cade`, `rel:cade-vincula-se-ministerio-da-justica-e-seguranca-publica`. Detalhe: o regime jurídico do § 1º e as hipóteses de exploração direta ficam no texto |
 | art. 174 | fora | Estado regulador e planejador (princípio); as agências reguladoras entram pelos arts. 21, XI, e 177, § 2º, III |
-| art. 175 | lacuna | Concessão e permissão de serviço público, sempre com licitação. Propostas `obj:concessao-de-servico-publico` (objeto) e concessionárias como exemplos (D05, caso de fronteira) |
-| art. 176 | lacuna | Autorização e concessão de pesquisa e lavra mineral e de aproveitamento hidráulico pela União (§ 1º); participação do proprietário do solo (§ 2º). Propostas `obj:concessao-de-lavra-e-de-potencial-hidraulico` e o órgão que a concede (agência de mineração, a conferir na lei) |
-| art. 177 | parcial | `obj:tributo-cide` (§ 4º). Falta: monopólio da União sobre petróleo, gás e minerais nucleares (I a V) e o órgão regulador do monopólio (§ 2º, III; proposta `org:anp`, autarquia, a conferir na Lei 9.478/1997) |
+| art. 175 | coberto | `obj:concessao-de-servico-publico`, poder concedente em `rel:uniao-fiscaliza-concessao-de-servico-publico`, `rel:estados-fiscaliza-concessao-de-servico-publico`, `rel:municipios-fiscaliza-concessao-de-servico-publico` (Lei 8.987/1995). Detalhe: concessionárias de exemplo (D05) não levantadas |
+| art. 176 | parcial | `obj:concessao-de-lavra-e-de-potencial-hidraulico`; lavra: `org:anm`, `rel:anm-autoriza-concessao-de-lavra`, `rel:ministro-de-estado-autoriza-concessao-de-lavra`, `aviso:mandato-diretoria-anm`. Falta: quem concede o aproveitamento de potencial hidráulico (§ 1º; agência do setor elétrico e lei das concessões de energia, não pesquisadas). Lacuna para a fase das leis estruturantes (D04) |
+| art. 177 | parcial | `obj:tributo-cide` (§ 4º); órgão regulador (§ 2º, III): `org:anp`, `rel:anp-vincula-se-ministerio-de-minas-e-energia`; `org:petrobras`; royalties em `rel:anp-repassa-royalties-do-petroleo-estados` e `-municipios`. Falta: o monopólio da União sobre petróleo, gás e minerais nucleares (I a V) como competência ou objeto (hoje só no texto da ANP e da Lei 9.478/1997). Lacuna para a fase das leis estruturantes (D04), com a Lei 9.478/1997 (`norma:lei-9478-1997`) |
 | art. 178 | fora | ordenação dos transportes (remete à lei; a matéria está na matriz) |
 | art. 179 | fora | tratamento das micro e pequenas empresas (princípio) |
 | art. 180 | fora | incentivo ao turismo |
 | art. 181 | fora | requisição estrangeira de documentos |
-| art. 182 | lacuna | Plano diretor aprovado pela Câmara Municipal, obrigatório acima de 20 mil habitantes (§ 1º), e instrumentos do § 4º. Proposta `obj:plano-diretor` com `rel:camara-municipal-delibera-plano-diretor`; a competência municipal em urbanismo já está na matriz |
+| art. 182 | coberto | `obj:plano-diretor`, `rel:camara-municipal-delibera-plano-diretor` (Lei 10.257/2001); a competência municipal em urbanismo está na matriz. Detalhe: os instrumentos do § 4º (parcelamento compulsório, IPTU progressivo, desapropriação com títulos) só citados no objeto |
 | art. 183 | fora | usucapião urbano |
-| art. 184 | lacuna | Desapropriação para reforma agrária pela União (decreto, ação judicial de rito sumário, títulos da dívida agrária). Propostas `proc:desapropriacao-para-reforma-agraria` e o órgão executor federal (proposta `org:incra`, autarquia, a conferir) |
+| art. 184 | coberto | `obj:desapropriacao-para-reforma-agraria`, `proc:desapropriacao-para-reforma-agraria` (decreto, ação de rito sumário, LC 76/1993), `org:incra`, `rel:incra-vincula-se-ministerio-do-desenvolvimento-agrario-e-agricultura-familiar` |
 | art. 185 | fora | imóveis não desapropriáveis |
 | art. 186 | fora | função social da propriedade rural |
 | art. 187 | fora | política agrícola (diretrizes) |
-| art. 188 | lacuna | § 1º: aprovação prévia do Congresso para alienar ou conceder terras públicas acima de 2.500 ha (mesma lacuna do art. 49, XVII) |
+| art. 188 | coberto | § 1º: `rel:congresso-autoriza-alienacao-de-terras-publicas` (mesma relação do art. 49, XVII) |
 | art. 189 | fora | títulos da reforma agrária |
 | art. 190 | fora | aquisição de terra por estrangeiro (remete à lei) |
 | art. 191 | fora | usucapião rural |
 | art. 192 | coberto | `org:cmn` e `org:banco-central` representam a regulação do sistema financeiro. Detalhe: não há nó para o sistema financeiro nacional nem outros reguladores (ex.: CVM); baixa prioridade |
 | art. 193 | fora | princípio da ordem social |
-| art. 194 | lacuna | Seguridade social como conjunto (saúde, previdência, assistência) com gestão quadripartite em colegiados (VII). Só há a matéria na matriz (`obj:materia-seguridade-social`). Proposta: não criar um nó próprio; cobrir pelos três sistemas (arts. 198, 201 e 204) e seus colegiados |
+| art. 194 | coberto | Seguridade como conjunto sem nó próprio (decisão desta varredura): o caput é citado em `org:sistema-unico-de-saude`, `org:sistema-unico-de-assistencia-social` e `org:inss`; gestão quadripartite (VII) em `org:conselho-nacional-de-previdencia-social` |
 | art. 195 | coberto | contribuições sociais na matriz tributária (`obj:tributo-contribuicao-sobre-folha-de-salarios`, `…-receita-ou-faturamento`, `…-sobre-o-lucro`, `…-do-trabalhador`, `…-concursos-de-prognosticos`, `…-do-importador`, `obj:tributo-cbs`). Detalhe: orçamento da seguridade social (§ 2º) só como parte de `obj:loa` |
 | art. 196 | fora | direito à saúde |
 | art. 197 | fora | relevância pública das ações de saúde |
-| art. 198 | lacuna | Sistema Único de Saúde: rede regionalizada com direção única em cada esfera (I), participação da comunidade (III), pisos mínimos de aplicação (§ 2º), agentes comunitários pagos pela União (§§ 7º a 9º). Propostas `org:sistema-unico-de-saude` (tipo `sistema`), gestores por esfera (`org:ministerio-da-saude` e secretarias de saúde dos arquétipos), conselhos de saúde, `obj:piso-constitucional-da-saude` (regra fiscal), fundo nacional de saúde (ver ADCT, art. 122). Fontes prováveis: Lei 8.080/1990, Lei 8.142/1990, LC 141/2012 |
+| art. 198 | coberto | `org:sistema-unico-de-saude` (sistema); direção única por esfera: `rel:ministerio-da-saude-dirige-sus`, `rel:arquetipo-estadual-secretaria-de-saude-dirige-sus`, `rel:arquetipo-municipal-secretaria-de-saude-dirige-sus`; participação da comunidade: `org:conselho-nacional-de-saude`, conselhos dos arquétipos, `org:conferencias-de-saude`; `org:comissao-intergestores-tripartite`, `org:arquetipo-estadual-comissao-intergestores-bipartite`; pisos (§§ 2º e 3º): `obj:piso-constitucional-da-saude`; `obj:fundo-nacional-de-saude`, `rel:ministerio-da-saude-gere-fundo-nacional-de-saude` e repasses. Detalhe: §§ 4º a 15 (agentes comunitários, piso da enfermagem) são regras de pessoal, sem nó |
 | art. 199 | fora | assistência à saúde pela iniciativa privada |
-| art. 200 | lacuna | Competências do SUS (vigilância sanitária e epidemiológica, controle de produtos, saneamento); entram como relações do `org:sistema-unico-de-saude` proposto, com a agência de vigilância sanitária como exemplo (a conferir na lei) |
-| art. 201 | lacuna | Regime Geral de Previdência Social: proposta `org:regime-geral-de-previdencia-social` (sistema) ou o órgão que o opera (proposta `org:inss`, autarquia, a conferir), ligado ao `org:ministerio-da-previdencia-social` |
-| art. 202 | lacuna | Previdência complementar e fiscalização das entidades fechadas; proposta: órgão de supervisão federal como exemplo (a conferir na LC 109/2001), baixa prioridade |
+| art. 200 | coberto | Competências do SUS como nota em `org:sistema-unico-de-saude`; vigilância sanitária (I, II, VI, VII): `org:anvisa`, `rel:anvisa-integra-sus`, `rel:anvisa-vincula-se-ministerio-da-saude` |
+| art. 201 | coberto | Regime Geral operado por `org:inss` (sem nó próprio para o regime), `rel:inss-vincula-se-ministerio-da-previdencia-social`, `org:conselho-nacional-de-previdencia-social`, `org:conselho-de-recursos-da-previdencia-social`, `rel:crps-julga-recursos-contra-inss` |
+| art. 202 | coberto | `org:previc`, `org:conselho-nacional-de-previdencia-complementar`, `org:funpresp-exe`, `rel:previc-fiscaliza-funpresp-exe` (LCs 108 e 109/2001) |
 | art. 203 | fora | objetivos da assistência social e benefício de prestação continuada (direito) |
-| art. 204 | lacuna | Assistência social descentralizada, com coordenação federal e participação popular. Proposta `org:sistema-unico-de-assistencia-social` (tipo `sistema`), com conselhos e fundo nacional (ver ADCT, art. 122); fonte provável: Lei 8.742/1993 |
+| art. 204 | coberto | `org:sistema-unico-de-assistencia-social`, `rel:mds-coordena-suas`, `org:conselho-nacional-de-assistencia-social` e conselhos dos arquétipos, `obj:fundo-nacional-de-assistencia-social`, `rel:mds-gere-fundo-nacional-de-assistencia-social`, repasses. Detalhe: a vinculação facultativa de receita estadual (parágrafo único) só no texto |
 | art. 205 | fora | direito à educação |
 | art. 206 | fora | princípios do ensino |
 | art. 207 | fora | autonomia universitária (regra); universidades federais entram como exemplos de administração indireta (ver art. 37) |
 | art. 208 | fora | garantias do dever de educar |
 | art. 209 | fora | ensino privado |
 | art. 210 | fora | conteúdos mínimos |
-| art. 211 | lacuna | Sistemas de ensino da União, dos estados e dos municípios em regime de colaboração, com atuação prioritária de cada nível (§§ 2º e 3º) e função redistributiva da União (§ 1º). Hoje só a matéria na matriz (`obj:materia-educacao`). Propostas: sistemas de ensino por esfera (tipo `sistema`) e o colegiado nacional de educação, a conferir na Lei 9.394/1996 |
-| art. 212 | parcial | `obj:tributo-salario-educacao` (§§ 5º e 6º). Falta: o piso de aplicação em educação (18% da União, 25% dos demais; proposta `obj:piso-constitucional-da-educacao`, regra fiscal fiscalizada pelos tribunais de contas) |
-| art. 212-A | lacuna | Fundeb: fundos estaduais com complementação da União. Proposta `obj:fundeb` (fundo) com `repassa-recursos` da União e dos entes; liga-se a ADCT, arts. 60 e 60-A |
+| art. 211 | coberto | `org:sistema-nacional-de-educacao`, `org:sistema-federal-de-ensino`, `org:arquetipo-estadual-sistema-de-ensino`, `org:arquetipo-municipal-sistema-de-ensino` (prioridades dos §§ 2º e 3º), `rel:mec-coordena-sne`, `rel:mec-coordena-sistema-federal-de-ensino`; função redistributiva (§ 1º) na complementação do Fundeb; § 7º em `obj:custo-aluno-qualidade`; colegiado nacional: `org:conselho-nacional-de-educacao` |
+| art. 212 | coberto | `obj:piso-constitucional-da-educacao`, `rel:tcu-fiscaliza-piso-constitucional-da-educacao`, `rel:arquetipo-estadual-tce-fiscaliza-piso-constitucional-da-educacao`; salário-educação (§§ 5º e 6º): `obj:tributo-salario-educacao`, `rel:fnde-repassa-cotas-salario-educacao-estados`, `rel:fnde-repassa-cotas-salario-educacao-municipios`, `org:fnde`. Detalhe: § 4º (programas suplementares) fora |
+| art. 212-A | coberto | `obj:fundeb`, `rel:uniao-repassa-complementacao-fundeb`, `rel:estados-repassam-recursos-ao-fundeb`, `rel:municipios-repassam-recursos-ao-fundeb`, `org:comissao-intergovernamental-de-financiamento-da-educacao-basica`, `rel:tcu-fiscaliza-fundeb`, `rel:arquetipo-estadual-tce-fiscaliza-fundeb` |
 | art. 213 | fora | destinação de recursos a escolas |
-| art. 214 | lacuna | Plano nacional de educação decenal e sistema nacional de educação. Proposta `obj:plano-nacional-de-educacao` (lei) |
+| art. 214 | coberto | `obj:plano-nacional-de-educacao` (Lei 15.388/2026), `rel:presidente-propoe-plano-nacional-de-educacao`, `rel:mec-monitora-plano-nacional-de-educacao`, `rel:cne-monitora-plano-nacional-de-educacao`; sistema nacional em `org:sistema-nacional-de-educacao` |
 | art. 215 | fora | direitos culturais; plano de cultura por lei |
 | art. 216 | coberto | competência de proteção do patrimônio cultural na matriz (`obj:materia-patrimonio-cultural`). Detalhe: o órgão federal de tombamento seria exemplo (D07) |
-| art. 216-A | lacuna | Sistema Nacional de Cultura, com a estrutura do § 2º (órgãos gestores, conselhos, conferências, comissões intergestores, planos e sistemas de financiamento). Proposta `org:sistema-nacional-de-cultura` (tipo `sistema`), ligado a `org:ministerio-da-cultura` |
-| art. 217 | lacuna | Justiça desportiva como instância prévia obrigatória ao Judiciário (§§ 1º e 2º); caso de fronteira (D05), baixa prioridade |
+| art. 216-A | coberto | `org:sistema-nacional-de-cultura` (sistema), `rel:ministerio-da-cultura-coordena-sistema-nacional-de-cultura` (Lei 14.835/2024) |
+| art. 217 | coberto | `org:justica-desportiva` (conjunto, não estatal, fronteira D05; Lei 9.615/1998) |
 | art. 218 | fora | fomento à ciência |
 | art. 219 | fora | mercado interno e inovação |
 | art. 219-A | fora | cooperação em ciência e tecnologia (faculdade) |
-| art. 219-B | lacuna | Sistema Nacional de Ciência, Tecnologia e Inovação; proposta `org:sncti` (tipo `sistema`), ligado a `org:ministerio-da-ciencia-tecnologia-e-inovacao` |
+| art. 219-B | coberto | `org:sncti` (sistema). Detalhe: a lei de normas gerais do § 1º não foi localizada |
 | art. 220 | fora | liberdade de expressão |
 | art. 221 | fora | princípios da programação |
 | art. 222 | fora | propriedade de empresas de comunicação |
 | art. 223 | coberto | `obj:concessao-de-radiodifusao`, `rel:congresso-delibera-concessao-de-radiodifusao` |
-| art. 224 | lacuna | Conselho de Comunicação Social, órgão auxiliar do Congresso; proposta `org:conselho-de-comunicacao-social` (colegiado em `org:congresso-nacional`), fonte provável Lei 8.389/1991 |
-| art. 225 | parcial | Competência ambiental na matriz (`obj:materia-meio-ambiente`). Falta: estudo prévio de impacto e licenciamento (§ 1º, IV; proposta `proc:licenciamento-ambiental`) e o sistema de órgãos ambientais (proposta `org:sisnama`, tipo `sistema`, a conferir na Lei 6.938/1981) |
+| art. 224 | coberto | `org:conselho-de-comunicacao-social`, `cargo:conselheiro-do-conselho-de-comunicacao-social`, `rel:congresso-elege-conselheiro-do-ccs`, `rel:ccs-auxilia-congresso` (Lei 8.389/1991) |
+| art. 225 | coberto | Competência ambiental na matriz (`obj:materia-meio-ambiente`); estudo de impacto e licenciamento (§ 1º, IV): `obj:licenca-ambiental`, `proc:licenciamento-ambiental`, `rel:ibama-autoriza-licenca-ambiental`, `rel:estados-autoriza-licenca-ambiental`, `rel:municipios-autoriza-licenca-ambiental`; sistema de órgãos: `org:sisnama`, `org:ibama`, `org:icmbio`, `aviso:sisnama-orgao-central-desatualizado` |
 | art. 226 | fora | família |
 | art. 227 | fora | criança, adolescente e jovem |
 | art. 228 | fora | inimputabilidade |
 | art. 229 | fora | deveres familiares |
 | art. 230 | fora | idosos |
-| art. 231 | lacuna | Demarcação das terras indígenas pela União (caput), autorização do Congresso para mineração e aproveitamento hídrico (§ 3º; ver art. 49, XVI) e remoção "ad referendum" do Congresso (§ 5º). Propostas `proc:demarcacao-de-terra-indigena` e o órgão indigenista federal (a conferir), ligado a `org:ministerio-dos-povos-indigenas` |
+| art. 231 | coberto | Demarcação (caput): `obj:demarcacao-de-terra-indigena`, `proc:demarcacao-de-terra-indigena`, `org:funai`, `rel:funai-vincula-se-ministerio-dos-povos-indigenas`, `aviso:funai-natureza-juridica`, `aviso:demarcacao-terra-indigena-lei-14701-e-stf`; § 3º: `rel:congresso-autoriza-exploracao-em-terras-indigenas`. Detalhe: remoção "ad referendum" do Congresso (§ 5º) sem relação |
 | art. 232 | fora | legitimidade processual dos índios (a defesa pelo MP está no art. 129, V) |
 | art. 234 | fora | vedação na criação de estado |
 | art. 235 | fora | regras para os dez primeiros anos de um estado novo (nenhum em 2026-10-01) |
-| art. 236 | lacuna | Serviços notariais e de registro por delegação, com concurso e fiscalização pelo Judiciário (caso de fronteira, D05). Propostas `org:arquetipo-estadual-servicos-notariais-e-de-registro` (conjunto) e `rel:arquetipo-estadual-tj-fiscaliza-servicos-notariais`; o CNJ também atua (art. 103-B, § 4º, III) |
-| art. 237 | lacuna | Fiscalização e controle do comércio exterior pelo Ministério da Fazenda; proposta de relação de `org:ministerio-da-fazenda` (ou `org:receita-federal`) com `obj:materia-comercio-exterior-e-interestadual`; baixa prioridade |
+| art. 236 | coberto | `org:arquetipo-estadual-servicos-notariais-e-de-registro` (conjunto, não estatal, D05), `rel:arquetipo-estadual-tj-fiscaliza-servicos-notariais-e-de-registro`, `rel:arquetipo-estadual-tj-exerce-poder-disciplinar-sobre-servicos-notariais-e-de-registro`, `rel:cnj-fiscaliza-servicos-notariais-e-de-registro` (Lei 8.935/1994) |
+| art. 237 | lacuna | Fiscalização e controle do comércio exterior pelo Ministério da Fazenda; a competência legislativa da União está na matriz (`rel:uniao-competencia-comercio-exterior-e-interestadual`). Falta: relação de `org:ministerio-da-fazenda` (ou `org:receita-federal`) com `obj:materia-comercio-exterior-e-interestadual`. Lacuna para a fase das leis estruturantes (D04): quem fiscaliza e como vem da legislação aduaneira; baixa prioridade |
 | art. 238 | fora | comércio de combustíveis (remete à lei) |
-| art. 239 | parcial | `obj:tributo-pis-pasep`. Falta: destino da arrecadação ao seguro-desemprego e ao abono salarial, com no mínimo 28% para o BNDES (§§ 1º e 3º); propostas `obj:fundo-de-amparo-ao-trabalhador` (fundo, a conferir na Lei 7.998/1990) e `org:bndes` (empresa pública, exemplo D07); adicional por rotatividade (§ 4º; já anotado em f0-fechamento) |
-| art. 240 | lacuna | Contribuições compulsórias ao Sistema S (já anotado em f0-fechamento). Propostas: as entidades do Sistema S como `paraestatal` (D05) e a contribuição na matriz tributária |
+| art. 239 | coberto | `obj:tributo-pis-pasep`; seguro-desemprego e abono (§§ 1º e 3º): `obj:fundo-de-amparo-ao-trabalhador`, `org:codefat`, `rel:codefat-gere-fat`, `rel:ministro-do-trabalho-nomeia-codefat`; mínimo para o BNDES: `org:bndes`, `rel:fat-repassa-recursos-bndes`, `rel:bndes-vincula-se-mdic`; adicional por rotatividade (§ 4º): `obj:tributo-contribuicao-adicional-por-rotatividade`, `aviso:contribuicao-adicional-por-rotatividade-sem-lei` |
+| art. 240 | coberto | `org:sistema-s` (paraestatal, D05), `obj:tributo-contribuicoes-ao-sistema-s`, `rel:uniao-competencia-tributo-contribuicoes-ao-sistema-s`, `rel:receita-federal-arrecada-contribuicoes-ao-sistema-s`, `rel:mds-homologa-orcamentos-sistema-s` |
 | art. 241 | coberto | `org:consorcios-publicos` |
-| art. 242 | lacuna | § 2º: o Colégio Pedro II mantido na órbita federal (único órgão de ensino nomeado na CF); proposta `org:colegio-pedro-ii`, baixa prioridade. O resto é regra de ensino (fora) |
-| art. 243 | lacuna | Expropriação de terras com cultivo ilegal de psicotrópicos ou trabalho escravo e fundo especial para os bens confiscados; propostas `proc:expropriacao-confiscatoria` e o fundo (a conferir na lei); baixa prioridade |
+| art. 242 | coberto | § 2º: `org:colegio-pedro-ii` (autarquia, D39), `rel:colegio-pedro-ii-vincula-se-ministerio-da-educacao`. O resto é regra de ensino (fora) |
+| art. 243 | parcial | `obj:expropriacao-confiscatoria`, `proc:expropriacao-confiscatoria` (culturas ilegais de plantas psicotrópicas, Lei 8.257/1991). Falta: o rito da expropriação por exploração de trabalho escravo (caput) e o fundo especial dos bens confiscados (parágrafo único). Lacuna para a fase das leis estruturantes (D04): a lei do trabalho escravo não foi localizada e o fundo depende da lei que o rege; baixa prioridade |
 | art. 244 | fora | acessibilidade (remete à lei) |
 | art. 245 | fora | assistência a vítimas de crime (remete à lei) |
 | art. 246 | coberto | vedação de MP em `obj:medida-provisoria` e `proc:medida-provisoria` |
 | art. 247 | fora | perda do cargo de servidor estável (regra de pessoal) |
 | art. 248 | fora | teto dos benefícios do RGPS (o órgão gestor está na lacuna do art. 201) |
-| art. 249 | lacuna | Fundos previdenciários dos entes para os regimes próprios; entra na proposta do art. 40 (RPPS), baixa prioridade |
-| art. 250 | lacuna | Fundo do Regime Geral de Previdência Social; entra na proposta do art. 201, baixa prioridade |
+| art. 249 | coberto | fundos previdenciários nos detalhes e fontes de `org:arquetipo-estadual-unidade-gestora-do-rpps` e `org:arquetipo-municipal-unidade-gestora-do-rpps` (sem nó próprio) |
+| art. 250 | coberto | `obj:fundo-do-regime-geral-de-previdencia-social`, `rel:inss-gere-fundo-do-regime-geral-de-previdencia-social` (LRF, art. 68) |
 | ADCT, art. 1º | transitorio-esgotado | compromisso na promulgação |
 | ADCT, art. 2º | transitorio-esgotado | plebiscito de 1993 |
 | ADCT, art. 3º | transitorio-esgotado | revisão constitucional de 1993-94 |
@@ -312,7 +312,7 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | ADCT, art. 5º | transitorio-esgotado | eleições de 1988 |
 | ADCT, art. 6º | transitorio-esgotado | registro de partidos em 1989 |
 | ADCT, art. 7º | fora | tribunal internacional de direitos humanos (diretriz) |
-| ADCT, art. 8º | lacuna | Anistia política ainda aplicada (requerimentos e reparação em curso). Proposta: o colegiado federal que a aplica (Comissão de Anistia, a conferir na Lei 10.559/2002), baixa prioridade |
+| ADCT, art. 8º | coberto | `org:comissao-de-anistia`, `obj:requerimento-de-anistia-politica`, `rel:ministro-de-estado-julga-requerimento-de-anistia-politica`, `rel:comissao-de-anistia-assessora-ministro-de-estado` (Lei 10.559/2002) |
 | ADCT, art. 9º | transitorio-esgotado | revisão de cassações de 1969 |
 | ADCT, art. 10 | fora | proteção provisória do emprego (direito trabalhista, ainda vigente) |
 | ADCT, art. 11 | transitorio-esgotado | elaboração das Constituições estaduais e leis orgânicas (citado em `obj:constituicao-estadual` e `obj:lei-organica-municipal` como origem) |
@@ -337,7 +337,7 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | ADCT, art. 29 | transitorio-esgotado | regime até as leis do MPU e da AGU (LCs 73 e 75/1993) |
 | ADCT, art. 30 | transitorio-esgotado | juízes de paz anteriores à lei (a justiça de paz está no art. 98) |
 | ADCT, art. 31 | transitorio-esgotado | estatização das serventias judiciais |
-| ADCT, art. 32 | lacuna | serventias notariais já oficializadas em 1988 continuam fora do regime privado; entra na proposta do art. 236 como atipicidade, baixa prioridade |
+| ADCT, art. 32 | parcial | Atipicidade citada nas notas e fontes de `org:arquetipo-estadual-servicos-notariais-e-de-registro`. Falta: os estados que ainda têm serventias oficializadas, como variações (`var:`). Lacuna para a fase das leis estruturantes (D04): depende das leis de organização judiciária de cada estado; baixa prioridade |
 | ADCT, art. 33 | transitorio-esgotado | precatórios de 1988 |
 | ADCT, art. 34 | transitorio-esgotado | entrada em vigor do sistema tributário |
 | ADCT, art. 35 | coberto | § 2º: prazos do PPA, da LDO e da LOA até a lei complementar, em `proc:ciclo-orcamentario`, `obj:ppa`, `obj:ldo`, `obj:loa` |
@@ -345,7 +345,7 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | ADCT, art. 37 | transitorio-esgotado | adaptação à regra de ouro até 1993 |
 | ADCT, art. 38 | transitorio-esgotado | limite de pessoal até a LC (LRF de 2000) |
 | ADCT, art. 39 | transitorio-esgotado | revisão do orçamento de 1989 |
-| ADCT, art. 40 | lacuna | Zona Franca de Manaus, prorrogada pelos arts. 92 e 92-A; proposta `obj:zona-franca-de-manaus` (regime) e o órgão federal que a administra (a conferir), baixa prioridade |
+| ADCT, art. 40 | coberto | `obj:zona-franca-de-manaus`, `org:suframa` (autarquia, D39), `rel:suframa-vincula-se-mdic` |
 | ADCT, art. 41 | transitorio-esgotado | reavaliação de incentivos em 1990 |
 | ADCT, art. 42 | fora | aplicação regional dos recursos de irrigação (vinculação de despesa) |
 | ADCT, art. 43 | transitorio-esgotado | títulos minerários inativos em 1989 |
@@ -366,43 +366,43 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | ADCT, art. 57 | transitorio-esgotado | débitos previdenciários de 1988 |
 | ADCT, art. 58 | transitorio-esgotado | revisão de benefícios de 1988 |
 | ADCT, art. 59 | transitorio-esgotado | prazos das leis da seguridade |
-| ADCT, art. 60 | lacuna | complementação da União ao Fundeb (implantação progressiva a partir de 2021); entra na proposta `obj:fundeb` (art. 212-A) |
-| ADCT, art. 60-A | lacuna | revisão dos critérios do Fundeb no sexto ano; entra na proposta `obj:fundeb` |
+| ADCT, art. 60 | coberto | `rel:uniao-repassa-complementacao-fundeb` e vigência de `obj:fundeb` |
+| ADCT, art. 60-A | coberto | nota em `obj:fundeb` (revisão devida em 2026; nenhuma lei de revisão achada até 2026-10-01) |
 | ADCT, art. 61 | fora | recursos a entidades educacionais |
-| ADCT, art. 62 | lacuna | SENAR, nos moldes do SENAI e do SENAC: entra na proposta do Sistema S (art. 240) |
+| ADCT, art. 62 | coberto | `org:sistema-s` (o SENAR entra no conjunto, sem nó próprio) |
 | ADCT, art. 63 | transitorio-esgotado | comissão do centenário da República |
 | ADCT, art. 64 | transitorio-esgotado | edição popular da Constituição |
 | ADCT, art. 65 | transitorio-esgotado | prazo para regulamentar o art. 220, § 4º |
 | ADCT, art. 66 | transitorio-esgotado | concessões de telecomunicações de 1988 |
 | ADCT, art. 67 | transitorio-esgotado | prazo de cinco anos para demarcação (a competência permanente está no art. 231) |
-| ADCT, art. 68 | lacuna | Reconhecimento da propriedade das comunidades quilombolas, com emissão de títulos pelo Estado; proposta `proc:titulacao-de-territorio-quilombola` e o órgão federal que titula (a conferir) |
-| ADCT, art. 69 | lacuna | Estados podem manter consultoria jurídica separada da PGE se já a tinham em 1988; proposta de variação (`var:`) nos estados que a mantêm, a levantar; baixa prioridade |
+| ADCT, art. 68 | coberto | `obj:titulo-de-territorio-quilombola`, `proc:titulacao-de-territorio-quilombola` (Incra, Decreto 4.887/2003) |
+| ADCT, art. 69 | parcial | Um caso com fonte: `var:pr-carreira-especial-de-advogado-do-estado` (ADI 484), com `aviso:pr-carreira-especial-de-advogado-do-estado-situacao`. Falta: os demais estados que mantêm consultoria jurídica separada da PGE. Lacuna para a fase das leis estruturantes (D04): depende das Constituições e leis de cada estado; baixa prioridade |
 | ADCT, art. 70 | transitorio-esgotado | competência dos tribunais até as Constituições estaduais |
 | ADCT, art. 71 | transitorio-esgotado | Fundo Social de Emergência (1994-99) |
 | ADCT, art. 72 | transitorio-esgotado | composição do Fundo Social de Emergência |
 | ADCT, art. 73 | transitorio-esgotado | regulação do Fundo Social de Emergência |
 | ADCT, art. 74 | transitorio-esgotado | CPMF |
 | ADCT, art. 75 | transitorio-esgotado | prorrogação da CPMF |
-| ADCT, art. 76 | lacuna | Desvinculação de receitas da União até 2032; proposta `obj:desvinculacao-de-receitas` (regra fiscal), baixa prioridade |
-| ADCT, art. 76-A | lacuna | desvinculação de receitas dos estados e do DF até 2032; mesma proposta |
-| ADCT, art. 76-B | lacuna | desvinculação de receitas dos municípios até 2032; mesma proposta |
+| ADCT, art. 76 | coberto | `obj:desvinculacao-de-receitas` (DRU até 2032) |
+| ADCT, art. 76-A | coberto | `obj:desvinculacao-de-receitas` (estados e DF) |
+| ADCT, art. 76-B | coberto | `obj:desvinculacao-de-receitas` (municípios) |
 | ADCT, art. 77 | transitorio-esgotado | mínimos de saúde até 2004 |
 | ADCT, art. 78 | transitorio-esgotado | parcelamento de precatórios da EC 30/2000 |
-| ADCT, art. 79 | lacuna | Fundo de Combate e Erradicação da Pobreza no Executivo federal (vigência prorrogada pela EC 67/2010, a conferir); proposta `obj:fundo-de-combate-e-erradicacao-da-pobreza` (fundo); a matéria está na matriz (`obj:materia-combate-a-pobreza`) |
-| ADCT, art. 80 | lacuna | composição do fundo federal; mesma proposta |
-| ADCT, art. 81 | lacuna | fundo com recursos de desestatização que alimenta o de combate à pobreza; mesma proposta, baixa prioridade |
-| ADCT, art. 82 | lacuna | fundos estaduais e municipais de combate à pobreza, geridos com participação da sociedade civil; proposta de fundo no arquétipo estadual e municipal |
+| ADCT, art. 79 | coberto | `obj:fundo-de-combate-e-erradicacao-da-pobreza`, `rel:mds-gere-fundo-de-combate-e-erradicacao-da-pobreza`; conselho consultivo (parágrafo único) sem regulamento: `aviso:conselho-consultivo-fundo-combate-pobreza-sem-regulamento` |
+| ADCT, art. 80 | coberto | composição do fundo em `obj:fundo-de-combate-e-erradicacao-da-pobreza` |
+| ADCT, art. 81 | coberto | citado em `obj:fundo-de-combate-e-erradicacao-da-pobreza`. Detalhe: o fundo de recursos de desestatização sem nó próprio |
+| ADCT, art. 82 | coberto | `obj:arquetipo-estadual-fundo-de-combate-a-pobreza`, `obj:arquetipo-municipal-fundo-de-combate-a-pobreza` |
 | ADCT, art. 83 | fora | definição de produtos supérfluos (remete à lei) |
 | ADCT, art. 84 | transitorio-esgotado | CPMF até 2004 |
 | ADCT, art. 85 | transitorio-esgotado | isenções da CPMF |
 | ADCT, art. 86 | transitorio-esgotado | precatórios da EC 37/2002 |
-| ADCT, art. 87 | lacuna | valores de pequeno valor dos precatórios até as leis de cada ente; entra na proposta `proc:pagamento-de-precatorio` (art. 100) |
+| ADCT, art. 87 | coberto | etapa de pequeno valor em `proc:pagamento-de-precatorio` |
 | ADCT, art. 88 | transitorio-esgotado | alíquota mínima do ISS até a LC (LC 157/2016) |
 | ADCT, art. 89 | transitorio-esgotado | servidores do ex-Território de Rondônia |
 | ADCT, art. 90 | transitorio-esgotado | prorrogação da CPMF até 2007 |
-| ADCT, art. 92 | lacuna | prorrogação da Zona Franca de Manaus; mesma proposta do art. 40 |
-| ADCT, art. 92-A | lacuna | nova prorrogação (até 2073); mesma proposta |
-| ADCT, art. 92-B | lacuna | diferencial da Zona Franca no IBS e na CBS; mesma proposta |
+| ADCT, art. 92 | coberto | vigência de `obj:zona-franca-de-manaus` |
+| ADCT, art. 92-A | coberto | vigência de `obj:zona-franca-de-manaus` (até 2073) |
+| ADCT, art. 92-B | coberto | diferencial no IBS e na CBS em `obj:zona-franca-de-manaus`. Detalhe: os fundos do § 2º não pesquisados |
 | ADCT, art. 93 | transitorio-esgotado | início da partilha da CIDE após a lei |
 | ADCT, art. 94 | transitorio-esgotado | fim dos regimes especiais com o Simples Nacional |
 | ADCT, art. 95 | fora | registro de nascidos no exterior (direito) |
@@ -411,13 +411,13 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | ADCT, art. 98 | fora | proporcionalidade de defensores; prazo do § 1º vencido em 2022 |
 | ADCT, art. 99 | transitorio-esgotado | partilha do ICMS até 2019 |
 | ADCT, art. 100 | transitorio-esgotado | aposentadoria aos 75 até a LC 152/2015 |
-| ADCT, art. 101 | lacuna | regime especial de precatórios dos entes em mora até 2029, com conta no Tribunal de Justiça; entra na proposta `proc:pagamento-de-precatorio` |
-| ADCT, art. 102 | lacuna | idem (uso dos recursos do regime especial) |
-| ADCT, art. 103 | lacuna | idem (proibição de sequestro) |
-| ADCT, art. 104 | lacuna | idem (sequestro pelo presidente do TJ e retenção de repasses) |
-| ADCT, art. 105 | lacuna | idem (compensação com dívida ativa) |
-| ADCT, art. 107-A | lacuna | limite das despesas com sentenças judiciais na proposta orçamentária até 2026; regra fiscal ligada aos precatórios |
-| ADCT, art. 113 | lacuna | estimativa de impacto obrigatória na proposição que cria despesa obrigatória ou renúncia; proposta de nota ou etapa em `proc:lei-ordinaria` e `proc:lei-complementar` |
+| ADCT, art. 101 | coberto | regime `regime-especial-adct-101` de `proc:pagamento-de-precatorio`, com a conta no Tribunal de Justiça |
+| ADCT, art. 102 | coberto | idem (uso dos recursos do regime especial), em `proc:pagamento-de-precatorio` |
+| ADCT, art. 103 | coberto | idem (proibição de sequestro), em `proc:pagamento-de-precatorio` |
+| ADCT, art. 104 | coberto | idem (sequestro pelo presidente do TJ e retenção de repasses), em `proc:pagamento-de-precatorio` |
+| ADCT, art. 105 | coberto | idem (compensação com dívida ativa), em `proc:pagamento-de-precatorio` |
+| ADCT, art. 107-A | coberto | teto da União em `obj:limite-de-pagamento-de-precatorios` (vigência formal até 2026; o STF, na ADI 7064, restringiu os efeitos a 2022) |
+| ADCT, art. 113 | coberto | estimativa de impacto na etapa `iniciativa` de `proc:lei-ordinaria` e de `proc:lei-complementar` |
 | ADCT, art. 115 | fora | parcelamento de débitos dos entes com seus regimes próprios (regra financeira) |
 | ADCT, art. 116 | fora | parcelamento de débitos municipais com o RGPS |
 | ADCT, art. 116-A | fora | parcelamento de débitos dos consórcios com o RGPS |
@@ -434,19 +434,54 @@ Critério de escopo (D04, D05): entra no mapa todo **órgão, cargo, competênci
 | ADCT, art. 127 | coberto | `obj:tributo-ibs` |
 | ADCT, art. 128 | coberto | `obj:tributo-ibs`, `obj:tributo-icms`, `obj:tributo-iss` |
 | ADCT, art. 129 | coberto | extinção de ICMS e ISS em 2033 nos objetos |
-| ADCT, art. 130 | lacuna | Resolução do Senado fixa as alíquotas de referência do IBS e da CBS; proposta `rel:senado-fixa-aliquotas-de-referencia` (para `obj:tributo-ibs` e `obj:tributo-cbs`) |
+| ADCT, art. 130 | coberto | `rel:senado-fixa-aliquotas-de-referencia-ibs`, `rel:senado-fixa-aliquotas-de-referencia-cbs`, `rel:tcu-calcula-aliquotas-de-referencia-ibs`, `rel:tcu-calcula-aliquotas-de-referencia-cbs` |
 | ADCT, art. 131 | coberto | distribuição do IBS de 2029 a 2077 em `obj:tributo-ibs` |
-| ADCT, art. 132 | lacuna | retenção de 5% do IBS para os entes com menor razão de receita; acrescentar a `obj:tributo-ibs`, baixa prioridade |
+| ADCT, art. 132 | coberto | retenção do IBS nas fontes e notas de `obj:tributo-ibs` |
 | ADCT, art. 133 | fora | base de cálculo do IBS e da CBS |
 | ADCT, art. 134 | fora | saldos credores do ICMS |
 | ADCT, art. 135 | fora | créditos de IPI, PIS e Cofins |
 | ADCT, art. 136 | coberto | `obj:tributo-contribuicao-estadual-sobre-produtos-primarios` |
 | ADCT, art. 137 | transitorio-esgotado | saldos da Covid até 2024 |
-| ADCT, art. 138 | lacuna | limite ao crescimento de despesas vinculadas até 2032; acrescentar a `obj:regime-fiscal-sustentavel`, baixa prioridade |
+| ADCT, art. 138 | coberto | limite das despesas vinculadas nas fontes e notas de `obj:regime-fiscal-sustentavel` |
 
 ## Cobertura
 
-Contagem do quadro acima (411 artigos vigentes; `npm run -s cobertura` rodado de novo no fim, 183 citados, sem mudança nas citações durante a tarefa).
+### Depois das coletas de lacunas (2026-10-28)
+
+Contagem do quadro depois das 8 coletas de lacunas (f0-seguridade, f0-educacao, f0-federacao, f0-controle-constitucionalidade, f0-judiciario-complementar, f0-processos-legislativos, f0-dinheiro-complementar, f0-administracao-indireta), de f0-residuais e de f0-sugestoes-revisoes. Das 101 linhas `lacuna` ou `parcial`, 94 mudaram de classificação (90 viraram `coberto`; arts. 176 e 243 e ADCT, arts. 32 e 69, passaram de `lacuna` a `parcial`) e 7 continuam como estavam, com o texto reescrito. As linhas `coberto`, `fora` e `transitorio-esgotado` não mudaram. O critério é o da contagem anterior (abaixo).
+
+| Parte | Coberto | Parcial | Lacuna | Fora | Transitório esgotado | Base (total − fora − esgotado) | Cobertura |
+|---|---|---|---|---|---|---|---|
+| CF (arts. 1º a 250) | 197 | 8 | 1 | 67 | — | 206 | (197 + 4) / 206 = **97,6%** |
+| ADCT | 37 | 2 | 0 | 21 | 78 | 39 | (37 + 1) / 39 = **97,4%** |
+| Total | 234 | 10 | 1 | 88 | 78 | 245 | (234 + 5) / 245 = **97,6%** |
+
+`npm run -s cobertura` (rodado no início e no fim desta atualização, mesmo resultado): o script vê **256 de 411** artigos vigentes citados (62,3%; CF 211 de 273, ADCT 45 de 138), contra 180 depois da correção do leitor em 2026-10-23. Classificados como cobertos mas sem citação no relatório: arts. 167-C a 167-F (citados só na faixa "arts. 167-B a 167-G", que o script não expande: faixas com letra ficam de fora), art. 192 e art. 216 (cobertos por `org:cmn`, `org:banco-central` e pela matéria da matriz, sem citação do artigo) e ADCT, art. 124 (abre a transição; os tributos citam os arts. 125 a 133).
+
+### Descobertos que restam
+
+Fora do escopo da fatia 0:
+
+- art. 53, §§ 2º e 8º (a Casa resolve sobre a prisão em flagrante; imunidades no estado de sítio): decisão do coordenador de 2026-10-24; a prisão do parlamentar não é objeto do mapa.
+- art. 84, VII (relações com Estados estrangeiros e acreditação de diplomatas): Estados estrangeiros e seus representantes não são nós; o verbo `acredita` não entra (coordenador, 2026-10-24).
+
+Lacunas para a fase das leis estruturantes (D04):
+
+- art. 5º, § 4º: adesão ao Tribunal Penal Internacional (`org:tribunal-penal-internacional`, organismo internacional, D05).
+- art. 12, § 3º, V e VI: carreira diplomática e oficial das Forças Armadas como cargos agregados (Lei 11.440/2006 e estatuto dos militares).
+- art. 105, I, j: STJ julga conflitos entre entes, ou entre eles e o Comitê Gestor do IBS.
+- art. 176, § 1º: quem concede o aproveitamento de potencial hidráulico (agência do setor elétrico, não pesquisada).
+- art. 177, I a V: monopólio da União sobre petróleo, gás e minerais nucleares como competência ou objeto (Lei 9.478/1997).
+- art. 237: fiscalização do comércio exterior pelo Ministério da Fazenda (legislação aduaneira).
+- art. 243: rito da expropriação por trabalho escravo e fundo especial dos bens confiscados.
+- ADCT, art. 32: estados com serventias notariais oficializadas, como variações (leis de organização judiciária).
+- ADCT, art. 69: demais estados com consultoria jurídica separada da PGE, como variações.
+
+Ficam também para depois da fatia 0, como detalhe de linhas cobertas (decisões do coordenador em f0-fechamento): custas do art. 98, § 2º; MPs junto aos TCMs (art. 130); polícias legislativas no controle externo pelo MP (art. 129, VII).
+
+### Antes (2026-10-23)
+
+Contagem da primeira versão do quadro (411 artigos vigentes; `npm run -s cobertura` rodado de novo no fim, 183 citados, sem mudança nas citações durante a tarefa).
 
 | Parte | Coberto | Parcial | Lacuna | Fora | Transitório esgotado | Base (total − fora − esgotado) | Cobertura |
 |---|---|---|---|---|---|---|---|
@@ -459,6 +494,8 @@ Critério usado: `coberto` quando o órgão, cargo, competência ou procedimento
 Amostragem das citações: as citações dos 183 artigos citados foram lidas junto com o texto do artigo; as relações da matriz de competências foram conferidas inciso a inciso contra os arts. 21 a 24 e 30 (todas batem). A conta do script inclui 3 falsos positivos (ver "Erros de dispositivo"); sem eles, são 180 artigos citados (CF 167 de 273; ADCT 13 de 138).
 
 ## Propostas de tarefa
+
+Em 2026-10-28: estas propostas viraram as 8 coletas de lacunas; o que sobrou está em "Descobertos que restam", acima.
 
 Em ordem de importância para quem quer entender como o Estado funciona. Ids são propostas; normas listadas como "fontes prováveis" precisam ser conferidas antes do uso.
 
@@ -493,3 +530,9 @@ Nenhuma entidade com dispositivo errado foi confirmada. Achados:
 - 2026-10-23 — bloco 10 gravado: Título IX (arts. 234 a 250). Lacunas: cartórios (236), comércio exterior (237), FAT e BNDES (239), Sistema S (240), Colégio Pedro II (242), expropriação (243), fundos previdenciários (249, 250). Fim da parte permanente; segue o ADCT
 - 2026-10-23 — bloco 11 gravado: ADCT (138 artigos vigentes). Lacunas vigentes: Fundeb (60, 60-A), Sistema S (62), quilombolas (68), DRU (76 a 76-B), fundos de combate à pobreza (79 a 82), Zona Franca (40, 92 a 92-B), precatórios (87, 101 a 107-A), estimativa de impacto (113), alíquotas de referência (130). Achado: o leitor de `scripts/cobertura-cf.ts` retrocede no número quando ele vem seguido de inciso romano ("89, I" vira art. 8º; "49, IX" vira art. 4º; "126, I" vira ADCT art. 12), o que dá 3 falsos positivos; com `\d+(?!\d)` em NUM eles somem e nada mais muda (testado fora do repositório). Script não alterado
 - 2026-10-23 — fechamento: `npm run -s cobertura` de novo (183 de 411; as revisões gravadas durante a tarefa, commits 9ca2daf e 03b9f6c, não mudaram nenhuma citação da CF). Quadro com 411 artigos conferido contra a lista do script (nenhum faltando ou repetido). Cobertura: CF 72,3%, ADCT 25,6%. Propostas de tarefa (9 grupos) e erros de dispositivo gravados. Concluída
+- 2026-10-28 — atualização do quadro depois das 8 coletas de lacunas, de f0-residuais e de f0-sugestoes-revisoes: `npm run -s cobertura` rodado (256 de 411 citados; CF 211/273, ADCT 45/138). Método: só as linhas `lacuna` e `parcial` (101), conferidas contra os ids em `dados/` e os diários das coletas. Bloco 1 gravado: Títulos I a III (arts. 5º a 43; 11 linhas)
+- 2026-10-28 — bloco 2 gravado: Título IV, Caps. I a III (arts. 49 a 111-A; 17 linhas). Continuam parciais: 53 (§§ 2º e 8º, fora por decisão do coordenador), 84 (VII, fora: Estado estrangeiro não é nó) e 105 (I, j, conflitos com o Comitê Gestor do IBS)
+- 2026-10-28 — bloco 3 gravado: Título IV, Cap. IV, a Título VII (arts. 129 a 188; 20 linhas). Continuam parciais: 176 (potencial hidráulico) e 177 (monopólio da União), lacunas para as leis estruturantes. Achado: o script não expande faixas com letra ("arts. 167-B a 167-G"), por isso 167-C a 167-F aparecem sem citação apesar de cobertos
+- 2026-10-28 — bloco 4 gravado: Título VIII (arts. 194 a 231; 16 linhas), todas cobertas
+- 2026-10-28 — bloco 5 gravado: Título IX e ADCT (arts. 236 a 250 e ADCT; 37 linhas). Continuam: 237 (lacuna) e 243 (parcial) na CF; ADCT, arts. 32 e 69 (parciais: variações estaduais não levantadas). ADCT, art. 113 passou a coberto pela etapa iniciativa de proc:lei-ordinaria e proc:lei-complementar. Falta a seção Cobertura
+- 2026-10-28 — seção Cobertura reescrita (tabela nova, descobertos que restam, tabela antiga como "Antes (2026-10-23)"); `npm run -s cobertura` de novo no fim: 256 de 411, sem mudança. Resumo: das 101 linhas `lacuna` ou `parcial`, 94 mudaram de classificação (90 para `coberto`; 176, 243 e ADCT 32 e 69 de `lacuna` para `parcial`) e 7 ficaram (5º, 12, 53, 84, 105, 177 parciais; 237 lacuna). Cobertura: CF 72,3% → 97,6%; ADCT 25,6% → 97,4%; total 64,9% → 97,6%. Restam 11 descobertos: 2 fora do escopo da fatia 0 (53, §§ 2º e 8º; 84, VII) e 9 para a fase das leis estruturantes (D04). Concluída

@@ -5,7 +5,7 @@
   "relacao": "julga",
   "de": "org:justica-eleitoral",
   "para": "obj:mandado-de-seguranca",
-  "condicao": "Em matéria eleitoral: os juízes eleitorais, salvo competência de instância superior; os TREs, contra atos de autoridades que respondem no TJ por crime de responsabilidade e em recurso contra os juízes eleitorais; o TSE, contra atos dos TREs. Se o TRE nega o pedido, cabe recurso ao TSE.",
+  "condicao": "Em matéria eleitoral: os juízes eleitorais, salvo competência de instância superior; os TREs, contra atos de autoridades que respondem no TJ por crime de responsabilidade e em recurso contra os juízes eleitorais. Se o TRE nega o pedido, cabe recurso ao TSE.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -17,14 +17,15 @@
     },
     {
       "ref": "norma:lei-4737-1965",
-      "dispositivo": "art. 22, I, e; art. 29, I, e; art. 35, III"
+      "dispositivo": "art. 29, I, e; art. 35, III"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais"
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; CF, art. 121, § 4º, V, no cf.htm local; Código Eleitoral, arts. 22, I, e, 29, I, e, e 35, III, na cópia local do texto compilado; corrigido: a condição dava ao TSE o mandado de segurança contra atos dos TREs, mas a RSF 132/1984 suspendeu 'ou mandado de segurança' no art. 22, I, e (API do Senado, cópia em pesquisa/brutos/senado-dados-abertos/2026-10-27-verificacao-residuais/rsf-132-1984.json); tirado o trecho e o dispositivo, e reescrita a nota"
   },
-  "notas": "O art. 22, I, e, do Código Eleitoral também cita atos do Presidente da República e dos Ministros de Estado, mas o Planalto anota a suspensão de execução pela Resolução do Senado 132/1984; por isso a condição não cita essas autoridades. O recurso ao TSE também cabe quando o TRE nega habeas data ou mandado de injunção (art. 121, § 4º, V), ver rel:tse-julga-recursos-da-justica-eleitoral."
+  "notas": "O art. 22, I, e, do Código Eleitoral dava ao TSE o mandado de segurança em matéria eleitoral contra atos do Presidente da República, dos Ministros de Estado e dos TREs, mas a Resolução do Senado 132/1984 suspendeu a execução da locução 'ou mandado de segurança' desse dispositivo (ementa e ficha na API de legislação do Senado, documento 564621; o Planalto anota a suspensão no art. 22, I, e); por isso a condição não dá ao TSE mandado de segurança originário por esse artigo. O recurso ao TSE também cabe quando o TRE nega habeas corpus, habeas data ou mandado de injunção (art. 121, § 4º, V), ver rel:tse-julga-recursos-da-justica-eleitoral."
 }

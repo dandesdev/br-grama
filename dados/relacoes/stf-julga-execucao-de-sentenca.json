@@ -5,7 +5,7 @@
   "relacao": "julga",
   "de": "org:stf",
   "para": "obj:execucao-de-sentenca",
-  "condicao": "Nas causas de sua competência originária; pode delegar a prática de atos processuais.",
+  "condicao": "O STF processa a execução (o cumprimento) das sentenças nas causas de sua competência originária; pode delegar a prática de atos processuais.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -18,9 +18,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais"
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; CF, art. 102, I, m, conferido no cf.htm local; condição reescrita para dizer que aqui 'julga' é processar a execução, como pede a decisão do coordenador"
   },
   "notas": "Relação 'julga' usada por falta de verbo melhor: a CF fala em 'processar e julgar' a execução. Ver o diário de f0-residuais."
 }

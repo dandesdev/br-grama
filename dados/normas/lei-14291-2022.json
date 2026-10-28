@@ -12,7 +12,7 @@
   "ente": "ente:uniao",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14291.htm",
   "acesso_em": "2026-10-27",
-  "arquivo": null,
+  "arquivo": "http://web.archive.org/web/20261004121214/https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14291.htm",
   "vigencia": {
     "de": "2022-01-04",
     "ate": null
@@ -27,11 +27,13 @@
       "dispositivo": "arts. 50-A; 50-B, caput e §§ 1º a 3º; 50-D; 50-E"
     }
   ],
-  "notas": "Publicada no DOU de 4/1/2022; vigência na publicação (art. 2º). O art. 50-E (compensação fiscal às emissoras) foi vetado e o veto derrubado; as partes foram promulgadas em 14/2/2022 (DOU de 15/2/2022), nos termos do art. 66, § 5º, da CF. A lei também incluiu o inciso XI no art. 44 da Lei 9.096/1995 (impulsionamento de conteúdo na internet). Desfaz a extinção feita pela Lei 13.487/2017 (ver norma:lei-13487-2017). Lida em 2026-10-27 via WebFetch, porque o curl ao Planalto deu timeout (também com --http1.1); sem cópia local. Arts. 50-A e 50-B conferidos também na cópia local do texto compilado da Lei 9.096/1995 (pesquisa/brutos/planalto-leis/2026-10-23/l9096.htm), sem alteração posterior anotada. Wayback: archive.org respondeu 429 em 2026-10-27; arquivo fica null.",
+  "notas": "Publicada no DOU de 4/1/2022; vigência na publicação (art. 2º). O art. 50-E (compensação fiscal às emissoras) foi vetado e o veto derrubado; as partes foram promulgadas em 14/2/2022 (DOU de 15/2/2022), nos termos do art. 66, § 5º, da CF. A lei também incluiu o inciso XI no art. 44 da Lei 9.096/1995 (impulsionamento de conteúdo na internet). Desfaz a extinção feita pela Lei 13.487/2017 (ver norma:lei-13487-2017). Lida na coleta via WebFetch, porque o curl ao Planalto deu timeout (também com --http1.1); na revisão (2026-10-27) o texto foi relido na cópia do Wayback de 2026-10-04, guardada em pesquisa/brutos/planalto-leis/2026-10-27-verificacao-residuais/l14291.htm. Arts. 50-A e 50-B conferidos também na cópia local do texto compilado da Lei 9.096/1995 (pesquisa/brutos/planalto-leis/2026-10-23/l9096.htm), sem alteração posterior anotada. A ficha da API de legislação do Senado (documento 35405830; cópia em pesquisa/brutos/senado-dados-abertos/2026-10-27-verificacao-residuais/lei-14291-2022.json) confirma o DOU de 4/1/2022, p. 1, e a publicação do veto rejeitado no DOU de 15/2/2022; a ficha da Lei 9.096/1995 não mostra outra norma que altere os arts. 50-A a 50-E.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais"
-  }
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; arts. 1º e 2º, arts. 50-A a 50-E incluídos e promulgação das partes vetadas conferidos na cópia do Wayback; datas pela API do Senado; arquivo preenchido"
+  },
+  "redacao_conferida_em": "2026-10-27"
 }
