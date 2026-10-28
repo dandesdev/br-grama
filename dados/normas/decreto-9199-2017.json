@@ -2,7 +2,7 @@
   "id": "norma:decreto-9199-2017",
   "tipo": "norma",
   "nome": "Decreto nº 9.199, de 20 de novembro de 2017",
-  "resumo": "Regulamenta a Lei de Migração. Na extradição, dá ao Ministério da Justiça e Segurança Pública o recebimento do pedido e a decisão sobre a entrega.",
+  "resumo": "Regulamenta a Lei de Migração. Na extradição, o Ministério da Justiça e Segurança Pública recebe o pedido e, depois do STF, avalia se a pessoa pode ser entregue.",
   "tipo_norma": "decreto",
   "numero": "9.199",
   "data": "2017-11-20",
@@ -32,9 +32,9 @@
   "redacao_conferida_em": "2026-10-27",
   "notas": "Criado na revisão de f0-residuais para apoiar os atores de proc:extradicao. O curl ao Planalto falhou (também com --http1.1); o texto foi lido na cópia do Wayback de 2026-10-18, guardada em pesquisa/brutos/planalto-leis/2026-10-27-verificacao-residuais/d9199.htm. Na extradição passiva (arts. 262 a 277): o MJSP faz a extradição e sua comunicação, em coordenação com o Ministério das Relações Exteriores (art. 262, § 2º); recebe o pedido, confere os pressupostos formais e o envia ao STF ou o arquiva (art. 269); julgada procedente a extradição, avalia se o estrangeiro cumpre os requisitos e comunica o Estado requerente (art. 271); na prisão cautelar, a autoridade central representa ao STF, que ouve o MPF (art. 275). As alterações listadas na ficha do Senado (Decretos 9.277/2018 a 12.657/2025; cópia em pesquisa/brutos/senado-dados-abertos/2026-10-27-verificacao-residuais/dec-9199-2017.json) não tocam os arts. 262 a 277.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "verificacao-f0-residuais",
-    "notas": "criado pela revisão; falta outra conferência"
+    "tarefa": "verificacao-f0-complementos-2",
+    "notas": "coletado em verificacao-f0-residuais; conferido na cópia do Wayback de 2026-10-18: arts. 262, § 2º, 269, 271, 275 (STF ouve antes o MPF) e 319; ficha do Senado (documento 26286550): DOU de 21/11/2017, p. 1, alterações dos Decretos 9.277/2018 a 12.657/2025, nenhuma nos arts. 262 a 277. Corrigido o resumo: dizia que o MJSP decide a entrega; o art. 271 diz que ele avalia se o estrangeiro cumpre os requisitos, depois do julgamento do STF"
   }
 }

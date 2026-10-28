@@ -20,14 +20,18 @@
     {
       "ref": "norma:lc-111-2001",
       "dispositivo": "art. 5º"
+    },
+    {
+      "ref": "norma:decreto-4564-2003",
+      "dispositivo": "art. 1º"
     }
   ],
   "confianca": "oficial",
-  "notas": "A LC 111/2001, art. 5º, lista as competências do órgão gestor, a ser designado pelo Presidente da República. A designação do MDS está no Decreto 4.564/2003, art. 1º, com redação do Decreto 11.992/2024 (lido em https://www.planalto.gov.br/ccivil_03/decreto/2003/d4564.htm em 2026-10-27; sem entidade norma).",
+  "notas": "A LC 111/2001, art. 5º, lista as competências do órgão gestor, a ser designado pelo Presidente da República. A designação do MDS está no Decreto 4.564/2003, art. 1º, com redação do Decreto 11.992/2024 (norma:decreto-4564-2003).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "verificacao-f0-dinheiro-complementar",
-    "notas": "criada na revisão, com o termo novo 'gere'; antes a gestão estava só no relativo_a do fundo"
+    "tarefa": "verificacao-f0-complementos-2",
+    "notas": "coletado em verificacao-f0-dinheiro-complementar; conferido: Lei 14.600/2023, art. 27, XI ('gestão do Fundo de Combate e Erradicação da Pobreza'); LC 111/2001, art. 5º, I a IV (condição); Decreto 4.564/2003, art. 1º, redação do Decreto 11.992/2024. Acrescentada a fonte norma:decreto-4564-2003, cadastrada depois, e a nota deixou de dizer 'sem entidade norma'"
   }
 }

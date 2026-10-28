@@ -12,8 +12,7 @@
   "vigencia": {
     "de": "2020-03-07",
     "ate": null,
-    "incerta": true,
-    "nota": "Desde a vigência do Decreto 10.223/2020 (trinta dias após a publicação de 6/2/2020)."
+    "nota": "Desde a vigência do Decreto 10.223/2020 (trinta dias após a publicação de 6/2/2020; ver norma:decreto-10223-2020)."
   },
   "fontes": [
     {
@@ -37,12 +36,14 @@
   "onde_procuramos": [
     "Decreto 4.564/2003, texto compilado do Planalto (cópia do Wayback de 2026-06-14, com a redação do Decreto 11.992/2024): os arts. 2º e 3º aparecem como revogados, e o Decreto 11.992/2024 não recompôs o conselho",
     "Página do Planalto do Decreto 4.564/2003 lida na revisão de f0-dinheiro-complementar (2026-10-27): mesma anotação de revogação",
-    "Busca na web (2026-10-27) por decreto de 2020 em diante sobre o 'Conselho Consultivo e de Acompanhamento do Fundo de Combate e Erradicação da Pobreza', inclusive em gov.br: só os textos da LC 111/2001, do Decreto 3.997/2001 (revogado) e do Decreto 4.564/2003"
+    "Busca na web (2026-10-27) por decreto de 2020 em diante sobre o 'Conselho Consultivo e de Acompanhamento do Fundo de Combate e Erradicação da Pobreza', inclusive em gov.br: só os textos da LC 111/2001, do Decreto 3.997/2001 (revogado) e do Decreto 4.564/2003",
+    "Busca na web na revisão (2026-10-27) por decreto de 2024 a 2026 sobre o conselho: só o Decreto 11.992/2024, que mudou o órgão gestor e as doações e não recompôs o conselho; texto atual do Decreto 4.564/2003 no Planalto (WebFetch, 2026-10-27) sem alteração posterior"
   ],
   "notas": "Sugerido pela revisão verificacao-f0-dinheiro-complementar. Não buscamos atos de designação de membros no DOU nem a página do conselho no site do MDS. A EC 31/2000 é a origem do ADCT, art. 79, parágrafo único.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-sugestoes-revisoes"
+    "tarefa": "verificacao-f0-complementos-2",
+    "notas": "coletado em f0-sugestoes-revisoes; conferido: ADCT, art. 79, parágrafo único (EC 31/2000); LC 111/2001, arts. 4º (membros designados pelo Presidente; parágrafo único: ato do Executivo regula a composição), 5º, V, e 6º; Decreto 4.564/2003, art. 1º, parágrafo único, V ('de que trata o art. 2º') e arts. 2º e 3º revogados; Decreto 10.223/2020, art. 1º, CXLVIII. Tirado o 'incerta' da vigência (a data do Decreto 10.223 foi conferida); nova busca anotada em onde_procuramos"
   }
 }

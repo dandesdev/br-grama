@@ -14,7 +14,7 @@
   "vigencia": {
     "de": "1993-09-15",
     "ate": null,
-    "nota": "Em vigor na publicação (art. 14); as contribuições ao Sest e ao Senat valem desde 1º/1/1994 (art. 7º)."
+    "nota": "Em vigor na publicação (art. 14); as rendas do Sest e do Senat, formadas pelas contribuições das empresas de transporte rodoviário, contam a partir de 1º/1/1994 (art. 7º)."
   },
   "fontes": [
     {
@@ -23,12 +23,13 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "DOU de 15/9/1993, segundo a nota final da página do Planalto. Em 2026-10-27 o curl ao Planalto falhou (também com --http1.1); o texto foi lido na cópia do Wayback de 2026-10-04, guardada em pesquisa/brutos/planalto-leis/2026-10-27-sugestoes/l8706-wayback-20261004.htm. A alteração mais recente citada na página é da Lei 13.840/2019 (art. 3º, § 2º), que não toca os arts. 1º e 7º.",
+  "notas": "DOU de 15/9/1993, p. 13717, segundo a API de legislação do Senado (documento 550582). Em 2026-10-27 o curl ao Planalto falhou (também com --http1.1); o texto foi lido na cópia do Wayback de 2026-10-04, guardada em pesquisa/brutos/planalto-leis/2026-10-27-sugestoes/l8706-wayback-20261004.htm. A alteração mais recente citada na página é da Lei 13.840/2019 (art. 3º, § 2º), que não toca os arts. 1º e 7º.",
   "compilacao_ate": "Lei 13.840/2019",
   "redacao_conferida_em": "2026-10-27",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-sugestoes-revisoes"
+    "tarefa": "verificacao-f0-complementos-2",
+    "notas": "coletado em f0-sugestoes-revisoes; conferido na cópia do Wayback de 2026-10-04: arts. 1º (CNT cria, organiza e administra Sest e Senat, com fiscalização do TCU), 7º e 14; últimas alterações Leis 12.594/2012 e 13.840/2019, no art. 3º; DOU de 15/9/1993 pela API do Senado. Corrigido: a nota da vigência dizia que as contribuições 'valem desde' 1º/1/1994; o art. 7º diz que as rendas das entidades se compõem a partir dessa data"
   }
 }

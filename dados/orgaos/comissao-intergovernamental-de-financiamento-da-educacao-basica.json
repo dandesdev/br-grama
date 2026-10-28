@@ -20,8 +20,18 @@
       "nota": "A lei a mantém 'no âmbito do Ministério da Educação'. Ela não aparece entre os órgãos colegiados do Decreto 12.769/2025 (art. 2º, III, só lista o CNE)."
     },
     "vigencia": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11494-2007",
+          "dispositivo": "art. 12, caput; art. 49"
+        },
+        {
+          "ref": "norma:lei-14113-2020",
+          "dispositivo": "art. 53"
+        }
+      ],
       "confianca": "oficial",
-      "nota": "Lei 11.494/2007 e MP 339/2006 conferidas no Planalto em 2026-10-27 (sem norma própria cadastrada)."
+      "nota": "Lei 11.494/2007 (norma:lei-11494-2007) e MP 339/2006 conferidas no Planalto em 2026-10-27; DOU de 21/6/2007 também na API de legislação do Senado."
     }
   },
   "fontes": [
@@ -41,6 +51,6 @@
     "status": "verificado",
     "em": "2026-10-27",
     "tarefa": "verificacao-f0-educacao",
-    "notas": "coletado em f0-educacao; Lei 14.113/2020, arts. 17 a 19, conferidos; vigência preenchida (2007-06-21, Lei 11.494/2007, art. 49, conferida no Planalto); a leitura de subcomissão da Cite segue como leitura nossa, sem lista oficial achada"
+    "notas": "coletado em f0-educacao; Lei 14.113/2020, arts. 17 a 19, conferidos; vigência preenchida (2007-06-21, Lei 11.494/2007, art. 49, conferida no Planalto); a leitura de subcomissão da Cite segue como leitura nossa, sem lista oficial achada; em verificacao-f0-complementos-2 (2026-10-27), campos.vigencia passou a citar norma:lei-11494-2007 (art. 12, caput, e art. 49) e a Lei 14.113/2020, art. 53, conferidos"
   }
 }

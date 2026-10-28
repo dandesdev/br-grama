@@ -7,17 +7,18 @@
   "publicador": "Senado Federal (Rádio Senado)",
   "url": "https://www12.senado.leg.br/radio/1/noticia/2016/08/31/senado-aprova-impeachment-de-dilma-rousseff",
   "acesso_em": "2026-10-27",
-  "arquivo": null,
+  "arquivo": "https://web.archive.org/web/20261028013258/https://www12.senado.leg.br/radio/1/noticia/2016/08/31/senado-aprova-impeachment-de-dilma-rousseff",
   "oficial": true,
   "vigencia": {
     "de": "2016-08-31",
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "Diz que a divisão foi pedida pela senadora Kátia Abreu e que o resultado da primeira votação foi anunciado pelo Presidente do STF. Não traz o placar da segunda votação nem o número da resolução do Senado que formalizou o julgamento; não achamos o texto da resolução (a página da Biblioteca do Senado pediu verificação de segurança). Cópia em pesquisa/brutos/senado/2026-10-27-sugestoes/radio-senado-impeachment-dilma-2016-08-31.html. O Wayback respondeu 429 (excesso de pedidos) em 2026-10-27; arquivo a preencher.",
+  "notas": "Diz que a divisão foi pedida pela senadora Kátia Abreu e que o resultado da primeira votação foi anunciado pelo Presidente do STF. Não traz o placar da segunda votação nem o número da resolução do Senado. Na revisão (2026-10-27) achamos o ato: Resolução do Senado Federal nº 35, de 31/8/2016 (DOU de 31/8/2016, Seção 1, edição extra), que impõe só a perda do cargo (art. 2º) e traz a sentença com os dois placares: 61 a 20, sem abstenções, na perda do cargo; 42 a 36, com três abstenções, na inabilitação, afastada por não alcançar dois terços. Texto na Legislação Informatizada da Câmara (https://www2.camara.leg.br/legin/fed/ressen/2016/resolucao-35-31-agosto-2016-783556-publicacaooriginal-151006-pl.html, Wayback de 2026-10-16; cópia em pesquisa/brutos/camara/2026-10-27-verificacao-complementos-2/) e na lista da API de legislação do Senado (documento 562339; a ficha do documento respondeu 503). A resolução não tem entidade norma. Cópia da notícia em pesquisa/brutos/senado/2026-10-27-sugestoes/radio-senado-impeachment-dilma-2016-08-31.html.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-sugestoes-revisoes"
+    "tarefa": "verificacao-f0-complementos-2",
+    "notas": "coletado em f0-sugestoes-revisoes; conferida a transcrição na cópia de brutos (divisão a pedido de Kátia Abreu, 61 a 20 na perda do mandato, anúncio por Lewandowski, segunda votação sobre a pena acessória sem inabilitação); placar e ato confirmados na Resolução SF 35/2016 (ver notas); arquivo preenchido com captura nova do Wayback"
   }
 }
