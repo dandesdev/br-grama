@@ -66,8 +66,13 @@
   ],
   "campos": {
     "provimento": {
-      "confianca": "inferido",
-      "nota": "A Lei 12.153/2009, art. 15, diz que conciliadores e juízes leigos \"serão designados\". O processo seletivo da Resolução CNJ 174/2013 não é concurso público para cargo efetivo; usamos 'designacao' e propomos ampliar a definição do termo (hoje restrita a membros de carreira)."
+      "fontes": [
+        {
+          "ref": "norma:lei-12153-2009",
+          "dispositivo": "art. 15"
+        }
+      ],
+      "nota": "A Lei 12.153/2009, art. 15, diz que conciliadores e juízes leigos \"serão designados\". O processo seletivo da Resolução CNJ 174/2013 não é concurso público para cargo efetivo; 'designacao' cobre auxiliares da Justiça fora de carreira."
     }
   },
   "vigencia": {
@@ -78,8 +83,9 @@
   "confianca": "oficial",
   "notas": "Cargo agregado (D11). Os juizados especiais federais não têm juiz leigo na Lei 10.259/2001, só conciliadores (art. 18). Requisito de experiência: a Lei 9.099/1995 (5 anos) e a Lei 12.153/2009 (2 anos) divergem; a Resolução CNJ 174/2013 adota 2 anos para todo o sistema. Não abrimos aviso: a lei posterior trata dos juizados da Fazenda Pública, e a aplicação do prazo menor aos cíveis e criminais vem da resolução do CNJ.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-judiciario-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-judiciario-complementar",
+    "notas": "coletado em f0-judiciario-complementar; Lei 9.099/1995, arts. 7º, 37 e 40; Lei 12.153/2009, art. 15; Resolução CNJ 174/2013, arts. 1º a 3º, 9º e 13, conferidos; vocabulário: 'designacao' ampliado, campos.provimento deixa de ser inferido"
   }
 }

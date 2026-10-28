@@ -2,7 +2,7 @@
   "id": "obj:desapropriacao-para-reforma-agraria",
   "tipo": "objeto",
   "nome": "Desapropriação de imóvel rural para reforma agrária",
-  "resumo": "Tomada, pela União, de imóvel rural que não cumpre a função social, com indenização em títulos da dívida agrária e benfeitorias pagas em dinheiro.",
+  "resumo": "Tomada, pela União, de imóvel rural que não cumpre a função social, com indenização em títulos da dívida agrária e benfeitorias úteis e necessárias pagas em dinheiro.",
   "detalhes": "Pequena e média propriedade (se o dono não tiver outra) e propriedade produtiva não podem ser desapropriadas para esse fim. A transferência do imóvel desapropriado é isenta de impostos.",
   "tipo_objeto": "decisao",
   "esfera": "federal",
@@ -21,8 +21,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; CF, arts. 184 a 186, conferidos; resumo corrigido: o art. 184, § 1º, manda pagar em dinheiro só as benfeitorias úteis e necessárias (o texto dizia \"benfeitorias pagas em dinheiro\")"
   }
 }

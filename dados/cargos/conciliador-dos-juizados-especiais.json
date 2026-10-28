@@ -26,13 +26,22 @@
           "dispositivo": "art. 15, § 1º"
         }
       ]
+    },
+    {
+      "texto": "no juizado criminal, não exercer funções na administração da Justiça Criminal",
+      "fontes": [
+        {
+          "ref": "norma:lei-9099-1995",
+          "dispositivo": "art. 73, parágrafo único"
+        }
+      ]
     }
   ],
   "detalhes": "Conduz a audiência de conciliação sob a supervisão do juiz e pode ouvir as partes e testemunhas para buscar um acordo (Lei 12.153/2009, art. 16, aplicado também aos juizados federais pelo art. 26).",
   "fontes": [
     {
       "ref": "norma:lei-9099-1995",
-      "dispositivo": "art. 7º"
+      "dispositivo": "arts. 7º, 22 e 73"
     },
     {
       "ref": "norma:lei-10259-2001",
@@ -55,10 +64,11 @@
     "nota": "Previsto desde a Lei 9.099/1995 (art. 7º)."
   },
   "confianca": "oficial",
-  "notas": "Cargo agregado (D11). Um só cargo para os juizados estaduais e federais; o 'orgao' aponta para os estaduais, onde há mais regras, e os detalhes dizem como é nos federais.",
+  "notas": "Cargo agregado (D11). A função existe nos juizados especiais estaduais e nos federais (Lei 10.259/2001, art. 18), mas o modelo dá a cada cargo um só órgão: o 'orgao' aponta para os juizados estaduais, onde há mais regras, e os juizados federais não têm cargo de conciliador próprio no mapa. O provimento_nota, o mandato e os detalhes dizem como é nos federais.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-judiciario-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-judiciario-complementar",
+    "notas": "coletado em f0-judiciario-complementar; Lei 9.099/1995, arts. 7º, 22 e 73; Lei 10.259/2001, art. 18; Lei 12.153/2009, arts. 15, 16 e 26, conferidos; notas deixam claro que o cargo fica só nos juizados estaduais"
   }
 }

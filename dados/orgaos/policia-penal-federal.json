@@ -8,7 +8,7 @@
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:ministerio-da-justica-e-seguranca-publica",
+  "contido_em": "org:secretaria-nacional-de-politicas-penais",
   "campos": {
     "contido_em": {
       "fontes": [
@@ -18,10 +18,10 @@
         },
         {
           "ref": "norma:decreto-11348-2023",
-          "dispositivo": "art. 2º, II, e, 4 (redação do Decreto 12.543/2025)"
+          "dispositivo": "Anexo I, art. 2º, II, e, 4, art. 31, VI, e art. 35, XV (redação do Decreto 12.543/2025)"
         }
       ],
-      "nota": "Vinculada à Secretaria Nacional de Políticas Penais do MJSP (antigo Departamento Penitenciário Nacional, Lei 14.600/2023, art. 59), que não foi modelada."
+      "nota": "A lei vincula a Polícia Penal Federal ao \"órgão administrador do sistema penitenciário federal\"; na estrutura do MJSP, é a Secretaria Nacional de Políticas Penais (antigo Departamento Penitenciário Nacional, Lei 14.600/2023, art. 59), que coordena e supervisiona os estabelecimentos penais federais (art. 31, VI) e tem a Diretoria da Polícia Penal Federal, à qual cabe dirigir e coordenar as atividades da Polícia Penal Federal (art. 35, XV). Até 2026-10-27 o contido_em apontava para o MJSP porque a Secretaria não tinha nó."
     }
   },
   "fontes": [
@@ -47,8 +47,8 @@
   "notas": "Sem sigla conferida. A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-defesa-seguranca",
-    "notas": "coletado em f0-defesa-seguranca; conferidos CF art. 144, VI e § 5º-A (EC 104/2019), Lei 14.875/2024 arts. 63 e 75, II, Lei 14.600/2023 arts. 35, XVIII, e 59 e Decreto 11.348/2023 art. 2º, II, e, 4 (redação do Decreto 12.543/2025)"
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-defesa-seguranca e verificado em verificacao-f0-defesa-seguranca (2026-10-23); nesta revisão, autorizada pelo coordenador, contido_em passou de org:ministerio-da-justica-e-seguranca-publica para org:secretaria-nacional-de-politicas-penais, com o Decreto 11.348/2023, Anexo I, arts. 2º, II, e, 4, 31, VI, e 35, XV, conferidos na cópia de 2026-10-24 (com alterações até o Decreto 13.131/2026)"
   }
 }

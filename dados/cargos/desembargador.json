@@ -29,7 +29,7 @@
       ]
     }
   ],
-  "provimento_nota": "Um quinto das vagas é de advogados e de membros do Ministério Público com mais de dez anos de atividade ou de carreira: a OAB ou o MP envia lista de seis nomes, o tribunal forma lista tríplice e o chefe do Executivo escolhe um em 20 dias (art. 94). No quinto, quem escolhe é o \"Poder Executivo\" (art. 94, parágrafo único): nos estados, o governador; a CF não detalha o caso do TJDFT.",
+  "provimento_nota": "Um quinto das vagas é de advogados e de membros do Ministério Público com mais de dez anos de atividade ou de carreira: a OAB ou o MP envia lista de seis nomes, o tribunal forma lista tríplice e o chefe do Executivo escolhe um em 20 dias (art. 94). No quinto, quem escolhe é o \"Poder Executivo\" (art. 94, parágrafo único): nos estados, o governador; no TJDFT, que a União organiza e mantém (art. 21, XIII), o Presidente da República (Lei 11.697/2008, art. 55, § 3º; ver rel:presidente-nomeia-desembargador-do-tjdft).",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -45,6 +45,10 @@
     {
       "ref": "norma:lc-152-2015",
       "dispositivo": "art. 2º, II"
+    },
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 55, §§ 2º a 4º"
     }
   ],
   "campos": {
@@ -53,7 +57,7 @@
       "nota": "\"Nos estados, o governador\" é leitura nossa de \"Poder Executivo\" no art. 94, parágrafo único; a CF não nomeia o governador."
     }
   },
-  "notas": "Para o TJDFT, que a União organiza (art. 21, XIII), não conferimos quem nomeia no quinto.",
+  "notas": "No TJDFT, o quinto constitucional é nomeado pelo Presidente da República: a Lei 11.697/2008, art. 55, § 3º, fala em \"Poder Executivo\", e a notícia oficial do TJDFT de 5/8/2026 mostra o decreto assinado pelo Presidente (rel:presidente-nomeia-desembargador-do-tjdft).",
   "requisitos": [
     {
       "texto": "juiz de direito promovido por antiguidade e merecimento, apurados na última ou única entrância; ou advogado com mais de dez anos de atividade ou membro do Ministério Público com mais de dez anos de carreira",
@@ -74,6 +78,6 @@
     "status": "verificado",
     "em": "2026-10-20",
     "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 84, XVI, 93, 94, 95 e 125 conferidos; vocabulário: promoção concurso-publico -> promocao; quinto nomeacao-livre -> nomeacao-a-partir-de-lista; campos.provimento_casos deixou de ser inferido; fontes: art. 93, III estava duplicado e faltavam os arts. 103-B, 104, 120 e 125 citados nos detalhes"
+    "notas": "coletado em f0-judiciario; CF arts. 84, XVI, 93, 94, 95 e 125 conferidos; vocabulário: promoção concurso-publico -> promocao; quinto nomeacao-livre -> nomeacao-a-partir-de-lista; campos.provimento_casos deixou de ser inferido; fontes: art. 93, III estava duplicado e faltavam os arts. 103-B, 104, 120 e 125 citados nos detalhes; atualizado em 2026-10-27 na verificacao-f0-judiciario-complementar (edição autorizada fora do escopo)"
   }
 }

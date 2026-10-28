@@ -1,24 +1,24 @@
 ---
 id: verificacao-f0-judiciario-complementar
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-judiciario-complementar\""
-status: em-andamento
+status: verificada
 depende_de: [f0-judiciario-complementar]
 iniciada_em: 2026-10-27
-concluida_em: null
+concluida_em: 2026-10-27
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-judiciario-complementar"` conferidas contra a fonte: 14 órgãos (júri estadual e federal, juizados especiais e turmas recursais estaduais e federais, TNU, justiça de paz, Enfam, CJF, Enamat, CSJT, MP de contas estadual, sindicatos e associações), 5 cargos (jurado, juiz leigo, conciliador, juiz de paz, procurador de contas estadual), 5 objetos, 1 processo (`proc:pagamento-de-precatorio`, etapa por etapa, com os dois regimes), 67 relações, 14 normas, 6 fontes e 1 aviso.
-- [ ] Termos criados depois da coleta (aplique). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-judiciario-complementar"`:
+- [x] Todas as entidades com `"tarefa": "f0-judiciario-complementar"` conferidas contra a fonte: 14 órgãos (júri estadual e federal, juizados especiais e turmas recursais estaduais e federais, TNU, justiça de paz, Enfam, CJF, Enamat, CSJT, MP de contas estadual, sindicatos e associações), 5 cargos (jurado, juiz leigo, conciliador, juiz de paz, procurador de contas estadual), 5 objetos, 1 processo (`proc:pagamento-de-precatorio`, etapa por etapa, com os dois regimes), 67 relações, 14 normas, 6 fontes e 1 aviso.
+- [x] Termos criados depois da coleta (aplique). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-judiciario-complementar"`:
   - relação `supervisiona`: troque `rel:conselho-da-justica-federal-coordena-justica-federal` e `rel:csjt-coordena-justica-do-trabalho` por `supervisiona` (renomeie arquivo e id).
   - `tipo_orgao: "escola-judicial"` em `org:enfam` e `org:enamat` (hoje `outro`).
   - `provimento: "sorteio"` em `cargo:jurado`; `provimento: "designacao"` (agora cobre auxiliares da Justiça fora de carreira) em `cargo:juiz-leigo` e no conciliador, se a lei sustentar.
   - `tipo_norma: "provimento"` no Provimento CNJ 207/2025 (hoje `outro`).
-- [ ] Fora do escopo, mas autorizado nesta revisão:
+- [x] Fora do escopo, mas autorizado nesta revisão:
   - `cargo:desembargador` e `var:df-tjdft`: as notas dizem que não se pesquisou quem nomeia no quinto do TJDFT; atualize citando `rel:presidente-nomeia-desembargador-do-tjdft`.
   - `norma:ristj`: `compilacao_ate` pode passar a "ER 54/2026" (o bruto guardado é a edição consolidada até a ER 54, de 17/8/2026). Confirme no bruto.
-- [ ] Pontos do coletor a conferir:
+- [x] Pontos do coletor a conferir:
   - `aviso:resolucao-cnj-303-desatualizada-ec-136`: a Resolução CNJ 303 ainda diz 2 de abril e Selic; a CF (EC 136/2025) diz 1º de fevereiro e IPCA mais 2% ao ano, limitado à Selic; o Provimento CNJ 207/2025 é a regra provisória. Veja se o CNJ revisou a resolução entre junho e 2026-10-01.
   - Júri: a Lei 15.358/2026 tira do júri homicídios de membros de facção ou milícia ligados aos crimes dela; há quatro ADIs sem decisão. Confira se a regra está entre os pontos atacados.
   - Juiz de paz: eleição como "majoritária" é inferência (a CF não define o sistema). Confira a marca de confiança.
@@ -26,7 +26,7 @@ concluida_em: null
   - Uma relação por TRF (art. 108), em vez de um conjunto: decisão aceita pelo coordenador; confira só o conteúdo.
   - O conciliador existe nos juizados estaduais e federais, mas o cargo ficou só nos estaduais (um cargo tem um órgão). Deixe claro nas notas.
   - Wayback: três URLs com arquivamento pedido e sem confirmação (Provimento 207, notícia do CNJ, ADI 7952). Tente de novo.
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-27 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o diário da coleta; 113 entidades no escopo
@@ -36,3 +36,90 @@ concluida_em: null
 - 2026-10-27 22:00 — verificado fonte:stf-constituicao-e-o-supremo-art-98: arquivo preenchido com a cópia do Wayback de 20261024022540, que tem o conteúdo do art. 98
 - 2026-10-27 22:00 — verificado fonte:tjdft-noticia-posse-desembargadora-2026-08-05: Wayback obtido (20261028005007)
 - 2026-10-27 22:00 — verificado fonte:cnj-noticia-revisao-resolucao-303-2026-06-11: Wayback achado (20260714152816)
+- 2026-10-27 22:01 — verificado aviso:resolucao-cnj-303-desatualizada-ec-136: ponto em aberto resolvido; a página do CNJ consultada em 2026-10-27 ainda lista a Resolução 613/2025 como última alteração da 303, e a notícia de 26/2/2026 confirma a revisão em curso; o aviso continua válido em 2026-10-01
+- 2026-10-27 22:01 — verificado norma:resolucao-cnj-303-2019: lista de dispositivos usados completada (faltavam 1º, 2º, 7º e 21); sem alteração nova até 2026-10-27
+- 2026-10-27 22:01 — verificado norma:provimento-cnj-207-2025: vocabulário aplicado (tipo_norma 'outro' -> 'provimento'); Wayback obtido (20261028004808); nota do art. 8º, § 2º, acrescentada
+- 2026-10-27 22:01 — corrigido norma:lei-9099-1995: notas listavam o art. 95 entre os dispositivos usados; nenhuma entidade usa o 95, e faltavam o 61 e o 96
+- 2026-10-27 22:01 — verificado norma:lei-10259-2001: lista de dispositivos usados completada (4º a 6º, 26 e 27)
+- 2026-10-27 22:01 — corrigido norma:lei-12153-2009: vigência estava como não conferida; ficou 2010-06-23, incerta (art. 28: seis meses após o DOU de 23/12/2009); lista de dispositivos completada (16, 19 e 26)
+- 2026-10-27 22:01 — corrigido norma:decreto-lei-253-1967: vigência estava como não conferida; ficou 1967-02-28 (art. 14, vigência na publicação)
+- 2026-10-27 22:01 — verificado norma:decreto-lei-3689-1941: nota acrescenta o art. 78, I (redação da Lei 15.358/2026)
+- 2026-10-27 22:01 — verificado norma:lei-11697-2008: lista de dispositivos completada (art. 51)
+- 2026-10-27 22:01 — verificado norma:lei-11798-2008
+- 2026-10-27 22:01 — verificado norma:lei-14824-2024
+- 2026-10-27 22:01 — verificado norma:ec-136-2025
+- 2026-10-27 22:01 — verificado norma:resolucao-cnj-174-2013
+- 2026-10-27 22:01 — verificado norma:resolucao-cnmp-20-2007
+- 2026-10-27 22:01 — verificado norma:lei-15358-2026
+- 2026-10-27 22:02 — corrigido org:tribunais-do-juri: notas diziam "conexos aos crimes daquela lei"; a lei diz conexos aos crimes do art. 2º. Ponto em aberto das ADIs: a competência do júri está entre os temas da audiência pública (notícia do STF de 24/8/2026), mas não há confirmação de qual ADI impugna o art. 2º, § 8º; sem decisão até 2026-10-27
+- 2026-10-27 22:02 — verificado org:tribunais-do-juri-federais
+- 2026-10-27 22:02 — verificado org:juizados-especiais-estaduais
+- 2026-10-27 22:02 — verificado org:turmas-recursais-estaduais
+- 2026-10-27 22:02 — corrigido org:juizados-especiais-federais: resumo omitia as fundações federais entre os réus (Lei 10.259/2001, art. 6º, II); detalhes diziam que os juizados "pagam" as condenações, mas quem paga é o ente, em 60 dias da requisição (art. 17)
+- 2026-10-27 22:02 — verificado org:turmas-recursais-federais
+- 2026-10-27 22:02 — verificado org:turma-nacional-de-uniformizacao
+- 2026-10-27 22:02 — verificado org:justica-de-paz
+- 2026-10-27 22:02 — verificado org:enfam: vocabulário aplicado (tipo_orgao 'outro' -> 'escola-judicial')
+- 2026-10-27 22:02 — verificado org:enamat: vocabulário aplicado (tipo_orgao 'outro' -> 'escola-judicial')
+- 2026-10-27 22:02 — verificado org:conselho-da-justica-federal
+- 2026-10-27 22:02 — verificado org:csjt
+- 2026-10-27 22:02 — corrigido org:arquetipo-estadual-mp-de-contas: detalhes citavam a Súmula 653 sem fonte (acrescentada fonte:stf-sumula-653); resumo dizia que atua "como fiscal da lei", expressão que as fontes usadas não trazem
+- 2026-10-27 22:02 — verificado org:organizacoes-sindicais-entidades-de-classe-e-associacoes
+- 2026-10-27 22:02 — verificado cargo:jurado: vocabulário aplicado (provimento 'designacao' -> 'sorteio'); campos.provimento (inferido) removido; CPP, art. 433 (sorteio dos 25), acrescentado às fontes
+- 2026-10-27 22:02 — verificado cargo:juiz-leigo: vocabulário aplicado (o termo 'designacao' agora cobre o juiz leigo; campos.provimento deixou de ser inferido)
+- 2026-10-27 22:02 — verificado cargo:conciliador-dos-juizados-especiais: notas reescritas para dizer que a função existe também nos juizados federais, mas o cargo fica só nos estaduais (um cargo, um órgão); acrescentado o requisito do juizado criminal (Lei 9.099/1995, art. 73, parágrafo único)
+- 2026-10-27 22:02 — verificado cargo:juiz-de-paz: ponto em aberto conferido; a CF (art. 98, II) diz só "eleitos pelo voto direto, universal e secreto", então a marca 'inferido' em campos.provimento está certa e fica
+- 2026-10-27 22:02 — corrigido cargo:arquetipo-estadual-procurador-de-contas: detalhes citavam a Súmula 653 sem fonte; acrescentada fonte:stf-sumula-653
+- 2026-10-27 22:03 — verificado obj:precatorio
+- 2026-10-27 22:03 — verificado obj:limite-de-pagamento-de-precatorios
+- 2026-10-27 22:03 — verificado obj:conflito-federativo
+- 2026-10-27 22:03 — verificado obj:conflito-de-competencia
+- 2026-10-27 22:03 — verificado obj:extradicao
+- 2026-10-27 22:03 — corrigido proc:pagamento-de-precatorio: etapa condenacao definia o juiz da execução pela redação antiga da Resolução 303, art. 2º, I; ficou a redação da Resolução 482/2022. Regime do ADCT, art. 101: acrescentado que o CNJ considera derrogado o teto de 40% de renúncia nos acordos diretos (Provimento 207/2025, art. 8º, § 2º). Ponto do ADCT, art. 101, conferido: o compilado do Planalto mostra "até 2029" sem marcar a EC 136/2025, art. 7º; a coleta seguiu a emenda, certo. Demais etapas conferidas sem erro
+- 2026-10-27 22:03 — vocabulário aplicado: rel:conselho-da-justica-federal-coordena-justica-federal -> rel:conselho-da-justica-federal-supervisiona-justica-federal (relacao 'coordena' -> 'supervisiona'; arquivo e id renomeados; verificado)
+- 2026-10-27 22:03 — vocabulário aplicado: rel:csjt-coordena-justica-do-trabalho -> rel:csjt-supervisiona-justica-do-trabalho (relacao 'coordena' -> 'supervisiona'; arquivo e id renomeados; verificado)
+- 2026-10-27 22:03 — verificado rel:stj-julga-recursos-das-turmas-recursais-estaduais: ponto da coleta ("conferir na revisão") resolvido; a leitura restrita aos juizados da Fazenda Pública segue o âmbito da Lei 12.153/2009 (ementa e art. 1º), e a Lei 9.099/1995 não tem pedido de uniformização; notas reescritas
+- 2026-10-27 22:03 — corrigido rel:stf-julga-conflito-federativo: nome "Conflitos entre a União e os estados" omitia o DF, que a alínea f inclui; ficou "Conflitos entre a União, os estados e o DF"
+- 2026-10-27 22:03 — verificado rel:arquetipo-estadual-defensoria-publica-ajuiza-mandado-de-injuncao
+- 2026-10-27 22:03 — verificado rel:arquetipo-estadual-ministerio-publico-ajuiza-mandado-de-injuncao
+- 2026-10-27 22:03 — verificado rel:dpu-ajuiza-mandado-de-injuncao
+- 2026-10-27 22:03 — verificado rel:mpu-ajuiza-mandado-de-injuncao
+- 2026-10-27 22:03 — verificado rel:partidos-politicos-ajuiza-mandado-de-injuncao
+- 2026-10-27 22:03 — verificado rel:organizacoes-sindicais-e-associacoes-ajuiza-mandado-de-injuncao
+- 2026-10-27 22:03 — verificado rel:organizacoes-sindicais-e-associacoes-ajuiza-mandado-de-seguranca
+- 2026-10-27 22:03 — verificado rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-civil
+- 2026-10-27 22:03 — verificado rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-militar
+- 2026-10-27 22:03 — verificado rel:arquetipo-estadual-ministerio-publico-fiscaliza-policia-penal
+- 2026-10-27 22:03 — verificado rel:mpu-fiscaliza-policia-federal
+- 2026-10-27 22:03 — verificado rel:mpu-fiscaliza-policia-rodoviaria-federal
+- 2026-10-27 22:03 — verificado rel:mpu-fiscaliza-policia-ferroviaria-federal
+- 2026-10-27 22:03 — verificado rel:mpu-fiscaliza-policia-penal-federal
+- 2026-10-27 22:03 — verificado rel:cnj-regulamenta-precatorio
+- 2026-10-27 22:03 — verificado rel:conciliador-auxilia-juiz-de-direito
+- 2026-10-27 22:03 — verificado rel:juiz-leigo-auxilia-juiz-de-direito
+- 2026-10-27 22:03 — verificado rel:conselho-da-justica-federal-corrige-juiz-de-trf
+- 2026-10-27 22:03 — verificado rel:juiz-de-direito-preside-tribunais-do-juri
+- 2026-10-27 22:03 — verificado rel:juiz-federal-preside-tribunais-do-juri-federais
+- 2026-10-27 22:03 — verificado rel:presidente-nomeia-desembargador-do-tjdft
+- 2026-10-27 22:03 — verificado rel:stf-julga-conflito-de-competencia
+- 2026-10-27 22:03 — verificado rel:stf-julga-extradicao
+- 2026-10-27 22:03 — verificado rel:stf-julga-recursos-crime-politico
+- 2026-10-27 22:03 — verificado rel:stj-julga-conflito-de-competencia
+- 2026-10-27 22:03 — verificado rel:stj-julga-conselheiro-do-tce
+- 2026-10-27 22:03 — verificado rel:stj-julga-procurador-regional-eleitoral
+- 2026-10-27 22:03 — verificado rel:stj-julga-recursos-da-tnu
+- 2026-10-27 22:03 — verificado rel:tnu-julga-recursos-das-turmas-recursais-federais
+- 2026-10-27 22:03 — verificado rel:tribunais-do-juri-federais-julga-acao-penal-publica
+- 2026-10-27 22:03 — verificado rel:turmas-recursais-estaduais-julga-recursos-dos-juizados
+- 2026-10-27 22:03 — verificado rel:turmas-recursais-federais-julga-recursos-dos-juizados
+- 2026-10-27 22:03 — corrigido rel:tribunais-do-juri-julga-acao-penal-publica: condição dizia "conexos aos crimes da Lei 15.358/2026"; a lei (art. 2º, § 8º) fala dos crimes do art. 2º
+- 2026-10-27 22:03 — verificadas as 30 relações rel:trf-1 a rel:trf-6 (recursos dos juízes federais, foro dos juízes federais, dos juízes federais da Justiça Militar, dos juízes do trabalho e dos membros do MPU): CF, arts. 105, I, a, 108, I, a, e II, e 109, §§ 3º e 4º, conferidos; o texto é idêntico nas seis regiões, salvo o número da região
+- 2026-10-27 22:04 — fora do escopo, autorizado: cargo:desembargador: provimento_nota e notas diziam que não se conferiu quem nomeia no quinto do TJDFT; passaram a citar o Presidente da República e rel:presidente-nomeia-desembargador-do-tjdft; fonte Lei 11.697/2008, art. 55, acrescentada
+- 2026-10-27 22:04 — fora do escopo, autorizado: var:df-tjdft: notas diziam que quem nomeia no quinto do TJDFT não foi pesquisado; passaram a citar rel:presidente-nomeia-desembargador-do-tjdft
+- 2026-10-27 22:04 — fora do escopo, autorizado: norma:ristj: compilacao_ate 'ER 47/2024' -> 'ER 54/2026', confirmado no bruto ("atualizada até a Emenda Regimental n. 54, de 17 de agosto de 2026"); url e arquivo passaram à edição da BDJur (Wayback 20260821010749, mesmo MD5 do bruto); art. 10, III e VI, sem alteração
+- 2026-10-27 22:04 — ponto Wayback resolvido: Provimento 207 (20261028004808), ADI 7952 (20261028004826) e notícia do TJDFT (20261028005007) arquivados agora; a notícia do CNJ de 11/6/2026 já tinha cópia de 14/7/2026; a página do STF sobre o art. 98 tem cópia de 24/10/2026 com o conteúdo certo
+- 2026-10-27 22:04 — ponto TRFs: conteúdo das 30 relações conferido; nada a mudar na decisão de uma relação por TRF
+- 2026-10-27 22:04 — D40 e D42: sem uso no escopo (não há relação ocupa; os atores do proc:pagamento-de-precatorio são órgãos ou cargos não agregados)
+- 2026-10-27 22:04 — sugestões, sem criar entidade: (1) a ementa da Lei 15.358/2026 e o despacho de 5/8/2026 permitem, quando o STF julgar as ADIs, atualizar org:tribunais-do-juri; (2) obj:conflito-federativo poderia citar a jurisprudência que restringe a alínea f ao pacto federativo, se uma fonte do STF for guardada; (3) os MPs junto aos tribunais de contas dos municípios (art. 130) seguem sem nó
+- 2026-10-27 22:04 — validação sem erro; 113 entidades conferidas, 17 com correção (incluídas as de vocabulário: 2 relações renomeadas, 2 órgãos, 1 cargo, 1 norma), nenhuma pendente; status verificada
+- 2026-10-27 22:05 — correção da contagem da linha anterior: são 18 entidades alteradas por erro ou vocabulário (11 por conteúdo, 7 por vocabulário), mais o conciliador, que ganhou notas mais claras e um requisito

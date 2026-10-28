@@ -15,7 +15,7 @@
         "cargo:juiz-do-trabalho"
       ],
       "acao": "A condenação da Fazenda Pública transita em julgado, e o juízo da execução expede a requisição de pagamento",
-      "detalhes": "O juiz da execução é o magistrado onde tramita o processo com a obrigação de pagar da Fazenda Pública (Resolução CNJ 303/2019, art. 2º, I). Cada precatório é expedido por beneficiário (art. 7º).",
+      "detalhes": "O juiz da execução é o magistrado competente para cumprir a decisão que obriga a Fazenda Pública a pagar quantia certa (Resolução CNJ 303/2019, art. 2º, I, na redação da Resolução 482/2022). Cada precatório é expedido por beneficiário (art. 7º).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -320,7 +320,7 @@
       "id": "regime-especial-adct-101",
       "nome": "Regime especial dos entes em mora (ADCT, art. 101)",
       "resumo": "Estados, DF e municípios em mora em 25/3/2015 depositam todo mês, numa conta do TJ, um percentual da receita, segundo plano anual",
-      "detalhes": "O depósito mensal é 1/12 de um percentual da receita corrente líquida, nunca menor que o praticado na entrada do regime, conforme plano apresentado todo ano ao TJ (ADCT, art. 101). O prazo de quitação até 31/12/2029 deixou de valer com a EC 136/2025 (art. 7º), e aplicam-se ao regime os limites do art. 100, §§ 23 a 30 (ADCT, art. 101, § 6º). Pelo menos metade dos recursos segue a ordem cronológica; o resto pode ir para acordos diretos com desconto de até 40% (art. 102). Se o ente não deposita, o presidente do TJ sequestra as contas e a União retém os repasses do FPE e do FPM (art. 104).",
+      "detalhes": "O depósito mensal é 1/12 de um percentual da receita corrente líquida, nunca menor que o praticado na entrada do regime, conforme plano apresentado todo ano ao TJ (ADCT, art. 101). O prazo de quitação até 31/12/2029 deixou de valer com a EC 136/2025 (art. 7º), e aplicam-se ao regime os limites do art. 100, §§ 23 a 30 (ADCT, art. 101, § 6º). Pelo menos metade dos recursos segue a ordem cronológica; o resto pode ir para acordos diretos com desconto de até 40% (art. 102, § 1º); para o CNJ, esse teto de renúncia deixou de valer com a EC 136/2025 (Provimento CNJ 207/2025, art. 8º, § 2º). Se o ente não deposita, o presidente do TJ sequestra as contas e a União retém os repasses do FPE e do FPM (art. 104).",
       "quem_aciona": [],
       "fontes": [
         {
@@ -330,6 +330,10 @@
         {
           "ref": "norma:ec-136-2025",
           "dispositivo": "art. 2º (ADCT, art. 101, § 6º) e art. 7º"
+        },
+        {
+          "ref": "norma:provimento-cnj-207-2025",
+          "dispositivo": "art. 8º, § 2º"
         }
       ],
       "efeitos": [
@@ -363,7 +367,7 @@
     },
     {
       "ref": "norma:provimento-cnj-207-2025",
-      "dispositivo": "arts. 1º a 3º, 5º e 9º"
+      "dispositivo": "arts. 1º a 3º, 5º, 8º e 9º"
     }
   ],
   "vigencia": {
@@ -372,10 +376,11 @@
     "nota": "As etapas seguem a redação vigente em 2026-10-01; o limite dos estados e municípios vale desde a EC 136/2025 (10/9/2025)."
   },
   "confianca": "oficial",
-  "notas": "O texto compilado da CF no Planalto ainda mostra, no ADCT, art. 101, caput, \"até 31 de dezembro de 2029\", sem marcar que a EC 136/2025, art. 7º, tornou o prazo inaplicável; seguimos a emenda. ADCT, art. 107-A (teto federal até 2026): o STF limitou os efeitos a 2022 (ADI 7064), por isso não virou regime; ver obj:limite-de-pagamento-de-precatorios. O § 9º do art. 100 (compensação com dívida ativa na redação da EC 113/2021) foi declarado inconstitucional na ADI 7064 e não entrou nas etapas. Atores: 'org:justica-federal' e 'org:justica-do-trabalho' representam os TRFs e TRTs, que não têm nó único; os presidentes dos tribunais não têm cargo próprio no mapa.",
+  "notas": "O texto compilado da CF no Planalto ainda mostra, no ADCT, art. 101, caput, \"até 31 de dezembro de 2029\", sem marcar que a EC 136/2025, art. 7º, tornou o prazo inaplicável; seguimos a emenda (conferido na revisão: o compilado do Planalto de 2026-10-16 ainda traz \"até 31 de dezembro de 2029\" sem nota, e a EC 136/2025, art. 7º, diz que o prazo \"não será aplicável a partir da data de promulgação\"). ADCT, art. 107-A (teto federal até 2026): o STF limitou os efeitos a 2022 (ADI 7064), por isso não virou regime; ver obj:limite-de-pagamento-de-precatorios. O § 9º do art. 100 (compensação com dívida ativa na redação da EC 113/2021) foi declarado inconstitucional na ADI 7064 e não entrou nas etapas. Atores: 'org:justica-federal' e 'org:justica-do-trabalho' representam os TRFs e TRTs, que não têm nó único; os presidentes dos tribunais não têm cargo próprio no mapa.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-judiciario-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-judiciario-complementar",
+    "notas": "coletado em f0-judiciario-complementar; etapas e regimes conferidos contra CF, art. 100, §§ 1º a 8º, 20 e 23 a 30; ADCT, arts. 87 e 101 a 105; EC 136/2025, arts. 2º, 7º e 8º; Leis 10.259/2001, art. 17, e 12.153/2009, art. 13; Resolução CNJ 303/2019, arts. 2º, 3º, 7º, 12, 15, 17, 19 e 20; Provimento CNJ 207/2025, arts. 1º a 3º, 5º, 8º e 9º. D42 não se aplica: os atores são órgãos e cargos não agregados"
   }
 }

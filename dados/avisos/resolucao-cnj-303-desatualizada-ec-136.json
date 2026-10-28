@@ -37,13 +37,17 @@
   ],
   "onde_procuramos": [
     "CNJ, Atos: página da Resolução 303/2019 (https://atos.cnj.jus.br/atos/detalhar/3130), acesso em 2026-10-23; última alteração listada: Resolução 613, de 20/1/2025",
-    "Busca web em 2026-10-24 por resolução do CNJ que altere a Resolução 303/2019 depois da EC 136/2025: só achamos o Provimento CNJ 207/2025 e a notícia de 11/6/2026 sobre a revisão em curso"
+    "Busca web em 2026-10-24 por resolução do CNJ que altere a Resolução 303/2019 depois da EC 136/2025: só achamos o Provimento CNJ 207/2025 e a notícia de 11/6/2026 sobre a revisão em curso",
+    "CNJ, Atos: página da Resolução 303/2019, nova consulta em 2026-10-27: a última alteração listada continua a Resolução 613, de 20/1/2025, e os arts. 15, 17 e 21 seguem com 2 de abril e Selic",
+    "CNJ, notícia de 26/2/2026 (https://www.cnj.jus.br/tribunais-vao-enviar-sugestoes-para-atualizacao-de-norma-sobre-precatorios/): os tribunais seriam chamados a contribuir com a revisão da Resolução 303 para adequá-la à EC 136/2025",
+    "Busca web em 2026-10-27, restrita a cnj.jus.br e atos.cnj.jus.br, por resolução de 2026 que altere a Resolução 303/2019: nada achado"
   ],
   "confianca": "oficial",
-  "notas": "Não conferimos se o Plenário do CNJ aprovou a revisão entre 11/6/2026 e 2026-10-01. Os campos ligados a datas e índices em proc:pagamento-de-precatorio seguem a CF e a EC 136/2025, não a Resolução 303.",
+  "notas": "A revisão não foi aprovada até 2026-10-01: em 2026-10-27 a página oficial da Resolução 303 ainda não listava alteração posterior à Resolução 613/2025. Os campos ligados a datas e índices em proc:pagamento-de-precatorio seguem a CF e a EC 136/2025, não a Resolução 303.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-judiciario-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-judiciario-complementar",
+    "notas": "coletado em f0-judiciario-complementar; contradição conferida (Resolução 303, arts. 15, 17 e 21, contra CF, art. 100, § 5º, e EC 136/2025, arts. 2º e 3º); revisão do CNJ não aprovada até 2026-10-27"
   }
 }

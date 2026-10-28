@@ -1,7 +1,7 @@
 {
   "id": "rel:stf-julga-conflito-federativo",
   "tipo": "relacao",
-  "nome": "Conflitos entre a União e os estados",
+  "nome": "Conflitos entre a União, os estados e o DF",
   "relacao": "julga",
   "de": "org:stf",
   "para": "obj:conflito-federativo",
@@ -18,8 +18,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-judiciario-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-judiciario-complementar",
+    "notas": "coletado em f0-judiciario-complementar; CF, art. 102, I, f, conferido; nome passou a citar o DF, como a alínea f"
   }
 }

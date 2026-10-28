@@ -37,8 +37,9 @@
   "confianca": "oficial",
   "notas": "Exigido pela D07. Exemplos no mapa (federais): autarquias INSS, Anvisa, Previc, Banco Central, Sudam, Sudene, Sudeco, Suframa, Incra, Ibama, ICMBio, ANP, ANM, CADE, Colégio Pedro II, FNDE, Inep; fundações Funai, Funpresp-Exe, IBGE e Enap; empresas públicas BNDES, Caixa e Correios; sociedades de economia mista Petrobras e Banco do Brasil. O SIORG não separa subsidiárias; não conferimos se todas as estatais estão nele (fonte provável: Panorama das Estatais, do MGI).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-administracao-indireta"
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; contagens conferidas no extrato do SIORG (129 autarquias, 43 fundações públicas, 33 empresas públicas, 18 sociedades de economia mista) e existência dos exemplos citados nas notas conferida em dados/orgaos"
   }
 }

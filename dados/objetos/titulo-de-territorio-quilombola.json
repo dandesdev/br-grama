@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Título de território quilombola",
   "resumo": "Título de propriedade definitiva que o Estado emite em favor de uma comunidade remanescente de quilombo sobre as terras que ela ocupa.",
-  "detalhes": "O título é coletivo e pró-indiviso, em nome da associação da comunidade, e não pode ser vendido, penhorado nem perdido por prescrição. A comunidade se reconhece por autodefinição.",
+  "detalhes": "O título é coletivo e pró-indiviso, outorgado à comunidade, que é representada por sua associação, e não pode ser vendido, penhorado nem perdido por prescrição. A comunidade se reconhece por autodefinição.",
   "tipo_objeto": "documento",
   "esfera": "nacional",
   "relativo_a": [
@@ -28,8 +28,9 @@
   "confianca": "oficial",
   "notas": "Esfera nacional porque, se as terras forem de estados, do DF ou de municípios, o Incra remete o processo ao ente dono da terra (Decreto 4.887/2003, art. 12) e o art. 3º ressalva a competência concorrente deles.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; ADCT, art. 68, e Decreto 4.887/2003, arts. 2º, 3º, 12 e 17, conferidos; detalhes corrigidos: o título é outorgado às comunidades, representadas por suas associações (art. 17), e não \"em nome da associação\""
   }
 }

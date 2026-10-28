@@ -12,9 +12,9 @@ concluida_em: null
 Cada item é pequeno. Se a fonte oficial não for achada, registre `confianca: "indisponivel"` e abra um `aviso:`; não invente.
 
 Eleições:
-- [ ] Lei 15.230/2025 (idade mínima) e Lei 14.291/2022 (propaganda partidária): confira se existem e o que mudam; crie as normas e ligue às entidades que já tratam do tema (procure em `dados/` antes).
-- [ ] Posse de deputados estaduais e vereadores: etapa `posse` de `proc:eleicao-geral` já cita a Assembleia; confira a regra (CF, art. 27, § 1º; art. 29) e complete a etapa de posse de `proc:eleicao-municipal` se faltar a Câmara Municipal.
-- [ ] ADI 7881 (LC 219/2025; `fonte:stf-adi-7881` já existe): se o STF decidiu até 2026-10-01, registre o efeito; se não, anote no diário.
+- [x] Lei 15.230/2025 (idade mínima) e Lei 14.291/2022 (propaganda partidária): confira se existem e o que mudam; crie as normas e ligue às entidades que já tratam do tema (procure em `dados/` antes).
+- [x] Posse de deputados estaduais e vereadores: etapa `posse` de `proc:eleicao-geral` já cita a Assembleia; confira a regra (CF, art. 27, § 1º; art. 29) e complete a etapa de posse de `proc:eleicao-municipal` se faltar a Câmara Municipal.
+- [x] ADI 7881 (LC 219/2025; `fonte:stf-adi-7881` já existe): se o STF decidiu até 2026-10-01, registre o efeito; se não, anote no diário.
 
 Controle:
 - [ ] `aviso:posse-jhonatan-de-jesus-tcu-data`: tente achar a data da posse no TCU (DOU, portal do TCU). Se achar, corrija a relação `ocupa` e marque o aviso como resolvido pelo campo que o modelo usa (veja `docs/modelo-de-dados.md`).
@@ -41,3 +41,7 @@ Competências originárias e remédios (propostas das revisões e coletas):
 
 ## Diário
 - 2026-10-27 — iniciada; lidos CLAUDE.md, decisoes (D01-D42), modelo-de-dados, protocolo e vocabularios
+- 2026-10-27 22:02 — gravados norma:lei-15230-2025 (cópia local de f0-eleicoes) e norma:lei-14291-2022 (curl ao Planalto deu timeout, também com --http1.1; lida via WebFetch); Wayback com 429, arquivo null
+- 2026-10-27 22:03 — ligadas as normas novas: fonte norma:lei-15230-2025 em obj:registro-de-candidatura; fonte norma:lei-14291-2022 em org:partidos-politicos; nota de norma:lei-13487-2017 aponta a 14.291. Sem mudança de conteúdo: status verificado mantido, acréscimo em verificacao.notas. Entregável 1 coberto
+- 2026-10-27 22:04 — posse: CF, art. 27, § 1º, só remete às regras da CF sobre sistema eleitoral, imunidades etc. e não fixa data; art. 29, III, fixa só a do prefeito e do vice. Atualizada a etapa posse de proc:eleicao-municipal (Câmara Municipal já era ator): vereadores pela lei orgânica, com exemplos LOM-SP arts. 14, IV, 15 e 58 e LOM-Rio arts. 52 e 101 (1º/1, posse perante a Câmara); processo passa a coletado/f0-residuais. proc:eleicao-geral não editado (fora do que me foi pedido): proposta para a revisão acrescentar nos detalhes da posse que os deputados estaduais tomam posse na data da Constituição do estado (ex.: SP, art. 9º, § 2º, EC 47/2019: sessões preparatórias a partir de 1º/2) e que o governador toma posse perante a Assembleia (SP, art. 43)
+- 2026-10-27 22:04 — ADI 7881: sem decisão final nem liminar até 2026-10-01, conforme fonte:stf-adi-7881 (verificada em 2026-10-23: votos em sessões virtuais de maio e setembro/2026, destaque de Flávio Dino leva ao plenário presencial; último andamento em 1º/10/2026). Nenhum efeito a registrar; nada editado

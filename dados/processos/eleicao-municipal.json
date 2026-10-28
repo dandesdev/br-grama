@@ -249,12 +249,22 @@
         "cargo:arquetipo-municipal-prefeito",
         "org:arquetipo-municipal-camara-municipal"
       ],
-      "acao": "Posse do prefeito e do vice em 1º de janeiro do ano seguinte",
-      "detalhes": "A CF fixa a data só para prefeito e vice; a posse dos vereadores segue a lei orgânica de cada município (não pesquisado).",
+      "acao": "Posse do prefeito e do vice em 1º de janeiro do ano seguinte; vereadores conforme a lei orgânica",
+      "detalhes": "A CF fixa a data só para prefeito e vice (art. 29, III); a posse dos vereadores segue a lei orgânica de cada município. Em São Paulo e no Rio de Janeiro os vereadores também tomam posse em 1º de janeiro, na sessão de instalação da Câmara, e o prefeito e o vice tomam posse perante a Câmara Municipal.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 29, III"
+          "dispositivo": "art. 29, caput e III"
+        },
+        {
+          "ref": "norma:sp-sao-paulo-lei-organica-1990",
+          "dispositivo": "art. 14, IV; art. 15; art. 58",
+          "nota": "exemplo de lei orgânica"
+        },
+        {
+          "ref": "norma:rj-rio-de-janeiro-lei-organica-1990",
+          "dispositivo": "art. 52; art. 101",
+          "nota": "exemplo de lei orgânica"
         }
       ],
       "seguintes": []
@@ -280,10 +290,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-eleicoes",
-    "notas": "coletado em f0-eleicoes; CF, arts. 14, §§ 12 e 13, e 29, I a III; Lei 9.504/1997, arts. 1º, 3º, 4º, 8º, 9º, 11, 16, 36 e 47; Código Eleitoral, arts. 35, XII, 40, 84, 89, III, e 215, conferidos; sem datas concretas (calendário de 2028 ainda não existe)"
+    "status": "coletado",
+    "em": "2026-10-27",
+    "tarefa": "f0-residuais",
+    "notas": "etapa posse completada em f0-residuais (vereadores pela lei orgânica, exemplos de SP e do Rio; prefeito empossado perante a Câmara); o resto do processo estava verificado em 2026-10-23 por verificacao-f0-eleicoes: coletado em f0-eleicoes; CF, arts. 14, §§ 12 e 13, e 29, I a III; Lei 9.504/1997, arts. 1º, 3º, 4º, 8º, 9º, 11, 16, 36 e 47; Código Eleitoral, arts. 35, XII, 40, 84, 89, III, e 215, conferidos; sem datas concretas (calendário de 2028 ainda não existe)"
   },
   "notas": "Os prazos são os da lei; o calendário de 2028 ainda não existe. Na data de referência não havia eleição municipal em curso (a última foi em 2024)."
 }

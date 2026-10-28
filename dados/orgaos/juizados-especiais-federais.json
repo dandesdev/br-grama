@@ -2,8 +2,8 @@
   "id": "org:juizados-especiais-federais",
   "tipo": "orgao",
   "nome": "Juizados especiais federais",
-  "resumo": "Juízos da Justiça Federal para causas contra a União, autarquias e empresas públicas federais até 60 salários mínimos e para infrações de menor potencial ofensivo.",
-  "detalhes": "São instalados pelos TRFs, que também prestam o apoio administrativo (Lei 10.259/2001, arts. 18 e 26). Pagam as condenações de pequeno valor em 60 dias, sem precatório (art. 17). Os conciliadores são designados pelo juiz presidente por 2 anos, sem remuneração (art. 18). Os recursos vão às turmas recursais, e as divergências entre turmas de regiões diferentes, à Turma Nacional de Uniformização (arts. 14 e 21).",
+  "resumo": "Juízos da Justiça Federal para causas contra a União, autarquias, fundações e empresas públicas federais até 60 salários mínimos e para infrações de menor potencial ofensivo.",
+  "detalhes": "São instalados pelos TRFs, que também prestam o apoio administrativo (Lei 10.259/2001, arts. 18 e 26). As condenações de pequeno valor são pagas em 60 dias da requisição do juiz, sem precatório (art. 17). Os conciliadores são designados pelo juiz presidente por 2 anos, sem remuneração (art. 18). Os recursos vão às turmas recursais, e as divergências entre turmas de regiões diferentes, à Turma Nacional de Uniformização (arts. 14 e 21).",
   "tipo_orgao": "conjunto",
   "poder": "judiciario",
   "esfera": "federal",
@@ -16,7 +16,7 @@
     },
     {
       "ref": "norma:lei-10259-2001",
-      "dispositivo": "arts. 1º a 3º, 14, 17, 18, 21, 22 e 26"
+      "dispositivo": "arts. 1º a 3º, 6º, 14, 17, 18, 21, 22 e 26"
     }
   ],
   "campos": {
@@ -38,8 +38,9 @@
   "confianca": "oficial",
   "notas": "Conjunto: representa os juizados de todas as seções judiciárias. Cada TRF tem um juiz coordenador dos juizados, eleito pelos pares para 2 anos (Lei 10.259/2001, art. 22). A Lei 9.099/1995 se aplica no que não conflitar (art. 1º).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-judiciario-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-judiciario-complementar",
+    "notas": "coletado em f0-judiciario-complementar; Lei 10.259/2001, arts. 1º a 6º, 14, 17, 18, 21, 22 e 26 conferidos; resumo e detalhes corrigidos"
   }
 }
