@@ -14,11 +14,15 @@
         "org:ministerio-da-justica-e-seguranca-publica"
       ],
       "acao": "O Executivo recebe o pedido do Estado estrangeiro e confere os requisitos formais",
-      "detalhes": "O pedido chega por via diplomática ou pela autoridade central. No Ministério da Justiça, quem exerce a função de autoridade central para a extradição é o Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional, por delegação do Ministro.",
+      "detalhes": "O pedido chega por via diplomática ou pela autoridade central. O regulamento da Lei de Migração diz que o órgão do Executivo que o recebe é o Ministério da Justiça e Segurança Pública, em coordenação com o Ministério das Relações Exteriores. No Ministério da Justiça, quem exerce a função de autoridade central para a extradição é o Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional, por delegação do Ministro.",
       "fontes": [
         {
           "ref": "norma:lei-13445-2017",
           "dispositivo": "art. 81, caput e § 1º; art. 82; art. 83; art. 89, caput"
+        },
+        {
+          "ref": "norma:decreto-9199-2017",
+          "dispositivo": "art. 262, § 2º; art. 269, caput"
         },
         {
           "ref": "norma:decreto-11348-2023",
@@ -51,6 +55,10 @@
         {
           "ref": "norma:lei-13445-2017",
           "dispositivo": "art. 89, parágrafo único"
+        },
+        {
+          "ref": "norma:decreto-9199-2017",
+          "dispositivo": "art. 269, § 2º"
         }
       ],
       "seguintes": []
@@ -61,7 +69,7 @@
         "org:stf"
       ],
       "acao": "O relator no STF interroga o extraditando, nomeia defensor se preciso e abre prazo para a defesa",
-      "detalhes": "A defesa só pode tratar da identidade da pessoa, de defeito de forma dos documentos ou da ilegalidade da extradição. Se o pedido estiver mal instruído, o STF pode converter o julgamento em diligência. Até o julgamento, o STF pode autorizar prisão albergue ou domiciliar ou deixar o extraditando responder em liberdade, com o documento de viagem retido.",
+      "detalhes": "A defesa só pode tratar da identidade da pessoa, de defeito de forma dos documentos ou da ilegalidade da extradição. Se o pedido estiver mal instruído, o STF pode, a pedido do Ministério Público Federal, converter o julgamento em diligência. Até o julgamento ou a entrega, o STF, ouvido o Ministério Público, pode autorizar prisão albergue ou domiciliar ou deixar o extraditando responder em liberdade, com o documento de viagem retido.",
       "prazo": {
         "texto": "Defesa em 10 dias contados do interrogatório.",
         "valor": 10,
@@ -128,11 +136,15 @@
         "org:ministerio-da-justica-e-seguranca-publica"
       ],
       "acao": "O Executivo autoriza a entrega, e a decisão é comunicada ao Estado requerente por via diplomática",
-      "detalhes": "A entrega só ocorre se o Estado requerente se comprometer, entre outros pontos, a descontar o tempo de prisão no Brasil, trocar pena de morte, perpétua ou corporal por prisão de até 30 anos, não entregar a pessoa a outro país sem consentimento do Brasil e não submetê-la a tortura. Se a pessoa responde a processo ou cumpre pena no Brasil por crime punível com prisão, a entrega espera o fim, com exceções.",
+      "detalhes": "Julgada procedente a extradição, o Ministério da Justiça e Segurança Pública avalia se o estrangeiro cumpre os requisitos para ser entregue e comunica o Estado requerente. A entrega só ocorre se o Estado requerente se comprometer, entre outros pontos, a descontar o tempo de prisão no Brasil, trocar pena de morte, perpétua ou corporal por prisão de até 30 anos, não entregar a pessoa a outro país sem consentimento do Brasil e não submetê-la a tortura. Se a pessoa responde a processo ou cumpre pena no Brasil por crime punível com prisão, a entrega espera o fim, com exceções.",
       "fontes": [
         {
           "ref": "norma:lei-13445-2017",
           "dispositivo": "art. 81, § 2º; art. 92; art. 95; art. 96"
+        },
+        {
+          "ref": "norma:decreto-9199-2017",
+          "dispositivo": "art. 271"
         }
       ],
       "seguintes": [
@@ -167,12 +179,16 @@
     {
       "id": "prisao-cautelar",
       "nome": "Prisão cautelar urgente",
-      "resumo": "Em caso de urgência, o Estado estrangeiro pede a prisão antes do pedido formal de extradição, que deve chegar em até 60 dias da ciência da prisão.",
-      "detalhes": "O pedido de prisão vem por via diplomática ou pela autoridade central (também pela Interpol, com a ordem de prisão estrangeira). O Executivo confere os requisitos formais e o leva à autoridade judicial competente, ouvido o Ministério Público Federal. Sem o pedido formal no prazo, a pessoa é solta.",
+      "resumo": "Em caso de urgência, o Estado estrangeiro pede a prisão antes do pedido formal de extradição ou junto com ele, que deve chegar em até 60 dias da ciência da prisão.",
+      "detalhes": "O pedido de prisão vem por via diplomática ou pela autoridade central (também pela Interpol, com a ordem de prisão estrangeira). O Executivo confere os requisitos formais e o leva à autoridade judicial competente, que o regulamento diz ser o STF, ouvido o Ministério Público Federal. A prisão pode ser prorrogada até o julgamento. Sem o pedido formal no prazo, a pessoa é solta.",
       "fontes": [
         {
           "ref": "norma:lei-13445-2017",
-          "dispositivo": "art. 84, caput e §§ 2º, 4º e 5º"
+          "dispositivo": "art. 84, caput e §§ 2º, 4º, 5º e 6º"
+        },
+        {
+          "ref": "norma:decreto-9199-2017",
+          "dispositivo": "art. 275, caput"
         }
       ],
       "efeitos": [
@@ -183,7 +199,7 @@
             "valor": 60,
             "unidade": "dias",
             "conta_de": "ciência da prisão",
-            "efeito": "o preso é solto e não pode ser preso de novo pelo mesmo fato sem o pedido de extradição"
+            "efeito": "o preso é solto, e não se admite novo pedido de prisão cautelar pelo mesmo fato sem o pedido de extradição"
           }
         }
       ]
@@ -202,19 +218,23 @@
     {
       "ref": "norma:lei-13445-2017",
       "dispositivo": "arts. 81 a 96"
+    },
+    {
+      "ref": "norma:decreto-9199-2017",
+      "dispositivo": "arts. 262 a 277"
     }
   ],
   "confianca": "oficial",
   "campos": {
     "etapas": {
-      "confianca": "inferido",
-      "nota": "A Lei 13.445/2017 fala só em 'órgão competente do Poder Executivo' (arts. 81, § 2º, 89 e 92). Pusemos o Ministério da Justiça e Segurança Pública porque a estrutura dele dá ao seu Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional a função de autoridade central em extradição (Decreto 11.348/2023, Anexo I, art. 15, III, b, 1, e IV); o regulamento da lei (Decreto 9.199/2017) não foi lido. A lei não diz que a entrega é decidida pelo Presidente da República."
+      "nota": "A Lei 13.445/2017 fala só em 'órgão competente do Poder Executivo' (arts. 81, § 2º, 89 e 92). O regulamento nomeia o Ministério da Justiça e Segurança Pública (Decreto 9.199/2017, arts. 262, § 2º, 269 e 271), e a estrutura do ministério dá ao Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional a função de autoridade central em extradição, por delegação do Ministro (Decreto 11.348/2023, Anexo I, art. 15, III, b, 1, e IV). A lei e o regulamento não dizem que a entrega é decidida pelo Presidente da República."
     }
   },
-  "notas": "Só a extradição passiva (pedida ao Brasil); a ativa (art. 88) não foi modelada. Rito lido via WebFetch em 2026-10-27. Criado em f0-residuais.",
+  "notas": "Só a extradição passiva (pedida ao Brasil); a ativa (Lei 13.445/2017, art. 88; Decreto 9.199/2017, arts. 278 a 280) não foi modelada. Rito lido via WebFetch em 2026-10-27 e relido na revisão na cópia do Wayback. Criado em f0-residuais.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-residuais"
+    "tarefa": "verificacao-f0-residuais",
+    "notas": "coletado em f0-residuais; etapas e regime conferidos na Lei 13.445/2017, arts. 81 a 96 (cópia do Wayback), CF, arts. 5º, LI e LII, e 102, I, g (cf.htm local), Decreto 11.348/2023, Anexo I, art. 15 (cópia local) e Decreto 9.199/2017, arts. 262 a 277; MJSP confirmado como ator pelo regulamento (confiança das etapas passou de inferido a oficial); detalhes de defesa, entrega e prisão cautelar afinados"
   }
 }

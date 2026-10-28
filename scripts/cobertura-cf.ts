@@ -47,8 +47,12 @@ function chavesDe(dispositivo: string): string[] {
     for (const m of segmento.matchAll(new RegExp(String.raw`\barts?\.\s*(${NUM}(?:\s*(?:,|e|a)\s*${NUM}(?![º°]?\s*[,;]?\s*[IVXLC]+\b))*)`, "gi"))) {
       const nums = m[1].split(/\s*(?:,|\be\b)\s*/);
       for (const parte of nums) {
+        // Faixa de artigos com letra do mesmo número (ex.: "167-B a 167-G").
+        const letras = parte.match(/^(\d+)-([A-Z])\s+a\s+\1-([A-Z])/);
         const faixa = parte.match(new RegExp(String.raw`^(\d+)(?:º|°)?\s+a\s+(\d+)`));
-        if (faixa) {
+        if (letras) {
+          for (let c = letras[2].charCodeAt(0); c <= letras[3].charCodeAt(0); c++) chaves.push(`${prefixo}${letras[1]}-${String.fromCharCode(c)}`);
+        } else if (faixa) {
           for (let n = Number(faixa[1]); n <= Number(faixa[2]); n++) chaves.push(`${prefixo}${n}`);
         } else {
           const um = parte.match(/^(\d+)(?:º|°)?(-[A-Z])?/);
