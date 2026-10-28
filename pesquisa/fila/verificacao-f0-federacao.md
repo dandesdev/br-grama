@@ -1,7 +1,7 @@
 ---
 id: verificacao-f0-federacao
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-federacao\""
-status: coletada
+status: verificada
 depende_de: [f0-federacao]
 iniciada_em: 2026-10-27
 concluida_em: 2026-10-27
@@ -38,3 +38,4 @@ concluida_em: 2026-10-27
 - 2026-10-27 21:36 — pendentes (2): rel:uniao-repassa-royalties-do-petroleo-estados e rel:uniao-repassa-royalties-do-petroleo-municipios ficam com f0-administracao-indireta, por instrução do coordenador (a origem já foi trocada para org:anp por ela em 2026-10-24); não foram editadas e seguem 'coletado'. Para a revisão delas: as fontes que citam (Lei 9.478/1997, arts. 47 a 50; Decreto 2.705/1998, art. 35; ADI 4.917) foram conferidas aqui e estão certas
 - 2026-10-27 21:36 — sugestões (sem entidade nova): (1) regime de urgência do prefeito no proc:lei-municipal (SP, art. 38: 30 dias; Rio, art. 73, § 1º: 45 dias, redação da Emenda 43/2025); (2) a Constituição da BA ainda dá ao TCM a representação nos incisos I a III do art. 35 (art. 65, § 1º, I) e cita só o ensino no inciso III; o STF derrubou a regra igual do PA (ADI 2.631), mas não achamos decisão sobre a BA: candidata a aviso de contradição se o coordenador quiser; (3) o texto da liminar da ADI 4.917 atribui os arts. 42-B e 42-C à Lei 9.478, que são da Lei 12.351/2010 (anotado em fonte:stf-adi-4917)
 - 2026-10-27 21:36 — coletada (não 'verificada'): 50 de 52 entidades verificadas, 2 relações de royalties pendentes com f0-administracao-indireta. validar sem erros
+- 2026-10-28 — coordenador: as duas relações de royalties (origem em org:anp) foram verificadas em verificacao-f0-administracao-indireta (Decreto 2.705/1998, art. 35); tarefa fechada como verificada.

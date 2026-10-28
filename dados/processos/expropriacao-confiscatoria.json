@@ -134,13 +134,14 @@
   "campos": {
     "etapas": {
       "confianca": "inferido",
-      "nota": "A Lei 8.257/1991 não diz quem propõe a ação nem qual é o juízo; inferimos a AGU porque a União é imitida na posse (art. 10) e a AGU a representa em juízo (CF, art. 131), e o juiz federal porque a União é autora (CF, art. 109, I)."
+      "nota": "A Lei 8.257/1991 não diz quem propõe a ação nem qual é o juízo; inferimos a AGU porque a União é imitida na posse (art. 10) e a AGU a representa em juízo (CF, art. 131), e o juiz federal porque a União é autora (CF, art. 109, I). O regulamento, Decreto 577/1992 (lido na revisão; cópia em pesquisa/brutos/planalto-leis/2026-10-27-verificacao-administracao-indireta/d0577.htm), reforça a leitura: a Polícia Federal localiza a cultura (art. 1º) e envia o processo, com relatório técnico feito em 8 dias, ao \"responsável pela representação judicial da União\" para ajuizar a ação (arts. 3º a 5º); o Incra se imite na posse em nome da União e cuida da incorporação ao patrimônio (arts. 6º e 7º). O decreto não tem norma no repositório e essas etapas não foram modeladas (proposta)."
     }
   },
-  "notas": "Só o caso das plantas psicotrópicas; o do trabalho escravo não tem rito próprio localizado (ver obj:expropriacao-confiscatoria). O regulamento da lei (decreto) não foi lido.",
+  "notas": "Só o caso das plantas psicotrópicas; o do trabalho escravo não tem rito próprio localizado (ver obj:expropriacao-confiscatoria). O regulamento da lei é o Decreto 577/1992 (ver campos.etapas).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; etapa por etapa contra a Lei 8.257/1991, arts. 1º, 6º a 15 e 17 (prazos de 5, 8, 10, 15 e 5 dias conferidos); atores AGU e juiz federal seguem inferidos, agora com apoio do Decreto 577/1992, arts. 3º a 7º, anotado em campos.etapas"
   }
 }

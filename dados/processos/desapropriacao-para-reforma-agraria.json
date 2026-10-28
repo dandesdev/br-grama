@@ -57,7 +57,7 @@
         "org:incra"
       ],
       "acao": "O Incra propõe a ação de desapropriação na Justiça Federal, com oferta de preço",
-      "detalhes": "A petição traz o decreto, o laudo de vistoria e avaliação, o lançamento dos títulos da dívida agrária para a terra nua e o depósito em dinheiro para as benfeitorias.",
+      "detalhes": "A petição traz o decreto, o laudo de vistoria e avaliação, o lançamento dos títulos da dívida agrária para a terra nua e o depósito em dinheiro para as benfeitorias úteis e necessárias.",
       "prazo": {
         "texto": "Até dois anos da publicação do decreto",
         "valor": 2,
@@ -186,8 +186,9 @@
   "confianca": "oficial",
   "notas": "O MPF (org:mpf) intervém em todas as fases (LC 76/1993, art. 18, § 2º), mas não foi posto como ator para não parecer parte. Recursos (art. 13) e levantamento da indenização (art. 16) ficaram fora das etapas. O que a lei chama de 'órgão federal executor da reforma agrária' é o Incra (ver notas de org:incra).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; etapa por etapa contra a CF, art. 184, § 2º, a Lei 8.629, art. 2º, §§ 2º, 3º e 6º, e a LC 76/1993, arts. 2º, 3º, 5º, 6º, 9º, 10, 12, 17 e 18, § 2º; corrigido o detalhe da etapa acao: o depósito em dinheiro é só das benfeitorias úteis e necessárias (art. 5º, VI)"
   }
 }

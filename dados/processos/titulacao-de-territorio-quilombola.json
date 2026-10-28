@@ -125,7 +125,7 @@
       "atores": [
         "org:incra"
       ],
-      "acao": "O Incra emite o título coletivo e pró-indiviso em nome da associação da comunidade",
+      "acao": "O Incra emite o título coletivo e pró-indiviso para a comunidade, representada por sua associação",
       "detalhes": "Terras de estados, DF ou municípios: o Incra remete o processo ao ente dono da terra, que titula.",
       "fontes": [
         {
@@ -161,8 +161,9 @@
   "confianca": "oficial",
   "notas": "A Fundação Cultural Palmares (Ministério da Cultura) e o Iphan não têm nó no mapa; aparecem só no texto. O procedimento detalhado está em instrução normativa do Incra (Decreto 4.887/2003, art. 3º, § 1º), não lida. Lei 14.600/2023, art. 25, IV: a titulação de terras quilombolas é área do Ministério do Desenvolvimento Agrário e Agricultura Familiar, observadas as competências do Ministério da Igualdade Racial.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; etapa por etapa contra o Decreto 4.887/2003, arts. 2º, 3º, 6º a 9º, 12, 13 e 17 (prazos de 30 e 90 dias e concordância tácita conferidos); corrigida a ação da etapa titulacao: o título é outorgado às comunidades, representadas pelas associações (art. 17), não \"em nome da associação\""
   }
 }
