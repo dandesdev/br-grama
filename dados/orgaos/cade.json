@@ -42,7 +42,7 @@
     "nota": "Data em que a Lei 12.529/2011 entrou em vigor e deu ao Cade a estrutura atual. O Cade é anterior a essa lei; o histórico não foi pesquisado."
   },
   "confianca": "oficial",
-  "notas": "O Sistema Brasileiro de Defesa da Concorrência (Lei 12.529/2011, art. 3º) é formado pelo Cade e pela Secretaria de Acompanhamento Econômico do Ministério da Fazenda; não conferimos se essa secretaria existe hoje com esse nome nem qual unidade a sucedeu, por isso o SBDC não ganhou nó. Cargos do Tribunal sem nó próprio.",
+  "notas": "O Sistema Brasileiro de Defesa da Concorrência (Lei 12.529/2011, art. 3º) é formado pelo Cade e pela Secretaria de Acompanhamento Econômico do Ministério da Fazenda. Na estrutura vigente do Ministério da Fazenda (Decreto 11.907/2024, Anexo I, arts. 52, VIII, e 54, I), as competências do art. 19 da Lei 12.529 cabem à Secretaria de Reformas Econômicas e à sua Subsecretaria de Acompanhamento Econômico e Regulação; o SBDC e essas unidades não ganharam nó. Cargos do Tribunal sem nó próprio.",
   "mais_informacoes": [
     {
       "titulo": "Cade (gov.br)",
@@ -50,8 +50,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; Lei 12.529, arts. 3º a 6º, DL 200, art. 4º, II, a, e SIORG (unidade 322, Autarquia) conferidos; nota sobre o SBDC atualizada com a unidade que hoje exerce o art. 19 (Decreto 11.907/2024)"
   }
 }

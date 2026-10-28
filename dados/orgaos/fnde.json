@@ -45,7 +45,7 @@
     "nota": "Autarquia criada pela Lei 5.537/1968 com o nome INDEP; o nome FNDE vem do Decreto-Lei 872/1969 (data não conferida)."
   },
   "confianca": "oficial",
-  "notas": "Estrutura regimental (decreto) não lida. Programas (PNAE, PNLD etc.) não modelados. As relações rel:uniao-repassa-cotas-salario-educacao-estados e -municipios (de outra tarefa) partem de ente:uniao; pela Lei 9.424, art. 15, § 1º, quem distribui é o FNDE: ver diário.",
+  "notas": "Estrutura regimental (Decreto 12.458/2025, pela lista de decretos da API do Senado) não lida. Programas (PNAE, PNLD etc.) não modelados. As cotas estaduais e municipais do salário-educação estão em rel:fnde-repassa-cotas-salario-educacao-estados e -municipios (Lei 9.424, art. 15, § 1º).",
   "mais_informacoes": [
     {
       "titulo": "FNDE",
@@ -53,8 +53,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-administracao-indireta"
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; Lei 5.537/1968, art. 1º (redação do DL 872/1969), Lei 9.424/1996, art. 15, § 1º, DL 200, art. 4º, II, a, e SIORG (unidade 253) conferidos; nota atualizada com as relações das cotas, agora com origem no FNDE"
   }
 }

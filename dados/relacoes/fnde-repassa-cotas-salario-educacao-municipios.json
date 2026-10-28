@@ -1,0 +1,32 @@
+{
+  "id": "rel:fnde-repassa-cotas-salario-educacao-municipios",
+  "tipo": "relacao",
+  "nome": "O FNDE entrega aos municípios as cotas municipais do salário-educação",
+  "relacao": "repassa-recursos",
+  "de": "org:fnde",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Cotas municipais da arrecadação do salário-educação (obj:tributo-salario-educacao), divididas conforme o número de alunos matriculados na educação básica da rede municipal.",
+  "vigencia": {
+    "de": "2006-12-20",
+    "ate": null,
+    "nota": "Critério das matrículas incluído no art. 212, § 6º, pela EC 53/2006 (DOU de 20/12/2006, segundo o quadro de emendas do Planalto). O FNDE distribui as quotas pela redação da Lei 10.832/2003 (29/12/2003), anterior a essa data."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212, §§ 5º e 6º"
+    },
+    {
+      "ref": "norma:lei-9424-1996",
+      "dispositivo": "art. 15, § 1º, caput e II (redação da Lei 10.832/2003)"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "As cotas estaduais e municipais do salário-educação entram no cálculo do VAAT do Fundeb (CF, art. 212-A, § 1º, II). Revisão de f0-administracao-indireta (2026-10-27): origem trocada de ente:uniao para org:fnde e id renomeado (era rel:uniao-repassa-cotas-salario-educacao-municipios), porque a Lei 9.424/1996, art. 15, § 1º, diz que a arrecadação \"será distribuída pelo Fundo Nacional de Desenvolvimento da Educação - FNDE\" e que a quota estadual e municipal é \"creditada mensal e automaticamente\" às secretarias de educação; o campos.de inferido foi retirado.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-educacao e verificado em verificacao-f0-educacao (CF, art. 212, §§ 5º e 6º); origem e id alterados nesta revisão, com a Lei 9.424/1996, art. 15, § 1º, conferida na cópia bruta de 2026-10-27"
+  }
+}

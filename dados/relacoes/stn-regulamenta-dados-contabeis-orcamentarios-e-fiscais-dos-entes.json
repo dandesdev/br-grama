@@ -9,8 +9,7 @@
   "vigencia": {
     "de": "2020-08-27",
     "ate": null,
-    "incerta": true,
-    "nota": "Mesma data do objeto."
+    "nota": "Vigência do art. 163-A (EC 108/2020, art. 4º)."
   },
   "fontes": [
     {
@@ -24,8 +23,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; CF, art. 163-A, e Lei 10.180/2001, art. 17, I, conferidos; incerta tirado da vigência (EC 108/2020, art. 4º)"
   }
 }

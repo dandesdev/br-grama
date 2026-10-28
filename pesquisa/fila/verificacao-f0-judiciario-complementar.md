@@ -30,3 +30,9 @@ concluida_em: null
 
 ## Diário
 - 2026-10-27 — iniciada; lidos CLAUDE.md, instruções, modelo, protocolo, decisões e o diário da coleta; 113 entidades no escopo
+- 2026-10-27 22:00 — verificado fonte:stf-adi-7952: Wayback obtido (20261028004826); notícia do STF de 24/8/2026 põe a competência do júri entre os temas da audiência pública
+- 2026-10-27 22:00 — corrigido fonte:stf-adi-7064: resumo dizia "Ação da AMB"; ficou "Ação do Conselho Federal da OAB e da AMB" (aba Partes do STF; despacho de 8/11/2023 no bruto chama o CFOAB de autor)
+- 2026-10-27 22:00 — verificado fonte:stf-ado-40
+- 2026-10-27 22:00 — verificado fonte:stf-constituicao-e-o-supremo-art-98: arquivo preenchido com a cópia do Wayback de 20261024022540, que tem o conteúdo do art. 98
+- 2026-10-27 22:00 — verificado fonte:tjdft-noticia-posse-desembargadora-2026-08-05: Wayback obtido (20261028005007)
+- 2026-10-27 22:00 — verificado fonte:cnj-noticia-revisao-resolucao-303-2026-06-11: Wayback achado (20260714152816)

@@ -14,8 +14,7 @@
   "vigencia": {
     "de": "2020-08-27",
     "ate": null,
-    "incerta": true,
-    "nota": "Art. 163-A incluído pela EC 108/2020, publicada no DOU de 27/8/2020 (quadro de emendas do Planalto, cópia em pesquisa/brutos/planalto-cf/2026-10-23/quadro_emc.htm); a cláusula de vigência da emenda não foi lida."
+    "nota": "Art. 163-A incluído pelo art. 1º da EC 108/2020, que entra em vigor na publicação (art. 4º; DOU de 27/8/2020), com efeitos financeiros desde 1º/1/2021 (lido em https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc108.htm em 2026-10-27)."
   },
   "fontes": [
     {
@@ -30,8 +29,9 @@
   "confianca": "oficial",
   "notas": "tipo_objeto 'documento' por ser um conjunto de informações a publicar. O sistema usado hoje (Siconfi) e as portarias da STN não foram pesquisados.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-24",
-    "tarefa": "f0-dinheiro-complementar"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "coletado em f0-dinheiro-complementar; CF, art. 163-A, e Lei 10.180/2001, art. 17, I, conferidos; cláusula de vigência da EC 108/2020 lida (art. 4º, vigência na publicação): tirado o incerta"
   }
 }

@@ -1,9 +1,9 @@
 ---
 id: f0-residuais
 escopo: "Fatia 0, fechamento: pendências pequenas que sobraram das tarefas e das revisões (eleições, controle, defesa, competências originárias dos tribunais, remédios constitucionais nos demais ramos)"
-status: pendente
+status: em-andamento
 depende_de: [f0-fechamento]
-iniciada_em: null
+iniciada_em: 2026-10-27
 concluida_em: null
 ---
 
@@ -40,3 +40,4 @@ Competências originárias e remédios (propostas das revisões e coletas):
 - D40 (relação `ocupa` com `interino: true`) e D42 (ator de etapa `{ ator, orgao_exercicio }`) já valem.
 
 ## Diário
+- 2026-10-27 — iniciada; lidos CLAUDE.md, decisoes (D01-D42), modelo-de-dados, protocolo e vocabularios

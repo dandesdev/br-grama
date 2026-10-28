@@ -1,20 +1,20 @@
 ---
 id: verificacao-f0-dinheiro-complementar
 escopo: "Revisão: entidades com verificacao.tarefa = \"f0-dinheiro-complementar\""
-status: em-andamento
+status: verificada
 depende_de: [f0-dinheiro-complementar]
 iniciada_em: 2026-10-27
-concluida_em: null
+concluida_em: 2026-10-28
 ---
 
 ## Entregáveis
 
-- [ ] Todas as entidades com `"tarefa": "f0-dinheiro-complementar"` conferidas contra a fonte: 2 processos (`proc:calamidade-publica-nacional` e `proc:ciclo-orcamentario`, etapa por etapa, com o `remete_a` novo da etapa `decretacao`), 6 órgãos (bancadas estaduais, BNDES, Codefat, Comitê Gestor do Simples Nacional, Sistema S, Suframa), 16 objetos, 18 relações, 17 normas, 2 fontes, 1 cargo (`cargo:presidente-do-cgibs`), 1 pessoa e 1 aviso. Inclui as entidades de f0-dinheiro que a coleta reabriu (`obj:tributo-ibs`, `obj:regime-fiscal-sustentavel`, `obj:emenda-de-bancada-ao-orcamento`).
-- [ ] Termos criados depois da coleta (aplique). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-dinheiro-complementar"`:
+- [x] Todas as entidades com `"tarefa": "f0-dinheiro-complementar"` conferidas contra a fonte: 2 processos (`proc:calamidade-publica-nacional` e `proc:ciclo-orcamentario`, etapa por etapa, com o `remete_a` novo da etapa `decretacao`), 6 órgãos (bancadas estaduais, BNDES, Codefat, Comitê Gestor do Simples Nacional, Sistema S, Suframa), 16 objetos, 18 relações, 17 normas, 2 fontes, 1 cargo (`cargo:presidente-do-cgibs`), 1 pessoa e 1 aviso. Inclui as entidades de f0-dinheiro que a coleta reabriu (`obj:tributo-ibs`, `obj:regime-fiscal-sustentavel`, `obj:emenda-de-bancada-ao-orcamento`).
+- [x] Termos criados depois da coleta (aplique). As entidades que você criar recebem `verificacao.status: "coletado"`, com `tarefa: "verificacao-f0-dinheiro-complementar"`:
   - relação `gere` (administra um fundo): troque `rel:codefat-delibera-fat` por `gere` se a Lei 7.998/1990 disser "gerir" (renomeie o arquivo e o id). Veja se cabe `gere` para o fundo de combate à pobreza, hoje só com `relativo_a`.
   - relação `propoe-exoneracao`: aplique em `rel:cmn-propoe-exoneracao-presidente-do-banco-central` (hoje `propoe`; é de verificacao-f0-dinheiro, mas pode editar só o campo `relacao`).
   - `tipo_objeto: "regime-tributario"`: aplique em `obj:simples-nacional` e `obj:zona-franca-de-manaus`, se o texto da norma sustentar.
-- [ ] Pontos do coletor a conferir:
+- [x] Pontos do coletor a conferir:
   - `aviso:contribuicao-adicional-por-rotatividade-sem-lei`: nenhuma lei criou a contribuição do art. 239, § 4º (a única pista foi o PLS 173/2015, arquivado em 21/12/2018). Confirme.
   - `rel:uniao-competencia-tributo-contribuicoes-ao-sistema-s` está `inferido`: procure base que a sustente.
   - ADI 8010 (regime fiscal sustentável): sem decisão até 2026-10-01; uma notícia não oficial fala de liminar em 5/10/2026, depois da data de referência. O portal do STF não abriu: confirme.
@@ -23,7 +23,7 @@ concluida_em: null
   - `org:sistema-s` como `paraestatal`, `nao-estatal`: confira contra o vocabulário (o precedente para grupos é `conjunto`, usado nos cartórios).
   - Não pesquisados: estatuto atual do BNDES (o decreto antigo foi revogado), Sest/Senat/Sescoop (Lei 8.706/1993), o conselho consultivo do fundo de combate à pobreza e o fundo de sustentabilidade do Amazonas (ADCT, art. 92-B, § 2º). Pesquise o que couber.
   - Art. 167: só os incisos III e V estão cobertos; as demais vedações ficam como detalhe.
-- [ ] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
+- [x] Os resumos dizem o que a norma diz, em palavras simples, sem ampliar nem restringir
 
 ## Diário
 - 2026-10-27 21:38 — iniciada; lidos instruções, docs, diário da coleta; 64 arquivos no escopo (tarefa f0-dinheiro-complementar)
@@ -39,3 +39,9 @@ concluida_em: null
 - 2026-10-27 23:58 — verificados obj:zona-franca-de-manaus (tipo_objeto 'regime-tributario'; Fundo de Sustentabilidade do Amazonas, ADCT, art. 92-B, § 2º: sem lei complementar até 2026-10-01, só o PLP 47/2024, anotado), org:suframa, rel:suframa-vincula-se-mdic (vigência 2023-03-02 para 2023-03-09), obj:simples-nacional (tipo_objeto 'regime-tributario'), org:comite-gestor-do-simples-nacional, rel:cgsn-regulamenta-simples-nacional
 - 2026-10-28 00:10 — verificados obj:credito-adicional (corrigido: a abertura do extraordinário por MP não 'decorre da EC 32/2001'; o art. 167, § 3º, já remetia ao art. 62 no texto original; a EC 32 só fez a ressalva expressa no art. 62, § 1º, I, d), rel:cmo-delibera-credito-adicional (Res. 1/2006-CN, arts. 106 a 111, cópia local), rel:congresso-delibera-credito-adicional, rel:presidente-edita-credito-adicional (nota da vigência ajustada)
 - 2026-10-28 00:25 — verificados obj:estado-de-calamidade-publica-nacional, rel:presidente-propoe-estado-de-calamidade-publica-nacional, rel:congresso-delibera-estado-de-calamidade-publica-nacional e proc:calamidade-publica-nacional (etapa por etapa; remete_a para proc:decreto-legislativo conferido; corrigido: detalhes do processo e da etapa regime-extraordinario diziam que as vedações do art. 167-A não valem nas medidas temporárias, mas o art. 167-G, § 1º, só afasta as dos incisos II, IV, VII, IX e X; a proibição de reajustes continua; nota antiga sobre ligar o remete_a atualizada)
+- 2026-10-28 00:40 — verificados obj:mecanismo-de-ajuste-fiscal, rel:arquetipo-estadual-tce-fiscaliza-mecanismo-de-ajuste-fiscal, obj:desvinculacao-de-receitas, obj:dados-contabeis-orcamentarios-e-fiscais-dos-entes e rel:stn-regulamenta-dados-contabeis-orcamentarios-e-fiscais-dos-entes (a cláusula de vigência da EC 108/2020, art. 4º, foi lida no Planalto: vigência na publicação, 27/8/2020; tirado o 'incerta')
+- 2026-10-28 00:50 — verificados org:bancadas-estaduais-no-congresso-nacional, rel:bancadas-estaduais-propoem-emenda-de-bancada-ao-orcamento e obj:emenda-de-bancada-ao-orcamento (reaberto só pela nota; conferida)
+- 2026-10-28 01:05 — obj:regime-fiscal-sustentavel verificado com correção: o portal do STF abriu (incidente 7678980; cópias em pesquisa/brutos/stf/2026-10-27-dinheiro-complementar/); a cautelar da ADI 8010 é datada de 1º/10/2026 (não 5/10), lançada e divulgada no DJE em 5/10/2026 e publicada em 6/10; como só foi publicada depois da data de referência, o retrato mantém o texto da LC 200/2023, e a nota explica isso (ponto em aberto resolvido). Requerente: Associação Nacional dos Defensores Públicos Federais; autuada em 26/8/2026. obj:tributo-ibs verificado (nota do ADCT, art. 132, completada). rel:cmn-propoe-exoneracao-presidente-do-banco-central: só o campo relacao trocado de 'propoe' para 'propoe-exoneracao' (fora do escopo; a nota dele ainda diz 'propoe por falta de termo' e a verificação continua a de verificacao-f0-dinheiro; fica para o dono atualizar)
+- 2026-10-28 01:15 — proc:ciclo-orcamentario verificado (etapa creditos-adicionais e seguintes de execucao conferidos); acrescentado org:bancadas-estaduais-no-congresso-nacional como ator da etapa loa-emendas, com a Res. 1/2006-CN, arts. 46 e 47, e nota (4) atualizada (dizia que as bancadas não tinham entidade)
+- 2026-10-28 01:25 — sugestões, sem entidade criada: (a) aviso de lacuna para o Conselho Consultivo e de Acompanhamento do Fundo de Combate à Pobreza (ADCT, art. 79, parágrafo único; regulamento revogado pelo Decreto 10.223/2020); (b) relação 'nomeia' do Ministro do Trabalho e Emprego para os membros do Codefat (Lei 7.998/1990, art. 18, § 4º); (c) normas próprias para a Lei 8.706/1993 (Sest/Senat; Planalto em leis/1989_1994/L8706.htm) e a MP 2.168-40/2001 (Sescoop; cópia local), hoje só nas notas de org:sistema-s; (d) o coordenador decide se a cautelar da ADI 8010, datada de 1º/10/2026 e publicada depois, deve aparecer no retrato; (e) atualizar a nota e a verificação de rel:cmn-propoe-exoneracao-presidente-do-banco-central (verificacao-f0-dinheiro), que ainda dizem 'propoe por falta de termo'
+- 2026-10-28 01:26 — concluída: 64 entidades do escopo verificadas (o arquivo da relação do Codefat foi renomeado), 26 com correção; 1 relação nova (rel:mds-gere-fundo-de-combate-e-erradicacao-da-pobreza, coletado); validação sem erros

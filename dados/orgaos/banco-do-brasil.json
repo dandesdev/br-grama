@@ -45,7 +45,7 @@
     "nota": "Origem anterior à Lei 4.595/1964; data de criação e lei autorizadora não pesquisadas."
   },
   "confianca": "oficial",
-  "notas": "A Lei 4.595/1964, art. 21, § 1º, prevê nomeação do Presidente do BB pelo Presidente da República após aprovação do Senado; não conferimos se a regra é aplicada hoje nem modelamos o cargo. Participação da União não levantada.",
+  "notas": "A Lei 4.595/1964, art. 21, § 1º, prevê nomeação do Presidente do BB pelo Presidente da República após aprovação do Senado; o texto compilado do Planalto (cópia de 2026-10-23) não marca revogação nem alteração. Não achamos fonte oficial que diga se a regra é aplicada hoje; por isso o cargo e a relação aprova do Senado não foram modelados. Participação da União não levantada.",
   "mais_informacoes": [
     {
       "titulo": "Banco do Brasil S.A.",
@@ -53,8 +53,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-10-27",
-    "tarefa": "f0-administracao-indireta"
+    "tarefa": "verificacao-f0-administracao-indireta",
+    "notas": "coletado em f0-administracao-indireta; Lei 4.595, arts. 19 e 21, Lei 13.303, art. 4º, Decreto 11.907/2024, Anexo I, art. 2º, IV, c, 1, DL 200, art. 4º, II, c, e SIORG (unidade 93) conferidos"
   }
 }

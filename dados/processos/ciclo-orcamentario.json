@@ -179,7 +179,8 @@
         "cargo:deputado-federal",
         "cargo:senador",
         "org:comissoes-da-camara-dos-deputados",
-        "org:comissoes-do-senado-federal"
+        "org:comissoes-do-senado-federal",
+        "org:bancadas-estaduais-no-congresso-nacional"
       ],
       "acao": "Parlamentares, comissões e bancadas estaduais apresentam emendas na CMO",
       "detalhes": "A emenda precisa ser compatível com o PPA e a LDO e indicar de onde sai o dinheiro, sem cortar pessoal, dívida ou transferências constitucionais (CF, art. 166, § 3º). As emendas individuais e as de bancada estadual têm execução obrigatória até os limites do art. 166, §§ 9º a 12.",
@@ -198,6 +199,10 @@
         {
           "ref": "fonte:camara-legin-resolucao-cn-1-2006-atualizada",
           "dispositivo": "art. 82, III"
+        },
+        {
+          "ref": "norma:resolucao-cn-1-2006",
+          "dispositivo": "arts. 46 e 47"
         }
       ],
       "seguintes": [
@@ -496,12 +501,12 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais: etapa creditos-adicionais, acrescentada em f0-dinheiro-complementar, que volta à execução (ver obj:credito-adicional). (4) As bancadas estaduais não têm entidade própria e aparecem só no texto da etapa 'loa-emendas'. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas.",
+  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais: etapa creditos-adicionais, acrescentada em f0-dinheiro-complementar, que volta à execução (ver obj:credito-adicional). (4) As bancadas estaduais entram como ator da etapa 'loa-emendas' pelo conjunto org:bancadas-estaduais-no-congresso-nacional (acrescentado na revisão de f0-dinheiro-complementar); as comissões, pelos conjuntos de comissões das Casas. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-23",
-    "tarefa": "f0-dinheiro-complementar",
-    "notas": "verificado antes em verificacao-f0-dinheiro; f0-dinheiro-complementar acrescentou a etapa creditos-adicionais, mudou os seguintes da etapa execucao e a nota (3); o resto não mudou"
+    "status": "verificado",
+    "em": "2026-10-27",
+    "tarefa": "verificacao-f0-dinheiro-complementar",
+    "notas": "verificado antes em verificacao-f0-dinheiro; reaberto por f0-dinheiro-complementar pela etapa creditos-adicionais. Conferidos a etapa nova (CF, arts. 62, § 1º, I, d, 166 e 167, V e § 3º; Lei 4.320/1964, arts. 40 a 44; Res. 1/2006-CN, arts. 106 e 107) e os seguintes da etapa execucao. Acrescentado org:bancadas-estaduais-no-congresso-nacional como ator da etapa loa-emendas (Res. 1/2006-CN, arts. 46 e 47), porque a ação já citava as bancadas e a entidade passou a existir; nota (4) atualizada"
   },
   "campos": {
     "etapas": {
