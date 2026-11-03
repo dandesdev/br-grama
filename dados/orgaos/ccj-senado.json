@@ -4,7 +4,7 @@
   "nome": "Comissão de Constituição, Justiça e Cidadania do Senado Federal",
   "sigla": "CCJ",
   "resumo": "Comissão do Senado que opina sobre a constitucionalidade e a juridicidade dos projetos e sobre o mérito de vários temas jurídicos.",
-  "detalhes": "Examina os projetos que lhe são enviados por despacho do Presidente do Senado, por decisão do Plenário ou por consulta de outra comissão. Também opina sobre o mérito de matérias como direito civil, penal e processual. Tem 27 membros titulares, número fixado no próprio Regimento.",
+  "detalhes": "Examina os projetos que lhe são enviados por despacho do Presidente do Senado, por decisão do Plenário ou por consulta de outra comissão. Também opina sobre o mérito de matérias como direito civil, penal e processual. Tem 27 membros titulares, número fixado no próprio Regimento. O Ministro da Justiça comparece a ela uma vez por ano para prestar contas da atuação da pasta.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -22,6 +22,10 @@
     {
       "ref": "norma:risf",
       "dispositivo": "art. 77, III"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 101-A"
     }
   ],
   "confianca": "oficial",
@@ -30,6 +34,6 @@
     "status": "coletado",
     "em": "2026-10-28",
     "tarefa": "f2-legislativo-tcu",
-    "notas": "acrescentado o número de membros (27) do RISF, art. 77, III"
+    "notas": "acrescentado o número de membros (27) do RISF, art. 77, III; acrescentado o comparecimento anual do Ministro da Justiça (RISF, art. 101-A)"
   }
 }
