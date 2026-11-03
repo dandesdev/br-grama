@@ -28,7 +28,7 @@ interface Quadro { lei: string; tarefa: string; contagem: Record<Classe, number>
 
 const quadros: Quadro[] = [];
 for (const nome of readdirSync(join(RAIZ, "pesquisa", "fila")).filter((n) => /^f2-.*\.md$/.test(n)).sort()) {
-  const texto = readFileSync(join(RAIZ, "pesquisa", "fila", nome), "utf8");
+  const texto = readFileSync(join(RAIZ, "pesquisa", "fila", nome), "utf8").replace(/\r\n/g, "\n");
   const inicio = texto.search(/^## Cobertura\s*$/m);
   if (inicio < 0) continue;
   const fim = texto.slice(inicio + 1).search(/^## /m);
