@@ -62,16 +62,16 @@
       ]
     }
   },
-  "notas": "Cargo agregado: cada Ministro de Estado está num órgão diferente (ministério ou órgão da Presidência), que ainda não foram modelados. Por isso 'orgao' aponta para o Poder Executivo federal.",
+  "notas": "Cargo agregado: cada Ministro de Estado está num órgão diferente (um dos ministérios do art. 17 da Lei 14.600/2023 ou um órgão da Presidência do art. 18). Por isso 'orgao' aponta para o Poder Executivo federal; a pasta de cada titular vai em orgao_exercicio nas relações.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-executivo",
-    "notas": "detalhes com a supervisão ministerial (DL 200/1967, arts. 19, 20 e 25 a 28) e a estrutura mínima dos ministérios (Lei 14.600/2023, art. 50); art. 54, II, nas fontes; antes verificado em verificacao-piloto-estrutura"
+    "status": "verificado",
+    "em": "2026-11-03",
+    "tarefa": "verificacao-f2-executivo",
+    "notas": "coletado em f2-executivo (detalhes com a supervisão ministerial (DL 200/1967, arts. 19, 20 e 25 a 28) e a estrutura mínima dos ministérios (Lei 14.600/2023, art. 50); art. 54, II, nas fontes; antes verificado em verificacao-piloto-estrutura); DL 200, arts. 19, 20 e 25 a 28, e Lei 14.600, arts. 17, 18, 50 e 54, II, conferidos; corrigida a nota que dizia que os ministérios ainda não foram modelados"
   }
 }

@@ -18,6 +18,14 @@
           "dispositivo": "art. 2º, § 1º, V"
         }
       ]
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11346-2006",
+          "dispositivo": "art. 11, II"
+        }
+      ]
     }
   },
   "fontes": [
@@ -32,10 +40,11 @@
     "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
   },
   "confianca": "oficial",
-  "notas": "Sigla Consea: não aparece na Lei 14.600/2023; uso corrente, não conferido em fonte oficial nesta tarefa. A lei própria do conselho (Lei 11.346/2006, Losan) não foi consultada.",
+  "notas": "Sigla Consea: a Lei 11.346/2006 (Losan), art. 11, II, usa \"CONSEA\" e define o conselho como órgão de assessoramento imediato ao Presidente da República; a Lei 14.600/2023 não traz a sigla.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-executivo"
+    "status": "verificado",
+    "em": "2026-11-03",
+    "tarefa": "verificacao-f2-executivo",
+    "notas": "coletado em f2-executivo; Lei 14.600, arts. 2º, § 1º, e 13, conferidos; a sigla não tinha fonte oficial e ganhou campos.sigla (lei-11346-2006, art. 11, II), conferida no Planalto em 2026-11-03"
   }
 }

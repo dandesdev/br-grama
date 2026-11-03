@@ -18,6 +18,14 @@
           "dispositivo": "art. 2º, § 1º, II"
         }
       ]
+    },
+    "sigla": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11454-2023",
+          "dispositivo": "art. 1º"
+        }
+      ]
     }
   },
   "fontes": [
@@ -32,10 +40,11 @@
     "nota": "Órgão previsto na Lei 14.600/2023, vigente em 2026-10-01. A data de criação original não foi pesquisada."
   },
   "confianca": "oficial",
-  "notas": "Sigla CDESS: não conferida em fonte oficial nesta tarefa; conhecido também como \"Conselhão\" (uso corrente, não oficial).",
+  "notas": "Sigla CDESS: Decreto 11.454/2023, art. 1º, que regula o conselho (composição e funcionamento, conforme o art. 10, parágrafo único, da Lei 14.600/2023). Conhecido também como \"Conselhão\" (uso corrente, não oficial).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-executivo"
+    "status": "verificado",
+    "em": "2026-11-03",
+    "tarefa": "verificacao-f2-executivo",
+    "notas": "coletado em f2-executivo; Lei 14.600, arts. 2º, § 1º, e 5º, V, e 10, conferidos; a sigla não tinha fonte oficial e ganhou campos.sigla (decreto-11454-2023, art. 1º), conferida no Planalto em 2026-11-03"
   }
 }

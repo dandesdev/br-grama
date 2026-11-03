@@ -42,7 +42,7 @@
     "nota": "Data de publicação da Lei 9.782/1999. A agência foi criada antes, pela MP 1.791/1998 (data não conferida), e só passou a exercer as atribuições após publicar o regimento interno (art. 30)."
   },
   "confianca": "oficial",
-  "notas": "Exemplo de agência reguladora da saúde (D07). A Agência Nacional de Saúde Suplementar (ANS), também vinculada ao Ministério da Saúde, não foi modelada. Cargos da Diretoria Colegiada sem nó próprio. f0-administracao-indireta (2026-10-23): contido_em trocado de org:ministerio-da-saude para org:poder-executivo-federal pela D39; a fonte da vinculação (norma:lei-9782-1999, norma:decreto-11798-2023) foi para rel:anvisa-vincula-se-ministerio-da-saude.",
+  "notas": "Exemplo de agência reguladora da saúde (D07). A Agência Nacional de Saúde Suplementar, também vinculada ao Ministério da Saúde, é org:ans. Cargos da Diretoria Colegiada sem nó próprio. f0-administracao-indireta (2026-10-23): contido_em trocado de org:ministerio-da-saude para org:poder-executivo-federal pela D39; a fonte da vinculação (norma:lei-9782-1999, norma:decreto-11798-2023) foi para rel:anvisa-vincula-se-ministerio-da-saude.",
   "mais_informacoes": [
     {
       "titulo": "Anvisa (gov.br)",
@@ -50,9 +50,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-executivo",
-    "notas": "acrescentada a Lei 13.848/2019 (art. 2º, IV: lista a Anvisa entre as agências reguladoras; art. 3º, natureza especial; art. 39, nova redação das regras da diretoria na Lei 9.782/1999); antes verificado em verificacao-f0-administracao-indireta"
+    "status": "verificado",
+    "em": "2026-11-03",
+    "tarefa": "verificacao-f2-executivo",
+    "notas": "coletado em f2-executivo (acrescentada a Lei 13.848/2019 (art. 2º, IV: lista a Anvisa entre as agências reguladoras; art. 3º, natureza especial; art. 39, nova redação das regras da diretoria na Lei 9.782/1999); antes verificado em verificacao-f0-administracao-indireta); Lei 13.848, arts. 2º, IV, 3º e 39, conferidos; corrigida a nota que dizia que a ANS não foi modelada (org:ans foi criada em f2-executivo)"
   }
 }
