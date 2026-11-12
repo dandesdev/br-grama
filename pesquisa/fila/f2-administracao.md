@@ -1,8 +1,10 @@
 ---
 id: f2-administracao
 escopo: "Fase 2 (D49): regime dos servidores, processo administrativo, acesso à informação, estatais e conflito de interesses"
-status: pendente
+status: em-andamento
 depende_de: [f0-executivo, f0-administracao-indireta]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -34,3 +36,22 @@ Direitos, deveres e penalidades dos servidores são `fora`; interessam formas de
 ## Cobertura
 
 ## Diário
+
+- 2026-11-11 — iniciada; lidas as instruções, D08, D11, D14, D36, D37, D49 a D51, modelo de dados e protocolo
+- 2026-11-11 23:22 — gravado norma:lei-8112-1990
+- 2026-11-11 23:22 — gravado norma:lei-9784-1999
+- 2026-11-11 23:22 — gravado norma:lei-12527-2011
+- 2026-11-11 23:22 — gravado norma:lei-12813-2013
+- 2026-11-11 23:22 — gravado norma:decreto-26-05-1999-comissao-de-etica-publica
+- 2026-11-11 23:22 — gravado norma:decreto-6029-2007
+- 2026-11-11 23:22 — gravado norma:decreto-7724-2012
+- 2026-11-11 23:23 — gravado org:comissao-de-etica-publica
+- 2026-11-11 23:23 — gravado cargo:membro-da-comissao-de-etica-publica
+- 2026-11-11 23:23 — gravado rel:presidente-nomeia-membro-da-comissao-de-etica-publica
+- 2026-11-11 23:23 — gravado rel:comissao-de-etica-publica-assessora-presidente
+- 2026-11-11 23:23 — gravado rel:comissao-de-etica-publica-assessora-ministro-de-estado
+- 2026-11-11 23:23 — gravado rel:comissao-de-etica-publica-fiscaliza-ministro-de-estado
+- 2026-11-11 23:23 — gravado org:sistema-de-gestao-da-etica-do-poder-executivo-federal
+- 2026-11-11 23:23 — gravado rel:comissao-de-etica-publica-coordena-sistema-de-gestao-da-etica
+- 2026-11-11 23:23 — gravado rel:comissao-de-etica-publica-integra-sistema-de-gestao-da-etica
+- 2026-11-11 23:23 — gravado rel:cgu-fiscaliza-conflito-de-interesses-agentes-do-executivo

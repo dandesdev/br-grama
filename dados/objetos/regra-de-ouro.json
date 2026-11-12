@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Regra de ouro",
   "resumo": "Proibição de tomar empréstimos acima do valor das despesas de capital, para não financiar gasto corrente com dívida.",
-  "detalhes": "A exceção são operações autorizadas por créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta (CF, art. 167, III).",
+  "detalhes": "A exceção são operações autorizadas por créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta (CF, art. 167, III). A LRF a aplica à previsão de receitas de operações de crédito no projeto de orçamento e à verificação de cada operação, contando o ano inteiro (arts. 12, § 2º, e 32, § 3º); as antecipações de receita pagas até 10 de dezembro não entram na conta (art. 38, § 1º), e o RREO do último bimestre mostra o cumprimento (art. 53, § 1º, I).",
   "tipo_objeto": "regra-fiscal",
   "vigencia": {
     "de": "1988-10-05",
@@ -13,6 +13,15 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 167, III"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 12, § 2º; art. 32, § 1º, V, e § 3º; art. 33, § 4º; art. 38, § 1º; art. 53, § 1º, I"
+    },
+    {
+      "ref": "fonte:senado-legislacao-adi-2238-decisao",
+      "dispositivo": null,
+      "nota": "interpretação conforme do art. 12, § 2º, da LRF"
     }
   ],
   "campos": {
@@ -23,9 +32,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, art. 167, III, conferido"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "detalhes e fontes com a LRF (arts. 12, § 2º, 32, 33, § 4º, 38, § 1º, e 53, § 1º, I) e a ADI 2.238 (antes verificado em verificacao-f0-dinheiro)"
   }
 }

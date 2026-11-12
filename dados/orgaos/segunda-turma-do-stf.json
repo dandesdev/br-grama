@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Segunda Turma do STF",
   "resumo": "Uma das duas Turmas do STF, de cinco ministros cada. Julga, entre outros, habeas corpus, reclamações e recursos extraordinários que não vão ao Plenário.",
-  "detalhes": "É presidida pelo ministro mais antigo entre os seus membros, por um ano, sem recondução até que todos tenham presidido (RISTF, art. 4º, § 1º). Remete ao Plenário as arguições de inconstitucionalidade relevantes e as propostas de revisão de súmula (art. 11). O Presidente do STF não integra Turma.",
+  "detalhes": "É presidida pelo ministro mais antigo entre os seus membros, por um ano, sem recondução até que todos tenham presidido (RISTF, art. 4º, § 1º). Remete ao Plenário as arguições de inconstitucionalidade relevantes e as propostas de revisão de súmula (art. 11). O Presidente do STF não integra Turma. Desde a ER 59/2023, as Turmas julgam nos crimes comuns os deputados e senadores (salvo os Presidentes das Casas, que ficam com o Plenário) e, nos crimes comuns e de responsabilidade, os ministros de Estado, os comandantes militares, os membros dos tribunais superiores e do TCU e os chefes de missão diplomática permanente (RISTF, art. 9º, I, l e m); a regra não vale para as ações penais instauradas até 8/1/2024 (ER 59/2023, art. 3º).",
   "tipo_orgao": "judiciario-orgao-interno",
   "poder": "judiciario",
   "esfera": "federal",
@@ -22,7 +22,7 @@
   "fontes": [
     {
       "ref": "norma:ristf",
-      "dispositivo": "arts. 3º, 4º, 8º a 11 e 147 a 150"
+      "dispositivo": "arts. 3º, 4º, 8º a 11 (art. 9º, I, l e m, na redação da ER 59/2023) e 147 a 150"
     }
   ],
   "vigencia": {
@@ -30,11 +30,12 @@
     "ate": null,
     "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
   },
-  "notas": "Texto conferido na edição do RISTF \"atualizado até a Emenda Regimental n. 58/2022\"; a ER 59/2023 não foi lida (ver diário de f2-judiciario).",
+  "notas": "Texto conferido na edição do RISTF atualizada até a ER 58/2022 e na ER 59/2023 (PDF oficial do STF, DJE de 8/1/2024, cópia em pesquisa/brutos/stf/2026-11-11-verificacao-f2-judiciario/), que só alterou os arts. 5º, I, e 9º, I, e revogou o art. 23, III. A base oficial de atos normativos do STF não lista emenda regimental posterior à 59 (consulta de 2026-10-17, ver norma:ristf).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Acrescentada ao detalhes a competência penal das Turmas dada pela ER 59/2023 (RISTF, art. 9º, I, l e m), lida no PDF oficial do STF."
   }
 }

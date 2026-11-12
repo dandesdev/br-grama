@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Plenário do STF",
   "resumo": "Reunião dos 11 ministros do STF, presidida pelo Presidente do Tribunal. Julga as causas mais importantes, como as ações de controle de constitucionalidade.",
-  "detalhes": "Elege o Presidente e o Vice-Presidente do Tribunal e os ministros que vão ao TSE, organiza as listas de advogados para o TSE, vota o regimento e decide sobre as súmulas (RISTF, art. 7º). Julga, entre outros, os crimes comuns do Presidente e do Vice-Presidente da República, dos ministros do STF e do Procurador-Geral da República (art. 5º, I) e as questões de inconstitucionalidade que as Turmas lhe remetem (art. 11). A divisão das ações penais entre Plenário e Turmas mudou várias vezes por emenda regimental.",
+  "detalhes": "Elege o Presidente e o Vice-Presidente do Tribunal e os ministros que vão ao TSE, organiza as listas de advogados para o TSE, vota o regimento e decide sobre as súmulas (RISTF, art. 7º). Julga, entre outros, os crimes comuns do Presidente e do Vice-Presidente da República, dos Presidentes do Senado e da Câmara, dos ministros do STF e do Procurador-Geral da República (art. 5º, I, redação da ER 59/2023) e as questões de inconstitucionalidade que as Turmas lhe remetem (art. 11). Os demais deputados e senadores, os ministros de Estado e os membros dos tribunais superiores são julgados pelas Turmas desde a ER 59/2023 (art. 9º, I, l e m).",
   "tipo_orgao": "judiciario-orgao-interno",
   "poder": "judiciario",
   "esfera": "federal",
@@ -22,7 +22,7 @@
   "fontes": [
     {
       "ref": "norma:ristf",
-      "dispositivo": "arts. 3º, 5º a 8º, 11 e 143 a 146"
+      "dispositivo": "arts. 3º, 5º a 8º, 9º, I, l e m, 11 e 143 a 146"
     }
   ],
   "vigencia": {
@@ -30,11 +30,12 @@
     "ate": null,
     "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
   },
-  "notas": "Texto conferido na edição do RISTF \"atualizado até a Emenda Regimental n. 58/2022\"; a ER 59/2023 não foi lida (ver diário de f2-judiciario).",
+  "notas": "Texto conferido na edição do RISTF atualizada até a ER 58/2022 e na ER 59/2023 (PDF oficial do STF, DJE de 8/1/2024, cópia em pesquisa/brutos/stf/2026-11-11-verificacao-f2-judiciario/), que só alterou os arts. 5º, I, e 9º, I, e revogou o art. 23, III. A base oficial de atos normativos do STF não lista emenda regimental posterior à 59 (consulta de 2026-10-17, ver norma:ristf).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Detalhes atualizados com a ER 59/2023 (lida no PDF oficial do STF): o Plenário julga nos crimes comuns o Presidente e o Vice-Presidente da República, os Presidentes do Senado e da Câmara, os ministros do STF e o PGR (art. 5º, I); o resto das ações penais originárias voltou às Turmas (art. 9º, I, l e m)."
   }
 }

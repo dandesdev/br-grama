@@ -1,0 +1,316 @@
+{
+  "id": "proc:mandado-de-seguranca",
+  "tipo": "processo",
+  "nome": "Mandado de segurança",
+  "resumo": "Como alguém protege na Justiça um direito líquido e certo contra ato ilegal de autoridade: pedido em até 120 dias, liminar, informações, parecer do Ministério Público e sentença em 30 dias.",
+  "detalhes": "O juiz pode suspender o ato logo no início (liminar), pede informações à autoridade coatora em 10 dias, ouve o Ministério Público e decide. Se concede a segurança, a sentença passa obrigatoriamente pelo tribunal. O presidente do tribunal pode suspender a liminar ou a sentença para evitar grave lesão à ordem, à saúde, à segurança ou à economia públicas.",
+  "forma": "linha",
+  "produz": "obj:mandado-de-seguranca",
+  "etapas": [
+    {
+      "id": "impetracao",
+      "atores": [
+        "cargo:juiz-federal",
+        "cargo:juiz-de-direito"
+      ],
+      "acao": "O interessado apresenta a petição ao juiz competente, indicando a autoridade coatora",
+      "detalhes": "Qualquer pessoa física ou jurídica pode impetrar contra ato de autoridade, inclusive de quem exerce atribuição do Poder Público. É federal a autoridade cujo ato tem consequências patrimoniais suportadas pela União ou entidade controlada por ela. Não cabe contra ato com recurso administrativo de efeito suspensivo, decisão judicial com recurso de efeito suspensivo ou decisão transitada em julgado. Em urgência, a petição pode ser enviada por meio eletrônico.",
+      "prazo": {
+        "texto": "120 dias, contados da ciência do ato pelo interessado",
+        "valor": 120,
+        "unidade": "dias",
+        "conta_de": "ciência do ato impugnado",
+        "efeito": "o direito de pedir o mandado de segurança se extingue"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "arts. 1º a 6º e 23"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, LXIX; art. 109, VIII"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "despacho-inicial",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "despacho-inicial",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-federal",
+        "cargo:juiz-de-direito"
+      ],
+      "acao": "O juiz indefere a petição ou notifica a autoridade, avisa o órgão de defesa do ente e decide a liminar",
+      "detalhes": "A liminar suspende o ato quando há fundamento relevante e risco de a decisão final ficar ineficaz; pode-se exigir caução. Ela vale até a sentença e dá prioridade ao processo, e contra ela cabe agravo de instrumento. Notificada da liminar, a autoridade avisa em 48 horas o órgão a que está subordinada e a advocacia pública do ente. A petição é indeferida quando não for caso de mandado de segurança, faltar requisito ou tiver passado o prazo; cabe apelação.",
+      "prazo": {
+        "texto": "10 dias para a autoridade coatora prestar informações",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "notificação da autoridade coatora"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 7º, I a III e §§ 1º, 3º e 4º; arts. 8º a 11"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ministerio-publico",
+          "quando": "Petição admitida"
+        },
+        {
+          "para": "suspensao-de-seguranca",
+          "quando": "Liminar concedida e pedido de suspensão pelo ente público ou pelo Ministério Público"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Petição indeferida"
+        }
+      ]
+    },
+    {
+      "id": "ministerio-publico",
+      "atores": [
+        "cargo:procurador-da-republica",
+        "cargo:arquetipo-estadual-membro-do-ministerio-publico"
+      ],
+      "acao": "Terminado o prazo das informações, o Ministério Público dá parecer",
+      "prazo": {
+        "texto": "10 dias, improrrogáveis",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "fim do prazo das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 12, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sentenca",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "sentenca",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-federal",
+        "cargo:juiz-de-direito"
+      ],
+      "acao": "Com ou sem o parecer, o juiz concede ou nega a segurança",
+      "detalhes": "Concedida a segurança, o juiz envia o teor da sentença à autoridade coatora e à pessoa jurídica interessada; a sentença pode ser executada provisoriamente, salvo nos casos em que a liminar é vedada. Mandado de segurança e seus recursos têm prioridade sobre os demais processos, exceto habeas corpus.",
+      "prazo": {
+        "texto": "30 dias",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "conclusão dos autos ao juiz"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 12, parágrafo único; arts. 13, 14, § 3º, e 20"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso",
+          "quando": "Segurança concedida (reexame obrigatório) ou apelação de qualquer das partes"
+        },
+        {
+          "para": "suspensao-de-seguranca",
+          "quando": "Segurança concedida e pedido de suspensão pelo ente público ou pelo Ministério Público"
+        },
+        {
+          "para": "decisao-final",
+          "quando": "Segurança negada sem apelação"
+        }
+      ]
+    },
+    {
+      "id": "suspensao-de-seguranca",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica",
+        "cargo:presidente-do-stj",
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "O presidente do tribunal pode suspender a liminar ou a sentença para evitar grave lesão ao interesse público",
+      "detalhes": "A pedido da pessoa jurídica de direito público ou do Ministério Público, quando houver risco de grave lesão à ordem, à saúde, à segurança e à economia públicas. Decide o presidente do tribunal que julgaria o recurso; negado o pedido, pode-se renová-lo ao presidente do STJ ou do STF. Contra a suspensão cabe agravo em 5 dias. Liminares iguais podem ser suspensas numa só decisão.",
+      "prazo": {
+        "texto": "Agravo contra a suspensão em 5 dias, julgado na sessão seguinte",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "decisão de suspensão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 15"
+        },
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 25"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ministerio-publico",
+          "quando": "Pedido contra a liminar, com o processo em curso"
+        },
+        {
+          "para": "recurso",
+          "quando": "Pedido contra a sentença"
+        }
+      ]
+    },
+    {
+      "id": "recurso",
+      "atores": [
+        "cargo:desembargador",
+        "cargo:juiz-de-trf"
+      ],
+      "acao": "O tribunal reexamina a sentença por apelação ou, se concedida a segurança, obrigatoriamente",
+      "detalhes": "A autoridade coatora também pode recorrer. Não cabem embargos infringentes nem honorários de advogado. Contra decisão de tribunal em mandado de segurança de sua competência originária cabem recurso especial e extraordinário e, se a ordem for negada, recurso ordinário.",
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 14, caput e §§ 1º e 2º; arts. 18 e 25"
+        },
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "arts. 33 a 35"
+        }
+      ],
+      "remete_a": "proc:caminho-de-um-processo",
+      "seguintes": [
+        {
+          "para": "decisao-final",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decisao-final",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A decisão se torna definitiva; se nega a segurança sem julgar o mérito, o interessado pode ir à Justiça por outra ação",
+      "detalhes": "Descumprir decisão em mandado de segurança é crime de desobediência, sem prejuízo de sanções administrativas e da Lei 1.079/1950. O pedido pode ser renovado no prazo de 120 dias se a negativa não examinou o mérito.",
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "arts. 6º, § 6º, 19 e 26"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A petição é indeferida e o processo se encerra, salvo apelação ou agravo",
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 10"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "competencia-originaria",
+      "nome": "Mandado de segurança direto no tribunal",
+      "resumo": "Quando a autoridade coatora tem foro em tribunal (como o Presidente da República no STF ou um ministro de Estado no STJ), o relator conduz o processo e o colegiado julga",
+      "detalhes": "A CF define o tribunal conforme a autoridade (arts. 102, I, d; 105, I, b; 108, I, c). O relator instrui o processo e decide a liminar, com agravo ao colegiado; há sustentação oral no julgamento do mérito ou da liminar. Na instância superior, o processo vai a julgamento na primeira sessão depois de concluso ao relator.",
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "art. 10, § 1º; art. 16; art. 20, §§ 1º e 2º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, d; art. 105, I, b; art. 108, I, c"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "despacho-inicial",
+          "nota": "Quem decide é o relator, com agravo ao órgão competente do tribunal (art. 16, parágrafo único)."
+        },
+        {
+          "etapa": "sentenca",
+          "nota": "Quem julga é o órgão colegiado do tribunal; o acórdão não publicado em 30 dias é substituído pelas notas taquigráficas (art. 17)."
+        },
+        {
+          "etapa": "recurso",
+          "nota": "Cabem recurso especial e extraordinário e, se a ordem for negada, recurso ordinário (art. 18); o recurso ordinário ao STJ contra TRF ou TJ é interposto em 15 dias (Lei 8.038, art. 33)."
+        }
+      ]
+    },
+    {
+      "id": "coletivo",
+      "nome": "Mandado de segurança coletivo",
+      "resumo": "Partido com representação no Congresso ou sindicato, entidade de classe ou associação com pelo menos um ano pede em defesa dos seus membros",
+      "detalhes": "A sentença faz coisa julgada só para os membros do grupo substituído. O mandado coletivo não impede as ações individuais, mas quem quiser aproveitar a decisão coletiva precisa desistir da sua em 30 dias.",
+      "quem_aciona": [
+        "org:partidos-politicos",
+        "org:organizacoes-sindicais-entidades-de-classe-e-associacoes"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-12016-2009",
+          "dispositivo": "arts. 21 e 22, caput e § 1º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, LXX"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "impetracao",
+          "nota": "Quem impetra é o partido ou a entidade, sem precisar de autorização especial dos membros."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2009-08-10",
+    "ate": null,
+    "nota": "Lei 12.016/2009 em vigor na publicação (art. 28), no DOU de 10/8/2009; revogou a Lei 1.533/1951 (art. 29)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12016-2009",
+      "dispositivo": "arts. 1º a 26"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXIX e LXX"
+    },
+    {
+      "ref": "fonte:stf-adi-4296",
+      "dispositivo": null,
+      "nota": "art. 7º, § 2º, e art. 22, § 2º, declarados inconstitucionais em 9/6/2021"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) Atores de primeira instância: juiz federal e juiz de direito (Justiça comum); a Justiça do Trabalho e a Eleitoral também julgam mandados de segurança, não modelados. (2) Não usamos o art. 7º, § 2º (vedações de liminar), nem o art. 22, § 2º (audiência prévia no coletivo), declarados inconstitucionais na ADI 4296 (fonte:stf-adi-4296); o § 5º do art. 7º estende essas vedações à tutela antecipada e ficou sem objeto na parte declarada inconstitucional, conclusão nossa. (3) O MP de primeira instância aparece como procurador da República (Justiça Federal) e membro do MP estadual. (4) Os presidentes dos TRFs não têm cargo próprio no mapa; na etapa 'suspensao-de-seguranca' aparecem só o do TJ, do STJ e do STF. (5) Os arts. 6º, § 5º, 7º, § 5º, e 24 remetem ao CPC de 1973, revogado; não os usamos. (6) A etapa 'recurso' remete a proc:caminho-de-um-processo, que modela apelação, recurso especial e extraordinário.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

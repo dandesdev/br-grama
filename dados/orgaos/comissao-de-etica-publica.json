@@ -1,0 +1,56 @@
+{
+  "id": "org:comissao-de-etica-publica",
+  "tipo": "orgao",
+  "nome": "Comissão de Ética Pública",
+  "sigla": "CEP",
+  "resumo": "Colegiado de sete membros, vinculado ao Presidente da República, que orienta e apura a conduta ética da alta administração federal e fiscaliza conflitos de interesses de ministros e dirigentes.",
+  "detalhes": "Aconselha o Presidente e os Ministros em ética pública, aplica o Código de Conduta da Alta Administração Federal e coordena o Sistema de Gestão da Ética do Executivo federal; escolhe o próprio presidente, que tem voto de qualidade (Decreto 6.029/2007, arts. 3º e 4º). Pela Lei 12.813/2013, avalia e fiscaliza conflitos de interesses de ministros, cargos de natureza especial, dirigentes de autarquias, fundações e estatais e cargos DAS 5 e 6, recebe deles declaração anual de bens e atividades e pode autorizar atividade privada ou dispensar a quarentena de seis meses (arts. 6º, 8º e 9º). Tem uma Secretaria-Executiva vinculada à Casa Civil (Decreto 6.029/2007, art. 4º, parágrafo único).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-26-05-1999-comissao-de-etica-publica",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "nota": "O decreto de criação a vincula ao Presidente da República. A Lei 14.600/2023 não a lista entre os órgãos da Presidência."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-26-05-1999-comissao-de-etica-publica",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-6029-2007",
+      "dispositivo": "arts. 2º, I, 3º, 4º e 9º, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-12813-2013",
+      "dispositivo": "arts. 4º, § 1º, 6º, II, 8º, 9º e 11"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-05-27",
+    "ate": null,
+    "nota": "Criada pelo Decreto de 26/5/1999, em vigor na publicação (DOU de 27/5/1999). A composição atual, de sete membros, é do Decreto 6.029/2007."
+  },
+  "confianca": "oficial",
+  "notas": "Membros em 2026-10-01 não levantados: não são cúpula (D11). Regimento interno da CEP não consultado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  },
+  "mais_informacoes": [
+    {
+      "titulo": "Comissão de Ética Pública (gov.br)",
+      "url": "https://www.gov.br/planalto/pt-br/acesso-a-informacao/acoes-e-programas/governanca/etica-publica"
+    }
+  ]
+}

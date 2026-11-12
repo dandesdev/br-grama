@@ -1,0 +1,230 @@
+{
+  "id": "proc:reclamacao",
+  "tipo": "processo",
+  "nome": "Reclamação ao STF ou ao STJ",
+  "resumo": "Como uma parte ou o Ministério Público leva ao tribunal o desrespeito à sua competência, às suas decisões ou a uma súmula vinculante, e como o tribunal cassa o ato.",
+  "detalhes": "A reclamação vai ao presidente do tribunal e é distribuída, se possível, ao relator do processo principal. O relator pede informações a quem praticou o ato, pode suspendê-lo e cita o beneficiário. Ouvido o Ministério Público, o tribunal julga; se procedente, cassa a decisão ou anula o ato, e o presidente manda cumprir de imediato.",
+  "forma": "linha",
+  "produz": "obj:reclamacao",
+  "etapas": [
+    {
+      "id": "proposta",
+      "atores": [
+        "org:stf",
+        "org:stj"
+      ],
+      "acao": "A parte interessada ou o Ministério Público apresenta a reclamação, que é distribuída a um relator",
+      "detalhes": "Cabe para preservar a competência do tribunal, garantir a autoridade das suas decisões, a observância de súmula vinculante e de decisão do STF em controle concentrado (como a ADPF), entre outros casos. Contra ato ou omissão da administração que contrarie súmula vinculante, só depois de esgotadas as vias administrativas; nelas, quem decidiu precisa explicar por que aplica ou não a súmula. Não cabe depois do trânsito em julgado da decisão reclamada.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 988, caput, I a V, e §§ 1º a 3º e 5º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, l; art. 103-A, § 3º; art. 105, I, f"
+        },
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 7º, caput e § 1º; arts. 8º e 9º (Lei 9.784, arts. 56, § 3º, e 64-A)"
+        },
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 13"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "exame-inicial",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "exame-inicial",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:ministro-do-stj"
+      ],
+      "acao": "O relator indefere a reclamação de saída nos casos da lei ou a admite",
+      "detalhes": "É indeferida liminarmente a reclamação proposta depois do trânsito em julgado e a que busca aplicar precedente de recurso repetitivo, de repercussão geral ou de relevância sem esgotar as instâncias ordinárias, salvo desacordo manifesto com o precedente.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 988, § 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "informacoes",
+          "quando": "Reclamação admitida"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Reclamação indeferida liminarmente"
+        }
+      ]
+    },
+    {
+      "id": "informacoes",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:ministro-do-stj"
+      ],
+      "acao": "O relator pede informações a quem praticou o ato, pode suspendê-lo e cita o beneficiário para contestar",
+      "detalhes": "A suspensão do processo ou do ato serve para evitar dano irreparável. Qualquer interessado pode impugnar o pedido do reclamante.",
+      "prazo": {
+        "texto": "10 dias para as informações da autoridade; 15 dias para a contestação do beneficiário",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "requisição das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "arts. 989 e 990"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ministerio-publico",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "ministerio-publico",
+      "atores": [
+        "cargo:procurador-geral-da-republica",
+        "cargo:subprocurador-geral-da-republica"
+      ],
+      "acao": "O Ministério Público tem vista do processo, se não for o autor da reclamação",
+      "prazo": {
+        "texto": "5 dias, depois dos prazos das informações e da contestação",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "fim dos prazos das informações e da contestação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 991"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf",
+        "org:stj"
+      ],
+      "acao": "O tribunal julga a reclamação; se procedente, cassa a decisão ou toma a medida adequada",
+      "detalhes": "Na reclamação por súmula vinculante, o STF anula o ato administrativo ou cassa a decisão judicial e manda proferir outra, com ou sem a aplicação da súmula.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 992"
+        },
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 7º, § 2º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-A, § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "cumprimento",
+          "quando": "Reclamação procedente"
+        },
+        {
+          "para": "improcedencia",
+          "quando": "Reclamação improcedente"
+        }
+      ]
+    },
+    {
+      "id": "cumprimento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-do-stf",
+        "cargo:presidente-do-stj"
+      ],
+      "acao": "O presidente do tribunal manda cumprir a decisão de imediato; o acórdão é lavrado depois",
+      "detalhes": "Se o STF acolher reclamação contra decisão administrativa que violou súmula vinculante, a autoridade e o órgão que julga os recursos são avisados e devem adequar as decisões futuras em casos semelhantes, sob pena de responsabilização pessoal.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 993"
+        },
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 9º (Lei 9.784, art. 64-B)"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "improcedencia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A reclamação é julgada improcedente e o ato reclamado é mantido",
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 992"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A reclamação é indeferida liminarmente e se encerra",
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 988, § 5º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Rito do CPC de 2015 (arts. 988 a 993), em vigor um ano depois da publicação (art. 1.045); a data exata não foi conferida. Antes, a reclamação no STF e no STJ seguia a Lei 8.038/1990, arts. 13 a 18, revogados pelo CPC (art. 1.072, IV)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13105-2015",
+      "dispositivo": "arts. 988 a 993; art. 1.072, IV"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, l; art. 103-A, § 3º; art. 105, I, f"
+    },
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "arts. 7º a 9º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O processo modela a reclamação no STF e no STJ, os dois tribunais que a CF prevê; o CPC a admite em qualquer tribunal (art. 988, § 1º). (2) Quem propõe (parte interessada ou Ministério Público) não tem entidade; os atores da primeira etapa são os tribunais que recebem e distribuem. (3) O relator aparece como ministro de cada tribunal, porque o mapa não tem cargo de relator. (4) Na etapa 'ministerio-publico', o PGR oficia no STF (LC 75/1993, art. 46) e, por delegação, os subprocuradores-gerais; no STJ, só subprocurador-geral exerce as funções do MPF (art. 47, § 1º). (5) Texto do CPC: cópia de 17/10/2026, com as alterações da Lei 15.484/2026 no art. 988 (inciso V e §§ 4º e 5º), anteriores à data de referência.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

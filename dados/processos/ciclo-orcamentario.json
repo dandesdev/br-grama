@@ -10,10 +10,11 @@
     {
       "id": "ldo-elaboracao",
       "atores": [
-        "org:ministerio-do-planejamento-e-orcamento"
+        "org:ministerio-do-planejamento-e-orcamento",
+        "org:secretaria-de-orcamento-federal"
       ],
       "acao": "O Ministério do Planejamento e Orçamento elabora o projeto da LDO",
-      "detalhes": "A LDO traz as metas e prioridades, as metas fiscais e as regras para elaborar a LOA (CF, art. 165, § 2º; LRF, art. 4º). Os limites que ela fixa valem também para as propostas dos tribunais, do Ministério Público e da Defensoria (CF, arts. 99, § 1º, 127, § 3º, e 134, §§ 2º e 3º).",
+      "detalhes": "A LDO traz as metas e prioridades, as metas fiscais e as regras para elaborar a LOA (CF, art. 165, § 2º; LRF, art. 4º). Os limites que ela fixa valem também para as propostas dos tribunais, do Ministério Público e da Defensoria (CF, arts. 99, § 1º, 127, § 3º, e 134, §§ 2º e 3º). Pela LRF, o projeto traz o Anexo de Metas Fiscais e o Anexo de Riscos Fiscais; na União, as metas de resultado primário valem para quatro anos e precisam ser compatíveis com uma trajetória sustentável da dívida (LRF, art. 4º, §§ 1º a 5º; LC 200/2023, art. 2º). A Secretaria de Orçamento Federal coordena a elaboração (Lei 10.180/2001, art. 8º, I; Decreto 11.353/2023, Anexo I, art. 20, I).",
       "fontes": [
         {
           "ref": "norma:lei-14600-2023",
@@ -26,6 +27,18 @@
         {
           "ref": "norma:lc-101-2000",
           "dispositivo": "art. 4º"
+        },
+        {
+          "ref": "norma:lc-200-2023",
+          "dispositivo": "art. 2º"
+        },
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 7º, II; art. 8º, I"
+        },
+        {
+          "ref": "norma:decreto-11353-2023",
+          "dispositivo": "Anexo I, art. 20, I"
         }
       ],
       "seguintes": [
@@ -124,12 +137,13 @@
       "id": "loa-elaboracao",
       "atores": [
         "org:ministerio-do-planejamento-e-orcamento",
+        "org:secretaria-de-orcamento-federal",
         "org:poder-judiciario",
         "org:ministerio-publico-da-uniao",
         "org:dpu"
       ],
       "acao": "O Executivo consolida o projeto da LOA com as propostas dos tribunais, do Ministério Público e da Defensoria",
-      "detalhes": "Os tribunais, o Ministério Público e a Defensoria elaboram suas propostas dentro dos limites da LDO; no Judiciário da União, quem encaminha são os presidentes do STF e dos tribunais superiores (CF, arts. 99, §§ 1º e 2º, 127, § 3º, e 134, §§ 2º e 3º). O Ministério do Planejamento e Orçamento cuida da elaboração do orçamento (Lei 14.600/2023, art. 40, IV). No primeiro ano do mandato presidencial, prepara também o projeto do PPA.",
+      "detalhes": "Os tribunais, o Ministério Público e a Defensoria elaboram suas propostas dentro dos limites da LDO; no Judiciário da União, quem encaminha são os presidentes do STF e dos tribunais superiores (CF, arts. 99, §§ 1º e 2º, 127, § 3º, e 134, §§ 2º e 3º). O Ministério do Planejamento e Orçamento cuida da elaboração do orçamento (Lei 14.600/2023, art. 40, IV). No primeiro ano do mandato presidencial, prepara também o projeto do PPA. As propostas parciais das unidades são revistas e coordenadas na proposta geral (Lei 4.320/1964, arts. 27 a 31), que a Secretaria de Orçamento Federal consolida (Lei 10.180/2001, art. 8º, I; Decreto 11.353/2023, Anexo I, art. 20, I). O Executivo entrega aos outros Poderes e ao Ministério Público as estimativas de receita pelo menos 30 dias antes do prazo das propostas deles (LRF, art. 12, § 3º). A proposta enviada ao Legislativo tem mensagem, projeto e tabelas explicativas (Lei 4.320/1964, art. 22).",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -138,6 +152,22 @@
         {
           "ref": "norma:lei-14600-2023",
           "dispositivo": "art. 40, IV"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 22; arts. 27 a 31"
+        },
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 8º, I"
+        },
+        {
+          "ref": "norma:decreto-11353-2023",
+          "dispositivo": "Anexo I, art. 20, I"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 5º; art. 12, caput e § 3º"
         }
       ],
       "seguintes": [
@@ -158,12 +188,17 @@
         "texto": "Até quatro meses antes do fim do exercício financeiro (31 de agosto), enquanto não vier a lei complementar do art. 165, § 9º; o PPA, no mesmo prazo do primeiro ano do mandato",
         "valor": 4,
         "unidade": "meses",
-        "conta_de": "antes do encerramento do exercício financeiro"
+        "conta_de": "antes do encerramento do exercício financeiro",
+        "efeito": "Se o Legislativo não receber a proposta no prazo, considera como proposta a lei de orçamento vigente (Lei 4.320/1964, art. 32)."
       },
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 84, XXIII; art. 166, §§ 5º e 6º; ADCT, art. 35, § 2º, I e III"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 32"
         }
       ],
       "seguintes": [
@@ -183,7 +218,7 @@
         "org:bancadas-estaduais-no-congresso-nacional"
       ],
       "acao": "Parlamentares, comissões e bancadas estaduais apresentam emendas na CMO",
-      "detalhes": "A emenda precisa ser compatível com o PPA e a LDO e indicar de onde sai o dinheiro, sem cortar pessoal, dívida ou transferências constitucionais (CF, art. 166, § 3º). As emendas individuais e as de bancada estadual têm execução obrigatória até os limites do art. 166, §§ 9º a 12.",
+      "detalhes": "A emenda precisa ser compatível com o PPA e a LDO e indicar de onde sai o dinheiro, sem cortar pessoal, dívida ou transferências constitucionais (CF, art. 166, § 3º). As emendas individuais e as de bancada estadual têm execução obrigatória até os limites do art. 166, §§ 9º a 12. A Lei 4.320/1964 também veda emendas que alterem dotação de custeio sem provar erro da proposta ou que deem dinheiro a obra sem projeto aprovado ou a serviço não criado (art. 33), e a LRF só admite reestimativa de receita pelo Legislativo se houver erro ou omissão técnica ou legal (art. 12, § 1º).",
       "prazo": {
         "texto": "De 1º a 20 de outubro, para emendas à despesa e à receita (Resolução 1/2006-CN, art. 82, III)"
       },
@@ -203,6 +238,14 @@
         {
           "ref": "norma:resolucao-cn-1-2006",
           "dispositivo": "arts. 46 e 47"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 33"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 12, § 1º"
         }
       ],
       "seguintes": [
@@ -303,7 +346,7 @@
         "org:cmo"
       ],
       "acao": "O governo executa o orçamento; a CMO acompanha a execução",
-      "detalhes": "A administração deve executar o que foi programado (CF, art. 165, § 10), inclusive as emendas impositivas (art. 166, §§ 11 e 12). O Executivo publica relatório resumido da execução a cada bimestre (art. 165, § 3º) e entrega os duodécimos aos outros Poderes, ao MP e à Defensoria até o dia 20 de cada mês (art. 168). Se a receita não comportar as metas fiscais, os Poderes limitam empenho (LRF, art. 9º). A STN faz a programação financeira (Decreto 11.907/2024, Anexo I, art. 35, I).",
+      "detalhes": "A administração deve executar o que foi programado (CF, art. 165, § 10), inclusive as emendas impositivas (art. 166, §§ 11 e 12). O Executivo publica relatório resumido da execução a cada bimestre (art. 165, § 3º) e entrega os duodécimos aos outros Poderes, ao MP e à Defensoria até o dia 20 de cada mês (art. 168). Se a receita não comportar as metas fiscais, os Poderes limitam empenho (LRF, art. 9º). A STN faz a programação financeira (Decreto 11.907/2024, Anexo I, art. 35, I). O exercício financeiro coincide com o ano civil (Lei 4.320/1964, art. 34). As etapas do gasto (programação financeira, empenho, liquidação, pagamento e restos a pagar) estão em proc:execucao-da-despesa.",
       "prazo": {
         "texto": "O exercício financeiro, de 1º de janeiro a 31 de dezembro"
       },
@@ -319,6 +362,10 @@
         {
           "ref": "norma:decreto-11907-2024",
           "dispositivo": "Anexo I, art. 35, I"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 34"
         }
       ],
       "seguintes": [
@@ -327,10 +374,15 @@
           "quando": "Se durante o ano faltar dotação ou surgir despesa sem dotação"
         },
         {
+          "para": "avaliacao-das-metas-fiscais",
+          "quando": "Ao fim de cada quadrimestre"
+        },
+        {
           "para": "prestacao-de-contas",
           "quando": "Encerrado o exercício"
         }
-      ]
+      ],
+      "remete_a": "proc:execucao-da-despesa"
     },
     {
       "id": "creditos-adicionais",
@@ -370,9 +422,41 @@
       ]
     },
     {
+      "id": "avaliacao-das-metas-fiscais",
+      "atores": [
+        {
+          "ator": "cargo:ministro-de-estado",
+          "orgao_exercicio": "org:ministerio-da-fazenda"
+        },
+        "org:cmo"
+      ],
+      "acao": "O Ministro da Fazenda demonstra na CMO o cumprimento das metas fiscais do quadrimestre e a trajetória da dívida",
+      "detalhes": "A audiência é pública, na CMO ou em reunião conjunta com as comissões temáticas do Congresso (LRF, art. 9º, § 4º, redação da LC 200/2023). O Banco Central apresenta a cada semestre a avaliação das políticas monetária, creditícia e cambial (art. 9º, § 5º).",
+      "prazo": {
+        "texto": "Até o fim de maio, setembro e fevereiro"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 9º, §§ 4º e 5º"
+        },
+        {
+          "ref": "norma:lc-200-2023",
+          "dispositivo": "art. 11"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": "A execução continua"
+        }
+      ]
+    },
+    {
       "id": "prestacao-de-contas",
       "atores": [
-        "cargo:presidente-da-republica"
+        "cargo:presidente-da-republica",
+        "org:secretaria-federal-de-controle-interno"
       ],
       "acao": "O Presidente presta ao Congresso as contas do ano anterior",
       "prazo": {
@@ -386,6 +470,18 @@
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 84, XXIV; art. 51, II"
+        },
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 18, VI; art. 24, X"
+        },
+        {
+          "ref": "norma:decreto-11330-2023",
+          "dispositivo": "Anexo I, art. 13, VI"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 82, caput"
         }
       ],
       "seguintes": [
@@ -393,7 +489,8 @@
           "para": "parecer-previo-tcu",
           "quando": null
         }
-      ]
+      ],
+      "detalhes": "O sistema de controle interno elabora a prestação de contas, com a coordenação da Secretaria Federal de Controle Interno da CGU; os Balanços Gerais da União vêm da Secretaria do Tesouro Nacional (Lei 10.180/2001, arts. 18, VI, e 24, X; Decreto 11.330/2023, Anexo I, art. 13, VI). A Lei 4.320/1964 manda o Executivo prestar contas ao Legislativo todo ano, com parecer prévio do tribunal de contas (art. 82)."
     },
     {
       "id": "parecer-previo-tcu",
@@ -411,6 +508,14 @@
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 71, I"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 82, § 1º"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 57, § 2º"
         }
       ],
       "seguintes": [
@@ -418,7 +523,8 @@
           "para": "parecer-cmo-contas",
           "quando": null
         }
-      ]
+      ],
+      "detalhes": "Os tribunais de contas não entram em recesso enquanto houver contas pendentes de parecer prévio (LRF, art. 57, § 2º)."
     },
     {
       "id": "parecer-cmo-contas",
@@ -493,20 +599,28 @@
     },
     {
       "ref": "norma:lc-101-2000",
-      "dispositivo": "arts. 4º e 9º"
+      "dispositivo": "arts. 4º, 5º, 9º, 12 e 57, § 2º"
     },
     {
       "ref": "norma:lei-14600-2023",
       "dispositivo": "art. 40, IV"
+    },
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "arts. 22, 27 a 34 e 82"
+    },
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "arts. 8º, 18, VI, e 24, X"
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais: etapa creditos-adicionais, acrescentada em f0-dinheiro-complementar, que volta à execução (ver obj:credito-adicional). (4) As bancadas estaduais entram como ator da etapa 'loa-emendas' pelo conjunto org:bancadas-estaduais-no-congresso-nacional (acrescentado na revisão de f0-dinheiro-complementar); as comissões, pelos conjuntos de comissões das Casas. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas.",
+  "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais: etapa creditos-adicionais, acrescentada em f0-dinheiro-complementar, que volta à execução (ver obj:credito-adicional). (4) As bancadas estaduais entram como ator da etapa 'loa-emendas' pelo conjunto org:bancadas-estaduais-no-congresso-nacional (acrescentado na revisão de f0-dinheiro-complementar); as comissões, pelos conjuntos de comissões das Casas. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas. (7) Fase 2 (f2-financas-publicas): a Secretaria de Orçamento Federal entrou como ator da elaboração da LDO e da LOA e a Secretaria Federal de Controle Interno como ator da prestação de contas; a etapa execucao remete a proc:execucao-da-despesa; nova etapa avaliacao-das-metas-fiscais (LRF, art. 9º, § 4º).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-dinheiro-complementar",
-    "notas": "verificado antes em verificacao-f0-dinheiro; reaberto por f0-dinheiro-complementar pela etapa creditos-adicionais. Conferidos a etapa nova (CF, arts. 62, § 1º, I, d, 166 e 167, V e § 3º; Lei 4.320/1964, arts. 40 a 44; Res. 1/2006-CN, arts. 106 e 107) e os seguintes da etapa execucao. Acrescentado org:bancadas-estaduais-no-congresso-nacional como ator da etapa loa-emendas (Res. 1/2006-CN, arts. 46 e 47), porque a ação já citava as bancadas e a entidade passou a existir; nota (4) atualizada"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "atores SOF (ldo-elaboracao, loa-elaboracao) e SFC (prestacao-de-contas); fontes da Lei 4.320/1964 (arts. 22, 27 a 34, 82), Lei 10.180/2001 e LRF nas etapas; loa-envio com o efeito do art. 32; execucao remete a proc:execucao-da-despesa; nova etapa avaliacao-das-metas-fiscais (antes verificado em verificacao-f0-dinheiro-complementar)"
   },
   "campos": {
     "etapas": {

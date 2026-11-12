@@ -1,0 +1,323 @@
+{
+  "id": "proc:sumula-vinculante",
+  "tipo": "processo",
+  "nome": "Edição, revisão e cancelamento de súmula vinculante",
+  "resumo": "Como o STF aprova, revê ou cancela uma súmula vinculante: proposta, edital, parecer do PGR, exame pelos ministros e votação por dois terços no Plenário.",
+  "detalhes": "A proposta pode vir de um ministro ou dos legitimados da Lei 11.417. O Presidente do STF confere a forma, publica edital para manifestações e ouve o PGR; a Comissão de Jurisprudência e os demais ministros opinam por meio eletrônico. A aprovação exige oito votos, e o enunciado vincula o Judiciário e a administração pública desde a publicação.",
+  "forma": "linha",
+  "produz": "obj:sumula-vinculante",
+  "etapas": [
+    {
+      "id": "proposta",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:presidente-da-republica",
+        "org:mesa-do-senado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "cargo:procurador-geral-da-republica",
+        "org:conselho-federal-da-oab",
+        "cargo:defensor-publico-geral-federal",
+        "org:partidos-politicos",
+        "org:confederacoes-sindicais-e-entidades-de-classe-nacionais",
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:camara-legislativa-do-df",
+        "cargo:arquetipo-estadual-governador",
+        "org:stj",
+        "org:tst",
+        "org:tse",
+        "org:stm",
+        "org:arquetipo-estadual-tribunal-de-justica",
+        "org:tj-df",
+        "org:justica-federal",
+        "org:justica-do-trabalho",
+        "org:justica-eleitoral",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O STF, de ofício, ou um dos legitimados propõe editar, rever ou cancelar um enunciado",
+      "detalhes": "A súmula exige reiteradas decisões sobre matéria constitucional e controvérsia atual que gere grave insegurança jurídica e muitos processos sobre a mesma questão. O município só pode propor no curso de processo em que seja parte, sem suspendê-lo. A proposta não suspende os processos sobre o tema. Se a lei em que a súmula se baseou for revogada ou alterada, o STF a revê ou cancela.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 2º, caput e § 1º; art. 3º, caput e § 1º; arts. 5º e 6º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-A, caput e §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "exame-formal",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "exame-formal",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "A proposta é autuada e o Presidente do STF verifica se atende aos requisitos formais",
+      "prazo": {
+        "texto": "5 dias",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "registro da proposta ao Presidente"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 354-A"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "edital",
+          "quando": "Requisitos formais atendidos"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Proposta formalmente inadequada"
+        }
+      ]
+    },
+    {
+      "id": "edital",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF publica edital no seu site e no Diário da Justiça para que interessados se manifestem",
+      "detalhes": "Pode ser admitida a manifestação de terceiros, por decisão irrecorrível. A proposta tramita em meio eletrônico, com as informações abertas aos interessados no site do STF.",
+      "prazo": {
+        "texto": "5 dias para manifestação dos interessados",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "publicação do edital"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "arts. 354-B e 354-G"
+        },
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 3º, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pgr",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pgr",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O PGR se manifesta sobre a proposta, quando não for o autor",
+      "fontes": [
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 2º, § 2º"
+        },
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "arts. 354-B e 354-C"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "exame-pelos-ministros",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "exame-pelos-ministros",
+      "atores": [
+        "org:comissao-de-jurisprudencia-do-stf",
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "Os ministros da Comissão de Jurisprudência e, depois, os demais ministros opinam por meio eletrônico",
+      "prazo": {
+        "texto": "15 dias comuns para a Comissão de Jurisprudência e, depois, 15 dias comuns para os demais ministros",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "envio da proposta pelo Presidente"
+      },
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 354-C"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pauta",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pauta",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "O Presidente põe a proposta na pauta do Plenário ou a rejeita, se a maioria absoluta já se manifestou contra",
+      "detalhes": "Contra a rejeição pelo Presidente cabe agravo regimental.",
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 354-D"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "deliberacao",
+          "quando": "Proposta incluída em pauta"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Maioria absoluta dos ministros contra a proposta"
+        }
+      ]
+    },
+    {
+      "id": "deliberacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "O Plenário vota a proposta; editar, rever ou cancelar a súmula exige dois terços dos ministros",
+      "detalhes": "Pelo mesmo quórum, o STF pode restringir os efeitos vinculantes ou decidir que a súmula só valha a partir de outro momento, por segurança jurídica ou excepcional interesse público. O acórdão traz os debates que deram origem ao enunciado.",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Dois terços dos membros do STF (8 de 11), em sessão plenária."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 2º, § 3º; art. 4º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-A, caput"
+        },
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 354-F"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "publicacao",
+          "quando": "Dois terços ou mais a favor"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Menos de dois terços a favor"
+        }
+      ]
+    },
+    {
+      "id": "publicacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF publica o enunciado no Diário da Justiça e no DOU; a partir daí, ele vincula juízes e administração",
+      "detalhes": "O efeito vinculante alcança os demais órgãos do Judiciário e a administração pública direta e indireta federal, estadual e municipal. Quem contrariar a súmula pode ser alvo de reclamação ao STF.",
+      "prazo": {
+        "texto": "10 dias depois da sessão",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "sessão que aprovou a proposta"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 2º, caput e § 4º; art. 7º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-A, caput e § 3º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "rejeicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A proposta é rejeitada e o enunciado não é editado, revisto nem cancelado",
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "arts. 354-A e 354-D"
+        },
+        {
+          "ref": "norma:lei-11417-2006",
+          "dispositivo": "art. 2º, § 3º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "repercussao-geral",
+      "nome": "Proposta logo após julgamento com repercussão geral",
+      "resumo": "Qualquer ministro pode propor a súmula logo depois de o Plenário julgar o mérito de questão com repercussão geral, para deliberação na mesma sessão",
+      "quem_aciona": [
+        "cargo:ministro-do-stf"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 354-E"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "edital",
+          "nota": "O regimento prevê deliberação imediata do Plenário na mesma sessão, sem as etapas de edital, parecer e exame eletrônico."
+        },
+        {
+          "etapa": "deliberacao",
+          "nota": "Na mesma sessão do julgamento de mérito; o quórum de dois terços continua valendo (Lei 11.417, art. 2º, § 3º)."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2007-03-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 11.417/2006 entra em vigor três meses após a publicação (art. 11), no DOU de 20/12/2006. Data calculada por nós; não conferimos a forma de contagem. As etapas do RISTF (arts. 354-A a 354-G) vêm da Emenda Regimental 46/2011, e a do art. 354-D, da ER 54/2020."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11417-2006",
+      "dispositivo": "arts. 2º a 7º e 10"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-A"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 354-A a 354-G"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O RISTF regula o rito de forma subsidiária (Lei 11.417, art. 10). Texto consultado: edição do site do STF \"atualizado até a Emenda Regimental n. 58/2022\" (pesquisa/brutos/stf/2026-11-11-f2-judiciario/ristf-stf-arquivo-cms.pdf); não conferimos se a ER 59/2023 mexeu nos arts. 354-A a 354-G. (2) Os legitimados da etapa 'proposta' repetem os das relações 'propoe' para obj:sumula-vinculante: os TRFs, TRTs e TREs aparecem pelos ramos (org:justica-federal, org:justica-do-trabalho, org:justica-eleitoral); os tribunais militares estaduais não têm entidade própria. (3) A proposta de ofício aparece como cargo:ministro-do-stf. (4) Atores da etapa 'edital': a Secretaria Judiciária do STF, que não tem entidade própria.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

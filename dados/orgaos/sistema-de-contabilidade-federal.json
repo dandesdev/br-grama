@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Sistema de Contabilidade Federal",
   "resumo": "Rede que registra a execução do orçamento e o patrimônio da União e produz os balanços federais e o balanço consolidado do setor público. A Secretaria do Tesouro Nacional é o órgão central.",
-  "detalhes": "Registra os atos e fatos da administração orçamentária, financeira e patrimonial da União e mostra, entre outros, a despesa empenhada, liquidada e paga, os custos dos programas e a renúncia de receitas (Lei 10.180/2001, arts. 14 a 16). É formado pela Secretaria do Tesouro Nacional e pelas unidades de gestão interna dos ministérios e da AGU; para a Presidência e a Vice-Presidência, o papel cabe ao controle interno da Casa Civil (art. 17). Mantém o plano de contas único, edita as normas contábeis, faz tomadas de contas dos ordenadores de despesa, elabora os Balanços Gerais da União e consolida os balanços de todos os entes no Balanço do Setor Público Nacional (art. 18). A documentação da execução fica nas unidades, à disposição do controle interno e externo, nas condições fixadas pelo órgão central (art. 37).",
+  "detalhes": "Registra os atos e fatos da administração orçamentária, financeira e patrimonial da União e mostra, entre outros, a despesa empenhada, liquidada e paga, os custos dos programas e a renúncia de receitas (Lei 10.180/2001, arts. 14 a 16). É formado pela Secretaria do Tesouro Nacional e pelas unidades de gestão interna dos ministérios e da AGU; para a Presidência e a Vice-Presidência, o papel cabe ao controle interno da Casa Civil (art. 17). Mantém o plano de contas único, edita as normas contábeis, faz tomadas de contas dos ordenadores de despesa, elabora os Balanços Gerais da União e consolida os balanços de todos os entes no Balanço do Setor Público Nacional (art. 18). A documentação da execução fica nas unidades, à disposição do controle interno e externo, nas condições fixadas pelo órgão central (art. 37). Como já dizia a Lei 4.320/1964, a contabilidade mostra a situação de todos que arrecadam, gastam ou guardam bens públicos, e as tomadas de contas dos responsáveis cabem aos serviços de contabilidade, ressalvada a competência do tribunal de contas (arts. 83 e 84).",
   "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "federal",
@@ -16,6 +16,10 @@
     {
       "ref": "norma:decreto-11907-2024",
       "dispositivo": "Anexo I, art. 35, caput e IX a XXIV"
+    },
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "arts. 83 e 84"
     }
   ],
   "estrutura_continua": [

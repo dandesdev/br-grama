@@ -368,6 +368,16 @@
     {
       "ref": "norma:provimento-cnj-207-2025",
       "dispositivo": "arts. 1º a 3º, 5º, 8º e 9º"
+    },
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "art. 67",
+      "nota": "pagamento na ordem de apresentação, sem designar casos ou pessoas nas dotações"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 10; art. 30, § 7º",
+      "nota": "sistema de execução identifica os beneficiários; precatório não pago entra na dívida consolidada"
     }
   ],
   "vigencia": {
@@ -378,9 +388,9 @@
   "confianca": "oficial",
   "notas": "O texto compilado da CF no Planalto ainda mostra, no ADCT, art. 101, caput, \"até 31 de dezembro de 2029\", sem marcar que a EC 136/2025, art. 7º, tornou o prazo inaplicável; seguimos a emenda (conferido na revisão: o compilado do Planalto de 2026-10-16 ainda traz \"até 31 de dezembro de 2029\" sem nota, e a EC 136/2025, art. 7º, diz que o prazo \"não será aplicável a partir da data de promulgação\"). ADCT, art. 107-A (teto federal até 2026): o STF limitou os efeitos a 2022 (ADI 7064), por isso não virou regime; ver obj:limite-de-pagamento-de-precatorios. O § 9º do art. 100 (compensação com dívida ativa na redação da EC 113/2021) foi declarado inconstitucional na ADI 7064 e não entrou nas etapas. Atores: 'org:justica-federal' e 'org:justica-do-trabalho' representam os TRFs e TRTs, que não têm nó único; os presidentes dos tribunais não têm cargo próprio no mapa.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-judiciario-complementar",
-    "notas": "coletado em f0-judiciario-complementar; etapas e regimes conferidos contra CF, art. 100, §§ 1º a 8º, 20 e 23 a 30; ADCT, arts. 87 e 101 a 105; EC 136/2025, arts. 2º, 7º e 8º; Leis 10.259/2001, art. 17, e 12.153/2009, art. 13; Resolução CNJ 303/2019, arts. 2º, 3º, 7º, 12, 15, 17, 19 e 20; Provimento CNJ 207/2025, arts. 1º a 3º, 5º, 8º e 9º. D42 não se aplica: os atores são órgãos e cargos não agregados"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "fontes Lei 4.320/1964, art. 67, e LRF, arts. 10 e 30, § 7º (antes verificado em verificacao-f0-judiciario-complementar)"
   }
 }

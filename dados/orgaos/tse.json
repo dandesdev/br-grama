@@ -4,7 +4,7 @@
   "nome": "Tribunal Superior Eleitoral",
   "sigla": "TSE",
   "resumo": "Tribunal superior da Justiça Eleitoral. Tem no mínimo sete membros vindos do STF, do STJ e da advocacia, que servem por dois anos, no mínimo.",
-  "detalhes": "Três membros são eleitos por voto secreto dentre os ministros do STF e dois dentre os do STJ, pelo Plenário de cada tribunal (RISTF, art. 7º, II; RISTJ, art. 10, III); dois são advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF (art. 119). O Presidente e o Vice-Presidente são ministros do STF, e o Corregedor Eleitoral é ministro do STJ. Os membros servem por dois anos, no mínimo, e nunca por mais de dois biênios seguidos (art. 121, § 2º). Julga os recursos contra decisões dos TREs (Código Eleitoral, art. 22, II), e suas decisões são irrecorríveis, salvo as que contrariarem a Constituição e as que negarem habeas corpus ou mandado de segurança (art. 121, § 3º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II). Pelo Código Eleitoral, julga originariamente o registro de partidos e de candidatos a Presidente e Vice, os crimes eleitorais dos seus juízes e dos juízes dos TREs e as impugnações à apuração da eleição presidencial (art. 22, I); expede instruções para executar a legislação eleitoral, só nas matérias que a lei autoriza, responde a consultas, aprova a divisão dos estados em zonas e propõe o aumento do número de juízes dos TREs (arts. 13, 23 e 23-A). Decisões sobre cassação de registro de partido e anulação geral de eleições exigem a presença de todos os membros (art. 19, parágrafo único).",
+  "detalhes": "Três membros são eleitos por voto secreto dentre os ministros do STF e dois dentre os do STJ, pelo Plenário de cada tribunal (RISTF, art. 7º, II; RISTJ, art. 10, III); dois são advogados nomeados pelo Presidente da República a partir de lista de seis indicada pelo STF (art. 119). O Presidente e o Vice-Presidente são ministros do STF, e o Corregedor Eleitoral é ministro do STJ. Os membros servem por dois anos, no mínimo, e nunca por mais de dois biênios seguidos (art. 121, § 2º). Julga os recursos contra decisões dos TREs (Código Eleitoral, art. 22, II), e suas decisões são irrecorríveis, salvo as que contrariarem a Constituição e as que negarem habeas corpus ou mandado de segurança (art. 121, § 3º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II). Pelo Código Eleitoral, julga originariamente o registro de partidos e de candidatos a Presidente e Vice e as impugnações à apuração da eleição presidencial (art. 22, I; o mesmo inciso lhe dá os crimes eleitorais dos seus juízes e dos juízes dos TREs, regra superada pela CF, que leva esses casos ao STF e ao STJ, arts. 102, I, c, e 105, I, a); expede instruções para executar a legislação eleitoral, só nas matérias que a lei autoriza, responde a consultas, aprova a divisão dos estados em zonas e propõe o aumento do número de juízes dos TREs (arts. 13, 23 e 23-A). Decisões sobre cassação de registro de partido e anulação geral de eleições exigem a presença de todos os membros (art. 19, parágrafo único).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
@@ -63,10 +63,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario",
-    "notas": "f2-judiciario: acrescentadas ao detalhes as competências do TSE no Código Eleitoral (arts. 12, 13, 16, 19, 22, 23 e 23-A)"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario (acrescentadas ao detalhes as competências do TSE no Código Eleitoral (arts. 12, 13, 16, 19, 22, 23 e 23-A)). Corrigido: o detalhes listava como competência atual do TSE julgar os crimes eleitorais dos seus juízes e dos juízes dos TREs (Código Eleitoral, art. 22, I, d), regra anterior à CF; hoje são julgados pelo STF (art. 102, I, c) e pelo STJ (art. 105, I, a), como já diz cargo:juiz-de-tre."
   },
   "notas": "A CF fala em 'eleição, pelo voto secreto' dos juízes vindos do STF e do STJ, sem dizer quem vota. Os regimentos dizem que é o Plenário de cada tribunal: RISTF, art. 7º, II (quórum de oito ministros, art. 143, parágrafo único) e RISTJ, art. 10, III."
 }

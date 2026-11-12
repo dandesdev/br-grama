@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Dados contábeis, orçamentários e fiscais dos entes",
   "resumo": "Informações de contas, orçamento e finanças que União, estados, DF e municípios devem publicar no formato e no sistema definidos pelo órgão central de contabilidade da União.",
-  "detalhes": "A regra busca rastreabilidade, comparabilidade e publicidade, com divulgação em meio eletrônico de amplo acesso (CF, art. 163-A). O órgão central de contabilidade da União é a Secretaria do Tesouro Nacional (Lei 10.180/2001, art. 17, I).",
+  "detalhes": "A regra busca rastreabilidade, comparabilidade e publicidade, com divulgação em meio eletrônico de amplo acesso (CF, art. 163-A). O órgão central de contabilidade da União é a Secretaria do Tesouro Nacional (Lei 10.180/2001, art. 17, I). A LRF repete a regra (art. 48, § 2º) e lista os instrumentos de transparência: planos, orçamentos, LDO, prestações de contas e pareceres, o RREO e o RGF (art. 48, caput). Manda também divulgar em tempo real, na internet, os atos de execução da despesa e da receita (art. 48, § 1º, II, e art. 48-A); o ente que não cumprir fica sem transferências voluntárias (art. 73-C). Todos os Poderes e órgãos do ente usam o sistema único de execução mantido pelo Executivo (art. 48, § 6º).",
   "tipo_objeto": "documento",
   "esfera": "nacional",
   "relativo_a": [
@@ -24,14 +24,18 @@
     {
       "ref": "norma:lei-10180-2001",
       "dispositivo": "art. 17, I"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 48; art. 48-A; art. 73-C"
     }
   ],
   "confianca": "oficial",
   "notas": "tipo_objeto 'documento' por ser um conjunto de informações a publicar. O sistema usado hoje (Siconfi) e as portarias da STN não foram pesquisados.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-dinheiro-complementar",
-    "notas": "coletado em f0-dinheiro-complementar; CF, art. 163-A, e Lei 10.180/2001, art. 17, I, conferidos; cláusula de vigência da EC 108/2020 lida (art. 4º, vigência na publicação): tirado o incerta"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "detalhes e fonte com a LRF (arts. 48, 48-A e 73-C) (antes verificado em verificacao-f0-dinheiro-complementar)"
   }
 }

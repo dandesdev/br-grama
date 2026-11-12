@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Limites de despesa com pessoal",
   "resumo": "Teto do gasto com servidores ativos, aposentados e pensionistas: 50% da receita corrente líquida na União e 60% nos estados e municípios.",
-  "detalhes": "A CF manda a lei complementar fixar os limites (art. 169), e a LRF os define e reparte entre Poderes e órgãos (arts. 19 e 20). A verificação é quadrimestral; quem passar do limite tem dois quadrimestres para voltar, e a CF prevê cortes de cargos em comissão, exoneração de não estáveis e, por último, de estáveis (art. 169, §§ 3º e 4º; LRF, arts. 22 e 23).",
+  "detalhes": "A CF manda a lei complementar fixar os limites (art. 169), e a LRF os define sobre a receita corrente líquida e os reparte entre Poderes e órgãos (arts. 19 e 20). Na União: Legislativo 2,5% (com o TCU), Judiciário 6%, Executivo 40,9% e Ministério Público da União 0,6%. Nos estados: Legislativo 3% (com o TCE), Judiciário 6%, Executivo 49% e Ministério Público 2%; onde há tribunal de contas dos municípios, o Legislativo ganha 0,4 ponto e o Executivo perde o mesmo. Nos municípios: Legislativo 6% (com o tribunal de contas do município, se houver) e Executivo 54% (art. 20). A verificação é quadrimestral; quem passar do limite tem dois quadrimestres para voltar, e a CF prevê cortes de cargos em comissão, exoneração de não estáveis e, por último, de estáveis (CF, art. 169, §§ 3º e 4º; LRF, arts. 22 e 23; ver proc:reconducao-da-despesa-com-pessoal-ao-limite).",
   "tipo_objeto": "regra-fiscal",
   "vigencia": {
     "de": "2000-05-05",
@@ -17,15 +17,20 @@
     },
     {
       "ref": "norma:lc-101-2000",
-      "dispositivo": "arts. 19, 20, 22 e 23"
+      "dispositivo": "art. 2º, IV; arts. 18 a 23; art. 59, § 1º, II, e § 2º"
+    },
+    {
+      "ref": "fonte:senado-legislacao-adi-2238-decisao",
+      "dispositivo": null,
+      "nota": "o STF julgou constitucional o art. 20 e declarou inconstitucional o art. 23, § 2º"
     }
   ],
   "confianca": "oficial",
-  "notas": "A repartição por Poder (art. 20 da LRF) não foi detalhada.",
+  "notas": "Na União, o Executivo tem 3 dos 40,9 pontos destacados para o pessoal do DF, do Amapá e de Roraima pago pela União (LRF, art. 20, I, c). Dentro do Legislativo e do Judiciário, o limite é repartido entre os órgãos pela média de despesa dos três anos anteriores à LRF (art. 20, § 1º). Os percentuais estaduais têm remissão à ADI 6533 no texto do Planalto; não conferimos essa ação. A ADI 2.238 julgou o art. 20 constitucional.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, art. 169, caput e §§ 1º a 4º, e LRF, arts. 19 (50% e 60%), 20, 22 e 23, conferidos"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "detalhes com a repartição por Poder e órgão (LRF, art. 20), fontes com os arts. 2º, IV, 18 a 23 e 59 e a ADI 2.238 (antes verificado em verificacao-f0-dinheiro)"
   }
 }

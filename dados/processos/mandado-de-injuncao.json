@@ -1,0 +1,255 @@
+{
+  "id": "proc:mandado-de-injuncao",
+  "tipo": "processo",
+  "nome": "Mandado de injunção",
+  "resumo": "Como alguém pede à Justiça que supra a falta de norma que impede o exercício de um direito constitucional: pedido, informações do omisso, Ministério Público e prazo para a norma sair.",
+  "detalhes": "O pedido é feito contra o Poder, órgão ou autoridade que deveria editar a norma. Reconhecida a omissão, o tribunal fixa prazo razoável para a norma sair e diz como o direito poderá ser exercido se o prazo passar em branco. A decisão vale para as partes, mas pode ser estendida a todos quando isso for indispensável ao exercício do direito.",
+  "forma": "linha",
+  "produz": "obj:mandado-de-injuncao",
+  "etapas": [
+    {
+      "id": "impetracao",
+      "atores": [
+        "org:stf",
+        "org:stj"
+      ],
+      "acao": "O titular do direito pede o mandado de injunção contra quem deveria editar a norma",
+      "detalhes": "Cabe quando a falta total ou parcial de norma regulamentadora torna inviável o exercício de direitos e liberdades constitucionais ou de prerrogativas ligadas à nacionalidade, à soberania e à cidadania. A petição indica o órgão impetrado e a pessoa jurídica a que ele pertence. O STF julga quando a norma cabe ao Presidente da República, ao Congresso, às Casas e Mesas, ao TCU, aos tribunais superiores ou ao próprio STF; o STJ, quando cabe a órgão, entidade ou autoridade federal fora desses casos.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "arts. 2º a 4º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, LXXI; art. 102, I, q; art. 105, I, h"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "despacho-inicial",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "despacho-inicial",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:ministro-do-stj"
+      ],
+      "acao": "O relator indefere o pedido manifestamente incabível ou improcedente, ou notifica o impetrado para informar",
+      "detalhes": "Recebida a petição, o impetrado é notificado para prestar informações e o órgão de representação judicial da pessoa jurídica é avisado, para entrar no processo se quiser. Contra o indeferimento cabe agravo ao colegiado em 5 dias.",
+      "prazo": {
+        "texto": "10 dias para o impetrado prestar informações; agravo contra o indeferimento em 5 dias",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "notificação do impetrado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "arts. 5º e 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ministerio-publico",
+          "quando": "Pedido admitido"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Pedido indeferido"
+        }
+      ]
+    },
+    {
+      "id": "ministerio-publico",
+      "atores": [
+        "cargo:procurador-geral-da-republica",
+        "cargo:subprocurador-geral-da-republica"
+      ],
+      "acao": "Terminado o prazo das informações, o Ministério Público dá parecer",
+      "prazo": {
+        "texto": "10 dias; depois, com ou sem parecer, o processo vai a julgamento",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "fim do prazo das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf",
+        "org:stj"
+      ],
+      "acao": "O tribunal decide se há omissão; se houver, fixa prazo para a norma e as condições para exercer o direito",
+      "detalhes": "Se o impetrado já descumpriu prazo fixado em mandado de injunção anterior, o tribunal dispensa o novo prazo e já fixa as condições. A decisão vale para as partes até a norma sair, mas pode valer para terceiros ou para todos quando isso for indispensável ao exercício do direito; depois do trânsito em julgado, o relator pode estendê-la a casos análogos. Se a norma for editada antes da decisão, o pedido fica prejudicado.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 8º; art. 9º, caput e §§ 1º e 2º; art. 11, parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "prazo-para-a-norma",
+          "quando": "Omissão reconhecida, com prazo para editar a norma"
+        },
+        {
+          "para": "exercicio-do-direito",
+          "quando": "Omissão reconhecida, com prazo dispensado"
+        },
+        {
+          "para": "denegacao",
+          "quando": "Omissão não reconhecida ou pedido prejudicado"
+        }
+      ]
+    },
+    {
+      "id": "prazo-para-a-norma",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "Corre o prazo que o tribunal fixou para o omisso editar a norma",
+      "detalhes": "Se a norma sair, seus efeitos para quem já tem decisão transitada em julgado valem só dali em diante, salvo se a norma for mais favorável a essas pessoas.",
+      "prazo": {
+        "texto": "Prazo razoável fixado na decisão",
+        "conta_de": "decisão que reconhece a omissão",
+        "efeito": "valem as condições fixadas pelo tribunal para exercer o direito"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 8º, I e II; art. 11, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "exercicio-do-direito",
+          "quando": "Prazo esgotado sem a norma"
+        },
+        {
+          "para": "norma-editada",
+          "quando": "Norma editada no prazo"
+        }
+      ]
+    },
+    {
+      "id": "exercicio-do-direito",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O direito passa a ser exercido nas condições fixadas pelo tribunal, até sair a norma",
+      "detalhes": "A decisão pode ser revista, a pedido de qualquer interessado, se mudarem relevantemente os fatos ou o direito.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 8º, II; art. 9º, caput; art. 10"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "norma-editada",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A norma é editada e passa a reger o exercício do direito",
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 11, caput"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "denegacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O pedido é negado ou fica prejudicado; negado por falta de prova, pode ser renovado com novas provas",
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 9º, § 3º; art. 11, parágrafo único"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O pedido é indeferido de saída e se encerra, salvo se o agravo for provido",
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "coletivo",
+      "nome": "Mandado de injunção coletivo",
+      "resumo": "Ministério Público, partido com representação no Congresso, sindicato, entidade de classe ou associação com um ano, ou Defensoria Pública pedem em nome de uma coletividade",
+      "detalhes": "A decisão faz coisa julgada para os integrantes do grupo substituído. O coletivo não impede os pedidos individuais, mas quem quiser aproveitar a decisão coletiva precisa desistir do seu em 30 dias.",
+      "quem_aciona": [
+        "org:ministerio-publico-da-uniao",
+        "org:arquetipo-estadual-ministerio-publico",
+        "org:partidos-politicos",
+        "org:organizacoes-sindicais-entidades-de-classe-e-associacoes",
+        "org:dpu",
+        "org:arquetipo-estadual-defensoria-publica"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-13300-2016",
+          "dispositivo": "arts. 12 e 13"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "impetracao",
+          "nota": "Quem impetra é o legitimado coletivo, em nome de coletividade indeterminada ou de grupo, classe ou categoria."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2016-06-24",
+    "ate": null,
+    "nota": "Lei 13.300/2016 em vigor na publicação (art. 15), no DOU de 24/6/2016. Antes, o mandado de injunção seguia as regras do mandado de segurança (Lei 8.038, art. 24, parágrafo único)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13300-2016",
+      "dispositivo": "arts. 2º a 14"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXXI; art. 102, I, q; art. 105, I, h"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O processo modela o mandado de injunção no STF e no STJ, onde a CF o prevê expressamente; ele também pode correr em outros tribunais e juízos, conforme as constituições estaduais e as leis de organização judiciária, o que não modelamos. (2) Quem impetra não tem entidade; os atores da primeira etapa são os tribunais que recebem o pedido. (3) Na etapa 'ministerio-publico', o PGR oficia no STF (LC 75/1993, art. 46) e, por delegação, os subprocuradores-gerais; no STJ, só subprocurador-geral exerce as funções do MPF (art. 47, § 1º). (4) As normas do mandado de segurança e do CPC se aplicam de forma subsidiária (art. 14).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

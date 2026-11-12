@@ -1,0 +1,31 @@
+{
+  "id": "rel:cgu-fiscaliza-conflito-de-interesses-agentes-do-executivo",
+  "tipo": "relacao",
+  "nome": "A CGU fiscaliza conflitos de interesses dos demais agentes do Executivo federal",
+  "relacao": "fiscaliza",
+  "de": "org:cgu",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Conflito de interesses dos agentes que não estão na alta administração do art. 2º, I a IV, da Lei 12.813/2013 (esses ficam com a Comissão de Ética Pública). A CGU também recebe as comunicações das unidades de recursos humanos sobre atividade privada (art. 9º, parágrafo único).",
+  "vigencia": {
+    "de": "2013-07-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início de vigência da Lei 12.813/2013 calculado pela LINDB (ver a norma)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12813-2013",
+      "dispositivo": "art. 8º, I a VIII e parágrafo único; art. 9º, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 49, IX, e § 1º, VI"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

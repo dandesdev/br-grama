@@ -1,0 +1,40 @@
+{
+  "id": "org:sistema-de-gestao-da-etica-do-poder-executivo-federal",
+  "tipo": "orgao",
+  "nome": "Sistema de Gestão da Ética do Poder Executivo Federal",
+  "resumo": "Reúne a Comissão de Ética Pública e as comissões de ética de cada órgão e entidade do Executivo federal, para integrar as ações de ética pública.",
+  "detalhes": "Cada órgão ou entidade constitui sua comissão de ética, de três titulares e três suplentes do quadro permanente, designados pelo dirigente máximo para mandatos de três anos; ela aplica o Código de Ética Profissional do Servidor (Decreto 1.171/1994) e apura condutas antiéticas (Decreto 6.029/2007, arts. 5º, 7º e 8º). Os representantes das comissões formam a Rede de Ética, que se reúne ao menos uma vez por ano sob a coordenação da CEP (art. 9º).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-6029-2007",
+          "dispositivo": "arts. 1º e 2º"
+        }
+      ],
+      "nota": "Sistema que abrange os órgãos e entidades do Executivo federal, direta e indireta."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-6029-2007",
+      "dispositivo": "arts. 1º, 2º, 5º, 7º, 8º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-02-02",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "As comissões de ética setoriais não foram criadas uma a uma (são centenas); ficam descritas aqui.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

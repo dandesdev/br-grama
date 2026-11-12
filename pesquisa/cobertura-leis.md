@@ -13,6 +13,10 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Decreto-Lei 200/1967 | f2-executivo | 14 | 3 | 1 | 167 | 185 | 97,8% |
 | Lei 13.848/2019 | f2-executivo | 42 | 0 | 0 | 10 | 52 | 100,0% |
 | Lei 9.986/2000 | f2-executivo | 10 | 0 | 0 | 16 | 26 | 100,0% |
+| Lei 4.320/1964 (normas gerais de direito financeiro) | f2-financas-publicas | 64 | 0 | 0 | 51 | 115 | 100,0% |
+| LC 101/2000 (Lei de Responsabilidade Fiscal) | f2-financas-publicas | 59 | 0 | 0 | 20 | 79 | 100,0% |
+| Lei 10.180/2001 (sistemas federais de planejamento e orçamento, administração financeira, contabilidade e controle interno) | f2-financas-publicas | 30 | 0 | 0 | 11 | 41 | 100,0% |
+| LC 200/2023 (regime fiscal sustentável) | f2-financas-publicas | 17 | 0 | 0 | 2 | 19 | 100,0% |
 | LC 75/1993 (Estatuto do Ministério Público da União) | f2-funcoes-essenciais | 223 | 0 | 0 | 63 | 286 | 100,0% |
 | Lei 8.625/1993 (Lei Orgânica Nacional do Ministério Público) | f2-funcoes-essenciais | 44 | 0 | 0 | 38 | 82 | 100,0% |
 | LC 80/1994 (Defensoria Pública da União e normas gerais das Defensorias) | f2-funcoes-essenciais | 73 | 0 | 0 | 88 | 161 | 100,0% |
@@ -33,4 +37,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Resolução nº 1/2006-CN (CMO) | f2-legislativo-tcu | 42 | 0 | 0 | 122 | 164 | 100,0% |
 | Lei nº 8.443/1992 (Lei Orgânica do TCU) | f2-legislativo-tcu | 87 | 0 | 0 | 23 | 110 | 100,0% |
 
-Total: 4096 artigos classificados; cobertura 99,0% (5 em lacuna, 34 parciais).
+Total: 4350 artigos classificados; cobertura 99,1% (5 em lacuna, 34 parciais).

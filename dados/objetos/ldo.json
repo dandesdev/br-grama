@@ -4,7 +4,7 @@
   "nome": "Lei de diretrizes orçamentárias",
   "sigla": "LDO",
   "resumo": "Lei anual de iniciativa do Executivo que fixa metas e prioridades, a política fiscal e as regras para elaborar o orçamento do ano seguinte.",
-  "detalhes": "Traz as metas fiscais, em linha com uma trajetória sustentável da dívida, orienta a elaboração da LOA, dispõe sobre mudanças na legislação tributária e define a política das agências oficiais de fomento (art. 165, § 2º). O Congresso não entra em recesso de julho sem aprová-la (art. 57, § 2º). O projeto é enviado até oito meses e meio antes do fim do ano (15 de abril) e devolvido até o fim do primeiro período da sessão legislativa (ADCT, art. 35, § 2º, II).",
+  "detalhes": "Traz as metas fiscais, em linha com uma trajetória sustentável da dívida, orienta a elaboração da LOA, dispõe sobre mudanças na legislação tributária e define a política das agências oficiais de fomento (art. 165, § 2º). O Congresso não entra em recesso de julho sem aprová-la (art. 57, § 2º). O projeto é enviado até oito meses e meio antes do fim do ano (15 de abril) e devolvido até o fim do primeiro período da sessão legislativa (ADCT, art. 35, § 2º, II). Pela LRF, a LDO traz o Anexo de Metas Fiscais (receitas, despesas, resultados e dívida para três anos), o Anexo de Riscos Fiscais e os critérios de limitação de empenho (art. 4º). Na União, o anexo traz metas de resultado primário para quatro anos, compatíveis com a estabilização da dívida, uma margem de tolerância de 0,25 ponto do PIB e os limites de cada Poder e órgão (art. 4º, § 5º; LC 200/2023, art. 2º).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
   "relativo_a": [
@@ -22,6 +22,10 @@
     {
       "ref": "norma:lc-101-2000",
       "dispositivo": "art. 4º"
+    },
+    {
+      "ref": "norma:lc-200-2023",
+      "dispositivo": "art. 2º"
     }
   ],
   "campos": {
@@ -32,9 +36,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, arts. 57, § 2º, e 165, II, §§ 2º e 12, ADCT, art. 35, § 2º, II, e LRF, art. 4º, conferidos; 15 de abril segue inferido"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "detalhes com os anexos da LRF (art. 4º, inclusive o § 5º da LC 200/2023) e fonte LC 200/2023, art. 2º (antes verificado em verificacao-f0-dinheiro)"
   }
 }

@@ -58,7 +58,7 @@
         "org:ministerio-publico-da-uniao"
       ],
       "acao": "Se a receita não comportar as metas fiscais, cada Poder e o Ministério Público limitam empenho e pagamento",
-      "detalhes": "A avaliação é bimestral; a limitação é feita por ato próprio de cada Poder e do Ministério Público, nos 30 dias seguintes, pelos critérios da LDO. Não se limitam obrigações constitucionais e legais nem o serviço da dívida. Se a receita voltar, as dotações são recompostas na mesma proporção (LRF, art. 9º, caput e §§ 1º e 2º). O STF declarou inconstitucional o § 3º, que deixava o Executivo limitar os valores dos outros Poderes (ADI 2.238). Na União, quem adota a limitação e preserva ao menos 75% das despesas discricionárias não comete infração se a meta não for cumprida (LC 200/2023, art. 7º).",
+      "detalhes": "A avaliação é bimestral; a limitação é feita por ato próprio de cada Poder e do Ministério Público, nos 30 dias seguintes, pelos critérios da LDO. Não se limitam obrigações constitucionais e legais nem o serviço da dívida. Se a receita voltar, as dotações são recompostas na mesma proporção (LRF, art. 9º, caput e §§ 1º e 2º). O STF declarou inconstitucional o § 3º, que deixava o Executivo limitar os valores dos outros Poderes (ADI 2.238). Na União, o descumprimento da meta não é infração do agente que limitou empenho e pagamento, preservou ao menos 75% das despesas discricionárias autorizadas e não contrariou as vedações dos arts. 6º e 8º (LC 200/2023, art. 7º).",
       "prazo": {
         "texto": "Nos 30 dias seguintes ao fim do bimestre",
         "valor": 30,
@@ -146,11 +146,11 @@
         "org:secretaria-do-tesouro-nacional"
       ],
       "acao": "A autoridade ordena o pagamento e o dinheiro sai do caixa",
-      "detalhes": "A ordem de pagamento é dada por autoridade competente em documentos processados pela contabilidade (Lei 4.320/1964, art. 64), e o pagamento é feito por tesouraria, pagadoria ou banco credenciado (art. 65). Na União, o dinheiro sai da Conta Única do Tesouro Nacional, gerida pela STN (Lei 10.180/2001, art. 12, III).",
+      "detalhes": "A ordem de pagamento é dada por autoridade competente em documentos processados pela contabilidade (Lei 4.320/1964, art. 64), e o pagamento é feito por tesouraria, pagadoria ou banco credenciado (art. 65). Na União, o dinheiro sai da Conta Única do Tesouro Nacional, gerida pela STN (Lei 10.180/2001, art. 12, III). Todas as receitas são recolhidas numa só tesouraria, sem caixas especiais (Lei 4.320/1964, art. 56).",
       "fontes": [
         {
           "ref": "norma:lei-4320-1964",
-          "dispositivo": "arts. 62, 64 e 65"
+          "dispositivo": "arts. 56, 62, 64 e 65"
         },
         {
           "ref": "norma:lei-10180-2001",
@@ -284,7 +284,7 @@
   "fontes": [
     {
       "ref": "norma:lei-4320-1964",
-      "dispositivo": "arts. 35 a 38, 47 a 50, 58 a 69 e 92"
+      "dispositivo": "arts. 35 a 38, 47 a 50, 56, 58 a 69 e 92"
     },
     {
       "ref": "norma:lc-101-2000",

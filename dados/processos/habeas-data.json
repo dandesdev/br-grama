@@ -1,0 +1,259 @@
+{
+  "id": "proc:habeas-data",
+  "tipo": "processo",
+  "nome": "Habeas data",
+  "resumo": "Como alguém obtém na Justiça acesso ou correção de dados sobre si em registros públicos, depois de o órgão negar ou não responder: pedido, informações, Ministério Público e sentença em 5 dias.",
+  "detalhes": "Primeiro a pessoa pede os dados ao órgão que os guarda, que deve decidir em 48 horas. Se o pedido for negado ou ficar sem resposta (mais de 10 dias para acesso, mais de 15 para correção ou anotação), ela pode ir à Justiça. O juiz pede informações em 10 dias, ouve o Ministério Público e decide; se conceder, marca dia e hora para o órgão mostrar os dados ou provar a correção. Tudo é gratuito.",
+  "forma": "linha",
+  "produz": "obj:habeas-data",
+  "etapas": [
+    {
+      "id": "impetracao",
+      "atores": [
+        "cargo:juiz-federal",
+        "cargo:juiz-de-direito"
+      ],
+      "acao": "Negado ou sem resposta o pedido ao órgão, a pessoa apresenta a petição ao juiz, com a prova da recusa",
+      "detalhes": "Antes, o pedido administrativo vai ao órgão ou entidade que guarda os dados, que decide em 48 horas e comunica em 24; deferido, marca dia e hora para a consulta, e um dado inexato deve ser corrigido em até 10 dias. Na Justiça, a petição prova a recusa ou o silêncio: mais de 10 dias sem decisão sobre o acesso, ou mais de 15 sobre a correção ou a anotação de explicação. Cabe para conhecer, corrigir ou anotar dados sobre a própria pessoa em registro governamental ou de caráter público.",
+      "prazo": {
+        "texto": "48 horas para o órgão decidir o pedido administrativo e 24 horas para comunicar; 10 dias para corrigir dado inexato",
+        "valor": 48,
+        "unidade": "horas",
+        "conta_de": "apresentação do pedido ao órgão",
+        "efeito": "passados 10 dias sem decisão sobre o acesso (15 sobre correção ou anotação), cabe ir à Justiça"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "art. 1º, parágrafo único; arts. 2º a 4º, 7º e 8º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 5º, LXXII"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "despacho-inicial",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "despacho-inicial",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-federal",
+        "cargo:juiz-de-direito"
+      ],
+      "acao": "O juiz indefere a petição ou notifica o responsável pelos dados para prestar informações",
+      "detalhes": "A petição é indeferida quando não for caso de habeas data ou faltar requisito da lei; cabe apelação.",
+      "prazo": {
+        "texto": "10 dias para o coator prestar informações",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "notificação do coator"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "arts. 9º a 11"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ministerio-publico",
+          "quando": "Petição admitida"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Petição indeferida"
+        }
+      ]
+    },
+    {
+      "id": "ministerio-publico",
+      "atores": [
+        "cargo:procurador-da-republica",
+        "cargo:arquetipo-estadual-membro-do-ministerio-publico"
+      ],
+      "acao": "Terminado o prazo das informações, o Ministério Público é ouvido",
+      "prazo": {
+        "texto": "5 dias",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "fim do prazo das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "art. 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sentenca",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "sentenca",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-federal",
+        "cargo:juiz-de-direito"
+      ],
+      "acao": "O juiz decide; se procedente, marca dia e hora para o coator mostrar os dados ou provar a correção",
+      "detalhes": "A decisão é comunicada ao coator por correio com aviso de recebimento, telegrama, radiograma ou telefonema, como o impetrante pedir. O habeas data tem prioridade sobre os demais processos, exceto habeas corpus e mandado de segurança.",
+      "prazo": {
+        "texto": "5 dias",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "conclusão dos autos ao juiz"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "arts. 12 a 14 e 19"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso",
+          "quando": "Apelação de qualquer das partes"
+        },
+        {
+          "para": "cumprimento",
+          "quando": "Habeas data concedido, sem recurso ou com recurso sem efeito suspensivo"
+        },
+        {
+          "para": "denegacao",
+          "quando": "Habeas data negado, sem recurso"
+        }
+      ]
+    },
+    {
+      "id": "recurso",
+      "atores": [
+        "cargo:desembargador",
+        "cargo:juiz-de-trf"
+      ],
+      "acao": "O tribunal julga a apelação; se o habeas data foi concedido, a apelação não suspende a sentença",
+      "detalhes": "O presidente do tribunal que julgará o recurso pode mandar o juiz suspender a execução da sentença; contra essa ordem cabe agravo ao tribunal.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "arts. 15, 16 e 20, II"
+        }
+      ],
+      "remete_a": "proc:caminho-de-um-processo",
+      "seguintes": [
+        {
+          "para": "cumprimento",
+          "quando": "Habeas data concedido"
+        },
+        {
+          "para": "denegacao",
+          "quando": "Habeas data negado"
+        }
+      ]
+    },
+    {
+      "id": "cumprimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "No dia marcado, o responsável apresenta os dados à pessoa ou prova em juízo a correção ou a anotação",
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "art. 13"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "denegacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O habeas data é negado; se a decisão não examinou o mérito, o pedido pode ser renovado",
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "art. 18"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A petição é indeferida e o processo se encerra, salvo apelação",
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "art. 10"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "competencia-originaria",
+      "nome": "Habeas data direto no tribunal",
+      "resumo": "Contra atos do Presidente da República, das Mesas, do TCU, do PGR ou do STF, o pedido vai ao STF; contra ministro de Estado ou o próprio STJ, ao STJ; e assim por diante",
+      "detalhes": "Nos tribunais, o relator conduz o processo. Na instância superior, o processo vai a julgamento na primeira sessão depois de concluso ao relator, o que deve ocorrer em até 24 horas da distribuição.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9507-1997",
+          "dispositivo": "arts. 17, 19 e 20, I"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, d; art. 105, I, b; art. 108, I, c"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "despacho-inicial",
+          "nota": "Quem conduz é o relator do tribunal (art. 17)."
+        },
+        {
+          "etapa": "sentenca",
+          "prazo": {
+            "texto": "Primeira sessão depois da conclusão ao relator, que não pode passar de 24 horas da distribuição",
+            "valor": 24,
+            "unidade": "horas",
+            "conta_de": "distribuição",
+            "efeito": "o processo vai a julgamento na primeira sessão seguinte"
+          },
+          "nota": "Quem julga é o tribunal (art. 19)."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1997-11-13",
+    "ate": null,
+    "nota": "Lei 9.507/1997 em vigor na publicação (art. 22), no DOU de 13/11/1997."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9507-1997",
+      "dispositivo": "arts. 1º a 4º e 7º a 21"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, LXXII e LXXVII"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O órgão que guarda os dados e a pessoa que pede não têm entidade; a fase administrativa ficou no detalhe da primeira etapa, cujos atores são os juízes que recebem o pedido judicial. (2) Na Justiça comum de primeira instância, o juiz federal julga atos de autoridade federal e o juiz estadual os demais (art. 20, I, d e f). (3) Arts. 1º, caput, 3º, parágrafo único, 5º e 6º vetados. (4) O art. 8º remete aos arts. 282 a 285 do CPC de 1973, revogado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

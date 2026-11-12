@@ -4,7 +4,7 @@
   "nome": "Lei orçamentária anual",
   "sigla": "LOA",
   "resumo": "Lei anual de iniciativa do Executivo que estima a receita e fixa a despesa da União, com os orçamentos fiscal, de investimento das estatais e da seguridade social.",
-  "detalhes": "Não pode conter nada estranho à previsão da receita e à fixação da despesa, salvo autorizar créditos suplementares e operações de crédito (art. 165, § 8º). O projeto é enviado até quatro meses antes do fim do ano (31 de agosto) e devolvido para sanção até o fim da sessão legislativa (ADCT, art. 35, § 2º, III). A administração tem o dever de executar o que foi programado, nos limites das regras fiscais (art. 165, §§ 10 e 11).",
+  "detalhes": "Não pode conter nada estranho à previsão da receita e à fixação da despesa, salvo autorizar créditos suplementares e operações de crédito (art. 165, § 8º). O projeto é enviado até quatro meses antes do fim do ano (31 de agosto) e devolvido para sanção até o fim da sessão legislativa (ADCT, art. 35, § 2º, III). A administração tem o dever de executar o que foi programado, nos limites das regras fiscais (art. 165, §§ 10 e 11). A Lei 4.320/1964 diz o que a lei de orçamento contém e traz (arts. 2º a 8º): todas as receitas e despesas pelos totais, sem dotações globais. Pela LRF, o projeto mostra a compatibilidade com as metas fiscais, traz a reserva de contingência e as estimativas de benefícios tributários e só inclui projetos novos depois de atendidos os em andamento (arts. 5º e 45). Na União, a programação de investimentos não pode ser menor que 0,6% do PIB, e a mensagem do projeto demonstra os valores máximos de despesa compatíveis com os limites de cada Poder e órgão (LC 200/2023, arts. 3º, §§ 4º e 5º, e 10).",
   "tipo_objeto": "ato-normativo",
   "esfera": "federal",
   "relativo_a": [
@@ -18,6 +18,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 165, III, e §§ 5º, 8º, 10 e 11; art. 166; ADCT, art. 35, § 2º, III"
+    },
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "arts. 2º a 8º"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 5º; art. 45"
+    },
+    {
+      "ref": "norma:lc-200-2023",
+      "dispositivo": "art. 3º, §§ 4º e 5º; art. 10"
     }
   ],
   "campos": {
@@ -28,9 +40,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, art. 165, III, §§ 5º, 8º, 10 e 11, e ADCT, art. 35, § 2º, III, conferidos; 31 de agosto segue inferido"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas",
+    "notas": "detalhes e fontes com a Lei 4.320/1964 (arts. 2º a 8º), a LRF (arts. 5º e 45) e a LC 200/2023 (arts. 3º, §§ 4º e 5º, e 10) (antes verificado em verificacao-f0-dinheiro)"
   }
 }

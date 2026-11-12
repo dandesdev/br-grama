@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-nomeia-membro-da-comissao-de-etica-publica",
+  "tipo": "relacao",
+  "nome": "O Presidente da República designa os membros da Comissão de Ética Pública",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:membro-da-comissao-de-etica-publica",
+  "condicao": "Designação para mandato de três anos, não coincidente, com uma recondução.",
+  "vigencia": {
+    "de": "2007-02-02",
+    "ate": null,
+    "nota": "Regra do Decreto 6.029/2007; o Decreto de 26/5/1999 já dava a escolha ao Presidente (art. 3º, revogado)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-6029-2007",
+      "dispositivo": "art. 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

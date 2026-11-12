@@ -1,0 +1,273 @@
+{
+  "id": "proc:acao-penal-originaria",
+  "tipo": "processo",
+  "nome": "Ação penal originária no STF e no STJ",
+  "resumo": "Como o STF e o STJ processam autoridades com foro especial por crime comum: denúncia do PGR, resposta do acusado, recebimento pelo tribunal, instrução conduzida pelo relator e julgamento.",
+  "detalhes": "O Ministério Público tem 15 dias para denunciar ou pedir arquivamento. O acusado responde em 15 dias e o tribunal decide se recebe a denúncia. Recebida, o relator conduz a instrução como um juiz de primeira instância, com interrogatório, testemunhas e alegações finais, e o tribunal julga. No STJ julga a Corte Especial; no STF, o órgão definido pelo regimento.",
+  "forma": "linha",
+  "produz": "obj:acao-penal-publica",
+  "etapas": [
+    {
+      "id": "denuncia",
+      "atores": [
+        "cargo:procurador-geral-da-republica",
+        "cargo:subprocurador-geral-da-republica"
+      ],
+      "acao": "Recebido o inquérito, o Ministério Público oferece denúncia ou pede o arquivamento",
+      "detalhes": "No STF, o PGR propõe as ações penais; no STJ, o PGR pode delegar a função a um subprocurador-geral. O relator pode deferir diligências complementares, que interrompem o prazo. Se o investigado confessou crime sem violência ou grave ameaça com pena mínima abaixo de quatro anos, o MP pode propor acordo de não persecução penal. Na ação penal privada, a acusação é a queixa do ofendido.",
+      "prazo": {
+        "texto": "15 dias; 5 dias se o indiciado estiver preso",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "recebimento do inquérito ou das peças informativas"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:lc-75-1993",
+          "dispositivo": "art. 46, parágrafo único, III; art. 47, § 1º; art. 48, II, e parágrafo único"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 129, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "notificacao-do-acusado",
+          "quando": "Denúncia oferecida"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Pedido de arquivamento"
+        }
+      ]
+    },
+    {
+      "id": "notificacao-do-acusado",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:ministro-do-stj"
+      ],
+      "acao": "O relator notifica o acusado, que responde por escrito antes de o tribunal decidir sobre a denúncia",
+      "detalhes": "O relator, escolhido conforme o regimento, é o juiz da instrução e tem os poderes de um juiz singular. Se a resposta trouxer documentos novos, a outra parte se manifesta em 5 dias. Acusado em lugar desconhecido é notificado por edital.",
+      "prazo": {
+        "texto": "15 dias para a resposta do acusado",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "notificação do acusado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "arts. 2º, 4º e 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recebimento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recebimento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf",
+        "org:corte-especial-do-stj"
+      ],
+      "acao": "O tribunal decide se recebe ou rejeita a denúncia, ou se a acusação já é improcedente",
+      "detalhes": "A acusação e a defesa podem fazer sustentação oral de 15 minutos. Se o réu for deputado ou senador e o crime for posterior à diplomação, o STF avisa a Casa, que pode sustar o andamento da ação pelo voto da maioria absoluta dos seus membros.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 6º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 53, §§ 3º a 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "instrucao",
+          "quando": "Denúncia recebida"
+        },
+        {
+          "para": "rejeicao",
+          "quando": "Denúncia rejeitada ou acusação improcedente"
+        }
+      ]
+    },
+    {
+      "id": "instrucao",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:ministro-do-stj"
+      ],
+      "acao": "O relator conduz a instrução: interrogatório, defesa prévia, testemunhas e diligências",
+      "detalhes": "A instrução segue o procedimento comum do Código de Processo Penal. O relator pode delegar atos a juiz ou membro de tribunal do local, por carta de ordem, ou convocar desembargadores e juízes criminais por seis meses, prorrogáveis até dois anos, para o interrogatório e outros atos. Ouvidas as testemunhas, as partes têm 5 dias para pedir diligências.",
+      "prazo": {
+        "texto": "Defesa prévia em 5 dias, contados do interrogatório; pedido de diligências em 5 dias depois das testemunhas",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "interrogatório ou intimação do defensor dativo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 3º, III; arts. 7º a 10"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "alegacoes-finais",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "alegacoes-finais",
+      "atores": [
+        "cargo:procurador-geral-da-republica",
+        "cargo:subprocurador-geral-da-republica"
+      ],
+      "acao": "A acusação e, depois, a defesa apresentam alegações escritas",
+      "detalhes": "Na ação penal privada, o Ministério Público tem vista depois das partes. Após as alegações, o relator pode mandar produzir provas que julgar imprescindíveis.",
+      "prazo": {
+        "texto": "15 dias para cada parte, sucessivamente",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "intimação depois das diligências"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 11"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf",
+        "org:corte-especial-do-stj"
+      ],
+      "acao": "O tribunal julga a ação, depois de uma hora de sustentação oral para a acusação e outra para a defesa",
+      "detalhes": "O presidente pode limitar a presença na sala às partes e aos advogados, se o interesse público exigir. Em matéria penal, o empate favorece o acusado, mesmo que o colegiado esteja incompleto. No STJ há revisor na ação penal originária.",
+      "quorum": {
+        "regra": "outro",
+        "nota": "A lei não fixa quórum para o Plenário ou a Corte Especial; nas Turmas do STF e do STJ, a decisão é tomada pela maioria absoluta dos membros, e o empate favorece o acusado (art. 41-A)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 12; art. 40, II; art. 41-A"
+        },
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 11, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "condenacao",
+          "quando": "Condenação"
+        },
+        {
+          "para": "absolvicao",
+          "quando": "Absolvição"
+        }
+      ]
+    },
+    {
+      "id": "condenacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O acusado é condenado às penas da lei e tem os direitos políticos suspensos enquanto durarem os efeitos",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 15, III"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "absolvicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O acusado é absolvido",
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 12"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "rejeicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A denúncia é rejeitada ou a acusação julgada improcedente, e não há processo",
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:ministro-do-stj"
+      ],
+      "acao": "O relator arquiva o inquérito a pedido do MP, ou leva o pedido ao tribunal",
+      "detalhes": "O relator também declara extinta a punibilidade nos casos da lei.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 3º, I e II"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-29",
+    "ate": null,
+    "nota": "Lei 8.038/1990 em vigor na publicação (art. 43), no DOU de 29/5/1990."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8038-1990",
+      "dispositivo": "arts. 1º a 12, 40 e 41-A"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, b e c; art. 105, I, a"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) Quem o STF e o STJ julgam por crime comum está nas relações 'julga' (CF, arts. 102, I, b e c, e 105, I, a). (2) No STJ, quem julga é a Corte Especial (RISTJ, art. 11, I). No STF, a divisão entre Plenário e Turmas é do RISTF; a edição consultada vai até a ER 58/2022, e a ER 59/2023, que mexeu nessa divisão segundo o diário de f2-judiciario, não foi conferida; por isso o ator é org:stf. (3) A Lei 8.658/1993, que estende estas regras aos TJs e TRFs, aparece no texto do Planalto só como \"Vide\" e não foi aberta. (4) Os arts. 1º a 12 dizem 'Ministério Público'; o PGR e o subprocurador-geral vêm da LC 75/1993. (5) Na etapa 'alegacoes-finais', a defesa também age, mas não tem entidade.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

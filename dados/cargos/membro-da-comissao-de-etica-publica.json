@@ -1,0 +1,49 @@
+{
+  "id": "cargo:membro-da-comissao-de-etica-publica",
+  "tipo": "cargo",
+  "nome": "Membro da Comissão de Ética Pública",
+  "resumo": "Um dos sete brasileiros de reputação ilibada e experiência em administração pública designados pelo Presidente da República para a CEP, com mandato de três anos.",
+  "orgao": "org:comissao-de-etica-publica",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "Designado pelo Presidente da República (Decreto 6.029/2007, art. 3º). Os mandatos não coincidem, e a própria Comissão escolhe seu presidente entre os membros (art. 4º, VI). A função não é remunerada e conta como serviço público relevante (art. 3º, § 1º).",
+  "vagas": 7,
+  "mandato": {
+    "anos": 3,
+    "vitalicio": false,
+    "reconducao": "permitida uma única recondução",
+    "nota": "Mandatos não coincidentes (Decreto 6.029/2007, art. 3º)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro",
+      "fontes": []
+    },
+    {
+      "texto": "idoneidade moral, reputação ilibada e notória experiência em administração pública",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:decreto-6029-2007",
+      "dispositivo": "art. 3º e art. 4º, VI"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-02-02",
+    "ate": null,
+    "nota": "Composição de sete membros desde o Decreto 6.029/2007; antes, o Decreto de 26/5/1999 previa seis (art. 3º, revogado)."
+  },
+  "confianca": "oficial",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "O decreto diz 'designados pelo Presidente da República' para mandato fixo; usamos o termo mais próximo do vocabulário (nomeacao-livre), como no Conselho Nacional de Educação."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

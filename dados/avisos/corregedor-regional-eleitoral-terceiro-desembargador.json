@@ -3,7 +3,7 @@
   "tipo": "aviso",
   "nome": "Código Eleitoral manda o \"terceiro desembargador\" do TRE ser corregedor, mas a CF só põe dois",
   "resumo": "O Código Eleitoral (art. 26) supõe três desembargadores em cada TRE; a CF de 1988 prevê dois. A lei não diz quem é o corregedor regional hoje.",
-  "detalhes": "Pelo art. 26 do Código Eleitoral, o TRE elege Presidente e Vice-Presidente entre três desembargadores do TJ, e o terceiro é o Corregedor Regional. A CF de 1988 reduziu a dois os desembargadores em cada TRE (art. 120, § 1º, I, a), que elegem entre si o Presidente e o Vice (art. 120, § 2º). Uma busca na web aponta que a Resolução TSE 23.742/2024 manda o Vice-Presidente acumular a Corregedoria Regional, mas não conseguimos ler o texto oficial.",
+  "detalhes": "Pelo art. 26 do Código Eleitoral, o TRE elege Presidente e Vice-Presidente entre três desembargadores do TJ, e o terceiro é o Corregedor Regional. A CF de 1988 reduziu a dois os desembargadores em cada TRE (art. 120, § 1º, I, a), que elegem entre si o Presidente e o Vice (art. 120, § 2º). A Resolução TSE 23.742/2024 (art. 9º), editada com base no art. 26, § 1º, do Código Eleitoral, resolve a lacuna: em cada TRE, o desembargador que ocupa a Vice-Presidência exerce também a função de Corregedor Regional.",
   "tipo_aviso": "ambiguidade-normativa",
   "afeta": [
     "org:justica-eleitoral",
@@ -24,17 +24,23 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 120, §§ 1º, I, a, e 2º"
+    },
+    {
+      "ref": "norma:resolucao-tse-23742-2024",
+      "dispositivo": "art. 9º"
     }
   ],
   "vigencia": {
     "de": "1988-10-05",
-    "ate": null
+    "ate": "2024-06-03",
+    "nota": "Resolvido pela Res. TSE 23.742/2024, art. 9º (em vigor na publicação, DJE-TSE de 3/6/2024): o Vice-Presidente de cada TRE exerce, cumulativamente, a função de Corregedor Regional (D43)."
   },
-  "notas": "Pista sem conferência (busca na web em 2026-11-11): Resolução TSE 23.742, de 23/5/2024, art. 9º, e regimentos de TREs (ex.: TRE-MG) dizem que o Vice-Presidente acumula a Corregedoria Regional. Se confirmado, criar o cargo de corregedor regional eleitoral com essa fonte e encerrar este aviso (D43).",
+  "notas": "Encerrado na verificacao-f2-judiciario (2026-11-11): o art. 9º da Res. TSE 23.742/2024 foi lido no texto compilado do TSE (cópia do Wayback de 19/10/2026; o site do TSE devolve HTTP 403). A regra entrou no detalhes de cargo:juiz-de-tre; criar um cargo próprio de corregedor regional eleitoral fica para o coordenador decidir.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Encerrado (vigencia.ate 2024-06-03, D43): a Res. TSE 23.742/2024, art. 9º, lida na cópia do Wayback do texto compilado do TSE, diz que o Vice-Presidente de cada TRE acumula a Corregedoria Regional."
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "rel:comissao-de-etica-publica-fiscaliza-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "A Comissão de Ética Pública fiscaliza conflitos de interesses dos Ministros de Estado e da alta administração",
+  "relacao": "fiscaliza",
+  "de": "org:comissao-de-etica-publica",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Conflito de interesses durante e depois do cargo. Vale também para cargos de natureza especial, dirigentes de autarquias, fundações e estatais e cargos DAS 5 e 6 (Lei 12.813/2013, art. 2º, I a IV); os demais agentes ficam com a CGU.",
+  "vigencia": {
+    "de": "2013-07-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início de vigência da Lei 12.813/2013 calculado pela LINDB (ver a norma)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12813-2013",
+      "dispositivo": "art. 2º, I a IV; art. 8º, I a VIII e parágrafo único; art. 9º, I"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

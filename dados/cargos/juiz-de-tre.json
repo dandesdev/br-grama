@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "detalhes": "No exercício das funções, têm plenas garantias e são inamovíveis (art. 121, § 1º). Nos crimes comuns e de responsabilidade, são julgados pelo STJ (art. 105, I, a). O cargo pertence a cada TRE; aqui aparece no ramo da Justiça Eleitoral porque são 27 tribunais. O TSE pode propor ao Congresso elevar a até nove o número de juízes de um TRE (Código Eleitoral, arts. 13 e 23, VI). Os biênios contam sem descontar afastamentos, e quem é cônjuge ou parente até o segundo grau de candidato na circunscrição não pode servir da convenção à diplomação (art. 14, §§ 1º e 3º).",
+  "detalhes": "No exercício das funções, têm plenas garantias e são inamovíveis (art. 121, § 1º). Nos crimes comuns e de responsabilidade, são julgados pelo STJ (art. 105, I, a). O cargo pertence a cada TRE; aqui aparece no ramo da Justiça Eleitoral porque são 27 tribunais. O TSE pode propor ao Congresso elevar a até nove o número de juízes de um TRE (Código Eleitoral, arts. 13 e 23, VI). Os biênios contam sem descontar afastamentos, e quem é cônjuge ou parente até o segundo grau de candidato na circunscrição não pode servir da convenção à diplomação (art. 14, §§ 1º e 3º). O desembargador que ocupa a Vice-Presidência do TRE exerce também a função de Corregedor Regional Eleitoral (Res. TSE 23.742/2024, art. 9º); o art. 26 do Código Eleitoral, que dava a função a um terceiro desembargador, não cabe na composição da CF.",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -76,6 +76,10 @@
     {
       "ref": "norma:lei-4737-1965",
       "dispositivo": "arts. 13 a 15 e 25"
+    },
+    {
+      "ref": "norma:resolucao-tse-23742-2024",
+      "dispositivo": "art. 9º"
     }
   ],
   "campos": {
@@ -93,10 +97,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario",
-    "notas": "f2-judiciario: acrescentados ao detalhes o aumento até nove juízes e regras do biênio (Código Eleitoral, arts. 13 a 15 e 25)"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario (acrescentados ao detalhes o aumento até nove juízes e regras do biênio (Código Eleitoral, arts. 13 a 15 e 25)). Acrescentada ao detalhes, com fonte, a regra da Res. TSE 23.742/2024, art. 9º (Vice-Presidente do TRE acumula a Corregedoria Regional), que encerra aviso:corregedor-regional-eleitoral-terceiro-desembargador."
   },
   "notas": "Criado para receber a relação de foro no STJ (art. 105, I, a), no modelo de cargo:juiz-de-trt. A CF chama os membros dos TREs de 'juízes' (art. 120, § 1º, e art. 121, § 2º)."
 }

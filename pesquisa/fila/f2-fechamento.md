@@ -37,6 +37,8 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - `relacao`: "exerce a função de" para funções acumuladas (Vice-Presidente do STM como Corregedor; Vice-Presidente do STJ como Corregedor-Geral da Justiça Federal), hoje `preside` com provimento `nato` (f2-judiciario).
 - `relacao`: "registra" no lugar de `aprecia-para-registro` para a Justiça Eleitoral; objeto "lei eleitoral" para `regulamenta`; `tipo_objeto` "representação" (impugnação, AIJE), hoje `acao-judicial` (f2-eleicoes).
 
+- `relacao`: `supervisiona` ampliado para a supervisão técnica do órgão central de um sistema (Lei 10.180), hoje `coordena`; `publica` ampliado para relatórios; verbo "emite" para quem assina o RGF (f2-financas-publicas).
+
 ## Decisões tomadas pelo coordenador
 
 - 2026-11-03: a ANA não aparecer no decreto de estrutura do MIDR não vira aviso. A lei (9.984, art. 3º) dá a vinculação, e a omissão num decreto de estrutura não é contradição entre fontes nem lacuna (D36, D37); fica na nota da relação.

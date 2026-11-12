@@ -1,0 +1,25 @@
+{
+  "id": "rel:comissao-de-etica-publica-coordena-sistema-de-gestao-da-etica",
+  "tipo": "relacao",
+  "nome": "A Comissão de Ética Pública coordena o Sistema de Gestão da Ética do Executivo federal",
+  "relacao": "coordena",
+  "de": "org:comissao-de-etica-publica",
+  "para": "org:sistema-de-gestao-da-etica-do-poder-executivo-federal",
+  "condicao": "Coordena, avalia e supervisiona o sistema e a Rede de Ética; apura infrações éticas dos membros das comissões setoriais.",
+  "vigencia": {
+    "de": "2007-02-02",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-6029-2007",
+      "dispositivo": "art. 4º, IV; art. 9º, parágrafo único; art. 21"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}
