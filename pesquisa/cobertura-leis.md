@@ -18,10 +18,19 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | LC 80/1994 (Defensoria Pública da União e normas gerais das Defensorias) | f2-funcoes-essenciais | 73 | 0 | 0 | 88 | 161 | 100,0% |
 | LC 73/1993 (Lei Orgânica da Advocacia-Geral da União) | f2-funcoes-essenciais | 41 | 0 | 0 | 24 | 65 | 100,0% |
 | Lei 10.480/2002 (Procuradoria-Geral Federal) | f2-funcoes-essenciais | 7 | 0 | 0 | 15 | 22 | 100,0% |
+| LC 35/1979 (Lei Orgânica da Magistratura Nacional) | f2-judiciario | 35 | 0 | 0 | 109 | 144 | 100,0% |
+| Lei nº 5.010/1966 (Justiça Federal de primeira instância) | f2-judiciario | 10 | 0 | 0 | 86 | 96 | 100,0% |
+| Lei nº 10.259/2001 (Juizados Especiais Federais) | f2-judiciario | 12 | 0 | 0 | 15 | 27 | 100,0% |
+| Lei nº 8.457/1992 (organização da Justiça Militar da União) | f2-judiciario | 39 | 0 | 0 | 63 | 102 | 100,0% |
+| CLT, arts. 643 a 735 (organização da Justiça do Trabalho) | f2-judiciario | 24 | 0 | 0 | 55 | 79 | 100,0% |
+| Código Eleitoral (Lei nº 4.737/1965), arts. 12 a 41 (órgãos da Justiça Eleitoral) | f2-judiciario | 21 | 1 | 0 | 9 | 31 | 96,8% |
+| Lei nº 11.697/2008 (organização judiciária do DF e dos Territórios) | f2-judiciario | 54 | 0 | 0 | 36 | 90 | 100,0% |
+| RISTF (Regimento Interno do STF, edição atualizada até a ER 58/2022) | f2-judiciario | 35 | 0 | 0 | 363 | 398 | 100,0% |
+| RISTJ (Regimento Interno do STJ, edição atualizada até a ER 54/2026) | f2-judiciario | 54 | 0 | 0 | 372 | 426 | 100,0% |
 | RICD (Resolução da Câmara nº 17/1989) | f2-legislativo-tcu | 120 | 14 | 0 | 178 | 312 | 95,5% |
 | RISF (Resolução do Senado nº 93/1970) | f2-legislativo-tcu | 121 | 16 | 0 | 305 | 442 | 96,4% |
 | RCCN (Resolução nº 1/1970-CN) | f2-legislativo-tcu | 27 | 0 | 0 | 96 | 123 | 100,0% |
 | Resolução nº 1/2006-CN (CMO) | f2-legislativo-tcu | 42 | 0 | 0 | 122 | 164 | 100,0% |
 | Lei nº 8.443/1992 (Lei Orgânica do TCU) | f2-legislativo-tcu | 87 | 0 | 0 | 23 | 110 | 100,0% |
 
-Total: 2703 artigos classificados; cobertura 98,6% (5 em lacuna, 33 parciais).
+Total: 4096 artigos classificados; cobertura 99,0% (5 em lacuna, 34 parciais).

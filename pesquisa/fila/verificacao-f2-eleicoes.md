@@ -1,7 +1,8 @@
 ---
 id: verificacao-f2-eleicoes
 escopo: "Revisão independente da coleta f2-eleicoes (Código Eleitoral sem os arts. 12 a 41, Lei 9.504/1997, Lei 9.096/1995, LC 64/1990, Lei 9.709/1998)"
-status: pendente
+status: em-andamento
+iniciada_em: 2026-11-11
 depende_de: [f2-eleicoes]
 ---
 
