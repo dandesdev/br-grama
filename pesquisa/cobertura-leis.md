@@ -4,6 +4,11 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 
 | Lei | Tarefa | Coberto | Parcial | Lacuna | Fora | Total | Cobertura |
 |---|---|---:|---:|---:|---:|---:|---:|
+| Lei 4.737/1965 (Código Eleitoral), exceto arts. 12 a 41 | f2-eleicoes | 63 | 0 | 3 | 272 | 338 | 99,1% |
+| Lei 9.504/1997 (Lei das Eleições) | f2-eleicoes | 35 | 0 | 0 | 104 | 139 | 100,0% |
+| Lei 9.096/1995 (Lei dos Partidos Políticos) | f2-eleicoes | 40 | 0 | 0 | 29 | 69 | 100,0% |
+| LC 64/1990 (Lei das Inelegibilidades) | f2-eleicoes | 27 | 0 | 0 | 5 | 32 | 100,0% |
+| Lei 9.709/1998 (plebiscito, referendo e iniciativa popular) | f2-eleicoes | 15 | 0 | 0 | 0 | 15 | 100,0% |
 | Lei 14.600/2023 | f2-executivo | 61 | 0 | 1 | 18 | 80 | 98,8% |
 | Decreto-Lei 200/1967 | f2-executivo | 14 | 3 | 1 | 167 | 185 | 97,8% |
 | Lei 13.848/2019 | f2-executivo | 42 | 0 | 0 | 10 | 52 | 100,0% |
@@ -19,4 +24,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Resolução nº 1/2006-CN (CMO) | f2-legislativo-tcu | 42 | 0 | 0 | 122 | 164 | 100,0% |
 | Lei nº 8.443/1992 (Lei Orgânica do TCU) | f2-legislativo-tcu | 87 | 0 | 0 | 23 | 110 | 100,0% |
 
-Total: 2110 artigos classificados; cobertura 98,3% (2 em lacuna, 33 parciais).
+Total: 2703 artigos classificados; cobertura 98,6% (5 em lacuna, 33 parciais).

@@ -1,8 +1,10 @@
 ---
 id: f2-processos-constitucionais
 escopo: "Fase 2 (D49): leis do controle concentrado, da súmula vinculante, dos remédios constitucionais e do impeachment"
-status: pendente
+status: em-andamento
 depende_de: [f0-controle-constitucionalidade]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -30,3 +32,5 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 ## Cobertura
 
 ## Diário
+
+- 2026-11-11 — iniciada; lidos CLAUDE.md, decisões, modelo de dados, protocolo e instruções (fase 2)

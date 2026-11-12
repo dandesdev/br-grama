@@ -39,12 +39,12 @@
       "id": "despacho-inicial",
       "tipo_etapa": "decisao",
       "atores": [
-        "cargo:ministro-do-tse",
+        "cargo:corregedor-geral-eleitoral",
         "cargo:juiz-de-tre",
         "cargo:juiz-eleitoral"
       ],
       "acao": "O corregedor manda notificar o representado, pode suspender o ato questionado ou rejeita a representação",
-      "detalhes": "O Corregedor-Geral (ministro do TSE) ou Regional (juiz do TRE) tem as atribuições de relator; nas eleições municipais, o papel é do juiz eleitoral, e o do Procurador-Geral ou Regional Eleitoral cabe ao promotor eleitoral da zona (LC 64/1990, arts. 22, I, e 24). Se o corregedor indeferir ou demorar, o interessado pode renovar o pedido ao tribunal, que decide em 24 horas, ou levar o fato ao TSE (art. 22, II e III).",
+      "detalhes": "O Corregedor-Geral Eleitoral ou o Corregedor Regional (juiz do TRE) tem as atribuições de relator; nas eleições municipais, o papel é do juiz eleitoral, e o do Procurador-Geral ou Regional Eleitoral cabe ao promotor eleitoral da zona (LC 64/1990, arts. 22, I, e 24). Se o corregedor indeferir ou demorar, o interessado pode renovar o pedido ao tribunal, que decide em 24 horas, ou levar o fato ao TSE (art. 22, II e III).",
       "fontes": [
         {
           "ref": "norma:lc-64-1990",
@@ -90,7 +90,7 @@
     {
       "id": "instrucao",
       "atores": [
-        "cargo:ministro-do-tse",
+        "cargo:corregedor-geral-eleitoral",
         "cargo:juiz-de-tre",
         "cargo:juiz-eleitoral"
       ],
@@ -203,7 +203,7 @@
       "dispositivo": "arts. 30-A, 41-A e 73, §§ 12 e 13"
     }
   ],
-  "notas": "Os corregedores eleitorais ainda não têm cargo próprio no mapa: o Corregedor-Geral é um ministro do TSE e o Corregedor Regional, um juiz do TRE (Código Eleitoral, arts. 17 e 26, com a tarefa f2-judiciario); por isso os atores são cargo:ministro-do-tse e cargo:juiz-de-tre. Se a f2-judiciario criar os cargos de corregedor, trocar. O inciso XV do art. 22 foi revogado pela LC 135/2010.",
+  "notas": "O Corregedor-Geral Eleitoral é cargo:corregedor-geral-eleitoral (criado pela tarefa f2-judiciario). O Corregedor Regional, juiz do TRE que a lei designa (Código Eleitoral, art. 26), não tem cargo próprio no mapa; aparece como cargo:juiz-de-tre. O inciso XV do art. 22 foi revogado pela LC 135/2010.",
   "confianca": "oficial",
   "verificacao": {
     "status": "coletado",
