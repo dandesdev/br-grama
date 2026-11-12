@@ -4,7 +4,7 @@
   "nome": "Sistema Único de Segurança Pública",
   "sigla": "Susp",
   "resumo": "Reúne os órgãos de segurança pública da União, dos estados, do DF e dos municípios para agir de forma integrada. É coordenado pelo Ministério da Justiça e Segurança Pública.",
-  "detalhes": "A integração ocorre por operações conjuntas, estratégias comuns, aceitação mútua de registros de ocorrência e compartilhamento de dados. Cada ente mantém a organização própria de suas polícias. Há conselhos de segurança pública e defesa social em cada esfera.",
+  "detalhes": "A integração ocorre por operações conjuntas, estratégias comuns, aceitação mútua de registros de ocorrência e compartilhamento de dados, inclusive com o Sisbin. Cada ente mantém a organização própria de suas polícias. São integrantes estratégicos os Poderes Executivos dos entes e os conselhos de segurança pública e defesa social de cada esfera. O sistema conta com subsistemas nacionais de informação (Sinesp), de avaliação das políticas (Sinaped) e de formação e valorização profissional (Sievap, Renaesp e Pró-Vida). Os entes devem ter ouvidorias autônomas, e as corregedorias apuram a responsabilidade funcional.",
   "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "nacional",
@@ -15,7 +15,7 @@
     },
     {
       "ref": "norma:lei-13675-2018",
-      "dispositivo": "arts. 9º, 10 e 19 a 21"
+      "dispositivo": "arts. 8º a 10, 15, 17, 19 a 21, 26, 33 a 42 e 45"
     },
     {
       "ref": "norma:lei-14600-2023",
@@ -28,11 +28,11 @@
     "nota": "Instituído pela Lei 13.675/2018, em vigor 30 dias após a publicação de 12/6/2018."
   },
   "confianca": "oficial",
-  "notas": "Tipo 'sistema': órgãos de todas as esferas, sem hierarquia própria. A Lei 13.675/2018 ainda dá ao Ministério Extraordinário da Segurança Pública o papel de órgão central e coordenador (arts. 9º e 10, § 1º); pela Lei 14.600/2023 a coordenação é área do MJSP. O Susp não está na Constituição em 2026-10-01: a PEC 18/2025, que o inseriria, ainda tramitava no Senado em 2026-10-23 (fonte:senado-api-processo-pec-18-2025). Integrantes operacionais sem nó no mapa: institutos de criminalística, Senasp, Sedec, Senad, agentes de trânsito, guarda portuária e polícias legislativas.",
+  "notas": "Tipo 'sistema': órgãos de todas as esferas, sem hierarquia própria. A Lei 13.675/2018 ainda dá ao Ministério Extraordinário da Segurança Pública o papel de órgão central e coordenador (arts. 9º e 10, § 1º); pela Lei 14.600/2023 a coordenação é área do MJSP. O Susp não está na Constituição em 2026-10-01: a PEC 18/2025, que o inseriria, ainda tramitava no Senado em 2026-10-23 (fonte:senado-api-processo-pec-18-2025). Integrantes operacionais sem nó no mapa: institutos de criminalística, Senasp, Sedec, Senad, agentes de trânsito, guarda portuária e polícias legislativas. A lei autoriza a União a apoiar os entes sem condições de implantar o Susp e remete a regulamento os critérios do Fundo Nacional de Segurança Pública e do Fundo Penitenciário Nacional (arts. 15 e 17); quem deixa de alimentar o Sinesp pode ficar sem recursos da União (art. 37, § 2º).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-defesa-seguranca",
-    "notas": "coletado em f0-defesa-seguranca; tipo_orgao trocado de outro para sistema (termo criado depois da coleta); conferidos CF art. 144, § 7º, Lei 13.675/2018 arts. 9º, 10 e 19 a 21 e Lei 14.600/2023 art. 35, XVII"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca",
+    "notas": "f2-defesa-seguranca: detalhes ampliados (integrantes estratégicos, subsistemas, ouvidorias e corregedorias) e fontes da Lei 13.675/2018 ampliadas; nota sobre apoio da União, fundos e Sinesp"
   }
 }

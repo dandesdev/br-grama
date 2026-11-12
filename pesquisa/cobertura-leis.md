@@ -9,6 +9,13 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 12.527/2011 (Lei de Acesso à Informação) | f2-administracao | 27 | 0 | 0 | 22 | 49 | 100,0% |
 | Lei 13.303/2016 (estatuto das empresas estatais) | f2-administracao | 42 | 0 | 0 | 55 | 97 | 100,0% |
 | Lei 12.813/2013 (conflito de interesses) | f2-administracao | 7 | 0 | 0 | 5 | 12 | 100,0% |
+| LC 97/1999 (organização, preparo e emprego das Forças Armadas) | f2-defesa-seguranca | 22 | 0 | 0 | 4 | 26 | 100,0% |
+| Lei 9.883/1999 (Sistema Brasileiro de Inteligência e ABIN) | f2-defesa-seguranca | 14 | 0 | 0 | 2 | 16 | 100,0% |
+| Lei 13.675/2018 (Sistema Único de Segurança Pública) | f2-defesa-seguranca | 41 | 0 | 0 | 14 | 55 | 100,0% |
+| Lei 14.735/2023 (Lei Orgânica Nacional das Polícias Civis) | f2-defesa-seguranca | 29 | 0 | 0 | 17 | 46 | 100,0% |
+| Lei 14.751/2023 (Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares) | f2-defesa-seguranca | 20 | 0 | 0 | 22 | 42 | 100,0% |
+| Lei 9.266/1996 (Carreira Policial Federal) | f2-defesa-seguranca | 9 | 0 | 0 | 5 | 14 | 100,0% |
+| Lei 9.654/1998 (carreira de Policial Rodoviário Federal) | f2-defesa-seguranca | 6 | 0 | 0 | 5 | 11 | 100,0% |
 | Lei 4.737/1965 (Código Eleitoral), exceto arts. 12 a 41 | f2-eleicoes | 63 | 0 | 3 | 272 | 338 | 99,1% |
 | Lei 9.504/1997 (Lei das Eleições) | f2-eleicoes | 35 | 0 | 0 | 104 | 139 | 100,0% |
 | Lei 9.096/1995 (Lei dos Partidos Políticos) | f2-eleicoes | 40 | 0 | 0 | 29 | 69 | 100,0% |
@@ -50,4 +57,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.038/1990 (processos no STF e no STJ) | f2-processos-constitucionais | 22 | 0 | 0 | 13 | 35 | 100,0% |
 | Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 67 | 0 | 0 | 20 | 87 | 100,0% |
 
-Total: 5081 artigos classificados; cobertura 99,2% (5 em lacuna, 34 parciais).
+Total: 5291 artigos classificados; cobertura 99,3% (5 em lacuna, 34 parciais).

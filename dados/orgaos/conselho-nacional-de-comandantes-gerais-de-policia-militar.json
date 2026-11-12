@@ -1,0 +1,33 @@
+{
+  "id": "org:conselho-nacional-de-comandantes-gerais-de-policia-militar",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Comandantes-Gerais de Polícia Militar",
+  "sigla": "CNCGPM",
+  "resumo": "Colegiado nacional dos comandantes-gerais das polícias militares dos estados e do DF, que propõe diretrizes de padronização e intercâmbio entre elas.",
+  "detalhes": "É consultivo e deliberativo, mas só delibera sobre as próprias decisões. Representa as polícias militares junto ao MJSP, no Conselho Nacional de Segurança Pública e no Conselho Gestor do Sinesp. Presidente e vice são eleitos entre os membros para dois anos; reúne-se a cada semestre, e a secretaria-executiva fica com a polícia militar do presidente.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 37"
+    },
+    {
+      "ref": "norma:decreto-12997-2026",
+      "dispositivo": "arts. 2º a 4º, 7º e 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "nota": "Instituído pela Lei 14.751/2023; estrutura e funcionamento definidos pelo Decreto 12.997, de 8/6/2026 (DOU de 9/6/2026)."
+  },
+  "confianca": "oficial",
+  "notas": "Sem contido_em: reúne comandantes de entes diferentes e não está na estrutura do MJSP.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

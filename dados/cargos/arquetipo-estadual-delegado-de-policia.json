@@ -1,0 +1,73 @@
+{
+  "id": "cargo:arquetipo-estadual-delegado-de-policia",
+  "tipo": "cargo",
+  "nome": "Delegado de Polícia",
+  "resumo": "Autoridade policial da Polícia Civil: dirige as atividades da instituição e preside o inquérito policial. Ingressa por concurso de provas e títulos, com a OAB.",
+  "orgao": "org:arquetipo-estadual-policia-civil",
+  "arquetipo": "estadual",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado na lei de cada estado; não somamos.",
+  "provimento_nota": "Concurso público de provas e títulos, com participação da OAB em todas as fases e prova oral; o tempo de atividade policial civil conta na prova de títulos. Investidura na classe inicial; promoção por antiguidade, tempo de serviço e merecimento, conforme a lei do estado (Lei 14.735/2023, arts. 20, 21, 23 e 24).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo; estabilidade após três anos de efetivo exercício (art. 30, § 15)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro, com no mínimo 18 anos, quite com as obrigações eleitorais e militares e com capacidade física e mental",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 20, I a IV"
+        }
+      ]
+    },
+    {
+      "texto": "bacharel em Direito com três anos de atividade jurídica ou policial, comprovados na posse",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 20, §§ 3º e 5º"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em exame de saúde e exame toxicológico de larga janela de detecção",
+      "fontes": [
+        {
+          "ref": "norma:lei-13675-2018",
+          "dispositivo": "art. 4º-A"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Preside o inquérito policial com isenção e autonomia funcional e comanda as investigações; requisita a perícia oficial criminal. O Delegado-Geral, o Corregedor-Geral e o diretor da Escola Superior saem da classe mais elevada deste cargo.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 4º"
+    },
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 19 a 21, 23, 24, 26 e 30, § 15"
+    },
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 4º-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null,
+    "nota": "Regras nacionais da Lei 14.735/2023; o cargo é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado do arquétipo estadual. Direitos e garantias do art. 30 ficaram fora (D49).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -15,7 +15,7 @@
       "fontes": [
         {
           "ref": "norma:lei-13303-2016",
-          "dispositivo": "art. 51, I e II, e § 2º; art. 39"
+          "dispositivo": "art. 51, I e II, e § 2º; art. 39, I a III"
         }
       ],
       "seguintes": [
@@ -23,7 +23,13 @@
           "para": "propostas",
           "quando": null
         }
-      ]
+      ],
+      "prazo": {
+        "texto": "propostas ou lances no mínimo 5 a 45 dias úteis depois da divulgação do edital, conforme o objeto e o critério de julgamento",
+        "valor": 5,
+        "unidade": "dias-uteis",
+        "conta_de": "divulgação do instrumento convocatório"
+      }
     },
     {
       "id": "propostas",
@@ -199,8 +205,9 @@
   "confianca": "oficial",
   "notas": "Ator único: o conjunto das estatais federais, embora o rito valha para as estatais de todos os entes. Quem conduz cada fase dentro da estatal fica no regulamento interno de cada uma (art. 40).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; arts. 28 a 30, 34, 39, 40 e 51 a 62 conferidos; acrescentado o prazo mínimo entre o edital e as propostas (art. 39), que a etapa citava sem dizer"
   }
 }

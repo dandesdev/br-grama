@@ -1,0 +1,29 @@
+{
+  "id": "rel:comandante-geral-do-corpo-de-bombeiros-militar-integra-cncgbm",
+  "tipo": "relacao",
+  "nome": "O Comandante-Geral do Corpo de Bombeiros Militar integra o CNCGBM",
+  "relacao": "integra",
+  "de": "cargo:arquetipo-estadual-comandante-geral-do-corpo-de-bombeiros-militar",
+  "para": "org:conselho-nacional-de-comandantes-gerais-de-bombeiros-militares",
+  "condicao": "Membro do Plenário enquanto ocupar o cargo.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 37, caput"
+    },
+    {
+      "ref": "norma:decreto-12998-2026",
+      "dispositivo": "art. 4º, § 1º; art. 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

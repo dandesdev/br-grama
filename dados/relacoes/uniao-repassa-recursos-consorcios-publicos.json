@@ -1,0 +1,26 @@
+{
+  "id": "rel:uniao-repassa-recursos-consorcios-publicos",
+  "tipo": "relacao",
+  "nome": "A União pode repassar recursos aos consórcios públicos por convênio",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "org:consorcios-publicos",
+  "condicao": "Por convênio, para descentralizar e prestar políticas públicas em escala adequada; as exigências de regularidade valem para o próprio consórcio, não para os entes consorciados.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "art. 14, caput e parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-04-07",
+    "ate": null,
+    "nota": "Caput desde a redação original; parágrafo único incluído pela Lei 13.821/2019."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

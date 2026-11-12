@@ -5,7 +5,7 @@
   "relacao": "coordena",
   "de": "org:ministerio-da-justica-e-seguranca-publica",
   "para": "org:sistema-unico-de-seguranca-publica",
-  "condicao": "Coordenação de um sistema formado por órgãos de vários entes, que não são subordinados ao Ministério.",
+  "condicao": "Coordenação de um sistema formado por órgãos de vários entes, que não são subordinados ao Ministério. Como gestor do Susp, o Ministério fixa metas anuais com indicadores públicos, orienta e acompanha os integrantes, mantém o sistema de informações e coordena a inteligência de segurança pública integrada ao Sisbin.",
   "fontes": [
     {
       "ref": "norma:lei-14600-2023",
@@ -13,7 +13,7 @@
     },
     {
       "ref": "norma:lei-13675-2018",
-      "dispositivo": "art. 9º, caput; art. 10, § 1º"
+      "dispositivo": "art. 9º, caput; art. 10, § 1º; arts. 11 a 14"
     }
   ],
   "vigencia": {
@@ -24,9 +24,9 @@
   "confianca": "oficial",
   "notas": "A Lei 13.675/2018 (art. 9º, caput, e art. 10, § 1º) dá o papel de órgão central e coordenador ao Ministério Extraordinário da Segurança Pública, que não existe mais; hoje a coordenação do Susp é área de competência do MJSP (Lei 14.600/2023, art. 35, XVII).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-defesa-seguranca",
-    "notas": "coletado em f0-defesa-seguranca; relacao trocada de preside para coordena (termo criado depois da coleta); condição e nota reescritas; conferidos Lei 14.600/2023, art. 35, XVII, e Lei 13.675/2018, arts. 9º e 10, § 1º"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca",
+    "notas": "f2-defesa-seguranca: condição ampliada com a gestão do Susp (Lei 13.675/2018, arts. 11 a 14), acrescentados às fontes"
   }
 }

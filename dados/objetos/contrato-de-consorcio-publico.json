@@ -1,0 +1,29 @@
+{
+  "id": "obj:contrato-de-consorcio-publico",
+  "tipo": "objeto",
+  "nome": "Contrato de consórcio público",
+  "resumo": "Contrato entre entes da Federação que cria um consórcio público; nasce da ratificação por lei do protocolo de intenções.",
+  "detalhes": "Só se celebra depois da subscrição do protocolo de intenções e da ratificação por lei de cada ente (Lei 11.107/2005, arts. 3º e 5º). A alteração depende de instrumento aprovado pela assembleia geral e ratificado por lei da maioria dos entes; a extinção, de ratificação por todos (arts. 12 e 12-A). Os recursos dos entes só chegam ao consórcio por contrato de rateio (art. 8º).",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:consorcios-publicos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "arts. 3º, 5º, 8º, 12 e 12-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-04-07",
+    "ate": null,
+    "nota": "Lei 11.107/2005, em vigor na publicação (art. 21), DOU de 7/4/2005."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

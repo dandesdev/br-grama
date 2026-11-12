@@ -1,0 +1,238 @@
+{
+  "id": "proc:criacao-de-consorcio-publico",
+  "tipo": "processo",
+  "nome": "Criação de consórcio público",
+  "resumo": "Os entes subscrevem um protocolo de intenções, cada Legislativo o ratifica por lei, e o contrato de consórcio nasce; os recursos vêm por contrato de rateio.",
+  "detalhes": "Vale para consórcios entre quaisquer entes; a União só entra se também entrarem os estados onde ficam os municípios consorciados (Lei 11.107/2005, art. 1º, § 2º). Como associação pública, o consórcio integra a administração indireta de todos os consorciados (art. 6º, § 1º). As mesmas regras se aplicam, no que couber, aos convênios de cooperação (art. 1º, § 4º).",
+  "forma": "linha",
+  "produz": "obj:contrato-de-consorcio-publico",
+  "vigencia": {
+    "de": "2005-04-07",
+    "ate": null,
+    "nota": "Lei 11.107/2005, em vigor na publicação (art. 21), DOU de 7/4/2005."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "arts. 1º a 8º, 11 a 13"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 241"
+    }
+  ],
+  "confianca": "oficial",
+  "etapas": [
+    {
+      "id": "protocolo-de-intencoes",
+      "atores": [
+        "ente:uniao",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "Os entes que vão se consorciar subscrevem o protocolo de intenções e o publicam na imprensa oficial",
+      "detalhes": "O protocolo fixa nome, finalidade, sede, área de atuação, natureza jurídica, regras da assembleia geral e votos de cada ente, eleição e mandato do representante legal, empregados e, se houver gestão associada de serviços, as competências transferidas e as regras do contrato de programa.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 3º; art. 4º, caput, I a XII, e §§ 1º, 2º e 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ratificacao-por-lei",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "ratificacao-por-lei",
+      "atores": [
+        "org:congresso-nacional",
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "O Legislativo de cada ente ratifica o protocolo de intenções por lei",
+      "detalhes": "Cada ente aprova a sua lei de ratificação, pelo processo legislativo próprio. A ratificação pode ter reservas, se os outros entes aceitarem; depois de dois anos da subscrição, depende de homologação da assembleia geral. Fica dispensado o ente que já disciplinou sua participação por lei antes de subscrever o protocolo.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 5º, caput e §§ 2º a 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contrato-de-consorcio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "contrato-de-consorcio",
+      "atores": [
+        "ente:uniao",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "Com as leis de ratificação, celebra-se o contrato de consórcio público e o consórcio ganha personalidade jurídica",
+      "detalhes": "O contrato pode reunir só parte dos entes que subscreveram o protocolo, se ele previr. A associação pública ganha personalidade de direito público com a vigência das leis de ratificação; o consórcio de direito privado, ao cumprir a legislação civil. Nos dois casos segue normas de direito público em licitações, contratos, prestação de contas e admissão de pessoal (regime da CLT).",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 5º, caput e § 1º; art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "estatutos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "estatutos",
+      "atores": [
+        "org:assembleia-geral-dos-consorcios-publicos"
+      ],
+      "acao": "A assembleia geral aprova os estatutos, que organizam os órgãos do consórcio",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 4º, VI e VII; arts. 7º e 15"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contrato-de-rateio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "contrato-de-rateio",
+      "atores": [
+        "ente:uniao",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "Cada ente consorciado entrega recursos ao consórcio por contrato de rateio, firmado a cada exercício",
+      "detalhes": "O prazo não passa o das dotações, salvo projetos do plano plurianual, e os recursos não podem pagar despesas genéricas. O ente que não puser no orçamento as dotações do rateio pode ser suspenso e depois excluído. O consórcio informa as despesas para que entrem nas contas de cada ente, como exige a LRF.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 8º, caput e §§ 1º a 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contrato-de-programa",
+          "quando": "se houver prestação de serviço público em gestão associada"
+        },
+        {
+          "para": "funcionamento",
+          "quando": "nos demais casos"
+        }
+      ]
+    },
+    {
+      "id": "contrato-de-programa",
+      "atores": [
+        "ente:uniao",
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal",
+        "org:consorcios-publicos"
+      ],
+      "acao": "Se houver prestação associada de serviço, as obrigações entre entes e com o consórcio vão num contrato de programa",
+      "detalhes": "O contrato segue a legislação de concessões, não pode dar ao prestador o poder de regular e fiscalizar o próprio serviço e continua valendo mesmo se o consórcio for extinto. Desde a Lei 14.026/2020, é vedado celebrar novos contratos de programa para saneamento básico.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 13, caput e §§ 1º a 5º, 7º e 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "funcionamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "funcionamento",
+      "atores": [
+        "org:consorcios-publicos",
+        "cargo:representante-legal-de-consorcio-publico"
+      ],
+      "acao": "O consórcio funciona, sob fiscalização do tribunal de contas que aprecia as contas do seu representante legal",
+      "detalhes": "O consórcio pode firmar convênios, receber auxílios, promover desapropriações, cobrar tarifas e ser contratado pelos entes consorciados sem licitação. O controle externo de cada contrato de rateio continua com o tribunal de contas de cada ente. A União pode celebrar convênios com o consórcio.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 2º, §§ 1º a 3º; art. 9º; art. 14"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "alteracao-ou-extincao",
+          "quando": "se os entes decidirem alterar ou extinguir o contrato"
+        }
+      ]
+    },
+    {
+      "id": "alteracao-ou-extincao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:assembleia-geral-dos-consorcios-publicos"
+      ],
+      "acao": "A assembleia geral aprova a alteração ou a extinção do contrato, que precisa de ratificação por lei",
+      "detalhes": "A alteração é ratificada por lei da maioria dos entes consorciados; a extinção, por lei de todos. Até que se defina quem responde por cada obrigação, os entes respondem solidariamente. A retirada de um ente depende de ato formal do seu representante na assembleia e não desfaz as obrigações já assumidas.",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "arts. 11, 12 e 12-A"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "alterado",
+          "quando": "alteração ratificada pela maioria"
+        },
+        {
+          "para": "extinto",
+          "quando": "extinção ratificada por todos"
+        }
+      ]
+    },
+    {
+      "id": "alterado",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O contrato alterado segue em vigor",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 12-A"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "extinto",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O consórcio é extinto; os contratos de programa continuam até o fim",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 12; art. 13, § 4º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

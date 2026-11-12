@@ -1,0 +1,33 @@
+{
+  "id": "org:conselho-nacional-de-comandantes-gerais-de-bombeiros-militares",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Comandantes-Gerais de Bombeiros Militares",
+  "sigla": "CNCGBM",
+  "resumo": "Colegiado nacional dos comandantes-gerais dos corpos de bombeiros militares dos estados e do DF, que propõe diretrizes de padronização e intercâmbio entre eles.",
+  "detalhes": "É consultivo e deliberativo, mas só delibera sobre as próprias decisões. Representa os bombeiros militares junto ao MJSP e apoia mobilizações interestaduais em desastres, com cadastro nacional de efetivo e equipamentos. Presidente e vice são eleitos entre os membros para dois anos; reúne-se a cada semestre.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 37"
+    },
+    {
+      "ref": "norma:decreto-12998-2026",
+      "dispositivo": "arts. 2º a 4º, 7º e 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "nota": "Instituído pela Lei 14.751/2023; estrutura e funcionamento definidos pelo Decreto 12.998, de 8/6/2026 (DOU de 9/6/2026)."
+  },
+  "confianca": "oficial",
+  "notas": "Sem contido_em: reúne comandantes de entes diferentes e não está na estrutura do MJSP. Também são membros os comandantes dos corpos de bombeiros subordinados às polícias militares (Decreto 12.998/2026, art. 2º, § 1º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

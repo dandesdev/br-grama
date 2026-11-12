@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Pedido de acesso à informação no Executivo federal",
   "resumo": "Como um pedido pela Lei de Acesso à Informação é respondido e recorrido no Executivo federal: resposta em até 20 dias, recursos no órgão, à CGU e à Comissão Mista.",
-  "detalhes": "Qualquer pessoa pode pedir, sem dizer o motivo, e o serviço é gratuito, salvo o custo de reprodução (Lei 12.527/2011, arts. 10 e 12). Nos estados, municípios, no Legislativo, no Judiciário e no Ministério Público, a resposta segue os mesmos prazos, mas os recursos depois da autoridade superior seguem regulamento próprio (arts. 18 e 45). A Lei 9.784/1999 se aplica subsidiariamente (art. 20).",
+  "detalhes": "Qualquer pessoa pode pedir, sem dizer o motivo, e o serviço é gratuito, salvo o custo de reprodução (Lei 12.527/2011, arts. 10 e 12). No Legislativo, no Judiciário e no Ministério Público, a revisão da decisão do recurso à autoridade superior segue regulamento próprio (art. 18); estados, DF e municípios definem regras específicas em lei própria, sobretudo sobre o SIC e os recursos (art. 45). A Lei 9.784/1999 se aplica subsidiariamente (art. 20).",
   "forma": "linha",
   "etapas": [
     {
@@ -47,7 +47,7 @@
         },
         {
           "ref": "norma:decreto-7724-2012",
-          "dispositivo": "arts. 15 e 19"
+          "dispositivo": "arts. 15, 16 e 19"
         }
       ],
       "seguintes": [
@@ -178,11 +178,15 @@
         "cargo:ministro-de-estado"
       ],
       "acao": "Negada a desclassificação no órgão, o requerente recorre ao Ministro da área",
-      "detalhes": "O pedido de desclassificação vai primeiro à autoridade classificadora; o recurso ao Ministro só cabe depois de ao menos uma autoridade superior (nas Forças Armadas, o respectivo Comando).",
+      "detalhes": "O pedido de desclassificação vai primeiro à autoridade classificadora, que decide em 30 dias; o recurso ao Ministro, em 10 dias, só cabe depois de ao menos uma autoridade superior (nas Forças Armadas, o respectivo Comando), e o Ministro decide em 30 dias. Em autarquias, fundações e estatais, o recurso vai ao dirigente máximo da entidade.",
       "fontes": [
         {
           "ref": "norma:lei-12527-2011",
           "dispositivo": "art. 17, caput e § 1º; art. 29"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "arts. 36 e 37"
         }
       ],
       "seguintes": [
@@ -194,7 +198,13 @@
           "para": "recurso-cmri",
           "quando": "indefere, se a informação for secreta ou ultrassecreta"
         }
-      ]
+      ],
+      "prazo": {
+        "texto": "30 dias para a autoridade classificadora; 10 dias para recorrer; 30 dias para o Ministro decidir",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "apresentação do recurso"
+      }
     },
     {
       "id": "recurso-cmri",
@@ -279,8 +289,9 @@
   "confianca": "oficial",
   "notas": "A etapa recurso-no-orgao tem como ator o Poder Executivo federal porque a 'autoridade hierarquicamente superior' varia por órgão e não é entidade do mapa. O recurso à autoridade máxima, segunda instância interna, é do Decreto 7.724/2012, não da lei.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; prazos conferidos contra a LAI (arts. 11, 15 e 16) e o Decreto 7.724/2012 (arts. 15, 16 e 21 a 24, 36, 37, 48, 50 e 52); corrigidos os detalhes (o art. 18 trata só do Legislativo, do Judiciário e do MP; os estados seguem o art. 45, que também alcança os recursos) e acrescentados o prazo da desclassificação (Decreto 7.724/2012, arts. 36 e 37) e o art. 16 do decreto (prorrogação) na etapa resposta"
   }
 }

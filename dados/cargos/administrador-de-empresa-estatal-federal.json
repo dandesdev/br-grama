@@ -86,9 +86,14 @@
           "dispositivo": "art. 17, §§ 2º e 3º"
         },
         {
+          "ref": "fonte:stf-adi-7331-acordao",
+          "dispositivo": "ementa, itens 12 e 13, e acórdão",
+          "nota": "O STF declarou constitucionais as vedações do art. 17, § 2º, I e II (tese: 'São constitucionais as normas dos incisos I e II do § 2° do art. 17 da Lei 13.303/2016'); por unanimidade, manteve as nomeações feitas durante a liminar de 16/3/2023 ou antes dela."
+        },
+        {
           "ref": "fonte:stf-noticia-adi-7331",
           "dispositivo": "julgamento de 9/5/2024",
-          "nota": "O STF manteve válidas as vedações do art. 17, § 2º, I e II; quem foi indicado durante a liminar de março de 2023 pode ficar no cargo."
+          "nota": "Notícia oficial do julgamento."
         }
       ]
     }
@@ -116,8 +121,9 @@
   },
   "notas": "Pessoas (presidentes das estatais) não criadas: D11 cita dirigentes máximos, mas não procuramos quem ocupava cada presidência em 2026-10-01.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; Lei 13.303/2016, arts. 13, 16, 17, 19, 22 e 23, e Lei 6.404/1976, arts. 122, II, 140 e 143, conferidos; ADI 7.331 conferida no acórdão (fonte:stf-adi-7331-acordao), que passou a sustentar o requisito; a nota dizia 'quem foi indicado durante a liminar pode ficar no cargo', e o acórdão mantém as nomeações feitas durante a liminar ou antes dela"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "id": "org:conselho-nacional-da-policia-civil",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional da Polícia Civil",
+  "resumo": "Colegiado nacional dos delegados-gerais das polícias civis dos estados e do DF, que propõe diretrizes de padronização e intercâmbio entre elas.",
+  "detalhes": "É consultivo e deliberativo, mas só delibera sobre as próprias decisões. Representa as polícias civis junto ao Ministério da Justiça e Segurança Pública e no Conselho Nacional de Segurança Pública e no Conselho Gestor do Sinesp. Presidente e vice são eleitos entre os membros para dois anos; reúne-se a cada semestre, e a secretaria-executiva fica com a polícia civil do presidente.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "art. 44"
+    },
+    {
+      "ref": "norma:decreto-12996-2026",
+      "dispositivo": "arts. 2º a 4º, 7º e 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null,
+    "nota": "Instituído pela Lei 14.735/2023; composição e funcionamento definidos pelo Decreto 12.996, de 8/6/2026 (DOU de 9/6/2026)."
+  },
+  "confianca": "oficial",
+  "notas": "Sem contido_em: reúne chefes de polícias de entes diferentes e não está na estrutura do MJSP (o Ministério só custeia as reuniões ordinárias, art. 8º, § 2º, do Decreto 12.996/2026).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

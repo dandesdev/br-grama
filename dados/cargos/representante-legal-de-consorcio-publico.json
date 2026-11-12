@@ -1,0 +1,51 @@
+{
+  "id": "cargo:representante-legal-de-consorcio-publico",
+  "tipo": "cargo",
+  "nome": "Representante legal de consórcio público",
+  "resumo": "Chefe do Executivo de um dos entes consorciados, eleito para representar o consórcio, na forma e com o mandato fixados no protocolo de intenções.",
+  "detalhes": "O protocolo de intenções diz como ele é eleito e quanto dura o mandato; a lei só exige que seja chefe do Poder Executivo de ente consorciado (Lei 11.107/2005, art. 4º, VIII). As contas do consórcio são fiscalizadas pelo tribunal de contas que aprecia as contas desse chefe do Executivo (art. 9º, parágrafo único).",
+  "orgao": "org:consorcios-publicos",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "A lei manda o protocolo de intenções definir a forma de eleição (art. 4º, VIII); não diz quem vota. Leitura nossa: na prática, os representantes dos entes na assembleia geral.",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A Lei 11.107/2005 deixa a forma de eleição ao protocolo de intenções (art. 4º, VIII)."
+    }
+  },
+  "vagas": null,
+  "vagas_nota": "Um por consórcio; não há lista oficial única de consórcios consultada.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Duração fixada no protocolo de intenções (art. 4º, VIII)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser chefe do Poder Executivo de ente da Federação consorciado",
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 4º, VIII"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "art. 4º, VIII; art. 9º, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-04-07",
+    "ate": null,
+    "nota": "Lei 11.107/2005, em vigor na publicação (art. 21), DOU de 7/4/2005."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

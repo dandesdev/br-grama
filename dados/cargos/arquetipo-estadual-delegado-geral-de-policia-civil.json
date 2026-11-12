@@ -1,0 +1,50 @@
+{
+  "id": "cargo:arquetipo-estadual-delegado-geral-de-policia-civil",
+  "tipo": "cargo",
+  "nome": "Delegado-Geral de Polícia Civil",
+  "resumo": "Chefe da Polícia Civil do estado. É nomeado pelo governador entre os delegados de polícia em atividade da classe mais elevada.",
+  "orgao": "org:arquetipo-estadual-policia-civil",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "O governador escolhe e nomeia entre os delegados de polícia em atividade da classe mais elevada do cargo (Lei 14.735/2023, arts. 1º e 8º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na lei nacional; a lei pede que a transição da gestão não prejudique a continuidade dos serviços (art. 4º, XIX)."
+  },
+  "requisitos": [
+    {
+      "texto": "delegado de polícia em atividade, da classe mais elevada do cargo",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 8º, caput"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Dirige a Delegacia-Geral de Polícia Civil, preside o Conselho Superior de Polícia Civil e designa o Corregedor-Geral, o coordenador do Departamento de Identificação Civil e os chefes das unidades técnico-científicas. Deve apresentar, em até 30 dias da nomeação, um planejamento estratégico com metas de produtividade e de redução da criminalidade, diagnóstico de pessoal e material, capacitação e proposta de estrutura. Integra o Conselho Nacional da Polícia Civil.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 1º, 7º, I, 8º, 9º, 10, § 1º, 12, § 4º, 15 e 16"
+    },
+    {
+      "ref": "norma:decreto-12996-2026",
+      "dispositivo": "art. 4º, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null,
+    "nota": "Regras nacionais da Lei 14.735/2023 (DOU de 23/11/2023, edição extra). O cargo de chefe da polícia civil é anterior; o nome varia por estado."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado do arquétipo (um por estado); sem ocupante (D06). Provimento 'nomeacao-livre' é o termo mais próximo: escolha livre do governador, restrita aos delegados da classe mais elevada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

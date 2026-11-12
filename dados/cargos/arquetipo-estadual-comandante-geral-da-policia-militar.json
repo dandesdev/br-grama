@@ -1,0 +1,59 @@
+{
+  "id": "cargo:arquetipo-estadual-comandante-geral-da-policia-militar",
+  "tipo": "cargo",
+  "nome": "Comandante-Geral da Polícia Militar",
+  "resumo": "Comanda a Polícia Militar do estado e responde ao governador pela administração e pelo emprego da corporação. É nomeado pelo governador entre os coronéis da ativa.",
+  "orgao": "org:arquetipo-estadual-policia-militar",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "O governador nomeia entre os oficiais da ativa do último posto do Quadro de Oficiais de Estado-Maior, com o curso de comando e estado-maior (Lei 14.751/2023, arts. 2º e 29, caput e § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Pode permanecer, a critério do governador e conforme a lei do estado, durante o governo de quem o nomeou (Lei 14.751/2023, art. 29, § 1º)."
+  },
+  "requisitos": [
+    {
+      "texto": "oficial da ativa do último posto do Quadro de Oficiais de Estado-Maior (QOEM)",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 2º; art. 29, caput"
+        }
+      ]
+    },
+    {
+      "texto": "possuir o curso de comando e estado-maior (CCEM)",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 29, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Deve apresentar, em até 60 dias da posse, um plano de comando com metas, indicadores e prestação de contas, e divulgar todo ano um relatório com representações contra policiais, ocorrências, letalidade e vitimização de policiais e de civis e orçamento. Indica nomes para os cargos privativos, promove as praças e apresenta ao governador a lista de promoção dos oficiais. Regulamenta protocolos operacionais, que vão ao conselho estadual de segurança pública. Integra o Conselho Nacional de Comandantes-Gerais de Polícia Militar.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 6º"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "arts. 2º, 29, 30 e 37"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "nota": "Regras nacionais da Lei 14.751/2023 (DOU de 13/12/2023); o cargo é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado do arquétipo (um por estado); sem ocupante (D06). Provimento 'nomeacao-livre' é o termo mais próximo: escolha do governador, restrita aos oficiais do último posto do QOEM com CCEM. O coronel nomeado tem, enquanto no cargo, as prerrogativas de general de brigada para precedência (art. 29, § 6º, promulgado em 2024).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

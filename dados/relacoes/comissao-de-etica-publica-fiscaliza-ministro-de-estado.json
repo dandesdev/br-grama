@@ -5,7 +5,7 @@
   "relacao": "fiscaliza",
   "de": "org:comissao-de-etica-publica",
   "para": "cargo:ministro-de-estado",
-  "condicao": "Conflito de interesses durante e depois do cargo. Vale também para cargos de natureza especial, dirigentes de autarquias, fundações e estatais e cargos DAS 5 e 6 (Lei 12.813/2013, art. 2º, I a IV); os demais agentes ficam com a CGU.",
+  "condicao": "Conflito de interesses durante e depois do cargo. Vale também para cargos de natureza especial, dirigentes de autarquias, fundações e estatais e cargos DAS 5 e 6 ou equivalentes (Lei 12.813/2013, art. 2º, I a IV); os demais agentes ficam com a CGU.",
   "vigencia": {
     "de": "2013-07-01",
     "ate": null,
@@ -20,8 +20,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; corrigido: 'DAS 5 e 6 ou equivalentes' (Lei 12.813/2013, art. 2º, IV); arts. 2º, 8º e 9º conferidos; vigência calculada pela LINDB"
   }
 }

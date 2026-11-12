@@ -3,12 +3,14 @@
   "tipo": "objeto",
   "nome": "Informação classificada como sigilosa",
   "resumo": "Informação pública cujo acesso é restringido por tempo limitado, por ser imprescindível à segurança da sociedade ou do Estado: ultrassecreta (25 anos), secreta (15) ou reservada (5).",
-  "detalhes": "No Executivo federal, classificam como ultrassecreta o Presidente, o Vice-Presidente, os Ministros de Estado e autoridades equivalentes, os Comandantes das Forças e os chefes de missões diplomáticas e consulares permanentes; como secreta, também os titulares de autarquias, fundações e estatais; como reservada, também quem ocupa função de direção DAS 101.5 ou superior (Lei 12.527/2011, art. 27). A classificação ultrassecreta feita por Comandante ou chefe de missão precisa ser ratificada pelo Ministro, e toda classificação ultrassecreta vai à Comissão Mista de Reavaliação de Informações (art. 27, §§ 2º e 3º). Vencido o prazo, a informação fica pública automaticamente (art. 24, § 4º).",
+  "detalhes": "Na administração pública federal, classificam como ultrassecreta o Presidente, o Vice-Presidente, os Ministros de Estado e autoridades equivalentes, os Comandantes das Forças e os chefes de missões diplomáticas e consulares permanentes; como secreta, também os titulares de autarquias, fundações e estatais; como reservada, também quem ocupa função de direção DAS 101.5 ou superior (Lei 12.527/2011, art. 27). A classificação ultrassecreta feita por Comandante ou chefe de missão precisa ser ratificada pelo Ministro, e toda classificação ultrassecreta vai à Comissão Mista de Reavaliação de Informações (art. 27, §§ 2º e 3º). No Executivo, o decreto proíbe delegar a classificação ultrassecreta ou secreta, salvo ao Presidente do Banco Central, e manda enviar os dados das classificações secretas e ultrassecretas à Comissão Mista e de todas à CGU (Decreto 7.724/2012, arts. 30, §§ 1º e 7º, e 32). Vencido o prazo, a informação fica pública automaticamente (art. 24, § 4º).",
   "tipo_objeto": "documento",
   "esfera": "federal",
   "vigencia": {
     "de": "2012-05-16",
-    "ate": null
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 12.527/2011 calculada (ver a norma)."
   },
   "fontes": [
     {
@@ -17,14 +19,15 @@
     },
     {
       "ref": "norma:decreto-7724-2012",
-      "dispositivo": "art. 30"
+      "dispositivo": "art. 30, §§ 1º, 5º a 7º; art. 32"
     }
   ],
   "confianca": "oficial",
   "notas": "Quem classifica em cada grau fica nos detalhes porque o vocabulário de relações não tem o verbo 'classifica' (proposta no diário). As informações sob sigilo em si não são aviso (D08, D37): a lei diz quem classifica e por quanto tempo.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; corrigido: 'No Executivo federal' passou a 'Na administração pública federal' (art. 27, caput); acrescentadas as regras do Decreto 7.724/2012 (vedação de delegar ultrassecreto e secreto, salvo ao Presidente do Banco Central; envio dos termos à CMRI e à CGU, arts. 30 e 32), porque a LAI permitia delegar (art. 27, § 1º); vigência marcada como incerta, como na norma"
   }
 }

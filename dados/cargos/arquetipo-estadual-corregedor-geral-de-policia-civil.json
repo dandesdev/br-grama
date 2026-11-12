@@ -1,0 +1,44 @@
+{
+  "id": "cargo:arquetipo-estadual-corregedor-geral-de-policia-civil",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral de Polícia Civil",
+  "resumo": "Dirige a Corregedoria-Geral de Polícia Civil. É designado pelo Delegado-Geral entre os delegados de polícia da classe mais elevada.",
+  "orgao": "org:arquetipo-estadual-corregedoria-geral-de-policia-civil",
+  "arquetipo": "estadual",
+  "provimento": "designacao",
+  "vagas": 1,
+  "provimento_nota": "Designado pelo Delegado-Geral de Polícia Civil entre os delegados da classe mais elevada (Lei 14.735/2023, art. 10, § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na lei nacional."
+  },
+  "requisitos": [
+    {
+      "texto": "delegado de polícia da classe mais elevada",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 10, § 1º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "art. 10, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado do arquétipo; sem ocupante.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

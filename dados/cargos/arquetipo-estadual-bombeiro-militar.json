@@ -1,0 +1,73 @@
+{
+  "id": "cargo:arquetipo-estadual-bombeiro-militar",
+  "tipo": "cargo",
+  "nome": "Bombeiro Militar",
+  "resumo": "Militar do estado no Corpo de Bombeiros Militar, de soldado a coronel. Ingressa por concurso público e sobe por promoção, por antiguidade e merecimento.",
+  "orgao": "org:arquetipo-estadual-corpo-de-bombeiros-militar",
+  "arquetipo": "estadual",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O efetivo é fixado em lei de cada estado; não somamos.",
+  "provimento_nota": "Concurso público de provas ou de provas e títulos, com ingresso como aluno-soldado (praças) ou cadete do curso de formação de oficiais (QOEM). A progressão é por promoção, por antiguidade e merecimento, com cursos exigidos para cada posto (Lei 14.751/2023, arts. 13 a 16).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Militares de carreira têm estabilidade após três anos de efetivo serviço (Lei 14.751/2023, art. 18, XXVI)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro, quite com obrigações militares e eleitorais, no gozo dos direitos políticos e sem antecedentes penais dolosos incompatíveis",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 13, I a IV"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em concurso, investigação social, exame de aptidão física e psicológica, exame de saúde e toxicológico",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 13, V a VIII"
+        }
+      ]
+    },
+    {
+      "texto": "nível superior de escolaridade na admissão, conforme a lei do estado; para o QOEM, bacharelado em direito ou outra graduação prevista na lei do estado",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 13, IX; art. 15, I e V; art. 39"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Segue a mesma hierarquia de postos e graduações da Polícia Militar, com a designação 'BM'. São julgados nos crimes militares pela Justiça Militar estadual.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 42; art. 125, §§ 4º e 5º"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "arts. 11 a 16 e 18, XVII e XXVI"
+    },
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 4º-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "nota": "Regras nacionais da Lei 14.751/2023; a carreira é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado para todos os postos e graduações.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

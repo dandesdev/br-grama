@@ -1,0 +1,49 @@
+{
+  "id": "cargo:perito-criminal-federal",
+  "tipo": "cargo",
+  "nome": "Perito Criminal Federal",
+  "resumo": "Dirige as atividades periciais da Polícia Federal, com autonomia técnica e científica. Ingressa por concurso de provas e títulos, com formação superior específica.",
+  "orgao": "org:policia-federal",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos não foi levantado.",
+  "provimento_nota": "Concurso público de provas e títulos, exigida formação superior e específica; ingresso na terceira classe (Lei 9.266/1996, arts. 2º e 2º-D).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo."
+  },
+  "requisitos": [
+    {
+      "texto": "formação superior e específica; aprovação em concurso público de provas e títulos",
+      "fontes": [
+        {
+          "ref": "norma:lei-9266-1996",
+          "dispositivo": "art. 2º-D, parágrafo único"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9266-1996",
+      "dispositivo": "arts. 1º, 2º, 2º-D e 10"
+    },
+    {
+      "ref": "norma:decreto-lei-2251-1985",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1985-02-27",
+    "ate": null,
+    "nota": "Cargo da Carreira Policial Federal desde o Decreto-Lei 2.251/1985; o art. 2º-D é da Lei 13.047/2014."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado. Os antigos Censores Federais foram enquadrados como peritos ou delegados pela Lei 9.688/1998.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

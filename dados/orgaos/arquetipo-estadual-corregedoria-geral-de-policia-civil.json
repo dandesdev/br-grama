@@ -1,0 +1,38 @@
+{
+  "id": "org:arquetipo-estadual-corregedoria-geral-de-policia-civil",
+  "tipo": "orgao",
+  "nome": "Corregedoria-Geral de Polícia Civil",
+  "resumo": "Faz o controle interno e a correição da Polícia Civil e apura infrações disciplinares e penais dos seus servidores no exercício da função. Tem autonomia.",
+  "detalhes": "Atua de forma preventiva e repressiva e zela pela qualidade e pela avaliação do serviço policial. Nos processos disciplinares que terminam em demissão, há recurso ao Conselho Superior de Polícia Civil e, em última instância, ao governador.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-policia-civil",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 7º, III"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 7º, III, e 10"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

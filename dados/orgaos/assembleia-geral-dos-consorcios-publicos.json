@@ -1,0 +1,44 @@
+{
+  "id": "org:assembleia-geral-dos-consorcios-publicos",
+  "tipo": "orgao",
+  "nome": "Assembleia geral dos consórcios públicos",
+  "resumo": "Instância máxima de cada consórcio público, em que cada ente consorciado tem ao menos um voto; aprova os estatutos e decide sobre alteração e extinção.",
+  "detalhes": "O protocolo de intenções fixa as regras de convocação e funcionamento e o número de votos de cada ente, com pelo menos um voto por consorciado (Lei 11.107/2005, art. 4º, VI, VII e § 2º). A assembleia homologa a ratificação feita mais de dois anos depois da subscrição do protocolo (art. 5º, § 3º) e aprova o instrumento de alteração ou de extinção do contrato, que depois é ratificado por lei (arts. 12 e 12-A). A saída de um ente se faz por ato formal do seu representante na assembleia (art. 11).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:consorcios-publicos",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11107-2005",
+          "dispositivo": "art. 4º, VII"
+        }
+      ],
+      "nota": "Cada consórcio tem a sua assembleia; o nó representa todas, dentro do conjunto dos consórcios."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma aproximação do conjunto org:consorcios-publicos: um consórcio pode reunir entes de várias esferas."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "art. 4º, VI e VII, e § 2º; art. 5º, § 3º; arts. 11, 12 e 12-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-04-07",
+    "ate": null,
+    "nota": "Lei 11.107/2005, em vigor na publicação (art. 21), DOU de 7/4/2005."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto implícito: um nó para as assembleias de todos os consórcios. Os demais órgãos de cada consórcio vêm dos estatutos (art. 7º) e não têm nó.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "cargo:arquetipo-estadual-perito-oficial-criminal",
+  "tipo": "cargo",
+  "nome": "Perito Oficial Criminal",
+  "resumo": "Faz a perícia oficial de natureza criminal, com autonomia técnica e científica. Só integra a Polícia Civil nos estados em que a perícia está na estrutura dela.",
+  "orgao": "org:arquetipo-estadual-policia-civil",
+  "arquetipo": "estadual",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "Depende do estado: onde o órgão central de perícia fica fora da Polícia Civil, o cargo não pertence a ela. Não somamos.",
+  "provimento_nota": "Concurso público, com seleção por área de conhecimento quando o edital previr (Lei 14.735/2023, art. 20, § 2º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo."
+  },
+  "requisitos": [
+    {
+      "texto": "diploma de curso superior completo reconhecido pelo MEC, com habilitação específica quando a lei do estado exigir",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 20, § 2º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Atua por requisição do delegado de polícia. Os peritos da classe mais elevada coordenam os institutos de Criminalística, de Medicina Legal e de Identificação quando eles estão na Polícia Civil.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 6º, IV, 15, 19, III, 20, § 2º, 28 e 39"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado e condicional do arquétipo (art. 19, III). Quais estados mantêm a perícia na Polícia Civil não foi levantado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -130,6 +130,7 @@
       "id": "julgamento",
       "tipo_etapa": "decisao",
       "atores": [
+        "org:poder-executivo-federal",
         "cargo:presidente-da-republica",
         "cargo:ministro-de-estado",
         "cargo:presidente-da-camara-dos-deputados",
@@ -142,10 +143,11 @@
         "cargo:presidente-de-trf",
         "cargo:presidente-de-trt",
         "cargo:presidente-do-tjdft",
+        "cargo:presidente-do-tcu",
         "cargo:procurador-geral-da-republica"
       ],
       "acao": "A autoridade competente para a pena julga em 20 dias, seguindo o relatório salvo se contrário às provas",
-      "detalhes": "Se a pena passar da alçada de quem instaurou, o processo sobe a quem pode aplicá-la. Demissão e cassação cabem ao Presidente da República (no Executivo, delegada aos Ministros e ao Presidente do Banco Central), aos Presidentes da Câmara, do Senado e dos tribunais federais e ao PGR. A autoridade pode agravar, abrandar ou afastar a pena proposta se o relatório contrariar as provas; vício insanável anula o processo.",
+      "detalhes": "Se a pena passar da alçada de quem instaurou, o processo sobe a quem pode aplicá-la. Advertência e suspensão de até 30 dias cabem ao chefe da repartição ou a quem o regimento indicar, e a destituição de cargo em comissão, a quem nomeou. Demissão e cassação cabem ao Presidente da República (no Executivo, delegada aos Ministros e ao Presidente do Banco Central), aos Presidentes da Câmara, do Senado e dos tribunais federais, inclusive o do TCU pelo seu regimento, e ao PGR. A autoridade pode agravar, abrandar ou afastar a pena proposta se o relatório contrariar as provas; vício insanável anula o processo.",
       "prazo": {
         "texto": "20 dias do recebimento do processo",
         "valor": 20,
@@ -160,6 +162,11 @@
         {
           "ref": "norma:decreto-11123-2022",
           "dispositivo": "arts. 2º a 4º"
+        },
+        {
+          "ref": "norma:ritcu",
+          "dispositivo": "art. 28, XXXVIII",
+          "nota": "Conferido na republicação de 2023 do RITCU; alterações posteriores (Res.-TCU 375/2025) não conferidas neste inciso."
         }
       ],
       "seguintes": [
@@ -255,10 +262,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "As etapas de apuração, sindicância, instauração e inquérito têm como ator o Poder Executivo federal (e a CGU, onde a lei a nomeia) porque a autoridade instauradora e a comissão variam caso a caso e não são entidades do mapa. Os Presidentes de TRE não estão entre os atores do julgamento por não haver cargo próprio no mapa. A inclusão do Presidente do TCU entre os 'Presidentes dos Tribunais Federais' do art. 141, I, não foi conferida; deixamos de fora.",
+  "notas": "As etapas de apuração, sindicância, instauração e inquérito têm como ator o Poder Executivo federal (e a CGU, onde a lei a nomeia) porque a autoridade instauradora e a comissão variam caso a caso e não são entidades do mapa. Os Presidentes de TRE não estão entre os atores do julgamento por não haver cargo próprio no mapa, embora o art. 141, I ('Presidentes ... dos Tribunais Federais') os alcance. O Presidente do TCU entrou na revisão: o RITCU, art. 28, XXXVIII, dá a ele a aplicação de demissão e cassação a servidores do Tribunal. No julgamento, o Poder Executivo federal representa o chefe da repartição e as demais autoridades das penas menores (art. 141, III e IV).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; arts. 127, 133, 140, 141 e 143 a 182 conferidos, inclusive os prazos (sindicância 30+30, afastamento 60+60, processo 60+60, defesa 10/20 dias prorrogáveis pelo dobro, julgamento 20, revisão 60+20; rito sumário 3, 5, 30+15 e 5 dias); completado: julgamento ganhou o ator genérico das penas menores (art. 141, III e IV) e o Presidente do TCU (RITCU, art. 28, XXXVIII)"
   }
 }

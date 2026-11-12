@@ -1,0 +1,38 @@
+{
+  "id": "org:arquetipo-estadual-escola-superior-de-policia-civil",
+  "tipo": "orgao",
+  "nome": "Escola Superior de Polícia Civil",
+  "resumo": "Órgão de formação, capacitação, pesquisa e extensão da Polícia Civil; participa dos concursos para os cargos da corporação.",
+  "detalhes": "É dirigida por delegado da classe mais elevada, de preferência com especialização em administração ou educação. Pode oferecer cursos de graduação e pós-graduação equivalentes aos das universidades públicas, se observadas as exigências do MEC.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-policia-civil",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 7º, IV"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 7º, IV, e 11"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

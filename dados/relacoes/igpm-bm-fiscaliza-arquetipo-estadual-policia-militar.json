@@ -1,0 +1,26 @@
+{
+  "id": "rel:igpm-bm-fiscaliza-arquetipo-estadual-policia-militar",
+  "tipo": "relacao",
+  "nome": "A IGPM/BM controla a Polícia Militar como força auxiliar do Exército",
+  "relacao": "fiscaliza",
+  "de": "org:inspetoria-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
+  "para": "org:arquetipo-estadual-policia-militar",
+  "condicao": "Só no que toca à condição de força auxiliar e reserva do Exército: registro de dados, efetivos e material bélico e visitas de orientação técnica.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 28, caput e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A lei fala em 'controle e coordenação, no âmbito federal'; 'fiscaliza' é o termo mais próximo do vocabulário.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

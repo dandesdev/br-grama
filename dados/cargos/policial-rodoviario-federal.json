@@ -1,0 +1,50 @@
+{
+  "id": "cargo:policial-rodoviario-federal",
+  "tipo": "cargo",
+  "nome": "Policial Rodoviário Federal",
+  "resumo": "Único cargo da carreira da PRF: patrulha as rodovias federais, fiscaliza o trânsito e socorre vítimas de acidentes. Ingressa por concurso, com curso superior.",
+  "orgao": "org:policia-rodoviaria-federal",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos não foi levantado (a carreira foi criada com 10.098 cargos, Lei 9.654/1998, art. 1º, parágrafo único).",
+  "provimento_nota": "Concurso em duas fases eliminatórias: exame psicotécnico e provas e títulos, depois curso de formação. Ingresso no padrão inicial da Terceira Classe, com pelo menos três anos, de preferência, na primeira lotação em atividade operacional; a carreira segue para Segunda, Primeira e Classe Especial (Lei 9.654/1998, arts. 2º-A e 3º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo, com dedicação integral e exclusiva (art. 7º)."
+  },
+  "requisitos": [
+    {
+      "texto": "diploma de curso superior completo reconhecido pelo MEC e demais requisitos do edital",
+      "fontes": [
+        {
+          "ref": "norma:lei-9654-1998",
+          "dispositivo": "art. 3º, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "A Terceira Classe faz fiscalização, patrulhamento e socorro; as classes seguintes somam planejamento, coordenação e, na Classe Especial, direção, corregedoria, inteligência e ensino. Cargos em comissão da PRF vão de preferência a policiais da carreira das classes finais.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 2º"
+    },
+    {
+      "ref": "norma:lei-9654-1998",
+      "dispositivo": "arts. 1º, 2º-A, 3º, 7º e 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-06-03",
+    "ate": null,
+    "nota": "Carreira criada pela Lei 9.654/1998; as classes atuais vigoram desde 1º/1/2013 (Lei 12.775/2012)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

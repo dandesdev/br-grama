@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-tce-fiscaliza-consorcios-publicos",
+  "tipo": "relacao",
+  "nome": "O tribunal de contas fiscaliza os consórcios públicos",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "org:consorcios-publicos",
+  "condicao": "Fiscaliza as contas, as operações e o patrimônio do consórcio o tribunal de contas competente para as contas do chefe do Executivo que é o representante legal do consórcio; cada contrato de rateio continua sob o controle externo do tribunal de cada ente.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "art. 9º, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-04-07",
+    "ate": null,
+    "nota": "Lei 11.107/2005, em vigor na publicação (art. 21), DOU de 7/4/2005."
+  },
+  "confianca": "oficial",
+  "notas": "Parte do TCE do arquétipo porque o representante legal costuma ser um prefeito ou governador. Nos estados com tribunal de contas dos municípios, o TCM (variações já existentes); se o representante fosse o Presidente da República, o TCU.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

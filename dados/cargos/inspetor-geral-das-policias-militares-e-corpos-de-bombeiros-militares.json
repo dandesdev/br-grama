@@ -1,0 +1,38 @@
+{
+  "id": "cargo:inspetor-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
+  "tipo": "cargo",
+  "nome": "Inspetor-Geral das Polícias Militares e dos Corpos de Bombeiros Militares",
+  "resumo": "Dirige a IGPM/BM. É oficial-general da ativa do Exército.",
+  "orgao": "org:inspetoria-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
+  "provimento": "designacao",
+  "vagas": 1,
+  "provimento_nota": "Exercido por oficial-general da ativa, nos termos da legislação do Exército; a Lei 14.751/2023 não diz quem escolhe.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na lei."
+  },
+  "requisitos": [
+    {
+      "texto": "oficial-general da ativa",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 28, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Provimento 'designacao' é leitura nossa: o cargo é exercido por militar de carreira, sem nova nomeação para o posto. Não é cúpula (D11): sem ocupante.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

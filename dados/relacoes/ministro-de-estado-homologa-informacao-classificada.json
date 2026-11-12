@@ -5,7 +5,7 @@
   "relacao": "homologa",
   "de": "cargo:ministro-de-estado",
   "para": "obj:informacao-classificada",
-  "condicao": "Classificação no grau ultrassecreto pelos Comandantes da Marinha, do Exército e da Aeronáutica (Ministro da Defesa) ou pelos chefes de missões diplomáticas e consulares permanentes (Ministro das Relações Exteriores), no prazo do regulamento.",
+  "condicao": "Classificação no grau ultrassecreto pelos Comandantes da Marinha, do Exército e da Aeronáutica (Ministro da Defesa) ou pelos chefes de missões diplomáticas e consulares permanentes (Ministro das Relações Exteriores), em 30 dias; até a ratificação, a classificação vale (Decreto 7.724/2012, art. 30, §§ 5º e 6º).",
   "vigencia": {
     "de": "2012-05-16",
     "ate": null
@@ -14,18 +14,23 @@
     {
       "ref": "norma:lei-12527-2011",
       "dispositivo": "art. 27, I, d e e, e § 2º"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 30, §§ 5º e 6º"
     }
   ],
   "confianca": "oficial",
   "campos": {
     "condicao": {
       "confianca": "inferido",
-      "nota": "A lei diz 'pelos respectivos Ministros de Estado'; ligar os Comandantes ao Ministro da Defesa e os chefes de missão ao Ministro das Relações Exteriores é leitura nossa."
+      "nota": "A lei diz 'pelos respectivos Ministros de Estado' e o decreto, 'pelo Ministro de Estado'; ligar os Comandantes ao Ministro da Defesa e os chefes de missão ao Ministro das Relações Exteriores é leitura nossa, apoiada na subordinação das Forças Armadas ao Ministro da Defesa (LC 97/1999, art. 3º) e na lotação do chefe de missão no Itamaraty (cargo:chefe-de-missao-diplomatica-permanente)."
     }
   },
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; completado com o prazo de 30 dias e a validade até a ratificação (Decreto 7.724/2012, art. 30, §§ 5º e 6º); a leitura Defesa/Relações Exteriores continua inferida (nem a lei nem o decreto nomeiam o Ministro), com o apoio da LC 97/1999, art. 3º, na nota"
   }
 }

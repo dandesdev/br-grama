@@ -4,7 +4,7 @@
   "nome": "Polícia Federal",
   "sigla": "PF",
   "resumo": "Polícia judiciária da União: investiga crimes contra bens e interesses federais e de repercussão interestadual ou internacional, e faz a polícia marítima, aeroportuária e de fronteiras.",
-  "detalhes": "Também previne e reprime o tráfico de drogas, o contrabando e o descaminho. É órgão permanente, organizado e mantido pela União e estruturado em carreira, dentro do Ministério da Justiça e Segurança Pública.",
+  "detalhes": "Também previne e reprime o tráfico de drogas, o contrabando e o descaminho. É órgão permanente, organizado e mantido pela União e estruturado em carreira, dentro do Ministério da Justiça e Segurança Pública. A Carreira Policial Federal tem cinco cargos de nível superior: delegado, perito criminal, escrivão, agente e papiloscopista. Os delegados dirigem as atividades do órgão e os peritos, as atividades periciais. O programa de capacitação da carreira é fixado pelo Ministro da Justiça e desenvolvido pela própria PF.",
   "tipo_orgao": "executivo-direta",
   "poder": "executivo",
   "esfera": "federal",
@@ -46,7 +46,11 @@
     },
     {
       "ref": "norma:lei-9266-1996",
-      "dispositivo": "art. 2º-C"
+      "dispositivo": "arts. 1º, 2º, 2º-A, 2º-C, 2º-D e 9º"
+    },
+    {
+      "ref": "norma:decreto-lei-2251-1985",
+      "dispositivo": "art. 1º"
     }
   ],
   "estrutura_continua": [
@@ -64,9 +68,9 @@
   "confianca": "oficial",
   "notas": "A PEC 18/2025 (PEC da Segurança Pública), que altera o art. 144, não estava promulgada em 2026-10-01: em 2026-10-23 ainda tramitava no Senado (fonte:senado-api-processo-pec-18-2025), e nenhuma emenda posterior à EC 104/2019 alterou o art. 144 (fonte:planalto-quadro-emendas-constitucionais).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-defesa-seguranca",
-    "notas": "coletado em f0-defesa-seguranca; conferidos CF arts. 22, XXII, e 144, I e § 1º (redação da EC 19/1998), Lei 14.600/2023 art. 35, XIII, Lei 9.266/1996 art. 2º-C, Decreto 11.348/2023 art. 2º, II, i, e sigla na Portaria DG/PF 632/2026"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca",
+    "notas": "f2-defesa-seguranca: detalhes com a carreira e os cargos; fontes da Lei 9.266/1996 ampliadas (arts. 1º, 2º, 2º-A, 2º-D e 9º) e DL 2.251/1985, art. 1º"
   }
 }

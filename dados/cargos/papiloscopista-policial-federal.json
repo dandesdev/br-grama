@@ -1,0 +1,48 @@
+{
+  "id": "cargo:papiloscopista-policial-federal",
+  "tipo": "cargo",
+  "nome": "Papiloscopista Policial Federal",
+  "resumo": "Cargo de nível superior da Carreira Policial Federal. Ingressa por concurso público na terceira classe.",
+  "orgao": "org:policia-federal",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos não foi levantado.",
+  "provimento_nota": "Concurso público de provas ou de provas e títulos, com curso superior completo; ingresso na terceira classe e promoção com cursos de aperfeiçoamento (Lei 9.266/1996, art. 2º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo."
+  },
+  "requisitos": [
+    {
+      "texto": "curso superior completo, em nível de graduação",
+      "fontes": [
+        {
+          "ref": "norma:lei-9266-1996",
+          "dispositivo": "art. 2º, caput"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9266-1996",
+      "dispositivo": "arts. 1º, 2º e 10"
+    },
+    {
+      "ref": "norma:decreto-lei-2251-1985",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1985-02-27",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado. As atribuições de cada cargo não estão na Lei 9.266/1996; ficam em regulamento.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cargo:arquetipo-estadual-oficial-investigador-de-policia",
+  "tipo": "cargo",
+  "nome": "Oficial Investigador de Polícia",
+  "resumo": "Cargo de nível superior da Polícia Civil que faz a apuração, o cartório, a obtenção de dados, a inteligência e as ações investigativas, sob coordenação do delegado.",
+  "orgao": "org:arquetipo-estadual-policia-civil",
+  "arquetipo": "estadual",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado na lei de cada estado; não somamos.",
+  "provimento_nota": "Concurso público de provas ou de provas e títulos, com investidura na classe inicial (Lei 14.735/2023, arts. 20 e 23). Cada estado transforma, renomeia ou aproveita os cargos que já tinha (como escrivão, investigador e agente) ao criar este cargo, conforme a lei local (art. 38).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo; estabilidade após três anos de efetivo exercício (art. 30, § 15)."
+  },
+  "requisitos": [
+    {
+      "texto": "brasileiro, com no mínimo 18 anos, quite com as obrigações eleitorais e militares e com capacidade física e mental",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 20, I a IV"
+        }
+      ]
+    },
+    {
+      "texto": "diploma de curso superior completo, em qualquer área, reconhecido pelo MEC",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 20, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Produz o laudo investigativo e as demais peças do procedimento, que vão ao delegado para apreciação.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "arts. 19, II, 20, 23, 27, 30, § 15, e 38"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado do arquétipo. Os nomes antigos citados no provimento_nota (escrivão, investigador, agente) são exemplos nossos; a lei fala só em 'cargos efetivos atualmente existentes'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

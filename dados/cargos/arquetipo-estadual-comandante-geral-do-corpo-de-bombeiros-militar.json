@@ -1,0 +1,63 @@
+{
+  "id": "cargo:arquetipo-estadual-comandante-geral-do-corpo-de-bombeiros-militar",
+  "tipo": "cargo",
+  "nome": "Comandante-Geral do Corpo de Bombeiros Militar",
+  "resumo": "Comanda o Corpo de Bombeiros Militar do estado e responde ao governador pela administração e pelo emprego da corporação. É nomeado pelo governador entre os coronéis da ativa.",
+  "orgao": "org:arquetipo-estadual-corpo-de-bombeiros-militar",
+  "arquetipo": "estadual",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "O governador nomeia entre os oficiais da ativa do último posto do Quadro de Oficiais de Estado-Maior, com o curso de comando e estado-maior (Lei 14.751/2023, arts. 2º e 29, caput e § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Pode permanecer, a critério do governador e conforme a lei do estado, durante o governo de quem o nomeou (Lei 14.751/2023, art. 29, § 1º)."
+  },
+  "requisitos": [
+    {
+      "texto": "oficial da ativa do último posto do Quadro de Oficiais de Estado-Maior (QOEM)",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 2º; art. 29, caput"
+        }
+      ]
+    },
+    {
+      "texto": "possuir o curso de comando e estado-maior (CCEM)",
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 29, § 1º"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Deve apresentar, em até 60 dias da posse, um plano de comando com metas e indicadores, e divulgar um relatório anual com representações apuradas, ocorrências, letalidade, vitimização e orçamento. Indica nomes para os cargos privativos, promove as praças e apresenta ao governador a lista de promoção dos oficiais. Integra o Conselho Nacional de Comandantes-Gerais de Bombeiros Militares.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 144, § 6º"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "arts. 2º, 29 e 37"
+    },
+    {
+      "ref": "norma:decreto-12998-2026",
+      "dispositivo": "art. 2º, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "nota": "Regras nacionais da Lei 14.751/2023; o cargo é anterior."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado do arquétipo; sem ocupante (D06). Onde o corpo de bombeiros é orgânico da Polícia Militar (Lei 14.751/2023, art. 6º, § 3º), o Decreto 12.998/2026 (art. 2º, § 1º) também conta o seu comandante como comandante-geral para o conselho nacional.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

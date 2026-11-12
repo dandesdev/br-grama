@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-corregedoria-geral-de-policia-civil-corrige-policia-civil",
+  "tipo": "relacao",
+  "nome": "A Corregedoria-Geral exerce correição sobre a Polícia Civil",
+  "relacao": "corrige",
+  "de": "org:arquetipo-estadual-corregedoria-geral-de-policia-civil",
+  "para": "org:arquetipo-estadual-policia-civil",
+  "condicao": "Infrações disciplinares e penais dos servidores da Polícia Civil no exercício da função.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14735-2023",
+      "dispositivo": "art. 6º, VII; art. 10, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-11-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

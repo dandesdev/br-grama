@@ -1,0 +1,42 @@
+{
+  "id": "org:inspetoria-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
+  "tipo": "orgao",
+  "nome": "Inspetoria-Geral das Polícias Militares e dos Corpos de Bombeiros Militares",
+  "sigla": "IGPM/BM",
+  "resumo": "Órgão do Comando do Exército que centraliza os assuntos das polícias militares e dos bombeiros militares como forças auxiliares e reserva do Exército.",
+  "detalhes": "Faz estudos, registra dados e assessora o controle e a coordenação federal das regras sobre força auxiliar e reserva. Promove visitas de orientação técnica e registra organização, efetivos, armamento, material bélico e frota das corporações, para uso em caso de convocação ou mobilização.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:exercito",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14751-2023",
+          "dispositivo": "art. 28, caput"
+        }
+      ],
+      "nota": "'integrante do Comando do Exército'."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 28, caput e §§ 1º e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "nota": "Data da Lei 14.751/2023 (DOU de 13/12/2023), base usada aqui; a inspetoria é anterior (previa-a o Decreto-Lei 667/1969). A data de criação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "A posição dentro do Comando do Exército (abaixo de qual comando ou departamento) não foi levantada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

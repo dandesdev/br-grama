@@ -1,0 +1,25 @@
+{
+  "id": "rel:delegado-geral-integra-conselho-nacional-da-policia-civil",
+  "tipo": "relacao",
+  "nome": "O Delegado-Geral de Polícia Civil integra o Conselho Nacional da Polícia Civil",
+  "relacao": "integra",
+  "de": "cargo:arquetipo-estadual-delegado-geral-de-policia-civil",
+  "para": "org:conselho-nacional-da-policia-civil",
+  "condicao": "Membro do Plenário enquanto ocupar o cargo.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-12996-2026",
+      "dispositivo": "art. 4º, § 1º; art. 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-06-09",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

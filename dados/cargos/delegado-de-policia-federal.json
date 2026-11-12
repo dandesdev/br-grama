@@ -1,0 +1,59 @@
+{
+  "id": "cargo:delegado-de-policia-federal",
+  "tipo": "cargo",
+  "nome": "Delegado de Polícia Federal",
+  "resumo": "Autoridade policial da polícia judiciária da União: dirige as atividades da Polícia Federal. Ingressa por concurso de provas e títulos, com a OAB.",
+  "orgao": "org:policia-federal",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos não foi levantado.",
+  "provimento_nota": "Concurso público de provas e títulos, com participação da OAB, privativo de bacharel em Direito. O ingresso é na terceira classe, e a promoção exige cursos de aperfeiçoamento; a classe mais alta é a especial (Lei 9.266/1996, arts. 2º, 2º-B e 2º-C).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em Direito com três anos de atividade jurídica ou policial, comprovados na posse",
+      "fontes": [
+        {
+          "ref": "norma:lei-9266-1996",
+          "dispositivo": "art. 2º-B"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB",
+      "fontes": [
+        {
+          "ref": "norma:lei-9266-1996",
+          "dispositivo": "art. 2º-B"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Exerce função de natureza jurídica e policial, essencial e exclusiva de Estado. O Diretor-Geral da Polícia Federal sai da classe especial deste cargo.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9266-1996",
+      "dispositivo": "arts. 1º, 2º, 2º-A, parágrafo único, 2º-B, 2º-C e 10"
+    },
+    {
+      "ref": "norma:decreto-lei-2251-1985",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1985-02-27",
+    "ate": null,
+    "nota": "Cargo da Carreira Policial Federal desde o Decreto-Lei 2.251/1985; os requisitos atuais são da Lei 13.047/2014."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

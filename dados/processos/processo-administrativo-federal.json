@@ -182,7 +182,7 @@
     {
       "id": "decisao-coordenada",
       "nome": "Decisão coordenada",
-      "resumo": "Quando a decisão exige três ou mais setores, órgãos ou entidades federais e há divergência que atrasa o processo, as autoridades decidem juntas, em reunião.",
+      "resumo": "Quando a decisão exige três ou mais setores, órgãos ou entidades federais, a matéria é relevante e há divergência que atrasa o processo, as autoridades decidem juntas, em reunião.",
       "detalhes": "Cada órgão leva documento sobre a parte da sua competência, a divergência é apresentada nas reuniões com proposta de solução, e a conclusão vai para uma ata publicada por extrato no Diário Oficial da União. Os interessados podem participar como ouvintes. Não vale para licitação, poder sancionador nem casos com autoridades de Poderes diferentes. A convocação cabe à autoridade responsável pela decisão coordenada (art. 49-B, parágrafo único).",
       "quem_aciona": [
         "org:poder-executivo-federal"
@@ -190,7 +190,7 @@
       "fontes": [
         {
           "ref": "norma:lei-9784-1999",
-          "dispositivo": "arts. 49-A, 49-B, 49-D, 49-E, 49-F e 49-G"
+          "dispositivo": "arts. 49-A, I e II, e §§ 1º, 4º e 6º, 49-B, 49-D, 49-E, 49-F e 49-G"
         }
       ],
       "efeitos": [
@@ -215,8 +215,9 @@
   "confianca": "oficial",
   "notas": "Os atores são o Poder Executivo federal porque o órgão e a autoridade competentes variam caso a caso e não são entidades do mapa; a lei também vale para o Legislativo e o Judiciário da União em função administrativa. Delegação e avocação (arts. 11 a 15), impedimento e suspeição (arts. 18 a 21) não viram etapas.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; arts. 1º, 5º a 8º, 17, 24, 26 a 52, 56 a 67 e 69 conferidos, inclusive os prazos (5 dias prorrogáveis ao dobro; intimação com 3 dias úteis; parecer 15; manifestação final 10; decisão 30+30; recurso 10, reconsideração 5, decisão 30+30; alegações 5 dias úteis); corrigido o resumo da decisão coordenada, que omitia a exigência de relevância da matéria (art. 49-A, I)"
   }
 }

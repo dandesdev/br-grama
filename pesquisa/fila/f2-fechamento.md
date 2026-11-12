@@ -58,6 +58,8 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - `relacao`: "classifica" (autoridade que atribui grau de sigilo) e "revê" (Comissão Mista de Reavaliação) (f2-administracao).
 - Modelo de processo: ator genérico "autoridade competente" no lugar de `org:poder-executivo-federal` em etapas cuja autoridade varia por caso (Leis 8.112, 9.784, LAI) (f2-administracao; ver também o ator genérico de f2-processos-constitucionais).
 
+- `tipo_objeto` "politica-ou-plano" para políticas, planos e estratégias nacionais, hoje "documento"; `relacao` "controla" (IGPM/BM sobre as polícias militares), hoje `fiscaliza`; "supervisiona" ampliado (Creden sobre a PNI), hoje `monitora`; `provimento` "nomeacao-restrita" (livre escolha dentro de uma carreira), hoje `nomeacao-livre`; sentido de "convoca" (União convoca polícias militares) (f2-defesa-seguranca).
+
 ## Decisões tomadas pelo coordenador
 
 - 2026-11-03: a ANA não aparecer no decreto de estrutura do MIDR não vira aviso. A lei (9.984, art. 3º) dá a vinculação, e a omissão num decreto de estrutura não é contradição entre fontes nem lacuna (D36, D37); fica na nota da relação.

@@ -36,3 +36,6 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 
 ## Diário
 - 2026-11-11 23:41 — iniciada; lidos CLAUDE.md, instruções (com a Fase 2), D01 a D53, modelo de dados, protocolo, vocabulários, os quadros de f2-financas-publicas e os diários de f0-seguridade e f0-educacao
+- 2026-11-11 23:54 — cópias locais em pesquisa/brutos/planalto-leis/2026-11-11-f2-social/ (curl --http1.1 com user-agent de navegador): l8080.htm, l8142.htm, l8742.htm, l9394.htm, l14113.htm, l8212cons.htm, l8213cons.htm, mais d7646.htm, d6214.htm e l8246.htm; os sete textos de lei são iguais, depois de tirar as marcas, às cópias de 2026-10-23 (f0-seguridade e f0-educacao). compilacao_ate: Lei 15.471/2026 (8.080), nenhuma marca (8.142), Lei 15.157/2025 (8.742), Lei 15.468/2026 (LDB), LC 227/2026 (Fundeb), Lei 15.371/2026 (8.212), Lei 15.415/2026 e MP 1.355/2026 (8.213); todas com número menor que a Lei 15.484/2026, de 4/8/2026, logo anteriores a 2026-10-01
+- 2026-11-11 23:54 — gravado norma:lei-8212-1991, norma:decreto-7646-2011, norma:decreto-6214-2007
+- 2026-11-11 23:55 — correção da linha de cópias: a MP 1.355/2026 não se compara pela numeração das leis; é de 4/5/2026 (Planalto), anterior a 2026-10-01, com vigência encerrada, e só mexe no desconto de empréstimos em benefícios (Lei 8.213, art. 115), fora do escopo

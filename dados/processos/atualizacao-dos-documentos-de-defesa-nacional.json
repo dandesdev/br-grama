@@ -1,0 +1,161 @@
+{
+  "id": "proc:atualizacao-dos-documentos-de-defesa-nacional",
+  "tipo": "processo",
+  "nome": "Atualização da Política e da Estratégia Nacional de Defesa e do Livro Branco",
+  "resumo": "A cada quatro anos o Executivo atualiza os documentos de defesa, envia ao Congresso, que os aprecia por decreto legislativo, e o Presidente os aprova por decreto.",
+  "detalhes": "O envio ocorre na primeira metade da sessão legislativa, de quatro em quatro anos desde 2012. Na rodada que terminou em 2025, um grupo de trabalho interministerial coordenado pelo Ministério da Defesa preparou os textos, o Congresso aprovou o relatório da CCAI como sua apreciação e o Presidente aprovou os documentos pelo Decreto 12.725/2025, que mandou o Ministério começar a próxima atualização em 1º de julho de 2026.",
+  "forma": "ciclo",
+  "produz": "obj:documentos-de-defesa-nacional",
+  "etapas": [
+    {
+      "id": "elaboracao",
+      "atores": [
+        {
+          "ator": "cargo:ministro-de-estado",
+          "orgao_exercicio": "org:ministerio-da-defesa"
+        }
+      ],
+      "acao": "O Ministério da Defesa coordena a atualização dos documentos e implanta o Livro Branco",
+      "detalhes": "A rodada seguinte à de 2025 começa em 1º de julho de 2026, por determinação do Decreto 12.725/2025.",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 9º, § 1º"
+        },
+        {
+          "ref": "norma:decreto-12725-2025",
+          "dispositivo": "art. 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "encaminhamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "encaminhamento",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Executivo envia ao Congresso a Política, a Estratégia e o Livro Branco atualizados",
+      "prazo": {
+        "texto": "na primeira metade da sessão legislativa ordinária, de quatro em quatro anos a partir de 2012",
+        "valor": 4,
+        "unidade": "anos"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 9º, § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apreciacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "apreciacao",
+      "atores": [
+        "org:congresso-nacional",
+        "org:ccai"
+      ],
+      "acao": "O Congresso aprecia os documentos por decreto legislativo, com base em relatório da CCAI",
+      "detalhes": "Em 2025, o Decreto Legislativo 175 aprovou o relatório da CCAI como apreciação do Congresso e mandou enviá-lo, com sugestões e recomendações, ao Presidente. A LC 97/1999 diz só 'apreciação'; o papel da CCAI vem do caso de 2025.",
+      "remete_a": "proc:decreto-legislativo",
+      "fontes": [
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 9º, § 3º"
+        },
+        {
+          "ref": "norma:decreto-legislativo-175-2025",
+          "dispositivo": "art. 1º e parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "aprovacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "aprovacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "O Presidente aprova por decreto a Política, a Estratégia e o Livro Branco",
+      "fontes": [
+        {
+          "ref": "norma:decreto-12725-2025",
+          "dispositivo": "art. 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "vigencia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "vigencia",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "Os documentos orientam o planejamento federal e o orçamento da Defesa até a atualização seguinte",
+      "fontes": [
+        {
+          "ref": "norma:decreto-12725-2025",
+          "dispositivo": "art. 2º"
+        },
+        {
+          "ref": "norma:lc-97-1999",
+          "dispositivo": "art. 12, caput e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "elaboracao",
+          "quando": null
+        }
+      ],
+      "prazo": {
+        "texto": "quatro anos, até o envio seguinte ao Congresso",
+        "valor": 4,
+        "unidade": "anos"
+      }
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 9º, §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:decreto-legislativo-175-2025",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-12725-2025",
+      "dispositivo": "arts. 1º a 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2010-08-26",
+    "ate": null,
+    "nota": "Os §§ 1º a 3º do art. 9º foram incluídos pela LC 136/2010 (DOU de 26/8/2010)."
+  },
+  "confianca": "oficial",
+  "notas": "A etapa de aprovação por decreto não está na LC 97/1999; segue o que ocorreu em 2025 (Decreto 12.725/2025, preâmbulo e art. 1º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -5,7 +5,7 @@
   "relacao": "exerce-poder-disciplinar-sobre",
   "de": "cargo:ministro-de-estado",
   "para": "cargo:servidor-publico-civil-federal",
-  "condicao": "Pela lei, aplicam suspensão de mais de 30 dias (autoridade logo abaixo do Presidente). Por delegação, julgam também demissão e cassação nos órgãos e entidades da sua área e podem subdelegar; o Ministro da CGU julga os ocupantes de cargo em comissão CCE-17 ou superior. A decisão delegada admite só pedido de reconsideração.",
+  "condicao": "Pela lei, aplicam suspensão de mais de 30 dias (autoridade logo abaixo do Presidente). Por delegação, julgam também demissão, cassação de aposentadoria ou disponibilidade e destituição de CCE-15 ou CCE-16 nos órgãos e entidades da sua área e podem subdelegar (o da Casa Civil responde pelos órgãos da Presidência sem Ministro); o Ministro da CGU julga os ocupantes de cargo em comissão CCE-17 ou superior. A decisão delegada admite só pedido de reconsideração.",
   "vigencia": {
     "de": "1990-12-12",
     "ate": null,
@@ -29,8 +29,9 @@
     }
   },
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-administracao"
+    "tarefa": "verificacao-f2-administracao",
+    "notas": "coletado em f2-administracao; completado: a delegação inclui a destituição de CCE-15/16 e a competência do Ministro da Casa Civil pelos órgãos da Presidência cujos titulares não são Ministros (Decreto 11.123/2022, art. 2º, I, b, e parágrafo único); leitura do art. 141, II, mantida como inferido (CF, art. 76: o Presidente é auxiliado pelos Ministros)"
   }
 }
