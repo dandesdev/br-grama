@@ -45,7 +45,7 @@
         "org:tse"
       ],
       "acao": "O Poder estadual coagido solicita a intervenção, ou o STF, o STJ ou o TSE a requisita",
-      "detalhes": "Coação contra o Legislativo ou o Executivo estadual: solicitação do Poder coagido ou impedido. Coação contra o Judiciário estadual: requisição do STF. Desobediência a ordem ou decisão judicial: requisição do STF, do STJ ou do TSE. No STJ, a requisição parte do próprio tribunal, de pedido do presidente de TJ ou de TRF ou da parte interessada; o Presidente do STJ tenta resolver o caso administrativamente, ouve a autoridade estadual e o PGR, e o pedido vai a um relator; julgado procedente, ele requisita a intervenção ao Presidente da República.",
+      "detalhes": "Coação contra o Legislativo ou o Executivo estadual: solicitação do Poder coagido ou impedido. Coação contra o Judiciário estadual: requisição do STF. Desobediência a ordem ou decisão judicial: requisição do STF, do STJ ou do TSE. No STJ, a requisição parte do próprio tribunal, de pedido do presidente de TJ ou de TRF ou da parte interessada; o Presidente do STJ tenta resolver o caso administrativamente, ouve a autoridade estadual e o PGR, e o pedido vai a um relator; julgado procedente, o Presidente do STJ comunica a decisão e requisita a intervenção ao Presidente da República.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -269,9 +269,9 @@
   "confianca": "oficial",
   "notas": "Modela só a intervenção da União nos estados e no DF. A intervenção dos estados nos municípios (art. 35) tem rito próprio, com apreciação da Assembleia Legislativa e representação ao Tribunal de Justiça, e não foi modelada. O decreto legislativo que aprova a intervenção não tem processo próprio no mapa (ainda não há processo de decreto legislativo modelado), por isso a etapa congresso-aprecia não usa 'remete_a'. Na revisão também não achamos outro processo existente cujo rito alguma etapa siga (a representação do PGR ao STF não é o rito de proc:caminho-de-um-processo). Os atores de solicitacao-ou-requisicao usam a Assembleia Legislativa do arquétipo estadual como representante do Poder estadual coagido; o Executivo estadual (Governador) não tem órgão de arquétipo modelado.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais",
-    "notas": "etapa solicitacao-ou-requisicao: + Lei 8.038/1990, art. 19, I e II, e arts. 20 a 22 (rito da requisição no STJ), com uma frase nos detalhes. Antes: verificado em 2026-10-23 (verificacao-f0-executivo)"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "etapa solicitacao-ou-requisicao (editada em f2-processos-constitucionais) conferida com a Lei 8.038, arts. 19 a 22, e a CF, art. 36 (art. 19, III, superado: a EC 45/2004 levou ao STF a representação por recusa à execução de lei federal, art. 36, III); ajustado: quem requisita no STJ é o Presidente do tribunal (art. 22), não o relator. Antes: verificado em 2026-10-23 (verificacao-f0-executivo)"
   }
 }

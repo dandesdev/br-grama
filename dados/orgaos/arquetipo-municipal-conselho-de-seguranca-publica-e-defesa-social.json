@@ -1,0 +1,42 @@
+{
+  "id": "org:arquetipo-municipal-conselho-de-seguranca-publica-e-defesa-social",
+  "tipo": "orgao",
+  "nome": "Conselho Municipal de Segurança Pública e Defesa Social",
+  "resumo": "Colegiado consultivo de segurança pública do município, criado por lei de iniciativa do prefeito, com representantes dos órgãos do Susp e da sociedade civil.",
+  "detalhes": "Acompanha os órgãos de segurança que atuam no município, como a guarda municipal, pode recomendar providências e propõe diretrizes para a política local de segurança pública. Tem representantes da sociedade civil e dos trabalhadores, e pode atuar de forma descentralizada ou em conjunto com outros municípios da região.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "municipal",
+  "arquetipo": "municipal",
+  "contido_em": "org:arquetipo-municipal-poder-executivo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13675-2018",
+          "dispositivo": "art. 20, caput"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A lei manda criar o conselho por proposta do chefe do Executivo ao Legislativo, sem dizer onde ele fica. Usamos o Poder Executivo municipal."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "arts. 9º, § 1º, II, 20 e 21"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null,
+    "nota": "Previsto desde a Lei 13.675/2018; a criação depende de lei de cada município."
+  },
+  "confianca": "oficial",
+  "notas": "Quantos municípios têm o conselho não foi levantado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

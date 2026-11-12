@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-poder-executivo-integra-susp",
+  "tipo": "relacao",
+  "nome": "O estado integra o Susp por meio do seu Poder Executivo",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-poder-executivo",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Integrante estratégico; o sistema estadual implementa seus programas e ações com liberdade de organização.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 9º, §§ 1º, I, e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

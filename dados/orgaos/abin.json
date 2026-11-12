@@ -4,7 +4,7 @@
   "nome": "Agência Brasileira de Inteligência",
   "sigla": "ABIN",
   "resumo": "Órgão central do Sistema Brasileiro de Inteligência: planeja, executa e coordena a inteligência do país para assessorar o Presidente. Integra a Casa Civil.",
-  "detalhes": "Avalia ameaças internas e externas à ordem constitucional, protege conhecimentos sensíveis do Estado e executa a Política Nacional de Inteligência. As atividades devem respeitar os direitos e garantias individuais. O controle externo é do Congresso, pela CCAI.",
+  "detalhes": "Avalia ameaças internas e externas à ordem constitucional, protege conhecimentos sensíveis do Estado e executa a Política Nacional de Inteligência, sob supervisão da Creden. Os órgãos do Sisbin lhe fornecem dados para integração, e ela só se comunica com outros órgãos públicos com conhecimento prévio da autoridade máxima de cada um. As atividades devem respeitar os direitos e garantias individuais. O controle externo é do Congresso, pela CCAI.",
   "tipo_orgao": "executivo-direta",
   "poder": "executivo",
   "esfera": "federal",
@@ -24,7 +24,7 @@
   "fontes": [
     {
       "ref": "norma:lei-9883-1999",
-      "dispositivo": "arts. 3º, 4º, 8º e 11"
+      "dispositivo": "arts. 3º, 4º, 5º, 7º, 8º, 10 e 11"
     },
     {
       "ref": "norma:decreto-11816-2023",
@@ -46,9 +46,9 @@
   "confianca": "oficial",
   "notas": "Ver aviso:abin-atos-e-despesas-sigilosas.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-defesa-seguranca",
-    "notas": "coletado em f0-defesa-seguranca; conferidos Lei 9.883/1999 arts. 3º, 4º, 6º, 8º e 11 e Decreto 11.816/2023, Anexo I, arts. 1º e 2º"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca",
+    "notas": "f2-defesa-seguranca: detalhes ampliados (supervisão da Creden, dados do Sisbin, comunicação com outros órgãos); fontes da Lei 9.883/1999 ampliadas para os arts. 5º, 7º e 10"
   }
 }

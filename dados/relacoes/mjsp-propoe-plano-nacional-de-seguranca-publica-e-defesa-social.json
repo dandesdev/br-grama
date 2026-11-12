@@ -1,0 +1,30 @@
+{
+  "id": "rel:mjsp-propoe-plano-nacional-de-seguranca-publica-e-defesa-social",
+  "tipo": "relacao",
+  "nome": "O Ministério da Justiça e Segurança Pública elabora o Plano Nacional de Segurança Pública",
+  "relacao": "propoe",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "para": "obj:plano-nacional-de-seguranca-publica-e-defesa-social",
+  "condicao": "Elabora objetivos, ações estratégicas, metas, prioridades, indicadores e formas de financiamento, com consulta pública por meio eletrônico.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 22, § 4º"
+    },
+    {
+      "ref": "norma:decreto-9489-2018",
+      "dispositivo": "art. 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 13.675/2018 fala no Ministério Extraordinário da Segurança Pública, que não existe mais; o Decreto 9.489/2018, art. 5º (redação do Decreto 10.822/2021), já nomeia o MJSP.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

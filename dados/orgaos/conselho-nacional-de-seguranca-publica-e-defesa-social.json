@@ -1,0 +1,46 @@
+{
+  "id": "org:conselho-nacional-de-seguranca-publica-e-defesa-social",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Segurança Pública e Defesa Social",
+  "sigla": "CNSP",
+  "resumo": "Colegiado consultivo do Susp, presidido pelo Ministro da Justiça e Segurança Pública, com representantes dos três níveis de governo, do Judiciário, do MP, da OAB e da sociedade civil.",
+  "detalhes": "Acompanha as polícias e os demais integrantes operacionais do Susp (condições de trabalho, metas, apuração de denúncias nas corregedorias, confiança da população) e pode recomendar providências às autoridades. Propõe diretrizes para a política de segurança pública, aprecia o Plano Nacional e faz recomendações sobre ele. Reúne-se a cada semestre e aprova recomendações por maioria simples; os membros indicados têm mandato de dois anos, com uma recondução.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-justica-e-seguranca-publica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11348-2023",
+          "dispositivo": "art. 2º, III, e; art. 70"
+        }
+      ],
+      "nota": "Órgão colegiado da estrutura regimental do MJSP."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "arts. 9º, § 1º, II, 19, 20 e 21"
+    },
+    {
+      "ref": "norma:decreto-9489-2018",
+      "dispositivo": "arts. 35, 37, 40 e 41"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-08-31",
+    "ate": null,
+    "nota": "Data do Decreto 9.489/2018, que fixou atribuições e composição; a lei prevê o conselho desde 2018."
+  },
+  "confianca": "oficial",
+  "notas": "A composição no texto do Planalto (art. 35, com a redação do Decreto 9.876/2019) ainda cita órgãos com nomes antigos (Departamento Penitenciário Nacional, Ministério da Mulher, da Família e dos Direitos Humanos).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Processo contra o governador por crime de responsabilidade",
   "resumo": "Caminho da denúncia contra o governador pela Lei 1.079/1950: a Assembleia declara a acusação procedente por maioria absoluta e um tribunal de deputados e desembargadores julga.",
-  "detalhes": "Qualquer cidadão denuncia o governador à Assembleia Legislativa. Se a Assembleia admitir a denúncia e declarar a acusação procedente por maioria absoluta, o governador é suspenso. O julgamento segue a Constituição do estado; onde ela não regular, julga um tribunal de cinco deputados e cinco desembargadores, presidido pelo presidente do Tribunal de Justiça. Condenar exige dois terços.",
+  "detalhes": "Qualquer cidadão denuncia o governador à Assembleia Legislativa. Se a Assembleia admitir a denúncia e declarar a acusação procedente por maioria absoluta, o governador é suspenso. Julga um tribunal de cinco deputados e cinco desembargadores, presidido pelo presidente do Tribunal de Justiça; condenar exige dois terços. Como só a União legisla sobre o processo desses crimes (Súmula Vinculante 46), a Constituição do estado não pode dar o julgamento à própria Assembleia (ADI 3.466).",
   "forma": "linha",
   "etapas": [
     {
@@ -80,8 +80,8 @@
         "org:arquetipo-estadual-assembleia-legislativa",
         "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica"
       ],
-      "acao": "Na falta de regra estadual, a Assembleia elege cinco deputados e são sorteados cinco desembargadores",
-      "detalhes": "A Assembleia envia os autos ao presidente do Tribunal de Justiça, que preside o tribunal de julgamento e só vota em caso de empate. Num tribunal misto criado pela Constituição estadual, os dois lados têm o mesmo número de membros, fora o presidente.",
+      "acao": "A Assembleia elege cinco deputados e são sorteados cinco desembargadores para o tribunal de julgamento",
+      "detalhes": "A Assembleia envia os autos ao presidente do Tribunal de Justiça, que preside o tribunal de julgamento e só vota em caso de empate. A lei manda seguir a Constituição do estado e usar este tribunal onde ela for omissa, mas o STF decidiu que a regra federal vale e que a Constituição estadual não pode dar o julgamento à Assembleia (Súmula Vinculante 46; ADI 3.466, 2023).",
       "prazo": {
         "texto": "5 dias, contados do envio dos autos ao presidente do TJ",
         "valor": 5,
@@ -92,6 +92,11 @@
         {
           "ref": "norma:lei-1079-1950",
           "dispositivo": "art. 78, §§ 1º, 3º e 4º"
+        },
+        {
+          "ref": "fonte:stf-aplicacao-sumula-vinculante-46",
+          "dispositivo": null,
+          "nota": "enunciado da SV 46 e tese da ADI 3.466 (j. 12/4/2023): art. 78, § 3º, recepcionado"
         }
       ],
       "seguintes": [
@@ -181,13 +186,19 @@
     {
       "ref": "norma:lei-1079-1950",
       "dispositivo": "arts. 74 a 79"
+    },
+    {
+      "ref": "fonte:stf-aplicacao-sumula-vinculante-46",
+      "dispositivo": null,
+      "nota": "SV 46 e ADI 3.466"
     }
   ],
   "confianca": "oficial",
-  "notas": "(1) O processo segue o texto da Lei 1.079/1950. A lei manda julgar 'pela forma que determinar a Constituição do Estado' (art. 78) e só fixa o tribunal de cinco deputados e cinco desembargadores para os estados cuja Constituição não regule o processo (§ 3º). Há jurisprudência do STF sobre a competência da União para definir esses crimes e o seu processo, que não lemos; por isso não dizemos se as regras estaduais valem. (2) A lei fala em inabilitação 'até cinco anos'; para o Presidente, a CF fixa oito (art. 52, parágrafo único), mas não lemos regra que estenda esse prazo aos governadores. (3) Os secretários de Estado, nos crimes conexos com os do governador, seguem o mesmo processo (art. 79, parágrafo único). (4) Os membros do tribunal de julgamento não têm entidade de órgão; aparecem como os cargos de deputado estadual e desembargador. (5) O cidadão aparece como org:arquetipo-estadual-eleitorado. (6) Crimes comuns do governador são julgados pelo STJ (rel:stj-julga-governador), fora deste processo.",
+  "notas": "(1) O processo segue o texto da Lei 1.079/1950. A lei manda julgar 'pela forma que determinar a Constituição do Estado' (art. 78) e só fixa o tribunal de cinco deputados e cinco desembargadores para os estados cuja Constituição não regule o processo (§ 3º). A Súmula Vinculante 46 dá à União a competência privativa para definir esses crimes e o seu processo, e o STF, na ADI 3.466 (2023), considerou recepcionado o § 3º e inconstitucional a Constituição estadual que dê o julgamento à Assembleia (fonte:stf-aplicacao-sumula-vinculante-46); por isso as etapas seguem a lei federal e não dependem de norma estadual. A página do STF não trata do quórum da Assembleia (maioria absoluta no art. 77) nem da suspensão automática do governador; não lemos julgados sobre esses dois pontos. (2) A lei fala em inabilitação 'até cinco anos'; para o Presidente, a CF fixa oito (art. 52, parágrafo único), mas não lemos regra que estenda esse prazo aos governadores. (3) Os secretários de Estado, nos crimes conexos com os do governador, seguem o mesmo processo (art. 79, parágrafo único). (4) Os membros do tribunal de julgamento não têm entidade de órgão; aparecem como os cargos de deputado estadual e desembargador. (5) O cidadão aparece como org:arquetipo-estadual-eleitorado. (6) Crimes comuns do governador são julgados pelo STJ (rel:stj-julga-governador), fora deste processo.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 1.079, arts. 74 a 79, e com a SV 46 e a ADI 3.466 (fonte:stf-aplicacao-sumula-vinculante-46); corrigido: o julgamento não depende da Constituição estadual (o tribunal de cinco deputados e cinco desembargadores vale em todos os estados); quórum da Assembleia e suspensão automática seguem a lei, sem jurisprudência lida"
   }
 }

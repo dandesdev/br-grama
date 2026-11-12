@@ -1,0 +1,34 @@
+{
+  "id": "rel:mjsp-monitora-plano-nacional-de-seguranca-publica-e-defesa-social",
+  "tipo": "relacao",
+  "nome": "O Ministério da Justiça e Segurança Pública acompanha e avalia o Plano Nacional de Segurança Pública",
+  "relacao": "monitora",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "para": "obj:plano-nacional-de-seguranca-publica-e-defesa-social",
+  "condicao": "Monitora metas e indicadores e, com os estados, o DF e os municípios, avalia o plano todo ano até 30 de abril; o relatório vai aos conselhos de segurança pública.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "arts. 23 e 27"
+    },
+    {
+      "ref": "norma:decreto-10822-2021",
+      "dispositivo": "arts. 6º e 8º"
+    },
+    {
+      "ref": "norma:decreto-9489-2018",
+      "dispositivo": "art. 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2021-09-29",
+    "ate": null,
+    "nota": "Data do Decreto 10.822/2021, que dá o acompanhamento ao MJSP; a avaliação anual pela União vem da Lei 13.675/2018."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

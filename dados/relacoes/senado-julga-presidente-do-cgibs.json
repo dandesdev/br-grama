@@ -9,7 +9,7 @@
     "regra": "dois-tercos",
     "nota": "Para condenar (Lei 1.079/1950, art. 80, parágrafo único)."
   },
-  "condicao": "Crimes de responsabilidade do art. 79-A (como não publicar os atos do CGIBS ou não prestar contas até 30 de abril), com o rito do Presidente da República: denúncia à Câmara, que é tribunal de pronúncia, e julgamento pelo Senado.",
+  "condicao": "Crimes de responsabilidade do art. 79-A (como não publicar os atos do CGIBS ou não prestar contas até 30 de abril), com o rito que a lei prevê para o Presidente da República e os ministros de Estado: denúncia à Câmara e julgamento pelo Senado.",
   "vigencia": {
     "de": "2026-01-14",
     "ate": null,
@@ -19,13 +19,23 @@
     {
       "ref": "norma:lei-1079-1950",
       "dispositivo": "arts. 79-A, 79-B e 80"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 172 e 182, III"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 50, caput (redação da EC 132/2023)",
+      "nota": "não comparecer, sem justificação, à convocação da Câmara ou do Senado é crime de responsabilidade do Presidente do CGIBS"
     }
   ],
   "confianca": "oficial",
-  "notas": "O art. 79-B manda aplicar ao Presidente do CGIBS o que a lei diz para o Presidente da República e os ministros de Estado, e o art. 80 faz da Câmara o tribunal de pronúncia e do Senado o de julgamento. Para os ministros de Estado, a CF de 1988 só leva ao Senado os crimes conexos com os do Presidente (art. 52, I) e dá os demais ao STF (art. 102, I, c); a LC 227/2026 não diz se o Presidente do CGIBS segue essa divisão. Seguimos o texto dos arts. 79-B e 80. Não criamos a relação da Câmara, porque a CF (art. 51, I) só prevê a autorização para o Presidente, o Vice e os ministros; a etapa está na condição.",
+  "notas": "O art. 79-B manda aplicar ao Presidente do CGIBS o que a lei diz para o Presidente da República e os ministros de Estado, e o art. 80 faz da Câmara o tribunal de pronúncia e do Senado o de julgamento. Para os ministros de Estado, a CF de 1988 só leva ao Senado os crimes conexos com os do Presidente (art. 52, I) e dá os demais ao STF (art. 102, I, c); a LC 227/2026 não diz se o Presidente do CGIBS segue essa divisão. Seguimos o texto dos arts. 79-B e 80. Revisão verificacao-f2-processos-constitucionais: (a) a CF não lista o Presidente do CGIBS entre os que o Senado julga (art. 52, I e II) nem entre os que o STF julga (art. 102, I, c); a EC 132/2023 só fez do não comparecimento à convocação crime de responsabilidade (art. 50) e não tocou nos arts. 52 e 102; (b) a primeira parte do art. 80 (Câmara como tribunal de pronúncia) não foi recepcionada para o Presidente da República (ADPF 378, fonte:stf-constituicao-e-o-supremo-art-51), e o art. 79-B não diz se o Presidente do CGIBS segue o rito ajustado pelo STF (autorização da Câmara, instauração e pronúncia no Senado); por isso a condição não chama mais a Câmara de tribunal de pronúncia. Não criamos a relação da Câmara, porque a CF (art. 51, I) só prevê a autorização para o Presidente, o Vice e os ministros; a etapa está na condição.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 1.079 (arts. 79-A, 79-B e 80, cópia de 11/11/2026), a LC 227/2026 (arts. 172 e 182; DOU de 14/1/2026) e a EC 132/2023; corrigido: condição não chama mais a Câmara de tribunal de pronúncia (art. 80, 1ª parte, não recepcionado, ADPF 378); a falta de base no art. 52 da CF fica na nota e no diário, para o coordenador"
   }
 }

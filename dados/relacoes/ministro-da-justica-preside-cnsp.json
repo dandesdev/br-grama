@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-da-justica-preside-cnsp",
+  "tipo": "relacao",
+  "nome": "O Ministro da Justiça e Segurança Pública preside o CNSP",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:ministerio-da-justica-e-seguranca-publica",
+  "para": "org:conselho-nacional-de-seguranca-publica-e-defesa-social",
+  "condicao": "Tem voto de qualidade para desempate; o Secretário-Executivo do Ministério é o vice-presidente.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-9489-2018",
+      "dispositivo": "art. 35, I e II; art. 37, § 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2019-06-28",
+    "ate": null,
+    "nota": "Redação do Decreto 9.876, de 27/6/2019 (DOU de 28/6/2019), que trocou o Ministro da Segurança Pública pelo Ministro da Justiça e Segurança Pública; data da publicação, base usada aqui (a cláusula de vigência não foi conferida)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "obj:politica-nacional-de-seguranca-publica-e-defesa-social",
+  "tipo": "objeto",
+  "nome": "Política Nacional de Segurança Pública e Defesa Social",
+  "sigla": "PNSPDS",
+  "resumo": "Princípios, diretrizes, objetivos e estratégias da segurança pública fixados pela própria Lei 13.675/2018; estados, DF e municípios fazem as suas seguindo a nacional.",
+  "detalhes": "Cabe à União estabelecer a política nacional, e aos estados, ao DF e aos municípios, as respectivas políticas, observadas as diretrizes nacionais. Seus instrumentos são os planos de segurança pública, o sistema nacional de informações e gestão (com Sinaped, Sinesp, Sievap, Renaesp e Pró-Vida), o Plano Nacional de Enfrentamento de Homicídios de Jovens e o plano nacional contra a violência contra a mulher. A cada cinco anos deve haver conferências para debater as diretrizes dos planos.",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:sistema-unico-de-seguranca-publica"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "arts. 1º, 3º a 8º e 45"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null,
+    "nota": "Criada pela Lei 13.675/2018, em vigor 30 dias após a publicação de 12/6/2018."
+  },
+  "confianca": "oficial",
+  "notas": "A política está no texto da lei (arts. 4º a 8º), não num decreto à parte. tipo_objeto 'documento' é o termo mais próximo do vocabulário (ver proposta no diário da f2-defesa-seguranca).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

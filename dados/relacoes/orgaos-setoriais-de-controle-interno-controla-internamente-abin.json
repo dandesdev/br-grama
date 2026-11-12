@@ -1,0 +1,30 @@
+{
+  "id": "rel:orgaos-setoriais-de-controle-interno-controla-internamente-abin",
+  "tipo": "relacao",
+  "nome": "O controle interno da Presidência controla a ABIN",
+  "relacao": "controla-internamente",
+  "de": "org:orgaos-setoriais-de-controle-interno",
+  "para": "org:abin",
+  "condicao": "A lei atribui o controle interno da ABIN, inclusive a contabilidade analítica, à Secretaria de Controle Interno da Presidência da República; hoje o órgão setorial da Casa Civil cobre a Presidência.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 14"
+    },
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 22, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null
+  },
+  "confianca": "inferido",
+  "notas": "Inferido: a Lei 9.883/1999 fala em 'Secretaria de Controle Interno da Presidência da República'; a correspondência com o órgão setorial da Casa Civil, onde a ABIN está, é leitura nossa a partir da Lei 10.180/2001 (art. 22). O nome atual da unidade não foi levantado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

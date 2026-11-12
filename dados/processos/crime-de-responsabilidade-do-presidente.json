@@ -392,17 +392,11 @@
         "cargo:presidente-do-stf"
       ],
       "acao": "O Senado, presidido pelo Presidente do STF, julga; condenar exige dois terços dos senadores (54 votos)",
-      "detalhes": "O processo vai ao Presidente do STF, que preside a sessão. São ouvidas as testemunhas, há debate entre acusação e defesa, e os senadores votam se o acusado cometeu o crime e deve perder o cargo.",
-      "prazo": {
-        "texto": "Pelo menos 10 dias entre a notificação das partes e o julgamento (Lei 1.079/1950, art. 60, parágrafo único)",
-        "valor": 10,
-        "unidade": "dias",
-        "conta_de": "notificação das partes"
-      },
+      "detalhes": "O processo, com o libelo, vai ao Presidente do STF, que preside a sessão; o acusado é intimado do dia e pode se defender por advogado e oferecer provas. Na sessão, leem-se o processo, o libelo e a defesa, as testemunhas depõem em público, acusação e defesa debatem por até duas horas, e o Presidente do STF faz um relatório resumido antes da votação nominal dos senadores.",
       "quorum": {
         "regra": "dois-tercos",
         "votacao": "nominal",
-        "nota": "Dois terços dos membros do Senado (54 de 81), como diz a CF; a Lei 1.079/1950, art. 68, fala em dois terços dos senadores presentes."
+        "nota": "Dois terços dos membros do Senado (54 de 81): CF, art. 52, parágrafo único; Lei 1.079/1950, art. 80, parágrafo único; RISF, art. 378."
       },
       "fontes": [
         {
@@ -415,7 +409,12 @@
         },
         {
           "ref": "norma:lei-1079-1950",
-          "dispositivo": "arts. 59 a 68"
+          "dispositivo": "arts. 24 a 31; art. 80, parágrafo único",
+          "nota": "rito do julgamento do Presidente pelo Senado, que a ADPF 378 manda estender (fonte:stf-constituicao-e-o-supremo-art-52); a menção ao decreto de acusação da Câmara e à comissão acusadora (art. 24) foi superada (arts. 23, §§ 1º, 4º e 5º, não recepcionados)"
+        },
+        {
+          "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
+          "dispositivo": "art. 52, I: ADPF 378 MC"
         }
       ],
       "seguintes": [
@@ -469,7 +468,7 @@
         },
         {
           "ref": "norma:lei-1079-1950",
-          "dispositivo": "art. 70"
+          "dispositivo": "arts. 33 a 35"
         },
         {
           "ref": "fonte:radio-senado-impeachment-dilma-2016-08-31",
@@ -502,7 +501,7 @@
       "fontes": [
         {
           "ref": "norma:lei-1079-1950",
-          "dispositivo": "art. 70"
+          "dispositivo": "art. 32"
         },
         {
           "ref": "norma:cf-1988",
@@ -582,7 +581,7 @@
     },
     {
       "ref": "norma:lei-1079-1950",
-      "dispositivo": "arts. 14 a 16, 19, 20 e 44 a 70"
+      "dispositivo": "arts. 14 a 16, 19, 20, 24 a 35, 44 a 55 e 58"
     },
     {
       "ref": "norma:ricd",
@@ -612,11 +611,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Decisões de modelagem: (1) O rito do Senado segue a ADPF 378 MC (2015), que mandou aplicar por analogia ao Presidente as regras da Lei 1.079/1950 para ministros do STF e PGR (arts. 44 a 49 e 51 a 55), criando as etapas de instauração e de pronúncia, como no caso Collor; os arts. 23, §§ 1º, 4º e 5º, 80 (1ª parte) e 81 da lei não foram recepcionados. (2) A liminar das ADPFs 1259 e 1260 (dez/2025), que fixou dois terços para os pareceres dos arts. 47 e 54, vale para membros do Judiciário, não para o Presidente (ver aviso:lei-1079-adpf-1259-1260). (3) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, o ator usado para a iniciativa popular. (4) O mesmo rito vale para o Vice-Presidente e, nos crimes conexos, para ministros e Comandantes (arts. 51, I, e 52, I); o processo modela só o Presidente. (5) As etapas do crime comum estão no processo porque um regime não pode criar etapas; o regime 'infracao-penal-comum' diz quais delas usar. (6) A Lei 1.079/1950, art. 68, parágrafo único, prevê votação separada da inabilitação por até cinco anos; a CF fixa oito anos junto com a perda do cargo, e não modelamos a votação separada como etapa, mas a etapa 'condenacao' registra que ela ocorreu em 2016 (fonte:radio-senado-impeachment-dilma-2016-08-31). O ato do julgamento é a Resolução do Senado Federal nº 35/2016, ainda sem entidade norma: impõe só a perda do cargo (art. 2º) e a sentença registra 61 a 20 na perda do cargo e 42 a 36, com três abstenções, na inabilitação, que não alcançou dois terços. (7) Os prazos da Câmara são os do RICD; os do Senado, os da Lei 1.079/1950 aplicados por analogia, que o RISF (arts. 380 a 382) não altera. (8) O exame do Presidente da Câmara na etapa 'recebimento' segue o RICD; o alcance desse exame foi discutido pelo STF em mandados de segurança que não consultamos.",
+  "notas": "Decisões de modelagem: (1) O rito do Senado segue a ADPF 378 MC (2015), que mandou aplicar por analogia ao Presidente as regras da Lei 1.079/1950 para ministros do STF e PGR (arts. 44 a 49 e 51 a 55), criando as etapas de instauração e de pronúncia, como no caso Collor; os arts. 23, §§ 1º, 4º e 5º, 80 (1ª parte) e 81 da lei não foram recepcionados. A analogia vale para as etapas iniciais, que faltavam; para o julgamento, a ADPF manda 'estender o rito relativamente abreviado da Lei 1.079/1950 para julgamento do impeachment pelo Senado', que é o dos arts. 24 a 35 (o RISF, art. 380, III a VI, repete o art. 24). Por isso a etapa 'julgamento' cita esses artigos, e não os arts. 59 a 68, do rito de ministros do STF e PGR (revisão verificacao-f2-processos-constitucionais). (2) A liminar das ADPFs 1259 e 1260 (dez/2025), que fixou dois terços para os pareceres dos arts. 47 e 54, vale para membros do Judiciário, não para o Presidente (ver aviso:lei-1079-adpf-1259-1260). (3) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, o ator usado para a iniciativa popular. (4) O mesmo rito vale para o Vice-Presidente e, nos crimes conexos, para ministros e Comandantes (arts. 51, I, e 52, I); o processo modela só o Presidente. (5) As etapas do crime comum estão no processo porque um regime não pode criar etapas; o regime 'infracao-penal-comum' diz quais delas usar. (6) A Lei 1.079/1950 manda o Senado fixar, depois da condenação, o prazo de inabilitação (art. 33; no rito de ministros do STF e PGR, votação separada por até cinco anos, art. 68, parágrafo único); a CF fixa oito anos junto com a perda do cargo, e não modelamos a votação separada como etapa, mas a etapa 'condenacao' registra que ela ocorreu em 2016 (fonte:radio-senado-impeachment-dilma-2016-08-31). O ato do julgamento é a Resolução do Senado Federal nº 35/2016, ainda sem entidade norma: impõe só a perda do cargo (art. 2º) e a sentença registra 61 a 20 na perda do cargo e 42 a 36, com três abstenções, na inabilitação, que não alcançou dois terços. (7) Os prazos da Câmara são os do RICD; os do Senado, os da Lei 1.079/1950 aplicados por analogia, que o RISF (arts. 380 a 382) não altera. (8) O exame do Presidente da Câmara na etapa 'recebimento' segue o RICD; o alcance desse exame foi discutido pelo STF em mandados de segurança que não consultamos.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais",
-    "notas": "conferido contra a Lei 1.079/1950 (texto de 11/11/2026, LC 227/2026) e a ADPF 378: etapas mantidas; fontes + fonte:stf-adpf-378 (página oficial do processo) e Lei 1.079, arts. 21 e 38; a faixa \"arts. 14 a 24\" das fontes gerais virou \"arts. 14 a 16, 19, 20\", porque os arts. 22 a 24 (segunda votação na Câmara e acusação pela Câmara) foram superados pela ADPF 378. Antes: verificado em 2026-10-27 (verificacao-f0-complementos-2)"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais (fontes + ADPF 378 e Lei 1.079, arts. 21 e 38); conferido com a Lei 1.079 (cópia de 11/11/2026), a ADPF 378 (fonte:stf-adpf-378 e A Constituição e o Supremo, arts. 51 e 52) e o RISF, arts. 377 a 382; corrigido: 'julgamento' cita os arts. 24 a 31 e 80, parágrafo único (rito do Presidente), no lugar dos arts. 59 a 68 (ministros do STF e PGR), e sai o prazo de 10 dias do art. 60; 'condenacao' cita os arts. 33 a 35 e 'absolvicao' o art. 32, no lugar do art. 70. Antes: verificado em 2026-10-27 (verificacao-f0-complementos-2)"
   }
 }

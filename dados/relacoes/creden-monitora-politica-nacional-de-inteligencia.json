@@ -1,0 +1,31 @@
+{
+  "id": "rel:creden-monitora-politica-nacional-de-inteligencia",
+  "tipo": "relacao",
+  "nome": "A Creden supervisiona a execução da Política Nacional de Inteligência",
+  "relacao": "monitora",
+  "de": "org:creden",
+  "para": "obj:politica-nacional-de-inteligencia",
+  "condicao": "A ABIN executa a política sob supervisão da Câmara, que acompanha programas interministeriais de inteligência.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 5º, caput"
+    },
+    {
+      "ref": "norma:decreto-12853-2026",
+      "dispositivo": "art. 2º, II, k"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null,
+    "nota": "Desde a Lei 9.883/1999; a Câmara é regulada hoje pelo Decreto 12.853/2026."
+  },
+  "confianca": "oficial",
+  "notas": "A lei diz 'supervisão'; no vocabulário, 'supervisiona' é reservado à supervisão administrativa e orçamentária de ramo do Judiciário, então usamos 'monitora'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

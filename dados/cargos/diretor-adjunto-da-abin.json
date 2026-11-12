@@ -1,0 +1,42 @@
+{
+  "id": "cargo:diretor-adjunto-da-abin",
+  "tipo": "cargo",
+  "nome": "Diretor-Adjunto da Agência Brasileira de Inteligência",
+  "resumo": "Segundo dirigente da ABIN: assessora o Diretor-Geral na supervisão das unidades e o substitui em ausências e impedimentos.",
+  "orgao": "org:abin",
+  "provimento": "nomeacao-livre",
+  "vagas": 1,
+  "provimento_nota": "Cargo criado pela Lei 9.883/1999 (art. 11), que não diz quem nomeia nem fixa requisitos. Na estrutura regimental, corresponde a um cargo em comissão CCE 1.18 (Decreto 11.816/2023, Anexo II).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo na lei."
+  },
+  "requisitos": [],
+  "detalhes": "Pode exercer outras atribuições que o Diretor-Geral definir. Participa, sem voto, do Comitê-Executivo da Creden.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 11, caput"
+    },
+    {
+      "ref": "norma:decreto-11816-2023",
+      "dispositivo": "Anexo I, arts. 16, VI, e 17; Anexo II"
+    },
+    {
+      "ref": "norma:decreto-12853-2026",
+      "dispositivo": "art. 6º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A lei cria os cargos de Diretor-Geral e de Diretor-Adjunto como de natureza especial; o Decreto 11.816/2023 lista o Diretor-Adjunto como CCE 1.18. Não é cúpula (D11): sem ocupante.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

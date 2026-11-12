@@ -1,8 +1,10 @@
 ---
 id: verificacao-f2-administracao
 escopo: "Revisão independente da coleta f2-administracao (Leis 8.112/1990, 9.784/1999, 12.527/2011, 13.303/2016, 12.813/2013 e decretos da Comissão de Ética Pública)"
-status: pendente
+status: em-andamento
 depende_de: [f2-administracao]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Siga `pesquisa/instrucoes-verificacao.md`. Confira contra as fontes primárias (cópias em `pesquisa/brutos/planalto-leis/2026-11-11-f2-administracao/` e o Planalto) todas as entidades com `verificacao.tarefa: "f2-administracao"`: as 49 criadas e as 2 existentes que a coleta editou (`org:cgu`, `norma:lei-13303-2016`). Confira também o quadro de cobertura de `pesquisa/fila/f2-administracao.md` (as cinco leis saíram com 100%): diga se cada linha "fora" cabe na D49, no item 8 das instruções de fase 2, na D51 e na D53.
@@ -20,3 +22,5 @@ Pontos de atenção:
 Ao terminar, marque as entidades conferidas como `verificado` (com `tarefa: "verificacao-f2-administracao"`), corrija o que estiver errado com fonte, mude o status desta tarefa para `verificada` e escreva o relatório no diário.
 
 ## Diário
+
+- 2026-11-11 — iniciada; lidos CLAUDE.md, decisões (D11, D36, D37, D49 a D53), modelo de dados, protocolo, instruções de verificação e de fase 2, e a tarefa f2-administracao; 51 entidades no escopo (grep por "f2-administracao" em dados/)

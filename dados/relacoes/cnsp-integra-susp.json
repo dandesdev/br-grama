@@ -1,0 +1,29 @@
+{
+  "id": "rel:cnsp-integra-susp",
+  "tipo": "relacao",
+  "nome": "O CNSP integra o Sistema Único de Segurança Pública",
+  "relacao": "integra",
+  "de": "org:conselho-nacional-de-seguranca-publica-e-defesa-social",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Integrante estratégico.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 9º, § 1º, II"
+    },
+    {
+      "ref": "norma:decreto-9489-2018",
+      "dispositivo": "art. 40"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-08-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

@@ -133,7 +133,7 @@ Os capítulos de reclamação, de recurso extraordinário e especial e o art. 38
 | arts. 17 e 18 | fora | escrivão e notificação de testemunhas (detalhe de processo) |
 | arts. 19 a 21 | coberto | proc:crime-de-responsabilidade-do-presidente (recebimento, comissão especial, discussão do parecer; recepcionados pela ADPF 378) |
 | arts. 22 e 23 | fora | superados: a Câmara delibera uma só vez e não decreta a acusação; parágrafos do art. 23 não recepcionados (ADPF 378) |
-| arts. 24 a 35 | parcial | julgamento do Presidente no Senado: a etapa 'julgamento' de proc:crime-de-responsabilidade-do-presidente cita o rito de ministros do STF, e a ADPF 378 fala em estender "o rito relativamente abreviado da Lei 1.079/1950 para julgamento do impeachment pelo Senado"; falta conferir se a etapa deve citar também estes artigos (libelo, sessão presidida pelo Presidente do STF, sentença) |
+| arts. 24 a 35 | coberto | proc:crime-de-responsabilidade-do-presidente: etapas 'julgamento' (arts. 24 a 31), 'absolvicao' (art. 32) e 'condenacao' (arts. 33 a 35); a ADPF 378 manda estender ao Senado "o rito relativamente abreviado da Lei 1.079/1950 para julgamento do impeachment" (reclassificado de parcial na revisão verificacao-f2-processos-constitucionais) |
 | arts. 36 e 37 | fora | impedimentos de parlamentares e convocação extraordinária (detalhe de processo) |
 | art. 38 | coberto | proc:crime-de-responsabilidade-do-presidente (regimentos subsidiários, com a interpretação conforme da ADPF 378) |
 | arts. 39, 39-A, 40, 40-A, 41, 41-A, 42 e 43 | coberto | proc:crime-de-responsabilidade-de-ministro-do-stf-e-pgr (denúncia); 41-A também em proc:acao-penal-originaria |
@@ -144,7 +144,7 @@ Os capítulos de reclamação, de recurso extraordinário e especial e o art. 38
 | art. 81 | fora | não recepcionado (ADPF 378, fonte:stf-constituicao-e-o-supremo-art-51) |
 | art. 82 | coberto | proc:crime-de-responsabilidade-de-ministro-do-stf-e-pgr (prazo de 120 dias, no detalhe da etapa 'afastamento') |
 
-Total: 87 artigos; 55 cobertos, 12 parciais e 20 fora: 86,2%.
+Total: 87 artigos; 67 cobertos e 20 fora: 100% (antes da revisão: 55 cobertos, 12 parciais e 20 fora, 86,2%).
 
 ## Diário
 

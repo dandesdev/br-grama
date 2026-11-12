@@ -1,0 +1,50 @@
+{
+  "id": "org:creden",
+  "tipo": "orgao",
+  "nome": "Câmara de Relações Exteriores e Defesa Nacional",
+  "sigla": "Creden",
+  "resumo": "Câmara do Conselho de Governo que assessora o Presidente em relações exteriores e defesa nacional; supervisiona a execução da Política Nacional de Inteligência.",
+  "detalhes": "É formada por 18 Ministros de Estado e presidida pelo Ministro-Chefe do GSI; os Comandantes das três Forças, o Chefe do Estado-Maior Conjunto e o Diretor-Geral da ABIN participam sem voto. Acompanha programas interministeriais sobre soberania, fronteiras, terrorismo, segurança cibernética, operações de paz e atividade de inteligência, entre outros temas. Reúne-se só em caráter extraordinário e tem um Comitê-Executivo de secretários-executivos.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:conselho-de-governo",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-12853-2026",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 9º, parágrafo único"
+        }
+      ],
+      "nota": "Câmara do Conselho de Governo, criada por ato do Executivo."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-12853-2026",
+      "dispositivo": "arts. 1º a 7º e 10"
+    },
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 5º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-02-23",
+    "ate": null,
+    "nota": "Data do Decreto 12.853/2026, que hoje regula a Câmara e revogou o Decreto 9.819/2019. A Câmara é anterior (a Lei 9.883/1999 já a cita); a data de criação original não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Contagem de 18 ministros feita por nós no art. 3º do Decreto 12.853/2026. A Secretaria-Executiva é exercida pelo GSI (art. 10).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

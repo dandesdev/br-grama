@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-chefe-do-gsi-preside-creden",
+  "tipo": "relacao",
+  "nome": "O Ministro-Chefe do GSI preside a Creden",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "orgao_exercicio": "org:gabinete-de-seguranca-institucional",
+  "para": "org:creden",
+  "condicao": "Tem, além do voto ordinário, o voto de qualidade em caso de empate.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-12853-2026",
+      "dispositivo": "art. 3º, I; art. 7º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-02-23",
+    "ate": null,
+    "nota": "Data do Decreto 12.853/2026, base usada aqui."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

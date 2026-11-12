@@ -1,0 +1,31 @@
+{
+  "id": "rel:ccai-assessora-presidente-politica-nacional-de-inteligencia",
+  "tipo": "relacao",
+  "nome": "A CCAI examina a Política Nacional de Inteligência antes de fixada",
+  "relacao": "assessora",
+  "de": "org:ccai",
+  "para": "cargo:presidente-da-republica",
+  "condicao": "Examina e apresenta sugestões à Política Nacional de Inteligência antes que o Presidente a fixe.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9883-1999",
+      "dispositivo": "art. 5º, parágrafo único"
+    },
+    {
+      "ref": "norma:resolucao-cn-2-2013",
+      "dispositivo": "art. 3º, II"
+    }
+  ],
+  "vigencia": {
+    "de": "2013-11-25",
+    "ate": null,
+    "nota": "Data da Resolução 2/2013-CN, que regula a CCAI; o exame pelo órgão de controle externo está previsto desde a Lei 9.883/1999."
+  },
+  "confianca": "oficial",
+  "notas": "'assessora' é o termo mais próximo do vocabulário para 'exame e sugestões'; a CCAI não aprova nem veta a política.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

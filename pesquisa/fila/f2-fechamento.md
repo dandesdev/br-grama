@@ -34,6 +34,10 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - [ ] LRF, art. 7º: resultado do Banco Central transferido ao Tesouro (positivo) ou coberto por ele (negativo); relação `repassa-recursos` entre `org:banco-central` e o Tesouro, conferindo se a Lei 13.820/2019 mudou o regime; até lá, lacuna no quadro de f2-financas-publicas (verificacao-f2-financas-publicas).
 
+- [ ] Abrir `aviso:` (contradição, D37) sobre quem oferece o libelo no impeachment do Presidente: a Lei 1.079, art. 58 (aplicado por analogia pela ADPF 378), dá ao denunciante; o RISF, art. 380, III, à comissão especial (verificacao-f2-processos-constitucionais).
+- [ ] Vigência do CPC (2016-03-18, `fonte:stj-enunciado-administrativo-1`) em `norma:lei-13105-2015` e `proc:caminho-de-um-processo` (verificacao-f2-processos-constitucionais).
+- [ ] Conferir as fontes gravadas como `coletado` pela revisão dos processos constitucionais: `fonte:stj-enunciado-administrativo-1` e `fonte:stf-aplicacao-sumula-vinculante-46` (verificacao-f2-processos-constitucionais).
+
 ## Propostas de vocabulário (para o coordenador decidir)
 
 - `tipo_orgao`: órgão interno de função essencial (corregedorias, ouvidorias, secretarias do MP, da Defensoria e da AGU) e escola institucional (f2-funcoes-essenciais).
@@ -71,5 +75,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-11: `publica` passa a cobrir relatórios que a lei manda divulgar (RREO, RGF); não se cria "emite". O ato é o mesmo (tornar oficial e público), e um verbo a mais só separaria assinatura de divulgação, que o mapa não distingue.
 - 2026-11-11: D53 (regra técnica sem órgão, cargo, etapa nem relação é fora do escopo).
 - 2026-11-11: a execução da despesa fica com as unidades do Executivo como ator, e o texto diz que os demais Poderes seguem as mesmas etapas. Um conjunto de todas as unidades de todos os Poderes não acrescentaria informação ao desenho das raias, e os números por Poder já estão na aba Dinheiro (D48). O RGF do Judiciário fica ligado ao Poder: cada tribunal emite o seu, como a condição da relação diz, e criar uma relação por tribunal repetiria a mesma regra dezenas de vezes.
+
+- 2026-11-11: sem aviso para o foro do Presidente do CGIBS. A CF não o menciona nos arts. 52 e 102, e a LC 227/2026 o põe sob a Lei 1.079; omissão da CF não é contradição entre fontes (mesmo critério da ANA, acima).
 
 ## Diário

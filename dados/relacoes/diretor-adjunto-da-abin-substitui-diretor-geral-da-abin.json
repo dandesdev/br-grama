@@ -1,0 +1,27 @@
+{
+  "id": "rel:diretor-adjunto-da-abin-substitui-diretor-geral-da-abin",
+  "tipo": "relacao",
+  "nome": "O Diretor-Adjunto substitui o Diretor-Geral da ABIN",
+  "relacao": "substitui",
+  "de": "cargo:diretor-adjunto-da-abin",
+  "para": "cargo:diretor-geral-da-abin",
+  "condicao": "Nas ausências e impedimentos do Diretor-Geral. Se os dois cargos ficarem vagos ao mesmo tempo, a direção passa ao Secretário de Planejamento e Gestão da ABIN.",
+  "ordem": 1,
+  "fontes": [
+    {
+      "ref": "norma:decreto-11816-2023",
+      "dispositivo": "Anexo I, art. 17, caput e § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-01-06",
+    "ate": null,
+    "nota": "Vigência do Decreto 11.816/2023, base usada aqui."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

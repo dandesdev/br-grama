@@ -48,6 +48,6 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 13.300/2016 (mandado de injunção) | f2-processos-constitucionais | 13 | 0 | 0 | 2 | 15 | 100,0% |
 | Lei 9.507/1997 (habeas data) | f2-processos-constitucionais | 19 | 0 | 0 | 2 | 21 | 100,0% |
 | Lei 8.038/1990 (processos no STF e no STJ) | f2-processos-constitucionais | 22 | 0 | 0 | 13 | 35 | 100,0% |
-| Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 55 | 12 | 0 | 20 | 87 | 86,2% |
+| Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 67 | 0 | 0 | 20 | 87 | 100,0% |
 
-Total: 5081 artigos classificados; cobertura 99,0% (5 em lacuna, 46 parciais).
+Total: 5081 artigos classificados; cobertura 99,2% (5 em lacuna, 34 parciais).

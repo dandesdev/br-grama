@@ -1,0 +1,26 @@
+{
+  "id": "rel:congresso-nacional-monitora-plano-nacional-de-seguranca-publica-e-defesa-social",
+  "tipo": "relacao",
+  "nome": "O Congresso acompanha a avaliação do Plano Nacional de Segurança Pública",
+  "relacao": "monitora",
+  "de": "org:congresso-nacional",
+  "para": "obj:plano-nacional-de-seguranca-publica-e-defesa-social",
+  "condicao": "Cabe ao Legislativo de cada ente acompanhar as avaliações das políticas de segurança pública; o Legislativo também participa do processo de avaliação.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 23, parágrafo único; arts. 29 e 30"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-07-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A lei fala em 'Poder Legislativo Federal'; ligamos ao Congresso Nacional.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}

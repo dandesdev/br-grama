@@ -1,8 +1,10 @@
 ---
 id: f2-social
 escopo: "Fase 2 (D49): leis do SUS, da assistência social, da educação e da seguridade"
-status: pendente
+status: em-andamento
 depende_de: [f0-seguridade, f0-educacao]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -33,3 +35,4 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 ## Cobertura
 
 ## Diário
+- 2026-11-11 23:41 — iniciada; lidos CLAUDE.md, instruções (com a Fase 2), D01 a D53, modelo de dados, protocolo, vocabulários, os quadros de f2-financas-publicas e os diários de f0-seguridade e f0-educacao

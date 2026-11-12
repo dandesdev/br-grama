@@ -1,0 +1,29 @@
+{
+  "id": "rel:cnsp-monitora-susp",
+  "tipo": "relacao",
+  "nome": "O CNSP acompanha os integrantes operacionais do Susp",
+  "relacao": "monitora",
+  "de": "org:conselho-nacional-de-seguranca-publica-e-defesa-social",
+  "para": "org:sistema-unico-de-seguranca-publica",
+  "condicao": "Acompanha condições de trabalho, cumprimento de metas, apuração de denúncias nas corregedorias e confiança da população nos órgãos, e pode recomendar providências às autoridades.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 20, §§ 2º a 5º"
+    },
+    {
+      "ref": "norma:decreto-9489-2018",
+      "dispositivo": "art. 40, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-08-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-defesa-seguranca"
+  }
+}
