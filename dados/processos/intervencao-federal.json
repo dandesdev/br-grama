@@ -45,11 +45,15 @@
         "org:tse"
       ],
       "acao": "O Poder estadual coagido solicita a intervenção, ou o STF, o STJ ou o TSE a requisita",
-      "detalhes": "Coação contra o Legislativo ou o Executivo estadual: solicitação do Poder coagido ou impedido. Coação contra o Judiciário estadual: requisição do STF. Desobediência a ordem ou decisão judicial: requisição do STF, do STJ ou do TSE.",
+      "detalhes": "Coação contra o Legislativo ou o Executivo estadual: solicitação do Poder coagido ou impedido. Coação contra o Judiciário estadual: requisição do STF. Desobediência a ordem ou decisão judicial: requisição do STF, do STJ ou do TSE. No STJ, a requisição parte do próprio tribunal, de pedido do presidente de TJ ou de TRF ou da parte interessada; o Presidente do STJ tenta resolver o caso administrativamente, ouve a autoridade estadual e o PGR, e o pedido vai a um relator; julgado procedente, ele requisita a intervenção ao Presidente da República.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 36, I e II"
+        },
+        {
+          "ref": "norma:lei-8038-1990",
+          "dispositivo": "art. 19, I e II; arts. 20 a 22"
         }
       ],
       "seguintes": [
@@ -265,9 +269,9 @@
   "confianca": "oficial",
   "notas": "Modela só a intervenção da União nos estados e no DF. A intervenção dos estados nos municípios (art. 35) tem rito próprio, com apreciação da Assembleia Legislativa e representação ao Tribunal de Justiça, e não foi modelada. O decreto legislativo que aprova a intervenção não tem processo próprio no mapa (ainda não há processo de decreto legislativo modelado), por isso a etapa congresso-aprecia não usa 'remete_a'. Na revisão também não achamos outro processo existente cujo rito alguma etapa siga (a representação do PGR ao STF não é o rito de proc:caminho-de-um-processo). Os atores de solicitacao-ou-requisicao usam a Assembleia Legislativa do arquétipo estadual como representante do Poder estadual coagido; o Executivo estadual (Governador) não tem órgão de arquétipo modelado.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-executivo",
-    "notas": "coletado em f0-executivo; etapas conferidas uma a uma nos arts. 34, 36, 47, 49, IV, 57, § 6º, I, 60, § 1º, 84, X, 90, I, e 91, § 1º, II, da CF; corrigidos o resumo ('assume funções' trocado por 'intervém', pois o decreto pode só suspender o ato) e a etapa consulta-conselhos (agora 'podem ser ouvidos', com a leitura marcada como nossa); art. 47 acrescentado ao quórum; sem 'remete_a' (nenhum processo existente tem o rito)"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais",
+    "notas": "etapa solicitacao-ou-requisicao: + Lei 8.038/1990, art. 19, I e II, e arts. 20 a 22 (rito da requisição no STJ), com uma frase nos detalhes. Antes: verificado em 2026-10-23 (verificacao-f0-executivo)"
   }
 }

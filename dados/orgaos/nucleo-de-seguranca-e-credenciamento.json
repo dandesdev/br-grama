@@ -1,0 +1,46 @@
+{
+  "id": "org:nucleo-de-seguranca-e-credenciamento",
+  "tipo": "orgao",
+  "nome": "Núcleo de Segurança e Credenciamento",
+  "sigla": "NSC",
+  "resumo": "Unidade do GSI que credencia pessoas, empresas e órgãos para tratar informações sigilosas e cuida da segurança dessas informações, inclusive as recebidas de outros países.",
+  "detalhes": "Propõe a regulamentação do credenciamento de segurança e garante a segurança das informações sigilosas, inclusive as vindas de países ou organizações com que o Brasil tenha acordo, sem prejuízo do Itamaraty (Lei 12.527/2011, art. 37). O Decreto 7.724/2012 o chama de Núcleo de Credenciamento de Segurança (art. 70, III).",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:gabinete-de-seguranca-institucional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 37, caput"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 37, I e II, e parágrafo único"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 70"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituído pela Lei 12.527/2011; data de vigência da lei calculada (ver a norma)."
+  },
+  "confianca": "oficial",
+  "notas": "Posição na estrutura regimental atual do GSI não conferida; a lei basta para o contido_em.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Corte Especial do STJ",
   "resumo": "Órgão especial do STJ, formado pelos 15 ministros mais antigos e presidido pelo Presidente. Julga governadores, desembargadores e outras autoridades.",
-  "detalhes": "Julga, entre outros, os governadores nos crimes comuns e, nestes e nos de responsabilidade, desembargadores, membros dos tribunais de contas dos estados e dos municípios, dos TRFs, TREs e TRTs e do MPU que oficiam em tribunais; os mandados de segurança contra atos do próprio STJ; e os conflitos e incidentes que envolvem mais de uma Seção (RISTJ, art. 11). É o órgão especial previsto na CF para tribunais com mais de 25 julgadores (CF, art. 93, XI).",
+  "detalhes": "Julga, entre outros, os governadores nos crimes comuns e, nestes e nos de responsabilidade, desembargadores, membros dos tribunais de contas dos estados e dos municípios, dos TRFs, TREs e TRTs e do MPU que oficiam em tribunais; os mandados de segurança contra atos do próprio STJ; e os conflitos e incidentes que envolvem mais de uma Seção (RISTJ, art. 11). Desde a ER 55/2026, julga também o recurso especial submetido ao regime da relevância da questão federal pela técnica de precedente qualificado quando a questão é comum a mais de uma Seção (art. 11, XVII); nessas sessões virtuais pode votar o membro da Comissão Gestora de Precedentes autor da proposta, mesmo fora dos quinze (arts. 2º, § 2º, e 44, parágrafo único). É o órgão especial previsto na CF para tribunais com mais de 25 julgadores (CF, art. 93, XI).",
   "tipo_orgao": "judiciario-orgao-interno",
   "poder": "judiciario",
   "esfera": "federal",
@@ -22,7 +22,7 @@
   "fontes": [
     {
       "ref": "norma:ristj",
-      "dispositivo": "arts. 2º, § 2º, 8º, parágrafo único, 11, 15 e 172 a 175"
+      "dispositivo": "arts. 2º, § 2º, 8º, parágrafo único, 11, 15, 44, parágrafo único, e 172 a 175"
     },
     {
       "ref": "norma:cf-1988",
@@ -37,8 +37,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
-  }
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Acrescentada a ER 55/2026 (art. 11, XVII, e ressalva do art. 2º, § 2º), posterior à edição usada na coleta e em vigor desde 3/9/2026."
+  },
+  "notas": "A ER 55/2026 (DJe de 26/8/2026, em vigor em 3/9/2026), posterior à edição do RISTJ usada na coleta (até a ER 54/2026), foi lida na cópia do Wayback (9/10/2026) do PDF da BDJur, salva em pesquisa/brutos/stj/2026-11-11-verificacao-f2-judiciario/."
 }

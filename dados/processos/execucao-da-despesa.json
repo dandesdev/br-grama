@@ -71,8 +71,8 @@
           "dispositivo": "art. 9º, caput e §§ 1º e 2º; art. 31, § 1º, II"
         },
         {
-          "ref": "fonte:senado-legislacao-adi-2238-decisao",
-          "dispositivo": null,
+          "ref": "fonte:stf-adi-2238-acordao",
+          "dispositivo": "ementa, item 7",
           "nota": "art. 9º, § 3º, declarado inconstitucional"
         },
         {
@@ -297,9 +297,10 @@
   ],
   "notas": "Modelagem: o ator das etapas de empenho, liquidação e pagamento é o conjunto org:unidades-orcamentarias-do-poder-executivo-federal; nos outros Poderes as etapas são as mesmas. A etapa limitacao-de-empenho fica fora da linha principal: é uma decisão bimestral que reduz o que pode ser empenhado. O ciclo orçamentário (proc:ciclo-orcamentario, etapa execucao) remete a este processo.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; Lei 4.320, arts. 35 a 38, 47 a 50, 56 a 69, 80 e 92, LRF, arts. 8º, 9º, 13, 15, 16, 31, 41-A, 42, 48 e 65, LC 200/2023, art. 7º, Lei 10.180, art. 12, III, e Decreto 11.907/2024, Anexo I, art. 35, I, conferidos; ADI 2.238 passou a citar o acórdão do STF"
   },
   "confianca": "oficial"
 }

@@ -1,0 +1,193 @@
+{
+  "id": "proc:crime-de-responsabilidade-do-governador",
+  "tipo": "processo",
+  "nome": "Processo contra o governador por crime de responsabilidade",
+  "resumo": "Caminho da denúncia contra o governador pela Lei 1.079/1950: a Assembleia declara a acusação procedente por maioria absoluta e um tribunal de deputados e desembargadores julga.",
+  "detalhes": "Qualquer cidadão denuncia o governador à Assembleia Legislativa. Se a Assembleia admitir a denúncia e declarar a acusação procedente por maioria absoluta, o governador é suspenso. O julgamento segue a Constituição do estado; onde ela não regular, julga um tribunal de cinco deputados e cinco desembargadores, presidido pelo presidente do Tribunal de Justiça. Condenar exige dois terços.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "denuncia",
+      "atores": [
+        "org:arquetipo-estadual-eleitorado"
+      ],
+      "acao": "Um cidadão apresenta à Assembleia Legislativa denúncia contra o governador por crime de responsabilidade",
+      "detalhes": "A denúncia leva a assinatura com firma reconhecida, os documentos que a comprovem (ou onde encontrá-los) e, havendo prova testemunhal, o rol de pelo menos cinco testemunhas. Não é recebida depois que o governador deixar o cargo em definitivo. Os crimes são os definidos na própria lei.",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 74 a 76"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "assembleia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "assembleia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "A Assembleia decide se a denúncia é objeto de deliberação e, depois, se a acusação procede, por maioria absoluta",
+      "detalhes": "O rito interno da Assembleia vem do seu regimento, aplicado de forma subsidiária, e da Constituição do estado.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos deputados estaduais para declarar a procedência da acusação (art. 77)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 77 e 79"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "afastamento",
+          "quando": "Acusação declarada procedente"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Denúncia não admitida ou acusação improcedente"
+        }
+      ]
+    },
+    {
+      "id": "afastamento",
+      "atores": [
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O governador é suspenso das funções imediatamente",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 77"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "tribunal-de-julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "tribunal-de-julgamento",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica"
+      ],
+      "acao": "Na falta de regra estadual, a Assembleia elege cinco deputados e são sorteados cinco desembargadores",
+      "detalhes": "A Assembleia envia os autos ao presidente do Tribunal de Justiça, que preside o tribunal de julgamento e só vota em caso de empate. Num tribunal misto criado pela Constituição estadual, os dois lados têm o mesmo número de membros, fora o presidente.",
+      "prazo": {
+        "texto": "5 dias, contados do envio dos autos ao presidente do TJ",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "envio dos autos pela Assembleia ao presidente do TJ"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 78, §§ 1º, 3º e 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:arquetipo-estadual-deputado-estadual",
+        "cargo:desembargador",
+        "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica"
+      ],
+      "acao": "O tribunal de julgamento decide; condenar exige dois terços dos seus membros",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Dois terços dos membros do tribunal de julgamento (art. 78, § 2º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 78, caput e §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "condenacao",
+          "quando": "Dois terços ou mais pela condenação"
+        },
+        {
+          "para": "absolvicao",
+          "quando": "Menos de dois terços pela condenação"
+        }
+      ]
+    },
+    {
+      "id": "condenacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O governador perde o cargo e fica inabilitado para função pública, sem prejuízo da ação na justiça comum",
+      "detalhes": "A lei limita a pena à perda do cargo com inabilitação de até cinco anos.",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 78, caput"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "absolvicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O governador é absolvido",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 78, § 2º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A denúncia é arquivada",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 77"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Rito da Lei 1.079/1950 sob a CF de 1988; a lei não foi alterada nesses artigos."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 74 a 79"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O processo segue o texto da Lei 1.079/1950. A lei manda julgar 'pela forma que determinar a Constituição do Estado' (art. 78) e só fixa o tribunal de cinco deputados e cinco desembargadores para os estados cuja Constituição não regule o processo (§ 3º). Há jurisprudência do STF sobre a competência da União para definir esses crimes e o seu processo, que não lemos; por isso não dizemos se as regras estaduais valem. (2) A lei fala em inabilitação 'até cinco anos'; para o Presidente, a CF fixa oito (art. 52, parágrafo único), mas não lemos regra que estenda esse prazo aos governadores. (3) Os secretários de Estado, nos crimes conexos com os do governador, seguem o mesmo processo (art. 79, parágrafo único). (4) Os membros do tribunal de julgamento não têm entidade de órgão; aparecem como os cargos de deputado estadual e desembargador. (5) O cidadão aparece como org:arquetipo-estadual-eleitorado. (6) Crimes comuns do governador são julgados pelo STJ (rel:stj-julga-governador), fora deste processo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

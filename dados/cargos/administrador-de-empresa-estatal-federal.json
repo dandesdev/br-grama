@@ -1,0 +1,118 @@
+{
+  "id": "cargo:administrador-de-empresa-estatal-federal",
+  "tipo": "cargo",
+  "nome": "Administrador de empresa estatal federal (conselheiro de administração ou diretor)",
+  "resumo": "Membro do conselho de administração ou da diretoria de uma estatal federal. Precisa de experiência na área, formação compatível e não pode ser ministro, parlamentar nem dirigente partidário.",
+  "detalhes": "A Lei 13.303/2016 chama de administradores os membros do conselho de administração e da diretoria (art. 16, parágrafo único). A gestão dura até dois anos, unificada para conselheiros e diretores, com até três reconduções seguidas (art. 13, VI). O diretor só toma posse depois de assumir compromisso com metas aprovado pelo conselho (art. 23).",
+  "orgao": "org:empresas-estatais-federais",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "Membros do conselho de administração: eleitos pela assembleia geral de acionistas, em que a União é a controladora; os minoritários elegem ao menos um, e os empregados elegem um representante",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lei-6404-1976",
+          "dispositivo": "art. 122, II; art. 140, caput"
+        },
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 14, III; art. 19"
+        }
+      ]
+    },
+    {
+      "quando": "Diretores, inclusive o presidente ou diretor-presidente: eleitos pelo conselho de administração",
+      "provimento": "eleicao-pelos-pares",
+      "fontes": [
+        {
+          "ref": "norma:lei-6404-1976",
+          "dispositivo": "art. 143, caput"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "O comitê estatutário de elegibilidade confere se os indicados cumprem os requisitos e ajuda o acionista controlador na indicação (Lei 13.303/2016, art. 10). O estatuto de cada estatal pode prever outro rito para a escolha do presidente.",
+  "vagas": null,
+  "vagas_nota": "Varia por estatal: conselho de 7 a 11 membros e diretoria de ao menos três (Lei 13.303/2016, art. 13, I e II); não somamos.",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "até três reconduções consecutivas",
+    "nota": "Prazo de gestão unificado e não superior a dois anos (Lei 13.303/2016, art. 13, VI)."
+  },
+  "requisitos": [
+    {
+      "texto": "reputação ilibada e notório conhecimento",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 17, caput"
+        }
+      ]
+    },
+    {
+      "texto": "experiência de 10 anos na área da empresa, ou 4 anos em direção de empresa semelhante, cargo DAS-4 ou superior, docência ou pesquisa na área, ou 4 anos como profissional liberal na área (dispensável para empregado de carreira da estatal com mais de 10 anos e passagem pela gestão superior)",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 17, I, e § 5º"
+        }
+      ]
+    },
+    {
+      "texto": "formação acadêmica compatível com o cargo",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 17, II"
+        }
+      ]
+    },
+    {
+      "texto": "não ser inelegível pela LC 64/1990",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 17, III"
+        }
+      ]
+    },
+    {
+      "texto": "não ser representante do órgão regulador, Ministro de Estado, secretário estadual ou municipal, ocupante de cargo de natureza especial ou DAS sem vínculo permanente, dirigente partidário ou parlamentar (nem parente até o terceiro grau deles), nem ter atuado em partido ou campanha nos 36 meses anteriores, nem ocupar cargo sindical, nem ter contrato com a empresa ou o controlador nos 3 anos anteriores, nem ter conflito de interesse",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 17, §§ 2º e 3º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "arts. 13, 16, 17, 19, 22 e 23"
+    },
+    {
+      "ref": "norma:lei-6404-1976",
+      "dispositivo": "arts. 122, II, 140 e 143"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "O vocabulário não tem termo para eleição por assembleia de acionistas nem por conselho de administração; usamos os mais próximos (nomeacao-livre, porque a União controla a assembleia; eleicao-pelos-pares, porque o conselho é o órgão de administração da própria empresa). Proposta no diário."
+    }
+  },
+  "notas": "Pessoas (presidentes das estatais) não criadas: D11 cita dirigentes máximos, mas não procuramos quem ocupava cada presidência em 2026-10-01.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

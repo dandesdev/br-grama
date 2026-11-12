@@ -1,0 +1,29 @@
+{
+  "id": "rel:comissao-mista-de-reavaliacao-de-informacoes-julga-recursos-contra-ministro-de-estado",
+  "tipo": "relacao",
+  "nome": "A Comissão Mista de Reavaliação de Informações julga recursos contra Ministros que negam desclassificar informação",
+  "relacao": "julga-recursos-contra",
+  "de": "org:comissao-mista-de-reavaliacao-de-informacoes",
+  "para": "cargo:ministro-de-estado",
+  "condicao": "Recurso contra decisão do Ministro da área que indefere a desclassificação de informação secreta ou ultrassecreta.",
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 17, § 2º"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 47, III, b"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

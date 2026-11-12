@@ -69,7 +69,7 @@
         "org:ministerio-publico-da-uniao"
       ],
       "acao": "Acima de 95% do limite, o Poder ou órgão fica proibido de dar aumentos, criar cargos e contratar",
-      "detalhes": "Ficam vedados vantagens e reajustes (salvo os de sentença, lei ou contrato e a revisão geral anual), criação de cargo, mudança de carreira que aumente despesa, provimento e contratação (salvo reposição em educação, saúde e segurança) e hora extra (LRF, art. 22, parágrafo único).",
+      "detalhes": "Ficam vedados vantagens e reajustes (salvo os de sentença, lei ou contrato e a revisão geral anual), criação de cargo, mudança de carreira que aumente despesa, provimento e contratação (salvo a reposição de aposentados e falecidos em educação, saúde e segurança) e hora extra (LRF, art. 22, parágrafo único).",
       "fontes": [
         {
           "ref": "norma:lc-101-2000",
@@ -111,8 +111,8 @@
           "dispositivo": "art. 23, caput e § 1º"
         },
         {
-          "ref": "fonte:senado-legislacao-adi-2238-decisao",
-          "dispositivo": null,
+          "ref": "fonte:stf-adi-2238-acordao",
+          "dispositivo": "ementa, item 7",
           "nota": "art. 23, § 1º, sem redução de texto, e § 2º"
         }
       ],
@@ -190,7 +190,7 @@
     {
       "id": "calamidade-publica",
       "nome": "Calamidade pública reconhecida",
-      "resumo": "Enquanto durar a calamidade reconhecida pelo Legislativo, a contagem do prazo para eliminar o excesso fica suspensa",
+      "resumo": "Enquanto durar a calamidade reconhecida pelo Legislativo, ficam suspensos a contagem do prazo para eliminar o excesso e as medidas do art. 23",
       "quem_aciona": [
         "org:congresso-nacional"
       ],
@@ -203,7 +203,7 @@
       "efeitos": [
         {
           "etapa": "reducao",
-          "nota": "Contagem do prazo suspensa."
+          "nota": "Contagem do prazo e disposições do art. 23 suspensas (LRF, art. 65, I)."
         }
       ]
     },
@@ -279,16 +279,17 @@
       "dispositivo": "arts. 18 a 23, 59, 63, 65 e 66"
     },
     {
-      "ref": "fonte:senado-legislacao-adi-2238-decisao",
-      "dispositivo": null,
-      "nota": "arts. 23, §§ 1º e 2º"
+      "ref": "fonte:stf-adi-2238-acordao",
+      "dispositivo": "ementa, item 7",
+      "nota": "art. 23, §§ 1º e 2º"
     }
   ],
   "notas": "Atores: os Poderes federais e o MPU representam os 'Poderes e órgãos' do art. 20 da LRF; nos estados e municípios, os equivalentes. A regra de transição do art. 70 (enquadramento em dois exercícios depois de 2000) está esgotada.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; 90% (alerta, art. 59, § 1º, II), 95% (vedações, art. 22, par. único) e 100% (recondução, art. 23) conferidos; corrigidos a exceção de reposição do art. 22, par. único, IV (só aposentadoria ou falecimento) e o regime de calamidade (art. 65, I, suspende também as disposições do art. 23); ADI 2.238 passou a citar o acórdão do STF"
   },
   "confianca": "oficial"
 }

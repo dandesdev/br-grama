@@ -1,0 +1,222 @@
+{
+  "id": "proc:processo-administrativo-federal",
+  "tipo": "processo",
+  "nome": "Processo administrativo federal",
+  "resumo": "Rito geral das decisões da administração federal sobre pedidos e casos concretos: início, instrução, decisão em até 30 dias e recurso por até três instâncias.",
+  "detalhes": "Vale para a administração federal direta e indireta e para o Legislativo e o Judiciário da União quando decidem como administração (Lei 9.784/1999, art. 1º). Processos com lei própria, como o disciplinar dos servidores e o de acesso à informação, seguem a sua lei e usam esta só no que faltar (art. 69). Sem prazo específico, cada ato se faz em cinco dias, prorrogáveis até o dobro (art. 24); prazos em dias são corridos, excluído o dia do começo (art. 66).",
+  "forma": "linha",
+  "produz": "obj:ato-administrativo",
+  "etapas": [
+    {
+      "id": "inicio",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "O processo começa de ofício ou por requerimento escrito do interessado à autoridade competente",
+      "detalhes": "O requerimento identifica o interessado, o órgão a que se dirige e o pedido com os fatos e fundamentos; a administração não pode recusar documentos sem motivo. Sem regra de competência específica, o processo começa na autoridade de menor grau que possa decidir.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "arts. 5º a 8º e 17"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "instrucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "instrucao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "O órgão instrui o processo: colhe provas, pareceres e laudos e pode abrir consulta ou audiência pública",
+      "detalhes": "O interessado pode juntar documentos, pedir diligências e perícias e é intimado com três dias úteis de antecedência. Parecer obrigatório de órgão consultivo sai em até 15 dias. Encerrada a instrução, o interessado tem até 10 dias para se manifestar; se o órgão instrutor não for o que decide, faz relatório com proposta de decisão.",
+      "prazo": {
+        "texto": "parecer obrigatório em até 15 dias; manifestação final do interessado em até 10 dias",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "encerramento da instrução"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "arts. 26 a 47"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao",
+          "quando": null
+        },
+        {
+          "para": "extincao",
+          "quando": "o interessado desiste ou o objeto se perde"
+        }
+      ]
+    },
+    {
+      "id": "decisao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "A autoridade competente decide, com motivação, em até 30 dias, prorrogáveis por mais 30",
+      "detalhes": "A administração tem o dever de decidir. Decisões que negam ou limitam direitos, impõem sanções, decidem recursos ou anulam atos devem indicar os fatos e os fundamentos jurídicos.",
+      "prazo": {
+        "texto": "até 30 dias, prorrogáveis por igual período com motivação expressa",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "conclusão da instrução"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "arts. 48, 49 e 50"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": "ninguém recorre"
+        },
+        {
+          "para": "reconsideracao",
+          "quando": "o interessado recorre"
+        }
+      ]
+    },
+    {
+      "id": "reconsideracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "O recurso, apresentado em 10 dias, vai a quem decidiu, que pode reconsiderar em 5 dias",
+      "detalhes": "O recurso pode discutir legalidade e mérito e, salvo lei, não exige caução nem suspende a decisão; quem decidiu ou a autoridade superior pode dar efeito suspensivo se houver risco de prejuízo difícil de reparar. Se o recurso alegar ofensa a súmula vinculante, a autoridade explica por que ela se aplica ou não.",
+      "prazo": {
+        "texto": "10 dias para recorrer; 5 dias para reconsiderar",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "ciência ou divulgação oficial da decisão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "art. 56, §§ 1º a 3º; arts. 58 a 61"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": "reconsidera"
+        },
+        {
+          "para": "recurso",
+          "quando": "mantém a decisão e encaminha à autoridade superior"
+        }
+      ]
+    },
+    {
+      "id": "recurso",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "A autoridade superior decide o recurso em até 30 dias; o recurso passa por no máximo três instâncias",
+      "detalhes": "Os demais interessados têm cinco dias úteis para se manifestar. A autoridade pode confirmar, modificar, anular ou revogar a decisão; se puder piorar a situação do recorrente, ele é ouvido antes. Não se conhece do recurso fora do prazo, perante órgão incompetente, de quem não tem legitimidade ou depois de esgotada a via administrativa.",
+      "prazo": {
+        "texto": "até 30 dias, prorrogáveis por igual período",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "recebimento dos autos"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "arts. 57, 59, §§ 1º e 2º, 62, 63, 64, 64-A e 64-B"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso",
+          "quando": "nova instância, até a terceira"
+        },
+        {
+          "para": "fim",
+          "quando": "decisão final"
+        }
+      ]
+    },
+    {
+      "id": "extincao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O processo é extinto por desistência, perda do objeto ou falta de documento pedido ao interessado",
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "arts. 40, 51 e 52"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A decisão fica definitiva na via administrativa; uma sanção pode ser revista se surgirem fatos novos",
+      "detalhes": "A revisão pode ocorrer a qualquer tempo, a pedido ou de ofício, e não pode agravar a sanção.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "art. 65"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "decisao-coordenada",
+      "nome": "Decisão coordenada",
+      "resumo": "Quando a decisão exige três ou mais setores, órgãos ou entidades federais e há divergência que atrasa o processo, as autoridades decidem juntas, em reunião.",
+      "detalhes": "Cada órgão leva documento sobre a parte da sua competência, a divergência é apresentada nas reuniões com proposta de solução, e a conclusão vai para uma ata publicada por extrato no Diário Oficial da União. Os interessados podem participar como ouvintes. Não vale para licitação, poder sancionador nem casos com autoridades de Poderes diferentes. A convocação cabe à autoridade responsável pela decisão coordenada (art. 49-B, parágrafo único).",
+      "quem_aciona": [
+        "org:poder-executivo-federal"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-9784-1999",
+          "dispositivo": "arts. 49-A, 49-B, 49-D, 49-E, 49-F e 49-G"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "decisao",
+          "nota": "Todos os órgãos decidem juntos na mesma reunião, cada um sobre a matéria da sua competência, sem perder a responsabilidade própria (art. 49-A, § 4º; art. 49-G, VI)."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1999-02-01",
+    "ate": null,
+    "nota": "A decisão coordenada (arts. 49-A a 49-G) foi incluída pela Lei 14.210/2021."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9784-1999",
+      "dispositivo": "arts. 1º, 5º a 8º, 17, 24, 26 a 67 e 69"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os atores são o Poder Executivo federal porque o órgão e a autoridade competentes variam caso a caso e não são entidades do mapa; a lei também vale para o Legislativo e o Judiciário da União em função administrativa. Delegação e avocação (arts. 11 a 15), impedimento e suspeição (arts. 18 a 21) não viram etapas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

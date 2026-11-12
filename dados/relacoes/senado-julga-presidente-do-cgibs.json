@@ -1,0 +1,31 @@
+{
+  "id": "rel:senado-julga-presidente-do-cgibs",
+  "tipo": "relacao",
+  "nome": "Julgamento do Presidente do CGIBS por crime de responsabilidade",
+  "relacao": "julga",
+  "de": "org:senado-federal",
+  "para": "cargo:presidente-do-cgibs",
+  "quorum": {
+    "regra": "dois-tercos",
+    "nota": "Para condenar (Lei 1.079/1950, art. 80, parágrafo único)."
+  },
+  "condicao": "Crimes de responsabilidade do art. 79-A (como não publicar os atos do CGIBS ou não prestar contas até 30 de abril), com o rito do Presidente da República: denúncia à Câmara, que é tribunal de pronúncia, e julgamento pelo Senado.",
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Parte Quinta da Lei 1.079/1950 incluída pela LC 227/2026 (DOU de 14/1/2026, conforme a entidade norma:lei-1079-1950)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 79-A, 79-B e 80"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O art. 79-B manda aplicar ao Presidente do CGIBS o que a lei diz para o Presidente da República e os ministros de Estado, e o art. 80 faz da Câmara o tribunal de pronúncia e do Senado o de julgamento. Para os ministros de Estado, a CF de 1988 só leva ao Senado os crimes conexos com os do Presidente (art. 52, I) e dá os demais ao STF (art. 102, I, c); a LC 227/2026 não diz se o Presidente do CGIBS segue essa divisão. Seguimos o texto dos arts. 79-B e 80. Não criamos a relação da Câmara, porque a CF (art. 51, I) só prevê a autorização para o Presidente, o Vice e os ministros; a etapa está na condição.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

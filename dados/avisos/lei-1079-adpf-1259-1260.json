@@ -8,7 +8,8 @@
   "gravidade": "media",
   "afeta": [
     "rel:senado-julga-ministro-do-stf",
-    "norma:lei-1079-1950"
+    "norma:lei-1079-1950",
+    "proc:crime-de-responsabilidade-de-ministro-do-stf-e-pgr"
   ],
   "fontes": [
     {
@@ -32,9 +33,9 @@
   "notas": "Onde procuramos: texto compilado da Lei 1.079/1950 no Planalto (2026-10-16 e 2026-10-17); notícias do STF de 3/12/2025 e 10/12/2025; abas de andamentos e decisões das ADPFs 1259 e 1260 no portal do STF (2026-10-17); API do Senado para o PL 1.388/2023 (tramitando, situação \"incluída na pauta da reunião\"). Continua aviso porque o texto oficial da lei e a regra aplicável divergem enquanto a liminar não for referendada ou revogada.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; liminar de 3/12/2025 (itens i a vii) e decisão de 10/12/2025 conferidas na aba de decisões do STF; ausência de referendo até 2026-10-17 conferida nos andamentos; resumo e detalhes reescritos com a situação em 2026-10-01"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais",
+    "notas": "afeta: + proc:crime-de-responsabilidade-de-ministro-do-stf-e-pgr, criado nesta tarefa com as etapas dos arts. 47, 54, 57 e 70. Antes: verificado em 2026-10-17 (verificacao-piloto-estrutura)"
   }
 }

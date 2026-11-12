@@ -1,0 +1,286 @@
+{
+  "id": "proc:pedido-de-acesso-a-informacao",
+  "tipo": "processo",
+  "nome": "Pedido de acesso à informação no Executivo federal",
+  "resumo": "Como um pedido pela Lei de Acesso à Informação é respondido e recorrido no Executivo federal: resposta em até 20 dias, recursos no órgão, à CGU e à Comissão Mista.",
+  "detalhes": "Qualquer pessoa pode pedir, sem dizer o motivo, e o serviço é gratuito, salvo o custo de reprodução (Lei 12.527/2011, arts. 10 e 12). Nos estados, municípios, no Legislativo, no Judiciário e no Ministério Público, a resposta segue os mesmos prazos, mas os recursos depois da autoridade superior seguem regulamento próprio (arts. 18 e 45). A Lei 9.784/1999 se aplica subsidiariamente (art. 20).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "pedido",
+      "atores": [
+        "org:servicos-de-informacao-ao-cidadao"
+      ],
+      "acao": "O SIC do órgão recebe o pedido, que basta identificar o requerente e a informação, sem dizer o motivo",
+      "detalhes": "O pedido pode ser feito por qualquer meio legítimo, inclusive pelo site do órgão; não se pode exigir identificação que inviabilize o pedido.",
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 9º, I; art. 10, §§ 1º a 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "resposta",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "resposta",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:servicos-de-informacao-ao-cidadao"
+      ],
+      "acao": "O órgão dá acesso imediato ou responde em até 20 dias, prorrogáveis por mais 10",
+      "detalhes": "Na resposta, o órgão marca como e onde consultar, informa que não tem a informação (indicando quem tem) ou nega o acesso, dizendo as razões, o prazo de recurso e a autoridade que vai julgá-lo.",
+      "prazo": {
+        "texto": "imediato; se não for possível, até 20 dias, prorrogáveis por 10 com justificativa",
+        "valor": 20,
+        "unidade": "dias",
+        "conta_de": "recebimento do pedido"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 11, caput e §§ 1º, 2º e 4º"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "arts. 15 e 19"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim-acesso",
+          "quando": "concede o acesso"
+        },
+        {
+          "para": "recurso-no-orgao",
+          "quando": "nega o acesso"
+        },
+        {
+          "para": "reclamacao",
+          "quando": "não responde no prazo"
+        },
+        {
+          "para": "pedido-de-desclassificacao",
+          "quando": "nega por ser informação classificada"
+        }
+      ]
+    },
+    {
+      "id": "reclamacao",
+      "atores": [
+        "cargo:autoridade-de-monitoramento-da-lai"
+      ],
+      "acao": "Sem resposta, o requerente reclama à autoridade de monitoramento, que decide em 5 dias",
+      "detalhes": "A reclamação pode ser apresentada a partir de 30 dias depois do pedido, no prazo de 10 dias. Se não der resultado, cabe recurso à CGU.",
+      "prazo": {
+        "texto": "10 dias para reclamar, a partir de 30 dias do pedido; 5 dias para a decisão",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "recebimento da reclamação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 16, IV; art. 40"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "art. 22"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "resposta",
+          "quando": "o órgão passa a responder"
+        },
+        {
+          "para": "recurso-cgu",
+          "quando": "a reclamação não dá resultado"
+        }
+      ]
+    },
+    {
+      "id": "recurso-no-orgao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "A autoridade superior à que negou julga o recurso em 5 dias; no Executivo, cabe ainda recurso à autoridade máxima",
+      "detalhes": "O requerente tem 10 dias, contados da ciência da negativa, para recorrer. No Executivo federal, se a autoridade superior negar, cabe novo recurso em 10 dias à autoridade máxima do órgão ou entidade, que decide em 5 dias.",
+      "prazo": {
+        "texto": "10 dias para recorrer; 5 dias para cada decisão",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "apresentação do recurso"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 15"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim-acesso",
+          "quando": "dá razão ao requerente"
+        },
+        {
+          "para": "recurso-cgu",
+          "quando": "mantém a negativa"
+        }
+      ]
+    },
+    {
+      "id": "recurso-cgu",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:cgu"
+      ],
+      "acao": "A CGU julga o recurso em 5 dias e, se o acolher, manda o órgão cumprir a lei em prazo que fixa",
+      "detalhes": "Cabe quando se nega informação não classificada, quando a negativa de informação classificada não indica a autoridade classificadora, quando o procedimento de classificação não foi seguido ou quando há prazos descumpridos.",
+      "prazo": {
+        "texto": "10 dias para recorrer; 5 dias para a decisão",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "recebimento do recurso"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 16, caput, I a IV, e §§ 1º e 2º"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "art. 23"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim-acesso",
+          "quando": "acolhe o recurso"
+        },
+        {
+          "para": "recurso-cmri",
+          "quando": "nega o acesso"
+        }
+      ]
+    },
+    {
+      "id": "pedido-de-desclassificacao",
+      "atores": [
+        "cargo:ministro-de-estado"
+      ],
+      "acao": "Negada a desclassificação no órgão, o requerente recorre ao Ministro da área",
+      "detalhes": "O pedido de desclassificação vai primeiro à autoridade classificadora; o recurso ao Ministro só cabe depois de ao menos uma autoridade superior (nas Forças Armadas, o respectivo Comando).",
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 17, caput e § 1º; art. 29"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim-acesso",
+          "quando": "desclassifica"
+        },
+        {
+          "para": "recurso-cmri",
+          "quando": "indefere, se a informação for secreta ou ultrassecreta"
+        }
+      ]
+    },
+    {
+      "id": "recurso-cmri",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comissao-mista-de-reavaliacao-de-informacoes"
+      ],
+      "acao": "A Comissão Mista de Reavaliação de Informações julga o último recurso administrativo",
+      "detalhes": "O recurso é apresentado em 10 dias da ciência da decisão da CGU ou do Ministro, e a Comissão o aprecia até a terceira reunião ordinária depois da autuação.",
+      "prazo": {
+        "texto": "10 dias para recorrer; decisão até a terceira reunião ordinária seguinte",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "ciência da decisão recorrida"
+      },
+      "quorum": {
+        "regra": "maioria-simples",
+        "nota": "Recursos se decidem por maioria simples, com presença mínima de seis integrantes (Decreto 7.724/2012, arts. 48 e 52, II)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 16, § 3º; art. 17, § 2º; art. 35, § 1º"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "arts. 24, 47, III, 50 e 52"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim-acesso",
+          "quando": "acolhe o recurso"
+        },
+        {
+          "para": "fim-negado",
+          "quando": "mantém a negativa"
+        }
+      ]
+    },
+    {
+      "id": "fim-acesso",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O requerente recebe a informação, total ou com a parte sigilosa ocultada",
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 7º, § 2º; art. 11, § 1º, I"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "fim-negado",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O acesso fica negado na via administrativa",
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 16, § 3º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "arts. 10 a 20"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "arts. 15 a 24"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A etapa recurso-no-orgao tem como ator o Poder Executivo federal porque a 'autoridade hierarquicamente superior' varia por órgão e não é entidade do mapa. O recurso à autoridade máxima, segunda instância interna, é do Decreto 7.724/2012, não da lei.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:cgu-julga-recursos-contra-poder-executivo-federal-acesso-a-informacao",
+  "tipo": "relacao",
+  "nome": "A CGU julga recursos contra negativas de acesso à informação no Executivo federal",
+  "relacao": "julga-recursos-contra",
+  "de": "org:cgu",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Depois de ao menos uma autoridade superior do órgão ter apreciado o recurso; a CGU decide em 5 dias e, se der razão ao requerente, manda o órgão cumprir a lei.",
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 16, caput, I a IV, e §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 23"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

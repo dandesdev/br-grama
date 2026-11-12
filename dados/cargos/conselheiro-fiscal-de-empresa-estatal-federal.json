@@ -1,0 +1,54 @@
+{
+  "id": "cargo:conselheiro-fiscal-de-empresa-estatal-federal",
+  "tipo": "cargo",
+  "nome": "Membro do conselho fiscal de empresa estatal federal",
+  "resumo": "Fiscaliza a gestão e as contas de uma estatal federal no conselho fiscal permanente; ao menos um membro é servidor efetivo indicado pela União.",
+  "orgao": "org:empresas-estatais-federais",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "Eleito pela assembleia geral de acionistas (Lei 6.404/1976, arts. 122, II, e 161, § 1º). Ao menos um membro é indicado pelo ente controlador e deve ser servidor com vínculo permanente (Lei 13.303/2016, art. 26, § 2º).",
+  "vagas": null,
+  "vagas_nota": "De três a cinco por estatal, com suplentes em igual número (Lei 6.404/1976, art. 161, § 1º); não somamos.",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "até duas reconduções consecutivas",
+    "nota": "Lei 13.303/2016, art. 13, VIII."
+  },
+  "requisitos": [
+    {
+      "texto": "pessoa natural residente no país, com formação acadêmica compatível e 3 anos em cargo de direção ou assessoramento na administração pública ou como conselheiro fiscal ou administrador de empresa",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 26, § 1º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 13, IV e VIII; art. 26"
+    },
+    {
+      "ref": "norma:lei-6404-1976",
+      "dispositivo": "arts. 122, II, e 161"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "Eleição pela assembleia de acionistas, controlada pela União; termo mais próximo do vocabulário. Proposta no diário."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

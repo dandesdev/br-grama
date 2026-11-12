@@ -1,0 +1,343 @@
+{
+  "id": "proc:crime-de-responsabilidade-de-ministro-do-stf-e-pgr",
+  "tipo": "processo",
+  "nome": "Processo contra ministro do STF ou o PGR por crime de responsabilidade",
+  "resumo": "Caminho da denúncia de um cidadão contra ministro do STF ou o PGR: o Senado admite, pronuncia e julga sozinho; condenar exige dois terços dos senadores.",
+  "detalhes": "Qualquer cidadão denuncia ao Senado. Uma comissão especial opina se a denúncia deve ser examinada; o Plenário decide, ouve o acusado e, se a acusação proceder (pronúncia), o denunciado é suspenso das funções. O julgamento é presidido pelo Presidente do STF e a condenação leva à perda do cargo com inabilitação. Partes do rito estão suspensas por liminar do STF de dezembro de 2025 para os ministros do STF.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "denuncia",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Um cidadão apresenta ao Senado denúncia contra ministro do STF ou o PGR por crime de responsabilidade",
+      "detalhes": "A denúncia leva a assinatura do denunciante com firma reconhecida, os documentos que a comprovem (ou onde encontrá-los) e, havendo prova testemunhal, o rol de pelo menos cinco testemunhas. Só pode ser recebida enquanto o denunciado não tiver deixado o cargo em definitivo. Os crimes estão listados nos arts. 39 e 40 da lei, e o art. 10 vale também para o Presidente do STF e o PGR (arts. 39-A e 40-A).",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 39 a 43"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "comissao-especial",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "comissao-especial",
+      "atores": [
+        "org:mesa-do-senado-federal",
+        "org:comissoes-do-senado-federal"
+      ],
+      "acao": "Recebida pela Mesa, a denúncia é lida e vai a uma comissão especial, que opina se deve ser examinada",
+      "detalhes": "A comissão é eleita e se reúne em até 48 horas; elege presidente e relator e pode fazer diligências. O parecer, com a denúncia e os documentos, é lido em sessão, publicado e incluído na ordem do dia da sessão seguinte.",
+      "prazo": {
+        "texto": "Parecer em 10 dias",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "reunião da comissão especial"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 44 a 46"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "admissao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "O Senado vota, em turno único, se a denúncia deve ser objeto de deliberação",
+      "detalhes": "A lei exige maioria simples em votação nominal. Desde 3/12/2025, uma liminar nas ADPFs 1259 e 1260 exige dois terços para aprovar esse parecer quando o denunciado é membro do Judiciário; até 2026-10-01 o Plenário do STF não a havia referendado.",
+      "quorum": {
+        "regra": "maioria-simples",
+        "votacao": "nominal",
+        "nota": "Maioria simples pela lei (art. 47); dois terços para membros do Judiciário pela liminar das ADPFs 1259 e 1260, sem referendo em 2026-10-01 (aviso:lei-1079-adpf-1259-1260)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 47 e 48"
+        },
+        {
+          "ref": "fonte:stf-processo-adpf-1259",
+          "dispositivo": null,
+          "nota": "liminar de 3/12/2025"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "defesa-e-instrucao",
+          "quando": "Denúncia considerada objeto de deliberação"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Denúncia rejeitada"
+        }
+      ]
+    },
+    {
+      "id": "defesa-e-instrucao",
+      "atores": [
+        "org:mesa-do-senado-federal",
+        "org:comissoes-do-senado-federal"
+      ],
+      "acao": "O denunciado recebe cópia de tudo e responde; a comissão colhe provas e dá parecer sobre a acusação",
+      "detalhes": "Denunciante e denunciado podem acompanhar todos os atos da comissão, inquirir e contestar testemunhas. Fora do DF, a cópia é entregue pelo presidente do Tribunal de Justiça do estado; em lugar incerto, por edital com 60 dias de antecedência. O parecer é publicado e entra na ordem do dia pelo menos 48 horas depois.",
+      "prazo": {
+        "texto": "Resposta em 10 dias; parecer da comissão em 10 dias depois do prazo da resposta",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "fim do prazo da resposta"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 49 a 53"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pronuncia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pronuncia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal"
+      ],
+      "acao": "O Senado vota, em turno único, se a acusação procede (pronúncia)",
+      "detalhes": "Procedente a acusação, a Mesa avisa o STF, o Presidente da República, o denunciante e o denunciado. A liminar das ADPFs 1259 e 1260 também exige dois terços nesta votação para membros do Judiciário.",
+      "quorum": {
+        "regra": "maioria-simples",
+        "votacao": "nominal",
+        "nota": "Maioria simples pela lei (art. 54); dois terços para membros do Judiciário pela liminar das ADPFs 1259 e 1260, sem referendo em 2026-10-01 (aviso:lei-1079-adpf-1259-1260)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 54 a 56"
+        },
+        {
+          "ref": "fonte:stf-processo-adpf-1259",
+          "dispositivo": null,
+          "nota": "liminar de 3/12/2025"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "afastamento",
+          "quando": "Acusação procedente"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "Acusação improcedente"
+        }
+      ]
+    },
+    {
+      "id": "afastamento",
+      "atores": [
+        "cargo:ministro-do-stf",
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "Desde a intimação, o denunciado fica suspenso das funções, sujeito a ação criminal e perde 1/3 dos vencimentos",
+      "detalhes": "Os efeitos valem até a sentença final; o terço dos vencimentos é devolvido se houver absolvição. A lei limita a 120 dias, contados da procedência da acusação, o prazo para o processo e o julgamento. Para membros do Judiciário, a liminar das ADPFs 1259 e 1260 suspendeu o afastamento e a perda de vencimentos (art. 57, a e c).",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 57 e 82"
+        },
+        {
+          "ref": "fonte:stf-processo-adpf-1259",
+          "dispositivo": null,
+          "nota": "liminar de 3/12/2025"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "libelo-e-contrariedade",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "libelo-e-contrariedade",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "O denunciante apresenta o libelo acusatório e, em seguida, o denunciado a contrariedade, com as testemunhas",
+      "detalhes": "Com ou sem essas peças, os autos vão ao Presidente do STF, que é convidado a presidir a sessão de julgamento.",
+      "prazo": {
+        "texto": "48 horas para cada parte",
+        "valor": 48,
+        "unidade": "horas",
+        "conta_de": "vista do processo na Secretaria do Senado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 58 e 59"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-senado-federal",
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "O Senado, presidido pelo Presidente do STF, ouve as testemunhas e as partes e julga; condenar exige dois terços",
+      "detalhes": "As partes são notificadas pelo menos 10 dias antes. São juízes todos os senadores presentes, salvo os impedidos. Depois da inquirição e do debate, o presidente da sessão resume a acusação e a defesa e pergunta se o acusado cometeu o crime e deve perder o cargo. Se o Congresso encerrar a sessão legislativa antes do fim, um terço do Senado o convoca extraordinariamente.",
+      "prazo": {
+        "texto": "Pelo menos 10 dias entre a notificação das partes e o julgamento",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "notificação das partes"
+      },
+      "quorum": {
+        "regra": "dois-tercos",
+        "votacao": "nominal",
+        "nota": "Dois terços dos votos do Senado (CF, art. 52, parágrafo único); a Lei 1.079 fala em dois terços dos senadores presentes (art. 68, parágrafo único) e dos membros (art. 80, parágrafo único)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 60 a 68, 72 e 80"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, II, e parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "condenacao",
+          "quando": "Dois terços ou mais pela condenação"
+        },
+        {
+          "para": "absolvicao",
+          "quando": "Menos de dois terços pela condenação"
+        }
+      ]
+    },
+    {
+      "id": "condenacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:senado-federal"
+      ],
+      "acao": "O condenado perde o cargo e fica inabilitado por oito anos para função pública",
+      "detalhes": "A sentença é lavrada pelo presidente da sessão, assinada pelos senadores e comunicada ao Presidente da República, ao STF e ao acusado. A lei previa inabilitação de até cinco anos, fixada em votação separada; a CF fixa oito anos.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 52, parágrafo único"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 68, parágrafo único, 69 a 71"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "absolvicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Absolvido, o acusado volta ao cargo e recebe os vencimentos de que foi privado",
+      "detalhes": "A liminar das ADPFs 1259 e 1260 alcançou trecho do art. 70 para membros do Judiciário.",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 70 e 71"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A denúncia é arquivada",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 48 e 55"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "presidente-do-stf-acusado",
+      "nome": "Acusado é o Presidente do STF",
+      "resumo": "Se o denunciado for o próprio Presidente do STF, o julgamento no Senado é presidido pelo seu substituto legal",
+      "fontes": [
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "arts. 59 e 61"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "julgamento",
+          "nota": "Preside a sessão o substituto legal do Presidente do STF."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Rito da Lei 1.079/1950 aplicado sob a CF de 1988, que dá ao Senado o julgamento (art. 52, II)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 39 a 73 e 80"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 52, II, e parágrafo único"
+    },
+    {
+      "ref": "fonte:stf-processo-adpf-1259",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, como no processo contra o Presidente. (2) A CF (art. 52, II) também manda o Senado julgar membros do CNJ e do CNMP e o Advogado-Geral da União, mas a Lei 1.079 regula o rito só para ministros do STF e o PGR; não estendemos o processo a eles. (3) Quórum: a ADPF 378 (fonte:stf-constituicao-e-o-supremo-art-51) considerou não recepcionado o art. 81 (maioria absoluta para declarar a procedência) e aplicou ao Presidente a maioria simples dos arts. 47 e 54; seguimos a maioria simples, com a ressalva da liminar das ADPFs 1259 e 1260. (4) O art. 80, parágrafo único, diz que o Senado 'na apuração e julgamento' funciona sob a presidência do Presidente do STF, mas os arts. 59 e 61 só o convidam para a sessão de julgamento; modelamos como os arts. 59 e 61. (5) O prazo de 120 dias do art. 82 ficou no detalhe da etapa 'afastamento', sem prazo estruturado, porque a lei não diz o que acontece se ele passar.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

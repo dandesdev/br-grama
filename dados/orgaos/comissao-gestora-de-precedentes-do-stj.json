@@ -2,8 +2,8 @@
   "id": "org:comissao-gestora-de-precedentes-do-stj",
   "tipo": "orgao",
   "nome": "Comissão Gestora de Precedentes, Jurisprudência e Ações Coletivas do STJ",
-  "resumo": "Cuida da súmula e dos precedentes do STJ e supervisiona a gestão dos recursos repetitivos. Tem seis ministros.",
-  "detalhes": "Comissão permanente; as comissões têm cinco ministros, salvo a de Regimento Interno (nove) e a Gestora de Precedentes (seis), designados pelo Presidente com aprovação da Corte Especial e presididos pelo mais antigo (RISTJ, arts. 40 e 41).",
+  "resumo": "Cuida da súmula e dos precedentes do STJ, supervisiona a gestão dos recursos repetitivos e propõe temas de relevância da questão federal. Tem seis ministros.",
+  "detalhes": "Comissão permanente; as comissões têm cinco ministros, salvo a de Regimento Interno (nove) e a Gestora de Precedentes (seis), designados pelo Presidente com aprovação da Corte Especial e presididos pelo mais antigo (RISTJ, arts. 40 e 41). Desde a ER 55/2026, propõe diretamente à Corte Especial ou às Seções a afetação de recursos repetitivos, de recursos especiais com relevância da questão federal e de incidentes de assunção de competência, e o membro autor da proposta vota na sessão virtual do colegiado (art. 44, X, XI e parágrafo único).",
   "tipo_orgao": "colegiado",
   "poder": "judiciario",
   "esfera": "federal",
@@ -32,8 +32,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
-  }
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Acrescentadas as atribuições dadas pela ER 55/2026 (art. 44, X, XI e parágrafo único), em vigor desde 3/9/2026."
+  },
+  "notas": "A ER 55/2026 (DJe de 26/8/2026, em vigor em 3/9/2026), posterior à edição do RISTJ usada na coleta (até a ER 54/2026), foi lida na cópia do Wayback (9/10/2026) do PDF da BDJur, salva em pesquisa/brutos/stj/2026-11-11-verificacao-f2-judiciario/."
 }

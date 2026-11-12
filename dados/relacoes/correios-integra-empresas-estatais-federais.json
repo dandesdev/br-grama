@@ -1,0 +1,30 @@
+{
+  "id": "rel:correios-integra-empresas-estatais-federais",
+  "tipo": "relacao",
+  "nome": "Os Correios integram as empresas estatais federais",
+  "relacao": "integra",
+  "de": "org:correios",
+  "para": "org:empresas-estatais-federais",
+  "condicao": "Empresa pública.",
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null,
+    "nota": "Data da Lei 13.303/2016, que deu as regras comuns."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "arts. 1º e 3º"
+    },
+    {
+      "ref": "norma:decreto-lei-509-1969",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

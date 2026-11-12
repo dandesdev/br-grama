@@ -14,7 +14,7 @@
         "cargo:subprocurador-geral-da-republica"
       ],
       "acao": "Recebido o inquérito, o Ministério Público oferece denúncia ou pede o arquivamento",
-      "detalhes": "No STF, o PGR propõe as ações penais; no STJ, o PGR pode delegar a função a um subprocurador-geral. O relator pode deferir diligências complementares, que interrompem o prazo. Se o investigado confessou crime sem violência ou grave ameaça com pena mínima abaixo de quatro anos, o MP pode propor acordo de não persecução penal. Na ação penal privada, a acusação é a queixa do ofendido.",
+      "detalhes": "No STF, o PGR propõe as ações penais; no STJ, o PGR pode delegar a função a um subprocurador-geral. O relator pode deferir diligências complementares, que interrompem o prazo. Se o investigado confessou crime sem violência ou grave ameaça com pena mínima abaixo de quatro anos, o MP pode propor acordo de não persecução penal. Na ação penal privada, a acusação é a queixa do ofendido. Pelo mesmo rito correm, nos tribunais competentes, as ações por crimes do art. 10 da Lei 1.079/1950 (lei orçamentária) contra presidentes de tribunais, procuradores-gerais e chefes regionais do Ministério Público e da advocacia pública; nelas, qualquer cidadão pode oferecer a denúncia.",
       "prazo": {
         "texto": "15 dias; 5 dias se o indiciado estiver preso",
         "valor": 15,
@@ -33,6 +33,10 @@
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 129, I"
+        },
+        {
+          "ref": "norma:lei-1079-1950",
+          "dispositivo": "art. 39-A, parágrafo único; art. 40-A, parágrafo único, II; art. 41-A"
         }
       ],
       "seguintes": [

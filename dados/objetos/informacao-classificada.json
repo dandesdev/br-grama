@@ -1,0 +1,30 @@
+{
+  "id": "obj:informacao-classificada",
+  "tipo": "objeto",
+  "nome": "Informação classificada como sigilosa",
+  "resumo": "Informação pública cujo acesso é restringido por tempo limitado, por ser imprescindível à segurança da sociedade ou do Estado: ultrassecreta (25 anos), secreta (15) ou reservada (5).",
+  "detalhes": "No Executivo federal, classificam como ultrassecreta o Presidente, o Vice-Presidente, os Ministros de Estado e autoridades equivalentes, os Comandantes das Forças e os chefes de missões diplomáticas e consulares permanentes; como secreta, também os titulares de autarquias, fundações e estatais; como reservada, também quem ocupa função de direção DAS 101.5 ou superior (Lei 12.527/2011, art. 27). A classificação ultrassecreta feita por Comandante ou chefe de missão precisa ser ratificada pelo Ministro, e toda classificação ultrassecreta vai à Comissão Mista de Reavaliação de Informações (art. 27, §§ 2º e 3º). Vencido o prazo, a informação fica pública automaticamente (art. 24, § 4º).",
+  "tipo_objeto": "documento",
+  "esfera": "federal",
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "arts. 23, 24, 27, 28, 29 e 30"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 30"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Quem classifica em cada grau fica nos detalhes porque o vocabulário de relações não tem o verbo 'classifica' (proposta no diário). As informações sob sigilo em si não são aviso (D08, D37): a lei diz quem classifica e por quanto tempo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

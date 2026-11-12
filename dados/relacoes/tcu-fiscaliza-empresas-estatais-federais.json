@@ -1,0 +1,29 @@
+{
+  "id": "rel:tcu-fiscaliza-empresas-estatais-federais",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza as empresas estatais federais",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "org:empresas-estatais-federais",
+  "condicao": "Fiscalização contábil, financeira, operacional e patrimonial, com acesso irrestrito a documentos, inclusive sigilosos, e controle das despesas dos contratos; não pode interferir na gestão. O controle interno (CGU) também fiscaliza.",
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "arts. 85, 87 e 90"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 71, II"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

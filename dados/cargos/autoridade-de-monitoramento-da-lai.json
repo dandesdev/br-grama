@@ -1,0 +1,37 @@
+{
+  "id": "cargo:autoridade-de-monitoramento-da-lai",
+  "tipo": "cargo",
+  "nome": "Autoridade de monitoramento da Lei de Acesso à Informação",
+  "resumo": "Autoridade que o dirigente máximo de cada órgão e entidade federal designa para fazer cumprir a LAI, monitorar a sua aplicação e decidir reclamações por falta de resposta.",
+  "detalhes": "Fica diretamente subordinada ao dirigente máximo; assegura o cumprimento das normas de acesso, monitora a implementação da lei e apresenta relatórios, recomenda medidas e orienta as unidades (Lei 12.527/2011, art. 40). No Executivo federal, decide em cinco dias a reclamação contra omissão de resposta e manda relatório anual à CGU (Decreto 7.724/2012, arts. 22 e 67).",
+  "orgao": "org:poder-executivo-federal",
+  "provimento": "designacao",
+  "provimento_nota": "Designada pelo dirigente máximo do órgão ou entidade, entre as autoridades diretamente subordinadas a ele (Lei 12.527/2011, art. 40).",
+  "vagas": null,
+  "vagas_nota": "Uma por órgão ou entidade da administração federal direta e indireta; não somamos.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Função exercida por designação, sem mandato."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 40"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "arts. 22 e 67"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

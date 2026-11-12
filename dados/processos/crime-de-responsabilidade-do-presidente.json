@@ -582,7 +582,7 @@
     },
     {
       "ref": "norma:lei-1079-1950",
-      "dispositivo": "arts. 14 a 24 e 44 a 70"
+      "dispositivo": "arts. 14 a 16, 19, 20 e 44 a 70"
     },
     {
       "ref": "norma:ricd",
@@ -599,14 +599,24 @@
     {
       "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
       "dispositivo": "art. 52, I: ADPF 378 MC"
+    },
+    {
+      "ref": "fonte:stf-adpf-378",
+      "dispositivo": null,
+      "nota": "decisão de 17/12/2015: regimentos da Câmara e do Senado subsidiários (Lei 1.079, art. 38, com interpretação conforme) e arts. 19 a 21 da lei recepcionados"
+    },
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "arts. 21 e 38",
+      "nota": "discussão do parecer na Câmara e aplicação subsidiária dos regimentos, recepcionados pela ADPF 378"
     }
   ],
   "confianca": "oficial",
   "notas": "Decisões de modelagem: (1) O rito do Senado segue a ADPF 378 MC (2015), que mandou aplicar por analogia ao Presidente as regras da Lei 1.079/1950 para ministros do STF e PGR (arts. 44 a 49 e 51 a 55), criando as etapas de instauração e de pronúncia, como no caso Collor; os arts. 23, §§ 1º, 4º e 5º, 80 (1ª parte) e 81 da lei não foram recepcionados. (2) A liminar das ADPFs 1259 e 1260 (dez/2025), que fixou dois terços para os pareceres dos arts. 47 e 54, vale para membros do Judiciário, não para o Presidente (ver aviso:lei-1079-adpf-1259-1260). (3) O 'cidadão' que denuncia aparece como org:eleitorado-nacional, o ator usado para a iniciativa popular. (4) O mesmo rito vale para o Vice-Presidente e, nos crimes conexos, para ministros e Comandantes (arts. 51, I, e 52, I); o processo modela só o Presidente. (5) As etapas do crime comum estão no processo porque um regime não pode criar etapas; o regime 'infracao-penal-comum' diz quais delas usar. (6) A Lei 1.079/1950, art. 68, parágrafo único, prevê votação separada da inabilitação por até cinco anos; a CF fixa oito anos junto com a perda do cargo, e não modelamos a votação separada como etapa, mas a etapa 'condenacao' registra que ela ocorreu em 2016 (fonte:radio-senado-impeachment-dilma-2016-08-31). O ato do julgamento é a Resolução do Senado Federal nº 35/2016, ainda sem entidade norma: impõe só a perda do cargo (art. 2º) e a sentença registra 61 a 20 na perda do cargo e 42 a 36, com três abstenções, na inabilitação, que não alcançou dois terços. (7) Os prazos da Câmara são os do RICD; os do Senado, os da Lei 1.079/1950 aplicados por analogia, que o RISF (arts. 380 a 382) não altera. (8) O exame do Presidente da Câmara na etapa 'recebimento' segue o RICD; o alcance desse exame foi discutido pelo STF em mandados de segurança que não consultamos.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-complementos-2",
-    "notas": "verificado antes em verificacao-f0-processos-legislativos; em f0-sugestoes-revisoes, a etapa 'condenacao' ganhou a votação separada de 2016. Conferido: CF, art. 52, parágrafo único, e art. 79; Lei 1.079/1950, arts. 68 e 70; notícia da Rádio Senado; ponto a conferir resolvido: achada a Resolução SF 35/2016 (LegIn da Câmara e lista da API do Senado), com o placar, anotada na nota (6)"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais",
+    "notas": "conferido contra a Lei 1.079/1950 (texto de 11/11/2026, LC 227/2026) e a ADPF 378: etapas mantidas; fontes + fonte:stf-adpf-378 (página oficial do processo) e Lei 1.079, arts. 21 e 38; a faixa \"arts. 14 a 24\" das fontes gerais virou \"arts. 14 a 16, 19, 20\", porque os arts. 22 a 24 (segunda votação na Câmara e acusação pela Câmara) foram superados pela ADPF 378. Antes: verificado em 2026-10-27 (verificacao-f0-complementos-2)"
   }
 }

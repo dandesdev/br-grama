@@ -1,0 +1,43 @@
+{
+  "id": "org:servicos-de-informacao-ao-cidadao",
+  "tipo": "orgao",
+  "nome": "Serviços de Informação ao Cidadão",
+  "sigla": "SIC",
+  "resumo": "Balcões, físicos e na internet, que cada órgão e entidade pública mantém para receber pedidos de acesso à informação e orientar o público.",
+  "detalhes": "A Lei de Acesso à Informação manda criar o serviço em todos os órgãos e entidades do poder público, para atender e orientar o público, informar a tramitação de documentos e protocolar pedidos (art. 9º, I). Aqui representamos os do Executivo federal, onde corre o rito com recurso à CGU e à Comissão Mista de Reavaliação de Informações.",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 9º, I"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 9º, I, a a c; art. 10, § 2º"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 15"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

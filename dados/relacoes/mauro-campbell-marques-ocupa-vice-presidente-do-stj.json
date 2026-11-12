@@ -1,0 +1,26 @@
+{
+  "id": "rel:mauro-campbell-marques-ocupa-vice-presidente-do-stj",
+  "tipo": "relacao",
+  "nome": "Mauro Campbell Marques ocupa o cargo de Vice-Presidente do STJ",
+  "relacao": "ocupa",
+  "de": "pessoa:mauro-campbell-marques",
+  "para": "cargo:vice-presidente-do-stj",
+  "vigencia": {
+    "de": "2026-08-19",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stj-noticia-posse-salomao-2026",
+      "dispositivo": "'os ministros Luis Felipe Salomão e Mauro Campbell Marques tomaram posse como presidente e vice-presidente do STJ para o biênio 2026-2028'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "Criada na verificacao-f2-judiciario para registrar ocupante de cargo de direção (D11, D14); precisa de conferência por outro agente."
+  },
+  "notas": "Pelo RISTJ, art. 3º, o Vice-Presidente é também o Corregedor-Geral da Justiça Federal (cargo:corregedor-geral-da-justica-federal, provimento nato); não criamos relação ocupa separada para essa função."
+}

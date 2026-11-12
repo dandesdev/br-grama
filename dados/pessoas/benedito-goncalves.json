@@ -1,0 +1,24 @@
+{
+  "id": "pessoa:benedito-goncalves",
+  "tipo": "pessoa",
+  "nome": "Benedito Gonçalves",
+  "resumo": "Ministro do Superior Tribunal de Justiça; Corregedor Nacional de Justiça no biênio 2026-2028.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stj-noticia-posse-corregedor-nacional-2026",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "Criada na verificacao-f2-judiciario para registrar ocupante de cargo de direção (D11, D14); precisa de conferência por outro agente."
+  },
+  "notas": "Criada só para registrar o cargo de direção (D11). O nome civil completo não foi conferido. Ministros do STJ não têm filiação partidária (CF, art. 95, parágrafo único, III)."
+}

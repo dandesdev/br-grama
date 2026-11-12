@@ -1,0 +1,25 @@
+{
+  "id": "rel:ministro-de-estado-julga-recursos-contra-poder-executivo-federal-desclassificacao",
+  "tipo": "relacao",
+  "nome": "O Ministro da área julga recursos contra a recusa de desclassificar informação",
+  "relacao": "julga-recursos-contra",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:poder-executivo-federal",
+  "condicao": "Indeferido o pedido de desclassificação num órgão federal, cabe recurso ao Ministro da área, depois de ao menos uma autoridade superior (nas Forças Armadas, o respectivo Comando).",
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 17, caput e § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

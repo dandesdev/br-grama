@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Quarta Turma do STJ",
   "resumo": "Turma especializada do STJ, de cinco ministros, que integra a Segunda Seção. Julga sobretudo recursos especiais e habeas corpus.",
-  "detalhes": "É presidida pelo ministro mais antigo, com rodízio a cada dois anos (RISTJ, art. 2º, § 4º). Julga, entre outros, os recursos especiais e ordinários e os habeas corpus contra atos de tribunais sujeitos ao STJ, e remete à Seção as causas relevantes ou que podem gerar divergência (arts. 13 e 14).",
+  "detalhes": "É presidida pelo ministro mais antigo, com rodízio a cada dois anos (RISTJ, art. 2º, § 4º). Julga, entre outros, os recursos especiais e ordinários e os habeas corpus contra atos de tribunais sujeitos ao STJ, e remete à Seção as causas relevantes ou que podem gerar divergência (arts. 13 e 14). Desde a ER 55/2026, julga os recursos especiais com relevância da questão federal presumida ou sem formação de precedente qualificado (art. 13, V).",
   "tipo_orgao": "judiciario-orgao-interno",
   "poder": "judiciario",
   "esfera": "federal",
@@ -33,8 +33,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
-  }
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Acrescentada a competência dada pela ER 55/2026 (art. 13, V), em vigor desde 3/9/2026."
+  },
+  "notas": "A ER 55/2026 (DJe de 26/8/2026, em vigor em 3/9/2026), posterior à edição do RISTJ usada na coleta (até a ER 54/2026), foi lida na cópia do Wayback (9/10/2026) do PDF da BDJur, salva em pesquisa/brutos/stj/2026-11-11-verificacao-f2-judiciario/."
 }

@@ -1,0 +1,51 @@
+{
+  "id": "org:comissao-mista-de-reavaliacao-de-informacoes",
+  "tipo": "orgao",
+  "nome": "Comissão Mista de Reavaliação de Informações",
+  "sigla": "CMRI",
+  "resumo": "Colegiado de ministros que decide sobre informações sigilosas no Executivo federal: revê classificações secretas e ultrassecretas e julga o último recurso nos pedidos de acesso.",
+  "detalhes": "Pode requisitar a informação classificada, rever de ofício ou a pedido a classificação secreta ou ultrassecreta (no máximo a cada quatro anos, sob pena de desclassificação automática) e prorrogar uma única vez o sigilo ultrassecreto em caso de ameaça à soberania, ao território ou às relações internacionais (Lei 12.527/2011, art. 35, §§ 1º a 4º). Pelo Decreto 7.724/2012, é formada pelos titulares da Casa Civil, que a preside, da AGU, da CGU, do GSI e dos Ministérios da Defesa, dos Direitos Humanos e da Cidadania, da Fazenda, da Gestão e Inovação, da Justiça e Segurança Pública e das Relações Exteriores; reúne-se uma vez por mês com no mínimo seis integrantes e decide por maioria absoluta na revisão e na prorrogação de sigilo e por maioria simples nos demais casos (arts. 46, 48 e 52).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-12527-2011",
+          "dispositivo": "art. 35, § 1º"
+        },
+        {
+          "ref": "norma:decreto-7724-2012",
+          "dispositivo": "arts. 46 e 53"
+        }
+      ],
+      "nota": "Colegiado interministerial da administração pública federal; a Casa Civil a preside e exerce a Secretaria-Executiva, mas o decreto não a põe dentro da Casa Civil."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 16, § 3º; art. 17, § 2º; art. 27, § 3º; art. 35, §§ 1º a 5º; art. 39, § 2º"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "arts. 46 a 54"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituída pela Lei 12.527/2011, em vigor desde 16/5/2012 (data calculada; ver a norma). A composição atual é do Decreto 11.489/2023."
+  },
+  "confianca": "oficial",
+  "notas": "Mandato de dois anos dos integrantes previsto na lei (art. 35, § 5º); o decreto a compõe pelos titulares dos órgãos. Regimento interno não consultado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

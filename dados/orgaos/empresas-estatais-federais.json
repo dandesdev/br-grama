@@ -1,0 +1,52 @@
+{
+  "id": "org:empresas-estatais-federais",
+  "tipo": "orgao",
+  "nome": "Empresas estatais federais",
+  "resumo": "Empresas públicas e sociedades de economia mista da União, com a governança que a Lei das Estatais exige: conselho de administração, diretoria, conselho fiscal e comitê de auditoria.",
+  "detalhes": "A Lei 13.303/2016 vale para as estatais da União, dos estados, do DF e dos municípios; as de receita bruta abaixo de R$ 90 milhões seguem só parte dela (art. 1º, § 1º). Toda estatal precisa de lei que autorize a criação (art. 2º, § 1º) e deve ter: conselho de administração de 7 a 11 membros, com ao menos 25% de independentes, um representante dos empregados, um dos minoritários e 30% de mulheres; diretoria de ao menos três membros, que assume metas aprovadas pelo conselho; conselho fiscal permanente, com ao menos um servidor efetivo indicado pelo ente controlador; comitê de auditoria estatutário de três a cinco membros, em maioria independentes, ligado ao conselho; comitê que verifica a indicação de conselheiros; auditoria interna e área de conformidade e riscos (arts. 9º, 10, 13, 19, 19-A, 22 a 26). Conselheiros e diretores têm gestão de até dois anos, com até três reconduções; conselheiros fiscais, até dois anos, com duas reconduções (art. 13, VI e VIII). O conselho de administração analisa todo ano as metas e informa o Congresso e o TCU (art. 23, § 2º). Licitam e contratam por regras próprias (arts. 28 a 84).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-200-1967",
+          "dispositivo": "art. 4º, II, b e c"
+        },
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "arts. 1º, 3º e 4º"
+        }
+      ],
+      "nota": "Conjunto, não órgão real: agrupa as estatais federais do mapa para as regras comuns da Lei 13.303/2016 (D51). Cada estatal continua com contido_em no Poder Executivo federal (D39) e se liga ao conjunto pela relação integra. A lista do mapa não é exaustiva (D07)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "arts. 1º a 27; arts. 85 a 93"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null,
+    "nota": "Regras comuns desde a Lei 13.303/2016 (vigência na publicação, art. 97); as estatais são anteriores. A cota de 30% de mulheres no conselho (art. 19-A) e a política de igualdade (art. 8º, X) vêm da Lei 15.177/2025."
+  },
+  "confianca": "oficial",
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 6º; art. 13",
+      "nota": "a organização interna de cada estatal está no seu estatuto social, que segue as diretrizes da lei autorizadora"
+    }
+  ],
+  "notas": "Criado nesta tarefa, seguindo o modelo de org:agencias-reguladoras-federais. Os conselhos e comitês de cada estatal não foram criados um a um.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

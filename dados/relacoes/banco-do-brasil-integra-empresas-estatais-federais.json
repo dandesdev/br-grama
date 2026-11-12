@@ -1,0 +1,26 @@
+{
+  "id": "rel:banco-do-brasil-integra-empresas-estatais-federais",
+  "tipo": "relacao",
+  "nome": "O Banco do Brasil integra as empresas estatais federais",
+  "relacao": "integra",
+  "de": "org:banco-do-brasil",
+  "para": "org:empresas-estatais-federais",
+  "condicao": "Sociedade de economia mista.",
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null,
+    "nota": "Data da Lei 13.303/2016, que deu as regras comuns."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "arts. 1º e 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

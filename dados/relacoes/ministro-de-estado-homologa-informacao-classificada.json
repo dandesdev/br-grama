@@ -1,0 +1,31 @@
+{
+  "id": "rel:ministro-de-estado-homologa-informacao-classificada",
+  "tipo": "relacao",
+  "nome": "O Ministro ratifica a classificação ultrassecreta feita por Comandante ou chefe de missão diplomática",
+  "relacao": "homologa",
+  "de": "cargo:ministro-de-estado",
+  "para": "obj:informacao-classificada",
+  "condicao": "Classificação no grau ultrassecreto pelos Comandantes da Marinha, do Exército e da Aeronáutica (Ministro da Defesa) ou pelos chefes de missões diplomáticas e consulares permanentes (Ministro das Relações Exteriores), no prazo do regulamento.",
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 27, I, d e e, e § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "condicao": {
+      "confianca": "inferido",
+      "nota": "A lei diz 'pelos respectivos Ministros de Estado'; ligar os Comandantes ao Ministro da Defesa e os chefes de missão ao Ministro das Relações Exteriores é leitura nossa."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

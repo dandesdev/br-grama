@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-integra-comissao-mista-de-reavaliacao-de-informacoes",
+  "tipo": "relacao",
+  "nome": "Ministros de Estado integram a Comissão Mista de Reavaliação de Informações",
+  "relacao": "integra",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:comissao-mista-de-reavaliacao-de-informacoes",
+  "condicao": "Titulares da Casa Civil, da CGU, do GSI e dos Ministérios da Defesa, dos Direitos Humanos e da Cidadania, da Fazenda, da Gestão e da Inovação em Serviços Públicos, da Justiça e Segurança Pública e das Relações Exteriores; cada um indica um suplente.",
+  "vigencia": {
+    "de": "2023-04-13",
+    "ate": null,
+    "nota": "Composição atual dada pelo Decreto 11.489, de 12/4/2023, em vigor na publicação (DOU de 13/4/2023, art. 2º); cópia em pesquisa/brutos/planalto-leis/2026-11-11-f2-administracao/d11489.htm."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 46, I e III a XI, e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

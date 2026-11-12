@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-preside-comissao-mista-de-reavaliacao-de-informacoes",
+  "tipo": "relacao",
+  "nome": "O Ministro da Casa Civil preside a Comissão Mista de Reavaliação de Informações",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:comissao-mista-de-reavaliacao-de-informacoes",
+  "orgao_exercicio": "org:casa-civil",
+  "condicao": "A Casa Civil preside a Comissão, tem voto de qualidade para desempate e exerce a Secretaria-Executiva.",
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 46, I; art. 52, parágrafo único; art. 53"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

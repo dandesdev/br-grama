@@ -1,0 +1,25 @@
+{
+  "id": "rel:luis-felipe-salomao-ocupa-presidente-do-stj",
+  "tipo": "relacao",
+  "nome": "Luis Felipe Salomão ocupa o cargo de Presidente do STJ",
+  "relacao": "ocupa",
+  "de": "pessoa:luis-felipe-salomao",
+  "para": "cargo:presidente-do-stj",
+  "vigencia": {
+    "de": "2026-08-19",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:stj-noticia-posse-salomao-2026",
+      "dispositivo": "'os ministros Luis Felipe Salomão e Mauro Campbell Marques tomaram posse como presidente e vice-presidente do STJ para o biênio 2026-2028'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "Criada na verificacao-f2-judiciario para registrar ocupante de cargo de direção (D11, D14); precisa de conferência por outro agente."
+  }
+}

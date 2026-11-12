@@ -36,5 +36,13 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | RCCN (Resolução nº 1/1970-CN) | f2-legislativo-tcu | 27 | 0 | 0 | 96 | 123 | 100,0% |
 | Resolução nº 1/2006-CN (CMO) | f2-legislativo-tcu | 42 | 0 | 0 | 122 | 164 | 100,0% |
 | Lei nº 8.443/1992 (Lei Orgânica do TCU) | f2-legislativo-tcu | 87 | 0 | 0 | 23 | 110 | 100,0% |
+| Lei 9.868/1999 (ADI, ADC e ADO) | f2-processos-constitucionais | 35 | 0 | 0 | 3 | 38 | 100,0% |
+| Lei 9.882/1999 (ADPF) | f2-processos-constitucionais | 12 | 0 | 0 | 1 | 13 | 100,0% |
+| Lei 11.417/2006 (súmula vinculante) | f2-processos-constitucionais | 9 | 0 | 0 | 2 | 11 | 100,0% |
+| Lei 12.016/2009 (mandado de segurança) | f2-processos-constitucionais | 25 | 0 | 0 | 4 | 29 | 100,0% |
+| Lei 13.300/2016 (mandado de injunção) | f2-processos-constitucionais | 13 | 0 | 0 | 2 | 15 | 100,0% |
+| Lei 9.507/1997 (habeas data) | f2-processos-constitucionais | 19 | 0 | 0 | 2 | 21 | 100,0% |
+| Lei 8.038/1990 (processos no STF e no STJ) | f2-processos-constitucionais | 22 | 0 | 0 | 13 | 35 | 100,0% |
+| Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 55 | 12 | 0 | 20 | 87 | 86,2% |
 
-Total: 4350 artigos classificados; cobertura 99,1% (5 em lacuna, 34 parciais).
+Total: 4599 artigos classificados; cobertura 98,9% (5 em lacuna, 46 parciais).
