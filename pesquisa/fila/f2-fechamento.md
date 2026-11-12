@@ -50,6 +50,10 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - Modelo de processo: quórum de presença separado do de votação (Lei 9.868, art. 22; Lei 9.882, art. 8º), hoje `regra: "outro"`; ator "relator" sem cargo; ator genérico "qualquer pessoa" ou "a parte"; `produz` apontando para a decisão e não para o objeto da ação (f2-processos-constitucionais).
 
+- `provimento`: eleição pela assembleia de acionistas e eleição pelo conselho de administração (estatais, Lei 6.404 e Lei 13.303), hoje `nomeacao-livre` e `eleicao-pelos-pares` como inferido; `designacao` ampliado para membros de colegiado designados pelo Presidente por mandato (Comissão de Ética Pública, CNE) (f2-administracao).
+- `relacao`: "classifica" (autoridade que atribui grau de sigilo) e "revê" (Comissão Mista de Reavaliação) (f2-administracao).
+- Modelo de processo: ator genérico "autoridade competente" no lugar de `org:poder-executivo-federal` em etapas cuja autoridade varia por caso (Leis 8.112, 9.784, LAI) (f2-administracao; ver também o ator genérico de f2-processos-constitucionais).
+
 ## Decisões tomadas pelo coordenador
 
 - 2026-11-03: a ANA não aparecer no decreto de estrutura do MIDR não vira aviso. A lei (9.984, art. 3º) dá a vinculação, e a omissão num decreto de estrutura não é contradição entre fontes nem lacuna (D36, D37); fica na nota da relação.

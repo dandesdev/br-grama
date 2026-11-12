@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Ação penal originária no STF e no STJ",
   "resumo": "Como o STF e o STJ processam autoridades com foro especial por crime comum: denúncia do PGR, resposta do acusado, recebimento pelo tribunal, instrução conduzida pelo relator e julgamento.",
-  "detalhes": "O Ministério Público tem 15 dias para denunciar ou pedir arquivamento. O acusado responde em 15 dias e o tribunal decide se recebe a denúncia. Recebida, o relator conduz a instrução como um juiz de primeira instância, com interrogatório, testemunhas e alegações finais, e o tribunal julga. No STJ julga a Corte Especial; no STF, o órgão definido pelo regimento.",
+  "detalhes": "O Ministério Público tem 15 dias para denunciar ou pedir arquivamento. O acusado responde em 15 dias e o tribunal decide se recebe a denúncia. Recebida, o relator conduz a instrução como um juiz de primeira instância, com interrogatório, testemunhas e alegações finais, e o tribunal julga. No STJ julga a Corte Especial; no STF, o Plenário julga o Presidente e o Vice-Presidente da República, os Presidentes do Senado e da Câmara, os próprios ministros e o PGR, e as Turmas julgam as demais autoridades, como deputados, senadores e ministros de Estado.",
   "forma": "linha",
   "produz": "obj:acao-penal-publica",
   "etapas": [
@@ -81,7 +81,9 @@
       "id": "recebimento",
       "tipo_etapa": "decisao",
       "atores": [
-        "org:stf",
+        "org:plenario-do-stf",
+        "org:primeira-turma-do-stf",
+        "org:segunda-turma-do-stf",
         "org:corte-especial-do-stj"
       ],
       "acao": "O tribunal decide se recebe ou rejeita a denúncia, ou se a acusação já é improcedente",
@@ -94,6 +96,14 @@
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 53, §§ 3º a 5º"
+        },
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 5º, I; art. 9º, I, l e m (redação da ER 59/2023)"
+        },
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 11, I"
         }
       ],
       "seguintes": [
@@ -165,11 +175,13 @@
       "id": "julgamento",
       "tipo_etapa": "decisao",
       "atores": [
-        "org:stf",
+        "org:plenario-do-stf",
+        "org:primeira-turma-do-stf",
+        "org:segunda-turma-do-stf",
         "org:corte-especial-do-stj"
       ],
       "acao": "O tribunal julga a ação, depois de uma hora de sustentação oral para a acusação e outra para a defesa",
-      "detalhes": "O presidente pode limitar a presença na sala às partes e aos advogados, se o interesse público exigir. Em matéria penal, o empate favorece o acusado, mesmo que o colegiado esteja incompleto. No STJ há revisor na ação penal originária.",
+      "detalhes": "O presidente pode limitar a presença na sala às partes e aos advogados, se o interesse público exigir. Em matéria penal, o empate favorece o acusado, mesmo que o colegiado esteja incompleto. No STJ há revisor na ação penal originária (Lei 8.038, art. 40, II); no STF, a ER 59/2023 revogou o art. 23, III, do RISTF, que previa revisor nas ações penais do Plenário.",
       "quorum": {
         "regra": "outro",
         "nota": "A lei não fixa quórum para o Plenário ou a Corte Especial; nas Turmas do STF e do STJ, a decisão é tomada pela maioria absoluta dos membros, e o empate favorece o acusado (art. 41-A)."
@@ -182,6 +194,10 @@
         {
           "ref": "norma:ristj",
           "dispositivo": "art. 11, I"
+        },
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 5º, I; art. 9º, I, l e m (redação da ER 59/2023)"
         }
       ],
       "seguintes": [
@@ -199,7 +215,7 @@
       "id": "condenacao",
       "tipo_etapa": "fim",
       "atores": [],
-      "acao": "O acusado é condenado às penas da lei e tem os direitos políticos suspensos enquanto durarem os efeitos",
+      "acao": "O acusado é condenado; com o trânsito em julgado, tem os direitos políticos suspensos enquanto durarem os efeitos",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -265,13 +281,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 102, I, b e c; art. 105, I, a"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 5º, I; art. 9º, I, l e m (redação da ER 59/2023)"
     }
   ],
   "confianca": "oficial",
-  "notas": "(1) Quem o STF e o STJ julgam por crime comum está nas relações 'julga' (CF, arts. 102, I, b e c, e 105, I, a). (2) No STJ, quem julga é a Corte Especial (RISTJ, art. 11, I). No STF, a divisão entre Plenário e Turmas é do RISTF; a edição consultada vai até a ER 58/2022, e a ER 59/2023, que mexeu nessa divisão segundo o diário de f2-judiciario, não foi conferida; por isso o ator é org:stf. (3) A Lei 8.658/1993, que estende estas regras aos TJs e TRFs, aparece no texto do Planalto só como \"Vide\" e não foi aberta. (4) Os arts. 1º a 12 dizem 'Ministério Público'; o PGR e o subprocurador-geral vêm da LC 75/1993. (5) Na etapa 'alegacoes-finais', a defesa também age, mas não tem entidade.",
+  "notas": "(1) Quem o STF e o STJ julgam por crime comum está nas relações 'julga' (CF, arts. 102, I, b e c, e 105, I, a). (2) No STJ, quem julga é a Corte Especial (RISTJ, art. 11, I). No STF, a divisão entre Plenário e Turmas é do RISTF, com a ER 59/2023 (DJE de 8/1/2024): Plenário para Presidente e Vice-Presidente da República, Presidentes do Senado e da Câmara, ministros do STF e PGR (art. 5º, I); Turmas para deputados e senadores e, também nos crimes de responsabilidade, ministros de Estado, comandantes militares, membros dos tribunais superiores e do TCU e chefes de missão diplomática permanente (art. 9º, I, l e m). A ER não se aplica às ações penais instauradas até a sua publicação (art. 3º). Revisão verificacao-f2-processos-constitucionais, com o PDF oficial em pesquisa/brutos/stf/2026-11-11-verificacao-f2-judiciario/. (3) A Lei 8.658/1993, art. 1º, estende os arts. 1º a 12 às ações penais originárias dos TJs e dos TRFs (conferido no Planalto na revisão). (4) Os arts. 1º a 12 dizem 'Ministério Público'; o PGR e o subprocurador-geral vêm da LC 75/1993. (5) Na etapa 'alegacoes-finais', a defesa também age, mas não tem entidade.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 8.038, arts. 1º a 12, 40 e 41-A, a LC 75 (arts. 46 a 48), a Lei 1.079 (arts. 39-A, 40-A e 41-A), a Lei 8.658 e a ER 59/2023; corrigido: julgadores no STF passam de org:stf a Plenário e Turmas (RISTF, arts. 5º, I, e 9º, I, l e m), revisor só no STJ, suspensão dos direitos políticos depende do trânsito em julgado (CF, art. 15, III)"
   }
 }
