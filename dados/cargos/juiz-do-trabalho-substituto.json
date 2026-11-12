@@ -1,0 +1,77 @@
+{
+  "id": "cargo:juiz-do-trabalho-substituto",
+  "tipo": "cargo",
+  "nome": "Juiz do trabalho substituto",
+  "resumo": "Cargo de entrada na magistratura do trabalho. Substitui ou auxilia os juízes titulares das Varas do Trabalho. Ingressa por concurso público.",
+  "detalhes": "Quando não está substituindo um titular, pode ser designado para atuar em qualquer Vara do Trabalho; o TRT pode dividir a região em zonas para isso, e a designação é do Presidente do TRT (CLT, art. 656). Tem as garantias e as vedações da magistratura (CF, art. 95). Toma posse perante o Presidente do TRT (CLT, art. 654, § 6º).",
+  "orgao": "org:justica-do-trabalho",
+  "provimento": "concurso-publico",
+  "vagas": null,
+  "vagas_nota": "O número de cargos é fixado em lei para cada TRT; não somamos.",
+  "provimento_nota": "O ingresso na magistratura do trabalho é no cargo de juiz do trabalho substituto, por concurso público de provas e títulos feito perante o TRT da região (CLT, art. 654, caput e § 3º; LOMAN, art. 92; CF, art. 93, I). A promoção a juiz titular de Vara do Trabalho é alternadamente por antiguidade e merecimento (CLT, art. 654, caput e § 5º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": true,
+    "limite": "aposentadoria compulsória aos 75 anos",
+    "nota": "Vitaliciamento: a vitaliciedade só vem depois de dois anos de exercício; antes disso, o juiz só perde o cargo por deliberação do tribunal a que está vinculado, e pode praticar todos os atos dos juízes vitalícios (CF, art. 95, I; LOMAN, art. 22, II e §§ 1º e 2º). Aposentadoria compulsória aos 75 anos (CF, art. 40, § 1º, II; art. 93, VI; LC 152/2015, art. 2º, II)."
+  },
+  "requisitos": [
+    {
+      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, I"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB em todas as fases; nomeação pela ordem de classificação",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, I"
+        },
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 78"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, I e II; art. 95, I; art. 96, I, c"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 22, II, c, e §§ 1º e 2º; arts. 78 e 92"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 654, caput e §§ 3º e 6º; art. 656"
+    },
+    {
+      "ref": "norma:lc-152-2015",
+      "dispositivo": "art. 2º, II"
+    }
+  ],
+  "campos": {
+    "requisitos": {
+      "nota": "A CLT ainda traz limite de idade de 25 a 45 anos para a inscrição (art. 654, § 4º, a); a exigência de três anos de atividade jurídica é da CF (art. 93, I, redação da EC 45/2004)."
+    }
+  },
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Previsto na CLT na redação do Decreto-Lei 229/1967 (art. 654); data de criação não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "criado em f2-judiciario; o cargo:juiz-do-trabalho passou a ser só o titular"
+  }
+}

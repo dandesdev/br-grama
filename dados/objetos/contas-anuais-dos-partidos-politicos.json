@@ -1,0 +1,33 @@
+{
+  "id": "obj:contas-anuais-dos-partidos-politicos",
+  "tipo": "objeto",
+  "nome": "Contas anuais dos partidos políticos",
+  "resumo": "Balanço contábil que cada órgão partidário envia à Justiça Eleitoral até 30 de junho do ano seguinte, com a origem das receitas e o uso do Fundo Partidário.",
+  "detalhes": "O órgão nacional presta contas ao TSE, os estaduais aos TREs e os municipais aos juízes eleitorais (Lei 9.096/1995, art. 32, § 1º). O balanço mostra o uso do Fundo Partidário, a origem das doações e as despesas eleitorais (art. 33). Órgão municipal sem movimentação apresenta só uma declaração (art. 32, § 4º). O exame tem caráter jurisdicional e se limita aos documentos, sem analisar a atividade político-partidária (arts. 34, § 1º, e 37, § 6º).",
+  "tipo_objeto": "contas",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:partidos-politicos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "arts. 30, 32 e 33; art. 34, § 1º; art. 37, § 6º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null,
+    "nota": "Lei 9.096/1995; prazo de 30 de junho na redação da Lei 13.877/2019."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

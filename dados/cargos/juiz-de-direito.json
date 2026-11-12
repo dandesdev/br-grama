@@ -2,12 +2,12 @@
   "id": "cargo:juiz-de-direito",
   "tipo": "cargo",
   "nome": "Juiz de direito",
-  "resumo": "Juiz de primeira instância da Justiça estadual e do DF, que atua nas comarcas. Ingressa por concurso público. Também exerce a função de juiz eleitoral.",
+  "resumo": "Juiz de primeira instância da Justiça estadual e do DF, que atua nas comarcas. Ingressa por concurso ou por promoção de juiz substituto. Também é juiz eleitoral.",
   "orgao": "org:justica-estadual",
-  "provimento": "concurso-publico",
+  "provimento": "variavel",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
-  "provimento_nota": "O ingresso na carreira é no cargo de juiz substituto, por concurso público de provas e títulos com participação da OAB em todas as fases; as nomeações seguem a ordem de classificação (art. 93, I). Depois, a promoção é alternadamente por antiguidade e merecimento (art. 93, II).",
+  "provimento_nota": "Na promoção de entrância para entrância, o merecimento é apurado em lista tríplice, e o tribunal só recusa o juiz mais antigo pelo voto de dois terços (CF, art. 93, II, d; LOMAN, art. 80, § 1º). A remoção precede a promoção por merecimento (LOMAN, art. 81). O cargo de entrada, onde existe, é cargo:juiz-de-direito-substituto.",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -47,18 +47,64 @@
     {
       "ref": "norma:lei-4737-1965",
       "dispositivo": "art. 32"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 17, 22, II, d, 80 e 81"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "arts. 668 e 669"
+    },
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "arts. 45, 54 e 56"
     }
   ],
-  "notas": "A CF usa \"juízes de direito\" (arts. 120, § 1º, I, b, e 125, § 3º) e, no art. 103-B, V, \"juiz estadual\". Inclui o juiz substituto, cargo inicial (art. 93, I).",
+  "notas": "A CF usa \"juízes de direito\" (arts. 120, § 1º, I, b, e 125, § 3º) e, no art. 103-B, V, \"juiz estadual\". Até 2026-11-11 este cargo também representava o juiz substituto; a f2-judiciario o separou em cargo:juiz-de-direito-substituto. Onde não há Vara do Trabalho, a lei pode dar ao juiz de direito a jurisdição trabalhista (CF, art. 112; CLT, arts. 668 e 669).",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 93, 95, 109, §§ 3º e 4º, 112 e 125; Código Eleitoral art. 32 conferidos; sem erro"
-  }
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: separado o juiz de direito substituto (cargo próprio); provimento passou de concurso-publico a variavel (concurso onde não há substitutos; promoção onde há); acrescentadas LOMAN, CLT (arts. 668 e 669) e Lei 11.697/2008"
+  },
+  "provimento_casos": [
+    {
+      "quando": "Onde a lei de organização judiciária não prevê juízes substitutos: concurso público para o próprio cargo",
+      "provimento": "concurso-publico",
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 17"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, I"
+        }
+      ]
+    },
+    {
+      "quando": "Onde há juízes substitutos (como no DF): promoção do juiz de direito substituto, por antiguidade e merecimento, alternadamente",
+      "provimento": "promocao",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 93, II"
+        },
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 80, § 1º"
+        },
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 54"
+        }
+      ]
+    }
+  ]
 }

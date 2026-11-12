@@ -1,0 +1,31 @@
+{
+  "id": "rel:desembargadores-elegem-arquetipo-estadual-vice-presidente-do-tribunal-de-justica",
+  "tipo": "relacao",
+  "nome": "Eleição do Vice-Presidente do Tribunal de Justiça",
+  "relacao": "elege",
+  "de": "cargo:desembargador",
+  "para": "cargo:arquetipo-estadual-vice-presidente-do-tribunal-de-justica",
+  "condicao": "Na mesma eleição e pelas mesmas regras do Presidente.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 21, I, e 102"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

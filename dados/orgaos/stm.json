@@ -4,7 +4,7 @@
   "nome": "Superior Tribunal Militar",
   "sigla": "STM",
   "resumo": "Tribunal superior da Justiça Militar da União. Tem 15 ministros vitalícios: dez oficiais-generais das três Forças e cinco civis.",
-  "detalhes": "São três oficiais-generais da Marinha, quatro do Exército e três da Aeronáutica, todos da ativa e do posto mais alto da carreira, e cinco civis: três advogados e dois escolhidos, em partes iguais, entre juízes da Justiça Militar e membros do Ministério Público Militar. Todos são nomeados pelo Presidente da República depois de aprovados pelo Senado (art. 123). Pela lei, julga as apelações e os recursos contra decisões dos juízes de primeiro grau da Justiça Militar e, originariamente, os oficiais-generais nos crimes militares (Lei 8.457/1992, art. 6º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II).",
+  "detalhes": "São três oficiais-generais da Marinha, quatro do Exército e três da Aeronáutica, todos da ativa e do posto mais alto da carreira, e cinco civis: três advogados e dois escolhidos, em partes iguais, entre juízes da Justiça Militar e membros do Ministério Público Militar. Todos são nomeados pelo Presidente da República depois de aprovados pelo Senado (art. 123). Pela lei, julga as apelações e os recursos contra decisões dos juízes de primeiro grau da Justiça Militar e, originariamente, os oficiais-generais nos crimes militares (Lei 8.457/1992, art. 6º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II). O regimento pode criar Turmas e um Conselho de Administração, presidido pelo Presidente do Tribunal, para as matérias administrativas (Lei 8.457/1992, art. 4º); as decisões exigem a presença de pelo menos oito ministros, quatro militares e dois civis (art. 6º, § 4º).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
@@ -22,6 +22,10 @@
     {
       "ref": "fonte:cnj-tribunais",
       "dispositivo": "página do STM (sede e site)"
+    },
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 3º, 4º e 6º, § 4º"
     }
   ],
   "campos": {
@@ -51,10 +55,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 122 a 124 e Lei 8.457/1992, arts. 1º e 6º conferidos; sem erro"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: acrescentados ao detalhes Turmas, Conselho de Administração e quórum (Lei 8.457/1992, arts. 3º, 4º e 6º, § 4º)"
   },
   "notas": "A CF (art. 123, parágrafo único, II) fala em 'juízes auditores'; a Lei 8.457/1992, na redação da Lei 13.774/2018, chama o cargo de juiz federal da Justiça Militar (art. 1º, IV)."
 }

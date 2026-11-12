@@ -1,0 +1,49 @@
+{
+  "id": "org:auditorias-da-justica-militar",
+  "tipo": "orgao",
+  "nome": "Auditorias da Justiça Militar da União",
+  "resumo": "Juízos de primeira instância da Justiça Militar da União, um ou mais em cada uma das 12 circunscrições judiciárias militares do país.",
+  "detalhes": "Cada Auditoria tem um juiz federal da Justiça Militar, um juiz federal substituto, um diretor de secretaria e oficiais de justiça; a jurisdição é mista, sobre feitos da Marinha, do Exército e da Aeronáutica (Lei 8.457/1992, arts. 11 e 15). A lei prevê 19 Auditorias: quatro na 1ª circunscrição (RJ e ES), três na 3ª (RS), duas na 2ª (SP) e na 11ª (DF, GO e TO) e uma em cada uma das demais (arts. 2º e 11). Nelas funcionam os Conselhos de Justiça, que julgam os militares, e o juiz julga sozinho os civis (art. 30).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-militar-da-uniao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 122, II"
+        },
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 122, II"
+    },
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 2º, 11, 15, 30 e 102"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-11-04",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 8.457/1992 entrou em vigor 60 dias após a publicação (art. 104); data exata não conferida."
+  },
+  "notas": "O número de Auditorias instaladas não foi conferido: a instalação da 2ª Auditoria da 11ª circunscrição dependia de recursos (Lei 8.457/1992, art. 102, parágrafo único).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

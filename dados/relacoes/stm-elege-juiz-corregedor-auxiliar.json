@@ -1,0 +1,27 @@
+{
+  "id": "rel:stm-elege-juiz-corregedor-auxiliar",
+  "tipo": "relacao",
+  "nome": "Escolha do Juiz-Corregedor Auxiliar",
+  "relacao": "elege",
+  "de": "org:stm",
+  "para": "cargo:juiz-corregedor-auxiliar",
+  "condicao": "Em escrutínio secreto, entre os juízes federais da Justiça Militar do primeiro terço da classe.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 39"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

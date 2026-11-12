@@ -1,0 +1,352 @@
+{
+  "id": "proc:registro-de-candidatura",
+  "tipo": "processo",
+  "nome": "Registro de candidatura e impugnação",
+  "resumo": "O partido pede o registro até 15 de agosto; em cinco dias da publicação qualquer candidato, partido ou o Ministério Público pode impugnar; a Justiça Eleitoral julga, com recursos até o TSE.",
+  "detalhes": "Só concorre quem tem registro deferido, pedido por partido, federação ou coligação; candidatura avulsa é proibida (Lei 9.504/1997, art. 11, § 14). O pedido é feito ao TSE (Presidente e Vice), ao TRE (governador, vice, senador e deputados) ou ao juiz eleitoral (prefeito, vice e vereador) (Código Eleitoral, art. 89; LC 64/1990, art. 2º). A LC 64/1990 dá o rito da impugnação e dos recursos, com prazos peremptórios e contínuos, que não param em sábados, domingos e feriados depois do fim do prazo de registro (art. 16). Todos os pedidos, inclusive os impugnados e os recursos, devem estar julgados nas instâncias ordinárias até 20 dias antes da eleição (Lei 9.504/1997, art. 16, § 1º).",
+  "forma": "linha",
+  "produz": "obj:registro-de-candidatura",
+  "etapas": [
+    {
+      "id": "pedido",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Partido, federação ou coligação pede à Justiça Eleitoral o registro dos candidatos escolhidos em convenção",
+      "detalhes": "Nas eleições proporcionais, cada partido registra até 100% das vagas mais uma, com no mínimo 30% e no máximo 70% de candidaturas de cada sexo (Lei 9.504/1997, art. 10, caput e § 3º). O pedido leva a ata da convenção, a autorização do candidato, a declaração de bens, certidões criminais e de quitação eleitoral e, para prefeito, governador e Presidente, as propostas do candidato (art. 11, § 1º). Se o partido não pedir, o próprio candidato pode fazê-lo em 48 horas da publicação da lista (art. 11, § 4º). As chapas de Presidente, governador e prefeito com os vices, e a de senador com os suplentes, são únicas e indivisíveis (Código Eleitoral, art. 91).",
+      "prazo": {
+        "texto": "Até as 19h de 15 de agosto do ano da eleição (Lei 9.504/1997, art. 11, caput; Código Eleitoral, art. 93).",
+        "conta_de": "15 de agosto"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 10, caput e § 3º; art. 11, caput, §§ 1º, 4º e 14"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 87, 89, 91, 93 e 94"
+        },
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 11-A, § 8º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "edital",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "edital",
+      "atores": [
+        "org:justica-eleitoral"
+      ],
+      "acao": "A Justiça Eleitoral publica o pedido em edital, para ciência dos interessados",
+      "detalhes": "Publica o presidente do tribunal ou, na eleição municipal, o juiz eleitoral (Código Eleitoral, art. 97). A publicação abre o prazo de impugnação (LC 64/1990, art. 3º).",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 97, caput e § 1º"
+        },
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 3º, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "impugnacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "impugnacao",
+      "atores": [
+        "org:partidos-politicos",
+        "org:ministerio-publico-eleitoral"
+      ],
+      "acao": "Candidato, partido, coligação ou Ministério Público pode impugnar o pedido, em petição fundamentada",
+      "detalhes": "O impugnante indica logo as provas e pode arrolar até seis testemunhas (LC 64/1990, art. 3º, § 3º). Detalhes em obj:impugnacao-de-registro-de-candidatura.",
+      "prazo": {
+        "texto": "Cinco dias, contados da publicação do pedido de registro (LC 64/1990, art. 3º).",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "publicação do pedido de registro"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 3º, caput e §§ 1º a 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "contestacao",
+          "quando": "Pedido impugnado"
+        },
+        {
+          "para": "julgamento",
+          "quando": "Sem impugnação"
+        }
+      ]
+    },
+    {
+      "id": "contestacao",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "O candidato, o partido ou a coligação contesta a impugnação, junta documentos e indica testemunhas",
+      "prazo": {
+        "texto": "Sete dias depois do fim do prazo de impugnação, após notificação (LC 64/1990, art. 4º).",
+        "valor": 7,
+        "unidade": "dias",
+        "conta_de": "fim do prazo de impugnação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "instrucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "instrucao",
+      "atores": [
+        "cargo:juiz-eleitoral",
+        "org:justica-eleitoral"
+      ],
+      "acao": "O juiz ou o relator ouve testemunhas, faz diligências e abre prazo para alegações finais",
+      "detalhes": "Se a questão não for só de direito e a prova for relevante, as testemunhas são ouvidas nos quatro dias seguintes à contestação, numa só audiência; nos cinco dias seguintes, o juiz ou relator faz as diligências. Depois, as partes e o Ministério Público têm cinco dias, em comum, para alegações (LC 64/1990, arts. 5º e 6º).",
+      "prazo": {
+        "texto": "Quatro dias para testemunhas, cinco para diligências e cinco para alegações (LC 64/1990, arts. 5º e 6º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 5º, caput e §§ 1º a 5º; art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-eleitoral",
+        "org:justica-eleitoral",
+        "org:tse"
+      ],
+      "acao": "O juiz eleitoral, o TRE ou o TSE defere ou indefere o registro e decide a impugnação",
+      "detalhes": "O juiz eleitoral entrega a sentença três dias depois da conclusão dos autos (LC 64/1990, art. 8º); o TRE e o TSE julgam o registro de sua competência em três dias, sem publicação em pauta (art. 13). As condições de elegibilidade e as inelegibilidades são aferidas na data do registro, mas mudanças que afastem a inelegibilidade até a diplomação são consideradas (art. 26-D). A inelegibilidade do titular não atinge o vice, e vice-versa (art. 18). O candidato com registro ainda sub judice pode fazer campanha e ter o nome na urna, mas os votos só valem se o registro for deferido (Lei 9.504/1997, arts. 16-A e 16-B).",
+      "prazo": {
+        "texto": "Juiz: três dias após a conclusão dos autos (art. 8º); TRE ou TSE como instância originária: três dias (art. 13). Todos os pedidos julgados nas instâncias ordinárias até 20 dias antes da eleição (Lei 9.504/1997, art. 16, § 1º).",
+        "valor": 20,
+        "unidade": "dias",
+        "conta_de": "data da eleição"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 2º; art. 7º; art. 8º, caput; art. 13; art. 18; art. 26-D"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 16, § 1º; arts. 16-A e 16-B"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 89"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-ao-tre",
+          "quando": "Eleição municipal: recurso contra a sentença do juiz"
+        },
+        {
+          "para": "recurso-ao-tse",
+          "quando": "Registro julgado pelo TRE: recurso contra o acórdão"
+        },
+        {
+          "para": "deferido",
+          "quando": "Registro deferido e sem recurso"
+        },
+        {
+          "para": "substituicao",
+          "quando": "Registro indeferido ou cancelado e sem recurso"
+        }
+      ]
+    },
+    {
+      "id": "recurso-ao-tre",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:justica-eleitoral",
+        "cargo:procurador-regional-eleitoral"
+      ],
+      "acao": "O TRE julga o recurso contra a sentença do juiz eleitoral, depois de ouvir o Procurador Regional Eleitoral",
+      "detalhes": "O recurso é interposto em três dias da sentença, com três dias para as contrarrazões (LC 64/1990, art. 8º). No TRE, o processo é distribuído no mesmo dia; o Procurador Regional tem dois dias para opinar e o relator, três para levar a julgamento, sem publicação em pauta; o julgamento pode ocupar até duas sessões seguidas (arts. 10 e 11).",
+      "prazo": {
+        "texto": "Recurso em três dias da sentença; contrarrazões em três dias; parecer do Procurador Regional em dois dias; relator leva a julgamento em três dias (LC 64/1990, arts. 8º, 10 e 11)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 8º, caput e §§ 1º e 2º; art. 9º; art. 10; art. 11, caput e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-ao-tse",
+          "quando": "Recurso contra o acórdão do TRE"
+        },
+        {
+          "para": "deferido",
+          "quando": "Registro deferido e sem recurso"
+        },
+        {
+          "para": "substituicao",
+          "quando": "Registro indeferido e sem recurso"
+        }
+      ]
+    },
+    {
+      "id": "recurso-ao-tse",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tse",
+        "cargo:procurador-geral-eleitoral"
+      ],
+      "acao": "O TSE julga o recurso sobre o registro, depois de ouvir o Procurador-Geral Eleitoral",
+      "detalhes": "O recurso ao TSE é interposto em três dias da publicação do acórdão, com três dias para as contrarrazões, e é processado e julgado no mesmo rito do TRE (LC 64/1990, arts. 11, § 2º, 12 e 14). Cabe recurso do TRE ao TSE quando a decisão versar sobre inelegibilidade (CF, art. 121, § 4º, III). As decisões do TSE só podem ser levadas ao STF se contrariarem a Constituição (art. 121, § 3º). Decisão colegiada que declare a inelegibilidade nega ou cancela o registro, ou anula o diploma já expedido (LC 64/1990, art. 15).",
+      "prazo": {
+        "texto": "Recurso em três dias da publicação do acórdão; contrarrazões em três dias (LC 64/1990, arts. 11, § 2º, e 12).",
+        "valor": 3,
+        "unidade": "dias",
+        "conta_de": "publicação do acórdão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 11, § 2º; art. 12; art. 14; art. 15"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 121, §§ 3º e 4º, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "deferido",
+          "quando": "Registro deferido"
+        },
+        {
+          "para": "substituicao",
+          "quando": "Registro indeferido"
+        }
+      ]
+    },
+    {
+      "id": "substituicao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "O partido ou a coligação pode substituir o candidato barrado, que renunciou ou que morreu",
+      "detalhes": "A escolha segue o estatuto do partido, feita pela comissão executiva (LC 64/1990, art. 17; Lei 9.504/1997, art. 13, § 1º). Na coligação majoritária, decide a maioria absoluta dos órgãos executivos dos partidos coligados (art. 13, § 2º). Também é cancelado, a pedido do partido, o registro do candidato expulso até a data da eleição (art. 14).",
+      "prazo": {
+        "texto": "Pedido em até dez dias do fato ou da notificação da decisão; a substituição só vale se pedida até 20 dias antes da eleição, salvo morte do candidato (Lei 9.504/1997, art. 13, §§ 1º e 3º).",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "fato ou notificação da decisão judicial"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 13; art. 14"
+        },
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 17"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pedido",
+          "quando": "O partido apresenta substituto: novo pedido de registro"
+        },
+        {
+          "para": "indeferido",
+          "quando": "Sem substituição"
+        }
+      ]
+    },
+    {
+      "id": "deferido",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Registro deferido: o candidato concorre",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 87"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferido",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Registro negado ou cancelado, sem substituto",
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 15"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Rito da impugnação desde a LC 64/1990 (publicada em 21/5/1990, art. 27). Prazo de 15 de agosto desde a Lei 13.165/2015 (Lei 9.504/1997, art. 11, caput); exame da idade na forma da Lei 15.230/2025 e art. 26-D da LC 64/1990 desde a LC 219/2025, ambos anteriores à data de referência."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "arts. 2º a 18 e 26-D"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "arts. 10 a 16-B"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 87 a 97"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "As etapas de impugnação, contestação e instrução só acontecem se houver impugnação. O rito da LC 64/1990 (arts. 3º a 14) substitui, na prática, os prazos de impugnação de dois dias do Código Eleitoral (art. 97, §§ 2º a 4º), que o Planalto não marca como revogados; essa leitura é nossa (lei complementar posterior sobre o mesmo rito). A Lei 9.504/1997 (art. 11, § 16, na redação da LC 219/2025) criou o Requerimento de Declaração de Elegibilidade, pedido que o pré-candidato pode fazer a qualquer tempo; não o modelamos como etapa porque é anterior e facultativo. Datas de 2026: pedido até 15/8 e julgamento nas instâncias ordinárias até 14/9 (ver proc:eleicao-geral)."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "org:varas-do-trabalho",
+  "tipo": "orgao",
+  "nome": "Varas do Trabalho",
+  "resumo": "Juízos de primeira instância da Justiça do Trabalho, cada um com um juiz singular. Julgam as ações entre empregados e empregadores.",
+  "detalhes": "Conciliam e julgam, entre outros, os dissídios sobre estabilidade, salários, férias, indenizações e o contrato individual de trabalho, e homologam acordos extrajudiciais (CLT, art. 652). A jurisdição de cada vara abrange a comarca onde tem sede e só pode ser alterada por lei federal; a competência se fixa pelo lugar onde o empregado presta serviço (arts. 650 e 651). Onde não há vara, a lei pode dar a jurisdição trabalhista ao juiz de direito, com recurso ao TRT (CF, art. 112; CLT, arts. 668 e 669).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-do-trabalho",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 111, III"
+        },
+        {
+          "ref": "norma:decreto-lei-5452-1943",
+          "dispositivo": "art. 644, c"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 111, III; art. 112; art. 116"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "arts. 644, 650 a 653, 668 e 669"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-10",
+    "ate": null,
+    "incerta": true,
+    "nota": "As Juntas de Conciliação e Julgamento viraram Varas do Trabalho com a EC 24/1999 (CF, art. 116); data de publicação da emenda não conferida."
+  },
+  "notas": "A CLT ainda usa \"Juntas de Conciliação e Julgamento\" em muitos artigos (arts. 647 a 667); a composição com vogais classistas foi extinta pela EC 24/1999. O art. 652 já fala em Varas do Trabalho (redação da Lei 13.467/2017).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

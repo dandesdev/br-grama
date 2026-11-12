@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-de-trf-integra-conselho-da-justica-federal",
+  "tipo": "relacao",
+  "nome": "Presidentes de TRF no CJF",
+  "relacao": "integra",
+  "de": "cargo:presidente-de-trf",
+  "para": "org:conselho-da-justica-federal",
+  "condicao": "Os seis presidentes, substituídos nas faltas pelos vice-presidentes dos TRFs.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 2º, III"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-10-30",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

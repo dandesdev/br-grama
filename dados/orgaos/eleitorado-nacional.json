@@ -10,9 +10,13 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 1º, parágrafo único; art. 14, caput, I a III, §§ 1º e 2º; arts. 45, 46 e 77"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 225, 227, 232 e 233-A"
     }
   ],
-  "detalhes": "O voto é direto, secreto e obrigatório para maiores de 18 anos; é facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos. Estrangeiros e conscritos (durante o serviço militar obrigatório) não podem se alistar. Deputados e senadores são eleitos por estado e pelo DF, não por um colégio nacional único.",
+  "detalhes": "O voto é direto, secreto e obrigatório para maiores de 18 anos; é facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos. Estrangeiros e conscritos (durante o serviço militar obrigatório) não podem se alistar. Deputados e senadores são eleitos por estado e pelo DF, não por um colégio nacional único. O eleitor que está no exterior vota só para Presidente e Vice, em seções nas embaixadas e consulados, sob o TRE do Distrito Federal; o eleitor em trânsito no país pode votar em urnas especiais nas capitais e nas cidades com mais de cem mil eleitores, desde que se habilite até 45 dias antes da eleição (Código Eleitoral, arts. 225, 227, 232 e 233-A).",
   "ente": "ente:uniao",
   "notas": "Não é órgão formal: é o povo agindo como corpo eleitoral (o termo 'eleitorado' aparece na CF, p. ex. ADCT, art. 2º). O nó agrega os eleitorados das unidades da Federação; nas eleições de deputados e senadores cada eleitorado estadual ou distrital vota só nos seus candidatos. A esfera 'federal' é aproximação.",
   "vigencia": {
@@ -21,9 +25,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-17",
-    "tarefa": "verificacao-piloto-estrutura",
-    "notas": "coletado em piloto-estrutura; CF arts. 1º, parágrafo único; 14, caput, I a III, §§ 1º e 2º; 45; 46; 77 e ADCT art. 2º (uso de \"eleitorado\") conferidos"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes",
+    "notas": "f2-eleicoes: detalhes ganharam o voto no exterior e em trânsito (Código Eleitoral, arts. 225, 227, 232 e 233-A); fonte acrescentada. Antes: coletado em piloto-estrutura; CF arts. 1º, parágrafo único; 14, caput, I a III, §§ 1º e 2º; 45; 46; 77 e ADCT art. 2º (uso de \"eleitorado\") conferidos"
   }
 }

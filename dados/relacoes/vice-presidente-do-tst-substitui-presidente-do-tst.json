@@ -1,0 +1,26 @@
+{
+  "id": "rel:vice-presidente-do-tst-substitui-presidente-do-tst",
+  "tipo": "relacao",
+  "nome": "Substituição do Presidente do TST",
+  "relacao": "substitui",
+  "de": "cargo:vice-presidente-do-tst",
+  "para": "cargo:presidente-do-tst",
+  "condicao": "Nas faltas e impedimentos. Na ausência dos dois, o Tribunal é presidido pelo ministro togado mais antigo.",
+  "ordem": 1,
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 708, caput e parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

@@ -5,7 +5,7 @@
   "relacao": "corrige",
   "de": "org:corregedoria-geral-da-dpu",
   "para": "org:dpu",
-  "condicao": "Faz correições e propõe processo disciplinar; o Defensor Público-Geral Federal instaura o processo, por recomendação do Conselho Superior, e o decide.",
+  "condicao": "Faz correições e propõe processo disciplinar; o Defensor Público-Geral Federal instaura o processo, por recomendação do Conselho Superior, e o decide. As penas de demissão e cassação da aposentadoria são aplicadas pelo Presidente da República; as demais (advertência, suspensão e remoção compulsória), pelo Defensor Público-Geral Federal, com inquérito obrigatório salvo na advertência (art. 50, § 6º).",
   "vigencia": {
     "de": "1994-01-13",
     "ate": null
@@ -13,13 +13,14 @@
   "fontes": [
     {
       "ref": "norma:lc-80-1994",
-      "dispositivo": "arts. 8º, IX e X, 11, 13 e 49"
+      "dispositivo": "arts. 8º, IX e X, 11, 13, 49 e 50, § 6º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; LC 80/1994, arts. 8º, 11, 13 e 49, conferidos; condição completada com quem aplica cada sanção (art. 50, § 6º)"
   }
 }

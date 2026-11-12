@@ -1,0 +1,44 @@
+{
+  "id": "org:conselho-especial-do-tjdft",
+  "tipo": "orgao",
+  "nome": "Conselho Especial do TJDFT",
+  "resumo": "Órgão especial do Tribunal de Justiça do DF e dos Territórios, que exerce funções do Tribunal Pleno. Compõe a Justiça do DF por lei.",
+  "detalhes": "A organização, a competência e o funcionamento ficam no regimento interno do TJDFT (Lei 11.697/2008, art. 9º). É o órgão especial previsto na CF para tribunais com mais de 25 julgadores (art. 93, XI); o TJDFT tem 48 desembargadores (Lei 11.697/2008, art. 4º).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tj-df",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 2º, II; art. 9º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 2º, II; arts. 4º e 9º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, XI"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "notas": "Equivale ao org:arquetipo-estadual-orgao-especial-do-tribunal-de-justica.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

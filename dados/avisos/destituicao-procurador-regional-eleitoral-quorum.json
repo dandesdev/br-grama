@@ -1,0 +1,36 @@
+{
+  "id": "aviso:destituicao-procurador-regional-eleitoral-quorum",
+  "tipo": "aviso",
+  "nome": "Destituição do Procurador Regional Eleitoral: a LC 75/1993 exige maioria absoluta num artigo e dois terços em outro",
+  "resumo": "Para o Conselho Superior do MPF aprovar a destituição do Procurador Regional Eleitoral, o art. 76 da LC 75/1993 pede maioria absoluta; o art. 57, § 2º, pede dois terços.",
+  "detalhes": "LC 75/1993, art. 76, § 2º: o Procurador Regional Eleitoral pode ser destituído antes do fim do mandato, por iniciativa do Procurador-Geral Eleitoral, \"anuindo a maioria absoluta do Conselho Superior do Ministério Público Federal\". O art. 57, IV, dá ao Conselho a competência de aprovar essa destituição, e o § 2º do mesmo artigo diz que as deliberações do inciso IV só podem ser tomadas com o voto favorável de dois terços dos membros do Conselho. Não achamos fonte oficial que concilie os dois quóruns. O mapa registra os dois na relação do Conselho.",
+  "tipo_aviso": "contradicao",
+  "gravidade": "baixa",
+  "afeta": [
+    "rel:conselho-superior-do-mpf-aprova-exoneracao-procurador-regional-eleitoral",
+    "rel:procurador-geral-eleitoral-exonera-procurador-regional-eleitoral",
+    "cargo:procurador-regional-eleitoral"
+  ],
+  "onde_procuramos": [
+    "LC 75/1993 no Planalto (cópia de 2026-10-28), arts. 57 e 76: sem marcas de alteração",
+    "Busca na web em 2026-11-11 pelo regimento interno do Conselho Superior do MPF sobre o quórum da destituição: só um anteprojeto de regimento e versões antigas, que não tratam do ponto"
+  ],
+  "vigencia": {
+    "de": "1993-05-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 57, IV e § 2º; art. 76, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado na revisão de f2-funcoes-essenciais. Os dois dispositivos são da redação original da LC 75/1993.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "criado na revisão de f2-funcoes-essenciais; LC 75/1993, arts. 57 e 76, conferidos na cópia de 2026-10-28"
+  }
+}

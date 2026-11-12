@@ -1,0 +1,46 @@
+{
+  "id": "cargo:coordenador-dos-juizados-especiais-federais",
+  "tipo": "cargo",
+  "nome": "Coordenador dos Juizados Especiais Federais",
+  "resumo": "Juiz de TRF que coordena os juizados especiais federais da região. É escolhido pelos colegas do tribunal para mandato de dois anos.",
+  "detalhes": "Preside a reunião conjunta das turmas recursais da região quando elas divergem sobre direito material (Lei 10.259/2001, art. 14, § 1º). Há um em cada um dos seis TRFs.",
+  "orgao": "org:juizados-especiais-federais",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 6,
+  "vagas_nota": "Um por Tribunal Regional Federal.",
+  "provimento_nota": "Juiz do respectivo TRF escolhido por seus pares (Lei 10.259/2001, art. 22).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "Lei 10.259/2001, art. 22."
+  },
+  "requisitos": [
+    {
+      "texto": "ser juiz do Tribunal Regional Federal da região",
+      "fontes": [
+        {
+          "ref": "norma:lei-10259-2001",
+          "dispositivo": "art. 22"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 14, § 1º; art. 22"
+    }
+  ],
+  "vigencia": {
+    "de": "2002-01-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 10.259/2001 (art. 27)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

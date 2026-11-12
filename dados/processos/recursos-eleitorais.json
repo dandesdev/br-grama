@@ -1,0 +1,189 @@
+{
+  "id": "proc:recursos-eleitorais",
+  "tipo": "processo",
+  "nome": "Recursos na Justiça Eleitoral",
+  "resumo": "Caminho de um recurso eleitoral: do juiz ou da junta ao TRE, do TRE ao TSE nos casos previstos e, só em matéria constitucional ou habeas corpus e mandado de segurança, ao STF. Prazo geral: três dias.",
+  "detalhes": "Os recursos eleitorais não têm efeito suspensivo, salvo o recurso ordinário contra decisão que cassa registro, afasta o titular ou faz perder o mandato, e têm preferência sobre os demais processos, exceto habeas corpus e mandado de segurança (Código Eleitoral, art. 257). Os prazos são preclusivos, salvo em matéria constitucional (art. 259). Ritos especiais, como o do registro de candidatura e o da investigação judicial eleitoral, têm regras próprias (LC 64/1990).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "decisao-de-primeira-instancia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:juiz-eleitoral",
+        "org:juntas-eleitorais"
+      ],
+      "acao": "O juiz eleitoral ou a junta eleitoral decide",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 265"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-ao-tre",
+          "quando": "A parte recorre"
+        }
+      ]
+    },
+    {
+      "id": "recurso-ao-tre",
+      "atores": [
+        "org:partidos-politicos",
+        "cargo:juiz-eleitoral"
+      ],
+      "acao": "A parte recorre ao TRE por petição ao juiz, que ouve o recorrido e pode reformar a decisão antes de enviar",
+      "detalhes": "O recorrido responde em prazo igual ao do recurso; se o juiz mantiver a decisão, envia os autos ao TRE em 48 horas; se a reformar, o recorrido pode pedir que o recurso suba como se fosse dele (Código Eleitoral, art. 267, §§ 6º e 7º). Os recursos contra decisões das juntas na apuração seguem os arts. 169 e seguintes (art. 265, parágrafo único).",
+      "prazo": {
+        "texto": "Três dias da publicação do ato, salvo prazo especial em lei (Código Eleitoral, art. 258).",
+        "valor": 3,
+        "unidade": "dias",
+        "conta_de": "publicação do ato"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 258, 265, 266 e 267"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-no-tre",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento-no-tre",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:justica-eleitoral",
+        "cargo:procurador-regional-eleitoral"
+      ],
+      "acao": "O TRE julga o recurso, depois do parecer do Procurador Regional Eleitoral",
+      "detalhes": "O recurso é distribuído em 24 horas, a Procuradoria Regional tem cinco dias para opinar e o relator, oito dias para levar a julgamento; cada parte pode sustentar oralmente por dez minutos (vinte no recurso contra a expedição de diploma); o acórdão é redigido em até cinco dias (Código Eleitoral, arts. 269, 271, 272 e 273).",
+      "prazo": {
+        "texto": "Distribuição em 24 horas; parecer em cinco dias; relator em oito dias; acórdão em cinco dias (Código Eleitoral, arts. 269, 271 e 273)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 269 a 274"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-ao-tse",
+          "quando": "Decisão contra a lei, divergência entre tribunais, diplomas de eleições federais e estaduais ou negativa de habeas corpus ou mandado de segurança"
+        },
+        {
+          "para": "decisao-final",
+          "quando": "Demais casos: a decisão do TRE é terminativa"
+        }
+      ]
+    },
+    {
+      "id": "recurso-ao-tse",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tse",
+        "cargo:procurador-geral-eleitoral"
+      ],
+      "acao": "O TSE julga o recurso especial ou ordinário contra a decisão do TRE",
+      "detalhes": "Recurso especial: decisão contra expressa disposição de lei ou divergência entre tribunais eleitorais. Recurso ordinário: expedição de diplomas nas eleições federais e estaduais e negativa de habeas corpus ou mandado de segurança. Negado seguimento ao especial, cabe agravo em três dias (Código Eleitoral, arts. 276 e 279). A CF lista os casos em que cabe recurso do TRE ao TSE (art. 121, § 4º).",
+      "prazo": {
+        "texto": "Três dias da publicação da decisão; no recurso sobre diplomas, da sessão de diplomação (Código Eleitoral, art. 276, § 1º).",
+        "valor": 3,
+        "unidade": "dias",
+        "conta_de": "publicação da decisão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 276 a 280"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 121, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-ao-stf",
+          "quando": "Decisão que declara a invalidade de lei ou ato em face da Constituição ou nega habeas corpus ou mandado de segurança"
+        },
+        {
+          "para": "decisao-final",
+          "quando": "Demais casos: a decisão do TSE é irrecorrível"
+        }
+      ]
+    },
+    {
+      "id": "recurso-ao-stf",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF julga o recurso contra a decisão do TSE",
+      "detalhes": "Cabe contra as decisões do TSE que contrariarem a Constituição e as que negarem habeas corpus ou mandado de segurança (CF, art. 121, § 3º; Código Eleitoral, art. 281).",
+      "prazo": {
+        "texto": "Três dias (Código Eleitoral, art. 281).",
+        "valor": 3,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 281 e 282"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 121, § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao-final",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decisao-final",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Decisão final; o acórdão é executado logo, por comunicação ao juiz ou ao tribunal",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 257, § 1º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1965-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do Código Eleitoral como em norma:lei-4737-1965; efeito suspensivo do art. 257, § 2º, desde a Lei 13.165/2015."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 257 a 282"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 121, §§ 3º e 4º"
+    }
+  ],
+  "notas": "Processo genérico, que vale para qualquer decisão da Justiça Eleitoral; sem campo produz, porque o resultado depende da decisão recorrida. Os atores que recorrem podem ser candidatos, partidos, coligações ou o Ministério Público; no mapa ficam os partidos.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

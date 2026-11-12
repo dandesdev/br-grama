@@ -1,0 +1,58 @@
+{
+  "id": "cargo:presidente-de-trt",
+  "tipo": "cargo",
+  "nome": "Presidente de Tribunal Regional do Trabalho",
+  "resumo": "Dirige um dos 24 TRTs. É eleito pelos juízes do tribunal para dois anos, sem reeleição. Cinco deles integram o CSJT, em rodízio.",
+  "detalhes": "Preside as sessões do Tribunal e as audiências de conciliação nos dissídios coletivos, executa as decisões do TRT e dá posse aos juízes de primeira instância da região (CLT, arts. 654, § 6º, e 682). Cinco presidentes de TRT, um de cada região geográfica do país, integram o CSJT (Lei 14.824/2024, art. 3º, IV). O cargo pertence a cada TRT; aparece no ramo porque são 24 tribunais.",
+  "orgao": "org:justica-do-trabalho",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 24,
+  "vagas_nota": "Um por TRT.",
+  "provimento_nota": "Eleito pelo próprio TRT entre os seus juízes (CLT, art. 670, § 7º; LOMAN, arts. 94 e 102), e empossado perante o Tribunal (CLT, art. 681).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Regra geral dos cargos de direção dos tribunais (LOMAN, arts. 94 e 102)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser juiz do TRT, entre os mais antigos",
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-5452-1943",
+          "dispositivo": "art. 670, § 7º"
+        },
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 102"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 670, § 7º; arts. 681 a 683"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 94 e 102"
+    },
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "art. 3º, IV"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "notas": "A CLT fala em juízes \"togados\" porque, até a EC 24/1999, os TRTs tinham também juízes classistas.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

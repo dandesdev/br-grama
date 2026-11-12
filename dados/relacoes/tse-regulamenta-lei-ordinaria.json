@@ -1,0 +1,40 @@
+{
+  "id": "rel:tse-regulamenta-lei-ordinaria",
+  "tipo": "relacao",
+  "nome": "TSE expede instruções para executar as leis eleitorais",
+  "relacao": "regulamenta",
+  "de": "org:tse",
+  "para": "obj:lei-ordinaria",
+  "condicao": "Só leis eleitorais: o Código Eleitoral, a Lei dos Partidos, a Lei das Eleições e a de plebiscitos e referendos. As instruções da Lei das Eleições saem até 5 de março do ano da eleição, depois de ouvir os partidos em audiência pública, sem restringir direitos nem criar sanções além das da lei; só valem para a eleição seguinte as publicadas até essa data.",
+  "vigencia": {
+    "de": "1965-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Desde o Código Eleitoral; o prazo de 5 de março é da Lei 9.504/1997 (art. 105, na redação da Lei 12.034/2009)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 1º, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 61"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 105, caput e § 3º"
+    },
+    {
+      "ref": "norma:lei-9709-1998",
+      "dispositivo": "art. 8º, III"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "O alvo é o objeto genérico de lei ordinária porque não há objeto para 'lei eleitoral'; a condição restringe. A competência também está no Código Eleitoral, art. 23, IX (artigo da tarefa f2-judiciario)."
+}

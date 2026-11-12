@@ -27,4 +27,8 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - 2026-11-03: a ANA não aparecer no decreto de estrutura do MIDR não vira aviso. A lei (9.984, art. 3º) dá a vinculação, e a omissão num decreto de estrutura não é contradição entre fontes nem lacuna (D36, D37); fica na nota da relação.
 
+- 2026-11-11: `nomeacao-a-partir-de-lista` passa a dizer "pela autoridade competente" (não só o chefe do Executivo). A coleta usa o termo para corregedores e ouvidores nomeados por procuradores-gerais e defensores-gerais, e o mecanismo é o mesmo; criar outro termo multiplicaria vocabulário sem ganho de leitura (verificacao-f2-funcoes-essenciais).
+- 2026-11-11: sem aviso para o ingresso no MPU (CF, art. 129, § 3º, contra LC 75, art. 187) e para a rejeição do DPGF pelo Senado. No primeiro a CF prevalece sem dúvida e os cargos já a seguem; no segundo é silêncio da lei, já anotado no processo. Aviso fica para dúvida real de fonte (D36, D37).
+- 2026-11-11: quadro de f2-funcoes-essenciais reclassificado conforme a revisão (LC 75, arts. 82, 115, 148, 181; Lei 8.625, art. 80; LC 80, art. 50 passam a coberto; Título III da LC 80 fica fora pela D51). Regra para as próximas coletas: artigo citado em `estrutura_continua` ou como fonte de relação é coberto, não fora.
+
 ## Diário

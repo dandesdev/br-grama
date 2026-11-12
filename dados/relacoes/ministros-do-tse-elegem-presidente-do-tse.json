@@ -1,0 +1,29 @@
+{
+  "id": "rel:ministros-do-tse-elegem-presidente-do-tse",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente do TSE",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-tse",
+  "para": "cargo:presidente-do-tse",
+  "condicao": "Pelo TSE, entre os ministros vindos do STF.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

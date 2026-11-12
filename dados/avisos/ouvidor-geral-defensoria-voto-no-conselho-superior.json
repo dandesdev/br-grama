@@ -1,0 +1,38 @@
+{
+  "id": "aviso:ouvidor-geral-defensoria-voto-no-conselho-superior",
+  "tipo": "aviso",
+  "nome": "Ouvidor-Geral da Defensoria estadual: membro nato do Conselho Superior, mas com direito só a voz?",
+  "resumo": "A LC 80/1994 põe o Ouvidor-Geral entre os membros natos do Conselho Superior da Defensoria do estado, e em outro artigo dá à Ouvidoria participação com direito a voz. Não diz se ele vota.",
+  "detalhes": "LC 80/1994, art. 101 (redação da LC 132/2009): a composição do Conselho Superior da Defensoria Pública do Estado deve incluir o defensor público-geral, o subdefensor, o Corregedor-Geral e o Ouvidor-Geral como membros natos. O art. 105-C, IV, incluído pela mesma lei, dá à Ouvidoria-Geral a competência de participar do Conselho Superior com direito a voz. Uma leitura é que o Ouvidor integra o Conselho sem voto; outra, que como membro nato ele vota. A LC 80 deixa a forma do Conselho à lei estadual (art. 101), e a resposta pode variar por estado. Não achamos fonte oficial federal que resolva.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "gravidade": "baixa",
+  "afeta": [
+    "cargo:arquetipo-estadual-ouvidor-geral-da-defensoria-publica",
+    "org:arquetipo-estadual-conselho-superior-da-defensoria-publica"
+  ],
+  "onde_procuramos": [
+    "LC 80/1994 no Planalto (cópia de 2026-10-28), arts. 101 e 105-C",
+    "LC 132/2009 no Planalto (cópia de 2026-11-11), que incluiu os dois dispositivos",
+    "Busca na web em 2026-11-11 por decisão do STF ou norma sobre o voto do Ouvidor-Geral no Conselho Superior: só notícias de ADI sobre a escolha do Ouvidor e textos não oficiais",
+    "Não pesquisamos as leis complementares estaduais das Defensorias"
+  ],
+  "vigencia": {
+    "de": "2009-10-08",
+    "ate": null,
+    "nota": "Incluído pela LC 132/2009, de 7/10/2009, publicada no DOU de 8/10/2009 e em vigor na publicação (art. 19); cópia em pesquisa/brutos/planalto-leis/2026-11-11-verificacao-f2-funcoes-essenciais/lcp132.htm."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-80-1994",
+      "dispositivo": "art. 101; art. 105-C, IV"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado na revisão de f2-funcoes-essenciais, a partir de ponto de atenção da coleta.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "criado na revisão de f2-funcoes-essenciais; LC 80/1994, arts. 101 e 105-C, e LC 132/2009, art. 19, conferidos nas cópias"
+  }
+}

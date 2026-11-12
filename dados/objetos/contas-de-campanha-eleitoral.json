@@ -1,0 +1,34 @@
+{
+  "id": "obj:contas-de-campanha-eleitoral",
+  "tipo": "objeto",
+  "nome": "Contas de campanha eleitoral",
+  "resumo": "Prestação de contas que cada candidato e partido apresenta à Justiça Eleitoral depois da eleição, com o dinheiro arrecadado e gasto na campanha.",
+  "detalhes": "As contas vão à Justiça Eleitoral até o 30º dia depois da eleição, ou até o 20º dia depois do segundo turno, se houver; sem elas, o eleito não é diplomado (Lei 9.504/1997, art. 29, III, IV e § 2º). A Justiça Eleitoral aprova, aprova com ressalvas, desaprova ou julga as contas não prestadas, e publica a decisão sobre os eleitos até três dias antes da diplomação; cabe recurso em três dias (art. 30). Durante a campanha, as doações recebidas são divulgadas na internet em até 72 horas (art. 28, § 4º).",
+  "tipo_objeto": "contas",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:partidos-politicos"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 28, caput e § 4º; art. 29, III, IV e § 2º; art. 30"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 34, V"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-10-01",
+    "ate": null,
+    "nota": "Lei 9.504/1997, publicada em 1º/10/1997 (art. 106)."
+  },
+  "notas": "relativo_a aponta só para os partidos porque candidatos não têm nó no mapa; as contas são de candidatos e partidos (Lei 9.096/1995, art. 34, V).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

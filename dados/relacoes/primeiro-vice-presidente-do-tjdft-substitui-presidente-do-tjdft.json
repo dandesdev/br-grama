@@ -1,0 +1,27 @@
+{
+  "id": "rel:primeiro-vice-presidente-do-tjdft-substitui-presidente-do-tjdft",
+  "tipo": "relacao",
+  "nome": "Substituição do Presidente do TJDFT (Primeiro Vice)",
+  "relacao": "substitui",
+  "de": "cargo:primeiro-vice-presidente-do-tjdft",
+  "para": "cargo:presidente-do-tjdft",
+  "condicao": "Nas faltas e impedimentos, sucessivamente.",
+  "ordem": 1,
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 11; art. 5º, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

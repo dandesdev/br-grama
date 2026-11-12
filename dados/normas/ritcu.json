@@ -4,10 +4,10 @@
   "nome": "Regimento Interno do Tribunal de Contas da União",
   "sigla": "RITCU",
   "resumo": "Regras de organização e funcionamento do TCU: Plenário, Câmaras, Presidência, Corregedoria, Ministério Público junto ao Tribunal e processos.",
-  "detalhes": "Aprovado pela Resolução-TCU nº 246/2011 e republicado no Boletim do TCU de 6/1/2023 com as alterações até então. Usado aqui só para localizar a estrutura interna que a Lei 8.443/1992 manda o Regimento definir.",
+  "detalhes": "Aprovado pela Resolução-TCU nº 155, de 4 de dezembro de 2002, com o texto inteiro reescrito pela Resolução-TCU nº 246, de 30 de novembro de 2011, e republicado no Boletim do TCU de 6/1/2023 com as alterações até então. Usado aqui só para localizar a estrutura interna que a Lei 8.443/1992 manda o Regimento definir.",
   "tipo_norma": "regimento-interno",
-  "numero": "246",
-  "data": "2011",
+  "numero": "155",
+  "data": "2002-12-04",
   "ente": "ente:uniao",
   "url": "https://btcu.apps.tcu.gov.br/api/obterDocumentoPdf/72729378",
   "acesso_em": "2026-10-28",
@@ -15,8 +15,7 @@
   "vigencia": {
     "de": "2012-01-01",
     "ate": null,
-    "incerta": true,
-    "nota": "Segundo pista de busca, a Resolução-TCU 246/2011 entrou em vigor em 1º/1/2012; não conferido no texto da resolução."
+    "nota": "Início de vigência da redação atual, dada pela Resolução-TCU nº 246/2011 (art. 2º: em vigor a partir de 1º/1/2012). O Regimento aprovado pela Resolução-TCU nº 155/2002 é anterior; a data em que ele entrou em vigor não foi conferida."
   },
   "fontes": [
     {
@@ -28,13 +27,14 @@
       "dispositivo": "arts. 7º a 14, 31, 32, 58 e 65"
     }
   ],
-  "compilacao_ate": "republicação no BTCU Especial nº 3, de 6/1/2023 (alterações até a Resolução-TCU 345/2022, segundo a pista de busca)",
+  "compilacao_ate": "republicação no BTCU Especial nº 3, de 6/1/2023, com as alterações das Resoluções-TCU nº 310/2019, 338/2022, 339/2022 e 345/2022 (nota da própria republicação)",
   "redacao_conferida_em": "2026-10-28",
   "confianca": "oficial",
   "notas": "Cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/ritcu-btcu-72729378.pdf. Há alterações posteriores à republicação (por exemplo a Resolução-TCU 375/2025, que muda os arts. 28, 93, 124, 139 e 264, segundo pista de busca); os artigos citados aqui (7º a 14, 31, 32, 58 e 65) não foram conferidos contra elas. O PDF do RITCU no portal do TCU respondeu 404 em 2026-10-28.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-legislativo-tcu"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-legislativo-tcu",
+    "notas": "coletado em f2-legislativo-tcu; corrigido: o RITCU foi aprovado pela Resolução-TCU nº 155, de 4/12/2002, e a Resolução-TCU nº 246, de 30/11/2011, deu-lhe nova redação (cabeçalho da republicação no BTCU Especial de 6/1/2023); numero, data, detalhes e vigencia ajustados (a redação atual vale desde 1º/1/2012, art. 2º da Res. 246, agora conferido no texto, não mais incerto); compilacao_ate com as resoluções listadas na própria republicação; arts. 7º a 17, 28, 31, 32, 58 a 60 e 65 conferidos na republicação; alterações posteriores a 2023 (ex.: Res.-TCU 375/2025) não conferidas nos artigos citados"
   }
 }

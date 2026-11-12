@@ -1,0 +1,28 @@
+{
+  "id": "rel:vice-presidente-do-stm-substitui-presidente-do-stm",
+  "tipo": "relacao",
+  "nome": "Substituição do Presidente do STM",
+  "relacao": "substitui",
+  "de": "cargo:vice-presidente-do-stm",
+  "para": "cargo:presidente-do-stm",
+  "condicao": "Nas licenças, férias, faltas e impedimentos e, em caso de vaga, até a posse do novo Presidente; depois do Vice, o ministro civil mais antigo.",
+  "ordem": 1,
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 10, a; art. 62, I"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-11-04",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 8.457/1992 entrou em vigor 60 dias após a publicação (art. 104); data exata não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

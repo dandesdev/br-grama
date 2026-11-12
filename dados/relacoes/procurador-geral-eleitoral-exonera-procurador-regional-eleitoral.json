@@ -5,7 +5,7 @@
   "relacao": "exonera",
   "de": "cargo:procurador-geral-eleitoral",
   "para": "cargo:procurador-regional-eleitoral",
-  "condicao": "Antes do fim do mandato de dois anos, com a anuência da maioria absoluta do Conselho Superior do MPF.",
+  "condicao": "Antes do fim do mandato de dois anos, com a anuência do Conselho Superior do MPF (maioria absoluta pelo art. 76, § 2º, ou dois terços pelo art. 57, § 2º; ver aviso).",
   "depende_de": [
     "rel:conselho-superior-do-mpf-aprova-exoneracao-procurador-regional-eleitoral"
   ],
@@ -21,8 +21,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; LC 75/1993, arts. 57 e 76, conferidos; condição completada com o quórum divergente (aviso:destituicao-procurador-regional-eleitoral-quorum)"
   }
 }

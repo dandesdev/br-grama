@@ -1,0 +1,39 @@
+{
+  "id": "org:corregedoria-geral-da-justica-federal",
+  "tipo": "orgao",
+  "nome": "Corregedoria-Geral da Justiça Federal",
+  "resumo": "Órgão do Conselho da Justiça Federal que fiscaliza e orienta a Justiça Federal de primeiro e segundo graus e faz correições nos TRFs.",
+  "detalhes": "Controla a execução das deliberações do CJF, faz inspeções e correições nos TRFs e apura reclamações contra juízes de segundo grau, levando o caso ao Plenário do CJF; também propõe provimentos ao Conselho (Lei 11.798/2008, art. 6º). O Corregedor-Geral dirige ainda o Centro de Estudos Judiciários e preside a Turma Nacional de Uniformização (art. 7º).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:conselho-da-justica-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11798-2008",
+          "dispositivo": "art. 4º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "arts. 2º, § 6º, 4º, 6º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-10-30",
+    "ate": null,
+    "nota": "Vigência da Lei 11.798/2008 (art. 10); a Corregedoria-Geral já existia no CJF anterior (Lei 5.010/1966, art. 4º, parágrafo único)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

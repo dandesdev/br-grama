@@ -1,0 +1,52 @@
+{
+  "id": "cargo:arquetipo-estadual-vice-presidente-do-tribunal-de-justica",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Tribunal de Justiça",
+  "resumo": "Substitui o Presidente do TJ. É eleito pelos desembargadores, entre os mais antigos, para mandato de dois anos, sem reeleição.",
+  "detalhes": "Integra o órgão especial e o Conselho da Magistratura (LOMAN, arts. 99 e 104). Nos tribunais com mais de 30 desembargadores, a lei de organização judiciária pode criar mais de um Vice-Presidente (art. 103, § 1º). Exerce as atribuições que o Presidente lhe delegar (art. 125).",
+  "orgao": "org:arquetipo-estadual-tribunal-de-justica",
+  "arquetipo": "estadual",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "vagas_nota": "Pode haver mais de um onde o tribunal tiver mais de 30 desembargadores (LOMAN, art. 103, § 1º).",
+  "provimento_nota": "Eleito como o Presidente (LOMAN, art. 102).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Quem exerceu cargos de direção por quatro anos, ou a Presidência, só volta a ser elegível depois que todos os mais antigos tiverem passado (LOMAN, art. 102). Aceitar o cargo é obrigatório, salvo recusa manifestada e aceita antes da eleição."
+  },
+  "requisitos": [
+    {
+      "texto": "ser desembargador, entre os mais antigos do tribunal, em número igual ao dos cargos de direção",
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 102"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 99, 102, 103, 104, 114 e 125"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

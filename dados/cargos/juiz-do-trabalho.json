@@ -2,12 +2,12 @@
   "id": "cargo:juiz-do-trabalho",
   "tipo": "cargo",
   "nome": "Juiz do trabalho",
-  "resumo": "Juiz de primeira instância da Justiça do Trabalho, que atua sozinho nas Varas do Trabalho. Ingressa por concurso público.",
+  "resumo": "Juiz titular de Vara do Trabalho, onde atua sozinho na primeira instância trabalhista. Chega ao cargo por promoção ou remoção.",
   "orgao": "org:justica-do-trabalho",
-  "provimento": "concurso-publico",
+  "provimento": "promocao",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
-  "provimento_nota": "O ingresso na carreira é no cargo de juiz substituto, por concurso público de provas e títulos com participação da OAB em todas as fases; as nomeações seguem a ordem de classificação (art. 93, I). Depois, a promoção é alternadamente por antiguidade e merecimento (art. 93, II).",
+  "provimento_nota": "A vaga de titular é preenchida, dentro da região, por remoção de outro titular ou por promoção de juiz do trabalho substituto, alternadamente por antiguidade e merecimento (CLT, art. 654, § 5º; CF, art. 93, II). O ingresso na carreira é como juiz do trabalho substituto (cargo:juiz-do-trabalho-substituto), por concurso.",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -16,20 +16,11 @@
   },
   "requisitos": [
     {
-      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica",
+      "texto": "ser juiz do trabalho substituto (promoção) ou titular de outra vara da região (remoção)",
       "fontes": [
         {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 93, I"
-        }
-      ]
-    },
-    {
-      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB em todas as fases; nomeação pela ordem de classificação",
-      "fontes": [
-        {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 93, I"
+          "ref": "norma:decreto-lei-5452-1943",
+          "dispositivo": "art. 654, § 5º"
         }
       ]
     }
@@ -47,18 +38,26 @@
     {
       "ref": "norma:decreto-lei-5452-1943",
       "dispositivo": "art. 895, I"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 654, § 5º"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 22, II, c"
     }
   ],
-  "notas": "Inclui o juiz do trabalho substituto, cargo inicial da carreira (art. 93, I). A CLT (art. 895, I) prevê recurso ordinário das decisões das Varas para a instância superior; citada só como base do detalhe.",
+  "notas": "Até 2026-11-11 este cargo também representava o juiz do trabalho substituto; a f2-judiciario separou o substituto em cargo:juiz-do-trabalho-substituto. A CLT ainda fala em \"presidente de Junta\"; desde a EC 24/1999 as Juntas são Varas do Trabalho com juiz singular (CF, art. 116). A CLT (art. 895, I) prevê recurso ordinário das decisões das Varas para a instância superior; citada só como base do detalhe.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 93, 95, 111, III, e 116; CLT art. 895, I conferidos; sem erro"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: separado o juiz do trabalho substituto (cargo próprio); provimento passou de concurso-publico a promocao; requisitos, resumo e notas reescritos; acrescentadas CLT, art. 654, § 5º, e LOMAN"
   }
 }

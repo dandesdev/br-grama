@@ -1,0 +1,41 @@
+{
+  "id": "org:conselhos-permanentes-de-justica",
+  "tipo": "orgao",
+  "nome": "Conselhos Permanentes de Justiça",
+  "resumo": "Colegiados de primeira instância da Justiça Militar da União que julgam militares que não são oficiais. Cada um funciona por três meses.",
+  "detalhes": "Cada conselho tem o juiz federal da Justiça Militar ou o substituto, que o preside, e quatro juízes militares sorteados, dos quais pelo menos um oficial superior; funciona durante um trimestre do ano civil (Lei 8.457/1992, arts. 16, II, 21, 24 e 27, II). Os Conselhos de Justiça da circunscrição da Capital Federal julgam os crimes militares cometidos fora do país (art. 27, parágrafo único).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:auditorias-da-justica-militar",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 17"
+        }
+      ],
+      "nota": "Funcionam na sede das Auditorias."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 1º, III; arts. 16 a 19, 21, 22, 24 a 29"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

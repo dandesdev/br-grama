@@ -1,0 +1,29 @@
+{
+  "id": "rel:corregedor-geral-da-justica-federal-preside-turma-nacional-de-uniformizacao",
+  "tipo": "relacao",
+  "nome": "Presidência da TNU",
+  "relacao": "preside",
+  "de": "cargo:corregedor-geral-da-justica-federal",
+  "para": "org:turma-nacional-de-uniformizacao",
+  "fontes": [
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 7º, III; art. 9º, § 1º, I"
+    },
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 14, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-10-30",
+    "ate": null
+  },
+  "notas": "A Lei 10.259/2001 (art. 14, § 2º) falava em presidência do \"Coordenador da Justiça Federal\"; a Lei 11.798/2008 atribuiu ao Corregedor-Geral.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

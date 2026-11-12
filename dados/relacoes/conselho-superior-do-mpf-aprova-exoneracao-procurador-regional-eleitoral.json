@@ -5,7 +5,7 @@
   "relacao": "aprova-exoneracao",
   "de": "org:conselho-superior-do-mpf",
   "para": "cargo:procurador-regional-eleitoral",
-  "condicao": "A destituição antes do fim do mandato, por iniciativa do Procurador-Geral Eleitoral, depende da anuência da maioria absoluta do Conselho.",
+  "condicao": "A destituição antes do fim do mandato, por iniciativa do Procurador-Geral Eleitoral, depende da anuência do Conselho: maioria absoluta pelo art. 76, § 2º, e dois terços pelo art. 57, § 2º (ver aviso).",
   "quorum": {
     "regra": "maioria-absoluta"
   },
@@ -16,13 +16,20 @@
   "fontes": [
     {
       "ref": "norma:lc-75-1993",
-      "dispositivo": "art. 57, IV; art. 76, § 2º"
+      "dispositivo": "art. 57, IV e § 2º; art. 76, § 2º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; quórum contraditório na própria LC 75/1993 (art. 57, § 2º, contra art. 76, § 2º): campos.quorum como oficial-contraditorio e aviso aberto"
+  },
+  "campos": {
+    "quorum": {
+      "confianca": "oficial-contraditorio",
+      "nota": "A LC 75/1993 dá dois quóruns para a mesma deliberação: maioria absoluta (art. 76, § 2º) e dois terços (art. 57, IV e § 2º). Registramos o do art. 76, que trata especificamente da destituição; ver aviso:destituicao-procurador-regional-eleitoral-quorum."
+    }
   }
 }

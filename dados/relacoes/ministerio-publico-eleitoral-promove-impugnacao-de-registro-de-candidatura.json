@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministerio-publico-eleitoral-promove-impugnacao-de-registro-de-candidatura",
+  "tipo": "relacao",
+  "nome": "Ministério Público pode impugnar registro de candidatura",
+  "relacao": "promove",
+  "de": "org:ministerio-publico-eleitoral",
+  "para": "obj:impugnacao-de-registro-de-candidatura",
+  "condicao": "Em cinco dias da publicação do pedido de registro, mesmo que candidato, partido ou coligação já tenha impugnado. Não pode impugnar o membro do Ministério Público que, nos quatro anos anteriores, disputou eleição, integrou diretório de partido ou exerceu atividade político-partidária.",
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Desde a LC 64/1990 (publicação, art. 27)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 3º, caput e §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

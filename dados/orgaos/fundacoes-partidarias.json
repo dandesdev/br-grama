@@ -1,0 +1,40 @@
+{
+  "id": "org:fundacoes-partidarias",
+  "tipo": "orgao",
+  "nome": "Fundações e institutos dos partidos",
+  "resumo": "Fundações ou institutos de direito privado que cada partido cria para estudo, pesquisa, doutrinação e educação política. Recebem pelo menos 20% do Fundo Partidário do partido.",
+  "detalhes": "Regem-se pela lei civil e podem contratar com instituições públicas e privadas, prestar serviços e manter intercâmbio com instituições estrangeiras (Lei 9.096/1995, art. 53). O partido deve aplicar nelas no mínimo 20% do que recebe do Fundo Partidário; a sobra do ano pode voltar a outras atividades partidárias (art. 44, IV e § 6º). Não são atingidas pela sanção ao partido que tem as contas desaprovadas, salvo se deram causa à reprovação (art. 37, § 14). A conversão, a transformação ou a extinção é decidida pelo órgão nacional do partido, e o patrimônio passa a quem a suceder (art. 53, §§ 2º a 4º).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "federal",
+  "contido_em": "org:partidos-politicos",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 53, caput e § 4º"
+        }
+      ],
+      "nota": "Criadas e extintas por decisão do partido; ficam sob o conjunto dos partidos, como os próprios partidos."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 37, § 14; art. 44, IV e § 6º; art. 53"
+    }
+  ],
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null,
+    "nota": "Lei 9.096/1995 (publicada em 20/9/1995). Desde a Lei 13.487/2017, o instituto pode adotar qualquer forma admitida pela lei civil (art. 53, § 1º)."
+  },
+  "notas": "Conjunto (D51): representa as fundações e institutos de todos os partidos; não levantamos a lista. A estrutura de cada uma está no estatuto próprio.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

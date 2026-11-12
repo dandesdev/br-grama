@@ -1,0 +1,39 @@
+{
+  "id": "org:corregedoria-geral-da-justica-do-trabalho",
+  "tipo": "orgao",
+  "nome": "Corregedoria-Geral da Justiça do Trabalho",
+  "resumo": "Órgão do CSJT que inspeciona os TRTs e decide correições parciais contra atos deles. É dirigido por um ministro do TST.",
+  "detalhes": "Faz inspeções nos serviços judiciários de segundo grau, decide correições parciais contra atos que tumultuem o processo nos TRTs, quando não há recurso próprio, expede provimentos e recomendações aos TRTs e controla o movimento processual deles. Das decisões do Corregedor-Geral cabe agravo ao Pleno do CSJT (Lei 14.824/2024, arts. 11 e 12).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:csjt",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-14824-2024",
+          "dispositivo": "art. 2º, IV"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "art. 2º, IV; arts. 10 a 12"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-03-21",
+    "ate": null,
+    "nota": "Posição no CSJT dada pela Lei 14.824/2024 (vigência na publicação, art. 26), que revogou o art. 709 da CLT (atribuições do Corregedor); a corregedoria existia antes, no TST."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "cargo:corregedor-geral-da-justica-do-trabalho",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral da Justiça do Trabalho",
+  "resumo": "Ministro do TST que dirige a Corregedoria-Geral da Justiça do Trabalho e integra o CSJT. Eleito pelo Pleno do TST para dois anos.",
+  "detalhes": "É membro do Conselho Superior da Justiça do Trabalho (Lei 14.824/2024, art. 3º, II). Nas faltas e impedimentos é substituído pelo Vice-Presidente do TST (art. 9º, I).",
+  "orgao": "org:corregedoria-geral-da-justica-do-trabalho",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo Pleno do TST, nos termos do Regimento Interno do TST (Lei 14.824/2024, art. 10; CLT, art. 693, § 1º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada",
+    "nota": "Lei 14.824/2024, art. 3º, § 2º."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do TST",
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-5452-1943",
+          "dispositivo": "art. 693, § 1º"
+        },
+        {
+          "ref": "norma:lei-14824-2024",
+          "dispositivo": "art. 10"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "art. 3º, II e § 2º; arts. 9º a 11"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 693, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-03-21",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

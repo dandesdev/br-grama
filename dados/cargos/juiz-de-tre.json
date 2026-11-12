@@ -67,11 +67,15 @@
       ]
     }
   ],
-  "detalhes": "No exercício das funções, têm plenas garantias e são inamovíveis (art. 121, § 1º). Nos crimes comuns e de responsabilidade, são julgados pelo STJ (art. 105, I, a). O cargo pertence a cada TRE; aqui aparece no ramo da Justiça Eleitoral porque são 27 tribunais.",
+  "detalhes": "No exercício das funções, têm plenas garantias e são inamovíveis (art. 121, § 1º). Nos crimes comuns e de responsabilidade, são julgados pelo STJ (art. 105, I, a). O cargo pertence a cada TRE; aqui aparece no ramo da Justiça Eleitoral porque são 27 tribunais. O TSE pode propor ao Congresso elevar a até nove o número de juízes de um TRE (Código Eleitoral, arts. 13 e 23, VI). Os biênios contam sem descontar afastamentos, e quem é cônjuge ou parente até o segundo grau de candidato na circunscrição não pode servir da convenção à diplomação (art. 14, §§ 1º e 3º).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 105, I, a; art. 120; art. 121, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 13 a 15 e 25"
     }
   ],
   "campos": {
@@ -89,10 +93,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-eleicoes",
-    "notas": "coletado em f0-eleicoes; CF, arts. 105, I, a, 120 e 121, §§ 1º e 2º, conferidos. Provimento das vagas do TJ e do TRF passou de eleicao-pelos-pares para eleicao-por-tribunal (termo novo); vagas 189 = 7 × 27, conta conferida (inferido)"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: acrescentados ao detalhes o aumento até nove juízes e regras do biênio (Código Eleitoral, arts. 13 a 15 e 25)"
   },
   "notas": "Criado para receber a relação de foro no STJ (art. 105, I, a), no modelo de cargo:juiz-de-trt. A CF chama os membros dos TREs de 'juízes' (art. 120, § 1º, e art. 121, § 2º)."
 }

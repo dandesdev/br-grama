@@ -2,12 +2,12 @@
   "id": "cargo:juiz-federal-da-justica-militar",
   "tipo": "cargo",
   "nome": "Juiz federal da Justiça Militar",
-  "resumo": "Juiz de primeira instância da Justiça Militar da União. Ingressa por concurso público. A Constituição ainda o chama de juiz auditor.",
+  "resumo": "Juiz titular de Auditoria da Justiça Militar da União; preside os Conselhos de Justiça. Chega ao cargo por promoção. A CF ainda o chama de juiz auditor.",
   "orgao": "org:justica-militar-da-uniao",
-  "provimento": "concurso-publico",
+  "provimento": "promocao",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
-  "provimento_nota": "O ingresso na carreira é no cargo de juiz substituto, por concurso público de provas e títulos com participação da OAB em todas as fases; as nomeações seguem a ordem de classificação (art. 93, I). Depois, a promoção é alternadamente por antiguidade e merecimento (art. 93, II).",
+  "provimento_nota": "Promoção de juiz federal substituto da Justiça Militar, por ato do STM, alternadamente por antiguidade e merecimento; na antiguidade, o STM só recusa o mais antigo por dois terços (Lei 8.457/1992, arts. 35 e 36). A remoção precede a promoção (art. 38). O ingresso na carreira é como substituto (cargo:juiz-federal-substituto-da-justica-militar), por concurso.",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -16,20 +16,11 @@
   },
   "requisitos": [
     {
-      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica",
+      "texto": "ser juiz federal substituto da Justiça Militar, promovido por antiguidade ou merecimento",
       "fontes": [
         {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 93, I"
-        }
-      ]
-    },
-    {
-      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB em todas as fases; nomeação pela ordem de classificação",
-      "fontes": [
-        {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 93, I"
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 36"
         }
       ]
     }
@@ -47,18 +38,22 @@
     {
       "ref": "norma:lei-8457-1992",
       "dispositivo": "art. 1º, III e IV; art. 6º, II, c"
+    },
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 15, 16, 30, 35, 36 e 38"
     }
   ],
-  "notas": "Nome do cargo pela Lei 8.457/1992, art. 1º, IV, na redação da Lei 13.774/2018; a CF (art. 123, parágrafo único, II) fala em \"juízes auditores\". Inclui o juiz federal substituto da Justiça Militar.",
+  "notas": "Nome do cargo pela Lei 8.457/1992, art. 1º, IV, na redação da Lei 13.774/2018; a CF (art. 123, parágrafo único, II) fala em \"juízes auditores\". Até 2026-11-11 este cargo também representava o substituto; a f2-judiciario o separou em cargo:juiz-federal-substituto-da-justica-militar.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 93, 95, 122, II, e 123, parágrafo único, II; Lei 8.457/1992, art. 1º, III e IV, e art. 6º, II, c, e XIX conferidos; sem erro"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: separado o substituto (cargo próprio); provimento passou de concurso-publico a promocao; requisitos, resumo e notas reescritos; acrescentados arts. 15, 16, 30, 35, 36 e 38 da Lei 8.457/1992"
   }
 }

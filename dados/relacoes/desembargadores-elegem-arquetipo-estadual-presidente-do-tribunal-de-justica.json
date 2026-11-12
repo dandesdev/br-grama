@@ -1,0 +1,31 @@
+{
+  "id": "rel:desembargadores-elegem-arquetipo-estadual-presidente-do-tribunal-de-justica",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente do Tribunal de Justiça",
+  "relacao": "elege",
+  "de": "cargo:desembargador",
+  "para": "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica",
+  "condicao": "Pela maioria dos membros efetivos, em votação secreta, entre os mais antigos; mandato de dois anos, vedada a reeleição.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 21, I, e 102"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

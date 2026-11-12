@@ -1,0 +1,30 @@
+{
+  "id": "rel:partidos-politicos-ajuiza-aije",
+  "tipo": "relacao",
+  "nome": "Partidos, coligações e candidatos podem pedir investigação judicial eleitoral",
+  "relacao": "ajuiza",
+  "de": "org:partidos-politicos",
+  "para": "obj:acao-de-investigacao-judicial-eleitoral",
+  "condicao": "Representação ao Corregedor-Geral ou Regional Eleitoral, ou ao juiz eleitoral nas eleições municipais. A lei legitima também coligações e candidatos; as federações agem como partido.",
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Desde a LC 64/1990 (publicação, art. 27)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 22, caput; art. 24"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

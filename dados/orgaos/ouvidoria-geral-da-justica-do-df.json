@@ -1,0 +1,39 @@
+{
+  "id": "org:ouvidoria-geral-da-justica-do-df",
+  "tipo": "orgao",
+  "nome": "Ouvidoria-Geral da Justiça do Distrito Federal e dos Territórios",
+  "resumo": "Canal do TJDFT para ouvir a opinião do cidadão sobre os serviços da Justiça do DF e sugerir melhorias.",
+  "detalhes": "Criada pela Lei 11.697/2008 (art. 82); a organização e as competências são definidas por ato do TJDFT.",
+  "tipo_orgao": "outro",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tj-df",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 82"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 82"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

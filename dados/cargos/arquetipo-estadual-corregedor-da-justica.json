@@ -1,0 +1,49 @@
+{
+  "id": "cargo:arquetipo-estadual-corregedor-da-justica",
+  "tipo": "cargo",
+  "nome": "Corregedor da Justiça",
+  "resumo": "Desembargador que fiscaliza os juízes de primeira instância e os serviços forenses do estado. Eleito pelos pares para dois anos.",
+  "detalhes": "Faz correições gerais anuais num número mínimo de comarcas fixado em lei, além de correições extraordinárias, e é membro nato do órgão especial e do Conselho da Magistratura (LOMAN, arts. 99, 104 e 105). Nos estados com mais de cem comarcas e duzentas varas pode haver até dois corregedores (art. 103, § 2º). Muitos estados usam o nome Corregedor-Geral da Justiça.",
+  "orgao": "org:arquetipo-estadual-tribunal-de-justica",
+  "arquetipo": "estadual",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "vagas_nota": "Até dois nos estados com mais de cem comarcas e duzentas varas (LOMAN, art. 103, § 2º).",
+  "provimento_nota": "Eleito como o Presidente (LOMAN, art. 102).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Quem exerceu cargos de direção por quatro anos, ou a Presidência, só volta a ser elegível depois que todos os mais antigos tiverem passado (LOMAN, art. 102). Aceitar o cargo é obrigatório, salvo recusa manifestada e aceita antes da eleição."
+  },
+  "requisitos": [
+    {
+      "texto": "ser desembargador, entre os mais antigos do tribunal, em número igual ao dos cargos de direção",
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 102"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 99, 102, 103, 104 e 105"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "notas": "A LOMAN usa \"Corregedor da Justiça\" (art. 99) e \"Corregedor\" (arts. 103 a 105).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

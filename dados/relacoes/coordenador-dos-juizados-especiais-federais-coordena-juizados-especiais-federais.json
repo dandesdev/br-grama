@@ -1,0 +1,26 @@
+{
+  "id": "rel:coordenador-dos-juizados-especiais-federais-coordena-juizados-especiais-federais",
+  "tipo": "relacao",
+  "nome": "Coordenação dos juizados especiais federais",
+  "relacao": "coordena",
+  "de": "cargo:coordenador-dos-juizados-especiais-federais",
+  "para": "org:juizados-especiais-federais",
+  "condicao": "Na região do seu TRF.",
+  "fontes": [
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 22"
+    }
+  ],
+  "vigencia": {
+    "de": "2002-01-13",
+    "ate": null,
+    "incerta": true
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

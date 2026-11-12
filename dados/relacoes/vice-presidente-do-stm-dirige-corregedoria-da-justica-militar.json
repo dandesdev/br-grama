@@ -1,0 +1,27 @@
+{
+  "id": "rel:vice-presidente-do-stm-dirige-corregedoria-da-justica-militar",
+  "tipo": "relacao",
+  "nome": "Vice-Presidente do STM como Ministro-Corregedor",
+  "relacao": "preside",
+  "de": "cargo:vice-presidente-do-stm",
+  "para": "org:corregedoria-da-justica-militar",
+  "condicao": "Durante o mandato de Vice-Presidente, exerce a função de Ministro-Corregedor.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 10, b; arts. 12 a 14"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

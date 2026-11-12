@@ -1,0 +1,55 @@
+{
+  "id": "cargo:presidente-de-trf",
+  "tipo": "cargo",
+  "nome": "Presidente de Tribunal Regional Federal",
+  "resumo": "Dirige um dos seis TRFs e integra o Conselho da Justiça Federal. É eleito pelos juízes do tribunal para dois anos, sem reeleição.",
+  "detalhes": "Os presidentes dos seis TRFs são membros do CJF, substituídos pelos vice-presidentes (Lei 11.798/2008, art. 2º, III). O cargo pertence a cada TRF; aparece no ramo porque são seis tribunais.",
+  "orgao": "org:justica-federal",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 6,
+  "vagas_nota": "Um por TRF.",
+  "provimento_nota": "Eleito pelo próprio TRF entre os seus juízes mais antigos, pela maioria dos membros efetivos, em votação secreta (CF, art. 96, I, a; LOMAN, arts. 21, I, e 102).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Regra geral dos cargos de direção dos tribunais (LOMAN, arts. 94 e 102)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser juiz do TRF, entre os mais antigos",
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 102"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 21, I, e 102"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 2º, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-03-30",
+    "ate": null,
+    "incerta": true,
+    "nota": "Os TRFs foram instalados em 1989 (ADCT, art. 27, § 6º); data não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

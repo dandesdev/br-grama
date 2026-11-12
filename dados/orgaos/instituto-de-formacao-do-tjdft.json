@@ -1,0 +1,39 @@
+{
+  "id": "org:instituto-de-formacao-do-tjdft",
+  "tipo": "orgao",
+  "nome": "Instituto de Formação, Desenvolvimento Profissional e Pesquisa do TJDFT",
+  "resumo": "Escola de administração judiciária do DF e dos Territórios, que capacita e aperfeiçoa magistrados e servidores do TJDFT.",
+  "detalhes": "Criado pela Lei 11.697/2008 (art. 81); a organização e as competências são definidas por ato do TJDFT.",
+  "tipo_orgao": "escola-judicial",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tj-df",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 81"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 81"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "cargo:juiz-militar-dos-conselhos-de-justica",
+  "tipo": "cargo",
+  "nome": "Juiz militar dos Conselhos de Justiça",
+  "resumo": "Oficial de carreira das Forças Armadas sorteado para compor um Conselho de Justiça da Justiça Militar da União, ao lado do juiz federal.",
+  "detalhes": "São quatro em cada conselho. Os comandos de Distrito Naval, Região Militar e Comando Aéreo Regional enviam a cada trimestre a lista dos oficiais em serviço ativo, da qual o juiz federal da Justiça Militar faz o sorteio em audiência pública; a lei exclui da lista, entre outros, oficiais-generais do topo, comandantes e alunos de escolas (Lei 8.457/1992, arts. 18 a 21). Ficam dispensados do serviço nos dias de sessão (art. 26).",
+  "orgao": "org:auditorias-da-justica-militar",
+  "provimento": "sorteio",
+  "vagas": null,
+  "vagas_nota": "Quatro por conselho; o número de conselhos varia (um Permanente por Auditoria a cada trimestre e um Especial por processo).",
+  "provimento_nota": "Sorteio entre oficiais de carreira da sede da Auditoria, com vitaliciedade assegurada; se não houver bastante, entre os da jurisdição da Auditoria e, excepcionalmente, das demais localidades da circunscrição (Lei 8.457/1992, art. 18).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "No Conselho Permanente, três meses (um trimestre), sem ser sorteado de novo no trimestre seguinte; no Especial, até o fim do processo (Lei 8.457/1992, arts. 23, § 1º, e 24)."
+  },
+  "requisitos": [
+    {
+      "texto": "oficial de carreira com vitaliciedade assegurada",
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 18"
+        }
+      ]
+    },
+    {
+      "texto": "no Conselho Especial, posto superior ao do acusado, ou o mesmo posto com maior antiguidade",
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 23"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 16 e 18 a 26"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-11-04",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 8.457/1992 entrou em vigor 60 dias após a publicação (art. 104); data exata não conferida."
+  },
+  "notas": "O vocabulário de provimento define \"sorteio\" como escolha entre cidadãos alistados (jurados); aqui o sorteio é entre oficiais. Termo mais próximo; ver diário.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

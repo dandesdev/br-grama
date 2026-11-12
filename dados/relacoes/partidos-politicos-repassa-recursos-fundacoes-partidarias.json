@@ -1,0 +1,26 @@
+{
+  "id": "rel:partidos-politicos-repassa-recursos-fundacoes-partidarias",
+  "tipo": "relacao",
+  "nome": "Partidos repassam parte do Fundo Partidário às suas fundações",
+  "relacao": "repassa-recursos",
+  "de": "org:partidos-politicos",
+  "para": "org:fundacoes-partidarias",
+  "condicao": "Fundo Partidário: o partido aplica no mínimo 20% do total recebido na criação e manutenção da sua fundação ou instituto de pesquisa, doutrinação e educação política.",
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 44, IV e § 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "O fundo transferido é obj:fundo-partidario; o esquema de relação não tem campo para ele, por isso vai na condição."
+}

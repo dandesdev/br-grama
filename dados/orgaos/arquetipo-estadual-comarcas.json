@@ -1,0 +1,45 @@
+{
+  "id": "org:arquetipo-estadual-comarcas",
+  "tipo": "orgao",
+  "nome": "Comarcas e varas da Justiça estadual",
+  "resumo": "Divisões do território do estado onde atuam os juízes de direito de primeira instância. Comarcas maiores têm várias varas.",
+  "detalhes": "A lei estadual divide o território em comarcas, que podem ser agrupadas em circunscrições e divididas em distritos, com critérios como área, população, número de eleitores, receita tributária e movimento forense; o desdobramento em novas varas segue os mesmos índices (LOMAN, arts. 96 e 97). Cada comarca é sede de pelo menos um juiz de direito, e a carreira se organiza em entrâncias (CF, art. 93, II).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:justica-estadual",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII; art. 125"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 95 a 97"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, II; art. 125, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "notas": "Estrutura que continua em cada lei estadual de organização judiciária (D09).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

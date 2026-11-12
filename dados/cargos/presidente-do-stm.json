@@ -1,0 +1,54 @@
+{
+  "id": "cargo:presidente-do-stm",
+  "tipo": "cargo",
+  "nome": "Presidente do Superior Tribunal Militar",
+  "resumo": "Dirige o STM, preside as sessões plenárias e representa a Justiça Militar da União. É eleito pelos ministros do STM.",
+  "detalhes": "Entre outras atribuições, convoca substitutos para os ministros, decide o cabimento de recurso extraordinário, comunica ao Presidente da República as vagas de ministro e gere o orçamento da Justiça Militar (Lei 8.457/1992, art. 9º). No empate, proclama a decisão mais favorável ao réu (art. 9º, VI).",
+  "orgao": "org:stm",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo STM, que lhe dá posse, na forma do regimento interno (Lei 8.457/1992, arts. 5º e 6º, XV; CF, art. 96, I, a).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Regra geral dos cargos de direção dos tribunais (LOMAN, art. 102); a eleição segue o regimento do STM (Lei 8.457/1992, art. 5º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STM",
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 6º, XV"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 5º, 6º, XV, e 9º"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 102"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-11-04",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 8.457/1992 entrou em vigor 60 dias após a publicação (art. 104); data exata não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

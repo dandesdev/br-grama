@@ -1,0 +1,45 @@
+{
+  "id": "org:arquetipo-estadual-orgao-especial-do-tribunal-de-justica",
+  "tipo": "orgao",
+  "nome": "Órgão especial do Tribunal de Justiça",
+  "resumo": "Nos TJs com mais de 25 desembargadores, exerce as funções administrativas e jurisdicionais do Tribunal Pleno. Tem de 11 a 25 membros.",
+  "detalhes": "Pela CF, metade das vagas é preenchida por antiguidade e metade por eleição do Tribunal Pleno (art. 93, XI, redação da EC 45/2004); a LOMAN, anterior, mandava compor só pelos mais antigos, com o Presidente, o Vice-Presidente e o Corregedor, respeitado o quinto da advocacia e do MP (art. 99). Julga, entre outros, a perda do cargo, a remoção e a disponibilidade de juízes e uniformiza a jurisprudência entre as seções (LOMAN, arts. 16, parágrafo único, 27 e 45). A mesma regra vale para qualquer tribunal com mais de 25 julgadores, como o STJ (Corte Especial).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-tribunal-de-justica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 16, parágrafo único"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, XI"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 16, parágrafo único; arts. 99 e 101, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "Previsto desde a LOMAN; a composição atual é a da EC 45/2004."
+  },
+  "notas": "Arquétipo (D06): nem todo TJ tem órgão especial; depende de ter mais de 25 desembargadores.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

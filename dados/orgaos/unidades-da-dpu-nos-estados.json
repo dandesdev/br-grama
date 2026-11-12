@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Defensorias Públicas da União nos estados e no DF",
   "resumo": "Órgãos de atuação da DPU em cada estado e no DF, dirigidos por um Defensor Público-Chefe, que podem atuar por meio de núcleos.",
-  "detalhes": "Atuam junto às Justiças Federal, do Trabalho, Eleitoral e Militar, aos tribunais superiores e às instâncias administrativas da União; a DPU deve firmar convênios para que as Defensorias dos estados atuem em seu nome onde ela não estiver (LC 80/1994, art. 14). Cada unidade é dirigida por Defensor Público-Chefe designado pelo Defensor Público-Geral Federal, que coordena os defensores da área e envia relatório semestral à Corregedoria (arts. 15 a 17). A organização da DPU deve priorizar a descentralização e o atendimento interdisciplinar (art. 15-A).",
+  "detalhes": "Atuam junto às Justiças Federal, do Trabalho, Eleitoral e Militar, aos tribunais superiores e às instâncias administrativas da União; a DPU deve firmar convênios com as Defensorias dos estados e do DF para que estas atuem em seu nome na primeira e na segunda instância dessas Justiças, e sua atuação própria se dá de preferência no STF e nos tribunais superiores (LC 80/1994, art. 14, §§ 1º e 3º). Cada unidade é dirigida por Defensor Público-Chefe designado pelo Defensor Público-Geral Federal, que coordena os defensores da área e envia relatório semestral à Corregedoria (arts. 15 a 17). A organização da DPU deve priorizar a descentralização e o atendimento interdisciplinar (art. 15-A).",
   "tipo_orgao": "conjunto",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
@@ -32,8 +32,9 @@
   "confianca": "oficial",
   "notas": "Conjunto: uma unidade por estado e no DF, mais os núcleos; número de núcleos não pesquisado.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; LC 80/1994, arts. 5º, II, e 14 a 17, conferidos; detalhes sobre os convênios corrigidos (art. 14, §§ 1º e 3º)"
   }
 }

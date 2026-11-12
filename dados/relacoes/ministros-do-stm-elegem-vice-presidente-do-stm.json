@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministros-do-stm-elegem-vice-presidente-do-stm",
+  "tipo": "relacao",
+  "nome": "Eleição do Vice-Presidente do STM",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-stm",
+  "para": "cargo:vice-presidente-do-stm",
+  "condicao": "Pelo Tribunal, na forma do regimento interno.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 5º e 6º, XV"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-11-04",
+    "ate": null,
+    "incerta": true,
+    "nota": "A Lei 8.457/1992 entrou em vigor 60 dias após a publicação (art. 104); data exata não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

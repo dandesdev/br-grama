@@ -1,0 +1,40 @@
+{
+  "id": "aviso:corregedor-regional-eleitoral-terceiro-desembargador",
+  "tipo": "aviso",
+  "nome": "Código Eleitoral manda o \"terceiro desembargador\" do TRE ser corregedor, mas a CF só põe dois",
+  "resumo": "O Código Eleitoral (art. 26) supõe três desembargadores em cada TRE; a CF de 1988 prevê dois. A lei não diz quem é o corregedor regional hoje.",
+  "detalhes": "Pelo art. 26 do Código Eleitoral, o TRE elege Presidente e Vice-Presidente entre três desembargadores do TJ, e o terceiro é o Corregedor Regional. A CF de 1988 reduziu a dois os desembargadores em cada TRE (art. 120, § 1º, I, a), que elegem entre si o Presidente e o Vice (art. 120, § 2º). Uma busca na web aponta que a Resolução TSE 23.742/2024 manda o Vice-Presidente acumular a Corregedoria Regional, mas não conseguimos ler o texto oficial.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "org:justica-eleitoral",
+    "cargo:juiz-de-tre"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Código Eleitoral, art. 26 (Planalto, cópia de 2026-11-11)",
+    "CF, art. 120",
+    "Página da Resolução TSE 23.742/2024 no site do TSE (acesso negado, HTTP 403, em 2026-11-11)",
+    "Cópia do Wayback Machine da mesma página (download recusado, HTTP 429, em 2026-11-11)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 26"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 120, §§ 1º, I, a, e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "notas": "Pista sem conferência (busca na web em 2026-11-11): Resolução TSE 23.742, de 23/5/2024, art. 9º, e regimentos de TREs (ex.: TRE-MG) dizem que o Vice-Presidente acumula a Corregedoria Regional. Se confirmado, criar o cargo de corregedor regional eleitoral com essa fonte e encerrar este aviso (D43).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

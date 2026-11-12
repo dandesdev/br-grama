@@ -1,0 +1,213 @@
+{
+  "id": "proc:acao-de-investigacao-judicial-eleitoral",
+  "tipo": "processo",
+  "nome": "Ação de investigação judicial eleitoral",
+  "resumo": "Rito da LC 64/1990 para apurar abuso de poder e uso indevido dos meios de comunicação nas eleições: representação ao corregedor eleitoral, instrução e julgamento pelo tribunal.",
+  "detalhes": "O rito é sumaríssimo e tem prioridade sobre os demais processos, salvo habeas corpus e mandado de segurança; os prazos não podem ser descumpridos por acúmulo de serviço (LC 64/1990, arts. 21, 22 e 26-B). Também segue este rito a apuração da captação ilícita de sufrágio, da arrecadação e dos gastos ilícitos de campanha e das condutas vedadas a agentes públicos (Lei 9.504/1997, arts. 30-A, § 1º, 41-A e 73, § 12).",
+  "forma": "linha",
+  "produz": "obj:acao-de-investigacao-judicial-eleitoral",
+  "etapas": [
+    {
+      "id": "representacao",
+      "atores": [
+        "org:partidos-politicos",
+        "org:ministerio-publico-eleitoral"
+      ],
+      "acao": "Partido, coligação, candidato ou Ministério Público Eleitoral representa ao corregedor eleitoral e pede investigação",
+      "detalhes": "A representação relata os fatos e indica provas, indícios e circunstâncias de uso indevido, desvio ou abuso do poder econômico ou de autoridade, ou de uso indevido dos meios de comunicação, em benefício de candidato ou partido (LC 64/1990, art. 22). Nas representações por captação ilícita de sufrágio e por condutas vedadas, o prazo vai até a diplomação; na de arrecadação e gastos ilícitos, até 15 dias depois dela (Lei 9.504/1997, arts. 30-A, 41-A, § 3º, e 73, § 12).",
+      "prazo": {
+        "texto": "Captação de sufrágio e condutas vedadas: até a diplomação; arrecadação e gastos ilícitos: 15 dias depois da diplomação (Lei 9.504/1997, arts. 30-A, 41-A, § 3º, e 73, § 12)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, caput"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 41-A, § 3º; art. 73, § 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "despacho-inicial",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "despacho-inicial",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-tse",
+        "cargo:juiz-de-tre",
+        "cargo:juiz-eleitoral"
+      ],
+      "acao": "O corregedor manda notificar o representado, pode suspender o ato questionado ou rejeita a representação",
+      "detalhes": "O Corregedor-Geral (ministro do TSE) ou Regional (juiz do TRE) tem as atribuições de relator; nas eleições municipais, o papel é do juiz eleitoral, e o do Procurador-Geral ou Regional Eleitoral cabe ao promotor eleitoral da zona (LC 64/1990, arts. 22, I, e 24). Se o corregedor indeferir ou demorar, o interessado pode renovar o pedido ao tribunal, que decide em 24 horas, ou levar o fato ao TSE (art. 22, II e III).",
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, I a III; art. 24"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "defesa",
+          "quando": "Representação recebida"
+        },
+        {
+          "para": "rejeitada",
+          "quando": "Representação indeferida"
+        }
+      ]
+    },
+    {
+      "id": "defesa",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "O representado apresenta defesa, documentos e testemunhas",
+      "prazo": {
+        "texto": "Cinco dias da notificação (LC 64/1990, art. 22, I, a).",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "notificação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, I, a, e IV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "instrucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "instrucao",
+      "atores": [
+        "cargo:ministro-do-tse",
+        "cargo:juiz-de-tre",
+        "cargo:juiz-eleitoral"
+      ],
+      "acao": "O corregedor ouve as testemunhas, faz diligências, abre prazo para alegações e faz relatório",
+      "detalhes": "Testemunhas, até seis por parte, ouvidas em cinco dias numa só audiência; diligências nos três dias seguintes, inclusive requisição de documentos de bancos; alegações em dois dias; relatório conclusivo em três dias, enviado ao tribunal no dia seguinte para julgamento na primeira sessão (LC 64/1990, art. 22, V a XII).",
+      "prazo": {
+        "texto": "Cinco dias para testemunhas, três para diligências, dois para alegações e três para o relatório (LC 64/1990, art. 22, V, VI, X e XII)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, V a XII"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tse",
+        "org:justica-eleitoral",
+        "cargo:procurador-geral-eleitoral",
+        "cargo:procurador-regional-eleitoral"
+      ],
+      "acao": "O tribunal julga, ouvido o Ministério Público; se procedente, declara a inelegibilidade e cassa registro ou diploma",
+      "detalhes": "O Procurador-Geral ou Regional Eleitoral tem 48 horas para opinar (LC 64/1990, art. 22, XIII). O tribunal forma convicção pela livre apreciação dos fatos públicos e notórios, indícios, presunções e provas (art. 23). Nas eleições municipais, julga o juiz eleitoral (art. 24). Os recursos contra decisões nas representações da Lei 9.504/1997 têm prazo de três dias (arts. 30-A, § 3º, 41-A, § 4º, e 73, § 13).",
+      "prazo": {
+        "texto": "Vista ao Ministério Público por 48 horas; julgamento na primeira sessão seguinte ao relatório (LC 64/1990, art. 22, XII e XIII)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, XIII, XIV e XVI; art. 23"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 30-A, § 2º; art. 41-A, caput; art. 73, § 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "procedente",
+          "quando": "Representação julgada procedente"
+        },
+        {
+          "para": "improcedente",
+          "quando": "Representação julgada improcedente"
+        }
+      ]
+    },
+    {
+      "id": "procedente",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Inelegibilidade por oito anos, cassação do registro ou diploma do beneficiado e remessa ao Ministério Público",
+      "detalhes": "A inelegibilidade vale para as eleições dos oito anos seguintes à eleição em que o fato ocorreu e atinge o representado e quem contribuiu para o ato. Os autos vão ao Ministério Público Eleitoral para processo disciplinar e ação penal, se for o caso (LC 64/1990, art. 22, XIV).",
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, XIV"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "improcedente",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Representação rejeitada no mérito",
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, XIV"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "rejeitada",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Representação indeferida de plano por não ser caso de representação ou faltar requisito",
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 22, I, c"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "LC 64/1990 (publicada em 21/5/1990); incisos XIV e XVI do art. 22 na redação da LC 135/2010."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "arts. 19 a 24 e 26-B"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "arts. 30-A, 41-A e 73, §§ 12 e 13"
+    }
+  ],
+  "notas": "Os corregedores eleitorais ainda não têm cargo próprio no mapa: o Corregedor-Geral é um ministro do TSE e o Corregedor Regional, um juiz do TRE (Código Eleitoral, arts. 17 e 26, com a tarefa f2-judiciario); por isso os atores são cargo:ministro-do-tse e cargo:juiz-de-tre. Se a f2-judiciario criar os cargos de corregedor, trocar. O inciso XV do art. 22 foi revogado pela LC 135/2010.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

@@ -44,11 +44,11 @@
         "org:conselho-superior-do-mpdft"
       ],
       "acao": "O Conselho Superior arquiva o inquérito, pede diligências ou instaura processo administrativo",
-      "detalhes": "Recebe o inquérito com parecer conclusivo da comissão; se não acolher a proposta de arquivamento, devolve ao Corregedor-Geral para formular a acusação.",
+      "detalhes": "Recebe o inquérito com parecer conclusivo da comissão; se não acolher a proposta de arquivamento, devolve ao Corregedor-Geral para formular a acusação. No MPF, no MPT e no MPM, instaurar o processo administrativo, designar a comissão e afastar preventivamente o acusado exigem o voto de dois terços do Conselho (arts. 57, XV a XVII e § 2º, 98, XIII a XV e § 2º, e 131, XIII a XV e § 2º); para o MPDFT a lei não faz essa exigência (art. 166).",
       "fontes": [
         {
           "ref": "norma:lc-75-1993",
-          "dispositivo": "art. 251"
+          "dispositivo": "art. 251; arts. 57, § 2º, 98, § 2º, 131, § 2º, e 166"
         }
       ],
       "seguintes": [
@@ -151,11 +151,11 @@
         "cargo:procurador-geral-da-republica"
       ],
       "acao": "O PGR propõe na Justiça ação civil para demitir membro vitalício ou cassar aposentadoria ou disponibilidade",
-      "detalhes": "No MPF e no MPT a lei exige autorização da maioria absoluta do Conselho Superior para o PGR propor a ação (arts. 57, XX, e 98, XVIII).",
+      "detalhes": "Nos quatro ramos, o PGR só propõe a ação com autorização da maioria absoluta do Conselho Superior do ramo (arts. 57, XX, 98, XVIII, 131, XVIII, e 166, XVIII). Proposta a ação, o acusado fica afastado das funções, sem vencimentos (art. 208, parágrafo único).",
       "fontes": [
         {
           "ref": "norma:lc-75-1993",
-          "dispositivo": "arts. 208, 242 e 259, IV"
+          "dispositivo": "arts. 57, XX, 98, XVIII, 131, XVIII, 166, XVIII, 208, 242 e 259, IV"
         }
       ],
       "seguintes": [
@@ -205,8 +205,9 @@
   "confianca": "oficial",
   "notas": "Atores múltiplos por etapa: cada ramo usa seus próprios Corregedor-Geral, Conselho Superior e procurador-geral. Os prazos de prescrição (arts. 244 e 245) não entram como etapas.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; etapas conferidas na LC 75/1993, arts. 57, 98, 131, 166, 208 e 239 a 265 (atores, prazos de 30+30, 15, 90+30 e 120 dias); corrigida a etapa acao-civil (autorização do Conselho vale nos quatro ramos, não só no MPF e no MPT) e acrescentado o quórum de dois terços na etapa deliberacao-inquerito"
   }
 }

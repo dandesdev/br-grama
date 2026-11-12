@@ -5,7 +5,7 @@
   "relacao": "aprecia-para-registro",
   "de": "org:tse",
   "para": "obj:estatuto-de-partido-politico",
-  "condicao": "Registra o estatuto do partido que comprovar caráter nacional e o das federações. Só o registro garante a exclusividade do nome, da sigla e dos símbolos.",
+  "condicao": "Registra o estatuto do partido que comprovar caráter nacional e o das federações. Só o registro garante a exclusividade do nome, da sigla e dos símbolos. Também registra as alterações do programa e do estatuto, depois de feitas no cartório. O rito do registro está em proc:registro-de-partido-politico.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -17,15 +17,15 @@
     },
     {
       "ref": "norma:lei-9096-1995",
-      "dispositivo": "art. 7º, §§ 1º a 3º; art. 11-A, caput e § 3º, IV"
+      "dispositivo": "art. 7º, §§ 1º a 3º; art. 9º, §§ 3º e 4º; art. 10, caput; art. 11-A, caput, § 3º, IV, e § 6º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-eleicoes",
-    "notas": "coletado em f0-eleicoes; CF, art. 17, § 2º, e Lei 9.096/1995, art. 7º, §§ 1º a 3º, e art. 11-A, caput e § 3º, IV, conferidos; o termo aprecia-para-registro cabe pela definição"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes",
+    "notas": "f2-eleicoes: condição e fontes completadas com o rito e prazo do registro (Lei 9.096/1995, art. 9º, §§ 3º e 4º), as alterações estatutárias (art. 10) e os documentos do registro da federação (art. 11-A, § 6º). Antes: coletado em f0-eleicoes; CF, art. 17, § 2º, e Lei 9.096/1995, art. 7º, §§ 1º a 3º, e art. 11-A, caput e § 3º, IV, conferidos; o termo aprecia-para-registro cabe pela definição"
   },
   "notas": "'aprecia-para-registro' foi pensado para o TCU (art. 71, III), mas a definição ('examina a legalidade de um ato e decide se ele é registrado') cabe aqui. Se o mantenedor preferir, criar um termo 'registra'."
 }

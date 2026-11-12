@@ -1,0 +1,31 @@
+{
+  "id": "rel:justica-eleitoral-julga-recurso-contra-expedicao-de-diploma",
+  "tipo": "relacao",
+  "nome": "Justiça Eleitoral julga o recurso contra a expedição de diploma",
+  "relacao": "julga",
+  "de": "org:justica-eleitoral",
+  "para": "obj:recurso-contra-expedicao-de-diploma",
+  "condicao": "Contra diplomas de eleições federais e estaduais, expedidos pelos TREs, julga o TSE (recurso ordinário); contra diplomas municipais, o TRE. Se o recurso for provido, a apuração é revista e os diplomas são confirmados ou invalidados.",
+  "vigencia": {
+    "de": "1965-08",
+    "ate": null,
+    "incerta": true
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 217, parágrafo único; art. 262; art. 265; art. 276, II, a"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 121, § 4º, III e IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "TSE para diplomas federais e estaduais é leitura do art. 276, II, a; municipal ao TRE decorre do art. 265 (recurso dos atos dos juízes e juntas)."
+}

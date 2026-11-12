@@ -1,0 +1,29 @@
+{
+  "id": "rel:justica-eleitoral-julga-contas-de-campanha",
+  "tipo": "relacao",
+  "nome": "Justiça Eleitoral julga as contas de campanha",
+  "relacao": "julga",
+  "de": "org:justica-eleitoral",
+  "para": "obj:contas-de-campanha-eleitoral",
+  "condicao": "Aprova, aprova com ressalvas, desaprova ou declara não prestadas as contas de candidatos e partidos; a decisão sobre os eleitos sai até três dias antes da diplomação. Recurso em três dias ao órgão superior.",
+  "vigencia": {
+    "de": "1997-10-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 30, caput, I a IV e §§ 1º, 5º e 6º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 34"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

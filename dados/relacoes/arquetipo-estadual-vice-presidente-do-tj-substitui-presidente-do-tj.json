@@ -1,0 +1,28 @@
+{
+  "id": "rel:arquetipo-estadual-vice-presidente-do-tj-substitui-presidente-do-tj",
+  "tipo": "relacao",
+  "nome": "Substituição do Presidente do TJ",
+  "relacao": "substitui",
+  "de": "cargo:arquetipo-estadual-vice-presidente-do-tribunal-de-justica",
+  "para": "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica",
+  "condicao": "Nas faltas e impedimentos; o Vice-Presidente e o Corregedor são substituídos pelos demais desembargadores, em ordem decrescente de antiguidade.",
+  "ordem": 1,
+  "fontes": [
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 114"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

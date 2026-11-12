@@ -4,7 +4,7 @@
   "nome": "Comissão Mista Permanente sobre Mudanças Climáticas",
   "sigla": "CMMC",
   "resumo": "Comissão permanente do Congresso que acompanha, monitora e fiscaliza de modo contínuo as ações sobre mudanças climáticas no Brasil.",
-  "detalhes": "Tem onze deputados e onze senadores, com igual número de suplentes; a Mesa do Congresso fixa a representação dos partidos no início de cada sessão legislativa. O Regimento Comum acrescenta a toda comissão mista uma vaga por Casa para as bancadas minoritárias (art. 10-A); por isso os dados abertos registram 12 titulares de cada Casa.",
+  "detalhes": "Tem onze deputados e onze senadores, com igual número de suplentes; a Mesa do Congresso fixa a representação dos partidos no início de cada sessão legislativa. O Regimento Comum acrescenta a toda comissão mista uma vaga por Casa para as bancadas minoritárias (art. 10-A). Só fiscaliza: não vota projetos.",
   "tipo_orgao": "legislativo-orgao-interno",
   "poder": "legislativo",
   "esfera": "federal",
@@ -23,7 +23,7 @@
   "fontes": [
     {
       "ref": "norma:resolucao-cn-4-2008",
-      "dispositivo": "arts. 1º a 3º"
+      "dispositivo": "arts. 1º a 3º; art. 11, parágrafo único"
     },
     {
       "ref": "norma:rccn",
@@ -40,9 +40,11 @@
     "nota": "Publicação da Resolução nº 4/2008-CN, em vigor na data da publicação."
   },
   "confianca": "oficial",
+  "notas": "Nos dados abertos do Senado (lista de comissões mistas, versão de 28/10/2026) a CMMC não tem membros nem número de vagas; o último evento é uma designação de 21/9/2023. Não conferimos se ela estava instalada em 2026-10-01.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-legislativo-tcu"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-legislativo-tcu",
+    "notas": "coletado em f2-legislativo-tcu; Res. 4/2008-CN, arts. 1º a 3º e 11, e RCCN, art. 10-A, conferidos na edição oficial de 2025; corrigido: o detalhes dizia que os dados abertos registram 12 titulares de cada Casa, mas a cópia da lista de comissões mistas não traz membros nem vagas da CMMC (último evento: designação de 21/9/2023); frase trocada pela regra do art. 11, parágrafo único (só fiscaliza), e a situação dos dados foi para notas"
   }
 }

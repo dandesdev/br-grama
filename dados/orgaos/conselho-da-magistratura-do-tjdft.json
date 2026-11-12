@@ -1,0 +1,43 @@
+{
+  "id": "org:conselho-da-magistratura-do-tjdft",
+  "tipo": "orgao",
+  "nome": "Conselho da Magistratura do TJDFT",
+  "resumo": "Colegiado do TJDFT com função disciplinar sobre os juízes do DF e dos Territórios, previsto na lei de organização judiciária.",
+  "detalhes": "Composição e competência no regimento interno (Lei 11.697/2008, art. 9º), na forma da LOMAN (art. 104), que faz do Presidente, do Vice-Presidente e do Corregedor membros natos.",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tj-df",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 2º, III; art. 9º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 2º, III; art. 9º"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 104 e 132"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

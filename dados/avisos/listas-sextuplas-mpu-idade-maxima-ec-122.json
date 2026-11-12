@@ -1,0 +1,43 @@
+{
+  "id": "aviso:listas-sextuplas-mpu-idade-maxima-ec-122",
+  "tipo": "aviso",
+  "nome": "Listas do MPU para STJ, TRFs e TST: a LC 75/1993 ainda limita a idade a 65 anos; a CF passou a 70",
+  "resumo": "A LC 75/1993 só admite nas listas sêxtuplas do MPU para STJ, TRFs e TST quem tem menos de 65 anos. Desde a EC 122/2022, a CF admite nomear até os 70.",
+  "detalhes": "A LC 75/1993 fixa a idade dos elegíveis às listas sêxtuplas: MPF para o STJ, mais de 35 e menos de 65 anos (art. 53, I); MPF para os TRFs, mais de 30 e menos de 65 (art. 53, II); MPT para o TST, mais de 35 e menos de 65 (art. 94, II); MPDFT para o STJ, mais de 35 e menos de 65 (art. 162, V). Esses limites repetiam os da CF. A EC 122/2022 elevou para menos de 70 anos a idade máxima de nomeação no STJ, nos TRFs e no TST (CF, arts. 104, parágrafo único, 107 e 111-A), e a LC 75/1993 não foi alterada. Duas leituras são possíveis: o limite da LC continua valendo como requisito próprio da lista, mais estrito que o da CF, ou ficou superado por espelhar a regra constitucional antiga. Não achamos fonte oficial que resolva. O mapa registra a regra da LC nas relações e a da CF nos cargos dos tribunais.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "gravidade": "baixa",
+  "afeta": [
+    "rel:colegio-de-procuradores-da-republica-indica-ministro-do-stj",
+    "rel:colegio-de-procuradores-da-republica-indica-juiz-de-trf",
+    "rel:colegio-de-procuradores-do-trabalho-indica-ministro-do-tst",
+    "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-ministro-do-stj"
+  ],
+  "onde_procuramos": [
+    "LC 75/1993 no Planalto (cópia de 2026-10-28), arts. 53, 94 e 162: sem marcas de alteração",
+    "EC 122/2022 no Planalto (cópia de 2026-11-11, pesquisa/brutos/planalto-leis/2026-11-11-verificacao-f2-funcoes-essenciais/emc122.htm): altera os arts. 73, 101, 104, 107, 111-A, 115 e 123 da CF e não trata das listas do Ministério Público",
+    "Busca na web em 2026-11-11 por norma ou decisão sobre a idade máxima nas listas sêxtuplas do MPU depois da EC 122/2022: nada oficial encontrado",
+    "Resolução do Conselho Superior do MPF sobre a lista sêxtupla (consolidada de 03/2025) no site do MPF: o arquivo respondeu 401 (acesso negado) em 2026-11-11"
+  ],
+  "vigencia": {
+    "de": "2022-05-18",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-75-1993",
+      "dispositivo": "art. 53, I e II; art. 94, II; art. 162, V"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 104, parágrafo único; art. 107; art. 111-A (redação da EC 122/2022)"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado na revisão de f2-funcoes-essenciais. vigencia.de = publicação da EC 122/2022 (DOU de 18/5/2022; vigência na publicação, art. 2º). Os TRTs não entram: a LC 75/1993, art. 94, III, não fixa idade para a lista do MPT aos TRTs.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "criado na revisão de f2-funcoes-essenciais; LC 75/1993 (cópia de 2026-10-28), CF (cópia de 2026-10-16) e EC 122/2022 (cópia de 2026-11-11) conferidas"
+  }
+}

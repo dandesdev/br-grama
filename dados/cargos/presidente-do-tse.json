@@ -1,0 +1,47 @@
+{
+  "id": "cargo:presidente-do-tse",
+  "tipo": "cargo",
+  "nome": "Presidente do Tribunal Superior Eleitoral",
+  "resumo": "Dirige o TSE e a Justiça Eleitoral. É um dos três ministros do STF que integram o TSE, eleito pelo próprio TSE.",
+  "detalhes": "Os Presidentes e Vice-Presidentes de outros tribunais não podem integrar tribunal eleitoral (LOMAN, art. 122).",
+  "orgao": "org:tse",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "O TSE elege o Presidente e o Vice-Presidente entre os ministros do STF que o compõem (CF, art. 119, parágrafo único; Código Eleitoral, art. 17).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "A lei não fixa o mandato do Presidente; ele fica limitado ao período do ministro no TSE (dois anos, no máximo dois biênios seguidos; CF, art. 121, § 2º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STF integrante do TSE",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 119, parágrafo único"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119, parágrafo único; art. 121, § 2º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

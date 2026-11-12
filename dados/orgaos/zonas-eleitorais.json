@@ -1,0 +1,60 @@
+{
+  "id": "org:zonas-eleitorais",
+  "tipo": "orgao",
+  "nome": "Zonas eleitorais",
+  "resumo": "Divisões do território de cada estado para o serviço eleitoral; em cada uma, um juiz de direito exerce a jurisdição eleitoral. Eram 2.641 em 2026.",
+  "detalhes": "O TRE divide o estado em zonas e o TSE aprova a divisão e a criação de novas zonas (Código Eleitoral, arts. 23, VIII, e 30, IX). Cada zona fica com um juiz de direito em exercício ou seu substituto legal; onde há mais de uma vara, o TRE designa a que faz o serviço eleitoral (art. 32; LOMAN, art. 11). O juiz eleitoral divide a zona em seções, onde funcionam as mesas receptoras de votos (Código Eleitoral, art. 35, X).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-eleitoral",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 118, III"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 12, IV; art. 32"
+        }
+      ]
+    },
+    "resumo": {
+      "fontes": [
+        {
+          "ref": "fonte:tse-noticia-eleitorado-2026",
+          "dispositivo": "'A votação ocorrerá em 517.206 seções eleitorais, organizadas em 2.641 zonas eleitorais.'"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 23, VIII; art. 30, IX; arts. 32 a 35"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 11"
+    },
+    {
+      "ref": "fonte:tse-noticia-eleitorado-2026",
+      "dispositivo": "número de zonas nas Eleições 2026"
+    }
+  ],
+  "vigencia": {
+    "de": "1965-07-15",
+    "ate": null,
+    "incerta": true,
+    "nota": "Previsto desde o Código Eleitoral de 1965; data de vigência não conferida nesta tarefa."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

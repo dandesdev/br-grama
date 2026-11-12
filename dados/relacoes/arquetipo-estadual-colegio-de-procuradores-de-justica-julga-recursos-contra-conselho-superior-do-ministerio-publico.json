@@ -5,7 +5,7 @@
   "relacao": "julga-recursos-contra",
   "de": "org:arquetipo-estadual-colegio-de-procuradores-de-justica",
   "para": "org:arquetipo-estadual-conselho-superior-do-ministerio-publico",
-  "condicao": "Julga recursos contra decisões de vitaliciamento, de disponibilidade e remoção por interesse público e de recusa do mais antigo na promoção por antiguidade, todas do Conselho Superior.",
+  "condicao": "Julga recursos contra decisões de vitaliciamento, de disponibilidade e remoção por interesse público, sobre reclamação contra o quadro geral de antiguidade e de recusa do mais antigo na promoção por antiguidade, todas do Conselho Superior.",
   "vigencia": {
     "de": "1993-02-15",
     "ate": null
@@ -13,13 +13,14 @@
   "fontes": [
     {
       "ref": "norma:lei-8625-1993",
-      "dispositivo": "art. 12, VIII, a, c, d e e; art. 15, VII, VIII e § 3º; art. 60, § 1º"
+      "dispositivo": "art. 12, VIII, a, c, d e e; art. 15, VII, VIII, IX e § 3º; art. 60, § 1º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; Lei 8.625/1993, arts. 12, VIII, 15 e 60, conferidos; condição completada com a alínea c (reclamação sobre o quadro de antiguidade, art. 15, IX), que já estava nas fontes"
   }
 }

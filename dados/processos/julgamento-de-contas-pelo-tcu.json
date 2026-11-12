@@ -242,7 +242,7 @@
         "org:segunda-camara-do-tcu"
       ],
       "acao": "O responsável ou o Ministério Público junto ao TCU pode recorrer da decisão",
-      "detalhes": "Reconsideração, com efeito suspensivo, em 15 dias, julgada por quem decidiu; embargos de declaração em 10 dias; revisão ao Plenário, sem efeito suspensivo, em até cinco anos, por erro de cálculo, documento falso ou documento novo.",
+      "detalhes": "Reconsideração, com efeito suspensivo, em 15 dias, julgada por quem decidiu; embargos de declaração em 10 dias; revisão ao Plenário, sem efeito suspensivo, em até cinco anos, por erro de cálculo, documento falso ou insuficiente ou documento novo.",
       "fontes": [
         {
           "ref": "norma:lei-8443-1992",
@@ -311,8 +311,9 @@
   "confianca": "oficial",
   "notas": "produz: o objeto mais próximo é obj:contas-de-gestao (as contas julgadas); a decisão em si (acórdão) não tem objeto próprio. A tomada de contas especial entra como etapa inicial alternativa, não como regime, porque muda só o começo do rito. Os prazos de defesa e de recolhimento ficam no Regimento Interno, não na lei.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-legislativo-tcu"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-legislativo-tcu",
+    "notas": "coletado em f2-legislativo-tcu; etapas conferidas contra a Lei 8.443/1992, arts. 1º, § 3º, 7º a 12, 14 a 35, 47, 52, 57, 58, 60, 61, 81, 93 e 107, e RITCU, arts. 15 a 17; corrigido o detalhes da etapa recursos: o art. 35, II, admite revisão por falsidade ou insuficiência de documentos (dizia só 'documento falso')"
   }
 }

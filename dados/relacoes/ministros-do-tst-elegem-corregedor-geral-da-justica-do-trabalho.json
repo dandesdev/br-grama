@@ -1,0 +1,29 @@
+{
+  "id": "rel:ministros-do-tst-elegem-corregedor-geral-da-justica-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Eleição do Corregedor-Geral da Justiça do Trabalho",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-tst",
+  "para": "cargo:corregedor-geral-da-justica-do-trabalho",
+  "condicao": "Pelo Pleno do TST, para mandato de dois anos, vedada a recondução.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "art. 3º, § 2º; art. 10"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 693, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-03-21",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

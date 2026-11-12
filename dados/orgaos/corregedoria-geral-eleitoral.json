@@ -1,0 +1,40 @@
+{
+  "id": "org:corregedoria-geral-eleitoral",
+  "tipo": "orgao",
+  "nome": "Corregedoria-Geral da Justiça Eleitoral",
+  "resumo": "Órgão do TSE que fiscaliza o serviço eleitoral em todo o país. É dirigida pelo Corregedor-Geral, ministro do STJ eleito pelo TSE.",
+  "detalhes": "As atribuições são fixadas pelo TSE. O Corregedor-Geral vai aos estados por determinação do TSE, a pedido dos TREs ou de partido, ou quando achar necessário, e seus provimentos vinculam os corregedores regionais (Código Eleitoral, art. 17, §§ 1º a 3º). O TSE organiza a Corregedoria e propõe ao Congresso a criação dos cargos (art. 23, II).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tse",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 23, II"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 17, §§ 1º a 3º; art. 23, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1965-07-15",
+    "ate": null,
+    "incerta": true,
+    "nota": "Previsto desde o Código Eleitoral de 1965; data de vigência não conferida nesta tarefa."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

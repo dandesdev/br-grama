@@ -1,0 +1,42 @@
+{
+  "id": "cargo:juiz-corregedor-auxiliar",
+  "tipo": "cargo",
+  "nome": "Juiz-Corregedor Auxiliar da Justiça Militar",
+  "resumo": "Juiz federal da Justiça Militar escolhido pelo STM para auxiliar o Ministro-Corregedor e substituí-lo. Também substitui ministros civis do STM.",
+  "detalhes": "Substitui o Ministro-Corregedor nas licenças, férias, faltas e impedimentos e, em caso de vaga, até a posse do novo titular, e exerce as atribuições que ele delegar (Lei 8.457/1992, art. 14-A). É o primeiro chamado para substituir ministro civil do STM (art. 62, III). Sucedeu o antigo cargo de Juiz-Auditor Corregedor (art. 103-A).",
+  "orgao": "org:corregedoria-da-justica-militar",
+  "provimento": "eleicao-por-tribunal",
+  "vagas": 1,
+  "provimento_nota": "Escolhido pelo STM, em escrutínio secreto, entre os juízes federais da Justiça Militar do primeiro terço da classe; toma posse perante o Ministro-Corregedor (Lei 8.457/1992, arts. 14, VII-D, e 39).",
+  "mandato": null,
+  "requisitos": [
+    {
+      "texto": "juiz federal da Justiça Militar situado no primeiro terço da classe",
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 39"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 1º, II-A; arts. 13, 14-A, 39, 62, III e V, e 103-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "notas": "A lei não fixa mandato para o cargo; não procuramos regra no regimento do STM.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

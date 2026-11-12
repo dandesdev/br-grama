@@ -1,0 +1,183 @@
+{
+  "id": "proc:registro-de-partido-politico",
+  "tipo": "processo",
+  "nome": "Criação e registro de partido político",
+  "resumo": "Fundadores registram o partido em cartório, colhem o apoio de eleitores em um terço dos estados e pedem ao TSE o registro do estatuto, que dá acesso às eleições e aos fundos.",
+  "detalhes": "A criação de partidos é livre, desde que tenham caráter nacional (CF, art. 17). O partido adquire personalidade jurídica no Registro Civil das Pessoas Jurídicas e depois registra o estatuto no TSE (Lei 9.096/1995, art. 7º). Mudanças no programa ou no estatuto seguem o mesmo caminho: primeiro o cartório, depois o TSE (art. 10).",
+  "forma": "linha",
+  "produz": "obj:estatuto-de-partido-politico",
+  "etapas": [
+    {
+      "id": "fundacao",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Pelo menos 101 fundadores, com domicílio eleitoral em um terço dos estados, aprovam programa e estatuto",
+      "detalhes": "O requerimento leva a ata da reunião de fundação, o programa e o estatuto publicados no Diário Oficial e a relação dos fundadores, com os dirigentes provisórios e o endereço da sede (Lei 9.096/1995, art. 8º).",
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 8º, caput, I a III e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "registro-civil",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "registro-civil",
+      "atores": [
+        "org:arquetipo-estadual-servicos-notariais-e-de-registro"
+      ],
+      "acao": "O cartório de Registro Civil das Pessoas Jurídicas da sede registra o partido, que ganha personalidade jurídica",
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 7º, caput; art. 8º, caput e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apoiamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "apoiamento",
+      "atores": [
+        "org:partidos-politicos",
+        "org:justica-eleitoral"
+      ],
+      "acao": "O partido colhe assinaturas de eleitores não filiados, conferidas pelos cartórios eleitorais, e constitui seus órgãos",
+      "detalhes": "O caráter nacional exige apoio de eleitores não filiados igual a 0,5% dos votos válidos da última eleição para a Câmara, distribuídos por um terço ou mais dos estados, com no mínimo 0,1% dos que votaram em cada um (Lei 9.096/1995, art. 7º, § 1º). As listas são organizadas por zona; o escrivão eleitoral atesta as assinaturas em 15 dias (art. 9º, §§ 1º e 2º).",
+      "prazo": {
+        "texto": "Apoio obtido num período de dois anos (Lei 9.096/1995, art. 7º, § 1º).",
+        "valor": 2,
+        "unidade": "anos"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 7º, § 1º; art. 8º, § 3º; art. 9º, §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pedido-ao-tse",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pedido-ao-tse",
+      "atores": [
+        "org:partidos-politicos"
+      ],
+      "acao": "Os dirigentes nacionais pedem ao TSE o registro do estatuto, com as certidões do apoiamento",
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 9º, caput, I a III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "analise",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "analise",
+      "atores": [
+        "org:tse",
+        "cargo:procurador-geral-eleitoral"
+      ],
+      "acao": "O TSE distribui o pedido a um relator, ouve a Procuradoria-Geral Eleitoral e manda corrigir falhas",
+      "prazo": {
+        "texto": "Distribuição em 48 horas; Procuradoria-Geral em dez dias; diligências em igual prazo (Lei 9.096/1995, art. 9º, § 3º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 9º, § 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:tse"
+      ],
+      "acao": "O TSE registra o estatuto do partido",
+      "detalhes": "Só o partido com estatuto registrado no TSE participa das eleições, recebe Fundo Partidário e tem acesso gratuito ao rádio e à TV, e só o registro garante a exclusividade do nome, da sigla e dos símbolos (Lei 9.096/1995, art. 7º, §§ 2º e 3º). Para disputar uma eleição, o registro precisa existir seis meses antes dela (Lei 9.504/1997, art. 4º).",
+      "prazo": {
+        "texto": "Trinta dias, sem diligências ou depois de atendidas (Lei 9.096/1995, art. 9º, § 4º).",
+        "valor": 30,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 9º, § 4º; art. 7º, §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "registrado",
+          "quando": "Estatuto registrado"
+        }
+      ]
+    },
+    {
+      "id": "registrado",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Partido registrado no TSE; passa a comunicar à Justiça Eleitoral a composição dos seus órgãos de direção",
+      "fontes": [
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 10, § 1º"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 4º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null,
+    "nota": "Lei 9.096/1995 (publicada em 20/9/1995, art. 62). Regra de apoiamento de eleitores não filiados em dois anos desde a Lei 13.165/2015; número mínimo de 101 fundadores na redação da Lei 13.877/2019."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "arts. 7º a 10"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, caput e § 2º"
+    }
+  ],
+  "notas": "O cartório de registro civil aparece pelo arquétipo estadual de serviços notariais e de registro, porque o registro é feito no cartório da sede do partido. O escrivão eleitoral (art. 9º, § 1º) não tem nó próprio; está representado por org:justica-eleitoral.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

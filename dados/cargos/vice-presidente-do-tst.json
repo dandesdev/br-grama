@@ -1,0 +1,52 @@
+{
+  "id": "cargo:vice-presidente-do-tst",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Tribunal Superior do Trabalho",
+  "resumo": "Substitui o Presidente do TST nas faltas e impedimentos e é vice-presidente do CSJT. Eleito pelos ministros do TST para dois anos.",
+  "detalhes": "No CSJT, também substitui o Corregedor-Geral da Justiça do Trabalho (Lei 14.824/2024, art. 9º, I).",
+  "orgao": "org:tst",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito como o Presidente (CLT, art. 693, § 1º; LOMAN, arts. 94 e 102).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Regra geral dos cargos de direção dos tribunais (LOMAN, arts. 94 e 102)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do TST",
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-5452-1943",
+          "dispositivo": "art. 693, § 1º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 693, § 1º; art. 708"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 94 e 102"
+    },
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "arts. 4º e 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

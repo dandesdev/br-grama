@@ -5,7 +5,7 @@
   "relacao": "representa-judicialmente",
   "de": "org:procuradoria-geral-da-uniao",
   "para": "ente:uniao",
-  "condicao": "Em todas as instâncias, nos termos da LC 73/1993; nas causas fiscais e na execução da dívida ativa tributária, a representação é da PGFN (art. 12).",
+  "condicao": "Nos tribunais superiores, nos demais tribunais e na primeira instância da Justiça Federal (art. 9º, §§ 1º a 3º); no STF, quem representa a União é o Advogado-Geral (art. 4º, III); nas causas fiscais e na execução da dívida ativa tributária, a representação é da PGFN (art. 12).",
   "vigencia": {
     "de": "1993-02-11",
     "ate": null
@@ -13,13 +13,14 @@
   "fontes": [
     {
       "ref": "norma:lc-73-1993",
-      "dispositivo": "art. 9º"
+      "dispositivo": "art. 4º, III; art. 9º; art. 12"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; LC 73/1993, arts. 4º, III, 9º e 12, conferidos; condição corrigida (no STF a representação é do Advogado-Geral)"
   }
 }

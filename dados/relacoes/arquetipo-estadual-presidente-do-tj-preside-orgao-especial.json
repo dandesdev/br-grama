@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-presidente-do-tj-preside-orgao-especial",
+  "tipo": "relacao",
+  "nome": "Presidência do órgão especial",
+  "relacao": "preside",
+  "de": "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica",
+  "para": "org:arquetipo-estadual-orgao-especial-do-tribunal-de-justica",
+  "condicao": "O Presidente, o Vice-Presidente e o Corregedor integram o órgão especial e exercem nele as mesmas funções que têm no tribunal.",
+  "fontes": [
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 99"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:tse-julga-cancelamento-de-registro-de-partido",
+  "tipo": "relacao",
+  "nome": "TSE cancela o registro de partido",
+  "relacao": "julga",
+  "de": "org:tse",
+  "para": "obj:estatuto-de-partido-politico",
+  "condicao": "Depois de processo com ampla defesa, aberto por denúncia de eleitor, de representante de partido ou do Procurador-Geral Eleitoral, cancela o registro do partido que recebe recursos estrangeiros, se subordina a entidade ou governo estrangeiro, mantém organização paramilitar ou cujo órgão nacional não presta contas. O registro também é cancelado quando o partido se dissolve, se funde ou é incorporado.",
+  "vigencia": {
+    "de": "1995-09-20",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 27; art. 28, caput, I a IV e §§ 1º, 2º e 6º"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 17, I a IV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

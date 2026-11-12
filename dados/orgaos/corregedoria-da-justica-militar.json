@@ -1,0 +1,41 @@
+{
+  "id": "org:corregedoria-da-justica-militar",
+  "tipo": "orgao",
+  "nome": "Corregedoria da Justiça Militar",
+  "resumo": "Órgão de fiscalização e orientação da Justiça Militar da União, exercido pelo Vice-Presidente do STM, com jurisdição em todo o país.",
+  "detalhes": "Compõe-se do Ministro-Corregedor, do Juiz-Corregedor Auxiliar e de uma secretaria. Faz correições gerais e especiais nas Auditorias e nos processos findos, propõe ao STM o plano bianual de correição, relata ao Plenário as reclamações contra magistrados de primeira instância e instrui os processos de promoção deles (Lei 8.457/1992, arts. 12 a 14).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-militar-da-uniao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 1º, II"
+        }
+      ],
+      "nota": "A lei a lista entre os órgãos da Justiça Militar, ao lado do STM; os servidores ficam no quadro do STM (art. 12, parágrafo único)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 1º, II; arts. 12 a 14"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

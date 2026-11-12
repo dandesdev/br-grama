@@ -1,0 +1,27 @@
+{
+  "id": "rel:stm-nomeia-juiz-federal-substituto-da-justica-militar",
+  "tipo": "relacao",
+  "nome": "Nomeação dos juízes da Justiça Militar",
+  "relacao": "nomeia",
+  "de": "org:stm",
+  "para": "cargo:juiz-federal-substituto-da-justica-militar",
+  "condicao": "Depois do concurso, na ordem de classificação; o STM também promove a juiz federal da Justiça Militar.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 6º, XIX; arts. 33 e 35"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

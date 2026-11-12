@@ -1,0 +1,36 @@
+{
+  "id": "obj:acao-de-investigacao-judicial-eleitoral",
+  "tipo": "objeto",
+  "nome": "Ação de investigação judicial eleitoral",
+  "sigla": "AIJE",
+  "resumo": "Ação para apurar abuso do poder econômico ou político, ou uso indevido dos meios de comunicação, a favor de candidato ou partido. Pode tornar inelegível e cassar registro ou diploma.",
+  "detalhes": "Partido, coligação, candidato ou o Ministério Público Eleitoral representa ao Corregedor-Geral Eleitoral, no TSE, ou ao Corregedor Regional, no TRE, conforme a eleição, ou ao juiz eleitoral nas eleições municipais; o corregedor instrui o caso e o tribunal julga (LC 64/1990, arts. 22 e 24). Se procedente, mesmo depois da proclamação dos eleitos, declara a inelegibilidade do responsável e de quem contribuiu, por oito anos a contar da eleição, e cassa o registro ou o diploma do candidato beneficiado (art. 22, XIV). Basta a gravidade das circunstâncias; não se exige que o fato pudesse mudar o resultado (art. 22, XVI). O mesmo rito vale para a captação ilícita de sufrágio, a captação ou o gasto ilícito de recursos de campanha e as condutas vedadas a agentes públicos (Lei 9.504/1997, arts. 30-A, 41-A e 73, § 12).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "arts. 19 a 24; art. 26-B"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "art. 30-A, caput e § 1º; art. 41-A, caput e § 3º; art. 73, § 12; art. 74"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 14, § 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Rito da LC 64/1990 (publicada em 21/5/1990). Inelegibilidade de oito anos, cassação mesmo depois da proclamação e dispensa da potencialidade desde a LC 135/2010."
+  },
+  "notas": "A LC 64/1990 fala em 'representação' e 'investigação judicial' (art. 22); o nome 'ação de investigação judicial eleitoral' e a sigla AIJE são de uso corrente, não estão na lei. O rito está em proc:acao-de-investigacao-judicial-eleitoral. Corregedores eleitorais: o Corregedor-Geral é ministro do TSE e o Corregedor Regional é juiz do TRE (Código Eleitoral, arts. 17 e 26, a cargo da tarefa f2-judiciario).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

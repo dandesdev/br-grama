@@ -60,7 +60,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 70 e 71 | coberto | cargo:procurador-da-republica |
 | arts. 72 a 80 | coberto | org:ministerio-publico-eleitoral, cargo:procurador-geral-eleitoral, cargo:procurador-regional-eleitoral (f0); rel:procurador-geral-eleitoral-exonera-procurador-regional-eleitoral |
 | art. 81 | coberto | org:mpf (unidades de lotação) |
-| art. 82 | fora | estrutura das unidades por regulamento (abaixo da lei, fase 4, D49); registrada em estrutura_continua de org:mpf |
+| art. 82 | coberto | estrutura das unidades por regulamento; citado em estrutura_continua de org:mpf (reclassificado na verificação) |
 | arts. 83 a 86 | coberto | org:mpt e órgãos com contido_em nele |
 | arts. 87 a 92 | coberto | cargo:procurador-geral-do-trabalho, proc:escolha-do-procurador-geral-do-trabalho e relações de nomeação e exoneração |
 | arts. 93 e 94 | coberto | org:colegio-de-procuradores-do-trabalho e relações (lista tríplice, listas para TST e TRTs) |
@@ -71,7 +71,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 110 e 111 | coberto | cargo:procurador-regional-do-trabalho |
 | arts. 112 e 113 | coberto | cargo:procurador-do-trabalho |
 | art. 114 | coberto | org:mpt (unidades de lotação) |
-| art. 115 | fora | estrutura das unidades por regulamento (fase 4, D49); em estrutura_continua de org:mpt |
+| art. 115 | coberto | estrutura das unidades por regulamento; citado em estrutura_continua de org:mpt (reclassificado na verificação) |
 | arts. 116 a 119 | coberto | org:mpm e órgãos com contido_em nele; cargos da carreira do MPM |
 | arts. 120 a 125 | coberto | cargo:procurador-geral-da-justica-militar, proc:escolha-do-procurador-geral-da-justica-militar e relações |
 | arts. 126 e 127 | coberto | org:colegio-de-procuradores-da-justica-militar |
@@ -82,7 +82,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 143 e 144 | coberto | cargo:procurador-da-justica-militar |
 | arts. 145 e 146 | coberto | cargo:promotor-da-justica-militar |
 | art. 147 | coberto | org:mpm (unidades de lotação) |
-| art. 148 | fora | estrutura das unidades por regulamento (fase 4, D49); em estrutura_continua de org:mpm |
+| art. 148 | coberto | estrutura das unidades por regulamento; citado em estrutura_continua de org:mpm (reclassificado na verificação) |
 | arts. 149 a 154 | coberto | org:mpdft, cargo:procurador-distrital-dos-direitos-do-cidadao e órgãos com contido_em no MPDFT |
 | arts. 155 a 160 | coberto | cargo:procurador-geral-de-justica-do-mpdft, proc:escolha-do-procurador-geral-de-justica-do-mpdft, rel:presidente-nomeia-procurador-geral-de-justica-do-mpdft, rel:senado-exonera-procurador-geral-de-justica-do-mpdft |
 | arts. 161 e 162 | coberto | org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft e relações (listas para TJDFT e STJ) |
@@ -93,7 +93,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | art. 178 | coberto | cargo:promotor-de-justica-do-mpdft |
 | art. 179 | coberto | cargo:promotor-de-justica-adjunto-do-mpdft |
 | art. 180 | coberto | org:mpdft (unidades de lotação) |
-| art. 181 | fora | estrutura da Procuradoria-Geral de Justiça por regulamento (fase 4, D49); em estrutura_continua de org:mpdft |
+| art. 181 | coberto | estrutura da Procuradoria-Geral de Justiça por regulamento; citado em estrutura_continua de org:mpdft (reclassificado na verificação) |
 | arts. 182 a 198 | coberto | cargos iniciais das quatro carreiras (provimento, concurso, posse, estágio probatório): cargo:procurador-da-republica, cargo:procurador-do-trabalho, cargo:promotor-da-justica-militar, cargo:promotor-de-justica-adjunto-do-mpdft |
 | arts. 199 e 200 | coberto | cargos de promoção das quatro carreiras (provimento_nota) |
 | arts. 201 e 202 | fora | impedimentos à promoção e lista de antiguidade (detalhe de processo); o caput do art. 202 foi vetado, valem os parágrafos |
@@ -148,7 +148,7 @@ Vetados por inteiro (fora da conta): arts. 206, 207, 219, 226, 266, 267, 285, 29
 | art. 75 | fora | afastamento da carreira (direito individual) |
 | art. 76 | fora | prazo de um ano para propor cargos (transição esgotada) |
 | arts. 77 a 79 | fora | teto remuneratório e regras sobre proventos e pensões (remuneração) |
-| art. 80 | fora | aplicação subsidiária da LC 75/1993 (regra de interpretação, sem órgão nem etapa) |
+| art. 80 | coberto | aplicação subsidiária da LC 75/1993; base das relações de controle externo da atividade policial pelo MP estadual (reclassificado na verificação) |
 | art. 81 | fora | prazo de 120 dias para os estados se adaptarem (transição esgotada) |
 | art. 82 | fora | data comemorativa |
 | art. 83 | coberto | norma:lei-8625-1993 (vigência) |
@@ -173,8 +173,9 @@ Vetados por inteiro (fora da conta): arts. 28 e 71. Conta: 82 artigos vigentes; 
 | art. 43 | coberto | cargo:defensor-publico-federal (garantias) |
 | arts. 44 a 48 | fora | prerrogativas, deveres, proibições e impedimentos (direitos e deveres individuais) |
 | art. 49 | coberto | org:corregedoria-geral-da-dpu, rel:corregedoria-geral-da-dpu-corrige-dpu (correições) |
-| arts. 50 e 51 | fora | infrações disciplinares e revisão do processo disciplinar (sanções; detalhe de processo) |
-| arts. 52 a 84, 86 a 96 e 87-A | fora | Título III, Defensoria do DF e dos Territórios organizada e mantida pela União: sem objeto atual, porque a EC 69/2012 passou a Defensoria do DF ao próprio DF e não há Territórios (regra esgotada); ver pontos incertos no relatório |
+| art. 50 | coberto | quem aplica as sanções na DPU; citado na relação de correição da DPU (reclassificado na verificação) |
+| art. 51 | fora | revisão do processo disciplinar (detalhe de processo) |
+| arts. 52 a 84, 86 a 96 e 87-A | fora | Título III, Defensoria do DF e dos Territórios organizada e mantida pela União: superado sem revogação expressa (D51): a EC 69/2012 passou a Defensoria do DF ao próprio DF e não há Territórios desde 1988 (ADCT, arts. 14 e 15) |
 | arts. 97, 97-A, 97-B e 98 | coberto | org:arquetipo-estadual-defensoria-publica (normas gerais, autonomia, orçamento, órgãos) |
 | arts. 99 e 100 | coberto | cargo:arquetipo-estadual-defensor-publico-geral (f0), cargo:arquetipo-estadual-subdefensor-publico-geral, proc:escolha-do-defensor-publico-geral-do-estado |
 | arts. 101 e 102 | coberto | org:arquetipo-estadual-conselho-superior-da-defensoria-publica e relações |

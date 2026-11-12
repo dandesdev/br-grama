@@ -1,0 +1,56 @@
+{
+  "id": "cargo:presidente-do-tst",
+  "tipo": "cargo",
+  "nome": "Presidente do Tribunal Superior do Trabalho",
+  "resumo": "Dirige o TST e preside o Conselho Superior da Justiça do Trabalho. É eleito pelos ministros do TST para dois anos.",
+  "detalhes": "Preside as sessões, superintende os serviços do Tribunal, expede instruções para o funcionamento dos órgãos da Justiça do Trabalho e dá posse aos ministros (CLT, arts. 646 e 707). Preside também o CSJT, com voto de desempate (Lei 14.824/2024, art. 4º).",
+  "orgao": "org:tst",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelos ministros togados do TST (CLT, art. 693, § 1º; CF, art. 96, I, a), pelas regras gerais da LOMAN (arts. 94 e 102).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Regra geral dos cargos de direção dos tribunais (LOMAN, arts. 94 e 102)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do TST",
+      "fontes": [
+        {
+          "ref": "norma:decreto-lei-5452-1943",
+          "dispositivo": "art. 693, § 1º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 646; art. 693, § 1º; art. 707"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 94 e 102"
+    },
+    {
+      "ref": "norma:lei-14824-2024",
+      "dispositivo": "art. 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

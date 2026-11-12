@@ -5,7 +5,7 @@
   "relacao": "indica",
   "de": "org:colegio-de-procuradores-do-trabalho",
   "para": "cargo:ministro-do-tst",
-  "condicao": "Nas vagas do TST destinadas ao MPT, forma lista sêxtupla entre membros com mais de dez anos de carreira e idade entre 35 e 65 anos; o PGR a encaminha ao tribunal.",
+  "condicao": "Nas vagas do TST destinadas ao MPT, forma lista sêxtupla entre membros com mais de dez anos de carreira e idade entre 35 e 65 anos; o PGR a encaminha ao tribunal. A LC 75/1993 não foi alterada depois da EC 122/2022, que elevou para menos de 70 anos a idade máxima de nomeação no tribunal (ver aviso).",
   "vigencia": {
     "de": "1993-05-21",
     "ate": null
@@ -13,7 +13,7 @@
   "fontes": [
     {
       "ref": "norma:cf-1988",
-      "dispositivo": "art. 94; art. 111-A, I"
+      "dispositivo": "art. 94; art. 111-A, caput (redação da EC 122/2022), I"
     },
     {
       "ref": "norma:lc-75-1993",
@@ -22,8 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; LC 75/1993 e CF conferidas; condição completada com a EC 122/2022 (idade máxima de 70 anos na CF) e aviso:listas-sextuplas-mpu-idade-maxima-ec-122"
   }
 }

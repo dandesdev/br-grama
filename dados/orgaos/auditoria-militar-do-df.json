@@ -1,0 +1,48 @@
+{
+  "id": "org:auditoria-militar-do-df",
+  "tipo": "orgao",
+  "nome": "Auditoria Militar do Distrito Federal",
+  "resumo": "Primeira instância da Justiça Militar do DF: julga crimes militares de policiais e bombeiros militares do DF, com recurso ao TJDFT.",
+  "detalhes": "É formada pelo Juiz-Auditor, cargo ocupado por juiz de direito da circunscrição de Brasília, e pelos Conselhos de Justiça: o Especial julga oficiais e o Permanente julga praças; cada um tem quatro juízes militares sorteados e o Juiz-Auditor (Lei 11.697/2008, arts. 36 a 41). Em segundo grau, a Justiça Militar do DF é exercida pelo próprio TJDFT (art. 36, I).",
+  "tipo_orgao": "judiciario-tribunal",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-estadual",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 125, § 3º"
+        },
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 2º, VII"
+        }
+      ],
+      "nota": "Justiça Militar estadual do DF, como as auditorias militares dos estados."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 2º, VII; arts. 36 a 41"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 125, §§ 3º a 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

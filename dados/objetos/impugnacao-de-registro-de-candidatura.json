@@ -1,0 +1,35 @@
+{
+  "id": "obj:impugnacao-de-registro-de-candidatura",
+  "tipo": "objeto",
+  "nome": "Impugnação de registro de candidatura",
+  "resumo": "Pedido feito à Justiça Eleitoral, em até cinco dias da publicação do pedido de registro, para que um candidato seja barrado por inelegibilidade ou falta de condição de elegibilidade.",
+  "detalhes": "Podem impugnar qualquer candidato, partido, coligação ou o Ministério Público, em petição fundamentada, com até seis testemunhas; a impugnação de um não impede a do Ministério Público (LC 64/1990, art. 3º). O membro do Ministério Público que, nos quatro anos anteriores, disputou eleição, integrou diretório de partido ou exerceu atividade político-partidária não pode impugnar (art. 3º, § 2º). A impugnação é julgada junto com o pedido de registro, pelo TSE, pelos TREs ou pelos juízes eleitorais, conforme o cargo (art. 2º).",
+  "tipo_objeto": "acao-judicial",
+  "esfera": "nacional",
+  "relativo_a": [
+    "obj:registro-de-candidatura"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 2º; art. 3º, caput e §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 8º",
+      "nota": "a federação tem as mesmas faculdades do partido na escolha e no registro de candidatos"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Data da publicação da LC 64/1990 (art. 27). O Código Eleitoral já previa impugnação do registro, com prazo de dois dias (art. 97, §§ 2º a 4º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "O nome segue o verbo da lei ('impugná-lo em petição fundamentada', LC 64/1990, art. 3º). A sigla AIRC é de uso corrente, mas não está na lei, por isso não a usamos. O rito está em proc:registro-de-candidatura."
+}

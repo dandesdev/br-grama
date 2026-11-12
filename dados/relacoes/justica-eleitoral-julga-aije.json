@@ -1,0 +1,27 @@
+{
+  "id": "rel:justica-eleitoral-julga-aije",
+  "tipo": "relacao",
+  "nome": "Justiça Eleitoral julga a investigação judicial eleitoral",
+  "relacao": "julga",
+  "de": "org:justica-eleitoral",
+  "para": "obj:acao-de-investigacao-judicial-eleitoral",
+  "condicao": "O corregedor eleitoral instrui e o tribunal (TSE ou TRE) julga; nas eleições municipais, o juiz eleitoral instrui e julga. Se procedente, declara inelegibilidade por oito anos e cassa o registro ou o diploma do beneficiado.",
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Desde a LC 64/1990 (publicação, art. 27)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 22, XII e XIV; art. 24"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "Uma relação só, a partir do ramo, como em rel:justica-eleitoral-julga-aime; a condição diz quem julga."
+}

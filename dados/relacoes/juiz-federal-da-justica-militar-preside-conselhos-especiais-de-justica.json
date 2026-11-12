@@ -1,0 +1,27 @@
+{
+  "id": "rel:juiz-federal-da-justica-militar-preside-conselhos-especiais-de-justica",
+  "tipo": "relacao",
+  "nome": "Presidência dos Conselhos Especiais de Justiça",
+  "relacao": "preside",
+  "de": "cargo:juiz-federal-da-justica-militar",
+  "para": "org:conselhos-especiais-de-justica",
+  "condicao": "O juiz federal da Justiça Militar ou o juiz federal substituto preside o conselho, relata os processos e redige as sentenças.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 16; art. 30, I-A e VII"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

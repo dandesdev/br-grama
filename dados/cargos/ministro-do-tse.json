@@ -72,6 +72,10 @@
     {
       "ref": "norma:ristj",
       "dispositivo": "art. 10, III"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 14 a 16"
     }
   ],
   "vigencia": {
@@ -80,9 +84,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 119 e 121, §§ 1º e 2º; RISTF art. 7º, II, e 143; RISTJ art. 10, III conferidos; vocabulário: advogados passaram de nomeacao-livre para nomeacao-a-partir-de-lista; resolvida a eleição no STJ (Plenário, RISTJ art. 10, III), e provimento_casos deixou de ser inferido; provimento eleicao-pelos-pares → eleicao-por-tribunal (termo novo) pelo coordenador em 2026-10-23"
-  }
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: acrescentados os arts. 14 a 16 do Código Eleitoral às fontes e nota sobre o TFR"
+  },
+  "notas": "O Código Eleitoral (art. 16, I, b) ainda fala em ministros do Tribunal Federal de Recursos; desde 1988 essas vagas são do STJ (CF, art. 119, I, b)."
 }

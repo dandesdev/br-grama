@@ -40,10 +40,11 @@
     "nota": "Publicação do Ato Conjunto nº 1/2019 no DOU."
   },
   "confianca": "oficial",
-  "notas": "Os dados abertos do Senado a listavam como \"aguardando instalação\" em consultas anteriores (pista de busca); a situação em 2026-10-01 não foi conferida.",
+  "notas": "Os dados abertos do Senado a listavam como \"aguardando instalação\" em consultas anteriores (pista de busca). A cópia de 28/10/2026 (fonte:senado-api-comissoes-mistas) registra instalação em 14/9/2021 e de novo em 28/6/2023 (designação em 2/6/2023), com 12 titulares de cada Casa; não há evento de 2025 ou 2026.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-legislativo-tcu"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-legislativo-tcu",
+    "notas": "coletado em f2-legislativo-tcu; Ato Conjunto nº 1/2019, arts. 1º, 2º, 5º e 7º, e RCCN, art. 10-A, conferidos; 12 titulares por Casa e instalações de 2021 e 2023 conferidas nos dados abertos (nota atualizada)"
   }
 }

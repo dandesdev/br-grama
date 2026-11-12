@@ -32,7 +32,65 @@
       ],
       "seguintes": [
         {
+          "para": "encerramento-do-alistamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "encerramento-do-alistamento",
+      "tipo_etapa": "decurso-de-prazo",
+      "atores": [],
+      "acao": "Fecha o cadastro: nenhum pedido de inscrição ou transferência de eleitor é recebido nos 150 dias antes da eleição",
+      "prazo": {
+        "texto": "150 dias antes da eleição (Lei 9.504/1997, art. 91).",
+        "valor": 150,
+        "unidade": "dias",
+        "conta_de": "data da eleição"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 91, caput"
+        }
+      ],
+      "seguintes": [
+        {
           "para": "convencoes",
+          "quando": null
+        },
+        {
+          "para": "nomeacao-das-mesas",
+          "quando": "Em paralelo, 60 dias antes da eleição"
+        }
+      ]
+    },
+    {
+      "id": "nomeacao-das-mesas",
+      "atores": [
+        "cargo:juiz-eleitoral"
+      ],
+      "acao": "O juiz eleitoral nomeia os membros das mesas receptoras e designa os locais de votação",
+      "detalhes": "Cada seção tem uma mesa de seis eleitores nomeados em audiência pública; partidos podem reclamar da nomeação em cinco dias (Código Eleitoral, arts. 119, 120 e 135; Lei 9.504/1997, art. 63). Ver org:mesas-receptoras-de-votos.",
+      "prazo": {
+        "texto": "60 dias antes da eleição (Código Eleitoral, arts. 120 e 135).",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "data da eleição"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 119, 120 e 135, caput"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 63"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "primeiro-turno",
           "quando": null
         }
       ]
@@ -50,6 +108,14 @@
         {
           "ref": "norma:lei-9504-1997",
           "dispositivo": "arts. 6º e 8º"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 6º-A, parágrafo único"
+        },
+        {
+          "ref": "norma:lei-9096-1995",
+          "dispositivo": "art. 11-A, § 3º, III"
         }
       ],
       "seguintes": [
@@ -57,7 +123,8 @@
           "para": "pedido-de-registro",
           "quando": null
         }
-      ]
+      ],
+      "detalhes": "Federações de partidos só podem ser formadas até o fim do prazo das convenções (Lei 9.504/1997, art. 6º-A, parágrafo único; Lei 9.096/1995, art. 11-A, § 3º, III)."
     },
     {
       "id": "pedido-de-registro",
@@ -76,12 +143,40 @@
       ],
       "seguintes": [
         {
-          "para": "julgamento-dos-registros",
+          "para": "impugnacao",
           "quando": null
         },
         {
           "para": "propaganda",
           "quando": "Em paralelo, a campanha começa em 16 de agosto"
+        }
+      ]
+    },
+    {
+      "id": "impugnacao",
+      "atores": [
+        "org:partidos-politicos",
+        "org:ministerio-publico-eleitoral"
+      ],
+      "acao": "Candidatos, partidos, federações, coligações e Ministério Público podem impugnar os pedidos de registro",
+      "detalhes": "A impugnação, em petição fundamentada, aponta inelegibilidade ou falta de condição de elegibilidade e abre o rito da LC 64/1990 (contestação em sete dias, provas e alegações). Ver obj:impugnacao-de-registro-de-candidatura.",
+      "prazo": {
+        "texto": "Cinco dias, contados da publicação do pedido de registro (LC 64/1990, art. 3º).",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "publicação do pedido de registro"
+      },
+      "remete_a": "proc:registro-de-candidatura",
+      "fontes": [
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "art. 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-dos-registros",
+          "quando": null
         }
       ]
     },
@@ -106,6 +201,10 @@
         {
           "ref": "norma:lei-9504-1997",
           "dispositivo": "art. 16, § 1º"
+        },
+        {
+          "ref": "norma:lc-64-1990",
+          "dispositivo": "arts. 2º e 4º a 14"
         }
       ],
       "seguintes": [
@@ -113,7 +212,8 @@
           "para": "primeiro-turno",
           "quando": "Registro deferido"
         }
-      ]
+      ],
+      "remete_a": "proc:registro-de-candidatura"
     },
     {
       "id": "propaganda",
@@ -140,7 +240,8 @@
     {
       "id": "primeiro-turno",
       "atores": [
-        "org:arquetipo-municipal-eleitorado"
+        "org:arquetipo-municipal-eleitorado",
+        "org:mesas-receptoras-de-votos"
       ],
       "acao": "Eleitores de todos os municípios votam para prefeito e vereador no mesmo dia",
       "prazo": {
@@ -154,6 +255,14 @@
         {
           "ref": "norma:lei-9504-1997",
           "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 119"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 59, caput"
         }
       ],
       "seguintes": [
@@ -161,7 +270,8 @@
           "para": "apuracao",
           "quando": null
         }
-      ]
+      ],
+      "detalhes": "Os votos são recebidos pelas mesas receptoras, uma por seção, em urna eletrônica (Código Eleitoral, art. 119; Lei 9.504/1997, art. 59)."
     },
     {
       "id": "apuracao",
@@ -183,6 +293,14 @@
         {
           "ref": "norma:lei-4737-1965",
           "dispositivo": "art. 40, I; art. 84; arts. 106 a 109"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 59, caput"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 158"
         }
       ],
       "seguintes": [
@@ -191,7 +309,7 @@
           "quando": "Município com mais de 200 mil eleitores e nenhum candidato a prefeito com maioria absoluta"
         },
         {
-          "para": "diplomacao",
+          "para": "prestacao-de-contas",
           "quando": "Demais casos"
         }
       ]
@@ -199,7 +317,8 @@
     {
       "id": "segundo-turno",
       "atores": [
-        "org:arquetipo-municipal-eleitorado"
+        "org:arquetipo-municipal-eleitorado",
+        "org:mesas-receptoras-de-votos"
       ],
       "acao": "Nova votação entre os dois candidatos a prefeito mais votados",
       "prazo": {
@@ -213,6 +332,42 @@
         {
           "ref": "norma:lei-9504-1997",
           "dispositivo": "art. 2º, § 1º; art. 3º, § 2º"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 119"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 59, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "prestacao-de-contas",
+          "quando": null
+        }
+      ],
+      "detalhes": "Os votos são recebidos pelas mesas receptoras, uma por seção, em urna eletrônica (Código Eleitoral, art. 119; Lei 9.504/1997, art. 59)."
+    },
+    {
+      "id": "prestacao-de-contas",
+      "atores": [
+        "org:partidos-politicos",
+        "org:justica-eleitoral"
+      ],
+      "acao": "Candidatos e partidos prestam contas da campanha; a Justiça Eleitoral julga as contas dos eleitos antes da diplomação",
+      "detalhes": "Enquanto as contas não forem apresentadas, o eleito não é diplomado; a decisão sobre as contas dos eleitos é publicada até três dias antes da diplomação (Lei 9.504/1997, arts. 29, § 2º, e 30, § 1º). Ver obj:contas-de-campanha-eleitoral.",
+      "prazo": {
+        "texto": "Até o 30º dia depois da eleição; havendo segundo turno, até o 20º dia depois dele, para os dois turnos (Lei 9.504/1997, art. 29, III e IV).",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "data da eleição"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 29, III, IV e § 2º; art. 30, § 1º"
         }
       ],
       "seguintes": [
@@ -228,11 +383,19 @@
         "org:juntas-eleitorais"
       ],
       "acao": "A junta eleitoral expede os diplomas do prefeito, do vice, dos vereadores e dos suplentes",
-      "detalhes": "Onde houver mais de uma junta no município, diploma a presidida pelo juiz eleitoral mais antigo.",
+      "detalhes": "Onde houver mais de uma junta no município, diploma a presidida pelo juiz eleitoral mais antigo. A diplomação também marca o fim do prazo das representações por captação ilícita de sufrágio e condutas vedadas, e abre os 15 dias da representação por arrecadação ou gasto ilícito (Lei 9.504/1997, arts. 30-A, 41-A, § 3º, e 73, § 12). O recurso contra a expedição de diploma cabe em três dias depois do último dia da diplomação (Código Eleitoral, art. 262, § 3º).",
       "fontes": [
         {
           "ref": "norma:lei-4737-1965",
           "dispositivo": "art. 40, IV e parágrafo único; art. 215"
+        },
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 262"
+        },
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "arts. 30-A, 41-A, § 3º, e 73, § 12"
         }
       ],
       "seguintes": [
@@ -290,10 +453,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-residuais",
-    "notas": "etapa posse completada em f0-residuais e conferida em verificacao-f0-residuais: CF, art. 29, III (cf.htm local); LOM-SP, arts. 14, IV, 15 e 58, e LOM-Rio, arts. 52 (redação da Emenda 17/2005) e 101, nas cópias da Câmara de cada cidade (pesquisa/brutos/leis-organicas/2026-10-27/); o resto do processo estava verificado em 2026-10-23 por verificacao-f0-eleicoes: coletado em f0-eleicoes; CF, arts. 14, §§ 12 e 13, e 29, I a III; Lei 9.504/1997, arts. 1º, 3º, 4º, 8º, 9º, 11, 16, 36 e 47; Código Eleitoral, arts. 35, XII, 40, 84, 89, III, e 215, conferidos; sem datas concretas (calendário de 2028 ainda não existe)"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes",
+    "notas": "f2-eleicoes: etapas novas encerramento-do-alistamento (Lei 9.504/1997, art. 91), nomeacao-das-mesas (Código Eleitoral, arts. 119, 120 e 135; Lei 9.504, art. 63), impugnacao (LC 64/1990, art. 3º, remete a proc:registro-de-candidatura) e prestacao-de-contas (Lei 9.504, arts. 29 e 30); julgamento-dos-registros ganhou remete_a e LC 64, arts. 2º e 4º a 14; convencoes, primeiro-turno, segundo-turno, apuracao e diplomacao ganharam frases e fontes (federações até as convenções; mesas e urna eletrônica; Código Eleitoral, art. 158; RCED e prazos das representações). Antes: etapa posse completada em f0-residuais e conferida em verificacao-f0-residuais: CF, art. 29, III (cf.htm local); LOM-SP, arts. 14, IV, 15 e 58, e LOM-Rio, arts. 52 (redação da Emenda 17/2005) e 101, nas cópias da Câmara de cada cidade (pesquisa/brutos/leis-organicas/2026-10-27/); o resto do processo estava verificado em 2026-10-23 por verificacao-f0-eleicoes: coletado em f0-eleicoes; CF, arts. 14, §§ 12 e 13, e 29, I a III; Lei 9.504/1997, arts. 1º, 3º, 4º, 8º, 9º, 11, 16, 36 e 47; Código Eleitoral, arts. 35, XII, 40, 84, 89, III, e 215, conferidos; sem datas concretas (calendário de 2028 ainda não existe)"
   },
   "notas": "Os prazos são os da lei; o calendário de 2028 ainda não existe. Na data de referência não havia eleição municipal em curso (a última foi em 2024)."
 }

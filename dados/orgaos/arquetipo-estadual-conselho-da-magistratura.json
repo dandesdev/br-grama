@@ -1,0 +1,40 @@
+{
+  "id": "org:arquetipo-estadual-conselho-da-magistratura",
+  "tipo": "orgao",
+  "nome": "Conselho da Magistratura do Tribunal de Justiça",
+  "resumo": "Colegiado do TJ com função disciplinar sobre os juízes. O Presidente, o Vice-Presidente e o Corregedor são membros natos.",
+  "detalhes": "A composição, a competência e o funcionamento ficam no regimento interno de cada tribunal; o órgão superior do Conselho é o Tribunal Pleno ou o órgão especial. Os demais membros, tanto quanto possível, não devem ser do órgão especial (LOMAN, art. 104). Pode determinar correições ao Corregedor (art. 105).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-tribunal-de-justica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 104"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 104 e 105"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

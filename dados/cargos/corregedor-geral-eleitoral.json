@@ -1,0 +1,47 @@
+{
+  "id": "cargo:corregedor-geral-eleitoral",
+  "tipo": "cargo",
+  "nome": "Corregedor-Geral da Justiça Eleitoral",
+  "resumo": "Ministro do STJ no TSE que dirige a Corregedoria-Geral da Justiça Eleitoral. É eleito pelo próprio TSE.",
+  "detalhes": "Pode ser acompanhado nas diligências pelo Procurador-Geral Eleitoral (Código Eleitoral, art. 24, IX).",
+  "orgao": "org:corregedoria-geral-eleitoral",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "O TSE elege o Corregedor Eleitoral entre os ministros do STJ que o integram (CF, art. 119, parágrafo único). O Código Eleitoral, anterior a 1988, dizia \"um dos seus membros\" (art. 17).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Limitado ao período do ministro no TSE (CF, art. 121, § 2º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STJ integrante do TSE",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 119, parágrafo único"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 17; art. 24, IX"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cargo:membro-de-mesa-receptora",
+  "tipo": "cargo",
+  "nome": "Mesário (membro de mesa receptora)",
+  "resumo": "Eleitor convocado pelo juiz eleitoral para trabalhar na seção no dia da eleição, como presidente, mesário, secretário ou suplente. O serviço é obrigatório.",
+  "orgao": "org:mesas-receptoras-de-votos",
+  "provimento": "designacao",
+  "vagas": null,
+  "vagas_nota": "Seis por mesa: presidente, primeiro e segundo mesários, dois secretários e um suplente (Código Eleitoral, art. 120). Não somamos para o país.",
+  "provimento_nota": "O juiz eleitoral nomeia os membros 60 dias antes da eleição, em audiência pública, de preferência entre os eleitores da própria seção, e publica as nomeações; quem tiver motivo justo para recusar alega em cinco dias (Código Eleitoral, art. 120, §§ 2º a 4º). Partidos podem reclamar da nomeação (Lei 9.504/1997, art. 63). Quem falta sem justa causa paga multa; se for servidor público, pode ser suspenso (Código Eleitoral, art. 124). Os convocados têm direito a folga no trabalho pelo dobro dos dias de convocação (Lei 9.504/1997, art. 98).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Não há mandato: a nomeação vale para a eleição."
+  },
+  "requisitos": [
+    {
+      "texto": "eleitor maior de 18 anos",
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 63, § 2º"
+        }
+      ]
+    },
+    {
+      "texto": "não pode ser candidato nem parente ou cônjuge de candidato até o 2º grau, membro de diretório de partido com função executiva, autoridade ou agente policial, ocupante de cargo de confiança no Executivo, nem servidor da Justiça Eleitoral",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 120, § 1º"
+        }
+      ]
+    },
+    {
+      "texto": "na mesma mesa não podem servir parentes em qualquer grau nem servidores da mesma repartição pública ou empresa privada",
+      "fontes": [
+        {
+          "ref": "norma:lei-9504-1997",
+          "dispositivo": "art. 64"
+        }
+      ]
+    }
+  ],
+  "detalhes": "Os mesários substituem o presidente quando ele falta e assinam a ata; os secretários distribuem as senhas e lavram a ata (Código Eleitoral, arts. 123 e 128). O juiz eleitoral instrui os mesários em reuniões antes da eleição (art. 122).",
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 120 a 124, 127 e 128"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "arts. 63, 64 e 98"
+    }
+  ],
+  "vigencia": {
+    "de": "1965-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do Código Eleitoral, como em norma:lei-4737-1965."
+  },
+  "notas": "Cargo agregado (D11). Provimento 'designacao' pela parte da definição que cobre auxiliares da Justiça designados sem ser de carreira; a lei diz 'nomeados pelo juiz eleitoral'. Mesário é também o nome legal de dois dos seis membros (primeiro e segundo mesários); o uso comum estende o nome a todos.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

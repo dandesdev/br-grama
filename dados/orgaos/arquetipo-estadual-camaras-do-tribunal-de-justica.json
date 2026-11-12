@@ -1,0 +1,40 @@
+{
+  "id": "org:arquetipo-estadual-camaras-do-tribunal-de-justica",
+  "tipo": "orgao",
+  "nome": "Câmaras, turmas e seções do Tribunal de Justiça",
+  "resumo": "Órgãos fracionários do TJ, em geral especializados por matéria, que julgam a maior parte dos recursos. Cada um funciona como tribunal distinto.",
+  "detalhes": "A lei de organização judiciária e o regimento fixam a composição e a competência; as seções reúnem as câmaras ou turmas da mesma especialidade e julgam embargos, conflitos e a uniformização de jurisprudência entre elas. Nas câmaras e turmas votam três membros. O Presidente e o Corregedor não as integram (LOMAN, arts. 101 e 103).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-tribunal-de-justica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 101"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 21, III, 101 e 103"
+    }
+  ],
+  "vigencia": {
+    "de": "1979-05-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

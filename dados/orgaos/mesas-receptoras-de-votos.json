@@ -1,0 +1,54 @@
+{
+  "id": "org:mesas-receptoras-de-votos",
+  "tipo": "orgao",
+  "nome": "Mesas receptoras de votos",
+  "resumo": "Uma mesa por seção eleitoral, formada por eleitores nomeados pelo juiz eleitoral, que recebe os votos no dia da eleição.",
+  "detalhes": "Cada mesa tem um presidente, dois mesários, dois secretários e um suplente, nomeados pelo juiz eleitoral 60 dias antes da eleição, em audiência pública (Código Eleitoral, arts. 119 e 120). O presidente recebe os votos, decide as dúvidas, mantém a ordem e envia o material à junta eleitoral (art. 127). Qualquer partido pode reclamar da nomeação ao juiz em cinco dias, com recurso ao TRE (Lei 9.504/1997, art. 63). Votação feita perante mesa não nomeada pelo juiz é nula (Código Eleitoral, art. 220, I).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "contido_em": "org:justica-eleitoral",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "arts. 119 e 120, caput"
+        }
+      ],
+      "nota": "As mesas não estão na lista de órgãos da Justiça Eleitoral (Código Eleitoral, art. 12; CF, art. 118); ficam no ramo porque são compostas e nomeadas pelo juiz eleitoral."
+    },
+    "detalhes": {
+      "fontes": [
+        {
+          "ref": "fonte:tse-noticia-eleitorado-2026",
+          "dispositivo": "parágrafos 1 e 3"
+        }
+      ],
+      "nota": "Em 2026 havia 517.206 seções eleitorais, segundo o TSE; como cada seção tem uma mesa (art. 119), esse é também o número de mesas no território nacional (conta nossa, sem contar as mesas no exterior)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 119 a 130; art. 220, I"
+    },
+    {
+      "ref": "norma:lei-9504-1997",
+      "dispositivo": "arts. 63, 64 e 98"
+    }
+  ],
+  "vigencia": {
+    "de": "1965-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do Código Eleitoral, como em norma:lei-4737-1965."
+  },
+  "notas": "Conjunto (D51): representa todas as mesas receptoras do país. As mesas no exterior são organizadas pelo TRE do Distrito Federal (Código Eleitoral, art. 227).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

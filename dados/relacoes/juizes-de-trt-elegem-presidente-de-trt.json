@@ -1,0 +1,33 @@
+{
+  "id": "rel:juizes-de-trt-elegem-presidente-de-trt",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente do TRT",
+  "relacao": "elege",
+  "de": "cargo:juiz-de-trt",
+  "para": "cargo:presidente-de-trt",
+  "condicao": "Em cada TRT, pela maioria dos membros, em votação secreta, entre os mais antigos; também elegem o Vice-Presidente.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:decreto-lei-5452-1943",
+      "dispositivo": "art. 670, § 7º"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "arts. 94 e 102"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

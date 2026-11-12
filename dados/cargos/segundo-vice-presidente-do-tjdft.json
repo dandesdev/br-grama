@@ -1,0 +1,45 @@
+{
+  "id": "cargo:segundo-vice-presidente-do-tjdft",
+  "tipo": "cargo",
+  "nome": "Segundo Vice-Presidente do TJDFT",
+  "resumo": "Substitui o Presidente do TJDFT nas faltas e impedimentos (depois do Primeiro Vice-Presidente) e exerce atribuições do regimento. Eleito pelos pares.",
+  "detalhes": "Pratica os atos que o regimento interno lhe atribuir (Lei 11.697/2008, art. 11). Só é eleito quando o Tribunal tiver a composição completa fixada em lei (Lei 11.697/2008, art. 5º, § 2º).",
+  "orgao": "org:tj-df",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelos desembargadores, na forma da LOMAN (Lei 11.697/2008, art. 5º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Lei 11.697/2008, art. 5º. Se o cargo vagar a menos de seis meses do fim, não há nova eleição: o Presidente é substituído pelos vice-presidentes e os demais pelo desembargador mais antigo (art. 5º, § 1º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser desembargador do TJDFT",
+      "fontes": [
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "art. 5º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "arts. 5º e 11"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

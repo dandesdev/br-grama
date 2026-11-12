@@ -1,0 +1,27 @@
+{
+  "id": "rel:corregedoria-da-justica-militar-corrige-juiz-federal-da-justica-militar",
+  "tipo": "relacao",
+  "nome": "Correição nas Auditorias",
+  "relacao": "corrige",
+  "de": "org:corregedoria-da-justica-militar",
+  "para": "cargo:juiz-federal-da-justica-militar",
+  "condicao": "Correições gerais e especiais nas Auditorias; reclamações e representações contra magistrados de primeira instância são instruídas e relatadas ao Plenário do STM, que aplica as sanções.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 6º, XVII; art. 14, I e VII-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

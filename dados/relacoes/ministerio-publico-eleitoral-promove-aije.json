@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministerio-publico-eleitoral-promove-aije",
+  "tipo": "relacao",
+  "nome": "Ministério Público Eleitoral pode pedir investigação judicial eleitoral",
+  "relacao": "promove",
+  "de": "org:ministerio-publico-eleitoral",
+  "para": "obj:acao-de-investigacao-judicial-eleitoral",
+  "condicao": "Representa ao corregedor eleitoral ou ao juiz eleitoral e opina antes do julgamento: o Procurador-Geral ou Regional Eleitoral nos tribunais, o promotor eleitoral da zona nas eleições municipais.",
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Desde a LC 64/1990 (publicação, art. 27)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 22, caput e XIII; art. 24"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  }
+}

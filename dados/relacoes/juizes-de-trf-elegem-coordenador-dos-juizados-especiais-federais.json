@@ -1,0 +1,26 @@
+{
+  "id": "rel:juizes-de-trf-elegem-coordenador-dos-juizados-especiais-federais",
+  "tipo": "relacao",
+  "nome": "Escolha do coordenador dos juizados especiais federais",
+  "relacao": "elege",
+  "de": "cargo:juiz-de-trf",
+  "para": "cargo:coordenador-dos-juizados-especiais-federais",
+  "condicao": "Em cada TRF, os juízes escolhem um dos seus para mandato de dois anos.",
+  "fontes": [
+    {
+      "ref": "norma:lei-10259-2001",
+      "dispositivo": "art. 22"
+    }
+  ],
+  "vigencia": {
+    "de": "2002-01-13",
+    "ate": null,
+    "incerta": true
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

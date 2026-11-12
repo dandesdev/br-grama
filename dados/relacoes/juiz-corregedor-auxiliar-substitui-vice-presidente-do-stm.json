@@ -1,0 +1,27 @@
+{
+  "id": "rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm",
+  "tipo": "relacao",
+  "nome": "Substituição do Ministro-Corregedor",
+  "relacao": "substitui",
+  "de": "cargo:juiz-corregedor-auxiliar",
+  "para": "cargo:vice-presidente-do-stm",
+  "condicao": "Só na função de Ministro-Corregedor: nas licenças, férias, faltas e impedimentos e, em caso de vaga, até a posse do novo titular.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 14-A, I; art. 62, V"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

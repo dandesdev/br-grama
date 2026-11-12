@@ -51,15 +51,17 @@
       "atores": [
         "org:senado-federal"
       ],
-      "acao": "O Senado aprova ou rejeita o nome",
+      "acao": "O Senado argui o indicado em sessão pública e aprova ou rejeita o nome",
       "detalhes": "A LC 80/1994 não diz o que acontece se o nome for rejeitado.",
       "quorum": {
-        "regra": "maioria-absoluta"
+        "regra": "maioria-absoluta",
+        "votacao": "secreta",
+        "nota": "Maioria absoluta dos membros do Senado (LC 80/1994, art. 6º), em voto secreto, após arguição pública (CF, art. 52, III)."
       },
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 52, III, f"
+          "dispositivo": "art. 52, III, caput e f"
         },
         {
           "ref": "norma:lc-80-1994",
@@ -123,8 +125,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-10-28",
-    "tarefa": "f2-funcoes-essenciais"
+    "status": "verificado",
+    "em": "2026-11-11",
+    "tarefa": "verificacao-f2-funcoes-essenciais",
+    "notas": "coletado em f2-funcoes-essenciais; etapas conferidas na LC 80/1994, art. 6º (redação da LC 132/2009), e na CF, art. 52, III; na etapa aprovacao faltavam o voto secreto e a arguição pública do art. 52, III, acrescentados. A lacuna sobre a rejeição pelo Senado procede: a LC 80 não trata do caso"
   }
 }

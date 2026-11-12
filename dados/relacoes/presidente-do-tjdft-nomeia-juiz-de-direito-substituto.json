@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-do-tjdft-nomeia-juiz-de-direito-substituto",
+  "tipo": "relacao",
+  "nome": "Nomeação dos juízes do DF",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-do-tjdft",
+  "para": "cargo:juiz-de-direito-substituto",
+  "condicao": "No DF e nos Territórios, depois do concurso e mediante indicação do TJDFT; o Presidente também promove os substitutos a juiz de direito.",
+  "restrita_a": [
+    "ente:df"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "arts. 51 a 54"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

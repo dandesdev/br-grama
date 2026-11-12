@@ -1,0 +1,46 @@
+{
+  "id": "cargo:vice-presidente-do-stm",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Superior Tribunal Militar",
+  "resumo": "Substitui o Presidente do STM e, durante o mandato, é o Ministro-Corregedor da Justiça Militar.",
+  "detalhes": "Como Corregedor, fica fora da distribuição de processos, mas pode compor o Plenário (Lei 8.457/1992, art. 10, b). Em caso de vaga na Presidência, assume até a posse do novo titular (art. 10, a).",
+  "orgao": "org:stm",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito como o Presidente (Lei 8.457/1992, arts. 5º e 6º, XV).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "Regra geral dos cargos de direção dos tribunais (LOMAN, art. 102); a eleição segue o regimento do STM (Lei 8.457/1992, art. 5º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STM",
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 6º, XV"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "arts. 5º, 6º, XV, 10, 12 e 14"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação da Lei 13.774/2018; data de vigência não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

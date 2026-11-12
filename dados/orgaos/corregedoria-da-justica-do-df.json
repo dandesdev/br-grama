@@ -1,0 +1,39 @@
+{
+  "id": "org:corregedoria-da-justica-do-df",
+  "tipo": "orgao",
+  "nome": "Corregedoria da Justiça do Distrito Federal e dos Territórios",
+  "resumo": "Órgão do TJDFT que supervisiona os serviços forenses e fiscaliza os cartórios do DF. É dirigida pelo Corregedor, desembargador eleito pelos pares.",
+  "detalhes": "O Corregedor exerce o poder disciplinar sobre os serviços forenses, instaura processo contra notários e registradores (salvo a perda da delegação), fiscaliza os atos notariais e de registro, designa os juízes diretores de fórum e faz a correição geral dos Territórios (Lei 11.697/2008, art. 12). Tem secretaria própria (art. 66).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:tj-df",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11697-2008",
+          "dispositivo": "arts. 12 e 66"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "arts. 12, 66 e 73"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

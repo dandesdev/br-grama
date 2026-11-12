@@ -1,0 +1,46 @@
+{
+  "id": "org:varas-do-df",
+  "tipo": "orgao",
+  "nome": "Circunscrições judiciárias e varas do Distrito Federal",
+  "resumo": "Primeira instância da Justiça do DF: varas especializadas agrupadas em circunscrições judiciárias, com juízes de direito e juízes substitutos.",
+  "detalhes": "A lei lista as competências das varas (júri, criminal, entorpecentes, trânsito, execuções penais, cível, execução de títulos e arbitragem, fazenda pública, família, órfãos e sucessões, infância e juventude, registros públicos, falências, meio ambiente, execução fiscal e juizados especiais), e o TJDFT distribui as especializações e pode criar circunscrições pelas regiões administrativas (Lei 11.697/2008, arts. 16 a 35, 43 e 44). Os tribunais do júri seguem o Código de Processo Penal (art. 18) e os juízes de paz celebram casamentos (art. 49).",
+  "tipo_orgao": "conjunto",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:justica-estadual",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 92, VII"
+        }
+      ],
+      "nota": "Ao lado do TJDFT (org:tj-df), dentro dos tribunais e juízes dos estados e do DF, como as comarcas do arquétipo estadual."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 2º, IV a VI; arts. 3º, 16 a 28, 30 a 35, 43 a 49"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "Anexo IV (varas por circunscrição)"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

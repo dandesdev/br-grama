@@ -2,12 +2,12 @@
   "id": "cargo:juiz-federal",
   "tipo": "cargo",
   "nome": "Juiz federal",
-  "resumo": "Juiz de primeira instância da Justiça Federal. Julga, entre outras, as causas em que a União, suas autarquias ou empresas públicas são partes. Ingressa por concurso público.",
+  "resumo": "Juiz titular de vara da Justiça Federal. Julga, entre outras, as causas em que a União, suas autarquias ou empresas públicas são partes. Chega ao cargo por promoção.",
   "orgao": "org:justica-federal",
-  "provimento": "concurso-publico",
+  "provimento": "promocao",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
-  "provimento_nota": "O ingresso na carreira é no cargo de juiz substituto, por concurso público de provas e títulos com participação da OAB em todas as fases; as nomeações seguem a ordem de classificação (art. 93, I). Depois, a promoção é alternadamente por antiguidade e merecimento (art. 93, II).",
+  "provimento_nota": "Promoção de juiz federal substituto, alternadamente por antiguidade e merecimento (CF, art. 93, II; LOMAN, art. 80). O ingresso na carreira é como juiz federal substituto (cargo:juiz-federal-substituto), por concurso.",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -16,20 +16,15 @@
   },
   "requisitos": [
     {
-      "texto": "bacharel em direito com, no mínimo, três anos de atividade jurídica",
+      "texto": "ser juiz federal substituto, promovido por antiguidade ou merecimento",
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 93, I"
-        }
-      ]
-    },
-    {
-      "texto": "aprovação em concurso público de provas e títulos, com participação da OAB em todas as fases; nomeação pela ordem de classificação",
-      "fontes": [
+          "dispositivo": "art. 93, II"
+        },
         {
-          "ref": "norma:cf-1988",
-          "dispositivo": "art. 93, I"
+          "ref": "norma:lc-35-1979",
+          "dispositivo": "art. 80"
         }
       ]
     }
@@ -43,18 +38,26 @@
     {
       "ref": "norma:lc-152-2015",
       "dispositivo": "art. 2º, II"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 22, II, a; art. 80"
+    },
+    {
+      "ref": "norma:lei-5010-1966",
+      "dispositivo": "arts. 1º e 13"
     }
   ],
-  "notas": "Inclui o juiz federal substituto, cargo inicial da carreira (art. 93, I).",
+  "notas": "Até 2026-11-11 este cargo também representava o juiz federal substituto; a f2-judiciario separou o substituto em cargo:juiz-federal-substituto. As relações de foro (TRF julga juiz federal, CF, art. 108, I, a) continuam ligadas a este cargo e valem também para o substituto.",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 93, I, II e VI; 95; 106 a 110 conferidos; sem erro"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: separado o juiz federal substituto (cargo próprio); provimento passou de concurso-publico a promocao; requisitos, resumo e notas reescritos; acrescentadas LOMAN e Lei 5.010"
   }
 }

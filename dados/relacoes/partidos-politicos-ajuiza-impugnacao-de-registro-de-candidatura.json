@@ -1,0 +1,31 @@
+{
+  "id": "rel:partidos-politicos-ajuiza-impugnacao-de-registro-de-candidatura",
+  "tipo": "relacao",
+  "nome": "Partidos, coligações e candidatos podem impugnar registro de candidatura",
+  "relacao": "ajuiza",
+  "de": "org:partidos-politicos",
+  "para": "obj:impugnacao-de-registro-de-candidatura",
+  "condicao": "Em cinco dias da publicação do pedido de registro. A lei legitima também qualquer candidato e as coligações; as federações agem como partido.",
+  "vigencia": {
+    "de": "1990-05-21",
+    "ate": null,
+    "nota": "Desde a LC 64/1990 (publicação, art. 27)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-64-1990",
+      "dispositivo": "art. 3º, caput e § 1º"
+    },
+    {
+      "ref": "norma:lei-9096-1995",
+      "dispositivo": "art. 11-A, § 8º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-eleicoes"
+  },
+  "notas": "Candidatos e coligações não têm nó próprio no mapa; ficam na condição."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "cargo:vice-presidente-do-tse",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Tribunal Superior Eleitoral",
+  "resumo": "Ministro do STF no TSE que ocupa a vice-presidência. É eleito pelo próprio TSE.",
+  "orgao": "org:tse",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo TSE entre os ministros do STF que o compõem; o Código Eleitoral diz que, eleito o Presidente, a vice-presidência cabe a outro ministro do STF (CF, art. 119, parágrafo único; Código Eleitoral, art. 17).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Limitado ao período do ministro no TSE (CF, art. 121, § 2º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STF integrante do TSE",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 119, parágrafo único"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 119, parágrafo único; art. 121, § 2º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

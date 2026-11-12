@@ -1,0 +1,30 @@
+{
+  "id": "rel:tj-df-elege-primeiro-vice-presidente-do-tjdft",
+  "tipo": "relacao",
+  "nome": "Eleição do Primeiro Vice-Presidente do TJDFT",
+  "relacao": "elege",
+  "de": "org:tj-df",
+  "para": "cargo:primeiro-vice-presidente-do-tjdft",
+  "condicao": "Pelos desembargadores, na forma da LOMAN, para dois anos, vedada a reeleição.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11697-2008",
+      "dispositivo": "art. 5º"
+    },
+    {
+      "ref": "norma:lc-35-1979",
+      "dispositivo": "art. 102"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-06-16",
+    "ate": null,
+    "nota": "Vigência da Lei 11.697/2008 (art. 90)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}
