@@ -13,9 +13,11 @@ type Classe = (typeof CLASSES)[number];
 export function contarArtigos(celula: string): number {
   const texto = celula.replace(/[º°ª]/g, "").replace(/\s+/g, " ");
   let total = 0;
-  // Faixas primeiro ("10 a 19", "10-A a 10-F" conta pelas letras).
-  const semFaixas = texto.replace(/(\d+)(?:-([A-Z]))?\s+a\s+(\d+)(?:-([A-Z]))?/g, (_, a, la, b, lb) => {
-    if (a === b && la && lb) total += lb.charCodeAt(0) - la.charCodeAt(0) + 1;
+  // Faixas primeiro ("10 a 19"; "10-A a 10-F" e "255-AA a 255-AE" contam pelas letras).
+  // Sufixo de letras como número: A = 1, Z = 26, AA = 27, AE = 31.
+  const letras = (l: string) => [...l].reduce((n, c) => n * 26 + c.charCodeAt(0) - 64, 0);
+  const semFaixas = texto.replace(/(\d+)(?:-([A-Z]{1,2}))?\s+a\s+(\d+)(?:-([A-Z]{1,2}))?/g, (_, a, la, b, lb) => {
+    if (a === b && la && lb) total += letras(lb) - letras(la) + 1;
     else total += Math.max(1, Number(b) - Number(a) + 1);
     return " ";
   });

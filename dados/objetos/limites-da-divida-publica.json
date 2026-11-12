@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Limites da dívida pública e das operações de crédito",
   "resumo": "Tetos para a dívida consolidada e para novos empréstimos de cada ente, fixados pelo Senado em percentual da receita corrente líquida, com regras para voltar ao limite.",
-  "detalhes": "O Senado fixa, por proposta do Presidente, os limites da dívida consolidada de União, estados e municípios; a dívida mobiliária federal tem limite em lei (CF, arts. 48, XIV, e 52, VI a IX; LRF, art. 30). A dívida é apurada a cada quadrimestre; quem passar do limite tem três quadrimestres para voltar, cortando ao menos 25% no primeiro, e enquanto isso não pode tomar empréstimos e deve limitar empenho; vencido o prazo, perde as transferências voluntárias (art. 31). O Ministério da Fazenda verifica as operações de crédito de cada ente e divulga todo mês a lista dos que passaram do limite (arts. 31, § 4º, e 32). A LRF proíbe empréstimos entre entes e do Banco Central aos entes e limita as antecipações de receita e as garantias (arts. 35 a 40).",
+  "detalhes": "O Senado fixa, por proposta do Presidente, os limites da dívida consolidada de União, estados e municípios; o limite da dívida mobiliária federal cabe a lei do Congresso, com projeto do Presidente (CF, arts. 48, XIV, e 52, VI a IX; LRF, art. 30). A dívida é apurada a cada quadrimestre; quem passar do limite tem três quadrimestres para voltar, cortando ao menos 25% no primeiro, e enquanto isso não pode tomar empréstimos e deve limitar empenho; vencido o prazo, perde as transferências voluntárias (art. 31). O Ministério da Fazenda verifica as operações de crédito de cada ente e divulga todo mês a lista dos que passaram do limite (arts. 31, § 4º, e 32). A LRF proíbe empréstimos entre entes e do Banco Central aos entes e limita as antecipações de receita e as garantias (arts. 35 a 40).",
   "tipo_objeto": "regra-fiscal",
   "esfera": "nacional",
   "relativo_a": [
@@ -32,9 +32,10 @@
   ],
   "notas": "Os percentuais estão em resoluções do Senado, não lidas nesta tarefa. Precatórios não pagos no exercício em que foram incluídos entram na dívida consolidada (LRF, art. 30, § 7º). Leis estaduais e municipais podem fixar limites menores (art. 60). Na calamidade pública reconhecida, a contagem dos prazos do art. 31 fica suspensa (art. 65, I); com crescimento baixo do PIB, os prazos dobram (art. 66).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; LRF, arts. 29 a 40, 60, 65 e 66, CF, arts. 48, XIV, e 52, V a IX, e Decreto 11.907/2024, Anexo I, art. 35, XXVII e XXVIII, conferidos; corrigido 'a dívida mobiliária federal tem limite em lei': a CF (art. 48, XIV) e a LRF (art. 30, II) mandam fixá-lo por lei, com projeto do Presidente, e a fonte não mostra que essa lei exista"
   },
   "confianca": "oficial"
 }

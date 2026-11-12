@@ -25,6 +25,13 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [ ] Processo de nova eleição (Código Eleitoral, art. 224, com a renovação da votação dos arts. 187 e 201), com `fonte:stf-informativo-893` (ADI 5.525: o § 4º não vale para Presidente, Vice e Senador; ADI 5.619 improcedente); até lá, arts. 187, 201 e 224 do Código são lacuna no quadro de f2-eleicoes (verificacao-f2-eleicoes).
 - [ ] Quadro de f2-eleicoes: art. 237 do Código passa a fora com motivo "superado" pela LC 64, art. 22 (D51); Lei 9.096, art. 13, motivo "declarado inconstitucional (ADIs 1.351 e 1.354)" (verificacao-f2-eleicoes).
 
+- [ ] `cargo:corregedor-regional-eleitoral` (Res. TSE 23.742/2024, art. 9º: o Vice-Presidente do TRE acumula a Corregedoria); leva o Código Eleitoral, art. 26, de parcial a coberto (verificacao-f2-judiciario).
+- [ ] Quadro de f2-judiciario: LOMAN, art. 27, e RISTF, arts. 354-A a 354-G, passam a coberto; Lei 8.457, arts. 89 a 97, e Código Eleitoral, art. 31, ficam fora com o motivo da D52; RISTJ ganha os arts. 255-A a 255-Z e 255-AA a 255-AE da ER 55/2026 (fora, rito) e `norma:ristj` passa a `compilacao_ate` ER 55/2026 (verificacao-f2-judiciario).
+- [ ] Conferir as entidades que a revisão do Judiciário gravou como `coletado`: 3 pessoas e 3 fontes dos ocupantes (STF, TSE, STJ, Corregedor Nacional) e `norma:resolucao-tse-23742-2024` (verificacao-f2-judiciario).
+- [ ] Ocupantes em 2026-10-01 da direção do TST, do STM e do Corregedor-Geral Eleitoral, com data de posse em fonte oficial (verificacao-f2-judiciario).
+- [ ] Relações de foro do STF para comandantes militares e chefes de missão diplomática permanente (CF, art. 102, I, c) (verificacao-f2-judiciario).
+- [ ] ADI 6188 (CLT, art. 702, I, f): trocar a notícia pelo acórdão do STF em `org:tst` (verificacao-f2-judiciario).
+
 ## Propostas de vocabulário (para o coordenador decidir)
 
 - `tipo_orgao`: órgão interno de função essencial (corregedorias, ouvidorias, secretarias do MP, da Defensoria e da AGU) e escola institucional (f2-funcoes-essenciais).
@@ -52,5 +59,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-11: o titular afastado continua como ocupante no retrato, com o afastamento em `condicao`; quem exerce no lugar entra com `interino: true`. É a leitura direta da D40 e evita esvaziar cargos durante licenças curtas.
 
 - 2026-11-11: as mesas receptoras ficam `contido_em` a Justiça Eleitoral. O juiz eleitoral as nomeia para cada eleição (Código Eleitoral, arts. 119 e 120), e tirá-las do ramo deixaria um nó solto no mapa só ligado ao juiz; a nota da entidade explica que o art. 12 não as lista.
+
+- 2026-11-11: D52 (órgãos só em estado de guerra ou outra situação excepcional ficam fora do retrato). A relação "exerce a função de" fica para a lista de vocabulário; a revisão do Judiciário a endossou.
 
 ## Diário

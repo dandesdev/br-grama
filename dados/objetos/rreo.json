@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Relatório Resumido da Execução Orçamentária",
   "sigla": "RREO",
-  "resumo": "Relatório que cada ente publica a cada dois meses com a receita arrecadada e a despesa empenhada, liquidada e paga de todos os seus Poderes e do Ministério Público.",
+  "resumo": "Relatório que cada ente publica a cada dois meses com a receita arrecadada e a despesa empenhada e liquidada de todos os seus Poderes e do Ministério Público.",
   "detalhes": "Sai até 30 dias depois de cada bimestre e traz o balanço orçamentário e demonstrativos da receita e da despesa, acompanhados da receita corrente líquida, dos resultados primário e nominal e dos restos a pagar por Poder e órgão (LRF, arts. 52 e 53). O do último bimestre mostra também a regra de ouro e as projeções atuariais da previdência. Se o prazo não for cumprido, o ente fica sem transferências voluntárias e sem novas operações de crédito até regularizar (art. 52, § 2º, e art. 51, § 2º). Na União, quem elabora e divulga é a Secretaria do Tesouro Nacional (Decreto 11.907/2024, Anexo I, art. 37, X).",
   "tipo_objeto": "documento",
   "esfera": "nacional",
@@ -33,9 +33,10 @@
   ],
   "notas": "Municípios com menos de 50 mil habitantes podem divulgar os demonstrativos do art. 53 a cada semestre (LRF, art. 63, II, c, e § 1º). Os relatórios seguem modelos padronizados (art. 55, § 4º).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; LRF, arts. 48, 51, § 2º, 52, 53 e 63, CF, art. 165, § 3º, e Decreto 11.907/2024, Anexo I, art. 37, X, conferidos; resumo corrigido: o art. 52 pede despesa empenhada e liquidada, não paga"
   },
   "confianca": "oficial"
 }

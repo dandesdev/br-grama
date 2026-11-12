@@ -1,8 +1,10 @@
 ---
 id: verificacao-f2-processos-constitucionais
 escopo: "Revisão independente da coleta f2-processos-constitucionais (Leis 9.868, 9.882, 11.417, 12.016, 13.300, 9.507, 8.038 e 1.079)"
-status: pendente
+status: em-andamento
 depende_de: [f2-processos-constitucionais]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Siga `pesquisa/instrucoes-verificacao.md`. Confira contra as fontes primárias (cópias em `pesquisa/brutos/planalto-leis/2026-11-11-f2-processos-constitucionais/`, `pesquisa/brutos/stf/2026-11-11-f2-processos-constitucionais/`, o Planalto e o portal do STF) todas as entidades com `verificacao.tarefa: "f2-processos-constitucionais"`: as 15 criadas e as 3 existentes que a coleta editou (a nota em `verificacao.notas` diz o que mudou). Confira também o quadro de cobertura de `pesquisa/fila/f2-processos-constitucionais.md`.
@@ -20,3 +22,5 @@ Pontos de atenção:
 Ao terminar, marque as entidades conferidas como `verificado` (com `tarefa: "verificacao-f2-processos-constitucionais"`), corrija o que estiver errado com fonte, mude o status desta tarefa para `verificada` e escreva o relatório no diário.
 
 ## Diário
+
+- 2026-11-11 23:32 — iniciada; lidos CLAUDE.md, decisões, modelo, protocolo, instruções de verificação e da fase 2, e o diário da coleta. Escopo: 19 entidades com verificacao.tarefa f2-processos-constitucionais

@@ -33,9 +33,10 @@
   ],
   "notas": "Na União, a Secretaria do Tesouro Nacional elabora e divulga o RGF do Poder Executivo federal (Decreto 11.907/2024, Anexo I, art. 37, X), e a Secretaria Federal de Controle Interno confere a consistência dos dados (Decreto 11.330/2023, Anexo I, art. 13, V). Municípios com menos de 50 mil habitantes podem divulgá-lo por semestre (LRF, art. 63, II, b).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; LRF, arts. 54, 55 e 63, Decreto 11.907/2024, Anexo I, art. 37, X, e Decreto 11.330/2023, Anexo I, art. 13, V, conferidos"
   },
   "confianca": "oficial"
 }
