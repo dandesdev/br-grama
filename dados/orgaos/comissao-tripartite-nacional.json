@@ -1,0 +1,35 @@
+{
+  "id": "org:comissao-tripartite-nacional",
+  "tipo": "orgao",
+  "nome": "Comissão Tripartite Nacional (meio ambiente)",
+  "sigla": "CTN",
+  "resumo": "Foro paritário dos Executivos da União, dos estados, do DF e dos municípios para fomentar a gestão ambiental compartilhada e descentralizada.",
+  "detalhes": "É um dos instrumentos de cooperação da LC 140/2011 (art. 4º, III, e § 2º), com organização e funcionamento definidos em regimento interno (§ 5º). Propõe a tipologia de empreendimentos que a União licencia por ato do Poder Executivo, com a participação de um membro do Conama, inclusive na zona costeira (art. 7º, XIV, h, e parágrafo único).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 4º, III, e §§ 2º e 5º; art. 7º, XIV, h, e parágrafo único"
+    },
+    {
+      "ref": "fonte:senado-legislacao-adi-4757-decisao",
+      "dispositivo": "decisão",
+      "nota": "O STF julgou constitucional o art. 7º, XIV, h, e parágrafo único."
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da LC 140/2011, que previu a comissão; documentos do MMA indicam que já funcionava antes, por portaria (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "Sem contido_em: a LC 140 não diz a que órgão a comissão se vincula. Convocações recentes publicadas pelo MMA citam o Decreto 12.254/2024 e as Portarias MMA 240/2017 e 84/2018 como base; não lidas nesta tarefa (fase 4, D09). Não confundir com a Comissão Intergestores Tripartite do SUS (org:comissao-intergestores-tripartite).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

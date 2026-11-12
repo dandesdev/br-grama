@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-conselho-de-meio-ambiente-regulamenta-licenca-ambiental",
+  "tipo": "relacao",
+  "nome": "O conselho estadual de meio ambiente define o que os municípios licenciam",
+  "relacao": "regulamenta",
+  "de": "org:arquetipo-estadual-conselho-de-meio-ambiente",
+  "para": "obj:licenca-ambiental",
+  "condicao": "Define a tipologia das atividades e empreendimentos de impacto ambiental local, por porte, potencial poluidor e natureza; só a partir dessa decisão o município licencia esses casos.",
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 9º, XIV, a; art. 18, §§ 2º e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null,
+    "nota": "LC 140/2011, em vigor na publicação (art. 22), DOU de 9/12/2011."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

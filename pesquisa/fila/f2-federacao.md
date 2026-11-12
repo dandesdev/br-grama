@@ -50,3 +50,11 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 - 2026-11-11 23:56 — gravado rel:municipios-repassam-recursos-consorcios-publicos
 - 2026-11-11 23:56 — gravado rel:estados-repassam-recursos-consorcios-publicos
 - 2026-11-11 23:56 — gravado rel:uniao-repassa-recursos-consorcios-publicos
+- 2026-11-11 23:56 — editado org:consorcios-publicos (detalhes, fontes arts. 7º, 9º, 15 e 20, estrutura_continua)
+- 2026-11-11 23:56 — npm run -s validar sem erros (lote 2: proc:criacao-de-consorcio-publico, fiscalização pelo TCE e repasses por rateio e convênio). Escolha: o processo de criação produz obj:contrato-de-consorcio-publico; alteração, extinção e retirada ficam no fim do mesmo processo (arts. 11, 12 e 12-A)
+- 2026-11-11 23:58 — gravado fonte:senado-legislacao-adi-4757-decisao
+- 2026-11-11 23:58 — gravado org:comissao-tripartite-nacional
+- 2026-11-11 23:58 — gravado org:arquetipo-estadual-comissao-tripartite-estadual
+- 2026-11-11 23:58 — gravado org:comissao-bipartite-do-distrito-federal
+- 2026-11-11 23:58 — gravado org:arquetipo-estadual-conselho-de-meio-ambiente
+- 2026-11-11 23:58 — gravado rel:arquetipo-estadual-conselho-de-meio-ambiente-regulamenta-licenca-ambiental

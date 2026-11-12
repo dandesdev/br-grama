@@ -8,7 +8,7 @@
   "competencia": {
     "tipo": "comum",
     "natureza": "material",
-    "nota": "Proteger o meio ambiente, combater a poluição e preservar as florestas, a fauna e a flora (art. 23, VI e VII). Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único)."
+    "nota": "Proteger o meio ambiente, combater a poluição e preservar as florestas, a fauna e a flora (art. 23, VI e VII). Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único). Pela LC 140/2011 (art. 8º), cabe aos estados, entre outras ações: executar as políticas nacional e estadual de meio ambiente, manter o sistema estadual de informações, fazer o zoneamento estadual, listar as espécies ameaçadas no seu território, aprovar criadouros de fauna silvestre, controlar a pesca e o transporte fluvial e terrestre de produtos perigosos no estado e licenciar tudo o que não caiba à União nem aos municípios, além das unidades de conservação estaduais (salvo APAs). O DF exerce as ações dos estados e as dos municípios (art. 10)."
   },
   "vigencia": {
     "de": "1988-10-05",
@@ -22,13 +22,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 23, VII"
+    },
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 8º, I a XXI; art. 10",
+      "nota": "Ações administrativas dos estados e do DF (fase 2, D49)."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-22",
-    "tarefa": "verificacao-f0-competencias",
-    "notas": "coletado em f0-competencias"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao",
+    "notas": "nota da competência ampliada com as ações administrativas dos estados na LC 140/2011, arts. 8º e 10, e fonte acrescentada; antes verificado em verificacao-f0-competencias"
   }
 }

@@ -1,0 +1,204 @@
+{
+  "id": "proc:incorporacao-de-tecnologia-no-sus",
+  "tipo": "processo",
+  "nome": "Incorporação de tecnologia no SUS",
+  "resumo": "Como um remédio, produto ou procedimento entra no SUS (ou sai dele): pedido, análise da Conitec, consulta pública e decisão do Ministério da Saúde.",
+  "detalhes": "O mesmo processo vale para criar ou mudar protocolos clínicos e diretrizes terapêuticas. A lei fixa o prazo de 180 dias, prorrogáveis por 90, e exige consulta pública e, se a matéria for relevante, audiência pública. Pedidos ligados ao tratamento de câncer tramitam com prioridade.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "requerimento",
+      "atores": [
+        "org:ministerio-da-saude"
+      ],
+      "acao": "Pedido de incorporação, exclusão ou alteração é protocolado, com documentos e estudos",
+      "detalhes": "Qualquer interessado (empresa, sociedade médica, órgão do próprio SUS) pode pedir. O pedido traz as evidências de eficácia e segurança e a avaliação econômica exigidas pela lei. O ator é o Ministério da Saúde, que recebe e processa o pedido; quem pede não é nó do mapa.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8080-1990",
+          "dispositivo": "art. 19-R, § 1º, I"
+        },
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 15, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "analise",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "analise",
+      "atores": [
+        "org:conitec"
+      ],
+      "acao": "A Conitec confere o pedido, faz relatório técnico e emite recomendação preliminar",
+      "detalhes": "A Secretaria-Executiva da Conitec confere a documentação e prepara o relatório; o comitê competente delibera a recomendação preliminar. O relatório considera evidências científicas e a avaliação econômica comparada com as tecnologias já oferecidas.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8080-1990",
+          "dispositivo": "art. 19-Q, § 2º"
+        },
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 15, II a IV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "consulta-publica",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "consulta-publica",
+      "atores": [
+        "org:conitec"
+      ],
+      "acao": "Recomendação preliminar vai a consulta pública",
+      "detalhes": "A consulta divulga o parecer da Conitec. As contribuições voltam ao comitê, que as examina antes da recomendação final.",
+      "prazo": {
+        "texto": "20 dias, ou 10 em caso de urgência",
+        "valor": 20,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8080-1990",
+          "dispositivo": "art. 19-R, § 1º, III"
+        },
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 19"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recomendacao-final",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recomendacao-final",
+      "atores": [
+        "org:conitec"
+      ],
+      "acao": "O comitê da Conitec delibera a recomendação final",
+      "fontes": [
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 15, V; art. 20"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "decisao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:ministerio-da-saude"
+      ],
+      "acao": "O Ministério da Saúde decide e publica a decisão no Diário Oficial da União",
+      "detalhes": "Decide o Secretário de Ciência, Tecnologia e Inovação em Saúde, que pode antes convocar audiência pública se a matéria for relevante. A decisão sai no Diário Oficial da União; se incorporar, as áreas técnicas têm até 180 dias para oferecer a tecnologia no SUS.",
+      "prazo": {
+        "texto": "Todo o processo em até 180 dias do protocolo, prorrogáveis por 90",
+        "valor": 180,
+        "unidade": "dias",
+        "conta_de": "protocolo do pedido"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8080-1990",
+          "dispositivo": "art. 19-Q, caput; art. 19-R, caput e § 1º, IV"
+        },
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "arts. 21, 23, 24 e 25"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": "Sem recurso"
+        },
+        {
+          "para": "recurso",
+          "quando": "Se houver recurso em até 10 dias"
+        }
+      ]
+    },
+    {
+      "id": "recurso",
+      "atores": [
+        {
+          "ator": "cargo:ministro-de-estado",
+          "orgao_exercicio": "org:ministerio-da-saude"
+        }
+      ],
+      "acao": "Se o Secretário não reconsiderar, o Ministro da Saúde julga o recurso",
+      "detalhes": "O recurso não suspende a decisão. Vai primeiro ao Secretário, que pode reconsiderar em cinco dias; se não o fizer, segue de ofício ao Ministro, que pode confirmar, modificar, anular ou revogar a decisão.",
+      "prazo": {
+        "texto": "10 dias para recorrer, da ciência ou divulgação da decisão",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "ciência ou divulgação oficial da decisão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 15, VII; arts. 26 e 27"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Tecnologia ou protocolo incorporado, excluído ou alterado no SUS, ou pedido negado",
+      "fontes": [
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 25"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "arts. 19-Q e 19-R"
+    },
+    {
+      "ref": "norma:decreto-7646-2011",
+      "dispositivo": "arts. 15 a 27"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-22",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Etapas do Decreto 7.646/2011, art. 15, na redação dos Decretos 11.161/2022 e 12.716/2025. A prioridade para câncer é da Lei 14.758/2023 (art. 19-R, § 3º). O detalhe do procedimento cabe a ato do Ministro da Saúde (art. 15, caput), não lido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

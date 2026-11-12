@@ -1,0 +1,40 @@
+{
+  "id": "org:comissoes-permanentes-de-integracao-ensino-servico",
+  "tipo": "orgao",
+  "nome": "Comissões permanentes de integração entre serviços de saúde e instituições de ensino",
+  "resumo": "Comissões que a Lei do SUS manda criar para propor prioridades e estratégias de formação e educação continuada dos profissionais do SUS.",
+  "detalhes": "Juntam os serviços de saúde e as instituições de ensino profissional e superior de cada esfera e tratam também de pesquisa e cooperação técnica entre essas instituições.",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:sistema-unico-de-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8080-1990",
+          "dispositivo": "art. 14, parágrafo único"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A lei não diz a que órgão se ligam; ficam no SUS porque atuam 'na esfera correspondente' do sistema."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-09-20",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto. A regulamentação dessas comissões (portarias do Ministério da Saúde) não foi lida; não verificamos quantas funcionavam em 2026-10-01.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

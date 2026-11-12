@@ -24,7 +24,7 @@
   "fontes": [
     {
       "ref": "norma:lei-8080-1990",
-      "dispositivo": "art. 14-A"
+      "dispositivo": "art. 14-A; art. 19-P, II"
     },
     {
       "ref": "norma:decreto-7508-2011",
@@ -40,9 +40,9 @@
   "confianca": "oficial",
   "notas": "As comissões intergestores regionais (Decreto 7.508/2011, art. 30, III) não têm nó próprio.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-seguridade",
-    "notas": "coletado em f0-seguridade; Lei 8.080, art. 14-A, e Decreto 7.508/2011, arts. 19 e 30 a 32, conferidos; detalhes corrigidos ('regras de acesso na rede estadual' → 'regras de continuidade do acesso aos serviços de saúde no estado') e fonte completada com o art. 12, parágrafo único, de onde vem essa competência"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social",
+    "notas": "f2-social: fonte da Lei 8.080 ampliada com o art. 19-P, II (pactuação do fornecimento de medicamentos no estado)"
   }
 }

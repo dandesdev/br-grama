@@ -1,0 +1,30 @@
+{
+  "id": "rel:conasems-integra-comissao-intergestores-tripartite",
+  "tipo": "relacao",
+  "nome": "O Conasems representa os gestores municipais na Comissão Intergestores Tripartite",
+  "relacao": "integra",
+  "de": "org:conasems",
+  "para": "org:comissao-intergestores-tripartite",
+  "condicao": "Os gestores municipais de saúde podem ser representados por ele na pactuação nacional do SUS.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-B, caput"
+    },
+    {
+      "ref": "norma:decreto-7508-2011",
+      "dispositivo": "art. 31"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-06-29",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O decreto diz que os gestores 'poderão ser representados'; a composição da CIT é fixada por portaria, não lida.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

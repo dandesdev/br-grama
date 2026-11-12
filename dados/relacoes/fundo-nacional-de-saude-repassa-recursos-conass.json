@@ -1,0 +1,26 @@
+{
+  "id": "rel:fundo-nacional-de-saude-repassa-recursos-conass",
+  "tipo": "relacao",
+  "nome": "O Fundo Nacional de Saúde repassa recursos ao Conass",
+  "relacao": "repassa-recursos",
+  "de": "obj:fundo-nacional-de-saude",
+  "para": "org:conass",
+  "condicao": "Recursos do orçamento da União para custear despesas institucionais da entidade; também pode haver convênios com a União.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-B, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Desde a Lei 12.466/2011; data de publicação não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

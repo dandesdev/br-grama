@@ -1,0 +1,40 @@
+{
+  "id": "org:comissoes-intersetoriais-do-conselho-nacional-de-saude",
+  "tipo": "orgao",
+  "nome": "Comissões intersetoriais do Conselho Nacional de Saúde",
+  "resumo": "Comissões nacionais ligadas ao Conselho Nacional de Saúde que articulam políticas que tocam a saúde mas dependem de outras áreas do governo.",
+  "detalhes": "Reúnem ministérios, órgãos competentes e entidades da sociedade civil. A lei cita, entre os temas, alimentação e nutrição, saneamento e meio ambiente, vigilância sanitária e farmacoepidemiologia, recursos humanos, ciência e tecnologia e saúde do trabalhador. Uma comissão nacional criada da mesma forma regulamenta as especializações por treinamento em serviço.",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:conselho-nacional-de-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8080-1990",
+          "dispositivo": "art. 12, caput"
+        }
+      ],
+      "nota": "A lei as declara subordinadas ao Conselho Nacional de Saúde."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "arts. 12, 13 e 30"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-09-20",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: a lista e a composição de cada comissão estão no regimento do CNS, não lido. Não verificamos quais comissões funcionavam em 2026-10-01.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

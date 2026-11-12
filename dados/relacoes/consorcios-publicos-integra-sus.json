@@ -1,0 +1,30 @@
+{
+  "id": "rel:consorcios-publicos-integra-sus",
+  "tipo": "relacao",
+  "nome": "Consórcios de saúde integram o SUS",
+  "relacao": "integra",
+  "de": "org:consorcios-publicos",
+  "para": "org:sistema-unico-de-saude",
+  "condicao": "Só os consórcios formados para prestar ações e serviços de saúde. Seguem o princípio da direção única, e os municípios consorciados podem remanejar entre si recursos federais do SUS.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 4º; art. 10; art. 18, VII"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 3º, § 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-09-20",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 8.080/1990 fala em consórcios administrativos intermunicipais; hoje os consórcios públicos seguem a Lei 11.107/2005 (ver org:consorcios-publicos).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

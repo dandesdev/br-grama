@@ -1,0 +1,41 @@
+{
+  "id": "org:conasems",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Secretarias Municipais de Saúde",
+  "sigla": "Conasems",
+  "resumo": "Associação das secretarias municipais de saúde, reconhecida por lei como representante dos municípios nas questões de saúde.",
+  "detalhes": "Tem um representante no Conselho Nacional de Saúde e representa os gestores municipais nas comissões intergestores. Em cada estado, um conselho de secretarias municipais (Cosems) ligado a ele representa os municípios. É declarado de utilidade pública e recebe recursos da União pelo Fundo Nacional de Saúde.",
+  "tipo_orgao": "paraestatal",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 14-B, caput e §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-7508-2011",
+      "dispositivo": "art. 31"
+    },
+    {
+      "ref": "norma:decreto-5839-2006",
+      "dispositivo": "art. 3º, § 1º, II, c"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Reconhecido como representante dos entes pela Lei 12.466/2011, que incluiu o art. 14-B na Lei 8.080/1990; a data de fundação da associação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Pessoa jurídica de direito privado (associação); 'paraestatal' por colaborar com o Estado por força de lei. O estatuto e a diretoria em 2026-10-01 não foram pesquisados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

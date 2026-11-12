@@ -1,0 +1,30 @@
+{
+  "id": "rel:ministerio-da-saude-coordena-subsistema-de-atencao-a-saude-indigena",
+  "tipo": "relacao",
+  "nome": "O Ministério da Saúde coordena o Subsistema de Atenção à Saúde Indígena",
+  "relacao": "coordena",
+  "de": "org:ministerio-da-saude",
+  "para": "org:subsistema-de-atencao-a-saude-indigena",
+  "condicao": "Pela Secretaria de Saúde Indígena: coordena a gestão do subsistema, orienta os Dseis e articula o subsistema com o resto do SUS. A União financia o subsistema com recursos próprios.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 19-C; art. 19-G, § 1º-B"
+    },
+    {
+      "ref": "norma:decreto-11798-2023",
+      "dispositivo": "Anexo I, art. 46, I, IV e V"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "A competência atual vem do Decreto 11.798/2023; a coordenação pelo Ministério é anterior (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rel:conass-integra-conselho-nacional-de-saude",
+  "tipo": "relacao",
+  "nome": "O Conass tem representante no Conselho Nacional de Saúde",
+  "relacao": "integra",
+  "de": "org:conass",
+  "para": "org:conselho-nacional-de-saude",
+  "condicao": "Um membro titular, na parcela de 25% reservada a governo, prestadores e empresas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, § 3º"
+    },
+    {
+      "ref": "norma:decreto-5839-2006",
+      "dispositivo": "art. 3º, § 1º, II, b"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

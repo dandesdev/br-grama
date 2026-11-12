@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-governador-homologa-deliberacoes-do-conselho-de-saude",
+  "tipo": "relacao",
+  "nome": "O governador homologa as decisões do conselho estadual de saúde",
+  "relacao": "homologa",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "org:arquetipo-estadual-conselho-de-saude",
+  "condicao": "A lei fala no chefe do poder legalmente constituído em cada esfera de governo.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null
+  },
+  "confianca": "inferido",
+  "notas": "Leitura nossa de 'chefe do poder legalmente constituído' como o governador, como no resumo de org:arquetipo-estadual-conselho-de-saude. A lei de cada ente pode dar detalhes; não levantadas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

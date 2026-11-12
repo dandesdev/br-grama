@@ -38,6 +38,11 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [ ] Vigência do CPC (2016-03-18, `fonte:stj-enunciado-administrativo-1`) em `norma:lei-13105-2015` e `proc:caminho-de-um-processo` (verificacao-f2-processos-constitucionais).
 - [ ] Conferir as fontes gravadas como `coletado` pela revisão dos processos constitucionais: `fonte:stj-enunciado-administrativo-1` e `fonte:stf-aplicacao-sumula-vinculante-46` (verificacao-f2-processos-constitucionais).
 
+- [ ] `cargo:presidente-de-tre` (e Vice-Presidente, que acumula a Corregedoria Regional pela Res. TSE 23.742/2024) e o Presidente de TRE como ator no julgamento do PAD (Lei 8.112, art. 141, I) (verificacao-f2-administracao, verificacao-f2-judiciario).
+- [ ] Etapa "revisão" em `proc:processo-administrativo-disciplinar-federal` (Lei 8.112, arts. 174 a 182; pedido ao Ministro de Estado, art. 177) (verificacao-f2-administracao).
+- [ ] Quadro de f2-administracao: Lei 8.112, art. 37 (redistribuição com o órgão central do SIPEC), coberto ou parcial; Lei 13.303, art. 92, parágrafo único (transferências voluntárias condicionadas ao Registro de Empresas), condição de relação ou lacuna (D53) (verificacao-f2-administracao).
+- [ ] Lei 13.303, art. 55, III, remete à Lei 8.666 (revogada): conferir a remissão na Lei 14.133/2021 (verificacao-f2-administracao).
+
 ## Propostas de vocabulário (para o coordenador decidir)
 
 - `tipo_orgao`: órgão interno de função essencial (corregedorias, ouvidorias, secretarias do MP, da Defensoria e da AGU) e escola institucional (f2-funcoes-essenciais).
@@ -79,5 +84,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-11: a execução da despesa fica com as unidades do Executivo como ator, e o texto diz que os demais Poderes seguem as mesmas etapas. Um conjunto de todas as unidades de todos os Poderes não acrescentaria informação ao desenho das raias, e os números por Poder já estão na aba Dinheiro (D48). O RGF do Judiciário fica ligado ao Poder: cada tribunal emite o seu, como a condição da relação diz, e criar uma relação por tribunal repetiria a mesma regra dezenas de vezes.
 
 - 2026-11-11: sem aviso para o foro do Presidente do CGIBS. A CF não o menciona nos arts. 52 e 102, e a LC 227/2026 o põe sob a Lei 1.079; omissão da CF não é contradição entre fontes (mesmo critério da ANA, acima).
+
+- 2026-11-11: sem nó "autoridade competente". Onde a lei só diz "autoridade competente" ou "superior", a etapa fica com o ente ou Poder genérico (ex.: `org:poder-executivo-federal`) e o texto da etapa diz a regra; um nó novo repetiria o genérico sem dizer quem é (verificacao-f2-administracao). A proposta fica resolvida na lista de vocabulário.
 
 ## Diário

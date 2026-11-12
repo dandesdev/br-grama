@@ -1,0 +1,43 @@
+{
+  "id": "org:arquetipo-estadual-conselho-de-meio-ambiente",
+  "tipo": "orgao",
+  "nome": "Conselho Estadual de Meio Ambiente",
+  "resumo": "Colegiado ambiental do estado; define que atividades têm impacto local e por isso são licenciadas pelos municípios.",
+  "detalhes": "A LC 140/2011 exige conselho de meio ambiente (e órgão ambiental capacitado) do ente que recebe delegação de ações administrativas (art. 5º); sem conselho no estado, a União exerce as ações estaduais de licenciamento até que ele seja criado (art. 15, I e III). O conselho estadual define a tipologia das atividades de impacto ambiental local, considerando porte, potencial poluidor e natureza da atividade, que cabem aos municípios licenciar (art. 9º, XIV, a; art. 18, § 2º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-secretarias",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-140-2011",
+          "dispositivo": "art. 5º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A lei não diz onde o conselho fica; o órgão ambiental do estado não tem nó próprio, por isso o conselho fica no conjunto das secretarias, como os demais conselhos estaduais do arquétipo."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 5º; art. 9º, XIV, a; art. 15; art. 18, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da LC 140/2011, que lhe deu a competência sobre a tipologia; os conselhos estaduais são anteriores (Lei 6.938/1981, não pesquisado aqui)."
+  },
+  "confianca": "oficial",
+  "notas": "Nome e composição variam em cada estado (lei estadual). Os municípios também precisam de conselho de meio ambiente para receber delegação (art. 5º); não criamos nó municipal.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

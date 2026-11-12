@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Consórcios públicos",
   "resumo": "Entidades criadas por entes da Federação, por contrato ratificado em lei, para atingir objetivos de interesse comum (ex.: saúde, resíduos, transporte).",
-  "detalhes": "A CF manda os entes disciplinarem por lei os consórcios e convênios de cooperação (art. 241). O consórcio é associação pública ou pessoa jurídica de direito privado; como associação pública, integra a administração indireta de todos os consorciados (Lei 11.107/2005, arts. 1º, § 1º, e 6º). Nasce de um protocolo de intenções ratificado por lei de cada ente (arts. 3º a 5º). A União só participa se também participarem os estados onde ficam os municípios consorciados (art. 1º, § 2º).",
+  "detalhes": "A CF manda os entes disciplinarem por lei os consórcios e convênios de cooperação (art. 241). O consórcio é associação pública ou pessoa jurídica de direito privado; como associação pública, integra a administração indireta de todos os consorciados (Lei 11.107/2005, arts. 1º, § 1º, e 6º). Nasce de um protocolo de intenções ratificado por lei de cada ente (arts. 3º a 5º). A União só participa se também participarem os estados onde ficam os municípios consorciados (art. 1º, § 2º). Pode firmar convênios, promover desapropriações, cobrar tarifas e outorgar concessões, se o contrato autorizar; a assembleia geral é a instância máxima, e o representante legal é chefe do Executivo de um ente consorciado (arts. 2º e 4º). Segue as normas de direito financeiro e é fiscalizado pelo tribunal de contas do seu representante legal (art. 9º); no que a lei não regula, aplicam-se as regras das associações civis (art. 15). Ver proc:criacao-de-consorcio-publico.",
   "tipo_orgao": "conjunto",
   "poder": "executivo",
   "esfera": "nacional",
@@ -15,6 +15,18 @@
     {
       "ref": "norma:lei-11107-2005",
       "dispositivo": "arts. 1º a 6º"
+    },
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "arts. 7º, 9º, 15 e 20",
+      "nota": "Acrescentado em f2-federacao (fase 2, D49)."
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-11107-2005",
+      "dispositivo": "art. 7º",
+      "nota": "Os órgãos de cada consórcio vêm dos seus estatutos; a lei regula só a assembleia geral e o representante legal. A regulamentação federal está no Decreto 6.017/2007 (art. 20), não lido."
     }
   ],
   "notas": "Conjunto (não é órgão real). Esfera 'nacional' por aproximação: um consórcio pode reunir municípios, estados, DF e União. Não há lista oficial única de consórcios consultada nesta tarefa (D07: só exemplos relevantes; nenhum exemplo levantado). Tipo 'conjunto' e não 'entidade-interfederativa' porque o consórcio de direito público integra a administração indireta de cada ente consorciado, enquanto a definição do vocabulário fala em entidade 'sem vínculo com nenhum deles'.",
@@ -25,9 +37,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-tipicos",
-    "notas": "coletado em f0-tipicos; corrigido: vigência desde a EC 19/1998 (art. 241)"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao",
+    "notas": "detalhes ampliados (competências, assembleia geral, representante legal, controle externo) e fonte da Lei 11.107/2005, arts. 7º, 9º, 15 e 20; estrutura_continua (estatutos); antes verificado em verificacao-f0-tipicos"
   }
 }

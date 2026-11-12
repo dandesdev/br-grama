@@ -1,0 +1,49 @@
+{
+  "id": "org:conitec",
+  "tipo": "orgao",
+  "nome": "Comissão Nacional de Incorporação de Tecnologias no SUS",
+  "sigla": "Conitec",
+  "resumo": "Colegiado do Ministério da Saúde que analisa pedidos para incluir, excluir ou alterar remédios, produtos e procedimentos no SUS e recomenda a decisão.",
+  "detalhes": "Também recomenda a criação e a mudança de protocolos clínicos e diretrizes terapêuticas e a atualização da lista nacional de medicamentos essenciais (Rename). Funciona em três comitês (medicamentos; produtos e procedimentos; protocolos), cada um com 17 membros com voto: oito do Ministério da Saúde, que o preside, e um de cada um destes: ANS, Anvisa, Conselho Nacional de Saúde, Conass, Conasems, Conselho Federal de Medicina, Associação Médica Brasileira e uma organização da sociedade civil da área da doença analisada. Seus relatórios pesam evidências de eficácia e segurança e o custo comparado com o que o SUS já oferece.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-saude",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11798-2023",
+          "dispositivo": "Anexo I, art. 2º, IV, c; art. 66"
+        },
+        {
+          "ref": "norma:decreto-7646-2011",
+          "dispositivo": "art. 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 19-Q, caput e §§ 1º a 3º; art. 19-T, parágrafo único"
+    },
+    {
+      "ref": "norma:decreto-7646-2011",
+      "dispositivo": "arts. 2º, 4º, 5º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-22",
+    "ate": null,
+    "nota": "Criada pela Lei 12.401/2011, que incluiu o art. 19-Q na Lei 8.080/1990; usamos a data do Decreto 7.646/2011, que a regulou."
+  },
+  "confianca": "oficial",
+  "notas": "Composição pelo Decreto 7.646/2011, art. 7º, na redação do Decreto 12.716/2025 (17 membros por comitê). O assento rotativo da sociedade civil veio da Lei 15.120/2025 (art. 19-Q, §§ 1º e 1º-A), em vigor 180 dias depois de 7/4/2025, antes da data de referência. A análise técnica dos processos é feita pelo Departamento de Gestão e Incorporação de Tecnologias em Saúde (Decreto 11.798/2023, Anexo I, art. 36), sem nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

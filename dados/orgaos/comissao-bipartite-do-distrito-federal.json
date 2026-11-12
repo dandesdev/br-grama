@@ -1,0 +1,30 @@
+{
+  "id": "org:comissao-bipartite-do-distrito-federal",
+  "tipo": "orgao",
+  "nome": "Comissão Bipartite do Distrito Federal (meio ambiente)",
+  "resumo": "Foro paritário dos Executivos da União e do DF para fomentar a gestão ambiental compartilhada e descentralizada entre os dois.",
+  "detalhes": "Faz no DF o papel das comissões tripartites estaduais, porque o DF não tem municípios (LC 140/2011, art. 4º, III, e § 4º); organização e funcionamento em regimento interno (§ 5º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "distrital",
+  "ente": "ente:df",
+  "fontes": [
+    {
+      "ref": "norma:lc-140-2011",
+      "dispositivo": "art. 4º, III, e §§ 4º e 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-09",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da LC 140/2011 (não pesquisado se a comissão já existia antes)."
+  },
+  "confianca": "oficial",
+  "notas": "Sem contido_em: reúne representantes da União e do DF, e a lei não diz a que órgão se vincula.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

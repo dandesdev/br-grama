@@ -1,0 +1,29 @@
+{
+  "id": "rel:conitec-assessora-ministerio-da-saude",
+  "tipo": "relacao",
+  "nome": "A Conitec assessora o Ministério da Saúde na incorporação de tecnologias ao SUS",
+  "relacao": "assessora",
+  "de": "org:conitec",
+  "para": "org:ministerio-da-saude",
+  "condicao": "A decisão de incorporar, excluir ou alterar tecnologias e protocolos clínicos é do Ministério da Saúde; a Conitec emite relatório e recomendação antes.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 19-Q, caput"
+    },
+    {
+      "ref": "norma:decreto-7646-2011",
+      "dispositivo": "arts. 2º e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2011-12-22",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social"
+  }
+}

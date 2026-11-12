@@ -4,7 +4,7 @@
   "nome": "Conselho Nacional de Saúde",
   "sigla": "CNS",
   "resumo": "Colegiado permanente e deliberativo do SUS na União. Metade dos membros representa os usuários; suas resoluções são homologadas pelo Ministro da Saúde.",
-  "detalhes": "Tem 48 membros titulares com mandato de três anos: 50% de usuários, 25% de profissionais de saúde e 25% divididos entre governo federal (6), Conass (1), Conasems (1), prestadores de serviço (2) e entidades empresariais (2). As entidades são escolhidas por eleição a cada três anos, e o presidente é eleito entre os conselheiros. Atua na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos financeiros.",
+  "detalhes": "Tem 48 membros titulares com mandato de três anos: 50% de usuários, 25% de profissionais de saúde e 25% divididos entre governo federal (6), Conass (1), Conasems (1), prestadores de serviço (2) e entidades empresariais (2). As entidades são escolhidas por eleição a cada três anos, e o presidente é eleito entre os conselheiros. Atua na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos financeiros. Aprova os critérios e valores que o SUS paga pelos serviços contratados e fixa diretrizes para os planos de saúde.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "federal",
@@ -34,6 +34,10 @@
       "dispositivo": "art. 1º, II e §§ 2º a 5º"
     },
     {
+      "ref": "norma:lei-8080-1990",
+      "dispositivo": "art. 12; art. 19-Q, § 1º; art. 26; art. 37"
+    },
+    {
       "ref": "norma:decreto-5839-2006",
       "dispositivo": "arts. 1º a 7º"
     },
@@ -50,9 +54,9 @@
   "confianca": "oficial",
   "notas": "Composição atual pelo Decreto 5.839/2006; não conferimos os conselheiros nem o presidente em 2026-10-01.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-seguridade",
-    "notas": "coletado em f0-seguridade; Lei 8.142, art. 1º, Decreto 5.839/2006, arts. 1º a 7º (48 titulares; 24 usuários, 12 profissionais, 6 governo, 1 Conass, 1 Conasems, 2 prestadores, 2 empresariais), e Decreto 11.798/2023, Anexo I, arts. 2º, IV, a, e 64, conferidos"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-social",
+    "notas": "f2-social: fontes ganharam a Lei 8.080/1990 (arts. 12, 19-Q, § 1º, 26 e 37); detalhes, a aprovação dos valores pagos pelo SUS (art. 26) e as diretrizes dos planos de saúde (art. 37)"
   }
 }
