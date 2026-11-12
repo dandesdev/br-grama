@@ -1,0 +1,40 @@
+{
+  "id": "org:segunda-turma-do-stf",
+  "tipo": "orgao",
+  "nome": "Segunda Turma do STF",
+  "resumo": "Uma das duas Turmas do STF, de cinco ministros cada. Julga, entre outros, habeas corpus, reclamações e recursos extraordinários que não vão ao Plenário.",
+  "detalhes": "É presidida pelo ministro mais antigo entre os seus membros, por um ano, sem recondução até que todos tenham presidido (RISTF, art. 4º, § 1º). Remete ao Plenário as arguições de inconstitucionalidade relevantes e as propostas de revisão de súmula (art. 11). O Presidente do STF não integra Turma.",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stf",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "arts. 3º e 4º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 3º, 4º, 8º a 11 e 147 a 150"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
+  },
+  "notas": "Texto conferido na edição do RISTF \"atualizado até a Emenda Regimental n. 58/2022\"; a ER 59/2023 não foi lida (ver diário de f2-judiciario).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

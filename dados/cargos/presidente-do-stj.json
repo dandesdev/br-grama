@@ -1,0 +1,54 @@
+{
+  "id": "cargo:presidente-do-stj",
+  "tipo": "cargo",
+  "nome": "Presidente do Superior Tribunal de Justiça",
+  "resumo": "Dirige o STJ, preside o Plenário, a Corte Especial e o Conselho da Justiça Federal. Eleito pelos ministros para dois anos.",
+  "detalhes": "Representa o Tribunal perante os demais Poderes e autoridades e profere o voto de desempate no Plenário e na Corte Especial (RISTJ, art. 21). Integra só o Plenário e a Corte Especial; depois do mandato não pode ocupar outro cargo administrativo no STJ, no CJF, no CNJ, na Enfam ou no TSE (art. 3º, §§ 1º e 3º).",
+  "orgao": "org:stj",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo Plenário, por voto secreto, com presença de dois terços dos ministros; vence no primeiro escrutínio quem tiver maioria absoluta; no segundo concorrem os dois mais votados e, sem maioria absoluta, vence o mais votado ou, no empate, o mais antigo (RISTJ, arts. 3º, 10, II, e 17).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "RISTJ, art. 17. Se o cargo vagar, o Plenário faz nova eleição (arts. 18 a 20)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STJ",
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 3º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 2º, §§ 1º e 2º, 3º, 7º, § 1º, 10, II, 17 e 21"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 2º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

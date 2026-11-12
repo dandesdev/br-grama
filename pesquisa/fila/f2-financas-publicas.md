@@ -1,8 +1,10 @@
 ---
 id: f2-financas-publicas
 escopo: "Fase 2 (D49): Lei 4.320/1964, Lei de Responsabilidade Fiscal, Lei 10.180/2001 e regime fiscal da LC 200/2023"
-status: pendente
+status: em-andamento
 depende_de: [f0-dinheiro, f0-dinheiro-complementar, f1-orcamento]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -31,3 +33,5 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 ## Cobertura
 
 ## Diário
+
+- 2026-11-11 23:01 — iniciada; lidos CLAUDE.md, instruções (com a Fase 2), D01 a D51, modelo de dados, protocolo, vocabulários e os quadros de f2-funcoes-essenciais e f2-legislativo-tcu

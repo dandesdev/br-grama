@@ -1,0 +1,44 @@
+{
+  "id": "org:corte-especial-do-stj",
+  "tipo": "orgao",
+  "nome": "Corte Especial do STJ",
+  "resumo": "Órgão especial do STJ, formado pelos 15 ministros mais antigos e presidido pelo Presidente. Julga governadores, desembargadores e outras autoridades.",
+  "detalhes": "Julga, entre outros, os governadores nos crimes comuns e, nestes e nos de responsabilidade, desembargadores, membros dos tribunais de contas dos estados e dos municípios, dos TRFs, TREs e TRTs e do MPU que oficiam em tribunais; os mandados de segurança contra atos do próprio STJ; e os conflitos e incidentes que envolvem mais de uma Seção (RISTJ, art. 11). É o órgão especial previsto na CF para tribunais com mais de 25 julgadores (CF, art. 93, XI).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 2º, I e § 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 2º, § 2º, 8º, parágrafo único, 11, 15 e 172 a 175"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 93, XI"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

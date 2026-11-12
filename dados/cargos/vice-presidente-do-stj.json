@@ -1,0 +1,46 @@
+{
+  "id": "cargo:vice-presidente-do-stj",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Superior Tribunal de Justiça",
+  "resumo": "Substitui o Presidente do STJ e o sucede em caso de vaga até a nova eleição. É também o Corregedor-Geral da Justiça Federal.",
+  "detalhes": "Integra o Plenário e a Corte Especial também como relator e revisor e pode receber do Presidente, por delegação, a decisão sobre os recursos ao STF (RISTJ, art. 22). Pelo regimento, exerce a Corregedoria-Geral da Justiça Federal (art. 3º; ver cargo:corregedor-geral-da-justica-federal).",
+  "orgao": "org:stj",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo Plenário logo depois do Presidente, pelas mesmas regras (RISTJ, arts. 10, II, e 17, § 5º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição",
+    "nota": "RISTJ, art. 17. Se o cargo vagar, o Plenário faz nova eleição (arts. 18 a 20)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STJ",
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 3º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 3º, 10, II, 17, 18, 22 e 23"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

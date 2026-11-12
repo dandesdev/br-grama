@@ -55,3 +55,4 @@ Cada tarefa da fase 2 cobre um conjunto de leis. Para cada lei:
 5. **Competências em incisos** (D50): vão no `detalhes` do órgão, com o artigo em `fontes`. Relação só quando o inciso liga o órgão a outra entidade do mapa.
 6. Reaproveite o que existe: antes de criar, procure com Grep em `dados/` pelo nome e pela sigla. Se uma entidade existente já representa o que a lei prevê, só acrescente a lei às `fontes` dela (pode editar entidades existentes para isso; anote no diário).
 7. Ao editar uma entidade existente, mude `verificacao` para `{ "status": "coletado", "em": "<hoje>", "tarefa": "<sua tarefa>", "notas": "<o que mudou>" }`, para que a revisão confira a mudança.
+8. **Coberto ou fora.** Artigo citado em `estrutura_continua` ou como fonte de uma relação ou etapa é `coberto`, mesmo que remeta a regulamento. Artigo superado sem revogação expressa é `fora`, com o motivo "superado" (D51).

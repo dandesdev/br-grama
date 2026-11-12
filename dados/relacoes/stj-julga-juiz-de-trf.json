@@ -14,13 +14,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 105, I, a"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 11, I",
+      "nota": "O julgamento é da Corte Especial (org:corte-especial-do-stj)."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF art. 105, I, a conferido; julgamento originário, não recurso: relação julga mantida"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario",
+    "notas": "f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial)"
   }
 }

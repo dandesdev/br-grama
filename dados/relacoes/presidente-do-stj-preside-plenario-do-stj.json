@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-do-stj-preside-plenario-do-stj",
+  "tipo": "relacao",
+  "nome": "Presidência do Plenário do STJ",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-stj",
+  "para": "org:plenario-do-stj",
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 2º, § 1º; art. 21, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

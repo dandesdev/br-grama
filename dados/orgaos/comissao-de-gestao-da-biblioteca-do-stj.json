@@ -1,0 +1,39 @@
+{
+  "id": "org:comissao-de-gestao-da-biblioteca-do-stj",
+  "tipo": "orgao",
+  "nome": "Comissão de Gestão da Biblioteca do STJ",
+  "resumo": "Supervisiona a Biblioteca STJ-Enfam e decide sobre suas coleções especiais e o recebimento de bens culturais em comodato.",
+  "detalhes": "Comissão permanente; as comissões têm cinco ministros, salvo a de Regimento Interno (nove) e a Gestora de Precedentes (seis), designados pelo Presidente com aprovação da Corte Especial e presididos pelo mais antigo (RISTJ, arts. 40 e 41).",
+  "tipo_orgao": "colegiado",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 40, § 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 40 a 42; art. 46-B"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-08-18",
+    "ate": null,
+    "nota": "Incluída pela ER 54/2026 (DJe 18/8/2026)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

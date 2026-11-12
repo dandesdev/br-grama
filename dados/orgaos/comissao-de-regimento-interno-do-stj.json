@@ -1,0 +1,39 @@
+{
+  "id": "org:comissao-de-regimento-interno-do-stj",
+  "tipo": "orgao",
+  "nome": "Comissão de Regimento Interno do STJ",
+  "resumo": "Propõe emendas ao regimento do STJ e opina sobre as de outros ministros e em processos administrativos. Tem nove ministros.",
+  "detalhes": "Comissão permanente; as comissões têm cinco ministros, salvo a de Regimento Interno (nove) e a Gestora de Precedentes (seis), designados pelo Presidente com aprovação da Corte Especial e presididos pelo mais antigo (RISTJ, arts. 40 e 41).",
+  "tipo_orgao": "colegiado",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 40, § 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 40 a 42; art. 43"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-12-19",
+    "ate": null,
+    "nota": "Lista atual das comissões permanentes dada pela ER 47/2024 (DJe 19/12/2024); a de Gestão da Biblioteca foi incluída pela ER 54/2026."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cargo:corregedor-nacional-de-justica",
+  "tipo": "cargo",
+  "nome": "Corregedor Nacional de Justiça",
+  "resumo": "Ministro do STJ que exerce a função de corregedor no CNJ: recebe reclamações contra juízes e serviços judiciários e faz inspeções e correições.",
+  "detalhes": "Fica excluído da distribuição de processos no STJ e, além das atribuições do Estatuto da Magistratura, recebe reclamações e denúncias sobre magistrados e serviços judiciários, faz correições e inspeções gerais e requisita magistrados (CF, art. 103-B, § 5º). No STJ, integra só o Plenário e a Corte Especial (RISTJ, art. 3º, § 1º).",
+  "orgao": "org:cnj",
+  "provimento": "eleicao-por-tribunal",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo Plenário do STJ entre os seus ministros, junto com o Presidente e o Vice (RISTJ, arts. 3º e 20). Como conselheiro do CNJ, é nomeado pelo Presidente da República depois de aprovado pelo Senado (CF, art. 103-B, II e § 2º).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "Mandato de conselheiro do CNJ de dois anos, admitida uma recondução (CF, art. 103-B, caput); no STJ, a eleição coincide com a do Presidente (RISTJ, art. 20)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STJ",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103-B, II e § 5º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103-B, II, § 2º e § 5º"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 3º, caput e § 1º, e 20"
+    }
+  ],
+  "vigencia": {
+    "de": "2004-12-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Função criada pela EC 45/2004; data de publicação da emenda não conferida aqui."
+  },
+  "notas": "Criado nesta tarefa porque o RISTJ (art. 3º) faz do STJ quem o elege. O cargo é a função de um dos conselheiros do CNJ (cargo:conselheiro-do-cnj).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

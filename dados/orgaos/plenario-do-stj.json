@@ -1,0 +1,40 @@
+{
+  "id": "org:plenario-do-stj",
+  "tipo": "orgao",
+  "nome": "Plenário do STJ",
+  "resumo": "Reunião dos 33 ministros do STJ, presidida pelo Presidente. Cuida sobretudo de eleições, listas e regimento; o julgamento de processos cabe à Corte Especial, às Seções e às Turmas.",
+  "detalhes": "Dá posse aos ministros; elege o Presidente, o Vice-Presidente, o Corregedor Nacional de Justiça, os ministros do CJF, o Diretor da Revista e os ministros que vão ao TSE; faz as listas tríplices para as vagas do próprio STJ; vota o regimento; e propõe ao Legislativo leis sobre o número de membros e os cargos do STJ e dos TRFs (RISTJ, arts. 3º, 10 e 289).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 2º, I e § 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 2º, I e § 1º, 3º, 10, 171 e 289"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

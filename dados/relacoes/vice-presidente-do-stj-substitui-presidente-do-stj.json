@@ -1,0 +1,28 @@
+{
+  "id": "rel:vice-presidente-do-stj-substitui-presidente-do-stj",
+  "tipo": "relacao",
+  "nome": "Substituição do Presidente do STJ",
+  "relacao": "substitui",
+  "de": "cargo:vice-presidente-do-stj",
+  "para": "cargo:presidente-do-stj",
+  "condicao": "Nas férias, licenças, ausências e impedimentos; em caso de vaga, assume e convoca o Plenário para eleger o novo Presidente em até 30 dias.",
+  "ordem": 1,
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 18 e 22"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

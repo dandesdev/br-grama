@@ -1,0 +1,40 @@
+{
+  "id": "org:presidencia-do-stj",
+  "tipo": "orgao",
+  "nome": "Presidência do STJ",
+  "resumo": "Órgão de direção do STJ, exercido pelo Presidente: representa o Tribunal, preside o Plenário, a Corte Especial e o CJF e despacha processos antes da distribuição.",
+  "detalhes": "O regimento lista as atribuições do Presidente (RISTJ, arts. 21 a 21-E), entre elas presidir as sessões do Plenário e da Corte Especial com voto de desempate. Tem gabinete próprio (art. 322).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 21"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 21, 21-A, 21-B, 21-C, 21-D, 21-E e 322"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

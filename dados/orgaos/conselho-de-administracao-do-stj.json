@@ -1,0 +1,40 @@
+{
+  "id": "org:conselho-de-administracao-do-stj",
+  "tipo": "orgao",
+  "nome": "Conselho de Administração do STJ",
+  "resumo": "Colegiado dos 11 ministros mais antigos do STJ, presidido pelo Presidente, que decide as matérias administrativas do Tribunal.",
+  "detalhes": "Delibera sobre a organização dos serviços da Secretaria, os cargos de direção e assessoramento e as demais matérias administrativas que não sejam do Plenário, da Corte Especial ou do Presidente; de suas decisões não cabe recurso administrativo. Reúne-se ao menos uma vez por trimestre (RISTJ, arts. 5º, 38 e 39).",
+  "tipo_orgao": "colegiado",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 5º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 5º, 38, 39 e 182 a 184"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

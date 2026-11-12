@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-do-stj-preside-conselho-da-justica-federal",
+  "tipo": "relacao",
+  "nome": "Presidência do CJF",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-stj",
+  "para": "org:conselho-da-justica-federal",
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 7º, § 1º"
+    },
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 2º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2008-10-30",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

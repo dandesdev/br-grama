@@ -144,3 +144,51 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 - 2026-11-11 23:00 — gravado rel:presidente-do-tjdft-nomeia-juiz-de-direito-substituto
 - 2026-11-11 23:00 — gravado rel:corregedoria-da-justica-do-df-corrige-juiz-de-direito
 - 2026-11-11 23:00 — editado org:tj-df (f2-judiciario: acrescentados ao detalhes a composição (48 desembargadores), os órgãos da Justiça do DF e a competência originária (Lei 11.697/2008, arts. 1º, 2º, 4º e 8º; LOMAN, arts. 19 e 132))
+- 2026-11-11 23:02 — gravado org:plenario-do-stf
+- 2026-11-11 23:02 — gravado org:primeira-turma-do-stf
+- 2026-11-11 23:02 — gravado org:segunda-turma-do-stf
+- 2026-11-11 23:02 — gravado org:presidencia-do-stf
+- 2026-11-11 23:02 — gravado cargo:vice-presidente-do-stf
+- 2026-11-11 23:02 — gravado rel:ministros-do-stf-elegem-vice-presidente-do-stf
+- 2026-11-11 23:02 — gravado rel:vice-presidente-do-stf-substitui-presidente-do-stf
+- 2026-11-11 23:02 — gravado org:comissao-de-regimento-do-stf
+- 2026-11-11 23:02 — gravado org:comissao-de-jurisprudencia-do-stf
+- 2026-11-11 23:02 — gravado org:comissao-de-documentacao-do-stf
+- 2026-11-11 23:02 — gravado org:comissao-de-coordenacao-do-stf
+- 2026-11-11 23:02 — gravado org:plenario-do-stj
+- 2026-11-11 23:02 — gravado org:corte-especial-do-stj
+- 2026-11-11 23:02 — gravado org:primeira-secao-do-stj
+- 2026-11-11 23:02 — gravado org:segunda-secao-do-stj
+- 2026-11-11 23:02 — gravado org:terceira-secao-do-stj
+- 2026-11-11 23:02 — gravado org:primeira-turma-do-stj
+- 2026-11-11 23:02 — gravado org:segunda-turma-do-stj
+- 2026-11-11 23:02 — gravado org:terceira-turma-do-stj
+- 2026-11-11 23:02 — gravado org:quarta-turma-do-stj
+- 2026-11-11 23:02 — gravado org:quinta-turma-do-stj
+- 2026-11-11 23:02 — gravado org:sexta-turma-do-stj
+- 2026-11-11 23:02 — gravado org:presidencia-do-stj
+- 2026-11-11 23:02 — gravado org:conselho-de-administracao-do-stj
+- 2026-11-11 23:02 — gravado org:comissao-de-regimento-interno-do-stj
+- 2026-11-11 23:02 — gravado org:comissao-gestora-de-precedentes-do-stj
+- 2026-11-11 23:02 — gravado org:comissao-de-cooperacao-internacional-do-stj
+- 2026-11-11 23:02 — gravado org:comissao-de-coordenacao-e-documentacao-do-stj
+- 2026-11-11 23:02 — gravado org:comissao-de-tecnologia-da-informacao-do-stj
+- 2026-11-11 23:02 — gravado org:comissao-de-gestao-da-biblioteca-do-stj
+- 2026-11-11 23:02 — gravado cargo:presidente-do-stj
+- 2026-11-11 23:02 — gravado cargo:vice-presidente-do-stj
+- 2026-11-11 23:02 — gravado cargo:corregedor-nacional-de-justica
+- 2026-11-11 23:02 — gravado rel:ministros-do-stj-elegem-presidente-do-stj
+- 2026-11-11 23:02 — gravado rel:ministros-do-stj-elegem-vice-presidente-do-stj
+- 2026-11-11 23:02 — gravado rel:ministros-do-stj-elegem-corregedor-nacional-de-justica
+- 2026-11-11 23:02 — gravado rel:vice-presidente-do-stj-substitui-presidente-do-stj
+- 2026-11-11 23:02 — gravado rel:presidente-do-stj-preside-corte-especial-do-stj
+- 2026-11-11 23:02 — gravado rel:presidente-do-stj-preside-plenario-do-stj
+- 2026-11-11 23:02 — gravado rel:presidente-do-stj-preside-conselho-da-justica-federal
+- 2026-11-11 23:02 — gravado rel:presidente-do-stj-preside-conselho-de-administracao-do-stj
+- 2026-11-11 23:02 — editado rel:stj-julga-governador (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))
+- 2026-11-11 23:02 — editado rel:stj-julga-desembargador (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))
+- 2026-11-11 23:02 — editado rel:stj-julga-conselheiro-do-tce (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))
+- 2026-11-11 23:02 — editado rel:stj-julga-juiz-de-trf (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))
+- 2026-11-11 23:02 — editado rel:stj-julga-juiz-de-trt (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))
+- 2026-11-11 23:02 — editado rel:stj-julga-juiz-de-tre (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))
+- 2026-11-11 23:02 — editado rel:stj-julga-membro-do-mpu (f2-judiciario: acrescentado o RISTJ, art. 11, I (julgamento pela Corte Especial))

@@ -1,0 +1,40 @@
+{
+  "id": "org:presidencia-do-stf",
+  "tipo": "orgao",
+  "nome": "Presidência do STF",
+  "resumo": "Órgão do STF exercido pelo Presidente do Tribunal: representa o STF, dirige os trabalhos e despacha os processos antes da distribuição.",
+  "detalhes": "O regimento lista o Presidente entre os órgãos do Tribunal, ao lado do Plenário e das Turmas (RISTF, art. 3º). Entre as atribuições estão velar pelas prerrogativas do Tribunal, representá-lo perante os demais Poderes e presidir as sessões plenárias (art. 13). Tem gabinete próprio (art. 356).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stf",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 3º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 3º, 13 e 356"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
+  },
+  "notas": "O cargo de Presidente (cargo:presidente-do-stf) continua ligado a org:stf, como no piloto.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

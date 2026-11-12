@@ -1,0 +1,30 @@
+{
+  "id": "rel:ministros-do-stf-elegem-vice-presidente-do-stf",
+  "tipo": "relacao",
+  "nome": "Eleição do Vice-Presidente do STF",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-stf",
+  "para": "cargo:vice-presidente-do-stf",
+  "condicao": "Em voto secreto, com quórum de oito ministros; vence no primeiro escrutínio quem tiver mais da metade dos votos dos membros do Tribunal.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 7º, I; art. 12"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

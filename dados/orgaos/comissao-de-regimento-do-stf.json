@@ -1,0 +1,44 @@
+{
+  "id": "org:comissao-de-regimento-do-stf",
+  "tipo": "orgao",
+  "nome": "Comissão de Regimento do STF",
+  "resumo": "Propõe emendas ao regimento interno do STF e opina sobre as de outros ministros e em processos administrativos.",
+  "detalhes": "Dela participam o ministro mais antigo e o mais novo, e tem um suplente (RISTF, arts. 27, § 3º, e 31). Como as demais comissões permanentes, tem três ministros designados pelo Presidente, com mandato igual ao dele, e é presidida pelo mais antigo (arts. 27 a 29).",
+  "tipo_orgao": "colegiado",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:stf",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 27, § 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 27, 28 e 31"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 26, 29 e 30"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
+  },
+  "notas": "Texto conferido na edição do RISTF \"atualizado até a Emenda Regimental n. 58/2022\"; a ER 59/2023 não foi lida (ver diário de f2-judiciario).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

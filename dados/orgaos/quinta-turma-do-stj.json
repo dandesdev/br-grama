@@ -1,0 +1,40 @@
+{
+  "id": "org:quinta-turma-do-stj",
+  "tipo": "orgao",
+  "nome": "Quinta Turma do STJ",
+  "resumo": "Turma especializada do STJ, de cinco ministros, que integra a Terceira Seção. Julga sobretudo recursos especiais e habeas corpus.",
+  "detalhes": "É presidida pelo ministro mais antigo, com rodízio a cada dois anos (RISTJ, art. 2º, § 4º). Julga, entre outros, os recursos especiais e ordinários e os habeas corpus contra atos de tribunais sujeitos ao STJ, e remete à Seção as causas relevantes ou que podem gerar divergência (arts. 13 e 14).",
+  "tipo_orgao": "judiciario-orgao-interno",
+  "poder": "judiciario",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:terceira-secao-do-stj",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:ristj",
+          "dispositivo": "art. 2º, III e § 4º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 2º, § 4º, 13 a 15, 25 e 179 a 181"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

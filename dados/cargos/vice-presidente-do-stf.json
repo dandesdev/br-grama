@@ -1,0 +1,45 @@
+{
+  "id": "cargo:vice-presidente-do-stf",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do Supremo Tribunal Federal",
+  "resumo": "Substitui o Presidente do STF nas licenças, ausências e impedimentos e, se o cargo vagar, até a posse do novo titular. Eleito pelos ministros.",
+  "detalhes": "Permanece na sua Turma enquanto é Vice-Presidente. Na falta dele, a substituição segue a ordem decrescente de antiguidade dos ministros (RISTF, art. 37, I).",
+  "orgao": "org:stf",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 1,
+  "provimento_nota": "Eleito pelo Tribunal, em voto secreto, entre os ministros, na mesma forma do Presidente (RISTF, arts. 2º, parágrafo único, 7º, I, e 12).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição para o período imediato",
+    "nota": "RISTF, art. 12; o mandato se estende até a posse do sucessor (art. 12, § 8º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser ministro do STF",
+      "fontes": [
+        {
+          "ref": "norma:ristf",
+          "dispositivo": "art. 2º, parágrafo único"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "arts. 2º, parágrafo único, 7º, I, 12, 14 e 37, I"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null,
+    "nota": "Órgão do STF na Constituição de 1988; o RISTF é de 1980."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

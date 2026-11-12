@@ -1,0 +1,31 @@
+{
+  "id": "rel:ministros-do-stj-elegem-corregedor-nacional-de-justica",
+  "tipo": "relacao",
+  "nome": "Eleição do Corregedor Nacional de Justiça pelo STJ",
+  "relacao": "elege",
+  "de": "cargo:ministro-do-stj",
+  "para": "cargo:corregedor-nacional-de-justica",
+  "condicao": "Pelo Plenário, junto com o Presidente e o Vice; a investidura no CNJ depende de nomeação pelo Presidente da República após aprovação do Senado.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 96, I, a"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "arts. 3º, 10, II, 17 e 20"
+    }
+  ],
+  "vigencia": {
+    "de": "1989-07-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do RISTJ (art. 344)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-judiciario"
+  }
+}

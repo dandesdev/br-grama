@@ -16,11 +16,18 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [ ] Ocupantes em 2026-10-01 dos cargos de chefia criados na fase 2 (PGT, PGJM, PGJ do MPDFT, PGU, Consultor-Geral da União, PGFN, PGF, diretores das agências, Líder do Governo, Ouvidores e Corregedores das Casas), só a cúpula (D11).
 - [ ] MP 2.229-43/2001 (carreira de Procurador Federal) e lista atual das consultorias jurídicas dos ministérios (f2-funcoes-essenciais).
 
+- [ ] Comissões mistas permanentes que faltam: Comissão Mista Representativa no FIPA (Res. 2/2007-CN) e Comissão Mista de Assuntos da CPLP (Res. 2/2014-CN) (verificacao-f2-legislativo-tcu).
+- [ ] Lideranças do Congresso (RCCN, art. 4º; RCN 3/2025): Líder do Governo, da Maioria, da Minoria e da Oposição no Congresso; reclassificar o art. 4º do RCCN de fora para lacuna até criar (verificacao-f2-legislativo-tcu).
+- [ ] Quadro do RICD e do RISF, reclassificar ou cobrir: RICD, art. 216 (reforma do regimento; citar em `proc:resolucao`, como o RISF, art. 401); RICD, arts. 212 e 213 (consolidação, parcial); RICD, art. 105, e RISF, art. 332 (arquivamento ao fim da legislatura: etapa terminal de `proc:lei-ordinaria`); RICD, arts. 250 e 251 (Casa resolve sobre a prisão de deputado, CF, art. 53, § 2º: relação) (verificacao-f2-legislativo-tcu).
+- [ ] Terceira Secretaria do Senado em 2026-10-01: titular Ana Paula Lobato afastada; quem exerceu de 5/8 a 6/10/2026 entra com `interino: true` (D40), se a fonte do Senado disser (verificacao-f2-legislativo-tcu).
+- [ ] Conselho da República: três relações apontam para o órgão onde o cargo `cargo:membro-cidadao-do-conselho-da-republica` seria o destino certo; conferir e trocar (verificacao-f2-legislativo-tcu).
+
 ## Propostas de vocabulário (para o coordenador decidir)
 
 - `tipo_orgao`: órgão interno de função essencial (corregedorias, ouvidorias, secretarias do MP, da Defensoria e da AGU) e escola institucional (f2-funcoes-essenciais).
 - `relacao`: "forma lista" (tríplice, sêxtupla), hoje `indica`; "avoca" (DL 200, art. 170); "secretaria" um colegiado, hoje `auxilia` (f2-executivo, f2-funcoes-essenciais).
-- `tipo_norma`: ato da Mesa e ato conjunto, hoje `outro` (f2-legislativo-tcu).
+- `tipo_norma`: ato da Mesa e ato conjunto, hoje `outro` (f2-legislativo-tcu; a revisão reforçou).
+- `relacao`: verbo para escolha livre sem aprovação de outro órgão (Líder do Governo), hoje `indica`, que pressupõe aprovação (verificacao-f2-legislativo-tcu).
 - `tipos-orgao.json`: definições de empresa pública, sociedade de economia mista e fundação pública comparadas ao DL 200, art. 5º (f2-executivo).
 
 ## Decisões tomadas pelo coordenador
@@ -30,5 +37,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-11: `nomeacao-a-partir-de-lista` passa a dizer "pela autoridade competente" (não só o chefe do Executivo). A coleta usa o termo para corregedores e ouvidores nomeados por procuradores-gerais e defensores-gerais, e o mecanismo é o mesmo; criar outro termo multiplicaria vocabulário sem ganho de leitura (verificacao-f2-funcoes-essenciais).
 - 2026-11-11: sem aviso para o ingresso no MPU (CF, art. 129, § 3º, contra LC 75, art. 187) e para a rejeição do DPGF pelo Senado. No primeiro a CF prevalece sem dúvida e os cargos já a seguem; no segundo é silêncio da lei, já anotado no processo. Aviso fica para dúvida real de fonte (D36, D37).
 - 2026-11-11: quadro de f2-funcoes-essenciais reclassificado conforme a revisão (LC 75, arts. 82, 115, 148, 181; Lei 8.625, art. 80; LC 80, art. 50 passam a coberto; Título III da LC 80 fica fora pela D51). Regra para as próximas coletas: artigo citado em `estrutura_continua` ou como fonte de relação é coberto, não fora.
+
+- 2026-11-11: o titular afastado continua como ocupante no retrato, com o afastamento em `condicao`; quem exerce no lugar entra com `interino: true`. É a leitura direta da D40 e evita esvaziar cargos durante licenças curtas.
 
 ## Diário
