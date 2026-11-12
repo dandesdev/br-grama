@@ -14,13 +14,7 @@
         "cargo:senador"
       ],
       "acao": "Um terço, no mínimo, dos membros da Câmara ou do Senado apresenta o projeto de decreto legislativo de convocação",
-      "detalhes": "No referendo, a convocação pode ser feita em até 30 dias da promulgação da lei ou da adoção da medida administrativa a que se refere a consulta (Lei 9.709/1998, art. 11).",
-      "prazo": {
-        "texto": "Referendo: em até 30 dias da promulgação da lei ou da adoção da medida administrativa (art. 11).",
-        "valor": 30,
-        "unidade": "dias",
-        "conta_de": "promulgação da lei ou adoção da medida administrativa"
-      },
+      "detalhes": "No referendo, a proposta tem de permitir que a convocação saia em até 30 dias da promulgação da lei ou da adoção da medida administrativa a que se refere a consulta (Lei 9.709/1998, art. 11).",
       "fontes": [
         {
           "ref": "norma:lei-9709-1998",
@@ -43,6 +37,12 @@
       "acao": "O Congresso Nacional vota o decreto legislativo que convoca a consulta",
       "detalhes": "Convocar plebiscito e autorizar referendo é competência exclusiva do Congresso (CF, art. 49, XV). A tramitação segue o Regimento Comum (Lei 9.709/1998, art. 12).",
       "remete_a": "proc:decreto-legislativo",
+      "prazo": {
+        "texto": "Referendo: convocado em até 30 dias da promulgação da lei ou da adoção da medida administrativa (Lei 9.709/1998, art. 11).",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "promulgação da lei ou adoção da medida administrativa"
+      },
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -50,7 +50,7 @@
         },
         {
           "ref": "norma:lei-9709-1998",
-          "dispositivo": "arts. 3º e 12"
+          "dispositivo": "arts. 3º, 11 e 12"
         }
       ],
       "seguintes": [
@@ -69,7 +69,7 @@
       "atores": [
         "cargo:presidente-do-senado-federal"
       ],
-      "acao": "O Presidente do Congresso comunica a convocação à Justiça Eleitoral; projetos sobre o tema ficam suspensos",
+      "acao": "O Presidente do Congresso comunica a convocação à Justiça Eleitoral; no plebiscito, projetos sobre o tema param",
       "detalhes": "O Presidente do Senado preside a Mesa do Congresso Nacional (CF, art. 57, § 5º). Convocado o plebiscito, o projeto legislativo ou a medida administrativa ainda não efetivada sobre o tema tem a tramitação sustada até a proclamação do resultado (Lei 9.709/1998, art. 9º).",
       "fontes": [
         {
@@ -200,9 +200,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "coletado em f2-eleicoes; etapa a etapa: Lei 9.709/1998, arts. 1º a 3º e 8º a 12, e CF, arts. 14, I e II, 49, XV, e 57, § 5º, conferidos; quórum de maioria simples (art. 10) conferido. Corrigido: o prazo de 30 dias do art. 11 é da convocação do referendo, não da proposta (passou para a etapa convocacao); a suspensão de projetos do art. 9º vale só para o plebiscito (ação da etapa ciencia-a-justica-eleitoral ajustada)"
   },
   "notas": "Processo das consultas nacionais (Lei 9.709/1998, art. 3º). As consultas sobre alteração territorial já estão em proc:alteracao-territorial-de-estados e proc:alteracao-territorial-de-municipios. A lei fala em 'Presidente do Congresso Nacional' (art. 8º); usamos o cargo de Presidente do Senado, que preside a Mesa do Congresso (CF, art. 57, § 5º). Texto da lei em pesquisa/brutos/planalto-leis/2026-11-11-f2-eleicoes/l9709.htm."
 }

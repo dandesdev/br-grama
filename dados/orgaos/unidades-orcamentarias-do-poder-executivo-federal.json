@@ -1,0 +1,41 @@
+{
+  "id": "org:unidades-orcamentarias-do-poder-executivo-federal",
+  "tipo": "orgao",
+  "nome": "Unidades orçamentárias do Poder Executivo federal",
+  "resumo": "Repartições do Executivo federal que recebem dotações próprias no orçamento e executam a despesa: empenham, liquidam e pagam.",
+  "detalhes": "A Lei 4.320/1964 chama de unidade orçamentária o agrupamento de serviços de um mesmo órgão a que a lei de orçamento consigna dotações próprias (art. 14). Cada unidade recebe cotas da programação financeira e executa a despesa (arts. 47 e 58 a 65); a lei de orçamento pode mandar que as dotações sejam movimentadas por órgãos centrais de administração geral (art. 66).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 14"
+        }
+      ],
+      "nota": "Conjunto de unidades em todos os ministérios e entidades; por isso fica no Poder Executivo federal."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "art. 14; art. 47; art. 66"
+    }
+  ],
+  "vigencia": {
+    "de": "1964-03-23",
+    "ate": null,
+    "nota": "Data de publicação da Lei 4.320/1964 (ver a vigência da norma)."
+  },
+  "notas": "Conjunto criado como ator do processo de execução da despesa. Os outros Poderes, o Ministério Público e a Defensoria têm unidades orçamentárias próprias e seguem as mesmas etapas; ficaram fora deste conjunto para não misturar Poderes. As métricas de orçamento (D46, D47) usam as unidades orçamentárias como recorte.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

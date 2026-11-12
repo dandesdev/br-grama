@@ -1,0 +1,26 @@
+{
+  "id": "rel:banco-central-presta-contas-a-congresso-nacional",
+  "tipo": "relacao",
+  "nome": "O Banco Central avalia no Congresso o cumprimento das metas das políticas monetária, creditícia e cambial",
+  "relacao": "presta-contas-a",
+  "de": "org:banco-central",
+  "para": "org:congresso-nacional",
+  "condicao": "Até 90 dias depois de cada semestre, apresenta em reunião conjunta das comissões temáticas do Congresso a avaliação das metas, o impacto e o custo fiscal de suas operações e os resultados dos balanços.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 9º, § 5º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

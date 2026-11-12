@@ -22,10 +22,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes",
-    "notas": "f2-eleicoes: condição e fontes completadas com o rito e prazo do registro (Lei 9.096/1995, art. 9º, §§ 3º e 4º), as alterações estatutárias (art. 10) e os documentos do registro da federação (art. 11-A, § 6º). Antes: coletado em f0-eleicoes; CF, art. 17, § 2º, e Lei 9.096/1995, art. 7º, §§ 1º a 3º, e art. 11-A, caput e § 3º, IV, conferidos; o termo aprecia-para-registro cabe pela definição"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "f2-eleicoes acrescentou rito, prazo e alterações estatutárias: Lei 9.096/1995, arts. 9º, §§ 3º e 4º, 10, caput, e 11-A, § 6º, conferidos. Antes: verificado em verificacao-f0-eleicoes (CF, art. 17, § 2º; Lei 9.096/1995, arts. 7º, §§ 1º a 3º, e 11-A, caput e § 3º, IV)"
   },
   "notas": "'aprecia-para-registro' foi pensado para o TCU (art. 71, III), mas a definição ('examina a legalidade de um ato e decide se ele é registrado') cabe aqui. Se o mantenedor preferir, criar um termo 'registra'."
 }

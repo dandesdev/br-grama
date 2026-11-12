@@ -35,3 +35,59 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 ## Diário
 
 - 2026-11-11 23:01 — iniciada; lidos CLAUDE.md, instruções (com a Fase 2), D01 a D51, modelo de dados, protocolo, vocabulários e os quadros de f2-funcoes-essenciais e f2-legislativo-tcu
+- 2026-11-11 23:11 — cópias locais em pesquisa/brutos/planalto-leis/2026-11-11-f2-financas-publicas/ (Planalto só respondeu com curl --http1.1 e user-agent de navegador): l4320.htm, lcp101.htm, l10180.htm, lcp200.htm, iguais byte a byte às cópias de 2026-10-23 fora o script do servidor; compilacao_ate segue LC 208/2024 (Lei 4.320), LC 224/2025 (LRF), Lei 13.464/2017 (Lei 10.180) e LC 223/2025 (LC 200); nenhuma alteração entre 2026-10-01 e hoje. Também d11330.htm (CGU, alterações até o Decreto 12.776/2025) e d11353.htm (MPO, até o Decreto 13.090/2026, de 4/8/2026)
+- 2026-11-11 23:11 — ADI 2238 (LRF): decisão lida na reprodução do portal de legislação do Senado (cópia em pesquisa/brutos/senado/2026-11-11-f2-financas-publicas/adi2238-senado.html): inconstitucionais o art. 9º, § 3º, o art. 23, § 2º, e os arts. 56, caput, e 57, caput; art. 23, § 1º, sem redução de texto
+- 2026-11-11 23:11 — gravado fonte:senado-legislacao-adi-2238-decisao
+- 2026-11-11 23:11 — gravado org:sistema-de-planejamento-e-de-orcamento-federal
+- 2026-11-11 23:11 — gravado org:sistema-de-administracao-financeira-federal
+- 2026-11-11 23:11 — gravado org:sistema-de-contabilidade-federal
+- 2026-11-11 23:11 — gravado org:sistema-de-controle-interno-do-poder-executivo-federal
+- 2026-11-11 23:11 — gravado org:secretaria-de-orcamento-federal
+- 2026-11-11 23:11 — gravado org:secretaria-federal-de-controle-interno
+- 2026-11-11 23:11 — gravado org:comissao-de-coordenacao-de-controle-interno
+- 2026-11-11 23:11 — gravado org:orgaos-setoriais-de-planejamento-e-orcamento
+- 2026-11-11 23:11 — gravado org:orgaos-setoriais-de-administracao-financeira
+- 2026-11-11 23:11 — gravado org:orgaos-setoriais-de-contabilidade
+- 2026-11-11 23:11 — gravado org:orgaos-setoriais-de-controle-interno
+- 2026-11-11 23:11 — npm run -s validar sem erros (lote 1)
+- 2026-11-11 23:12 — gravado rel:ministerio-do-planejamento-e-orcamento-dirige-sistema-de-planejamento-e-de-orcamento-federal
+- 2026-11-11 23:12 — gravado rel:secretaria-de-orcamento-federal-coordena-orgaos-setoriais-de-planejamento-e-orcamento
+- 2026-11-11 23:12 — gravado rel:secretaria-do-tesouro-nacional-dirige-sistema-de-administracao-financeira-federal
+- 2026-11-11 23:12 — gravado rel:secretaria-do-tesouro-nacional-dirige-sistema-de-contabilidade-federal
+- 2026-11-11 23:12 — gravado rel:secretaria-do-tesouro-nacional-coordena-orgaos-setoriais-de-administracao-financeira
+- 2026-11-11 23:12 — gravado rel:secretaria-do-tesouro-nacional-coordena-orgaos-setoriais-de-contabilidade
+- 2026-11-11 23:12 — gravado rel:cgu-dirige-sistema-de-controle-interno-do-poder-executivo-federal
+- 2026-11-11 23:12 — gravado rel:secretaria-federal-de-controle-interno-coordena-orgaos-setoriais-de-controle-interno
+- 2026-11-11 23:12 — gravado rel:comissao-de-coordenacao-de-controle-interno-coordena-sistema-de-controle-interno-do-poder-executivo-federal
+- 2026-11-11 23:12 — gravado rel:orgaos-setoriais-de-planejamento-e-orcamento-integra-sistema-de-planejamento-e-de-orcamento-federal
+- 2026-11-11 23:12 — gravado rel:orgaos-setoriais-de-administracao-financeira-integra-sistema-de-administracao-financeira-federal
+- 2026-11-11 23:12 — gravado rel:orgaos-setoriais-de-contabilidade-integra-sistema-de-contabilidade-federal
+- 2026-11-11 23:12 — gravado rel:orgaos-setoriais-de-controle-interno-integra-sistema-de-controle-interno-do-poder-executivo-federal
+- 2026-11-11 23:12 — npm run -s validar sem erros (lote 2); verbo 'coordena' usado para a supervisão técnica do órgão central sobre os setoriais (ver proposta de vocabulário no fim)
+- 2026-11-11 23:16 — gravado obj:rreo
+- 2026-11-11 23:16 — gravado obj:rgf
+- 2026-11-11 23:16 — gravado obj:balanco-do-setor-publico-nacional
+- 2026-11-11 23:16 — gravado obj:limites-da-divida-publica
+- 2026-11-11 23:16 — gravado org:unidades-orcamentarias-do-poder-executivo-federal
+- 2026-11-11 23:16 — gravado rel:secretaria-do-tesouro-nacional-publica-rreo
+- 2026-11-11 23:16 — gravado rel:presidente-da-republica-publica-rgf
+- 2026-11-11 23:16 — gravado rel:mesa-da-camara-dos-deputados-publica-rgf
+- 2026-11-11 23:16 — gravado rel:mesa-do-senado-federal-publica-rgf
+- 2026-11-11 23:16 — gravado rel:tcu-publica-rgf
+- 2026-11-11 23:16 — gravado rel:poder-judiciario-publica-rgf
+- 2026-11-11 23:16 — gravado rel:procurador-geral-da-republica-publica-rgf
+- 2026-11-11 23:16 — gravado rel:secretaria-do-tesouro-nacional-publica-balanco-do-setor-publico-nacional
+- 2026-11-11 23:16 — gravado rel:tcu-fiscaliza-rgf
+- 2026-11-11 23:16 — gravado rel:tcu-fiscaliza-rreo
+- 2026-11-11 23:16 — gravado rel:arquetipo-estadual-tce-fiscaliza-rgf
+- 2026-11-11 23:16 — gravado rel:arquetipo-estadual-tce-fiscaliza-rreo
+- 2026-11-11 23:16 — gravado rel:tcu-fiscaliza-limites-da-divida-publica
+- 2026-11-11 23:16 — gravado rel:secretaria-do-tesouro-nacional-monitora-limites-da-divida-publica
+- 2026-11-11 23:16 — gravado rel:ministro-da-fazenda-presta-contas-a-cmo
+- 2026-11-11 23:16 — gravado rel:banco-central-presta-contas-a-congresso-nacional
+- 2026-11-11 23:16 — npm run -s validar sem erros (lote 3: relatórios da LRF, Balanço do Setor Público Nacional, limites da dívida, conjunto de unidades orçamentárias, relações de publicação e fiscalização)
+- 2026-11-11 23:16 — verbo 'publica' usado para relatórios (RREO, RGF, balanço), embora a definição fale em norma; proposta no fim
+- 2026-11-11 23:17 — gravado proc:execucao-da-despesa
+- 2026-11-11 23:17 — gravado proc:reconducao-da-despesa-com-pessoal-ao-limite
+- 2026-11-11 23:17 — npm run -s validar sem erros (lote 4: processos); ação da etapa sancoes encurtada para caber em 120 caracteres
+- 2026-11-11 23:17 — decisão: proc:execucao-da-despesa usa como ator o conjunto org:unidades-orcamentarias-do-poder-executivo-federal; nos outros Poderes as etapas são as mesmas (dito nos detalhes). Limitação de empenho com os quatro Poderes/MPU como atores; ADI 2238 citada para o art. 9º, § 3º, e o art. 23, §§ 1º e 2º

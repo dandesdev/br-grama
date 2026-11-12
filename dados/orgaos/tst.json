@@ -4,7 +4,7 @@
   "nome": "Tribunal Superior do Trabalho",
   "sigla": "TST",
   "resumo": "Tribunal superior da Justiça do Trabalho; julga, entre outros, os recursos contra decisões dos TRTs. Tem 27 ministros.",
-  "detalhes": "Um quinto dos ministros vem da advocacia e do Ministério Público do Trabalho, pela regra do art. 94; os demais são juízes de carreira dos TRTs indicados pelo próprio TST. Todos são nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado (art. 111-A). A competência do TST é definida em lei (art. 111-A, § 1º): pela CLT, julga o recurso de revista contra decisões dos TRTs em recurso ordinário, nos dissídios individuais (CLT, art. 896). Junto a ele funcionam a Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho e o Conselho Superior da Justiça do Trabalho (art. 111-A, § 2º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II). É a instância suprema da Justiça do Trabalho e funciona em composição plena ou dividido em Turmas; o Tribunal Pleno elabora o regimento e estabelece as súmulas, com voto de dois terços dos membros (CLT, arts. 690 e 702, I, f e h).",
+  "detalhes": "Um quinto dos ministros vem da advocacia e do Ministério Público do Trabalho, pela regra do art. 94; os demais são juízes de carreira dos TRTs indicados pelo próprio TST. Todos são nomeados pelo Presidente da República depois de aprovados pela maioria absoluta do Senado (art. 111-A). A competência do TST é definida em lei (art. 111-A, § 1º): pela CLT, julga o recurso de revista contra decisões dos TRTs em recurso ordinário, nos dissídios individuais (CLT, art. 896). Junto a ele funcionam a Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho e o Conselho Superior da Justiça do Trabalho (art. 111-A, § 2º). Como tribunal superior, propõe leis sobre a Justiça (arts. 61 e 96, II). É a instância suprema da Justiça do Trabalho e funciona em composição plena ou dividido em Turmas; o Tribunal Pleno elabora o regimento e estabelece as súmulas (CLT, arts. 690 e 702, I, f e h).",
   "tipo_orgao": "judiciario-tribunal",
   "poder": "judiciario",
   "esfera": "federal",
@@ -55,10 +55,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario",
-    "notas": "f2-judiciario: acrescentados ao detalhes o funcionamento em Pleno e Turmas e a competência do Pleno para súmulas e regimento (CLT, arts. 690 e 702)"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario (acrescentados ao detalhes o funcionamento em Pleno e Turmas e a competência do Pleno para súmulas e regimento (CLT, arts. 690 e 702)). Corrigido: o detalhes dava o quórum de dois terços para o Pleno editar súmulas (CLT, art. 702, I, f, redação da Lei 13.467/2017), regra declarada inconstitucional na ADI 6188; o quórum saiu e a razão foi para as notas."
   },
-  "notas": "O inciso II-A do art. 92 foi incluído pela EC 92/2016. Composição de 27 ministros e limite de idade na redação da EC 122/2022."
+  "notas": "O inciso II-A do art. 92 foi incluído pela EC 92/2016. Composição de 27 ministros e limite de idade na redação da EC 122/2022. O art. 702, I, f, da CLT, na redação da Lei 13.467/2017, exigia dois terços dos membros e outros requisitos para editar súmulas; o texto do Planalto remete à ADI 6188, na qual o STF (agosto de 2023) declarou inconstitucionais essa alínea e os §§ 3º e 4º do art. 702. Por isso o quórum não aparece no detalhes."
 }

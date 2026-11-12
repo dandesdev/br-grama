@@ -26,10 +26,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes",
-    "notas": "f2-eleicoes: condição completada com o prazo e o destino das contas anuais (Lei 9.096/1995, art. 32) e com as contas de campanha (art. 34, V; Lei 9.504/1997, arts. 28 e 29); fontes acrescentadas. Antes: verificado em 2026-10-23 por verificacao-f0-eleicoes (CF, art. 17, III, e Lei 9.096/1995, art. 11-A, § 8º)"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "f2-eleicoes acrescentou à condição as contas anuais e de campanha: Lei 9.096/1995, arts. 32, caput e § 1º, e 34, V, e Lei 9.504/1997, arts. 28 e 29, III e IV, conferidos. Antes: verificado em 2026-10-23 por verificacao-f0-eleicoes (CF, art. 17, III; Lei 9.096/1995, art. 11-A, § 8º)"
   },
   "notas": "Os objetos são obj:contas-anuais-dos-partidos-politicos e obj:contas-de-campanha-eleitoral; quem julga está em rel:justica-eleitoral-julga-contas-anuais-dos-partidos e rel:justica-eleitoral-julga-contas-de-campanha."
 }

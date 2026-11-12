@@ -5,7 +5,7 @@
   "relacao": "julga",
   "de": "org:justica-eleitoral",
   "para": "obj:recurso-contra-expedicao-de-diploma",
-  "condicao": "Contra diplomas de eleições federais e estaduais, expedidos pelos TREs, julga o TSE (recurso ordinário); contra diplomas municipais, o TRE. Se o recurso for provido, a apuração é revista e os diplomas são confirmados ou invalidados.",
+  "condicao": "Contra diplomas de eleições federais e estaduais, expedidos pelos TREs, julga o TSE (recurso ordinário); contra diplomas municipais, o TRE. Enquanto o TSE não decide, o diplomado exerce o mandato.",
   "vigencia": {
     "de": "1965-08",
     "ate": null,
@@ -14,7 +14,7 @@
   "fontes": [
     {
       "ref": "norma:lei-4737-1965",
-      "dispositivo": "art. 217, parágrafo único; art. 262; art. 265; art. 276, II, a"
+      "dispositivo": "art. 216; art. 262; art. 265; art. 276, II, a"
     },
     {
       "ref": "norma:cf-1988",
@@ -23,9 +23,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "coletado em f2-eleicoes; Código Eleitoral, arts. 216, 262, 265 e 276, II, a, e CF, art. 121, § 4º, III e IV, conferidos. Corrigido: a condição dizia que, provido o recurso, 'a apuração é revista e os diplomas são confirmados ou invalidados' com base no art. 217, parágrafo único, que trata do provimento de recurso contra o registro ou de recurso parcial, não do RCED; trocado pelo art. 216 (o diplomado exerce o mandato enquanto o TSE não decide)"
   },
   "notas": "TSE para diplomas federais e estaduais é leitura do art. 276, II, a; municipal ao TRE decorre do art. 265 (recurso dos atos dos juízes e juntas)."
 }

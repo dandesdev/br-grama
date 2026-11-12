@@ -1,0 +1,317 @@
+{
+  "id": "proc:adpf",
+  "tipo": "processo",
+  "nome": "Arguição de descumprimento de preceito fundamental (ADPF)",
+  "sigla": "ADPF",
+  "resumo": "Como o STF julga ato do Poder Público que fere preceito fundamental da Constituição, quando não há outro meio eficaz: proposta, liminar, informações e julgamento.",
+  "detalhes": "Os legitimados são os da ADI, e qualquer interessado pode pedir ao PGR que proponha a ação. O relator pode negar seguimento se houver outro meio eficaz. A liminar exige maioria absoluta, mas o relator pode concedê-la sozinho em urgência ou no recesso. O julgamento exige dois terços dos ministros presentes, e a decisão vincula todo o Poder Público.",
+  "forma": "linha",
+  "produz": "obj:adpf",
+  "etapas": [
+    {
+      "id": "representacao-ao-pgr",
+      "atores": [
+        "org:eleitorado-nacional"
+      ],
+      "acao": "Quem não é legitimado pode pedir ao PGR, por representação, que proponha a arguição",
+      "detalhes": "Etapa facultativa. O PGR examina os fundamentos e decide se leva o caso ao STF. A lei previa a propositura por qualquer pessoa lesada (art. 2º, II), mas esse inciso foi vetado.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 2º, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "propositura",
+          "quando": "O PGR decide propor"
+        }
+      ]
+    },
+    {
+      "id": "propositura",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-do-senado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:camara-legislativa-do-df",
+        "cargo:arquetipo-estadual-governador",
+        "cargo:procurador-geral-da-republica",
+        "org:conselho-federal-da-oab",
+        "org:partidos-politicos",
+        "org:confederacoes-sindicais-e-entidades-de-classe-nacionais"
+      ],
+      "acao": "Um dos legitimados da ADI propõe a arguição, indicando o preceito fundamental violado e o ato questionado",
+      "detalhes": "Cabe para evitar ou reparar lesão a preceito fundamental causada por ato do Poder Público e quando houver controvérsia constitucional relevante sobre lei ou ato federal, estadual ou municipal, inclusive anterior à CF de 1988. A petição traz a prova da violação e, se for o caso, da controvérsia judicial.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "arts. 1º, 2º, I, e 3º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissibilidade",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "admissibilidade",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator indefere a petição se não for caso de ADPF, faltar requisito, for inepta ou houver outro meio eficaz",
+      "detalhes": "A ADPF é subsidiária: não é admitida quando houver qualquer outro meio eficaz de sanar a lesão. Da decisão que indefere a petição cabe agravo em 5 dias.",
+      "prazo": {
+        "texto": "Agravo contra o indeferimento em 5 dias",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "decisão de indeferimento"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "liminar",
+          "quando": "Petição admitida, com pedido de liminar"
+        },
+        {
+          "para": "informacoes",
+          "quando": "Petição admitida, sem pedido de liminar"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Petição indeferida"
+        }
+      ]
+    },
+    {
+      "id": "liminar",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf",
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O Plenário decide a liminar por maioria absoluta; em urgência ou no recesso, o relator a concede sozinho",
+      "detalhes": "A liminar do relator vale ad referendum do Plenário. Antes, o relator pode ouvir os responsáveis pelo ato, o AGU ou o PGR em 5 dias. A liminar pode suspender processos ou efeitos de decisões judiciais ligados ao caso, salvo os que decorram de coisa julgada.",
+      "prazo": {
+        "texto": "Prazo comum de 5 dias para os responsáveis pelo ato, o AGU ou o PGR, se ouvidos",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "pedido de manifestação do relator"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros do STF (art. 5º, caput); o relator decide sozinho em extrema urgência, perigo de lesão grave ou recesso (§ 1º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 5º, caput e §§ 1º a 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "informacoes",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "informacoes",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator pede informações às autoridades responsáveis pelo ato questionado",
+      "detalhes": "Se achar necessário, o relator ouve as partes dos processos que deram origem à arguição, requisita informações, nomeia peritos ou marca audiência pública com especialistas. Pode autorizar sustentação oral e memoriais dos interessados.",
+      "prazo": {
+        "texto": "10 dias",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "pedido de informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pgr",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pgr",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O Ministério Público tem vista do processo, se não for o autor",
+      "prazo": {
+        "texto": "5 dias, depois do prazo das informações",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "fim do prazo das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 7º, parágrafo único"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "relatorio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "relatorio",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator faz o relatório, envia cópia aos ministros e pede dia para o julgamento",
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 7º, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "O Plenário julga a arguição, com pelo menos dois terços dos ministros presentes",
+      "detalhes": "A lei fixa o quórum de presença (8 de 11), mas não o de votação, porque os parágrafos do art. 8º foram vetados. A decisão é irrecorrível e não admite ação rescisória.",
+      "quorum": {
+        "regra": "outro",
+        "nota": "Presença mínima de dois terços dos ministros (8 de 11); a lei não fixa maioria de votação (art. 8º, §§ 1º e 2º vetados)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "arts. 8º e 12"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "modulacao",
+          "quando": "Lei ou ato normativo declarado inconstitucional"
+        },
+        {
+          "para": "cumprimento",
+          "quando": "Demais casos"
+        }
+      ]
+    },
+    {
+      "id": "modulacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "Por dois terços, o STF pode restringir os efeitos da inconstitucionalidade ou marcar quando passa a valer",
+      "detalhes": "Só por razões de segurança jurídica ou de excepcional interesse social.",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Dois terços dos membros do STF (8 de 11)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 11"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "cumprimento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "cumprimento",
+      "tipo_etapa": "fim",
+      "atores": [
+        "cargo:presidente-do-stf"
+      ],
+      "acao": "O Presidente do STF manda cumprir a decisão de imediato; ela vale para todos e vincula o Poder Público",
+      "detalhes": "As autoridades responsáveis são comunicadas, com as condições e o modo de interpretar e aplicar o preceito fundamental. O acórdão é lavrado depois, e a parte dispositiva é publicada em 10 dias do trânsito em julgado. O descumprimento pode ser levado ao STF por reclamação.",
+      "prazo": {
+        "texto": "Publicação em 10 dias do trânsito em julgado",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "trânsito em julgado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "arts. 10 e 13"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A petição inicial é indeferida e a arguição se encerra, salvo se o agravo for provido",
+      "fontes": [
+        {
+          "ref": "norma:lei-9882-1999",
+          "dispositivo": "art. 4º, caput e § 2º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1999-12-06",
+    "ate": null,
+    "nota": "Lei 9.882/1999 em vigor na publicação (art. 14), no DOU de 6/12/1999."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9882-1999",
+      "dispositivo": "arts. 1º a 13"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, § 1º; art. 103, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "(1) O 'interessado' que representa ao PGR aparece como org:eleitorado-nacional, o ator usado para o cidadão em outros processos; pode ser também pessoa jurídica. (2) O art. 7º, parágrafo único, fala em 'Ministério Público'; no STF ele é representado pelo PGR (CF, art. 103, § 1º). (3) Vetados: art. 1º, parágrafo único, II; art. 2º, II e § 2º; art. 5º, § 4º; art. 8º, §§ 1º e 2º; art. 9º. O texto do Planalto anota \"Vide ADIN 2.231\" no preâmbulo e \"Vide ADPF 774\" no art. 10, § 3º; não consultamos essas decisões. (4) O descumprimento da decisão leva à reclamação (art. 13), modelada em proc:reclamacao.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

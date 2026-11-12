@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-da-fazenda-presta-contas-a-cmo",
+  "tipo": "relacao",
+  "nome": "O Ministro da Fazenda demonstra o cumprimento das metas fiscais na CMO",
+  "relacao": "presta-contas-a",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cmo",
+  "condicao": "Até o fim de maio, setembro e fevereiro, demonstra e avalia em audiência pública o cumprimento das metas fiscais do quadrimestre e a trajetória da dívida, na CMO ou em reunião conjunta com as comissões temáticas do Congresso.",
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": null,
+    "nota": "Nova redação do § 4º dada pelo art. 11 da LC 200/2023, que entrou em vigor em 1º/1/2024 (art. 15, I). Antes, a audiência cabia ao 'Poder Executivo' (redação original)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 9º, § 4º"
+    }
+  ],
+  "orgao_exercicio": "org:ministerio-da-fazenda",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

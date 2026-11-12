@@ -1,0 +1,35 @@
+{
+  "id": "rel:ministerio-do-planejamento-e-orcamento-dirige-sistema-de-planejamento-e-de-orcamento-federal",
+  "tipo": "relacao",
+  "nome": "O Ministério do Planejamento e Orçamento é o órgão central do sistema federal de planejamento e orçamento",
+  "relacao": "dirige",
+  "de": "org:ministerio-do-planejamento-e-orcamento",
+  "para": "org:sistema-de-planejamento-e-de-orcamento-federal",
+  "condicao": "Como órgão central, coordena e gere o sistema e dá orientação normativa e supervisão técnica aos órgãos setoriais e específicos.",
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "Criação do Ministério do Planejamento e Orçamento (MP 1.154/2023, convertida na Lei 14.600/2023). Antes, o papel cabia a outros ministérios, não pesquisados."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 4º, I, e § 3º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 40, VII"
+    },
+    {
+      "ref": "norma:decreto-11353-2023",
+      "dispositivo": "Anexo I, art. 1º, VII"
+    }
+  ],
+  "notas": "A Lei 10.180/2001 (art. 4º, I) nomeia o Ministério do Planejamento, Orçamento e Gestão, extinto; a competência hoje é do MPO pela Lei 14.600/2023, art. 40, VII.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

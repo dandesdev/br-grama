@@ -1,0 +1,45 @@
+{
+  "id": "org:sistema-de-administracao-financeira-federal",
+  "tipo": "orgao",
+  "nome": "Sistema de Administração Financeira Federal",
+  "resumo": "Rede que cuida do caixa da União: programação financeira, Conta Única, dívida e haveres do Tesouro. A Secretaria do Tesouro Nacional é o órgão central.",
+  "detalhes": "Busca o equilíbrio financeiro do governo federal dentro dos limites da receita e da despesa (Lei 10.180/2001, art. 9º). Faz a programação financeira, administra direitos, haveres, garantias e obrigações do Tesouro e orienta a execução orçamentária e financeira (art. 10). É formado pela Secretaria do Tesouro Nacional e pelas unidades de programação financeira dos ministérios, da AGU, da Vice-Presidência e da Casa Civil (art. 11). Gere a Conta Única, a dívida pública mobiliária federal e a dívida externa e edita normas de programação financeira (art. 12). Os representantes do Tesouro nos conselhos fiscais das estatais federais se subordinam tecnicamente à Secretaria do Tesouro (art. 13).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 1º; arts. 9º a 13"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 35, caput, I a VII e XXXI"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 38",
+      "nota": "competência, estrutura e funcionamento dos órgãos do sistema, por regulamento"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, arts. 35 e 36",
+      "nota": "Secretaria do Tesouro Nacional e Subsecretaria de Administração Financeira Federal"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001 (conversão da MP 2.112-88/2001). Os sistemas já vinham das medidas provisórias anteriores, não pesquisadas."
+  },
+  "notas": "Tipo 'sistema', sem contido_em, como o Sisbin.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rel:poder-judiciario-publica-rgf",
+  "tipo": "relacao",
+  "nome": "Cada tribunal emite o seu RGF",
+  "relacao": "publica",
+  "de": "org:poder-judiciario",
+  "para": "obj:rgf",
+  "condicao": "Cada tribunal do art. 92 da CF emite o relatório de cada quadrimestre, assinado pelo presidente e pelo conselho de administração ou órgão decisório equivalente.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 20, § 2º, III; art. 54, III; art. 55, § 1º"
+    }
+  ],
+  "notas": "Ligado ao Poder Judiciário como um todo para não criar uma relação por tribunal.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

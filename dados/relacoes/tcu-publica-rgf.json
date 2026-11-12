@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-publica-rgf",
+  "tipo": "relacao",
+  "nome": "O TCU emite o próprio RGF",
+  "relacao": "publica",
+  "de": "org:tcu",
+  "para": "obj:rgf",
+  "condicao": "Para a LRF, o TCU é órgão do Legislativo com limite próprio de pessoal; seu relatório é assinado pelo órgão decisório equivalente à Mesa, conforme o regimento.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 20, § 2º, II, a; art. 54, II; art. 55, § 1º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

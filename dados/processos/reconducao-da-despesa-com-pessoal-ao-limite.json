@@ -1,0 +1,294 @@
+{
+  "id": "proc:reconducao-da-despesa-com-pessoal-ao-limite",
+  "tipo": "processo",
+  "nome": "Recondução da despesa com pessoal ao limite",
+  "resumo": "O que acontece quando um Poder ou órgão gasta com pessoal perto ou acima do limite da LRF: alerta, vedações, prazo para cortar e sanções.",
+  "detalhes": "A despesa com pessoal de cada Poder e órgão é apurada a cada quadrimestre, somando os últimos 12 meses, e comparada com o limite do art. 20 da LRF (ver obj:limites-de-despesa-com-pessoal). É nulo o ato que aumente a despesa com pessoal sem cumprir os requisitos da LRF ou nos 180 dias anteriores ao fim do mandato do titular (LRF, art. 21). As etapas valem para União, estados e municípios; os atores abaixo são os da esfera federal.",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "apuracao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:poder-legislativo-federal",
+        "org:poder-judiciario",
+        "org:ministerio-publico-da-uniao"
+      ],
+      "acao": "Ao fim de cada quadrimestre, cada Poder e órgão apura a despesa com pessoal e a publica no RGF",
+      "detalhes": "A despesa total com pessoal soma ativos, inativos e pensionistas, inclusive terceirização que substitui servidores, nos 12 meses anteriores (LRF, arts. 18 e 19). O RGF compara a despesa com o limite (art. 55, I, a).",
+      "prazo": {
+        "texto": "Ao fim de cada quadrimestre; o RGF sai em até 30 dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "arts. 18 a 20; art. 22, caput; art. 55, I, a, e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "alerta",
+          "quando": "Se a despesa passar de 90% do limite"
+        },
+        {
+          "para": "fim",
+          "quando": "Se ficar abaixo de 90% do limite"
+        }
+      ]
+    },
+    {
+      "id": "alerta",
+      "atores": [
+        "org:tcu",
+        "org:arquetipo-estadual-tce"
+      ],
+      "acao": "O tribunal de contas confere o cálculo e alerta o Poder ou órgão que passou de 90% do limite",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 59, § 1º, II, e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "vedacoes",
+          "quando": "Se passar de 95% do limite (limite prudencial)"
+        },
+        {
+          "para": "fim",
+          "quando": "Se ficar até 95% do limite"
+        }
+      ]
+    },
+    {
+      "id": "vedacoes",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:poder-legislativo-federal",
+        "org:poder-judiciario",
+        "org:ministerio-publico-da-uniao"
+      ],
+      "acao": "Acima de 95% do limite, o Poder ou órgão fica proibido de dar aumentos, criar cargos e contratar",
+      "detalhes": "Ficam vedados vantagens e reajustes (salvo os de sentença, lei ou contrato e a revisão geral anual), criação de cargo, mudança de carreira que aumente despesa, provimento e contratação (salvo reposição em educação, saúde e segurança) e hora extra (LRF, art. 22, parágrafo único).",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 22, parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "reducao",
+          "quando": "Se a despesa passar do limite"
+        },
+        {
+          "para": "fim",
+          "quando": "Se a despesa voltar abaixo de 95% do limite"
+        }
+      ]
+    },
+    {
+      "id": "reducao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:poder-legislativo-federal",
+        "org:poder-judiciario",
+        "org:ministerio-publico-da-uniao"
+      ],
+      "acao": "Acima do limite, o excesso deve ser eliminado em dois quadrimestres, um terço no primeiro",
+      "detalhes": "Entre as medidas estão as da CF: cortar ao menos 20% das despesas com cargos em comissão e funções de confiança, exonerar servidores não estáveis e, se não bastar, estáveis (CF, art. 169, §§ 3º e 4º; LRF, art. 23, caput e § 1º). O STF decidiu que não se pode reduzir o valor de cargo ou função ocupados e declarou inconstitucional a redução de jornada com redução de vencimentos do § 2º (ADI 2.238).",
+      "prazo": {
+        "texto": "Dois quadrimestres, com pelo menos um terço do excesso eliminado no primeiro",
+        "conta_de": "quadrimestre em que o excesso foi apurado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 169, §§ 3º e 4º"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 23, caput e § 1º"
+        },
+        {
+          "ref": "fonte:senado-legislacao-adi-2238-decisao",
+          "dispositivo": null,
+          "nota": "art. 23, § 1º, sem redução de texto, e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": "Se a despesa voltar ao limite no prazo"
+        },
+        {
+          "para": "sancoes",
+          "quando": "Se o prazo vencer com excesso"
+        }
+      ]
+    },
+    {
+      "id": "sancoes",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:poder-legislativo-federal",
+        "org:poder-judiciario",
+        "org:ministerio-publico-da-uniao"
+      ],
+      "acao": "Vencido o prazo, o Poder ou órgão perde transferências voluntárias, garantias e crédito enquanto durar o excesso",
+      "detalhes": "As restrições valem até o excesso acabar; as operações para pagar dívida mobiliária e para reduzir a despesa com pessoal continuam permitidas (LRF, art. 23, § 3º). A CF também manda suspender os repasses federais e estaduais aos entes que não se ajustarem aos limites no prazo da lei complementar (art. 169, § 2º).",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 23, § 3º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 169, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fim",
+          "quando": "Quando a despesa voltar ao limite"
+        }
+      ]
+    },
+    {
+      "id": "fim",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Despesa com pessoal dentro do limite",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 19"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "ultimo-ano-de-mandato",
+      "nome": "Último ano de mandato",
+      "resumo": "Se o excesso aparecer no primeiro quadrimestre do último ano de mandato, as sanções valem na hora",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 23, § 4º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "sancoes",
+          "nota": "Aplicadas imediatamente, sem os dois quadrimestres de prazo."
+        }
+      ]
+    },
+    {
+      "id": "calamidade-publica",
+      "nome": "Calamidade pública reconhecida",
+      "resumo": "Enquanto durar a calamidade reconhecida pelo Legislativo, a contagem do prazo para eliminar o excesso fica suspensa",
+      "quem_aciona": [
+        "org:congresso-nacional"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 65, caput, I"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "reducao",
+          "nota": "Contagem do prazo suspensa."
+        }
+      ]
+    },
+    {
+      "id": "pib-baixo",
+      "nome": "Crescimento baixo do PIB",
+      "resumo": "Com crescimento real do PIB abaixo de 1% em quatro trimestres, o prazo para eliminar o excesso dobra",
+      "detalhes": "As vedações do art. 22 continuam valendo (LRF, art. 66, § 3º).",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 66, caput e §§ 1º a 3º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "reducao",
+          "prazo": {
+            "texto": "Quatro quadrimestres"
+          },
+          "nota": "Prazo duplicado."
+        }
+      ]
+    },
+    {
+      "id": "queda-de-receita-municipal",
+      "nome": "Queda de receita do município",
+      "resumo": "O município cuja receita real caiu mais de 10% por perda de FPM ou royalties fica livre das sanções, se estiver abaixo do limite global",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 23, §§ 5º e 6º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "sancoes",
+          "nota": "Não se aplicam, nas condições dos §§ 5º e 6º."
+        }
+      ]
+    },
+    {
+      "id": "municipio-pequeno",
+      "nome": "Município com menos de 50 mil habitantes",
+      "resumo": "Pode verificar o limite a cada semestre, e não a cada quadrimestre",
+      "detalhes": "Se passar do limite, segue os mesmos prazos de retorno dos demais entes (LRF, art. 63, § 2º).",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 63, I, e § 2º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "apuracao",
+          "nota": "Verificação semestral, por opção do município."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 169, §§ 2º a 4º"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "arts. 18 a 23, 59, 63, 65 e 66"
+    },
+    {
+      "ref": "fonte:senado-legislacao-adi-2238-decisao",
+      "dispositivo": null,
+      "nota": "arts. 23, §§ 1º e 2º"
+    }
+  ],
+  "notas": "Atores: os Poderes federais e o MPU representam os 'Poderes e órgãos' do art. 20 da LRF; nos estados e municípios, os equivalentes. A regra de transição do art. 70 (enquadramento em dois exercícios depois de 2000) está esgotada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

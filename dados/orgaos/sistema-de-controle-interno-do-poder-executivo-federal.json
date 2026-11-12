@@ -1,0 +1,49 @@
+{
+  "id": "org:sistema-de-controle-interno-do-poder-executivo-federal",
+  "tipo": "orgao",
+  "nome": "Sistema de Controle Interno do Poder Executivo Federal",
+  "resumo": "Rede de auditoria e fiscalização interna do Executivo federal, que avalia programas, orçamentos e gestores e apoia o TCU. A CGU é o órgão central.",
+  "detalhes": "Avalia a ação do governo e a gestão dos administradores federais por fiscalização contábil, financeira, orçamentária, operacional e patrimonial e apoia o controle externo (Lei 10.180/2001, arts. 19 a 21). A lei põe como órgão central a Secretaria Federal de Controle Interno, hoje parte da CGU, e como órgãos setoriais os controles internos do Itamaraty, da Defesa, da AGU e da Casa Civil (art. 22). Entre suas competências estão avaliar o PPA e a execução dos orçamentos, auditar a gestão de recursos federais, apurar irregularidades e elaborar a prestação de contas anual do Presidente da República (art. 24). Fiscaliza também o uso dos recursos federais transferidos a estados e municípios (art. 35, §§ 2º a 4º). Ninguém pode sonegar documentos aos seus servidores, e seus dirigentes podem impugnar atos de gestão sem base legal (arts. 26 e 28).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 1º; arts. 19 a 24; art. 26; art. 28; art. 35, §§ 2º a 4º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 49, §§ 2º e 3º"
+    },
+    {
+      "ref": "norma:decreto-11330-2023",
+      "dispositivo": "Anexo I, art. 1º, caput; art. 13, I a IV"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 38",
+      "nota": "competência, estrutura e funcionamento dos órgãos do sistema, por regulamento"
+    },
+    {
+      "ref": "norma:decreto-11330-2023",
+      "dispositivo": "Anexo I, arts. 2º, II, a, e 13",
+      "nota": "Secretaria Federal de Controle Interno e suas diretorias de auditoria"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001 (conversão da MP 2.112-88/2001). O controle interno do Executivo vem da CF (art. 74); os atos anteriores à lei não foram pesquisados."
+  },
+  "notas": "Nome da Lei 10.180/2001. A Lei 14.600/2023 (art. 49, §§ 2º e 3º) e o Decreto 11.330/2023 (Anexo I, arts. 1º e 13, redação do Decreto 11.824/2023) chamam o sistema de 'Sistema de Gestão de Riscos e Controle Interno do Poder Executivo federal'. O inciso III do art. 22 (Denasus) foi revogado pela Lei 13.464/2017. Tipo 'sistema', sem contido_em.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Varas federais",
   "resumo": "Juízos de primeira instância da Justiça Federal, organizados em seções judiciárias: uma por estado e uma no DF, com sede na capital.",
-  "detalhes": "Em cada vara atuam um juiz federal titular e um juiz federal substituto. A jurisdição dos juízes de uma seção abrange todo o seu território, e as varas podem ter sede fora da capital e ser especializadas por matéria (Lei 5.010/1966, arts. 1º, 3º, 11 e 12; CF, art. 110). Onde a comarca não é sede de vara federal, a lei pode levar à Justiça estadual certas causas federais, como as previdenciárias de segurados que moram a mais de 70 km de uma vara federal, com recurso ao TRF (Lei 5.010/1966, art. 15; CF, art. 109, §§ 3º e 4º).",
+  "detalhes": "Nas varas atuam juízes federais titulares e juízes federais substitutos, que os substituem e auxiliam (Lei 5.010/1966, arts. 1º e 14). A jurisdição dos juízes de uma seção abrange todo o seu território, e as varas podem ter sede fora da capital e ser especializadas por matéria (Lei 5.010/1966, arts. 1º, 3º, 11 e 12; CF, art. 110). Onde a comarca não é sede de vara federal, a lei pode levar à Justiça estadual certas causas federais, como as previdenciárias de segurados que moram a mais de 70 km de uma vara federal, com recurso ao TRF (Lei 5.010/1966, art. 15; CF, art. 109, §§ 3º e 4º).",
   "tipo_orgao": "conjunto",
   "poder": "judiciario",
   "esfera": "federal",
@@ -30,7 +30,7 @@
     },
     {
       "ref": "norma:lei-5010-1966",
-      "dispositivo": "arts. 1º, 3º, 11 a 13, 15 e 17"
+      "dispositivo": "arts. 1º, 3º, 11 a 15 e 17"
     }
   ],
   "estrutura_continua": [
@@ -47,8 +47,9 @@
   "notas": "A lista de varas e subseções de cada região está nos atos dos TRFs (fase 4, D09).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Corrigido: o detalhes dizia que em cada vara atuam um titular e um substituto; os artigos citados não fixam essa proporção (o número de cargos por vara vem das leis de criação). Ficou a regra do art. 14 da Lei 5.010, acrescentado às fontes."
   }
 }

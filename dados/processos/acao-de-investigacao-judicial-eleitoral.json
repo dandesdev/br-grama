@@ -25,7 +25,7 @@
         },
         {
           "ref": "norma:lei-9504-1997",
-          "dispositivo": "art. 41-A, § 3º; art. 73, § 12"
+          "dispositivo": "art. 30-A, caput; art. 41-A, § 3º; art. 73, § 12"
         }
       ],
       "seguintes": [
@@ -122,7 +122,7 @@
         "cargo:procurador-regional-eleitoral"
       ],
       "acao": "O tribunal julga, ouvido o Ministério Público; se procedente, declara a inelegibilidade e cassa registro ou diploma",
-      "detalhes": "O Procurador-Geral ou Regional Eleitoral tem 48 horas para opinar (LC 64/1990, art. 22, XIII). O tribunal forma convicção pela livre apreciação dos fatos públicos e notórios, indícios, presunções e provas (art. 23). Nas eleições municipais, julga o juiz eleitoral (art. 24). Os recursos contra decisões nas representações da Lei 9.504/1997 têm prazo de três dias (arts. 30-A, § 3º, 41-A, § 4º, e 73, § 13).",
+      "detalhes": "O Procurador-Geral ou Regional Eleitoral tem 48 horas para opinar (LC 64/1990, art. 22, XIII). O tribunal forma convicção pela livre apreciação dos fatos públicos e notórios, indícios, presunções e provas (art. 23). Nas eleições municipais, a representação corre perante o juiz eleitoral, que exerce as funções do corregedor, e o promotor eleitoral faz as vezes do Procurador-Geral ou Regional (art. 24). Os recursos contra decisões nas representações da Lei 9.504/1997 têm prazo de três dias (arts. 30-A, § 3º, 41-A, § 4º, e 73, § 13).",
       "prazo": {
         "texto": "Vista ao Ministério Público por 48 horas; julgamento na primeira sessão seguinte ao relatório (LC 64/1990, art. 22, XII e XIII)."
       },
@@ -133,7 +133,7 @@
         },
         {
           "ref": "norma:lei-9504-1997",
-          "dispositivo": "art. 30-A, § 2º; art. 41-A, caput; art. 73, § 5º"
+          "dispositivo": "art. 30-A, §§ 2º e 3º; art. 41-A, caput e § 4º; art. 73, §§ 5º e 13"
         }
       ],
       "seguintes": [
@@ -203,11 +203,12 @@
       "dispositivo": "arts. 30-A, 41-A e 73, §§ 12 e 13"
     }
   ],
-  "notas": "O Corregedor-Geral Eleitoral é cargo:corregedor-geral-eleitoral (criado pela tarefa f2-judiciario). O Corregedor Regional, juiz do TRE que a lei designa (Código Eleitoral, art. 26), não tem cargo próprio no mapa; aparece como cargo:juiz-de-tre. O inciso XV do art. 22 foi revogado pela LC 135/2010.",
+  "notas": "O Corregedor-Geral Eleitoral é cargo:corregedor-geral-eleitoral (criado pela tarefa f2-judiciario). O Corregedor Regional não tem cargo próprio no mapa; aparece como cargo:juiz-de-tre. A regra do Código Eleitoral, art. 26 (o 'terceiro desembargador' é o corregedor) não cabe na composição dos TREs dada pela CF, art. 120; ver aviso:corregedor-regional-eleitoral-terceiro-desembargador. O inciso XV do art. 22 foi revogado pela LC 135/2010.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "coletado em f2-eleicoes; etapa a etapa: LC 64/1990, arts. 19 a 24 (art. 22, XIV e XVI, na redação da LC 135/2010; XV revogado) e 26-B, e Lei 9.504/1997, arts. 30-A, 41-A e 73, §§ 5º, 12 e 13, conferidos. Corrigido: fontes das etapas representacao (faltava o art. 30-A) e julgamento (faltavam os §§ dos recursos citados no texto); a frase 'nas municipais julga o juiz eleitoral' passou a dizer o que o art. 24 diz (conhece e processa com as funções do corregedor); nota sobre o Corregedor Regional deixou de atribuir a escolha ao art. 26 do Código"
   }
 }

@@ -1,0 +1,305 @@
+{
+  "id": "proc:execucao-da-despesa",
+  "tipo": "processo",
+  "nome": "Execução da despesa pública",
+  "resumo": "Como o dinheiro do orçamento é gasto: programação financeira, empenho, liquidação e pagamento; o que fica sem pagar no fim do ano vira restos a pagar.",
+  "detalhes": "A lei orçamentária autoriza o gasto (dotação); o empenho reserva a dotação e cria a obrigação de pagar; a liquidação confere que o bem foi entregue ou o serviço prestado; o pagamento tira o dinheiro do caixa. Os números de orçamento do site (D46) vêm dessas etapas: dotação, empenhado, liquidado e pago, mais os restos a pagar pagos. As etapas são as mesmas nos outros Poderes, no Ministério Público e na Defensoria, que usam o sistema de execução mantido pelo Executivo (LRF, art. 48, § 6º).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "programacao-financeira",
+      "atores": [
+        "org:secretaria-do-tesouro-nacional"
+      ],
+      "acao": "O Executivo fixa a programação financeira e o cronograma mensal de desembolso",
+      "detalhes": "Logo depois de publicado o orçamento, o Executivo aprova as cotas de despesa que cada unidade pode usar, para manter o equilíbrio entre a receita arrecadada e a despesa (Lei 4.320/1964, arts. 47 a 50). No mesmo prazo, desdobra a receita prevista em metas bimestrais de arrecadação (LRF, art. 13). Os recursos vinculados só podem ser usados na sua finalidade, mesmo em outro ano (LRF, art. 8º, parágrafo único). A Secretaria do Tesouro Nacional elabora a programação e gerencia a Conta Única (Lei 10.180/2001, art. 12, III).",
+      "prazo": {
+        "texto": "Até 30 dias após a publicação dos orçamentos",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "publicação dos orçamentos"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 8º; art. 13"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "arts. 47 a 50; art. 80"
+        },
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 12, III"
+        },
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 35, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "empenho",
+          "quando": null
+        },
+        {
+          "para": "limitacao-de-empenho",
+          "quando": "Ao fim de um bimestre, se a receita puder não comportar as metas de resultado"
+        }
+      ]
+    },
+    {
+      "id": "limitacao-de-empenho",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:poder-legislativo-federal",
+        "org:poder-judiciario",
+        "org:ministerio-publico-da-uniao"
+      ],
+      "acao": "Se a receita não comportar as metas fiscais, cada Poder e o Ministério Público limitam empenho e pagamento",
+      "detalhes": "A avaliação é bimestral; a limitação é feita por ato próprio de cada Poder e do Ministério Público, nos 30 dias seguintes, pelos critérios da LDO. Não se limitam obrigações constitucionais e legais nem o serviço da dívida. Se a receita voltar, as dotações são recompostas na mesma proporção (LRF, art. 9º, caput e §§ 1º e 2º). O STF declarou inconstitucional o § 3º, que deixava o Executivo limitar os valores dos outros Poderes (ADI 2.238). Na União, quem adota a limitação e preserva ao menos 75% das despesas discricionárias não comete infração se a meta não for cumprida (LC 200/2023, art. 7º).",
+      "prazo": {
+        "texto": "Nos 30 dias seguintes ao fim do bimestre",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "fim do bimestre"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 9º, caput e §§ 1º e 2º; art. 31, § 1º, II"
+        },
+        {
+          "ref": "fonte:senado-legislacao-adi-2238-decisao",
+          "dispositivo": null,
+          "nota": "art. 9º, § 3º, declarado inconstitucional"
+        },
+        {
+          "ref": "norma:lc-200-2023",
+          "dispositivo": "art. 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "empenho",
+          "quando": "Com os limites reduzidos"
+        }
+      ]
+    },
+    {
+      "id": "empenho",
+      "atores": [
+        "org:unidades-orcamentarias-do-poder-executivo-federal"
+      ],
+      "acao": "A unidade empenha a despesa: reserva a dotação e cria a obrigação de pagar",
+      "detalhes": "O empenho é ato da autoridade competente e gera a nota de empenho, com credor, valor e dedução do saldo da dotação. Não pode passar do crédito disponível, e nenhuma despesa pode ser feita sem empenho prévio; pode ser por estimativa ou global (Lei 4.320/1964, arts. 58 a 61). A despesa pertence ao ano em que foi empenhada (art. 35, II); anulada no ano, a importância volta à dotação (art. 38). Ação nova que aumente despesa só é empenhada com estimativa de impacto e declaração de adequação do ordenador (LRF, arts. 15 e 16).",
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 35, II; art. 38; arts. 58 a 61"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 15; art. 16, caput e § 4º, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "liquidacao",
+          "quando": "Quando o bem é entregue ou o serviço prestado"
+        },
+        {
+          "para": "restos-a-pagar",
+          "quando": "Se o ano acaba antes da liquidação"
+        }
+      ]
+    },
+    {
+      "id": "liquidacao",
+      "atores": [
+        "org:unidades-orcamentarias-do-poder-executivo-federal"
+      ],
+      "acao": "A unidade liquida a despesa: confere a entrega e o valor exato a pagar",
+      "detalhes": "Verifica o direito do credor com base no contrato, na nota de empenho e nos comprovantes de entrega ou de prestação do serviço: o que se paga, quanto e a quem (Lei 4.320/1964, art. 63). O pagamento só pode ser ordenado depois da liquidação (art. 62).",
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "arts. 62 e 63"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pagamento",
+          "quando": null
+        },
+        {
+          "para": "restos-a-pagar",
+          "quando": "Se o ano acaba antes do pagamento"
+        }
+      ]
+    },
+    {
+      "id": "pagamento",
+      "atores": [
+        "org:unidades-orcamentarias-do-poder-executivo-federal",
+        "org:secretaria-do-tesouro-nacional"
+      ],
+      "acao": "A autoridade ordena o pagamento e o dinheiro sai do caixa",
+      "detalhes": "A ordem de pagamento é dada por autoridade competente em documentos processados pela contabilidade (Lei 4.320/1964, art. 64), e o pagamento é feito por tesouraria, pagadoria ou banco credenciado (art. 65). Na União, o dinheiro sai da Conta Única do Tesouro Nacional, gerida pela STN (Lei 10.180/2001, art. 12, III).",
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "arts. 62, 64 e 65"
+        },
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 12, III"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "despesa-paga",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "restos-a-pagar",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:unidades-orcamentarias-do-poder-executivo-federal"
+      ],
+      "acao": "O que foi empenhado e não pago até 31 de dezembro é inscrito em restos a pagar",
+      "detalhes": "São processados os restos já liquidados e não processados os que ainda não foram (Lei 4.320/1964, art. 36). O registro é feito por ano e por credor e entra na dívida flutuante (art. 92). Restos a pagar com prescrição interrompida e despesas de anos encerrados podem ser pagos por dotação específica (art. 37). O RGF do último quadrimestre mostra a inscrição e o caixa disponível (LRF, art. 55, III). A partir de 2027, se o caixa do fim do ano não cobrir os restos a pagar, o Poder ou órgão fica proibido de conceder benefícios tributários; se a falta durar dois anos, valem também as vedações do art. 22 (LRF, art. 41-A).",
+      "prazo": {
+        "texto": "Encerramento do exercício, em 31 de dezembro"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "arts. 36, 37 e 92"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 41-A; art. 55, III, b"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "liquidacao",
+          "quando": "Restos não processados, liquidados no ano seguinte"
+        },
+        {
+          "para": "pagamento",
+          "quando": "Restos processados, pagos no ano seguinte"
+        }
+      ]
+    },
+    {
+      "id": "despesa-paga",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Despesa paga",
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 62"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "adiantamento",
+      "nome": "Adiantamento (suprimento de fundos)",
+      "resumo": "Entrega de dinheiro a um servidor, depois do empenho, para despesas que não podem seguir o caminho normal",
+      "detalhes": "Só vale nos casos definidos em lei; não se faz adiantamento a servidor em alcance nem a quem já tem dois adiantamentos (Lei 4.320/1964, arts. 68 e 69).",
+      "quem_aciona": [
+        "org:unidades-orcamentarias-do-poder-executivo-federal"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "arts. 65, 68 e 69"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "pagamento",
+          "nota": "O dinheiro é entregue ao servidor antes da realização da despesa, sempre depois do empenho."
+        }
+      ]
+    },
+    {
+      "id": "fim-de-mandato",
+      "nome": "Fim de mandato",
+      "resumo": "Nos últimos oito meses do mandato, o titular de Poder ou órgão não pode contrair despesa que não possa pagar dentro dele",
+      "detalhes": "Nos dois últimos quadrimestres do mandato, é vedado contrair obrigação que não possa ser cumprida até o fim dele ou que deixe parcelas para o ano seguinte sem caixa suficiente (LRF, art. 42). Nos municípios, no último mês do mandato do prefeito, o empenho não pode passar de um duodécimo da despesa prevista, salvo calamidade (Lei 4.320/1964, art. 59, §§ 1º a 4º).",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 42"
+        },
+        {
+          "ref": "norma:lei-4320-1964",
+          "dispositivo": "art. 59, §§ 1º a 4º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "empenho",
+          "nota": "Novas obrigações precisam caber no mandato ou ter caixa para as parcelas do ano seguinte."
+        }
+      ]
+    },
+    {
+      "id": "calamidade-publica",
+      "nome": "Calamidade pública reconhecida",
+      "resumo": "Enquanto durar a calamidade reconhecida pelo Legislativo, ficam dispensados os resultados fiscais e a limitação de empenho",
+      "detalhes": "Vale com o reconhecimento pelo Congresso, para a União, ou pela Assembleia Legislativa, para estados e municípios (LRF, art. 65, caput, II). Ver proc:calamidade-publica-nacional.",
+      "quem_aciona": [
+        "org:congresso-nacional"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 65, caput, II"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "limitacao-de-empenho",
+          "nota": "Dispensada enquanto durar a calamidade."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1964-03-23",
+    "ate": null,
+    "nota": "Etapas de empenho, liquidação e pagamento da Lei 4.320/1964 (data de publicação; ver a vigência da norma). A programação financeira e a limitação de empenho da LRF valem desde 5/5/2000."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4320-1964",
+      "dispositivo": "arts. 35 a 38, 47 a 50, 58 a 69 e 92"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "arts. 8º, 9º, 13, 15, 16, 41-A, 42, 48, § 6º, e 65"
+    },
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 12, III"
+    }
+  ],
+  "notas": "Modelagem: o ator das etapas de empenho, liquidação e pagamento é o conjunto org:unidades-orcamentarias-do-poder-executivo-federal; nos outros Poderes as etapas são as mesmas. A etapa limitacao-de-empenho fica fora da linha principal: é uma decisão bimestral que reduz o que pode ser empenhado. O ciclo orçamentário (proc:ciclo-orcamentario, etapa execucao) remete a este processo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

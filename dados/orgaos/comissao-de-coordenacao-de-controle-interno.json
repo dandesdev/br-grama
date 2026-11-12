@@ -1,0 +1,44 @@
+{
+  "id": "org:comissao-de-coordenacao-de-controle-interno",
+  "tipo": "orgao",
+  "nome": "Comissão de Coordenação de Controle Interno",
+  "resumo": "Colegiado que coordena o sistema de controle interno do Executivo federal, para integrar seus órgãos e uniformizar entendimentos.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:cgu",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11330-2023",
+          "dispositivo": "Anexo I, art. 2º, IV, b"
+        }
+      ],
+      "nota": "Órgão colegiado da estrutura da CGU."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 23"
+    },
+    {
+      "ref": "norma:decreto-11330-2023",
+      "dispositivo": "Anexo I, art. 2º, IV, b; art. 34"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Instituída pela Lei 10.180/2001 (art. 23), em vigor na publicação."
+  },
+  "notas": "As competências e a composição estão no Decreto 3.591/2000, art. 10 (Decreto 11.330/2023, Anexo I, art. 34), não lido nesta tarefa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

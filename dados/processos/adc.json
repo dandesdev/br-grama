@@ -1,0 +1,280 @@
+{
+  "id": "proc:adc",
+  "tipo": "processo",
+  "nome": "Ação declaratória de constitucionalidade (ADC)",
+  "sigla": "ADC",
+  "resumo": "Como o STF confirma que uma lei ou ato normativo federal é constitucional, quando juízes e tribunais divergem sobre ele: proposta, parecer do PGR e julgamento por seis votos.",
+  "detalhes": "Só cabe contra lei ou ato federal e exige controvérsia judicial relevante sobre a sua aplicação. Não há pedido de informações nem defesa pelo AGU: o PGR é ouvido e o Plenário julga, com as mesmas regras de quórum e efeitos da ADI. A cautelar suspende os processos que dependem da norma por até 180 dias.",
+  "forma": "linha",
+  "produz": "obj:adi-e-adc",
+  "etapas": [
+    {
+      "id": "propositura",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-do-senado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:camara-legislativa-do-df",
+        "cargo:arquetipo-estadual-governador",
+        "cargo:procurador-geral-da-republica",
+        "org:conselho-federal-da-oab",
+        "org:partidos-politicos",
+        "org:confederacoes-sindicais-e-entidades-de-classe-nacionais"
+      ],
+      "acao": "Um dos legitimados propõe a ação, mostrando que há controvérsia judicial relevante sobre a norma federal",
+      "detalhes": "A Lei 9.868 (art. 13) lista só o Presidente da República, as Mesas da Câmara e do Senado e o PGR, mas desde a EC 45/2004 a CF dá à ADC os mesmos legitimados da ADI. A petição indica a norma, os fundamentos, o pedido e a existência da controvérsia. Não se admite desistência nem intervenção de terceiros.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, a; art. 103, I a IX"
+        },
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 13, 14, 16 e 18"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissibilidade",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "admissibilidade",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator examina a petição e a indefere se for inepta, sem fundamento ou manifestamente improcedente",
+      "detalhes": "Da decisão que indefere a petição inicial cabe agravo.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 15"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "medida-cautelar",
+          "quando": "Petição admitida, com pedido de medida cautelar"
+        },
+        {
+          "para": "pgr",
+          "quando": "Petição admitida, sem pedido de medida cautelar"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Petição indeferida"
+        }
+      ]
+    },
+    {
+      "id": "medida-cautelar",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "Por maioria absoluta, o STF pode mandar juízes e tribunais suspenderem os processos que aplicam a norma",
+      "detalhes": "A suspensão dura até o julgamento definitivo. Concedida a cautelar, a parte dispositiva é publicada em 10 dias e o Tribunal tem 180 dias para julgar a ação, ou a cautelar perde a eficácia.",
+      "prazo": {
+        "texto": "Julgamento da ação em 180 dias depois da publicação da cautelar",
+        "valor": 180,
+        "unidade": "dias",
+        "conta_de": "publicação da parte dispositiva da cautelar",
+        "efeito": "a cautelar perde a eficácia"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros do STF (6 de 11)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 21"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pgr",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "pgr",
+      "atores": [
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O PGR dá parecer sobre a constitucionalidade da norma",
+      "prazo": {
+        "texto": "15 dias",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "abertura de vista"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 19"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "relatorio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "relatorio",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator faz o relatório, envia cópia aos ministros e pede dia para o julgamento",
+      "detalhes": "Se precisar esclarecer fatos, o relator pode requisitar informações adicionais, nomear peritos, ouvir especialistas em audiência pública ou pedir aos tribunais informações sobre como a norma vem sendo aplicada.",
+      "prazo": {
+        "texto": "30 dias para as informações adicionais, perícias e audiências, contados da solicitação do relator",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "solicitação do relator"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 20"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "O Plenário julga, com pelo menos 8 ministros presentes; declarar a norma constitucional ou não exige 6 votos",
+      "detalhes": "Proclamada a constitucionalidade, a ação é julgada procedente; proclamada a inconstitucionalidade, improcedente. Se nenhum lado alcançar seis votos e houver ausentes que possam mudar o resultado, o julgamento é suspenso. A decisão é irrecorrível, salvo embargos de declaração, e não admite ação rescisória.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Seis votos num sentido, com pelo menos oito ministros presentes (Lei 9.868, arts. 22 e 23)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 22 a 24 e 26"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 97"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "publicacao",
+          "quando": "Norma declarada constitucional (ação procedente)"
+        },
+        {
+          "para": "modulacao",
+          "quando": "Norma declarada inconstitucional (ação improcedente)"
+        }
+      ]
+    },
+    {
+      "id": "modulacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "Por dois terços, o STF pode restringir os efeitos da inconstitucionalidade ou marcar quando passa a valer",
+      "detalhes": "Só por razões de segurança jurídica ou de excepcional interesse social.",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Dois terços dos membros do STF (8 de 11)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 27"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "publicacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "publicacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF comunica a decisão a quem editou a norma e publica a parte dispositiva; ela vale para todos",
+      "detalhes": "A decisão tem eficácia contra todos e efeito vinculante para o Judiciário e a administração pública federal, estadual e municipal.",
+      "prazo": {
+        "texto": "Publicação em 10 dias depois do trânsito em julgado",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "trânsito em julgado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 25 e 28"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, § 2º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A petição inicial é indeferida e a ação se encerra, salvo se o agravo for provido",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 15"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1999-11-11",
+    "ate": null,
+    "nota": "Data de vigência da Lei 9.868/1999, que regula o rito."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "arts. 13 a 28"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 97; 102, I, a, e § 2º; 103"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lista de legitimados do art. 13 da Lei 9.868 foi superada pela redação que a EC 45/2004 deu ao caput do art. 103 da CF (ADI e ADC com os mesmos legitimados). O art. 19 diz \"decorrido o prazo do artigo anterior\", mas o art. 18 não tem prazo (seus parágrafos foram vetados); o prazo de 15 dias do PGR conta da abertura de vista. Art. 17 vetado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

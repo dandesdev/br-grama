@@ -1,0 +1,26 @@
+{
+  "id": "rel:procurador-geral-da-republica-publica-rgf",
+  "tipo": "relacao",
+  "nome": "O Procurador-Geral da República emite o RGF do Ministério Público da União",
+  "relacao": "publica",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "obj:rgf",
+  "condicao": "Como chefe do Ministério Público da União, assina o relatório de cada quadrimestre do MPU.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 20, § 2º, I; art. 54, IV; art. 55, § 1º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

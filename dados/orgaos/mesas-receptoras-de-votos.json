@@ -25,7 +25,8 @@
           "dispositivo": "parágrafos 1 e 3"
         }
       ],
-      "nota": "Em 2026 havia 517.206 seções eleitorais, segundo o TSE; como cada seção tem uma mesa (art. 119), esse é também o número de mesas no território nacional (conta nossa, sem contar as mesas no exterior)."
+      "confianca": "inferido",
+      "nota": "Em 2026 a votação ocorreu em 517.206 seções eleitorais, segundo o TSE. Como a lei manda uma mesa por seção (Código Eleitoral, art. 119), o número de mesas seria o mesmo, mas a conta é nossa: o TSE não publica o total de mesas nessa notícia, e a notícia não diz se o total de seções inclui as do exterior. Por isso o número não entra no texto exibido."
     }
   },
   "fontes": [
@@ -47,8 +48,9 @@
   "notas": "Conjunto (D51): representa todas as mesas receptoras do país. As mesas no exterior são organizadas pelo TRE do Distrito Federal (Código Eleitoral, art. 227).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "coletado em f2-eleicoes; Código Eleitoral, arts. 12, 119 a 130 e 220, I, e Lei 9.504/1997, arts. 63, 64 e 98, conferidos. contido_em org:justica-eleitoral mantido: o art. 12 do Código e a CF, art. 118, não listam as mesas, mas elas são nomeadas pelo juiz eleitoral (art. 120) e a nota diz isso. Corrigido: a conta de mesas (517.206) virou confianca inferido em campos.detalhes, e a nota deixou de afirmar que o total exclui o exterior, o que a notícia do TSE não diz"
   }
 }

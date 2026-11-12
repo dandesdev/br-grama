@@ -1,0 +1,41 @@
+{
+  "id": "org:orgaos-setoriais-de-administracao-financeira",
+  "tipo": "orgao",
+  "nome": "Órgãos setoriais de administração financeira",
+  "resumo": "Unidades de programação financeira de cada ministério, da AGU, da Vice-Presidência e da Casa Civil, sob a orientação técnica da Secretaria do Tesouro Nacional.",
+  "detalhes": "Ficam subordinadas ao órgão em que estão, mas seguem a orientação normativa e a supervisão técnica do órgão central do Sistema de Administração Financeira Federal (Lei 10.180/2001, art. 11, §§ 1º e 2º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 11, § 1º"
+        }
+      ],
+      "nota": "Conjunto de unidades em pastas diferentes; por isso fica no Poder Executivo federal."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 11, II, e §§ 1º e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001."
+  },
+  "notas": "Conjunto: uma unidade em cada órgão listado. Os nomes das unidades não foram levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

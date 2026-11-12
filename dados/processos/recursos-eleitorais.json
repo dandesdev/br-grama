@@ -182,8 +182,9 @@
   "notas": "Processo genérico, que vale para qualquer decisão da Justiça Eleitoral; sem campo produz, porque o resultado depende da decisão recorrida. Os atores que recorrem podem ser candidatos, partidos, coligações ou o Ministério Público; no mapa ficam os partidos.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "coletado em f2-eleicoes; etapa a etapa: Código Eleitoral, arts. 257 (caput, §§ 1º a 3º, Lei 13.165/2015), 258, 259, 265 a 267, 269 a 274, 276 a 282 e CF, art. 121, §§ 3º e 4º, conferidos (prazos de 24 horas, cinco e oito dias no TRE, sustentação de dez e vinte minutos, agravo em três dias)"
   }
 }

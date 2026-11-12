@@ -1,0 +1,40 @@
+{
+  "id": "obj:balanco-do-setor-publico-nacional",
+  "tipo": "objeto",
+  "nome": "Balanço do Setor Público Nacional",
+  "resumo": "Consolidação anual das contas da União, dos estados, do DF e dos municípios, nacional e por esfera de governo, feita e divulgada pelo Executivo federal até 30 de junho.",
+  "detalhes": "Os estados e os municípios enviam suas contas ao Executivo federal até 30 de abril; quem não envia fica sem transferências voluntárias e sem operações de crédito até regularizar (LRF, art. 51, §§ 1º e 2º). A consolidação é feita pela Secretaria do Tesouro Nacional, órgão central de contabilidade, que também edita as normas gerais de consolidação enquanto não for implantado o conselho de gestão fiscal previsto no art. 67 da LRF (art. 50, § 2º; Lei 10.180/2001, art. 18, VII; Decreto 11.907/2024, Anexo I, art. 37, XI e XV).",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "relativo_a": [
+    "ente:uniao",
+    "ente:arquetipo-estadual",
+    "ente:arquetipo-municipal"
+  ],
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 50, § 2º; art. 51; art. 67"
+    },
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 18, VII"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 37, XI e XV"
+    }
+  ],
+  "notas": "Nome do Decreto 11.907/2024 e da Lei 10.180/2001; a LRF fala em 'consolidação, nacional e por esfera de governo, das contas dos entes'. A Lei 4.320/1964 (arts. 111 a 113) dava tarefa parecida ao Conselho Técnico de Economia e Finanças do Ministério da Fazenda; não pesquisamos se esse conselho ainda existe.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

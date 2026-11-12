@@ -1,0 +1,26 @@
+{
+  "id": "rel:orgaos-setoriais-de-contabilidade-integra-sistema-de-contabilidade-federal",
+  "tipo": "relacao",
+  "nome": "Os órgãos setoriais integram o sistema",
+  "relacao": "integra",
+  "de": "org:orgaos-setoriais-de-contabilidade",
+  "para": "org:sistema-de-contabilidade-federal",
+  "condicao": "Integram o sistema como órgãos setoriais, ao lado do órgão central.",
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 17, II"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

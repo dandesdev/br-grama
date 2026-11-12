@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-tce-fiscaliza-rreo",
+  "tipo": "relacao",
+  "nome": "O tribunal de contas do estado acompanha as metas fiscais pelo Relatório Resumido da Execução Orçamentária",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "obj:rreo",
+  "condicao": "Fiscaliza o cumprimento das metas da LDO e alerta o Poder ou órgão quando a receita pode não comportar as metas, situação que exige limitação de empenho.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 59, caput, I, e § 1º, I"
+    }
+  ],
+  "notas": "Ligamos só o arquétipo estadual; para os municípios, o órgão é o TCE ou o tribunal de contas dos municípios, onde houver.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

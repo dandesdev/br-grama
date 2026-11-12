@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Comarcas e varas da Justiça estadual",
   "resumo": "Divisões do território do estado onde atuam os juízes de direito de primeira instância. Comarcas maiores têm várias varas.",
-  "detalhes": "A lei estadual divide o território em comarcas, que podem ser agrupadas em circunscrições e divididas em distritos, com critérios como área, população, número de eleitores, receita tributária e movimento forense; o desdobramento em novas varas segue os mesmos índices (LOMAN, arts. 96 e 97). Cada comarca é sede de pelo menos um juiz de direito, e a carreira se organiza em entrâncias (CF, art. 93, II).",
+  "detalhes": "A lei estadual divide o território em comarcas, que podem ser agrupadas em circunscrições e divididas em distritos, com critérios como área, população, número de eleitores, receita tributária e movimento forense; o desdobramento em novas varas segue os mesmos índices (LOMAN, arts. 96 e 97). A carreira dos juízes se organiza em entrâncias (CF, art. 93, II).",
   "tipo_orgao": "conjunto",
   "poder": "judiciario",
   "esfera": "estadual",
@@ -38,8 +38,9 @@
   "notas": "Estrutura que continua em cada lei estadual de organização judiciária (D09).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Corrigido: saiu a frase \"cada comarca é sede de pelo menos um juiz de direito\", que nenhum dos dispositivos citados diz."
   }
 }

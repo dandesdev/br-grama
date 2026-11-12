@@ -1,0 +1,30 @@
+{
+  "id": "rel:comissao-de-coordenacao-de-controle-interno-coordena-sistema-de-controle-interno-do-poder-executivo-federal",
+  "tipo": "relacao",
+  "nome": "A Comissão de Coordenação de Controle Interno coordena o sistema de controle interno",
+  "relacao": "coordena",
+  "de": "org:comissao-de-coordenacao-de-controle-interno",
+  "para": "org:sistema-de-controle-interno-do-poder-executivo-federal",
+  "condicao": "Colegiado de coordenação do sistema, para integrar os órgãos e uniformizar entendimentos.",
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 23"
+    },
+    {
+      "ref": "norma:decreto-11330-2023",
+      "dispositivo": "Anexo I, art. 34"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

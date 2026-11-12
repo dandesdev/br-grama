@@ -1,0 +1,41 @@
+{
+  "id": "org:orgaos-setoriais-de-controle-interno",
+  "tipo": "orgao",
+  "nome": "Órgãos setoriais de controle interno",
+  "resumo": "Controles internos próprios do Itamaraty, do Ministério da Defesa, da AGU e da Casa Civil, fora da atuação direta da CGU, mas sob sua supervisão técnica.",
+  "detalhes": "O órgão central do sistema atua em todo o Executivo federal, menos nesses quatro órgãos, que têm controle interno próprio; o da Casa Civil cobre a Presidência e a Vice-Presidência. Eles ficam subordinados ao órgão em que estão e seguem a orientação normativa e a supervisão técnica do órgão central (Lei 10.180/2001, art. 22, §§ 1º a 5º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 22, § 2º"
+        }
+      ],
+      "nota": "Conjunto de unidades em quatro órgãos diferentes; por isso fica no Poder Executivo federal."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 22, II, e §§ 1º a 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001; o § 5º tem a redação da Lei 13.464/2017."
+  },
+  "notas": "Conjunto: quatro unidades (Ministério das Relações Exteriores, Ministério da Defesa, AGU e Casa Civil). Os nomes das unidades não foram levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

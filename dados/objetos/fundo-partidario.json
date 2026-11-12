@@ -4,7 +4,7 @@
   "nome": "Fundo Partidário",
   "sigla": "Fundo Partidário",
   "resumo": "Fundo Especial de Assistência Financeira aos Partidos Políticos. Recebe dinheiro do orçamento da União, multas eleitorais e doações, e é dividido pelo TSE entre os partidos.",
-  "detalhes": "É formado por multas eleitorais, doações e dotações da União de no mínimo R$ 0,35 (valores de agosto de 1995) por eleitor inscrito (Lei 9.096/1995, art. 38). O Tesouro deposita mensalmente numa conta à disposição do TSE, que divide em cinco dias: 5% em partes iguais entre os partidos que passam a cláusula de desempenho e 95% na proporção dos votos da última eleição para a Câmara (arts. 40, 41 e 41-A). Pelo menos 5% devem ir para programas de participação política das mulheres (CF, art. 17, § 7º). O partido usa o dinheiro na manutenção das sedes e serviços, com gasto de pessoal limitado a 50% do total recebido no órgão nacional e a 60% nos estaduais e municipais, em propaganda doutrinária, em campanhas, na sua fundação ou instituto (no mínimo 20%) e em outros fins listados na lei, e deve discriminar esses gastos na prestação de contas (Lei 9.096/1995, art. 44, caput e § 1º). Os depósitos ficam em bancos públicos (art. 43).",
+  "detalhes": "É formado por multas eleitorais, doações e dotações da União de no mínimo R$ 0,35 (valores de agosto de 1995) por eleitor inscrito (Lei 9.096/1995, art. 38). O Tesouro deposita mensalmente numa conta à disposição do TSE, que divide em cinco dias: 5% em partes iguais entre os partidos que passam a cláusula de desempenho e 95% na proporção dos votos da última eleição para a Câmara (arts. 40, 41 e 41-A). Pelo menos 5% devem ir para programas de participação política das mulheres (CF, art. 17, § 7º). O partido usa o dinheiro na manutenção das sedes e serviços, com gasto de pessoal limitado a 50% do total recebido no órgão nacional e a 60% nos estaduais e municipais, em propaganda doutrinária, em campanhas, na sua fundação ou instituto (no mínimo 20%) e em outros fins listados na lei, e deve discriminar esses gastos na prestação de contas (Lei 9.096/1995, art. 44, caput e § 1º). Os depósitos ficam em bancos controlados pela União ou pelo estado ou, onde não houver, no banco que o partido escolher (art. 43).",
   "tipo_objeto": "fundo",
   "esfera": "federal",
   "relativo_a": [
@@ -36,10 +36,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes",
-    "notas": "f2-eleicoes: detalhes ganharam a aplicação dos recursos e o depósito em bancos públicos (Lei 9.096/1995, arts. 43 e 44); fontes acrescentadas. Antes: coletado em f0-eleicoes; CF, art. 17, §§ 3º e 7º, EC 97/2017, art. 3º, e Lei 9.096/1995, arts. 38, 40 e 41-A (redação atual: 5% iguais entre os que cumprem a cláusula, 95% pelos votos), conferidos; degraus da cláusula na nota de detalhes conferidos; tipo_objeto fundo (termo novo, aplicado pelo coordenador) conferido"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "f2-eleicoes acrescentou a aplicação dos recursos e os depósitos: Lei 9.096/1995, arts. 43 e 44, caput (I, a e b: 50% e 60% com pessoal; IV: 20% na fundação) e § 1º, conferidos. Corrigido: 'bancos públicos' virou o que o art. 43 diz (bancos controlados pelo poder público federal ou estadual ou, na falta, banco escolhido pelo partido). Antes: verificado em verificacao-f0-eleicoes (CF, art. 17, §§ 3º e 7º; EC 97/2017, art. 3º; Lei 9.096/1995, arts. 38, 40, 41 e 41-A)"
   },
   "notas": "Não pesquisamos o valor do fundo em 2026."
 }

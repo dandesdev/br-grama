@@ -1,0 +1,41 @@
+{
+  "id": "org:orgaos-setoriais-de-planejamento-e-orcamento",
+  "tipo": "orgao",
+  "nome": "Órgãos setoriais de planejamento e orçamento",
+  "resumo": "Unidades de planejamento e orçamento de cada ministério, da AGU, da Vice-Presidência e da Casa Civil, que seguem a orientação técnica do órgão central do sistema.",
+  "detalhes": "Ficam subordinadas ao órgão em que estão, mas seguem a orientação normativa e a supervisão técnica do órgão central do Sistema de Planejamento e de Orçamento Federal. As unidades das entidades vinculadas seguem o órgão central e o setorial do seu ministério; a unidade da Casa Civil atende toda a Presidência da República (Lei 10.180/2001, art. 4º, §§ 1º, 3º a 5º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 4º, § 1º"
+        }
+      ],
+      "nota": "Conjunto de unidades em pastas diferentes; por isso fica no Poder Executivo federal, e a subordinação a cada pasta fica no texto."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 4º, II, e §§ 1º, 3º a 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001."
+  },
+  "notas": "Conjunto: uma unidade em cada órgão listado. Os nomes das unidades em cada ministério não foram levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

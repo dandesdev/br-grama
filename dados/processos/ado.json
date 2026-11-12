@@ -1,0 +1,278 @@
+{
+  "id": "proc:ado",
+  "tipo": "processo",
+  "nome": "Ação direta de inconstitucionalidade por omissão (ADO)",
+  "sigla": "ADO",
+  "resumo": "Como o STF julga a falta de uma lei ou providência que a Constituição exige: proposta, informações do omisso, parecer do PGR e aviso ao Poder competente.",
+  "detalhes": "Os legitimados são os mesmos da ADI. O rito segue o da ADI, com informações de quem deveria ter agido, manifestação facultativa do AGU e parecer do PGR. Declarada a omissão por seis votos, o STF dá ciência ao Poder competente; se a omissão for de órgão administrativo, ele tem 30 dias para agir.",
+  "forma": "linha",
+  "produz": "obj:adi-e-adc",
+  "etapas": [
+    {
+      "id": "propositura",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-do-senado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:camara-legislativa-do-df",
+        "cargo:arquetipo-estadual-governador",
+        "cargo:procurador-geral-da-republica",
+        "org:conselho-federal-da-oab",
+        "org:partidos-politicos",
+        "org:confederacoes-sindicais-e-entidades-de-classe-nacionais"
+      ],
+      "acao": "Um dos legitimados propõe a ação, apontando a omissão total ou parcial em legislar ou agir",
+      "detalhes": "A omissão pode ser do dever de legislar ou de adotar providência administrativa. Proposta a ação, não se admite desistência.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 12-A, 12-B e 12-D"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103, caput e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissibilidade",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "admissibilidade",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator examina a petição e a indefere se for inepta, sem fundamento ou manifestamente improcedente",
+      "detalhes": "Da decisão que indefere a petição inicial cabe agravo.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-C"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "medida-cautelar",
+          "quando": "Petição admitida, com pedido de medida cautelar"
+        },
+        {
+          "para": "informacoes",
+          "quando": "Petição admitida, sem pedido de medida cautelar"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Petição indeferida"
+        }
+      ]
+    },
+    {
+      "id": "medida-cautelar",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "Em excepcional urgência, o Plenário pode conceder cautelar por maioria absoluta, ouvidos os responsáveis pela omissão",
+      "detalhes": "A cautelar pode suspender a aplicação da norma (na omissão parcial), suspender processos judiciais ou administrativos ou fixar outra providência. O relator pode ouvir o PGR em 3 dias. Concedida, a parte dispositiva é publicada em 10 dias.",
+      "prazo": {
+        "texto": "5 dias para os órgãos ou autoridades responsáveis pela omissão",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "pedido de manifestação"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros do STF, com pelo menos oito presentes (art. 22)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 12-F e 12-G"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "informacoes",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "informacoes",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator pede informações aos responsáveis pela omissão; os demais legitimados podem se manifestar",
+      "detalhes": "Aplica-se o rito da ADI no que couber. No prazo das informações, os outros legitimados podem se manifestar por escrito, juntar documentos e apresentar memoriais.",
+      "prazo": {
+        "texto": "30 dias, como na ADI (Lei 9.868, art. 6º, aplicado pelo art. 12-E)",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "recebimento do pedido de informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-E, caput e § 1º; art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "agu-e-pgr",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "agu-e-pgr",
+      "atores": [
+        "cargo:advogado-geral-da-uniao",
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O AGU se manifesta, se o relator pedir, e o PGR dá parecer quando não for o autor",
+      "prazo": {
+        "texto": "15 dias para o AGU, se chamado; 15 dias de vista ao PGR depois do prazo das informações",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "fim do prazo das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-E, §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "relatorio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "relatorio",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator faz o relatório, envia cópia aos ministros e pede dia para o julgamento",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-E, caput; art. 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "O Plenário julga, com pelo menos 8 ministros presentes; declarar a omissão exige 6 votos",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Seis votos, com pelo menos oito ministros presentes (Lei 9.868, arts. 12-H, 22 e 23)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-H, caput e § 2º; arts. 22 e 23"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "ciencia-ao-poder-competente",
+          "quando": "Omissão declarada"
+        },
+        {
+          "para": "improcedencia",
+          "quando": "Omissão não reconhecida"
+        }
+      ]
+    },
+    {
+      "id": "ciencia-ao-poder-competente",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF dá ciência ao Poder competente; se a omissão for de órgão administrativo, ele tem 30 dias para agir",
+      "detalhes": "O Tribunal pode fixar, excepcionalmente, outro prazo razoável para o órgão administrativo, conforme o caso e o interesse público. Ao Poder Legislativo a CF só manda dar ciência, sem prazo.",
+      "prazo": {
+        "texto": "30 dias para o órgão administrativo, ou prazo razoável fixado pelo STF",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "ciência da decisão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-H, caput e § 1º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103, § 2º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "improcedencia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A ação é julgada improcedente e não há omissão a suprir",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-H, § 2º; art. 24"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A petição inicial é indeferida e a ação se encerra, salvo se o agravo for provido",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12-C"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "2009-10-28",
+    "ate": null,
+    "nota": "O capítulo da ADO (arts. 12-A a 12-H) foi incluído pela Lei 12.063, de 27/10/2009, em vigor na publicação (DOU de 28/10/2009; cópia em pesquisa/brutos/planalto-leis/2026-11-11-f2-processos-constitucionais/l12063.htm). A ADO existe desde a CF de 1988 (art. 103, § 2º)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "arts. 12-A a 12-H"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 103, caput e §§ 1º e 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O texto do Planalto anota \"Vide ADO nº 26\" no art. 12; não consultamos essa decisão. Na etapa 'julgamento', a improcedência foi deduzida do art. 24 aplicado pelo art. 12-H, § 2º.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

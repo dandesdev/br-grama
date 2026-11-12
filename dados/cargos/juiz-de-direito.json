@@ -7,7 +7,7 @@
   "provimento": "variavel",
   "vagas": null,
   "vagas_nota": "O número de cargos é fixado em lei; não somamos.",
-  "provimento_nota": "Na promoção de entrância para entrância, o merecimento é apurado em lista tríplice, e o tribunal só recusa o juiz mais antigo pelo voto de dois terços (CF, art. 93, II, d; LOMAN, art. 80, § 1º). A remoção precede a promoção por merecimento (LOMAN, art. 81). O cargo de entrada, onde existe, é cargo:juiz-de-direito-substituto.",
+  "provimento_nota": "Na promoção de entrância para entrância, o merecimento é apurado em lista tríplice, e o tribunal só recusa o juiz mais antigo pelo voto de dois terços (CF, art. 93, II, d, redação da EC 45/2004; a LOMAN, art. 80, § 1º, III, ainda fala em maioria absoluta). A remoção precede a promoção por merecimento (LOMAN, art. 81). O cargo de entrada, onde existe, é cargo:juiz-de-direito-substituto.",
   "mandato": {
     "anos": null,
     "vitalicio": true,
@@ -68,10 +68,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario",
-    "notas": "f2-judiciario: separado o juiz de direito substituto (cargo próprio); provimento passou de concurso-publico a variavel (concurso onde não há substitutos; promoção onde há); acrescentadas LOMAN, CLT (arts. 668 e 669) e Lei 11.697/2008"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario (separado o juiz de direito substituto (cargo próprio); provimento passou de concurso-publico a variavel (concurso onde não há substitutos; promoção onde há); acrescentadas LOMAN, CLT (arts. 668 e 669) e Lei 11.697/2008). Corrigido: o provimento_nota citava a LOMAN, art. 80, § 1º, para o quórum de dois terços na recusa do mais antigo; a LOMAN diz maioria absoluta, e os dois terços são da CF, art. 93, II, d."
   },
   "provimento_casos": [
     {

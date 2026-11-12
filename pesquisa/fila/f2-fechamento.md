@@ -22,6 +22,9 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [ ] Terceira Secretaria do Senado em 2026-10-01: titular Ana Paula Lobato afastada; quem exerceu de 5/8 a 6/10/2026 entra com `interino: true` (D40), se a fonte do Senado disser (verificacao-f2-legislativo-tcu).
 - [ ] Conselho da República: três relações apontam para o órgão onde o cargo `cargo:membro-cidadao-do-conselho-da-republica` seria o destino certo; conferir e trocar (verificacao-f2-legislativo-tcu).
 
+- [ ] Processo de nova eleição (Código Eleitoral, art. 224, com a renovação da votação dos arts. 187 e 201), com `fonte:stf-informativo-893` (ADI 5.525: o § 4º não vale para Presidente, Vice e Senador; ADI 5.619 improcedente); até lá, arts. 187, 201 e 224 do Código são lacuna no quadro de f2-eleicoes (verificacao-f2-eleicoes).
+- [ ] Quadro de f2-eleicoes: art. 237 do Código passa a fora com motivo "superado" pela LC 64, art. 22 (D51); Lei 9.096, art. 13, motivo "declarado inconstitucional (ADIs 1.351 e 1.354)" (verificacao-f2-eleicoes).
+
 ## Propostas de vocabulário (para o coordenador decidir)
 
 - `tipo_orgao`: órgão interno de função essencial (corregedorias, ouvidorias, secretarias do MP, da Defensoria e da AGU) e escola institucional (f2-funcoes-essenciais).
@@ -29,6 +32,10 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - `tipo_norma`: ato da Mesa e ato conjunto, hoje `outro` (f2-legislativo-tcu; a revisão reforçou).
 - `relacao`: verbo para escolha livre sem aprovação de outro órgão (Líder do Governo), hoje `indica`, que pressupõe aprovação (verificacao-f2-legislativo-tcu).
 - `tipos-orgao.json`: definições de empresa pública, sociedade de economia mista e fundação pública comparadas ao DL 200, art. 5º (f2-executivo).
+
+- `provimento`: ampliar `sorteio` para o sorteio entre oficiais (juízes militares dos Conselhos de Justiça) (f2-judiciario).
+- `relacao`: "exerce a função de" para funções acumuladas (Vice-Presidente do STM como Corregedor; Vice-Presidente do STJ como Corregedor-Geral da Justiça Federal), hoje `preside` com provimento `nato` (f2-judiciario).
+- `relacao`: "registra" no lugar de `aprecia-para-registro` para a Justiça Eleitoral; objeto "lei eleitoral" para `regulamenta`; `tipo_objeto` "representação" (impugnação, AIJE), hoje `acao-judicial` (f2-eleicoes).
 
 ## Decisões tomadas pelo coordenador
 
@@ -39,5 +46,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-11: quadro de f2-funcoes-essenciais reclassificado conforme a revisão (LC 75, arts. 82, 115, 148, 181; Lei 8.625, art. 80; LC 80, art. 50 passam a coberto; Título III da LC 80 fica fora pela D51). Regra para as próximas coletas: artigo citado em `estrutura_continua` ou como fonte de relação é coberto, não fora.
 
 - 2026-11-11: o titular afastado continua como ocupante no retrato, com o afastamento em `condicao`; quem exerce no lugar entra com `interino: true`. É a leitura direta da D40 e evita esvaziar cargos durante licenças curtas.
+
+- 2026-11-11: as mesas receptoras ficam `contido_em` a Justiça Eleitoral. O juiz eleitoral as nomeia para cada eleição (Código Eleitoral, arts. 119 e 120), e tirá-las do ramo deixaria um nó solto no mapa só ligado ao juiz; a nota da entidade explica que o art. 12 não as lista.
 
 ## Diário

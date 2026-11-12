@@ -1,0 +1,351 @@
+{
+  "id": "proc:adi",
+  "tipo": "processo",
+  "nome": "Ação direta de inconstitucionalidade (ADI)",
+  "sigla": "ADI",
+  "resumo": "Como o STF julga se uma lei ou ato normativo federal ou estadual contraria a Constituição: proposta, informações, AGU e PGR, julgamento por seis votos e efeito para todos.",
+  "detalhes": "Um dos legitimados do art. 103 da CF propõe a ação, e não pode desistir dela. O relator pede informações a quem editou a norma; o Advogado-Geral da União a defende e o PGR dá parecer. O Plenário decide com pelo menos oito ministros presentes, e a declaração exige seis votos. A decisão vale para todos e vincula o Judiciário e a administração pública.",
+  "forma": "linha",
+  "produz": "obj:adi-e-adc",
+  "etapas": [
+    {
+      "id": "propositura",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-do-senado-federal",
+        "org:mesa-da-camara-dos-deputados",
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:camara-legislativa-do-df",
+        "cargo:arquetipo-estadual-governador",
+        "cargo:procurador-geral-da-republica",
+        "org:conselho-federal-da-oab",
+        "org:partidos-politicos",
+        "org:confederacoes-sindicais-e-entidades-de-classe-nacionais"
+      ],
+      "acao": "Um dos legitimados propõe a ação ao STF, indicando a norma atacada e os fundamentos",
+      "detalhes": "A petição aponta cada dispositivo impugnado, com os fundamentos jurídicos e o pedido, e traz cópia da norma. Proposta a ação, não se admite desistência. O governador do DF também é legitimado; partido político precisa ter representação no Congresso.",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, a; art. 103, I a IX"
+        },
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 2º, 3º e 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "admissibilidade",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "admissibilidade",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator examina a petição e a indefere se for inepta, sem fundamento ou manifestamente improcedente",
+      "detalhes": "Da decisão que indefere a petição inicial cabe agravo ao Plenário. Terceiros não podem intervir, mas o relator pode admitir, por despacho irrecorrível, a manifestação de outros órgãos ou entidades (amicus curiae), considerando a relevância da matéria e a representatividade de quem pede.",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 4º; art. 7º, caput e § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "medida-cautelar",
+          "quando": "Petição admitida, com pedido de medida cautelar"
+        },
+        {
+          "para": "informacoes",
+          "quando": "Petição admitida, sem pedido de medida cautelar"
+        },
+        {
+          "para": "indeferimento",
+          "quando": "Petição indeferida"
+        }
+      ]
+    },
+    {
+      "id": "medida-cautelar",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "O Plenário decide o pedido de cautelar por maioria absoluta, depois de ouvir em 5 dias quem editou a norma",
+      "detalhes": "O relator pode ouvir também o AGU e o PGR, em 3 dias; em excepcional urgência, o Tribunal pode conceder a cautelar sem ouvir ninguém. Concedida, vale para todos a partir dali (salvo se o Tribunal lhe der efeito retroativo), faz voltar a valer a legislação anterior e tem a parte dispositiva publicada em 10 dias. A regra vale fora do recesso.",
+      "prazo": {
+        "texto": "5 dias para os órgãos ou autoridades que editaram a norma; 3 dias para o AGU e o PGR, se ouvidos",
+        "valor": 5,
+        "unidade": "dias",
+        "conta_de": "pedido de manifestação do relator"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Maioria absoluta dos membros do Tribunal (6 de 11), com pelo menos oito ministros presentes (art. 22)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 10 e 11"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, I, p"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "informacoes",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "informacoes",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator pede informações aos órgãos ou autoridades que editaram a norma",
+            "prazo": {
+        "texto": "30 dias, contados do recebimento do pedido",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "recebimento do pedido de informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "agu-e-pgr",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "agu-e-pgr",
+      "atores": [
+        "cargo:advogado-geral-da-uniao",
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "O Advogado-Geral da União defende a norma e, em seguida, o PGR dá parecer",
+      "detalhes": "A CF manda citar o AGU para defender o ato impugnado e ouvir o PGR em todas as ações de inconstitucionalidade. São ouvidos um depois do outro, depois de vencido o prazo das informações.",
+      "prazo": {
+        "texto": "15 dias para cada um, sucessivamente",
+        "valor": 15,
+        "unidade": "dias",
+        "conta_de": "fim do prazo das informações"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 8º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 103, §§ 1º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "relatorio",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "relatorio",
+      "atores": [
+        "cargo:ministro-do-stf"
+      ],
+      "acao": "O relator faz o relatório, envia cópia aos ministros e pede dia para o julgamento",
+      "detalhes": "Se precisar esclarecer fatos, o relator pode requisitar informações adicionais, nomear peritos, ouvir especialistas em audiência pública ou pedir aos tribunais informações sobre como a norma vem sendo aplicada.",
+      "prazo": {
+        "texto": "30 dias para as informações adicionais, perícias e audiências, contados da solicitação do relator",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "solicitação do relator"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "O Plenário julga, com pelo menos 8 ministros presentes; declarar a norma constitucional ou não exige 6 votos",
+      "detalhes": "Se nenhum lado alcançar seis votos e houver ministros ausentes que possam mudar o resultado, o julgamento é suspenso até que eles votem. Proclamada a inconstitucionalidade, a ação é julgada procedente; proclamada a constitucionalidade, improcedente. A decisão é irrecorrível, salvo embargos de declaração, e não admite ação rescisória.",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Seis votos num sentido (maioria absoluta dos 11 ministros), com pelo menos oito presentes (Lei 9.868, arts. 22 e 23; CF, art. 97)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 22 a 24 e 26"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 97"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "modulacao",
+          "quando": "Norma declarada inconstitucional (ação procedente)"
+        },
+        {
+          "para": "publicacao",
+          "quando": "Norma declarada constitucional (ação improcedente)"
+        }
+      ]
+    },
+    {
+      "id": "modulacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:plenario-do-stf"
+      ],
+      "acao": "Por dois terços, o STF pode restringir os efeitos da declaração ou marcar quando ela passa a valer",
+      "detalhes": "Só por razões de segurança jurídica ou de excepcional interesse social.",
+      "quorum": {
+        "regra": "dois-tercos",
+        "nota": "Dois terços dos membros do STF (8 de 11)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 27"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "publicacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "publicacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:stf"
+      ],
+      "acao": "O STF comunica a decisão a quem editou a norma e publica a parte dispositiva; ela vale para todos",
+      "detalhes": "A declaração de constitucionalidade ou inconstitucionalidade, inclusive a interpretação conforme a Constituição, tem eficácia contra todos e efeito vinculante para o Judiciário e a administração pública federal, estadual e municipal.",
+      "prazo": {
+        "texto": "Publicação em 10 dias depois do trânsito em julgado",
+        "valor": 10,
+        "unidade": "dias",
+        "conta_de": "trânsito em julgado"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "arts. 25 e 28"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 102, § 2º"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "indeferimento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A petição inicial é indeferida e a ação se encerra, salvo se o Plenário prover o agravo",
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 4º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "rito-abreviado",
+      "nome": "Rito abreviado (art. 12)",
+      "resumo": "Havendo pedido de cautelar e matéria relevante, o relator leva a ação direto ao Plenário, que pode julgá-la em definitivo",
+      "detalhes": "Usado quando a matéria é relevante e tem especial significado para a ordem social e a segurança jurídica. Os prazos encurtam e o Tribunal, em vez de decidir só a cautelar, pode julgar o mérito.",
+      "quem_aciona": [
+        "cargo:ministro-do-stf"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-9868-1999",
+          "dispositivo": "art. 12"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "medida-cautelar",
+          "nota": "Não há decisão separada sobre a cautelar: o processo segue para as informações e vai direto ao Plenário."
+        },
+        {
+          "etapa": "informacoes",
+          "prazo": {
+            "texto": "10 dias",
+            "valor": 10,
+            "unidade": "dias",
+            "conta_de": "pedido de informações"
+          }
+        },
+        {
+          "etapa": "agu-e-pgr",
+          "prazo": {
+            "texto": "5 dias para cada um, sucessivamente",
+            "valor": 5,
+            "unidade": "dias",
+            "conta_de": "fim do prazo das informações"
+          }
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1999-11-11",
+    "ate": null,
+    "nota": "Data de vigência da Lei 9.868/1999, que regula o rito; a ADI existe desde a CF de 1988 (art. 102, I, a)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9868-1999",
+      "dispositivo": "arts. 1º a 12 e 22 a 28"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 97; 102, I, a, p, e § 2º; 103"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Atores: (1) o relator é cargo:ministro-do-stf, porque o mapa não tem cargo de relator; (2) os legitimados repetem os das relações 'ajuiza' para obj:adi-e-adc; (3) a cautelar foi modelada como etapa opcional, porque um regime não cria etapas. O art. 7º, § 1º, e o parágrafo único do art. 5º foram vetados. A Lei 9.868 ressalva o recesso na cautelar (art. 10), mas não diz quem decide nele; não modelamos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-processos-constitucionais"
+  }
+}

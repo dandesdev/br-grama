@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-fiscaliza-limites-da-divida-publica",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza os limites da dívida e das operações de crédito da União",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "obj:limites-da-divida-publica",
+  "condicao": "Fiscaliza as providências para reconduzir a dívida ao limite e alerta quando dívida, operações de crédito ou garantias passam de 90% dos limites; acompanha também as vedações às operações do Banco Central com títulos da dívida. Os tribunais de contas dos estados fazem o mesmo nos seus entes.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 59, caput, II e IV, e §§ 1º, III, e 3º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:presidente-da-republica-publica-rgf",
+  "tipo": "relacao",
+  "nome": "O Presidente da República emite o RGF do Poder Executivo federal",
+  "relacao": "publica",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:rgf",
+  "condicao": "Assina o relatório de cada quadrimestre do Executivo federal com os responsáveis pela administração financeira e pelo controle interno. A Secretaria do Tesouro Nacional o elabora e divulga (Decreto 11.907/2024, Anexo I, art. 37, X).",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 54, I, e parágrafo único; art. 55, § 2º"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 37, X"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

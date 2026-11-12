@@ -1,0 +1,26 @@
+{
+  "id": "rel:mesa-da-camara-dos-deputados-publica-rgf",
+  "tipo": "relacao",
+  "nome": "A Mesa da Câmara emite o RGF da Câmara dos Deputados",
+  "relacao": "publica",
+  "de": "org:mesa-da-camara-dos-deputados",
+  "para": "obj:rgf",
+  "condicao": "O Presidente e os demais membros da Mesa assinam o relatório de cada quadrimestre da Câmara, que traz só a despesa com pessoal, as medidas corretivas e, no último quadrimestre, caixa e restos a pagar.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 20, § 2º, II, a; art. 54, II; art. 55, § 1º"
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

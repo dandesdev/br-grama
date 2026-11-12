@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-tce-fiscaliza-rgf",
+  "tipo": "relacao",
+  "nome": "O tribunal de contas do estado fiscaliza o cumprimento da LRF pelo Relatório de Gestão Fiscal",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "obj:rgf",
+  "condicao": "Com o Legislativo e o controle interno, fiscaliza os limites de pessoal, dívida, operações de crédito e restos a pagar e alerta o Poder ou órgão quando a despesa com pessoal passa de 90% do limite ou a dívida e as operações de crédito passam de 90% dos seus limites.",
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 59, caput, I a VI, e § 1º, II e III"
+    }
+  ],
+  "notas": "A LRF fala nos Tribunais de Contas de cada esfera; para os municípios, o órgão é o TCE ou, onde houver, o tribunal de contas dos municípios. Ligamos só o arquétipo estadual, como em rel:arquetipo-estadual-tce-fiscaliza-mecanismo-de-ajuste-fiscal.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

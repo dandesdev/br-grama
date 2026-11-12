@@ -1,0 +1,49 @@
+{
+  "id": "org:sistema-de-planejamento-e-de-orcamento-federal",
+  "tipo": "orgao",
+  "nome": "Sistema de Planejamento e de Orçamento Federal",
+  "resumo": "Rede das unidades de planejamento e orçamento do Executivo federal que preparam o PPA, a LDO e a LOA, sob a orientação do Ministério do Planejamento e Orçamento.",
+  "detalhes": "Formula o planejamento nacional, o plano plurianual, as diretrizes orçamentárias e os orçamentos anuais e articula as normas com estados, DF e municípios (Lei 10.180/2001, art. 2º). É formado pelo órgão central, pelos órgãos setoriais dos ministérios, da AGU, da Vice-Presidência e da Casa Civil e por órgãos específicos (art. 4º). As unidades de planejamento coordenam o PPA e avaliam os programas; as de orçamento coordenam a LDO e a LOA, fixam as classificações orçamentárias e acompanham a execução (arts. 7º e 8º). As unidades de orçamento dos outros Poderes seguem a orientação normativa do órgão central, sem perder suas competências (arts. 5º e 6º). No Ministério do Planejamento, a Secretaria Nacional de Planejamento orienta os setoriais de planejamento e a Secretaria de Orçamento Federal, os de orçamento (Decreto 11.353/2023, Anexo I, arts. 14, I, e 20, V e XVII).",
+  "tipo_orgao": "sistema",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "arts. 1º a 8º"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 40, VII"
+    },
+    {
+      "ref": "norma:decreto-11353-2023",
+      "dispositivo": "Anexo I, art. 1º, VII; art. 14, I; art. 20, V e XVII"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 38",
+      "nota": "competência, estrutura e funcionamento dos órgãos do sistema, por regulamento"
+    },
+    {
+      "ref": "norma:decreto-11353-2023",
+      "dispositivo": "Anexo I, arts. 14 a 22",
+      "nota": "unidades do Ministério do Planejamento que coordenam o sistema"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001 (conversão da MP 2.112-88/2001). Os sistemas já vinham das medidas provisórias anteriores, não pesquisadas."
+  },
+  "notas": "Tipo 'sistema', sem contido_em, como o Sisbin. A Lei 10.180/2001 (art. 4º, I) dá o papel de órgão central ao Ministério do Planejamento, Orçamento e Gestão, que não existe mais; hoje a coordenação e a gestão do sistema são área de competência do Ministério do Planejamento e Orçamento (Lei 14.600/2023, art. 40, VII). Órgãos específicos (art. 4º, § 2º) não foram levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

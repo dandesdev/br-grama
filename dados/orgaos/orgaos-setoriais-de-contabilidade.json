@@ -1,0 +1,41 @@
+{
+  "id": "org:orgaos-setoriais-de-contabilidade",
+  "tipo": "orgao",
+  "nome": "Órgãos setoriais de contabilidade",
+  "resumo": "Unidades de gestão interna de cada ministério e da AGU que fazem a contabilidade federal sob a orientação técnica da Secretaria do Tesouro Nacional.",
+  "detalhes": "Ficam subordinadas ao órgão em que estão, mas seguem a orientação normativa e a supervisão técnica do órgão central do Sistema de Contabilidade Federal. Para a Presidência e a Vice-Presidência, o papel de órgão setorial contábil cabe ao controle interno da Casa Civil (Lei 10.180/2001, art. 17, §§ 1º a 3º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-10180-2001",
+          "dispositivo": "art. 17, § 1º"
+        }
+      ],
+      "nota": "Conjunto de unidades em pastas diferentes; por isso fica no Poder Executivo federal."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-10180-2001",
+      "dispositivo": "art. 17, II, e §§ 1º a 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2001-02-07",
+    "ate": null,
+    "nota": "Data de publicação da Lei 10.180/2001."
+  },
+  "notas": "Conjunto: uma unidade em cada órgão listado. Os nomes das unidades não foram levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-financas-publicas"
+  },
+  "confianca": "oficial"
+}

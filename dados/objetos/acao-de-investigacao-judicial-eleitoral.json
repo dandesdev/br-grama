@@ -26,11 +26,12 @@
     "ate": null,
     "nota": "Rito da LC 64/1990 (publicada em 21/5/1990). Inelegibilidade de oito anos, cassação mesmo depois da proclamação e dispensa da potencialidade desde a LC 135/2010."
   },
-  "notas": "A LC 64/1990 fala em 'representação' e 'investigação judicial' (art. 22); o nome 'ação de investigação judicial eleitoral' e a sigla AIJE são de uso corrente, não estão na lei. O rito está em proc:acao-de-investigacao-judicial-eleitoral. Corregedores: cargo:corregedor-geral-eleitoral (tarefa f2-judiciario); o Corregedor Regional é juiz do TRE (Código Eleitoral, art. 26).",
+  "notas": "A LC 64/1990 fala em 'representação' e 'investigação judicial' (art. 22); o nome 'ação de investigação judicial eleitoral' e a sigla AIJE são de uso corrente, não estão na lei. O rito está em proc:acao-de-investigacao-judicial-eleitoral. Corregedores: cargo:corregedor-geral-eleitoral (tarefa f2-judiciario); o Corregedor Regional é juiz do TRE, sem cargo próprio no mapa (a regra do Código Eleitoral, art. 26, não cabe na composição da CF; ver aviso:corregedor-regional-eleitoral-terceiro-desembargador).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-eleicoes"
+    "tarefa": "verificacao-f2-eleicoes",
+    "notas": "coletado em f2-eleicoes; LC 64/1990, arts. 19 a 24 e 26-B, Lei 9.504/1997, arts. 30-A, 41-A, 73, § 12, e 74, e CF, art. 14, § 9º, conferidos. Nome e sigla: a lei fala em representação e investigação judicial (art. 22); o nome está marcado nas notas como de uso corrente. Corrigida a nota que atribuía ao Código Eleitoral, art. 26, a escolha do Corregedor Regional"
   }
 }

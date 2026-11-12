@@ -5,7 +5,7 @@
   "relacao": "exerce-poder-disciplinar-sobre",
   "de": "org:arquetipo-estadual-orgao-especial-do-tribunal-de-justica",
   "para": "cargo:juiz-de-direito",
-  "condicao": "O tribunal ou seu órgão especial aplica advertência, censura, remoção compulsória, disponibilidade e aposentadoria compulsória; remoção, disponibilidade e aposentadoria por interesse público exigem maioria absoluta. A perda do cargo do juiz vitalício depende de sentença judicial.",
+  "condicao": "O tribunal ou seu órgão especial aplica advertência, censura, remoção compulsória, disponibilidade e aposentadoria compulsória; remoção e disponibilidade por interesse público exigem maioria absoluta (CF, art. 93, VIII, redação da EC 103/2019). A perda do cargo do juiz vitalício depende de sentença judicial.",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -22,11 +22,12 @@
     "incerta": true,
     "nota": "A LOMAN entrou em vigor 60 dias após a publicação no DOU de 14/3/1979 (art. 146); a data exata pela contagem do prazo não foi conferida."
   },
-  "notas": "A LOMAN exigia dois terços (art. 45); a EC 45/2004 passou a maioria absoluta (CF, art. 93, VIII). Onde não há órgão especial, o poder é do Tribunal Pleno.",
+  "notas": "A LOMAN exigia dois terços (art. 45); a EC 45/2004 passou a maioria absoluta para remoção, disponibilidade e aposentadoria (CF, art. 93, VIII), e a EC 103/2019 tirou a aposentadoria do inciso. A aposentadoria compulsória continua entre as penas do art. 42, V, da LOMAN. Onde não há órgão especial, o poder é do Tribunal Pleno.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario. Corrigido: a condição dizia que a aposentadoria por interesse público exige maioria absoluta; a EC 103/2019 deu nova redação ao art. 93, VIII, da CF, que hoje fala só em remoção e disponibilidade."
   }
 }

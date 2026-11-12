@@ -60,15 +60,14 @@
   "vigencia": {
     "de": "2018-12-20",
     "ate": null,
-    "incerta": true,
-    "nota": "Nome dado pela Lei 13.774/2018, que transformou o antigo juiz-auditor substituto; data de vigência da lei não conferida."
+    "nota": "Nome dado pela Lei 13.774/2018, que transformou o antigo juiz-auditor substituto; a lei entrou em vigor na publicação (art. 4º; DOU de 20/12/2018)."
   },
   "notas": "A Lei 8.457/1992, art. 33, ainda fala em \"Juiz-Auditor Substituto\" (redação original não atualizada pela Lei 13.774/2018).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-judiciario",
-    "notas": "criado em f2-judiciario; o cargo:juiz-federal-da-justica-militar passou a ser só o titular"
+    "tarefa": "verificacao-f2-judiciario",
+    "notas": "coletado em f2-judiciario (criado em f2-judiciario; o cargo:juiz-federal-da-justica-militar passou a ser só o titular). Vigência da Lei 13.774/2018 conferida (art. 4º); tirado o incerta."
   }
 }
