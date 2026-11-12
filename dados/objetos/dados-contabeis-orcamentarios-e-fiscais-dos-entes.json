@@ -33,9 +33,9 @@
   "confianca": "oficial",
   "notas": "tipo_objeto 'documento' por ser um conjunto de informações a publicar. O sistema usado hoje (Siconfi) e as portarias da STN não foram pesquisados.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas",
-    "notas": "detalhes e fonte com a LRF (arts. 48, 48-A e 73-C) (antes verificado em verificacao-f0-dinheiro-complementar)"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; LRF, arts. 48, 48-A e 73-C, conferidos. Nota da coleta: detalhes e fonte com a LRF (arts. 48, 48-A e 73-C) (antes verificado em verificacao-f0-dinheiro-complementar)"
   }
 }

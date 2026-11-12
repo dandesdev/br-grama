@@ -1,0 +1,264 @@
+{
+  "id": "proc:processo-administrativo-disciplinar-federal",
+  "tipo": "processo",
+  "nome": "Processo administrativo disciplinar do servidor federal",
+  "resumo": "Como uma falta de servidor federal é apurada e punida: sindicância ou processo disciplinar, comissão de três servidores estáveis, defesa e julgamento pela autoridade conforme a pena.",
+  "detalhes": "Vale para os servidores civis da União, das autarquias e das fundações federais, nos três Poderes (Lei 8.112/1990, art. 1º). As penas são advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão (art. 127). Quem julga depende da pena: o chefe da repartição (advertência e suspensão de até 30 dias), a autoridade logo abaixo do chefe do Poder (suspensão maior) ou o Presidente da República, os Presidentes das Casas do Legislativo e dos tribunais federais e o Procurador-Geral da República (demissão e cassação); a destituição de cargo em comissão cabe a quem nomeou (art. 141). No Executivo, a demissão está delegada aos Ministros (Decreto 11.123/2022). Se a falta for crime, o processo vai ao Ministério Público (art. 171).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "apuracao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:cgu"
+      ],
+      "acao": "A autoridade que sabe da irregularidade deve apurá-la, por sindicância ou por processo disciplinar",
+      "detalhes": "Denúncia só é apurada se for escrita e identificada; sem indício de infração, é arquivada. Processo disciplinar é obrigatório quando a pena possível for suspensão de mais de 30 dias, demissão, cassação ou destituição. Por delegação, a apuração pode ser feita por autoridade de outro órgão. No Executivo, a CGU pode instaurar processos ou avocar os que estão em curso (Lei 14.600/2023, art. 49, § 1º, II).",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 143, caput e § 3º, 144 e 146"
+        },
+        {
+          "ref": "norma:lei-14600-2023",
+          "dispositivo": "art. 49, § 1º, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "sindicancia",
+          "quando": "falta leve ou fatos a esclarecer"
+        },
+        {
+          "para": "instauracao",
+          "quando": "pena possível acima de suspensão de 30 dias"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "denúncia sem objeto"
+        }
+      ]
+    },
+    {
+      "id": "sindicancia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "A sindicância conclui em até 30 dias, prorrogáveis por 30: arquiva, aplica pena leve ou leva a processo disciplinar",
+      "detalhes": "Pena leve é advertência ou suspensão de até 30 dias. Os autos da sindicância entram no processo disciplinar como peça informativa.",
+      "prazo": {
+        "texto": "até 30 dias, prorrogáveis por igual período",
+        "valor": 30,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 145 e 154"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "arquivamento",
+          "quando": "arquiva"
+        },
+        {
+          "para": "punicao",
+          "quando": "advertência ou suspensão de até 30 dias"
+        },
+        {
+          "para": "instauracao",
+          "quando": "a falta pede pena maior"
+        }
+      ]
+    },
+    {
+      "id": "instauracao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:cgu"
+      ],
+      "acao": "A autoridade publica o ato que forma a comissão de três servidores estáveis e pode afastar o acusado",
+      "detalhes": "A autoridade indica o presidente da comissão, de cargo igual ou superior ao do acusado ou com escolaridade igual ou maior; parentes do acusado não podem integrá-la. O afastamento preventivo, sem perda de remuneração, dura até 60 dias, prorrogáveis por mais 60.",
+      "prazo": {
+        "texto": "afastamento preventivo de até 60 dias, prorrogável por igual prazo",
+        "valor": 60,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 147, 149 e 151, I"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "inquerito",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "inquerito",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "A comissão instrui, indicia o servidor, recebe a defesa escrita e faz o relatório final",
+      "detalhes": "Com contraditório e ampla defesa, a comissão ouve testemunhas, interroga o acusado e faz diligências. Indiciado, o servidor tem 10 dias para a defesa (20 se houver mais de um indiciado), prorrogáveis pelo dobro; sem defesa, recebe defensor dativo. O relatório conclui pela inocência ou pela responsabilidade e vai à autoridade que instaurou. Todo o processo deve terminar em 60 dias, prorrogáveis por mais 60.",
+      "prazo": {
+        "texto": "60 dias da publicação do ato que forma a comissão, prorrogáveis por igual prazo",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "publicação do ato que constitui a comissão"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 151, II, 152, 153 e 155 a 166"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "cargo:ministro-de-estado",
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal",
+        "cargo:presidente-do-stf",
+        "cargo:presidente-do-stj",
+        "cargo:presidente-do-tst",
+        "cargo:presidente-do-tse",
+        "cargo:presidente-do-stm",
+        "cargo:presidente-de-trf",
+        "cargo:presidente-de-trt",
+        "cargo:presidente-do-tjdft",
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "A autoridade competente para a pena julga em 20 dias, seguindo o relatório salvo se contrário às provas",
+      "detalhes": "Se a pena passar da alçada de quem instaurou, o processo sobe a quem pode aplicá-la. Demissão e cassação cabem ao Presidente da República (no Executivo, delegada aos Ministros e ao Presidente do Banco Central), aos Presidentes da Câmara, do Senado e dos tribunais federais e ao PGR. A autoridade pode agravar, abrandar ou afastar a pena proposta se o relatório contrariar as provas; vício insanável anula o processo.",
+      "prazo": {
+        "texto": "20 dias do recebimento do processo",
+        "valor": 20,
+        "unidade": "dias",
+        "conta_de": "recebimento do processo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 141, 151, III, 167, 168 e 169"
+        },
+        {
+          "ref": "norma:decreto-11123-2022",
+          "dispositivo": "arts. 2º a 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "punicao",
+          "quando": "aplica a pena"
+        },
+        {
+          "para": "arquivamento",
+          "quando": "reconhece a inocência"
+        }
+      ]
+    },
+    {
+      "id": "punicao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A pena é aplicada; o processo pode ser revisto a qualquer tempo se surgirem fatos novos",
+      "detalhes": "O pedido de revisão vai ao Ministro de Estado ou autoridade equivalente, que, se o autorizar, manda formar comissão revisora; ela tem 60 dias, e a autoridade que aplicou a pena julga em 20. A revisão procedente anula a pena e não pode agravá-la.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 174 a 182"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "arquivamento",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O processo é arquivado",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 144, parágrafo único; art. 145, I; art. 167, § 4º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "rito-sumario",
+      "nome": "Rito sumário",
+      "resumo": "Para acumulação ilegal de cargos, abandono de cargo e faltas habituais: comissão de dois servidores, defesa em 5 dias e processo em até 30 dias.",
+      "detalhes": "Na acumulação ilegal, o servidor primeiro tem 10 dias para optar por um dos cargos; se optar até o fim do prazo de defesa, presume-se a boa-fé e o outro cargo é exonerado.",
+      "quem_aciona": [
+        "org:poder-executivo-federal"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "arts. 133 e 140"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "instauracao",
+          "nota": "Comissão de dois servidores estáveis; o ato já indica autoria e materialidade (art. 133, I e § 1º)."
+        },
+        {
+          "etapa": "inquerito",
+          "prazo": {
+            "texto": "indiciação em até 3 dias; defesa em 5 dias; processo em até 30 dias, prorrogáveis por 15",
+            "valor": 30,
+            "unidade": "dias",
+            "conta_de": "publicação do ato que constitui a comissão"
+          },
+          "nota": "Art. 133, §§ 2º, 3º e 7º."
+        },
+        {
+          "etapa": "julgamento",
+          "prazo": {
+            "texto": "5 dias do recebimento do processo",
+            "valor": 5,
+            "unidade": "dias",
+            "conta_de": "recebimento do processo"
+          },
+          "nota": "Art. 133, § 4º."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8112-1990",
+      "dispositivo": "arts. 127, 133, 140, 141, 143 a 172 e 174 a 182"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "As etapas de apuração, sindicância, instauração e inquérito têm como ator o Poder Executivo federal (e a CGU, onde a lei a nomeia) porque a autoridade instauradora e a comissão variam caso a caso e não são entidades do mapa. Os Presidentes de TRE não estão entre os atores do julgamento por não haver cargo próprio no mapa. A inclusão do Presidente do TCU entre os 'Presidentes dos Tribunais Federais' do art. 141, I, não foi conferida; deixamos de fora.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

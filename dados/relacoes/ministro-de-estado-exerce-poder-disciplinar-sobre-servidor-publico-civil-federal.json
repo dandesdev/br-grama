@@ -1,0 +1,36 @@
+{
+  "id": "rel:ministro-de-estado-exerce-poder-disciplinar-sobre-servidor-publico-civil-federal",
+  "tipo": "relacao",
+  "nome": "Os Ministros de Estado julgam processos disciplinares de servidores federais",
+  "relacao": "exerce-poder-disciplinar-sobre",
+  "de": "cargo:ministro-de-estado",
+  "para": "cargo:servidor-publico-civil-federal",
+  "condicao": "Pela lei, aplicam suspensão de mais de 30 dias (autoridade logo abaixo do Presidente). Por delegação, julgam também demissão e cassação nos órgãos e entidades da sua área e podem subdelegar; o Ministro da CGU julga os ocupantes de cargo em comissão CCE-17 ou superior. A decisão delegada admite só pedido de reconsideração.",
+  "vigencia": {
+    "de": "1990-12-12",
+    "ate": null,
+    "nota": "Delegação da demissão em vigor desde 1º/8/2022 (Decreto 11.123/2022); antes, Decreto 3.035/1999."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8112-1990",
+      "dispositivo": "art. 141, II"
+    },
+    {
+      "ref": "norma:decreto-11123-2022",
+      "dispositivo": "arts. 2º a 4º, 6º e 7º"
+    }
+  ],
+  "confianca": "oficial",
+  "campos": {
+    "condicao": {
+      "confianca": "inferido",
+      "nota": "Que a 'autoridade de hierarquia imediatamente inferior' ao Presidente (art. 141, II) seja o Ministro de Estado é leitura nossa."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

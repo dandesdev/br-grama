@@ -297,7 +297,7 @@
     "de": "2007-03-20",
     "ate": null,
     "incerta": true,
-    "nota": "A Lei 11.417/2006 entra em vigor três meses após a publicação (art. 11), no DOU de 20/12/2006. Data calculada por nós; não conferimos a forma de contagem. As etapas do RISTF (arts. 354-A a 354-G) vêm da Emenda Regimental 46/2011, e a do art. 354-D, da ER 54/2020."
+    "nota": "A Lei 11.417/2006 entra em vigor três meses após a publicação (art. 11), no DOU de 20/12/2006. Data calculada por nós e mantida incerta: não achamos fonte oficial com o dia (o Planalto só remete ao art. 11; as fichas do Senado e da Câmara só trazem a publicação). Pela contagem da LC 95/1998, art. 8º, § 1º (inclui o dia da publicação e o último dia, e a lei vale no dia seguinte), que o STJ usou para o CPC (fonte:stj-enunciado-administrativo-1), a data seria 21/3/2007; a imprensa da época fala em 19 ou 20/3/2007. As etapas do RISTF (arts. 354-A a 354-G) vêm da Emenda Regimental 46/2011, e a do art. 354-D, da ER 54/2020."
   },
   "fontes": [
     {
@@ -314,10 +314,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "(1) O RISTF regula o rito de forma subsidiária (Lei 11.417, art. 10). Texto consultado: edição do site do STF \"atualizado até a Emenda Regimental n. 58/2022\" (pesquisa/brutos/stf/2026-11-11-f2-judiciario/ristf-stf-arquivo-cms.pdf); não conferimos se a ER 59/2023 mexeu nos arts. 354-A a 354-G. (2) Os legitimados da etapa 'proposta' repetem os das relações 'propoe' para obj:sumula-vinculante: os TRFs, TRTs e TREs aparecem pelos ramos (org:justica-federal, org:justica-do-trabalho, org:justica-eleitoral); os tribunais militares estaduais não têm entidade própria. (3) A proposta de ofício aparece como cargo:ministro-do-stf. (4) Atores da etapa 'edital': a Secretaria Judiciária do STF, que não tem entidade própria.",
+  "notas": "(1) O RISTF regula o rito de forma subsidiária (Lei 11.417, art. 10). Texto consultado: edição do site do STF \"atualizado até a Emenda Regimental n. 58/2022\" (pesquisa/brutos/stf/2026-11-11-f2-judiciario/ristf-stf-arquivo-cms.pdf); a ER 59/2023, a última até 2026-10-01 segundo a revisão verificacao-f2-judiciario, só alterou os arts. 5º e 9º e revogou o art. 23, III (texto oficial em pesquisa/brutos/stf/2026-11-11-verificacao-f2-judiciario/emendaregimental059-2023.pdf); os arts. 354-A a 354-G seguem como na edição consultada. (2) Os legitimados da etapa 'proposta' repetem os das relações 'propoe' para obj:sumula-vinculante: os TRFs, TRTs e TREs aparecem pelos ramos (org:justica-federal, org:justica-do-trabalho, org:justica-eleitoral); os tribunais militares estaduais não têm entidade própria. (3) A proposta de ofício aparece como cargo:ministro-do-stf. (4) Atores da etapa 'edital': a Secretaria Judiciária do STF, que não tem entidade própria.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 11.417, a CF (art. 103-A) e o RISTF, arts. 354-A a 354-G (ER 46/2011 e ER 54/2020), sem mudança pela ER 59/2023; vigência 2007-03-20 continua incerta (sem fonte oficial do dia; ver nota da vigência)"
   }
 }

@@ -14,7 +14,7 @@
         "org:stj"
       ],
       "acao": "O titular do direito pede o mandado de injunção contra quem deveria editar a norma",
-      "detalhes": "Cabe quando a falta total ou parcial de norma regulamentadora torna inviável o exercício de direitos e liberdades constitucionais ou de prerrogativas ligadas à nacionalidade, à soberania e à cidadania. A petição indica o órgão impetrado e a pessoa jurídica a que ele pertence. O STF julga quando a norma cabe ao Presidente da República, ao Congresso, às Casas e Mesas, ao TCU, aos tribunais superiores ou ao próprio STF; o STJ, quando cabe a órgão, entidade ou autoridade federal fora desses casos.",
+      "detalhes": "Cabe quando a falta total ou parcial de norma regulamentadora torna inviável o exercício de direitos e liberdades constitucionais ou de prerrogativas ligadas à nacionalidade, à soberania e à cidadania. A petição indica o órgão impetrado e a pessoa jurídica a que ele pertence. O STF julga quando a norma cabe ao Presidente da República, ao Congresso, às Casas e Mesas, ao TCU, aos tribunais superiores ou ao próprio STF; o STJ, quando cabe a órgão, entidade ou autoridade federal, salvo esses casos e os da competência das Justiças Militar, Eleitoral, do Trabalho e Federal.",
       "fontes": [
         {
           "ref": "norma:lei-13300-2016",
@@ -248,8 +248,9 @@
   "confianca": "oficial",
   "notas": "(1) O processo modela o mandado de injunção no STF e no STJ, onde a CF o prevê expressamente; ele também pode correr em outros tribunais e juízos, conforme as constituições estaduais e as leis de organização judiciária, o que não modelamos. (2) Quem impetra não tem entidade; os atores da primeira etapa são os tribunais que recebem o pedido. (3) Na etapa 'ministerio-publico', o PGR oficia no STF (LC 75/1993, art. 46) e, por delegação, os subprocuradores-gerais; no STJ, só subprocurador-geral exerce as funções do MPF (art. 47, § 1º). (4) As normas do mandado de segurança e do CPC se aplicam de forma subsidiária (art. 14).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 13.300 e a CF; corrigido: competência do STJ ressalva também as Justiças Militar, Eleitoral, do Trabalho e Federal (CF, art. 105, I, h)"
   }
 }

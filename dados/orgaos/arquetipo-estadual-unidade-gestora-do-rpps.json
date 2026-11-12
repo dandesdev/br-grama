@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Unidade gestora do regime próprio de previdência do estado",
   "resumo": "Órgão ou entidade única que administra as aposentadorias e pensões dos servidores efetivos de todos os Poderes e órgãos do estado (regime próprio de previdência).",
-  "detalhes": "O regime próprio é contributivo e solidário: pagam o estado, os servidores ativos, os aposentados e os pensionistas, com equilíbrio financeiro e atuarial. Cada ente pode ter só um regime e uma unidade gestora, e o estado pode manter fundos previdenciários com bens e contribuições. Os servidores participam dos colegiados de decisão, e a União fiscaliza o regime e emite o Certificado de Regularidade Previdenciária. Pela LRF, o caixa do regime fica em conta separada, aplicado em condições de mercado, sem comprar títulos do próprio ente nem emprestar ao Poder Público ou aos segurados (art. 43, §§ 1º e 2º), e o regime deve ter caráter contributivo e equilíbrio financeiro e atuarial (art. 69).",
+  "detalhes": "O regime próprio é contributivo e solidário: pagam o estado, os servidores ativos, os aposentados e os pensionistas, com equilíbrio financeiro e atuarial. Cada ente pode ter só um regime e uma unidade gestora, e o estado pode manter fundos previdenciários com bens e contribuições. Os servidores participam dos colegiados de decisão, e a União fiscaliza o regime e emite o Certificado de Regularidade Previdenciária. Pela LRF, o caixa do regime fica em conta separada, aplicado em condições de mercado, sem comprar títulos da dívida estadual ou municipal nem papéis de empresas controladas pelo ente, e sem emprestar ao Poder Público ou aos segurados (art. 43, §§ 1º e 2º), e o regime deve ter caráter contributivo e equilíbrio financeiro e atuarial (art. 69).",
   "tipo_orgao": "autarquia",
   "poder": "executivo",
   "esfera": "estadual",
@@ -51,9 +51,9 @@
   "confianca": "oficial",
   "notas": "Arquétipo: o nome e a forma (autarquia, fundo, instituto) mudam por estado. Os militares estaduais têm sistema de proteção social próprio (não modelado). Na União ainda não há unidade gestora única: o Decreto 10.620/2021 (art. 1º, parágrafo único, I; arts. 2º e 3º) reparte a concessão entre o órgão central do Sipec e o INSS até que lei a institua, e a centralização está suspensa até 31/12/2026 (art. 4º, § 1º). O fato aparece nos detalhes de org:inss, com fonte.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas",
-    "notas": "detalhes e fonte com a LRF, arts. 43, §§ 1º e 2º, e 69 (antes verificado em verificacao-f0-seguridade)"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; LRF, arts. 43 e 69, conferidos; corrigido 'sem comprar títulos do próprio ente': o art. 43, § 2º, I, veda títulos da dívida estadual e municipal em geral e papéis de empresas controladas pelo ente. Nota da coleta: detalhes e fonte com a LRF, arts. 43, §§ 1º e 2º, e 69 (antes verificado em verificacao-f0-seguridade)"
   }
 }

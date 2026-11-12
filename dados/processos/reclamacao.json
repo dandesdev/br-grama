@@ -48,7 +48,7 @@
         "cargo:ministro-do-stj"
       ],
       "acao": "O relator indefere a reclamação de saída nos casos da lei ou a admite",
-      "detalhes": "É indeferida liminarmente a reclamação proposta depois do trânsito em julgado e a que busca aplicar precedente de recurso repetitivo, de repercussão geral ou de relevância sem esgotar as instâncias ordinárias, salvo desacordo manifesto com o precedente.",
+      "detalhes": "É indeferida liminarmente a reclamação proposta depois do trânsito em julgado e a que busca aplicar precedente de recurso repetitivo, de repercussão geral ou de relevância quando não esgotadas as instâncias ordinárias ou quando o ato atacado não contraria o precedente de forma manifesta.",
       "fontes": [
         {
           "ref": "norma:lei-13105-2015",
@@ -202,9 +202,9 @@
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "2016-03-18",
     "ate": null,
-    "nota": "Rito do CPC de 2015 (arts. 988 a 993), em vigor um ano depois da publicação (art. 1.045); a data exata não foi conferida. Antes, a reclamação no STF e no STJ seguia a Lei 8.038/1990, arts. 13 a 18, revogados pelo CPC (art. 1.072, IV)."
+    "nota": "Rito do CPC de 2015 (arts. 988 a 993), em vigor um ano depois da publicação (art. 1.045; DOU de 17/3/2015); o Plenário do STJ fixou a data em 18/3/2016 (fonte:stj-enunciado-administrativo-1). Antes, a reclamação no STF e no STJ seguia a Lei 8.038/1990, arts. 13 a 18, revogados pelo CPC (art. 1.072, IV)."
   },
   "fontes": [
     {
@@ -218,13 +218,19 @@
     {
       "ref": "norma:lei-11417-2006",
       "dispositivo": "arts. 7º a 9º"
+    },
+    {
+      "ref": "fonte:stj-enunciado-administrativo-1",
+      "dispositivo": null,
+      "nota": "data de início da vigência do CPC de 2015"
     }
   ],
   "confianca": "oficial",
   "notas": "(1) O processo modela a reclamação no STF e no STJ, os dois tribunais que a CF prevê; o CPC a admite em qualquer tribunal (art. 988, § 1º). (2) Quem propõe (parte interessada ou Ministério Público) não tem entidade; os atores da primeira etapa são os tribunais que recebem e distribuem. (3) O relator aparece como ministro de cada tribunal, porque o mapa não tem cargo de relator. (4) Na etapa 'ministerio-publico', o PGR oficia no STF (LC 75/1993, art. 46) e, por delegação, os subprocuradores-gerais; no STJ, só subprocurador-geral exerce as funções do MPF (art. 47, § 1º). (5) Texto do CPC: cópia de 17/10/2026, com as alterações da Lei 15.484/2026 no art. 988 (inciso V e §§ 4º e 5º), anteriores à data de referência.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com o CPC (cópia de 17/10/2026, Lei 15.484/2026), a Lei 11.417, a Lei 9.882 e a CF; corrigido o § 5º, II, do art. 988 (indeferimento quando não esgotadas as instâncias OU quando o ato não contraria o precedente de forma manifesta; não é exceção); vigência 18/3/2016 (fonte:stj-enunciado-administrativo-1)"
   }
 }

@@ -309,8 +309,9 @@
   "confianca": "oficial",
   "notas": "(1) Atores de primeira instância: juiz federal e juiz de direito (Justiça comum); a Justiça do Trabalho e a Eleitoral também julgam mandados de segurança, não modelados. (2) Não usamos o art. 7º, § 2º (vedações de liminar), nem o art. 22, § 2º (audiência prévia no coletivo), declarados inconstitucionais na ADI 4296 (fonte:stf-adi-4296); o § 5º do art. 7º estende essas vedações à tutela antecipada e ficou sem objeto na parte declarada inconstitucional, conclusão nossa. (3) O MP de primeira instância aparece como procurador da República (Justiça Federal) e membro do MP estadual. (4) Os presidentes dos TRFs não têm cargo próprio no mapa; na etapa 'suspensao-de-seguranca' aparecem só o do TJ, do STJ e do STF. (5) Os arts. 6º, § 5º, 7º, § 5º, e 24 remetem ao CPC de 1973, revogado; não os usamos. (6) A etapa 'recurso' remete a proc:caminho-de-um-processo, que modela apelação, recurso especial e extraordinário.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 12.016 (cópia de 11/11/2026, até a Lei 13.676/2018), a Lei 8.038 (arts. 25 e 33 a 35), a CF e fonte:stf-adi-4296 (a caução do art. 7º, III, não foi declarada inconstitucional; só o voto vencido a atacava)"
   }
 }

@@ -9,10 +9,10 @@
   "publicacao": "2016-07-01",
   "ente": "ente:uniao",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm",
-  "acesso_em": "2026-10-23",
-  "arquivo": null,
-  "compilacao_ate": "sem marcas de alteração nos arts. 3º e 4º no texto do Planalto",
-  "redacao_conferida_em": "2026-10-27",
+  "acesso_em": "2026-11-11",
+  "arquivo": "http://web.archive.org/web/20261104220110/http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm",
+  "compilacao_ate": "Lei 15.177/2025 (art. 8º, X, e art. 19-A)",
+  "redacao_conferida_em": "2026-11-11",
   "vigencia": {
     "de": "2016-07-01",
     "ate": null,
@@ -22,14 +22,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 173, § 1º"
+    },
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "art. 97"
     }
   ],
   "confianca": "oficial",
-  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l13303.htm. Dispositivos usados: art. 3º (empresa pública: capital integralmente do ente) e art. 4º (sociedade de economia mista: sociedade anônima com maioria do capital votante do ente). Remissões 'Vide ADI' nos arts. não usados (ADIs 5624, 5846, 5924, 6029, 7331). arquivo: Wayback devolveu 429 em 2026-10-27.",
+  "notas": "Cópia bruta em pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/l13303.htm. Dispositivos usados: art. 3º (empresa pública: capital integralmente do ente) e art. 4º (sociedade de economia mista: sociedade anônima com maioria do capital votante do ente). Remissões 'Vide ADI' nos arts. não usados (ADIs 5624, 5846, 5924, 6029, 7331). arquivo: Wayback devolveu 429 em 2026-10-27. Nova cópia em pesquisa/brutos/planalto-leis/2026-11-11-f2-administracao/l13303.htm (f2-administracao): marcas de alteração da Lei 14.133/2021 (remissão) e da Lei 15.177/2025 (art. 8º, X, e art. 19-A, cota de 30% de mulheres no conselho de administração); nenhuma alteração entre 2026-10-01 e 2026-11-11. O art. 17, § 2º, I e II, impugnado na ADI 7.331, foi mantido válido pelo STF em 9/5/2024 (fonte:stf-noticia-adi-7331).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-administracao-indireta",
-    "notas": "coletado em f0-administracao-indireta; data, publicação, vigência e dispositivos usados conferidos na cópia bruta"
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao",
+    "notas": "atualizados acesso_em, arquivo (Wayback), compilacao_ate (Lei 15.177/2025), fontes (art. 97) e notas; antes verificado em verificacao-f0-administracao-indireta"
   }
 }

@@ -33,9 +33,10 @@
   },
   "notas": "Conjunto criado como ator do processo de execução da despesa. Os outros Poderes, o Ministério Público e a Defensoria têm unidades orçamentárias próprias e seguem as mesmas etapas; ficaram fora deste conjunto para não misturar Poderes. As métricas de orçamento (D46, D47) usam as unidades orçamentárias como recorte.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; Lei 4.320, arts. 14, 47, 58 a 65 e 66, conferidos; o recorte só do Executivo é escolha de modelagem, registrada no diário da revisão para o coordenador"
   },
   "confianca": "oficial"
 }

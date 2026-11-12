@@ -4,7 +4,7 @@
   "nome": "Ação declaratória de constitucionalidade (ADC)",
   "sigla": "ADC",
   "resumo": "Como o STF confirma que uma lei ou ato normativo federal é constitucional, quando juízes e tribunais divergem sobre ele: proposta, parecer do PGR e julgamento por seis votos.",
-  "detalhes": "Só cabe contra lei ou ato federal e exige controvérsia judicial relevante sobre a sua aplicação. Não há pedido de informações nem defesa pelo AGU: o PGR é ouvido e o Plenário julga, com as mesmas regras de quórum e efeitos da ADI. A cautelar suspende os processos que dependem da norma por até 180 dias.",
+  "detalhes": "Só cabe sobre lei ou ato normativo federal e exige controvérsia judicial relevante sobre a sua aplicação. Não há pedido de informações nem defesa pelo AGU: o PGR é ouvido e o Plenário julga, com as mesmas regras de quórum e efeitos da ADI. A cautelar suspende os processos que dependem da norma por até 180 dias.",
   "forma": "linha",
   "produz": "obj:adi-e-adc",
   "etapas": [
@@ -273,8 +273,9 @@
   "confianca": "oficial",
   "notas": "A lista de legitimados do art. 13 da Lei 9.868 foi superada pela redação que a EC 45/2004 deu ao caput do art. 103 da CF (ADI e ADC com os mesmos legitimados). O art. 19 diz \"decorrido o prazo do artigo anterior\", mas o art. 18 não tem prazo (seus parágrafos foram vetados); o prazo de 15 dias do PGR conta da abertura de vista. Art. 17 vetado.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 9.868, arts. 13 a 28, e a CF (art. 103, redação da EC 45/2004); resumo: 'contra lei' trocado por 'sobre lei ou ato normativo federal'"
   }
 }

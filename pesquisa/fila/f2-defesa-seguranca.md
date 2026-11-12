@@ -1,8 +1,10 @@
 ---
 id: f2-defesa-seguranca
 escopo: "Fase 2 (D49): Forças Armadas, inteligência, Susp e leis orgânicas das polícias"
-status: pendente
+status: em-andamento
 depende_de: [f0-defesa-seguranca]
+iniciada_em: 2026-11-11
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -32,3 +34,7 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 ## Cobertura
 
 ## Diário
+
+- 2026-11-11 23:33 — iniciada; lidos CLAUDE.md, decisoes (D08, D11, D14, D36, D37, D49 a D52), modelo, protocolo, instrucoes-agentes
+- 2026-11-11 23:35 — cópias locais em pesquisa/brutos/planalto-leis/2026-11-11-f2-defesa-seguranca/ (Planalto por HTTP/1.1 com user-agent de navegador): lcp97.htm (compilacao_ate LC 136/2010), l9883.htm (MP 2.216-37/2001), l13675.htm (Lei 14.899/2024), l14735.htm e l14751.htm (sem alterações; partes vetadas promulgadas anotadas no texto), l9266.htm (Lei 13.034/2014), l9654.htm (Lei 14.875/2024). Fora os scripts do servidor, lcp97 é igual à cópia de 2026-10-20 e as demais (menos l9654, nova) iguais às de 2026-10-23; nenhuma alteração posterior a 2026-10-01
+- 2026-11-11 23:38 — gravado norma:lei-9654-1998

@@ -48,7 +48,7 @@
         "cargo:ministro-do-stf"
       ],
       "acao": "O relator examina a petição e a indefere se for inepta, sem fundamento ou manifestamente improcedente",
-      "detalhes": "Da decisão que indefere a petição inicial cabe agravo ao Plenário. Terceiros não podem intervir, mas o relator pode admitir, por despacho irrecorrível, a manifestação de outros órgãos ou entidades (amicus curiae), considerando a relevância da matéria e a representatividade de quem pede.",
+      "detalhes": "Da decisão que indefere a petição inicial cabe agravo. Terceiros não podem intervir, mas o relator pode admitir, por despacho irrecorrível, a manifestação de outros órgãos ou entidades (amicus curiae), considerando a relevância da matéria e a representatividade de quem pede.",
       "fontes": [
         {
           "ref": "norma:lei-9868-1999",
@@ -275,7 +275,7 @@
       "id": "indeferimento",
       "tipo_etapa": "fim",
       "atores": [],
-      "acao": "A petição inicial é indeferida e a ação se encerra, salvo se o Plenário prover o agravo",
+      "acao": "A petição inicial é indeferida e a ação se encerra, salvo se o agravo for provido",
       "fontes": [
         {
           "ref": "norma:lei-9868-1999",
@@ -344,8 +344,9 @@
   "confianca": "oficial",
   "notas": "Atores: (1) o relator é cargo:ministro-do-stf, porque o mapa não tem cargo de relator; (2) os legitimados repetem os das relações 'ajuiza' para obj:adi-e-adc; (3) a cautelar foi modelada como etapa opcional, porque um regime não cria etapas. O art. 7º, § 1º, e o parágrafo único do art. 5º foram vetados. A Lei 9.868 ressalva o recesso na cautelar (art. 10), mas não diz quem decide nele; não modelamos.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-processos-constitucionais"
+    "tarefa": "verificacao-f2-processos-constitucionais",
+    "notas": "coletado em f2-processos-constitucionais; conferido com a Lei 9.868 (cópia de 11/11/2026, até a Lei 12.063/2009) e a CF; corrigido: o agravo contra o indeferimento (art. 4º, parágrafo único) não diz 'ao Plenário'"
   }
 }

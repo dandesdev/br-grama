@@ -4,6 +4,11 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 
 | Lei | Tarefa | Coberto | Parcial | Lacuna | Fora | Total | Cobertura |
 |---|---|---:|---:|---:|---:|---:|---:|
+| Lei 8.112/1990 (regime jurídico dos servidores civis da União) | f2-administracao | 74 | 0 | 0 | 171 | 245 | 100,0% |
+| Lei 9.784/1999 (processo administrativo federal) | f2-administracao | 56 | 0 | 0 | 23 | 79 | 100,0% |
+| Lei 12.527/2011 (Lei de Acesso à Informação) | f2-administracao | 27 | 0 | 0 | 22 | 49 | 100,0% |
+| Lei 13.303/2016 (estatuto das empresas estatais) | f2-administracao | 42 | 0 | 0 | 55 | 97 | 100,0% |
+| Lei 12.813/2013 (conflito de interesses) | f2-administracao | 7 | 0 | 0 | 5 | 12 | 100,0% |
 | Lei 4.737/1965 (Código Eleitoral), exceto arts. 12 a 41 | f2-eleicoes | 63 | 0 | 3 | 272 | 338 | 99,1% |
 | Lei 9.504/1997 (Lei das Eleições) | f2-eleicoes | 35 | 0 | 0 | 104 | 139 | 100,0% |
 | Lei 9.096/1995 (Lei dos Partidos Políticos) | f2-eleicoes | 40 | 0 | 0 | 29 | 69 | 100,0% |
@@ -45,4 +50,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.038/1990 (processos no STF e no STJ) | f2-processos-constitucionais | 22 | 0 | 0 | 13 | 35 | 100,0% |
 | Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 55 | 12 | 0 | 20 | 87 | 86,2% |
 
-Total: 4599 artigos classificados; cobertura 98,9% (5 em lacuna, 46 parciais).
+Total: 5081 artigos classificados; cobertura 99,0% (5 em lacuna, 46 parciais).

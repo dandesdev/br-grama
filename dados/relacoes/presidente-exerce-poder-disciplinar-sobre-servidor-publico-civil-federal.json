@@ -1,0 +1,29 @@
+{
+  "id": "rel:presidente-exerce-poder-disciplinar-sobre-servidor-publico-civil-federal",
+  "tipo": "relacao",
+  "nome": "O Presidente da República aplica as penas de demissão e cassação a servidores do Executivo federal",
+  "relacao": "exerce-poder-disciplinar-sobre",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:servidor-publico-civil-federal",
+  "condicao": "Demissão e cassação de aposentadoria ou disponibilidade. A competência está delegada aos Ministros de Estado e ao Presidente do Banco Central desde 1º/8/2022 (Decreto 11.123/2022, art. 2º, I, a).",
+  "vigencia": {
+    "de": "1990-12-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8112-1990",
+      "dispositivo": "art. 141, I; art. 167, § 3º"
+    },
+    {
+      "ref": "norma:decreto-11123-2022",
+      "dispositivo": "art. 2º, I, a"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

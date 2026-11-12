@@ -1,0 +1,206 @@
+{
+  "id": "proc:licitacao-de-empresa-estatal",
+  "tipo": "processo",
+  "nome": "Licitação de empresa estatal",
+  "resumo": "As fases da licitação das empresas públicas e sociedades de economia mista pela Lei das Estatais: edital, lances, julgamento, negociação, habilitação, recurso único e homologação.",
+  "detalhes": "Vale para as estatais da União, dos estados, do DF e dos municípios, que licitam pelas regras desta lei e do seu regulamento interno de licitações e contratos (Lei 13.303/2016, arts. 28 e 40). Há casos de dispensa e de inexigibilidade (arts. 29 e 30). O orçamento estimado é sigiloso, salvo se a estatal decidir divulgá-lo, mas fica sempre à disposição dos órgãos de controle (art. 34). A habilitação pode vir antes dos lances, se o edital disser (art. 51, § 1º).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "preparacao",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "A estatal prepara a licitação e publica o aviso do edital no diário oficial e na internet",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, I e II, e § 2º; art. 39"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "propostas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "propostas",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "Os licitantes apresentam lances públicos sucessivos (disputa aberta) ou propostas sigilosas (disputa fechada)",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, III; arts. 52 e 53"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "A estatal julga pelo critério do edital, como menor preço, maior desconto ou técnica e preço",
+      "detalhes": "Em empate, valem nesta ordem: disputa final, desempenho contratual anterior, critérios de preferência das Leis 8.248/1991 e 8.666/1993, e sorteio.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, IV; arts. 54 e 55"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "verificacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "verificacao",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "A estatal verifica as melhores propostas e desclassifica as viciadas, inexequíveis ou acima do orçamento",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, V; art. 56"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "negociacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "negociacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "A estatal negocia com o primeiro colocado e, se o preço seguir acima do orçamento, com os seguintes",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, VI; art. 57"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "habilitacao",
+          "quando": "obtém preço dentro do orçamento"
+        },
+        {
+          "para": "revogacao",
+          "quando": "nenhum licitante chega ao orçamento"
+        }
+      ]
+    },
+    {
+      "id": "habilitacao",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "A estatal confere a habilitação do vencedor: capacidade jurídica, qualificação técnica e situação financeira",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, VII, e § 1º; art. 58"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recursos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recursos",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:empresas-estatais-federais"
+      ],
+      "acao": "Fase recursal única: os licitantes recorrem em 5 dias úteis contra a habilitação, o julgamento e a verificação",
+      "prazo": {
+        "texto": "5 dias úteis depois da habilitação",
+        "valor": 5,
+        "unidade": "dias-uteis",
+        "conta_de": "habilitação"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, VIII; art. 59"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "homologacao",
+          "quando": "mantido o resultado"
+        },
+        {
+          "para": "revogacao",
+          "quando": "a licitação é anulada"
+        }
+      ]
+    },
+    {
+      "id": "homologacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O objeto é adjudicado e o resultado homologado; o vencedor passa a ter direito de assinar o contrato",
+      "detalhes": "A estatal não pode contratar fora da ordem de classificação nem com quem não participou da licitação.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, IX e X; arts. 60 e 61"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "revogacao",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A licitação é revogada por interesse público ou preço acima do orçamento, ou anulada por ilegalidade",
+      "detalhes": "Depois de iniciada a fase de lances, a revogação ou a anulação exige dar aos licitantes prazo para contestar.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13303-2016",
+          "dispositivo": "art. 51, X; art. 57, § 3º; art. 62"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "2016-07-01",
+    "ate": null,
+    "nota": "Lei em vigor na publicação; as estatais anteriores tiveram 24 meses para se adaptar, e os procedimentos iniciados nesse prazo seguiram a lei anterior (art. 91)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13303-2016",
+      "dispositivo": "arts. 28, 29, 30, 34, 39, 40 e 51 a 62"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Ator único: o conjunto das estatais federais, embora o rito valha para as estatais de todos os entes. Quem conduz cada fase dentro da estatal fica no regulamento interno de cada uma (art. 40).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}

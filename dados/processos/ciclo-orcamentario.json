@@ -617,10 +617,10 @@
   "confianca": "oficial",
   "notas": "Decisões de modelagem: (1) o PPA não tem etapas próprias; segue o mesmo caminho e prazo da LOA no primeiro ano do mandato (ADCT, art. 35, § 2º, I). (2) As datas (15/4, 17/7, 31/8, 22/12) são cálculo nosso a partir dos prazos do ADCT e do art. 57; valem enquanto não houver a lei complementar do art. 165, § 9º. (3) Créditos adicionais: etapa creditos-adicionais, acrescentada em f0-dinheiro-complementar, que volta à execução (ver obj:credito-adicional). (4) As bancadas estaduais entram como ator da etapa 'loa-emendas' pelo conjunto org:bancadas-estaduais-no-congresso-nacional (acrescentado na revisão de f0-dinheiro-complementar); as comissões, pelos conjuntos de comissões das Casas. (5) O Ministério do Planejamento é ator da elaboração pela Lei 14.600/2023; a CF fala só em 'Poder Executivo'. (6) O ciclo recomeça a cada ano; a etapa final é o julgamento das contas. (7) Fase 2 (f2-financas-publicas): a Secretaria de Orçamento Federal entrou como ator da elaboração da LDO e da LOA e a Secretaria Federal de Controle Interno como ator da prestação de contas; a etapa execucao remete a proc:execucao-da-despesa; nova etapa avaliacao-das-metas-fiscais (LRF, art. 9º, § 4º).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-financas-publicas",
-    "notas": "atores SOF (ldo-elaboracao, loa-elaboracao) e SFC (prestacao-de-contas); fontes da Lei 4.320/1964 (arts. 22, 27 a 34, 82), Lei 10.180/2001 e LRF nas etapas; loa-envio com o efeito do art. 32; execucao remete a proc:execucao-da-despesa; nova etapa avaliacao-das-metas-fiscais (antes verificado em verificacao-f0-dinheiro-complementar)"
+    "tarefa": "verificacao-f2-financas-publicas",
+    "notas": "coletado em f2-financas-publicas; mudanças da coleta conferidas: atores SOF e SFC (Decreto 11.353/2023, Anexo I, art. 20, I; Decreto 11.330/2023, Anexo I, art. 13, VI), Lei 4.320, arts. 22, 27 a 34, 82, Lei 10.180, arts. 7º, II, 8º, I, 18, VI, e 24, X, LRF, arts. 4º, 5º, 9º, §§ 4º e 5º, 12 e 57, § 2º, e LC 200/2023, arts. 2º e 11; etapa nova avaliacao-das-metas-fiscais conferida (atores, prazo de maio, setembro e fevereiro e dispositivo). Nota da coleta: atores SOF (ldo-elaboracao, loa-elaboracao) e SFC (prestacao-de-contas); fontes da Lei 4.320/1964 (arts. 22, 27 a 34, 82), Lei 10.180/2001 e LRF nas etapas; loa-envio com o efeito do art. 32; execucao remete a proc:execucao-da-despesa; nova etapa avaliacao-das-metas-fiscais (antes verificado em verificacao-f0-dinheiro-complementar)"
   },
   "campos": {
     "etapas": {

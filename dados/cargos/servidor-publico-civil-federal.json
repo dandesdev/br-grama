@@ -1,0 +1,112 @@
+{
+  "id": "cargo:servidor-publico-civil-federal",
+  "tipo": "cargo",
+  "nome": "Servidor público civil federal",
+  "resumo": "Ocupante de cargo público da União, das autarquias e das fundações federais, sob o regime jurídico único da Lei 8.112/1990. O cargo efetivo exige concurso; o cargo em comissão é de livre nomeação.",
+  "detalhes": "A lei prevê sete formas de provimento: nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução (art. 8º); a posse ocorre em até 30 dias da nomeação e o exercício em até 15 dias da posse (arts. 13 e 15). O servidor efetivo passa por estágio probatório e se torna estável; só perde o cargo por sentença judicial ou processo disciplinar com ampla defesa (arts. 20 a 22; CF, art. 41). O cargo fica vago por exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável ou falecimento (art. 33). Quem está em disponibilidade é aproveitado pelo órgão central do Sistema de Pessoal Civil (art. 31), papel hoje do Ministério da Gestão e da Inovação (Lei 14.600/2023, art. 32, V). Os chefes e os cargos de natureza especial têm substitutos previstos no regimento ou designados pelo dirigente máximo (art. 38).",
+  "orgao": "org:poder-executivo-federal",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "Cargo de provimento efetivo, isolado ou de carreira",
+      "provimento": "concurso-publico",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 9º, I; arts. 10 a 12"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 37, II"
+        }
+      ]
+    },
+    {
+      "quando": "Cargo em comissão (de confiança)",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 9º, II; art. 35"
+        }
+      ]
+    },
+    {
+      "quando": "Classe superior da carreira",
+      "provimento": "promocao",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 8º, II; art. 10, parágrafo único; art. 17"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "O provimento é ato da autoridade competente de cada Poder (art. 6º). A nomeação para cargo efetivo segue a ordem de classificação no concurso, válido por até dois anos, prorrogável uma vez (arts. 10 e 12). Readaptação, reversão, aproveitamento, reintegração e recondução devolvem ou movem quem já é servidor (arts. 24 a 32).",
+  "vagas": null,
+  "vagas_nota": "Número de servidores não levantado nesta tarefa; o Painel Estatístico de Pessoal do governo federal publica os quantitativos.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Cargo efetivo dá estabilidade após três anos de exercício e avaliação (CF, art. 41; a Lei 8.112, art. 21, ainda fala em dois anos). Cargo em comissão é exonerável a juízo da autoridade (art. 35)."
+  },
+  "requisitos": [
+    {
+      "texto": "nacionalidade brasileira (universidades e institutos de pesquisa federais podem prover cargos com estrangeiros)",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 5º, I, e § 3º"
+        }
+      ]
+    },
+    {
+      "texto": "gozo dos direitos políticos e quitação com as obrigações militares e eleitorais",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 5º, II e III"
+        }
+      ]
+    },
+    {
+      "texto": "escolaridade exigida para o cargo, idade mínima de 18 anos e aptidão física e mental",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 5º, IV a VI"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8112-1990",
+      "dispositivo": "arts. 1º a 3º, 5º a 15, 17, 20 a 22, 24, 25, 27 a 35 e 38"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "arts. 39 e 41"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 32, V"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "campos": {
+    "mandato": {
+      "nota": "A Lei 8.112, art. 21, fixa dois anos; a EC 19/1998 deu nova redação ao art. 41 da CF (três anos), e o Planalto anota 'prazo 3 anos - vide EMC nº 19' ao lado do art. 21. Seguimos a CF."
+    }
+  },
+  "notas": "Cargo agregado no Executivo federal, onde está a maior parte dos servidores; os servidores civis do Legislativo e do Judiciário da União seguem a mesma lei (art. 1º), mas não foram desdobrados em cargos próprios. Não confundir com empregados das estatais (CLT).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-administracao"
+  }
+}
