@@ -95,6 +95,10 @@ O mantenedor pediu que as decisões daqui em diante sejam tomadas pelo agente co
 - **D60** Datas que caem em fim de semana ou feriado (D55): quando a própria norma manda passar ao dia útil seguinte (ex.: CF, art. 57, § 1º, para as reuniões do Congresso), `datas` traz o dia para onde a reunião passa e a nota diz a data original; quando a norma não diz nada (prestação de contas, RREO, RGF, duodécimos), fica a data da regra e a nota avisa que é fim de semana ou feriado. Motivo: aplicar o Código Civil (art. 132, § 1º) ou a Lei 9.784 a prazos constitucionais e fiscais seria interpretação nossa, que nenhuma das normas manda fazer; mostrar a data da regra com o aviso deixa o leitor ver o que a norma diz.
 - **D61** A 1.0 sai com 36 normas e fontes cujo link do Wayback foi gravado mas ainda não foi lido por um segundo agente (o Wayback bloqueou o acesso da rede por horas em 14/11/2026). O conteúdo delas já tinha sido verificado contra a fonte oficial; só a cópia de arquivo está pendente, e elas aparecem como coletadas até a leitura. Motivo: a cópia de arquivo é garantia contra link quebrado (D17), não muda nada do que o site mostra, e a leitura continua por script depois da 1.0.
 
+## Depois da 1.0 (14/11/2026)
+
+- **D62** A fase 4 (profundidade, D09 e D10) começa pelo SIORG, a fonte oficial estruturada do Executivo federal (API em estruturaorganizacional.dados.gov.br). Um importador gera, para cada órgão do mapa com código SIORG, a árvore de unidades internas até onde o SIORG publica, em arquivos gerados por script (como as métricas, D45), e o painel mostra essa árvore recolhível no lugar do "a estrutura continua"; as unidades não viram nós do mapa. Depois vêm os colegiados (D10) e os casos de fronteira (D05) por tarefas de pesquisa, e a fase 5 (mobile e inglês, D20 e D27). Motivo: descer até onde houver fonte estruturada sem transformar o mapa na teia ilegível que a D33 evitou; milhares de unidades cabem num painel, não num organograma.
+
 ## Fora do escopo por enquanto
 
 - Jornada do cidadão ("abri uma empresa", "fiquei doente").
