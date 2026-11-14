@@ -306,3 +306,31 @@ main { flex: 1; display: flex; min-height: 0; }
 /* Variação sobre o ano anterior (D57) */
 .variacao { opacity: 0.7; font-size: 0.85em; margin-left: 0.3em; white-space: nowrap; }
 .barras.serie th { width: 3.5em; }
+
+/* Calendário (D55, D56) */
+#calendario { flex: 1; min-height: 0; overflow: auto; padding: 16px 20px 40px; background: var(--superficie); }
+#calendario section { margin-top: 18px; max-width: 1200px; }
+#calendario h3 { margin: 16px 0 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--tinta-2); }
+#calendario .intro { max-width: 75ch; color: var(--tinta-2); margin: 0 0 8px; }
+#calendario select { margin: 4px 0 10px; max-width: 100%; }
+.tempo { font-size: 13px; }
+.linha-tempo { display: flex; align-items: center; min-height: 26px; border-bottom: 1px solid var(--linha); }
+.linha-tempo:hover { background: var(--plano); }
+.linha-tempo.cabeca { border-bottom: none; min-height: 22px; }
+.linha-tempo .rotulo { flex: 0 0 30%; max-width: 320px; padding: 3px 10px 3px 0; }
+.linha-tempo .rotulo .sub { font-size: 11px; color: var(--tinta-2); }
+.trilho-tempo, .regua { position: relative; flex: 1; height: 22px; }
+.regua .marca { position: absolute; top: 4px; font-size: 10px; color: var(--tinta-2); border-left: 1px solid var(--linha); padding-left: 2px; white-space: nowrap; }
+.regua .marca.ano { color: var(--tinta); font-weight: 600; border-left-color: var(--tinta-2); }
+.trilho-tempo .ponto { position: absolute; top: 6px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; border: none; padding: 0; background: var(--executivo); cursor: pointer; }
+.trilho-tempo .faixa { position: absolute; top: 7px; height: 8px; border: none; padding: 0; border-radius: 4px; background: color-mix(in srgb, var(--executivo) 45%, transparent); cursor: pointer; }
+.trilho-tempo .ponto:hover, .trilho-tempo .faixa:hover, .trilho-tempo .ponto:focus-visible, .trilho-tempo .faixa:focus-visible { outline: 2px solid var(--destaque); outline-offset: 1px; }
+.trilho-tempo .hoje { position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px solid var(--alerta); pointer-events: none; }
+.trilho-tempo .mandato { position: absolute; top: 7px; height: 8px; border-radius: 4px; background: var(--neutro); }
+.trilho-tempo .mandato.previsto { background: repeating-linear-gradient(90deg, var(--neutro) 0 6px, transparent 6px 10px); }
+.trilho-tempo .sem-data { font-size: 11px; color: var(--tinta-2); line-height: 22px; }
+.agenda { list-style: none; padding: 0; margin: 0; font-size: 13px; }
+.agenda li { padding: 3px 0; }
+.agenda .data { display: inline-block; min-width: 13em; font-variant-numeric: tabular-nums; color: var(--tinta-2); }
+.agenda .sub { color: var(--tinta-2); font-size: 12px; }
+@media (max-width: 700px) { .linha-tempo .rotulo { flex-basis: 40%; } }

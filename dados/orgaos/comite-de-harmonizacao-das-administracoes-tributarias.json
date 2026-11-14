@@ -11,6 +11,16 @@
     {
       "ref": "norma:lc-214-2025",
       "dispositivo": "arts. 318 a 321 e 323"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto nº 12.955, de 29/4/2026 (DOU 30/4/2026, Seção 1, p. 2), arts. 453, III, 455 e 456: composição, designação dos membros e competências do comitê",
+      "nota": "https://www.in.gov.br/web/dou/-/decreto-n-12.955-de-29-de-abril-de-2026-702415229"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria MF nº 3.089, de 16/10/2026 (DOU 19/10/2026, Seção 1, p. 104): designa os quatro titulares e os quatro suplentes da Receita Federal no comitê e delega ao Secretário Especial da Receita Federal as designações seguintes",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.089-de-16-de-outubro-de-2026-738843705"
     }
   ],
   "vigencia": {
@@ -20,11 +30,11 @@
     "nota": "Previsto na LC 214/2025, arts. 318 a 323, com efeitos desde 1º/1/2026 (art. 544, VI); data de instalação não conferida."
   },
   "confianca": "oficial",
-  "notas": "Sem contido_em: reúne a Receita Federal (União) e o CGIBS (estados e municípios), e a lei não o vincula a nenhum dos dois. Revisão (2026-11-14): sites de notícias (fontes secundárias, não citadas como fonte) dizem que a Portaria MF nº 3.089, de 16/10/2026, designou os representantes da Receita Federal no comitê, depois da data de referência. Se o DOU confirmar, o comitê existia por lei em 2026-10-01, mas ainda sem a composição da União; não conferido no DOU.",
+  "notas": "Sem contido_em: reúne a Receita Federal (União) e o CGIBS (estados e municípios), e a lei não o vincula a nenhum dos dois. Composição em 2026-10-01 (rodada final do fechamento, conferida no DOU): nenhuma. Os representantes da Receita Federal foram designados só pela Portaria MF nº 3.089, de 16/10/2026 (DOU 19/10/2026, Seção 1, p. 104): quatro titulares e quatro suplentes. Os do CGIBS cabem ao Presidente do CGIBS (LC 214, art. 320; Decreto 12.955/2026, art. 453, III), e não achamos ato de designação nem no DOU nem nas portarias, resoluções e atos conjuntos publicados no site do CGIBS até 14/11/2026; o DOU também não traz resolução do comitê. O comitê existia por lei na data de referência, sem membros designados; por isso não há relação de ocupação nem cargo de membro.",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-11-14",
-    "tarefa": "verificacao-f2-federacao",
-    "notas": "coletado em f2-federacao; revisão: nota sobre a designação dos membros da União depois da data de referência (fonte secundária, a conferir no DOU)"
+    "tarefa": "f2-fechamento-final",
+    "notas": "Nota da composição em 2026-10-01 refeita com o DOU (a revisão de f2-federacao só tinha notícias): sem membros na data. Acrescentadas as fontes do Decreto 12.955/2026 e da Portaria MF 3.089/2026 (cópia em pesquisa/brutos/dou/2026-11-14-f2-fechamento-final/). Resumo, detalhes e vigência sem mudança. Antes verificado em verificacao-f2-federacao."
   }
 }

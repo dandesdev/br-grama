@@ -13,7 +13,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [x] Conselho Nacional de Recursos Hídricos (Lei 14.600, art. 61; Lei 9.433/1997, arts. 34 a 36 e 45): colegiado presidido pelo Ministro da Integração (f2-executivo, lacuna).
 - [x] Decreto-Lei 200, art. 178 (lacuna) e arts. 30, 31 e 68 (parciais) (f2-executivo).
 - [ ] Wayback: `arquivo` null nas normas criadas na fase 2 (o Wayback respondeu 429 em 28/10 e 3/11); tentar de novo.
-- [ ] Ocupantes em 2026-10-01 dos cargos de chefia criados na fase 2 (PGT, PGJM, PGJ do MPDFT, PGU, Consultor-Geral da União, PGFN, PGF, diretores das agências, Líder do Governo, Ouvidores e Corregedores das Casas), só a cúpula (D11).
+- [x] Ocupantes em 2026-10-01 dos cargos de chefia criados na fase 2 (PGT, PGJM, PGJ do MPDFT, PGU, Consultor-Geral da União, PGFN, PGF, diretores das agências, Líder do Governo, Ouvidores e Corregedores das Casas), só a cúpula (D11).
 - [x] MP 2.229-43/2001 (carreira de Procurador Federal) e lista atual das consultorias jurídicas dos ministérios (f2-funcoes-essenciais).
 
 - [x] Comissões mistas permanentes que faltam: Comissão Mista Representativa no FIPA (Res. 2/2007-CN) e Comissão Mista de Assuntos da CPLP (Res. 2/2014-CN) (verificacao-f2-legislativo-tcu).
@@ -47,13 +47,13 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [x] Relação "Presidente nomeia Inspetor-Geral da IGPM/BM" (LC 97, art. 7º, parágrafo único; Lei 14.751, art. 28, § 2º), só se houver ato no DOU que confirme; senão, fica no `provimento_nota` (verificacao-f2-defesa-seguranca).
 - [x] Aplicar a D54 nas entidades das tarefas já verificadas: `forma-lista` nas relações de lista tríplice e sêxtupla hoje `indica`; `acumula` nas funções acumuladas hoje `preside` com `nato` (Vice-Presidente do STM, do STJ, do TRE); `registra` no registro de partido e de candidatura; `classifica` nas autoridades da LAI, art. 27; `eleicao-por-colegio` nos administradores de estatal; `ato-da-mesa` e `ato-conjunto` nas normas hoje `outro`; `politica-publica` nas políticas e planos nacionais hoje `documento`; `orgao-interno` nas corregedorias, ouvidorias, secretarias e escolas do MP, da Defensoria e da AGU hoje `outro`. Cada entidade mudada volta a `coletado` com nota, e a verificação do fechamento confere.
 
-- [ ] Rodada final: colegiado da comissão do orçamento da seguridade (Lei 8.212, art. 8º; decreto de 4/8/1992 sem revogação expressa), mantendo `aviso:comissao-orcamento-seguridade-social-sem-registro`; art. 8º passa a coberto (verificacao-f2-social).
-- [ ] Rodada final: motivos no quadro de f2-social: Lei 8.080, art. 41 (ações seguem com a Associação das Pioneiras Sociais, Lei 8.246/1991, art. 3º); Lei 8.212, art. 5º (o Conselho Nacional da Seguridade Social foi revogado pela MP 2.216-37/2001) (verificacao-f2-social).
+- [x] Rodada final: colegiado da comissão do orçamento da seguridade (Lei 8.212, art. 8º; decreto de 4/8/1992 sem revogação expressa), mantendo `aviso:comissao-orcamento-seguridade-social-sem-registro`; art. 8º passa a coberto (verificacao-f2-social).
+- [x] Rodada final: motivos no quadro de f2-social: Lei 8.080, art. 41 (ações seguem com a Associação das Pioneiras Sociais, Lei 8.246/1991, art. 3º); Lei 8.212, art. 5º (o Conselho Nacional da Seguridade Social foi revogado pela MP 2.216-37/2001) (verificacao-f2-social).
 
-- [ ] Rodada final: Comitê de Harmonização (IBS e CBS) tinha composição em 2026-10-01? Conferir no DOU a Portaria MF 3.089/2026 e as indicações do CGIBS (verificacao-f2-federacao).
-- [ ] Rodada final: `norma:lei-13089-2015` com `compilacao_ate` Lei 14.026/2020; Lei 11.107, art. 19, motivo "regra de aplicação no tempo"; Lei 8.212, art. 56, de lacuna a coberto no quadro de f2-social (já citado nas relações do FPE e do FPM) (verificacao-f2-federacao).
+- [x] Rodada final: Comitê de Harmonização (IBS e CBS) tinha composição em 2026-10-01? Conferir no DOU a Portaria MF 3.089/2026 e as indicações do CGIBS (verificacao-f2-federacao).
+- [x] Rodada final: `norma:lei-13089-2015` com `compilacao_ate` Lei 14.026/2020; Lei 11.107, art. 19, motivo "regra de aplicação no tempo"; Lei 8.212, art. 56, de lacuna a coberto no quadro de f2-social (já citado nas relações do FPE e do FPM) (verificacao-f2-federacao).
 
-- [ ] Rodada final: `rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm` passa a apontar para `cargo:ministro-corregedor-da-justica-militar`; nota de `rel:ministro-do-trabalho-nomeia-codefat` com o precedente do Conselho da República atualizado (f2-fechamento-a).
+- [x] Rodada final: `rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm` passa a apontar para `cargo:ministro-corregedor-da-justica-militar`; nota de `rel:ministro-do-trabalho-nomeia-codefat` com o precedente do Conselho da República atualizado (f2-fechamento-a).
 
 ## Propostas de vocabulário (decididas na D54, 2026-11-14)
 
@@ -112,5 +112,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-14: propostas de f2-cgibs-julgamento (relação "responde" para solução de consulta; provimento de representante de contribuintes por entidade e seleção; ator "contribuinte") seguem a D54: ficam com os termos atuais e nota; o ator "contribuinte" vai com os demais atores genéricos para a fase 3.
 
 - 2026-11-14: as câmaras de julgamento do IBS ficam `contido_em` o CGIBS, não na Diretoria de Revisão do Crédito Tributário: o art. 89 da LC 227 as põe no âmbito do CGIBS, e o art. 36, I, diz por meio de quem a diretoria revisa, não a quem as câmaras se subordinam. O presidente das câmaras fica como cadeira à parte, como a lei o lista em inciso próprio (verificacao-f2-cgibs-julgamento).
+
+- 2026-11-14: Wayback: depois de quatro rodadas (28/10, 3/11, 14/11 duas vezes) com 429, 520 e cópias que guardaram a página inicial do Planalto, as 17 normas e fontes da fase 2 sem cópia ficam com `arquivo: null`. Não bloqueia o fim da fase: a URL oficial e a cópia local em `pesquisa/brutos/` ficam como garantia (D17), e a tentativa se repete no fechamento da fase 3.
 
 ## Diário

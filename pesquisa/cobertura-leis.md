@@ -72,7 +72,7 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.742/1993 (Lei Orgânica da Assistência Social) | f2-social | 34 | 0 | 0 | 34 | 68 | 100,0% |
 | Lei 9.394/1996 (Lei de Diretrizes e Bases da Educação) | f2-social | 19 | 0 | 0 | 98 | 117 | 100,0% |
 | Lei 14.113/2020 (Fundeb) | f2-social | 32 | 0 | 0 | 26 | 58 | 100,0% |
-| Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
+| Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 7 | 0 | 0 | 79 | 86 | 100,0% |
 | Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 6155 artigos classificados; cobertura 99,4% (4 em lacuna, 32 parciais).
+Total: 6155 artigos classificados; cobertura 99,4% (2 em lacuna, 32 parciais).

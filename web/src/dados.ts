@@ -32,6 +32,8 @@ export interface Etapa {
   quorum?: Quorum;
   fontes: FonteRef[];
   remete_a?: string;
+  /** Ocorrências da etapa em 2026 e 2027 (D55). */
+  datas?: { de: string; ate?: string; nota?: string }[];
   seguintes: { para: string; quando?: string | null }[];
 }
 
