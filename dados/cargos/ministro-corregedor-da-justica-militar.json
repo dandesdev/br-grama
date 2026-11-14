@@ -1,0 +1,46 @@
+{
+  "id": "cargo:ministro-corregedor-da-justica-militar",
+  "tipo": "cargo",
+  "nome": "Ministro-Corregedor da Justiça Militar",
+  "resumo": "Função exercida pelo Vice-Presidente do STM durante o mandato: dirige a Corregedoria da Justiça Militar, com jurisdição em todo o país.",
+  "detalhes": "Faz as correições gerais e especiais nas Auditorias, relata ao Plenário as reclamações contra magistrados de primeira instância e instrui os processos de promoção deles (Lei 8.457/1992, arts. 12 a 14). É auxiliado e substituído pelo Juiz-Corregedor Auxiliar (art. 14-A).",
+  "orgao": "org:corregedoria-da-justica-militar",
+  "provimento": "nato",
+  "vagas": 1,
+  "provimento_nota": "Não há escolha própria: o Vice-Presidente do STM exerce a função de Corregedor durante o mandato (Lei 8.457/1992, arts. 10, b, e 12).",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "Acompanha o mandato de Vice-Presidente do STM."
+  },
+  "requisitos": [
+    {
+      "texto": "ser o Vice-Presidente do STM",
+      "fontes": [
+        {
+          "ref": "norma:lei-8457-1992",
+          "dispositivo": "art. 10, b; art. 12"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 10, b; arts. 12 a 14 e 14-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "nota": "Redação da Lei 13.774/2018, em vigor na publicação (art. 4º; DOU de 20/12/2018)."
+  },
+  "confianca": "oficial",
+  "notas": "Criado em f2-fechamento para receber a relação 'acumula' (D54), como cargo:corregedor-geral-da-justica-federal e cargo:corregedor-regional-eleitoral. Antes a função aparecia como 'preside' do Vice-Presidente sobre org:corregedoria-da-justica-militar.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (D54: acumula no lugar de preside)"
+  }
+}

@@ -21,14 +21,15 @@
   ],
   "vigencia": {
     "de": "1990-01-12",
-    "ate": "2032-12-31",
-    "nota": "Critérios da LC 63/1990, em vigor desde a publicação; os percentuais atuais (65% e 35%, com 10 pontos por aprendizagem) vêm da LC 227/2026, art. 166, em vigor desde 14/1/2026, que seguem a CF, art. 158, § 1º (EC 108/2020 e EC 132/2023). O ICMS é extinto em 2033; para as entregas a partir de 2033 vale o índice de 2032 (LC 63, art. 5º, parágrafo único)."
+    "ate": null,
+    "nota": "Critérios da LC 63/1990, em vigor desde a publicação; os percentuais atuais (65% e 35%, com 10 pontos por aprendizagem) vêm da LC 227/2026, art. 166, em vigor desde 14/1/2026, que seguem a CF, art. 158, § 1º (EC 108/2020 e EC 132/2023). O ICMS é extinto em 2033 e a apuração anual acaba com ele, mas o índice não: nas entregas a partir de 2033, o estado aplica o índice vigente em 2032 (LC 63, art. 5º, parágrafo único). Por isso a vigência não tem fim, ao contrário do processo de apuração e da relação calcula."
   },
   "confianca": "oficial",
   "notas": "Criado em f2-federacao para guardar os critérios da cota municipal do ICMS (a tarefa pedia o 'objeto do ICMS municipal', que não existia). O repasse em si é rel:estados-repassam-icms-municipios.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: vigencia.ate tirado (o índice de 2032 continua aplicado depois de 2033, LC 63, art. 5º, parágrafo único)"
   }
 }

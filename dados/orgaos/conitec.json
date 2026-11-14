@@ -4,7 +4,7 @@
   "nome": "Comissão Nacional de Incorporação de Tecnologias no SUS",
   "sigla": "Conitec",
   "resumo": "Colegiado do Ministério da Saúde que analisa pedidos para incluir, excluir ou alterar remédios, produtos e procedimentos no SUS e recomenda a decisão.",
-  "detalhes": "Também recomenda a criação e a mudança de protocolos clínicos e diretrizes terapêuticas e a atualização da lista nacional de medicamentos essenciais (Rename). Funciona em três comitês (medicamentos; produtos e procedimentos; protocolos), cada um com 17 membros com voto: oito do Ministério da Saúde, que o preside, e um de cada um destes: ANS, Anvisa, Conselho Nacional de Saúde, Conass, Conasems, Conselho Federal de Medicina, Associação Médica Brasileira e uma organização da sociedade civil da área da doença analisada. Seus relatórios pesam evidências de eficácia e segurança e o custo comparado com o que o SUS já oferece.",
+  "detalhes": "Também recomenda a criação e a mudança de protocolos clínicos e diretrizes terapêuticas e a atualização da lista nacional de medicamentos essenciais (Rename). Funciona em três comitês (medicamentos; produtos e procedimentos; protocolos), cada um com 17 membros com voto: oito do Ministério da Saúde (a Secretaria de Ciência, Tecnologia e Inovação em Saúde preside) e um de cada um destes: ANS, Anvisa, Conselho Nacional de Saúde, Conass, Conasems, Conselho Federal de Medicina, Associação Médica Brasileira, um núcleo de avaliação de tecnologias da Rebrats e uma organização da sociedade civil da área da doença analisada, em rodízio. Seus relatórios pesam evidências de eficácia e segurança e o custo comparado com o que o SUS já oferece.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "federal",
@@ -40,10 +40,11 @@
     "nota": "Criada pela Lei 12.401/2011, que incluiu o art. 19-Q na Lei 8.080/1990; usamos a data do Decreto 7.646/2011, que a regulou."
   },
   "confianca": "oficial",
-  "notas": "Composição pelo Decreto 7.646/2011, art. 7º, na redação do Decreto 12.716/2025 (17 membros por comitê). O assento rotativo da sociedade civil veio da Lei 15.120/2025 (art. 19-Q, §§ 1º e 1º-A), em vigor 180 dias depois de 7/4/2025, antes da data de referência. A análise técnica dos processos é feita pelo Departamento de Gestão e Incorporação de Tecnologias em Saúde (Decreto 11.798/2023, Anexo I, art. 36), sem nó próprio.",
+  "notas": "Composição pelo Decreto 7.646/2011, art. 7º, na redação do Decreto 12.716/2025 (17 membros por comitê, art. 7º, I a X; o do núcleo de avaliação de tecnologias é escolhido por processo seletivo da Rebrats, § 8º). O assento rotativo da sociedade civil veio da Lei 15.120/2025 (art. 19-Q, §§ 1º e 1º-A), em vigor 180 dias depois de 7/4/2025, antes da data de referência. A análise técnica dos processos é feita pelo Departamento de Gestão e Incorporação de Tecnologias em Saúde (Decreto 11.798/2023, Anexo I, art. 36), sem nó próprio.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; corrigido: a composição listava 16 membros; faltava o representante do Núcleo de Avaliação de Tecnologias em Saúde da Rebrats (Decreto 7.646/2011, art. 7º, IX, na redação do Decreto 12.716/2025)"
   }
 }

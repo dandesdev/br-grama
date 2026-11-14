@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Subsistema de Atenção à Saúde Indígena",
   "resumo": "Parte do SUS voltada aos povos indígenas, financiada pela União e organizada em Distritos Sanitários Especiais Indígenas (Dseis).",
-  "detalhes": "Funciona integrado ao SUS, que serve de retaguarda e referência para atendimentos de média e alta complexidade. Estados, municípios e entidades podem atuar de forma complementar; a União deve criar financiamento específico quando o atendimento ocorre fora das terras indígenas. Os povos indígenas têm direito a participar dos conselhos de saúde. No Ministério da Saúde, a Secretaria de Saúde Indígena coordena a gestão do subsistema.",
+  "detalhes": "Funciona integrado ao SUS, que lhe serve de retaguarda e referência e garante aos indígenas acesso à atenção primária, secundária e terciária. Estados, municípios e entidades podem atuar de forma complementar; a União deve criar financiamento específico quando o atendimento ocorre fora das terras indígenas. Os povos indígenas têm direito a participar dos conselhos de saúde. No Ministério da Saúde, a Secretaria de Saúde Indígena coordena a gestão do subsistema.",
   "tipo_orgao": "sistema",
   "poder": "executivo",
   "esfera": "federal",
@@ -31,15 +31,16 @@
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "1999-09-24",
     "ate": null,
-    "nota": "Instituído pela Lei 9.836/1999, que incluiu os arts. 19-A a 19-H na Lei 8.080/1990; a data de publicação dessa lei não foi conferida."
+    "nota": "Instituído pela Lei 9.836/1999, que incluiu os arts. 19-A a 19-H na Lei 8.080/1990; publicada no DOU de 24/9/1999 e em vigor na publicação (art. 3º)."
   },
   "confianca": "oficial",
   "notas": "Os Dseis e as equipes multidisciplinares não têm nó próprio; o número de distritos não foi conferido. Tipo 'sistema', como o SUS. O art. 19-E, §§ 1º e 2º, e o art. 19-G, §§ 1º-A e 1º-B, foram incluídos pela Lei 14.021/2020.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; corrigido: \"média e alta complexidade\" não está na lei, que fala em todos os níveis e em atenção primária, secundária e terciária (art. 19-G, §§ 2º e 3º); vigência preenchida com a Lei 9.836/1999 (DOU de 24/9/1999)"
   }
 }

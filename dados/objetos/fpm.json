@@ -4,7 +4,7 @@
   "nome": "Fundo de Participação dos Municípios",
   "sigla": "FPM",
   "resumo": "Fundo que recebe 25,5% do imposto de renda, do IPI e do Imposto Seletivo arrecadados pela União e os divide entre os municípios.",
-  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% nos primeiros dez dias de julho, de setembro e de dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160. A LC 62/1989 manteve os critérios de rateio anteriores (art. 3º): 10% vão às capitais, por coeficientes de população e do inverso da renda per capita do estado, e 90% aos demais municípios, por coeficientes que crescem com a faixa de habitantes (CTN, art. 91, com a redação do Decreto-Lei 1.881/1981; LC 91/1997, arts. 1º e 4º). Os municípios do interior com os maiores coeficientes participam também de uma reserva própria (LC 91/1997, art. 3º). As quotas são revistas todo ano com os dados de população do IBGE; quando a população cai, a perda é amortecida por regras de transição (LC 91/1997, arts. 1º, § 1º, 2º e 5º-A). Quando um município é criado e instalado, o TCU revisa os coeficientes dos demais do mesmo estado (LC 62/1989, art. 5º, parágrafo único). A União entrega os recursos em até dez dias depois de cada decêndio de arrecadação e divulga todo mês os valores (arts. 4º e 6º).",
+  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% nos primeiros dez dias de julho, de setembro e de dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160. A LC 62/1989 manteve os critérios de rateio anteriores (art. 3º): 10% vão às capitais, por coeficientes de população e do inverso da renda per capita do estado, e 90% aos demais municípios, por coeficientes que crescem com a faixa de habitantes (CTN, art. 91, com a redação do Decreto-Lei 1.881/1981; LC 91/1997, arts. 1º e 4º). Da parcela do interior saem antes 4% para a Reserva do FPM, dividida entre os municípios de coeficiente 3,8 e 4,0 (os mais populosos fora das capitais) pela população e pelo inverso da renda per capita do estado, sem prejuízo da quota normal deles (Decreto-Lei 1.881/1981, arts. 2º e 3º; LC 91/1997, art. 3º). As quotas são revistas todo ano com os dados de população do IBGE; quando a população cai, a perda é amortecida por regras de transição (LC 91/1997, arts. 1º, § 1º, 2º e 5º-A). Quando um município é criado e instalado, o TCU revisa os coeficientes dos demais do mesmo estado (LC 62/1989, art. 5º, parágrafo único). A União entrega os recursos em até dez dias depois de cada decêndio de arrecadação e divulga todo mês os valores (arts. 4º e 6º).",
   "tipo_objeto": "fundo",
   "esfera": "federal",
   "vigencia": {
@@ -29,14 +29,19 @@
     {
       "ref": "norma:lc-91-1997",
       "dispositivo": "arts. 1º a 5º-A"
+    },
+    {
+      "ref": "norma:decreto-lei-1881-1981",
+      "dispositivo": "arts. 2º e 3º",
+      "nota": "Reserva do FPM (4% da parcela do interior); acrescentado na revisão."
     }
   ],
   "confianca": "oficial",
-  "notas": "Critérios do FPM: LC 62/1989, art. 3º, que manteve os critérios anteriores 'até que lei específica' dispusesse com base no Censo de 1991; essa lei específica não foi identificada além da LC 91/1997. A reserva do interior está no Decreto-Lei 1.881/1981, art. 2º (citado pela LC 91/1997, art. 3º), não lido; por isso o percentual da reserva não foi registrado.",
+  "notas": "Critérios do FPM: LC 62/1989, art. 3º, que manteve os critérios anteriores 'até que lei específica' dispusesse com base no Censo de 1991; essa lei específica não foi identificada além da LC 91/1997. A Reserva do FPM foi criada pelo Decreto-Lei 1.881/1981 (art. 2º) e é formada por 4% da parcela do interior (art. 3º), lido na revisão; o CTN, art. 91, § 2º, manda deduzir esse percentual antes de dividir os 90%.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao",
-    "notas": "detalhes com os critérios de rateio (LC 62/1989, art. 3º; CTN, art. 91; LC 91/1997), a revisão de coeficientes pelo TCU e os prazos de entrega; fontes e notas novas; antes verificado em verificacao-f0-dinheiro"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao (coleta: detalhes com os critérios de rateio (LC 62/1989, art. 3º; CTN, art. 91; LC 91/1997), a revisão de coeficientes pelo TCU e os prazos de entrega; fontes e notas novas; antes verificado em verificacao-f0-dinheiro); revisão: Reserva do FPM com o percentual (4%) e a fonte do Decreto-Lei 1.881/1981, arts. 2º e 3º"
   }
 }

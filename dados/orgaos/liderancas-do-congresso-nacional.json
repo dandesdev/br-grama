@@ -1,0 +1,41 @@
+{
+  "id": "org:liderancas-do-congresso-nacional",
+  "tipo": "orgao",
+  "nome": "Lideranças do Congresso Nacional",
+  "resumo": "Os líderes que atuam nas sessões conjuntas: do Governo, da Maioria, da Minoria e da Oposição no Congresso, além dos líderes partidários de cada Casa.",
+  "detalhes": "O Regimento Comum reconhece as lideranças partidárias de cada Casa e cria lideranças próprias do Congresso: a do Governo, indicada pelo Presidente da República, e as da Minoria e da Oposição, que se alternam entre senadores e deputados a cada dois anos. A estrutura de apoio fica com a Casa do parlamentar que exerce a liderança.",
+  "tipo_orgao": "conjunto",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 4º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 4º, caput e §§ 1º a 9º; art. 5º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data de criação não pesquisada; previsto no RCCN em vigor. Os §§ 7º a 9º do art. 4º têm a redação da Resolução nº 3/2025-CN (23/6/2025)."
+  },
+  "confianca": "oficial",
+  "notas": "Nó agregado, no padrão de org:liderancas-do-senado-federal. Texto do RCCN na edição oficial do Regimento Comum (2025), cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/rccn.pdf; a API de legislação do Senado não lista RCN de 2026 (consulta de 2026-11-14).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (RCCN, art. 4º, era fora no quadro; verificacao-f2-legislativo-tcu)"
+  }
+}

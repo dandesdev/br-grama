@@ -54,6 +54,13 @@
       ],
       "acao": "O Legislativo de cada ente ratifica o protocolo de intenções por lei",
       "detalhes": "Cada ente aprova a sua lei de ratificação, pelo processo legislativo próprio. A ratificação pode ter reservas, se os outros entes aceitarem; depois de dois anos da subscrição, depende de homologação da assembleia geral. Fica dispensado o ente que já disciplinou sua participação por lei antes de subscrever o protocolo.",
+      "prazo": {
+        "texto": "Ratificação feita mais de 2 anos depois da subscrição do protocolo de intenções depende de homologação da assembleia geral do consórcio.",
+        "valor": 2,
+        "unidade": "anos",
+        "conta_de": "subscrição do protocolo de intenções",
+        "efeito": "a ratificação passa a depender de homologação da assembleia geral"
+      },
       "fontes": [
         {
           "ref": "norma:lei-11107-2005",
@@ -117,6 +124,10 @@
       ],
       "acao": "Cada ente consorciado entrega recursos ao consórcio por contrato de rateio, firmado a cada exercício",
       "detalhes": "O prazo não passa o das dotações, salvo projetos do plano plurianual, e os recursos não podem pagar despesas genéricas. O ente que não puser no orçamento as dotações do rateio pode ser suspenso e depois excluído. O consórcio informa as despesas para que entrem nas contas de cada ente, como exige a LRF.",
+      "prazo": {
+        "texto": "Formalizado em cada exercício financeiro; a vigência não passa a das dotações que o suportam, salvo projetos de programas e ações do plano plurianual.",
+        "conta_de": "exercício financeiro"
+      },
       "fontes": [
         {
           "ref": "norma:lei-11107-2005",
@@ -231,8 +242,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão acrescentou os prazos das etapas ratificacao-por-lei (art. 5º, § 3º) e contrato-de-rateio (art. 8º, § 1º)"
   }
 }

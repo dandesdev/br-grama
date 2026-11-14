@@ -5,7 +5,7 @@
   "relacao": "repassa-recursos",
   "de": "ente:uniao",
   "para": "ente:arquetipo-estadual",
-  "condicao": "Entrega 21,5% da arrecadação do imposto de renda, do IPI e do Imposto Seletivo ao Fundo de Participação dos Estados e do DF (obj:fpe). Do IR, exclui-se antes a parte que já pertence a estados e municípios (art. 159, § 1º).",
+  "condicao": "Entrega 21,5% da arrecadação do imposto de renda, do IPI e do Imposto Seletivo ao Fundo de Participação dos Estados e do DF (obj:fpe). Do IR, exclui-se antes a parte que já pertence a estados e municípios (art. 159, § 1º). Só recebe o ente sem débitos de contribuições previdenciárias (a lei fala em contribuições devidas ao INSS); o valor não entregue pode quitar esses débitos, a pedido do ente (Lei 8.212/1991, art. 56, caput e § 2º).",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -19,13 +19,18 @@
       "ref": "norma:lc-62-1989",
       "dispositivo": "art. 1º, parágrafo único; art. 2º; art. 4º",
       "nota": "Base de cálculo, critérios de rateio e prazos de entrega (até o 20º dia, o 30º dia e o 10º dia do mês seguinte, conforme o decêndio da arrecadação)."
+    },
+    {
+      "ref": "norma:lei-8212-1991",
+      "dispositivo": "art. 56, caput e § 2º",
+      "nota": "Condição de adimplência para receber o fundo, apontada na f2-social; acrescentada na revisão de f2-federacao. O parágrafo único original foi revogado pela MP 2.187-13/2001; o caput continua (o § 2º, da Lei 12.810/2013, remete a ele)."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao",
-    "notas": "acrescentada a fonte LC 62/1989 (base de cálculo, critérios e prazos de entrega); antes verificado em verificacao-f0-dinheiro"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao (coleta: acrescentada a fonte LC 62/1989 (base de cálculo, critérios e prazos de entrega); antes verificado em verificacao-f0-dinheiro); revisão: condição de adimplência da Lei 8.212/1991, art. 56, caput e § 2º, acrescentada"
   }
 }

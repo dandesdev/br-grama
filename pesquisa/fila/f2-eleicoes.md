@@ -50,7 +50,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | art. 82 | fora | repete a CF (art. 14, caput), já em org:eleitorado-nacional |
 | arts. 83 e 84 | coberto | proc:eleicao-geral, proc:eleicao-municipal (etapa apuracao: princípios majoritário e proporcional) |
 | arts. 85 e 86 | fora | simultaneidade e circunscrição: repetem a Lei 9.504/1997, art. 1º, parágrafo único, sem órgão nem etapa |
-| arts. 87 a 91 | coberto | proc:registro-de-candidatura (pedido, chapa única, quem registra), rel:justica-eleitoral-julga-registro-de-candidatura |
+| arts. 87 a 91 | coberto | proc:registro-de-candidatura (pedido, chapa única, quem registra), rel:justica-eleitoral-registra-candidatura |
 | arts. 93 e 94 | coberto | proc:registro-de-candidatura (prazo e documentos do pedido) |
 | arts. 95 e 96 | fora | nome do candidato (detalhe) e negativa de registro a adepto de partido cassado com base na Constituição de 1946 (superado) |
 | art. 97 | coberto | proc:registro-de-candidatura (edital); os prazos de impugnação de dois dias (§§ 2º a 4º) foram absorvidos pelo rito da LC 64/1990 (leitura nossa, anotada no processo) |
@@ -69,9 +69,11 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 136 a 150 | fora | lugares, polícia dos trabalhos, início da votação e ato de votar: regra de urna |
 | arts. 152 a 156 | fora | encerramento da votação com cédulas: regra de urna |
 | art. 158 | coberto | proc:eleicao-geral e proc:eleicao-municipal (etapa apuracao: órgãos apuradores) |
-| arts. 159 a 196 | fora | apuração nas juntas e pela mesa com cédulas: superada pela votação e totalização eletrônicas (Lei 9.504/1997, art. 59) e detalhe de processo |
+| arts. 159 a 186 e 188 a 196 | fora | apuração nas juntas e pela mesa com cédulas: superada pela votação e totalização eletrônicas (Lei 9.504/1997, art. 59) e detalhe de processo |
+| art. 187 | coberto | proc:nova-eleicao (renovação da votação nas seções anuladas, eleição municipal; reclassificado em f2-fechamento) |
 | art. 197 | coberto | proc:eleicao-geral (apuração nos TREs) |
-| arts. 198 a 204 | fora | rito interno da apuração nos TREs: detalhe |
+| arts. 198 a 200 e 202 a 204 | fora | rito interno da apuração nos TREs: detalhe |
+| art. 201 | coberto | proc:nova-eleicao (novas eleições nas seções anuladas, apuradas pelo TRE; reclassificado em f2-fechamento) |
 | arts. 205 a 212 | coberto | proc:eleicao-geral (apuração no TSE), obj:diploma-eleitoral (art. 212) |
 | arts. 213 e 214 | fora | rito interno da apuração no TSE: detalhe |
 | arts. 215 a 217 | coberto | obj:diploma-eleitoral, obj:recurso-contra-expedicao-de-diploma, rel:justica-eleitoral-julga-recurso-contra-expedicao-de-diploma |
@@ -79,7 +81,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | art. 219 | fora | princípio de não declarar nulidade sem prejuízo: detalhe de processo |
 | art. 220 | coberto | org:mesas-receptoras-de-votos (nulidade da votação perante mesa não nomeada) |
 | arts. 221 a 223 | fora | votação anulável e momento de arguir nulidade: detalhe de processo |
-| art. 224 | lacuna | nova eleição quando a nulidade atinge mais da metade dos votos ou quando o eleito majoritário tem o registro indeferido ou o diploma cassado (§§ 3º e 4º): falta processo; o alcance para Presidente e governador depende do julgamento das ADIs 5.525 e 5.619, não conferido em fonte oficial |
+| art. 224 | coberto | proc:nova-eleicao, com fonte:stf-informativo-893 (ADI 5.525 e 5.619; reclassificado em f2-fechamento) |
 | art. 225 | coberto | org:eleitorado-nacional (voto no exterior só para Presidente) |
 | art. 226 | fora | número mínimo de eleitores por seção no exterior: detalhe |
 | art. 227 | coberto | org:eleitorado-nacional (mesas no exterior pelo TRE-DF) |
@@ -87,7 +89,9 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | art. 232 | coberto | org:eleitorado-nacional |
 | art. 233 | fora | instruções do TSE e do Itamaraty para o voto no exterior: detalhe |
 | art. 233-A | coberto | org:eleitorado-nacional (voto em trânsito) |
-| arts. 234 a 239 | fora | garantias eleitorais: direitos individuais |
+| arts. 234 a 236 e 238 | fora | garantias eleitorais: direitos individuais |
+| art. 237 | fora | superado pelo rito da LC 64/1990, art. 22 (investigação judicial do abuso de poder; D51; reclassificado em f2-fechamento) |
+| art. 239 | fora | prioridade postal dos partidos: detalhe |
 | arts. 240 a 245, 248, 249, 251, 255 e 256 | fora | propaganda partidária e eleitoral |
 | arts. 257 a 259 | coberto | proc:recursos-eleitorais (efeito suspensivo, prazo geral de três dias, preclusão) |
 | arts. 260 e 261 | fora | prevenção do relator e recursos parciais: detalhe de processo |
@@ -104,7 +108,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 365 a 368, 368-A, 369 a 381 e 383 | fora | disposições gerais (serviço eleitoral obrigatório, multas, franquias, feriado, regras de transição de 1965) e cláusula revogatória |
 | art. 382 | coberto | norma:lei-4737-1965 (vigência) |
 
-Revogados por inteiro (fora da conta): arts. 51, 62 a 65, 92, 105, 151, 157, 246, 247, 250, 252 a 254, 294, 322, 328, 329 e 333. Conta: 338 artigos vigentes fora dos arts. 12 a 41; coberto 63, fora 272, parcial 0, lacuna 3; cobertura (coberto + fora) / total = 99,1%.
+Revogados por inteiro (fora da conta): arts. 51, 62 a 65, 92, 105, 151, 157, 246, 247, 250, 252 a 254, 294, 322, 328, 329 e 333. Conta: 338 artigos vigentes fora dos arts. 12 a 41; coberto 63, fora 272, parcial 0, lacuna 3; cobertura (coberto + fora) / total = 99,1%. Em f2-fechamento (2026-11-14), arts. 187, 201 e 224 passaram a coberto (proc:nova-eleicao) e os motivos dos arts. 237 a 239 foram separados: coberto 66, fora 270, lacuna 2 (arts. 112 e 113); cobertura 99,4%.
 
 ### Lei 9.504/1997 (Lei das Eleições)
 
@@ -164,10 +168,10 @@ Revogados por inteiro: arts. 19, 42 e 81. Vetados por inteiro: arts. 24-A, 24-B,
 | arts. 1º a 3º | coberto | org:partidos-politicos (natureza, liberdade de criação, autonomia e órgãos de direção) |
 | art. 4º | fora | igualdade de direitos dos filiados: direitos individuais |
 | arts. 5º e 6º | coberto | org:partidos-politicos |
-| arts. 7º a 10 | coberto | proc:registro-de-partido-politico, rel:tse-aprecia-para-registro-estatuto-de-partido, org:partidos-politicos |
-| arts. 11 e 11-A | coberto | org:partidos-politicos (delegados), org:federacao-* e rel:tse-aprecia-para-registro-estatuto-de-partido (federações) |
+| arts. 7º a 10 | coberto | proc:registro-de-partido-politico, rel:tse-registra-estatuto-de-partido, org:partidos-politicos |
+| arts. 11 e 11-A | coberto | org:partidos-politicos (delegados), org:federacao-* e rel:tse-registra-estatuto-de-partido (federações) |
 | art. 12 | coberto | org:partidos-politicos (bancada e lideranças) |
-| art. 13 | fora | funcionamento parlamentar com 5% dos votos: superado pela cláusula de desempenho do art. 17, § 3º, da CF (EC 97/2017); o Planalto marca "Vide ADIs 1.351 e 1.354" |
+| art. 13 | fora | funcionamento parlamentar com 5% dos votos: declarado inconstitucional pelo STF nas ADIs 1.351 e 1.354 (o Planalto marca "Vide ADIs 1.351 e 1.354"); a cláusula de desempenho hoje é a do art. 17, § 3º, da CF (EC 97/2017) (motivo mudado em f2-fechamento) |
 | arts. 14, 15 e 15-A | coberto | org:partidos-politicos (estatuto, órgãos por nível, responsabilidade de cada órgão) |
 | arts. 16, 17 e 19 a 22 | fora | filiação e desfiliação: direitos e deveres individuais e detalhe de cadastro (o prazo de filiação para concorrer está em proc:eleicao-geral, pela Lei 9.504/1997, art. 9º) |
 | art. 22-A | coberto | org:partidos-politicos (perda do mandato por desfiliação sem justa causa) |
@@ -203,7 +207,7 @@ Revogados por inteiro: arts. 18, 45 a 49, 56 e 57. Vetados por inteiro: arts. 45
 | Artigos | Classe | Onde/motivo |
 |---|---|---|
 | art. 1º | coberto | obj:registro-de-candidatura (casos de inelegibilidade) |
-| art. 2º | coberto | proc:registro-de-candidatura, rel:justica-eleitoral-julga-registro-de-candidatura, obj:impugnacao-de-registro-de-candidatura |
+| art. 2º | coberto | proc:registro-de-candidatura, rel:justica-eleitoral-registra-candidatura, obj:impugnacao-de-registro-de-candidatura |
 | arts. 3º a 18 | coberto | proc:registro-de-candidatura, obj:impugnacao-de-registro-de-candidatura, rel:ministerio-publico-eleitoral-promove-impugnacao-de-registro-de-candidatura, rel:partidos-politicos-ajuiza-impugnacao-de-registro-de-candidatura |
 | arts. 19 a 24 | coberto | proc:acao-de-investigacao-judicial-eleitoral, obj:acao-de-investigacao-judicial-eleitoral, rel:partidos-politicos-ajuiza-aije, rel:ministerio-publico-eleitoral-promove-aije, rel:justica-eleitoral-julga-aije |
 | art. 25 | fora | crime |

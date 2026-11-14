@@ -1,0 +1,28 @@
+{
+  "id": "rel:presidente-da-republica-indica-lider-do-governo-no-congresso",
+  "tipo": "relacao",
+  "nome": "Presidente da República indica o Líder do Governo no Congresso Nacional",
+  "relacao": "indica",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:lider-do-governo-no-congresso-nacional",
+  "condicao": "Entre os congressistas; não depende de aprovação de outro órgão.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RCCN em vigor."
+  },
+  "fontes": [
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 4º, § 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "'indica' na definição ampliada da D54 (a aprovação de outro órgão é eventual).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (RCCN, art. 4º, era fora no quadro; verificacao-f2-legislativo-tcu)"
+  }
+}

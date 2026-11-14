@@ -13,7 +13,7 @@
     },
     {
       "ref": "norma:decreto-lei-200-1967",
-      "dispositivo": "arts. 1º, 2º, 4º e 5º; art. 170"
+      "dispositivo": "arts. 1º, 2º, 4º e 5º; art. 170; art. 178 (redação do DL 2.299/1986)"
     }
   ],
   "ente": "ente:uniao",
@@ -23,10 +23,11 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-03",
-    "tarefa": "verificacao-f2-executivo",
-    "notas": "coletado em f2-executivo (detalhes e fonte do Decreto-Lei 200/1967 (administração direta e indireta, arts. 4º e 5º; avocação, art. 170); antes verificado em verificacao-piloto-estrutura); DL 200, arts. 1º, 2º, 4º, 5º e 170, conferidos"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "acrescentado ao detalhes o DL 200, art. 178 (dissolução ou incorporação de entidades da indireta por ato do Executivo; lacuna de f2-executivo, D50); antes verificado em verificacao-f2-executivo"
   },
-  "detalhes": "A administração federal tem duas partes: a direta, formada pela Presidência e pelos ministérios, e a indireta, cujas entidades têm personalidade jurídica própria e se vinculam ao ministério da sua atividade principal (Decreto-Lei 200/1967, art. 4º). Na indireta estão as autarquias, criadas por lei para atividades típicas da administração; as empresas públicas, de capital exclusivo da União, e as sociedades de economia mista, com maioria das ações com voto da União ou de entidade da indireta, ambas de direito privado e voltadas a atividade econômica; e as fundações públicas, sem fins lucrativos, para atividades que não exijam execução por órgão de direito público (art. 5º). O Presidente pode avocar e decidir qualquer assunto da administração federal por motivo relevante de interesse público (art. 170)."
+  "detalhes": "A administração federal tem duas partes: a direta, formada pela Presidência e pelos ministérios, e a indireta, cujas entidades têm personalidade jurídica própria e se vinculam ao ministério da sua atividade principal (Decreto-Lei 200/1967, art. 4º). Na indireta estão as autarquias, criadas por lei para atividades típicas da administração; as empresas públicas, de capital exclusivo da União, e as sociedades de economia mista, com maioria das ações com voto da União ou de entidade da indireta, ambas de direito privado e voltadas a atividade econômica; e as fundações públicas, sem fins lucrativos, para atividades que não exijam execução por órgão de direito público (art. 5º). O Presidente pode avocar e decidir qualquer assunto da administração federal por motivo relevante de interesse público (art. 170). O Executivo pode, por ato próprio, dissolver ou incorporar a outras entidades as autarquias, empresas públicas, sociedades de economia mista e fundações federais que tenham prejuízo, estejam inativas ou façam o que a iniciativa privada já atende (art. 178).",
+  "notas": "Art. 178 do DL 200 registrado como está no texto do Planalto; não pesquisamos como a regra convive com a exigência de lei específica para criar entidade da indireta (CF, art. 37, XIX)."
 }

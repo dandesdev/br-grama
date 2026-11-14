@@ -1,0 +1,31 @@
+{
+  "id": "rel:corregedor-regional-eleitoral-corrige-juiz-eleitoral",
+  "tipo": "relacao",
+  "nome": "Corregedor Regional exerce correição sobre os juízes eleitorais",
+  "relacao": "corrige",
+  "de": "cargo:corregedor-regional-eleitoral",
+  "para": "cargo:juiz-eleitoral",
+  "condicao": "Nas zonas do estado do seu TRE: inspeções e correições, reclamações disciplinares e sindicância; o processo administrativo disciplinar é aberto pelo Plenário do TRE, por proposta do Corregedor.",
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 26, § 2º"
+    },
+    {
+      "ref": "norma:resolucao-tse-23742-2024",
+      "dispositivo": "art. 3º; art. 10, I, II e IV"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-06-03",
+    "ate": null,
+    "nota": "Atribuições da Res. TSE 23.742/2024; a correição já vinha do Código Eleitoral."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a"
+  }
+}

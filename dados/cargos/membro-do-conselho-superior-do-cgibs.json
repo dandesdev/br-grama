@@ -29,7 +29,7 @@
     },
     {
       "quando": "representantes dos municípios e do DF a partir da primeira eleição: eleitos pelos prefeitos, em chapas da CNM e da FNP, por maioria dos votos válidos com segundo turno",
-      "provimento": "eleicao-majoritaria-maioria-absoluta",
+      "provimento": "eleicao-por-colegio",
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
@@ -42,11 +42,11 @@
       ]
     }
   ],
-  "provimento_nota": "Nenhum termo do vocabulário descreve a indicação por associação de municípios nem a eleição feita pelos prefeitos (não pelos eleitores); usamos 'nomeacao-livre' e 'eleicao-majoritaria-maioria-absoluta' como os mais próximos (ver campos). O suplente substitui o titular nas ausências e o sucede na vaga (art. 9º, §§ 3º e 4º).",
+  "provimento_nota": "Os estaduais ocupam o cargo por serem secretários de Fazenda (ou equivalentes), indicados pelo governador (nato). Os municipais, a partir da primeira eleição, são eleitos pelo colégio dos prefeitos, em chapas da CNM e da FNP (eleição por colégio, D54). No CGIBS provisório, em vigor em 2026-10-01, os municipais foram indicados pela CNM e pela FNP; o vocabulário não tem termo para indicação por entidade representativa (D54 o deixou de fora) e usamos nomeacao-livre como o mais próximo. O suplente substitui o titular nas ausências e o sucede na vaga (art. 9º, §§ 3º e 4º).",
   "campos": {
     "provimento_casos": {
       "confianca": "inferido",
-      "nota": "Os termos dos casos municipais são aproximações; proposta de vocabulário no diário de f2-federacao."
+      "nota": "Só o caso do CGIBS provisório (indicação pela CNM e pela FNP, aproximada como nomeacao-livre) é aproximação; os outros dois vêm direto da lei (LC 227/2026, arts. 8º e 9º). Fica inferido porque o caso aproximado é o que vigorava em 2026-10-01."
     }
   },
   "mandato": {
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "texto": "representante municipal: ser secretário de Fazenda do município ou do DF, ou ter 10 anos como autoridade fiscal, ou 4 anos em cargo de direção na administração tributária municipal ou distrital",
+      "texto": "representante municipal: manter vínculo de subordinação com a esfera que o indicou e ser secretário de Fazenda do município ou do DF, ou ter 10 anos como autoridade fiscal de carreira, ou 4 anos em cargo de direção na administração tributária municipal ou distrital",
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
@@ -106,8 +106,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: caso municipal pós-eleição como eleicao-por-colegio (D54); requisito do vínculo com a esfera (art. 9º, II); inferido mantido só pelo caso do CGIBS provisório"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "id": "rel:inss-concede-beneficio-de-prestacao-continuada",
+  "tipo": "relacao",
+  "nome": "O INSS concede, mantém e paga o benefício de prestação continuada",
+  "relacao": "concede",
+  "de": "org:inss",
+  "para": "obj:beneficio-de-prestacao-continuada",
+  "condicao": "Recebe os pedidos, concede ou nega, mantém, revisa, suspende e faz cessar o benefício, e o paga. Do indeferimento cabe recurso à Junta de Recursos do Conselho de Recursos da Previdência Social, em 30 dias.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 21-A; art. 26-F; art. 29, parágrafo único; art. 35"
+    },
+    {
+      "ref": "norma:decreto-6214-2007",
+      "dispositivo": "Anexo, arts. 3º, 36, § 1º, e 39, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-09-28",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do regulamento atual (Decreto 6.214/2007); o INSS já operava o benefício antes (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "Substitui a relação de id inss-julga-beneficio-de-prestacao-continuada (apagada), que usava 'julga' por falta de termo; o verbo 'concede' entrou no vocabulário pela D54. A lei (art. 35) dá a operação do benefício ao órgão federal que coordena a assistência social, que pode contar com outros órgãos; o regulamento põe a operação no INSS (Decreto 6.214/2007, Anexo, art. 3º).",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social com o id inss-julga-beneficio-de-prestacao-continuada; trocado por relação 'concede' (D54) e novo id; recurso ao CRPS com fonte (Decreto 6.214/2007, Anexo, art. 36, § 1º)"
+  }
+}

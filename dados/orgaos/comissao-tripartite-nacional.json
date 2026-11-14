@@ -17,19 +17,25 @@
       "ref": "fonte:senado-legislacao-adi-4757-decisao",
       "dispositivo": "decisão",
       "nota": "O STF julgou constitucional o art. 7º, XIV, h, e parágrafo único."
+    },
+    {
+      "ref": "fonte:stf-adi-4757",
+      "dispositivo": "decisão de 13/12/2022",
+      "nota": "Fonte oficial do STF, acrescentada na revisão."
     }
   ],
   "vigencia": {
     "de": "2011-12-09",
     "ate": null,
     "incerta": true,
-    "nota": "Data da LC 140/2011, que previu a comissão; documentos do MMA indicam que já funcionava antes, por portaria (não pesquisado)."
+    "nota": "Data da LC 140/2011, que previu a comissão; a Portaria MMA 189/2001 (DOU de 21/5/2001) já instituíra uma Comissão Técnica Tripartite com o MMA, a Abema e a Anamma, antecessora da comissão da lei."
   },
   "confianca": "oficial",
-  "notas": "Sem contido_em: a LC 140 não diz a que órgão a comissão se vincula. Convocações recentes publicadas pelo MMA citam o Decreto 12.254/2024 e as Portarias MMA 240/2017 e 84/2018 como base; não lidas nesta tarefa (fase 4, D09). Não confundir com a Comissão Intergestores Tripartite do SUS (org:comissao-intergestores-tripartite).",
+  "notas": "Sem contido_em: a LC 140 não diz a que órgão a comissão se vincula. Convocações recentes publicadas pelo MMA citam o Decreto 12.254/2024 e as Portarias MMA 240/2017 e 84/2018 como base; não lidas: o portal gov.br/mma pede autenticação para os PDFs (revisão, 2026-11-14). Achado na revisão: a página do MMA (cópia do Wayback de 9/3/2026) põe as comissões tripartites sob o Departamento de Apoio ao Conama e ao Sisnama, da Secretaria-Executiva, e o Decreto 12.254/2024 (Anexo I, art. 17, V e VIII) dá a esse departamento a secretaria-executiva dos colegiados do ministério e a articulação da descentralização entre as esferas, sem citar a comissão. Isso não basta para um contido_em com fonte; fica para a fase 4 (D09). Cópias da Portaria 189/2001 e da página em pesquisa/brutos/mma/2026-11-14-verificacao-f2-federacao/. Não confundir com a Comissão Intergestores Tripartite do SUS (org:comissao-intergestores-tripartite).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: fonte do STF; antecessora pela Portaria MMA 189/2001; contido_em continua sem fonte (ver notas)"
   }
 }

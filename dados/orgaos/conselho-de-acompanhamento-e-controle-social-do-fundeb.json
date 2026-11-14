@@ -3,8 +3,8 @@
   "tipo": "orgao",
   "nome": "Conselho de Acompanhamento e Controle Social do Fundeb (União)",
   "sigla": "CACS-Fundeb",
-  "resumo": "Conselho federal que acompanha a distribuição, a transferência e a aplicação do Fundeb, em especial a complementação da União.",
-  "detalhes": "Reúne representantes do Ministério da Educação, do ministério da área econômica, do Conselho Nacional de Educação, do Consed, da CNTE, da Undime, de pais, de estudantes e de organizações da sociedade civil. Atua com autonomia, sem subordinação ao Executivo, que deve lhe dar estrutura. Supervisiona o censo escolar e a proposta orçamentária na sua esfera e dá parecer sobre as prestações de contas.",
+  "resumo": "Conselho federal que acompanha, perante o governo federal, a distribuição, a transferência e a aplicação dos recursos do Fundeb.",
+  "detalhes": "Reúne representantes do Ministério da Educação, do ministério da área econômica, do Conselho Nacional de Educação, do Consed, da CNTE, da Undime, de pais, de estudantes e de organizações da sociedade civil. Atua com autonomia, sem subordinação ao Executivo, que deve lhe dar estrutura. Supervisiona o censo escolar e a proposta orçamentária na sua esfera e dá parecer sobre as prestações de contas. Os conselheiros têm mandato de quatro anos, sem recondução, e o conselho se reúne ao menos a cada trimestre.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "federal",
@@ -25,7 +25,7 @@
   "fontes": [
     {
       "ref": "norma:lei-14113-2020",
-      "dispositivo": "art. 30, IV; art. 33; art. 34, I; art. 36"
+      "dispositivo": "art. 30, IV; art. 33; art. 34, I e §§ 9º e 12; art. 36"
     }
   ],
   "vigencia": {
@@ -37,8 +37,9 @@
   "confianca": "oficial",
   "notas": "A lei ainda fala em 'Ministério da Economia' (art. 34, I, b). O ato que instituiu o conselho federal e os membros em 2026-10-01 não foram pesquisados.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; corrigido: \"em especial a complementação da União\" é do inciso do TCU (art. 30, III), não do conselho (art. 33); acrescidos mandato e periodicidade (art. 34, §§ 9º e 12)"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "rel:presidente-nomeia-inspetor-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
+  "tipo": "relacao",
+  "nome": "O Presidente nomeia o Inspetor-Geral das Polícias Militares e Corpos de Bombeiros Militares",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:inspetor-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
+  "condicao": "Entre oficiais-generais da ativa do Exército, com os nomes propostos pelo Comandante do Exército e apresentados pelo Ministro da Defesa. Na prática, o mesmo general é nomeado Chefe de Missões de Paz e Aviação e Inspetor-Geral.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 84, XIII"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 7º, caput e parágrafo único"
+    },
+    {
+      "ref": "norma:lei-14751-2023",
+      "dispositivo": "art. 28, § 2º"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31 de março de 2026 (Ministério da Defesa), DOU de 31/3/2026, edição 61-B, seção 2 extra B, p. 1",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-marco-de-2026-697085576 : o Presidente, com base no art. 84, XIII, da CF, nomeia General de Brigada 'para exercer o cargo de Chefe de Missões de Paz e Aviação e Inspetor-Geral das Polícias Militares'. Cópia em pesquisa/brutos/dou/2026-11-14-f2-fechamento-b/."
+    }
+  ],
+  "vigencia": {
+    "de": "2023-12-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início pela vigência da Lei 14.751/2023 (DOU de 13/12/2023), base atual do cargo. A nomeação de oficial-general pelo Presidente vem da LC 97/1999, art. 7º, e o cargo já existia pelo Decreto-Lei 667/1969; não pesquisamos desde quando."
+  },
+  "confianca": "oficial",
+  "notas": "Não é cúpula (D11): sem ocupante. O ato de nomeação no DOU confirma o provimento descrito no cargo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: o DOU de 31/3/2026 traz decreto do Presidente que nomeia o Inspetor-Geral (pendência de verificacao-f2-defesa-seguranca)"
+  }
+}

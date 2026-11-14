@@ -1,0 +1,41 @@
+{
+  "id": "cargo:lider-da-oposicao-no-congresso-nacional",
+  "tipo": "cargo",
+  "nome": "Líder da Oposição no Congresso Nacional",
+  "resumo": "Parlamentar indicado pelo maior partido ou bloco de oposição ao Governo Federal, com as prerrogativas do Líder do Governo; alterna entre senadores e deputados a cada dois anos.",
+  "orgao": "org:liderancas-do-congresso-nacional",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Os partidos ou blocos de oposição ao governo federal nas duas Casas podem constituir a Liderança da Oposição no Congresso (RCCN, art. 4º, § 7º); o líder é indicado pelo bloco ou partido de oposição com mais representantes, alternando senadores e deputados de dois em dois anos (§ 8º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "Alternância de dois em dois anos entre senadores e deputados (RCCN, art. 4º, § 8º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputado federal ou senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 4º, §§ 7º a 9º; art. 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2025-06-23",
+    "ate": null,
+    "incerta": true,
+    "nota": "Instituída pela Resolução nº 3/2025-CN, assinada em 23/6/2025 (API de legislação do Senado, documento 41071435); data de publicação não conferida."
+  },
+  "confianca": "oficial",
+  "notas": "A Liderança é facultativa ('poderão constituir'). 'eleicao-pelos-pares' é o termo mais próximo. Ocupante em 2026-10-01 não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (RCCN, art. 4º, era fora no quadro; verificacao-f2-legislativo-tcu)"
+  }
+}

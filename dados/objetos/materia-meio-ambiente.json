@@ -4,7 +4,7 @@
   "nome": "Meio ambiente",
   "resumo": "Proteção da natureza (florestas, fauna, flora, solo e recursos naturais), caça e pesca, e combate à poluição.",
   "tipo_objeto": "materia",
-  "detalhes": "A LC 140/2011 organiza a cooperação nas ações administrativas da competência comum: divide entre União, estados e municípios quem licencia e fiscaliza o quê (arts. 7º a 10) e prevê instrumentos de cooperação, como consórcios, convênios, fundos, a Comissão Tripartite Nacional, as comissões tripartites estaduais e a bipartite do DF, e a delegação de ações a outro ente que tenha órgão ambiental capacitado e conselho de meio ambiente (arts. 4º e 5º). Sem órgão capacitado ou conselho, o estado assume as ações do município, e a União as do estado (atuação supletiva, art. 15); a pedido do ente responsável, outro pode apoiá-lo técnica ou financeiramente (atuação subsidiária, art. 16). O STF manteve a lei e leu os arts. 14, § 4º, e 17, § 3º, de modo a permitir a atuação supletiva quando o ente responsável se omite (ADI 4.757).",
+  "detalhes": "A LC 140/2011 organiza a cooperação nas ações administrativas da competência comum: divide entre União, estados e municípios quem licencia e fiscaliza o quê (arts. 7º a 10) e prevê instrumentos de cooperação, como consórcios, convênios, fundos, a Comissão Tripartite Nacional, as comissões tripartites estaduais e a bipartite do DF, e a delegação de ações a outro ente que tenha órgão ambiental capacitado e conselho de meio ambiente (arts. 4º e 5º). No licenciamento e na autorização ambiental, se faltar órgão capacitado ou conselho, o estado assume as ações do município, e a União as do estado (atuação supletiva, art. 15); a pedido do ente responsável, outro pode apoiá-lo técnica ou financeiramente (atuação subsidiária, art. 16). O STF manteve a lei e leu os arts. 14, § 4º, e 17, § 3º, de modo a permitir a atuação supletiva quando o ente responsável se omite (ADI 4.757).",
   "vigencia": {
     "de": "1988-10-05",
     "ate": null
@@ -30,13 +30,18 @@
     {
       "ref": "fonte:senado-legislacao-adi-4757-decisao",
       "dispositivo": "decisão"
+    },
+    {
+      "ref": "fonte:stf-adi-4757",
+      "dispositivo": "decisão de 13/12/2022",
+      "nota": "Fonte oficial do STF, acrescentada na revisão."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao",
-    "notas": "detalhes novos com a cooperação da LC 140/2011 (instrumentos, delegação, atuação supletiva e subsidiária) e a ADI 4.757; fontes acrescentadas; antes verificado em verificacao-f0-competencias"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao (coleta: detalhes novos com a cooperação da LC 140/2011 (instrumentos, delegação, atuação supletiva e subsidiária) e a ADI 4.757; fontes acrescentadas; antes verificado em verificacao-f0-competencias); revisão: atuação supletiva limitada ao licenciamento e à autorização (art. 15, caput); fonte do STF acrescentada"
   }
 }

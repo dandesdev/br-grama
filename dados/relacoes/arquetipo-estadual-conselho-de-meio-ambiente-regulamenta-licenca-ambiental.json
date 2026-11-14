@@ -5,7 +5,7 @@
   "relacao": "regulamenta",
   "de": "org:arquetipo-estadual-conselho-de-meio-ambiente",
   "para": "obj:licenca-ambiental",
-  "condicao": "Define a tipologia das atividades e empreendimentos de impacto ambiental local, por porte, potencial poluidor e natureza; só a partir dessa decisão o município licencia esses casos.",
+  "condicao": "Define a tipologia das atividades e empreendimentos de impacto ambiental local, por porte, potencial poluidor e natureza; a regra da LC 140 que dá esses casos ao município só se aplica a partir dessa decisão, e até lá vale a legislação anterior.",
   "fontes": [
     {
       "ref": "norma:lc-140-2011",
@@ -19,8 +19,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: condição corrigida (art. 18, §§ 2º e 3º: a regra se aplica a partir da decisão do conselho; até lá, a legislação anterior)"
   }
 }

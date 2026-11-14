@@ -4,7 +4,7 @@
   "nome": "Assessoria de Relações Institucionais e Interfederativas do CGIBS",
   "resumo": "Cuida da ouvidoria, da comunicação e da interlocução do Comitê Gestor do IBS com os entes, o Congresso e os contribuintes; é dirigida pelo Primeiro Vice-Presidente.",
   "detalhes": "Subordinada ao Conselho Superior. Na ouvidoria atuam também três representantes da sociedade civil (LC 227/2026, arts. 19 e 20).",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "orgao-interno",
   "poder": "executivo",
   "esfera": "nacional",
   "contido_em": "org:conselho-superior-do-cgibs",
@@ -38,10 +38,10 @@
     "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
   },
   "confianca": "oficial",
-  "notas": "tipo_orgao 'outro': unidade interna de entidade interfederativa, sem termo próprio no vocabulário.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: tipo_orgao orgao-interno (D54)"
   }
 }

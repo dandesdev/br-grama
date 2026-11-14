@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Organização técnico-consultiva da governança metropolitana",
   "resumo": "Organização pública com funções técnicas e consultivas na governança da região metropolitana ou aglomeração urbana.",
-  "detalhes": "A lei a inclui na estrutura básica da governança interfederativa, ao lado das instâncias executiva e deliberativa e do sistema integrado de alocação de recursos e de prestação de contas (Lei 13.089/2015, art. 8º, III e IV). A forma jurídica (autarquia, agência, consórcio) fica com cada estado.",
+  "detalhes": "A lei a inclui na estrutura básica da governança interfederativa, ao lado das instâncias executiva e deliberativa e do sistema integrado de alocação de recursos e de prestação de contas (Lei 13.089/2015, art. 8º, III e IV). A lei não diz a forma jurídica: a organização administrativa de cada região vem da lei complementar estadual que a institui (art. 5º, III).",
   "tipo_orgao": "outro",
   "poder": "executivo",
   "esfera": "estadual",
@@ -38,8 +38,9 @@
   "confianca": "oficial",
   "notas": "Um nó para as instâncias de todas as regiões; a composição de cada uma vem da lei complementar estadual que institui a região (art. 5º, III).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: tirada a lista de formas jurídicas sem fonte"
   }
 }

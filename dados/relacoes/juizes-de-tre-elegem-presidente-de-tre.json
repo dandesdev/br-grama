@@ -1,0 +1,30 @@
+{
+  "id": "rel:juizes-de-tre-elegem-presidente-de-tre",
+  "tipo": "relacao",
+  "nome": "Eleição do Presidente do TRE",
+  "relacao": "elege",
+  "de": "cargo:juiz-de-tre",
+  "para": "cargo:presidente-de-tre",
+  "condicao": "Em cada TRE, entre os dois desembargadores do Tribunal de Justiça que o integram.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 120, § 2º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 26, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a"
+  }
+}

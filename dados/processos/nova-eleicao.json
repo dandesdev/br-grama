@@ -1,0 +1,192 @@
+{
+  "id": "proc:nova-eleicao",
+  "tipo": "processo",
+  "nome": "Nova eleição e renovação da votação",
+  "resumo": "Quando a Justiça Eleitoral anula votos que mudam o resultado ou tira o eleito majoritário do cargo, os eleitores votam de novo, em parte das seções ou em toda a circunscrição.",
+  "detalhes": "O Código Eleitoral prevê dois casos: a renovação da votação nas seções anuladas, quando os votos delas podem alterar o resultado (arts. 187 e 201), e a nova eleição, quando a nulidade passa de metade dos votos ou o eleito em pleito majoritário perde o registro, o diploma ou o mandato (art. 224). O STF, nas ADIs 5.525 e 5.619 (2018), manteve a nova eleição, sem esperar o trânsito em julgado, e mandou seguir a CF para Presidente, Vice e Senador.",
+  "forma": "linha",
+  "produz": "obj:diploma-eleitoral",
+  "etapas": [
+    {
+      "id": "decisao-que-anula",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:justica-eleitoral",
+        "org:juntas-eleitorais"
+      ],
+      "acao": "A Justiça Eleitoral anula votos ou seções, ou tira do eleito em pleito majoritário o registro, o diploma ou o mandato",
+      "detalhes": "Três situações levam a votar de novo: votos de seções anuladas (ou cujos eleitores foram impedidos de votar) que podem mudar o resultado; nulidade de mais da metade dos votos do país, do estado ou do município; e decisão que indefere o registro, cassa o diploma ou declara a perda do mandato do eleito em pleito majoritário, qualquer que seja o número de votos anulados. Nesse último caso o STF afastou a exigência de trânsito em julgado.",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 187, caput; art. 201, caput; art. 224, caput e § 3º"
+        },
+        {
+          "ref": "fonte:stf-informativo-893",
+          "dispositivo": "ADI 5.525 e ADI 5.619"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "renovacao-nas-secoes",
+          "quando": "Os votos das seções anuladas podem alterar o resultado"
+        },
+        {
+          "para": "marcacao-da-nova-eleicao",
+          "quando": "Nulidade de mais da metade dos votos, ou eleito majoritário sem registro, diploma ou mandato"
+        }
+      ]
+    },
+    {
+      "id": "renovacao-nas-secoes",
+      "atores": [
+        "org:juntas-eleitorais",
+        "org:justica-eleitoral",
+        "cargo:presidente-de-tre",
+        "cargo:juiz-eleitoral"
+      ],
+      "acao": "O TRE marca a renovação da votação só nas seções anuladas; o Presidente do TRE fixa a data",
+      "detalhes": "Na eleição municipal, a junta comunica o fato ao TRE, que marca o dia; nas eleições apuradas pelo TRE, o próprio tribunal ordena as novas eleições. Votam só os eleitores da seção que compareceram à eleição anulada, ou todos os da seção se houve coação, encerramento antecipado ou votação fora do dia e lugar. As mesas são novas, nomeadas pelo juiz eleitoral; havendo mais de uma seção anulada, o Presidente do TRE designa os juízes que as presidem.",
+      "prazo": {
+        "texto": "Entre 15 e 30 dias do despacho do Presidente do TRE, se não houver recurso contra a anulação (Código Eleitoral, art. 201, parágrafo único, I)",
+        "conta_de": "despacho que fixa a data"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 187, caput e §§ 1º e 2º; art. 201, parágrafo único, I a V"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "votacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "provocacao-pelo-ministerio-publico",
+      "atores": [
+        "cargo:procurador-regional-eleitoral",
+        "cargo:procurador-geral-eleitoral"
+      ],
+      "acao": "Se o TRE não marca a nova eleição, o Ministério Público Eleitoral pede ao TSE que a marque",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 224, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "marcacao-da-nova-eleicao",
+          "quando": null
+        }
+      ],
+      "detalhes": "O Procurador Regional leva o fato ao conhecimento do Procurador-Geral, que providencia junto ao TSE a marcação imediata."
+    },
+    {
+      "id": "marcacao-da-nova-eleicao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:justica-eleitoral",
+        "org:tse"
+      ],
+      "acao": "O tribunal marca a nova eleição, direta ou, para governador e prefeito, indireta nos últimos seis meses do mandato",
+      "detalhes": "No caso do § 3º, a nova eleição corre por conta da Justiça Eleitoral e é direta, salvo vaga nos últimos seis meses do mandato, quando é indireta (§ 4º). Pelo STF, essa regra vale para governador e prefeito; Presidente e Vice seguem a CF, art. 81 (eleição em 90 dias, ou pelo Congresso nos dois últimos anos), e senador segue o art. 56, § 2º. O Código não diz quem vota na eleição indireta. A vacância por causa não eleitoral (morte, renúncia) de governador e prefeito é regulada por cada estado e município.",
+      "prazo": {
+        "texto": "Nova eleição em 20 a 40 dias, quando anulada mais da metade dos votos (Código Eleitoral, art. 224, caput)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 224, caput e §§ 3º e 4º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 56, § 2º; art. 81"
+        },
+        {
+          "ref": "fonte:stf-informativo-893",
+          "dispositivo": "ADI 5.525 e ADI 5.619"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "votacao",
+          "quando": "Eleição direta"
+        },
+        {
+          "para": "provocacao-pelo-ministerio-publico",
+          "quando": "O TRE deixa de marcar a nova eleição"
+        }
+      ]
+    },
+    {
+      "id": "votacao",
+      "atores": [
+        "org:mesas-receptoras-de-votos",
+        "org:justica-eleitoral"
+      ],
+      "acao": "Os eleitores votam de novo perante as mesas receptoras",
+      "detalhes": "Nas eleições suplementares para cargos proporcionais, votação e apuração se fazem só para as legendas registradas.",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 187, § 4º; art. 201, parágrafo único, II, III e V"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "apuracao-e-diplomacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "apuracao-e-diplomacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:juntas-eleitorais",
+        "org:justica-eleitoral"
+      ],
+      "acao": "A junta ou o TRE apura, revê a apuração anterior e confirma ou invalida os diplomas já expedidos",
+      "detalhes": "Quando há renovação para prefeito e vice, os diplomas só saem depois de apuradas as eleições suplementares.",
+      "fontes": [
+        {
+          "ref": "norma:lei-4737-1965",
+          "dispositivo": "art. 187, §§ 2º e 3º; art. 201, parágrafo único, VI; art. 217, caput"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1965-08",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência do Código Eleitoral como em norma:lei-4737-1965; os §§ 3º e 4º do art. 224 vêm da Lei 13.165/2015, com o alcance dado pelo STF em 2018."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "arts. 187, 201, 217 e 224"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 56, § 2º; art. 81"
+    },
+    {
+      "ref": "fonte:stf-informativo-893",
+      "dispositivo": "ADI 5.525 e ADI 5.619"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O eleitorado não entra como ator da votação: pela D41 o site listaria todos os cargos que o eleitorado elege, e aqui só se repete a eleição do cargo atingido (ou das seções anuladas). \"Procurador Regional\" e \"Procurador Geral\" do art. 224, § 1º, lidos como o Procurador Regional Eleitoral e o Procurador-Geral Eleitoral, que oficiam perante o TRE e o TSE. O art. 201 trata das eleições apuradas pelo TRE; o art. 187, das municipais. A eleição indireta do § 4º, I, não tem rito no Código e não foi modelada. Código lido na cópia pesquisa/brutos/planalto-leis/2026-11-11-f2-eleicoes/l4737compilado.htm, onde o Planalto ainda mostra \"após o trânsito em julgado\" no § 3º, com \"Vide ADIN 5.525\".",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (Código Eleitoral, arts. 187, 201 e 224, eram lacuna; verificacao-f2-eleicoes)"
+  }
+}

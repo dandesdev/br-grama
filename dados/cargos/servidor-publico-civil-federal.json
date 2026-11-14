@@ -3,7 +3,7 @@
   "tipo": "cargo",
   "nome": "Servidor público civil federal",
   "resumo": "Ocupante de cargo público da União, das autarquias e das fundações federais, sob o regime jurídico único da Lei 8.112/1990. O cargo efetivo exige concurso; o cargo em comissão é de livre nomeação.",
-  "detalhes": "A lei prevê sete formas de provimento: nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução (art. 8º); a posse ocorre em até 30 dias da nomeação e o exercício em até 15 dias da posse (arts. 13 e 15). O servidor efetivo passa por estágio probatório e se torna estável; só perde o cargo por sentença judicial ou processo disciplinar com ampla defesa (arts. 20 a 22; CF, art. 41). O cargo fica vago por exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável ou falecimento (art. 33). Quem está em disponibilidade é aproveitado pelo órgão central do Sistema de Pessoal Civil (art. 31), papel hoje do Ministério da Gestão e da Inovação (Lei 14.600/2023, art. 32, V). Os chefes e os cargos de natureza especial têm substitutos previstos no regimento ou designados pelo dirigente máximo (art. 38).",
+  "detalhes": "A lei prevê sete formas de provimento: nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução (art. 8º); a posse ocorre em até 30 dias da nomeação e o exercício em até 15 dias da posse (arts. 13 e 15). O servidor efetivo passa por estágio probatório e se torna estável; só perde o cargo por sentença judicial ou processo disciplinar com ampla defesa (arts. 20 a 22; CF, art. 41). O cargo fica vago por exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável ou falecimento (art. 33). Quem está em disponibilidade é aproveitado pelo órgão central do Sistema de Pessoal Civil (art. 31), papel hoje do Ministério da Gestão e da Inovação (Lei 14.600/2023, art. 32, V). O cargo efetivo pode ser redistribuído a outro órgão ou entidade do mesmo Poder, com apreciação prévia do mesmo órgão central; a redistribuição de cargo vago é ato conjunto dele com os órgãos envolvidos (art. 37). Os chefes e os cargos de natureza especial têm substitutos previstos no regimento ou designados pelo dirigente máximo (art. 38).",
   "orgao": "org:poder-executivo-federal",
   "provimento": "variavel",
   "provimento_casos": [
@@ -82,7 +82,7 @@
   "fontes": [
     {
       "ref": "norma:lei-8112-1990",
-      "dispositivo": "arts. 1º a 3º, 5º a 15, 17, 20 a 22, 24, 25, 27 a 35 e 38"
+      "dispositivo": "arts. 1º a 3º, 5º a 15, 17, 20 a 22, 24, 25, 27 a 35, 37 e 38"
     },
     {
       "ref": "norma:cf-1988",
@@ -105,9 +105,9 @@
   },
   "notas": "Cargo agregado no Executivo federal, onde está a maior parte dos servidores; os servidores civis do Legislativo e do Judiciário da União seguem a mesma lei (art. 1º), mas não foram desdobrados em cargos próprios. Não confundir com empregados das estatais (CLT).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-administracao",
-    "notas": "coletado em f2-administracao; Lei 8.112/1990, arts. 1º a 38 citados, e Lei 14.600/2023, art. 32, V, conferidos"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "acrescentada ao detalhes a redistribuição (Lei 8.112, art. 37, com o órgão central do Sipec); antes verificado em verificacao-f2-administracao"
   }
 }

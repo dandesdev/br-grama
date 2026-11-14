@@ -1,0 +1,28 @@
+{
+  "id": "rel:vice-presidente-do-stm-acumula-ministro-corregedor-da-justica-militar",
+  "tipo": "relacao",
+  "nome": "Vice-Presidente do STM como Ministro-Corregedor",
+  "relacao": "acumula",
+  "de": "cargo:vice-presidente-do-stm",
+  "para": "cargo:ministro-corregedor-da-justica-militar",
+  "condicao": "Durante o mandato de Vice-Presidente, exerce a função de Ministro-Corregedor, fora da distribuição de processos.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 10, b; art. 12"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "nota": "Redação da Lei 13.774/2018, em vigor na publicação (art. 4º; DOU de 20/12/2018)."
+  },
+  "confianca": "oficial",
+  "notas": "Substitui a relação antiga do Vice-Presidente do STM com a Corregedoria (preside, para org:corregedoria-da-justica-militar, verificada em verificacao-f2-judiciario), apagada em f2-fechamento pela D54.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a no lugar da relação preside (D54)"
+  }
+}

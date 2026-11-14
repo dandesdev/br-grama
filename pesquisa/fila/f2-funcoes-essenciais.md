@@ -144,7 +144,7 @@ Vetados por inteiro (fora da conta): arts. 206, 207, 219, 226, 266, 267, 285, 29
 | arts. 69 e 70 | fora | adequação de vencimentos e gratificação eleitoral (remuneração) |
 | art. 72 | fora | vedação de nepotismo (dever individual) |
 | art. 73 | coberto | cargo:arquetipo-estadual-membro-do-ministerio-publico (promotor eleitoral) |
-| art. 74 | coberto | org:arquetipo-estadual-conselho-superior-do-ministerio-publico, rel:arquetipo-estadual-conselho-superior-do-ministerio-publico-indica-ministro-do-stj |
+| art. 74 | coberto | org:arquetipo-estadual-conselho-superior-do-ministerio-publico, rel:arquetipo-estadual-conselho-superior-do-ministerio-publico-forma-lista-ministro-do-stj |
 | art. 75 | fora | afastamento da carreira (direito individual) |
 | art. 76 | fora | prazo de um ano para propor cargos (transição esgotada) |
 | arts. 77 a 79 | fora | teto remuneratório e regras sobre proventos e pensões (remuneração) |

@@ -1,0 +1,33 @@
+{
+  "id": "rel:uniao-repassa-recursos-banco-central",
+  "tipo": "relacao",
+  "nome": "A União cobre o saldo do resultado negativo do Banco Central",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "org:banco-central",
+  "condicao": "O resultado negativo do balanço semestral é coberto primeiro pela reserva de resultado e depois pelo patrimônio do Banco Central, até o patrimônio líquido chegar a 1,5% do ativo. O que faltar vira obrigação da União, paga até o 10º dia útil do exercício seguinte, com dotação no orçamento, e pode ser paga com títulos da dívida.",
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 7º, § 1º"
+    },
+    {
+      "ref": "norma:lei-13820-2019",
+      "dispositivo": "art. 4º, caput, I e II, e §§ 2º, 3º e 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início pela vigência da LRF (5/5/2000); a regra pode ser anterior, não pesquisamos; a cobertura pela reserva e pelo patrimônio antes da União vale desde 1º/7/2019 (Lei 13.820/2019, art. 11)."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 13.820/2019 também manda a União emitir títulos em favor do Banco Central, sem contrapartida financeira, quando o patrimônio líquido cai a 0,25% do ativo (art. 6º) ou a carteira livre de títulos cai a 4% (art. 7º). Esses aportes não foram registrados como relação própria.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (LRF, art. 7º, § 1º), conferida contra a Lei 13.820/2019"
+  }
+}

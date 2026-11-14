@@ -6,7 +6,7 @@
   "orgao": "org:inspetoria-geral-das-policias-militares-e-corpos-de-bombeiros-militares",
   "provimento": "nomeacao-livre",
   "vagas": 1,
-  "provimento_nota": "A Lei 14.751/2023 reserva o cargo a oficial-general da ativa do Exército (art. 28, § 2º). Para cargos privativos de oficial-general, a LC 97/1999 manda o Comandante da Força propor os nomes ao Ministro da Defesa, que os apresenta ao Presidente da República, a quem cabe nomear (art. 7º).",
+  "provimento_nota": "A Lei 14.751/2023 reserva o cargo a oficial-general da ativa do Exército (art. 28, § 2º). Para cargos privativos de oficial-general, a LC 97/1999 manda o Comandante da Força propor os nomes ao Ministro da Defesa, que os apresenta ao Presidente da República, a quem cabe nomear (art. 7º). O decreto de nomeação publicado no DOU (31/3/2026) designa o mesmo general como Chefe de Missões de Paz e Aviação e Inspetor-Geral (rel:presidente-nomeia-inspetor-geral-das-policias-militares-e-corpos-de-bombeiros-militares).",
   "campos": {
     "provimento": {
       "fontes": [
@@ -51,9 +51,9 @@
   "confianca": "oficial",
   "notas": "O Decreto-Lei 667/1969 (art. 2º, parágrafo único) reservava o cargo a General de Brigada da ativa; esse dispositivo foi revogado pela Lei 14.751/2023, que passou a regê-lo. Não é cúpula (D11): sem ocupante.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-defesa-seguranca",
-    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 14.751/2023 art. 28, § 2º, e LC 97/1999 art. 7º; Decreto-Lei 667/1969 no Planalto (arts. 2º e 21, que tratavam da Inspetoria, revogados pela Lei 14.751/2023). Corrigido: provimento 'designacao' (definido no vocabulário como designação sem nova nomeação) trocado por 'nomeacao-livre', com campos.provimento 'inferido': o cargo é privativo de oficial-general, e para esses cargos a LC 97, art. 7º, parágrafo único, dá a nomeação ao Presidente, por proposta do Comandante via Ministro da Defesa"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "provimento_nota remete à relação de nomeação criada com o ato do DOU de 31/3/2026; antes verificado em verificacao-f2-defesa-seguranca"
   }
 }

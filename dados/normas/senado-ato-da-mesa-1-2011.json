@@ -4,7 +4,7 @@
   "nome": "Ato da Mesa do Senado Federal nº 1, de 16 de junho de 2011",
   "resumo": "Regulamenta a Ouvidoria do Senado Federal, criada em 2005, com um Ouvidor-Geral designado pelo Presidente do Senado entre os senadores.",
   "detalhes": "Ato da Mesa é um ato normativo interno da Mesa do Senado. Este manda submeter suas mudanças à ratificação do Plenário (art. 7º).",
-  "tipo_norma": "outro",
+  "tipo_norma": "ato-da-mesa",
   "numero": "1",
   "data": "2011-06-16",
   "ente": "ente:uniao",
@@ -26,11 +26,11 @@
   "compilacao_ate": "texto original (PDF do Portal da Transparência do Senado); alterações posteriores não conferidas",
   "redacao_conferida_em": "2026-10-28",
   "confianca": "oficial",
-  "notas": "Ato da Mesa: o vocabulário tipo_norma não tem esse termo; usado \"outro\". O ato diz que a Ouvidoria foi criada pelo Ato da Comissão Diretora nº 5/2005 e pela Resolução nº 1/2005, que não foram lidos. Cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/senado-ato-da-mesa-1-2011-ouvidoria.pdf.",
+  "notas": "tipo_norma \"ato-da-mesa\" desde a D54 (antes \"outro\"). O ato diz que a Ouvidoria foi criada pelo Ato da Comissão Diretora nº 5/2005 e pela Resolução nº 1/2005, que não foram lidos. Cópia em pesquisa/brutos/planalto-leis/2026-10-28-f2-legislativo-tcu/senado-ato-da-mesa-1-2011-ouvidoria.pdf.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-legislativo-tcu",
-    "notas": "coletado em f2-legislativo-tcu; arts. 1º a 4º e 8º conferidos no PDF oficial; corrigido: publicação no DSF nº 100, de 18/6/2011, p. 24089 (rodapé do PDF), e vigencia.de de 16/6 (data do ato, incerta) para 18/6/2011 (art. 8º: vigor na publicação); tipo_norma \"outro\": acrescentado detalhes explicando o tipo de ato, como pede a definição do termo no vocabulário"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: tipo_norma 'outro' → 'ato-da-mesa' (D54); antes: coletado em f2-legislativo-tcu; arts. 1º a 4º e 8º conferidos no PDF oficial; corrigido: publicação no DSF nº 100, de 18/6/2011, p. 24089 (rodapé do PDF), e vigencia.de de 16/6 (data do ato, incerta) para 18/6/2011 (art. 8º: vigor na publicação); tipo_norma \"outro\": acrescentado detalhes explicando o tipo de ato, como pede a definição do termo no vocabulário (verificado, verificacao-f2-legislativo-tcu)"
   }
 }

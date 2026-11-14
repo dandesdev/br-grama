@@ -142,6 +142,7 @@
         "cargo:presidente-do-stm",
         "cargo:presidente-de-trf",
         "cargo:presidente-de-trt",
+        "cargo:presidente-de-tre",
         "cargo:presidente-do-tjdft",
         "cargo:presidente-do-tcu",
         "cargo:procurador-geral-da-republica"
@@ -182,14 +183,148 @@
     },
     {
       "id": "punicao",
-      "tipo_etapa": "fim",
-      "atores": [],
-      "acao": "A pena é aplicada; o processo pode ser revisto a qualquer tempo se surgirem fatos novos",
-      "detalhes": "O pedido de revisão vai ao Ministro de Estado ou autoridade equivalente, que, se o autorizar, manda formar comissão revisora; ela tem 60 dias, e a autoridade que aplicou a pena julga em 20. A revisão procedente anula a pena e não pode agravá-la.",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "A pena é aplicada; surgem depois fatos novos que justifiquem a inocência ou mostrem pena inadequada?",
+      "detalhes": "A revisão pode ser pedida pelo servidor, por pessoa da família (falecimento, ausência ou desaparecimento) ou pelo curador, ou aberta de ofício, a qualquer tempo. Precisa de elementos novos, não apreciados no processo; a simples alegação de injustiça não basta, e o ônus da prova é de quem pede.",
       "fontes": [
         {
           "ref": "norma:lei-8112-1990",
-          "dispositivo": "arts. 174 a 182"
+          "dispositivo": "arts. 174 a 176"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pena-mantida",
+          "quando": "não há revisão"
+        },
+        {
+          "para": "revisao-pedido",
+          "quando": "pedido de revisão ou revisão de ofício"
+        }
+      ]
+    },
+    {
+      "id": "revisao-pedido",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "cargo:ministro-de-estado"
+      ],
+      "acao": "O Ministro de Estado ou autoridade equivalente decide se autoriza a revisão",
+      "detalhes": "O requerimento vai ao Ministro de Estado ou à autoridade equivalente nos outros Poderes e órgãos. Se autorizar, ele manda o pedido ao dirigente do órgão ou entidade onde o processo começou.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 177, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "revisao-comissao",
+          "quando": "autoriza"
+        },
+        {
+          "para": "pena-mantida",
+          "quando": "não autoriza"
+        }
+      ]
+    },
+    {
+      "id": "revisao-comissao",
+      "atores": [
+        "org:poder-executivo-federal"
+      ],
+      "acao": "Forma-se a comissão revisora, que tem 60 dias para concluir os trabalhos",
+      "detalhes": "A comissão segue as regras da comissão do processo disciplinar (três servidores estáveis). A revisão corre em apenso ao processo original, e o requerente pede dia e hora para produzir provas e ouvir testemunhas.",
+      "prazo": {
+        "texto": "60 dias para a comissão revisora concluir",
+        "valor": 60,
+        "unidade": "dias"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 177, parágrafo único; arts. 178 a 180"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "revisao-julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "revisao-julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:poder-executivo-federal",
+        "cargo:presidente-da-republica",
+        "cargo:ministro-de-estado",
+        "cargo:presidente-da-camara-dos-deputados",
+        "cargo:presidente-do-senado-federal",
+        "cargo:presidente-do-stf",
+        "cargo:presidente-do-stj",
+        "cargo:presidente-do-tst",
+        "cargo:presidente-do-tse",
+        "cargo:presidente-do-stm",
+        "cargo:presidente-de-trf",
+        "cargo:presidente-de-trt",
+        "cargo:presidente-de-tre",
+        "cargo:presidente-do-tjdft",
+        "cargo:presidente-do-tcu",
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "A autoridade que aplicou a pena julga a revisão em 20 dias",
+      "detalhes": "Julga a mesma autoridade que aplicou a pena, pela regra de competência do art. 141, e pode mandar fazer diligências no prazo. A revisão não pode agravar a pena.",
+      "prazo": {
+        "texto": "20 dias do recebimento do processo",
+        "valor": 20,
+        "unidade": "dias",
+        "conta_de": "recebimento do processo"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 181; art. 182, parágrafo único"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "pena-anulada",
+          "quando": "procedente"
+        },
+        {
+          "para": "pena-mantida",
+          "quando": "improcedente"
+        }
+      ]
+    },
+    {
+      "id": "pena-anulada",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A pena fica sem efeito e os direitos do servidor são restabelecidos",
+      "detalhes": "A destituição de cargo em comissão não é desfeita: é convertida em exoneração.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 182, caput"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "pena-mantida",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A pena aplicada continua valendo",
+      "fontes": [
+        {
+          "ref": "norma:lei-8112-1990",
+          "dispositivo": "art. 174"
         }
       ],
       "seguintes": []
@@ -264,9 +399,9 @@
   "confianca": "oficial",
   "notas": "As etapas de apuração, sindicância, instauração e inquérito têm como ator o Poder Executivo federal (e a CGU, onde a lei a nomeia) porque a autoridade instauradora e a comissão variam caso a caso e não são entidades do mapa. Os Presidentes de TRE não estão entre os atores do julgamento por não haver cargo próprio no mapa, embora o art. 141, I ('Presidentes ... dos Tribunais Federais') os alcance. O Presidente do TCU entrou na revisão: o RITCU, art. 28, XXXVIII, dá a ele a aplicação de demissão e cassação a servidores do Tribunal. No julgamento, o Poder Executivo federal representa o chefe da repartição e as demais autoridades das penas menores (art. 141, III e IV).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-administracao",
-    "notas": "coletado em f2-administracao; arts. 127, 133, 140, 141 e 143 a 182 conferidos, inclusive os prazos (sindicância 30+30, afastamento 60+60, processo 60+60, defesa 10/20 dias prorrogáveis pelo dobro, julgamento 20, revisão 60+20; rito sumário 3, 5, 30+15 e 5 dias); completado: julgamento ganhou o ator genérico das penas menores (art. 141, III e IV) e o Presidente do TCU (RITCU, art. 28, XXXVIII)"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "etapa punicao passa de fim a decisão e ganha a revisão (Lei 8.112, arts. 174 a 182): etapas novas revisao-pedido, revisao-comissao, revisao-julgamento, pena-anulada e pena-mantida; atores de revisao-julgamento copiados do julgamento; antes verificado em verificacao-f2-administracao; f2-fechamento-a: cargo:presidente-de-tre acrescentado aos atores de julgamento e revisao-julgamento (Lei 8.112, art. 141, I: Presidentes dos tribunais federais)"
   }
 }

@@ -9,21 +9,21 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 ## Pendências
 
-- [ ] `rel:cgu-representa-a-tcu` (Lei 14.600, art. 49, § 2º): falta a relação da CGU com o TCU (verificacao-f2-executivo).
-- [ ] Conselho Nacional de Recursos Hídricos (Lei 14.600, art. 61; Lei 9.433/1997, arts. 34 a 36 e 45): colegiado presidido pelo Ministro da Integração (f2-executivo, lacuna).
-- [ ] Decreto-Lei 200, art. 178 (lacuna) e arts. 30, 31 e 68 (parciais) (f2-executivo).
+- [x] `rel:cgu-representa-a-tcu` (Lei 14.600, art. 49, § 2º): falta a relação da CGU com o TCU (verificacao-f2-executivo).
+- [x] Conselho Nacional de Recursos Hídricos (Lei 14.600, art. 61; Lei 9.433/1997, arts. 34 a 36 e 45): colegiado presidido pelo Ministro da Integração (f2-executivo, lacuna).
+- [x] Decreto-Lei 200, art. 178 (lacuna) e arts. 30, 31 e 68 (parciais) (f2-executivo).
 - [ ] Wayback: `arquivo` null nas normas criadas na fase 2 (o Wayback respondeu 429 em 28/10 e 3/11); tentar de novo.
 - [ ] Ocupantes em 2026-10-01 dos cargos de chefia criados na fase 2 (PGT, PGJM, PGJ do MPDFT, PGU, Consultor-Geral da União, PGFN, PGF, diretores das agências, Líder do Governo, Ouvidores e Corregedores das Casas), só a cúpula (D11).
 - [ ] MP 2.229-43/2001 (carreira de Procurador Federal) e lista atual das consultorias jurídicas dos ministérios (f2-funcoes-essenciais).
 
-- [ ] Comissões mistas permanentes que faltam: Comissão Mista Representativa no FIPA (Res. 2/2007-CN) e Comissão Mista de Assuntos da CPLP (Res. 2/2014-CN) (verificacao-f2-legislativo-tcu).
-- [ ] Lideranças do Congresso (RCCN, art. 4º; RCN 3/2025): Líder do Governo, da Maioria, da Minoria e da Oposição no Congresso; reclassificar o art. 4º do RCCN de fora para lacuna até criar (verificacao-f2-legislativo-tcu).
-- [ ] Quadro do RICD e do RISF, reclassificar ou cobrir: RICD, art. 216 (reforma do regimento; citar em `proc:resolucao`, como o RISF, art. 401); RICD, arts. 212 e 213 (consolidação, parcial); RICD, art. 105, e RISF, art. 332 (arquivamento ao fim da legislatura: etapa terminal de `proc:lei-ordinaria`); RICD, arts. 250 e 251 (Casa resolve sobre a prisão de deputado, CF, art. 53, § 2º: relação) (verificacao-f2-legislativo-tcu).
-- [ ] Terceira Secretaria do Senado em 2026-10-01: titular Ana Paula Lobato afastada; quem exerceu de 5/8 a 6/10/2026 entra com `interino: true` (D40), se a fonte do Senado disser (verificacao-f2-legislativo-tcu).
-- [ ] Conselho da República: três relações apontam para o órgão onde o cargo `cargo:membro-cidadao-do-conselho-da-republica` seria o destino certo; conferir e trocar (verificacao-f2-legislativo-tcu).
+- [x] Comissões mistas permanentes que faltam: Comissão Mista Representativa no FIPA (Res. 2/2007-CN) e Comissão Mista de Assuntos da CPLP (Res. 2/2014-CN) (verificacao-f2-legislativo-tcu).
+- [x] Lideranças do Congresso (RCCN, art. 4º; RCN 3/2025): Líder do Governo, da Maioria, da Minoria e da Oposição no Congresso; reclassificar o art. 4º do RCCN de fora para lacuna até criar (verificacao-f2-legislativo-tcu).
+- [x] Quadro do RICD e do RISF, reclassificar ou cobrir: RICD, art. 216 (reforma do regimento; citar em `proc:resolucao`, como o RISF, art. 401); RICD, arts. 212 e 213 (consolidação, parcial); RICD, art. 105, e RISF, art. 332 (arquivamento ao fim da legislatura: etapa terminal de `proc:lei-ordinaria`); RICD, arts. 250 e 251 (Casa resolve sobre a prisão de deputado, CF, art. 53, § 2º: relação) (verificacao-f2-legislativo-tcu).
+- [x] Terceira Secretaria do Senado em 2026-10-01: titular Ana Paula Lobato afastada; quem exerceu de 5/8 a 6/10/2026 entra com `interino: true` (D40), se a fonte do Senado disser (verificacao-f2-legislativo-tcu).
+- [x] Conselho da República: três relações apontam para o órgão onde o cargo `cargo:membro-cidadao-do-conselho-da-republica` seria o destino certo; conferir e trocar (verificacao-f2-legislativo-tcu).
 
-- [ ] Processo de nova eleição (Código Eleitoral, art. 224, com a renovação da votação dos arts. 187 e 201), com `fonte:stf-informativo-893` (ADI 5.525: o § 4º não vale para Presidente, Vice e Senador; ADI 5.619 improcedente); até lá, arts. 187, 201 e 224 do Código são lacuna no quadro de f2-eleicoes (verificacao-f2-eleicoes).
-- [ ] Quadro de f2-eleicoes: art. 237 do Código passa a fora com motivo "superado" pela LC 64, art. 22 (D51); Lei 9.096, art. 13, motivo "declarado inconstitucional (ADIs 1.351 e 1.354)" (verificacao-f2-eleicoes).
+- [x] Processo de nova eleição (Código Eleitoral, art. 224, com a renovação da votação dos arts. 187 e 201), com `fonte:stf-informativo-893` (ADI 5.525: o § 4º não vale para Presidente, Vice e Senador; ADI 5.619 improcedente); até lá, arts. 187, 201 e 224 do Código são lacuna no quadro de f2-eleicoes (verificacao-f2-eleicoes).
+- [x] Quadro de f2-eleicoes: art. 237 do Código passa a fora com motivo "superado" pela LC 64, art. 22 (D51); Lei 9.096, art. 13, motivo "declarado inconstitucional (ADIs 1.351 e 1.354)" (verificacao-f2-eleicoes).
 
 - [ ] `cargo:corregedor-regional-eleitoral` (Res. TSE 23.742/2024, art. 9º: o Vice-Presidente do TRE acumula a Corregedoria); leva o Código Eleitoral, art. 26, de parcial a coberto (verificacao-f2-judiciario).
 - [ ] Quadro de f2-judiciario: LOMAN, art. 27, e RISTF, arts. 354-A a 354-G, passam a coberto; Lei 8.457, arts. 89 a 97, e Código Eleitoral, art. 31, ficam fora com o motivo da D52; RISTJ ganha os arts. 255-A a 255-Z e 255-AA a 255-AE da ER 55/2026 (fora, rito) e `norma:ristj` passa a `compilacao_ate` ER 55/2026 (verificacao-f2-judiciario).
@@ -32,20 +32,23 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [ ] Relações de foro do STF para comandantes militares e chefes de missão diplomática permanente (CF, art. 102, I, c) (verificacao-f2-judiciario).
 - [ ] ADI 6188 (CLT, art. 702, I, f): trocar a notícia pelo acórdão do STF em `org:tst` (verificacao-f2-judiciario).
 
-- [ ] LRF, art. 7º: resultado do Banco Central transferido ao Tesouro (positivo) ou coberto por ele (negativo); relação `repassa-recursos` entre `org:banco-central` e o Tesouro, conferindo se a Lei 13.820/2019 mudou o regime; até lá, lacuna no quadro de f2-financas-publicas (verificacao-f2-financas-publicas).
+- [x] LRF, art. 7º: resultado do Banco Central transferido ao Tesouro (positivo) ou coberto por ele (negativo); relação `repassa-recursos` entre `org:banco-central` e o Tesouro, conferindo se a Lei 13.820/2019 mudou o regime; até lá, lacuna no quadro de f2-financas-publicas (verificacao-f2-financas-publicas).
 
 - [ ] Abrir `aviso:` (contradição, D37) sobre quem oferece o libelo no impeachment do Presidente: a Lei 1.079, art. 58 (aplicado por analogia pela ADPF 378), dá ao denunciante; o RISF, art. 380, III, à comissão especial (verificacao-f2-processos-constitucionais).
 - [ ] Vigência do CPC (2016-03-18, `fonte:stj-enunciado-administrativo-1`) em `norma:lei-13105-2015` e `proc:caminho-de-um-processo` (verificacao-f2-processos-constitucionais).
 - [ ] Conferir as fontes gravadas como `coletado` pela revisão dos processos constitucionais: `fonte:stj-enunciado-administrativo-1` e `fonte:stf-aplicacao-sumula-vinculante-46` (verificacao-f2-processos-constitucionais).
 
-- [ ] `cargo:presidente-de-tre` (e Vice-Presidente, que acumula a Corregedoria Regional pela Res. TSE 23.742/2024) e o Presidente de TRE como ator no julgamento do PAD (Lei 8.112, art. 141, I) (verificacao-f2-administracao, verificacao-f2-judiciario).
-- [ ] Etapa "revisão" em `proc:processo-administrativo-disciplinar-federal` (Lei 8.112, arts. 174 a 182; pedido ao Ministro de Estado, art. 177) (verificacao-f2-administracao).
-- [ ] Quadro de f2-administracao: Lei 8.112, art. 37 (redistribuição com o órgão central do SIPEC), coberto ou parcial; Lei 13.303, art. 92, parágrafo único (transferências voluntárias condicionadas ao Registro de Empresas), condição de relação ou lacuna (D53) (verificacao-f2-administracao).
-- [ ] Lei 13.303, art. 55, III, remete à Lei 8.666 (revogada): conferir a remissão na Lei 14.133/2021 (verificacao-f2-administracao).
+- [x] `cargo:presidente-de-tre` (e Vice-Presidente, que acumula a Corregedoria Regional pela Res. TSE 23.742/2024) e o Presidente de TRE como ator no julgamento do PAD (Lei 8.112, art. 141, I) (verificacao-f2-administracao, verificacao-f2-judiciario).
+- [x] Etapa "revisão" em `proc:processo-administrativo-disciplinar-federal` (Lei 8.112, arts. 174 a 182; pedido ao Ministro de Estado, art. 177) (verificacao-f2-administracao).
+- [x] Quadro de f2-administracao: Lei 8.112, art. 37 (redistribuição com o órgão central do SIPEC), coberto ou parcial; Lei 13.303, art. 92, parágrafo único (transferências voluntárias condicionadas ao Registro de Empresas), condição de relação ou lacuna (D53) (verificacao-f2-administracao).
+- [x] Lei 13.303, art. 55, III, remete à Lei 8.666 (revogada): conferir a remissão na Lei 14.133/2021 (verificacao-f2-administracao).
 
-- [ ] `cargo:diretor-geral-da-abin`: alinhar com o Diretor-Adjunto (CCE 1.18 no Decreto 11.816/2023; Lei 14.204/2021, arts. 3º, § 1º, e 6º) (verificacao-f2-defesa-seguranca).
-- [ ] Relação "Presidente nomeia Inspetor-Geral da IGPM/BM" (LC 97, art. 7º, parágrafo único; Lei 14.751, art. 28, § 2º), só se houver ato no DOU que confirme; senão, fica no `provimento_nota` (verificacao-f2-defesa-seguranca).
+- [x] `cargo:diretor-geral-da-abin`: alinhar com o Diretor-Adjunto (CCE 1.18 no Decreto 11.816/2023; Lei 14.204/2021, arts. 3º, § 1º, e 6º) (verificacao-f2-defesa-seguranca).
+- [x] Relação "Presidente nomeia Inspetor-Geral da IGPM/BM" (LC 97, art. 7º, parágrafo único; Lei 14.751, art. 28, § 2º), só se houver ato no DOU que confirme; senão, fica no `provimento_nota` (verificacao-f2-defesa-seguranca).
 - [ ] Aplicar a D54 nas entidades das tarefas já verificadas: `forma-lista` nas relações de lista tríplice e sêxtupla hoje `indica`; `acumula` nas funções acumuladas hoje `preside` com `nato` (Vice-Presidente do STM, do STJ, do TRE); `registra` no registro de partido e de candidatura; `classifica` nas autoridades da LAI, art. 27; `eleicao-por-colegio` nos administradores de estatal; `ato-da-mesa` e `ato-conjunto` nas normas hoje `outro`; `politica-publica` nas políticas e planos nacionais hoje `documento`; `orgao-interno` nas corregedorias, ouvidorias, secretarias e escolas do MP, da Defensoria e da AGU hoje `outro`. Cada entidade mudada volta a `coletado` com nota, e a verificação do fechamento confere.
+
+- [ ] Rodada final: colegiado da comissão do orçamento da seguridade (Lei 8.212, art. 8º; decreto de 4/8/1992 sem revogação expressa), mantendo `aviso:comissao-orcamento-seguridade-social-sem-registro`; art. 8º passa a coberto (verificacao-f2-social).
+- [ ] Rodada final: motivos no quadro de f2-social: Lei 8.080, art. 41 (ações seguem com a Associação das Pioneiras Sociais, Lei 8.246/1991, art. 3º); Lei 8.212, art. 5º (o Conselho Nacional da Seguridade Social foi revogado pela MP 2.216-37/2001) (verificacao-f2-social).
 
 ## Propostas de vocabulário (decididas na D54, 2026-11-14)
 
@@ -93,5 +96,8 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - 2026-11-14: D54 decide todas as propostas de vocabulário da lista acima.
 - 2026-11-14: repasses apontados pelas coletas para virar fluxo (MDS→INSS no BPC, União→Fundo do RGPS, FNS→Conass e Conasems, Fundeb→estados e municípios, União→CGIBS, convênios da União com consórcios) ficam para a fase 3, junto com a série de anos dos fluxos (D45); só entram fluxos com recorte que o Tesouro permita somar.
+
+- 2026-11-14: a homologação das decisões dos conselhos de saúde nos arquétipos fica com governador e prefeito: a Lei 8.142/1990, art. 1º, § 2º, diz "chefe do poder legalmente constituído em cada esfera"; o Decreto 5.839/2006 delega ao Ministro só na União.
+- 2026-11-14: artigo que liga o Ministério Público a uma entidade do mapa (fiscaliza o fundo, recebe denúncia) é coberto por relação; artigo que só diz que o MP zela por direitos em geral é fora (D53). Por isso a Lei 14.113, art. 32, fica coberta e a Lei 8.742, art. 31, fora.
 
 ## Diário

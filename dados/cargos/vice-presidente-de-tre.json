@@ -1,0 +1,53 @@
+{
+  "id": "cargo:vice-presidente-de-tre",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente de Tribunal Regional Eleitoral",
+  "resumo": "Segundo cargo de direção de cada TRE, eleito entre os dois desembargadores do tribunal; acumula a função de Corregedor Regional Eleitoral.",
+  "orgao": "org:justica-eleitoral",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 27,
+  "vagas_nota": "Um por TRE.",
+  "provimento_nota": "Eleito pelo TRE entre os dois desembargadores do Tribunal de Justiça que o compõem (CF, art. 120, § 2º; Código Eleitoral, art. 26). Por isso exerce também a Corregedoria Regional (Res. TSE 23.742/2024, art. 9º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "A lei não fixa o mandato; fica limitado ao período do juiz no TRE (dois anos, no máximo dois biênios seguidos; CF, art. 121, § 2º). Os regimentos de cada TRE tratam do resto."
+  },
+  "requisitos": [
+    {
+      "texto": "ser desembargador do Tribunal de Justiça e membro do TRE",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 2º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 120, § 2º; art. 121, § 2º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 26, caput"
+    },
+    {
+      "ref": "norma:resolucao-tse-23742-2024",
+      "dispositivo": "art. 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O Código Eleitoral, art. 26, diz que o TRE elege Presidente e Vice entre 'os três desembargadores'; desde a CF de 1988 o TRE tem dois (art. 120, § 1º, I, a), e a CF, art. 120, § 2º, manda eleger os dois entre os desembargadores. O cargo pertence a cada TRE; aparece no ramo porque são 27 tribunais, como cargo:juiz-de-tre. Ocupantes não pesquisados (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (verificacao-f2-judiciario)"
+  }
+}

@@ -5,7 +5,7 @@
   "relacao": "repassa-recursos",
   "de": "ente:uniao",
   "para": "obj:fundo-do-regime-geral-de-previdencia-social",
-  "condicao": "Com recursos do orçamento fiscal fixados na lei orçamentária, a União cobre as insuficiências da seguridade quando decorrem do pagamento de benefícios da previdência; o Tesouro também repassa todo mês as contribuições sobre faturamento, lucro e concursos de prognósticos destinadas ao orçamento da seguridade.",
+  "condicao": "Com recursos do orçamento fiscal fixados na lei orçamentária, a União cobre as insuficiências da seguridade quando decorrem do pagamento de benefícios da previdência. O Tesouro também repassa todo mês as contribuições sobre faturamento, lucro e concursos de prognósticos, mas ao orçamento da seguridade como um todo, não só à previdência.",
   "fontes": [
     {
       "ref": "norma:lei-8212-1991",
@@ -21,14 +21,16 @@
     }
   ],
   "vigencia": {
-    "de": "1991-07-25",
-    "ate": null
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "Data do fundo do RGPS, criado pela LRF (art. 68), DOU de 5/5/2000; a cobertura das insuficiências vem da Lei 8.212/1991 (art. 16, parágrafo único) e antes ia ao INSS."
   },
   "confianca": "oficial",
   "notas": "O fundo do RGPS só foi criado pela LRF (2000), art. 68; antes, a cobertura ia ao INSS. O fundo recebe recursos do orçamento da União (LRF, art. 68, § 1º, VI); ligar a cobertura da Lei 8.212 ao fundo é leitura nossa. Candidato a fluxo (D45): a base do Tesouro separa a unidade do Fundo do RGPS; o recorte não foi conferido.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; corrigido: vigência começava em 1991, antes do fundo de destino (LRF, 2000); condição deixa claro que o repasse do art. 19 da Lei 8.212 vai ao orçamento da seguridade inteiro"
   }
 }

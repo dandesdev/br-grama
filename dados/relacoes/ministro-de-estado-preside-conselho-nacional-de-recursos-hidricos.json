@@ -1,0 +1,37 @@
+{
+  "id": "rel:ministro-de-estado-preside-conselho-nacional-de-recursos-hidricos",
+  "tipo": "relacao",
+  "nome": "O Ministro da Integração preside o CNRH",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conselho-nacional-de-recursos-hidricos",
+  "orgao_exercicio": "org:ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "condicao": "Nas ausências, é substituído pelo Secretário-Executivo do Conselho, que é o Secretário Nacional de Segurança Hídrica do ministério.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9433-1997",
+      "dispositivo": "art. 36, I (redação da Lei 14.600/2023, art. 61)"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 61"
+    },
+    {
+      "ref": "norma:decreto-11960-2024",
+      "dispositivo": "art. 3º, §§ 1º e 3º; art. 5º, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação da Lei 14.600/2023, que deu a presidência ao Ministro da Integração. Antes, a MP 1.154/2023 a dava ao Ministro do Meio Ambiente; a data exata da transição não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 com org:conselho-nacional-de-recursos-hidricos"
+  }
+}

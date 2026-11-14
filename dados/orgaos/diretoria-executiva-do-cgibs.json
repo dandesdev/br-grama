@@ -4,7 +4,7 @@
   "nome": "Diretoria Executiva do CGIBS",
   "resumo": "Órgão técnico e executivo do Comitê Gestor do IBS, chefiado pelo Diretor-Executivo e formado pelos titulares de nove diretorias.",
   "detalhes": "Planeja e supervisiona a regulamentação, a arrecadação e a distribuição do IBS, o cadastro, os documentos fiscais, o contencioso administrativo e a cobrança; prepara para o Conselho Superior as minutas, a estimativa de receita, a proposta orçamentária e a prestação de contas; e coordena a devolução do IBS às famílias de baixa renda (LC 227/2026, art. 27). Subordina-se ao Conselho Superior, que pode avocar suas competências e rever suas decisões (arts. 11, XXI, e 25).",
-  "tipo_orgao": "colegiado",
+  "tipo_orgao": "orgao-interno",
   "poder": "executivo",
   "esfera": "nacional",
   "contido_em": "org:conselho-superior-do-cgibs",
@@ -39,8 +39,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: tipo_orgao orgao-interno (D54)"
   }
 }

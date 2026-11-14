@@ -1,0 +1,51 @@
+{
+  "id": "cargo:corregedor-regional-eleitoral",
+  "tipo": "cargo",
+  "nome": "Corregedor Regional Eleitoral",
+  "resumo": "Função exercida pelo Vice-Presidente de cada TRE: fiscaliza os serviços eleitorais nas zonas do estado e cuida da disciplina dos juízes eleitorais.",
+  "detalhes": "Faz inspeções e correições nas zonas eleitorais, recebe reclamações disciplinares contra juízes eleitorais, abre sindicância ou propõe ao Plenário do TRE processo administrativo disciplinar e expede provimentos que vinculam os juízes eleitorais. Nas eleições de governador, senador e deputados, relata a ação de investigação judicial eleitoral (AIJE). Segue os provimentos da Corregedoria-Geral Eleitoral.",
+  "orgao": "org:justica-eleitoral",
+  "provimento": "nato",
+  "vagas": 27,
+  "vagas_nota": "Um por TRE.",
+  "provimento_nota": "Não há eleição própria: a função cabe ao desembargador que ocupa a Vice-Presidência do TRE (Res. TSE 23.742/2024, art. 9º). As atribuições são fixadas pelo TSE e, de modo supletivo, pelo TRE (Código Eleitoral, art. 26, § 1º).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Acompanha o mandato de Vice-Presidente do TRE."
+  },
+  "requisitos": [
+    {
+      "texto": "ser o Vice-Presidente do TRE",
+      "fontes": [
+        {
+          "ref": "norma:resolucao-tse-23742-2024",
+          "dispositivo": "art. 9º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 17, § 3º; art. 26, §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:resolucao-tse-23742-2024",
+      "dispositivo": "arts. 1º a 3º, 9º a 11"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-06-03",
+    "ate": null,
+    "nota": "Acumulação pelo Vice-Presidente desde a Res. TSE 23.742/2024 (DJE-TSE de 3/6/2024). Antes, o Código Eleitoral, art. 26, dava a função ao terceiro desembargador, que o TRE não tem desde a CF de 1988 (ver aviso:corregedor-regional-eleitoral-terceiro-desembargador, encerrado)."
+  },
+  "confianca": "oficial",
+  "notas": "Provimento 'nato' com a relação 'acumula' (D54), como cargo:corregedor-geral-da-justica-federal. Cargo de cada TRE, posto no ramo (D51), como cargo:juiz-de-tre. A Res. TSE 23.742 foi lida na cópia do Wayback de 19/10/2026 (pesquisa/brutos/tse/2026-11-11-verificacao-f2-judiciario/).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (verificacao-f2-judiciario: Código Eleitoral, art. 26, de parcial a coberto)"
+  }
+}

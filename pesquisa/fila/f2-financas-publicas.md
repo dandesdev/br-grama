@@ -90,7 +90,7 @@ Vetado por inteiro (fora da conta): art. 10. Conta: 115 artigos vigentes; cobert
 | art. 2º | coberto | obj:limites-de-despesa-com-pessoal (receita corrente líquida, inciso IV) |
 | art. 4º | coberto | obj:ldo; proc:ciclo-orcamentario (etapa ldo-elaboracao) |
 | art. 5º | coberto | obj:loa; proc:ciclo-orcamentario (etapa loa-elaboracao) |
-| art. 7º | fora | resultado e balanços do Banco Central na relação com o Tesouro (regra contábil, sem órgão, cargo nem etapa) |
+| art. 7º | coberto | revisto em f2-fechamento (D53: o artigo move dinheiro entre duas entidades do mapa): rel:banco-central-repassa-recursos-uniao (caput), rel:uniao-repassa-recursos-banco-central (§ 1º), com a Lei 13.820/2019; os §§ 2º e 3º (demonstrativos e notas dos balanços) são regra contábil |
 | art. 8º | coberto | proc:execucao-da-despesa (etapa programacao-financeira) |
 | art. 9º | coberto | proc:execucao-da-despesa (etapa limitacao-de-empenho); proc:ciclo-orcamentario (etapa avaliacao-das-metas-fiscais); rel:ministro-da-fazenda-presta-contas-a-cmo; rel:banco-central-presta-contas-a-congresso-nacional |
 | art. 10 | coberto | proc:pagamento-de-precatorio (fonte acrescentada) |
@@ -137,7 +137,7 @@ Vetado por inteiro (fora da conta): art. 10. Conta: 115 artigos vigentes; cobert
 | art. 74 | coberto | norma:lc-101-2000 (vigência) |
 | art. 75 | fora | cláusula revogatória |
 
-Vetados por inteiro (fora da conta): arts. 3º, 6º, 26-A e 41. Conta: 79 artigos vigentes; coberto 59, fora 20, parcial 0, lacuna 0; cobertura = 100,0%.
+Vetados por inteiro (fora da conta): arts. 3º, 6º, 26-A e 41. Conta: 79 artigos vigentes; coberto 59, fora 20, parcial 0, lacuna 0; cobertura = 100,0%. Conta revista em f2-fechamento (2026-11-14): art. 7º passa de fora a coberto; coberto 60, fora 19; cobertura = 100,0%.
 
 ### Lei 10.180/2001 (sistemas federais de planejamento e orçamento, administração financeira, contabilidade e controle interno)
 

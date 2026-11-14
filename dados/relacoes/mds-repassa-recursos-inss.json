@@ -13,15 +13,16 @@
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "1998-12-01",
     "ate": null,
-    "nota": "Parágrafo incluído pela Lei 9.720/1998 (de 30/11/1998, segundo a marca do Planalto no art. 21); data de publicação não conferida."
+    "nota": "Parágrafo único do art. 29 incluído pela Lei 9.720/1998, de 30/11/1998, publicada no DOU de 1º/12/1998 e em vigor na publicação (art. 6º)."
   },
   "confianca": "oficial",
   "notas": "A lei ainda nomeia o 'Ministério da Previdência e Assistência Social'; a área é hoje do MDS. Candidato a fluxo (D45): na base do Tesouro, o BPC aparece como ação do Fundo Nacional de Assistência Social; o recorte não foi conferido.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; vigência preenchida: Lei 9.720/1998, DOU de 1º/12/1998"
   }
 }

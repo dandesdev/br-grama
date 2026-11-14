@@ -10,6 +10,11 @@
     {
       "ref": "norma:lc-227-2026",
       "dispositivo": "art. 11, I; art. 12, VI"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 10",
+      "nota": "Quórum; acrescentado na revisão."
     }
   ],
   "vigencia": {
@@ -19,8 +24,13 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: quórum do art. 10 acrescentado"
+  },
+  "quorum": {
+    "regra": "outro",
+    "nota": "Como toda deliberação do Conselho Superior: maioria absoluta dos representantes dos estados e do DF, que somem mais de 50% da população do país, e maioria absoluta dos representantes dos municípios e do DF (LC 227/2026, art. 10)."
   }
 }

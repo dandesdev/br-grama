@@ -4,7 +4,7 @@
   "nome": "Conselho Nacional de Assistência Social",
   "sigla": "CNAS",
   "resumo": "Colegiado paritário que aprova a política nacional de assistência social, normatiza os serviços do setor e acompanha o Fundo Nacional de Assistência Social.",
-  "detalhes": "Tem 18 membros nomeados pelo Presidente da República, com mandato de dois anos e uma recondução: nove do governo (inclusive um dos estados e um dos municípios) e nove da sociedade civil (usuários, entidades e trabalhadores do setor). Elege seu presidente para mandato de um ano. Convoca a cada quatro anos a Conferência Nacional de Assistência Social. Também aprova a proposta orçamentária da assistência social e os critérios de partilha dos recursos federais, e recebe do ministério relatórios trimestrais e anuais da execução.",
+  "detalhes": "Tem 18 membros nomeados pelo Presidente da República, com mandato de dois anos e uma recondução: nove do governo (inclusive um dos estados e um dos municípios) e nove da sociedade civil (usuários, entidades e trabalhadores do setor). Elege seu presidente para mandato de um ano. Convoca a cada quatro anos a Conferência Nacional de Assistência Social. Também aprova a proposta orçamentária da assistência social e os critérios de partilha dos recursos federais, e recebe do ministério relatórios trimestrais e anuais da execução. Por maioria absoluta, pode propor ao Poder Executivo mudar os limites de renda do benefício de prestação continuada e dos benefícios eventuais.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "federal",
@@ -31,7 +31,7 @@
     },
     {
       "ref": "norma:lei-8742-1993",
-      "dispositivo": "art. 7º; arts. 16 a 18; art. 19, II, VII, XIII e XIV"
+      "dispositivo": "art. 7º; arts. 16 a 18; art. 19, II, VII, XIII e XIV; art. 39"
     }
   ],
   "vigencia": {
@@ -42,9 +42,9 @@
   "confianca": "oficial",
   "notas": "Membros e presidente em 2026-10-01 não pesquisados. As conferências de assistência social estão em org:conferencias-de-assistencia-social (f2-social).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social",
-    "notas": "f2-social: fontes ganharam a Lei 8.742/1993, arts. 7º e 19, II, VII, XIII e XIV; detalhes, a aprovação do orçamento e dos critérios de partilha (art. 18, VIII e IX) e os relatórios do ministério; nota sobre as conferências atualizada"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; detalhes ganharam a proposta de mudança dos limites de renda do BPC e dos benefícios eventuais (Lei 8.742, art. 39, maioria absoluta), que liga o CNAS ao Executivo e estava como fora no quadro"
   }
 }

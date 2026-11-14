@@ -4,7 +4,7 @@
   "nome": "Eleição de membros do Conselho da República pela Câmara",
   "relacao": "elege",
   "de": "org:camara-dos-deputados",
-  "para": "org:conselho-da-republica",
+  "para": "cargo:membro-cidadao-do-conselho-da-republica",
   "condicao": "Elege dois dos seis cidadãos brasileiros natos, maiores de 35 anos, que integram o Conselho, com mandato de três anos, vedada a recondução.",
   "vigencia": {
     "de": "1988-10-05",
@@ -17,11 +17,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "org:conselho-da-republica é id da tarefa f0-executivo. O alvo é o órgão porque não há cargo modelado para os membros cidadãos.",
+  "notas": "O alvo era org:conselho-da-republica até a criação do cargo de membro cidadão; o id ficou o mesmo.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-legislativo",
-    "notas": "coletado em f0-legislativo"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: 'para' trocado de org:conselho-da-republica para cargo:membro-cidadao-do-conselho-da-republica (sugestão de verificacao-f2-legislativo-tcu); id mantido; antes verificado em verificacao-f0-legislativo"
   }
 }

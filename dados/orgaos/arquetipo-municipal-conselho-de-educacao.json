@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Conselho Municipal de Educação",
   "resumo": "Colegiado normativo do sistema de ensino do município, com representantes do poder público e da sociedade civil; suas normas dependem de homologação do Executivo.",
-  "detalhes": "É criado por lei do município, com autonomia técnico-pedagógica, administrativa e financeira, e tem função normativa e de assessoramento técnico ao Executivo. O presidente é eleito pelos pares. Só existe onde o município mantém sistema próprio de ensino; pode abrigar, como câmara, o conselho municipal do Fundeb.",
+  "detalhes": "É criado por lei do município, com autonomia técnico-pedagógica, administrativa e financeira, e tem função normativa e de assessoramento técnico ao Executivo. O presidente é eleito pelos pares. Nem todo município tem o seu (a lei do Fundeb fala em conselho municipal de educação \"quando houver\"); pode abrigar, como câmara, o conselho municipal do Fundeb.",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "municipal",
@@ -28,7 +28,7 @@
     },
     {
       "ref": "norma:lc-220-2025",
-      "dispositivo": "art. 15, IV, e §§ 1º a 3º e 6º"
+      "dispositivo": "art. 15, IV, e §§ 1º a 4º e 6º"
     },
     {
       "ref": "norma:lei-14113-2020",
@@ -43,8 +43,9 @@
   "confianca": "oficial",
   "notas": "A LDB fala em baixar normas complementares para o sistema (arts. 10, V, e 11, III) sem nomear o órgão; o nome e o papel de instância normativa vêm da LC 220/2025, art. 15. Composição e atribuições variam conforme a lei de cada ente; não levantadas. Quantos municípios têm conselho próprio não foi levantado.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; corrigido: \"só existe onde o município mantém sistema próprio\" não tem fonte; trocado pelo \"quando houver\" da Lei 14.113, art. 34, § 1º, I; fonte da LC 220 ganhou o art. 15, § 4º (câmara do Fundeb)"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "rel:ana-auxilia-conselho-nacional-de-recursos-hidricos",
+  "tipo": "relacao",
+  "nome": "A ANA presta assistência técnica ao CNRH",
+  "relacao": "auxilia",
+  "de": "org:ana",
+  "para": "org:conselho-nacional-de-recursos-hidricos",
+  "condicao": "Presta assistência técnica ao Conselho, em articulação com a Secretaria-Executiva, e participa do Plenário e das Câmaras Técnicas sem direito a voto.",
+  "fontes": [
+    {
+      "ref": "norma:decreto-11960-2024",
+      "dispositivo": "art. 5º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-03-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de publicação do Decreto 11.960/2024, a base citada. O decreto anterior (10.000/2019) pode ter regra igual; não conferimos."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 com org:conselho-nacional-de-recursos-hidricos"
+  }
+}

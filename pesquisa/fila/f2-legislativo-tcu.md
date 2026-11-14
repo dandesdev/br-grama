@@ -71,7 +71,9 @@ Classificação por artigo vigente (D49). Os regimentos foram classificados por 
 | arts. 60, 61 e 61-A | parcial | fiscalização e controle pelas comissões: competência no detalhes das comissões (art. 24, IX a XI); o rito da proposta de fiscalização e controle não é processo próprio |
 | arts. 62 a 64 | fora | impedimentos, vagas, reuniões, prazos e atas das comissões: detalhe de tramitação |
 | arts. 65 a 71, 73 a 83 e 85 a 99 | fora | sessões do Plenário, questões de ordem, reclamações e ata: detalhe de tramitação |
-| arts. 100 a 108 | fora | proposições, requerimentos, emendas, pareceres e distribuição: detalhe de tramitação |
+| arts. 100 a 104 | fora | proposições, requerimentos, emendas, pareceres e distribuição: detalhe de tramitação |
+| art. 105 | coberto | proc:lei-ordinaria, etapa arquivamento-fim-da-legislatura (reclassificado em f2-fechamento) |
+| arts. 106 a 108 | fora | proposições, requerimentos, emendas, pareceres e distribuição: detalhe de tramitação |
 | art. 109 | coberto | proc:lei-ordinaria, proc:lei-complementar, proc:decreto-legislativo, proc:resolucao (iniciativa) |
 | arts. 110 a 114 | fora | proposições, requerimentos, emendas, pareceres e distribuição: detalhe de tramitação |
 | arts. 115 e 116 | coberto | rel:camara-convoca-ministro-de-estado |
@@ -96,9 +98,10 @@ Classificação por artigo vigente (D49). Os regimentos foram classificados por 
 | arts. 201 a 203 | coberto | proc:emenda-constitucional |
 | art. 204 | coberto | proc:lei-ordinaria, regime urgencia-constitucional |
 | arts. 205 a 211 | parcial | rito especial dos projetos de código (comissão especial e prazos próprios): não há regime próprio em proc:lei-ordinaria |
-| arts. 212 a 214 | fora | consolidação, matérias periódicas, reforma do regimento e comparecimento de ministro: detalhe de tramitação |
+| arts. 212 e 213 | parcial | rito dos projetos de consolidação (Grupo de Trabalho de Consolidação das Leis, CCJC, vedação de alterar o mérito): não há regime próprio em proc:lei-ordinaria, como nos projetos de código (reclassificado em f2-fechamento) |
+| art. 214 | fora | matérias periódicas: detalhe de tramitação |
 | art. 215 | coberto | rel:camara-toma-contas-presidente; aviso:ricd-tomada-de-contas-cft-ou-cffc |
-| art. 216 | fora | consolidação, matérias periódicas, reforma do regimento e comparecimento de ministro: detalhe de tramitação |
+| art. 216 | coberto | proc:resolucao (reforma do Regimento: iniciativa, comissões e Mesa, dois turnos), como o RISF, art. 401 (reclassificado em f2-fechamento) |
 | arts. 217 e 218 | coberto | proc:crime-de-responsabilidade-do-presidente |
 | arts. 219 a 221 | coberto | rel:camara-convoca-ministro-de-estado |
 | arts. 222 e 223 | fora | consolidação, matérias periódicas, reforma do regimento e comparecimento de ministro: detalhe de tramitação |
@@ -109,7 +112,8 @@ Classificação por artigo vigente (D49). Os regimentos foram classificados por 
 | art. 240 | coberto | proc:perda-de-mandato-parlamentar |
 | arts. 241 e 242 | fora | exercício do mandato, licença, vacância, suplência, decoro e prisão: direitos e deveres individuais dos deputados |
 | art. 243 | coberto | requisitos dos cargos de Ouvidor-Geral, Corregedor e Procuradora da Mulher |
-| arts. 244, 250 e 251 | fora | exercício do mandato, licença, vacância, suplência, decoro e prisão: direitos e deveres individuais dos deputados |
+| art. 244 | fora | exercício do mandato, licença, vacância, suplência, decoro e prisão: direitos e deveres individuais dos deputados |
+| arts. 250 e 251 | coberto | rel:camara-delibera-sobre-prisao-de-deputado (CF, art. 53, § 2º; reclassificado em f2-fechamento) |
 | art. 252 | coberto | proc:lei-ordinaria (iniciativa popular) |
 | arts. 253 a 261 | fora | petições, audiências públicas e credenciamento: participação da sociedade sem órgão nem etapa |
 | art. 262 | coberto | org:diretoria-geral-da-camara; rel:camara-presta-contas-a-tcu |
@@ -124,7 +128,7 @@ Classificação por artigo vigente (D49). Os regimentos foram classificados por 
 | arts. 275, 276 e 278 | coberto | org:centro-de-estudos-e-debates-estrategicos-da-camara, org:consultoria-legislativa-da-camara |
 | arts. 279, 280, 280-A, 281 e 282 | fora | disposições finais (numeração das legislaturas, contagem de prazos, Diário) |
 
-Total: 312 artigos vigentes (320 numerados, menos os arts. 72, 84, 245 a 249 e 277, revogados; o Código de Ética anexo não entra); coberto 120, parcial 14, lacuna 0, fora 178. Cobertura (coberto + fora) / total = 95,5%.
+Total: 312 artigos vigentes (320 numerados, menos os arts. 72, 84, 245 a 249 e 277, revogados; o Código de Ética anexo não entra); coberto 120, parcial 14, lacuna 0, fora 178. Cobertura (coberto + fora) / total = 95,5%. Em f2-fechamento (2026-11-14), arts. 105, 216, 250 e 251 passaram de fora a coberto e arts. 212 e 213 de fora a parcial: coberto 124, parcial 16, fora 172; cobertura 94,9%.
 
 ### RISF (Resolução do Senado nº 93/1970)
 
@@ -179,7 +183,8 @@ Total: 312 artigos vigentes (320 numerados, menos os arts. 72, 84, 245 a 249 e 2
 | art. 291 | coberto | proc:perda-de-mandato-parlamentar |
 | arts. 292 a 327 | fora | proposições, requerimentos, emendas, discussão, votação, preferência, destaque e redação: detalhe de tramitação |
 | art. 328 | coberto | proc:lei-ordinaria (redação final) |
-| arts. 329 a 332, 334 e 335 | fora | proposições, requerimentos, emendas, discussão, votação, preferência, destaque e redação: detalhe de tramitação |
+| arts. 329 a 331, 334 e 335 | fora | proposições, requerimentos, emendas, discussão, votação, preferência, destaque e redação: detalhe de tramitação |
+| art. 332 | coberto | proc:lei-ordinaria, etapa arquivamento-fim-da-legislatura (reclassificado em f2-fechamento) |
 | arts. 336 a 338 | coberto | proc:lei-ordinaria, regime urgencia-regimental-senado |
 | arts. 339 a 344 | fora | proposições, requerimentos, emendas, discussão, votação, preferência, destaque e redação: detalhe de tramitação |
 | art. 345 | coberto | proc:lei-ordinaria, regime urgencia-regimental-senado |
@@ -203,7 +208,7 @@ Total: 312 artigos vigentes (320 numerados, menos os arts. 72, 84, 245 a 249 e 2
 | art. 401 | coberto | proc:resolucao (reforma do Regimento) |
 | arts. 402 a 413 | fora | questões de ordem, documentos sigilosos e princípios gerais do processo legislativo |
 
-Total: 442 artigos vigentes (448 numerados, menos os arts. 63, 104-E, 160, 223, 333 e 370, revogados); coberto 121, parcial 16, lacuna 0, fora 305. Cobertura (coberto + fora) / total = 96,4%.
+Total: 442 artigos vigentes (448 numerados, menos os arts. 63, 104-E, 160, 223, 333 e 370, revogados); coberto 121, parcial 16, lacuna 0, fora 305. Cobertura (coberto + fora) / total = 96,4%. Em f2-fechamento (2026-11-14), art. 332 passou de fora a coberto: coberto 122, fora 304.
 
 ### RCCN (Resolução nº 1/1970-CN)
 
@@ -211,7 +216,9 @@ Total: 442 artigos vigentes (448 numerados, menos os arts. 63, 104-E, 160, 223, 
 |---|---|---|
 | art. 1º | coberto | proc:emenda-constitucional, proc:lei-ordinaria, proc:lei-delegada, rel:congresso-nacional-delibera-resolucao (sessões conjuntas) |
 | arts. 2º e 3º | fora | convocação e local das sessões conjuntas: detalhe |
-| arts. 4º a 8º | fora | uso da palavra pelas lideranças em sessão conjunta: as lideranças já estão modeladas em cada Casa |
+| arts. 4º e 5º | coberto | org:liderancas-do-congresso-nacional, cargos de Líder do Governo, da Minoria, da Oposição e da Maioria no Congresso Nacional, rel:presidente-da-republica-indica-lider-do-governo-no-congresso (reclassificado em f2-fechamento) |
+| arts. 6º e 7º | fora | uso da palavra pelos líderes em sessão conjunta: detalhe de tramitação |
+| art. 8º | coberto | substituição do líder pelo vice-líder: cargos de líder do Congresso Nacional (reclassificado em f2-fechamento) |
 | arts. 9º, 10 e 10-A | coberto | org:comissoes-mistas-do-congresso-nacional; número de membros da CMO, da CMMC, da CMCVM e da CMMIR |
 | arts. 10-B e 11 a 20 | fora | funcionamento das comissões mistas: detalhe de tramitação |
 | art. 21 | coberto | org:cpmis-do-congresso-nacional, proc:comissao-parlamentar-de-inquerito |
@@ -232,7 +239,7 @@ Total: 442 artigos vigentes (448 numerados, menos os arts. 63, 104-E, 160, 223, 
 | arts. 148 e 149 | fora | vigência expirada (transição esgotada) |
 | arts. 150 a 152 | fora | publicações, galerias, despesas e vigência: detalhe |
 
-Total: 123 artigos vigentes (160 numerados, menos 37 revogados pela CF de 1988 e por resoluções; os arts. 148 e 149, de vigência expirada, entram como fora); coberto 27, parcial 0, lacuna 0, fora 96. Cobertura (coberto + fora) / total = 100,0%.
+Total: 123 artigos vigentes (160 numerados, menos 37 revogados pela CF de 1988 e por resoluções; os arts. 148 e 149, de vigência expirada, entram como fora); coberto 27, parcial 0, lacuna 0, fora 96. Cobertura (coberto + fora) / total = 100,0%. Em f2-fechamento (2026-11-14), arts. 4º, 5º e 8º passaram de fora a coberto: coberto 30, fora 93.
 
 ### Resolução nº 1/2006-CN (CMO)
 

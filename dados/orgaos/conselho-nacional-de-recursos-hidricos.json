@@ -1,0 +1,62 @@
+{
+  "id": "org:conselho-nacional-de-recursos-hidricos",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Recursos Hídricos",
+  "sigla": "CNRH",
+  "resumo": "Colegiado consultivo e deliberativo do Ministério da Integração, presidido pelo Ministro, que formula a Política Nacional de Recursos Hídricos e arbitra conflitos entre conselhos estaduais.",
+  "detalhes": "Integra o Sistema Nacional de Gerenciamento de Recursos Hídricos. Articula o planejamento de recursos hídricos com os planos nacional, regionais e setoriais, arbitra em última instância administrativa os conflitos entre conselhos estaduais, delibera sobre projetos cujas repercussões ultrapassem um estado, aprova a criação de comitês de bacia, aprova e acompanha o Plano Nacional de Recursos Hídricos, fixa critérios gerais de outorga e de cobrança pelo uso da água e cuida da Política Nacional de Segurança de Barragens (Lei 9.433/1997, art. 35). Tem 50 membros: 25 de ministérios, 10 de conselhos estaduais e distrital, 8 de setores usuários e 7 de organizações civis, designados pelo Ministro para mandato de quatro anos; a ANA participa sem voto (Decreto 11.960/2024, arts. 3º e 5º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11960-2024",
+          "dispositivo": "art. 1º, caput"
+        },
+        {
+          "ref": "norma:lei-9433-1997",
+          "dispositivo": "arts. 36 e 45 (redação da Lei 14.600/2023, art. 61)"
+        }
+      ],
+      "nota": "O Decreto 11.960/2024 diz que o CNRH integra a estrutura regimental do Ministério da Integração. A estrutura regimental do ministério (Decreto 12.504/2025, Anexo I, art. 2º, III) não o lista entre os colegiados; como na omissão da ANA (decisão do coordenador de 2026-11-03), não abrimos aviso: a lei e o decreto próprio dão a posição."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9433-1997",
+      "dispositivo": "art. 33, I; arts. 34 a 36; arts. 45 e 46"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 61"
+    },
+    {
+      "ref": "norma:decreto-11960-2024",
+      "dispositivo": "art. 1º; art. 2º; art. 3º; art. 5º; art. 7º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-11960-2024",
+      "dispositivo": "arts. 2º e 10",
+      "nota": "Plenário, Secretaria-Executiva, sete Câmaras Técnicas permanentes e Comissão Permanente de Ética"
+    }
+  ],
+  "vigencia": {
+    "de": "1997-01-09",
+    "ate": null,
+    "nota": "Criado pela Lei 9.433/1997 (art. 33, I), em vigor na publicação (DOU de 9/1/1997). A presidência passou ao Ministro da Integração e do Desenvolvimento Regional com a Lei 14.600/2023 (art. 61), em vigor em 20/6/2023."
+  },
+  "confianca": "oficial",
+  "notas": "Contagem dos 50 membros feita por nós a partir dos incisos do Decreto 11.960/2024, art. 3º: I (2), II a XII (11), XIII (2), XIV (2), XV a XXII (8) = 25 federais; XXIII (10); XXIV (8); XXV (7). O limite da Lei 9.433, art. 34, parágrafo único (federais até metade mais um), é respeitado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado no fechamento da fase 2 (lacuna de f2-executivo, Lei 14.600, art. 61)"
+  }
+}

@@ -12,7 +12,7 @@
         "org:ministerio-da-saude"
       ],
       "acao": "Pedido de incorporação, exclusão ou alteração é protocolado, com documentos e estudos",
-      "detalhes": "Qualquer interessado (empresa, sociedade médica, órgão do próprio SUS) pode pedir. O pedido traz as evidências de eficácia e segurança e a avaliação econômica exigidas pela lei. O ator é o Ministério da Saúde, que recebe e processa o pedido; quem pede não é nó do mapa.",
+      "detalhes": "Qualquer interessado pode pedir; a criação ou mudança de protocolo clínico também pode partir das áreas do Ministério ou da própria Conitec. O pedido traz as evidências de eficácia e segurança, a avaliação econômica e a análise de impacto orçamentário. O ator é o Ministério da Saúde, que recebe e processa o pedido; quem pede não é nó do mapa.",
       "fontes": [
         {
           "ref": "norma:lei-8080-1990",
@@ -20,7 +20,7 @@
         },
         {
           "ref": "norma:decreto-7646-2011",
-          "dispositivo": "art. 15, I"
+          "dispositivo": "art. 15, I, e §§ 1º e 1º-A"
         }
       ],
       "seguintes": [
@@ -197,8 +197,9 @@
   "confianca": "oficial",
   "notas": "Etapas do Decreto 7.646/2011, art. 15, na redação dos Decretos 11.161/2022 e 12.716/2025. A prioridade para câncer é da Lei 14.758/2023 (art. 19-R, § 3º). O detalhe do procedimento cabe a ato do Ministro da Saúde (art. 15, caput), não lido.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; etapa requerimento: tirados os exemplos de requerentes (sem fonte) e acrescidos o impacto orçamentário e a iniciativa do Ministério ou da Conitec nos protocolos (Decreto 7.646/2011, art. 15, § 1º, VII, e § 1º-A); demais etapas conferidas"
   }
 }

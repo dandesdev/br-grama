@@ -4,10 +4,10 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 
 | Lei | Tarefa | Coberto | Parcial | Lacuna | Fora | Total | Cobertura |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Lei 8.112/1990 (regime jurídico dos servidores civis da União) | f2-administracao | 74 | 0 | 0 | 171 | 245 | 100,0% |
+| Lei 8.112/1990 (regime jurídico dos servidores civis da União) | f2-administracao | 75 | 0 | 0 | 170 | 245 | 100,0% |
 | Lei 9.784/1999 (processo administrativo federal) | f2-administracao | 56 | 0 | 0 | 23 | 79 | 100,0% |
 | Lei 12.527/2011 (Lei de Acesso à Informação) | f2-administracao | 27 | 0 | 0 | 22 | 49 | 100,0% |
-| Lei 13.303/2016 (estatuto das empresas estatais) | f2-administracao | 42 | 0 | 0 | 55 | 97 | 100,0% |
+| Lei 13.303/2016 (estatuto das empresas estatais) | f2-administracao | 43 | 0 | 0 | 54 | 97 | 100,0% |
 | Lei 12.813/2013 (conflito de interesses) | f2-administracao | 7 | 0 | 0 | 5 | 12 | 100,0% |
 | LC 97/1999 (organização, preparo e emprego das Forças Armadas) | f2-defesa-seguranca | 22 | 0 | 0 | 4 | 26 | 100,0% |
 | Lei 9.883/1999 (Sistema Brasileiro de Inteligência e ABIN) | f2-defesa-seguranca | 14 | 0 | 0 | 2 | 16 | 100,0% |
@@ -21,8 +21,8 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 9.096/1995 (Lei dos Partidos Políticos) | f2-eleicoes | 40 | 0 | 0 | 29 | 69 | 100,0% |
 | LC 64/1990 (Lei das Inelegibilidades) | f2-eleicoes | 27 | 0 | 0 | 5 | 32 | 100,0% |
 | Lei 9.709/1998 (plebiscito, referendo e iniciativa popular) | f2-eleicoes | 15 | 0 | 0 | 0 | 15 | 100,0% |
-| Lei 14.600/2023 | f2-executivo | 61 | 0 | 1 | 18 | 80 | 98,8% |
-| Decreto-Lei 200/1967 | f2-executivo | 14 | 3 | 1 | 167 | 185 | 97,8% |
+| Lei 14.600/2023 | f2-executivo | 62 | 0 | 0 | 18 | 80 | 100,0% |
+| Decreto-Lei 200/1967 | f2-executivo | 18 | 0 | 0 | 167 | 185 | 100,0% |
 | Lei 13.848/2019 | f2-executivo | 42 | 0 | 0 | 10 | 52 | 100,0% |
 | Lei 9.986/2000 | f2-executivo | 10 | 0 | 0 | 16 | 26 | 100,0% |
 | Lei 11.107/2005 (consórcios públicos) | f2-federacao | 17 | 0 | 0 | 5 | 22 | 100,0% |
@@ -33,7 +33,7 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | LC 227/2026, arts. 1º a 53 (CGIBS) e 103 a 131 (distribuição do IBS) | f2-federacao | 80 | 0 | 0 | 2 | 82 | 100,0% |
 | LC 214/2025, arts. 318 a 323 (harmonização com a CBS) e 480 a 484 (CGIBS provisório e instalação) | f2-federacao | 12 | 0 | 0 | 0 | 12 | 100,0% |
 | Lei 4.320/1964 (normas gerais de direito financeiro) | f2-financas-publicas | 64 | 0 | 0 | 51 | 115 | 100,0% |
-| LC 101/2000 (Lei de Responsabilidade Fiscal) | f2-financas-publicas | 59 | 0 | 0 | 20 | 79 | 100,0% |
+| LC 101/2000 (Lei de Responsabilidade Fiscal) | f2-financas-publicas | 60 | 0 | 0 | 19 | 79 | 100,0% |
 | Lei 10.180/2001 (sistemas federais de planejamento e orçamento, administração financeira, contabilidade e controle interno) | f2-financas-publicas | 30 | 0 | 0 | 11 | 41 | 100,0% |
 | LC 200/2023 (regime fiscal sustentável) | f2-financas-publicas | 17 | 0 | 0 | 2 | 19 | 100,0% |
 | LC 75/1993 (Estatuto do Ministério Público da União) | f2-funcoes-essenciais | 223 | 0 | 0 | 63 | 286 | 100,0% |
@@ -50,9 +50,9 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei nº 11.697/2008 (organização judiciária do DF e dos Territórios) | f2-judiciario | 54 | 0 | 0 | 36 | 90 | 100,0% |
 | RISTF (Regimento Interno do STF, edição atualizada até a ER 58/2022) | f2-judiciario | 35 | 0 | 0 | 363 | 398 | 100,0% |
 | RISTJ (Regimento Interno do STJ, edição atualizada até a ER 54/2026) | f2-judiciario | 54 | 0 | 0 | 372 | 426 | 100,0% |
-| RICD (Resolução da Câmara nº 17/1989) | f2-legislativo-tcu | 120 | 14 | 0 | 178 | 312 | 95,5% |
-| RISF (Resolução do Senado nº 93/1970) | f2-legislativo-tcu | 121 | 16 | 0 | 305 | 442 | 96,4% |
-| RCCN (Resolução nº 1/1970-CN) | f2-legislativo-tcu | 27 | 0 | 0 | 96 | 123 | 100,0% |
+| RICD (Resolução da Câmara nº 17/1989) | f2-legislativo-tcu | 124 | 16 | 0 | 172 | 312 | 94,9% |
+| RISF (Resolução do Senado nº 93/1970) | f2-legislativo-tcu | 122 | 16 | 0 | 304 | 442 | 96,4% |
+| RCCN (Resolução nº 1/1970-CN) | f2-legislativo-tcu | 30 | 0 | 0 | 93 | 123 | 100,0% |
 | Resolução nº 1/2006-CN (CMO) | f2-legislativo-tcu | 42 | 0 | 0 | 122 | 164 | 100,0% |
 | Lei nº 8.443/1992 (Lei Orgânica do TCU) | f2-legislativo-tcu | 87 | 0 | 0 | 23 | 110 | 100,0% |
 | Lei 9.868/1999 (ADI, ADC e ADO) | f2-processos-constitucionais | 35 | 0 | 0 | 3 | 38 | 100,0% |
@@ -65,10 +65,10 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 67 | 0 | 0 | 20 | 87 | 100,0% |
 | Lei 8.080/1990 (Lei Orgânica da Saúde) | f2-social | 42 | 0 | 0 | 36 | 78 | 100,0% |
 | Lei 8.142/1990 (participação da comunidade e transferências no SUS) | f2-social | 6 | 0 | 0 | 1 | 7 | 100,0% |
-| Lei 8.742/1993 (Lei Orgânica da Assistência Social) | f2-social | 33 | 0 | 0 | 35 | 68 | 100,0% |
+| Lei 8.742/1993 (Lei Orgânica da Assistência Social) | f2-social | 34 | 0 | 0 | 34 | 68 | 100,0% |
 | Lei 9.394/1996 (Lei de Diretrizes e Bases da Educação) | f2-social | 19 | 0 | 0 | 98 | 117 | 100,0% |
 | Lei 14.113/2020 (Fundeb) | f2-social | 32 | 0 | 0 | 26 | 58 | 100,0% |
 | Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
 | Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 6039 artigos classificados; cobertura 99,3% (7 em lacuna, 34 parciais).
+Total: 6039 artigos classificados; cobertura 99,4% (5 em lacuna, 33 parciais).

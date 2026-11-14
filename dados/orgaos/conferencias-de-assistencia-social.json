@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Conferências de Assistência Social",
   "resumo": "Reuniões periódicas, nacional, estaduais, distrital e municipais, que avaliam a assistência social e propõem diretrizes para o Suas.",
-  "detalhes": "A conferência nacional é convocada a cada quatro anos pelo Conselho Nacional de Assistência Social, ou extraordinariamente por maioria absoluta dos conselheiros. Suas diretrizes orientam os conselhos de assistência social de cada esfera.",
+  "detalhes": "A conferência nacional é convocada a cada quatro anos pelo Conselho Nacional de Assistência Social. Os conselhos estaduais, distrital e municipais aprovam a proposta orçamentária da assistência social em consonância com as diretrizes das conferências.",
   "tipo_orgao": "conjunto",
   "poder": "executivo",
   "esfera": "nacional",
@@ -20,8 +20,9 @@
   "confianca": "oficial",
   "notas": "Conjunto (não é órgão permanente). A lei fixa a periodicidade só da conferência nacional; data e tema da última não pesquisados.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; corrigido: a convocação extraordinária por maioria absoluta saiu do art. 18, VI, da Lei 8.742 na redação da Lei 9.720/1998 (texto riscado no Planalto); detalhes reescritos pelo art. 17, § 4º"
   }
 }

@@ -5,7 +5,7 @@
   "relacao": "elege",
   "de": "cargo:arquetipo-municipal-prefeito",
   "para": "cargo:membro-do-conselho-superior-do-cgibs",
-  "condicao": "Em eleição eletrônica organizada pela CNM e pela FNP: 14 representantes com voto igual por município e 13 com voto ponderado pela população; cada chapa tem ao menos um município de cada região, e o DF não vota.",
+  "condicao": "Em eleição eletrônica organizada pela CNM e pela FNP: 14 representantes com voto igual por município e 13 com voto ponderado pela população; a eleição garante ao menos um município de cada região, só o prefeito em exercício vota e o DF não vota.",
   "fontes": [
     {
       "ref": "norma:lc-227-2026",
@@ -23,8 +23,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: condição ajustada ao art. 8º, § 3º, I e II"
   }
 }

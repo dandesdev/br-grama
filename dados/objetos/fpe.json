@@ -4,7 +4,7 @@
   "nome": "Fundo de Participação dos Estados e do Distrito Federal",
   "sigla": "FPE",
   "resumo": "Fundo que recebe 21,5% do imposto de renda, do IPI e do Imposto Seletivo arrecadados pela União e os divide entre os estados e o DF.",
-  "detalhes": "Os critérios de rateio são definidos em lei complementar, para promover o equilíbrio entre os estados (art. 161, II), e o TCU calcula as cotas (art. 161, parágrafo único). A União não pode reter nem restringir a entrega, salvo para cobrar créditos seus ou exigir os gastos mínimos em saúde (art. 160). Pela LC 62/1989, com a redação da LC 143/2013 (art. 2º), cada estado recebe desde 2016 o mesmo valor do decêndio correspondente de 2015, corrigido pelo IPCA e por 75% do crescimento real do PIB; o que passar disso é dividido por coeficientes que somam a população (com limites de 1,2% e 7%) e o inverso da renda domiciliar per capita, reduzidos para os estados com renda acima de 72% da média nacional, com piso de 0,5%. O STF declarou esses critérios inconstitucionais sem anular a lei (ADI 5.069) e manteve sua aplicação até 30/6/2027 ou até nova lei; sem lei nem acordo até lá, vale só a divisão por população e renda (art. 2º, III). A União entrega os recursos em até dez dias depois de cada decêndio de arrecadação e divulga todo mês os valores arrecadados e liberados (arts. 4º e 6º); o Ministério da Fazenda e o TCU editam as normas complementares (art. 7º).",
+  "detalhes": "Os critérios de rateio são definidos em lei complementar, para promover o equilíbrio entre os estados (art. 161, II), e o TCU calcula as cotas (art. 161, parágrafo único). A União não pode reter nem restringir a entrega, salvo para cobrar créditos seus ou exigir os gastos mínimos em saúde (art. 160). Pela LC 62/1989, com a redação da LC 143/2013 (art. 2º), cada estado recebe desde 2016 o mesmo valor do decêndio correspondente de 2015, corrigido pelo IPCA e por 75% do crescimento real do PIB; o que passar disso é dividido por coeficientes que somam a população (com limites de 1,2% e 7%) e o inverso da renda domiciliar per capita, reduzidos para os estados com renda acima de 72% da média nacional, com piso de 0,5%. O STF declarou esses critérios inconstitucionais sem anular a lei (ADI 5.069) e manteve sua aplicação até 30/6/2027 ou até nova lei; se até lá não vier lei nova, o FPE passa a ser dividido só pelos coeficientes de população e inverso da renda (parte final do art. 2º, III). A União entrega os recursos em até dez dias depois de cada decêndio de arrecadação e divulga todo mês os valores arrecadados e liberados (arts. 4º e 6º); o Ministério da Fazenda e o TCU editam as normas complementares (art. 7º).",
   "tipo_objeto": "fundo",
   "esfera": "federal",
   "vigencia": {
@@ -29,14 +29,19 @@
     {
       "ref": "fonte:stf-noticia-fpe-prorrogacao-ate-junho-2027",
       "dispositivo": "notícia de 17/6/2026"
+    },
+    {
+      "ref": "fonte:stf-adi-5069",
+      "dispositivo": "decisões de 19/6/2023, 12/9/2023 e 17/6/2026",
+      "nota": "Fonte oficial do STF, acrescentada na revisão."
     }
   ],
   "confianca": "oficial",
   "notas": "Os coeficientes do Anexo Único da LC 62/1989 valeram até 2015 (art. 2º, I) e foram declarados inconstitucionais sem pronúncia de nulidade nas ADIs 875, 1.987, 2.727 e 3.243 (2010), o que levou à LC 143/2013. A divisão em 2016 e depois parte dos valores de 2015, que vinham desses coeficientes.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao",
-    "notas": "detalhes com os critérios da LC 62/1989 (redação da LC 143/2013), a ADI 5.069 e os prazos de entrega; fontes e notas novas; antes verificado em verificacao-f0-dinheiro"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao (coleta: detalhes com os critérios da LC 62/1989 (redação da LC 143/2013), a ADI 5.069 e os prazos de entrega; fontes e notas novas; antes verificado em verificacao-f0-dinheiro); revisão: 'sem lei nem acordo' corrigido para 'sem lei nova' (decisão de 17/6/2026); fonte do STF"
   }
 }

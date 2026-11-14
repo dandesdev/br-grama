@@ -1,0 +1,54 @@
+{
+  "id": "cargo:presidente-de-tre",
+  "tipo": "cargo",
+  "nome": "Presidente de Tribunal Regional Eleitoral",
+  "resumo": "Dirige um dos 27 TREs. É um dos dois desembargadores do Tribunal de Justiça que integram o TRE, eleito pelo próprio tribunal.",
+  "detalhes": "Num TRE, as decisões de demissão e cassação de aposentadoria de servidor do tribunal cabem ao Presidente, como nos demais tribunais federais (Lei 8.112/1990, art. 141, I). Nas novas eleições por anulação de seções, fixa a data e designa os juízes que presidem as mesas (Código Eleitoral, art. 201, parágrafo único, I e IV).",
+  "orgao": "org:justica-eleitoral",
+  "provimento": "eleicao-pelos-pares",
+  "vagas": 27,
+  "vagas_nota": "Um por TRE.",
+  "provimento_nota": "Eleito pelo TRE entre os dois desembargadores do Tribunal de Justiça que o compõem (CF, art. 120, § 2º; Código Eleitoral, art. 26).",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "A lei não fixa o mandato; fica limitado ao período do juiz no TRE (dois anos, no máximo dois biênios seguidos; CF, art. 121, § 2º). Os regimentos de cada TRE tratam do resto."
+  },
+  "requisitos": [
+    {
+      "texto": "ser desembargador do Tribunal de Justiça e membro do TRE",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 120, § 2º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 120, § 2º; art. 121, § 2º"
+    },
+    {
+      "ref": "norma:lei-4737-1965",
+      "dispositivo": "art. 26, caput; art. 201, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-8112-1990",
+      "dispositivo": "art. 141, I"
+    }
+  ],
+  "vigencia": {
+    "de": "1988-10-05",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O Código Eleitoral, art. 26, diz que o TRE elege Presidente e Vice entre 'os três desembargadores'; desde a CF de 1988 o TRE tem dois (art. 120, § 1º, I, a), e a CF, art. 120, § 2º, manda eleger os dois entre os desembargadores. O cargo pertence a cada TRE; aparece no ramo porque são 27 tribunais, como cargo:juiz-de-tre. Ocupantes não pesquisados (abaixo da cúpula, D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (verificacao-f2-administracao e verificacao-f2-judiciario)"
+  }
+}

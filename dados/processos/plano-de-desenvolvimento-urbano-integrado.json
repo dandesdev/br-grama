@@ -46,7 +46,7 @@
         "org:arquetipo-estadual-ministerio-publico"
       ],
       "acao": "Audiências públicas nos municípios da região, com publicidade dos documentos e acompanhamento do Ministério Público",
-      "detalhes": "As audiências são divulgadas antes em todos os municípios, e os critérios para realizá-las são fixados pela instância colegiada deliberativa.",
+      "detalhes": "As audiências são divulgadas antes em todos os municípios, e os critérios para realizá-las são fixados pela instância colegiada deliberativa. A lei diz só \"Ministério Público\"; o ator é o do estado por leitura nossa (o plano é lei estadual), como em rel:arquetipo-estadual-ministerio-publico-monitora-pdui. O acompanhamento vale também para a fiscalização da aplicação do plano (art. 12, § 2º).",
       "fontes": [
         {
           "ref": "norma:lei-13089-2015",
@@ -143,8 +143,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: nota sobre o MP inferido na etapa audiencias-publicas"
   }
 }

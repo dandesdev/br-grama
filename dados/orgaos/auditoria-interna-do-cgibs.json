@@ -4,7 +4,7 @@
   "nome": "Auditoria Interna do CGIBS",
   "resumo": "Faz o controle interno do Comitê Gestor do IBS: fiscaliza os atos dos administradores e opina sobre o relatório anual e as demonstrações financeiras.",
   "detalhes": "Subordinada ao Conselho Superior e dirigida pelo Auditor Interno-Geral; ao menos 30% dos cargos são ocupados por mulheres (LC 227/2026, arts. 23 e 24).",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "orgao-interno",
   "poder": "executivo",
   "esfera": "nacional",
   "contido_em": "org:conselho-superior-do-cgibs",
@@ -38,10 +38,10 @@
     "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
   },
   "confianca": "oficial",
-  "notas": "tipo_orgao 'outro': unidade interna de entidade interfederativa.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: tipo_orgao orgao-interno (D54)"
   }
 }

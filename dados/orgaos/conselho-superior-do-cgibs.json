@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Conselho Superior do CGIBS",
   "resumo": "Instância máxima do Comitê Gestor do IBS: 27 representantes dos estados e do DF e 27 do conjunto dos municípios e do DF.",
-  "detalhes": "Aprova o regulamento único e o regimento interno do IBS, uniformiza a interpretação da lei, aprova os atos conjuntos com o Executivo federal, a metodologia da alíquota de referência enviada ao TCU e as contas do CGIBS, e elege e destitui a Diretoria Executiva, o corregedor e o auditor interno (LC 227/2026, art. 11). Cada deliberação precisa, ao mesmo tempo, da maioria absoluta dos representantes estaduais, desde que somem mais da metade da população do país, e da maioria absoluta dos representantes municipais (art. 10). Reúne-se a cada três meses (art. 11, parágrafo único). Em 2026 funciona com a composição do CGIBS provisório: os representantes municipais foram indicados pela CNM e pela FNP, com mandato até 31/3/2027 (LC 214/2025, arts. 481, §§ 2º, 5º e 5º-A, e 482-A, § 1º).",
+  "detalhes": "Aprova o regulamento único do IBS e o regimento interno do CGIBS, uniformiza a interpretação da lei, aprova os atos conjuntos com o Executivo federal, a metodologia da alíquota de referência enviada ao TCU e as contas do CGIBS, e elege e destitui a Diretoria Executiva, o corregedor e o auditor interno (LC 227/2026, art. 11). Cada deliberação precisa, ao mesmo tempo, da maioria absoluta dos representantes estaduais, desde que somem mais da metade da população do país, e da maioria absoluta dos representantes municipais (art. 10). Reúne-se a cada três meses (art. 11, parágrafo único). Em 2026 funciona com a composição do CGIBS provisório: os representantes municipais foram indicados pela CNM e pela FNP, com mandato até 31/3/2027 (LC 214/2025, arts. 481, §§ 2º, 5º e 5º-A, e 482-A, § 1º).",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "nacional",
@@ -47,8 +47,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: 'regimento interno do IBS' corrigido para 'do CGIBS' (art. 11, III)"
   }
 }

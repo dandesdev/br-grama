@@ -1,0 +1,38 @@
+{
+  "id": "aviso:nob-suas-sem-texto-compilado",
+  "tipo": "aviso",
+  "nome": "A NOB-Suas de 2012 não tem texto oficial compilado",
+  "resumo": "A norma que organiza as comissões intergestores do Suas só está publicada na edição original de 2012; não achamos texto atualizado nem a lista das resoluções que a alteraram.",
+  "detalhes": "A Resolução CNAS nº 33/2012 (NOB-Suas) está disponível no site do MDS só na edição de 2012. Não achamos texto compilado, nem a data de publicação no Diário Oficial, nem resolução do CNAS que altere os artigos sobre as comissões intergestores (arts. 128 a 137). Resoluções de 2023 a 2025 ainda a citam como base, o que indica que segue em vigor, mas a redação em 2026-10-01 dos artigos usados não está garantida.",
+  "tipo_aviso": "baixa-transparencia",
+  "gravidade": "baixa",
+  "afeta": [
+    "norma:resolucao-cnas-33-2012",
+    "org:comissao-intergestores-tripartite-do-suas",
+    "org:arquetipo-estadual-comissao-intergestores-bipartite-do-suas"
+  ],
+  "onde_procuramos": [
+    "Edição do MDS de 2012 (NOBSUAS_2012.pdf, copiada em pesquisa/brutos/govbr/2026-11-11-f2-social/)",
+    "Endereço antigo da resolução no site do MDS (mds.gov.br/cnas/legislacao/resolucoes/arquivos-2012/), que redireciona, e o Wayback Machine, sem cópia",
+    "Busca na web, em 2026-11-14, por resoluções que alterem a Resolução CNAS nº 33/2012 e pela data de publicação no DOU"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cnas-33-2012",
+      "dispositivo": "arts. 128 a 137",
+      "nota": "edição do MDS de 2012"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-11-14",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "Aberto em verificacao-f2-social. Próximo passo: consultar a página de resoluções do CNAS no gov.br e a pesquisa do DOU (in.gov.br) pelos atos de 2013 em diante.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "aberto nesta revisão"
+  }
+}

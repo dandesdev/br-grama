@@ -1,0 +1,47 @@
+{
+  "id": "cargo:lider-da-maioria-no-congresso-nacional",
+  "tipo": "cargo",
+  "nome": "Líder da Maioria no Congresso Nacional",
+  "resumo": "Líder da Maioria nas sessões conjuntas, liderança instituída em 2019 por analogia à Liderança da Maioria do Senado.",
+  "orgao": "org:liderancas-do-congresso-nacional",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "O RCCN não descreve a escolha. Segundo nota da edição oficial, a liderança foi instituída em 2019 aplicando o entendimento do art. 4º, § 6º (Maioria e Minoria definidas pelo RISF, art. 65, e pelo RICD, art. 13), por analogia à Liderança da Maioria do RISF, art. 65.",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo."
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputado federal ou senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 4º, § 6º, e nota 14 da edição oficial"
+    }
+  ],
+  "vigencia": {
+    "de": "2019",
+    "ate": null,
+    "incerta": true,
+    "nota": "Ano dado pela nota 14 da edição oficial do Regimento Comum (2025); o ato que a instituiu não foi localizado."
+  },
+  "confianca": "oficial",
+  "notas": "Não está no texto do RCCN; a existência vem de nota da edição oficial do Senado (fonte oficial, mas não normativa). Provimento por analogia ao Líder da Maioria do Senado. Ocupante em 2026-10-01 não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (RCCN, art. 4º, era fora no quadro; verificacao-f2-legislativo-tcu)"
+  },
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "Por analogia ao RISF, art. 65; o RCCN não diz como o Líder da Maioria no CN é escolhido."
+    }
+  }
+}

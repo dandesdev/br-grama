@@ -1,0 +1,27 @@
+{
+  "id": "rel:vice-presidente-de-tre-acumula-corregedor-regional-eleitoral",
+  "tipo": "relacao",
+  "nome": "Vice-Presidente do TRE como Corregedor Regional Eleitoral",
+  "relacao": "acumula",
+  "de": "cargo:vice-presidente-de-tre",
+  "para": "cargo:corregedor-regional-eleitoral",
+  "condicao": "Em cada TRE, durante o mandato de Vice-Presidente.",
+  "fontes": [
+    {
+      "ref": "norma:resolucao-tse-23742-2024",
+      "dispositivo": "art. 9º"
+    }
+  ],
+  "vigencia": {
+    "de": "2024-06-03",
+    "ate": null,
+    "nota": "Publicação da Res. TSE 23.742/2024 (art. 18)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (D54, acumula)"
+  }
+}

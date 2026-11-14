@@ -3,7 +3,7 @@
   "tipo": "aviso",
   "nome": "Não achamos registro atual da comissão que elabora o orçamento da seguridade",
   "resumo": "A Lei 8.212/1991 manda uma comissão de três representantes (saúde, previdência e assistência) elaborar as propostas orçamentárias da seguridade; não achamos se ela existe hoje.",
-  "detalhes": "Um decreto sem número de 4/8/1992 instituiu a comissão, com membros designados por portaria interministerial. Não confirmamos se esse decreto continua em vigor nem achamos portaria recente de designação ou registro de reuniões. Na prática, a proposta orçamentária da União é consolidada pelo órgão central de planejamento e orçamento.",
+  "detalhes": "Um decreto sem número de 4/8/1992 instituiu a comissão, com membros designados por portaria interministerial antes de cada proposta. A Câmara registra que não consta revogação expressa do decreto, mas não achamos portaria recente de designação nem registro de reuniões. Na prática, a proposta orçamentária da União é consolidada pelo órgão central de planejamento e orçamento.",
   "tipo_aviso": "lacuna",
   "afeta": [
     "norma:lei-8212-1991"
@@ -12,7 +12,8 @@
   "onde_procuramos": [
     "Lei 8.212/1991, art. 8º (texto compilado do Planalto, 2026-11-11)",
     "Legislação Informatizada da Câmara (decreto de 4/8/1992, só publicação original)",
-    "Busca na web por 'art. 8º da Lei 8.212' e a comissão"
+    "Busca na web por 'art. 8º da Lei 8.212' e a comissão",
+    "Legislação Informatizada da Câmara, dados da norma do decreto de 4/8/1992 ('Situação: Não consta revogação expressa', consulta em 2026-11-14)"
   ],
   "fontes": [
     {
@@ -31,8 +32,9 @@
   "confianca": "oficial",
   "notas": "Por isso o art. 8º da Lei 8.212 ficou como lacuna no quadro de f2-social, sem nó para a comissão. Próximo passo: conferir no Planalto (lista de decretos não numerados revogados) e no DOU.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; o aviso cabe (D37, lacuna): a lei e o decreto de 1992 seguem no texto sem revogação expressa, mas não há registro público da designação dos membros; detalhes atualizados com a situação do decreto na Câmara"
   }
 }

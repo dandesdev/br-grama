@@ -4,14 +4,8 @@
   "nome": "Auditor Interno-Geral do CGIBS",
   "resumo": "Dirige a Auditoria Interna do Comitê Gestor do IBS; é eleito e pode ser destituído a qualquer tempo pelo Conselho Superior.",
   "orgao": "org:auditoria-interna-do-cgibs",
-  "provimento": "nomeacao-livre",
-  "provimento_nota": "Eleito pelo Conselho Superior, que pode destituí-lo a qualquer tempo (LC 227/2026, art. 11, I, b ou c), com paridade e alternância entre estados e municípios na forma do regimento interno. Usamos 'nomeacao-livre' pela destituição a qualquer tempo.",
-  "campos": {
-    "provimento": {
-      "confianca": "inferido",
-      "nota": "Aproximação; ver provimento_nota."
-    }
-  },
+  "provimento": "eleicao-por-colegio",
+  "provimento_nota": "Eleito pelo Conselho Superior, que pode destituí-lo a qualquer tempo (LC 227/2026, art. 11, I, c); o Presidente do CGIBS dá posse (art. 12, VI). O cargo observa a paridade e, na forma do regimento interno, a alternância entre estados e municípios (art. 23, § 2º).",
   "mandato": {
     "anos": null,
     "vitalicio": false,
@@ -31,8 +25,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: provimento eleicao-por-colegio (D54), sem inferido; corrigida a alínea do art. 11, I"
   }
 }

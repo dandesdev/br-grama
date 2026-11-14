@@ -46,7 +46,7 @@ Cópias em `pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/` (baixadas em
 | arts. 17 e 18 | coberto | os 32 ministérios (inclusive a CGU) e cargo:ministro-de-estado |
 | arts. 19 a 30 | coberto | detalhes dos ministérios com as áreas de competência (D50) e os incisos nas fontes |
 | art. 30-A | coberto | org:ministerio-do-empreendedorismo |
-| arts. 31 a 49 | coberto | detalhes dos ministérios e da CGU; rel:mre-assessora-presidente (art. 44, I); rel:cgu-representa-a-agu, rel:cgu-representa-a-receita-federal, rel:cgu-representa-a-policia-federal, rel:cgu-representa-a-mjsp, rel:cgu-representa-a-mpf (art. 49, § 2º); relações anteriores (SUS, Susp, FNAS, Sistema S, CGU) já citavam |
+| arts. 31 a 49 | coberto | detalhes dos ministérios e da CGU; rel:mre-assessora-presidente (art. 44, I); rel:cgu-representa-a-agu, rel:cgu-representa-a-receita-federal, rel:cgu-representa-a-policia-federal, rel:cgu-representa-a-mjsp, rel:cgu-representa-a-mpf, rel:cgu-representa-a-tcu (art. 49, § 2º; a última criada em f2-fechamento); relações anteriores (SUS, Susp, FNAS, Sistema S, CGU) já citavam |
 | art. 50 | coberto | cargo:ministro-de-estado (estrutura mínima dos ministérios), org:ministerio-da-fazenda (§ 5º, consultoria jurídica pela PGFN) |
 | arts. 51 a 53 | coberto | vigência dos ministérios criados ou transformados em 2023 (com norma:mp-1154-2023), da SRI e da Secom |
 | art. 54 | coberto | cargo:ministro-de-estado (inciso II, cargos de Ministro de Estado); os cargos em comissão e funções do inciso I são detalhe de pessoal |
@@ -54,7 +54,7 @@ Cópias em `pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/` (baixadas em
 | arts. 56 e 57 | fora | requisição e cessão de servidores: regime de pessoal |
 | arts. 58 e 59 | coberto | org:funai, org:secretaria-nacional-de-politicas-penais (já citavam) |
 | art. 60 | coberto | rel:ana-vincula-se-ministerio-da-integracao (nova redação do art. 3º da Lei 9.984/2000) |
-| art. 61 | lacuna | Conselho Nacional de Recursos Hídricos, presidido pelo Ministro da Integração (nova redação da Lei 9.433/1997, arts. 36 e 45): colegiado ainda fora do mapa |
+| art. 61 | coberto | org:conselho-nacional-de-recursos-hidricos, rel:ministro-de-estado-preside-conselho-nacional-de-recursos-hidricos (nova redação da Lei 9.433/1997, arts. 36 e 45; criados em f2-fechamento) |
 | arts. 62 a 64 | fora | alteram outras leis em detalhes que não criam órgão, cargo nem etapa: rateio da compensação financeira (Lei 8.001/1990), cargos CCE-18 (Lei 14.204/2021) e informação sobre saneamento (Lei 11.445/2007) |
 | art. 65 | coberto | org:conselho-do-programa-de-parcerias-de-investimentos (composição por ato do Executivo) |
 | arts. 66 e 67 | fora | supervisão da Anater (serviço social autônomo não incluído, D07) e contratação temporária (regime de pessoal) |
@@ -65,6 +65,8 @@ Cópias em `pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/` (baixadas em
 | art. 79 | coberto | norma:lei-14600-2023 (vigência) |
 
 Conta: 80 artigos vigentes (arts. 1º a 79 e 30-A; nenhum artigo inteiro vetado). Coberto 61, fora 18, lacuna 1, parcial 0. Cobertura (coberto + fora) / total = 79/80 = 98,8%.
+
+Conta revista em f2-fechamento (2026-11-14): art. 61 passa a coberto. Coberto 62, fora 18, lacuna 0, parcial 0. Cobertura = 80/80 = 100%.
 
 ### Decreto-Lei 200/1967
 
@@ -78,12 +80,12 @@ Conta: 80 artigos vigentes (arts. 1º a 79 e 30-A; nenhum artigo inteiro vetado)
 | arts. 21 a 24 | fora | superados: órgãos centrais dos ministérios de 1967 (Secretaria-Geral, Inspetoria-Geral de Finanças); a estrutura mínima atual está na Lei 14.600/2023, art. 50 |
 | arts. 25 a 28 | coberto | cargo:ministro-de-estado (supervisão ministerial); relações `vincula-se` (art. 26) |
 | art. 29 | fora | superado: assistência direta ao ministro hoje na Lei 14.600/2023, art. 50 |
-| arts. 30 e 31 | parcial | sistemas de atividades auxiliares (pessoal, orçamento, administração financeira, contabilidade e auditoria, serviços gerais): o MGI coordena os sistemas estruturadores (Lei 14.600, art. 32, V) e a CGU o controle interno, mas os sistemas não têm entidade e nenhuma entidade cita o DL 200 |
+| arts. 30 e 31 | coberto | revisto em f2-fechamento: org:sistema-de-planejamento-e-de-orcamento-federal, org:sistema-de-administracao-financeira-federal, org:sistema-de-contabilidade-federal e org:sistema-de-controle-interno-do-poder-executivo-federal (criados em f2-financas-publicas) citam os arts. 30 e 31; as quatro relações `supervisiona` dos órgãos centrais sobre os setoriais citam o art. 30, § 1º. Pessoal e serviços gerais (SIPEC, SISG) ficam para a fase 4 (D09) |
 | arts. 32 a 39 | fora | superados: Presidência e ministérios de 1967, hoje na Lei 14.600/2023 (o Planalto remete com "vide") |
 | arts. 40 a 44 | fora | superados: Conselho de Segurança Nacional e Serviço Nacional de Informações (hoje CF, art. 91, e Lei 9.883/1999) |
 | arts. 45 a 57 | fora | superados: Forças Armadas e ministérios militares de 1967 (hoje CF, art. 142, e LC 97/1999) |
 | arts. 59 a 67 | fora | superados: ministérios militares de 1967 |
-| art. 68 | parcial | contas anuais do Presidente com parecer prévio do TCU: no mapa pela CF (arts. 71, I, e 84, XXIV), sem citar o DL 200; as entidades são do Legislativo e do TCU, que esta tarefa não edita |
+| art. 68 | coberto | revisto em f2-fechamento: rel:presidente-presta-contas-a-congresso cita o art. 68 |
 | arts. 69 a 93 | fora | normas de administração financeira e de contabilidade (ordenador de despesa, tomada de contas, suprimento de fundos): detalhes de processo que não criam órgão, cargo nem etapa |
 | arts. 94 a 124 | fora | pessoal civil, DASP e assessoramento superior: regime de servidores e órgãos extintos |
 | arts. 145 a 150 | fora | transição esgotada: reforma administrativa de 1967 |
@@ -91,7 +93,7 @@ Conta: 80 artigos vigentes (arts. 1º a 79 e 30-A; nenhum artigo inteiro vetado)
 | arts. 155 a 167 | fora | superados: medidas de coordenação setorial de 1967 (ciência e tecnologia, saúde, abastecimento, transportes, comunicações) e colegiados extintos |
 | art. 170 | coberto | org:poder-executivo-federal (avocação pelo Presidente) |
 | arts. 171 a 177 | fora | territórios federais (sem território hoje), órgãos autônomos, assinatura e agrupamento de atos, prazos e respostas a consultas e colegiados com representação de classe: detalhes que não criam órgão, cargo nem etapa |
-| art. 178 | lacuna | o Executivo pode dissolver ou incorporar entidades deficitárias, inativas ou que façam o que a iniciativa privada já atende: competência sem relação no mapa |
+| art. 178 | coberto | revisto em f2-fechamento: detalhes de org:poder-executivo-federal (D50: competência do Executivo sobre as entidades da indireta em geral, sem uma entidade-alvo para relação) |
 | arts. 179 a 182 | fora | superados ou de pessoal: atribuições do antigo Ministério do Planejamento (Lei 4.320), cargos em comissão de 1968, regime CLT nas estatais |
 | art. 183 | coberto | org:sistema-s (fiscalização do Estado sobre entidades que recebem contribuições parafiscais) |
 | arts. 184 a 188 | fora | superados ou detalhes de 1967 (aumento de pessoal, siderurgia, Taxa de Marinha Mercante, Codebrás, segurança nacional) |
@@ -103,7 +105,7 @@ Conta: 80 artigos vigentes (arts. 1º a 79 e 30-A; nenhum artigo inteiro vetado)
 | art. 215 | fora | revogação genérica |
 | arts. 58, 125 a 144, 151, 168, 169 e 192 a 197 | revogado | revogados expressamente no texto do Planalto; não entram na conta |
 
-Conta: 215 artigos, 30 revogados expressamente; 185 vigentes no texto do Planalto. Coberto 14, parcial 3, lacuna 1, fora 167. Cobertura = 181/185 = 97,8%. Ressalva: a maior parte do "fora" são artigos superados por leis posteriores sem revogação expressa marcada no Planalto (Presidência, ministérios e Forças Armadas de 1967); a D49 não tem classe própria para isso, e os contamos como fora, no sentido de transição esgotada. Se forem excluídos da conta como não vigentes, o percentual muda pouco.
+Conta: 215 artigos, 30 revogados expressamente; 185 vigentes no texto do Planalto. Coberto 14, parcial 3, lacuna 1, fora 167. Cobertura = 181/185 = 97,8%. Conta revista em f2-fechamento (2026-11-14): arts. 30, 31, 68 e 178 passam a coberto; coberto 18, parcial 0, lacuna 0, fora 167; cobertura = 185/185 = 100%. Ressalva: a maior parte do "fora" são artigos superados por leis posteriores sem revogação expressa marcada no Planalto (Presidência, ministérios e Forças Armadas de 1967); a D49 não tem classe própria para isso, e os contamos como fora, no sentido de transição esgotada. Se forem excluídos da conta como não vigentes, o percentual muda pouco.
 
 ### Lei 13.848/2019
 

@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Conselho Nacional de Secretários de Saúde",
   "sigla": "Conass",
-  "resumo": "Associação dos secretários estaduais de saúde, reconhecida por lei como representante dos estados nas questões de saúde.",
+  "resumo": "Entidade dos secretários estaduais de saúde, reconhecida por lei como representante dos estados nas questões de saúde.",
   "detalhes": "Tem um representante no Conselho Nacional de Saúde e representa os gestores estaduais nas comissões intergestores. É declarado de utilidade pública e recebe recursos da União, pelo Fundo Nacional de Saúde, para custear suas despesas.",
   "tipo_orgao": "paraestatal",
   "poder": "nao-estatal",
@@ -29,13 +29,14 @@
   "vigencia": {
     "de": null,
     "ate": null,
-    "nota": "Reconhecido como representante dos entes pela Lei 12.466/2011, que incluiu o art. 14-B na Lei 8.080/1990; a data de fundação da associação não foi pesquisada."
+    "nota": "Reconhecido como representante dos entes pela Lei 12.466/2011 (DOU de 25/8/2011), que incluiu o art. 14-B na Lei 8.080/1990; a data de fundação da entidade não foi pesquisada."
   },
   "confianca": "oficial",
-  "notas": "Pessoa jurídica de direito privado (associação); 'paraestatal' por colaborar com o Estado por força de lei. O estatuto e a diretoria em 2026-10-01 não foram pesquisados.",
+  "notas": "Entidade privada: a lei a reconhece como representativa e a declara de utilidade pública (título dado a entidades privadas; leitura nossa); 'paraestatal' por representar os entes por força de lei (D54). O estatuto e a diretoria em 2026-10-01 não foram pesquisados.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-social"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-social",
+    "notas": "coletado em f2-social; resumo e notas: \"associação\" não está nas fontes; trocado por \"entidade\", e a natureza privada ficou como leitura nossa"
   }
 }

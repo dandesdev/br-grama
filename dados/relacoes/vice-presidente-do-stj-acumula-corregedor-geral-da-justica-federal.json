@@ -1,0 +1,32 @@
+{
+  "id": "rel:vice-presidente-do-stj-acumula-corregedor-geral-da-justica-federal",
+  "tipo": "relacao",
+  "nome": "Vice-Presidente do STJ como Corregedor-Geral da Justiça Federal",
+  "relacao": "acumula",
+  "de": "cargo:vice-presidente-do-stj",
+  "para": "cargo:corregedor-geral-da-justica-federal",
+  "condicao": "Durante o mandato de Vice-Presidente: a lei manda que a Corregedoria-Geral seja dirigida pelo ministro do STJ eleito Corregedor-Geral conforme o Regimento do STJ, e o Regimento diz que esse ministro é o Vice-Presidente.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11798-2008",
+      "dispositivo": "art. 2º, § 6º"
+    },
+    {
+      "ref": "norma:ristj",
+      "dispositivo": "art. 3º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regra da Lei 13.788/2018 (no art. 2º, § 6º, da Lei 11.798) e da ER 29/2018 do RISTJ; datas não conferidas."
+  },
+  "confianca": "oficial",
+  "notas": "Antes não havia relação ligando os dois cargos; a acumulação estava só no provimento 'nato' de cargo:corregedor-geral-da-justica-federal (D54).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (D54)"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "id": "rel:tse-aprecia-para-registro-estatuto-de-partido",
+  "id": "rel:tse-registra-estatuto-de-partido",
   "tipo": "relacao",
   "nome": "Registro de partidos e federações no TSE",
-  "relacao": "aprecia-para-registro",
+  "relacao": "registra",
   "de": "org:tse",
   "para": "obj:estatuto-de-partido-politico",
   "condicao": "Registra o estatuto do partido que comprovar caráter nacional e o das federações. Só o registro garante a exclusividade do nome, da sigla e dos símbolos. Também registra as alterações do programa e do estatuto, depois de feitas no cartório. O rito do registro está em proc:registro-de-partido-politico.",
@@ -22,10 +22,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-eleicoes",
-    "notas": "f2-eleicoes acrescentou rito, prazo e alterações estatutárias: Lei 9.096/1995, arts. 9º, §§ 3º e 4º, 10, caput, e 11-A, § 6º, conferidos. Antes: verificado em verificacao-f0-eleicoes (CF, art. 17, § 2º; Lei 9.096/1995, arts. 7º, §§ 1º a 3º, e 11-A, caput e § 3º, IV)"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: relacao 'aprecia-para-registro' → 'registra' (D54), id novo; antes verificado em verificacao-f2-eleicoes"
   },
-  "notas": "'aprecia-para-registro' foi pensado para o TCU (art. 71, III), mas a definição ('examina a legalidade de um ato e decide se ele é registrado') cabe aqui. Se o mantenedor preferir, criar um termo 'registra'."
+  "notas": "Antes a relação era 'aprecia-para-registro' (termo pensado para o TCU), com outro id; trocada por 'registra' na D54."
 }

@@ -1,0 +1,40 @@
+{
+  "id": "cargo:lider-da-minoria-no-congresso-nacional",
+  "tipo": "cargo",
+  "nome": "Líder da Minoria no Congresso Nacional",
+  "resumo": "Parlamentar indicado pelos líderes das duas maiores bancadas que se opõem à maioria; a liderança alterna entre senadores e deputados a cada dois anos.",
+  "orgao": "org:liderancas-do-congresso-nacional",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Os líderes dos partidos com as duas maiores bancadas no Senado e na Câmara que têm posição diversa da maioria indicam o Líder da Minoria (RCCN, art. 4º, § 3º); a escolha se faz de dois em dois anos, alternando senadores e deputados (§ 4º). Maioria e Minoria seguem o RISF, art. 65, §§ 1º e 2º, e o RICD, art. 13 (§ 6º). Pode indicar 18 vice-líderes (§ 5º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "A escolha se faz de dois em dois anos, alternando entre senadores e deputados (RCCN, art. 4º, § 4º)."
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputado federal ou senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 4º, §§ 3º a 6º e 9º; art. 8º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RCCN em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "'eleicao-pelos-pares' é o termo mais próximo: a escolha é dos líderes das bancadas da Minoria, não da Casa inteira. Ocupante em 2026-10-01 não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (RCCN, art. 4º, era fora no quadro; verificacao-f2-legislativo-tcu)"
+  }
+}

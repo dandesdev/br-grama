@@ -125,26 +125,26 @@ Conta: 7 artigos vigentes; coberto 6, fora 1, parcial 0, lacuna 0; cobertura = 1
 | art. 19 | coberto | rel:mds-coordena-suas; rel:mds-regula-beneficio-de-prestacao-continuada; rel:mds-repassa-recursos-inss; org:conselho-nacional-de-assistencia-social |
 | arts. 20 e 21 | coberto | obj:beneficio-de-prestacao-continuada (requisitos em detalhe ficam fora do texto, D53) |
 | art. 20-B | fora | critérios de aferição da renda (benefício em detalhe, D53) |
-| art. 21-A | coberto | rel:inss-julga-beneficio-de-prestacao-continuada (suspensão pelo órgão concedente) |
+| art. 21-A | coberto | rel:inss-concede-beneficio-de-prestacao-continuada (suspensão pelo órgão concedente) |
 | art. 21-B | fora | regularização cadastral do beneficiário (benefício em detalhe) |
 | arts. 22 a 26 | fora | definições de benefícios eventuais, serviços, programas e projetos de enfrentamento da pobreza (sem órgão novo) |
 | arts. 24-A a 24-C | fora | Paif, Paefi e Peti (serviços e programas, sem órgão novo) |
 | arts. 26-A a 26-E | fora | auxílio-inclusão em detalhe (requisitos, valor, acumulação) |
-| arts. 26-F e 26-G | coberto | obj:beneficio-de-prestacao-continuada; rel:mds-repassa-recursos-inss; rel:inss-julga-beneficio-de-prestacao-continuada |
+| arts. 26-F e 26-G | coberto | obj:beneficio-de-prestacao-continuada; rel:mds-repassa-recursos-inss; rel:inss-concede-beneficio-de-prestacao-continuada |
 | art. 26-H | fora | revisão do auxílio-inclusão em dez anos (regra de avaliação) |
 | arts. 27 a 30 | coberto | obj:fundo-nacional-de-assistencia-social; rel:mds-repassa-recursos-inss (art. 29, parágrafo único); repasses da União |
 | arts. 30-A a 30-C | coberto | rel:uniao-repassa-recursos-assistencia-social-estados; rel:uniao-repassa-recursos-assistencia-social-municipios; rel:estados-repassam-recursos-assistencia-social-municipios (30-A) |
 | art. 31 | fora | atribuição genérica do Ministério Público (já na CF, art. 129) |
 | arts. 32 a 34 | fora | transição esgotada (reordenamento de órgãos, extinção do CNSS, papel supletivo transitório da União) |
-| art. 35 | coberto | obj:beneficio-de-prestacao-continuada; rel:inss-julga-beneficio-de-prestacao-continuada; org:inss |
+| art. 35 | coberto | obj:beneficio-de-prestacao-continuada; rel:inss-concede-beneficio-de-prestacao-continuada; org:inss |
 | arts. 36 e 37 | fora | sanção a entidades e momento em que o BPC é devido (detalhe) |
-| art. 39 | fora | proposta de mudança dos limites de renda dos benefícios (benefício em detalhe, D53) |
+| art. 39 | coberto | org:conselho-nacional-de-assistencia-social (proposta ao Executivo de mudança dos limites de renda, por maioria absoluta; reclassificado em verificacao-f2-social) |
 | art. 40 | fora | transição esgotada (extinção da renda mensal vitalícia e dos auxílios natalidade e funeral da previdência) |
 | arts. 40-A a 40-C | fora | regras de pagamento e consignação de benefícios (detalhe) |
 | art. 41 | coberto | norma:lei-8742-1993 (vigência) |
 | art. 42 | fora | cláusula revogatória |
 
-Revogados por inteiro (fora da conta): arts. 20-A, 28-A e 38. Conta: 68 artigos vigentes; coberto 33, fora 35, parcial 0, lacuna 0; cobertura = 100,0%.
+Revogados por inteiro (fora da conta): arts. 20-A, 28-A e 38. Conta: 68 artigos vigentes; coberto 34, fora 34, parcial 0, lacuna 0; cobertura = 100,0%.
 
 ### Lei 9.394/1996 (Lei de Diretrizes e Bases da Educação)
 

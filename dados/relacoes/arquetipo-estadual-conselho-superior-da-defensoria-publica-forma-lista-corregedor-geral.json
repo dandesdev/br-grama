@@ -1,8 +1,8 @@
 {
-  "id": "rel:arquetipo-estadual-conselho-superior-da-defensoria-publica-indica-corregedor-geral",
+  "id": "rel:arquetipo-estadual-conselho-superior-da-defensoria-publica-forma-lista-corregedor-geral",
   "tipo": "relacao",
   "nome": "Lista tríplice para Corregedor-Geral da Defensoria do estado",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:arquetipo-estadual-conselho-superior-da-defensoria-publica",
   "para": "cargo:arquetipo-estadual-corregedor-geral-da-defensoria-publica",
   "condicao": "Forma lista tríplice entre integrantes da classe mais elevada da carreira.",
@@ -19,9 +19,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da LC 80/1994"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) arquetipo-estadual-conselho-superior-da-defensoria-publica-indica-corregedor-geral; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

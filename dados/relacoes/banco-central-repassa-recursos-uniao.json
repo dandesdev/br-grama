@@ -1,0 +1,32 @@
+{
+  "id": "rel:banco-central-repassa-recursos-uniao",
+  "tipo": "relacao",
+  "nome": "O Banco Central transfere seu resultado positivo à União",
+  "relacao": "repassa-recursos",
+  "de": "org:banco-central",
+  "para": "ente:uniao",
+  "condicao": "O resultado positivo do balanço semestral, depois de constituídas as reservas, é receita do Tesouro e é pago até o 10º dia útil após a aprovação do balanço. A parte que vem das operações com reservas e derivativos cambiais fica antes numa reserva de resultado. O valor pago à União só pode ir para a dívida pública mobiliária federal.",
+  "fontes": [
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 7º, caput"
+    },
+    {
+      "ref": "norma:lei-13820-2019",
+      "dispositivo": "art. 2º, caput e § 2º; art. 3º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início pela vigência da LRF (5/5/2000); a regra pode ser anterior, não pesquisamos; o regime atual da reserva de resultado e do destino à dívida vale desde 1º/7/2019 (Lei 13.820/2019, art. 11)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (LRF, art. 7º, era fora no quadro de f2-financas-publicas; proposta de verificacao-f2-financas-publicas), conferida contra a Lei 13.820/2019"
+  }
+}

@@ -56,11 +56,16 @@
         "org:empresas-estatais-federais"
       ],
       "acao": "A estatal julga pelo critério do edital, como menor preço, maior desconto ou técnica e preço",
-      "detalhes": "Em empate, valem nesta ordem: disputa final, desempenho contratual anterior, critérios de preferência das Leis 8.248/1991 e 8.666/1993, e sorteio.",
+      "detalhes": "Em empate, valem nesta ordem: disputa final, desempenho contratual anterior, critérios de preferência das Leis 8.248/1991 e 8.666/1993, e sorteio. A Lei 8.666 foi revogada em 2023; a Lei 14.133/2021 manda aplicar a si mesma onde outra lei cita a 8.666, e os critérios de preferência equivalentes estão no seu art. 60, § 1º.",
       "fontes": [
         {
           "ref": "norma:lei-13303-2016",
           "dispositivo": "art. 51, IV; arts. 54 e 55"
+        },
+        {
+          "ref": "norma:lei-14133-2021",
+          "dispositivo": "art. 60, § 1º; art. 189; art. 193, II, a",
+          "nota": "A correspondência entre a Lei 8.666, art. 3º, § 2º, e a Lei 14.133, art. 60, § 1º, é leitura nossa; o art. 189 só diz que a nova lei se aplica onde a legislação cita a 8.666."
         }
       ],
       "seguintes": [
@@ -205,9 +210,9 @@
   "confianca": "oficial",
   "notas": "Ator único: o conjunto das estatais federais, embora o rito valha para as estatais de todos os entes. Quem conduz cada fase dentro da estatal fica no regulamento interno de cada uma (art. 40).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-administracao",
-    "notas": "coletado em f2-administracao; arts. 28 a 30, 34, 39, 40 e 51 a 62 conferidos; acrescentado o prazo mínimo entre o edital e as propostas (art. 39), que a etapa citava sem dizer"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "etapa julgamento: remissão da Lei 13.303, art. 55, III, à Lei 8.666 (revogada) conferida na Lei 14.133, arts. 60, 189 e 193; antes verificado em verificacao-f2-administracao"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "id": "rel:arquetipo-estadual-conselho-superior-do-ministerio-publico-indica-ministro-do-stj",
+  "id": "rel:arquetipo-estadual-conselho-superior-do-ministerio-publico-forma-lista-ministro-do-stj",
   "tipo": "relacao",
   "nome": "Lista sêxtupla do MP estadual para o STJ",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:arquetipo-estadual-conselho-superior-do-ministerio-publico",
   "para": "cargo:ministro-do-stj",
   "condicao": "Nas vagas do STJ destinadas ao MP dos estados; cada Conselho Superior organiza a lista sêxtupla, que o procurador-geral encaminha ao tribunal.",
@@ -22,9 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da Lei 8.625/1993 (e da CF, art. 94 e 104)"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) arquetipo-estadual-conselho-superior-do-ministerio-publico-indica-ministro-do-stj; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

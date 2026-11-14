@@ -50,7 +50,8 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 20 a 22 | coberto | cargo:servidor-publico-civil-federal (estágio probatório, estabilidade, perda do cargo) |
 | arts. 24, 25 e 27 a 32 | coberto | cargo:servidor-publico-civil-federal (readaptação, reversão, reintegração, recondução, disponibilidade e aproveitamento pelo órgão central do Sipec) |
 | arts. 33 a 35 | coberto | cargo:servidor-publico-civil-federal (vacância e exoneração) |
-| arts. 36 e 37 | fora | remoção e redistribuição (deslocamento do servidor ou do cargo, sem órgão nem etapa) |
+| art. 36 | fora | remoção (deslocamento do servidor, sem órgão nem etapa) |
+| art. 37 | coberto | revisto em f2-fechamento: cargo:servidor-publico-civil-federal (redistribuição com apreciação do órgão central do Sipec, no detalhes) |
 | art. 38 | coberto | cargo:servidor-publico-civil-federal (substitutos de chefes e de cargos de natureza especial) |
 | art. 39 | fora | extensão do art. 38 às assessorias (detalhe) |
 | arts. 40 a 42, 44 a 60, 60-A, 60-B, 60-D, 60-E, 61, 62, 62-A, 63 a 66, 68 a 76, 76-A, 77 a 87, 91 a 96, 96-A, 97 a 115 | fora | vencimento, vantagens, férias, licenças, afastamentos, concessões, tempo de serviço e direito de petição (direitos e deveres individuais) |
@@ -64,14 +65,14 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | art. 142 | fora | prescrição da ação disciplinar (detalhe de processo) |
 | arts. 143 a 172 | coberto | proc:processo-administrativo-disciplinar-federal (apuração, sindicância, afastamento preventivo, comissão, inquérito, julgamento) |
 | art. 173 | fora | transporte e diárias de quem depõe (direito individual) |
-| arts. 174 a 182 | coberto | proc:processo-administrativo-disciplinar-federal (revisão, na etapa punicao) |
+| arts. 174 a 182 | coberto | proc:processo-administrativo-disciplinar-federal (revisão: etapas punicao, revisao-pedido, revisao-comissao, revisao-julgamento, pena-anulada e pena-mantida, criadas em f2-fechamento) |
 | arts. 183 a 191, 194 a 206, 206-A, 207 a 215 e 217 a 230 | fora | seguridade social do servidor: aposentadoria, licenças, pensão e auxílios (direitos individuais) |
 | arts. 236 a 242 | fora | data comemorativa, incentivos, contagem de prazos, liberdade de crença, direitos sindicais e definições (direitos e detalhes) |
 | arts. 243 a 245 e 247 a 250 | fora | enquadramento dos servidores em 1990, transformação de vantagens e regras provisórias (transição esgotada) |
 | art. 252 | coberto | norma:lei-8112-1990 (vigência) |
 | art. 253 | fora | cláusula revogatória |
 
-Revogados por inteiro (fora da conta): arts. 23, 26, 43, 60-C, 67, 88, 89, 192, 193, 216, 231, 232, 233, 234, 235 e 251. Vetados: arts. 90 e 246. Conta: 245 artigos vigentes; coberto 74, fora 171, parcial 0, lacuna 0; cobertura (coberto + fora) / total = 100,0%.
+Revogados por inteiro (fora da conta): arts. 23, 26, 43, 60-C, 67, 88, 89, 192, 193, 216, 231, 232, 233, 234, 235 e 251. Vetados: arts. 90 e 246. Conta: 245 artigos vigentes; coberto 74, fora 171, parcial 0, lacuna 0; cobertura (coberto + fora) / total = 100,0%. Conta revista em f2-fechamento (2026-11-14): art. 37 passa a coberto; coberto 75, fora 170; cobertura = 100,0%.
 
 ### Lei 9.784/1999 (processo administrativo federal)
 
@@ -157,7 +158,7 @@ Os arts. 19 (caput e § 1º vetados, § 2º vigente) e 35 (caput vetado, §§ vi
 | arts. 35 a 38 | fora | sigilo das propostas, pré-qualificação, cadastro de sanções e impedimentos (detalhe de contratação) |
 | arts. 39 e 40 | coberto | proc:licitacao-de-empresa-estatal (portal e regulamento interno) |
 | arts. 41 a 50 | fora | crimes, definições, regimes de obra, aquisição e alienação de bens (crimes e detalhe de contratação) |
-| arts. 51 a 62 | coberto | proc:licitacao-de-empresa-estatal (fases, julgamento, negociação, habilitação, recurso, homologação, revogação) |
+| arts. 51 a 62 | coberto | proc:licitacao-de-empresa-estatal (fases, julgamento, negociação, habilitação, recurso, homologação, revogação); a remissão do art. 55, III, à Lei 8.666 (revogada) foi conferida em f2-fechamento na Lei 14.133, arts. 60, § 1º, 189 e 193 (etapa julgamento) |
 | arts. 63 a 84 | fora | procedimentos auxiliares, contratos e sanções contratuais (detalhe de contratação) |
 | art. 85 | coberto | rel:tcu-fiscaliza-empresas-estatais-federais |
 | art. 86 | fora | bancos de dados e atas para os órgãos de controle (dever de informação) |
@@ -165,10 +166,12 @@ Os arts. 19 (caput e § 1º vetados, § 2º vigente) e 35 (caput vetado, §§ vi
 | art. 88 | fora | divulgação mensal de contratos e orçamento (dever de divulgação) |
 | art. 89 | coberto | org:empresas-estatais-federais (limites da supervisão ministerial) |
 | art. 90 | coberto | rel:tcu-fiscaliza-empresas-estatais-federais (controle sem interferir na gestão) |
-| arts. 91 a 96 | fora | adaptação em 24 meses e estratégia inicial (transição esgotada), cadastro no Registro de Empresas, limite de publicidade, sanções da Lei Anticorrupção e revogações |
+| art. 91 | fora | adaptação em 24 meses e estratégia inicial (transição esgotada) |
+| art. 92 | coberto | revisto em f2-fechamento (D53): o parágrafo único veda transferência voluntária da União ao ente que não informa suas estatais ao Registro de Empresas; está em obj:recursos-federais-repassados-por-convenio, com as demais vedações da LRF. O caput (cadastro público) é dever de informação |
+| arts. 93 a 96 | fora | limite de publicidade, sanções da Lei Anticorrupção e revogações |
 | art. 97 | coberto | norma:lei-13303-2016 (vigência) |
 
-Vetado (fora da conta): art. 21. Conta: 97 artigos vigentes; coberto 42, fora 55, parcial 0, lacuna 0; cobertura = 100,0%.
+Vetado (fora da conta): art. 21. Conta: 97 artigos vigentes; coberto 42, fora 55, parcial 0, lacuna 0; cobertura = 100,0%. Conta revista em f2-fechamento (2026-11-14): art. 92 passa a coberto; coberto 43, fora 54; cobertura = 100,0%.
 
 ### Lei 12.813/2013 (conflito de interesses)
 

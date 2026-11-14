@@ -19,7 +19,7 @@
         "cargo:presidente-da-republica"
       ],
       "acao": "Deputado, senador, comissão ou Mesa apresenta o projeto de resolução",
-      "detalhes": "Na Câmara, qualquer deputado ou comissão pode apresentar, salvo matéria de iniciativa privativa da Mesa ou de outro colegiado. No Senado, o regimento pode ser alterado por projeto de qualquer senador, da Comissão Diretora ou de comissão temporária. O Regimento Comum só muda por iniciativa das Mesas das duas Casas ou de 100 parlamentares (20 senadores e 80 deputados). O Presidente da República pede a delegação legislativa e propõe ao Senado limites da dívida.",
+      "detalhes": "Na Câmara, qualquer deputado ou comissão pode apresentar, salvo matéria de iniciativa privativa da Mesa ou de outro colegiado. Na reforma do Regimento da Câmara, a iniciativa é de deputado, da Mesa, de comissão permanente ou de comissão especial criada para isso. No Senado, o regimento pode ser alterado por projeto de qualquer senador, da Comissão Diretora ou de comissão temporária. O Regimento Comum só muda por iniciativa das Mesas das duas Casas ou de 100 parlamentares (20 senadores e 80 deputados). O Presidente da República pede a delegação legislativa e propõe ao Senado limites da dívida.",
       "fontes": [
         {
           "ref": "norma:cf-1988",
@@ -27,7 +27,7 @@
         },
         {
           "ref": "norma:ricd",
-          "dispositivo": "art. 109, III e § 2º"
+          "dispositivo": "art. 109, III e § 2º; art. 216, caput"
         },
         {
           "ref": "norma:risf",
@@ -58,14 +58,15 @@
       "atores": [
         "cargo:presidente-da-camara-dos-deputados",
         "org:comissoes-da-camara-dos-deputados",
-        "org:ccjc-camara"
+        "org:ccjc-camara",
+        "org:mesa-da-camara-dos-deputados"
       ],
       "acao": "As comissões da Câmara dão parecer; o projeto de resolução sempre vai ao Plenário",
-      "detalhes": "A apreciação conclusiva das comissões da Câmara vale só para projetos de lei (RICD, art. 24, II). Algumas resoluções têm rito próprio, como a perda de mandato (ver proc:perda-de-mandato-parlamentar) e a criação de CPI (ver proc:comissao-parlamentar-de-inquerito).",
+      "detalhes": "A apreciação conclusiva das comissões da Câmara vale só para projetos de lei (RICD, art. 24, II). Algumas resoluções têm rito próprio, como a perda de mandato (ver proc:perda-de-mandato-parlamentar) e a criação de CPI (ver proc:comissao-parlamentar-de-inquerito). O projeto que altera o Regimento Interno fica cinco sessões na Ordem do Dia para receber emendas e vai à CCJC, à comissão especial que o elaborou e à Mesa; as comissões têm cinco sessões para a simples modificação e vinte para a reforma (RICD, art. 216, §§ 1º a 3º).",
       "fontes": [
         {
           "ref": "norma:ricd",
-          "dispositivo": "art. 24, I e II; art. 109, III"
+          "dispositivo": "art. 24, I e II; art. 109, III; art. 216, §§ 1º a 3º"
         }
       ],
       "remete_a": "proc:lei-ordinaria",
@@ -83,7 +84,7 @@
         "org:plenario-da-camara-dos-deputados"
       ],
       "acao": "O Plenário da Câmara vota; em regra, aprova por maioria dos votos, presente a maioria absoluta",
-      "detalhes": "A perda de mandato exige maioria absoluta (art. 55, § 2º).",
+      "detalhes": "A perda de mandato exige maioria absoluta (art. 55, § 2º). A alteração do Regimento Interno é votada em dois turnos, cada um com ao menos duas sessões de discussão (RICD, art. 216, §§ 4º e 5º).",
       "quorum": {
         "regra": "maioria-simples",
         "nota": "Regra geral do art. 47."
@@ -92,6 +93,10 @@
         {
           "ref": "norma:cf-1988",
           "dispositivo": "art. 47; art. 55, § 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 216, §§ 4º a 7º"
         }
       ],
       "seguintes": [
@@ -295,7 +300,7 @@
     },
     {
       "ref": "norma:ricd",
-      "dispositivo": "art. 17, VI, m; art. 109, III"
+      "dispositivo": "art. 17, VI, m; art. 109, III; art. 216"
     },
     {
       "ref": "norma:risf",
@@ -309,9 +314,9 @@
   "confianca": "oficial",
   "notas": "Decisões de modelagem: (1) um só processo para as três origens, como obj:resolucao; a Casa aparece no 'quando' da iniciativa. (2) A etapa 'congresso-sessao-conjunta' remete a proc:lei-delegada, porque a delegação é o caso principal de resolução do Congresso; o Regimento Comum segue o RCCN, art. 128. (3) O RICD não tem regra de arquivamento própria para a resolução rejeitada em Plenário; a etapa 'arquivamento' cita só o RISF. (4) Sem etapa de publicação: as normas consultadas não dizem quem manda publicar a resolução; a revisão procurou de novo no RICD, no RISF e no RCCN, sem achar regra. O prazo de promulgação da Câmara (RICD, art. 200, § 2º) entrou na revisão. RICD lido em pesquisa/brutos/camara/2026-10-23/ricd-normaatualizada.html; RISF e RCCN nos PDFs de pesquisa/brutos/senado/2026-10-23-processos-legislativos/ (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-processos-legislativos",
-    "notas": "coletado em f0-processos-legislativos; conferidas as 9 etapas e os remete_a contra CF, arts. 47, 48, 52, VI, 53, § 8º, 55, § 2º, 57, §§ 3º, II, e 5º, 58, § 2º, I, 59, VII, 68 e 155, § 2º, IV e V; RICD, arts. 17, VI, m, 24, 109 e 200; RISF, arts. 48, XXVIII, 91, 213, 254, 288 e 401; RCCN, arts. 52, 116 a 122 e 128; corrigida a lista de exceções à decisão terminativa e acrescentado o prazo de promulgação na Câmara"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: reforma do Regimento da Câmara (RICD, art. 216) nas etapas iniciativa, camara-comissoes (Mesa da Câmara acrescentada como ator) e camara-plenario, como já estava o RISF, art. 401; antes verificado em verificacao-f0-processos-legislativos"
   }
 }

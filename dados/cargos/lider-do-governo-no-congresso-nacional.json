@@ -1,0 +1,40 @@
+{
+  "id": "cargo:lider-do-governo-no-congresso-nacional",
+  "tipo": "cargo",
+  "nome": "Líder do Governo no Congresso Nacional",
+  "resumo": "Parlamentar indicado pelo Presidente da República para liderar o Governo nas sessões conjuntas; indica até 18 vice-líderes entre os partidos governistas.",
+  "orgao": "org:liderancas-do-congresso-nacional",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "Indicado pelo Presidente da República entre os congressistas (RCCN, art. 4º, § 1º); indica até 18 vice-líderes entre as representações que apoiam o governo (§ 2º).",
+  "vagas": 1,
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Sem prazo fixo."
+  },
+  "requisitos": [
+    {
+      "texto": "ser deputado federal ou senador",
+      "fontes": []
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "art. 4º, §§ 1º, 2º e 9º; art. 8º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Data não pesquisada; previsto no RCCN em vigor."
+  },
+  "confianca": "oficial",
+  "notas": "'nomeacao-livre' é o termo mais próximo, como nos líderes do Governo em cada Casa. Ocupante em 2026-10-01 não pesquisado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (RCCN, art. 4º, era fora no quadro; verificacao-f2-legislativo-tcu)"
+  }
+}

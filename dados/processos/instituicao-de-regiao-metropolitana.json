@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Instituição de região metropolitana ou aglomeração urbana",
   "resumo": "Depois de estudos técnicos e audiências públicas, o estado institui a região metropolitana por lei complementar, que define municípios, funções comuns e governança.",
-  "detalhes": "Região metropolitana é a aglomeração urbana que configura uma metrópole, pelos critérios do IBGE; a que não atende ao conceito é tratada como aglomeração urbana nas políticas federais (Lei 13.089/2015, arts. 2º, V e VII, 5º, § 2º, e 15). Desde 2015, unidades que envolvem municípios de mais de um estado são criadas por leis complementares de cada estado, sem prejuízo dos consórcios intermunicipais (arts. 4º e 22, parágrafo único).",
+  "detalhes": "Desde a Lei 13.683/2018, região metropolitana é a unidade regional que o estado institui por lei complementar, agrupando municípios limítrofes para funções públicas de interesse comum (Lei 13.089/2015, art. 2º, VII); a redação original exigia que ela configurasse uma metrópole. A região que não atende a esse conceito é tratada como aglomeração urbana nas políticas federais (arts. 5º, § 2º, e 15). Desde 2015, unidades que envolvem municípios de mais de um estado são criadas por leis complementares de cada estado, sem prejuízo dos consórcios intermunicipais (arts. 4º e 22, parágrafo único).",
   "forma": "linha",
   "vigencia": {
     "de": "2015-01-13",
@@ -85,8 +85,9 @@
     }
   ],
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-11",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: detalhes corrigidos (definição de região metropolitana pela Lei 13.683/2018, art. 2º, VII)"
   }
 }

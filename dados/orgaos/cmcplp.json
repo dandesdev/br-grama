@@ -1,0 +1,42 @@
+{
+  "id": "org:cmcplp",
+  "tipo": "orgao",
+  "nome": "Comissão Mista do Congresso Nacional de Assuntos Relacionados à Comunidade dos Países de Língua Portuguesa",
+  "sigla": "CMCPLP",
+  "resumo": "Comissão do Congresso que liga o Parlamento brasileiro à Assembleia Parlamentar da CPLP e dá parecer sobre os tratados e matérias de interesse da Comunidade.",
+  "detalhes": "Tem seis titulares, quatro deputados e dois senadores, com igual número de suplentes, designados pelo Presidente da Mesa do Congresso. Examina o mérito dos atos internacionais de interesse da CPLP e oferece o projeto de decreto legislativo, que segue para as comissões e o Plenário da Câmara e depois do Senado. Representa o Congresso nas sessões da Assembleia Parlamentar da CPLP.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-2-2014",
+          "dispositivo": "art. 2º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-2-2014",
+      "dispositivo": "arts. 2º a 7º, 9º e 12"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-01-17",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 2/2014-CN, que revogou as resoluções anteriores sobre a representação na CPLP (Res. 2/1998-CN e 1/2005-CN); a história anterior não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "Sigla da lista de siglas da edição oficial do Regimento Comum (2025). Não aparece na lista de comissões mistas dos dados abertos do Senado (fonte:senado-api-comissoes-mistas, versão de 28/10/2026); a resolução não fixa prazo de funcionamento. Pelo art. 5º, parágrafo único, o Presidente da Mesa do Congresso é considerado o Presidente do Parlamento na AP-CPLP. O rito do art. 4º é o do decreto legislativo (proc:decreto-legislativo), com a comissão no lugar do exame inicial; fica no detalhes (D50).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (lacuna apontada por verificacao-f2-legislativo-tcu)"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rel:camara-delibera-sobre-prisao-de-deputado",
+  "tipo": "relacao",
+  "nome": "Câmara resolve sobre a prisão em flagrante de deputado",
+  "relacao": "delibera",
+  "de": "org:camara-dos-deputados",
+  "para": "cargo:deputado-federal",
+  "condicao": "Só prisão em flagrante de crime inafiançável, única permitida desde a diplomação. Os autos vão à Câmara em 24 horas; a CCJC dá parecer em até 72 horas sobre manter ou não a prisão, e o Plenário decide pelo voto da maioria dos membros.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Voto da maioria dos membros da Casa (CF, art. 53, § 2º): 257 de 513."
+  },
+  "vigencia": {
+    "de": "2001-12-21",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 53, § 2º"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "art. 250; art. 251, I, V e parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Redação da EC 35/2001 (DOU de 21/12/2001, como em rel:camara-susta-acao-penal-contra-deputado). Antes dela a Casa decidia por voto secreto e autorizava ou não a formação de culpa; a EC tirou as duas coisas do texto. O RICD, art. 251, ainda fala em voto secreto e, nos incisos II e IV, em licença para o processo e formação de culpa, regras da redação original da CF; vale a CF (sem aviso, como na decisão do coordenador de 2026-11-11 sobre a CF contra a lei). 'delibera' é o verbo mais próximo: a Casa decide se a prisão se mantém. No recesso, a decisão cabe à Comissão Representativa, se o Regimento Comum dispuser, ou à Mesa, ad referendum do Plenário (art. 251, parágrafo único).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (RICD, arts. 250 e 251, eram fora no quadro; verificacao-f2-legislativo-tcu)"
+  }
+}

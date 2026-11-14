@@ -140,6 +140,10 @@
         {
           "para": "camara-plenario",
           "quando": "Projeto sujeito ao Plenário: urgência, iniciativa popular, projeto de comissão ou de código, pareceres divergentes e outros casos"
+        },
+        {
+          "para": "arquivamento-fim-da-legislatura",
+          "quando": "A legislatura termina antes de a Casa concluir a votação"
         }
       ],
       "quorum": {
@@ -233,6 +237,10 @@
         {
           "para": "arquivamento",
           "quando": "Rejeitado"
+        },
+        {
+          "para": "arquivamento-fim-da-legislatura",
+          "quando": "A legislatura termina antes de a Casa concluir a votação"
         }
       ],
       "quorum": {
@@ -291,6 +299,10 @@
         {
           "para": "arquivamento",
           "quando": "Projeto sujeito ao Plenário com parecer da CCJ pela inconstitucionalidade e injuridicidade, ou com pareceres contrários quanto ao mérito, sem recurso de um décimo dos senadores"
+        },
+        {
+          "para": "arquivamento-fim-da-legislatura",
+          "quando": "A legislatura termina antes de a Casa concluir a votação"
         }
       ],
       "quorum": {
@@ -384,6 +396,10 @@
         {
           "para": "arquivamento",
           "quando": "Rejeitado"
+        },
+        {
+          "para": "arquivamento-fim-da-legislatura",
+          "quando": "A legislatura termina antes de a Casa concluir a votação"
         }
       ],
       "quorum": {
@@ -782,6 +798,34 @@
         }
       ],
       "seguintes": []
+    },
+    {
+      "id": "arquivamento-fim-da-legislatura",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "Ao fim da legislatura, o projeto que ainda tramita na Casa é arquivado, salvo as exceções de cada regimento",
+      "detalhes": "Na Câmara, os projetos de lei só são arquivados depois de tramitar por três legislaturas completas, e alguns nunca, como os de iniciativa popular, os projetos de código e os já aprovados pela Câmara e revistos pelo Senado (RICD, art. 105). No Senado, escapam do arquivamento, entre outros, os projetos vindos da Câmara, os de senadores que continuam no mandato e os que têm parecer favorável das comissões; mas todo projeto que tramita há duas legislaturas é arquivado, salvo se um terço dos senadores pedir a continuação e o Plenário aprovar (RISF, art. 332).",
+      "prazo": {
+        "texto": "Fim da legislatura (quatro anos, CF, art. 44, parágrafo único)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 44, parágrafo único"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 105"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 332"
+        }
+      ],
+      "seguintes": []
     }
   ],
   "vigencia": {
@@ -829,10 +873,10 @@
   "confianca": "oficial",
   "notas": "Decisões de modelagem: (1) as etapas de cada Casa são únicas e servem tanto à casa iniciadora quanto à revisora; o papel da Casa aparece no 'quando'. (2) A urgência constitucional é o regime 'urgencia-constitucional', que muda prazos de várias etapas e pode ser pedida em qualquer fase. (3) A etapa 'vigencia' é um fim sem ator: a lei entra em vigor pelo decurso do prazo fixado no texto aprovado (LC 95, art. 8º) ou na LINDB. (4) Nenhuma norma diz quem manda publicar a lei quando a promulgação é feita pelo Presidente ou Vice-Presidente do Senado; a etapa 'publicacao' mantém o Presidente da República (CF, art. 84, IV) e a Imprensa Nacional (ver aviso:publicacao-apos-promulgacao-supletiva). (5) O caminho do projeto do PGR para a Câmara se apoia no RICD, art. 109, § 1º, VII; o art. 64 da CF não menciona o PGR (ver aviso:casa-iniciadora-projeto-do-pgr). (6) Iniciativas específicas fora do art. 61 (CF, arts. 51, IV, 52, XIII, 73 c/c 96, 127, § 2º, e 134, § 4º) não foram modeladas como atores. (7) RISF e RCCN conferidos em texto oficial atualizado até julho de 2025; a API de legislação do Senado não mostra resoluções posteriores que os alterem (ver aviso:risf-rccn-compilacao-ate-julho-2025).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-legislativo-tcu",
-    "notas": "coletado em f2-legislativo-tcu (acrescentados os regimes urgencia-regimental-camara (RICD, arts. 152 a 157) e urgencia-regimental-senado (RISF, arts. 336 a 338 e 345)); antes verificado em verificacao-piloto-processo-lei; conferidos só os regimes novos: urgencia-regimental-camara contra RICD, arts. 24, II, h, 151, I, o, e 152 a 157 (quem pede, art. 154; votação imediata com maioria absoluta, art. 155; limite de duas urgências, art. 154, § 2º; prazo de duas sessões das comissões e parecer em Plenário, art. 157, §§ 1º e 2º; três minutos por orador, art. 157, § 3º) e urgencia-regimental-senado contra RISF, arts. 336 a 338, 340 e 345 (hipóteses, legitimados, o que não se dispensa, terminativos só com recurso de um décimo, prazos imediato/2ª/4ª sessão)"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: acrescentada a etapa 'arquivamento-fim-da-legislatura' (RICD, art. 105; RISF, art. 332), com saídas das comissões e dos Plenários das duas Casas; antes verificado em verificacao-f2-legislativo-tcu"
   },
   "regimes": [
     {

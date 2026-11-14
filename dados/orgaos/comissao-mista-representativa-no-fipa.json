@@ -1,0 +1,41 @@
+{
+  "id": "org:comissao-mista-representativa-no-fipa",
+  "tipo": "orgao",
+  "nome": "Comissão Mista Representativa do Congresso Nacional no Fórum Interparlamentar das Américas",
+  "resumo": "Comissão permanente do Congresso que o representa no Fórum Interparlamentar das Américas, com os direitos e deveres de membro.",
+  "detalhes": "Tem dez deputados e dez senadores, com igual número de suplentes. A resolução lhe dá caráter permanente e prazo indeterminado. A contribuição anual ao Fórum é paga ora pela Câmara, ora pelo Senado.",
+  "tipo_orgao": "legislativo-orgao-interno",
+  "poder": "legislativo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:congresso-nacional",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cn-2-2007",
+          "dispositivo": "art. 1º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cn-2-2007",
+      "dispositivo": "arts. 1º a 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-11-22",
+    "ate": null,
+    "nota": "Publicação da Resolução nº 2/2007-CN."
+  },
+  "confianca": "oficial",
+  "notas": "Sem sigla: FIPA é a sigla do Fórum, e a edição oficial do Regimento Comum não dá sigla própria à Comissão.Não aparece na lista de comissões mistas dos dados abertos do Senado (fonte:senado-api-comissoes-mistas, versão de 28/10/2026), mas a resolução está em vigor e lhe dá prazo indeterminado (art. 3º, parágrafo único); composição em 2026-10-01 não pesquisada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a (lacuna apontada por verificacao-f2-legislativo-tcu)"
+  }
+}
