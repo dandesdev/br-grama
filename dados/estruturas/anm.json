@@ -2,7 +2,7 @@
   "id": "est:anm",
   "tipo": "estrutura",
   "nome": "Estrutura de Agência Nacional de Mineração no SIORG",
-  "resumo": "1 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "resumo": "121 unidades criadas por lei ou decreto ou nos dois primeiros níveis de ato interno, segundo o SIORG em 14/11/2026.",
   "de": "org:anm",
   "siorg": "222120",
   "consulta": "2026-11-14",
@@ -13,9 +13,730 @@
       "sigla": "DIRC",
       "pai": "222120",
       "colegiada": true
+    },
+    {
+      "codigo": "9708",
+      "nome": "Gerência Regional da ANM no Estado do Amazonas",
+      "sigla": "GER-AM",
+      "pai": "222120"
+    },
+    {
+      "codigo": "501170",
+      "nome": "Assessoria de Projetos Especiais",
+      "sigla": "ASPES",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9741",
+      "nome": "Gerência Regional da ANM no Estado da Paraíba",
+      "sigla": "GER-PB",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9710",
+      "nome": "Gerência Regional da ANM no Estado do Ceará",
+      "sigla": "GER-CE",
+      "pai": "222120"
+    },
+    {
+      "codigo": "106847",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9707",
+      "nome": "Gerência Regional da ANM no Estado da Bahia",
+      "sigla": "GER-BA",
+      "pai": "222120"
+    },
+    {
+      "codigo": "238005",
+      "nome": "Assessoria Parlamentar",
+      "sigla": "ASPAR",
+      "pai": "222120"
+    },
+    {
+      "codigo": "235854",
+      "nome": "Assessoria de Comunicação",
+      "sigla": "ASCOM",
+      "pai": "222120"
+    },
+    {
+      "codigo": "252042",
+      "nome": "Diretoria 2",
+      "sigla": "GAB-D2",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9718",
+      "nome": "Gerência Regional da ANM no Estado do Mato Grosso",
+      "sigla": "GER-MT",
+      "pai": "222120"
+    },
+    {
+      "codigo": "238010",
+      "nome": "Gerência Regional da ANM no Estado do Amapá",
+      "sigla": "GER-AP",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9740",
+      "nome": "Gerência Regional da ANM no Estado do Rio Grande do Norte",
+      "sigla": "GER-RN",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9709",
+      "nome": "Gerência Regional da ANM no Estado do Rio de Janeiro",
+      "sigla": "GER-RJ",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9673",
+      "nome": "Gerência Regional da ANM no Estado de São Paulo",
+      "sigla": "GER-SP",
+      "pai": "222120"
+    },
+    {
+      "codigo": "47788",
+      "nome": "Superintendência de Administração e Finanças",
+      "sigla": "SAF",
+      "pai": "222120"
+    },
+    {
+      "codigo": "252044",
+      "nome": "Diretoria 4",
+      "sigla": "GAB-D4",
+      "pai": "222120"
+    },
+    {
+      "codigo": "252041",
+      "nome": "Diretoria 1",
+      "sigla": "GAB-D1",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9762",
+      "nome": "Gerência Regional da ANM no Estado de Alagoas",
+      "sigla": "GER-AL",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9672",
+      "nome": "Gerência Regional da ANM no Estado do Rio Grande do Sul",
+      "sigla": "GER-RS",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9758",
+      "nome": "Gerência Regional da ANM no Estado do Piauí",
+      "sigla": "GER-PI",
+      "pai": "222120"
+    },
+    {
+      "codigo": "8551",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "222120"
+    },
+    {
+      "codigo": "295240",
+      "nome": "Superintendência de Tecnologia da Informação e Inovação",
+      "sigla": "STI",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9706",
+      "nome": "Gerência Regional da ANM no Estado de Goiás",
+      "sigla": "GER-GO",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9704",
+      "nome": "Gerência Regional da ANM no Estado de Pernambuco",
+      "sigla": "GER-PE",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9743",
+      "nome": "Gerência Regional da ANM no Estado do Tocantins",
+      "sigla": "GER-TO",
+      "pai": "222120"
+    },
+    {
+      "codigo": "296348",
+      "nome": "Superintendência de Fiscalização",
+      "sigla": "SFI",
+      "pai": "222120"
+    },
+    {
+      "codigo": "235945",
+      "nome": "Superintendência de Gestão de Pessoas",
+      "sigla": "SGP",
+      "pai": "222120"
+    },
+    {
+      "codigo": "251139",
+      "nome": "Superintendência de Arrecadação e Fiscalização de Receitas",
+      "sigla": "SAR",
+      "pai": "222120"
+    },
+    {
+      "codigo": "106854",
+      "nome": "Corregedoria",
+      "sigla": "COR",
+      "pai": "222120"
+    },
+    {
+      "codigo": "295266",
+      "nome": "Superintendência de Segurança de Barragens e Pilhas de Mineração",
+      "sigla": "SBP",
+      "pai": "222120"
+    },
+    {
+      "codigo": "73309",
+      "nome": "Auditoria Interna Governamental",
+      "sigla": "AIG",
+      "pai": "222120"
+    },
+    {
+      "codigo": "235861",
+      "nome": "Superintendência de Planejamento e Estratégia",
+      "sigla": "SPE",
+      "pai": "222120"
+    },
+    {
+      "codigo": "252043",
+      "nome": "Diretoria 3",
+      "sigla": "GAB-D3",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9748",
+      "nome": "Gerência Regional da ANM no Estado de Rondônia",
+      "sigla": "GER-RO",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9705",
+      "nome": "Gerência Regional da ANM no Estado do Pará",
+      "sigla": "GER-PA",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9691",
+      "nome": "Gerência Regional da ANM no Estado de Minas Gerais",
+      "sigla": "GER-MG",
+      "pai": "222120"
+    },
+    {
+      "codigo": "489809",
+      "nome": "Gerência Regional da ANM no Estado de Roraima",
+      "sigla": "GER-RR",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9739",
+      "nome": "Gerência Regional da ANM no Estado do Paraná",
+      "sigla": "GER-PR",
+      "pai": "222120"
+    },
+    {
+      "codigo": "8567",
+      "nome": "Superintendência de Outorga de Títulos Minerários",
+      "sigla": "SOT",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9749",
+      "nome": "Gerência Regional da ANM no Estado do Espírito Santo",
+      "sigla": "GER-ES",
+      "pai": "222120"
+    },
+    {
+      "codigo": "499332",
+      "nome": "Superintendência de Política Regulatória",
+      "sigla": "SPR",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9759",
+      "nome": "Gerência Regional da ANM no Estado do Maranhão",
+      "sigla": "GER-MA",
+      "pai": "222120"
+    },
+    {
+      "codigo": "8549",
+      "nome": "Gabinete do Diretor-Geral",
+      "sigla": "GAB-DG",
+      "pai": "222120"
+    },
+    {
+      "codigo": "234062",
+      "nome": "Secretaria-Geral",
+      "sigla": "SG",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9760",
+      "nome": "Gerência Regional da ANM no Estado do Mato Grosso do Sul",
+      "sigla": "GER-MS",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9747",
+      "nome": "Gerência Regional da ANM no Estado de Sergipe",
+      "sigla": "GER-SE",
+      "pai": "222120"
+    },
+    {
+      "codigo": "9717",
+      "nome": "Gerência Regional da ANM no Estado de Santa Catarina",
+      "sigla": "GER-SC",
+      "pai": "222120"
+    },
+    {
+      "codigo": "499429",
+      "nome": "Superintendência de Economia Mineral e Geoinformação",
+      "sigla": "SEG",
+      "pai": "222120"
+    },
+    {
+      "codigo": "501189",
+      "nome": "Coordenação de Gestão e Execução de Projetos Especiais",
+      "sigla": "CORGEP",
+      "pai": "501170"
+    },
+    {
+      "codigo": "500790",
+      "nome": "Divisão de Atendimento aos Usuários",
+      "sigla": "DIVATE",
+      "pai": "106847"
+    },
+    {
+      "codigo": "500769",
+      "nome": "Divisão de Transparência e Dados Abertos",
+      "sigla": "DIVTDA",
+      "pai": "106847"
+    },
+    {
+      "codigo": "501711",
+      "nome": "Gerência Executiva de Logistica",
+      "sigla": "GLOGI",
+      "pai": "47788"
+    },
+    {
+      "codigo": "501712",
+      "nome": "Gerência Executiva de Administração e Finanças",
+      "sigla": "GADFI",
+      "pai": "47788"
+    },
+    {
+      "codigo": "489569",
+      "nome": "Gerência de Apoio Administrativo da PFE",
+      "sigla": "GEPFE",
+      "pai": "8551"
+    },
+    {
+      "codigo": "106552",
+      "nome": "Divisão de Assuntos Administrativos",
+      "sigla": "DIVADM",
+      "pai": "8551"
+    },
+    {
+      "codigo": "247930",
+      "nome": "Divisão de Assuntos de Cobrança",
+      "sigla": "DIVCOB",
+      "pai": "8551"
+    },
+    {
+      "codigo": "295141",
+      "nome": "Subprocuradoria Federal Especializada",
+      "sigla": "SPFE",
+      "pai": "8551"
+    },
+    {
+      "codigo": "106553",
+      "nome": "Divisão de Assuntos Minerários",
+      "sigla": "DIVAMI",
+      "pai": "8551"
+    },
+    {
+      "codigo": "501690",
+      "nome": "Gerência de Projetos e Inovação em Tecnologia da Informação",
+      "sigla": "GEPTI",
+      "pai": "295240"
+    },
+    {
+      "codigo": "501669",
+      "nome": "Gerência de Operação de Tecnologia da Informação",
+      "sigla": "GEOPE",
+      "pai": "295240"
+    },
+    {
+      "codigo": "296354",
+      "nome": "Gerência de Inteligência Fiscalizatória",
+      "sigla": "GEINF",
+      "pai": "296348"
+    },
+    {
+      "codigo": "296349",
+      "nome": "Gerência de Fiscalização da Atividade Mineral",
+      "sigla": "GEFAM",
+      "pai": "296348"
+    },
+    {
+      "codigo": "499071",
+      "nome": "Gerência de Sustentabilidade e Fechamento de Mina",
+      "sigla": "GEFEM",
+      "pai": "296348"
+    },
+    {
+      "codigo": "439169",
+      "nome": "Gerência de Combate à Atividade Mineral Não Autorizada",
+      "sigla": "GECAM",
+      "pai": "296348"
+    },
+    {
+      "codigo": "499149",
+      "nome": "Gerência Fiscalizatória",
+      "sigla": "GEFIS",
+      "pai": "296348"
+    },
+    {
+      "codigo": "439069",
+      "nome": "Gerência de Saúde e Qualidade de Vida no Trabalho",
+      "sigla": "GESQV",
+      "pai": "235945"
+    },
+    {
+      "codigo": "235946",
+      "nome": "Gerência de Administração de Pessoal",
+      "sigla": "GEPES",
+      "pai": "235945"
+    },
+    {
+      "codigo": "235948",
+      "nome": "Gerência de Desenvolvimento de Pessoas",
+      "sigla": "GEDEP",
+      "pai": "235945"
+    },
+    {
+      "codigo": "496849",
+      "nome": "Gerência de Cobrança das Demais Receitas",
+      "sigla": "GECOR",
+      "pai": "251139"
+    },
+    {
+      "codigo": "308761",
+      "nome": "Gerência de Receitas",
+      "sigla": "GEREC",
+      "pai": "251139"
+    },
+    {
+      "codigo": "308610",
+      "nome": "Gerência de Fiscalização da CFEM",
+      "sigla": "GEFIC",
+      "pai": "251139"
+    },
+    {
+      "codigo": "497470",
+      "nome": "Gerência de Projetos, Regulação e Estratégias Arrecadatórias",
+      "sigla": "GEPRE",
+      "pai": "251139"
+    },
+    {
+      "codigo": "308759",
+      "nome": "Gerência de Contencioso Administrativo e Judicial da CFEM",
+      "sigla": "GECON",
+      "pai": "251139"
+    },
+    {
+      "codigo": "308758",
+      "nome": "Gerência de Distribuição, Inovação e Transparência",
+      "sigla": "GEDIT",
+      "pai": "251139"
+    },
+    {
+      "codigo": "500849",
+      "nome": "Divisão de Admissibilidade e Investigação",
+      "sigla": "DIVAIN",
+      "pai": "106854"
+    },
+    {
+      "codigo": "500909",
+      "nome": "Divisão de Responsabilização e Acompanhamento Processual",
+      "sigla": "DIVRAP",
+      "pai": "106854"
+    },
+    {
+      "codigo": "499989",
+      "nome": "Gerência Interinstitucional e Contencioso de Barragens e Pilhas",
+      "sigla": "GEICON",
+      "pai": "295266"
+    },
+    {
+      "codigo": "499769",
+      "nome": "Gerência de Pilhas de Mineração",
+      "sigla": "GEPM",
+      "pai": "295266"
+    },
+    {
+      "codigo": "439170",
+      "nome": "Gerência de Fiscalização Remota de Barragens e Pilhas",
+      "sigla": "GEFRE",
+      "pai": "295266"
+    },
+    {
+      "codigo": "296337",
+      "nome": "Gerência de Barragens de Mineração",
+      "sigla": "GEBM",
+      "pai": "295266"
+    },
+    {
+      "codigo": "296336",
+      "nome": "Gerência de Riscos Geotécnicos em Barragens",
+      "sigla": "GERG",
+      "pai": "295266"
+    },
+    {
+      "codigo": "500991",
+      "nome": "Divisão de Relacionamento com Órgãos de Controle",
+      "sigla": "DIVROC",
+      "pai": "73309"
+    },
+    {
+      "codigo": "617632",
+      "nome": "Divisão de Gestão das Atividades de Auditoria Interna",
+      "sigla": "DIVAUD",
+      "pai": "73309"
+    },
+    {
+      "codigo": "297101",
+      "nome": "Gerência de Governança de Dados, Gestão Documental e Memória",
+      "sigla": "GEDOC",
+      "pai": "235861"
+    },
+    {
+      "codigo": "501549",
+      "nome": "Gerência de Conformidade e Riscos Institucionais",
+      "sigla": "GECONF",
+      "pai": "235861"
+    },
+    {
+      "codigo": "235864",
+      "nome": "Gerência de Projetos Institucionais e Gestão de Portfólio",
+      "sigla": "GEPROJ",
+      "pai": "235861"
+    },
+    {
+      "codigo": "501429",
+      "nome": "Gerência de Governança e Gestão Estratégica",
+      "sigla": "GEGEST",
+      "pai": "235861"
+    },
+    {
+      "codigo": "489789",
+      "nome": "Unidade Avançada de Itaituba",
+      "sigla": "UAI-PA",
+      "pai": "9705"
+    },
+    {
+      "codigo": "106865",
+      "nome": "Unidade Avançada de Poços de Caldas",
+      "sigla": "UAPC-MG",
+      "pai": "9691"
+    },
+    {
+      "codigo": "106861",
+      "nome": "Unidade Avançada de Governador Valadares",
+      "sigla": "UAGV-MG",
+      "pai": "9691"
+    },
+    {
+      "codigo": "617633",
+      "nome": "Unidade Avançada de Patos de Minas",
+      "sigla": "UAPM-MG",
+      "pai": "9691"
+    },
+    {
+      "codigo": "502032",
+      "nome": "Coordenação Regional de Outorga - São Paulo",
+      "sigla": "COROUT-SP",
+      "pai": "8567"
+    },
+    {
+      "codigo": "106561",
+      "nome": "Gerência de Outorga de Títulos de Lavra",
+      "sigla": "GETIL",
+      "pai": "8567"
+    },
+    {
+      "codigo": "439089",
+      "nome": "Gerência de Disponibilidade de Áreas",
+      "sigla": "GEDIS",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502034",
+      "nome": "Coordenação Regional de Outorga - Rio Grande do Sul",
+      "sigla": "COROUT-RS",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502036",
+      "nome": "Coordenação Regional de Outorga - Paraná/Mato Grosso do Sul",
+      "sigla": "COROUT-PR/MS",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502030",
+      "nome": "Coordenação Regional de Outorga - Bahia",
+      "sigla": "COROUT-BA",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502031",
+      "nome": "Coordenação Regional de Outorga - Pará/Amapá",
+      "sigla": "COROUT-PA/AP",
+      "pai": "8567"
+    },
+    {
+      "codigo": "501969",
+      "nome": "Gerência de Contencioso Minerário",
+      "sigla": "GECMI",
+      "pai": "8567"
+    },
+    {
+      "codigo": "106562",
+      "nome": "Gerência de Títulos Minerários",
+      "sigla": "GETIM",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502042",
+      "nome": "Coordenação Regional de Outorga - Tocantins/Piauí/Maranhão",
+      "sigla": "COROUT-TO/PI/MA",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502037",
+      "nome": "Coordenação Regional de Outorga - Espirito Santo/Rio de Janeiro",
+      "sigla": "COROUT-ES/RJ",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502038",
+      "nome": "Coordenação Regional de Outorga - Ceará/Pernambuco",
+      "sigla": "COROUT-CE/PE",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502040",
+      "nome": "Coordenação Regional de Outorga - Santa Catarina",
+      "sigla": "COROUT-SC",
+      "pai": "8567"
+    },
+    {
+      "codigo": "501809",
+      "nome": "Gerência de Autorização de Pesquisa",
+      "sigla": "GEPEM",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502039",
+      "nome": "Coordenação Regional de Outorga - Amazonas/Roraima/Rondônia/Acre",
+      "sigla": "COROUT-AM/RR/RO/AC",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502033",
+      "nome": "Coordenação Regional de Outorga - Goiás/Distrito Federal",
+      "sigla": "COROUT-GO/DF",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502029",
+      "nome": "Coordenação Regional de Outorga - Minas Gerais",
+      "sigla": "COROUT-MG",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502041",
+      "nome": "Coordenação Regional de Outorga - Rio Grande do Norte/Paraíba/Sergipe/Alagoas",
+      "sigla": "COROUT-RN/PB/SE/AL",
+      "pai": "8567"
+    },
+    {
+      "codigo": "502035",
+      "nome": "Coordenação Regional de Outorga - Mato Grosso",
+      "sigla": "COROUT-MT",
+      "pai": "8567"
+    },
+    {
+      "codigo": "499349",
+      "nome": "Gerência de Planejamento e Análise Regulatória",
+      "sigla": "GEPAR",
+      "pai": "499332"
+    },
+    {
+      "codigo": "499390",
+      "nome": "Gerência de Monitoramento e Avaliação Regulatória",
+      "sigla": "GEMAR",
+      "pai": "499332"
+    },
+    {
+      "codigo": "491329",
+      "nome": "Coordenação de Proteção de Dados Pessoais",
+      "sigla": "CORPDP",
+      "pai": "8549"
+    },
+    {
+      "codigo": "526390",
+      "nome": "Coordenação de Relações Internacionais",
+      "sigla": "CORINT",
+      "pai": "8549"
+    },
+    {
+      "codigo": "500609",
+      "nome": "Coordenação de Gestão de Processos e Deliberações",
+      "sigla": "CORGPD",
+      "pai": "234062"
+    },
+    {
+      "codigo": "564050",
+      "nome": "Setor de Publicação Oficial",
+      "sigla": "SETPUB",
+      "pai": "234062"
+    },
+    {
+      "codigo": "106862",
+      "nome": "Unidade Avançada de Criciúma",
+      "sigla": "UAC-SC",
+      "pai": "9717"
+    },
+    {
+      "codigo": "499510",
+      "nome": "Gerência de Estudos de Áreas",
+      "sigla": "GEAREA",
+      "pai": "499429"
+    },
+    {
+      "codigo": "106565",
+      "nome": "Gerência de Economia Mineral",
+      "sigla": "GEMIN",
+      "pai": "499429"
+    },
+    {
+      "codigo": "106568",
+      "nome": "Gerência de Geoinformação",
+      "sigla": "GEGEO",
+      "pai": "499429"
     }
   ],
-  "ato_interno": 48,
+  "ato_interno": 165,
+  "so_ato_interno": true,
   "vigencia": {
     "de": null,
     "ate": null
@@ -28,10 +749,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

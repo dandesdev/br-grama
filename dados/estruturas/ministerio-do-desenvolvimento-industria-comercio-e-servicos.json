@@ -2,7 +2,7 @@
   "id": "est:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
   "tipo": "estrutura",
   "nome": "Estrutura de Ministério do Desenvolvimento, Indústria, Comércio e Serviços no SIORG",
-  "resumo": "82 unidades criadas por lei ou decreto e 4 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "resumo": "78 unidades criadas por lei ou decreto e 4 entidades vinculadas, segundo o SIORG em 14/11/2026.",
   "de": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
   "siorg": "308814",
   "consulta": "2026-11-14",
@@ -92,12 +92,6 @@
       "sigla": "CNPCE",
       "pai": "308814",
       "colegiada": true
-    },
-    {
-      "codigo": "676756",
-      "nome": "Secretaria-Executiva do Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos",
-      "sigla": "SE-CIMCE",
-      "pai": "308814"
     },
     {
       "codigo": "230",
@@ -283,24 +277,6 @@
       "nome": "Departamento de Estatísticas e Estudos de Comércio Exterior",
       "sigla": "DIEST",
       "pai": "3215"
-    },
-    {
-      "codigo": "676816",
-      "nome": "Subsecretaria de Análise de Operações",
-      "sigla": "SUAO",
-      "pai": "676756"
-    },
-    {
-      "codigo": "676796",
-      "nome": "Subsecretaria de Projetos",
-      "sigla": "SUPRO",
-      "pai": "676756"
-    },
-    {
-      "codigo": "676776",
-      "nome": "Subsecretaria de Gestão e Assessoramento ao Pleno",
-      "sigla": "SUGEP",
-      "pai": "676756"
     },
     {
       "codigo": "218994",
@@ -562,7 +538,7 @@
       "sigla": "INPI"
     }
   ],
-  "ato_interno": 116,
+  "ato_interno": 359,
   "vigencia": {
     "de": null,
     "ate": null
@@ -575,10 +551,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

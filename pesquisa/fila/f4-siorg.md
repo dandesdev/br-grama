@@ -1,7 +1,7 @@
 ---
 id: f4-siorg
 escopo: "Fase 4 (D62): importador do SIORG e árvore de unidades internas no painel"
-status: coletada
+status: concluida
 depende_de: []
 ---
 
@@ -17,3 +17,4 @@ Tarefa do coordenador (código), não de agente de pesquisa.
 
 ## Diário
 - 2026-11-14 — importador `scripts/importar/siorg.ts` (baixar, gerar). Base resumida do SIORG baixada em 14/11/2026 (96.474 unidades; 3.782 de lei ou decreto). 91 raízes mapeadas (78 órgãos e entidades do SIORG com o mesmo nome ou sigla de um órgão do mapa, tirada a falsa coincidência CDC; 13 unidades internas que o mapa trata como órgão: Receita, PF, PRF, STN, SOF, SFC, Abin, Imprensa Nacional, comandos militares, EMCFA, Senappen). 4.420 unidades nas árvores; agências e autarquias sem unidade de lei ou decreto ganham os dois primeiros níveis de ato interno (`so_ato_interno`). Tipo `estrutura` (`est:`) no esquema, na validação e no modelo de dados; painel mostra a árvore recolhível e as entidades vinculadas. Conferido no navegador (Ministério da Saúde: 101 unidades, 405 de ato interno abaixo).
+- 2026-11-14 — correções de verificacao-f4-siorg aplicadas no script: recurso aos dois níveis de ato interno também quando a árvore só tem colegiados e para DPU e BNDES; `ato_interno` conta tudo o que está abaixo da raiz (MEC 544, RFB 2.833, PF 2.438); quatro unidades do MDIC criadas pelo Decreto 13.139/2026 (DOU de 19/10) ficam fora; estrutura vazia da Assessoria Especial do Presidente não é gravada; 33 unidades ligadas a órgãos do mapa (`mapa`). 90 estruturas geradas como verificadas. Casos sem correspondência no SIORG (Comissão de Anistia, Polícia Ferroviária Federal, Inspetoria-Geral das PMs, Núcleo de Segurança e Credenciamento como núcleo) ficam sem árvore.

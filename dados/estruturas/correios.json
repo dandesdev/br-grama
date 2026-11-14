@@ -2,7 +2,7 @@
   "id": "est:correios",
   "tipo": "estrutura",
   "nome": "Estrutura de Empresa Brasileira de Correios e Telégrafos no SIORG",
-  "resumo": "1 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "resumo": "70 unidades criadas por lei ou decreto ou nos dois primeiros níveis de ato interno, segundo o SIORG em 14/11/2026.",
   "de": "org:correios",
   "siorg": "74",
   "consulta": "2026-11-14",
@@ -13,9 +13,431 @@
       "sigla": "CINT/ECT",
       "pai": "74",
       "colegiada": true
+    },
+    {
+      "codigo": "241237",
+      "nome": "Diretoria de Governança e Estratégia",
+      "sigla": "DIGOE",
+      "pai": "74"
+    },
+    {
+      "codigo": "269995",
+      "nome": "Superintendências Estaduais",
+      "sigla": "SE",
+      "pai": "74"
+    },
+    {
+      "codigo": "292072",
+      "nome": "Comitê Executivo Orçamento Base Zero",
+      "sigla": "CEOBZ",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "424889",
+      "nome": "Departamento de Correição",
+      "sigla": "DECOR",
+      "pai": "74"
+    },
+    {
+      "codigo": "123591",
+      "nome": "Gabinete da Presidência",
+      "sigla": "GAPRE",
+      "pai": "74"
+    },
+    {
+      "codigo": "120494",
+      "nome": "Diretoria de Administração",
+      "sigla": "DIRAD",
+      "pai": "74"
+    },
+    {
+      "codigo": "304343",
+      "nome": "Comitê Pessoas, Elegibilidade, Remuneração e Sucessão",
+      "sigla": "COPES",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "120495",
+      "nome": "Diretoria Econômico-Financeira, Tecnologia e Segurança da Informação",
+      "sigla": "DIEFI",
+      "pai": "74"
+    },
+    {
+      "codigo": "115481",
+      "nome": "Diretoria Executiva",
+      "sigla": "DE",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "115480",
+      "nome": "Assembléia Geral",
+      "sigla": "AG",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "85708",
+      "nome": "Conselho Fiscal",
+      "sigla": "CF/ECT",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "120493",
+      "nome": "Diretoria de Operações",
+      "sigla": "DIOPE",
+      "pai": "74"
+    },
+    {
+      "codigo": "120497",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DIGEP",
+      "pai": "74"
+    },
+    {
+      "codigo": "123648",
+      "nome": "Superintendência-Executiva Jurídica",
+      "sigla": "SEJUR",
+      "pai": "74"
+    },
+    {
+      "codigo": "241855",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "74"
+    },
+    {
+      "codigo": "73035",
+      "nome": "Conselho de Administração",
+      "sigla": "CA/ECT",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "120496",
+      "nome": "Diretoria de Negócios",
+      "sigla": "DINEG",
+      "pai": "74"
+    },
+    {
+      "codigo": "424870",
+      "nome": "Gerencia de Suporte aos Julgamentos do CODIS",
+      "sigla": "GSJU",
+      "pai": "74"
+    },
+    {
+      "codigo": "241850",
+      "nome": "Comitê de Auditoria",
+      "sigla": "CA",
+      "pai": "74",
+      "colegiada": true
+    },
+    {
+      "codigo": "230126",
+      "nome": "Auditoria",
+      "sigla": "AUDIT",
+      "pai": "74"
+    },
+    {
+      "codigo": "124085",
+      "nome": "Superintendência Estadual N3 BSB",
+      "sigla": "SE-N3/BSB",
+      "pai": "241237"
+    },
+    {
+      "codigo": "124124",
+      "nome": "Superintendência Estadual N1 SPI",
+      "sigla": "SE-N1/SPI",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123743",
+      "nome": "Superintendência Estadual N4 MA",
+      "sigla": "SE-N4/MA",
+      "pai": "241237"
+    },
+    {
+      "codigo": "124116",
+      "nome": "Superintendência Estadual N2 SC",
+      "sigla": "SE-N2/SC",
+      "pai": "241237"
+    },
+    {
+      "codigo": "124097",
+      "nome": "Superintendência Estadual N3 PE",
+      "sigla": "SE-N3/PE",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123677",
+      "nome": "Superintendência Estadual N3 ES",
+      "sigla": "SE-N3/ES",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123900",
+      "nome": "Superintendência Estadual N2 RS",
+      "sigla": "SE-N2/RS",
+      "pai": "241237"
+    },
+    {
+      "codigo": "304331",
+      "nome": "Superintendência-Executiva de Governança",
+      "sigla": "SUGOV",
+      "pai": "241237"
+    },
+    {
+      "codigo": "244026",
+      "nome": "Superintendência-Executiva de Educação",
+      "sigla": "SUEDU",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123700",
+      "nome": "Superintendência Estadual N4 MS",
+      "sigla": "SE-N4/MS",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123972",
+      "nome": "Superintendência Estadual N3 GO",
+      "sigla": "SE-N3/GO",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123794",
+      "nome": "Superintendência Estadual N4 PI",
+      "sigla": "SE-N4/PI",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123651",
+      "nome": "Superintendência Estadual N4 Acre",
+      "sigla": "SE-N4/AC",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123661",
+      "nome": "Superintendência Estadual N4 RR",
+      "sigla": "SE-N4/RR",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123659",
+      "nome": "Superintendência Estadual N4 AL",
+      "sigla": "SE-N4/AL",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123889",
+      "nome": "Superintendência Estadual N2 PR",
+      "sigla": "SE-N2/PR",
+      "pai": "241237"
+    },
+    {
+      "codigo": "124133",
+      "nome": "Superintendência Estadual N1 SPM",
+      "sigla": "SE-N1/SPM",
+      "pai": "241237"
+    },
+    {
+      "codigo": "304333",
+      "nome": "Superintendência Executiva de Estratégia, Segurança e Comunicação",
+      "sigla": "SUESC",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123688",
+      "nome": "Superintendência Estadual N4 MT",
+      "sigla": "SE-N4/MT",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123812",
+      "nome": "Superintendência Estadual N4 RN",
+      "sigla": "SE-N4/RN",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123774",
+      "nome": "Superintendência Estadual N4 PB",
+      "sigla": "SE-N4/PB",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123823",
+      "nome": "Superintendência Estadual N4 SE",
+      "sigla": "SE-N4/SE",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123806",
+      "nome": "Superintendência Estadual N4 AP",
+      "sigla": "SE-N4/AP",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123757",
+      "nome": "Superintendência Estadual N3 PA",
+      "sigla": "SE-N3/PA",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123728",
+      "nome": "Superintendência Estadual N4 AM",
+      "sigla": "SE-N4/AM",
+      "pai": "241237"
+    },
+    {
+      "codigo": "124103",
+      "nome": "Superintendência Estadual N4 RO",
+      "sigla": "SE-N4/RO",
+      "pai": "241237"
+    },
+    {
+      "codigo": "124091",
+      "nome": "Superintendência Estadual N3 CE",
+      "sigla": "SE-N3/CE",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123894",
+      "nome": "Superintendência Estadual N1 RJ",
+      "sigla": "SE-N1/RJ",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123884",
+      "nome": "Superintendência Estadual N1 MG",
+      "sigla": "SE-N1/MG",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123879",
+      "nome": "Superintendência Estadual N2 BA",
+      "sigla": "SE-N2/BA",
+      "pai": "241237"
+    },
+    {
+      "codigo": "123871",
+      "nome": "Superintendência Estadual N4 TO",
+      "sigla": "SE-N4/TO",
+      "pai": "241237"
+    },
+    {
+      "codigo": "304325",
+      "nome": "Superintendência Executiva de Infraestrutura",
+      "sigla": "SUINF",
+      "pai": "120494"
+    },
+    {
+      "codigo": "304321",
+      "nome": "Superintendência Executiva de Licitações e Contratos",
+      "sigla": "SULIC",
+      "pai": "120494"
+    },
+    {
+      "codigo": "123641",
+      "nome": "Superintendência-Executiva de Tecnologia da Informação e Comunicação",
+      "sigla": "SUTIC",
+      "pai": "120495"
+    },
+    {
+      "codigo": "304320",
+      "nome": "Superintendência Executiva de Contabilidade",
+      "sigla": "SUCON",
+      "pai": "120495"
+    },
+    {
+      "codigo": "123612",
+      "nome": "Superintendência Executiva de Finanças, Controladoria e Parcerias",
+      "sigla": "SUFIN",
+      "pai": "120495"
+    },
+    {
+      "codigo": "244083",
+      "nome": "Superintendência-Executiva de Operações",
+      "sigla": "SUOPE",
+      "pai": "120493"
+    },
+    {
+      "codigo": "304341",
+      "nome": "Superintendência Executiva de Planejamento e Capacidade Operacional",
+      "sigla": "SUPLO",
+      "pai": "120493"
+    },
+    {
+      "codigo": "123635",
+      "nome": "Superintendência-Executiva de Gestão de Pessoas",
+      "sigla": "SUGEP",
+      "pai": "120497"
+    },
+    {
+      "codigo": "304438",
+      "nome": "Departamento Jurídico Contencioso",
+      "sigla": "DJCON",
+      "pai": "123648"
+    },
+    {
+      "codigo": "123649",
+      "nome": "Departamento Jurídico",
+      "sigla": "DEJUR",
+      "pai": "123648"
+    },
+    {
+      "codigo": "243898",
+      "nome": "Gerência de Análise e Informação",
+      "sigla": "GINF",
+      "pai": "241855"
+    },
+    {
+      "codigo": "243897",
+      "nome": "Gerência de Relacionamento",
+      "sigla": "GERE",
+      "pai": "241855"
+    },
+    {
+      "codigo": "304335",
+      "nome": "Superintendência Executiva de Gestão de Produtos",
+      "sigla": "SUPRO",
+      "pai": "120496"
+    },
+    {
+      "codigo": "123630",
+      "nome": "Superintendência Executiva de Canais de Vendas",
+      "sigla": "SUCAN",
+      "pai": "120496"
+    },
+    {
+      "codigo": "243895",
+      "nome": "Gerência de Auditorias Especializadas",
+      "sigla": "GAES",
+      "pai": "230126"
+    },
+    {
+      "codigo": "243892",
+      "nome": "Gerência de Auditorias em Atividades de Negócio",
+      "sigla": "GAAN",
+      "pai": "230126"
+    },
+    {
+      "codigo": "243891",
+      "nome": "Gerência de Planejamento, Organização e Controle de Auditorias",
+      "sigla": "GPOA",
+      "pai": "230126"
+    },
+    {
+      "codigo": "243896",
+      "nome": "Gerência de Auditorias em Atividades de Suporte",
+      "sigla": "GAAS",
+      "pai": "230126"
     }
   ],
-  "ato_interno": 20,
+  "ato_interno": 108,
+  "so_ato_interno": true,
   "vigencia": {
     "de": null,
     "ate": null
@@ -28,10 +450,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

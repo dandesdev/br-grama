@@ -12,7 +12,8 @@
       "nome": "Conselho da República",
       "sigla": "CR",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:conselho-da-republica"
     },
     {
       "codigo": "318541",
@@ -33,21 +34,24 @@
       "nome": "Conselho de Defesa Nacional",
       "sigla": "CDN",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:conselho-de-defesa-nacional"
     },
     {
       "codigo": "25276",
       "nome": "Conselho Nacional de Política Energética",
       "sigla": "CNPE",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:cnpe"
     },
     {
       "codigo": "214326",
       "nome": "Conselho do Programa de Parcerias de Investimentos",
       "sigla": "CPPI",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:conselho-do-programa-de-parcerias-de-investimentos"
     },
     {
       "codigo": "317717",
@@ -61,14 +65,16 @@
       "nome": "Conselho de Desenvolvimento Econômico Social Sustentável",
       "sigla": "CDESS",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:conselho-de-desenvolvimento-economico-social-sustentavel"
     },
     {
       "codigo": "309010",
       "nome": "Conselho Nacional de Segurança Alimentar e Nutricional",
       "sigla": "CONSEA",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:consea"
     },
     {
       "codigo": "314748",
@@ -82,7 +88,8 @@
       "nome": "Conselho de Governo",
       "sigla": "CG-PR",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:conselho-de-governo"
     },
     {
       "codigo": "315997",
@@ -96,7 +103,8 @@
       "nome": "Comissão de Ética Pública",
       "sigla": "CEP",
       "pai": "26",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:comissao-de-etica-publica"
     },
     {
       "codigo": "9154",
@@ -235,7 +243,8 @@
       "nome": "Câmara de Relações Exteriores e Defesa Nacional",
       "sigla": "CREDEN",
       "pai": "1932",
-      "colegiada": true
+      "colegiada": true,
+      "mapa": "org:creden"
     },
     {
       "codigo": "78218",
@@ -420,7 +429,7 @@
       "mapa": "org:banco-central"
     }
   ],
-  "ato_interno": 37,
+  "ato_interno": 63,
   "vigencia": {
     "de": null,
     "ate": null
@@ -433,10 +442,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

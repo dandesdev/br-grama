@@ -2,7 +2,7 @@
   "id": "est:anpd",
   "tipo": "estrutura",
   "nome": "Estrutura de Agência Nacional de Proteção de Dados no SIORG",
-  "resumo": "2 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "resumo": "54 unidades criadas por lei ou decreto ou nos dois primeiros níveis de ato interno, segundo o SIORG em 14/11/2026.",
   "de": "org:anpd",
   "siorg": "235884",
   "consulta": "2026-11-14",
@@ -20,9 +20,322 @@
       "sigla": "CNPDPP",
       "pai": "235884",
       "colegiada": true
+    },
+    {
+      "codigo": "615711",
+      "nome": "Gabinete IV",
+      "sigla": "GABDIR4",
+      "pai": "235884"
+    },
+    {
+      "codigo": "612572",
+      "nome": "Superintendência de Fiscalização",
+      "sigla": "SFI",
+      "pai": "235884"
+    },
+    {
+      "codigo": "612570",
+      "nome": "Auditoria",
+      "sigla": "AUD",
+      "pai": "235884"
+    },
+    {
+      "codigo": "241791",
+      "nome": "Corregedoria",
+      "sigla": "COR",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616494",
+      "nome": "Superintendência Executiva",
+      "sigla": "SE",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616913",
+      "nome": "Superintendência de Inovação Tecnológica",
+      "sigla": "SITEC",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616931",
+      "nome": "Superintendência de Relações Institucionais e Internacionais",
+      "sigla": "SRII",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616416",
+      "nome": "Assessoria Parlamentar",
+      "sigla": "ASPAR",
+      "pai": "235884"
+    },
+    {
+      "codigo": "617473",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "235884"
+    },
+    {
+      "codigo": "615611",
+      "nome": "Gabinete I",
+      "sigla": "GABDIR1",
+      "pai": "235884"
+    },
+    {
+      "codigo": "615691",
+      "nome": "Gabinete II",
+      "sigla": "GABDIR 2",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616911",
+      "nome": "Superintendência de Gestão Interna",
+      "sigla": "SGI",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616972",
+      "nome": "Superintendência de Regulação",
+      "sigla": "SRE",
+      "pai": "235884"
+    },
+    {
+      "codigo": "612050",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "235884"
+    },
+    {
+      "codigo": "302585",
+      "nome": "Procuradoria-Federal Especializada",
+      "sigla": "PFE",
+      "pai": "235884"
+    },
+    {
+      "codigo": "266851",
+      "nome": "Gabinete do Diretor Presidente",
+      "sigla": "GABPR",
+      "pai": "235884"
+    },
+    {
+      "codigo": "616414",
+      "nome": "Escritório do Encarregado pelo Tratamento de Dados Pessoais",
+      "sigla": "EETDP",
+      "pai": "235884"
+    },
+    {
+      "codigo": "615692",
+      "nome": "Gabinete III",
+      "sigla": "GABDIR3",
+      "pai": "235884"
+    },
+    {
+      "codigo": "615951",
+      "nome": "Coordenação-Geral de Sanções",
+      "sigla": "SFI-CGS",
+      "pai": "612572"
+    },
+    {
+      "codigo": "615891",
+      "nome": "Coordenação-Geral de Monitoramento",
+      "sigla": "SFI-CGM",
+      "pai": "612572"
+    },
+    {
+      "codigo": "616012",
+      "nome": "Coordenação-Geral de Incidentes de Segurança",
+      "sigla": "SFI-CGIS",
+      "pai": "612572"
+    },
+    {
+      "codigo": "266846",
+      "nome": "Coordenação-Geral de Fiscalização",
+      "sigla": "SFI-CGF",
+      "pai": "612572"
+    },
+    {
+      "codigo": "616372",
+      "nome": "Coordenação de Auditoria",
+      "sigla": "AUD-COAUD",
+      "pai": "612570"
+    },
+    {
+      "codigo": "289108",
+      "nome": "Coordenação de Apoio à Corregedoria",
+      "sigla": "COR-COAC",
+      "pai": "241791"
+    },
+    {
+      "codigo": "616552",
+      "nome": "Coordenação-Geral de Articulação Interna e Apoio aos Colegiados",
+      "sigla": "SE-CGAIC",
+      "pai": "616494"
+    },
+    {
+      "codigo": "616551",
+      "nome": "Coordenação-Geral de Governança Interna e Processos",
+      "sigla": "SE-CGGIP",
+      "pai": "616494"
+    },
+    {
+      "codigo": "616511",
+      "nome": "Coordenação-Geral de Governança Estratégica",
+      "sigla": "SE-CGGE",
+      "pai": "616494"
+    },
+    {
+      "codigo": "617511",
+      "nome": "Coordenação-Geral de Fomento a Ambientes Digitais Seguros",
+      "sigla": "SITEC-CGFADS",
+      "pai": "616913"
+    },
+    {
+      "codigo": "617551",
+      "nome": "Laboratório de Inovação",
+      "sigla": "SITEC-LABIN",
+      "pai": "616913"
+    },
+    {
+      "codigo": "266844",
+      "nome": "Coordenação-Geral de Estudos e Pesquisas",
+      "sigla": "SITEC-CGEP",
+      "pai": "616913"
+    },
+    {
+      "codigo": "266847",
+      "nome": "Coordenação-Geral de Relações Institucionais",
+      "sigla": "SRII-CGRI",
+      "pai": "616931"
+    },
+    {
+      "codigo": "617451",
+      "nome": "Coordenação-Geral de Assuntos Internacionais",
+      "sigla": "SRII-CGAI",
+      "pai": "616931"
+    },
+    {
+      "codigo": "616431",
+      "nome": "Coordenação Parlamentar II",
+      "sigla": "ASPAR-COPAR2",
+      "pai": "616416"
+    },
+    {
+      "codigo": "616417",
+      "nome": "Coordenação Parlamentar I",
+      "sigla": "ASPAR-COPAR1",
+      "pai": "616416"
+    },
+    {
+      "codigo": "617491",
+      "nome": "Divisão de Design e Conteúdos Digitais",
+      "sigla": "ASCOM-DIDCD",
+      "pai": "617473"
+    },
+    {
+      "codigo": "616451",
+      "nome": "Coordenação de Comunicação Social",
+      "sigla": "ASCOM-CCOM",
+      "pai": "617473"
+    },
+    {
+      "codigo": "619072",
+      "nome": "Coordenação de Apoio à Gestão",
+      "sigla": "SGI-COGES",
+      "pai": "616911"
+    },
+    {
+      "codigo": "266843",
+      "nome": "Coordenação-Geral de Recursos Logísticos",
+      "sigla": "SGI-CGRL",
+      "pai": "616911"
+    },
+    {
+      "codigo": "617211",
+      "nome": "Coordenação-Geral de Gestão de Pessoas",
+      "sigla": "SGI-CGGP",
+      "pai": "616911"
+    },
+    {
+      "codigo": "289105",
+      "nome": "Coordenação-Geral de Tecnologia da Informação",
+      "sigla": "SGI-CGTI",
+      "pai": "616911"
+    },
+    {
+      "codigo": "617291",
+      "nome": "Coordenação-Geral de Orçamento, Finanças e Contabilidade",
+      "sigla": "SGI-CGOFC",
+      "pai": "616911"
+    },
+    {
+      "codigo": "617371",
+      "nome": "Coordenação-Geral de Planejamento e Análise Regulatória",
+      "sigla": "SRE-CGPAR",
+      "pai": "616972"
+    },
+    {
+      "codigo": "266850",
+      "nome": "Coordenação-Geral de Governança e Regulação Setorial",
+      "sigla": "SRE-CGRS",
+      "pai": "616972"
+    },
+    {
+      "codigo": "617331",
+      "nome": "Coordenação de Apoio à Gestão",
+      "sigla": "SRE-COGES",
+      "pai": "616972"
+    },
+    {
+      "codigo": "266845",
+      "nome": "Coordenação-Geral de Tecnologias e Ambientes Digitais",
+      "sigla": "SRE-CGTAD",
+      "pai": "616972"
+    },
+    {
+      "codigo": "617351",
+      "nome": "Coordenação-Geral de Proteção de Dados",
+      "sigla": "SRE-CGPD",
+      "pai": "616972"
+    },
+    {
+      "codigo": "619831",
+      "nome": "Seção de Gestão da Qualidade e Processos",
+      "sigla": "OUV-SEMEQ",
+      "pai": "612050"
+    },
+    {
+      "codigo": "289107",
+      "nome": "Coordenação de Atendimento",
+      "sigla": "OUV-CA",
+      "pai": "612050"
+    },
+    {
+      "codigo": "616391",
+      "nome": "Coordenação de Transparência e Acesso à Informação",
+      "sigla": "OUV-COTAI",
+      "pai": "612050"
+    },
+    {
+      "codigo": "266861",
+      "nome": "Coordenação de Consultivo",
+      "sigla": "PFE-CCONSU",
+      "pai": "302585"
+    },
+    {
+      "codigo": "616412",
+      "nome": "Coordenação de Gabinete",
+      "sigla": "GABPR - CGABPR",
+      "pai": "266851"
+    },
+    {
+      "codigo": "618912",
+      "nome": "Divisão de Apoio ao Encarregado",
+      "sigla": "EETDP-DIAENC",
+      "pai": "616414"
     }
   ],
-  "ato_interno": 18,
+  "ato_interno": 77,
+  "so_ato_interno": true,
   "vigencia": {
     "de": null,
     "ate": null
@@ -35,10 +348,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

@@ -2,7 +2,7 @@
   "id": "est:colegio-pedro-ii",
   "tipo": "estrutura",
   "nome": "Estrutura de Colégio Pedro II no SIORG",
-  "resumo": "180 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "resumo": "180 unidades criadas por lei ou decreto ou nos dois primeiros níveis de ato interno, segundo o SIORG em 14/11/2026.",
   "de": "org:colegio-pedro-ii",
   "siorg": "256",
   "consulta": "2026-11-14",
@@ -1092,7 +1092,7 @@
       "pai": "34672"
     }
   ],
-  "ato_interno": 0,
+  "ato_interno": 183,
   "so_ato_interno": true,
   "vigencia": {
     "de": null,
@@ -1106,10 +1106,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

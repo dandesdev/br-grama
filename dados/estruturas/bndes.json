@@ -2,7 +2,7 @@
   "id": "est:bndes",
   "tipo": "estrutura",
   "nome": "Estrutura de Banco Nacional de Desenvolvimento Econômico e Social no SIORG",
-  "resumo": "5 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "resumo": "38 unidades criadas por lei ou decreto ou nos dois primeiros níveis de ato interno, segundo o SIORG em 14/11/2026.",
   "de": "org:bndes",
   "siorg": "2",
   "consulta": "2026-11-14",
@@ -39,9 +39,210 @@
       "sigla": "CA/BNDES",
       "pai": "2",
       "colegiada": true
+    },
+    {
+      "codigo": "245811",
+      "nome": "Comitê de Remuneração",
+      "sigla": "CR",
+      "pai": "2",
+      "colegiada": true
+    },
+    {
+      "codigo": "231275",
+      "nome": "Secretária da Comissão de Ética Profissional",
+      "sigla": "SECET",
+      "pai": "2"
+    },
+    {
+      "codigo": "70779",
+      "nome": "Área de Comunicação e Relacionamento Institucional",
+      "sigla": "ACRI",
+      "pai": "2"
+    },
+    {
+      "codigo": "70634",
+      "nome": "Gabinete da Presidência",
+      "sigla": "GAB-BNDES",
+      "pai": "2"
+    },
+    {
+      "codigo": "231276",
+      "nome": "Ouvidoria",
+      "sigla": "OUVIDORIA",
+      "pai": "2"
+    },
+    {
+      "codigo": "70642",
+      "nome": "Diretoria de Finanças",
+      "sigla": "DIR3",
+      "pai": "2"
+    },
+    {
+      "codigo": "70640",
+      "nome": "Diretoria de Banco de Investimento",
+      "sigla": "DIR4",
+      "pai": "2"
+    },
+    {
+      "codigo": "70638",
+      "nome": "Diretoria de Estratégia e Transformação Digital",
+      "sigla": "DIR2",
+      "pai": "2"
+    },
+    {
+      "codigo": "70637",
+      "nome": "Diretoria de Compliance",
+      "sigla": "DIR6",
+      "pai": "2"
+    },
+    {
+      "codigo": "70636",
+      "nome": "Diretoria de Governo e Infraestrutura",
+      "sigla": "DIR5",
+      "pai": "2"
+    },
+    {
+      "codigo": "70635",
+      "nome": "Diretoria de Empresas",
+      "sigla": "DIR1",
+      "pai": "2"
+    },
+    {
+      "codigo": "245810",
+      "nome": "Comitê de Elegibilidade",
+      "sigla": "CE",
+      "pai": "2",
+      "colegiada": true
+    },
+    {
+      "codigo": "231270",
+      "nome": "Departamento de Relacionamento Institucional",
+      "sigla": "DRI",
+      "pai": "70779"
+    },
+    {
+      "codigo": "231269",
+      "nome": "Departamento de Comunicação",
+      "sigla": "DECOM",
+      "pai": "70779"
+    },
+    {
+      "codigo": "231268",
+      "nome": "Departamento de Marketing",
+      "sigla": "DMA",
+      "pai": "70779"
+    },
+    {
+      "codigo": "231263",
+      "nome": "Departamento de Validação",
+      "sigla": "DEVAL",
+      "pai": "70634"
+    },
+    {
+      "codigo": "70782",
+      "nome": "Área de Crédito",
+      "sigla": "AC",
+      "pai": "70642"
+    },
+    {
+      "codigo": "70783",
+      "nome": "Área Financeira",
+      "sigla": "AF",
+      "pai": "70642"
+    },
+    {
+      "codigo": "70693",
+      "nome": "Área de Gestão de Participações",
+      "sigla": "AGP",
+      "pai": "70640"
+    },
+    {
+      "codigo": "70692",
+      "nome": "Área de Desestatização e Estruturação de Projetos",
+      "sigla": "ADEP",
+      "pai": "70640"
+    },
+    {
+      "codigo": "70694",
+      "nome": "Área de Investimentos, Empreendedorismo e Garantias",
+      "sigla": "AIFG",
+      "pai": "70640"
+    },
+    {
+      "codigo": "70781",
+      "nome": "Área de Administração e Recursos Humanos",
+      "sigla": "AARH",
+      "pai": "70638"
+    },
+    {
+      "codigo": "70689",
+      "nome": "Área de Tecnologia da Informação",
+      "sigla": "ATI",
+      "pai": "70638"
+    },
+    {
+      "codigo": "70780",
+      "nome": "Área de Planejamento Estratégico",
+      "sigla": "AP",
+      "pai": "70638"
+    },
+    {
+      "codigo": "70776",
+      "nome": "Área de Operações e Canais Digitais",
+      "sigla": "AOI",
+      "pai": "70638"
+    },
+    {
+      "codigo": "70677",
+      "nome": "Área de Integridade, e Gestão de Riscos",
+      "sigla": "AICR",
+      "pai": "70637"
+    },
+    {
+      "codigo": "70784",
+      "nome": "Área Jurídica",
+      "sigla": "AJ",
+      "pai": "70637"
+    },
+    {
+      "codigo": "70688",
+      "nome": "Área de Energia",
+      "sigla": "AE",
+      "pai": "70636"
+    },
+    {
+      "codigo": "70691",
+      "nome": "Área de Saneamento, Transporte e Logística",
+      "sigla": "AST",
+      "pai": "70636"
+    },
+    {
+      "codigo": "70690",
+      "nome": "Área de Gestão Pública e Socioambiental",
+      "sigla": "AGS",
+      "pai": "70636"
+    },
+    {
+      "codigo": "70778",
+      "nome": "Área de Comércio Exterior",
+      "sigla": "AEX",
+      "pai": "70635"
+    },
+    {
+      "codigo": "70736",
+      "nome": "Área de Fomento e Originação de Negócios",
+      "sigla": "AFO",
+      "pai": "70635"
+    },
+    {
+      "codigo": "70686",
+      "nome": "Área de Indústria e Serviços",
+      "sigla": "AI",
+      "pai": "70635"
     }
   ],
-  "ato_interno": 13,
+  "ato_interno": 8,
+  "so_ato_interno": true,
   "vigencia": {
     "de": null,
     "ate": null
@@ -54,10 +255,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-siorg",
-    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+    "tarefa": "verificacao-f4-siorg",
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

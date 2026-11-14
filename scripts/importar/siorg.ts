@@ -61,6 +61,21 @@ const RAIZES: Record<string, string> = {
   "1696": "org:secretaria-do-tesouro-nacional", "2032": "org:secretaria-de-orcamento-federal",
 };
 
+// Unidades da árvore que correspondem a órgãos do mapa (conferidas na revisão verificacao-f4-siorg).
+const MAPA_UNIDADES: Record<string, string> = { "82": "org:cmn", "25276": "org:cnpe", "2761": "org:codefat", "44701": "org:comissao-de-coordenacao-de-controle-interno", "316201": "org:comissao-de-etica-publica", "121080": "org:comissao-mista-de-reavaliacao-de-informacoes", "91843": "org:comite-gestor-do-simples-nacional", "117268": "org:conitec", "309010": "org:consea", "1931": "org:conselho-da-republica", "1933": "org:conselho-de-defesa-nacional", "309008": "org:conselho-de-desenvolvimento-economico-social-sustentavel", "1932": "org:conselho-de-governo", "236348": "org:conselho-de-recursos-da-previdencia-social", "214326": "org:conselho-do-programa-de-parcerias-de-investimentos", "41926": "org:conselho-militar-de-defesa", "4402": "org:conselho-nacional-de-assistencia-social", "248": "org:conselho-nacional-de-educacao", "2042": "org:conselho-nacional-de-previdencia-complementar", "2764": "org:conselho-nacional-de-previdencia-social", "23448": "org:conselho-nacional-de-recursos-hidricos", "306": "org:conselho-nacional-de-saude", "241963": "org:conselho-nacional-de-seguranca-publica-e-defesa-social", "3623": "org:conselho-superior-da-agu", "3620": "org:consultoria-geral-da-uniao", "3621": "org:corregedoria-geral-da-agu", "16478": "org:creden", "308878": "org:ouvidoria-geral-da-previdencia-social", "78": "org:pgfn", "3619": "org:procuradoria-geral-da-uniao", "69685": "org:procuradoria-geral-federal", "266735": "org:conselho-superior-da-dpu", "266734": "org:corregedoria-geral-da-dpu" };
+
+// Raízes que usam os dois níveis de ato interno mesmo tendo unidades de lei ou decreto (o SIORG marca como ato
+// interno órgãos que a lei cria, ex.: o Conselho Superior da DPU).
+const SEMPRE_ATO_INTERNO = new Set(["260668", "2"]);
+
+// Unidades criadas depois de 1º/10/2026 (D14), que o SIORG já traz e o retrato não deve mostrar.
+const POSTERIORES: Record<string, string> = {
+  "676756": "Decreto 13.139/2026 (DOU de 19/10/2026)",
+  "676776": "Decreto 13.139/2026 (DOU de 19/10/2026)",
+  "676796": "Decreto 13.139/2026 (DOU de 19/10/2026)",
+  "676816": "Decreto 13.139/2026 (DOU de 19/10/2026)",
+};
+
 async function baixar() {
   const r = await fetch(URL_RESUMIDA, { headers: { "User-Agent": "Mozilla/5.0 (br-grama)" } });
   if (!r.ok) throw new Error(`${r.status} em ${URL_RESUMIDA}`);
@@ -79,13 +94,26 @@ async function baixar() {
   const paiDe = new Map(unidades.map((u) => [u.codigo, u.pai]));
   const perto = (u: Unidade) => !!RAIZES[u.pai] || !!RAIZES[paiDe.get(u.pai) ?? ""];
   const guardar = unidades.filter((u) => u.nivel === "LEI_DECRETO" || u.tipo === "orgao" || u.tipo === "entidade" || u.tipo === "ente" || perto(u));
+  // Para cada raiz, quantas unidades de ato interno há abaixo dela, sem atravessar entidades e órgãos.
+  const filhosDe = new Map<string, Unidade[]>();
+  for (const u of unidades) filhosDe.set(u.pai, [...(filhosDe.get(u.pai) ?? []), u]);
   const atoInterno: Record<string, number> = {};
-  for (const u of unidades) if (u.nivel !== "LEI_DECRETO") atoInterno[u.pai] = (atoInterno[u.pai] ?? 0) + 1;
+  for (const raiz of Object.keys(RAIZES)) {
+    let n = 0;
+    const pilha = [...(filhosDe.get(raiz) ?? [])];
+    while (pilha.length) {
+      const u = pilha.pop()!;
+      if (u.tipo === "entidade" || u.tipo === "orgao") continue;
+      if (u.nivel !== "LEI_DECRETO") n++;
+      pilha.push(...(filhosDe.get(u.codigo) ?? []));
+    }
+    atoInterno[raiz] = n;
+  }
   const dir = join(DIR_BRUTO, HOJE);
   mkdirSync(dir, { recursive: true });
   writeFileSync(
     join(dir, "estrutura-lei-decreto.json"),
-    JSON.stringify({ fonte: URL_RESUMIDA, baixado_em: HOJE, total_unidades: unidades.length, unidades: guardar, ato_interno_por_pai: atoInterno }),
+    JSON.stringify({ fonte: URL_RESUMIDA, baixado_em: HOJE, total_unidades: unidades.length, unidades: guardar, ato_interno_abaixo: atoInterno }),
   );
   console.log(`${unidades.length} unidades no SIORG; ${guardar.length} guardadas (lei ou decreto, órgãos e entidades).`);
 }
@@ -94,11 +122,11 @@ function lerBruto() {
   const datas = (existsSync(DIR_BRUTO) ? readdirSync(DIR_BRUTO).sort() : []).filter((d) => existsSync(join(DIR_BRUTO, d, "estrutura-lei-decreto.json")));
   if (!datas.length) throw new Error("rode a etapa baixar antes");
   const data = datas.at(-1)!;
-  return { data, ...(JSON.parse(readFileSync(join(DIR_BRUTO, data, "estrutura-lei-decreto.json"), "utf8")) as { unidades: Unidade[]; ato_interno_por_pai: Record<string, number> }) };
+  return { data, ...(JSON.parse(readFileSync(join(DIR_BRUTO, data, "estrutura-lei-decreto.json"), "utf8")) as { unidades: Unidade[]; ato_interno_abaixo: Record<string, number> }) };
 }
 
 function gerar(notas?: string) {
-  const { data, unidades, ato_interno_por_pai } = lerBruto();
+  const { data, unidades, ato_interno_abaixo } = lerBruto();
   const porCodigo = new Map(unidades.map((u) => [u.codigo, u]));
   const filhos = new Map<string, Unidade[]>();
   for (const u of unidades) filhos.set(u.pai, [...(filhos.get(u.pai) ?? []), u]);
@@ -122,7 +150,7 @@ function gerar(notas?: string) {
     // Desce pela árvore só por unidades de lei ou decreto do mesmo órgão; entidades vinculadas ficam à parte.
     const arvore: Unidade[] = [];
     const vinculadas: Unidade[] = [];
-    let atoInterno = ato_interno_por_pai[raiz] ?? 0;
+    const atoInterno = ato_interno_abaixo[raiz] ?? 0;
     const pilha = [...(filhos.get(raiz) ?? [])];
     while (pilha.length) {
       const u = pilha.shift()!;
@@ -130,31 +158,39 @@ function gerar(notas?: string) {
         if (u.tipo === "entidade") vinculadas.push(u);
         continue;
       }
-      if (u.nivel !== "LEI_DECRETO") continue;
+      if (u.nivel !== "LEI_DECRETO" || POSTERIORES[u.codigo]) continue;
       arvore.push(u);
-      atoInterno += ato_interno_por_pai[u.codigo] ?? 0;
       pilha.push(...(filhos.get(u.codigo) ?? []));
     }
     // Sem nada por lei ou decreto (agências, autarquias): os dois primeiros níveis de ato interno.
-    const soAtoInterno = !arvore.length;
+    // Também quando a árvore só tem colegiados (ANM, ANPD, Correios) ou a raiz está na lista explícita.
+    const soAtoInterno = !arvore.some((u) => u.tipo === "unidade-administrativa") || SEMPRE_ATO_INTERNO.has(raiz);
     if (soAtoInterno) {
       const nivel1 = (filhos.get(raiz) ?? []).filter((u) => u.nivel !== "LEI_DECRETO" && u.tipo !== "entidade" && u.tipo !== "orgao");
       const nivel2 = nivel1.flatMap((u) => (filhos.get(u.codigo) ?? []).filter((f) => f.tipo !== "entidade" && f.tipo !== "orgao"));
-      arvore.push(...nivel1, ...nivel2);
+      const ja = new Set(arvore.map((u) => u.codigo));
+      arvore.push(...[...nivel1, ...nivel2].filter((u) => !ja.has(u.codigo) && !POSTERIORES[u.codigo]));
     }
-    const mapaDe = (c: string) => (RAIZES[c] && RAIZES[c] !== de ? { mapa: RAIZES[c] } : {});
+    if (!arvore.length) {
+      console.log(`  ${raiz} (${de}): sem unidades, sem estrutura`);
+      continue;
+    }
+    const mapaDe = (c: string) => {
+      const alvo = RAIZES[c] ?? MAPA_UNIDADES[c];
+      return alvo && alvo !== de ? { mapa: alvo } : {};
+    };
     const slug = de.split(":")[1];
     const entidade = {
       id: `est:${slug}`,
       tipo: "estrutura",
       nome: `Estrutura de ${nomeDe(de)} no SIORG`,
-      resumo: `${arvore.length} unidades ${soAtoInterno ? "nos dois primeiros níveis, criadas por ato interno" : "criadas por lei ou decreto"}${vinculadas.length ? ` e ${vinculadas.length} entidades vinculadas` : ""}, segundo o SIORG em ${data.split("-").reverse().join("/")}.`,
+      resumo: `${arvore.length} unidades ${soAtoInterno ? "criadas por lei ou decreto ou nos dois primeiros níveis de ato interno" : "criadas por lei ou decreto"}${vinculadas.length ? ` e ${vinculadas.length} entidades vinculadas` : ""}, segundo o SIORG em ${data.split("-").reverse().join("/")}.`,
       de,
       siorg: raiz,
       consulta: data,
       unidades: arvore.map((u) => ({ codigo: u.codigo, nome: u.nome, ...(u.sigla ? { sigla: u.sigla } : {}), pai: u.pai, ...(u.tipo === "unidade-colegiada" ? { colegiada: true } : {}), ...mapaDe(u.codigo) })),
       ...(vinculadas.length ? { vinculadas: vinculadas.map((u) => ({ codigo: u.codigo, nome: u.nome, ...(u.sigla ? { sigla: u.sigla } : {}), ...mapaDe(u.codigo) })) } : {}),
-      ato_interno: soAtoInterno ? Math.max(0, atoInterno - arvore.length) : atoInterno,
+      ato_interno: Math.max(0, atoInterno - arvore.filter((u) => u.nivel !== "LEI_DECRETO").length),
       ...(soAtoInterno ? { so_ato_interno: true } : {}),
       vigencia: { de: null, ate: null },
       fontes: [{ ref: FONTE, dispositivo: `estrutura resumida baixada em ${data}, unidade ${raiz} e descendentes com nível "LEI_DECRETO"` }],

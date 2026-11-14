@@ -178,7 +178,7 @@ export class Painel {
     const resto = (est.ato_interno as number) > 0 ? ` Abaixo delas, o SIORG registra mais ${est.ato_interno} unidades criadas por ato interno.` : "";
     const aberto = this.aberto.has(est.id);
     return `<h3>Estrutura interna</h3>
-      <p class="dispositivo">${est.so_ato_interno ? `Dois primeiros níveis, criados por ato interno (o órgão não tem unidade criada por lei ou decreto no SIORG).` : `${unidades.length} unidades criadas por lei ou decreto.`}${resto} Fonte: SIORG, consulta em ${consulta}.</p>
+      <p class="dispositivo">${est.so_ato_interno ? `${unidades.length} unidades: as criadas por lei ou decreto e os dois primeiros níveis criados por ato interno (no SIORG, a estrutura deste órgão está quase toda em ato interno).` : `${unidades.length} unidades criadas por lei ou decreto.`}${resto} Fonte: SIORG, consulta em ${consulta}.</p>
       <button class="mais" data-mais="${esc(est.id)}" aria-expanded="${aberto}"><span class="i">i</span> Ver a árvore</button>
       <div class="detalhes arvore" ${aberto ? "" : "hidden"}>
         <ul>${raiz.map(item).join("")}</ul>
