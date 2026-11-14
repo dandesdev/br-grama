@@ -1,7 +1,8 @@
 ---
 id: verificacao-f3-calendario-orcamento-legislativo
 escopo: "Revisão independente de f3-calendario-orcamento-legislativo (datas de 2026 e 2027 no ciclo orçamentário, sessão legislativa, relatórios fiscais e outros ciclos)"
-status: pendente
+status: em-andamento
+iniciada_em: 2026-11-14
 depende_de: [f3-calendario-orcamento-legislativo]
 ---
 
@@ -17,3 +18,4 @@ Pontos de atenção:
 Ao terminar, marque as entidades conferidas como `verificado` (com `tarefa: "verificacao-f3-calendario-orcamento-legislativo"`), corrija o que estiver errado com fonte, mude o status desta tarefa para `verificada` e escreva o relatório no diário.
 
 ## Diário
+- 2026-11-14 — iniciada (status em-andamento). Lidos CLAUDE.md, instruções de verificação, D14, D55 a D59, modelo de dados (datas da etapa) e o diário da coleta. Scripts em C:/Users/DELL/scratch-brgram/rev-f3-ol/.
