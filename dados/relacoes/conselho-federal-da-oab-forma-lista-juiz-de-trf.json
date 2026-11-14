@@ -1,0 +1,36 @@
+{
+  "id": "rel:conselho-federal-da-oab-forma-lista-juiz-de-trf",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla da OAB para os TRFs de vários estados",
+  "relacao": "forma-lista",
+  "de": "org:conselho-federal-da-oab",
+  "para": "cargo:juiz-de-trf",
+  "condicao": "Só nos TRFs com jurisdição em mais de um estado (1ª a 5ª Regiões): nas vagas do quinto constitucional destinadas a advogados, forma a lista sêxtupla entre advogados com mais de dez anos de exercício e idade entre 30 e 70 anos; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice. No TRF da 6ª Região, só de Minas Gerais, a lista é da seccional.",
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto da Advocacia (Lei 8.906/1994), que dá a tarefa ao Conselho Federal e aos Conselhos Seccionais; a lista da OAB é anterior. A divisão entre Conselho Federal e seccionais está no Provimento 102/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 107, I"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 54, XIII"
+    },
+    {
+      "ref": "norma:provimento-cfoab-102-2004",
+      "dispositivo": "art. 1º, § 1º; art. 3º; art. 5º, caput e § 2º; art. 9º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-fechamento",
+    "notas": "CF, Lei 8.906/1994 (texto do Planalto baixado em 2026-11-14) e Provimento 102/2004 (página oficial do Conselho Federal) lidos nos dispositivos citados"
+  },
+  "notas": "Quais TRFs têm jurisdição em mais de um estado vem dos órgãos org:trf-1 a org:trf-6 (resumo de cada um)."
+}

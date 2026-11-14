@@ -202,9 +202,9 @@
   "confianca": "oficial",
   "notas": "Criado em f3-calendario-orcamento-legislativo para pôr no Calendário (D55) os relatórios fiscais, que antes só existiam como objetos (obj:rreo, obj:rgf) e relações publica e fiscaliza. A audiência quadrimestral das metas fica em proc:ciclo-orcamentario (etapa avaliacao-das-metas-fiscais), e a limitação de empenho em proc:execucao-da-despesa. Os atores do RGF seguem as relações publica-rgf existentes. As datas são as do prazo da LRF para a União; o RREO do 6º bimestre de 2027 e o RGF do 3º quadrimestre de 2027 vencem em 30/1/2028, fora da janela do Calendário.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-orcamento-legislativo",
-    "notas": "processo novo; prazos e atores conferidos na cópia local da LRF (2026-11-11) e da CF; datas calculadas com script (diário da tarefa)"
+    "tarefa": "verificacao-f3-calendario-orcamento-legislativo",
+    "notas": "coletado em f3-calendario-orcamento-legislativo; prazos (LRF, arts. 52 e 55, § 2º; CF, art. 165, § 3º), sanções (arts. 51, § 2º, 52, § 2º, 55, § 3º), atores (art. 54) e fiscalização (art. 59) conferidos na cópia local da LRF; datas refeitas com script"
   }
 }

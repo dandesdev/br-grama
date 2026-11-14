@@ -27,9 +27,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-eleicoes-mandatos",
-    "notas": "vigencia.de preenchida com o início do período contínuo de exercício que incluía 2026-10-01, calculado por script a partir do histórico do deputado na Câmara (legislatura 57); vigencia.nota reescrita. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "coletado em f3-calendario-eleicoes-mandatos. Início conferido na revisão contra /deputados/220695/historico (dados abertos da Câmara, consulta própria em 2026-11-14), com regra própria: início da sequência final de registros 'Exercício' da legislatura 57 até 2026-10-01; interino confere com a condição eleitoral nessa data. Antes: coletado em 2026-11-14 (f3-calendario-eleicoes-mandatos); verificado em 2026-10-18 (importacao-camara-deputados)."
   }
 }

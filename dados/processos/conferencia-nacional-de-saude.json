@@ -138,17 +138,18 @@
       ],
       "datas": [
         {
-          "de": "2027-07-26",
-          "ate": "2027-07-29",
-          "nota": "18ª conferência, etapa nacional, em Brasília. A Resolução CNS 813/2026 (DOU) marca o mês de julho de 2027; os dias vêm da Resolução CNS 818/2026, cujo texto está no site do CNS, mas cuja publicação no DOU não achamos.",
+          "de": "2027-07-01",
+          "ate": "2027-07-31",
+          "nota": "18ª conferência, etapa nacional, em Brasília. A Resolução CNS 813/2026 (DOU) dá só o mês, julho de 2027; os dias são o primeiro e o último do mês. O CNS divulgou no seu site uma minuta da Resolução 818/2026 que marca de 26 a 29 de julho de 2027, mas não achamos a publicação no DOU.",
           "fontes": [
             {
               "ref": "norma:resolucao-cns-813-2026",
-              "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º)"
+              "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º); art. 3º (Resolução CNS 805/2026, Anexo I, art. 11, IV)"
             },
             {
               "ref": "fonte:cns-resolucao-818-2026",
-              "dispositivo": "art. 1º"
+              "dispositivo": "art. 1º",
+              "nota": "minuta, fonte secundária: dá os dias 26 a 29 de julho de 2027"
             }
           ]
         }
@@ -178,9 +179,9 @@
   "confianca": "oficial",
   "notas": "Criado em f3-calendario-eleicoes-mandatos para pôr no Calendário (D55) a conferência de saúde, que antes só existia como org:conferencias-de-saude. A data da 17ª conferência não foi pesquisada. A Resolução CNS 797/2025 e a 805/2026 não foram lidas diretamente; seus arts. 3º e 11 estão no texto que a 813 lhes deu. A conferência de assistência social não entrou: não achamos ato oficial que marque a próxima conferência nacional.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-eleicoes-mandatos",
-    "notas": "processo novo; Lei 8.142, art. 1º, conferido na cópia local do Planalto (2026-10-23); calendário lido na Resolução CNS 813/2026 (DOU de 5/8/2026) e, para os dias da etapa nacional, no texto da 818/2026 do site do CNS; dias da semana e último dia de fevereiro de 2027 conferidos por script"
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "coletado em f3-calendario-eleicoes-mandatos. Lei 8.142/1990, art. 1º, §§ 1º e 2º, e Res. CNS 813/2026 (DOU), arts. 1º e 3º, lidos; datas das etapas municipal (16/3 a 4/7/2026; 1º/11/2026 a 28/2/2027), estadual (1º/3 a 31/5/2027) e nacional conferidas, fins de mês por script. Correção (decisão do coordenador, 2026-11-14): a etapa nacional passou de 26 a 29/7/2027 (minuta da Res. CNS 818/2026, sem publicação no DOU achada) para 1º a 31/7/2027, o mês da Res. 813; a minuta ficou como fonte secundária, com nota."
   }
 }

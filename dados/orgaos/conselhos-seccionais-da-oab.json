@@ -1,0 +1,45 @@
+{
+  "id": "org:conselhos-seccionais-da-oab",
+  "tipo": "orgao",
+  "nome": "Conselhos Seccionais da OAB",
+  "resumo": "Os conselhos da OAB em cada estado e no DF. Cada um tem personalidade jurídica própria, atua no seu território e forma as listas de advogados para os tribunais locais.",
+  "detalhes": "A OAB tem um Conselho Seccional por estado e no DF, com jurisdição no respectivo território (Lei 8.906/1994, art. 45, II e § 2º). O número de conselheiros é proporcional ao de inscritos; os ex-presidentes e o presidente do Instituto dos Advogados local têm só voz (art. 56). No seu território, exerce as competências do Conselho Federal no que couber (art. 57) e, entre outras tarefas, elege as listas de advogados para os tribunais, na forma do Provimento do Conselho Federal (art. 58, XIV): as dos Tribunais de Justiça e dos tribunais federais com jurisdição num só estado (Provimento 102/2004, art. 1º, § 2º).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "contido_em": "org:oab",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-8906-1994",
+          "dispositivo": "art. 45, II e § 2º"
+        }
+      ],
+      "nota": "Conjunto, não órgão real (tipo \"conjunto\"): representa os conselhos seccionais de todos os estados e do DF, que a lei põe entre os órgãos da OAB (art. 45, II)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 45, II e § 2º; arts. 56 a 58"
+    },
+    {
+      "ref": "norma:provimento-cfoab-102-2004",
+      "dispositivo": "art. 1º, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto atual (Lei 8.906/1994); os conselhos seccionais são anteriores."
+  },
+  "confianca": "oficial",
+  "notas": "Criado em f3-fechamento para ser a ponta das relações forma-lista do quinto constitucional nos tribunais de um só estado, sem modelar as 27 seccionais uma a uma (D51). Não lista as seccionais nem suas diretorias. A esfera é \"nacional\", como a da OAB, porque a OAB não pertence a nenhum ente federativo; o alcance estadual de cada conselho está no texto. Subseções e caixas de assistência continuam fora do mapa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-fechamento",
+    "notas": "Lei 8.906/1994, arts. 45, 56, 57 e 58, XIV (texto do Planalto baixado em 2026-11-14), e Provimento 102/2004, art. 1º, § 2º, lidos"
+  }
+}

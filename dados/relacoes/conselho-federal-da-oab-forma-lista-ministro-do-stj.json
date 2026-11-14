@@ -1,0 +1,35 @@
+{
+  "id": "rel:conselho-federal-da-oab-forma-lista-ministro-do-stj",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla da OAB para o STJ",
+  "relacao": "forma-lista",
+  "de": "org:conselho-federal-da-oab",
+  "para": "cargo:ministro-do-stj",
+  "condicao": "Nas vagas do STJ destinadas a advogados, forma a lista sêxtupla entre advogados com mais de dez anos de exercício e idade entre 35 e 70 anos; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice. Não pode incluir membro de órgão da OAB.",
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto da Advocacia (Lei 8.906/1994), que dá a tarefa ao Conselho Federal e aos Conselhos Seccionais; a lista da OAB é anterior. A divisão entre Conselho Federal e seccionais está no Provimento 102/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 104, parágrafo único, II"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 54, XIII"
+    },
+    {
+      "ref": "norma:provimento-cfoab-102-2004",
+      "dispositivo": "art. 1º, § 1º; art. 5º, caput e § 1º; art. 7º; art. 9º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-fechamento",
+    "notas": "CF, Lei 8.906/1994 (texto do Planalto baixado em 2026-11-14) e Provimento 102/2004 (página oficial do Conselho Federal) lidos nos dispositivos citados"
+  }
+}

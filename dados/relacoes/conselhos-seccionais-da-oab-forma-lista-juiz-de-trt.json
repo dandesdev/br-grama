@@ -1,0 +1,36 @@
+{
+  "id": "rel:conselhos-seccionais-da-oab-forma-lista-juiz-de-trt",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla da OAB para os TRTs de um só estado",
+  "relacao": "forma-lista",
+  "de": "org:conselhos-seccionais-da-oab",
+  "para": "cargo:juiz-de-trt",
+  "condicao": "Nos TRTs com jurisdição num só estado (todos menos os da 8ª, 10ª, 11ª e 14ª Regiões; São Paulo tem dois, o da 2ª e o da 15ª): nas vagas do quinto constitucional destinadas a advogados, a seccional do estado forma a lista sêxtupla entre advogados com mais de dez anos de exercício, inscritos na seccional há mais de cinco anos e com idade entre 30 e 70 anos; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice.",
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto da Advocacia (Lei 8.906/1994), que dá a tarefa ao Conselho Federal e aos Conselhos Seccionais; a lista da OAB é anterior. A divisão entre Conselho Federal e seccionais está no Provimento 102/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 115, I"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 45, § 2º; art. 58, XIV"
+    },
+    {
+      "ref": "norma:provimento-cfoab-102-2004",
+      "dispositivo": "art. 1º, caput e § 2º; art. 5º, caput e § 2º; art. 9º; art. 10"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-fechamento",
+    "notas": "CF, Lei 8.906/1994 (texto do Planalto baixado em 2026-11-14) e Provimento 102/2004 (página oficial do Conselho Federal) lidos nos dispositivos citados"
+  },
+  "notas": "Lemos \"Tribunais Federais de competência territorial restrita a um Estado\" (Provimento 102/2004, art. 1º, § 2º) como incluindo os TRTs, como no § 1º. Quais TRTs abrangem um só estado vem dos órgãos org:trt-1 a org:trt-24."
+}

@@ -1,8 +1,8 @@
 {
   "id": "fonte:cns-resolucao-818-2026",
   "tipo": "fonte",
-  "nome": "Conselho Nacional de Saúde: Resolução nº 818, de 10 de setembro de 2026 (período da etapa nacional da 18ª Conferência Nacional de Saúde)",
-  "resumo": "Texto, publicado na página da 18ª Conferência no site do CNS, que marca a etapa nacional para 26 a 29 de julho de 2027, em Brasília, com a homologação do Ministro da Saúde.",
+  "nome": "Conselho Nacional de Saúde: minuta da Resolução nº 818, de 10 de setembro de 2026 (período da etapa nacional da 18ª Conferência Nacional de Saúde)",
+  "resumo": "Minuta no site do CNS que marca a etapa nacional para 26 a 29 de julho de 2027, em Brasília, com a homologação do Ministro da Saúde no texto. Não achamos a publicação no DOU.",
   "tipo_fonte": "pagina-oficial",
   "publicador": "Conselho Nacional de Saúde",
   "url": "https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2026/minuta-resolucao-dispoe-sobre-o-periodo-de-realizacao-da-etapa-nacional-da-18a-cns-1.pdf",
@@ -13,12 +13,12 @@
     "de": null,
     "ate": null
   },
-  "confianca": "oficial",
+  "confianca": "secundario",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-eleicoes-mandatos",
-    "notas": "Art. 1º (26 a 29 de julho de 2027, em Brasília) e homologação lidos no PDF; a página de resoluções da 18ª Conferência liga a ele com o título 'Resolução nº 818, de 13 de agosto de 2026'."
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "coletado em f3-calendario-eleicoes-mandatos. Texto conferido no PDF bruto (título do arquivo 'Minuta Resolução - período de realização da etapa nacional da 18ª CNS.docx'; art. 1º: 26 a 29/7/2027; data 10/9/2026; 382ª Reunião Ordinária; homologação no texto). Busca no DOU (in.gov.br, 1º/8 a 14/11/2026, por 'RESOLUÇÃO Nº 818', '26 a 29 de julho de 2027' e '18ª Conferência Nacional de Saúde') não achou a publicação: o único 'Resolução nº 818' do período é da Anac. Por decisão do coordenador (2026-11-14), confiança passou de oficial para secundario e o nome diz 'minuta'; a fonte fica só como referência secundária da etapa nacional."
   },
   "notas": "Tratada como fonte, e não como norma, porque não achamos a publicação no DOU, o nome do arquivo e o título do PDF dizem 'minuta' e a data diverge: o texto diz 10 de setembro de 2026 (382ª Reunião Ordinária, 9 e 10/9/2026) e a lista do CNS diz 13 de agosto de 2026. O texto traz a homologação do Ministro da Saúde. Cópia bruta em pesquisa/brutos/cns/2026-11-14-f3-calendario/resolucao-cns-818-2026.pdf. A página de resoluções da conferência: https://www.gov.br/conselho-nacional-de-saude/pt-br/assuntos/conferencias/18a-conferencia-nacional-de-saude/resolucoes-18a-conferencia-nacional-de-saude."
 }

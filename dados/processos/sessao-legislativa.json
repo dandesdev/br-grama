@@ -36,7 +36,7 @@
       "datas": [
         {
           "de": "2027-02-01",
-          "nota": "Início da legislatura de 2027 a 2031 (segunda-feira); tomam posse os eleitos em 4/10/2026."
+          "nota": "Início da legislatura de 2027 a 2031 (segunda-feira); tomam posse os eleitos em 4/10/2026. Na Câmara, a sessão preparatória é neste dia (RICD, art. 4º); no Senado, a primeira reunião preparatória é a partir dele (RISF, art. 3º, IV, a)."
         }
       ],
       "seguintes": [
@@ -55,7 +55,7 @@
       "acao": "Cada Casa elege sua Mesa para dois anos, no primeiro e no terceiro ano da legislatura",
       "detalhes": "É vedada a recondução para o mesmo cargo na eleição imediatamente seguinte, mas não conta como recondução a eleição em outra legislatura (CF, art. 57, § 4º; RICD, art. 5º, § 1º). Na Câmara, a eleição do primeiro ano é na segunda sessão preparatória, em 1º de fevereiro; a do terceiro ano, em data marcada pelo Presidente antes da abertura da sessão (RICD, arts. 5º e 6º). No Senado, no início da legislatura, o Presidente é eleito na reunião preparatória seguinte à da posse e os demais membros na terceira; no terceiro ano, a eleição começa em 1º de fevereiro (RISF, art. 3º, IV a VI). A Mesa do Congresso é presidida pelo Presidente do Senado (CF, art. 57, § 5º).",
       "prazo": {
-        "texto": "Sessões preparatórias a partir de 1º de fevereiro do primeiro e do terceiro ano da legislatura (CF, art. 57, § 4º)"
+        "texto": "Sessões preparatórias a partir de 1º de fevereiro do primeiro ano da legislatura (CF, art. 57, § 4º) e antes da abertura do terceiro (RICD, arts. 2º, § 2º, e 6º; RISF, art. 3º)"
       },
       "fontes": [
         {
@@ -157,8 +157,18 @@
         },
         {
           "de": "2027-02-02",
-          "ate": "2027-07-17",
-          "nota": "17/7/2027 é sábado; o art. 57, § 1º, transfere as reuniões marcadas para as datas do caput ao primeiro dia útil seguinte, mas aqui fica a data da regra."
+          "ate": "2027-07-19",
+          "nota": "17/7/2027 é sábado; pelo art. 57, § 1º, a reunião marcada para essa data passa para segunda-feira, 19/7/2027, e o Regimento Comum conta essa transferência como prorrogação do período (Res. 3/1990-CN, art. 3º).",
+          "fontes": [
+            {
+              "ref": "norma:cf-1988",
+              "dispositivo": "art. 57, caput e § 1º"
+            },
+            {
+              "ref": "norma:resolucao-cn-3-1990",
+              "dispositivo": "art. 3º"
+            }
+          ]
         }
       ],
       "seguintes": [
@@ -181,11 +191,11 @@
       "fontes": [
         {
           "ref": "norma:cf-1988",
-          "dispositivo": "art. 57, caput e § 2º; art. 58, § 4º"
+          "dispositivo": "art. 57, caput e §§ 1º e 2º; art. 58, § 4º"
         },
         {
           "ref": "norma:resolucao-cn-3-1990",
-          "dispositivo": "arts. 2º e 4º"
+          "dispositivo": "arts. 2º a 4º"
         }
       ],
       "datas": [
@@ -196,8 +206,8 @@
         },
         {
           "de": "2026-07-18",
-          "ate": "2026-07-31",
-          "nota": "Só se a LDO 2027 tiver sido aprovada (CF, art. 57, § 2º)."
+          "ate": "2026-08-02",
+          "nota": "Só se a LDO 2027 tiver sido aprovada (CF, art. 57, § 2º). Vai até domingo, 2/8, porque a reunião de 1º/8/2026 (sábado) passa para 3/8 (art. 57, § 1º)."
         },
         {
           "de": "2026-12-23",
@@ -205,9 +215,9 @@
           "nota": "Em 1º/2/2027 há as sessões preparatórias da nova legislatura, fora do mandato da Comissão Representativa."
         },
         {
-          "de": "2027-07-18",
-          "ate": "2027-07-31",
-          "nota": "Só se a LDO 2028 tiver sido aprovada (CF, art. 57, § 2º)."
+          "de": "2027-07-20",
+          "ate": "2027-08-01",
+          "nota": "Só se a LDO 2028 tiver sido aprovada (CF, art. 57, § 2º). Vai de 20/7 a 1º/8 porque as reuniões de 17/7 (sábado) e de 1º/8 (domingo) passam para 19/7 e 2/8 (art. 57, § 1º; Res. 3/1990-CN, art. 3º)."
         },
         {
           "de": "2027-12-23",
@@ -227,6 +237,10 @@
         {
           "para": "posse-da-legislatura",
           "quando": "Em 1º de fevereiro do primeiro ano da legislatura"
+        },
+        {
+          "para": "eleicao-das-mesas",
+          "quando": "No terceiro ano da legislatura, antes da abertura"
         },
         {
           "para": "convocacao-extraordinaria",
@@ -261,14 +275,14 @@
       ],
       "datas": [
         {
-          "de": "2026-08-01",
+          "de": "2026-08-03",
           "ate": "2026-12-22",
-          "nota": "1º/8/2026 é sábado; pelo art. 57, § 1º, a reunião marcada para essa data passa para segunda-feira, 3/8/2026."
+          "nota": "1º/8/2026 é sábado; pelo art. 57, § 1º, a reunião marcada para essa data passa para o primeiro dia útil seguinte, segunda-feira, 3/8/2026. 22/12/2026 é terça-feira."
         },
         {
-          "de": "2027-08-01",
+          "de": "2027-08-02",
           "ate": "2027-12-22",
-          "nota": "1º/8/2027 é domingo; pelo art. 57, § 1º, a reunião marcada para essa data passa para segunda-feira, 2/8/2027."
+          "nota": "1º/8/2027 é domingo; pelo art. 57, § 1º, a reunião marcada para essa data passa para o primeiro dia útil seguinte, segunda-feira, 2/8/2027. 22/12/2027 é quarta-feira."
         }
       ],
       "seguintes": [
@@ -342,11 +356,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Criado em f3-calendario-orcamento-legislativo (D55): não havia processo da sessão legislativa. A posse do Presidente e dos governadores fica em proc:eleicao-geral (etapa posse). A Res. 3/1990-CN, art. 3º, ainda fala nos períodos antigos (15/2 a 30/6 e 1º/8 a 15/12); a nota da edição do Regimento Comum remete à EC 50/2006, e as datas aqui são as da CF. As datas de 2027 contam o início da legislatura de 2027 a 2031 em 1º/2/2027.",
+  "notas": "Criado em f3-calendario-orcamento-legislativo (D55): não havia processo da sessão legislativa. A posse do Presidente e dos governadores fica em proc:eleicao-geral (etapa posse). A Res. 3/1990-CN, art. 3º, ainda fala nos períodos antigos (15/2 a 30/6 e 1º/8 a 15/12); a nota da edição do Regimento Comum remete à EC 50/2006, e as datas aqui são as da CF. O mesmo art. 3º inclui no período as prorrogações do art. 57, §§ 1º e 2º; por isso, quando 1º/8 ou 17/7 cai em fim de semana, as datas usam o dia útil para onde a reunião passa (verificacao-f3-calendario-orcamento-legislativo). As datas de 2027 contam o início da legislatura de 2027 a 2031 em 1º/2/2027.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-orcamento-legislativo",
-    "notas": "processo novo; CF, art. 57, conferido na cópia local de 2026-10-16; RICD (2026-10-23), RISF e RCCN (2026-10-23) nas cópias locais; datas calculadas com script (diário da tarefa)"
+    "tarefa": "verificacao-f3-calendario-orcamento-legislativo",
+    "notas": "coletado em f3-calendario-orcamento-legislativo; contas refeitas com script; corrigidos: art. 57, § 1º, aplicado por igual (17/7/2027 → 19/7; 1º/8 → 3/8/2026 e 2/8/2027; recessos de julho ajustados), prazo da eleição das Mesas (o § 4º só fala do primeiro ano) e caminho do recesso para a eleição das Mesas do terceiro ano"
   }
 }

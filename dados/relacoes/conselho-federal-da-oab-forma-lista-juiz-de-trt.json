@@ -1,0 +1,36 @@
+{
+  "id": "rel:conselho-federal-da-oab-forma-lista-juiz-de-trt",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla da OAB para os TRTs de vários estados",
+  "relacao": "forma-lista",
+  "de": "org:conselho-federal-da-oab",
+  "para": "cargo:juiz-de-trt",
+  "condicao": "Só nos TRTs com jurisdição em mais de um estado (8ª, 10ª, 11ª e 14ª Regiões): nas vagas do quinto constitucional destinadas a advogados, forma a lista sêxtupla entre advogados com mais de dez anos de exercício e idade entre 30 e 70 anos; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice. Nos demais TRTs, a lista é da seccional.",
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto da Advocacia (Lei 8.906/1994), que dá a tarefa ao Conselho Federal e aos Conselhos Seccionais; a lista da OAB é anterior. A divisão entre Conselho Federal e seccionais está no Provimento 102/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94; art. 115, I"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 54, XIII"
+    },
+    {
+      "ref": "norma:provimento-cfoab-102-2004",
+      "dispositivo": "art. 1º, caput e § 1º; art. 3º; art. 5º, caput e § 2º; art. 9º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-fechamento",
+    "notas": "CF, Lei 8.906/1994 (texto do Planalto baixado em 2026-11-14) e Provimento 102/2004 (página oficial do Conselho Federal) lidos nos dispositivos citados"
+  },
+  "notas": "O Provimento 102/2004 fala em \"Tribunais Federais\" com jurisdição em mais de um estado e cita o art. 115, I, da CF (TRTs) no art. 1º, caput; lemos que inclui os TRTs. Quais TRTs abrangem mais de um estado vem dos órgãos org:trt-8 (AP e PA), org:trt-10 (DF e TO), org:trt-11 (AM e RR) e org:trt-14 (AC e RO)."
+}

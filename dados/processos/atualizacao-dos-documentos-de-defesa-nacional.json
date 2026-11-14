@@ -161,9 +161,9 @@
   "confianca": "oficial",
   "notas": "A etapa de aprovação por decreto não está na LC 97/1999; segue o que ocorreu em 2025 (Decreto 12.725/2025, preâmbulo e art. 1º).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-orcamento-legislativo",
-    "notas": "datas (D55) acrescentadas na etapa elaboracao (início da atualização em 1º/7/2026, Decreto 12.725/2025, art. 3º); o envio seguinte, de quatro em quatro anos desde 2012, cai em 2028, fora da janela; texto das etapas não mudou (antes verificado em verificacao-f2-defesa-seguranca, 2026-11-11)"
+    "tarefa": "verificacao-f3-calendario-orcamento-legislativo",
+    "notas": "coletado em f3-calendario-orcamento-legislativo; Decreto 12.725/2025, art. 3º (\"a partir de 1º de julho de 2026\"), conferido no Planalto em 2026-11-14; dia da semana refeito com script"
   }
 }

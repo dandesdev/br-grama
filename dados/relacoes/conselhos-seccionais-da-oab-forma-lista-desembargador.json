@@ -1,0 +1,36 @@
+{
+  "id": "rel:conselhos-seccionais-da-oab-forma-lista-desembargador",
+  "tipo": "relacao",
+  "nome": "Lista sêxtupla da OAB para os Tribunais de Justiça",
+  "relacao": "forma-lista",
+  "de": "org:conselhos-seccionais-da-oab",
+  "para": "cargo:desembargador",
+  "condicao": "Nas vagas do quinto constitucional destinadas a advogados nos Tribunais de Justiça, a seccional do estado (no TJDFT, a do DF) forma a lista sêxtupla entre advogados com mais de dez anos de exercício, inscritos na seccional há mais de cinco anos e com até 70 anos; pode fazer antes uma consulta direta aos advogados e homologar o resultado; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice.",
+  "vigencia": {
+    "de": "1994-07-05",
+    "ate": null,
+    "nota": "Data do Estatuto da Advocacia (Lei 8.906/1994), que dá a tarefa ao Conselho Federal e aos Conselhos Seccionais; a lista da OAB é anterior. A divisão entre Conselho Federal e seccionais está no Provimento 102/2004."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 94"
+    },
+    {
+      "ref": "norma:lei-8906-1994",
+      "dispositivo": "art. 45, § 2º; art. 58, XIV"
+    },
+    {
+      "ref": "norma:provimento-cfoab-102-2004",
+      "dispositivo": "art. 1º, § 2º; art. 5º, caput e § 3º; art. 9º; art. 10"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-fechamento",
+    "notas": "CF, Lei 8.906/1994 (texto do Planalto baixado em 2026-11-14) e Provimento 102/2004 (página oficial do Conselho Federal) lidos nos dispositivos citados"
+  },
+  "notas": "TJDFT: a Lei 11.697/2008 (art. 55, § 2º) fala só em \"órgãos de representação das respectivas classes\", e o Provimento 102/2004 em \"Tribunais de Justiça dos Estados\"; a seccional do DF entra por ter jurisdição no território do DF (Lei 8.906/1994, art. 45, § 2º, e art. 58, XIV). Notícias da imprensa jurídica (Migalhas, 2016) descrevem a OAB-DF formando a lista para o TJDFT; não foram registradas como fonte."
+}

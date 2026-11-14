@@ -104,7 +104,17 @@
         {
           "de": "2026-11-01",
           "ate": "2026-11-30",
-          "nota": "Janela de 30 dias depois do 5º bimestre de 2026, se a avaliação apontar risco às metas; termina em 30/11/2026 (segunda-feira)."
+          "nota": "Janela de 30 dias depois do 5º bimestre de 2026, se a avaliação apontar risco às metas; termina em 30/11/2026 (segunda-feira). Não há janela depois do 6º bimestre: ela cairia em janeiro, com o exercício já encerrado, e a despesa pertence ao exercício em que foi empenhada (Lei 4.320/1964, arts. 34 e 35, II).",
+          "fontes": [
+            {
+              "ref": "norma:lc-101-2000",
+              "dispositivo": "art. 9º, caput"
+            },
+            {
+              "ref": "norma:lei-4320-1964",
+              "dispositivo": "arts. 34 e 35, II"
+            }
+          ]
         },
         {
           "de": "2027-03-01",
@@ -129,7 +139,7 @@
         {
           "de": "2027-11-01",
           "ate": "2027-11-30",
-          "nota": "Janela de 30 dias depois do 5º bimestre de 2027, se a avaliação apontar risco às metas; termina em 30/11/2027 (terça-feira)."
+          "nota": "Janela de 30 dias depois do 5º bimestre de 2027, se a avaliação apontar risco às metas; termina em 30/11/2027 (terça-feira). Sem janela depois do 6º bimestre, pelo mesmo motivo de 2026."
         }
       ],
       "seguintes": [
@@ -359,10 +369,10 @@
   ],
   "notas": "Modelagem: o ator das etapas de empenho, liquidação e pagamento é o conjunto org:unidades-orcamentarias-do-poder-executivo-federal; nos outros Poderes as etapas são as mesmas. A etapa limitacao-de-empenho fica fora da linha principal: é uma decisão bimestral que reduz o que pode ser empenhado. O ciclo orçamentário (proc:ciclo-orcamentario, etapa execucao) remete a este processo.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-orcamento-legislativo",
-    "notas": "datas de 2026 e 2027 (D55) acrescentadas nas etapas limitacao-de-empenho (janelas depois dos bimestres 1 a 5) e restos-a-pagar (31/12); contas no diário da tarefa; texto das etapas não mudou (antes verificado em verificacao-f2-financas-publicas, 2026-11-11)"
+    "tarefa": "verificacao-f3-calendario-orcamento-legislativo",
+    "notas": "coletado em f3-calendario-orcamento-legislativo; janelas da limitação de empenho (LRF, art. 9º) e 31/12 dos restos a pagar (Lei 4.320/1964, arts. 34 e 36) refeitas com script; a falta da janela depois do 6º bimestre ficou explicada na nota (Lei 4.320/1964, art. 35, II)"
   },
   "confianca": "oficial"
 }

@@ -392,10 +392,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-calendario-eleicoes-mandatos",
-    "notas": "Acrescentadas as datas da eleição de 2026 (D55) nas etapas pedido, julgamento e substituicao, conferidas contra o Anexo I da Res. TSE 23.760/2026; a eleição municipal de 2028 fica fora da janela. Sem data: edital, impugnação, contestação, instrução e recursos (contam da publicação de cada pedido ou decisão). Antes: verificado em 2026-11-11 (verificacao-f2-eleicoes)."
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "coletado em f3-calendario-eleicoes-mandatos. Datas de pedido (15/8/2026), julgamento (14/9/2026) e substituicao (14/9/2026) conferidas contra a Lei 9.504/1997, arts. 11, 13, § 3º, e 16, § 1º, contra o Anexo I da Res. TSE 23.760/2026 (15 de agosto, item 1; 14 de setembro, itens 2 e 3) e por script (20 dias antes de 4/10). Sem correções. Antes: verificado em 2026-11-11 (verificacao-f2-eleicoes)."
   },
   "notas": "As etapas de impugnação, contestação e instrução só acontecem se houver impugnação. O rito da LC 64/1990 (arts. 3º a 14) substitui, na prática, os prazos de impugnação de dois dias do Código Eleitoral (art. 97, §§ 2º a 4º), que o Planalto não marca como revogados; essa leitura é nossa (lei complementar posterior sobre o mesmo rito). Apoiam a leitura a cláusula revogatória da LC 64/1990 ('demais disposições em contrário', art. 28) e a LINDB, art. 2º, § 1º (a lei posterior revoga a anterior quando é incompatível com ela ou regula inteiramente a matéria); nenhuma fonte oficial lida declara a revogação. A LC 64/1990 também não repete a impugnação por qualquer eleitor do art. 97, § 3º, do Código. A Lei 9.504/1997 (art. 11, § 16, na redação da LC 219/2025) criou o Requerimento de Declaração de Elegibilidade, pedido que o pré-candidato pode fazer a qualquer tempo; não o modelamos como etapa porque é anterior e facultativo. Datas de 2026: pedido até 15/8 e julgamento nas instâncias ordinárias até 14/9 (ver proc:eleicao-geral)."
 }
