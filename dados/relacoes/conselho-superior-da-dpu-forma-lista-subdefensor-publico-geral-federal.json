@@ -1,7 +1,7 @@
 {
   "id": "rel:conselho-superior-da-dpu-forma-lista-subdefensor-publico-geral-federal",
   "tipo": "relacao",
-  "nome": "Indicação do Subdefensor Público-Geral Federal",
+  "nome": "Lista de seis nomes para Subdefensor Público-Geral Federal",
   "relacao": "forma-lista",
   "de": "org:conselho-superior-da-dpu",
   "para": "cargo:subdefensor-publico-geral-federal",
@@ -19,9 +19,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-da-dpu-indica-subdefensor-publico-geral-federal; antes verificado em verificacao-f2-funcoes-essenciais"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-da-dpu-indica-subdefensor-publico-geral-federal; antes verificado em verificacao-f2-funcoes-essenciais); D54: forma-lista cabe (LC 80, art. 10, XIV: seis nomes para os dois cargos); nome e condição ajustados para dizer lista de seis nomes"
   }
 }

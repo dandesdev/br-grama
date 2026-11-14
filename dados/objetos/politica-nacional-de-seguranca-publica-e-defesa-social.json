@@ -22,11 +22,11 @@
     "nota": "Criada pela Lei 13.675/2018, em vigor 30 dias após a publicação de 12/6/2018."
   },
   "confianca": "oficial",
-  "notas": "A política está no texto da lei (arts. 4º a 8º), não num decreto à parte. tipo_objeto 'documento' é o termo mais próximo do vocabulário (ver proposta no diário da f2-defesa-seguranca).",
+  "notas": "A política está no texto da lei (arts. 4º a 8º), não num decreto à parte. tipo_objeto 'politica-publica' desde a D54 (antes 'documento', por falta de termo).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "D54: tipo_objeto passa de documento para politica-publica. Antes verificado em verificacao-f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (D54: tipo_objeto passa de documento para politica-publica. Antes verificado em verificacao-f2-defesa-seguranca); D54: politica-publica cabe; nota antiga que chamava 'documento' de termo mais próximo atualizada"
   }
 }

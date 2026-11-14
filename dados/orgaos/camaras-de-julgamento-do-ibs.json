@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Câmaras de Julgamento do IBS (primeira instância)",
   "resumo": "Primeira instância do contencioso administrativo do IBS no CGIBS: 27 câmaras virtuais, uma por estado e uma no DF, que julgam as impugnações contra lançamentos de ofício.",
-  "detalhes": "Cada câmara tem 2 servidores indicados pelo fisco do estado e 2 pelos fiscos dos municípios desse estado (no DF, 4 servidores do DF), mais um presidente que só vota no empate; a presidência alterna a cada exercício entre os servidores do estado e os dos municípios (LC 227/2026, art. 92, §§ 3º e 4º). Só entram servidores de carreira com competência para lançar ou julgar tributos, e julga a câmara do estado onde fica o fisco que fez o lançamento (art. 92, caput e § 2º). O CGIBS pode dividir as câmaras em turmas, conforme o volume de processos; cada membro tem suplente (art. 92, §§ 1º, 5º e 6º).",
+  "detalhes": "Cada câmara tem 2 servidores indicados pelo fisco do estado e 2 pelos fiscos dos municípios desse estado (no DF, 4 servidores do DF), mais um presidente que só vota no empate; a presidência alterna a cada exercício entre os servidores do estado e os dos municípios (LC 227/2026, art. 92, §§ 3º e 4º). Só entram servidores de carreira com competência para lançar ou julgar tributos, e julga a câmara do estado onde fica o fisco que fez o lançamento (art. 92, caput e § 2º). Julgam também os pedidos de retificação das próprias decisões (arts. 80 e 91, II). O CGIBS pode dividir as câmaras em turmas, conforme o volume de processos; cada membro tem suplente (art. 92, §§ 1º, 5º e 6º).",
   "tipo_orgao": "conjunto",
   "poder": "executivo",
   "esfera": "nacional",
@@ -24,7 +24,7 @@
           "dispositivo": "art. 88, caput; art. 89, I e § 1º"
         }
       ],
-      "nota": "A lei põe as instâncias de julgamento 'no âmbito das competências do CGIBS', sem subordiná-las a outro órgão do art. 7º; a Diretoria de Revisão do Crédito Tributário só dá apoio técnico-administrativo (art. 36)."
+      "nota": "A lei põe as instâncias de julgamento 'no âmbito das competências do CGIBS', sem subordiná-las a outro órgão do art. 7º. A Diretoria de Revisão do Crédito Tributário gere e coordena a revisão do lançamento 'por meio dos órgãos de julgamento' e lhes dá apoio técnico-administrativo (art. 36, I e II), mas a lei não põe as câmaras dentro dela."
     }
   },
   "fontes": [
@@ -48,8 +48,9 @@
   "confianca": "oficial",
   "notas": "Conjunto (D51): as 27 câmaras são iguais e têm o mesmo cargo agregado (cargo:julgador-de-primeira-instancia-do-ibs). O rito está em proc:processo-administrativo-tributario-do-ibs.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: nota do contido_em corrigida (art. 36, I e II); pedido de retificação (art. 91, II) nos detalhes"
   }
 }

@@ -30,10 +30,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "f2-fechamento-a: relacao 'julga' → 'registra' (D54), id novo; antes verificado em verificacao-f2-eleicoes"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (f2-fechamento-a: relacao 'julga' → 'registra' (D54), id novo; antes verificado em verificacao-f2-eleicoes); D54: registra cabe (a definição dá este caso como exemplo); conteúdo já verificado em verificacao-f2-eleicoes, conferido só o tipo e o id"
   },
   "notas": "Uma relação só, a partir do ramo, porque não há nó agregado para os 27 TREs; a condição diz quem julga cada cargo. O rito do julgamento, com a impugnação e os recursos, está em proc:registro-de-candidatura. Antes a relação era 'julga', com outro id; trocada por 'registra' na D54, cuja definição dá este caso como exemplo. O julgamento das impugnações continua no rito de proc:registro-de-candidatura."
 }

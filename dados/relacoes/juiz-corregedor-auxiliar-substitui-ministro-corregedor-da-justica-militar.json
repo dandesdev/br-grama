@@ -1,0 +1,27 @@
+{
+  "id": "rel:juiz-corregedor-auxiliar-substitui-ministro-corregedor-da-justica-militar",
+  "tipo": "relacao",
+  "nome": "Substituição do Ministro-Corregedor",
+  "relacao": "substitui",
+  "de": "cargo:juiz-corregedor-auxiliar",
+  "para": "cargo:ministro-corregedor-da-justica-militar",
+  "condicao": "Nas licenças, férias, faltas e impedimentos do Ministro-Corregedor e, em caso de vaga, até a posse do novo titular.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8457-1992",
+      "dispositivo": "art. 14-A, I; art. 62, V"
+    }
+  ],
+  "vigencia": {
+    "de": "2018-12-20",
+    "ate": null,
+    "nota": "Redação da Lei 13.774/2018, em vigor na publicação (art. 4º; DOU de 20/12/2018)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "tarefa": "f2-fechamento-final",
+    "em": "2026-11-14",
+    "notas": "Novo id; substitui a relação de id juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm (verificada em verificacao-f2-judiciario), apagada. O alvo passa do Vice-Presidente do STM para cargo:ministro-corregedor-da-justica-militar, criado em f2-fechamento: a Lei 8.457, art. 14-A, I, diz \"substituir o Ministro-Corregedor\". Condição reescrita sem o \"só na função de\", que o novo alvo torna desnecessário. Fontes e vigência mantidas."
+  }
+}

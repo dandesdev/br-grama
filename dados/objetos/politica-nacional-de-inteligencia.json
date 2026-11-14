@@ -30,11 +30,11 @@
     "nota": "Vigência da política atual (Decreto 8.793/2016, DOU de 30/6/2016). A previsão da política é da Lei 9.883/1999."
   },
   "confianca": "oficial",
-  "notas": "tipo_objeto 'documento' é o termo mais próximo do vocabulário para uma política fixada em anexo de decreto (ver proposta de vocabulário no diário da f2-defesa-seguranca).",
+  "notas": "tipo_objeto 'politica-publica' desde a D54 (antes 'documento', por falta de termo).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "D54: tipo_objeto passa de documento para politica-publica. Antes verificado em verificacao-f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (D54: tipo_objeto passa de documento para politica-publica. Antes verificado em verificacao-f2-defesa-seguranca); D54: politica-publica cabe; nota antiga que chamava 'documento' de termo mais próximo atualizada"
   }
 }

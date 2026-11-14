@@ -11,6 +11,10 @@
     "provimento": {
       "confianca": "inferido",
       "nota": "A lei diz só 'indicados'; usamos designacao (membro de colegiado com mandato, D54) porque os indicados já são julgadores de outro órgão. O ato conjunto não foi localizado."
+    },
+    "vagas": {
+      "confianca": "inferido",
+      "nota": "Leitura nossa: o § 1º lista o presidente num inciso próprio (IV), depois dos 4 + 4 + 4, e ele só vota no empate; se saísse dos 12, um dos lados votaria com um a menos e a composição deixaria de ser equilibrada. O § 8º diz só que a presidência alterna entre representante da Fazenda Nacional e do CGIBS, e o ato conjunto que a regula (§ 7º) não foi localizado. Mesma leitura nas câmaras do CGIBS (LC 227/2026, arts. 92, § 3º, III, 94, § 3º, IV, e 96, § 1º, IV)."
     }
   },
   "mandato": {
@@ -45,8 +49,9 @@
   "confianca": "oficial",
   "notas": "Cargo agregado (D11): sem pessoas. O Presidente da Câmara Nacional não tem cargo próprio; ele pode suscitar incidente de uniformização (art. 323-J, II).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: campos.vagas inferido: a lei não diz se o presidente sai dos 12"
   }
 }

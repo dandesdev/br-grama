@@ -45,11 +45,11 @@
   "vagas_nota": "8 servidores e 8 representantes dos contribuintes, mais o presidente (cargo:presidente-da-camara-superior-do-ibs), com igual número de suplentes (art. 96, §§ 1º e 5º).",
   "requisitos": [
     {
-      "texto": "servidor: de carreira do estado, de município do estado ou do DF com competência para lançar ou julgar tributos, e ter integrado por pelo menos 2 mandatos câmara de segunda instância do contencioso tributário estadual, distrital ou municipal",
+      "texto": "servidor: de carreira do estado, de município do estado ou do DF com competência para lançar ou julgar tributos, com graduação em curso superior, e ter integrado por pelo menos 2 mandatos câmara de segunda instância do contencioso tributário estadual, distrital ou municipal",
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
-          "dispositivo": "art. 96, §§ 4º e 7º"
+          "dispositivo": "art. 96, §§ 4º e 7º; art. 89, § 2º, I"
         }
       ]
     },
@@ -58,7 +58,7 @@
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
-          "dispositivo": "art. 89, § 2º, II"
+          "dispositivo": "art. 89, § 2º, II; art. 96, § 2º"
         }
       ]
     }
@@ -80,10 +80,11 @@
     "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); a composição não foi localizada (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
   },
   "confianca": "oficial",
-  "notas": "Cargo agregado (D11): sem pessoas. Quatro deles (2 estaduais e 2 municipais) e 2 representantes dos contribuintes são indicados pelo CGIBS para a Câmara Nacional de Integração (LC 214/2025, art. 323-G, § 1º, II e III).",
+  "notas": "Cargo agregado (D11): sem pessoas. O art. 96, § 4º, diz que 'os integrantes' da Câmara Superior serão escolhidos 'dentre servidores' com 2 mandatos em segunda instância; aplicamos a exigência só aos servidores, porque o § 1º, III, e o § 2º preveem representantes dos contribuintes escolhidos por seleção pública. Quatro deles (2 estaduais e 2 municipais) e 2 representantes dos contribuintes são indicados pelo CGIBS para a Câmara Nacional de Integração (LC 214/2025, art. 323-G, § 1º, II e III).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: requisito de graduação dos servidores (art. 89, § 2º, I, b) e fonte art. 96, § 2º, acrescentados; nota sobre o art. 96, § 4º"
   }
 }

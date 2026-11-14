@@ -2,6 +2,8 @@
 id: verificacao-f2-fechamento
 escopo: "Revisão independente do fechamento da fase 2 (partes A e B): entidades com verificacao.tarefa f2-fechamento"
 status: em-andamento
+iniciada_em: 2026-11-14
+concluida_em: null
 depende_de: [f2-fechamento-a, f2-fechamento-b]
 ---
 
@@ -17,3 +19,5 @@ Pontos de atenção:
 Ao terminar, marque as entidades conferidas como `verificado` (com `tarefa: "verificacao-f2-fechamento"`), corrija o que estiver errado com fonte, mude o status desta tarefa para `verificada` e escreva o relatório no diário.
 
 ## Diário
+- 2026-11-14 — iniciada; lidos CLAUDE.md, decisões (D11, D14, D36, D37, D40, D43, D49 a D54), modelo, protocolo, instruções de verificação e da fase 2, diários de f2-fechamento-a e -b. Escopo: 215 entidades com tarefa f2-fechamento (200 coletado, 15 já marcadas verificado pela própria parte A, item 10; serão reconferidas). Lotes: (1) D54 e ids apagados; (2) ocupantes; (3) processos; (4) entidades novas; (5) normas e Wayback; (6) restantes e quadros
+- 2026-11-14 — lote 1 (D54 e ids apagados), 57 entidades verificadas. Ids apagados (21 `-indica-` das listas, 4 `-coordena-` dos sistemas, vice-presidente-do-stm-dirige-corregedoria-da-justica-militar, tse-aprecia-para-registro-estatuto-de-partido, justica-eleitoral-julga-registro-de-candidatura): nenhum arquivo nem referência em dados/ e web/src. forma-lista (21): o termo cabe em todas; correção nas duas da DPU: nome "Indicação do..." → "Lista de seis nomes para..." e condição do Corregedor-Geral passa a dizer os seis nomes comuns aos dois cargos (LC 80, art. 10, XIV; o art. 12 diz só "indicado ... pelo Conselho Superior"). classifica (7): LAI, arts. 24, § 1º, e 27, e Decreto 7.724, art. 30, §§ 1º e 5º a 7º, conferidos. acumula (3) e cargo:ministro-corregedor-da-justica-militar: Res. TSE 23.742, arts. 9º e 18 (DJE-TSE 93, 3/6/2024); Lei 11.798, art. 2º, § 6º; RISTJ, art. 3º (ER 29/2018); Lei 8.457, arts. 10, b, 12 a 14-A. registra (2), supervisiona (4, DL 200, art. 30, § 1º), eleicao-por-colegio (2, Lei 6.404, arts. 122, II, 140, 143 e 161, § 1º), orgao-interno (12) e politica-publica (4): termos cabem. Correções: notas de três objetos de política ainda diziam que 'documento' era o termo mais próximo (atualizadas); obj:recursos-federais-repassados-por-convenio tinha a vedação da Lei 13.303, art. 92, parágrafo único, antes da ressalva do art. 25, § 3º, da LRF, que só vale para as sanções da LRF (frase separada; vírgula que faltava). Sugestão fora do escopo: rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm (verificacao-f2-judiciario) poderia apontar para cargo:ministro-corregedor-da-justica-militar (Lei 8.457, art. 14-A, I: "substituir o Ministro-Corregedor"); não há relação da OAB formando a lista sêxtupla do quinto (CF, art. 94)

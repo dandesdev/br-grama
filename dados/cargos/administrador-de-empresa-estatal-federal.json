@@ -115,9 +115,9 @@
   "confianca": "oficial",
   "notas": "Pessoas (presidentes das estatais) não criadas: D11 cita dirigentes máximos, mas não procuramos quem ocupava cada presidência em 2026-10-01.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "D54: provimento_casos passam de nomeacao-livre e eleicao-pelos-pares (inferidos) para eleicao-por-colegio (assembleia de acionistas e conselho de administração); retirado campos.provimento_casos inferido; antes verificado em verificacao-f2-administracao"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (D54: provimento_casos passam de nomeacao-livre e eleicao-pelos-pares (inferidos) para eleicao-por-colegio (assembleia de acionistas e conselho de administração); retirado campos.provimento_casos inferido; antes verificado em verificacao-f2-administracao); D54: eleicao-por-colegio cabe (a definição cita a assembleia e o conselho de administração); Lei 6.404, arts. 122, II, 140, 143 (redação da LC 182/2021) e 161, § 1º, conferidos na cópia local de f2-administracao"
   }
 }

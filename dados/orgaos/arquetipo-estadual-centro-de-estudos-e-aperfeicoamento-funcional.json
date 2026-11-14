@@ -32,9 +32,9 @@
   "confianca": "oficial",
   "notas": "tipo_orgao 'orgao-interno' desde a D54 (antes 'outro', por falta de termo). O nome varia por estado (em vários, escola superior do MP).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "D54: tipo_orgao passa de outro para orgao-interno; antes verificado em verificacao-f2-funcoes-essenciais"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (D54: tipo_orgao passa de outro para orgao-interno; antes verificado em verificacao-f2-funcoes-essenciais); D54: orgao-interno cabe (unidade interna de órgão fora do Legislativo e do Judiciário); conferido só o tipo, conteúdo já verificado"
   }
 }

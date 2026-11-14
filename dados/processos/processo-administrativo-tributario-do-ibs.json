@@ -3,7 +3,7 @@
   "tipo": "processo",
   "nome": "Processo administrativo tributário do IBS",
   "resumo": "Caminho da contestação de uma cobrança de IBS no CGIBS: impugnação, julgamento por câmara do estado, recursos à câmara recursal e uniformização nacional.",
-  "detalhes": "Vale para lançamentos de ofício, multas por obrigações acessórias e restituições ou ressarcimentos negados (LC 227/2026, art. 54). Tudo é eletrônico, no sistema do CGIBS, e os prazos contam só dias úteis, suspensos de 20/12 a 20/1; sem prazo próprio, o ato da parte tem 10 dias (arts. 56, 57 e 62). Intimações vão pelo domicílio tributário eletrônico, e o contribuinte se considera intimado 10 dias depois da entrega (art. 64). Os julgadores seguem as súmulas vinculantes e as decisões do STF em controle concentrado, as do STF e do STJ em repercussão geral e repetitivos, as súmulas do CGIBS e as decisões da Câmara Nacional, e não podem deixar de aplicar a lei por inconstitucionalidade (art. 74).",
+  "detalhes": "Vale para lançamentos de ofício, multas por obrigações acessórias e restituições ou ressarcimentos negados (LC 227/2026, art. 54). Tudo é eletrônico, no sistema do CGIBS, e os prazos contam só dias úteis, suspensos de 20/12 a 20/1; sem prazo próprio, o ato da parte tem 10 dias (arts. 56, 57 e 62). Intimações vão pelo domicílio tributário eletrônico, e o contribuinte que não abrir a mensagem se considera intimado 10 dias depois da entrega (art. 64). Os julgadores seguem as súmulas vinculantes e as decisões do STF em controle concentrado, as do STF e do STJ em repercussão geral e repetitivos, as súmulas do CGIBS e as decisões da Câmara Nacional, e não podem deixar de aplicar a lei por inconstitucionalidade (art. 74).",
   "forma": "linha",
   "etapas": [
     {
@@ -292,7 +292,7 @@
     {
       "id": "rito-sumario",
       "nome": "Rito sumário",
-      "resumo": "Processos de valor até a alçada nacional (no máximo 1.000 UPFs) ou de matéria simples terminam na primeira instância, sem recurso voluntário nem de ofício.",
+      "resumo": "Processos de valor abaixo da alçada nacional (que não passa de 1.000 UPFs) ou de matéria simples terminam na primeira instância, sem recurso voluntário nem de ofício.",
       "detalhes": "As matérias simples citadas na lei são restituição e ressarcimento negados, exclusão de parcelamento especial e indeferimento ou exclusão do Simples Nacional; esta última só a partir de 1º/1/2027 (LC 227/2026, art. 182, I, a). O CGIBS define o rito em ato próprio. Continuam cabíveis o pedido de retificação e o recurso especial à Câmara Nacional e, nos casos de valor, o recurso de uniformização.",
       "quem_aciona": [
         "org:comite-gestor-do-ibs"
@@ -436,8 +436,9 @@
   "confianca": "oficial",
   "notas": "Nos regimes de incidente, os cargos de julgador em quem_aciona representam os presidentes das câmaras, que não têm cargo próprio (arts. 84, II; LC 214/2025, art. 323-J, II). O contribuinte (sujeito passivo) não é nó do mapa: a etapa de impugnação tem como ator o órgão que a recebe, como em proc:pedido-de-acesso-a-informacao. A representação da Fazenda (art. 97) está em rel:arquetipo-estadual-procuradoria-geral-oficia-junto-a-camaras-de-julgamento-do-ibs e rel:arquetipo-municipal-oficia-junto-a-camaras-de-julgamento-do-ibs. Os prazos da LC 227 contam em dias úteis (art. 62); o do recurso especial a LC 214 diz em dias úteis.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: rito sumário: 'abaixo da alçada' (art. 76, I); intimação presumida só sem consulta ao DTE (art. 64, § 2º)"
   }
 }

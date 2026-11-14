@@ -31,11 +31,11 @@
     "nota": "Versão aprovada pelo Decreto 12.725/2025 (DOU de 19/11/2025), que revogou os Decretos 5.484/2005 e 6.703/2008. A exigência de envio ao Congresso vem da LC 136/2010."
   },
   "confianca": "oficial",
-  "notas": "Um só objeto para os três documentos porque a LC 97/1999 os trata juntos (art. 9º, § 3º) e eles tramitaram e foram aprovados juntos. tipo_objeto 'documento' é o termo mais próximo (ver proposta de vocabulário no diário da f2-defesa-seguranca).",
+  "notas": "Um só objeto para os três documentos porque a LC 97/1999 os trata juntos (art. 9º, § 3º) e eles tramitaram e foram aprovados juntos. tipo_objeto 'politica-publica' desde a D54 (antes 'documento', por falta de termo).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "D54: tipo_objeto passa de documento para politica-publica. O Livro Branco, que entra no mesmo objeto, é um documento de transparência e não uma política; o objeto segue a lei, que trata os três juntos (LC 97, art. 9º). Antes verificado em verificacao-f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (D54: tipo_objeto passa de documento para politica-publica. O Livro Branco, que entra no mesmo objeto, é um documento de transparência e não uma política; o objeto segue a lei, que trata os três juntos (LC 97, art. 9º). Antes verificado em verificacao-f2-defesa-seguranca); D54: politica-publica cabe; nota antiga que chamava 'documento' de termo mais próximo atualizada"
   }
 }

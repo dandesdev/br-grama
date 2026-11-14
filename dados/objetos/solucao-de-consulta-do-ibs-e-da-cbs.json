@@ -2,8 +2,8 @@
   "id": "obj:solucao-de-consulta-do-ibs-e-da-cbs",
   "tipo": "objeto",
   "nome": "Solução de consulta sobre o IBS e a CBS",
-  "resumo": "Resposta oficial do CGIBS e da Receita Federal a um contribuinte que pergunta como a lei do IBS e da CBS se aplica a um fato dele; vincula o fisco e o consulente.",
-  "detalhes": "Enquanto a consulta, feita até o vencimento, não é respondida, não se abre fiscalização sobre o tema; quem segue a resposta não é autuado enquanto ela não for revogada, e o imposto devido segundo a resposta é pago em 15 dias sem multa (LC 214/2025, arts. 323-C e 323-E). Não cabe recurso (art. 323-F). Não alcança terceiros, nem consultas inexatas, protelatórias ou feitas depois de iniciada a fiscalização (arts. 323-C, II, e 323-D).",
+  "resumo": "Resposta oficial do CGIBS (IBS) ou da Receita Federal (CBS), em conjunto nas regras comuns, a quem pergunta como a lei se aplica a um fato seu; vincula o fisco e o consulente.",
+  "detalhes": "Cada órgão responde pelo seu tributo; na matéria comum, a minuta de um passa pelo outro e a solução sai em conjunto (LC 214/2025, art. 323-B). Enquanto a consulta, feita até o vencimento, não é respondida, não se abre fiscalização sobre o tema; quem segue a resposta não é autuado enquanto ela não for revogada, e o imposto devido segundo a resposta é pago em 15 dias sem multa (LC 214/2025, arts. 323-C e 323-E). Não cabe recurso (art. 323-F). Não alcança terceiros, nem consultas inexatas, protelatórias ou feitas depois de iniciada a fiscalização (arts. 323-C, II, e 323-D).",
   "tipo_objeto": "decisao",
   "fontes": [
     {
@@ -18,8 +18,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: resumo corrigido: cada órgão responde pelo seu tributo, em conjunto só na matéria comum (LC 214, art. 323-B)"
   }
 }

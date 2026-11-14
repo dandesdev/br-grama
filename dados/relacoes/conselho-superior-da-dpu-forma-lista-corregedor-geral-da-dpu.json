@@ -1,11 +1,11 @@
 {
   "id": "rel:conselho-superior-da-dpu-forma-lista-corregedor-geral-da-dpu",
   "tipo": "relacao",
-  "nome": "Indicação do Corregedor-Geral da DPU",
+  "nome": "Lista de seis nomes para Corregedor-Geral da DPU",
   "relacao": "forma-lista",
   "de": "org:conselho-superior-da-dpu",
   "para": "cargo:corregedor-geral-da-dpu",
-  "condicao": "Indica nomes da categoria mais elevada da carreira; o Presidente da República nomeia.",
+  "condicao": "Indica seis nomes da categoria mais elevada da carreira, entre os quais o Presidente da República nomeia o Corregedor-Geral e o Subdefensor.",
   "vigencia": {
     "de": "1994-01-13",
     "ate": null,
@@ -19,9 +19,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-da-dpu-indica-corregedor-geral-da-dpu; antes verificado em verificacao-f2-funcoes-essenciais"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-da-dpu-indica-corregedor-geral-da-dpu; antes verificado em verificacao-f2-funcoes-essenciais); D54: forma-lista cabe (LC 80, art. 10, XIV: seis nomes para os dois cargos); nome e condição ajustados para dizer lista de seis nomes"
   }
 }

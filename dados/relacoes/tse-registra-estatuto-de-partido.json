@@ -22,10 +22,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "f2-fechamento-a: relacao 'aprecia-para-registro' → 'registra' (D54), id novo; antes verificado em verificacao-f2-eleicoes"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (f2-fechamento-a: relacao 'aprecia-para-registro' → 'registra' (D54), id novo; antes verificado em verificacao-f2-eleicoes); D54: registra cabe (a definição dá este caso como exemplo); conteúdo já verificado em verificacao-f2-eleicoes, conferido só o tipo e o id"
   },
   "notas": "Antes a relação era 'aprecia-para-registro' (termo pensado para o TCU), com outro id; trocada por 'registra' na D54."
 }

@@ -29,10 +29,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "Sem campo ente: é ato do CGIBS, entidade de estados, DF e municípios em conjunto. Cópias em pesquisa/brutos/cgibs/2026-11-14-f2-cgibs-julgamento/ (Resoluções 6 e 13 e a página de resoluções). A data de publicação é a do site do CGIBS; não procuramos publicação em diário oficial.",
+  "notas": "Sem campo ente: é ato do CGIBS, entidade de estados, DF e municípios em conjunto. Cópias em pesquisa/brutos/cgibs/2026-11-14-f2-cgibs-julgamento/ (Resoluções 6 e 13 e a página de resoluções). A data de publicação é a do site do CGIBS ('publicada e disponibilizada no site do CGIBS em 30/04/2026'). Na revisão (2026-11-14), a busca do DOU de 2026 por 'Resolução CGIBS' e 'Regulamento do IBS' trouxe atos que a citam (atos conjuntos RFB/CGIBS, Portaria Conjunta MF/CGIBS 14/2026), mas não a própria resolução, que só achamos no site do CGIBS (para comparar: a Resolução CGIBS 4/2026, art. 23, manda publicar o regimento no site).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: publicação no site do CGIBS em 30/4/2026 conferida; busca no DOU sem a resolução, registrada nas notas"
   }
 }

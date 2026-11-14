@@ -49,7 +49,7 @@
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
-          "dispositivo": "art. 89, § 2º, I, a"
+          "dispositivo": "art. 89, § 2º, I, a; art. 94, caput"
         }
       ]
     },
@@ -67,7 +67,7 @@
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
-          "dispositivo": "art. 89, § 2º, II"
+          "dispositivo": "art. 89, § 2º, II; art. 94, § 4º"
         }
       ]
     }
@@ -91,8 +91,9 @@
   "confianca": "oficial",
   "notas": "Cargo agregado (D11): sem pessoas. Os presidentes das câmaras recursais podem suscitar incidente de uniformização por repetição de julgamentos (art. 84, II) e, nas matérias comuns, perante a Câmara Nacional de Integração (LC 214/2025, art. 323-J, II). As entidades econômicas que indicam não são nós do mapa.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: requisitos: fontes art. 94, caput e § 4º, acrescentadas"
   }
 }

@@ -166,7 +166,7 @@ Nenhum artigo revogado por inteiro (só os §§ 1º e 2º do art. 21, pela Lei 1
 | art. 48 | coberto | cargo:juiz-federal-substituto-da-justica-militar (vitaliciamento) |
 | arts. 49 a 59 | fora | antiguidade, férias, licenças e aposentadoria (direitos individuais) |
 | art. 61 | fora | incompatibilidade por parentesco (detalhe) |
-| art. 62 | coberto | cargo:juiz-corregedor-auxiliar, rel:vice-presidente-do-stm-substitui-presidente-do-stm, rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm |
+| art. 62 | coberto | cargo:juiz-corregedor-auxiliar, rel:vice-presidente-do-stm-substitui-presidente-do-stm, rel:juiz-corregedor-auxiliar-substitui-ministro-corregedor-da-justica-militar |
 | arts. 63 a 66 | fora | convocação de substitutos e redistribuição (detalhe) |
 | arts. 67 a 70 | fora | MPM e Defensoria junto à Justiça Militar: remissão (org:mpm, org:dpu) |
 | arts. 71, 72, 74 a 76, 78 a 88 | fora | serviços auxiliares e regime disciplinar dos servidores: estrutura administrativa abaixo do mapa (D09) |

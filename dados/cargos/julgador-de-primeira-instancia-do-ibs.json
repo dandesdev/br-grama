@@ -27,7 +27,7 @@
       "fontes": [
         {
           "ref": "norma:lc-227-2026",
-          "dispositivo": "art. 89, § 2º, I, a"
+          "dispositivo": "art. 89, § 2º, I, a; art. 92, caput"
         }
       ]
     },
@@ -60,8 +60,9 @@
   "confianca": "oficial",
   "notas": "Cargo agregado (D11): sem pessoas. O presidente da câmara não tem cargo próprio; ele aprova as justificativas de ausência (art. 100, parágrafo único) e recebe a lista de empresas ligadas a cada julgador (art. 66, § 10).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: requisito de servidor: fonte art. 92, caput, acrescentada"
   }
 }

@@ -111,4 +111,6 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - 2026-11-14: propostas de f2-cgibs-julgamento (relação "responde" para solução de consulta; provimento de representante de contribuintes por entidade e seleção; ator "contribuinte") seguem a D54: ficam com os termos atuais e nota; o ator "contribuinte" vai com os demais atores genéricos para a fase 3.
 
+- 2026-11-14: as câmaras de julgamento do IBS ficam `contido_em` o CGIBS, não na Diretoria de Revisão do Crédito Tributário: o art. 89 da LC 227 as põe no âmbito do CGIBS, e o art. 36, I, diz por meio de quem a diretoria revisa, não a quem as câmaras se subordinam. O presidente das câmaras fica como cadeira à parte, como a lei o lista em inciso próprio (verificacao-f2-cgibs-julgamento).
+
 ## Diário

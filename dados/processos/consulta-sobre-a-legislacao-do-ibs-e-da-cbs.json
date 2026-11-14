@@ -159,7 +159,7 @@
   "vigencia": {
     "de": "2026-01-14",
     "ate": null,
-    "nota": "LC 214/2025, arts. 323-A a 323-F, incluídos pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III). A Diretoria de Tributação responde pelo CGIBS desde a Resolução CGIBS 6/2026, em vigor na publicação, em 30/4/2026 (art. 617)."
+    "nota": "LC 214/2025, arts. 323-A a 323-F, incluídos pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III). A LC 227/2026 já dava à Diretoria de Tributação os pareceres em soluções de consulta desde 14/1/2026 (art. 33, VI); a Resolução CGIBS 6/2026, em vigor na publicação no site do CGIBS, em 30/4/2026 (art. 617), diz que ela emite a solução de consulta do IBS e separa o rito das matérias comuns do das específicas (arts. 445, I e § 5º, e 565)."
   },
   "fontes": [
     {
@@ -179,8 +179,9 @@
   "confianca": "oficial",
   "notas": "A Diretoria de Tributação não tem nó próprio: está no conjunto org:diretorias-do-cgibs (D51). O contribuinte consulente não é nó do mapa; a primeira etapa tem como atores os órgãos que recebem a consulta. As etapas listam os dois órgãos porque o consultado e o avaliador trocam de papel conforme o tributo.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: vigência corrigida: Diretoria de Tributação com os pareceres desde a LC 227, art. 33, VI (14/1/2026); Resolução CGIBS 6/2026 desde 30/4/2026"
   }
 }

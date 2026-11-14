@@ -18,7 +18,9 @@
     "CGIBS, página de atos conjuntos (Portaria Conjunta MF/CGIBS nº 7/2026; Atos Conjuntos RFB/CGIBS nº 1/2025 a 7/2026), lida em 2026-11-14",
     "Resolução CGIBS nº 4/2026 (Regimento Interno Procedimental) e alterações (Resoluções nº 5 e 9/2026): sem dispositivo sobre os órgãos de julgamento",
     "Resolução CGIBS nº 6/2026 (Regulamento do IBS): trata da consulta, mas não dos órgãos de julgamento",
-    "Busca na web por ato conjunto da Câmara Nacional de Integração (só notícias de escritórios de advocacia)"
+    "Busca na web por ato conjunto da Câmara Nacional de Integração (só notícias de escritórios de advocacia)",
+    "Revisão (2026-11-14): páginas do CGIBS de resoluções, portarias e atos conjuntos baixadas de novo (mesma lista), editais de chamamento público (nº 1 a 3/2026, só sistemas: ANDIC, repositório de documentos fiscais, ressarcimento), comunicados oficiais (vazia) e notícias pelo RSS (de 18/9 a 12/11/2026, incluída a 4ª Reunião Ordinária do Conselho Superior, em 10/11/2026): nada sobre julgadores, câmaras ou processo seletivo de representantes dos contribuintes",
+    "Revisão (2026-11-14): busca no DOU de 2026 (in.gov.br) por 'Câmara Nacional de Integração', 'Câmara Superior do IBS' e 'contencioso administrativo do IBS': só a LC 227/2026 e a Portaria MF nº 1.398, de 20/5/2026, que cita decisões e súmulas da Câmara Nacional sem compô-la"
   ],
   "fontes": [
     {
@@ -39,8 +41,9 @@
   "confianca": "oficial",
   "notas": "Cópias das páginas e dos PDFs do CGIBS em pesquisa/brutos/cgibs/2026-11-14-f2-cgibs-julgamento/. Uma nota de 14/7/2026 republicada pelo escritório TAGD Advogados, com base no JOTA (fonte secundária, não citada), relata que o presidente do Carf disse em 25/6/2026 que a estruturação da Câmara Nacional começaria em 2026 e o desenho definitivo poderia ficar para 2027. O aviso se resolve (D43) com o ato do CGIBS ou o ato conjunto que componha os órgãos.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-cgibs-julgamento"
+    "tarefa": "verificacao-f2-cgibs-julgamento",
+    "notas": "coletado em f2-cgibs-julgamento; revisão: aviso continua aberto: nenhum ato de composição no site do CGIBS nem no DOU até 2026-11-14; onde_procuramos acrescido"
   }
 }
