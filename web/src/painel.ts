@@ -259,9 +259,12 @@ export class Painel {
       }
     }
 
-    const casos = (e.provimento_casos as { quando: string; provimento: string }[] | undefined) ?? [];
+    const casos = (e.provimento_casos as { quando: string; provimento: string; confianca?: string }[] | undefined) ?? [];
+    // Confiança própria de um caso (D58), quando difere da do cargo.
+    const confCaso = (c: { confianca?: string }) =>
+      c.confianca && c.confianca !== e.confianca ? ` <span class="etiqueta" title="${esc(this.dados.definicao("confianca", c.confianca))}">${esc(this.dados.nomeDe("confianca", c.confianca).toLowerCase())}</span>` : "";
     const comoSeChega = casos.length
-      ? `<ul>${casos.map((c) => `<li>${esc(c.quando)}: ${this.termo("provimento", c.provimento)}</li>`).join("")}</ul>`
+      ? `<ul>${casos.map((c) => `<li>${esc(c.quando)}: ${this.termo("provimento", c.provimento)}${confCaso(c)}</li>`).join("")}</ul>`
       : this.termo("provimento", e.provimento as string);
     const m = e.mandato as { anos?: number | null; vitalicio?: boolean; limite?: string; inicio?: string; reconducao?: string } | null;
     const mandato = !m ? "" : m.vitalicio
