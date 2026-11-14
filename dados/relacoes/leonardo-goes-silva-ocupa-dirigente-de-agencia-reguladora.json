@@ -9,9 +9,32 @@
   "interino": true,
   "condicao": "Diretor-Presidente interino da ANA: o cargo está vago desde o fim do mandato de Veronica Sánchez da Cruz Rios (15/1/2026), e os diretores revezam na presidência a cada dois meses (Resolução ANA 280/2025). É também diretor da agência.",
   "vigencia": {
-    "de": null,
+    "de": "2026-09-16",
     "ate": null,
-    "nota": "Início e fim do período de interinidade não conferidos (a Resolução ANA 280/2025 fixa períodos de dois meses, de 16 a 15). Em exercício em 2026-10-01: assina como Diretor-Presidente Interino atos de 24/9, 30/9, 1º/10 e 13/10/2026; em 18/9/2026 assinou Larissa Oliveira Rêgo, como interina substituta."
+    "nota": "Início deduzido da Resolução ANA 280/2025: a interinidade corre em períodos de dois meses, de 16 a 15, na ordem Ana Carolina Argolo, Leonardo Góes Silva, Larissa Oliveira Rêgo e Cristiane Collet Battiston; o período de 16/9 a 15/11/2026 voltaria a Ana Carolina Argolo, cujo mandato de diretora terminou em 5/7/2026 (Portaria ANA 270/2026), e passa ao seguinte da lista. Os atos confirmam: em 14/9/2026 assinou uma Diretora-Presidente Interina; de 24/9 a 13/10/2026 ele assina como Diretor-Presidente Interino, e a Portaria ANA 542, de 5/11/2026, ainda o cita assim. Em 18/9/2026 assinou Larissa Oliveira Rêgo como interina substituta (art. 3º da resolução). Pela regra, o período termina em 15/11/2026. O período anterior dele na presidência (16/3 a 15/5/2026, pela mesma regra) não foi modelado."
+  },
+  "campos": {
+    "vigencia": {
+      "fontes": [
+        {
+          "ref": "fonte:dou-in-gov-br",
+          "dispositivo": "Resolução ANA nº 280, de 22/12/2025, arts. 1º a 3º (DOU 24/12/2025, Seção 1, p. 845)",
+          "nota": "https://www.in.gov.br/web/dou/-/resolucao-ana-n-280-de-22-de-dezembro-de-2025-677949841"
+        },
+        {
+          "ref": "fonte:dou-in-gov-br",
+          "dispositivo": "Portaria ANA nº 270, de 30/6/2026 (DOU 3/7/2026, Seção 2, p. 117): vaga 'decorrente do término do mandato da servidora Ana Carolina Argolo Nascimento, em 5 de julho de 2026'",
+          "nota": "https://www.in.gov.br/web/dou/-/portaria-ana-n-270-de-30-de-junho-de-2026-716670286"
+        },
+        {
+          "ref": "fonte:dou-in-gov-br",
+          "dispositivo": "Portaria ANA nº 439, de 14/9/2026 (DOU 17/9/2026, Seção 2, p. 48), da 'Diretora-Presidente Interina'; Portaria ANA nº 458, de 24/9/2026 (DOU 30/9/2026, Seção 2, p. 52), do 'Diretor-Presidente Interino', assinada por Leonardo Góes",
+          "nota": "https://www.in.gov.br/web/dou/-/portaria-ana-n-458-de-24-de-setembro-de-2026-735652958"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "Nenhum ato marca o dia em que ele assumiu; a data sai da regra da resolução e dos atos assinados antes e depois."
+    }
   },
   "fontes": [
     {
@@ -40,6 +63,6 @@
     "status": "coletado",
     "em": "2026-11-14",
     "tarefa": "f2-fechamento-final",
-    "notas": "criada na rodada final do fechamento da fase 2: sem titular na data (vacância pelo fim do mandato, decreto de 13/4/2022 com mandato até 15/1/2026); quem exerce entra com interino (D40). A interinidade da ANA segue a Lei 9.984, arts. 9º e 12, citada na resolução, e não a lista de substituição da Lei 9.986, art. 10, descrita no cargo; ponto para a revisão"
+    "notas": "criada na rodada final do fechamento da fase 2: sem titular na data (vacância pelo fim do mandato, decreto de 13/4/2022 com mandato até 15/1/2026); quem exerce entra com interino (D40). A interinidade da ANA segue a Lei 9.984, arts. 9º e 12, citada na resolução, e não a lista de substituição da Lei 9.986, art. 10, descrita no cargo; ponto para a revisão. Em 2026-11-14, verificacao-f3-calendario-eleicoes-mandatos preencheu vigencia.de (2026-09-16, confiança inferido em campos.vigencia) pela regra da Resolução ANA 280/2025 e pela Portaria ANA 270/2026 (fim do mandato de Ana Carolina Argolo em 5/7/2026); o resto da relação não foi revisto nessa tarefa"
   }
 }

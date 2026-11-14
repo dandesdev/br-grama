@@ -8,11 +8,17 @@
   "orgao_exercicio": "org:antaq",
   "condicao": "Diretor-Geral da Antaq.",
   "vigencia": {
-    "de": null,
+    "de": "2025-09-04",
     "ate": null,
-    "nota": "Nomeado por decreto de 28/8/2025 (o decreto não diz a data de fim do mandato); a posse não foi conferida. Em exercício em 2026-10-01 pelos atos de 4/9 e 8/10/2026, sem exoneração achada no DOU."
+    "incerta": true,
+    "nota": "Nomeado por decreto de 28/8/2025, publicado em 29/8 (o decreto não diz a data de fim do mandato). O termo de posse não foi achado; a data é a da primeira reunião da Diretoria Colegiada que ele presidiu como Diretor-Geral, em 4/9/2025, quando registrou a honra de 'assumir o cargo' (extrato da ata no DOU). A posse ficou entre 29/8 e 4/9/2025. Em exercício em 2026-10-01 pelos atos de 4/9 e 8/10/2026, sem exoneração achada no DOU."
   },
   "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato da Ata da Reunião Ordinária nº 594 da Diretoria Colegiada da Antaq, realizada em 4/9/2025 'sob a presidência do Diretor-Geral Frederico Dias' (DOU 26/9/2025, Seção 1, p. 145)",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-da-ata-da-reuniao-ordinaria-n-594-658603302"
+    },
     {
       "ref": "fonte:dou-in-gov-br",
       "dispositivo": "Decretos de 28/8/2025 (DOU 29/8/2025, Seção 2, p. 2): nomeia Frederico Carvalho Dias para o cargo de Diretor-Geral da Antaq, na vaga do término do mandato de Eduardo Nery Machado Filho (Lei 10.233, art. 53, § 1º)",
@@ -34,6 +40,6 @@
     "status": "coletado",
     "em": "2026-11-14",
     "tarefa": "f2-fechamento-final",
-    "notas": "criada na rodada final do fechamento da fase 2: decreto de nomeação e atos assinados no cargo antes e depois de 2026-10-01 (D11, D14)"
+    "notas": "criada na rodada final do fechamento da fase 2: decreto de nomeação e atos assinados no cargo antes e depois de 2026-10-01 (D11, D14). Em 2026-11-14, verificacao-f3-calendario-eleicoes-mandatos preencheu vigencia.de (2025-09-04, incerta) pelo extrato da ata da Reunião Ordinária nº 594 da Antaq (DOU 26/9/2025); o resto da relação não foi revisto nessa tarefa"
   }
 }

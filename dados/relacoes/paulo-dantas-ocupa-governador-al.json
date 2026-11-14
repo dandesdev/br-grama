@@ -9,12 +9,28 @@
     "ente:al"
   ],
   "vigencia": {
-    "de": "2022-05",
+    "de": "2022-10-24",
     "ate": null,
     "incerta": true,
-    "nota": "Assumiu em maio de 2022, eleito pela Assembleia para completar o mandato vago; o dia não foi conferido. Reeleito em 2022. Possíveis interrupções do exercício depois de maio de 2022 não foram pesquisadas."
+    "nota": "Período atual começa com a volta ao exercício em outubro de 2022, depois do afastamento determinado pelo STJ (decisão de 5/10/2022, cumprida em 11/10/2022): o vice José Wanderley Neto assinou atos no exercício do cargo de Governador de 13/10 a 21/10/2022, e Paulo Dantas voltou a assinar como Governador em 24/10/2022 (Diário Oficial). Sem termo de reassunção achado; o dia é o do primeiro ato dele depois do afastamento. Assumiu pela primeira vez em 15/5/2022, eleito pela Assembleia para completar o mandato vago; reeleito em 2022, com posse em 1º/1/2023 (EC 111/2021, art. 4º). O exercício anterior (15/5 a 11/10/2022) não foi modelado."
   },
   "fontes": [
+    {
+      "ref": "fonte:doe-al-2022-10-25-suplemento",
+      "dispositivo": "leis de 24/10/2022 assinadas por Paulo Suruagy do Amaral Dantas, Governador"
+    },
+    {
+      "ref": "fonte:doe-al-2022-10",
+      "dispositivo": "atos de 13/10 a 21/10/2022 assinados pelo vice no exercício do cargo de Governador; atos de 10/10/2022 assinados por Paulo Dantas"
+    },
+    {
+      "ref": "fonte:stj-mioc-209-df-questao-de-ordem-2022",
+      "dispositivo": "afastamento por 180 dias, decisão de 5/10/2022 cumprida em 11/10/2022"
+    },
+    {
+      "ref": "fonte:doe-al-2022-05-15",
+      "dispositivo": "quadro do governador e decretos de 15/5/2022"
+    },
     {
       "ref": "fonte:alagoas-gov-governador",
       "dispositivo": null
@@ -32,9 +48,9 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-tipicos",
-    "notas": "coletado em f0-tipicos; data de início e exercício em 2026-10-01 conferidos na fonte do estado ou do TSE; TSE 2022 acrescentado onde cabe"
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "Corrigido na revisão: vigencia.de de '2022-05' (mês da primeira posse) para 2022-10-24, início do período contínuo atual (modelo de dados, D56), com base no Diário Oficial de Alagoas (atos de 10/10/2022 dele; atos de 13/10 a 21/10/2022 do vice no exercício do cargo; leis de 24/10/2022 assinadas por ele) e na questão de ordem do STJ na MIOC 209/DF (afastamento de 5/10/2022, cumprido em 11/10/2022). Primeira posse datada em 15/5/2022 pelo DOE-AL nº 1820. Mantido incerta: true porque não há termo de reassunção. Antes: verificado em 2026-10-23 (verificacao-f0-tipicos)."
   },
   "notas": "Não concorre em 2026 (não aparece entre os candidatos do TSE), por isso o mandato vai até 6/1/2027 (EC 111/2021, art. 4º)."
 }

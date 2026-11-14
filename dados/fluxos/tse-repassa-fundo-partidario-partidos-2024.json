@@ -35,9 +35,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

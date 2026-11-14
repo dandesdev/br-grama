@@ -2,20 +2,20 @@
   "id": "fluxo:uniao-repassa-recursos-assistencia-social-municipios-2023",
   "tipo": "fluxo",
   "nome": "A União cofinancia a assistência social dos municípios: valores de 2023",
-  "resumo": "Pagamentos de R$ 4,7 bilhões em 2023.",
+  "resumo": "Pagamentos de R$ 5,0 bilhões em 2023.",
   "repasse": "rel:uniao-repassa-recursos-assistencia-social-municipios",
   "exercicio": 2023,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 4693446020.83,
-    "despesas_pagas": 4366022028.6,
-    "restos_a_pagar_pagos": 327423992.23,
-    "pagamentos_primarios": 4693446020.83,
+    "pagamentos_totais": 5018215671.4,
+    "despesas_pagas": 4594798713.06,
+    "restos_a_pagar_pagos": 423416958.34,
+    "pagamentos_primarios": 5018215671.4,
     "pagamentos_financeiros": 0,
-    "dotacao_inicial": 4872196497.29,
-    "dotacao_atualizada": 5269541194.29,
-    "despesas_empenhadas": 5249492785.14,
-    "despesas_liquidadas": 4401719091.25
+    "dotacao_inicial": 5631338497.29,
+    "dotacao_atualizada": 5498335194.29,
+    "despesas_empenhadas": 5478286785.14,
+    "despesas_liquidadas": 4630495775.71
   },
   "recorte": {
     "unidades_orcamentarias": [
@@ -35,6 +35,8 @@
         ],
         "acoes": [
           "00US",
+          "00U7",
+          "21DR",
           "6414",
           "217M"
         ],
@@ -47,7 +49,7 @@
         ]
       }
     ],
-    "nota": "O que o Fundo Nacional de Assistência Social pagou a municípios, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (DESENVOLVIMENTO INTEGRAL NA PRIMEIRA INFANCIA - CRIANCA FELI); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 2B30 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL BASICA); 2B31 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL ESPECIAL); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIAL NO TERRI)."
+    "nota": "O que o Fundo Nacional de Assistência Social pagou a municípios, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00U7 (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (DESENVOLVIMENTO INTEGRAL NA PRIMEIRA INFANCIA - CRIANCA FELI); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 21DR (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 2B30 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL BASICA); 2B31 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL ESPECIAL); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIAL NO TERRI)."
   },
   "vigencia": {
     "de": "2023-01-01",
@@ -56,14 +58,14 @@
   "fontes": [
     {
       "ref": "fonte:tesouro-despesas-transferencias-uniao",
-      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+      "dispositivo": "planilha de 2023, aba \"2023\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

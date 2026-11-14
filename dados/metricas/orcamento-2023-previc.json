@@ -2,27 +2,28 @@
   "id": "met:orcamento-2023-previc",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2023: Superintendência Nacional de Previdência Complementar",
-  "resumo": "Pagou R$ 36,5 milhões em 2023; dotação atualizada de R$ 45,4 milhões.",
+  "resumo": "Pagou R$ 41,0 milhões em 2023; dotação atualizada de R$ 45,4 milhões.",
   "de": "org:previc",
   "medida": "orcamento-executado",
   "exercicio": 2023,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 36531714.06,
+    "pagamentos_totais": 40960986.96,
     "despesas_pagas": 36531714.06,
-    "restos_a_pagar_pagos": 0,
-    "pagamentos_primarios": 34369634.72,
+    "restos_a_pagar_pagos": 4429272.9,
+    "pagamentos_primarios": 38798907.62,
     "pagamentos_financeiros": 2162079.34,
-    "dotacao_inicial": 0,
+    "dotacao_inicial": 40110780,
     "dotacao_atualizada": 45391556,
     "despesas_empenhadas": 42231638.3,
     "despesas_liquidadas": 38725263.46
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "33206"
+      "33206",
+      "40206"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+    "nota": "A unidade 40206 é o código antigo, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto."
   },
   "vigencia": {
     "de": "2023-01-01",
@@ -31,14 +32,14 @@
   "fontes": [
     {
       "ref": "fonte:tesouro-despesas-transferencias-uniao",
-      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+      "dispositivo": "planilha de 2023, aba \"2023\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

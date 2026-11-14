@@ -8,10 +8,10 @@
   "exercicio": 2023,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 849504622194.47,
+    "pagamentos_totais": 849518444202.49,
     "despesas_pagas": 849504622194.47,
-    "restos_a_pagar_pagos": 0,
-    "pagamentos_primarios": 849504622194.47,
+    "restos_a_pagar_pagos": 13822008.02,
+    "pagamentos_primarios": 849518444202.49,
     "pagamentos_financeiros": 0,
     "dotacao_inicial": 0,
     "dotacao_atualizada": 904814990915,
@@ -20,9 +20,10 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "33904"
+      "33904",
+      "25917"
     ],
-    "nota": "Paga os benefícios do regime geral de previdência (aposentadorias, pensões, auxílios). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+    "nota": "Paga os benefícios do regime geral de previdência (aposentadorias, pensões, auxílios). A unidade 25917 é o código antigo, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto."
   },
   "vigencia": {
     "de": "2023-01-01",
@@ -31,14 +32,14 @@
   "fontes": [
     {
       "ref": "fonte:tesouro-despesas-transferencias-uniao",
-      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+      "dispositivo": "planilha de 2023, aba \"2023\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

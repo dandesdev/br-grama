@@ -7,7 +7,7 @@
   "publicador": "Câmara dos Deputados",
   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
   "acesso_em": "2026-11-14",
-  "arquivo": null,
+  "arquivo": "http://web.archive.org/web/20261010033453/https://dadosabertos.camara.leg.br/api/v2/deputados",
   "oficial": true,
   "vigencia": {
     "de": null,
@@ -15,10 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-11-14",
-    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
-    "notas": "coletado em f3-calendario-eleicoes-mandatos. Rota /deputados/{id}/historico consultada de novo pela revisão em 2026-11-14 para os 507 deputados das relações editadas; respostas conferem com o uso feito. A cópia bruta da coleta não tem os campos urlFoto e email nos registros (D12)."
+    "tarefa": "f3-fechamento",
+    "notas": "f3-fechamento: só o campo arquivo mudou (cópia do Wayback de 10/10/2026, conteúdo conferido); antes verificado em verificacao-f3-calendario-eleicoes-mandatos (2026-11-14): coletado em f3-calendario-eleicoes-mandatos. Rota /deputados/{id}/historico consultada de novo pela revisão em 2026-11-14 para os 507 deputados das relações editadas; respostas conferem com o uso feito. A cópia bruta da coleta não tem os campos urlFoto e email nos registros (D12)."
   },
-  "notas": "Cada relação cita o id do deputado e o registro usado; a rota é https://dadosabertos.camara.leg.br/api/v2/deputados/<id>/historico. Respostas brutas, sem os campos urlFoto e email (D12), em pesquisa/brutos/camara-dados-abertos/2026-11-14-f3-calendario/. Sem cópia no Wayback: são 513 respostas de API."
+  "notas": "Cada relação cita o id do deputado e o registro usado; a rota é https://dadosabertos.camara.leg.br/api/v2/deputados/<id>/historico. Respostas brutas, sem os campos urlFoto e email (D12), em pesquisa/brutos/camara-dados-abertos/2026-11-14-f3-calendario/. Sem cópia no Wayback: são 513 respostas de API. Wayback: cópia de 10/10/2026, conferida em f3-fechamento (2026-11-14)."
 }

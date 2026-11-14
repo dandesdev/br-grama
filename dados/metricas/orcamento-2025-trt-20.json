@@ -22,7 +22,7 @@
     "unidades_orcamentarias": [
       "15121"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 45,4 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -37,8 +37,8 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-28",
-    "tarefa": "verificacao-f1-orcamento",
-    "notas": "Revisão independente (verificacao-f1-orcamento): recortes conferidos no resumo, contas refeitas por outro script sem divergência; Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços dos próprios órgãos. Correções da revisão aplicadas pelo coordenador. Agências reguladoras criadas em f2-executivo mapeadas pelo coordenador à unidade orçamentária de mesmo nome (32266, 41231, 36213, 53210, 39250, 68201, 42206, 68213, 30212)."
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

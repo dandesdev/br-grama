@@ -2,16 +2,16 @@
   "id": "met:orcamento-2024-ministerio-do-esporte",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2024: Ministério do Esporte",
-  "resumo": "Pagou R$ 581,6 milhões em 2024; dotação atualizada de R$ 2,1 bilhões.",
+  "resumo": "Pagou R$ 779,4 milhões em 2024; dotação atualizada de R$ 2,1 bilhões.",
   "de": "org:ministerio-do-esporte",
   "medida": "orcamento-executado",
   "exercicio": 2024,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 581605107.68,
+    "pagamentos_totais": 779404283.42,
     "despesas_pagas": 301285960.01,
-    "restos_a_pagar_pagos": 280319147.67,
-    "pagamentos_primarios": 579957854.4,
+    "restos_a_pagar_pagos": 478118323.41,
+    "pagamentos_primarios": 777757030.14,
     "pagamentos_financeiros": 1647253.28,
     "dotacao_inicial": 2090835397,
     "dotacao_atualizada": 2060586315,
@@ -20,7 +20,26 @@
   },
   "recorte": {
     "orgao_orcamentario": "51000",
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 51101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+    "tambem": [
+      {
+        "unidades_orcamentarias": [
+          "55101"
+        ],
+        "acoes": [
+          "5450",
+          "00SL",
+          "20JP",
+          "09HW",
+          "20JO",
+          "14TP",
+          "216T",
+          "218F",
+          "20YA",
+          "21CK"
+        ]
+      }
+    ],
+    "nota": "Inclui as ações do esporte que o MDS (unidade 55101, antigo Ministério da Cidadania) ainda pagou de 2023 a 2025. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 51101, 55101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 4,4 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -34,9 +53,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

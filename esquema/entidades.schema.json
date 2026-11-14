@@ -421,6 +421,7 @@
         "modalidades": { "type": "array", "items": { "type": "string" }, "description": "Códigos de modalidade de aplicação (ex.: 40 = transferências a municípios)." },
         "modalidades_excluidas": { "type": "array", "items": { "type": "string" }, "description": "Modalidades tiradas do recorte (ex.: 91, intraorçamentária, nos agregados)." },
         "tambem": { "type": "array", "items": { "$ref": "#/$defs/recorteOrcamento" }, "description": "Outros recortes somados a este." },
+        "exceto": { "type": "array", "items": { "$ref": "#/$defs/recorteOrcamento" }, "description": "Linhas tiradas deste recorte (ex.: ações do esporte pagas pelo MDS, que entram no Ministério do Esporte)." },
         "nota": { "type": "string" }
       },
       "additionalProperties": false

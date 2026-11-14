@@ -27,7 +27,7 @@
     "modalidades": [
       "40"
     ],
-    "nota": "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). A ação não separa as parcelas por critério de distribuição. Ações somadas: 0A53 (TRANSFERENCIAS DAS PARTICIPACOES PELA PRODUCAO DE PETROLEO E)."
+    "nota": "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). A ação não separa as parcelas por critério de distribuição. Inclui a parcela do Fundo Especial do Petróleo, distribuída a todos os estados e municípios, paga pela mesma ação 0A53. Ações somadas: 0A53 (TRANSFERENCIAS DAS PARTICIPACOES PELA PRODUCAO DE PETROLEO E)."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -41,9 +41,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

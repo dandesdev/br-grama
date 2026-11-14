@@ -22,7 +22,7 @@
     "unidades_orcamentarias": [
       "15120"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 37,2 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -36,9 +36,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

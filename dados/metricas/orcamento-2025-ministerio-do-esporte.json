@@ -2,16 +2,16 @@
   "id": "met:orcamento-2025-ministerio-do-esporte",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2025: Ministério do Esporte",
-  "resumo": "Pagou R$ 1,4 bilhão em 2025; dotação atualizada de R$ 2,6 bilhões.",
+  "resumo": "Pagou R$ 1,5 bilhão em 2025; dotação atualizada de R$ 2,6 bilhões.",
   "de": "org:ministerio-do-esporte",
   "medida": "orcamento-executado",
   "exercicio": 2025,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 1412330408.74,
+    "pagamentos_totais": 1511017762.5,
     "despesas_pagas": 563815107.48,
-    "restos_a_pagar_pagos": 848515301.26,
-    "pagamentos_primarios": 1410959974.93,
+    "restos_a_pagar_pagos": 947202655.02,
+    "pagamentos_primarios": 1509647328.69,
     "pagamentos_financeiros": 1370433.81,
     "dotacao_inicial": 2809706938,
     "dotacao_atualizada": 2593895883,
@@ -20,7 +20,26 @@
   },
   "recorte": {
     "orgao_orcamentario": "51000",
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 51101."
+    "tambem": [
+      {
+        "unidades_orcamentarias": [
+          "55101"
+        ],
+        "acoes": [
+          "5450",
+          "00SL",
+          "20JP",
+          "09HW",
+          "20JO",
+          "14TP",
+          "216T",
+          "218F",
+          "20YA",
+          "21CK"
+        ]
+      }
+    ],
+    "nota": "Inclui as ações do esporte que o MDS (unidade 55101, antigo Ministério da Cidadania) ainda pagou de 2023 a 2025. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 51101, 55101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 5,5 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -35,8 +54,8 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-28",
-    "tarefa": "verificacao-f1-orcamento",
-    "notas": "Revisão independente (verificacao-f1-orcamento): recortes conferidos no resumo, contas refeitas por outro script sem divergência; Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços dos próprios órgãos. Correções da revisão aplicadas pelo coordenador. Agências reguladoras criadas em f2-executivo mapeadas pelo coordenador à unidade orçamentária de mesmo nome (32266, 41231, 36213, 53210, 39250, 68201, 42206, 68213, 30212)."
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

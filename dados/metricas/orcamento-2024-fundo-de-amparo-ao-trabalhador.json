@@ -8,10 +8,10 @@
   "exercicio": 2024,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 109508799570.22,
+    "pagamentos_totais": 109512049326.81,
     "despesas_pagas": 106993592631.61,
-    "restos_a_pagar_pagos": 2515206938.61,
-    "pagamentos_primarios": 81146992222.18,
+    "restos_a_pagar_pagos": 2518456695.2,
+    "pagamentos_primarios": 81150241978.77,
     "pagamentos_financeiros": 28361807348.04,
     "dotacao_inicial": 105609764639,
     "dotacao_atualizada": 110229396435,
@@ -20,9 +20,10 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "40901"
+      "40901",
+      "25915"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+    "nota": "A unidade 25915 é o código antigo, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -36,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

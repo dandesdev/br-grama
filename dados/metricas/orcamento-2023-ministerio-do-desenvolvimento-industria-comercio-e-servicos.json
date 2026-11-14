@@ -20,7 +20,7 @@
   },
   "recorte": {
     "orgao_orcamentario": "28000",
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 25296, 25297, 25298, 25916, 28101, 28202, 28203, 28233, 28904. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 25296, 25297, 25298, 25916, 28101, 28202, 28203, 28233, 28904. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto."
   },
   "vigencia": {
     "de": "2023-01-01",
@@ -29,14 +29,14 @@
   "fontes": [
     {
       "ref": "fonte:tesouro-despesas-transferencias-uniao",
-      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+      "dispositivo": "planilha de 2023, aba \"2023\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

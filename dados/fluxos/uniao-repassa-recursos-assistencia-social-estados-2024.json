@@ -7,10 +7,10 @@
   "exercicio": 2024,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 193140135.07,
+    "pagamentos_totais": 193146521.55,
     "despesas_pagas": 104849513.61,
-    "restos_a_pagar_pagos": 88290621.46,
-    "pagamentos_primarios": 193140135.07,
+    "restos_a_pagar_pagos": 88297007.94,
+    "pagamentos_primarios": 193146521.55,
     "pagamentos_financeiros": 0,
     "dotacao_inicial": 131102560.48,
     "dotacao_atualizada": 118876161.48,
@@ -35,6 +35,8 @@
         ],
         "acoes": [
           "00US",
+          "00U7",
+          "21DR",
           "6414",
           "217M"
         ],
@@ -47,7 +49,7 @@
         ]
       }
     ],
-    "nota": "O que o Fundo Nacional de Assistência Social pagou a estados e ao DF, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIAL NO TERRI); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI)."
+    "nota": "O que o Fundo Nacional de Assistência Social pagou a estados e ao DF, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00U7 (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIAL NO TERRI); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI)."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -61,9 +63,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

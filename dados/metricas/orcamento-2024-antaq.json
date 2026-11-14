@@ -2,16 +2,16 @@
   "id": "met:orcamento-2024-antaq",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2024: Agência Nacional de Transportes Aquaviários",
-  "resumo": "Pagou R$ 175,3 milhões em 2024; dotação atualizada de R$ 182,3 milhões.",
+  "resumo": "Pagou R$ 175,4 milhões em 2024; dotação atualizada de R$ 182,3 milhões.",
   "de": "org:antaq",
   "medida": "orcamento-executado",
   "exercicio": 2024,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 175276455.83,
+    "pagamentos_totais": 175390943.04,
     "despesas_pagas": 158704633,
-    "restos_a_pagar_pagos": 16571822.83,
-    "pagamentos_primarios": 161545083.98,
+    "restos_a_pagar_pagos": 16686310.04,
+    "pagamentos_primarios": 161659571.19,
     "pagamentos_financeiros": 13731371.85,
     "dotacao_inicial": 188762250,
     "dotacao_atualizada": 182291648,
@@ -20,9 +20,10 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "68201"
+      "68201",
+      "39251"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+    "nota": "A unidade 39251 é o código antigo, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 12,4 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -36,9 +37,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

@@ -2,16 +2,16 @@
   "id": "met:orcamento-2023-anatel",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2023: Agência Nacional de Telecomunicações",
-  "resumo": "Pagou R$ 579,5 milhões em 2023; dotação atualizada de R$ 611,1 milhões.",
+  "resumo": "Pagou R$ 581,6 milhões em 2023; dotação atualizada de R$ 611,1 milhões.",
   "de": "org:anatel",
   "medida": "orcamento-executado",
   "exercicio": 2023,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 579542394.97,
+    "pagamentos_totais": 581611028.69,
     "despesas_pagas": 505826690.04,
-    "restos_a_pagar_pagos": 73715704.93,
-    "pagamentos_primarios": 527667060.35,
+    "restos_a_pagar_pagos": 75784338.65,
+    "pagamentos_primarios": 529735694.07,
     "pagamentos_financeiros": 51875334.62,
     "dotacao_inicial": 607271388,
     "dotacao_atualizada": 611147856,
@@ -20,9 +20,10 @@
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "41231"
+      "41231",
+      "24211"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+    "nota": "A unidade 24211 é o código antigo, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto."
   },
   "vigencia": {
     "de": "2023-01-01",
@@ -31,14 +32,14 @@
   "fontes": [
     {
       "ref": "fonte:tesouro-despesas-transferencias-uniao",
-      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+      "dispositivo": "planilha de 2023, aba \"2023\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

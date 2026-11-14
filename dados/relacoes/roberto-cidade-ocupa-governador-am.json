@@ -9,12 +9,23 @@
     "ente:am"
   ],
   "vigencia": {
-    "de": "2026-04",
+    "de": "2026-04-05",
     "ate": null,
-    "incerta": true,
-    "nota": "Entre 2/4 e 6/4/2026: o Diário Oficial de 1º/4 ainda traz Wilson Lima e o vice Tadeu de Souza; o de 6/4, a edição seguinte, traz Roberto Cidade como governador, sem vice. Primeiro exerceu como presidente da Assembleia, depois da renúncia do governador e do vice; foi eleito pela Assembleia para completar o mandato (4/5/2026, segundo a imprensa), com Serafim Corrêa de vice, que já aparece no Diário Oficial de 4/5. Exercício contínuo, uma relação só."
+    "nota": "Assumiu às 17h de 5/4/2026, como presidente da Assembleia e governador interino, depois das renúncias do governador Wilson Lima e do vice Tadeu de Souza em 4/4/2026 (Termo de Assunção e cartas no Diário Oficial da Assembleia). Eleito pela Assembleia em 4/5/2026 para completar o mandato, com Serafim Corrêa de vice, tomou posse como governador às 17h do mesmo dia. Exercício contínuo, uma relação só."
   },
   "fontes": [
+    {
+      "ref": "fonte:doe-aleam-2026-04-05-extra-2422",
+      "dispositivo": "Termo de Assunção, 5/4/2026, 17h"
+    },
+    {
+      "ref": "fonte:doe-aleam-2026-04-04-extra-2420",
+      "dispositivo": "cartas de renúncia do governador e do vice, 4/4/2026"
+    },
+    {
+      "ref": "fonte:doe-aleam-2026-05-04-extra-2438",
+      "dispositivo": "Termo de Posse, 4/5/2026, 17h"
+    },
     {
       "ref": "fonte:doe-am-2026-04-01",
       "dispositivo": "quadro da Governadoria: Wilson Lima e Tadeu de Souza"
@@ -41,24 +52,12 @@
       "dispositivo": "consulta_cand_2026_AM.csv (gerado em 23/10/2026): cargo GOVERNADOR, NM_URNA_CANDIDATO 'ROBERTO CIDADE', SG_PARTIDO 'UNIÃO', DS_OCUPACAO 'GOVERNADOR'"
     }
   ],
-  "campos": {
-    "vigencia": {
-      "fontes": [
-        {
-          "ref": "fonte:gazeta-do-povo-roberto-cidade-eleito-2026",
-          "dispositivo": null
-        }
-      ],
-      "confianca": "secundario",
-      "nota": "O início entre 2/4 e 6/4 vem do Diário Oficial; a data da eleição indireta e a renúncia simultânea do governador e do vice vêm da imprensa."
-    }
-  },
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-tipicos",
-    "notas": "coletado em f0-tipicos; corrigido: Diário Oficial do AM (1º/4, 6/4, 4/5 e 30/9/2026) acrescentado; secundario → oficial; janela de início 2/4 a 6/4 na nota"
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "Corrigido na revisão: vigencia.de de '2026-04' (incerta, janela 2/4 a 6/4) para 2026-04-05, pelo Termo de Assunção publicado no Diário Oficial Eletrônico da Assembleia (edição extra nº 2422); renúncias de 4/4/2026 (edição extra nº 2420) e posse como governador eleito em 4/5/2026 (edição extra nº 2438) passaram da imprensa para fonte oficial; incerta e o bloco campos.vigencia (secundario) retirados. Antes: verificado em 2026-10-23 (verificacao-f0-tipicos)."
   },
-  "notas": "Caso atípico em 2026: dupla vacância na segunda metade do mandato, com eleição indireta pela Assembleia Legislativa. O vice eleito com ele é Serafim Corrêa (PSB), segundo a imprensa; não criamos a pessoa do vice (D11)."
+  "notas": "Caso atípico em 2026: dupla vacância na segunda metade do mandato, com eleição indireta pela Assembleia Legislativa. O vice eleito com ele é Serafim Fernandes Corrêa (PSB), pela ata da eleição de 4/5/2026 no Diário Oficial da Assembleia; não criamos a pessoa do vice (D11). Entre 5/4 e 4/5/2026 exerceu como interino; na data de referência era o governador eleito pela Assembleia, por isso a relação não tem interino. O Termo de Posse diz que o mandato vai até 5/1/2027, mas a EC 111/2021, art. 4º, fixa em 6/1/2027 a posse dos sucessores dos governadores."
 }

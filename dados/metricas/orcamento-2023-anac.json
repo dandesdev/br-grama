@@ -2,27 +2,28 @@
   "id": "met:orcamento-2023-anac",
   "tipo": "metrica",
   "nome": "Orçamento executado em 2023: Agência Nacional de Aviação Civil",
-  "resumo": "Pagou R$ 491,8 milhões em 2023; dotação atualizada de R$ 560,6 milhões.",
+  "resumo": "Pagou R$ 530,9 milhões em 2023; dotação atualizada de R$ 560,6 milhões.",
   "de": "org:anac",
   "medida": "orcamento-executado",
   "exercicio": 2023,
   "moeda": "BRL",
   "valores": {
-    "pagamentos_totais": 491823475.32,
+    "pagamentos_totais": 530926787.29,
     "despesas_pagas": 491823475.32,
-    "restos_a_pagar_pagos": 0,
-    "pagamentos_primarios": 441595201.38,
-    "pagamentos_financeiros": 50228273.94,
-    "dotacao_inicial": 0,
+    "restos_a_pagar_pagos": 39103311.97,
+    "pagamentos_primarios": 480693543.07,
+    "pagamentos_financeiros": 50233244.22,
+    "dotacao_inicial": 534312857,
     "dotacao_atualizada": 560571973,
     "despesas_empenhadas": 556052403.37,
     "despesas_liquidadas": 527497955.86
   },
   "recorte": {
     "unidades_orcamentarias": [
-      "68213"
+      "68213",
+      "39254"
     ],
-    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+    "nota": "A unidade 39254 é o código antigo, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto."
   },
   "vigencia": {
     "de": "2023-01-01",
@@ -31,14 +32,14 @@
   "fontes": [
     {
       "ref": "fonte:tesouro-despesas-transferencias-uniao",
-      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+      "dispositivo": "planilha de 2023, aba \"2023\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

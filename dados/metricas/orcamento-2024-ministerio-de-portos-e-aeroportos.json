@@ -37,7 +37,7 @@
   },
   "recorte": {
     "orgao_orcamentario": "68000",
-    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 39251, 39254, 39902, 68101, 68201, 68213, 68901, 68902. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 39251, 39254, 39902, 68101, 68201, 68213, 68901, 68902. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 43,7 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2024-01-01",
@@ -51,9 +51,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "importacao-tesouro-despesas",
-    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

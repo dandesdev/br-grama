@@ -14,9 +14,13 @@
     "de": "2026-03-23",
     "ate": null,
     "incerta": true,
-    "nota": "Cláudio Castro renunciou em 23/3/2026; o dia exato em que o presidente do TJ-RJ assumiu não foi conferido."
+    "nota": "Cláudio Castro renunciou por ofício de 23/3/2026, despachado na Assembleia no mesmo dia; o primeiro ato achado de Ricardo Couto como governador em exercício é um decreto de 24/3/2026 (Diário Oficial de 24/3). O termo de assunção não foi achado; a data é a da renúncia, como diz o STF. Exercício contínuo desde então: o presidente eleito da Assembleia não chegou a assumir, porque o STF manteve o presidente do TJ-RJ no cargo."
   },
   "fontes": [
+    {
+      "ref": "fonte:doe-rj-2026-03-24",
+      "dispositivo": "Parte II, p. 1 (ofício de renúncia de 23/3/2026); Parte I, p. 1 (decreto de 24/3/2026 do governador em exercício)"
+    },
     {
       "ref": "fonte:stf-noticia-mandato-tampao-rj-2026",
       "dispositivo": null
@@ -29,9 +33,9 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-tipicos",
-    "notas": "coletado em f0-tipicos; data de início e exercício em 2026-10-01 conferidos na fonte do estado ou do TSE; TSE 2022 acrescentado onde cabe"
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-calendario-eleicoes-mandatos",
+    "notas": "Revisto: vigencia.de 2026-03-23 mantido, com incerta. Diário Oficial do RJ de 24/3/2026: ofício de renúncia de Cláudio Castro datado e despachado em 23/3/2026 (Parte II) e primeiro decreto achado do governador em exercício, de 24/3/2026 (Parte I); termo de assunção não achado (busca na IOERJ pelo nome dele: Parte I de 23 a 27/3, Parte II de 23 a 25/3, Parte III-E de 23 a 25/3). Notícias do STF de 24/4 e 29/5/2026 (noticias.stf.jus.br): o presidente da Assembleia eleito em 17/4 não assumiu o governo (pedido negado na ADI 7942; Rcl 92644), então não há interrupção. Nota e fonte nova acrescentadas. Antes: verificado em 2026-10-23 (verificacao-f0-tipicos)."
   },
   "notas": "Caso atípico em 2026. Desembargador, presidente do TJ-RJ; não tem partido (magistrados não podem ter atividade político-partidária, CF, art. 95, parágrafo único, III). Em 29/5/2026 o STF manteve o presidente do TJ-RJ no governo (ADI 7942, Rcl 92644). O decreto de 26/8/2026 o identifica como governador em exercício."
 }

@@ -39,7 +39,7 @@
   },
   "recorte": {
     "orgao_orcamentario": "20000",
-    "nota": "Inclui a Abin e a EBC, que têm unidade orçamentária própria no órgão orçamentário da Presidência. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 20101, 20118, 20415, 20927, 60101."
+    "nota": "Inclui a Abin e a EBC, que têm unidade orçamentária própria no órgão orçamentário da Presidência. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 20101, 20118, 20415, 20927, 60101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto. Inclui R$ 318,9 milhões de aposentadorias e pensões civis (ação 0181) e do bônus de eficiência de inativos (ação 21BW). Em 2025 boa parte desses pagamentos passou a unidades de recursos sob supervisão (72xxx) e saiu do número principal de vários órgãos, o que derruba a comparação com 2024 sem que o gasto tenha caído."
   },
   "vigencia": {
     "de": "2025-01-01",
@@ -54,8 +54,8 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-28",
-    "tarefa": "verificacao-f1-orcamento",
-    "notas": "Revisão independente (verificacao-f1-orcamento): recortes conferidos no resumo, contas refeitas por outro script sem divergência; Senado, Câmara, STJ, TRT-15 e CNMP comparados com balanços dos próprios órgãos. Correções da revisão aplicadas pelo coordenador. Agências reguladoras criadas em f2-executivo mapeadas pelo coordenador à unidade orçamentária de mesmo nome (32266, 41231, 36213, 53210, 39250, 68201, 42206, 68213, 30212)."
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-serie",
+    "notas": "Recalculado de forma independente das planilhas do Tesouro pela revisão verificacao-f3-serie (totais por Poder e por métrica sem divergência; Executivo contra o Portal da Transparência); recortes ajustados pelo coordenador conforme a revisão (ANA, Esporte e MDS, códigos antigos com restos a pagar, IGD na assistência social, notas de estrutura)."
   }
 }

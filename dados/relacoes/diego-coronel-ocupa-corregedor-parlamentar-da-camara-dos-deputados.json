@@ -7,11 +7,15 @@
   "para": "cargo:corregedor-parlamentar-da-camara-dos-deputados",
   "condicao": "Titular em 2026-10-01, no período 2025/2027.",
   "vigencia": {
-    "de": null,
+    "de": "2025-04-09",
     "ate": null,
-    "nota": "A Câmara dá o período \"2025/2027\"; o ato de designação e o dia de início não foram conferidos. Em exercício em 2026-10-01: assina como Corregedor edital publicado em 28/9/2026, e a página da Câmara o mostra como atual em 14/11/2026."
+    "nota": "Designado por Ato do Presidente da Câmara de 9/4/2025, em vigor na publicação no Diário da Câmara (Edição Extra A, 9/4/2025); a Câmara dá o período \"2025/2027\". Em exercício em 2026-10-01: assina como Corregedor edital publicado em 28/9/2026, e a página da Câmara o mostra como atual em 14/11/2026."
   },
   "fontes": [
+    {
+      "ref": "fonte:camara-legin-ato-do-presidente-2025-04-09-corregedor",
+      "dispositivo": "arts. 1º e 2º"
+    },
     {
       "ref": "fonte:camara-galeria-dos-corregedores",
       "dispositivo": "\"Dep. Diego Coronel (2025/2027) Atual Corregedor\""
@@ -27,6 +31,6 @@
     "status": "coletado",
     "em": "2026-11-14",
     "tarefa": "f2-fechamento-final",
-    "notas": "criada na rodada final do fechamento da fase 2 (ocupantes da cúpula das Casas): página oficial da Câmara e edital do DOU de 28/9/2026 (D11, D14); a API da Câmara não tem órgão da Corregedoria"
+    "notas": "criada na rodada final do fechamento da fase 2 (ocupantes da cúpula das Casas): página oficial da Câmara e edital do DOU de 28/9/2026 (D11, D14); a API da Câmara não tem órgão da Corregedoria. Em 2026-11-14, verificacao-f3-calendario-eleicoes-mandatos preencheu vigencia.de (2025-04-09) pelo Ato do Presidente de 9/4/2025, achado na Legislação Informatizada da Câmara; o resto da relação não foi revisto nessa tarefa"
   }
 }
