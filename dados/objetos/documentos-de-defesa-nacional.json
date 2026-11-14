@@ -3,7 +3,7 @@
   "tipo": "objeto",
   "nome": "Política Nacional de Defesa, Estratégia Nacional de Defesa e Livro Branco de Defesa Nacional",
   "sigla": "PND, END e LBDN",
-  "resumo": "Os três documentos que orientam a defesa do país. São atualizados a cada quatro anos, passam pelo Congresso e são aprovados por decreto.",
+  "resumo": "Os três documentos que orientam a defesa do país. A lei manda atualizá-los e enviá-los ao Congresso a cada quatro anos; a versão em vigor foi aprovada por decreto em 2025.",
   "detalhes": "A Política fixa os objetivos nacionais de defesa; a Estratégia diz como alcançá-los e orienta as prioridades do orçamento do Ministério da Defesa; o Livro Branco, documento público, reúne dados estratégicos, orçamentários e institucionais das Forças Armadas. A versão em vigor foi aprovada pelo Decreto 12.725/2025, depois da apreciação do Congresso (Decreto Legislativo 175/2025).",
   "tipo_objeto": "documento",
   "esfera": "federal",
@@ -33,8 +33,9 @@
   "confianca": "oficial",
   "notas": "Um só objeto para os três documentos porque a LC 97/1999 os trata juntos (art. 9º, § 3º) e eles tramitaram e foram aprovados juntos. tipo_objeto 'documento' é o termo mais próximo (ver proposta de vocabulário no diário da f2-defesa-seguranca).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos LC 97/1999 art. 9º, §§ 1º a 3º, e art. 12, caput e § 2º, Decreto 12.725/2025 (preâmbulo, arts. 1º, 4º e 5º) e Decreto Legislativo 175/2025 (art. 1º). Corrigido: o resumo dizia que os documentos 'são aprovados por decreto' como regra; a LC 97 não prevê a aprovação por decreto, que vem do caso de 2025. Um objeto para os três documentos é razoável: a LC 97 (art. 9º, § 3º), o DL 175 e o Decreto 12.725 os tratam juntos"
   }
 }

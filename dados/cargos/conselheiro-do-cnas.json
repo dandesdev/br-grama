@@ -1,0 +1,60 @@
+{
+  "id": "cargo:conselheiro-do-cnas",
+  "tipo": "cargo",
+  "nome": "Conselheiro do Conselho Nacional de Assistência Social",
+  "resumo": "Membro do CNAS, de 18 titulares: metade do governo, metade da sociedade civil. Nomeado pelo Presidente da República para dois anos.",
+  "orgao": "org:conselho-nacional-de-assistencia-social",
+  "provimento": "variavel",
+  "vagas": 18,
+  "vagas_nota": "Dezoito titulares, com suplentes.",
+  "provimento_casos": [
+    {
+      "quando": "Nove representantes governamentais, incluídos um dos estados e um dos municípios",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lei-8742-1993",
+          "dispositivo": "art. 17, caput e § 1º, I"
+        }
+      ]
+    },
+    {
+      "quando": "Nove representantes da sociedade civil (usuários, entidades e trabalhadores do setor), escolhidos em foro próprio sob fiscalização do Ministério Público Federal",
+      "provimento": "nomeacao-a-partir-de-lista",
+      "fontes": [
+        {
+          "ref": "norma:lei-8742-1993",
+          "dispositivo": "art. 17, caput e § 1º, II"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Os nomes são indicados ao ministério que coordena a política de assistência social, e o Presidente da República nomeia. O presidente do conselho é eleito entre os membros para um ano, com uma recondução.",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "uma recondução por igual período"
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "A lei não diz como os representantes governamentais são escolhidos; 'nomeação livre' é leitura nossa. Para a sociedade civil, a escolha em foro próprio funciona como lista."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

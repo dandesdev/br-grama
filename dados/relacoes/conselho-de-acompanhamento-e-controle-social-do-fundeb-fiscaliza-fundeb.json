@@ -1,0 +1,26 @@
+{
+  "id": "rel:conselho-de-acompanhamento-e-controle-social-do-fundeb-fiscaliza-fundeb",
+  "tipo": "relacao",
+  "nome": "O conselho federal do Fundeb faz o controle social do fundo",
+  "relacao": "fiscaliza",
+  "de": "org:conselho-de-acompanhamento-e-controle-social-do-fundeb",
+  "para": "obj:fundeb",
+  "condicao": "Controle social sobre a distribuição, a transferência e a aplicação dos recursos, perante o governo da sua esfera; dá parecer sobre a prestação de contas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 30, IV; art. 31, parágrafo único; art. 33, caput e § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null,
+    "incerta": true
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

@@ -4,7 +4,7 @@
   "nome": "Comitê Gestor do Imposto sobre Bens e Serviços",
   "sigla": "CGIBS",
   "resumo": "Entidade pública dos estados, do DF e dos municípios que administra em conjunto o IBS: regulamento único, arrecadação e distribuição entre os entes.",
-  "detalhes": "É entidade pública sob regime especial, com independência técnica, administrativa, orçamentária e financeira (CF, art. 156-B, § 1º), sem vínculo, tutela ou subordinação a órgão algum (LC 227/2026, art. 1º). A instância máxima é o Conselho Superior, com 27 representantes dos estados e do DF e 27 do conjunto dos municípios e do DF; a presidência alterna entre os dois conjuntos, e o controle externo cabe aos próprios entes (CF, art. 156-B, §§ 2º e 3º; LC 227/2026, art. 8º).",
+  "detalhes": "É entidade pública sob regime especial, com independência técnica, administrativa, orçamentária e financeira (CF, art. 156-B, § 1º), sem vínculo, tutela ou subordinação a órgão algum (LC 227/2026, art. 1º). A instância máxima é o Conselho Superior, com 27 representantes dos estados e do DF e 27 do conjunto dos municípios e do DF; a presidência alterna entre os dois conjuntos, e o controle externo cabe aos próprios entes (CF, art. 156-B, §§ 2º e 3º; LC 227/2026, art. 8º). Os entes só exercem por meio dele o regulamento único, a arrecadação, as compensações, a distribuição e o contencioso administrativo do IBS; o CGIBS também coordena a fiscalização e a cobrança, que continuam com as administrações tributárias e procuradorias de cada ente (LC 227/2026, arts. 2º a 6º). Financia-se com um percentual do IBS de cada ente e, na instalação, com empréstimo da União; publica relatórios mensais da arrecadação e do que cabe a cada ente (arts. 41 a 48; LC 214/2025, art. 484). Com a Receita Federal e a PGFN, harmoniza as regras comuns ao IBS e à CBS (LC 214/2025, arts. 318 a 323).",
   "tipo_orgao": "entidade-interfederativa",
   "poder": "executivo",
   "esfera": "nacional",
@@ -21,6 +21,16 @@
       "ref": "norma:lc-214-2025",
       "dispositivo": "arts. 480 e 482-A",
       "nota": "CGIBS provisório, instituído até 31/12/2025, com efeitos desde 1º/1/2025 (art. 544, II)"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 3º a 6º, 41 a 48 e 53",
+      "nota": "Competências de coordenação, transparência, orçamento e instalação (fase 2, D49)."
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 318, 483 e 484",
+      "nota": "Harmonização com a CBS; instalação e financiamento da União."
     }
   ],
   "campos": {
@@ -37,7 +47,7 @@
     {
       "ref": "norma:lc-227-2026",
       "dispositivo": "art. 7º",
-      "nota": "Conselho Superior, Presidência e Vice-Presidência, Diretoria Executiva, Secretaria-Geral, Assessoria de Relações Institucionais e Interfederativas, Corregedoria e Auditoria Interna"
+      "nota": "Os órgãos do art. 7º têm nós próprios desde f2-federacao; a estrutura abaixo deles (unidades das diretorias, câmaras de julgamento do contencioso, LC 227/2026, arts. 54 a 102) vem do regimento interno e da parte processual da lei, não levantadas."
     }
   ],
   "vigencia": {
@@ -52,11 +62,11 @@
       "url": "https://www.cgibs.gov.br/"
     }
   ],
-  "notas": "Sem contido_em: não pertence a nenhum ente nem a órgão de ente (LC 227/2026, art. 1º, parágrafo único, II). A tarefa não pediu cargos nem pessoas do CGIBS; a imprensa e o site do CGIBS indicam um presidente eleito pelo Conselho Superior em 2026, não conferido aqui.",
+  "notas": "Sem contido_em: não pertence a nenhum ente nem a órgão de ente (LC 227/2026, art. 1º, parágrafo único, II). O Presidente está em cargo:presidente-do-cgibs. Na instalação, o cargo de Presidente coube a representante dos estados e do DF (art. 53).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; tipo_orgao trocado de \"outro\" para \"entidade-interfederativa\" (termo novo), conferido com CF, art. 156-B, § 1º, e LC 227/2026, art. 1º; citação da composição corrigida para art. 156-B, §§ 2º e 3º (a composição 27 + 27 está no § 3º)"
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao",
+    "notas": "detalhes ampliados (competências exclusivas, coordenação da fiscalização e da cobrança, financiamento, transparência, harmonização), fontes LC 227/2026, arts. 3º a 6º, 41 a 48 e 53, e LC 214/2025, arts. 318, 483 e 484; estrutura_continua e notas atualizadas; antes verificado em verificacao-f0-dinheiro"
   }
 }

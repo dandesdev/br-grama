@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-poder-executivo-homologa-conselho-de-educacao",
+  "tipo": "relacao",
+  "nome": "O Executivo estadual homologa os atos normativos do conselho de educação",
+  "relacao": "homologa",
+  "de": "org:arquetipo-estadual-poder-executivo",
+  "para": "org:arquetipo-estadual-conselho-de-educacao",
+  "condicao": "Os atos normativos do conselho só valem depois de homologados pelo Poder Executivo do ente.",
+  "fontes": [
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 15, § 3º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regra geral desde a LC 220/2025; antes dependia da lei de cada ente."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

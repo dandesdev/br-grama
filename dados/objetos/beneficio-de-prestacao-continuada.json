@@ -1,0 +1,46 @@
+{
+  "id": "obj:beneficio-de-prestacao-continuada",
+  "tipo": "objeto",
+  "nome": "Benefício de prestação continuada",
+  "sigla": "BPC",
+  "resumo": "Um salário mínimo por mês à pessoa com deficiência e ao idoso de 65 anos ou mais sem meios de se manter. É assistência social: não depende de contribuição.",
+  "detalhes": "O ministério da assistência social coordena, regula e financia o benefício; o INSS recebe os pedidos, concede, mantém, revisa, suspende e paga. O benefício é revisto a cada dois anos. O auxílio-inclusão, para quem recebe o BPC e passa a trabalhar, segue a mesma divisão: gestão pelo ministério e pagamento pelo INSS, à conta do orçamento do ministério.",
+  "tipo_objeto": "decisao",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:inss",
+    "org:ministerio-do-desenvolvimento-e-assistencia-social"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 203, V"
+    },
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 12, I; arts. 20 e 21; art. 26-F; art. 26-G; art. 29, parágrafo único; art. 35"
+    },
+    {
+      "ref": "norma:decreto-6214-2007",
+      "dispositivo": "Anexo, arts. 1º a 3º e 39"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null,
+    "nota": "Previsto na CF (art. 203, V) e regulado pela Lei 8.742/1993; o pagamento começou depois (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "campos": {
+    "tipo_objeto": {
+      "confianca": "inferido",
+      "nota": "Falta o termo 'benefício' no vocabulário tipo_objeto; usamos 'decisão' porque cada concessão é uma decisão administrativa sobre um pedido (proposta em f2-social)."
+    }
+  },
+  "notas": "Os requisitos de renda e de deficiência e as regras de revisão (Lei 8.742/1993, arts. 20 a 21-B) ficam fora do escopo (D53). A lei ainda nomeia o 'Ministério da Cidadania' no art. 26-F; a área é hoje do MDS (Lei 14.600/2023, art. 27).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

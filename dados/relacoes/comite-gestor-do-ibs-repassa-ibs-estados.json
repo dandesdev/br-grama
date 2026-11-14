@@ -1,0 +1,32 @@
+{
+  "id": "rel:comite-gestor-do-ibs-repassa-ibs-estados",
+  "tipo": "relacao",
+  "nome": "O CGIBS entrega aos estados e ao DF a sua parte do IBS",
+  "relacao": "repassa-recursos",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Entrega a receita do IBS de cada estado e do DF, já deduzidos os 25% dos municípios, os fundos de combate à pobreza, a parcela do Fundeb e o percentual do CGIBS.",
+  "detalhes": "O CGIBS calcula a cada período a receita de cada ente pelo destino das operações, deduz a devolução do IBS às pessoas físicas, os créditos presumidos e, para os estados, o saldo credor de ICMS, e entrega a receita em até três dias úteis. De 2029 a 2077 retém 80% a 90% da receita (com redução gradual depois de 2033) para dividi-la pela receita média de ICMS e ISS de 2019 a 2026 de cada ente, e de 2029 a 2096 retém mais 5% para os entes com maior perda relativa. Antes de entregar, deduz o fundo estadual ou municipal de combate à pobreza, a parcela do Fundeb e o percentual do próprio CGIBS.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, II; ADCT, arts. 131 e 132"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 2º, II; arts. 103 a 118, 120 a 125, 129 e 131"
+    }
+  ],
+  "vigencia": {
+    "de": "2027-01-01",
+    "ate": null,
+    "nota": "Regras em vigor desde 14/1/2026 (LC 227/2026), mas a primeira distribuição é a do IBS de 2027: a arrecadação de teste de 2026 não segue as repartições da CF e financia o CGIBS (ADCT, art. 125, § 3º). Em 2027 e 2028 o cálculo pode usar a receita agregada (art. 112, § 7º); as retenções de transição começam em 2029 (arts. 109, 110, 114 e 117)."
+  },
+  "confianca": "oficial",
+  "notas": "DF: recebe pelas mesmas regras, somando as partes estadual e municipal (LC 227/2026, arts. 120, 124 e 125). Retenção de 80% de 2029 a 2032 e 90% em 2033, reduzida em 1/45 por ano de 2034 a 2077 (art. 109); 5% de 2029 a 2077, reduzidos em 1/20 por ano de 2078 a 2096 (art. 110).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "proc:plano-de-desenvolvimento-urbano-integrado",
+  "tipo": "processo",
+  "nome": "Elaboração do plano de desenvolvimento urbano integrado",
+  "resumo": "Estado, municípios e sociedade civil elaboram o plano da região metropolitana, a instância colegiada o aprova e a Assembleia Legislativa o transforma em lei estadual.",
+  "detalhes": "Vale para regiões metropolitanas e aglomerações urbanas e, no que couber, para microrregiões e unidades regionais de saneamento (Lei 13.089/2015, art. 1º, § 1º). A União pode apoiar a elaboração e a revisão do plano (art. 14, § 2º).",
+  "forma": "linha",
+  "produz": "obj:plano-de-desenvolvimento-urbano-integrado",
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "arts. 10 a 12; art. 14, § 2º"
+    }
+  ],
+  "confianca": "oficial",
+  "etapas": [
+    {
+      "id": "elaboracao",
+      "atores": [
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "Representantes do estado, dos municípios da região e da sociedade civil elaboram o plano em conjunto",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 10, § 4º; art. 12, caput e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "audiencias-publicas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "audiencias-publicas",
+      "atores": [
+        "org:arquetipo-estadual-regioes-metropolitanas-instancia-colegiada-deliberativa",
+        "org:arquetipo-estadual-ministerio-publico"
+      ],
+      "acao": "Audiências públicas nos municípios da região, com publicidade dos documentos e acompanhamento do Ministério Público",
+      "detalhes": "As audiências são divulgadas antes em todos os municípios, e os critérios para realizá-las são fixados pela instância colegiada deliberativa.",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 12, §§ 2º a 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "aprovacao-colegiada",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "aprovacao-colegiada",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-regioes-metropolitanas-instancia-colegiada-deliberativa"
+      ],
+      "acao": "A instância colegiada deliberativa aprova o plano antes do envio à Assembleia Legislativa",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 10, § 4º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "lei-estadual",
+          "quando": "aprovado"
+        }
+      ]
+    },
+    {
+      "id": "lei-estadual",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "O plano é aprovado por lei estadual",
+      "remete_a": "proc:lei-estadual",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 10, caput"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "compatibilizacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "compatibilizacao",
+      "atores": [
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "Cada município da região compatibiliza o seu plano diretor com o plano integrado",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 10, §§ 2º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "revisao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "revisao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa"
+      ],
+      "acao": "A lei do plano deve ser revista pelo menos a cada dez anos",
+      "prazo": {
+        "texto": "pelo menos a cada 10 anos",
+        "valor": 10,
+        "unidade": "anos",
+        "conta_de": "lei estadual que instituiu o plano"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 11"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

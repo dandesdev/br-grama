@@ -19,7 +19,7 @@
         },
         {
           "ref": "norma:lei-14600-2023",
-          "dispositivo": "art. 9º, parágrafo único"
+          "dispositivo": "art. 9º, II"
         }
       ],
       "nota": "Câmara do Conselho de Governo, criada por ato do Executivo."
@@ -43,8 +43,9 @@
   "confianca": "oficial",
   "notas": "Contagem de 18 ministros feita por nós no art. 3º do Decreto 12.853/2026. A Secretaria-Executiva é exercida pelo GSI (art. 10).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Decreto 12.853/2026 arts. 1º a 7º, 10 e 12 (18 ministros no art. 3º; GSI preside; participantes sem voto no § 2º) e Lei 9.883/1999 art. 5º. Corrigido: contido_em citava a Lei 14.600/2023, art. 9º, parágrafo único (regras de funcionamento); as câmaras do Conselho de Governo estão no art. 9º, II"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "rel:mds-regula-beneficio-de-prestacao-continuada",
+  "tipo": "relacao",
+  "nome": "O MDS coordena, regula e financia o benefício de prestação continuada",
+  "relacao": "regula",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "para": "obj:beneficio-de-prestacao-continuada",
+  "condicao": "Implementação, coordenação-geral, regulação, financiamento, monitoramento e avaliação; a operação é do INSS.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 19, III; art. 26-F; art. 35"
+    },
+    {
+      "ref": "norma:decreto-6214-2007",
+      "dispositivo": "Anexo, art. 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "nota": "O MDS tem a área desde a Lei 14.600/2023 (MP 1.154/2023); antes, outros ministérios."
+  },
+  "confianca": "oficial",
+  "notas": "O Decreto 6.214/2007 ainda nomeia o 'Ministério do Desenvolvimento Social e Agrário'.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

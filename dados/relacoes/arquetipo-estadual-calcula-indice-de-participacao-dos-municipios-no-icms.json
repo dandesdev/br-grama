@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-calcula-indice-de-participacao-dos-municipios-no-icms",
+  "tipo": "relacao",
+  "nome": "O estado calcula o índice de cada município no ICMS",
+  "relacao": "calcula",
+  "de": "ente:arquetipo-estadual",
+  "para": "obj:indice-de-participacao-dos-municipios-no-icms",
+  "condicao": "Apura o valor adicionado em cada município e o índice de participação, publica-os até 30 de junho e julga as impugnações dos municípios; o índice vale a partir de 1º de janeiro seguinte.",
+  "fontes": [
+    {
+      "ref": "norma:lc-63-1990",
+      "dispositivo": "art. 3º, §§ 3º a 10"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-01-12",
+    "ate": "2032-12-31",
+    "nota": "Critérios da LC 63/1990, em vigor desde a publicação; os percentuais atuais (65% e 35%, com 10 pontos por aprendizagem) vêm da LC 227/2026, art. 166, em vigor desde 14/1/2026, que seguem a CF, art. 158, § 1º (EC 108/2020 e EC 132/2023). O ICMS é extinto em 2033; para as entregas a partir de 2033 vale o índice de 2032 (LC 63, art. 5º, parágrafo único)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

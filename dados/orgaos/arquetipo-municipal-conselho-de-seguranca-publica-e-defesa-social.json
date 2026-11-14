@@ -14,11 +14,11 @@
       "fontes": [
         {
           "ref": "norma:lei-13675-2018",
-          "dispositivo": "art. 20, caput"
+          "dispositivo": "art. 20, caput e §§ 2º e 6º"
         }
       ],
       "confianca": "inferido",
-      "nota": "A lei manda criar o conselho por proposta do chefe do Executivo ao Legislativo, sem dizer onde ele fica. Usamos o Poder Executivo municipal."
+      "nota": "A lei manda criar o conselho por proposta do chefe do Executivo ao Legislativo, diz que ele respeita as normas de organização da Administração Pública e deixa sua organização a ato do Executivo (art. 20, §§ 2º e 6º), mas não diz em que órgão ele fica. Usamos o Poder Executivo municipal."
     }
   },
   "fontes": [
@@ -35,8 +35,9 @@
   "confianca": "oficial",
   "notas": "Quantos municípios têm o conselho não foi levantado.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 13.675/2018 arts. 9º, § 1º, II, 20 (§§ 3º, 5º e 7º) e 21. contido_em fica 'inferido'; fonte ampliada para o art. 20, §§ 2º e 6º"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "cargo:diretor-do-cgibs",
+  "tipo": "cargo",
+  "nome": "Diretor do CGIBS",
+  "resumo": "Titular de uma das nove diretorias da Diretoria Executiva do Comitê Gestor do IBS, eleito pelo Conselho Superior para dois anos.",
+  "orgao": "org:diretorias-do-cgibs",
+  "provimento": "nomeacao-livre",
+  "provimento_nota": "Eleito pelo Conselho Superior, que pode destituí-lo a qualquer tempo (LC 227/2026, art. 11, I, a); a seleção segue o regimento interno, com paridade e alternância entre estados e municípios e ao menos 30% das vagas para mulheres (art. 26, § 3º). Usamos 'nomeacao-livre' pela destituição a qualquer tempo.",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "Aproximação; ver provimento_nota."
+    }
+  },
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "LC 227/2026, art. 26, § 1º."
+  },
+  "vagas": 9,
+  "requisitos": [
+    {
+      "texto": "reputação ilibada, notório conhecimento na área e ser servidor de carreira da administração tributária ou de outra carreira pública ou de procurador, com dedicação exclusiva",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 26, § 2º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 11, I, a, 26 e 30"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

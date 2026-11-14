@@ -12,9 +12,27 @@
   "mandato": {
     "anos": null,
     "vitalicio": false,
-    "nota": "Cargo efetivo."
+    "nota": "Cargo efetivo; estabilidade após três anos de efetivo exercício (art. 30, § 15)."
   },
   "requisitos": [
+    {
+      "texto": "brasileiro, com no mínimo 18 anos, quite com as obrigações eleitorais e militares e com capacidade física e mental",
+      "fontes": [
+        {
+          "ref": "norma:lei-14735-2023",
+          "dispositivo": "art. 20, I a IV"
+        }
+      ]
+    },
+    {
+      "texto": "aprovação em exame de saúde e exame toxicológico de larga janela de detecção",
+      "fontes": [
+        {
+          "ref": "norma:lei-13675-2018",
+          "dispositivo": "art. 4º-A"
+        }
+      ]
+    },
     {
       "texto": "diploma de curso superior completo reconhecido pelo MEC, com habilitação específica quando a lei do estado exigir",
       "fontes": [
@@ -29,7 +47,11 @@
   "fontes": [
     {
       "ref": "norma:lei-14735-2023",
-      "dispositivo": "arts. 6º, IV, 15, 19, III, 20, § 2º, 28 e 39"
+      "dispositivo": "arts. 6º, IV, 15, 19, III, 20, 28, 30, § 15, e 39"
+    },
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 4º-A"
     }
   ],
   "vigencia": {
@@ -39,8 +61,9 @@
   "confianca": "oficial",
   "notas": "Cargo agregado e condicional do arquétipo (art. 19, III). Quais estados mantêm a perícia na Polícia Civil não foi levantado.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 14.735/2023 arts. 6º, IV, 15, § 2º, 19, III, 20, § 2º, 28 e 39. Completado: faltavam os requisitos gerais do art. 20, I a IV, e o exame da Lei 13.675, art. 4º-A, que os outros dois cargos da carreira já tinham, e a estabilidade do art. 30, § 15"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "rel:auditoria-interna-do-cgibs-controla-internamente-comite-gestor-do-ibs",
+  "tipo": "relacao",
+  "nome": "A Auditoria Interna faz o controle interno do CGIBS",
+  "relacao": "controla-internamente",
+  "de": "org:auditoria-interna-do-cgibs",
+  "para": "org:comite-gestor-do-ibs",
+  "condicao": "Fiscaliza os atos dos administradores, analisa os balancetes e opina sobre as demonstrações financeiras e o relatório anual, representando ao Conselho Superior se for preciso.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 23 e 24"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:arquetipo-estadual-comissao-intergestores-bipartite-do-suas-integra-suas",
+  "tipo": "relacao",
+  "nome": "A CIB do Suas é instância de pactuação do Suas no estado",
+  "relacao": "integra",
+  "de": "org:arquetipo-estadual-comissao-intergestores-bipartite-do-suas",
+  "para": "org:sistema-unico-de-assistencia-social",
+  "condicao": "No âmbito estadual.",
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cnas-33-2012",
+      "dispositivo": "art. 128, II; art. 136"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

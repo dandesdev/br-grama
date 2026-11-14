@@ -9,19 +9,25 @@
   "vigencia": {
     "de": "2023-12-21",
     "ate": null,
-    "nota": "Incluído pela EC 132/2023. Em 2026 a arrecadação do IBS de teste não segue as repartições da CF (ADCT, art. 125, § 3º)."
+    "nota": "Incluído pela EC 132/2023. Em 2026 a arrecadação do IBS de teste não segue as repartições da CF (ADCT, art. 125, § 3º). A distribuição pela LC 227/2026 começa com o IBS de 2027."
   },
   "fontes": [
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 158, IV, b, e § 2º"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 2º, § 1º, IX; art. 118, § 3º; arts. 128 e 130",
+      "nota": "Retenção e distribuição direta pelo CGIBS (fase 2, D49)."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, art. 158, IV, b, e § 2º, e ADCT, art. 125, § 3º, conferidos"
-  }
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao",
+    "notas": "detalhes novos (retenção e distribuição direta pelo CGIBS) e fonte LC 227/2026; nota de vigência completada; antes verificado em verificacao-f0-dinheiro"
+  },
+  "detalhes": "Na prática, o estado não recebe essa parcela: o Comitê Gestor do IBS a retém do IBS estadual e a distribui diretamente aos municípios, pelos coeficientes de participação que cada estado informa ao CGIBS conforme a sua lei para os indicadores de aprendizagem e de preservação ambiental (LC 227/2026, arts. 2º, § 1º, IX, 118, § 3º, 128 e 130). Ver rel:comite-gestor-do-ibs-repassa-ibs-municipios."
 }

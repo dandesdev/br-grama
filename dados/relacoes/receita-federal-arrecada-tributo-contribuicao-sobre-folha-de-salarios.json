@@ -1,0 +1,26 @@
+{
+  "id": "rel:receita-federal-arrecada-tributo-contribuicao-sobre-folha-de-salarios",
+  "tipo": "relacao",
+  "nome": "A Receita Federal arrecada as contribuições das empresas e dos empregadores sobre a folha",
+  "relacao": "arrecada",
+  "de": "org:receita-federal",
+  "para": "obj:tributo-contribuicao-sobre-folha-de-salarios",
+  "condicao": "Planeja, fiscaliza, arrecada e cobra as contribuições sociais que financiam a seguridade.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8212-1991",
+      "dispositivo": "art. 11, parágrafo único, a e b; art. 33, caput"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Redação atual do art. 33 dada pela Lei 11.941/2009; antes, as contribuições previdenciárias eram arrecadadas pelo INSS e depois pela Secretaria da Receita Previdenciária (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

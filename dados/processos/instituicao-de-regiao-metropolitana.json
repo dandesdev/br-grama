@@ -1,0 +1,92 @@
+{
+  "id": "proc:instituicao-de-regiao-metropolitana",
+  "tipo": "processo",
+  "nome": "Instituição de região metropolitana ou aglomeração urbana",
+  "resumo": "Depois de estudos técnicos e audiências públicas, o estado institui a região metropolitana por lei complementar, que define municípios, funções comuns e governança.",
+  "detalhes": "Região metropolitana é a aglomeração urbana que configura uma metrópole, pelos critérios do IBGE; a que não atende ao conceito é tratada como aglomeração urbana nas políticas federais (Lei 13.089/2015, arts. 2º, V e VII, 5º, § 2º, e 15). Desde 2015, unidades que envolvem municípios de mais de um estado são criadas por leis complementares de cada estado, sem prejuízo dos consórcios intermunicipais (arts. 4º e 22, parágrafo único).",
+  "forma": "linha",
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 25, § 3º"
+    },
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "arts. 2º a 5º, 15 e 22"
+    }
+  ],
+  "confianca": "oficial",
+  "etapas": [
+    {
+      "id": "estudos-e-audiencias",
+      "atores": [
+        "ente:arquetipo-estadual"
+      ],
+      "acao": "O estado faz estudos técnicos e audiências públicas com todos os municípios da futura unidade",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 3º, § 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "lei-complementar-estadual",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "lei-complementar-estadual",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "cargo:arquetipo-estadual-governador"
+      ],
+      "acao": "A Assembleia aprova a lei complementar que institui a região, com municípios, funções comuns e governança",
+      "detalhes": "A lei define, no mínimo, os municípios, as funções públicas de interesse comum, a estrutura de governança interfederativa (inclusive o sistema de alocação de recursos e de prestação de contas) e os meios de controle social, explicitando os critérios técnicos usados. Se a região abrange municípios de mais de um estado, cada Assembleia aprova sua lei, e a região só vale para os municípios dos estados que já aprovaram.",
+      "remete_a": "proc:lei-estadual",
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 25, § 3º"
+        },
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 3º, caput; art. 4º; art. 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "governanca",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "governanca",
+      "tipo_etapa": "fim",
+      "atores": [
+        "ente:arquetipo-estadual",
+        "ente:arquetipo-municipal"
+      ],
+      "acao": "O estado e os municípios incluídos passam a promover a governança interfederativa da região",
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 3º, § 1º; arts. 6º a 8º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

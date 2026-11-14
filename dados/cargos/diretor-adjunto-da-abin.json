@@ -6,7 +6,7 @@
   "orgao": "org:abin",
   "provimento": "nomeacao-livre",
   "vagas": 1,
-  "provimento_nota": "Cargo criado pela Lei 9.883/1999 (art. 11), que não diz quem nomeia nem fixa requisitos. Na estrutura regimental, corresponde a um cargo em comissão CCE 1.18 (Decreto 11.816/2023, Anexo II).",
+  "provimento_nota": "Cargo criado pela Lei 9.883/1999 (art. 11) como de natureza especial; a lei não diz quem nomeia nem fixa requisitos. Hoje a estrutura regimental o classifica como CCE 1.18, como o Diretor-Geral (Decreto 11.816/2023, Anexo II): pela Lei 14.204/2021 (art. 3º, § 1º), o CCE-18 nasce de lei ou da transformação de cargo de natureza especial.",
   "mandato": {
     "anos": null,
     "vitalicio": false,
@@ -26,6 +26,10 @@
     {
       "ref": "norma:decreto-12853-2026",
       "dispositivo": "art. 6º, § 2º"
+    },
+    {
+      "ref": "norma:lei-14204-2021",
+      "dispositivo": "arts. 3º, § 1º, e 6º"
     }
   ],
   "vigencia": {
@@ -33,10 +37,11 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "A lei cria os cargos de Diretor-Geral e de Diretor-Adjunto como de natureza especial; o Decreto 11.816/2023 lista o Diretor-Adjunto como CCE 1.18. Não é cúpula (D11): sem ocupante.",
+  "notas": "A lei cria os cargos de Diretor-Geral e de Diretor-Adjunto como de natureza especial; o Decreto 11.816/2023 (Anexo II, redação do Decreto 12.503/2025) lista os dois como CCE 1.18. Prevalece a classificação do decreto como retrato atual: a Lei 14.204/2021 permite criar o CCE-18 pela transformação de cargo de natureza especial (art. 3º, § 1º, redação da Lei 14.600/2023) e autoriza decreto a transformar cargos em comissão sem aumento de despesa (art. 6º). O ato que fez a transformação destes dois cargos não foi identificado. Não é cúpula (D11): sem ocupante.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 9.883/1999 art. 11, Decreto 11.816/2023 Anexo I arts. 16, VI, e 17 e Anexo II (Diretor-Geral e Diretor-Adjunto, ambos CCE 1.18, redação do Decreto 12.503/2025) e Decreto 12.853/2026 art. 6º, § 2º. Corrigido: o texto não dizia qual classificação vale; provimento_nota e notas explicam agora que o retrato segue o decreto, com base na Lei 14.204/2021 (arts. 3º, § 1º, e 6º), acrescentada às fontes"
   }
 }

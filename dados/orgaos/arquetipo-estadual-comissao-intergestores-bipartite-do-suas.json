@@ -1,0 +1,43 @@
+{
+  "id": "org:arquetipo-estadual-comissao-intergestores-bipartite-do-suas",
+  "tipo": "orgao",
+  "nome": "Comissão Intergestores Bipartite do Suas",
+  "sigla": "CIB",
+  "resumo": "Foro em que o estado e seus municípios pactuam a organização do sistema estadual de assistência social e a gestão do Suas no estado.",
+  "detalhes": "Tem pelo menos seis representantes do estado, indicados pelo gestor estadual, e seis dos municípios, indicados pelo colegiado estadual de gestores municipais (Coegemas), conforme o porte dos municípios e incluída a capital. Os membros são nomeados pelo secretário estadual de assistência social.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-secretaria-de-assistencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cnas-33-2012",
+          "dispositivo": "art. 128, §§ 1º e 2º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "O órgão gestor estadual dá estrutura e secretaria executiva à comissão."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:resolucao-cnas-33-2012",
+      "dispositivo": "arts. 128, 130, 132, 136 e 137"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regida pela NOB-Suas de 2012; a criação é anterior (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "A composição pode ser ampliada pelo estado, mas não reduzida (NOB-Suas, art. 136, §§ 3º e 4º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

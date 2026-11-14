@@ -1,0 +1,30 @@
+{
+  "id": "rel:cnas-convoca-conferencias-de-assistencia-social",
+  "tipo": "relacao",
+  "nome": "O CNAS convoca a Conferência Nacional de Assistência Social",
+  "relacao": "convoca",
+  "de": "org:conselho-nacional-de-assistencia-social",
+  "para": "org:conferencias-de-assistencia-social",
+  "condicao": "Só a conferência nacional: ordinariamente a cada quatro anos ou, por maioria absoluta dos membros, extraordinariamente.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Só para a convocação extraordinária."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 18, VI"
+    }
+  ],
+  "vigencia": {
+    "de": "1993-12-08",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "A redação atual do inciso VI veio da Lei 9.720/1998 (o Planalto anota '26.4.1991', erro de digitação).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "obj:plano-de-desenvolvimento-urbano-integrado",
+  "tipo": "objeto",
+  "nome": "Plano de desenvolvimento urbano integrado",
+  "sigla": "PDUI",
+  "resumo": "Plano da região metropolitana ou aglomeração urbana, aprovado por lei estadual, com diretrizes, macrozoneamento e projetos para as funções públicas comuns.",
+  "detalhes": "Toda região metropolitana e aglomeração urbana deve ter o plano, revisto pelo menos a cada dez anos; abrange áreas urbanas e rurais de todos os municípios da região e traz, no mínimo, diretrizes para as funções comuns, macrozoneamento, áreas com restrição à urbanização e diretrizes de regularização fundiária (Lei 13.089/2015, arts. 10 a 12). O município continua obrigado a ter plano diretor e deve compatibilizá-lo com o plano integrado (art. 10, §§ 2º e 3º). Ter o plano aprovado é uma das condições da gestão plena, exigida para o apoio da União (arts. 2º, III, c, e 14).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "estadual",
+  "relativo_a": [
+    "org:arquetipo-estadual-regioes-metropolitanas"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 2º, VI; arts. 9º, I, 10, 11 e 12"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

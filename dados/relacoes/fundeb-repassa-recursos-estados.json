@@ -1,0 +1,31 @@
+{
+  "id": "rel:fundeb-repassa-recursos-estados",
+  "tipo": "relacao",
+  "nome": "O Fundeb distribui seus recursos ao governo estadual",
+  "relacao": "repassa-recursos",
+  "de": "obj:fundeb",
+  "para": "ente:arquetipo-estadual",
+  "condicao": "Cada fundo estadual é dividido entre o governo do estado e seus municípios conforme as matrículas presenciais do censo escolar nas redes de cada um, com pesos por etapa e modalidade. A Caixa ou o Banco do Brasil distribui os valores, que caem automaticamente em conta única e específica de cada ente.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 212-A, II e III"
+    },
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "arts. 7º, 8º, 10 e 11; arts. 20 e 21"
+    }
+  ],
+  "vigencia": {
+    "de": "2021-04-01",
+    "ate": null,
+    "nota": "Distribuição pela sistemática da Lei 14.113/2020 desde 1º/4/2021 (art. 45)."
+  },
+  "confianca": "oficial",
+  "notas": "Candidato a fluxo (D45): a base do Tesouro mostra a complementação da União, não a redistribuição interna de cada fundo; o recorte não foi conferido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

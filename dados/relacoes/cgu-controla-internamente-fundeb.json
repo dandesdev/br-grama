@@ -1,0 +1,26 @@
+{
+  "id": "rel:cgu-controla-internamente-fundeb",
+  "tipo": "relacao",
+  "nome": "A CGU faz o controle interno da parte federal do Fundeb",
+  "relacao": "controla-internamente",
+  "de": "org:cgu",
+  "para": "obj:fundeb",
+  "condicao": "Órgão de controle interno da União; nos estados, DF e municípios, cada órgão de controle interno faz o mesmo papel.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 30, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2020-12-25",
+    "ate": null
+  },
+  "confianca": "inferido",
+  "notas": "A lei fala no 'órgão de controle interno no âmbito da União'; a CGU é o órgão central do controle interno do Executivo federal (Lei 10.180/2001). A ligação é leitura nossa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

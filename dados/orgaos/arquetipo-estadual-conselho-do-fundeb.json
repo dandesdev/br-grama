@@ -1,0 +1,42 @@
+{
+  "id": "org:arquetipo-estadual-conselho-do-fundeb",
+  "tipo": "orgao",
+  "nome": "Conselho Estadual de Acompanhamento e Controle Social do Fundeb",
+  "resumo": "Acompanha e controla a distribuição e o uso do dinheiro do Fundeb no estado; pode convocar o secretário de educação e pedir documentos.",
+  "detalhes": "Reúne representantes do Executivo estadual e dos municipais, do conselho estadual de educação, da Undime e da CNTE no estado, de pais, de estudantes, da sociedade civil e, quando houver, de escolas indígenas e quilombolas. No DF, sem os representantes municipais. Dá parecer sobre a prestação de contas do fundo e atua com autonomia em relação ao Executivo.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-sistema-de-ensino",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-220-2025",
+          "dispositivo": "art. 16, III"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "Sem subordinação ao Executivo (Lei 14.113/2020, art. 33, § 3º); fica no sistema de ensino da sua esfera, como instância de controle social do SNE."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 30, IV; art. 33; art. 34, II e III; art. 36"
+    }
+  ],
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Criado por lei de cada ente nos 90 dias seguintes à vigência dos fundos (art. 42)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

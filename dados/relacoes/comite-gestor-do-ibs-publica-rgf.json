@@ -1,0 +1,26 @@
+{
+  "id": "rel:comite-gestor-do-ibs-publica-rgf",
+  "tipo": "relacao",
+  "nome": "O CGIBS publica o relatório de gestão fiscal",
+  "relacao": "publica",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "obj:rgf",
+  "condicao": "Versão própria, adaptada às especificidades do CGIBS; o RREO a cada bimestre, em até 30 dias, e o RGF a cada quadrimestre. O CGIBS também publica relatórios mensais da arrecadação, das retenções e do que cabe a cada ente.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 42; art. 43; art. 52, § 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

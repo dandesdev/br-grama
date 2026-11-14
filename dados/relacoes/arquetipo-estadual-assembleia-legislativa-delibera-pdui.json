@@ -1,0 +1,29 @@
+{
+  "id": "rel:arquetipo-estadual-assembleia-legislativa-delibera-pdui",
+  "tipo": "relacao",
+  "nome": "A Assembleia Legislativa aprova por lei o plano integrado",
+  "relacao": "delibera",
+  "de": "org:arquetipo-estadual-assembleia-legislativa",
+  "para": "obj:plano-de-desenvolvimento-urbano-integrado",
+  "condicao": "O plano da região metropolitana ou aglomeração urbana é aprovado por lei estadual e revisto pelo menos a cada dez anos.",
+  "depende_de": [
+    "rel:arquetipo-estadual-regioes-metropolitanas-instancia-colegiada-deliberativa-delibera-pdui"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 10, caput e § 4º; art. 11"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rel:uniao-repassa-recursos-fundo-do-regime-geral-de-previdencia-social",
+  "tipo": "relacao",
+  "nome": "A União cobre a falta de dinheiro para pagar os benefícios do Regime Geral",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "obj:fundo-do-regime-geral-de-previdencia-social",
+  "condicao": "Com recursos do orçamento fiscal fixados na lei orçamentária, a União cobre as insuficiências da seguridade quando decorrem do pagamento de benefícios da previdência; o Tesouro também repassa todo mês as contribuições sobre faturamento, lucro e concursos de prognósticos destinadas ao orçamento da seguridade.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8212-1991",
+      "dispositivo": "art. 16, caput e parágrafo único; art. 19"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 195, caput"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "art. 68, § 1º, III e VI"
+    }
+  ],
+  "vigencia": {
+    "de": "1991-07-25",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "O fundo do RGPS só foi criado pela LRF (2000), art. 68; antes, a cobertura ia ao INSS. O fundo recebe recursos do orçamento da União (LRF, art. 68, § 1º, VI); ligar a cobertura da Lei 8.212 ao fundo é leitura nossa. Candidato a fluxo (D45): a base do Tesouro separa a unidade do Fundo do RGPS; o recorte não foi conferido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

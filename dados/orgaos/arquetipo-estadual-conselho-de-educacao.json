@@ -1,0 +1,50 @@
+{
+  "id": "org:arquetipo-estadual-conselho-de-educacao",
+  "tipo": "orgao",
+  "nome": "Conselho Estadual de Educação",
+  "resumo": "Colegiado normativo do sistema de ensino do estado, com representantes do poder público e da sociedade civil; suas normas dependem de homologação do Executivo.",
+  "detalhes": "É criado por lei do estado, com autonomia técnico-pedagógica, administrativa e financeira, e tem função normativa e de assessoramento técnico ao Executivo. O presidente é eleito pelos pares. Indica dois representantes ao conselho estadual do Fundeb.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-sistema-de-ensino",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-9394-1996",
+          "dispositivo": "art. 17, IV"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A LDB inclui os órgãos de educação do ente no seu sistema de ensino; não diz onde fica o conselho."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 10, V; art. 17, IV"
+    },
+    {
+      "ref": "norma:lc-220-2025",
+      "dispositivo": "art. 15, III, e §§ 1º a 3º e 6º"
+    },
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 34, II, c"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Cada ente cria o seu por lei própria, em datas diferentes."
+  },
+  "confianca": "oficial",
+  "notas": "A LDB fala em baixar normas complementares para o sistema (arts. 10, V, e 11, III) sem nomear o órgão; o nome e o papel de instância normativa vêm da LC 220/2025, art. 15. Composição e atribuições variam conforme a lei de cada ente; não levantadas.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

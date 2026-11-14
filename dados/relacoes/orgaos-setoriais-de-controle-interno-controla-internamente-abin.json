@@ -5,7 +5,7 @@
   "relacao": "controla-internamente",
   "de": "org:orgaos-setoriais-de-controle-interno",
   "para": "org:abin",
-  "condicao": "A lei atribui o controle interno da ABIN, inclusive a contabilidade analítica, à Secretaria de Controle Interno da Presidência da República; hoje o órgão setorial da Casa Civil cobre a Presidência.",
+  "condicao": "A lei atribui o controle interno da ABIN, inclusive a contabilidade analítica, à Secretaria de Controle Interno da Presidência da República. Hoje essa secretaria, com o mesmo nome, fica na Casa Civil, onde também está a ABIN, e é o órgão setorial para toda a Presidência.",
   "fontes": [
     {
       "ref": "norma:lei-9883-1999",
@@ -14,17 +14,22 @@
     {
       "ref": "norma:lei-10180-2001",
       "dispositivo": "art. 22, § 2º"
+    },
+    {
+      "ref": "norma:decreto-11329-2023",
+      "dispositivo": "Anexo I, art. 2º, I, item 8, e III, e art. 21"
     }
   ],
   "vigencia": {
     "de": "1999-12-08",
     "ate": null
   },
-  "confianca": "inferido",
-  "notas": "Inferido: a Lei 9.883/1999 fala em 'Secretaria de Controle Interno da Presidência da República'; a correspondência com o órgão setorial da Casa Civil, onde a ABIN está, é leitura nossa a partir da Lei 10.180/2001 (art. 22). O nome atual da unidade não foi levantado.",
+  "confianca": "oficial",
+  "notas": "A Lei 9.883/1999 (art. 14) fala em 'Secretaria de Controle Interno da Presidência da República'. O Decreto 11.329/2023 (estrutura da Casa Civil) mantém a Secretaria de Controle Interno como órgão de assistência ao Ministro-Chefe da Casa Civil (Anexo I, art. 2º, I, item 8) e órgão setorial do controle interno para os órgãos da Presidência e da Vice-Presidência (art. 21); a ABIN integra a Casa Civil como órgão central do Sisbin (art. 2º, III, redação do Decreto 11.426/2023). A secretaria não faz a correição da ABIN (art. 21, XIII), mas isso não é controle interno no sentido do art. 14.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca como 'inferido'. A sucessora foi achada em decreto vigente: Decreto 11.329/2023, Anexo I, arts. 2º, I, item 8, e III, e 21 (texto do Planalto em 2026-11-12 igual à cópia de 2026-10-23). Corrigido: confiança de 'inferido' para 'oficial', fonte do decreto acrescentada, condição e nota reescritas"
   }
 }

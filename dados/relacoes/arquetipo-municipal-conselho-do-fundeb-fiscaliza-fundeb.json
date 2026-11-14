@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-municipal-conselho-do-fundeb-fiscaliza-fundeb",
+  "tipo": "relacao",
+  "nome": "O conselho municipal do Fundeb faz o controle social do fundo",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-municipal-conselho-do-fundeb",
+  "para": "obj:fundeb",
+  "condicao": "Controle social sobre a distribuição, a transferência e a aplicação dos recursos, perante o governo da sua esfera; dá parecer sobre a prestação de contas e pode convocar o secretário de educação, requisitar documentos e visitar obras e escolas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-14113-2020",
+      "dispositivo": "art. 30, IV; art. 31, parágrafo único; art. 33, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2021-01-01",
+    "ate": null,
+    "incerta": true
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

@@ -14,13 +14,18 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 159, I, a, e § 1º"
+    },
+    {
+      "ref": "norma:lc-62-1989",
+      "dispositivo": "art. 1º, parágrafo único; art. 2º; art. 4º",
+      "nota": "Base de cálculo, critérios de rateio e prazos de entrega (até o 20º dia, o 30º dia e o 10º dia do mês seguinte, conforme o decêndio da arrecadação)."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, art. 159, I, a (21,5% de IR, IPI e IS), e § 1º, conferidos"
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao",
+    "notas": "acrescentada a fonte LC 62/1989 (base de cálculo, critérios e prazos de entrega); antes verificado em verificacao-f0-dinheiro"
   }
 }

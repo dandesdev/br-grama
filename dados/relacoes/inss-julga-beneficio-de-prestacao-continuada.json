@@ -1,0 +1,32 @@
+{
+  "id": "rel:inss-julga-beneficio-de-prestacao-continuada",
+  "tipo": "relacao",
+  "nome": "O INSS concede, mantém e paga o benefício de prestação continuada",
+  "relacao": "julga",
+  "de": "org:inss",
+  "para": "obj:beneficio-de-prestacao-continuada",
+  "condicao": "Recebe os pedidos, concede ou nega, mantém, revisa, suspende e faz cessar o benefício, e o paga. Das decisões cabe recurso ao Conselho de Recursos da Previdência Social.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 21-A; art. 26-F; art. 29, parágrafo único; art. 35"
+    },
+    {
+      "ref": "norma:decreto-6214-2007",
+      "dispositivo": "Anexo, arts. 3º e 39, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2007-09-28",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do regulamento atual (Decreto 6.214/2007); o INSS já operava o benefício antes (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "Verbo 'julga' usado por falta de 'concede' no vocabulário de relações (proposta em f2-social): o INSS decide cada pedido na via administrativa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

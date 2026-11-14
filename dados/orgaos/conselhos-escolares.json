@@ -1,0 +1,32 @@
+{
+  "id": "org:conselhos-escolares",
+  "tipo": "orgao",
+  "nome": "Conselhos escolares",
+  "resumo": "Colegiados deliberativos de cada escola pública de educação básica, com o diretor e representantes da comunidade escolar e local eleitos pelos pares.",
+  "detalhes": "A gestão democrática do ensino público se faz por meio deles e de fóruns que os reúnem. Lei de cada estado, do DF e de cada município define as regras; enquanto ela não vem, valem as normas dos sistemas de ensino.",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 206, VI"
+    },
+    {
+      "ref": "norma:lei-9394-1996",
+      "dispositivo": "art. 10, VIII; art. 11, VII; art. 14; art. 90-A"
+    }
+  ],
+  "vigencia": {
+    "de": "1996-12-23",
+    "ate": null,
+    "nota": "Previstos na LDB desde 1996 (art. 14, II); a forma atual veio da Lei 14.644/2023."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto: um conselho por escola, sem lista. Os fóruns dos conselhos escolares não têm nó próprio.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

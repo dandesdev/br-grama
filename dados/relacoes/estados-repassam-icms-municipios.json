@@ -19,13 +19,19 @@
     {
       "ref": "norma:ec-132-2023",
       "dispositivo": "art. 22, II, a"
+    },
+    {
+      "ref": "norma:lc-63-1990",
+      "dispositivo": "arts. 1º, 3º a 5º, 8º e 10",
+      "nota": "Critérios, depósito, entrega semanal, publicação e sanções (fase 2, D49)."
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, art. 158, IV, a, e § 1º, conferidos"
-  }
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao",
+    "notas": "detalhes novos com o mecanismo de entrega da LC 63/1990 e fonte acrescentada; antes verificado em verificacao-f0-dinheiro"
+  },
+  "detalhes": "O estado deposita os 25% no momento da arrecadação numa conta de todos os municípios, e o banco entrega a parte de cada um até o segundo dia útil da semana seguinte, pelo índice de participação apurado pelo estado (obj:indice-de-participacao-dos-municipios-no-icms). O estado publica todo mês o total arrecadado e o que entregou a cada município; a falta de publicação faz presumir que não houve entrega, e a falta de entrega sujeita o estado à intervenção federal (CF, art. 34, V, b) e a correção com juros de 1% ao mês (LC 63/1990, arts. 4º, 5º, 8º e 10)."
 }

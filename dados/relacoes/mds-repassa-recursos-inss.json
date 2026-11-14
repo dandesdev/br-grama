@@ -1,0 +1,27 @@
+{
+  "id": "rel:mds-repassa-recursos-inss",
+  "tipo": "relacao",
+  "nome": "O MDS repassa ao INSS o dinheiro para pagar o BPC e o auxílio-inclusão",
+  "relacao": "repassa-recursos",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "para": "org:inss",
+  "condicao": "Recursos da União destinados ao benefício de prestação continuada, repassados pelo ministério diretamente ao INSS, que executa e mantém o benefício; o auxílio-inclusão também corre à conta do orçamento do ministério.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 19, III; art. 26-G; art. 29, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Parágrafo incluído pela Lei 9.720/1998 (de 30/11/1998, segundo a marca do Planalto no art. 21); data de publicação não conferida."
+  },
+  "confianca": "oficial",
+  "notas": "A lei ainda nomeia o 'Ministério da Previdência e Assistência Social'; a área é hoje do MDS. Candidato a fluxo (D45): na base do Tesouro, o BPC aparece como ação do Fundo Nacional de Assistência Social; o recorte não foi conferido.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

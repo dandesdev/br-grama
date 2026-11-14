@@ -14,11 +14,11 @@
       "fontes": [
         {
           "ref": "norma:lei-13675-2018",
-          "dispositivo": "art. 20, caput"
+          "dispositivo": "art. 20, caput e §§ 2º e 6º"
         }
       ],
       "confianca": "inferido",
-      "nota": "A lei manda criar o conselho por proposta do chefe do Executivo ao Legislativo, sem dizer onde ele fica; o lugar varia por estado (muitas vezes na secretaria de segurança). Usamos o Poder Executivo estadual."
+      "nota": "A lei manda criar o conselho por proposta do chefe do Executivo ao Legislativo, diz que ele respeita as normas de organização da Administração Pública e deixa sua organização a ato do Executivo (art. 20, §§ 2º e 6º), mas não diz em que órgão ele fica; o lugar varia por estado (muitas vezes na secretaria de segurança). Usamos o Poder Executivo estadual."
     }
   },
   "fontes": [
@@ -39,8 +39,9 @@
   "confianca": "oficial",
   "notas": "Composição, nome e existência efetiva dependem da lei de cada estado; não levantados.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 13.675/2018 arts. 9º, § 1º, II, 20 e 21 e Lei 14.751/2023 arts. 30, parágrafo único, II, e 38. contido_em fica 'inferido' (a lei não diz em que órgão o conselho fica), mas a fonte foi ampliada para o art. 20, §§ 2º e 6º, que o põem sob as normas da Administração Pública e sob regulamento do Executivo"
   }
 }

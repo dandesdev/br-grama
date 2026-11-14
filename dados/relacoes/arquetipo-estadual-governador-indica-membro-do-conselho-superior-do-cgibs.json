@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-governador-indica-membro-do-conselho-superior-do-cgibs",
+  "tipo": "relacao",
+  "nome": "O governador indica o representante do estado no Conselho Superior do CGIBS",
+  "relacao": "indica",
+  "de": "cargo:arquetipo-estadual-governador",
+  "para": "cargo:membro-do-conselho-superior-do-cgibs",
+  "condicao": "Indica o titular e o suplente do estado; o titular é o secretário de Fazenda, Finanças ou Tributação (ou equivalente). Em caso de morte ou perda do cargo do titular e dos suplentes, faz nova indicação.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 8º, § 1º, I; art. 9º, I e § 5º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "notas": "A definição de 'indica' fala em nomeação que depende de aprovação de outro; aqui não há aprovação: a indicação já investe o representante (art. 9º, § 2º). Termo mais próximo disponível.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

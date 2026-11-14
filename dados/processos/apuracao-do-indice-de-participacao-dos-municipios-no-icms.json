@@ -1,0 +1,136 @@
+{
+  "id": "proc:apuracao-do-indice-de-participacao-dos-municipios-no-icms",
+  "tipo": "processo",
+  "nome": "Apuração do índice de participação dos municípios no ICMS",
+  "resumo": "O estado apura o valor adicionado de cada município, publica os índices até 30 de junho, os municípios podem impugnar e o estado julga e publica os índices definitivos.",
+  "forma": "linha",
+  "produz": "obj:indice-de-participacao-dos-municipios-no-icms",
+  "vigencia": {
+    "de": "1990-01-12",
+    "ate": "2032-12-31",
+    "nota": "Critérios da LC 63/1990, em vigor desde a publicação; os percentuais atuais (65% e 35%, com 10 pontos por aprendizagem) vêm da LC 227/2026, art. 166, em vigor desde 14/1/2026, que seguem a CF, art. 158, § 1º (EC 108/2020 e EC 132/2023). O ICMS é extinto em 2033; para as entregas a partir de 2033 vale o índice de 2032 (LC 63, art. 5º, parágrafo único)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-63-1990",
+      "dispositivo": "art. 3º, §§ 3º a 13"
+    }
+  ],
+  "confianca": "oficial",
+  "etapas": [
+    {
+      "id": "apuracao",
+      "atores": [
+        "ente:arquetipo-estadual"
+      ],
+      "acao": "O estado apura o valor adicionado em cada município e calcula a relação com o total do estado",
+      "detalhes": "O índice é a média dos dois anos civis anteriores ao da apuração. O estado mantém um sistema de informações baseado nos documentos fiscais; prefeitos e associações de municípios têm livre acesso aos dados e critérios usados.",
+      "fontes": [
+        {
+          "ref": "norma:lc-63-1990",
+          "dispositivo": "art. 3º, §§ 1º a 5º, 10 a 14"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "publicacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "publicacao",
+      "atores": [
+        "ente:arquetipo-estadual"
+      ],
+      "acao": "O estado publica no diário oficial o valor adicionado e os índices de cada município",
+      "prazo": {
+        "texto": "até 30 de junho do ano da apuração"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-63-1990",
+          "dispositivo": "art. 3º, § 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "impugnacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "impugnacao",
+      "atores": [
+        "cargo:arquetipo-municipal-prefeito"
+      ],
+      "acao": "Prefeitos e associações de municípios podem impugnar os dados e os índices publicados",
+      "prazo": {
+        "texto": "30 dias corridos da publicação",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "publicação dos índices"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-63-1990",
+          "dispositivo": "art. 3º, § 7º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "ente:arquetipo-estadual"
+      ],
+      "acao": "O estado julga as impugnações e publica os índices definitivos de cada município",
+      "prazo": {
+        "texto": "60 dias corridos da primeira publicação",
+        "valor": 60,
+        "unidade": "dias",
+        "conta_de": "primeira publicação dos índices"
+      },
+      "detalhes": "Correções determinadas por ordem judicial são publicadas até o dia 15 do mês seguinte ao da decisão.",
+      "fontes": [
+        {
+          "ref": "norma:lc-63-1990",
+          "dispositivo": "art. 3º, §§ 8º e 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "aplicacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "aplicacao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "ente:arquetipo-estadual"
+      ],
+      "acao": "O índice passa a valer na entrega das parcelas a partir de 1º de janeiro do ano seguinte",
+      "fontes": [
+        {
+          "ref": "norma:lc-63-1990",
+          "dispositivo": "art. 3º, § 3º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

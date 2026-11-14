@@ -1,0 +1,113 @@
+{
+  "id": "cargo:membro-do-conselho-superior-do-cgibs",
+  "tipo": "cargo",
+  "nome": "Membro do Conselho Superior do CGIBS",
+  "resumo": "Representante de um estado, do DF ou do conjunto dos municípios no Conselho Superior do Comitê Gestor do IBS; 54 titulares, cada um com suplente.",
+  "detalhes": "Os 27 representantes estaduais são os secretários de Fazenda (ou equivalentes) dos estados e do DF, indicados pelos governadores. Dos 27 representantes municipais, 14 são eleitos com voto igual de cada município e 13 com voto ponderado pela população, em chapas apresentadas pela CNM e pela FNP; vence a chapa com mais da metade dos votos válidos, com segundo turno, e só o prefeito vota (LC 227/2026, art. 8º). No CGIBS provisório, que vigorava em 2026-10-01, os representantes municipais foram indicados diretamente pela CNM (14) e pela FNP (13), com mandato até 31/3/2027 (LC 214/2025, arts. 481, §§ 2º e 5º, e 482-A, § 1º).",
+  "orgao": "org:conselho-superior-do-cgibs",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "representantes dos estados e do DF: o secretário de Fazenda, Finanças ou Tributação (ou cargo equivalente), indicado pelo governador",
+      "provimento": "nato",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 8º, I e § 1º, I; art. 9º, I"
+        }
+      ]
+    },
+    {
+      "quando": "representantes dos municípios e do DF no CGIBS provisório, com mandato até 31/3/2027: indicados pela CNM (14) e pela FNP (13)",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 481, §§ 2º, 5º e 5º-A; art. 482-A, § 1º"
+        }
+      ]
+    },
+    {
+      "quando": "representantes dos municípios e do DF a partir da primeira eleição: eleitos pelos prefeitos, em chapas da CNM e da FNP, por maioria dos votos válidos com segundo turno",
+      "provimento": "eleicao-majoritaria-maioria-absoluta",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 8º, § 1º, II, e §§ 2º a 8º"
+        },
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 482-A, § 2º"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Nenhum termo do vocabulário descreve a indicação por associação de municípios nem a eleição feita pelos prefeitos (não pelos eleitores); usamos 'nomeacao-livre' e 'eleicao-majoritaria-maioria-absoluta' como os mais próximos (ver campos). O suplente substitui o titular nas ausências e o sucede na vaga (art. 9º, §§ 3º e 4º).",
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "Os termos dos casos municipais são aproximações; proposta de vocabulário no diário de f2-federacao."
+    }
+  },
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "Dois anos (LC 227/2026, art. 9º, § 2º); os membros do CGIBS provisório ficam até 31/3/2027 (LC 214/2025, art. 482-A, § 1º). Só perdem o cargo por renúncia, condenação transitada em julgado, demissão no ente de origem, sanção disciplinar no CGIBS ou perda de vínculo com a esfera representada (art. 9º, § 2º)."
+  },
+  "vagas": 54,
+  "vagas_nota": "27 titulares dos estados e do DF e 27 do conjunto dos municípios e do DF, cada um com suplente (o representante municipal tem dois suplentes, art. 8º, § 5º, II).",
+  "requisitos": [
+    {
+      "texto": "reputação ilibada e notório conhecimento em administração tributária",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 9º, caput"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 156-B, § 5º"
+        }
+      ]
+    },
+    {
+      "texto": "formação superior compatível e não estar inelegível pela LC 64/1990",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 9º, § 1º"
+        }
+      ]
+    },
+    {
+      "texto": "representante municipal: ser secretário de Fazenda do município ou do DF, ou ter 10 anos como autoridade fiscal, ou 4 anos em cargo de direção na administração tributária municipal ou distrital",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 9º, II"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 8º e 9º"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 481, 482 e 482-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Regras da LC 227/2026; os membros do CGIBS provisório (LC 214/2025, arts. 481 e 482) seguem até 31/3/2027."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

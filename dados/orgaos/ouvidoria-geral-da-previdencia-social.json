@@ -1,0 +1,43 @@
+{
+  "id": "org:ouvidoria-geral-da-previdencia-social",
+  "tipo": "orgao",
+  "nome": "Ouvidoria-Geral da Previdência Social",
+  "resumo": "Recebe e encaminha reclamações, denúncias e sugestões sobre a previdência social e coordena as ouvidorias das entidades ligadas ao Ministério da Previdência.",
+  "tipo_orgao": "executivo-direta",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-previdencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-11356-2023",
+          "dispositivo": "Anexo I, art. 2º, I, h"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8213-1991",
+      "dispositivo": "art. 6º"
+    },
+    {
+      "ref": "norma:decreto-11356-2023",
+      "dispositivo": "Anexo I, art. 10"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Prevista na Lei 8.213/1991, art. 6º, na redação da Lei 9.711/1998; a data de instalação não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "notas": "A lei deixa as atribuições ao regulamento; hoje estão no Decreto 11.356/2023. Ouvidor-Geral e equipe abaixo da cúpula (D11).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

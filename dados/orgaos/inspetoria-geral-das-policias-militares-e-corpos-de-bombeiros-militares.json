@@ -30,13 +30,14 @@
   "vigencia": {
     "de": "2023-12-13",
     "ate": null,
-    "nota": "Data da Lei 14.751/2023 (DOU de 13/12/2023), base usada aqui; a inspetoria é anterior (previa-a o Decreto-Lei 667/1969). A data de criação não foi pesquisada."
+    "nota": "Data da Lei 14.751/2023 (DOU de 13/12/2023), base usada aqui. A inspetoria é anterior: o Decreto-Lei 667/1969 a punha no Estado-Maior do Exército (arts. 2º e 21), dispositivos revogados pela Lei 14.751/2023, que hoje é a base legal. A data de criação não foi pesquisada."
   },
   "confianca": "oficial",
   "notas": "A posição dentro do Comando do Exército (abaixo de qual comando ou departamento) não foi levantada.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 14.751/2023 art. 28, caput e §§ 1º e 2º. Base legal: a Lei 14.751, art. 28 ('integrante do Comando do Exército'); os arts. 2º e 21 do Decreto-Lei 667/1969, que antes a regiam, foram revogados pela Lei 14.751 (conferido no Planalto); a LC 97 não trata dela. Completada a nota de vigência com isso"
   }
 }

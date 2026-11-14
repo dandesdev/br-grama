@@ -1,0 +1,26 @@
+{
+  "id": "rel:tcu-fiscaliza-comite-gestor-do-ibs",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza o CGIBS quanto ao financiamento da União",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "org:comite-gestor-do-ibs",
+  "condicao": "Só quanto aos recursos que a União emprestou para instalar o CGIBS (2025 a 2028), até o ressarcimento integral.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 484, § 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "2025-01-16",
+    "ate": null,
+    "nota": "Desde a LC 214/2025 (art. 484 com efeitos desde 1º/1/2025, art. 544, II; a lei é de 16/1/2025); termina com o ressarcimento, previsto em 20 parcelas semestrais a partir de junho de 2029."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

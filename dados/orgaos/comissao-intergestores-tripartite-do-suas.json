@@ -1,0 +1,46 @@
+{
+  "id": "org:comissao-intergestores-tripartite-do-suas",
+  "tipo": "orgao",
+  "nome": "Comissão Intergestores Tripartite do Suas",
+  "sigla": "CIT",
+  "resumo": "Foro em que União, estados e municípios negociam e pactuam a gestão do Suas, como a partilha dos recursos federais da assistência social.",
+  "detalhes": "Tem 15 membros: cinco da União, indicados pelo ministério da assistência social; cinco dos estados e do DF, indicados pelo Fórum Nacional de Secretários de Estado de Assistência Social (Fonseas); e cinco dos municípios, indicados pelo Colegiado Nacional de Gestores Municipais (Congemas), cobrindo as cinco regiões. As pactuações são publicadas e enviadas ao Conselho Nacional de Assistência Social.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:resolucao-cnas-33-2012",
+          "dispositivo": "art. 128, § 1º e § 2º"
+        }
+      ],
+      "confianca": "inferido",
+      "nota": "A NOB-Suas manda o órgão gestor federal dar estrutura e secretaria executiva à comissão; ela não é órgão hierárquico do ministério."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8742-1993",
+      "dispositivo": "art. 5º, I; art. 6º, I"
+    },
+    {
+      "ref": "norma:resolucao-cnas-33-2012",
+      "dispositivo": "arts. 128, 129, 131, 133, 134 e 135"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regida pela NOB-Suas de 2012; a criação é anterior (não pesquisado)."
+  },
+  "confianca": "oficial",
+  "notas": "A Lei 8.742/1993 não cria as comissões intergestores do Suas; elas vêm da NOB-Suas (Resolução CNAS 33/2012), lida na edição de 2012 sem conferência de alterações. Membros nomeados por ato do Ministro (art. 134, § 4º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-social"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "org:corregedoria-do-cgibs",
+  "tipo": "orgao",
+  "nome": "Corregedoria do CGIBS",
+  "resumo": "Apura infrações disciplinares dos servidores cedidos e dos empregados do Comitê Gestor do IBS, com sindicâncias e processos administrativos disciplinares.",
+  "detalhes": "Subordinada ao Conselho Superior e dirigida pelo Corregedor-Geral. Os empregados próprios seguem o regime disciplinar da CLT; os servidores cedidos são julgados por comissão de servidores do ente de origem, pelo regime desse ente (LC 227/2026, arts. 21 e 22).",
+  "tipo_orgao": "outro",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:conselho-superior-do-cgibs",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: exerce competências administrativas tributárias dos Executivos dos entes."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: entidade dos estados, do DF e dos municípios em conjunto; usamos 'nacional'."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 21"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 7º, VI; arts. 21 e 22"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "notas": "tipo_orgao 'outro': unidade interna de entidade interfederativa.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

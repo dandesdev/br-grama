@@ -1,0 +1,30 @@
+{
+  "id": "rel:uniao-repassa-recursos-comite-gestor-do-ibs",
+  "tipo": "relacao",
+  "nome": "A União financia a instalação do CGIBS",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "org:comite-gestor-do-ibs",
+  "condicao": "Por operação de crédito de até R$ 3,8 bilhões de 2025 a 2028 (R$ 800 milhões em 2026), em parcelas mensais, remunerada pela Selic e ressarcida pelo CGIBS em 20 parcelas semestrais a partir de junho de 2029, com garantia no IBS destinado ao seu financiamento.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 484, caput, I a IV, e §§ 1º a 5º"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 52, caput e § 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "2025-01-16",
+    "ate": "2028-12-31",
+    "nota": "Aportes de 2025 a 2028 (LC 214/2025, art. 484, com efeitos desde 1º/1/2025, art. 544, II; valores e prazo ampliados pela LC 227/2026). O ressarcimento à União vai de 2029 em diante."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

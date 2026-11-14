@@ -1,0 +1,30 @@
+{
+  "id": "rel:arquetipo-municipal-prefeito-elege-membro-do-conselho-superior-do-cgibs",
+  "tipo": "relacao",
+  "nome": "Os prefeitos elegem os representantes municipais no Conselho Superior do CGIBS",
+  "relacao": "elege",
+  "de": "cargo:arquetipo-municipal-prefeito",
+  "para": "cargo:membro-do-conselho-superior-do-cgibs",
+  "condicao": "Em eleição eletrônica organizada pela CNM e pela FNP: 14 representantes com voto igual por município e 13 com voto ponderado pela população; cada chapa tem ao menos um município de cada região, e o DF não vota.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 8º, § 1º, II, e §§ 2º a 11"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 482-A, §§ 1º e 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Regra da LC 227/2026. Até 31/3/2027 seguem os representantes indicados pela CNM e pela FNP no CGIBS provisório (LC 214/2025, art. 482-A, § 1º); a primeira eleição escolhe seus sucessores, e, se a CNM e a FNP não publicarem o regulamento eleitoral até 31/1/2027, o próprio CGIBS conduz a eleição (§ 2º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

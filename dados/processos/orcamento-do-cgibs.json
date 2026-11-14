@@ -1,0 +1,199 @@
+{
+  "id": "proc:orcamento-do-cgibs",
+  "tipo": "processo",
+  "nome": "Aprovação do orçamento do CGIBS",
+  "resumo": "O Conselho Superior propõe até 31 de julho o percentual do IBS e o orçamento do ano seguinte; os Legislativos dos entes representados podem rejeitá-los em 30 dias.",
+  "detalhes": "Os Legislativos que se manifestam são os dos entes de origem dos membros titulares do Conselho Superior. Os créditos especiais seguem o mesmo rito (LC 227/2026, art. 47, § 7º, II).",
+  "forma": "linha",
+  "produz": "obj:orcamento-do-cgibs",
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 11, VI, 12, XII, 37, I, 47, 48 e 52"
+    }
+  ],
+  "confianca": "oficial",
+  "etapas": [
+    {
+      "id": "elaboracao",
+      "atores": [
+        "org:diretorias-do-cgibs",
+        "org:diretoria-executiva-do-cgibs",
+        "cargo:presidente-do-cgibs"
+      ],
+      "acao": "A Diretoria Administrativa elabora a proposta, e o Presidente do CGIBS apresenta a anteproposta ao Conselho Superior",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 12, XII; art. 27, XIX, b e c; art. 37, I, b e c"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "proposta",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "proposta",
+      "atores": [
+        "org:conselho-superior-do-cgibs"
+      ],
+      "acao": "O Conselho Superior propõe o percentual do IBS destinado ao CGIBS e o orçamento do ano seguinte, publicados no DOU",
+      "detalhes": "O percentual não pode passar de 0,2% do IBS de cada ente; a proposta traz a estimativa de arrecadação do IBS e a metodologia.",
+      "prazo": {
+        "texto": "até 31 de julho"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 11, VI; art. 47, caput, I e II, e § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "manifestacao-dos-legislativos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "manifestacao-dos-legislativos",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:arquetipo-estadual-assembleia-legislativa",
+        "org:arquetipo-municipal-camara-municipal"
+      ],
+      "acao": "Os Legislativos dos entes dos membros titulares aprovam ou rejeitam as propostas; o silêncio vale como aprovação",
+      "prazo": {
+        "texto": "30 dias da publicação da proposta no DOU (15 dias para nova proposta)",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "publicação da proposta no Diário Oficial da União",
+        "efeito": "Sem manifestação, as propostas são aprovadas tacitamente"
+      },
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "A rejeição exige manifestação nesse sentido da maioria absoluta dos Legislativos dos entes de origem dos membros titulares do Conselho Superior."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 47, §§ 2º a 4º e 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "execucao",
+          "quando": "aprovadas, expressa ou tacitamente"
+        },
+        {
+          "para": "nova-proposta",
+          "quando": "rejeitadas"
+        }
+      ]
+    },
+    {
+      "id": "nova-proposta",
+      "atores": [
+        "org:conselho-superior-do-cgibs",
+        "org:comite-gestor-do-ibs"
+      ],
+      "acao": "Com a rejeição, o CGIBS executa por duodécimos o último orçamento aprovado, corrigido, e publica nova proposta",
+      "prazo": {
+        "texto": "nova proposta em até 30 dias da rejeição",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "rejeição do orçamento"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 47, §§ 5º, 8º e 9º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "manifestacao-dos-legislativos",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "execucao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:conselho-superior-do-cgibs",
+        "org:comite-gestor-do-ibs"
+      ],
+      "acao": "O Conselho Superior aprova o detalhamento da despesa, e o CGIBS retém de cada ente o percentual aprovado",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 47, §§ 6º e 7º; art. 48, caput e §§ 1º e 3º"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "instalacao-2025-2028",
+      "nome": "Orçamentos da instalação (2025 a 2028)",
+      "resumo": "Os orçamentos de 2025 a 2028 somam o financiamento da União e as demais receitas; os de 2026 a 2028 seguem o rito normal sem o limite de 0,2%, e o de 2025 é aprovado só pelo Conselho Superior.",
+      "detalhes": "O orçamento de 2026 é proposto em até 120 dias da eleição do Presidente do CGIBS, sem o prazo de 31 de julho.",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 52, caput e §§ 1º, 3º a 5º"
+        },
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 484"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "proposta",
+          "nota": "Sem o limite de 0,2% de 2026 a 2028; em 2026, prazo de 120 dias da eleição do Presidente."
+        },
+        {
+          "etapa": "manifestacao-dos-legislativos",
+          "nota": "O orçamento de 2025 e seus créditos são aprovados só pelo Conselho Superior."
+        }
+      ]
+    },
+    {
+      "id": "transicao-2026-2032",
+      "nome": "Limites do percentual na transição (2026 a 2032)",
+      "resumo": "O percentual do IBS destinado ao CGIBS é de até 100% em 2026 (limitado ao orçamento), até 50% em 2027 e 2028, e no máximo 2%, 1%, 0,67% e 0,5% de 2029 a 2032.",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 51; art. 52, §§ 2º e 7º"
+        },
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "ADCT, art. 125, § 3º"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "proposta",
+          "nota": "Os limites do art. 51 substituem o teto de 0,2% até 2032."
+        }
+      ]
+    }
+  ],
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

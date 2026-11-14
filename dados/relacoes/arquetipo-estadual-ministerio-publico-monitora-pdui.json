@@ -1,0 +1,33 @@
+{
+  "id": "rel:arquetipo-estadual-ministerio-publico-monitora-pdui",
+  "tipo": "relacao",
+  "nome": "O Ministério Público acompanha a elaboração e a aplicação do plano integrado",
+  "relacao": "monitora",
+  "de": "org:arquetipo-estadual-ministerio-publico",
+  "para": "obj:plano-de-desenvolvimento-urbano-integrado",
+  "condicao": "A lei assegura o acompanhamento pelo Ministério Público na elaboração do plano e na fiscalização da sua aplicação.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 12, § 2º, III"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "notas": "A lei fala em 'Ministério Público' sem dizer qual; leitura nossa: o do estado, porque o plano é estadual.",
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A lei não diz se é o Ministério Público estadual ou federal."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

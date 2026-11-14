@@ -1,0 +1,54 @@
+{
+  "id": "org:conselho-superior-do-cgibs",
+  "tipo": "orgao",
+  "nome": "Conselho Superior do CGIBS",
+  "resumo": "Instância máxima do Comitê Gestor do IBS: 27 representantes dos estados e do DF e 27 do conjunto dos municípios e do DF.",
+  "detalhes": "Aprova o regulamento único e o regimento interno do IBS, uniformiza a interpretação da lei, aprova os atos conjuntos com o Executivo federal, a metodologia da alíquota de referência enviada ao TCU e as contas do CGIBS, e elege e destitui a Diretoria Executiva, o corregedor e o auditor interno (LC 227/2026, art. 11). Cada deliberação precisa, ao mesmo tempo, da maioria absoluta dos representantes estaduais, desde que somem mais da metade da população do país, e da maioria absoluta dos representantes municipais (art. 10). Reúne-se a cada três meses (art. 11, parágrafo único). Em 2026 funciona com a composição do CGIBS provisório: os representantes municipais foram indicados pela CNM e pela FNP, com mandato até 31/3/2027 (LC 214/2025, arts. 481, §§ 2º, 5º e 5º-A, e 482-A, § 1º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:comite-gestor-do-ibs",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: exerce competências administrativas tributárias dos Executivos dos entes."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: entidade dos estados, do DF e dos municípios em conjunto; usamos 'nacional'."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 7º, I"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, §§ 2º, I, e 3º"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 7º, I; arts. 8º a 11"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 481, 482, 482-A e 483"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Data do CGIBS definitivo (LC 227/2026). O Conselho Superior do CGIBS provisório foi instalado com base na LC 214/2025, arts. 481 a 483, com efeitos desde 1º/1/2025 (art. 544, II); seus membros seguem até 31/3/2027 (art. 482-A, § 1º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

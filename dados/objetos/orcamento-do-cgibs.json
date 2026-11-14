@@ -1,0 +1,33 @@
+{
+  "id": "obj:orcamento-do-cgibs",
+  "tipo": "objeto",
+  "nome": "Orçamento do CGIBS",
+  "resumo": "Orçamento anual próprio do Comitê Gestor do IBS, financiado por um percentual do IBS de cada ente; não entra nos orçamentos dos estados e municípios.",
+  "detalhes": "As receitas são o percentual do IBS de cada ente destinado ao CGIBS (até 0,2% em regime permanente), os rendimentos das aplicações e outros recursos (LC 227/2026, arts. 46 e 47, I). A retenção sobre o IBS de cada ente não depende de autorização nos orçamentos deles (art. 48, § 1º), e as despesas do CGIBS não aparecem nos relatórios dos entes (art. 45, § 2º). Até 0,05% da arrecadação pode ir a programas de cidadania fiscal (art. 48, § 2º). Operações de crédito dependem da maioria dos Legislativos dos entes de origem dos membros titulares (art. 48, § 7º). Em 2026, a arrecadação de teste do IBS financia primeiro o CGIBS (ADCT, art. 125, § 3º, I; LC 227/2026, art. 51, I, a).",
+  "tipo_objeto": "documento",
+  "esfera": "nacional",
+  "relativo_a": [
+    "org:comite-gestor-do-ibs"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 45 a 48, 51 e 52"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, § 2º, III; ADCT, art. 125, § 3º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

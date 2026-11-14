@@ -4,7 +4,7 @@
   "nome": "Fundo de Participação dos Municípios",
   "sigla": "FPM",
   "resumo": "Fundo que recebe 25,5% do imposto de renda, do IPI e do Imposto Seletivo arrecadados pela União e os divide entre os municípios.",
-  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% nos primeiros dez dias de julho, de setembro e de dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160.",
+  "detalhes": "São 22,5% entregues ao longo do ano e mais 1% nos primeiros dez dias de julho, de setembro e de dezembro (art. 159, I, b, d, e, f). O TCU calcula as cotas (art. 161, parágrafo único), e a União não pode reter a entrega, salvo nas exceções do art. 160. A LC 62/1989 manteve os critérios de rateio anteriores (art. 3º): 10% vão às capitais, por coeficientes de população e do inverso da renda per capita do estado, e 90% aos demais municípios, por coeficientes que crescem com a faixa de habitantes (CTN, art. 91, com a redação do Decreto-Lei 1.881/1981; LC 91/1997, arts. 1º e 4º). Os municípios do interior com os maiores coeficientes participam também de uma reserva própria (LC 91/1997, art. 3º). As quotas são revistas todo ano com os dados de população do IBGE; quando a população cai, a perda é amortecida por regras de transição (LC 91/1997, arts. 1º, § 1º, 2º e 5º-A). Quando um município é criado e instalado, o TCU revisa os coeficientes dos demais do mesmo estado (LC 62/1989, art. 5º, parágrafo único). A União entrega os recursos em até dez dias depois de cada decêndio de arrecadação e divulga todo mês os valores (arts. 4º e 6º).",
   "tipo_objeto": "fundo",
   "esfera": "federal",
   "vigencia": {
@@ -16,14 +16,27 @@
     {
       "ref": "norma:cf-1988",
       "dispositivo": "art. 159, I, b, d, e e f; art. 160; art. 161, II e parágrafo único"
+    },
+    {
+      "ref": "norma:lc-62-1989",
+      "dispositivo": "arts. 1º, 3º a 7º",
+      "nota": "Critérios mantidos, prazos, cálculo pelo TCU e divulgação (fase 2, D49)."
+    },
+    {
+      "ref": "norma:lei-5172-1966",
+      "dispositivo": "art. 91"
+    },
+    {
+      "ref": "norma:lc-91-1997",
+      "dispositivo": "arts. 1º a 5º-A"
     }
   ],
   "confianca": "oficial",
-  "notas": "Os critérios de rateio estão na LC 62/1989, citada pela CF compilada ('Vide'), não pesquisada nesta tarefa.",
+  "notas": "Critérios do FPM: LC 62/1989, art. 3º, que manteve os critérios anteriores 'até que lei específica' dispusesse com base no Censo de 1991; essa lei específica não foi identificada além da LC 91/1997. A reserva do interior está no Decreto-Lei 1.881/1981, art. 2º (citado pela LC 91/1997, art. 3º), não lido; por isso o percentual da reserva não foi registrado.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-23",
-    "tarefa": "verificacao-f0-dinheiro",
-    "notas": "coletado em f0-dinheiro; CF, arts. 159, I, b, d, e e f, 160 e 161 conferidos; redação \"em cada um dos primeiros dez dias\" (dava a entender 1% por dia) trocada por \"nos primeiros dez dias\" (primeiro decêndio)"
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao",
+    "notas": "detalhes com os critérios de rateio (LC 62/1989, art. 3º; CTN, art. 91; LC 91/1997), a revisão de coeficientes pelo TCU e os prazos de entrega; fontes e notas novas; antes verificado em verificacao-f0-dinheiro"
   }
 }

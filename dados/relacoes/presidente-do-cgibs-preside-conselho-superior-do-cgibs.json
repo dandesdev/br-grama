@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-do-cgibs-preside-conselho-superior-do-cgibs",
+  "tipo": "relacao",
+  "nome": "O Presidente do CGIBS preside o Conselho Superior",
+  "relacao": "preside",
+  "de": "cargo:presidente-do-cgibs",
+  "para": "org:conselho-superior-do-cgibs",
+  "condicao": "Convoca e preside as sessões, proclama o resultado das votações e promulga e publica as resoluções.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 12, I, IV, VII e VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

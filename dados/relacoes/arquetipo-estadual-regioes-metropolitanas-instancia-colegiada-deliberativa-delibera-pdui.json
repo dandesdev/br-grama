@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-regioes-metropolitanas-instancia-colegiada-deliberativa-delibera-pdui",
+  "tipo": "relacao",
+  "nome": "A instância colegiada da região metropolitana aprova o plano integrado",
+  "relacao": "delibera",
+  "de": "org:arquetipo-estadual-regioes-metropolitanas-instancia-colegiada-deliberativa",
+  "para": "obj:plano-de-desenvolvimento-urbano-integrado",
+  "condicao": "Aprova o plano antes de ele ser enviado à Assembleia Legislativa.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 10, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

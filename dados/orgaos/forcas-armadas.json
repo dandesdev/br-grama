@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Forças Armadas",
   "resumo": "Marinha, Exército e Aeronáutica: instituições permanentes, sob a autoridade suprema do Presidente e subordinadas ao Ministro da Defesa, para defender a Pátria e garantir os poderes constitucionais.",
-  "detalhes": "Organizadas com base na hierarquia e na disciplina, também garantem a lei e a ordem por iniciativa de um dos poderes constitucionais. Cada Força tem um Comandante, oficial-general do último posto, indicado pelo Ministro da Defesa e nomeado pelo Presidente. O serviço militar é obrigatório nos termos da lei; mulheres e eclesiásticos são isentos em tempo de paz, e quem alegar imperativo de consciência cumpre serviço alternativo (art. 143). Além disso, cooperam com o desenvolvimento nacional e a defesa civil, na forma que o Presidente determinar, e atuam contra delitos transfronteiriços e ambientais na faixa de fronteira, no mar e nas águas interiores, com patrulhamento, revistas e prisões em flagrante, ressalvadas as competências das polícias judiciárias (atribuições subsidiárias). O preparo cabe aos Comandantes, segundo as políticas do Ministro da Defesa.",
+  "detalhes": "Organizadas com base na hierarquia e na disciplina, também garantem a lei e a ordem por iniciativa de um dos poderes constitucionais. Cada Força tem um Comandante, oficial-general do último posto, indicado pelo Ministro da Defesa e nomeado pelo Presidente. O serviço militar é obrigatório nos termos da lei; mulheres e eclesiásticos são isentos em tempo de paz, e quem alegar imperativo de consciência cumpre serviço alternativo (art. 143). Além disso, cooperam com o desenvolvimento nacional e a defesa civil, na forma que o Presidente determinar, e atuam contra delitos transfronteiriços e ambientais na faixa de fronteira, no mar e nas águas interiores, com patrulhamento, revistas e prisões em flagrante, ressalvadas as competências das polícias judiciárias (atribuições subsidiárias). O preparo cabe aos Comandantes, segundo as políticas do Ministro da Defesa, e busca eficiência operacional, autonomia nacional crescente e mobilização planejada. O Poder Executivo define a competência dos Comandantes para criar e organizar as unidades de cada Força, e a reserva é formada por quem pode ser incorporado por mobilização ou convocação.",
   "tipo_orgao": "conjunto",
   "poder": "executivo",
   "esfera": "federal",
@@ -45,9 +45,9 @@
   "confianca": "oficial",
   "notas": "Tipo 'conjunto': representa as três Forças, que agora são nós próprios (org:marinha, org:exercito, org:aeronautica) contidos aqui. Criado em f0-executivo e completado em f0-defesa-seguranca. O serviço militar obrigatório (art. 143) ficou como nota nos detalhes, sem objeto próprio. No texto do Planalto, os arts. 1º e 15 da LC 97/1999 trazem remissão à ADI 6457 (STF). Resultado (notícia oficial do STF, fonte:stf-adi-6457): as Forças Armadas não exercem poder moderador entre os Poderes, e o emprego na garantia da lei e da ordem é excepcional; ver proc:emprego-das-forcas-armadas-na-glo.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca",
-    "notas": "f2-defesa-seguranca: detalhes ampliados com as atribuições subsidiárias gerais e o preparo; fontes da LC 97/1999 ampliadas para os arts. 6º, 8º, 13, 14, 16 e 16-A"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca (atribuições subsidiárias gerais e preparo); conferidos LC 97/1999 arts. 6º, 8º, 13, 14, 16 e 16-A. Corrigido: as fontes citavam os arts. 6º, 8º e 14, mas os detalhes não diziam nada deles; acrescentada uma frase (competência dos Comandantes por ato do Executivo, reserva, parâmetros do preparo)"
   }
 }

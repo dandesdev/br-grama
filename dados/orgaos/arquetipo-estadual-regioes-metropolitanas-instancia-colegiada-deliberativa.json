@@ -1,0 +1,45 @@
+{
+  "id": "org:arquetipo-estadual-regioes-metropolitanas-instancia-colegiada-deliberativa",
+  "tipo": "orgao",
+  "nome": "Instância colegiada deliberativa da governança metropolitana",
+  "resumo": "Colegiado da região metropolitana ou aglomeração urbana com representação da sociedade civil; aprova o plano de desenvolvimento urbano integrado.",
+  "detalhes": "Aprova o plano de desenvolvimento urbano integrado antes de ele ir à Assembleia Legislativa e fixa os critérios das audiências públicas do plano (Lei 13.089/2015, arts. 8º, II, 10, § 4º, e 12, § 4º). Garante a participação da sociedade civil no planejamento e nas decisões (art. 7º, V). Nas microrregiões, cabe ao colegiado decidir se adota o plano (art. 2º, parágrafo único).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-regioes-metropolitanas",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 8º, caput"
+        }
+      ],
+      "nota": "Integra a estrutura básica da governança interfederativa de cada região metropolitana ou aglomeração urbana."
+    },
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do conjunto das regiões metropolitanas: a governança reúne os Executivos do estado e dos municípios."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 8º, II; art. 10, § 4º; art. 12, § 4º; art. 2º, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "notas": "Um nó para as instâncias de todas as regiões; a composição de cada uma vem da lei complementar estadual que institui a região (art. 5º, III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rel:comite-de-harmonizacao-das-administracoes-tributarias-regulamenta-tributo-cbs",
+  "tipo": "relacao",
+  "nome": "O Comitê de Harmonização uniformiza as regras comuns do CBS com o IBS",
+  "relacao": "regulamenta",
+  "de": "org:comite-de-harmonizacao-das-administracoes-tributarias",
+  "para": "obj:tributo-cbs",
+  "condicao": "Uniformiza a regulamentação e a interpretação das matérias comuns ao IBS e à CBS e delibera sobre obrigações acessórias e procedimentos comuns; as resoluções vinculam as administrações tributárias de todos os entes.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 321"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Previsto na LC 214/2025, arts. 318 a 323, com efeitos desde 1º/1/2026 (art. 544, VI); data de instalação não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

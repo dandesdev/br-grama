@@ -1,0 +1,30 @@
+{
+  "id": "rel:estados-repassam-recursos-comite-gestor-do-ibs",
+  "tipo": "relacao",
+  "nome": "Os estados financiam o CGIBS com parte do seu IBS",
+  "relacao": "repassa-recursos",
+  "de": "ente:arquetipo-estadual",
+  "para": "org:comite-gestor-do-ibs",
+  "condicao": "O CGIBS retém do IBS destinado a cada estado o percentual aprovado no seu orçamento (até 0,2% em regime permanente), sem depender de autorização no orçamento do estado.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, § 2º, III; ADCT, art. 125, § 3º, I"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 46 a 48, 51; art. 118, § 4º, II"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Em 2026, a arrecadação de teste do IBS, só com alíquota estadual de 0,1%, financia o CGIBS em até 100%, limitada ao orçamento aprovado (ADCT, art. 125, § 3º, I; LC 227/2026, art. 51, I, a). Até 50% em 2027 e 2028 e limites decrescentes de 2029 a 2032 (art. 51)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

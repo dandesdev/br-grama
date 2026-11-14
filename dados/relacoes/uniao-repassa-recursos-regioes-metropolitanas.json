@@ -1,0 +1,27 @@
+{
+  "id": "rel:uniao-repassa-recursos-regioes-metropolitanas",
+  "tipo": "relacao",
+  "nome": "A União apoia a governança das regiões metropolitanas com gestão plena",
+  "relacao": "repassa-recursos",
+  "de": "ente:uniao",
+  "para": "org:arquetipo-estadual-regioes-metropolitanas",
+  "condicao": "Só para região metropolitana ou aglomeração urbana com gestão plena (lei complementar estadual, governança própria e plano integrado aprovado), dentro do PPA, da LDO e da LOA; a elaboração do plano pode ser apoiada antes de ele existir.",
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 2º, III; arts. 13, 14, 15 e 16-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "notas": "A lei fala em 'apoio', que pode envolver ou não transferência de recursos (art. 15). O fundo nacional previsto nos arts. 17 e 18 foi vetado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

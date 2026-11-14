@@ -1,0 +1,27 @@
+{
+  "id": "rel:forum-de-harmonizacao-juridica-das-procuradorias-assessora-comite-de-harmonizacao-das-administracoes-tributarias",
+  "tipo": "relacao",
+  "nome": "O Fórum das Procuradorias assessora o Comitê de Harmonização",
+  "relacao": "assessora",
+  "de": "org:forum-de-harmonizacao-juridica-das-procuradorias",
+  "para": "org:comite-de-harmonizacao-das-administracoes-tributarias",
+  "condicao": "Atua como órgão consultivo nas atividades de uniformização e interpretação das normas comuns ao IBS e à CBS; os dois podem editar ato conjunto que vincula administrações tributárias e procuradorias.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 322, I; art. 323"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Previsto na LC 214/2025, arts. 318 a 323, com efeitos desde 1º/1/2026 (art. 544, VI); data de instalação não conferida."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

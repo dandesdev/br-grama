@@ -1,0 +1,47 @@
+{
+  "id": "org:diretorias-do-cgibs",
+  "tipo": "orgao",
+  "nome": "Diretorias do CGIBS",
+  "resumo": "As nove diretorias da Diretoria Executiva do Comitê Gestor do IBS: Fiscalização, Arrecadação e Cobrança, Tributação, Informações, TI, Revisão do Crédito, Administrativa, Procuradorias e Tesouraria.",
+  "detalhes": "Fiscalização coordena a fiscalização do IBS feita pelos entes; Arrecadação e Cobrança arrecada o imposto, controla retenções e restituições e coordena a cobrança; Tributação prepara o regulamento único, os atos conjuntos com a União e as soluções de consulta; Informações Econômico-Fiscais cuida do cadastro e dos documentos fiscais; Tecnologia da Informação e Comunicação, dos sistemas; Revisão do Crédito Tributário apoia os órgãos de julgamento; a Administrativa faz orçamento, compras e pessoal; a de Procuradorias dá a consultoria jurídica e coordena a cobrança judicial pelas procuradorias dos entes; e a de Tesouraria guarda e distribui os recursos (LC 227/2026, arts. 31 a 39). O Conselho Superior pode redistribuir essas competências (art. 30, § 2º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:diretoria-executiva-do-cgibs",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: exerce competências administrativas tributárias dos Executivos dos entes."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: entidade dos estados, do DF e dos municípios em conjunto; usamos 'nacional'."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 30"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 30 a 39"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D51): as nove diretorias têm o mesmo cargo de diretor (cargo:diretor-do-cgibs); não criamos um nó por diretoria.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

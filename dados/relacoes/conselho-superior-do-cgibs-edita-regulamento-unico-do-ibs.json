@@ -1,0 +1,26 @@
+{
+  "id": "rel:conselho-superior-do-cgibs-edita-regulamento-unico-do-ibs",
+  "tipo": "relacao",
+  "nome": "O Conselho Superior do CGIBS aprova o regulamento único do IBS",
+  "relacao": "edita",
+  "de": "org:conselho-superior-do-cgibs",
+  "para": "obj:regulamento-unico-do-ibs",
+  "condicao": "Aprova o regulamento único e os atos que uniformizam a interpretação da lei do IBS; as normas comuns ao IBS e à CBS saem por ato conjunto com o Executivo federal.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 2º, I e § 11; art. 11, II, IV e V"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

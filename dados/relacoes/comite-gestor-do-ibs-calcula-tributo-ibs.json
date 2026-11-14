@@ -1,0 +1,30 @@
+{
+  "id": "rel:comite-gestor-do-ibs-calcula-tributo-ibs",
+  "tipo": "relacao",
+  "nome": "O CGIBS calcula quanto do IBS cabe a cada ente",
+  "relacao": "calcula",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "obj:tributo-ibs",
+  "condicao": "Calcula a receita-base de cada estado, município e do DF a cada período e, para a transição, os coeficientes de participação pela receita média de 2019 a 2026, que publica até 31/8/2027; os entes podem contestá-los em 30 dias.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 105, 112 e 116"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "ADCT, art. 131"
+    }
+  ],
+  "vigencia": {
+    "de": "2027-01-01",
+    "ate": null,
+    "nota": "Regras em vigor desde 14/1/2026; os cálculos começam com a distribuição do IBS de 2027 e os coeficientes da transição saem até 31/8/2027 (art. 116, § 1º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

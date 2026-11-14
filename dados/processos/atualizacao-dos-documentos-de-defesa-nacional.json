@@ -2,7 +2,7 @@
   "id": "proc:atualizacao-dos-documentos-de-defesa-nacional",
   "tipo": "processo",
   "nome": "Atualização da Política e da Estratégia Nacional de Defesa e do Livro Branco",
-  "resumo": "A cada quatro anos o Executivo atualiza os documentos de defesa, envia ao Congresso, que os aprecia por decreto legislativo, e o Presidente os aprova por decreto.",
+  "resumo": "A cada quatro anos o Executivo atualiza os documentos de defesa e os envia ao Congresso, que os aprecia por decreto legislativo; em 2025 o Presidente os aprovou depois por decreto.",
   "detalhes": "O envio ocorre na primeira metade da sessão legislativa, de quatro em quatro anos desde 2012. Na rodada que terminou em 2025, um grupo de trabalho interministerial coordenado pelo Ministério da Defesa preparou os textos, o Congresso aprovou o relatório da CCAI como sua apreciação e o Presidente aprovou os documentos pelo Decreto 12.725/2025, que mandou o Ministério começar a próxima atualização em 1º de julho de 2026.",
   "forma": "ciclo",
   "produz": "obj:documentos-de-defesa-nacional",
@@ -16,7 +16,7 @@
         }
       ],
       "acao": "O Ministério da Defesa coordena a atualização dos documentos e implanta o Livro Branco",
-      "detalhes": "A rodada seguinte à de 2025 começa em 1º de julho de 2026, por determinação do Decreto 12.725/2025.",
+      "detalhes": "A LC 97/1999 dá ao Ministro a implantação do Livro Branco; a coordenação da atualização pelo Ministério vem do Decreto 12.725/2025, que manda começar a rodada seguinte em 1º de julho de 2026.",
       "fontes": [
         {
           "ref": "norma:lc-97-1999",
@@ -91,6 +91,7 @@
         "cargo:presidente-da-republica"
       ],
       "acao": "O Presidente aprova por decreto a Política, a Estratégia e o Livro Branco",
+      "detalhes": "A LC 97/1999 não prevê esta etapa; ela segue o que ocorreu em 2025, quando o Decreto 12.725 aprovou os três documentos depois do Decreto Legislativo 175/2025.",
       "fontes": [
         {
           "ref": "norma:decreto-12725-2025",
@@ -154,8 +155,9 @@
   "confianca": "oficial",
   "notas": "A etapa de aprovação por decreto não está na LC 97/1999; segue o que ocorreu em 2025 (Decreto 12.725/2025, preâmbulo e art. 1º).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos LC 97/1999 art. 9º, §§ 1º a 3º, e art. 12, Decreto Legislativo 175/2025 (art. 1º e parágrafo único) e Decreto 12.725/2025 (arts. 1º a 3º; Anexo I sobre o grupo de trabalho). A Resolução 2/2013-CN (competências da CCAI, art. 3º) não fala dos documentos de defesa: o papel da CCAI vem mesmo só do caso de 2025, como a etapa diz. Corrigido: as etapas elaboracao e aprovacao não distinguiam a lei da prática (só a nota interna dizia); acrescentados detalhes nas duas e ajustado o resumo, que punha a aprovação por decreto como regra"
   }
 }

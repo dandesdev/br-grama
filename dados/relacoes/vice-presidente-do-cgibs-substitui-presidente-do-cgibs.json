@@ -1,0 +1,27 @@
+{
+  "id": "rel:vice-presidente-do-cgibs-substitui-presidente-do-cgibs",
+  "tipo": "relacao",
+  "nome": "O Primeiro Vice-Presidente substitui o Presidente do CGIBS",
+  "relacao": "substitui",
+  "de": "cargo:vice-presidente-do-cgibs",
+  "para": "cargo:presidente-do-cgibs",
+  "ordem": 1,
+  "condicao": "O Primeiro Vice-Presidente substitui o Presidente nas ausências e impedimentos; o Segundo substitui o Primeiro. Se a Presidência vagar, há nova eleição.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 14 a 16, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "rel:comite-gestor-do-ibs-repassa-ibs-municipios",
+  "tipo": "relacao",
+  "nome": "O CGIBS entrega aos municípios a sua parte do IBS e a cota do IBS estadual",
+  "relacao": "repassa-recursos",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "ente:arquetipo-municipal",
+  "condicao": "Entrega a receita do IBS municipal e, diretamente, os 25% do IBS estadual que pertencem aos municípios: 80% pela população, 10% por indicadores de aprendizagem, 5% por indicadores ambientais e 5% em partes iguais, pelos coeficientes que cada estado informa.",
+  "detalhes": "O CGIBS calcula a cada período a receita de cada município pelo destino das operações, deduz a devolução do IBS às pessoas físicas e os créditos presumidos, e entrega a receita em até três dias úteis. De 2029 a 2077 retém 80% a 90% da receita (com redução gradual depois de 2033) para dividi-la pela receita média de ISS e de cota-parte do ICMS de 2019 a 2026 de cada município, e de 2029 a 2096 retém mais 5% para os entes com maior perda relativa. Da receita própria deduz o fundo municipal de combate à pobreza e o percentual do CGIBS; da cota-parte do IBS estadual, a parcela do Fundeb e o percentual do CGIBS.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, II; art. 158, IV, b, e § 2º"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 2º, § 1º, IX; arts. 103 a 117, 119, 121, 126 a 128, 130 e 131"
+    }
+  ],
+  "vigencia": {
+    "de": "2027-01-01",
+    "ate": null,
+    "nota": "Regras em vigor desde 14/1/2026, mas o IBS municipal só é cobrado a partir de 2027 (LC 214/2025, art. 344) e a arrecadação de 2026 não segue as repartições da CF (ADCT, art. 125, § 3º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

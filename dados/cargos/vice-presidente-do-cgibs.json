@@ -1,0 +1,50 @@
+{
+  "id": "cargo:vice-presidente-do-cgibs",
+  "tipo": "cargo",
+  "nome": "Vice-Presidente do CGIBS",
+  "resumo": "Dois vice-presidentes eleitos entre os membros do Conselho Superior: o primeiro, da outra esfera, substitui o Presidente; o segundo, da mesma esfera, substitui o primeiro.",
+  "detalhes": "O Primeiro Vice-Presidente representa a esfera federativa diferente da do Presidente e dirige a Assessoria de Relações Institucionais e Interfederativas; o Segundo é da mesma esfera do Presidente e dirige a Secretaria-Geral (LC 227/2026, arts. 13 a 15, 17, 18 e 19).",
+  "orgao": "org:comite-gestor-do-ibs",
+  "provimento": "eleicao-pelos-pares",
+  "provimento_nota": "Eleitos pelos membros titulares do Conselho Superior, entre eles (LC 227/2026, art. 16). Na instalação, a eleição seguiu a LC 214/2025, art. 483, § 1º, III.",
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "vedada a reeleição para o mesmo cargo na eleição seguinte, salvo se o mandato anterior foi de até 12 meses",
+    "nota": "LC 227/2026, art. 16; perda do cargo nas hipóteses do art. 16, § 3º."
+  },
+  "vagas": 2,
+  "requisitos": [
+    {
+      "texto": "ser membro titular do Conselho Superior do CGIBS",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 16, caput"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 7º, II, 13 a 19"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 483, § 1º, III"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "notas": "Ocupantes em 2026 nas fontes fonte:cgibs-portaria-1-2026 e fonte:cgibs-portaria-9-2026; não registrados como pessoas (D11: não são dirigentes máximos).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

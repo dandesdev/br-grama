@@ -1,0 +1,45 @@
+{
+  "id": "org:arquetipo-estadual-regioes-metropolitanas-instancia-executiva",
+  "tipo": "orgao",
+  "nome": "Instância executiva da governança metropolitana",
+  "resumo": "Formada por representantes dos Executivos do estado e dos municípios da região metropolitana ou aglomeração urbana.",
+  "detalhes": "É a parte executiva da governança interfederativa, que compartilha decisões e responsabilidades na organização, no planejamento e na execução das funções públicas de interesse comum, com rateio de custos pactuado (Lei 13.089/2015, arts. 7º, IV, 7º-A e 8º, I).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "estadual",
+  "arquetipo": "estadual",
+  "contido_em": "org:arquetipo-estadual-regioes-metropolitanas",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13089-2015",
+          "dispositivo": "art. 8º, caput"
+        }
+      ],
+      "nota": "Integra a estrutura básica da governança interfederativa de cada região metropolitana ou aglomeração urbana."
+    },
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do conjunto das regiões metropolitanas: a governança reúne os Executivos do estado e dos municípios."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13089-2015",
+      "dispositivo": "art. 8º, I; art. 7º-A"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-01-13",
+    "ate": null,
+    "nota": "Lei 13.089/2015 (Estatuto da Metrópole), em vigor na publicação (art. 25), DOU de 13/1/2015."
+  },
+  "confianca": "oficial",
+  "notas": "Um nó para as instâncias de todas as regiões; a composição de cada uma vem da lei complementar estadual que institui a região (art. 5º, III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-11",
+    "tarefa": "f2-federacao"
+  }
+}

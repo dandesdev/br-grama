@@ -56,5 +56,12 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 9.507/1997 (habeas data) | f2-processos-constitucionais | 19 | 0 | 0 | 2 | 21 | 100,0% |
 | Lei 8.038/1990 (processos no STF e no STJ) | f2-processos-constitucionais | 22 | 0 | 0 | 13 | 35 | 100,0% |
 | Lei 1.079/1950 (crimes de responsabilidade) | f2-processos-constitucionais | 67 | 0 | 0 | 20 | 87 | 100,0% |
+| Lei 8.080/1990 (Lei Orgânica da Saúde) | f2-social | 42 | 0 | 0 | 36 | 78 | 100,0% |
+| Lei 8.142/1990 (participação da comunidade e transferências no SUS) | f2-social | 6 | 0 | 0 | 1 | 7 | 100,0% |
+| Lei 8.742/1993 (Lei Orgânica da Assistência Social) | f2-social | 33 | 0 | 0 | 35 | 68 | 100,0% |
+| Lei 9.394/1996 (Lei de Diretrizes e Bases da Educação) | f2-social | 19 | 0 | 0 | 98 | 117 | 100,0% |
+| Lei 14.113/2020 (Fundeb) | f2-social | 32 | 0 | 0 | 26 | 58 | 100,0% |
+| Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
+| Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 5291 artigos classificados; cobertura 99,3% (5 em lacuna, 34 parciais).
+Total: 5858 artigos classificados; cobertura 99,3% (7 em lacuna, 34 parciais).

@@ -1,0 +1,26 @@
+{
+  "id": "rel:conselho-superior-do-cgibs-elege-diretor-do-cgibs",
+  "tipo": "relacao",
+  "nome": "O Conselho Superior do CGIBS elege o Diretor do CGIBS",
+  "relacao": "elege",
+  "de": "org:conselho-superior-do-cgibs",
+  "para": "cargo:diretor-do-cgibs",
+  "condicao": "Elege e pode destituir a qualquer tempo; o Presidente do CGIBS dá posse.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 11, I; art. 12, VI"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "rel:arquetipo-estadual-tce-fiscaliza-comite-gestor-do-ibs",
+  "tipo": "relacao",
+  "nome": "Os tribunais de contas dos estados e municípios fiscalizam o CGIBS",
+  "relacao": "fiscaliza",
+  "de": "org:arquetipo-estadual-tce",
+  "para": "org:comite-gestor-do-ibs",
+  "condicao": "De forma coordenada, compartilhada e colegiada, pelos tribunais de contas dos estados, do DF e dos municípios; uma resolução conjunta escolhe o conselheiro responsável, e as contas anuais são julgadas até o fim do exercício seguinte ao da apresentação.",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 156-B, § 2º, IV"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 40"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor na publicação, DOU de 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "notas": "Parte do TCE do arquétipo, mas a competência é conjunta de todos os tribunais de contas estaduais, distrital e municipais (inclusive os TCMs das variações).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-12",
+    "tarefa": "f2-federacao"
+  }
+}

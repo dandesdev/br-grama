@@ -32,6 +32,15 @@
           "dispositivo": "art. 20, § 1º"
         }
       ]
+    },
+    {
+      "texto": "aprovação em exame de saúde e exame toxicológico de larga janela de detecção",
+      "fontes": [
+        {
+          "ref": "norma:lei-13675-2018",
+          "dispositivo": "art. 4º-A"
+        }
+      ]
     }
   ],
   "detalhes": "Produz o laudo investigativo e as demais peças do procedimento, que vão ao delegado para apreciação.",
@@ -39,6 +48,10 @@
     {
       "ref": "norma:lei-14735-2023",
       "dispositivo": "arts. 19, II, 20, 23, 27, 30, § 15, e 38"
+    },
+    {
+      "ref": "norma:lei-13675-2018",
+      "dispositivo": "art. 4º-A"
     }
   ],
   "vigencia": {
@@ -48,8 +61,9 @@
   "confianca": "oficial",
   "notas": "Cargo agregado do arquétipo. Os nomes antigos citados no provimento_nota (escrivão, investigador, agente) são exemplos nossos; a lei fala só em 'cargos efetivos atualmente existentes'.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-11",
-    "tarefa": "f2-defesa-seguranca"
+    "tarefa": "verificacao-f2-defesa-seguranca",
+    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 14.735/2023 arts. 19, II, 20 (caput e § 1º), 23, 27, 30, § 15, e 38. Completado: faltava o requisito de exame de saúde e toxicológico da Lei 13.675/2018, art. 4º-A (incluído pela Lei 14.751/2023), que vale para o ingresso em toda instituição do Susp e já estava no delegado"
   }
 }
