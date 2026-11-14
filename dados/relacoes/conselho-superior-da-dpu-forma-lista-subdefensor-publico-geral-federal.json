@@ -1,8 +1,8 @@
 {
-  "id": "rel:conselho-superior-da-dpu-indica-subdefensor-publico-geral-federal",
+  "id": "rel:conselho-superior-da-dpu-forma-lista-subdefensor-publico-geral-federal",
   "tipo": "relacao",
   "nome": "Indicação do Subdefensor Público-Geral Federal",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:conselho-superior-da-dpu",
   "para": "cargo:subdefensor-publico-geral-federal",
   "condicao": "Indica seis nomes da categoria mais elevada da carreira, entre os quais o Presidente nomeia o Subdefensor e o Corregedor-Geral.",
@@ -19,9 +19,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da LC 80/1994"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-da-dpu-indica-subdefensor-publico-geral-federal; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

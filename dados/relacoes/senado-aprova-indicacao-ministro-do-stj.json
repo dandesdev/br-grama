@@ -7,7 +7,7 @@
   "para": "cargo:ministro-do-stj",
   "condicao": "Por voto secreto, após arguição pública, e por maioria absoluta; depois o Presidente nomeia.",
   "depende_de": [
-    "rel:stj-indica-ministro-do-stj"
+    "rel:stj-forma-lista-ministro-do-stj"
   ],
   "quorum": {
     "regra": "maioria-absoluta",

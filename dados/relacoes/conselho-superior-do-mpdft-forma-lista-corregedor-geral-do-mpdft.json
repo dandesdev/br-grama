@@ -1,8 +1,8 @@
 {
-  "id": "rel:conselho-superior-do-mpdft-indica-corregedor-geral-do-mpdft",
+  "id": "rel:conselho-superior-do-mpdft-forma-lista-corregedor-geral-do-mpdft",
   "tipo": "relacao",
   "nome": "Lista tríplice para Corregedor-Geral do MPDFT",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:conselho-superior-do-mpdft",
   "para": "cargo:corregedor-geral-do-mpdft",
   "condicao": "Forma lista tríplice de procuradores de justiça que não sejam conselheiros.",
@@ -18,9 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da CF e da LC 75/1993"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-do-mpdft-indica-corregedor-geral-do-mpdft; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

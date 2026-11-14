@@ -14,7 +14,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [x] Decreto-Lei 200, art. 178 (lacuna) e arts. 30, 31 e 68 (parciais) (f2-executivo).
 - [ ] Wayback: `arquivo` null nas normas criadas na fase 2 (o Wayback respondeu 429 em 28/10 e 3/11); tentar de novo.
 - [ ] Ocupantes em 2026-10-01 dos cargos de chefia criados na fase 2 (PGT, PGJM, PGJ do MPDFT, PGU, Consultor-Geral da União, PGFN, PGF, diretores das agências, Líder do Governo, Ouvidores e Corregedores das Casas), só a cúpula (D11).
-- [ ] MP 2.229-43/2001 (carreira de Procurador Federal) e lista atual das consultorias jurídicas dos ministérios (f2-funcoes-essenciais).
+- [x] MP 2.229-43/2001 (carreira de Procurador Federal) e lista atual das consultorias jurídicas dos ministérios (f2-funcoes-essenciais).
 
 - [x] Comissões mistas permanentes que faltam: Comissão Mista Representativa no FIPA (Res. 2/2007-CN) e Comissão Mista de Assuntos da CPLP (Res. 2/2014-CN) (verificacao-f2-legislativo-tcu).
 - [x] Lideranças do Congresso (RCCN, art. 4º; RCN 3/2025): Líder do Governo, da Maioria, da Minoria e da Oposição no Congresso; reclassificar o art. 4º do RCCN de fora para lacuna até criar (verificacao-f2-legislativo-tcu).
@@ -25,9 +25,9 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [x] Processo de nova eleição (Código Eleitoral, art. 224, com a renovação da votação dos arts. 187 e 201), com `fonte:stf-informativo-893` (ADI 5.525: o § 4º não vale para Presidente, Vice e Senador; ADI 5.619 improcedente); até lá, arts. 187, 201 e 224 do Código são lacuna no quadro de f2-eleicoes (verificacao-f2-eleicoes).
 - [x] Quadro de f2-eleicoes: art. 237 do Código passa a fora com motivo "superado" pela LC 64, art. 22 (D51); Lei 9.096, art. 13, motivo "declarado inconstitucional (ADIs 1.351 e 1.354)" (verificacao-f2-eleicoes).
 
-- [ ] `cargo:corregedor-regional-eleitoral` (Res. TSE 23.742/2024, art. 9º: o Vice-Presidente do TRE acumula a Corregedoria); leva o Código Eleitoral, art. 26, de parcial a coberto (verificacao-f2-judiciario).
-- [ ] Quadro de f2-judiciario: LOMAN, art. 27, e RISTF, arts. 354-A a 354-G, passam a coberto; Lei 8.457, arts. 89 a 97, e Código Eleitoral, art. 31, ficam fora com o motivo da D52; RISTJ ganha os arts. 255-A a 255-Z e 255-AA a 255-AE da ER 55/2026 (fora, rito) e `norma:ristj` passa a `compilacao_ate` ER 55/2026 (verificacao-f2-judiciario).
-- [ ] Conferir as entidades que a revisão do Judiciário gravou como `coletado`: 3 pessoas e 3 fontes dos ocupantes (STF, TSE, STJ, Corregedor Nacional) e `norma:resolucao-tse-23742-2024` (verificacao-f2-judiciario).
+- [x] `cargo:corregedor-regional-eleitoral` (Res. TSE 23.742/2024, art. 9º: o Vice-Presidente do TRE acumula a Corregedoria); leva o Código Eleitoral, art. 26, de parcial a coberto (verificacao-f2-judiciario).
+- [x] Quadro de f2-judiciario: LOMAN, art. 27, e RISTF, arts. 354-A a 354-G, passam a coberto; Lei 8.457, arts. 89 a 97, e Código Eleitoral, art. 31, ficam fora com o motivo da D52; RISTJ ganha os arts. 255-A a 255-Z e 255-AA a 255-AE da ER 55/2026 (fora, rito) e `norma:ristj` passa a `compilacao_ate` ER 55/2026 (verificacao-f2-judiciario).
+- [x] Conferir as entidades que a revisão do Judiciário gravou como `coletado`: 3 pessoas e 3 fontes dos ocupantes (STF, TSE, STJ, Corregedor Nacional) e `norma:resolucao-tse-23742-2024` (verificacao-f2-judiciario).
 - [ ] Ocupantes em 2026-10-01 da direção do TST, do STM e do Corregedor-Geral Eleitoral, com data de posse em fonte oficial (verificacao-f2-judiciario).
 - [ ] Relações de foro do STF para comandantes militares e chefes de missão diplomática permanente (CF, art. 102, I, c) (verificacao-f2-judiciario).
 - [ ] ADI 6188 (CLT, art. 702, I, f): trocar a notícia pelo acórdão do STF em `org:tst` (verificacao-f2-judiciario).
@@ -36,7 +36,7 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - [ ] Abrir `aviso:` (contradição, D37) sobre quem oferece o libelo no impeachment do Presidente: a Lei 1.079, art. 58 (aplicado por analogia pela ADPF 378), dá ao denunciante; o RISF, art. 380, III, à comissão especial (verificacao-f2-processos-constitucionais).
 - [ ] Vigência do CPC (2016-03-18, `fonte:stj-enunciado-administrativo-1`) em `norma:lei-13105-2015` e `proc:caminho-de-um-processo` (verificacao-f2-processos-constitucionais).
-- [ ] Conferir as fontes gravadas como `coletado` pela revisão dos processos constitucionais: `fonte:stj-enunciado-administrativo-1` e `fonte:stf-aplicacao-sumula-vinculante-46` (verificacao-f2-processos-constitucionais).
+- [x] Conferir as fontes gravadas como `coletado` pela revisão dos processos constitucionais: `fonte:stj-enunciado-administrativo-1` e `fonte:stf-aplicacao-sumula-vinculante-46` (verificacao-f2-processos-constitucionais).
 
 - [x] `cargo:presidente-de-tre` (e Vice-Presidente, que acumula a Corregedoria Regional pela Res. TSE 23.742/2024) e o Presidente de TRE como ator no julgamento do PAD (Lei 8.112, art. 141, I) (verificacao-f2-administracao, verificacao-f2-judiciario).
 - [x] Etapa "revisão" em `proc:processo-administrativo-disciplinar-federal` (Lei 8.112, arts. 174 a 182; pedido ao Ministro de Estado, art. 177) (verificacao-f2-administracao).
@@ -49,6 +49,9 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - [ ] Rodada final: colegiado da comissão do orçamento da seguridade (Lei 8.212, art. 8º; decreto de 4/8/1992 sem revogação expressa), mantendo `aviso:comissao-orcamento-seguridade-social-sem-registro`; art. 8º passa a coberto (verificacao-f2-social).
 - [ ] Rodada final: motivos no quadro de f2-social: Lei 8.080, art. 41 (ações seguem com a Associação das Pioneiras Sociais, Lei 8.246/1991, art. 3º); Lei 8.212, art. 5º (o Conselho Nacional da Seguridade Social foi revogado pela MP 2.216-37/2001) (verificacao-f2-social).
+
+- [ ] Rodada final: Comitê de Harmonização (IBS e CBS) tinha composição em 2026-10-01? Conferir no DOU a Portaria MF 3.089/2026 e as indicações do CGIBS (verificacao-f2-federacao).
+- [ ] Rodada final: `norma:lei-13089-2015` com `compilacao_ate` Lei 14.026/2020; Lei 11.107, art. 19, motivo "regra de aplicação no tempo"; Lei 8.212, art. 56, de lacuna a coberto no quadro de f2-social (já citado nas relações do FPE e do FPM) (verificacao-f2-federacao).
 
 ## Propostas de vocabulário (decididas na D54, 2026-11-14)
 
@@ -99,5 +102,9 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - 2026-11-14: a homologação das decisões dos conselhos de saúde nos arquétipos fica com governador e prefeito: a Lei 8.142/1990, art. 1º, § 2º, diz "chefe do poder legalmente constituído em cada esfera"; o Decreto 5.839/2006 delega ao Ministro só na União.
 - 2026-11-14: artigo que liga o Ministério Público a uma entidade do mapa (fiscaliza o fundo, recebe denúncia) é coberto por relação; artigo que só diz que o MP zela por direitos em geral é fora (D53). Por isso a Lei 14.113, art. 32, fica coberta e a Lei 8.742, art. 31, fora.
+
+- 2026-11-14: as duas relações do IBS municipal ficam: a do estado guarda a regra da CF (art. 158, IV, b) e a do CGIBS diz quem entrega o dinheiro (LC 227); um fluxo futuro (D45) se prende só à do CGIBS, para não somar duas vezes.
+- 2026-11-14: a revisão da federação apontou artigos fora das faixas escolhidas (LC 227, arts. 54 a 102; LC 214, arts. 323-A a 323-M); vira a tarefa `f2-cgibs-julgamento`, porque cria órgãos e um processo, e a cobertura da fase 2 só fecha com ela.
+- 2026-11-14: confiança por caso em `provimento_casos` fica para a fase 3 (mudança de esquema); até lá o cargo com caso aproximado fica `inferido`.
 
 ## Diário

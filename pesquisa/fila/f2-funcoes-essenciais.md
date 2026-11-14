@@ -51,7 +51,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | arts. 40 a 42 | coberto | cargo:procurador-federal-dos-direitos-do-cidadao, rel:procurador-geral-da-republica-designa-procurador-federal-dos-direitos-do-cidadao, rel:conselho-superior-do-mpf-aprova-indicacao-procurador-federal-dos-direitos-do-cidadao |
 | arts. 43 e 44 | coberto | org:mpf e órgãos com contido_em nele; cargos da carreira do MPF |
 | arts. 45 a 51 | coberto | cargo:procurador-geral-da-republica; art. 51 também em org:conselho-superior-do-mpf |
-| arts. 52 e 53 | coberto | org:colegio-de-procuradores-da-republica, rel:colegio-de-procuradores-da-republica-indica-ministro-do-stj, rel:colegio-de-procuradores-da-republica-indica-juiz-de-trf |
+| arts. 52 e 53 | coberto | org:colegio-de-procuradores-da-republica, rel:colegio-de-procuradores-da-republica-forma-lista-ministro-do-stj, rel:colegio-de-procuradores-da-republica-forma-lista-juiz-de-trf |
 | arts. 54 a 57 | coberto | org:conselho-superior-do-mpf e suas relações (preside, indica e exonera corregedor, aprova PFDC, aprova destituição do Procurador Regional Eleitoral) |
 | arts. 58 a 62 | coberto | org:camaras-de-coordenacao-e-revisao-do-mpf |
 | arts. 63 a 65 | coberto | org:corregedoria-do-mpf, cargo:corregedor-geral-do-mpf, rel:corregedoria-do-mpf-corrige-mpf |

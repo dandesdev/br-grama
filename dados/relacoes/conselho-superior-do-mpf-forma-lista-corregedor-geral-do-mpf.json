@@ -1,8 +1,8 @@
 {
-  "id": "rel:conselho-superior-do-mpf-indica-corregedor-geral-do-mpf",
+  "id": "rel:conselho-superior-do-mpf-forma-lista-corregedor-geral-do-mpf",
   "tipo": "relacao",
   "nome": "Lista tríplice para Corregedor-Geral do MPF",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:conselho-superior-do-mpf",
   "para": "cargo:corregedor-geral-do-mpf",
   "condicao": "Forma lista tríplice de subprocuradores-gerais que não sejam conselheiros; o PGR nomeia um dos três.",
@@ -18,9 +18,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da LC 75/1993"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) conselho-superior-do-mpf-indica-corregedor-geral-do-mpf; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

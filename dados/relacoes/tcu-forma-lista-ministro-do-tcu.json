@@ -1,8 +1,8 @@
 {
-  "id": "rel:tcu-indica-ministro-do-tcu",
+  "id": "rel:tcu-forma-lista-ministro-do-tcu",
   "tipo": "relacao",
   "nome": "Lista tríplice do TCU",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:tcu",
   "para": "cargo:ministro-do-tcu",
   "condicao": "Forma lista tríplice de auditores ou de membros do MP junto ao Tribunal, por antiguidade e merecimento, para duas das três vagas de escolha do Presidente.",
@@ -22,9 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-legislativo-tcu",
-    "notas": "coletado em f2-legislativo-tcu (acrescentada a fonte Lei 8.443/1992, art. 72, I; art. 105, I (fase 2, D49)); antes verificado; conferida só a fonte nova da Lei 8.443/1992 (cópia do Planalto de 2026-10-28): arts. 72, I, e 105, I"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) tcu-indica-ministro-do-tcu; antes verificado em verificacao-f2-legislativo-tcu"
   }
 }

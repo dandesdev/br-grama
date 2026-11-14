@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Consultorias Jurídicas dos ministérios",
   "resumo": "Órgãos de execução da AGU que assessoram juridicamente cada ministro de Estado e examinam editais, contratos e dispensas de licitação.",
-  "detalhes": "São administrativamente subordinadas aos ministros e aos titulares das secretarias da Presidência; coordenam os órgãos jurídicos das entidades vinculadas, fixam a interpretação das normas em sua área quando não houver orientação do Advogado-Geral e examinam previamente editais, contratos e atos de dispensa ou inexigibilidade de licitação (LC 73/1993, art. 11). Seus pareceres aprovados pelo ministro obrigam os órgãos e entidades vinculados (art. 42); o consultor jurídico é nomeado pelo Presidente por indicação do ministro, entre bacharéis com cinco anos de prática forense (arts. 49, II, e 58).",
+  "detalhes": "São administrativamente subordinadas aos ministros e aos titulares das secretarias da Presidência; coordenam os órgãos jurídicos das entidades vinculadas, fixam a interpretação das normas em sua área quando não houver orientação do Advogado-Geral e examinam previamente editais, contratos e atos de dispensa ou inexigibilidade de licitação (LC 73/1993, art. 11). Seus pareceres aprovados pelo ministro obrigam os órgãos e entidades vinculados (art. 42); o consultor jurídico é nomeado pelo Presidente por indicação do ministro, entre bacharéis com cinco anos de prática forense (arts. 49, II, e 58). Hoje a estrutura básica de todo ministério da Lei 14.600/2023 tem uma Consultoria Jurídica; no Ministério da Fazenda, o papel é da PGFN, e os ministérios podem dividir o trabalho em arranjos colaborativos ou modelos centralizados definidos pela Consultoria-Geral da União (art. 50, III e §§ 4º e 5º).",
   "tipo_orgao": "conjunto",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
@@ -27,14 +27,18 @@
     {
       "ref": "norma:lc-73-1993",
       "dispositivo": "art. 2º, II, b; arts. 11, 42, 49, II, e 58"
+    },
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 17; art. 50, III e §§ 4º a 6º"
     }
   ],
   "confianca": "oficial",
-  "notas": "Conjunto: uma consultoria em cada ministério e órgão listado. Posta dentro da AGU (art. 2º, II, b); a subordinação administrativa aos ministros fica no texto, porque um conjunto não cabe em um só ministério. A LC 73/1993 ainda cita o Estado-Maior das Forças Armadas (arts. 2º, II, b, 11, 23, 42 e 49, II), extinto com a criação do Ministério da Defesa: o Decreto 3.466/2000 (revogado em 2003) já remanejava cargos 'do extinto Estado-Maior das Forças Armadas para o Ministério da Defesa' (cópia em pesquisa/brutos/planalto-leis/2026-11-11-verificacao-f2-funcoes-essenciais/d3466.htm). Não achamos o ato que o extinguiu nem conferimos a lista atual de consultorias.",
+  "notas": "Conjunto: uma consultoria em cada ministério e órgão listado. Posta dentro da AGU (art. 2º, II, b); a subordinação administrativa aos ministros fica no texto, porque um conjunto não cabe em um só ministério. A LC 73/1993 ainda cita o Estado-Maior das Forças Armadas (arts. 2º, II, b, 11, 23, 42 e 49, II), extinto com a criação do Ministério da Defesa: o Decreto 3.466/2000 (revogado em 2003) já remanejava cargos 'do extinto Estado-Maior das Forças Armadas para o Ministério da Defesa' (cópia em pesquisa/brutos/planalto-leis/2026-11-11-verificacao-f2-funcoes-essenciais/d3466.htm). Não achamos o ato que o extinguiu. A lista atual sai da Lei 14.600/2023: uma consultoria em cada ministério do art. 17, menos a Fazenda, onde atua a PGFN (art. 50, III e § 5º); conferido no fechamento da fase 2. O art. 17 inclui a CGU entre os ministérios. As unidades jurídicas dos órgãos da Presidência (Casa Civil, Secretaria-Geral), que não estão no art. 17, não foram conferidas.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; LC 73/1993, arts. 2º, II, b, 11, 42, 49, II, e 58, conferidos; ponto de atenção do Estado-Maior das Forças Armadas: nota completada com o Decreto 3.466/2000"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "lista atual das consultorias pela Lei 14.600/2023, art. 50, III e §§ 4º a 6º (detalhes, fontes e notas); antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

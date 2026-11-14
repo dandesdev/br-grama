@@ -6,7 +6,7 @@
   "de": "org:comite-gestor-do-ibs",
   "para": "ente:arquetipo-municipal",
   "condicao": "Entrega a receita do IBS municipal e, diretamente, os 25% do IBS estadual que pertencem aos municípios: 80% pela população, 10% por indicadores de aprendizagem, 5% por indicadores ambientais e 5% em partes iguais, pelos coeficientes que cada estado informa.",
-  "detalhes": "O CGIBS calcula a cada período a receita de cada município pelo destino das operações, deduz a devolução do IBS às pessoas físicas e os créditos presumidos, e entrega a receita em até três dias úteis. De 2029 a 2077 retém 80% a 90% da receita (com redução gradual depois de 2033) para dividi-la pela receita média de ISS e de cota-parte do ICMS de 2019 a 2026 de cada município, e de 2029 a 2096 retém mais 5% para os entes com maior perda relativa. Da receita própria deduz o fundo municipal de combate à pobreza e o percentual do CGIBS; da cota-parte do IBS estadual, a parcela do Fundeb e o percentual do CGIBS.",
+  "detalhes": "O CGIBS calcula a cada período a receita de cada município pelo destino das operações, deduz a devolução do IBS às pessoas físicas e os créditos presumidos, e entrega a receita em até três dias úteis. De 2029 a 2077 retém 80% a 90% da receita (com redução gradual depois de 2033) para dividi-la pela receita média de ISS e de cota-parte do ICMS de 2019 a 2026 de cada município, e de 2029 a 2096 retém mais 5% para os entes com maior perda relativa. Da receita própria separa a parcela do fundo municipal de combate à pobreza, que o município recebe de forma segregada, e retém o percentual do CGIBS; da cota-parte do IBS estadual, retém a parcela do Fundeb e o percentual do CGIBS (LC 227/2026, arts. 119, §§ 2º a 4º, e 128, § 1º).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -24,8 +24,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: o fundo de combate à pobreza é separado e entregue ao ente, não retido (LC 227, arts. 118, §§ 2º a 5º, e 119, §§ 2º a 4º)"
   }
 }

@@ -9,7 +9,7 @@
   "provimento_casos": [
     {
       "quando": "Membros do conselho de administração: eleitos pela assembleia geral de acionistas, em que a União é a controladora; os minoritários elegem ao menos um, e os empregados elegem um representante",
-      "provimento": "nomeacao-livre",
+      "provimento": "eleicao-por-colegio",
       "fontes": [
         {
           "ref": "norma:lei-6404-1976",
@@ -23,7 +23,7 @@
     },
     {
       "quando": "Diretores, inclusive o presidente ou diretor-presidente: eleitos pelo conselho de administração",
-      "provimento": "eleicao-pelos-pares",
+      "provimento": "eleicao-por-colegio",
       "fontes": [
         {
           "ref": "norma:lei-6404-1976",
@@ -113,17 +113,11 @@
     "ate": null
   },
   "confianca": "oficial",
-  "campos": {
-    "provimento_casos": {
-      "confianca": "inferido",
-      "nota": "O vocabulário não tem termo para eleição por assembleia de acionistas nem por conselho de administração; usamos os mais próximos (nomeacao-livre, porque a União controla a assembleia; eleicao-pelos-pares, porque o conselho é o órgão de administração da própria empresa). Proposta no diário."
-    }
-  },
   "notas": "Pessoas (presidentes das estatais) não criadas: D11 cita dirigentes máximos, mas não procuramos quem ocupava cada presidência em 2026-10-01.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-administracao",
-    "notas": "coletado em f2-administracao; Lei 13.303/2016, arts. 13, 16, 17, 19, 22 e 23, e Lei 6.404/1976, arts. 122, II, 140 e 143, conferidos; ADI 7.331 conferida no acórdão (fonte:stf-adi-7331-acordao), que passou a sustentar o requisito; a nota dizia 'quem foi indicado durante a liminar pode ficar no cargo', e o acórdão mantém as nomeações feitas durante a liminar ou antes dela"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: provimento_casos passam de nomeacao-livre e eleicao-pelos-pares (inferidos) para eleicao-por-colegio (assembleia de acionistas e conselho de administração); retirado campos.provimento_casos inferido; antes verificado em verificacao-f2-administracao"
   }
 }

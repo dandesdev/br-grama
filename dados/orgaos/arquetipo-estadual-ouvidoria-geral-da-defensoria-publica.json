@@ -4,7 +4,7 @@
   "nome": "Ouvidoria-Geral da Defensoria Pública do Estado",
   "resumo": "Órgão auxiliar da Defensoria do estado que recebe reclamações e sugestões da população e as encaminha, chefiado por alguém de fora da carreira.",
   "detalhes": "Recebe e encaminha ao Corregedor-Geral representações contra membros e servidores, propõe medidas para melhorar os serviços, mantém contato com a sociedade civil e participa do Conselho Superior; qualquer pessoa pode apresentar representação (LC 80/1994, art. 105-C). Conta com servidores da Defensoria e estrutura definida pelo Conselho Superior (art. 105-A).",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "orgao-interno",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "estadual",
   "arquetipo": "estadual",
@@ -31,11 +31,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "tipo_orgao 'outro': órgão auxiliar de controle social, sem termo próprio no vocabulário.",
+  "notas": "tipo_orgao 'orgao-interno' desde a D54 (antes 'outro', por falta de termo).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; LC 80/1994, arts. 98, IV, 105-A e 105-C, conferidos; vigencia.de preenchida com a publicação da LC 132/2009"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: tipo_orgao passa de outro para orgao-interno; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

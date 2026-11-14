@@ -1,8 +1,8 @@
 {
-  "id": "rel:stj-indica-ministro-do-stj",
+  "id": "rel:stj-forma-lista-ministro-do-stj",
   "tipo": "relacao",
   "nome": "Lista tríplice do STJ",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:stj",
   "para": "cargo:ministro-do-stj",
   "condicao": "O Plenário forma lista tríplice para cada vaga: de juízes dos TRFs, de desembargadores dos TJs ou, a partir da lista de seis da OAB ou do Ministério Público, de advogados e membros do MP. O Presidente da República escolhe da lista.",
@@ -22,9 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 94 e 104 conferidos; complemento: a lista tríplice é do Plenário (RISTJ, art. 10, VI)"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) stj-indica-ministro-do-stj; antes verificado em verificacao-f0-judiciario"
   }
 }

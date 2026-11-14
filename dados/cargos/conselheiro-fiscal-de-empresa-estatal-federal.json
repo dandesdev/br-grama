@@ -4,7 +4,7 @@
   "nome": "Membro do conselho fiscal de empresa estatal federal",
   "resumo": "Fiscaliza a gestão e as contas de uma estatal federal no conselho fiscal permanente; ao menos um membro é servidor efetivo indicado pela União.",
   "orgao": "org:empresas-estatais-federais",
-  "provimento": "nomeacao-livre",
+  "provimento": "eleicao-por-colegio",
   "provimento_nota": "Eleito pela assembleia geral de acionistas (Lei 6.404/1976, arts. 122, II, e 161, § 1º). Ao menos um membro é indicado pelo ente controlador e deve ser servidor com vínculo permanente (Lei 13.303/2016, art. 26, § 2º).",
   "vagas": null,
   "vagas_nota": "De três a cinco por estatal, com suplentes em igual número (Lei 6.404/1976, art. 161, § 1º); não somamos.",
@@ -40,16 +40,10 @@
     "ate": null
   },
   "confianca": "oficial",
-  "campos": {
-    "provimento": {
-      "confianca": "inferido",
-      "nota": "Eleição pela assembleia de acionistas, controlada pela União; termo mais próximo do vocabulário. Proposta no diário."
-    }
-  },
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-administracao",
-    "notas": "coletado em f2-administracao; Lei 13.303/2016, arts. 13, IV e VIII, e 26, e Lei 6.404/1976, arts. 122, II, e 161, conferidos"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: provimento passa de nomeacao-livre (inferido) para eleicao-por-colegio (assembleia de acionistas); retirado campos.provimento inferido; antes verificado em verificacao-f2-administracao"
   }
 }

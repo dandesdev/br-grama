@@ -5,7 +5,7 @@
   "sigla": "PNI",
   "resumo": "Documento de mais alto nível da atividade de inteligência no país: define parâmetros, limites, objetivos e diretrizes para os órgãos do Sisbin.",
   "detalhes": "É fixada pelo Presidente da República, depois do exame e das sugestões da comissão do Congresso que controla a inteligência (a CCAI). A ABIN executa a política, sob supervisão da Câmara de Relações Exteriores e Defesa Nacional do Conselho de Governo. A política em vigor é a do Decreto 8.793/2016.",
-  "tipo_objeto": "documento",
+  "tipo_objeto": "politica-publica",
   "esfera": "federal",
   "relativo_a": [
     "org:sistema-brasileiro-de-inteligencia"
@@ -32,9 +32,9 @@
   "confianca": "oficial",
   "notas": "tipo_objeto 'documento' é o termo mais próximo do vocabulário para uma política fixada em anexo de decreto (ver proposta de vocabulário no diário da f2-defesa-seguranca).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-defesa-seguranca",
-    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 9.883/1999 arts. 5º e 6º, § 2º, Decreto 8.793/2016 art. 1º e Anexo, item 1 (Introdução), e Resolução 2/2013-CN art. 3º, II"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: tipo_objeto passa de documento para politica-publica. Antes verificado em verificacao-f2-defesa-seguranca"
   }
 }

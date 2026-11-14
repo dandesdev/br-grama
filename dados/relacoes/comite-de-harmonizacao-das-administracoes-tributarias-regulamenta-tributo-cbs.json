@@ -1,7 +1,7 @@
 {
   "id": "rel:comite-de-harmonizacao-das-administracoes-tributarias-regulamenta-tributo-cbs",
   "tipo": "relacao",
-  "nome": "O Comitê de Harmonização uniformiza as regras comuns do CBS com o IBS",
+  "nome": "O Comitê de Harmonização uniformiza as regras comuns da CBS com o IBS",
   "relacao": "regulamenta",
   "de": "org:comite-de-harmonizacao-das-administracoes-tributarias",
   "para": "obj:tributo-cbs",
@@ -20,8 +20,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: nome corrigido ('do CBS' → 'da CBS')"
   }
 }

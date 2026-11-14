@@ -51,7 +51,8 @@ Classes conforme a D49 e a D51 (artigo superado sem revogação expressa conta c
 | art. 20 | coberto | cargo:juiz-de-direito-substituto |
 | art. 21 | coberto | rel:desembargadores-elegem-arquetipo-estadual-*, cargo:presidente-de-trf, org:arquetipo-estadual-camaras-do-tribunal-de-justica |
 | art. 22 | coberto | vitaliciamento: cargo:juiz-federal-substituto, cargo:juiz-do-trabalho-substituto, cargo:juiz-federal-substituto-da-justica-militar, cargo:juiz-de-direito-substituto e titulares |
-| arts. 23 a 39 | fora | garantias, prerrogativas e deveres dos magistrados (direitos e deveres individuais); rito da perda do cargo (detalhe de processo, e a perda do cargo do vitalício hoje depende de sentença, CF, art. 95, I) |
+| arts. 23 a 26 e 28 a 39 | fora | garantias, prerrogativas e deveres dos magistrados (direitos e deveres individuais); rito da perda do cargo (detalhe de processo, e a perda do cargo do vitalício hoje depende de sentença, CF, art. 95, I) |
+| art. 27 | coberto | org:arquetipo-estadual-orgao-especial-do-tribunal-de-justica (reclassificado em f2-fechamento) |
 | arts. 40 a 48 | coberto | rel:arquetipo-estadual-orgao-especial-exerce-poder-disciplinar-sobre-juiz-de-direito |
 | art. 49 | fora | responsabilidade civil do magistrado (dever individual) |
 | arts. 50 a 60 | fora | Conselho Nacional da Magistratura, extinto pela CF/1988 (o controle passou ao CNJ, EC 45/2004) |
@@ -91,7 +92,7 @@ Classes conforme a D49 e a D51 (artigo superado sem revogação expressa conta c
 | art. 146 | coberto | norma:lc-35-1979 (vigência) |
 | art. 147 | fora | cláusula revogatória |
 
-Revogados por inteiro (fora da conta): arts. 115 e 130. Vetado: art. 144. Conta: 144 artigos vigentes; coberto 35, fora 109, parcial 0, lacuna 0; cobertura (coberto + fora) / total = 100,0%.
+Revogados por inteiro (fora da conta): arts. 115 e 130. Vetado: art. 144. Conta: 144 artigos vigentes; coberto 35, fora 109, parcial 0, lacuna 0; cobertura (coberto + fora) / total = 100,0%. Em f2-fechamento (2026-11-14), art. 27 passou a coberto: coberto 36, fora 108.
 
 ### Lei nº 5.010/1966 (Justiça Federal de primeira instância)
 
@@ -169,7 +170,7 @@ Nenhum artigo revogado por inteiro (só os §§ 1º e 2º do art. 21, pela Lei 1
 | arts. 63 a 66 | fora | convocação de substitutos e redistribuição (detalhe) |
 | arts. 67 a 70 | fora | MPM e Defensoria junto à Justiça Militar: remissão (org:mpm, org:dpu) |
 | arts. 71, 72, 74 a 76, 78 a 88 | fora | serviços auxiliares e regime disciplinar dos servidores: estrutura administrativa abaixo do mapa (D09) |
-| arts. 89 a 97 | fora | órgãos da Justiça Militar em tempo de guerra, que só existem durante o estado de guerra e não no retrato de 2026-10-01 |
+| arts. 89 a 97 | fora | órgão só em situação excepcional (D52): Justiça Militar em tempo de guerra, que não funcionava em 2026-10-01 (motivo ajustado em f2-fechamento) |
 | arts. 98 a 101 | fora | independência recíproca, vestes, incompatibilidade e fé pública (detalhe) |
 | art. 102 | coberto | org:auditorias-da-justica-militar (sedes) |
 | art. 103 | fora | defensores da Justiça Militar até a organização da DPU (transição esgotada) |
@@ -222,17 +223,17 @@ Revogados ou suprimidos por inteiro (fora da conta): arts. 675, 686, 691, 692, 6
 | arts. 22, 23, 23-A | coberto | org:tse, org:corregedoria-geral-eleitoral, org:zonas-eleitorais |
 | art. 24 | coberto | cargo:corregedor-geral-eleitoral (inciso IX); as demais atribuições do Procurador-Geral Eleitoral estão hoje na LC 75/1993, arts. 72 a 80 |
 | art. 25 | coberto | cargo:juiz-de-tre |
-| art. 26 | parcial | presidência dos TREs em cargo:juiz-de-tre (CF, art. 120, § 2º); o corregedor regional não foi modelado porque a regra do "terceiro desembargador" não cabe na composição da CF (aviso:corregedor-regional-eleitoral-terceiro-desembargador) |
+| art. 26 | coberto | cargo:presidente-de-tre, cargo:vice-presidente-de-tre, cargo:corregedor-regional-eleitoral e relações (o Vice-Presidente acumula a Corregedoria pela Res. TSE 23.742/2024, art. 9º; a regra do "terceiro desembargador" não cabe na composição da CF; reclassificado em f2-fechamento) |
 | art. 27 | fora | Procurador Regional Eleitoral: regulado hoje pela LC 75/1993, arts. 76 e 77 (cargo:procurador-regional-eleitoral) |
 | art. 28 | fora | quórum e suspeição nos TREs (detalhe de processo) |
 | arts. 29 e 30 | coberto | org:justica-eleitoral, org:zonas-eleitorais |
-| art. 31 | fora | Território sem TRE (não há territórios federais em 2026) |
+| art. 31 | fora | órgão só em situação excepcional (D52): jurisdição sobre Território sem TRE, e não há territórios federais em 2026-10-01 (motivo ajustado em f2-fechamento) |
 | arts. 32 a 37 | coberto | cargo:juiz-eleitoral, org:zonas-eleitorais, org:juntas-eleitorais |
 | arts. 38 e 39 | fora | escrutinadores e divulgação das nomeações da junta (detalhe de processo) |
 | art. 40 | coberto | org:juntas-eleitorais |
 | art. 41 | fora | contagem prévia dos votos pelas mesas (detalhe de processo) |
 
-Nenhum artigo revogado por inteiro nesta faixa. Conta: 31 artigos vigentes; coberto 21, parcial 1, fora 9; cobertura 96,8%.
+Nenhum artigo revogado por inteiro nesta faixa. Conta: 31 artigos vigentes; coberto 21, parcial 1, fora 9; cobertura 96,8%. Em f2-fechamento (2026-11-14), art. 26 passou a coberto: coberto 22, parcial 0, fora 9; cobertura 100,0%.
 
 ### Lei nº 11.697/2008 (organização judiciária do DF e dos Territórios)
 
@@ -285,7 +286,7 @@ Só a estrutura entra (tarefa); a tramitação é `fora` (D49), e quem julga o q
 | art. 173 | coberto | rel:stf-julga-adpf (quórum da declaração de inconstitucionalidade) |
 | arts. 174 a 230, 230-A, 230-B, 230-C, 231 a 314, 314-A, 315 a 323, 323-A, 323-B, 324, 325, 325-A, 326, 326-A, 327, 328, 328-A, 329 a 343 | fora | processos originários, incidentes e recursos (detalhe de processo; a competência está nas relações do STF baseadas na CF) |
 | arts. 345 a 354 | fora | execução e intervenção federal (detalhe; proc:intervencao-federal segue a CF) |
-| arts. 354-A, 354-B, 354-C, 354-D, 354-E, 354-F, 354-G | fora | rito da súmula vinculante (detalhe; rel:stf-edita-sumula-vinculante segue a CF) |
+| arts. 354-A, 354-B, 354-C, 354-D, 354-E, 354-F, 354-G | coberto | proc:sumula-vinculante (etapas citam os artigos; reclassificado em f2-fechamento) |
 | arts. 354-H, 354-I, 354-J, 354-K, 354-L, 354-M | fora | opinião consultiva ao Tribunal Permanente de Revisão do Mercosul (detalhe) |
 | art. 355 | fora | Secretaria do Tribunal (estrutura administrativa, D09) |
 | art. 356 | coberto | org:presidencia-do-stf |
@@ -294,9 +295,9 @@ Só a estrutura entra (tarefa); a tramitação é `fora` (D49), e quem julga o q
 | art. 368 | coberto | norma:ristf (vigência) |
 | art. 369 | fora | cláusula revogatória |
 
-Revogado por inteiro (fora da conta): art. 344 (ER 41/2010). Conta: 398 artigos vigentes; coberto 35, fora 363; cobertura 100,0%. A ER 59/2023 não está na edição consultada (ver diário).
+Revogado por inteiro (fora da conta): art. 344 (ER 41/2010). Conta: 398 artigos vigentes; coberto 35, fora 363; cobertura 100,0%. Em f2-fechamento (2026-11-14), arts. 354-A a 354-G passaram a coberto: coberto 42, fora 356. A ER 59/2023 não está na edição consultada (ver diário).
 
-### RISTJ (Regimento Interno do STJ, edição atualizada até a ER 54/2026)
+### RISTJ (Regimento Interno do STJ, edição atualizada até a ER 54/2026, mais a ER 55/2026)
 
 | Artigos | Classe | Onde/motivo |
 |---|---|---|
@@ -319,6 +320,7 @@ Revogado por inteiro (fora da conta): art. 344 (ER 41/2010). Conta: 398 artigos 
 | arts. 139, 140, 142 a 170 | fora | provas e sessões em geral (detalhe de processo) |
 | arts. 171 a 184 | coberto | org:plenario-do-stj, org:corte-especial-do-stj, Seções, Turmas e org:conselho-de-administracao-do-stj (sessões de cada órgão) |
 | arts. 184-A, 184-B, 184-C, 184-D, 184-E, 184-F, 184-G, 184-H, 184-I, 184-J | fora | julgamento virtual (detalhe de processo) |
+| arts. 255-A a 255-Z e 255-AA a 255-AE | fora | relevância da questão de direito federal no recurso especial, acrescentada pela ER 55/2026, em vigor em 3/9/2026 (detalhe de processo; acrescentado em f2-fechamento) |
 | arts. 185 a 216, 216-A a 216-X, 217 a 243, 243-A, 244 a 251, 253 a 256, 256-A a 256-X, 257, 257-A a 257-F, 258, 259, 263 a 266, 266-A a 266-D, 267 a 271, 271-A a 271-G, 272 a 288, 288-A a 288-G | fora | processos originários, recursos e incidentes (detalhe de processo; a competência está nas relações do STJ baseadas na CF) |
 | art. 289 | coberto | org:plenario-do-stj (eleição dos ministros do TSE) |
 | arts. 290 a 301, 302-A, 303 a 306, 309 a 315 | fora | disponibilidade, invalidez e cumprimento das decisões (detalhe) |
@@ -328,7 +330,7 @@ Revogado por inteiro (fora da conta): art. 344 (ER 41/2010). Conta: 398 artigos 
 | arts. 332 a 343, 343-A | fora | emendas ao regimento e disposições gerais e transitórias |
 | art. 344 | coberto | norma:ristj (vigência) |
 
-Revogados por inteiro (fora da conta): arts. 54, 118 a 121, 130, 141, 252, 260 a 262, 302, 307, 308, 324 e 328 a 331. Conta: 426 artigos vigentes; coberto 54, fora 372; cobertura 100,0%.
+Revogados por inteiro (fora da conta): arts. 54, 118 a 121, 130, 141, 252, 260 a 262, 302, 307, 308, 324 e 328 a 331. Conta: 426 artigos vigentes; coberto 54, fora 372; cobertura 100,0%. Em f2-fechamento (2026-11-14), entram os 31 artigos da ER 55/2026: 457 artigos vigentes; coberto 54, fora 403; cobertura 100,0%.
 
 ## Diário
 

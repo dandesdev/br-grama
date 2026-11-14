@@ -1,7 +1,7 @@
 {
   "id": "rel:estados-repassam-ibs-municipios",
   "tipo": "relacao",
-  "nome": "Os estados entregam aos municípios 25% do IBS estadual",
+  "nome": "25% do IBS distribuído aos estados pertencem aos municípios",
   "relacao": "repassa-recursos",
   "de": "ente:arquetipo-estadual",
   "para": "ente:arquetipo-municipal",
@@ -24,10 +24,11 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao",
-    "notas": "detalhes novos (retenção e distribuição direta pelo CGIBS) e fonte LC 227/2026; nota de vigência completada; antes verificado em verificacao-f0-dinheiro"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao (coleta: detalhes novos (retenção e distribuição direta pelo CGIBS) e fonte LC 227/2026; nota de vigência completada; antes verificado em verificacao-f0-dinheiro); revisão: nome sem dizer que o estado entrega; notas sobre a duplicidade com rel:comite-gestor-do-ibs-repassa-ibs-municipios e o fluxo (D45)"
   },
-  "detalhes": "Na prática, o estado não recebe essa parcela: o Comitê Gestor do IBS a retém do IBS estadual e a distribui diretamente aos municípios, pelos coeficientes de participação que cada estado informa ao CGIBS conforme a sua lei para os indicadores de aprendizagem e de preservação ambiental (LC 227/2026, arts. 2º, § 1º, IX, 118, § 3º, 128 e 130). Ver rel:comite-gestor-do-ibs-repassa-ibs-municipios."
+  "detalhes": "Na prática, o estado não recebe essa parcela: o Comitê Gestor do IBS a retém do IBS estadual e a distribui diretamente aos municípios, pelos coeficientes de participação que cada estado informa ao CGIBS conforme a sua lei para os indicadores de aprendizagem e de preservação ambiental (LC 227/2026, arts. 2º, § 1º, IX, 118, § 3º, 128 e 130). Ver rel:comite-gestor-do-ibs-repassa-ibs-municipios.",
+  "notas": "Esta relação guarda a regra da CF (art. 158, IV, b, e § 2º): a parcela sai da receita do IBS de cada estado (LC 227/2026, art. 118, § 3º). O dinheiro, porém, não passa pelo estado: o CGIBS o retém e o entrega aos municípios, o que está em rel:comite-gestor-do-ibs-repassa-ibs-municipios. Se um fluxo (D45) for gerado, deve prender-se só à relação do CGIBS, para não contar o mesmo valor duas vezes."
 }

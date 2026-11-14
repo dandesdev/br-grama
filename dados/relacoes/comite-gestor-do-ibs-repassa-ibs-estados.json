@@ -5,8 +5,8 @@
   "relacao": "repassa-recursos",
   "de": "org:comite-gestor-do-ibs",
   "para": "ente:arquetipo-estadual",
-  "condicao": "Entrega a receita do IBS de cada estado e do DF, já deduzidos os 25% dos municípios, os fundos de combate à pobreza, a parcela do Fundeb e o percentual do CGIBS.",
-  "detalhes": "O CGIBS calcula a cada período a receita de cada ente pelo destino das operações, deduz a devolução do IBS às pessoas físicas, os créditos presumidos e, para os estados, o saldo credor de ICMS, e entrega a receita em até três dias úteis. De 2029 a 2077 retém 80% a 90% da receita (com redução gradual depois de 2033) para dividi-la pela receita média de ICMS e ISS de 2019 a 2026 de cada ente, e de 2029 a 2096 retém mais 5% para os entes com maior perda relativa. Antes de entregar, deduz o fundo estadual ou municipal de combate à pobreza, a parcela do Fundeb e o percentual do próprio CGIBS.",
+  "condicao": "Entrega a receita do IBS de cada estado e do DF, já deduzidos os 25% dos municípios, a parcela do Fundeb e o percentual do CGIBS; a parte do fundo estadual de combate à pobreza vai ao estado em separado.",
+  "detalhes": "O CGIBS calcula a cada período a receita de cada ente pelo destino das operações, deduz a devolução do IBS às pessoas físicas, os créditos presumidos e, para os estados, o saldo credor de ICMS, e entrega a receita em até três dias úteis. De 2029 a 2077 retém 80% a 90% da receita (com redução gradual depois de 2033) para dividi-la pela receita média de ICMS e ISS de 2019 a 2026 de cada ente, e de 2029 a 2096 retém mais 5% para os entes com maior perda relativa. Antes de entregar, separa a parcela do fundo de combate à pobreza, que o estado recebe de forma segregada, e retém a parcela do Fundeb e o percentual do próprio CGIBS (LC 227/2026, art. 118, §§ 2º a 5º e 8º).",
   "fontes": [
     {
       "ref": "norma:cf-1988",
@@ -25,8 +25,9 @@
   "confianca": "oficial",
   "notas": "DF: recebe pelas mesmas regras, somando as partes estadual e municipal (LC 227/2026, arts. 120, 124 e 125). Retenção de 80% de 2029 a 2032 e 90% em 2033, reduzida em 1/45 por ano de 2034 a 2077 (art. 109); 5% de 2029 a 2077, reduzidos em 1/20 por ano de 2078 a 2096 (art. 110).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-12",
-    "tarefa": "f2-federacao"
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-federacao",
+    "notas": "coletado em f2-federacao; revisão: o fundo de combate à pobreza é separado e entregue ao ente, não retido (LC 227, arts. 118, §§ 2º a 5º, e 119, §§ 2º a 4º)"
   }
 }

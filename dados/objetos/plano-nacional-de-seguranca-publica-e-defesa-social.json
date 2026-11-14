@@ -5,7 +5,7 @@
   "sigla": "PNSP",
   "resumo": "Plano decenal da União com metas, ações estratégicas e indicadores de segurança pública. Estados, DF e municípios fazem os seus a partir dele.",
   "detalhes": "A lei manda a União instituir um plano de dez anos, com prioridade para a prevenção da criminalidade. O plano em vigor (Decreto 10.822/2021) vai até 2031 e se divide em ciclos de dois anos; o MJSP pactua metas com os entes, acompanha os indicadores e avalia o plano todo ano até 30 de abril, com relatório enviado aos conselhos de segurança pública. Estados, DF e municípios tinham dois anos para fazer seus planos, sob pena de não receber recursos da União para segurança pública.",
-  "tipo_objeto": "documento",
+  "tipo_objeto": "politica-publica",
   "esfera": "nacional",
   "relativo_a": [
     "org:sistema-unico-de-seguranca-publica"
@@ -32,9 +32,9 @@
   "confianca": "oficial",
   "notas": "A avaliação é coordenada por uma comissão permanente do Sinaped e feita por comissões temporárias de no mínimo três membros (Lei 13.675/2018, art. 32; Decreto 9.489/2018, art. 12). O Decreto 12.966/2026 acrescentou o Programa Brasil contra o Crime Organizado como complemento do plano (Decreto 10.822/2021, art. 1º, § 3º).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-defesa-seguranca",
-    "notas": "coletado em f2-defesa-seguranca; conferidos Lei 13.675/2018 arts. 6º, parágrafo único, 22 (§§ 2º, 3º e 5º), 27 (§ 2º) e 32, Decreto 10.822/2021 arts. 1º (§§ 1º e 3º, este pelo Decreto 12.966/2026), 5º, § 1º, 6º, 8º, 9º e 11 e Anexo, item 1 (ciclos), e Decreto 9.489/2018 arts. 5º e 7º"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: tipo_objeto passa de documento para politica-publica. Antes verificado em verificacao-f2-defesa-seguranca"
   }
 }

@@ -16,7 +16,7 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 14.751/2023 (Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares) | f2-defesa-seguranca | 21 | 0 | 0 | 21 | 42 | 100,0% |
 | Lei 9.266/1996 (Carreira Policial Federal) | f2-defesa-seguranca | 9 | 0 | 0 | 5 | 14 | 100,0% |
 | Lei 9.654/1998 (carreira de Policial Rodoviário Federal) | f2-defesa-seguranca | 6 | 0 | 0 | 5 | 11 | 100,0% |
-| Lei 4.737/1965 (Código Eleitoral), exceto arts. 12 a 41 | f2-eleicoes | 63 | 0 | 3 | 272 | 338 | 99,1% |
+| Lei 4.737/1965 (Código Eleitoral), exceto arts. 12 a 41 | f2-eleicoes | 66 | 0 | 2 | 270 | 338 | 99,4% |
 | Lei 9.504/1997 (Lei das Eleições) | f2-eleicoes | 35 | 0 | 0 | 104 | 139 | 100,0% |
 | Lei 9.096/1995 (Lei dos Partidos Políticos) | f2-eleicoes | 40 | 0 | 0 | 29 | 69 | 100,0% |
 | LC 64/1990 (Lei das Inelegibilidades) | f2-eleicoes | 27 | 0 | 0 | 5 | 32 | 100,0% |
@@ -41,15 +41,15 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | LC 80/1994 (Defensoria Pública da União e normas gerais das Defensorias) | f2-funcoes-essenciais | 73 | 0 | 0 | 88 | 161 | 100,0% |
 | LC 73/1993 (Lei Orgânica da Advocacia-Geral da União) | f2-funcoes-essenciais | 41 | 0 | 0 | 24 | 65 | 100,0% |
 | Lei 10.480/2002 (Procuradoria-Geral Federal) | f2-funcoes-essenciais | 7 | 0 | 0 | 15 | 22 | 100,0% |
-| LC 35/1979 (Lei Orgânica da Magistratura Nacional) | f2-judiciario | 35 | 0 | 0 | 109 | 144 | 100,0% |
+| LC 35/1979 (Lei Orgânica da Magistratura Nacional) | f2-judiciario | 36 | 0 | 0 | 108 | 144 | 100,0% |
 | Lei nº 5.010/1966 (Justiça Federal de primeira instância) | f2-judiciario | 10 | 0 | 0 | 86 | 96 | 100,0% |
 | Lei nº 10.259/2001 (Juizados Especiais Federais) | f2-judiciario | 12 | 0 | 0 | 15 | 27 | 100,0% |
 | Lei nº 8.457/1992 (organização da Justiça Militar da União) | f2-judiciario | 39 | 0 | 0 | 63 | 102 | 100,0% |
 | CLT, arts. 643 a 735 (organização da Justiça do Trabalho) | f2-judiciario | 24 | 0 | 0 | 55 | 79 | 100,0% |
-| Código Eleitoral (Lei nº 4.737/1965), arts. 12 a 41 (órgãos da Justiça Eleitoral) | f2-judiciario | 21 | 1 | 0 | 9 | 31 | 96,8% |
+| Código Eleitoral (Lei nº 4.737/1965), arts. 12 a 41 (órgãos da Justiça Eleitoral) | f2-judiciario | 22 | 0 | 0 | 9 | 31 | 100,0% |
 | Lei nº 11.697/2008 (organização judiciária do DF e dos Territórios) | f2-judiciario | 54 | 0 | 0 | 36 | 90 | 100,0% |
-| RISTF (Regimento Interno do STF, edição atualizada até a ER 58/2022) | f2-judiciario | 35 | 0 | 0 | 363 | 398 | 100,0% |
-| RISTJ (Regimento Interno do STJ, edição atualizada até a ER 54/2026) | f2-judiciario | 54 | 0 | 0 | 372 | 426 | 100,0% |
+| RISTF (Regimento Interno do STF, edição atualizada até a ER 58/2022) | f2-judiciario | 42 | 0 | 0 | 356 | 398 | 100,0% |
+| RISTJ (Regimento Interno do STJ, edição atualizada até a ER 54/2026, mais a ER 55/2026) | f2-judiciario | 54 | 0 | 0 | 403 | 457 | 100,0% |
 | RICD (Resolução da Câmara nº 17/1989) | f2-legislativo-tcu | 124 | 16 | 0 | 172 | 312 | 94,9% |
 | RISF (Resolução do Senado nº 93/1970) | f2-legislativo-tcu | 122 | 16 | 0 | 304 | 442 | 96,4% |
 | RCCN (Resolução nº 1/1970-CN) | f2-legislativo-tcu | 30 | 0 | 0 | 93 | 123 | 100,0% |
@@ -71,4 +71,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
 | Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 6039 artigos classificados; cobertura 99,4% (5 em lacuna, 33 parciais).
+Total: 6070 artigos classificados; cobertura 99,4% (4 em lacuna, 32 parciais).

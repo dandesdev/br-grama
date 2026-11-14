@@ -4,7 +4,7 @@
   "nome": "Corregedoria-Geral da Advocacia da União",
   "resumo": "Fiscaliza a atividade funcional dos membros da AGU, faz correições e coordena o estágio confirmatório.",
   "detalhes": "Faz correições ordinárias e extraordinárias nos órgãos jurídicos da AGU e nos órgãos vinculados, aprecia representações de qualquer pessoa contra membros, emite parecer sobre a confirmação no cargo de quem está em estágio e instaura sindicâncias e processos administrativos, que o Advogado-Geral decide (LC 73/1993, arts. 4º, XV, 5º, 6º e 32 a 34).",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "orgao-interno",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
   "ente": "ente:uniao",
@@ -30,11 +30,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "tipo_orgao 'outro': corregedoria, sem termo próprio no vocabulário.",
+  "notas": "tipo_orgao 'orgao-interno' desde a D54 (antes 'outro', por falta de termo).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; LC 73/1993, arts. 2º, 4º, XV, 5º, 6º e 32 a 34, conferidos"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: tipo_orgao passa de outro para orgao-interno; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

@@ -5,7 +5,7 @@
   "sigla": "ESMPU",
   "resumo": "Escola de formação e aperfeiçoamento dos membros e servidores do MPU, vinculada diretamente ao Procurador-Geral da República.",
   "detalhes": "Inicia os novos membros nas funções, aperfeiçoa membros e servidores e desenvolve pesquisa jurídica (Lei 9.628/1998, arts. 1º e 3º). É administrada por um Diretor-Geral escolhido pelo PGR e por um Conselho Administrativo com um membro de cada ramo, nomeado pelo PGR por indicação do procurador-geral do ramo; cada ramo tem uma coordenação de ensino (arts. 5º e 6º).",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "orgao-interno",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "federal",
   "ente": "ente:uniao",
@@ -36,11 +36,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "tipo_orgao 'outro': o termo 'escola-judicial' do vocabulário é só para magistrados. A lei a define como órgão autônomo, nos termos do art. 172 do Decreto-Lei 200/1967 (art. 2º).",
+  "notas": "tipo_orgao 'orgao-interno' desde a D54 (antes 'outro', por falta de termo). A lei a define como órgão autônomo, nos termos do art. 172 do Decreto-Lei 200/1967 (art. 2º).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; LC 75/1993, art. 283, e Lei 9.628/1998, arts. 1º a 6º e 8º a 12, conferidos"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: tipo_orgao passa de outro para orgao-interno; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

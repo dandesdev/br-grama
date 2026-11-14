@@ -4,7 +4,7 @@
   "nome": "Corregedoria-Geral da Defensoria Pública do Estado",
   "resumo": "Fiscaliza a atividade funcional e a conduta dos membros e servidores da Defensoria do estado. É exercida pelo Corregedor-Geral.",
   "detalhes": "Faz correições e inspeções, recebe representações e as encaminha com parecer ao Conselho Superior, propõe processo disciplinar, acompanha o estágio probatório e pode propor a exoneração de quem não cumprir suas condições; também baixa normas para a regularidade dos serviços (LC 80/1994, arts. 103 e 105). A lei estadual pode criar cargos de subcorregedor (art. 104, § 2º).",
-  "tipo_orgao": "outro",
+  "tipo_orgao": "orgao-interno",
   "poder": "funcoes-essenciais-a-justica",
   "esfera": "estadual",
   "arquetipo": "estadual",
@@ -31,11 +31,11 @@
     }
   ],
   "confianca": "oficial",
-  "notas": "tipo_orgao 'outro': o vocabulário não tem termo para órgão interno da Defensoria.",
+  "notas": "tipo_orgao 'orgao-interno' desde a D54 (antes 'outro', por falta de termo).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; LC 80/1994, arts. 98, I, d, 103 a 105 e 133, conferidos"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "D54: tipo_orgao passa de outro para orgao-interno; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

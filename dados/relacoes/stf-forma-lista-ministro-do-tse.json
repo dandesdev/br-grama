@@ -1,8 +1,8 @@
 {
-  "id": "rel:stf-indica-ministro-do-tse",
+  "id": "rel:stf-forma-lista-ministro-do-tse",
   "tipo": "relacao",
   "nome": "Lista de advogados para o TSE",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:stf",
   "para": "cargo:ministro-do-tse",
   "condicao": "O STF indica seis advogados de notável saber jurídico e idoneidade moral; o Presidente da República nomeia dois.",
@@ -22,9 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF art. 119, II; RISTF art. 7º, II conferidos; sem erro"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) stf-indica-ministro-do-tse; antes verificado em verificacao-f0-judiciario"
   }
 }

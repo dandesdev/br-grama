@@ -3,7 +3,7 @@
   "tipo": "cargo",
   "nome": "Procurador Federal",
   "resumo": "Membro de carreira da Procuradoria-Geral Federal, que representa e assessora as autarquias e fundações públicas federais. Ingressa por concurso.",
-  "detalhes": "A carreira foi criada pela Medida Provisória 2.229-43/2001 e integra quadro próprio da PGF; o Advogado-Geral disciplina e homologa os concursos e distribui os cargos pelas três categorias da carreira (Lei 10.480/2002, art. 12).",
+  "detalhes": "A carreira foi criada pela Medida Provisória 2.229-43/2001 (art. 35), regida pela Lei 8.112/1990, e reuniu os antigos procuradores, advogados e assistentes jurídicos das autarquias e fundações, menos os do Banco Central (art. 39). Cabe ao Procurador Federal representar em juízo e fora dele as autarquias e fundações federais, assessorá-las juridicamente e inscrever em dívida ativa os seus créditos (art. 37). Integra quadro próprio da PGF; o Advogado-Geral lota e distribui os procuradores, por proposta dos titulares das entidades, disciplina e homologa os concursos e distribui os cargos pelas três categorias da carreira (MP 2.229-43, art. 37, §§ 1º e 2º; Lei 10.480/2002, art. 12).",
   "orgao": "org:procuradoria-geral-federal",
   "provimento": "concurso-publico",
   "vagas": null,
@@ -26,9 +26,10 @@
     }
   ],
   "vigencia": {
-    "de": "2002-07-03",
+    "de": "2001-09-10",
     "ate": null,
-    "nota": "A carreira é anterior (MP 2.229-43/2001); usamos a data da Lei 10.480/2002, que a pôs no quadro próprio da PGF."
+    "incerta": true,
+    "nota": "Publicação da MP 2.229-43/2001 (DOU de 10/9/2001), que cria a carreira no art. 35; a criação pode vir de reedição anterior da MP, não pesquisada. A Lei 10.480/2002 pôs a carreira no quadro próprio da PGF."
   },
   "fontes": [
     {
@@ -38,14 +39,18 @@
     {
       "ref": "norma:lei-10480-2002",
       "dispositivo": "arts. 10 e 12"
+    },
+    {
+      "ref": "norma:mp-2229-43-2001",
+      "dispositivo": "arts. 35, 37 e 39"
     }
   ],
   "confianca": "oficial",
-  "notas": "A MP 2.229-43/2001, que criou a carreira, não foi consultada nesta tarefa; requisitos de ingresso e categorias por nome não conferidos.",
+  "notas": "A MP 2.229-43/2001 foi consultada no fechamento da fase 2 (arts. 35, 37 e 39); o art. 36 está revogado (Lei 12.269/2010). Os nomes das três categorias (Anexo III da MP) não foram conferidos contra leis posteriores de remuneração.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; Lei 10.480/2002, arts. 10 e 12, conferidos; a MP 2.229-43/2001 segue não consultada, como diz a nota"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "MP 2.229-43/2001 consultada: detalhes (criação, atribuições, lotação, cargos transformados), fonte, notas e vigência (antes 2002-07-03, pela Lei 10.480) atualizados; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

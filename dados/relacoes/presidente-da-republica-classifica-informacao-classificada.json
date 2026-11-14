@@ -1,0 +1,32 @@
+{
+  "id": "rel:presidente-da-republica-classifica-informacao-classificada",
+  "tipo": "relacao",
+  "nome": "O Presidente classifica informação sigilosa",
+  "relacao": "classifica",
+  "de": "cargo:presidente-da-republica",
+  "para": "obj:informacao-classificada",
+  "condicao": "Classifica informações nos graus ultrassecreto (até 25 anos), secreto (15) e reservado (5), nas hipóteses do art. 23. Pode delegar a classificação secreta e ultrassecreta, sem subdelegação; no Executivo, o decreto proíbe essa delegação, salvo ao Presidente do Banco Central. Toda classificação ultrassecreta é comunicada à Comissão Mista de Reavaliação de Informações.",
+  "fontes": [
+    {
+      "ref": "norma:lei-12527-2011",
+      "dispositivo": "art. 24, § 1º; art. 27, I, a, II e III, e §§ 1º a 3º"
+    },
+    {
+      "ref": "norma:decreto-7724-2012",
+      "dispositivo": "art. 30, §§ 1º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2012-05-16",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da LAI (art. 47; data calculada, ver norma:lei-12527-2011)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (D54, relação classifica; antes só nos detalhes de obj:informacao-classificada)"
+  }
+}

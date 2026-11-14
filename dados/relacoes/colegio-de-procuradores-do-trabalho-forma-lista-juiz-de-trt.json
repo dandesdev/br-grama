@@ -1,8 +1,8 @@
 {
-  "id": "rel:colegio-de-procuradores-do-trabalho-indica-juiz-de-trt",
+  "id": "rel:colegio-de-procuradores-do-trabalho-forma-lista-juiz-de-trt",
   "tipo": "relacao",
   "nome": "Lista sêxtupla do MPT para os TRTs",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:colegio-de-procuradores-do-trabalho",
   "para": "cargo:juiz-de-trt",
   "condicao": "Nas vagas do quinto constitucional destinadas ao MPT, forma lista sêxtupla entre procuradores com mais de dez anos de carreira; o PGR a encaminha ao tribunal.",
@@ -22,9 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da LC 75/1993"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) colegio-de-procuradores-do-trabalho-indica-juiz-de-trt; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }

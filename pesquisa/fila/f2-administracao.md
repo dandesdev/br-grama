@@ -118,7 +118,7 @@ Vetado (fora da conta): art. 49-C. Conta: 79 artigos vigentes; coberto 56, fora 
 | arts. 21 e 22 | fora | limites ao sigilo e ressalva de outros sigilos legais (regras gerais) |
 | arts. 23 e 24 | coberto | obj:informacao-classificada (hipóteses e graus de sigilo) |
 | arts. 25 e 26 | fora | dever de proteger a informação sigilosa (deveres) |
-| arts. 27 a 30 | coberto | obj:informacao-classificada (quem classifica, decisão, reavaliação, rol anual); rel:ministro-de-estado-homologa-informacao-classificada |
+| arts. 27 a 30 | coberto | obj:informacao-classificada (quem classifica, decisão, reavaliação, rol anual); rel:ministro-de-estado-homologa-informacao-classificada; relações `classifica` das autoridades do art. 27, I (Presidente, Vice, Ministros, Comandantes, chefes de missão), criadas em f2-fechamento |
 | art. 31 | fora | informações pessoais (direitos individuais) |
 | arts. 32 a 34 | fora | condutas ilícitas e sanções |
 | art. 35 | coberto | org:comissao-mista-de-reavaliacao-de-informacoes (o caput foi vetado; os §§ 1º a 5º instituem a Comissão) |

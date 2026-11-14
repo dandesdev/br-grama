@@ -1,8 +1,8 @@
 {
-  "id": "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-desembargador",
+  "id": "rel:colegio-de-procuradores-e-promotores-de-justica-do-mpdft-forma-lista-desembargador",
   "tipo": "relacao",
   "nome": "Lista sêxtupla do MPDFT para o TJDFT",
-  "relacao": "indica",
+  "relacao": "forma-lista",
   "de": "org:colegio-de-procuradores-e-promotores-de-justica-do-mpdft",
   "para": "cargo:desembargador",
   "condicao": "Só no TJDFT: nas vagas do quinto constitucional destinadas ao MPDFT, forma lista sêxtupla entre membros com mais de dez anos de carreira; o PGR a encaminha ao tribunal.",
@@ -22,9 +22,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-funcoes-essenciais",
-    "notas": "coletado em f2-funcoes-essenciais; dispositivos conferidos no texto da CF e da LC 75/1993"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "tipo trocado de indica para forma-lista (D54); a relação forma lista tríplice ou sêxtupla (ou, na DPU, de seis nomes) entre os quais outro escolhe; id antigo (sem prefixo) colegio-de-procuradores-e-promotores-de-justica-do-mpdft-indica-desembargador; antes verificado em verificacao-f2-funcoes-essenciais"
   }
 }
