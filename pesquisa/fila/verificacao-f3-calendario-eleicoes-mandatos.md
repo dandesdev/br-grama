@@ -1,8 +1,9 @@
 ---
 id: verificacao-f3-calendario-eleicoes-mandatos
 escopo: "Revisão independente de f3-calendario-eleicoes-mandatos (datas das eleições de 2026 e das posses de 2027, Conferência Nacional de Saúde, início dos mandatos nas relações ocupa)"
-status: pendente
+status: em-andamento
 depende_de: [f3-calendario-eleicoes-mandatos]
+iniciada_em: 2026-11-14
 ---
 
 Siga `pesquisa/instrucoes-verificacao.md` e as D55 e D56. Confira as entidades com `verificacao.tarefa: "f3-calendario-eleicoes-mandatos"`.

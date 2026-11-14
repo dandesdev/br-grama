@@ -1,7 +1,8 @@
 ---
 id: f2-fechamento
 escopo: "Fase 2, fechamento: pendências pequenas acumuladas nas coletas e revisões, propostas de vocabulário e o relatório final de cobertura das leis"
-status: pendente
+status: concluida
+concluida_em: 2026-11-14
 depende_de: [f2-executivo, f2-funcoes-essenciais, f2-legislativo-tcu, f2-judiciario, f2-eleicoes, f2-financas-publicas, f2-processos-constitucionais, f2-administracao, f2-defesa-seguranca, f2-social, f2-federacao]
 ---
 
@@ -114,5 +115,10 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-14: as câmaras de julgamento do IBS ficam `contido_em` o CGIBS, não na Diretoria de Revisão do Crédito Tributário: o art. 89 da LC 227 as põe no âmbito do CGIBS, e o art. 36, I, diz por meio de quem a diretoria revisa, não a quem as câmaras se subordinam. O presidente das câmaras fica como cadeira à parte, como a lei o lista em inciso próprio (verificacao-f2-cgibs-julgamento).
 
 - 2026-11-14: Wayback: depois de quatro rodadas (28/10, 3/11, 14/11 duas vezes) com 429, 520 e cópias que guardaram a página inicial do Planalto, as 17 normas e fontes da fase 2 sem cópia ficam com `arquivo: null`. Não bloqueia o fim da fase: a URL oficial e a cópia local em `pesquisa/brutos/` ficam como garantia (D17), e a tentativa se repete no fechamento da fase 3.
+
+- 2026-11-14: Ouvidor-Geral do Senado em 1º/10/2026: Ciro Nogueira, pelas páginas da própria Ouvidoria (notícia de 24/4/2025, carta de serviços 2025), com `oficial-contraditorio` e aviso, porque a API e a página de composição ainda mostram Plínio Valério. A página do órgão sobre si mesmo é mais específica que a lista geral, e o Ato da Mesa 1/2011 proíbe a recondução que a lista sugeriria (verificacao-f2-fechamento).
+- 2026-11-14: `delibera` ampliado para decisão por voto sobre situação que a norma entrega (prisão de parlamentar), em vez de verbo novo (D54).
+- 2026-11-14: faltam as relações da OAB formando a lista sêxtupla do quinto constitucional (CF, arts. 94, 104, parágrafo único, II, e 111-A, I); lacuna da fatia 0 achada agora, vai para o fechamento da fase 3 junto com o Wayback.
+- 2026-11-14: fase 2 concluída: 12 coletas e 12 revisões, fechamento em duas partes e rodada final verificados; 70 normas, 6.155 artigos, 99,4% (pesquisa/cobertura-leis.md).
 
 ## Diário
