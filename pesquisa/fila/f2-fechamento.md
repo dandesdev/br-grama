@@ -109,4 +109,6 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-14: a revisão da federação apontou artigos fora das faixas escolhidas (LC 227, arts. 54 a 102; LC 214, arts. 323-A a 323-M); vira a tarefa `f2-cgibs-julgamento`, porque cria órgãos e um processo, e a cobertura da fase 2 só fecha com ela.
 - 2026-11-14: confiança por caso em `provimento_casos` fica para a fase 3 (mudança de esquema); até lá o cargo com caso aproximado fica `inferido`.
 
+- 2026-11-14: propostas de f2-cgibs-julgamento (relação "responde" para solução de consulta; provimento de representante de contribuintes por entidade e seleção; ator "contribuinte") seguem a D54: ficam com os termos atuais e nota; o ator "contribuinte" vai com os demais atores genéricos para a fase 3.
+
 ## Diário
