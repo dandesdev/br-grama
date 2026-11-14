@@ -7,21 +7,25 @@
   "para": "cargo:deputado-federal",
   "condicao": "Pela unidade da federação MG, como titular.",
   "vigencia": {
-    "de": null,
+    "de": "2026-03-19",
     "ate": null,
-    "nota": "Em exercício em 2026-10-01 segundo a Câmara. A data de início do exercício não foi importada."
+    "nota": "Em exercício em 2026-10-01 segundo a Câmara. Período contínuo de exercício iniciado com a reassunção em 19/3/2026, depois de licença com prazo determinado; a posse como titular foi em 1º/2/2023."
   },
   "fontes": [
     {
       "ref": "fonte:camara-api-deputados-em-exercicio",
       "dispositivo": "deputado 220622"
+    },
+    {
+      "ref": "fonte:camara-api-historico-dos-deputados",
+      "dispositivo": "deputado 220622: registro de 2026-03-19T00:00, 'Entrada - Reassunção'"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-18",
-    "tarefa": "importacao-camara-deputados",
-    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "vigencia.de preenchida com o início do período contínuo de exercício que incluía 2026-10-01, calculado por script a partir do histórico do deputado na Câmara (legislatura 57); vigencia.nota reescrita. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
   }
 }

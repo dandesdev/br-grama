@@ -90,9 +90,9 @@
   "confianca": "oficial",
   "notas": "Ocupantes não modelados: não encontramos ato oficial (decreto de nomeação ou resolução de eleição) que diga quem eram os membros cidadãos em 2026-10-01. Buscamos na web por notícias e atos de nomeação e eleição de 2023 a 2026, sem resultado; não consultamos o DOU edição a edição. Provimento dos eleitos: 'escolha-pelo-legislativo' é o termo mais próximo, embora a lei não preveja nomeação posterior pelo Presidente. As relações rel:camara-elege-conselho-da-republica, rel:senado-elege-conselho-da-republica e rel:presidente-nomeia-conselho-da-republica apontam para este cargo desde f2-fechamento (2026-11-14); antes apontavam para o órgão.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "f2-fechamento-a: só a nota mudou (as três relações de escolha agora apontam para este cargo); antes verificado em verificacao-f0-processos-legislativos"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (f2-fechamento-a: só a nota mudou (as três relações de escolha agora apontam para este cargo); antes verificado em verificacao-f0-processos-legislativos); CF, arts. 51, V, 52, XIV, 84, XVII, e 89, VII; Lei 8.041, art. 3º, VII e §§ 2º, 3º e 6º; RICD, art. 225; RISF, art. 384, conferidos nas cópias locais; troca de alvo para o cargo conferida (sem referência solta)"
   }
 }

@@ -334,3 +334,11 @@ main { flex: 1; display: flex; min-height: 0; }
 .agenda .data { display: inline-block; min-width: 13em; font-variant-numeric: tabular-nums; color: var(--tinta-2); }
 .agenda .sub { color: var(--tinta-2); font-size: 12px; }
 @media (max-width: 700px) { .linha-tempo .rotulo { flex-basis: 40%; } }
+
+/* Sobre (D59) */
+#sobre { flex: 1; min-height: 0; overflow: auto; padding: 16px 20px 40px; background: var(--superficie); }
+#sobre article { max-width: 75ch; }
+#sobre h2 { margin: 0 0 6px; font-size: 18px; }
+#sobre h3 { margin: 20px 0 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--tinta-2); }
+#sobre p, #sobre li { color: var(--tinta); line-height: 1.5; }
+#sobre .numeros { margin: 8px 0 4px; }

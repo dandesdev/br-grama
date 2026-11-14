@@ -7,21 +7,29 @@
   "para": "cargo:deputado-federal",
   "condicao": "Pela unidade da federação RJ, como titular.",
   "vigencia": {
-    "de": null,
+    "de": "2023-02-01",
     "ate": null,
-    "nota": "Em exercício em 2026-10-01 segundo a Câmara. A data de início do exercício não foi importada."
+    "nota": "Em exercício em 2026-10-01 segundo a Câmara. Posse como titular na sessão preparatória de 1º/2/2023, no início da legislatura (CF, art. 57, § 4º), sem afastamento até a data de referência."
   },
   "fontes": [
     {
       "ref": "fonte:camara-api-deputados-em-exercicio",
       "dispositivo": "deputado 122158"
+    },
+    {
+      "ref": "fonte:camara-api-historico-dos-deputados",
+      "dispositivo": "deputado 122158: registro de 2023-02-01T12:05, 'Entrada - Posse de Eleito Titular - Posse na Sessão Preparatória'"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 57, § 4º"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-18",
-    "tarefa": "importacao-camara-deputados",
-    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "vigencia.de preenchida com o início do período contínuo de exercício que incluía 2026-10-01, calculado por script a partir do histórico do deputado na Câmara (legislatura 57); vigencia.nota reescrita. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
   }
 }

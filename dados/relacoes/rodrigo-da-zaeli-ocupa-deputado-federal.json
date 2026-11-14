@@ -7,21 +7,25 @@
   "para": "cargo:deputado-federal",
   "condicao": "Pela unidade da federação MT, como efetivado.",
   "vigencia": {
-    "de": null,
+    "de": "2025-01-01",
     "ate": null,
-    "nota": "Em exercício em 2026-10-01 segundo a Câmara. A data de início do exercício não foi importada."
+    "nota": "Em exercício em 2026-10-01 segundo a Câmara. Posse como titular, por efetivação de suplente, em 1º/1/2025."
   },
   "fontes": [
     {
       "ref": "fonte:camara-api-deputados-em-exercicio",
       "dispositivo": "deputado 230767"
+    },
+    {
+      "ref": "fonte:camara-api-historico-dos-deputados",
+      "dispositivo": "deputado 230767: registro de 2025-01-01T13:34, 'Entrada - Posse de Suplente - Posse como Titular'"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-18",
-    "tarefa": "importacao-camara-deputados",
-    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "vigencia.de preenchida com o início do período contínuo de exercício que incluía 2026-10-01, calculado por script a partir do histórico do deputado na Câmara (legislatura 57); vigencia.nota reescrita. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
   }
 }

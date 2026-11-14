@@ -4,6 +4,7 @@ import { Fluxo } from "./fluxo.ts";
 import { Matriz } from "./matriz.ts";
 import { Dinheiro } from "./dinheiro.ts";
 import { Calendario } from "./calendario.ts";
+import { mostrarSobre } from "./sobre.ts";
 import { Painel, amostraTraco } from "./painel.ts";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -41,9 +42,9 @@ const calendario = new Calendario(
 
 // ---------- Abas: mapa e fluxo do processo ----------
 const abaFluxo = $<HTMLButtonElement>("aba-fluxo");
-type Aba = "mapa" | "fluxo" | "matriz" | "dinheiro" | "calendario";
+type Aba = "mapa" | "fluxo" | "matriz" | "dinheiro" | "calendario" | "sobre";
 function mostrarAba(aba: Aba) {
-  for (const id of ["mapa", "fluxo", "matriz", "dinheiro", "calendario"]) $(id).hidden = id !== aba;
+  for (const id of ["mapa", "fluxo", "matriz", "dinheiro", "calendario", "sobre"]) $(id).hidden = id !== aba;
   for (const b of document.querySelectorAll<HTMLButtonElement>(".abas button")) {
     b.setAttribute("aria-selected", String(b.dataset.aba === aba));
   }
@@ -51,6 +52,7 @@ function mostrarAba(aba: Aba) {
   else if (aba === "fluxo") fluxo.enquadrar();
   else if (aba === "matriz") matriz.mostrar();
   else if (aba === "calendario") calendario.mostrar();
+  else if (aba === "sobre") mostrarSobre($("sobre"), dados);
   else dinheiro.mostrar();
 }
 for (const b of document.querySelectorAll<HTMLButtonElement>(".abas button")) {

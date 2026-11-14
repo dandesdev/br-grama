@@ -1,0 +1,24 @@
+{
+  "id": "fonte:camara-api-historico-dos-deputados",
+  "tipo": "fonte",
+  "nome": "Dados abertos da Câmara: histórico de cada deputado",
+  "resumo": "Registros de posse, reassunção, afastamento, efetivação e mudança de partido de cada deputado, por legislatura, na rota /deputados/{id}/historico.",
+  "tipo_fonte": "dados-abertos",
+  "publicador": "Câmara dos Deputados",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
+  "acesso_em": "2026-11-14",
+  "arquivo": null,
+  "oficial": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "Consultada em 2026-11-14 para os 513 deputados em exercício em 2026-10-01; usada para o início do período de exercício nas relações ocupa de deputado federal."
+  },
+  "notas": "Cada relação cita o id do deputado e o registro usado; a rota é https://dadosabertos.camara.leg.br/api/v2/deputados/<id>/historico. Respostas brutas, sem os campos urlFoto e email (D12), em pesquisa/brutos/camara-dados-abertos/2026-11-14-f3-calendario/. Sem cópia no Wayback: são 513 respostas de API."
+}

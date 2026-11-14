@@ -1,0 +1,210 @@
+{
+  "id": "proc:relatorios-fiscais",
+  "tipo": "processo",
+  "nome": "Relatórios fiscais da União (RREO e RGF)",
+  "resumo": "A cada bimestre o Executivo publica o RREO, e a cada quadrimestre cada Poder e órgão publica o RGF; o Congresso, com o TCU, fiscaliza o cumprimento da LRF.",
+  "detalhes": "O RREO mostra a receita e a despesa de todos os Poderes e do Ministério Público; o RGF compara a despesa com pessoal e a dívida de cada Poder ou órgão com os limites da LRF. O ente que atrasa a publicação fica sem transferências voluntárias e sem novas operações de crédito até regularizar. Os prazos valem também para estados e municípios; os municípios com menos de 50 mil habitantes podem divulgar o RGF e os demonstrativos do art. 53 por semestre.",
+  "forma": "ciclo",
+  "etapas": [
+    {
+      "id": "rreo",
+      "atores": [
+        "org:poder-executivo-federal",
+        "org:secretaria-do-tesouro-nacional"
+      ],
+      "acao": "O Executivo publica o RREO do bimestre, com a execução do orçamento de todos os Poderes e do Ministério Público",
+      "detalhes": "O relatório traz o balanço orçamentário e os demonstrativos da receita e da despesa, com a receita corrente líquida, os resultados primário e nominal e os restos a pagar (LRF, arts. 52 e 53). Na União, a Secretaria do Tesouro Nacional o elabora e divulga (Decreto 11.907/2024, Anexo I, art. 37, X).",
+      "prazo": {
+        "texto": "Até 30 dias após o encerramento de cada bimestre",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "encerramento do bimestre",
+        "efeito": "Fora do prazo, o ente fica sem transferências voluntárias e sem novas operações de crédito até regularizar (LRF, art. 52, § 2º, e art. 51, § 2º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 165, § 3º"
+        },
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 51, § 2º; arts. 52 e 53; art. 63, II, c"
+        },
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 37, X"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-01-30",
+          "nota": "Prazo do RREO do 6º bimestre de 2025: 30 dias depois de 31/12/2025 (sexta-feira)."
+        },
+        {
+          "de": "2026-03-30",
+          "nota": "Prazo do RREO do 1º bimestre de 2026: 30 dias depois de 28/02/2026 (segunda-feira)."
+        },
+        {
+          "de": "2026-05-30",
+          "nota": "Prazo do RREO do 2º bimestre de 2026: 30 dias depois de 30/04/2026 (sábado)."
+        },
+        {
+          "de": "2026-07-30",
+          "nota": "Prazo do RREO do 3º bimestre de 2026: 30 dias depois de 30/06/2026 (quinta-feira)."
+        },
+        {
+          "de": "2026-09-30",
+          "nota": "Prazo do RREO do 4º bimestre de 2026: 30 dias depois de 31/08/2026 (quarta-feira)."
+        },
+        {
+          "de": "2026-11-30",
+          "nota": "Prazo do RREO do 5º bimestre de 2026: 30 dias depois de 31/10/2026 (segunda-feira)."
+        },
+        {
+          "de": "2027-01-30",
+          "nota": "Prazo do RREO do 6º bimestre de 2026: 30 dias depois de 31/12/2026 (sábado)."
+        },
+        {
+          "de": "2027-03-30",
+          "nota": "Prazo do RREO do 1º bimestre de 2027: 30 dias depois de 28/02/2027 (terça-feira)."
+        },
+        {
+          "de": "2027-05-30",
+          "nota": "Prazo do RREO do 2º bimestre de 2027: 30 dias depois de 30/04/2027 (domingo)."
+        },
+        {
+          "de": "2027-07-30",
+          "nota": "Prazo do RREO do 3º bimestre de 2027: 30 dias depois de 30/06/2027 (sexta-feira)."
+        },
+        {
+          "de": "2027-09-30",
+          "nota": "Prazo do RREO do 4º bimestre de 2027: 30 dias depois de 31/08/2027 (quinta-feira)."
+        },
+        {
+          "de": "2027-11-30",
+          "nota": "Prazo do RREO do 5º bimestre de 2027: 30 dias depois de 31/10/2027 (terça-feira)."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fiscalizacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "rgf",
+      "atores": [
+        "cargo:presidente-da-republica",
+        "org:mesa-da-camara-dos-deputados",
+        "org:mesa-do-senado-federal",
+        "org:tcu",
+        "org:poder-judiciario",
+        "cargo:procurador-geral-da-republica"
+      ],
+      "acao": "Os titulares dos Poderes e órgãos publicam o RGF do quadrimestre, com pessoal e dívida comparados aos limites",
+      "detalhes": "Assinam o chefe do Executivo, as Mesas das Casas e o órgão equivalente do TCU, os presidentes e conselhos dos tribunais e o chefe do Ministério Público, com os responsáveis pela administração financeira e pelo controle interno (LRF, art. 54). No último quadrimestre, o relatório mostra também o caixa em 31 de dezembro e a inscrição em restos a pagar (art. 55, III). Os Poderes e órgãos que não são o Executivo informam só a despesa com pessoal, as medidas corretivas e esses demonstrativos de fim de ano (art. 55, § 1º).",
+      "prazo": {
+        "texto": "Até 30 dias após o encerramento de cada quadrimestre",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "encerramento do quadrimestre",
+        "efeito": "Fora do prazo, o ente fica sem transferências voluntárias e sem novas operações de crédito até regularizar (LRF, art. 55, § 3º, e art. 51, § 2º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 20; art. 51, § 2º; arts. 54 e 55; art. 63, II, b"
+        },
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 37, X"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-01-30",
+          "nota": "Prazo do RGF do 3º quadrimestre de 2025: 30 dias depois de 31/12/2025 (sexta-feira)."
+        },
+        {
+          "de": "2026-05-30",
+          "nota": "Prazo do RGF do 1º quadrimestre de 2026: 30 dias depois de 30/04/2026 (sábado)."
+        },
+        {
+          "de": "2026-09-30",
+          "nota": "Prazo do RGF do 2º quadrimestre de 2026: 30 dias depois de 31/08/2026 (quarta-feira)."
+        },
+        {
+          "de": "2027-01-30",
+          "nota": "Prazo do RGF do 3º quadrimestre de 2026: 30 dias depois de 31/12/2026 (sábado)."
+        },
+        {
+          "de": "2027-05-30",
+          "nota": "Prazo do RGF do 1º quadrimestre de 2027: 30 dias depois de 30/04/2027 (domingo)."
+        },
+        {
+          "de": "2027-09-30",
+          "nota": "Prazo do RGF do 2º quadrimestre de 2027: 30 dias depois de 31/08/2027 (quinta-feira)."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "fiscalizacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "fiscalizacao",
+      "atores": [
+        "org:congresso-nacional",
+        "org:tcu"
+      ],
+      "acao": "O Congresso, com o TCU, fiscaliza a LRF; o TCU alerta quem se aproxima dos limites ou põe as metas em risco",
+      "detalhes": "O Legislativo, diretamente ou com o tribunal de contas, e o controle interno de cada Poder fiscalizam as metas da LDO, os limites de pessoal e de dívida e os restos a pagar. O tribunal alerta o Poder ou órgão quando a receita pode não comportar as metas ou quando a despesa com pessoal ou a dívida passam de 90% do limite, e confere o cálculo da despesa com pessoal (LRF, art. 59).",
+      "fontes": [
+        {
+          "ref": "norma:lc-101-2000",
+          "dispositivo": "art. 59, caput, I a VI, e §§ 1º e 2º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "rreo",
+          "quando": "No bimestre seguinte"
+        },
+        {
+          "para": "rgf",
+          "quando": "No quadrimestre seguinte"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2000-05-05",
+    "ate": null,
+    "nota": "LRF em vigor na publicação (art. 74). O RREO já estava na CF de 1988 (art. 165, § 3º); o prazo e o conteúdo atuais vêm da LRF."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 165, § 3º"
+    },
+    {
+      "ref": "norma:lc-101-2000",
+      "dispositivo": "arts. 51 a 55, 59 e 63"
+    },
+    {
+      "ref": "norma:decreto-11907-2024",
+      "dispositivo": "Anexo I, art. 37, X"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado em f3-calendario-orcamento-legislativo para pôr no Calendário (D55) os relatórios fiscais, que antes só existiam como objetos (obj:rreo, obj:rgf) e relações publica e fiscaliza. A audiência quadrimestral das metas fica em proc:ciclo-orcamentario (etapa avaliacao-das-metas-fiscais), e a limitação de empenho em proc:execucao-da-despesa. Os atores do RGF seguem as relações publica-rgf existentes. As datas são as do prazo da LRF para a União; o RREO do 6º bimestre de 2027 e o RGF do 3º quadrimestre de 2027 vencem em 30/1/2028, fora da janela do Calendário.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-orcamento-legislativo",
+    "notas": "processo novo; prazos e atores conferidos na cópia local da LRF (2026-11-11) e da CF; datas calculadas com script (diário da tarefa)"
+  }
+}

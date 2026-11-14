@@ -3,7 +3,7 @@
 //
 // O layout tem posições semânticas (D21): cada região (povo, Poderes, objetos de competência,
 // entes subnacionais) é diagramada separadamente pelo ELK e depois posicionada numa grade fixa.
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import ELK, { type ElkNode, type ElkExtendedEdge } from "elkjs/lib/elk.bundled.js";
 import { RAIZ, lerArquivos, lerJson, vigenteEm, type Entidade } from "./lib/dados.ts";
@@ -173,9 +173,27 @@ for (const e of entidades.values()) {
   });
 }
 
+// Números de cobertura para a aba "Sobre" (D59), lidos dos relatórios gerados em pesquisa/.
+function lerCobertura() {
+  const ler = (arq: string) => {
+    try {
+      return readFileSync(join(RAIZ, arq), "utf8");
+    } catch {
+      return "";
+    }
+  };
+  const cf = ler("pesquisa/fila/f0-cobertura.md").match(/^\| CF \(arts\. 1º a 250\).*\*\*([\d,]+%)\*\*/m)?.[1] ?? null;
+  const adct = ler("pesquisa/fila/f0-cobertura.md").match(/^\| ADCT .*\*\*([\d,]+%)\*\*/m)?.[1] ?? null;
+  const leisTxt = ler("pesquisa/cobertura-leis.md");
+  const total = leisTxt.match(/Total: (\d+) artigos classificados; cobertura ([\d,]+%)/);
+  const leis = leisTxt.split("\n").filter((l) => /^\| .*\| [\d,]+%\s*\|$/.test(l)).length;
+  return { cf, adct, leis, artigos_leis: total ? Number(total[1]) : null, leis_pct: total?.[2] ?? null };
+}
+
 const saida = {
   gerado_em: new Date().toISOString(),
   data_referencia: DATA_REFERENCIA,
+  cobertura: lerCobertura(),
   vocabularios: {
     relacoes: vocabRelacoes,
     tipos_orgao: lerJson("esquema/vocabularios/tipos-orgao.json"),

@@ -35,3 +35,12 @@ Regras extras: não mude o texto das etapas além de corrigir um erro que a cont
   - avaliacao-das-metas-fiscais: 28/2/2026 (sáb, 3º quadr. 2025), 31/5/2026 (dom), 30/9/2026 (qua), 28/2/2027 (dom), 31/5/2027 (seg), 30/9/2027 (qui) (LRF, art. 9º, § 4º).
   - prestacao-de-contas: 3/4/2026 (sex, Paixão de Cristo, feriado nacional pela Portaria MGI 11.460/2025, art. 1º, V; data da regra) e 3/4/2027 (sáb). Conta: abertura em 2/2 + 60 dias = 3/4 (fevereiro de 28 dias nos dois anos).
   - Sem data: ldo-elaboracao e loa-elaboracao (sem prazo na norma), ldo-sancao e loa-sancao (15 dias úteis do recebimento), parecer-previo-tcu (60 dias do recebimento), parecer-cmo-contas (40 dias do recebimento do parecer), julgamento-das-contas (sem prazo).
+- 2026-11-14 — gravado proc:execucao-da-despesa com datas (verificacao → coletado):
+  - restos-a-pagar: 31/12/2026 (qui) e 31/12/2027 (sex) (Lei 4.320, arts. 34 e 36).
+  - limitacao-de-empenho: janelas "nos trinta dias subsequentes" ao fim dos bimestres 1 a 5 (LRF, art. 9º): 1º/3–30/3, 1º/5–30/5, 1º/7–30/7, 1º/9–30/9 e 1º/11–30/11, em 2026 e 2027. Conta: fim do bimestre + 1 dia até fim + 30 dias. Não datei a janela depois do 6º bimestre (1º a 30/1 do ano seguinte) porque cairia no exercício seguinte, quando o orçamento a limitar já se encerrou; é inferência minha, para o revisor. A etapa é condicional (só se a receita não comportar as metas), mas o momento é fixado pela regra, por isso entrou com a nota "se a avaliação apontar risco às metas".
+  - Sem data: programacao-financeira (30 dias da publicação dos orçamentos, fato incerto), empenho, liquidacao, pagamento e despesa-paga (sem prazo).
+- 2026-11-14 — gravado proc:relatorios-fiscais (novo, forma ciclo; etapas rreo, rgf, fiscalizacao). Conta: fim do período + 30 dias corridos (LRF, art. 52, caput, e art. 55, § 2º; CF, art. 165, § 3º).
+  - rreo: 30/1/2026 (6º bim. 2025, sex), 30/3 (seg), 30/5 (sáb), 30/7 (qui), 30/9 (qua), 30/11/2026 (seg); 30/1/2027 (6º bim. 2026, sáb), 30/3 (ter), 30/5 (dom), 30/7 (sex), 30/9 (qui), 30/11/2027 (ter). O do 6º bimestre de 2027 vence em 30/1/2028, fora da janela.
+  - rgf: 30/1/2026 (3º quadr. 2025, sex), 30/5/2026 (sáb), 30/9/2026 (qua), 30/1/2027 (sáb), 30/5/2027 (dom), 30/9/2027 (qui). O do 3º quadrimestre de 2027 vence em 30/1/2028.
+  - A LRF não diz o que fazer quando o prazo cai em fim de semana; ficou a data da regra (nota com o dia da semana). Nenhuma dessas datas cai em feriado nacional de 2026.
+  - fiscalizacao: sem data (LRF, art. 59, sem prazo).
