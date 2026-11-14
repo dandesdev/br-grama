@@ -1,0 +1,26 @@
+{
+  "id": "rel:camara-nacional-de-integracao-edita-sumula-da-camara-nacional-de-integracao",
+  "tipo": "relacao",
+  "nome": "A Câmara Nacional de Integração edita súmulas vinculantes sobre a legislação comum ao IBS e à CBS",
+  "relacao": "edita",
+  "de": "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs",
+  "para": "obj:sumula-da-camara-nacional-de-integracao",
+  "condicao": "Ao julgar incidente de uniformização em matéria repetitiva (5 decisões definitivas do CGIBS ou do Carf, ou 3 da própria Câmara Nacional).",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-H, § 1º; art. 323-I"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Incluído na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III); órgão sem composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

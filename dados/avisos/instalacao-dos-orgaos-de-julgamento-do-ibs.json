@@ -1,0 +1,46 @@
+{
+  "id": "aviso:instalacao-dos-orgaos-de-julgamento-do-ibs",
+  "tipo": "aviso",
+  "nome": "Sem ato oficial que instale os órgãos de julgamento do IBS",
+  "resumo": "A lei prevê desde jan/2026 as câmaras de julgamento do IBS e a Câmara Nacional de Integração, mas não achamos os atos que as compõem e regulam nem sinal de que funcionavam em 2026-10-01.",
+  "detalhes": "A LC 227/2026 deixa a ato do CGIBS a forma de indicar os julgadores, as turmas e o funcionamento das câmaras de primeira e segunda instância e da Câmara Superior do IBS (arts. 92, 94 e 96), e a LC 214/2025 deixa a ato conjunto do CGIBS e do Ministro da Fazenda os mandatos e o funcionamento da Câmara Nacional de Integração (art. 323-G, § 7º). Nenhuma resolução, portaria ou ato conjunto publicado pelo CGIBS até 12/11/2026 trata disso, de modo que não sabemos se os órgãos tinham membros na data de referência.",
+  "tipo_aviso": "lacuna",
+  "afeta": [
+    "org:camaras-de-julgamento-do-ibs",
+    "org:camaras-recursais-de-julgamento-do-ibs",
+    "org:camara-superior-do-ibs",
+    "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs"
+  ],
+  "gravidade": "media",
+  "onde_procuramos": [
+    "CGIBS, página de resoluções (Resoluções CGIBS nº 1 a 19/2026, até 12/11/2026), lida em 2026-11-14",
+    "CGIBS, página de portarias (Portarias CGIBS nº 1 a 12/2026 e Portaria Conjunta MF/CGIBS nº 14/2026), lida em 2026-11-14",
+    "CGIBS, página de atos conjuntos (Portaria Conjunta MF/CGIBS nº 7/2026; Atos Conjuntos RFB/CGIBS nº 1/2025 a 7/2026), lida em 2026-11-14",
+    "Resolução CGIBS nº 4/2026 (Regimento Interno Procedimental) e alterações (Resoluções nº 5 e 9/2026): sem dispositivo sobre os órgãos de julgamento",
+    "Resolução CGIBS nº 6/2026 (Regulamento do IBS): trata da consulta, mas não dos órgãos de julgamento",
+    "Busca na web por ato conjunto da Câmara Nacional de Integração (só notícias de escritórios de advocacia)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 92, §§ 1º, 3º e 7º; 94, §§ 1º, 3º e 8º; 96, §§ 1º e 6º; 102",
+      "nota": "O art. 102 dá ao CGIBS os casos omissos e os atos normativos para executar o Título II."
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-G, § 7º; art. 323-M"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Desde a vigência da LC 227/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "notas": "Cópias das páginas e dos PDFs do CGIBS em pesquisa/brutos/cgibs/2026-11-14-f2-cgibs-julgamento/. Uma nota de 14/7/2026 republicada pelo escritório TAGD Advogados, com base no JOTA (fonte secundária, não citada), relata que o presidente do Carf disse em 25/6/2026 que a estruturação da Câmara Nacional começaria em 2026 e o desenho definitivo poderia ficar para 2027. O aviso se resolve (D43) com o ato do CGIBS ou o ato conjunto que componha os órgãos.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

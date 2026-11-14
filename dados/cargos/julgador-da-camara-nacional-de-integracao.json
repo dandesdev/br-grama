@@ -1,0 +1,52 @@
+{
+  "id": "cargo:julgador-da-camara-nacional-de-integracao",
+  "tipo": "cargo",
+  "nome": "Julgador da Câmara Nacional de Integração do Contencioso do IBS e da CBS",
+  "resumo": "Conselheiro do Carf ou membro da Câmara Superior do IBS indicado para uniformizar a jurisprudência administrativa sobre as regras comuns ao IBS e à CBS.",
+  "detalhes": "São 4 conselheiros da Fazenda Nacional na Câmara Superior de Recursos Fiscais do Carf, indicados pelo Ministro da Fazenda; 4 membros fazendários da Câmara Superior do IBS (2 dos estados e do DF, 2 dos municípios e do DF), indicados pelo CGIBS; e 4 representantes dos contribuintes, 2 conselheiros do Carf indicados pelo Ministro e 2 membros da Câmara Superior do IBS indicados pelo CGIBS (LC 214/2025, art. 323-G, § 1º). O presidente, listado à parte, só vota no empate e alterna entre representante da Fazenda Nacional e do CGIBS (§§ 1º, IV, e 8º).",
+  "orgao": "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs",
+  "provimento": "designacao",
+  "provimento_nota": "Indicados pelo Ministro da Fazenda (6) ou pelo CGIBS (6) entre quem já é julgador no Carf ou na Câmara Superior do IBS; os mandatos ficam para ato conjunto do CGIBS e do Ministro da Fazenda (LC 214/2025, art. 323-G, §§ 1º e 7º).",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A lei diz só 'indicados'; usamos designacao (membro de colegiado com mandato, D54) porque os indicados já são julgadores de outro órgão. O ato conjunto não foi localizado."
+    }
+  },
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Definido em ato conjunto do CGIBS e do Ministro da Fazenda (LC 214/2025, art. 323-G, § 7º), não localizado."
+  },
+  "vagas": 13,
+  "vagas_nota": "12 membros e o presidente, que a lei lista à parte (art. 323-G, § 1º, IV); a lei não diz se o presidente sai entre os 12.",
+  "requisitos": [
+    {
+      "texto": "ser conselheiro da Câmara Superior de Recursos Fiscais do Carf ou membro da Câmara Superior do IBS",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-G, § 1º, I a III"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-G, §§ 1º, 7º e 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Incluído na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III); composição não localizada (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11): sem pessoas. O Presidente da Câmara Nacional não tem cargo próprio; ele pode suscitar incidente de uniformização (art. 323-J, II).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

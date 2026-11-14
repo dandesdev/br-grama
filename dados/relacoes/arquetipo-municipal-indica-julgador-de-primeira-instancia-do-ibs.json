@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-municipal-indica-julgador-de-primeira-instancia-do-ibs",
+  "tipo": "relacao",
+  "nome": "Os fiscos municipais indicam julgadores das Câmaras de Julgamento do IBS",
+  "relacao": "indica",
+  "de": "ente:arquetipo-municipal",
+  "para": "cargo:julgador-de-primeira-instancia-do-ibs",
+  "condicao": "As administrações tributárias dos municípios do estado indicam 2 servidores por câmara, na forma de ato do CGIBS.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 92, § 3º, II; art. 89, §§ 2º, I, e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "A lei não diz como os municípios de um estado escolhem os indicados; o ato do CGIBS não foi localizado.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

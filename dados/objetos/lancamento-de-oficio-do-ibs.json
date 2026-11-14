@@ -1,0 +1,29 @@
+{
+  "id": "obj:lancamento-de-oficio-do-ibs",
+  "tipo": "objeto",
+  "nome": "Lançamento de ofício do IBS",
+  "resumo": "Ato do fisco de um estado, do DF ou de um município que cobra IBS não pago ou aplica multa, contra o qual o contribuinte pode apresentar impugnação ao CGIBS.",
+  "detalhes": "A fiscalização e o lançamento do IBS cabem às autoridades fiscais dos estados, do DF e dos municípios (LC 214/2025, art. 324). A impugnação, em 20 dias da intimação, abre o contencioso administrativo, julgado só pelos órgãos do CGIBS (LC 227/2026, arts. 67 e 88).",
+  "tipo_objeto": "decisao",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 324"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 54, I, 67 e 88"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "O processo da LC 227/2026 vale desde 14/1/2026 (art. 182, III). Em 2026 o IBS é cobrado à alíquota de teste de 0,1%, com dispensa do recolhimento para quem cumpre as obrigações acessórias (LC 214/2025, arts. 343 e 348, § 1º)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

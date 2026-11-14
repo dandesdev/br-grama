@@ -1,0 +1,59 @@
+{
+  "id": "org:camara-superior-do-ibs",
+  "tipo": "orgao",
+  "nome": "Câmara Superior do IBS",
+  "resumo": "Instância nacional do contencioso do IBS no CGIBS que uniformiza a jurisprudência sobre a legislação específica do imposto e edita súmulas vinculantes para os julgadores.",
+  "detalhes": "Julga o recurso de uniformização e o incidente de uniformização sobre a legislação específica do IBS e os pedidos de retificação das próprias decisões, e delibera sobre a edição, a revisão e o cancelamento de provimentos vinculantes (LC 227/2026, arts. 79, 81 e 95). É virtual e paritária: 4 servidores indicados pelos fiscos dos estados e do DF, 4 pelos fiscos dos municípios e do DF, 8 representantes dos contribuintes e um presidente que só vota no empate, em alternância entre servidores estaduais e municipais (art. 96, §§ 1º e 3º). Divergência sobre a legislação comum ao IBS e à CBS vai à Câmara Nacional de Integração (art. 79, § 6º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:comite-gestor-do-ibs",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: exerce competências administrativas tributárias dos Executivos dos entes."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: entidade dos estados, do DF e dos municípios em conjunto; usamos 'nacional'."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 88, caput; art. 89, III"
+        }
+      ],
+      "nota": "Instância no âmbito do CGIBS, sem subordinação a outro órgão do art. 7º."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 89, III, e §§ 3º e 4º; arts. 90, 95 e 96"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 79 e 81 a 87",
+      "nota": "Recurso e incidente de uniformização."
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 96, § 6º",
+      "nota": "Funcionamento definido em ato do CGIBS, não localizado."
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Prevista na LC 227/2026, em vigor desde a publicação (DOU de 14/1/2026, art. 182, III). Não achamos ato do CGIBS que a tenha instalado ou composto até 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

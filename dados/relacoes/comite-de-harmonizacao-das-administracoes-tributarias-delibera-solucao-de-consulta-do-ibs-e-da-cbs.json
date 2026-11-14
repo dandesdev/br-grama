@@ -1,0 +1,26 @@
+{
+  "id": "rel:comite-de-harmonizacao-das-administracoes-tributarias-delibera-solucao-de-consulta-do-ibs-e-da-cbs",
+  "tipo": "relacao",
+  "nome": "O Comitê de Harmonização decide a solução de consulta quando o CGIBS e a Receita Federal divergem",
+  "relacao": "delibera",
+  "de": "org:comite-de-harmonizacao-das-administracoes-tributarias",
+  "para": "obj:solucao-de-consulta-do-ibs-e-da-cbs",
+  "condicao": "Quando o órgão que avalia a minuta de solução de consulta discorda dela; a consulta fica suspensa até a resolução do comitê, que vincula as administrações tributárias.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-B, § 1º, II, e § 2º; art. 321, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Art. 323-B incluído na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

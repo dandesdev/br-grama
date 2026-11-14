@@ -1,0 +1,55 @@
+{
+  "id": "org:camaras-de-julgamento-do-ibs",
+  "tipo": "orgao",
+  "nome": "Câmaras de Julgamento do IBS (primeira instância)",
+  "resumo": "Primeira instância do contencioso administrativo do IBS no CGIBS: 27 câmaras virtuais, uma por estado e uma no DF, que julgam as impugnações contra lançamentos de ofício.",
+  "detalhes": "Cada câmara tem 2 servidores indicados pelo fisco do estado e 2 pelos fiscos dos municípios desse estado (no DF, 4 servidores do DF), mais um presidente que só vota no empate; a presidência alterna a cada exercício entre os servidores do estado e os dos municípios (LC 227/2026, art. 92, §§ 3º e 4º). Só entram servidores de carreira com competência para lançar ou julgar tributos, e julga a câmara do estado onde fica o fisco que fez o lançamento (art. 92, caput e § 2º). O CGIBS pode dividir as câmaras em turmas, conforme o volume de processos; cada membro tem suplente (art. 92, §§ 1º, 5º e 6º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:comite-gestor-do-ibs",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: exerce competências administrativas tributárias dos Executivos dos entes."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: entidade dos estados, do DF e dos municípios em conjunto; usamos 'nacional'."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 88, caput; art. 89, I e § 1º"
+        }
+      ],
+      "nota": "A lei põe as instâncias de julgamento 'no âmbito das competências do CGIBS', sem subordiná-las a outro órgão do art. 7º; a Diretoria de Revisão do Crédito Tributário só dá apoio técnico-administrativo (art. 36)."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 89, I, e §§ 1º a 4º; arts. 90, 91 e 92"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 92, §§ 1º, 5º e 7º",
+      "nota": "Turmas, número de turmas e funcionamento definidos em ato do CGIBS, não localizado."
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Previstas na LC 227/2026, em vigor desde a publicação (DOU de 14/1/2026, art. 182, III). Não achamos ato do CGIBS que as tenha instalado ou composto até 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs). Em 2026 o IBS é cobrado à alíquota de teste de 0,1%, com dispensa do recolhimento para quem cumpre as obrigações acessórias (LC 214/2025, arts. 343 e 348, § 1º)."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D51): as 27 câmaras são iguais e têm o mesmo cargo agregado (cargo:julgador-de-primeira-instancia-do-ibs). O rito está em proc:processo-administrativo-tributario-do-ibs.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

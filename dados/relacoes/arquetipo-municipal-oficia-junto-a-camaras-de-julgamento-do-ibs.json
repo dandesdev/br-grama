@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-municipal-oficia-junto-a-camaras-de-julgamento-do-ibs",
+  "tipo": "relacao",
+  "nome": "Os municípios são representados pela sua procuradoria ou pelo fisco nas câmaras de julgamento do IBS",
+  "relacao": "oficia-junto-a",
+  "de": "ente:arquetipo-municipal",
+  "para": "org:camaras-de-julgamento-do-ibs",
+  "condicao": "Procuradores do município ou autoridades fiscais, conforme a lei municipal, defendem a Fazenda municipal nos processos de lançamentos do município.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 97"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "O município típico não tem nó de procuradoria no mapa; a relação parte do ente.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

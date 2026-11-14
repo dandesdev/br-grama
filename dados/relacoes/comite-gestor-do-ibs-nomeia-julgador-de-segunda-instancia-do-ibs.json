@@ -1,0 +1,32 @@
+{
+  "id": "rel:comite-gestor-do-ibs-nomeia-julgador-de-segunda-instancia-do-ibs",
+  "tipo": "relacao",
+  "nome": "O CGIBS nomeia os representantes dos contribuintes nas Câmaras Recursais do IBS",
+  "relacao": "nomeia",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "cargo:julgador-de-segunda-instancia-do-ibs",
+  "condicao": "Só os 4 representantes dos contribuintes de cada câmara, entre pessoas indicadas por entidades de categorias econômicas e aprovadas em seleção pública, na forma de ato do CGIBS.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 94, § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A lei diz 'serão nomeados, na forma estabelecida em ato do CGIBS', sem dizer qual órgão do CGIBS nomeia."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

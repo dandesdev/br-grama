@@ -1,0 +1,32 @@
+{
+  "id": "rel:comite-gestor-do-ibs-indica-julgador-da-camara-nacional-de-integracao",
+  "tipo": "relacao",
+  "nome": "O CGIBS indica julgadores da Câmara Nacional de Integração",
+  "relacao": "indica",
+  "de": "org:comite-gestor-do-ibs",
+  "para": "cargo:julgador-da-camara-nacional-de-integracao",
+  "condicao": "Indica 4 membros fazendários da Câmara Superior do IBS (2 dos estados e do DF, 2 dos municípios e do DF) e 2 representantes dos contribuintes da mesma câmara.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-G, § 1º, II e III"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Incluído na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III); órgão sem composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A lei diz 'indicados pelo CGIBS', sem dizer qual órgão do CGIBS indica."
+    }
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

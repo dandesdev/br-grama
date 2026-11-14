@@ -1,0 +1,35 @@
+{
+  "id": "rel:wadih-nemer-damous-filho-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Wadih Nemer Damous Filho é Diretor-Presidente da ANS",
+  "relacao": "ocupa",
+  "de": "pessoa:wadih-nemer-damous-filho",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Diretor-Presidente da ANS.",
+  "vigencia": {
+    "de": "2025-08-29",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da publicação do decreto de nomeação; a posse não foi conferida. Em exercício em 2026-10-01: assina como Diretor-Presidente ato de 2/10/2026; nenhum ato dele achado no DOU de 22 a 30/9/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 28/8/2025 (DOU 29/8/2025, Seção 2, p. 2): nomeia Wadih Nemer Damous Filho para o cargo de Diretor-Presidente da ANS, na vaga decorrente do término do mandato de Paulo Roberto Vanderlei Rebello Filho",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-28-de-agosto-de-2025-651770818"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Consulta Pública ANS nº 178, de 2/10/2026 (DOU 6/10/2026, Seção 1, p. 244), assinada por Wadih Nemer Damous Filho, Diretor-Presidente",
+      "nota": "https://www.in.gov.br/web/dou/-/consulta-publica-ans-n-178-de-2-de-outubro-de-2026-736568199"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  },
+  "orgao_exercicio": "org:ans"
+}

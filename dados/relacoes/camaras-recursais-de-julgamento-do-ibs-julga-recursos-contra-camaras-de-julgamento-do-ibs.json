@@ -1,0 +1,26 @@
+{
+  "id": "rel:camaras-recursais-de-julgamento-do-ibs-julga-recursos-contra-camaras-de-julgamento-do-ibs",
+  "tipo": "relacao",
+  "nome": "As Câmaras Recursais do IBS julgam recursos contra as decisões das Câmaras de Julgamento",
+  "relacao": "julga-recursos-contra",
+  "de": "org:camaras-recursais-de-julgamento-do-ibs",
+  "para": "org:camaras-de-julgamento-do-ibs",
+  "condicao": "Recurso de ofício (decisão contrária à Fazenda) e recurso voluntário do contribuinte, em 20 dias; julga a câmara recursal do mesmo estado. No rito sumário a decisão de primeira instância é definitiva.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 75, 76, parágrafo único, 77, 78, 93 e 94, § 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

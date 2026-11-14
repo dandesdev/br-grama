@@ -1,0 +1,89 @@
+{
+  "id": "cargo:julgador-da-camara-superior-do-ibs",
+  "tipo": "cargo",
+  "nome": "Julgador da Câmara Superior do IBS",
+  "resumo": "Servidor de fisco estadual ou municipal ou representante dos contribuintes que uniformiza, na Câmara Superior do CGIBS, a jurisprudência sobre a legislação específica do IBS.",
+  "detalhes": "São 4 servidores indicados pelos fiscos dos estados e do DF, 4 pelos fiscos dos municípios e do DF e 8 representantes dos contribuintes, cada um com suplente (LC 227/2026, art. 96, §§ 1º e 5º). Os servidores precisam ter integrado, por pelo menos dois mandatos, câmaras de segunda instância do contencioso tributário de estado, do DF ou de município (art. 96, § 4º).",
+  "orgao": "org:camara-superior-do-ibs",
+  "provimento": "variavel",
+  "provimento_casos": [
+    {
+      "quando": "servidores indicados pelas administrações tributárias dos estados e do DF (4) e dos municípios e do DF (4)",
+      "provimento": "designacao",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 96, § 1º, I e II, e §§ 4º e 7º"
+        }
+      ]
+    },
+    {
+      "quando": "representantes dos contribuintes (8): nomeados, na forma de ato do CGIBS, entre pessoas indicadas por entidades representativas de categorias econômicas e aprovadas em processo seletivo público",
+      "provimento": "nomeacao-a-partir-de-lista",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 96, § 1º, III, e § 2º"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "Os servidores são indicados pelos fiscos; os representantes dos contribuintes são nomeados pelo CGIBS entre os indicados pelas entidades econômicas e aprovados em seleção pública. Pelo menos 30% das vagas de servidores são de mulheres, e a representação dos estados e a dos municípios são paritárias (LC 227/2026, art. 89, §§ 3º e 4º).",
+  "campos": {
+    "provimento_casos": {
+      "confianca": "inferido",
+      "nota": "Mesma aproximação dos julgadores de segunda instância: a lei não diz qual órgão do CGIBS nomeia, e o ato do CGIBS não foi localizado."
+    }
+  },
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida (a lei não limita o número)",
+    "nota": "Dois anos (LC 227/2026, art. 90). Renuncia tacitamente quem retém processos ou não redige acórdãos nos prazos do CGIBS, ou falta a 3 sessões seguidas ou 5 alternadas no quadrimestre sem justificativa aceita; perde o mandato quem usa meios ilícitos para atrasar julgamentos, favorece alguém ou comete falta grave prevista em ato do CGIBS, por decisão irrecorrível do Presidente do CGIBS (arts. 100 e 101)."
+  },
+  "vagas": 16,
+  "vagas_nota": "8 servidores e 8 representantes dos contribuintes, mais o presidente (cargo:presidente-da-camara-superior-do-ibs), com igual número de suplentes (art. 96, §§ 1º e 5º).",
+  "requisitos": [
+    {
+      "texto": "servidor: de carreira do estado, de município do estado ou do DF com competência para lançar ou julgar tributos, e ter integrado por pelo menos 2 mandatos câmara de segunda instância do contencioso tributário estadual, distrital ou municipal",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 96, §§ 4º e 7º"
+        }
+      ]
+    },
+    {
+      "texto": "representante dos contribuintes: graduação superior há pelo menos 3 anos e 3 anos de experiência tributária e contábil depois dela; indicação por entidade de categoria econômica e aprovação em seleção pública",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 89, § 2º, II"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 89, 90 e 96"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 66, § 9º; arts. 99 a 101",
+      "nota": "Impedimentos, garantia das opiniões e perda do mandato."
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); a composição não foi localizada (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11): sem pessoas. Quatro deles (2 estaduais e 2 municipais) e 2 representantes dos contribuintes são indicados pelo CGIBS para a Câmara Nacional de Integração (LC 214/2025, art. 323-G, § 1º, II e III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

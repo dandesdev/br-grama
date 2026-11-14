@@ -1,0 +1,27 @@
+{
+  "id": "obj:sumula-da-camara-superior-do-ibs",
+  "tipo": "objeto",
+  "nome": "Súmula da Câmara Superior do IBS",
+  "resumo": "Tese fixada pela Câmara Superior do IBS em matéria repetitiva da legislação específica do imposto; obriga todos os julgadores do contencioso do IBS.",
+  "detalhes": "Sai do julgamento de incidente de uniformização e vale como provimento vinculante desde a publicação no Diário Eletrônico do CGIBS, inclusive para impugnações e recursos pendentes sobre a mesma questão de direito (LC 227/2026, arts. 74, V, e 81, §§ 1º e 2º). O CGIBS pode rever a tese de ofício ou a pedido (art. 81, § 3º).",
+  "tipo_objeto": "ato-normativo",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 74, V; art. 81, §§ 1º a 3º; art. 95, IV"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "A lei diz 'súmulas editadas pelo CGIBS' (art. 74, V) e atribui a edição à Câmara Superior (art. 81, § 1º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

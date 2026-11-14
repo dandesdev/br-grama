@@ -1,0 +1,27 @@
+{
+  "id": "rel:arquetipo-estadual-procuradoria-geral-oficia-junto-a-camaras-de-julgamento-do-ibs",
+  "tipo": "relacao",
+  "nome": "A Procuradoria-Geral do Estado representa a Fazenda nas câmaras de julgamento do IBS",
+  "relacao": "oficia-junto-a",
+  "de": "org:arquetipo-estadual-procuradoria-geral",
+  "para": "org:camaras-de-julgamento-do-ibs",
+  "condicao": "Procuradores do estado ou autoridades fiscais, conforme a lei estadual, defendem a Fazenda, recorrem, apresentam contrarrazões e falam nas sessões; o fisco que lançou pode atuar como assistente.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 97"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "A lei fala em representação 'perante as Câmaras de Julgamento' e lhe dá os recursos de todas as instâncias (art. 97, § 1º, II; arts. 79, § 1º, I, e 84, I; LC 214/2025, art. 323-G, § 3º, I); ligamos à primeira instância, onde o processo começa. Quando a lei estadual dá a representação à autoridade fiscal, quem atua é o fisco, não a procuradoria.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

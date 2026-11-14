@@ -1,0 +1,67 @@
+{
+  "id": "cargo:julgador-de-primeira-instancia-do-ibs",
+  "tipo": "cargo",
+  "nome": "Julgador das Câmaras de Julgamento do IBS",
+  "resumo": "Servidor de fisco estadual, distrital ou municipal que julga, na primeira instância do CGIBS, as impugnações contra lançamentos do IBS, com mandato de 2 anos.",
+  "detalhes": "Em cada câmara, 2 julgadores vêm do fisco do estado e 2 dos fiscos dos municípios do estado (no DF, 4 do DF), mais o presidente, que só vota no empate e é escolhido em alternância anual entre os servidores do estado e os dos municípios (LC 227/2026, art. 92, §§ 3º e 4º). Cada um tem suplente (art. 92, § 6º). Não pode julgar quem participou da autuação ou da diligência, respondeu consulta do contribuinte sobre o tema ou tem vínculo com a parte (art. 66, § 9º).",
+  "orgao": "org:camaras-de-julgamento-do-ibs",
+  "provimento": "designacao",
+  "provimento_nota": "Indicado pela administração tributária do estado ou dos municípios a que a câmara se refere, na forma de ato do CGIBS (LC 227/2026, art. 92, § 3º, I e II). Continua servidor do ente de origem e exerce a função com mandato. Pelo menos 30% das vagas de servidores são de mulheres, e a representação dos estados e a dos municípios são paritárias (LC 227/2026, art. 89, §§ 3º e 4º).",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A lei só diz que os servidores são 'indicados' e que a câmara é integrada 'na forma prevista em ato do CGIBS' (art. 92, § 3º); usamos designacao (membro de colegiado com mandato, D54). O ato do CGIBS não foi localizado."
+    }
+  },
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "reconducao": "permitida (a lei não limita o número)",
+    "nota": "Dois anos (LC 227/2026, art. 90). Renuncia tacitamente quem retém processos ou não redige acórdãos nos prazos do CGIBS, ou falta a 3 sessões seguidas ou 5 alternadas no quadrimestre sem justificativa aceita; perde o mandato quem usa meios ilícitos para atrasar julgamentos, favorece alguém ou comete falta grave prevista em ato do CGIBS, por decisão irrecorrível do Presidente do CGIBS (arts. 100 e 101)."
+  },
+  "vagas": null,
+  "vagas_nota": "Por câmara, 4 servidores e o presidente, nas 27 câmaras, com igual número de suplentes; se o CGIBS criar turmas, cada turma tem a mesma composição (art. 92, §§ 1º, 3º, 5º e 6º). O total depende do número de turmas, não fixado.",
+  "requisitos": [
+    {
+      "texto": "servidor de carreira do estado, de município do estado ou do DF com competência para lançar ou julgar tributos",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 89, § 2º, I, a"
+        }
+      ]
+    },
+    {
+      "texto": "graduação em curso superior (a experiência em julgamento tributário no ente de origem é preferencial, não obrigatória)",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 89, § 2º, I, b e c"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 89, 90 e 92"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 66, §§ 9º a 11; arts. 99 a 101",
+      "nota": "Impedimentos, garantia das opiniões e perda do mandato."
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); a composição das câmaras não foi localizada (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "Cargo agregado (D11): sem pessoas. O presidente da câmara não tem cargo próprio; ele aprova as justificativas de ausência (art. 100, parágrafo único) e recebe a lista de empresas ligadas a cada julgador (art. 66, § 10).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

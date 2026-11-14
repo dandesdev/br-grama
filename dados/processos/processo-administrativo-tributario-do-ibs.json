@@ -1,0 +1,443 @@
+{
+  "id": "proc:processo-administrativo-tributario-do-ibs",
+  "tipo": "processo",
+  "nome": "Processo administrativo tributário do IBS",
+  "resumo": "Caminho da contestação de uma cobrança de IBS no CGIBS: impugnação, julgamento por câmara do estado, recursos à câmara recursal e uniformização nacional.",
+  "detalhes": "Vale para lançamentos de ofício, multas por obrigações acessórias e restituições ou ressarcimentos negados (LC 227/2026, art. 54). Tudo é eletrônico, no sistema do CGIBS, e os prazos contam só dias úteis, suspensos de 20/12 a 20/1; sem prazo próprio, o ato da parte tem 10 dias (arts. 56, 57 e 62). Intimações vão pelo domicílio tributário eletrônico, e o contribuinte se considera intimado 10 dias depois da entrega (art. 64). Os julgadores seguem as súmulas vinculantes e as decisões do STF em controle concentrado, as do STF e do STJ em repercussão geral e repetitivos, as súmulas do CGIBS e as decisões da Câmara Nacional, e não podem deixar de aplicar a lei por inconstitucionalidade (art. 74).",
+  "forma": "linha",
+  "etapas": [
+    {
+      "id": "impugnacao",
+      "atores": [
+        "org:camaras-de-julgamento-do-ibs"
+      ],
+      "acao": "O contribuinte impugna o lançamento em 20 dias, com todas as provas; a parte que ele reconhece vai à cobrança",
+      "detalhes": "A impugnação abre o contencioso. Provas depois só por justa causa ou para rebater alegação nova; perícia e diligência pedem-se junto, com os pontos a esclarecer. Impugnação fora do prazo, de quem não tem legitimidade ou sem pedido é indeferida, mas não pode ser recusada no protocolo.",
+      "prazo": {
+        "texto": "20 dias úteis contados da intimação do lançamento",
+        "valor": 20,
+        "unidade": "dias-uteis",
+        "conta_de": "intimação do lançamento de ofício",
+        "efeito": "sem impugnação, o contribuinte é considerado revel (art. 73)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 54 a 64, 67 e 68"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-primeira-instancia",
+          "quando": null
+        },
+        {
+          "para": "revelia",
+          "quando": "não há impugnação no prazo"
+        }
+      ]
+    },
+    {
+      "id": "julgamento-primeira-instancia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:camaras-de-julgamento-do-ibs"
+      ],
+      "acao": "A Câmara de Julgamento do estado do lançamento julga em sessão virtual; o presidente só vota no empate",
+      "detalhes": "As partes são intimadas da pauta com 10 dias de antecedência e podem fazer sustentação oral. O julgador pode mandar fazer diligências (20 dias úteis para cumprir, 20 dias para a parte se manifestar) e declara as nulidades, mas não as pronuncia se puder decidir o mérito a favor do contribuinte. A decisão é motivada e publicada pelo CGIBS. Cabe pedido de retificação em 5 dias (regime pedido-de-retificacao).",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 65, 66, 69 a 71, 74, 88, 91, 92 e 98"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-de-oficio",
+          "quando": "a decisão é, no todo ou em parte, contrária à Fazenda"
+        },
+        {
+          "para": "recurso-voluntario",
+          "quando": "a decisão é contrária ao contribuinte"
+        },
+        {
+          "para": "desistencia",
+          "quando": "o contribuinte desiste, paga, parcela, compensa ou leva a matéria à Justiça"
+        },
+        {
+          "para": "decisao-definitiva",
+          "quando": "ninguém recorre"
+        }
+      ]
+    },
+    {
+      "id": "recurso-de-oficio",
+      "atores": [
+        "org:camaras-de-julgamento-do-ibs"
+      ],
+      "acao": "Se a decisão é contrária à Fazenda, a própria câmara recorre de ofício à segunda instância",
+      "detalhes": "O recurso de ofício consta da decisão e, mesmo se faltar, considera-se interposto por força da lei. Não cabe abaixo do valor mínimo nacional fixado pelo CGIBS, se o tributo foi pago, em remissão, em multa mais branda por lei nova, em decisão unânime que seguiu provimento vinculante nem no rito sumário.",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 75, I, e 77"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-segunda-instancia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recurso-voluntario",
+      "atores": [
+        "org:camaras-recursais-de-julgamento-do-ibs"
+      ],
+      "acao": "O contribuinte vencido recorre em 20 dias à Câmara Recursal; a outra parte pode responder em 20 dias",
+      "detalhes": "O recurso devolve toda a matéria recorrida; a parte não recorrida fica reconhecida. Recurso fora do prazo não suspende a cobrança. Se a vencida é a Fazenda estadual, distrital ou municipal, o prazo de recurso dela conta em dobro.",
+      "prazo": {
+        "texto": "20 dias úteis contados da intimação da decisão; contrarrazões em 20 dias úteis",
+        "valor": 20,
+        "unidade": "dias-uteis",
+        "conta_de": "intimação da decisão de primeira instância",
+        "efeito": "sem recurso, opera-se a desistência tácita (art. 72, II, c)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 68, § 2º; arts. 75, II, e §§ 1º e 2º, e 78"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-segunda-instancia",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento-segunda-instancia",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:camaras-recursais-de-julgamento-do-ibs"
+      ],
+      "acao": "A Câmara Recursal do mesmo estado julga os recursos de ofício e voluntário, com fiscais e contribuintes",
+      "detalhes": "Julga a câmara recursal do estado do fisco que lançou. Cabe pedido de retificação em 5 dias. Contra a decisão que diverge de outra cabe recurso de uniformização (lei específica do IBS) ou recurso especial (lei comum ao IBS e à CBS).",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 88, 93 e 94"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recurso-de-uniformizacao",
+          "quando": "diverge de outra decisão na legislação específica do IBS"
+        },
+        {
+          "para": "recurso-especial",
+          "quando": "diverge de outra decisão do CGIBS ou do Carf na legislação comum ao IBS e à CBS"
+        },
+        {
+          "para": "desistencia",
+          "quando": "o contribuinte desiste, paga, parcela, compensa ou leva a matéria à Justiça"
+        },
+        {
+          "para": "decisao-definitiva",
+          "quando": "não há divergência ou ninguém recorre"
+        }
+      ]
+    },
+    {
+      "id": "recurso-de-uniformizacao",
+      "atores": [
+        "org:camara-superior-do-ibs"
+      ],
+      "acao": "A Fazenda ou o contribuinte recorre em 10 dias à Câmara Superior, mostrando a divergência com outra decisão",
+      "detalhes": "Não é conhecido se a decisão usada como paradigma foi superada ou se contraria súmula do CGIBS. A outra parte responde em 10 dias, e só a matéria divergente sobe.",
+      "prazo": {
+        "texto": "10 dias úteis contados da intimação da decisão; contrarrazões em 10 dias úteis",
+        "valor": 10,
+        "unidade": "dias-uteis",
+        "conta_de": "intimação da decisão de segunda instância"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 62, 75, III, e 79"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-uniformizacao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento-uniformizacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:camara-superior-do-ibs"
+      ],
+      "acao": "A Câmara Superior do IBS julga o recurso de uniformização e firma a interpretação nacional",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 79, § 5º, 95, I, e 96"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao-definitiva",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "recurso-especial",
+      "atores": [
+        "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs"
+      ],
+      "acao": "A Fazenda ou o contribuinte leva a divergência sobre lei comum ao IBS e à CBS à Câmara Nacional, em 10 dias úteis",
+      "detalhes": "A petição transcreve a ementa e os trechos da decisão paradigma. O recurso suspende a cobrança do crédito. Cabe também contra decisão de primeira instância no rito sumário e contra decisões do Carf.",
+      "prazo": {
+        "texto": "10 dias úteis",
+        "valor": 10,
+        "unidade": "dias-uteis",
+        "conta_de": "intimação da decisão recorrida"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-G, caput e §§ 2º a 4º"
+        },
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 75, IV"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "julgamento-camara-nacional",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "julgamento-camara-nacional",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs"
+      ],
+      "acao": "A Câmara Nacional de Integração decide só a questão de direito; a decisão vincula os julgadores da União e do CGIBS",
+      "detalhes": "Pode divergir do paradigma e da decisão recorrida, não reexamina provas e não afasta lei por inconstitucionalidade; a decisão é publicada no DOU. Não cabe recurso da decisão que não admite o recurso especial.",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-G, §§ 5º e 6º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "decisao-definitiva",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "revelia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "Sem impugnação no prazo, o contribuinte é considerado revel",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 73"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "desistencia",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "O litígio acaba por desistência, pagamento, parcelamento, compensação ou ação judicial sobre a mesma matéria",
+      "detalhes": "Matéria diferente da levada à Justiça continua no processo administrativo. Com vários interessados, a desistência só atinge quem desistiu.",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 72"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "decisao-definitiva",
+      "tipo_etapa": "fim",
+      "atores": [],
+      "acao": "A decisão fica definitiva na via administrativa e é publicada pelo CGIBS",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 98"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "regimes": [
+    {
+      "id": "rito-sumario",
+      "nome": "Rito sumário",
+      "resumo": "Processos de valor até a alçada nacional (no máximo 1.000 UPFs) ou de matéria simples terminam na primeira instância, sem recurso voluntário nem de ofício.",
+      "detalhes": "As matérias simples citadas na lei são restituição e ressarcimento negados, exclusão de parcelamento especial e indeferimento ou exclusão do Simples Nacional; esta última só a partir de 1º/1/2027 (LC 227/2026, art. 182, I, a). O CGIBS define o rito em ato próprio. Continuam cabíveis o pedido de retificação e o recurso especial à Câmara Nacional e, nos casos de valor, o recurso de uniformização.",
+      "quem_aciona": [
+        "org:comite-gestor-do-ibs"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 76; art. 77, § 3º, VI; art. 79, caput"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "julgamento-primeira-instancia",
+          "nota": "A decisão é definitiva, salvo pedido de retificação, recurso especial e, se o caso é de valor, recurso de uniformização."
+        },
+        {
+          "etapa": "recurso-de-oficio",
+          "nota": "Não cabe."
+        },
+        {
+          "etapa": "recurso-voluntario",
+          "nota": "Não cabe."
+        }
+      ]
+    },
+    {
+      "id": "pedido-de-retificacao",
+      "nome": "Pedido de retificação",
+      "resumo": "Em 5 dias da intimação, a Fazenda ou o contribuinte pede à câmara que decidiu que corrija erro de fato, contradição, obscuridade ou omissão.",
+      "detalhes": "O pedido interrompe o prazo de recurso e é decidido pelo mesmo órgão; não cabe novo pedido contra a decisão que o rejeita. O contribuinte também pode pedir, mas não é nó do mapa.",
+      "quem_aciona": [
+        "org:arquetipo-estadual-procuradoria-geral",
+        "ente:arquetipo-municipal"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 80, 91, II, 93, parágrafo único, e 95, III"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "julgamento-primeira-instancia",
+          "prazo": {
+            "texto": "5 dias úteis contados da intimação da decisão",
+            "valor": 5,
+            "unidade": "dias-uteis",
+            "conta_de": "intimação da decisão"
+          },
+          "nota": "Interrompe o prazo do recurso."
+        },
+        {
+          "etapa": "julgamento-segunda-instancia",
+          "prazo": {
+            "texto": "5 dias úteis contados da intimação da decisão",
+            "valor": 5,
+            "unidade": "dias-uteis",
+            "conta_de": "intimação da decisão"
+          },
+          "nota": "Interrompe o prazo do recurso."
+        },
+        {
+          "etapa": "julgamento-uniformizacao",
+          "prazo": {
+            "texto": "5 dias úteis contados da intimação da decisão",
+            "valor": 5,
+            "unidade": "dias-uteis",
+            "conta_de": "intimação da decisão"
+          }
+        }
+      ]
+    },
+    {
+      "id": "incidente-de-uniformizacao",
+      "nome": "Incidente de uniformização na Câmara Superior",
+      "resumo": "A Câmara Superior fixa tese e edita súmula vinculante em matéria repetitiva da lei específica do IBS, ou corrige decisão de segunda instância que ignorou provimento vinculante.",
+      "detalhes": "Na matéria repetitiva, o incidente exige 5 decisões definitivas de segunda instância ou 3 da Câmara Superior, por maioria, em sessões diferentes; pode ser suscitado pela Fazenda ou pelos presidentes das câmaras recursais e da Câmara Superior, e não suspende a cobrança. Contra decisão que ignorou provimento vinculante, suscitam a Fazenda ou o contribuinte, e a cobrança fica suspensa.",
+      "quem_aciona": [
+        "org:arquetipo-estadual-procuradoria-geral",
+        "ente:arquetipo-municipal",
+        "cargo:presidente-da-camara-superior-do-ibs",
+        "cargo:julgador-de-segunda-instancia-do-ibs"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "arts. 81 a 87 e 95, II e IV"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "julgamento-uniformizacao",
+          "nota": "A tese firmada vira súmula vinculante a partir da publicação no Diário Eletrônico do CGIBS e alcança impugnações e recursos pendentes e futuros sobre a mesma questão."
+        },
+        {
+          "etapa": "julgamento-segunda-instancia",
+          "nota": "Decisão que deixou de aplicar provimento vinculante pode ser levada à Câmara Superior por incidente."
+        }
+      ]
+    },
+    {
+      "id": "incidente-de-uniformizacao-nacional",
+      "nome": "Incidente de uniformização na Câmara Nacional",
+      "resumo": "A Câmara Nacional de Integração fixa tese e edita súmula vinculante em matéria repetitiva da lei comum ao IBS e à CBS, ou corrige decisão que ignorou provimento vinculante.",
+      "detalhes": "Na matéria repetitiva, exige 5 decisões definitivas de câmaras do CGIBS ou do Carf, ou 3 da Câmara Nacional, por maioria; suscitam a Fazenda e os presidentes das câmaras do CGIBS, do Carf e da Câmara Nacional, sem suspender a cobrança. Contra decisão que ignorou provimento vinculante, suscitam a Fazenda ou o contribuinte, com suspensão da cobrança. O processamento depende de ato conjunto do CGIBS e do Ministro da Fazenda.",
+      "quem_aciona": [
+        "org:arquetipo-estadual-procuradoria-geral",
+        "ente:arquetipo-municipal",
+        "cargo:julgador-de-primeira-instancia-do-ibs",
+        "cargo:julgador-de-segunda-instancia-do-ibs"
+      ],
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "arts. 323-H a 323-M"
+        }
+      ],
+      "efeitos": [
+        {
+          "etapa": "julgamento-camara-nacional",
+          "nota": "A súmula vale como provimento vinculante a partir da publicação no DOU e alcança impugnações e recursos pendentes e futuros sobre a mesma questão."
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, arts. 54 a 102, e LC 214/2025, arts. 323-G a 323-M (incluídos pelo art. 174 da LC 227), com efeitos desde a publicação, 14/1/2026 (LC 227, art. 182, III); o rito sumário para o Simples Nacional (art. 76, II, c) só vale a partir de 1º/1/2027 (art. 182, I, a). Em 2026 o IBS é cobrado à alíquota de teste de 0,1%, com dispensa do recolhimento para quem cumpre as obrigações acessórias (LC 214/2025, arts. 343 e 348, § 1º), e não achamos ato que componha os órgãos de julgamento (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 54 a 102"
+    },
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 323-G a 323-M"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Nos regimes de incidente, os cargos de julgador em quem_aciona representam os presidentes das câmaras, que não têm cargo próprio (arts. 84, II; LC 214/2025, art. 323-J, II). O contribuinte (sujeito passivo) não é nó do mapa: a etapa de impugnação tem como ator o órgão que a recebe, como em proc:pedido-de-acesso-a-informacao. A representação da Fazenda (art. 97) está em rel:arquetipo-estadual-procuradoria-geral-oficia-junto-a-camaras-de-julgamento-do-ibs e rel:arquetipo-municipal-oficia-junto-a-camaras-de-julgamento-do-ibs. Os prazos da LC 227 contam em dias úteis (art. 62); o do recurso especial a LC 214 diz em dias úteis.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:arquetipo-estadual-indica-julgador-da-camara-superior-do-ibs",
+  "tipo": "relacao",
+  "nome": "O fisco estadual indica julgadores da Câmara Superior do IBS",
+  "relacao": "indica",
+  "de": "ente:arquetipo-estadual",
+  "para": "cargo:julgador-da-camara-superior-do-ibs",
+  "condicao": "As administrações tributárias dos estados e do DF indicam 4 servidores, que precisam ter tido 2 mandatos em segunda instância de contencioso tributário.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 96, § 1º, I, e § 7º; art. 89, §§ 2º, I, e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

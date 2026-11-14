@@ -1,0 +1,27 @@
+{
+  "id": "rel:randolfe-rodrigues-ocupa-lider-do-governo-no-congresso-nacional",
+  "tipo": "relacao",
+  "nome": "Randolfe Rodrigues é Líder do Governo no Congresso Nacional",
+  "relacao": "ocupa",
+  "de": "pessoa:randolfe-rodrigues",
+  "para": "cargo:lider-do-governo-no-congresso-nacional",
+  "vigencia": {
+    "de": "2023-01-06",
+    "ate": null,
+    "nota": "Data de designação registrada na API do Senado. Em exercício em 2026-10-23 (cópia da API dessa data), com designação anterior à data de referência; logo, também em 2026-10-01, como nas demais lideranças do mapa."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-composicao-lideranca",
+      "dispositivo": "registro 15196, 'Liderança do Governo no Congresso Nacional', tipo 'Líder', dataDesignacao 2023-01-06",
+      "nota": "Cópia bruta em pesquisa/brutos/senado-dados-abertos/2026-10-23-processos-legislativos/composicao-lideranca.json."
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (ocupantes da cúpula; o item ficou entre as partes A e B, e a parte A o deixou para a B)"
+  }
+}

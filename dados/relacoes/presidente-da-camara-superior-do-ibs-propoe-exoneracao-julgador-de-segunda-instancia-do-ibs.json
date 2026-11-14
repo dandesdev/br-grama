@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-da-camara-superior-do-ibs-propoe-exoneracao-julgador-de-segunda-instancia-do-ibs",
+  "tipo": "relacao",
+  "nome": "O Presidente da Câmara Superior do IBS propõe a perda de mandato de julgador das Câmaras Recursais",
+  "relacao": "propoe-exoneracao",
+  "de": "cargo:presidente-da-camara-superior-do-ibs",
+  "para": "cargo:julgador-de-segunda-instancia-do-ibs",
+  "condicao": "Quando o julgador usa meios ilícitos para atrasar julgamentos, favorece alguém ou comete falta grave prevista em ato do CGIBS, depois de processo com ampla defesa.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 101, caput e § 1º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

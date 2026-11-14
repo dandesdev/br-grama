@@ -1,0 +1,34 @@
+{
+  "id": "rel:waldemar-goncalves-ortunho-junior-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Waldemar Gonçalves Ortunho Junior é Diretor-Presidente da ANPD",
+  "relacao": "ocupa",
+  "de": "pessoa:waldemar-goncalves-ortunho-junior",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Diretor-Presidente da ANPD.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início não pesquisado (decreto de nomeação não buscado; sobre os mandatos na ANPD, ver aviso:mandato-conselho-diretor-anpd). Em exercício em 2026-10-01: assina como Diretor-Presidente em 23/9 e 5/10/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GABPR/ANPD nº 669, de 23/9/2026 (DOU 25/9/2026, Seção 2, p. 45), assinada por Waldemar Gonçalves Ortunho Junior",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabpr/anpd-n-669-de-23-de-setembro-de-2026-734366762"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria GABPR/ANPD nº 692, de 5/10/2026, do Diretor-Presidente da ANPD (DOU 6/10/2026, Seção 2), assinada por Waldemar Gonçalves Ortunho Junior",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-gabpr/anpd-n-692-de-5-de-outubro-de-2026-736726724"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  },
+  "orgao_exercicio": "org:anpd"
+}

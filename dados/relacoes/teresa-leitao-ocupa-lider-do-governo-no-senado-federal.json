@@ -1,0 +1,27 @@
+{
+  "id": "rel:teresa-leitao-ocupa-lider-do-governo-no-senado-federal",
+  "tipo": "relacao",
+  "nome": "Teresa Leitão é Líder do Governo no Senado Federal",
+  "relacao": "ocupa",
+  "de": "pessoa:teresa-leitao",
+  "para": "cargo:lider-do-governo-no-senado-federal",
+  "vigencia": {
+    "de": "2026-06-26",
+    "ate": null,
+    "nota": "Data de designação registrada na API do Senado. Em exercício em 2026-10-23 (cópia da API dessa data), com designação anterior à data de referência; logo, também em 2026-10-01, como nas demais lideranças do mapa."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-composicao-lideranca",
+      "dispositivo": "registro 18557, 'Liderança do Governo no Senado Federal', tipo 'Líder', dataDesignacao 2026-06-26; observação 5767: designada Líder do Governo em 26/6/2026 pela Mensagem nº 549/2026 da Presidência da República",
+      "nota": "Cópia bruta em pesquisa/brutos/senado-dados-abertos/2026-10-23-processos-legislativos/composicao-lideranca.json."
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (ocupantes da cúpula; o item ficou entre as partes A e B, e a parte A o deixou para a B)"
+  }
+}

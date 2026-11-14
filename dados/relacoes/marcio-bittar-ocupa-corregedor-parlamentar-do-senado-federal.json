@@ -1,0 +1,27 @@
+{
+  "id": "rel:marcio-bittar-ocupa-corregedor-parlamentar-do-senado-federal",
+  "tipo": "relacao",
+  "nome": "Marcio Bittar é Corregedor Parlamentar do Senado",
+  "relacao": "ocupa",
+  "de": "pessoa:marcio-bittar",
+  "para": "cargo:corregedor-parlamentar-do-senado-federal",
+  "vigencia": {
+    "de": "2023-03-22",
+    "ate": null,
+    "nota": "Data de início que a API do Senado registra para o cargo de Corregedor na Corregedoria Parlamentar (comissão 446), sem data de fim; a página de composição do Senado, na versão de 14/11/2026, ainda o mostra como Corregedor. Não há registro de nova escolha em 2025; tratamos como um só período contínuo."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-cargos-de-senadores",
+      "dispositivo": "senador 285: comissão 446 (CORREG), cargo 'CORREGEDOR', DataInicio 2023-03-22, sem DataFim",
+      "nota": "Consulta de 2026-11-14 a https://legis.senado.leg.br/dadosabertos/senador/285/cargos; cópia em pesquisa/brutos/senado-dados-abertos/2026-11-14-f2-fechamento-b/senador-285-cargos.json. Composição da CORREG (legis.senado.leg.br/atividade/comissoes/comissao/446/composicao, data da composição 14/11/2026) em pesquisa/brutos/senado/2026-11-14-f2-fechamento-b/sen-comp-446.html."
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (ocupantes da cúpula das Casas)"
+  }
+}

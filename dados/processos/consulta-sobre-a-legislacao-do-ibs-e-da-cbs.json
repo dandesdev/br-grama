@@ -1,0 +1,186 @@
+{
+  "id": "proc:consulta-sobre-a-legislacao-do-ibs-e-da-cbs",
+  "tipo": "processo",
+  "nome": "Consulta sobre a legislação do IBS e da CBS",
+  "resumo": "O contribuinte pergunta ao fisco como a lei se aplica a um fato seu; o CGIBS e a Receita Federal respondem juntos nas regras comuns, com o Comitê de Harmonização nas divergências.",
+  "detalhes": "A consulta impede fiscalização sobre o tema até a resposta, se feita antes do vencimento, mas não suspende prazos de pagamento nem de obrigações acessórias. A solução vincula o fisco e o consulente naquele fato: quem a segue não é autuado enquanto ela valer, e o imposto que ela aponta é pago em 15 dias sem multa (LC 214/2025, arts. 323-C a 323-E).",
+  "forma": "linha",
+  "produz": "obj:solucao-de-consulta-do-ibs-e-da-cbs",
+  "etapas": [
+    {
+      "id": "consulta",
+      "atores": [
+        "org:diretorias-do-cgibs",
+        "org:receita-federal"
+      ],
+      "acao": "O contribuinte apresenta consulta escrita sobre um fato determinado ao CGIBS (IBS) ou à Receita Federal (CBS)",
+      "detalhes": "A petição qualifica o consulente, diz a dúvida de direito, a data do fato gerador e se já há fiscalização; cada consulta trata de uma só matéria. No CGIBS, responde a Diretoria de Tributação (Resolução CGIBS 6/2026, arts. 445, I, e 565).",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-A"
+        },
+        {
+          "ref": "norma:resolucao-cgibs-6-2026",
+          "dispositivo": "arts. 444, 445 e 565"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "minuta",
+          "quando": null
+        },
+        {
+          "para": "ineficaz",
+          "quando": "a consulta é inexata, protelatória, sobre inconstitucionalidade ou feita depois de iniciada a fiscalização"
+        }
+      ]
+    },
+    {
+      "id": "minuta",
+      "atores": [
+        "org:diretorias-do-cgibs",
+        "org:receita-federal"
+      ],
+      "acao": "O órgão consultado prepara a minuta da resposta e a põe em ambiente virtual compartilhado com o outro",
+      "detalhes": "Pelo regulamento do IBS, o compartilhamento não se aplica às matérias específicas do IBS ou da CBS, que o órgão consultado responde sozinho (Resolução CGIBS 6/2026, art. 445, § 5º).",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-B, caput e § 1º"
+        },
+        {
+          "ref": "norma:resolucao-cgibs-6-2026",
+          "dispositivo": "art. 445, § 5º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "avaliacao",
+          "quando": "matéria comum ao IBS e à CBS"
+        },
+        {
+          "para": "solucao",
+          "quando": "matéria específica de um dos tributos"
+        }
+      ]
+    },
+    {
+      "id": "avaliacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:diretorias-do-cgibs",
+        "org:receita-federal"
+      ],
+      "acao": "O outro órgão, em 30 dias, acolhe a minuta, leva a divergência ao Comitê de Harmonização ou nega matéria comum",
+      "prazo": {
+        "texto": "30 dias da disponibilização da minuta, prorrogáveis uma vez por igual período, com justificativa",
+        "valor": 30,
+        "unidade": "dias",
+        "conta_de": "disponibilização da minuta",
+        "efeito": "sem manifestação, a minuta se considera aceita e sai como solução conjunta, com aviso da aceitação tácita"
+      },
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-B, §§ 1º e 3º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "solucao",
+          "quando": "acolhe a minuta, deixa o prazo correr ou declara que não há matéria comum"
+        },
+        {
+          "para": "harmonizacao",
+          "quando": "diverge da minuta"
+        }
+      ]
+    },
+    {
+      "id": "harmonizacao",
+      "tipo_etapa": "decisao",
+      "atores": [
+        "org:comite-de-harmonizacao-das-administracoes-tributarias"
+      ],
+      "acao": "O Comitê de Harmonização decide a divergência por resolução; até lá, a consulta fica suspensa",
+      "detalhes": "A resolução, publicada no DOU, vincula as administrações tributárias da União, dos estados, do DF e dos municípios.",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-B, § 2º; art. 321, § 1º"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "solucao",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "solucao",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:diretorias-do-cgibs",
+        "org:receita-federal"
+      ],
+      "acao": "Sai a solução de consulta, definitiva e sem recurso, que vincula o fisco e o consulente naquele fato",
+      "detalhes": "Não cabe recurso nem pedido de reconsideração. Norma posterior que conflite com a resposta a supera sem aviso ao consulente; a mudança de orientação não cobra o imposto dos fatos ocorridos entre a solução antiga e a nova. O prazo para responder fica para regulamento (pela Resolução CGIBS 6/2026, art. 449, para ato conjunto da Receita e do CGIBS, não localizado).",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "arts. 323-C, 323-E e 323-F"
+        },
+        {
+          "ref": "norma:resolucao-cgibs-6-2026",
+          "dispositivo": "art. 449"
+        }
+      ],
+      "seguintes": []
+    },
+    {
+      "id": "ineficaz",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:diretorias-do-cgibs",
+        "org:receita-federal"
+      ],
+      "acao": "A consulta é declarada sem efeito e não protege o consulente",
+      "fontes": [
+        {
+          "ref": "norma:lc-214-2025",
+          "dispositivo": "art. 323-D, parágrafo único; art. 323-F"
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 214/2025, arts. 323-A a 323-F, incluídos pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III). A Diretoria de Tributação responde pelo CGIBS desde a Resolução CGIBS 6/2026, em vigor na publicação, em 30/4/2026 (art. 617)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 323-A a 323-F"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 33, VI",
+      "nota": "A Diretoria de Tributação emite pareceres em soluções de consulta."
+    },
+    {
+      "ref": "norma:resolucao-cgibs-6-2026",
+      "dispositivo": "arts. 444 a 450 e 565"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A Diretoria de Tributação não tem nó próprio: está no conjunto org:diretorias-do-cgibs (D51). O contribuinte consulente não é nó do mapa; a primeira etapa tem como atores os órgãos que recebem a consulta. As etapas listam os dois órgãos porque o consultado e o avaliador trocam de papel conforme o tributo.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

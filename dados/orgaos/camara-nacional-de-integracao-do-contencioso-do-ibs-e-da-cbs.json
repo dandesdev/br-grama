@@ -1,0 +1,50 @@
+{
+  "id": "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs",
+  "tipo": "orgao",
+  "nome": "Câmara Nacional de Integração do Contencioso Administrativo do IBS e da CBS",
+  "resumo": "Colegiado da União e do CGIBS que julga recursos especiais e incidentes para uniformizar a jurisprudência administrativa sobre as regras comuns ao IBS e à CBS.",
+  "detalhes": "Recebe recurso especial, em 10 dias úteis, contra decisão de Câmara Recursal do CGIBS, de Câmara de Julgamento no rito sumário ou de órgão do Carf que interprete a legislação comum de forma divergente; o recurso suspende a cobrança, e a decisão, só sobre questão de direito, vincula os órgãos julgadores da União e do CGIBS a partir da publicação no DOU (LC 214/2025, art. 323-G, caput e §§ 4º e 5º). Também julga incidentes de uniformização e edita súmulas vinculantes (arts. 323-H a 323-L). Tem 4 conselheiros da Fazenda Nacional na Câmara Superior do Carf, indicados pelo Ministro da Fazenda; 4 membros fazendários da Câmara Superior do IBS (2 estaduais, 2 municipais), indicados pelo CGIBS; 4 representantes dos contribuintes, 2 de cada lado; e um presidente que só vota no empate, alternando entre Fazenda Nacional e CGIBS (art. 323-G, §§ 1º e 8º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Leitura nossa: reúne julgadores administrativos da União (Carf) e do CGIBS; é contencioso administrativo, não judicial."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Leitura nossa: reúne a União e o CGIBS (estados e municípios); usamos 'nacional'."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 323-G a 323-M",
+      "nota": "Incluídos pela LC 227/2026, art. 174."
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 74, VI; art. 75, IV; art. 79, § 6º"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-G, § 7º; art. 323-M",
+      "nota": "Mandatos, processamento e funcionamento definidos em ato conjunto do CGIBS e do Ministro da Fazenda, não localizado."
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Incluída na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde a publicação, DOU de 14/1/2026 (art. 182, III). Não achamos o ato conjunto que a regulamenta nem notícia oficial de instalação até 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "notas": "Sem contido_em, como org:comite-de-harmonizacao-das-administracoes-tributarias: reúne União e CGIBS, e a lei não a vincula a nenhum dos dois. O Carf (Ministério da Fazenda) não é nó do mapa; aparece só no texto.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

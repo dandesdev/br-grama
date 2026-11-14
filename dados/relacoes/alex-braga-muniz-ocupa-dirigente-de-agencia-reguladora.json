@@ -1,0 +1,35 @@
+{
+  "id": "rel:alex-braga-muniz-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Alex Braga Muniz é Diretor-Presidente da Ancine",
+  "relacao": "ocupa",
+  "de": "pessoa:alex-braga-muniz",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Diretor-Presidente da Ancine, com mandato até 19/10/2026.",
+  "vigencia": {
+    "de": "2021-10-20",
+    "ate": "2026-10-19",
+    "incerta": true,
+    "nota": "Início e fim do mandato pelo decreto de nomeação; a posse e a saída efetiva não foram conferidas. Em exercício em 2026-10-01: assina como Diretor-Presidente em 8/10/2026, dentro do mandato."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 21/7/2021 (DOU 22/7/2021, Seção 2, p. 1): nomeia Alex Braga Muniz, a partir de 20/10/2021, para o cargo de Diretor-Presidente da Ancine, com mandato até 19/10/2026",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-21-de-julho-de-2021-333497812"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de Termo de Ajuste de Conduta assinado em 8/10/2026 por Alex Braga Muniz, Diretor-Presidente da Ancine (DOU 9/10/2026, Seção 3, p. 11)",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-termo-de-ajuste-de-conduta-737561271"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  },
+  "orgao_exercicio": "org:ancine"
+}

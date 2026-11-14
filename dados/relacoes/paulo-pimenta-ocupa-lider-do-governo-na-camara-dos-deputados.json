@@ -1,0 +1,27 @@
+{
+  "id": "rel:paulo-pimenta-ocupa-lider-do-governo-na-camara-dos-deputados",
+  "tipo": "relacao",
+  "nome": "Paulo Pimenta é Líder do Governo na Câmara dos Deputados",
+  "relacao": "ocupa",
+  "de": "pessoa:paulo-pimenta",
+  "para": "cargo:lider-do-governo-na-camara-dos-deputados",
+  "vigencia": {
+    "de": "2026-04-14",
+    "ate": null,
+    "nota": "Data de designação registrada na API do Senado. Em exercício em 2026-10-23 (cópia da API dessa data), com designação anterior à data de referência; logo, também em 2026-10-01, como nas demais lideranças do mapa."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-api-composicao-lideranca",
+      "dispositivo": "registro 18382, 'Liderança do Governo na Câmara dos Deputados', tipo 'Líder', dataDesignacao 2026-04-14",
+      "nota": "Cópia bruta em pesquisa/brutos/senado-dados-abertos/2026-10-23-processos-legislativos/composicao-lideranca.json."
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (ocupantes da cúpula; o item ficou entre as partes A e B, e a parte A o deixou para a B)"
+  }
+}

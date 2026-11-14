@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-da-fazenda-indica-julgador-da-camara-nacional-de-integracao",
+  "tipo": "relacao",
+  "nome": "O Ministro da Fazenda indica julgadores da Câmara Nacional de Integração",
+  "relacao": "indica",
+  "de": "cargo:ministro-de-estado",
+  "para": "cargo:julgador-da-camara-nacional-de-integracao",
+  "condicao": "Indica 4 conselheiros da Fazenda Nacional e 2 representantes dos contribuintes, todos da Câmara Superior de Recursos Fiscais do Carf.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-G, § 1º, I e III"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Incluído na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III); órgão sem composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "orgao_exercicio": "org:ministerio-da-fazenda",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

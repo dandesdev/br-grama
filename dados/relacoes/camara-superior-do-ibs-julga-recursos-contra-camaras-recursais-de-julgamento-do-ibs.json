@@ -1,0 +1,26 @@
+{
+  "id": "rel:camara-superior-do-ibs-julga-recursos-contra-camaras-recursais-de-julgamento-do-ibs",
+  "tipo": "relacao",
+  "nome": "A Câmara Superior do IBS julga recursos de uniformização contra decisões das Câmaras Recursais",
+  "relacao": "julga-recursos-contra",
+  "de": "org:camara-superior-do-ibs",
+  "para": "org:camaras-recursais-de-julgamento-do-ibs",
+  "condicao": "Recurso de uniformização, em 10 dias, quando a decisão diverge de outra na legislação específica do IBS; cabe também contra decisão de primeira instância no rito sumário por valor (art. 76, I). Só a divergência é reexaminada.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "arts. 79, 95, I, e 76, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

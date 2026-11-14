@@ -9,6 +9,8 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 12.527/2011 (Lei de Acesso à Informação) | f2-administracao | 27 | 0 | 0 | 22 | 49 | 100,0% |
 | Lei 13.303/2016 (estatuto das empresas estatais) | f2-administracao | 43 | 0 | 0 | 54 | 97 | 100,0% |
 | Lei 12.813/2013 (conflito de interesses) | f2-administracao | 7 | 0 | 0 | 5 | 12 | 100,0% |
+| LC 227/2026, arts. 54 a 102 (processo administrativo tributário e órgãos de julgamento do IBS) | f2-cgibs-julgamento | 48 | 0 | 0 | 1 | 49 | 100,0% |
+| LC 214/2025, arts. 323-A a 323-M (consulta e integração do contencioso do IBS e da CBS) | f2-cgibs-julgamento | 13 | 0 | 0 | 0 | 13 | 100,0% |
 | LC 97/1999 (organização, preparo e emprego das Forças Armadas) | f2-defesa-seguranca | 22 | 0 | 0 | 4 | 26 | 100,0% |
 | Lei 9.883/1999 (Sistema Brasileiro de Inteligência e ABIN) | f2-defesa-seguranca | 14 | 0 | 0 | 2 | 16 | 100,0% |
 | Lei 13.675/2018 (Sistema Único de Segurança Pública) | f2-defesa-seguranca | 41 | 0 | 0 | 14 | 55 | 100,0% |
@@ -73,4 +75,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
 | Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 6093 artigos classificados; cobertura 99,4% (4 em lacuna, 32 parciais).
+Total: 6155 artigos classificados; cobertura 99,4% (4 em lacuna, 32 parciais).

@@ -1,0 +1,55 @@
+{
+  "id": "org:camaras-recursais-de-julgamento-do-ibs",
+  "tipo": "orgao",
+  "nome": "Câmaras Recursais de Julgamento do IBS (segunda instância)",
+  "resumo": "Segunda instância do contencioso administrativo do IBS no CGIBS: 27 câmaras virtuais, uma por estado e uma no DF, com fiscais e representantes dos contribuintes.",
+  "detalhes": "Julgam os recursos de ofício e voluntários contra as decisões da primeira instância do mesmo estado e os pedidos de retificação das próprias decisões (LC 227/2026, arts. 93 e 94, § 2º). Cada câmara tem 2 servidores indicados pelo fisco do estado e 2 pelos fiscos dos municípios (no DF, 4 servidores do DF), 4 representantes dos contribuintes e um presidente que só vota no empate, escolhido em alternância anual só entre os servidores (art. 94, §§ 3º e 5º). Os representantes dos contribuintes são nomeados entre pessoas indicadas por entidades de categorias econômicas e aprovadas em seleção pública (art. 94, § 4º).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "nacional",
+  "contido_em": "org:comite-gestor-do-ibs",
+  "campos": {
+    "poder": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: exerce competências administrativas tributárias dos Executivos dos entes."
+    },
+    "esfera": {
+      "confianca": "inferido",
+      "nota": "Mesma leitura do CGIBS: entidade dos estados, do DF e dos municípios em conjunto; usamos 'nacional'."
+    },
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 88, caput; art. 89, II e § 1º"
+        }
+      ],
+      "nota": "Mesma leitura das câmaras de primeira instância: instâncias no âmbito do CGIBS, sem subordinação a outro órgão do art. 7º."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 89, II, e §§ 1º a 4º; arts. 90, 93 e 94"
+    }
+  ],
+  "estrutura_continua": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 94, §§ 1º, 6º e 8º",
+      "nota": "Turmas recursais, número de turmas e funcionamento definidos em ato do CGIBS, não localizado."
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Previstas na LC 227/2026, em vigor desde a publicação (DOU de 14/1/2026, art. 182, III). Não achamos ato do CGIBS que as tenha instalado ou composto até 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs). Em 2026 o IBS é cobrado à alíquota de teste de 0,1%, com dispensa do recolhimento para quem cumpre as obrigações acessórias (LC 214/2025, arts. 343 e 348, § 1º)."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D51), com o cargo agregado cargo:julgador-de-segunda-instancia-do-ibs.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

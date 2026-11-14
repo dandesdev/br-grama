@@ -1,0 +1,35 @@
+{
+  "id": "rel:sandoval-de-araujo-feitosa-neto-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Sandoval de Araújo Feitosa Neto é Diretor-Geral da Aneel",
+  "relacao": "ocupa",
+  "de": "pessoa:sandoval-de-araujo-feitosa-neto",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Diretor-Geral da Aneel, com mandato até 13/8/2027.",
+  "vigencia": {
+    "de": "2022-08-14",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início do mandato pelo decreto de nomeação; a posse não foi conferida. Em exercício em 2026-10-01: dentro do mandato, e assina como Diretor-Geral em 5/10/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 18/4/2022 (DOU 18/4/2022, Seção 2, edição extra A, p. 1): nomeia Sandoval de Araújo Feitosa Neto, a partir de 14/8/2022, para o cargo de Diretor-Geral da Aneel, com mandato até 13/8/2027",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-18-de-abril-de-2022-393860187"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 340, de 5/10/2026, do Diretor-Geral da Aneel (DOU 9/10/2026, Seção 2, p. 53), assinada por Sandoval de Araújo Feitosa Neto",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-340-de-5-de-outubro-de-2026-737534285"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  },
+  "orgao_exercicio": "org:aneel"
+}

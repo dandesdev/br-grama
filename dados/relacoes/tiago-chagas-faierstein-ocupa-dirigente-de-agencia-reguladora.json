@@ -1,0 +1,40 @@
+{
+  "id": "rel:tiago-chagas-faierstein-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Tiago Chagas Faierstein é Diretor-Presidente da Anac",
+  "relacao": "ocupa",
+  "de": "pessoa:tiago-chagas-faierstein",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "condicao": "Diretor-Presidente da Anac.",
+  "vigencia": {
+    "de": "2025-08-29",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da publicação do decreto de nomeação; a posse não foi conferida. Em exercício em 2026-10-01: assina como Diretor-Presidente atos publicados em 30/9 e 8/10/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decreto de 28/8/2025 (DOU 29/8/2025, Seção 2, p. 2): nomeia Tiago Chagas Faierstein para o cargo de Diretor-Presidente da Anac, na vaga decorrente do término do mandato de Juliano Alcântara Noman",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-28-de-agosto-de-2025-651738086"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Diretor-Presidente da Anac publicado no DOU de 30/9/2026 (Seção 2, p. 60), assinado por Tiago Chagas Faierstein",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-735665817"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Diretor-Presidente da Anac publicado no DOU de 8/10/2026 (Seção 2, p. 47), assinado por Tiago Chagas Faierstein",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-737256775"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  },
+  "orgao_exercicio": "org:anac"
+}

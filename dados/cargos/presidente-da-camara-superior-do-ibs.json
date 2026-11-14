@@ -1,0 +1,49 @@
+{
+  "id": "cargo:presidente-da-camara-superior-do-ibs",
+  "tipo": "cargo",
+  "nome": "Presidente da Câmara Superior do IBS",
+  "resumo": "Servidor de fisco estadual ou municipal que preside a Câmara Superior do IBS, vota só no empate e propõe ao Presidente do CGIBS a perda de mandato de julgadores.",
+  "orgao": "org:camara-superior-do-ibs",
+  "provimento": "designacao",
+  "provimento_nota": "A presidência alterna entre servidor indicado pelos fiscos dos estados e do DF e servidor indicado pelos fiscos dos municípios, na forma de ato do CGIBS (LC 227/2026, art. 96, § 3º).",
+  "campos": {
+    "provimento": {
+      "confianca": "inferido",
+      "nota": "A lei não diz quem escolhe o presidente; remete a ato do CGIBS, não localizado. Usamos designacao (função com mandato, D54)."
+    }
+  },
+  "mandato": {
+    "anos": 2,
+    "vitalicio": false,
+    "nota": "Mandato de julgador, de dois anos (LC 227/2026, art. 90); a duração da presidência depende do ato do CGIBS."
+  },
+  "vagas": 1,
+  "requisitos": [
+    {
+      "texto": "servidor indicado pelas administrações tributárias dos estados e do DF ou dos municípios",
+      "fontes": [
+        {
+          "ref": "norma:lc-227-2026",
+          "dispositivo": "art. 96, § 3º"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 96, § 1º, IV, e § 3º; art. 84, II; art. 100, parágrafo único; art. 101, § 1º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); ocupante não localizado (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

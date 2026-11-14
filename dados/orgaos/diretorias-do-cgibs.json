@@ -30,6 +30,11 @@
     {
       "ref": "norma:lc-227-2026",
       "dispositivo": "arts. 30 a 39"
+    },
+    {
+      "ref": "norma:resolucao-cgibs-6-2026",
+      "dispositivo": "arts. 445, I, e 565",
+      "nota": "A Diretoria de Tributação emite a solução de consulta do IBS (proc:consulta-sobre-a-legislacao-do-ibs-e-da-cbs); a de Revisão do Crédito Tributário apoia os órgãos de julgamento do contencioso (org:camaras-de-julgamento-do-ibs e seguintes)."
     }
   ],
   "vigencia": {
@@ -40,9 +45,9 @@
   "confianca": "oficial",
   "notas": "Conjunto (D51): as nove diretorias têm o mesmo cargo de diretor (cargo:diretor-do-cgibs); não criamos um nó por diretoria.",
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-11-14",
-    "tarefa": "verificacao-f2-federacao",
-    "notas": "coletado em f2-federacao"
+    "tarefa": "f2-cgibs-julgamento",
+    "notas": "fonte acrescentada: Resolução CGIBS 6/2026, arts. 445, I, e 565 (Diretoria de Tributação responde consultas do IBS); antes verificado em verificacao-f2-federacao"
   }
 }

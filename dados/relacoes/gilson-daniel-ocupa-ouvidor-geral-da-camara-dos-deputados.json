@@ -1,0 +1,26 @@
+{
+  "id": "rel:gilson-daniel-ocupa-ouvidor-geral-da-camara-dos-deputados",
+  "tipo": "relacao",
+  "nome": "Gilson Daniel é Ouvidor-Geral da Câmara dos Deputados",
+  "relacao": "ocupa",
+  "de": "pessoa:gilson-daniel",
+  "para": "cargo:ouvidor-geral-da-camara-dos-deputados",
+  "vigencia": {
+    "de": "2025-04-09",
+    "ate": null,
+    "nota": "Data de início que a API da Câmara registra para o título 'Ouvidor-Geral' na Ouvidoria Parlamentar; o ato de designação não foi conferido. Em exercício em 2026-10-01 pela consulta filtrada nessa data."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-api-ouvidoria-parlamentar-membros",
+      "dispositivo": "deputado 220529, título 'Ouvidor-Geral', dataInicio 2025-04-09, dataFim null"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2 (ocupantes da cúpula das Casas)"
+  }
+}

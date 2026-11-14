@@ -1,0 +1,26 @@
+{
+  "id": "rel:camaras-de-julgamento-do-ibs-julga-lancamento-de-oficio-do-ibs",
+  "tipo": "relacao",
+  "nome": "As Câmaras de Julgamento do IBS julgam o lançamento de ofício impugnado",
+  "relacao": "julga",
+  "de": "org:camaras-de-julgamento-do-ibs",
+  "para": "obj:lancamento-de-oficio-do-ibs",
+  "condicao": "Quando o contribuinte impugna o lançamento; julga a câmara do estado onde fica o fisco que lançou. Decisão contrária à Fazenda sobe por recurso de ofício.",
+  "fontes": [
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 67; art. 91, I; art. 92, § 2º; art. 77"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "LC 227/2026, em vigor desde a publicação, DOU de 14/1/2026 (art. 182, III); os órgãos de julgamento não tinham composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

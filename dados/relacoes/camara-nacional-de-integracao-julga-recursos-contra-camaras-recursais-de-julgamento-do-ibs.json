@@ -1,0 +1,30 @@
+{
+  "id": "rel:camara-nacional-de-integracao-julga-recursos-contra-camaras-recursais-de-julgamento-do-ibs",
+  "tipo": "relacao",
+  "nome": "A Câmara Nacional de Integração julga recursos especiais contra decisões das Câmaras Recursais do IBS",
+  "relacao": "julga-recursos-contra",
+  "de": "org:camara-nacional-de-integracao-do-contencioso-do-ibs-e-da-cbs",
+  "para": "org:camaras-recursais-de-julgamento-do-ibs",
+  "condicao": "Recurso especial, em 10 dias úteis, quando a decisão diverge de outra do CGIBS ou do Carf na legislação comum ao IBS e à CBS; cabe também contra a primeira instância no rito sumário. Suspende a cobrança; só questão de direito.",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "art. 323-G, caput e §§ 3º a 6º"
+    },
+    {
+      "ref": "norma:lc-227-2026",
+      "dispositivo": "art. 75, IV; art. 76, parágrafo único"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Incluído na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III); órgão sem composição localizada em 2026-10-01 (aviso:instalacao-dos-orgaos-de-julgamento-do-ibs)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}

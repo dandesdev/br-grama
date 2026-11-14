@@ -1,0 +1,25 @@
+{
+  "id": "obj:solucao-de-consulta-do-ibs-e-da-cbs",
+  "tipo": "objeto",
+  "nome": "Solução de consulta sobre o IBS e a CBS",
+  "resumo": "Resposta oficial do CGIBS e da Receita Federal a um contribuinte que pergunta como a lei do IBS e da CBS se aplica a um fato dele; vincula o fisco e o consulente.",
+  "detalhes": "Enquanto a consulta, feita até o vencimento, não é respondida, não se abre fiscalização sobre o tema; quem segue a resposta não é autuado enquanto ela não for revogada, e o imposto devido segundo a resposta é pago em 15 dias sem multa (LC 214/2025, arts. 323-C e 323-E). Não cabe recurso (art. 323-F). Não alcança terceiros, nem consultas inexatas, protelatórias ou feitas depois de iniciada a fiscalização (arts. 323-C, II, e 323-D).",
+  "tipo_objeto": "decisao",
+  "fontes": [
+    {
+      "ref": "norma:lc-214-2025",
+      "dispositivo": "arts. 323-A a 323-F"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-01-14",
+    "ate": null,
+    "nota": "Arts. 323-A a 323-F incluídos na LC 214/2025 pela LC 227/2026 (art. 174), com efeitos desde 14/1/2026 (art. 182, III)."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-cgibs-julgamento"
+  }
+}
