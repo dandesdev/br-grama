@@ -1,11 +1,40 @@
 ---
 id: f2-fechamento-a
 escopo: "Fase 2, fechamento, parte A: pendências de f2-fechamento atribuídas a esta parte"
-status: em-andamento
+status: coletada
 depende_de: [f2-fechamento]
 ---
 
 Lista de itens: veja o prompt do coordenador e `pesquisa/fila/f2-fechamento.md`. Ao concluir um item, marque `[x]` na linha dele em f2-fechamento.md (edição pequena, relendo o arquivo antes) e anote aqui no diário o que fez. Entidades criadas ou mudadas: `verificacao.tarefa: "f2-fechamento"`, status `coletado`.
+
+## Cobertura
+
+Normas novas desta parte do fechamento (D49). Texto na edição oficial do Regimento Comum e normas conexas (2025).
+
+### Resolução nº 2/2007-CN (Comissão Mista Representativa no FIPA)
+
+| Artigos | Classe | Entidades ou motivo |
+|---|---|---|
+| arts. 1º a 4º | coberto | org:comissao-mista-representativa-no-fipa |
+| art. 5º | coberto | norma:resolucao-cn-2-2007 (vigência) |
+
+Conta: 5 artigos vigentes; coberto 5; cobertura 100,0%.
+
+### Resolução nº 2/2014-CN (Comissão Mista da CPLP)
+
+| Artigos | Classe | Entidades ou motivo |
+|---|---|---|
+| art. 1º | fora | objeto da resolução (detalhe) |
+| arts. 2º a 7º | coberto | org:cmcplp (natureza, competências, rito do art. 4º, composição e designação) |
+| art. 8º | fora | substituição de membros (detalhe) |
+| art. 9º | coberto | org:cmcplp (eleição de Presidente e Vice; regras do Regimento Comum) |
+| arts. 10 e 11 | fora | reuniões e subcomissões (detalhe de tramitação) |
+| art. 12 | coberto | org:cmcplp (representação nas sessões da AP-CPLP) |
+| arts. 13 a 15 | fora | despesas, secretaria de apoio e instalação, esta já esgotada (detalhe; transição esgotada) |
+| art. 16 | fora | confirma o Estatuto da AP-CPLP, órgão internacional fora do mapa |
+| arts. 17 e 18 | fora | cláusulas de revogação e de vigência |
+
+Conta: 18 artigos vigentes; coberto 8, fora 10; cobertura 100,0%.
 
 ## Diário
 - 2026-11-14 — iniciada; lidos CLAUDE.md, decisões, modelo, protocolo e instruções da fase 2
@@ -22,3 +51,10 @@ Lista de itens: veja o prompt do coordenador e `pesquisa/fila/f2-fechamento.md`.
 - 2026-11-14 — item 16 (registra, D54): rel:tse-aprecia-para-registro-estatuto-de-partido → rel:tse-registra-estatuto-de-partido e rel:justica-eleitoral-julga-registro-de-candidatura → rel:justica-eleitoral-registra-candidatura (arquivos antigos apagados; sem referências em dados/ e web/src; ids atualizados nas linhas do quadro de f2-eleicoes). rel:tse-julga-cancelamento-de-registro-de-partido continua 'julga' (é julgamento, não registro)
 - 2026-11-14 — item 9: quadro de f2-judiciario: LOMAN, art. 27, e RISTF, arts. 354-A a 354-G, a coberto; Lei 8.457, arts. 89 a 97, e CE, art. 31, ficam fora com o motivo da D52; CE, art. 26, de parcial a coberto (cargos do item 8); RISTJ ganha a linha dos arts. 255-A a 255-Z e 255-AA a 255-AE (fora, rito da ER 55/2026), 457 artigos. norma:ristj: compilacao_ate ER 55/2026 e nota com a ER 55 (DJe 26/8/2026, vigor 3/9/2026, art. 10, conferidos na cópia local do PDF); busca na web não achou ER 56/2026 do STJ. Contas conferidas com npm run -s cobertura:leis (LOMAN 36/108; CE 12-41 22/0/9; RISTF 42/356; RISTJ 54/403)
 - 2026-11-14 — item 10: conferidas nas cópias locais (e Wayback pela API de disponibilidade) e marcadas verificado (tarefa f2-fechamento): fonte:stj-noticia-posse-salomao-2026, fonte:stj-noticia-posse-corregedor-nacional-2026, fonte:tse-noticia-posse-nunes-marques-2026, pessoa:luis-felipe-salomao, pessoa:mauro-campbell-marques, pessoa:benedito-goncalves, as seis relações ocupa da revisão do Judiciário (Moraes Vice do STF 29/9/2025; Nunes Marques e André Mendonça no TSE 12/5/2026; Salomão e Campbell no STJ 19/8/2026; Benedito Gonçalves no CNJ 25/8/2026), norma:resolucao-tse-23742-2024 (correção: o preâmbulo invoca os arts. 1º, 17 e 26, § 1º, do Código; o detalhes dizia 17, § 1º, e 26, § 1º), fonte:stj-enunciado-administrativo-1 e fonte:stf-aplicacao-sumula-vinculante-46 (DJE de 17/4/2015, ADI 3.466 e 4.764 conferidos)
+- 2026-11-14 — item 11: gravados fonte:tst-noticia-posse-direcao-2025 (TST, posse em 25/9/2025, biênio 2025-2027; cópia em pesquisa/brutos/tst/2026-11-14-f2-fechamento-a/), fonte:tjmg-noticia-posse-presidencia-stm-2025 (posse em 12/3/2025; fonte oficial de outro tribunal, porque as notícias do STM devolvem 404 e não estão no Wayback; arquivo null, Wayback em timeout), fonte:tse-noticia-posse-corregedor-geral-eleitoral-2026 (posse na manhã de 1º/10/2026; Wayback de 2/10/2026, cópias em pesquisa/brutos/tse/2026-11-14-f2-fechamento-a/); pessoas vieira-de-mello-filho, caputo-bastos, jose-roberto-pimenta, maria-elizabeth-rocha, francisco-joseli-parente-camelo, ricardo-villas-boas-cueva; relações ocupa para presidente-do-tst, vice-presidente-do-tst, corregedor-geral-da-justica-do-trabalho, presidente-do-stm, vice-presidente-do-stm e corregedor-geral-eleitoral. Pontos: a página 'Vice-presidência' do TST diz que Caputo Bastos foi 'eleito em outubro de 2025', depois da posse de 25/9 (não usada; anotado na fonte); Cueva tomou posse no próprio dia de referência, e a saída do antecessor (Antonio Carlos Ferreira) não tem data pesquisada
+- 2026-11-14 — item 12: gravadas rel:stf-julga-comandante-da-marinha, rel:stf-julga-comandante-do-exercito, rel:stf-julga-comandante-da-aeronautica (vigência 1999-09-03, EC 23/1999, ressalva do art. 52, I, na condição) e rel:stf-julga-chefe-de-missao-diplomatica-permanente, todas com CF, art. 102, I, c, e RISTF, art. 9º, I, m (Turmas, ER 59/2023), no modelo de rel:stf-julga-ministro-de-estado
+- 2026-11-14 — item 13: gravada fonte:stf-adi-6188-acordao (portal do STF, incidente 5731024: acórdão de 22/8/2023, red. Edson Fachin, DJe de 24/10/2023, trânsito em 31/10/2023; Wayback de 13/12/2024; cópias em pesquisa/brutos/stf/2026-11-14-f2-fechamento-a/). org:tst: acórdão nas fontes e na nota, no lugar da menção ao 'Vide' do Planalto (não havia fonte de notícia gravada; a nota é que citava a ADI de segunda mão)
+- 2026-11-14 — item 14: gravado aviso:libelo-impeachment-presidente-lei-1079-e-risf (contradicao, gravidade baixa, afeta proc:crime-de-responsabilidade-do-presidente): Lei 1.079, art. 58 (denunciante, por analogia da ADPF 378) contra RISF, art. 380, III (comissão especial); o art. 24 da lei fala em 'comissão acusadora', figura não recepcionada. As cópias locais do STF não tratam do libelo; os casos Collor e Dilma não foram pesquisados (anotado)
+- 2026-11-14 — item 15: norma:lei-13105-2015 (vigencia.de null) e proc:caminho-de-um-processo ('2016-03' incerta) passam a 2016-03-18, com campos.vigencia citando o art. 1.045 e fonte:stj-enunciado-administrativo-1
+- 2026-11-14 — quadros das Resoluções 2/2007-CN e 2/2014-CN na seção Cobertura desta tarefa (100%). Linha 48 de f2-fechamento (D54 nas tarefas verificadas) não marcada: é compartilhada com a parte B; nesta parte foram feitos acumula (STM, STJ, TRE), registra (partido e candidatura), ato-da-mesa e ato-conjunto e indica (Líder do Governo)
+- 2026-11-14 — RELATÓRIO. Itens 1 a 16 feitos. Pontos para o revisor: (a) rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm poderia apontar para o cargo novo cargo:ministro-corregedor-da-justica-militar; (b) rel:ministro-do-trabalho-nomeia-codefat cita como precedente uma relação do Conselho da República que já não aponta para o órgão; (c) cargo:procurador-geral-eleitoral, cargo:promotor-eleitoral e cargo:juiz-eleitoral também têm provimento nato por função acumulada (PGR, promotor e juiz de direito), fora da lista da D54 e, os dois primeiros, da área da parte B; (d) Líder da Maioria no CN só pela nota 14 da edição oficial; (e) STM com fonte oficial do TJMG (as notícias do STM dão 404); (f) Cueva tomou posse no próprio dia 2026-10-01; (g) `delibera` como verbo das relações de prisão de parlamentar. Validação sem erro; npm run -s cobertura:leis: 68 leis, 6.093 artigos, 99,4%

@@ -28,14 +28,14 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [x] `cargo:corregedor-regional-eleitoral` (Res. TSE 23.742/2024, art. 9º: o Vice-Presidente do TRE acumula a Corregedoria); leva o Código Eleitoral, art. 26, de parcial a coberto (verificacao-f2-judiciario).
 - [x] Quadro de f2-judiciario: LOMAN, art. 27, e RISTF, arts. 354-A a 354-G, passam a coberto; Lei 8.457, arts. 89 a 97, e Código Eleitoral, art. 31, ficam fora com o motivo da D52; RISTJ ganha os arts. 255-A a 255-Z e 255-AA a 255-AE da ER 55/2026 (fora, rito) e `norma:ristj` passa a `compilacao_ate` ER 55/2026 (verificacao-f2-judiciario).
 - [x] Conferir as entidades que a revisão do Judiciário gravou como `coletado`: 3 pessoas e 3 fontes dos ocupantes (STF, TSE, STJ, Corregedor Nacional) e `norma:resolucao-tse-23742-2024` (verificacao-f2-judiciario).
-- [ ] Ocupantes em 2026-10-01 da direção do TST, do STM e do Corregedor-Geral Eleitoral, com data de posse em fonte oficial (verificacao-f2-judiciario).
-- [ ] Relações de foro do STF para comandantes militares e chefes de missão diplomática permanente (CF, art. 102, I, c) (verificacao-f2-judiciario).
-- [ ] ADI 6188 (CLT, art. 702, I, f): trocar a notícia pelo acórdão do STF em `org:tst` (verificacao-f2-judiciario).
+- [x] Ocupantes em 2026-10-01 da direção do TST, do STM e do Corregedor-Geral Eleitoral, com data de posse em fonte oficial (verificacao-f2-judiciario).
+- [x] Relações de foro do STF para comandantes militares e chefes de missão diplomática permanente (CF, art. 102, I, c) (verificacao-f2-judiciario).
+- [x] ADI 6188 (CLT, art. 702, I, f): trocar a notícia pelo acórdão do STF em `org:tst` (verificacao-f2-judiciario).
 
 - [x] LRF, art. 7º: resultado do Banco Central transferido ao Tesouro (positivo) ou coberto por ele (negativo); relação `repassa-recursos` entre `org:banco-central` e o Tesouro, conferindo se a Lei 13.820/2019 mudou o regime; até lá, lacuna no quadro de f2-financas-publicas (verificacao-f2-financas-publicas).
 
-- [ ] Abrir `aviso:` (contradição, D37) sobre quem oferece o libelo no impeachment do Presidente: a Lei 1.079, art. 58 (aplicado por analogia pela ADPF 378), dá ao denunciante; o RISF, art. 380, III, à comissão especial (verificacao-f2-processos-constitucionais).
-- [ ] Vigência do CPC (2016-03-18, `fonte:stj-enunciado-administrativo-1`) em `norma:lei-13105-2015` e `proc:caminho-de-um-processo` (verificacao-f2-processos-constitucionais).
+- [x] Abrir `aviso:` (contradição, D37) sobre quem oferece o libelo no impeachment do Presidente: a Lei 1.079, art. 58 (aplicado por analogia pela ADPF 378), dá ao denunciante; o RISF, art. 380, III, à comissão especial (verificacao-f2-processos-constitucionais).
+- [x] Vigência do CPC (2016-03-18, `fonte:stj-enunciado-administrativo-1`) em `norma:lei-13105-2015` e `proc:caminho-de-um-processo` (verificacao-f2-processos-constitucionais).
 - [x] Conferir as fontes gravadas como `coletado` pela revisão dos processos constitucionais: `fonte:stj-enunciado-administrativo-1` e `fonte:stf-aplicacao-sumula-vinculante-46` (verificacao-f2-processos-constitucionais).
 
 - [x] `cargo:presidente-de-tre` (e Vice-Presidente, que acumula a Corregedoria Regional pela Res. TSE 23.742/2024) e o Presidente de TRE como ator no julgamento do PAD (Lei 8.112, art. 141, I) (verificacao-f2-administracao, verificacao-f2-judiciario).
@@ -52,6 +52,8 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 
 - [ ] Rodada final: Comitê de Harmonização (IBS e CBS) tinha composição em 2026-10-01? Conferir no DOU a Portaria MF 3.089/2026 e as indicações do CGIBS (verificacao-f2-federacao).
 - [ ] Rodada final: `norma:lei-13089-2015` com `compilacao_ate` Lei 14.026/2020; Lei 11.107, art. 19, motivo "regra de aplicação no tempo"; Lei 8.212, art. 56, de lacuna a coberto no quadro de f2-social (já citado nas relações do FPE e do FPM) (verificacao-f2-federacao).
+
+- [ ] Rodada final: `rel:juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm` passa a apontar para `cargo:ministro-corregedor-da-justica-militar`; nota de `rel:ministro-do-trabalho-nomeia-codefat` com o precedente do Conselho da República atualizado (f2-fechamento-a).
 
 ## Propostas de vocabulário (decididas na D54, 2026-11-14)
 

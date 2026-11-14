@@ -1,0 +1,33 @@
+{
+  "id": "rel:georges-carlos-fredderico-moreira-seigneur-ocupa-procurador-geral-de-justica-do-mpdft",
+  "tipo": "relacao",
+  "nome": "Georges Carlos Fredderico Moreira Seigneur é Procurador-Geral de Justiça do Distrito Federal e Territórios",
+  "relacao": "ocupa",
+  "de": "pessoa:georges-carlos-fredderico-moreira-seigneur",
+  "para": "cargo:procurador-geral-de-justica-do-mpdft",
+  "condicao": "Titular em 2026-10-01: assina atos do cargo em 30/9 e 2/10/2026.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início não pesquisado (decreto de nomeação pelo Presidente da República não buscado). Em exercício em 2026-10-01 pelos atos de 30/9 e 2/10/2026, sem exoneração achada no DOU nesse intervalo."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria PGJ nº 752, de 30/9/2026 (DOU 5/10/2026, Seção 2, p. 60), assinada por Georges Carlos Fredderico Moreira Seigneur como Procurador-Geral de Justiça do Distrito Federal e Territórios",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-pgj-n-752-de-30-de-setembro-de-2026-736368901"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria PGJ nº 770, de 2/10/2026 (DOU 6/10/2026, Seção 2, p. 57), assinada por Georges Carlos Fredderico Moreira Seigneur como Procurador-Geral de Justiça do Distrito Federal e Territórios",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-pgj-n-770-de-2-de-outubro-de-2026-736759197"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  }
+}

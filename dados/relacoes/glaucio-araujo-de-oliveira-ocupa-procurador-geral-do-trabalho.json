@@ -1,0 +1,33 @@
+{
+  "id": "rel:glaucio-araujo-de-oliveira-ocupa-procurador-geral-do-trabalho",
+  "tipo": "relacao",
+  "nome": "Gláucio Araújo de Oliveira é Procurador-Geral do Trabalho",
+  "relacao": "ocupa",
+  "de": "pessoa:glaucio-araujo-de-oliveira",
+  "para": "cargo:procurador-geral-do-trabalho",
+  "condicao": "Titular em 2026-10-01. Entre 6 e 9/10/2026, atos da Procuradoria-Geral foram assinados pela Procuradora-Geral do Trabalho em exercício (Portaria nº 1.560, de 6/10/2026, DOU 7/10/2026); pela regra do coordenador de 2026-11-11, o titular continua como ocupante.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início não pesquisado: o ato de nomeação pelo Procurador-Geral da República não foi achado no DOU. Assina como Procurador-Geral do Trabalho ao menos desde setembro de 2025 (Portaria nº 1.386, de 5/9/2025, DOU 8/9/2025) e antes e depois de 2026-10-01 (atos citados)."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 1.510, de 28/9/2026 (DOU 30/9/2026, Seção 2, p. 79), assinada por Gláucio Araújo de Oliveira como Procurador-Geral do Trabalho",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-1.510-de-28-de-setembro-de-2026-735667352"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria nº 1.764, de 10/11/2026 (DOU 12/11/2026, Seção 2, p. 49), assinada por Gláucio Araújo de Oliveira como Procurador-Geral do Trabalho",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-n-1.764-de-10-de-novembro-de-2026-743905277"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  }
+}

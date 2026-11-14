@@ -1,0 +1,44 @@
+{
+  "id": "aviso:libelo-impeachment-presidente-lei-1079-e-risf",
+  "tipo": "aviso",
+  "nome": "Quem oferece o libelo no impeachment do Presidente",
+  "resumo": "A Lei 1.079/1950, aplicada por analogia pela ADPF 378, dá o libelo acusatório ao denunciante; o Regimento do Senado o dá à comissão especial que conduz o processo.",
+  "detalhes": "Pela Lei 1.079, art. 58 (rito dos ministros do STF e do PGR, que a ADPF 378 manda usar para o Presidente na fase de pronúncia), o denunciante recebe vista do processo e oferece o libelo e o rol de testemunhas em 48 horas. Pelo RISF, art. 380, III, a comissão eleita pelo Senado encerra o trabalho fornecendo o libelo. O art. 24 da Lei 1.079, do rito próprio do Presidente, fala em libelo 'pela comissão acusadora', figura da Câmara que a ADPF 378 considerou não recepcionada.",
+  "tipo_aviso": "contradicao",
+  "afeta": [
+    "proc:crime-de-responsabilidade-do-presidente"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Lei 1.079/1950, arts. 24 e 58 (texto compilado do Planalto, cópia de 11/11/2026)",
+    "RISF, art. 380, III, e nota 245 (edição oficial atualizada até julho de 2025)",
+    "Páginas 'A Constituição e o Supremo' dos arts. 51 e 52 e acompanhamento da ADPF 378 no portal do STF (cópias locais): não tratam de quem oferece o libelo"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-1079-1950",
+      "dispositivo": "art. 24; art. 58"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "art. 380, III"
+    },
+    {
+      "ref": "fonte:stf-constituicao-e-o-supremo-art-52",
+      "dispositivo": "art. 52, I: ADPF 378 MC"
+    }
+  ],
+  "vigencia": {
+    "de": "2015-12-17",
+    "ate": null,
+    "nota": "Data do julgamento da ADPF 378 MC, que mandou aplicar por analogia ao Presidente os arts. 44 a 49 e 51 a 55 da Lei 1.079; a divergência com o RISF existe desde então."
+  },
+  "confianca": "oficial",
+  "notas": "A etapa 'senado-pronuncia' de proc:crime-de-responsabilidade-do-presidente segue a Lei 1.079, art. 58 (o denunciante apresenta o libelo) e cita também o RISF, art. 380, III. A ADPF 378 citou só os arts. 44 a 49 e 51 a 55; o art. 58 entra pela mesma analogia, leitura da coleta. Não procuramos como o Senado fez nos casos Collor (1992) e Dilma Rousseff (2016). Aberto em f2-fechamento a pedido de verificacao-f2-processos-constitucionais (D37).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criado em f2-fechamento-a"
+  }
+}

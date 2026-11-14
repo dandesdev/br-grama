@@ -1,0 +1,26 @@
+{
+  "id": "rel:francisco-joseli-parente-camelo-ocupa-vice-presidente-do-stm",
+  "tipo": "relacao",
+  "nome": "Francisco Joseli Parente Camelo ocupa o cargo de Vice-Presidente do Superior Tribunal Militar",
+  "relacao": "ocupa",
+  "de": "pessoa:francisco-joseli-parente-camelo",
+  "para": "cargo:vice-presidente-do-stm",
+  "vigencia": {
+    "de": "2025-03-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tjmg-noticia-posse-presidencia-stm-2025",
+      "dispositivo": "'também foi empossado o tenente-brigadeiro do ar Francisco Joseli Parente Camelo no cargo de vice-presidente e corregedor da Justiça Militar da União'"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Como Vice-Presidente, exerce a função de Ministro-Corregedor (rel:vice-presidente-do-stm-acumula-ministro-corregedor-da-justica-militar); sem relação ocupa separada, como no Vice-Presidente do STJ.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rel:stf-julga-comandante-do-exercito",
+  "tipo": "relacao",
+  "nome": "Julgamento do Comandante do Exército pelo STF",
+  "relacao": "julga",
+  "de": "org:stf",
+  "para": "cargo:comandante-do-exercito",
+  "condicao": "Infrações penais comuns e crimes de responsabilidade, salvo os crimes de responsabilidade conexos com os do Presidente ou do Vice, que o Senado julga.",
+  "vigencia": {
+    "de": "1999-09-03",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 102, I, c"
+    },
+    {
+      "ref": "norma:ristf",
+      "dispositivo": "art. 9º, I, m",
+      "nota": "O julgamento é de uma das Turmas (org:primeira-turma-do-stf, org:segunda-turma-do-stf), não do Plenário, desde a ER 59/2023; a regra não vale para as ações penais instauradas até 8/1/2024 (ER 59/2023, art. 3º)."
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Os Comandantes entraram no art. 102, I, c, pela EC 23/1999, que criou o Ministério da Defesa; vigência na publicação da EC (DOU de 3/9/1999), como em rel:senado-julga-comandante-do-exercito.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (lacuna apontada por verificacao-f2-judiciario)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:jose-roberto-pimenta-ocupa-corregedor-geral-da-justica-do-trabalho",
+  "tipo": "relacao",
+  "nome": "José Roberto Pimenta ocupa o cargo de Corregedor-Geral da Justiça do Trabalho",
+  "relacao": "ocupa",
+  "de": "pessoa:jose-roberto-pimenta",
+  "para": "cargo:corregedor-geral-da-justica-do-trabalho",
+  "vigencia": {
+    "de": "2025-09-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tst-noticia-posse-direcao-2025",
+      "dispositivo": "'e o ministro José Roberto Pimenta, como corregedor-geral da Justiça do Trabalho'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)"
+  }
+}

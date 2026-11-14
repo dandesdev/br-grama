@@ -1,8 +1,10 @@
 ---
 id: f2-cgibs-julgamento
 escopo: "Fase 2 (D49): órgãos de julgamento do contencioso administrativo do IBS (LC 227/2026, arts. 54 a 102) e consultas (LC 214/2025, arts. 323-A a 323-M)"
-status: pendente
+status: em-andamento
 depende_de: [f2-federacao, verificacao-f2-federacao]
+iniciada_em: 2026-11-14
+concluida_em: null
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2". A revisão de f2-federacao apontou que as faixas escolhidas deixaram de fora estes artigos.
@@ -22,3 +24,5 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2". A revisão 
 ## Cobertura
 
 ## Diário
+
+- 2026-11-14 09:09 — iniciada; lidos CLAUDE.md, decisões (D11, D14, D36, D37, D49 a D54), modelo de dados, protocolo, instruções (Fase 2), f2-federacao e verificacao-f2-federacao; texto da LC 227/2026, arts. 54 a 102, e da LC 214/2025, arts. 323-A a 323-M, lido na cópia de 2026-11-11 (pesquisa/brutos/planalto-leis/2026-11-11-f2-federacao/)

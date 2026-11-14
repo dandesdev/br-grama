@@ -203,10 +203,9 @@
     }
   ],
   "vigencia": {
-    "de": "2016-03",
+    "de": "2016-03-18",
     "ate": null,
-    "incerta": true,
-    "nota": "Os nomes, prazos e passos dos recursos seguem o CPC de 2015 (em vigor um ano após a publicação, art. 1.045; usamos só o mês, sem conferir o dia), com a redação da Lei 15.484/2026 (em vigor desde 3/9/2026). A estrutura constitucional (arts. 102 e 105) vem de 1988, com as EC 45/2004 e 125/2022."
+    "nota": "Os nomes, prazos e passos dos recursos seguem o CPC de 2015, em vigor desde 18/3/2016 (art. 1.045; Enunciado administrativo n. 1 do STJ, fonte:stj-enunciado-administrativo-1), com a redação da Lei 15.484/2026 (em vigor desde 3/9/2026). A estrutura constitucional (arts. 102 e 105) vem de 1988, com as EC 45/2004 e 125/2022."
   },
   "fontes": [
     {
@@ -224,10 +223,24 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-20",
-    "tarefa": "verificacao-f0-judiciario",
-    "notas": "coletado em f0-judiciario; CF arts. 5º, XXXVI, 98, I, 102, 105, 108 e 109 e CPC arts. 219, 502, 1.003, § 5º, 1.009, 1.010, 1.012, 1.029 a 1.031, 1.035, 1.035-A e 1.042 (redação da Lei 15.484/2026) conferidos; correção na etapa recurso-extraordinario: a alínea d do art. 102, III, trata só de lei local contestada em face de lei federal"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: vigencia.de '2016-03' (incerta) → 2016-03-18, com fonte:stj-enunciado-administrativo-1 em campos.vigencia; antes verificado em verificacao-f0-judiciario"
   },
-  "notas": "Decisões de modelagem: (1) os atores dos tribunais de segundo grau são os cargos (desembargador e juiz de TRF), porque são 33 tribunais; (2) a admissão do REsp e do RE no tribunal de origem é uma etapa própria, com o agravo do CPC, art. 1.042, descrito nos detalhes e no \"quando\"; (3) o processo não tem \"produz\": não existe objeto para \"decisão judicial definitiva\"; (4) vigencia.de usa a data em que o CPC/2015 começou a valer, marcada como incerta."
+  "notas": "Decisões de modelagem: (1) os atores dos tribunais de segundo grau são os cargos (desembargador e juiz de TRF), porque são 33 tribunais; (2) a admissão do REsp e do RE no tribunal de origem é uma etapa própria, com o agravo do CPC, art. 1.042, descrito nos detalhes e no \"quando\"; (3) o processo não tem \"produz\": não existe objeto para \"decisão judicial definitiva\"; (4) vigencia.de usa a data em que o CPC/2015 começou a valer, marcada como incerta.",
+  "campos": {
+    "vigencia": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13105-2015",
+          "dispositivo": "art. 1.045"
+        },
+        {
+          "ref": "fonte:stj-enunciado-administrativo-1",
+          "dispositivo": "Enunciado administrativo n. 1"
+        }
+      ]
+    }
+  }
 }

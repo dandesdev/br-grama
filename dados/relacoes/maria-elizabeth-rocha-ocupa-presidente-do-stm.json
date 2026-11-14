@@ -1,0 +1,25 @@
+{
+  "id": "rel:maria-elizabeth-rocha-ocupa-presidente-do-stm",
+  "tipo": "relacao",
+  "nome": "Maria Elizabeth Rocha ocupa o cargo de Presidente do Superior Tribunal Militar",
+  "relacao": "ocupa",
+  "de": "pessoa:maria-elizabeth-rocha",
+  "para": "cargo:presidente-do-stm",
+  "vigencia": {
+    "de": "2025-03-12",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tjmg-noticia-posse-presidencia-stm-2025",
+      "dispositivo": "'sessão solene de posse da ministra Maria Elizabeth Guimarães Teixeira Rocha no cargo de presidente do Superior Tribunal Militar (STM), no biênio 2025-2027'; solenidade na quarta-feira (12/3)"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)"
+  }
+}

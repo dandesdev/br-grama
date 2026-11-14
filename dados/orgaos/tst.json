@@ -26,6 +26,10 @@
     {
       "ref": "norma:decreto-lei-5452-1943",
       "dispositivo": "arts. 690 e 702"
+    },
+    {
+      "ref": "fonte:stf-adi-6188-acordao",
+      "dispositivo": "ementa e acórdão: inconstitucionalidade do art. 702, I, f, e §§ 3º e 4º, da CLT"
     }
   ],
   "campos": {
@@ -55,10 +59,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-judiciario",
-    "notas": "coletado em f2-judiciario (acrescentados ao detalhes o funcionamento em Pleno e Turmas e a competência do Pleno para súmulas e regimento (CLT, arts. 690 e 702)). Corrigido: o detalhes dava o quórum de dois terços para o Pleno editar súmulas (CLT, art. 702, I, f, redação da Lei 13.467/2017), regra declarada inconstitucional na ADI 6188; o quórum saiu e a razão foi para as notas."
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "f2-fechamento-a: acórdão da ADI 6188 (fonte:stf-adi-6188-acordao) nas fontes e na nota, no lugar da menção ao Planalto; antes verificado em verificacao-f2-judiciario"
   },
-  "notas": "O inciso II-A do art. 92 foi incluído pela EC 92/2016. Composição de 27 ministros e limite de idade na redação da EC 122/2022. O art. 702, I, f, da CLT, na redação da Lei 13.467/2017, exigia dois terços dos membros e outros requisitos para editar súmulas; o texto do Planalto remete à ADI 6188, na qual o STF (agosto de 2023) declarou inconstitucionais essa alínea e os §§ 3º e 4º do art. 702. Por isso o quórum não aparece no detalhes."
+  "notas": "O inciso II-A do art. 92 foi incluído pela EC 92/2016. Composição de 27 ministros e limite de idade na redação da EC 122/2022. O art. 702, I, f, da CLT, na redação da Lei 13.467/2017, exigia dois terços dos membros e outros requisitos para editar súmulas; o STF declarou inconstitucionais essa alínea e os §§ 3º e 4º do art. 702 na ADI 6188 (Plenário, sessão virtual de 11 a 21/8/2023; acórdão no DJe de 24/10/2023, fonte:stf-adi-6188-acordao). Por isso o quórum não aparece no detalhes."
 }

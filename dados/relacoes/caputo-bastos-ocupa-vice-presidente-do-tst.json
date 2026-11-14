@@ -1,0 +1,25 @@
+{
+  "id": "rel:caputo-bastos-ocupa-vice-presidente-do-tst",
+  "tipo": "relacao",
+  "nome": "Caputo Bastos ocupa o cargo de Vice-Presidente do Tribunal Superior do Trabalho",
+  "relacao": "ocupa",
+  "de": "pessoa:caputo-bastos",
+  "para": "cargo:vice-presidente-do-tst",
+  "vigencia": {
+    "de": "2025-09-25",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tst-noticia-posse-direcao-2025",
+      "dispositivo": "'Na mesma cerimônia também foram empossados os ministros Caputo Bastos, como vice-presidente do TST'"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)"
+  }
+}

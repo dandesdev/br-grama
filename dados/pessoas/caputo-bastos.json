@@ -1,0 +1,24 @@
+{
+  "id": "pessoa:caputo-bastos",
+  "tipo": "pessoa",
+  "nome": "Caputo Bastos",
+  "resumo": "Ministro do Tribunal Superior do Trabalho; Vice-Presidente do TST no biênio 2025-2027.",
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tst-noticia-posse-direcao-2025",
+      "dispositivo": null
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criada só para registrar o cargo de direção (D11). Nome civil completo não conferido. Magistrados não têm filiação partidária (CF, art. 95, parágrafo único, III).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a"
+  }
+}

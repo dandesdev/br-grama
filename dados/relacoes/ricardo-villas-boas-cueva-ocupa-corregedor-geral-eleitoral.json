@@ -1,0 +1,26 @@
+{
+  "id": "rel:ricardo-villas-boas-cueva-ocupa-corregedor-geral-eleitoral",
+  "tipo": "relacao",
+  "nome": "Ricardo Villas Bôas Cueva ocupa o cargo de Corregedor-Geral da Justiça Eleitoral",
+  "relacao": "ocupa",
+  "de": "pessoa:ricardo-villas-boas-cueva",
+  "para": "cargo:corregedor-geral-eleitoral",
+  "vigencia": {
+    "de": "2026-10-01",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tse-noticia-posse-corregedor-geral-eleitoral-2026",
+      "dispositivo": "'Em sessão solene, na manhã desta quinta-feira (1º), o Tribunal Superior Eleitoral (TSE) deu posse ao ministro Ricardo Villas Bôas Cueva como corregedor-geral da Justiça Eleitoral'"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Posse na manhã da própria data de referência (2026-10-01), por isso entra no retrato. O antecessor, Antonio Carlos Ferreira, deixou o TSE ao fim do mandato (notícia da eleição de 29/9/2026); a data exata da saída dele não foi pesquisada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)"
+  }
+}

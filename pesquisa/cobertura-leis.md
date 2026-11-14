@@ -25,6 +25,8 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Decreto-Lei 200/1967 | f2-executivo | 18 | 0 | 0 | 167 | 185 | 100,0% |
 | Lei 13.848/2019 | f2-executivo | 42 | 0 | 0 | 10 | 52 | 100,0% |
 | Lei 9.986/2000 | f2-executivo | 10 | 0 | 0 | 16 | 26 | 100,0% |
+| Resolução nº 2/2007-CN (Comissão Mista Representativa no FIPA) | f2-fechamento-a | 5 | 0 | 0 | 0 | 5 | 100,0% |
+| Resolução nº 2/2014-CN (Comissão Mista da CPLP) | f2-fechamento-a | 8 | 0 | 0 | 10 | 18 | 100,0% |
 | Lei 11.107/2005 (consórcios públicos) | f2-federacao | 17 | 0 | 0 | 5 | 22 | 100,0% |
 | LC 140/2011 (cooperação nas competências ambientais comuns) | f2-federacao | 18 | 0 | 0 | 4 | 22 | 100,0% |
 | Lei 13.089/2015 (Estatuto da Metrópole) | f2-federacao | 20 | 0 | 0 | 2 | 22 | 100,0% |
@@ -71,4 +73,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
 | Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 6070 artigos classificados; cobertura 99,4% (4 em lacuna, 32 parciais).
+Total: 6093 artigos classificados; cobertura 99,4% (4 em lacuna, 32 parciais).

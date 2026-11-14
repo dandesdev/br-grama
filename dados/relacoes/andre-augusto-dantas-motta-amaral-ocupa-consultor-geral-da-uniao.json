@@ -1,0 +1,28 @@
+{
+  "id": "rel:andre-augusto-dantas-motta-amaral-ocupa-consultor-geral-da-uniao",
+  "tipo": "relacao",
+  "nome": "André Augusto Dantas Motta Amaral é Consultor-Geral da União",
+  "relacao": "ocupa",
+  "de": "pessoa:andre-augusto-dantas-motta-amaral",
+  "para": "cargo:consultor-geral-da-uniao",
+  "condicao": "Titular em 2026-10-01: assina como Consultor-Geral em 30/9/2026, e o Advogado-Geral adota o despacho em 1º/10/2026 (Parecer JM-12).",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início não pesquisado (ato de nomeação não buscado). Só um ato achado perto da data (30/9/2026); nenhuma exoneração do Consultor-Geral achada no DOU entre setembro e 20/10/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Despacho do Consultor-Geral da União nº 00684/2026/GAB-CGU/CGU/AGU, de 30/9/2026, assinado por André Augusto Dantas Motta Amaral como Consultor-Geral da União, publicado com o Despacho do Presidente da República de 1º/10/2026 (DOU 2/10/2026, Seção 1, p. 2)",
+      "nota": "https://www.in.gov.br/web/dou/-/despacho-do-presidente-da-republica-736032450"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  }
+}

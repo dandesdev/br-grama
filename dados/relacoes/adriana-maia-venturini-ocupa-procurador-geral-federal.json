@@ -1,0 +1,33 @@
+{
+  "id": "rel:adriana-maia-venturini-ocupa-procurador-geral-federal",
+  "tipo": "relacao",
+  "nome": "Adriana Maia Venturini é Procuradora-Geral Federal",
+  "relacao": "ocupa",
+  "de": "pessoa:adriana-maia-venturini",
+  "para": "cargo:procurador-geral-federal",
+  "condicao": "Titular em 2026-10-01: assina pela PGF em 24/9/2026 e atos do cargo em outubro de 2026.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início não pesquisado (ato de nomeação não buscado). Em exercício em 2026-10-01 pelos atos de 24/9 e 8/10/2026, sem exoneração achada no DOU nesse intervalo."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato do Termo Aditivo nº 2 ao Acordo de Cooperação Técnica nº 04/2023 do STF, assinado em 24/9/2026 (DOU 28/9/2026, Seção 3, p. 147): Adriana Maia Venturini assina pela PGF como Procuradora-Geral Federal",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-734961829"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria Normativa PGF/AGU nº 100, de 8/10/2026 (DOU 9/10/2026, Seção 1, p. 3), assinada por Adriana Maia Venturini",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-normativa-pgf/agu-n-100-de-8-de-outubro-de-2026-737464979"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento",
+    "notas": "criada no fechamento da fase 2: ocupante em 2026-10-01 por atos assinados no cargo, publicados no DOU perto da data (D11, D14)"
+  }
+}
