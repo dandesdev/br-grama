@@ -1,0 +1,116 @@
+{
+  "id": "est:enap",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Fundação Escola Nacional de Administração Pública no SIORG",
+  "resumo": "14 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:enap",
+  "siorg": "956",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "394549",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "956"
+    },
+    {
+      "codigo": "78670",
+      "nome": "Gabinete",
+      "sigla": "Gabin",
+      "pai": "956"
+    },
+    {
+      "codigo": "97466",
+      "nome": "Auditoria Interna",
+      "sigla": "Audin",
+      "pai": "956"
+    },
+    {
+      "codigo": "965",
+      "nome": "Conselho Diretor",
+      "sigla": "CD-ENAP",
+      "pai": "956",
+      "colegiada": true
+    },
+    {
+      "codigo": "3431",
+      "nome": "Diretoria de Gestão Corporativa",
+      "sigla": "DGC",
+      "pai": "956"
+    },
+    {
+      "codigo": "217374",
+      "nome": "Conselho Consultivo",
+      "sigla": "CONSUL",
+      "pai": "956",
+      "colegiada": true
+    },
+    {
+      "codigo": "217368",
+      "nome": "Diretoria de Altos Estudos",
+      "sigla": "DAE",
+      "pai": "956"
+    },
+    {
+      "codigo": "3432",
+      "nome": "Diretoria de Inovação",
+      "sigla": "GNova",
+      "pai": "956"
+    },
+    {
+      "codigo": "3436",
+      "nome": "Diretoria de Desenvolvimento Profissional",
+      "sigla": "DDPro",
+      "pai": "956"
+    },
+    {
+      "codigo": "3429",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF-Enap",
+      "pai": "956"
+    },
+    {
+      "codigo": "378169",
+      "nome": "Corregedoria",
+      "sigla": "Coger",
+      "pai": "956"
+    },
+    {
+      "codigo": "236644",
+      "nome": "Diretoria Executiva",
+      "sigla": "Direx",
+      "pai": "956"
+    },
+    {
+      "codigo": "620131",
+      "nome": "Diretoria de Concursos Públicos",
+      "sigla": "DCP",
+      "pai": "956"
+    },
+    {
+      "codigo": "70255",
+      "nome": "Diretoria de Educação Executiva",
+      "sigla": "DEX",
+      "pai": "956"
+    }
+  ],
+  "ato_interno": 30,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 956 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

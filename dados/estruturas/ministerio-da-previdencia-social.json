@@ -1,0 +1,845 @@
+{
+  "id": "est:ministerio-da-previdencia-social",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Previdência Social no SIORG",
+  "resumo": "117 unidades criadas por lei ou decreto e 2 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-previdencia-social",
+  "siorg": "308819",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "555090",
+      "nome": "Assessoria de Monitoramento de Políticas Públicas",
+      "sigla": "AMPP",
+      "pai": "308819"
+    },
+    {
+      "codigo": "310622",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308819"
+    },
+    {
+      "codigo": "2764",
+      "nome": "Conselho Nacional de Previdência Social",
+      "sigla": "CNPS",
+      "pai": "308819",
+      "colegiada": true
+    },
+    {
+      "codigo": "312176",
+      "nome": "Secretaria de Regime Próprio e Complementar",
+      "sigla": "SRPC",
+      "pai": "308819"
+    },
+    {
+      "codigo": "236348",
+      "nome": "Conselho de Recursos da Previdência Social",
+      "sigla": "CRPS",
+      "pai": "308819",
+      "colegiada": true
+    },
+    {
+      "codigo": "2210",
+      "nome": "Secretaria de Regime Geral de Previdência Social",
+      "sigla": "SRGPS",
+      "pai": "308819"
+    },
+    {
+      "codigo": "310626",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308819"
+    },
+    {
+      "codigo": "310625",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308819"
+    },
+    {
+      "codigo": "520590",
+      "nome": "Comitê de Acompanhamento do Programa de Gerenciamento de Benefícios",
+      "sigla": "CAPGB",
+      "pai": "308819",
+      "colegiada": true
+    },
+    {
+      "codigo": "310629",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308819"
+    },
+    {
+      "codigo": "308875",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GABIN",
+      "pai": "308819"
+    },
+    {
+      "codigo": "308876",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308819"
+    },
+    {
+      "codigo": "310620",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPSD",
+      "pai": "308819"
+    },
+    {
+      "codigo": "310630",
+      "nome": "Assessoria Internacional",
+      "sigla": "ASINT",
+      "pai": "308819"
+    },
+    {
+      "codigo": "308877",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308819"
+    },
+    {
+      "codigo": "271532",
+      "nome": "Conselho Nacional dos Regimes Próprios de Previdência Social",
+      "sigla": "CNRPPS",
+      "pai": "308819",
+      "colegiada": true
+    },
+    {
+      "codigo": "308878",
+      "nome": "Ouvidoria-Geral da Previdência Social",
+      "sigla": "OUVID",
+      "pai": "308819"
+    },
+    {
+      "codigo": "105921",
+      "nome": "Câmara de Recursos da Previdência Complementar",
+      "sigla": "CRPC",
+      "pai": "308819",
+      "colegiada": true
+    },
+    {
+      "codigo": "2042",
+      "nome": "Conselho Nacional de Previdência Complementar",
+      "sigla": "CNPC",
+      "pai": "308819",
+      "colegiada": true
+    },
+    {
+      "codigo": "76707",
+      "nome": "Conselho de Previdência Social de Belém",
+      "sigla": "CPS-Belém",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76748",
+      "nome": "Conselho de Previdência Social de Manaus",
+      "sigla": "CPS-Manaus",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76751",
+      "nome": "Conselho de Previdência Social de Montes Claros",
+      "sigla": "CPSMC",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76756",
+      "nome": "Conselho de Previdência Social de Osasco",
+      "sigla": "CPS-Osasco",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76759",
+      "nome": "Conselho de Previdência Social de Passo Fundo",
+      "sigla": "CPS-PF",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76765",
+      "nome": "Conselho de Previdência Social de Ponta Grossa",
+      "sigla": "CPS-PGR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76787",
+      "nome": "Conselho de Previdência Social de Santo Antônio de Jesus",
+      "sigla": "CPS-SAJ",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76789",
+      "nome": "Conselho de Previdência Social de Vitória",
+      "sigla": "CPS-Vitória",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76703",
+      "nome": "Conselho de Previdência Social de Araraquara",
+      "sigla": "CPS-Araraquara",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76704",
+      "nome": "Conselho de Previdência Social de Barbacena",
+      "sigla": "CPS-Barbacena",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76711",
+      "nome": "Conselho de Previdência Social de Campina Grande",
+      "sigla": "CPSCG-CG",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76713",
+      "nome": "Conselho de Previdência Social de Campo Grande",
+      "sigla": "CPS-CGrande",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76726",
+      "nome": "Conselho de Previdência Social de Divinópolis",
+      "sigla": "CPSDIV",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76705",
+      "nome": "Conselho de Previdência Social de Barreiras",
+      "sigla": "CPSBARR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76730",
+      "nome": "Conselho de Previdência Social de Florianópolis",
+      "sigla": "CPSFLO",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76752",
+      "nome": "Conselho de Previdência Social de Mossoró",
+      "sigla": "CPS-Mossoró",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76754",
+      "nome": "Conselho de Previdência Social de Niterói",
+      "sigla": "CPS-Niterói",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76755",
+      "nome": "Conselho de Previdência Social de Novo Hamburgo",
+      "sigla": "CPS-NovoHamb",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76761",
+      "nome": "Conselho de Previdência Social de Petrolina",
+      "sigla": "CPS-Petrolina",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76764",
+      "nome": "Conselho de Previdência Social de Poços de Caldas",
+      "sigla": "CPS-PC",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76767",
+      "nome": "Conselho de Previdência Social de Porto Velho",
+      "sigla": "CPS-PV",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76771",
+      "nome": "Conselho de Previdência Social de Rio Branco",
+      "sigla": "CPSRB",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76772",
+      "nome": "Conselho de Previdência Social de Salvador",
+      "sigla": "CPSSALV",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76774",
+      "nome": "Conselho de Previdência Social de Santos",
+      "sigla": "CPSSANTOS",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76776",
+      "nome": "Conselho de Previdência Social de São Bernardo do Campo",
+      "sigla": "CPS-SBC",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76777",
+      "nome": "Conselho de Previdência Social de Boa Vista",
+      "sigla": "CPS-BV",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76781",
+      "nome": "Conselho de Previdência Social de Sorocaba",
+      "sigla": "CPSSORO",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76784",
+      "nome": "Conselho de Previdência Social de Teresina",
+      "sigla": "CPS-TERESINA",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76785",
+      "nome": "Conselho de Previdência Social de Uberaba",
+      "sigla": "CPSUBER",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76790",
+      "nome": "Conselho de Previdência Social de Vitória da Conquista",
+      "sigla": "CPS-VC",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76791",
+      "nome": "Conselho de Previdência Social de Volta Redonda",
+      "sigla": "CPS-VR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76746",
+      "nome": "Conselho de Previdência Social de Macapá",
+      "sigla": "CPS-AP",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76700",
+      "nome": "Conselho de Previdência Social de Anápolis",
+      "sigla": "CPS-Anapolis",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76710",
+      "nome": "Conselho de Previdência Social de São João da Boa Vista",
+      "sigla": "CPSBV",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76714",
+      "nome": "Conselho de Previdência Social de Campos dos Goytacazes",
+      "sigla": "CPSCG",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76715",
+      "nome": "Conselho de Previdência Social de Canoas",
+      "sigla": "CPS-Canoas",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76716",
+      "nome": "Conselho de Previdência Social de Caruaru",
+      "sigla": "CPS-Caruaru",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76717",
+      "nome": "Conselho de Previdência Social de Cascavel",
+      "sigla": "CPS-Cascavel",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76723",
+      "nome": "Conselho de Previdência Social de Curitiba",
+      "sigla": "CPSCUR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76724",
+      "nome": "Conselho de Previdência Social do Distrito Federal",
+      "sigla": "CPS-DF",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76725",
+      "nome": "Conselho de Previdência Social de Diamantina",
+      "sigla": "CPS-Diamantina",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76731",
+      "nome": "Conselho de Previdência Social de Fortaleza",
+      "sigla": "CPSFOR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76737",
+      "nome": "Conselho de Previdência Social de Imperatriz",
+      "sigla": "CPS-Imperatriz",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76738",
+      "nome": "Conselho de Previdência Social de Itabuna",
+      "sigla": "CPS-Itabuna",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76740",
+      "nome": "Conselho de Previdência Social de Joinville",
+      "sigla": "CPSJOIN",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76741",
+      "nome": "Conselho de Previdência Social de Juazeiro",
+      "sigla": "CPS-Juazeiro",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76743",
+      "nome": "Conselho de Previdência Social de Juiz de Fora",
+      "sigla": "CPS-JUIZFORA",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76744",
+      "nome": "Conselho de Previdência Social de Jundiaí",
+      "sigla": "CPS-Jundiaí",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76745",
+      "nome": "Conselho de Previdência Social de Londrina",
+      "sigla": "CPS-LONDRI",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "83294",
+      "nome": "Conselho de Previdência Social de São José do Rio Preto",
+      "sigla": "CPSRP",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76753",
+      "nome": "Conselho de Previdência Social de Natal",
+      "sigla": "CPS-Natal",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76760",
+      "nome": "Conselho de Previdência Social de Pelotas",
+      "sigla": "CPS-Pelotas",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76766",
+      "nome": "Conselho de Previdência Social de Porto Alegre",
+      "sigla": "CPS-POA",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76768",
+      "nome": "Conselho de Previdência Social de Presidente Prudente",
+      "sigla": "CPSPP",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76783",
+      "nome": "Conselho de Previdência Social de Teófilo Otoni",
+      "sigla": "CPS-TOTONI",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76718",
+      "nome": "Conselho de Previdência Social de Caxias do Sul",
+      "sigla": "CPS-CSUL",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76727",
+      "nome": "Conselho de Previdência Social de Dourados",
+      "sigla": "CPSDOURA",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76742",
+      "nome": "Conselho de Previdência Social de Juazeiro do Norte",
+      "sigla": "CPS-JNorte",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76762",
+      "nome": "Conselho de Previdência Social de Petrópolis",
+      "sigla": "CPSPETRO",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76770",
+      "nome": "Conselho de Previdência Social de Ribeirão Preto",
+      "sigla": "CPS-RP",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76773",
+      "nome": "Conselho de Previdência Social de Santa Maria",
+      "sigla": "CPS-StaMaria",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76779",
+      "nome": "Conselho de Previdência Social de São Luiz",
+      "sigla": "CPS-SÃOLUIZ",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76780",
+      "nome": "Conselho de Previdência Social de Sobral",
+      "sigla": "CPS-SOBRAL",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76793",
+      "nome": "Conselho de Previdência Social do Rio de Janeiro",
+      "sigla": "CPS-RJ",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76701",
+      "nome": "Conselho de Previdência Social de Aracaju",
+      "sigla": "CPS-Aracaju",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76712",
+      "nome": "Conselho de Previdência Social de Campinas",
+      "sigla": "CPS-Campinas",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76719",
+      "nome": "Conselho de Previdência Social de Chapecó",
+      "sigla": "CPS-Chapecó",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76728",
+      "nome": "Conselho de Previdência Social de Duque de Caxias",
+      "sigla": "CPSDCAXIAS",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76735",
+      "nome": "Conselho de Previdência Social de Guarulhos",
+      "sigla": "CPSGUAR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76736",
+      "nome": "Conselho de Previdência Social de Ijuí",
+      "sigla": "CPS-Ijuí",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76749",
+      "nome": "Conselho de Previdência Social de Marília",
+      "sigla": "CPSMAR",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76750",
+      "nome": "Conselho de Previdência Social de Maringá",
+      "sigla": "CPS-Maringá",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76763",
+      "nome": "Conselho de Previdência Social de Piracicaba",
+      "sigla": "CPS-Piracicaba",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76769",
+      "nome": "Conselho de Previdência Social de Recife",
+      "sigla": "CPS-REC",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76782",
+      "nome": "Conselho de Previdência Social de Taubaté",
+      "sigla": "CPS-TAUB",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76786",
+      "nome": "Conselho de Previdência Social de Uberlândia",
+      "sigla": "CPS-UBERL",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76788",
+      "nome": "Conselho de Previdência Social de Varginha",
+      "sigla": "CPSVARG",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76792",
+      "nome": "Conselho de Previdência Social de São Paulo",
+      "sigla": "CPSSP",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76708",
+      "nome": "Conselho de Previdência Social de Belo Horizonte",
+      "sigla": "CPS-BEAGÁ",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76720",
+      "nome": "Conselho de Previdência Social de Contagem",
+      "sigla": "CPS-Contagem",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76721",
+      "nome": "Conselho de Previdência Social de Criciúma",
+      "sigla": "CPS-Criciuma",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76732",
+      "nome": "Conselho de Previdência Social de Garanhuns",
+      "sigla": "CPSGUARA",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76733",
+      "nome": "Conselho de Previdência Social de Goiânia",
+      "sigla": "CPSGOI",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76734",
+      "nome": "Conselho de Previdência Social de Governador Valadares",
+      "sigla": "CPSGOVVAL",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76739",
+      "nome": "Conselho de Previdência Social de João Pessoa",
+      "sigla": "CPS-JoãoPessoa",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76729",
+      "nome": "Conselho de Previdência Social de Feira de Santana",
+      "sigla": "CPSFSANT",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76706",
+      "nome": "Conselho de Previdência Social de Bauru",
+      "sigla": "CPS-Bauru",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76722",
+      "nome": "Conselho de Previdência Social de Cuiabá",
+      "sigla": "CPSCUIABÁ",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76709",
+      "nome": "Conselho de Previdência Social de Blumenau",
+      "sigla": "CPS-Blumenal",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76702",
+      "nome": "Conselho de Previdência Social de Araçatuba",
+      "sigla": "CPS-Araçatuba",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76758",
+      "nome": "Conselho de Previdência Social de Palmas",
+      "sigla": "CPS-Palmas",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76757",
+      "nome": "Conselho de Previdência Social de Ouro Preto",
+      "sigla": "CPSOP",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "76747",
+      "nome": "Conselho de Previdência Social de Maceió",
+      "sigla": "CPS-AL",
+      "pai": "2764",
+      "colegiada": true
+    },
+    {
+      "codigo": "312240",
+      "nome": "Departamento dos Regimes Próprios de Previdência Social",
+      "sigla": "DRPPS",
+      "pai": "312176"
+    },
+    {
+      "codigo": "95576",
+      "nome": "Departamento do Regime de Previdência Complementar",
+      "sigla": "DERPC",
+      "pai": "312176"
+    },
+    {
+      "codigo": "38296",
+      "nome": "Departamento do Regime Geral de Previdência Social",
+      "sigla": "DRGPS",
+      "pai": "2210"
+    },
+    {
+      "codigo": "33233",
+      "nome": "Departamento de Políticas de Saúde e Segurança Ocupacional",
+      "sigla": "DPSSO",
+      "pai": "2210"
+    },
+    {
+      "codigo": "239154",
+      "nome": "Departamento de Perícia Médica Federal",
+      "sigla": "DPMF",
+      "pai": "2210"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "1934",
+      "nome": "Instituto Nacional do Seguro Social",
+      "sigla": "INSS",
+      "mapa": "org:inss"
+    },
+    {
+      "codigo": "105915",
+      "nome": "Superintendência Nacional de Previdência Complementar",
+      "sigla": "PREVIC",
+      "mapa": "org:previc"
+    }
+  ],
+  "ato_interno": 106,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308819 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

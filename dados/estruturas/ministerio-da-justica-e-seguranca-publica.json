@@ -1,0 +1,769 @@
+{
+  "id": "est:ministerio-da-justica-e-seguranca-publica",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Justiça e Segurança Pública no SIORG",
+  "resumo": "113 unidades criadas por lei ou decreto e 2 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "siorg": "235881",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "351449",
+      "nome": "Secretaria Nacional de Direitos Digitais",
+      "sigla": "SEDIGI",
+      "pai": "235881"
+    },
+    {
+      "codigo": "484909",
+      "nome": "Ouvidoria-Geral",
+      "sigla": "OUV",
+      "pai": "235881"
+    },
+    {
+      "codigo": "332903",
+      "nome": "Comitê Estratégico Estadual do Tocantins do Plano Amas",
+      "sigla": "CEE-TO-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "326463",
+      "nome": "Comissão Técnica do Plano Amazônia: Segurança e Soberania-Plano Amas",
+      "sigla": "CT-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "2766",
+      "nome": "Conselho Nacional de Imigração",
+      "sigla": "CNIg",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "324",
+      "nome": "Polícia Federal",
+      "sigla": "PF",
+      "pai": "235881",
+      "mapa": "org:policia-federal"
+    },
+    {
+      "codigo": "655415",
+      "nome": "Conselho Nacional de Secretários de Estado de Justiça, Cidadania, Direitos Humanos e Administra. Penitenciária",
+      "sigla": "CONSEJ",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "317848",
+      "nome": "Conselho Nacional de Defesa do Consumidor",
+      "sigla": "CNDC",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "318357",
+      "nome": "Grupo de Trabalho para Mitigação e Reparação dos Efeitos do Tráfico de Drogas sobre as Populações Indígenas",
+      "sigla": "GT-MRETDPI",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "333903",
+      "nome": "Comissão Nacional de Segurança Pública nos Portos, Terminais e Vias Navegáveis",
+      "sigla": "Conportos",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "332804",
+      "nome": "Comitê Estratégico Estadual de Mato Grosso do Plano Amas",
+      "sigla": "CEE-MT-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "332863",
+      "nome": "Comitê Estratégico Estadual de Roraima do Plano Amas",
+      "sigla": "CEE-RR-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "332923",
+      "nome": "Comitê Estratégico Estadual do Pará do Plano Amas",
+      "sigla": "CEE-PA-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "326943",
+      "nome": "Comitê Estratégico Estadual do Acre do Plano Amas",
+      "sigla": "CEE-AC-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "308943",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "235881"
+    },
+    {
+      "codigo": "79693",
+      "nome": "Conselho Nacional de Combate à Pirataria e Delitos contra a Propriedade Intelectual",
+      "sigla": "CNCP",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "287285",
+      "nome": "Comitê Gestor dos Planos de Enfrentamento da Covid-19 para os Povos Indígenas",
+      "sigla": "CGPEC19PI",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "333703",
+      "nome": "Comitê Estratégico Estadual do Maranhão do Plano Amas",
+      "sigla": "CEE-MA-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "332803",
+      "nome": "Comitê Estratégico Estadual do Amazonas do Plano Amas",
+      "sigla": "CEE-AM-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "221441",
+      "nome": "Conselho Nacional de Secretários de Segurança Pública",
+      "sigla": "Consesp",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "119335",
+      "nome": "Secretaria Nacional do Consumidor",
+      "sigla": "SENACON",
+      "pai": "235881"
+    },
+    {
+      "codigo": "309706",
+      "nome": "Secretaria Nacional de Acesso à Justiça",
+      "sigla": "SAJU",
+      "pai": "235881"
+    },
+    {
+      "codigo": "370969",
+      "nome": "Conselho Nacional de Políticas sobre Recuperação de Ativos",
+      "sigla": "Conara",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "33032",
+      "nome": "Secretaria Nacional de Políticas sobre Drogas e Gestão de Ativos",
+      "sigla": "SENAD",
+      "pai": "235881"
+    },
+    {
+      "codigo": "318",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "235881"
+    },
+    {
+      "codigo": "326443",
+      "nome": "Comitê Gestor do Plano Amazônia: Segurança e Soberania-Plano Amas",
+      "sigla": "CG-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "315287",
+      "nome": "Secretaria Nacional de Políticas Penais",
+      "sigla": "SENAPPEN",
+      "pai": "235881",
+      "mapa": "org:secretaria-nacional-de-politicas-penais"
+    },
+    {
+      "codigo": "210952",
+      "nome": "Corregedoria-Geral",
+      "sigla": "COGER",
+      "pai": "235881"
+    },
+    {
+      "codigo": "9518",
+      "nome": "Secretaria Nacional de Justiça",
+      "sigla": "SENAJUS",
+      "pai": "235881"
+    },
+    {
+      "codigo": "3413",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE-MJ",
+      "pai": "235881"
+    },
+    {
+      "codigo": "332823",
+      "nome": "Comitê Estratégico Estadual de Rondônia do Plano Amas",
+      "sigla": "CEE-RO-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "332783",
+      "nome": "Comitê Estratégico Estadual do Amapá do Plano Amas",
+      "sigla": "CEE-AP-PlanoAmas",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "245010",
+      "nome": "Comitê de Acompanhamento pela Sociedade Civil para a Classificação Indicativa",
+      "sigla": "CASCCI",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "241963",
+      "nome": "Conselho Nacional de Segurança Pública e Defesa Social",
+      "sigla": "CNSP",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "223859",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "235881"
+    },
+    {
+      "codigo": "9053",
+      "nome": "Secretaria Nacional de Segurança Pública",
+      "sigla": "SENASP",
+      "pai": "235881"
+    },
+    {
+      "codigo": "223854",
+      "nome": "Secretaria Nacional de Assuntos Legislativos",
+      "sigla": "SAL",
+      "pai": "235881"
+    },
+    {
+      "codigo": "242004",
+      "nome": "Conselho Gestor do SINESP",
+      "sigla": "CG-SINESP",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "242008",
+      "nome": "Comitê Gestor da Política Nacional de Repressão ao Furto e Roubo de Veículos e Cargas",
+      "sigla": "CGPNR",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "229151",
+      "nome": "Assessoria Especial de Assuntos Internacionais",
+      "sigla": "ASINT",
+      "pai": "235881"
+    },
+    {
+      "codigo": "90863",
+      "nome": "Conselho Gestor do Fundo Nacional de Segurança Pública",
+      "sigla": "CG-FNSP",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "222364",
+      "nome": "Comitê Gestor da Rede Integrada de Bancos de Perfis Genéticos",
+      "sigla": "CG-RIBPG",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "954",
+      "nome": "Conselho Nacional de Políticas sobre Drogas",
+      "sigla": "CONAD",
+      "pai": "235881",
+      "colegiada": true
+    },
+    {
+      "codigo": "317",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "235881"
+    },
+    {
+      "codigo": "704",
+      "nome": "Polícia Rodoviária Federal",
+      "sigla": "PRF",
+      "pai": "235881",
+      "mapa": "org:policia-rodoviaria-federal"
+    },
+    {
+      "codigo": "485649",
+      "nome": "Diretoria de Segurança e Prevenção de Riscos no Ambiente Digital",
+      "sigla": "DSPRAD",
+      "pai": "351449"
+    },
+    {
+      "codigo": "485629",
+      "nome": "Diretoria de Promoção de Direitos Digitais",
+      "sigla": "DPDD",
+      "pai": "351449"
+    },
+    {
+      "codigo": "309782",
+      "nome": "Diretoria de Polícia Administrativa",
+      "sigla": "DPA/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "75392",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DGP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "351689",
+      "nome": "Diretoria de Proteção à Pessoa",
+      "sigla": "DPP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309372",
+      "nome": "Diretoria de Cooperação Internacional",
+      "sigla": "DCI/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309361",
+      "nome": "Diretoria da Amazônia e Meio Ambiente",
+      "sigla": "DAMAZ/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "22366",
+      "nome": "Diretoria de Inteligência Policial",
+      "sigla": "DIP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "22330",
+      "nome": "Diretoria de Investigação e Combate ao Crime Organizado e à Corrupção",
+      "sigla": "DICOR/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309814",
+      "nome": "Diretoria de Ensino da Academia Nacional de Polícia",
+      "sigla": "DIREN-ANP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "75391",
+      "nome": "Diretoria Técnico-Científica",
+      "sigla": "DITEC/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "22258",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DIREX/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "325",
+      "nome": "Conselho Superior de Polícia",
+      "sigla": "CSP",
+      "pai": "324",
+      "colegiada": true
+    },
+    {
+      "codigo": "22338",
+      "nome": "Corregedoria-Geral",
+      "sigla": "COGER/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309364",
+      "nome": "Diretoria de Combate a Crimes Cibernéticos",
+      "sigla": "DCIBER/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "229214",
+      "nome": "Diretoria de Tecnologia da Informação e Comunicação",
+      "sigla": "DTI/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "75394",
+      "nome": "Diretoria de Administração e Logística",
+      "sigla": "DLOG/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "672879",
+      "nome": "Departamento de Fiscalização e Prevenção de Danos ao Consumidor",
+      "sigla": "DFPDC",
+      "pai": "119335"
+    },
+    {
+      "codigo": "317842",
+      "nome": "Comissão de Estudos Permanentes de Acidentes de Consumo",
+      "sigla": "CEPAC",
+      "pai": "119335",
+      "colegiada": true
+    },
+    {
+      "codigo": "8156",
+      "nome": "Conselho Federal Gestor do Fundo de Defesa dos Direitos Difusos",
+      "sigla": "CFDD",
+      "pai": "119335",
+      "colegiada": true
+    },
+    {
+      "codigo": "214386",
+      "nome": "Comitê Gestor do Consumidor.gov.br",
+      "sigla": "CG",
+      "pai": "119335",
+      "colegiada": true
+    },
+    {
+      "codigo": "1982",
+      "nome": "Departamento de Proteção e Defesa do Consumidor",
+      "sigla": "DPDC",
+      "pai": "119335"
+    },
+    {
+      "codigo": "236142",
+      "nome": "Departamento de Projetos e de Políticas de Direitos Coletivos e Difusos",
+      "sigla": "DPPDD",
+      "pai": "119335"
+    },
+    {
+      "codigo": "309708",
+      "nome": "Diretoria de Promoção de Direitos",
+      "sigla": "DIPRODI",
+      "pai": "309706"
+    },
+    {
+      "codigo": "309707",
+      "nome": "Diretoria de Promoção de Acesso à Justiça",
+      "sigla": "DIPROJU",
+      "pai": "309706"
+    },
+    {
+      "codigo": "578990",
+      "nome": "Diretoria de Respostas Integradas para o Uso Problemático de Álcool e Outras Drogas",
+      "sigla": "DRIAD",
+      "pai": "33032"
+    },
+    {
+      "codigo": "36349",
+      "nome": "Diretoria de Gestão de Ativos e Justiça",
+      "sigla": "DGA",
+      "pai": "33032"
+    },
+    {
+      "codigo": "309362",
+      "nome": "Diretoria de Prevenção e Reinserção Social",
+      "sigla": "DPRS",
+      "pai": "33032"
+    },
+    {
+      "codigo": "36368",
+      "nome": "Diretoria de Pesquisa, Avaliação e Gestão de Informações",
+      "sigla": "DPAGI",
+      "pai": "33032"
+    },
+    {
+      "codigo": "89690",
+      "nome": "Diretoria de Políticas Penitenciárias",
+      "sigla": "DIRPP",
+      "pai": "315287"
+    },
+    {
+      "codigo": "309357",
+      "nome": "Diretoria de Cidadania e Alternativas Penais",
+      "sigla": "DICAP",
+      "pai": "315287"
+    },
+    {
+      "codigo": "89668",
+      "nome": "Diretoria de Polícia Penal Federal",
+      "sigla": "DPPF",
+      "pai": "315287"
+    },
+    {
+      "codigo": "89654",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DIREX",
+      "pai": "315287"
+    },
+    {
+      "codigo": "320",
+      "nome": "Conselho Nacional de Política Criminal e Penitenciária",
+      "sigla": "CNPCP",
+      "pai": "315287",
+      "colegiada": true
+    },
+    {
+      "codigo": "242243",
+      "nome": "Comitê Gestor da Política Nac. de Atenção às Mulheres em Situa.de Priv. de Liber.e Egressas do Sist. Prisional",
+      "sigla": "CGPNAMSPLESP",
+      "pai": "315287",
+      "colegiada": true
+    },
+    {
+      "codigo": "235923",
+      "nome": "Diretoria de Inteligência Penal",
+      "sigla": "DIPEN",
+      "pai": "315287"
+    },
+    {
+      "codigo": "77308",
+      "nome": "Corregedoria-Geral",
+      "sigla": "COGER/SENAPPEN",
+      "pai": "315287"
+    },
+    {
+      "codigo": "317837",
+      "nome": "Fórum Nacional de Corregedorias do Sistema Único de Segurança Pública",
+      "sigla": "FNC",
+      "pai": "210952",
+      "colegiada": true
+    },
+    {
+      "codigo": "80486",
+      "nome": "Conselho Superior de Coordenação das Atividades do ILANUD",
+      "sigla": "CS-ILANUD",
+      "pai": "9518",
+      "colegiada": true
+    },
+    {
+      "codigo": "77275",
+      "nome": "Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional",
+      "sigla": "DRCI",
+      "pai": "9518"
+    },
+    {
+      "codigo": "245766",
+      "nome": "Conselho das Autoridades Centrais Brasileiras para Adoção Internacional de Crianças e Adolescentes",
+      "sigla": "CACBAICA",
+      "pai": "9518",
+      "colegiada": true
+    },
+    {
+      "codigo": "1954",
+      "nome": "Departamento de Migrações",
+      "sigla": "DEMIG",
+      "pai": "9518"
+    },
+    {
+      "codigo": "121734",
+      "nome": "Comitê Nacional de Enfrentamento ao Tráfico de Pessoas",
+      "sigla": "CONATRAP",
+      "pai": "9518",
+      "colegiada": true
+    },
+    {
+      "codigo": "8953",
+      "nome": "Subsecretaria de Planejamento e Orçamento",
+      "sigla": "SPO",
+      "pai": "3413"
+    },
+    {
+      "codigo": "121664",
+      "nome": "Comitê Gestor de Segurança da Informação e Comunicações",
+      "sigla": "CGSIC",
+      "pai": "3413",
+      "colegiada": true
+    },
+    {
+      "codigo": "108430",
+      "nome": "Comitê Gestor de Segurança Pública e Assuntos Penitenciários",
+      "sigla": "COGESPE-MJ",
+      "pai": "3413",
+      "colegiada": true
+    },
+    {
+      "codigo": "210964",
+      "nome": "Subsecretaria de Administração",
+      "sigla": "SAA",
+      "pai": "3413"
+    },
+    {
+      "codigo": "230245",
+      "nome": "Subsecretaria de Tecnologia da Informação e Comunicação",
+      "sigla": "STI",
+      "pai": "3413"
+    },
+    {
+      "codigo": "91570",
+      "nome": "Diretoria da Força Nacional de Segurança Pública",
+      "sigla": "DFNSP",
+      "pai": "9053"
+    },
+    {
+      "codigo": "74560",
+      "nome": "Diretoria de Gestão do Fundo Nacional  de Segurança Pública",
+      "sigla": "DGFNSP",
+      "pai": "9053"
+    },
+    {
+      "codigo": "51050",
+      "nome": "Diretoria do Sistema Único de Segurança Pública",
+      "sigla": "DSUSP",
+      "pai": "9053"
+    },
+    {
+      "codigo": "317878",
+      "nome": "Comitê Gestor do Sistema Nacional de Análise Balística",
+      "sigla": "CGSINAB",
+      "pai": "9053",
+      "colegiada": true
+    },
+    {
+      "codigo": "236104",
+      "nome": "Diretoria de Gestão e Integração de Informações",
+      "sigla": "DGI",
+      "pai": "9053"
+    },
+    {
+      "codigo": "223838",
+      "nome": "Diretoria de Operações Integradas e de Inteligência",
+      "sigla": "DIOPI",
+      "pai": "9053"
+    },
+    {
+      "codigo": "51051",
+      "nome": "Diretoria de Ensino e Pesquisa",
+      "sigla": "DEP",
+      "pai": "9053"
+    },
+    {
+      "codigo": "351489",
+      "nome": "Diretoria de Assuntos Parlamentares",
+      "sigla": "DIPAR",
+      "pai": "223854"
+    },
+    {
+      "codigo": "309206",
+      "nome": "Diretoria de Assuntos Legislativos",
+      "sigla": "DIAL",
+      "pai": "223854"
+    },
+    {
+      "codigo": "242006",
+      "nome": "Câmara Técnica de Inteligência",
+      "sigla": "CTI",
+      "pai": "242004",
+      "colegiada": true
+    },
+    {
+      "codigo": "242007",
+      "nome": "Câmara Técnica de Tecnologia da Informação",
+      "sigla": "CTTI",
+      "pai": "242004",
+      "colegiada": true
+    },
+    {
+      "codigo": "242005",
+      "nome": "Câmara Técnica de Estatística e Análise",
+      "sigla": "CTEA",
+      "pai": "242004",
+      "colegiada": true
+    },
+    {
+      "codigo": "317456",
+      "nome": "Comissão Interfederativa Permanente",
+      "sigla": "CIP-CONAD",
+      "pai": "954",
+      "colegiada": true
+    },
+    {
+      "codigo": "235975",
+      "nome": "Diretoria de Administração e Logística",
+      "sigla": "DIAD",
+      "pai": "704"
+    },
+    {
+      "codigo": "245837",
+      "nome": "Diretoria de Tecnologia da Informação e Comunicação",
+      "sigla": "DTIC",
+      "pai": "704"
+    },
+    {
+      "codigo": "3902",
+      "nome": "Corregedoria-Geral",
+      "sigla": "CG",
+      "pai": "704"
+    },
+    {
+      "codigo": "2459",
+      "nome": "Diretoria de Operações",
+      "sigla": "DIOP",
+      "pai": "704"
+    },
+    {
+      "codigo": "229206",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DIREX",
+      "pai": "704"
+    },
+    {
+      "codigo": "245835",
+      "nome": "Diretoria de Inteligência",
+      "sigla": "DINT",
+      "pai": "704"
+    },
+    {
+      "codigo": "245836",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DGP",
+      "pai": "704"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "322",
+      "nome": "Conselho Administrativo de Defesa Econômica",
+      "sigla": "CADE",
+      "mapa": "org:cade"
+    },
+    {
+      "codigo": "235884",
+      "nome": "Agência Nacional de Proteção de Dados",
+      "sigla": "ANPD",
+      "mapa": "org:anpd"
+    }
+  ],
+  "ato_interno": 367,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 235881 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

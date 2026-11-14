@@ -111,7 +111,7 @@ for (const arq of lerArquivos()) {
 }
 
 // 2. Referências: toda string com formato de id precisa existir; refs de fonte apontam para norma/fonte.
-const PADRAO_ID_NO_TEXTO = /\b(?:ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|aviso|var|met|fluxo):[a-z0-9]+(?:-[a-z0-9]+)*/g;
+const PADRAO_ID_NO_TEXTO = /\b(?:ente|org|cargo|pessoa|norma|fonte|rel|proc|obj|aviso|var|met|fluxo|est):[a-z0-9]+(?:-[a-z0-9]+)*/g;
 const CAMPOS_DE_TEXTO = new Set(["resumo", "detalhes", "notas", "nota", "condicao", "porque", "quando", "texto", "vagas_nota", "provimento_nota"]);
 
 for (const { entidade, caminho } of entidades.values()) {
@@ -136,6 +136,10 @@ for (const { entidade, caminho } of entidades.values()) {
   if (entidade.tipo === "metrica") {
     const alvo = entidades.get(entidade.de as string)?.entidade;
     if (alvo && !(alvo.tipo === "orgao" || alvo.tipo === "ente" || alvo.tipo === "objeto")) erro(caminho, `métrica deve medir um órgão, ente ou fundo, não ${alvo.tipo}`);
+  }
+  if (entidade.tipo === "estrutura") {
+    const alvo = entidades.get(entidade.de as string)?.entidade;
+    if (alvo && alvo.tipo !== "orgao") erro(caminho, `estrutura deve ser de um órgão, não ${alvo.tipo}`);
   }
   if (entidade.tipo === "fluxo") {
     const rel = entidades.get(entidade.repasse as string)?.entidade;

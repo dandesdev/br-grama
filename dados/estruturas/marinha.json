@@ -1,0 +1,430 @@
+{
+  "id": "est:marinha",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Marinha no SIORG",
+  "resumo": "62 unidades criadas por lei ou decreto e 3 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:marinha",
+  "siorg": "185",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "307751",
+      "nome": "Secretaria Naval de Segurança Nuclear e Qualidade",
+      "sigla": "SecNSNQ",
+      "pai": "185"
+    },
+    {
+      "codigo": "231143",
+      "nome": "Conselho de Ciência e Tecnologia da Marinha",
+      "sigla": "CONCITEM",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "231135",
+      "nome": "Secretaria da Comissão Interministerial para os Recursos do Mar",
+      "sigla": "SECIRM",
+      "pai": "185"
+    },
+    {
+      "codigo": "7928",
+      "nome": "Centro de Comunicação Social da Marinha",
+      "sigla": "CCSM",
+      "pai": "185"
+    },
+    {
+      "codigo": "231142",
+      "nome": "Almirantado",
+      "sigla": "Almirantado",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "95586",
+      "nome": "Diretoria-Geral de Desenvolvimento Nuclear e Tecnológico da Marinha",
+      "sigla": "DGDNTM",
+      "pai": "185"
+    },
+    {
+      "codigo": "241693",
+      "nome": "Comissão Coordenadora para os Assuntos da Organização Marítima Internacional",
+      "sigla": "CCAOMI",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "220",
+      "nome": "Tribunal Marítimo",
+      "sigla": "TM",
+      "pai": "185"
+    },
+    {
+      "codigo": "213",
+      "nome": "Conselho de Almirantes",
+      "sigla": "CAL",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "210",
+      "nome": "Diretoria-Geral de Navegação",
+      "sigla": "DGN",
+      "pai": "185"
+    },
+    {
+      "codigo": "199",
+      "nome": "Diretoria-Geral do Material da Marinha",
+      "sigla": "DGMM",
+      "pai": "185"
+    },
+    {
+      "codigo": "187",
+      "nome": "Estado-Maior da Armada",
+      "sigla": "EMA",
+      "pai": "185"
+    },
+    {
+      "codigo": "1777",
+      "nome": "Procuradoria Especial da Marinha",
+      "sigla": "PEM",
+      "pai": "185"
+    },
+    {
+      "codigo": "102936",
+      "nome": "Comissão Interministerial para os Recursos do Mar",
+      "sigla": "CIRM",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "191",
+      "nome": "Comando de Operações Navais",
+      "sigla": "ComOpNav",
+      "pai": "185"
+    },
+    {
+      "codigo": "1778",
+      "nome": "Conselho Financeiro e Administrativo da Marinha",
+      "sigla": "COFAMAR",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "120401",
+      "nome": "Centro de Controle Interno da Marinha",
+      "sigla": "CCIMAR",
+      "pai": "185"
+    },
+    {
+      "codigo": "218",
+      "nome": "Centro de Inteligência da Marinha",
+      "sigla": "CIM",
+      "pai": "185"
+    },
+    {
+      "codigo": "217",
+      "nome": "Comissão de Promoções de Oficiais",
+      "sigla": "CPO",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "214",
+      "nome": "Gabinete do Comandante da Marinha",
+      "sigla": "GCM",
+      "pai": "185"
+    },
+    {
+      "codigo": "202",
+      "nome": "Diretoria-Geral do Pessoal da Marinha",
+      "sigla": "DGPM",
+      "pai": "185"
+    },
+    {
+      "codigo": "192",
+      "nome": "Comando-Geral do Corpo de Fuzileiros Navais",
+      "sigla": "CGCFN",
+      "pai": "185"
+    },
+    {
+      "codigo": "195",
+      "nome": "Secretaria-Geral da Marinha",
+      "sigla": "SGM",
+      "pai": "185"
+    },
+    {
+      "codigo": "1780",
+      "nome": "Comissão de Estudos de Uniformes da Marinha",
+      "sigla": "CEUM",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "23458",
+      "nome": "Centro Tecnológico da Marinha em São Paulo",
+      "sigla": "CTMSP",
+      "pai": "95586"
+    },
+    {
+      "codigo": "218996",
+      "nome": "Centro Tecnológico da Marinha no Rio de Janeiro",
+      "sigla": "CTMRJ",
+      "pai": "95586"
+    },
+    {
+      "codigo": "212",
+      "nome": "Diretoria de Portos e Costas",
+      "sigla": "DPC",
+      "pai": "210"
+    },
+    {
+      "codigo": "211",
+      "nome": "Diretoria de Hidrografia e Navegação",
+      "sigla": "DHN",
+      "pai": "210"
+    },
+    {
+      "codigo": "47638",
+      "nome": "Diretoria de Comunicações e Tecnologia da Informação da Marinha",
+      "sigla": "DCTIM",
+      "pai": "199"
+    },
+    {
+      "codigo": "23452",
+      "nome": "Diretoria de Sistemas de Armas da Marinha",
+      "sigla": "DSAM",
+      "pai": "199"
+    },
+    {
+      "codigo": "200",
+      "nome": "Diretoria de Aeronáutica da Marinha",
+      "sigla": "DAerM",
+      "pai": "199"
+    },
+    {
+      "codigo": "218987",
+      "nome": "Diretoria Industrial da Marinha",
+      "sigla": "DIM",
+      "pai": "199"
+    },
+    {
+      "codigo": "201",
+      "nome": "Diretoria de Engenharia Naval",
+      "sigla": "DEN",
+      "pai": "199"
+    },
+    {
+      "codigo": "380",
+      "nome": "Diretoria de Obras Civis da Marinha",
+      "sigla": "DOCM",
+      "pai": "199"
+    },
+    {
+      "codigo": "188",
+      "nome": "Escola de Guerra Naval",
+      "sigla": "EGN",
+      "pai": "187"
+    },
+    {
+      "codigo": "244837",
+      "nome": "Subcomissão para o Plano de Levantamento da Plataforma Continental Brasileira",
+      "sigla": "LEPLAC",
+      "pai": "102936",
+      "colegiada": true
+    },
+    {
+      "codigo": "244836",
+      "nome": "Subcomissão para o Programa Antártico Brasileiro",
+      "sigla": "PROANTAR",
+      "pai": "102936",
+      "colegiada": true
+    },
+    {
+      "codigo": "244835",
+      "nome": "Subcomissão para o Plano Setorial para os Recursos do Mar",
+      "sigla": "PSRM",
+      "pai": "102936",
+      "colegiada": true
+    },
+    {
+      "codigo": "81127",
+      "nome": "Comando do 9º Distrito Naval",
+      "sigla": "Com9ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "769",
+      "nome": "Comando do 4º Distrito Naval",
+      "sigla": "Com4ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "193",
+      "nome": "Comando do 1º Distrito Naval",
+      "sigla": "Com1ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "23223",
+      "nome": "Comando do 7º Distrito Naval",
+      "sigla": "Com7ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "25487",
+      "nome": "Comando do 8º Distrito Naval",
+      "sigla": "Com8ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "770",
+      "nome": "Comando do 5º Distrito Naval",
+      "sigla": "Com5ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "767",
+      "nome": "Comando do 2º Distrito Naval",
+      "sigla": "Com2ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "379",
+      "nome": "Comando em Chefe da Esquadra",
+      "sigla": "ComemCh",
+      "pai": "191"
+    },
+    {
+      "codigo": "1394",
+      "nome": "Comando da Força de Fuzileiros da Esquadra",
+      "sigla": "ComFFE",
+      "pai": "191"
+    },
+    {
+      "codigo": "768",
+      "nome": "Comando do 3º Distrito Naval",
+      "sigla": "Com3ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "771",
+      "nome": "Comando do 6º Distrito Naval",
+      "sigla": "Com6ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "207",
+      "nome": "Diretoria de Saúde da Marinha",
+      "sigla": "DSM",
+      "pai": "202"
+    },
+    {
+      "codigo": "206",
+      "nome": "Diretoria do Pessoal da Marinha",
+      "sigla": "DPM",
+      "pai": "202"
+    },
+    {
+      "codigo": "203",
+      "nome": "Diretoria de Assistência Social da Marinha",
+      "sigla": "DASM",
+      "pai": "202"
+    },
+    {
+      "codigo": "204",
+      "nome": "Diretoria de Ensino da Marinha",
+      "sigla": "DEnsM",
+      "pai": "202"
+    },
+    {
+      "codigo": "22078",
+      "nome": "Comando do Material de Fuzileiros Navais",
+      "sigla": "CMatFN",
+      "pai": "192"
+    },
+    {
+      "codigo": "22076",
+      "nome": "Comando do Pessoal de Fuzileiros Navais",
+      "sigla": "CPesFN",
+      "pai": "192"
+    },
+    {
+      "codigo": "10186",
+      "nome": "Centro de Educação Física Almirante Adalberto Nunes",
+      "sigla": "CEFAN",
+      "pai": "192"
+    },
+    {
+      "codigo": "96445",
+      "nome": "Diretoria do Patrimônio Histórico e Documentação da Marinha",
+      "sigla": "DPHDM",
+      "pai": "195"
+    },
+    {
+      "codigo": "414",
+      "nome": "Diretoria de Abastecimento da Marinha",
+      "sigla": "DAbM",
+      "pai": "195"
+    },
+    {
+      "codigo": "197",
+      "nome": "Diretoria de Administração da Marinha",
+      "sigla": "DAdM",
+      "pai": "195"
+    },
+    {
+      "codigo": "117932",
+      "nome": "Diretoria de Gestão Orçamentária da Marinha",
+      "sigla": "DGOM",
+      "pai": "195"
+    },
+    {
+      "codigo": "196",
+      "nome": "Diretoria de Finanças da Marinha",
+      "sigla": "DFM",
+      "pai": "195"
+    },
+    {
+      "codigo": "205",
+      "nome": "Superintendência do Pessoal Civil da Marinha",
+      "sigla": "DPM-BSB",
+      "pai": "206"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "208",
+      "nome": "Caixa de Construções de Casas para o Pessoal da Marinha",
+      "sigla": "CCCPCM"
+    },
+    {
+      "codigo": "1013",
+      "nome": "Empresa Gerencial de Projetos Navais",
+      "sigla": "EMGEPRON"
+    },
+    {
+      "codigo": "200949",
+      "nome": "Amazônia Azul Tecnologias de Defesa S.A.",
+      "sigla": "AMAZUL"
+    }
+  ],
+  "ato_interno": 371,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 185 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

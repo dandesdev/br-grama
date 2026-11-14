@@ -1,0 +1,148 @@
+{
+  "id": "est:incra",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Instituto Nacional de Colonização e Reforma Agrária no SIORG",
+  "resumo": "19 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:incra",
+  "siorg": "1799",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "249392",
+      "nome": "Câmara Nacional de Conciliação Agraria",
+      "sigla": "CCA",
+      "pai": "1799"
+    },
+    {
+      "codigo": "46773",
+      "nome": "Auditoria Interna",
+      "sigla": "AUD",
+      "pai": "1799"
+    },
+    {
+      "codigo": "44211",
+      "nome": "Comitê Consultivo do Processo de Modernização",
+      "sigla": "COCPM-INCRA",
+      "pai": "1799",
+      "colegiada": true
+    },
+    {
+      "codigo": "45007",
+      "nome": "Conselho Estadual do Programa Nacional de Educação na Reforma Agrária",
+      "sigla": "CNE-PRONERA-AC",
+      "pai": "1799",
+      "colegiada": true
+    },
+    {
+      "codigo": "107380",
+      "nome": "Comissão Pedagógica Nacional do Programa Nacional de Educação na Reforma Agrária - PRONERA",
+      "sigla": "CPN-PRONERA",
+      "pai": "1799",
+      "colegiada": true
+    },
+    {
+      "codigo": "431329",
+      "nome": "Diretoria de Obtenção de Terras",
+      "sigla": "DT",
+      "pai": "1799"
+    },
+    {
+      "codigo": "46751",
+      "nome": "Diretoria de Gestão Administrativa",
+      "sigla": "DA",
+      "pai": "1799"
+    },
+    {
+      "codigo": "249390",
+      "nome": "Assessoria Parlamentar",
+      "sigla": "ASPAR",
+      "pai": "1799"
+    },
+    {
+      "codigo": "1876",
+      "nome": "Assessoria de Comunicação Social e Eventos",
+      "sigla": "ASCOM",
+      "pai": "1799"
+    },
+    {
+      "codigo": "431330",
+      "nome": "Diretoria de Territórios Quilombolas",
+      "sigla": "DQ",
+      "pai": "1799"
+    },
+    {
+      "codigo": "431249",
+      "nome": "Diretoria de Programas e Projetos Especiais",
+      "sigla": "DP",
+      "pai": "1799"
+    },
+    {
+      "codigo": "46754",
+      "nome": "Diretoria de Governança da Terra",
+      "sigla": "DF",
+      "pai": "1799"
+    },
+    {
+      "codigo": "249391",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "1799"
+    },
+    {
+      "codigo": "219917",
+      "nome": "Corregedoria-Geral",
+      "sigla": "CGE",
+      "pai": "1799"
+    },
+    {
+      "codigo": "46753",
+      "nome": "Diretoria de Gestão Estratégica",
+      "sigla": "DE",
+      "pai": "1799"
+    },
+    {
+      "codigo": "46744",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "1799"
+    },
+    {
+      "codigo": "89249",
+      "nome": "Diretoria de Desenvolvimento Sustentável",
+      "sigla": "DD",
+      "pai": "1799"
+    },
+    {
+      "codigo": "3896",
+      "nome": "Conselho Diretor",
+      "sigla": "CD",
+      "pai": "1799",
+      "colegiada": true
+    },
+    {
+      "codigo": "1872",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "1799"
+    }
+  ],
+  "ato_interno": 74,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 1799 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,764 @@
+{
+  "id": "est:ministerio-da-fazenda",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Fazenda no SIORG",
+  "resumo": "105 unidades criadas por lei ou decreto e 10 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-fazenda",
+  "siorg": "308800",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "71665",
+      "nome": "Comitê de Coordenação Gerencial das Instituições Financeiras Públicas Federais",
+      "sigla": "CGIF",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "309685",
+      "nome": "Corregedoria",
+      "sigla": "COGER",
+      "pai": "308800"
+    },
+    {
+      "codigo": "319465",
+      "nome": "Conselho de Participação em Operações de Crédito Educativo",
+      "sigla": "CPOCE",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "317841",
+      "nome": "Comitê de Participação no Fundo de Garantia para a Construção Naval",
+      "sigla": "CGFGCN",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "309499",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308800"
+    },
+    {
+      "codigo": "2031",
+      "nome": "Secretaria de Assuntos Internacionais",
+      "sigla": "SAIN",
+      "pai": "308800"
+    },
+    {
+      "codigo": "78",
+      "nome": "Procuradoria-Geral da Fazenda Nacional",
+      "sigla": "PGFN",
+      "pai": "308800"
+    },
+    {
+      "codigo": "3172",
+      "nome": "Comitê de Avaliação e Renegociação de Créditos ao Exterior",
+      "sigla": "COMACE",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "88",
+      "nome": "Comitê Brasileiro de Nomenclatura",
+      "sigla": "CBN",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "82",
+      "nome": "Conselho Monetário Nacional",
+      "sigla": "CMN",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "77",
+      "nome": "Secretaria Especial da Receita Federal do Brasil",
+      "sigla": "RFB",
+      "pai": "308800",
+      "mapa": "org:receita-federal"
+    },
+    {
+      "codigo": "1696",
+      "nome": "Secretaria do Tesouro Nacional",
+      "sigla": "STN",
+      "pai": "308800",
+      "mapa": "org:secretaria-do-tesouro-nacional"
+    },
+    {
+      "codigo": "233869",
+      "nome": "Comitê de Monitoramento e Avaliação dos Subsídios da União",
+      "sigla": "CMAS",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "91843",
+      "nome": "Comitê Gestor do Simples Nacional",
+      "sigla": "CGSN",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "309350",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "308800"
+    },
+    {
+      "codigo": "308910",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GMF",
+      "pai": "308800"
+    },
+    {
+      "codigo": "555051",
+      "nome": "Comitê p/ Integração das Admin. Trib. e Gestão da Rede Nac. p/ Simpl. do Regis. e da Legal. de Emp. e Negócios",
+      "sigla": "CGSIM",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "556613",
+      "nome": "Assessoria Especial",
+      "sigla": "ASSESP",
+      "pai": "308800"
+    },
+    {
+      "codigo": "556210",
+      "nome": "Secretaria Extraordinária do Mercado de Carbono",
+      "sigla": "SEMC",
+      "pai": "308800"
+    },
+    {
+      "codigo": "317843",
+      "nome": "Comitê de Participação no Fundo Garantidor da Habitação Popular",
+      "sigla": "CPFGHab",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "315269",
+      "nome": "Conselho Diretor do Fundo PIS-Pasep",
+      "sigla": "CONPIS-PASEP",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "309502",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308800"
+    },
+    {
+      "codigo": "231727",
+      "nome": "Conselho de Participação do Fundo Garantidor do Fundo de Financiamento Estudantil-FIES",
+      "sigla": "CPFG-Fies",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "1987",
+      "nome": "Secretaria de Política Econômica",
+      "sigla": "SPE",
+      "pai": "308800"
+    },
+    {
+      "codigo": "1463",
+      "nome": "Cons. Recursos do Sist. Fin. Nacional, Cons. Rec. do Sist. Nacion. de Seguros Priv., Prev. Priv. Aberta e Cap.",
+      "sigla": "CRSFN-CRSNSP",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "393309",
+      "nome": "Comitê Interinstitucional da Taxonomia Sustentável Brasileira",
+      "sigla": "CITSB",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "309498",
+      "nome": "Assessoria Especial para Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308800"
+    },
+    {
+      "codigo": "593410",
+      "nome": "Comitê Técnico Consultivo Permanente do SBCE",
+      "sigla": "CTCPSBCE",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "101068",
+      "nome": "Conselho Administrativo de Recursos Fiscais",
+      "sigla": "CARF/MF",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "381771",
+      "nome": "Secretaria de Prêmios e Apostas",
+      "sigla": "SPA",
+      "pai": "308800"
+    },
+    {
+      "codigo": "308911",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308800"
+    },
+    {
+      "codigo": "229",
+      "nome": "Conselho Nacional de Seguros Privados",
+      "sigla": "CNSP",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "87",
+      "nome": "Conselho Nacional de Política Fazendária",
+      "sigla": "CONFAZ/MF",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "386729",
+      "nome": "Conselho Curador do Fundo de Compensação de Variações Salariais",
+      "sigla": "CCFCVSL",
+      "pai": "308800",
+      "colegiada": true
+    },
+    {
+      "codigo": "309295",
+      "nome": "Secretaria de Reformas Econômicas",
+      "sigla": "SRE",
+      "pai": "308800"
+    },
+    {
+      "codigo": "237132",
+      "nome": "Subsecretaria de Financiamento ao Desenvolvimento Sustentável",
+      "sigla": "SUFIN",
+      "pai": "2031"
+    },
+    {
+      "codigo": "122480",
+      "nome": "Subsecretaria de Finanças Internacionais e Cooperação Econômica",
+      "sigla": "SUFIC",
+      "pai": "2031"
+    },
+    {
+      "codigo": "309266",
+      "nome": "Subsecretaria de Acompanhamento Macroeconômico e de Políticas Comerciais",
+      "sigla": "SUMAC",
+      "pai": "2031"
+    },
+    {
+      "codigo": "239153",
+      "nome": "Subprocuradoria-Geral da Fazenda Nacional",
+      "sigla": "SUBPGFN",
+      "pai": "78"
+    },
+    {
+      "codigo": "101014",
+      "nome": "Procuradoria-Geral Adjunta de Gestão",
+      "sigla": "PGAGE",
+      "pai": "78"
+    },
+    {
+      "codigo": "101011",
+      "nome": "Procuradoria-Geral Adjunta Tributária",
+      "sigla": "PGAT",
+      "pai": "78"
+    },
+    {
+      "codigo": "221033",
+      "nome": "Procuradoria-Geral Adjunta de Estratégia e Representação Judicial",
+      "sigla": "PGAJUD",
+      "pai": "78"
+    },
+    {
+      "codigo": "101010",
+      "nome": "Procuradoria-Geral Adjunta Fiscal, Financeira e Societária",
+      "sigla": "PGAFIN",
+      "pai": "78"
+    },
+    {
+      "codigo": "101013",
+      "nome": "Procuradoria-Geral Adjunta da Dívida Ativa da União e do Fundo de Garantia do Tempo de Serviço",
+      "sigla": "PGDAU",
+      "pai": "78"
+    },
+    {
+      "codigo": "101012",
+      "nome": "Procuradoria-Geral Adjunta de Consultoria Administrativa",
+      "sigla": "PGAD",
+      "pai": "78"
+    },
+    {
+      "codigo": "556331",
+      "nome": "Procuradoria-Geral Adjunta de Governança",
+      "sigla": "PGAGOV",
+      "pai": "78"
+    },
+    {
+      "codigo": "561050",
+      "nome": "Comissão Consultiva de Normas e Organização do Sistema Financeiro",
+      "sigla": "CCNOSF",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "561071",
+      "nome": "Comissão Técnica da Moeda e do Crédito",
+      "sigla": "COMOC",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "561070",
+      "nome": "Comissão Consultiva de Política Monetária e Cambial",
+      "sigla": "CCPMC",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "560990",
+      "nome": "Comissão Consultiva de Crédito Rural",
+      "sigla": "CCCR",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "561031",
+      "nome": "Comissão Consultiva de Mercado de Valores Mobiliários e de Futuros",
+      "sigla": "CCMVMF",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "560970",
+      "nome": "Comissão Consultiva de Crédito Industrial",
+      "sigla": "CCCI",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "561030",
+      "nome": "Comissão Consultiva de Endividamento Público",
+      "sigla": "CCEP",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "561010",
+      "nome": "Comissão Consultiva de Créditos Habitacional e para Saneamento e Infra",
+      "sigla": "CCCHSI",
+      "pai": "82",
+      "colegiada": true
+    },
+    {
+      "codigo": "102040",
+      "nome": "Comitê Gestor do Imposto sobre a Propriedade Territorial Rural",
+      "sigla": "CGIPTR",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "230863",
+      "nome": "Comitê Gestor do eSocial",
+      "sigla": "eSOCIAL",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "214426",
+      "nome": "Comitê Temático Relacionado às Informações Registrais",
+      "sigla": "CTRIR",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "214427",
+      "nome": "Comitê Temático Relacionado às Informações Geoespaciais",
+      "sigla": "CTRIG",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "91844",
+      "nome": "Comitê Gestor do Programa de Recuperação Fiscal",
+      "sigla": "CGSN",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "230864",
+      "nome": "Comitê Diretivo do eSocial",
+      "sigla": "CDeSocial",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "381969",
+      "nome": "Secretaria-Adjunta",
+      "sigla": "SEADJ",
+      "pai": "77"
+    },
+    {
+      "codigo": "319318",
+      "nome": "Comitê Gestor do Programa de Produtividade da Receita Federal do Brasil",
+      "sigla": "CGPPRFB",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "105650",
+      "nome": "Subsecretaria de Administração, Transformação Digital e Inovação",
+      "sigla": "SUATI",
+      "pai": "1696"
+    },
+    {
+      "codigo": "105648",
+      "nome": "Subsecretaria da Dívida Pública",
+      "sigla": "SUDIP",
+      "pai": "1696"
+    },
+    {
+      "codigo": "292609",
+      "nome": "Subsecretaria de Administração Financeira Federal",
+      "sigla": "SUAFI",
+      "pai": "1696"
+    },
+    {
+      "codigo": "105647",
+      "nome": "Subsecretaria de Gestão Fiscal",
+      "sigla": "SUGEF",
+      "pai": "1696"
+    },
+    {
+      "codigo": "112945",
+      "nome": "Subsecretaria de Contabilidade Pública",
+      "sigla": "SUCON",
+      "pai": "1696"
+    },
+    {
+      "codigo": "105649",
+      "nome": "Subsecretaria de Relações Financeiras Intergovernamentais",
+      "sigla": "SURIN",
+      "pai": "1696"
+    },
+    {
+      "codigo": "105645",
+      "nome": "Subsecretaria de Planejamento Estratégico da Política Fiscal",
+      "sigla": "SUPEF",
+      "pai": "1696"
+    },
+    {
+      "codigo": "317852",
+      "nome": "Câmara Técnica de Normas Contábeis e de Demonstrativos Fiscais da Federação",
+      "sigla": "CTNCDFF",
+      "pai": "1696",
+      "colegiada": true
+    },
+    {
+      "codigo": "318717",
+      "nome": "Comitê de Finanças Sustentáveis Soberanas",
+      "sigla": "CFSS",
+      "pai": "1696",
+      "colegiada": true
+    },
+    {
+      "codigo": "118711",
+      "nome": "Conselho de Participação em Fundos Garantid. para Cobert. de Risc. em Proj. de Infraestrutura de Grande Vulto",
+      "sigla": "CPFGCRPIGV",
+      "pai": "1696",
+      "colegiada": true
+    },
+    {
+      "codigo": "556230",
+      "nome": "Subsecretaria de Regulação e Metodologias",
+      "sigla": "SRM",
+      "pai": "556210"
+    },
+    {
+      "codigo": "556250",
+      "nome": "Subsecretaria de Implementação",
+      "sigla": "SIM",
+      "pai": "556210"
+    },
+    {
+      "codigo": "236368",
+      "nome": "Subsecretaria de Política Agrícola e Negócios Agroambientais",
+      "sigla": "SPANA",
+      "pai": "1987"
+    },
+    {
+      "codigo": "236372",
+      "nome": "Subsecretaria de Política Fiscal",
+      "sigla": "SPF",
+      "pai": "1987"
+    },
+    {
+      "codigo": "309306",
+      "nome": "Subsecretaria de Desenvolvimento Econômico Sustentável",
+      "sigla": "SDES",
+      "pai": "1987"
+    },
+    {
+      "codigo": "317859",
+      "nome": "Grupo de Trabalho Interministerial para Integração dos Sistemas de Dados do Setor Rural",
+      "sigla": "GTISDSR",
+      "pai": "1987",
+      "colegiada": true
+    },
+    {
+      "codigo": "236370",
+      "nome": "Subsecretaria de Política Macroeconômica",
+      "sigla": "SPM",
+      "pai": "1987"
+    },
+    {
+      "codigo": "243329",
+      "nome": "Comitê de Avaliação e Seleção de Conselheiros do Conselho de Recursos do Sistema Financeiro Nacional",
+      "sigla": "CAS-CRSFN",
+      "pai": "1463",
+      "colegiada": true
+    },
+    {
+      "codigo": "393329",
+      "nome": "Comitê Supervisor",
+      "sigla": "CS-CITSB",
+      "pai": "393309",
+      "colegiada": true
+    },
+    {
+      "codigo": "393349",
+      "nome": "Comitê Consultivo",
+      "sigla": "CC-CITSB",
+      "pai": "393309",
+      "colegiada": true
+    },
+    {
+      "codigo": "381790",
+      "nome": "Subsecretaria de Autorização",
+      "sigla": "SAT",
+      "pai": "381771"
+    },
+    {
+      "codigo": "381809",
+      "nome": "Subsecretaria de Monitoramento e Fiscalização",
+      "sigla": "SMF",
+      "pai": "381771"
+    },
+    {
+      "codigo": "381829",
+      "nome": "Subsecretaria de Ação Sancionadora",
+      "sigla": "SAS",
+      "pai": "381771"
+    },
+    {
+      "codigo": "221257",
+      "nome": "Comitê Estratégico do Sistema Eletrônico de Informações",
+      "sigla": "CESEI",
+      "pai": "308911",
+      "colegiada": true
+    },
+    {
+      "codigo": "226324",
+      "nome": "Conselho de Supervisão do Regime de Recuperação Fiscal do Estados do Rio de Janeiro",
+      "sigla": "CSRFERJ",
+      "pai": "308911",
+      "colegiada": true
+    },
+    {
+      "codigo": "381469",
+      "nome": "Subsecretaria de Assuntos Tributários e Gestão",
+      "sigla": "SATG",
+      "pai": "308911"
+    },
+    {
+      "codigo": "309698",
+      "nome": "Subsecretaria de Gestão, Tecnologia da Informação e Orçamento",
+      "sigla": "SGTO",
+      "pai": "308911"
+    },
+    {
+      "codigo": "108112",
+      "nome": "Comissão Técnica Permanente do ICMS",
+      "sigla": "COTEPE/ICMS",
+      "pai": "308911",
+      "colegiada": true
+    },
+    {
+      "codigo": "288611",
+      "nome": "Conselho de Supervisão do Regime de Recuperação Fiscal do Estado de Goiás",
+      "sigla": "CSRRFEGO",
+      "pai": "308911",
+      "colegiada": true
+    },
+    {
+      "codigo": "381489",
+      "nome": "Subsecretaria de Assuntos Econômicos e Fiscais",
+      "sigla": "SAEF",
+      "pai": "308911"
+    },
+    {
+      "codigo": "308914",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308911"
+    },
+    {
+      "codigo": "556614",
+      "nome": "Subsecretaria de Transformação Ecológica",
+      "sigla": "STE",
+      "pai": "308911"
+    },
+    {
+      "codigo": "309668",
+      "nome": "Subsecretaria de Gestão Estratégica",
+      "sigla": "SGE",
+      "pai": "308911"
+    },
+    {
+      "codigo": "561191",
+      "nome": "Comitê Consultivo de Recursos do Seguro Habitação do Sistema Financeiro de Habitação",
+      "sigla": "CRSH",
+      "pai": "229",
+      "colegiada": true
+    },
+    {
+      "codigo": "561230",
+      "nome": "Secretaria do CNSP",
+      "sigla": "SEC-CNSP",
+      "pai": "229",
+      "colegiada": true
+    },
+    {
+      "codigo": "561190",
+      "nome": "Comissão Consultiva de Recursos Administrativos",
+      "sigla": "CCRA",
+      "pai": "229",
+      "colegiada": true
+    },
+    {
+      "codigo": "236367",
+      "nome": "Subsecretaria de Reformas Microeconômicas e Regulação Financeira",
+      "sigla": "SRMI",
+      "pai": "309295"
+    },
+    {
+      "codigo": "309304",
+      "nome": "Subsecretaria de Acompanhamento Econômico e Regulação",
+      "sigla": "SEAE",
+      "pai": "309295"
+    },
+    {
+      "codigo": "99392",
+      "nome": "Subsecretaria de Tributação e Contencioso",
+      "sigla": "Sutri",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99394",
+      "nome": "Subsecretaria de Arrecadação, Cadastros e Atendimento",
+      "sigla": "Suara",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99393",
+      "nome": "Subsecretaria de Fiscalização",
+      "sigla": "Sufis",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99391",
+      "nome": "Subsecretaria de Administração Aduaneira",
+      "sigla": "Suana",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99395",
+      "nome": "Subsecretaria de Gestão Corporativa",
+      "sigla": "Sucor",
+      "pai": "381969"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "90",
+      "nome": "Serviço Federal de Processamento de Dados",
+      "sigla": "SERPRO"
+    },
+    {
+      "codigo": "91",
+      "nome": "Caixa Econômica Federal",
+      "sigla": "CAIXA",
+      "mapa": "org:caixa-economica-federal"
+    },
+    {
+      "codigo": "92",
+      "nome": "Casa da Moeda do Brasil",
+      "sigla": "CMB"
+    },
+    {
+      "codigo": "93",
+      "nome": "Banco do Brasil S.A.",
+      "sigla": "BB",
+      "mapa": "org:banco-do-brasil"
+    },
+    {
+      "codigo": "171",
+      "nome": "Banco da Amazônia S.A.",
+      "sigla": "BASA"
+    },
+    {
+      "codigo": "172",
+      "nome": "Banco do Nordeste do Brasil S.A.",
+      "sigla": "BNB"
+    },
+    {
+      "codigo": "235",
+      "nome": "Superintendência de Seguros Privados",
+      "sigla": "SUSEP"
+    },
+    {
+      "codigo": "478",
+      "nome": "Comissão de Valores Mobiliários",
+      "sigla": "CVM"
+    },
+    {
+      "codigo": "118698",
+      "nome": "Agência Brasileira Gestora de Fundos Garantidores e Garantias S.A.",
+      "sigla": "ABGF"
+    },
+    {
+      "codigo": "55962",
+      "nome": "Empresa Gestora de Ativos",
+      "sigla": "EMGEA"
+    }
+  ],
+  "ato_interno": 247,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308800 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "est:receita-federal",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Secretaria Especial da Receita Federal do Brasil no SIORG",
+  "resumo": "13 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:receita-federal",
+  "siorg": "77",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "102040",
+      "nome": "Comitê Gestor do Imposto sobre a Propriedade Territorial Rural",
+      "sigla": "CGIPTR",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "230863",
+      "nome": "Comitê Gestor do eSocial",
+      "sigla": "eSOCIAL",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "214426",
+      "nome": "Comitê Temático Relacionado às Informações Registrais",
+      "sigla": "CTRIR",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "214427",
+      "nome": "Comitê Temático Relacionado às Informações Geoespaciais",
+      "sigla": "CTRIG",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "91844",
+      "nome": "Comitê Gestor do Programa de Recuperação Fiscal",
+      "sigla": "CGSN",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "230864",
+      "nome": "Comitê Diretivo do eSocial",
+      "sigla": "CDeSocial",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "381969",
+      "nome": "Secretaria-Adjunta",
+      "sigla": "SEADJ",
+      "pai": "77"
+    },
+    {
+      "codigo": "319318",
+      "nome": "Comitê Gestor do Programa de Produtividade da Receita Federal do Brasil",
+      "sigla": "CGPPRFB",
+      "pai": "77",
+      "colegiada": true
+    },
+    {
+      "codigo": "99392",
+      "nome": "Subsecretaria de Tributação e Contencioso",
+      "sigla": "Sutri",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99394",
+      "nome": "Subsecretaria de Arrecadação, Cadastros e Atendimento",
+      "sigla": "Suara",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99393",
+      "nome": "Subsecretaria de Fiscalização",
+      "sigla": "Sufis",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99391",
+      "nome": "Subsecretaria de Administração Aduaneira",
+      "sigla": "Suana",
+      "pai": "381969"
+    },
+    {
+      "codigo": "99395",
+      "nome": "Subsecretaria de Gestão Corporativa",
+      "sigla": "Sucor",
+      "pai": "381969"
+    }
+  ],
+  "ato_interno": 57,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 77 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

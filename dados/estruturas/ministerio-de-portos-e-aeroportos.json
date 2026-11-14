@@ -1,0 +1,234 @@
+{
+  "id": "est:ministerio-de-portos-e-aeroportos",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério de Portos e Aeroportos no SIORG",
+  "resumo": "25 unidades criadas por lei ou decreto e 9 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-de-portos-e-aeroportos",
+  "siorg": "308817",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "92748",
+      "nome": "Secretaria Nacional de Portos",
+      "sigla": "SNP",
+      "pai": "308817"
+    },
+    {
+      "codigo": "308883",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "308817"
+    },
+    {
+      "codigo": "309130",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308817"
+    },
+    {
+      "codigo": "309129",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308817"
+    },
+    {
+      "codigo": "453329",
+      "nome": "Comitê Gestor do Fundo Nacional de Aviação Civil",
+      "sigla": "CG-FNAC",
+      "pai": "308817",
+      "colegiada": true
+    },
+    {
+      "codigo": "309132",
+      "nome": "Assessoria Especial de Assuntos Internacionais",
+      "sigla": "AESINT",
+      "pai": "308817"
+    },
+    {
+      "codigo": "309133",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308817"
+    },
+    {
+      "codigo": "308885",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308817"
+    },
+    {
+      "codigo": "92769",
+      "nome": "Conselho Diretor do Fundo da Marinha Mercante",
+      "sigla": "CDFMM",
+      "pai": "308817",
+      "colegiada": true
+    },
+    {
+      "codigo": "398629",
+      "nome": "Secretaria Nacional de Hidrovias e Navegação",
+      "sigla": "SENHN",
+      "pai": "308817"
+    },
+    {
+      "codigo": "308886",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308817"
+    },
+    {
+      "codigo": "115257",
+      "nome": "Secretaria Nacional de Aviação Civil",
+      "sigla": "SAC",
+      "pai": "308817"
+    },
+    {
+      "codigo": "120961",
+      "nome": "Comissão Nacional de Autoridades Aeroportuárias",
+      "sigla": "CONAERO",
+      "pai": "308817",
+      "colegiada": true
+    },
+    {
+      "codigo": "309131",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "AESCOM",
+      "pai": "308817"
+    },
+    {
+      "codigo": "314768",
+      "nome": "Conselho de Aviação Civil",
+      "sigla": "CONAC",
+      "pai": "308817",
+      "colegiada": true
+    },
+    {
+      "codigo": "121890",
+      "nome": "Comissão Nacional das Autoridades nos Portos",
+      "sigla": "CONAPORTOS",
+      "pai": "308817",
+      "colegiada": true
+    },
+    {
+      "codigo": "309134",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308817"
+    },
+    {
+      "codigo": "308887",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308817"
+    },
+    {
+      "codigo": "93050",
+      "nome": "Departamento de Gestão e Modernização Portuária",
+      "sigla": "DGMP",
+      "pai": "92748"
+    },
+    {
+      "codigo": "123422",
+      "nome": "Departamento de Novas Outorgas e Políticas Regulatórias Portuárias",
+      "sigla": "DNOP",
+      "pai": "92748"
+    },
+    {
+      "codigo": "398550",
+      "nome": "Subsecretaria de Gestão e Administração",
+      "sigla": "SGA",
+      "pai": "308885"
+    },
+    {
+      "codigo": "398630",
+      "nome": "Departamento de Gestão Hidroviária",
+      "sigla": "DGH",
+      "pai": "398629"
+    },
+    {
+      "codigo": "398631",
+      "nome": "Departamento de Navegação e Fomento",
+      "sigla": "DENAF",
+      "pai": "398629"
+    },
+    {
+      "codigo": "115560",
+      "nome": "Departamento de Investimentos",
+      "sigla": "DINV",
+      "pai": "115257"
+    },
+    {
+      "codigo": "115534",
+      "nome": "Departamento de Outorgas, Patrimônio e Políticas Regulatórias Aeroportuárias",
+      "sigla": "DOPR",
+      "pai": "115257"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "73",
+      "nome": "Empresa Brasileira de Infraestrutura Aeroportuária",
+      "sigla": "INFRAERO"
+    },
+    {
+      "codigo": "180",
+      "nome": "Companhia Docas do Rio de Janeiro",
+      "sigla": "CDRJ"
+    },
+    {
+      "codigo": "182",
+      "nome": "Companhia Docas do Pará",
+      "sigla": "CDP"
+    },
+    {
+      "codigo": "183",
+      "nome": "Companhia Docas do Rio Grande do Norte",
+      "sigla": "CODERN"
+    },
+    {
+      "codigo": "702",
+      "nome": "Companhia das Docas do Estado da Bahia",
+      "sigla": "CODEBA"
+    },
+    {
+      "codigo": "758",
+      "nome": "Companhia Docas do Ceará",
+      "sigla": "CDC"
+    },
+    {
+      "codigo": "959",
+      "nome": "Autoridade Portuária de Santos S.A.",
+      "sigla": "APS S.A."
+    },
+    {
+      "codigo": "54843",
+      "nome": "Agência Nacional de Transportes Aquaviários",
+      "sigla": "ANTAQ",
+      "mapa": "org:antaq"
+    },
+    {
+      "codigo": "86144",
+      "nome": "Agência Nacional de Aviação Civil",
+      "sigla": "ANAC",
+      "mapa": "org:anac"
+    }
+  ],
+  "ato_interno": 46,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308817 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "est:abin",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Brasileira de Inteligência no SIORG",
+  "resumo": "14 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:abin",
+  "siorg": "45104",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "74888",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "45104"
+    },
+    {
+      "codigo": "95556",
+      "nome": "Corregedoria",
+      "sigla": "COGER",
+      "pai": "45104"
+    },
+    {
+      "codigo": "218634",
+      "nome": "Assessoria de Relações Internacionais",
+      "sigla": "ARINT",
+      "pai": "45104"
+    },
+    {
+      "codigo": "95555",
+      "nome": "Assessoria Jurídica",
+      "sigla": "ASJUR",
+      "pai": "45104"
+    },
+    {
+      "codigo": "46694",
+      "nome": "Departamento de Contrainteligência",
+      "sigla": "DCI",
+      "pai": "45104"
+    },
+    {
+      "codigo": "46691",
+      "nome": "Departamento de Inteligência Externa",
+      "sigla": "DIEX",
+      "pai": "45104"
+    },
+    {
+      "codigo": "46680",
+      "nome": "Secretaria de Planejamento e Gestão",
+      "sigla": "SPG",
+      "pai": "45104"
+    },
+    {
+      "codigo": "46693",
+      "nome": "Departamento de Operações de Inteligência",
+      "sigla": "DOINT",
+      "pai": "45104"
+    },
+    {
+      "codigo": "266251",
+      "nome": "Assessoria de Governança e Conformidade",
+      "sigla": "AGC",
+      "pai": "45104"
+    },
+    {
+      "codigo": "266261",
+      "nome": "Departamento de Inteligência Interna",
+      "sigla": "DINT",
+      "pai": "45104"
+    },
+    {
+      "codigo": "46689",
+      "nome": "Departamento de Administração e Logística",
+      "sigla": "DAL",
+      "pai": "46680"
+    },
+    {
+      "codigo": "266584",
+      "nome": "Escola de Inteligência",
+      "sigla": "ESINT",
+      "pai": "46680"
+    },
+    {
+      "codigo": "218638",
+      "nome": "Centro de Pesquisa e Desenvolvimento para a Segurança das Comunicações",
+      "sigla": "CEPESC",
+      "pai": "46680"
+    },
+    {
+      "codigo": "95537",
+      "nome": "Departamento de Gestão de Pessoas",
+      "sigla": "DGP",
+      "pai": "46680"
+    }
+  ],
+  "ato_interno": 61,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 45104 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,445 @@
+{
+  "id": "est:cgu",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Controladoria-Geral da União no SIORG",
+  "resumo": "68 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:cgu",
+  "siorg": "214460",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "88772",
+      "nome": "Secretaria de Integridade Pública",
+      "sigla": "SIP",
+      "pai": "214460"
+    },
+    {
+      "codigo": "237202",
+      "nome": "Secretaria de Integridade Privada",
+      "sigla": "SIPRI",
+      "pai": "214460"
+    },
+    {
+      "codigo": "247400",
+      "nome": "Comitê Interministerial de Governo Aberto",
+      "sigla": "CIGA",
+      "pai": "214460",
+      "colegiada": true
+    },
+    {
+      "codigo": "236671",
+      "nome": "Assessoria Especial para Assuntos Internacionais",
+      "sigla": "AINT",
+      "pai": "214460"
+    },
+    {
+      "codigo": "72576",
+      "nome": "Ouvidoria-Geral da União",
+      "sigla": "OGU",
+      "pai": "214460"
+    },
+    {
+      "codigo": "72575",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "214460"
+    },
+    {
+      "codigo": "44701",
+      "nome": "Comissão de Coordenação de Controle Interno",
+      "sigla": "CCCI",
+      "pai": "214460",
+      "colegiada": true
+    },
+    {
+      "codigo": "52304",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "214460"
+    },
+    {
+      "codigo": "4328",
+      "nome": "Secretaria Federal de Controle Interno",
+      "sigla": "SFC",
+      "pai": "214460",
+      "mapa": "org:secretaria-federal-de-controle-interno"
+    },
+    {
+      "codigo": "88716",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "214460"
+    },
+    {
+      "codigo": "311386",
+      "nome": "Secretaria Nacional de Transparência e Acesso à Informação",
+      "sigla": "SNAI",
+      "pai": "214460"
+    },
+    {
+      "codigo": "367569",
+      "nome": "Assessoria Especial de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "214460"
+    },
+    {
+      "codigo": "84303",
+      "nome": "Comissão de Coordenação de Correição",
+      "sigla": "CCC",
+      "pai": "214460",
+      "colegiada": true
+    },
+    {
+      "codigo": "74902",
+      "nome": "Conselho de Transparência, Integridade e Combate à Corrupção",
+      "sigla": "CTICC",
+      "pai": "214460",
+      "colegiada": true
+    },
+    {
+      "codigo": "88353",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "214460"
+    },
+    {
+      "codigo": "88751",
+      "nome": "Corregedoria-Geral da União",
+      "sigla": "CRG",
+      "pai": "214460"
+    },
+    {
+      "codigo": "317877",
+      "nome": "Comitê Interministerial de Combate à Corrupção",
+      "sigla": "CICC",
+      "pai": "214460",
+      "colegiada": true
+    },
+    {
+      "codigo": "236670",
+      "nome": "Assessoria para Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "214460"
+    },
+    {
+      "codigo": "237181",
+      "nome": "Diretoria de Integridade Pública",
+      "sigla": "DIP",
+      "pai": "88772"
+    },
+    {
+      "codigo": "309145",
+      "nome": "Diretoria de Prevenção a Conflito de Interesses",
+      "sigla": "DEIP",
+      "pai": "88772"
+    },
+    {
+      "codigo": "311382",
+      "nome": "Diretoria de Promoção e Avaliação de Integridade Privada",
+      "sigla": "DPI",
+      "pai": "237202"
+    },
+    {
+      "codigo": "237365",
+      "nome": "Diretoria de Responsabilização de Entes Privados",
+      "sigla": "DIREP",
+      "pai": "237202"
+    },
+    {
+      "codigo": "237205",
+      "nome": "Diretoria de Acordos de Leniência",
+      "sigla": "DAL",
+      "pai": "237202"
+    },
+    {
+      "codigo": "298300",
+      "nome": "Diretoria de Articulação, Monitoramento e Supervisão do Sistema de Ouvidorias",
+      "sigla": "DOUV",
+      "pai": "72576"
+    },
+    {
+      "codigo": "298301",
+      "nome": "Diretoria de Proteção e Defesa do Usuário de Serviço Público",
+      "sigla": "DUSP",
+      "pai": "72576"
+    },
+    {
+      "codigo": "46121",
+      "nome": "Diretoria de Auditoria de Políticas Econômicas e de Desenvolvimento",
+      "sigla": "DE",
+      "pai": "4328"
+    },
+    {
+      "codigo": "218683",
+      "nome": "Diretoria de Auditoria de Estatais",
+      "sigla": "DAE",
+      "pai": "4328"
+    },
+    {
+      "codigo": "367589",
+      "nome": "Diretoria de Investigações e Operações",
+      "sigla": "DIOPE",
+      "pai": "4328"
+    },
+    {
+      "codigo": "237048",
+      "nome": "Diretoria de Auditoria de Previdência e Benefícios",
+      "sigla": "DPB",
+      "pai": "4328"
+    },
+    {
+      "codigo": "218677",
+      "nome": "Diretoria de Auditoria de Governança e Gestão",
+      "sigla": "DG",
+      "pai": "4328"
+    },
+    {
+      "codigo": "46135",
+      "nome": "Diretoria de Auditoria de Políticas de Infraestrutura",
+      "sigla": "DI",
+      "pai": "4328"
+    },
+    {
+      "codigo": "46127",
+      "nome": "Diretoria de Auditoria de Políticas Sociais e de Segurança Pública",
+      "sigla": "DS",
+      "pai": "4328"
+    },
+    {
+      "codigo": "311398",
+      "nome": "Diretoria de Articulação, Supervisão e Monitoramento de Acesso à Informação",
+      "sigla": "DASAI",
+      "pai": "311386"
+    },
+    {
+      "codigo": "123547",
+      "nome": "Diretoria de Governo Aberto e Transparência",
+      "sigla": "DGAT",
+      "pai": "311386"
+    },
+    {
+      "codigo": "311395",
+      "nome": "Diretoria de Recursos e Entendimentos de Acesso à Informação",
+      "sigla": "DIRAI",
+      "pai": "311386"
+    },
+    {
+      "codigo": "123543",
+      "nome": "Diretoria de Pesquisas e Informações Estratégicas",
+      "sigla": "DIE",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1374",
+      "nome": "Controladoria Regional da União no Estado do Mato Grosso",
+      "sigla": "CGU-MT",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1369",
+      "nome": "Controladoria Regional da União no Estado do Espírito Santo",
+      "sigla": "CGU-ES",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1368",
+      "nome": "Controladoria Regional da União no Estado do Ceará",
+      "sigla": "CGU-CE",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9851",
+      "nome": "Controladoria Regional da União no Estado de Rondônia",
+      "sigla": "CGU-RO",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9849",
+      "nome": "Controladoria Regional da União no Estado do Rio Grande do Norte",
+      "sigla": "CGU-RN",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1365",
+      "nome": "Controladoria Regional da União no Estado de Alagoas",
+      "sigla": "CGU-AL",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9850",
+      "nome": "Controladoria Regional da União no Estado do Rio Grande do Sul",
+      "sigla": "CGU-RS",
+      "pai": "88353"
+    },
+    {
+      "codigo": "88721",
+      "nome": "Diretoria de Gestão Corporativa",
+      "sigla": "DGC",
+      "pai": "88353"
+    },
+    {
+      "codigo": "438911",
+      "nome": "Diretoria de Planejamento, Inovação e Sustentabilidade",
+      "sigla": "DPIS",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1371",
+      "nome": "Controladoria Regional da União no Estado do Maranhão",
+      "sigla": "CGU-MA",
+      "pai": "88353"
+    },
+    {
+      "codigo": "45940",
+      "nome": "Controladoria Regional da União no Estado de Roraima",
+      "sigla": "CGU-RR",
+      "pai": "88353"
+    },
+    {
+      "codigo": "45939",
+      "nome": "Controladoria Regional da União no Estado do Amapá",
+      "sigla": "CGU-AP",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9852",
+      "nome": "Controladoria Regional da União no Estado de Santa Catarina",
+      "sigla": "CGU-SC",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1373",
+      "nome": "Controladoria Regional da União no Estado do Mato Grosso do Sul",
+      "sigla": "CGU-MS",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9848",
+      "nome": "Controladoria Regional da União no Estado do Rio de Janeiro",
+      "sigla": "CGU-RJ",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1366",
+      "nome": "Controladoria Regional da União no Estado do Amazonas",
+      "sigla": "CGU-AM",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1377",
+      "nome": "Controladoria Regional da União no Estado de Pernambuco",
+      "sigla": "CGU-PE",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1375",
+      "nome": "Controladoria Regional da União no Estado do Pará",
+      "sigla": "CGU-PA",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1364",
+      "nome": "Controladoria Regional da União no Estado do Acre",
+      "sigla": "CGU-AC",
+      "pai": "88353"
+    },
+    {
+      "codigo": "88735",
+      "nome": "Diretoria de Tecnologia da Informação",
+      "sigla": "DTI",
+      "pai": "88353"
+    },
+    {
+      "codigo": "45941",
+      "nome": "Controladoria Regional da União no Estado de Tocantins",
+      "sigla": "CGU-TO",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9854",
+      "nome": "Controladoria Regional da União no Estado de Sergipe",
+      "sigla": "CGU-SE",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1370",
+      "nome": "Controladoria Regional da União no Estado de Goiás",
+      "sigla": "CGU-GO",
+      "pai": "88353"
+    },
+    {
+      "codigo": "9853",
+      "nome": "Controladoria Regional da União no Estado de São Paulo",
+      "sigla": "CGU-SP",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1372",
+      "nome": "Controladoria Regional da União no Estado de Minas Gerais",
+      "sigla": "CGU-MG",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1379",
+      "nome": "Controladoria Regional da União no Estado do Piauí",
+      "sigla": "CGU-PI",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1378",
+      "nome": "Controladoria Regional da União no Estado do Paraná",
+      "sigla": "CGU-PR",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1376",
+      "nome": "Controladoria Regional da União no Estado da Paraíba",
+      "sigla": "CGU-PB",
+      "pai": "88353"
+    },
+    {
+      "codigo": "1367",
+      "nome": "Controladoria Regional da União no Estado da Bahia",
+      "sigla": "CGU-BA",
+      "pai": "88353"
+    },
+    {
+      "codigo": "221912",
+      "nome": "Comitê Permanente de Desburocratização do MTCGU",
+      "sigla": "CPD-CGU",
+      "pai": "88353",
+      "colegiada": true
+    },
+    {
+      "codigo": "237241",
+      "nome": "Diretoria de Articulação, Monitoramento e Supervisão do Sistema de Correição do Poder Executivo Federal",
+      "sigla": "DICOR",
+      "pai": "88751"
+    },
+    {
+      "codigo": "237381",
+      "nome": "Diretoria de Responsabilização de Agentes Públicos",
+      "sigla": "DIRAP",
+      "pai": "88751"
+    }
+  ],
+  "ato_interno": 266,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 214460 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

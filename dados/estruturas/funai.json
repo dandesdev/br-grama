@@ -1,0 +1,103 @@
+{
+  "id": "est:funai",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Fundação Nacional dos Povos Indígenas no SIORG",
+  "resumo": "12 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:funai",
+  "siorg": "173",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "107649",
+      "nome": "Diretoria Colegiada",
+      "sigla": "Dircol",
+      "pai": "173",
+      "colegiada": true
+    },
+    {
+      "codigo": "107103",
+      "nome": "Ouvidoria",
+      "sigla": "Ouvi",
+      "pai": "173"
+    },
+    {
+      "codigo": "87876",
+      "nome": "Diretoria de Proteção Territorial",
+      "sigla": "DPT",
+      "pai": "173"
+    },
+    {
+      "codigo": "505790",
+      "nome": "Diretoria de Gestão Ambiental e Territorial",
+      "sigla": "Digat",
+      "pai": "173"
+    },
+    {
+      "codigo": "88025",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "173"
+    },
+    {
+      "codigo": "505410",
+      "nome": "Diretoria de Direitos Humanos e Políticas Sociais",
+      "sigla": "DHPS",
+      "pai": "173"
+    },
+    {
+      "codigo": "87887",
+      "nome": "Museu Nacional dos Povos Indígenas",
+      "sigla": "MNPI",
+      "pai": "173"
+    },
+    {
+      "codigo": "505890",
+      "nome": "Diretoria de Demarcação de Terras Indígenas",
+      "sigla": "Didem",
+      "pai": "173"
+    },
+    {
+      "codigo": "88031",
+      "nome": "Auditoria Interna",
+      "sigla": "Audin",
+      "pai": "173"
+    },
+    {
+      "codigo": "87834",
+      "nome": "Gabinete",
+      "sigla": "GAB - Pres",
+      "pai": "173"
+    },
+    {
+      "codigo": "107102",
+      "nome": "Corregedoria",
+      "sigla": "Correg",
+      "pai": "173"
+    },
+    {
+      "codigo": "87501",
+      "nome": "Diretoria de Administração e Gestão",
+      "sigla": "Dages",
+      "pai": "173"
+    }
+  ],
+  "ato_interno": 115,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 173 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

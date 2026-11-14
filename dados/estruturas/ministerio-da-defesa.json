@@ -1,0 +1,1667 @@
+{
+  "id": "est:ministerio-da-defesa",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Defesa no SIORG",
+  "resumo": "254 unidades criadas por lei ou decreto e 8 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-defesa",
+  "siorg": "41066",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "41581",
+      "nome": "Secretaria de Controle Interno",
+      "sigla": "CISET",
+      "pai": "41066"
+    },
+    {
+      "codigo": "240771",
+      "nome": "Conselho Superior de Governança",
+      "sigla": "CSG",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "230665",
+      "nome": "Junta Interamericana de Defesa",
+      "sigla": "JID",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "220311",
+      "nome": "Assessoria Especial Militar",
+      "sigla": "ASMIL",
+      "pai": "41066"
+    },
+    {
+      "codigo": "113010",
+      "nome": "Assessoria Especial de Planejamento",
+      "sigla": "ASPLAN",
+      "pai": "41066"
+    },
+    {
+      "codigo": "41926",
+      "nome": "Conselho Militar de Defesa",
+      "sigla": "COMIDE",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "77073",
+      "nome": "Comissão Permanente de Interação de Estudos Militares",
+      "sigla": "CPIEM",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "1414",
+      "nome": "Comissão Assessora de Ciência e Tecnologia para a Defesa",
+      "sigla": "COMASSE",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "485",
+      "nome": "Comissão do Serviço Militar",
+      "sigla": "COSEMI",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "230666",
+      "nome": "Delegação Brasileira na Comissão Mista de Defesa Brasil-Estados Unidos",
+      "sigla": "CMDBEU",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "221599",
+      "nome": "Comitê de Segurança da Informação e Comunicações",
+      "sigla": "CSIC",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "120851",
+      "nome": "Secretaria-Geral",
+      "sigla": "SG",
+      "pai": "41066"
+    },
+    {
+      "codigo": "121818",
+      "nome": "Comissão Mista da Indústria de Defesa",
+      "sigla": "CMID",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "43072",
+      "nome": "Conselho Deliberativo do Sistema de Proteção da Amazônia",
+      "sigla": "CONSIPAM",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "289945",
+      "nome": "Assessoria Especial de Relações Institucionais",
+      "sigla": "AERI",
+      "pai": "41066"
+    },
+    {
+      "codigo": "290105",
+      "nome": "Assessoria Especial de Integridade e Segurança da Informação",
+      "sigla": "AESPI",
+      "pai": "41066"
+    },
+    {
+      "codigo": "41067",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "41066"
+    },
+    {
+      "codigo": "27702",
+      "nome": "Comissão de Desenvolvimento do Projeto e da Implantação do Sistema de Comunicações Militares por Satélite",
+      "sigla": "CISCOMIS",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "185",
+      "nome": "Comando da Marinha",
+      "sigla": "MB",
+      "pai": "41066",
+      "mapa": "org:marinha"
+    },
+    {
+      "codigo": "48",
+      "nome": "Comando da Aeronáutica",
+      "sigla": "COMAER",
+      "pai": "41066",
+      "mapa": "org:aeronautica"
+    },
+    {
+      "codigo": "35",
+      "nome": "Hospital das Forças Armadas",
+      "sigla": "HFA",
+      "pai": "41066"
+    },
+    {
+      "codigo": "1736",
+      "nome": "Comissão de Desenvolvimento do Projeto e da Implantação do Sistema Militar de Comando e Controle",
+      "sigla": "CISMC2",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "3596",
+      "nome": "Comissão Permanente para Licitação Internacional de Produtos Farmacêuticos",
+      "sigla": "CLPF",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "317844",
+      "nome": "Grupo de Trabalho Interministerial de Acompanhamento da Situação no Golfo da Guiné.",
+      "sigla": "GTAIASGG",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "94",
+      "nome": "Comando do Exército",
+      "sigla": "C Ex",
+      "pai": "41066",
+      "mapa": "org:exercito"
+    },
+    {
+      "codigo": "60771",
+      "nome": "Comissão Militar da Indústria da Defesa",
+      "sigla": "CMID-SELOM",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "41571",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "41066"
+    },
+    {
+      "codigo": "41110",
+      "nome": "Estado-Maior Conjunto das Forças Armadas",
+      "sigla": "EMCFA",
+      "pai": "41066",
+      "mapa": "org:estado-maior-conjunto-das-forcas-armadas"
+    },
+    {
+      "codigo": "488",
+      "nome": "Comissão de Estudos de Alimentação para as Forças Armadas",
+      "sigla": "CEAFA",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "340603",
+      "nome": "Grupo de Trabalho Interministerial para atualização da Política Nacional de Defesa e da Estratégia Nacional de",
+      "sigla": "GTIAPNDEND",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "210291",
+      "nome": "Comitê de Orientação e Supervisão do Projeto Rondon",
+      "sigla": "COS-Projeto Rondon",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "41582",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "41066"
+    },
+    {
+      "codigo": "489",
+      "nome": "Comissão Permanente dos Serviços de Saúde da Marinha, Exército e Aeronáutica",
+      "sigla": "CPSSMEA",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "906",
+      "nome": "Comissão Permanente de Catalogação de Material",
+      "sigla": "CPCM",
+      "pai": "41066",
+      "colegiada": true
+    },
+    {
+      "codigo": "44638",
+      "nome": "Comissão de Controle Interno",
+      "sigla": "CCI",
+      "pai": "41581",
+      "colegiada": true
+    },
+    {
+      "codigo": "77074",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SEEX",
+      "pai": "77073"
+    },
+    {
+      "codigo": "7505",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SEEX",
+      "pai": "1414"
+    },
+    {
+      "codigo": "1543",
+      "nome": "Subcomissão de Comunicação Social",
+      "sigla": "S COM-3",
+      "pai": "485",
+      "colegiada": true
+    },
+    {
+      "codigo": "1542",
+      "nome": "Subcomissão de Recrutamento e Administração da Reserva",
+      "sigla": "S COM-2",
+      "pai": "485",
+      "colegiada": true
+    },
+    {
+      "codigo": "1544",
+      "nome": "Subcomissão de Administração Financeira",
+      "sigla": "S COM-4",
+      "pai": "485",
+      "colegiada": true
+    },
+    {
+      "codigo": "1541",
+      "nome": "Subcomissão de Legislação e Estudo",
+      "sigla": "S COM-1",
+      "pai": "485",
+      "colegiada": true
+    },
+    {
+      "codigo": "1545",
+      "nome": "Subcomissão de Informática",
+      "sigla": "S COM-5",
+      "pai": "485",
+      "colegiada": true
+    },
+    {
+      "codigo": "121920",
+      "nome": "Gabinete do Secretário-Geral",
+      "sigla": "GAB-SG",
+      "pai": "120851"
+    },
+    {
+      "codigo": "41109",
+      "nome": "Secretaria de Pessoal, Saúde, Desporto e Projetos Sociais",
+      "sigla": "SEPESD",
+      "pai": "120851"
+    },
+    {
+      "codigo": "115639",
+      "nome": "Departamento do Programa Calha Norte - Militar",
+      "sigla": "DPCN",
+      "pai": "120851"
+    },
+    {
+      "codigo": "113057",
+      "nome": "Secretaria de Orçamento e Organização Institucional",
+      "sigla": "SEORI",
+      "pai": "120851"
+    },
+    {
+      "codigo": "44072",
+      "nome": "Centro Gestor e Operacional do Sistema de Proteção da Amazônia",
+      "sigla": "CENSIPAM",
+      "pai": "120851"
+    },
+    {
+      "codigo": "113165",
+      "nome": "Secretaria de Produtos de Defesa",
+      "sigla": "SEPROD",
+      "pai": "120851"
+    },
+    {
+      "codigo": "121916",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "290105"
+    },
+    {
+      "codigo": "571550",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "290105"
+    },
+    {
+      "codigo": "205588",
+      "nome": "Assessoria de Atos e Procedimentos",
+      "sigla": "ASSAP-GM",
+      "pai": "41067"
+    },
+    {
+      "codigo": "68346",
+      "nome": "Comissão de Ética",
+      "sigla": "COET-MD",
+      "pai": "41067",
+      "colegiada": true
+    },
+    {
+      "codigo": "41929",
+      "nome": "Ordinariado Militar",
+      "sigla": "ORDMIL",
+      "pai": "41067"
+    },
+    {
+      "codigo": "225569",
+      "nome": "Assessoria de Cerimonial",
+      "sigla": "ASCER-GM",
+      "pai": "41067"
+    },
+    {
+      "codigo": "26436",
+      "nome": "Conselho Diretor",
+      "sigla": "CD-CISCOMIS",
+      "pai": "27702",
+      "colegiada": true
+    },
+    {
+      "codigo": "25057",
+      "nome": "Secretaria-Executiva da CISCOMIS",
+      "sigla": "SEC",
+      "pai": "27702"
+    },
+    {
+      "codigo": "307751",
+      "nome": "Secretaria Naval de Segurança Nuclear e Qualidade",
+      "sigla": "SecNSNQ",
+      "pai": "185"
+    },
+    {
+      "codigo": "231143",
+      "nome": "Conselho de Ciência e Tecnologia da Marinha",
+      "sigla": "CONCITEM",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "231135",
+      "nome": "Secretaria da Comissão Interministerial para os Recursos do Mar",
+      "sigla": "SECIRM",
+      "pai": "185"
+    },
+    {
+      "codigo": "7928",
+      "nome": "Centro de Comunicação Social da Marinha",
+      "sigla": "CCSM",
+      "pai": "185"
+    },
+    {
+      "codigo": "231142",
+      "nome": "Almirantado",
+      "sigla": "Almirantado",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "95586",
+      "nome": "Diretoria-Geral de Desenvolvimento Nuclear e Tecnológico da Marinha",
+      "sigla": "DGDNTM",
+      "pai": "185"
+    },
+    {
+      "codigo": "241693",
+      "nome": "Comissão Coordenadora para os Assuntos da Organização Marítima Internacional",
+      "sigla": "CCAOMI",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "220",
+      "nome": "Tribunal Marítimo",
+      "sigla": "TM",
+      "pai": "185"
+    },
+    {
+      "codigo": "213",
+      "nome": "Conselho de Almirantes",
+      "sigla": "CAL",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "210",
+      "nome": "Diretoria-Geral de Navegação",
+      "sigla": "DGN",
+      "pai": "185"
+    },
+    {
+      "codigo": "199",
+      "nome": "Diretoria-Geral do Material da Marinha",
+      "sigla": "DGMM",
+      "pai": "185"
+    },
+    {
+      "codigo": "187",
+      "nome": "Estado-Maior da Armada",
+      "sigla": "EMA",
+      "pai": "185"
+    },
+    {
+      "codigo": "1777",
+      "nome": "Procuradoria Especial da Marinha",
+      "sigla": "PEM",
+      "pai": "185"
+    },
+    {
+      "codigo": "102936",
+      "nome": "Comissão Interministerial para os Recursos do Mar",
+      "sigla": "CIRM",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "191",
+      "nome": "Comando de Operações Navais",
+      "sigla": "ComOpNav",
+      "pai": "185"
+    },
+    {
+      "codigo": "1778",
+      "nome": "Conselho Financeiro e Administrativo da Marinha",
+      "sigla": "COFAMAR",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "120401",
+      "nome": "Centro de Controle Interno da Marinha",
+      "sigla": "CCIMAR",
+      "pai": "185"
+    },
+    {
+      "codigo": "218",
+      "nome": "Centro de Inteligência da Marinha",
+      "sigla": "CIM",
+      "pai": "185"
+    },
+    {
+      "codigo": "217",
+      "nome": "Comissão de Promoções de Oficiais",
+      "sigla": "CPO",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "214",
+      "nome": "Gabinete do Comandante da Marinha",
+      "sigla": "GCM",
+      "pai": "185"
+    },
+    {
+      "codigo": "202",
+      "nome": "Diretoria-Geral do Pessoal da Marinha",
+      "sigla": "DGPM",
+      "pai": "185"
+    },
+    {
+      "codigo": "192",
+      "nome": "Comando-Geral do Corpo de Fuzileiros Navais",
+      "sigla": "CGCFN",
+      "pai": "185"
+    },
+    {
+      "codigo": "195",
+      "nome": "Secretaria-Geral da Marinha",
+      "sigla": "SGM",
+      "pai": "185"
+    },
+    {
+      "codigo": "1780",
+      "nome": "Comissão de Estudos de Uniformes da Marinha",
+      "sigla": "CEUM",
+      "pai": "185",
+      "colegiada": true
+    },
+    {
+      "codigo": "68",
+      "nome": "Comando-Geral de Apoio",
+      "sigla": "COMGAP",
+      "pai": "48"
+    },
+    {
+      "codigo": "49",
+      "nome": "Alto-Comando da Aeronáutica",
+      "sigla": "ALTCOM",
+      "pai": "48"
+    },
+    {
+      "codigo": "345",
+      "nome": "Secretaria de Economia, Finanças e Administração da Aeronáutica",
+      "sigla": "SEFA",
+      "pai": "48"
+    },
+    {
+      "codigo": "305234",
+      "nome": "Secretaria de Avaliação e Promoções",
+      "sigla": "SECPROM",
+      "pai": "48"
+    },
+    {
+      "codigo": "80070",
+      "nome": "Centro de Investigação e Prevenção de Acidentes Aeronáuticos",
+      "sigla": "CENIPA",
+      "pai": "48"
+    },
+    {
+      "codigo": "120869",
+      "nome": "Centro de Controle Interno da Aeronáutica",
+      "sigla": "CENCIAR",
+      "pai": "48"
+    },
+    {
+      "codigo": "53",
+      "nome": "Departamento de Ciência e Tecnologia Aeroespacial",
+      "sigla": "DCTA",
+      "pai": "48"
+    },
+    {
+      "codigo": "73321",
+      "nome": "Centro de Inteligência da Aeronáutica",
+      "sigla": "CIAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "63",
+      "nome": "Comando-Geral do Pessoal",
+      "sigla": "COMGEP",
+      "pai": "48"
+    },
+    {
+      "codigo": "55",
+      "nome": "Centro de Comunicação Social da Aeronáutica",
+      "sigla": "CECOMSAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "54",
+      "nome": "Gabinete do Comandante da Aeronáutica",
+      "sigla": "GABAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "1706",
+      "nome": "Instituto Histórico-Cultural da Aeronáutica",
+      "sigla": "INCAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "58",
+      "nome": "Comando de Preparo",
+      "sigla": "COMPREP",
+      "pai": "48"
+    },
+    {
+      "codigo": "51804",
+      "nome": "Assessoria Parlamentar e de Relações Institucionais do Comandante da Aeronáutica",
+      "sigla": "ASPAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "50",
+      "nome": "Estado-Maior da Aeronáutica",
+      "sigla": "EMAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "118160",
+      "nome": "Comissão de Coordenação de Implantação de Sistemas Espaciais",
+      "sigla": "CCISE",
+      "pai": "48",
+      "colegiada": true
+    },
+    {
+      "codigo": "58527",
+      "nome": "Departamento de Controle do Espaço Aéreo",
+      "sigla": "DECEA",
+      "pai": "48"
+    },
+    {
+      "codigo": "102336",
+      "nome": "Conselho Superior de Economia e Finanças da Aeronáuticca",
+      "sigla": "CONSEFA",
+      "pai": "48",
+      "colegiada": true
+    },
+    {
+      "codigo": "2131",
+      "nome": "Comando de Operações Aeroespaciais",
+      "sigla": "COMAE",
+      "pai": "48"
+    },
+    {
+      "codigo": "7285",
+      "nome": "Gerência Técnica",
+      "sigla": "GT",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "7253",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SEX",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "7287",
+      "nome": "Gerência de Administração Financeira",
+      "sigla": "GAF",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "7276",
+      "nome": "Gerência Logística",
+      "sigla": "GL",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "7227",
+      "nome": "Coordenadoria",
+      "sigla": "COORD",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "7272",
+      "nome": "Gerência-Geral",
+      "sigla": "GG",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "7221",
+      "nome": "Conselho Diretor",
+      "sigla": "CD/CISCOMIS",
+      "pai": "1736",
+      "colegiada": true
+    },
+    {
+      "codigo": "3614",
+      "nome": "Secretaria",
+      "sigla": "SEC",
+      "pai": "3596",
+      "colegiada": true
+    },
+    {
+      "codigo": "3598",
+      "nome": "Comissão Plena",
+      "sigla": "CP",
+      "pai": "3596",
+      "colegiada": true
+    },
+    {
+      "codigo": "3613",
+      "nome": "Coordenadoria",
+      "sigla": "COO",
+      "pai": "3596",
+      "colegiada": true
+    },
+    {
+      "codigo": "3609",
+      "nome": "Subcomissão de Mercado Interno",
+      "sigla": "SMI",
+      "pai": "3596",
+      "colegiada": true
+    },
+    {
+      "codigo": "3608",
+      "nome": "Subcomissão de Medidas Fiscais",
+      "sigla": "SMF",
+      "pai": "3596",
+      "colegiada": true
+    },
+    {
+      "codigo": "3607",
+      "nome": "Subcomissão de Licitações",
+      "sigla": "SL",
+      "pai": "3596",
+      "colegiada": true
+    },
+    {
+      "codigo": "131",
+      "nome": "Secretaria de Economia e Finanças",
+      "sigla": "SEF",
+      "pai": "94"
+    },
+    {
+      "codigo": "120405",
+      "nome": "Conselho Superior de Tecnologia da Informação",
+      "sigla": "CSTI",
+      "pai": "94"
+    },
+    {
+      "codigo": "84156",
+      "nome": "Departamento de Ciência e Tecnologia",
+      "sigla": "DCT",
+      "pai": "94"
+    },
+    {
+      "codigo": "126",
+      "nome": "Gabinete do Comandante do Exército",
+      "sigla": "Gab Cmt Ex",
+      "pai": "94"
+    },
+    {
+      "codigo": "96",
+      "nome": "Estado-Maior do Exército",
+      "sigla": "EME",
+      "pai": "94"
+    },
+    {
+      "codigo": "128",
+      "nome": "Secretaria-Geral do Exército",
+      "sigla": "SGEx",
+      "pai": "94"
+    },
+    {
+      "codigo": "1602",
+      "nome": "Comando Militar do Sudeste",
+      "sigla": "Cmdo CMSE",
+      "pai": "94"
+    },
+    {
+      "codigo": "1601",
+      "nome": "Comando Militar do Leste",
+      "sigla": "C M L",
+      "pai": "94"
+    },
+    {
+      "codigo": "1599",
+      "nome": "Comando Militar do Nordeste",
+      "sigla": "CMNE",
+      "pai": "94"
+    },
+    {
+      "codigo": "221602",
+      "nome": "Comitê para a Revitalização do Parque Histórico Nacional dos Guararapes",
+      "sigla": "CRPHNG",
+      "pai": "94",
+      "colegiada": true
+    },
+    {
+      "codigo": "218766",
+      "nome": "Conselho Superior de Racionalização e Transformação",
+      "sigla": "CSRT",
+      "pai": "94",
+      "colegiada": true
+    },
+    {
+      "codigo": "105",
+      "nome": "Departamento de Educação e Cultura do Exército",
+      "sigla": "DECEX",
+      "pai": "94"
+    },
+    {
+      "codigo": "68349",
+      "nome": "Comando Logístico",
+      "sigla": "COLOG",
+      "pai": "94"
+    },
+    {
+      "codigo": "122341",
+      "nome": "Comando Militar da Amazônia Oriental",
+      "sigla": "CMAO",
+      "pai": "94"
+    },
+    {
+      "codigo": "110015",
+      "nome": "Centro de Controle Interno do Exército",
+      "sigla": "CCIEx",
+      "pai": "94"
+    },
+    {
+      "codigo": "2209",
+      "nome": "Comando de Operações Terrestres",
+      "sigla": "COTER",
+      "pai": "94"
+    },
+    {
+      "codigo": "969",
+      "nome": "Centro de Comunicação Social do Exército",
+      "sigla": "CCOMSEX",
+      "pai": "94"
+    },
+    {
+      "codigo": "97",
+      "nome": "Conselho Superior de Economia e Finanças",
+      "sigla": "CON S E F",
+      "pai": "94"
+    },
+    {
+      "codigo": "1603",
+      "nome": "Comando Militar do Sul",
+      "sigla": "CMS",
+      "pai": "94"
+    },
+    {
+      "codigo": "1600",
+      "nome": "Comando Militar do Oeste",
+      "sigla": "CMO",
+      "pai": "94"
+    },
+    {
+      "codigo": "114",
+      "nome": "Departamento de Engenharia e Construção",
+      "sigla": "DEC",
+      "pai": "94"
+    },
+    {
+      "codigo": "98",
+      "nome": "Departamento-Geral do Pessoal",
+      "sigla": "DGP",
+      "pai": "94"
+    },
+    {
+      "codigo": "29410",
+      "nome": "Comissão de Promoções de Oficiais",
+      "sigla": "C P O",
+      "pai": "94",
+      "colegiada": true
+    },
+    {
+      "codigo": "80951",
+      "nome": "Consultoria Jurídica-Adjunta do Comando do Exército",
+      "sigla": "ConJur",
+      "pai": "94"
+    },
+    {
+      "codigo": "482",
+      "nome": "Comando Militar do Planalto",
+      "sigla": "CMP",
+      "pai": "94"
+    },
+    {
+      "codigo": "95",
+      "nome": "Alto-Comando do Exército",
+      "sigla": "A C E",
+      "pai": "94"
+    },
+    {
+      "codigo": "747",
+      "nome": "Centro de Inteligência do Exército",
+      "sigla": "CIE",
+      "pai": "94"
+    },
+    {
+      "codigo": "481",
+      "nome": "Comando Militar da Amazônia",
+      "sigla": "CMA",
+      "pai": "94"
+    },
+    {
+      "codigo": "60774",
+      "nome": "Comitê Técnico da Indústria da Defesa",
+      "sigla": "CTID-CMID",
+      "pai": "60771",
+      "colegiada": true
+    },
+    {
+      "codigo": "60773",
+      "nome": "Forum das Indústrias de Defesa",
+      "sigla": "FID-CMID",
+      "pai": "60771",
+      "colegiada": true
+    },
+    {
+      "codigo": "291527",
+      "nome": "Chefia de Assuntos Estratégicos",
+      "sigla": "CAE",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113147",
+      "nome": "Chefia de Operações Conjuntas",
+      "sigla": "CHOC",
+      "pai": "41110"
+    },
+    {
+      "codigo": "290125",
+      "nome": "Chefia de Educação e Cultura",
+      "sigla": "CHEC/EMCFA",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113156",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGE-EMCFA",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113293",
+      "nome": "Chefia de Logística e Mobilização",
+      "sigla": "CHELOG",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113149",
+      "nome": "Assessoria de Inteligência e Defesa",
+      "sigla": "AIDef",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113146",
+      "nome": "Gabinete do Estado-Maior Conjunto das Forças Armadas",
+      "sigla": "GAB/EMCFA",
+      "pai": "41110"
+    },
+    {
+      "codigo": "210293",
+      "nome": "Comissão de Coordenação Operacional e Administrativa",
+      "sigla": "CCOA",
+      "pai": "210291",
+      "colegiada": true
+    },
+    {
+      "codigo": "210294",
+      "nome": "Comissão de Coordenação Regional",
+      "sigla": "CCR",
+      "pai": "210291",
+      "colegiada": true
+    },
+    {
+      "codigo": "210292",
+      "nome": "Comissão de Coordenação-Geral",
+      "sigla": "CCG",
+      "pai": "210291",
+      "colegiada": true
+    },
+    {
+      "codigo": "121941",
+      "nome": "Consultoria Jurídica Adjunta da Aeronáutica",
+      "sigla": "CJA-AER",
+      "pai": "41582"
+    },
+    {
+      "codigo": "576810",
+      "nome": "Assessoria Técnica",
+      "sigla": "ASTEC",
+      "pai": "41582"
+    },
+    {
+      "codigo": "69651",
+      "nome": "Coordenação-Geral Jurídica de Contencioso Judicial e Extrajudicial",
+      "sigla": "CGJCON",
+      "pai": "41582"
+    },
+    {
+      "codigo": "121943",
+      "nome": "Coordenação-Geral Jurídica de Licitação, Contratos, Convênios e Parcerias",
+      "sigla": "CGLIC",
+      "pai": "41582"
+    },
+    {
+      "codigo": "71436",
+      "nome": "Comissão de Consolidação da Legislação Militar",
+      "sigla": "CCLM",
+      "pai": "41582",
+      "colegiada": true
+    },
+    {
+      "codigo": "44642",
+      "nome": "Coordenação-Geral Jurídica de Atos Normativos",
+      "sigla": "CGEAN",
+      "pai": "41582"
+    },
+    {
+      "codigo": "121946",
+      "nome": "Coordenação-Geral de Direito Administrativo e Militar",
+      "sigla": "CGDAM",
+      "pai": "41582"
+    },
+    {
+      "codigo": "121942",
+      "nome": "Consultoria Jurídica Adjunta do Exército",
+      "sigla": "CJA-EB",
+      "pai": "41582"
+    },
+    {
+      "codigo": "121940",
+      "nome": "Consultoria Jurídica Adjunta da Marinha",
+      "sigla": "CJA-MAR",
+      "pai": "41582"
+    },
+    {
+      "codigo": "290225",
+      "nome": "Departamento de Projetos Sociais",
+      "sigla": "DPS",
+      "pai": "41109"
+    },
+    {
+      "codigo": "121923",
+      "nome": "Departamento de Desporto Militar",
+      "sigla": "DDM",
+      "pai": "41109"
+    },
+    {
+      "codigo": "75081",
+      "nome": "Departamento de Saúde e Assistência Social",
+      "sigla": "DESAS",
+      "pai": "41109"
+    },
+    {
+      "codigo": "75113",
+      "nome": "Departamento de Pessoal e Remuneração Militar",
+      "sigla": "DEPES",
+      "pai": "41109"
+    },
+    {
+      "codigo": "75087",
+      "nome": "Departamento de Administração e de Pessoal",
+      "sigla": "DEADI",
+      "pai": "113057"
+    },
+    {
+      "codigo": "234262",
+      "nome": "Departamento de Engenharia e Logística",
+      "sigla": "DELOG",
+      "pai": "113057"
+    },
+    {
+      "codigo": "121921",
+      "nome": "Departamento de Tecnologia da Informação",
+      "sigla": "DTI",
+      "pai": "113057"
+    },
+    {
+      "codigo": "218710",
+      "nome": "Comitê-Gestor da Autoridade Certificadora de Defesa",
+      "sigla": "CGACD",
+      "pai": "113057",
+      "colegiada": true
+    },
+    {
+      "codigo": "75062",
+      "nome": "Departamento de Organização e Legislação",
+      "sigla": "DEORG",
+      "pai": "113057"
+    },
+    {
+      "codigo": "41594",
+      "nome": "Departamento de Planejamento, Orçamento e Finanças",
+      "sigla": "DEORF",
+      "pai": "113057"
+    },
+    {
+      "codigo": "84019",
+      "nome": "Centro Regional - Porto Velho",
+      "sigla": "CR-PV",
+      "pai": "44072"
+    },
+    {
+      "codigo": "84016",
+      "nome": "Diretoria Técnica",
+      "sigla": "DITEC",
+      "pai": "44072"
+    },
+    {
+      "codigo": "84020",
+      "nome": "Diretoria Operacional",
+      "sigla": "DIOPE",
+      "pai": "44072"
+    },
+    {
+      "codigo": "84015",
+      "nome": "Diretoria de Administração e Finanças",
+      "sigla": "DIRAF",
+      "pai": "44072"
+    },
+    {
+      "codigo": "84018",
+      "nome": "Centro Regional - Belém",
+      "sigla": "CR-BE",
+      "pai": "44072"
+    },
+    {
+      "codigo": "84017",
+      "nome": "Centro Regional - Manaus",
+      "sigla": "CR-MN",
+      "pai": "44072"
+    },
+    {
+      "codigo": "113167",
+      "nome": "Departamento de Produtos de Defesa",
+      "sigla": "DEPROD",
+      "pai": "113165"
+    },
+    {
+      "codigo": "113169",
+      "nome": "Departamento de Promoção Comercial",
+      "sigla": "DEPCOM",
+      "pai": "113165"
+    },
+    {
+      "codigo": "220315",
+      "nome": "Departamento de Financiamentos e Economia de Defesa",
+      "sigla": "DEPFIN",
+      "pai": "113165"
+    },
+    {
+      "codigo": "113168",
+      "nome": "Departamento de Ciência, Tecnologia e Inovação",
+      "sigla": "DECTI",
+      "pai": "113165"
+    },
+    {
+      "codigo": "23458",
+      "nome": "Centro Tecnológico da Marinha em São Paulo",
+      "sigla": "CTMSP",
+      "pai": "95586"
+    },
+    {
+      "codigo": "218996",
+      "nome": "Centro Tecnológico da Marinha no Rio de Janeiro",
+      "sigla": "CTMRJ",
+      "pai": "95586"
+    },
+    {
+      "codigo": "212",
+      "nome": "Diretoria de Portos e Costas",
+      "sigla": "DPC",
+      "pai": "210"
+    },
+    {
+      "codigo": "211",
+      "nome": "Diretoria de Hidrografia e Navegação",
+      "sigla": "DHN",
+      "pai": "210"
+    },
+    {
+      "codigo": "47638",
+      "nome": "Diretoria de Comunicações e Tecnologia da Informação da Marinha",
+      "sigla": "DCTIM",
+      "pai": "199"
+    },
+    {
+      "codigo": "23452",
+      "nome": "Diretoria de Sistemas de Armas da Marinha",
+      "sigla": "DSAM",
+      "pai": "199"
+    },
+    {
+      "codigo": "200",
+      "nome": "Diretoria de Aeronáutica da Marinha",
+      "sigla": "DAerM",
+      "pai": "199"
+    },
+    {
+      "codigo": "218987",
+      "nome": "Diretoria Industrial da Marinha",
+      "sigla": "DIM",
+      "pai": "199"
+    },
+    {
+      "codigo": "201",
+      "nome": "Diretoria de Engenharia Naval",
+      "sigla": "DEN",
+      "pai": "199"
+    },
+    {
+      "codigo": "380",
+      "nome": "Diretoria de Obras Civis da Marinha",
+      "sigla": "DOCM",
+      "pai": "199"
+    },
+    {
+      "codigo": "188",
+      "nome": "Escola de Guerra Naval",
+      "sigla": "EGN",
+      "pai": "187"
+    },
+    {
+      "codigo": "244837",
+      "nome": "Subcomissão para o Plano de Levantamento da Plataforma Continental Brasileira",
+      "sigla": "LEPLAC",
+      "pai": "102936",
+      "colegiada": true
+    },
+    {
+      "codigo": "244836",
+      "nome": "Subcomissão para o Programa Antártico Brasileiro",
+      "sigla": "PROANTAR",
+      "pai": "102936",
+      "colegiada": true
+    },
+    {
+      "codigo": "244835",
+      "nome": "Subcomissão para o Plano Setorial para os Recursos do Mar",
+      "sigla": "PSRM",
+      "pai": "102936",
+      "colegiada": true
+    },
+    {
+      "codigo": "81127",
+      "nome": "Comando do 9º Distrito Naval",
+      "sigla": "Com9ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "769",
+      "nome": "Comando do 4º Distrito Naval",
+      "sigla": "Com4ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "193",
+      "nome": "Comando do 1º Distrito Naval",
+      "sigla": "Com1ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "23223",
+      "nome": "Comando do 7º Distrito Naval",
+      "sigla": "Com7ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "25487",
+      "nome": "Comando do 8º Distrito Naval",
+      "sigla": "Com8ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "770",
+      "nome": "Comando do 5º Distrito Naval",
+      "sigla": "Com5ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "767",
+      "nome": "Comando do 2º Distrito Naval",
+      "sigla": "Com2ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "379",
+      "nome": "Comando em Chefe da Esquadra",
+      "sigla": "ComemCh",
+      "pai": "191"
+    },
+    {
+      "codigo": "1394",
+      "nome": "Comando da Força de Fuzileiros da Esquadra",
+      "sigla": "ComFFE",
+      "pai": "191"
+    },
+    {
+      "codigo": "768",
+      "nome": "Comando do 3º Distrito Naval",
+      "sigla": "Com3ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "771",
+      "nome": "Comando do 6º Distrito Naval",
+      "sigla": "Com6ºDN",
+      "pai": "191"
+    },
+    {
+      "codigo": "207",
+      "nome": "Diretoria de Saúde da Marinha",
+      "sigla": "DSM",
+      "pai": "202"
+    },
+    {
+      "codigo": "206",
+      "nome": "Diretoria do Pessoal da Marinha",
+      "sigla": "DPM",
+      "pai": "202"
+    },
+    {
+      "codigo": "203",
+      "nome": "Diretoria de Assistência Social da Marinha",
+      "sigla": "DASM",
+      "pai": "202"
+    },
+    {
+      "codigo": "204",
+      "nome": "Diretoria de Ensino da Marinha",
+      "sigla": "DEnsM",
+      "pai": "202"
+    },
+    {
+      "codigo": "22078",
+      "nome": "Comando do Material de Fuzileiros Navais",
+      "sigla": "CMatFN",
+      "pai": "192"
+    },
+    {
+      "codigo": "22076",
+      "nome": "Comando do Pessoal de Fuzileiros Navais",
+      "sigla": "CPesFN",
+      "pai": "192"
+    },
+    {
+      "codigo": "10186",
+      "nome": "Centro de Educação Física Almirante Adalberto Nunes",
+      "sigla": "CEFAN",
+      "pai": "192"
+    },
+    {
+      "codigo": "96445",
+      "nome": "Diretoria do Patrimônio Histórico e Documentação da Marinha",
+      "sigla": "DPHDM",
+      "pai": "195"
+    },
+    {
+      "codigo": "414",
+      "nome": "Diretoria de Abastecimento da Marinha",
+      "sigla": "DAbM",
+      "pai": "195"
+    },
+    {
+      "codigo": "197",
+      "nome": "Diretoria de Administração da Marinha",
+      "sigla": "DAdM",
+      "pai": "195"
+    },
+    {
+      "codigo": "117932",
+      "nome": "Diretoria de Gestão Orçamentária da Marinha",
+      "sigla": "DGOM",
+      "pai": "195"
+    },
+    {
+      "codigo": "196",
+      "nome": "Diretoria de Finanças da Marinha",
+      "sigla": "DFM",
+      "pai": "195"
+    },
+    {
+      "codigo": "2606",
+      "nome": "Comissão de Promoções de Oficiais da Aeronáutica",
+      "sigla": "CPO",
+      "pai": "305234",
+      "colegiada": true
+    },
+    {
+      "codigo": "9220",
+      "nome": "Instituto Tecnológico de Aeronáutica",
+      "sigla": "ITA",
+      "pai": "53"
+    },
+    {
+      "codigo": "241598",
+      "nome": "Comitê de Segurança Operacional da Aviação Civil Brasileira",
+      "sigla": "CSOACB",
+      "pai": "58527",
+      "colegiada": true
+    },
+    {
+      "codigo": "206744",
+      "nome": "Secretaria",
+      "sigla": "SECR CONSEFA",
+      "pai": "102336"
+    },
+    {
+      "codigo": "113158",
+      "nome": "Subchefia de Política e Estratégia",
+      "sigla": "SCPE",
+      "pai": "291527"
+    },
+    {
+      "codigo": "113284",
+      "nome": "Subchefia de Assuntos Internacionais",
+      "sigla": "SCAI",
+      "pai": "291527"
+    },
+    {
+      "codigo": "220329",
+      "nome": "Vice-Chefia de Assuntos Estratégicos",
+      "sigla": "VCAE",
+      "pai": "291527"
+    },
+    {
+      "codigo": "41928",
+      "nome": "Subchefia de Organismos Internacionais",
+      "sigla": "SCOI",
+      "pai": "291527"
+    },
+    {
+      "codigo": "220317",
+      "nome": "Vice-Chefia de Operações Conjuntas",
+      "sigla": "VCHOC",
+      "pai": "113147"
+    },
+    {
+      "codigo": "1092",
+      "nome": "Subchefia de Operações de Internacionais",
+      "sigla": "SC-4",
+      "pai": "113147"
+    },
+    {
+      "codigo": "1089",
+      "nome": "Subchefia de Operações",
+      "sigla": "SC - 3",
+      "pai": "113147"
+    },
+    {
+      "codigo": "41927",
+      "nome": "Subchefia de Comando e Controle",
+      "sigla": "SC-1",
+      "pai": "113147"
+    },
+    {
+      "codigo": "281130",
+      "nome": "Escola Superior de Defesa",
+      "sigla": "ESD",
+      "pai": "290125"
+    },
+    {
+      "codigo": "290459",
+      "nome": "Vice-Chefia de Educação e Cultura",
+      "sigla": "VCHEC",
+      "pai": "290125"
+    },
+    {
+      "codigo": "36",
+      "nome": "Escola Superior de Guerra",
+      "sigla": "ESG",
+      "pai": "290125"
+    },
+    {
+      "codigo": "41930",
+      "nome": "Representação do Brasil na Junta Interamericana de Defesa",
+      "sigla": "RBJID-MD",
+      "pai": "113156",
+      "colegiada": true
+    },
+    {
+      "codigo": "113295",
+      "nome": "Subchefia de Logística Operacional",
+      "sigla": "SUBLOP",
+      "pai": "113293"
+    },
+    {
+      "codigo": "121919",
+      "nome": "Subchefia de Logística Estratégica",
+      "sigla": "SUBLOGE",
+      "pai": "113293"
+    },
+    {
+      "codigo": "113301",
+      "nome": "Subchefia de Mobilização",
+      "sigla": "SUBMOB",
+      "pai": "113293"
+    },
+    {
+      "codigo": "220331",
+      "nome": "Vice-Chefia de Logística e Mobilização",
+      "sigla": "VCHELOG",
+      "pai": "113293"
+    },
+    {
+      "codigo": "205578",
+      "nome": "Centro e Apoio a Sistemas Logísticos de Defesa",
+      "sigla": "CASLODE",
+      "pai": "113293"
+    },
+    {
+      "codigo": "121993",
+      "nome": "Assessoria de Doutrina e Legislação",
+      "sigla": "ADL",
+      "pai": "113146"
+    },
+    {
+      "codigo": "122001",
+      "nome": "Assessoria de Planejamento, Orçamento e Gestão",
+      "sigla": "APOG",
+      "pai": "113146"
+    },
+    {
+      "codigo": "122000",
+      "nome": "Assessoria de Planejamento e Coordenação de Atividades Conjuntas",
+      "sigla": "APAC",
+      "pai": "113146"
+    },
+    {
+      "codigo": "205",
+      "nome": "Superintendência do Pessoal Civil da Marinha",
+      "sigla": "DPM-BSB",
+      "pai": "206"
+    },
+    {
+      "codigo": "113157",
+      "nome": "Gabinete",
+      "sigla": "GAB-CAE",
+      "pai": "220329"
+    },
+    {
+      "codigo": "234261",
+      "nome": "Assessoria de Planejamento Baseado em Capacidades",
+      "sigla": "APBC",
+      "pai": "220317"
+    },
+    {
+      "codigo": "122008",
+      "nome": "Gabinete",
+      "sigla": "GAB-CHOC",
+      "pai": "220317"
+    },
+    {
+      "codigo": "290531",
+      "nome": "Assessoria de Estudos de Defesa",
+      "sigla": "AED",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290529",
+      "nome": "Assessoria de Ensino Militar",
+      "sigla": "AEM",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290532",
+      "nome": "Assessoria de Ensino e Fomento à Pesquisa",
+      "sigla": "AEFP",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290534",
+      "nome": "Assessoria de Planejamento Orçamentário",
+      "sigla": "APO",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290533",
+      "nome": "Assessoria do Patrimônio Histórico e Cultural Militar",
+      "sigla": "APHCM",
+      "pai": "290459"
+    },
+    {
+      "codigo": "664453",
+      "nome": "Coordenação-Geral de Interoperabilidade Logística e Obtenção Conjunta",
+      "sigla": "CGILOC",
+      "pai": "121919"
+    },
+    {
+      "codigo": "113294",
+      "nome": "Gabinete",
+      "sigla": "GAB-CHELOG",
+      "pai": "220331"
+    },
+    {
+      "codigo": "664454",
+      "nome": "Coordenação de Obtenção Conjunta",
+      "sigla": "CILOC",
+      "pai": "664453"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "208",
+      "nome": "Caixa de Construções de Casas para o Pessoal da Marinha",
+      "sigla": "CCCPCM"
+    },
+    {
+      "codigo": "1013",
+      "nome": "Empresa Gerencial de Projetos Navais",
+      "sigla": "EMGEPRON"
+    },
+    {
+      "codigo": "200949",
+      "nome": "Amazônia Azul Tecnologias de Defesa S.A.",
+      "sigla": "AMAZUL"
+    },
+    {
+      "codigo": "930",
+      "nome": "Caixa de Financiamento Imobiliário da Aeronáutica",
+      "sigla": "CFIAE"
+    },
+    {
+      "codigo": "292009",
+      "nome": "NAV Brasil Serviços de Navegação Aérea S.A",
+      "sigla": "NAV Brasil"
+    },
+    {
+      "codigo": "134",
+      "nome": "Indústria de Material Bélico do Brasil",
+      "sigla": "IMBEL"
+    },
+    {
+      "codigo": "957",
+      "nome": "Fundação Habitacional do Exército",
+      "sigla": "FHE"
+    },
+    {
+      "codigo": "8406",
+      "nome": "Fundação Osório",
+      "sigla": "FOSORIO"
+    }
+  ],
+  "ato_interno": 974,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 41066 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

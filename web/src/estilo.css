@@ -342,3 +342,10 @@ main { flex: 1; display: flex; min-height: 0; }
 #sobre h3 { margin: 20px 0 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--tinta-2); }
 #sobre p, #sobre li { color: var(--tinta); line-height: 1.5; }
 #sobre .numeros { margin: 8px 0 4px; }
+
+/* Estrutura interna do SIORG (D62) */
+.arvore ul { list-style: none; margin: 2px 0; padding-left: 14px; font-size: 13px; }
+.arvore > ul { padding-left: 0; }
+.arvore li { margin: 2px 0; }
+.arvore summary { cursor: pointer; }
+.arvore .sub { color: var(--tinta-2); font-size: 11px; }

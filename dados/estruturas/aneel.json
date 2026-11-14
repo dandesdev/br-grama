@@ -1,0 +1,694 @@
+{
+  "id": "est:aneel",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Energia Elétrica no SIORG",
+  "resumo": "109 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:aneel",
+  "siorg": "21089",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "27395",
+      "nome": "Superintendência de Gestão Técnica da Informação",
+      "sigla": "SGI",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318200",
+      "nome": "Superintendência de Regulação dos Serviços de Transmissão e Distribuição de Energia Elétrica",
+      "sigla": "STD",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318118",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318045",
+      "nome": "Superintendência de Gestão Tarifária e Regulação Econômica",
+      "sigla": "STR",
+      "pai": "21089"
+    },
+    {
+      "codigo": "273849",
+      "nome": "Comissão Gestora do Plano de Gestão Logística Sustentável",
+      "sigla": "CGPLS",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "273796",
+      "nome": "Comissão de Gestão da Informação",
+      "sigla": "CGI",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "273794",
+      "nome": "Comissão de Acompanhamento de Avaliação de Desempenho",
+      "sigla": "CAAD",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "27301",
+      "nome": "Diretoria Colegiada da ANEEL",
+      "sigla": "DIRC-ANEEL",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "123149",
+      "nome": "Secretaria de Leilões",
+      "sigla": "SEL",
+      "pai": "21089"
+    },
+    {
+      "codigo": "56800",
+      "nome": "Auditoria Interna",
+      "sigla": "AIN",
+      "pai": "21089"
+    },
+    {
+      "codigo": "27397",
+      "nome": "Superintendência de Gestão de Pessoas",
+      "sigla": "SGP",
+      "pai": "21089"
+    },
+    {
+      "codigo": "27303",
+      "nome": "Gabinete Executivo de Diretrizes de Governança e Gestão",
+      "sigla": "GDG",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318138",
+      "nome": "Superintendência de Inovação e Transição Energética",
+      "sigla": "STE",
+      "pai": "21089"
+    },
+    {
+      "codigo": "273797",
+      "nome": "Comitê de Riscos e Controles",
+      "sigla": "CRC",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "273792",
+      "nome": "Comissão Permanente de Avaliação de Documentos Sigilosos",
+      "sigla": "CPADS",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "273791",
+      "nome": "Comissão de Ética da ANEEL",
+      "sigla": "CE",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "27373",
+      "nome": "Superintendência de Mediação Administrativa e das Relações de Consumo",
+      "sigla": "SMA",
+      "pai": "21089"
+    },
+    {
+      "codigo": "640131",
+      "nome": "Gabinete de Assessoramento da Diretoria III",
+      "sigla": "GAB III",
+      "pai": "21089"
+    },
+    {
+      "codigo": "640151",
+      "nome": "Gabinete de Assessoramento da Diretoria IV",
+      "sigla": "GAB IV",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318337",
+      "nome": "Superintendência de Fiscalização Técnica dos Serviços de Energia Elétrica",
+      "sigla": "SFT",
+      "pai": "21089"
+    },
+    {
+      "codigo": "273793",
+      "nome": "Comissão Permanente de Procedimentos Administrativos",
+      "sigla": "CPPA",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "259637",
+      "nome": "Assessoria Especial de Comunicacao e Eventos Institucionais",
+      "sigla": "ASC",
+      "pai": "21089"
+    },
+    {
+      "codigo": "27302",
+      "nome": "Secretaria Geral",
+      "sigla": "SGE",
+      "pai": "21089"
+    },
+    {
+      "codigo": "640111",
+      "nome": "Gabinete de Assessoramento da Diretoria I",
+      "sigla": "GAB I",
+      "pai": "21089"
+    },
+    {
+      "codigo": "640152",
+      "nome": "Gabinete de Assessoramento da Diretoria V",
+      "sigla": "GAB V",
+      "pai": "21089"
+    },
+    {
+      "codigo": "640112",
+      "nome": "Gabinete de Assessoramento da Diretoria II",
+      "sigla": "GAB II",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318117",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318270",
+      "nome": "Superintendência de Gestão Administrativa, Financeira e de Contratações",
+      "sigla": "SGA",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318323",
+      "nome": "Superintendência de Concessões,  Permissões e Autorizações dos Serviços de Energia Elétrica",
+      "sigla": "SCE",
+      "pai": "21089"
+    },
+    {
+      "codigo": "259640",
+      "nome": "Assessoria Especial de Relacionamento Institucional",
+      "sigla": "ARI",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318211",
+      "nome": "Superintendência de Regulação dos Serviços de Geração e do Mercado de Energia Elétrica",
+      "sigla": "SGM",
+      "pai": "21089"
+    },
+    {
+      "codigo": "318212",
+      "nome": "Superintendência de Fiscalização Econômica, Financeira e de Mercado",
+      "sigla": "SFF",
+      "pai": "21089"
+    },
+    {
+      "codigo": "27310",
+      "nome": "Procuradoria Federal junto a ANEEL",
+      "sigla": "PF",
+      "pai": "21089"
+    },
+    {
+      "codigo": "273795",
+      "nome": "Comissão de Avaliação Extraordinária de Desempenho",
+      "sigla": "CAED",
+      "pai": "21089",
+      "colegiada": true
+    },
+    {
+      "codigo": "328083",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESGI",
+      "pai": "27395"
+    },
+    {
+      "codigo": "637211",
+      "nome": "Gerência de Infraestrutura, Segurança e Operações de TI",
+      "sigla": "GISO",
+      "pai": "27395"
+    },
+    {
+      "codigo": "637231",
+      "nome": "Gerência de Dados, Soluções e Inovação",
+      "sigla": "GSIN",
+      "pai": "27395"
+    },
+    {
+      "codigo": "318209",
+      "nome": "Coordenação de Dados e Informações dos Serviços de Transmissão e Distribuição",
+      "sigla": "CDITD",
+      "pai": "318200"
+    },
+    {
+      "codigo": "318205",
+      "nome": "Gerência de Regulação do Serviço de Transmissão",
+      "sigla": "GRST",
+      "pai": "318200"
+    },
+    {
+      "codigo": "318201",
+      "nome": "Gerência de Regulação do Serviço de Distribuição",
+      "sigla": "GRSD",
+      "pai": "318200"
+    },
+    {
+      "codigo": "318210",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESTD",
+      "pai": "318200"
+    },
+    {
+      "codigo": "639031",
+      "nome": "Núcleo de Ouvidoria e Acesso a Informação",
+      "sigla": "NOA",
+      "pai": "318118"
+    },
+    {
+      "codigo": "318101",
+      "nome": "Coordenação  de Gestão da Informação",
+      "sigla": "COINF",
+      "pai": "318045"
+    },
+    {
+      "codigo": "318059",
+      "nome": "Gerência de Regulação e Tarifas de Geração, Transmissão e Encargos Setoriais",
+      "sigla": "GGTE",
+      "pai": "318045"
+    },
+    {
+      "codigo": "318099",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESTR",
+      "pai": "318045"
+    },
+    {
+      "codigo": "318048",
+      "nome": "Gerência de Regulação e Tarifas de Distribuição",
+      "sigla": "GRTD",
+      "pai": "318045"
+    },
+    {
+      "codigo": "289645",
+      "nome": "Coordenação de Leilões de Transmissão e Distribuição",
+      "sigla": "COLTD",
+      "pai": "123149"
+    },
+    {
+      "codigo": "320067",
+      "nome": "Coordenação de Leilões de Geração e Armazenamento",
+      "sigla": "COLGE",
+      "pai": "123149"
+    },
+    {
+      "codigo": "320068",
+      "nome": "Núcleo de Suporte à Gestão",
+      "sigla": "NSG",
+      "pai": "123149"
+    },
+    {
+      "codigo": "244607",
+      "nome": "Coordenação de Auditoria",
+      "sigla": "COAUD",
+      "pai": "56800"
+    },
+    {
+      "codigo": "244608",
+      "nome": "Coordenação de Governança e Relações com Órgãos de Controle",
+      "sigla": "CGROC",
+      "pai": "56800"
+    },
+    {
+      "codigo": "328863",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESGP",
+      "pai": "27397"
+    },
+    {
+      "codigo": "637271",
+      "nome": "Gerência de Desenvolvimento Humano e Organizacional",
+      "sigla": "GDHO",
+      "pai": "27397"
+    },
+    {
+      "codigo": "637251",
+      "nome": "Gerencia de Gestao Funcional e da Força de Trabalho",
+      "sigla": "GGFT",
+      "pai": "27397"
+    },
+    {
+      "codigo": "318271",
+      "nome": "Assessoria Especial de Governança Corporativa",
+      "sigla": "AEGC",
+      "pai": "27303"
+    },
+    {
+      "codigo": "637311",
+      "nome": "Assessoria Especial de Segurança de Informação",
+      "sigla": "AESI",
+      "pai": "27303"
+    },
+    {
+      "codigo": "318198",
+      "nome": "Coordenação de Inovação e Engajamento no Mercado",
+      "sigla": "CIENM",
+      "pai": "318138"
+    },
+    {
+      "codigo": "318199",
+      "nome": "Coordenação de Transição Energética",
+      "sigla": "CTREN",
+      "pai": "318138"
+    },
+    {
+      "codigo": "318140",
+      "nome": "Coordenação de Eficiência Energética",
+      "sigla": "CEFEN",
+      "pai": "318138"
+    },
+    {
+      "codigo": "318197",
+      "nome": "Coordenação de Pesquisa, Desenvolvimento e Inovação",
+      "sigla": "CPEDI",
+      "pai": "318138"
+    },
+    {
+      "codigo": "637172",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESTE",
+      "pai": "318138"
+    },
+    {
+      "codigo": "481169",
+      "nome": "Gerência de Solução de Conflitos e Engajamento da Sociedade",
+      "sigla": "GESC",
+      "pai": "27373"
+    },
+    {
+      "codigo": "637191",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESMA",
+      "pai": "27373"
+    },
+    {
+      "codigo": "481170",
+      "nome": "Gerência de Relações de Consumo",
+      "sigla": "GCON",
+      "pai": "27373"
+    },
+    {
+      "codigo": "318345",
+      "nome": "Gerência de Fiscalização da Distribuição",
+      "sigla": "GFID",
+      "pai": "318337"
+    },
+    {
+      "codigo": "318341",
+      "nome": "Gerência de Fiscalização da Transmissão",
+      "sigla": "GFIT",
+      "pai": "318337"
+    },
+    {
+      "codigo": "318338",
+      "nome": "Gerência de Fiscalização da Geração",
+      "sigla": "GFIG",
+      "pai": "318337"
+    },
+    {
+      "codigo": "318349",
+      "nome": "Coordenação de Instrução do Processo Sancionador",
+      "sigla": "CISAN",
+      "pai": "318337"
+    },
+    {
+      "codigo": "610730",
+      "nome": "Gerência Regional de Fiscalização do Norte",
+      "sigla": "GRNT",
+      "pai": "318337"
+    },
+    {
+      "codigo": "637293",
+      "nome": "Gerencia Regional de Fiscalizacao do Sul",
+      "sigla": "GRSL",
+      "pai": "318337"
+    },
+    {
+      "codigo": "637292",
+      "nome": "Gerencia Regional de Fiscalizacao do Nordeste",
+      "sigla": "GRNE",
+      "pai": "318337"
+    },
+    {
+      "codigo": "640153",
+      "nome": "Núcleo de Descentralização",
+      "sigla": "NED",
+      "pai": "318337"
+    },
+    {
+      "codigo": "318348",
+      "nome": "Coordenação de Monitoramento da Geração, Transmissão e Distribuição",
+      "sigla": "CMGTD",
+      "pai": "318337"
+    },
+    {
+      "codigo": "318350",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESFT",
+      "pai": "318337"
+    },
+    {
+      "codigo": "610710",
+      "nome": "Gerência Regional de Fiscalização do Sudeste",
+      "sigla": "GRSE",
+      "pai": "318337"
+    },
+    {
+      "codigo": "261314",
+      "nome": "Assessoria de Comunicação e Imprensa",
+      "sigla": "ASCIMP",
+      "pai": "259637"
+    },
+    {
+      "codigo": "663674",
+      "nome": "Assessoria de Eventos Institucionais e Cerimonial",
+      "sigla": "ASCERI",
+      "pai": "259637"
+    },
+    {
+      "codigo": "638991",
+      "nome": "Coordenação de Interações com a Sociedade",
+      "sigla": "CISOC",
+      "pai": "259637"
+    },
+    {
+      "codigo": "391409",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESGE",
+      "pai": "27302"
+    },
+    {
+      "codigo": "241886",
+      "nome": "Coordenação de Apoio ao Processo Decisório",
+      "sigla": "COAPD",
+      "pai": "27302"
+    },
+    {
+      "codigo": "391209",
+      "nome": "Coordenação de Documentação e Informação",
+      "sigla": "CODIN",
+      "pai": "27302"
+    },
+    {
+      "codigo": "640154",
+      "nome": "Coordenacao de Gestao e Inovacao do Processo Eletronico",
+      "sigla": "COGIP",
+      "pai": "27302"
+    },
+    {
+      "codigo": "318275",
+      "nome": "Gerência de Orçamento e Finanças",
+      "sigla": "GEOF",
+      "pai": "318270"
+    },
+    {
+      "codigo": "318322",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESGA",
+      "pai": "318270"
+    },
+    {
+      "codigo": "318319",
+      "nome": "Gerência de Licitações e Controle de Contratos e Convênios",
+      "sigla": "GLCC",
+      "pai": "318270"
+    },
+    {
+      "codigo": "318272",
+      "nome": "Gerência de Serviços Administrativos e Infraestrutura Predial",
+      "sigla": "GSAI",
+      "pai": "318270"
+    },
+    {
+      "codigo": "318326",
+      "nome": "Gerência de Outorgas de Geração de Energia Elétrica",
+      "sigla": "GOGE",
+      "pai": "318323"
+    },
+    {
+      "codigo": "555070",
+      "nome": "Núcleo de Incentivos e Garantias Financeiras",
+      "sigla": "NGF",
+      "pai": "318323"
+    },
+    {
+      "codigo": "318324",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESCE",
+      "pai": "318323"
+    },
+    {
+      "codigo": "318332",
+      "nome": "Gerência de Outorga de Transmissão e Distribuição de Energia Elétrica",
+      "sigla": "GOTD",
+      "pai": "318323"
+    },
+    {
+      "codigo": "663713",
+      "nome": "Coordenação de Relações Setoriais",
+      "sigla": "CORET",
+      "pai": "259640"
+    },
+    {
+      "codigo": "638951",
+      "nome": "Assessoria de Descentralização e Parcerias Institucionais",
+      "sigla": "ASDEPI",
+      "pai": "259640"
+    },
+    {
+      "codigo": "259643",
+      "nome": "Assessoria de Relações Internacionais",
+      "sigla": "ASSINT",
+      "pai": "259640"
+    },
+    {
+      "codigo": "663733",
+      "nome": "Núcleo de Gestão e Apoio",
+      "sigla": "NGA",
+      "pai": "259640"
+    },
+    {
+      "codigo": "638971",
+      "nome": "Coordenação de Relações Governamentais",
+      "sigla": "CORIG",
+      "pai": "259640"
+    },
+    {
+      "codigo": "318226",
+      "nome": "Núcleo de Gestão das Instruções não Normativas",
+      "sigla": "NNN",
+      "pai": "318211"
+    },
+    {
+      "codigo": "318227",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESGM",
+      "pai": "318211"
+    },
+    {
+      "codigo": "318267",
+      "nome": "Gerência de Regulação do Mercado de Energia",
+      "sigla": "GRME",
+      "pai": "318211"
+    },
+    {
+      "codigo": "318264",
+      "nome": "Gerência de Regulação dos Serviços de Geração de Energia Elétrica",
+      "sigla": "GRGE",
+      "pai": "318211"
+    },
+    {
+      "codigo": "318218",
+      "nome": "Gerência de Mercado, Sustentabilidade e Conformidade Regulatória-Financeira",
+      "sigla": "GMSC",
+      "pai": "318212"
+    },
+    {
+      "codigo": "639071",
+      "nome": "Coordenacao de Instrucao do Processo Sancionador",
+      "sigla": "CORSA",
+      "pai": "318212"
+    },
+    {
+      "codigo": "318225",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGESFF",
+      "pai": "318212"
+    },
+    {
+      "codigo": "639051",
+      "nome": "Coordenacao de Regulacao Economica, Financeira e de Mercado",
+      "sigla": "COREG",
+      "pai": "318212"
+    },
+    {
+      "codigo": "318222",
+      "nome": "Gerência de Fiscalização Econômica e Financeira",
+      "sigla": "GFEF",
+      "pai": "318212"
+    },
+    {
+      "codigo": "247460",
+      "nome": "Coordenação de Licitações e Contratos",
+      "sigla": "CLCPF",
+      "pai": "27310"
+    },
+    {
+      "codigo": "247462",
+      "nome": "Coordenação de Contencioso",
+      "sigla": "CCOPF",
+      "pai": "27310"
+    },
+    {
+      "codigo": "247457",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGEPF",
+      "pai": "27310"
+    },
+    {
+      "codigo": "247461",
+      "nome": "Coordenação de Processo Punitivo, Consumidor e Dívida Ativa",
+      "sigla": "CPDPF",
+      "pai": "27310"
+    },
+    {
+      "codigo": "247459",
+      "nome": "Coordenação de Energia",
+      "sigla": "CENPF",
+      "pai": "27310"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 21089 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

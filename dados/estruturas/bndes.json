@@ -1,0 +1,63 @@
+{
+  "id": "est:bndes",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Banco Nacional de Desenvolvimento Econômico e Social no SIORG",
+  "resumo": "5 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:bndes",
+  "siorg": "2",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "391",
+      "nome": "Agência Especial de Financiamento Industrial",
+      "sigla": "FINAME",
+      "pai": "2"
+    },
+    {
+      "codigo": "1399",
+      "nome": "BNDES Participações S/A",
+      "sigla": "BNDESPAR",
+      "pai": "2"
+    },
+    {
+      "codigo": "71666",
+      "nome": "Conselho de Administração",
+      "sigla": "CA-BNDES",
+      "pai": "2",
+      "colegiada": true
+    },
+    {
+      "codigo": "70178",
+      "nome": "Conselho Fiscal",
+      "sigla": "CF-BNDES",
+      "pai": "2",
+      "colegiada": true
+    },
+    {
+      "codigo": "79656",
+      "nome": "Comitê de Auditoria",
+      "sigla": "CA/BNDES",
+      "pai": "2",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 13,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 2 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

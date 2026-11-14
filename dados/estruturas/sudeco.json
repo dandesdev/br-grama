@@ -1,0 +1,100 @@
+{
+  "id": "est:sudeco",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Superintendência do Desenvolvimento do Centro-Oeste no SIORG",
+  "resumo": "11 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:sudeco",
+  "siorg": "100113",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "115631",
+      "nome": "Auditoria-Geral",
+      "sigla": "AUDINT",
+      "pai": "100113"
+    },
+    {
+      "codigo": "115630",
+      "nome": "Procuradoria Federal",
+      "sigla": "PROCFED",
+      "pai": "100113"
+    },
+    {
+      "codigo": "115635",
+      "nome": "Diretoria de Implementação de Programas e de Gestão de Fundos",
+      "sigla": "DIPGF",
+      "pai": "100113"
+    },
+    {
+      "codigo": "115628",
+      "nome": "Conselho Deliberativo do Desenvolvimento do Centro-Oeste",
+      "sigla": "CONDEL",
+      "pai": "100113",
+      "colegiada": true
+    },
+    {
+      "codigo": "115632",
+      "nome": "Ouvidoria da Sudeco",
+      "sigla": "OUV",
+      "pai": "100113"
+    },
+    {
+      "codigo": "121678",
+      "nome": "Comitê Diretivo de Tecnologia da Informação - SUDECO",
+      "sigla": "CDTI",
+      "pai": "100113",
+      "colegiada": true
+    },
+    {
+      "codigo": "115636",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DC",
+      "pai": "100113",
+      "colegiada": true
+    },
+    {
+      "codigo": "200358",
+      "nome": "Gabinete da Superintendência",
+      "sigla": "GABSUP",
+      "pai": "100113"
+    },
+    {
+      "codigo": "122852",
+      "nome": "Conselho Deliberativo",
+      "sigla": "CD-SUDECO",
+      "pai": "100113",
+      "colegiada": true
+    },
+    {
+      "codigo": "115634",
+      "nome": "Diretoria de Planejamento e Avaliação",
+      "sigla": "DPA",
+      "pai": "100113"
+    },
+    {
+      "codigo": "115633",
+      "nome": "Diretoria de Administração",
+      "sigla": "DA",
+      "pai": "100113"
+    }
+  ],
+  "ato_interno": 13,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 100113 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

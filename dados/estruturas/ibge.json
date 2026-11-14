@@ -1,0 +1,117 @@
+{
+  "id": "est:ibge",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Fundação Instituto Brasileiro de Geografia e Estatística no SIORG",
+  "resumo": "14 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:ibge",
+  "siorg": "3",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "21628",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF",
+      "pai": "3"
+    },
+    {
+      "codigo": "45141",
+      "nome": "Auditoria Interna",
+      "sigla": "AUD",
+      "pai": "3"
+    },
+    {
+      "codigo": "45142",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DE",
+      "pai": "3"
+    },
+    {
+      "codigo": "5",
+      "nome": "Conselho Técnico",
+      "sigla": "CT-IBGE",
+      "pai": "3",
+      "colegiada": true
+    },
+    {
+      "codigo": "1726",
+      "nome": "Diretoria de Geociências",
+      "sigla": "DGC",
+      "pai": "3"
+    },
+    {
+      "codigo": "21627",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "3"
+    },
+    {
+      "codigo": "6",
+      "nome": "Diretoria de Tecnologia da Informação",
+      "sigla": "DTI",
+      "pai": "3"
+    },
+    {
+      "codigo": "1727",
+      "nome": "Centro de Documentação e Disseminação de Informações",
+      "sigla": "CDDI",
+      "pai": "3"
+    },
+    {
+      "codigo": "1784",
+      "nome": "Conselho Diretor",
+      "sigla": "CD-IBGE",
+      "pai": "3",
+      "colegiada": true
+    },
+    {
+      "codigo": "300853",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "3"
+    },
+    {
+      "codigo": "301105",
+      "nome": "Coordenação-Geral de Comunicação Social",
+      "sigla": "CCS",
+      "pai": "3"
+    },
+    {
+      "codigo": "1787",
+      "nome": "Diretoria de Pesquisas",
+      "sigla": "DPE",
+      "pai": "3"
+    },
+    {
+      "codigo": "4",
+      "nome": "Conselho Curador",
+      "sigla": "CC-IBGE",
+      "pai": "3",
+      "colegiada": true
+    },
+    {
+      "codigo": "1788",
+      "nome": "Escola Nacional de Ciências Estatísticas",
+      "sigla": "ENCE",
+      "pai": "3"
+    }
+  ],
+  "ato_interno": 91,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 3 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "est:vice-presidencia-da-republica",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Vice-Presidência da República no SIORG",
+  "resumo": "11 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:vice-presidencia-da-republica",
+  "siorg": "1408",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "329323",
+      "nome": "Assessoria Especial de Comunicação",
+      "sigla": "ASCOM",
+      "pai": "1408"
+    },
+    {
+      "codigo": "4009",
+      "nome": "Conselho Nacional da Amazônia Legal",
+      "sigla": "CNAL",
+      "pai": "1408",
+      "colegiada": true
+    },
+    {
+      "codigo": "308841",
+      "nome": "Diretoria de Assuntos Econômicos e Sociais",
+      "sigla": "DIESO",
+      "pai": "1408"
+    },
+    {
+      "codigo": "329303",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "1408"
+    },
+    {
+      "codigo": "1940",
+      "nome": "Diretoria de Administração",
+      "sigla": "DIAD",
+      "pai": "1408"
+    },
+    {
+      "codigo": "1935",
+      "nome": "Assessoria Especial Diplomática",
+      "sigla": "ASDIP",
+      "pai": "1408"
+    },
+    {
+      "codigo": "3006",
+      "nome": "Gabinete do Vice-Presidente",
+      "sigla": "GAB",
+      "pai": "1408"
+    },
+    {
+      "codigo": "248896",
+      "nome": "Comissão de Preservação da Amazônia Legal",
+      "sigla": "CPAMAZ",
+      "pai": "4009",
+      "colegiada": true
+    },
+    {
+      "codigo": "248897",
+      "nome": "Comissão de Proteção da Amazônia Legal",
+      "sigla": "CPRAMAZ",
+      "pai": "4009",
+      "colegiada": true
+    },
+    {
+      "codigo": "248898",
+      "nome": "Comissão de Desenvolvimento Sustentável da Amazônia",
+      "sigla": "CDSAMAZ",
+      "pai": "4009",
+      "colegiada": true
+    },
+    {
+      "codigo": "248892",
+      "nome": "Comissão Integradora das Políticas da Amazônia Legal",
+      "sigla": "CIPAMAZ",
+      "pai": "4009",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 7,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 1408 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

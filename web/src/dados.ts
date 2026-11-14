@@ -91,6 +91,7 @@ export const NOMES_TIPO: Record<string, string> = {
   variacao: "Variação",
   metrica: "Métrica",
   fluxo: "Fluxo de recursos",
+  estrutura: "Estrutura interna (SIORG)",
 };
 
 export interface ValoresOrcamento {
@@ -109,6 +110,7 @@ export class Dados {
   private porOrigem = new Map<string, Entidade[]>();
   private orcamentos = new Map<string, Entidade>();
   private fluxos = new Map<string, Entidade>();
+  private estruturas = new Map<string, Entidade>();
   /** Último exercício fechado antes da data de referência (D26). */
   readonly exercicio: number | null;
 
@@ -124,6 +126,7 @@ export class Dados {
     for (const e of Object.values(grafo.entidades)) {
       if (e.tipo === "metrica" && e.medida === "orcamento-executado") ultimo(this.orcamentos, e.de as string, e);
       if (e.tipo === "fluxo") ultimo(this.fluxos, e.repasse as string, e);
+      if (e.tipo === "estrutura") this.estruturas.set(e.de as string, e);
     }
     this.exercicio = Math.max(0, ...[...this.orcamentos.values()].map((m) => m.exercicio as number)) || null;
     for (const e of this.todas("relacao")) {
@@ -197,6 +200,11 @@ export class Dados {
     return Object.values(this.grafo.entidades)
       .filter((e) => e.tipo === "fluxo" && e.repasse === relacaoId && (e.exercicio as number) < ano)
       .sort((a, b) => (a.exercicio as number) - (b.exercicio as number));
+  }
+
+  /** Árvore de unidades internas do órgão no SIORG (D62), se houver. */
+  estruturaDe(id: string): Entidade | undefined {
+    return this.estruturas.get(id);
   }
 
   todosOrcamentos(): Entidade[] {

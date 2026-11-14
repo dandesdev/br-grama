@@ -1,0 +1,304 @@
+{
+  "id": "est:ans",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Saúde Suplementar no SIORG",
+  "resumo": "45 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:ans",
+  "siorg": "45013",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "109986",
+      "nome": "Comissão de Ética",
+      "sigla": "CEANS",
+      "pai": "45013",
+      "colegiada": true
+    },
+    {
+      "codigo": "45400",
+      "nome": "Diretoria de Gestão",
+      "sigla": "DIGES",
+      "pai": "45013"
+    },
+    {
+      "codigo": "45398",
+      "nome": "Diretoria de Fiscalização",
+      "sigla": "DIFIS",
+      "pai": "45013"
+    },
+    {
+      "codigo": "45397",
+      "nome": "Diretoria de Normas e Habilitação dos Produtos",
+      "sigla": "DIPRO",
+      "pai": "45013"
+    },
+    {
+      "codigo": "45043",
+      "nome": "Corregedoria",
+      "sigla": "PPCOR",
+      "pai": "45013"
+    },
+    {
+      "codigo": "62475",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DICOL",
+      "pai": "45013",
+      "colegiada": true
+    },
+    {
+      "codigo": "45396",
+      "nome": "Diretoria de Normas e Habilitação das Operadoras",
+      "sigla": "DIOPE",
+      "pai": "45013"
+    },
+    {
+      "codigo": "32529",
+      "nome": "Câmara de Saúde Suplementar",
+      "sigla": "CAMSS",
+      "pai": "45013",
+      "colegiada": true
+    },
+    {
+      "codigo": "79239",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIT",
+      "pai": "45013"
+    },
+    {
+      "codigo": "45042",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "45013"
+    },
+    {
+      "codigo": "45041",
+      "nome": "Procuradoria Federal Junto à ANS",
+      "sigla": "PROGE",
+      "pai": "45013"
+    },
+    {
+      "codigo": "288997",
+      "nome": "Secretaria-Executiva da ANS",
+      "sigla": "SECEX",
+      "pai": "45013"
+    },
+    {
+      "codigo": "103304",
+      "nome": "Diretoria-Adjunta DIDES",
+      "sigla": "DIRAD/DIDES",
+      "pai": "45013"
+    },
+    {
+      "codigo": "201625",
+      "nome": "Secretaria-Executiva da Comissão de Ética",
+      "sigla": "SECEA",
+      "pai": "45013"
+    },
+    {
+      "codigo": "103310",
+      "nome": "Diretoria Adjunta DIGES",
+      "sigla": "DIRAD/DIGES",
+      "pai": "45400"
+    },
+    {
+      "codigo": "94408",
+      "nome": "Diretoria Adjunta DIFIS",
+      "sigla": "DIRAD/DIFIS",
+      "pai": "45398"
+    },
+    {
+      "codigo": "103299",
+      "nome": "Diretoria Adjunta DIPRO",
+      "sigla": "DIRAD/DIPRO",
+      "pai": "45397"
+    },
+    {
+      "codigo": "224679",
+      "nome": "Coordenadoria de Assuntos Disciplinares",
+      "sigla": "COASD",
+      "pai": "45043"
+    },
+    {
+      "codigo": "103297",
+      "nome": "Diretoria Adjunta DIOPE",
+      "sigla": "DIRAD/DIOPE",
+      "pai": "45396"
+    },
+    {
+      "codigo": "679718",
+      "nome": "Assessoria de Estratégia e Assuntos Regulatórios",
+      "sigla": "AEAR",
+      "pai": "45396"
+    },
+    {
+      "codigo": "118109",
+      "nome": "Coordenadoria de Controle de Auditorias",
+      "sigla": "COAUD",
+      "pai": "79239"
+    },
+    {
+      "codigo": "201604",
+      "nome": "Assessoria de Informações da Ouvidoria",
+      "sigla": "ASINF",
+      "pai": "45042"
+    },
+    {
+      "codigo": "628512",
+      "nome": "Divisão de Acompanhamento de Serviços",
+      "sigla": "DASER",
+      "pai": "45042"
+    },
+    {
+      "codigo": "628551",
+      "nome": "Divisão de Projetos e Recomendações",
+      "sigla": "DPROJ",
+      "pai": "45042"
+    },
+    {
+      "codigo": "201605",
+      "nome": "Coordenadoria de Operações da Ouvidoria",
+      "sigla": "COPEO",
+      "pai": "45042"
+    },
+    {
+      "codigo": "117275",
+      "nome": "Assessoria de Apoio às Reuniões de Diretoria Colegiada e Demais Assuntos",
+      "sigla": "ASSERDC",
+      "pai": "45041"
+    },
+    {
+      "codigo": "575870",
+      "nome": "Assessoria de Apoio à Governança da PROGE",
+      "sigla": "ASSAG",
+      "pai": "45041"
+    },
+    {
+      "codigo": "575830",
+      "nome": "Procuradoria-Adjunta",
+      "sigla": "PROAD",
+      "pai": "45041"
+    },
+    {
+      "codigo": "62489",
+      "nome": "Gerência de Consultoria Normativa",
+      "sigla": "GECOS",
+      "pai": "45041"
+    },
+    {
+      "codigo": "45051",
+      "nome": "Gerência de Consultoria Administrativa",
+      "sigla": "GEADM",
+      "pai": "45041"
+    },
+    {
+      "codigo": "45050",
+      "nome": "Gerência de Contencioso",
+      "sigla": "GECON",
+      "pai": "45041"
+    },
+    {
+      "codigo": "118107",
+      "nome": "Gerência de Dívida Ativa",
+      "sigla": "GEDAT",
+      "pai": "45041"
+    },
+    {
+      "codigo": "628292",
+      "nome": "Gabinete da Presidência",
+      "sigla": "GAB/PRESI-DF",
+      "pai": "288997"
+    },
+    {
+      "codigo": "628311",
+      "nome": "Gerência-Geral de Governança",
+      "sigla": "GGGOV",
+      "pai": "288997"
+    },
+    {
+      "codigo": "124209",
+      "nome": "Gerência-Geral de Análise Técnica da Presidência",
+      "sigla": "GGATP",
+      "pai": "288997"
+    },
+    {
+      "codigo": "629671",
+      "nome": "Assessoria de Inquéritos e Apoio à Diretoria Colegiada",
+      "sigla": "ASADC",
+      "pai": "288997"
+    },
+    {
+      "codigo": "289010",
+      "nome": "Secretaria-Executiva Adjunta",
+      "sigla": "SEADJ",
+      "pai": "288997"
+    },
+    {
+      "codigo": "109990",
+      "nome": "Gerência de Integração e Ressarcimento ao SUS",
+      "sigla": "GEIRS",
+      "pai": "103304"
+    },
+    {
+      "codigo": "417330",
+      "nome": "Assessoria de Gestão da DIDES",
+      "sigla": "AGEST/DIDES",
+      "pai": "103304"
+    },
+    {
+      "codigo": "201636",
+      "nome": "Gerência de Estímulo à Inovação e Avaliação da Qualidade Setorial",
+      "sigla": "GEEIQ",
+      "pai": "103304"
+    },
+    {
+      "codigo": "417349",
+      "nome": "Assessoria de Apoio aos Projetos Estratégicos e Parcerias para Desenvolvimento Setorial",
+      "sigla": "APEDS",
+      "pai": "103304"
+    },
+    {
+      "codigo": "250448",
+      "nome": "Assessoria Normativa",
+      "sigla": "ASSNT/DIDES",
+      "pai": "103304"
+    },
+    {
+      "codigo": "417409",
+      "nome": "Gerência de Padronização, Interoperabilidade e Análise de Informações e Desenvolvimento Setorial",
+      "sigla": "GPIND",
+      "pai": "103304"
+    },
+    {
+      "codigo": "417369",
+      "nome": "Assessoria Técnica de Transparência das Informações entre Operadoras e Contratantes",
+      "sigla": "ATIOC",
+      "pai": "103304"
+    },
+    {
+      "codigo": "417410",
+      "nome": "Gerência de Estímulo à Inovação e Avaliação da Qualidade dos Prestadores de Serviços",
+      "sigla": "GEIQP",
+      "pai": "103304"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 45013 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

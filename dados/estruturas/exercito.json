@@ -1,0 +1,218 @@
+{
+  "id": "est:exercito",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Exército no SIORG",
+  "resumo": "28 unidades criadas por lei ou decreto e 3 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:exercito",
+  "siorg": "94",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "131",
+      "nome": "Secretaria de Economia e Finanças",
+      "sigla": "SEF",
+      "pai": "94"
+    },
+    {
+      "codigo": "120405",
+      "nome": "Conselho Superior de Tecnologia da Informação",
+      "sigla": "CSTI",
+      "pai": "94"
+    },
+    {
+      "codigo": "84156",
+      "nome": "Departamento de Ciência e Tecnologia",
+      "sigla": "DCT",
+      "pai": "94"
+    },
+    {
+      "codigo": "126",
+      "nome": "Gabinete do Comandante do Exército",
+      "sigla": "Gab Cmt Ex",
+      "pai": "94"
+    },
+    {
+      "codigo": "96",
+      "nome": "Estado-Maior do Exército",
+      "sigla": "EME",
+      "pai": "94"
+    },
+    {
+      "codigo": "128",
+      "nome": "Secretaria-Geral do Exército",
+      "sigla": "SGEx",
+      "pai": "94"
+    },
+    {
+      "codigo": "1602",
+      "nome": "Comando Militar do Sudeste",
+      "sigla": "Cmdo CMSE",
+      "pai": "94"
+    },
+    {
+      "codigo": "1601",
+      "nome": "Comando Militar do Leste",
+      "sigla": "C M L",
+      "pai": "94"
+    },
+    {
+      "codigo": "1599",
+      "nome": "Comando Militar do Nordeste",
+      "sigla": "CMNE",
+      "pai": "94"
+    },
+    {
+      "codigo": "221602",
+      "nome": "Comitê para a Revitalização do Parque Histórico Nacional dos Guararapes",
+      "sigla": "CRPHNG",
+      "pai": "94",
+      "colegiada": true
+    },
+    {
+      "codigo": "218766",
+      "nome": "Conselho Superior de Racionalização e Transformação",
+      "sigla": "CSRT",
+      "pai": "94",
+      "colegiada": true
+    },
+    {
+      "codigo": "105",
+      "nome": "Departamento de Educação e Cultura do Exército",
+      "sigla": "DECEX",
+      "pai": "94"
+    },
+    {
+      "codigo": "68349",
+      "nome": "Comando Logístico",
+      "sigla": "COLOG",
+      "pai": "94"
+    },
+    {
+      "codigo": "122341",
+      "nome": "Comando Militar da Amazônia Oriental",
+      "sigla": "CMAO",
+      "pai": "94"
+    },
+    {
+      "codigo": "110015",
+      "nome": "Centro de Controle Interno do Exército",
+      "sigla": "CCIEx",
+      "pai": "94"
+    },
+    {
+      "codigo": "2209",
+      "nome": "Comando de Operações Terrestres",
+      "sigla": "COTER",
+      "pai": "94"
+    },
+    {
+      "codigo": "969",
+      "nome": "Centro de Comunicação Social do Exército",
+      "sigla": "CCOMSEX",
+      "pai": "94"
+    },
+    {
+      "codigo": "97",
+      "nome": "Conselho Superior de Economia e Finanças",
+      "sigla": "CON S E F",
+      "pai": "94"
+    },
+    {
+      "codigo": "1603",
+      "nome": "Comando Militar do Sul",
+      "sigla": "CMS",
+      "pai": "94"
+    },
+    {
+      "codigo": "1600",
+      "nome": "Comando Militar do Oeste",
+      "sigla": "CMO",
+      "pai": "94"
+    },
+    {
+      "codigo": "114",
+      "nome": "Departamento de Engenharia e Construção",
+      "sigla": "DEC",
+      "pai": "94"
+    },
+    {
+      "codigo": "98",
+      "nome": "Departamento-Geral do Pessoal",
+      "sigla": "DGP",
+      "pai": "94"
+    },
+    {
+      "codigo": "29410",
+      "nome": "Comissão de Promoções de Oficiais",
+      "sigla": "C P O",
+      "pai": "94",
+      "colegiada": true
+    },
+    {
+      "codigo": "80951",
+      "nome": "Consultoria Jurídica-Adjunta do Comando do Exército",
+      "sigla": "ConJur",
+      "pai": "94"
+    },
+    {
+      "codigo": "482",
+      "nome": "Comando Militar do Planalto",
+      "sigla": "CMP",
+      "pai": "94"
+    },
+    {
+      "codigo": "95",
+      "nome": "Alto-Comando do Exército",
+      "sigla": "A C E",
+      "pai": "94"
+    },
+    {
+      "codigo": "747",
+      "nome": "Centro de Inteligência do Exército",
+      "sigla": "CIE",
+      "pai": "94"
+    },
+    {
+      "codigo": "481",
+      "nome": "Comando Militar da Amazônia",
+      "sigla": "CMA",
+      "pai": "94"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "134",
+      "nome": "Indústria de Material Bélico do Brasil",
+      "sigla": "IMBEL"
+    },
+    {
+      "codigo": "957",
+      "nome": "Fundação Habitacional do Exército",
+      "sigla": "FHE"
+    },
+    {
+      "codigo": "8406",
+      "nome": "Fundação Osório",
+      "sigla": "FOSORIO"
+    }
+  ],
+  "ato_interno": 185,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 94 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

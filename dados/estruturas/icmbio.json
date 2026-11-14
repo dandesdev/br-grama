@@ -1,0 +1,85 @@
+{
+  "id": "est:icmbio",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Instituto Chico Mendes de Conservação da Biodiversidade no SIORG",
+  "resumo": "9 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:icmbio",
+  "siorg": "91842",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "92707",
+      "nome": "Diretoria de Criação e Manejo de Unidades de Conservação",
+      "sigla": "DIMAN",
+      "pai": "91842"
+    },
+    {
+      "codigo": "92654",
+      "nome": "Diretoria de Planejamento, Administração e Logística",
+      "sigla": "DIPLAN",
+      "pai": "91842"
+    },
+    {
+      "codigo": "92727",
+      "nome": "Diretoria de Pesquisa, Avaliação e Monitoramento da Biodiversidade em Unidades de Conservação",
+      "sigla": "DIBIO",
+      "pai": "91842"
+    },
+    {
+      "codigo": "442510",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "91842"
+    },
+    {
+      "codigo": "92697",
+      "nome": "Diretoria de Ações Socioambientais e Consolidação Territorial em Unidades de Conservação",
+      "sigla": "DISAT",
+      "pai": "91842"
+    },
+    {
+      "codigo": "116430",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIT",
+      "pai": "91842"
+    },
+    {
+      "codigo": "258933",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "91842"
+    },
+    {
+      "codigo": "116714",
+      "nome": "Comitê Gestor do ICMBio",
+      "sigla": "CGICMBIO",
+      "pai": "91842",
+      "colegiada": true
+    },
+    {
+      "codigo": "92627",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "91842"
+    }
+  ],
+  "ato_interno": 61,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 91842 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

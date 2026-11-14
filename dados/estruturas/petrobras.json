@@ -1,0 +1,192 @@
+{
+  "id": "est:petrobras",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Petróleo Brasileiro S.A. no SIORG",
+  "resumo": "27 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:petrobras",
+  "siorg": "224",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "69312",
+      "nome": "Petrobras Engenharia",
+      "sigla": "ENGENHARIA",
+      "pai": "224"
+    },
+    {
+      "codigo": "61355",
+      "nome": "Petrobras Gás S.A.",
+      "sigla": "GASPETRO",
+      "pai": "224"
+    },
+    {
+      "codigo": "120491",
+      "nome": "Arembepe Energia S.A.",
+      "sigla": "Arembepe Energia",
+      "pai": "224"
+    },
+    {
+      "codigo": "118104",
+      "nome": "Comperj Meg S/A",
+      "sigla": "CMS",
+      "pai": "224"
+    },
+    {
+      "codigo": "118103",
+      "nome": "Comperj Poliolefinas S/A",
+      "sigla": "CPS1",
+      "pai": "224"
+    },
+    {
+      "codigo": "77159",
+      "nome": "Gerência de Recursos Humanos",
+      "sigla": "RH",
+      "pai": "224"
+    },
+    {
+      "codigo": "201328",
+      "nome": "Araucária Nitrogenados S.A.",
+      "sigla": "Araucária",
+      "pai": "224"
+    },
+    {
+      "codigo": "77191",
+      "nome": "Exploração e Produção",
+      "sigla": "E&P",
+      "pai": "224"
+    },
+    {
+      "codigo": "231116",
+      "nome": "Liquigás Distribuidora S.A.",
+      "sigla": "Liquigás",
+      "pai": "224"
+    },
+    {
+      "codigo": "229578",
+      "nome": "Petrobras Logística de Gás",
+      "sigla": "LOGIGAS",
+      "pai": "224"
+    },
+    {
+      "codigo": "99484",
+      "nome": "Usina Termelétrica em Caucaia",
+      "sigla": "Termocear",
+      "pai": "224"
+    },
+    {
+      "codigo": "75934",
+      "nome": "Jurídico da Petrobras",
+      "sigla": "JP",
+      "pai": "224"
+    },
+    {
+      "codigo": "230847",
+      "nome": "Termomacaé Ltda.",
+      "sigla": "TERMOMACAÉ LTDA.",
+      "pai": "224"
+    },
+    {
+      "codigo": "231006",
+      "nome": "Petrobras Logística de Exploração e Produção S.A.",
+      "sigla": "PB-LOG",
+      "pai": "224"
+    },
+    {
+      "codigo": "225802",
+      "nome": "Centro Empresarial Senado",
+      "sigla": "CNJ",
+      "pai": "224"
+    },
+    {
+      "codigo": "118102",
+      "nome": "Comperj Participações S/A",
+      "sigla": "CPS",
+      "pai": "224"
+    },
+    {
+      "codigo": "61437",
+      "nome": "Alberto Pasqualini REFAP S/A",
+      "sigla": "REFAP",
+      "pai": "224"
+    },
+    {
+      "codigo": "109008",
+      "nome": "Secretaria-Geral da Petrobras",
+      "sigla": "SGP",
+      "pai": "224"
+    },
+    {
+      "codigo": "118101",
+      "nome": "Comperj Estirênicos S/A",
+      "sigla": "CES",
+      "pai": "224"
+    },
+    {
+      "codigo": "118265",
+      "nome": "Petrobras Negócios Eletrônicos S.A",
+      "sigla": "e-PETRO",
+      "pai": "224"
+    },
+    {
+      "codigo": "108319",
+      "nome": "Petrobras Biocombustível S.A.",
+      "sigla": "PETROBRAS-BIO",
+      "pai": "224"
+    },
+    {
+      "codigo": "61434",
+      "nome": "Petrobras Transporte S.A.",
+      "sigla": "TRANSPETRO",
+      "pai": "224"
+    },
+    {
+      "codigo": "80391",
+      "nome": "Gerência Executiva de Comunicação Institucional",
+      "sigla": "GECI",
+      "pai": "224"
+    },
+    {
+      "codigo": "94728",
+      "nome": "Fábrica de Fertilizantes Nitrogenados de Sergipe",
+      "sigla": "Fafen-SE",
+      "pai": "224"
+    },
+    {
+      "codigo": "123414",
+      "nome": "Usina Termelétrica Luís Carlos Prestes",
+      "sigla": "UT",
+      "pai": "224"
+    },
+    {
+      "codigo": "72056",
+      "nome": "Petrobras Química S.A.",
+      "sigla": "PETROQUISA",
+      "pai": "224"
+    },
+    {
+      "codigo": "230990",
+      "nome": "Transportadora Brasileira Gasoduto Bolívia Brasil S.A",
+      "sigla": "TBG",
+      "pai": "229578"
+    }
+  ],
+  "ato_interno": 34,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 224 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

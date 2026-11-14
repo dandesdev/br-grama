@@ -1,0 +1,143 @@
+{
+  "id": "est:ibama",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis no SIORG",
+  "resumo": "18 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:ibama",
+  "siorg": "1812",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "1914",
+      "nome": "Conselho Nacional de Proteção à Fauna",
+      "sigla": "CNPF",
+      "pai": "1812",
+      "colegiada": true
+    },
+    {
+      "codigo": "89391",
+      "nome": "Diretoria de Qualidade Ambiental",
+      "sigla": "Diqua",
+      "pai": "1812"
+    },
+    {
+      "codigo": "91861",
+      "nome": "Diretoria de Planejamento, Administração e Logística",
+      "sigla": "Diplan",
+      "pai": "1812"
+    },
+    {
+      "codigo": "217219",
+      "nome": "Comitê Intersetorial Permanente de Educação Ambiental",
+      "sigla": "Cipea",
+      "pai": "1812",
+      "colegiada": true
+    },
+    {
+      "codigo": "40565",
+      "nome": "Diretoria de Proteção Ambiental",
+      "sigla": "Dipro",
+      "pai": "1812"
+    },
+    {
+      "codigo": "217323",
+      "nome": "Centro Integrado Multiagências de Coordenação Operacional Nacional",
+      "sigla": "CIMAN",
+      "pai": "1812",
+      "colegiada": true
+    },
+    {
+      "codigo": "215358",
+      "nome": "Comitê Interfederativo",
+      "sigla": "CMIF",
+      "pai": "1812",
+      "colegiada": true
+    },
+    {
+      "codigo": "1916",
+      "nome": "Conselho Gestor",
+      "sigla": "Coges",
+      "pai": "1812",
+      "colegiada": true
+    },
+    {
+      "codigo": "1825",
+      "nome": "Auditoria Interna",
+      "sigla": "Audit",
+      "pai": "1812"
+    },
+    {
+      "codigo": "419093",
+      "nome": "Assessoria Parlamentar",
+      "sigla": "Aspar",
+      "pai": "1812"
+    },
+    {
+      "codigo": "423589",
+      "nome": "Assessoria de Mudanças Climáticas",
+      "sigla": "Asclima",
+      "pai": "1812"
+    },
+    {
+      "codigo": "297859",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "Agest",
+      "pai": "1812"
+    },
+    {
+      "codigo": "89401",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "Ascom",
+      "pai": "1812"
+    },
+    {
+      "codigo": "1836",
+      "nome": "Diretoria de Biodiversidade e Florestas",
+      "sigla": "DBFlo",
+      "pai": "1812"
+    },
+    {
+      "codigo": "1826",
+      "nome": "Diretoria de Licenciamento Ambiental",
+      "sigla": "Dilic",
+      "pai": "1812"
+    },
+    {
+      "codigo": "91860",
+      "nome": "Corregedoria",
+      "sigla": "Coger",
+      "pai": "1812"
+    },
+    {
+      "codigo": "297204",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "1812"
+    },
+    {
+      "codigo": "1821",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "1812"
+    }
+  ],
+  "ato_interno": 69,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 1812 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

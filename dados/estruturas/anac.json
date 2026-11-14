@@ -1,0 +1,650 @@
+{
+  "id": "est:anac",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Aviação Civil no SIORG",
+  "resumo": "103 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:anac",
+  "siorg": "86144",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "225471",
+      "nome": "Diretoria 1",
+      "sigla": "DIR- 1",
+      "pai": "86144"
+    },
+    {
+      "codigo": "214780",
+      "nome": "Assessoria de Julgamento de Autos em Segunda Instância",
+      "sigla": "ASJIN",
+      "pai": "86144"
+    },
+    {
+      "codigo": "97048",
+      "nome": "Superintendência de Aeronavegabilidade",
+      "sigla": "SAR",
+      "pai": "86144"
+    },
+    {
+      "codigo": "89462",
+      "nome": "Auditoria Interna",
+      "sigla": "AUD",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86552",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86547",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "86144"
+    },
+    {
+      "codigo": "644194",
+      "nome": "Superintendência de Operações da Aviação Geral",
+      "sigla": "SAG",
+      "pai": "86144"
+    },
+    {
+      "codigo": "648171",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PF-ANAC",
+      "pai": "86144"
+    },
+    {
+      "codigo": "564653",
+      "nome": "Assessoria de Relações Internacionais",
+      "sigla": "ASINT",
+      "pai": "86144"
+    },
+    {
+      "codigo": "359029",
+      "nome": "Superintendência de Tecnologia e Transformação Digital",
+      "sigla": "STD",
+      "pai": "86144"
+    },
+    {
+      "codigo": "640391",
+      "nome": "Assessoria de Inteligência",
+      "sigla": "ASING",
+      "pai": "86144"
+    },
+    {
+      "codigo": "641912",
+      "nome": "Superintendência de Serviços Aéreos",
+      "sigla": "SSA",
+      "pai": "86144"
+    },
+    {
+      "codigo": "269125",
+      "nome": "Diretoria 4",
+      "sigla": "DIR - 4",
+      "pai": "86144"
+    },
+    {
+      "codigo": "225473",
+      "nome": "Diretoria 3",
+      "sigla": "DIR- 3",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86556",
+      "nome": "Superintendência de Padrões Operacionais",
+      "sigla": "SPO",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86561",
+      "nome": "Superintendência de Administração e Finanças",
+      "sigla": "SAF",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86553",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86550",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "86144"
+    },
+    {
+      "codigo": "266818",
+      "nome": "Superintendência de Pessoal da Aviação Civil",
+      "sigla": "SPL",
+      "pai": "86144"
+    },
+    {
+      "codigo": "103167",
+      "nome": "Superintendência de Gestão de Pessoas",
+      "sigla": "SGP",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86546",
+      "nome": "Diretoria",
+      "sigla": "DIR",
+      "pai": "86144",
+      "colegiada": true
+    },
+    {
+      "codigo": "316397",
+      "nome": "Assessoria da Presidência",
+      "sigla": "ASDIR-P",
+      "pai": "86144"
+    },
+    {
+      "codigo": "359009",
+      "nome": "Superintendência de Governança e Meio Ambiente",
+      "sigla": "SGM",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86560",
+      "nome": "Superintendência de Infraestrutura Aeroportuária",
+      "sigla": "SIA",
+      "pai": "86144"
+    },
+    {
+      "codigo": "205525",
+      "nome": "Superintendência de Regulação Econômica de Aeroportos",
+      "sigla": "SRA",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86549",
+      "nome": "Assessoria Parlamentar",
+      "sigla": "ASPAR",
+      "pai": "86144"
+    },
+    {
+      "codigo": "91446",
+      "nome": "Assessoria de Segurança Operacional",
+      "sigla": "ASSOP",
+      "pai": "86144"
+    },
+    {
+      "codigo": "225474",
+      "nome": "Diretoria 2",
+      "sigla": "DIR- 2",
+      "pai": "86144"
+    },
+    {
+      "codigo": "86551",
+      "nome": "Assessoria Técnica",
+      "sigla": "ASTEC",
+      "pai": "86144"
+    },
+    {
+      "codigo": "316398",
+      "nome": "Assessoria da Diretoria 1",
+      "sigla": "ASDIR - 1",
+      "pai": "225471"
+    },
+    {
+      "codigo": "413431",
+      "nome": "Coordenadoria de Julgamento de Infrações e Assessoramento Interno",
+      "sigla": "CJIN",
+      "pai": "214780"
+    },
+    {
+      "codigo": "259393",
+      "nome": "Coordenadoria de Controle de Processos Sancionadores",
+      "sigla": "CCPS",
+      "pai": "214780"
+    },
+    {
+      "codigo": "269085",
+      "nome": "Gerência Técnica de Normas e Inovação",
+      "sigla": "GTNI",
+      "pai": "97048"
+    },
+    {
+      "codigo": "269086",
+      "nome": "Gerência Técnica de Planejamento",
+      "sigla": "GTPL",
+      "pai": "97048"
+    },
+    {
+      "codigo": "269095",
+      "nome": "Gerência Técnica de Certificação de Organizações e Inspeção",
+      "sigla": "GTCO",
+      "pai": "97048"
+    },
+    {
+      "codigo": "97057",
+      "nome": "Gerência Técnica do Registro Aeronáutico Brasileiro",
+      "sigla": "GTRAB",
+      "pai": "97048"
+    },
+    {
+      "codigo": "269090",
+      "nome": "Gerência de Certificação de Projeto de Produto Aeronáutico",
+      "sigla": "GCPP",
+      "pai": "97048"
+    },
+    {
+      "codigo": "269833",
+      "nome": "Coordenadoria de Assessoramento",
+      "sigla": "CASSES",
+      "pai": "97048"
+    },
+    {
+      "codigo": "643331",
+      "nome": "Gerência Técnica de Segurança e Aeronavegabilidade do Produto",
+      "sigla": "GTSAP",
+      "pai": "97048"
+    },
+    {
+      "codigo": "375010",
+      "nome": "Coordenadoria de Execução de Auditoria Interna",
+      "sigla": "COAUD",
+      "pai": "89462"
+    },
+    {
+      "codigo": "358990",
+      "nome": "Coordenadoria de Qualidade da Auditoria Interna",
+      "sigla": "CQUALI",
+      "pai": "89462"
+    },
+    {
+      "codigo": "469449",
+      "nome": "Coordenadoria de Acesso à Informação e Sistema de Atendimento",
+      "sigla": "CAISA",
+      "pai": "86552"
+    },
+    {
+      "codigo": "469450",
+      "nome": "Coordenadoria de Tratamento de Manifestações, Pesquisa e Transparência Ativa",
+      "sigla": "CTMP",
+      "pai": "86552"
+    },
+    {
+      "codigo": "416509",
+      "nome": "Gerência Técnica de Demandas Institucionais",
+      "sigla": "GTDI",
+      "pai": "86547"
+    },
+    {
+      "codigo": "644271",
+      "nome": "Gerência de Operações",
+      "sigla": "GEOP",
+      "pai": "644194"
+    },
+    {
+      "codigo": "644211",
+      "nome": "Gerência de Normas e Apoio da Aviação Geral",
+      "sigla": "GNAG",
+      "pai": "644194"
+    },
+    {
+      "codigo": "641911",
+      "nome": "Gerência Técnica de Relações Internacionais",
+      "sigla": "GTRI",
+      "pai": "564653"
+    },
+    {
+      "codigo": "359449",
+      "nome": "Gerência Técnica de Governança da Tecnologia e da Transformação Digital",
+      "sigla": "GTGT",
+      "pai": "359029"
+    },
+    {
+      "codigo": "108057",
+      "nome": "Gerência de Infraestrutura Tecnológica",
+      "sigla": "GEIT",
+      "pai": "359029"
+    },
+    {
+      "codigo": "359430",
+      "nome": "Gerência de Soluções Digitais",
+      "sigla": "GESD",
+      "pai": "359029"
+    },
+    {
+      "codigo": "359469",
+      "nome": "Gerência Técnica de Segurança da Informação",
+      "sigla": "GTSI",
+      "pai": "359029"
+    },
+    {
+      "codigo": "641891",
+      "nome": "Coordenadoria de Inteligência",
+      "sigla": "CINT",
+      "pai": "640391"
+    },
+    {
+      "codigo": "641871",
+      "nome": "Coordenadoria de Contrainteligência",
+      "sigla": "CCINT",
+      "pai": "640391"
+    },
+    {
+      "codigo": "641855",
+      "nome": "Coordenadoria de Gestão de Crise",
+      "sigla": "COGEC",
+      "pai": "640391"
+    },
+    {
+      "codigo": "115357",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS/SSA",
+      "pai": "641912"
+    },
+    {
+      "codigo": "641951",
+      "nome": "Gerência Técnica de Normas, Demandas Externas e Análise de Autos de Infração",
+      "sigla": "GTND",
+      "pai": "641912"
+    },
+    {
+      "codigo": "97028",
+      "nome": "Gerência de Acompanhamento de Mercado",
+      "sigla": "GEAC",
+      "pai": "641912"
+    },
+    {
+      "codigo": "214774",
+      "nome": "Gerência de Acesso ao Mercado",
+      "sigla": "GEAM",
+      "pai": "641912"
+    },
+    {
+      "codigo": "107348",
+      "nome": "Gerência de Regulação das Relações de Consumo",
+      "sigla": "GCON",
+      "pai": "641912"
+    },
+    {
+      "codigo": "316401",
+      "nome": "Assessoria da Diretoria 4",
+      "sigla": "ASDIR - 4",
+      "pai": "269125"
+    },
+    {
+      "codigo": "316400",
+      "nome": "Assessoria da Diretoria 3",
+      "sigla": "ASDIR - 3",
+      "pai": "225473"
+    },
+    {
+      "codigo": "646971",
+      "nome": "Gerência de Operadores  121",
+      "sigla": "G121",
+      "pai": "86556"
+    },
+    {
+      "codigo": "646013",
+      "nome": "Gerência de Operadores 135",
+      "sigla": "G135",
+      "pai": "86556"
+    },
+    {
+      "codigo": "645952",
+      "nome": "Gerência de Normas e Processos Finalísticos",
+      "sigla": "GNPF",
+      "pai": "86556"
+    },
+    {
+      "codigo": "645833",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS/SPO",
+      "pai": "86556"
+    },
+    {
+      "codigo": "645836",
+      "nome": "Gerência de Organizações 145",
+      "sigla": "G145",
+      "pai": "86556"
+    },
+    {
+      "codigo": "91296",
+      "nome": "Gerência de Gestão Estratégica de Recursos",
+      "sigla": "GEST",
+      "pai": "86561"
+    },
+    {
+      "codigo": "359129",
+      "nome": "Gerência de Serviços Logísticos",
+      "sigla": "GLOG",
+      "pai": "86561"
+    },
+    {
+      "codigo": "120781",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS",
+      "pai": "86561"
+    },
+    {
+      "codigo": "254823",
+      "nome": "Coordenadoria de Procedimentos Preliminares",
+      "sigla": "CPPR",
+      "pai": "86553"
+    },
+    {
+      "codigo": "254813",
+      "nome": "Coordenadoria de Apuração Disciplinar e Correcional",
+      "sigla": "CADC",
+      "pai": "86553"
+    },
+    {
+      "codigo": "416530",
+      "nome": "Gerência Técnica de Design e Dados Digitais",
+      "sigla": "GTDD",
+      "pai": "86550"
+    },
+    {
+      "codigo": "641652",
+      "nome": "Gerência Técnica de Imprensa e Redes Sociais",
+      "sigla": "GTIRS",
+      "pai": "86550"
+    },
+    {
+      "codigo": "648151",
+      "nome": "Gerência Técnica de Eventos e Cerimonial",
+      "sigla": "GTEC",
+      "pai": "86550"
+    },
+    {
+      "codigo": "641531",
+      "nome": "Gerência Técnica de Gestão de Conteúdo",
+      "sigla": "GTGC",
+      "pai": "86550"
+    },
+    {
+      "codigo": "269126",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS/SPL",
+      "pai": "266818"
+    },
+    {
+      "codigo": "359509",
+      "nome": "Gerência de Exames de Pessoal",
+      "sigla": "GEPE",
+      "pai": "266818"
+    },
+    {
+      "codigo": "267572",
+      "nome": "Gerência Técnica de Normas",
+      "sigla": "GTNO/SPL",
+      "pai": "266818"
+    },
+    {
+      "codigo": "646092",
+      "nome": "Gerência de Qualidade e Certificação de Pessoal",
+      "sigla": "GQCP",
+      "pai": "266818"
+    },
+    {
+      "codigo": "359489",
+      "nome": "Gerência de Formação e Qualificação de Pessoal",
+      "sigla": "GFOP",
+      "pai": "266818"
+    },
+    {
+      "codigo": "103168",
+      "nome": "Gerência de Desenvolvimento de Pessoas",
+      "sigla": "GDPE",
+      "pai": "103167"
+    },
+    {
+      "codigo": "214776",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS",
+      "pai": "103167"
+    },
+    {
+      "codigo": "120774",
+      "nome": "Gerência de Administração de Pessoas",
+      "sigla": "GAPE",
+      "pai": "103167"
+    },
+    {
+      "codigo": "316423",
+      "nome": "Gerência de Gestão Estratégica de Pessoas",
+      "sigla": "GESP",
+      "pai": "103167"
+    },
+    {
+      "codigo": "108055",
+      "nome": "Gerência de Articulação e Planejamento Institucional",
+      "sigla": "GAPI",
+      "pai": "359009"
+    },
+    {
+      "codigo": "359409",
+      "nome": "Gerência de Meio Ambiente e Transição Energética",
+      "sigla": "GMAT",
+      "pai": "359009"
+    },
+    {
+      "codigo": "107347",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS/SGM",
+      "pai": "359009"
+    },
+    {
+      "codigo": "205541",
+      "nome": "Gerência de Certificação e Segurança Operacional",
+      "sigla": "GCOP",
+      "pai": "86560"
+    },
+    {
+      "codigo": "91292",
+      "nome": "Gerência de Controle e Fiscalização",
+      "sigla": "GFIC",
+      "pai": "86560"
+    },
+    {
+      "codigo": "107357",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS/SIA",
+      "pai": "86560"
+    },
+    {
+      "codigo": "316457",
+      "nome": "Gerência de AVSEC e Facilitação",
+      "sigla": "GSEF",
+      "pai": "86560"
+    },
+    {
+      "codigo": "107358",
+      "nome": "Gerência de Normas, Análise de Autos de Infração e Demandas Externas",
+      "sigla": "GNAD",
+      "pai": "86560"
+    },
+    {
+      "codigo": "269087",
+      "nome": "Gerência de Investimentos e Obras e Qualidade de Serviços",
+      "sigla": "GIOS",
+      "pai": "205525"
+    },
+    {
+      "codigo": "205527",
+      "nome": "Gerência de Outorgas de Infraestrutura Aeroportuária",
+      "sigla": "GOIA",
+      "pai": "205525"
+    },
+    {
+      "codigo": "416536",
+      "nome": "Gerência de Revisão Extraordinária, Informações e Contabilidade",
+      "sigla": "GEIC",
+      "pai": "205525"
+    },
+    {
+      "codigo": "205528",
+      "nome": "Gerência de Regulação Econômica",
+      "sigla": "GERE",
+      "pai": "205525"
+    },
+    {
+      "codigo": "205526",
+      "nome": "Gerência Técnica de Assessoramento",
+      "sigla": "GTAS/SRA",
+      "pai": "205525"
+    },
+    {
+      "codigo": "590350",
+      "nome": "Coordenadoria de Assessoramento e Processos Internos",
+      "sigla": "CAPI",
+      "pai": "91446"
+    },
+    {
+      "codigo": "641811",
+      "nome": "Gerência Técnica de Segurança Operacional",
+      "sigla": "GTSO",
+      "pai": "91446"
+    },
+    {
+      "codigo": "254853",
+      "nome": "Coordenadoria de Promoção e Melhoria Contínua",
+      "sigla": "CPMC",
+      "pai": "91446"
+    },
+    {
+      "codigo": "254850",
+      "nome": "Coordenadoria de Gerenciamento de Risco Integrado",
+      "sigla": "CGRI",
+      "pai": "91446"
+    },
+    {
+      "codigo": "316399",
+      "nome": "Assessoria da Diretoria 2",
+      "sigla": "ASDIR - 2",
+      "pai": "225474"
+    },
+    {
+      "codigo": "358949",
+      "nome": "Gerência Técnica de Inovação e Informação",
+      "sigla": "GTIN",
+      "pai": "86551"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 86144 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

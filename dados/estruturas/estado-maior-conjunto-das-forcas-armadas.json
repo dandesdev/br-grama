@@ -1,0 +1,259 @@
+{
+  "id": "est:estado-maior-conjunto-das-forcas-armadas",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Estado-Maior Conjunto das Forças Armadas no SIORG",
+  "resumo": "38 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:estado-maior-conjunto-das-forcas-armadas",
+  "siorg": "41110",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "291527",
+      "nome": "Chefia de Assuntos Estratégicos",
+      "sigla": "CAE",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113147",
+      "nome": "Chefia de Operações Conjuntas",
+      "sigla": "CHOC",
+      "pai": "41110"
+    },
+    {
+      "codigo": "290125",
+      "nome": "Chefia de Educação e Cultura",
+      "sigla": "CHEC/EMCFA",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113156",
+      "nome": "Assessoria de Gestão Estratégica",
+      "sigla": "AGE-EMCFA",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113293",
+      "nome": "Chefia de Logística e Mobilização",
+      "sigla": "CHELOG",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113149",
+      "nome": "Assessoria de Inteligência e Defesa",
+      "sigla": "AIDef",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113146",
+      "nome": "Gabinete do Estado-Maior Conjunto das Forças Armadas",
+      "sigla": "GAB/EMCFA",
+      "pai": "41110"
+    },
+    {
+      "codigo": "113158",
+      "nome": "Subchefia de Política e Estratégia",
+      "sigla": "SCPE",
+      "pai": "291527"
+    },
+    {
+      "codigo": "113284",
+      "nome": "Subchefia de Assuntos Internacionais",
+      "sigla": "SCAI",
+      "pai": "291527"
+    },
+    {
+      "codigo": "220329",
+      "nome": "Vice-Chefia de Assuntos Estratégicos",
+      "sigla": "VCAE",
+      "pai": "291527"
+    },
+    {
+      "codigo": "41928",
+      "nome": "Subchefia de Organismos Internacionais",
+      "sigla": "SCOI",
+      "pai": "291527"
+    },
+    {
+      "codigo": "220317",
+      "nome": "Vice-Chefia de Operações Conjuntas",
+      "sigla": "VCHOC",
+      "pai": "113147"
+    },
+    {
+      "codigo": "1092",
+      "nome": "Subchefia de Operações de Internacionais",
+      "sigla": "SC-4",
+      "pai": "113147"
+    },
+    {
+      "codigo": "1089",
+      "nome": "Subchefia de Operações",
+      "sigla": "SC - 3",
+      "pai": "113147"
+    },
+    {
+      "codigo": "41927",
+      "nome": "Subchefia de Comando e Controle",
+      "sigla": "SC-1",
+      "pai": "113147"
+    },
+    {
+      "codigo": "281130",
+      "nome": "Escola Superior de Defesa",
+      "sigla": "ESD",
+      "pai": "290125"
+    },
+    {
+      "codigo": "290459",
+      "nome": "Vice-Chefia de Educação e Cultura",
+      "sigla": "VCHEC",
+      "pai": "290125"
+    },
+    {
+      "codigo": "36",
+      "nome": "Escola Superior de Guerra",
+      "sigla": "ESG",
+      "pai": "290125"
+    },
+    {
+      "codigo": "41930",
+      "nome": "Representação do Brasil na Junta Interamericana de Defesa",
+      "sigla": "RBJID-MD",
+      "pai": "113156",
+      "colegiada": true
+    },
+    {
+      "codigo": "113295",
+      "nome": "Subchefia de Logística Operacional",
+      "sigla": "SUBLOP",
+      "pai": "113293"
+    },
+    {
+      "codigo": "121919",
+      "nome": "Subchefia de Logística Estratégica",
+      "sigla": "SUBLOGE",
+      "pai": "113293"
+    },
+    {
+      "codigo": "113301",
+      "nome": "Subchefia de Mobilização",
+      "sigla": "SUBMOB",
+      "pai": "113293"
+    },
+    {
+      "codigo": "220331",
+      "nome": "Vice-Chefia de Logística e Mobilização",
+      "sigla": "VCHELOG",
+      "pai": "113293"
+    },
+    {
+      "codigo": "205578",
+      "nome": "Centro e Apoio a Sistemas Logísticos de Defesa",
+      "sigla": "CASLODE",
+      "pai": "113293"
+    },
+    {
+      "codigo": "121993",
+      "nome": "Assessoria de Doutrina e Legislação",
+      "sigla": "ADL",
+      "pai": "113146"
+    },
+    {
+      "codigo": "122001",
+      "nome": "Assessoria de Planejamento, Orçamento e Gestão",
+      "sigla": "APOG",
+      "pai": "113146"
+    },
+    {
+      "codigo": "122000",
+      "nome": "Assessoria de Planejamento e Coordenação de Atividades Conjuntas",
+      "sigla": "APAC",
+      "pai": "113146"
+    },
+    {
+      "codigo": "113157",
+      "nome": "Gabinete",
+      "sigla": "GAB-CAE",
+      "pai": "220329"
+    },
+    {
+      "codigo": "234261",
+      "nome": "Assessoria de Planejamento Baseado em Capacidades",
+      "sigla": "APBC",
+      "pai": "220317"
+    },
+    {
+      "codigo": "122008",
+      "nome": "Gabinete",
+      "sigla": "GAB-CHOC",
+      "pai": "220317"
+    },
+    {
+      "codigo": "290531",
+      "nome": "Assessoria de Estudos de Defesa",
+      "sigla": "AED",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290529",
+      "nome": "Assessoria de Ensino Militar",
+      "sigla": "AEM",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290532",
+      "nome": "Assessoria de Ensino e Fomento à Pesquisa",
+      "sigla": "AEFP",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290534",
+      "nome": "Assessoria de Planejamento Orçamentário",
+      "sigla": "APO",
+      "pai": "290459"
+    },
+    {
+      "codigo": "290533",
+      "nome": "Assessoria do Patrimônio Histórico e Cultural Militar",
+      "sigla": "APHCM",
+      "pai": "290459"
+    },
+    {
+      "codigo": "664453",
+      "nome": "Coordenação-Geral de Interoperabilidade Logística e Obtenção Conjunta",
+      "sigla": "CGILOC",
+      "pai": "121919"
+    },
+    {
+      "codigo": "113294",
+      "nome": "Gabinete",
+      "sigla": "GAB-CHELOG",
+      "pai": "220331"
+    },
+    {
+      "codigo": "664454",
+      "nome": "Coordenação de Obtenção Conjunta",
+      "sigla": "CILOC",
+      "pai": "664453"
+    }
+  ],
+  "ato_interno": 80,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 41110 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

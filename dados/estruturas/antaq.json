@@ -1,0 +1,363 @@
+{
+  "id": "est:antaq",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Transportes Aquaviários no SIORG",
+  "resumo": "55 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:antaq",
+  "siorg": "54843",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "117876",
+      "nome": "Superintendência de Fiscalização e Coordenação das Unidades Regionais",
+      "sigla": "SFC",
+      "pai": "54843"
+    },
+    {
+      "codigo": "307570",
+      "nome": "Diretoria IV",
+      "sigla": "D 4",
+      "pai": "54843"
+    },
+    {
+      "codigo": "71418",
+      "nome": "Superintendência de Regulação",
+      "sigla": "SRG",
+      "pai": "54843"
+    },
+    {
+      "codigo": "62065",
+      "nome": "Secretaria-Geral",
+      "sigla": "SGE",
+      "pai": "54843"
+    },
+    {
+      "codigo": "54850",
+      "nome": "Procuradoria Federal",
+      "sigla": "PFA",
+      "pai": "54843"
+    },
+    {
+      "codigo": "307569",
+      "nome": "Diretoria III",
+      "sigla": "D 3",
+      "pai": "54843"
+    },
+    {
+      "codigo": "201082",
+      "nome": "Superintendência de ESG e Inovação",
+      "sigla": "SESGI",
+      "pai": "54843"
+    },
+    {
+      "codigo": "201077",
+      "nome": "Superintendência de Outorgas",
+      "sigla": "SOG",
+      "pai": "54843"
+    },
+    {
+      "codigo": "54851",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "54843"
+    },
+    {
+      "codigo": "68642",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DC",
+      "pai": "54843",
+      "colegiada": true
+    },
+    {
+      "codigo": "68622",
+      "nome": "Superintendência de Administração e Finanças",
+      "sigla": "SAF",
+      "pai": "54843"
+    },
+    {
+      "codigo": "62370",
+      "nome": "Auditoria Interna",
+      "sigla": "AUD",
+      "pai": "54843"
+    },
+    {
+      "codigo": "62064",
+      "nome": "Gabinete do Diretor-Geral",
+      "sigla": "DG",
+      "pai": "54843"
+    },
+    {
+      "codigo": "320037",
+      "nome": "Superintendência de Estudos e Projetos Hidroviários",
+      "sigla": "SEPH",
+      "pai": "54843"
+    },
+    {
+      "codigo": "201538",
+      "nome": "Diretoria II",
+      "sigla": "D 2",
+      "pai": "54843"
+    },
+    {
+      "codigo": "54852",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "54843"
+    },
+    {
+      "codigo": "201539",
+      "nome": "Diretoria I",
+      "sigla": "D 1",
+      "pai": "54843"
+    },
+    {
+      "codigo": "423189",
+      "nome": "Gerência de Coordenação das Unidades Regionais",
+      "sigla": "GCOR",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300132",
+      "nome": "Gerência Regional do Rio de Janeiro",
+      "sigla": "GRERJ",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300129",
+      "nome": "Gerência Regional de Belém",
+      "sigla": "GREBL",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300130",
+      "nome": "Gerência Regional de Recife",
+      "sigla": "GRERE",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300131",
+      "nome": "Gerência Regional de Santos",
+      "sigla": "GREST",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300096",
+      "nome": "Gerência Regional de Manaus",
+      "sigla": "GREMN",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300133",
+      "nome": "Gerência Regional de Florianópolis",
+      "sigla": "GREFL",
+      "pai": "117876"
+    },
+    {
+      "codigo": "300095",
+      "nome": "Gerência de Recursos e Apoio Técnico",
+      "sigla": "GRAT",
+      "pai": "117876"
+    },
+    {
+      "codigo": "201089",
+      "nome": "Gerência de Planejamento e Inteligência da Fiscalização",
+      "sigla": "GPF",
+      "pai": "117876"
+    },
+    {
+      "codigo": "201088",
+      "nome": "Gerência de Regulação Portuária",
+      "sigla": "GRP",
+      "pai": "71418"
+    },
+    {
+      "codigo": "291850",
+      "nome": "Gerência de Regulação da Navegação",
+      "sigla": "GRN",
+      "pai": "71418"
+    },
+    {
+      "codigo": "427809",
+      "nome": "Coordenadoria-Geral de Governança Regulatória",
+      "sigla": "CGGR",
+      "pai": "71418"
+    },
+    {
+      "codigo": "317377",
+      "nome": "Gerência de Tecnologia e Gestão da Informação",
+      "sigla": "GTGI",
+      "pai": "62065"
+    },
+    {
+      "codigo": "291819",
+      "nome": "Divisão de Distribuição, Deliberações e Comunicações Processuais",
+      "sigla": "DDCP",
+      "pai": "62065"
+    },
+    {
+      "codigo": "201085",
+      "nome": "Gerência de Governança, Gestão e Planejamento",
+      "sigla": "GGGP",
+      "pai": "62065"
+    },
+    {
+      "codigo": "291818",
+      "nome": "Divisão de Reuniões de Diretoria e Publicações",
+      "sigla": "DRCP",
+      "pai": "62065"
+    },
+    {
+      "codigo": "201083",
+      "nome": "Gerência de Estatística e Avaliação de Desempenho",
+      "sigla": "GEA",
+      "pai": "201082"
+    },
+    {
+      "codigo": "71401",
+      "nome": "Gerência de Meio Ambiente e Sustentabilidade",
+      "sigla": "GMS",
+      "pai": "201082"
+    },
+    {
+      "codigo": "427709",
+      "nome": "Coordenadoria de Inovação",
+      "sigla": "COIN",
+      "pai": "201082"
+    },
+    {
+      "codigo": "201081",
+      "nome": "Gerência de Afretamento da Navegação",
+      "sigla": "GAF",
+      "pai": "201077"
+    },
+    {
+      "codigo": "201078",
+      "nome": "Gerência de Portos Organizados",
+      "sigla": "GPO",
+      "pai": "201077"
+    },
+    {
+      "codigo": "291852",
+      "nome": "Gerência de Outorgas de Autorização",
+      "sigla": "GOA",
+      "pai": "201077"
+    },
+    {
+      "codigo": "286388",
+      "nome": "Seção de Transparência e Acesso à Informação",
+      "sigla": "STAI",
+      "pai": "54851"
+    },
+    {
+      "codigo": "300140",
+      "nome": "Seção de Apoio ao Cidadão",
+      "sigla": "SAC",
+      "pai": "54851"
+    },
+    {
+      "codigo": "71429",
+      "nome": "Gerência de Recursos Logísticos",
+      "sigla": "GRL",
+      "pai": "68622"
+    },
+    {
+      "codigo": "68636",
+      "nome": "Gerência de Gestão de Pessoas",
+      "sigla": "GGP",
+      "pai": "68622"
+    },
+    {
+      "codigo": "90703",
+      "nome": "Gerência de Licitações e Contratos",
+      "sigla": "GLC",
+      "pai": "68622"
+    },
+    {
+      "codigo": "68669",
+      "nome": "Gerência de Orçamento e Finanças",
+      "sigla": "GOF",
+      "pai": "68622"
+    },
+    {
+      "codigo": "427849",
+      "nome": "Núcleo de Contratos Regionais",
+      "sigla": "NCR",
+      "pai": "68622"
+    },
+    {
+      "codigo": "427350",
+      "nome": "Seção de Controle e Monitoramento",
+      "sigla": "SCM",
+      "pai": "62370"
+    },
+    {
+      "codigo": "427329",
+      "nome": "Seção de Avaliação e Consultoria",
+      "sigla": "SAVC",
+      "pai": "62370"
+    },
+    {
+      "codigo": "282185",
+      "nome": "Comissão de Ética da ANTAQ",
+      "sigla": "CEA",
+      "pai": "62064",
+      "colegiada": true
+    },
+    {
+      "codigo": "201086",
+      "nome": "Assessoria de Relações Internacionais",
+      "sigla": "ARINT",
+      "pai": "62064"
+    },
+    {
+      "codigo": "282182",
+      "nome": "Assessoria de Relações Parlamentares e Institucionais",
+      "sigla": "ASPAR",
+      "pai": "62064"
+    },
+    {
+      "codigo": "68644",
+      "nome": "Assessoria de Comunicação e Cerimonial",
+      "sigla": "ASCOM",
+      "pai": "62064"
+    },
+    {
+      "codigo": "389409",
+      "nome": "Secretaria Especial de Licitação de Concessões",
+      "sigla": "SELC",
+      "pai": "62064"
+    },
+    {
+      "codigo": "320040",
+      "nome": "Gerência Especial de Estudos",
+      "sigla": "GEE",
+      "pai": "320037"
+    },
+    {
+      "codigo": "320042",
+      "nome": "Gerência de Estudos Hidroviários",
+      "sigla": "GEH",
+      "pai": "320037"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 54843 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

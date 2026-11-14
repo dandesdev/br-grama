@@ -159,6 +159,35 @@ export class Painel {
     </dl>`;
   }
 
+  /** Unidades internas do órgão no SIORG, em árvore recolhível (D62). */
+  private estruturaSiorg(id: string): string {
+    const est = this.dados.estruturaDe(id);
+    if (!est) return "";
+    type U = { codigo: string; nome: string; sigla?: string; pai: string; colegiada?: boolean; mapa?: string };
+    const unidades = est.unidades as U[];
+    const filhos = new Map<string, U[]>();
+    for (const u of unidades) filhos.set(u.pai, [...(filhos.get(u.pai) ?? []), u]);
+    const item = (u: U): string => {
+      const sub = filhos.get(u.codigo) ?? [];
+      const rotulo = `${u.mapa ? this.link(u.mapa) : esc(u.nome)}${u.sigla ? ` <span class="sub">${esc(u.sigla)}</span>` : ""}${u.colegiada ? ` <span class="etiqueta">colegiado</span>` : ""}`;
+      return sub.length ? `<li><details><summary>${rotulo} <span class="sub">(${sub.length})</span></summary><ul>${sub.map(item).join("")}</ul></details></li>` : `<li>${rotulo}</li>`;
+    };
+    const raiz = filhos.get(est.siorg as string) ?? [];
+    const vinc = (est.vinculadas as { nome: string; sigla?: string; mapa?: string }[] | undefined) ?? [];
+    const consulta = formatarData(est.consulta as string);
+    const resto = (est.ato_interno as number) > 0 ? ` Abaixo delas, o SIORG registra mais ${est.ato_interno} unidades criadas por ato interno.` : "";
+    const aberto = this.aberto.has(est.id);
+    return `<h3>Estrutura interna</h3>
+      <p class="dispositivo">${est.so_ato_interno ? `Dois primeiros níveis, criados por ato interno (o órgão não tem unidade criada por lei ou decreto no SIORG).` : `${unidades.length} unidades criadas por lei ou decreto.`}${resto} Fonte: SIORG, consulta em ${consulta}.</p>
+      <button class="mais" data-mais="${esc(est.id)}" aria-expanded="${aberto}"><span class="i">i</span> Ver a árvore</button>
+      <div class="detalhes arvore" ${aberto ? "" : "hidden"}>
+        <ul>${raiz.map(item).join("")}</ul>
+        ${vinc.length ? `<h3>Entidades vinculadas no SIORG</h3><ul>${vinc.map((v) => `<li>${v.mapa ? this.link(v.mapa) : esc(v.nome)}${v.sigla ? ` <span class="sub">${esc(v.sigla)}</span>` : ""}</li>`).join("")}</ul>` : ""}
+        <p class="dispositivo">${esc(est.notas as string)}</p>
+        <h3>Fonte</h3>${this.fontes(est.fontes as FonteRef[])}
+      </div>`;
+  }
+
   /** Pagamentos de cada exercício da série, em barras (D57). */
   private serie(itens: Entidade[]): string {
     if (itens.length < 2) return "";
@@ -297,6 +326,7 @@ export class Painel {
     }
     if (cargos.length) partes.push(`<h3>Cargos</h3><ul>${cargos.map((c) => `<li>${this.link(c.id)}</li>`).join("")}</ul>`);
     if (e.estrutura_continua) partes.push(`<h3>A estrutura continua</h3>${this.fontes(e.estrutura_continua as FonteRef[])}`);
+    partes.push(this.estruturaSiorg(e.id));
     return partes.join("");
   }
 

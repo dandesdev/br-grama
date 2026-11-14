@@ -1,0 +1,196 @@
+{
+  "id": "est:ministerio-das-comunicacoes",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério das Comunicações no SIORG",
+  "resumo": "24 unidades criadas por lei ou decreto e 3 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-das-comunicacoes",
+  "siorg": "264359",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "73537",
+      "nome": "Secretaria de Telecomunicações",
+      "sigla": "SETEL",
+      "pai": "264359"
+    },
+    {
+      "codigo": "308658",
+      "nome": "Secretaria de Radiodifusão",
+      "sigla": "SERAD",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266827",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "264359"
+    },
+    {
+      "codigo": "284985",
+      "nome": "Comitê Gestor do Programa Amazônia Integrada Sustentável",
+      "sigla": "CGPAIS",
+      "pai": "264359",
+      "colegiada": true
+    },
+    {
+      "codigo": "266826",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266824",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266823",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "264359"
+    },
+    {
+      "codigo": "315393",
+      "nome": "Conselho Gestor do Fundo de Universalização dos Serviços de Telecomunicações",
+      "sigla": "CGFust",
+      "pai": "264359",
+      "colegiada": true
+    },
+    {
+      "codigo": "315389",
+      "nome": "Conselho Gestor do Fundo para o Desenvolvimento Tecnológico das Telecomunicações - Funttel",
+      "sigla": "CGFUNTTEL",
+      "pai": "264359",
+      "colegiada": true
+    },
+    {
+      "codigo": "308617",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266828",
+      "nome": "Assessoria Especial de Assuntos Internacionais",
+      "sigla": "ASINT",
+      "pai": "264359"
+    },
+    {
+      "codigo": "265884",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SEXEC",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266820",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266834",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "264359"
+    },
+    {
+      "codigo": "266825",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "264359"
+    },
+    {
+      "codigo": "73538",
+      "nome": "Departamento de Política Setorial",
+      "sigla": "DESET",
+      "pai": "73537"
+    },
+    {
+      "codigo": "115433",
+      "nome": "Departamento de Investimento e Inovação",
+      "sigla": "DEINV",
+      "pai": "73537"
+    },
+    {
+      "codigo": "308688",
+      "nome": "Departamento de Projetos de Infraestrutura e de Inclusão Digital",
+      "sigla": "DEPIN",
+      "pai": "73537"
+    },
+    {
+      "codigo": "26870",
+      "nome": "Departamento de Inovação, Regulamentação e Fiscalização",
+      "sigla": "DEIRF",
+      "pai": "308658"
+    },
+    {
+      "codigo": "308684",
+      "nome": "Departamento de Radiodifusão Pública, Comunitária e Estatal",
+      "sigla": "DEPUB",
+      "pai": "308658"
+    },
+    {
+      "codigo": "308683",
+      "nome": "Departamento de Radiodifusão Privada",
+      "sigla": "DERAP",
+      "pai": "308658"
+    },
+    {
+      "codigo": "484749",
+      "nome": "Subsecretaria de Governança das Entidades Vinculadas",
+      "sigla": "SEVI",
+      "pai": "265884"
+    },
+    {
+      "codigo": "266830",
+      "nome": "Subsecretaria de Planejamento, Orçamento e Administração",
+      "sigla": "SPOA",
+      "pai": "265884"
+    },
+    {
+      "codigo": "266839",
+      "nome": "Subsecretaria de Tecnologia da Informação",
+      "sigla": "STI",
+      "pai": "265884"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "74",
+      "nome": "Empresa Brasileira de Correios e Telégrafos",
+      "sigla": "ECT",
+      "mapa": "org:correios"
+    },
+    {
+      "codigo": "75",
+      "nome": "Telecomunicações Brasileiras S.A.",
+      "sigla": "TELEBRÁS"
+    },
+    {
+      "codigo": "25064",
+      "nome": "Agência Nacional de Telecomunicações",
+      "sigla": "ANATEL",
+      "mapa": "org:anatel"
+    }
+  ],
+  "ato_interno": 35,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 264359 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

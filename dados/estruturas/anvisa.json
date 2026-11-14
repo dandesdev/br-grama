@@ -1,0 +1,422 @@
+{
+  "id": "est:anvisa",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Vigilância Sanitária no SIORG",
+  "resumo": "65 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:anvisa",
+  "siorg": "36687",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "200477",
+      "nome": "Gerência-Geral de Conhecimento, Inovação e Pesquisa",
+      "sigla": "GGCIP",
+      "pai": "36687"
+    },
+    {
+      "codigo": "118466",
+      "nome": "Quarta Diretoria",
+      "sigla": "DIRE4",
+      "pai": "36687"
+    },
+    {
+      "codigo": "118468",
+      "nome": "Quinta Diretoria",
+      "sigla": "DIRE5",
+      "pai": "36687"
+    },
+    {
+      "codigo": "38161",
+      "nome": "Corregedoria",
+      "sigla": "COGER",
+      "pai": "36687"
+    },
+    {
+      "codigo": "38162",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "36687"
+    },
+    {
+      "codigo": "38160",
+      "nome": "Procuradoria Federal junto à Anvisa",
+      "sigla": "PROCR",
+      "pai": "36687"
+    },
+    {
+      "codigo": "38164",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIT",
+      "pai": "36687"
+    },
+    {
+      "codigo": "36689",
+      "nome": "Gabinete do Diretor-Presidente",
+      "sigla": "GADIP",
+      "pai": "36687"
+    },
+    {
+      "codigo": "116118",
+      "nome": "Secretaria-Geral da Diretoria Colegiada",
+      "sigla": "SGCOL",
+      "pai": "36687"
+    },
+    {
+      "codigo": "118465",
+      "nome": "Terceira Diretoria",
+      "sigla": "DIRE3",
+      "pai": "36687"
+    },
+    {
+      "codigo": "118467",
+      "nome": "Segunda Diretoria",
+      "sigla": "Dire2",
+      "pai": "36687"
+    },
+    {
+      "codigo": "90007",
+      "nome": "Gerência-Geral de Tecnologia da Informação",
+      "sigla": "GGTIN",
+      "pai": "36687"
+    },
+    {
+      "codigo": "36688",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DICOL",
+      "pai": "36687",
+      "colegiada": true
+    },
+    {
+      "codigo": "39392",
+      "nome": "Gerência-Geral de Gestão de Pessoas",
+      "sigla": "GGPES",
+      "pai": "36687"
+    },
+    {
+      "codigo": "38180",
+      "nome": "Gerência-Geral de Gestão Administrativa e Financeira",
+      "sigla": "GGGAF",
+      "pai": "36687"
+    },
+    {
+      "codigo": "200479",
+      "nome": "Gerência de Gestão Documental e Memória Corporativa",
+      "sigla": "GEDOC",
+      "pai": "200477"
+    },
+    {
+      "codigo": "200478",
+      "nome": "Coordenação de Gestão de Transparência e Acesso à Informação",
+      "sigla": "CGTAI",
+      "pai": "200477"
+    },
+    {
+      "codigo": "297259",
+      "nome": "Coordenação de Governança, Ciência e Inteligência de Dados",
+      "sigla": "CGINT",
+      "pai": "200477"
+    },
+    {
+      "codigo": "210845",
+      "nome": "Coordenação de Atuação Administrativa e Julgamento das Infrações Sanitárias",
+      "sigla": "CAJIS",
+      "pai": "118466"
+    },
+    {
+      "codigo": "210849",
+      "nome": "Gerência de Laboratórios de Saúde Pública",
+      "sigla": "GELAS",
+      "pai": "118466"
+    },
+    {
+      "codigo": "200495",
+      "nome": "Gerência-Geral de Inspeção e Fiscalização Sanitária",
+      "sigla": "GGFIS",
+      "pai": "118466"
+    },
+    {
+      "codigo": "200501",
+      "nome": "Gerência-Geral de Monitoramento de Produtos Sujeitos à Vigilância Sanitária",
+      "sigla": "GGMON",
+      "pai": "118468"
+    },
+    {
+      "codigo": "38168",
+      "nome": "Gerência-Geral de Portos, Aeroportos, Fronteiras e Recintos Alfandegados",
+      "sigla": "GGPAF",
+      "pai": "118468"
+    },
+    {
+      "codigo": "320546",
+      "nome": "Gerência de Produtos Controlados",
+      "sigla": "GPCON",
+      "pai": "118468"
+    },
+    {
+      "codigo": "47520",
+      "nome": "Gerência-Geral de Tecnologia em Serviços de Saúde",
+      "sigla": "GGTES",
+      "pai": "118468"
+    },
+    {
+      "codigo": "84290",
+      "nome": "Coordenação de Dívida Ativa",
+      "sigla": "CODVA",
+      "pai": "38160"
+    },
+    {
+      "codigo": "200461",
+      "nome": "Coordenação de Licitações, Contratos e Convênios",
+      "sigla": "COLIC",
+      "pai": "38160"
+    },
+    {
+      "codigo": "200462",
+      "nome": "Coordenação de Assuntos Judiciais",
+      "sigla": "CAJUD",
+      "pai": "38160"
+    },
+    {
+      "codigo": "84288",
+      "nome": "Coordenação de Consultivo",
+      "sigla": "CCONS",
+      "pai": "38160"
+    },
+    {
+      "codigo": "47521",
+      "nome": "Coordenação de Segurança Institucional",
+      "sigla": "CSEGI",
+      "pai": "36689"
+    },
+    {
+      "codigo": "90000",
+      "nome": "Assessoria de Planejamento",
+      "sigla": "APLAN",
+      "pai": "36689"
+    },
+    {
+      "codigo": "200460",
+      "nome": "Coordenação Administrativa da Comissão de Ética da ANVISA",
+      "sigla": "CORET",
+      "pai": "36689"
+    },
+    {
+      "codigo": "38169",
+      "nome": "Assessoria de Assuntos Internacionais",
+      "sigla": "AINTE",
+      "pai": "36689"
+    },
+    {
+      "codigo": "200456",
+      "nome": "Assessoria Parlamentar",
+      "sigla": "ASPAR",
+      "pai": "36689"
+    },
+    {
+      "codigo": "201370",
+      "nome": "Secretaria Executiva da Câmara de Regulação do Mercado de Medicamentos",
+      "sigla": "SCMED",
+      "pai": "36689"
+    },
+    {
+      "codigo": "47536",
+      "nome": "Assessoria de Comunicação",
+      "sigla": "ASCOM",
+      "pai": "36689"
+    },
+    {
+      "codigo": "297258",
+      "nome": "Coordenação do Sistema de Gestão da Qualidade da Agência Nacional de Vigilância Sanitária",
+      "sigla": "CSGQA",
+      "pai": "36689"
+    },
+    {
+      "codigo": "235846",
+      "nome": "Gerência-Geral de Recursos",
+      "sigla": "GGREC",
+      "pai": "36689"
+    },
+    {
+      "codigo": "200458",
+      "nome": "Coordenação de Apoio Administrativo",
+      "sigla": "COADI",
+      "pai": "36689"
+    },
+    {
+      "codigo": "116840",
+      "nome": "Assessoria de Melhoria da Qualidade Regulatória",
+      "sigla": "ASREG",
+      "pai": "36689"
+    },
+    {
+      "codigo": "200512",
+      "nome": "Assessoria do Sistema Nacional de Vigilância Sanitária",
+      "sigla": "ASNVS",
+      "pai": "36689"
+    },
+    {
+      "codigo": "38166",
+      "nome": "Gerência-Geral de Tecnologia de Produtos para Saúde",
+      "sigla": "GGTPS",
+      "pai": "118465"
+    },
+    {
+      "codigo": "223200",
+      "nome": "Gerência-Geral de Cosméticos e Saneantes",
+      "sigla": "GGCOS",
+      "pai": "118465"
+    },
+    {
+      "codigo": "210837",
+      "nome": "Gerência-Geral de Registro e Fiscalização de Produtos Fumígenos Derivados ou Não do Tabaco",
+      "sigla": "GGTAB",
+      "pai": "118465"
+    },
+    {
+      "codigo": "38173",
+      "nome": "Gerência-Geral de Toxicologia",
+      "sigla": "GGTOX",
+      "pai": "118465"
+    },
+    {
+      "codigo": "297260",
+      "nome": "Gerência-Geral de Produtos Biológicos, Radiofármacos, Sangue, Tecidos, Células, Órgãos e Prod de Terapias Avan",
+      "sigla": "GGBIO",
+      "pai": "118467"
+    },
+    {
+      "codigo": "200527",
+      "nome": "Coordenação de Pesquisa Clínica em Medicamentos e Produtos Biológicos",
+      "sigla": "COPEC",
+      "pai": "118467"
+    },
+    {
+      "codigo": "200517",
+      "nome": "Gerência-Geral de Medicamentos",
+      "sigla": "GGMED",
+      "pai": "118467"
+    },
+    {
+      "codigo": "38174",
+      "nome": "Gerência-Geral de Alimentos",
+      "sigla": "GGALI",
+      "pai": "118467"
+    },
+    {
+      "codigo": "210834",
+      "nome": "Coordenação de Conformidade e Contratos de Tecnologia de Informação e Comunicação",
+      "sigla": "CCOTI",
+      "pai": "90007"
+    },
+    {
+      "codigo": "200483",
+      "nome": "Coordenação de Projetos e Governança de Tecnologia da Informação",
+      "sigla": "CGOTI",
+      "pai": "90007"
+    },
+    {
+      "codigo": "91754",
+      "nome": "Gerência de Soluções em Tecnologia da Informação",
+      "sigla": "GESOL",
+      "pai": "90007"
+    },
+    {
+      "codigo": "91755",
+      "nome": "Gerência de Operações de Tecnologia da Informação",
+      "sigla": "GEOTI",
+      "pai": "90007"
+    },
+    {
+      "codigo": "228356",
+      "nome": "Coordenação de Legislação e Concessões",
+      "sigla": "COLEC",
+      "pai": "39392"
+    },
+    {
+      "codigo": "269635",
+      "nome": "Coordenação de Gestão da Qualidade em Cadastro e Pagamento",
+      "sigla": "CQCAP",
+      "pai": "39392"
+    },
+    {
+      "codigo": "91759",
+      "nome": "Gerência de Desenvolvimento de Pessoas",
+      "sigla": "GEDEP",
+      "pai": "39392"
+    },
+    {
+      "codigo": "228355",
+      "nome": "Coordenação de Gestão das Informações Funcionais",
+      "sigla": "Cogif",
+      "pai": "39392"
+    },
+    {
+      "codigo": "200480",
+      "nome": "Coordenação de Saúde e Qualidade de Vida no Trabalho",
+      "sigla": "CSQVT",
+      "pai": "39392"
+    },
+    {
+      "codigo": "84173",
+      "nome": "Coordenação de Contabilidade e Custos",
+      "sigla": "CCONT",
+      "pai": "38180"
+    },
+    {
+      "codigo": "39390",
+      "nome": "Gerência de Logística",
+      "sigla": "GELOG",
+      "pai": "38180"
+    },
+    {
+      "codigo": "200476",
+      "nome": "Gerência de Contratos e Parcerias",
+      "sigla": "GECOP",
+      "pai": "38180"
+    },
+    {
+      "codigo": "200475",
+      "nome": "Coordenação de Licitações Públicas",
+      "sigla": "COLIP",
+      "pai": "38180"
+    },
+    {
+      "codigo": "47525",
+      "nome": "Gerência de Gestão da Arrecadação",
+      "sigla": "GEGAR",
+      "pai": "38180"
+    },
+    {
+      "codigo": "47526",
+      "nome": "Gerência de Orçamento e Finanças",
+      "sigla": "GEFIC",
+      "pai": "38180"
+    },
+    {
+      "codigo": "245935",
+      "nome": "Coordenação de Diárias e Passagens",
+      "sigla": "CSCDP",
+      "pai": "38180"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 36687 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

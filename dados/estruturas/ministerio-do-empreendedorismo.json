@@ -1,0 +1,158 @@
+{
+  "id": "est:ministerio-do-empreendedorismo",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte no SIORG",
+  "resumo": "21 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-do-empreendedorismo",
+  "siorg": "330683",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "340663",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "330683"
+    },
+    {
+      "codigo": "340683",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "330683"
+    },
+    {
+      "codigo": "400572",
+      "nome": "Comitê de Empreendedorismo Feminino",
+      "sigla": "CEFEM",
+      "pai": "330683",
+      "colegiada": true
+    },
+    {
+      "codigo": "340704",
+      "nome": "Ouvidoria",
+      "sigla": "OUVIR",
+      "pai": "330683"
+    },
+    {
+      "codigo": "633192",
+      "nome": "Fórum Permanente das Microempresas e Empresas de Pequeno Porte",
+      "sigla": "FPMPEs",
+      "pai": "330683",
+      "colegiada": true
+    },
+    {
+      "codigo": "340625",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "330683"
+    },
+    {
+      "codigo": "340703",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "330683"
+    },
+    {
+      "codigo": "342164",
+      "nome": "Secretaria Nacional de Ambiente de Negócios",
+      "sigla": "SANE",
+      "pai": "330683"
+    },
+    {
+      "codigo": "340723",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "330683"
+    },
+    {
+      "codigo": "340664",
+      "nome": "Assessoria Especial de Assuntos Internacionais",
+      "sigla": "ASSINT",
+      "pai": "330683"
+    },
+    {
+      "codigo": "340643",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "330683"
+    },
+    {
+      "codigo": "340624",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "330683"
+    },
+    {
+      "codigo": "341364",
+      "nome": "Secretaria Nacional de Inclusão Socioprodutiva, Artesanato e Microempreendedor Individual",
+      "sigla": "SISAM",
+      "pai": "330683"
+    },
+    {
+      "codigo": "330684",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "330683"
+    },
+    {
+      "codigo": "236471",
+      "nome": "Diretoria de Microempresa, Empresa de Pequeno Porte e Empreendedorismo",
+      "sigla": "DMEPPE",
+      "pai": "342164"
+    },
+    {
+      "codigo": "122241",
+      "nome": "Departamento Nacional de Registro Empresarial e Integração",
+      "sigla": "DREI",
+      "pai": "342164"
+    },
+    {
+      "codigo": "342144",
+      "nome": "Diretoria de Educação Empreendedora",
+      "sigla": "DEEMP",
+      "pai": "341364"
+    },
+    {
+      "codigo": "311614",
+      "nome": "Diretoria de Artesanato e Economia Criativa",
+      "sigla": "DAREC",
+      "pai": "341364"
+    },
+    {
+      "codigo": "342163",
+      "nome": "Diretoria do Microempreendedor Individual, Autônomos e Cooperativismo",
+      "sigla": "DMAC",
+      "pai": "341364"
+    },
+    {
+      "codigo": "557390",
+      "nome": "Assessoria Especial de Gestão Estratégica",
+      "sigla": "AEGE",
+      "pai": "330684"
+    },
+    {
+      "codigo": "340724",
+      "nome": "Subsecretaria de Assuntos Administrativos",
+      "sigla": "SAA",
+      "pai": "330684"
+    }
+  ],
+  "ato_interno": 28,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 330683 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

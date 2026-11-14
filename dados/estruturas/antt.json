@@ -1,0 +1,584 @@
+{
+  "id": "est:antt",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Transportes Terrestres no SIORG",
+  "resumo": "92 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:antt",
+  "siorg": "54793",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "292709",
+      "nome": "Superintendência de Governança Estratégica e Regulatória",
+      "sigla": "SUREG",
+      "pai": "54793"
+    },
+    {
+      "codigo": "292869",
+      "nome": "Superintendência de Infraestrutura Rodoviária",
+      "sigla": "SUROD",
+      "pai": "54793"
+    },
+    {
+      "codigo": "292837",
+      "nome": "Superintendência de Fiscalização de Serviços de Transporte Rodoviário de Cargas e Passageiros",
+      "sigla": "SUFIS",
+      "pai": "54793"
+    },
+    {
+      "codigo": "292885",
+      "nome": "Superintendência de Gestão Administrativa",
+      "sigla": "SUDEG",
+      "pai": "54793"
+    },
+    {
+      "codigo": "292853",
+      "nome": "Superintendência de Serviços de Transporte Rodoviário e Multimodal de Cargas",
+      "sigla": "SUROC",
+      "pai": "54793"
+    },
+    {
+      "codigo": "457269",
+      "nome": "Superintendência de Sustentabilidade, Pessoas e Inovação.",
+      "sigla": "SUSPI",
+      "pai": "54793"
+    },
+    {
+      "codigo": "292681",
+      "nome": "Superintendência de Serviços de Transporte Rodoviário de Passageiros",
+      "sigla": "SUPAS",
+      "pai": "54793"
+    },
+    {
+      "codigo": "231087",
+      "nome": "Superintendência de Tecnologia da Informação",
+      "sigla": "SUTEC",
+      "pai": "54793"
+    },
+    {
+      "codigo": "231086",
+      "nome": "Secretaria Executiva da Comissão de Ética da ANTT",
+      "sigla": "SECET",
+      "pai": "54793"
+    },
+    {
+      "codigo": "261768",
+      "nome": "Diretoria 02",
+      "sigla": "DLA-02",
+      "pai": "54793"
+    },
+    {
+      "codigo": "263507",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DIR-ANTT",
+      "pai": "54793",
+      "colegiada": true
+    },
+    {
+      "codigo": "292695",
+      "nome": "Superintendência de Concessão da Infraestrutura",
+      "sigla": "SUCON",
+      "pai": "54793"
+    },
+    {
+      "codigo": "276314",
+      "nome": "Diretoria 05",
+      "sigla": "DFQ-05",
+      "pai": "54793"
+    },
+    {
+      "codigo": "54848",
+      "nome": "Corregedoria",
+      "sigla": "COREG",
+      "pai": "54793"
+    },
+    {
+      "codigo": "261763",
+      "nome": "Diretoria 04",
+      "sigla": "DIR-04",
+      "pai": "54793"
+    },
+    {
+      "codigo": "266817",
+      "nome": "Diretoria 03",
+      "sigla": "DAA-03",
+      "pai": "54793"
+    },
+    {
+      "codigo": "62926",
+      "nome": "Superintendência Executiva de Articulação, Relações Institucionais e Comunicação",
+      "sigla": "SUARC",
+      "pai": "54793"
+    },
+    {
+      "codigo": "62373",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIT",
+      "pai": "54793"
+    },
+    {
+      "codigo": "261775",
+      "nome": "Assessoria Especial de Inteligência",
+      "sigla": "AESIN",
+      "pai": "54793"
+    },
+    {
+      "codigo": "121692",
+      "nome": "Superintendência de Transporte Ferroviário",
+      "sigla": "SUFER",
+      "pai": "54793"
+    },
+    {
+      "codigo": "54847",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "54793"
+    },
+    {
+      "codigo": "54846",
+      "nome": "Procuradoria Federal Especializada junto à ANTT",
+      "sigla": "PFE-ANTT",
+      "pai": "54793"
+    },
+    {
+      "codigo": "62117",
+      "nome": "Gabinete do Diretor-Geral",
+      "sigla": "GAB-DG",
+      "pai": "54793"
+    },
+    {
+      "codigo": "292710",
+      "nome": "Gerência de Governança, Gestão e Planejamento",
+      "sigla": "GEGOP",
+      "pai": "292709"
+    },
+    {
+      "codigo": "292776",
+      "nome": "Gabinete da Superintendência de Governança Estratégica e Regulatória",
+      "sigla": "GAB-SUREG",
+      "pai": "292709"
+    },
+    {
+      "codigo": "660553",
+      "nome": "Gerência de Governança e Qualidade Regulatória",
+      "sigla": "GEGOR",
+      "pai": "292709"
+    },
+    {
+      "codigo": "292871",
+      "nome": "Gerência de Gestão de Investimentos Rodoviários",
+      "sigla": "GEGIR",
+      "pai": "292869"
+    },
+    {
+      "codigo": "292943",
+      "nome": "Gerência de Gestão e Fiscalização Econômico-Financeira Rodoviária",
+      "sigla": "GEGEF",
+      "pai": "292869"
+    },
+    {
+      "codigo": "292936",
+      "nome": "Gerência de Regulação Rodoviária",
+      "sigla": "GERER",
+      "pai": "292869"
+    },
+    {
+      "codigo": "292929",
+      "nome": "Gerência de Engenharia Rodoviária",
+      "sigla": "GEENG",
+      "pai": "292869"
+    },
+    {
+      "codigo": "292878",
+      "nome": "Gerência de Fiscalização de Infraestrutura e Serviços Operacionais de Rodovias",
+      "sigla": "GEFOP",
+      "pai": "292869"
+    },
+    {
+      "codigo": "292870",
+      "nome": "Gabinete da Superintendência de Infraestrutura Rodoviária",
+      "sigla": "GAB-SUROD",
+      "pai": "292869"
+    },
+    {
+      "codigo": "660433",
+      "nome": "Gerência de Fiscalização Eletrônica",
+      "sigla": "GFIEL",
+      "pai": "292837"
+    },
+    {
+      "codigo": "292838",
+      "nome": "Gabinete da Superintendência de Fiscalização",
+      "sigla": "GAB-SUFIS",
+      "pai": "292837"
+    },
+    {
+      "codigo": "292846",
+      "nome": "Gerência de Fiscalização",
+      "sigla": "GEFIS",
+      "pai": "292837"
+    },
+    {
+      "codigo": "292839",
+      "nome": "Gerência de Planejamento da Fiscalização",
+      "sigla": "GPLAN",
+      "pai": "292837"
+    },
+    {
+      "codigo": "292887",
+      "nome": "Gerência de Recursos Logísticos",
+      "sigla": "GELOG",
+      "pai": "292885"
+    },
+    {
+      "codigo": "292886",
+      "nome": "Gabinete da Superintendência de Gestão Administrativa",
+      "sigla": "GAB-SUDEG",
+      "pai": "292885"
+    },
+    {
+      "codigo": "292909",
+      "nome": "Gerência de Licitações e Contratos",
+      "sigla": "GELIC",
+      "pai": "292885"
+    },
+    {
+      "codigo": "292915",
+      "nome": "Gerência de Processamento e Cobrança de Auto de Infração",
+      "sigla": "GEAUT",
+      "pai": "292885"
+    },
+    {
+      "codigo": "292894",
+      "nome": "Gerência de Planejamento, Orçamento, Finanças e Contabilidade",
+      "sigla": "GEORF",
+      "pai": "292885"
+    },
+    {
+      "codigo": "292855",
+      "nome": "Gerência de Regulação e Governança do Transporte Rodoviário e Multimodal de Cargas",
+      "sigla": "GRTMC",
+      "pai": "292853"
+    },
+    {
+      "codigo": "292854",
+      "nome": "Gabinete da Superintendência de Serviços de Transporte Rodoviário e Multimodal de Cargas",
+      "sigla": "GAB-SUROC",
+      "pai": "292853"
+    },
+    {
+      "codigo": "292862",
+      "nome": "Gerência de Inteligência de Mercado e Tecnologia do Transporte Rodoviário e Multimodal de Cargas",
+      "sigla": "GEINT",
+      "pai": "292853"
+    },
+    {
+      "codigo": "457512",
+      "nome": "Gerência de Sustentabilidade e Inovação",
+      "sigla": "GSUST",
+      "pai": "457269"
+    },
+    {
+      "codigo": "457511",
+      "nome": "Gabinete da Superintendência de Sustentabilidade, Pessoas e Inovação",
+      "sigla": "GAB-SUSPI",
+      "pai": "457269"
+    },
+    {
+      "codigo": "292715",
+      "nome": "Gerência de Gestão Estratégica de Pessoas",
+      "sigla": "GESPE",
+      "pai": "457269"
+    },
+    {
+      "codigo": "292685",
+      "nome": "Gerência de Monitoramento de Serviços e Projetos Especiais do Transporte de Passageiros",
+      "sigla": "GEMON",
+      "pai": "292681"
+    },
+    {
+      "codigo": "292691",
+      "nome": "Gabinete da Superintendência de Serviços de Transporte Rodoviário de Passageiros",
+      "sigla": "GAB-SUPAS",
+      "pai": "292681"
+    },
+    {
+      "codigo": "292688",
+      "nome": "Gerência Operacional de Transporte de Passageiros",
+      "sigla": "GEOPE",
+      "pai": "292681"
+    },
+    {
+      "codigo": "292682",
+      "nome": "Gerência de Estudos e Regulação do Transporte de Passageiros",
+      "sigla": "GEEST",
+      "pai": "292681"
+    },
+    {
+      "codigo": "231089",
+      "nome": "Gerência de Tecnologia e Soluções Digitais",
+      "sigla": "GEDIG",
+      "pai": "231087"
+    },
+    {
+      "codigo": "269331",
+      "nome": "Gabinete da Superintendência de Tecnologia da Informação",
+      "sigla": "GAB-SUTEC",
+      "pai": "231087"
+    },
+    {
+      "codigo": "231088",
+      "nome": "Gerência de Infraestrutura, Cibersegurança e Operações",
+      "sigla": "GETIC",
+      "pai": "231087"
+    },
+    {
+      "codigo": "292669",
+      "nome": "Gerência do Centro Nacional de Supervisão Operacional",
+      "sigla": "GCNSO",
+      "pai": "231087"
+    },
+    {
+      "codigo": "292708",
+      "nome": "Gabinete da Superintendência de Concessão da Infraestrutura",
+      "sigla": "GAB-SUCON",
+      "pai": "292695"
+    },
+    {
+      "codigo": "292696",
+      "nome": "Gerência de Estruturação Regulatória de Rodovias",
+      "sigla": "GEREG",
+      "pai": "292695"
+    },
+    {
+      "codigo": "660576",
+      "nome": "Gerência de Estruturação Regulatória de Ferrovias",
+      "sigla": "GEERF",
+      "pai": "292695"
+    },
+    {
+      "codigo": "292700",
+      "nome": "Gerência de Estudos e Projetos de Rodovias",
+      "sigla": "GEROD",
+      "pai": "292695"
+    },
+    {
+      "codigo": "457609",
+      "nome": "Gerência de Estudos e Projetos de Ferrovias",
+      "sigla": "GEFER",
+      "pai": "292695"
+    },
+    {
+      "codigo": "263476",
+      "nome": "Coordenação de Procedimentos Disciplinares e Responsabilização de Pessoas Jurídicas",
+      "sigla": "CPROD",
+      "pai": "54848"
+    },
+    {
+      "codigo": "263475",
+      "nome": "Coordenação de Prevenção, Investigação e Sindicâncias",
+      "sigla": "COPIS",
+      "pai": "54848"
+    },
+    {
+      "codigo": "263474",
+      "nome": "Coordenação de Gestão e Aperfeiçoamento Correcional",
+      "sigla": "CGESC",
+      "pai": "54848"
+    },
+    {
+      "codigo": "292993",
+      "nome": "Gerência de Assuntos Legislativos e Governamentais",
+      "sigla": "GEALE",
+      "pai": "62926"
+    },
+    {
+      "codigo": "292668",
+      "nome": "Gerência de Comunicação Social, Imprensa e Eventos",
+      "sigla": "GECOM",
+      "pai": "62926"
+    },
+    {
+      "codigo": "660513",
+      "nome": "Gabinete da Superintendência Executiva de Articulação, Relações Institucionais e Comunicação",
+      "sigla": "GAB-SUARC",
+      "pai": "62926"
+    },
+    {
+      "codigo": "292990",
+      "nome": "Gerência de Relacionamento Institucional e Internacional",
+      "sigla": "GERIN",
+      "pai": "62926"
+    },
+    {
+      "codigo": "263480",
+      "nome": "Coordenação de Gestão, Métodos e Qualidade",
+      "sigla": "CQUAL",
+      "pai": "62373"
+    },
+    {
+      "codigo": "263479",
+      "nome": "Coordenação de Monitoramento das Informações dos Órgãos de Controle",
+      "sigla": "COORG",
+      "pai": "62373"
+    },
+    {
+      "codigo": "263478",
+      "nome": "Coordenação de Gestão das Atividades de Auditoria Interna",
+      "sigla": "COAUD",
+      "pai": "62373"
+    },
+    {
+      "codigo": "660574",
+      "nome": "Coordenação-Geral de Inteligência",
+      "sigla": "CGINT",
+      "pai": "261775"
+    },
+    {
+      "codigo": "660575",
+      "nome": "Coordenação-Geral de Contrainteligência",
+      "sigla": "CGCON",
+      "pai": "261775"
+    },
+    {
+      "codigo": "71701",
+      "nome": "Gerência de Regulação Ferroviária",
+      "sigla": "GEREF",
+      "pai": "121692"
+    },
+    {
+      "codigo": "264900",
+      "nome": "Gabinete da Superintendência de Transporte Ferroviário",
+      "sigla": "GAB-SUFER",
+      "pai": "121692"
+    },
+    {
+      "codigo": "660414",
+      "nome": "Gerência de Gestão de Investimentos e Contratos Ferroviários",
+      "sigla": "GIFER",
+      "pai": "121692"
+    },
+    {
+      "codigo": "71699",
+      "nome": "Gerência de Projetos Ferroviários",
+      "sigla": "GEPEF",
+      "pai": "121692"
+    },
+    {
+      "codigo": "121695",
+      "nome": "Gerência de Fiscalização e Equilíbrio Econômico-Financeira",
+      "sigla": "GEFEF",
+      "pai": "121692"
+    },
+    {
+      "codigo": "62892",
+      "nome": "Gerência de Fiscalização de Infraestrutura e Serviços",
+      "sigla": "GECOF",
+      "pai": "121692"
+    },
+    {
+      "codigo": "292667",
+      "nome": "Coordenação de Análise e Tratamento de Dados",
+      "sigla": "COATD",
+      "pai": "54847"
+    },
+    {
+      "codigo": "262446",
+      "nome": "Coordenação de Serviço de Informação ao Cidadão",
+      "sigla": "COSIC",
+      "pai": "54847"
+    },
+    {
+      "codigo": "263477",
+      "nome": "Coordenação de Relacionamento com Usuário",
+      "sigla": "COREU",
+      "pai": "54847"
+    },
+    {
+      "codigo": "265206",
+      "nome": "Coordenação de Gestão Institucional",
+      "sigla": "COGIN",
+      "pai": "54846"
+    },
+    {
+      "codigo": "661173",
+      "nome": "Gabinete da PFE-ANTT",
+      "sigla": "GAB-PFE",
+      "pai": "54846"
+    },
+    {
+      "codigo": "265213",
+      "nome": "Subprocuradoria de Matérias Regulatória e Administrativa",
+      "sigla": "SUREA",
+      "pai": "54846"
+    },
+    {
+      "codigo": "269484",
+      "nome": "Subprocuradoria de Matéria Extrajudicial",
+      "sigla": "SUEXT",
+      "pai": "54846"
+    },
+    {
+      "codigo": "269479",
+      "nome": "Subprocuradoria de Matéria Judicial",
+      "sigla": "SUJUD",
+      "pai": "54846"
+    },
+    {
+      "codigo": "269482",
+      "nome": "Subprocuradoria de Matéria de Cobrança e Recuperação de Créditos",
+      "sigla": "SUCOB",
+      "pai": "54846"
+    },
+    {
+      "codigo": "292996",
+      "nome": "Assessoria Administrativa e de Apoio",
+      "sigla": "ASSAD",
+      "pai": "62117"
+    },
+    {
+      "codigo": "292999",
+      "nome": "Assessoria de Agenda e Secretariado",
+      "sigla": "ASSAG",
+      "pai": "62117"
+    },
+    {
+      "codigo": "660473",
+      "nome": "Assessoria de Gestão da Integridade",
+      "sigla": "ASGIN",
+      "pai": "62117"
+    },
+    {
+      "codigo": "62118",
+      "nome": "Secretaria-Geral",
+      "sigla": "SEGER",
+      "pai": "62117"
+    },
+    {
+      "codigo": "660493",
+      "nome": "Assessoria Técnico Regulatória",
+      "sigla": "ASTER",
+      "pai": "62117"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 54793 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

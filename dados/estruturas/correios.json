@@ -1,0 +1,37 @@
+{
+  "id": "est:correios",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Empresa Brasileira de Correios e Telégrafos no SIORG",
+  "resumo": "1 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:correios",
+  "siorg": "74",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "245814",
+      "nome": "Comitê Interministerial",
+      "sigla": "CINT/ECT",
+      "pai": "74",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 20,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 74 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

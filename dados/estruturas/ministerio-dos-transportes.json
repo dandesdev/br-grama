@@ -1,0 +1,238 @@
+{
+  "id": "est:ministerio-dos-transportes",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério dos Transportes no SIORG",
+  "resumo": "31 unidades criadas por lei ou decreto e 3 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-dos-transportes",
+  "siorg": "308818",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "311109",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308818"
+    },
+    {
+      "codigo": "311097",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "AESPARF",
+      "pai": "308818"
+    },
+    {
+      "codigo": "308882",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308818"
+    },
+    {
+      "codigo": "314767",
+      "nome": "Comissão Nacional das Autoridades de Transportes Terrestres",
+      "sigla": "CONATT",
+      "pai": "308818",
+      "colegiada": true
+    },
+    {
+      "codigo": "408890",
+      "nome": "Comitê de Governança do Planejamento Integrado de Transportes",
+      "sigla": "CGPIT",
+      "pai": "308818",
+      "colegiada": true
+    },
+    {
+      "codigo": "311102",
+      "nome": "Assessoria Internacional",
+      "sigla": "AESINT",
+      "pai": "308818"
+    },
+    {
+      "codigo": "311096",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308818"
+    },
+    {
+      "codigo": "308956",
+      "nome": "Secretaria Nacional de Transporte Rodoviário",
+      "sigla": "SNTR",
+      "pai": "308818"
+    },
+    {
+      "codigo": "318564",
+      "nome": "Conselho Nacional de Secretários de Transportes",
+      "sigla": "Consetrans",
+      "pai": "308818",
+      "colegiada": true
+    },
+    {
+      "codigo": "278352",
+      "nome": "Secretaria Nacional de Trânsito",
+      "sigla": "SENATRAN",
+      "pai": "308818"
+    },
+    {
+      "codigo": "311111",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308818"
+    },
+    {
+      "codigo": "311100",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "AESCOM",
+      "pai": "308818"
+    },
+    {
+      "codigo": "308960",
+      "nome": "Secretaria Nacional de Transporte Ferroviário",
+      "sigla": "SNTF",
+      "pai": "308818"
+    },
+    {
+      "codigo": "308881",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308818"
+    },
+    {
+      "codigo": "308880",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308818"
+    },
+    {
+      "codigo": "321",
+      "nome": "Conselho Nacional de Trânsito",
+      "sigla": "CONTRAN",
+      "pai": "308818",
+      "colegiada": true
+    },
+    {
+      "codigo": "308879",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "308818"
+    },
+    {
+      "codigo": "308957",
+      "nome": "Departamento de Obras Públicas",
+      "sigla": "DOP",
+      "pai": "308956"
+    },
+    {
+      "codigo": "308959",
+      "nome": "Departamento de Outorgas Rodoviárias",
+      "sigla": "DOR",
+      "pai": "308956"
+    },
+    {
+      "codigo": "309017",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "308956"
+    },
+    {
+      "codigo": "278357",
+      "nome": "Departamento de Regulação, Fiscalização e Gestão",
+      "sigla": "DRFG",
+      "pai": "278352"
+    },
+    {
+      "codigo": "278353",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "278352"
+    },
+    {
+      "codigo": "278365",
+      "nome": "Departamento de Segurança no Trânsito",
+      "sigla": "DSEG",
+      "pai": "278352"
+    },
+    {
+      "codigo": "308961",
+      "nome": "Departamento de Obras e Projetos",
+      "sigla": "DOP",
+      "pai": "308960"
+    },
+    {
+      "codigo": "309020",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "308960"
+    },
+    {
+      "codigo": "308962",
+      "nome": "Departamento de Outorgas Ferroviárias",
+      "sigla": "DOUT",
+      "pai": "308960"
+    },
+    {
+      "codigo": "311159",
+      "nome": "Subsecretaria de Gestão Estratégica, Tecnologia e Inovação",
+      "sigla": "SGETI",
+      "pai": "308880"
+    },
+    {
+      "codigo": "311138",
+      "nome": "Subsecretaria de Parcerias",
+      "sigla": "SPAR",
+      "pai": "308880"
+    },
+    {
+      "codigo": "311146",
+      "nome": "Subsecretaria de Fomento e Planejamento",
+      "sigla": "SFPLAN",
+      "pai": "308880"
+    },
+    {
+      "codigo": "311133",
+      "nome": "Subsecretaria de Sustentabilidade",
+      "sigla": "SUST",
+      "pai": "308880"
+    },
+    {
+      "codigo": "311153",
+      "nome": "Subsecretaria de Planejamento, Orçamento e Administração",
+      "sigla": "SPOA",
+      "pai": "308880"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "1800",
+      "nome": "VALEC - Engenharia, Construções e Ferrovias S.A.",
+      "sigla": "VALEC"
+    },
+    {
+      "codigo": "54793",
+      "nome": "Agência Nacional de Transportes Terrestres",
+      "sigla": "ANTT",
+      "mapa": "org:antt"
+    },
+    {
+      "codigo": "54844",
+      "nome": "Departamento Nacional de Infraestrutura de Transportes",
+      "sigla": "DNIT"
+    }
+  ],
+  "ato_interno": 51,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308818 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

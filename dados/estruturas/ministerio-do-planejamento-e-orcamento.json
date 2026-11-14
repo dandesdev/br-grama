@@ -1,0 +1,315 @@
+{
+  "id": "est:ministerio-do-planejamento-e-orcamento",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério do Planejamento e Orçamento no SIORG",
+  "resumo": "44 unidades criadas por lei ou decreto e 2 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-do-planejamento-e-orcamento",
+  "siorg": "308804",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "240738",
+      "nome": "Conselho de Monitoramento e Avaliação de Políticas Públicas",
+      "sigla": "CMAPP",
+      "pai": "308804",
+      "colegiada": true
+    },
+    {
+      "codigo": "9972",
+      "nome": "Comissão Nacional de Classificação",
+      "sigla": "CONCLA",
+      "pai": "308804",
+      "colegiada": true
+    },
+    {
+      "codigo": "310475",
+      "nome": "Secretaria de Monitoramento e Avaliação de Políticas Públicas",
+      "sigla": "SMA",
+      "pai": "308804"
+    },
+    {
+      "codigo": "3171",
+      "nome": "Comissão de Financiamentos Externos",
+      "sigla": "COFIEX",
+      "pai": "308804",
+      "colegiada": true
+    },
+    {
+      "codigo": "313969",
+      "nome": "Secretaria de Articulação Institucional",
+      "sigla": "SEAI",
+      "pai": "308804"
+    },
+    {
+      "codigo": "410533",
+      "nome": "Comissão Interministerial para a Infraestrutura e o Planejamento da Integração da América do Sul",
+      "sigla": "CIIPIAS",
+      "pai": "308804",
+      "colegiada": true
+    },
+    {
+      "codigo": "309712",
+      "nome": "Corregedoria",
+      "sigla": "COGER",
+      "pai": "308804"
+    },
+    {
+      "codigo": "2032",
+      "nome": "Secretaria de Orçamento Federal",
+      "sigla": "SOF",
+      "pai": "308804",
+      "mapa": "org:secretaria-de-orcamento-federal"
+    },
+    {
+      "codigo": "655953",
+      "nome": "Assessoria Especial do Ministro",
+      "sigla": "AESP",
+      "pai": "308804"
+    },
+    {
+      "codigo": "308904",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308804"
+    },
+    {
+      "codigo": "310415",
+      "nome": "Secretaria Nacional de Planejamento",
+      "sigla": "SEPLAN",
+      "pai": "308804"
+    },
+    {
+      "codigo": "309713",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308804"
+    },
+    {
+      "codigo": "312154",
+      "nome": "Secretaria de Assuntos Internacionais e Desenvolvimento",
+      "sigla": "SEAID",
+      "pai": "308804"
+    },
+    {
+      "codigo": "308905",
+      "nome": "Ouvidoria",
+      "sigla": "OUVIDORIA",
+      "pai": "308804"
+    },
+    {
+      "codigo": "308903",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308804"
+    },
+    {
+      "codigo": "309720",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "308804"
+    },
+    {
+      "codigo": "309717",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308804"
+    },
+    {
+      "codigo": "308902",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "308804"
+    },
+    {
+      "codigo": "240739",
+      "nome": "Comitê de Monitoramento e Avaliação de Gastos Diretos",
+      "sigla": "CMAGD",
+      "pai": "240738",
+      "colegiada": true
+    },
+    {
+      "codigo": "240766",
+      "nome": "Comitê de Monitoramento e Avaliação dos Subsídios da União",
+      "sigla": "CMASU",
+      "pai": "240738",
+      "colegiada": true
+    },
+    {
+      "codigo": "37752",
+      "nome": "Subcomissão Técnica para a CNAE",
+      "sigla": "CNAE-fiscal",
+      "pai": "9972",
+      "colegiada": true
+    },
+    {
+      "codigo": "398309",
+      "nome": "Subsecretaria de Revisão do Gasto Público",
+      "sigla": "SRGP",
+      "pai": "310475"
+    },
+    {
+      "codigo": "310477",
+      "nome": "Subsecretaria de Avaliação de Políticas Públicas",
+      "sigla": "SAVA",
+      "pai": "310475"
+    },
+    {
+      "codigo": "236507",
+      "nome": "Subsecretaria de Gestão do Ciclo Avaliativo",
+      "sigla": "SUAV",
+      "pai": "310475"
+    },
+    {
+      "codigo": "656531",
+      "nome": "Subsecretaria de Acompanhamento Legislativo, Orçamentário e Assuntos Federativos",
+      "sigla": "SAOF",
+      "pai": "313969"
+    },
+    {
+      "codigo": "656512",
+      "nome": "Subsecretaria de Assuntos Parlamentares",
+      "sigla": "SPAR",
+      "pai": "313969"
+    },
+    {
+      "codigo": "14425",
+      "nome": "Subsecretaria de Programas de Infraestrutura",
+      "sigla": "SEINF",
+      "pai": "2032"
+    },
+    {
+      "codigo": "14423",
+      "nome": "Subsecretaria de Programas Sociais",
+      "sigla": "SESOC",
+      "pai": "2032"
+    },
+    {
+      "codigo": "292654",
+      "nome": "Subsecretaria de Tecnologia e Desenvolvimento Institucional",
+      "sigla": "SETEC",
+      "pai": "2032"
+    },
+    {
+      "codigo": "310394",
+      "nome": "Subsecretaria de Temas Transversais",
+      "sigla": "SETRA",
+      "pai": "2032"
+    },
+    {
+      "codigo": "239222",
+      "nome": "Subsecretaria de Assuntos Fiscais",
+      "sigla": "SEAFI",
+      "pai": "2032"
+    },
+    {
+      "codigo": "292650",
+      "nome": "Subsecretaria de Programas das Áreas Econômicas e Especiais",
+      "sigla": "SEAES",
+      "pai": "2032"
+    },
+    {
+      "codigo": "398490",
+      "nome": "Subsecretaria de Pessoal e Sentenças",
+      "sigla": "SEPES",
+      "pai": "2032"
+    },
+    {
+      "codigo": "239224",
+      "nome": "Subsecretaria de Gestão Orçamentária",
+      "sigla": "SEGOR",
+      "pai": "2032"
+    },
+    {
+      "codigo": "310444",
+      "nome": "Subsecretaria de Programas das Áreas Econômicas e Especiais",
+      "sigla": "SAES",
+      "pai": "310415"
+    },
+    {
+      "codigo": "310436",
+      "nome": "Subsecretaria de Coordenação do Sistema de Planejamento",
+      "sigla": "SPLA",
+      "pai": "310415"
+    },
+    {
+      "codigo": "310431",
+      "nome": "Subsecretaria de Planejamento de Longo Prazo",
+      "sigla": "SPLP",
+      "pai": "310415"
+    },
+    {
+      "codigo": "310448",
+      "nome": "Subsecretaria de Programas Sociais, Áreas Transversais e Multissetoriais e Participação Social",
+      "sigla": "SATP",
+      "pai": "310415"
+    },
+    {
+      "codigo": "310443",
+      "nome": "Subsecretaria de Programas de Infraestrutura e Planejamento Territorial",
+      "sigla": "SAIT",
+      "pai": "310415"
+    },
+    {
+      "codigo": "310474",
+      "nome": "Subsecretaria de Financiamento Externo",
+      "sigla": "SUFIN",
+      "pai": "312154"
+    },
+    {
+      "codigo": "310951",
+      "nome": "Subsecretaria de Organismos Internacionais e Desenvolvimento",
+      "sigla": "SUINT",
+      "pai": "312154"
+    },
+    {
+      "codigo": "656171",
+      "nome": "Subsecretaria de Pagamentos a Organismos Internacionais e Integração Regional",
+      "sigla": "SUIRE",
+      "pai": "312154"
+    },
+    {
+      "codigo": "309724",
+      "nome": "Subsecretaria de Administração e Gestão Estratégica",
+      "sigla": "SAGE",
+      "pai": "308903"
+    },
+    {
+      "codigo": "655991",
+      "nome": "Subsecretaria de Assuntos Econômicos e Políticas Públicas",
+      "sigla": "SAEP",
+      "pai": "308903"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "3",
+      "nome": "Fundação Instituto Brasileiro de Geografia e Estatística",
+      "sigla": "IBGE",
+      "mapa": "org:ibge"
+    },
+    {
+      "codigo": "7",
+      "nome": "Instituto de Pesquisa Econômica Aplicada",
+      "sigla": "IPEA"
+    }
+  ],
+  "ato_interno": 77,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308804 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

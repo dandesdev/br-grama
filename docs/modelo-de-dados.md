@@ -30,6 +30,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 | variação | `var:` | `variacoes/` | Atipicidade de um ente em relação ao arquétipo |
 | métrica | `met:` | `metricas/` | Número medido de um órgão ou ente num exercício, como o orçamento executado (D45) |
 | fluxo | `fluxo:` | `fluxos/` | Dinheiro pago num exercício por uma relação `repassa-recursos` (D45) |
+| estrutura | `est:` | `estruturas/` | Árvore de unidades internas de um órgão no SIORG (gerada por script) |
 
 ## Campos comuns
 
@@ -80,6 +81,8 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 **Variação.** `entes`, `abrangencia` (`ente` ou `municipios-do-estado`), `difere_de` (órgão do arquétipo), `instancia` (órgão real), `substitui_relacoes` e `porque`.
 
 **Métrica (D45 a D47).** `de` (órgão ou ente), `medida` (vocabulário; hoje só `orcamento-executado`), `exercicio`, `moeda` (`BRL`), `valores` e `recorte`. `valores` traz `pagamentos_totais` (despesas do ano pagas mais restos a pagar pagos, o número principal), as duas parcelas, `pagamentos_primarios`, as dotações inicial e atualizada, o empenhado e o liquidado. `recorte` diz como refazer a conta na fonte: `poderes`, `orgao_orcamentario`, `unidades_orcamentarias`, `acoes`, `modalidades`, `tambem` (recortes somados), `exceto` (linhas tiradas) e uma `nota`. No ministério, os recursos sob supervisão (unidades 71xxx a 75xxx) ficam em `sob_supervisao`, fora do número principal. `vigencia` é o ano medido; o site mostra o último ano fechado antes da data de referência (D26). Métricas e fluxos são gerados por `scripts/importar/tesouro-despesas.ts`; não edite à mão, mude o script e gere de novo.
+
+**Estrutura (D62).** `de` (órgão do mapa), `siorg` (código da unidade raiz), `consulta` (data em que a base do SIORG foi baixada), `unidades` (`[{ codigo, nome, sigla?, pai, colegiada?, mapa? }]`, só as criadas por lei ou decreto; `so_ato_interno: true` quando o órgão não tem nenhuma e a árvore traz os dois primeiros níveis de ato interno), `vinculadas` (entidades da administração indireta ligadas ao órgão no SIORG) e `ato_interno` (quantas unidades de ato interno ficam abaixo, só contadas). Gerada por `scripts/importar/siorg.ts`; não edite à mão. O painel mostra a árvore; as unidades não viram nós do mapa.
 
 **Fluxo (D45).** `repasse` (a relação `repassa-recursos` que dá a base legal), `exercicio`, `moeda`, `valores` e `recorte`, com os mesmos campos da métrica.
 

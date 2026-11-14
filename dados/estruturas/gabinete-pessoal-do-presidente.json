@@ -1,0 +1,115 @@
+{
+  "id": "est:gabinete-pessoal-do-presidente",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Gabinete Pessoal do Presidente da República no SIORG",
+  "resumo": "14 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:gabinete-pessoal-do-presidente",
+  "siorg": "1949",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "93912",
+      "nome": "Gabinete Adjunto de Informações em Apoio à Decisão",
+      "sigla": "GAIA",
+      "pai": "1949"
+    },
+    {
+      "codigo": "3523",
+      "nome": "Comissão Memória dos Presidentes da República",
+      "sigla": "CMPR",
+      "pai": "1949",
+      "colegiada": true
+    },
+    {
+      "codigo": "37807",
+      "nome": "Cerimonial da Presidência da República",
+      "sigla": "CPR",
+      "pai": "1949"
+    },
+    {
+      "codigo": "329483",
+      "nome": "Ajudância de Ordens",
+      "sigla": "AJO",
+      "pai": "1949"
+    },
+    {
+      "codigo": "329523",
+      "nome": "Assessoria Especial do Gabinete Pessoal",
+      "sigla": "AEGP",
+      "pai": "1949"
+    },
+    {
+      "codigo": "464469",
+      "nome": "Presidência da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima - COP30",
+      "sigla": "Presi-COP30",
+      "pai": "1949"
+    },
+    {
+      "codigo": "93911",
+      "nome": "Gabinete Adjunto de Agenda",
+      "sigla": "GAA",
+      "pai": "1949"
+    },
+    {
+      "codigo": "313796",
+      "nome": "Assessoria Especial de Apoio ao Processo Decisório",
+      "sigla": "AEPD",
+      "pai": "1949"
+    },
+    {
+      "codigo": "93914",
+      "nome": "Gabinete Adjunto de Gestão Interna",
+      "sigla": "GAGI",
+      "pai": "1949"
+    },
+    {
+      "codigo": "464589",
+      "nome": "Diretoria-Executiva da COP30",
+      "sigla": "DE-COP30",
+      "pai": "464469"
+    },
+    {
+      "codigo": "329263",
+      "nome": "Assessoria Especial de Registro",
+      "sigla": "AESR",
+      "pai": "313796"
+    },
+    {
+      "codigo": "124192",
+      "nome": "Diretoria de Documentação Histórica",
+      "sigla": "DDH",
+      "pai": "93914"
+    },
+    {
+      "codigo": "313755",
+      "nome": "Diretoria Curatorial dos Palácios Presidenciais",
+      "sigla": "DCPP",
+      "pai": "93914"
+    },
+    {
+      "codigo": "313748",
+      "nome": "Diretoria de Gestão Interna",
+      "sigla": "DGI",
+      "pai": "93914"
+    }
+  ],
+  "ato_interno": 10,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 1949 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

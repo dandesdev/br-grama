@@ -1,0 +1,72 @@
+{
+  "id": "est:policia-rodoviaria-federal",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Polícia Rodoviária Federal no SIORG",
+  "resumo": "7 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:policia-rodoviaria-federal",
+  "siorg": "704",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "235975",
+      "nome": "Diretoria de Administração e Logística",
+      "sigla": "DIAD",
+      "pai": "704"
+    },
+    {
+      "codigo": "245837",
+      "nome": "Diretoria de Tecnologia da Informação e Comunicação",
+      "sigla": "DTIC",
+      "pai": "704"
+    },
+    {
+      "codigo": "3902",
+      "nome": "Corregedoria-Geral",
+      "sigla": "CG",
+      "pai": "704"
+    },
+    {
+      "codigo": "2459",
+      "nome": "Diretoria de Operações",
+      "sigla": "DIOP",
+      "pai": "704"
+    },
+    {
+      "codigo": "229206",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DIREX",
+      "pai": "704"
+    },
+    {
+      "codigo": "245835",
+      "nome": "Diretoria de Inteligência",
+      "sigla": "DINT",
+      "pai": "704"
+    },
+    {
+      "codigo": "245836",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DGP",
+      "pai": "704"
+    }
+  ],
+  "ato_interno": 59,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 704 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

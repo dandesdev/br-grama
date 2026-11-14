@@ -1,0 +1,121 @@
+{
+  "id": "est:policia-federal",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Polícia Federal no SIORG",
+  "resumo": "15 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:policia-federal",
+  "siorg": "324",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "309782",
+      "nome": "Diretoria de Polícia Administrativa",
+      "sigla": "DPA/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "75392",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DGP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "351689",
+      "nome": "Diretoria de Proteção à Pessoa",
+      "sigla": "DPP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309372",
+      "nome": "Diretoria de Cooperação Internacional",
+      "sigla": "DCI/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309361",
+      "nome": "Diretoria da Amazônia e Meio Ambiente",
+      "sigla": "DAMAZ/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "22366",
+      "nome": "Diretoria de Inteligência Policial",
+      "sigla": "DIP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "22330",
+      "nome": "Diretoria de Investigação e Combate ao Crime Organizado e à Corrupção",
+      "sigla": "DICOR/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309814",
+      "nome": "Diretoria de Ensino da Academia Nacional de Polícia",
+      "sigla": "DIREN-ANP/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "75391",
+      "nome": "Diretoria Técnico-Científica",
+      "sigla": "DITEC/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "22258",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DIREX/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "325",
+      "nome": "Conselho Superior de Polícia",
+      "sigla": "CSP",
+      "pai": "324",
+      "colegiada": true
+    },
+    {
+      "codigo": "22338",
+      "nome": "Corregedoria-Geral",
+      "sigla": "COGER/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "309364",
+      "nome": "Diretoria de Combate a Crimes Cibernéticos",
+      "sigla": "DCIBER/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "229214",
+      "nome": "Diretoria de Tecnologia da Informação e Comunicação",
+      "sigla": "DTI/PF",
+      "pai": "324"
+    },
+    {
+      "codigo": "75394",
+      "nome": "Diretoria de Administração e Logística",
+      "sigla": "DLOG/PF",
+      "pai": "324"
+    }
+  ],
+  "ato_interno": 127,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 324 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

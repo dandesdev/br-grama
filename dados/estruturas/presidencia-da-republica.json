@@ -1,0 +1,442 @@
+{
+  "id": "est:presidencia-da-republica",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Presidência da República no SIORG",
+  "resumo": "58 unidades criadas por lei ou decreto e 1 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:presidencia-da-republica",
+  "siorg": "26",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "1931",
+      "nome": "Conselho da República",
+      "sigla": "CR",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "318541",
+      "nome": "Conselho de Participação Social da Presidência da República",
+      "sigla": "CPS-PR",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "352589",
+      "nome": "Conselho da Ordem Nacional do Mérito Científico",
+      "sigla": "CONMC",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "1933",
+      "nome": "Conselho de Defesa Nacional",
+      "sigla": "CDN",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "25276",
+      "nome": "Conselho Nacional de Política Energética",
+      "sigla": "CNPE",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "214326",
+      "nome": "Conselho do Programa de Parcerias de Investimentos",
+      "sigla": "CPPI",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "317717",
+      "nome": "Conselho da Federação",
+      "sigla": "CF",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "309008",
+      "nome": "Conselho de Desenvolvimento Econômico Social Sustentável",
+      "sigla": "CDESS",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "309010",
+      "nome": "Conselho Nacional de Segurança Alimentar e Nutricional",
+      "sigla": "CONSEA",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "314748",
+      "nome": "Junta de Execução Orçamentária",
+      "sigla": "JEO",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "1932",
+      "nome": "Conselho de Governo",
+      "sigla": "CG-PR",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "315997",
+      "nome": "Conselho Nacional de Desenvolvimento Industrial",
+      "sigla": "CNDI",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "316201",
+      "nome": "Comissão de Ética Pública",
+      "sigla": "CEP",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "9154",
+      "nome": "Câmara de Comércio Exterior",
+      "sigla": "CAMEX",
+      "pai": "26",
+      "colegiada": true
+    },
+    {
+      "codigo": "318542",
+      "nome": "Plenário",
+      "sigla": "PLEN",
+      "pai": "318541",
+      "colegiada": true
+    },
+    {
+      "codigo": "318543",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "318541",
+      "colegiada": true
+    },
+    {
+      "codigo": "318544",
+      "nome": "Coordenação-Executiva Colegiada",
+      "sigla": "CEC",
+      "pai": "318541",
+      "colegiada": true
+    },
+    {
+      "codigo": "47761",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SEXCDN",
+      "pai": "1933"
+    },
+    {
+      "codigo": "105923",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "25276",
+      "colegiada": true
+    },
+    {
+      "codigo": "105924",
+      "nome": "Comitês Técnicos",
+      "sigla": "CT",
+      "pai": "25276",
+      "colegiada": true
+    },
+    {
+      "codigo": "105922",
+      "nome": "Plenário",
+      "sigla": "PLEN",
+      "pai": "25276",
+      "colegiada": true
+    },
+    {
+      "codigo": "317118",
+      "nome": "Comitê Gestor",
+      "sigla": "CG-CDESS",
+      "pai": "309008",
+      "colegiada": true
+    },
+    {
+      "codigo": "314749",
+      "nome": "Comissão Técnica de Gestão Orçamentária e Financeira",
+      "sigla": "CTGOF",
+      "pai": "314748",
+      "colegiada": true
+    },
+    {
+      "codigo": "219643",
+      "nome": "Câmara Nacional das Relações de Consumo",
+      "sigla": "CNRC",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "67184",
+      "nome": "Câmara de Política Econômica",
+      "sigla": "CPE",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "51321",
+      "nome": "Comitê Executivo do Governo Eletrônico",
+      "sigla": "CEXGE",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "83289",
+      "nome": "Câmara de Políticas de Gestão Pública",
+      "sigla": "CPGP",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "40600",
+      "nome": "Grupo-Executivo para Coordenação e Acompanhamento do Programa Emergencial de Combate aos Efeitos da Seca",
+      "sigla": "GESEC",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "76390",
+      "nome": "Câmara de Política Cultural",
+      "sigla": "CPS",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "19235",
+      "nome": "Câmara de Política Social",
+      "sigla": "CPS",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "12691",
+      "nome": "Câmara de Políticas de Recursos Naturais",
+      "sigla": "CPRN-CG",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "9674",
+      "nome": "Câmara de Políticas de Infraestrutura",
+      "sigla": "CPIE",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "16478",
+      "nome": "Câmara de Relações Exteriores e Defesa Nacional",
+      "sigla": "CREDEN",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "78218",
+      "nome": "Câmara de Política de Desenvolvimento Econômico",
+      "sigla": "CPDE",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "75804",
+      "nome": "Câmara de Regulação do Mercado de Medicamentos",
+      "sigla": "CMED",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "565050",
+      "nome": "Câmara de Atividades e Empreendimentos Estratégicos",
+      "sigla": "CAEE/CG-PR",
+      "pai": "1932",
+      "colegiada": true
+    },
+    {
+      "codigo": "317919",
+      "nome": "Comitê-Executivo do CNDI",
+      "sigla": "CE-CNDI",
+      "pai": "315997",
+      "colegiada": true
+    },
+    {
+      "codigo": "10146",
+      "nome": "Comitê-Executivo de Gestão",
+      "sigla": "GECEX",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "245680",
+      "nome": "Conselho Estratégico",
+      "sigla": "CEC",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "218702",
+      "nome": "Comitê Nacional de Facilitação do Comércio",
+      "sigla": "Confac",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "220384",
+      "nome": "Comitê Nacional de Investimentos",
+      "sigla": "Coninv",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "221477",
+      "nome": "Comitê Nacional de Promoção Comercial",
+      "sigla": "Copcom",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "245795",
+      "nome": "Comitê de Defesa Comercial e Interesse Público",
+      "sigla": "CDCOM",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "110125",
+      "nome": "Conselho Consultivo do Setor Privado",
+      "sigla": "CONEX",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "315377",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE-CAMEX",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "77319",
+      "nome": "Comitê de Financiamento e Garantia das Exportações",
+      "sigla": "COFIG",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "245684",
+      "nome": "Comitê de Alterações Tarifárias",
+      "sigla": "CAT",
+      "pai": "9154",
+      "colegiada": true
+    },
+    {
+      "codigo": "219645",
+      "nome": "Observatório Nacional das Relações de Consumo",
+      "sigla": "ONRC",
+      "pai": "219643",
+      "colegiada": true
+    },
+    {
+      "codigo": "219644",
+      "nome": "Conselho de Ministros",
+      "sigla": "CM",
+      "pai": "219643",
+      "colegiada": true
+    },
+    {
+      "codigo": "217194",
+      "nome": "Comitê-Executivo do Programa de Proteção Integrada de Fronteiras",
+      "sigla": "CEPPIF",
+      "pai": "16478",
+      "colegiada": true
+    },
+    {
+      "codigo": "340083",
+      "nome": "Subcomitê-Executivo",
+      "sigla": "SUBEX-CONFAC",
+      "pai": "218702",
+      "colegiada": true
+    },
+    {
+      "codigo": "231730",
+      "nome": "Subcomitê de Cooperação",
+      "sigla": "SBCOOP-CONFAC",
+      "pai": "218702",
+      "colegiada": true
+    },
+    {
+      "codigo": "318559",
+      "nome": "Grupo Técnico do Comitê Nacional de Investimentos",
+      "sigla": "GT-CONINV",
+      "pai": "220384",
+      "colegiada": true
+    },
+    {
+      "codigo": "216911",
+      "nome": "Ombudsman de Investimentos Diretos",
+      "sigla": "OID",
+      "pai": "315377",
+      "colegiada": true
+    },
+    {
+      "codigo": "219649",
+      "nome": "Secretaria Executiva",
+      "sigla": "SEC",
+      "pai": "219645"
+    },
+    {
+      "codigo": "219648",
+      "nome": "Comitê Técnico de Consumo e Turismo",
+      "sigla": "CTCT",
+      "pai": "219645",
+      "colegiada": true
+    },
+    {
+      "codigo": "219647",
+      "nome": "Comitê Técnico de Consumo e Pós-Venda",
+      "sigla": "CTCPV",
+      "pai": "219645",
+      "colegiada": true
+    },
+    {
+      "codigo": "219646",
+      "nome": "Comitê Técnico de Consumo e Regulação",
+      "sigla": "CTCR",
+      "pai": "219645",
+      "colegiada": true
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "89",
+      "nome": "Banco Central do Brasil",
+      "sigla": "BCB",
+      "mapa": "org:banco-central"
+    }
+  ],
+  "ato_interno": 37,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 26 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,152 @@
+{
+  "id": "est:ministerio-das-mulheres",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério das Mulheres no SIORG",
+  "resumo": "20 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-das-mulheres",
+  "siorg": "308815",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "309541",
+      "nome": "Assessoria Internacional",
+      "sigla": "AI",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309542",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308815"
+    },
+    {
+      "codigo": "308896",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309018",
+      "nome": "Secretaria Nacional de Articulação Intersetorial e Interfederativa e Participação Política",
+      "sigla": "SENAIP",
+      "pai": "308815"
+    },
+    {
+      "codigo": "308895",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308815"
+    },
+    {
+      "codigo": "308894",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309539",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309544",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309545",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308815"
+    },
+    {
+      "codigo": "327263",
+      "nome": "Secretaria Nacional de Enfrentamento à Violência contra Mulheres",
+      "sigla": "SENEV",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309021",
+      "nome": "Secretaria Nacional de Autonomia Econômica e Política de Cuidados",
+      "sigla": "SENAEC",
+      "pai": "308815"
+    },
+    {
+      "codigo": "308893",
+      "nome": "Gabinete Ministerial",
+      "sigla": "GM",
+      "pai": "308815"
+    },
+    {
+      "codigo": "309546",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308815"
+    },
+    {
+      "codigo": "1557",
+      "nome": "Conselho Nacional dos Direitos das Mulheres",
+      "sigla": "CNDM",
+      "pai": "308815",
+      "colegiada": true
+    },
+    {
+      "codigo": "313066",
+      "nome": "Diretoria de Articulação Intersetorial e Interfederativa e Participação Política",
+      "sigla": "DAI",
+      "pai": "309018"
+    },
+    {
+      "codigo": "439489",
+      "nome": "Subsecretaria de Gestão e Administração",
+      "sigla": "SGA",
+      "pai": "308894"
+    },
+    {
+      "codigo": "650594",
+      "nome": "Subsecretaria de Avaliação, Monitoramento e Gestão da Informação",
+      "sigla": "SAGI",
+      "pai": "308894"
+    },
+    {
+      "codigo": "317853",
+      "nome": "Comitê Gestor do Plano Nacional de Enfrentamento ao Feminicídio",
+      "sigla": "CGPNEF",
+      "pai": "327263",
+      "colegiada": true
+    },
+    {
+      "codigo": "308613",
+      "nome": "Diretoria de Proteção de Direitos",
+      "sigla": "DPD",
+      "pai": "327263"
+    },
+    {
+      "codigo": "309024",
+      "nome": "Diretoria de Promoção da Autonomia Econômica e Política de Cuidados",
+      "sigla": "DPAEC",
+      "pai": "309021"
+    }
+  ],
+  "ato_interno": 37,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308815 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

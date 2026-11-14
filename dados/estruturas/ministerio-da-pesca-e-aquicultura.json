@@ -1,0 +1,175 @@
+{
+  "id": "est:ministerio-da-pesca-e-aquicultura",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Pesca e Aquicultura no SIORG",
+  "resumo": "24 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-pesca-e-aquicultura",
+  "siorg": "308795",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "77695",
+      "nome": "Conselho Nacional de Aquicultura e Pesca",
+      "sigla": "CONAPE",
+      "pai": "308795",
+      "colegiada": true
+    },
+    {
+      "codigo": "308936",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308795"
+    },
+    {
+      "codigo": "313036",
+      "nome": "Secretaria Nacional de Pesca Industrial, Amadora e Esportiva",
+      "sigla": "SNPI",
+      "pai": "308795"
+    },
+    {
+      "codigo": "310231",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308795"
+    },
+    {
+      "codigo": "308937",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308795"
+    },
+    {
+      "codigo": "308938",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308795"
+    },
+    {
+      "codigo": "310228",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308795"
+    },
+    {
+      "codigo": "310224",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308795"
+    },
+    {
+      "codigo": "313033",
+      "nome": "Secretaria Nacional de Pesca Artesanal",
+      "sigla": "SNPA",
+      "pai": "308795"
+    },
+    {
+      "codigo": "310225",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308795"
+    },
+    {
+      "codigo": "313040",
+      "nome": "Secretaria Nacional de Registro, Monitoramento e Pesquisa da Pesca e Aquicultura",
+      "sigla": "SERMOP",
+      "pai": "308795"
+    },
+    {
+      "codigo": "308935",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "308795"
+    },
+    {
+      "codigo": "310230",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308795"
+    },
+    {
+      "codigo": "313030",
+      "nome": "Secretaria Nacional de Aquicultura",
+      "sigla": "SNA",
+      "pai": "308795"
+    },
+    {
+      "codigo": "310226",
+      "nome": "Assessoria Especial Internacional",
+      "sigla": "AEINT",
+      "pai": "308795"
+    },
+    {
+      "codigo": "450649",
+      "nome": "Subsecretaria de Gestão e Administração",
+      "sigla": "SGA",
+      "pai": "308936"
+    },
+    {
+      "codigo": "313037",
+      "nome": "Departamento de Pesca Industrial, Amadora e Esportiva",
+      "sigla": "DPIA",
+      "pai": "313036"
+    },
+    {
+      "codigo": "313039",
+      "nome": "Departamento de Indústria do Pescado",
+      "sigla": "DIP",
+      "pai": "313036"
+    },
+    {
+      "codigo": "313035",
+      "nome": "Departamento de Territórios Pesqueiros e Ordenamento",
+      "sigla": "DEPOP",
+      "pai": "313033"
+    },
+    {
+      "codigo": "313034",
+      "nome": "Departamento de Inclusão Produtiva e Inovações",
+      "sigla": "DIPI",
+      "pai": "313033"
+    },
+    {
+      "codigo": "313042",
+      "nome": "Departamento de Pesquisa e Estatística da Pesca e Aquicultura",
+      "sigla": "DPEPA",
+      "pai": "313040"
+    },
+    {
+      "codigo": "211177",
+      "nome": "Departamento de Registro e Monitoramento da Pesca e Aquicultura",
+      "sigla": "DRM",
+      "pai": "313040"
+    },
+    {
+      "codigo": "313031",
+      "nome": "Departamento de Aquicultura em Águas da União",
+      "sigla": "DAAU",
+      "pai": "313030"
+    },
+    {
+      "codigo": "313032",
+      "nome": "Departamento de Desenvolvimento e Inovação",
+      "sigla": "DDI",
+      "pai": "313030"
+    }
+  ],
+  "ato_interno": 75,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308795 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,665 @@
+{
+  "id": "est:agu",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Advocacia-Geral da União no SIORG",
+  "resumo": "104 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:agu",
+  "siorg": "46",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "3621",
+      "nome": "Corregedoria-Geral da Advocacia da União",
+      "sigla": "CGAU",
+      "pai": "46"
+    },
+    {
+      "codigo": "270329",
+      "nome": "Secretaria de Controle Interno",
+      "sigla": "SCI",
+      "pai": "46"
+    },
+    {
+      "codigo": "71433",
+      "nome": "Câmara de Conciliação Administrativa",
+      "sigla": "CCA-AGU",
+      "pai": "46",
+      "colegiada": true
+    },
+    {
+      "codigo": "91748",
+      "nome": "Colégio de Consultoria da AGU",
+      "sigla": "CCAGU",
+      "pai": "46",
+      "colegiada": true
+    },
+    {
+      "codigo": "29029",
+      "nome": "Secretaria-Geral de Contencioso",
+      "sigla": "SGCT",
+      "pai": "46"
+    },
+    {
+      "codigo": "3623",
+      "nome": "Conselho Superior da Advocacia-Geral da União",
+      "sigla": "CSAGU",
+      "pai": "46",
+      "colegiada": true
+    },
+    {
+      "codigo": "3620",
+      "nome": "Consultoria-Geral da União",
+      "sigla": "CGU",
+      "pai": "46"
+    },
+    {
+      "codigo": "484030",
+      "nome": "Gabinete do Advogado-Geral da União",
+      "sigla": "GAB-AGU",
+      "pai": "46"
+    },
+    {
+      "codigo": "112974",
+      "nome": "Assessoria Especial para Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "46"
+    },
+    {
+      "codigo": "93915",
+      "nome": "Ouvidoria",
+      "sigla": "OGAGU",
+      "pai": "46"
+    },
+    {
+      "codigo": "309117",
+      "nome": "Secretaria de Atos Normativos",
+      "sigla": "SENOR",
+      "pai": "46"
+    },
+    {
+      "codigo": "309114",
+      "nome": "Procuradoria Nacional de Defesa do Clima e do Meio Ambiente",
+      "sigla": "PROCLIMA",
+      "pai": "46"
+    },
+    {
+      "codigo": "112973",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "46"
+    },
+    {
+      "codigo": "50934",
+      "nome": "Escola Superior da Advocacia-Geral da União Ministro Victor Nunes Leal",
+      "sigla": "ESAGU",
+      "pai": "46"
+    },
+    {
+      "codigo": "46997",
+      "nome": "Câmara de Atividades de Consultoria",
+      "sigla": "CACONS",
+      "pai": "46",
+      "colegiada": true
+    },
+    {
+      "codigo": "46989",
+      "nome": "Câmara de Atividades de Contencioso",
+      "sigla": "CAC",
+      "pai": "46",
+      "colegiada": true
+    },
+    {
+      "codigo": "29028",
+      "nome": "Secretaria-Geral de Consultoria",
+      "sigla": "SGCS",
+      "pai": "46"
+    },
+    {
+      "codigo": "484029",
+      "nome": "Assessoria Especial de Relações Internacionais",
+      "sigla": "AERI",
+      "pai": "46"
+    },
+    {
+      "codigo": "3619",
+      "nome": "Procuradoria-Geral da União",
+      "sigla": "PGU",
+      "pai": "46"
+    },
+    {
+      "codigo": "318478",
+      "nome": "Conselho de Acompanhamento e Monitoramento de Riscos Fiscais Judiciais",
+      "sigla": "COAMRFJ",
+      "pai": "46",
+      "colegiada": true
+    },
+    {
+      "codigo": "69685",
+      "nome": "Procuradoria-Geral Federal",
+      "sigla": "PGF",
+      "pai": "46"
+    },
+    {
+      "codigo": "309109",
+      "nome": "Assessoria Especial de Diversidade e Inclusão",
+      "sigla": "AEDI",
+      "pai": "46"
+    },
+    {
+      "codigo": "113045",
+      "nome": "Corregedoria Auxiliar 2",
+      "sigla": "COAUX-2",
+      "pai": "3621"
+    },
+    {
+      "codigo": "113047",
+      "nome": "Corregedoria Auxiliar 4",
+      "sigla": "COAUX-4",
+      "pai": "3621"
+    },
+    {
+      "codigo": "113048",
+      "nome": "Corregedoria Auxiliar 5",
+      "sigla": "COAUX-5",
+      "pai": "3621"
+    },
+    {
+      "codigo": "113046",
+      "nome": "Corregedoria Auxiliar 3",
+      "sigla": "COAUX-3",
+      "pai": "3621"
+    },
+    {
+      "codigo": "309173",
+      "nome": "Subcorregedoria-Geral da Advocacia da União",
+      "sigla": "SGAU",
+      "pai": "3621"
+    },
+    {
+      "codigo": "113044",
+      "nome": "Corregedoria Auxiliar 1",
+      "sigla": "COAUX-1",
+      "pai": "3621"
+    },
+    {
+      "codigo": "85687",
+      "nome": "Departamento de Controle Difuso",
+      "sigla": "DCD",
+      "pai": "29029"
+    },
+    {
+      "codigo": "85693",
+      "nome": "Departamento de Acompanhamento Estratégico",
+      "sigla": "DAE",
+      "pai": "29029"
+    },
+    {
+      "codigo": "300775",
+      "nome": "Departamento de Assuntos Federativos",
+      "sigla": "DAF",
+      "pai": "29029"
+    },
+    {
+      "codigo": "85690",
+      "nome": "Departamento de Controle Concentrado",
+      "sigla": "DCC",
+      "pai": "29029"
+    },
+    {
+      "codigo": "105258",
+      "nome": "Comissão Técnica",
+      "sigla": "CCONSULT",
+      "pai": "3623",
+      "colegiada": true
+    },
+    {
+      "codigo": "271650",
+      "nome": "Consultoria da União 3",
+      "sigla": "CONSUNIAO3",
+      "pai": "3620"
+    },
+    {
+      "codigo": "271651",
+      "nome": "Consultoria da União 4",
+      "sigla": "CONSUNIAO4",
+      "pai": "3620"
+    },
+    {
+      "codigo": "484729",
+      "nome": "Subconsultoria-Geral da União de Representação Extrajudicial",
+      "sigla": "SUB-EX",
+      "pai": "3620"
+    },
+    {
+      "codigo": "271649",
+      "nome": "Consultoria da União 2",
+      "sigla": "CONSUNIAO2",
+      "pai": "3620"
+    },
+    {
+      "codigo": "271648",
+      "nome": "Consultoria da União 1",
+      "sigla": "CONSUNIAO1",
+      "pai": "3620"
+    },
+    {
+      "codigo": "484709",
+      "nome": "Departamento de Projetos Estratégicos",
+      "sigla": "DPE",
+      "pai": "3620"
+    },
+    {
+      "codigo": "309163",
+      "nome": "Subconsultoria-Geral da União de Gestão Pública",
+      "sigla": "SCGP",
+      "pai": "3620"
+    },
+    {
+      "codigo": "270328",
+      "nome": "Subconsultoria-Geral da União de Políticas Públicas",
+      "sigla": "SUB-POP",
+      "pai": "3620"
+    },
+    {
+      "codigo": "119705",
+      "nome": "Comitê de Tecnologia da Informação",
+      "sigla": "CTEC",
+      "pai": "484030",
+      "colegiada": true
+    },
+    {
+      "codigo": "309118",
+      "nome": "Diretoria de Atos Normativos",
+      "sigla": "DAN",
+      "pai": "309117"
+    },
+    {
+      "codigo": "484109",
+      "nome": "Diretoria de Análise e Acompanhamento Legislativo",
+      "sigla": "DACL",
+      "pai": "309117"
+    },
+    {
+      "codigo": "118713",
+      "nome": "Conselho Editorial da Revista da AGU",
+      "sigla": "CER",
+      "pai": "50934",
+      "colegiada": true
+    },
+    {
+      "codigo": "118712",
+      "nome": "Conselho Consultivo",
+      "sigla": "CCEAGU",
+      "pai": "50934",
+      "colegiada": true
+    },
+    {
+      "codigo": "70352",
+      "nome": "Secretaria de Gestão Administrativa",
+      "sigla": "SGA",
+      "pai": "29028"
+    },
+    {
+      "codigo": "300705",
+      "nome": "Secretaria de Governança e Gestão Estratégica",
+      "sigla": "SGE",
+      "pai": "29028"
+    },
+    {
+      "codigo": "301135",
+      "nome": "Procuradoria Regional da União da 6ª Região",
+      "sigla": "PRU6",
+      "pai": "3619"
+    },
+    {
+      "codigo": "13216",
+      "nome": "Procuradoria Regional da União da 1ª Região",
+      "sigla": "PRU1",
+      "pai": "3619"
+    },
+    {
+      "codigo": "69585",
+      "nome": "Procuradoria Nacional da União de Negociação",
+      "sigla": "PNNE",
+      "pai": "3619"
+    },
+    {
+      "codigo": "112992",
+      "nome": "Procuradoria Nacional da União de Patrimônio Público e Probidade",
+      "sigla": "PNPRO",
+      "pai": "3619"
+    },
+    {
+      "codigo": "15984",
+      "nome": "Procuradoria Regional da União da 5ª Região",
+      "sigla": "PRU5",
+      "pai": "3619"
+    },
+    {
+      "codigo": "13875",
+      "nome": "Procuradoria Regional da União da 4ª Região",
+      "sigla": "PRU4",
+      "pai": "3619"
+    },
+    {
+      "codigo": "13574",
+      "nome": "Procuradoria Regional da União da 2ª Região",
+      "sigla": "PRU2",
+      "pai": "3619"
+    },
+    {
+      "codigo": "220917",
+      "nome": "Subprocuradoria-Geral da União",
+      "sigla": "SUBPGU",
+      "pai": "3619"
+    },
+    {
+      "codigo": "69580",
+      "nome": "Procuradoria Nacional da União de Servidores e Militares",
+      "sigla": "PNSM",
+      "pai": "3619"
+    },
+    {
+      "codigo": "69582",
+      "nome": "Procuradoria Nacional da União de Trabalho e Emprego",
+      "sigla": "PNTE",
+      "pai": "3619"
+    },
+    {
+      "codigo": "69584",
+      "nome": "Procuradoria Nacional da União de Assuntos Internacionais",
+      "sigla": "PNAI",
+      "pai": "3619"
+    },
+    {
+      "codigo": "54452",
+      "nome": "Procuradoria Nacional da União de Gestão de Riscos Judiciais",
+      "sigla": "PNRJ",
+      "pai": "3619"
+    },
+    {
+      "codigo": "13674",
+      "nome": "Procuradoria Regional da União da 3ª Região",
+      "sigla": "PRU3",
+      "pai": "3619"
+    },
+    {
+      "codigo": "309175",
+      "nome": "Procuradoria Nacional da União de Defesa da Democracia",
+      "sigla": "PNDD",
+      "pai": "3619"
+    },
+    {
+      "codigo": "69583",
+      "nome": "Procuradoria Nacional da União de Políticas Públicas",
+      "sigla": "PNPP",
+      "pai": "3619"
+    },
+    {
+      "codigo": "318479",
+      "nome": "Comitê Técnico de Acompanhamento e Monitoramento de Riscos Fiscais Judiciais",
+      "sigla": "CTAMRFJ",
+      "pai": "318478",
+      "colegiada": true
+    },
+    {
+      "codigo": "77635",
+      "nome": "Procuradoria Regional Federal da 3ª Região",
+      "sigla": "PRF-3R",
+      "pai": "69685"
+    },
+    {
+      "codigo": "309200",
+      "nome": "Subprocuradoria Federal de Contencioso",
+      "sigla": "SubCont",
+      "pai": "69685"
+    },
+    {
+      "codigo": "96379",
+      "nome": "Procuradoria Regional Federal da 1ª Região",
+      "sigla": "PRF-1R",
+      "pai": "69685"
+    },
+    {
+      "codigo": "301137",
+      "nome": "Procuradoria Regional Federal da 6ª Região",
+      "sigla": "PRF6",
+      "pai": "69685"
+    },
+    {
+      "codigo": "77634",
+      "nome": "Procuradoria Regional Federal da 2ª Região",
+      "sigla": "PRF-2R",
+      "pai": "69685"
+    },
+    {
+      "codigo": "99799",
+      "nome": "Procuradoria Regional Federal da 4ª Região",
+      "sigla": "PRF-4R",
+      "pai": "69685"
+    },
+    {
+      "codigo": "290067",
+      "nome": "Subprocuradoria Federal de Cobrança e Recuperação de Créditos",
+      "sigla": "SubCOB",
+      "pai": "69685"
+    },
+    {
+      "codigo": "220923",
+      "nome": "Subprocuradoria-Geral Federal",
+      "sigla": "SUBPGF",
+      "pai": "69685"
+    },
+    {
+      "codigo": "86565",
+      "nome": "Procuradoria Regional Federal da 5ª Região",
+      "sigla": "PRF-5R",
+      "pai": "69685"
+    },
+    {
+      "codigo": "112968",
+      "nome": "Subprocuradoria Federal de Consultoria Jurídica",
+      "sigla": "SubCONSU",
+      "pai": "69685"
+    },
+    {
+      "codigo": "485149",
+      "nome": "Consultoria Nacional da União de Defesa Extrajudicial de Agentes Públicos",
+      "sigla": "CONDEAP",
+      "pai": "484729"
+    },
+    {
+      "codigo": "485130",
+      "nome": "Consultoria Nacional da União de Defesa Extrajudicial de Políticas Públicas",
+      "sigla": "CONDEPP",
+      "pai": "484729"
+    },
+    {
+      "codigo": "309164",
+      "nome": "Consultoria Nacional da União de Assuntos Jurídicos Internos e Estratégicos",
+      "sigla": "CONAJE",
+      "pai": "309163"
+    },
+    {
+      "codigo": "309169",
+      "nome": "Consultoria Nacional da União de Terceirizações",
+      "sigla": "CONTER",
+      "pai": "309163"
+    },
+    {
+      "codigo": "309168",
+      "nome": "Consultoria Nacional da União de Servidor e Patrimônio",
+      "sigla": "CONSEP",
+      "pai": "309163"
+    },
+    {
+      "codigo": "309167",
+      "nome": "Consultoria Nacional da União de Serviços",
+      "sigla": "CONSER",
+      "pai": "309163"
+    },
+    {
+      "codigo": "309166",
+      "nome": "Consultoria Nacional da União de Engenharia",
+      "sigla": "CONENG",
+      "pai": "309163"
+    },
+    {
+      "codigo": "309165",
+      "nome": "Consultoria Nacional da União de Aquisições",
+      "sigla": "CONAQ",
+      "pai": "309163"
+    },
+    {
+      "codigo": "61369",
+      "nome": "Departamento de Informação e Gestão Consultiva",
+      "sigla": "DEINF",
+      "pai": "270328"
+    },
+    {
+      "codigo": "242234",
+      "nome": "Câmara de Mediação e de Conciliação da Administração Pública Federal",
+      "sigla": "CCAF",
+      "pai": "270328"
+    },
+    {
+      "codigo": "61366",
+      "nome": "Consultoria Nacional da União de Uniformização",
+      "sigla": "CONUNI",
+      "pai": "270328"
+    },
+    {
+      "codigo": "70917",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DGEP",
+      "pai": "70352"
+    },
+    {
+      "codigo": "16073",
+      "nome": "Diretoria de Planejamento, Orçamento, Finanças e Contabilidade",
+      "sigla": "DPOF",
+      "pai": "70352"
+    },
+    {
+      "codigo": "300773",
+      "nome": "Diretoria de Desenvolvimento Profissional",
+      "sigla": "DPRO",
+      "pai": "70352"
+    },
+    {
+      "codigo": "270338",
+      "nome": "Diretoria de Logística e Gestão Documental",
+      "sigla": "DLOG",
+      "pai": "70352"
+    },
+    {
+      "codigo": "112976",
+      "nome": "Departamento de Tecnologia da Informação",
+      "sigla": "DTI",
+      "pai": "300705"
+    },
+    {
+      "codigo": "300708",
+      "nome": "Departamento de Governança Corporativa",
+      "sigla": "DGC",
+      "pai": "300705"
+    },
+    {
+      "codigo": "300774",
+      "nome": "Departamento de Transformação Digital e Inovação",
+      "sigla": "DIGI",
+      "pai": "300705"
+    },
+    {
+      "codigo": "112966",
+      "nome": "Procuradoria Nacional Federal de Contencioso",
+      "sigla": "ProcCont",
+      "pai": "309200"
+    },
+    {
+      "codigo": "300833",
+      "nome": "Procuradoria Nacional Federal de Contencioso Previdenciário",
+      "sigla": "ProcPrev",
+      "pai": "309200"
+    },
+    {
+      "codigo": "309199",
+      "nome": "Procuradoria Nacional Federal de Cobrança Extrajudicial",
+      "sigla": "PNFEXTRA",
+      "pai": "290067"
+    },
+    {
+      "codigo": "309198",
+      "nome": "Procuradoria Nacional Federal de Cobrança Judicial",
+      "sigla": "PNFCJUD",
+      "pai": "290067"
+    },
+    {
+      "codigo": "309192",
+      "nome": "Corregedoria",
+      "sigla": "CORREG/PGF",
+      "pai": "220923"
+    },
+    {
+      "codigo": "309196",
+      "nome": "Departamento de Administração e Governança de Pessoas",
+      "sigla": "DAGPES",
+      "pai": "220923"
+    },
+    {
+      "codigo": "290307",
+      "nome": "Departamento de Gestão e Cálculos",
+      "sigla": "DG",
+      "pai": "220923"
+    },
+    {
+      "codigo": "309203",
+      "nome": "Consultoria Federal em Gestão Pública",
+      "sigla": "CFGEP",
+      "pai": "112968"
+    },
+    {
+      "codigo": "309202",
+      "nome": "Consultoria Federal em Políticas Públicas",
+      "sigla": "CFPOP",
+      "pai": "112968"
+    },
+    {
+      "codigo": "309205",
+      "nome": "Consultoria Federal em Educação, Ciência, Tecnologia e Inovação",
+      "sigla": "CFEDU",
+      "pai": "112968"
+    },
+    {
+      "codigo": "309204",
+      "nome": "Consultoria Federal em Regulação Econômica",
+      "sigla": "CFREG",
+      "pai": "112968"
+    },
+    {
+      "codigo": "484769",
+      "nome": "Procuradoria Nacional Federal de Assuntos Extrajudiciais",
+      "sigla": "PRONAEX",
+      "pai": "112968"
+    }
+  ],
+  "ato_interno": 594,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 46 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,331 @@
+{
+  "id": "est:ministerio-da-cultura",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Cultura no SIORG",
+  "resumo": "43 unidades criadas por lei ou decreto e 7 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-cultura",
+  "siorg": "308821",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "217100",
+      "nome": "Comissão Interministerial Brasil 200 Anos",
+      "sigla": "CMIB200",
+      "pai": "308821",
+      "colegiada": true
+    },
+    {
+      "codigo": "308865",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308821"
+    },
+    {
+      "codigo": "310525",
+      "nome": "Assessoria Especial de Assuntos Internacionais",
+      "sigla": "AEAI",
+      "pai": "308821"
+    },
+    {
+      "codigo": "475569",
+      "nome": "Secretaria de Economia Criativa",
+      "sigla": "SEC",
+      "pai": "308821"
+    },
+    {
+      "codigo": "310532",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308821"
+    },
+    {
+      "codigo": "309027",
+      "nome": "Secretaria de Cidadania e Diversidade Cultural",
+      "sigla": "SCDC",
+      "pai": "308821"
+    },
+    {
+      "codigo": "308998",
+      "nome": "Secretaria de Articulação Federativa e Comitês de Cultura",
+      "sigla": "SAFCC",
+      "pai": "308821"
+    },
+    {
+      "codigo": "310528",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308821"
+    },
+    {
+      "codigo": "309039",
+      "nome": "Secretaria de Fomento e Incentivo à Cultura",
+      "sigla": "SEFIC",
+      "pai": "308821"
+    },
+    {
+      "codigo": "308866",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308821"
+    },
+    {
+      "codigo": "1942",
+      "nome": "Conselho Nacional de Política Cultural",
+      "sigla": "CNPC",
+      "pai": "308821",
+      "colegiada": true
+    },
+    {
+      "codigo": "310529",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308821"
+    },
+    {
+      "codigo": "564971",
+      "nome": "Comissão Intergestores Tripartite do Sistema Nacional de Cultura",
+      "sigla": "CITSNC",
+      "pai": "308821",
+      "colegiada": true
+    },
+    {
+      "codigo": "3662",
+      "nome": "Secretaria do Audiovisual",
+      "sigla": "SAV",
+      "pai": "308821"
+    },
+    {
+      "codigo": "3508",
+      "nome": "Comissão Nacional de Incentivo à Cultura",
+      "sigla": "CNIC",
+      "pai": "308821",
+      "colegiada": true
+    },
+    {
+      "codigo": "308864",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308821"
+    },
+    {
+      "codigo": "308863",
+      "nome": "Gabinete Ministerial",
+      "sigla": "GM",
+      "pai": "308821"
+    },
+    {
+      "codigo": "310521",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308821"
+    },
+    {
+      "codigo": "310523",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308821"
+    },
+    {
+      "codigo": "400069",
+      "nome": "Comitê Executivo do Plano Nacional de Cultura",
+      "sigla": "CEPNC",
+      "pai": "308821",
+      "colegiada": true
+    },
+    {
+      "codigo": "309046",
+      "nome": "Secretaria de Formação Artística e Cultural, Livro e Leitura",
+      "sigla": "SEFLI",
+      "pai": "308821"
+    },
+    {
+      "codigo": "230564",
+      "nome": "Secretaria de Direitos Autorais e Intelectuais",
+      "sigla": "SDAI",
+      "pai": "308821"
+    },
+    {
+      "codigo": "309041",
+      "nome": "Diretoria de Desenvolvimento da Economia Criativa",
+      "sigla": "DESEC",
+      "pai": "475569"
+    },
+    {
+      "codigo": "309042",
+      "nome": "Diretoria de Políticas Para Trabalhadores da Cultura e da Economia Criativa",
+      "sigla": "DTRAC",
+      "pai": "475569"
+    },
+    {
+      "codigo": "309031",
+      "nome": "Diretoria de Promoção de Culturas Tradicionais e Populares",
+      "sigla": "DPCTP",
+      "pai": "309027"
+    },
+    {
+      "codigo": "309030",
+      "nome": "Diretoria de Promoção da Diversidade Cultural",
+      "sigla": "DPDC",
+      "pai": "309027"
+    },
+    {
+      "codigo": "309029",
+      "nome": "Diretoria da Política Nacional de Cultura Viva",
+      "sigla": "DPNCV",
+      "pai": "309027"
+    },
+    {
+      "codigo": "309002",
+      "nome": "Diretoria de Assistência Técnica a Estados, Distrito Federal e Municípios",
+      "sigla": "DAT",
+      "pai": "308998"
+    },
+    {
+      "codigo": "309001",
+      "nome": "Diretoria de Articulação e Governança",
+      "sigla": "DAG",
+      "pai": "308998"
+    },
+    {
+      "codigo": "309000",
+      "nome": "Diretoria do Sistema Nacional de Cultura",
+      "sigla": "DSNC",
+      "pai": "308998"
+    },
+    {
+      "codigo": "309044",
+      "nome": "Diretoria de Fomento Direto",
+      "sigla": "DFDIR",
+      "pai": "309039"
+    },
+    {
+      "codigo": "309043",
+      "nome": "Diretoria de Fomento Indireto",
+      "sigla": "DFIND",
+      "pai": "309039"
+    },
+    {
+      "codigo": "309052",
+      "nome": "Diretoria de Formação e Inovação Audiovisual",
+      "sigla": "DFIA",
+      "pai": "3662"
+    },
+    {
+      "codigo": "309053",
+      "nome": "Diretoria de Preservação e Difusão Audiovisual",
+      "sigla": "DPDA",
+      "pai": "3662"
+    },
+    {
+      "codigo": "310550",
+      "nome": "Subsecretaria de Espaços e Equipamentos Culturais",
+      "sigla": "SEEC",
+      "pai": "308864"
+    },
+    {
+      "codigo": "310548",
+      "nome": "Subsecretaria de Gestão Estratégica",
+      "sigla": "SGE",
+      "pai": "308864"
+    },
+    {
+      "codigo": "605910",
+      "nome": "Subsecretaria de Tecnologia da Informação e Inovação",
+      "sigla": "STII",
+      "pai": "308864"
+    },
+    {
+      "codigo": "310541",
+      "nome": "Subsecretaria de Gestão Interna",
+      "sigla": "SGI",
+      "pai": "308864"
+    },
+    {
+      "codigo": "310546",
+      "nome": "Subsecretaria de Gestão de Prestação e Tomada de Contas",
+      "sigla": "SGPTC",
+      "pai": "308864"
+    },
+    {
+      "codigo": "309048",
+      "nome": "Diretoria de Educação e Formação Artística",
+      "sigla": "DIEFA",
+      "pai": "309046"
+    },
+    {
+      "codigo": "309049",
+      "nome": "Diretoria de Livro, Leitura, Literatura e Bibliotecas",
+      "sigla": "DLLLB",
+      "pai": "309046"
+    },
+    {
+      "codigo": "309036",
+      "nome": "Diretoria de Gestão Coletiva de Direitos Autorais",
+      "sigla": "DIGEC",
+      "pai": "230564"
+    },
+    {
+      "codigo": "309035",
+      "nome": "Diretoria da Regulação de Direitos Autorais",
+      "sigla": "DIREG",
+      "pai": "230564"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "261",
+      "nome": "Fundação Casa de Rui Barbosa",
+      "sigla": "FCRB"
+    },
+    {
+      "codigo": "984",
+      "nome": "Fundação Biblioteca Nacional",
+      "sigla": "FBN"
+    },
+    {
+      "codigo": "1782",
+      "nome": "Fundação Cultural Palmares",
+      "sigla": "FCP"
+    },
+    {
+      "codigo": "2045",
+      "nome": "Instituto do Patrimônio Histórico e Artístico Nacional",
+      "sigla": "IPHAN"
+    },
+    {
+      "codigo": "2330",
+      "nome": "Fundação Nacional de Artes",
+      "sigla": "FUNARTE"
+    },
+    {
+      "codigo": "100584",
+      "nome": "Instituto Brasileiro de Museus",
+      "sigla": "IBRAM"
+    },
+    {
+      "codigo": "57682",
+      "nome": "Agência Nacional do Cinema",
+      "sigla": "ANCINE",
+      "mapa": "org:ancine"
+    }
+  ],
+  "ato_interno": 152,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308821 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

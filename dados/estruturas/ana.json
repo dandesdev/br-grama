@@ -1,0 +1,392 @@
+{
+  "id": "est:ana",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Águas e Saneamento Básico no SIORG",
+  "resumo": "60 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:ana",
+  "siorg": "46876",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "257178",
+      "nome": "Diretoria Área 2",
+      "sigla": "ÁREA 2",
+      "pai": "46876"
+    },
+    {
+      "codigo": "51111",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DC",
+      "pai": "46876",
+      "colegiada": true
+    },
+    {
+      "codigo": "72028",
+      "nome": "Assessoria Especial Internacional",
+      "sigla": "ASINT",
+      "pai": "46876"
+    },
+    {
+      "codigo": "257192",
+      "nome": "Diretoria Área 1",
+      "sigla": "ÁREA 1",
+      "pai": "46876"
+    },
+    {
+      "codigo": "52910",
+      "nome": "Superintendência de Tecnologia da Informação",
+      "sigla": "STI",
+      "pai": "46876"
+    },
+    {
+      "codigo": "52911",
+      "nome": "Superintendência de Administração, Finanças e Gestão de Pessoas",
+      "sigla": "SAF",
+      "pai": "46876"
+    },
+    {
+      "codigo": "51344",
+      "nome": "Corregedoria",
+      "sigla": "COR",
+      "pai": "46876"
+    },
+    {
+      "codigo": "275298",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "46876"
+    },
+    {
+      "codigo": "275305",
+      "nome": "Assessoria Especial de Qualidade Regulatória",
+      "sigla": "ASREG",
+      "pai": "46876"
+    },
+    {
+      "codigo": "257189",
+      "nome": "Diretoria Área 3",
+      "sigla": "ÁREA 3",
+      "pai": "46876"
+    },
+    {
+      "codigo": "52892",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "46876"
+    },
+    {
+      "codigo": "52889",
+      "nome": "Secretaria-Geral",
+      "sigla": "SGE",
+      "pai": "46876"
+    },
+    {
+      "codigo": "257195",
+      "nome": "Diretoria Área 4",
+      "sigla": "ÁREA 4",
+      "pai": "46876"
+    },
+    {
+      "codigo": "72030",
+      "nome": "Auditoria Interna",
+      "sigla": "AUD",
+      "pai": "46876"
+    },
+    {
+      "codigo": "52890",
+      "nome": "Gabinete do Diretor-Presidente",
+      "sigla": "GAB",
+      "pai": "46876"
+    },
+    {
+      "codigo": "51024",
+      "nome": "Procuradoria Federal Especializada junto a ANA",
+      "sigla": "PFA",
+      "pai": "46876"
+    },
+    {
+      "codigo": "88852",
+      "nome": "Assessoria Especial de Governança",
+      "sigla": "ASGOV",
+      "pai": "46876"
+    },
+    {
+      "codigo": "89267",
+      "nome": "Assessoria Especial de Assuntos Parlamentares",
+      "sigla": "ASPAR",
+      "pai": "46876"
+    },
+    {
+      "codigo": "52904",
+      "nome": "Superintendência de Estudos Hídricos e Socioeconômicos",
+      "sigla": "SHE",
+      "pai": "257178"
+    },
+    {
+      "codigo": "271455",
+      "nome": "Superintendência de Regulação de Serviços Hídricos e Segurança de Barragens",
+      "sigla": "SRB",
+      "pai": "257178"
+    },
+    {
+      "codigo": "52907",
+      "nome": "Superintendência de Gestão da Rede Hidrometeorológica",
+      "sigla": "SGH",
+      "pai": "257178"
+    },
+    {
+      "codigo": "203102",
+      "nome": "Coordenação de Articulação e Planejamento  Internacional",
+      "sigla": "COAPI",
+      "pai": "72028"
+    },
+    {
+      "codigo": "52909",
+      "nome": "Superintendência de Apoio ao SINGREH e às Agências Infranacionais de Regulação do Saneamento Básico",
+      "sigla": "SAS",
+      "pai": "257192"
+    },
+    {
+      "codigo": "77007",
+      "nome": "Superintendência de Planos, Programas e Projetos",
+      "sigla": "SPP",
+      "pai": "257192"
+    },
+    {
+      "codigo": "459589",
+      "nome": "Gerência Executiva de Soluções Digitais e Infraestrutura de Tecnologia da Informação",
+      "sigla": "GESIN",
+      "pai": "52910"
+    },
+    {
+      "codigo": "222045",
+      "nome": "Coordenação de Planejamento e Contratos de TIC",
+      "sigla": "CPLAC",
+      "pai": "52910"
+    },
+    {
+      "codigo": "93946",
+      "nome": "Coordenação de Governança de Tecnologia da Informação",
+      "sigla": "COGTI",
+      "pai": "52910"
+    },
+    {
+      "codigo": "89270",
+      "nome": "Superintendência Adjunta de Gestão de Pessoas",
+      "sigla": "SAGEP",
+      "pai": "52911"
+    },
+    {
+      "codigo": "89272",
+      "nome": "Superintendência Adjunta de Execução Orçamentária, Financeira e Contábil",
+      "sigla": "SAGEF",
+      "pai": "52911"
+    },
+    {
+      "codigo": "459692",
+      "nome": "Superintendência Adjunta de Licitações e Contratos",
+      "sigla": "SALIC",
+      "pai": "52911"
+    },
+    {
+      "codigo": "203090",
+      "nome": "Superintendência Adjunta de Recursos Logísticos",
+      "sigla": "SAREL",
+      "pai": "52911"
+    },
+    {
+      "codigo": "222043",
+      "nome": "Coordenação de Procedimentos Correicionais",
+      "sigla": "CPROC",
+      "pai": "51344"
+    },
+    {
+      "codigo": "307092",
+      "nome": "Coordenação de Gestão da Integridade",
+      "sigla": "CGINT",
+      "pai": "51344"
+    },
+    {
+      "codigo": "275301",
+      "nome": "Coordenação de Ouvidoria",
+      "sigla": "COOUV",
+      "pai": "275298"
+    },
+    {
+      "codigo": "307047",
+      "nome": "Coordenação de Modernização e Governança Regulatória",
+      "sigla": "COGEM",
+      "pai": "275305"
+    },
+    {
+      "codigo": "275306",
+      "nome": "Coordenação de Análise de Impacto Regulatório",
+      "sigla": "COAIR",
+      "pai": "275305"
+    },
+    {
+      "codigo": "307046",
+      "nome": "Coordenação de Monitoramento e Avaliação do Resultado Regulatório",
+      "sigla": "CMARR",
+      "pai": "275305"
+    },
+    {
+      "codigo": "52908",
+      "nome": "Superintendência de Operações e Eventos Críticos",
+      "sigla": "SOE",
+      "pai": "257189"
+    },
+    {
+      "codigo": "271461",
+      "nome": "Superintendência de Regulação de Saneamento Básico",
+      "sigla": "SSB",
+      "pai": "257189"
+    },
+    {
+      "codigo": "257005",
+      "nome": "Coordenação de Apoio a Relações Públicas, Cerimonial e Eventos",
+      "sigla": "CARPE",
+      "pai": "52892"
+    },
+    {
+      "codigo": "516952",
+      "nome": "Coordenação Técnica de Comunicação Social",
+      "sigla": "CTCOM",
+      "pai": "52892"
+    },
+    {
+      "codigo": "222039",
+      "nome": "Coordenação de Relacionamento com a Imprensa e Comunicação Institucional",
+      "sigla": "CORIC",
+      "pai": "52892"
+    },
+    {
+      "codigo": "275289",
+      "nome": "Coordenação de Gestão de Publicações e Transparência",
+      "sigla": "COGPT",
+      "pai": "52889"
+    },
+    {
+      "codigo": "222044",
+      "nome": "Coordenação de Suporte e Governança das Decisões",
+      "sigla": "COSGD",
+      "pai": "52889"
+    },
+    {
+      "codigo": "459489",
+      "nome": "Coordenação de Proteção de Dados Pessoais",
+      "sigla": "COPDA",
+      "pai": "52889"
+    },
+    {
+      "codigo": "69305",
+      "nome": "Coordenação do Centro de Documentação",
+      "sigla": "CEDOC",
+      "pai": "52889"
+    },
+    {
+      "codigo": "113696",
+      "nome": "Superintendência de Regulação de Usos de Recursos Hídricos",
+      "sigla": "SRE",
+      "pai": "257195"
+    },
+    {
+      "codigo": "52903",
+      "nome": "Superintendência de Fiscalização",
+      "sigla": "SFI",
+      "pai": "257195"
+    },
+    {
+      "codigo": "203075",
+      "nome": "Coordenação de Auditorias",
+      "sigla": "COAUD",
+      "pai": "72030"
+    },
+    {
+      "codigo": "203074",
+      "nome": "Coordenação de Planejamento e Acompanhamento de Auditorias",
+      "sigla": "COPAC",
+      "pai": "72030"
+    },
+    {
+      "codigo": "103485",
+      "nome": "Coordenação-Geral de Apoio e Administração",
+      "sigla": "CGAAD",
+      "pai": "52890"
+    },
+    {
+      "codigo": "255484",
+      "nome": "Coordenação-Geral de Apoio Administrativo da Procuradoria",
+      "sigla": "COAAP",
+      "pai": "51024"
+    },
+    {
+      "codigo": "307100",
+      "nome": "Coordenação de Mediação, Conciliação e Arbitragem",
+      "sigla": "COMCA",
+      "pai": "51024"
+    },
+    {
+      "codigo": "256204",
+      "nome": "Coordenação-Geral de Suporte e Apoio a Dívida Ativa",
+      "sigla": "CGSDA",
+      "pai": "51024"
+    },
+    {
+      "codigo": "256198",
+      "nome": "Coordenação de Assuntos Regulatórios e Finalísticos",
+      "sigla": "COARF",
+      "pai": "51024"
+    },
+    {
+      "codigo": "256199",
+      "nome": "Coordenação de Matéria Administrativa",
+      "sigla": "COMAD",
+      "pai": "51024"
+    },
+    {
+      "codigo": "636451",
+      "nome": "Coordenação de Gestão Estratégica, Riscos e Apoio à Governança",
+      "sigla": "CEGOV",
+      "pai": "88852"
+    },
+    {
+      "codigo": "89271",
+      "nome": "Coordenação de Orçamento e Finanças",
+      "sigla": "COORF",
+      "pai": "88852"
+    },
+    {
+      "codigo": "89268",
+      "nome": "Coordenação de Gestão Orçamentária",
+      "sigla": "COGEO",
+      "pai": "88852"
+    },
+    {
+      "codigo": "52891",
+      "nome": "Coordenação de Assuntos Parlamentares",
+      "sigla": "COPAR",
+      "pai": "89267"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 46876 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

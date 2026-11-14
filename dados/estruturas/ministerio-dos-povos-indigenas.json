@@ -1,0 +1,199 @@
+{
+  "id": "est:ministerio-dos-povos-indigenas",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério dos Povos Indígenas no SIORG",
+  "resumo": "26 unidades criadas por lei ou decreto e 1 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-dos-povos-indigenas",
+  "siorg": "308824",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "309023",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "ASPAD",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309090",
+      "nome": "Secretaria Nacional de Gestão Ambiental e Territorial Indígena",
+      "sigla": "SEGAT",
+      "pai": "308824"
+    },
+    {
+      "codigo": "308853",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309012",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309055",
+      "nome": "Secretaria Nacional de Direitos Territoriais Indígenas",
+      "sigla": "SEDAT",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309038",
+      "nome": "Departamento de Mediação e Conciliação de Conflitos Fundiários Indígenas",
+      "sigla": "DEMED",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309032",
+      "nome": "Assessoria Internacional",
+      "sigla": "ASSINT",
+      "pai": "308824"
+    },
+    {
+      "codigo": "318329",
+      "nome": "Comitê Gestor da Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas",
+      "sigla": "CGPNGATI",
+      "pai": "308824",
+      "colegiada": true
+    },
+    {
+      "codigo": "308851",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308824"
+    },
+    {
+      "codigo": "308850",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309026",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309025",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308824"
+    },
+    {
+      "codigo": "308852",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309037",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308824"
+    },
+    {
+      "codigo": "309101",
+      "nome": "Secretaria Nacional de Articulação e Promoção de Direitos Indígenas",
+      "sigla": "SEART",
+      "pai": "308824"
+    },
+    {
+      "codigo": "330563",
+      "nome": "Comitê Interministerial de Desintrusão de Terras Indígenas",
+      "sigla": "CIDTI",
+      "pai": "308824",
+      "colegiada": true
+    },
+    {
+      "codigo": "229192",
+      "nome": "Conselho Nacional de Política Indigenísta",
+      "sigla": "CNPI",
+      "pai": "308824",
+      "colegiada": true
+    },
+    {
+      "codigo": "309092",
+      "nome": "Departamento de Gestão Ambiental, Territorial e Promoção ao Bem Viver Indígena",
+      "sigla": "DEGAT",
+      "pai": "309090"
+    },
+    {
+      "codigo": "309093",
+      "nome": "Departamento de Justiça Climática",
+      "sigla": "DEJUC",
+      "pai": "309090"
+    },
+    {
+      "codigo": "309058",
+      "nome": "Departamento de Proteção Territorial",
+      "sigla": "DEPRO",
+      "pai": "309055"
+    },
+    {
+      "codigo": "309059",
+      "nome": "Departamento de Povos Indígenas Isolados e de Recente Contato",
+      "sigla": "DEPIR",
+      "pai": "309055"
+    },
+    {
+      "codigo": "473869",
+      "nome": "Diretoria de Gestão e Administração",
+      "sigla": "DGA",
+      "pai": "308851"
+    },
+    {
+      "codigo": "309103",
+      "nome": "Departamento de Promoção da Política Indigenista",
+      "sigla": "DEPIN",
+      "pai": "309101"
+    },
+    {
+      "codigo": "335663",
+      "nome": "Comitê para a Promoção de Políticas Públicas de Proteção Social dos Povos Indígenas",
+      "sigla": "CPPSPI",
+      "pai": "309101",
+      "colegiada": true
+    },
+    {
+      "codigo": "309104",
+      "nome": "Departamento de Línguas e Memórias Indígenas",
+      "sigla": "DELING",
+      "pai": "309101"
+    },
+    {
+      "codigo": "330603",
+      "nome": "Grupo Técnico",
+      "sigla": "GT-CIDTI",
+      "pai": "330563",
+      "colegiada": true
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "173",
+      "nome": "Fundação Nacional dos Povos Indígenas",
+      "sigla": "FUNAI",
+      "mapa": "org:funai"
+    }
+  ],
+  "ato_interno": 34,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308824 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

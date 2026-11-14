@@ -1,0 +1,113 @@
+{
+  "id": "est:banco-central",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Banco Central do Brasil no SIORG",
+  "resumo": "13 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:banco-central",
+  "siorg": "89",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "317847",
+      "nome": "Comitê de Regulação e Fiscaliz. do Mercados Financeiro, de Capitais,de Seguros, de Previdência e Capitalização",
+      "sigla": "COREMEC",
+      "pai": "89",
+      "colegiada": true
+    },
+    {
+      "codigo": "317849",
+      "nome": "Fórum Brasileiro de Educação Financeira",
+      "sigla": "FBEF",
+      "pai": "89",
+      "colegiada": true
+    },
+    {
+      "codigo": "120561",
+      "nome": "Área de Cidadania e Supervisão de Conduta",
+      "sigla": "Direc",
+      "pai": "89"
+    },
+    {
+      "codigo": "32061",
+      "nome": "Conselho de Controle de Atividades Financeiras",
+      "sigla": "Coaf",
+      "pai": "89",
+      "colegiada": true
+    },
+    {
+      "codigo": "20728",
+      "nome": "Área de Fiscalização",
+      "sigla": "Difis",
+      "pai": "89"
+    },
+    {
+      "codigo": "20717",
+      "nome": "Área de Administração",
+      "sigla": "Dirad",
+      "pai": "89"
+    },
+    {
+      "codigo": "20777",
+      "nome": "Área de Assuntos Internacionais e de Gestão de Risco Corporativo",
+      "sigla": "Direx",
+      "pai": "89"
+    },
+    {
+      "codigo": "26408",
+      "nome": "Área de Organização do Sistema Financeiro e de Resolução",
+      "sigla": "Diorf",
+      "pai": "89"
+    },
+    {
+      "codigo": "20789",
+      "nome": "Área de Política Monetária",
+      "sigla": "Dipom",
+      "pai": "89"
+    },
+    {
+      "codigo": "20787",
+      "nome": "Área de Política Econômica",
+      "sigla": "Dipec",
+      "pai": "89"
+    },
+    {
+      "codigo": "20783",
+      "nome": "Área de Regulação",
+      "sigla": "Dinor",
+      "pai": "89"
+    },
+    {
+      "codigo": "317851",
+      "nome": "Grupo de Trabalho de Avaliação Nacional de Riscos de Lavagem de Dinheiro, Financiamento do Terrorism",
+      "sigla": "GTANRLDFT",
+      "pai": "32061",
+      "colegiada": true
+    },
+    {
+      "codigo": "247810",
+      "nome": "Plenário",
+      "sigla": "PLCoaf",
+      "pai": "32061",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 64,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 89 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

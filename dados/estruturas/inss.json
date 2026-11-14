@@ -1,0 +1,97 @@
+{
+  "id": "est:inss",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Instituto Nacional do Seguro Social no SIORG",
+  "resumo": "11 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:inss",
+  "siorg": "1934",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "239116",
+      "nome": "Diretoria de Governança, Planejamento e Inovação",
+      "sigla": "DIGOV",
+      "pai": "1934"
+    },
+    {
+      "codigo": "103566",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "1934"
+    },
+    {
+      "codigo": "2168",
+      "nome": "Gabinete",
+      "sigla": "GABPRE",
+      "pai": "1934"
+    },
+    {
+      "codigo": "239066",
+      "nome": "Diretoria de Tecnologia da Informação",
+      "sigla": "DTI",
+      "pai": "1934"
+    },
+    {
+      "codigo": "41090",
+      "nome": "Corregedoria-Geral",
+      "sigla": "CORREG",
+      "pai": "1934"
+    },
+    {
+      "codigo": "2882",
+      "nome": "Auditoria-Geral",
+      "sigla": "AUDGER",
+      "pai": "1934"
+    },
+    {
+      "codigo": "289933",
+      "nome": "Diretoria de Gestão de Pessoas",
+      "sigla": "DGP",
+      "pai": "1934"
+    },
+    {
+      "codigo": "54897",
+      "nome": "Diretoria de Orçamento, Finanças e Logística",
+      "sigla": "DIROFL",
+      "pai": "1934"
+    },
+    {
+      "codigo": "2881",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "1934"
+    },
+    {
+      "codigo": "2892",
+      "nome": "Diretoria de Benefícios e Relacionamento com o Cidadão",
+      "sigla": "DIRBEN",
+      "pai": "1934"
+    },
+    {
+      "codigo": "557070",
+      "nome": "Comitê Gestor da Carreira do Seguro Social",
+      "sigla": "CGCSS",
+      "pai": "289933",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 73,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 1934 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

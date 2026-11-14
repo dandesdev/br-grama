@@ -1,0 +1,151 @@
+{
+  "id": "est:previc",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Superintendência Nacional de Previdência Complementar no SIORG",
+  "resumo": "20 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:previc",
+  "siorg": "105915",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "220449",
+      "nome": "Coordenação-Geral de Inteligência e Gestão de Riscos",
+      "sigla": "CGIR",
+      "pai": "105915"
+    },
+    {
+      "codigo": "105920",
+      "nome": "Corregedoria",
+      "sigla": "CORR",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106018",
+      "nome": "Coordenação-Geral de Suporte à Diretoria Colegiada",
+      "sigla": "CGDC",
+      "pai": "105915"
+    },
+    {
+      "codigo": "304801",
+      "nome": "Cordenação-Geral de Projetos",
+      "sigla": "CGPJ",
+      "pai": "105915"
+    },
+    {
+      "codigo": "105917",
+      "nome": "Procuradoria Federal Especializada",
+      "sigla": "PFE",
+      "pai": "105915"
+    },
+    {
+      "codigo": "84812",
+      "nome": "Diretoria de  Normas",
+      "sigla": "DINOR",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106028",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDI",
+      "pai": "105915"
+    },
+    {
+      "codigo": "105919",
+      "nome": "Ouvidoria",
+      "sigla": "OUVI",
+      "pai": "105915"
+    },
+    {
+      "codigo": "83602",
+      "nome": "Diretoria de Fiscalização e Monitoramento",
+      "sigla": "DIFIS",
+      "pai": "105915"
+    },
+    {
+      "codigo": "95578",
+      "nome": "Diretoria de Licenciamento",
+      "sigla": "DILIC",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106084",
+      "nome": "Diretoria de Administração",
+      "sigla": "DIRAD",
+      "pai": "105915"
+    },
+    {
+      "codigo": "220470",
+      "nome": "Coordenação-Geral de Gestão Estratégica e Inovação Institucional",
+      "sigla": "CGGI",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106009",
+      "nome": "Assessoria de Comunicação Social e Parlamentar",
+      "sigla": "ASCSP",
+      "pai": "105915"
+    },
+    {
+      "codigo": "2452",
+      "nome": "Gabinete",
+      "sigla": "GABI",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106113",
+      "nome": "Escritório de Representação Nível 1 - São Paulo",
+      "sigla": "ERESP N1",
+      "pai": "105915"
+    },
+    {
+      "codigo": "105916",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DICOL",
+      "pai": "105915",
+      "colegiada": true
+    },
+    {
+      "codigo": "106120",
+      "nome": "Escritório de Representação Nível 1 - Rio de Janeiro",
+      "sigla": "CRERJ N1",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106136",
+      "nome": "Escritório de Representação Nível 2 - Rio Grande do Sul",
+      "sigla": "CERS",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106127",
+      "nome": "Escritório de Representação Nível 2 - MG",
+      "sigla": "ERMG N2",
+      "pai": "105915"
+    },
+    {
+      "codigo": "106132",
+      "nome": "Escritório de Representação Nível 2 - Pernambuco",
+      "sigla": "CEPE N2",
+      "pai": "105915"
+    }
+  ],
+  "ato_interno": 40,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 105915 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

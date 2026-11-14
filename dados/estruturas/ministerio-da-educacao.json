@@ -1,0 +1,1075 @@
+{
+  "id": "est:ministerio-da-educacao",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério da Educação no SIORG",
+  "resumo": "71 unidades criadas por lei ou decreto e 120 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-da-educacao",
+  "siorg": "244",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "75909",
+      "nome": "Comissão Nacional de Alfabetização e Educação de Jovens e Adultos",
+      "sigla": "CNA",
+      "pai": "244",
+      "colegiada": true
+    },
+    {
+      "codigo": "766",
+      "nome": "Secretaria de Educação Superior",
+      "sigla": "SESU",
+      "pai": "244"
+    },
+    {
+      "codigo": "252",
+      "nome": "Instituto Nacional de Educação de Surdos",
+      "sigla": "INES",
+      "pai": "244"
+    },
+    {
+      "codigo": "246",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "244"
+    },
+    {
+      "codigo": "329443",
+      "nome": "Secretaria de Gestão da Informação, Inovação e Avaliação de Políticas Educacionais",
+      "sigla": "SEGAPE",
+      "pai": "244"
+    },
+    {
+      "codigo": "247731",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "244"
+    },
+    {
+      "codigo": "317357",
+      "nome": "Grupo de Trabalho Interministerial",
+      "sigla": "GTI",
+      "pai": "244",
+      "colegiada": true
+    },
+    {
+      "codigo": "248",
+      "nome": "Conselho Nacional de Educação",
+      "sigla": "CNE",
+      "pai": "244",
+      "colegiada": true
+    },
+    {
+      "codigo": "384029",
+      "nome": "Comitê Gestor do Programa Pé-de-Meia",
+      "sigla": "CGPPM",
+      "pai": "244",
+      "colegiada": true
+    },
+    {
+      "codigo": "409349",
+      "nome": "Comitê de Participação do Fundo para custear e gerir a Poupança de Incentivo à Permanência e Conclusão Escolar",
+      "sigla": "CPFPIPCE",
+      "pai": "244",
+      "colegiada": true
+    },
+    {
+      "codigo": "404492",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "AECS",
+      "pai": "244"
+    },
+    {
+      "codigo": "309840",
+      "nome": "Secretaria de Articulação Intersetorial e com os Sistemas de Ensino",
+      "sigla": "SASE",
+      "pai": "244"
+    },
+    {
+      "codigo": "1977",
+      "nome": "Secretaria de Educação Profissional e Tecnológica",
+      "sigla": "SETEC",
+      "pai": "244"
+    },
+    {
+      "codigo": "504571",
+      "nome": "Comitê Executivo da Estratégia Nacional de Escolas Conectadas",
+      "sigla": "CEENEC",
+      "pai": "244",
+      "colegiada": true
+    },
+    {
+      "codigo": "245",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "244"
+    },
+    {
+      "codigo": "309089",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "244"
+    },
+    {
+      "codigo": "309843",
+      "nome": "Secretaria de Educação Continuada, Alfabetização de Jovens e Adultos, Diversidade e Inclusão",
+      "sigla": "SECADI",
+      "pai": "244"
+    },
+    {
+      "codigo": "1975",
+      "nome": "Secretaria de Educação Básica",
+      "sigla": "SEB",
+      "pai": "244"
+    },
+    {
+      "codigo": "251",
+      "nome": "Instituto Benjamin Constant",
+      "sigla": "IBC",
+      "pai": "244"
+    },
+    {
+      "codigo": "3243",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "244"
+    },
+    {
+      "codigo": "220839",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "244"
+    },
+    {
+      "codigo": "220838",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "244"
+    },
+    {
+      "codigo": "115734",
+      "nome": "Secretaria de Regulação e Supervisão da Educação Superior",
+      "sigla": "SERES",
+      "pai": "244"
+    },
+    {
+      "codigo": "94993",
+      "nome": "Diretoria de Modelos de Financiamento da Rede",
+      "sigla": "DMF",
+      "pai": "766"
+    },
+    {
+      "codigo": "122989",
+      "nome": "Diretoria de Desenvolvimento da Educação em Saúde",
+      "sigla": "DDES",
+      "pai": "766"
+    },
+    {
+      "codigo": "580530",
+      "nome": "Diretoria de Desenvolvimento Acadêmico",
+      "sigla": "DDA",
+      "pai": "766"
+    },
+    {
+      "codigo": "84704",
+      "nome": "Comissão Nacional de Residência Médica",
+      "sigla": "CNRM",
+      "pai": "766",
+      "colegiada": true
+    },
+    {
+      "codigo": "95001",
+      "nome": "Diretoria de Políticas de Acesso à Educação Superior",
+      "sigla": "DAPES",
+      "pai": "766"
+    },
+    {
+      "codigo": "329446",
+      "nome": "Diretoria de Monitoramento e Avaliação de Políticas Educacionais",
+      "sigla": "DMAPE",
+      "pai": "329443"
+    },
+    {
+      "codigo": "329445",
+      "nome": "Diretoria de Inovação, Estratégia Digital e Conhecimento",
+      "sigla": "DIED",
+      "pai": "329443"
+    },
+    {
+      "codigo": "583350",
+      "nome": "Diretoria de Governança e Integração de Dados",
+      "sigla": "DGID",
+      "pai": "329443"
+    },
+    {
+      "codigo": "19770",
+      "nome": "Secretaria-Executiva do Conselho",
+      "sigla": "SE",
+      "pai": "248"
+    },
+    {
+      "codigo": "116114",
+      "nome": "Câmara de Educação Superior",
+      "sigla": "CES",
+      "pai": "248",
+      "colegiada": true
+    },
+    {
+      "codigo": "116113",
+      "nome": "Câmara de Educação Básica",
+      "sigla": "CEB",
+      "pai": "248",
+      "colegiada": true
+    },
+    {
+      "codigo": "309845",
+      "nome": "Diretoria de Articulação Intersetorial",
+      "sigla": "DAI",
+      "pai": "309840"
+    },
+    {
+      "codigo": "309846",
+      "nome": "Diretoria de Articulação com os Sistemas de Ensino",
+      "sigla": "DASE",
+      "pai": "309840"
+    },
+    {
+      "codigo": "95081",
+      "nome": "Diretoria de Regulação e Supervisão da Educação Profissional e Tecnológica",
+      "sigla": "DRS",
+      "pai": "1977"
+    },
+    {
+      "codigo": "220749",
+      "nome": "Diretoria de Articulação e Fortalecimento da Educação Profissional e Tecnológica",
+      "sigla": "DAF",
+      "pai": "1977"
+    },
+    {
+      "codigo": "95075",
+      "nome": "Diretoria de Desenvolvimento da Rede Federal de Educação Profissional, Científica e Tecnológica",
+      "sigla": "DDR",
+      "pai": "1977"
+    },
+    {
+      "codigo": "578830",
+      "nome": "Diretoria de Políticas e Avaliação da Educação Profissional e Tecnológica",
+      "sigla": "DPA",
+      "pai": "1977"
+    },
+    {
+      "codigo": "247846",
+      "nome": "Assessoria de Gestão Técnica e Administrativa",
+      "sigla": "ASTEC",
+      "pai": "245"
+    },
+    {
+      "codigo": "247845",
+      "nome": "Assessoria de Cerimonial",
+      "sigla": "ASCER",
+      "pai": "245"
+    },
+    {
+      "codigo": "2538",
+      "nome": "Assessoria de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "245"
+    },
+    {
+      "codigo": "314808",
+      "nome": "Assessoria de Assuntos Internacionais",
+      "sigla": "AAI",
+      "pai": "245"
+    },
+    {
+      "codigo": "247844",
+      "nome": "Assessoria de Agenda",
+      "sigla": "ASSAG",
+      "pai": "245"
+    },
+    {
+      "codigo": "309856",
+      "nome": "Diretoria de Políticas de Educação Bilíngue de Surdos",
+      "sigla": "DIPEBS",
+      "pai": "309843"
+    },
+    {
+      "codigo": "309853",
+      "nome": "Diretoria de Políticas de Educação Especial na Perspectiva Inclusiva",
+      "sigla": "DIPEPI",
+      "pai": "309843"
+    },
+    {
+      "codigo": "404149",
+      "nome": "Diretoria de Políticas de Educação Escolar Indígena",
+      "sigla": "DIPEEI",
+      "pai": "309843"
+    },
+    {
+      "codigo": "309849",
+      "nome": "Diretoria de Políticas de Alfabetização e Educação de Jovens e Adultos",
+      "sigla": "DPAEJA",
+      "pai": "309843"
+    },
+    {
+      "codigo": "309848",
+      "nome": "Diretoria de Políticas de Educação do Campo e Educação Ambiental",
+      "sigla": "DIPECEA",
+      "pai": "309843"
+    },
+    {
+      "codigo": "314927",
+      "nome": "Diretoria de Políticas de Educação Étnico-Racial e Educação Escolar Quilombola",
+      "sigla": "DIPERQ",
+      "pai": "309843"
+    },
+    {
+      "codigo": "95044",
+      "nome": "Diretoria de Formação Docente e Valorização de Profissionais da Educação",
+      "sigla": "DIFOR",
+      "pai": "1975"
+    },
+    {
+      "codigo": "95055",
+      "nome": "Diretoria de Apoio à Gestão Educacional",
+      "sigla": "DAGE",
+      "pai": "1975"
+    },
+    {
+      "codigo": "403709",
+      "nome": "Diretoria de Incentivos a Estudantes da Educação Básica",
+      "sigla": "DIEB",
+      "pai": "1975"
+    },
+    {
+      "codigo": "314809",
+      "nome": "Diretoria de Monitoramento, Avaliação e Manutenção da Educação Básica",
+      "sigla": "DIMAM",
+      "pai": "1975"
+    },
+    {
+      "codigo": "324083",
+      "nome": "Comitê Estratégico Nacional do Compromisso",
+      "sigla": "Cenac",
+      "pai": "1975",
+      "colegiada": true
+    },
+    {
+      "codigo": "1976",
+      "nome": "Diretoria de Políticas e Diretrizes da Educação Integral Básica",
+      "sigla": "DPDI",
+      "pai": "1975"
+    },
+    {
+      "codigo": "214396",
+      "nome": "Comitê Gestor Nacional",
+      "sigla": "CGN",
+      "pai": "3243",
+      "colegiada": true
+    },
+    {
+      "codigo": "318562",
+      "nome": "Comitê Permanente de Avaliação de Custos na Educação Básica do Ministério da Educação",
+      "sigla": "COPACEB",
+      "pai": "3243",
+      "colegiada": true
+    },
+    {
+      "codigo": "218894",
+      "nome": "Comitê de Governança Digital",
+      "sigla": "CGD-MEC",
+      "pai": "3243",
+      "colegiada": true
+    },
+    {
+      "codigo": "95116",
+      "nome": "Subsecretaria de Tecnologia da Informação e Comunicação",
+      "sigla": "STIC",
+      "pai": "3243"
+    },
+    {
+      "codigo": "8928",
+      "nome": "Subsecretaria de Gestão Administrativa",
+      "sigla": "SGA",
+      "pai": "3243"
+    },
+    {
+      "codigo": "8927",
+      "nome": "Subsecretaria de Planejamento e Orçamento",
+      "sigla": "SPO",
+      "pai": "3243"
+    },
+    {
+      "codigo": "578190",
+      "nome": "Subsecretaria da Política Nacional Integrada da Primeira Infância",
+      "sigla": "SNPPI",
+      "pai": "3243"
+    },
+    {
+      "codigo": "118322",
+      "nome": "Diretoria de Regulação da Educação Superior",
+      "sigla": "DIREG",
+      "pai": "115734"
+    },
+    {
+      "codigo": "118321",
+      "nome": "Diretoria de Política Regulatória",
+      "sigla": "DPR",
+      "pai": "115734"
+    },
+    {
+      "codigo": "95016",
+      "nome": "Diretoria de Supervisão da Educação Superior",
+      "sigla": "DISUP",
+      "pai": "115734"
+    },
+    {
+      "codigo": "582430",
+      "nome": "Diretoria de Monitoramento da Educação Superior",
+      "sigla": "DMES",
+      "pai": "115734"
+    },
+    {
+      "codigo": "402471",
+      "nome": "Câmara Recursal",
+      "sigla": "CR-CNRM",
+      "pai": "84704",
+      "colegiada": true
+    },
+    {
+      "codigo": "577830",
+      "nome": "Diretoria de Compras e Contratações Centralizadas da Educação",
+      "sigla": "DCCMEC",
+      "pai": "8928"
+    },
+    {
+      "codigo": "404509",
+      "nome": "Centro de Formação e Desenvolvimento dos Trabalhadores em Educação do Ministério da Educação",
+      "sigla": "CETREMEC",
+      "pai": "8928"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "249",
+      "nome": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira",
+      "sigla": "INEP",
+      "mapa": "org:inep"
+    },
+    {
+      "codigo": "250",
+      "nome": "Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+      "sigla": "CAPES"
+    },
+    {
+      "codigo": "253",
+      "nome": "Fundo Nacional de Desenvolvimento da Educação",
+      "sigla": "FNDE",
+      "mapa": "org:fnde"
+    },
+    {
+      "codigo": "256",
+      "nome": "Colégio Pedro II",
+      "sigla": "CP II",
+      "mapa": "org:colegio-pedro-ii"
+    },
+    {
+      "codigo": "257",
+      "nome": "Fundação Joaquim Nabuco",
+      "sigla": "FUNDAJ"
+    },
+    {
+      "codigo": "258",
+      "nome": "Hospital de Clínicas de Porto Alegre",
+      "sigla": "HCPA"
+    },
+    {
+      "codigo": "260",
+      "nome": "Universidade Federal do Estado do Rio de Janeiro",
+      "sigla": "UNIRIO"
+    },
+    {
+      "codigo": "415",
+      "nome": "Universidade Federal do Pará",
+      "sigla": "UFPA"
+    },
+    {
+      "codigo": "416",
+      "nome": "Universidade Federal do Ceará",
+      "sigla": "UFC"
+    },
+    {
+      "codigo": "417",
+      "nome": "Universidade Federal do Rio Grande do Norte",
+      "sigla": "UFRN"
+    },
+    {
+      "codigo": "418",
+      "nome": "Universidade Federal de Pernambuco",
+      "sigla": "UFPE"
+    },
+    {
+      "codigo": "419",
+      "nome": "Universidade Federal da Paraíba",
+      "sigla": "UFPB"
+    },
+    {
+      "codigo": "420",
+      "nome": "Universidade Federal de Alagoas",
+      "sigla": "UFAL"
+    },
+    {
+      "codigo": "421",
+      "nome": "Universidade Federal da Bahia",
+      "sigla": "UFBA"
+    },
+    {
+      "codigo": "422",
+      "nome": "Universidade Federal de Goiás",
+      "sigla": "UFG"
+    },
+    {
+      "codigo": "423",
+      "nome": "Universidade Federal de Minas Gerais",
+      "sigla": "UFMG"
+    },
+    {
+      "codigo": "424",
+      "nome": "Universidade Federal de Juiz de Fora",
+      "sigla": "UFJF"
+    },
+    {
+      "codigo": "425",
+      "nome": "Universidade Federal do Espírito Santo",
+      "sigla": "UFES"
+    },
+    {
+      "codigo": "426",
+      "nome": "Universidade Federal do Rio de Janeiro",
+      "sigla": "UFRJ"
+    },
+    {
+      "codigo": "427",
+      "nome": "Universidade Federal Fluminense",
+      "sigla": "UFF"
+    },
+    {
+      "codigo": "428",
+      "nome": "Universidade Federal do Paraná",
+      "sigla": "UFPR"
+    },
+    {
+      "codigo": "429",
+      "nome": "Universidade Federal de Santa Catarina",
+      "sigla": "UFSC"
+    },
+    {
+      "codigo": "430",
+      "nome": "Universidade Federal do Rio Grande do Sul",
+      "sigla": "UFRGS"
+    },
+    {
+      "codigo": "431",
+      "nome": "Universidade Federal de Santa Maria",
+      "sigla": "UFSM"
+    },
+    {
+      "codigo": "432",
+      "nome": "Universidade Federal Rural do Rio de Janeiro",
+      "sigla": "UFRRJ"
+    },
+    {
+      "codigo": "433",
+      "nome": "Universidade Federal Rural de Pernambuco",
+      "sigla": "UFRPE"
+    },
+    {
+      "codigo": "434",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Piauí",
+      "sigla": "IFPI"
+    },
+    {
+      "codigo": "439",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+      "sigla": "IFRN"
+    },
+    {
+      "codigo": "444",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
+      "sigla": "IFBA"
+    },
+    {
+      "codigo": "445",
+      "nome": "Universidade Federal de Ciência e Inovação de Minas Gerais",
+      "sigla": "UFCI/MG"
+    },
+    {
+      "codigo": "448",
+      "nome": "Universidade Federal de Ciência e Inovação do Rio de Janeiro",
+      "sigla": "UFCI/RJ"
+    },
+    {
+      "codigo": "451",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Goiás",
+      "sigla": "IFG"
+    },
+    {
+      "codigo": "453",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",
+      "sigla": "IFSP"
+    },
+    {
+      "codigo": "454",
+      "nome": "Universidade Tecnológica Federal do Paraná",
+      "sigla": "UTFPR"
+    },
+    {
+      "codigo": "455",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina",
+      "sigla": "IFSC"
+    },
+    {
+      "codigo": "456",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Sul-Rio-Grandense",
+      "sigla": "IFSul"
+    },
+    {
+      "codigo": "457",
+      "nome": "Universidade Federal Rural da Amazônia",
+      "sigla": "UFRA"
+    },
+    {
+      "codigo": "458",
+      "nome": "Universidade Federal Rural do Semi-Árido",
+      "sigla": "UFERSA-RN"
+    },
+    {
+      "codigo": "459",
+      "nome": "Universidade Federal do Triângulo Mineiro",
+      "sigla": "UFTM"
+    },
+    {
+      "codigo": "460",
+      "nome": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
+      "sigla": "UFVJM"
+    },
+    {
+      "codigo": "461",
+      "nome": "Universidade Federal de Alfenas",
+      "sigla": "UNIFAL-MG"
+    },
+    {
+      "codigo": "462",
+      "nome": "Universidade Federal de Itajubá",
+      "sigla": "UNIFEI"
+    },
+    {
+      "codigo": "463",
+      "nome": "Universidade Federal de Lavras",
+      "sigla": "UFLA"
+    },
+    {
+      "codigo": "464",
+      "nome": "Universidade Federal de São Paulo",
+      "sigla": "UNIFESP"
+    },
+    {
+      "codigo": "465",
+      "nome": "Fundação Universidade do Amazonas",
+      "sigla": "UFAM"
+    },
+    {
+      "codigo": "466",
+      "nome": "Fundação Universidade Federal do Acre",
+      "sigla": "UFAC"
+    },
+    {
+      "codigo": "467",
+      "nome": "Fundação Universidade Federal do Maranhão",
+      "sigla": "UFMA"
+    },
+    {
+      "codigo": "468",
+      "nome": "Fundação Universidade Federal do Piauí",
+      "sigla": "UFPI"
+    },
+    {
+      "codigo": "469",
+      "nome": "Fundação Universidade Federal de Sergipe",
+      "sigla": "UFS"
+    },
+    {
+      "codigo": "470",
+      "nome": "Fundação Universidade de Brasília",
+      "sigla": "UNB"
+    },
+    {
+      "codigo": "471",
+      "nome": "Fundação Universidade Federal de Mato Grosso",
+      "sigla": "UFMT"
+    },
+    {
+      "codigo": "472",
+      "nome": "Universidade Federal de Uberlândia",
+      "sigla": "UFU"
+    },
+    {
+      "codigo": "473",
+      "nome": "Fundação Universidade Federal de Ouro Preto",
+      "sigla": "FUFOP"
+    },
+    {
+      "codigo": "474",
+      "nome": "Fundação Universidade Federal de Viçosa",
+      "sigla": "UFV"
+    },
+    {
+      "codigo": "475",
+      "nome": "Fundação Universidade Federal de São Carlos",
+      "sigla": "UFSCar"
+    },
+    {
+      "codigo": "476",
+      "nome": "Fundação Universidade Federal do Rio Grande",
+      "sigla": "FURG"
+    },
+    {
+      "codigo": "477",
+      "nome": "Fundação Universidade Federal de Pelotas",
+      "sigla": "UFPel"
+    },
+    {
+      "codigo": "827",
+      "nome": "Fundação Universidade Federal de Mato Grosso do Sul",
+      "sigla": "UFMS"
+    },
+    {
+      "codigo": "970",
+      "nome": "Fundação Universidade Federal de Ciências da Saúde de Porto Alegre",
+      "sigla": "UFCSPA"
+    },
+    {
+      "codigo": "1209",
+      "nome": "Fundação Universidade Federal de Rondônia",
+      "sigla": "UNIR"
+    },
+    {
+      "codigo": "84710",
+      "nome": "Universidade Federal do Recôncavo da Bahia",
+      "sigla": "UFRB"
+    },
+    {
+      "codigo": "1605",
+      "nome": "Fundação Universidade Federal de Roraima",
+      "sigla": "UFRR"
+    },
+    {
+      "codigo": "1710",
+      "nome": "Fundação Universidade Federal do Amapá",
+      "sigla": "UNIFAP"
+    },
+    {
+      "codigo": "1734",
+      "nome": "Fundação Universidade Federal de São João Del Rei",
+      "sigla": "FUNRei"
+    },
+    {
+      "codigo": "3561",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Roraima",
+      "sigla": "IFRR"
+    },
+    {
+      "codigo": "84712",
+      "nome": "Fundação Universidade Federal da Grande Dourados",
+      "sigla": "UFGD"
+    },
+    {
+      "codigo": "100900",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Alagoas",
+      "sigla": "IFAL"
+    },
+    {
+      "codigo": "100904",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul",
+      "sigla": "IFMS"
+    },
+    {
+      "codigo": "100909",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Sergipe",
+      "sigla": "IFS"
+    },
+    {
+      "codigo": "100913",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Goiano",
+      "sigla": "IF-GOIANO"
+    },
+    {
+      "codigo": "100930",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro",
+      "sigla": "IFRJ"
+    },
+    {
+      "codigo": "100916",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+      "sigla": "IFMT"
+    },
+    {
+      "codigo": "100921",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Maranhão",
+      "sigla": "IFMA"
+    },
+    {
+      "codigo": "100901",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas Gerais",
+      "sigla": "IFNMG"
+    },
+    {
+      "codigo": "100902",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais",
+      "sigla": "IFSUDMG"
+    },
+    {
+      "codigo": "100903",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro",
+      "sigla": "IFTM"
+    },
+    {
+      "codigo": "100908",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Tocantins",
+      "sigla": "IFTO"
+    },
+    {
+      "codigo": "100912",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",
+      "sigla": "IFES"
+    },
+    {
+      "codigo": "100915",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+      "sigla": "IFSULMG"
+    },
+    {
+      "codigo": "100920",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Baiano",
+      "sigla": "IF BAIANO"
+    },
+    {
+      "codigo": "46784",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano",
+      "sigla": "IFSertaoPE"
+    },
+    {
+      "codigo": "100922",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco",
+      "sigla": "IFPE"
+    },
+    {
+      "codigo": "100905",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",
+      "sigla": "IFPB"
+    },
+    {
+      "codigo": "100906",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Farroupilha",
+      "sigla": "IFFAR"
+    },
+    {
+      "codigo": "100907",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Rondônia",
+      "sigla": "IFRO"
+    },
+    {
+      "codigo": "100910",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas",
+      "sigla": "IFAM"
+    },
+    {
+      "codigo": "100911",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará",
+      "sigla": "IFCE"
+    },
+    {
+      "codigo": "100914",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
+      "sigla": "IFMG"
+    },
+    {
+      "codigo": "100917",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+      "sigla": "IFPA"
+    },
+    {
+      "codigo": "100918",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul",
+      "sigla": "IFRS"
+    },
+    {
+      "codigo": "100919",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Catarinense",
+      "sigla": "IFC"
+    },
+    {
+      "codigo": "84703",
+      "nome": "Fundação Universidade Federal do ABC",
+      "sigla": "UFABC"
+    },
+    {
+      "codigo": "52702",
+      "nome": "Fundação Universidade Federal do Tocantins",
+      "sigla": "UFT"
+    },
+    {
+      "codigo": "49103",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
+      "sigla": "IFPR"
+    },
+    {
+      "codigo": "104667",
+      "nome": "Universidade Federal do Oeste do Pará",
+      "sigla": "UFOPA"
+    },
+    {
+      "codigo": "100931",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Fluminense",
+      "sigla": "IFF"
+    },
+    {
+      "codigo": "94739",
+      "nome": "Fundação Universidade Federal do Pampa",
+      "sigla": "UNIPAMPA"
+    },
+    {
+      "codigo": "117267",
+      "nome": "Empresa Brasileira de Serviços Hospitalares",
+      "sigla": "HU BRASIL"
+    },
+    {
+      "codigo": "67671",
+      "nome": "Universidade Federal de Campina Grande",
+      "sigla": "UFCG"
+    },
+    {
+      "codigo": "94427",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Acre",
+      "sigla": "IFAC"
+    },
+    {
+      "codigo": "94428",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amapá",
+      "sigla": "IFAP"
+    },
+    {
+      "codigo": "94430",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Brasília",
+      "sigla": "IFB"
+    },
+    {
+      "codigo": "105793",
+      "nome": "Universidade Federal da Integração Latino-Americana",
+      "sigla": "UNILA"
+    },
+    {
+      "codigo": "122378",
+      "nome": "Universidade Federal do Sul da Bahia",
+      "sigla": "UFSB"
+    },
+    {
+      "codigo": "122381",
+      "nome": "Universidade Federal do Sul e Sudeste do Pará",
+      "sigla": "Unifesspa"
+    },
+    {
+      "codigo": "122386",
+      "nome": "Universidade Federal do Oeste da Bahia",
+      "sigla": "UFOB"
+    },
+    {
+      "codigo": "122391",
+      "nome": "Universidade Federal do Cariri",
+      "sigla": "UFCA"
+    },
+    {
+      "codigo": "103730",
+      "nome": "Universidade Federal da Fronteira Sul",
+      "sigla": "UFFS"
+    },
+    {
+      "codigo": "69624",
+      "nome": "Fundação Universidade Federal do Vale do São Francisco",
+      "sigla": "UNIVASF"
+    },
+    {
+      "codigo": "109912",
+      "nome": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira",
+      "sigla": "UNILAB"
+    },
+    {
+      "codigo": "226371",
+      "nome": "Universidade Federal de Catalão",
+      "sigla": "UFCAT"
+    },
+    {
+      "codigo": "226372",
+      "nome": "Universidade Federal de Jataí",
+      "sigla": "UFJ"
+    },
+    {
+      "codigo": "226373",
+      "nome": "Universidade Federal de Rondonópolis",
+      "sigla": "UFR"
+    },
+    {
+      "codigo": "227867",
+      "nome": "Universidade Federal do Delta do Parnaíba",
+      "sigla": "UFDPar"
+    },
+    {
+      "codigo": "227868",
+      "nome": "Universidade Federal do Agreste de Pernambuco",
+      "sigla": "UFAPE"
+    },
+    {
+      "codigo": "241361",
+      "nome": "Universidade Federal do Norte do Tocantins",
+      "sigla": "UFNT"
+    },
+    {
+      "codigo": "628352",
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sertão Paraibano",
+      "sigla": "IFSertãoPB"
+    },
+    {
+      "codigo": "633271",
+      "nome": "Universidade Federal Indígena",
+      "sigla": "Unind"
+    },
+    {
+      "codigo": "645131",
+      "nome": "Universidade Federal do Esporte",
+      "sigla": "UFEsporte"
+    },
+    {
+      "codigo": "668873",
+      "nome": "Universidade Federal da Fronteira Norte",
+      "sigla": "UFFN"
+    }
+  ],
+  "ato_interno": 200,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 244 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

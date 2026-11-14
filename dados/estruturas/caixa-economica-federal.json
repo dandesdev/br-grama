@@ -1,0 +1,532 @@
+{
+  "id": "est:caixa-economica-federal",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Caixa Econômica Federal no SIORG",
+  "resumo": "69 unidades nos dois primeiros níveis, criadas por ato interno e 4 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:caixa-economica-federal",
+  "siorg": "91",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "238011",
+      "nome": "Caixa Participação S.A.",
+      "sigla": "CAIXAPAR",
+      "pai": "91"
+    },
+    {
+      "codigo": "238473",
+      "nome": "CAIXA Seguridade Participações S.A.",
+      "sigla": "CAIXA Seguridade",
+      "pai": "91"
+    },
+    {
+      "codigo": "121905",
+      "nome": "Conselho de Fundos Governamentais e Loterias",
+      "sigla": "CFGL",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "121904",
+      "nome": "Conselho de Gestão de Ativos de Terceiros",
+      "sigla": "CGAT",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "121903",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDITORIA INTERN",
+      "pai": "91"
+    },
+    {
+      "codigo": "93394",
+      "nome": "Vice-Presidência de Administração ou Operacionalização de Fundos, Programas e Serviços",
+      "sigla": "VPAOOFPS",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "94957",
+      "nome": "Diretoria Juridica",
+      "sigla": "DIJUR",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "121902",
+      "nome": "Ouvidoria",
+      "sigla": "OUVIDORIA",
+      "pai": "91"
+    },
+    {
+      "codigo": "93381",
+      "nome": "Vice-Presidência de Gestão de Ativos de Terceiros",
+      "sigla": "VPGAT",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "72823",
+      "nome": "Conselho Fiscal",
+      "sigla": "CF-CEF",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "72822",
+      "nome": "Diretoria Executiva",
+      "sigla": "DEX-CEF",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "72821",
+      "nome": "Conselho Diretor",
+      "sigla": "CD-CEF",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "72820",
+      "nome": "Conselho de Administração",
+      "sigla": "CA-CEF",
+      "pai": "91",
+      "colegiada": true
+    },
+    {
+      "codigo": "93403",
+      "nome": "Comissão de Crédito",
+      "sigla": "CC-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93402",
+      "nome": "Comitê de Tecnologia da Informação",
+      "sigla": "CTI-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93401",
+      "nome": "Comitê de Risco",
+      "sigla": "CRIS-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93399",
+      "nome": "Comitê Estratégico de Administração de Fundos, Programas e Serviços Delegados pelo Governo Federal",
+      "sigla": "CEAFPSD-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93398",
+      "nome": "Comitê de Compras e Contratação",
+      "sigla": "CCC-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93397",
+      "nome": "Comitê de Crédito e Renegociaçao",
+      "sigla": "CCR-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93396",
+      "nome": "Comitê Estratégico de Administração de Ativos de Terceiros",
+      "sigla": "CEAAT-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93395",
+      "nome": "Comitê Estratégico de Captação e Aplicação",
+      "sigla": "CECA-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "93400",
+      "nome": "Comitê de Auditoria",
+      "sigla": "CA-VPAOOFPS",
+      "pai": "93394",
+      "colegiada": true
+    },
+    {
+      "codigo": "94975",
+      "nome": "Juridico Regional no Rio de Janeiro",
+      "sigla": "JURRJ",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94967",
+      "nome": "Juridico Regional em Cuiabá",
+      "sigla": "JURCB",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94960",
+      "nome": "Juridico Regional em Manaus",
+      "sigla": "JURMU",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94959",
+      "nome": "Juridico Regional em Maceió",
+      "sigla": "JURME",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94978",
+      "nome": "Juridico Regional em Porto Velho",
+      "sigla": "JURPV",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94977",
+      "nome": "Juridico Regional em Florianópolis",
+      "sigla": "JURFL",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94982",
+      "nome": "Juridico Regional em Aracajú",
+      "sigla": "JURAJ",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94981",
+      "nome": "Juridico Regional em São Paulo",
+      "sigla": "JURSP",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94974",
+      "nome": "Juridico Regional em Teresina",
+      "sigla": "JURTE",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94973",
+      "nome": "Juridico Regional em Recife",
+      "sigla": "JURRE",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94956",
+      "nome": "Juridico Regional em Campinas",
+      "sigla": "JURCP",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94966",
+      "nome": "Juridico Regional em São Luis",
+      "sigla": "JURSL",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94965",
+      "nome": "Juridico Regional em Goiania",
+      "sigla": "JURGO",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94964",
+      "nome": "Juridico Regional em Vitória",
+      "sigla": "JURV",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94963",
+      "nome": "Juridico Regional em Fortaleza",
+      "sigla": "JURFO",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94969",
+      "nome": "Juridico Regional em Belo Horizonte",
+      "sigla": "JURIBH",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94972",
+      "nome": "Juridico Regional em Curitiba",
+      "sigla": "JURCR",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94979",
+      "nome": "Juridico Regional em João Pessoa",
+      "sigla": "JURJP",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94970",
+      "nome": "Juridico Regional em Belém",
+      "sigla": "JURBL",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94954",
+      "nome": "Gerência Nacional de Atendimento Jurídico",
+      "sigla": "GEAJU",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94953",
+      "nome": "Gerência Nacional Jurídico Contencioso",
+      "sigla": "GETEN",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94980",
+      "nome": "Juridico Regional em Porto Alegre",
+      "sigla": "JURPA",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94971",
+      "nome": "Juridico Regional em Brasília",
+      "sigla": "JURBR",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94968",
+      "nome": "Juridico Regional em Campo Grande",
+      "sigla": "JURCG",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94962",
+      "nome": "Juridico Regional em Salvador",
+      "sigla": "JURSA",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94955",
+      "nome": "Juridico Regional em Bauru",
+      "sigla": "JURIR",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "94976",
+      "nome": "Juridico Regional em Natal",
+      "sigla": "JURNA",
+      "pai": "94957",
+      "colegiada": true
+    },
+    {
+      "codigo": "93390",
+      "nome": "Comissão de Crédito",
+      "sigla": "CC-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93389",
+      "nome": "Comitê de Tecnologia da Informação",
+      "sigla": "CTI-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93388",
+      "nome": "Comitê de Risco",
+      "sigla": "CRIS-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93387",
+      "nome": "Comitê de Auditoria",
+      "sigla": "CA-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93386",
+      "nome": "Comitê Estratégico de Administração de Fundos, Programas e Serviços Delegados pelo Governo Federal",
+      "sigla": "CEAFPSDGF-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93385",
+      "nome": "Comitê de Compras e Contratação",
+      "sigla": "CCC-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93384",
+      "nome": "Comitê de Crédito e Renegociaçao",
+      "sigla": "CCR-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93383",
+      "nome": "Comitê Estratégico de Administração de Ativos de Terceiros",
+      "sigla": "CEAAT-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93382",
+      "nome": "Comitê Estratégico de Captação e Aplicação",
+      "sigla": "CECA-VPGAT",
+      "pai": "93381",
+      "colegiada": true
+    },
+    {
+      "codigo": "93373",
+      "nome": "Comitê de Compras e Contratação",
+      "sigla": "CCC-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "121907",
+      "nome": "Comissão de Ética",
+      "sigla": "CE-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "121906",
+      "nome": "Comitê de Remuneração",
+      "sigla": "CR-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93380",
+      "nome": "Comissão de Crédito",
+      "sigla": "CCT-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93379",
+      "nome": "Comitê de Tecnologia da Informação",
+      "sigla": "CTI-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93378",
+      "nome": "Comitê de Risco",
+      "sigla": "CRIS-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93377",
+      "nome": "Comitê de Auditoria",
+      "sigla": "CA-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93376",
+      "nome": "Comitê Estratégico de Administração de Fundos, Programas e Serviços Delegados pelo Governo Federal",
+      "sigla": "CEFAF-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93375",
+      "nome": "Comitê Estratégico de Administração de Ativos de Terceiros",
+      "sigla": "CEAAT-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93374",
+      "nome": "Comitê de Prevenção Contra os Crimes de Lavagem de Dinheiro",
+      "sigla": "CPCLD-DEX",
+      "pai": "72822",
+      "colegiada": true
+    },
+    {
+      "codigo": "93372",
+      "nome": "Comitê de Avaliação de Negócios e Renegociação",
+      "sigla": "CANR-DEX",
+      "pai": "72822",
+      "colegiada": true
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "638051",
+      "nome": "Caixa Seguridade Participações S.A.",
+      "sigla": "Caixa Seguridade"
+    },
+    {
+      "codigo": "638052",
+      "nome": "CAIXA Cartões Holding S.A.",
+      "sigla": "CAIXA Cartões"
+    },
+    {
+      "codigo": "638011",
+      "nome": "CAIXA Loterias S.A.",
+      "sigla": "CAIXA Loterias"
+    },
+    {
+      "codigo": "638071",
+      "nome": "CAIXA Distribuidora de Títulos e Valores Mobiliários S/A",
+      "sigla": "CAIXA DTVM"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 91 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

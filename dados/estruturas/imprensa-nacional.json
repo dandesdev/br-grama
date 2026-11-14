@@ -1,0 +1,139 @@
+{
+  "id": "est:imprensa-nacional",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Imprensa Nacional no SIORG",
+  "resumo": "18 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:imprensa-nacional",
+  "siorg": "332",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "611991",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "332"
+    },
+    {
+      "codigo": "299753",
+      "nome": "Coordenação de Governança",
+      "sigla": "CGOV",
+      "pai": "332"
+    },
+    {
+      "codigo": "611993",
+      "nome": "Coordenação de Gestão Interna",
+      "sigla": "COGIN",
+      "pai": "332"
+    },
+    {
+      "codigo": "468432",
+      "nome": "Divisão Administrativa",
+      "sigla": "DIVAD",
+      "pai": "332"
+    },
+    {
+      "codigo": "299767",
+      "nome": "Coordenação-Geral de Tecnologia da Informação",
+      "sigla": "CGTI",
+      "pai": "332"
+    },
+    {
+      "codigo": "2255",
+      "nome": "Coordenação-Geral de Administração",
+      "sigla": "CGAD",
+      "pai": "332"
+    },
+    {
+      "codigo": "2254",
+      "nome": "Coordenação-Geral de Publicação, Produção e Preservação",
+      "sigla": "CGPPP",
+      "pai": "332"
+    },
+    {
+      "codigo": "420591",
+      "nome": "Divisão de Apoio",
+      "sigla": "DIVAP",
+      "pai": "299753"
+    },
+    {
+      "codigo": "299777",
+      "nome": "Coordenação de Sistemas, Dados e Inovação",
+      "sigla": "COSIS",
+      "pai": "299767"
+    },
+    {
+      "codigo": "299774",
+      "nome": "Coordenação de Infraestrutura, Governança e Segurança de TI",
+      "sigla": "COIGS",
+      "pai": "299767"
+    },
+    {
+      "codigo": "611994",
+      "nome": "Divisão de Acompanhamento e Avaliação Contábil",
+      "sigla": "DIAAC",
+      "pai": "2255"
+    },
+    {
+      "codigo": "113395",
+      "nome": "Coordenação de Orçamento e Finanças",
+      "sigla": "COFIN",
+      "pai": "2255"
+    },
+    {
+      "codigo": "2263",
+      "nome": "Coordenação de Gestão de Pessoas",
+      "sigla": "COGEP",
+      "pai": "2255"
+    },
+    {
+      "codigo": "2291",
+      "nome": "Coordenação de Licitação e Contratos Administrativos",
+      "sigla": "COLIC",
+      "pai": "2255"
+    },
+    {
+      "codigo": "2290",
+      "nome": "Coordenação de Recursos Logísticos",
+      "sigla": "COLOG",
+      "pai": "2255"
+    },
+    {
+      "codigo": "2258",
+      "nome": "Coordenação de Produção Gráfica",
+      "sigla": "COGRAF",
+      "pai": "2254"
+    },
+    {
+      "codigo": "217235",
+      "nome": "Coordenação de Gestão do Acervo e Relacionamento Externo",
+      "sigla": "COGAR",
+      "pai": "2254"
+    },
+    {
+      "codigo": "2256",
+      "nome": "Coordenação de Publicação do Diário Oficial da União",
+      "sigla": "CODOU",
+      "pai": "2254"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 332 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

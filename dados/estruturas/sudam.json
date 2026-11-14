@@ -1,0 +1,129 @@
+{
+  "id": "est:sudam",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Superintendência do Desenvolvimento da Amazônia no SIORG",
+  "resumo": "16 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:sudam",
+  "siorg": "91138",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "91139",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DICOL",
+      "pai": "91138",
+      "colegiada": true
+    },
+    {
+      "codigo": "303890",
+      "nome": "Diretoria de Promoção do Desenvolvimento Sustentável",
+      "sigla": "DPROS",
+      "pai": "91138"
+    },
+    {
+      "codigo": "94087",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "91138"
+    },
+    {
+      "codigo": "91141",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF",
+      "pai": "91138"
+    },
+    {
+      "codigo": "94058",
+      "nome": "Diretoria de Planejamento e Articulação de Políticas",
+      "sigla": "DPLAN",
+      "pai": "91138"
+    },
+    {
+      "codigo": "94081",
+      "nome": "Escritório de Representação em Brasília",
+      "sigla": "ERB",
+      "pai": "91138"
+    },
+    {
+      "codigo": "94066",
+      "nome": "Diretoria de Gestão de Fundos, Incentivos e de Atração de Investimentos",
+      "sigla": "DGFAI",
+      "pai": "91138"
+    },
+    {
+      "codigo": "94039",
+      "nome": "Diretoria de Administração",
+      "sigla": "Dirad",
+      "pai": "91138"
+    },
+    {
+      "codigo": "91140",
+      "nome": "Conselho Deliberativo",
+      "sigla": "CONDEL",
+      "pai": "91138",
+      "colegiada": true
+    },
+    {
+      "codigo": "303787",
+      "nome": "Coordenação-Geral de Governança, Gestão Estratégica  e de Desenvolvimento Organizacional",
+      "sigla": "CGEST",
+      "pai": "91138"
+    },
+    {
+      "codigo": "91142",
+      "nome": "Auditoria-Geral",
+      "sigla": "AUD",
+      "pai": "91138"
+    },
+    {
+      "codigo": "94089",
+      "nome": "Assessoria de Comunicação Social e Marketing Institucional",
+      "sigla": "ASCOM",
+      "pai": "91138"
+    },
+    {
+      "codigo": "390889",
+      "nome": "Coordenação-Geral de Fortalecimento dos Entes Federados",
+      "sigla": "CGEFE",
+      "pai": "303890"
+    },
+    {
+      "codigo": "281047",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "91140",
+      "colegiada": true
+    },
+    {
+      "codigo": "390910",
+      "nome": "Coordenação de Fortalecimento de Capacidades Governativas",
+      "sigla": "CFCG",
+      "pai": "390889"
+    },
+    {
+      "codigo": "390909",
+      "nome": "Coordenação de Planejamento e Programação Orçamentária",
+      "sigla": "CPOR",
+      "pai": "390889"
+    }
+  ],
+  "ato_interno": 18,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 91138 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

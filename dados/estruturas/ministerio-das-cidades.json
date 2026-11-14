@@ -1,0 +1,288 @@
+{
+  "id": "est:ministerio-das-cidades",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério das Cidades no SIORG",
+  "resumo": "39 unidades criadas por lei ou decreto e 3 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-das-cidades",
+  "siorg": "308798",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "309788",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308798"
+    },
+    {
+      "codigo": "265946",
+      "nome": "Comitê Interministerial de Saneamento Básico",
+      "sigla": "CISB",
+      "pai": "308798",
+      "colegiada": true
+    },
+    {
+      "codigo": "309786",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "AESCOM",
+      "pai": "308798"
+    },
+    {
+      "codigo": "74015",
+      "nome": "Secretaria Nacional de Saneamento Ambiental",
+      "sigla": "SNSA",
+      "pai": "308798"
+    },
+    {
+      "codigo": "14463",
+      "nome": "Conselho Curador do Fundo de Desenvolvimento Social",
+      "sigla": "CCFDS",
+      "pai": "308798",
+      "colegiada": true
+    },
+    {
+      "codigo": "308749",
+      "nome": "Secretaria Nacional de Periferias",
+      "sigla": "SNP",
+      "pai": "308798"
+    },
+    {
+      "codigo": "308921",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308798"
+    },
+    {
+      "codigo": "317917",
+      "nome": "Fórum Consultivo de Mobilidade Urbana",
+      "sigla": "FCMU",
+      "pai": "308798",
+      "colegiada": true
+    },
+    {
+      "codigo": "308919",
+      "nome": "Gabinete do Ministro",
+      "sigla": "GM",
+      "pai": "308798"
+    },
+    {
+      "codigo": "309789",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308798"
+    },
+    {
+      "codigo": "308727",
+      "nome": "Secretaria Nacional de Mobilidade Urbana",
+      "sigla": "SEMOB",
+      "pai": "308798"
+    },
+    {
+      "codigo": "318050",
+      "nome": "Comitê de Participação do Fundo de Arrendamento Residencial",
+      "sigla": "CPFAR",
+      "pai": "308798",
+      "colegiada": true
+    },
+    {
+      "codigo": "308922",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308798"
+    },
+    {
+      "codigo": "308920",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308798"
+    },
+    {
+      "codigo": "89595",
+      "nome": "Conselho Gestor do Fundo Nacional de Habitação de Interesse Social",
+      "sigla": "CGFNHIS",
+      "pai": "308798",
+      "colegiada": true
+    },
+    {
+      "codigo": "308752",
+      "nome": "Conselho das Cidades",
+      "sigla": "ConCidades",
+      "pai": "308798",
+      "colegiada": true
+    },
+    {
+      "codigo": "309790",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308798"
+    },
+    {
+      "codigo": "309781",
+      "nome": "Secretaria Nacional de Desenvolvimento Urbano e Metropolitano",
+      "sigla": "SNDUM",
+      "pai": "308798"
+    },
+    {
+      "codigo": "74011",
+      "nome": "Secretaria Nacional de Habitação",
+      "sigla": "SNH",
+      "pai": "308798"
+    },
+    {
+      "codigo": "309787",
+      "nome": "Assessoria Especial de Assuntos Internacionais",
+      "sigla": "ASSIN",
+      "pai": "308798"
+    },
+    {
+      "codigo": "309784",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "308798"
+    },
+    {
+      "codigo": "90225",
+      "nome": "Departamento de Repasses e Financiamentos",
+      "sigla": "DRF",
+      "pai": "74015"
+    },
+    {
+      "codigo": "277717",
+      "nome": "Departamento de Cooperação Técnica",
+      "sigla": "DCT",
+      "pai": "74015"
+    },
+    {
+      "codigo": "308748",
+      "nome": "Departamento de Saneamento Rural e de Pequenos Municípios",
+      "sigla": "DSR",
+      "pai": "74015"
+    },
+    {
+      "codigo": "308750",
+      "nome": "Departamento de Regularização, Urbanização Integrada e Qualificação de Territórios Periféricos",
+      "sigla": "DUR",
+      "pai": "308749"
+    },
+    {
+      "codigo": "308751",
+      "nome": "Departamento de Mitigação e Prevenção de Risco",
+      "sigla": "DPR",
+      "pai": "308749"
+    },
+    {
+      "codigo": "308729",
+      "nome": "Departamento de Regulação da Mobilidade e Trânsito Urbano",
+      "sigla": "DEREG",
+      "pai": "308727"
+    },
+    {
+      "codigo": "308728",
+      "nome": "Departamento de Infraestrutura da Mobilidade Urbana",
+      "sigla": "DEMOB",
+      "pai": "308727"
+    },
+    {
+      "codigo": "309791",
+      "nome": "Subsecretaria de Planejamento, Orçamento e Administração",
+      "sigla": "SPOA",
+      "pai": "308920"
+    },
+    {
+      "codigo": "309792",
+      "nome": "Diretoria de Monitoramento de Programas",
+      "sigla": "DMP",
+      "pai": "308920"
+    },
+    {
+      "codigo": "489969",
+      "nome": "Diretoria de Sustentabilidade e Projetos Especiais",
+      "sigla": "DSP",
+      "pai": "308920"
+    },
+    {
+      "codigo": "309793",
+      "nome": "Diretoria de Governança e Colegiados",
+      "sigla": "DGC",
+      "pai": "308920"
+    },
+    {
+      "codigo": "309783",
+      "nome": "Departamento de Estruturação do Desenvolvimento Urbano e Metropolitano",
+      "sigla": "DDU",
+      "pai": "309781"
+    },
+    {
+      "codigo": "308726",
+      "nome": "Departamento de Adaptação das Cidades à Transição Climática e Transformação Digital",
+      "sigla": "DAC",
+      "pai": "309781"
+    },
+    {
+      "codigo": "257041",
+      "nome": "Comitê Nacional de Desenvolvimento Tecnológico da Habitação",
+      "sigla": "CNDTH",
+      "pai": "74011",
+      "colegiada": true
+    },
+    {
+      "codigo": "74013",
+      "nome": "Departamento de Provisão Habitacional",
+      "sigla": "DPH",
+      "pai": "74011"
+    },
+    {
+      "codigo": "309063",
+      "nome": "Departamento de Habitação Rural",
+      "sigla": "DHR",
+      "pai": "74011"
+    },
+    {
+      "codigo": "317520",
+      "nome": "Departamento de Planejamento e Política Nacional de Habitação",
+      "sigla": "DPP",
+      "pai": "74011"
+    },
+    {
+      "codigo": "74014",
+      "nome": "Departamento de Produção Social da Moradia",
+      "sigla": "DPSM",
+      "pai": "74011"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "372",
+      "nome": "Companhia Brasileira de Trens Urbanos",
+      "sigla": "CBTU"
+    },
+    {
+      "codigo": "958",
+      "nome": "Empresa de Trens Urbanos de Porto Alegre S.A",
+      "sigla": "TRENSURB"
+    },
+    {
+      "codigo": "314990",
+      "nome": "Veículo de Desestatização MG Investimentos S.A.",
+      "sigla": "VDMG Investimentos"
+    }
+  ],
+  "ato_interno": 88,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308798 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

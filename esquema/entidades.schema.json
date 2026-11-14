@@ -377,6 +377,52 @@
       "unevaluatedProperties": false
     },
 
+    "estrutura": {
+      "description": "Árvore das unidades internas de um órgão do Executivo federal no SIORG, até o nível de lei ou decreto (D62). Gerada por script de importação.",
+      "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],
+      "required": ["de", "siorg", "consulta", "unidades", "fontes"],
+      "properties": {
+        "tipo": { "const": "estrutura" },
+        "de": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão do mapa." },
+        "siorg": { "type": "string", "description": "Código SIORG da unidade raiz." },
+        "consulta": { "type": "string", "format": "date", "description": "Data em que a base do SIORG foi baixada." },
+        "unidades": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["codigo", "nome", "pai"],
+            "properties": {
+              "codigo": { "type": "string" },
+              "nome": { "type": "string" },
+              "sigla": { "type": "string" },
+              "pai": { "type": "string", "description": "Código SIORG da unidade de cima (a raiz, se for de primeiro nível)." },
+              "colegiada": { "type": "boolean" },
+              "mapa": { "$ref": "comum.schema.json#/$defs/id", "description": "Órgão do mapa que corresponde à unidade, se houver." }
+            },
+            "additionalProperties": false
+          }
+        },
+        "vinculadas": {
+          "description": "Entidades da administração indireta ligadas ao órgão no SIORG.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["codigo", "nome"],
+            "properties": {
+              "codigo": { "type": "string" },
+              "nome": { "type": "string" },
+              "sigla": { "type": "string" },
+              "mapa": { "$ref": "comum.schema.json#/$defs/id" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "ato_interno": { "type": "integer", "minimum": 0, "description": "Quantas unidades abaixo dessas o SIORG registra por ato interno (portaria, regimento), fora da árvore." },
+        "so_ato_interno": { "type": "boolean", "description": "O órgão não tem unidade criada por lei ou decreto no SIORG (ex.: agências, com estrutura em regimento interno); a árvore traz os dois primeiros níveis de ato interno." }
+      },
+      "unevaluatedProperties": false
+    },
+
     "fluxo": {
       "description": "Dinheiro que passou de uma entidade a outra num exercício, preso a uma relação repassa-recursos (D45).",
       "allOf": [{ "$ref": "comum.schema.json#/$defs/base" }],

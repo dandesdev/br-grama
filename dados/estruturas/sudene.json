@@ -1,0 +1,137 @@
+{
+  "id": "est:sudene",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Superintendência do Desenvolvimento do Nordeste no SIORG",
+  "resumo": "17 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:sudene",
+  "siorg": "91144",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "91147",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF-SUDENE",
+      "pai": "91144"
+    },
+    {
+      "codigo": "91148",
+      "nome": "Auditoria-Geral",
+      "sigla": "AUD",
+      "pai": "91144"
+    },
+    {
+      "codigo": "93986",
+      "nome": "Diretoria de Administração",
+      "sigla": "DAD",
+      "pai": "91144"
+    },
+    {
+      "codigo": "93980",
+      "nome": "Coordenação-Geral de Gestão Institucional",
+      "sigla": "CGGI",
+      "pai": "91144"
+    },
+    {
+      "codigo": "597070",
+      "nome": "Diretoria de Promoção do Desenvolvimento Sustentável",
+      "sigla": "DPDS",
+      "pai": "91144"
+    },
+    {
+      "codigo": "94028",
+      "nome": "Escritório de Representação em Brasília",
+      "sigla": "EBR",
+      "pai": "91144"
+    },
+    {
+      "codigo": "91149",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "91144"
+    },
+    {
+      "codigo": "91145",
+      "nome": "Diretoria Colegiada",
+      "sigla": "DC",
+      "pai": "91144",
+      "colegiada": true
+    },
+    {
+      "codigo": "643011",
+      "nome": "Coordenação-Geral de Comunicação Social e Marketing Institucional",
+      "sigla": "CGCOM",
+      "pai": "91144"
+    },
+    {
+      "codigo": "94005",
+      "nome": "Diretoria de Planejamento e Articulação de Políticas",
+      "sigla": "DPLAN",
+      "pai": "91144"
+    },
+    {
+      "codigo": "93977",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "91144"
+    },
+    {
+      "codigo": "91146",
+      "nome": "Conselho Deliberativo",
+      "sigla": "CONDEL/SUDENE",
+      "pai": "91144",
+      "colegiada": true
+    },
+    {
+      "codigo": "94013",
+      "nome": "Diretoria de Gestão de Fundos, Incentivos e de Atração de Investimentos",
+      "sigla": "DFIN",
+      "pai": "91144"
+    },
+    {
+      "codigo": "293378",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "91144"
+    },
+    {
+      "codigo": "293765",
+      "nome": "Secretaria-Executiva",
+      "sigla": "Se-Condel",
+      "pai": "91146",
+      "colegiada": true
+    },
+    {
+      "codigo": "293761",
+      "nome": "Comitê Regional de Articulação dos Órgãos e Entidades Federais",
+      "sigla": "CORAF",
+      "pai": "91146",
+      "colegiada": true
+    },
+    {
+      "codigo": "293760",
+      "nome": "Comitê Regional das Instituições Financeiras Federais",
+      "sigla": "CORIFF",
+      "pai": "91146",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 20,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 91144 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

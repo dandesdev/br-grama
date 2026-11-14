@@ -1,0 +1,425 @@
+{
+  "id": "est:anatel",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Agência Nacional de Telecomunicações no SIORG",
+  "resumo": "65 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:anatel",
+  "siorg": "25064",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "122036",
+      "nome": "Assessoria de Relações Institucionais",
+      "sigla": "ARI",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122088",
+      "nome": "Superintendência de Transformação Digital e Gestão da Informação",
+      "sigla": "SGI",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122041",
+      "nome": "Superintendência de Outorga e Recursos à Prestação",
+      "sigla": "SOR",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122037",
+      "nome": "Superintendência de Planejamento e Regulamentação",
+      "sigla": "SPR",
+      "pai": "25064"
+    },
+    {
+      "codigo": "292950",
+      "nome": "Gabinete do Conselheiro 5 - EH",
+      "sigla": "GC05-EH",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28366",
+      "nome": "Assessoria de Relações com os Usuários",
+      "sigla": "ARU",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28282",
+      "nome": "Conselho Diretor",
+      "sigla": "CD",
+      "pai": "25064",
+      "colegiada": true
+    },
+    {
+      "codigo": "440949",
+      "nome": "Comissão de Ética da Anatel",
+      "sigla": "CEA",
+      "pai": "25064",
+      "colegiada": true
+    },
+    {
+      "codigo": "292948",
+      "nome": "Gabinete do Conselheiro 4 - SR",
+      "sigla": "GC04-SR",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28369",
+      "nome": "Assessoria Técnica",
+      "sigla": "ATC",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28359",
+      "nome": "Corregedoria",
+      "sigla": "CRG",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28283",
+      "nome": "Ouvidoria",
+      "sigla": "OV",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28357",
+      "nome": "Gabinete da Presidência",
+      "sigla": "GPR",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28380",
+      "nome": "Superintendência Executiva",
+      "sigla": "SUE",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122084",
+      "nome": "Superintendência de Relações de Consumo e Inclusão Digital",
+      "sigla": "SCI",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122075",
+      "nome": "Superintendência de Controle de Obrigações",
+      "sigla": "SCO",
+      "pai": "25064"
+    },
+    {
+      "codigo": "292940",
+      "nome": "Gabinete do Conselheiro 2 - OP",
+      "sigla": "GC02-OP",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28358",
+      "nome": "Procuradoria",
+      "sigla": "PFE",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28362",
+      "nome": "Assessoria Internacional",
+      "sigla": "AIN",
+      "pai": "25064"
+    },
+    {
+      "codigo": "292941",
+      "nome": "Gabinete do Conselheiro 3 - AF",
+      "sigla": "GC03-AF",
+      "pai": "25064"
+    },
+    {
+      "codigo": "292400",
+      "nome": "Centro de Altos Estudos em Comunicações Digitais e Inovações Tecnológicas",
+      "sigla": "Ceadi",
+      "pai": "25064",
+      "colegiada": true
+    },
+    {
+      "codigo": "122092",
+      "nome": "Superintendência de Administração e Finanças",
+      "sigla": "SAF",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122045",
+      "nome": "Superintendência de Fiscalização",
+      "sigla": "SFI",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28374",
+      "nome": "Assessoria Parlamentar e de Comunicação Social",
+      "sigla": "APC",
+      "pai": "25064"
+    },
+    {
+      "codigo": "28281",
+      "nome": "Conselho Consultivo",
+      "sigla": "CC",
+      "pai": "25064",
+      "colegiada": true
+    },
+    {
+      "codigo": "122080",
+      "nome": "Superintendência de Competição",
+      "sigla": "SCP",
+      "pai": "25064"
+    },
+    {
+      "codigo": "122090",
+      "nome": "Gerência de Planejamento, Operação e Manutenção de Redes",
+      "sigla": "GIMR",
+      "pai": "122088"
+    },
+    {
+      "codigo": "122091",
+      "nome": "Gerência de Informações e Biblioteca",
+      "sigla": "GIIB",
+      "pai": "122088"
+    },
+    {
+      "codigo": "122089",
+      "nome": "Gerência de Planejamento, Desenvolvimento e Segurança de Sistemas",
+      "sigla": "GIDS",
+      "pai": "122088"
+    },
+    {
+      "codigo": "122042",
+      "nome": "Gerência de Outorga e Licenciamento de Estações",
+      "sigla": "ORLE",
+      "pai": "122041"
+    },
+    {
+      "codigo": "122043",
+      "nome": "Gerência de Certificação e Numeração",
+      "sigla": "ORCN",
+      "pai": "122041"
+    },
+    {
+      "codigo": "122044",
+      "nome": "Gerência de Espectro, Órbita e Radiodifusão",
+      "sigla": "ORER",
+      "pai": "122041"
+    },
+    {
+      "codigo": "122040",
+      "nome": "Gerência de Regulamentação",
+      "sigla": "PRRE",
+      "pai": "122037"
+    },
+    {
+      "codigo": "122039",
+      "nome": "Gerência de Universalização e Ampliação do Acesso",
+      "sigla": "PRUV",
+      "pai": "122037"
+    },
+    {
+      "codigo": "122136",
+      "nome": "Secretaria do Conselho Diretor",
+      "sigla": "SCD",
+      "pai": "28282"
+    },
+    {
+      "codigo": "57025",
+      "nome": "Auditoria",
+      "sigla": "AUD",
+      "pai": "28282"
+    },
+    {
+      "codigo": "440910",
+      "nome": "Gerência de Planejamento Estratégico",
+      "sigla": "UEPE",
+      "pai": "28380"
+    },
+    {
+      "codigo": "122087",
+      "nome": "Gerência de Tratamento de Solicitação de Consumidores",
+      "sigla": "CIDC",
+      "pai": "122084"
+    },
+    {
+      "codigo": "122086",
+      "nome": "Gerência de Canais de Relacionamento com os Consumidores",
+      "sigla": "CIRE",
+      "pai": "122084"
+    },
+    {
+      "codigo": "122085",
+      "nome": "Gerência de Inteligência em Consumo e Inclusão Digital",
+      "sigla": "CICI",
+      "pai": "122084"
+    },
+    {
+      "codigo": "122077",
+      "nome": "Gerência de Controle de Obrigações de Universalização e de Ampliação do Acesso",
+      "sigla": "COUN",
+      "pai": "122075"
+    },
+    {
+      "codigo": "122076",
+      "nome": "Gerência de Controle de Obrigações de Qualidade",
+      "sigla": "COQL",
+      "pai": "122075"
+    },
+    {
+      "codigo": "122079",
+      "nome": "Gerência de Controle de Obrigações Gerais",
+      "sigla": "COGE",
+      "pai": "122075"
+    },
+    {
+      "codigo": "122078",
+      "nome": "Gerência de Controle de Obrigações de Direitos dos Consumidores",
+      "sigla": "CODI",
+      "pai": "122075"
+    },
+    {
+      "codigo": "122095",
+      "nome": "Gerência de Administração e Desenvolvimento de Pessoas",
+      "sigla": "AFPE",
+      "pai": "122092"
+    },
+    {
+      "codigo": "122096",
+      "nome": "Gerência de Finanças, Orçamento e Arrecadação",
+      "sigla": "AFFO",
+      "pai": "122092"
+    },
+    {
+      "codigo": "122093",
+      "nome": "Gerência de Aquisições e Contratos",
+      "sigla": "AFCA",
+      "pai": "122092"
+    },
+    {
+      "codigo": "122094",
+      "nome": "Gerência de Infraestrutura e Segurança Institucional",
+      "sigla": "AFIS",
+      "pai": "122092"
+    },
+    {
+      "codigo": "122070",
+      "nome": "Gerência Regional nos Estados do Amazonas, Acre, Rondônia e Roraima",
+      "sigla": "GR011 - AM",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122054",
+      "nome": "Gerência Regional no Estado do Rio Grande do Sul",
+      "sigla": "GR05 - RS",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122051",
+      "nome": "Gerência Regional nos Estados do Paraná e Santa Catarina",
+      "sigla": "GR03 - PR",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122058",
+      "nome": "Gerência Regional nos Estados de Goiás, Mato Grosso, Mato Grosso do Sul e Tocantins",
+      "sigla": "GR07 - GO",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122049",
+      "nome": "Gerência Regional nos Estados do Rio Janeiro e Espírito Santo",
+      "sigla": "GR02 - RJ",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122048",
+      "nome": "Gerência Regional no Estado de São Paulo",
+      "sigla": "GR01 - SP",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122046",
+      "nome": "Gerência de Suporte à Fiscalização",
+      "sigla": "FISF",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122055",
+      "nome": "Gerência Regional nos Estados de Pernambuco, Paraíba e Alagoas",
+      "sigla": "GR06 - PE",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122067",
+      "nome": "Gerência Regional nos Estados do Pará, Maranhão e Amapá",
+      "sigla": "GR010 - PA",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122062",
+      "nome": "Gerência Regional nos Estados da Bahia e Sergipe",
+      "sigla": "GR08 - BA",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122064",
+      "nome": "Gerência Regional nos Estados do Ceará, Rio Grande do Norte e Piauí",
+      "sigla": "GR09 - CE",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122053",
+      "nome": "Gerência Regional no Estado de Minas Gerais",
+      "sigla": "GR04 - MG",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122074",
+      "nome": "Unidade Operacional do Distrito Federal",
+      "sigla": "UO001 - DF",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122047",
+      "nome": "Gerência de Fiscalização",
+      "sigla": "FIGF",
+      "pai": "122045"
+    },
+    {
+      "codigo": "122083",
+      "nome": "Gerência de Acompanhamento Societário e da Ordem Econômica",
+      "sigla": "CPOE",
+      "pai": "122080"
+    },
+    {
+      "codigo": "122082",
+      "nome": "Gerência de Monitoramento das Relações entre Prestadoras",
+      "sigla": "CPRP",
+      "pai": "122080"
+    },
+    {
+      "codigo": "122081",
+      "nome": "Gerência de Acompanhamento Econômico da Prestação",
+      "sigla": "CPAE",
+      "pai": "122080"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 25064 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

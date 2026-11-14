@@ -1,0 +1,121 @@
+{
+  "id": "est:inep",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira no SIORG",
+  "resumo": "15 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:inep",
+  "siorg": "249",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "429509",
+      "nome": "Diretoria de Avaliação da Educação Profissional e Tecnológica",
+      "sigla": "DAEPT",
+      "pai": "249"
+    },
+    {
+      "codigo": "273270",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "249"
+    },
+    {
+      "codigo": "273272",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "249"
+    },
+    {
+      "codigo": "57089",
+      "nome": "Diretoria de Estudos Educacionais",
+      "sigla": "DIRED",
+      "pai": "249"
+    },
+    {
+      "codigo": "21931",
+      "nome": "Diretoria de Avaliação da Educação Básica",
+      "sigla": "DAEB",
+      "pai": "249"
+    },
+    {
+      "codigo": "21934",
+      "nome": "Centro de Tecnologia, Inovação e Ciência de Dados",
+      "sigla": "CETIC",
+      "pai": "249"
+    },
+    {
+      "codigo": "21928",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF-INEP",
+      "pai": "249"
+    },
+    {
+      "codigo": "273271",
+      "nome": "Assessoria de Governança e Gestão Estratégica",
+      "sigla": "AGGE",
+      "pai": "249"
+    },
+    {
+      "codigo": "57099",
+      "nome": "Diretoria de Gestão e Planejamento",
+      "sigla": "DGP",
+      "pai": "249"
+    },
+    {
+      "codigo": "57062",
+      "nome": "Diretoria de Estatísticas Educacionais",
+      "sigla": "DEED",
+      "pai": "249"
+    },
+    {
+      "codigo": "21927",
+      "nome": "Conselho Consultivo",
+      "sigla": "CC-INEP",
+      "pai": "249",
+      "colegiada": true
+    },
+    {
+      "codigo": "21926",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "249"
+    },
+    {
+      "codigo": "429270",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "249"
+    },
+    {
+      "codigo": "21929",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIN",
+      "pai": "249"
+    },
+    {
+      "codigo": "21933",
+      "nome": "Diretoria de Avaliação da Educação Superior",
+      "sigla": "DAES",
+      "pai": "249"
+    }
+  ],
+  "ato_interno": 50,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 249 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

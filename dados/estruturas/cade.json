@@ -1,0 +1,105 @@
+{
+  "id": "est:cade",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Conselho Administrativo de Defesa Econômica no SIORG",
+  "resumo": "12 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:cade",
+  "siorg": "322",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "87493",
+      "nome": "Procuradoria Federal Especializada Junto ao CADE",
+      "sigla": "PFE",
+      "pai": "322"
+    },
+    {
+      "codigo": "96440",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "322"
+    },
+    {
+      "codigo": "119340",
+      "nome": "Diretoria de Administração e Planejamento",
+      "sigla": "DAP",
+      "pai": "322"
+    },
+    {
+      "codigo": "119338",
+      "nome": "Assessoria Internacional",
+      "sigla": "ASINT",
+      "pai": "322"
+    },
+    {
+      "codigo": "273665",
+      "nome": "Assessoria Técnica",
+      "sigla": "ASTEC",
+      "pai": "322"
+    },
+    {
+      "codigo": "87498",
+      "nome": "Comitê Executivo Setorial de Desburocratização",
+      "sigla": "CONESD",
+      "pai": "322",
+      "colegiada": true
+    },
+    {
+      "codigo": "87477",
+      "nome": "Comissão Coordenadora das Atividades de Defesa Econômica",
+      "sigla": "CCADE",
+      "pai": "322",
+      "colegiada": true
+    },
+    {
+      "codigo": "119341",
+      "nome": "Auditoria",
+      "sigla": "AUDIT",
+      "pai": "322"
+    },
+    {
+      "codigo": "119343",
+      "nome": "Departamento de Estudos Econômicos",
+      "sigla": "DEE",
+      "pai": "322"
+    },
+    {
+      "codigo": "119342",
+      "nome": "Superintendência-Geral",
+      "sigla": "SG",
+      "pai": "322"
+    },
+    {
+      "codigo": "87488",
+      "nome": "Gabinete da Presidência",
+      "sigla": "GAB-PRES",
+      "pai": "322"
+    },
+    {
+      "codigo": "119344",
+      "nome": "Tribunal Administrativo de Defesa Economica",
+      "sigla": "TRIBUNAL",
+      "pai": "322",
+      "colegiada": true
+    }
+  ],
+  "ato_interno": 37,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 322 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

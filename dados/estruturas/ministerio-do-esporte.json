@@ -1,0 +1,327 @@
+{
+  "id": "est:ministerio-do-esporte",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Ministério do Esporte no SIORG",
+  "resumo": "48 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:ministerio-do-esporte",
+  "siorg": "308797",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "117165",
+      "nome": "Autoridade Brasileira de Controle de Dopagem",
+      "sigla": "ABCD",
+      "pai": "308797"
+    },
+    {
+      "codigo": "317855",
+      "nome": "Comitê Gestor do Programa Integra Brasil",
+      "sigla": "CGPIB",
+      "pai": "308797",
+      "colegiada": true
+    },
+    {
+      "codigo": "309588",
+      "nome": "Assessoria Internacional",
+      "sigla": "ASSIN",
+      "pai": "308797"
+    },
+    {
+      "codigo": "308924",
+      "nome": "Secretaria-Executiva",
+      "sigla": "SE",
+      "pai": "308797"
+    },
+    {
+      "codigo": "309568",
+      "nome": "Assessoria Especial de Assuntos Parlamentares e Federativos",
+      "sigla": "ASPAR",
+      "pai": "308797"
+    },
+    {
+      "codigo": "309571",
+      "nome": "Assessoria Especial de Controle Interno",
+      "sigla": "AECI",
+      "pai": "308797"
+    },
+    {
+      "codigo": "47637",
+      "nome": "Conselho Nacional do Esporte",
+      "sigla": "CNE",
+      "pai": "308797",
+      "colegiada": true
+    },
+    {
+      "codigo": "116516",
+      "nome": "Secretaria Nacional de Esporte Amador, Educação, Lazer e Inclusão Social",
+      "sigla": "SNEAELIS",
+      "pai": "308797"
+    },
+    {
+      "codigo": "309589",
+      "nome": "Corregedoria",
+      "sigla": "COR",
+      "pai": "308797"
+    },
+    {
+      "codigo": "309570",
+      "nome": "Assessoria Especial de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "308797"
+    },
+    {
+      "codigo": "116538",
+      "nome": "Secretaria Nacional de Futebol e Defesa dos Direitos do Torcedor",
+      "sigla": "SNFDT",
+      "pai": "308797"
+    },
+    {
+      "codigo": "308926",
+      "nome": "Ouvidoria",
+      "sigla": "OUV",
+      "pai": "308797"
+    },
+    {
+      "codigo": "308925",
+      "nome": "Consultoria Jurídica",
+      "sigla": "CONJUR",
+      "pai": "308797"
+    },
+    {
+      "codigo": "309569",
+      "nome": "Assessoria de Participação Social e Diversidade",
+      "sigla": "APSD",
+      "pai": "308797"
+    },
+    {
+      "codigo": "308923",
+      "nome": "Gabinete",
+      "sigla": "GAB-ME",
+      "pai": "308797"
+    },
+    {
+      "codigo": "581910",
+      "nome": "Secretaria Extraordinária da Copa do Mundo de Futebol Feminino 2027",
+      "sigla": "SECMFF",
+      "pai": "308797"
+    },
+    {
+      "codigo": "263773",
+      "nome": "Secretaria Nacional de Paradesporto",
+      "sigla": "SNPAR",
+      "pai": "308797"
+    },
+    {
+      "codigo": "74079",
+      "nome": "Secretaria Nacional de Excelência Esportiva",
+      "sigla": "SNE",
+      "pai": "308797"
+    },
+    {
+      "codigo": "419609",
+      "nome": "Secretaria Nacional de Apostas Esportivas e de Desenvolvimento Econômico do Esporte",
+      "sigla": "SNAEDE",
+      "pai": "308797"
+    },
+    {
+      "codigo": "317846",
+      "nome": "Fórum Brasileiro Antidopagem.",
+      "sigla": "FBA",
+      "pai": "117165",
+      "colegiada": true
+    },
+    {
+      "codigo": "272417",
+      "nome": "Diretoria de Certificação",
+      "sigla": "DCERT",
+      "pai": "308924"
+    },
+    {
+      "codigo": "272418",
+      "nome": "Diretoria de Governança, Gestão Estratégica e Avaliação",
+      "sigla": "DGGEA",
+      "pai": "308924"
+    },
+    {
+      "codigo": "419569",
+      "nome": "Subsecretaria de Assuntos Administrativos",
+      "sigla": "SAA",
+      "pai": "308924"
+    },
+    {
+      "codigo": "292149",
+      "nome": "Diretoria de Programas e Políticas de Incentivo ao Esporte",
+      "sigla": "DPPIE",
+      "pai": "308924"
+    },
+    {
+      "codigo": "76973",
+      "nome": "Comissão Nacional de Prevenção da Violência e Segurança nos Espetáculos Esportivos",
+      "sigla": "CONSEGUE",
+      "pai": "47637",
+      "colegiada": true
+    },
+    {
+      "codigo": "75611",
+      "nome": "Comissão de Futebol e Marketing Esportivo",
+      "sigla": "CFME-CNE",
+      "pai": "47637",
+      "colegiada": true
+    },
+    {
+      "codigo": "75620",
+      "nome": "Comissão de Combate ao Doping",
+      "sigla": "CCD-CNE",
+      "pai": "47637",
+      "colegiada": true
+    },
+    {
+      "codigo": "122747",
+      "nome": "Comitê Gestor do Programa Forças no Esporte",
+      "sigla": "CGPFE",
+      "pai": "116516",
+      "colegiada": true
+    },
+    {
+      "codigo": "419509",
+      "nome": "Diretoria de Formalização de Parcerias",
+      "sigla": "DFP",
+      "pai": "116516"
+    },
+    {
+      "codigo": "308767",
+      "nome": "Diretoria de Políticas Públicas do Esporte Amador, Educação, Lazer e Inclusão Social",
+      "sigla": "DPEALIS",
+      "pai": "116516"
+    },
+    {
+      "codigo": "419529",
+      "nome": "Diretoria de Acompanhamento e Prestação de Contas",
+      "sigla": "DAPC",
+      "pai": "116516"
+    },
+    {
+      "codigo": "121876",
+      "nome": "Diretoria de Infraestrutura do Esporte",
+      "sigla": "DIE",
+      "pai": "116516"
+    },
+    {
+      "codigo": "116546",
+      "nome": "Diretoria de Defesa dos Direitos do Torcedor",
+      "sigla": "DDT",
+      "pai": "116538"
+    },
+    {
+      "codigo": "210204",
+      "nome": "Autoridade Pública de Governança do Futebol",
+      "sigla": "APFUT",
+      "pai": "116538",
+      "colegiada": true
+    },
+    {
+      "codigo": "308771",
+      "nome": "Diretoria de Políticas de Futebol e de Promoção do Futebol Feminino",
+      "sigla": "DFUT",
+      "pai": "116538"
+    },
+    {
+      "codigo": "582070",
+      "nome": "Assessoria Extraordinária de Coordenação de Grandes Eventos",
+      "sigla": "AECGE",
+      "pai": "581910"
+    },
+    {
+      "codigo": "582050",
+      "nome": "Gabinete",
+      "sigla": "GAB",
+      "pai": "581910"
+    },
+    {
+      "codigo": "308770",
+      "nome": "Diretoria de Projetos Paradesportivos",
+      "sigla": "DPPAR",
+      "pai": "263773"
+    },
+    {
+      "codigo": "419590",
+      "nome": "Diretoria de Parcerias Paradesportivas",
+      "sigla": "DPPAD",
+      "pai": "263773"
+    },
+    {
+      "codigo": "74082",
+      "nome": "Diretoria de Esporte de Base e de Alto Rendimento",
+      "sigla": "DEBAR",
+      "pai": "74079"
+    },
+    {
+      "codigo": "308769",
+      "nome": "Diretoria de Excelência Esportiva e Promoção de Eventos",
+      "sigla": "DEEPE",
+      "pai": "74079"
+    },
+    {
+      "codigo": "419629",
+      "nome": "Diretoria de e-Sport",
+      "sigla": "DESPORT",
+      "pai": "419609"
+    },
+    {
+      "codigo": "419649",
+      "nome": "Diretoria de Monitoramento e Avaliação das Apostas Esportivas",
+      "sigla": "DMAAE",
+      "pai": "419609"
+    },
+    {
+      "codigo": "419669",
+      "nome": "Diretoria de Integridade em Apostas Esportivas",
+      "sigla": "DIAE",
+      "pai": "419609"
+    },
+    {
+      "codigo": "419610",
+      "nome": "Diretoria de Fomento, Empreendedorismo e Economia Digital do Esporte",
+      "sigla": "DFEDE",
+      "pai": "419609"
+    },
+    {
+      "codigo": "219641",
+      "nome": "Plenário da APFUT",
+      "sigla": "PLENÁRIO",
+      "pai": "210204",
+      "colegiada": true
+    },
+    {
+      "codigo": "582092",
+      "nome": "Coordenação-Geral da Copa",
+      "sigla": "CGCOP",
+      "pai": "582070"
+    },
+    {
+      "codigo": "582091",
+      "nome": "Coordenação-Geral dos Grupos Temáticos da Copa",
+      "sigla": "CGGTC",
+      "pai": "582070"
+    }
+  ],
+  "ato_interno": 70,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 308797 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

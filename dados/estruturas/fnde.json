@@ -1,0 +1,141 @@
+{
+  "id": "est:fnde",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Fundo Nacional de Desenvolvimento da Educação no SIORG",
+  "resumo": "18 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:fnde",
+  "siorg": "253",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "115686",
+      "nome": "Diretoria de Tecnologia e Inovação",
+      "sigla": "DIRTI",
+      "pai": "253"
+    },
+    {
+      "codigo": "118706",
+      "nome": "Conselho de Particip. em Fundos Garantid. de Risco de Crédito Micro, Peqs. Médi. Empr. Oper. Cred. Educativo",
+      "sigla": "CPFGRCMPMEOCE",
+      "pai": "253",
+      "colegiada": true
+    },
+    {
+      "codigo": "377",
+      "nome": "Diretoria de Administração",
+      "sigla": "DIRAD",
+      "pai": "253"
+    },
+    {
+      "codigo": "303137",
+      "nome": "Assessoria de Comunicação Social",
+      "sigla": "ASCOM",
+      "pai": "253"
+    },
+    {
+      "codigo": "254",
+      "nome": "Conselho Deliberativo",
+      "sigla": "CEDEL",
+      "pai": "253",
+      "colegiada": true
+    },
+    {
+      "codigo": "119660",
+      "nome": "Diretoria de Gestão de Fundos e Benefícios",
+      "sigla": "DIGEF",
+      "pai": "253"
+    },
+    {
+      "codigo": "73952",
+      "nome": "Gabinete",
+      "sigla": "GABIN",
+      "pai": "253"
+    },
+    {
+      "codigo": "375",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF-FNDE",
+      "pai": "253"
+    },
+    {
+      "codigo": "1210",
+      "nome": "Diretoria Financeira",
+      "sigla": "DIFIN",
+      "pai": "253"
+    },
+    {
+      "codigo": "303185",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "253"
+    },
+    {
+      "codigo": "303184",
+      "nome": "Assessoria de Relações Institucionais",
+      "sigla": "ASREL",
+      "pai": "253"
+    },
+    {
+      "codigo": "303300",
+      "nome": "Assessoria de Governança, Gestão Estratégica e Inovação",
+      "sigla": "AGEST",
+      "pai": "253"
+    },
+    {
+      "codigo": "302402",
+      "nome": "Corregedoria",
+      "sigla": "COGER",
+      "pai": "253"
+    },
+    {
+      "codigo": "376",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIT",
+      "pai": "253"
+    },
+    {
+      "codigo": "231721",
+      "nome": "Comitê Gestor do Fundo de Financiamento Estudantil",
+      "sigla": "CG-Fies",
+      "pai": "253",
+      "colegiada": true
+    },
+    {
+      "codigo": "119659",
+      "nome": "Diretoria de Gestão, Articulação e Projetos Educacionais",
+      "sigla": "DIGAP",
+      "pai": "253"
+    },
+    {
+      "codigo": "473409",
+      "nome": "Assessoria de Cooperação Internacional",
+      "sigla": "ASCOP",
+      "pai": "253"
+    },
+    {
+      "codigo": "378",
+      "nome": "Diretoria de Ações Educacionais",
+      "sigla": "DIRAE",
+      "pai": "253"
+    }
+  ],
+  "ato_interno": 45,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 253 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

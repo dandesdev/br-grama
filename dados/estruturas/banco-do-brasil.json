@@ -1,0 +1,197 @@
+{
+  "id": "est:banco-do-brasil",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Banco do Brasil S.A. no SIORG",
+  "resumo": "27 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:banco-do-brasil",
+  "siorg": "93",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "119967",
+      "nome": "BBTur Viagens e Turismo LTDA",
+      "sigla": "BBTur",
+      "pai": "93"
+    },
+    {
+      "codigo": "103230",
+      "nome": "Banco Nossa Caixa S.A.",
+      "sigla": "BNC",
+      "pai": "93"
+    },
+    {
+      "codigo": "73231",
+      "nome": "Diretoria de Marketing e Comunicação",
+      "sigla": "DIMAC-BB",
+      "pai": "93"
+    },
+    {
+      "codigo": "73230",
+      "nome": "Unidade de Contadoria",
+      "sigla": "UC-BB",
+      "pai": "93"
+    },
+    {
+      "codigo": "73229",
+      "nome": "Diretoria de Logística",
+      "sigla": "DINFEl-BB",
+      "pai": "93"
+    },
+    {
+      "codigo": "76154",
+      "nome": "Diretoria de Área Internacional",
+      "sigla": "DINFE-BB",
+      "pai": "93"
+    },
+    {
+      "codigo": "78056",
+      "nome": "ATIVOS S.A. Companhia Securitizadora de Créditos Financeiros",
+      "sigla": "ATIVOS",
+      "pai": "93"
+    },
+    {
+      "codigo": "72829",
+      "nome": "Comissão Superior de Auditoria",
+      "sigla": "CSA-BB",
+      "pai": "93",
+      "colegiada": true
+    },
+    {
+      "codigo": "72827",
+      "nome": "Conselho Fiscal",
+      "sigla": "CF-BB",
+      "pai": "93",
+      "colegiada": true
+    },
+    {
+      "codigo": "72826",
+      "nome": "Conselho Diretor",
+      "sigla": "CD-BB",
+      "pai": "93",
+      "colegiada": true
+    },
+    {
+      "codigo": "72825",
+      "nome": "Diretoria Executiva",
+      "sigla": "DEX-BB",
+      "pai": "93",
+      "colegiada": true
+    },
+    {
+      "codigo": "72824",
+      "nome": "Conselho de Administração",
+      "sigla": "CA-BB",
+      "pai": "93",
+      "colegiada": true
+    },
+    {
+      "codigo": "75802",
+      "nome": "Diretoria de Governo",
+      "sigla": "DIGOV",
+      "pai": "93"
+    },
+    {
+      "codigo": "228622",
+      "nome": "Secretaria Executiva",
+      "sigla": "SECEX",
+      "pai": "93"
+    },
+    {
+      "codigo": "228634",
+      "nome": "BB Distribuidora de Títulos e Valores Mobiliários S.A.",
+      "sigla": "BB-DTVM",
+      "pai": "93"
+    },
+    {
+      "codigo": "228633",
+      "nome": "BESC Distribuidora de Títulos e Valores Mobiliários S.A.",
+      "sigla": "BESCVAL",
+      "pai": "93"
+    },
+    {
+      "codigo": "228632",
+      "nome": "BB Leasing S.A. Arrendamento Mercantil",
+      "sigla": "BB-LEASING",
+      "pai": "93"
+    },
+    {
+      "codigo": "228631",
+      "nome": "BB Banco de Investimentos S.A.",
+      "sigla": "BB-BINVESTI",
+      "pai": "93"
+    },
+    {
+      "codigo": "228628",
+      "nome": "BB Seguridade Participações S.A.",
+      "sigla": "BBSEG",
+      "pai": "93"
+    },
+    {
+      "codigo": "228627",
+      "nome": "Diretoria Gestão de Pessoas",
+      "sigla": "DIPES",
+      "pai": "93"
+    },
+    {
+      "codigo": "228626",
+      "nome": "BB  Elo Cartões Participações S.A.",
+      "sigla": "BB-ELOCART",
+      "pai": "93"
+    },
+    {
+      "codigo": "228625",
+      "nome": "BB Administradora de Consórcios S.A.",
+      "sigla": "BBCONSORCIO",
+      "pai": "93"
+    },
+    {
+      "codigo": "228624",
+      "nome": "BB Administradora de Cartões de Crédito S.A.",
+      "sigla": "BBCARTOES",
+      "pai": "93"
+    },
+    {
+      "codigo": "228623",
+      "nome": "Unidade Relações com Investidores",
+      "sigla": "URI",
+      "pai": "93"
+    },
+    {
+      "codigo": "61559",
+      "nome": "BB Tecnologia e Serviços S.A",
+      "sigla": "BBTS",
+      "pai": "93"
+    },
+    {
+      "codigo": "228630",
+      "nome": "BB Corretora de Seguros Administração de Bens S.A.",
+      "sigla": "BBCSEGUR",
+      "pai": "228628"
+    },
+    {
+      "codigo": "228629",
+      "nome": "BB Seguros Participações S.A.",
+      "sigla": "BBSEGPART",
+      "pai": "228628"
+    }
+  ],
+  "ato_interno": 17,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 93 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,184 @@
+{
+  "id": "est:aeronautica",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Aeronáutica no SIORG",
+  "resumo": "23 unidades criadas por lei ou decreto e 2 entidades vinculadas, segundo o SIORG em 14/11/2026.",
+  "de": "org:aeronautica",
+  "siorg": "48",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "68",
+      "nome": "Comando-Geral de Apoio",
+      "sigla": "COMGAP",
+      "pai": "48"
+    },
+    {
+      "codigo": "49",
+      "nome": "Alto-Comando da Aeronáutica",
+      "sigla": "ALTCOM",
+      "pai": "48"
+    },
+    {
+      "codigo": "345",
+      "nome": "Secretaria de Economia, Finanças e Administração da Aeronáutica",
+      "sigla": "SEFA",
+      "pai": "48"
+    },
+    {
+      "codigo": "305234",
+      "nome": "Secretaria de Avaliação e Promoções",
+      "sigla": "SECPROM",
+      "pai": "48"
+    },
+    {
+      "codigo": "80070",
+      "nome": "Centro de Investigação e Prevenção de Acidentes Aeronáuticos",
+      "sigla": "CENIPA",
+      "pai": "48"
+    },
+    {
+      "codigo": "120869",
+      "nome": "Centro de Controle Interno da Aeronáutica",
+      "sigla": "CENCIAR",
+      "pai": "48"
+    },
+    {
+      "codigo": "53",
+      "nome": "Departamento de Ciência e Tecnologia Aeroespacial",
+      "sigla": "DCTA",
+      "pai": "48"
+    },
+    {
+      "codigo": "73321",
+      "nome": "Centro de Inteligência da Aeronáutica",
+      "sigla": "CIAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "63",
+      "nome": "Comando-Geral do Pessoal",
+      "sigla": "COMGEP",
+      "pai": "48"
+    },
+    {
+      "codigo": "55",
+      "nome": "Centro de Comunicação Social da Aeronáutica",
+      "sigla": "CECOMSAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "54",
+      "nome": "Gabinete do Comandante da Aeronáutica",
+      "sigla": "GABAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "1706",
+      "nome": "Instituto Histórico-Cultural da Aeronáutica",
+      "sigla": "INCAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "58",
+      "nome": "Comando de Preparo",
+      "sigla": "COMPREP",
+      "pai": "48"
+    },
+    {
+      "codigo": "51804",
+      "nome": "Assessoria Parlamentar e de Relações Institucionais do Comandante da Aeronáutica",
+      "sigla": "ASPAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "50",
+      "nome": "Estado-Maior da Aeronáutica",
+      "sigla": "EMAER",
+      "pai": "48"
+    },
+    {
+      "codigo": "118160",
+      "nome": "Comissão de Coordenação de Implantação de Sistemas Espaciais",
+      "sigla": "CCISE",
+      "pai": "48",
+      "colegiada": true
+    },
+    {
+      "codigo": "58527",
+      "nome": "Departamento de Controle do Espaço Aéreo",
+      "sigla": "DECEA",
+      "pai": "48"
+    },
+    {
+      "codigo": "102336",
+      "nome": "Conselho Superior de Economia e Finanças da Aeronáuticca",
+      "sigla": "CONSEFA",
+      "pai": "48",
+      "colegiada": true
+    },
+    {
+      "codigo": "2131",
+      "nome": "Comando de Operações Aeroespaciais",
+      "sigla": "COMAE",
+      "pai": "48"
+    },
+    {
+      "codigo": "2606",
+      "nome": "Comissão de Promoções de Oficiais da Aeronáutica",
+      "sigla": "CPO",
+      "pai": "305234",
+      "colegiada": true
+    },
+    {
+      "codigo": "9220",
+      "nome": "Instituto Tecnológico de Aeronáutica",
+      "sigla": "ITA",
+      "pai": "53"
+    },
+    {
+      "codigo": "241598",
+      "nome": "Comitê de Segurança Operacional da Aviação Civil Brasileira",
+      "sigla": "CSOACB",
+      "pai": "58527",
+      "colegiada": true
+    },
+    {
+      "codigo": "206744",
+      "nome": "Secretaria",
+      "sigla": "SECR CONSEFA",
+      "pai": "102336"
+    }
+  ],
+  "vinculadas": [
+    {
+      "codigo": "930",
+      "nome": "Caixa de Financiamento Imobiliário da Aeronáutica",
+      "sigla": "CFIAE"
+    },
+    {
+      "codigo": "292009",
+      "nome": "NAV Brasil Serviços de Navegação Aérea S.A",
+      "sigla": "NAV Brasil"
+    }
+  ],
+  "ato_interno": 201,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 48 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

@@ -1,0 +1,109 @@
+{
+  "id": "est:suframa",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Superintendência da Zona Franca de Manaus no SIORG",
+  "resumo": "13 unidades criadas por lei ou decreto, segundo o SIORG em 14/11/2026.",
+  "de": "org:suframa",
+  "siorg": "166",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "360",
+      "nome": "Superintendência Adjunta de Operações",
+      "sigla": "SAO",
+      "pai": "166"
+    },
+    {
+      "codigo": "352",
+      "nome": "Conselho de Administração da SUFRAMA",
+      "sigla": "CAS-SUFRAMA",
+      "pai": "166",
+      "colegiada": true
+    },
+    {
+      "codigo": "355",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDIT",
+      "pai": "166"
+    },
+    {
+      "codigo": "354",
+      "nome": "Procuradoria Federal",
+      "sigla": "PF",
+      "pai": "166"
+    },
+    {
+      "codigo": "210288",
+      "nome": "Ouvidoria",
+      "sigla": "OUVID",
+      "pai": "166"
+    },
+    {
+      "codigo": "3792",
+      "nome": "Superintendência Adjunta de Projetos",
+      "sigla": "SPR",
+      "pai": "166"
+    },
+    {
+      "codigo": "75622",
+      "nome": "Coordenação-Geral de Representação Institucional",
+      "sigla": "CGRIN",
+      "pai": "166"
+    },
+    {
+      "codigo": "363",
+      "nome": "Superintendência Adjunta de Administração",
+      "sigla": "SAD",
+      "pai": "166"
+    },
+    {
+      "codigo": "353",
+      "nome": "Gabinete",
+      "sigla": "GABIN",
+      "pai": "166"
+    },
+    {
+      "codigo": "303394",
+      "nome": "Superintendência Adjunta Executiva",
+      "sigla": "SAE",
+      "pai": "166"
+    },
+    {
+      "codigo": "95247",
+      "nome": "Corregedoria",
+      "sigla": "CORREG",
+      "pai": "166"
+    },
+    {
+      "codigo": "75623",
+      "nome": "Coordenação-Geral de Assuntos Institucionais",
+      "sigla": "CGAI",
+      "pai": "166"
+    },
+    {
+      "codigo": "357",
+      "nome": "Superintendência Adjunta de Desenvolvimento e Inovação Tecnológica",
+      "sigla": "SDI",
+      "pai": "166"
+    }
+  ],
+  "ato_interno": 22,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 166 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}

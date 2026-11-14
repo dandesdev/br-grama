@@ -1,0 +1,226 @@
+{
+  "id": "est:funpresp-exe",
+  "tipo": "estrutura",
+  "nome": "Estrutura de Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo no SIORG",
+  "resumo": "32 unidades nos dois primeiros níveis, criadas por ato interno, segundo o SIORG em 14/11/2026.",
+  "de": "org:funpresp-exe",
+  "siorg": "120397",
+  "consulta": "2026-11-14",
+  "unidades": [
+    {
+      "codigo": "271488",
+      "nome": "Conselho Deliberativo",
+      "sigla": "CD-Funpresp-Exe",
+      "pai": "120397",
+      "colegiada": true
+    },
+    {
+      "codigo": "271802",
+      "nome": "Gerência de Conformidade e Controle Internos",
+      "sigla": "GECCI",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271796",
+      "nome": "Gerência de Governança e Planejamento",
+      "sigla": "GEPOG",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271671",
+      "nome": "Diretoria de Administração",
+      "sigla": "DA",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271670",
+      "nome": "Diretoria de Seguridade",
+      "sigla": "DISEG",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271672",
+      "nome": "Auditoria Interna",
+      "sigla": "AUDI",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271489",
+      "nome": "Conselho Fiscal",
+      "sigla": "CF-Funpresp-Exe",
+      "pai": "120397",
+      "colegiada": true
+    },
+    {
+      "codigo": "271807",
+      "nome": "Gerência de Comunicação e Relacionamento",
+      "sigla": "GECOM",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271669",
+      "nome": "Diretoria de Investimento",
+      "sigla": "DIRIN",
+      "pai": "120397"
+    },
+    {
+      "codigo": "120400",
+      "nome": "Diretoria-Executiva",
+      "sigla": "DEX-Funpresp-Exe",
+      "pai": "120397",
+      "colegiada": true
+    },
+    {
+      "codigo": "271874",
+      "nome": "Ouvidoria",
+      "sigla": "OUVIR",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271794",
+      "nome": "Coordenação Comercial",
+      "sigla": "Comer",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271799",
+      "nome": "Gerência Jurídica",
+      "sigla": "GEJUR",
+      "pai": "120397"
+    },
+    {
+      "codigo": "271806",
+      "nome": "Coordenação de Controles Internos e Riscos",
+      "sigla": "CORIS",
+      "pai": "271802"
+    },
+    {
+      "codigo": "271804",
+      "nome": "Coordenação de Compliance",
+      "sigla": "COMPL",
+      "pai": "271802"
+    },
+    {
+      "codigo": "271797",
+      "nome": "Coordenação de Planejamento e Articulação Institucional",
+      "sigla": "COPAR",
+      "pai": "271796"
+    },
+    {
+      "codigo": "271798",
+      "nome": "Coordenação de Secretariado e Órgãos Colegiados",
+      "sigla": "COSEC",
+      "pai": "271796"
+    },
+    {
+      "codigo": "271865",
+      "nome": "Gerência de Pesooas",
+      "sigla": "GEPES",
+      "pai": "271671"
+    },
+    {
+      "codigo": "271862",
+      "nome": "Gerência de Patrimônio, Logística e Contratações",
+      "sigla": "GELOG",
+      "pai": "271671"
+    },
+    {
+      "codigo": "271868",
+      "nome": "Gerência de Tecnologia e Informação",
+      "sigla": "GETIC",
+      "pai": "271671"
+    },
+    {
+      "codigo": "271858",
+      "nome": "Gerência de Orçamento, Contabilidade e Tesouraria",
+      "sigla": "GECOT",
+      "pai": "271671"
+    },
+    {
+      "codigo": "271811",
+      "nome": "Gerência de Atuária e Benefícios",
+      "sigla": "GEABE",
+      "pai": "271670"
+    },
+    {
+      "codigo": "271814",
+      "nome": "Gerência de Cadastro e Arrecadação",
+      "sigla": "GEARC",
+      "pai": "271670"
+    },
+    {
+      "codigo": "271817",
+      "nome": "Gerência de Estatísticas e Desenvolvimento de Produtos",
+      "sigla": "GEDEP",
+      "pai": "271670"
+    },
+    {
+      "codigo": "271872",
+      "nome": "Gerência de Auditoria Interna",
+      "sigla": "GEAUD",
+      "pai": "271672"
+    },
+    {
+      "codigo": "271810",
+      "nome": "Coordenação de Relacionamento e Atendimento",
+      "sigla": "CORAT",
+      "pai": "271807"
+    },
+    {
+      "codigo": "271809",
+      "nome": "Coordenação de Comunicação e Marketing",
+      "sigla": "COMAR",
+      "pai": "271807"
+    },
+    {
+      "codigo": "271848",
+      "nome": "Gerência de Controle de Investimento",
+      "sigla": "GECOI",
+      "pai": "271669"
+    },
+    {
+      "codigo": "271853",
+      "nome": "Gerência de Operações Financeiras",
+      "sigla": "GEOFI",
+      "pai": "271669"
+    },
+    {
+      "codigo": "271856",
+      "nome": "Gerência de Análise, Planejamento e Pesquisa",
+      "sigla": "GEAPP",
+      "pai": "271669"
+    },
+    {
+      "codigo": "271875",
+      "nome": "Coordenação de Ouvidoria",
+      "sigla": "OUVIR 1",
+      "pai": "271874"
+    },
+    {
+      "codigo": "271800",
+      "nome": "Coordenação de Assuntos Jurídico-Administrativos",
+      "sigla": "CONJUR",
+      "pai": "271799"
+    }
+  ],
+  "ato_interno": 0,
+  "so_ato_interno": true,
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "estrutura resumida baixada em 2026-11-14, unidade 120397 e descendentes com nível \"LEI_DECRETO\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-siorg",
+    "notas": "Gerado por scripts/importar/siorg.ts a partir do resumo em pesquisa/brutos/siorg/."
+  },
+  "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
+}
