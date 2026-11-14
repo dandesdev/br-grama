@@ -7,7 +7,7 @@
   "publicador": "Câmara dos Deputados",
   "url": "https://www2.camara.leg.br/a-camara/estruturaadm/corregedoria-parlamentar/galeria-dos-corregedores",
   "acesso_em": "2026-11-14",
-  "arquivo": "http://web.archive.org/web/20241226160836/https://www2.camara.leg.br/a-camara/estruturaadm/corregedoria-parlamentar/galeria-dos-corregedores",
+  "arquivo": null,
   "oficial": true,
   "vigencia": {
     "de": null,
@@ -15,10 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-fechamento",
-    "notas": "f3-fechamento: só o campo arquivo mudou (cópia do Wayback de 26/12/2024, conteúdo conferido); antes coletado em f2-fechamento-final (2026-11-14): página lida em 2026-11-14: \"Dep. Diego Coronel (2025/2027) Atual Corregedor\"; a página da Corregedoria (www.camara.leg.br/corregedoria) diz \"atualmente sob a gestão do deputado Diego Coronel (PSD-BA)\""
+    "tarefa": "verificacao-f3-fechamento",
+    "notas": "coletado em f2-fechamento-final e f3-fechamento; corrigido: o arquivo apontava para a cópia de 26/12/2024, que não tem o texto citado ('Dep. Diego Coronel (2025/2027) Atual Corregedor'); voltou a null. Página ao vivo relida em 2026-11-14 com o texto citado, igual à cópia bruta local"
   },
-  "notas": "Cópia bruta em pesquisa/brutos/camara/2026-11-14-f2-fechamento-final/galeria-dos-corregedores.html. Wayback: cópia de 26/12/2024, conferida em f3-fechamento (2026-11-14)."
+  "notas": "Cópia bruta em pesquisa/brutos/camara/2026-11-14-f2-fechamento-final/galeria-dos-corregedores.html. Wayback: a única cópia (26/12/2024) é da página certa, mas anterior ao que citamos: mostra Domingos Neto como atual e não tem Diego Coronel (2025/2027); por isso o campo arquivo ficou vazio (verificacao-f3-fechamento). Falta gravar uma cópia nova."
 }

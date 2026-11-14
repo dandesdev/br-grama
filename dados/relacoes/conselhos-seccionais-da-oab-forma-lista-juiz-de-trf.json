@@ -5,7 +5,7 @@
   "relacao": "forma-lista",
   "de": "org:conselhos-seccionais-da-oab",
   "para": "cargo:juiz-de-trf",
-  "condicao": "Só no TRF da 6ª Região, com jurisdição em Minas Gerais: nas vagas do quinto constitucional destinadas a advogados, a seccional de Minas Gerais forma a lista sêxtupla entre advogados com mais de dez anos de exercício, inscritos na seccional há mais de cinco anos e com idade entre 30 e 70 anos; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice.",
+  "condicao": "Só no TRF da 6ª Região, com jurisdição em Minas Gerais: nas vagas do quinto constitucional destinadas a advogados, a seccional de Minas Gerais forma a lista sêxtupla entre advogados com mais de dez anos de exercício, inscritos na seccional há mais de cinco anos e com idade entre 30 e 70 anos; o presidente do Conselho a remete ao tribunal em até cinco dias, e o tribunal forma a lista tríplice. Não pode incluir membro de órgão da OAB.",
   "vigencia": {
     "de": "1994-07-05",
     "ate": null,
@@ -22,15 +22,15 @@
     },
     {
       "ref": "norma:provimento-cfoab-102-2004",
-      "dispositivo": "art. 1º, § 2º; art. 5º, caput e § 2º; art. 9º; art. 10"
+      "dispositivo": "art. 1º, § 2º; art. 5º, caput e § 2º; art. 7º; art. 9º; art. 10"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-fechamento",
-    "notas": "CF, Lei 8.906/1994 (texto do Planalto baixado em 2026-11-14) e Provimento 102/2004 (página oficial do Conselho Federal) lidos nos dispositivos citados"
+    "tarefa": "verificacao-f3-fechamento",
+    "notas": "coletado em f3-fechamento; corrigido: faltava a vedação de membro de órgão da OAB (Lei 8.906, art. 58, XIV; Provimento, art. 7º); demais dispositivos e o TRF-6 como único TRF de um só estado (org:trf-6) conferidos"
   },
   "notas": "O TRF da 6ª Região é o único TRF com jurisdição num só estado (org:trf-6). A vigência da relação começa com a Lei 8.906/1994, mas, para os TRFs, só tem efeito desde a instalação do TRF da 6ª Região."
 }

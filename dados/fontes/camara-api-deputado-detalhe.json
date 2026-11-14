@@ -15,10 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f3-fechamento",
-    "notas": "f3-fechamento: só o campo arquivo mudou (cópia do Wayback de 10/10/2026, conteúdo conferido); antes verificado em verificacao-f0-executivo (2026-10-23): coletado em f0-executivo; URL e conteúdo conferidos (acesso em 2026-10-22/23)"
+    "tarefa": "verificacao-f3-fechamento",
+    "notas": "coletado em f3-fechamento; cópia do Wayback baixada e conferida em verificacao-f3-fechamento: a cópia de 10/10/2026 é da rota /api/v2/deputados (a url da fonte), lista dos 513 deputados em exercício na 57ª legislatura; as fichas /deputados/<id> não têm cópia no Wayback e ficam nas cópias brutas locais. Nota da coleta: f3-fechamento: só o campo arquivo mudou (cópia do Wayback de 10/10/2026, conteúdo conferido); antes verificado em verificacao-f0-executivo (2026-10-23): coletado em f0-executivo; URL e conteúdo conferidos (acesso em 2026-10-22/23)"
   },
   "notas": "Usada para deputados licenciados para exercer cargo de Ministro, que não entraram na importação dos deputados em exercício. A ficha de cada um fica em /deputados/<id>; cada citação indica o id do deputado no 'dispositivo'. Cópias brutas em pesquisa/brutos/camara-dados-abertos/2026-10-20/deputado-<id>.json. Wayback: cópia de 10/10/2026, conferida em f3-fechamento (2026-11-14)."
 }

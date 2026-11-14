@@ -44,10 +44,11 @@
           "ref": "norma:lei-4024-1961",
           "dispositivo": "art. 8º, § 1º"
         }
-      ]
+      ],
+      "confianca": "inferido"
     }
   ],
-  "provimento_nota": "O Presidente da República escolhe e nomeia; na escolha, considera a representação de todas as regiões e modalidades de ensino (art. 8º, § 5º). Para a Câmara de Educação Básica, a consulta envolve entidades de docentes, dirigentes de escolas e secretários de educação; para a de Educação Superior, reitores, diretores de instituições, docentes, estudantes, a comunidade científica e as instituições comunitárias (art. 8º, §§ 2º e 3º).",
+  "provimento_nota": "O Presidente da República escolhe e nomeia; na escolha, considera a representação de todas as regiões e modalidades de ensino (art. 8º, § 5º). Para a Câmara de Educação Básica, a consulta envolve entidades de docentes, dirigentes de escolas e secretários de educação; para a de Educação Superior, reitores, diretores de instituições, docentes, estudantes, a comunidade científica e as instituições comunitárias (art. 8º, §§ 2º e 3º). A lei exige lista só para pelo menos a metade de cada câmara; tratar os demais como nomeação livre é leitura nossa do art. 8º, § 1º.",
   "mandato": {
     "anos": 4,
     "vitalicio": false,
@@ -75,17 +76,12 @@
     "de": "1995-11-25",
     "ate": null
   },
-  "campos": {
-    "provimento_casos": {
-      "confianca": "inferido",
-      "nota": "A lei ainda cita o Secretário de Educação Fundamental, cargo que não existe na estrutura atual do MEC (Decreto 12.769/2025, art. 2º, II, a, tem a Secretaria de Educação Básica). Em 08/10/2026 o membro nato da Câmara de Educação Básica era Kátia Helena Serafina Cruz Schweickardt e o da Câmara de Educação Superior, Marcus Vinicius David (fonte:cne-composicao), que o MEC indica como Secretária de Educação Básica e Secretário de Educação Superior (fonte:mec-quem-e-quem). A divisão entre nomeação a partir de lista e livre é leitura nossa do art. 8º, § 1º (\"pelo menos a metade\")."
-    }
-  },
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-10-27",
-    "tarefa": "verificacao-f0-educacao",
-    "notas": "coletado em f0-educacao; Lei 4.024/1961, art. 8º, conferido; membros natos de 08/10/2026 conferidos em fonte:cne-composicao e cargos em fonte:mec-quem-e-quem; o Decreto 12.769/2025, Anexo I, art. 2º, II, a, tem a Secretaria de Educação Básica e não a de Educação Fundamental"
-  }
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f3-fechamento",
+    "notas": "D58: confiança inferido movida de campos.provimento_casos para o caso 'Os demais conselheiros'; nota do campo passou para notas e uma frase para provimento_nota; Lei 4.024/1961, art. 8º, relido no Planalto em 2026-11-14; antes verificado em verificacao-f0-educacao (2026-10-27): coletado em f0-educacao; Lei 4.024/1961, art. 8º, conferido; membros natos de 08/10/2026 conferidos em fonte:cne-composicao e cargos em fonte:mec-quem-e-quem; o Decreto 12.769/2025, Anexo I, art. 2º, II, a, tem a Secretaria de Educação Básica e não a de Educação Fundamental"
+  },
+  "notas": "Membro nato: a lei ainda cita o Secretário de Educação Fundamental, cargo que não existe na estrutura atual do MEC (Decreto 12.769/2025, art. 2º, II, a, tem a Secretaria de Educação Básica). Em 08/10/2026 o membro nato da Câmara de Educação Básica era Kátia Helena Serafina Cruz Schweickardt e o da Câmara de Educação Superior, Marcus Vinicius David (fonte:cne-composicao), que o MEC indica como Secretária de Educação Básica e Secretário de Educação Superior (fonte:mec-quem-e-quem); por isso o caso nato tem fonte oficial. D58 (aplicada em verificacao-f3-fechamento): a confiança inferido, que estava em campos.provimento_casos inteiro, ficou só no caso \"Os demais conselheiros\", porque a divisão entre nomeação a partir de lista e livre é leitura nossa do art. 8º, § 1º (\"pelo menos a metade\")."
 }
