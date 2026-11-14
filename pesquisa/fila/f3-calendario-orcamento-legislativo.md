@@ -1,7 +1,9 @@
 ---
 id: f3-calendario-orcamento-legislativo
 escopo: "Fase 3 (D55): datas de 2026 e 2027 nas etapas do ciclo orçamentário, da sessão legislativa, da prestação de contas e dos relatórios fiscais"
-status: em-andamento
+status: coletada
+iniciada_em: 2026-11-14
+concluida_em: 2026-11-14
 depende_de: [f2-fechamento]
 ---
 
@@ -44,3 +46,22 @@ Regras extras: não mude o texto das etapas além de corrigir um erro que a cont
   - rgf: 30/1/2026 (3º quadr. 2025, sex), 30/5/2026 (sáb), 30/9/2026 (qua), 30/1/2027 (sáb), 30/5/2027 (dom), 30/9/2027 (qui). O do 3º quadrimestre de 2027 vence em 30/1/2028.
   - A LRF não diz o que fazer quando o prazo cai em fim de semana; ficou a data da regra (nota com o dia da semana). Nenhuma dessas datas cai em feriado nacional de 2026.
   - fiscalizacao: sem data (LRF, art. 59, sem prazo).
+- 2026-11-14 — gravado proc:sessao-legislativa (novo, forma ciclo; etapas posse-da-legislatura, eleicao-das-mesas, abertura, primeiro-periodo, recesso, segundo-periodo, convocacao-extraordinaria). Datas:
+  - posse-da-legislatura: 1º/2/2027 (seg) (CF, art. 57, § 4º; RICD, art. 4º; RISF, art. 3º, IV, a).
+  - eleicao-das-mesas: 1º/2/2027 (Câmara, RICD, art. 5º; Senado sem data fixa, RISF, art. 3º, V). A de 3º ano é em 2029.
+  - abertura: 2/2/2026 (seg) e 2/2/2027 (ter); dias úteis, sem transferência do § 1º.
+  - primeiro-periodo: 2/2–17/7/2026 e 2/2–17/7/2027 (17/7/2027 é sábado; data da regra).
+  - segundo-periodo: 1º/8–22/12/2026 (1º/8 é sábado; § 1º transfere a reunião para seg 3/8) e 1º/8–22/12/2027 (domingo; reunião em seg 2/8). 22/12/2026 é terça e 22/12/2027 é quarta.
+  - recesso: 1º/1–1º/2/2026 (iniciado em 23/12/2025, cortado na janela), 18/7–31/7/2026, 23/12/2026–1º/2/2027, 18/7–31/7/2027, 23/12–31/12/2027 (segue até 1º/2/2028). Os de julho só se a LDO for aprovada (art. 57, § 2º).
+  - convocacao-extraordinaria: sem data (CF, art. 57, § 6º, fato incerto).
+  - Achado: a Res. 3/1990-CN, art. 3º, ainda define período legislativo com as datas anteriores à EC 50/2006 (15/2 a 30/6 e 1º/8 a 15/12); a edição do Senado tem nota de rodapé remetendo à EC 50. Registrado nas notas do processo; não é aviso porque a CF prevalece e a fonte não diverge sobre o fato.
+- 2026-11-14 — outros processos com etapa de data fixa (Grep de prazos com nome de mês em dados/processos), gravados com datas (verificacao → coletado):
+  - proc:atualizacao-dos-documentos-de-defesa-nacional (ciclo), etapa elaboracao: 1º/7/2026 (qua), início da atualização fixado pelo Decreto 12.725/2025, art. 3º (conferido no Planalto em 2026-11-14 via WebFetch; o curl para guardar cópia falhou). Etapa encaminhamento sem data: de quatro em quatro anos desde 2012, o próximo é 2028.
+  - proc:orcamento-do-cgibs, etapa proposta: 31/7/2026 (sex) e 31/7/2027 (sáb; data da regra) (LC 227/2026, art. 47, caput, em vigor desde a publicação, art. 182, III). Manifestação dos Legislativos e nova proposta contam da publicação efetiva: sem data.
+  - proc:apuracao-do-indice-de-participacao-dos-municipios-no-icms, etapas publicacao: 30/6/2026 (ter) e 30/6/2027 (qua) (LC 63/1990, art. 3º, § 6º); aplicacao: 1º/1/2026 e 1º/1/2027 (art. 3º, § 3º). Impugnação (30 dias da publicação) e julgamento (60 dias da primeira publicação): sem data.
+  - proc:pagamento-de-precatorio, etapas comunicacao: 1º/2/2026 (dom; data da regra) e 1º/2/2027 (seg) (CF, art. 100, § 5º, redação da EC 136/2025, em vigor desde 10/9/2025, sem regra de transição para o corte); pagamento: 31/12/2026 (qui) e 31/12/2027 (sex).
+  - Fora: proc:julgamento-de-contas-pelo-tcu (julgamento até o fim do exercício seguinte ao da apresentação, que varia por processo), proc:eleicao-geral e processos eleitorais (tarefa f3-calendario-eleicoes-mandatos).
+- 2026-11-14 — validação limpa (npm run -s validar: nenhum erro). Status → coletada.
+- Resumo: 10 processos com datas. Editados: proc:ciclo-orcamentario (10 etapas), proc:execucao-da-despesa (2), proc:atualizacao-dos-documentos-de-defesa-nacional (1), proc:orcamento-do-cgibs (1), proc:apuracao-do-indice-de-participacao-dos-municipios-no-icms (2), proc:pagamento-de-precatorio (2). Criados: proc:relatorios-fiscais (2 de 3 etapas datadas), proc:sessao-legislativa (6 de 7 etapas datadas), norma:portaria-mgi-11460-2025. Nenhum texto de etapa existente foi mudado; a conta não revelou erro nos prazos já gravados (15/4, 17/7, 31/8, 22/12, 1º a 20/10, 20/11, maio/setembro/fevereiro conferem com ADCT, art. 35, § 2º, CF, art. 57, Res. 1/2006-CN, arts. 82 e 106, e LRF, art. 9º, § 4º).
+- Para o revisor: (1) limitacao-de-empenho sem a janela de janeiro (depois do 6º bimestre), por inferência de que o exercício já acabou; (2) loa-parecer-cmo datado como janela 21/10 a 15/12 pela soma dos prazos máximos do art. 82, V a XIV, em dias corridos; (3) 17/7/2027 (sábado) ficou como data da regra, embora o art. 57, § 1º, fale em transferir "as reuniões marcadas para essas datas"; (4) a Res. 3/1990-CN, art. 3º, ainda tem os períodos anteriores à EC 50/2006; (5) as datas são para a União; estados e municípios seguem os próprios regimentos e constituições, exceto LRF e LC 63; (6) a Portaria MGI 11.460/2025 não tem cópia no Wayback (pedido devolveu 520).
+- Propostas (não editei esquema/ nem docs/): (a) o Banco Central apresenta, em até 90 dias depois de cada semestre, a avaliação das políticas monetária, creditícia e cambial (LRF, art. 9º, § 5º; daria 28/9/2026 e 31/3/2026 e 2027); hoje está só no detalhes de avaliacao-das-metas-fiscais e poderia virar etapa com data; (b) os duodécimos até o dia 20 de cada mês (CF, art. 168) dariam 24 datas na etapa execucao; deixei de fora para não encher o Calendário; (c) RISF, art. 2º, parágrafo único: nos 60 dias antes das eleições gerais o Senado funciona pelo Regimento Comum (5/8 a 3/10/2026), candidato a nota na sessão legislativa ou na eleição geral; (d) a audiência da CMO com o relator do parecer prévio do TCU "no início dos trabalhos do segundo período" (Res. 1/2006-CN, art. 115, parágrafo único) não tem data fixa; (e) um campo `tipo` na data (prazo final, janela, período) ajudaria o Calendário a distinguir "até X" de "de X a Y"; hoje a distinção está só na nota e na presença de `ate`.

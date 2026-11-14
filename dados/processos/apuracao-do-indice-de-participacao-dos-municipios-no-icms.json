@@ -53,6 +53,16 @@
           "dispositivo": "art. 3º, § 6º"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-06-30",
+          "nota": "Prazo para cada estado publicar os índices apurados em 2026, que valem em 2027 (terça-feira)."
+        },
+        {
+          "de": "2027-06-30",
+          "nota": "Prazo para publicar os índices apurados em 2027, que valem em 2028 (quarta-feira)."
+        }
+      ],
       "seguintes": [
         {
           "para": "impugnacao",
@@ -125,13 +135,23 @@
           "dispositivo": "art. 3º, § 3º"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-01-01",
+          "nota": "Passam a valer os índices apurados em 2025 (LC 63/1990, art. 3º, § 3º)."
+        },
+        {
+          "de": "2027-01-01",
+          "nota": "Passam a valer os índices apurados em 2026 (LC 63/1990, art. 3º, § 3º)."
+        }
+      ],
       "seguintes": []
     }
   ],
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-11-14",
-    "tarefa": "verificacao-f2-federacao",
-    "notas": "coletado em f2-federacao"
+    "tarefa": "f3-calendario-orcamento-legislativo",
+    "notas": "datas (D55) acrescentadas nas etapas publicacao (30/6) e aplicacao (1º/1) de 2026 e 2027 (LC 63/1990, art. 3º, §§ 3º e 6º); impugnação e julgamento contam da publicação efetiva e ficaram sem data; texto das etapas não mudou (antes verificado em verificacao-f2-federacao, 2026-11-14)"
   }
 }

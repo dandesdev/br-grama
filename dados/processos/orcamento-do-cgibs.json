@@ -56,6 +56,16 @@
           "dispositivo": "art. 11, VI; art. 47, caput, I e II, e § 1º"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-07-31",
+          "nota": "Prazo da proposta de percentual e orçamento do CGIBS para 2027 (sexta-feira) (LC 227/2026, art. 47, caput)."
+        },
+        {
+          "de": "2027-07-31",
+          "nota": "Prazo da proposta para 2028. Cai num sábado; a lei não diz o que fazer, então usamos a data da regra."
+        }
+      ],
       "seguintes": [
         {
           "para": "manifestacao-dos-legislativos",
@@ -192,9 +202,9 @@
     }
   ],
   "verificacao": {
-    "status": "verificado",
+    "status": "coletado",
     "em": "2026-11-14",
-    "tarefa": "verificacao-f2-federacao",
-    "notas": "coletado em f2-federacao"
+    "tarefa": "f3-calendario-orcamento-legislativo",
+    "notas": "datas (D55) acrescentadas na etapa proposta (31/7 de 2026 e 2027, LC 227/2026, art. 47); demais etapas dependem da data de publicação; texto das etapas não mudou (antes verificado em verificacao-f2-federacao, 2026-11-14)"
   }
 }

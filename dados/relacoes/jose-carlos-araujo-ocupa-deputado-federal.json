@@ -9,20 +9,24 @@
   "interino": true,
   "vigencia": {
     "de": "2026-06-30",
-    "ate": null,
-    "nota": "Exercício iniciado em 2026-06-30. Conforme o histórico do deputado na Câmara."
+    "ate": "2026-10-25",
+    "nota": "Exercício iniciado em 2026-06-30; terminou em 2026-10-25 (afastamento de suplente), depois da data de referência. Conforme o histórico do deputado na Câmara."
   },
   "fontes": [
     {
       "ref": "fonte:camara-api-deputados-em-exercicio",
       "dispositivo": "deputado 74140, /historico"
+    },
+    {
+      "ref": "fonte:camara-api-historico-dos-deputados",
+      "dispositivo": "deputado 74140: registro de 2026-10-25T00:00, 'Saída - Afastamento sem prazo determinado - Afastamento de Suplente (automático)'"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-10-18",
-    "tarefa": "importacao-camara-deputados",
-    "notas": "Importação automática dos dados abertos da Câmara (scripts/importar/camara-deputados.ts), conferida pelo script: 513 deputados em exercício na data de referência, ids únicos."
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "vigencia.ate preenchida com o afastamento de suplente de 2026-10-25, achado no histórico da Câmara consultado em 2026-11-14; início (2026-06-30) conferido no mesmo histórico. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
   }
 }

@@ -9,8 +9,8 @@
   "interino": true,
   "vigencia": {
     "de": "2026-07-09",
-    "ate": null,
-    "nota": "Em exercício em 2026-10-01 segundo a Câmara. Período contínuo de exercício iniciado com a reassunção em 9/7/2026, depois de afastamento de suplente, com a volta do titular; a primeira posse na legislatura, como suplente, foi em 18/6/2024."
+    "ate": "2026-11-06",
+    "nota": "Em exercício em 2026-10-01 segundo a Câmara. Período contínuo de exercício iniciado com a reassunção em 9/7/2026, depois de afastamento de suplente, com a volta do titular; a primeira posse na legislatura, como suplente, foi em 18/6/2024. Terminou em 6/11/2026 (afastamento de suplente), depois da data de referência."
   },
   "fontes": [
     {
@@ -20,6 +20,10 @@
     {
       "ref": "fonte:camara-api-historico-dos-deputados",
       "dispositivo": "deputado 122195: registro de 2026-07-09T11:36, 'Entrada - Reassunção'"
+    },
+    {
+      "ref": "fonte:camara-api-historico-dos-deputados",
+      "dispositivo": "deputado 122195: registro de 2026-11-06T00:00, 'Saída - Afastamento sem prazo determinado - Afastamento de Suplente (automático)'"
     }
   ],
   "confianca": "oficial",
@@ -27,6 +31,6 @@
     "status": "coletado",
     "em": "2026-11-14",
     "tarefa": "f3-calendario-eleicoes-mandatos",
-    "notas": "vigencia.de preenchida com o início do período contínuo de exercício que incluía 2026-10-01, calculado por script a partir do histórico do deputado na Câmara (legislatura 57); vigencia.nota reescrita. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
+    "notas": "vigencia.de preenchida com o início do período contínuo de exercício que incluía 2026-10-01, calculado por script a partir do histórico do deputado na Câmara (legislatura 57); vigencia.nota reescrita; vigencia.ate preenchida à mão com o afastamento de suplente de 2026-11-06, do mesmo histórico. Antes: verificado em 2026-10-18 (importacao-camara-deputados)."
   }
 }

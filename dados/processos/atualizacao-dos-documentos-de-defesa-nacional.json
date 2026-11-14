@@ -27,6 +27,12 @@
           "dispositivo": "art. 3º"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-07-01",
+          "nota": "Início da atualização coordenada pelo Ministério da Defesa (quarta-feira), fixado pelo Decreto 12.725/2025, art. 3º. O envio ao Congresso que ela prepara cai em 2028 (de quatro em quatro anos desde 2012), fora da janela."
+        }
+      ],
       "seguintes": [
         {
           "para": "encaminhamento",
@@ -155,9 +161,9 @@
   "confianca": "oficial",
   "notas": "A etapa de aprovação por decreto não está na LC 97/1999; segue o que ocorreu em 2025 (Decreto 12.725/2025, preâmbulo e art. 1º).",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-defesa-seguranca",
-    "notas": "coletado em f2-defesa-seguranca; conferidos LC 97/1999 art. 9º, §§ 1º a 3º, e art. 12, Decreto Legislativo 175/2025 (art. 1º e parágrafo único) e Decreto 12.725/2025 (arts. 1º a 3º; Anexo I sobre o grupo de trabalho). A Resolução 2/2013-CN (competências da CCAI, art. 3º) não fala dos documentos de defesa: o papel da CCAI vem mesmo só do caso de 2025, como a etapa diz. Corrigido: as etapas elaboracao e aprovacao não distinguiam a lei da prática (só a nota interna dizia); acrescentados detalhes nas duas e ajustado o resumo, que punha a aprovação por decreto como regra"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-orcamento-legislativo",
+    "notas": "datas (D55) acrescentadas na etapa elaboracao (início da atualização em 1º/7/2026, Decreto 12.725/2025, art. 3º); o envio seguinte, de quatro em quatro anos desde 2012, cai em 2028, fora da janela; texto das etapas não mudou (antes verificado em verificacao-f2-defesa-seguranca, 2026-11-11)"
   }
 }

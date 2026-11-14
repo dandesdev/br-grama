@@ -1,0 +1,186 @@
+{
+  "id": "proc:conferencia-nacional-de-saude",
+  "tipo": "processo",
+  "nome": "Conferência Nacional de Saúde",
+  "resumo": "A cada quatro anos, conferências municipais, estaduais e a nacional avaliam a saúde da população e propõem diretrizes para a política de saúde. A 18ª vai de 2026 a julho de 2027.",
+  "detalhes": "A conferência é convocada pelo Poder Executivo ou, de forma extraordinária, por ela mesma ou pelo conselho de saúde. O processo sobe das conferências municipais às estaduais e à nacional, que reúne as delegações eleitas nas etapas anteriores. O Conselho Nacional de Saúde aprova a realização, o regimento e o calendário, em resoluções homologadas pelo Ministro da Saúde. A 18ª tem etapa municipal em duas fases (2026 e 2026-2027), estadual de março a maio de 2027 e nacional em julho de 2027.",
+  "forma": "ciclo",
+  "etapas": [
+    {
+      "id": "aprovacao-e-calendario",
+      "atores": [
+        "org:conselho-nacional-de-saude",
+        {
+          "ator": "cargo:ministro-de-estado",
+          "orgao_exercicio": "org:ministerio-da-saude"
+        }
+      ],
+      "acao": "O Conselho Nacional de Saúde aprova a realização, o regimento e o calendário; o Ministro da Saúde homologa",
+      "detalhes": "Para a 18ª conferência: Resolução CNS 797/2025 (realização), 805/2026 (regimento) e 813/2026 (calendário atual, que revogou o da 800/2026).",
+      "fontes": [
+        {
+          "ref": "norma:lei-8142-1990",
+          "dispositivo": "art. 1º, §§ 1º e 2º"
+        },
+        {
+          "ref": "norma:resolucao-cns-813-2026",
+          "dispositivo": "preâmbulo; arts. 1º e 5º; homologação"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "etapa-municipal",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "etapa-municipal",
+      "atores": [
+        "org:conferencias-de-saude"
+      ],
+      "acao": "Conferências municipais debatem o tema e os eixos, aprovam propostas e elegem delegados para a etapa estadual",
+      "fontes": [
+        {
+          "ref": "norma:lei-8142-1990",
+          "dispositivo": "art. 1º, § 1º"
+        },
+        {
+          "ref": "norma:resolucao-cns-813-2026",
+          "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º)"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-03-16",
+          "ate": "2026-07-04",
+          "nota": "18ª conferência, etapa municipal, fase 1.",
+          "fontes": [
+            {
+              "ref": "norma:resolucao-cns-813-2026",
+              "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º); art. 3º (Resolução CNS 805/2026, Anexo I, art. 11, I)"
+            }
+          ]
+        },
+        {
+          "de": "2026-11-01",
+          "ate": "2027-02-28",
+          "nota": "18ª conferência, etapa municipal, fase 2. A resolução dá só os meses (novembro de 2026 a fevereiro de 2027); os dias são o primeiro e o último desses meses.",
+          "fontes": [
+            {
+              "ref": "norma:resolucao-cns-813-2026",
+              "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º); art. 3º (Resolução CNS 805/2026, Anexo I, art. 11, I)"
+            }
+          ]
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "etapa-estadual",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "etapa-estadual",
+      "atores": [
+        "org:conferencias-de-saude"
+      ],
+      "acao": "Conferências estaduais e do DF consolidam as propostas e elegem delegados para a etapa nacional",
+      "detalhes": "No mesmo período, as conferências livres nacionais, validadas pela Comissão Organizadora, também podem levar propostas e delegados à etapa nacional.",
+      "fontes": [
+        {
+          "ref": "norma:lei-8142-1990",
+          "dispositivo": "art. 1º, § 1º"
+        },
+        {
+          "ref": "norma:resolucao-cns-813-2026",
+          "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º)"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2027-03-01",
+          "ate": "2027-05-31",
+          "nota": "18ª conferência, etapa estadual e do DF e conferências livres nacionais. A resolução dá só os meses (março a maio de 2027).",
+          "fontes": [
+            {
+              "ref": "norma:resolucao-cns-813-2026",
+              "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º); art. 3º (Resolução CNS 805/2026, Anexo I, art. 11, II e III)"
+            }
+          ]
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "etapa-nacional",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "etapa-nacional",
+      "tipo_etapa": "fim",
+      "atores": [
+        "org:conferencias-de-saude",
+        "org:conselho-nacional-de-saude"
+      ],
+      "acao": "A conferência nacional, em Brasília, aprova as diretrizes para a formulação da política de saúde",
+      "fontes": [
+        {
+          "ref": "norma:lei-8142-1990",
+          "dispositivo": "art. 1º, § 1º"
+        },
+        {
+          "ref": "norma:resolucao-cns-813-2026",
+          "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º)"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2027-07-26",
+          "ate": "2027-07-29",
+          "nota": "18ª conferência, etapa nacional, em Brasília. A Resolução CNS 813/2026 (DOU) marca o mês de julho de 2027; os dias vêm da Resolução CNS 818/2026, cujo texto está no site do CNS, mas cuja publicação no DOU não achamos.",
+          "fontes": [
+            {
+              "ref": "norma:resolucao-cns-813-2026",
+              "dispositivo": "art. 1º (Resolução CNS 797/2025, art. 3º)"
+            },
+            {
+              "ref": "fonte:cns-resolucao-818-2026",
+              "dispositivo": "art. 1º"
+            }
+          ]
+        }
+      ],
+      "seguintes": []
+    }
+  ],
+  "vigencia": {
+    "de": "1990-12-31",
+    "ate": null,
+    "nota": "Lei 8.142/1990, publicada em 31/12/1990. Ciclo em curso na data de referência: 18ª conferência, entre as duas fases da etapa municipal."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 198, III"
+    },
+    {
+      "ref": "norma:lei-8142-1990",
+      "dispositivo": "art. 1º, I e §§ 1º e 2º"
+    },
+    {
+      "ref": "norma:resolucao-cns-813-2026",
+      "dispositivo": "arts. 1º e 3º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado em f3-calendario-eleicoes-mandatos para pôr no Calendário (D55) a conferência de saúde, que antes só existia como org:conferencias-de-saude. A data da 17ª conferência não foi pesquisada. A Resolução CNS 797/2025 e a 805/2026 não foram lidas diretamente; seus arts. 3º e 11 estão no texto que a 813 lhes deu. A conferência de assistência social não entrou: não achamos ato oficial que marque a próxima conferência nacional.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "processo novo; Lei 8.142, art. 1º, conferido na cópia local do Planalto (2026-10-23); calendário lido na Resolução CNS 813/2026 (DOU de 5/8/2026) e, para os dias da etapa nacional, no texto da 818/2026 do site do CNS; dias da semana e último dia de fevereiro de 2027 conferidos por script"
+  }
+}

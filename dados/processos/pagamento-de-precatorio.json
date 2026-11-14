@@ -153,6 +153,16 @@
           "nota": "datas desatualizadas"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-02-01",
+          "nota": "Corte dos precatórios que entram no orçamento de 2027 e devem ser pagos até 31/12/2027. Cai num domingo; a CF não diz o que fazer, então usamos a data da regra."
+        },
+        {
+          "de": "2027-02-01",
+          "nota": "Corte dos precatórios que entram no orçamento de 2028 (segunda-feira)."
+        }
+      ],
       "seguintes": [
         {
           "para": "orcamento",
@@ -203,6 +213,16 @@
         {
           "ref": "norma:resolucao-cnj-303-2019",
           "dispositivo": "art. 17, § 1º"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-12-31",
+          "nota": "Fim do prazo para pagar os precatórios incluídos no orçamento de 2026 (quinta-feira)."
+        },
+        {
+          "de": "2027-12-31",
+          "nota": "Fim do prazo para pagar os precatórios apresentados até 1º/2/2026, incluídos no orçamento de 2027 (sexta-feira)."
         }
       ],
       "seguintes": [
@@ -388,9 +408,9 @@
   "confianca": "oficial",
   "notas": "O texto compilado da CF no Planalto ainda mostra, no ADCT, art. 101, caput, \"até 31 de dezembro de 2029\", sem marcar que a EC 136/2025, art. 7º, tornou o prazo inaplicável; seguimos a emenda (conferido na revisão: o compilado do Planalto de 2026-10-16 ainda traz \"até 31 de dezembro de 2029\" sem nota, e a EC 136/2025, art. 7º, diz que o prazo \"não será aplicável a partir da data de promulgação\"). ADCT, art. 107-A (teto federal até 2026): o STF limitou os efeitos a 2022 (ADI 7064), por isso não virou regime; ver obj:limite-de-pagamento-de-precatorios. O § 9º do art. 100 (compensação com dívida ativa na redação da EC 113/2021) foi declarado inconstitucional na ADI 7064 e não entrou nas etapas. Atores: 'org:justica-federal' e 'org:justica-do-trabalho' representam os TRFs e TRTs, que não têm nó único; os presidentes dos tribunais não têm cargo próprio no mapa.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-financas-publicas",
-    "notas": "coletado em f2-financas-publicas; Lei 4.320, art. 67, e LRF, arts. 10 e 30, § 7º, conferidos. Nota da coleta: fontes Lei 4.320/1964, art. 67, e LRF, arts. 10 e 30, § 7º (antes verificado em verificacao-f0-judiciario-complementar)"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-orcamento-legislativo",
+    "notas": "datas (D55) acrescentadas nas etapas comunicacao (corte de 1º/2, CF, art. 100, § 5º, redação da EC 136/2025) e pagamento (31/12); texto das etapas não mudou (antes verificado em verificacao-f2-financas-publicas, 2026-11-11)"
   }
 }

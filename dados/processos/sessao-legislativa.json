@@ -1,0 +1,352 @@
+{
+  "id": "proc:sessao-legislativa",
+  "tipo": "processo",
+  "nome": "Sessão legislativa do Congresso Nacional",
+  "resumo": "O ano do Congresso: dois períodos de trabalho, de 2/2 a 17/7 e de 1º/8 a 22/12, com recesso entre eles; no início de cada legislatura, posse dos eleitos e eleição das Mesas.",
+  "detalhes": "Cada legislatura dura quatro anos e tem quatro sessões legislativas. A primeira e a terceira começam com sessões preparatórias, para a posse dos eleitos (só na primeira) e a eleição das Mesas, que têm mandato de dois anos. O Congresso não sai de recesso em julho sem aprovar a LDO, e no recesso funciona uma Comissão Representativa.",
+  "forma": "ciclo",
+  "etapas": [
+    {
+      "id": "posse-da-legislatura",
+      "atores": [
+        "cargo:deputado-federal",
+        "cargo:senador",
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "No início da legislatura, os deputados e senadores eleitos tomam posse em sessões preparatórias de cada Casa",
+      "detalhes": "Na Câmara, os diplomados entregam o diploma até 31 de janeiro e se reúnem em sessão preparatória no dia 1º de fevereiro do primeiro ano da legislatura (RICD, arts. 3º e 4º). No Senado, a primeira reunião preparatória é a partir de 1º de fevereiro, e nela os eleitos prestam o compromisso (RISF, art. 3º, IV, a, e V; art. 4º).",
+      "prazo": {
+        "texto": "1º de fevereiro do primeiro ano de cada legislatura (CF, art. 57, § 4º; RICD, art. 4º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 44, parágrafo único; art. 57, § 4º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "arts. 3º e 4º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 3º, IV, a, e V; art. 4º"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2027-02-01",
+          "nota": "Início da legislatura de 2027 a 2031 (segunda-feira); tomam posse os eleitos em 4/10/2026."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "eleicao-das-mesas",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "eleicao-das-mesas",
+      "atores": [
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "Cada Casa elege sua Mesa para dois anos, no primeiro e no terceiro ano da legislatura",
+      "detalhes": "É vedada a recondução para o mesmo cargo na eleição imediatamente seguinte, mas não conta como recondução a eleição em outra legislatura (CF, art. 57, § 4º; RICD, art. 5º, § 1º). Na Câmara, a eleição do primeiro ano é na segunda sessão preparatória, em 1º de fevereiro; a do terceiro ano, em data marcada pelo Presidente antes da abertura da sessão (RICD, arts. 5º e 6º). No Senado, no início da legislatura, o Presidente é eleito na reunião preparatória seguinte à da posse e os demais membros na terceira; no terceiro ano, a eleição começa em 1º de fevereiro (RISF, art. 3º, IV a VI). A Mesa do Congresso é presidida pelo Presidente do Senado (CF, art. 57, § 5º).",
+      "prazo": {
+        "texto": "Sessões preparatórias a partir de 1º de fevereiro do primeiro e do terceiro ano da legislatura (CF, art. 57, § 4º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, §§ 4º e 5º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 2º, § 2º; arts. 5º e 6º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 3º, caput, IV a VI"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2027-02-01",
+          "nota": "Na Câmara, no próprio 1º/2/2027 (RICD, art. 5º); no Senado, nas reuniões preparatórias seguintes à da posse, sem data fixa (RISF, art. 3º, V). A eleição do terceiro ano cai em 2029, fora da janela."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "abertura",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "abertura",
+      "atores": [
+        "org:congresso-nacional",
+        "org:mesa-do-congresso-nacional",
+        "cargo:presidente-da-republica"
+      ],
+      "acao": "Em sessão conjunta, o Congresso inaugura a sessão legislativa e recebe a mensagem do Presidente da República",
+      "detalhes": "A sessão conjunta é dirigida pela Mesa do Senado e não tem oradores; o enviado do Presidente entrega a mensagem, que expõe a situação do País e pede as providências que ele julgar necessárias (CF, arts. 57, § 3º, I, e 84, XI; RCCN, arts. 1º, I, 55, parágrafo único, e 57).",
+      "prazo": {
+        "texto": "2 de fevereiro; se cair em sábado, domingo ou feriado, a reunião passa para o primeiro dia útil seguinte (CF, art. 57, § 1º)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, caput e §§ 1º e 3º, I; art. 84, XI"
+        },
+        {
+          "ref": "norma:rccn",
+          "dispositivo": "art. 1º, I; art. 55, parágrafo único; art. 57"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-02-02",
+          "nota": "Abertura da 4ª sessão legislativa da legislatura de 2023 a 2027 (segunda-feira)."
+        },
+        {
+          "de": "2027-02-02",
+          "nota": "Abertura da 1ª sessão legislativa da legislatura de 2027 a 2031 (terça-feira)."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "primeiro-periodo",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "primeiro-periodo",
+      "atores": [
+        "org:congresso-nacional",
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "Primeiro período da sessão legislativa ordinária: as Casas votam projetos, entre eles a LDO",
+      "prazo": {
+        "texto": "De 2 de fevereiro a 17 de julho (CF, art. 57)",
+        "efeito": "A sessão legislativa não é interrompida sem a aprovação do projeto da LDO (CF, art. 57, § 2º)."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, caput e §§ 1º e 2º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 2º, I, e §§ 1º e 3º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 2º, I"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-02-02",
+          "ate": "2026-07-17",
+          "nota": "De segunda a sexta-feira."
+        },
+        {
+          "de": "2027-02-02",
+          "ate": "2027-07-17",
+          "nota": "17/7/2027 é sábado; o art. 57, § 1º, transfere as reuniões marcadas para as datas do caput ao primeiro dia útil seguinte, mas aqui fica a data da regra."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recesso",
+          "quando": "Aprovado o projeto da LDO"
+        }
+      ]
+    },
+    {
+      "id": "recesso",
+      "atores": [
+        "org:comissao-representativa-do-congresso-nacional"
+      ],
+      "acao": "Recesso: sem sessão ordinária, a Comissão Representativa age em nome do Congresso",
+      "detalhes": "A Comissão, com 7 senadores e 16 deputados, é eleita pelas Casas na última sessão ordinária de cada período, e seu mandato cobre o recesso seguinte, menos os dias das sessões preparatórias (CF, art. 58, § 4º; Res. 3/1990-CN, art. 2º). O mandato não se suspende se houver convocação extraordinária (Res. 3/1990-CN, art. 4º).",
+      "prazo": {
+        "texto": "De 18 a 31 de julho e de 23 de dezembro a 1º de fevereiro, fora dos períodos do art. 57"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, caput e § 2º; art. 58, § 4º"
+        },
+        {
+          "ref": "norma:resolucao-cn-3-1990",
+          "dispositivo": "arts. 2º e 4º"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-01-01",
+          "ate": "2026-02-01",
+          "nota": "Recesso iniciado em 23/12/2025."
+        },
+        {
+          "de": "2026-07-18",
+          "ate": "2026-07-31",
+          "nota": "Só se a LDO 2027 tiver sido aprovada (CF, art. 57, § 2º)."
+        },
+        {
+          "de": "2026-12-23",
+          "ate": "2027-02-01",
+          "nota": "Em 1º/2/2027 há as sessões preparatórias da nova legislatura, fora do mandato da Comissão Representativa."
+        },
+        {
+          "de": "2027-07-18",
+          "ate": "2027-07-31",
+          "nota": "Só se a LDO 2028 tiver sido aprovada (CF, art. 57, § 2º)."
+        },
+        {
+          "de": "2027-12-23",
+          "ate": "2027-12-31",
+          "nota": "O recesso segue até 1º/2/2028, fora da janela do Calendário."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "segundo-periodo",
+          "quando": "Em 1º de agosto"
+        },
+        {
+          "para": "abertura",
+          "quando": "Em 2 de fevereiro, fora do início de legislatura"
+        },
+        {
+          "para": "posse-da-legislatura",
+          "quando": "Em 1º de fevereiro do primeiro ano da legislatura"
+        },
+        {
+          "para": "convocacao-extraordinaria",
+          "quando": "Se o Congresso for convocado extraordinariamente"
+        }
+      ]
+    },
+    {
+      "id": "segundo-periodo",
+      "atores": [
+        "org:congresso-nacional",
+        "org:camara-dos-deputados",
+        "org:senado-federal"
+      ],
+      "acao": "Segundo período da sessão legislativa ordinária: as Casas votam projetos, entre eles a LOA",
+      "prazo": {
+        "texto": "De 1º de agosto a 22 de dezembro (CF, art. 57)"
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, caput e § 1º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 2º, I, e § 1º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 2º, I"
+        }
+      ],
+      "datas": [
+        {
+          "de": "2026-08-01",
+          "ate": "2026-12-22",
+          "nota": "1º/8/2026 é sábado; pelo art. 57, § 1º, a reunião marcada para essa data passa para segunda-feira, 3/8/2026."
+        },
+        {
+          "de": "2027-08-01",
+          "ate": "2027-12-22",
+          "nota": "1º/8/2027 é domingo; pelo art. 57, § 1º, a reunião marcada para essa data passa para segunda-feira, 2/8/2027."
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recesso",
+          "quando": null
+        }
+      ]
+    },
+    {
+      "id": "convocacao-extraordinaria",
+      "atores": [
+        "cargo:presidente-do-senado-federal",
+        "cargo:presidente-da-republica",
+        "cargo:presidente-da-camara-dos-deputados",
+        "org:congresso-nacional"
+      ],
+      "acao": "No recesso, o Congresso pode ser convocado extraordinariamente e só delibera sobre a matéria da convocação",
+      "detalhes": "O Presidente do Senado convoca em caso de estado de defesa, intervenção federal, pedido de estado de sítio e compromisso e posse do Presidente e do Vice. Em caso de urgência ou interesse público relevante, convocam o Presidente da República, os Presidentes da Câmara e do Senado ou a maioria dos membros das duas Casas, com aprovação da maioria absoluta de cada Casa. As medidas provisórias em vigor entram automaticamente na pauta, e é vedado pagar parcela indenizatória pela convocação (CF, art. 57, §§ 6º a 8º).",
+      "quorum": {
+        "regra": "maioria-absoluta",
+        "nota": "Só nas hipóteses do art. 57, § 6º, II: a convocação precisa ser aprovada pela maioria absoluta de cada Casa."
+      },
+      "fontes": [
+        {
+          "ref": "norma:cf-1988",
+          "dispositivo": "art. 57, §§ 6º a 8º"
+        },
+        {
+          "ref": "norma:ricd",
+          "dispositivo": "art. 2º, II, e § 4º"
+        },
+        {
+          "ref": "norma:risf",
+          "dispositivo": "art. 2º, II"
+        }
+      ],
+      "seguintes": [
+        {
+          "para": "recesso",
+          "quando": "Encerrada a sessão legislativa extraordinária"
+        }
+      ]
+    }
+  ],
+  "vigencia": {
+    "de": "2006-02-15",
+    "ate": null,
+    "nota": "Datas atuais dos períodos desde a EC 50/2006, de 14/2/2006, publicada no DOU de 15/2/2006 (quadro de emendas do Planalto, cópia em pesquisa/brutos/planalto-cf/2026-10-23/quadro_emc.htm). Antes, de 15/2 a 30/6 e de 1º/8 a 15/12."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 44, parágrafo único; art. 57; art. 58, § 4º; art. 84, XI"
+    },
+    {
+      "ref": "norma:ricd",
+      "dispositivo": "arts. 2º a 6º"
+    },
+    {
+      "ref": "norma:risf",
+      "dispositivo": "arts. 2º a 4º"
+    },
+    {
+      "ref": "norma:rccn",
+      "dispositivo": "arts. 1º, 55 e 57"
+    },
+    {
+      "ref": "norma:resolucao-cn-3-1990",
+      "dispositivo": "arts. 2º a 4º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Criado em f3-calendario-orcamento-legislativo (D55): não havia processo da sessão legislativa. A posse do Presidente e dos governadores fica em proc:eleicao-geral (etapa posse). A Res. 3/1990-CN, art. 3º, ainda fala nos períodos antigos (15/2 a 30/6 e 1º/8 a 15/12); a nota da edição do Regimento Comum remete à EC 50/2006, e as datas aqui são as da CF. As datas de 2027 contam o início da legislatura de 2027 a 2031 em 1º/2/2027.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-orcamento-legislativo",
+    "notas": "processo novo; CF, art. 57, conferido na cópia local de 2026-10-16; RICD (2026-10-23), RISF e RCCN (2026-10-23) nas cópias locais; datas calculadas com script (diário da tarefa)"
+  }
+}
