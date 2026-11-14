@@ -9,8 +9,8 @@
   "executivo-direta": { "nome": "Administração direta", "definicao": "Ministério, secretaria ou unidade deles, sem personalidade jurídica própria." },
   "autarquia": { "nome": "Autarquia", "definicao": "Entidade da administração indireta com personalidade de direito público, criada por lei para atividade típica de Estado." },
   "fundacao-publica": { "nome": "Fundação pública", "definicao": "Entidade da administração indireta formada por patrimônio destinado a um fim público, de direito público ou privado (ex.: Funpresp-Exe, Lei 12.618/2012)." },
-  "empresa-publica": { "nome": "Empresa pública", "definicao": "Empresa com capital totalmente público." },
-  "sociedade-economia-mista": { "nome": "Sociedade de economia mista", "definicao": "Sociedade anônima com maioria do capital votante do Estado e parte privada." },
+  "empresa-publica": { "nome": "Empresa pública", "definicao": "Entidade de direito privado, com criação autorizada por lei e capital integralmente público (Lei 13.303/2016, art. 3º; DL 200/1967, art. 5º, II)." },
+  "sociedade-economia-mista": { "nome": "Sociedade de economia mista", "definicao": "Sociedade anônima de direito privado, com criação autorizada por lei, cujas ações com direito a voto pertencem em maioria ao ente público (Lei 13.303/2016, art. 4º; DL 200/1967, art. 5º, III)." },
   "ramo-da-justica": { "nome": "Ramo da Justiça", "definicao": "Ramo do Poder Judiciário: Justiça Federal, do Trabalho, Eleitoral, Militar ou dos Estados." },
   "judiciario-tribunal": { "nome": "Tribunal", "definicao": "Tribunal ou juízo do Poder Judiciário." },
   "judiciario-orgao-interno": { "nome": "Órgão interno de tribunal", "definicao": "Plenário, turma, presidência ou corregedoria de um tribunal." },
@@ -24,10 +24,11 @@
   "conjunto": { "nome": "Conjunto de órgãos", "definicao": "Vários órgãos do mesmo tipo representados como um só (ex.: as comissões da Câmara). Não é um órgão real." },
   "partido-politico": { "nome": "Partido político", "definicao": "Pessoa jurídica de direito privado que organiza a disputa política e lança candidaturas." },
   "federacao-partidaria": { "nome": "Federação partidária", "definicao": "União de partidos que atuam como um só por pelo menos quatro anos." },
-  "paraestatal": { "nome": "Entidade paraestatal", "definicao": "Entidade privada que colabora com o Estado (Sistema S, OS, OSCIP, conselhos profissionais)." },
+  "paraestatal": { "nome": "Entidade paraestatal", "definicao": "Entidade privada que colabora com o Estado ou o representa por força de lei (Sistema S, OS, OSCIP, conselhos profissionais, associações de gestores reconhecidas em lei, como Conass e Conasems)." },
   "organismo-internacional": { "nome": "Organismo internacional", "definicao": "Organização formada por Estados soberanos." },
   "entidade-interfederativa": { "nome": "Entidade interfederativa", "definicao": "Entidade pública dos estados, do DF e dos municípios em conjunto, sem vínculo com nenhum deles (ex.: Comitê Gestor do IBS, art. 156-B)." },
   "sistema": { "nome": "Sistema", "definicao": "Órgãos de vários Poderes ou entes que a lei manda atuar de forma integrada, sem formar um órgão novo (ex.: Sisbin, Lei 9.883/1999; Susp, Lei 13.675/2018)." },
   "escola-judicial": { "nome": "Escola judicial", "definicao": "Escola oficial de formação e aperfeiçoamento de magistrados (ex.: Enfam, art. 105, parágrafo único, I; Enamat, art. 111-A, § 2º, I)." },
+  "orgao-interno": { "nome": "Órgão interno", "definicao": "Unidade interna de um órgão ou entidade fora do Legislativo e do Judiciário: corregedoria, ouvidoria, secretaria, diretoria ou escola institucional (ex.: Corregedoria-Geral do MPF, Escola Superior do MPU, Diretoria Executiva do CGIBS)." },
   "outro": { "nome": "Outro", "definicao": "Não se encaixa nos tipos acima; explicar em detalhes." }
 }

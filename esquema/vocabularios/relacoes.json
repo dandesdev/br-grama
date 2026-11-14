@@ -3,7 +3,7 @@
 
   "integra": { "grupo": "estrutura", "nome": "integra", "definicao": "É parte componente de outro órgão, Poder ou ente." },
   "dirige": { "grupo": "estrutura", "nome": "dirige", "definicao": "Exerce a direção de um sistema na sua esfera de governo (ex.: o Ministério da Saúde dirige o SUS na União, art. 198, I; Lei 8.080/1990, art. 9º)." },
-  "supervisiona": { "grupo": "estrutura", "nome": "supervisiona", "definicao": "Faz a supervisão administrativa e orçamentária de um ramo do Judiciário, como órgão central do sistema (ex.: o CJF e a Justiça Federal, art. 105, parágrafo único, II; o CSJT e a Justiça do Trabalho, art. 111-A, § 2º, II)." },
+  "supervisiona": { "grupo": "estrutura", "nome": "supervisiona", "definicao": "Acompanha e orienta a atuação de outro órgão ou sistema sem ser seu superior hierárquico, como órgão central (ex.: o CJF e a Justiça Federal, CF, art. 105, parágrafo único, II; o órgão central de um sistema do Executivo e os órgãos setoriais, Lei 10.180/2001)." },
   "coordena": { "grupo": "estrutura", "nome": "coordena", "definicao": "Organiza a atuação conjunta de órgãos que não lhe são subordinados (ex.: o Ministério da Justiça e Segurança Pública e o Sistema Único de Segurança Pública)." },
   "subordina-se": { "grupo": "estrutura", "nome": "subordina-se a", "definicao": "Está sob comando hierárquico de outro órgão ou cargo." },
   "vincula-se": { "grupo": "estrutura", "nome": "vincula-se a", "definicao": "Entidade da administração indireta sob supervisão de um órgão, sem hierarquia." },
@@ -13,7 +13,8 @@
 
   "ocupa": { "grupo": "pessoas", "nome": "ocupa", "definicao": "A pessoa exerce o cargo no período indicado. Um período contínuo de exercício é uma relação." },
   "elege": { "grupo": "pessoas", "nome": "elege", "definicao": "Escolhe por votação quem ocupará um cargo." },
-  "indica": { "grupo": "pessoas", "nome": "indica", "definicao": "Escolhe um nome para um cargo; a nomeação depende de aprovação de outro." },
+  "indica": { "grupo": "pessoas", "nome": "indica", "definicao": "Escolhe um nome para um cargo ou função; quando a norma exige, outro aprova ou nomeia (ex.: o Presidente indica ministro do STF, que o Senado aprova; o Presidente indica o Líder do Governo)." },
+  "forma-lista": { "grupo": "pessoas", "nome": "forma lista para", "definicao": "Escolhe vários nomes (lista tríplice, sêxtupla) entre os quais outro vai indicar ou nomear (ex.: o MPF forma a lista sêxtupla para o STJ, CF, art. 94)." },
   "aprova-indicacao": { "grupo": "pessoas", "nome": "aprova a indicação de", "definicao": "Aprova ou rejeita o nome indicado para um cargo." },
   "nomeia": { "grupo": "pessoas", "nome": "nomeia", "definicao": "Investe formalmente alguém em um cargo." },
   "designa": { "grupo": "pessoas", "nome": "designa", "definicao": "Escolhe, entre membros de uma carreira, quem vai exercer uma função por tempo determinado, sem nova nomeação (ex.: Procurador-Geral Eleitoral designa o Procurador Regional Eleitoral, LC 75/1993, art. 76)." },
@@ -21,6 +22,7 @@
   "aprova-exoneracao": { "grupo": "pessoas", "nome": "aprova a exoneração de", "definicao": "Autoriza a saída de alguém do cargo antes do fim do mandato." },
   "exonera": { "grupo": "pessoas", "nome": "exonera", "definicao": "Desliga alguém de um cargo." },
   "substitui": { "grupo": "pessoas", "nome": "substitui", "definicao": "Exerce o cargo de outro temporariamente: em impedimento, ausência ou, se o cargo vagar, até que haja sucessor." },
+  "acumula": { "grupo": "pessoas", "nome": "acumula a função de", "definicao": "O titular de um cargo exerce também outra função, por força da norma, sem nova nomeação (ex.: o Vice-Presidente do TRE acumula a Corregedoria Regional Eleitoral, Res. TSE 23.742/2024, art. 9º)." },
   "sucede": { "grupo": "pessoas", "nome": "sucede", "definicao": "Assume o cargo de outro em definitivo, quando o cargo fica vago." },
 
   "celebra": { "grupo": "normas", "nome": "celebra", "definicao": "Firma tratados, convenções e atos internacionais em nome do país (ex.: Presidente, art. 84, VIII)." },
@@ -34,6 +36,7 @@
   "publica": { "grupo": "normas", "nome": "publica", "definicao": "Torna oficialmente conhecido uma norma (em diário oficial) ou um relatório que a lei manda divulgar (ex.: RREO, RGF)." },
   "regulamenta": { "grupo": "normas", "nome": "regulamenta", "definicao": "Edita normas para a fiel execução de leis." },
   "homologa": { "grupo": "normas", "nome": "homologa", "definicao": "Confirma a decisão de outro órgão, que só produz efeito depois disso (ex.: o Ministro da Educação homologa as deliberações do Conselho Nacional de Educação)." },
+  "classifica": { "grupo": "normas", "nome": "classifica", "definicao": "Atribui grau de sigilo a uma informação, restringindo o acesso por prazo definido (Lei 12.527/2011, art. 27)." },
   "controla-constitucionalidade": { "grupo": "normas", "nome": "controla a constitucionalidade de", "definicao": "Verifica se normas e atos estão de acordo com a Constituição e pode invalidá-los." },
   "suspende-execucao": { "grupo": "normas", "nome": "suspende a execução de", "definicao": "Suspende, no todo ou em parte, a execução de norma declarada inconstitucional por decisão definitiva." },
 
@@ -47,12 +50,14 @@
   "toma-contas": { "grupo": "controle", "nome": "toma as contas de", "definicao": "Exige e organiza as contas de quem não as apresentou no prazo." },
   "emite-parecer-previo": { "grupo": "controle", "nome": "emite parecer prévio sobre", "definicao": "Analisa contas e opina tecnicamente antes do julgamento, que cabe a outro órgão." },
   "aprecia-para-registro": { "grupo": "controle", "nome": "aprecia, para registro,", "definicao": "Examina a legalidade de um ato e decide se ele é registrado (ex.: TCU com admissões e aposentadorias, art. 71, III)." },
+  "registra": { "grupo": "controle", "nome": "registra", "definicao": "Inscreve em registro oficial, condição para que o registrado exista ou atue (ex.: o TSE registra o estatuto dos partidos, CF, art. 17, § 2º; a Justiça Eleitoral registra as candidaturas)." },
   "aplica-sancao": { "grupo": "controle", "nome": "aplica sanções a", "definicao": "Pune responsáveis por despesa ilegal ou contas irregulares com as sanções previstas em lei (ex.: TCU, art. 71, VIII)." },
   "representa-a": { "grupo": "controle", "nome": "representa a", "definicao": "Comunica a outro órgão irregularidades ou abusos apurados, para que ele aja (ex.: TCU ao Poder competente, art. 71, XI)." },
   "corrige": { "grupo": "controle", "nome": "exerce correição sobre", "definicao": "Apura e pune infrações funcionais de membros ou servidores (corregedoria)." },
   "autoriza-processo": { "grupo": "controle", "nome": "autoriza processo contra", "definicao": "Autoriza a abertura de processo contra o ocupante de um cargo." },
   "julga-recursos-contra": { "grupo": "controle", "nome": "julga recursos contra decisões de", "definicao": "Revê, em grau de recurso, as decisões de outro tribunal, juiz ou órgão (ex.: o Conselho de Recursos da Previdência Social revê decisões do INSS)." },
   "julga": { "grupo": "controle", "nome": "julga", "definicao": "Decide processos ou contas, com efeito definitivo na sua esfera." },
+  "concede": { "grupo": "pessoas", "nome": "concede", "definicao": "Reconhece o direito de alguém a um benefício e passa a pagá-lo (ex.: o INSS concede o benefício de prestação continuada e os benefícios do regime geral)." },
 
   "regula": { "grupo": "poderes-administrativos", "nome": "regula", "definicao": "Edita normas técnicas e fiscaliza um setor." },
   "exerce-poder-de-policia-sobre": { "grupo": "poderes-administrativos", "nome": "exerce poder de polícia sobre", "definicao": "Limita e fiscaliza atividades particulares em nome do interesse público." },

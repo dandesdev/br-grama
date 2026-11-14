@@ -56,7 +56,7 @@ Classes conforme a D49. A primeira coluna traz só números de artigo, para o `s
 | art. 17 | coberto | org:marinha, cargo:comandante-da-marinha (Autoridade Marítima) |
 | art. 17-A | coberto | org:exercito |
 | art. 18 | coberto | org:aeronautica, cargo:comandante-da-aeronautica (Autoridade Aeronáutica Militar) |
-| arts. 19 e 20 | fora | transição esgotada: os Ministérios militares viraram Comandos com a criação do Ministério da Defesa (1999) |
+| arts. 19 e 20 | fora | art. 20: transição esgotada (os Ministérios militares viraram Comandos com a criação do Ministério da Defesa, 1999); art. 19: regra de leitura das referências legais aos antigos Ministérios, sem órgão, cargo nem etapa (motivo ajustado em verificacao-f2-defesa-seguranca) |
 | art. 21 | fora | superado: a ANAC foi criada pela Lei 11.182/2005 e hoje se vincula a outro ministério (rel:anac-vincula-se-ministerio-de-portos-e-aeroportos) |
 | art. 22 | coberto | norma:lc-97-1999 (vigência) |
 | art. 23 | fora | cláusula revogatória |
@@ -135,7 +135,7 @@ Vetado por inteiro (fora da conta): art. 44. Conta: 55 artigos vigentes; coberto
 | art. 25 | fora | permuta e cessão entre entes (direito individual) |
 | arts. 26 a 28 | coberto | cargo:arquetipo-estadual-delegado-de-policia, cargo:arquetipo-estadual-oficial-investigador-de-policia, cargo:arquetipo-estadual-perito-oficial-criminal |
 | art. 29 | fora | dever de imparcialidade (dever individual) |
-| art. 30 | fora | direitos e garantias dos policiais civis (a estabilidade, § 15, ficou no mandato dos cargos) |
+| art. 30 | coberto | cargo:arquetipo-estadual-delegado-de-policia, cargo:arquetipo-estadual-oficial-investigador-de-policia, cargo:arquetipo-estadual-perito-oficial-criminal (estabilidade, § 15), org:arquetipo-estadual-conselho-superior-de-policia-civil (promoção por bravura, § 13); os demais direitos e garantias ficam no texto da lei (corrigido em verificacao-f2-defesa-seguranca: era fora) |
 | art. 32 | fora | direitos remuneratórios |
 | arts. 33 a 35 | fora | deveres e vedações (individuais) |
 | arts. 36 e 37 | fora | dever genérico de condições de trabalho e faculdade de criar fundo estadual (sem órgão no arquétipo) |
@@ -148,7 +148,7 @@ Vetado por inteiro (fora da conta): art. 44. Conta: 55 artigos vigentes; coberto
 | art. 49 | fora | validade das leis locais compatíveis (regra de interpretação) |
 | art. 50 | coberto | norma:lei-14735-2023 (vigência) |
 
-Vetados por inteiro (fora da conta): arts. 31, 42, 43 e 48. Conta: 46 artigos vigentes; coberto 29, fora 17, parcial 0, lacuna 0; cobertura 100,0%.
+Vetados por inteiro (fora da conta): arts. 31, 42, 43 e 48. Conta: 46 artigos vigentes; coberto 30, fora 16, parcial 0, lacuna 0; cobertura 100,0% (art. 30 passou a coberto na verificação).
 
 ### Lei 14.751/2023 (Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares)
 
@@ -165,7 +165,8 @@ Vetados por inteiro (fora da conta): arts. 31, 42, 43 e 48. Conta: 46 artigos vi
 | art. 12 | coberto | cargo:arquetipo-estadual-policial-militar, cargo:arquetipo-estadual-bombeiro-militar (hierarquia) |
 | arts. 13 a 16 | coberto | cargo:arquetipo-estadual-policial-militar, cargo:arquetipo-estadual-bombeiro-militar (ingresso, promoção, quadros e cursos) |
 | art. 17 | fora | material de segurança pública (sem órgão) |
-| arts. 18 e 19 | fora | garantias e vedações (direitos e deveres individuais) |
+| art. 18 | coberto | cargo:arquetipo-estadual-policial-militar, cargo:arquetipo-estadual-bombeiro-militar (foro militar, XVII, e estabilidade, XXVI); as demais garantias ficam no texto da lei (corrigido em verificacao-f2-defesa-seguranca: era fora) |
+| art. 19 | fora | vedações aos militares em atividade (deveres individuais) |
 | arts. 22 e 23 | fora | elegibilidade e precedência dos militares (direitos individuais) |
 | art. 24 | coberto | org:arquetipo-estadual-policia-militar (convocação pela União) |
 | art. 25 | fora | órgão só em situação excepcional (D52): mobilização pela União só em caso de guerra |
@@ -183,7 +184,7 @@ Vetados por inteiro (fora da conta): arts. 31, 42, 43 e 48. Conta: 46 artigos vi
 | art. 43 | fora | revoga dispositivos do Decreto-Lei 667/1969 |
 | art. 44 | coberto | norma:lei-14751-2023 (vigência) |
 
-Vetados por inteiro (fora da conta): arts. 20 e 21. Conta: 42 artigos vigentes; coberto 20, fora 22, parcial 0, lacuna 0; cobertura 100,0%.
+Vetados por inteiro (fora da conta): arts. 20 e 21. Conta: 42 artigos vigentes; coberto 21, fora 21, parcial 0, lacuna 0; cobertura 100,0% (art. 18 passou a coberto na verificação).
 
 ### Lei 9.266/1996 (Carreira Policial Federal)
 

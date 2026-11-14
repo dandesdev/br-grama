@@ -43,7 +43,11 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - [ ] Quadro de f2-administracao: Lei 8.112, art. 37 (redistribuição com o órgão central do SIPEC), coberto ou parcial; Lei 13.303, art. 92, parágrafo único (transferências voluntárias condicionadas ao Registro de Empresas), condição de relação ou lacuna (D53) (verificacao-f2-administracao).
 - [ ] Lei 13.303, art. 55, III, remete à Lei 8.666 (revogada): conferir a remissão na Lei 14.133/2021 (verificacao-f2-administracao).
 
-## Propostas de vocabulário (para o coordenador decidir)
+- [ ] `cargo:diretor-geral-da-abin`: alinhar com o Diretor-Adjunto (CCE 1.18 no Decreto 11.816/2023; Lei 14.204/2021, arts. 3º, § 1º, e 6º) (verificacao-f2-defesa-seguranca).
+- [ ] Relação "Presidente nomeia Inspetor-Geral da IGPM/BM" (LC 97, art. 7º, parágrafo único; Lei 14.751, art. 28, § 2º), só se houver ato no DOU que confirme; senão, fica no `provimento_nota` (verificacao-f2-defesa-seguranca).
+- [ ] Aplicar a D54 nas entidades das tarefas já verificadas: `forma-lista` nas relações de lista tríplice e sêxtupla hoje `indica`; `acumula` nas funções acumuladas hoje `preside` com `nato` (Vice-Presidente do STM, do STJ, do TRE); `registra` no registro de partido e de candidatura; `classifica` nas autoridades da LAI, art. 27; `eleicao-por-colegio` nos administradores de estatal; `ato-da-mesa` e `ato-conjunto` nas normas hoje `outro`; `politica-publica` nas políticas e planos nacionais hoje `documento`; `orgao-interno` nas corregedorias, ouvidorias, secretarias e escolas do MP, da Defensoria e da AGU hoje `outro`. Cada entidade mudada volta a `coletado` com nota, e a verificação do fechamento confere.
+
+## Propostas de vocabulário (decididas na D54, 2026-11-14)
 
 - `tipo_orgao`: órgão interno de função essencial (corregedorias, ouvidorias, secretarias do MP, da Defensoria e da AGU) e escola institucional (f2-funcoes-essenciais).
 - `relacao`: "forma lista" (tríplice, sêxtupla), hoje `indica`; "avoca" (DL 200, art. 170); "secretaria" um colegiado, hoje `auxilia` (f2-executivo, f2-funcoes-essenciais).
@@ -86,5 +90,8 @@ Lista mantida pelo coordenador. Cada item diz de onde veio.
 - 2026-11-11: sem aviso para o foro do Presidente do CGIBS. A CF não o menciona nos arts. 52 e 102, e a LC 227/2026 o põe sob a Lei 1.079; omissão da CF não é contradição entre fontes (mesmo critério da ANA, acima).
 
 - 2026-11-11: sem nó "autoridade competente". Onde a lei só diz "autoridade competente" ou "superior", a etapa fica com o ente ou Poder genérico (ex.: `org:poder-executivo-federal`) e o texto da etapa diz a regra; um nó novo repetiria o genérico sem dizer quem é (verificacao-f2-administracao). A proposta fica resolvida na lista de vocabulário.
+
+- 2026-11-14: D54 decide todas as propostas de vocabulário da lista acima.
+- 2026-11-14: repasses apontados pelas coletas para virar fluxo (MDS→INSS no BPC, União→Fundo do RGPS, FNS→Conass e Conasems, Fundeb→estados e municípios, União→CGIBS, convênios da União com consórcios) ficam para a fase 3, junto com a série de anos dos fluxos (D45); só entram fluxos com recorte que o Tesouro permita somar.
 
 ## Diário

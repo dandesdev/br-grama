@@ -12,8 +12,8 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | LC 97/1999 (organização, preparo e emprego das Forças Armadas) | f2-defesa-seguranca | 22 | 0 | 0 | 4 | 26 | 100,0% |
 | Lei 9.883/1999 (Sistema Brasileiro de Inteligência e ABIN) | f2-defesa-seguranca | 14 | 0 | 0 | 2 | 16 | 100,0% |
 | Lei 13.675/2018 (Sistema Único de Segurança Pública) | f2-defesa-seguranca | 41 | 0 | 0 | 14 | 55 | 100,0% |
-| Lei 14.735/2023 (Lei Orgânica Nacional das Polícias Civis) | f2-defesa-seguranca | 29 | 0 | 0 | 17 | 46 | 100,0% |
-| Lei 14.751/2023 (Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares) | f2-defesa-seguranca | 20 | 0 | 0 | 22 | 42 | 100,0% |
+| Lei 14.735/2023 (Lei Orgânica Nacional das Polícias Civis) | f2-defesa-seguranca | 30 | 0 | 0 | 16 | 46 | 100,0% |
+| Lei 14.751/2023 (Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares) | f2-defesa-seguranca | 21 | 0 | 0 | 21 | 42 | 100,0% |
 | Lei 9.266/1996 (Carreira Policial Federal) | f2-defesa-seguranca | 9 | 0 | 0 | 5 | 14 | 100,0% |
 | Lei 9.654/1998 (carreira de Policial Rodoviário Federal) | f2-defesa-seguranca | 6 | 0 | 0 | 5 | 11 | 100,0% |
 | Lei 4.737/1965 (Código Eleitoral), exceto arts. 12 a 41 | f2-eleicoes | 63 | 0 | 3 | 272 | 338 | 99,1% |
@@ -25,6 +25,13 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Decreto-Lei 200/1967 | f2-executivo | 14 | 3 | 1 | 167 | 185 | 97,8% |
 | Lei 13.848/2019 | f2-executivo | 42 | 0 | 0 | 10 | 52 | 100,0% |
 | Lei 9.986/2000 | f2-executivo | 10 | 0 | 0 | 16 | 26 | 100,0% |
+| Lei 11.107/2005 (consórcios públicos) | f2-federacao | 17 | 0 | 0 | 5 | 22 | 100,0% |
+| LC 140/2011 (cooperação nas competências ambientais comuns) | f2-federacao | 18 | 0 | 0 | 4 | 22 | 100,0% |
+| Lei 13.089/2015 (Estatuto da Metrópole) | f2-federacao | 20 | 0 | 0 | 2 | 22 | 100,0% |
+| LC 62/1989 (cálculo e entrega do FPE e do FPM) | f2-federacao | 8 | 0 | 0 | 1 | 9 | 100,0% |
+| LC 63/1990 (parcelas do ICMS, do IPVA e do IPI-exportação dos municípios) | f2-federacao | 11 | 0 | 0 | 1 | 12 | 100,0% |
+| LC 227/2026, arts. 1º a 53 (CGIBS) e 103 a 131 (distribuição do IBS) | f2-federacao | 80 | 0 | 0 | 2 | 82 | 100,0% |
+| LC 214/2025, arts. 318 a 323 (harmonização com a CBS) e 480 a 484 (CGIBS provisório e instalação) | f2-federacao | 12 | 0 | 0 | 0 | 12 | 100,0% |
 | Lei 4.320/1964 (normas gerais de direito financeiro) | f2-financas-publicas | 64 | 0 | 0 | 51 | 115 | 100,0% |
 | LC 101/2000 (Lei de Responsabilidade Fiscal) | f2-financas-publicas | 59 | 0 | 0 | 20 | 79 | 100,0% |
 | Lei 10.180/2001 (sistemas federais de planejamento e orçamento, administração financeira, contabilidade e controle interno) | f2-financas-publicas | 30 | 0 | 0 | 11 | 41 | 100,0% |
@@ -64,4 +71,4 @@ Gerado por `scripts/cobertura-leis.ts` a partir dos quadros "Cobertura" das tare
 | Lei 8.212/1991 (organização e custeio da seguridade social) | f2-social | 5 | 0 | 2 | 79 | 86 | 97,7% |
 | Lei 8.213/1991 (planos de benefícios da previdência social) | f2-social | 11 | 0 | 0 | 142 | 153 | 100,0% |
 
-Total: 5858 artigos classificados; cobertura 99,3% (7 em lacuna, 34 parciais).
+Total: 6039 artigos classificados; cobertura 99,3% (7 em lacuna, 34 parciais).

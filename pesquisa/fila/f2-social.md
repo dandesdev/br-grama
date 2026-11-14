@@ -1,10 +1,10 @@
 ---
 id: f2-social
 escopo: "Fase 2 (D49): leis do SUS, da assistência social, da educação e da seguridade"
-status: em-andamento
+status: coletada
 depende_de: [f0-seguridade, f0-educacao]
 iniciada_em: 2026-11-11
-concluida_em: null
+concluida_em: 2026-11-14
 ---
 
 Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
@@ -19,12 +19,12 @@ Leia `pesquisa/instrucoes-agentes.md`, inclusive a seção "Fase 2".
 
 ## Entregáveis
 
-- [ ] Cópias locais e quadro de cobertura de cada lei (seção "Cobertura").
-- [ ] SUS: direção em cada esfera (Ministério da Saúde, secretarias estaduais e municipais do arquétipo), comissões intergestores (CIT existe; CIB no arquétipo estadual), conselhos e conferências de saúde (existem; confira composição e periodicidade), consórcios de saúde; competências por esfera (arts. 16 a 18 da Lei 8.080) no `detalhes` (D50).
-- [ ] Assistência social: Suas, CNAS, conselhos estaduais e municipais, fundos de assistência, comissões intergestores do Suas; BPC (quem concede: INSS) como relação.
-- [ ] Educação (LDB): sistemas de ensino (federal, estaduais, municipais), Conselho Nacional de Educação (existe) e conselhos estaduais e municipais no arquétipo; incumbências da União, dos estados e dos municípios (arts. 9º a 11) no `detalhes` (D50) ou como relações quando ligarem entidades.
-- [ ] Fundeb: o fundo como `obj:` (existe `obj:fundeb`; confira), os conselhos de acompanhamento e controle social e a comissão intergovernamental (existe).
-- [ ] Seguridade: CNPS e conselhos de previdência (existem; confira), INSS como quem concede e paga os benefícios.
+- [x] Cópias locais e quadro de cobertura de cada lei (seção "Cobertura").
+- [x] SUS: direção em cada esfera (Ministério da Saúde, secretarias estaduais e municipais do arquétipo), comissões intergestores (CIT existe; CIB no arquétipo estadual), conselhos e conferências de saúde (existem; confira composição e periodicidade), consórcios de saúde; competências por esfera (arts. 16 a 18 da Lei 8.080) no `detalhes` (D50).
+- [x] Assistência social: Suas, CNAS, conselhos estaduais e municipais, fundos de assistência, comissões intergestores do Suas; BPC (quem concede: INSS) como relação.
+- [x] Educação (LDB): sistemas de ensino (federal, estaduais, municipais), Conselho Nacional de Educação (existe) e conselhos estaduais e municipais no arquétipo; incumbências da União, dos estados e dos municípios (arts. 9º a 11) no `detalhes` (D50) ou como relações quando ligarem entidades.
+- [x] Fundeb: o fundo como `obj:` (existe `obj:fundeb`; confira), os conselhos de acompanhamento e controle social e a comissão intergovernamental (existe).
+- [x] Seguridade: CNPS e conselhos de previdência (existem; confira), INSS como quem concede e paga os benefícios.
 
 ## Ids de outras tarefas (podem ser referenciados; não crie)
 
@@ -318,3 +318,6 @@ Revogados ou vetados por inteiro (fora da conta): arts. 7º e 8º (conselhos est
 - 2026-11-12 00:09 — modelagem: os conselhos estadual e municipal de assistência social passaram do conjunto de secretarias para o órgão gestor criado aqui (Lei 8.742, art. 16, parágrafo único); os conselhos do Fundeb e os conselhos de educação dos arquétipos ficam no sistema de ensino da sua esfera (inferido: LC 220/2025, arts. 15 e 16, III); as comissões intergestores do Suas vêm da NOB-Suas (Resolução CNAS 33/2012), lida na edição do MDS de 2012, sem conferir alterações posteriores
 - 2026-11-12 00:09 — pontos para a revisão: (a) NOB-Suas não compilada (arts. 128 a 137) e sem data de DOU; (b) relações homologa do governador e do prefeito sobre os conselhos de saúde e rel:cgu-controla-internamente-fundeb com confiança inferida; (c) Lei 8.080, art. 41, como fora por superação (Fundação das Pioneiras Sociais extinta, Lei 8.246/1991, art. 2º); (d) Lei 8.212, art. 5º, como fora por superação (D51); (e) composição da Conitec pelo Decreto 12.716/2025 e etapas do processo pelo Decreto 7.646/2011, art. 15; (f) vigências deixadas null onde a data de publicação da lei que criou o órgão não foi conferida (Lei 9.836/1999, Lei 12.466/2011, Lei 9.720/1998)
 - 2026-11-12 00:09 — entidades novas: 4 normas (lei-8212-1991, decreto-7646-2011, decreto-6214-2007, resolucao-cnas-33-2012), 1 fonte, 1 aviso, 1 processo, 1 cargo, 2 objetos? não: 1 objeto (obj:beneficio-de-prestacao-continuada), 23 órgãos e 39 relações; entidades existentes editadas: 30 (lista nas linhas 'editados' acima)
+- 2026-11-14 08:29 — correção da linha anterior de contagem (escrita às pressas): entidades novas 64 (18 órgãos, 37 relações, 4 normas, 1 objeto, 1 cargo, 1 processo, 1 fonte, 1 aviso); existentes editadas 25 (com verificacao coletado e nota). Contagem feita contra o commit 45f970a, anterior ao início da tarefa
+- 2026-11-14 08:29 — retomada a pedido do coordenador: relido o diário; os checkpoints 493abf3 e f6f19ad levaram parte dos arquivos desta tarefa; conferidos os 91 ids citados no diário: todos em disco e com verificacao da f2-social, exceto rel:uniao-repassa-fpe-estados e rel:uniao-repassa-fpm-municipios, só citados (são de f2-federacao e não citam a Lei 8.212, art. 56, que segue como lacuna)
+- 2026-11-14 08:29 — npm run -s validar sem erros; npm run -s cobertura:leis confere os sete quadros; entregáveis marcados; tarefa coletada
