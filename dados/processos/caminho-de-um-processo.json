@@ -223,10 +223,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "f2-fechamento-a: vigencia.de '2016-03' (incerta) → 2016-03-18, com fonte:stj-enunciado-administrativo-1 em campos.vigencia; antes verificado em verificacao-f0-judiciario"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (f2-fechamento-a: vigencia.de '2016-03' (incerta) → 2016-03-18, com fonte:stj-enunciado-administrativo-1 em campos.vigencia; antes verificado em verificacao-f0-judiciario); vigencia 2016-03-18 conferida no Enunciado administrativo n. 1 do STJ (cópia local)"
   },
   "notas": "Decisões de modelagem: (1) os atores dos tribunais de segundo grau são os cargos (desembargador e juiz de TRF), porque são 33 tribunais; (2) a admissão do REsp e do RE no tribunal de origem é uma etapa própria, com o agravo do CPC, art. 1.042, descrito nos detalhes e no \"quando\"; (3) o processo não tem \"produz\": não existe objeto para \"decisão judicial definitiva\"; (4) vigencia.de usa a data em que o CPC/2015 começou a valer, marcada como incerta.",
   "campos": {

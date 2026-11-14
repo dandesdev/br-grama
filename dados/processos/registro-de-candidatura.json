@@ -32,6 +32,22 @@
           "dispositivo": "art. 11-A, § 8º"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-08-15",
+          "nota": "Eleição geral de 2026: último dia, até as 19h.",
+          "fontes": [
+            {
+              "ref": "norma:lei-9504-1997",
+              "dispositivo": "art. 11, caput"
+            },
+            {
+              "ref": "norma:resolucao-tse-23760-2026",
+              "dispositivo": "Anexo I, 15 de agosto, item 1"
+            }
+          ]
+        }
+      ],
       "seguintes": [
         {
           "para": "edital",
@@ -173,6 +189,22 @@
           "dispositivo": "art. 89"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-09-14",
+          "nota": "Eleição geral de 2026: data-limite para todos os pedidos, inclusive impugnados e recursos, estarem julgados nas instâncias ordinárias (20 dias antes do 1º turno).",
+          "fontes": [
+            {
+              "ref": "norma:lei-9504-1997",
+              "dispositivo": "art. 16, § 1º"
+            },
+            {
+              "ref": "norma:resolucao-tse-23760-2026",
+              "dispositivo": "Anexo I, 14 de setembro, item 2"
+            }
+          ]
+        }
+      ],
       "seguintes": [
         {
           "para": "recurso-ao-tre",
@@ -285,6 +317,22 @@
           "dispositivo": "art. 17"
         }
       ],
+      "datas": [
+        {
+          "de": "2026-09-14",
+          "nota": "Eleição geral de 2026: último dia para pedir substituição, salvo morte do candidato (20 dias antes do 1º turno).",
+          "fontes": [
+            {
+              "ref": "norma:lei-9504-1997",
+              "dispositivo": "art. 13, § 3º"
+            },
+            {
+              "ref": "norma:resolucao-tse-23760-2026",
+              "dispositivo": "Anexo I, 14 de setembro, item 3"
+            }
+          ]
+        }
+      ],
       "seguintes": [
         {
           "para": "pedido",
@@ -344,10 +392,10 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-11",
-    "tarefa": "verificacao-f2-eleicoes",
-    "notas": "coletado em f2-eleicoes; etapa a etapa: LC 64/1990, arts. 2º a 18 e 26-D (LC 219/2025), Lei 9.504/1997, arts. 10, 11 (caput, §§ 1º, 2º, 4º, 14 e 16), 13, 14, 16, 16-A e 16-B, Lei 9.096/1995, art. 11-A, § 8º, Código Eleitoral, arts. 87, 89, 91, 93, 94 e 97, e CF, art. 121, §§ 3º e 4º, III, conferidos. Corrigido: o prazo de três dias do art. 13 da LC 64 vale só para o registro julgado originariamente pelo TRE, não pelo TSE. Leitura do art. 97, §§ 2º a 4º, do Código mantida como nossa, com o apoio do art. 28 da LC 64 e da LINDB, art. 2º, § 1º, nas notas"
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f3-calendario-eleicoes-mandatos",
+    "notas": "Acrescentadas as datas da eleição de 2026 (D55) nas etapas pedido, julgamento e substituicao, conferidas contra o Anexo I da Res. TSE 23.760/2026; a eleição municipal de 2028 fica fora da janela. Sem data: edital, impugnação, contestação, instrução e recursos (contam da publicação de cada pedido ou decisão). Antes: verificado em 2026-11-11 (verificacao-f2-eleicoes)."
   },
   "notas": "As etapas de impugnação, contestação e instrução só acontecem se houver impugnação. O rito da LC 64/1990 (arts. 3º a 14) substitui, na prática, os prazos de impugnação de dois dias do Código Eleitoral (art. 97, §§ 2º a 4º), que o Planalto não marca como revogados; essa leitura é nossa (lei complementar posterior sobre o mesmo rito). Apoiam a leitura a cláusula revogatória da LC 64/1990 ('demais disposições em contrário', art. 28) e a LINDB, art. 2º, § 1º (a lei posterior revoga a anterior quando é incompatível com ela ou regula inteiramente a matéria); nenhuma fonte oficial lida declara a revogação. A LC 64/1990 também não repete a impugnação por qualquer eleitor do art. 97, § 3º, do Código. A Lei 9.504/1997 (art. 11, § 16, na redação da LC 219/2025) criou o Requerimento de Declaração de Elegibilidade, pedido que o pré-candidato pode fazer a qualquer tempo; não o modelamos como etapa porque é anterior e facultativo. Datas de 2026: pedido até 15/8 e julgamento nas instâncias ordinárias até 14/9 (ver proc:eleicao-geral)."
 }

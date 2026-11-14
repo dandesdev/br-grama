@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-mpt",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério Público do Trabalho",
+  "resumo": "Pagou R$ 2,2 bilhões em 2023; dotação atualizada de R$ 2,3 bilhões.",
+  "de": "org:mpt",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2232274943.42,
+    "despesas_pagas": 2217892133.34,
+    "restos_a_pagar_pagos": 14382810.08,
+    "pagamentos_primarios": 2059401562.7,
+    "pagamentos_financeiros": 172873380.72,
+    "dotacao_inicial": 2170294791,
+    "dotacao_atualizada": 2278005405,
+    "despesas_empenhadas": 2231748381.09,
+    "despesas_liquidadas": 2218929012.96
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34104"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "met:orcamento-2024-inss",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Instituto Nacional do Seguro Social",
+  "resumo": "Pagou R$ 13,3 bilhões em 2024; dotação atualizada de R$ 13,4 bilhões.",
+  "de": "org:inss",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 13332053672.02,
+    "despesas_pagas": 12208204757.63,
+    "restos_a_pagar_pagos": 1123848914.39,
+    "pagamentos_primarios": 12730656476.08,
+    "pagamentos_financeiros": 601397195.94,
+    "dotacao_inicial": 13358851664,
+    "dotacao_atualizada": 13447686654,
+    "despesas_empenhadas": 13300403630.42,
+    "despesas_liquidadas": 13088952064.27
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "33201",
+      "25303",
+      "40201"
+    ],
+    "nota": "Custeio e pessoal do INSS. Os benefícios do regime geral são pagos pelo Fundo do Regime Geral de Previdência Social (unidade 33904), que aparece no Ministério da Previdência Social e no próprio fundo. As unidades 25303 e 40201 são códigos antigos do INSS, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

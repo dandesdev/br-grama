@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2023-ministerio-de-portos-e-aeroportos",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério de Portos e Aeroportos",
+  "resumo": "Pagou R$ 1,0 bilhão em 2023; dotação atualizada de R$ 1,3 bilhão.",
+  "de": "org:ministerio-de-portos-e-aeroportos",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1022095047.57,
+    "despesas_pagas": 906793151.94,
+    "restos_a_pagar_pagos": 115301895.63,
+    "pagamentos_primarios": 957105322.36,
+    "pagamentos_financeiros": 64989725.21,
+    "dotacao_inicial": 1167236348,
+    "dotacao_atualizada": 1272200618,
+    "despesas_empenhadas": 1259187856.57,
+    "despesas_liquidadas": 954223688.96
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 740284387.66,
+      "despesas_pagas": 740284387.66,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 740284387.66,
+      "dotacao_inicial": 5234236169,
+      "dotacao_atualizada": 5234236169,
+      "despesas_empenhadas": 921122314.96,
+      "despesas_liquidadas": 921122314.96
+    },
+    "unidades_orcamentarias": [
+      "74904"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "68000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 39251, 39254, 39901, 39902, 68101, 68201, 68213, 68901, 68902. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

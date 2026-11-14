@@ -1,0 +1,60 @@
+{
+  "id": "met:orcamento-2024-ministerio-das-comunicacoes",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério das Comunicações",
+  "resumo": "Pagou R$ 1,4 bilhão em 2024; dotação atualizada de R$ 1,6 bilhão.",
+  "de": "org:ministerio-das-comunicacoes",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1446198570.23,
+    "despesas_pagas": 1208704845.65,
+    "restos_a_pagar_pagos": 237493724.58,
+    "pagamentos_primarios": 1343439197.97,
+    "pagamentos_financeiros": 102759372.26,
+    "dotacao_inicial": 1747968669,
+    "dotacao_atualizada": 1589444360,
+    "despesas_empenhadas": 1544263044.2,
+    "despesas_liquidadas": 1288370697.39
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 1211381368.48,
+      "despesas_pagas": 1211381368.48,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 1211381368.48,
+      "dotacao_inicial": 1373691382,
+      "dotacao_atualizada": 1728722133,
+      "despesas_empenhadas": 1219192133,
+      "despesas_liquidadas": 1211381368.48
+    },
+    "unidades_orcamentarias": [
+      "74905",
+      "74920"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "41000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 41101, 41231, 41260, 41902, 41903. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

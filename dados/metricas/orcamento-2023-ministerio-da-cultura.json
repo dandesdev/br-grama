@@ -1,0 +1,60 @@
+{
+  "id": "met:orcamento-2023-ministerio-da-cultura",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério da Cultura",
+  "resumo": "Pagou R$ 3,3 bilhões em 2023; dotação atualizada de R$ 3,1 bilhões.",
+  "de": "org:ministerio-da-cultura",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3258814734.7,
+    "despesas_pagas": 2397688415.46,
+    "restos_a_pagar_pagos": 861126319.24,
+    "pagamentos_primarios": 1476976114.79,
+    "pagamentos_financeiros": 1781838619.91,
+    "dotacao_inicial": 5588600137,
+    "dotacao_atualizada": 3123057831,
+    "despesas_empenhadas": 3075615598.4,
+    "despesas_liquidadas": 2491155289.49
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2557701026.44,
+      "despesas_pagas": 2407303334.31,
+      "restos_a_pagar_pagos": 150397692.13,
+      "pagamentos_primarios": 2260401026.44,
+      "pagamentos_financeiros": 297300000,
+      "dotacao_inicial": 158570937,
+      "dotacao_atualizada": 3158570937,
+      "despesas_empenhadas": 3158570937,
+      "despesas_liquidadas": 2407303334.31
+    },
+    "unidades_orcamentarias": [
+      "73120",
+      "74912"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "42000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 42101, 42201, 42202, 42203, 42204, 42205, 42206, 42207, 42902, 54202, 54203, 54204, 54205, 54206, 54207, 54208, 54902, 55204, 55206, 55207, 55903. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

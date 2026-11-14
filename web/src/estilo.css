@@ -302,3 +302,7 @@ main { flex: 1; display: flex; min-height: 0; }
 .barras .valor { text-align: right; width: 7em; padding-left: 10px; color: var(--tinta); white-space: nowrap; }
 .valor-orcamento { font-size: 15px; font-variant-numeric: tabular-nums; }
 .legenda-item .circulo { display: inline-block; border-radius: 50%; background: color-mix(in srgb, var(--executivo) 22%, transparent); margin-right: 8px; vertical-align: middle; flex: none; }
+
+/* Variação sobre o ano anterior (D57) */
+.variacao { opacity: 0.7; font-size: 0.85em; margin-left: 0.3em; white-space: nowrap; }
+.barras.serie th { width: 3.5em; }

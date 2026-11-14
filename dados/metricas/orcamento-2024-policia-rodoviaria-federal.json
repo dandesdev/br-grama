@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-policia-rodoviaria-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Polícia Rodoviária Federal",
+  "resumo": "Pagou R$ 6,4 bilhões em 2024; dotação atualizada de R$ 6,6 bilhões.",
+  "de": "org:policia-rodoviaria-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6432022490.48,
+    "despesas_pagas": 5779288902.27,
+    "restos_a_pagar_pagos": 652733588.21,
+    "pagamentos_primarios": 5862275033.34,
+    "pagamentos_financeiros": 569747457.14,
+    "dotacao_inicial": 6427705714,
+    "dotacao_atualizada": 6603640154,
+    "despesas_empenhadas": 6560381670.21,
+    "despesas_liquidadas": 6246748797.97
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30107"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

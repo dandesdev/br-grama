@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-dpu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Defensoria Pública da União",
+  "resumo": "Pagou R$ 747,7 milhões em 2024; dotação atualizada de R$ 787,4 milhões.",
+  "de": "org:dpu",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 747667702.62,
+    "despesas_pagas": 671999629.48,
+    "restos_a_pagar_pagos": 75668073.14,
+    "pagamentos_primarios": 693429562.18,
+    "pagamentos_financeiros": 54238140.44,
+    "dotacao_inicial": 739086984,
+    "dotacao_atualizada": 787415807,
+    "despesas_empenhadas": 786829378.03,
+    "despesas_liquidadas": 727255631.87
+  },
+  "recorte": {
+    "poderes": [
+      "DPU"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

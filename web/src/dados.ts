@@ -181,6 +181,22 @@ export class Dados {
     return this.orcamentos.get(id);
   }
 
+  /** Série do orçamento executado da entidade, do exercício mais antigo ao último fechado (D57). */
+  serieOrcamento(id: string): Entidade[] {
+    const ano = Number(this.data.slice(0, 4));
+    return Object.values(this.grafo.entidades)
+      .filter((e) => e.tipo === "metrica" && e.medida === "orcamento-executado" && e.de === id && (e.exercicio as number) < ano)
+      .sort((a, b) => (a.exercicio as number) - (b.exercicio as number));
+  }
+
+  /** Série dos valores pagos por uma relação repassa-recursos (D57). */
+  serieFluxo(relacaoId: string): Entidade[] {
+    const ano = Number(this.data.slice(0, 4));
+    return Object.values(this.grafo.entidades)
+      .filter((e) => e.tipo === "fluxo" && e.repasse === relacaoId && (e.exercicio as number) < ano)
+      .sort((a, b) => (a.exercicio as number) - (b.exercicio as number));
+  }
+
   todosOrcamentos(): Entidade[] {
     return [...this.orcamentos.values()];
   }

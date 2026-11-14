@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-go",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral de Goiás",
+  "resumo": "Pagou R$ 258,7 milhões em 2024; dotação atualizada de R$ 259,8 milhões.",
+  "de": "org:tre-go",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 258740879.03,
+    "despesas_pagas": 252008538.15,
+    "restos_a_pagar_pagos": 6732340.88,
+    "pagamentos_primarios": 235732303.59,
+    "pagamentos_financeiros": 23008575.44,
+    "dotacao_inicial": 241244236,
+    "dotacao_atualizada": 259779696,
+    "despesas_empenhadas": 259335837.5,
+    "despesas_liquidadas": 252104127.56
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14109"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

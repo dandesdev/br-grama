@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-anatel",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Telecomunicações",
+  "resumo": "Pagou R$ 610,5 milhões em 2024; dotação atualizada de R$ 640,4 milhões.",
+  "de": "org:anatel",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 610502497.22,
+    "despesas_pagas": 529100230.52,
+    "restos_a_pagar_pagos": 81402266.7,
+    "pagamentos_primarios": 557708470.5,
+    "pagamentos_financeiros": 52794026.72,
+    "dotacao_inicial": 654968328,
+    "dotacao_atualizada": 640417526,
+    "despesas_empenhadas": 629403371.01,
+    "despesas_liquidadas": 574846105.19
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "41231"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

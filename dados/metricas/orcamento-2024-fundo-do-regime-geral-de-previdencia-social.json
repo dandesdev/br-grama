@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-fundo-do-regime-geral-de-previdencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Fundo do Regime Geral de Previdência Social",
+  "resumo": "Pagou R$ 938,3 bilhões em 2024; dotação atualizada de R$ 943,2 bilhões.",
+  "de": "obj:fundo-do-regime-geral-de-previdencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 938302029582.82,
+    "despesas_pagas": 884020811652.55,
+    "restos_a_pagar_pagos": 54281217930.27,
+    "pagamentos_primarios": 938302029582.82,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 913698659491,
+    "dotacao_atualizada": 943247322816,
+    "despesas_empenhadas": 943199053322.07,
+    "despesas_liquidadas": 939789078013.69
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "33904"
+    ],
+    "nota": "Paga os benefícios do regime geral de previdência (aposentadorias, pensões, auxílios). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

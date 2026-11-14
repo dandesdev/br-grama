@@ -1,0 +1,46 @@
+{
+  "id": "fluxo:uniao-repassa-fpe-estados-2024",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos estados e ao DF 21,5% do IR, do IPI e do Imposto Seletivo, pelo FPE: valores de 2024",
+  "resumo": "Pagamentos de R$ 149,8 bilhões em 2024.",
+  "repasse": "rel:uniao-repassa-fpe-estados",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 149831128137.61,
+    "despesas_pagas": 144280694894.66,
+    "restos_a_pagar_pagos": 5550433242.95,
+    "pagamentos_primarios": 149831128137.61,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 152327846010,
+    "dotacao_atualizada": 152327846010,
+    "despesas_empenhadas": 149679589220.12,
+    "despesas_liquidadas": 144280694894.66
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "0044"
+    ],
+    "nota": "A parcela destinada ao Fundeb (CF, art. 212-A, II) é paga na ação 0C33, que reúne a retenção de várias transferências, e não entra aqui. Ações somadas: 0044 (TRANSFERENCIA AO FUNDO DE PARTICIPACAO DOS ESTADOS E DO DIST)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

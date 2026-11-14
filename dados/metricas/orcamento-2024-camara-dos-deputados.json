@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-camara-dos-deputados",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Câmara dos Deputados",
+  "resumo": "Pagou R$ 6,8 bilhões em 2024; dotação atualizada de R$ 8,0 bilhões.",
+  "de": "org:camara-dos-deputados",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6789176195.19,
+    "despesas_pagas": 6510539536.34,
+    "restos_a_pagar_pagos": 278636658.85,
+    "pagamentos_primarios": 6580050383.12,
+    "pagamentos_financeiros": 209125812.07,
+    "dotacao_inicial": 7953456139,
+    "dotacao_atualizada": 7963511683,
+    "despesas_empenhadas": 6961612230.76,
+    "despesas_liquidadas": 6659376005.41
+  },
+  "recorte": {
+    "poderes": [
+      "CD"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

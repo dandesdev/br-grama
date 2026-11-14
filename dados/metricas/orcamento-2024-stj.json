@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-stj",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Superior Tribunal de Justiça",
+  "resumo": "Pagou R$ 2,1 bilhões em 2024; dotação atualizada de R$ 2,1 bilhões.",
+  "de": "org:stj",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2079320224.13,
+    "despesas_pagas": 1927680015.66,
+    "restos_a_pagar_pagos": 151640208.47,
+    "pagamentos_primarios": 1949481317.89,
+    "pagamentos_financeiros": 129838906.24,
+    "dotacao_inicial": 2090668552,
+    "dotacao_atualizada": 2103742393,
+    "despesas_empenhadas": 2061367068.21,
+    "despesas_liquidadas": 1968099844.8
+  },
+  "recorte": {
+    "poderes": [
+      "STJ"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

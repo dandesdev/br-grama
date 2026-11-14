@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-df",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral do Distrito Federal",
+  "resumo": "Pagou R$ 140,7 milhões em 2024; dotação atualizada de R$ 145,8 milhões.",
+  "de": "org:tre-df",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 140701791.27,
+    "despesas_pagas": 138945354.12,
+    "restos_a_pagar_pagos": 1756437.15,
+    "pagamentos_primarios": 131523212.47,
+    "pagamentos_financeiros": 9178578.8,
+    "dotacao_inicial": 132128083,
+    "dotacao_atualizada": 145813057,
+    "despesas_empenhadas": 142305529.42,
+    "despesas_liquidadas": 140294250.14
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14107"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

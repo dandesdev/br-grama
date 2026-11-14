@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-cgu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Controladoria-Geral da União",
+  "resumo": "Pagou R$ 1,3 bilhão em 2023; dotação atualizada de R$ 1,4 bilhão.",
+  "de": "org:cgu",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1299355577.01,
+    "despesas_pagas": 1197464263.63,
+    "restos_a_pagar_pagos": 101891313.38,
+    "pagamentos_primarios": 1176524624.42,
+    "pagamentos_financeiros": 122830952.59,
+    "dotacao_inicial": 1292192062,
+    "dotacao_atualizada": 1381502712,
+    "despesas_empenhadas": 1379962547.43,
+    "despesas_liquidadas": 1296046134.55
+  },
+  "recorte": {
+    "orgao_orcamentario": "37000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 37101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

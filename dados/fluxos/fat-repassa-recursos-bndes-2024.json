@@ -1,0 +1,46 @@
+{
+  "id": "fluxo:fat-repassa-recursos-bndes-2024",
+  "tipo": "fluxo",
+  "nome": "Recursos do FAT vão ao BNDES: valores de 2024",
+  "resumo": "Pagamentos de R$ 28,4 bilhões em 2024.",
+  "repasse": "rel:fat-repassa-recursos-bndes",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 28361807348.04,
+    "despesas_pagas": 28279461759,
+    "restos_a_pagar_pagos": 82345589.04,
+    "pagamentos_primarios": 0,
+    "pagamentos_financeiros": 28361807348.04,
+    "dotacao_inicial": 27153338081,
+    "dotacao_atualizada": 28279461759,
+    "despesas_empenhadas": 28279461759,
+    "despesas_liquidadas": 28279461759
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "40901"
+    ],
+    "acoes": [
+      "0158"
+    ],
+    "nota": "Ações somadas: 0158 (FINANCIAMENTO DE PROGRAMAS DE DESENVOLVIMENTO ECONOMICO A CA)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

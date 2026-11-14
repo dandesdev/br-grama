@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-trt-17",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional do Trabalho da 17ª Região",
+  "resumo": "Pagou R$ 424,4 milhões em 2024; dotação atualizada de R$ 433,3 milhões.",
+  "de": "org:trt-17",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 424449953.42,
+    "despesas_pagas": 416909708.53,
+    "restos_a_pagar_pagos": 7540244.89,
+    "pagamentos_primarios": 384541280.29,
+    "pagamentos_financeiros": 39908673.13,
+    "dotacao_inicial": 373813715,
+    "dotacao_atualizada": 433250549,
+    "despesas_empenhadas": 432212692.26,
+    "despesas_liquidadas": 426777842.68
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15118"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

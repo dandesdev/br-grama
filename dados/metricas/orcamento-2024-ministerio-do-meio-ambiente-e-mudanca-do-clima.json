@@ -1,0 +1,60 @@
+{
+  "id": "met:orcamento-2024-ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério do Meio Ambiente e Mudança do Clima",
+  "resumo": "Pagou R$ 3,4 bilhões em 2024; dotação atualizada de R$ 3,9 bilhões.",
+  "de": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3447463949.57,
+    "despesas_pagas": 3086359987,
+    "restos_a_pagar_pagos": 361103962.57,
+    "pagamentos_primarios": 3276219102.71,
+    "pagamentos_financeiros": 171244846.86,
+    "dotacao_inicial": 3299005509,
+    "dotacao_atualizada": 3924393761,
+    "despesas_empenhadas": 3670510022.13,
+    "despesas_liquidadas": 3286346601.21
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 10483446217.57,
+      "despesas_pagas": 10483446217.57,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 27024674.6,
+      "pagamentos_financeiros": 10456421542.97,
+      "dotacao_inicial": 10469960707,
+      "dotacao_atualizada": 13640850430,
+      "despesas_empenhadas": 13620010735.57,
+      "despesas_liquidadas": 10483446217.57
+    },
+    "unidades_orcamentarias": [
+      "73111",
+      "74916"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "44000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 22106, 44101, 44102, 44201, 44206, 44207, 44901, 44902. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

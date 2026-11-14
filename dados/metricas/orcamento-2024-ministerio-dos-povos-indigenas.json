@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-dos-povos-indigenas",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério dos Povos Indígenas",
+  "resumo": "Pagou R$ 999,7 milhões em 2024; dotação atualizada de R$ 1,4 bilhão.",
+  "de": "org:ministerio-dos-povos-indigenas",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 999708736.8,
+    "despesas_pagas": 873580504.33,
+    "restos_a_pagar_pagos": 126128232.47,
+    "pagamentos_primarios": 968683667.86,
+    "pagamentos_financeiros": 31025068.94,
+    "dotacao_inicial": 849776401,
+    "dotacao_atualizada": 1393064608,
+    "despesas_empenhadas": 1384311958.78,
+    "despesas_liquidadas": 944026870.03
+  },
+  "recorte": {
+    "orgao_orcamentario": "84000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 30202, 84101, 84201. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-trf-1",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional Federal da 1ª Região",
+  "resumo": "Pagou R$ 659,3 milhões em 2023; dotação atualizada de R$ 679,4 milhões.",
+  "de": "org:trf-1",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 659338719.36,
+    "despesas_pagas": 648107093.88,
+    "restos_a_pagar_pagos": 11231625.48,
+    "pagamentos_primarios": 608680769.47,
+    "pagamentos_financeiros": 50657949.89,
+    "dotacao_inicial": 597987734,
+    "dotacao_atualizada": 679435440,
+    "despesas_empenhadas": 670251802.18,
+    "despesas_liquidadas": 649583886.25
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "12102"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

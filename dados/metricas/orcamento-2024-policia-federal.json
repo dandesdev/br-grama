@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-policia-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Polícia Federal",
+  "resumo": "Pagou R$ 9,4 bilhões em 2024; dotação atualizada de R$ 9,6 bilhões.",
+  "de": "org:policia-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 9380113158.54,
+    "despesas_pagas": 8575995439.38,
+    "restos_a_pagar_pagos": 804117719.16,
+    "pagamentos_primarios": 8521626851.79,
+    "pagamentos_financeiros": 858486306.75,
+    "dotacao_inicial": 9285047063,
+    "dotacao_atualizada": 9631136981,
+    "despesas_empenhadas": 9609933244.84,
+    "despesas_liquidadas": 9235563566.55
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30108"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

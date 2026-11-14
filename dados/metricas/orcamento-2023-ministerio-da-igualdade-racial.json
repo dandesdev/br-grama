@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-da-igualdade-racial",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério da Igualdade Racial",
+  "resumo": "Pagou R$ 47,3 milhões em 2023; dotação atualizada de R$ 89,3 milhões.",
+  "de": "org:ministerio-da-igualdade-racial",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 47313514.63,
+    "despesas_pagas": 47313514.63,
+    "restos_a_pagar_pagos": 0,
+    "pagamentos_primarios": 47313514.63,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 0,
+    "dotacao_atualizada": 89321870,
+    "despesas_empenhadas": 88436532.82,
+    "despesas_liquidadas": 56516395.27
+  },
+  "recorte": {
+    "orgao_orcamentario": "67000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 67101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

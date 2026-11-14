@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-policia-rodoviaria-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Polícia Rodoviária Federal",
+  "resumo": "Pagou R$ 6,1 bilhões em 2023; dotação atualizada de R$ 6,3 bilhões.",
+  "de": "org:policia-rodoviaria-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6081553801.68,
+    "despesas_pagas": 5564249514.38,
+    "restos_a_pagar_pagos": 517304287.3,
+    "pagamentos_primarios": 5521035773.82,
+    "pagamentos_financeiros": 560518027.86,
+    "dotacao_inicial": 5988153943,
+    "dotacao_atualizada": 6292974195,
+    "despesas_empenhadas": 6270391443.77,
+    "despesas_liquidadas": 5926389833.88
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30107"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

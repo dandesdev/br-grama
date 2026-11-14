@@ -1,7 +1,7 @@
 ---
 id: f3-calendario-eleicoes-mandatos
 escopo: "Fase 3 (D55, D56): datas de 2026 e 2027 nas etapas das eleições e das posses, periodicidade dos conselhos e conferências, e início dos mandatos da cúpula"
-status: pendente
+status: em-andamento
 depende_de: [f2-fechamento]
 ---
 
@@ -16,3 +16,6 @@ Leia `docs/decisoes.md` (D11, D14, D40, D55 a D59) e a parte de processos de `do
 Regras extras: entidades editadas: `verificacao: { status: "coletado", tarefa: "f3-calendario-eleicoes-mandatos", em, notas }`. Para muitas relações iguais (mesma regra, mesma fonte), um script de edição em lote é aceitável, desde que grave a fonte em cada relação e o diário diga a regra usada.
 
 ## Diário
+- 2026-11-14 — iniciada (status em-andamento). Lidos D11, D14, D40, D55 a D59, modelo de dados (etapa `datas`, relações `ocupa`) e protocolo. Levantamento: 751 relações `ocupa` de pessoa, 509 sem `vigencia.de` (506 deputados federais, 2 dirigentes de agência reguladora e o corregedor parlamentar da Câmara, estes três com `verificacao.tarefa` f2-fechamento-final, fora do meu alcance).
+- 2026-11-14 — lote 1 gravado: `proc:eleicao-geral`, `datas` em 13 etapas (18 ocorrências). Regra e fonte por etapa: prazos de seis meses 4/4/2026 (CF, art. 14, § 6º; Lei 9.504, arts. 4º e 9º); cadastro fechado de 7/5 a 2/11/2026 (Lei 9.504, art. 91: 150 dias antes de 4/10); nomeação das mesas até 5/8 (Código Eleitoral, arts. 120 e 135: 60 dias antes); convenções 20/7 a 5/8 (Lei 9.504, art. 8º); pedido de registro até 15/8 (art. 11); julgamento dos registros até 14/9 (art. 16, § 1º: 20 dias antes); propaganda 16/8 a 3/10 (art. 36), horário gratuito 28/8 a 1º/10 (art. 47: 35 dias antes da antevéspera) e 9/10 a 23/10 (art. 49: da sexta-feira seguinte ao 1º turno à antevéspera do 2º); 1º turno 4/10 e 2º turno 25/10 (CF, arts. 28 e 77: primeiro e último domingo de outubro); contas até 3/11 e 14/11 (Lei 9.504, art. 29, III e IV) e decisões sobre as contas dos eleitos até 15/12 (art. 30, § 1º); diplomação até 18/12 (só a resolução dá a data); posse do Presidente 5/1/2027 (CF, arts. 78 e 82), dos governadores 6/1/2027 (art. 28) e início da legislatura com as sessões preparatórias a partir de 1º/2/2027 (arts. 44, parágrafo único, e 57, § 4º), com a EC 111/2021, arts. 4º e 5º. Cada data conferida contra o Anexo I da Res. TSE 23.760/2026 (cópia Wayback de 14/10/2026 já em pesquisa/brutos/tse/2026-10-23/), e os dias da semana e as contas de prazo conferidos por script (C:/Users/DELL/scratch-brgram/f3-em/datas-eleicao-geral.mjs). Sem data: impugnação (cinco dias da publicação de cada pedido) e apuração (sem data fixa). Validação limpa.
+- 2026-11-14 — lote 1b gravado: `proc:registro-de-candidatura`, `datas` em pedido (15/8/2026), julgamento (14/9/2026) e substituicao (14/9/2026: Lei 9.504, art. 13, § 3º; Res. 23.760, Anexo I, 14 de setembro, item 3). As demais etapas contam da publicação de cada pedido ou decisão. `proc:eleicao-municipal` não recebe datas (próxima em 2028, fora da janela, D55). `proc:nova-eleicao` não recebe datas: só existe a partir de uma decisão que anula a eleição (fato incerto, D55); está também com `verificacao.tarefa` f2-fechamento. Validação limpa.

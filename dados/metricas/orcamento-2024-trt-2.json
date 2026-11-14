@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-trt-2",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional do Trabalho da 2ª Região",
+  "resumo": "Pagou R$ 3,6 bilhões em 2024; dotação atualizada de R$ 3,7 bilhões.",
+  "de": "org:trt-2",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3621726428.29,
+    "despesas_pagas": 3607984318.7,
+    "restos_a_pagar_pagos": 13742109.59,
+    "pagamentos_primarios": 3290623422.53,
+    "pagamentos_financeiros": 331103005.76,
+    "dotacao_inicial": 3206878998,
+    "dotacao_atualizada": 3737219530,
+    "despesas_empenhadas": 3707624384.37,
+    "despesas_liquidadas": 3685057654.51
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15103"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

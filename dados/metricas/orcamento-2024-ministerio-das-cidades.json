@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-das-cidades",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério das Cidades",
+  "resumo": "Pagou R$ 23,4 bilhões em 2024; dotação atualizada de R$ 26,5 bilhões.",
+  "de": "org:ministerio-das-cidades",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 23415226874.46,
+    "despesas_pagas": 21360669162.68,
+    "restos_a_pagar_pagos": 2054557711.78,
+    "pagamentos_primarios": 23411057294.82,
+    "pagamentos_financeiros": 4169579.64,
+    "dotacao_inicial": 22048953080,
+    "dotacao_atualizada": 26462796117,
+    "despesas_empenhadas": 26373353554.46,
+    "despesas_liquidadas": 21447694208.99
+  },
+  "recorte": {
+    "orgao_orcamentario": "56000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 53208, 53209, 53906, 56101, 56201, 56202, 56902. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

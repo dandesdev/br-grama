@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2023-exercito",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Exército",
+  "resumo": "Pagou R$ 55,3 bilhões em 2023; dotação atualizada de R$ 55,8 bilhões.",
+  "de": "org:exercito",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 55285717737.09,
+    "despesas_pagas": 49862579638.18,
+    "restos_a_pagar_pagos": 5423138098.91,
+    "pagamentos_primarios": 55205927326.51,
+    "pagamentos_financeiros": 79790410.58,
+    "dotacao_inicial": 55269952450.98,
+    "dotacao_atualizada": 55789511372.98,
+    "despesas_empenhadas": 55699289127.22,
+    "despesas_liquidadas": 52855551421.97
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "52121",
+      "52921"
+    ],
+    "nota": "Comando do Exército (52121) e Fundo do Exército (52921). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

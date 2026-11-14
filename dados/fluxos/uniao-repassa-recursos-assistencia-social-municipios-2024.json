@@ -1,0 +1,69 @@
+{
+  "id": "fluxo:uniao-repassa-recursos-assistencia-social-municipios-2024",
+  "tipo": "fluxo",
+  "nome": "A União cofinancia a assistência social dos municípios: valores de 2024",
+  "resumo": "Pagamentos de R$ 4,1 bilhões em 2024.",
+  "repasse": "rel:uniao-repassa-recursos-assistencia-social-municipios",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4110502465.55,
+    "despesas_pagas": 3460917159.62,
+    "restos_a_pagar_pagos": 649585305.93,
+    "pagamentos_primarios": 4110502465.55,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 3869962142.51,
+    "dotacao_atualizada": 3737867026.51,
+    "despesas_empenhadas": 3721003112.94,
+    "despesas_liquidadas": 3493703662.27
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "55901"
+    ],
+    "modalidades": [
+      "40",
+      "41",
+      "42",
+      "45",
+      "46"
+    ],
+    "tambem": [
+      {
+        "unidades_orcamentarias": [
+          "55101"
+        ],
+        "acoes": [
+          "00US",
+          "6414",
+          "217M"
+        ],
+        "modalidades": [
+          "40",
+          "41",
+          "42",
+          "45",
+          "46"
+        ]
+      }
+    ],
+    "nota": "O que o Fundo Nacional de Assistência Social pagou a municípios, mais as ações de apoio à gestão (IGD, Cadastro Único, Criança Feliz) pagas pelo MDS (unidade 55101). Ações somadas: 00US (APOIO AOS ENTES FEDERADOS POR MEIO DO INDICE DE GESTAO DESCE); 217M (PRIMEIRA INFANCIA NO SUAS - CRIANCA FELIZ); 219E (ACOES DE PROTECAO SOCIAL BASICA); 219F (ACOES DE PROTECAO SOCIAL ESPECIAL); 219G (ESTRUTURACAO DA REDE DE SERVICOS DO SISTEMA UNICO DE ASSISTE); 2589 (AVALIACAO E OPERACIONALIZACAO DO BENEFICIO DE PRESTACAO CONT); 2B30 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL BASICA); 2B31 (ESTRUTURACAO DA REDE DE SERVICOS DE PROTECAO SOCIAL ESPECIAL); 6414 (SISTEMA NACIONAL PARA IDENTIFICACAO E SELECAO DE PUBLICO-ALV); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIAL NO TERRI); 8893 (APOIO A ORGANIZACAO, A GESTAO E A VIGILANCIA SOCIOASSISTENCI)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

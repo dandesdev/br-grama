@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-tre-es",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional Eleitoral do Espírito Santo",
+  "resumo": "Pagou R$ 151,8 milhões em 2023; dotação atualizada de R$ 165,7 milhões.",
+  "de": "org:tre-es",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 151779086.97,
+    "despesas_pagas": 147008422.43,
+    "restos_a_pagar_pagos": 4770664.54,
+    "pagamentos_primarios": 137331145.85,
+    "pagamentos_financeiros": 14447941.12,
+    "dotacao_inicial": 151690774,
+    "dotacao_atualizada": 165677297,
+    "despesas_empenhadas": 156537855.39,
+    "despesas_liquidadas": 149265217.67
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14108"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

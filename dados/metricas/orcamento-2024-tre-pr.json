@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-pr",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral do Paraná",
+  "resumo": "Pagou R$ 436,0 milhões em 2024; dotação atualizada de R$ 441,4 milhões.",
+  "de": "org:tre-pr",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 436008697.53,
+    "despesas_pagas": 429765638.98,
+    "restos_a_pagar_pagos": 6243058.55,
+    "pagamentos_primarios": 394596330.36,
+    "pagamentos_financeiros": 41412367.17,
+    "dotacao_inicial": 405850724,
+    "dotacao_atualizada": 441438252,
+    "despesas_empenhadas": 437194004.93,
+    "despesas_liquidadas": 429874857.33
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14116"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-pe",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral de Pernambuco",
+  "resumo": "Pagou R$ 360,8 milhões em 2024; dotação atualizada de R$ 372,4 milhões.",
+  "de": "org:tre-pe",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 360802259.94,
+    "despesas_pagas": 352857165.49,
+    "restos_a_pagar_pagos": 7945094.45,
+    "pagamentos_primarios": 331069409.16,
+    "pagamentos_financeiros": 29732850.78,
+    "dotacao_inicial": 340356488,
+    "dotacao_atualizada": 372354555,
+    "despesas_empenhadas": 363821372.8,
+    "despesas_liquidadas": 353709854.18
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14117"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

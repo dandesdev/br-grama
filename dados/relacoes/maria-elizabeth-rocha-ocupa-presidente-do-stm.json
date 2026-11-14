@@ -11,15 +11,19 @@
   },
   "fontes": [
     {
+      "ref": "fonte:stm-noticia-posse-presidencia-2025",
+      "dispositivo": "'foi empossada, nesta quarta-feira (12), como presidente do Superior Tribunal Militar (STM) para o biênio 2025-2027'"
+    },
+    {
       "ref": "fonte:tjmg-noticia-posse-presidencia-stm-2025",
       "dispositivo": "'sessão solene de posse da ministra Maria Elizabeth Guimarães Teixeira Rocha no cargo de presidente do Superior Tribunal Militar (STM), no biênio 2025-2027'; solenidade na quarta-feira (12/3)"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (criada em f2-fechamento-a (ocupante em 2026-10-01 com data de posse em fonte oficial)); fonte do STM acrescentada (notícia de 13/3/2025: posse em 12/3/2025, biênio 2025-2027); TJMG mantida como confirmação"
   }
 }

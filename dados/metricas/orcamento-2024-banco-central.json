@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-banco-central",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Banco Central do Brasil",
+  "resumo": "Pagou R$ 3,9 bilhões em 2024; dotação atualizada de R$ 4,1 bilhões.",
+  "de": "org:banco-central",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3946903158.74,
+    "despesas_pagas": 3754747970.63,
+    "restos_a_pagar_pagos": 192155188.11,
+    "pagamentos_primarios": 3783763870.08,
+    "pagamentos_financeiros": 163139288.66,
+    "dotacao_inicial": 4134945752,
+    "dotacao_atualizada": 4119695837,
+    "despesas_empenhadas": 4097125225.57,
+    "despesas_liquidadas": 4050687443.95
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "83201"
+    ],
+    "nota": "Só as despesas do Banco Central que a LRF manda incluir na lei orçamentária da União: pessoal e encargos, custeio administrativo e investimentos (LRF, art. 5º, § 6º). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-trt-9",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional do Trabalho da 9ª Região",
+  "resumo": "Pagou R$ 1,3 bilhão em 2023; dotação atualizada de R$ 1,3 bilhão.",
+  "de": "org:trt-9",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1255449881.25,
+    "despesas_pagas": 1244884830.94,
+    "restos_a_pagar_pagos": 10565050.31,
+    "pagamentos_primarios": 1149566771.49,
+    "pagamentos_financeiros": 105883109.76,
+    "dotacao_inicial": 1210989767,
+    "dotacao_atualizada": 1320439447,
+    "despesas_empenhadas": 1283988461.66,
+    "despesas_liquidadas": 1273252002.75
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15110"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

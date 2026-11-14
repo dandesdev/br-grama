@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-agu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Advocacia-Geral da União",
+  "resumo": "Pagou R$ 4,2 bilhões em 2023; dotação atualizada de R$ 4,4 bilhões.",
+  "de": "org:agu",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4236220594.52,
+    "despesas_pagas": 3919752173.59,
+    "restos_a_pagar_pagos": 316468420.93,
+    "pagamentos_primarios": 3896590967.62,
+    "pagamentos_financeiros": 339629626.9,
+    "dotacao_inicial": 4202341203,
+    "dotacao_atualizada": 4439126599,
+    "despesas_empenhadas": 4432683857.41,
+    "despesas_liquidadas": 4174482513.72
+  },
+  "recorte": {
+    "orgao_orcamentario": "63000",
+    "nota": "A AGU é função essencial à Justiça, mas o orçamento dela fica no Executivo. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 63101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

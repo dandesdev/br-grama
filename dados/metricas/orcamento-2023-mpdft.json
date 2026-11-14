@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-mpdft",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério Público do Distrito Federal e Territórios",
+  "resumo": "Pagou R$ 1,1 bilhão em 2023; dotação atualizada de R$ 1,1 bilhão.",
+  "de": "org:mpdft",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1134355588.14,
+    "despesas_pagas": 1125041342.7,
+    "restos_a_pagar_pagos": 9314245.44,
+    "pagamentos_primarios": 1037763435.44,
+    "pagamentos_financeiros": 96592152.7,
+    "dotacao_inicial": 1089575209,
+    "dotacao_atualizada": 1147565816,
+    "despesas_empenhadas": 1134462676.8,
+    "despesas_liquidadas": 1126311135.13
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34103"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

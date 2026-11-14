@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-ancine",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional do Cinema",
+  "resumo": "Pagou R$ 148,8 milhões em 2024; dotação atualizada de R$ 150,6 milhões.",
+  "de": "org:ancine",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 148803782.89,
+    "despesas_pagas": 132409808.71,
+    "restos_a_pagar_pagos": 16393974.18,
+    "pagamentos_primarios": 134427227.95,
+    "pagamentos_financeiros": 14376554.94,
+    "dotacao_inicial": 161727196,
+    "dotacao_atualizada": 150608434,
+    "despesas_empenhadas": 147885743.51,
+    "despesas_liquidadas": 141894230.78
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "42206"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

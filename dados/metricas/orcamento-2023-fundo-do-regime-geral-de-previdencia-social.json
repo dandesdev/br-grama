@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-fundo-do-regime-geral-de-previdencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Fundo do Regime Geral de Previdência Social",
+  "resumo": "Pagou R$ 849,5 bilhões em 2023; dotação atualizada de R$ 904,8 bilhões.",
+  "de": "obj:fundo-do-regime-geral-de-previdencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 849504622194.47,
+    "despesas_pagas": 849504622194.47,
+    "restos_a_pagar_pagos": 0,
+    "pagamentos_primarios": 849504622194.47,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 0,
+    "dotacao_atualizada": 904814990915,
+    "despesas_empenhadas": 904672382724.65,
+    "despesas_liquidadas": 901799397271.92
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "33904"
+    ],
+    "nota": "Paga os benefícios do regime geral de previdência (aposentadorias, pensões, auxílios). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

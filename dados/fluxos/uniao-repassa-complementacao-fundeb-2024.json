@@ -1,0 +1,46 @@
+{
+  "id": "fluxo:uniao-repassa-complementacao-fundeb-2024",
+  "tipo": "fluxo",
+  "nome": "A União complementa os fundos do Fundeb com no mínimo 23% do total: valores de 2024",
+  "resumo": "Pagamentos de R$ 47,5 bilhões em 2024.",
+  "repasse": "rel:uniao-repassa-complementacao-fundeb",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 47544195025.96,
+    "despesas_pagas": 41217176467.13,
+    "restos_a_pagar_pagos": 6327018558.83,
+    "pagamentos_primarios": 47544195025.96,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 46987765108,
+    "dotacao_atualizada": 49383254552,
+    "despesas_empenhadas": 49383254549.28,
+    "despesas_liquidadas": 41217176467.13
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "26298"
+    ],
+    "acoes": [
+      "00SB"
+    ],
+    "nota": "Ações somadas: 00SB (COMPLEMENTACAO DA UNIAO AO FUNDO DE MANUTENCAO E DESENVOLVIM)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

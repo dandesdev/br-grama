@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-do-desenvolvimento-e-assistencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+  "resumo": "Pagou R$ 270,3 bilhões em 2023; dotação atualizada de R$ 272,8 bilhões.",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 270319654597.81,
+    "despesas_pagas": 265291155303.91,
+    "restos_a_pagar_pagos": 5028499293.9,
+    "pagamentos_primarios": 270311585266.49,
+    "pagamentos_financeiros": 8069331.32,
+    "dotacao_inicial": 276457829252,
+    "dotacao_atualizada": 272836590423,
+    "despesas_empenhadas": 272672747365.58,
+    "despesas_liquidadas": 269455226614.95
+  },
+  "recorte": {
+    "orgao_orcamentario": "55000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 55101, 55901. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

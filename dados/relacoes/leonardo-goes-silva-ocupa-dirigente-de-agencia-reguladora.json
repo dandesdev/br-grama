@@ -1,0 +1,45 @@
+{
+  "id": "rel:leonardo-goes-silva-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Leonardo Góes Silva é Diretor-Presidente interino da ANA",
+  "relacao": "ocupa",
+  "de": "pessoa:leonardo-goes-silva",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "orgao_exercicio": "org:ana",
+  "interino": true,
+  "condicao": "Diretor-Presidente interino da ANA: o cargo está vago desde o fim do mandato de Veronica Sánchez da Cruz Rios (15/1/2026), e os diretores revezam na presidência a cada dois meses (Resolução ANA 280/2025). É também diretor da agência.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Início e fim do período de interinidade não conferidos (a Resolução ANA 280/2025 fixa períodos de dois meses, de 16 a 15). Em exercício em 2026-10-01: assina como Diretor-Presidente Interino atos de 24/9, 30/9, 1º/10 e 13/10/2026; em 18/9/2026 assinou Larissa Oliveira Rêgo, como interina substituta."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Resolução ANA nº 280, de 22/12/2025 (DOU 24/12/2025, Seção 1, p. 845): vacância do cargo de Diretor-Presidente pelo término do mandato; a presidência é exercida interinamente, em rodízio de dois meses a partir de 16/1/2026, por Ana Carolina Argolo, Leonardo Góes Silva, Larissa Oliveira Rêgo e Cristiane Collet Battiston",
+      "nota": "https://www.in.gov.br/web/dou/-/resolucao-ana-n-280-de-22-de-dezembro-de-2025-677949841"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria ANA nº 480, de 30/9/2026 (DOU 1/10/2026, Seção 2, p. 70), do Diretor-Presidente Interino, assinada por Leonardo Góes",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-ana-n-480-de-30-de-setembro-de-2026-735907263"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria ANA nº 481, de 1º/10/2026 (DOU 9/10/2026, Seção 2, p. 47), do Diretor-Presidente Interino, assinada por Leonardo Góes",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-ana-n-481-de-1-de-outubro-de-2026-737514878"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria ANA nº 542, de 5/11/2026 (DOU 6/11/2026, Seção 2, p. 47): cita \"Leonardo Góes Silva, Diretor-Presidente Interino, código CCE 1.18\"",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-ana-n-542-de-5-de-novembro-de-2026-742208752"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento-final",
+    "notas": "criada na rodada final do fechamento da fase 2: sem titular na data (vacância pelo fim do mandato, decreto de 13/4/2022 com mandato até 15/1/2026); quem exerce entra com interino (D40). A interinidade da ANA segue a Lei 9.984, arts. 9º e 12, citada na resolução, e não a lista de substituição da Lei 9.986, art. 10, descrita no cargo; ponto para a revisão"
+  }
+}

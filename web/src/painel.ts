@@ -159,6 +159,18 @@ export class Painel {
     </dl>`;
   }
 
+  /** Pagamentos de cada exercício da série, em barras (D57). */
+  private serie(itens: Entidade[]): string {
+    if (itens.length < 2) return "";
+    const max = Math.max(...itens.map((m) => (m.valores as ValoresOrcamento).pagamentos_totais));
+    return `<table class="barras serie"><tbody>${itens
+      .map((m) => {
+        const x = (m.valores as ValoresOrcamento).pagamentos_totais;
+        return `<tr><th scope="row">${m.exercicio}</th><td class="trilho"><span class="barra-valor" style="width:${Math.max(0.3, (100 * x) / max)}%"></span></td><td class="valor">${reais(x, true)}</td></tr>`;
+      })
+      .join("")}</tbody></table>`;
+  }
+
   /** Orçamento executado no último ano fechado (D26, D46, D47). */
   private orcamento(id: string): string {
     const m = this.dados.orcamentoDe(id);
@@ -170,6 +182,7 @@ export class Painel {
     return `<h3>Orçamento em ${m.exercicio}</h3>
       <p class="valor-orcamento">Pagamentos: <strong>${reais(v.pagamentos_totais)}</strong></p>
       ${sup ? `<p class="dispositivo">Mais ${reais(sup.valores.pagamentos_totais)} em recursos sob sua supervisão (encargos financeiros, aposentadorias e pensões civis, transferências a estados e municípios, operações de crédito e refinanciamento da dívida), que a lei orçamentária trata à parte.</p>` : ""}
+      ${this.serie(this.dados.serieOrcamento(id))}
       <button class="mais" data-mais="${esc(m.id)}" aria-expanded="${aberto}"><span class="i">i</span> Como se chega a esse número</button>
       <div class="detalhes" ${aberto ? "" : "hidden"}>
         ${this.linhasValores(v)}
@@ -187,6 +200,7 @@ export class Painel {
     const aberto = this.aberto.has(f.id);
     return `<h3>Quanto passou em ${f.exercicio}</h3>
       <p class="valor-orcamento">Pagamentos: <strong>${reais(v.pagamentos_totais)}</strong></p>
+      ${this.serie(this.dados.serieFluxo(relId))}
       <button class="mais" data-mais="${esc(f.id)}" aria-expanded="${aberto}"><span class="i">i</span> Como se chega a esse número</button>
       <div class="detalhes" ${aberto ? "" : "hidden"}>
         ${this.linhasValores(v)}

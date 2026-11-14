@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-ce",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral do Ceará",
+  "resumo": "Pagou R$ 323,0 milhões em 2024; dotação atualizada de R$ 335,5 milhões.",
+  "de": "org:tre-ce",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 322971284.3,
+    "despesas_pagas": 306767835.03,
+    "restos_a_pagar_pagos": 16203449.27,
+    "pagamentos_primarios": 293563662.42,
+    "pagamentos_financeiros": 29407621.88,
+    "dotacao_inicial": 299271428,
+    "dotacao_atualizada": 335494428,
+    "despesas_empenhadas": 327458116.36,
+    "despesas_liquidadas": 311820328.56
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14106"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

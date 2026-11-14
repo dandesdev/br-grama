@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-aneel",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Energia Elétrica",
+  "resumo": "Pagou R$ 2,7 bilhões em 2024; dotação atualizada de R$ 2,7 bilhões.",
+  "de": "org:aneel",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2654435633.57,
+    "despesas_pagas": 2408836762.29,
+    "restos_a_pagar_pagos": 245598871.28,
+    "pagamentos_primarios": 2631814622.59,
+    "pagamentos_financeiros": 22621010.98,
+    "dotacao_inicial": 2790184312,
+    "dotacao_atualizada": 2719932113,
+    "despesas_empenhadas": 2719433387.05,
+    "despesas_liquidadas": 2443627301.72
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "32266"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

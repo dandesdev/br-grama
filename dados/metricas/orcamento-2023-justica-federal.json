@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-justica-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Justiça Federal",
+  "resumo": "Pagou R$ 14,2 bilhões em 2023; dotação atualizada de R$ 15,5 bilhões.",
+  "de": "org:justica-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 14243590014.11,
+    "despesas_pagas": 13940209021.21,
+    "restos_a_pagar_pagos": 303380992.9,
+    "pagamentos_primarios": 12838498400.23,
+    "pagamentos_financeiros": 1405091613.88,
+    "dotacao_inicial": 14784918655,
+    "dotacao_atualizada": 15477560643,
+    "despesas_empenhadas": 14608797516.29,
+    "despesas_liquidadas": 14090708514.41
+  },
+  "recorte": {
+    "poderes": [
+      "JF"
+    ],
+    "nota": "Inclui a primeira instância (unidade 12101) e os seis TRFs. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-to",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral do Tocantins",
+  "resumo": "Pagou R$ 124,9 milhões em 2024; dotação atualizada de R$ 136,5 milhões.",
+  "de": "org:tre-to",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 124859968.82,
+    "despesas_pagas": 120830664.46,
+    "restos_a_pagar_pagos": 4029304.36,
+    "pagamentos_primarios": 115653970.58,
+    "pagamentos_financeiros": 9205998.24,
+    "dotacao_inicial": 127803826,
+    "dotacao_atualizada": 136472415,
+    "despesas_empenhadas": 126583904.08,
+    "despesas_liquidadas": 122643099.07
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14126"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

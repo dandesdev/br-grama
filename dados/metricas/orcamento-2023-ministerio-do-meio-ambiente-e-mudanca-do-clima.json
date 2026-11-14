@@ -1,0 +1,61 @@
+{
+  "id": "met:orcamento-2023-ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério do Meio Ambiente e Mudança do Clima",
+  "resumo": "Pagou R$ 3,4 bilhões em 2023; dotação atualizada de R$ 3,7 bilhões.",
+  "de": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3393714704.58,
+    "despesas_pagas": 3041957576.93,
+    "restos_a_pagar_pagos": 351757127.65,
+    "pagamentos_primarios": 3205497764.38,
+    "pagamentos_financeiros": 188216940.2,
+    "dotacao_inicial": 3754834526,
+    "dotacao_atualizada": 3694547501,
+    "despesas_empenhadas": 3616934150.9,
+    "despesas_liquidadas": 3225961933
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 637035966.15,
+      "despesas_pagas": 637035966.15,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 2640311.15,
+      "pagamentos_financeiros": 634395655,
+      "dotacao_inicial": 647846575,
+      "dotacao_atualizada": 668245347,
+      "despesas_empenhadas": 637035966.15,
+      "despesas_liquidadas": 637035966.15
+    },
+    "unidades_orcamentarias": [
+      "73111",
+      "73115",
+      "74916"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "44000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 22106, 44101, 44102, 44201, 44205, 44206, 44207, 44901, 44902, 53210. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

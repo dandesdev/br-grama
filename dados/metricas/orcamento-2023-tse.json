@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-tse",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Superior Eleitoral",
+  "resumo": "Pagou R$ 1,8 bilhão em 2023; dotação atualizada de R$ 1,8 bilhão.",
+  "de": "org:tse",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1815094403.35,
+    "despesas_pagas": 766725509.16,
+    "restos_a_pagar_pagos": 1048368894.19,
+    "pagamentos_primarios": 1779326274.86,
+    "pagamentos_financeiros": 35768128.49,
+    "dotacao_inicial": 2312072738,
+    "dotacao_atualizada": 1849351903,
+    "despesas_empenhadas": 1350789595.62,
+    "despesas_liquidadas": 810056017.77
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14101"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

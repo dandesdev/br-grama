@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-justica-do-trabalho",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Justiça do Trabalho",
+  "resumo": "Pagou R$ 24,2 bilhões em 2023; dotação atualizada de R$ 25,2 bilhões.",
+  "de": "org:justica-do-trabalho",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 24241946603.05,
+    "despesas_pagas": 24052749191.18,
+    "restos_a_pagar_pagos": 189197411.87,
+    "pagamentos_primarios": 22253467327.24,
+    "pagamentos_financeiros": 1988479275.81,
+    "dotacao_inicial": 24486763191,
+    "dotacao_atualizada": 25245134265,
+    "despesas_empenhadas": 24628976048.26,
+    "despesas_liquidadas": 24255338872.22
+  },
+  "recorte": {
+    "poderes": [
+      "JT"
+    ],
+    "nota": "Inclui o TST, os 24 TRTs e o CSJT (unidade 15126, que em 2025 só teve dotação de reserva). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

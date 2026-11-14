@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-pesca-e-aquicultura",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Pesca e Aquicultura",
+  "resumo": "Pagou R$ 1,2 bilhão em 2024; dotação atualizada de R$ 1,3 bilhão.",
+  "de": "org:ministerio-da-pesca-e-aquicultura",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1196210250.91,
+    "despesas_pagas": 1106283864.88,
+    "restos_a_pagar_pagos": 89926386.03,
+    "pagamentos_primarios": 1195294434.41,
+    "pagamentos_financeiros": 915816.5,
+    "dotacao_inicial": 350731363,
+    "dotacao_atualizada": 1253882789,
+    "despesas_empenhadas": 1244425254.32,
+    "despesas_liquidadas": 1129184132.73
+  },
+  "recorte": {
+    "orgao_orcamentario": "58000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 20124, 58101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

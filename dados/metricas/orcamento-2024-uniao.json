@@ -1,0 +1,105 @@
+{
+  "id": "met:orcamento-2024-uniao",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: União",
+  "resumo": "Pagou R$ 2,1 trilhões em 2024; dotação atualizada de R$ 2,2 trilhões.",
+  "de": "ente:uniao",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2114848093783.49,
+    "despesas_pagas": 1960465205211.8,
+    "restos_a_pagar_pagos": 154382888571.69,
+    "pagamentos_primarios": 2083477583120.75,
+    "pagamentos_financeiros": 31370510662.78,
+    "dotacao_inicial": 2087461375033.9,
+    "dotacao_atualizada": 2154189386277.9,
+    "despesas_empenhadas": 2138357728323.26,
+    "despesas_liquidadas": 2050207028771.69
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2707540700130.14,
+      "despesas_pagas": 2658565408109.27,
+      "restos_a_pagar_pagos": 48975292020.87,
+      "pagamentos_primarios": 616966831533.8,
+      "pagamentos_financeiros": 2090421911783.6,
+      "dotacao_inicial": 3200634798264.71,
+      "dotacao_atualizada": 3252716274400.71,
+      "despesas_empenhadas": 2730397290403.9,
+      "despesas_liquidadas": 2660144078609.47
+    },
+    "unidades_orcamentarias": [
+      "71101",
+      "71102",
+      "71103",
+      "71104",
+      "71903",
+      "71904",
+      "71905",
+      "71906",
+      "73101",
+      "73107",
+      "73108",
+      "73111",
+      "73113",
+      "73116",
+      "73118",
+      "73119",
+      "73120",
+      "73901",
+      "74101",
+      "74102",
+      "74104",
+      "74119",
+      "74120",
+      "74201",
+      "74202",
+      "74203",
+      "74204",
+      "74205",
+      "74901",
+      "74902",
+      "74904",
+      "74905",
+      "74906",
+      "74908",
+      "74910",
+      "74912",
+      "74913",
+      "74914",
+      "74915",
+      "74916",
+      "74917",
+      "74918",
+      "74919",
+      "74920",
+      "75101"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "modalidades_excluidas": [
+      "91"
+    ],
+    "nota": "Todos os Poderes, o MPU e a DPU. Sem as aplicações intraorçamentárias (modalidade 91), pagas de um órgão federal a outro, que seriam contadas duas vezes. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Ajustes \"Extra-SIAFI\" sem unidade orçamentária (R$ -12,0 bilhões no saldo) ficam de fora. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

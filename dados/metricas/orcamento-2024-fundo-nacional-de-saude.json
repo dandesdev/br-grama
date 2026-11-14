@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-fundo-nacional-de-saude",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Fundo Nacional de Saúde",
+  "resumo": "Pagou R$ 210,3 bilhões em 2024; dotação atualizada de R$ 217,5 bilhões.",
+  "de": "obj:fundo-nacional-de-saude",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 210284698151.02,
+    "despesas_pagas": 191486886987.04,
+    "restos_a_pagar_pagos": 18797811163.98,
+    "pagamentos_primarios": 209586165719.1,
+    "pagamentos_financeiros": 698532431.92,
+    "dotacao_inicial": 217496212032,
+    "dotacao_atualizada": 217491409988,
+    "despesas_empenhadas": 216401852316.54,
+    "despesas_liquidadas": 194243607649.35
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "36901"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

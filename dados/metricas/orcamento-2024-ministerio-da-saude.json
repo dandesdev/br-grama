@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-saude",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Saúde",
+  "resumo": "Pagou R$ 226,1 bilhões em 2024; dotação atualizada de R$ 233,0 bilhões.",
+  "de": "org:ministerio-da-saude",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 226071153980.03,
+    "despesas_pagas": 204189413507.96,
+    "restos_a_pagar_pagos": 21881740472.07,
+    "pagamentos_primarios": 225047402838.39,
+    "pagamentos_financeiros": 1023751141.64,
+    "dotacao_inicial": 231636377617,
+    "dotacao_atualizada": 233002470929,
+    "despesas_empenhadas": 231862417186,
+    "despesas_liquidadas": 207736536173.44
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2737655.83,
+      "despesas_pagas": 2690784.5,
+      "restos_a_pagar_pagos": 46871.33,
+      "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 2737655.83,
+      "dotacao_inicial": 3500000,
+      "dotacao_atualizada": 3500000,
+      "despesas_empenhadas": 2711396.92,
+      "despesas_liquidadas": 2711396.92
+    },
+    "unidades_orcamentarias": [
+      "74202"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "36000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 36201, 36210, 36211, 36212, 36213, 36901. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

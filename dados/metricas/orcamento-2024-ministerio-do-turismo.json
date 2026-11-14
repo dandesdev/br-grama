@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2024-ministerio-do-turismo",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério do Turismo",
+  "resumo": "Pagou R$ 598,5 milhões em 2024; dotação atualizada de R$ 1,8 bilhão.",
+  "de": "org:ministerio-do-turismo",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 598542655.39,
+    "despesas_pagas": 316117029.08,
+    "restos_a_pagar_pagos": 282425626.31,
+    "pagamentos_primarios": 592820691.05,
+    "pagamentos_financeiros": 5721964.35,
+    "dotacao_inicial": 2256764923,
+    "dotacao_atualizada": 1848014662,
+    "despesas_empenhadas": 1289930875.74,
+    "despesas_liquidadas": 322475660.79
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 756726914.82,
+      "despesas_pagas": 748736167.14,
+      "restos_a_pagar_pagos": 7990747.68,
+      "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 756726914.82,
+      "dotacao_inicial": 650653403,
+      "dotacao_atualizada": 1266227723,
+      "despesas_empenhadas": 1266227723,
+      "despesas_liquidadas": 848736167.14
+    },
+    "unidades_orcamentarias": [
+      "74908"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "54000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 54101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -16,7 +16,7 @@ const PODERES = [
 ];
 const AGREGADOS = new Set(["ente:uniao", ...PODERES.slice(0, 3).map((p) => p.id), "org:justica-federal", "org:justica-do-trabalho", "org:justica-eleitoral", "org:ministerio-publico-da-uniao"]);
 
-interface Barra { id: string; rotulo: string; valor: number; titulo: string; sub?: string }
+interface Barra { id: string; rotulo: string; valor: number; titulo: string; sub?: string; anterior?: number }
 
 export class Dinheiro {
   private filtroPoder = "";
@@ -43,10 +43,24 @@ export class Dinheiro {
         (i) => `<tr title="${esc(i.titulo)}">
           <th scope="row"><button class="link" data-id="${esc(i.id)}">${esc(i.rotulo)}</button>${i.sub ? `<div class="sub">${esc(i.sub)}</div>` : ""}</th>
           <td class="trilho"><span class="barra-valor" style="width:${Math.max(0.3, (100 * i.valor) / max)}%"></span></td>
-          <td class="valor">${reais(i.valor, true)}</td>
+          <td class="valor">${reais(i.valor, true)}${this.variacao(i)}</td>
         </tr>`,
       )
       .join("")}</tbody></table>`;
+  }
+
+  /** Variação sobre o exercício anterior (D57), quando a série tem os dois anos. */
+  private variacao(i: Barra): string {
+    if (!i.anterior || i.anterior <= 0) return "";
+    const p = (100 * (i.valor - i.anterior)) / i.anterior;
+    const txt = `${p >= 0 ? "+" : "−"}${Math.abs(p).toFixed(0)}%`;
+    return ` <span class="variacao" title="Sobre ${reais(i.anterior)} no ano anterior">${txt}</span>`;
+  }
+
+  /** Pagamentos do exercício anterior ao da métrica, se houver. */
+  private anterior(m: Entidade, serie: Entidade[]): number | undefined {
+    const a = serie.find((x) => (x.exercicio as number) === (m.exercicio as number) - 1);
+    return a ? (a.valores as ValoresOrcamento).pagamentos_totais : undefined;
   }
 
   private titulo(m: Entidade): string {
@@ -76,6 +90,7 @@ export class Dinheiro {
         valor: (m.valores as ValoresOrcamento).pagamentos_totais,
         titulo: this.titulo(m),
         sub: e?.contido_em ? this.dados.get(e.contido_em as string)?.nome : undefined,
+        anterior: this.anterior(m, this.dados.serieOrcamento(m.de as string)),
       }));
     return this.barras(itens);
   }
@@ -88,12 +103,13 @@ export class Dinheiro {
       return;
     }
     const ano = uniao.exercicio as number;
+    const serieU = d.serieOrcamento("ente:uniao");
     const vu = uniao.valores as ValoresOrcamento;
     const supU = (uniao.sob_supervisao as { valores: ValoresOrcamento } | undefined)?.valores.pagamentos_totais ?? 0;
 
     const poderes: Barra[] = PODERES.map((p) => ({ p, m: d.orcamentoDe(p.id) }))
       .filter((x): x is { p: (typeof PODERES)[number]; m: Entidade } => !!x.m)
-      .map(({ p, m }) => ({ id: p.id, rotulo: p.nome, valor: (m.valores as ValoresOrcamento).pagamentos_totais, titulo: this.titulo(m) }));
+      .map(({ p, m }) => ({ id: p.id, rotulo: p.nome, valor: (m.valores as ValoresOrcamento).pagamentos_totais, titulo: this.titulo(m), anterior: this.anterior(m, d.serieOrcamento(p.id)) }));
 
     const supervisao: Barra[] = d
       .todosOrcamentos()
@@ -119,7 +135,7 @@ export class Dinheiro {
       const g = destino(r);
       grupos.set(g, [
         ...(grupos.get(g) ?? []),
-        { id: f.repasse as string, rotulo: (r?.nome as string) ?? (f.repasse as string), valor: (f.valores as ValoresOrcamento).pagamentos_totais, titulo: `Pagamentos em ${ano}: ${reais((f.valores as ValoresOrcamento).pagamentos_totais)}` },
+        { id: f.repasse as string, rotulo: (r?.nome as string) ?? (f.repasse as string), valor: (f.valores as ValoresOrcamento).pagamentos_totais, titulo: `Pagamentos em ${ano}: ${reais((f.valores as ValoresOrcamento).pagamentos_totais)}`, anterior: this.anterior(f, d.serieFluxo(f.repasse as string)) },
       ]);
     }
     const maxFluxo = Math.max(...[...grupos.values()].flat().map((b) => b.valor));
@@ -140,6 +156,7 @@ export class Dinheiro {
           <div class="numero"><span class="rotulo">Pago pelos órgãos</span><strong>${reais(vu.pagamentos_totais)}</strong></div>
           <div class="numero"><span class="rotulo">Recursos sob supervisão: encargos, aposentadorias civis, transferências, crédito e dívida</span><strong>${reais(supU)}</strong></div>
         </div>
+        ${serieU.length > 1 ? `<p class="intro">Pago pelos órgãos em cada ano: ${serieU.map((m) => `${m.exercicio}, ${reais((m.valores as ValoresOrcamento).pagamentos_totais, true)}`).join("; ")}. A porcentagem ao lado de cada barra compara com ${ano - 1}, em valores correntes, sem correção pela inflação; num órgão, pode refletir mudança de estrutura e não só de gasto.</p>` : ""}
       </div>
       <section>
         <h3>Por Poder</h3>

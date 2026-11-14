@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-anp",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+  "resumo": "Pagou R$ 433,6 milhões em 2023; dotação atualizada de R$ 475,4 milhões.",
+  "de": "org:anp",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 433561941.16,
+    "despesas_pagas": 387622072.83,
+    "restos_a_pagar_pagos": 45939868.33,
+    "pagamentos_primarios": 402721134.7,
+    "pagamentos_financeiros": 30840806.46,
+    "dotacao_inicial": 449612488,
+    "dotacao_atualizada": 475357402,
+    "despesas_empenhadas": 442161155.83,
+    "despesas_liquidadas": 412285982.17
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "32265"
+    ],
+    "nota": "Os royalties e a participação especial que a ANP distribui a estados e municípios são pagos pela unidade 73116 (recursos sob supervisão da ANP) e não entram aqui. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

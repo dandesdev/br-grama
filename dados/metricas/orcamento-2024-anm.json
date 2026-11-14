@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-anm",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Mineração",
+  "resumo": "Pagou R$ 433,5 milhões em 2024; dotação atualizada de R$ 447,6 milhões.",
+  "de": "org:anm",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 433496661.57,
+    "despesas_pagas": 389442999.46,
+    "restos_a_pagar_pagos": 44053662.11,
+    "pagamentos_primarios": 401021274.03,
+    "pagamentos_financeiros": 32475387.54,
+    "dotacao_inicial": 416754743,
+    "dotacao_atualizada": 447627784,
+    "despesas_empenhadas": 444513093.39,
+    "despesas_liquidadas": 421074973.79
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "32396"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

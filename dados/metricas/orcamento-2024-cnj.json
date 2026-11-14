@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-cnj",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Conselho Nacional de Justiça",
+  "resumo": "Pagou R$ 532,3 milhões em 2024; dotação atualizada de R$ 533,1 milhões.",
+  "de": "org:cnj",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 532286230.93,
+    "despesas_pagas": 526449494.68,
+    "restos_a_pagar_pagos": 5836736.25,
+    "pagamentos_primarios": 520967083.51,
+    "pagamentos_financeiros": 11319147.42,
+    "dotacao_inicial": 294030459,
+    "dotacao_atualizada": 533077280,
+    "despesas_empenhadas": 532323075.61,
+    "despesas_liquidadas": 526783802.08
+  },
+  "recorte": {
+    "poderes": [
+      "CNJ"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

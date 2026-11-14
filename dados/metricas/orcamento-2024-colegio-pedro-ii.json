@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-colegio-pedro-ii",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Colégio Pedro II",
+  "resumo": "Pagou R$ 839,3 milhões em 2024; dotação atualizada de R$ 856,9 milhões.",
+  "de": "org:colegio-pedro-ii",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 839317656.74,
+    "despesas_pagas": 756524445.65,
+    "restos_a_pagar_pagos": 82793211.09,
+    "pagamentos_primarios": 775935396.12,
+    "pagamentos_financeiros": 63382260.62,
+    "dotacao_inicial": 791601214,
+    "dotacao_atualizada": 856860278,
+    "despesas_empenhadas": 853789332.09,
+    "despesas_liquidadas": 825084783.94
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "26201"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

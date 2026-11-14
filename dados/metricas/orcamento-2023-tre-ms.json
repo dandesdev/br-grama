@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-tre-ms",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional Eleitoral de Mato Grosso do Sul",
+  "resumo": "Pagou R$ 143,8 milhões em 2023; dotação atualizada de R$ 151,2 milhões.",
+  "de": "org:tre-ms",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 143772949.1,
+    "despesas_pagas": 137651809.62,
+    "restos_a_pagar_pagos": 6121139.48,
+    "pagamentos_primarios": 131326820.06,
+    "pagamentos_financeiros": 12446129.04,
+    "dotacao_inicial": 137837969,
+    "dotacao_atualizada": 151166721,
+    "despesas_empenhadas": 149803932.44,
+    "despesas_liquidadas": 139156954.01
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14112"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

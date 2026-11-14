@@ -1,0 +1,46 @@
+{
+  "id": "fluxo:uniao-repassa-cide-estados-2023",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos estados e ao DF 29% da CIDE-combustíveis: valores de 2023",
+  "resumo": "Pagamentos de R$ 139,3 milhões em 2023.",
+  "repasse": "rel:uniao-repassa-cide-estados",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 139276913.64,
+    "despesas_pagas": 134764976.05,
+    "restos_a_pagar_pagos": 4511937.59,
+    "pagamentos_primarios": 139276913.64,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 165671092,
+    "dotacao_atualizada": 441143064,
+    "despesas_empenhadas": 350637025.24,
+    "despesas_liquidadas": 134764976.05
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "0999"
+    ],
+    "nota": "Ações somadas: 0999 (TRANSFERENCIA DE REPARTICAO DA CONTRIBUICAO DE INTERVENCAO N)."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

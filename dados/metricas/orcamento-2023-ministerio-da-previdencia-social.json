@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-da-previdencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério da Previdência Social",
+  "resumo": "Pagou R$ 911,9 bilhões em 2023; dotação atualizada de R$ 918,4 bilhões.",
+  "de": "org:ministerio-da-previdencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 911898731453.48,
+    "despesas_pagas": 861560819481.75,
+    "restos_a_pagar_pagos": 50337911971.73,
+    "pagamentos_primarios": 911307405680.63,
+    "pagamentos_financeiros": 591325772.85,
+    "dotacao_inicial": 879592444489,
+    "dotacao_atualizada": 918443786810,
+    "despesas_empenhadas": 918062794139.59,
+    "despesas_liquidadas": 914739377089.24
+  },
+  "recorte": {
+    "orgao_orcamentario": "33000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 25303, 25917, 33101, 33201, 33206, 33904, 40201, 40206, 40904, 55201. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

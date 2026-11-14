@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2024-exercito",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Exército",
+  "resumo": "Pagou R$ 56,6 bilhões em 2024; dotação atualizada de R$ 56,6 bilhões.",
+  "de": "org:exercito",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 56649709782.84,
+    "despesas_pagas": 51125494994.74,
+    "restos_a_pagar_pagos": 5524214788.1,
+    "pagamentos_primarios": 56571138416.78,
+    "pagamentos_financeiros": 78571366.07,
+    "dotacao_inicial": 56275655163.89,
+    "dotacao_atualizada": 56637576022.89,
+    "despesas_empenhadas": 56698786749.29,
+    "despesas_liquidadas": 54258823134.24
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "52121",
+      "52921"
+    ],
+    "nota": "Comando do Exército (52121) e Fundo do Exército (52921). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

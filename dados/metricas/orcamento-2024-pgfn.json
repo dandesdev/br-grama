@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-pgfn",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Procuradoria-Geral da Fazenda Nacional",
+  "resumo": "Pagou R$ 1,8 bilhão em 2024; dotação atualizada de R$ 1,7 bilhão.",
+  "de": "org:pgfn",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1775823048.32,
+    "despesas_pagas": 1567422033.66,
+    "restos_a_pagar_pagos": 208401014.66,
+    "pagamentos_primarios": 1651470839.6,
+    "pagamentos_financeiros": 124352208.72,
+    "dotacao_inicial": 1672647129,
+    "dotacao_atualizada": 1731303997,
+    "despesas_empenhadas": 1695298748.45,
+    "despesas_liquidadas": 1661754940.75
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "25104"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

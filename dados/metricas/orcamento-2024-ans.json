@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-ans",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Saúde Suplementar",
+  "resumo": "Pagou R$ 316,3 milhões em 2024; dotação atualizada de R$ 318,6 milhões.",
+  "de": "org:ans",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 316276949.9,
+    "despesas_pagas": 277654588.03,
+    "restos_a_pagar_pagos": 38622361.87,
+    "pagamentos_primarios": 283108163.04,
+    "pagamentos_financeiros": 33168786.86,
+    "dotacao_inicial": 317357001,
+    "dotacao_atualizada": 318559476,
+    "despesas_empenhadas": 316276624.14,
+    "despesas_liquidadas": 300303539.77
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "36213"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

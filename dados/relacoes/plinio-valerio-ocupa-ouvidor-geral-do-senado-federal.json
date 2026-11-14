@@ -7,22 +7,27 @@
   "para": "cargo:ouvidor-geral-do-senado-federal",
   "vigencia": {
     "de": "2023-02-13",
-    "ate": null,
-    "nota": "Data de início que a API do Senado registra para o cargo de Ouvidor-Geral na Ouvidoria do Senado (comissão 1543), sem data de fim; a página de composição, na versão de 14/11/2026, ainda o mostra como Ouvidor-Geral. O Ato da Mesa nº 1/2011 prevê designação a cada dois anos, proibida a recondução no período seguinte; não achamos ato de designação de 2025 nem explicação para o registro contínuo."
+    "ate": "2025-04-24",
+    "incerta": true,
+    "nota": "Início pela API do Senado (comissão 1543). Fim incerto: a API não registra fim, mas a Ouvidoria noticiou em 24/4/2025 a escolha de Ciro Nogueira como Ouvidor-Geral para 2025-2026 (rel:ciro-nogueira-ocupa-ouvidor-geral-do-senado-federal); usamos essa data. Ver aviso:ouvidor-geral-do-senado-fontes-divergentes."
   },
   "fontes": [
     {
       "ref": "fonte:senado-api-cargos-de-senadores",
       "dispositivo": "senador 5502: comissão 1543 (OUVIDSF), cargo 'OUVIDOR-GERAL', DataInicio 2023-02-13, sem DataFim (antes, 2021-02-04 a 2023-01-31)",
       "nota": "Consulta de 2026-11-14 a https://legis.senado.leg.br/dadosabertos/senador/5502/cargos; cópia em pesquisa/brutos/senado-dados-abertos/2026-11-14-f2-fechamento-b/senador-5502-cargos.json. Composição da OUVIDSF (data da composição 14/11/2026) em pesquisa/brutos/senado/2026-11-14-f2-fechamento-b/sen-comp-1543.html."
+    },
+    {
+      "ref": "fonte:senado-noticia-ciro-nogueira-ouvidor-geral-2025",
+      "dispositivo": "Ciro Nogueira escolhido Ouvidor-Geral (24/4/2025), biênio 2025-2026"
     }
   ],
-  "confianca": "oficial",
-  "notas": "Ponto para a revisão: a API mostra o mesmo senador como Ouvidor-Geral de 2021-02-04 a 2023-01-31 e desde 2023-02-13, sem quebra em 2025, o que não se encaixa na proibição de recondução do Ato da Mesa nº 1/2011, art. 2º. Não conferimos se o ato foi alterado. Se a revisão confirmar, cabe aviso de contradição (D37).",
+  "confianca": "oficial-contraditorio",
+  "notas": "A API mostra o mesmo senador como Ouvidor-Geral de 2021-02-04 a 2023-01-31 e desde 2023-02-13, sem fim, o que não se encaixa na proibição de recondução do Ato da Mesa nº 1/2011, art. 2º (não achamos ato que o altere). As páginas da Ouvidoria dão Ciro Nogueira no cargo desde abril de 2025; a contradição está em aviso:ouvidor-geral-do-senado-fontes-divergentes.",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "criada no fechamento da fase 2 (ocupantes da cúpula das Casas)"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (criada no fechamento da fase 2 (ocupantes da cúpula das Casas)); CORRIGIDA: ate 2025-04-24 (incerta) e confianca oficial-contraditorio; as páginas da Ouvidoria (notícia de 24/4/2025, Conheça o Ouvidor, Wayback de 5/10/2026, Carta de Serviços 2025) dão Ciro Nogueira no cargo para 2025-2026; Ato da Mesa 1/2011 sem alteração achada; aviso:ouvidor-geral-do-senado-fontes-divergentes"
   }
 }

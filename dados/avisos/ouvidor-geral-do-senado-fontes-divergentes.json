@@ -1,0 +1,47 @@
+{
+  "id": "aviso:ouvidor-geral-do-senado-fontes-divergentes",
+  "tipo": "aviso",
+  "nome": "Quem é o Ouvidor-Geral do Senado desde 2025",
+  "resumo": "As páginas da Ouvidoria dizem que Ciro Nogueira é o Ouvidor-Geral do biênio 2025-2026; a API e a página de composição do Senado ainda mostram Plínio Valério, sem data de fim.",
+  "detalhes": "A Ouvidoria do Senado noticiou em 24/4/2025 que Ciro Nogueira foi escolhido Ouvidor-Geral pelo Presidente Davi Alcolumbre, e a página 'Conheça o Ouvidor' e a Carta de Serviços de 2025 o apresentam no cargo para 2025-2026. A API de cargos de senadores e a composição da Ouvidoria (OUVIDSF) registram Plínio Valério como Ouvidor-Geral desde 13/2/2023, sem fim, depois de um primeiro período de 4/2/2021 a 31/1/2023; a recondução no período seguinte é proibida pelo Ato da Mesa nº 1/2011, art. 2º. O ato de designação de 2025 não foi achado.",
+  "tipo_aviso": "contradicao",
+  "afeta": [
+    "cargo:ouvidor-geral-do-senado-federal",
+    "rel:plinio-valerio-ocupa-ouvidor-geral-do-senado-federal",
+    "rel:ciro-nogueira-ocupa-ouvidor-geral-do-senado-federal"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "API de dados abertos do Senado, /senador/5502/cargos e /senador/739/cargos (consultas de 2026-11-14)",
+    "Composição da Ouvidoria do Senado (legis.senado.leg.br, comissão 1543, versão de 14/11/2026)",
+    "Páginas da Ouvidoria em www12.senado.leg.br (início, 'Conheça o Ouvidor', notícias; Wayback de 5/10/2026) e Carta de Serviços da Ouvidoria de 2025",
+    "Ato da Mesa nº 1/2011 (PDF do Portal da Transparência); busca na web por ato que o altere: nada achado"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:senado-noticia-ciro-nogueira-ouvidor-geral-2025",
+      "dispositivo": "notícia de 24/4/2025 e página 'Conheça o Ouvidor'"
+    },
+    {
+      "ref": "fonte:senado-api-cargos-de-senadores",
+      "dispositivo": "senador 5502: comissão 1543 (OUVIDSF), 'OUVIDOR-GERAL', DataInicio 2023-02-13, sem DataFim"
+    },
+    {
+      "ref": "norma:senado-ato-da-mesa-1-2011",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "vigencia": {
+    "de": "2025-04-24",
+    "ate": null,
+    "nota": "Desde a notícia da escolha de Ciro Nogueira, que a API não registrou."
+  },
+  "confianca": "oficial",
+  "notas": "Aberto na revisão do fechamento (verificacao-f2-fechamento), D37. A relação de Plínio Valério passou a terminar, com data incerta, na escolha de Ciro Nogueira.",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "criado na revisão do fechamento"
+  }
+}

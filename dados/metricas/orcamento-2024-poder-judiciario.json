@@ -1,0 +1,54 @@
+{
+  "id": "met:orcamento-2024-poder-judiciario",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Poder Judiciário",
+  "resumo": "Pagou R$ 58,0 bilhões em 2024; dotação atualizada de R$ 58,8 bilhões.",
+  "de": "org:poder-judiciario",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 58036500550.9,
+    "despesas_pagas": 55496290619.34,
+    "restos_a_pagar_pagos": 2540209931.56,
+    "pagamentos_primarios": 58036500550.9,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 55301774633.34,
+    "dotacao_atualizada": 58815009502.34,
+    "despesas_empenhadas": 57803820181.16,
+    "despesas_liquidadas": 56213305251.91
+  },
+  "recorte": {
+    "poderes": [
+      "STF",
+      "STJ",
+      "JF",
+      "JM",
+      "JE",
+      "JT",
+      "JDFT",
+      "CNJ"
+    ],
+    "modalidades_excluidas": [
+      "91"
+    ],
+    "nota": "Só o Judiciário da União (inclui o TJDFT, que a União mantém: CF, art. 21, XIII); os tribunais estaduais têm orçamento dos estados. Sem as aplicações intraorçamentárias (modalidade 91), pagas de um órgão federal a outro, que seriam contadas duas vezes. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

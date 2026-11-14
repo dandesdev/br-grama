@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-tre-ap",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional Eleitoral do Amapá",
+  "resumo": "Pagou R$ 70,3 milhões em 2023; dotação atualizada de R$ 71,1 milhões.",
+  "de": "org:tre-ap",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 70299405.58,
+    "despesas_pagas": 69705654.43,
+    "restos_a_pagar_pagos": 593751.15,
+    "pagamentos_primarios": 65181898.84,
+    "pagamentos_financeiros": 5117506.74,
+    "dotacao_inicial": 59849773,
+    "dotacao_atualizada": 71095197,
+    "despesas_empenhadas": 70306654.43,
+    "despesas_liquidadas": 69705654.43
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14128"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-anvisa",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Vigilância Sanitária",
+  "resumo": "Pagou R$ 853,5 milhões em 2024; dotação atualizada de R$ 882,4 milhões.",
+  "de": "org:anvisa",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 853546151.79,
+    "despesas_pagas": 755642399.89,
+    "restos_a_pagar_pagos": 97903751.9,
+    "pagamentos_primarios": 788960476.53,
+    "pagamentos_financeiros": 64585675.26,
+    "dotacao_inicial": 904142345,
+    "dotacao_atualizada": 882417399,
+    "despesas_empenhadas": 873181301.46,
+    "despesas_liquidadas": 822795074.71
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "36212"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

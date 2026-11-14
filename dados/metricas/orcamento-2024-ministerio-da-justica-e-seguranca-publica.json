@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-justica-e-seguranca-publica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Justiça e Segurança Pública",
+  "resumo": "Pagou R$ 20,0 bilhões em 2024; dotação atualizada de R$ 21,1 bilhões.",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 20028649145.26,
+    "despesas_pagas": 17128385653.43,
+    "restos_a_pagar_pagos": 2900263491.83,
+    "pagamentos_primarios": 18544091262.84,
+    "pagamentos_financeiros": 1484557882.42,
+    "dotacao_inicial": 20875242455,
+    "dotacao_atualizada": 21058025019,
+    "despesas_empenhadas": 20918960187.11,
+    "despesas_liquidadas": 18327577896.07
+  },
+  "recorte": {
+    "orgao_orcamentario": "30000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 30101, 30107, 30108, 30211, 30212, 30905, 30907, 30911, 30912. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

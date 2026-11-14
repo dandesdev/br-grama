@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-abin",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Brasileira de Inteligência",
+  "resumo": "Pagou R$ 774,6 milhões em 2024; dotação atualizada de R$ 783,9 milhões.",
+  "de": "org:abin",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 774621449.99,
+    "despesas_pagas": 704775095.18,
+    "restos_a_pagar_pagos": 69846354.81,
+    "pagamentos_primarios": 722775754.69,
+    "pagamentos_financeiros": 51845695.3,
+    "dotacao_inicial": 796416798,
+    "dotacao_atualizada": 783901899,
+    "despesas_empenhadas": 783587499.87,
+    "despesas_liquidadas": 762641656.92
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "20118"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

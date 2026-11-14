@@ -77,7 +77,7 @@ Classes conforme a D49, a D53 e a regra 8 das instruções (artigo citado em `fo
 | art. 37 | coberto | org:conselho-nacional-de-saude (diretrizes dos planos de saúde) |
 | art. 38 | fora | vedação de subvenção a prestador com fins lucrativos (regra de gestão) |
 | art. 39 | fora | transição esgotada: imóveis e bases de dados do antigo Inamps (caput e §§ 1º a 4º e 7º vetados) |
-| art. 41 | fora | superado: a Fundação das Pioneiras Sociais foi extinta (Lei 8.246/1991, art. 2º) e o INCA é unidade do Ministério da Saúde; a supervisão não cria relação nova |
+| art. 41 | fora | superado: a Fundação das Pioneiras Sociais foi extinta (Lei 8.246/1991, art. 2º) e as ações seguem com o Serviço Social Autônomo Associação das Pioneiras Sociais, supervisionado pelo Ministério da Saúde (Lei 8.246/1991, art. 3º); o INCA é unidade do Ministério da Saúde; a supervisão não cria relação nova |
 | art. 43 | fora | gratuidade nos serviços contratados (direito do usuário) |
 | art. 45 | coberto | org:sistema-unico-de-saude (hospitais universitários) |
 | art. 46 | fora | incentivo à pesquisa e à transferência de tecnologia (regra programática) |
@@ -221,8 +221,8 @@ Nada vetado ou revogado por inteiro. Conta: 58 artigos vigentes; coberto 32, for
 |---|---|---|
 | art. 1º | coberto | org:sistema-unico-de-saude; org:sistema-unico-de-assistencia-social; org:inss (seguridade, sem nó próprio) |
 | arts. 2º a 4º | fora | definições de saúde, previdência e assistência social |
-| art. 5º | fora | superado: o Sistema Nacional de Seguridade Social nunca teve estrutura própria e o seu conselho (arts. 6º e 7º) foi revogado pela MP 2.216-37/2001 (D51) |
-| art. 8º | lacuna | comissão de três representantes que elabora as propostas orçamentárias da seguridade: instituída por decreto de 4/8/1992, sem confirmação de que exista em 2026 (aviso:comissao-orcamento-seguridade-social-sem-registro) |
+| art. 5º | fora | superado: o Sistema Nacional de Seguridade Social nunca teve estrutura própria e o seu órgão superior, o Conselho Nacional da Seguridade Social (arts. 6º e 7º), foi revogado pela MP 2.216-37/2001 (D51) |
+| art. 8º | coberto | org:comissao-do-orcamento-da-seguridade-social (decreto de 4/8/1992 sem revogação expressa; se funciona em 2026 segue em aviso:comissao-orcamento-seguridade-social-sem-registro) |
 | art. 9º | fora | remete às leis de cada área |
 | arts. 10 a 15 | fora | financiamento, segurados e definições (custeio em detalhe, D53) |
 | arts. 16 e 19 | coberto | rel:uniao-repassa-recursos-fundo-do-regime-geral-de-previdencia-social |
@@ -234,7 +234,7 @@ Nada vetado ou revogado por inteiro. Conta: 58 artigos vigentes; coberto 32, for
 | arts. 42 e 43 | fora | responsabilidade de administradores e recolhimento nas ações trabalhistas (detalhe) |
 | art. 45-A | fora | indenização de tempo de contribuição (benefício em detalhe) |
 | arts. 47 a 54 | fora | certidão negativa, matrícula, informações municipais, privilégios do crédito e execução fiscal (detalhe de processo) |
-| art. 56 | lacuna | regularidade com as contribuições como condição para receber FPE e FPM: move dinheiro entre entes (D53), mas não está em rel:uniao-repassa-fpe-estados nem em rel:uniao-repassa-fpm-municipios (arquivos da área de federação, não editados aqui) |
+| art. 56 | coberto | rel:uniao-repassa-fpe-estados; rel:uniao-repassa-fpm-municipios (regularidade com as contribuições como condição para receber FPE e FPM) |
 | arts. 57 a 59 | fora | transição esgotada (débitos de 1991 e 1992, sistema do INSS em 90 dias) |
 | arts. 60 a 62 | fora | pagamento pela rede bancária, receitas patrimoniais e contribuição à Fundacentro (regras de gestão) |
 | art. 67 | fora | transição até o Cadastro Nacional do Trabalhador |
@@ -253,7 +253,7 @@ Nada vetado ou revogado por inteiro. Conta: 58 artigos vigentes; coberto 32, for
 | art. 104 | coberto | norma:lei-8212-1991 (vigência) |
 | art. 105 | fora | cláusula revogatória |
 
-Revogados ou vetados por inteiro (fora da conta): arts. 6º, 7º, 29, 34, 36, 38, 40, 41, 44, 45, 46, 55, 63 a 66, 75, 77, 79, 81, 84, 86, 93, 94, 100 e 101. Conta: 86 artigos vigentes; coberto 5, fora 79, parcial 0, lacuna 2; cobertura = 97,7%.
+Revogados ou vetados por inteiro (fora da conta): arts. 6º, 7º, 29, 34, 36, 38, 40, 41, 44, 45, 46, 55, 63 a 66, 75, 77, 79, 81, 84, 86, 93, 94, 100 e 101. Conta: 86 artigos vigentes; coberto 7, fora 79, parcial 0, lacuna 0; cobertura = 100,0% (arts. 8º e 56 passaram a coberto na rodada final de f2-fechamento).
 
 ### Lei 8.213/1991 (planos de benefícios da previdência social)
 

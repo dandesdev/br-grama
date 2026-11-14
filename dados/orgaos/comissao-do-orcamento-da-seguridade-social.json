@@ -1,0 +1,46 @@
+{
+  "id": "org:comissao-do-orcamento-da-seguridade-social",
+  "tipo": "orgao",
+  "nome": "Comissão das propostas orçamentárias da Seguridade Social",
+  "resumo": "Comissão de três representantes (saúde, previdência e assistência social) que, pela Lei 8.212/1991, elabora as propostas orçamentárias anuais e plurianuais da seguridade.",
+  "detalhes": "A lei prevê um representante de cada área (Lei 8.212/1991, art. 8º). O decreto de 4/8/1992 a instituiu com um representante de cada um dos Ministérios da Saúde, da Previdência Social e da Ação Social, designados antes de cada proposta, por portaria interministerial, com suplentes; os titulares elegem o presidente, e representantes da Educação, da Economia e do Trabalho podem participar das reuniões em caráter excepcional. Os membros não são remunerados.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:poder-executivo-federal",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:camara-legin-decreto-4-agosto-1992-comissao-orcamento-seguridade",
+          "dispositivo": "art. 1º, §§ 1º e 2º"
+        }
+      ],
+      "nota": "Colegiado interministerial (Saúde, Previdência e Assistência), sem ministério que o contenha; fica no Poder Executivo federal, como a Comissão Mista de Reavaliação de Informações."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8212-1991",
+      "dispositivo": "art. 8º"
+    },
+    {
+      "ref": "fonte:camara-legin-decreto-4-agosto-1992-comissao-orcamento-seguridade",
+      "dispositivo": "arts. 1º a 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-08-05",
+    "ate": null,
+    "nota": "Decreto de 4/8/1992, em vigor na publicação (art. 4º; DOU de 5/8/1992); revogou o decreto de 8/8/1991, que formara a comissão só para o orçamento de 1992 (art. 5º). A Câmara registra que não consta revogação expressa do decreto de 1992."
+  },
+  "confianca": "oficial",
+  "notas": "Entra no retrato porque a lei e o decreto seguem sem revogação expressa; se a comissão funciona hoje é o que falta saber (aviso:comissao-orcamento-seguridade-social-sem-registro). Os nomes dos ministérios são os de 1992; os sucessores (a assistência social está hoje no Ministério do Desenvolvimento e Assistência Social) não foram conferidos num ato da comissão.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento-final",
+    "notas": "criado na rodada final do fechamento da fase 2 (Lei 8.212, art. 8º, antes lacuna em f2-social); texto do decreto de 4/8/1992 relido na página da Câmara em 2026-11-14 (arts. 1º a 5º); o aviso de lacuna continua"
+  }
+}

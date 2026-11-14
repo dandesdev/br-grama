@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-das-relacoes-exteriores",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério das Relações Exteriores",
+  "resumo": "Pagou R$ 4,4 bilhões em 2023; dotação atualizada de R$ 4,7 bilhões.",
+  "de": "org:ministerio-das-relacoes-exteriores",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4446757149.06,
+    "despesas_pagas": 4273977833.42,
+    "restos_a_pagar_pagos": 172779315.64,
+    "pagamentos_primarios": 4292925956.09,
+    "pagamentos_financeiros": 153831192.97,
+    "dotacao_inicial": 4786936440.64,
+    "dotacao_atualizada": 4707460534.64,
+    "despesas_empenhadas": 4501183917.08,
+    "despesas_liquidadas": 4328137498.85
+  },
+  "recorte": {
+    "orgao_orcamentario": "35000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 35101, 35201. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

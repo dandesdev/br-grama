@@ -1,0 +1,60 @@
+{
+  "id": "met:orcamento-2023-presidencia-da-republica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Presidência da República",
+  "resumo": "Pagou R$ 2,3 bilhões em 2023; dotação atualizada de R$ 2,8 bilhões.",
+  "de": "org:presidencia-da-republica",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2277188119.63,
+    "despesas_pagas": 2096185355.65,
+    "restos_a_pagar_pagos": 181002763.98,
+    "pagamentos_primarios": 2224637157.79,
+    "pagamentos_financeiros": 52550961.84,
+    "dotacao_inicial": 2064583226,
+    "dotacao_atualizada": 2752890538,
+    "despesas_empenhadas": 2725510077.2,
+    "despesas_liquidadas": 2225059775.82
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": -94614952.38,
+      "despesas_pagas": -94614952.38,
+      "restos_a_pagar_pagos": 0,
+      "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 0,
+      "dotacao_inicial": 17631428560,
+      "dotacao_atualizada": 17631418560,
+      "despesas_empenhadas": -94614952.38,
+      "despesas_liquidadas": -94614952.38
+    },
+    "unidades_orcamentarias": [
+      "71903",
+      "74906"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "20000",
+    "nota": "Inclui a Abin e a EBC, que têm unidade orçamentária própria no órgão orçamentário da Presidência. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 20101, 20118, 20204, 20415, 20927, 41261, 60101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

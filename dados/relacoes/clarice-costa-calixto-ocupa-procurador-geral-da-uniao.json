@@ -1,0 +1,39 @@
+{
+  "id": "rel:clarice-costa-calixto-ocupa-procurador-geral-da-uniao",
+  "tipo": "relacao",
+  "nome": "Clarice Costa Calixto é Procuradora-Geral da União",
+  "relacao": "ocupa",
+  "de": "pessoa:clarice-costa-calixto",
+  "para": "cargo:procurador-geral-da-uniao",
+  "condicao": "Titular em 2026-10-01: nomeada em 31/1/2025, sem exoneração achada no DOU até 14/11/2026, e com atos no cargo em julho e outubro de 2026.",
+  "vigencia": {
+    "de": "2025-01-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data do decreto de nomeação; a posse não foi conferida. Em exercício em 2026-10-01: a busca no DOU por \"Clarice Costa Calixto\" de 2023 a 14/11/2026 não traz exoneração, e ela aparece como Procuradora-Geral da União em ato de 9/7/2026 e num acordo assinado em 9 de outubro (o extrato, de 6/11/2026, não diz o ano)."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 31/1/2025 (DOU 3/2/2025, Seção 2, p. 1): exonera Marcelo Eugênio Feitosa Almeida e nomeia Clarice Costa Calixto para o cargo de Procuradora-Geral da União",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-31-de-janeiro-de-2025-610323224"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Portaria AGU nº 245, de 9/7/2026 (DOU 15/7/2026, Seção 2, p. 2): autoriza o afastamento do País da Procuradora-Geral da União Clarice Costa Calixto",
+      "nota": "https://www.in.gov.br/web/dou/-/portaria-agu-n-245-de-9-de-julho-de-2026-719066312"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato de Acordo de Cooperação Técnica TRF6-SJMG-PGU-PRU6 (DOU 6/11/2026, Seção 3, p. 184): assinado \"em 09 de outubro\", sem ano, pela Procuradora-Geral da União, Clarice Costa Calixto",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-acordo-de-cooperacao-tecnica-742339311"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento-final",
+    "notas": "criada na rodada final do fechamento da fase 2: decreto de nomeação e atos no cargo publicados no DOU antes e depois de 2026-10-01 (D11, D14). Ponto para a revisão: o extrato de 6/11/2026 não diz o ano da assinatura; a Portaria Normativa AGU nº 242, de 11/11/2026 (DOU 12/11/2026, Seção 1, p. 2), fala em \"Procuradora-Geral da União\", no feminino, sem nome"
+  }
+}

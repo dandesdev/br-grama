@@ -13,7 +13,8 @@ import { join } from "node:path";
 import { strFromU8, unzipSync } from "fflate";
 
 const RAIZ = join(import.meta.dirname, "..", "..");
-const EXERCICIO = 2025;
+// Exercício a importar (D57: série de 2023 a 2025). Uso: EXERCICIO=2024 npx tsx scripts/importar/tesouro-despesas.ts baixar
+const EXERCICIO = Number(process.env.EXERCICIO ?? 2025);
 const HOJE = new Date().toISOString().slice(0, 10);
 const TAREFA = "importacao-tesouro-despesas";
 const DATASET = "https://www.tesourotransparente.gov.br/ckan/dataset/despesas-e-transferencias-totais";
@@ -38,7 +39,9 @@ const coluna = (ref: string) => [...ref.replace(/\d+/g, "")].reduce((n, c) => n 
 function lerAba(xlsx: Uint8Array, nomeAba: string, linha: (valores: (string | number | null)[]) => void) {
   const arquivos = unzipSync(xlsx, { filter: (f) => f.name === "xl/workbook.xml" || f.name === "xl/_rels/workbook.xml.rels" || f.name === "xl/sharedStrings.xml" || f.name.startsWith("xl/worksheets/sheet") });
   const livro = strFromU8(arquivos["xl/workbook.xml"]);
-  const aba = [...livro.matchAll(/<sheet [^>]*name="([^"]+)"[^>]*r:id="([^"]+)"/g)].find((m) => entidadesXml(m[1]) === nomeAba);
+  // A planilha de 2025 chama a aba de dados pelo ano; as de 2023 e 2024, de "base".
+  const abas = [...livro.matchAll(/<sheet [^>]*name="([^"]+)"[^>]*r:id="([^"]+)"/g)];
+  const aba = abas.find((m) => entidadesXml(m[1]) === nomeAba) ?? abas.find((m) => entidadesXml(m[1]) === "base");
   if (!aba) throw new Error(`aba "${nomeAba}" não encontrada`);
   const rels = strFromU8(arquivos["xl/_rels/workbook.xml.rels"]);
   const alvo = rels.match(new RegExp(`Id="${aba[2]}"[^>]*Target="([^"]+)"|Target="([^"]+)"[^>]*Id="${aba[2]}"`))!;
@@ -74,9 +77,10 @@ const pegar = async (url: string) => {
 };
 
 const arquivoBruto = () => {
-  const datas = existsSync(DIR_BRUTO) ? readdirSync(DIR_BRUTO).sort() : [];
-  if (!datas.length) throw new Error("rode a etapa baixar antes");
-  return join(DIR_BRUTO, datas.at(-1)!, `despesas-transferencias-${EXERCICIO}-agregado.csv`);
+  const nome = `despesas-transferencias-${EXERCICIO}-agregado.csv`;
+  const datas = (existsSync(DIR_BRUTO) ? readdirSync(DIR_BRUTO).sort() : []).filter((d) => existsSync(join(DIR_BRUTO, d, nome)));
+  if (!datas.length) throw new Error(`rode a etapa baixar de ${EXERCICIO} antes`);
+  return join(DIR_BRUTO, datas.at(-1)!, nome);
 };
 
 async function baixar() {
@@ -94,7 +98,9 @@ async function baixar() {
       cabecalho = v.map(String);
       return;
     }
-    const ix = (c: string) => cabecalho!.indexOf(c);
+    // Nomes de coluna das planilhas de 2023 e 2024 que diferem dos de 2025.
+    const SINONIMOS: Record<string, string[]> = { PODER: ["Poder_Orgao"], PRIMARIA_FINANCEIRA: ["Primaria_Financeira"] };
+    const ix = (c: string) => [c, ...(SINONIMOS[c] ?? [])].map((n) => cabecalho!.indexOf(n)).find((i) => i >= 0) ?? -1;
     if (v[ix("ID_ANO")] !== EXERCICIO) return;
     linhas++;
     const chave = CHAVES.map((c) => String(v[ix(c)] ?? "")).join("\t");
@@ -137,13 +143,16 @@ function lerBruto(): { linhas: Linha[]; cabecalho: string } {
     return {
       poder: g("PODER"),
       orgao: g("ORGAO_CODIGO"),
-      uo: g("UNIDADE_ORCAMENTARIA_CODIGO"),
+      // Os ajustes "Extra-SIAFI" vêm com unidade "N/A" em 2023 e 2025 e em branco em 2024.
+      uo: g("UNIDADE_ORCAMENTARIA_CODIGO") || "N/A",
       nomeUo: g("UNIDADE_ORCAMENTARIA_DESCRICAO"),
       acao: g("ACAO"),
       nomeAcao: g("NO_ACAO"),
       modalidade: g("CO_MOAP_NADE"),
       primaria: g("PRIMARIA_FINANCEIRA") === "Primária",
-      financeira: g("PRIMARIA_FINANCEIRA") === "Despesa Financeira",
+      // Em 2023 o Tesouro separou "Financeira primária" (financiamentos dos fundos constitucionais, FNC, crédito
+      // fundiário); de 2024 em diante as mesmas ações vêm como "Despesa Financeira".
+      financeira: ["Despesa Financeira", "Financeira primária"].includes(g("PRIMARIA_FINANCEIRA")),
       v: Object.fromEntries(VALORES.map((k) => [k, Number(g(k))])) as Linha["v"],
     };
   });
@@ -430,13 +439,22 @@ function gerar(verificacaoNotas?: string) {
     ...(r.tambem ? { tambem: r.tambem.map((t) => recorteJson(t)) } : {}),
     ...(nota ? { nota } : {}),
   });
-  const dispositivo = `planilha de ${EXERCICIO}, aba "${EXERCICIO}", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo "recorte"`;
+  const dispositivo = `planilha de ${EXERCICIO}, aba "${EXERCICIO === 2025 ? EXERCICIO : "base"}", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo "recorte"`;
 
   let nMetricas = 0;
   for (const m of METRICAS) {
     const alvo = ler(m.de);
+    // Órgão criado depois do exercício, ou sem execução nele (D57): sem métrica, com aviso no console.
+    if (alvo.vigencia?.de && alvo.vigencia.de > `${EXERCICIO}-12-31`) {
+      console.log(`  ${m.de}: criado em ${alvo.vigencia.de}, sem métrica de ${EXERCICIO}`);
+      continue;
+    }
     const ls = linhas.filter(filtra(m.recorte));
-    if (!ls.length) throw new Error(`nenhuma linha para ${m.de}`);
+    if (!ls.length) {
+      if (EXERCICIO === 2025) throw new Error(`nenhuma linha para ${m.de}`);
+      console.log(`  ${m.de}: nenhuma linha em ${EXERCICIO}, sem métrica`);
+      continue;
+    }
     const proprias = ls.filter((l) => !ehSupervisao(l.uo));
     const supervisao = ls.filter((l) => ehSupervisao(l.uo));
     const valores = somar(proprias);
@@ -449,7 +467,11 @@ function gerar(verificacaoNotas?: string) {
       supervisao.length ? NOTA_SUPERVISAO : null,
       Math.abs(ajuste) > 1e6 ? `Ajustes "Extra-SIAFI" sem unidade orçamentária (${reais(ajuste)} no saldo) ficam de fora.` : null,
       "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora.",
+      EXERCICIO === 2023 ? 'Em 2023 o Tesouro classificou parte das operações de crédito como "Financeira primária"; aqui elas contam como pagamentos financeiros, como nos anos seguintes.' : null,
       m.recorte.orgao ? `Unidades orçamentárias somadas: ${uosProprias.join(", ")}.` : null,
+      m.recorte.orgao && EXERCICIO !== 2025
+        ? "Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+        : null,
     ]
       .filter(Boolean)
       .join(" ");

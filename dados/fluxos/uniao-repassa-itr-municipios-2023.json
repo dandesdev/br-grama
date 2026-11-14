@@ -1,0 +1,46 @@
+{
+  "id": "fluxo:uniao-repassa-itr-municipios-2023",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos municípios 50% do ITR, ou 100% se eles o cobrarem: valores de 2023",
+  "resumo": "Pagamentos de R$ 2,3 bilhões em 2023.",
+  "repasse": "rel:uniao-repassa-itr-municipios",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2280729989.15,
+    "despesas_pagas": 2187542931.66,
+    "restos_a_pagar_pagos": 93187057.49,
+    "pagamentos_primarios": 2280729989.15,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 2410958176,
+    "dotacao_atualizada": 2675606349,
+    "despesas_empenhadas": 2296059057.99,
+    "despesas_liquidadas": 2187542931.66
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "006M"
+    ],
+    "nota": "A parcela destinada ao Fundeb (CF, art. 212-A, II) é paga na ação 0C33, que reúne a retenção de várias transferências, e não entra aqui. Ações somadas: 006M (TRANSFERENCIA DO IMPOSTO TERRITORIAL RURAL - ITR)."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

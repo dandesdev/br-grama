@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-ministerio-publico-da-uniao",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério Público da União",
+  "resumo": "Pagou R$ 9,2 bilhões em 2024; dotação atualizada de R$ 9,4 bilhões.",
+  "de": "org:ministerio-publico-da-uniao",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 9219675505.7,
+    "despesas_pagas": 9145026922.92,
+    "restos_a_pagar_pagos": 74648582.78,
+    "pagamentos_primarios": 8455327526.12,
+    "pagamentos_financeiros": 764347979.58,
+    "dotacao_inicial": 8973013143,
+    "dotacao_atualizada": 9358145277,
+    "despesas_empenhadas": 9234208309.54,
+    "despesas_liquidadas": 9161708019.37
+  },
+  "recorte": {
+    "poderes": [
+      "MPU"
+    ],
+    "nota": "Inclui os quatro ramos e a Escola Superior do MPU (unidade 34105). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

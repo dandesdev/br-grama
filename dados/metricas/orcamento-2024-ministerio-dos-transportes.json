@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-dos-transportes",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério dos Transportes",
+  "resumo": "Pagou R$ 19,7 bilhões em 2024; dotação atualizada de R$ 18,7 bilhões.",
+  "de": "org:ministerio-dos-transportes",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 19650019312.17,
+    "despesas_pagas": 13881411678.58,
+    "restos_a_pagar_pagos": 5768607633.59,
+    "pagamentos_primarios": 19508723455.84,
+    "pagamentos_financeiros": 141295856.33,
+    "dotacao_inicial": 20336146599,
+    "dotacao_atualizada": 18710765957,
+    "despesas_empenhadas": 18627405173.7,
+    "despesas_liquidadas": 14862517648.2
+  },
+  "recorte": {
+    "orgao_orcamentario": "39000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 39101, 39207, 39250, 39252, 39253, 39905. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

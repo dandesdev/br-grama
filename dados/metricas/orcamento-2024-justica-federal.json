@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-justica-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Justiça Federal",
+  "resumo": "Pagou R$ 16,0 bilhões em 2024; dotação atualizada de R$ 16,5 bilhões.",
+  "de": "org:justica-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 16012234567.94,
+    "despesas_pagas": 15467411998.74,
+    "restos_a_pagar_pagos": 544822569.2,
+    "pagamentos_primarios": 14531393028.67,
+    "pagamentos_financeiros": 1480841539.27,
+    "dotacao_inicial": 15444917139,
+    "dotacao_atualizada": 16489566701,
+    "despesas_empenhadas": 16159049606.16,
+    "despesas_liquidadas": 15647900491.9
+  },
+  "recorte": {
+    "poderes": [
+      "JF"
+    ],
+    "nota": "Inclui a primeira instância (unidade 12101) e os seis TRFs. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

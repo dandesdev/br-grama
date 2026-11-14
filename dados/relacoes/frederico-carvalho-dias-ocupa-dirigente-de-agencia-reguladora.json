@@ -1,0 +1,39 @@
+{
+  "id": "rel:frederico-carvalho-dias-ocupa-dirigente-de-agencia-reguladora",
+  "tipo": "relacao",
+  "nome": "Frederico Carvalho Dias é Diretor-Geral da Antaq",
+  "relacao": "ocupa",
+  "de": "pessoa:frederico-carvalho-dias",
+  "para": "cargo:dirigente-de-agencia-reguladora",
+  "orgao_exercicio": "org:antaq",
+  "condicao": "Diretor-Geral da Antaq.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Nomeado por decreto de 28/8/2025 (o decreto não diz a data de fim do mandato); a posse não foi conferida. Em exercício em 2026-10-01 pelos atos de 4/9 e 8/10/2026, sem exoneração achada no DOU."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Decretos de 28/8/2025 (DOU 29/8/2025, Seção 2, p. 2): nomeia Frederico Carvalho Dias para o cargo de Diretor-Geral da Antaq, na vaga do término do mandato de Eduardo Nery Machado Filho (Lei 10.233, art. 53, § 1º)",
+      "nota": "https://www.in.gov.br/web/dou/-/decretos-de-28-de-agosto-de-2025-651717433 (cópia em pesquisa/brutos/dou/2026-11-14-f2-fechamento-b/)"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Extrato do Contrato de Arrendamento nº 4/2026-MPOR, assinado em 4/9/2026 pelo Diretor-Geral da Antaq, Frederico Carvalho Dias (DOU 14/9/2026, Seção 3, p. 108)",
+      "nota": "https://www.in.gov.br/web/dou/-/extrato-de-contrato-731609702"
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Deliberação-DG nº 75-Antaq, de 8/10/2026 (DOU 9/10/2026, Seção 1, p. 148), do Diretor-Geral, assinada por Frederico Dias",
+      "nota": "https://www.in.gov.br/web/dou/-/deliberacao-dg-n-75-antaq-de-8-de-outubro-de-2026-737467129"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento-final",
+    "notas": "criada na rodada final do fechamento da fase 2: decreto de nomeação e atos assinados no cargo antes e depois de 2026-10-01 (D11, D14)"
+  }
+}

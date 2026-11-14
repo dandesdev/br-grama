@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tj-df",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal de Justiça do Distrito Federal e Territórios",
+  "resumo": "Pagou R$ 3,9 bilhões em 2024; dotação atualizada de R$ 3,9 bilhões.",
+  "de": "org:tj-df",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 3935305476.03,
+    "despesas_pagas": 3858599057.57,
+    "restos_a_pagar_pagos": 76706418.46,
+    "pagamentos_primarios": 3604294464.21,
+    "pagamentos_financeiros": 331011011.82,
+    "dotacao_inicial": 3778503325,
+    "dotacao_atualizada": 3931090909,
+    "despesas_empenhadas": 3931090895.13,
+    "despesas_liquidadas": 3864081894.27
+  },
+  "recorte": {
+    "poderes": [
+      "JDFT"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

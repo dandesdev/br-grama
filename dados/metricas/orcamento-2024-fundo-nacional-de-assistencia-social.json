@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-fundo-nacional-de-assistencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Fundo Nacional de Assistência Social",
+  "resumo": "Pagou R$ 114,5 bilhões em 2024; dotação atualizada de R$ 115,7 bilhões.",
+  "de": "obj:fundo-nacional-de-assistencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 114454923999.08,
+    "despesas_pagas": 109579299764.41,
+    "restos_a_pagar_pagos": 4875624234.67,
+    "pagamentos_primarios": 114454923999.08,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 106682028626,
+    "dotacao_atualizada": 115658777238,
+    "despesas_empenhadas": 115446174381.21,
+    "despesas_liquidadas": 114508245391.42
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "55901"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

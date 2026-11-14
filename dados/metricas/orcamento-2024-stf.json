@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-stf",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Supremo Tribunal Federal",
+  "resumo": "Pagou R$ 956,3 milhões em 2024; dotação atualizada de R$ 968,0 milhões.",
+  "de": "org:stf",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 956271467.11,
+    "despesas_pagas": 875618645.95,
+    "restos_a_pagar_pagos": 80652821.16,
+    "pagamentos_primarios": 906091663.09,
+    "pagamentos_financeiros": 50179804.02,
+    "dotacao_inicial": 891180747,
+    "dotacao_atualizada": 968042308,
+    "despesas_empenhadas": 959345375.46,
+    "despesas_liquidadas": 894230467.91
+  },
+  "recorte": {
+    "poderes": [
+      "STF"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

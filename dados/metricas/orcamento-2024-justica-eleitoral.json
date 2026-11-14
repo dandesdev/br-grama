@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-justica-eleitoral",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Justiça Eleitoral",
+  "resumo": "Pagou R$ 11,7 bilhões em 2024; dotação atualizada de R$ 11,8 bilhões.",
+  "de": "org:justica-eleitoral",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 11727824991.8,
+    "despesas_pagas": 10530045770.45,
+    "restos_a_pagar_pagos": 1197779221.35,
+    "pagamentos_primarios": 10973749202.41,
+    "pagamentos_financeiros": 754075789.39,
+    "dotacao_inicial": 11336368613,
+    "dotacao_atualizada": 11776003720,
+    "despesas_empenhadas": 11058704945.63,
+    "despesas_liquidadas": 10629375093.85
+  },
+  "recorte": {
+    "poderes": [
+      "JE"
+    ],
+    "nota": "Inclui o TSE, os 27 TREs e o Fundo Partidário (unidade 14901), que fica no orçamento da Justiça Eleitoral. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

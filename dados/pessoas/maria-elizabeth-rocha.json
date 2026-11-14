@@ -10,6 +10,10 @@
   },
   "fontes": [
     {
+      "ref": "fonte:stm-noticia-posse-presidencia-2025",
+      "dispositivo": null
+    },
+    {
       "ref": "fonte:tjmg-noticia-posse-presidencia-stm-2025",
       "dispositivo": null
     }
@@ -17,9 +21,9 @@
   "confianca": "oficial",
   "notas": "Criada só para registrar o cargo de direção (D11). Magistrados não têm filiação partidária (CF, art. 95, parágrafo único, III).",
   "verificacao": {
-    "status": "coletado",
+    "status": "verificado",
     "em": "2026-11-14",
-    "tarefa": "f2-fechamento",
-    "notas": "criada em f2-fechamento-a"
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "coletado em f2-fechamento (criada em f2-fechamento-a); fonte do STM acrescentada (notícia de 13/3/2025: posse em 12/3/2025, biênio 2025-2027); TJMG mantida como confirmação"
   }
 }

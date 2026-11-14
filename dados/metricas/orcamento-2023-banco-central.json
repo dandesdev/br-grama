@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-banco-central",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Banco Central do Brasil",
+  "resumo": "Pagou R$ 4,1 bilhões em 2023; dotação atualizada de R$ 4,1 bilhões.",
+  "de": "org:banco-central",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4146363814.97,
+    "despesas_pagas": 3850795392.75,
+    "restos_a_pagar_pagos": 295568422.22,
+    "pagamentos_primarios": 3972944753.37,
+    "pagamentos_financeiros": 173419061.6,
+    "dotacao_inicial": 3922980980,
+    "dotacao_atualizada": 4119201996,
+    "despesas_empenhadas": 4044888817.09,
+    "despesas_liquidadas": 3994759013.63
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "83201"
+    ],
+    "nota": "Só as despesas do Banco Central que a LRF manda incluir na lei orçamentária da União: pessoal e encargos, custeio administrativo e investimentos (LRF, art. 5º, § 6º). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

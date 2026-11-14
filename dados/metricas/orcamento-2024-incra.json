@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2024-incra",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Instituto Nacional de Colonização e Reforma Agrária",
+  "resumo": "Pagou R$ 1,8 bilhão em 2024; dotação atualizada de R$ 2,2 bilhões.",
+  "de": "org:incra",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1808865997.24,
+    "despesas_pagas": 1602609333.97,
+    "restos_a_pagar_pagos": 206256663.27,
+    "pagamentos_primarios": 1729615098.36,
+    "pagamentos_financeiros": 79250898.88,
+    "dotacao_inicial": 1933739900,
+    "dotacao_atualizada": 2237485445,
+    "despesas_empenhadas": 2228830124.95,
+    "despesas_liquidadas": 1713864535.21
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "49201",
+      "22201"
+    ],
+    "nota": "A unidade 22201 é o código antigo do Incra, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

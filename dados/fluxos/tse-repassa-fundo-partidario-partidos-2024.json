@@ -1,0 +1,43 @@
+{
+  "id": "fluxo:tse-repassa-fundo-partidario-partidos-2024",
+  "tipo": "fluxo",
+  "nome": "TSE distribui o Fundo Partidário: valores de 2024",
+  "resumo": "Pagamentos de R$ 1,3 bilhão em 2024.",
+  "repasse": "rel:tse-repassa-fundo-partidario-partidos",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1271162809.45,
+    "despesas_pagas": 1243745396,
+    "restos_a_pagar_pagos": 27417413.45,
+    "pagamentos_primarios": 1271162809.45,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 1243745396,
+    "dotacao_atualizada": 1243745396,
+    "despesas_empenhadas": 1243745396,
+    "despesas_liquidadas": 1243745396
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14901"
+    ],
+    "nota": "Ações somadas: 0413 (MANUTENCAO E OPERACAO DOS PARTIDOS POLITICOS)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

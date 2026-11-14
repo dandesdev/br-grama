@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-previdencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Previdência Social",
+  "resumo": "Pagou R$ 953,6 bilhões em 2024; dotação atualizada de R$ 958,9 bilhões.",
+  "de": "org:ministerio-da-previdencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 953627868854.81,
+    "despesas_pagas": 898213680786.56,
+    "restos_a_pagar_pagos": 55414188068.25,
+    "pagamentos_primarios": 952801135585.19,
+    "pagamentos_financeiros": 826733269.62,
+    "dotacao_inicial": 929784152389,
+    "dotacao_atualizada": 958872493946,
+    "despesas_empenhadas": 958643571081.76,
+    "despesas_liquidadas": 954955384288.3
+  },
+  "recorte": {
+    "orgao_orcamentario": "33000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 25303, 33101, 33201, 33206, 33904, 40201, 40206. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

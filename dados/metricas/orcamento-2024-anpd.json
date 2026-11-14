@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-anpd",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Proteção de Dados",
+  "resumo": "Pagou R$ 12,5 milhões em 2024; dotação atualizada de R$ 21,0 milhões.",
+  "de": "org:anpd",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 12538260.23,
+    "despesas_pagas": 11468893.96,
+    "restos_a_pagar_pagos": 1069366.27,
+    "pagamentos_primarios": 12508978.23,
+    "pagamentos_financeiros": 29282,
+    "dotacao_inicial": 28107034,
+    "dotacao_atualizada": 21044328,
+    "despesas_empenhadas": 20819337.76,
+    "despesas_liquidadas": 12047957.79
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30212"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

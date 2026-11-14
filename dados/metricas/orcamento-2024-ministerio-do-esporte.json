@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-do-esporte",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério do Esporte",
+  "resumo": "Pagou R$ 581,6 milhões em 2024; dotação atualizada de R$ 2,1 bilhões.",
+  "de": "org:ministerio-do-esporte",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 581605107.68,
+    "despesas_pagas": 301285960.01,
+    "restos_a_pagar_pagos": 280319147.67,
+    "pagamentos_primarios": 579957854.4,
+    "pagamentos_financeiros": 1647253.28,
+    "dotacao_inicial": 2090835397,
+    "dotacao_atualizada": 2060586315,
+    "despesas_empenhadas": 1789298691.47,
+    "despesas_liquidadas": 305386065.88
+  },
+  "recorte": {
+    "orgao_orcamentario": "51000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 51101. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

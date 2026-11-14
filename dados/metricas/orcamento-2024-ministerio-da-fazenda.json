@@ -1,0 +1,70 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-fazenda",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Fazenda",
+  "resumo": "Pagou R$ 21,7 bilhões em 2024; dotação atualizada de R$ 22,7 bilhões.",
+  "de": "org:ministerio-da-fazenda",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 21651218958,
+    "despesas_pagas": 19429236132.69,
+    "restos_a_pagar_pagos": 2221982825.31,
+    "pagamentos_primarios": 19907097678.05,
+    "pagamentos_financeiros": 1744121279.95,
+    "dotacao_inicial": 24296648908.98,
+    "dotacao_atualizada": 22650199087.98,
+    "despesas_empenhadas": 21710368311.24,
+    "despesas_liquidadas": 21026989640.93
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2542239182333.44,
+      "despesas_pagas": 2507976357016.12,
+      "restos_a_pagar_pagos": 34262825317.32,
+      "pagamentos_primarios": 512353744233.98,
+      "pagamentos_financeiros": 2031055580091.8,
+      "dotacao_inicial": 3000250984851,
+      "dotacao_atualizada": 3045749045223,
+      "despesas_empenhadas": 2553892392357.21,
+      "despesas_liquidadas": 2508566351543.34
+    },
+    "unidades_orcamentarias": [
+      "71101",
+      "71103",
+      "71104",
+      "71904",
+      "71905",
+      "73101",
+      "73108",
+      "73901",
+      "74101",
+      "74102",
+      "74201",
+      "75101"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "25000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 25101, 25103, 25104, 25203, 25208, 25903. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

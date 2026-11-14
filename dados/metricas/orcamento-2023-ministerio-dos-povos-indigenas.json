@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-dos-povos-indigenas",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério dos Povos Indígenas",
+  "resumo": "Pagou R$ 651,1 milhões em 2023; dotação atualizada de R$ 813,1 milhões.",
+  "de": "org:ministerio-dos-povos-indigenas",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 651145858.22,
+    "despesas_pagas": 577541164.29,
+    "restos_a_pagar_pagos": 73604693.93,
+    "pagamentos_primarios": 618326209.78,
+    "pagamentos_financeiros": 32819648.44,
+    "dotacao_inicial": 645946477,
+    "dotacao_atualizada": 813100975,
+    "despesas_empenhadas": 810287618.18,
+    "despesas_liquidadas": 620155369.42
+  },
+  "recorte": {
+    "orgao_orcamentario": "84000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 30202, 84201. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

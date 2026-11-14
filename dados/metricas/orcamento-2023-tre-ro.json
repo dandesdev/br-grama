@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-tre-ro",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional Eleitoral de Rondônia",
+  "resumo": "Pagou R$ 118,5 milhões em 2023; dotação atualizada de R$ 126,9 milhões.",
+  "de": "org:tre-ro",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 118544514.2,
+    "despesas_pagas": 106016633.45,
+    "restos_a_pagar_pagos": 12527880.75,
+    "pagamentos_primarios": 110061715.65,
+    "pagamentos_financeiros": 8482798.55,
+    "dotacao_inicial": 108161137,
+    "dotacao_atualizada": 126894630,
+    "despesas_empenhadas": 123834551.73,
+    "despesas_liquidadas": 107450814
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14122"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

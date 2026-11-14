@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-fnde",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Fundo Nacional de Desenvolvimento da Educação",
+  "resumo": "Pagou R$ 63,5 bilhões em 2024; dotação atualizada de R$ 68,5 bilhões.",
+  "de": "org:fnde",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 63548023604.53,
+    "despesas_pagas": 55300980187.21,
+    "restos_a_pagar_pagos": 8247043417.32,
+    "pagamentos_primarios": 63534787502.91,
+    "pagamentos_financeiros": 13236101.62,
+    "dotacao_inicial": 68086975459,
+    "dotacao_atualizada": 68478643861,
+    "despesas_empenhadas": 68231969995.23,
+    "despesas_liquidadas": 55496062396.12
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "26298"
+    ],
+    "nota": "As cotas do salário-educação que o FNDE entrega a estados e municípios são pagas pela unidade 73107 (recursos sob supervisão do MEC) e não entram aqui. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

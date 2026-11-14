@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-justica-do-trabalho",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Justiça do Trabalho",
+  "resumo": "Pagou R$ 27,1 bilhões em 2024; dotação atualizada de R$ 27,6 bilhões.",
+  "de": "org:justica-do-trabalho",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 27067256944.93,
+    "despesas_pagas": 26608687696.88,
+    "restos_a_pagar_pagos": 458569248.05,
+    "pagamentos_primarios": 24927917212.98,
+    "pagamentos_financeiros": 2139339731.95,
+    "dotacao_inicial": 25813588100,
+    "dotacao_atualizada": 27619110264,
+    "despesas_empenhadas": 27454696939.24,
+    "despesas_liquidadas": 26985471390.77
+  },
+  "recorte": {
+    "poderes": [
+      "JT"
+    ],
+    "nota": "Inclui o TST, os 24 TRTs e o CSJT (unidade 15126, que em 2025 só teve dotação de reserva). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

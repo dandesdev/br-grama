@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-policia-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Polícia Federal",
+  "resumo": "Pagou R$ 9,0 bilhões em 2023; dotação atualizada de R$ 9,3 bilhões.",
+  "de": "org:policia-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 9030958675.48,
+    "despesas_pagas": 8316798366.63,
+    "restos_a_pagar_pagos": 714160308.85,
+    "pagamentos_primarios": 8193471454.23,
+    "pagamentos_financeiros": 837487221.25,
+    "dotacao_inicial": 8670771002,
+    "dotacao_atualizada": 9266166735,
+    "despesas_empenhadas": 9232327591.88,
+    "despesas_liquidadas": 8829632518.34
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "30108"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

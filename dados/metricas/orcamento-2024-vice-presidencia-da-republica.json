@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-vice-presidencia-da-republica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Vice-Presidência da República",
+  "resumo": "Pagou R$ 12,5 milhões em 2024; dotação atualizada de R$ 14,3 milhões.",
+  "de": "org:vice-presidencia-da-republica",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 12480882.3,
+    "despesas_pagas": 11537855.56,
+    "restos_a_pagar_pagos": 943026.74,
+    "pagamentos_primarios": 12480882.3,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 15044516,
+    "dotacao_atualizada": 14256796,
+    "despesas_empenhadas": 12529139.55,
+    "despesas_liquidadas": 12060381.58
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "60101"
+    ],
+    "nota": "Gabinete da Vice-Presidência, unidade do órgão orçamentário da Presidência. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

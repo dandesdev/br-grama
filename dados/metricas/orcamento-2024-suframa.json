@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2024-suframa",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Superintendência da Zona Franca de Manaus",
+  "resumo": "Pagou R$ 196,7 milhões em 2024; dotação atualizada de R$ 204,1 milhões.",
+  "de": "org:suframa",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 196736797.89,
+    "despesas_pagas": 180944170.94,
+    "restos_a_pagar_pagos": 15792626.95,
+    "pagamentos_primarios": 182251984.51,
+    "pagamentos_financeiros": 14484813.38,
+    "dotacao_inicial": 203366853,
+    "dotacao_atualizada": 204105269,
+    "despesas_empenhadas": 202203786.1,
+    "despesas_liquidadas": 192356469.96
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "28233",
+      "25298"
+    ],
+    "nota": "A unidade 25298 é o código antigo da Suframa, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

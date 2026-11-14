@@ -51,7 +51,7 @@ Classes conforme a D49, a D53 e a regra 8 das instruções (artigo citado em `fo
 | art. 14 | coberto | rel:uniao-repassa-recursos-consorcios-publicos |
 | art. 15 | coberto | org:consorcios-publicos; proc:criacao-de-consorcio-publico (etapa estatutos) |
 | arts. 16 a 18 | fora | alteram o Código Civil, a Lei 8.666/1993 e a Lei 8.429/1992 |
-| art. 19 | fora | regra de transição esgotada (instrumentos anteriores à lei) |
+| art. 19 | fora | regra de aplicação no tempo: a lei não se aplica aos convênios de cooperação, contratos de programa e instrumentos congêneres celebrados antes da sua vigência (não cria órgão, cargo nem etapa) |
 | art. 20 | coberto | org:consorcios-publicos (regulamento do Executivo da União, estrutura_continua) |
 | art. 21 | coberto | norma:lei-11107-2005 (vigência) |
 

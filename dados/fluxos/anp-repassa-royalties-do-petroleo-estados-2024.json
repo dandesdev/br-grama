@@ -1,0 +1,49 @@
+{
+  "id": "fluxo:anp-repassa-royalties-do-petroleo-estados-2024",
+  "tipo": "fluxo",
+  "nome": "Royalties do petróleo e gás entregues aos estados: valores de 2024",
+  "resumo": "Pagamentos de R$ 31,4 bilhões em 2024.",
+  "repasse": "rel:anp-repassa-royalties-do-petroleo-estados",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 31413674412.29,
+    "despesas_pagas": 28737482470.02,
+    "restos_a_pagar_pagos": 2676191942.27,
+    "pagamentos_primarios": 31413674412.29,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 37977298314.28,
+    "dotacao_atualizada": 39000538798.28,
+    "despesas_empenhadas": 31793736092.29,
+    "despesas_liquidadas": 28737482470.02
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73116"
+    ],
+    "acoes": [
+      "0A53"
+    ],
+    "modalidades": [
+      "30"
+    ],
+    "nota": "Royalties e participação especial (ação 0A53, unidade 73116, recursos sob supervisão da ANP). A ação não separa as parcelas por critério de distribuição. Ações somadas: 0A53 (TRANSFERENCIAS DAS PARTICIPACOES PELA PRODUCAO DE PETROLEO E)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

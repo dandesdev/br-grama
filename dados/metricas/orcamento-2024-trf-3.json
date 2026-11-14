@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-trf-3",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Federal da 3ª Região",
+  "resumo": "Pagou R$ 968,6 milhões em 2024; dotação atualizada de R$ 987,1 milhões.",
+  "de": "org:trf-3",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 968648125.69,
+    "despesas_pagas": 939545078.78,
+    "restos_a_pagar_pagos": 29103046.91,
+    "pagamentos_primarios": 877900566.85,
+    "pagamentos_financeiros": 90747558.84,
+    "dotacao_inicial": 862835104,
+    "dotacao_atualizada": 987148840,
+    "despesas_empenhadas": 974836566.24,
+    "despesas_liquidadas": 952876297.66
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "12104"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

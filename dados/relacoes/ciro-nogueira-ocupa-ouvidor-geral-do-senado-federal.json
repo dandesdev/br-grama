@@ -1,0 +1,33 @@
+{
+  "id": "rel:ciro-nogueira-ocupa-ouvidor-geral-do-senado-federal",
+  "tipo": "relacao",
+  "nome": "Ciro Nogueira é Ouvidor-Geral do Senado",
+  "relacao": "ocupa",
+  "de": "pessoa:ciro-nogueira",
+  "para": "cargo:ouvidor-geral-do-senado-federal",
+  "condicao": "Escolhido pelo Presidente do Senado para o biênio 2025-2026, segundo as páginas da Ouvidoria; a API de cargos do Senado não registra a designação.",
+  "vigencia": {
+    "de": "2025-04-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da notícia da Ouvidoria que anuncia a escolha; o ato de designação não foi achado. Em exercício em 2026-10-01: a página inicial da Ouvidoria no Wayback de 5/10/2026 e a página 'Conheça o Ouvidor' de 14/11/2026 o mostram como Ouvidor-Geral do biênio 2025-2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:senado-noticia-ciro-nogueira-ouvidor-geral-2025",
+      "dispositivo": "'O senador Ciro Nogueira (PP-PI), foi nomeado novo Ouvidor-Geral do Senado pelo presidente Davi Alcolumbre' (24/4/2025); 'Escolhido ... para o biênio 2025-2026' (Conheça o Ouvidor)"
+    },
+    {
+      "ref": "norma:senado-ato-da-mesa-1-2011",
+      "dispositivo": "art. 2º"
+    }
+  ],
+  "confianca": "oficial-contraditorio",
+  "notas": "A API de cargos do Senado e a página de composição da OUVIDSF (14/11/2026) mantêm Plínio Valério como Ouvidor-Geral desde 2023-02-13, sem fim; ver aviso:ouvidor-geral-do-senado-fontes-divergentes. Seguimos as páginas da Ouvidoria porque são específicas, datadas e batem com o Ato da Mesa nº 1/2011, art. 2º (designação no início da 3ª sessão legislativa, proibida a recondução).",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-14",
+    "tarefa": "verificacao-f2-fechamento",
+    "notas": "criada na revisão do fechamento para corrigir o ocupante do cargo em 2026-10-01"
+  }
+}

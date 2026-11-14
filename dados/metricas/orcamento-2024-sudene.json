@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-sudene",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Superintendência do Desenvolvimento do Nordeste",
+  "resumo": "Pagou R$ 75,0 milhões em 2024; dotação atualizada de R$ 62,4 milhões.",
+  "de": "org:sudene",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 74967222.37,
+    "despesas_pagas": 52586827.25,
+    "restos_a_pagar_pagos": 22380395.12,
+    "pagamentos_primarios": 71160439.73,
+    "pagamentos_financeiros": 3806782.64,
+    "dotacao_inicial": 74381225,
+    "dotacao_atualizada": 62429003,
+    "despesas_empenhadas": 61145928.85,
+    "despesas_liquidadas": 57067219.71
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "53203"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

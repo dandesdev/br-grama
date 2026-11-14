@@ -1,0 +1,109 @@
+{
+  "id": "met:orcamento-2023-poder-executivo-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Poder Executivo federal",
+  "resumo": "Pagou R$ 1,9 trilhão em 2023; dotação atualizada de R$ 1,9 trilhão.",
+  "de": "org:poder-executivo-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1887393948085.6,
+    "despesas_pagas": 1753250891663.71,
+    "restos_a_pagar_pagos": 134143056421.89,
+    "pagamentos_primarios": 1860029833938.41,
+    "pagamentos_financeiros": 27364114147.19,
+    "dotacao_inicial": 1860543047584.58,
+    "dotacao_atualizada": 1927853175149.58,
+    "despesas_empenhadas": 1921010371334.6,
+    "despesas_liquidadas": 1833418783049.94
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 2557951860087.53,
+      "despesas_pagas": 2511577060884.17,
+      "restos_a_pagar_pagos": 46374799203.36,
+      "pagamentos_primarios": 622751128026.73,
+      "pagamentos_financeiros": 1937388425657.86,
+      "dotacao_inicial": 3162866917963.54,
+      "dotacao_atualizada": 3268916098822.54,
+      "despesas_empenhadas": 2567574759833.83,
+      "despesas_liquidadas": 2513026609355.69
+    },
+    "unidades_orcamentarias": [
+      "71101",
+      "71102",
+      "71103",
+      "71104",
+      "71119",
+      "71903",
+      "71904",
+      "71905",
+      "73101",
+      "73107",
+      "73108",
+      "73111",
+      "73113",
+      "73115",
+      "73116",
+      "73117",
+      "73118",
+      "73119",
+      "73120",
+      "73901",
+      "74101",
+      "74102",
+      "74104",
+      "74119",
+      "74201",
+      "74202",
+      "74203",
+      "74204",
+      "74205",
+      "74901",
+      "74902",
+      "74904",
+      "74905",
+      "74906",
+      "74908",
+      "74910",
+      "74912",
+      "74913",
+      "74914",
+      "74915",
+      "74916",
+      "74917",
+      "74918",
+      "74919",
+      "74920",
+      "75101"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "poderes": [
+      "EXE"
+    ],
+    "modalidades_excluidas": [
+      "91"
+    ],
+    "nota": "Sem as aplicações intraorçamentárias (modalidade 91), pagas de um órgão federal a outro, que seriam contadas duas vezes. Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). Ajustes \"Extra-SIAFI\" sem unidade orçamentária (R$ -35,1 bilhões no saldo) ficam de fora. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

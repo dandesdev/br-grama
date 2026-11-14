@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-ibama",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+  "resumo": "Pagou R$ 1,7 bilhão em 2023; dotação atualizada de R$ 1,8 bilhão.",
+  "de": "org:ibama",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1673540350.83,
+    "despesas_pagas": 1517328799.56,
+    "restos_a_pagar_pagos": 156211551.27,
+    "pagamentos_primarios": 1582438742.01,
+    "pagamentos_financeiros": 91101608.82,
+    "dotacao_inicial": 1791058463,
+    "dotacao_atualizada": 1789886260,
+    "despesas_empenhadas": 1760305232.04,
+    "despesas_liquidadas": 1608844455.84
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "44201"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

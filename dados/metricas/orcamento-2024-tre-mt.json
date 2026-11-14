@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-mt",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral de Mato Grosso",
+  "resumo": "Pagou R$ 174,6 milhões em 2024; dotação atualizada de R$ 173,0 milhões.",
+  "de": "org:tre-mt",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 174617636.58,
+    "despesas_pagas": 162077450.73,
+    "restos_a_pagar_pagos": 12540185.85,
+    "pagamentos_primarios": 160324493.14,
+    "pagamentos_financeiros": 14293143.44,
+    "dotacao_inicial": 161382260,
+    "dotacao_atualizada": 173005675,
+    "despesas_empenhadas": 171478568.95,
+    "despesas_liquidadas": 164531718.62
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14111"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

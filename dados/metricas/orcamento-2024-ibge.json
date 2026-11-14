@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2024-ibge",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Fundação Instituto Brasileiro de Geografia e Estatística",
+  "resumo": "Pagou R$ 2,8 bilhões em 2024; dotação atualizada de R$ 2,8 bilhões.",
+  "de": "org:ibge",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2767341132.33,
+    "despesas_pagas": 2508327218.03,
+    "restos_a_pagar_pagos": 259013914.3,
+    "pagamentos_primarios": 2635292974.13,
+    "pagamentos_financeiros": 132048158.2,
+    "dotacao_inicial": 2617962922,
+    "dotacao_atualizada": 2757289038,
+    "despesas_empenhadas": 2725007039.97,
+    "despesas_liquidadas": 2680907602.85
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "47205",
+      "25301"
+    ],
+    "nota": "A unidade 25301 é o código antigo do IBGE, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

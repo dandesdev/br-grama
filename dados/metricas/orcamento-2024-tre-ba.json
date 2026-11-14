@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-ba",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral da Bahia",
+  "resumo": "Pagou R$ 490,7 milhões em 2024; dotação atualizada de R$ 486,2 milhões.",
+  "de": "org:tre-ba",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 490739867.03,
+    "despesas_pagas": 457681213.16,
+    "restos_a_pagar_pagos": 33058653.87,
+    "pagamentos_primarios": 444067963.98,
+    "pagamentos_financeiros": 46671903.05,
+    "dotacao_inicial": 437273176,
+    "dotacao_atualizada": 486188762,
+    "despesas_empenhadas": 482442022.93,
+    "despesas_liquidadas": 464881090.89
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14105"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2024-ministerio-do-desenvolvimento-e-assistencia-social",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+  "resumo": "Pagou R$ 289,8 bilhões em 2024; dotação atualizada de R$ 290,4 bilhões.",
+  "de": "org:ministerio-do-desenvolvimento-e-assistencia-social",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 289808206326.38,
+    "despesas_pagas": 283294527502.82,
+    "restos_a_pagar_pagos": 6513678823.56,
+    "pagamentos_primarios": 289803506480.93,
+    "pagamentos_financeiros": 4699845.46,
+    "dotacao_inicial": 281871949589,
+    "dotacao_atualizada": 290409084753,
+    "despesas_empenhadas": 290179163005.91,
+    "despesas_liquidadas": 288272667543.89
+  },
+  "recorte": {
+    "orgao_orcamentario": "55000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 55101, 55901. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

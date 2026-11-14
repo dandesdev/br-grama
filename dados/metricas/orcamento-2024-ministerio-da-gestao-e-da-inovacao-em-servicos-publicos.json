@@ -1,0 +1,59 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Gestão e da Inovação em Serviços Públicos",
+  "resumo": "Pagou R$ 6,4 bilhões em 2024; dotação atualizada de R$ 6,7 bilhões.",
+  "de": "org:ministerio-da-gestao-e-da-inovacao-em-servicos-publicos",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6443382140.53,
+    "despesas_pagas": 5509560399.93,
+    "restos_a_pagar_pagos": 933821740.6,
+    "pagamentos_primarios": 6277225926.06,
+    "pagamentos_financeiros": 166156214.46,
+    "dotacao_inicial": 6159319159,
+    "dotacao_atualizada": 6650145566,
+    "despesas_empenhadas": 6392263612.34,
+    "despesas_liquidadas": 5882952642.91
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 7086955507.95,
+      "despesas_pagas": 6471619059.97,
+      "restos_a_pagar_pagos": 615336447.98,
+      "pagamentos_primarios": 6784533951.89,
+      "pagamentos_financeiros": 302421556.06,
+      "dotacao_inicial": 7280139311,
+      "dotacao_atualizada": 7385079678,
+      "despesas_empenhadas": 7210237877.37,
+      "despesas_liquidadas": 6971315601.37
+    },
+    "unidades_orcamentarias": [
+      "73113"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "46000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 25302, 30103, 46101, 46102, 46201. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

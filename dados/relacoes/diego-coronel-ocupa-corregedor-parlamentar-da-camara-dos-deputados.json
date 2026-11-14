@@ -1,0 +1,32 @@
+{
+  "id": "rel:diego-coronel-ocupa-corregedor-parlamentar-da-camara-dos-deputados",
+  "tipo": "relacao",
+  "nome": "Diego Coronel é Corregedor Parlamentar da Câmara dos Deputados",
+  "relacao": "ocupa",
+  "de": "pessoa:diego-coronel",
+  "para": "cargo:corregedor-parlamentar-da-camara-dos-deputados",
+  "condicao": "Titular em 2026-10-01, no período 2025/2027.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "A Câmara dá o período \"2025/2027\"; o ato de designação e o dia de início não foram conferidos. Em exercício em 2026-10-01: assina como Corregedor edital publicado em 28/9/2026, e a página da Câmara o mostra como atual em 14/11/2026."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:camara-galeria-dos-corregedores",
+      "dispositivo": "\"Dep. Diego Coronel (2025/2027) Atual Corregedor\""
+    },
+    {
+      "ref": "fonte:dou-in-gov-br",
+      "dispositivo": "Edital de Notificação do Corregedor Parlamentar da Câmara dos Deputados, Deputado Federal Diego Coronel, processo nº 1.366.275/2026 (DOU 28/9/2026, Seção 3, Extra A, p. 1)",
+      "nota": "https://www.in.gov.br/web/dou/-/edital-de-notificacao-735038614"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "f2-fechamento-final",
+    "notas": "criada na rodada final do fechamento da fase 2 (ocupantes da cúpula das Casas): página oficial da Câmara e edital do DOU de 28/9/2026 (D11, D14); a API da Câmara não tem órgão da Corregedoria"
+  }
+}

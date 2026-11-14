@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-anac",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Aviação Civil",
+  "resumo": "Pagou R$ 552,7 milhões em 2024; dotação atualizada de R$ 566,2 milhões.",
+  "de": "org:anac",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 552725075.57,
+    "despesas_pagas": 494337857.59,
+    "restos_a_pagar_pagos": 58387217.98,
+    "pagamentos_primarios": 500932066.78,
+    "pagamentos_financeiros": 51793008.79,
+    "dotacao_inicial": 564359436,
+    "dotacao_atualizada": 566183186,
+    "despesas_empenhadas": 562321214.47,
+    "despesas_liquidadas": 541280962.46
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "68213"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-ibama",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+  "resumo": "Pagou R$ 1,9 bilhão em 2024; dotação atualizada de R$ 2,1 bilhões.",
+  "de": "org:ibama",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1872786813.84,
+    "despesas_pagas": 1706821849.56,
+    "restos_a_pagar_pagos": 165964964.28,
+    "pagamentos_primarios": 1778940783.44,
+    "pagamentos_financeiros": 93846030.4,
+    "dotacao_inicial": 1847974166,
+    "dotacao_atualizada": 2140100851,
+    "despesas_empenhadas": 2039404370.9,
+    "despesas_liquidadas": 1818001613.13
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "44201"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

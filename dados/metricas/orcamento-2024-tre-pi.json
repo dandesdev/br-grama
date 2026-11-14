@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tre-pi",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional Eleitoral do Piauí",
+  "resumo": "Pagou R$ 222,9 milhões em 2024; dotação atualizada de R$ 221,4 milhões.",
+  "de": "org:tre-pi",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 222867929.42,
+    "despesas_pagas": 208122712.03,
+    "restos_a_pagar_pagos": 14745217.39,
+    "pagamentos_primarios": 202555059.1,
+    "pagamentos_financeiros": 20312870.32,
+    "dotacao_inicial": 203997780,
+    "dotacao_atualizada": 221391951,
+    "despesas_empenhadas": 214803449.05,
+    "despesas_liquidadas": 210873108.83
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14118"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-mpt",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério Público do Trabalho",
+  "resumo": "Pagou R$ 2,3 bilhões em 2024; dotação atualizada de R$ 2,4 bilhões.",
+  "de": "org:mpt",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2349712019.26,
+    "despesas_pagas": 2337531817.25,
+    "restos_a_pagar_pagos": 12180202.01,
+    "pagamentos_primarios": 2161915885.7,
+    "pagamentos_financeiros": 187796133.56,
+    "dotacao_inicial": 2270845127,
+    "dotacao_atualizada": 2381718144,
+    "despesas_empenhadas": 2350040913.5,
+    "despesas_liquidadas": 2340496482.49
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34104"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

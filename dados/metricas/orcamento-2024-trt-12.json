@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-trt-12",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Regional do Trabalho da 12ª Região",
+  "resumo": "Pagou R$ 1,0 bilhão em 2024; dotação atualizada de R$ 1,1 bilhão.",
+  "de": "org:trt-12",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1032687777.18,
+    "despesas_pagas": 1003703598.55,
+    "restos_a_pagar_pagos": 28984178.63,
+    "pagamentos_primarios": 956589406.36,
+    "pagamentos_financeiros": 76098370.82,
+    "dotacao_inicial": 907165726,
+    "dotacao_atualizada": 1055728076,
+    "despesas_empenhadas": 1043032948.68,
+    "despesas_liquidadas": 1005959523.82
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15113"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

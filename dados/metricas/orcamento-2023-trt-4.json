@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-trt-4",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional do Trabalho da 4ª Região",
+  "resumo": "Pagou R$ 2,0 bilhão em 2023; dotação atualizada de R$ 2,0 bilhões.",
+  "de": "org:trt-4",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1971709831.92,
+    "despesas_pagas": 1956270781.07,
+    "restos_a_pagar_pagos": 15439050.85,
+    "pagamentos_primarios": 1807433997.76,
+    "pagamentos_financeiros": 164275834.16,
+    "dotacao_inicial": 1899003564,
+    "dotacao_atualizada": 2025425065,
+    "despesas_empenhadas": 1988026773.8,
+    "despesas_liquidadas": 1957478860.65
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15105"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

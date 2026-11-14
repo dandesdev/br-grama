@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-trt-20",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Tribunal Regional do Trabalho da 20ª Região",
+  "resumo": "Pagou R$ 227,6 milhões em 2023; dotação atualizada de R$ 232,9 milhões.",
+  "de": "org:trt-20",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 227563784.23,
+    "despesas_pagas": 227145301.89,
+    "restos_a_pagar_pagos": 418482.34,
+    "pagamentos_primarios": 204968847.06,
+    "pagamentos_financeiros": 22594937.17,
+    "dotacao_inicial": 223393955,
+    "dotacao_atualizada": 232940872,
+    "despesas_empenhadas": 228051575.28,
+    "despesas_liquidadas": 227151280.65
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "15121"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

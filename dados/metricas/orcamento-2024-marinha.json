@@ -1,0 +1,46 @@
+{
+  "id": "met:orcamento-2024-marinha",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Marinha",
+  "resumo": "Pagou R$ 32,6 bilhões em 2024; dotação atualizada de R$ 32,8 bilhões.",
+  "de": "org:marinha",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 32618441240.31,
+    "despesas_pagas": 29962405743.45,
+    "restos_a_pagar_pagos": 2656035496.86,
+    "pagamentos_primarios": 31853720944.69,
+    "pagamentos_financeiros": 764720295.62,
+    "dotacao_inicial": 33281456526,
+    "dotacao_atualizada": 32847154930,
+    "despesas_empenhadas": 32630698710.64,
+    "despesas_liquidadas": 31628988010.16
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "52131",
+      "52931",
+      "52932"
+    ],
+    "nota": "Comando da Marinha (52131), Fundo Naval (52931) e Fundo de Desenvolvimento do Ensino Profissional Marítimo (52932). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

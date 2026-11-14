@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-mpm",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério Público Militar",
+  "resumo": "Pagou R$ 356,4 milhões em 2024; dotação atualizada de R$ 362,4 milhões.",
+  "de": "org:mpm",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 356355382.13,
+    "despesas_pagas": 351852361.14,
+    "restos_a_pagar_pagos": 4503020.99,
+    "pagamentos_primarios": 324600321.27,
+    "pagamentos_financeiros": 31755060.86,
+    "dotacao_inicial": 337425761,
+    "dotacao_atualizada": 362378188,
+    "despesas_empenhadas": 356794122.39,
+    "despesas_liquidadas": 352579598.36
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34102"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

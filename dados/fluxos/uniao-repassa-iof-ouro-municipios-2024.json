@@ -1,0 +1,49 @@
+{
+  "id": "fluxo:uniao-repassa-iof-ouro-municipios-2024",
+  "tipo": "fluxo",
+  "nome": "A União entrega aos municípios 70% do IOF sobre o ouro: valores de 2024",
+  "resumo": "Pagamentos de R$ 8,6 milhões em 2024.",
+  "repasse": "rel:uniao-repassa-iof-ouro-municipios",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 8614568.72,
+    "despesas_pagas": 8475926.04,
+    "restos_a_pagar_pagos": 138642.68,
+    "pagamentos_primarios": 8614568.72,
+    "pagamentos_financeiros": 0,
+    "dotacao_inicial": 41432198.44,
+    "dotacao_atualizada": 41432198.44,
+    "despesas_empenhadas": 9324279.31,
+    "despesas_liquidadas": 8475926.04
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "73108"
+    ],
+    "acoes": [
+      "00H6"
+    ],
+    "modalidades": [
+      "40"
+    ],
+    "nota": "Ações somadas: 00H6 (TRANSFERENCIA DO IMPOSTO SOBRE OPERACOES FINANCEIRAS INCIDEN)."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

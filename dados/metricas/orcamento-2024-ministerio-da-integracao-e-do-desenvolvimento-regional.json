@@ -1,0 +1,64 @@
+{
+  "id": "met:orcamento-2024-ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Ministério da Integração e do Desenvolvimento Regional",
+  "resumo": "Pagou R$ 14,9 bilhões em 2024; dotação atualizada de R$ 13,7 bilhões.",
+  "de": "org:ministerio-da-integracao-e-do-desenvolvimento-regional",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 14904325105.06,
+    "despesas_pagas": 7420676721.11,
+    "restos_a_pagar_pagos": 7483648383.95,
+    "pagamentos_primarios": 14861762964.02,
+    "pagamentos_financeiros": 42562141.04,
+    "dotacao_inicial": 9495601333,
+    "dotacao_atualizada": 13740425376,
+    "despesas_empenhadas": 11991989356.1,
+    "despesas_liquidadas": 7743132472.99
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 28152176526.54,
+      "despesas_pagas": 25526062906.63,
+      "restos_a_pagar_pagos": 2626113619.91,
+      "pagamentos_primarios": 0,
+      "pagamentos_financeiros": 28152176526.54,
+      "dotacao_inicial": 28757664490,
+      "dotacao_atualizada": 31348602556,
+      "despesas_empenhadas": 30751183533.69,
+      "despesas_liquidadas": 25940062906.63
+    },
+    "unidades_orcamentarias": [
+      "74913",
+      "74914",
+      "74915",
+      "74917",
+      "74918",
+      "74919"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "53000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Unidades orçamentárias somadas: 44205, 53101, 53201, 53202, 53203, 53204, 53207, 53210. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

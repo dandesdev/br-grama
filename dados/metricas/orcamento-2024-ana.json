@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-ana",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Agência Nacional de Águas e Saneamento Básico",
+  "resumo": "Pagou R$ 396,7 milhões em 2024; dotação atualizada de R$ 463,8 milhões.",
+  "de": "org:ana",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 396734362.84,
+    "despesas_pagas": 396444353.41,
+    "restos_a_pagar_pagos": 290009.43,
+    "pagamentos_primarios": 381817801.7,
+    "pagamentos_financeiros": 14916561.14,
+    "dotacao_inicial": 507280815,
+    "dotacao_atualizada": 463840429,
+    "despesas_empenhadas": 447934575.87,
+    "despesas_liquidadas": 410542172.51
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "53210"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

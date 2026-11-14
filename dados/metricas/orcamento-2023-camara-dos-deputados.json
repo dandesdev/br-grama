@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-camara-dos-deputados",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Câmara dos Deputados",
+  "resumo": "Pagou R$ 6,3 bilhões em 2023; dotação atualizada de R$ 7,4 bilhões.",
+  "de": "org:camara-dos-deputados",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 6276072336.56,
+    "despesas_pagas": 6107154987.84,
+    "restos_a_pagar_pagos": 168917348.72,
+    "pagamentos_primarios": 6086943557.2,
+    "pagamentos_financeiros": 189128779.36,
+    "dotacao_inicial": 7387712472,
+    "dotacao_atualizada": 7398712472,
+    "despesas_empenhadas": 6459208686.76,
+    "despesas_liquidadas": 6234120907.18
+  },
+  "recorte": {
+    "poderes": [
+      "CD"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

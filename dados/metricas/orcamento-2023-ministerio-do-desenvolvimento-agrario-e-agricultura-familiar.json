@@ -1,0 +1,61 @@
+{
+  "id": "met:orcamento-2023-ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+  "resumo": "Pagou R$ 4,2 bilhões em 2023; dotação atualizada de R$ 4,4 bilhões.",
+  "de": "org:ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 4213404647.84,
+    "despesas_pagas": 3786429273.13,
+    "restos_a_pagar_pagos": 426975374.71,
+    "pagamentos_primarios": 4134084474.2,
+    "pagamentos_financeiros": 79320173.64,
+    "dotacao_inicial": 3297126543.01,
+    "dotacao_atualizada": 4366751111.01,
+    "despesas_empenhadas": 4330978798.33,
+    "despesas_liquidadas": 4002552525.87
+  },
+  "sob_supervisao": {
+    "valores": {
+      "pagamentos_totais": 588303095.84,
+      "despesas_pagas": 413136753.75,
+      "restos_a_pagar_pagos": 175166342.09,
+      "pagamentos_primarios": 35555799.17,
+      "pagamentos_financeiros": 552747296.67,
+      "dotacao_inicial": 444348307,
+      "dotacao_atualizada": 866661988,
+      "despesas_empenhadas": 866661987.81,
+      "despesas_liquidadas": 413619855.18
+    },
+    "unidades_orcamentarias": [
+      "74119",
+      "74203",
+      "74906"
+    ],
+    "nota": "Recursos sob supervisão deste órgão (D47): encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida."
+  },
+  "recorte": {
+    "orgao_orcamentario": "49000",
+    "nota": "Na lei orçamentária, os recursos sob supervisão (unidades 71xxx a 75xxx: encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e refinanciamento da dívida) são órgãos próprios; ficam fora do número principal e aparecem à parte (D47). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 20129, 20201, 22201, 22211, 49101, 49201, 49202. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

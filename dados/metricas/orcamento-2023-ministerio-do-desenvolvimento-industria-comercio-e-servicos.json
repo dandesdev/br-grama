@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+  "resumo": "Pagou R$ 1,5 bilhão em 2023; dotação atualizada de R$ 1,6 bilhão.",
+  "de": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 1496020470.65,
+    "despesas_pagas": 1408156023.21,
+    "restos_a_pagar_pagos": 87864447.44,
+    "pagamentos_primarios": 1410666262.05,
+    "pagamentos_financeiros": 85354208.6,
+    "dotacao_inicial": 1395592001,
+    "dotacao_atualizada": 1601138850,
+    "despesas_empenhadas": 1589778169.99,
+    "despesas_liquidadas": 1484457682.17
+  },
+  "recorte": {
+    "orgao_orcamentario": "28000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 25296, 25297, 25298, 25916, 28101, 28202, 28203, 28233, 28904. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tcu",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal de Contas da União",
+  "resumo": "Pagou R$ 2,5 bilhões em 2024; dotação atualizada de R$ 2,8 bilhões.",
+  "de": "org:tcu",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2511304673.79,
+    "despesas_pagas": 2470508458.42,
+    "restos_a_pagar_pagos": 40796215.37,
+    "pagamentos_primarios": 2384659240.05,
+    "pagamentos_financeiros": 126645433.74,
+    "dotacao_inicial": 2772283046,
+    "dotacao_atualizada": 2823344568,
+    "despesas_empenhadas": 2617595253.02,
+    "despesas_liquidadas": 2501024970.33
+  },
+  "recorte": {
+    "poderes": [
+      "TCU"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

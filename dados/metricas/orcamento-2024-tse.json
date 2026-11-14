@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-tse",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Tribunal Superior Eleitoral",
+  "resumo": "Pagou R$ 2,6 bilhões em 2024; dotação atualizada de R$ 2,6 bilhões.",
+  "de": "org:tse",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 2581527634.66,
+    "despesas_pagas": 1727299964.91,
+    "restos_a_pagar_pagos": 854227669.75,
+    "pagamentos_primarios": 2543519094.68,
+    "pagamentos_financeiros": 38008539.98,
+    "dotacao_inicial": 2773909555,
+    "dotacao_atualizada": 2572995702,
+    "despesas_empenhadas": 1966634504.94,
+    "despesas_liquidadas": 1753272980.6
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "14101"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

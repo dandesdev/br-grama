@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2024-receita-federal",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Secretaria Especial da Receita Federal do Brasil",
+  "resumo": "Pagou R$ 17,6 bilhões em 2024; dotação atualizada de R$ 17,8 bilhões.",
+  "de": "org:receita-federal",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 17646351749.56,
+    "despesas_pagas": 15840416495.41,
+    "restos_a_pagar_pagos": 1805935254.15,
+    "pagamentos_primarios": 16870517497.55,
+    "pagamentos_financeiros": 775834252.01,
+    "dotacao_inicial": 17938665832,
+    "dotacao_atualizada": 17837598719,
+    "despesas_empenhadas": 17576550640.06,
+    "despesas_liquidadas": 17280418076.69
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "25103"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

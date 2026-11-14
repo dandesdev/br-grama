@@ -1,0 +1,42 @@
+{
+  "id": "met:orcamento-2023-ministerio-do-trabalho-e-emprego",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério do Trabalho e Emprego",
+  "resumo": "Pagou R$ 103,1 bilhões em 2023; dotação atualizada de R$ 102,2 bilhões.",
+  "de": "org:ministerio-do-trabalho-e-emprego",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 103051590755.05,
+    "despesas_pagas": 98969978705.64,
+    "restos_a_pagar_pagos": 4081612049.41,
+    "pagamentos_primarios": 79375294708.2,
+    "pagamentos_financeiros": 23676296046.85,
+    "dotacao_inicial": 99872531087,
+    "dotacao_atualizada": 102244447791,
+    "despesas_empenhadas": 102160450032.95,
+    "despesas_liquidadas": 99421458915.51
+  },
+  "recorte": {
+    "orgao_orcamentario": "40000",
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes. Unidades orçamentárias somadas: 25299, 25915, 40101, 40203, 40901. Comparar um órgão entre exercícios pode mostrar mudança de estrutura (unidades que passaram de um órgão orçamentário a outro), e não só de gasto; as unidades somadas estão listadas acima."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

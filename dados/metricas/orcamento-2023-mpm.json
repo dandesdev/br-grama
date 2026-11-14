@@ -1,0 +1,44 @@
+{
+  "id": "met:orcamento-2023-mpm",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Ministério Público Militar",
+  "resumo": "Pagou R$ 349,8 milhões em 2023; dotação atualizada de R$ 353,3 milhões.",
+  "de": "org:mpm",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 349792927.7,
+    "despesas_pagas": 347666049.65,
+    "restos_a_pagar_pagos": 2126878.05,
+    "pagamentos_primarios": 321029124.1,
+    "pagamentos_financeiros": 28763803.6,
+    "dotacao_inicial": 312078758,
+    "dotacao_atualizada": 353304244,
+    "despesas_empenhadas": 353106746.8,
+    "despesas_liquidadas": 348299925.92
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "34102"
+    ],
+    "nota": "A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

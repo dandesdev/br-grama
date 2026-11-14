@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2024-funai",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2024: Fundação Nacional dos Povos Indígenas",
+  "resumo": "Pagou R$ 854,6 milhões em 2024; dotação atualizada de R$ 1,1 bilhão.",
+  "de": "org:funai",
+  "medida": "orcamento-executado",
+  "exercicio": 2024,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 854573302.87,
+    "despesas_pagas": 728445070.4,
+    "restos_a_pagar_pagos": 126128232.47,
+    "pagamentos_primarios": 823548233.93,
+    "pagamentos_financeiros": 31025068.94,
+    "dotacao_inicial": 735516315,
+    "dotacao_atualizada": 1085839595,
+    "despesas_empenhadas": 1082882368.62,
+    "despesas_liquidadas": 775604703.28
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "84201",
+      "30202"
+    ],
+    "nota": "A unidade 30202 é o código antigo da Funai, com restos a pagar. A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora."
+  },
+  "vigencia": {
+    "de": "2024-01-01",
+    "ate": "2024-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2024, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}

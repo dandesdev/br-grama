@@ -1,0 +1,45 @@
+{
+  "id": "met:orcamento-2023-aeronautica",
+  "tipo": "metrica",
+  "nome": "Orçamento executado em 2023: Aeronáutica",
+  "resumo": "Pagou R$ 30,0 bilhões em 2023; dotação atualizada de R$ 30,9 bilhões.",
+  "de": "org:aeronautica",
+  "medida": "orcamento-executado",
+  "exercicio": 2023,
+  "moeda": "BRL",
+  "valores": {
+    "pagamentos_totais": 30012907227.93,
+    "despesas_pagas": 26689561098.96,
+    "restos_a_pagar_pagos": 3323346128.97,
+    "pagamentos_primarios": 29097428224.07,
+    "pagamentos_financeiros": 915479003.86,
+    "dotacao_inicial": 30082357525,
+    "dotacao_atualizada": 30889057991,
+    "despesas_empenhadas": 30093238536.94,
+    "despesas_liquidadas": 28011995427.78
+  },
+  "recorte": {
+    "unidades_orcamentarias": [
+      "52111",
+      "52911"
+    ],
+    "nota": "Comando da Aeronáutica (52111) e Fundo Aeronáutico (52911). A reserva de contingência (ações 0Z* e unidade 90000), só com dotação, fica de fora. Em 2023 o Tesouro classificou parte das operações de crédito como \"Financeira primária\"; aqui elas contam como pagamentos financeiros, como nos anos seguintes."
+  },
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": "2023-12-31"
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tesouro-despesas-transferencias-uniao",
+      "dispositivo": "planilha de 2023, aba \"base\", coluna PAGAMENTOS_TOTAIS e vizinhas; recorte no campo \"recorte\""
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-14",
+    "tarefa": "importacao-tesouro-despesas",
+    "notas": "Gerado por scripts/importar/tesouro-despesas.ts a partir do resumo em pesquisa/brutos/tesouro-transparente/."
+  }
+}
