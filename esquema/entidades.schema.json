@@ -57,7 +57,8 @@
             "properties": {
               "quando": { "type": "string" },
               "provimento": { "type": "string" },
-              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" }
+              "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "confianca": { "$ref": "comum.schema.json#/$defs/confianca", "description": "Confiança só deste caso, quando difere da do cargo (D58)." }
             },
             "additionalProperties": false
           }
@@ -285,6 +286,21 @@
               "prazo": { "$ref": "comum.schema.json#/$defs/prazo" },
               "quorum": { "$ref": "comum.schema.json#/$defs/quorum" },
               "fontes": { "$ref": "comum.schema.json#/$defs/fontes" },
+              "datas": {
+                "type": "array",
+                "description": "Ocorrências da etapa em 2026 e 2027, calculadas da regra que o prazo cita (D55). Só quando a norma fixa a data ou uma regra que a determina.",
+                "items": {
+                  "type": "object",
+                  "required": ["de"],
+                  "properties": {
+                    "de": { "type": "string", "format": "date" },
+                    "ate": { "type": "string", "format": "date" },
+                    "nota": { "type": "string" },
+                    "fontes": { "$ref": "comum.schema.json#/$defs/fontes" }
+                  },
+                  "additionalProperties": false
+                }
+              },
               "remete_a": { "type": "string", "pattern": "^proc:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Processo cujo rito esta etapa segue (ex.: a votação da lei complementar segue proc:lei-ordinaria)." },
               "seguintes": {
                 "type": "array",

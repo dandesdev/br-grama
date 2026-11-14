@@ -76,6 +76,7 @@
       "properties": {
         "regra": { "type": "string", "description": "Termo do vocabulário 'quorum'." },
         "votacao": { "type": "string", "description": "Termo do vocabulário 'votacao'." },
+        "presenca": { "type": "string", "description": "Quórum de presença para a sessão deliberar, quando a norma o separa do quórum de votação (ex.: Lei 9.868/1999, art. 22). Termo do vocabulário 'quorum' (D58)." },
         "nota": { "type": "string" }
       },
       "additionalProperties": false

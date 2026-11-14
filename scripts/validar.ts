@@ -88,6 +88,14 @@ for (const arq of lerArquivos()) {
   if (ent.tipo === "cargo" && ent.provimento === "variavel" && !(ent.provimento_casos as unknown[])?.length) {
     erro(arq.caminho, `provimento "variavel" exige provimento_casos`);
   }
+  if (ent.tipo === "processo") {
+    for (const e of (ent.etapas as { id: string; datas?: { de: string; ate?: string }[] }[]) ?? []) {
+      for (const d of e.datas ?? []) {
+        if (d.de < "2026-01-01" || d.de > "2027-12-31") erro(arq.caminho, `etapa ${e.id}: data ${d.de} fora de 2026 e 2027 (D55)`);
+        if (d.ate && d.ate < d.de) erro(arq.caminho, `etapa ${e.id}: data final ${d.ate} antes da inicial ${d.de}`);
+      }
+    }
+  }
   if (ent.tipo === "relacao" && ent.interino !== undefined && ent.relacao !== "ocupa") {
     erro(arq.caminho, `o campo interino só vale na relação "ocupa" (D40)`);
   }

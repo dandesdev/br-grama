@@ -52,7 +52,7 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 **Cargo.**
 - `vagas`: número de cadeiras (null se variável, com `vagas_nota`).
 - `vacancias`: cadeiras vagas num período, com fonte (ex.: a vaga no STF desde out/2025).
-- `provimento`: termo do vocabulário. Se depender de uma condição, use `"variavel"` e liste `provimento_casos: [{ quando, provimento, fontes }]`.
+- `provimento`: termo do vocabulário. Se depender de uma condição, use `"variavel"` e liste `provimento_casos: [{ quando, provimento, fontes, confianca? }]` (`confianca` só quando o caso difere do cargo, D58).
 - `provimento_nota`: o passo a passo da escolha.
 - `mandato`: `{ anos, vitalicio, limite, inicio, reconducao, nota }`.
 - `requisitos`: `[{ texto, fontes }]`; `fontes: []` remete às fontes do cargo.
@@ -68,7 +68,8 @@ Histórico: o v0 foi testado no piloto (out/2026). O v1 incorpora os problemas a
 - `restrita_a`: entes onde a relação vale, quando liga órgãos de arquétipo.
 
 **Processo.** `forma`, `produz` (objeto), `etapas` e `regimes`.
-- **Etapa:** `id`, `tipo_etapa` (`acao` por padrão, `decisao`, `decurso-de-prazo`, `fim`), `atores` (pode ser vazio só em decurso de prazo e fim; cada ator é um id ou, para cargo agregado, `{ ator, orgao_exercicio }`, D42), `acao` (até 120 caracteres), `detalhes`, `prazo`, `quorum`, `fontes`, `remete_a` (opcional: id do processo cujo rito a etapa segue, ex.: a votação da lei complementar segue `proc:lei-ordinaria`), `seguintes: [{ para, quando }]`.
+- **Etapa:** `id`, `tipo_etapa` (`acao` por padrão, `decisao`, `decurso-de-prazo`, `fim`), `atores` (pode ser vazio só em decurso de prazo e fim; cada ator é um id ou, para cargo agregado, `{ ator, orgao_exercicio }`, D42), `acao` (até 120 caracteres), `detalhes`, `prazo`, `quorum`, `fontes`, `remete_a` (opcional: id do processo cujo rito a etapa segue, ex.: a votação da lei complementar segue `proc:lei-ordinaria`), `datas` (opcional, D55: ocorrências da etapa em 2026 e 2027, `[{ de, ate?, nota?, fontes? }]`, só quando a norma fixa a data ou uma regra que a determina), `seguintes: [{ para, quando }]`.
+- **Quórum:** `{ regra, votacao?, presenca?, nota? }`; `presenca` é o quórum para a sessão deliberar, quando a norma o separa do de votação (D58).
 - **Prazo:** `{ texto, valor?, unidade?, conta_de?, efeito? }`. `texto` sempre presente; os demais quando a norma permitir estruturar.
 - **Regime:** variante que muda várias etapas, como a urgência constitucional: `{ id, nome, resumo, detalhes?, quem_aciona, fontes, efeitos: [{ etapa, prazo?, nota? }] }`.
 
