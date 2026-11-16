@@ -1,0 +1,28 @@
+{
+  "id": "rel:ministro-de-estado-nomeia-presidente-do-carf",
+  "tipo": "relacao",
+  "nome": "O Ministro da Fazenda nomeia o presidente do Carf",
+  "relacao": "nomeia",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:carf",
+  "condicao": "Nomeia o presidente do Carf entre os representantes da Fazenda Nacional; também instala o conselho e distribui a competência de julgamento por matéria.",
+  "orgao_exercicio": "org:ministerio-da-fazenda",
+  "fontes": [
+    {
+      "ref": "norma:lei-11941-2009",
+      "dispositivo": "art. 49, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2009-05-28",
+    "ate": null,
+    "nota": "Vigência da Lei 11.941/2009 na publicação (art. 80); o § 1º do art. 49 está na redação original, sem marca de alteração no texto do Planalto."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "Relação sugerida no diário de verificacao-f4-colegiados e registrada pelo coordenador; Lei 11.941/2009, art. 49, § 1º ('Compete ao Ministro de Estado da Fazenda instalar o Conselho Administrativo de Recursos Fiscais, nomear seu presidente, entre os representantes da Fazenda Nacional...'), lido na cópia de pesquisa/brutos/planalto-leis/2026-11-15-f4-colegiados/l11941.htm, a mesma que a revisão citou."
+  }
+}

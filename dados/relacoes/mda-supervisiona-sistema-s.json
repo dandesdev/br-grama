@@ -1,0 +1,38 @@
+{
+  "id": "rel:mda-supervisiona-sistema-s",
+  "tipo": "relacao",
+  "nome": "O Ministério do Desenvolvimento Agrário e Agricultura Familiar supervisiona a Anater",
+  "relacao": "supervisiona",
+  "de": "org:ministerio-do-desenvolvimento-agrario-e-agricultura-familiar",
+  "para": "org:sistema-s",
+  "condicao": "Só a Anater: a Secretaria de Agricultura Familiar e Agroecologia do ministério propõe a celebração e os termos do contrato de gestão e supervisiona a gestão da agência.",
+  "vigencia": {
+    "de": "2023-06-13",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data de assinatura do Decreto 11.560/2023, que incluiu os incisos XVI e XVII no art. 19 do Anexo I do Decreto 11.396/2023 (lista de decretos do Senado); a cláusula de vigência do Decreto 11.560 não foi lida."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-11396-2023",
+      "dispositivo": "Anexo I, art. 19, XVI e XVII; art. 22, IV a VI",
+      "nota": "incisos incluídos pelo Decreto 11.560/2023; sem alteração marcada pelo Decreto 12.971/2026 no texto do Planalto"
+    },
+    {
+      "ref": "norma:lei-12897-2013",
+      "dispositivo": "art. 10",
+      "nota": "a lei fala em supervisão pelo Poder Executivo federal, sem nomear o ministério"
+    },
+    {
+      "ref": "fonte:senado-api-lista-decretos-2023-2026",
+      "nota": "Decreto 11.560, de 13/6/2023, que altera o Decreto 11.396/2023"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "Relação sugerida no diário de verificacao-f4-fronteira, cuja revisão já tinha conferido o Decreto 11.396/2023 (Anexo I, art. 19, XVI e XVII, e art. 22, IV a VI) na cópia de pesquisa/brutos/planalto-leis/2026-10-23-administracao-indireta/d11396.htm, e registrada pelo coordenador no padrão das relações de MDIC, Saúde e Turismo. O coordenador releu os incisos na mesma cópia e tirou a data do Decreto 11.560/2023 da lista do Senado (pesquisa/brutos/senado-dados-abertos/2026-10-17/legislacao-lista-DEC-2023.json)."
+  }
+}
