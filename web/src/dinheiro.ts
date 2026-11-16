@@ -2,19 +2,27 @@
 // repassou a estados, municípios e outros pelas relações repassa-recursos (D24 c). Barras em HTML,
 // uma série por bloco, com o valor escrito ao lado de cada barra e o detalhe no título (hover).
 import { Dados, normalizar, reais, type Entidade, type ValoresOrcamento } from "./dados.ts";
+import { t } from "./i18n.ts";
 
 const esc = (s: unknown) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 const PODERES = [
-  { id: "org:poder-executivo-federal", nome: "Executivo" },
-  { id: "org:poder-judiciario", nome: "Judiciário" },
-  { id: "org:poder-legislativo-federal", nome: "Legislativo" },
-  { id: "org:ministerio-publico-da-uniao", nome: "Ministério Público da União" },
-  { id: "org:dpu", nome: "Defensoria Pública da União" },
-  { id: "org:cnmp", nome: "Conselho Nacional do Ministério Público" },
+  { id: "org:poder-executivo-federal", nome: t("Executivo") },
+  { id: "org:poder-judiciario", nome: t("Judiciário") },
+  { id: "org:poder-legislativo-federal", nome: t("Legislativo") },
+  { id: "org:ministerio-publico-da-uniao", nome: t("Ministério Público da União") },
+  { id: "org:dpu", nome: t("Defensoria Pública da União") },
+  { id: "org:cnmp", nome: t("Conselho Nacional do Ministério Público") },
 ];
 const AGREGADOS = new Set(["ente:uniao", ...PODERES.slice(0, 3).map((p) => p.id), "org:justica-federal", "org:justica-do-trabalho", "org:justica-eleitoral", "org:ministerio-publico-da-uniao"]);
+
+/** Destinos dos repasses, na ordem em que aparecem. */
+const DESTINOS: [string, string][] = [
+  ["estados", t("Estados e DF")],
+  ["municipios", t("Municípios")],
+  ["outros", t("Fundos, bancos e partidos")],
+];
 
 interface Barra { id: string; rotulo: string; valor: number; titulo: string; sub?: string; anterior?: number }
 
@@ -37,7 +45,7 @@ export class Dinheiro {
   }
 
   private barras(itens: Barra[], max = Math.max(...itens.map((i) => i.valor))): string {
-    if (!itens.length) return `<p class="intro">Nada a mostrar com esse filtro.</p>`;
+    if (!itens.length) return `<p class="intro">${t("Nada a mostrar com esse filtro.")}</p>`;
     return `<table class="barras"><tbody>${itens
       .map(
         (i) => `<tr title="${esc(i.titulo)}">
@@ -54,7 +62,7 @@ export class Dinheiro {
     if (!i.anterior || i.anterior <= 0) return "";
     const p = (100 * (i.valor - i.anterior)) / i.anterior;
     const txt = `${p >= 0 ? "+" : "−"}${Math.abs(p).toFixed(0)}%`;
-    return ` <span class="variacao" title="Sobre ${reais(i.anterior)} no ano anterior">${txt}</span>`;
+    return ` <span class="variacao" title="${t("Sobre {valor} no ano anterior", { valor: reais(i.anterior) })}">${txt}</span>`;
   }
 
   /** Pagamentos do exercício anterior ao da métrica, se houver. */
@@ -65,7 +73,7 @@ export class Dinheiro {
 
   private titulo(m: Entidade): string {
     const v = m.valores as ValoresOrcamento;
-    return [`Pago em ${m.exercicio}: ${reais(v.pagamentos_totais)}`, v.dotacao_atualizada !== undefined ? `Dotação atualizada: ${reais(v.dotacao_atualizada)}` : "", v.restos_a_pagar_pagos ? `Inclui ${reais(v.restos_a_pagar_pagos)} de restos a pagar de anos anteriores` : ""]
+    return [t("Pago em {ano}: {valor}", { ano: m.exercicio as number, valor: reais(v.pagamentos_totais) }), v.dotacao_atualizada !== undefined ? t("Dotação atualizada: {valor}", { valor: reais(v.dotacao_atualizada) }) : "", v.restos_a_pagar_pagos ? t("Inclui {valor} de restos a pagar de anos anteriores", { valor: reais(v.restos_a_pagar_pagos) }) : ""]
       .filter(Boolean)
       .join("\n");
   }
@@ -99,7 +107,7 @@ export class Dinheiro {
     const d = this.dados;
     const uniao = d.orcamentoDe("ente:uniao");
     if (!uniao) {
-      this.el.innerHTML = `<p class="intro">Ainda não há dados de orçamento.</p>`;
+      this.el.innerHTML = `<p class="intro">${t("Ainda não há dados de orçamento.")}</p>`;
       return;
     }
     const ano = uniao.exercicio as number;
@@ -117,7 +125,7 @@ export class Dinheiro {
       .map((m) => ({ m, s: (m.sob_supervisao as { valores: ValoresOrcamento }).valores }))
       .filter(({ s }) => s.pagamentos_totais > 1e8)
       .sort((a, b) => b.s.pagamentos_totais - a.s.pagamentos_totais)
-      .map(({ m, s }) => ({ id: m.de as string, rotulo: d.get(m.de as string)?.nome ?? (m.de as string), valor: s.pagamentos_totais, titulo: `Pagamentos em ${ano} dos recursos sob supervisão: ${reais(s.pagamentos_totais)}` }));
+      .map(({ m, s }) => ({ id: m.de as string, rotulo: d.get(m.de as string)?.nome ?? (m.de as string), valor: s.pagamentos_totais, titulo: t("Pagamentos em {ano} dos recursos sob supervisão: {valor}", { ano, valor: reais(s.pagamentos_totais) }) }));
 
     const fundos: Barra[] = d
       .todosOrcamentos()
@@ -127,7 +135,7 @@ export class Dinheiro {
 
     const destino = (r: Entidade | undefined) => {
       const para = (r?.para as string) ?? "";
-      return para === "ente:arquetipo-estadual" ? "Estados e DF" : para === "ente:arquetipo-municipal" ? "Municípios" : "Fundos, bancos e partidos";
+      return para === "ente:arquetipo-estadual" ? "estados" : para === "ente:arquetipo-municipal" ? "municipios" : "outros";
     };
     const grupos = new Map<string, Barra[]>();
     for (const f of d.todosFluxos()) {
@@ -135,61 +143,60 @@ export class Dinheiro {
       const g = destino(r);
       grupos.set(g, [
         ...(grupos.get(g) ?? []),
-        { id: f.repasse as string, rotulo: (r?.nome as string) ?? (f.repasse as string), valor: (f.valores as ValoresOrcamento).pagamentos_totais, titulo: `Pagamentos em ${ano}: ${reais((f.valores as ValoresOrcamento).pagamentos_totais)}`, anterior: this.anterior(f, d.serieFluxo(f.repasse as string)) },
+        { id: f.repasse as string, rotulo: (r?.nome as string) ?? (f.repasse as string), valor: (f.valores as ValoresOrcamento).pagamentos_totais, titulo: t("Pagamentos em {ano}: {valor}", { ano, valor: reais((f.valores as ValoresOrcamento).pagamentos_totais) }), anterior: this.anterior(f, d.serieFluxo(f.repasse as string)) },
       ]);
     }
     const maxFluxo = Math.max(...[...grupos.values()].flat().map((b) => b.valor));
-    const repasses = ["Estados e DF", "Municípios", "Fundos, bancos e partidos"]
-      .filter((g) => grupos.has(g))
-      .map((g) => {
+    const repasses = DESTINOS.filter(([g]) => grupos.has(g))
+      .map(([g, nome]) => {
         const itens = grupos.get(g)!.sort((a, b) => b.valor - a.valor);
         const total = itens.reduce((s, b) => s + b.valor, 0);
-        return `<h3>${esc(g)} <span class="sub">${reais(total, true)}</span></h3>${this.barras(itens, maxFluxo)}`;
+        return `<h3>${esc(nome)} <span class="sub">${reais(total, true)}</span></h3>${this.barras(itens, maxFluxo)}`;
       })
       .join("");
 
     this.el.innerHTML = `
       <div class="dinheiro-topo">
-        <h2>Dinheiro da União em ${ano}</h2>
-        <p class="intro">Quanto cada parte do Estado federal pagou no último ano fechado e quanto a União repassou a estados, municípios e outros. Valores pagos no ano, inclusive restos a pagar de anos anteriores; a dotação aprovada aparece ao passar o mouse e no painel. Fonte: Tesouro Nacional.</p>
+        <h2>${t("Dinheiro da União em {ano}", { ano })}</h2>
+        <p class="intro">${t("Quanto cada parte do Estado federal pagou no último ano fechado e quanto a União repassou a estados, municípios e outros. Valores pagos no ano, inclusive restos a pagar de anos anteriores; a dotação aprovada aparece ao passar o mouse e no painel. Fonte: Tesouro Nacional.")}</p>
         <div class="numeros">
-          <div class="numero"><span class="rotulo">Pago pelos órgãos</span><strong>${reais(vu.pagamentos_totais)}</strong></div>
-          <div class="numero"><span class="rotulo">Recursos sob supervisão: encargos, aposentadorias civis, transferências, crédito e dívida</span><strong>${reais(supU)}</strong></div>
+          <div class="numero"><span class="rotulo">${t("Pago pelos órgãos")}</span><strong>${reais(vu.pagamentos_totais)}</strong></div>
+          <div class="numero"><span class="rotulo">${t("Recursos sob supervisão: encargos, aposentadorias civis, transferências, crédito e dívida")}</span><strong>${reais(supU)}</strong></div>
         </div>
-        ${serieU.length > 1 ? `<p class="intro">Pago pelos órgãos em cada ano: ${serieU.map((m) => `${m.exercicio}, ${reais((m.valores as ValoresOrcamento).pagamentos_totais, true)}`).join("; ")}. A porcentagem ao lado de cada barra compara com ${ano - 1}, em valores correntes, sem correção pela inflação; num órgão, pode refletir mudança de estrutura e não só de gasto.</p>` : ""}
+        ${serieU.length > 1 ? `<p class="intro">${t("Pago pelos órgãos em cada ano: {lista}. A porcentagem ao lado de cada barra compara com {anterior}, em valores correntes, sem correção pela inflação; num órgão, pode refletir mudança de estrutura e não só de gasto.", { lista: serieU.map((m) => `${m.exercicio}, ${reais((m.valores as ValoresOrcamento).pagamentos_totais, true)}`).join("; "), anterior: ano - 1 })}</p>` : ""}
       </div>
       <section>
-        <h3>Por Poder</h3>
+        <h3>${t("Por Poder")}</h3>
         ${this.barras(poderes)}
       </section>
       <section>
-        <h3>Repasses pagos em ${ano}, pela relação que os prevê</h3>
-        <p class="intro">Cada barra é uma relação "repassa recursos" do mapa. Os repasses aos estados e municípios saem, em boa parte, dos recursos sob supervisão do Ministério da Fazenda.</p>
+        <h3>${t("Repasses pagos em {ano}, pela relação que os prevê", { ano })}</h3>
+        <p class="intro">${t("Cada barra é uma relação \"repassa recursos\" do mapa. Os repasses aos estados e municípios saem, em boa parte, dos recursos sob supervisão do Ministério da Fazenda.")}</p>
         ${repasses}
       </section>
       <section>
-        <h3>Órgãos com orçamento próprio</h3>
-        <p class="intro">Ministérios incluem as entidades vinculadas a eles (a Anvisa entra no Ministério da Saúde e aparece também sozinha). Órgãos sem unidade orçamentária própria, como as secretarias da Presidência, não aparecem. Estatais que não dependem do Tesouro (Caixa, Banco do Brasil, Petrobras) também não: elas entram só no orçamento de investimento (CF, art. 165, § 5º, II), que esta base não traz.</p>
+        <h3>${t("Órgãos com orçamento próprio")}</h3>
+        <p class="intro">${t("Ministérios incluem as entidades vinculadas a eles (a Anvisa entra no Ministério da Saúde e aparece também sozinha). Órgãos sem unidade orçamentária própria, como as secretarias da Presidência, não aparecem. Estatais que não dependem do Tesouro (Caixa, Banco do Brasil, Petrobras) também não: elas entram só no orçamento de investimento (CF, art. 165, § 5º, II), que esta base não traz.")}</p>
         <div class="matriz-filtros">
-          <select id="dinheiro-poder" aria-label="Filtrar por Poder">
-            <option value="">Todos os Poderes</option>
-            <option value="executivo">Executivo</option>
-            <option value="judiciario">Judiciário</option>
-            <option value="legislativo">Legislativo</option>
-            <option value="funcoes">Funções essenciais à Justiça</option>
+          <select id="dinheiro-poder" aria-label="${t("Filtrar por Poder")}">
+            <option value="">${t("Todos os Poderes")}</option>
+            <option value="executivo">${t("Executivo")}</option>
+            <option value="judiciario">${t("Judiciário")}</option>
+            <option value="legislativo">${t("Legislativo")}</option>
+            <option value="funcoes">${t("Funções essenciais à Justiça")}</option>
           </select>
-          <input id="dinheiro-busca" type="search" placeholder="Filtrar pelo nome…" aria-label="Filtrar órgãos pelo nome" />
+          <input id="dinheiro-busca" type="search" placeholder="${t("Filtrar pelo nome…")}" aria-label="${t("Filtrar órgãos pelo nome")}" />
         </div>
         <div id="dinheiro-orgaos">${this.listaOrgaos()}</div>
       </section>
       <section>
-        <h3>Fundos</h3>
-        <p class="intro">Fundos com unidade orçamentária própria. O que eles pagam já está contado no ministério a que pertencem.</p>
+        <h3>${t("Fundos")}</h3>
+        <p class="intro">${t("Fundos com unidade orçamentária própria. O que eles pagam já está contado no ministério a que pertencem.")}</p>
         ${this.barras(fundos)}
       </section>
       <section>
-        <h3>Recursos sob supervisão</h3>
-        <p class="intro">Na lei orçamentária, encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e o refinanciamento da dívida são órgãos próprios, supervisionados por um ministério. Ficam fora do valor do ministério para não parecer que o Ministério da Fazenda gasta trilhões consigo mesmo. Só o refinanciamento da dívida (rolagem) passa de R$ 2 trilhões.</p>
+        <h3>${t("Recursos sob supervisão")}</h3>
+        <p class="intro">${t("Na lei orçamentária, encargos financeiros da União (inclusive sentenças judiciais), aposentadorias e pensões civis, transferências a estados, DF e municípios (inclusive o Fundo Constitucional do DF), operações oficiais de crédito e o refinanciamento da dívida são órgãos próprios, supervisionados por um ministério. Ficam fora do valor do ministério para não parecer que o Ministério da Fazenda gasta trilhões consigo mesmo. Só o refinanciamento da dívida (rolagem) passa de R$ 2 trilhões.")}</p>
         ${this.barras(supervisao)}
       </section>`;
   }

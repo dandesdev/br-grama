@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>br-grama: como funciona o Estado brasileiro</title>
+    <title data-t>br-grama: como funciona o Estado brasileiro</title>
     <link rel="stylesheet" href="./src/estilo.css" />
   </head>
   <body>
     <div class="previa" role="note">
-      <strong>Versão 1.0, retrato de 01/10/2026.</strong> <span class="longo">Constituição, leis estruturantes, orçamento de 2023 a 2025 e calendário, com a fonte de cada informação.</span> Não use como referência oficial: confira a fonte citada.
-      <a href="https://github.com/dandesdev/br-grama" target="_blank" rel="noopener">Código e dados</a>
+      <strong data-t>Versão 1.0, retrato de 01/10/2026.</strong> <span class="longo" data-t>Constituição, leis estruturantes, orçamento de 2023 a 2025 e calendário, com a fonte de cada informação.</span> <span data-t>Não use como referência oficial: confira a fonte citada.</span>
+      <a href="https://github.com/dandesdev/br-grama" target="_blank" rel="noopener" data-t>Código e dados</a>
     </div>
     <header class="barra">
       <div class="marca">
@@ -17,45 +17,46 @@
         <span class="sub" id="data-referencia"></span>
       </div>
       <div class="busca">
-        <input id="busca" type="search" placeholder="Buscar órgão, cargo ou unidade…" autocomplete="off" aria-label="Buscar órgão, cargo ou unidade" />
+        <input id="busca" type="search" placeholder="Buscar órgão, cargo ou unidade…" autocomplete="off" aria-label="Buscar órgão, cargo ou unidade" data-t-attr="placeholder aria-label" />
         <ul id="busca-resultados" role="listbox" hidden></ul>
       </div>
-      <button id="filtros" class="botao-texto so-celular" aria-expanded="false" aria-controls="camadas">Filtros</button>
-      <div class="camadas" id="camadas" role="group" aria-label="Camadas">
-        <span class="rotulo">Relações</span>
-        <label class="chave" title="Sem esta opção, as relações aparecem só ao clicar em um órgão ou cargo"><input type="checkbox" id="todas-relacoes" /> Todas</label>
+      <button id="filtros" class="botao-texto so-celular" aria-expanded="false" aria-controls="camadas" data-t>Filtros</button>
+      <div class="camadas" id="camadas" role="group" aria-label="Camadas" data-t-attr="aria-label">
+        <span class="rotulo" data-t>Relações</span>
+        <label class="chave" title="Sem esta opção, as relações aparecem só ao clicar em um órgão ou cargo" data-t-attr="title"><input type="checkbox" id="todas-relacoes" /> <span data-t>Todas</span></label>
         <details class="menu">
-          <summary>Tipos</summary>
+          <summary data-t>Tipos</summary>
           <div id="filtro-grupos" class="grupos"></div>
         </details>
         <label class="processo">
-          <span class="rotulo">Processo</span>
+          <span class="rotulo" data-t>Processo</span>
           <select id="processo"></select>
         </label>
-        <label class="chave" title="Lacunas e divergências nas fontes oficiais"><input type="checkbox" id="avisos" /> Avisos</label>
-        <label class="chave" title="Valor pago no último ano fechado: círculo com área proporcional"><input type="checkbox" id="orcamento" /> Orçamento</label>
+        <label class="chave" title="Lacunas e divergências nas fontes oficiais" data-t-attr="title"><input type="checkbox" id="avisos" /> <span data-t>Avisos</span></label>
+        <label class="chave" title="Valor pago no último ano fechado: círculo com área proporcional" data-t-attr="title"><input type="checkbox" id="orcamento" /> <span data-t>Orçamento</span></label>
       </div>
-      <button id="tema" class="botao-icone" title="Alternar tema claro/escuro" aria-label="Alternar tema">◐</button>
+      <button id="idioma" class="botao-texto" lang="en" title="English version" aria-label="English version">EN</button>
+      <button id="tema" class="botao-icone" title="Alternar tema claro/escuro" aria-label="Alternar tema" data-t-attr="title aria-label">◐</button>
     </header>
     <main>
       <div class="palco">
         <nav class="abas" role="tablist">
-          <button role="tab" data-aba="mapa" aria-selected="true">Mapa</button>
-          <button role="tab" data-aba="fluxo" id="aba-fluxo" aria-selected="false" disabled title="Escolha um processo">Fluxo do processo</button>
-          <button role="tab" data-aba="matriz" aria-selected="false">Competências</button>
-          <button role="tab" data-aba="dinheiro" aria-selected="false">Dinheiro</button>
-          <button role="tab" data-aba="calendario" aria-selected="false">Calendário</button>
-          <button role="tab" data-aba="sobre" aria-selected="false">Sobre</button>
+          <button role="tab" data-aba="mapa" aria-selected="true" data-t>Mapa</button>
+          <button role="tab" data-aba="fluxo" id="aba-fluxo" aria-selected="false" disabled title="Escolha um processo" data-t-attr="title" data-t>Fluxo do processo</button>
+          <button role="tab" data-aba="matriz" aria-selected="false" data-t>Competências</button>
+          <button role="tab" data-aba="dinheiro" aria-selected="false" data-t>Dinheiro</button>
+          <button role="tab" data-aba="calendario" aria-selected="false" data-t>Calendário</button>
+          <button role="tab" data-aba="sobre" aria-selected="false" data-t>Sobre</button>
         </nav>
-        <div id="mapa" aria-label="Mapa do Estado brasileiro"></div>
-        <div id="fluxo" aria-label="Fluxo do processo em raias" hidden></div>
-        <div id="matriz" aria-label="Matriz de competências" hidden></div>
-        <div id="dinheiro" aria-label="Orçamento executado e repasses" hidden></div>
-        <div id="calendario" aria-label="Calendário dos ciclos e dos mandatos" hidden></div>
-        <div id="sobre" aria-label="Sobre o br-grama" hidden></div>
+        <div id="mapa" aria-label="Mapa do Estado brasileiro" data-t-attr="aria-label"></div>
+        <div id="fluxo" aria-label="Fluxo do processo em raias" data-t-attr="aria-label" hidden></div>
+        <div id="matriz" aria-label="Matriz de competências" data-t-attr="aria-label" hidden></div>
+        <div id="dinheiro" aria-label="Orçamento executado e repasses" data-t-attr="aria-label" hidden></div>
+        <div id="calendario" aria-label="Calendário dos ciclos e dos mandatos" data-t-attr="aria-label" hidden></div>
+        <div id="sobre" aria-label="Sobre o br-grama" data-t-attr="aria-label" hidden></div>
       </div>
       <div id="folha" data-estado="recolhida">
-        <button id="alca" class="so-celular" aria-controls="painel" aria-expanded="false"><span class="puxador" aria-hidden="true"></span><span id="alca-titulo">Como funciona o Estado brasileiro</span></button>
+        <button id="alca" class="so-celular" aria-controls="painel" aria-expanded="false"><span class="puxador" aria-hidden="true"></span><span id="alca-titulo" data-t>Como funciona o Estado brasileiro</span></button>
         <aside id="painel" aria-live="polite"></aside>
       </div>
     </main>

@@ -347,6 +347,10 @@ main { flex: 1; display: flex; min-height: 0; }
 .arvore ul { list-style: none; margin: 2px 0; padding-left: 14px; font-size: 13px; }
 .arvore > ul { padding-left: 0; }
 .arvore li { margin: 2px 0; }
+/* Botão de idioma (D66): fica à direita, antes do tema. */
+#idioma { margin-left: auto; flex: none; font-weight: 600; }
+#idioma + .botao-icone { margin-left: 0; }
+.aviso-idioma { font-size: 12px; color: var(--tinta-2); font-style: italic; margin: 8px 0 4px; }
 .arvore summary { cursor: pointer; }
 .arvore .sub { color: var(--tinta-2); font-size: 11px; }
 .arvore .realce > :first-child, .arvore li.realce { background: var(--plano); border-radius: 3px; }
@@ -392,8 +396,7 @@ main { flex: 1; display: flex; min-height: 0; }
   .processo { flex-basis: 100%; min-width: 0; }
   .processo select { flex: 1; width: 0; min-width: 0; font-size: 16px; }
   #dinheiro { padding: 12px 12px 40px; }
-  .barras .valor { width: auto; padding-left: 6px; }
-  .barras th { width: 34%; }
+  .barras .valor { width: 5.5em; padding-left: 6px; }
   #dinheiro input, .matriz-filtros input { max-width: 100%; box-sizing: border-box; font-size: 16px; }
   .matriz-filtros { flex-wrap: wrap; }
   .menu .grupos { max-height: 50dvh; overflow-y: auto; }

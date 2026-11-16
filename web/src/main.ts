@@ -6,14 +6,25 @@ import { Dinheiro } from "./dinheiro.ts";
 import { Calendario } from "./calendario.ts";
 import { mostrarSobre } from "./sobre.ts";
 import { Painel, amostraTraco } from "./painel.ts";
+import { emIngles, t, traduzirHtml, trocarIdioma } from "./i18n.ts";
 
 const esc = (s: unknown) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 
+// Textos fixos de index.html no idioma escolhido (D66) e o botão que troca de idioma.
+traduzirHtml();
+const botaoIdioma = $<HTMLButtonElement>("idioma");
+if (emIngles) {
+  botaoIdioma.textContent = "PT";
+  botaoIdioma.lang = "pt";
+  botaoIdioma.title = botaoIdioma.ariaLabel = "Versão em português";
+}
+botaoIdioma.addEventListener("click", trocarIdioma);
+
 const dados = await carregar();
-$("data-referencia").textContent = `Retrato de ${formatarData(dados.data)}`;
+$("data-referencia").textContent = t("Retrato de {data}", { data: formatarData(dados.data) });
 
 // Estado da interface
 let processoAtual: Entidade | null = null;
@@ -116,7 +127,7 @@ $<HTMLInputElement>("todas-relacoes").addEventListener("change", (ev) => {
 
 // ---------- Processos ----------
 const seletor = $<HTMLSelectElement>("processo");
-seletor.innerHTML = `<option value="">Nenhum</option>${dados
+seletor.innerHTML = `<option value="">${t("Nenhum")}</option>${dados
   .todas("processo")
   .map((p) => `<option value="${p.id}">${p.nome}</option>`)
   .join("")}`;
@@ -170,11 +181,11 @@ $<HTMLInputElement>("orcamento").addEventListener("change", (ev) => {
 const busca = $<HTMLInputElement>("busca");
 const resultados = $<HTMLUListElement>("busca-resultados");
 type Buscavel = { id: string; rotulo: string; tipo: string; chave: string; unidade?: { est: string; codigo: string } };
-const NOME_TIPO_BUSCA: Record<string, string> = { orgao: "órgão", cargo: "cargo", pessoa: "pessoa", processo: "processo", objeto: "objeto" };
+const NOME_TIPO_BUSCA: Record<string, string> = { orgao: t("órgão"), cargo: t("cargo"), pessoa: t("pessoa"), processo: t("processo"), objeto: t("objeto") };
 const buscaveis: Buscavel[] = dados
   .todas()
   .filter((e) => e.tipo in NOME_TIPO_BUSCA)
-  .map((e) => ({ id: e.id, rotulo: `${e.nome}${e.sigla ? ` (${e.sigla})` : ""}`, tipo: NOME_TIPO_BUSCA[e.tipo], chave: normalizar(`${e.nome} ${e.sigla ?? ""}`) }));
+  .map((e) => ({ id: e.id, rotulo: `${e.nome}${e.sigla ? ` (${e.sigla})` : ""}`, tipo: NOME_TIPO_BUSCA[e.tipo], chave: normalizar(`${e.nome} ${e.sigla ?? ""}${e.nome_pt ? ` ${e.nome_pt}` : ""}`) }));
 // Unidades internas do SIORG (D63): levam ao órgão, com a árvore aberta na unidade. As que já são nós do mapa ficam de fora.
 for (const est of dados.todas().filter((e) => e.tipo === "estrutura")) {
   const dono = dados.get(est.de as string);
@@ -184,7 +195,7 @@ for (const est of dados.todas().filter((e) => e.tipo === "estrutura")) {
     buscaveis.push({
       id: dono.id,
       rotulo: `${u.nome}${u.sigla ? ` (${u.sigla})` : ""}`,
-      tipo: `${u.colegiada ? "colegiado" : "unidade"} em ${dono.sigla ?? dono.nome}`,
+      tipo: u.colegiada ? t("colegiado em {orgao}", { orgao: dono.sigla ?? dono.nome }) : t("unidade em {orgao}", { orgao: dono.sigla ?? dono.nome }),
       chave: normalizar(`${u.nome} ${u.sigla ?? ""}`),
       unidade: { est: est.id, codigo: u.codigo },
     });
@@ -205,7 +216,7 @@ busca.addEventListener("input", () => {
         const i = buscaveis.indexOf(b);
         return `<li role="option" data-id="${esc(b.id)}" data-i="${i}">${esc(b.rotulo)}<div class="tipo">${esc(b.tipo)}</div></li>`;
       })
-      .join("") || `<li>Nada encontrado</li>`;
+      .join("") || `<li>${t("Nada encontrado")}</li>`;
   resultados.hidden = false;
 });
 resultados.addEventListener("click", (ev) => {
@@ -247,7 +258,7 @@ alca.addEventListener("click", () => {
   estadoFolha(ordem[(ordem.indexOf(folha.dataset.estado as EstadoFolha) + 1) % ordem.length]);
 });
 // Cada vez que o painel muda de conteúdo (a legenda inicial já está lá), o título vai para a alça e a folha sobe até a metade.
-const tituloAlca = () => ($("alca-titulo").textContent = $("painel").querySelector("h2")?.textContent ?? "Detalhes");
+const tituloAlca = () => ($("alca-titulo").textContent = $("painel").querySelector("h2")?.textContent ?? t("Detalhes"));
 tituloAlca();
 new MutationObserver(() => {
   tituloAlca();

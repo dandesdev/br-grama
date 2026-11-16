@@ -4,12 +4,18 @@
 // Uma linha vertical marca a data de referência. Abaixo da primeira, a mesma informação em lista,
 // ordenada por data, para quem não enxerga a linha do tempo.
 import { Dados, formatarData, type Entidade, type Etapa } from "./dados.ts";
+import { LOCALE, emIngles, t } from "./i18n.ts";
 
 const esc = (s: unknown) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 const dia = (d: string) => Date.UTC(Number(d.slice(0, 4)), Number(d.slice(5, 7)) - 1, Number(d.slice(8, 10)));
-const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+const MESES = emIngles
+  ? ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  : ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+
+/** "01/02/2026" ou "01/02/2026 a 05/02/2026". */
+const periodo = (de: string, ate?: string) => (ate ? t("{de} a {ate}", { de: formatarData(de), ate: formatarData(ate) }) : formatarData(de));
 
 interface Ocorrencia { processo: Entidade; etapa: Etapa; de: string; ate?: string; nota?: string }
 
@@ -67,13 +73,13 @@ export class Calendario {
   }
 
   private hoje(eixo: Eixo): string {
-    return `<span class="hoje" style="left:${eixo.pct(this.dados.data)}%" title="Data do retrato: ${formatarData(this.dados.data)}"></span>`;
+    return `<span class="hoje" style="left:${eixo.pct(this.dados.data)}%" title="${t("Data do retrato: {data}", { data: formatarData(this.dados.data) })}"></span>`;
   }
 
   private ciclos(): string {
     const eixo = new Eixo("2026-01-01", "2028-01-01");
     const oc = this.ocorrencias();
-    if (!oc.length) return `<p class="intro">Ainda não há etapas com data.</p>`;
+    if (!oc.length) return `<p class="intro">${t("Ainda não há etapas com data.")}</p>`;
     const porProcesso = new Map<string, Ocorrencia[]>();
     for (const o of oc) porProcesso.set(o.processo.id, [...(porProcesso.get(o.processo.id) ?? []), o]);
     const linhas = [...porProcesso.values()]
@@ -81,7 +87,7 @@ export class Calendario {
         const p = os[0].processo;
         const marcas = os
           .map((o) => {
-            const titulo = `${o.etapa.acao}\n${formatarData(o.de)}${o.ate ? ` a ${formatarData(o.ate)}` : ""}${o.nota ? `\n${o.nota}` : ""}`;
+            const titulo = `${o.etapa.acao}\n${periodo(o.de, o.ate)}${o.nota ? `\n${o.nota}` : ""}`;
             const esquerda = eixo.pct(o.de);
             const largura = o.ate ? Math.max(0.4, eixo.pct(o.ate) - esquerda) : 0;
             const classe = o.ate ? "faixa" : "ponto";
@@ -97,12 +103,12 @@ export class Calendario {
     const lista = perto
       .map(
         (o) =>
-          `<li><span class="data">${formatarData(o.de)}${o.ate ? ` a ${formatarData(o.ate)}` : ""}</span> <button class="link" data-processo="${esc(o.processo.id)}" data-etapa="${esc(o.etapa.id)}">${esc(o.etapa.acao)}</button> <span class="sub">(${esc(o.processo.nome)})</span></li>`,
+          `<li><span class="data">${periodo(o.de, o.ate)}</span> <button class="link" data-processo="${esc(o.processo.id)}" data-etapa="${esc(o.etapa.id)}">${esc(o.etapa.acao)}</button> <span class="sub">(${esc(o.processo.nome)})</span></li>`,
       )
       .join("");
     return `<div class="tempo"><div class="linha-tempo cabeca"><div class="rotulo"></div>${regua}</div>${linhas}</div>
-      <h3>Em volta de ${formatarData(this.dados.data)}</h3>
-      <ul class="agenda">${lista || "<li>Nada datado nesse intervalo.</li>"}</ul>`;
+      <h3>${t("Em volta de {data}", { data: formatarData(this.dados.data) })}</h3>
+      <ul class="agenda">${lista || `<li>${t("Nada datado nesse intervalo.")}</li>`}</ul>`;
   }
 
   /** Cargos com ocupante na data, para o seletor de mandatos. */
@@ -111,7 +117,7 @@ export class Calendario {
     return [...ids]
       .map((id) => this.dados.get(id))
       .filter((c): c is Entidade => !!c && c.tipo === "cargo")
-      .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+      .sort((a, b) => a.nome.localeCompare(b.nome, LOCALE));
   }
 
   private mandatos(): string {
@@ -119,7 +125,7 @@ export class Calendario {
     if (!cargo) return "";
     const anos = (cargo.mandato as { anos?: number } | null | undefined)?.anos;
     const rels = this.dados.relacoesChegando(cargo.id).filter((r) => r.relacao === "ocupa");
-    if (!rels.length) return `<p class="intro">Ninguém ocupa esse cargo no retrato.</p>`;
+    if (!rels.length) return `<p class="intro">${t("Ninguém ocupa esse cargo no retrato.")}</p>`;
     const itens = rels.map((r) => {
       const de = r.vigencia?.de ?? null;
       let fim = r.vigencia?.ate ?? null;
@@ -141,14 +147,19 @@ export class Calendario {
       .map((i) => {
         const nome = i.pessoa?.nome ?? (i.r.de as string);
         const pasta = i.r.orgao_exercicio ? this.dados.get(i.r.orgao_exercicio as string)?.nome : undefined;
-        if (!i.de) return `<div class="linha-tempo"><div class="rotulo"><button class="link" data-id="${esc(i.r.de)}">${esc(nome)}</button>${pasta ? `<div class="sub">${esc(pasta)}</div>` : ""}</div><div class="trilho-tempo"><span class="sem-data">início não registrado</span>${this.hoje(eixo)}</div></div>`;
+        if (!i.de) return `<div class="linha-tempo"><div class="rotulo"><button class="link" data-id="${esc(i.r.de)}">${esc(nome)}</button>${pasta ? `<div class="sub">${esc(pasta)}</div>` : ""}</div><div class="trilho-tempo"><span class="sem-data">${t("início não registrado")}</span>${this.hoje(eixo)}</div></div>`;
         const esquerda = eixo.pct(i.de);
         const direita = i.fim ? eixo.pct(i.fim) : 100;
-        const titulo = `${nome}: desde ${formatarData(i.de)}${i.fim ? `${i.previsto ? ", fim previsto em " : " até "}${formatarData(i.fim)}` : ", sem fim definido"}${i.r.interino ? " (em exercício)" : ""}`;
+        const desde = { nome, de: formatarData(i.de), fim: formatarData(i.fim) };
+        const titulo = `${!i.fim ? t("{nome}: desde {de}, sem fim definido", desde) : i.previsto ? t("{nome}: desde {de}, fim previsto em {fim}", desde) : t("{nome}: desde {de} até {fim}", desde)}${i.r.interino ? ` ${t("(em exercício)")}` : ""}`;
         return `<div class="linha-tempo"><div class="rotulo"><button class="link" data-id="${esc(i.r.de)}">${esc(nome)}</button>${pasta ? `<div class="sub">${esc(pasta)}</div>` : ""}</div><div class="trilho-tempo"><span class="mandato${i.previsto || !i.fim ? " previsto" : ""}" style="left:${esquerda}%;width:${Math.max(0.4, direita - esquerda)}%" title="${esc(titulo)}"></span>${this.hoje(eixo)}</div></div>`;
       })
       .join("");
-    const nota = anos ? `Mandato de ${anos} ano${anos > 1 ? "s" : ""}. Barra tracejada: fim previsto pelo mandato, sem data registrada.` : "Cargo sem mandato fixo: a barra vai até o fim do eixo.";
+    const nota = !anos
+      ? t("Cargo sem mandato fixo: a barra vai até o fim do eixo.")
+      : anos > 1
+        ? t("Mandato de {anos} anos. Barra tracejada: fim previsto pelo mandato, sem data registrada.", { anos })
+        : t("Mandato de {anos} ano. Barra tracejada: fim previsto pelo mandato, sem data registrada.", { anos });
     return `<p class="intro">${esc(nota)}</p><div class="tempo"><div class="linha-tempo cabeca"><div class="rotulo"></div>${regua}</div>${linhas}</div>`;
   }
 
@@ -157,14 +168,14 @@ export class Calendario {
     if (!this.cargo) this.cargo = cargos.find((c) => c.id === "cargo:presidente-da-republica")?.id ?? cargos[0]?.id ?? "";
     this.el.innerHTML = `
       <div class="dinheiro-topo">
-        <h2>Calendário</h2>
-        <p class="intro">O que o Estado faz em datas certas: o ciclo do orçamento, a sessão legislativa, as eleições, os relatórios fiscais. Cada ponto é uma etapa de um processo, na data que a norma fixa para 2026 e 2027; faixas são períodos. A linha vertical marca a data do retrato. Clique numa etapa para ver o processo.</p>
+        <h2>${t("Calendário")}</h2>
+        <p class="intro">${t("O que o Estado faz em datas certas: o ciclo do orçamento, a sessão legislativa, as eleições, os relatórios fiscais. Cada ponto é uma etapa de um processo, na data que a norma fixa para 2026 e 2027; faixas são períodos. A linha vertical marca a data do retrato. Clique numa etapa para ver o processo.")}</p>
       </div>
       <section>${this.ciclos()}</section>
       <section>
-        <h3>Mandatos</h3>
-        <p class="intro">Quem ocupa o cargo na data do retrato, desde quando e até quando.</p>
-        <select id="calendario-cargo" aria-label="Escolha o cargo">${cargos.map((c) => `<option value="${esc(c.id)}"${c.id === this.cargo ? " selected" : ""}>${esc(c.nome)}</option>`).join("")}</select>
+        <h3>${t("Mandatos")}</h3>
+        <p class="intro">${t("Quem ocupa o cargo na data do retrato, desde quando e até quando.")}</p>
+        <select id="calendario-cargo" aria-label="${t("Escolha o cargo")}">${cargos.map((c) => `<option value="${esc(c.id)}"${c.id === this.cargo ? " selected" : ""}>${esc(c.nome)}</option>`).join("")}</select>
         <div id="calendario-mandatos">${this.mandatos()}</div>
       </section>`;
   }

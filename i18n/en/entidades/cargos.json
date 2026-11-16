@@ -1,0 +1,858 @@
+{
+  "cargo:administrador-de-empresa-estatal-federal": {
+    "nome": "Director of a federal state-owned company (board member or executive officer)",
+    "resumo": "Member of the board of directors or the executive board of a federal state-owned company. Must have experience in the field and suitable qualifications, and cannot be a minister, member of parliament or party official."
+  },
+  "cargo:advogado-da-uniao": {
+    "nome": "Federal Attorney (Advogado da União)",
+    "resumo": "Career member of the AGU who represents the Union in court and gives legal advice to the Executive. Joins through a competitive public examination."
+  },
+  "cargo:advogado-geral-da-uniao": {
+    "nome": "Attorney General of the Union",
+    "resumo": "Head of the Office of the Attorney General of the Union and chief legal adviser to the President of the Republic. Holds the rank of Minister of State."
+  },
+  "cargo:agente-de-policia-federal": {
+    "nome": "Federal Police Agent",
+    "resumo": "Graduate-level post in the Federal Police Career. Joins through a competitive public examination in the third class."
+  },
+  "cargo:arquetipo-estadual-bombeiro-militar": {
+    "nome": "Military Firefighter",
+    "resumo": "State military officer in the Military Fire Brigade, from private to colonel. Joins through a competitive public examination and rises by promotion, based on seniority and merit."
+  },
+  "cargo:arquetipo-estadual-comandante-geral-da-policia-militar": {
+    "nome": "Commander-General of the Military Police",
+    "resumo": "Commands the state Military Police and answers to the governor for the administration and deployment of the force. Appointed by the governor from among active-duty colonels."
+  },
+  "cargo:arquetipo-estadual-comandante-geral-do-corpo-de-bombeiros-militar": {
+    "nome": "Commander-General of the Military Fire Brigade",
+    "resumo": "Commands the state Military Fire Brigade and answers to the governor for the administration and deployment of the force. Appointed by the governor from among active-duty colonels."
+  },
+  "cargo:arquetipo-estadual-conselheiro-do-tce": {
+    "nome": "Member of the State Court of Accounts",
+    "resumo": "Sits on the state court of accounts, which has seven members. Four are chosen by the State Legislative Assembly and three by the Governor."
+  },
+  "cargo:arquetipo-estadual-corregedor-da-justica": {
+    "nome": "Inspector of Justice (Corregedor da Justiça)",
+    "resumo": "Appellate judge who oversees the state's first-instance judges and court services. Elected by fellow judges for two years."
+  },
+  "cargo:arquetipo-estadual-corregedor-geral-da-defensoria-publica": {
+    "nome": "Inspector General of the State Public Defender's Office",
+    "resumo": "Heads the Office of the Inspector General of the state Public Defender's Office. Appointed by the Public Defender General from a three-name list drawn up by the Higher Council, for a two-year term of office."
+  },
+  "cargo:arquetipo-estadual-corregedor-geral-de-policia-civil": {
+    "nome": "Inspector General of the Civil Police",
+    "resumo": "Heads the Office of the Inspector General of the Civil Police. Designated by the Director General of the Civil Police from among police chiefs of the highest class."
+  },
+  "cargo:arquetipo-estadual-corregedor-geral-do-ministerio-publico": {
+    "nome": "Inspector General of the State Public Prosecution Service",
+    "resumo": "Heads the Office of the Inspector General of the state MP. Elected by the College of Senior Prosecutors, from among the senior prosecutors (procuradores de justiça), for a two-year term of office."
+  },
+  "cargo:arquetipo-estadual-defensor-publico": {
+    "nome": "State Public Defender",
+    "resumo": "Career member of the state Public Defender's Office. Joins through a competitive public examination."
+  },
+  "cargo:arquetipo-estadual-defensor-publico-geral": {
+    "nome": "State Public Defender General",
+    "resumo": "Head of the state Public Defender's Office, appointed by the governor from a three-name list elected by the career, for a two-year term of office."
+  },
+  "cargo:arquetipo-estadual-delegado-de-policia": {
+    "nome": "Police Chief (Delegado de Polícia)",
+    "resumo": "Police authority of the Civil Police: directs the force's activities and presides over the police investigation. Joins through an examination of tests and qualifications, with the participation of the OAB."
+  },
+  "cargo:arquetipo-estadual-delegado-geral-de-policia-civil": {
+    "nome": "Director General of the Civil Police",
+    "resumo": "Head of the state Civil Police. Appointed by the governor from among serving police chiefs of the highest class."
+  },
+  "cargo:arquetipo-estadual-deputado-estadual": {
+    "nome": "State Deputy",
+    "resumo": "Member of the State Legislative Assembly, elected by proportional representation for four years. The number of seats depends on the size of the state's delegation in the Chamber of Deputies."
+  },
+  "cargo:arquetipo-estadual-governador": {
+    "nome": "Governor",
+    "resumo": "Head of the state Executive Branch, elected together with the deputy governor for four years, in two rounds if needed."
+  },
+  "cargo:arquetipo-estadual-membro-do-ministerio-publico": {
+    "nome": "State Prosecutor and Senior State Prosecutor",
+    "resumo": "Members of the state Public Prosecution Service: prosecutors (promotores) act at first instance and senior prosecutors (procuradores de justiça) in the courts. Join through a competitive public examination."
+  },
+  "cargo:arquetipo-estadual-oficial-investigador-de-policia": {
+    "nome": "Police Investigating Officer",
+    "resumo": "Graduate-level post in the Civil Police that handles inquiries, record-keeping, data gathering, intelligence and investigative work, under the coordination of the police chief."
+  },
+  "cargo:arquetipo-estadual-ouvidor-geral-da-defensoria-publica": {
+    "nome": "Ombudsman General of the State Public Defender's Office",
+    "resumo": "Heads the Ombudsman's Office of the state Public Defender's Office. Chosen by the Higher Council from a three-name list put forward by civil society, and cannot be a member of the career."
+  },
+  "cargo:arquetipo-estadual-perito-oficial-criminal": {
+    "nome": "Official Criminal Forensic Expert",
+    "resumo": "Carries out official criminal forensic examinations, with technical and scientific autonomy. Belongs to the Civil Police only in the states where forensics is part of its structure."
+  },
+  "cargo:arquetipo-estadual-policial-militar": {
+    "nome": "Military Police Officer",
+    "resumo": "State military officer in the Military Police, from private to colonel. Joins through a competitive public examination and rises by promotion, based on seniority and merit."
+  },
+  "cargo:arquetipo-estadual-presidente-do-tribunal-de-justica": {
+    "nome": "President of the State Court of Justice",
+    "resumo": "Heads the TJ and represents it. Elected by the court's appellate judges, from among the most senior, for a two-year term of office, without re-election."
+  },
+  "cargo:arquetipo-estadual-procurador-de-contas": {
+    "nome": "Prosecutor of the State Public Prosecution Service at the Court of Accounts",
+    "resumo": "Member of the special Public Prosecution Service that acts before the state court of accounts. Joins through a competitive public examination and has the rights and restrictions of the ordinary MP."
+  },
+  "cargo:arquetipo-estadual-procurador-do-estado": {
+    "nome": "State Attorney (Procurador do Estado)",
+    "resumo": "Career public lawyer of the state. Joins through a competitive public examination and gains tenure after three years."
+  },
+  "cargo:arquetipo-estadual-procurador-geral-de-justica": {
+    "nome": "State Prosecutor General (Procurador-Geral de Justiça)",
+    "resumo": "Head of the state Public Prosecution Service, appointed by the governor from a three-name list drawn up by the career, for a two-year term of office."
+  },
+  "cargo:arquetipo-estadual-subdefensor-publico-geral": {
+    "nome": "Deputy State Public Defender General",
+    "resumo": "Deputy to the state Public Defender General, appointed by him or her from among tenured members of the career."
+  },
+  "cargo:arquetipo-estadual-vice-governador": {
+    "nome": "Deputy Governor",
+    "resumo": "Elected on the same ticket as the governor, for four years."
+  },
+  "cargo:arquetipo-estadual-vice-presidente-do-tribunal-de-justica": {
+    "nome": "Vice-President of the State Court of Justice",
+    "resumo": "Stands in for the President of the TJ. Elected by the court's appellate judges, from among the most senior, for a two-year term of office, without re-election."
+  },
+  "cargo:arquetipo-municipal-prefeito": {
+    "nome": "Mayor",
+    "resumo": "Head of the municipal Executive Branch, elected for four years; renders accounts every year to the Municipal Council."
+  },
+  "cargo:arquetipo-municipal-vereador": {
+    "nome": "Municipal Councillor",
+    "resumo": "Member of the Municipal Council, elected by proportional representation for four years. The maximum number of seats depends on the population."
+  },
+  "cargo:arquetipo-municipal-vice-prefeito": {
+    "nome": "Deputy Mayor",
+    "resumo": "Elected on the same ticket as the mayor, for four years."
+  },
+  "cargo:auditor-interno-geral-do-cgibs": {
+    "nome": "Internal Auditor General of the CGIBS",
+    "resumo": "Heads the Internal Audit of the IBS Management Committee; elected by the Higher Council, which may remove him or her at any time."
+  },
+  "cargo:autoridade-de-monitoramento-da-lai": {
+    "nome": "Access to Information Law monitoring authority",
+    "resumo": "Official designated by the head of each federal body and entity to enforce the LAI, monitor its application and decide complaints about requests left unanswered."
+  },
+  "cargo:chefe-de-missao-diplomatica-permanente": {
+    "nome": "Head of Permanent Diplomatic Mission (Ambassador)",
+    "resumo": "Ambassador who heads an embassy or a permanent mission to an international organisation; appointed by the President after approval by the Senate."
+  },
+  "cargo:chefe-do-estado-maior-conjunto-das-forcas-armadas": {
+    "nome": "Chief of the Joint Staff of the Armed Forces",
+    "resumo": "Heads the EMCFA and coordinates the committee of the chiefs of staff of the three Services. A general officer of the highest rank, nominated by the Minister and appointed by the President."
+  },
+  "cargo:comandante-da-aeronautica": {
+    "nome": "Commander of the Air Force",
+    "resumo": "Directs and manages the Air Force. A general officer of the highest rank in that Service, nominated by the Minister of Defence and appointed by the President."
+  },
+  "cargo:comandante-da-marinha": {
+    "nome": "Commander of the Navy",
+    "resumo": "Directs and manages the Navy. A general officer of the highest rank in that Service, nominated by the Minister of Defence and appointed by the President."
+  },
+  "cargo:comandante-do-exercito": {
+    "nome": "Commander of the Army",
+    "resumo": "Directs and manages the Army. A general officer of the highest rank in that Service, nominated by the Minister of Defence and appointed by the President."
+  },
+  "cargo:conciliador-dos-juizados-especiais": {
+    "nome": "Conciliator of the special courts",
+    "resumo": "Court auxiliary who, under the judge's supervision, conducts the conciliation hearing in the special courts; preferably a law graduate."
+  },
+  "cargo:conselheiro-do-cnas": {
+    "nome": "Member of the National Council of Social Assistance",
+    "resumo": "Member of the CNAS, which has 18 full members: half from government, half from civil society. Appointed by the President of the Republic for two years."
+  },
+  "cargo:conselheiro-do-cne": {
+    "nome": "Member of the National Council of Education",
+    "resumo": "Sits on one of the CNE's two chambers, of 12 members each. Appointed by the President of the Republic for a four-year term of office; at least half come from lists drawn up by civil society."
+  },
+  "cargo:conselheiro-do-cnj": {
+    "nome": "Member of the National Council of Justice",
+    "resumo": "Sits on the CNJ, which has 15 members with two-year terms of office: the President of the STF, eight other judges, two members of the Public Prosecution Service, two lawyers and two citizens."
+  },
+  "cargo:conselheiro-do-cnmp": {
+    "nome": "Member of the National Council of the Public Prosecution Service",
+    "resumo": "Sits on the CNMP, which has 14 members with two-year terms of office: the PGR, seven members of the Public Prosecution Service, two judges, two lawyers and two citizens."
+  },
+  "cargo:conselheiro-do-conselho-de-comunicacao-social": {
+    "nome": "Member of the Social Communication Council",
+    "resumo": "One of the 13 members of the Social Communication Council, elected by Congress in a joint session for a two-year term of office."
+  },
+  "cargo:conselheiro-fiscal-de-empresa-estatal-federal": {
+    "nome": "Member of the fiscal council of a federal state-owned company",
+    "resumo": "Oversees the management and accounts of a federal state-owned company on its permanent fiscal council; at least one member is a career civil servant nominated by the Union."
+  },
+  "cargo:consultor-geral-da-uniao": {
+    "nome": "Consultant General of the Union",
+    "resumo": "Heads the Office of the Consultant General of the Union, which gives legal advice to the President of the Republic. Appointed by the President on the nomination of the Attorney General."
+  },
+  "cargo:coordenador-dos-juizados-especiais-federais": {
+    "nome": "Coordinator of the Federal Special Courts",
+    "resumo": "TRF judge who coordinates the federal special courts of the region. Chosen by fellow members of the court for a two-year term of office."
+  },
+  "cargo:corregedor-da-justica-do-df": {
+    "nome": "Inspector of Justice of the Federal District and Territories",
+    "resumo": "Appellate judge who heads the Office of the Inspector General of the TJDFT and oversees court services and registry offices in the DF. Elected by fellow judges for two years."
+  },
+  "cargo:corregedor-geral-da-agu": {
+    "nome": "Inspector General of the Advocacy of the Union",
+    "resumo": "Heads the Office of the Inspector General of the AGU. Appointed by the President, on the nomination of the Attorney General, from among the career members of the AGU."
+  },
+  "cargo:corregedor-geral-da-dpu": {
+    "nome": "Inspector General of the Federal Public Defender's Office",
+    "resumo": "Heads the Office of the Inspector General of the DPU. Appointed by the President of the Republic on the nomination of the Higher Council, for a two-year term of office."
+  },
+  "cargo:corregedor-geral-da-justica-do-trabalho": {
+    "nome": "Inspector General of Labour Justice",
+    "resumo": "TST Justice who heads the Office of the Inspector General of Labour Justice and sits on the CSJT. Elected by the TST Full Court for two years."
+  },
+  "cargo:corregedor-geral-da-justica-federal": {
+    "nome": "Inspector General of Federal Justice",
+    "resumo": "STJ Justice who heads the Office of the Inspector General of Federal Justice. Under the STJ's Internal Rules, this is the court's Vice-President."
+  },
+  "cargo:corregedor-geral-do-cgibs": {
+    "nome": "Inspector General of the CGIBS",
+    "resumo": "Heads the Office of the Inspector General of the IBS Management Committee; elected by the Higher Council, which may remove him or her at any time."
+  },
+  "cargo:corregedor-geral-do-mpdft": {
+    "nome": "Inspector General of the Public Prosecution Service of the Federal District and Territories",
+    "resumo": "Heads the Office of the Inspector General of the MPDFT. Appointed by the Prosecutor General of Justice from a three-name list drawn up by the Higher Council, for a two-year term of office."
+  },
+  "cargo:corregedor-geral-do-mpf": {
+    "nome": "Inspector General of the Federal Public Prosecution Service",
+    "resumo": "Heads the Office of the Inspector General of the MPF. Appointed by the PGR from a three-name list drawn up by the Higher Council, for a two-year term of office."
+  },
+  "cargo:corregedor-geral-do-mpm": {
+    "nome": "Inspector General of the Military Public Prosecution Service",
+    "resumo": "Heads the Office of the Inspector General of the MPM. Appointed by the Prosecutor General of Military Justice from a three-name list drawn up by the Higher Council, for a two-year term of office."
+  },
+  "cargo:corregedor-geral-do-mpt": {
+    "nome": "Inspector General of the Labour Public Prosecution Service",
+    "resumo": "Heads the Office of the Inspector General of the MPT. Appointed by the Prosecutor General of Labour from a three-name list drawn up by the Higher Council, for a two-year term of office."
+  },
+  "cargo:corregedor-geral-eleitoral": {
+    "nome": "Inspector General of Electoral Justice",
+    "resumo": "STJ Justice sitting on the TSE who heads the Office of the Inspector General of Electoral Justice. Elected by the TSE itself."
+  },
+  "cargo:corregedor-nacional-de-justica": {
+    "nome": "National Inspector of Justice",
+    "resumo": "STJ Justice who serves as inspector at the CNJ: receives complaints against judges and judicial services and carries out inspections and audits."
+  },
+  "cargo:corregedor-parlamentar-da-camara-dos-deputados": {
+    "nome": "Parliamentary Inspector of the Chamber of Deputies",
+    "resumo": "Deputy who heads the Parliamentary Inspectorate: investigates wrongdoing involving deputies and presides over the inquiry when the suspect is a deputy."
+  },
+  "cargo:corregedor-parlamentar-do-senado-federal": {
+    "nome": "Parliamentary Inspector of the Federal Senate",
+    "resumo": "Senator who heads the Senate Inspectorate and presides over the inquiry when a senator commits an offence in the House's buildings."
+  },
+  "cargo:corregedor-regional-eleitoral": {
+    "nome": "Regional Electoral Inspector",
+    "resumo": "Role held by the Vice-President of each TRE: oversees electoral services in the state's electoral zones and handles the discipline of electoral judges."
+  },
+  "cargo:defensor-publico-federal": {
+    "nome": "Federal Public Defender",
+    "resumo": "Career member of the Federal Public Defender's Office. Joins through a national competitive public examination."
+  },
+  "cargo:defensor-publico-geral-federal": {
+    "nome": "Federal Public Defender General",
+    "resumo": "Head of the Federal Public Defender's Office, chosen by the President from a three-name list elected by the career and approved by the Senate."
+  },
+  "cargo:delegado-de-policia-federal": {
+    "nome": "Federal Police Chief (Delegado de Polícia Federal)",
+    "resumo": "Police authority of the Union's judicial police: directs the activities of the Federal Police. Joins through an examination of tests and qualifications, with the participation of the OAB."
+  },
+  "cargo:deputado-federal": {
+    "nome": "Federal Deputy",
+    "resumo": "Representative of the people in the Chamber of Deputies. Elected by proportional representation in each state and the DF for a four-year term of office."
+  },
+  "cargo:desembargador": {
+    "nome": "Appellate Judge of a State Court of Justice (Desembargador)",
+    "resumo": "Sits on a State Court of Justice, the second instance of state courts. Four-fifths come from the promotion of trial judges; one-fifth from the legal profession and the Public Prosecution Service."
+  },
+  "cargo:diretor-adjunto-da-abin": {
+    "nome": "Deputy Director of the Brazilian Intelligence Agency",
+    "resumo": "Second-in-command of ABIN: assists the Director General in overseeing the units and stands in during absences and impediments."
+  },
+  "cargo:diretor-da-instituicao-fiscal-independente": {
+    "nome": "Director of the Independent Fiscal Institution",
+    "resumo": "Member of the IFI's Board of Directors: three directors with four-year terms of office, approved by the Senate after a public hearing."
+  },
+  "cargo:diretor-do-banco-central": {
+    "nome": "Deputy Governor (Director) of the Central Bank of Brazil",
+    "resumo": "Member of the Central Bank's Board of Governors, with a fixed four-year term of office; there are eight deputy governors, with staggered terms."
+  },
+  "cargo:diretor-do-cgibs": {
+    "nome": "Director of the CGIBS",
+    "resumo": "Head of one of the nine directorates of the Executive Board of the IBS Management Committee, elected by the Higher Council for two years."
+  },
+  "cargo:diretor-executivo-do-cgibs": {
+    "nome": "Executive Director of the CGIBS",
+    "resumo": "Heads the Executive Board of the IBS Management Committee; elected by the Higher Council, alternating between states and municipalities every two years."
+  },
+  "cargo:diretor-geral-da-abin": {
+    "nome": "Director General of the Brazilian Intelligence Agency",
+    "resumo": "Heads ABIN. Chosen and appointed by the President after approval by the Senate."
+  },
+  "cargo:diretor-geral-da-policia-federal": {
+    "nome": "Director General of the Federal Police",
+    "resumo": "Heads the Federal Police. The post is reserved for Federal Police chiefs of the special class."
+  },
+  "cargo:diretor-geral-da-policia-rodoviaria-federal": {
+    "nome": "Director General of the Federal Highway Police",
+    "resumo": "Heads the Federal Highway Police. It is a position of trust at level FCE 1.17 in the Ministry of Justice and Public Security."
+  },
+  "cargo:dirigente-de-agencia-reguladora": {
+    "nome": "Member of the board of a regulatory agency",
+    "resumo": "Runs one of the twelve federal regulatory agencies, on a collegiate board of up to five members. Nominated by the President, approved by the Senate, with a fixed five-year term of office."
+  },
+  "cargo:escrivao-de-policia-federal": {
+    "nome": "Federal Police Clerk (Escrivão)",
+    "resumo": "Graduate-level post in the Federal Police Career. Joins through a competitive public examination in the third class."
+  },
+  "cargo:inspetor-geral-das-policias-militares-e-corpos-de-bombeiros-militares": {
+    "nome": "Inspector General of the Military Police and Military Fire Brigades",
+    "resumo": "Heads the IGPM/BM. An active-duty general officer of the Army."
+  },
+  "cargo:juiz-corregedor-auxiliar": {
+    "nome": "Assistant Inspecting Judge of Military Justice",
+    "resumo": "Federal judge of Military Justice chosen by the STM to assist the Inspecting Justice and stand in for him or her. Also stands in for civilian Justices of the STM."
+  },
+  "cargo:juiz-de-direito": {
+    "nome": "State judge (Juiz de direito)",
+    "resumo": "First-instance judge of the state and DF courts, sitting in the judicial districts. Joins through a competitive examination or by promotion from substitute judge. Also serves as electoral judge."
+  },
+  "cargo:juiz-de-direito-substituto": {
+    "nome": "Substitute state judge",
+    "resumo": "Entry post in the judiciary of the states and the DF, where the law provides for it. Stands in for and assists state judges. Joins through a competitive examination."
+  },
+  "cargo:juiz-de-paz": {
+    "nome": "Justice of the peace",
+    "resumo": "Citizen elected for a 4-year term of office who performs marriages, checks the marriage eligibility proceedings and conducts conciliation, without trying cases. The post is paid."
+  },
+  "cargo:juiz-de-tre": {
+    "nome": "Judge of a Regional Electoral Court",
+    "resumo": "Sits on one of the 27 TREs, which have seven members each: two appellate judges, two state judges, one federal or TRF judge and two lawyers. Serves two years, renewable once."
+  },
+  "cargo:juiz-de-trf": {
+    "nome": "Judge of a Federal Regional Court",
+    "resumo": "Sits on one of the six TRFs, the second instance of the Federal Courts. Four-fifths come from the promotion of federal judges; one-fifth from the legal profession and the Federal Public Prosecution Service."
+  },
+  "cargo:juiz-de-trt": {
+    "nome": "Judge of a Regional Labour Court",
+    "resumo": "Sits on one of the 24 TRTs, the second instance of the Labour Courts. Four-fifths come from the promotion of labour judges; one-fifth from the legal profession and the Labour Public Prosecution Service."
+  },
+  "cargo:juiz-do-trabalho": {
+    "nome": "Labour judge",
+    "resumo": "Presiding judge of a first-instance Labour Court (Vara do Trabalho), sitting alone at first instance in labour cases. Reaches the post by promotion or transfer."
+  },
+  "cargo:juiz-do-trabalho-substituto": {
+    "nome": "Substitute labour judge",
+    "resumo": "Entry post in the labour judiciary. Stands in for or assists the presiding judges of the Labour Courts of first instance. Joins through a competitive public examination."
+  },
+  "cargo:juiz-do-tribunal-maritimo": {
+    "nome": "Judge of the Maritime Court",
+    "resumo": "One of the seven judges of the Maritime Court: the president, two military officers and four civilians, all appointed by the President of the Republic."
+  },
+  "cargo:juiz-eleitoral": {
+    "nome": "Electoral judge",
+    "resumo": "State judge who exercises electoral jurisdiction in an electoral zone: handles voter registration, polling stations, polling boards and the registration of municipal candidates."
+  },
+  "cargo:juiz-federal": {
+    "nome": "Federal judge",
+    "resumo": "Presiding judge of a Federal Court of first instance. Tries, among others, cases in which the Union, its autonomous agencies or state-owned companies are parties. Reaches the post by promotion."
+  },
+  "cargo:juiz-federal-da-justica-militar": {
+    "nome": "Federal judge of Military Justice",
+    "resumo": "Presiding judge of an Auditoria (first-instance court) of the Union's Military Justice; presides over the Councils of Justice. Reaches the post by promotion. The Constitution still calls the post judge-auditor."
+  },
+  "cargo:juiz-federal-substituto": {
+    "nome": "Substitute federal judge",
+    "resumo": "Entry post in the federal judge career. Stands in for and assists the presiding federal judge of the court. Joins through a competitive public examination."
+  },
+  "cargo:juiz-federal-substituto-da-justica-militar": {
+    "nome": "Substitute federal judge of Military Justice",
+    "resumo": "Entry post in the judiciary of the Union's Military Justice. Sits in the Auditorias alongside the federal judge of Military Justice. Joins through a competitive examination."
+  },
+  "cargo:juiz-leigo": {
+    "nome": "Lay judge of the special courts",
+    "resumo": "Lawyer who assists the career judge in the special courts of the states and the DF: conducts hearings and drafts proposed judgments. Serves for a fixed period."
+  },
+  "cargo:juiz-militar-dos-conselhos-de-justica": {
+    "nome": "Military judge of the Councils of Justice",
+    "resumo": "Career officer of the Armed Forces drawn by lot to sit on a Council of Justice of the Union's Military Justice, alongside the federal judge."
+  },
+  "cargo:julgador-da-camara-nacional-de-integracao": {
+    "nome": "Judge of the National Chamber for the Integration of IBS and CBS Disputes",
+    "resumo": "Member of Carf or of the IBS Higher Chamber nominated to harmonise administrative case law on the rules common to the IBS and the CBS."
+  },
+  "cargo:julgador-da-camara-superior-do-ibs": {
+    "nome": "Judge of the IBS Higher Chamber",
+    "resumo": "State or municipal tax official, or taxpayers' representative, who harmonises, in the CGIBS Higher Chamber, case law on the IBS-specific legislation."
+  },
+  "cargo:julgador-de-primeira-instancia-do-ibs": {
+    "nome": "Judge of the IBS Judgment Chambers",
+    "resumo": "State, district or municipal tax official who decides, at the CGIBS first instance, challenges to IBS assessments, with a 2-year term of office."
+  },
+  "cargo:julgador-de-segunda-instancia-do-ibs": {
+    "nome": "Judge of the IBS Appeal Judgment Chambers",
+    "resumo": "State or municipal tax official, or taxpayers' representative, who decides, at the CGIBS second instance, appeals against first-instance decisions."
+  },
+  "cargo:jurado": {
+    "nome": "Juror",
+    "resumo": "Registered citizen drawn by lot for the jury court. Seven jurors form the Trial Council, which decides whether the defendant is guilty in intentional crimes against life."
+  },
+  "cargo:lider-da-bancada-feminina-no-senado-federal": {
+    "nome": "Leader of the Women's Caucus in the Federal Senate",
+    "resumo": "Woman senator nominated by the women's caucus, rotating every six months, with the prerogatives of a party leader, including voting."
+  },
+  "cargo:lider-da-maioria-na-camara-dos-deputados": {
+    "nome": "Majority Leader in the Chamber of Deputies",
+    "resumo": "Leader of the group that forms the Majority in the Chamber of Deputies; for that reason, a member of the Council of the Republic."
+  },
+  "cargo:lider-da-maioria-no-congresso-nacional": {
+    "nome": "Majority Leader in the National Congress",
+    "resumo": "Majority Leader in joint sessions, a leadership created in 2019 by analogy with the Senate Majority Leadership."
+  },
+  "cargo:lider-da-maioria-no-senado-federal": {
+    "nome": "Majority Leader in the Federal Senate",
+    "resumo": "Leader of the group that forms the Majority in the Federal Senate; for that reason, a member of the Council of the Republic."
+  },
+  "cargo:lider-da-minoria-na-camara-dos-deputados": {
+    "nome": "Minority Leader in the Chamber of Deputies",
+    "resumo": "Leader of the group that forms the Minority in the Chamber of Deputies; for that reason, a member of the Council of the Republic."
+  },
+  "cargo:lider-da-minoria-no-congresso-nacional": {
+    "nome": "Minority Leader in the National Congress",
+    "resumo": "Member of Congress nominated by the leaders of the two largest caucuses opposed to the majority; the leadership alternates between senators and deputies every two years."
+  },
+  "cargo:lider-da-minoria-no-senado-federal": {
+    "nome": "Minority Leader in the Federal Senate",
+    "resumo": "Leader of the group that forms the Minority in the Federal Senate; for that reason, a member of the Council of the Republic."
+  },
+  "cargo:lider-da-oposicao-no-congresso-nacional": {
+    "nome": "Opposition Leader in the National Congress",
+    "resumo": "Member of Congress nominated by the largest party or bloc opposed to the Federal Government, with the prerogatives of the Government Leader; alternates between senators and deputies every two years."
+  },
+  "cargo:lider-da-oposicao-no-senado-federal": {
+    "nome": "Opposition Leader in the Federal Senate",
+    "resumo": "Leader nominated by the largest party or bloc opposed to the Federal Government, with the same prerogatives as the Government Leadership."
+  },
+  "cargo:lider-de-partido-ou-bloco-na-camara-dos-deputados": {
+    "nome": "Party or parliamentary bloc leader in the Chamber of Deputies",
+    "resumo": "Deputy chosen by the caucus of his or her party or bloc to speak for it, guide its votes and nominate its members to committees."
+  },
+  "cargo:lider-de-partido-ou-bloco-no-senado-federal": {
+    "nome": "Party or parliamentary bloc leader in the Federal Senate",
+    "resumo": "Senator chosen by the caucus of his or her party or bloc to represent it and nominate its members to committees."
+  },
+  "cargo:lider-do-governo-na-camara-dos-deputados": {
+    "nome": "Government Leader in the Chamber of Deputies",
+    "resumo": "Deputy nominated by the President of the Republic to represent the Government in the Chamber's votes; has 20 deputy leaders."
+  },
+  "cargo:lider-do-governo-no-congresso-nacional": {
+    "nome": "Government Leader in the National Congress",
+    "resumo": "Member of Congress nominated by the President of the Republic to lead the Government in joint sessions; nominates up to 18 deputy leaders from the pro-government parties."
+  },
+  "cargo:lider-do-governo-no-senado-federal": {
+    "nome": "Government Leader in the Federal Senate",
+    "resumo": "Senator nominated by the President of the Republic to lead the Government in the Senate; nominates deputy leaders from the pro-government parties."
+  },
+  "cargo:membro-cidadao-do-conselho-da-republica": {
+    "nome": "Citizen member of the Council of the Republic",
+    "resumo": "Six native-born Brazilian citizens over 35: two appointed by the President, two elected by the Senate and two by the Chamber, for a three-year term of office."
+  },
+  "cargo:membro-da-advocacia-geral-da-uniao": {
+    "nome": "Federal Attorney and National Treasury Attorney",
+    "resumo": "Career members of the AGU, who defend the Union in court and give legal advice to the Executive. Join through a competitive public examination."
+  },
+  "cargo:membro-da-comissao-de-etica-publica": {
+    "nome": "Member of the Public Ethics Commission",
+    "resumo": "One of the seven Brazilians of unblemished reputation and experience in public administration designated by the President of the Republic to the CEP, for a three-year term of office."
+  },
+  "cargo:membro-de-mesa-receptora": {
+    "nome": "Poll worker (member of a polling board)",
+    "resumo": "Voter summoned by the electoral judge to work at the polling station on election day, as chair, poll clerk, secretary or alternate. The service is compulsory."
+  },
+  "cargo:membro-do-conselho-superior-do-cgibs": {
+    "nome": "Member of the Higher Council of the CGIBS",
+    "resumo": "Representative of a state, the DF or the municipalities as a whole on the Higher Council of the IBS Management Committee; 54 full members, each with an alternate."
+  },
+  "cargo:membro-do-ministerio-publico-da-uniao": {
+    "nome": "Member of the Public Prosecution Service of the Union",
+    "resumo": "Prosecutors of the MPF, MPT, MPM and MPDFT. Join through a competitive public examination and gain life tenure after two years."
+  },
+  "cargo:membro-do-mp-junto-ao-tcu": {
+    "nome": "Deputy Prosecutor General or Prosecutor of the Public Prosecution Service at the TCU",
+    "resumo": "Career members of the Union's MP at the Court of Accounts: three deputy prosecutors general and four prosecutors, who exercise the Prosecutor General's functions by delegation."
+  },
+  "cargo:ministro-corregedor-da-justica-militar": {
+    "nome": "Inspecting Justice of Military Justice",
+    "resumo": "Role held by the Vice-President of the STM during his or her term: heads the Inspectorate of Military Justice, with jurisdiction across the country."
+  },
+  "cargo:ministro-de-estado": {
+    "nome": "Minister of State",
+    "resumo": "Assists the President in running the federal administration and heads a ministry or equivalent body. Appointed and dismissed at will."
+  },
+  "cargo:ministro-do-stf": {
+    "nome": "Justice of the Federal Supreme Court",
+    "resumo": "Sits on the STF, which has 11 Justices. Chosen and appointed by the President of the Republic after approval by an absolute majority of the Senate."
+  },
+  "cargo:ministro-do-stj": {
+    "nome": "Justice of the Superior Court of Justice",
+    "resumo": "Sits on the STJ, which has at least 33 Justices, drawn in thirds from the TRFs, the TJs, and the legal profession and Public Prosecution Service. Appointed by the President after approval by the Senate."
+  },
+  "cargo:ministro-do-stm": {
+    "nome": "Justice of the Superior Military Court",
+    "resumo": "Sits on the STM, which has 15 Justices with life tenure: ten general officers of the Navy, Army and Air Force and five civilians. Appointed by the President after approval by the Senate."
+  },
+  "cargo:ministro-do-tcu": {
+    "nome": "Minister of the Federal Court of Accounts",
+    "resumo": "Sits on the TCU, which has nine ministers. Six are chosen by Congress and three by the President of the Republic, with the Senate's approval."
+  },
+  "cargo:ministro-do-tse": {
+    "nome": "Justice of the Superior Electoral Court",
+    "resumo": "Sits on the TSE, which has at least seven members: three STF Justices, two STJ Justices and two lawyers. Serves for at least two years, and at most two consecutive two-year periods."
+  },
+  "cargo:ministro-do-tst": {
+    "nome": "Justice of the Superior Labour Court",
+    "resumo": "Sits on the TST, which has 27 Justices: one-fifth from the legal profession and the Labour Public Prosecution Service, the rest career judges from the TRTs. Appointed by the President after approval by the Senate."
+  },
+  "cargo:ministro-substituto-do-tcu": {
+    "nome": "Substitute Minister of the TCU (auditor)",
+    "resumo": "Stands in for TCU ministers during absences, impediments and vacancies. Joins through a competitive public examination and, when not substituting, reports on cases with a proposed decision."
+  },
+  "cargo:ouvidor-de-agencia-reguladora": {
+    "nome": "Ombudsman of a regulatory agency",
+    "resumo": "Each federal regulatory agency has an ombudsman, with no hierarchical subordination, who follows up complaints against the agency. Chosen by the President and approved by the Senate."
+  },
+  "cargo:ouvidor-geral-da-camara-dos-deputados": {
+    "nome": "Ombudsman General of the Chamber of Deputies",
+    "resumo": "Deputy who heads the Parliamentary Ombudsman's Office; may request information and documents from any body of the Chamber and order inquiries."
+  },
+  "cargo:ouvidor-geral-do-senado-federal": {
+    "nome": "Ombudsman General of the Federal Senate",
+    "resumo": "Senator who heads the Senate Ombudsman's Office; may request information from any body of the House and order inquiries."
+  },
+  "cargo:papiloscopista-policial-federal": {
+    "nome": "Federal Police Fingerprint Expert (Papiloscopista)",
+    "resumo": "Graduate-level post in the Federal Police Career. Joins through a competitive public examination in the third class."
+  },
+  "cargo:perito-criminal-federal": {
+    "nome": "Federal Criminal Forensic Expert",
+    "resumo": "Directs the forensic work of the Federal Police, with technical and scientific autonomy. Joins through an examination of tests and qualifications, with a specific university degree."
+  },
+  "cargo:policial-rodoviario-federal": {
+    "nome": "Federal Highway Police Officer",
+    "resumo": "The only post in the PRF career: patrols federal highways, enforces traffic rules and assists accident victims. Joins through a competitive examination, with a university degree."
+  },
+  "cargo:presidente-da-camara-dos-deputados": {
+    "nome": "President of the Chamber of Deputies",
+    "resumo": "Presides over the Chamber and its Steering Board. After the Vice-President, is the first called to exercise the Presidency of the Republic."
+  },
+  "cargo:presidente-da-camara-superior-do-ibs": {
+    "nome": "President of the IBS Higher Chamber",
+    "resumo": "State or municipal tax official who presides over the IBS Higher Chamber, votes only to break a tie and proposes to the President of the CGIBS the removal of judges from office."
+  },
+  "cargo:presidente-da-republica": {
+    "nome": "President of the Republic",
+    "resumo": "Exercises the federal Executive Branch, assisted by the Ministers of State. Elected by direct vote for a four-year term of office."
+  },
+  "cargo:presidente-de-tre": {
+    "nome": "President of a Regional Electoral Court",
+    "resumo": "Heads one of the 27 TREs. One of the two appellate judges of the State Court of Justice who sit on the TRE, elected by the court itself."
+  },
+  "cargo:presidente-de-trf": {
+    "nome": "President of a Federal Regional Court",
+    "resumo": "Heads one of the six TRFs and sits on the Council of Federal Justice. Elected by the court's judges for two years, without re-election."
+  },
+  "cargo:presidente-de-trt": {
+    "nome": "President of a Regional Labour Court",
+    "resumo": "Heads one of the 24 TRTs. Elected by the court's judges for two years, without re-election. Five of them sit on the CSJT, in rotation."
+  },
+  "cargo:presidente-do-banco-central": {
+    "nome": "Governor of the Central Bank of Brazil",
+    "resumo": "Heads the Central Bank and sits on the National Monetary Council. Has a fixed four-year term of office that does not coincide with that of the President of the Republic."
+  },
+  "cargo:presidente-do-cgibs": {
+    "nome": "President of the IBS Management Committee",
+    "resumo": "Presides over the Higher Council of the CGIBS and is the entity's legal representative; elected from among the council members, alternating between states and municipalities."
+  },
+  "cargo:presidente-do-conselho-federal-da-oab": {
+    "nome": "President of the Federal Council of the OAB",
+    "resumo": "Represents the OAB in Brazil and abroad and presides over the Federal Council. Elected by the federal council members for a three-year term of office."
+  },
+  "cargo:presidente-do-senado-federal": {
+    "nome": "President of the Federal Senate",
+    "resumo": "Presides over the Senate, the Senate Steering Board and the Steering Board of the National Congress. Called to exercise the Presidency of the Republic after the President of the Chamber."
+  },
+  "cargo:presidente-do-stf": {
+    "nome": "President of the Federal Supreme Court",
+    "resumo": "Heads the STF and presides over its plenary sessions. Last in the line of those called to exercise the Presidency of the Republic."
+  },
+  "cargo:presidente-do-stj": {
+    "nome": "President of the Superior Court of Justice",
+    "resumo": "Heads the STJ and presides over the Full Court, the Special Court and the Council of Federal Justice. Elected by the Justices for two years."
+  },
+  "cargo:presidente-do-stm": {
+    "nome": "President of the Superior Military Court",
+    "resumo": "Heads the STM, presides over plenary sessions and represents the Union's Military Justice. Elected by the STM Justices."
+  },
+  "cargo:presidente-do-tcu": {
+    "nome": "President of the Federal Court of Accounts",
+    "resumo": "Heads the TCU. Elected by the ministers for one calendar year, with one re-election allowed."
+  },
+  "cargo:presidente-do-tjdft": {
+    "nome": "President of the Court of Justice of the DF and Territories",
+    "resumo": "Heads the TJDFT and represents the DF Judiciary. Appoints and promotes judges and grants registry office delegations. Elected by fellow judges."
+  },
+  "cargo:presidente-do-tse": {
+    "nome": "President of the Superior Electoral Court",
+    "resumo": "Heads the TSE and Electoral Justice. One of the three STF Justices who sit on the TSE, elected by the TSE itself."
+  },
+  "cargo:presidente-do-tst": {
+    "nome": "President of the Superior Labour Court",
+    "resumo": "Heads the TST and presides over the Superior Council of Labour Justice. Elected by the TST Justices for two years."
+  },
+  "cargo:primeiro-secretario-da-camara-dos-deputados": {
+    "nome": "First Secretary of the Chamber of Deputies",
+    "resumo": "Member of the Steering Board who oversees the Chamber's administrative services and swears in the Director General and the Secretary General of the Board."
+  },
+  "cargo:primeiro-secretario-do-senado-federal": {
+    "nome": "First Secretary of the Federal Senate",
+    "resumo": "Member of the Steering Board who reads the order of business in plenary, signs the Senate's correspondence and forwards papers to committees."
+  },
+  "cargo:primeiro-vice-presidente-da-camara-dos-deputados": {
+    "nome": "First Vice-President of the Chamber of Deputies",
+    "resumo": "Stands in for the President of the Chamber during absences and impediments; takes over the presidency when the President leaves Brasília for more than 48 hours."
+  },
+  "cargo:primeiro-vice-presidente-do-senado-federal": {
+    "nome": "First Vice-President of the Federal Senate",
+    "resumo": "Stands in for the President of the Senate and promulgates the law when neither the President of the Republic nor the President of the Senate does so within the deadline."
+  },
+  "cargo:primeiro-vice-presidente-do-tjdft": {
+    "nome": "First Vice-President of the TJDFT",
+    "resumo": "Stands in (first in line) for the President of the TJDFT during absences and impediments and exercises duties set by the internal rules. Elected by fellow judges."
+  },
+  "cargo:procurador-da-fazenda-nacional": {
+    "nome": "National Treasury Attorney",
+    "resumo": "Career member of the AGU assigned to the PGFN, who collects outstanding tax debt and represents the Union in tax cases. Joins through a competitive examination."
+  },
+  "cargo:procurador-da-justica-militar": {
+    "nome": "Military Justice Prosecutor (Procurador)",
+    "resumo": "Intermediate level of the MPM career. Acts before the Military Audit Courts and is assigned to the Military Justice Prosecution Offices."
+  },
+  "cargo:procurador-da-republica": {
+    "nome": "Federal Prosecutor (Procurador da República)",
+    "resumo": "Entry post in the MPF career. Acts before federal judges and, where there is no Regional Prosecution Office, before the TREs. Joins through a competitive examination."
+  },
+  "cargo:procurador-de-justica-do-mpdft": {
+    "nome": "Senior Prosecutor of the MPDFT (Procurador de Justiça)",
+    "resumo": "Top level of the MPDFT career. Acts before the TJDFT and in the Coordination and Review Chambers and is assigned to the Office of the Prosecutor General of Justice."
+  },
+  "cargo:procurador-distrital-dos-direitos-do-cidadao": {
+    "nome": "District Prosecutor for Citizens' Rights",
+    "resumo": "Senior prosecutor of the MPDFT who coordinates the defence of citizens' constitutional rights before the DF public authorities and public service providers."
+  },
+  "cargo:procurador-do-trabalho": {
+    "nome": "Labour Prosecutor",
+    "resumo": "Entry post in the MPT career. Acts before the Regional Labour Courts and in labour disputes involving minors and persons lacking legal capacity. Joins through a competitive examination."
+  },
+  "cargo:procurador-federal": {
+    "nome": "Federal Agency Attorney (Procurador Federal)",
+    "resumo": "Career member of the Office of the Federal Attorney General, which represents and advises federal autonomous agencies and public foundations. Joins through a competitive examination."
+  },
+  "cargo:procurador-federal-dos-direitos-do-cidadao": {
+    "nome": "Federal Prosecutor for Citizens' Rights",
+    "resumo": "Deputy prosecutor general who coordinates, within the MPF, the defence of citizens' constitutional rights before the federal public authorities and public service providers."
+  },
+  "cargo:procurador-geral-da-fazenda-nacional": {
+    "nome": "National Treasury Attorney General",
+    "resumo": "Heads the PGFN. Appointed by the President of the Republic on the nomination of the Minister of Finance."
+  },
+  "cargo:procurador-geral-da-justica-militar": {
+    "nome": "Prosecutor General of Military Justice",
+    "resumo": "Head of the Military Public Prosecution Service. Appointed by the Prosecutor General of the Republic from a three-name list drawn up by the College of Military Justice Prosecutors."
+  },
+  "cargo:procurador-geral-da-republica": {
+    "nome": "Prosecutor General of the Republic",
+    "resumo": "Head of the Public Prosecution Service of the Union and the MPF. Acts before the STF, presides over the CNMP and may bring a direct action of unconstitutionality."
+  },
+  "cargo:procurador-geral-da-uniao": {
+    "nome": "Attorney General for the Union (Procurador-Geral da União)",
+    "resumo": "Heads the Office of the Attorney General for the Union and represents the Union in the higher courts. Appointed by the President on the nomination of the Attorney General of the Union."
+  },
+  "cargo:procurador-geral-de-justica-do-mpdft": {
+    "nome": "Prosecutor General of Justice of the Federal District and Territories",
+    "resumo": "Head of the MPDFT. Appointed by the President of the Republic from a three-name list drawn up by the career, for a two-year term of office."
+  },
+  "cargo:procurador-geral-do-mp-junto-ao-tcu": {
+    "nome": "Prosecutor General of the Public Prosecution Service at the TCU",
+    "resumo": "Head of the Public Prosecution Service at the TCU: upholds the legal order in the Court's proceedings and must be heard on accounts and personnel acts."
+  },
+  "cargo:procurador-geral-do-trabalho": {
+    "nome": "Prosecutor General of Labour",
+    "resumo": "Head of the Labour Public Prosecution Service. Appointed by the Prosecutor General of the Republic from a three-name list drawn up by the College of Labour Prosecutors."
+  },
+  "cargo:procurador-geral-eleitoral": {
+    "nome": "Electoral Prosecutor General",
+    "resumo": "Head of the Electoral Public Prosecution Service, who acts in TSE cases. The post is held by the Prosecutor General of the Republic."
+  },
+  "cargo:procurador-geral-federal": {
+    "nome": "Federal Attorney General (Procurador-Geral Federal)",
+    "resumo": "Heads the Office of the Federal Attorney General and represents federal autonomous agencies and foundations in the STF and the higher courts. Appointed by the President on the nomination of the Attorney General of the Union."
+  },
+  "cargo:procurador-regional-da-republica": {
+    "nome": "Regional Federal Prosecutor",
+    "resumo": "Intermediate level of the MPF career. Acts before the Federal Regional Courts and is assigned to the Regional Federal Prosecution Offices."
+  },
+  "cargo:procurador-regional-do-trabalho": {
+    "nome": "Regional Labour Prosecutor",
+    "resumo": "Intermediate level of the MPT career. Acts before the Regional Labour Courts and is assigned to the Regional Labour Prosecution Offices."
+  },
+  "cargo:procurador-regional-eleitoral": {
+    "nome": "Regional Electoral Prosecutor",
+    "resumo": "MPF member who acts in the cases of the TRE of a state or the DF and directs the MP's electoral activities there. Two-year term of office, renewable once."
+  },
+  "cargo:procuradora-da-mulher-da-camara-dos-deputados": {
+    "nome": "Women's Advocate of the Chamber of Deputies (Procuradora da Mulher)",
+    "resumo": "Woman deputy elected by the women deputies to head the Chamber's Women's Advocacy Office, with three Deputy Advocates."
+  },
+  "cargo:promotor-da-justica-militar": {
+    "nome": "Military Justice Prosecutor (Promotor)",
+    "resumo": "Entry post in the MPM career. Acts before the Military Audit Courts and is assigned to the Military Justice Prosecution Offices. Joins through a competitive examination."
+  },
+  "cargo:promotor-de-justica-adjunto-do-mpdft": {
+    "nome": "Assistant Prosecutor of the MPDFT",
+    "resumo": "Entry post in the MPDFT career. Acts before the courts of the DF and Territories. Joins through a competitive examination."
+  },
+  "cargo:promotor-de-justica-do-mpdft": {
+    "nome": "Prosecutor of the MPDFT (Promotor de Justiça)",
+    "resumo": "Intermediate level of the MPDFT career. Acts before the courts of the DF and Territories and is assigned to the Prosecution Offices."
+  },
+  "cargo:promotor-eleitoral": {
+    "nome": "Electoral Prosecutor",
+    "resumo": "Member of the state Public Prosecution Service who performs the MP's electoral functions before the judge and electoral boards of a zone."
+  },
+  "cargo:quarto-secretario-da-camara-dos-deputados": {
+    "nome": "Fourth Secretary of the Chamber of Deputies",
+    "resumo": "Member of the Secretariat of the Chamber's Steering Board; stands in for the preceding Secretaries in session, in order."
+  },
+  "cargo:quarto-secretario-do-senado-federal": {
+    "nome": "Fourth Secretary of the Federal Senate",
+    "resumo": "Member of the Steering Board who calls the roll of senators, counts votes in verifications and helps count votes in elections."
+  },
+  "cargo:relator-geral-do-orcamento": {
+    "nome": "General Rapporteur of the annual budget bill",
+    "resumo": "CMO member of Congress who consolidates the report on the annual budget: handles the text of the law and the contingency reserve and may reallocate collective amendments."
+  },
+  "cargo:representante-legal-de-consorcio-publico": {
+    "nome": "Legal representative of a public consortium",
+    "resumo": "Head of the Executive of one of the member entities, elected to represent the consortium, in the manner and for the term set in the protocol of intentions."
+  },
+  "cargo:segundo-secretario-da-camara-dos-deputados": {
+    "nome": "Second Secretary of the Chamber of Deputies",
+    "resumo": "Member of the Secretariat of the Chamber's Steering Board; stands in for the First Secretary in session, in the order of the Secretaries."
+  },
+  "cargo:segundo-secretario-do-senado-federal": {
+    "nome": "Second Secretary of the Federal Senate",
+    "resumo": "Member of the Steering Board who drafts, reads and signs the minutes of the Senate's secret sessions."
+  },
+  "cargo:segundo-vice-presidente-da-camara-dos-deputados": {
+    "nome": "Second Vice-President of the Chamber of Deputies",
+    "resumo": "Stands in for the President of the Chamber in the absence of the First Vice-President."
+  },
+  "cargo:segundo-vice-presidente-do-senado-federal": {
+    "nome": "Second Vice-President of the Federal Senate",
+    "resumo": "Stands in for the First Vice-President of the Senate during absences and impediments."
+  },
+  "cargo:segundo-vice-presidente-do-tjdft": {
+    "nome": "Second Vice-President of the TJDFT",
+    "resumo": "Stands in for the President of the TJDFT during absences and impediments (after the First Vice-President) and exercises duties set by the internal rules. Elected by fellow judges."
+  },
+  "cargo:senador": {
+    "nome": "Senator",
+    "resumo": "Representative of a state or the DF in the Senate. Elected by majority vote for an eight-year term of office, with two alternates."
+  },
+  "cargo:servidor-publico-civil-federal": {
+    "nome": "Federal civil servant",
+    "resumo": "Holder of a public post in the Union, its autonomous agencies and federal foundations, under the single legal regime of Lei 8.112/1990. A permanent post requires a competitive examination; a commissioned post is filled by free appointment."
+  },
+  "cargo:subdefensor-publico-geral-federal": {
+    "nome": "Deputy Federal Public Defender General",
+    "resumo": "Deputy to the Federal Public Defender General. Appointed by the President of the Republic from among special-category defenders chosen by the Higher Council."
+  },
+  "cargo:subprocurador-geral-da-justica-militar": {
+    "nome": "Deputy Prosecutor General of Military Justice",
+    "resumo": "Top level of the MPM career. Acts before the Superior Military Court and in the Coordination and Review Chamber and sits on the Higher Council of the MPM."
+  },
+  "cargo:subprocurador-geral-da-republica": {
+    "nome": "Deputy Prosecutor General of the Republic",
+    "resumo": "Top level of the MPF career. Acts before the STF (by delegation of the PGR), the STJ and the TSE, and in the Coordination and Review Chambers."
+  },
+  "cargo:subprocurador-geral-do-trabalho": {
+    "nome": "Deputy Prosecutor General of Labour",
+    "resumo": "Top level of the MPT career. Acts before the TST and in the Coordination and Review Chamber and is assigned to the Office of the Prosecutor General of Labour."
+  },
+  "cargo:suplente-de-secretario-da-camara-dos-deputados": {
+    "nome": "Alternate Secretary of the Chamber of Deputies",
+    "resumo": "Four deputies elected with the Steering Board who take part in its meetings and stand in for the Secretaries during absences and leave."
+  },
+  "cargo:suplente-de-secretario-do-senado-federal": {
+    "nome": "Alternate Secretary of the Federal Senate",
+    "resumo": "Four senators elected with the Steering Board who stand in for the Secretaries when they are unable to act."
+  },
+  "cargo:terceiro-secretario-da-camara-dos-deputados": {
+    "nome": "Third Secretary of the Chamber of Deputies",
+    "resumo": "Member of the Secretariat of the Chamber's Steering Board; stands in for the preceding Secretaries in session, in order."
+  },
+  "cargo:terceiro-secretario-do-senado-federal": {
+    "nome": "Third Secretary of the Federal Senate",
+    "resumo": "Member of the Steering Board who calls the roll of senators, counts votes in verifications and helps count votes in elections."
+  },
+  "cargo:vice-presidente-da-republica": {
+    "nome": "Vice-President of the Republic",
+    "resumo": "Stands in for the President in case of impediment and succeeds him or her in case of vacancy. Elected on the same ticket as the President."
+  },
+  "cargo:vice-presidente-de-tre": {
+    "nome": "Vice-President of a Regional Electoral Court",
+    "resumo": "Second leadership post of each TRE, elected from between the court's two appellate judges; also serves as Regional Electoral Inspector."
+  },
+  "cargo:vice-presidente-do-cgibs": {
+    "nome": "Vice-President of the CGIBS",
+    "resumo": "Two vice-presidents elected from among the members of the Higher Council: the first, from the other sphere, stands in for the President; the second, from the same sphere, stands in for the first."
+  },
+  "cargo:vice-presidente-do-stf": {
+    "nome": "Vice-President of the Federal Supreme Court",
+    "resumo": "Stands in for the President of the STF during leave, absences and impediments and, if the post falls vacant, until the new holder takes office. Elected by the Justices."
+  },
+  "cargo:vice-presidente-do-stj": {
+    "nome": "Vice-President of the Superior Court of Justice",
+    "resumo": "Stands in for the President of the STJ and succeeds him or her in case of vacancy until the new election. Also the Inspector General of Federal Justice."
+  },
+  "cargo:vice-presidente-do-stm": {
+    "nome": "Vice-President of the Superior Military Court",
+    "resumo": "Stands in for the President of the STM and, during the term, is the Inspecting Justice of Military Justice."
+  },
+  "cargo:vice-presidente-do-tcu": {
+    "nome": "Vice-President of the Federal Court of Accounts",
+    "resumo": "Stands in for the President of the TCU during absences and impediments, acts as inspector and presides over one of the Chambers."
+  },
+  "cargo:vice-presidente-do-tse": {
+    "nome": "Vice-President of the Superior Electoral Court",
+    "resumo": "STF Justice on the TSE who holds the vice-presidency. Elected by the TSE itself."
+  },
+  "cargo:vice-presidente-do-tst": {
+    "nome": "Vice-President of the Superior Labour Court",
+    "resumo": "Stands in for the President of the TST during absences and impediments and is vice-president of the CSJT. Elected by the TST Justices for two years."
+  },
+  "cargo:vice-procurador-geral-da-republica": {
+    "nome": "Vice-Prosecutor General of the Republic",
+    "resumo": "Deputy prosecutor general designated by the Prosecutor General of the Republic to stand in when he or she is unable to act. Ex officio member of the Higher Council of the MPF."
+  }
+}

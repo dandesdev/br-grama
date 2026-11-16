@@ -6,6 +6,7 @@
   "scripts": {
     "validar": "tsx scripts/validar.ts",
     "build:dados": "tsx scripts/build-dados.ts",
+    "i18n:chaves": "tsx scripts/i18n-chaves.ts",
     "dev": "npm run build:dados && vite",
     "build": "npm run validar && npm run build:dados && vite build",
     "tipos": "tsc",

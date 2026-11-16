@@ -3,7 +3,7 @@
 //
 // O layout tem posições semânticas (D21): cada região (povo, Poderes, objetos de competência,
 // entes subnacionais) é diagramada separadamente pelo ELK e depois posicionada numa grade fixa.
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import ELK, { type ElkNode, type ElkExtendedEdge } from "elkjs/lib/elk.bundled.js";
 import { RAIZ, lerArquivos, lerJson, vigenteEm, type Entidade } from "./lib/dados.ts";
@@ -209,3 +209,91 @@ const dir = join(RAIZ, "web", "public", "dados");
 mkdirSync(dir, { recursive: true });
 writeFileSync(join(dir, "grafo.json"), JSON.stringify(saida));
 console.log(`grafo.json: ${entidades.size} entidades, ${nos.length} nós no mapa, ${Object.keys(regioes).length} regiões.`);
+
+// Traduções (D66): junta as sobreposições de i18n/<idioma>/ (interface.json, vocabularios.json e os
+// entidades/<pasta>.json que existirem) em web/public/dados/<idioma>.json, que o site carrega com
+// ?lang=<idioma>. Avisa ids, etapas e termos que não existem; arquivo ilegível é pulado com aviso.
+type Termo = { nome?: string; definicao?: string };
+type Traducao = { nome?: string; resumo?: string; etapas?: Record<string, string> };
+
+function juntarTraducoes(idioma: string) {
+  const base = join(RAIZ, "i18n", idioma);
+  if (!existsSync(base)) return;
+  const avisos: string[] = [];
+  const lerSe = (arq: string): unknown => {
+    if (!existsSync(join(base, arq))) return undefined;
+    try {
+      return JSON.parse(readFileSync(join(base, arq), "utf8"));
+    } catch (erro) {
+      avisos.push(`${arq}: não é JSON válido (${(erro as Error).message}); ficou de fora`);
+      return undefined;
+    }
+  };
+  const textoOk = (x: unknown): x is string => typeof x === "string" && x.trim() !== "";
+
+  const interfaceTxt = Object.fromEntries(Object.entries((lerSe("interface.json") ?? {}) as Record<string, unknown>).filter((par): par is [string, string] => textoOk(par[1])));
+
+  // Vocabulários: só nome e definição, e só de termos que existem.
+  const vocabEn = (lerSe("vocabularios.json") ?? {}) as { relacoes?: Record<string, Termo>; tipos_orgao?: Record<string, Termo>; gerais?: Record<string, Record<string, Termo>> };
+  const filtrarTermos = (origem: Record<string, unknown>, trad: Record<string, Termo> | undefined, onde: string) => {
+    const saida: Record<string, Termo> = {};
+    for (const [valor, termo] of Object.entries(trad ?? {})) {
+      if (valor.startsWith("_")) continue;
+      if (!(valor in origem)) {
+        avisos.push(`vocabularios.json: o termo ${onde}.${valor} não existe`);
+        continue;
+      }
+      saida[valor] = { ...(textoOk(termo.nome) ? { nome: termo.nome } : {}), ...(textoOk(termo.definicao) ? { definicao: termo.definicao } : {}) };
+    }
+    return saida;
+  };
+  const vocabularios = {
+    relacoes: filtrarTermos(saida.vocabularios.relacoes, vocabEn.relacoes, "relacoes"),
+    tipos_orgao: filtrarTermos(saida.vocabularios.tipos_orgao as Record<string, unknown>, vocabEn.tipos_orgao, "tipos_orgao"),
+    gerais: {} as Record<string, Record<string, Termo>>,
+  };
+  const gerais = saida.vocabularios.gerais as Record<string, Record<string, unknown>>;
+  for (const [vocab, termos] of Object.entries(vocabEn.gerais ?? {})) {
+    if (!gerais[vocab]) avisos.push(`vocabularios.json: o vocabulário ${vocab} não existe`);
+    else vocabularios.gerais[vocab] = filtrarTermos(gerais[vocab], termos, vocab);
+  }
+
+  // Entidades: nome, resumo e a ação de cada etapa.
+  const traduzidas: Record<string, Traducao> = {};
+  const dirEntidades = join(base, "entidades");
+  const arquivos = existsSync(dirEntidades) ? readdirSync(dirEntidades).filter((a) => a.endsWith(".json")).sort() : [];
+  for (const arq of arquivos) {
+    const conteudo = lerSe(`entidades/${arq}`) as Record<string, Traducao> | undefined;
+    for (const [id, tr] of Object.entries(conteudo ?? {})) {
+      if (id.startsWith("_")) continue;
+      const e = entidades.get(id);
+      if (!e) {
+        avisos.push(`entidades/${arq}: o id ${id} não existe`);
+        continue;
+      }
+      const item: Traducao = {};
+      if (textoOk(tr.nome)) item.nome = tr.nome;
+      if (textoOk(tr.resumo)) item.resumo = tr.resumo;
+      if (tr.etapas) {
+        const ids = new Set(((e.etapas as { id: string }[] | undefined) ?? []).map((et) => et.id));
+        const etapas = Object.entries(tr.etapas).filter(([etapa, acao]) => {
+          if (!ids.has(etapa)) avisos.push(`entidades/${arq}: ${id} não tem a etapa ${etapa}`);
+          return ids.has(etapa) && textoOk(acao);
+        });
+        if (etapas.length) item.etapas = Object.fromEntries(etapas);
+      }
+      // O mesmo id em dois arquivos: junta, e o que vem depois (ordem alfabética) prevalece campo a campo.
+      if (Object.keys(item).length) traduzidas[id] = { ...traduzidas[id], ...item, ...(item.etapas ? { etapas: { ...traduzidas[id]?.etapas, ...item.etapas } } : {}) };
+    }
+  }
+
+  writeFileSync(join(dir, `${idioma}.json`), JSON.stringify({ idioma, gerado_em: saida.gerado_em, interface: interfaceTxt, vocabularios, entidades: traduzidas }));
+  const nosTraduzidos = nos.filter((n) => traduzidas[n.id]?.nome).length;
+  const termos = Object.keys(vocabularios.relacoes).length + Object.keys(vocabularios.tipos_orgao).length + Object.values(vocabularios.gerais).reduce((s, v) => s + Object.keys(v).length, 0);
+  console.log(`${idioma}.json: ${Object.keys(interfaceTxt).length} textos da interface, ${termos} termos de vocabulário, ${Object.keys(traduzidas).length} entidades (${nosTraduzidos} de ${nos.length} nós do mapa com nome traduzido; arquivos: ${arquivos.join(", ") || "nenhum"}).`);
+  for (const a of avisos.slice(0, 30)) console.log(`  aviso: ${a}`);
+  if (avisos.length > 30) console.log(`  ... e mais ${avisos.length - 30} avisos.`);
+}
+
+const pastasI18n = existsSync(join(RAIZ, "i18n")) ? readdirSync(join(RAIZ, "i18n"), { withFileTypes: true }).filter((d) => d.isDirectory()) : [];
+for (const pasta of pastasI18n) juntarTraducoes(pasta.name);

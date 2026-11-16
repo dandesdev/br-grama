@@ -1,5 +1,6 @@
 // Carrega grafo.json (gerado por scripts/build-dados.ts) e oferece consultas sobre as entidades.
 import { vigenteEm } from "../../scripts/lib/vigencia.ts";
+import { LOCALE, emIngles, pacote, t, type PacoteIdioma } from "./i18n.ts";
 
 export interface Vigencia { de: string | null; ate: string | null; incerta?: boolean; nota?: string }
 export interface FonteRef { ref: string; dispositivo?: string | null; nota?: string }
@@ -9,6 +10,8 @@ export interface Entidade {
   id: string;
   tipo: string;
   nome: string;
+  /** Nome original em português, quando a interface está em outro idioma (D66). */
+  nome_pt?: string;
   sigla?: string;
   resumo?: string;
   detalhes?: string;
@@ -67,31 +70,31 @@ export interface Grafo {
 }
 
 export const GRUPOS_RELACAO: Record<string, string> = {
-  estrutura: "Estrutura",
-  pessoas: "Escolha de pessoas",
-  normas: "Normas",
-  controle: "Controle",
-  "poderes-administrativos": "Poderes administrativos",
-  recursos: "Recursos",
-  representacao: "Representação",
-  competencias: "Competências",
+  estrutura: t("Estrutura"),
+  pessoas: t("Escolha de pessoas"),
+  normas: t("Normas"),
+  controle: t("Controle"),
+  "poderes-administrativos": t("Poderes administrativos"),
+  recursos: t("Recursos"),
+  representacao: t("Representação"),
+  competencias: t("Competências"),
 };
 
 export const NOMES_TIPO: Record<string, string> = {
-  ente: "Ente federativo",
-  orgao: "Órgão",
-  cargo: "Cargo",
-  pessoa: "Pessoa",
-  norma: "Norma",
-  fonte: "Fonte",
-  relacao: "Relação",
-  processo: "Processo",
-  objeto: "Objeto de competência",
-  aviso: "Aviso",
-  variacao: "Variação",
-  metrica: "Métrica",
-  fluxo: "Fluxo de recursos",
-  estrutura: "Estrutura interna (SIORG)",
+  ente: t("Ente federativo"),
+  orgao: t("Órgão"),
+  cargo: t("Cargo"),
+  pessoa: t("Pessoa"),
+  norma: t("Norma"),
+  fonte: t("Fonte"),
+  relacao: t("Relação"),
+  processo: t("Processo"),
+  objeto: t("Objeto de competência"),
+  aviso: t("Aviso"),
+  variacao: t("Variação"),
+  metrica: t("Métrica"),
+  fluxo: t("Fluxo de recursos"),
+  estrutura: t("Estrutura interna (SIORG)"),
 };
 
 export interface ValoresOrcamento {
@@ -261,17 +264,60 @@ export class Dados {
 
 export async function carregar(): Promise<Dados> {
   const resp = await fetch("./dados/grafo.json");
-  if (!resp.ok) throw new Error(`Não foi possível carregar os dados (${resp.status}).`);
-  return new Dados(await resp.json());
+  if (!resp.ok) throw new Error(t("Não foi possível carregar os dados ({status}).", { status: resp.status }));
+  const grafo = (await resp.json()) as Grafo;
+  if (pacote) aplicarTraducao(grafo, pacote);
+  return new Dados(grafo);
 }
 
-/** Valor em reais, abreviado: "R$ 251,8 bilhões" (ou "R$ 251,8 bi" com curto). */
+/**
+ * Troca, no grafo carregado, o nome, o resumo e a ação das etapas das entidades traduzidas, e o nome
+ * e a definição dos termos de vocabulário (D66). Detalhes, notas, fontes, normas, pessoas e avisos
+ * ficam em português. O nome original fica em nome_pt, para a busca achar pelos dois.
+ */
+function aplicarTraducao(grafo: Grafo, p: PacoteIdioma) {
+  const trocar = (alvo: Record<string, Termo> | undefined, origem: Record<string, { nome?: string; definicao?: string }> | undefined) => {
+    for (const [valor, tr] of Object.entries(origem ?? {})) {
+      const termo = alvo?.[valor];
+      if (!termo) continue;
+      if (tr.nome) termo.nome = tr.nome;
+      if (tr.definicao) termo.definicao = tr.definicao;
+    }
+  };
+  const vocab = p.vocabularios ?? {};
+  trocar(grafo.vocabularios.relacoes, vocab.relacoes);
+  trocar(grafo.vocabularios.tipos_orgao, vocab.tipos_orgao);
+  for (const [nome, termos] of Object.entries(vocab.gerais ?? {})) trocar(grafo.vocabularios.gerais[nome], termos);
+  for (const [id, tr] of Object.entries(p.entidades ?? {})) {
+    const e = grafo.entidades[id];
+    if (!e) continue;
+    if (tr.nome) {
+      e.nome_pt = e.nome;
+      e.nome = tr.nome;
+    }
+    if (tr.resumo) e.resumo = tr.resumo;
+    for (const etapa of (e.etapas as Etapa[] | undefined) ?? []) {
+      const acao = tr.etapas?.[etapa.id];
+      if (acao) etapa.acao = acao;
+    }
+  }
+}
+
+/** Valor em reais, abreviado: "R$ 251,8 bilhões" (ou "R$ 251,8 bi" com curto); em inglês, "R$ 251.8 billion" ("R$ 251.8 bn"). */
 export function reais(x: number, curto = false): string {
   const [n, longo, abrev] = Math.abs(x) >= 1e12 ? [x / 1e12, "trilh", "tri"] : Math.abs(x) >= 1e9 ? [x / 1e9, "bilh", "bi"] : [x / 1e6, "milh", "mi"];
+  const numero = (n as number).toLocaleString(LOCALE, { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+  if (emIngles) {
+    const [palavra, curta] = longo === "trilh" ? ["trillion", "tn"] : longo === "bilh" ? ["billion", "bn"] : ["million", "m"];
+    return `R$ ${numero} ${curto ? curta : palavra}`;
+  }
   // "1,8 bilhão", "2,0 bilhões": o plural começa em 2.
   const unidade = curto ? abrev : `${longo}${Math.abs(n as number) < 2 ? "ão" : "ões"}`;
-  return `R$ ${(n as number).toLocaleString("pt-BR", { maximumFractionDigits: 1, minimumFractionDigits: 1 })} ${unidade}`;
+  return `R$ ${numero} ${unidade}`;
 }
+
+/** Número inteiro no formato do idioma ("1.234" ou "1,234"). */
+export const numero = (x: number) => x.toLocaleString(LOCALE);
 
 /** Remove acentos e caixa, para busca. */
 export const normalizar = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();

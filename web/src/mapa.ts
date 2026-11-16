@@ -2,18 +2,20 @@
 // estilo, camadas e destaques.
 import cytoscape, { type Core, type ElementDefinition, type StylesheetJson } from "cytoscape";
 import { Dados, reais, type Etapa, type Entidade, type ValoresOrcamento } from "./dados.ts";
+import { emIngles, t } from "./i18n.ts";
 
 /** Camada "Orçamento" (D48): diâmetro do círculo de R$ 100 bilhões, em pixels do mapa. Área proporcional ao valor. */
 export const DIAMETRO_100_BI = 160;
 export const diametro = (valor: number) => DIAMETRO_100_BI * Math.sqrt(Math.max(0, valor) / 1e11);
 
 const NOMES_REGIAO: Record<string, string> = {
-  povo: "Povo",
-  legislativo: "Poder Legislativo",
-  executivo: "Poder Executivo",
-  judiciario: "Poder Judiciário",
-  funcoes: "Funções essenciais e outros",
-  entes: "Estados e municípios: estrutura típica e exceções",
+  povo: t("Povo"),
+  legislativo: t("Poder Legislativo"),
+  executivo: t("Poder Executivo"),
+  judiciario: t("Poder Judiciário"),
+  funcoes: t("Funções essenciais e outros"),
+  entes: t("Estados e municípios: estrutura típica e exceções"),
+  objetos: t("Objetos de competência"),
 };
 
 // Estilo de linha por grupo de relação (D23). A cor das linhas é neutra; o grupo se lê pelo traço.
@@ -112,9 +114,11 @@ function elementos(dados: Dados): ElementDefinition[] {
   for (const r of dados.todas("relacao")) {
     if (r.relacao === "ocupa" || !dados.ehNo(r.de as string) || !dados.ehNo(r.para as string)) continue;
     const grupo = dados.grupoDe(r.relacao as string);
+    // Rótulo da aresta: em português, o próprio valor da relação; nas traduções, o nome do termo (D66).
+    const verbo = emIngles ? dados.nomeDe("relacao", r.relacao as string) : (r.relacao as string).replaceAll("-", " ");
     els.push({
       group: "edges",
-      data: { id: r.id, source: r.de, target: r.para, verbo: (r.relacao as string).replaceAll("-", " "), grupo },
+      data: { id: r.id, source: r.de, target: r.para, verbo, grupo },
       classes: `rel grupo-${grupo}`,
     });
   }
@@ -124,7 +128,7 @@ function elementos(dados: Dados): ElementDefinition[] {
     const de = v.instancia as string | undefined;
     const para = v.difere_de as string;
     if (de && dados.ehNo(de) && dados.ehNo(para)) {
-      els.push({ group: "edges", data: { id: v.id, source: de, target: para, verbo: "exceção a" }, classes: "variacao" });
+      els.push({ group: "edges", data: { id: v.id, source: de, target: para, verbo: t("exceção a") }, classes: "variacao" });
     }
   }
   return els;
@@ -318,7 +322,14 @@ export class Mapa {
     const no = cy.getElementById(id);
     if (no.empty()) return;
     no.select();
-    if (centralizar) cy.animate({ center: { eles: no }, zoom: Math.max(cy.zoom(), 0.9) }, { duration: 300 });
+    if (centralizar) {
+      // No celular (D65) a folha cobre a metade de baixo: o nó fica no meio da metade de cima.
+      const zoom = Math.max(cy.zoom(), 0.9);
+      const p = no.position();
+      const alto = cy.height();
+      const cimaCelular = cy.width() < 760 ? alto / 4 : alto / 2;
+      cy.animate({ zoom, pan: { x: cy.width() / 2 - p.x * zoom, y: cimaCelular - p.y * zoom } }, { duration: 300 });
+    }
     if (this.processoAtivo) return; // o processo já controla o que fica apagado
     // Num contêiner (ex.: Senado), mostra também as relações de tudo o que está dentro dele.
     const arestas = no.union(no.descendants()).connectedEdges(".rel, .variacao").not(".grupo-oculto");

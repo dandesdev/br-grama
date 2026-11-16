@@ -1,0 +1,1125 @@
+{
+  "proc:acao-de-investigacao-judicial-eleitoral": {
+    "etapas": {
+      "defesa": "The respondent submits a defence, documents and witnesses",
+      "despacho-inicial": "The inspector orders the respondent to be notified, may suspend the challenged act, or rejects the complaint",
+      "improcedente": "The complaint is rejected on the merits",
+      "instrucao": "The inspector hears the witnesses, carries out inquiries, sets a deadline for final arguments and writes a report",
+      "julgamento": "The court rules, after hearing the Public Prosecution Service; if the complaint is upheld, it declares ineligibility and cancels the registration or certificate of election",
+      "procedente": "Ineligibility for eight years, cancellation of the beneficiary's registration or certificate of election, and referral to the Public Prosecution Service",
+      "rejeitada": "The complaint is dismissed outright because it is not a proper case for a complaint or a requirement is missing",
+      "representacao": "A party, coalition, candidate or the Electoral Public Prosecution Service files a complaint with the electoral inspector and asks for an investigation"
+    },
+    "nome": "Electoral judicial investigation action",
+    "resumo": "Procedure under LC 64/1990 to investigate abuse of power and misuse of the media in elections: complaint to the electoral inspector, fact-finding and judgment by the court."
+  },
+  "proc:acao-penal-originaria": {
+    "etapas": {
+      "absolvicao": "The defendant is acquitted",
+      "alegacoes-finais": "The prosecution and then the defence submit written arguments",
+      "arquivamento": "The rapporteur closes the inquiry at the MP's request, or refers the request to the court",
+      "condenacao": "The defendant is convicted; once the decision is final, his or her political rights are suspended for as long as its effects last",
+      "denuncia": "Once it receives the police inquiry, the Public Prosecution Service files an indictment or asks for the case to be closed",
+      "instrucao": "The rapporteur leads the fact-finding: questioning of the defendant, preliminary defence, witnesses and inquiries",
+      "julgamento": "The court rules on the action, after one hour of oral argument for the prosecution and another for the defence",
+      "notificacao-do-acusado": "The rapporteur notifies the defendant, who replies in writing before the court decides on the indictment",
+      "recebimento": "The court decides whether to accept or reject the indictment, or whether the charge is already unfounded",
+      "rejeicao": "The indictment is rejected or the charge is found unfounded, and there is no trial"
+    },
+    "nome": "Original criminal action in the STF and the STJ",
+    "resumo": "How the STF and the STJ try authorities with special jurisdiction for ordinary crimes: indictment by the PGR, the defendant's reply, acceptance by the court, fact-finding led by the rapporteur, and judgment."
+  },
+  "proc:adc": {
+    "etapas": {
+      "admissibilidade": "The rapporteur examines the petition and dismisses it if it is defective, unfounded or manifestly without merit",
+      "indeferimento": "The initial petition is dismissed and the action ends, unless an interlocutory appeal is upheld",
+      "julgamento": "The Full Court rules, with at least 8 Justices present; declaring the rule constitutional or not requires 6 votes",
+      "medida-cautelar": "By absolute majority, the STF may order judges and courts to suspend cases that apply the rule",
+      "modulacao": "By two-thirds, the STF may restrict the effects of the unconstitutionality or set when it takes effect",
+      "pgr": "The PGR gives an opinion on the constitutionality of the rule",
+      "propositura": "One of the authorised parties files the action, showing that there is a significant judicial dispute over the federal rule",
+      "publicacao": "The STF notifies the decision to the authority that issued the rule and publishes the operative part; it applies to everyone",
+      "relatorio": "The rapporteur writes the report, sends a copy to the Justices and asks for a hearing date"
+    },
+    "nome": "Declaratory action of constitutionality (ADC)",
+    "resumo": "How the STF confirms that a federal law or normative act is constitutional when judges and courts disagree about it: filing, opinion of the PGR and judgment by six votes."
+  },
+  "proc:adi": {
+    "etapas": {
+      "admissibilidade": "The rapporteur examines the petition and dismisses it if it is defective, unfounded or manifestly without merit",
+      "agu-e-pgr": "The Attorney General of the Union defends the rule and then the PGR gives an opinion",
+      "indeferimento": "The initial petition is dismissed and the action ends, unless an interlocutory appeal is upheld",
+      "informacoes": "The rapporteur requests information from the bodies or authorities that issued the rule",
+      "julgamento": "The Full Court rules, with at least 8 Justices present; declaring the rule constitutional or not requires 6 votes",
+      "medida-cautelar": "The Full Court decides the request for an injunction by absolute majority, after hearing within 5 days the authority that issued the rule",
+      "modulacao": "By two-thirds, the STF may restrict the effects of the declaration or set when it takes effect",
+      "propositura": "One of the authorised parties files the action with the STF, identifying the challenged rule and the grounds",
+      "publicacao": "The STF notifies the decision to the authority that issued the rule and publishes the operative part; it applies to everyone",
+      "relatorio": "The rapporteur writes the report, sends a copy to the Justices and asks for a hearing date"
+    },
+    "nome": "Direct action of unconstitutionality (ADI)",
+    "resumo": "How the STF decides whether a federal or state law or normative act breaches the Constitution: filing, information, AGU and PGR, judgment by six votes and effect for everyone."
+  },
+  "proc:ado": {
+    "etapas": {
+      "admissibilidade": "The rapporteur examines the petition and dismisses it if it is defective, unfounded or manifestly without merit",
+      "agu-e-pgr": "The AGU makes a submission if the rapporteur asks, and the PGR gives an opinion when not the plaintiff",
+      "ciencia-ao-poder-competente": "The STF notifies the competent Branch; if the omission is by an administrative body, it has 30 days to act",
+      "improcedencia": "The action is dismissed and there is no omission to remedy",
+      "indeferimento": "The initial petition is dismissed and the action ends, unless an interlocutory appeal is upheld",
+      "informacoes": "The rapporteur requests information from those responsible for the omission; the other authorised parties may make submissions",
+      "julgamento": "The Full Court rules, with at least 8 Justices present; declaring the omission requires 6 votes",
+      "medida-cautelar": "In cases of exceptional urgency, the Full Court may grant an injunction by absolute majority, after hearing those responsible for the omission",
+      "propositura": "One of the authorised parties files the action, pointing out the total or partial failure to legislate or act",
+      "relatorio": "The rapporteur writes the report, sends a copy to the Justices and asks for a hearing date"
+    },
+    "nome": "Direct action of unconstitutionality by omission (ADO)",
+    "resumo": "How the STF rules on the lack of a law or measure that the Constitution requires: filing, information from the defaulting authority, opinion of the PGR and notice to the competent Branch."
+  },
+  "proc:adpf": {
+    "etapas": {
+      "admissibilidade": "The rapporteur dismisses the petition if it is not a case for an ADPF, a requirement is missing, it is defective or another effective remedy exists",
+      "cumprimento": "The President of the STF orders the decision to be carried out immediately; it applies to everyone and binds the public authorities",
+      "indeferimento": "The initial petition is dismissed and the claim ends, unless an interlocutory appeal is upheld",
+      "informacoes": "The rapporteur requests information from the authorities responsible for the challenged act",
+      "julgamento": "The Full Court rules on the claim, with at least two-thirds of the Justices present",
+      "liminar": "The Full Court decides the preliminary injunction by absolute majority; in urgent cases or during recess, the rapporteur grants it alone",
+      "modulacao": "By two-thirds, the STF may restrict the effects of the unconstitutionality or set when it takes effect",
+      "pgr": "The Public Prosecution Service reviews the case file, if it is not the plaintiff",
+      "propositura": "One of the parties authorised to file an ADI brings the claim, identifying the fundamental precept breached and the challenged act",
+      "relatorio": "The rapporteur writes the report, sends a copy to the Justices and asks for a hearing date",
+      "representacao-ao-pgr": "Anyone not authorised to file may ask the PGR, by petition, to bring the claim"
+    },
+    "nome": "Claim of non-compliance with a fundamental precept (ADPF)",
+    "resumo": "How the STF rules on an act of the public authorities that breaches a fundamental precept of the Constitution when there is no other effective remedy: filing, preliminary injunction, information and judgment."
+  },
+  "proc:alteracao-territorial-de-estados": {
+    "etapas": {
+      "convocacao": "The National Congress approves or rejects the legislative decree calling the plebiscite",
+      "lei-complementar": "Congress votes on the complementary law by absolute majority, and the President assents to or vetoes it",
+      "nao-aprovado": "The territorial change does not happen",
+      "novos-limites": "The states take on the new boundaries, or the new state or territory comes into being, under the complementary law",
+      "plebiscito": "The Electoral Courts hold the plebiscite, on the same date and at the same time in each state involved",
+      "projeto-e-audiencia": "The complementary bill is introduced in one of the Houses, which hears the Legislative Assemblies of the states involved",
+      "proposta-de-plebiscito": "At least one-third of the members of the Chamber or the Senate propose the legislative decree calling the plebiscite"
+    },
+    "nome": "Merger, subdivision and dismemberment of states",
+    "resumo": "Changing the map of the states, or creating a new state or territory, requires a plebiscite of the population concerned and a complementary law of Congress, after hearing the Legislative Assemblies."
+  },
+  "proc:alteracao-territorial-de-municipios": {
+    "etapas": {
+      "convocacao-do-plebiscito": "Once the EVM is published, the Assembly votes on the legislative decree calling the plebiscite",
+      "iniciativa": "The State Legislative Assembly opens the procedure and arranges the Municipal Feasibility Study (EVM)",
+      "lei-estadual": "The Assembly passes, and the state publishes, the state law setting the new boundaries",
+      "nao-aprovado": "The detachment does not happen",
+      "novos-limites": "The municipalities take on the new boundaries set in the state law",
+      "plebiscito": "The TRE organises a single plebiscite with the voters of the two municipalities involved",
+      "sem-lei-complementar": "It cannot be done in 2026: the federal complementary law setting the period for it does not exist",
+      "tipo-de-alteracao": "What change is sought: creating, merging or incorporating municipalities, or detaching part of one to join it to another?"
+    },
+    "nome": "Creation, merger, incorporation and dismemberment of municipalities",
+    "resumo": "Changing the map of the municipalities requires a state law, a feasibility study and a plebiscite. In 2026 there are rules only for detaching part of one municipality and joining it to another."
+  },
+  "proc:apuracao-do-indice-de-participacao-dos-municipios-no-icms": {
+    "etapas": {
+      "aplicacao": "The index applies to the instalments transferred from 1 January of the following year",
+      "apuracao": "The state calculates the value added in each municipality and its ratio to the state total",
+      "impugnacao": "Mayors and associations of municipalities may challenge the published data and indices",
+      "julgamento": "The state rules on the challenges and publishes each municipality's final indices",
+      "publicacao": "The state publishes each municipality's value added and indices in the official gazette"
+    },
+    "nome": "Calculation of the municipal share index of ICMS",
+    "resumo": "The state calculates each municipality's value added, publishes the indices by 30 June, municipalities may challenge them, and the state rules and publishes the final indices."
+  },
+  "proc:ato-normativo-de-agencia-reguladora": {
+    "etapas": {
+      "analise-de-impacto": "The agency carries out a regulatory impact analysis (AIR) of the proposed normative act",
+      "arquivamento": "The proposal does not go ahead",
+      "audiencia-publica": "The agency holds a public hearing, open to oral submissions",
+      "audiencia-publica-decisao": "The board decides whether to call a public hearing on the matter",
+      "consulta-publica": "The agency opens a public consultation on the draft, with notice in the Official Gazette and on its website",
+      "deliberacao": "The collegiate board deliberates on the act in a public, recorded meeting",
+      "divulgacao-das-contribuicoes": "The agency publishes the criticisms and suggestions received",
+      "manifestacao-da-diretoria": "The collegiate board gives its view on the AIR report and decides whether the proposal goes ahead",
+      "posicionamento-sobre-contribuicoes": "The agency publishes its position on the contributions to the public consultation",
+      "rejeicao": "The act is not approved"
+    },
+    "nome": "Issuing a normative act by a regulatory agency",
+    "resumo": "How a federal regulatory agency adopts a rule of general interest: impact analysis, public consultation of at least 45 days and a collegiate decision in a public meeting."
+  },
+  "proc:atualizacao-dos-documentos-de-defesa-nacional": {
+    "etapas": {
+      "apreciacao": "Congress reviews the documents by legislative decree, based on a report by the CCAI",
+      "aprovacao": "The President approves the Policy, the Strategy and the White Paper by decree",
+      "elaboracao": "The Ministry of Defence coordinates the update of the documents and implements the White Paper",
+      "encaminhamento": "The Executive sends the updated Policy, Strategy and White Paper to Congress",
+      "vigencia": "The documents guide federal planning and the Defence budget until the next update"
+    },
+    "nome": "Updating the National Defence Policy and Strategy and the White Paper",
+    "resumo": "Every four years the Executive updates the defence documents and sends them to Congress, which reviews them by legislative decree; in 2025 the President then approved them by decree."
+  },
+  "proc:calamidade-publica-nacional": {
+    "etapas": {
+      "adesao-dos-entes": "States, DF and municipalities may apply the same restrictions to themselves",
+      "decretacao": "Congress decides and, if it approves, declares the calamity, without the President's assent",
+      "fim-da-calamidade": "The calamity ends, and with it the extraordinary regime",
+      "pedido": "The President proposes to Congress that a nationwide public calamity be declared",
+      "regime-extraordinario": "The Union adopts the extraordinary fiscal, financial and procurement regime",
+      "rejeicao": "Without a decree from Congress, there is no extraordinary regime"
+    },
+    "nome": "Nationwide public calamity",
+    "resumo": "The President requests it, Congress declares it, and the Union moves to an extraordinary fiscal and procurement regime for as long as the calamity lasts."
+  },
+  "proc:caminho-de-um-processo": {
+    "etapas": {
+      "admissao-resp-re": "The president or vice-president of the court of origin decides whether to admit the special appeal and the extraordinary appeal",
+      "apelacao": "The State Court of Justice or the TRF decides the appeal as a panel and issues its ruling",
+      "recurso-especial": "The STJ decides the special appeal, which concerns the interpretation of federal law",
+      "recurso-extraordinario": "The STF decides the extraordinary appeal, which concerns a constitutional question",
+      "sentenca": "The first-instance judge decides the case and gives judgment",
+      "transito-em-julgado": "The decision becomes final: no further appeal lies, and what was decided cannot be reopened"
+    },
+    "nome": "Path of a case in the ordinary courts, from the judge to the STF",
+    "resumo": "How a civil case moves up from the first instance (state or federal judge) to the State Court of Justice or TRF, the STJ and the STF, through an appeal, a special appeal and an extraordinary appeal."
+  },
+  "proc:ciclo-orcamentario": {
+    "etapas": {
+      "avaliacao-das-metas-fiscais": "The Minister of Finance shows the CMO that the four-monthly fiscal targets have been met and presents the debt trajectory",
+      "avaliacao-do-banco-central": "The Central Bank presents to the committees of Congress its half-yearly assessment of monetary, credit and exchange-rate policies",
+      "creditos-adicionais": "During the year, the budget is changed by additional appropriations voted by Congress or opened by provisional measure",
+      "entrega-dos-duodecimos": "The Executive hands the Legislature, the Judiciary, the Public Prosecution Service and the Public Defender's Office the monthly twelfths of their appropriations",
+      "execucao": "The government executes the budget; the CMO monitors execution",
+      "julgamento-das-contas": "Congress judges the President's accounts",
+      "ldo-elaboracao": "The Ministry of Planning and Budget drafts the LDO bill",
+      "ldo-envio": "The President sends the LDO bill to Congress",
+      "ldo-sancao": "The President assents to or vetoes the LDO, as with an ordinary law",
+      "ldo-tramitacao": "The CMO receives amendments and gives its report; both Houses vote on the LDO",
+      "loa-elaboracao": "The Executive consolidates the LOA bill with the proposals of the courts, the Public Prosecution Service and the Public Defender's Office",
+      "loa-emendas": "Members of Congress, committees and state caucuses submit amendments in the CMO",
+      "loa-envio": "The President sends the LOA bill (and, in the first year of the term, the PPA bill) to Congress",
+      "loa-parecer-cmo": "The CMO votes on the revenue, preliminary, sectoral and general reports and sends its report to the Steering Board of Congress",
+      "loa-sancao": "The President assents to or vetoes the LOA, as with an ordinary law",
+      "loa-votacao": "Both Houses vote on the LOA bill and the amendments, under the joint rules",
+      "parecer-cmo-contas": "The CMO examines the accounts and the TCU's opinion and proposes a draft legislative decree",
+      "parecer-previo-tcu": "The TCU examines the accounts and issues a prior opinion",
+      "prestacao-de-contas": "The President renders to Congress the accounts for the previous year"
+    },
+    "nome": "Federal budget cycle",
+    "resumo": "Annual path of the Union budget: the Executive proposes the LDO and the LOA, Congress amends and approves them, the government executes them and the accounts are judged."
+  },
+  "proc:comissao-parlamentar-de-inquerito": {
+    "etapas": {
+      "criacao": "The President of the House checks the requirements and orders the request to be published, creating the CPI",
+      "encaminhamento": "The President of the House sends the report to the Public Prosecution Service or the AGU and to other competent authorities",
+      "investigacao": "The CPI investigates with the powers of a judicial authority: hears witnesses, requisitions documents, carries out inquiries",
+      "pedido-devolvido": "Without the requirements, the request is returned and the CPI is not created",
+      "providencias": "Those who receive the report decide on the measures within their competence; only the courts can convict",
+      "relatorio": "The CPI approves the report with its findings, which may propose a bill, a draft legislative decree or a draft resolution",
+      "requerimento": "One-third of the deputies, the senators or both sign the request, which states a specific fact and a deadline"
+    },
+    "nome": "Parliamentary committee of inquiry (CPI)",
+    "resumo": "How a CPI is created, investigates and forwards its findings: request by 1/3 of the members, a specific fact, a fixed deadline and a report to the Public Prosecution Service."
+  },
+  "proc:conferencia-nacional-de-saude": {
+    "etapas": {
+      "aprovacao-e-calendario": "The National Health Council approves the conference, its rules and its calendar; the Minister of Health ratifies them",
+      "etapa-estadual": "State and DF conferences consolidate the proposals and elect delegates for the national stage",
+      "etapa-municipal": "Municipal conferences debate the theme and its strands, approve proposals and elect delegates for the state stage",
+      "etapa-nacional": "The national conference, in Brasília, approves the guidelines for formulating health policy"
+    },
+    "nome": "National Health Conference",
+    "resumo": "Every four years, municipal, state and national conferences assess the population's health and propose guidelines for health policy. The 18th runs from 2026 to July 2027."
+  },
+  "proc:consulta-sobre-a-legislacao-do-ibs-e-da-cbs": {
+    "etapas": {
+      "avaliacao": "Within 30 days, the other body accepts the draft, refers the disagreement to the Harmonisation Committee, or denies that the matter is common",
+      "consulta": "The taxpayer submits a written query on a specific fact to the CGIBS (IBS) or the Federal Revenue Service (CBS)",
+      "harmonizacao": "The Harmonisation Committee settles the disagreement by resolution; until then, the query is suspended",
+      "ineficaz": "The query is declared without effect and does not protect the applicant",
+      "minuta": "The body consulted prepares a draft answer and places it in a virtual environment shared with the other",
+      "solucao": "The tax ruling is issued, final and not open to appeal, binding the tax authority and the applicant on that fact"
+    },
+    "nome": "Tax ruling request on IBS and CBS legislation",
+    "resumo": "The taxpayer asks the tax authority how the law applies to his or her situation; the CGIBS and the Federal Revenue Service answer jointly on common rules, with the Harmonisation Committee settling disagreements."
+  },
+  "proc:criacao-de-consorcio-publico": {
+    "etapas": {
+      "alteracao-ou-extincao": "The general assembly approves the amendment or termination of the contract, which requires ratification by law",
+      "alterado": "The amended contract remains in force",
+      "contrato-de-consorcio": "With the ratification laws, the public consortium contract is concluded and the consortium acquires legal personality",
+      "contrato-de-programa": "If services are provided jointly, the obligations between entities and with the consortium go into a programme contract",
+      "contrato-de-rateio": "Each member entity provides funds to the consortium through an apportionment contract, signed every financial year",
+      "estatutos": "The general assembly approves the statutes, which organise the consortium's bodies",
+      "extinto": "The consortium is dissolved; programme contracts continue until they end",
+      "funcionamento": "The consortium operates under the oversight of the court of accounts that examines the accounts of its legal representative",
+      "protocolo-de-intencoes": "The entities that will form the consortium sign the protocol of intentions and publish it in the official press",
+      "ratificacao-por-lei": "Each entity's Legislature ratifies the protocol of intentions by law"
+    },
+    "nome": "Creation of a public consortium",
+    "resumo": "The entities sign a protocol of intentions, each Legislature ratifies it by law, and the consortium contract comes into being; funding comes through an apportionment contract."
+  },
+  "proc:crime-de-responsabilidade-de-ministro-do-stf-e-pgr": {
+    "etapas": {
+      "absolvicao": "If acquitted, the accused returns to office and receives the salary withheld",
+      "admissao": "The Senate votes, in a single round, on whether the complaint should be considered",
+      "afastamento": "From notification, the accused is suspended from office, becomes subject to criminal action and loses 1/3 of his or her salary",
+      "arquivamento": "The complaint is dismissed",
+      "comissao-especial": "Once received by the Steering Board, the complaint is read and sent to a special committee, which gives its view on whether it should be examined",
+      "condenacao": "The convicted person loses office and is barred from public office for eight years",
+      "defesa-e-instrucao": "The accused receives a copy of everything and replies; the committee gathers evidence and reports on the charge",
+      "denuncia": "A citizen files a complaint with the Senate against an STF Justice or the PGR for an impeachable offence",
+      "julgamento": "The Senate, presided over by the President of the STF, hears the witnesses and the parties and rules; conviction requires two-thirds",
+      "libelo-e-contrariedade": "The complainant submits the bill of indictment and then the accused submits the answer, with witnesses",
+      "pronuncia": "The Senate votes, in a single round, on whether the charge is well founded (indictment)"
+    },
+    "nome": "Proceedings against an STF Justice or the PGR for an impeachable offence",
+    "resumo": "Path of a citizen's complaint against an STF Justice or the PGR: the Senate alone admits it, indicts and tries; conviction requires two-thirds of the senators."
+  },
+  "proc:crime-de-responsabilidade-do-governador": {
+    "etapas": {
+      "absolvicao": "The governor is acquitted",
+      "afastamento": "The governor is suspended from office immediately",
+      "arquivamento": "The complaint is dismissed",
+      "assembleia": "The Assembly decides whether the complaint should be considered and then, by absolute majority, whether the charge is well founded",
+      "condenacao": "The governor loses office and is barred from public office, without prejudice to proceedings in the ordinary courts",
+      "denuncia": "A citizen files a complaint with the State Legislative Assembly against the governor for an impeachable offence",
+      "julgamento": "The trial court rules; conviction requires two-thirds of its members",
+      "tribunal-de-julgamento": "The Assembly elects five deputies and five appellate judges are drawn by lot to form the trial court"
+    },
+    "nome": "Proceedings against the governor for an impeachable offence",
+    "resumo": "Path of a complaint against the governor under Lei 1.079/1950: the Assembly finds the charge well founded by absolute majority and a court of deputies and appellate judges tries it."
+  },
+  "proc:crime-de-responsabilidade-do-presidente": {
+    "etapas": {
+      "absolvicao": "If acquitted, the President is rehabilitated and returns to office, if suspended",
+      "afastamento": "The President is suspended from office and the Vice-President takes over",
+      "arquivamento": "The complaint is dismissed and there are no proceedings",
+      "camara-ccjc": "The President of the Chamber notifies the accused and sends the request to the CCJC, which gives its report",
+      "camara-comissao-especial": "A special committee, with all parties, hears the accused and reports on the authorisation",
+      "camara-plenario": "The Chamber votes on the report; authorising proceedings requires two-thirds of the deputies (342 votes)",
+      "condenacao": "The President loses office and is barred from public office for eight years",
+      "condenacao-crime-comum": "If convicted, the President serves the penalties of criminal law and has his or her political rights suspended",
+      "denuncia": "A citizen files a complaint with the Chamber against the President for an impeachable offence",
+      "denuncia-do-pgr": "For an ordinary criminal offence, the PGR files an indictment against the President with the STF",
+      "julgamento": "The Senate, presided over by the President of the STF, rules; conviction requires two-thirds of the senators (54 votes)",
+      "recebimento": "The President of the Chamber examines the complaint and decides whether to accept it",
+      "senado-comissao-especial": "The Senate reads the authorisation and elects a special committee, which reports on opening proceedings",
+      "senado-instauracao": "The Senate decides, by simple majority, whether to open proceedings",
+      "senado-pronuncia": "After the defence and the evidence, the Senate decides, by simple majority, whether the charge is well founded (indictment)",
+      "stf-julgamento": "The STF tries the President for the ordinary criminal offence",
+      "stf-pede-autorizacao": "The President of the STF asks the Chamber for authorisation to open proceedings",
+      "stf-recebe-denuncia": "The STF decides whether to accept the indictment or criminal complaint"
+    },
+    "nome": "Proceedings against the President of the Republic (impeachment and ordinary crime)",
+    "resumo": "Path of a charge against the President: the Chamber authorises it by two-thirds; the Senate tries impeachable offences (impeachment) and the STF, ordinary crimes."
+  },
+  "proc:decreto-legislativo": {
+    "etapas": {
+      "arquivamento": "The rejected draft is shelved",
+      "camara-comissoes": "The Chamber's committees give their reports; a draft legislative decree always goes to the Plenary",
+      "camara-plenario": "The Chamber Plenary votes on the draft; as a rule, it passes by a majority of votes, with an absolute majority present",
+      "iniciadora-aprecia-emendas": "The originating House votes on the reviewing House's amendments, accepting or rejecting them",
+      "iniciativa": "A deputy, senator or committee introduces the draft legislative decree in their House",
+      "mensagem-do-presidente": "The President sends Congress the message with the act that requires approval or the request for authorisation",
+      "promulgacao": "The President of the Senate promulgates the legislative decree, without assent by the President of the Republic",
+      "senado-comissoes": "The Senate's committees give their reports; in some cases they decide alone (final committee decision)",
+      "senado-plenario": "The Senate Plenary votes on the draft; as a rule, it passes by a majority of votes, with an absolute majority present"
+    },
+    "nome": "Legislative process for a legislative decree",
+    "resumo": "Path of a draft legislative decree, an act of Congress on matters within its exclusive competence: it goes through both Houses and is not sent for assent."
+  },
+  "proc:demarcacao-de-terra-indigena": {
+    "etapas": {
+      "contestacao": "States, municipalities and interested parties may contest it or claim compensation",
+      "declaracao": "The Minister of Justice declares the boundaries by ministerial order, requests further inquiries or disapproves",
+      "envio": "Funai sends the case to the Minister of Justice, with opinions on the challenges",
+      "estudos": "Funai appoints an anthropologist and a technical group to identify and delimit the land",
+      "homologacao": "The President ratifies the demarcation by decree",
+      "registro": "Funai registers the land at the property registry and with the Federal Property Secretariat",
+      "relatorio": "Funai approves the report and publishes a summary in the DOU and the state official gazette"
+    },
+    "nome": "Demarcation of Indigenous land",
+    "resumo": "Funai identifies and delimits the land, interested parties contest it, the Minister of Justice declares the boundaries by ministerial order and the President ratifies them by decree."
+  },
+  "proc:denuncia-ao-tcu": {
+    "etapas": {
+      "apuracao": "The TCU investigates the report confidentially until it confirms that it is well founded",
+      "arquivamento": "The report is closed by a reasoned order",
+      "decisao-final": "The TCU decides and keeps the subject and authorship confidential only if essential to the security of society and the State",
+      "denuncia": "A citizen, political party, association or trade union reports an irregularity or illegality to the TCU",
+      "procedencia": "Is there evidence of irregularity or illegality?",
+      "processo-publico": "The subsequent acts of the case are public, and the accused have full right of defence"
+    },
+    "nome": "Reporting irregularities to the TCU",
+    "resumo": "Any citizen, party, association or trade union may report irregularities to the TCU. The inquiry is confidential until there is evidence; the whistleblower cannot be punished, except for bad faith."
+  },
+  "proc:desapropriacao-para-reforma-agraria": {
+    "etapas": {
+      "acao": "Incra brings the expropriation action in the Federal Courts, with a price offer",
+      "contestacao": "The owner may contest within 15 days, without disputing the social interest",
+      "decreto": "The President declares the property of social interest for land reform, by decree",
+      "imissao": "The federal judge puts Incra in possession of the property and summons the owner",
+      "sentenca": "The judge ratifies the price agreement or sets the compensation in the judgment",
+      "transferencia": "The judge issues the order transferring ownership to the expropriating party, for registration at the registry office",
+      "vistoria": "Incra enters the property to gather data, with prior written notice to the owner"
+    },
+    "nome": "Expropriation for land reform",
+    "resumo": "Incra inspects the property, the President declares the social interest by decree, Incra brings the action, and the federal judge sets the compensation and transfers the property."
+  },
+  "proc:despesa-nao-autorizada": {
+    "etapas": {
+      "avaliacao-dos-esclarecimentos": "Were clarifications provided, and are they sufficient?",
+      "consulta-ao-tcu": "The CMO asks the TCU for a conclusive opinion on the matter",
+      "deliberacao-do-congresso": "The National Congress deliberates on the suspension",
+      "encerramento": "The case does not go to the TCU",
+      "pedido-de-esclarecimentos": "Faced with signs of unauthorised expenditure, the CMO asks the responsible authority for clarification",
+      "pronunciamento-do-tcu": "Does the TCU consider the expenditure irregular?",
+      "proposta-de-sustacao": "The CMO proposes to the National Congress that the expenditure be suspended"
+    },
+    "nome": "Unauthorised expenditure: request for clarification and suspension",
+    "resumo": "How the budget committee of Congress responds to signs of unauthorised expenditure: it asks the government for explanations, consults the TCU and may propose suspending the spending."
+  },
+  "proc:eleicao-geral": {
+    "etapas": {
+      "apuracao": "Counting boards count the votes; TREs and the TSE tally them, apply the majority and proportional systems and proclaim the winners",
+      "convencoes": "Parties and federations hold conventions to choose candidates and decide on coalitions for majority races",
+      "diplomacao": "The Electoral Courts issue certificates of election to the winners and alternates",
+      "encerramento-do-alistamento": "The voter register closes: no voter registration or transfer request is accepted in the 150 days before the election",
+      "impugnacao": "Candidates, parties, federations, coalitions and the Public Prosecution Service may challenge registration requests",
+      "julgamento-dos-registros": "The Electoral Courts check eligibility and grounds for ineligibility and grant or refuse each registration",
+      "nomeacao-das-mesas": "The electoral judge appoints the members of the polling boards and designates the polling places",
+      "pedido-de-registro": "Parties, federations and coalitions ask the Electoral Courts to register the candidates",
+      "posse": "Taking office: the President on 5 January, governors on 6 January and members of the legislatures from 1 February of the following year",
+      "prazos-seis-meses": "Six months before: parties and federations registered with the TSE; candidates with residence and party membership; resignations",
+      "prestacao-de-contas": "Candidates and parties render campaign accounts; the Electoral Courts judge the winners' accounts before certification",
+      "primeiro-turno": "Voters across the country vote for President, governor, senator, federal deputy and state or district deputy",
+      "propaganda": "Campaign: electoral advertising allowed and free airtime on radio and TV",
+      "segundo-turno": "A new vote between the two leading candidates for President and, where applicable, for governor"
+    },
+    "nome": "General election (President, governors, senators and deputies)",
+    "resumo": "Every four years, on the first Sunday of October, the country elects the President, governors, senators and deputies. On 2026-10-01 the 2026 election was under way."
+  },
+  "proc:eleicao-municipal": {
+    "etapas": {
+      "apuracao": "Counting boards count and proclaim the results: mayor by majority; councillors by the proportional system",
+      "convencoes": "Conventions choose candidates for mayor, deputy mayor and councillor and decide on coalitions for mayor",
+      "diplomacao": "The electoral board issues certificates of election to the mayor, deputy mayor, councillors and alternates",
+      "encerramento-do-alistamento": "The voter register closes: no voter registration or transfer request is accepted in the 150 days before the election",
+      "impugnacao": "Candidates, parties, federations, coalitions and the Public Prosecution Service may challenge registration requests",
+      "julgamento-dos-registros": "The electoral judge grants or refuses the registration of municipal candidates",
+      "nomeacao-das-mesas": "The electoral judge appoints the members of the polling boards and designates the polling places",
+      "pedido-de-registro": "Parties, federations and coalitions ask the electoral judge to register the candidates",
+      "posse": "The mayor and deputy mayor take office on 1 January of the following year; councillors as set by the organic law",
+      "prazos-seis-meses": "Six months before: parties and federations registered; candidates with residence in the municipality and party membership; resignations",
+      "prestacao-de-contas": "Candidates and parties render campaign accounts; the Electoral Courts judge the winners' accounts before certification",
+      "primeiro-turno": "Voters in all municipalities vote for mayor and councillor on the same day",
+      "propaganda": "Campaign: electoral advertising and free airtime on radio and TV",
+      "segundo-turno": "A new vote between the two leading candidates for mayor"
+    },
+    "nome": "Municipal election (mayors and councillors)",
+    "resumo": "Every four years, two years after the general election, all municipalities elect a mayor, deputy mayor and councillors on the same day. The next one after the reference date is in 2028."
+  },
+  "proc:emenda-constitucional": {
+    "etapas": {
+      "arquivamento": "A rejected or lapsed proposal is shelved; the subject cannot return in the same legislative session",
+      "camara-ccjc": "The President of the Chamber sends the proposal to the CCJC, which decides whether it is admissible",
+      "camara-comissao-especial": "A special committee, created by the President of the Chamber, examines the merits and gives its report",
+      "camara-plenario": "The Plenary votes in two rounds; the proposal needs 3/5 of the deputies (308 votes) in each round",
+      "iniciativa": "The proposal is submitted by 1/3 of the deputies or senators, the President, or more than half of the State Legislative Assemblies",
+      "promulgacao": "The Steering Boards of the Chamber and the Senate promulgate the amendment, with its serial number, in a session of Congress",
+      "senado-ccj": "The Senate CCJ gives its report on the proposal and the amendments",
+      "senado-plenario": "The Plenary votes in two rounds; the proposal needs 3/5 of the senators (49 votes) in each round"
+    },
+    "nome": "Constitutional amendment process",
+    "resumo": "Path of a proposed constitutional amendment (PEC): two rounds in each House, 3/5 of the votes and promulgation by the Steering Boards, without assent."
+  },
+  "proc:emprego-das-forcas-armadas-na-glo": {
+    "etapas": {
+      "ativacao": "After a message from the President, the operational bodies act on an occasional basis, in a defined area and for a limited time",
+      "controle-operacional": "The competent authority transfers operational control of the necessary police forces to the authority in charge of the operation",
+      "decisao": "The President decides whether to deploy the Armed Forces and orders the Minister of Defence to activate the operational bodies",
+      "esgotamento": "The head of the federal or state Executive recognises that the police forces of art. 144 are unavailable or insufficient",
+      "fim": "The deployment ends when the defined time and area run out",
+      "iniciativa": "The President acts on his or her own initiative or at the request of a Branch, made by the President of the STF, the Senate or the Chamber"
+    },
+    "nome": "Use of the Armed Forces to guarantee law and order",
+    "resumo": "How the Armed Forces come to act in public order: a request from a Branch or the President's own initiative, recognition that the police are exhausted, and the President's decision."
+  },
+  "proc:escolha-do-defensor-publico-geral-do-estado": {
+    "etapas": {
+      "escolha": "The governor chooses one of the three names",
+      "investidura-automatica": "The defender with most votes is automatically vested in the post",
+      "lista-triplice": "Members of the career elect the three-name list by direct, secret, multi-name and compulsory vote",
+      "mandato": "The Public Defender General serves a two-year term of office, renewable once",
+      "nomeacao": "The governor appoints the person chosen"
+    },
+    "nome": "Selection of the state Public Defender General",
+    "resumo": "The state's defenders elect a three-name list; the governor appoints one of the three within 15 days, or the one with most votes takes office automatically."
+  },
+  "proc:escolha-do-defensor-publico-geral-federal": {
+    "etapas": {
+      "aprovacao": "The Senate questions the nominee in a public session and approves or rejects the name",
+      "indicacao": "The President of the Republic chooses one of the three and sends the name to the Senate",
+      "lista-triplice": "Members of the career elect the three-name list by direct, secret, multi-name and compulsory vote",
+      "mandato": "The Federal Public Defender General serves a two-year term of office, renewable once",
+      "nomeacao": "The President of the Republic appoints the approved nominee"
+    },
+    "nome": "Selection of the Federal Public Defender General",
+    "resumo": "Federal defenders elect a three-name list; the President chooses one of the three, the Senate approves by absolute majority and the President appoints."
+  },
+  "proc:escolha-do-procurador-geral-da-justica-militar": {
+    "etapas": {
+      "lista-triplice": "The College of Military Justice Prosecutors elects the three-name list by multi-name, optional and secret vote",
+      "mandato": "The Prosecutor General of Military Justice serves a two-year term of office, renewable once by the same procedure",
+      "nomeacao": "The Prosecutor General of the Republic appoints one of the three and swears him or her in"
+    },
+    "nome": "Selection of the Prosecutor General of Military Justice",
+    "resumo": "Members of the MPM elect a three-name list, and the Prosecutor General of the Republic appoints one of the three for a two-year term of office."
+  },
+  "proc:escolha-do-procurador-geral-de-justica": {
+    "etapas": {
+      "escolha": "The governor chooses one of the three names",
+      "investidura-automatica": "The one with most votes on the list is automatically vested in the post",
+      "lista-triplice": "All members of the career elect the three-name list by multi-name vote",
+      "mandato": "The Prosecutor General of Justice serves a two-year term of office, renewable once",
+      "nomeacao": "The governor appoints the person chosen"
+    },
+    "nome": "Selection of the state Prosecutor General of Justice",
+    "resumo": "Members of the state MP elect a three-name list; the governor appoints one of the three within 15 days, or the one with most votes takes office automatically."
+  },
+  "proc:escolha-do-procurador-geral-de-justica-do-mpdft": {
+    "etapas": {
+      "encaminhamento": "The Prosecutor General of the Republic forwards the three-name list to the President of the Republic",
+      "lista-triplice": "The College of Prosecutors elects the three-name list by multi-name, optional and secret vote",
+      "mandato": "The Prosecutor General of Justice serves a two-year term of office, renewable once after a new list",
+      "nomeacao": "The President of the Republic appoints one of the three",
+      "posse": "The Prosecutor General of the Republic swears in the appointee"
+    },
+    "nome": "Selection of the Prosecutor General of Justice of the MPDFT",
+    "resumo": "Members of the MPDFT elect a three-name list, the PGR forwards it to the President of the Republic, who appoints one of the three for a two-year term of office."
+  },
+  "proc:escolha-do-procurador-geral-do-trabalho": {
+    "etapas": {
+      "lista-triplice": "The College of Labour Prosecutors elects the three-name list by multi-name, optional and secret vote",
+      "mandato": "The Prosecutor General of Labour serves a two-year term of office, renewable once by the same procedure",
+      "nomeacao": "The Prosecutor General of the Republic appoints one of the three and swears him or her in"
+    },
+    "nome": "Selection of the Prosecutor General of Labour",
+    "resumo": "Members of the MPT elect a three-name list, and the Prosecutor General of the Republic appoints one of the three for a two-year term of office."
+  },
+  "proc:estado-de-defesa": {
+    "etapas": {
+      "congresso-decide": "The National Congress approves or rejects the decree",
+      "consulta-conselhos": "The President hears the Council of the Republic and the National Defence Council",
+      "decreto": "The President decrees the state of defence, with its duration, the areas covered and the coercive measures",
+      "execucao": "The measures are carried out, overseen by a committee of Congress",
+      "fim": "The state of defence ends",
+      "prorrogacao": "The President extends the state of defence once, for up to 30 days",
+      "relatorio-final": "Once the measure ends, the President reports to Congress on the steps taken and the persons affected",
+      "submissao-ao-congresso": "The President sends the decree and its justification to Congress within 24 hours"
+    },
+    "nome": "State of defence",
+    "resumo": "Emergency measure, for up to 30 days extendable once, in restricted and specified places, to deal with serious and imminent institutional instability or a major natural disaster."
+  },
+  "proc:estado-de-sitio": {
+    "etapas": {
+      "congresso-decide": "The National Congress authorises or refuses the state of siege",
+      "consulta-conselhos": "The President hears the Council of the Republic and the National Defence Council",
+      "convocacao-extraordinaria": "The President of the Senate convenes Congress to meet within 5 days",
+      "decreto": "The President decrees the state of siege and then designates the executor and the areas covered",
+      "execucao": "The measures are carried out; Congress keeps working and a committee oversees them",
+      "fim": "The state of siege ends",
+      "fim-sem-sitio": "Without authorisation from Congress, there is no state of siege",
+      "relatorio-final": "Once the measure ends, the President reports to Congress on the steps taken and the persons affected",
+      "solicitacao": "The President asks Congress for authorisation to decree a state of siege, setting out the reasons"
+    },
+    "nome": "State of siege",
+    "resumo": "Emergency measure more serious than the state of defence: it requires prior authorisation from Congress and may suspend constitutional guarantees."
+  },
+  "proc:execucao-da-despesa": {
+    "etapas": {
+      "despesa-paga": "Expenditure paid",
+      "empenho": "The unit commits the expenditure: it reserves the appropriation and creates the obligation to pay",
+      "limitacao-de-empenho": "If revenue cannot meet the fiscal targets, each Branch and the Public Prosecution Service limit commitments and payments",
+      "liquidacao": "The unit verifies the expenditure: it checks the delivery and the exact amount to be paid",
+      "pagamento": "The authority orders payment and the money leaves the treasury",
+      "programacao-financeira": "The Executive sets the financial programming and the monthly disbursement schedule",
+      "restos-a-pagar": "What was committed and not paid by 31 December is entered as outstanding payables"
+    },
+    "nome": "Execution of public expenditure",
+    "resumo": "How budget money is spent: financial programming, commitment, verification and payment; what remains unpaid at year-end becomes outstanding payables (restos a pagar)."
+  },
+  "proc:expropriacao-confiscatoria": {
+    "etapas": {
+      "acao": "The Union brings the expropriation action",
+      "citacao": "The judge orders the owners to be summoned, appoints an expert and may put the Union in possession",
+      "contestacao": "The owners may contest",
+      "incorporacao": "Once the judgment is final, the property is incorporated into the Union's assets",
+      "sentenca": "The judge holds the hearing and gives judgment"
+    },
+    "nome": "Expropriation of land with illegal cultivation of psychotropic plants",
+    "resumo": "The Union asks the courts to expropriate the land; the judge may immediately put it in possession and, at the end, the property passes to the Union without compensation."
+  },
+  "proc:extradicao": {
+    "etapas": {
+      "arquivamento": "The request is closed by a reasoned decision; it may be renewed",
+      "defesa": "The rapporteur in the STF questions the person sought, appoints a defence lawyer if needed and sets a deadline for the defence",
+      "entrega": "The Executive authorises the surrender, and the decision is communicated to the requesting State through diplomatic channels",
+      "julgamento": "The STF rules on the lawfulness and merits of the request, with no appeal",
+      "negada": "Extradition refused; no new request for the same facts is allowed",
+      "pedido": "The Executive receives the foreign State's request and checks the formal requirements",
+      "retirada": "The requesting State removes the person from the country; if it fails to do so within the deadline, the person is released"
+    },
+    "nome": "Extradition requested by a foreign State",
+    "resumo": "The Executive receives the request and checks its form; the STF decides whether the extradition is lawful and well founded; if it is, the Executive authorises the surrender."
+  },
+  "proc:habeas-data": {
+    "etapas": {
+      "cumprimento": "On the set day, the person responsible shows the data to the petitioner or proves in court the correction or annotation",
+      "denegacao": "Habeas data is refused; if the decision did not examine the merits, the request may be renewed",
+      "despacho-inicial": "The judge dismisses the petition or notifies the person responsible for the data to provide information",
+      "impetracao": "If the request to the body is refused or unanswered, the person files the petition with the judge, with proof of the refusal",
+      "indeferimento": "The petition is dismissed and the case ends, unless there is an appeal",
+      "ministerio-publico": "Once the deadline for information has passed, the Public Prosecution Service is heard",
+      "recurso": "The court decides the appeal; if habeas data was granted, the appeal does not suspend the judgment",
+      "sentenca": "The judge decides; if the petition is upheld, the judge sets a day and time for the respondent to show the data or prove the correction"
+    },
+    "nome": "Habeas data",
+    "resumo": "How someone obtains through the courts access to or correction of data about themselves in public records, after the body refuses or fails to reply: petition, information, Public Prosecution Service and judgment within 5 days."
+  },
+  "proc:incorporacao-de-tecnologia-no-sus": {
+    "etapas": {
+      "analise": "Conitec checks the request, prepares a technical report and issues a preliminary recommendation",
+      "consulta-publica": "The preliminary recommendation goes to public consultation",
+      "decisao": "The Ministry of Health decides and publishes the decision in the Official Gazette of the Union",
+      "fim": "Technology or protocol adopted, removed or changed in the SUS, or request refused",
+      "recomendacao-final": "The Conitec committee deliberates on the final recommendation",
+      "recurso": "If the Secretary does not reconsider, the Minister of Health decides the appeal",
+      "requerimento": "A request for adoption, removal or change is filed, with documents and studies"
+    },
+    "nome": "Adoption of technology in the SUS",
+    "resumo": "How a medicine, product or procedure enters (or leaves) the SUS: request, analysis by Conitec, public consultation and decision by the Ministry of Health."
+  },
+  "proc:instituicao-de-regiao-metropolitana": {
+    "etapas": {
+      "estudos-e-audiencias": "The state carries out technical studies and public hearings with all the municipalities of the future unit",
+      "governanca": "The state and the municipalities included begin to carry out the region's inter-federative governance",
+      "lei-complementar-estadual": "The Assembly passes the complementary law establishing the region, with its municipalities, common functions and governance"
+    },
+    "nome": "Establishment of a metropolitan region or urban agglomeration",
+    "resumo": "After technical studies and public hearings, the state establishes the metropolitan region by complementary law, which defines the municipalities, common functions and governance."
+  },
+  "proc:intervencao-estadual": {
+    "etapas": {
+      "assembleia-aprecia": "The State Legislative Assembly approves or rejects the intervention",
+      "cessacao": "Once the reasons cease, the removed authorities return to their posts, unless legally barred",
+      "decreto": "The governor decrees the intervention, with its scope, duration, conditions and, where applicable, the intervenor",
+      "execucao": "The intervention is carried out under the decree, by the intervenor where there is one",
+      "fim-sem-intervencao": "If the petition is not upheld, there is no intervention",
+      "hipotese": "One of the cases of art. 35 occurs, the only ones that allow the state to intervene in the municipality",
+      "representacao-ao-tj": "The Prosecutor General of Justice petitions the State Court of Justice for intervention",
+      "representacao-da-camara": "The Municipal Council petitions the governor for intervention",
+      "submissao-a-assembleia": "The decree is submitted to the State Legislative Assembly within 24 hours",
+      "tj-julga-representacao": "The State Court of Justice rules on the petition and, if it upholds it, requests the governor to intervene"
+    },
+    "nome": "State intervention in municipalities",
+    "resumo": "The state temporarily intervenes in a municipality, only in the four cases of art. 35, by decree of the governor, as a rule submitted to the State Legislative Assembly."
+  },
+  "proc:intervencao-federal": {
+    "etapas": {
+      "cessacao": "Once the reasons cease, the removed authorities return to their posts, unless legally barred",
+      "congresso-aprecia": "The National Congress approves or rejects the intervention",
+      "consulta-conselhos": "The Council of the Republic and the National Defence Council may be heard on the intervention",
+      "decreto": "The President decrees the intervention, with its scope, duration, conditions and, where applicable, the intervenor",
+      "execucao": "The intervention is carried out under the decree, by the intervenor where there is one",
+      "fim-sem-intervencao": "If the petition is not upheld, there is no intervention",
+      "hipotese": "The President identifies one of the cases of art. 34 that allow intervention in a state or the DF",
+      "representacao-do-pgr": "The Prosecutor General of the Republic files a petition for intervention with the STF",
+      "solicitacao-ou-requisicao": "The coerced state Branch requests the intervention, or the STF, the STJ or the TSE requires it",
+      "stf-julga-representacao": "The STF rules on the Prosecutor General's petition",
+      "submissao-ao-congresso": "The decree is submitted to the National Congress within 24 hours"
+    },
+    "nome": "Federal intervention",
+    "resumo": "The Union temporarily intervenes in a state or the DF, only in the cases of art. 34, by decree of the President, as a rule submitted to Congress."
+  },
+  "proc:julgamento-de-contas-pelo-tcu": {
+    "etapas": {
+      "citacao-ou-audiencia": "The rapporteur orders the person responsible to be summoned, if there is a debt, or heard at a hearing, if there is not",
+      "condenacao": "The TCU orders the person responsible to pay the debt, may impose a fine, and the ruling becomes an enforceable title",
+      "contas-anuais": "Internal control audits the annual accounts of the person responsible and issues a report, certificate and opinion",
+      "instrucao": "The rapporteur presides over the fact-finding, and the TCU's technical unit examines the accounts",
+      "irregularidade": "Are there irregularities in the accounts?",
+      "julgamento": "The TCU judges the accounts regular, regular with reservations or irregular",
+      "pagamento-ou-cobranca": "The person responsible pays and receives a discharge; if not, the TCU orders the amount to be deducted or collected through the courts",
+      "parecer-do-mp": "The Public Prosecution Service at the TCU gives an opinion, mandatory in accounts cases",
+      "pronunciamento-do-ministro": "The supervising Minister of State attests to knowing the internal control's findings on the accounts",
+      "quitacao": "The TCU discharges the person responsible; for accounts with reservations, it orders the faults to be corrected",
+      "recursos": "The person responsible or the Public Prosecution Service at the TCU may appeal the decision",
+      "tce-instauracao": "In case of loss to the public purse or accounts not rendered, a special accounts review is opened",
+      "trancamento": "The TCU locks the accounts that cannot be settled and closes the case"
+    },
+    "nome": "Judgment of accounts by the TCU",
+    "resumo": "How the TCU judges the accounts of those who manage federal money: internal control audit, fact-finding, defence, opinion of the Public Prosecution Service, judgment and collection."
+  },
+  "proc:lei-complementar": {
+    "etapas": {
+      "arquivamento": "The rejected bill is shelved; in the same legislative session it can return only on a proposal by an absolute majority of a House",
+      "camara-aprecia-emendas-do-senado": "The Chamber, as the originating House, accepts or rejects the Senate's amendments",
+      "camara-comissoes": "The Chamber's committees give their reports; unlike for an ordinary law, they never decide alone",
+      "camara-plenario": "The Plenary votes in two rounds; passage requires an absolute majority of the deputies (257 votes)",
+      "iniciativa": "Introduces the complementary bill; those who may propose it are the same as for an ordinary law",
+      "publicacao-e-vigencia": "The complementary law is published in the Official Gazette and enters into force on the date it sets or, if silent, after 45 days",
+      "sancao-veto-e-promulgacao": "Assent, veto, review of the veto and promulgation follow the same rules as for an ordinary law",
+      "senado-aprecia-emendas-da-camara": "The Senate, as the originating House, accepts or rejects the Chamber's amendments",
+      "senado-comissoes": "The Senate's committees give their reports; final committee decisions do not apply to complementary laws",
+      "senado-plenario": "The Plenary votes in a single round; passage requires an absolute majority of the senators (41 votes)"
+    },
+    "nome": "Legislative process for a federal complementary law",
+    "resumo": "Path of a complementary bill: like an ordinary law, but always voted on in the Plenaries and passed by an absolute majority of each House."
+  },
+  "proc:lei-delegada": {
+    "etapas": {
+      "comissao-mista-parecer": "A joint committee gives its report and proposes the resolution setting the content, terms and deadline of the delegation",
+      "congresso-aprecia-projeto": "If the resolution so requires, Congress votes on the President's text in a single vote, without amendments",
+      "congresso-delibera-resolucao": "Deputies and senators, in a joint session, debate and vote on the draft delegation resolution",
+      "delegacao-insubsistente": "If the deadline passes without the President acting, the delegation lapses",
+      "elaboracao": "The President drafts the delegated law within the content and deadline set by the resolution",
+      "promulgacao-da-resolucao": "The President of the Senate promulgates the delegation resolution and notifies the President of the Republic",
+      "promulgacao-e-publicacao": "The President of the Republic promulgates the delegated law, which is published in the Official Gazette of the Union",
+      "rejeicao": "Congress rejects the delegation or the text, and there is no delegated law",
+      "solicitacao": "The President of the Republic asks Congress for delegated power to legislate on a subject",
+      "vigencia": "The delegated law enters into force on the date it sets or, if silent, 45 days after publication"
+    },
+    "nome": "Delegated law process",
+    "resumo": "The President asks Congress for powers to legislate on a subject; Congress grants them by resolution, and the President issues the law."
+  },
+  "proc:lei-estadual": {
+    "etapas": {
+      "apreciacao-do-veto": "The Assembly upholds or overrides the veto",
+      "arquivamento": "The rejected bill is shelved",
+      "assembleia-votacao": "The Assembly's committees and Plenary examine and vote on the bill; there is no reviewing House",
+      "iniciativa": "Introduces the bill in the State Legislative Assembly",
+      "promulgacao-e-publicacao": "The governor promulgates and publishes the law; if not, the president of the Assembly promulgates it",
+      "sancao-ou-veto": "The governor assents to or vetoes, in whole or in part, the bill passed",
+      "veto-mantido": "The veto is upheld and the vetoed part does not become law",
+      "vigencia": "The law enters into force on the date it sets; if it sets none, 45 days after publication"
+    },
+    "nome": "Legislative process for a state law",
+    "resumo": "Path of a bill in a typical state: it follows the basic lines of the federal process, but in a single House, the State Legislative Assembly, with the governor's assent or veto."
+  },
+  "proc:lei-municipal": {
+    "etapas": {
+      "apreciacao-do-veto": "The Municipal Council upholds or overrides the veto",
+      "arquivamento": "The rejected bill is shelved",
+      "camara-votacao": "The Municipal Council's committees and Plenary examine and vote on the bill; there is no reviewing House",
+      "iniciativa": "Introduces the bill in the Municipal Council",
+      "promulgacao-e-publicacao": "The mayor promulgates the law; if the mayor fails to do so within 48 hours, the president of the Council promulgates it",
+      "sancao-ou-veto": "The mayor assents to or vetoes, in whole or in part, the bill passed",
+      "veto-mantido": "The veto is upheld and the vetoed part does not become law",
+      "vigencia": "The law enters into force on the date it sets; if it sets none, 45 days after publication"
+    },
+    "nome": "Legislative process for a municipal law",
+    "resumo": "Path of a bill in a typical municipality: it follows the basic lines of the federal process, in a single House, the Municipal Council, with the mayor's assent or veto."
+  },
+  "proc:lei-ordinaria": {
+    "etapas": {
+      "apreciacao-do-veto": "Deputies and senators, in a joint session, uphold or override the veto; overriding requires an absolute majority in each House",
+      "arquivamento": "The rejected bill is shelved; in the same legislative session it can return only on a proposal by an absolute majority of a House",
+      "arquivamento-fim-da-legislatura": "At the end of the legislature, a bill still pending in the House is shelved, subject to the exceptions in each set of internal rules",
+      "camara-aprecia-emendas-do-senado": "The Chamber, as the originating House, votes on the Senate's amendments, accepting or rejecting them",
+      "camara-comissoes": "Subject committees, the CFT (finance) and the CCJC (constitutionality) give their reports and vote on the bill",
+      "camara-distribuicao": "Assigns the bill to committees and states whether they decide alone (conclusive review) or the Plenary votes",
+      "camara-plenario": "The Plenary debates and votes; it passes by a majority of votes, with an absolute majority of the deputies present",
+      "camara-prazo-de-recurso": "Opens a period for one-tenth of the deputies to appeal to the Plenary against the committees' decision",
+      "envio-a-sancao": "The House where voting ended sends the bill passed (enrolled bill) to the President of the Republic",
+      "iniciativa": "Introduces the bill",
+      "iniciativa-popular": "Voters submit a bill to the Chamber signed by 1% of the electorate, from at least 5 states (0.3% in each)",
+      "promulgacao": "Promulgates the law, declaring that it exists and must be obeyed",
+      "promulgacao-pelo-presidente-do-senado": "Promulgates the law in place of the President of the Republic",
+      "promulgacao-pelo-vice-presidente-do-senado": "Promulgates the law when neither the President of the Republic nor the President of the Senate has done so",
+      "publicacao": "The law is published in the Official Gazette of the Union",
+      "sancao": "Assents to the bill, which thereby becomes law",
+      "sancao-tacita": "The President's silence for 15 working days counts as assent",
+      "senado-aprecia-emendas-da-camara": "The Senate, as the originating House, votes on the Chamber's amendments, accepting or rejecting them, without sub-amendments",
+      "senado-comissoes": "Committees give their reports; in final-decision cases, they approve or reject the bill without going to the Plenary",
+      "senado-distribuicao": "Assigns the bill to committees and states whether their decision will be final",
+      "senado-plenario": "The Plenary debates and votes; it passes by a majority of votes, with an absolute majority of the senators present",
+      "senado-prazo-de-recurso": "Opens a period for one-tenth of the senators to appeal to the Plenary against the final committee decision",
+      "veto": "Vetoes the whole bill or entire articles, paragraphs, items or sub-items and informs the Senate of the reasons",
+      "veto-mantido": "The veto is upheld and the vetoed part does not become law",
+      "vigencia": "The law enters into force on the date it sets; if it sets none, 45 days after publication"
+    },
+    "nome": "Legislative process for a federal ordinary law",
+    "resumo": "Path of a federal ordinary bill, from introduction to entry into force, through the Chamber, the Senate and the President."
+  },
+  "proc:licenciamento-ambiental": {
+    "etapas": {
+      "admissao": "The licensing entity checks whether the impact study submitted (EIA/Rima) meets the terms of reference",
+      "audiencia-publica": "The licensing entity holds at least one public hearing before deciding on the preliminary licence",
+      "licenca-de-instalacao": "The licensing entity grants or refuses the installation licence, based on the basic environmental plan",
+      "licenca-de-operacao": "The licensing entity grants the operating licence, after checking the conditions",
+      "licenca-previa": "The licensing entity grants or refuses the preliminary licence (environmental feasibility)",
+      "manifestacoes": "Authorities involved and other interested entities may give their views, without binding the decision",
+      "negada": "Licence refused: the activity cannot be set up or operated",
+      "supletiva": "Another entity takes over the licensing on a supplementary basis and restarts the review period",
+      "termo-de-referencia": "The licensing entity receives the application and defines the studies required (terms of reference)"
+    },
+    "nome": "Environmental licensing (three-stage procedure)",
+    "resumo": "A single entity grants the licence: it defines the studies, hears the public and interested parties without being bound by their views, and issues the preliminary, installation and operating licences."
+  },
+  "proc:licitacao-de-empresa-estatal": {
+    "etapas": {
+      "habilitacao": "The company checks the winner's qualification: legal capacity, technical qualifications and financial standing",
+      "homologacao": "The contract is awarded and the result ratified; the winner acquires the right to sign the contract",
+      "julgamento": "The company evaluates the bids by the criterion in the notice, such as lowest price, highest discount or technique and price",
+      "negociacao": "The company negotiates with the first-placed bidder and, if the price is still above budget, with the next ones",
+      "preparacao": "The company prepares the tender and publishes the notice in the official gazette and online",
+      "propostas": "Bidders submit successive public bids (open auction) or sealed bids (closed auction)",
+      "recursos": "Single appeal stage: bidders appeal within 5 working days against the qualification, the evaluation and the check",
+      "revogacao": "The tender is revoked in the public interest or because the price is above budget, or annulled for illegality",
+      "verificacao": "The company checks the best bids and disqualifies those that are flawed, unworkable or above budget"
+    },
+    "nome": "Public tender by a state-owned company",
+    "resumo": "The stages of tenders by state-owned and mixed-capital companies under the State-Owned Companies Law: notice, bids, evaluation, negotiation, qualification, single appeal and ratification."
+  },
+  "proc:mandado-de-injuncao": {
+    "etapas": {
+      "denegacao": "The petition is refused or becomes moot; if refused for lack of evidence, it may be renewed with new evidence",
+      "despacho-inicial": "The rapporteur dismisses a petition that is manifestly inadmissible or unfounded, or notifies the respondent to provide information",
+      "exercicio-do-direito": "The right is exercised under the conditions set by the court until the rule is issued",
+      "impetracao": "The holder of the right files for a writ of injunction against whoever should issue the rule",
+      "indeferimento": "The petition is dismissed outright and ends, unless an interlocutory appeal is upheld",
+      "julgamento": "The court decides whether there is an omission; if so, it sets a deadline for the rule and the conditions for exercising the right",
+      "ministerio-publico": "Once the deadline for information has passed, the Public Prosecution Service gives an opinion",
+      "norma-editada": "The rule is issued and governs the exercise of the right",
+      "prazo-para-a-norma": "The deadline set by the court for the defaulting authority to issue the rule runs"
+    },
+    "nome": "Writ of injunction (mandado de injunção)",
+    "resumo": "How someone asks the courts to make up for the lack of a rule that prevents the exercise of a constitutional right: petition, information from the defaulting authority, Public Prosecution Service and a deadline for the rule to be issued."
+  },
+  "proc:mandado-de-seguranca": {
+    "etapas": {
+      "decisao-final": "The decision becomes final; if it refuses the writ without ruling on the merits, the interested party may go to court by another action",
+      "despacho-inicial": "The judge dismisses the petition or notifies the authority, informs the entity's legal defence body and decides on the preliminary injunction",
+      "impetracao": "The interested party files the petition with the competent judge, naming the respondent authority",
+      "indeferimento": "The petition is dismissed and the case ends, unless there is an appeal or an interlocutory appeal",
+      "ministerio-publico": "Once the deadline for information has passed, the Public Prosecution Service gives an opinion",
+      "recurso": "The court re-examines the judgment on appeal or, if the writ was granted, automatically",
+      "sentenca": "With or without the opinion, the judge grants or refuses the writ",
+      "suspensao-de-seguranca": "The president of the court may suspend the injunction or the judgment to avoid serious harm to the public interest"
+    },
+    "nome": "Writ of mandamus (mandado de segurança)",
+    "resumo": "How someone protects in court a clear and certain right against an unlawful act by an authority: petition within 120 days, preliminary injunction, information, opinion of the Public Prosecution Service and judgment within 30 days."
+  },
+  "proc:medida-provisoria": {
+    "etapas": {
+      "camara-aprecia-modificacoes": "The Chamber votes on the Senate's changes in a single round, without making new changes",
+      "camara-plenario": "The Chamber first decides whether there is relevance and urgency and, if so, votes on the merits",
+      "comissao-mista-designacao": "The President of Congress creates the joint committee; deputies and senators submit amendments within 6 days",
+      "comissao-mista-parecer": "The joint committee votes on a report on constitutionality, urgency and relevance, finances and merits",
+      "conversao-em-lei": "The measure converted into law is published in the Official Gazette of the Union",
+      "decreto-legislativo-editado": "The President of the Senate promulgates the legislative decree governing the effects of the measure",
+      "decreto-legislativo-efeitos": "Congress must regulate, by legislative decree, what happened while the measure was in force",
+      "edicao": "Issues the provisional measure, which has the force of law from publication, and sends it immediately to Congress",
+      "envio-a-sancao": "The conversion bill goes for assent; assent and veto follow the rules for an ordinary law",
+      "perda-de-eficacia": "If voting is not completed in both Houses within 60 + 60 days, the measure loses effect from issue",
+      "promulgacao-sem-alteracao": "If approved without changes to the merits, the measure is promulgated by the President of Congress and published as law",
+      "rejeicao": "If rejected by one House, the measure loses effect from issue and cannot be reissued in the same legislative session",
+      "relacoes-preservadas": "Without a legislative decree within 60 days, acts performed while it was in force remain governed by the measure",
+      "senado-plenario": "The Senate also decides on relevance and urgency and then votes on the merits"
+    },
+    "nome": "Passage of a provisional measure",
+    "resumo": "Path of a provisional measure: it has the force of law from issue, goes through a joint committee, the Chamber and the Senate, and becomes law or loses effect."
+  },
+  "proc:nova-eleicao": {
+    "etapas": {
+      "apuracao-e-diplomacao": "The counting board or the TRE counts the votes, reviews the previous count and confirms or invalidates certificates of election already issued",
+      "decisao-que-anula": "The Electoral Courts annul votes or polling stations, or strip the winner of a majority race of registration, certificate of election or mandate",
+      "marcacao-da-nova-eleicao": "The court schedules the new election, direct or, for governor and mayor, indirect in the last six months of the term",
+      "provocacao-pelo-ministerio-publico": "If the TRE does not schedule the new election, the Electoral Public Prosecution Service asks the TSE to schedule it",
+      "renovacao-nas-secoes": "The TRE orders repeat voting only in the annulled polling stations; the President of the TRE sets the date",
+      "votacao": "Voters vote again before the polling boards"
+    },
+    "nome": "New election and repeat voting",
+    "resumo": "When the Electoral Courts annul votes that change the result or remove the winner of a majority race from office, voters vote again, in some polling stations or in the whole constituency."
+  },
+  "proc:orcamento-do-cgibs": {
+    "etapas": {
+      "elaboracao": "The Administrative Directorate drafts the proposal, and the President of the CGIBS presents the preliminary proposal to the Higher Council",
+      "execucao": "The Higher Council approves the expenditure breakdown, and the CGIBS withholds the approved percentage from each entity",
+      "manifestacao-dos-legislativos": "The Legislatures of the entities of the full members approve or reject the proposals; silence counts as approval",
+      "nova-proposta": "Upon rejection, the CGIBS executes the last approved budget, adjusted, in monthly twelfths, and publishes a new proposal",
+      "proposta": "The Higher Council proposes the percentage of IBS allocated to the CGIBS and the following year's budget, published in the DOU"
+    },
+    "nome": "Approval of the CGIBS budget",
+    "resumo": "The Higher Council proposes by 31 July the IBS percentage and the following year's budget; the Legislatures of the represented entities may reject them within 30 days."
+  },
+  "proc:pagamento-de-precatorio": {
+    "etapas": {
+      "comunicacao": "The court notifies the debtor entity of the precatórios submitted by 1 February, for the following year's budget",
+      "condenacao": "The judgment against the public treasury becomes final, and the enforcement court issues the payment requisition",
+      "fim": "The claim is paid",
+      "inscricao": "The president of the court checks the precatório and enters it in the debtor entity's chronological order",
+      "orcamento": "The debtor entity includes in its budget the funds to pay the precatórios, allocated directly to the Judiciary",
+      "pagamento": "The president of the court orders payment by the end of the following financial year, in chronological order and with the priorities",
+      "pago": "Was the creditor paid in order and on time?",
+      "pequeno-valor": "Is the amount within the small-value limit set by the debtor entity's law?",
+      "rpv": "The judge requisitions payment directly from the authority summoned in the case, which pays within 60 days, without a precatório",
+      "sequestro": "At the creditor's request, the president of the court authorises seizure of the amount"
+    },
+    "nome": "Payment of a court judgment against the public treasury (precatório)",
+    "resumo": "How the public authorities pay a final judgment: requisition by the judge, entry by the president of the court, inclusion in the budget and payment in chronological order."
+  },
+  "proc:pedido-de-acesso-a-informacao": {
+    "etapas": {
+      "fim-acesso": "The requester receives the information, in full or with the confidential part redacted",
+      "fim-negado": "Access is refused at the administrative level",
+      "pedido": "The body's SIC receives the request, which need only identify the requester and the information, without stating a reason",
+      "pedido-de-desclassificacao": "If declassification is refused within the body, the requester appeals to the Minister concerned",
+      "reclamacao": "If there is no reply, the requester complains to the monitoring authority, which decides within 5 days",
+      "recurso-cgu": "The CGU decides the appeal within 5 days and, if it upholds it, orders the body to comply with the law within a deadline it sets",
+      "recurso-cmri": "The Joint Commission for the Reassessment of Information decides the last administrative appeal",
+      "recurso-no-orgao": "The authority above the one that refused decides the appeal within 5 days; in the Executive, a further appeal lies to the highest authority",
+      "resposta": "The body grants immediate access or replies within 20 days, extendable by another 10"
+    },
+    "nome": "Access to information request in the federal Executive",
+    "resumo": "How a request under the Access to Information Law is answered and appealed in the federal Executive: reply within 20 days, appeals within the body, to the CGU and to the Joint Commission."
+  },
+  "proc:perda-de-mandato-parlamentar": {
+    "etapas": {
+      "arquivamento": "The petition is dismissed and the member keeps the mandate",
+      "camara-ccjc": "The CCJC handles the petition for breach of art. 54 or conviction, or decides the appeal against the Council",
+      "camara-conselho-de-etica": "The Chamber's Ethics Council conducts the disciplinary proceedings and votes on the rapporteur's report",
+      "camara-plenario": "The Chamber Plenary decides, in an open vote, by absolute majority (257 votes)",
+      "declaracao-pela-mesa": "The Steering Board declares the loss in cases of absences, loss of political rights or a decision of the Electoral Courts",
+      "perda-do-mandato": "The loss of mandate is formalised, the seat falls vacant and the alternate is called",
+      "representacao": "The House's Steering Board or a party represented in Congress files a petition for loss of mandate",
+      "senado-ccj": "The Senate CCJ examines the constitutional, legal and juridical aspects of the report recommending loss of mandate",
+      "senado-conselho-de-etica": "The Senate's Ethics Council admits the petition, conducts the proceedings and votes on the report",
+      "senado-plenario": "The Senate Plenary decides by absolute majority (41 votes)"
+    },
+    "nome": "Loss of mandate of a federal deputy or senator",
+    "resumo": "How a deputy or senator loses his or her mandate: by vote of an absolute majority of the House, after the Ethics Council, or by declaration of the Steering Board."
+  },
+  "proc:plano-de-desenvolvimento-urbano-integrado": {
+    "etapas": {
+      "aprovacao-colegiada": "The deliberative collegiate body approves the plan before it is sent to the State Legislative Assembly",
+      "audiencias-publicas": "Public hearings in the region's municipalities, with documents made public and monitoring by the Public Prosecution Service",
+      "compatibilizacao": "Each municipality in the region aligns its master plan with the integrated plan",
+      "elaboracao": "Representatives of the state, the region's municipalities and civil society draw up the plan together",
+      "lei-estadual": "The plan is approved by state law",
+      "revisao": "The plan's law must be revised at least every ten years"
+    },
+    "nome": "Drawing up the integrated urban development plan",
+    "resumo": "The state, municipalities and civil society draw up the metropolitan region's plan, the collegiate body approves it and the State Legislative Assembly turns it into state law."
+  },
+  "proc:plebiscito-e-referendo": {
+    "etapas": {
+      "ciencia-a-justica-eleitoral": "The President of Congress notifies the Electoral Courts of the call; in a plebiscite, bills on the subject are put on hold",
+      "convocacao": "The National Congress votes on the legislative decree calling the consultation",
+      "homologacao": "The TSE ratifies the result; the proposal is approved or rejected by simple majority",
+      "nao-convocado": "Legislative decree rejected: there is no consultation",
+      "organizacao": "The Electoral Courts set the date, publish the ballot, issue instructions and ensure free airtime on radio and TV",
+      "proposta": "At least one-third of the members of the Chamber or the Senate introduce the draft legislative decree calling the consultation",
+      "resultado": "Result proclaimed: in a plebiscite, the act may or may not go ahead; in a referendum, the act is ratified or rejected",
+      "votacao": "Voters vote, by universal suffrage and direct, secret ballot, approving or rejecting what was submitted"
+    },
+    "nome": "National plebiscite and referendum",
+    "resumo": "One-third of one of the Houses proposes, Congress calls it by legislative decree, the Electoral Courts organise the consultation and the TSE ratifies the result, which is decided by simple majority."
+  },
+  "proc:processo-administrativo-disciplinar-federal": {
+    "etapas": {
+      "apuracao": "The authority that learns of the irregularity must investigate it, through a preliminary inquiry or disciplinary proceedings",
+      "arquivamento": "The case is closed",
+      "inquerito": "The commission investigates, charges the civil servant, receives the written defence and writes the final report",
+      "instauracao": "The authority publishes the act forming the commission of three tenured civil servants and may suspend the accused",
+      "julgamento": "The authority competent for the penalty decides within 20 days, following the report unless it contradicts the evidence",
+      "pena-anulada": "The penalty is annulled and the civil servant's rights are restored",
+      "pena-mantida": "The penalty imposed remains in force",
+      "punicao": "The penalty is imposed; do new facts later emerge that justify innocence or show the penalty was inappropriate?",
+      "revisao-comissao": "A review commission is formed, which has 60 days to complete its work",
+      "revisao-julgamento": "The authority that imposed the penalty decides the review within 20 days",
+      "revisao-pedido": "The Minister of State or equivalent authority decides whether to authorise a review",
+      "sindicancia": "The preliminary inquiry concludes within 30 days, extendable by 30: it closes the case, imposes a minor penalty or leads to disciplinary proceedings"
+    },
+    "nome": "Disciplinary proceedings for federal civil servants",
+    "resumo": "How misconduct by a federal civil servant is investigated and punished: preliminary inquiry or disciplinary proceedings, a commission of three tenured civil servants, defence and judgment by the authority according to the penalty."
+  },
+  "proc:processo-administrativo-federal": {
+    "etapas": {
+      "decisao": "The competent authority decides, giving reasons, within 30 days, extendable by another 30",
+      "extincao": "The procedure is terminated by withdrawal, loss of purpose or failure to provide a document requested from the interested party",
+      "fim": "The decision becomes final at the administrative level; a sanction may be reviewed if new facts emerge",
+      "inicio": "The procedure starts ex officio or by written request of the interested party to the competent authority",
+      "instrucao": "The body conducts the fact-finding: gathers evidence, opinions and reports and may open a public consultation or hearing",
+      "reconsideracao": "The appeal, filed within 10 days, goes to the decision-maker, who may reconsider within 5 days",
+      "recurso": "The higher authority decides the appeal within 30 days; an appeal goes through at most three levels"
+    },
+    "nome": "Federal administrative procedure",
+    "resumo": "General procedure for decisions of the federal administration on requests and specific cases: opening, fact-finding, decision within 30 days and appeal through up to three levels."
+  },
+  "proc:processo-administrativo-tributario-do-ibs": {
+    "etapas": {
+      "decisao-definitiva": "The decision becomes final at the administrative level and is published by the CGIBS",
+      "desistencia": "The dispute ends by withdrawal, payment, instalment plan, offsetting or a lawsuit on the same matter",
+      "impugnacao": "The taxpayer challenges the assessment within 20 days, with all the evidence; the part the taxpayer acknowledges goes to collection",
+      "julgamento-camara-nacional": "The National Integration Chamber decides only the question of law; the decision binds the judges of the Union and the CGIBS",
+      "julgamento-primeira-instancia": "The Judgment Chamber of the state of the assessment rules in a virtual session; the chair votes only to break a tie",
+      "julgamento-segunda-instancia": "The Appeal Chamber of the same state, with tax officials and taxpayers, rules on the ex officio and voluntary appeals",
+      "julgamento-uniformizacao": "The IBS Higher Chamber rules on the harmonisation appeal and settles the national interpretation",
+      "recurso-de-oficio": "If the decision goes against the Treasury, the chamber itself appeals ex officio to the second instance",
+      "recurso-de-uniformizacao": "The Treasury or the taxpayer appeals within 10 days to the Higher Chamber, showing the conflict with another decision",
+      "recurso-especial": "The Treasury or the taxpayer takes the conflict over law common to the IBS and the CBS to the National Chamber, within 10 working days",
+      "recurso-voluntario": "The losing taxpayer appeals within 20 days to the Appeal Chamber; the other party may reply within 20 days",
+      "revelia": "If no challenge is filed in time, the taxpayer is deemed in default"
+    },
+    "nome": "IBS administrative tax procedure",
+    "resumo": "Path of a challenge to an IBS charge at the CGIBS: challenge, judgment by the state's chamber, appeals to the appeal chamber and national harmonisation."
+  },
+  "proc:processo-disciplinar-de-membro-do-mpu": {
+    "etapas": {
+      "acao-civil": "The PGR brings a civil action in the courts to dismiss a member with life tenure or revoke retirement or availability status",
+      "arquivamento": "The inquiry or proceedings are closed",
+      "deliberacao-inquerito": "The Higher Council closes the inquiry, requests further inquiries or opens administrative proceedings",
+      "deliberacao-processo": "The Higher Council proposes to the prosecutor general that the case be closed or a sanction imposed, or proposes an action for loss of office",
+      "fim": "The sanction is imposed or the action proceeds in the courts; a review may be sought at any time",
+      "inquerito": "The Inspector General opens a confidential inquiry and appoints a commission of three members to investigate the misconduct",
+      "processo": "A commission appointed by the Higher Council conducts the administrative proceedings, with summons, defence and evidence",
+      "sancao": "The prosecutor general of the branch imposes a warning, censure or suspension"
+    },
+    "nome": "Disciplinary proceedings against a member of the MPU",
+    "resumo": "How misconduct by an MPU prosecutor is investigated: inquiry by the Inspectorate, proceedings in the Higher Council, and a sanction by the prosecutor general or an action in the courts."
+  },
+  "proc:reclamacao": {
+    "etapas": {
+      "cumprimento": "The president of the court orders the decision to be carried out immediately; the ruling is drawn up afterwards",
+      "exame-inicial": "The rapporteur dismisses the complaint outright in the cases provided for by law or admits it",
+      "improcedencia": "The complaint is rejected and the challenged act stands",
+      "indeferimento": "The complaint is dismissed at the outset and ends",
+      "informacoes": "The rapporteur requests information from whoever performed the act, may suspend it and summons the beneficiary to respond",
+      "julgamento": "The court rules on the complaint; if upheld, it quashes the decision or takes the appropriate measure",
+      "ministerio-publico": "The Public Prosecution Service reviews the case file, if it did not file the complaint",
+      "proposta": "The interested party or the Public Prosecution Service files the complaint, which is assigned to a rapporteur"
+    },
+    "nome": "Complaint (reclamação) to the STF or the STJ",
+    "resumo": "How a party or the Public Prosecution Service brings to the court a breach of its jurisdiction, its decisions or a binding precedent, and how the court quashes the act."
+  },
+  "proc:reconducao-da-despesa-com-pessoal-ao-limite": {
+    "etapas": {
+      "alerta": "The court of accounts checks the calculation and warns the Branch or body that has exceeded 90% of the limit",
+      "apuracao": "At the end of each four-month period, each Branch and body calculates its personnel expenditure and publishes it in the RGF",
+      "fim": "Personnel expenditure within the limit",
+      "reducao": "Above the limit, the excess must be eliminated within two four-month periods, one-third in the first",
+      "sancoes": "Once the deadline has passed, the Branch or body loses voluntary transfers, guarantees and credit for as long as the excess lasts",
+      "vedacoes": "Above 95% of the limit, the Branch or body is barred from granting pay rises, creating posts and hiring"
+    },
+    "nome": "Bringing personnel expenditure back within the limit",
+    "resumo": "What happens when a Branch or body spends on personnel close to or above the LRF limit: warning, restrictions, deadline to cut and sanctions."
+  },
+  "proc:recursos-eleitorais": {
+    "etapas": {
+      "decisao-de-primeira-instancia": "The electoral judge or electoral board decides",
+      "decisao-final": "Final decision; the ruling is enforced immediately, by notice to the judge or court",
+      "julgamento-no-tre": "The TRE rules on the appeal, after the opinion of the Regional Electoral Prosecutor",
+      "recurso-ao-stf": "The STF rules on the appeal against the TSE's decision",
+      "recurso-ao-tre": "The party appeals to the TRE by petition to the judge, who hears the respondent and may revise the decision before forwarding it",
+      "recurso-ao-tse": "The TSE rules on the special or ordinary appeal against the TRE's decision"
+    },
+    "nome": "Appeals in the Electoral Courts",
+    "resumo": "Path of an electoral appeal: from the judge or board to the TRE, from the TRE to the TSE in the cases provided for, and, only on constitutional matters or habeas corpus and writs of mandamus, to the STF. General deadline: three days."
+  },
+  "proc:registro-de-candidatura": {
+    "etapas": {
+      "contestacao": "The candidate, party or coalition answers the challenge, attaches documents and names witnesses",
+      "deferido": "Registration granted: the candidate runs",
+      "edital": "The Electoral Courts publish the request in a public notice, for the information of interested parties",
+      "impugnacao": "A candidate, party, coalition or the Public Prosecution Service may challenge the request, in a reasoned petition",
+      "indeferido": "Registration refused or cancelled, with no replacement",
+      "instrucao": "The judge or rapporteur hears witnesses, carries out inquiries and sets a deadline for final arguments",
+      "julgamento": "The electoral judge, the TRE or the TSE grants or refuses the registration and decides the challenge",
+      "pedido": "A party, federation or coalition asks the Electoral Courts to register the candidates chosen at the convention",
+      "recurso-ao-tre": "The TRE rules on the appeal against the electoral judge's decision, after hearing the Regional Electoral Prosecutor",
+      "recurso-ao-tse": "The TSE rules on the appeal concerning the registration, after hearing the Electoral Prosecutor General",
+      "substituicao": "The party or coalition may replace a candidate who was barred, withdrew or died"
+    },
+    "nome": "Candidacy registration and challenge",
+    "resumo": "The party applies for registration by 15 August; within five days of publication any candidate, party or the Public Prosecution Service may challenge it; the Electoral Courts decide, with appeals up to the TSE."
+  },
+  "proc:registro-de-partido-politico": {
+    "etapas": {
+      "analise": "The TSE assigns the request to a rapporteur, hears the Office of the Electoral Prosecutor General and orders faults to be corrected",
+      "apoiamento": "The party collects signatures from non-member voters, checked by the electoral registry offices, and sets up its bodies",
+      "fundacao": "At least 101 founders, with electoral residence in one-third of the states, approve the programme and statute",
+      "julgamento": "The TSE registers the party's statute",
+      "pedido-ao-tse": "The national leaders ask the TSE to register the statute, with the certificates of support",
+      "registrado": "Party registered with the TSE; from then on it informs the Electoral Courts of the composition of its governing bodies",
+      "registro-civil": "The Civil Registry of Legal Entities at the party's seat registers the party, which acquires legal personality"
+    },
+    "nome": "Creation and registration of a political party",
+    "resumo": "Founders register the party at a registry office, gather voter support in one-third of the states and ask the TSE to register the statute, which gives access to elections and funds."
+  },
+  "proc:relatorios-fiscais": {
+    "etapas": {
+      "fiscalizacao": "Congress, with the TCU, oversees the LRF; the TCU warns those approaching the limits or putting the targets at risk",
+      "rgf": "The heads of the Branches and bodies publish the four-monthly RGF, with personnel and debt compared with the limits",
+      "rreo": "The Executive publishes the two-monthly RREO, with budget execution for all Branches and the Public Prosecution Service"
+    },
+    "nome": "Union fiscal reports (RREO and RGF)",
+    "resumo": "Every two months the Executive publishes the RREO, and every four months each Branch and body publishes the RGF; Congress, with the TCU, oversees compliance with the LRF."
+  },
+  "proc:resolucao": {
+    "etapas": {
+      "arquivamento": "The rejected draft is shelved",
+      "camara-comissoes": "The Chamber's committees give their reports; a draft resolution always goes to the Plenary",
+      "camara-plenario": "The Chamber Plenary votes; as a rule, it passes by a majority of votes, with an absolute majority present",
+      "congresso-sessao-conjunta": "A joint committee gives its report and Congress votes on the draft in a joint session",
+      "iniciativa": "A deputy, senator, committee or Steering Board introduces the draft resolution",
+      "promulgacao-pelo-presidente-da-camara": "The President of the Chamber promulgates the resolution, without assent",
+      "promulgacao-pelo-presidente-do-senado": "The President of the Senate promulgates the resolution of the Senate or of Congress, without assent",
+      "senado-comissoes": "The Senate's committees give their reports; in some cases they decide alone (final committee decision)",
+      "senado-plenario": "The Senate Plenary votes; as a rule, it passes by a majority of votes, with an absolute majority present"
+    },
+    "nome": "Legislative process for a resolution",
+    "resumo": "Path of a draft resolution of the Chamber, the Senate or Congress: voted on only by the House (or by Congress in a joint session) and promulgated without assent."
+  },
+  "proc:sessao-legislativa": {
+    "etapas": {
+      "abertura": "In a joint session, Congress opens the legislative session and receives the message of the President of the Republic",
+      "convocacao-extraordinaria": "During recess, Congress may be convened in extraordinary session and deliberates only on the matter for which it was convened",
+      "eleicao-das-mesas": "Each House elects its Steering Board for two years, in the first and third years of the legislature",
+      "posse-da-legislatura": "At the start of the legislature, the elected deputies and senators take office in preparatory sessions of each House",
+      "primeiro-periodo": "First period of the ordinary legislative session: the Houses vote on bills, including the LDO",
+      "recesso": "Recess: with no ordinary sittings, the Representative Committee acts on behalf of Congress",
+      "segundo-periodo": "Second period of the ordinary legislative session: the Houses vote on bills, including the LOA"
+    },
+    "nome": "Legislative session of the National Congress",
+    "resumo": "The Congress year: two working periods, from 2 February to 17 July and from 1 August to 22 December, with a recess between them; at the start of each legislature, the elected members take office and the Steering Boards are elected."
+  },
+  "proc:sumula-vinculante": {
+    "etapas": {
+      "deliberacao": "The Full Court votes on the proposal; issuing, revising or cancelling the precedent requires two-thirds of the Justices",
+      "edital": "The STF publishes a notice on its website and in the Diário da Justiça so that interested parties can make submissions",
+      "exame-formal": "The proposal is registered and the President of the STF checks whether it meets the formal requirements",
+      "exame-pelos-ministros": "The Justices of the Case Law Committee and then the other Justices give their views electronically",
+      "pauta": "The President puts the proposal on the Full Court's agenda or rejects it, if an absolute majority has already come out against it",
+      "pgr": "The PGR gives an opinion on the proposal, when not its author",
+      "proposta": "The STF, ex officio, or one of the authorised parties proposes issuing, revising or cancelling a statement",
+      "publicacao": "The STF publishes the statement in the Diário da Justiça and the DOU; from then on it binds judges and the administration",
+      "rejeicao": "The proposal is rejected and the statement is not issued, revised or cancelled"
+    },
+    "nome": "Issuing, revising and cancelling a binding precedent (súmula vinculante)",
+    "resumo": "How the STF approves, revises or cancels a binding precedent: proposal, public notice, opinion of the PGR, examination by the Justices and a two-thirds vote in the Full Court."
+  },
+  "proc:titulacao-de-territorio-quilombola": {
+    "etapas": {
+      "abertura": "Incra opens the procedure, ex officio or at the request of any interested party",
+      "consulta": "Incra sends the technical report to Iphan, Ibama, SPU, Funai, the National Defence Council and Palmares",
+      "contestacao": "Interested parties may contest the report",
+      "desapropriacao": "Incra inspects and values the private property for expropriation, where applicable",
+      "identificacao": "Incra identifies and delimits the territory and publishes a notice in the DOU and the state official gazette",
+      "titulacao": "Incra issues the collective, undivided title to the community, represented by its association"
+    },
+    "nome": "Titling of a quilombola territory",
+    "resumo": "Incra identifies and delimits the territory, publishes a notice, hears other bodies and interested parties, expropriates valid private titles and issues the collective title."
+  }
+}

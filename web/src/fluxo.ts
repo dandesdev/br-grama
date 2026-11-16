@@ -4,6 +4,7 @@
 // a raia "Vários atores", no topo.
 import cytoscape, { type Core, type ElementDefinition, type StylesheetJson } from "cytoscape";
 import { Dados, type Entidade, type Etapa, type Regime } from "./dados.ts";
+import { t } from "./i18n.ts";
 
 const LARGURA_ETAPA = 190;
 const ALTURA_ETAPA = 92;
@@ -31,7 +32,7 @@ function raiaDe(dados: Dados, atorId: string): Raia {
   const poder = (cadeia.find((o) => o.poder)?.poder as string) ?? "";
   const casa = cadeia.find((o) => o.tipo_orgao === "legislativo-casa") ?? cadeia.find((o) => o.tipo_orgao === "legislativo-parlamento");
   if (casa) return { chave: casa.id, nome: casa.nome, poder };
-  return { chave: `poder:${poder}`, nome: poder === "povo" ? "Povo" : `${dados.nomeDe("poder", poder)}`, poder };
+  return { chave: `poder:${poder}`, nome: poder === "povo" ? t("Povo") : `${dados.nomeDe("poder", poder)}`, poder };
 }
 
 function estilo(): StylesheetJson {
@@ -158,7 +159,7 @@ export class Fluxo {
     });
 
     // Raias, na ordem em que aparecem; "Vários atores" sempre no topo.
-    const VARIOS: Raia = { chave: "varios", nome: "Vários atores", poder: "" };
+    const VARIOS: Raia = { chave: "varios", nome: t("Vários atores"), poder: "" };
     const raias: Raia[] = [];
     const raiaDaEtapa = etapas.map((e) => {
       const rs = [...new Map(e.atores.map((a) => raiaDe(this.dados, a)).map((r) => [r.chave, r])).values()];

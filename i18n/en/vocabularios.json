@@ -1,0 +1,929 @@
+{
+  "_descricao": "Nome e definição em inglês dos termos de esquema/vocabularios/ (D66), na mesma estrutura do grafo: relacoes, tipos_orgao e gerais.",
+  "relacoes": {
+    "integra": {
+      "nome": "is part of",
+      "definicao": "Is a component part of another body, branch or entity."
+    },
+    "dirige": {
+      "nome": "directs",
+      "definicao": "Directs a system at its level of government (e.g. the Ministry of Health directs the SUS at federal level, art. 198, I; Lei 8.080/1990, art. 9º)."
+    },
+    "supervisiona": {
+      "nome": "supervises",
+      "definicao": "Monitors and guides the work of another body or system without being its hierarchical superior, as a central body (e.g. the CJF and the Federal Justice, CF, art. 105, sole paragraph, II; the central body of an Executive system and the sectoral bodies, Lei 10.180/2001)."
+    },
+    "coordena": {
+      "nome": "coordinates",
+      "definicao": "Organises the joint work of bodies that are not subordinate to it (e.g. the Ministry of Justice and Public Security and the Unified Public Security System)."
+    },
+    "subordina-se": {
+      "nome": "is subordinate to",
+      "definicao": "Is under the hierarchical command of another body or office."
+    },
+    "vincula-se": {
+      "nome": "is linked to",
+      "definicao": "Indirect administration entity supervised by a body, without hierarchy."
+    },
+    "exerce": {
+      "nome": "exercises",
+      "definicao": "Exercises the functions of a branch or body (e.g. Congress exercises the Legislative Power)."
+    },
+    "preside": {
+      "nome": "presides over",
+      "definicao": "Directs the work of a body or collegiate body."
+    },
+    "auxilia": {
+      "nome": "assists",
+      "definicao": "Helps another to carry out its functions, without merging with it."
+    },
+    "ocupa": {
+      "nome": "holds",
+      "definicao": "The person holds the office in the period shown. Each continuous period in office is one relationship."
+    },
+    "elege": {
+      "nome": "elects",
+      "definicao": "Chooses by vote who will hold an office."
+    },
+    "indica": {
+      "nome": "nominates",
+      "definicao": "Chooses a name for an office or function; where the law requires, another body approves or appoints (e.g. the President nominates a Federal Supreme Court justice, whom the Senate approves; the President names the Government Leader)."
+    },
+    "forma-lista": {
+      "nome": "draws up a list for",
+      "definicao": "Chooses several names (list of three, list of six) from which another will nominate or appoint (e.g. the MPF draws up the list of six for the STJ, CF, art. 94)."
+    },
+    "aprova-indicacao": {
+      "nome": "approves the nomination of",
+      "definicao": "Approves or rejects the name nominated for an office."
+    },
+    "nomeia": {
+      "nome": "appoints",
+      "definicao": "Formally invests someone in an office."
+    },
+    "designa": {
+      "nome": "designates",
+      "definicao": "Chooses, among members of a career, who will perform a function for a set period, without a new appointment (e.g. the Electoral Prosecutor General designates the Regional Electoral Prosecutor, LC 75/1993, art. 76)."
+    },
+    "propoe-exoneracao": {
+      "nome": "proposes the dismissal of",
+      "definicao": "Asks whoever dismisses to remove someone from office, where the law requires such a request (e.g. the CMN and the Governor of the Central Bank, LC 179/2021)."
+    },
+    "aprova-exoneracao": {
+      "nome": "approves the dismissal of",
+      "definicao": "Authorises someone's removal from office before the end of the term."
+    },
+    "exonera": {
+      "nome": "dismisses",
+      "definicao": "Removes someone from an office."
+    },
+    "substitui": {
+      "nome": "substitutes for",
+      "definicao": "Holds another's office temporarily: when they are unable to act, absent or, if the office falls vacant, until there is a successor."
+    },
+    "acumula": {
+      "nome": "also performs the function of",
+      "definicao": "The holder of an office also performs another function, by force of the law, without a new appointment (e.g. the Vice-President of the TRE also heads the Regional Electoral Inspectorate, Res. TSE 23.742/2024, art. 9º)."
+    },
+    "sucede": {
+      "nome": "succeeds",
+      "definicao": "Takes over another's office permanently when it falls vacant."
+    },
+    "celebra": {
+      "nome": "concludes",
+      "definicao": "Signs treaties, conventions and international acts on behalf of the country (e.g. President, art. 84, VIII)."
+    },
+    "propoe": {
+      "nome": "proposes",
+      "definicao": "Has the right to put forward the proposal."
+    },
+    "delibera": {
+      "nome": "deliberates on",
+      "definicao": "Discusses and votes on a proposal, or decides by vote on a situation the law gives it (e.g. the house decides on the arrest of a member, CF, art. 53, § 2º)."
+    },
+    "edita": {
+      "nome": "issues",
+      "definicao": "Creates the rule by its own act, without a vote by another body (e.g. the President issues a provisional measure)."
+    },
+    "sanciona": {
+      "nome": "assents to",
+      "definicao": "Agrees to a bill that has been passed, which thus becomes law."
+    },
+    "veta": {
+      "nome": "vetoes",
+      "definicao": "Rejects a bill that has been passed, wholly or in part."
+    },
+    "aprecia-veto": {
+      "nome": "rules on the veto of",
+      "definicao": "Decides whether to uphold or override a veto."
+    },
+    "promulga": {
+      "nome": "promulgates",
+      "definicao": "Declares that the legal act exists and orders it to be obeyed."
+    },
+    "publica": {
+      "nome": "publishes",
+      "definicao": "Makes officially known a legal act (in an official gazette) or a report that the law requires to be disclosed (e.g. RREO, RGF)."
+    },
+    "regulamenta": {
+      "nome": "issues regulations for",
+      "definicao": "Issues rules for the faithful execution of laws."
+    },
+    "homologa": {
+      "nome": "ratifies",
+      "definicao": "Confirms another body's decision, which only takes effect after that (e.g. the Minister of Education ratifies the decisions of the National Education Council)."
+    },
+    "classifica": {
+      "nome": "classifies",
+      "definicao": "Assigns a secrecy level to information, restricting access for a set period (Lei 12.527/2011, art. 27)."
+    },
+    "controla-constitucionalidade": {
+      "nome": "reviews the constitutionality of",
+      "definicao": "Checks whether rules and acts comply with the Constitution and may strike them down."
+    },
+    "suspende-execucao": {
+      "nome": "suspends the enforcement of",
+      "definicao": "Suspends, wholly or in part, the enforcement of a rule declared unconstitutional by a final decision."
+    },
+    "autoriza": {
+      "nome": "authorises",
+      "definicao": "Gives the prior permission that another needs to act (e.g. Congress authorises the President to declare war)."
+    },
+    "susta": {
+      "nome": "halts",
+      "definicao": "Suspends the effects of another's act (e.g. Congress halts Executive acts that exceed the regulatory power)."
+    },
+    "convoca": {
+      "nome": "summons",
+      "definicao": "Requires another to appear or to provide information, or calls a meeting of a collegiate body (e.g. the President convenes the Council of the Republic, art. 84, XVIII)."
+    },
+    "fiscaliza": {
+      "nome": "oversees",
+      "definicao": "Checks another's accounts and conduct from outside: external control (e.g. TCU) or social control (e.g. health councils over the health fund)."
+    },
+    "monitora": {
+      "nome": "monitors",
+      "definicao": "Follows the execution of a plan, policy or system and assesses whether it works and meets its targets (e.g. the National Education Plan; the Senate assesses the National Tax System, art. 52, XV)."
+    },
+    "controla-internamente": {
+      "nome": "exercises internal control over",
+      "definicao": "Exercises internal control over another's management, within the same branch."
+    },
+    "presta-contas-a": {
+      "nome": "is accountable to",
+      "definicao": "Must submit its accounts to another."
+    },
+    "toma-contas": {
+      "nome": "calls to account",
+      "definicao": "Demands and organises the accounts of whoever has not submitted them on time."
+    },
+    "emite-parecer-previo": {
+      "nome": "issues a prior opinion on",
+      "definicao": "Analyses accounts and gives a technical opinion before the judgment, which is for another body."
+    },
+    "aprecia-para-registro": {
+      "nome": "examines, for registration,",
+      "definicao": "Examines the legality of an act and decides whether it is registered (e.g. TCU with hirings and retirements, art. 71, III)."
+    },
+    "registra": {
+      "nome": "registers",
+      "definicao": "Enters in an official register or grants a status, a condition for the registered or qualified party to exist or act with that status (e.g. the TSE registers party statutes, CF, art. 17, § 2º; the Electoral Justice registers candidacies; the Ministry of Justice and Public Security qualifies OSCIPs, Lei 9.790/1999, arts. 5º and 6º)."
+    },
+    "aplica-sancao": {
+      "nome": "imposes penalties on",
+      "definicao": "Punishes those responsible for illegal spending or irregular accounts with the penalties set by law (e.g. TCU, art. 71, VIII)."
+    },
+    "representa-a": {
+      "nome": "reports irregularities to",
+      "definicao": "Informs another body of irregularities or abuses found, so that it acts (e.g. TCU to the competent branch, art. 71, XI)."
+    },
+    "corrige": {
+      "nome": "carries out inspections of",
+      "definicao": "Investigates and punishes misconduct by members or staff (inspectorate)."
+    },
+    "autoriza-processo": {
+      "nome": "authorises proceedings against",
+      "definicao": "Authorises the opening of proceedings against the holder of an office."
+    },
+    "julga-recursos-contra": {
+      "nome": "hears appeals against decisions of",
+      "definicao": "Reviews, on appeal, the decisions of another court, judge or body (e.g. the Social Security Appeals Council reviews INSS decisions)."
+    },
+    "julga": {
+      "nome": "judges",
+      "definicao": "Decides cases or accounts, with final effect in its sphere."
+    },
+    "concede": {
+      "nome": "grants",
+      "definicao": "Recognises someone's right to a benefit and starts paying it (e.g. the INSS grants the continuous cash benefit and general-scheme benefits)."
+    },
+    "regula": {
+      "nome": "regulates",
+      "definicao": "Issues technical rules for a sector and oversees it."
+    },
+    "exerce-poder-de-policia-sobre": {
+      "nome": "exercises police power over",
+      "definicao": "Limits and inspects private activities in the public interest."
+    },
+    "exerce-poder-disciplinar-sobre": {
+      "nome": "exercises disciplinary power over",
+      "definicao": "Can punish misconduct by those under its authority."
+    },
+    "arrecada": {
+      "nome": "collects",
+      "definicao": "Collects taxes or revenue."
+    },
+    "repassa-recursos": {
+      "nome": "transfers funds to",
+      "definicao": "Transfers financial resources to another."
+    },
+    "gere": {
+      "nome": "manages",
+      "definicao": "Administers a fund: decides how the resources are used and oversees management (e.g. Codefat manages the FAT, Lei 7.998/1990)."
+    },
+    "calcula": {
+      "nome": "calculates",
+      "definicao": "Calculates amounts that the law requires to be shared out (e.g. TCU calculates the shares of the participation funds, art. 161, sole paragraph)."
+    },
+    "tem-competencia": {
+      "nome": "has competence over",
+      "definicao": "The entity may legislate or act on the subject, according to the type and nature of the competence."
+    },
+    "representa-judicialmente": {
+      "nome": "represents in court",
+      "definicao": "Acts in court on behalf of another."
+    },
+    "assessora": {
+      "nome": "advises",
+      "definicao": "Gives technical or legal advice to another."
+    },
+    "oficia-junto-a": {
+      "nome": "acts before",
+      "definicao": "Acts before a body without being part of it (e.g. the President of the OAB Federal Council before the CNJ and the CNMP, arts. 103-B, § 6º, and 130-A, § 4º)."
+    },
+    "promove": {
+      "nome": "brings",
+      "definicao": "Takes an action to the courts or opens an investigation in the public interest (e.g. the Public Prosecution Service brings public criminal proceedings, art. 129, I)."
+    },
+    "ajuiza": {
+      "nome": "files",
+      "definicao": "May take an action to the courts (e.g. those entitled under art. 103 file ADIs; citizens file a popular action, art. 5º, LXXIII)."
+    }
+  },
+  "tipos_orgao": {
+    "poder": {
+      "nome": "Branch",
+      "definicao": "One of the branches of the State, or the people itself as the holder of power."
+    },
+    "corpo-eleitoral": {
+      "nome": "Electorate",
+      "definicao": "All voters, who choose representatives and take part directly (plebiscite, referendum, popular initiative)."
+    },
+    "legislativo-parlamento": {
+      "nome": "Parliament",
+      "definicao": "Body that exercises the Legislative Power of an entity (National Congress, State Legislative Assembly, Municipal Council)."
+    },
+    "legislativo-casa": {
+      "nome": "Legislative house",
+      "definicao": "One of the houses of a bicameral parliament."
+    },
+    "legislativo-orgao-interno": {
+      "nome": "Internal body of parliament",
+      "definicao": "Board, committee or plenary of a parliament."
+    },
+    "executivo-chefia": {
+      "nome": "Head of the Executive",
+      "definicao": "Body of the head of the Executive Branch or giving direct support to them (Presidency, Vice-Presidency, Governor's Office, Mayor's Office)."
+    },
+    "executivo-direta": {
+      "nome": "Direct administration",
+      "definicao": "Ministry, secretariat or one of their units, without legal personality of its own."
+    },
+    "autarquia": {
+      "nome": "Autonomous agency (autarquia)",
+      "definicao": "Indirect administration entity with legal personality under public law, created by law for a typical State activity."
+    },
+    "fundacao-publica": {
+      "nome": "Public foundation",
+      "definicao": "Indirect administration entity formed by assets set aside for a public purpose, under public or private law (e.g. Funpresp-Exe, Lei 12.618/2012)."
+    },
+    "empresa-publica": {
+      "nome": "State-owned company",
+      "definicao": "Entity under private law whose creation is authorised by law, with entirely public capital (Lei 13.303/2016, art. 3º; DL 200/1967, art. 5º, II)."
+    },
+    "sociedade-economia-mista": {
+      "nome": "Mixed-capital company",
+      "definicao": "Private-law joint-stock company whose creation is authorised by law, in which most voting shares belong to the public entity (Lei 13.303/2016, art. 4º; DL 200/1967, art. 5º, III)."
+    },
+    "ramo-da-justica": {
+      "nome": "Court system",
+      "definicao": "A part of the Judicial Branch: Federal, Labour, Electoral, Military or State Justice."
+    },
+    "judiciario-tribunal": {
+      "nome": "Court",
+      "definicao": "Court or judge of the Judicial Branch."
+    },
+    "judiciario-orgao-interno": {
+      "nome": "Internal body of a court",
+      "definicao": "Plenary, panel, presidency or inspectorate of a court."
+    },
+    "judiciario-orgao-de-controle": {
+      "nome": "Judicial oversight body",
+      "definicao": "Body for the administrative oversight of the Judiciary (e.g. CNJ)."
+    },
+    "tribunal-de-contas": {
+      "nome": "Court of accounts",
+      "definicao": "Technical body that assists the Legislature in the external control of public accounts."
+    },
+    "ministerio-publico": {
+      "nome": "Public Prosecution Service",
+      "definicao": "Institution that defends the legal order, the democratic system and social interests."
+    },
+    "ministerio-publico-orgao-de-controle": {
+      "nome": "Prosecution oversight body",
+      "definicao": "Body for the administrative and financial oversight of the Public Prosecution Service (e.g. CNMP)."
+    },
+    "defensoria-publica": {
+      "nome": "Public Defender's Office",
+      "definicao": "Institution that gives free legal assistance to those in need."
+    },
+    "advocacia-publica": {
+      "nome": "Public attorneys' office",
+      "definicao": "Institution that represents the entity in court and gives legal advice to the Executive."
+    },
+    "colegiado": {
+      "nome": "Collegiate body",
+      "definicao": "Council, committee or commission that decides collectively."
+    },
+    "conjunto": {
+      "nome": "Group of bodies",
+      "definicao": "Several bodies of the same type shown as one (e.g. the Chamber's committees). It is not a real body."
+    },
+    "partido-politico": {
+      "nome": "Political party",
+      "definicao": "Private-law legal entity that organises political competition and fields candidates."
+    },
+    "federacao-partidaria": {
+      "nome": "Party federation",
+      "definicao": "Union of parties that act as one for at least four years."
+    },
+    "paraestatal": {
+      "nome": "Parastatal entity",
+      "definicao": "Private entity that cooperates with the State or represents it by force of law (Sistema S, OS, OSCIP, professional councils, managers' associations recognised in law, such as Conass and Conasems)."
+    },
+    "organismo-internacional": {
+      "nome": "International organisation",
+      "definicao": "Organisation formed by sovereign States, or one of its bodies with its own jurisdiction, such as an international court (e.g. Inter-American Court of Human Rights, created by the American Convention on Human Rights; International Criminal Court, CF, art. 5º, § 4º)."
+    },
+    "entidade-interfederativa": {
+      "nome": "Interfederative entity",
+      "definicao": "Public entity of the states, the Federal District and the municipalities together, not tied to any one of them (e.g. IBS Management Committee, art. 156-B)."
+    },
+    "sistema": {
+      "nome": "System",
+      "definicao": "Bodies of several branches or entities that the law requires to act together, without forming a new body (e.g. Sisbin, Lei 9.883/1999; Susp, Lei 13.675/2018)."
+    },
+    "escola-judicial": {
+      "nome": "Judicial school",
+      "definicao": "Official school for the training and further training of judges (e.g. Enfam, art. 105, sole paragraph, I; Enamat, art. 111-A, § 2º, I)."
+    },
+    "orgao-interno": {
+      "nome": "Internal unit",
+      "definicao": "Internal unit of a body or entity outside the Legislature and the Judiciary: inspectorate, ombudsman, secretariat, directorate or institutional school (e.g. MPF Inspectorate General, MPU Higher School, CGIBS Executive Board)."
+    },
+    "outro": {
+      "nome": "Other",
+      "definicao": "Does not fit the types above; explained in the details."
+    }
+  },
+  "gerais": {
+    "poder": {
+      "povo": {
+        "nome": "The people",
+        "definicao": "Holder of all power, which it exercises through elected representatives or directly (CF, art. 1º, sole paragraph)."
+      },
+      "executivo": {
+        "nome": "Executive",
+        "definicao": "Runs the State and enforces the laws."
+      },
+      "legislativo": {
+        "nome": "Legislative",
+        "definicao": "Makes the laws and oversees the Executive."
+      },
+      "judiciario": {
+        "nome": "Judicial",
+        "definicao": "Settles disputes by applying the law."
+      },
+      "funcoes-essenciais-a-justica": {
+        "nome": "Functions essential to justice",
+        "definicao": "Institutions outside the three branches that are essential to justice: Public Prosecution Service, public attorneys, the legal profession and the Public Defender's Office."
+      },
+      "nao-estatal": {
+        "nome": "Non-state",
+        "definicao": "Not part of the State, but takes part in how it works."
+      }
+    },
+    "esfera": {
+      "nacional": {
+        "nome": "National",
+        "definicao": "Covers the whole country, above the division into Union, states and municipalities (e.g. the Judicial Branch, the electorate, the parties)."
+      },
+      "federal": {
+        "nome": "Federal",
+        "definicao": "The Union."
+      },
+      "estadual": {
+        "nome": "State",
+        "definicao": "The states."
+      },
+      "distrital": {
+        "nome": "Federal District",
+        "definicao": "The Federal District."
+      },
+      "municipal": {
+        "nome": "Municipal",
+        "definicao": "The municipalities."
+      },
+      "internacional": {
+        "nome": "International",
+        "definicao": "Above national States."
+      }
+    },
+    "tipo_ente": {
+      "uniao": {
+        "nome": "Union",
+        "definicao": "Central federative entity."
+      },
+      "estado": {
+        "nome": "State",
+        "definicao": "Regional federative entity."
+      },
+      "distrito-federal": {
+        "nome": "Federal District",
+        "definicao": "Federative entity with the powers of both a state and a municipality, not divided into municipalities."
+      },
+      "municipio": {
+        "nome": "Municipality",
+        "definicao": "Local federative entity."
+      }
+    },
+    "arquetipo": {
+      "estadual": {
+        "nome": "Typical state",
+        "definicao": "Typical structure of a state; the exceptions are in the variations."
+      },
+      "municipal": {
+        "nome": "Typical municipality",
+        "definicao": "Typical structure of a municipality; the exceptions are in the variations."
+      }
+    },
+    "abrangencia": {
+      "ente": {
+        "nome": "The entity itself",
+        "definicao": "The variation applies to the entity shown."
+      },
+      "municipios-do-estado": {
+        "nome": "All municipalities of the state",
+        "definicao": "The variation applies to all municipalities of the state shown."
+      }
+    },
+    "provimento": {
+      "eleicao-majoritaria-maioria-absoluta": {
+        "nome": "Two-round majority election",
+        "definicao": "Direct election; the winner needs an absolute majority of valid votes, with a second round if needed."
+      },
+      "eleicao-majoritaria-maioria-simples": {
+        "nome": "Single-round majority election",
+        "definicao": "Direct election; the candidate with the most votes wins."
+      },
+      "eleicao-proporcional": {
+        "nome": "Proportional election",
+        "definicao": "Direct election; seats are shared among parties according to each one's vote."
+      },
+      "eleicao-conjunta": {
+        "nome": "Elected on the holder's ticket",
+        "definicao": "Elected together with the holder, on the same ticket."
+      },
+      "eleicao-pelos-pares": {
+        "nome": "Elected by peers",
+        "definicao": "Chosen by vote among the members of the body itself."
+      },
+      "eleicao-por-colegio": {
+        "nome": "Elected by an electoral college",
+        "definicao": "Elected by a collegiate body or college of which they are not a member: shareholders' meeting or board of directors of a state-owned company (Lei 6.404/1976, arts. 122, 140 and 143), CGIBS Higher Council (LC 227/2026), college of mayors."
+      },
+      "eleicao-por-tribunal": {
+        "nome": "Elected by a court",
+        "definicao": "Chosen by vote of a court, among its members or among judges of its court system, for a seat on another body (e.g. STF and STJ elect TSE justices, art. 119, I; the TJ elects TRE judges, art. 120, § 1º, I)."
+      },
+      "escolha-pelo-legislativo": {
+        "nome": "Chosen by the Legislature",
+        "definicao": "Chosen by the Legislative Branch and then appointed by the head of the Executive."
+      },
+      "nomeacao-com-aprovacao-do-senado": {
+        "nome": "Appointment with Senate approval",
+        "definicao": "Appointed by the President of the Republic after approval by the Federal Senate. Also applies when the names come from a list (e.g. STJ, Federal Public Defender General): the list is recorded in provimento_nota."
+      },
+      "nomeacao-com-aprovacao-do-legislativo": {
+        "nome": "Appointment with legislative approval",
+        "definicao": "Appointed by the head of a state or municipal Executive after approval by the Assembly or the Council (e.g. members of a state court of accounts chosen by the Governor, where the state constitution requires it)."
+      },
+      "nomeacao-a-partir-de-lista": {
+        "nome": "Appointment from a list",
+        "definicao": "Appointed by the competent authority (head of the Executive, prosecutor general, defender general or another) from the names on a list drawn up by another body (e.g. the list of three for the constitutional fifth), without Senate approval."
+      },
+      "promocao": {
+        "nome": "Career promotion",
+        "definicao": "Reaches the office by promotion within the career, by seniority or by merit."
+      },
+      "nomeacao-livre": {
+        "nome": "Free appointment",
+        "definicao": "Appointed and dismissed freely by the competent authority."
+      },
+      "designacao": {
+        "nome": "Designation",
+        "definicao": "Designated to perform the function for a set period, without appointment to a permanent post: career member (e.g. Regional Electoral Prosecutor, LC 75/1993, art. 76), member of a collegiate body with a term (e.g. Public Ethics Commission) or court auxiliary without a career (e.g. lay judge and conciliator)."
+      },
+      "sorteio": {
+        "nome": "Drawing of lots",
+        "definicao": "Chosen by lot from a group defined by law: registered citizens (e.g. jurors of the jury court, Code of Criminal Procedure) or officers (e.g. military judges of the Justice Councils, Lei 8.457/1992)."
+      },
+      "concurso-publico": {
+        "nome": "Public competitive examination",
+        "definicao": "Passed a public competitive examination, of tests or of tests and qualifications."
+      },
+      "nato": {
+        "nome": "Automatic",
+        "definicao": "Holds the office automatically because they hold another."
+      },
+      "variavel": {
+        "nome": "Depends on the case",
+        "definicao": "The method of choice changes with a condition; see the cases."
+      }
+    },
+    "confianca": {
+      "oficial": {
+        "nome": "Official source",
+        "definicao": "Confirmed by a legal act or official data in force on the reference date."
+      },
+      "oficial-contraditorio": {
+        "nome": "Official sources disagree",
+        "definicao": "Official sources say different things; see the related warning."
+      },
+      "secundario": {
+        "nome": "Unofficial source",
+        "definicao": "Based on an unofficial source (legal scholarship, encyclopaedia, press)."
+      },
+      "inferido": {
+        "nome": "Inferred",
+        "definicao": "Our deduction from the sources, explained in the details."
+      },
+      "indisponivel": {
+        "nome": "No source available",
+        "definicao": "There is no accessible source: secrecy, lack of transparency or a gap."
+      }
+    },
+    "tipo_aviso": {
+      "lacuna": {
+        "nome": "Gap",
+        "definicao": "Information that should be public and was not found."
+      },
+      "contradicao": {
+        "nome": "Contradiction",
+        "definicao": "Official sources say different things."
+      },
+      "sigilo": {
+        "nome": "Secrecy",
+        "definicao": "Information protected by legal secrecy."
+      },
+      "baixa-transparencia": {
+        "nome": "Low transparency",
+        "definicao": "Public information, but hard to find, incomplete or in an unsuitable format."
+      },
+      "desatualizacao": {
+        "nome": "Out of date",
+        "definicao": "Official source out of date with respect to the law in force."
+      },
+      "ambiguidade-normativa": {
+        "nome": "Legal ambiguity",
+        "definicao": "The legal act allows more than one relevant reading."
+      }
+    },
+    "tipo_norma": {
+      "constituicao-federal": {
+        "nome": "Federal Constitution",
+        "definicao": "Constitution of the Republic."
+      },
+      "emenda-constitucional": {
+        "nome": "Constitutional amendment",
+        "definicao": "Change to the text of a constitution (federal or state, depending on the entity)."
+      },
+      "lei-complementar": {
+        "nome": "Complementary law",
+        "definicao": "Law that requires an absolute majority, for subjects the Constitution reserves to it."
+      },
+      "lei-ordinaria": {
+        "nome": "Ordinary law",
+        "definicao": "Law passed by simple majority."
+      },
+      "lei-delegada": {
+        "nome": "Delegated law",
+        "definicao": "Law issued by the President under a delegation from Congress."
+      },
+      "medida-provisoria": {
+        "nome": "Provisional measure",
+        "definicao": "Act of the President with the force of law, which lapses if it is not converted into law."
+      },
+      "decreto-lei": {
+        "nome": "Decree-law",
+        "definicao": "Act with the force of law issued under earlier regimes; some are still in force."
+      },
+      "decreto-legislativo": {
+        "nome": "Legislative decree",
+        "definicao": "Act of Congress on a matter within its exclusive competence."
+      },
+      "resolucao": {
+        "nome": "Resolution",
+        "definicao": "Act of a legislative house or of a collegiate body."
+      },
+      "decreto": {
+        "nome": "Decree",
+        "definicao": "Act of the head of the Executive, usually to regulate laws or organise the administration."
+      },
+      "portaria": {
+        "nome": "Ordinance",
+        "definicao": "Act of a minister or head of a body that regulates internal matters or its own area."
+      },
+      "regimento-interno": {
+        "nome": "Rules of procedure",
+        "definicao": "Rules for the internal workings of a body."
+      },
+      "ato-da-mesa": {
+        "nome": "Act of the Board",
+        "definicao": "Act of the Board of a legislative house on its internal organisation (e.g. the number of seats on committees)."
+      },
+      "ato-conjunto": {
+        "nome": "Joint act",
+        "definicao": "Act signed jointly by bodies of different houses or branches (e.g. joint act of the Boards of the Chamber and the Senate)."
+      },
+      "constituicao-estadual": {
+        "nome": "State constitution",
+        "definicao": "Constitution of a state."
+      },
+      "lei-organica": {
+        "nome": "Organic law",
+        "definicao": "Fundamental law of a municipality or of the Federal District."
+      },
+      "lei-estadual": {
+        "nome": "State law",
+        "definicao": "Law of a state."
+      },
+      "lei-municipal": {
+        "nome": "Municipal law",
+        "definicao": "Law of a municipality."
+      },
+      "provimento": {
+        "nome": "Provimento (directive)",
+        "definicao": "Act of an inspectorate or a judicial council that guides and regulates judicial and extrajudicial services (e.g. CNJ provimentos)."
+      },
+      "outro": {
+        "nome": "Other act",
+        "definicao": "Another type of act; explained in the details."
+      }
+    },
+    "tipo_fonte": {
+      "dados-abertos": {
+        "nome": "Open data",
+        "definicao": "Official database."
+      },
+      "pagina-oficial": {
+        "nome": "Official page",
+        "definicao": "Institutional page of a public body."
+      },
+      "relatorio-oficial": {
+        "nome": "Official report",
+        "definicao": "Official report or publication."
+      },
+      "doutrina": {
+        "nome": "Legal scholarship",
+        "definicao": "Reference legal work."
+      },
+      "enciclopedia": {
+        "nome": "Encyclopaedia",
+        "definicao": "Wikipedia, Wikidata and similar."
+      },
+      "imprensa": {
+        "nome": "Press",
+        "definicao": "News outlet."
+      },
+      "academico": {
+        "nome": "Academic",
+        "definicao": "Academic article, thesis or study."
+      }
+    },
+    "tipo_objeto": {
+      "ato-normativo": {
+        "nome": "Normative act",
+        "definicao": "Act that creates general rules: amendment, law, provisional measure, decree, resolution."
+      },
+      "contas": {
+        "nome": "Accounts",
+        "definicao": "Accounts rendered for the management of public funds."
+      },
+      "acao-judicial": {
+        "nome": "Lawsuit",
+        "definicao": "Type of case brought before a court (e.g. direct action of unconstitutionality)."
+      },
+      "decisao": {
+        "nome": "Decision",
+        "definicao": "Act that settles a specific case (e.g. judgment, opinion)."
+      },
+      "materia": {
+        "nome": "Subject",
+        "definicao": "Subject on which the entities may legislate or act (e.g. traffic, health, civil law)."
+      },
+      "documento": {
+        "nome": "Document",
+        "definicao": "Other official document with a role in how the State works."
+      },
+      "politica-publica": {
+        "nome": "Policy or plan",
+        "definicao": "National policy, plan or strategy set in law that guides the work of several bodies (e.g. National Defence Policy, National Public Security Plan)."
+      },
+      "beneficio": {
+        "nome": "Benefit",
+        "definicao": "Payment made to people who meet the requirements of the law (e.g. continuous cash benefit, general-scheme pensions)."
+      },
+      "tributo": {
+        "nome": "Tax",
+        "definicao": "Tax, fee or contribution that an entity may create and collect (arts. 145 to 156-B, 195)."
+      },
+      "fundo": {
+        "nome": "Fund",
+        "definicao": "Pool of public resources with a purpose set by a legal act (e.g. participation funds, art. 159, I; Party Fund)."
+      },
+      "receita": {
+        "nome": "Revenue",
+        "definicao": "Money that the entity receives in its own right, other than taxes (e.g. a share in, or compensation for, the exploitation of oil, minerals and water resources, art. 20, § 1º)."
+      },
+      "regra-fiscal": {
+        "nome": "Fiscal rule",
+        "definicao": "Limit that the Constitution or the law places on those who tax, spend or borrow (e.g. prior-year rule, art. 150, III; personnel spending, art. 169; golden rule, art. 167, III)."
+      },
+      "regime-tributario": {
+        "nome": "Tax regime",
+        "definicao": "Set of tax rules: the National Tax System as a whole (arts. 145 to 162) or the specific regime of a group of taxpayers or a region (e.g. Simples Nacional, art. 146, sole paragraph; Manaus Free Trade Zone, ADCT, art. 40)."
+      }
+    },
+    "tipo_competencia": {
+      "exclusiva": {
+        "nome": "Exclusive",
+        "definicao": "Only this entity exercises it; it cannot be delegated (e.g. art. 21)."
+      },
+      "privativa": {
+        "nome": "Reserved",
+        "definicao": "Only this entity legislates, but a complementary law may authorise the states to legislate on specific questions (art. 22, sole paragraph)."
+      },
+      "comum": {
+        "nome": "Common",
+        "definicao": "Union, states, Federal District and municipalities act together, in cooperation (art. 23)."
+      },
+      "concorrente": {
+        "nome": "Concurrent",
+        "definicao": "The Union sets the general rules and the states and the Federal District complement them (art. 24)."
+      },
+      "suplementar": {
+        "nome": "Supplementary",
+        "definicao": "The entity fills in federal and state legislation where applicable (e.g. municipalities, art. 30, II)."
+      },
+      "interesse-local": {
+        "nome": "Local interest",
+        "definicao": "The municipality legislates on matters of local interest (art. 30, I) and organises and provides local public services (art. 30, V)."
+      },
+      "propria": {
+        "nome": "Own",
+        "definicao": "The Constitution gives the subject to this entity expressly, without saying whether it is exclusive, common or concurrent (e.g. municipalities, art. 30, III, IV, VI to IX)."
+      },
+      "compartilhada": {
+        "nome": "Shared",
+        "definicao": "States, Federal District and municipalities exercise the same tax competence together, with one common complementary law and each entity's own rate (IBS, art. 156-A)."
+      },
+      "residual": {
+        "nome": "Residual",
+        "definicao": "The entity has whatever was not assigned to the others (states, art. 25, § 1º)."
+      }
+    },
+    "natureza_competencia": {
+      "legislativa": {
+        "nome": "Legislate",
+        "definicao": "Make the laws on the subject."
+      },
+      "material": {
+        "nome": "Execute",
+        "definicao": "Act, provide the service or oversee the subject."
+      }
+    },
+    "quorum": {
+      "maioria-simples": {
+        "nome": "Simple majority",
+        "definicao": "More votes for than against, among those present, provided the minimum attendance is met."
+      },
+      "maioria-absoluta": {
+        "nome": "Absolute majority",
+        "definicao": "More than half of all members, present or not."
+      },
+      "tres-quintos": {
+        "nome": "Three-fifths",
+        "definicao": "Three-fifths of all members."
+      },
+      "dois-tercos": {
+        "nome": "Two-thirds",
+        "definicao": "Two-thirds of all members."
+      },
+      "um-terco": {
+        "nome": "One-third",
+        "definicao": "One-third of the members."
+      },
+      "um-decimo": {
+        "nome": "One-tenth",
+        "definicao": "One-tenth of the members."
+      },
+      "votos-validos": {
+        "nome": "Majority of valid votes",
+        "definicao": "More than half of the votes, not counting blank and spoilt ballots."
+      },
+      "outro": {
+        "nome": "Other",
+        "definicao": "Specific rule; see the note."
+      }
+    },
+    "votacao": {
+      "aberta": {
+        "nome": "Open",
+        "definicao": "Each member's vote is public."
+      },
+      "secreta": {
+        "nome": "Secret",
+        "definicao": "Each member's vote is not disclosed."
+      },
+      "nominal": {
+        "nome": "Roll-call",
+        "definicao": "Each member votes individually and the vote is recorded by name."
+      },
+      "simbolica": {
+        "nome": "Symbolic",
+        "definicao": "Members express their view together, with no individual record."
+      }
+    },
+    "tipo_etapa": {
+      "acao": {
+        "nome": "Action",
+        "definicao": "Someone does something."
+      },
+      "decisao": {
+        "nome": "Decision",
+        "definicao": "Someone decides, and the path splits according to the result."
+      },
+      "decurso-de-prazo": {
+        "nome": "Lapse of time",
+        "definicao": "Nothing is done; the effect comes from time passing."
+      },
+      "fim": {
+        "nome": "End",
+        "definicao": "The process ends here."
+      }
+    },
+    "unidade_prazo": {
+      "horas": {
+        "nome": "hours",
+        "definicao": "Consecutive hours."
+      },
+      "dias": {
+        "nome": "days",
+        "definicao": "Calendar days."
+      },
+      "dias-uteis": {
+        "nome": "working days",
+        "definicao": "Working days."
+      },
+      "sessoes": {
+        "nome": "sessions",
+        "definicao": "Sessions of the legislative house."
+      },
+      "meses": {
+        "nome": "months",
+        "definicao": "Months."
+      },
+      "anos": {
+        "nome": "years",
+        "definicao": "Years."
+      }
+    },
+    "medida": {
+      "orcamento-executado": {
+        "nome": "Budget execution",
+        "definicao": "How much the body paid in the year (spending of the year paid plus commitments from earlier years paid in the year), with the approved appropriation alongside (D46)."
+      }
+    }
+  }
+}

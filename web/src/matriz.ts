@@ -2,11 +2,12 @@
 // cada célula, o tipo de competência e se ela é para legislar ou para executar.
 // É uma tabela HTML, não um grafo: assim continua legível com centenas de matérias.
 import { Dados, normalizar, type Entidade } from "./dados.ts";
+import { LOCALE, t } from "./i18n.ts";
 
 const COLUNAS = [
-  { ente: "ente:uniao", nome: "União" },
-  { ente: "ente:arquetipo-estadual", nome: "Estados" },
-  { ente: "ente:arquetipo-municipal", nome: "Municípios" },
+  { ente: "ente:uniao", nome: t("União") },
+  { ente: "ente:arquetipo-estadual", nome: t("Estados") },
+  { ente: "ente:arquetipo-municipal", nome: t("Municípios") },
 ];
 
 interface Competencia { tipo: string; natureza: string; nota?: string }
@@ -43,14 +44,14 @@ function chaveDispositivo(rels: Entidade[]): [number, number] {
 
 const VISTAS = {
   materia: {
-    rotulo: "Matérias",
-    singular: "Matéria",
-    intro: "Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal legisla sobre o que cabe a estados e municípios (art. 32, § 1º) e aparece ao lado dos estados nas competências comuns e concorrentes (arts. 23 e 24).",
+    rotulo: t("Matérias"),
+    singular: t("Matéria"),
+    intro: t("Competências que a Constituição dá à União, aos estados e aos municípios. O Distrito Federal legisla sobre o que cabe a estados e municípios (art. 32, § 1º) e aparece ao lado dos estados nas competências comuns e concorrentes (arts. 23 e 24)."),
   },
   tributo: {
-    rotulo: "Tributos",
-    singular: "Tributo",
-    intro: "Quem pode instituir cada tributo (arts. 145 a 156-B e 195). O Distrito Federal tem os impostos dos estados e dos municípios (arts. 147 e 155).",
+    rotulo: t("Tributos"),
+    singular: t("Tributo"),
+    intro: t("Quem pode instituir cada tributo (arts. 145 a 156-B e 195). O Distrito Federal tem os impostos dos estados e dos municípios (arts. 147 e 155)."),
   },
 } as const;
 type Vista = keyof typeof VISTAS;
@@ -77,17 +78,17 @@ export class Matriz {
   mostrar() {
     this.el.innerHTML = `
       <div class="matriz-topo">
-        <h2>Quem cuida de quê</h2>
+        <h2>${t("Quem cuida de quê")}</h2>
         <p class="intro"></p>
         <div class="matriz-filtros">
-          <select name="vista" aria-label="O que mostrar">
+          <select name="vista" aria-label="${t("O que mostrar")}">
             ${Object.entries(VISTAS).map(([v, { rotulo }]) => `<option value="${v}"${v === this.vista ? " selected" : ""}>${rotulo}</option>`).join("")}
           </select>
-          <input type="search" name="busca-materia" aria-label="Filtrar" />
-          <select name="natureza" aria-label="Natureza da competência">
-            <option value="">Legislar e executar</option>
-            <option value="legislativa">Só legislar</option>
-            <option value="material">Só executar</option>
+          <input type="search" name="busca-materia" aria-label="${t("Filtrar")}" />
+          <select name="natureza" aria-label="${t("Natureza da competência")}">
+            <option value="">${t("Legislar e executar")}</option>
+            <option value="legislativa">${t("Só legislar")}</option>
+            <option value="material">${t("Só executar")}</option>
           </select>
         </div>
       </div>
@@ -102,13 +103,13 @@ export class Matriz {
     const corpo = this.el.querySelector("tbody");
     if (!corpo) return;
     const intro = this.el.querySelector(".matriz-topo .intro");
-    if (intro) intro.textContent = `${VISTAS[this.vista].intro} Clique numa linha para ver os detalhes e a base legal.`;
+    if (intro) intro.textContent = `${VISTAS[this.vista].intro} ${t("Clique numa linha para ver os detalhes e a base legal.")}`;
     const cabecalho = this.el.querySelector(".coluna-objeto");
     if (cabecalho) cabecalho.textContent = VISTAS[this.vista].singular;
-    this.el.querySelector<HTMLInputElement>("[name=busca-materia]")!.placeholder = `Filtrar ${VISTAS[this.vista].rotulo.toLowerCase()}…`;
+    this.el.querySelector<HTMLInputElement>("[name=busca-materia]")!.placeholder = t("Filtrar {o_que}…", { o_que: VISTAS[this.vista].rotulo.toLowerCase() });
     const materias = this.dados.todas("objeto").filter((o) => o.tipo_objeto === this.vista);
     if (!materias.length) {
-      corpo.innerHTML = `<tr><td colspan="${COLUNAS.length + 1}" class="intro">Ainda em pesquisa.</td></tr>`;
+      corpo.innerHTML = `<tr><td colspan="${COLUNAS.length + 1}" class="intro">${t("Ainda em pesquisa.")}</td></tr>`;
       return;
     }
     const linhas = materias
@@ -117,11 +118,11 @@ export class Matriz {
         return { m, rels, chave: chaveDispositivo(rels) };
       })
       .filter(({ m, rels }) => {
-        if (this.filtroTexto && !normalizar(`${m.nome} ${m.resumo ?? ""}`).includes(this.filtroTexto)) return false;
+        if (this.filtroTexto && !normalizar(`${m.nome} ${m.resumo ?? ""}${m.nome_pt ? ` ${m.nome_pt}` : ""}`).includes(this.filtroTexto)) return false;
         if (this.filtroNatureza && !rels.some((r) => (r.competencia as Competencia).natureza === this.filtroNatureza)) return false;
         return true;
       })
-      .sort((a, b) => a.chave[0] - b.chave[0] || a.chave[1] - b.chave[1] || a.m.nome.localeCompare(b.m.nome, "pt-BR"));
+      .sort((a, b) => a.chave[0] - b.chave[0] || a.chave[1] - b.chave[1] || a.m.nome.localeCompare(b.m.nome, LOCALE));
 
     corpo.innerHTML = linhas
       .map(({ m, rels }) => {
