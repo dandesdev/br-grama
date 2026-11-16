@@ -21,6 +21,7 @@ interface Eventos {
 
 export class Painel {
   private aberto = new Set<string>(); // blocos "i" expandidos
+  private realce: string | null = null; // unidade do SIORG achada pela busca (D63)
 
   constructor(private el: HTMLElement, private dados: Dados, private eventos: Eventos) {
     el.addEventListener("click", (ev) => {
@@ -167,10 +168,21 @@ export class Painel {
     const unidades = est.unidades as U[];
     const filhos = new Map<string, U[]>();
     for (const u of unidades) filhos.set(u.pai, [...(filhos.get(u.pai) ?? []), u]);
+    // Caminho até a unidade achada pela busca: os níveis de cima ficam abertos.
+    const caminho = new Set<string>();
+    const realce = this.realce;
+    this.realce = null;
+    if (realce) {
+      const porCodigo = new Map(unidades.map((u) => [u.codigo, u]));
+      for (let u = porCodigo.get(realce); u; u = porCodigo.get(u.pai)) caminho.add(u.codigo);
+    }
     const item = (u: U): string => {
       const sub = filhos.get(u.codigo) ?? [];
       const rotulo = `${u.mapa ? this.link(u.mapa) : esc(u.nome)}${u.sigla ? ` <span class="sub">${esc(u.sigla)}</span>` : ""}${u.colegiada ? ` <span class="etiqueta">colegiado</span>` : ""}`;
-      return sub.length ? `<li><details><summary>${rotulo} <span class="sub">(${sub.length})</span></summary><ul>${sub.map(item).join("")}</ul></details></li>` : `<li>${rotulo}</li>`;
+      const classe = u.codigo === realce ? ` class="realce"` : "";
+      return sub.length
+        ? `<li${classe}><details${caminho.has(u.codigo) && u.codigo !== realce ? " open" : ""}><summary>${rotulo} <span class="sub">(${sub.length})</span></summary><ul>${sub.map(item).join("")}</ul></details></li>`
+        : `<li${classe}>${rotulo}</li>`;
     };
     const raiz = filhos.get(est.siorg as string) ?? [];
     const vinc = (est.vinculadas as { nome: string; sigla?: string; mapa?: string }[] | undefined) ?? [];
@@ -341,6 +353,12 @@ export class Painel {
 
   // ---------- Telas ----------
 
+  /** Abre a árvore do SIORG na próxima exibição do órgão, com a unidade achada pela busca em destaque (D63). */
+  destacarUnidade(estId: string, codigo: string) {
+    this.aberto.add(estId);
+    this.realce = codigo;
+  }
+
   mostrar(id: string) {
     const e = this.dados.get(id);
     if (!e) return;
@@ -384,6 +402,7 @@ export class Painel {
     }
     this.el.innerHTML = partes.join("");
     this.el.scrollTop = 0;
+    this.el.querySelector(".arvore .realce")?.scrollIntoView({ block: "center" });
   }
 
   /** Eleições: os cargos em disputa saem das relações "elege" do eleitorado que vota nas etapas (D41). */

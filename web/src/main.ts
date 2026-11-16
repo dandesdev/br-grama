@@ -7,6 +7,9 @@ import { Calendario } from "./calendario.ts";
 import { mostrarSobre } from "./sobre.ts";
 import { Painel, amostraTraco } from "./painel.ts";
 
+const esc = (s: unknown) =>
+  String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
+
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 
 const dados = await carregar();
@@ -166,20 +169,42 @@ $<HTMLInputElement>("orcamento").addEventListener("change", (ev) => {
 // ---------- Busca ----------
 const busca = $<HTMLInputElement>("busca");
 const resultados = $<HTMLUListElement>("busca-resultados");
-const buscaveis = dados
+type Buscavel = { id: string; rotulo: string; tipo: string; chave: string; unidade?: { est: string; codigo: string } };
+const NOME_TIPO_BUSCA: Record<string, string> = { orgao: "órgão", cargo: "cargo", pessoa: "pessoa", processo: "processo", objeto: "objeto" };
+const buscaveis: Buscavel[] = dados
   .todas()
-  .filter((e) => ["orgao", "cargo", "pessoa", "processo", "objeto"].includes(e.tipo))
-  .map((e) => ({ e, chave: normalizar(`${e.nome} ${e.sigla ?? ""}`) }));
+  .filter((e) => e.tipo in NOME_TIPO_BUSCA)
+  .map((e) => ({ id: e.id, rotulo: `${e.nome}${e.sigla ? ` (${e.sigla})` : ""}`, tipo: NOME_TIPO_BUSCA[e.tipo], chave: normalizar(`${e.nome} ${e.sigla ?? ""}`) }));
+// Unidades internas do SIORG (D63): levam ao órgão, com a árvore aberta na unidade. As que já são nós do mapa ficam de fora.
+for (const est of dados.todas().filter((e) => e.tipo === "estrutura")) {
+  const dono = dados.get(est.de as string);
+  if (!dono) continue;
+  for (const u of est.unidades as { codigo: string; nome: string; sigla?: string; colegiada?: boolean; mapa?: string }[]) {
+    if (u.mapa) continue;
+    buscaveis.push({
+      id: dono.id,
+      rotulo: `${u.nome}${u.sigla ? ` (${u.sigla})` : ""}`,
+      tipo: `${u.colegiada ? "colegiado" : "unidade"} em ${dono.sigla ?? dono.nome}`,
+      chave: normalizar(`${u.nome} ${u.sigla ?? ""}`),
+      unidade: { est: est.id, codigo: u.codigo },
+    });
+  }
+}
 busca.addEventListener("input", () => {
   const q = normalizar(busca.value.trim());
   if (!q) {
     resultados.hidden = true;
     return;
   }
-  const encontrados = buscaveis.filter((b) => b.chave.includes(q)).slice(0, 8);
+  // Entidades do mapa primeiro, depois as unidades do SIORG.
+  const achados = buscaveis.filter((b) => b.chave.includes(q));
+  const encontrados = [...achados.filter((b) => !b.unidade), ...achados.filter((b) => b.unidade)].slice(0, 10);
   resultados.innerHTML =
     encontrados
-      .map(({ e }) => `<li role="option" data-id="${e.id}">${e.nome}${e.sigla ? ` (${e.sigla})` : ""}<div class="tipo">${e.tipo}</div></li>`)
+      .map((b) => {
+        const i = buscaveis.indexOf(b);
+        return `<li role="option" data-id="${esc(b.id)}" data-i="${i}">${esc(b.rotulo)}<div class="tipo">${esc(b.tipo)}</div></li>`;
+      })
       .join("") || `<li>Nada encontrado</li>`;
   resultados.hidden = false;
 });
@@ -188,6 +213,8 @@ resultados.addEventListener("click", (ev) => {
   if (!li) return;
   resultados.hidden = true;
   busca.value = "";
+  const unidade = buscaveis[Number(li.dataset.i)]?.unidade;
+  if (unidade) painel.destacarUnidade(unidade.est, unidade.codigo);
   selecionar(li.dataset.id!, true);
 });
 busca.addEventListener("keydown", (ev) => {

@@ -349,3 +349,4 @@ main { flex: 1; display: flex; min-height: 0; }
 .arvore li { margin: 2px 0; }
 .arvore summary { cursor: pointer; }
 .arvore .sub { color: var(--tinta-2); font-size: 11px; }
+.arvore .realce > :first-child, .arvore li.realce { background: var(--plano); border-radius: 3px; }
