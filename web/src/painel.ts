@@ -10,8 +10,18 @@ const avisoIdioma = () => (emIngles ? `<p class="aviso-idioma">${t("Os detalhes 
 const esc = (s: unknown) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
-// Nomes legíveis dos campos que têm fonte própria (`campos`), em vez do nome interno.
-const ROTULO_CAMPO: Record<string, string> = { contido_em: "Parte de", sigla: "Sigla", detalhes: "Detalhes", poder: "Poder", esfera: "Esfera", tipo_orgao: "Tipo", vigencia: "Vigência", resumo: "Resumo", nome: "Nome" };
+// Nomes legíveis dos campos que têm fonte própria (`campos`), em vez do nome interno. Funções, para t() traduzir na hora.
+const ROTULO_CAMPO: Record<string, () => string> = {
+  contido_em: () => t("Parte de"),
+  sigla: () => t("Sigla"),
+  detalhes: () => t("Detalhes"),
+  poder: () => t("Poder"),
+  esfera: () => t("Esfera"),
+  tipo_orgao: () => t("Tipo"),
+  vigencia: () => t("Vigência"),
+  resumo: () => t("Resumo"),
+  nome: () => t("Nome"),
+};
 
 /** Amostra SVG do traço de um grupo de relação (também usada na barra de filtros). */
 export function amostraTraco(grupo: string): string {
@@ -109,7 +119,7 @@ export class Painel {
     const aberto = this.aberto.has(e.id);
     const porCampo = Object.entries(e.campos ?? {})
       .filter(([, c]) => c.fontes?.length || c.nota)
-      .map(([campo, c]) => `<h3>${t("Fonte do campo “{campo}”", { campo: esc(t(ROTULO_CAMPO[campo] ?? campo)) })}</h3>${this.fontes(c.fontes)}${c.nota ? `<p class="dispositivo">${esc(c.nota)}</p>` : ""}`)
+      .map(([campo, c]) => `<h3>${t("Fonte do campo “{campo}”", { campo: esc(ROTULO_CAMPO[campo]?.() ?? campo) })}</h3>${this.fontes(c.fontes)}${c.nota ? `<p class="dispositivo">${esc(c.nota)}</p>` : ""}`)
       .join("");
     const mais = e.mais_informacoes?.length
       ? `<h3>${t("Mais informações")}</h3><ul>${e.mais_informacoes

@@ -99,7 +99,7 @@
       "lei-complementar": "Congress votes on the complementary law by absolute majority, and the President assents to or vetoes it",
       "nao-aprovado": "The territorial change does not happen",
       "novos-limites": "The states take on the new boundaries, or the new state or territory comes into being, under the complementary law",
-      "plebiscito": "The Electoral Courts hold the plebiscite, on the same date and at the same time in each state involved",
+      "plebiscito": "The Electoral Justice holds the plebiscite, on the same date and at the same time in each state involved",
       "projeto-e-audiencia": "The complementary bill is introduced in one of the Houses, which hears the Legislative Assemblies of the states involved",
       "proposta-de-plebiscito": "At least one-third of the members of the Chamber or the Senate propose the legislative decree calling the plebiscite"
     },
@@ -117,7 +117,7 @@
       "sem-lei-complementar": "It cannot be done in 2026: the federal complementary law setting the period for it does not exist",
       "tipo-de-alteracao": "What change is sought: creating, merging or incorporating municipalities, or detaching part of one to join it to another?"
     },
-    "nome": "Creation, merger, incorporation and dismemberment of municipalities",
+    "nome": "Creation, incorporation, merger and dismemberment of municipalities",
     "resumo": "Changing the map of the municipalities requires a state law, a feasibility study and a plebiscite. In 2026 there are rules only for detaching part of one municipality and joining it to another."
   },
   "proc:apuracao-do-indice-de-participacao-dos-municipios-no-icms": {
@@ -355,7 +355,7 @@
   },
   "proc:desapropriacao-para-reforma-agraria": {
     "etapas": {
-      "acao": "Incra brings the expropriation action in the Federal Courts, with a price offer",
+      "acao": "Incra brings the expropriation action in the Federal Justice, with a price offer",
       "contestacao": "The owner may contest within 15 days, without disputing the social interest",
       "decreto": "The President declares the property of social interest for land reform, by decree",
       "imissao": "The federal judge puts Incra in possession of the property and summons the owner",
@@ -383,15 +383,15 @@
     "etapas": {
       "apuracao": "Counting boards count the votes; TREs and the TSE tally them, apply the majority and proportional systems and proclaim the winners",
       "convencoes": "Parties and federations hold conventions to choose candidates and decide on coalitions for majority races",
-      "diplomacao": "The Electoral Courts issue certificates of election to the winners and alternates",
+      "diplomacao": "The Electoral Justice issues certificates of election to the winners and alternates",
       "encerramento-do-alistamento": "The voter register closes: no voter registration or transfer request is accepted in the 150 days before the election",
       "impugnacao": "Candidates, parties, federations, coalitions and the Public Prosecution Service may challenge registration requests",
-      "julgamento-dos-registros": "The Electoral Courts check eligibility and grounds for ineligibility and grant or refuse each registration",
+      "julgamento-dos-registros": "The Electoral Justice checks eligibility and grounds for ineligibility and grants or refuses each registration",
       "nomeacao-das-mesas": "The electoral judge appoints the members of the polling boards and designates the polling places",
-      "pedido-de-registro": "Parties, federations and coalitions ask the Electoral Courts to register the candidates",
+      "pedido-de-registro": "Parties, federations and coalitions ask the Electoral Justice to register the candidates",
       "posse": "Taking office: the President on 5 January, governors on 6 January and members of the legislatures from 1 February of the following year",
       "prazos-seis-meses": "Six months before: parties and federations registered with the TSE; candidates with residence and party membership; resignations",
-      "prestacao-de-contas": "Candidates and parties render campaign accounts; the Electoral Courts judge the winners' accounts before certification",
+      "prestacao-de-contas": "Candidates and parties render campaign accounts; the Electoral Justice judges the winners' accounts before certification",
       "primeiro-turno": "Voters across the country vote for President, governor, senator, federal deputy and state or district deputy",
       "propaganda": "Campaign: electoral advertising allowed and free airtime on radio and TV",
       "segundo-turno": "A new vote between the two leading candidates for President and, where applicable, for governor"
@@ -411,7 +411,7 @@
       "pedido-de-registro": "Parties, federations and coalitions ask the electoral judge to register the candidates",
       "posse": "The mayor and deputy mayor take office on 1 January of the following year; councillors as set by the organic law",
       "prazos-seis-meses": "Six months before: parties and federations registered; candidates with residence in the municipality and party membership; resignations",
-      "prestacao-de-contas": "Candidates and parties render campaign accounts; the Electoral Courts judge the winners' accounts before certification",
+      "prestacao-de-contas": "Candidates and parties render campaign accounts; the Electoral Justice judges the winners' accounts before certification",
       "primeiro-turno": "Voters in all municipalities vote for mayor and councillor on the same day",
       "propaganda": "Campaign: electoral advertising and free airtime on radio and TV",
       "segundo-turno": "A new vote between the two leading candidates for mayor"
@@ -558,7 +558,7 @@
       "sentenca": "The judge holds the hearing and gives judgment"
     },
     "nome": "Expropriation of land with illegal cultivation of psychotropic plants",
-    "resumo": "The Union asks the courts to expropriate the land; the judge may immediately put it in possession and, at the end, the property passes to the Union without compensation."
+    "resumo": "The Union asks the courts to expropriate the land; the judge may immediately put the Union in possession and, at the end, the property passes to the Union without compensation."
   },
   "proc:extradicao": {
     "etapas": {
@@ -834,14 +834,14 @@
   "proc:nova-eleicao": {
     "etapas": {
       "apuracao-e-diplomacao": "The counting board or the TRE counts the votes, reviews the previous count and confirms or invalidates certificates of election already issued",
-      "decisao-que-anula": "The Electoral Courts annul votes or polling stations, or strip the winner of a majority race of registration, certificate of election or mandate",
+      "decisao-que-anula": "The Electoral Justice annuls votes or polling stations, or strip the winner of a majority race of registration, certificate of election or mandate",
       "marcacao-da-nova-eleicao": "The court schedules the new election, direct or, for governor and mayor, indirect in the last six months of the term",
       "provocacao-pelo-ministerio-publico": "If the TRE does not schedule the new election, the Electoral Public Prosecution Service asks the TSE to schedule it",
       "renovacao-nas-secoes": "The TRE orders repeat voting only in the annulled polling stations; the President of the TRE sets the date",
       "votacao": "Voters vote again before the polling boards"
     },
     "nome": "New election and repeat voting",
-    "resumo": "When the Electoral Courts annul votes that change the result or remove the winner of a majority race from office, voters vote again, in some polling stations or in the whole constituency."
+    "resumo": "When the Electoral Justice annuls votes that change the result or remove the winner of a majority race from office, voters vote again, in some polling stations or in the whole constituency."
   },
   "proc:orcamento-do-cgibs": {
     "etapas": {
@@ -891,7 +891,7 @@
       "camara-ccjc": "The CCJC handles the petition for breach of art. 54 or conviction, or decides the appeal against the Council",
       "camara-conselho-de-etica": "The Chamber's Ethics Council conducts the disciplinary proceedings and votes on the rapporteur's report",
       "camara-plenario": "The Chamber Plenary decides, in an open vote, by absolute majority (257 votes)",
-      "declaracao-pela-mesa": "The Steering Board declares the loss in cases of absences, loss of political rights or a decision of the Electoral Courts",
+      "declaracao-pela-mesa": "The Steering Board declares the loss in cases of absences, loss of political rights or a decision of the Electoral Justice",
       "perda-do-mandato": "The loss of mandate is formalised, the seat falls vacant and the alternate is called",
       "representacao": "The House's Steering Board or a party represented in Congress files a petition for loss of mandate",
       "senado-ccj": "The Senate CCJ examines the constitutional, legal and juridical aspects of the report recommending loss of mandate",
@@ -915,17 +915,17 @@
   },
   "proc:plebiscito-e-referendo": {
     "etapas": {
-      "ciencia-a-justica-eleitoral": "The President of Congress notifies the Electoral Courts of the call; in a plebiscite, bills on the subject are put on hold",
+      "ciencia-a-justica-eleitoral": "The President of Congress notifies the Electoral Justice of the call; in a plebiscite, bills on the subject are put on hold",
       "convocacao": "The National Congress votes on the legislative decree calling the consultation",
       "homologacao": "The TSE ratifies the result; the proposal is approved or rejected by simple majority",
       "nao-convocado": "Legislative decree rejected: there is no consultation",
-      "organizacao": "The Electoral Courts set the date, publish the ballot, issue instructions and ensure free airtime on radio and TV",
+      "organizacao": "The Electoral Justice sets the date, publishes the ballot, issues instructions and ensures free airtime on radio and TV",
       "proposta": "At least one-third of the members of the Chamber or the Senate introduce the draft legislative decree calling the consultation",
       "resultado": "Result proclaimed: in a plebiscite, the act may or may not go ahead; in a referendum, the act is ratified or rejected",
       "votacao": "Voters vote, by universal suffrage and direct, secret ballot, approving or rejecting what was submitted"
     },
     "nome": "National plebiscite and referendum",
-    "resumo": "One-third of one of the Houses proposes, Congress calls it by legislative decree, the Electoral Courts organise the consultation and the TSE ratifies the result, which is decided by simple majority."
+    "resumo": "One-third of one of the Houses proposes, Congress calls it by legislative decree, the Electoral Justice organises the consultation and the TSE ratifies the result, which is decided by simple majority."
   },
   "proc:processo-administrativo-disciplinar-federal": {
     "etapas": {
@@ -988,7 +988,7 @@
       "sancao": "The prosecutor general of the branch imposes a warning, censure or suspension"
     },
     "nome": "Disciplinary proceedings against a member of the MPU",
-    "resumo": "How misconduct by an MPU prosecutor is investigated: inquiry by the Inspectorate, proceedings in the Higher Council, and a sanction by the prosecutor general or an action in the courts."
+    "resumo": "How misconduct by an MPU prosecutor is investigated: inquiry by the Office of the Inspector General, proceedings in the Higher Council, and a sanction by the prosecutor general or an action in the courts."
   },
   "proc:reclamacao": {
     "etapas": {
@@ -1025,25 +1025,25 @@
       "recurso-ao-tre": "The party appeals to the TRE by petition to the judge, who hears the respondent and may revise the decision before forwarding it",
       "recurso-ao-tse": "The TSE rules on the special or ordinary appeal against the TRE's decision"
     },
-    "nome": "Appeals in the Electoral Courts",
+    "nome": "Appeals in the Electoral Justice",
     "resumo": "Path of an electoral appeal: from the judge or board to the TRE, from the TRE to the TSE in the cases provided for, and, only on constitutional matters or habeas corpus and writs of mandamus, to the STF. General deadline: three days."
   },
   "proc:registro-de-candidatura": {
     "etapas": {
       "contestacao": "The candidate, party or coalition answers the challenge, attaches documents and names witnesses",
       "deferido": "Registration granted: the candidate runs",
-      "edital": "The Electoral Courts publish the request in a public notice, for the information of interested parties",
+      "edital": "The Electoral Justice publishes the request in a public notice, for the information of interested parties",
       "impugnacao": "A candidate, party, coalition or the Public Prosecution Service may challenge the request, in a reasoned petition",
       "indeferido": "Registration refused or cancelled, with no replacement",
       "instrucao": "The judge or rapporteur hears witnesses, carries out inquiries and sets a deadline for final arguments",
       "julgamento": "The electoral judge, the TRE or the TSE grants or refuses the registration and decides the challenge",
-      "pedido": "A party, federation or coalition asks the Electoral Courts to register the candidates chosen at the convention",
+      "pedido": "A party, federation or coalition asks the Electoral Justice to register the candidates chosen at the convention",
       "recurso-ao-tre": "The TRE rules on the appeal against the electoral judge's decision, after hearing the Regional Electoral Prosecutor",
       "recurso-ao-tse": "The TSE rules on the appeal concerning the registration, after hearing the Electoral Prosecutor General",
       "substituicao": "The party or coalition may replace a candidate who was barred, withdrew or died"
     },
     "nome": "Candidacy registration and challenge",
-    "resumo": "The party applies for registration by 15 August; within five days of publication any candidate, party or the Public Prosecution Service may challenge it; the Electoral Courts decide, with appeals up to the TSE."
+    "resumo": "The party applies for registration by 15 August; within five days of publication any candidate, party or the Public Prosecution Service may challenge it; the Electoral Justice decides, with appeals up to the TSE."
   },
   "proc:registro-de-partido-politico": {
     "etapas": {
@@ -1052,7 +1052,7 @@
       "fundacao": "At least 101 founders, with electoral residence in one-third of the states, approve the programme and statute",
       "julgamento": "The TSE registers the party's statute",
       "pedido-ao-tse": "The national leaders ask the TSE to register the statute, with the certificates of support",
-      "registrado": "Party registered with the TSE; from then on it informs the Electoral Courts of the composition of its governing bodies",
+      "registrado": "Party registered with the TSE; from then on it informs the Electoral Justice of the composition of its governing bodies",
       "registro-civil": "The Civil Registry of Legal Entities at the party's seat registers the party, which acquires legal personality"
     },
     "nome": "Creation and registration of a political party",

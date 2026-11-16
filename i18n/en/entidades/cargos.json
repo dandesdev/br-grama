@@ -104,7 +104,7 @@
     "resumo": "Career public lawyer of the state. Joins through a competitive public examination and gains tenure after three years."
   },
   "cargo:arquetipo-estadual-procurador-geral-de-justica": {
-    "nome": "State Prosecutor General (Procurador-Geral de Justiça)",
+    "nome": "Prosecutor General of Justice (Procurador-Geral de Justiça)",
     "resumo": "Head of the state Public Prosecution Service, appointed by the governor from a three-name list drawn up by the career, for a two-year term of office."
   },
   "cargo:arquetipo-estadual-subdefensor-publico-geral": {
@@ -164,11 +164,11 @@
     "resumo": "Court auxiliary who, under the judge's supervision, conducts the conciliation hearing in the special courts; preferably a law graduate."
   },
   "cargo:conselheiro-do-cnas": {
-    "nome": "Member of the National Council of Social Assistance",
+    "nome": "Member of the National Social Assistance Council",
     "resumo": "Member of the CNAS, which has 18 full members: half from government, half from civil society. Appointed by the President of the Republic for two years."
   },
   "cargo:conselheiro-do-cne": {
-    "nome": "Member of the National Council of Education",
+    "nome": "Member of the National Education Council",
     "resumo": "Sits on one of the CNE's two chambers, of 12 members each. Appointed by the President of the Republic for a four-year term of office; at least half come from lists drawn up by civil society."
   },
   "cargo:conselheiro-do-cnj": {
@@ -188,8 +188,8 @@
     "resumo": "Oversees the management and accounts of a federal state-owned company on its permanent fiscal council; at least one member is a career civil servant nominated by the Union."
   },
   "cargo:consultor-geral-da-uniao": {
-    "nome": "Consultant General of the Union",
-    "resumo": "Heads the Office of the Consultant General of the Union, which gives legal advice to the President of the Republic. Appointed by the President on the nomination of the Attorney General."
+    "nome": "Legal Counsel General of the Union",
+    "resumo": "Heads the Office of the Legal Counsel of the Union, which gives legal advice to the President of the Republic. Appointed by the President on the nomination of the Attorney General."
   },
   "cargo:coordenador-dos-juizados-especiais-federais": {
     "nome": "Coordinator of the Federal Special Courts",
@@ -197,7 +197,7 @@
   },
   "cargo:corregedor-da-justica-do-df": {
     "nome": "Inspector of Justice of the Federal District and Territories",
-    "resumo": "Appellate judge who heads the Office of the Inspector General of the TJDFT and oversees court services and registry offices in the DF. Elected by fellow judges for two years."
+    "resumo": "Appellate judge who heads the TJDFT's Office of the Inspector of Justice and oversees court services and registry offices in the DF. Elected by fellow judges for two years."
   },
   "cargo:corregedor-geral-da-agu": {
     "nome": "Inspector General of the Advocacy of the Union",
@@ -245,11 +245,11 @@
   },
   "cargo:corregedor-parlamentar-da-camara-dos-deputados": {
     "nome": "Parliamentary Inspector of the Chamber of Deputies",
-    "resumo": "Deputy who heads the Parliamentary Inspectorate: investigates wrongdoing involving deputies and presides over the inquiry when the suspect is a deputy."
+    "resumo": "Deputy who heads the Office of the Parliamentary Inspector: investigates wrongdoing involving deputies and presides over the inquiry when the suspect is a deputy."
   },
   "cargo:corregedor-parlamentar-do-senado-federal": {
     "nome": "Parliamentary Inspector of the Federal Senate",
-    "resumo": "Senator who heads the Senate Inspectorate and presides over the inquiry when a senator commits an offence in the House's buildings."
+    "resumo": "Senator who heads the Senate's Office of the Parliamentary Inspector and presides over the inquiry when a senator commits an offence in the House's buildings."
   },
   "cargo:corregedor-regional-eleitoral": {
     "nome": "Regional Electoral Inspector",
@@ -341,11 +341,11 @@
   },
   "cargo:juiz-de-trf": {
     "nome": "Judge of a Federal Regional Court",
-    "resumo": "Sits on one of the six TRFs, the second instance of the Federal Courts. Four-fifths come from the promotion of federal judges; one-fifth from the legal profession and the Federal Public Prosecution Service."
+    "resumo": "Sits on one of the six TRFs, the second instance of the Federal Justice. Four-fifths come from the promotion of federal judges; one-fifth from the legal profession and the Federal Public Prosecution Service."
   },
   "cargo:juiz-de-trt": {
     "nome": "Judge of a Regional Labour Court",
-    "resumo": "Sits on one of the 24 TRTs, the second instance of the Labour Courts. Four-fifths come from the promotion of labour judges; one-fifth from the legal profession and the Labour Public Prosecution Service."
+    "resumo": "Sits on one of the 24 TRTs, the second instance of the Labour Justice. Four-fifths come from the promotion of labour judges; one-fifth from the legal profession and the Labour Public Prosecution Service."
   },
   "cargo:juiz-do-trabalho": {
     "nome": "Labour judge",
@@ -365,11 +365,11 @@
   },
   "cargo:juiz-federal": {
     "nome": "Federal judge",
-    "resumo": "Presiding judge of a Federal Court of first instance. Tries, among others, cases in which the Union, its autonomous agencies or state-owned companies are parties. Reaches the post by promotion."
+    "resumo": "Presiding judge of a first-instance court (vara) of the Federal Justice. Tries, among others, cases in which the Union, its autonomous agencies or state-owned companies are parties. Reaches the post by promotion."
   },
   "cargo:juiz-federal-da-justica-militar": {
     "nome": "Federal judge of Military Justice",
-    "resumo": "Presiding judge of an Auditoria (first-instance court) of the Union's Military Justice; presides over the Councils of Justice. Reaches the post by promotion. The Constitution still calls the post judge-auditor."
+    "resumo": "Presiding judge of an Auditoria (first-instance court) of the Union's Military Justice; presides over the Justice Councils. Reaches the post by promotion. The Constitution still calls the post judge-auditor."
   },
   "cargo:juiz-federal-substituto": {
     "nome": "Substitute federal judge",
@@ -384,23 +384,23 @@
     "resumo": "Lawyer who assists the career judge in the special courts of the states and the DF: conducts hearings and drafts proposed judgments. Serves for a fixed period."
   },
   "cargo:juiz-militar-dos-conselhos-de-justica": {
-    "nome": "Military judge of the Councils of Justice",
-    "resumo": "Career officer of the Armed Forces drawn by lot to sit on a Council of Justice of the Union's Military Justice, alongside the federal judge."
+    "nome": "Military judge of the Justice Councils",
+    "resumo": "Career officer of the Armed Forces drawn by lot to sit on a Justice Council of the Union's Military Justice, alongside the federal judge."
   },
   "cargo:julgador-da-camara-nacional-de-integracao": {
-    "nome": "Judge of the National Chamber for the Integration of IBS and CBS Disputes",
-    "resumo": "Member of Carf or of the IBS Higher Chamber nominated to harmonise administrative case law on the rules common to the IBS and the CBS."
+    "nome": "Judge of the National Chamber for the Integration of IBS and CBS Litigation",
+    "resumo": "Member of Carf or of the IBS Higher Chamber nominated to standardise administrative case law on the rules common to the IBS and the CBS."
   },
   "cargo:julgador-da-camara-superior-do-ibs": {
     "nome": "Judge of the IBS Higher Chamber",
-    "resumo": "State or municipal tax official, or taxpayers' representative, who harmonises, in the CGIBS Higher Chamber, case law on the IBS-specific legislation."
+    "resumo": "State or municipal tax official, or taxpayers' representative, who standardises, in the CGIBS Higher Chamber, case law on the IBS-specific legislation."
   },
   "cargo:julgador-de-primeira-instancia-do-ibs": {
     "nome": "Judge of the IBS Judgment Chambers",
     "resumo": "State, district or municipal tax official who decides, at the CGIBS first instance, challenges to IBS assessments, with a 2-year term of office."
   },
   "cargo:julgador-de-segunda-instancia-do-ibs": {
-    "nome": "Judge of the IBS Appeal Judgment Chambers",
+    "nome": "Judge of the IBS Appeal Adjudication Chambers",
     "resumo": "State or municipal tax official, or taxpayers' representative, who decides, at the CGIBS second instance, appeals against first-instance decisions."
   },
   "cargo:jurado": {
@@ -485,7 +485,7 @@
   },
   "cargo:membro-do-ministerio-publico-da-uniao": {
     "nome": "Member of the Public Prosecution Service of the Union",
-    "resumo": "Prosecutors of the MPF, MPT, MPM and MPDFT. Join through a competitive public examination and gain life tenure after two years."
+    "resumo": "Prosecutors (procuradores and promotores) of the MPF, MPT, MPM and MPDFT. Join through a competitive public examination and gain life tenure after two years."
   },
   "cargo:membro-do-mp-junto-ao-tcu": {
     "nome": "Deputy Prosecutor General or Prosecutor of the Public Prosecution Service at the TCU",
@@ -493,7 +493,7 @@
   },
   "cargo:ministro-corregedor-da-justica-militar": {
     "nome": "Inspecting Justice of Military Justice",
-    "resumo": "Role held by the Vice-President of the STM during his or her term: heads the Inspectorate of Military Justice, with jurisdiction across the country."
+    "resumo": "Role held by the Vice-President of the STM during his or her term: heads the Office of the Inspector of Military Justice, with jurisdiction across the country."
   },
   "cargo:ministro-de-estado": {
     "nome": "Minister of State",
@@ -617,7 +617,7 @@
   },
   "cargo:presidente-do-tst": {
     "nome": "President of the Superior Labour Court",
-    "resumo": "Heads the TST and presides over the Superior Council of Labour Justice. Elected by the TST Justices for two years."
+    "resumo": "Heads the TST and presides over the Higher Council of Labour Justice. Elected by the TST Justices for two years."
   },
   "cargo:primeiro-secretario-da-camara-dos-deputados": {
     "nome": "First Secretary of the Chamber of Deputies",
