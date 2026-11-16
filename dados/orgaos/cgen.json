@@ -20,6 +20,10 @@
         {
           "ref": "fonte:siorg-estrutura-resumida",
           "dispositivo": "unidade 55959 (CGen) na árvore do Ministério do Meio Ambiente e Mudança do Clima, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:decreto-12254-2024",
+          "dispositivo": "Anexo I, art. 2º, III, c"
         }
       ]
     }
@@ -39,11 +43,12 @@
     "ate": null,
     "nota": "Criado pela Lei 13.123/2015, com vigência 180 dias após a publicação; a data não foi calculada (ver norma:lei-13123-2015)."
   },
-  "notas": "O Decreto 8.772, art. 7º, I, lista 11 ministérios com os nomes de 2016; o caput fala em 12 representantes do governo, e o 12º não aparece no trecho lido (11 + 3 + 3 + 3 = 20, contra 21 no caput). Conferir na revisão.",
+  "notas": "O Decreto 8.772, art. 7º, I, lista 11 ministérios com os nomes de 2016; o caput fala em 12 representantes do governo, e a lista soma 20 conselheiros (11 + 3 + 3 + 3), contra 21 no caput. A revisão confirmou a contagem na redação vigente; ver aviso:cgen-composicao-11-ou-12-ministerios.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 13.123, art. 6º, e Decreto 8.772, arts. 6º e 7º, conferidos na cópia de 2026-11-15 (o Decreto 13.014/2026 não toca o art. 7º); contagem 11 + 9 confirmada; posição confirmada no Decreto 12.254/2024, Anexo I, art. 2º, III, c"
   }
 }

@@ -1,17 +1,21 @@
 {
   "id": "rel:comandante-da-marinha-indica-juiz-do-tribunal-maritimo",
   "tipo": "relacao",
-  "nome": "A Marinha indica o presidente e os juízes militares do Tribunal Marítimo",
+  "nome": "O Comandante da Marinha indica o presidente e propõe os juízes do Tribunal Marítimo",
   "relacao": "indica",
   "de": "cargo:comandante-da-marinha",
   "para": "cargo:juiz-do-tribunal-maritimo",
-  "condicao": "Indica o presidente, entre oficiais-generais da Armada, e propõe os juízes militares e os suplentes; o oficial da ativa indicado precisa concordar.",
-  "confianca": "inferido",
-  "notas": "A lei atribui a indicação ao 'Ministro da Marinha'. Hoje a Marinha é um comando do Ministério da Defesa; ligamos ao Comandante da Marinha por inferência, sem norma lida que transfira expressamente esta atribuição.",
+  "condicao": "Indica o presidente, entre oficiais-generais do Corpo da Armada; propõe os juízes militares e os civis (estes depois do concurso) e indica os suplentes; o oficial da ativa indicado precisa concordar.",
+  "confianca": "oficial",
+  "notas": "A lei atribui a indicação ao \"Ministro da Marinha\". A LC 97/1999, art. 19, manda entender as referências legais a Ministro da Marinha como Comandante da Marinha, desde que não colidam com atribuições do Ministro da Defesa.",
   "fontes": [
     {
       "ref": "norma:lei-2180-1954",
       "dispositivo": "art. 2º, §§ 1º a 3º; art. 3º"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 19"
     }
   ],
   "vigencia": {
@@ -20,8 +24,9 @@
     "nota": "Regra do Decreto-Lei 25/1966 e da Lei 8.391/1991; datas não levantadas."
   },
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 2.180, arts. 2º e 3º, conferidos; corrigido: a ligação ao Comandante da Marinha deixa de ser inferida (LC 97/1999, art. 19), e a condição passa a incluir os juízes civis, que a lei também manda propor (art. 2º, § 2º)"
   }
 }

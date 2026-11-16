@@ -3,7 +3,7 @@
   "tipo": "orgao",
   "nome": "Conselhos de fiscalização profissional",
   "resumo": "Conselhos federais e regionais criados por lei para registrar e fiscalizar profissões regulamentadas, como medicina, engenharia e contabilidade. Cobram anuidades e prestam contas ao TCU.",
-  "detalhes": "Cada profissão regulamentada tem um conselho federal e conselhos regionais criados por lei própria; exemplos: medicina (Lei 3.268/1957, art. 1º), contabilidade (Decreto-Lei 9.295/1946, art. 1º), engenharia e agronomia (Lei 5.194/1966, arts. 24 e 26) e enfermagem (Lei 5.905/1973, art. 1º). A Lei 9.649/1998 quis dar aos conselhos caráter privado, mas o STF declarou essa regra inconstitucional (ADI 1.717) e os trata como autarquias federais que exercem poder de polícia, de tributar e de punir (ADI 4.697). As anuidades são tributos, contribuições de interesse das categorias profissionais (CF, art. 149), com tetos fixados na Lei 12.514/2011. Em 2025 o TCU contava 557 conselhos, 30 federais e 527 regionais; o conselho federal consolida no seu relatório de gestão as contas do seu sistema. A OAB tem regime próprio e fica fora deste conjunto (org:oab).",
+  "detalhes": "As profissões regulamentadas que têm conselho próprio contam com um conselho federal e conselhos regionais criados por lei; exemplos: medicina (Lei 3.268/1957, art. 1º), contabilidade (Decreto-Lei 9.295/1946, art. 1º), engenharia e agronomia (Lei 5.194/1966, arts. 24 e 26) e enfermagem (Lei 5.905/1973, art. 1º). A Lei 9.649/1998 quis dar aos conselhos caráter privado, mas o STF declarou essa regra inconstitucional (ADI 1.717) e os trata como autarquias federais que exercem poder de polícia, de tributar e de punir (ADI 4.697). As anuidades são tributos, contribuições de interesse das categorias profissionais (CF, art. 149), com tetos fixados na Lei 12.514/2011 quando a lei do conselho não dispõe de outro modo (art. 3º). Em 2025 o TCU contava 557 conselhos, 30 federais e 527 regionais; o conselho federal consolida no seu relatório de gestão as contas do seu sistema. A OAB tem regime próprio e fica fora deste conjunto (org:oab).",
   "tipo_orgao": "conjunto",
   "poder": "executivo",
   "esfera": "federal",
@@ -58,8 +58,9 @@
   "confianca": "oficial",
   "notas": "Conjunto (D63 b). Poder 'executivo' pela D64: para o STF os conselhos são autarquias federais (ADI 1.717; ADI 4.697, ementa, item 1), e algumas leis de criação dizem o mesmo (Lei 3.268/1957 e Lei 5.905/1973, art. 1º: 'autarquia'). Esfera 'federal' porque são autarquias federais segundo o STF, inclusive os regionais. Da Lei 9.649/1998, art. 58, ficaram fora da ADI 1.717 o § 3º (empregados regidos pela CLT; ação prejudicada nesse ponto) e o § 9º (exclui a OAB). Nenhum conselho virou nó próprio: a CF não nomeia nenhum além da OAB, e as relações (anuidade, contas ao TCU) são comuns a todos. Não achamos lista oficial publicada dos 557 conselhos; ver aviso:casos-de-fronteira-sem-lista-de-membros.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-fronteira"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "coletado em f4-fronteira; Lei 3.268/1957, art. 1º ('autarquia', personalidade de direito público); Decreto-Lei 9.295/1946, art. 1º; Lei 5.194/1966, arts. 24 e 26; Lei 5.905/1973, art. 1º ('autarquia'); Lei 9.649/1998, art. 58; ADI 1.717 (decisão de 7/11/2002); ADI 4.697, ementa, itens 1 a 3; Lei 12.514/2011, arts. 3º a 6º; notícia do TCU (557 conselhos, 30 federais e 527 regionais), conferidos nas cópias. Poder 'executivo' e esfera 'federal' coerentes com a D64. Corrigidos nos detalhes: nem toda profissão regulamentada tem conselho ('cada profissão regulamentada tem um conselho' virou 'as que têm conselho próprio'), e os tetos da Lei 12.514/2011 valem quando a lei do conselho não dispõe de outro modo (art. 3º)."
   }
 }

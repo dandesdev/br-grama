@@ -20,9 +20,13 @@
         {
           "ref": "fonte:siorg-estrutura-resumida",
           "dispositivo": "unidade 321 (CONTRAN) na árvore do Ministério dos Transportes, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:decreto-11360-2023",
+          "dispositivo": "Anexo I, art. 2º, II, c, e III, b"
         }
       ],
-      "nota": "O CTB manda vincular o Contran ao ministério que coordena o Sistema Nacional de Trânsito, ao qual se subordina o órgão máximo executivo de trânsito da União (art. 9º). O SIORG põe o Contran e a Secretaria Nacional de Trânsito (Senatran) na árvore do Ministério dos Transportes."
+      "nota": "O CTB manda vincular o Contran ao ministério que coordena o Sistema Nacional de Trânsito, ao qual se subordina o órgão máximo executivo de trânsito da União (art. 9º). O Decreto 11.360/2023 (estrutura regimental do Ministério dos Transportes) põe no ministério a Secretaria Nacional de Trânsito, que exerce as competências do art. 19 do CTB, e o Contran, entre os órgãos colegiados; o SIORG mostra o mesmo."
     }
   },
   "fontes": [
@@ -47,8 +51,9 @@
   "notas": "Áreas dos Ministros no CTB, art. 10 (redação da Lei 14.599/2023): ciência, tecnologia e inovações; educação; defesa; meio ambiente; saúde; justiça; relações exteriores; indústria e comércio; agropecuária; transportes terrestres; segurança pública; mobilidade urbana (12). Os Ministros podem mandar representantes de nível CCE 17 ou superior, ou oficial-general (art. 10, § 4º). O dirigente do órgão máximo executivo de trânsito da União é o Secretário-Executivo (art. 10, § 5º). Os recursos contra multas de órgãos da União não sobem ao Contran: são julgados por colegiado especial das Jari (art. 289, I).",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; CTB, arts. 7º, 9º, 10, 12 e 13, conferidos na cópia de 2026-11-15 (redação da Lei 14.599/2023; nenhuma alteração de 2024 a 2026 nesses artigos); posição confirmada no Decreto 11.360/2023, Anexo I, art. 2º, II, c, e III, b"
   }
 }

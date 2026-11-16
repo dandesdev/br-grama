@@ -5,7 +5,7 @@
   "relacao": "nomeia",
   "de": "cargo:presidente-da-republica",
   "para": "cargo:juiz-do-tribunal-maritimo",
-  "condicao": "Nomeia livremente o presidente e os juízes militares indicados pela Marinha; os civis, depois de aprovados em concurso.",
+  "condicao": "Nomeia o presidente (livre nomeação, por indicação do Comandante da Marinha) e, por proposta do Comandante, os juízes militares, os civis aprovados em concurso e os suplentes.",
   "fontes": [
     {
       "ref": "norma:lei-2180-1954",
@@ -19,8 +19,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 2.180, art. 2º, §§ 1º, 2º e 4º, e art. 3º, conferidos; condição corrigida: os juízes civis também são nomeados por proposta da Marinha (§ 2º)"
   }
 }

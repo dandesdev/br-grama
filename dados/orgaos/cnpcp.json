@@ -9,7 +9,7 @@
   "poder": "executivo",
   "esfera": "federal",
   "ente": "ente:uniao",
-  "contido_em": "org:secretaria-nacional-de-politicas-penais",
+  "contido_em": "org:ministerio-da-justica-e-seguranca-publica",
   "campos": {
     "contido_em": {
       "fontes": [
@@ -18,11 +18,15 @@
           "dispositivo": "art. 62"
         },
         {
+          "ref": "norma:decreto-11348-2023",
+          "dispositivo": "Anexo I, art. 2º, III, d; art. 69"
+        },
+        {
           "ref": "fonte:siorg-estrutura-resumida",
-          "dispositivo": "unidade 320 (CNPCP) na árvore do Ministério da Justiça e Segurança Pública, abaixo da Secretaria Nacional de Políticas Penais (315287), consulta de 2026-11-14"
+          "dispositivo": "unidade 320 (CNPCP) nas árvores do Ministério da Justiça e Segurança Pública e da Secretaria Nacional de Políticas Penais (315287), consulta de 2026-11-14"
         }
       ],
-      "nota": "A LEP subordina o conselho ao Ministério da Justiça (art. 62); o SIORG o põe abaixo da Secretaria Nacional de Políticas Penais."
+      "nota": "A LEP subordina o conselho ao Ministério da Justiça (art. 62), e o Decreto 11.348/2023 (estrutura regimental do MJSP) o lista entre os órgãos colegiados do próprio ministério. O SIORG o mostra abaixo da Secretaria Nacional de Políticas Penais; seguimos a lei e o decreto."
     }
   },
   "fontes": [
@@ -38,8 +42,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; LEP, arts. 61 a 64, conferidos; corrigido o contido_em: de org:secretaria-nacional-de-politicas-penais (SIORG) para org:ministerio-da-justica-e-seguranca-publica, como dizem a LEP, art. 62, e o Decreto 11.348/2023, Anexo I, art. 2º, III, d"
   }
 }

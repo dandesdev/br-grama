@@ -11,7 +11,7 @@
   "fontes": [
     {
       "ref": "norma:lei-9790-1999",
-      "dispositivo": "arts. 1º, 3º, caput, e 5º a 12"
+      "dispositivo": "arts. 1º, 3º a 12 e 17"
     },
     {
       "ref": "norma:lei-13019-2014",
@@ -24,10 +24,11 @@
     "nota": "Publicação da Lei 9.790/1999, em vigor na mesma data (art. 20)."
   },
   "confianca": "oficial",
-  "notas": "Conjunto (D63 b). Esfera 'nacional': a qualificação é federal (Ministério da Justiça), mas o termo de parceria pode ser firmado com a União, os estados ou os municípios (art. 10, § 2º, VI, fala da imprensa oficial de cada um). O Ministério da Justiça dá acesso público às informações das OSCIPs (art. 17); esse cadastro não foi consultado. Ver aviso:casos-de-fronteira-sem-lista-de-membros.",
+  "notas": "Conjunto (D63 b). A qualificação pelo Ministério da Justiça e Segurança Pública está em rel:mjsp-registra-oscips, com o verbo 'registra' ampliado pela D64. Esfera 'nacional': a qualificação é federal (Ministério da Justiça), mas o termo de parceria pode ser firmado com a União, os estados ou os municípios (art. 10, § 2º, VI, fala da imprensa oficial de cada um). O Ministério da Justiça dá acesso público às informações das OSCIPs (art. 17); esse cadastro não foi consultado. Ver aviso:casos-de-fronteira-sem-lista-de-membros.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-fronteira"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "coletado em f4-fronteira; Lei 9.790/1999, arts. 1º (três anos de funcionamento, redação da Lei 13.019/2014), 3º (finalidades), 4º (estatuto), 5º a 12 e 17, e Lei 13.019/2014, art. 3º, VI, conferidos nas cópias. Corrigido o dispositivo da fonte: os detalhes usam também o art. 3º (incisos), o art. 4º (regras de estatuto) e as notas o art. 17, que não estavam citados."
   }
 }

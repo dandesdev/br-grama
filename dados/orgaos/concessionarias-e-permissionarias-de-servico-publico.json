@@ -2,8 +2,8 @@
   "id": "org:concessionarias-e-permissionarias-de-servico-publico",
   "tipo": "orgao",
   "nome": "Concessionárias e permissionárias de serviço público",
-  "resumo": "Empresas que prestam serviços públicos (energia, rodovias, portos, aeroportos e outros) por delegação do ente responsável, escolhidas por licitação e sujeitas a regulação e fiscalização.",
-  "detalhes": "Cabe ao Poder Público prestar os serviços públicos, diretamente ou por concessão ou permissão, sempre com licitação (CF, art. 175). A concessão é feita a pessoa jurídica ou consórcio de empresas, por conta e risco dela e por prazo determinado; a permissão é a título precário (Lei 8.987/1995, art. 2º). O poder concedente (União, estado, DF ou município, conforme o serviço) regulamenta e fiscaliza o serviço, aplica penalidades, revê tarifas e pode intervir ou extinguir a concessão (art. 29). Nos serviços federais de energia, transportes terrestres e aquaviários, aviação civil e telecomunicações, parte dessas tarefas cabe às agências reguladoras. Ver obj:concessao-de-servico-publico.",
+  "resumo": "Particulares que prestam serviços públicos (energia, rodovias, portos, aeroportos e outros) por delegação do ente responsável, escolhidos por licitação e sujeitos a regulação e fiscalização.",
+  "detalhes": "Cabe ao Poder Público prestar os serviços públicos, diretamente ou por concessão ou permissão, sempre com licitação (CF, art. 175). A concessão é feita a pessoa jurídica ou consórcio de empresas, por conta e risco dela e por prazo determinado; a permissão é a título precário e pode ser dada também a pessoa física (Lei 8.987/1995, art. 2º). O poder concedente (União, estado, DF ou município, conforme o serviço) regulamenta e fiscaliza o serviço, aplica penalidades, revê tarifas e pode intervir ou extinguir a concessão (art. 29). Nos serviços federais de energia, transportes terrestres e aquaviários, infraestrutura aeroportuária e telecomunicações, parte dessas tarefas cabe às agências reguladoras. Ver obj:concessao-de-servico-publico.",
   "tipo_orgao": "conjunto",
   "poder": "nao-estatal",
   "esfera": "nacional",
@@ -25,8 +25,9 @@
   "confianca": "oficial",
   "notas": "Conjunto (D63 b). O contrato de concessão continua em obj:concessao-de-servico-publico, alvo das relações 'fiscaliza' de cada ente concedente; este nó representa as empresas. As relações com as agências reguladoras usam as leis lidas em f2-executivo (cópias de 2026-10-28). As demais agências (ANA, ANP e outras) não foram ligadas: não lemos as leis delas em busca de concessões de serviço público. Não há lista oficial única das concessionárias; cada agência e cada ente tem a sua (ver aviso:casos-de-fronteira-sem-lista-de-membros).",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-fronteira"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "coletado em f4-fronteira; CF, art. 175, e Lei 8.987/1995, arts. 1º a 3º e 29 (cópia de 2026-10-23), conferidos. Corrigidos: o resumo dizia só \"empresas\", mas a permissão pode ser dada a pessoa física (art. 2º, IV); nos detalhes, \"aviação civil\" virou \"infraestrutura aeroportuária\", porque a outorga de serviços aéreos deixou de constar da Lei 11.182/2005, art. 8º, XIV (ver rel:anac-regula-concessionarias-e-permissionarias)."
   }
 }

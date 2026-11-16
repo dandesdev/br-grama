@@ -1,11 +1,11 @@
 {
   "id": "rel:anac-regula-concessionarias-e-permissionarias",
   "tipo": "relacao",
-  "nome": "A Anac regula as concessionárias de serviços aéreos e de aeroportos",
+  "nome": "A Anac regula as concessionárias de aeroportos",
   "relacao": "regula",
   "de": "org:anac",
   "para": "org:concessionarias-e-permissionarias-de-servico-publico",
-  "condicao": "Aviação civil: concede, permite ou autoriza a exploração de serviços aéreos e da infraestrutura aeroportuária, e regula e fiscaliza essas atividades.",
+  "condicao": "Infraestrutura aeroportuária: concede ou autoriza a sua exploração, no todo ou em parte, e regula e fiscaliza essa infraestrutura.",
   "vigencia": {
     "de": "2005-09-28",
     "ate": null
@@ -13,13 +13,15 @@
   "fontes": [
     {
       "ref": "norma:lei-11182-2005",
-      "dispositivo": "art. 2º; art. 8º, XIV, XXI e XXIV"
+      "dispositivo": "art. 2º; art. 8º, XXI e XXIV"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-fronteira"
-  }
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "coletado em f4-fronteira; Lei 11.182/2005 lida na cópia de f2-executivo (pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/l11182.htm): art. 2º e art. 8º, XXI e XXIV conferidos. Corrigidos nome, condição e dispositivo: o art. 8º, XIV, na redação da Lei 14.368/2022, não trata mais de outorga de serviços aéreos."
+  },
+  "notas": "Corrigido em verificacao-f4-fronteira: a relação falava em concessão, permissão ou autorização de serviços aéreos (art. 8º, XIV), mas esse inciso, na redação da Lei 14.368/2022, só manda 'exigir certificação do operador como condição para exploração dos serviços aéreos'; por isso as empresas aéreas saíram da relação. A Anac continua a regular e fiscalizar os serviços aéreos (art. 8º, X), fora deste conjunto."
 }

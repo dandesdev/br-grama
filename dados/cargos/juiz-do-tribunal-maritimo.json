@@ -9,7 +9,7 @@
   "vagas_nota": "Presidente, dois juízes militares e quatro juízes civis (Lei 2.180/1954, art. 2º). Há também suplentes, com mandato de três anos (art. 3º).",
   "provimento_casos": [
     {
-      "quando": "Presidente: oficial-general do Corpo da Armada, da ativa ou inativo, indicado pela Marinha",
+      "quando": "Presidente: oficial-general do Corpo da Armada, da ativa ou inativo, indicado pelo Comandante da Marinha",
       "provimento": "nomeacao-livre",
       "fontes": [
         {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "quando": "Dois juízes militares: capitães de mar e guerra ou de fragata, um da Armada e um engenheiro naval, propostos pela Marinha",
+      "quando": "Dois juízes militares: capitães de mar e guerra ou de fragata, um da Armada e um engenheiro naval, propostos pelo Comandante da Marinha",
       "provimento": "nomeacao-livre",
       "fontes": [
         {
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "quando": "Quatro juízes civis: dois bacharéis em direito (marítimo e internacional público), um especialista em armação de navios e um capitão de longo curso da Marinha Mercante",
+      "quando": "Quatro juízes civis: dois bacharéis em direito (marítimo e internacional público), um especialista em armação de navios e um capitão de longo curso da Marinha Mercante, aprovados em concurso e propostos pelo Comandante da Marinha",
       "provimento": "concurso-publico",
       "fontes": [
         {
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "provimento_nota": "O Presidente da República nomeia todos. O presidente e os militares são indicados pela Marinha; os civis são aprovados em concurso de títulos e provas com banca formada pelo presidente do tribunal, um juiz, um procurador e um especialista indicado pelo Conselho Federal da OAB (ou um representante da Comissão de Marinha Mercante). O vice-presidente é eleito a cada dois anos entre os juízes.",
+  "provimento_nota": "O Presidente da República nomeia todos. O presidente é indicado e os juízes militares e civis são propostos pelo Comandante da Marinha (a lei diz \"Ministro da Marinha\"; LC 97/1999, art. 19); os civis precisam antes ser aprovados em concurso de títulos e provas com banca formada pelo presidente do tribunal, um juiz, um procurador e um especialista indicado pelo Conselho Federal da OAB (ou um representante da Comissão de Marinha Mercante). O vice-presidente é eleito a cada dois anos entre os juízes.",
   "mandato": {
     "anos": null,
     "vitalicio": false,
@@ -60,6 +60,10 @@
     {
       "ref": "norma:lei-2180-1954",
       "dispositivo": "arts. 2º e 3º"
+    },
+    {
+      "ref": "norma:lc-97-1999",
+      "dispositivo": "art. 19"
     }
   ],
   "vigencia": {
@@ -69,8 +73,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 2.180, arts. 2º e 3º, conferidos; corrigido: o § 2º do art. 2º manda nomear também os juízes civis por proposta do Ministro da Marinha, lido como Comandante da Marinha pela LC 97/1999, art. 19"
   }
 }

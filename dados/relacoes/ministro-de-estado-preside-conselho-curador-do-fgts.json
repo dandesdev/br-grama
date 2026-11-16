@@ -5,33 +5,40 @@
   "relacao": "preside",
   "de": "cargo:ministro-de-estado",
   "para": "org:conselho-curador-do-fgts",
-  "condicao": "Preside pessoalmente ou por representante que indicar, com voto de qualidade.",
+  "condicao": "Preside pessoalmente ou por representante do ministério que indicar, com voto de qualidade.",
   "orgao_exercicio": "org:ministerio-do-trabalho-e-emprego",
   "campos": {
     "orgao_exercicio": {
-      "confianca": "inferido",
-      "nota": "A lei nomeia o Ministério do Trabalho e Previdência, desmembrado em 2023; a pasta atual vem do SIORG."
+      "fontes": [
+        {
+          "ref": "norma:decreto-11496-2023",
+          "dispositivo": "art. 33, I, a, e § 6º"
+        }
+      ],
+      "nota": "A lei ainda nomeia o Ministro do Trabalho e Previdência (pasta desmembrada em 2023); o Decreto 11.496/2023, art. 33, I, a, dá a presidência ao Ministro do Trabalho e Emprego."
     }
   },
   "fontes": [
     {
       "ref": "norma:lei-8036-1990",
-      "dispositivo": "art. 3º, § 1º"
+      "dispositivo": "art. 3º, §§ 1º e 5º"
     },
     {
-      "ref": "fonte:siorg-estrutura-resumida",
-      "dispositivo": "unidade 2259 (CCFGTS) na árvore do Ministério do Trabalho e Emprego, consulta de 2026-11-14"
+      "ref": "norma:decreto-11496-2023",
+      "dispositivo": "art. 33, I, a, e § 6º"
     }
   ],
   "vigencia": {
-    "de": null,
+    "de": "2023-04-20",
     "ate": null,
-    "nota": "Redação da Lei 14.261/2021 ('Ministro do Trabalho e Previdência'); a pasta atual é o Ministério do Trabalho e Emprego. Data de início não levantada."
+    "incerta": true,
+    "nota": "Data de publicação do Decreto 11.496/2023, que dá a presidência ao Ministro do Trabalho e Emprego; a lei a dava ao Ministro do Trabalho e Previdência desde a Lei 14.261/2021."
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 8.036, art. 3º, §§ 1º e 5º, conferidos; corrigido: a pasta, antes inferida do SIORG, tem base oficial no Decreto 11.496/2023, art. 33, I, a, e § 6º; vigência ajustada à data do decreto"
   }
 }

@@ -5,7 +5,7 @@
   "relacao": "supervisiona",
   "de": "org:ministerio-da-saude",
   "para": "org:sistema-s",
-  "condicao": "Só a Associação das Pioneiras Sociais e a AgSUS: o ministério supervisiona a gestão, firma o contrato de gestão e recebe o orçamento-programa.",
+  "condicao": "Só a Associação das Pioneiras Sociais e a AgSUS: o ministério supervisiona a gestão, firma o contrato de gestão e recebe ou aprova o orçamento-programa.",
   "vigencia": {
     "de": "1991-10-23",
     "ate": null,
@@ -19,13 +19,14 @@
     },
     {
       "ref": "norma:lei-13958-2019",
-      "dispositivo": "arts. 4º e 14"
+      "dispositivo": "arts. 4º, 14 e 18"
     }
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-fronteira"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "coletado em f4-fronteira; Lei 8.246/1991, art. 3º, caput, III a V, e Lei 13.958/2019, arts. 4º e 14, conferidos nas cópias. Acrescentado o art. 18 da Lei 13.958/2019 (na supervisão da gestão da AGSUS, o Ministério da Saúde define o contrato, aprova o orçamento e dá parecer sobre o relatório), que é o dispositivo da supervisão; na condição, o orçamento da AgSUS é aprovado pelo ministério (art. 18, II), e o das Pioneiras lhe é submetido (art. 3º, IV)."
   }
 }

@@ -21,9 +21,13 @@
         {
           "ref": "fonte:siorg-estrutura-resumida",
           "dispositivo": "unidade 1463 (CRSFN-CRSNSP) na árvore do Ministério da Fazenda, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:decreto-11907-2024",
+          "dispositivo": "Anexo I, art. 2º, III, c"
         }
       ],
-      "nota": "O Decreto 9.889/2019 põe o CRSFN no Ministério da Economia; com a Lei 14.600/2023, o SIORG o põe no Ministério da Fazenda."
+      "nota": "O Decreto 9.889/2019 põe o CRSFN no Ministério da Economia, desmembrado pela Lei 14.600/2023 (art. 51, IV); o Decreto 11.907/2024 (estrutura regimental do Ministério da Fazenda) lista o CRSFN entre os órgãos colegiados da Fazenda, como o SIORG."
     }
   },
   "fontes": [
@@ -52,8 +56,9 @@
   "notas": "Criado por decreto (Decreto 91.152/1985, segundo a Lei 9.069/1995, art. 81), mas a competência de julgamento vem de lei, por isso entra pela D63. A unidade do SIORG 1463 tem o nome 'Cons. Recursos do Sist. Fin. Nacional, Cons. Rec. do Sist. Nacion. de Seguros Priv., Prev. Priv. Aberta e Cap.': o mesmo órgão julga também recursos do mercado de seguros (CRSNSP), o que não pesquisamos. O mandato dos conselheiros é fixado no regimento interno (Decreto 9.889, art. 9º, I), que não foi lido.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 9.069, art. 81, Lei 13.506, art. 29, Lei 13.974, art. 6º, e Decreto 9.889, arts. 2º, 3º, 5º, 8º e 9º, conferidos; sem decreto novo sobre o CRSFN na lista do Senado de 2023 a 2026; posição confirmada no Decreto 11.907/2024, Anexo I, art. 2º, III, c"
   }
 }

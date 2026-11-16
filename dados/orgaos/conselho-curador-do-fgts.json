@@ -4,7 +4,7 @@
   "nome": "Conselho Curador do Fundo de Garantia do Tempo de Serviço",
   "sigla": "CCFGTS",
   "resumo": "Colegiado tripartite que fixa as normas e diretrizes do FGTS, aprova seus programas e contas e acompanha a Caixa, agente operador do fundo.",
-  "detalhes": "O FGTS é regido pelas normas e diretrizes do Conselho Curador, formado por representantes de trabalhadores, empregadores e governo (Lei 8.036/1990, art. 3º). O conselho define a alocação dos recursos em habitação popular, saneamento, infraestrutura urbana e microcrédito, aprova os programas anuais e plurianuais e as demonstrações financeiras, fixa a remuneração da Caixa e dos agentes financeiros, decide sobre o FI-FGTS e corrige atos do gestor e da Caixa que prejudiquem o fundo (art. 5º). Os representantes de trabalhadores e empregadores são indicados por centrais sindicais e confederações e nomeados pelo Executivo para dois anos, com uma recondução; o presidente tem voto de qualidade (art. 3º, §§ 3º e 5º). A Caixa é o agente operador e o órgão federal de habitação é o gestor da aplicação (art. 4º).",
+  "detalhes": "O FGTS é regido pelas normas e diretrizes do Conselho Curador, formado por representantes de trabalhadores, empregadores e governo (Lei 8.036/1990, art. 3º): seis do governo federal, entre eles o Ministro do Trabalho e Emprego, que preside, três de centrais sindicais e três de confederações de empregadores (Decreto 11.496/2023, art. 33). O conselho define a alocação dos recursos em habitação popular, saneamento, infraestrutura urbana e microcrédito, aprova os programas anuais e plurianuais e as demonstrações financeiras, fixa a remuneração da Caixa e dos agentes financeiros, decide sobre o FI-FGTS e corrige atos do gestor e da Caixa que prejudiquem o fundo (art. 5º). Os representantes de trabalhadores e empregadores são indicados por centrais sindicais e confederações e nomeados pelo Executivo para dois anos, com uma recondução; o presidente tem voto de qualidade (art. 3º, §§ 3º e 5º). A Caixa é o agente operador e o órgão federal de habitação é o gestor da aplicação (art. 4º).",
   "tipo_orgao": "colegiado",
   "poder": "executivo",
   "esfera": "federal",
@@ -14,21 +14,25 @@
     "contido_em": {
       "fontes": [
         {
-          "ref": "fonte:siorg-estrutura-resumida",
-          "dispositivo": "unidade 2259 (CCFGTS) na árvore do Ministério do Trabalho e Emprego, consulta de 2026-11-14"
+          "ref": "norma:decreto-11496-2023",
+          "dispositivo": "art. 1º, V; art. 33, I, a; art. 34"
         },
         {
-          "ref": "norma:lei-8036-1990",
-          "dispositivo": "art. 3º, § 1º"
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 2259 (CCFGTS) na árvore do Ministério do Trabalho e Emprego, consulta de 2026-11-14"
         }
       ],
-      "nota": "A Lei 8.036, art. 3º, § 1º (redação da Lei 14.261/2021), dá a presidência ao 'Ministro de Estado do Trabalho e Previdência', pasta desmembrada em 2023; o SIORG põe o conselho no Ministério do Trabalho e Emprego."
+      "nota": "A Lei 8.036, art. 3º, § 1º (redação da Lei 14.261/2021), ainda dá a presidência ao \"Ministro de Estado do Trabalho e Previdência\", pasta desmembrada em 2023; o Decreto 11.496/2023 trata o conselho como colegiado do Ministério do Trabalho e Emprego, que o preside e exerce a Secretaria-Executiva."
     }
   },
   "fontes": [
     {
       "ref": "norma:lei-8036-1990",
       "dispositivo": "arts. 3º a 5º"
+    },
+    {
+      "ref": "norma:decreto-11496-2023",
+      "dispositivo": "arts. 33 a 35"
     }
   ],
   "vigencia": {
@@ -36,11 +40,12 @@
     "ate": null,
     "nota": "Previsto na Lei 8.036/1990; o histórico anterior não foi pesquisado."
   },
-  "notas": "A composição numérica vem de decreto (a lei remete ao Poder Executivo; o Planalto cita o Decreto 11.496/2023), que não foi lido. O gestor da aplicação (art. 4º) é 'o órgão do Poder Executivo responsável pela política de habitação', hoje o Ministério das Cidades; não criamos relação para ele.",
+  "notas": "Composição no Decreto 11.496/2023, art. 33: governo federal, dois do Ministério do Trabalho e Emprego (um é o Ministro) e um de cada da Casa Civil, Cidades, Fazenda e Gestão; uma vaga para cada uma das três centrais sindicais mais representativas; CNI, CNF e CNC pelos empregadores. A presidência pode ser exercida por representante do ministério, a critério do Ministro (§ 6º). O gestor da aplicação (Lei 8.036, art. 4º) é \"o órgão do Poder Executivo responsável pela política de habitação\", hoje o Ministério das Cidades; não criamos relação para ele.",
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-colegiados"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-colegiados",
+    "notas": "coletado em f4-colegiados; Lei 8.036, arts. 3º a 5º, conferidos; corrigido com o Decreto 11.496/2023 (arts. 1º, V, 33 e 34), que a coleta não leu: composição de 12 membros e presidência do Ministro do Trabalho e Emprego, antes deduzida do SIORG"
   }
 }

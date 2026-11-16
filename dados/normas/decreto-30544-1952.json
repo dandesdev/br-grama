@@ -8,27 +8,28 @@
   "data": "1952-02-14",
   "publicacao": "1952-02-19",
   "ente": "ente:uniao",
-  "url": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto:1952-02-14;30544",
-  "acesso_em": "2026-11-15",
+  "url": "https://www.planalto.gov.br/ccivil_03/Atos/decretos/1952/D30544.html",
+  "acesso_em": "2026-11-16",
   "arquivo": null,
   "vigencia": {
     "de": "1952-02-19",
     "ate": null,
-    "nota": "Data da publicação no DOU; a cláusula de vigência não foi lida.",
-    "incerta": true
+    "incerta": true,
+    "nota": "O decreto não tem cláusula de vigência: só manda executar e cumprir a Carta. Usamos a data da publicação no DOU (19/2/1952, Seção 1, segundo o rodapé do Planalto). A Carta entrou em vigor internacional em 13/12/1951 (considerando do decreto)."
   },
   "fontes": [
     {
       "ref": "norma:decreto-30544-1952",
-      "dispositivo": "ementa"
+      "dispositivo": "considerandos e parte dispositiva"
     }
   ],
   "confianca": "oficial",
-  "notas": "O Planalto não tem a página deste decreto no Wayback, e o texto do Senado veio vazio. Lidos só a ementa e os dados de publicação na API de legislação do Senado (documento 453154, cópia em pesquisa/brutos/senado-dados-abertos/2026-11-15-f4-fronteira/dec-30544-1952.xml): DOU de 19/2/1952, p. 2473; aprovação pelo Decreto Legislativo 64/1949.",
+  "notas": "Texto lido no Planalto em 2026-11-16 (página em Atos/decretos/1952, achada por busca na web; acesso direto funcionou), cópia em pesquisa/brutos/planalto-leis/2026-11-16-verificacao-f4-fronteira/D30544.html. Considerandos: aprovação pelo Decreto Legislativo 64, de 7/12/1949; ratificação depositada na União Pan-Americana em 13/3/1950; Carta em vigor em 13/12/1951. Parte dispositiva: a Carta, apensa por cópia, 'seja executada e cumprida tão inteiramente como nela se contém'. A página traz a Carta com as reformas posteriores (texto compilado); o art. 1 diz que a OEA é um organismo regional dentro das Nações Unidas. Em f4-fronteira lemos só a ementa e os dados de publicação na API do Senado (documento 453154, cópia em pesquisa/brutos/senado-dados-abertos/2026-11-15-f4-fronteira/dec-30544-1952.xml: DOU de 19/2/1952, p. 2473). O pedido de cópia ao Wayback em 2026-11-16 foi redirecionado para gov.br/planalto e não guardou a página.",
   "redacao_conferida_em": "2026-11-15",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-15",
-    "tarefa": "f4-fronteira"
+    "status": "verificado",
+    "em": "2026-11-16",
+    "tarefa": "verificacao-f4-fronteira",
+    "notas": "coletado em f4-fronteira só pela ementa; texto do decreto lido no Planalto em 2026-11-16 (considerandos, parte dispositiva, rodapé com DOU de 19/2/1952). Corrigidos url, acesso_em, vigência (o decreto não tem cláusula de vigência), fontes e notas."
   }
 }
