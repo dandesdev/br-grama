@@ -1,0 +1,26 @@
+{
+  "id": "rel:anatel-regula-concessionarias-e-permissionarias",
+  "tipo": "relacao",
+  "nome": "A Anatel regula as concessionárias de telecomunicações",
+  "relacao": "regula",
+  "de": "org:anatel",
+  "para": "org:concessionarias-e-permissionarias-de-servico-publico",
+  "condicao": "Telecomunicações em regime público: edita os atos de outorga, celebra e gerencia os contratos de concessão, fiscaliza a prestação, aplica sanções e controla as tarifas.",
+  "vigencia": {
+    "de": "1997-07-17",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9472-1997",
+      "dispositivo": "art. 19, V a VII"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  },
+  "notas": "Não conferimos quantas concessões de telecomunicações em regime público ainda vigoravam em 2026-10-01."
+}

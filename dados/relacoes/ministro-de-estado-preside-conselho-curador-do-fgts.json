@@ -1,0 +1,37 @@
+{
+  "id": "rel:ministro-de-estado-preside-conselho-curador-do-fgts",
+  "tipo": "relacao",
+  "nome": "O Ministro do Trabalho preside o Conselho Curador do FGTS",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conselho-curador-do-fgts",
+  "condicao": "Preside pessoalmente ou por representante que indicar, com voto de qualidade.",
+  "orgao_exercicio": "org:ministerio-do-trabalho-e-emprego",
+  "campos": {
+    "orgao_exercicio": {
+      "confianca": "inferido",
+      "nota": "A lei nomeia o Ministério do Trabalho e Previdência, desmembrado em 2023; a pasta atual vem do SIORG."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8036-1990",
+      "dispositivo": "art. 3º, § 1º"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 2259 (CCFGTS) na árvore do Ministério do Trabalho e Emprego, consulta de 2026-11-14"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Redação da Lei 14.261/2021 ('Ministro do Trabalho e Previdência'); a pasta atual é o Ministério do Trabalho e Emprego. Data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

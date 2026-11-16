@@ -1,0 +1,33 @@
+{
+  "id": "rel:ministro-de-estado-designa-membros-do-cnpcp",
+  "tipo": "relacao",
+  "nome": "O Ministério da Justiça designa os membros do CNPCP",
+  "relacao": "designa",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cnpcp",
+  "condicao": "Treze membros, por ato do Ministério da Justiça, para mandato de dois anos, com renovação de um terço a cada ano.",
+  "orgao_exercicio": "org:ministerio-da-justica-e-seguranca-publica",
+  "campos": {
+    "de": {
+      "confianca": "inferido",
+      "nota": "A lei diz 'ato do Ministério da Justiça', sem nomear o Ministro; ligamos ao Ministro de Estado, titular do ministério."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-7210-1984",
+      "dispositivo": "art. 63"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regra da LEP; data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

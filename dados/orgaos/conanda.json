@@ -1,0 +1,54 @@
+{
+  "id": "org:conanda",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional dos Direitos da Criança e do Adolescente",
+  "sigla": "Conanda",
+  "resumo": "Colegiado paritário que faz as normas gerais da política nacional de atendimento à criança e ao adolescente, fiscaliza sua execução e gere o fundo nacional da área.",
+  "detalhes": "Elabora as normas gerais da política de atendimento dos direitos da criança e do adolescente e fiscaliza sua execução, avalia as políticas estaduais e municipais e a atuação dos conselhos estaduais e municipais da área, acompanha o orçamento da União e gere o Fundo Nacional para a Criança e o Adolescente (Lei 8.242/1991, art. 2º). Tem 30 membros: 15 de órgãos do governo federal e 15 de organizações da sociedade civil eleitas em assembleia (Decreto 9.579/2018, arts. 78 e 79). O Presidente da República nomeia e destitui o presidente do conselho entre os membros (Lei 8.242, art. 5º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-9579-2018",
+          "dispositivo": "art. 76 (redação do Decreto 11.473/2023)"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 3319 (CONANDA) na árvore do Ministério dos Direitos Humanos e da Cidadania, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:lei-8242-1991",
+          "dispositivo": "art. 1º, §§ 1º e 2º"
+        }
+      ],
+      "nota": "A lei põe o Conanda nas atribuições da Presidência e permite delegar o apoio a um órgão executivo (art. 1º, §§ 1º e 2º); o decreto o põe no Ministério dos Direitos Humanos e da Cidadania."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8242-1991",
+      "dispositivo": "arts. 1º a 6º"
+    },
+    {
+      "ref": "norma:decreto-9579-2018",
+      "dispositivo": "arts. 76 a 79"
+    }
+  ],
+  "vigencia": {
+    "de": "1991-10-16",
+    "ate": null,
+    "nota": "Criado pela Lei 8.242/1991, em vigor na publicação; a lei deu 45 dias para a instalação (art. 8º)."
+  },
+  "notas": "Composição (Decreto 9.579, art. 78, redação do Decreto 11.473/2023): um representante de cada um de 15 órgãos (Secretaria Nacional dos Direitos da Criança e do Adolescente, Casa Civil, 12 ministérios e Secretaria Nacional de Juventude) e 15 de organizações da sociedade civil. Os do governo são indicados pelos titulares dos órgãos e designados pelo Ministro dos Direitos Humanos e da Cidadania (art. 78, § 2º). A Lei 8.242, art. 3º, exige paridade entre governo e entidades não governamentais.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

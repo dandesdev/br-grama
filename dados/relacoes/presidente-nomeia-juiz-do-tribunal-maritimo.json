@@ -1,0 +1,26 @@
+{
+  "id": "rel:presidente-nomeia-juiz-do-tribunal-maritimo",
+  "tipo": "relacao",
+  "nome": "O Presidente da República nomeia os juízes do Tribunal Marítimo",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "cargo:juiz-do-tribunal-maritimo",
+  "condicao": "Nomeia livremente o presidente e os juízes militares indicados pela Marinha; os civis, depois de aprovados em concurso.",
+  "fontes": [
+    {
+      "ref": "norma:lei-2180-1954",
+      "dispositivo": "art. 2º, §§ 1º, 2º e 4º; art. 3º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regra do Decreto-Lei 25/1966 e da Lei 8.391/1991; datas não levantadas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

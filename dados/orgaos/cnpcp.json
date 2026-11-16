@@ -1,0 +1,45 @@
+{
+  "id": "org:cnpcp",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Política Criminal e Penitenciária",
+  "sigla": "CNPCP",
+  "resumo": "Primeiro órgão da execução penal na lei: propõe a política criminal, fixa regras para presídios e para a estatística criminal e inspeciona estabelecimentos penais.",
+  "detalhes": "Propõe diretrizes da política criminal (prevenção do delito, justiça criminal e execução das penas), avalia o sistema criminal, fixa regras de arquitetura e construção de estabelecimentos penais e critérios da estatística criminal, inspeciona e fiscaliza os estabelecimentos penais em todo o país e pode representar ao juiz da execução ou a outra autoridade para abrir apuração ou interditar estabelecimento (LEP, art. 64). Tem 13 membros, professores e profissionais do direito penal e áreas afins e representantes da comunidade e dos ministérios da área social, designados pelo Ministério da Justiça para dois anos, com um terço renovado a cada ano (art. 63).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:secretaria-nacional-de-politicas-penais",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-7210-1984",
+          "dispositivo": "art. 62"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 320 (CNPCP) na árvore do Ministério da Justiça e Segurança Pública, abaixo da Secretaria Nacional de Políticas Penais (315287), consulta de 2026-11-14"
+        }
+      ],
+      "nota": "A LEP subordina o conselho ao Ministério da Justiça (art. 62); o SIORG o põe abaixo da Secretaria Nacional de Políticas Penais."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-7210-1984",
+      "dispositivo": "art. 61, I; arts. 62 a 64"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Previsto na LEP (1984); a data de início de vigência da lei e a de instalação do conselho não foram levantadas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

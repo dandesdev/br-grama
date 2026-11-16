@@ -1,0 +1,28 @@
+{
+  "id": "rel:ministro-de-estado-designa-membros-do-conanda",
+  "tipo": "relacao",
+  "nome": "O Ministro dos Direitos Humanos designa os representantes do governo no Conanda",
+  "relacao": "designa",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conanda",
+  "condicao": "Os representantes dos órgãos do governo são indicados pelos titulares desses órgãos; as organizações da sociedade civil são eleitas em assembleia.",
+  "orgao_exercicio": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "fontes": [
+    {
+      "ref": "norma:decreto-9579-2018",
+      "dispositivo": "art. 78, § 2º (redação do Decreto 11.473/2023)"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação do Decreto 11.473/2023; data exata não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

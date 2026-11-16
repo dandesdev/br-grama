@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-designa-membros-do-conselho-nacional-de-politica-cultural",
+  "tipo": "relacao",
+  "nome": "O Ministro da Cultura designa os membros do CNPC",
+  "relacao": "designa",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conselho-nacional-de-politica-cultural",
+  "condicao": "Designa os 42 membros; quando a presidência ou a vice-presidência cabe ao poder público, quem as ocupa é a autoridade máxima do Ministério da Cultura.",
+  "orgao_exercicio": "org:ministerio-da-cultura",
+  "fontes": [
+    {
+      "ref": "norma:decreto-12980-2026",
+      "dispositivo": "art. 3º, § 5º; art. 5º, §§ 3º e 4º"
+    }
+  ],
+  "vigencia": {
+    "de": "2026-05-22",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

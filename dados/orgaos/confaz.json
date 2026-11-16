@@ -1,0 +1,58 @@
+{
+  "id": "org:confaz",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Política Fazendária",
+  "sigla": "Confaz",
+  "resumo": "Reúne o Ministro da Fazenda e os secretários de fazenda dos 26 estados e do DF; só por convênio unânime dele um estado pode dar isenção ou benefício de ICMS.",
+  "detalhes": "É o colegiado onde os estados e o DF celebram os convênios que concedem ou revogam isenções, incentivos e benefícios do ICMS, como manda a CF (art. 155, § 2º, XII, g) e a LC 24/1975: a concessão exige decisão unânime dos estados presentes, a revogação, quatro quintos, e cada governo ratifica o convênio por decreto (LC 24, arts. 1º a 4º). Também mantém o Portal Nacional da Transparência Tributária e o registro dos benefícios concedidos sem convênio, que a LC 160/2017 permitiu regularizar. É formado por um representante de cada estado e do DF (os secretários de fazenda, economia, finanças, receita ou tributação) e pelo Ministro da Fazenda, que preside (Convênio ICMS 133/1997, arts. 2º e 7º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 87 (CONFAZ/MF) na árvore do Ministério da Fazenda, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:convenio-icms-133-1997",
+          "dispositivo": "art. 4º, III, e § 2º"
+        }
+      ],
+      "nota": "Colegiado interfederativo sem lei de estrutura: a Secretaria-Executiva do Ministério da Fazenda dá o apoio (regimento, art. 4º, III) e o SIORG o põe no Ministério da Fazenda."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, § 2º, XII, g"
+    },
+    {
+      "ref": "norma:lc-24-1975",
+      "dispositivo": "arts. 1º a 4º"
+    },
+    {
+      "ref": "norma:lc-160-2017",
+      "dispositivo": "arts. 1º a 3º"
+    },
+    {
+      "ref": "norma:convenio-icms-133-1997",
+      "dispositivo": "arts. 1º a 4º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "As reuniões de convênio vêm da LC 24/1975; o nome Confaz e o regimento atual, do Convênio ICMS 133/1997. A data de criação do conselho com esse nome não foi levantada."
+  },
+  "notas": "A LC 24/1975 não usa o nome Confaz: fala em reuniões dos representantes dos estados e do DF 'sob a presidência de representantes do Governo federal' (art. 2º). O nome aparece em lei na LC 160/2017 (art. 3º, II). A reforma tributária (EC 132/2023 e LC 214/2025) extingue o ICMS até 2033; a LC 214 altera a LC 24 com efeitos futuros, não vigentes em 1º/10/2026. Esfera 'federal' como no Comitê Gestor do Simples Nacional, outro colegiado com estados e municípios no Ministério da Fazenda.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

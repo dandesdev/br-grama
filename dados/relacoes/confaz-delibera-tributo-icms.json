@@ -1,0 +1,39 @@
+{
+  "id": "rel:confaz-delibera-tributo-icms",
+  "tipo": "relacao",
+  "nome": "O Confaz delibera sobre isenções e benefícios do ICMS",
+  "relacao": "delibera",
+  "de": "org:confaz",
+  "para": "obj:tributo-icms",
+  "condicao": "Concessão por decisão unânime dos estados representados; revogação por quatro quintos dos presentes. O convênio só vale se ratificado pelo Executivo de todos os estados (ou de quatro quintos, na revogação).",
+  "quorum": {
+    "regra": "outro",
+    "nota": "Unanimidade dos estados presentes para conceder; quatro quintos para revogar; reunião com a maioria das unidades da Federação (LC 24, art. 2º, §§ 1º e 2º)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 155, § 2º, XII, g"
+    },
+    {
+      "ref": "norma:lc-24-1975",
+      "dispositivo": "arts. 1º, 2º e 4º"
+    },
+    {
+      "ref": "norma:convenio-icms-133-1997",
+      "dispositivo": "art. 3º, I"
+    }
+  ],
+  "vigencia": {
+    "de": "1975-01-09",
+    "ate": null,
+    "incerta": true,
+    "nota": "A regra dos convênios vem da LC 24/1975; o nome Confaz é posterior."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

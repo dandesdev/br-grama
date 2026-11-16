@@ -1,0 +1,27 @@
+{
+  "id": "rel:conama-assessora-conselho-de-governo",
+  "tipo": "relacao",
+  "nome": "O Conama assessora o Conselho de Governo em política ambiental",
+  "relacao": "assessora",
+  "de": "org:conama",
+  "para": "org:conselho-de-governo",
+  "condicao": "Estuda e propõe ao Conselho de Governo diretrizes de políticas para o meio ambiente e os recursos naturais.",
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-04-12",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Lei 8.028/1990, que deu a redação do art. 6º, II."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

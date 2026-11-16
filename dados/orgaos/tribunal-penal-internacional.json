@@ -1,0 +1,44 @@
+{
+  "id": "org:tribunal-penal-internacional",
+  "tipo": "orgao",
+  "nome": "Tribunal Penal Internacional",
+  "sigla": "TPI",
+  "resumo": "Tribunal permanente que julga pessoas acusadas de genocídio, crimes contra a humanidade, crimes de guerra e agressão. O Brasil se submete à sua jurisdição (CF, art. 5º, § 4º).",
+  "detalhes": "Foi criado pelo Estatuto de Roma, que o Brasil promulgou em 2002; tem personalidade jurídica internacional e 18 juízes (Estatuto, arts. 1º, 4º e 36). Julga pessoas físicas, não Estados, e é complementar às jurisdições nacionais: o caso não é admitido se o Estado com jurisdição investiga ou processa, salvo se não quiser ou não puder fazê-lo de verdade (arts. 1º, 17 e 25). Ao se tornar parte, o Estado aceita a jurisdição do Tribunal sobre esses crimes e se obriga a cooperar com ele, inclusive na entrega de pessoas (arts. 5º, 12, 86 e 89).",
+  "tipo_orgao": "organismo-internacional",
+  "poder": "nao-estatal",
+  "esfera": "internacional",
+  "contido_em": "org:organismos-internacionais",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-4388-2002",
+          "dispositivo": "art. 1º; Estatuto, art. 4º"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 5º, § 4º"
+    },
+    {
+      "ref": "norma:decreto-4388-2002",
+      "dispositivo": "art. 1º; Estatuto, arts. 1º, 4º, 5º, 12, 17, 25, 36, 86 e 89"
+    }
+  ],
+  "vigencia": {
+    "de": "2002-09-01",
+    "ate": null,
+    "nota": "Data em que o Estatuto de Roma passou a vigorar para o Brasil (Decreto 4.388/2002, considerandos). O art. 5º, § 4º, da CF veio com a EC 45/2004."
+  },
+  "confianca": "oficial",
+  "notas": "Nó próprio pela D63 b: a CF o nomeia (art. 5º, § 4º). Sem relação no mapa: o Tribunal julga pessoas, não órgãos nem entes, e a lei brasileira que regularia a cooperação e a entrega de pessoas não foi pesquisada. O crime de agressão depende das condições dos arts. 121 e 123 do Estatuto (art. 5º, 2), não verificadas para o Brasil.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

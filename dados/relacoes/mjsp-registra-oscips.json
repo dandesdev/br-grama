@@ -1,0 +1,28 @@
+{
+  "id": "rel:mjsp-registra-oscips",
+  "tipo": "relacao",
+  "nome": "O Ministério da Justiça e Segurança Pública qualifica as OSCIPs",
+  "relacao": "registra",
+  "de": "org:ministerio-da-justica-e-seguranca-publica",
+  "para": "org:oscips",
+  "condicao": "Decide o pedido de qualificação em 30 dias e emite o certificado; só indefere se faltarem requisitos ou documentos. Dá acesso público às informações das OSCIPs.",
+  "vigencia": {
+    "de": "1999-03-24",
+    "ate": null,
+    "incerta": true,
+    "nota": "A lei fala em 'Ministério da Justiça'; o ministério atual é o da Justiça e Segurança Pública. Não pesquisamos qual unidade dele faz a qualificação."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9790-1999",
+      "dispositivo": "arts. 5º, 6º e 17"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Verbo 'registra' como o mais próximo de 'qualifica' (a qualificação é condição para a entidade firmar termo de parceria como OSCIP); proposto o verbo 'qualifica' no diário de f4-fronteira.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

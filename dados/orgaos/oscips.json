@@ -1,0 +1,33 @@
+{
+  "id": "org:oscips",
+  "tipo": "orgao",
+  "nome": "Organizações da sociedade civil de interesse público",
+  "sigla": "OSCIP",
+  "resumo": "Entidades privadas sem fins lucrativos qualificadas pelo Ministério da Justiça para firmar termos de parceria com o Poder Público em áreas como assistência social, cultura, saúde e educação.",
+  "detalhes": "A entidade precisa funcionar há pelo menos três anos, ter ao menos uma das finalidades da lei e cumprir regras de estatuto; o Ministério da Justiça decide o pedido em 30 dias e emite o certificado (Lei 9.790/1999, arts. 1º e 3º a 6º). O termo de parceria, precedido de consulta aos conselhos de políticas públicas da área, fixa metas e é fiscalizado pelo órgão público parceiro e por esses conselhos; quem fiscaliza deve avisar o tribunal de contas e o Ministério Público de irregularidades (arts. 9º a 12). A qualificação se perde a pedido ou por decisão em processo administrativo ou judicial (art. 7º). O marco das organizações da sociedade civil (Lei 13.019/2014) não se aplica aos termos de parceria que cumprem a Lei 9.790 (art. 3º, VI).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "nacional",
+  "fontes": [
+    {
+      "ref": "norma:lei-9790-1999",
+      "dispositivo": "arts. 1º, 3º, caput, e 5º a 12"
+    },
+    {
+      "ref": "norma:lei-13019-2014",
+      "dispositivo": "art. 3º, VI"
+    }
+  ],
+  "vigencia": {
+    "de": "1999-03-24",
+    "ate": null,
+    "nota": "Publicação da Lei 9.790/1999, em vigor na mesma data (art. 20)."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D63 b). Esfera 'nacional': a qualificação é federal (Ministério da Justiça), mas o termo de parceria pode ser firmado com a União, os estados ou os municípios (art. 10, § 2º, VI, fala da imprensa oficial de cada um). O Ministério da Justiça dá acesso público às informações das OSCIPs (art. 17); esse cadastro não foi consultado. Ver aviso:casos-de-fronteira-sem-lista-de-membros.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

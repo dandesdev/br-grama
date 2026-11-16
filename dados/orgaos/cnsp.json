@@ -1,0 +1,46 @@
+{
+  "id": "org:cnsp",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Seguros Privados",
+  "sigla": "CNSP",
+  "resumo": "Colegiado presidido pelo Ministro da Fazenda que fixa a política e as normas de seguros privados, resseguro e proteção patrimonial mutualista; a Susep executa.",
+  "detalhes": "Fixa, com exclusividade, as diretrizes e normas da política de seguros privados: regula a constituição, o funcionamento e a fiscalização das seguradoras, cooperativas de seguros e administradoras de proteção patrimonial mutualista, as tarifas, as características gerais dos contratos, o capital mínimo, o resseguro, a corretagem e o processo sancionador da Susep (Decreto-Lei 73/1966, art. 32, com a LC 213/2025). É formado pelo Ministro da Fazenda, que preside, pelo Superintendente da Susep, que o substitui, e por representantes do Ministério da Justiça, do Ministério da Previdência e do Banco Central (art. 33).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 229 (CNSP) na árvore do Ministério da Fazenda, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:decreto-lei-73-1966",
+          "dispositivo": "art. 33, § 1º"
+        }
+      ],
+      "nota": "O decreto-lei não diz a qual ministério o CNSP pertence; a presidência do Ministro da Fazenda e o SIORG o põem no Ministério da Fazenda."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-73-1966",
+      "dispositivo": "arts. 32 e 33"
+    }
+  ],
+  "vigencia": {
+    "de": "1966-11-22",
+    "ate": null,
+    "nota": "Criado pelo Decreto-Lei 73/1966 (art. 32). A composição atual é da Lei 10.190/2001, que restabeleceu o art. 33."
+  },
+  "notas": "A Susep, autarquia que executa a política do CNSP (Decreto-Lei 73, art. 35 e seguintes), não tem nó no mapa; está entre as entidades vinculadas ao Ministério da Fazenda na árvore do SIORG (est:ministerio-da-fazenda). O art. 33, III, ainda fala em 'Ministério da Previdência e Assistência Social'.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rel:ministro-de-estado-preside-cnsp",
+  "tipo": "relacao",
+  "nome": "O Ministro da Fazenda preside o CNSP",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cnsp",
+  "condicao": "Na ausência do Ministro, preside o Superintendente da Susep.",
+  "orgao_exercicio": "org:ministerio-da-fazenda",
+  "fontes": [
+    {
+      "ref": "norma:decreto-lei-73-1966",
+      "dispositivo": "art. 33, I e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Redação da Lei 10.190/2001; data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

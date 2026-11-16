@@ -425,7 +425,8 @@
       "codigo": "220",
       "nome": "Tribunal Marítimo",
       "sigla": "TM",
-      "pai": "185"
+      "pai": "185",
+      "mapa": "org:tribunal-maritimo"
     },
     {
       "codigo": "213",
@@ -1660,9 +1661,9 @@
   "confianca": "oficial",
   "verificacao": {
     "status": "verificado",
-    "em": "2026-11-14",
+    "em": "2026-11-16",
     "tarefa": "verificacao-f4-siorg",
-    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa)."
+    "notas": "Raízes conferidas pela API do SIORG e 12 árvores refeitas unidade por unidade na revisão verificacao-f4-siorg; correções da revisão aplicadas pelo coordenador (ato interno em agências só com colegiados, contagem total de ato interno, unidades posteriores a 1º/10/2026 fora, 33 unidades ligadas a órgãos do mapa). Em 15/11/2026, mais 16 unidades colegiadas ligadas aos colegiados de f4-colegiados (códigos conferidos na API pelo agente da tarefa; revisão em verificacao-f4-colegiados)."
   },
   "notas": "Retrato do SIORG na data da consulta (2026-11-14), não em 1º/10/2026: mudanças de estrutura feitas entre as duas datas podem aparecer. O SIORG registra o nível de normatização de cada unidade; as de ato interno (portarias, regimentos internos) só entram na contagem."
 }

@@ -1,0 +1,27 @@
+{
+  "id": "rel:conselho-curador-do-fgts-fiscaliza-caixa-economica-federal",
+  "tipo": "relacao",
+  "nome": "O Conselho Curador do FGTS acompanha a Caixa como agente operador",
+  "relacao": "fiscaliza",
+  "de": "org:conselho-curador-do-fgts",
+  "para": "org:caixa-economica-federal",
+  "condicao": "Acompanha a gestão do agente operador, fixa a sua remuneração e adota providências para corrigir atos da Caixa que prejudiquem o fundo.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8036-1990",
+      "dispositivo": "art. 4º; art. 5º, II, V e VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-14",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação do art. 5º, V, da Lei 13.932/2019; histórico não levantado."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:anac-regula-concessionarias-e-permissionarias",
+  "tipo": "relacao",
+  "nome": "A Anac regula as concessionárias de serviços aéreos e de aeroportos",
+  "relacao": "regula",
+  "de": "org:anac",
+  "para": "org:concessionarias-e-permissionarias-de-servico-publico",
+  "condicao": "Aviação civil: concede, permite ou autoriza a exploração de serviços aéreos e da infraestrutura aeroportuária, e regula e fiscaliza essas atividades.",
+  "vigencia": {
+    "de": "2005-09-28",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11182-2005",
+      "dispositivo": "art. 2º; art. 8º, XIV, XXI e XXIV"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

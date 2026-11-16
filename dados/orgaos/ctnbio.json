@@ -1,0 +1,51 @@
+{
+  "id": "org:ctnbio",
+  "tipo": "orgao",
+  "nome": "Comissão Técnica Nacional de Biossegurança",
+  "sigla": "CTNBio",
+  "resumo": "Comissão de 27 especialistas que analisa caso a caso o risco de transgênicos; sua decisão técnica sobre biossegurança vincula os demais órgãos federais.",
+  "detalhes": "Edita normas sobre pesquisa e atividades com organismos geneticamente modificados, avalia o risco caso a caso, autoriza pesquisas e importações para pesquisa, emite o Certificado de Qualidade em Biossegurança e decide se um transgênico precisa de licenciamento ambiental (Lei 11.105/2005, arts. 14 e 16, § 3º). Quanto à biossegurança, sua decisão técnica vincula os órgãos de registro e fiscalização (art. 14, § 1º). Tem 27 membros com doutorado: 12 especialistas escolhidos em lista tríplice das sociedades científicas, 9 representantes de ministérios e 6 especialistas indicados por ministros a partir de listas da sociedade civil, todos designados pelo Ministro da Ciência e Tecnologia para dois anos; decide por maioria absoluta (art. 11).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-ciencia-tecnologia-e-inovacao",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11105-2005",
+          "dispositivo": "art. 10, caput; art. 12, § 1º"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 75168 (CTNBio) na árvore do Ministério da Ciência, Tecnologia e Inovação, consulta de 2026-11-14"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "arts. 10 a 16"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-03-28",
+    "ate": null,
+    "nota": "Reestruturada pela Lei 11.105/2005; a comissão anterior, da Lei 8.974/1995, não foi pesquisada."
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "art. 13",
+      "nota": "subcomissões setoriais permanentes de saúde humana, animal, vegetal e ambiental"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

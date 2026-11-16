@@ -1,0 +1,56 @@
+{
+  "id": "org:coaf",
+  "tipo": "orgao",
+  "nome": "Conselho de Controle de Atividades Financeiras",
+  "sigla": "Coaf",
+  "resumo": "Unidade de inteligência financeira do país: recebe e analisa comunicações de operações suspeitas, avisa as autoridades e pune quem descumpre os deveres da lei de lavagem.",
+  "detalhes": "Produz informações de inteligência financeira para prevenir e combater a lavagem de dinheiro e comunica às autoridades competentes quando há indícios de crime (Lei 13.974/2020, art. 3º; Lei 9.613/1998, arts. 14 e 15). Edita instruções e aplica sanções aos setores obrigados que não têm órgão regulador próprio (Lei 9.613, art. 14, § 1º). Tem autonomia técnica e operacional e vínculo administrativo com o Banco Central (Lei 13.974, art. 2º). O Plenário, que decide infrações e aplica penas, reúne o Presidente do Coaf e 12 servidores de órgãos como Banco Central, CVM, Susep, Receita Federal, PGFN, Abin, Polícia Federal, CGU e AGU, todos nomeados pelo Presidente do Banco Central (art. 4º). Das penas cabe recurso ao CRSFN (art. 6º, § 1º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:banco-central",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13974-2020",
+          "dispositivo": "art. 2º"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 32061 (Coaf) na árvore do Banco Central, consulta de 2026-11-14"
+        }
+      ],
+      "nota": "Vínculo administrativo, não hierárquico: o Coaf tem autonomia técnica e operacional (Lei 13.974, art. 2º). A Lei 9.613, art. 14, ainda diz que o Coaf fica 'no âmbito do Ministério da Fazenda', regra superada pela lei posterior."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9613-1998",
+      "dispositivo": "arts. 14 e 15"
+    },
+    {
+      "ref": "norma:lei-13974-2020",
+      "dispositivo": "arts. 1º a 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-03-04",
+    "ate": null,
+    "nota": "Criado pela Lei 9.613/1998 (art. 14), no Ministério da Fazenda; reestruturado e vinculado ao Banco Central pela Lei 13.974/2020."
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-13974-2020",
+      "dispositivo": "art. 4º e art. 5º",
+      "nota": "Presidência, Plenário e Quadro Técnico; o regimento interno é aprovado pela Diretoria Colegiada do Banco Central"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

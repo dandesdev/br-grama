@@ -2,8 +2,8 @@
   "id": "org:sistema-s",
   "tipo": "orgao",
   "nome": "Sistema S (serviços sociais autônomos)",
-  "resumo": "Entidades privadas de serviço social e de formação profissional ligadas às confederações patronais, como Senai, Sesi, Senac, Sesc, Senar e Sebrae, custeadas por contribuições sobre a folha.",
-  "detalhes": "A CF manteve as contribuições compulsórias dos empregadores sobre a folha destinadas a essas entidades (art. 240). Cada uma foi criada por lei e é dirigida pela confederação do seu setor: o Senai e o Sesi pela Confederação Nacional da Indústria, o Senac e o Sesc pela Confederação Nacional do Comércio, o Senar pela Confederação Nacional da Agricultura. O Sebrae nasceu da transformação em serviço social autônomo do Cebrae, que a lei desvinculou da administração federal (Lei 8.029/1990, art. 8º). Cada entidade é pessoa jurídica de direito privado, uma entidade paraestatal.",
+  "resumo": "Entidades privadas criadas por lei como serviços sociais autônomos (Senai, Sesc, Sebrae, Apex-Brasil e outras), custeadas por contribuições compulsórias ou por recursos da União.",
+  "detalhes": "A CF manteve as contribuições compulsórias dos empregadores sobre a folha destinadas às entidades de serviço social e de formação profissional (art. 240). Cada uma foi criada por lei; as mais antigas são dirigidas pela confederação do seu setor: o Senai e o Sesi pela Confederação Nacional da Indústria, o Senac e o Sesc pela Confederação Nacional do Comércio, o Senar pela Confederação Nacional da Agricultura, o Sest e o Senat pela Confederação Nacional do Transporte. O Sebrae nasceu da transformação em serviço social autônomo do Cebrae, que a lei desvinculou da administração federal (Lei 8.029/1990, art. 8º). Outras leis autorizaram o Poder Executivo a instituir serviços sociais autônomos que firmam contrato de gestão com a União: a Associação das Pioneiras Sociais (Lei 8.246/1991), a Apex-Brasil (Lei 10.668/2003), a ABDI (Lei 11.080/2004), a Anater (Lei 12.897/2013), a AgSUS (Lei 13.958/2019) e a Embratur (Lei 14.002/2020). Os responsáveis por essas entidades estão sob a jurisdição do TCU (Lei 8.443/1992, art. 5º, V).",
   "tipo_orgao": "conjunto",
   "poder": "nao-estatal",
   "esfera": "nacional",
@@ -56,14 +56,53 @@
       "ref": "norma:decreto-lei-200-1967",
       "dispositivo": "art. 183",
       "nota": "entidades privadas que recebem contribuições parafiscais estão sujeitas à fiscalização do Estado, na forma da lei de cada uma"
+    },
+    {
+      "ref": "norma:lei-8246-1991",
+      "dispositivo": "arts. 1º e 3º",
+      "nota": "Associação das Pioneiras Sociais."
+    },
+    {
+      "ref": "norma:lei-10668-2003",
+      "dispositivo": "arts. 1º, 9º, 16, 17 e 18",
+      "nota": "Apex-Brasil."
+    },
+    {
+      "ref": "norma:lei-11080-2004",
+      "dispositivo": "arts. 1º, 8º a 10 e 14",
+      "nota": "ABDI."
+    },
+    {
+      "ref": "norma:lei-12897-2013",
+      "dispositivo": "arts. 1º, 10 a 12 e 16",
+      "nota": "Anater."
+    },
+    {
+      "ref": "norma:lei-13958-2019",
+      "dispositivo": "arts. 6º, 14, 17, II, e 19",
+      "nota": "AgSUS (antiga Adaps)."
+    },
+    {
+      "ref": "norma:lei-14002-2020",
+      "dispositivo": "arts. 3º, 11, 18 e 19",
+      "nota": "Embratur."
+    },
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 5º, V"
+    },
+    {
+      "ref": "norma:lei-13019-2014",
+      "dispositivo": "art. 3º, X",
+      "nota": "o marco das organizações da sociedade civil não se aplica às parcerias com serviços sociais autônomos"
     }
   ],
   "confianca": "oficial",
-  "notas": "Caso de fronteira (D05): poder 'nao-estatal' porque são pessoas jurídicas de direito privado (o Sesi, por exemplo, pelo Decreto-Lei 9.403/1946, art. 2º); um só nó para o conjunto, sem contido_em. Tipo 'conjunto', como os cartórios e os partidos (org:arquetipo-estadual-servicos-notariais-e-de-registro, org:partidos-politicos): o nó representa várias entidades; cada uma, sozinha, seria 'paraestatal'. A lista não é exaustiva. Sest e Senat: a CNT tem o encargo de criá-los, organizá-los e administrá-los, com personalidade de direito privado e fiscalização do TCU, e as contribuições valem desde 1º/1/1994 (Lei 8.706/1993, arts. 1º e 7º; entidade norma:lei-8706-1993). Sescoop: criação autorizada pela MP 2.168-40/2001 (art. 8º), dirigido por conselho presidido pelo presidente da OCB (art. 9º), com contribuição de 2,5% sobre a folha das cooperativas (art. 10, I); entidade norma:mp-2168-40-2001. A Lei 8.706/1993 e a MP 2.168-40/2001 sujeitam essas entidades à fiscalização do TCU; o controle das contas do conjunto pelo TCU não foi modelado. A CF não classifica as contribuições do art. 240; não registramos a jurisprudência sobre a sua natureza. Termo 'serviço social autônomo' tirado da Lei 8.029/1990, art. 8º.",
+  "notas": "Caso de fronteira (D05): poder 'nao-estatal' porque são pessoas jurídicas de direito privado (o Sesi, por exemplo, pelo Decreto-Lei 9.403/1946, art. 2º); um só nó para o conjunto, sem contido_em. Tipo 'conjunto', como os cartórios e os partidos (org:arquetipo-estadual-servicos-notariais-e-de-registro, org:partidos-politicos): o nó representa várias entidades; cada uma, sozinha, seria 'paraestatal'. A lista não é exaustiva. Sest e Senat: a CNT tem o encargo de criá-los, organizá-los e administrá-los, com personalidade de direito privado e fiscalização do TCU, e as contribuições valem desde 1º/1/1994 (Lei 8.706/1993, arts. 1º e 7º; entidade norma:lei-8706-1993). Sescoop: criação autorizada pela MP 2.168-40/2001 (art. 8º), dirigido por conselho presidido pelo presidente da OCB (art. 9º), com contribuição de 2,5% sobre a folha das cooperativas (art. 10, I); entidade norma:mp-2168-40-2001. A Lei 8.706/1993 e a MP 2.168-40/2001 sujeitam essas entidades à fiscalização do TCU; o controle está em rel:tcu-fiscaliza-sistema-s (f4-fronteira). A CF não classifica as contribuições do art. 240; não registramos a jurisprudência sobre a sua natureza. Termo 'serviço social autônomo' tirado da Lei 8.029/1990, art. 8º. Acrescentado em f4-fronteira (D63 b): os serviços sociais autônomos com contrato de gestão (Pioneiras Sociais, Apex-Brasil, ABDI, Anater, AgSUS, Embratur), cada um com a lei que autorizou a sua criação; a supervisão de cada um está nas relações com o ministério que a lei nomeia (MDIC: Apex-Brasil e ABDI; Saúde: Pioneiras Sociais e AgSUS; Turismo: Embratur). A Anater é supervisionada pelo 'Poder Executivo federal' sem ministério nomeado na lei desde a Lei 14.600/2023 (art. 10 da Lei 12.897/2013); o decreto que define o ministério não foi pesquisado. Não achamos lista oficial única dos serviços sociais autônomos (ver aviso:casos-de-fronteira-sem-lista-de-membros); a lista do detalhe vem das leis lidas e não é exaustiva (D07). Nenhum membro virou nó próprio: nenhum é nomeado pela CF, e as relações de cada um com órgãos do mapa (supervisão, TCU) cabem no conjunto com a condição dizendo quais entidades.",
   "verificacao": {
-    "status": "verificado",
-    "em": "2026-11-03",
-    "tarefa": "verificacao-f2-executivo",
-    "notas": "coletado em f2-executivo (acrescentado o Decreto-Lei 200/1967, art. 183 (fiscalização do Estado sobre as entidades privadas que recebem contribuições parafiscais); antes verificado em verificacao-f0-dinheiro-complementar); DL 200, art. 183, conferido"
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira",
+    "notas": "ampliado em f4-fronteira: resumo e detalhes (serviços sociais autônomos com contrato de gestão, jurisdição do TCU), oito fontes novas (Leis 8.246/1991, 10.668/2003, 11.080/2004, 12.897/2013, 13.958/2019, 14.002/2020, 8.443/1992, art. 5º, V, e 13.019/2014, art. 3º, X) e notas; antes verificado em verificacao-f2-executivo"
   }
 }

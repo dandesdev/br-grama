@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-preside-cnbs",
+  "tipo": "relacao",
+  "nome": "O Ministro-Chefe da Casa Civil preside o CNBS",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cnbs",
+  "condicao": "Também convoca as reuniões, que podem ser pedidas pela maioria dos membros.",
+  "orgao_exercicio": "org:casa-civil",
+  "fontes": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "art. 9º, I e § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-03-28",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

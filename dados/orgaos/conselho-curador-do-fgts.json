@@ -1,0 +1,46 @@
+{
+  "id": "org:conselho-curador-do-fgts",
+  "tipo": "orgao",
+  "nome": "Conselho Curador do Fundo de Garantia do Tempo de Serviço",
+  "sigla": "CCFGTS",
+  "resumo": "Colegiado tripartite que fixa as normas e diretrizes do FGTS, aprova seus programas e contas e acompanha a Caixa, agente operador do fundo.",
+  "detalhes": "O FGTS é regido pelas normas e diretrizes do Conselho Curador, formado por representantes de trabalhadores, empregadores e governo (Lei 8.036/1990, art. 3º). O conselho define a alocação dos recursos em habitação popular, saneamento, infraestrutura urbana e microcrédito, aprova os programas anuais e plurianuais e as demonstrações financeiras, fixa a remuneração da Caixa e dos agentes financeiros, decide sobre o FI-FGTS e corrige atos do gestor e da Caixa que prejudiquem o fundo (art. 5º). Os representantes de trabalhadores e empregadores são indicados por centrais sindicais e confederações e nomeados pelo Executivo para dois anos, com uma recondução; o presidente tem voto de qualidade (art. 3º, §§ 3º e 5º). A Caixa é o agente operador e o órgão federal de habitação é o gestor da aplicação (art. 4º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-do-trabalho-e-emprego",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 2259 (CCFGTS) na árvore do Ministério do Trabalho e Emprego, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:lei-8036-1990",
+          "dispositivo": "art. 3º, § 1º"
+        }
+      ],
+      "nota": "A Lei 8.036, art. 3º, § 1º (redação da Lei 14.261/2021), dá a presidência ao 'Ministro de Estado do Trabalho e Previdência', pasta desmembrada em 2023; o SIORG põe o conselho no Ministério do Trabalho e Emprego."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8036-1990",
+      "dispositivo": "arts. 3º a 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-14",
+    "ate": null,
+    "nota": "Previsto na Lei 8.036/1990; o histórico anterior não foi pesquisado."
+  },
+  "notas": "A composição numérica vem de decreto (a lei remete ao Poder Executivo; o Planalto cita o Decreto 11.496/2023), que não foi lido. O gestor da aplicação (art. 4º) é 'o órgão do Poder Executivo responsável pela política de habitação', hoje o Ministério das Cidades; não criamos relação para ele.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

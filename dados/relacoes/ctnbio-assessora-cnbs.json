@@ -1,0 +1,25 @@
+{
+  "id": "rel:ctnbio-assessora-cnbs",
+  "tipo": "relacao",
+  "nome": "A CTNBio dá apoio técnico ao CNBS",
+  "relacao": "assessora",
+  "de": "org:ctnbio",
+  "para": "org:cnbs",
+  "condicao": "Apoio técnico consultivo e de assessoramento na formulação da Política Nacional de Biossegurança.",
+  "fontes": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "art. 14, X"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-03-28",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

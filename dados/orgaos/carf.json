@@ -1,0 +1,60 @@
+{
+  "id": "org:carf",
+  "tipo": "orgao",
+  "nome": "Conselho Administrativo de Recursos Fiscais",
+  "sigla": "Carf",
+  "resumo": "Tribunal administrativo paritário do Ministério da Fazenda que julga, em segunda instância, as disputas entre contribuintes e a Receita Federal sobre tributos federais.",
+  "detalhes": "Julga os recursos contra decisões de primeira instância das Delegacias de Julgamento da Receita Federal e os recursos especiais, sobre tributos administrados pela Receita (Decreto 70.235/1972, art. 25, II; Lei 11.941/2009, art. 48). Tem seções especializadas por matéria, divididas em câmaras e turmas, e a Câmara Superior de Recursos Fiscais. As turmas têm metade de representantes da Fazenda Nacional e metade dos contribuintes; quem preside é sempre da Fazenda e, no empate, tem o voto de qualidade (art. 25, §§ 7º a 9º). Os conselheiros são designados pelo Ministro da Fazenda para mandato definido no regimento (art. 25, § 10), e as súmulas do Carf obrigam as instâncias de julgamento (art. 25, § 13).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-70235-1972",
+          "dispositivo": "art. 25, II"
+        },
+        {
+          "ref": "norma:lei-11941-2009",
+          "dispositivo": "art. 48"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 101068 (CARF/MF) na árvore do Ministério da Fazenda, consulta de 2026-11-14"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-70235-1972",
+      "dispositivo": "art. 25, II e §§ 1º a 13"
+    },
+    {
+      "ref": "norma:lei-11941-2009",
+      "dispositivo": "art. 48"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Criado pela MP 449/2008, convertida na Lei 11.941/2009 (art. 48), que unificou os três Conselhos de Contribuintes e a Câmara Superior de Recursos Fiscais; a data de instalação não foi levantada."
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-70235-1972",
+      "dispositivo": "art. 25, §§ 1º a 4º",
+      "nota": "seções, câmaras, turmas e Câmara Superior de Recursos Fiscais; detalhe no regimento interno do Carf, aprovado por portaria do Ministro da Fazenda"
+    }
+  ],
+  "notas": "O Decreto 70.235/1972, art. 25, § 6º (paridade nas câmaras), foi vetado na Lei 11.941/2009, mas a mesma lei (art. 48) e o art. 25, II, chamam o Carf de 'paritário', e os §§ 7º a 9º repartem presidência e vice-presidência entre Fazenda e contribuintes. A Lei 14.689/2023 incluiu a exclusão de multas e de juros de mora quando o caso é decidido a favor da Fazenda pelo voto de qualidade (art. 25, § 9º-A, e art. 25-A).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

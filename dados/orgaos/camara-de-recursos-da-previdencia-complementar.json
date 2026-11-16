@@ -1,0 +1,44 @@
+{
+  "id": "org:camara-de-recursos-da-previdencia-complementar",
+  "tipo": "orgao",
+  "nome": "Câmara de Recursos da Previdência Complementar",
+  "sigla": "CRPC",
+  "resumo": "Última instância administrativa dos recursos contra as punições e cobranças da Previc aos fundos de pensão; sete membros, quatro do governo e três do setor.",
+  "detalhes": "Julga os recursos contra decisões da Diretoria Colegiada da Previc nos processos de infração contra entidades fechadas de previdência complementar e seus dirigentes e nas impugnações da Taxa de Fiscalização e Controle da Previdência Complementar; sua decisão encerra a instância administrativa e é publicada no Diário Oficial (Lei 12.154/2009, art. 15, que remete ao art. 7º, III e IV). Tem sete membros com mandato de dois anos e uma recondução: quatro servidores efetivos do Ministério da Previdência Social ou de entidades vinculadas e três indicados pelas entidades fechadas, pelos patrocinadores e instituidores e pelos participantes e assistidos, todos designados pelo Ministro da Previdência, que escolhe o presidente entre os servidores (arts. 15, §§ 1º e 2º, e 16, § 1º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-previdencia-social",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-12154-2009",
+          "dispositivo": "art. 15, caput"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 105921 (CRPC) na árvore do Ministério da Previdência Social, consulta de 2026-11-14"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12154-2009",
+      "dispositivo": "art. 7º, III e IV; arts. 15 e 16"
+    }
+  ],
+  "vigencia": {
+    "de": "2009-12-23",
+    "ate": null,
+    "nota": "Criada pela Lei 12.154/2009, em vigor na publicação."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "org:contran",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Trânsito",
+  "sigla": "Contran",
+  "resumo": "Coordenador do Sistema Nacional de Trânsito e seu órgão máximo normativo: regulamenta o Código de Trânsito e fixa regras de habilitação, sinalização e multas.",
+  "detalhes": "Formado pelos Ministros de doze áreas (entre elas transportes terrestres, justiça, saúde, educação, segurança pública e mobilidade urbana) e decide por maioria absoluta (CTB, art. 10). Edita as normas regulamentares do Código e as diretrizes da Política Nacional de Trânsito, coordena os órgãos do sistema, dá diretrizes aos conselhos estaduais de trânsito e às Jari, normatiza a habilitação de condutores e o registro e licenciamento de veículos, aprova a sinalização e resolve conflitos de competência entre União, estados e DF (art. 12). As propostas de norma passam antes por consulta pública de 30 dias; em urgência, o presidente edita deliberação que o plenário precisa aprovar em 120 dias (art. 12, §§ 1º, 3º e 4º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-dos-transportes",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-9503-1997",
+          "dispositivo": "art. 9º; art. 10, § 3º-A"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 321 (CONTRAN) na árvore do Ministério dos Transportes, consulta de 2026-11-14"
+        }
+      ],
+      "nota": "O CTB manda vincular o Contran ao ministério que coordena o Sistema Nacional de Trânsito, ao qual se subordina o órgão máximo executivo de trânsito da União (art. 9º). O SIORG põe o Contran e a Secretaria Nacional de Trânsito (Senatran) na árvore do Ministério dos Transportes."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 7º, I; arts. 9º a 13"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-01-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início de vigência do Código de Trânsito (data calculada, ver norma:lei-9503-1997). Já havia um Contran no código anterior (1966); o histórico não foi levantado. A composição atual por Ministros é da Lei 14.599/2023."
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 13",
+      "nota": "Câmaras Temáticas, órgãos técnicos vinculados ao Contran"
+    }
+  ],
+  "notas": "Áreas dos Ministros no CTB, art. 10 (redação da Lei 14.599/2023): ciência, tecnologia e inovações; educação; defesa; meio ambiente; saúde; justiça; relações exteriores; indústria e comércio; agropecuária; transportes terrestres; segurança pública; mobilidade urbana (12). Os Ministros podem mandar representantes de nível CCE 17 ou superior, ou oficial-general (art. 10, § 4º). O dirigente do órgão máximo executivo de trânsito da União é o Secretário-Executivo (art. 10, § 5º). Os recursos contra multas de órgãos da União não sobem ao Contran: são julgados por colegiado especial das Jari (art. 289, I).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

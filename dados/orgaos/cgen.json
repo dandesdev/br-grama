@@ -1,0 +1,49 @@
+{
+  "id": "org:cgen",
+  "tipo": "orgao",
+  "nome": "Conselho de Gestão do Patrimônio Genético",
+  "sigla": "CGen",
+  "resumo": "Colegiado deliberativo, normativo e recursal que regula o acesso ao patrimônio genético e aos conhecimentos tradicionais e a repartição dos benefícios.",
+  "detalhes": "Coordena a política de acesso ao patrimônio genético e ao conhecimento tradicional associado: fixa normas técnicas e critérios para os acordos de repartição de benefícios, delibera sobre autorizações e credenciamentos, atesta a regularidade do acesso, mantém os bancos de dados de cadastros e autorizações, fixa diretrizes do Fundo Nacional para a Repartição de Benefícios e é a instância superior de recurso nos atos da lei (Lei 13.123/2015, art. 6º). A lei exige até 60% de governo e pelo menos 40% de sociedade civil, com paridade entre empresas, academia e povos indígenas, comunidades e agricultores tradicionais. O plenário tem um representante de cada um de 11 ministérios e 9 da sociedade civil (o decreto anuncia 21 conselheiros, 12 do governo), designados pelo Ministro do Meio Ambiente e presididos pelo representante do ministério (Decreto 8.772/2016, art. 7º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-13123-2015",
+          "dispositivo": "art. 6º, caput"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 55959 (CGen) na árvore do Ministério do Meio Ambiente e Mudança do Clima, consulta de 2026-11-14"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-13123-2015",
+      "dispositivo": "art. 6º"
+    },
+    {
+      "ref": "norma:decreto-8772-2016",
+      "dispositivo": "arts. 6º e 7º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Criado pela Lei 13.123/2015, com vigência 180 dias após a publicação; a data não foi calculada (ver norma:lei-13123-2015)."
+  },
+  "notas": "O Decreto 8.772, art. 7º, I, lista 11 ministérios com os nomes de 2016; o caput fala em 12 representantes do governo, e o 12º não aparece no trecho lido (11 + 3 + 3 + 3 = 20, contra 21 no caput). Conferir na revisão.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -14,7 +14,8 @@
     "Lei 8.212/1991, art. 8º (texto compilado do Planalto, 2026-11-11)",
     "Legislação Informatizada da Câmara (decreto de 4/8/1992, só publicação original)",
     "Busca na web por 'art. 8º da Lei 8.212' e a comissão",
-    "Legislação Informatizada da Câmara, dados da norma do decreto de 4/8/1992 ('Situação: Não consta revogação expressa', consulta em 2026-11-14)"
+    "Legislação Informatizada da Câmara, dados da norma do decreto de 4/8/1992 ('Situação: Não consta revogação expressa', consulta em 2026-11-14)",
+    "Planalto, decretos não numerados de 1992, Dnn945 (texto do decreto de 4/8/1992 sem marca de revogação, consulta em 2026-11-15)"
   ],
   "fontes": [
     {
@@ -31,11 +32,11 @@
     "ate": null
   },
   "confianca": "oficial",
-  "notas": "Desde a rodada final do fechamento da fase 2 a comissão tem nó (org:comissao-do-orcamento-da-seguridade-social), porque a lei e o decreto seguem sem revogação expressa, e o art. 8º da Lei 8.212 passa a coberto; o aviso continua, porque o que falta é saber se ela funciona. Próximo passo: conferir no Planalto (lista de decretos não numerados revogados) e no DOU.",
+  "notas": "Desde a rodada final do fechamento da fase 2 a comissão tem nó (org:comissao-do-orcamento-da-seguridade-social), porque a lei e o decreto seguem sem revogação expressa, e o art. 8º da Lei 8.212 passa a coberto; o aviso continua, porque o que falta é saber se ela funciona. O Planalto foi conferido em 2026-11-15 (Dnn945, sem marca de revogação). Próximo passo: procurar no DOU portarias interministeriais de designação dos membros.",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-14",
-    "tarefa": "f2-fechamento-final",
-    "notas": "afeta ganhou o novo órgão; nota atualizada (o art. 8º deixou de ser lacuna no quadro). Texto do aviso, gravidade e onde_procuramos sem mudança. Antes verificado em verificacao-f2-social."
+    "status": "verificado",
+    "em": "2026-11-15",
+    "tarefa": "verificacao-pos-1-0",
+    "notas": "antes verificado em verificacao-f2-social; f2-fechamento-final acrescentou o órgão em afeta e mudou a nota. Conferido que org:comissao-do-orcamento-da-seguridade-social existe e que o aviso continua cabendo (a lei e o decreto não dizem se a comissão funciona). Acrescentada a consulta ao Planalto em onde_procuramos."
   }
 }

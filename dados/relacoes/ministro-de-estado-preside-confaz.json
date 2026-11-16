@@ -1,0 +1,31 @@
+{
+  "id": "rel:ministro-de-estado-preside-confaz",
+  "tipo": "relacao",
+  "nome": "O Ministro da Fazenda preside o Confaz",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:confaz",
+  "condicao": "Representa o governo federal e preside as reuniões, pessoalmente ou por representante que indicar.",
+  "orgao_exercicio": "org:ministerio-da-fazenda",
+  "fontes": [
+    {
+      "ref": "norma:convenio-icms-133-1997",
+      "dispositivo": "art. 2º, § 1º; art. 7º"
+    },
+    {
+      "ref": "norma:lc-24-1975",
+      "dispositivo": "art. 2º, caput"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regra do regimento de 1997; data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

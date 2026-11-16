@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-designa-membros-da-ctnbio",
+  "tipo": "relacao",
+  "nome": "O Ministro da Ciência e Tecnologia designa os membros e o presidente da CTNBio",
+  "relacao": "designa",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:ctnbio",
+  "condicao": "Designa os 27 titulares e suplentes para dois anos, renováveis por até mais dois períodos, e escolhe entre eles o presidente, para dois anos renováveis uma vez.",
+  "orgao_exercicio": "org:ministerio-da-ciencia-tecnologia-e-inovacao",
+  "fontes": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "art. 11, caput e §§ 1º, 2º, 4º e 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-03-28",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

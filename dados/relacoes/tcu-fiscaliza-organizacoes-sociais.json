@@ -1,0 +1,33 @@
+{
+  "id": "rel:tcu-fiscaliza-organizacoes-sociais",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza o uso de recursos públicos pelas organizações sociais",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "org:organizacoes-sociais",
+  "condicao": "Controla a aplicação dos recursos públicos recebidos pelas OS. Quem fiscaliza o contrato de gestão deve avisar o TCU de irregularidades, sob pena de responsabilidade solidária.",
+  "vigencia": {
+    "de": "1998-05-18",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9637-1998",
+      "dispositivo": "art. 9º"
+    },
+    {
+      "ref": "fonte:stf-adi-1923-acordao",
+      "dispositivo": "ementa, itens 18 e 20 (vi)"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 70, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-designa-membros-da-crpc",
+  "tipo": "relacao",
+  "nome": "O Ministro da Previdência designa os membros da CRPC",
+  "relacao": "designa",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:camara-de-recursos-da-previdencia-complementar",
+  "condicao": "Designa os sete titulares e suplentes e escolhe o presidente entre os quatro servidores; o presidente tem voto de qualidade.",
+  "orgao_exercicio": "org:ministerio-da-previdencia-social",
+  "fontes": [
+    {
+      "ref": "norma:lei-12154-2009",
+      "dispositivo": "art. 15, § 2º; art. 16, § 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "2009-12-23",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

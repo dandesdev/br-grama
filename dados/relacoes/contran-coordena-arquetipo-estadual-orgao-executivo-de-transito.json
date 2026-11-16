@@ -1,0 +1,27 @@
+{
+  "id": "rel:contran-coordena-arquetipo-estadual-orgao-executivo-de-transito",
+  "tipo": "relacao",
+  "nome": "O Contran coordena os órgãos executivos de trânsito estaduais",
+  "relacao": "coordena",
+  "de": "org:contran",
+  "para": "org:arquetipo-estadual-orgao-executivo-de-transito",
+  "condicao": "Coordena o Sistema Nacional de Trânsito e fixa as normas que esses órgãos aplicam: habilitação, registro e licenciamento de veículos, fiscalização, penalidades e arrecadação das multas.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 7º, I e III; art. 12, I, II, VII e VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-01-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início de vigência do CTB."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

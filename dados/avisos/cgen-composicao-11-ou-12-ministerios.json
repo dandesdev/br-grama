@@ -1,0 +1,33 @@
+{
+  "id": "aviso:cgen-composicao-11-ou-12-ministerios",
+  "tipo": "aviso",
+  "nome": "Decreto do CGen anuncia 12 representantes do governo, mas lista 11 ministérios",
+  "resumo": "O Decreto 8.772/2016, art. 7º, diz que o plenário do CGen tem 21 conselheiros, 12 do governo, mas o inciso I lista só 11 ministérios.",
+  "detalhes": "Com os 9 representantes da sociedade civil (incisos II a IV), a lista soma 20 conselheiros, e não os 21 do caput. Não sabemos se falta um órgão na lista ou se o número do caput está errado.",
+  "tipo_aviso": "ambiguidade-normativa",
+  "afeta": [
+    "org:cgen"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Decreto 8.772/2016, art. 7º, texto compilado (Planalto, 2026-11-15)"
+  ],
+  "fontes": [
+    {
+      "ref": "norma:decreto-8772-2016",
+      "dispositivo": "art. 7º, caput e I a IV"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-05-12",
+    "ate": null,
+    "nota": "Desde a publicação do decreto, até onde lemos; histórico das redações não conferido."
+  },
+  "notas": "Não procuramos o regimento interno do CGen nem a página do conselho no MMA, que podem dizer qual é o 12º órgão.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rel:conselho-curador-do-fgts-gere-fgts",
+  "tipo": "relacao",
+  "nome": "O Conselho Curador gere o FGTS",
+  "relacao": "gere",
+  "de": "org:conselho-curador-do-fgts",
+  "para": "obj:fgts",
+  "condicao": "Fixa normas e diretrizes, aprova programas, orçamento e demonstrações financeiras e acompanha a gestão dos recursos.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8036-1990",
+      "dispositivo": "art. 3º, caput; art. 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-05-14",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

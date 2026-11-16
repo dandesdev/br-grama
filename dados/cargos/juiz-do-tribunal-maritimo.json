@@ -1,0 +1,76 @@
+{
+  "id": "cargo:juiz-do-tribunal-maritimo",
+  "tipo": "cargo",
+  "nome": "Juiz do Tribunal Marítimo",
+  "resumo": "Um dos sete juízes do Tribunal Marítimo: o presidente, dois militares e quatro civis, todos nomeados pelo Presidente da República.",
+  "orgao": "org:tribunal-maritimo",
+  "provimento": "variavel",
+  "vagas": 7,
+  "vagas_nota": "Presidente, dois juízes militares e quatro juízes civis (Lei 2.180/1954, art. 2º). Há também suplentes, com mandato de três anos (art. 3º).",
+  "provimento_casos": [
+    {
+      "quando": "Presidente: oficial-general do Corpo da Armada, da ativa ou inativo, indicado pela Marinha",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lei-2180-1954",
+          "dispositivo": "art. 2º, a, e § 1º"
+        }
+      ]
+    },
+    {
+      "quando": "Dois juízes militares: capitães de mar e guerra ou de fragata, um da Armada e um engenheiro naval, propostos pela Marinha",
+      "provimento": "nomeacao-livre",
+      "fontes": [
+        {
+          "ref": "norma:lei-2180-1954",
+          "dispositivo": "art. 2º, b, e § 2º, a"
+        }
+      ]
+    },
+    {
+      "quando": "Quatro juízes civis: dois bacharéis em direito (marítimo e internacional público), um especialista em armação de navios e um capitão de longo curso da Marinha Mercante",
+      "provimento": "concurso-publico",
+      "fontes": [
+        {
+          "ref": "norma:lei-2180-1954",
+          "dispositivo": "art. 2º, c, e §§ 2º, b, e 4º"
+        }
+      ]
+    }
+  ],
+  "provimento_nota": "O Presidente da República nomeia todos. O presidente e os militares são indicados pela Marinha; os civis são aprovados em concurso de títulos e provas com banca formada pelo presidente do tribunal, um juiz, um procurador e um especialista indicado pelo Conselho Federal da OAB (ou um representante da Comissão de Marinha Mercante). O vice-presidente é eleito a cada dois anos entre os juízes.",
+  "mandato": {
+    "anos": null,
+    "vitalicio": false,
+    "nota": "Presidente: dois anos, com recondução; juízes militares: quatro anos, com recondução; juízes civis: até a idade-limite do serviço público (art. 2º, §§ 1º, 6º e 9º)."
+  },
+  "requisitos": [
+    {
+      "texto": "juízes civis: idade entre 35 e 48 anos e mais de cinco anos de prática na área exigida",
+      "fontes": [
+        {
+          "ref": "norma:lei-2180-1954",
+          "dispositivo": "art. 2º, § 2º, b"
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "ref": "norma:lei-2180-1954",
+      "dispositivo": "arts. 2º e 3º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Composição do Decreto-Lei 25/1966 e da Lei 8.391/1991; datas não levantadas."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "aviso:casos-de-fronteira-sem-lista-de-membros",
+  "tipo": "aviso",
+  "nome": "Os conjuntos de fronteira não trazem a lista completa dos membros",
+  "resumo": "Para Sistema S, conselhos profissionais, OS, OSCIPs, concessionárias e organismos internacionais, o mapa traz exemplos; não achamos ou não consultamos uma lista oficial completa de cada categoria.",
+  "detalhes": "Os conselhos de fiscalização profissional eram 557 em 2025, segundo o TCU, mas a lista não foi achada. Os serviços sociais autônomos vêm cada um da sua lei, sem cadastro único conhecido. O Ministério da Justiça dá acesso às informações das OSCIPs (Lei 9.790/1999, art. 17), e cada agência reguladora e cada ente concedente tem as suas concessões; esses cadastros não foram consultados. A lista dos atos internacionais em vigor para o Brasil, mantida pelo Ministério das Relações Exteriores, também não.",
+  "tipo_aviso": "lacuna",
+  "afeta": [
+    "org:sistema-s",
+    "org:conselhos-de-fiscalizacao-profissional",
+    "org:organizacoes-sociais",
+    "org:oscips",
+    "org:concessionarias-e-permissionarias-de-servico-publico",
+    "org:organismos-internacionais"
+  ],
+  "gravidade": "baixa",
+  "onde_procuramos": [
+    "Portal do TCU (acesso automático bloqueado em 2026-11-15; lida só a notícia sobre a DN 216/2025 no Wayback)",
+    "Busca na web por lista oficial dos conselhos de fiscalização profissional (só achamos acórdãos e páginas dos próprios conselhos)",
+    "Leis de criação dos serviços sociais autônomos (Planalto, cópias do Wayback)",
+    "Lei 9.637/1998 e Lei 9.790/1999 (Planalto, cópias do Wayback)",
+    "Decretos de promulgação no Planalto e API de legislação do Senado"
+  ],
+  "fontes": [
+    {
+      "ref": "fonte:tcu-noticia-dn-216-2025",
+      "dispositivo": "557 conselhos"
+    },
+    {
+      "ref": "norma:lei-9790-1999",
+      "dispositivo": "art. 17"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null
+  },
+  "confianca": "oficial",
+  "notas": "D07: só exemplos, com aviso de que a lista não é exaustiva. Lacuna da pesquisa de f4-fronteira, que uma tarefa futura pode fechar consultando os cadastros citados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

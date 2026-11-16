@@ -1,0 +1,44 @@
+{
+  "id": "org:corte-interamericana-de-direitos-humanos",
+  "tipo": "orgao",
+  "nome": "Corte Interamericana de Direitos Humanos",
+  "resumo": "Tribunal internacional que julga se um Estado violou a Convenção Americana sobre Direitos Humanos. O Brasil aceita sua competência para fatos posteriores a 10/12/1998.",
+  "detalhes": "Foi criada pela Convenção Americana sobre Direitos Humanos (Pacto de São José), que o Brasil promulgou em 1992, e tem sete juízes eleitos pelos Estados-Partes na Assembleia-Geral da OEA (Convenção, arts. 33, 52 e 53). Só os Estados-Partes e a Comissão Interamericana podem levar casos à Corte, depois do procedimento na Comissão; se reconhecer a violação, a Corte manda reparar o dano e pagar indenização, e o Estado se compromete a cumprir a decisão (arts. 61, 63 e 68). O Brasil reconheceu a competência obrigatória da Corte, sob reserva de reciprocidade, para fatos posteriores a 10/12/1998 (Decreto 4.463/2002).",
+  "tipo_orgao": "organismo-internacional",
+  "poder": "nao-estatal",
+  "esfera": "internacional",
+  "contido_em": "org:organismos-internacionais",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-678-1992",
+          "dispositivo": "considerandos; Convenção, art. 33",
+          "nota": "Convenção adotada no âmbito da OEA; a Corte é um dos dois órgãos que ela cria"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-678-1992",
+      "dispositivo": "art. 1º; Convenção, arts. 33, 52, 53, 61, 62, 63 e 68"
+    },
+    {
+      "ref": "norma:decreto-4463-2002",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "vigencia": {
+    "de": "1992-09-25",
+    "ate": null,
+    "nota": "Data em que a Convenção entrou em vigor para o Brasil (Decreto 678/1992, considerandos); a competência obrigatória da Corte vale para fatos posteriores a 10/12/1998."
+  },
+  "confianca": "oficial",
+  "notas": "Nó próprio pela D63 b: tratado promulgado lhe dá jurisdição sobre o Brasil. tipo_orgao 'organismo-internacional' pela D64 (definição ampliada para órgão de organização internacional com jurisdição própria). contido_em no conjunto de organismos internacionais por aproximação: a Corte é órgão da Convenção, adotada no âmbito da OEA, e não uma organização própria. A Comissão Interamericana de Direitos Humanos (Convenção, arts. 34 e seguintes) não foi modelada.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

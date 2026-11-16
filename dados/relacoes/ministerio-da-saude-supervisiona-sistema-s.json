@@ -1,0 +1,31 @@
+{
+  "id": "rel:ministerio-da-saude-supervisiona-sistema-s",
+  "tipo": "relacao",
+  "nome": "O Ministério da Saúde supervisiona a Associação das Pioneiras Sociais e a AgSUS",
+  "relacao": "supervisiona",
+  "de": "org:ministerio-da-saude",
+  "para": "org:sistema-s",
+  "condicao": "Só a Associação das Pioneiras Sociais e a AgSUS: o ministério supervisiona a gestão, firma o contrato de gestão e recebe o orçamento-programa.",
+  "vigencia": {
+    "de": "1991-10-23",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 8.246/1991 (Pioneiras Sociais); a AgSUS vem da Lei 13.958/2019, com o nome dado pela Lei 14.621/2023."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8246-1991",
+      "dispositivo": "art. 3º, caput, III a V"
+    },
+    {
+      "ref": "norma:lei-13958-2019",
+      "dispositivo": "arts. 4º e 14"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

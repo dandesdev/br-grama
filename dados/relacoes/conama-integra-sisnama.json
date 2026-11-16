@@ -1,0 +1,31 @@
+{
+  "id": "rel:conama-integra-sisnama",
+  "tipo": "relacao",
+  "nome": "O Conama é o órgão consultivo e deliberativo do Sisnama",
+  "relacao": "integra",
+  "de": "org:conama",
+  "para": "org:sisnama",
+  "condicao": "Órgão consultivo e deliberativo do sistema.",
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, II"
+    },
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 3º, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1990-04-12",
+    "ate": null,
+    "incerta": true,
+    "nota": "Data da Lei 8.028/1990, que deu a redação do art. 6º, II; antes o Conama já integrava o Sisnama com outra descrição. Histórico não levantado."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

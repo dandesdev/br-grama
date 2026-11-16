@@ -11,7 +11,7 @@
   "vigencia": {
     "de": "2026-09-16",
     "ate": null,
-    "nota": "Início deduzido da Resolução ANA 280/2025: a interinidade corre em períodos de dois meses, de 16 a 15, na ordem Ana Carolina Argolo, Leonardo Góes Silva, Larissa Oliveira Rêgo e Cristiane Collet Battiston; o período de 16/9 a 15/11/2026 voltaria a Ana Carolina Argolo, cujo mandato de diretora terminou em 5/7/2026 (Portaria ANA 270/2026), e passa ao seguinte da lista. Os atos confirmam: em 14/9/2026 assinou uma Diretora-Presidente Interina; de 24/9 a 13/10/2026 ele assina como Diretor-Presidente Interino, e a Portaria ANA 542, de 5/11/2026, ainda o cita assim. Em 18/9/2026 assinou Larissa Oliveira Rêgo como interina substituta (art. 3º da resolução). Pela regra, o período termina em 15/11/2026. O período anterior dele na presidência (16/3 a 15/5/2026, pela mesma regra) não foi modelado."
+    "nota": "Início deduzido da Resolução ANA 280/2025: a interinidade corre em períodos de dois meses, de 16 a 15, na ordem Ana Carolina Argolo, Leonardo Góes Silva, Larissa Oliveira Rêgo e Cristiane Collet Battiston; o período de 16/9 a 15/11/2026 voltaria a Ana Carolina Argolo, cujo mandato de diretora terminou em 5/7/2026 (Portaria ANA 270/2026), e passa ao seguinte da lista. Os atos confirmam: em 14/9/2026 assinou como Diretora-Presidente Interina Cristiane Battiston, a quarta da lista; de 24/9 a 13/10/2026 ele assina como Diretor-Presidente Interino, e a Portaria ANA 542, de 5/11/2026, ainda o cita assim. Em 18/9/2026 assinou Larissa Oliveira Rêgo como interina substituta (art. 3º da resolução). Pela regra, o período termina em 15/11/2026. O período anterior dele na presidência (16/3 a 15/5/2026, pela mesma regra) não foi modelado."
   },
   "campos": {
     "vigencia": {
@@ -60,9 +60,9 @@
   ],
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-14",
-    "tarefa": "f2-fechamento-final",
-    "notas": "criada na rodada final do fechamento da fase 2: sem titular na data (vacância pelo fim do mandato, decreto de 13/4/2022 com mandato até 15/1/2026); quem exerce entra com interino (D40). A interinidade da ANA segue a Lei 9.984, arts. 9º e 12, citada na resolução, e não a lista de substituição da Lei 9.986, art. 10, descrita no cargo; ponto para a revisão. Em 2026-11-14, verificacao-f3-calendario-eleicoes-mandatos preencheu vigencia.de (2026-09-16, confiança inferido em campos.vigencia) pela regra da Resolução ANA 280/2025 e pela Portaria ANA 270/2026 (fim do mandato de Ana Carolina Argolo em 5/7/2026); o resto da relação não foi revisto nessa tarefa"
+    "status": "verificado",
+    "em": "2026-11-15",
+    "tarefa": "verificacao-pos-1-0",
+    "notas": "criada em f2-fechamento-final; vigencia.de preenchida em verificacao-f3-calendario-eleicoes-mandatos. Conferidos no DOU: decreto de 13/4/2022 (Veronica Sánchez da Cruz Rios, mandato até 15/1/2026; Ana Carolina Argolo, mandato até 5/7/2026); Resolução ANA 280/2025, arts. 1º a 3º e 5º, com base na Lei 9.984, arts. 9º e 12; Portaria ANA 270/2026 (assinada pela Diretora-Presidente Interina Larissa Oliveira Rêgo, no rodízio de 16/5 a 15/7); Portaria 439, de 14/9/2026 (Cristiane Battiston, interina); Portaria 446, de 18/9 (Larissa Oliveira Rêgo, interina substituta); Portarias 458, 460, 480, 481 e 503 (de 24/9 a 13/10/2026) e 542, de 5/11/2026, assinadas ou citando Leonardo Góes como Diretor-Presidente Interino. A data de início segue a regra e os atos, como diz campos.vigencia. A interinidade vem da resolução da Diretoria (Lei 9.984), não da lista de substituição da Lei 9.986, art. 10; a condição já descreve a resolução, então não muda nada aqui."
   }
 }

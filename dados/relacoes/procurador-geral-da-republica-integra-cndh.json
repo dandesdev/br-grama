@@ -1,0 +1,24 @@
+{
+  "id": "rel:procurador-geral-da-republica-integra-cndh",
+  "tipo": "relacao",
+  "nome": "O Procurador-Geral da República integra o CNDH",
+  "relacao": "integra",
+  "de": "cargo:procurador-geral-da-republica",
+  "para": "org:cndh",
+  "fontes": [
+    {
+      "ref": "norma:lei-12986-2014",
+      "dispositivo": "art. 3º, I, b"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-06-03",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

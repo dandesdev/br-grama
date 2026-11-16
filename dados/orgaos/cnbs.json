@@ -1,0 +1,42 @@
+{
+  "id": "org:cnbs",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Biossegurança",
+  "sigla": "CNBS",
+  "resumo": "Conselho de Ministros presidido pelo Chefe da Casa Civil que decide em última instância sobre o uso comercial de transgênicos, por razões socioeconômicas e de interesse nacional.",
+  "detalhes": "Assessora o Presidente da República na Política Nacional de Biossegurança, fixa diretrizes para os órgãos federais da área e decide em última e definitiva instância os processos de uso comercial de organismos geneticamente modificados, por avocação ou por recurso dos órgãos de registro contra decisão da CTNBio (Lei 11.105/2005, art. 8º e art. 16, § 7º). Tem onze membros, Ministros de Estado e o titular da pesca e aquicultura, e é presidido pelo Ministro-Chefe da Casa Civil; instala-se com seis membros e decide por maioria absoluta (art. 9º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:presidencia-da-republica",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-11105-2005",
+          "dispositivo": "art. 8º, caput; art. 9º, § 4º"
+        }
+      ],
+      "nota": "A lei vincula o CNBS à Presidência da República e a sua Secretaria-Executiva à Casa Civil; o conselho não aparece nas árvores do SIORG baixadas em 2026-11-14."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "arts. 8º, 9º e 16, § 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-03-28",
+    "ate": null,
+    "nota": "Criado pela Lei 11.105/2005, em vigor na publicação."
+  },
+  "notas": "A lista do art. 9º ainda usa nomes de pastas de 2005 (ex.: 'Ministro da Ciência e Tecnologia', 'Secretário Especial de Aqüicultura e Pesca'); não atualizamos a composição pelas pastas atuais.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministerio-do-turismo-supervisiona-sistema-s",
+  "tipo": "relacao",
+  "nome": "O Ministério do Turismo supervisiona a Embratur",
+  "relacao": "supervisiona",
+  "de": "org:ministerio-do-turismo",
+  "para": "org:sistema-s",
+  "condicao": "Só a Embratur: o ministério estabelece os termos do contrato de gestão e supervisiona a gestão da agência.",
+  "vigencia": {
+    "de": "2020-05-25",
+    "ate": null,
+    "nota": "Publicação da Lei 14.002/2020; o art. 11 produz efeito na publicação (art. 37, II)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14002-2020",
+      "dispositivo": "art. 11"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

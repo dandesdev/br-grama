@@ -1,0 +1,27 @@
+{
+  "id": "rel:contran-coordena-policia-rodoviaria-federal",
+  "tipo": "relacao",
+  "nome": "O Contran coordena a PRF no Sistema Nacional de Trânsito",
+  "relacao": "coordena",
+  "de": "org:contran",
+  "para": "org:policia-rodoviaria-federal",
+  "condicao": "A Polícia Rodoviária Federal integra o Sistema Nacional de Trânsito, que o Contran coordena.",
+  "fontes": [
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 7º, I e V; art. 12, II"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-01-22",
+    "ate": null,
+    "incerta": true,
+    "nota": "Início de vigência do CTB."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

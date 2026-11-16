@@ -1,0 +1,27 @@
+{
+  "id": "rel:comandante-da-marinha-indica-juiz-do-tribunal-maritimo",
+  "tipo": "relacao",
+  "nome": "A Marinha indica o presidente e os juízes militares do Tribunal Marítimo",
+  "relacao": "indica",
+  "de": "cargo:comandante-da-marinha",
+  "para": "cargo:juiz-do-tribunal-maritimo",
+  "condicao": "Indica o presidente, entre oficiais-generais da Armada, e propõe os juízes militares e os suplentes; o oficial da ativa indicado precisa concordar.",
+  "confianca": "inferido",
+  "notas": "A lei atribui a indicação ao 'Ministro da Marinha'. Hoje a Marinha é um comando do Ministério da Defesa; ligamos ao Comandante da Marinha por inferência, sem norma lida que transfira expressamente esta atribuição.",
+  "fontes": [
+    {
+      "ref": "norma:lei-2180-1954",
+      "dispositivo": "art. 2º, §§ 1º a 3º; art. 3º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regra do Decreto-Lei 25/1966 e da Lei 8.391/1991; datas não levantadas."
+  },
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

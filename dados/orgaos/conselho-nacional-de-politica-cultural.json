@@ -1,0 +1,53 @@
+{
+  "id": "org:conselho-nacional-de-politica-cultural",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional de Política Cultural",
+  "sigla": "CNPC",
+  "resumo": "Conselho paritário do Sistema Nacional de Cultura que aprova as diretrizes do Plano Nacional de Cultura e do Fundo Nacional de Cultura e fiscaliza os repasses federais.",
+  "detalhes": "Os conselhos de política cultural são parte do Sistema Nacional de Cultura pela própria CF (art. 216-A, § 2º, II), e o nacional é instrumento de gestão do sistema (Lei 14.835/2024, art. 5º, § 1º, IV). Propõe e aprova as diretrizes do Plano Nacional de Cultura e a minuta do projeto de lei do plano, acompanha sua execução, aprova as diretrizes do Fundo Nacional de Cultura e o relatório de gestão do sistema e fiscaliza os repasses de fundos federais aos fundos de cultura de estados e municípios (Decreto 12.980/2026, art. 2º; Lei 14.835, art. 17). Tem 42 membros: 21 da sociedade civil, eleitos pelos agentes culturais para três anos, e 21 do poder público, entre eles o Ministro da Cultura, 17 representantes do ministério e de suas entidades vinculadas e três de estados e municípios; todos são designados pelo Ministro. A presidência alterna entre governo e sociedade civil (Decreto 12.980, arts. 3º a 5º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-cultura",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-12980-2026",
+          "dispositivo": "art. 1º, parágrafo único"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 1942 (CNPC) na árvore do Ministério da Cultura, consulta de 2026-11-14"
+        }
+      ]
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 216-A, § 2º, II"
+    },
+    {
+      "ref": "norma:lei-14835-2024",
+      "dispositivo": "art. 5º, § 1º, IV; arts. 7º, II, 8º, II, V e IX, 16 e 17"
+    },
+    {
+      "ref": "norma:decreto-12980-2026",
+      "dispositivo": "arts. 1º a 6º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Regulado hoje pelo Decreto 12.980/2026 (em vigor em 22/5/2026), que revogou o Decreto 9.891/2019; o conselho já existia antes (Decreto 5.520/2005), e a data de criação não foi conferida."
+  },
+  "notas": "Composição contada no Decreto 12.980, art. 3º: inciso I, 9 + 6 + 4 + 1 + 1 = 21; inciso II, 1 + 17 + 1 + 2 = 21. A Lei 14.835/2024, arts. 16 e 17, dá aos conselhos de política cultural caráter consultivo, fiscalizador e deliberativo e composição ao menos paritária.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rel:ministro-de-estado-integra-contran",
+  "tipo": "relacao",
+  "nome": "Ministros de doze áreas formam o Contran",
+  "relacao": "integra",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:contran",
+  "condicao": "Ministros das áreas de ciência e tecnologia, educação, defesa, meio ambiente, saúde, justiça, relações exteriores, indústria e comércio, agropecuária, transportes terrestres, segurança pública e mobilidade urbana; podem mandar representante. Decisões por maioria absoluta.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "CTB, art. 10, § 6º: quórum de votação e de aprovação."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 10, caput e § 4º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Redação da Lei 14.599/2023; data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

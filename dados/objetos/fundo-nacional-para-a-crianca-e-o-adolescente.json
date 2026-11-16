@@ -1,0 +1,28 @@
+{
+  "id": "obj:fundo-nacional-para-a-crianca-e-o-adolescente",
+  "tipo": "objeto",
+  "nome": "Fundo Nacional para a Criança e o Adolescente",
+  "resumo": "Fundo federal gerido pelo Conanda, que recebe doações dedutíveis do imposto de renda e recursos do orçamento para a política da criança e do adolescente.",
+  "detalhes": "Instituído pela Lei 8.242/1991 (art. 6º). Recebe as doações de contribuintes previstas no ECA (art. 260), dotações do orçamento da União, contribuições de governos e organismos estrangeiros e rendimentos de aplicações. O Conanda fixa os critérios de uso (Lei 8.242, art. 2º, X).",
+  "tipo_objeto": "fundo",
+  "esfera": "federal",
+  "relativo_a": [
+    "org:conanda"
+  ],
+  "vigencia": {
+    "de": "1991-10-16",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8242-1991",
+      "dispositivo": "art. 2º, X; art. 6º"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "org:tribunal-maritimo",
+  "tipo": "orgao",
+  "nome": "Tribunal Marítimo",
+  "sigla": "TM",
+  "resumo": "Tribunal administrativo ligado à Marinha que julga acidentes e fatos da navegação em todo o país e mantém o registro da propriedade de navios.",
+  "detalhes": "Órgão autônomo, auxiliar do Poder Judiciário, com jurisdição nacional: julga os acidentes da navegação (naufrágio, colisão, encalhe, incêndio e outros) e os fatos da navegação, define causas e responsáveis, aplica as penas da lei e propõe medidas de segurança; também mantém o registro da propriedade naval, das hipotecas sobre embarcações e dos armadores (Lei 2.180/1954, arts. 1º e 13 a 15). Suas decisões técnicas valem como prova e se presumem certas, mas podem ser revistas pelo Judiciário (art. 18). Tem sete juízes: o presidente, oficial-general da Armada, dois juízes militares e quatro civis (art. 2º). A Marinha fornece o pessoal militar e o orçamento; os inquéritos são feitos pelas capitanias dos portos (arts. 1º e 33).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:marinha",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:lei-2180-1954",
+          "dispositivo": "art. 1º"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 220 (TM) na árvore da Marinha, consulta de 2026-11-14"
+        }
+      ],
+      "nota": "A lei vincula o tribunal ao 'Ministério da Marinha' para pessoal militar e orçamento, sem subordinação nas decisões; o SIORG o põe na árvore da Marinha."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-2180-1954",
+      "dispositivo": "arts. 1º a 3º, 10 e 13 a 18"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Organizado pela Lei 2.180/1954; o histórico anterior não foi levantado. A composição atual vem do Decreto-Lei 25/1966 e da Lei 8.391/1991."
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:lei-2180-1954",
+      "dispositivo": "arts. 9º e 32",
+      "nota": "Secretaria com divisões de acidentes e fatos da navegação, registro da propriedade marítima, jurisprudência e administração"
+    }
+  ],
+  "notas": "A lei ainda fala em 'Ministério da Marinha' e 'Ministro da Marinha'; hoje a Marinha é um comando do Ministério da Defesa. Ligamos a indicação ao Comandante da Marinha por inferência (ver a relação). O tipo 'colegiado' foi escolhido porque o tribunal é administrativo, fora do Judiciário (art. 1º: 'auxiliar do Poder Judiciário').",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

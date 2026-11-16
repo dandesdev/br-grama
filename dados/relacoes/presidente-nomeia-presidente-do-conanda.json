@@ -1,0 +1,25 @@
+{
+  "id": "rel:presidente-nomeia-presidente-do-conanda",
+  "tipo": "relacao",
+  "nome": "O Presidente da República nomeia o presidente do Conanda",
+  "relacao": "nomeia",
+  "de": "cargo:presidente-da-republica",
+  "para": "org:conanda",
+  "condicao": "Nomeia e destitui o presidente do conselho, escolhido entre os seus membros.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8242-1991",
+      "dispositivo": "art. 5º"
+    }
+  ],
+  "vigencia": {
+    "de": "1991-10-16",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

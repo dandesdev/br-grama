@@ -19,9 +19,9 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "tarefa": "f2-fechamento-final",
-    "em": "2026-11-14",
-    "notas": "Novo id; substitui a relação de id juiz-corregedor-auxiliar-substitui-vice-presidente-do-stm (verificada em verificacao-f2-judiciario), apagada. O alvo passa do Vice-Presidente do STM para cargo:ministro-corregedor-da-justica-militar, criado em f2-fechamento: a Lei 8.457, art. 14-A, I, diz \"substituir o Ministro-Corregedor\". Condição reescrita sem o \"só na função de\", que o novo alvo torna desnecessário. Fontes e vigência mantidas."
+    "status": "verificado",
+    "em": "2026-11-15",
+    "tarefa": "verificacao-pos-1-0",
+    "notas": "f2-fechamento-final trocou o alvo (antes cargo:vice-presidente-do-stm, relação verificada em verificacao-f2-judiciario) para cargo:ministro-corregedor-da-justica-militar. Conferido na Lei 8.457/1992 (cópia do Planalto de 2026-11-11): art. 14-A, I ('substituir o Ministro-Corregedor nas licenças, nas férias, nas faltas e nos impedimentos, e assumir o cargo, em caso de vaga, até a posse do novo titular') e art. 62, V ('o Ministro-Corregedor pelo Juiz-Corregedor Auxiliar'), ambos da Lei 13.774/2018. A condição corresponde ao texto."
   }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "rel:ministro-de-estado-preside-contran",
+  "tipo": "relacao",
+  "nome": "O Ministro dos Transportes preside o Contran",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:contran",
+  "condicao": "A lei dá a presidência ao Ministro a quem se subordina o órgão máximo executivo de trânsito da União, hoje a Senatran, do Ministério dos Transportes. Em urgência, pode editar deliberação que o plenário aprova em até 120 dias.",
+  "orgao_exercicio": "org:ministerio-dos-transportes",
+  "campos": {
+    "orgao_exercicio": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 321 (CONTRAN) na árvore do Ministério dos Transportes, consulta de 2026-11-14"
+        }
+      ],
+      "nota": "A pasta vem do SIORG, que põe o Contran e a Senatran no Ministério dos Transportes; o CTB não nomeia o ministério."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9503-1997",
+      "dispositivo": "art. 10, § 3º-A"
+    },
+    {
+      "ref": "fonte:siorg-estrutura-resumida",
+      "dispositivo": "unidade 321 (CONTRAN) na árvore do Ministério dos Transportes, consulta de 2026-11-14"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Redação da Lei 14.599/2023; data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

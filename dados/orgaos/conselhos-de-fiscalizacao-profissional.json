@@ -1,0 +1,65 @@
+{
+  "id": "org:conselhos-de-fiscalizacao-profissional",
+  "tipo": "orgao",
+  "nome": "Conselhos de fiscalização profissional",
+  "resumo": "Conselhos federais e regionais criados por lei para registrar e fiscalizar profissões regulamentadas, como medicina, engenharia e contabilidade. Cobram anuidades e prestam contas ao TCU.",
+  "detalhes": "Cada profissão regulamentada tem um conselho federal e conselhos regionais criados por lei própria; exemplos: medicina (Lei 3.268/1957, art. 1º), contabilidade (Decreto-Lei 9.295/1946, art. 1º), engenharia e agronomia (Lei 5.194/1966, arts. 24 e 26) e enfermagem (Lei 5.905/1973, art. 1º). A Lei 9.649/1998 quis dar aos conselhos caráter privado, mas o STF declarou essa regra inconstitucional (ADI 1.717) e os trata como autarquias federais que exercem poder de polícia, de tributar e de punir (ADI 4.697). As anuidades são tributos, contribuições de interesse das categorias profissionais (CF, art. 149), com tetos fixados na Lei 12.514/2011. Em 2025 o TCU contava 557 conselhos, 30 federais e 527 regionais; o conselho federal consolida no seu relatório de gestão as contas do seu sistema. A OAB tem regime próprio e fica fora deste conjunto (org:oab).",
+  "tipo_orgao": "conjunto",
+  "poder": "executivo",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:lei-3268-1957",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-lei-9295-1946",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-5194-1966",
+      "dispositivo": "arts. 24 e 26"
+    },
+    {
+      "ref": "norma:lei-5905-1973",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:lei-9649-1998",
+      "dispositivo": "art. 58",
+      "nota": "caput e §§ 1º, 2º e 4º a 8º declarados inconstitucionais na ADI 1.717"
+    },
+    {
+      "ref": "fonte:stf-adi-1717",
+      "dispositivo": "decisão de 7/11/2002"
+    },
+    {
+      "ref": "fonte:stf-adi-4697-acordao",
+      "dispositivo": "ementa, itens 1 a 3"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 149, caput"
+    },
+    {
+      "ref": "norma:lei-12514-2011",
+      "dispositivo": "arts. 3º a 6º"
+    },
+    {
+      "ref": "fonte:tcu-noticia-dn-216-2025",
+      "dispositivo": "número de conselhos e consolidação das contas"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Cada conselho tem a data da sua lei; a mais antiga aqui citada é o Decreto-Lei 9.295/1946. A Lei 3.268/1957 diz que os conselhos de medicina foram instituídos pelo Decreto-Lei 7.955/1945, não lido."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D63 b). Poder 'executivo' pela D64: para o STF os conselhos são autarquias federais (ADI 1.717; ADI 4.697, ementa, item 1), e algumas leis de criação dizem o mesmo (Lei 3.268/1957 e Lei 5.905/1973, art. 1º: 'autarquia'). Esfera 'federal' porque são autarquias federais segundo o STF, inclusive os regionais. Da Lei 9.649/1998, art. 58, ficaram fora da ADI 1.717 o § 3º (empregados regidos pela CLT; ação prejudicada nesse ponto) e o § 9º (exclui a OAB). Nenhum conselho virou nó próprio: a CF não nomeia nenhum além da OAB, e as relações (anuidade, contas ao TCU) são comuns a todos. Não achamos lista oficial publicada dos 557 conselhos; ver aviso:casos-de-fronteira-sem-lista-de-membros.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "org:cndh",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional dos Direitos Humanos",
+  "sigla": "CNDH",
+  "resumo": "Colegiado paritário que recebe denúncias de violação de direitos humanos, apura responsabilidades e aplica sanções como advertência e censura pública.",
+  "detalhes": "Vela pelo respeito aos direitos humanos por parte do poder público e de particulares: recebe denúncias, realiza procedimentos de apuração com poder de requisitar informações e o auxílio da Polícia Federal, expede recomendações e representa a outras autoridades, inclusive ao Procurador-Geral da República para pedir intervenção federal (Lei 12.986/2014, arts. 4º e 5º). Pode aplicar advertência, censura pública, recomendação de afastamento de agente público e recomendação de corte de verbas a entidades (art. 6º). Tem 22 membros: 11 do poder público (entre eles o Procurador-Geral da República, dois deputados e dois senadores) e 11 da sociedade civil, nove deles eleitos em encontro nacional para dois anos (art. 3º). Decide por maioria absoluta (art. 8º, § 3º).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-dos-direitos-humanos-e-da-cidadania",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 319 (CNDH) na árvore do Ministério dos Direitos Humanos e da Cidadania, consulta de 2026-11-14"
+        }
+      ],
+      "nota": "A lei não diz em que ministério o conselho fica; a posição vem do SIORG."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12986-2014",
+      "dispositivo": "arts. 1º a 8º"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-06-03",
+    "ate": null,
+    "nota": "A Lei 12.986/2014 transformou no CNDH o Conselho de Defesa dos Direitos da Pessoa Humana, criado pela Lei 4.319/1964."
+  },
+  "notas": "Contagem dos 22 membros a partir da Lei 12.986, art. 3º: inciso I, alíneas a a i (1+1+2+2+1+1+1+1+1 = 11); inciso II (1+9+1 = 11). A alínea I, a, ainda fala em 'Secretário Especial dos Direitos Humanos', cargo que não existe mais com esse nome; não pesquisamos quem ocupa a vaga hoje.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

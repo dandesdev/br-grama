@@ -1,0 +1,44 @@
+{
+  "id": "org:organismos-internacionais",
+  "tipo": "orgao",
+  "nome": "Organismos internacionais de que o Brasil é membro",
+  "resumo": "Organizações formadas por Estados das quais o Brasil faz parte por tratado promulgado, como ONU, OEA, Mercosul e OMC.",
+  "detalhes": "O Brasil entra numa organização internacional por tratado que o Presidente celebra e o Congresso aprova (CF, arts. 49, I, e 84, VIII); depois um decreto o promulga, como os citados aqui. Exemplos: a ONU, cuja Carta inclui o Estatuto da Corte Internacional de Justiça (Decreto 19.841/1945); a OEA (Decreto 30.544/1952); o Mercosul, criado pelo Tratado de Assunção (Decreto 350/1991); e a OMC, cujo acordo constitutivo integra a Ata Final da Rodada Uruguai (Decreto 1.355/1994). A CF manda o Brasil buscar a integração econômica, política, social e cultural dos povos da América Latina (art. 4º, parágrafo único). A Corte Interamericana de Direitos Humanos e o Tribunal Penal Internacional, que têm jurisdição sobre o Brasil ou sobre brasileiros, aparecem como nós próprios.",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "internacional",
+  "fontes": [
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 4º, parágrafo único; art. 49, I; art. 84, VIII"
+    },
+    {
+      "ref": "norma:decreto-19841-1945",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-30544-1952",
+      "dispositivo": "ementa"
+    },
+    {
+      "ref": "norma:decreto-350-1991",
+      "dispositivo": "art. 1º"
+    },
+    {
+      "ref": "norma:decreto-1355-1994",
+      "dispositivo": "art. 1º e índice do anexo"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Cada organização tem a sua data; a mais antiga aqui citada é a ONU, cuja Carta o Brasil promulgou em 1945."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D63 b). Lista de exemplos, não exaustiva (D07): o Brasil é parte de muitas outras organizações; a lista dos atos internacionais em vigor é mantida pelo Ministério das Relações Exteriores e não foi consultada (ver aviso:casos-de-fronteira-sem-lista-de-membros). A OEA entrou só pela ementa e pelos dados de publicação do decreto (API do Senado), porque o texto não estava acessível. As relações 'celebra' (Presidente) e 'delibera' (Congresso) sobre tratados já existem e apontam para obj:tratado-internacional; não foram repetidas. A Representação Brasileira no Parlamento do Mercosul é órgão do Congresso (org:representacao-brasileira-no-parlamento-do-mercosul). Poder 'nao-estatal' e esfera 'internacional': as organizações estão fora do Estado brasileiro.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

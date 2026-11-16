@@ -1,0 +1,31 @@
+{
+  "id": "rel:corte-interamericana-julga-uniao",
+  "tipo": "relacao",
+  "nome": "A Corte Interamericana de Direitos Humanos julga o Brasil por violações da Convenção Americana",
+  "relacao": "julga",
+  "de": "org:corte-interamericana-de-direitos-humanos",
+  "para": "ente:uniao",
+  "condicao": "Casos levados pela Comissão Interamericana ou por outro Estado-Parte, sobre fatos posteriores a 10/12/1998. O Brasil se compromete a cumprir a decisão; a parte da sentença que fixa indenização pode ser executada no país.",
+  "vigencia": {
+    "de": "2002-11-11",
+    "ate": null,
+    "nota": "Publicação do Decreto 4.463/2002. A declaração de reconhecimento foi depositada na OEA em 10/12/1998."
+  },
+  "fontes": [
+    {
+      "ref": "norma:decreto-678-1992",
+      "dispositivo": "Convenção, arts. 61, 62, 63 e 68"
+    },
+    {
+      "ref": "norma:decreto-4463-2002",
+      "dispositivo": "art. 1º"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Alvo ente:uniao porque é a União que responde pelo Brasil no plano internacional; o caso pode tratar de atos de estados ou municípios (leitura nossa). Os casos já julgados contra o Brasil não foram levantados.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

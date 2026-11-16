@@ -1,0 +1,26 @@
+{
+  "id": "rel:ministro-de-estado-designa-membros-do-cgen",
+  "tipo": "relacao",
+  "nome": "O Ministro do Meio Ambiente designa os conselheiros do CGen",
+  "relacao": "designa",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:cgen",
+  "condicao": "Designa titulares e suplentes indicados pelos órgãos e entidades; o conselheiro titular do ministério preside o CGen.",
+  "orgao_exercicio": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "fontes": [
+    {
+      "ref": "norma:decreto-8772-2016",
+      "dispositivo": "art. 7º, §§ 1º a 3º"
+    }
+  ],
+  "vigencia": {
+    "de": "2016-05-12",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

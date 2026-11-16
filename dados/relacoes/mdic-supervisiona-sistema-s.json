@@ -1,0 +1,36 @@
+{
+  "id": "rel:mdic-supervisiona-sistema-s",
+  "tipo": "relacao",
+  "nome": "O Ministério do Desenvolvimento, Indústria, Comércio e Serviços supervisiona a Apex-Brasil e a ABDI",
+  "relacao": "supervisiona",
+  "de": "org:ministerio-do-desenvolvimento-industria-comercio-e-servicos",
+  "para": "org:sistema-s",
+  "condicao": "Só a Apex-Brasil e a ABDI, com as quais o ministério pode celebrar contrato de gestão. O Poder Executivo define os termos do contrato, aprova o orçamento-programa e dá parecer sobre o relatório anual.",
+  "vigencia": {
+    "de": "2023-06-20",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 14.600/2023, que nomeia o ministério; a Lei 11.080/2004 já previa o contrato de gestão da ABDI com o ministério da indústria."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-14600-2023",
+      "dispositivo": "art. 34, parágrafo único"
+    },
+    {
+      "ref": "norma:lei-10668-2003",
+      "dispositivo": "art. 9º, I e II; art. 16"
+    },
+    {
+      "ref": "norma:lei-11080-2004",
+      "dispositivo": "arts. 8º e 10"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Verbo das próprias leis: 'supervisionar a gestão' (Lei 10.668/2003, art. 9º; Lei 11.080/2004, art. 8º). O art. 34, parágrafo único, da Lei 14.600/2023 foi lido na cópia pesquisa/brutos/planalto-leis/2026-10-28-f2-executivo/l14600.htm.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

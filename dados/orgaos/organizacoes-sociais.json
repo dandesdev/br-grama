@@ -1,0 +1,37 @@
+{
+  "id": "org:organizacoes-sociais",
+  "tipo": "orgao",
+  "nome": "Organizações sociais",
+  "sigla": "OS",
+  "resumo": "Entidades privadas sem fins lucrativos que o Poder Executivo qualifica para atuar em ensino, pesquisa, tecnologia, meio ambiente, cultura e saúde com recursos públicos, por contrato de gestão.",
+  "detalhes": "A qualificação depende de requisitos do estatuto, como um conselho de administração com representantes do Poder Público e da sociedade civil, e da aprovação do ministro da área (Lei 9.637/1998, arts. 1º a 4º). O contrato de gestão fixa metas e prazos e é fiscalizado pelo órgão supervisor da área, que deve avisar o TCU de irregularidades; a OS pode receber recursos do orçamento, bens públicos e servidores cedidos, e perde a qualificação se descumprir o contrato (arts. 5º a 16). O STF manteve a lei, mas exigiu que a qualificação, o contrato de gestão, as compras e a seleção de pessoal sigam critérios públicos, objetivos e impessoais, e disse que as OS não integram a administração pública e que nada restringe o controle do TCU e do Ministério Público (ADI 1.923). O marco das organizações da sociedade civil (Lei 13.019/2014) não se aplica aos contratos de gestão (art. 3º, III).",
+  "tipo_orgao": "conjunto",
+  "poder": "nao-estatal",
+  "esfera": "federal",
+  "fontes": [
+    {
+      "ref": "norma:lei-9637-1998",
+      "dispositivo": "arts. 1º a 16"
+    },
+    {
+      "ref": "fonte:stf-adi-1923-acordao",
+      "dispositivo": "ementa, itens 15, 18 e 20"
+    },
+    {
+      "ref": "norma:lei-13019-2014",
+      "dispositivo": "art. 3º, III"
+    }
+  ],
+  "vigencia": {
+    "de": "1998-05-18",
+    "ate": null,
+    "nota": "Publicação da Lei 9.637/1998, em vigor na mesma data (art. 25); a lei converteu a MP 1.648-7/1998."
+  },
+  "confianca": "oficial",
+  "notas": "Conjunto (D63 b). Esfera 'federal': o conjunto modela as OS qualificadas pela União na Lei 9.637/1998; estados e municípios têm leis próprias, não pesquisadas, e a lei federal estende alguns efeitos às OS deles quando há reciprocidade (art. 15). A qualificação é dada pelo Poder Executivo com aprovação do ministro da área e do antigo Ministério da Administração Federal e Reforma do Estado (art. 2º, II); não há um órgão único do mapa que qualifique, então não criamos relação para ela, e o vocabulário não tem verbo para 'qualificar' (proposto no diário). Nenhuma OS virou nó próprio. Não achamos lista oficial das OS qualificadas pela União; ver aviso:casos-de-fronteira-sem-lista-de-membros.",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

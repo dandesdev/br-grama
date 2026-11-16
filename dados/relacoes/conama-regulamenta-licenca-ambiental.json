@@ -1,0 +1,26 @@
+{
+  "id": "rel:conama-regulamenta-licenca-ambiental",
+  "tipo": "relacao",
+  "nome": "O Conama fixa normas e critérios do licenciamento ambiental",
+  "relacao": "regulamenta",
+  "de": "org:conama",
+  "para": "obj:licenca-ambiental",
+  "condicao": "Por proposta do Ibama; o licenciamento é feito pelos estados e supervisionado pelo Ibama.",
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 8º, I"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Redação da Lei 7.804/1989 para o art. 8º, I; data de início não levantada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

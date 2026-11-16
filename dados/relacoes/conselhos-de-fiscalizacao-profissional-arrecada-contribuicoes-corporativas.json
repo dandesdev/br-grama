@@ -1,0 +1,32 @@
+{
+  "id": "rel:conselhos-de-fiscalizacao-profissional-arrecada-contribuicoes-corporativas",
+  "tipo": "relacao",
+  "nome": "Os conselhos de fiscalização profissional cobram anuidades",
+  "relacao": "arrecada",
+  "de": "org:conselhos-de-fiscalizacao-profissional",
+  "para": "obj:tributo-contribuicoes-corporativas",
+  "condicao": "Cobram anuidades de profissionais e empresas inscritos, até os tetos da lei (R$ 500 para nível superior e R$ 250 para nível técnico, corrigidos pelo INPC); cada conselho federal fixa o valor exato.",
+  "vigencia": {
+    "de": "2011-10-31",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 12.514/2011, que fixou os tetos; as anuidades são anteriores e vinham das leis de cada conselho."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-12514-2011",
+      "dispositivo": "arts. 3º a 6º"
+    },
+    {
+      "ref": "fonte:stf-adi-4697-acordao",
+      "dispositivo": "ementa, itens 2 e 3"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "O STF classifica as anuidades como contribuições de interesse das categorias profissionais (CF, art. 149): ADI 4.697, ementa, item 3. A Lei 12.514/2011 vale quando a lei do conselho não dispõe de outro modo (art. 3º).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

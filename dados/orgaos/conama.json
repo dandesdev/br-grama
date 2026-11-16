@@ -1,0 +1,57 @@
+{
+  "id": "org:conama",
+  "tipo": "orgao",
+  "nome": "Conselho Nacional do Meio Ambiente",
+  "sigla": "Conama",
+  "resumo": "Colegiado do Sisnama, presidido pelo Ministro do Meio Ambiente, que fixa normas e padrões ambientais nacionais, inclusive os critérios do licenciamento ambiental.",
+  "detalhes": "É o órgão consultivo e deliberativo do Sisnama: assessora o Conselho de Governo e delibera sobre normas e padrões ambientais (Lei 6.938/1981, art. 6º, II). Fixa, por proposta do Ibama, normas e critérios para o licenciamento feito pelos estados; fixa, com exclusividade, os padrões nacionais de poluição por veículos, aeronaves e embarcações; pode exigir estudos de impacto ambiental e, por representação do Ibama, determinar a perda de benefícios fiscais e de crédito oficial de quem polui (art. 8º). Estados e municípios fazem normas supletivas, respeitando as do Conama (art. 6º, §§ 1º e 2º). O plenário reúne representantes dos ministérios, de órgãos ambientais federais, de cada estado e do DF, de municípios, de entidades ambientalistas, de trabalhadores e de empresas; os da sociedade têm mandato de dois anos e todos são designados pelo Ministro (Decreto 99.274/1990, art. 5º-A).",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 1023 (CONAMA) na árvore do Ministério do Meio Ambiente e Mudança do Clima, consulta de 2026-11-14"
+        },
+        {
+          "ref": "norma:decreto-99274-1990",
+          "dispositivo": "art. 5º-A, I e § 10"
+        }
+      ],
+      "nota": "A lei não diz a qual ministério o Conama pertence; a posição vem do SIORG e do decreto, que entrega a presidência e a designação dos membros ao Ministro do Meio Ambiente."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 6º, II, e §§ 1º e 2º; art. 7º; art. 8º"
+    },
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 3º, II; art. 4º; art. 5º-A; art. 6º"
+    }
+  ],
+  "vigencia": {
+    "de": "1981-09-02",
+    "ate": null,
+    "nota": "Criado pela Lei 6.938/1981 (art. 7º), em vigor na publicação. A composição atual é a do Decreto 11.417/2023, que deu nova redação ao Decreto 99.274/1990."
+  },
+  "estrutura_continua": [
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 4º",
+      "nota": "Plenário, Comitê de Integração de Políticas Ambientais, câmaras técnicas, grupos de trabalho e grupos assessores"
+    }
+  ],
+  "notas": "Lei 6.938, art. 8º, parágrafo único (redação da Lei 8.028/1990), ainda diz que o presidente do Conama é o 'Secretário do Meio Ambiente' (da Presidência, extinta); o Decreto 99.274, art. 5º-A, I (Decreto 11.417/2023), dá a presidência ao Ministro do Meio Ambiente e Mudança do Clima. O desencontro já está registrado em aviso:sisnama-orgao-central-desatualizado, que trata do órgão central; não abrimos outro. O Decreto 99.274, art. 5º-A, § 7º, dá mandato de dois anos aos 'incisos IX a XII' (municípios, sociedade civil, empresas e membro honorário).",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

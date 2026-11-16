@@ -1,0 +1,59 @@
+{
+  "id": "org:crsfn",
+  "tipo": "orgao",
+  "nome": "Conselho de Recursos do Sistema Financeiro Nacional",
+  "sigla": "CRSFN",
+  "resumo": "Última instância administrativa dos recursos contra punições do Banco Central, da CVM e do Coaf; tem oito conselheiros, metade do governo e metade do mercado.",
+  "detalhes": "Julga, em última instância administrativa, os recursos contra decisões do Banco Central e da CVM em processos sancionadores e contra as penas aplicadas pelo Coaf, além de recursos sobre crédito rural e recolhimento compulsório (Lei 13.506/2017, art. 29, § 1º; Lei 13.974/2020, art. 6º, § 1º; Decreto 9.889/2019, art. 2º). Herdou do CMN, em 1995, o julgamento dos recursos contra penalidades do Banco Central (Lei 9.069/1995, art. 81). Tem oito conselheiros: dois indicados pelo Ministro da Fazenda, um pelo Presidente do Banco Central, um pelo Presidente da CVM e quatro por entidades dos mercados financeiro e de capitais, todos designados pelo Ministro; preside um dos indicados pelo Ministro, com voto de qualidade (Decreto 9.889, arts. 3º e 8º). As sessões e decisões são públicas.",
+  "tipo_orgao": "colegiado",
+  "poder": "executivo",
+  "esfera": "federal",
+  "ente": "ente:uniao",
+  "contido_em": "org:ministerio-da-fazenda",
+  "campos": {
+    "contido_em": {
+      "fontes": [
+        {
+          "ref": "norma:decreto-9889-2019",
+          "dispositivo": "art. 2º, caput",
+          "nota": "o decreto ainda fala em Ministério da Economia"
+        },
+        {
+          "ref": "fonte:siorg-estrutura-resumida",
+          "dispositivo": "unidade 1463 (CRSFN-CRSNSP) na árvore do Ministério da Fazenda, consulta de 2026-11-14"
+        }
+      ],
+      "nota": "O Decreto 9.889/2019 põe o CRSFN no Ministério da Economia; com a Lei 14.600/2023, o SIORG o põe no Ministério da Fazenda."
+    }
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9069-1995",
+      "dispositivo": "art. 81"
+    },
+    {
+      "ref": "norma:lei-13506-2017",
+      "dispositivo": "art. 29, §§ 1º e 3º"
+    },
+    {
+      "ref": "norma:lei-13974-2020",
+      "dispositivo": "art. 6º, § 1º"
+    },
+    {
+      "ref": "norma:decreto-9889-2019",
+      "dispositivo": "arts. 2º, 3º, 5º e 8º"
+    }
+  ],
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "Criado pelo Decreto 91.152/1985 (citado na Lei 9.069/1995, art. 81), que não foi lido; a data de criação não foi conferida."
+  },
+  "notas": "Criado por decreto (Decreto 91.152/1985, segundo a Lei 9.069/1995, art. 81), mas a competência de julgamento vem de lei, por isso entra pela D63. A unidade do SIORG 1463 tem o nome 'Cons. Recursos do Sist. Fin. Nacional, Cons. Rec. do Sist. Nacion. de Seguros Priv., Prev. Priv. Aberta e Cap.': o mesmo órgão julga também recursos do mercado de seguros (CRSNSP), o que não pesquisamos. O mandato dos conselheiros é fixado no regimento interno (Decreto 9.889, art. 9º, I), que não foi lido.",
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

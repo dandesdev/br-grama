@@ -1,0 +1,35 @@
+{
+  "id": "rel:conselhos-de-fiscalizacao-profissional-presta-contas-a-tcu",
+  "tipo": "relacao",
+  "nome": "Os conselhos de fiscalização profissional prestam contas ao TCU",
+  "relacao": "presta-contas-a",
+  "de": "org:conselhos-de-fiscalizacao-profissional",
+  "para": "org:tcu",
+  "condicao": "O conselho federal inclui no seu relatório de gestão as informações consolidadas dos conselhos regionais, que continuam a publicar as próprias contas.",
+  "vigencia": {
+    "de": null,
+    "ate": null,
+    "nota": "A forma atual vem da DN-TCU 216/2025 (26/3/2025); a obrigação é anterior, e a data em que começou não foi pesquisada."
+  },
+  "fontes": [
+    {
+      "ref": "fonte:tcu-noticia-dn-216-2025",
+      "dispositivo": "DN 216/2025"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 70, parágrafo único"
+    },
+    {
+      "ref": "fonte:stf-adi-4697-acordao",
+      "dispositivo": "ementa, item 1",
+      "nota": "conselhos como autarquias federais"
+    }
+  ],
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

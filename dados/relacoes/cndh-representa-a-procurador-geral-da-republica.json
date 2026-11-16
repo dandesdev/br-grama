@@ -1,0 +1,29 @@
+{
+  "id": "rel:cndh-representa-a-procurador-geral-da-republica",
+  "tipo": "relacao",
+  "nome": "O CNDH pode pedir ao PGR a intervenção federal por violação de direitos humanos",
+  "relacao": "representa-a",
+  "de": "org:cndh",
+  "para": "cargo:procurador-geral-da-republica",
+  "condicao": "Representa ao Procurador-Geral da República para fins de intervenção federal em caso de violação dos direitos da pessoa humana.",
+  "fontes": [
+    {
+      "ref": "norma:lei-12986-2014",
+      "dispositivo": "art. 4º, XIV, c"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 34, VII, b"
+    }
+  ],
+  "vigencia": {
+    "de": "2014-06-03",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

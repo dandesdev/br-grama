@@ -1,0 +1,29 @@
+{
+  "id": "rel:cnbs-julga-recursos-contra-ctnbio",
+  "tipo": "relacao",
+  "nome": "O CNBS decide em última instância sobre liberação comercial de transgênicos já analisada pela CTNBio",
+  "relacao": "julga-recursos-contra",
+  "de": "org:cnbs",
+  "para": "org:ctnbio",
+  "condicao": "Por recurso dos órgãos de registro e fiscalização, em 30 dias da publicação da decisão técnica da CTNBio, ou por avocação; decide por conveniência socioeconômica e interesse nacional.",
+  "quorum": {
+    "regra": "maioria-absoluta",
+    "nota": "Reunião instalada com seis membros (art. 9º, § 5º)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-11105-2005",
+      "dispositivo": "art. 8º, § 1º, II e III; art. 16, § 7º"
+    }
+  ],
+  "vigencia": {
+    "de": "2005-03-28",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rel:ministro-de-estado-preside-conama",
+  "tipo": "relacao",
+  "nome": "O Ministro do Meio Ambiente preside o Conama",
+  "relacao": "preside",
+  "de": "cargo:ministro-de-estado",
+  "para": "org:conama",
+  "condicao": "O Ministro também designa os conselheiros titulares e suplentes indicados pelos órgãos e entidades.",
+  "orgao_exercicio": "org:ministerio-do-meio-ambiente-e-mudanca-do-clima",
+  "fontes": [
+    {
+      "ref": "norma:decreto-99274-1990",
+      "dispositivo": "art. 5º-A, I"
+    },
+    {
+      "ref": "norma:lei-6938-1981",
+      "dispositivo": "art. 8º, parágrafo único",
+      "nota": "a lei ainda fala em 'Secretário do Meio Ambiente'"
+    }
+  ],
+  "vigencia": {
+    "de": "2023-01-01",
+    "ate": null,
+    "incerta": true,
+    "nota": "Redação do Decreto 11.417/2023 (art. 5º-A); a data exata em que a presidência passou ao Ministro do Meio Ambiente e Mudança do Clima não foi pesquisada."
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}

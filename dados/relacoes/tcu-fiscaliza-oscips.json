@@ -1,0 +1,30 @@
+{
+  "id": "rel:tcu-fiscaliza-oscips",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza o uso de recursos federais pelas OSCIPs",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "org:oscips",
+  "condicao": "Nos termos de parceria com a União: quem fiscaliza o termo deve dar ciência ao tribunal de contas e ao Ministério Público de irregularidades no uso de recursos públicos. Nos estados e municípios, cabe ao tribunal de contas respectivo.",
+  "vigencia": {
+    "de": "1999-03-24",
+    "ate": null
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-9790-1999",
+      "dispositivo": "art. 12"
+    },
+    {
+      "ref": "norma:cf-1988",
+      "dispositivo": "art. 70, parágrafo único"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "A lei diz 'Tribunal de Contas respectivo'; a ligação ao TCU vale para as parcerias com a União (leitura nossa do art. 12 com o art. 70, parágrafo único, da CF).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

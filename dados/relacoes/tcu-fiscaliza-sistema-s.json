@@ -1,0 +1,63 @@
+{
+  "id": "rel:tcu-fiscaliza-sistema-s",
+  "tipo": "relacao",
+  "nome": "O TCU fiscaliza os serviços sociais autônomos",
+  "relacao": "fiscaliza",
+  "de": "org:tcu",
+  "para": "org:sistema-s",
+  "condicao": "Os responsáveis pelas entidades que recebem contribuições parafiscais estão sob a sua jurisdição. Nas que têm contrato de gestão, o TCU fiscaliza a execução do contrato e recebe as contas anuais.",
+  "vigencia": {
+    "de": "1992-07-17",
+    "ate": null,
+    "incerta": true,
+    "nota": "Vigência da Lei 8.443/1992; as leis de cada entidade vieram depois (a de 1991, das Pioneiras Sociais, já previa a fiscalização pelo TCU)."
+  },
+  "fontes": [
+    {
+      "ref": "norma:lei-8443-1992",
+      "dispositivo": "art. 5º, V"
+    },
+    {
+      "ref": "norma:lei-8706-1993",
+      "dispositivo": "art. 1º",
+      "nota": "Sest e Senat"
+    },
+    {
+      "ref": "norma:lei-8246-1991",
+      "dispositivo": "art. 3º, V",
+      "nota": "Pioneiras Sociais"
+    },
+    {
+      "ref": "norma:lei-10668-2003",
+      "dispositivo": "arts. 17 e 18",
+      "nota": "Apex-Brasil"
+    },
+    {
+      "ref": "norma:lei-11080-2004",
+      "dispositivo": "art. 9º, II; art. 14",
+      "nota": "ABDI"
+    },
+    {
+      "ref": "norma:lei-12897-2013",
+      "dispositivo": "art. 11, II; art. 16",
+      "nota": "Anater"
+    },
+    {
+      "ref": "norma:lei-13958-2019",
+      "dispositivo": "art. 17, II; art. 19",
+      "nota": "AgSUS"
+    },
+    {
+      "ref": "norma:lei-14002-2020",
+      "dispositivo": "arts. 18 e 19",
+      "nota": "Embratur"
+    }
+  ],
+  "confianca": "oficial",
+  "notas": "Lei 8.443/1992, art. 5º, V: a jurisdição do TCU abrange 'os responsáveis por entidades dotadas de personalidade jurídica de direito privado que recebam contribuições parafiscais e prestem serviço de interesse público ou social'. A Lei 8.706/1993, art. 1º, ressalva a fiscalização dos recursos do Sest e do Senat pelo TCU (cópia em pesquisa/brutos/planalto-leis/2026-10-27-sugestoes/l8706-wayback-20261004.htm). O Sescoop também está sujeito ao TCU (MP 2.168-40/2001, segundo as notas de org:sistema-s; dispositivo não relido aqui).",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-fronteira"
+  }
+}

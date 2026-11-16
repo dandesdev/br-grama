@@ -1,0 +1,29 @@
+{
+  "id": "rel:conanda-gere-fundo-nacional-para-a-crianca-e-o-adolescente",
+  "tipo": "relacao",
+  "nome": "O Conanda gere o Fundo Nacional para a Criança e o Adolescente",
+  "relacao": "gere",
+  "de": "org:conanda",
+  "para": "obj:fundo-nacional-para-a-crianca-e-o-adolescente",
+  "condicao": "Gere o fundo e fixa os critérios para o uso dos recursos.",
+  "fontes": [
+    {
+      "ref": "norma:lei-8242-1991",
+      "dispositivo": "art. 2º, X"
+    },
+    {
+      "ref": "norma:decreto-9579-2018",
+      "dispositivo": "art. 77, VIII"
+    }
+  ],
+  "vigencia": {
+    "de": "1991-10-16",
+    "ate": null
+  },
+  "confianca": "oficial",
+  "verificacao": {
+    "status": "coletado",
+    "em": "2026-11-15",
+    "tarefa": "f4-colegiados"
+  }
+}
