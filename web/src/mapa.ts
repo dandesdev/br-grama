@@ -285,6 +285,12 @@ export class Mapa {
       boxSelectionEnabled: false,
     });
     this.cy.fit(undefined, 40);
+    // No celular (D65) o mapa inteiro não cabe legível: começa na Presidência, em zoom de leitura.
+    const inicio = this.cy.getElementById("org:presidencia-da-republica");
+    if (container.clientWidth < 760 && inicio.nonempty()) {
+      this.cy.zoom(0.55);
+      this.cy.center(inicio);
+    }
   }
 
   reaplicarEstilo() {

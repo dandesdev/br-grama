@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="previa" role="note">
-      <strong>Versão 1.0, retrato de 01/10/2026.</strong> Constituição, leis estruturantes, orçamento de 2023 a 2025 e calendário, com a fonte de cada informação. Não use como referência oficial: confira a fonte citada.
+      <strong>Versão 1.0, retrato de 01/10/2026.</strong> <span class="longo">Constituição, leis estruturantes, orçamento de 2023 a 2025 e calendário, com a fonte de cada informação.</span> Não use como referência oficial: confira a fonte citada.
       <a href="https://github.com/dandesdev/br-grama" target="_blank" rel="noopener">Código e dados</a>
     </div>
     <header class="barra">
@@ -20,7 +20,8 @@
         <input id="busca" type="search" placeholder="Buscar órgão, cargo ou unidade…" autocomplete="off" aria-label="Buscar órgão, cargo ou unidade" />
         <ul id="busca-resultados" role="listbox" hidden></ul>
       </div>
-      <div class="camadas" role="group" aria-label="Camadas">
+      <button id="filtros" class="botao-texto so-celular" aria-expanded="false" aria-controls="camadas">Filtros</button>
+      <div class="camadas" id="camadas" role="group" aria-label="Camadas">
         <span class="rotulo">Relações</span>
         <label class="chave" title="Sem esta opção, as relações aparecem só ao clicar em um órgão ou cargo"><input type="checkbox" id="todas-relacoes" /> Todas</label>
         <details class="menu">
@@ -53,7 +54,10 @@
         <div id="calendario" aria-label="Calendário dos ciclos e dos mandatos" hidden></div>
         <div id="sobre" aria-label="Sobre o br-grama" hidden></div>
       </div>
-      <aside id="painel" aria-live="polite"></aside>
+      <div id="folha" data-estado="recolhida">
+        <button id="alca" class="so-celular" aria-controls="painel" aria-expanded="false"><span class="puxador" aria-hidden="true"></span><span id="alca-titulo">Como funciona o Estado brasileiro</span></button>
+        <aside id="painel" aria-live="polite"></aside>
+      </div>
     </main>
     <script type="module" src="./src/main.ts"></script>
   </body>

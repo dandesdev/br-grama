@@ -222,6 +222,38 @@ busca.addEventListener("keydown", (ev) => {
   if (ev.key === "Escape") resultados.hidden = true;
 });
 
+// ---------- Celular (D65): filtros recolhíveis e painel como folha que sobe da base ----------
+const celular = matchMedia("(max-width: 760px)");
+const botaoFiltros = $<HTMLButtonElement>("filtros");
+botaoFiltros.addEventListener("click", () => {
+  const aberto = document.body.classList.toggle("filtros-abertos");
+  botaoFiltros.setAttribute("aria-expanded", String(aberto));
+});
+// Escolher um processo ou uma camada fecha os filtros, para o mapa aparecer.
+$("camadas").addEventListener("change", () => {
+  if (!celular.matches) return;
+  document.body.classList.remove("filtros-abertos");
+  botaoFiltros.setAttribute("aria-expanded", "false");
+});
+type EstadoFolha = "recolhida" | "meia" | "cheia";
+const folha = $("folha");
+const alca = $<HTMLButtonElement>("alca");
+function estadoFolha(estado: EstadoFolha) {
+  folha.dataset.estado = estado;
+  alca.setAttribute("aria-expanded", String(estado !== "recolhida"));
+}
+alca.addEventListener("click", () => {
+  const ordem: EstadoFolha[] = ["recolhida", "meia", "cheia"];
+  estadoFolha(ordem[(ordem.indexOf(folha.dataset.estado as EstadoFolha) + 1) % ordem.length]);
+});
+// Cada vez que o painel muda de conteúdo (a legenda inicial já está lá), o título vai para a alça e a folha sobe até a metade.
+const tituloAlca = () => ($("alca-titulo").textContent = $("painel").querySelector("h2")?.textContent ?? "Detalhes");
+tituloAlca();
+new MutationObserver(() => {
+  tituloAlca();
+  if (celular.matches && folha.dataset.estado === "recolhida") estadoFolha("meia");
+}).observe($("painel"), { childList: true });
+
 // ---------- Tema claro/escuro: as cores dos mapas vêm das variáveis CSS ----------
 $("tema").addEventListener("click", () => {
   const raiz = document.documentElement;
