@@ -1,9 +1,9 @@
 ---
 id: verificacao-f3-fechamento
 escopo: "Revisão independente de f3-fechamento (listas da OAB no quinto constitucional; cópias do Wayback) e aplicação da D58 em dois cargos"
-status: coletada
+status: verificada
 iniciada_em: 2026-11-14
-concluida_em: 2026-11-14
+concluida_em: 2026-11-18
 depende_de: [f3-fechamento]
 ---
 
@@ -48,3 +48,4 @@ Ao terminar, marque as entidades conferidas como `verificado` (com `tarefa: "ver
 - 2026-11-16 — coordenador: 4 cópias que já estavam baixadas e não tinham sido conferidas foram lidas e marcadas: lei-8987-1995 e resolucao-cn-1-2006 (iguais às cópias locais do Planalto), stf-pasta-ministro-edson-fachin (datas de posse conferem) e tcu-curriculos-ministros (página de autoridades com a lista dos ministros). Nova rodada de download (2 h) não trouxe nada: o Wayback respondeu 429 a todos os pedidos depois do primeiro. Ficam 27 coletado, sem cópia baixada.
 - 2026-11-18 — coordenador: nova rodada de download (um pedido a cada 4 min) trouxe 7 cópias antes do limite de 2 h; todas conferidas e marcadas: camara-resolucao-69-1994, decreto-11232-2022, decreto-1775-1996, decreto-99274-1990 e decreto-lei-1110-1970 (iguais às cópias locais), tcm-ba-historia (PDF idêntico) e dou-in-gov-br (página de pesquisa do DOU). Ficam 20 coletado, sem cópia baixada.
 - 2026-11-18 — coordenador: nova rodada de download (um pedido a cada 4 min) trouxe 13 cópias antes do limite de 2 h, todas iguais às cópias locais e marcadas: ec-32-2001, lc-76-1993, lei-10001-2000, lei-10559-2002, lei-11516-2007, lei-11892-2008, lei-12529-2011, lei-13575-2017, lei-14701-2023, lei-14835-2024, lei-1579-1952, lei-5371-1967 e lei-5878-1973. Ficam 7 coletado, sem cópia baixada.
+- 2026-11-18 — coordenador: última rodada trouxe as 7 cópias que faltavam, todas iguais às cópias locais e marcadas: decreto-lei-759-1969, lei-6938-1981, lei-7735-1989, lei-8257-1991, lei-8429-1992, lei-8629-1993 e lei-9615-1998. Pendência da D61 encerrada: as 36 cópias do Wayback foram lidas (35 conferidas e verificadas; fonte:camara-galeria-dos-corregedores ficou com arquivo null e foi verificada em 14/11 depois da correção). Nenhuma entidade coletado.
