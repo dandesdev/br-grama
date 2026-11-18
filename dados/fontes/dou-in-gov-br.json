@@ -15,10 +15,10 @@
   },
   "confianca": "oficial",
   "verificacao": {
-    "status": "coletado",
-    "em": "2026-11-14",
-    "tarefa": "f3-fechamento",
-    "notas": "f3-fechamento: só o campo arquivo mudou (cópia do Wayback de 23/03/2026, conteúdo conferido); antes verificado em verificacao-f0-executivo (2026-10-23): coletado em f0-executivo; URL e conteúdo conferidos (acesso em 2026-10-22/23) | verificacao-f3-fechamento (2026-11-14): cópia não lida (o Wayback respondeu 429, bloqueio por tráfego, por cerca de duas horas); a API de disponibilidade confirma que a captura existe no timestamp do campo arquivo, com status 200 e a mesma URL; falta ler o conteúdo para devolver a verificado"
+    "status": "verificado",
+    "em": "2026-11-18",
+    "tarefa": "verificacao-f3-fechamento",
+    "notas": "coletado em f3-fechamento; cópia do Wayback baixada e conferida em verificacao-f3-fechamento: a cópia é a página de pesquisa do DOU no portal in.gov.br (a mesma do campo url); a fonte é genérica e cada citação traz a URL do ato na nota, com cópias em pesquisa/brutos/dou. Nota da coleta: f3-fechamento: só o campo arquivo mudou (cópia do Wayback de 23/03/2026, conteúdo conferido); antes verificado em verificacao-f0-executivo (2026-10-23): coletado em f0-executivo; URL e conteúdo conferidos (acesso em 2026-10-22/23) | verificacao-f3-fechamento (2026-11-14): cópia não lida (o Wayback respondeu 429, bloqueio por tráfego, por cerca de duas horas); a API de disponibilidade confirma que a captura existe no timestamp do campo arquivo, com status 200 e a mesma URL; falta ler o conteúdo para devolver a verificado"
   },
   "notas": "Fonte genérica para atos publicados no DOU que não viraram 'norma:' própria (nomeações, exonerações, despachos, portarias). Cada citação identifica o ato no 'dispositivo' (tipo, data, edição, seção e página) e traz a URL da página do ato na 'nota'. A página web avisa que não substitui a versão certificada (PDF). Cópias brutas das páginas consultadas em pesquisa/brutos/dou/2026-10-20/. Wayback: cópia de 23/03/2026, conferida em f3-fechamento (2026-11-14)."
 }
